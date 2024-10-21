@@ -1,16 +1,23 @@
 var a03677 =
 [
-    [ "PlayerSetting", "de/d6b/a08378.html", "de/d6b/a08378" ],
-    [ "PlayerSettingMap", "d4/d78/a03677.html#a03676554928fdf5649c8c7f77a128d04", null ],
-    [ "PlayerSettingVector", "d4/d78/a03677.html#a5c88535ec12f87cc432b1c594bf05326", null ],
-    [ "AnnouncerFlags", "d4/d78/a03677.html#a32dfba2d10d91879403874fc75b928fd", [
-      [ "ANNOUNCER_FLAG_DISABLE_BG_QUEUE", "d4/d78/a03677.html#a32dfba2d10d91879403874fc75b928fdade902d5cd94d828fb33601d0d2461828", null ],
-      [ "ANNOUNCER_FLAG_DISABLE_ARENA_QUEUE", "d4/d78/a03677.html#a32dfba2d10d91879403874fc75b928fda9135a4bbd55879aac0e222d69a6a1704", null ],
-      [ "ANNOUNCER_FLAG_DISABLE_AUTOBROADCAST", "d4/d78/a03677.html#a32dfba2d10d91879403874fc75b928fda8cc308de4e117be878954235d6580c5e", null ]
-    ] ],
-    [ "CharacterSettingIndexes", "d4/d78/a03677.html#acd2ee27596acf5e6804faaf9e7b6a1f5", [
-      [ "SETTING_ANNOUNCER_FLAGS", "d4/d78/a03677.html#acd2ee27596acf5e6804faaf9e7b6a1f5a87ac7ec64e9a96e600fff40b442b4ca4", null ],
-      [ "MAX_CHAR_SETTINGS", "d4/d78/a03677.html#acd2ee27596acf5e6804faaf9e7b6a1f5af9d926aa507c306441abf0cd93f9412c", null ]
-    ] ],
-    [ "AzerothcorePSSource", "d4/d78/a03677.html#a50fa156f5e934ed3fa7108da4c510f28", null ]
+    [ "CreatureTextEntry", "d2/df7/a11086.html", "d2/df7/a11086" ],
+    [ "CreatureTextLocale", "da/d96/a11090.html", "da/d96/a11090" ],
+    [ "CreatureTextId", "d9/d27/a11094.html", "d9/d27/a11094" ],
+    [ "CreatureTextMgr", "dc/da6/a11098.html", "dc/da6/a11098" ],
+    [ "CreatureTextLocalizer< Builder >", "d3/ddb/a11102.html", "d3/ddb/a11102" ],
+    [ "sCreatureTextMgr", "d4/d78/a03677.html#a2dc428da007cefe454220dcb355a1cde", null ],
+    [ "CreatureTextGroup", "d4/d78/a03677.html#a9baeb5ff5e542c90d9058942cf0b4bbd", null ],
+    [ "CreatureTextHolder", "d4/d78/a03677.html#aad09b58ddf486cb766cdeb242824cd2d", null ],
+    [ "CreatureTextMap", "d4/d78/a03677.html#ac48698bcbe36b82577c41f42f3f23f09", null ],
+    [ "CreatureTextRepeatGroup", "d4/d78/a03677.html#aa92b7ce1a721a3955751ae25cf01b22a", null ],
+    [ "CreatureTextRepeatIds", "d4/d78/a03677.html#a4a74e5d0af63228e47e1f663570018ae", null ],
+    [ "CreatureTextRepeatMap", "d4/d78/a03677.html#a919aeba9f103d29372eb10a72f3b1142", null ],
+    [ "LocaleCreatureTextMap", "d4/d78/a03677.html#ab39b2d82775a84108d19ed009bd14747", null ],
+    [ "CreatureTextRange", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052", [
+      [ "TEXT_RANGE_NORMAL", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab", null ],
+      [ "TEXT_RANGE_AREA", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385", null ],
+      [ "TEXT_RANGE_ZONE", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a", null ],
+      [ "TEXT_RANGE_MAP", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3", null ],
+      [ "TEXT_RANGE_WORLD", "d4/d78/a03677.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9", null ]
+    ] ]
 ];

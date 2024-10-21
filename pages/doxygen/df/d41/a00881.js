@@ -1,13 +1,15 @@
 var a00881 =
 [
-    [ "spell_ooze_zap", "dc/d98/a15234.html", "dc/d98/a15234" ],
-    [ "spell_ooze_zap_channel_end", "d3/d76/a15238.html", "d3/d76/a15238" ],
-    [ "spell_energize_aoe", "da/d64/a15242.html", "da/d64/a15242" ],
-    [ "SpellScripts", "df/d41/a00881.html#a7da1350130e8c0e2dbb048bb6d532048", [
-      [ "SPELL_OOZE_ZAP", "df/d41/a00881.html#a7da1350130e8c0e2dbb048bb6d532048a1b2971d13842ea79dee4215970f1b0f8", null ],
-      [ "SPELL_OOZE_ZAP_CHANNEL_END", "df/d41/a00881.html#a7da1350130e8c0e2dbb048bb6d532048a02f7e373b9176afcf3033085c6cc4a1d", null ],
-      [ "SPELL_OOZE_CHANNEL_CREDIT", "df/d41/a00881.html#a7da1350130e8c0e2dbb048bb6d532048a5e8e7d71235ca347c586316d35c81f2b", null ],
-      [ "SPELL_ENERGIZED", "df/d41/a00881.html#a7da1350130e8c0e2dbb048bb6d532048a37a0a6328b9098980d1ec0596ddebbca", null ]
+    [ "boss_hydromancer_thespia", "d2/d26/a23270.html", "d2/d26/a23270" ],
+    [ "HydromancerThespia", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130d", [
+      [ "SAY_SUMMON", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dacebbfa1f13b8de4f039f5d550063c7bf", null ],
+      [ "SAY_AGGRO", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_SLAY", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_DEAD", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671", null ],
+      [ "SAY_SPELL", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dad25383e2c00eeae2e4b15e33298d79a2", null ],
+      [ "SPELL_LIGHTNING_CLOUD", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2", null ],
+      [ "SPELL_LUNG_BURST", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6", null ],
+      [ "SPELL_ENVELOPING_WINDS", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92", null ]
     ] ],
-    [ "AddSC_dustwallow_marsh", "df/d41/a00881.html#a90fa5d1f62873c538b717bfbfb93251b", null ]
+    [ "AddSC_boss_hydromancer_thespia", "df/d41/a00881.html#a0a9bb9014bd5526d13141dcef207c234", null ]
 ];

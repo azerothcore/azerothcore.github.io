@@ -1,6 +1,6 @@
 var a01085 =
 [
-    [ "trigger_periodic", "d6/d4d/a27302.html", "d6/d4d/a27302" ],
-    [ "trigger_periodic::trigger_periodicAI", "dc/d9c/a27306.html", "dc/d9c/a27306" ],
-    [ "AddSC_generic_creature", "d2/df3/a01085.html#a50f66c4d6429b38157e35a75a0daa31d", null ]
+    [ "instance_auchenai_crypts", "d1/dcb/a22514.html", "d1/dcb/a22514" ],
+    [ "instance_auchenai_crypts::instance_auchenai_crypts_InstanceMapScript", "d9/d53/a22518.html", "d9/d53/a22518" ],
+    [ "AddSC_instance_auchenai_crypts", "d2/df3/a01085.html#a3a9866226f3a0e32fdb3501e506ab0b5", null ]
 ];

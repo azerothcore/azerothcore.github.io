@@ -1,4 +1,4 @@
 var a00230 =
 [
-    [ "SessionKeyGenerator< Hash >", "d2/d69/a05086.html", "d2/d69/a05086" ]
+    [ "Acore::Crypto::Argon2", "da/df4/a05050.html", "da/df4/a05050" ]
 ];

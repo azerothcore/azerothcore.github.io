@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/CryptoRandom.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/Authentication/SRP6.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,41 +105,60 @@ $(document).ready(function(){initNavTree('d7/d40/a00236.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">CryptoRandom.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">SRP6.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;array&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">SRP6.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoRandom.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d70/a04684"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html">Acore::Crypto</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a2ff283a7b883696205a91f122b194f6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/def/a00446.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a2ff283a7b883696205a91f122b194f6f">Acore::Crypto::GetRandomBytes</a> (<a class="el" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *buf, std::size_t len)</td></tr>
-<tr class="separator:a2ff283a7b883696205a91f122b194f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797cfc74306f60b5c63eecb37a2061d3"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d4/dd9/a03599.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
-<tr class="memitem:a797cfc74306f60b5c63eecb37a2061d3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a797cfc74306f60b5c63eecb37a2061d3">Acore::Crypto::GetRandomBytes</a> (<a class="el" href="../../d4/dd9/a03599.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;c)</td></tr>
-<tr class="separator:a797cfc74306f60b5c63eecb37a2061d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab09d7cc2f8e11fc5fe6b2323d57b7184"><td class="memTemplParams" colspan="2">template&lt;std::size_t S&gt; </td></tr>
-<tr class="memitem:ab09d7cc2f8e11fc5fe6b2323d57b7184"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, S &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a> ()</td></tr>
-<tr class="separator:ab09d7cc2f8e11fc5fe6b2323d57b7184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af1f12790805678378554ea1c14b0c1df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d40/a00236.html#af1f12790805678378554ea1c14b0c1df">SHA1</a> = <a class="el" href="../../d4/d70/a04684.html#ac698fcc9e65a1dd451c5bd72b1b3e368">Acore::Crypto::SHA1</a></td></tr>
+<tr class="separator:af1f12790805678378554ea1c14b0c1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80857313fb18764ec6d5834e183889f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d40/a00236.html#a80857313fb18764ec6d5834e183889f8">SRP6</a> = <a class="el" href="../../d3/df3/a05058.html">Acore::Crypto::SRP6</a></td></tr>
+<tr class="separator:a80857313fb18764ec6d5834e183889f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af1f12790805678378554ea1c14b0c1df" name="af1f12790805678378554ea1c14b0c1df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f12790805678378554ea1c14b0c1df">&#9670;&#160;</a></span>SHA1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d7/d40/a00236.html#af1f12790805678378554ea1c14b0c1df">SHA1</a> =  <a class="el" href="../../d4/d70/a04684.html#ac698fcc9e65a1dd451c5bd72b1b3e368">Acore::Crypto::SHA1</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80857313fb18764ec6d5834e183889f8" name="a80857313fb18764ec6d5834e183889f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80857313fb18764ec6d5834e183889f8">&#9670;&#160;</a></span>SRP6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d7/d40/a00236.html#a80857313fb18764ec6d5834e183889f8">SRP6</a> =  <a class="el" href="../../d3/df3/a05058.html">Acore::Crypto::SRP6</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../d7/d40/a00236.html">CryptoRandom.h</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../dir_6f898d49591bfe46f28764f3b869758a.html">Authentication</a></li><li class="navelem"><a class="el" href="../../d7/d40/a00236.html">SRP6.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

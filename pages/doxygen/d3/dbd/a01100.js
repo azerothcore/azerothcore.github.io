@@ -1,33 +1,36 @@
 var a01100 =
 [
-    [ "achievement_resilient_victory", "df/dfc/a26866.html", "df/dfc/a26866" ],
-    [ "achievement_bg_control_all_nodes", "d8/d83/a26870.html", "d8/d83/a26870" ],
-    [ "achievement_save_the_day", "d6/d78/a26874.html", "d6/d78/a26874" ],
-    [ "achievement_bg_ic_resource_glut", "d5/d4e/a26878.html", "d5/d4e/a26878" ],
-    [ "achievement_bg_ic_glaive_grave", "d4/d47/a26882.html", "d4/d47/a26882" ],
-    [ "achievement_bg_ic_mowed_down", "df/d2d/a26886.html", "df/d2d/a26886" ],
-    [ "achievement_bg_sa_artillery", "d4/d5e/a26890.html", "d4/d5e/a26890" ],
-    [ "achievement_arena_by_type", "de/d60/a26894.html", "de/d60/a26894" ],
-    [ "achievement_sickly_gazelle", "d7/d40/a26898.html", "d7/d40/a26898" ],
-    [ "achievement_everything_counts", "da/dee/a26902.html", "da/dee/a26902" ],
-    [ "achievement_bg_av_perfection", "d5/d1a/a26906.html", "d5/d1a/a26906" ],
-    [ "achievement_sa_defense_of_the_ancients", "d6/de7/a26910.html", "d6/de7/a26910" ],
-    [ "achievement_tilted", "d7/d4a/a26914.html", "d7/d4a/a26914" ],
-    [ "achievement_not_even_a_scratch", "dd/d2f/a26918.html", "dd/d2f/a26918" ],
-    [ "achievement_killed_exp_or_honor_target", "d3/dc4/a26922.html", "d3/dc4/a26922" ],
-    [ "achievement_flirt_with_disaster_perf_check", "d0/dfe/a26926.html", "d0/dfe/a26926" ],
-    [ "ArgentTournamentAreas", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3", [
-      [ "AREA_ARGENT_TOURNAMENT_FIELDS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737", null ],
-      [ "AREA_RING_OF_ASPIRANTS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf", null ],
-      [ "AREA_RING_OF_ARGENT_VALIANTS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d", null ],
-      [ "AREA_RING_OF_ALLIANCE_VALIANTS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504", null ],
-      [ "AREA_RING_OF_HORDE_VALIANTS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826", null ],
-      [ "AREA_RING_OF_CHAMPIONS", "d3/dbd/a01100.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7", null ]
+    [ "DataHeaders", "d3/dbd/a01100.html#a5b5ca0ae07e92e9cad54568049f06fce", null ],
+    [ "RegisterSethekkHallsCreatureAI", "d3/dbd/a01100.html#a4d0e02e340e57e5ff9f0184f82b086d5", null ],
+    [ "SethekkHallsScriptName", "d3/dbd/a01100.html#a96ebd14b5dafc2480cbdb13e0bc4b7ab", null ],
+    [ "eIds", "d3/dbd/a01100.html#a69c4601e4dd1496f746404c6abe87291", [
+      [ "NPC_VOICE_OF_THE_RAVEN_GOD", "d3/dbd/a01100.html#a69c4601e4dd1496f746404c6abe87291aad4ab883c15374d38bc38b0f71f0c86a", null ],
+      [ "NPC_ANZU", "d3/dbd/a01100.html#a69c4601e4dd1496f746404c6abe87291af130c29d37cee0370ac78ac4be4e415f", null ],
+      [ "GO_IKISS_DOOR", "d3/dbd/a01100.html#a69c4601e4dd1496f746404c6abe87291a7975fc4f8b3558e660375d98a9d0e54e", null ],
+      [ "GO_THE_TALON_KINGS_COFFER", "d3/dbd/a01100.html#a69c4601e4dd1496f746404c6abe87291a7957c3a97be229f195e4375af7b06e2c", null ]
     ] ],
-    [ "FlirtWithDisaster", "d3/dbd/a01100.html#a59d6aac4e950d8e6a0265a26e1898c13", [
-      [ "AURA_PERFUME_FOREVER", "d3/dbd/a01100.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85", null ],
-      [ "AURA_PERFUME_ENCHANTRESS", "d3/dbd/a01100.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6", null ],
-      [ "AURA_PERFUME_VICTORY", "d3/dbd/a01100.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c", null ]
+    [ "Encounters", "d3/dbd/a01100.html#abf7d0c9385f088b09a017ee50e9db6ee", [
+      [ "DATA_DARKWEAVER_SYTH", "d3/dbd/a01100.html#abf7d0c9385f088b09a017ee50e9db6eea6dbed6ec6697669d80047612efd58da9", null ],
+      [ "DATA_ANZU", "d3/dbd/a01100.html#abf7d0c9385f088b09a017ee50e9db6eeac072367637c0d4080d6d25a349b54a54", null ],
+      [ "DATA_IKISS", "d3/dbd/a01100.html#abf7d0c9385f088b09a017ee50e9db6eea354bfb39a3150d5f75a42abc68cbcc83", null ]
     ] ],
-    [ "AddSC_achievement_scripts", "d3/dbd/a01100.html#a5091d6f933800f3313078304ad5c38ca", null ]
+    [ "eTypes", "d3/dbd/a01100.html#a31365a35c315c6cb485bcd31f5ba77fd", [
+      [ "DATA_MAGUS_TELESTRA_EVENT", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
+      [ "DATA_ANOMALUS_EVENT", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],
+      [ "DATA_ORMOROK_EVENT", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda521150b4f00d388d28870138ef89029a", null ],
+      [ "DATA_KERISTRASZA_EVENT", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fdacc731df49caf259ade6ae981d7b6fffa", null ],
+      [ "DATA_COMMANDER_EVENT", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fdaeec4cc47ddf1f8b45982ab9b09609204", null ],
+      [ "DATA_TELESTRA_ORB", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49", null ],
+      [ "DATA_ANOMALUS_ORB", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
+      [ "DATA_ORMOROK_ORB", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
+      [ "MAX_ENCOUNTERS", "df/d68/a01385.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
+      [ "DATA_IKISSDOOREVENT", "d3/dbd/a01100.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
+      [ "TYPE_ANZU_ENCOUNTER", "d3/dbd/a01100.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+    ] ],
+    [ "InstanceData", "d3/dbd/a01100.html#a453c4190aaa5e59675ce6366d48c4778", [
+      [ "DATA_GO_TALON_KING_COFFER", "d3/dbd/a01100.html#a453c4190aaa5e59675ce6366d48c4778a25477ff5678a4450f584b7e148c91101", null ],
+      [ "DATA_VOICE_OF_THE_RAVEN_GOD", "d3/dbd/a01100.html#a453c4190aaa5e59675ce6366d48c4778a5c361f6d59a9c9ae12ada6ec074857c9", null ]
+    ] ],
+    [ "GetSethekkHallsAI", "d3/dbd/a01100.html#a9b5213e8c6cd59c731bb4eaad803766d", null ],
+    [ "EncounterCount", "d3/dbd/a01100.html#ae1fbcd81e7256d27efa0288994753839", null ]
 ];

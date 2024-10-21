@@ -1,21 +1,16 @@
 var a03041 =
 [
-    [ "TSpellSummary", "dc/d9a/a06090.html", "dc/d9a/a06090" ],
-    [ "eNPCs", "dc/d23/a03041.html#abaecf87f40b40c4c71ec596a0b73e911", [
-      [ "NPC_BROODLORD", "dc/d23/a03041.html#abaecf87f40b40c4c71ec596a0b73e911a0429b55864dc1628ebf2cc160a93c1dc", null ],
-      [ "NPC_JAN_ALAI", "dc/d23/a03041.html#abaecf87f40b40c4c71ec596a0b73e911a0c9f05f129ebeb37c7b6a6bd0444caca", null ],
-      [ "NPC_SARTHARION", "dc/d23/a03041.html#abaecf87f40b40c4c71ec596a0b73e911ac5fc96320a852557e13f1d4a95c8ff10", null ],
-      [ "NPC_FREYA", "dc/d23/a03041.html#abaecf87f40b40c4c71ec596a0b73e911a5406e0387cdb4e28fe7718f28ec3d752", null ],
-      [ "NPC_INGVAR_UNDEAD", "dd/d39/a01271.html#abaecf87f40b40c4c71ec596a0b73e911ac5f7785a73b2ea4946e698f73996e906", null ],
-      [ "NPC_ANNHYLDE", "dd/d39/a01271.html#abaecf87f40b40c4c71ec596a0b73e911a244024200627132843a0b95f2fdefcb4", null ],
-      [ "NPC_THROW", "dd/d39/a01271.html#abaecf87f40b40c4c71ec596a0b73e911a5c7c851e12a8c23ef9569157753a2546", null ],
-      [ "NPC_FROST_TOMB", "da/dd8/a01265.html#abaecf87f40b40c4c71ec596a0b73e911a8d3888198310322d79e29632f594ac76", null ],
-      [ "NPC_SKELETON", "da/dd8/a01265.html#abaecf87f40b40c4c71ec596a0b73e911ae6d4da6ba356104e95b11d5cd561d0f3", null ]
-    ] ],
-    [ "GetClosestCreatureWithEntry", "dc/d23/a03041.html#a136c0c059281a05f9cb91237ce55be7b", null ],
-    [ "GetClosestGameObjectWithEntry", "dc/d23/a03041.html#a80b13d7c0fa3b835b0834955ed0f93d8", null ],
+    [ "SummonList", "d4/dc6/a06094.html", "d4/dc6/a06094" ],
+    [ "EntryCheckPredicate", "d7/d79/a06098.html", "d7/d79/a06098" ],
+    [ "PlayerOrPetCheck", "df/d5b/a06102.html", "df/d5b/a06102" ],
+    [ "ScriptedAI", "de/de4/a06106.html", "de/de4/a06106" ],
+    [ "HealthCheckEventData", "d9/d59/a06110.html", "d9/d59/a06110" ],
+    [ "BossAI", "de/d8c/a06114.html", "de/d8c/a06114" ],
+    [ "WorldBossAI", "df/d58/a06118.html", "df/d58/a06118" ],
+    [ "ObjectList", "dc/d23/a03041.html#acc68161fe019b33e9356ea1473fba71d", null ],
+    [ "GetClosestCreatureWithEntry", "dc/d23/a03041.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
+    [ "GetClosestGameObjectWithEntry", "dc/d23/a03041.html#acaba34b4ac104e5289c265c1f8524b15", null ],
     [ "GetCreatureListWithEntryInGrid", "dc/d23/a03041.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "dc/d23/a03041.html#a2e3edf6fd8a6865d815af4f8acb184af", null ],
-    [ "GetGameObjectListWithEntryInGrid", "dc/d23/a03041.html#ae9abb80c4e811509bca88e65cf817276", null ],
-    [ "SpellSummary", "dc/d23/a03041.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
+    [ "GetDeadCreatureListInGrid", "dc/d23/a03041.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
+    [ "GetGameObjectListWithEntryInGrid", "dc/d23/a03041.html#ae9abb80c4e811509bca88e65cf817276", null ]
 ];

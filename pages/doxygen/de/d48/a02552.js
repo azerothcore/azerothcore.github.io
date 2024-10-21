@@ -1,37 +1,48 @@
 var a02552 =
 [
-    [ "OPvPCapturePointHP", "d6/de0/a22426.html", "d6/de0/a22426" ],
-    [ "OutdoorPvPHP", "da/dc5/a22430.html", "da/dc5/a22430" ],
-    [ "OutdoorPvPHPBuffZonesNum", "de/d48/a02552.html#a01aada98c8079ea71a361cba06e10640", null ],
-    [ "OutdoorPvPHPSpells", "de/d48/a02552.html#a09664100577cc20866b21589f3c1eb4a", [
-      [ "AlliancePlayerKillReward", "de/d48/a02552.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc", null ],
-      [ "HordePlayerKillReward", "de/d48/a02552.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45", null ],
-      [ "AllianceBuff", "de/d48/a02552.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a", null ],
-      [ "HordeBuff", "de/d48/a02552.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2", null ]
+    [ "DataHeader", "de/d48/a02552.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "OnyxiasLairScriptName", "de/d48/a02552.html#a411397a87d359be66de671f07dbefefe", null ],
+    [ "RegisterOnyxiasLairCreatureAI", "de/d48/a02552.html#a4becd56438e0f64fd4e609bda9b542a4", null ],
+    [ "eAchievementData", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4", [
+      [ "ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611", null ],
+      [ "ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931", null ],
+      [ "ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22", null ],
+      [ "ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9", null ],
+      [ "ACHIEV_TIMED_START_EVENT", "de/d48/a02552.html#aca087c1cb2fbca0c938185dd321856c4a6ac3776ff6343c84361329e38055da04", null ]
     ] ],
-    [ "OutdoorPvPHPTowerType", "de/d48/a02552.html#ad618152baad1f5a1d7f70f40941e8f33", [
-      [ "HP_TOWER_BROKEN_HILL", "de/d48/a02552.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9", null ],
-      [ "HP_TOWER_OVERLOOK", "de/d48/a02552.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447", null ],
-      [ "HP_TOWER_STADIUM", "de/d48/a02552.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84", null ],
-      [ "HP_TOWER_NUM", "de/d48/a02552.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355", null ]
+    [ "eCreatures", "de/d48/a02552.html#a59602e8f26d052c0b6f6bdfe896510b8", [
+      [ "NPC_ONYXIA", "de/d48/a02552.html#a59602e8f26d052c0b6f6bdfe896510b8ac5297157e46436388d2a4e835c06de6e", null ],
+      [ "NPC_ONYXIAN_WHELP", "de/d48/a02552.html#a59602e8f26d052c0b6f6bdfe896510b8a29f399e186a17314b99be364d738371a", null ],
+      [ "NPC_ONYXIAN_LAIR_GUARD", "de/d48/a02552.html#a59602e8f26d052c0b6f6bdfe896510b8ac5a305bf78c6e737c665da793df48e49", null ],
+      [ "NPC_KELESETH", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8a1aa34e102fe5c920939fbbed64fd3bdd", null ],
+      [ "NPC_DALRONN", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8adc8eb044588758e3cfb4ed8c699e483d", null ],
+      [ "NPC_DALRONN_GHOST", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8ad6b59b3f0fa1841b3dbce49b32ce88f7", null ],
+      [ "NPC_SKARVALD", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8a531d439e3ed6f40d45aaf591d93722af", null ],
+      [ "NPC_SKARVALD_GHOST", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8aa4eafbdfd4632f9b207feb03c1c9906e", null ],
+      [ "NPC_INGVAR", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8aa8071c2550f86111dabfe071bb8905ec", null ],
+      [ "NPC_DARK_RANGER_MARRAH", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8a629c86c326a68aa9c57e75b658644e27", null ],
+      [ "NPC_ENSLAVED_PROTO_DRAKE", "d4/dd5/a01244.html#a59602e8f26d052c0b6f6bdfe896510b8ab4269b45260da78a67bfdab9a95d8c2c", null ],
+      [ "NPC_ICHOR_GLOBULE", "db/d1c/a01229.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762", null ]
     ] ],
-    [ "OutdoorPvPHPWorldStates", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95", [
-      [ "HP_UI_TOWER_DISPLAY_A", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5", null ],
-      [ "HP_UI_TOWER_DISPLAY_H", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224", null ],
-      [ "HP_UI_TOWER_COUNT_H", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd", null ],
-      [ "HP_UI_TOWER_COUNT_A", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720", null ],
-      [ "HP_UI_TOWER_SLIDER_N", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc", null ],
-      [ "HP_UI_TOWER_SLIDER_POS", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50", null ],
-      [ "HP_UI_TOWER_SLIDER_DISPLAY", "de/d48/a02552.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad", null ]
+    [ "eGameObjects", "de/d48/a02552.html#a0b356f44d43edb1bff30f404c9469250", [
+      [ "GO_WHELP_SPAWNER", "de/d48/a02552.html#a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d", null ],
+      [ "GO_WHELP_EGG", "de/d48/a02552.html#a0b356f44d43edb1bff30f404c9469250a4695e1a78b0f6094399a19023996f851", null ],
+      [ "GO_MAIN_GATE", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250af7f4bfc022fbae9247e3389c3e755e0b", null ],
+      [ "GO_SOUTH_PORTCULLIS", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250a5ebaf585ae3da6d909256800aebebbfc", null ],
+      [ "GO_EAST_PORTCULLIS", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250a8a57a3fcd514b7a621e04ae73c2647c9", null ],
+      [ "GO_NORTH_PORTCULLIS", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250af8f7a209e9b9e0909610ffbcb8fe94ca", null ],
+      [ "GO_CHAMPIONS_LOOT", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250af347b8590e6d6688cd7cd8a901a01839", null ],
+      [ "GO_CHAMPIONS_LOOT_H", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250a911cbac98e241072502109aef1a58966", null ],
+      [ "GO_EADRIC_LOOT", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250ad29f747e71326720660778477708682f", null ],
+      [ "GO_EADRIC_LOOT_H", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250afec277328734b29a227e6942dcc303e1", null ],
+      [ "GO_PALETRESS_LOOT", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250a22dab9e0abcb8bbe36c42b492a6ae6b1", null ],
+      [ "GO_PALETRESS_LOOT_H", "d2/d2f/a01586.html#a0b356f44d43edb1bff30f404c9469250a558835744936913cd5345f9435739ee0", null ]
     ] ],
-    [ "HP_CREDITMARKER", "de/d48/a02552.html#a3be5b978c2160f84a013071d76c121aa", null ],
-    [ "HP_MAP_A", "de/d48/a02552.html#ab540dae1c3c44e27c4441e9d56e10d1d", null ],
-    [ "HP_MAP_H", "de/d48/a02552.html#ab15c51d80dc177784041dedc55e39c56", null ],
-    [ "HP_MAP_N", "de/d48/a02552.html#a8a39817e7479fa79181e8c99bb83ca5c", null ],
-    [ "HP_TowerArtKit_A", "de/d48/a02552.html#ab9c6e470e4a4759ce2e77f88661521bb", null ],
-    [ "HP_TowerArtKit_H", "de/d48/a02552.html#a6791490624d9d1c2995c6a13659f8692", null ],
-    [ "HP_TowerArtKit_N", "de/d48/a02552.html#ae64775fc45fae501937d72c9d55c8dc1", null ],
-    [ "HPCapturePoints", "de/d48/a02552.html#a23f671f25a8a3e3db11f4a0953b34773", null ],
-    [ "HPTowerFlags", "de/d48/a02552.html#ae6571d986fbbf7b469cf495033f46516", null ],
-    [ "OutdoorPvPHPBuffZones", "de/d48/a02552.html#a876ea3aeffde8ab2532706d13ae6e2ce", null ]
+    [ "eInstanceData", "de/d48/a02552.html#a7395e25d8049b2c60a1c7191d197f5cc", [
+      [ "DATA_ONYXIA", "de/d48/a02552.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817", null ],
+      [ "MAX_ENCOUNTER", "de/d48/a02552.html#a7395e25d8049b2c60a1c7191d197f5cca7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_WHELP_SUMMONED", "de/d48/a02552.html#a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc", null ],
+      [ "DATA_DEEP_BREATH_FAILED", "de/d48/a02552.html#a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d", null ]
+    ] ],
+    [ "GetOnyxiasLairAI", "de/d48/a02552.html#a3573a392c09a4df350f96df672ce58ad", null ]
 ];

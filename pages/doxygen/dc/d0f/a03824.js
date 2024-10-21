@@ -1,11 +1,17 @@
 var a03824 =
 [
-    [ "SkillDiscoveryEntry", "db/d29/a10750.html", "db/d29/a10750" ],
-    [ "SkillDiscoveryList", "dc/d0f/a03824.html#a0c80a6b86b3b7bd5e9c238efa802919b", null ],
-    [ "SkillDiscoveryMap", "dc/d0f/a03824.html#ab7ec6a8662e4edd3167deb3c917d2eab", null ],
-    [ "GetExplicitDiscoverySpell", "dc/d0f/a03824.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
-    [ "GetSkillDiscoverySpell", "dc/d0f/a03824.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
-    [ "HasDiscoveredAllSpells", "dc/d0f/a03824.html#abdf3c2fcf65212466dfb54053e35024c", null ],
-    [ "LoadSkillDiscoveryTable", "dc/d0f/a03824.html#addd95f0a239a27ed32cd943aa1052019", null ],
-    [ "SkillDiscoveryStore", "dc/d0f/a03824.html#a1d624484e07efeeabc8a73a10c75ca4d", null ]
+    [ "ChangeEmail", "dc/d0f/a03824.html#a2a6c83e2d4e6121855beb252f23c905b", null ],
+    [ "ChangePassword", "dc/d0f/a03824.html#a6a9cb892c15d78b5de65738005234ff6", null ],
+    [ "ChangeUsername", "dc/d0f/a03824.html#a3382c6430bfbf14e32ca11b5ac68fc23", null ],
+    [ "CheckPassword", "dc/d0f/a03824.html#a17c28dfcb31af8f4241bb5210408185a", null ],
+    [ "CreateAccount", "dc/d0f/a03824.html#a7a7668ab60ae56c7e71fce77780bb214", null ],
+    [ "DeleteAccount", "dc/d0f/a03824.html#a120323b16b2a5aefa6aa69e8be5ccef6", null ],
+    [ "GetCharactersCount", "dc/d0f/a03824.html#a4fb760897161c3d463f842b28bcf7c20", null ],
+    [ "GetId", "dc/d0f/a03824.html#aa215c9a96c37b8a5d76d980ecf8de114", null ],
+    [ "GetName", "dc/d0f/a03824.html#af911e3860ec519c541d6df35468ee41b", null ],
+    [ "GetSecurity", "dc/d0f/a03824.html#a8280510b2564ec6ea76727218c1687b3", null ],
+    [ "GetSecurity", "dc/d0f/a03824.html#a30b6e5cf1733f0143f86aaeff600215c", null ],
+    [ "IsAdminAccount", "dc/d0f/a03824.html#adb1b210137b09011677c74011addeefa", null ],
+    [ "IsConsoleAccount", "dc/d0f/a03824.html#a81bbc2af33211a3130c6aa215f5607b7", null ],
+    [ "IsPlayerAccount", "dc/d0f/a03824.html#a63751f144cb7acb57fc20f0caf5e7043", null ]
 ];

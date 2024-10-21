@@ -1,6 +1,5 @@
 var a01742 =
 [
-    [ "instance_hellfire_ramparts", "d1/d95/a23482.html", "d1/d95/a23482" ],
-    [ "instance_hellfire_ramparts::instance_hellfire_ramparts_InstanceMapScript", "d1/df7/a23486.html", "d1/df7/a23486" ],
-    [ "AddSC_instance_hellfire_ramparts", "d1/dd5/a01742.html#a4172290a7e1e8ffcbf19519225978acf", null ]
+    [ "ChatLogScript", "dc/d8d/a27050.html", "dc/d8d/a27050" ],
+    [ "AddSC_chat_log", "d1/dd5/a01742.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ]
 ];

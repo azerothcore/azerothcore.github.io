@@ -1,44 +1,59 @@
 var a02801 =
 [
-    [ "AhnKahetScriptName", "d8/d1e/a02801.html#a506431ce00265fd3122a043804560c86", null ],
-    [ "DataHeader", "d8/d1e/a02801.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAhnKahetCreatureAI", "d8/d1e/a02801.html#aa9d11f00daa1d5fe3fccebf717ab93f6", null ],
-    [ "AhnKahetActions", "d8/d1e/a02801.html#ab602224ee107d47ea7a8fd34e7e11dcf", [
-      [ "ACTION_REMOVE_PRISON", "d8/d1e/a02801.html#ab602224ee107d47ea7a8fd34e7e11dcfa16fb04e016b069c88508a114006910a8", null ]
+    [ "AchievementOfflinePlayerUpdate", "dc/d03/a05818.html", "dc/d03/a05818" ],
+    [ "CriteriaProgress", "da/d1d/a05822.html", "da/d1d/a05822" ],
+    [ "AchievementCriteriaData", "d7/d6f/a05826.html", "d7/d6f/a05826" ],
+    [ "AchievementCriteriaDataSet", "df/dc9/a05922.html", "df/dc9/a05922" ],
+    [ "AchievementReward", "de/d4c/a05926.html", "de/d4c/a05926" ],
+    [ "AchievementRewardLocale", "d8/d5e/a05930.html", "d8/d5e/a05930" ],
+    [ "CompletedAchievementData", "da/d76/a05934.html", "da/d76/a05934" ],
+    [ "AchievementMgr", "dc/d8f/a05938.html", "dc/d8f/a05938" ],
+    [ "AchievementGlobalMgr", "df/de3/a05942.html", "df/de3/a05942" ],
+    [ "MAX_ACHIEVEMENT_CRITERIA_DATA_TYPE", "d8/d1e/a02801.html#aa36806d2931b69d34909b50f40ca8c0e", null ],
+    [ "sAchievementMgr", "d8/d1e/a02801.html#af422afe119839b631fd67247eddff1e6", null ],
+    [ "AchievementCriteriaDataMap", "d8/d1e/a02801.html#ac16b4d5f47fe0db16d59dc67e86e42be", null ],
+    [ "AchievementCriteriaEntryList", "d8/d1e/a02801.html#a7a5f365d092f508da6ae8d510f0e3117", null ],
+    [ "AchievementCriteriaListByAchievement", "d8/d1e/a02801.html#ad5e4b1cd98f21804a508642d8475033f", null ],
+    [ "AchievementEntryList", "d8/d1e/a02801.html#a9d70fd67a3069b6a55c0145265bffc4b", null ],
+    [ "AchievementListByReferencedId", "d8/d1e/a02801.html#af3b606f4c218a7e68902cd9ff9470f5b", null ],
+    [ "AchievementRewardLocales", "d8/d1e/a02801.html#a3d51ce6b9e37b72772cea78f064e5a77", null ],
+    [ "AchievementRewards", "d8/d1e/a02801.html#a471572afc0467790ccff565b39f61720", null ],
+    [ "CompletedAchievementMap", "d8/d1e/a02801.html#aee097fd9426b25c1101af73a551a37e1", null ],
+    [ "CriteriaProgressMap", "d8/d1e/a02801.html#a649527d8ab61f39ad17fe709d2b1aabc", null ],
+    [ "AchievementCommonCategories", "d8/d1e/a02801.html#ac0bc114e07c706c7192e14e80355a213", [
+      [ "ACHIEVEMENT_CATEOGRY_GENERAL", "d8/d1e/a02801.html#ac0bc114e07c706c7192e14e80355a213a4c91db703d7b5c8f8756bc6136bc5207", null ],
+      [ "ACHIEVEMENT_CATEGORY_STATISTICS", "d8/d1e/a02801.html#ac0bc114e07c706c7192e14e80355a213a142173b7c79b8a90cd7854fd7b03509a", null ]
     ] ],
-    [ "AhnKahetCreatures", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0", [
-      [ "NPC_ELDER_NADOX", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0adefb6eeafb4e1c648ef5431666cee303", null ],
-      [ "NPC_PRINCE_TALDARAM", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0ae7602060d95905d39d735be974c99c5f", null ],
-      [ "NPC_JEDOGA_SHADOWSEEKER", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0a8f4808be30a572ba6dc967dde518e092", null ],
-      [ "NPC_HERALD_VOLAZJ", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0a5c1e93f3700ea72caa137ad6848e3c85", null ],
-      [ "NPC_AMANITAR", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0a34c1714ae003f663cb2b8951810d661f", null ],
-      [ "NPC_JEDOGA_CONTROLLER", "d8/d1e/a02801.html#a0a7022dbeba8e4c5922bca61c1ac6be0acf6f2f93580795c52ed4700df297d549", null ]
+    [ "AchievementCriteriaDataType", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0", [
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_NONE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0ae9d5b8759c2ee53b9e210a15ad049943", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_CREATURE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0abc70f9063061689cbf95c04df5a9a448", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a22786f73e7cc8966c60614e88f0d5cb1", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_LESS_HEALTH", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0ac6775a92c029d4c2be529461e23e4ca3", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_DEAD", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0adc76e0c15e881d6848994a911d1a8ef6", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AURA", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a9507639d721e63f182ebd53d593d5465", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AREA", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a19b830790eb46adb27e8a65b85eceed1", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_AURA", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0aa0b32101ef67881083e58a6a6c55c75b", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_VALUE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a3fd659753b9d41caa4b58c51d2cb6ea7", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_LEVEL", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0ab055e5273ac4250d273fa5592af3ed39", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_GENDER", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a10fc4cfb0da2c0c72c12d5e6e4a1bdd6", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_SCRIPT", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a0578b3122b1b69df3af04c2d45df266c", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_DIFFICULTY", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a5813a09c9977d3d5f80595d529f7f420", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_PLAYER_COUNT", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a1046e477766a7c60f4446fef1b13a6f5", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_TEAM", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0ad5967db594cc30c247c785d5c753cc18", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_DRUNK", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a7fcb85cf04be09a3a5f1214553bf329a", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_HOLIDAY", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a9dba74c8f01c9292cf8afa6b77be2a34", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_LOSS_TEAM_SCORE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0aab81f29c4cb17f066e8d2bd95f37d954", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_INSTANCE_SCRIPT", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0adb7d56866cf7afe8c4145c300a06ec4c", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_EQUIPPED_ITEM", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a77677f4d00c6fab053e7f632ef59b4e5", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_ID", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a84b46b516fde8adcd492cb856d32e722", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0aaa861458fcfe5aed7f8714be2b68a1db", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_NTH_BIRTHDAY", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a003a15517532a95903cb8c6673db418f", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_KNOWN_TITLE", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0a158d186341dd9798da3921a4a6bd2fda", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_TEAMS_SCORES", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0af734713c1c6764e61fddab192904518a", null ],
+      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY", "d8/d1e/a02801.html#a72f8a725cd1b257556ae7aa080f477c0af53705f7958654cf4ca99c99dd320735", null ]
     ] ],
-    [ "AhnkahetData", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dd", [
-      [ "DATA_ELDER_NADOX", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dda770adca9032e015945b302877eea180f", null ],
-      [ "DATA_PRINCE_TALDARAM", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0", null ],
-      [ "DATA_JEDOGA_SHADOWSEEKER", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dda5898d17f647609f063f3a809dc2fec66", null ],
-      [ "DATA_HERALD_VOLAZJ", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5", null ],
-      [ "DATA_AMANITAR", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dda7146f172ca0fe8e80c667a510874a94f", null ],
-      [ "DATA_PRINCE_TALDARAM_PLATFORM", "d8/d1e/a02801.html#aff905f3bb30004af8919ddfe3d29e8dda75ab4b9865126fdcf77107ef317fe7cc", null ]
-    ] ],
-    [ "AhnkahetObjects", "d8/d1e/a02801.html#a497b1d427e80ac610cd1cc5e3bc2a02f", [
-      [ "GO_TELDARAM_DOOR", "d8/d1e/a02801.html#a497b1d427e80ac610cd1cc5e3bc2a02fa597526245130273d3e77a1e411a81811", null ],
-      [ "GO_TELDARAM_SPHERE1", "d8/d1e/a02801.html#a497b1d427e80ac610cd1cc5e3bc2a02fa4586ff1377f4e4c184e57a56e7f962ed", null ],
-      [ "GO_TELDARAM_SPHERE2", "d8/d1e/a02801.html#a497b1d427e80ac610cd1cc5e3bc2a02fa637eb0aff225b388e0c611a9cbccd03e", null ],
-      [ "GO_TELDARAM_PLATFORM", "d8/d1e/a02801.html#a497b1d427e80ac610cd1cc5e3bc2a02fa9ae027e64960ba5d20a93c5123469e74", null ]
-    ] ],
-    [ "AhnKahetPersistentData", "d8/d1e/a02801.html#acc056f2f7be3fe09395716ca57e7c7f3", [
-      [ "DATA_TELDRAM_SPHERE1", "d8/d1e/a02801.html#acc056f2f7be3fe09395716ca57e7c7f3a748636fe536f29e09b02edcebc095d56", null ],
-      [ "DATA_TELDRAM_SPHERE2", "d8/d1e/a02801.html#acc056f2f7be3fe09395716ca57e7c7f3aa71df9961714e4f37168c84236d3ca51", null ],
-      [ "MAX_PERSISTENT_DATA", "d8/d1e/a02801.html#acc056f2f7be3fe09395716ca57e7c7f3ade8daf2d97d89b7bc637c9b5550e0449", null ]
-    ] ],
-    [ "AhnkahetSpells", "d8/d1e/a02801.html#a04c8c0beb3d5fd05b695be78e77cfe8d", [
-      [ "SPELL_SHADOW_SICKLE", "d8/d1e/a02801.html#a04c8c0beb3d5fd05b695be78e77cfe8dacf16c95dd7397632ddf94f2d9f3c3c39", null ]
-    ] ],
-    [ "AhnKahetTexts", "d8/d1e/a02801.html#ad2ad73bb93c442e3d70b9efad1b6c305", [
-      [ "SAY_SPHERE_ACTIVATED", "d8/d1e/a02801.html#ad2ad73bb93c442e3d70b9efad1b6c305aea5e4c72402492816a8bafad5323cff8", null ]
-    ] ],
-    [ "GetAhnKahetAI", "d8/d1e/a02801.html#a7d67882176cbe7ff747f0bb785985b00", null ],
-    [ "MAX_ENCOUNTER", "d8/d1e/a02801.html#a42b654ad1177faa1b68541d8c6ca1fae", null ]
+    [ "AchievementOfflinePlayerUpdateType", "d8/d1e/a02801.html#a9c52752c50b87261f43020b3cfaa06e6", [
+      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_COMPLETE_ACHIEVEMENT", "d8/d1e/a02801.html#a9c52752c50b87261f43020b3cfaa06e6a2976d6d0cc93ac389d7683d092aff8ee", null ],
+      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_UPDATE_CRITERIA", "d8/d1e/a02801.html#a9c52752c50b87261f43020b3cfaa06e6a7d91d50e1acd06739fbc20bd87c8a4a3", null ]
+    ] ]
 ];

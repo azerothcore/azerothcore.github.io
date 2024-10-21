@@ -1,12 +1,9 @@
 var a03062 =
 [
-    [ "SpellEvent", "d4/da3/a10786.html", "d4/da3/a10786" ],
-    [ "CHECK_DIST", "d6/d2a/a03062.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
-    [ "DEBUG_TRAJ", "d6/d2a/a03062.html#ac27bc73435b380df600d6da0b753a144", null ],
-    [ "GCDLimits", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777", [
-      [ "MIN_GCD", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f", null ],
-      [ "MAX_GCD", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c", null ]
+    [ "ePoints", "d6/d2a/a03062.html#a2604bd06487e34b78d3e50cd892f3c4d", [
+      [ "POINT_LAST_POINT", "d4/d47/a03050.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb", null ],
+      [ "POINT_HOME", "d4/d47/a03050.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162", null ],
+      [ "POINT_COMBAT_START", "d6/d2a/a03062.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4", null ]
     ] ],
-    [ "tangent", "d6/d2a/a03062.html#a885f76b28cf9930383ddf099d75ccef1", null ],
-    [ "SpellEffects", "d6/d2a/a03062.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
+    [ "MAX_PLAYER_DISTANCE", "d6/d2a/a03062.html#acd0b392fc88f24b24201fba8b76d33a2", null ]
 ];

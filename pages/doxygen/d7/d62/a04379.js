@@ -1,6 +1,6 @@
 var a04379 =
 [
-    [ "AuthSession", "da/d41/a05550.html", "da/d41/a05550" ],
-    [ "AccountInfo", "d1/d22/a05546.html", "d1/d22/a05546" ],
-    [ "compressBuff", "d7/d62/a04379.html#a3ec87fe2f43cce4ee6bfb90744e72a0d", null ]
+    [ "EncryptableAndCompressiblePacket", "db/d77/a10730.html", "db/d77/a10730" ],
+    [ "ClientPktHeader", "d0/db7/a10734.html", "d0/db7/a10734" ],
+    [ "WorldSocket", "d0/d24/a10738.html", "d0/d24/a10738" ]
 ];

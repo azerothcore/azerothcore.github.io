@@ -1,4 +1,5 @@
 var a04073 =
 [
-    [ "ScriptRegistry< AllSpellScript >", "d6/ddb/a04073.html#a6fb50c7d667ae3d14a6d307b0862e957", null ]
+    [ "Vehicle", "de/d71/a08530.html", "de/d71/a08530" ],
+    [ "VehicleDespawnEvent", "d4/d26/a08534.html", "d4/d26/a08534" ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/PlayerTaxi.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Instances/InstanceSaveMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,66 +104,35 @@ $(document).ready(function(){initNavTree('d3/d94/a03698.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">PlayerTaxi.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">InstanceSaveMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceSaveMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapInstanced.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa8a947319a6f00895a3c443f5cb258ad"><td class="memItemLeft" align="right" valign="top">std::ostringstream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#aa8a947319a6f00895a3c443f5cb258ad">operator&lt;&lt;</a> (std::ostringstream &amp;ss, <a class="el" href="../../d9/d6e/a08382.html">PlayerTaxi</a> const &amp;taxi)</td></tr>
-<tr class="separator:aa8a947319a6f00895a3c443f5cb258ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aa8a947319a6f00895a3c443f5cb258ad" name="aa8a947319a6f00895a3c443f5cb258ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a947319a6f00895a3c443f5cb258ad">&#9670;&#160;</a></span>operator&lt;&lt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostringstream &amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostringstream &amp;&#160;</td>
-          <td class="paramname"><em>ss</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d6e/a08382.html">PlayerTaxi</a> const &amp;&#160;</td>
-          <td class="paramname"><em>taxi</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  229</span>{</div>
-<div class="line"><span class="lineno">  230</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_variable" href="../../d6/d92/a02867.html#af55b7730b9b6bf94de4604ce96e812c0">TaxiMaskSize</a>; ++i)</div>
-<div class="line"><span class="lineno">  231</span>        ss &lt;&lt; taxi.m_taximask[i] &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
-<div class="line"><span class="lineno">  232</span>    <span class="keywordflow">return</span> ss;</div>
-<div class="line"><span class="lineno">  233</span>}</div>
-<div class="ttc" id="aa00446_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa02867_html_af55b7730b9b6bf94de4604ce96e812c0"><div class="ttname"><a href="../../d6/d92/a02867.html#af55b7730b9b6bf94de4604ce96e812c0">TaxiMaskSize</a></div><div class="ttdeci">static constexpr std::size_t TaxiMaskSize</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2247</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d3/d94/a03698.html">PlayerTaxi.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_30c9e1c4d37d57a0d16649fdbaa5324a.html">Instances</a></li><li class="navelem"><a class="el" href="../../d3/d94/a03698.html">InstanceSaveMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

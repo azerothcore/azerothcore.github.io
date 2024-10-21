@@ -1,20 +1,12 @@
 var a02102 =
 [
-    [ "npc_professor_phizzlethorpe", "d5/d42/a13262.html", "d5/d42/a13262" ],
-    [ "npc_professor_phizzlethorpe::npc_professor_phizzlethorpeAI", "d4/d2a/a13266.html", "d4/d2a/a13266" ],
-    [ "ProfessorPhizzlethorpe", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1", [
-      [ "SAY_PROGRESS_1", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
-      [ "SAY_PROGRESS_2", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a967473f354dae95832b5e82733f4cced", null ],
-      [ "SAY_PROGRESS_3", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a25cbd1006b2e610756fbd3227fb87dcc", null ],
-      [ "EMOTE_PROGRESS_4", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a35c4fc6952e57458ffc3e74698dd2769", null ],
-      [ "SAY_AGGRO", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_PROGRESS_5", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1aeee7fea4c8b3b6d3b0732bcde69433f3", null ],
-      [ "SAY_PROGRESS_6", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a36a5f74e6995b5cd9d8df351e57bfa84", null ],
-      [ "SAY_PROGRESS_7", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a9e815bbd308d3234b2feecf6dcd4e4cd", null ],
-      [ "EMOTE_PROGRESS_8", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a09177823914cf4cba524cd102c309c4e", null ],
-      [ "SAY_PROGRESS_9", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a0d013e69b765c1cc9024427c5967dbdf", null ],
-      [ "QUEST_SUNKEN_TREASURE", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1a70619c446edf1e13b81824e234d2c7f3", null ],
-      [ "NPC_VENGEFUL_SURGE", "d0/dfe/a02102.html#a2fbc348d7cc479e3131e261e4a86f0a1aa30485aedeea21658a4aa93a8f361873", null ]
-    ] ],
-    [ "AddSC_arathi_highlands", "d0/dfe/a02102.html#a1e4a782474f0928dbacdf32c0ba395fd", null ]
+    [ "instance_stratholme", "d4/d1e/a12898.html", "d4/d1e/a12898" ],
+    [ "instance_stratholme::instance_stratholme_InstanceMapScript", "d3/d2f/a12902.html", "d3/d2f/a12902" ],
+    [ "AddSC_instance_stratholme", "d0/dfe/a02102.html#add44fd9ad05267cc5db256b112db2585", null ],
+    [ "aGateTrap", "d0/dfe/a02102.html#aa404f6799978911e2f0e4de3b4386c59", null ],
+    [ "aPlaguedCritters", "d0/dfe/a02102.html#a4108af811b2731f9784942b89f333054", null ],
+    [ "BarthilasPos", "d0/dfe/a02102.html#a3c5bc53064d7ed19146d61fbe2f25502", null ],
+    [ "BlackGuardPos", "d0/dfe/a02102.html#a8ed1ccc03c022b129aa9bb9464fedd0a", null ],
+    [ "MindlessUndeadPos", "d0/dfe/a02102.html#a1a89feed6c582c3bf3e51bf3a1027081", null ],
+    [ "SlaughterPos", "d0/dfe/a02102.html#aec64d79cbf450b10fd485f2e559e0472", null ]
 ];

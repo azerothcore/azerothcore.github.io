@@ -1,8 +1,9 @@
 var a04115 =
 [
-    [ "MailScript", "df/d38/a10054.html", "df/d38/a10054" ],
-    [ "MailHook", "df/d30/a04115.html#a7a2fb0cc0937712e8aff65574e1068d6", [
-      [ "MAILHOOK_ON_BEFORE_MAIL_DRAFT_SEND_MAIL_TO", "df/d30/a04115.html#a7a2fb0cc0937712e8aff65574e1068d6a8f3555a10968fd2749e256067782760f", null ],
-      [ "MAILHOOK_END", "df/d30/a04115.html#a7a2fb0cc0937712e8aff65574e1068d6a97af521f76b0d427812db0ac3303f285", null ]
-    ] ]
+    [ "PathMovementBase< T, P >", "d0/d60/a09734.html", "d0/d60/a09734" ],
+    [ "WaypointMovementGenerator< Creature >", "d4/dbe/a09742.html", "d4/dbe/a09742" ],
+    [ "FlightPathMovementGenerator", "d8/dd1/a09746.html", "d8/dd1/a09746" ],
+    [ "FlightPathMovementGenerator::TaxiNodeChangeInfo", "da/da1/a09750.html", "da/da1/a09750" ],
+    [ "FLIGHT_TRAVEL_UPDATE", "df/d30/a04115.html#af2d292bdefbb6db76ff3201ac0c0cdd6", null ],
+    [ "TIMEDIFF_NEXT_WP", "df/d30/a04115.html#afcff81f45a877feac68bf5bcae913560", null ]
 ];

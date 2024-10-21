@@ -1,8 +1,12 @@
 var a04481 =
 [
-    [ "QuestApprenticeAnglerPlayerScript", "dd/d5d/a27602.html", "dd/d5d/a27602" ],
-    [ "ApprenticeAnglerQuestEnum", "dd/d40/a04481.html#a6d8279401bbf1ce28fa9c35fbcf1970c", [
-      [ "QUEST_APPRENTICE_ANGLER", "dd/d40/a04481.html#a6d8279401bbf1ce28fa9c35fbcf1970cacdd3122055e667091697fd808a284aba", null ]
-    ] ],
-    [ "AddSC_player_scripts", "dd/d40/a04481.html#a1f476a8466c12651b57fd55bf13b9617", null ]
+    [ "PacketHandler< PacketClass, HandlerFunction >", "da/da2/a10626.html", "da/da2/a10626" ],
+    [ "PacketHandler< WorldPacket, HandlerFunction >", "d8/d1e/a10630.html", "d8/d1e/a10630" ],
+    [ "get_packet_class< T >", "db/d64/a10634.html", null ],
+    [ "get_packet_class< void(WorldSession::*)(PacketClass &)>", "d4/dc3/a10638.html", "d4/dc3/a10638" ],
+    [ "DEFINE_HANDLER", "dd/d40/a04481.html#ab23af9582942bed23ea9ab4a8747c67c", null ],
+    [ "DEFINE_SERVER_OPCODE_HANDLER", "dd/d40/a04481.html#a4bcb2df62d580f2bb5ab3c2aa5b35f5e", null ],
+    [ "GetOpcodeNameForLogging", "d5/d43/a04668.html#ga699f5666ad5594443aa2ca21df85a1d3", null ],
+    [ "GetOpcodeNameForLoggingImpl", "dd/d40/a04481.html#a0adf4b5d8c638656581d9a62be18539e", null ],
+    [ "opcodeTable", "d5/d43/a04668.html#gaab348862a5b8f265e05e5b0ac296162a", null ]
 ];

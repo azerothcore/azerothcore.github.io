@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AreaTriggerScript.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/Position.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,35 +105,264 @@ $(document).ready(function(){initNavTree('dc/d8b/a04052.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">AreaTriggerScript.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Position.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaTriggerScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ElunaScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgrMacros.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;G3D/Vector3.h&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a0447158682f05ead25ae60d49a490088"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../d3/def/a00446.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#a0447158682f05ead25ae60d49a490088">ScriptRegistry&lt; AreaTriggerScript &gt;</a></td></tr>
-<tr class="separator:a0447158682f05ead25ae60d49a490088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d08/a08198.html">Position</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d03/a08202.html">Position::PositionXYStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de1/a08206.html">Position::PositionXYZStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a08210.html">Position::PositionXYZOStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ded/a08214.html">WorldLocation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:af69a1d112a89b89894dafd5da53e7490"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#af69a1d112a89b89894dafd5da53e7490">MAPID_INVALID</a>&#160;&#160;&#160;0xFFFFFFFF</td></tr>
+<tr class="separator:af69a1d112a89b89894dafd5da53e7490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a09519787a0405fc17b028180b2da4cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#a09519787a0405fc17b028180b2da4cdd">operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d6/d03/a08202.html">Position::PositionXYStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a09519787a0405fc17b028180b2da4cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188cc2956d39298323a99c4aa5ceede6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#a188cc2956d39298323a99c4aa5ceede6">operator&gt;&gt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d6/d03/a08202.html">Position::PositionXYStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a188cc2956d39298323a99c4aa5ceede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab63323f8a9ade40ddd90338538b5c9b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#ab63323f8a9ade40ddd90338538b5c9b5">operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../da/de1/a08206.html">Position::PositionXYZStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:ab63323f8a9ade40ddd90338538b5c9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af223d782e9dcf0f80ed4009360aa0d80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#af223d782e9dcf0f80ed4009360aa0d80">operator&gt;&gt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../da/de1/a08206.html">Position::PositionXYZStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:af223d782e9dcf0f80ed4009360aa0d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71323635f122d24189054da615cb39e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#a71323635f122d24189054da615cb39e1">operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../dd/da2/a08210.html">Position::PositionXYZOStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a71323635f122d24189054da615cb39e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e22c3226b5f361848aef2c75a6d3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8b/a04052.html#a72e22c3226b5f361848aef2c75a6d3fb">operator&gt;&gt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../dd/da2/a08210.html">Position::PositionXYZOStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a72e22c3226b5f361848aef2c75a6d3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a0447158682f05ead25ae60d49a490088" name="a0447158682f05ead25ae60d49a490088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0447158682f05ead25ae60d49a490088">&#9670;&#160;</a></span>ScriptRegistry&lt; AreaTriggerScript &gt;</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af69a1d112a89b89894dafd5da53e7490" name="af69a1d112a89b89894dafd5da53e7490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af69a1d112a89b89894dafd5da53e7490">&#9670;&#160;</a></span>MAPID_INVALID</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template class <a class="el" href="../../d3/def/a00446.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d1/dab/a10126.html">ScriptRegistry</a>&lt; <a class="el" href="../../db/da4/a09950.html">AreaTriggerScript</a> &gt;</td>
+          <td class="memname">#define MAPID_INVALID&#160;&#160;&#160;0xFFFFFFFF</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a09519787a0405fc17b028180b2da4cdd" name="a09519787a0405fc17b028180b2da4cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09519787a0405fc17b028180b2da4cdd">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d03/a08202.html">Position::PositionXYStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71323635f122d24189054da615cb39e1" name="a71323635f122d24189054da615cb39e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71323635f122d24189054da615cb39e1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a08210.html">Position::PositionXYZOStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  205</span>{</div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordtype">float</span> x, y, z, o;</div>
+<div class="line"><span class="lineno">  207</span>    streamer.m_pos-&gt;GetPosition(x, y, z, o);</div>
+<div class="line"><span class="lineno">  208</span>    buf &lt;&lt; x &lt;&lt; y &lt;&lt; z &lt;&lt; o;</div>
+<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  210</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00122">Position::GetPosition()</a>, and <a class="el" href="../../#l00053">Position::PositionXYZOStreamer::m_pos</a>.</p>
+
+</div>
+</div>
+<a id="ab63323f8a9ade40ddd90338538b5c9b5" name="ab63323f8a9ade40ddd90338538b5c9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab63323f8a9ade40ddd90338538b5c9b5">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/de1/a08206.html">Position::PositionXYZStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  189</span>{</div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  191</span>    streamer.m_pos-&gt;GetPosition(x, y, z);</div>
+<div class="line"><span class="lineno">  192</span>    buf &lt;&lt; x &lt;&lt; y &lt;&lt; z;</div>
+<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  194</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00122">Position::GetPosition()</a>, and <a class="el" href="../../#l00047">Position::PositionXYZStreamer::m_pos</a>.</p>
+
+</div>
+</div>
+<a id="a188cc2956d39298323a99c4aa5ceede6" name="a188cc2956d39298323a99c4aa5ceede6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188cc2956d39298323a99c4aa5ceede6">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d03/a08202.html">Position::PositionXYStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72e22c3226b5f361848aef2c75a6d3fb" name="a72e22c3226b5f361848aef2c75a6d3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e22c3226b5f361848aef2c75a6d3fb">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a08210.html">Position::PositionXYZOStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  181</span>{</div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordtype">float</span> x, y, z, o;</div>
+<div class="line"><span class="lineno">  183</span>    buf &gt;&gt; x &gt;&gt; y &gt;&gt; z &gt;&gt; o;</div>
+<div class="line"><span class="lineno">  184</span>    streamer.m_pos-&gt;Relocate(x, y, z, o);</div>
+<div class="line"><span class="lineno">  185</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  186</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00053">Position::PositionXYZOStreamer::m_pos</a>, and <a class="el" href="../../#l00073">Position::Relocate()</a>.</p>
+
+</div>
+</div>
+<a id="af223d782e9dcf0f80ed4009360aa0d80" name="af223d782e9dcf0f80ed4009360aa0d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af223d782e9dcf0f80ed4009360aa0d80">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/de1/a08206.html">Position::PositionXYZStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  197</span>{</div>
+<div class="line"><span class="lineno">  198</span>    <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  199</span>    buf &gt;&gt; x &gt;&gt; y &gt;&gt; z;</div>
+<div class="line"><span class="lineno">  200</span>    streamer.m_pos-&gt;Relocate(x, y, z);</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  202</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00047">Position::PositionXYZStreamer::m_pos</a>, and <a class="el" href="../../#l00073">Position::Relocate()</a>.</p>
 
 </div>
 </div>
@@ -142,8 +371,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../dc/d8b/a04052.html">AreaTriggerScript.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../dc/d8b/a04052.html">Position.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

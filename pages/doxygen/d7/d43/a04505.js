@@ -1,4 +1,6 @@
 var a04505 =
 [
-    [ "GridReference< OBJECT >", "d7/d70/a08830.html", "d7/d70/a08830" ]
+    [ "CharacterCacheEntry", "de/dfd/a07214.html", "de/dfd/a07214" ],
+    [ "CharacterCache", "d2/d40/a07218.html", "d2/d40/a07218" ],
+    [ "sCharacterCache", "d7/d43/a04505.html#a7a32c898b33d6163d83a32f46d58517c", null ]
 ];

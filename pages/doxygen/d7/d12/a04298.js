@@ -1,7 +1,7 @@
 var a04298 =
 [
-    [ "Movement::FallInitializer", "d4/d57/a09762.html", "d4/d57/a09762" ],
-    [ "Movement::CommonInitializer", "d7/d6a/a09766.html", "d7/d6a/a09766" ],
-    [ "CHECK", "d7/d12/a04298.html#a4005b3acaa5011bfc2cc027562c04dfb", null ],
-    [ "computeDuration", "d7/d12/a04298.html#a0f9e26b66bd86bb9701c366e4f9529c3", null ]
+    [ "AddTime", "d7/d12/a04298.html#aae074176c44fa3d99280320c869fde46", null ],
+    [ "GetTime", "d7/d12/a04298.html#ae44f550ac340528abe454269c2273d73", null ],
+    [ "IsCorrectDelay", "d7/d12/a04298.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
+    [ "_players", "d7/d12/a04298.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
 ];

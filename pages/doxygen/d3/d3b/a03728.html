@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/PlayerUpdates.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AuctionHouse/AuctionHouseMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,94 +107,75 @@ $(document).ready(function(){initNavTree('d3/d3b/a03728.html','../../'); initRes
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">PlayerUpdates.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">AuctionHouseMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Channel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ChannelMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuctionHouseMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Logging/Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SkillDiscovery.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WeatherMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldStatePackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a66adde9ba6a85d585f6e6e8355499aa6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a66adde9ba6a85d585f6e6e8355499aa6">SkillGainChance</a> (<a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SkillValue, <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GrayLevel, <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GreenLevel, <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> YellowLevel)</td></tr>
-<tr class="separator:a66adde9ba6a85d585f6e6e8355499aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa890f698ac89e4049e1107c05d065495"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#aa890f698ac89e4049e1107c05d065495">getProbabilityOfLevelUp</a> (<a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SkillValue)</td></tr>
-<tr class="separator:aa890f698ac89e4049e1107c05d065495"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, T *target, std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;)</td></tr>
-<tr class="separator:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa522147fa6130f7d54551f137424bd15"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa522147fa6130f7d54551f137424bd15"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#aa522147fa6130f7d54551f137424bd15">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../dc/d3d/a07926.html">GameObject</a> *target, std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;)</td></tr>
-<tr class="separator:aa522147fa6130f7d54551f137424bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a5f5d6b73fc1fb15a0cde612641ba3433">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../da/d03/a07750.html">Creature</a> *target, std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;v)</td></tr>
-<tr class="separator:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac411c559a97e183268339b1ea63a84b6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ac411c559a97e183268339b1ea63a84b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#ac411c559a97e183268339b1ea63a84b6">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../db/de7/a08366.html">Player</a> *target, std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;v)</td></tr>
-<tr class="separator:ac411c559a97e183268339b1ea63a84b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a8172910e1dfdc7b56ca3931dd2fab1fb">BeforeVisibilityDestroy</a> (T *, <a class="el" href="../../db/de7/a08366.html">Player</a> *)</td></tr>
-<tr class="separator:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a62188ab6a72d08b62bf37442dbbfdaa6">BeforeVisibilityDestroy&lt; Creature &gt;</a> (<a class="el" href="../../da/d03/a07750.html">Creature</a> *t, <a class="el" href="../../db/de7/a08366.html">Player</a> *p)</td></tr>
-<tr class="separator:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133d1ac4ff60f0426e9f1472373251fd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a133d1ac4ff60f0426e9f1472373251fd">SortAuction</a> (<a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *left, <a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *right, <a class="el" href="../../d1/d22/a03731.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> &amp;sortOrder, <a class="el" href="../../db/de7/a08366.html">Player</a> *player, bool checkMinBidBuyout)</td></tr>
+<tr class="separator:a133d1ac4ff60f0426e9f1472373251fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:afabbcd46bf6f03c5dca10b117810b710"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#afabbcd46bf6f03c5dca10b117810b710">ZONE_UPDATE_INTERVAL</a> = 1000</td></tr>
-<tr class="separator:afabbcd46bf6f03c5dca10b117810b710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72b3624ee55553e28f82ef06d7c74c6a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a> [] = {75, 150, 225, 300, 375, 450}</td></tr>
-<tr class="separator:a72b3624ee55553e28f82ef06d7c74c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad103e97f7db0cfd188ab64f5748c7464"><td class="memItemLeft" align="right" valign="top">static const std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#ad103e97f7db0cfd188ab64f5748c7464">bonusSkillLevelsSize</a></td></tr>
-<tr class="separator:ad103e97f7db0cfd188ab64f5748c7464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6debe42dd0e5674dcf1b874cebafe98"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3b/a03728.html#ae6debe42dd0e5674dcf1b874cebafe98">AH_MINIMUM_DEPOSIT</a> = 100</td></tr>
+<tr class="separator:ae6debe42dd0e5674dcf1b874cebafe98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8172910e1dfdc7b56ca3931dd2fab1fb" name="a8172910e1dfdc7b56ca3931dd2fab1fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8172910e1dfdc7b56ca3931dd2fab1fb">&#9670;&#160;</a></span>BeforeVisibilityDestroy()</h2>
+<a id="a133d1ac4ff60f0426e9f1472373251fd" name="a133d1ac4ff60f0426e9f1472373251fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a133d1ac4ff60f0426e9f1472373251fd">&#9670;&#160;</a></span>SortAuction()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void BeforeVisibilityDestroy </td>
+          <td class="memname">static bool SortAuction </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d22/a03731.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sortOrder</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../db/de7/a08366.html">Player</a> *&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkMinBidBuyout</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -204,378 +185,229 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1622</span>{</div>
-<div class="line"><span class="lineno"> 1623</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; thisOrder : sortOrder)</div>
+<div class="line"><span class="lineno">   39</span>    {</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">switch</span> (thisOrder.sortOrder)</div>
+<div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a>:</div>
+<div class="line"><span class="lineno">   43</span>            {</div>
+<div class="line"><span class="lineno">   44</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a>)</div>
+<div class="line"><span class="lineno">   45</span>                {</div>
+<div class="line"><span class="lineno">   46</span>                    <span class="keywordflow">if</span> (checkMinBidBuyout)</div>
+<div class="line"><span class="lineno">   47</span>                    {</div>
+<div class="line"><span class="lineno">   48</span>                        <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
+<div class="line"><span class="lineno">   49</span>                        {</div>
+<div class="line"><span class="lineno">   50</span>                            <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>)</div>
+<div class="line"><span class="lineno">   51</span>                            {</div>
+<div class="line"><span class="lineno">   52</span>                                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   53</span>                            }</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>                            <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>;</div>
+<div class="line"><span class="lineno">   56</span>                        }</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>                        <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
+<div class="line"><span class="lineno">   59</span>                    }</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   62</span>                }</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a>;</div>
+<div class="line"><span class="lineno">   65</span>            }</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a>:</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a>:</div>
+<div class="line"><span class="lineno">   68</span>            {</div>
+<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
+<div class="line"><span class="lineno">   70</span>                {</div>
+<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   72</span>                }</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
+<div class="line"><span class="lineno">   75</span>            }</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a>:</div>
+<div class="line"><span class="lineno">   77</span>            {</div>
+<div class="line"><span class="lineno">   78</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">   79</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoRight = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">   80</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
+<div class="line"><span class="lineno">   81</span>                {</div>
+<div class="line"><span class="lineno">   82</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   83</span>                }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>                std::string leftName = protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>;</div>
+<div class="line"><span class="lineno">   86</span>                std::string rightName = protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>;</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">if</span> (leftName.empty() || rightName.empty())</div>
+<div class="line"><span class="lineno">   88</span>                {</div>
+<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   90</span>                }</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>                <a class="code hl_enumeration" href="../../db/dc3/a00284.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale = <a class="code hl_enumvalue" href="../../db/dc3/a00284.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>;</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>())</div>
+<div class="line"><span class="lineno">   94</span>                {</div>
+<div class="line"><span class="lineno">   95</span>                    locale = player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../dd/dfd/a10722.html#a38ff97828c0efe89c092f5772c543564">GetSessionDbLocaleIndex</a>();</div>
+<div class="line"><span class="lineno">   96</span>                }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>                <span class="keywordflow">if</span> (locale &gt; <a class="code hl_enumvalue" href="../../db/dc3/a00284.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>)</div>
+<div class="line"><span class="lineno">   99</span>                {</div>
+<div class="line"><span class="lineno">  100</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d9/d36/a08106.html">ItemLocale</a> <span class="keyword">const</span>* leftIl = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemLocale(protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>))</div>
+<div class="line"><span class="lineno">  101</span>                    {</div>
+<div class="line"><span class="lineno">  102</span>                        <a class="code hl_function" href="../../d0/d1a/a08790.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(leftIl-&gt;Name, locale, leftName);</div>
+<div class="line"><span class="lineno">  103</span>                    }</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d9/d36/a08106.html">ItemLocale</a> <span class="keyword">const</span>* rightIl = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemLocale(protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>))</div>
+<div class="line"><span class="lineno">  106</span>                    {</div>
+<div class="line"><span class="lineno">  107</span>                        <a class="code hl_function" href="../../d0/d1a/a08790.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(rightIl-&gt;Name, locale, rightName);</div>
+<div class="line"><span class="lineno">  108</span>                    }</div>
+<div class="line"><span class="lineno">  109</span>                }</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordtype">int</span> result = leftName.compare(rightName);</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">if</span> (result == 0)</div>
+<div class="line"><span class="lineno">  113</span>                {</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  115</span>                }</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? result &gt; 0 : result &lt; 0;</div>
+<div class="line"><span class="lineno">  118</span>            }</div>
+<div class="line"><span class="lineno">  119</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a>:</div>
+<div class="line"><span class="lineno">  120</span>            {</div>
+<div class="line"><span class="lineno">  121</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft  = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">  122</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoRight = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">  123</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
+<div class="line"><span class="lineno">  124</span>                {</div>
+<div class="line"><span class="lineno">  125</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  126</span>                }</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">if</span> (protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> == protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>)</div>
+<div class="line"><span class="lineno">  129</span>                {</div>
+<div class="line"><span class="lineno">  130</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  131</span>                }</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &gt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> : protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &lt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>;</div>
+<div class="line"><span class="lineno">  134</span>            }</div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a>:</div>
+<div class="line"><span class="lineno">  136</span>            {</div>
+<div class="line"><span class="lineno">  137</span>                std::string leftName;</div>
+<div class="line"><span class="lineno">  138</span>                <a class="code hl_define" href="../../d7/d43/a04505.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterNameByGuid(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">owner</a>, leftName);</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>                std::string rightName;</div>
+<div class="line"><span class="lineno">  141</span>                <a class="code hl_define" href="../../d7/d43/a04505.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterNameByGuid(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">owner</a>, rightName);</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>                <span class="keywordtype">int</span> result = leftName.compare(rightName);</div>
+<div class="line"><span class="lineno">  144</span>                <span class="keywordflow">if</span> (result == 0)</div>
+<div class="line"><span class="lineno">  145</span>                {</div>
+<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  147</span>                }</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? result &gt; 0 : result &lt; 0;</div>
+<div class="line"><span class="lineno">  150</span>            }</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a>:</div>
+<div class="line"><span class="lineno">  152</span>            {</div>
+<div class="line"><span class="lineno">  153</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft  = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">  154</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>*  protoRight = <a class="code hl_define" href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
+<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
+<div class="line"><span class="lineno">  156</span>                {</div>
+<div class="line"><span class="lineno">  157</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  158</span>                }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">if</span> (protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> == protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>)</div>
+<div class="line"><span class="lineno">  161</span>                {</div>
+<div class="line"><span class="lineno">  162</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  163</span>                }</div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &gt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> : protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &lt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>;</div>
+<div class="line"><span class="lineno">  166</span>            }</div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a>:</div>
+<div class="line"><span class="lineno">  168</span>            {</div>
+<div class="line"><span class="lineno">  169</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>)</div>
+<div class="line"><span class="lineno">  170</span>                {</div>
+<div class="line"><span class="lineno">  171</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  172</span>                }</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>                <span class="keywordflow">if</span> (!thisOrder.isDesc)</div>
+<div class="line"><span class="lineno">  175</span>                {</div>
+<div class="line"><span class="lineno">  176</span>                    <span class="keywordflow">return</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>);</div>
+<div class="line"><span class="lineno">  177</span>                }</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>                <span class="keywordflow">return</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>);</div>
+<div class="line"><span class="lineno">  180</span>            }</div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a>:</div>
+<div class="line"><span class="lineno">  182</span>            {</div>
+<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a>)</div>
+<div class="line"><span class="lineno">  184</span>                {</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  186</span>                }</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a>;</div>
+<div class="line"><span class="lineno">  189</span>            }</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a>:</div>
+<div class="line"><span class="lineno">  191</span>            {</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
+<div class="line"><span class="lineno">  193</span>                {</div>
+<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>)</div>
+<div class="line"><span class="lineno">  195</span>                    {</div>
+<div class="line"><span class="lineno">  196</span>                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  197</span>                    }</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>                    <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>;</div>
+<div class="line"><span class="lineno">  200</span>                }</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
+<div class="line"><span class="lineno">  203</span>            }</div>
+<div class="line"><span class="lineno">  204</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a>:</div>
+<div class="line"><span class="lineno">  205</span>                <span class="comment">// Such sad travis appeasement</span></div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a>:</div>
+<div class="line"><span class="lineno">  207</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  209</span>        }</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="line"><span class="lineno">  211</span> </div>
+<div class="line"><span class="lineno">  212</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  213</span>}</div>
+<div class="ttc" id="aa00284_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../db/dc3/a00284.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="aa00284_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../db/dc3/a00284.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a></div><div class="ttdeci">@ AUCTION_SORT_TIMELEFT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:78</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a></div><div class="ttdeci">@ AUCTION_SORT_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:83</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:77</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a></div><div class="ttdeci">@ AUCTION_SORT_MINLEVEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:75</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a></div><div class="ttdeci">@ AUCTION_SORT_UNK4</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:79</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div><div class="ttdeci">@ AUCTION_SORT_MAX</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:87</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a></div><div class="ttdeci">@ AUCTION_SORT_MINBIDBUY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:81</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a></div><div class="ttdeci">@ AUCTION_SORT_OWNER</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:82</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a></div><div class="ttdeci">@ AUCTION_SORT_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:80</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a></div><div class="ttdeci">@ AUCTION_SORT_STACK</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:84</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a></div><div class="ttdeci">@ AUCTION_SORT_RARITY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:76</div></div>
+<div class="ttc" id="aa03731_html_abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"><div class="ttname"><a href="../../d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT_2</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:85</div></div>
+<div class="ttc" id="aa03815_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d7/dab/a03815.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1633</div></div>
+<div class="ttc" id="aa04505_html_a7a32c898b33d6163d83a32f46d58517c"><div class="ttname"><a href="../../d7/d43/a04505.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a></div><div class="ttdeci">#define sCharacterCache</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:83</div></div>
+<div class="ttc" id="aa06930_html_a11521c90c74d1eba7d7d3ef55e960a93"><div class="ttname"><a href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">AuctionEntry::bid</a></div><div class="ttdeci">uint32 bid</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:109</div></div>
+<div class="ttc" id="aa06930_html_a8520c9664918d452d8e6b643df8486b5"><div class="ttname"><a href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">AuctionEntry::expire_time</a></div><div class="ttdeci">time_t expire_time</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:111</div></div>
+<div class="ttc" id="aa06930_html_aa1e6771187c237136d34645db9f852f9"><div class="ttname"><a href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">AuctionEntry::startbid</a></div><div class="ttdeci">uint32 startbid</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:108</div></div>
+<div class="ttc" id="aa06930_html_aa67975f37a4ef343422a471ef65a98fd"><div class="ttname"><a href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">AuctionEntry::itemCount</a></div><div class="ttdeci">uint32 itemCount</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:106</div></div>
+<div class="ttc" id="aa06930_html_aa75d261f77460c16f98f211b481a9af0"><div class="ttname"><a href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">AuctionEntry::buyout</a></div><div class="ttdeci">uint32 buyout</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:110</div></div>
+<div class="ttc" id="aa06930_html_ac8935b680716aa5c0d50d750fb934bab"><div class="ttname"><a href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">AuctionEntry::item_template</a></div><div class="ttdeci">uint32 item_template</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:105</div></div>
+<div class="ttc" id="aa06930_html_adf2b61be66a9afc7114198fe993d526d"><div class="ttname"><a href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">AuctionEntry::owner</a></div><div class="ttdeci">ObjectGuid owner</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:107</div></div>
+<div class="ttc" id="aa08102_html"><div class="ttname"><a href="../../d1/d6d/a08102.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08102_html_a1b4b51353503f83db3be63f5a5786a1f"><div class="ttname"><a href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">ItemTemplate::Quality</a></div><div class="ttdeci">uint32 Quality</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:626</div></div>
+<div class="ttc" id="aa08102_html_a6e3121554bc0b3c829d300e7da4c5b15"><div class="ttname"><a href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">ItemTemplate::RequiredLevel</a></div><div class="ttdeci">uint32 RequiredLevel</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:636</div></div>
+<div class="ttc" id="aa08102_html_a7a5bba25307f2ca6037d6c82a3cd3c3c"><div class="ttname"><a href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">ItemTemplate::Name1</a></div><div class="ttdeci">std::string Name1</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:624</div></div>
+<div class="ttc" id="aa08102_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:620</div></div>
+<div class="ttc" id="aa08106_html"><div class="ttname"><a href="../../d9/d36/a08106.html">ItemLocale</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:838</div></div>
+<div class="ttc" id="aa08366_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1980</div></div>
+<div class="ttc" id="aa08790_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d0/d1a/a08790.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1405</div></div>
+<div class="ttc" id="aa10722_html_a38ff97828c0efe89c092f5772c543564"><div class="ttname"><a href="../../dd/dfd/a10722.html#a38ff97828c0efe89c092f5772c543564">WorldSession::GetSessionDbLocaleIndex</a></div><div class="ttdeci">LocaleConstant GetSessionDbLocaleIndex() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:498</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a62188ab6a72d08b62bf37442dbbfdaa6" name="a62188ab6a72d08b62bf37442dbbfdaa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62188ab6a72d08b62bf37442dbbfdaa6">&#9670;&#160;</a></span>BeforeVisibilityDestroy&lt; Creature &gt;()</h2>
+<p class="reference">References <a class="el" href="../../#l00083">AUCTION_SORT_BID</a>, <a class="el" href="../../#l00077">AUCTION_SORT_BUYOUT</a>, <a class="el" href="../../#l00085">AUCTION_SORT_BUYOUT_2</a>, <a class="el" href="../../#l00080">AUCTION_SORT_ITEM</a>, <a class="el" href="../../#l00087">AUCTION_SORT_MAX</a>, <a class="el" href="../../#l00081">AUCTION_SORT_MINBIDBUY</a>, <a class="el" href="../../#l00075">AUCTION_SORT_MINLEVEL</a>, <a class="el" href="../../#l00082">AUCTION_SORT_OWNER</a>, <a class="el" href="../../#l00076">AUCTION_SORT_RARITY</a>, <a class="el" href="../../#l00084">AUCTION_SORT_STACK</a>, <a class="el" href="../../#l00078">AUCTION_SORT_TIMELEFT</a>, <a class="el" href="../../#l00079">AUCTION_SORT_UNK4</a>, <a class="el" href="../../#l00109">AuctionEntry::bid</a>, <a class="el" href="../../#l00110">AuctionEntry::buyout</a>, <a class="el" href="../../#l00111">AuctionEntry::expire_time</a>, <a class="el" href="../../#l01405">ObjectMgr::GetLocaleString()</a>, <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l00498">WorldSession::GetSessionDbLocaleIndex()</a>, <a class="el" href="../../#l00105">AuctionEntry::item_template</a>, <a class="el" href="../../#l00106">AuctionEntry::itemCount</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00624">ItemTemplate::Name1</a>, <a class="el" href="../../#l00107">AuctionEntry::owner</a>, <a class="el" href="../../#l00626">ItemTemplate::Quality</a>, <a class="el" href="../../#l00636">ItemTemplate::RequiredLevel</a>, <a class="el" href="../../#l00083">sCharacterCache</a>, <a class="el" href="../../#l01633">sObjectMgr</a>, and <a class="el" href="../../#l00108">AuctionEntry::startbid</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d3/d3b/a03728.html#a8172910e1dfdc7b56ca3931dd2fab1fb">BeforeVisibilityDestroy</a>&lt; <a class="el" href="../../da/d03/a07750.html">Creature</a> &gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d03/a07750.html">Creature</a> *&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/de7/a08366.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1627</span>{</div>
-<div class="line"><span class="lineno"> 1628</span>    <span class="keywordflow">if</span> (p-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">GetPetGUID</a>() == t-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() &amp;&amp; t-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>())</div>
-<div class="line"><span class="lineno"> 1629</span>        ((<a class="code hl_class" href="../../d5/da9/a08234.html">Pet</a>*) t)-&gt;Remove(<a class="code hl_enumvalue" href="../../da/d3b/a03641.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno"> 1630</span>}</div>
-<div class="ttc" id="aa03641_html_a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd"><div class="ttname"><a href="../../da/d3b/a03641.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a></div><div class="ttdeci">@ PET_SAVE_NOT_IN_SLOT</div><div class="ttdef"><b>Definition:</b> PetDefines.h:45</div></div>
-<div class="ttc" id="aa08122_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
-<div class="ttc" id="aa08234_html"><div class="ttname"><a href="../../d5/da9/a08234.html">Pet</a></div><div class="ttdef"><b>Definition:</b> Pet.h:41</div></div>
-<div class="ttc" id="aa08498_html_a4ad2fdcc45e2c3c85ad59ff49268b58c"><div class="ttname"><a href="../../d3/daf/a08498.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">Unit::IsPet</a></div><div class="ttdeci">bool IsPet() const</div><div class="ttdef"><b>Definition:</b> Unit.h:710</div></div>
-<div class="ttc" id="aa08498_html_afd46bcfcf94e3c6bdbd7b23730a0b1ca"><div class="ttname"><a href="../../d3/daf/a08498.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">Unit::GetPetGUID</a></div><div class="ttdeci">ObjectGuid GetPetGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1232</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l01232">Unit::GetPetGUID()</a>, <a class="el" href="../../#l00710">Unit::IsPet()</a>, and <a class="el" href="../../#l00045">PET_SAVE_NOT_IN_SLOT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>.</p>
-
-</div>
-</div>
-<a id="aa890f698ac89e4049e1107c05d065495" name="aa890f698ac89e4049e1107c05d065495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa890f698ac89e4049e1107c05d065495">&#9670;&#160;</a></span>getProbabilityOfLevelUp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float getProbabilityOfLevelUp </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>SkillValue</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  823</span>{</div>
-<div class="line"><span class="lineno">  824</span>    <span class="comment">/* According to El&#39;s Extreme Angling page, from 1 to 115 the probability of</span></div>
-<div class="line"><span class="lineno">  825</span><span class="comment">     * a skill level up is 100% since 100/1 = 100. From 115 - 135 should average</span></div>
-<div class="line"><span class="lineno">  826</span><span class="comment">     * 2 catches per skill up so that means 100/2 = 50%. This returns the</span></div>
-<div class="line"><span class="lineno">  827</span><span class="comment">     * probability depending on the player&#39;s SkillValue.</span></div>
-<div class="line"><span class="lineno">  828</span><span class="comment">     */</span></div>
-<div class="line"><span class="lineno">  829</span>    <span class="keywordflow">if</span> (!SkillValue)</div>
-<div class="line"><span class="lineno">  830</span>    {</div>
-<div class="line"><span class="lineno">  831</span>        <span class="keywordflow">return</span> 0.0f;</div>
-<div class="line"><span class="lineno">  832</span>    }</div>
-<div class="line"><span class="lineno">  833</span> </div>
-<div class="line"><span class="lineno">  834</span>    std::array&lt;uint32, 10&gt; bounds {115, 135, 160, 190, 215,</div>
-<div class="line"><span class="lineno">  835</span>                                   295, 315, 355, 425, 450};</div>
-<div class="line"><span class="lineno">  836</span>    std::array&lt;float, 11&gt;  dens {1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f,</div>
-<div class="line"><span class="lineno">  837</span>                                9.0f, 10.0f, 11.0f, 12.0f, 1.0f};</div>
-<div class="line"><span class="lineno">  838</span>    <span class="keyword">auto</span>                   it =</div>
-<div class="line"><span class="lineno">  839</span>        std::lower_bound(std::begin(bounds), std::end(bounds), SkillValue);</div>
-<div class="line"><span class="lineno">  840</span>    <span class="keywordflow">return</span> 100 / dens[std::distance(std::begin(bounds), it)];</div>
-<div class="line"><span class="lineno">  841</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00843">Player::UpdateFishingSkill()</a>.</p>
-
-</div>
-</div>
-<a id="a66adde9ba6a85d585f6e6e8355499aa6" name="a66adde9ba6a85d585f6e6e8355499aa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66adde9ba6a85d585f6e6e8355499aa6">&#9670;&#160;</a></span>SkillGainChance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int SkillGainChance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>SkillValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>GrayLevel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>GreenLevel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>YellowLevel</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  709</span>{</div>
-<div class="line"><span class="lineno">  710</span>    <span class="keywordflow">if</span> (SkillValue &gt;= GrayLevel)</div>
-<div class="line"><span class="lineno">  711</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98">CONFIG_SKILL_CHANCE_GREY</a>) * 10;</div>
-<div class="line"><span class="lineno">  712</span>    <span class="keywordflow">if</span> (SkillValue &gt;= GreenLevel)</div>
-<div class="line"><span class="lineno">  713</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6">CONFIG_SKILL_CHANCE_GREEN</a>) * 10;</div>
-<div class="line"><span class="lineno">  714</span>    <span class="keywordflow">if</span> (SkillValue &gt;= YellowLevel)</div>
-<div class="line"><span class="lineno">  715</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c">CONFIG_SKILL_CHANCE_YELLOW</a>) * 10;</div>
-<div class="line"><span class="lineno">  716</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0">CONFIG_SKILL_CHANCE_ORANGE</a>) * 10;</div>
-<div class="line"><span class="lineno">  717</span>}</div>
-<div class="ttc" id="aa03140_html_a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0"><div class="ttname"><a href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0">CONFIG_SKILL_CHANCE_ORANGE</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_ORANGE</div><div class="ttdef"><b>Definition:</b> IWorld.h:264</div></div>
-<div class="ttc" id="aa03140_html_a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c"><div class="ttname"><a href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c">CONFIG_SKILL_CHANCE_YELLOW</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_YELLOW</div><div class="ttdef"><b>Definition:</b> IWorld.h:265</div></div>
-<div class="ttc" id="aa03140_html_a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98"><div class="ttname"><a href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98">CONFIG_SKILL_CHANCE_GREY</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_GREY</div><div class="ttdef"><b>Definition:</b> IWorld.h:267</div></div>
-<div class="ttc" id="aa03140_html_a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6"><div class="ttname"><a href="../../da/d72/a03140.html#a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6">CONFIG_SKILL_CHANCE_GREEN</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_GREEN</div><div class="ttdef"><b>Definition:</b> IWorld.h:266</div></div>
-<div class="ttc" id="aa04669_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00266">CONFIG_SKILL_CHANCE_GREEN</a>, <a class="el" href="../../#l00267">CONFIG_SKILL_CHANCE_GREY</a>, <a class="el" href="../../#l00264">CONFIG_SKILL_CHANCE_ORANGE</a>, <a class="el" href="../../#l00265">CONFIG_SKILL_CHANCE_YELLOW</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00781">Player::UpdateCraftSkill()</a>, and <a class="el" href="../../#l00719">Player::UpdateGatherSkill()</a>.</p>
-
-</div>
-</div>
-<a id="a5f5d6b73fc1fb15a0cde612641ba3433" name="a5f5d6b73fc1fb15a0cde612641ba3433"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f5d6b73fc1fb15a0cde612641ba3433">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UpdateVisibilityOf_helper </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>s64</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d03/a07750.html">Creature</a> *&#160;</td>
-          <td class="paramname"><em>target</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1607</span>{</div>
-<div class="line"><span class="lineno"> 1608</span>    s64.insert(target-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno"> 1609</span>    v.push_back(target);</div>
-<div class="line"><span class="lineno"> 1610</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
-
-</div>
-</div>
-<a id="aa522147fa6130f7d54551f137424bd15" name="aa522147fa6130f7d54551f137424bd15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa522147fa6130f7d54551f137424bd15">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UpdateVisibilityOf_helper </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>s64</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d3d/a07926.html">GameObject</a> *&#160;</td>
-          <td class="paramname"><em>target</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1597</span>{</div>
-<div class="line"><span class="lineno"> 1598</span>    <span class="comment">// @HACK: This is to prevent objects like deeprun tram from disappearing</span></div>
-<div class="line"><span class="lineno"> 1599</span>    <span class="comment">// when player moves far from its spawn point while riding it</span></div>
-<div class="line"><span class="lineno"> 1600</span>    <span class="keywordflow">if</span> ((target-&gt;<a class="code hl_function" href="../../dc/d3d/a07926.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d8/db8/a07930.html#a1c78664b7272010dac83e9f4ea132330">type</a> != <a class="code hl_enumvalue" href="../../d6/d1d/a02906.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a>))</div>
-<div class="line"><span class="lineno"> 1601</span>        s64.insert(target-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno"> 1602</span>}</div>
-<div class="ttc" id="aa02906_html_a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0"><div class="ttname"><a href="../../d6/d1d/a02906.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRANSPORT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1571</div></div>
-<div class="ttc" id="aa07926_html_a1415b5cb9b3b3f4f6691584c5b6d7324"><div class="ttname"><a href="../../dc/d3d/a07926.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GameObject::GetGOInfo</a></div><div class="ttdeci">GameObjectTemplate const * GetGOInfo() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:137</div></div>
-<div class="ttc" id="aa07930_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../d8/db8/a07930.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:33</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01571">GAMEOBJECT_TYPE_TRANSPORT</a>, <a class="el" href="../../#l00137">GameObject::GetGOInfo()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l00033">GameObjectTemplate::type</a>.</p>
-
-</div>
-</div>
-<a id="ac411c559a97e183268339b1ea63a84b6" name="ac411c559a97e183268339b1ea63a84b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac411c559a97e183268339b1ea63a84b6">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UpdateVisibilityOf_helper </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>s64</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/de7/a08366.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>target</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1615</span>{</div>
-<div class="line"><span class="lineno"> 1616</span>    s64.insert(target-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno"> 1617</span>    v.push_back(target);</div>
-<div class="line"><span class="lineno"> 1618</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
-
-</div>
-</div>
-<a id="a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77" name="a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UpdateVisibilityOf_helper </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dd9/a03599.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>s64</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>target</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/daf/a08498.html">Unit</a> * &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1590</span>{</div>
-<div class="line"><span class="lineno"> 1591</span>    s64.insert(target-&gt;GetGUID());</div>
-<div class="line"><span class="lineno"> 1592</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l01633">Player::UpdateVisibilityOf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00733">AuctionHouseObject::BuildListAuctionItems()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a72b3624ee55553e28f82ef06d7c74c6a" name="a72b3624ee55553e28f82ef06d7c74c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72b3624ee55553e28f82ef06d7c74c6a">&#9670;&#160;</a></span>bonusSkillLevels</h2>
+<a id="ae6debe42dd0e5674dcf1b874cebafe98" name="ae6debe42dd0e5674dcf1b874cebafe98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6debe42dd0e5674dcf1b874cebafe98">&#9670;&#160;</a></span>AH_MINIMUM_DEPOSIT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,59 +416,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> bonusSkillLevels[] = {75, 150, 225, 300, 375, 450}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00870">Player::UpdateSkillPro()</a>.</p>
-
-</div>
-</div>
-<a id="ad103e97f7db0cfd188ab64f5748c7464" name="ad103e97f7db0cfd188ab64f5748c7464"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad103e97f7db0cfd188ab64f5748c7464">&#9670;&#160;</a></span>bonusSkillLevelsSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::size_t bonusSkillLevelsSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">    <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d3/d3b/a03728.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a>) / <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</div>
-<div class="ttc" id="aa00446_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa03728_html_a72b3624ee55553e28f82ef06d7c74c6a"><div class="ttname"><a href="../../d3/d3b/a03728.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a></div><div class="ttdeci">static uint32 bonusSkillLevels[]</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:866</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00870">Player::UpdateSkillPro()</a>.</p>
-
-</div>
-</div>
-<a id="afabbcd46bf6f03c5dca10b117810b710" name="afabbcd46bf6f03c5dca10b117810b710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afabbcd46bf6f03c5dca10b117810b710">&#9670;&#160;</a></span>ZONE_UPDATE_INTERVAL</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto ZONE_UPDATE_INTERVAL = 1000</td>
+          <td class="memname">constexpr auto AH_MINIMUM_DEPOSIT = 100</td>
         </tr>
       </table>
   </td>
@@ -645,9 +425,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000059">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00052">Player::Update()</a>, and <a class="el" href="../../#l01207">Player::UpdateZone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00265">AuctionHouseMgr::GetAuctionDeposit()</a>.</p>
 
 </div>
 </div>
@@ -656,8 +435,8 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d3/d3b/a03728.html">PlayerUpdates.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a1ce599ad2b2438c4a079c0c47195cb6.html">AuctionHouse</a></li><li class="navelem"><a class="el" href="../../d3/d3b/a03728.html">AuctionHouseMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

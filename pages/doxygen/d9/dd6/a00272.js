@@ -1,5 +1,4 @@
 var a00272 =
 [
-    [ "FactoryHolder< T, O, Key >", "d5/d87/a05118.html", "d5/d87/a05118" ],
-    [ "Permissible< T >", "dc/d0c/a05122.html", "dc/d0c/a05122" ]
+    [ "Acore::Crypto::ARC4", "d8/d5f/a05046.html", "d8/d5f/a05046" ]
 ];

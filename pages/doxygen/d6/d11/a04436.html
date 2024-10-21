@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Packets/GuildPackets.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Packets/PacketUtilities.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,122 +105,75 @@ $(document).ready(function(){initNavTree('d6/d11/a04436.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">GuildPackets.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">PacketUtilities.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">GuildPackets.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tuples.h</a>&quot;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dea/a10522.html">WorldPackets::InvalidStringValueException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a10526.html">WorldPackets::InvalidUtf8ValueException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d61/a10530.html">WorldPackets::InvalidHyperlinkException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db2/a10534.html">WorldPackets::IllegalHyperlinkException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4e/a10538.html">WorldPackets::Strings::RawBytes</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5d/a10542.html">WorldPackets::Strings::ByteSize&lt; MaxBytesWithoutNullTerminator &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d62/a10546.html">WorldPackets::Strings::Utf8</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d34/a10550.html">WorldPackets::Strings::Hyperlinks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a10554.html">WorldPackets::Strings::NoHyperlinks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/deb/a10558.html">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/a10562.html">WorldPackets::PacketArrayMaxCapacityException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd4/a10566.html">WorldPackets::Array&lt; T, N &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df1/a10570.html">WorldPackets::CompactArray&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a10574.html">fmt::formatter&lt; WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators... &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d2/dd5/a04724"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a04724.html">WorldPackets</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/d2c/a04741"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a04741.html">WorldPackets::Strings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abd3549ec2eebc439058205da8ae53eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d11/a04436.html#abd3549ec2eebc439058205da8ae53eb3">operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;data, <a class="el" href="../../d4/db5/a10270.html">WorldPackets::Guild::GuildRosterMemberData</a> const &amp;rosterMemberData)</td></tr>
-<tr class="separator:abd3549ec2eebc439058205da8ae53eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a45300d819957eb5ed8c659180c750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d11/a04436.html#ae8a45300d819957eb5ed8c659180c750">operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;data, <a class="el" href="../../d1/d6c/a10274.html">WorldPackets::Guild::GuildRankData</a> const &amp;rankData)</td></tr>
-<tr class="separator:ae8a45300d819957eb5ed8c659180c750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4909c8c4c13b14c8eceda2e9b4246d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a04724.html#afb4909c8c4c13b14c8eceda2e9b4246d">WorldPackets::CheckCompactArrayMaskOverflow</a> (std::size_t index, std::size_t limit)</td></tr>
+<tr class="separator:afb4909c8c4c13b14c8eceda2e9b4246d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e35db0d6b671a4f4a581aac05828dc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a82e35db0d6b671a4f4a581aac05828dc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a04724.html#a82e35db0d6b671a4f4a581aac05828dc">WorldPackets::operator&lt;&lt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;data, CompactArray&lt; T &gt; const &amp;v)</td></tr>
+<tr class="separator:a82e35db0d6b671a4f4a581aac05828dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21e8e534a45a2a33d69cd11562a45c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab21e8e534a45a2a33d69cd11562a45c6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a04724.html#ab21e8e534a45a2a33d69cd11562a45c6">WorldPackets::operator&gt;&gt;</a> (<a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;data, CompactArray&lt; T &gt; &amp;v)</td></tr>
+<tr class="separator:ab21e8e534a45a2a33d69cd11562a45c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae8a45300d819957eb5ed8c659180c750" name="ae8a45300d819957eb5ed8c659180c750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8a45300d819957eb5ed8c659180c750">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6c/a10274.html">WorldPackets::Guild::GuildRankData</a> const &amp;&#160;</td>
-          <td class="paramname"><em>rankData</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  195</span>{</div>
-<div class="line"><span class="lineno">  196</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.Flags);</div>
-<div class="line"><span class="lineno">  197</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.WithdrawGoldLimit);</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d7/dc5/a03449.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>; i++)</div>
-<div class="line"><span class="lineno">  200</span>    {</div>
-<div class="line"><span class="lineno">  201</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.TabFlags[i]);</div>
-<div class="line"><span class="lineno">  202</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.TabWithdrawItemLimit[i]);</div>
-<div class="line"><span class="lineno">  203</span>    }</div>
-<div class="line"><span class="lineno">  204</span> </div>
-<div class="line"><span class="lineno">  205</span>    <span class="keywordflow">return</span> data;</div>
-<div class="line"><span class="lineno">  206</span>}</div>
-<div class="ttc" id="aa00446_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa00446_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa03449_html_a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7"><div class="ttname"><a href="../../d7/dc5/a03449.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a></div><div class="ttdeci">@ GUILD_BANK_MAX_TABS</div><div class="ttdef"><b>Definition:</b> Guild.h:45</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00124">WorldPackets::Guild::GuildRankData::Flags</a>, <a class="el" href="../../#l00045">GUILD_BANK_MAX_TABS</a>, <a class="el" href="../../#l00126">WorldPackets::Guild::GuildRankData::TabFlags</a>, <a class="el" href="../../#l00127">WorldPackets::Guild::GuildRankData::TabWithdrawItemLimit</a>, and <a class="el" href="../../#l00125">WorldPackets::Guild::GuildRankData::WithdrawGoldLimit</a>.</p>
-
-</div>
-</div>
-<a id="abd3549ec2eebc439058205da8ae53eb3" name="abd3549ec2eebc439058205da8ae53eb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd3549ec2eebc439058205da8ae53eb3">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d59/a28326.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/db5/a10270.html">WorldPackets::Guild::GuildRosterMemberData</a> const &amp;&#160;</td>
-          <td class="paramname"><em>rosterMemberData</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  104</span>{</div>
-<div class="line"><span class="lineno">  105</span>    data &lt;&lt; rosterMemberData.Guid;</div>
-<div class="line"><span class="lineno">  106</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Status);</div>
-<div class="line"><span class="lineno">  107</span>    data &lt;&lt; rosterMemberData.Name;</div>
-<div class="line"><span class="lineno">  108</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(rosterMemberData.RankID);</div>
-<div class="line"><span class="lineno">  109</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Level);</div>
-<div class="line"><span class="lineno">  110</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.ClassID);</div>
-<div class="line"><span class="lineno">  111</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Gender);</div>
-<div class="line"><span class="lineno">  112</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d3/def/a00446.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(rosterMemberData.AreaID);</div>
-<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">if</span> (!rosterMemberData.Status)</div>
-<div class="line"><span class="lineno">  114</span>        data &lt;&lt; float(rosterMemberData.LastSave);</div>
-<div class="line"><span class="lineno">  115</span> </div>
-<div class="line"><span class="lineno">  116</span>    data &lt;&lt; rosterMemberData.Note;</div>
-<div class="line"><span class="lineno">  117</span>    data &lt;&lt; rosterMemberData.OfficerNote;</div>
-<div class="line"><span class="lineno">  118</span> </div>
-<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">return</span> data;</div>
-<div class="line"><span class="lineno">  120</span>}</div>
-<div class="ttc" id="aa00446_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d3/def/a00446.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00111">WorldPackets::Guild::GuildRosterMemberData::AreaID</a>, <a class="el" href="../../#l00118">WorldPackets::Guild::GuildRosterMemberData::ClassID</a>, <a class="el" href="../../#l00119">WorldPackets::Guild::GuildRosterMemberData::Gender</a>, <a class="el" href="../../#l00107">WorldPackets::Guild::GuildRosterMemberData::Guid</a>, <a class="el" href="../../#l00112">WorldPackets::Guild::GuildRosterMemberData::LastSave</a>, <a class="el" href="../../#l00117">WorldPackets::Guild::GuildRosterMemberData::Level</a>, <a class="el" href="../../#l00113">WorldPackets::Guild::GuildRosterMemberData::Name</a>, <a class="el" href="../../#l00114">WorldPackets::Guild::GuildRosterMemberData::Note</a>, <a class="el" href="../../#l00115">WorldPackets::Guild::GuildRosterMemberData::OfficerNote</a>, <a class="el" href="../../#l00110">WorldPackets::Guild::GuildRosterMemberData::RankID</a>, and <a class="el" href="../../#l00116">WorldPackets::Guild::GuildRosterMemberData::Status</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_07fbe19a361de996bef604f9408f4a7b.html">Packets</a></li><li class="navelem"><a class="el" href="../../d6/d11/a04436.html">GuildPackets.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_07fbe19a361de996bef604f9408f4a7b.html">Packets</a></li><li class="navelem"><a class="el" href="../../d6/d11/a04436.html">PacketUtilities.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

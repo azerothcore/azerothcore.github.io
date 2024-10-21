@@ -1,4 +1,4 @@
 var a00122 =
 [
-    [ "Acore::Crypto::ARC4", "d8/d5f/a05046.html", "d8/d5f/a05046" ]
+    [ "ObjectRegistry< T, Key >", "d2/d3d/a05146.html", "d2/d3d/a05146" ]
 ];

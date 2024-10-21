@@ -1,12 +1,5 @@
 var a02366 =
 [
-    [ "instance_stratholme", "d4/d1e/a12898.html", "d4/d1e/a12898" ],
-    [ "instance_stratholme::instance_stratholme_InstanceMapScript", "d3/d2f/a12902.html", "d3/d2f/a12902" ],
-    [ "AddSC_instance_stratholme", "d9/d4f/a02366.html#add44fd9ad05267cc5db256b112db2585", null ],
-    [ "aGateTrap", "d9/d4f/a02366.html#aa404f6799978911e2f0e4de3b4386c59", null ],
-    [ "aPlaguedCritters", "d9/d4f/a02366.html#a4108af811b2731f9784942b89f333054", null ],
-    [ "BarthilasPos", "d9/d4f/a02366.html#a3c5bc53064d7ed19146d61fbe2f25502", null ],
-    [ "BlackGuardPos", "d9/d4f/a02366.html#a8ed1ccc03c022b129aa9bb9464fedd0a", null ],
-    [ "MindlessUndeadPos", "d9/d4f/a02366.html#a1a89feed6c582c3bf3e51bf3a1027081", null ],
-    [ "SlaughterPos", "d9/d4f/a02366.html#aec64d79cbf450b10fd485f2e559e0472", null ]
+    [ "cache_commandscript", "d8/de8/a11282.html", "d8/de8/a11282" ],
+    [ "AddSC_cache_commandscript", "d9/d4f/a02366.html#a293f65606c1750692d4046d4fe4c4adc", null ]
 ];

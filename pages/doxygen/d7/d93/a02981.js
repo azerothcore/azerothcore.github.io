@@ -1,21 +1,5 @@
 var a02981 =
 [
-    [ "DefaultTargetSelector", "d4/d80/a06030.html", "d4/d80/a06030" ],
-    [ "SpellTargetSelector", "df/d0f/a06034.html", "df/d0f/a06034" ],
-    [ "NonTankTargetSelector", "dd/d4e/a06038.html", "dd/d4e/a06038" ],
-    [ "PowerUsersSelector", "d5/de8/a06042.html", "d5/de8/a06042" ],
-    [ "FarthestTargetSelector", "d3/d33/a06046.html", "d3/d33/a06046" ],
-    [ "UnitAI", "db/da6/a06050.html", "db/da6/a06050" ],
-    [ "PlayerAI", "d8/d89/a06054.html", "d8/d89/a06054" ],
-    [ "SimpleCharmedAI", "d4/db5/a06058.html", "d4/db5/a06058" ],
-    [ "CAST_AI", "d7/d93/a02981.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
-    [ "ENSURE_AI", "d7/d93/a02981.html#afbd9552e4d9ae2fb45fe846c8e9775cf", null ],
-    [ "SelectTargetMethod", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3d", [
-      [ "Random", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3da64663f4646781c9c0110838b905daa23", null ],
-      [ "MaxThreat", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3da8a65bf968cbf5bef0f097c4f6cc842c0", null ],
-      [ "MinThreat", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3da01cd0e3f1d186cc67cb2235ac1e02fa4", null ],
-      [ "MaxDistance", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3da26566fa367c162fcc3c6639f66c6b611", null ],
-      [ "MinDistance", "d7/d93/a02981.html#a482ee472018cb5f0e11addaabad35c3da334b6577674b84a8854d5281a52e48b1", null ]
-    ] ],
-    [ "EnsureAI", "d7/d93/a02981.html#a1c66b73f1d3e1e8031c25ae739f094e6", null ]
+    [ "GetAISpellInfo", "d7/d93/a02981.html#a1ed41ad074263f6c0c63f38b7f51414b", null ],
+    [ "IsValidCombatTarget", "d7/d93/a02981.html#a981f03ba3b8c59eb1fa9d22df158ba19", null ]
 ];

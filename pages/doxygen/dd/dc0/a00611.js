@@ -1,6 +1,5 @@
 var a00611 =
 [
-    [ "GetDefaultNetmaskV4", "dd/dc0/a00611.html#af75b2c10ca445dc89c53b7ed8d17eae0", null ],
-    [ "IsInNetwork", "dd/dc0/a00611.html#af108d05a57113d16ab9c8f3b26870be2", null ],
-    [ "IsInNetwork", "dd/dc0/a00611.html#a2617cb1c747a45e5af4e2c32cc29d5de", null ]
+    [ "ACORE_LINKAGE_TYPE_STR", "dd/dc0/a00611.html#a498cc8d79612cf645e7afc2ceb4174f3", null ],
+    [ "AZEROTH_PLATFORM_STR", "dd/dc0/a00611.html#af7cd76a18bc19a0ec34ac7693e406971", null ]
 ];

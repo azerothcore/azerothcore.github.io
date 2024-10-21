@@ -1,5 +1,6 @@
 var a00638 =
 [
-    [ "reload_commandscript", "d4/d19/a11426.html", "d4/d19/a11426" ],
-    [ "AddSC_reload_commandscript", "d1/daa/a00638.html#ab72bc0a4ad4d6f90fa1e05f5591ed68f", null ]
+    [ "CharacterDatabase", "d1/daa/a00638.html#a7e7534bc66d79434bd280b77cb124eec", null ],
+    [ "LoginDatabase", "d1/daa/a00638.html#a2cf25eafe7f2f73b61ccde11d55daf0c", null ],
+    [ "WorldDatabase", "d1/daa/a00638.html#afa9a6509f9913c9c7dd3081523badd7c", null ]
 ];

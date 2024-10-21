@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_bag.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/PrecompiledHeaders/databasePCH.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,102 +104,33 @@ $(document).ready(function(){initNavTree('d5/de8/a00749.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">cs_bag.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">databasePCH.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Field.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLConnection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLPreparedStatement.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLWorkaround.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PreparedStatement.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SQLOperation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transaction.h</a>&quot;</code><br />
+<code>#include &lt;mysql.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/a11270.html">bg_commandscript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a8fa1e803122341d611168b2b62fde4e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de8/a00749.html#a8fa1e803122341d611168b2b62fde4e5">AddSC_bag_commandscript</a> ()</td></tr>
-<tr class="separator:a8fa1e803122341d611168b2b62fde4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af266597924b9d3f439ffc9908001d2cb"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::string_view, <a class="el" href="../../d6/d1d/a02906.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de8/a00749.html#af266597924b9d3f439ffc9908001d2cb">itemQualityToString</a></td></tr>
-<tr class="separator:af266597924b9d3f439ffc9908001d2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a8fa1e803122341d611168b2b62fde4e5" name="a8fa1e803122341d611168b2b62fde4e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fa1e803122341d611168b2b62fde4e5">&#9670;&#160;</a></span>AddSC_bag_commandscript()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_bag_commandscript </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
-<div class="line"><span class="lineno">  159</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d3d/a11270.html">bg_commandscript</a>();</div>
-<div class="line"><span class="lineno">  160</span>}</div>
-<div class="ttc" id="aa11270_html"><div class="ttname"><a href="../../d9/d3d/a11270.html">bg_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_bag.cpp:38</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="af266597924b9d3f439ffc9908001d2cb" name="af266597924b9d3f439ffc9908001d2cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af266597924b9d3f439ffc9908001d2cb">&#9670;&#160;</a></span>itemQualityToString</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::array&lt;std::string_view, <a class="el" href="../../d6/d1d/a02906.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a>&gt; itemQualityToString</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <span class="stringliteral">&quot;poor&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;normal&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;uncommon&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;rare&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;epic&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;legendary&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;artifact&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;all&quot;</span></div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00052">bg_commandscript::HandleBagsClearCommand()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d5/de8/a00749.html">cs_bag.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_2520e02461832f009bb34cab9ff8023f.html">PrecompiledHeaders</a></li><li class="navelem"><a class="el" href="../../d5/de8/a00749.html">databasePCH.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

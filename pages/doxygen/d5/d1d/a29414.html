@@ -154,9 +154,9 @@ Functions</h2></td></tr>
 <tr class="separator:ab1ffb5b5ec6ef364da691218a1f840ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a037f48efd9ff4f980901dc23f9062cfe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a> (std::string const &amp;configName)</td></tr>
 <tr class="separator:a037f48efd9ff4f980901dc23f9062cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b39ee4aeace82542c39141c4c052417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a> (std::string const &amp;key)</td></tr>
+<tr class="memitem:a4b39ee4aeace82542c39141c4c052417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a> (std::string const &amp;key)</td></tr>
 <tr class="separator:a4b39ee4aeace82542c39141c4c052417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a> (std::string const &amp;configName, std::string const &amp;envVarName)</td></tr>
+<tr class="memitem:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a> (std::string const &amp;configName, std::string const &amp;envVarName)</td></tr>
 <tr class="separator:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a7096a6c65872ca33d8f44bdd841eaa31">ConfigMgr::GetValueDefault&lt; std::string &gt;</a> (std::string const &amp;name, std::string const &amp;def, bool showLogs) const</td></tr>
@@ -237,13 +237,13 @@ template&lt;&gt; </div>
 <div class="line"><span class="lineno">  444</span>    <span class="keywordtype">bool</span> fatalConfig = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  445</span>    <span class="keywordtype">bool</span> notFound = itr == <a class="code hl_variable" href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end();</div>
 <div class="line"><span class="lineno">  446</span>    <span class="keyword">auto</span> envVarName = <a class="code hl_function" href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">GetEnvVarName</a>(name);</div>
-<div class="line"><span class="lineno">  447</span>    <a class="code hl_typedef" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
+<div class="line"><span class="lineno">  447</span>    <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
 <div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (envVar)</div>
 <div class="line"><span class="lineno">  449</span>    {</div>
 <div class="line"><span class="lineno">  450</span>        <span class="comment">// If showLogs and this key/value pair wasn&#39;t found in the currently saved config</span></div>
 <div class="line"><span class="lineno">  451</span>        <span class="keywordflow">if</span> (showLogs &amp;&amp; (notFound || itr-&gt;second != envVar-&gt;c_str()))</div>
 <div class="line"><span class="lineno">  452</span>        {</div>
-<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName);</div>
+<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName);</div>
 <div class="line"><span class="lineno">  454</span>            <a class="code hl_function" href="../../d9/db6/a04683.html#ab573c6a7facb635d7c4787e5b6f346fa">AddKey</a>(name, *envVar, <span class="stringliteral">&quot;ENVIRONMENT&quot;</span>, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">  455</span>        }</div>
 <div class="line"><span class="lineno">  456</span> </div>
@@ -261,10 +261,10 @@ template&lt;&gt; </div>
 <div class="line"><span class="lineno">  468</span>                }</div>
 <div class="line"><span class="lineno">  469</span> </div>
 <div class="line"><span class="lineno">  470</span>            <span class="keywordflow">if</span> (fatalConfig)</div>
-<div class="line"><span class="lineno">  471</span>                <a class="code hl_define" href="../../d2/df5/a00137.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.\n\nYour server cannot start without this option!&quot;</span>,</div>
+<div class="line"><span class="lineno">  471</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.\n\nYour server cannot start without this option!&quot;</span>,</div>
 <div class="line"><span class="lineno">  472</span>                    name, <a class="code hl_variable" href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
 <div class="line"><span class="lineno">  473</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  474</span>                <a class="code hl_define" href="../../d2/df5/a00137.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
+<div class="line"><span class="lineno">  474</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
 <div class="line"><span class="lineno">  475</span>                    name, <a class="code hl_variable" href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
 <div class="line"><span class="lineno">  476</span>        }</div>
 <div class="line"><span class="lineno">  477</span> </div>
@@ -273,10 +273,10 @@ template&lt;&gt; </div>
 <div class="line"><span class="lineno">  480</span> </div>
 <div class="line"><span class="lineno">  481</span>    <span class="keywordflow">return</span> itr-&gt;second;</div>
 <div class="line"><span class="lineno">  482</span>}</div>
-<div class="ttc" id="aa00137_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d2/df5/a00137.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:152</div></div>
-<div class="ttc" id="aa00137_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
-<div class="ttc" id="aa00137_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d2/df5/a00137.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
-<div class="ttc" id="aa00482_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
+<div class="ttc" id="aa00326_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:152</div></div>
+<div class="ttc" id="aa00326_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
+<div class="ttc" id="aa00326_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
+<div class="ttc" id="aa00380_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
 <div class="ttc" id="aa04683_html_a037f48efd9ff4f980901dc23f9062cfe"><div class="ttname"><a href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a></div><div class="ttdeci">std::string GetEnvVarName(std::string const &amp;configName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:281</div></div>
 <div class="ttc" id="aa04683_html_a4222a9ebe6cae31f1a5ad0a4a44bee3f"><div class="ttname"><a href="../../d9/db6/a04683.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _fatalConfigOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:38</div></div>
 <div class="ttc" id="aa04683_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:34</div></div>
@@ -295,7 +295,7 @@ template&lt;&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt; GetEnvFromCache </td>
+          <td class="memname"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt; GetEnvFromCache </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>configName</em>, </td>
@@ -315,7 +315,7 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  336</span>{</div>
 <div class="line"><span class="lineno">  337</span>    <span class="keyword">auto</span> foundInCache = <a class="code hl_variable" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.find(envVarName);</div>
-<div class="line"><span class="lineno">  338</span>    <a class="code hl_typedef" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> foundInEnv;</div>
+<div class="line"><span class="lineno">  338</span>    <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> foundInEnv;</div>
 <div class="line"><span class="lineno">  339</span>    <span class="comment">// If it&#39;s not in the cache</span></div>
 <div class="line"><span class="lineno">  340</span>    <span class="keywordflow">if</span> (foundInCache == <a class="code hl_variable" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.end())</div>
 <div class="line"><span class="lineno">  341</span>    {</div>
@@ -347,7 +347,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e8df728d6a6e829c2d0f8060a021b576.html">Configuration</a></li><li class="navelem"><a class="el" href="../../d5/d1d/a29414.html">Config.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:41:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:40:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

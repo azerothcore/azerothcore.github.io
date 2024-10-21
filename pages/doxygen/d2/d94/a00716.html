@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_send.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/DatabaseWorkerPool.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,53 +106,58 @@ $(document).ready(function(){initNavTree('d2/d94/a00716.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">cs_send.cpp File Reference</div></div>
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">DatabaseWorkerPool.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Mail.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db1/a11434.html">send_commandscript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd0/a05590.html">DatabaseWorkerPool&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9f3fee551f6ca7aa7dad83edb2dfe480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/a00716.html#a9f3fee551f6ca7aa7dad83edb2dfe480">AddSC_send_commandscript</a> ()</td></tr>
-<tr class="separator:a9f3fee551f6ca7aa7dad83edb2dfe480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:abfde8cf59610848eff4ea61d09bb8ca7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/a00716.html#abfde8cf59610848eff4ea61d09bb8ca7">MIN_MYSQL_CLIENT_VERSION</a>&#160;&#160;&#160;80000u</td></tr>
+<tr class="separator:abfde8cf59610848eff4ea61d09bb8ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4a83e86313ca0bb35cb66497bc79b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/a00716.html#acd4a83e86313ca0bb35cb66497bc79b2">MIN_MYSQL_SERVER_VERSION</a>&#160;&#160;&#160;&quot;8.0.0&quot;</td></tr>
+<tr class="separator:acd4a83e86313ca0bb35cb66497bc79b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a9f3fee551f6ca7aa7dad83edb2dfe480" name="a9f3fee551f6ca7aa7dad83edb2dfe480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f3fee551f6ca7aa7dad83edb2dfe480">&#9670;&#160;</a></span>AddSC_send_commandscript()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="abfde8cf59610848eff4ea61d09bb8ca7" name="abfde8cf59610848eff4ea61d09bb8ca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfde8cf59610848eff4ea61d09bb8ca7">&#9670;&#160;</a></span>MIN_MYSQL_CLIENT_VERSION</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_send_commandscript </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">#define MIN_MYSQL_CLIENT_VERSION&#160;&#160;&#160;80000u</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  220</span>{</div>
-<div class="line"><span class="lineno">  221</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/db1/a11434.html">send_commandscript</a>();</div>
-<div class="line"><span class="lineno">  222</span>}</div>
-<div class="ttc" id="aa11434_html"><div class="ttname"><a href="../../d9/db1/a11434.html">send_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_send.cpp:31</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
+<p >The minimum <a class="el" href="../../df/dd9/a04702.html">MySQL</a> Client Version </p>
+
+</div>
+</div>
+<a id="acd4a83e86313ca0bb35cb66497bc79b2" name="acd4a83e86313ca0bb35cb66497bc79b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4a83e86313ca0bb35cb66497bc79b2">&#9670;&#160;</a></span>MIN_MYSQL_SERVER_VERSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN_MYSQL_SERVER_VERSION&#160;&#160;&#160;&quot;8.0.0&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >The minimum <a class="el" href="../../df/dd9/a04702.html">MySQL</a> Server Version </p>
 
 </div>
 </div>
@@ -161,8 +166,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d2/d94/a00716.html">cs_send.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../d2/d94/a00716.html">DatabaseWorkerPool.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

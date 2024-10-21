@@ -1,4 +1,4 @@
 var a00398 =
 [
-    [ "B64Impl", "d5/dfc/a05210.html", "d5/dfc/a05210" ]
+    [ "Acore::SignalHandler", "d5/d84/a05394.html", "d5/d84/a05394" ]
 ];

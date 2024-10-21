@@ -1,12 +1,10 @@
 var a01799 =
 [
-    [ "ACScriptName", "d5/d12/a01799.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
-    [ "DataHeader", "d5/d12/a01799.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAuchenaiCryptsCreatureAI", "d5/d12/a01799.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
-    [ "ACDataTypes", "d5/d12/a01799.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
-      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "d5/d12/a01799.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
-      [ "DATA_EXARCH_MALADAAR", "d5/d12/a01799.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
+    [ "spell_razelikh_teleport_group", "d0/db6/a13270.html", "d0/db6/a13270" ],
+    [ "DeathlyUsher", "d5/d12/a01799.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
+      [ "SPELL_TELEPORT_SINGLE", "d5/d12/a01799.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
+      [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "d5/d12/a01799.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],
+      [ "SPELL_TELEPORT_GROUP", "d5/d12/a01799.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3efb41f1943511af5c5c1abbced10dcc", null ]
     ] ],
-    [ "GetAuchenaiCryptsAI", "d5/d12/a01799.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
-    [ "EncounterCount", "d5/d12/a01799.html#a31d630c40753c29f94ceac2db5e451a8", null ]
+    [ "AddSC_blasted_lands", "d5/d12/a01799.html#a8c45aaff0bee880d1bac07d32d1747f1", null ]
 ];

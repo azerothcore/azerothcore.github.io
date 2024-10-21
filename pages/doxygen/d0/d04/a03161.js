@@ -1,9 +1,16 @@
 var a03161 =
 [
-    [ "GetCheckPacketBaseSize", "d0/d04/a03161.html#aa48d9759919f0fb8415c0fd0731a23b1", null ],
-    [ "GetCheckPacketSize", "d0/d04/a03161.html#adfb39c1ce4f6159c2c70e3cdf26978c9", null ],
-    [ "GetMaxWardenChecksForType", "d0/d04/a03161.html#a1bcaaac66e1101e325fd62778b2f0c8d", null ],
-    [ "_luaEvalMidfix", "d0/d04/a03161.html#a5506a4e4233b2c380f79ad1225c4dc93", null ],
-    [ "_luaEvalPostfix", "d0/d04/a03161.html#ad14853510c2482e64bd81633e5074206", null ],
-    [ "_luaEvalPrefix", "d0/d04/a03161.html#a259abc7d98e16cefc14404b5886cbc09", null ]
+    [ "LinkValidator< T >", "d8/dd6/a07470.html", "d8/dd6/a07470" ],
+    [ "LinkValidator< LinkTags::achievement >", "d4/d7b/a07474.html", "d4/d7b/a07474" ],
+    [ "LinkValidator< LinkTags::item >", "dd/d74/a07478.html", "dd/d74/a07478" ],
+    [ "LinkValidator< LinkTags::quest >", "de/dbd/a07482.html", "de/dbd/a07482" ],
+    [ "LinkValidator< LinkTags::spell >", "d4/dd9/a07486.html", "d4/dd9/a07486" ],
+    [ "LinkValidator< LinkTags::enchant >", "d2/d32/a07490.html", "d2/d32/a07490" ],
+    [ "LinkValidator< LinkTags::glyph >", "df/dbf/a07494.html", "df/dbf/a07494" ],
+    [ "LinkValidator< LinkTags::talent >", "d1/dd7/a07498.html", "d1/dd7/a07498" ],
+    [ "LinkValidator< LinkTags::trade >", "d4/d15/a07502.html", "d4/d15/a07502" ],
+    [ "TryValidateAs", "d0/d04/a03161.html#af1c86bff85f30ff113d5f78421c280af", null ],
+    [ "toHex", "d0/d04/a03161.html#a0b5e4d40ad5549ddc48c127306499b6c", null ],
+    [ "ValidateAs", "d0/d04/a03161.html#a1021653ddd2d2e78df34d8c4a2a7ed93", null ],
+    [ "ValidateLinkInfo", "d0/d04/a03161.html#a7de61dd7d7c595063ae73f415e961cc9", null ]
 ];

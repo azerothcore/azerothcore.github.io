@@ -1,5 +1,10 @@
 var a00566 =
 [
-    [ "ExtractGameobjectModels", "d0/d3e/a00566.html#a7b3d0cbf404ed32359e354ccf6e34392", null ],
-    [ "ExtractSingleModel", "d0/d3e/a00566.html#a6a96194f748b715f0400249583336ae5", null ]
+    [ "VMAP::ModelSpawn", "df/d92/a04962.html", "df/d92/a04962" ],
+    [ "VMAP::ModelInstance", "d6/d5a/a04966.html", "d6/d5a/a04966" ],
+    [ "ModelFlags", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccce", [
+      [ "MOD_M2", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
+      [ "MOD_WORLDSPAWN", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
+      [ "MOD_HAS_BOUND", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
+    ] ]
 ];

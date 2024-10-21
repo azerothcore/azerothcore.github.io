@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/Spline/SplineImpl.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/BattlegroundMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,25 +105,172 @@ $(document).ready(function(){initNavTree('d3/d31/a04292.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">SplineImpl.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">BattlegroundMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCEnums.h</a>&quot;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
+</div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d0/dae/a04721"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html">Movement</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d67/a07058.html">BattlegroundData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0e/a07062.html">BattlegroundTemplate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d41/a07066.html">BattlegroundMgr</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:abe50926a988d0fff4ee6ba0358c6b278"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#abe50926a988d0fff4ee6ba0358c6b278">sBattlegroundMgr</a>&#160;&#160;&#160;<a class="el" href="../../dd/d41/a07066.html#a48a9b67328407574f9eefda8ce2b9154">BattlegroundMgr::instance</a>()</td></tr>
+<tr class="separator:abe50926a988d0fff4ee6ba0358c6b278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a33858c5514cd62b25f056e4ba170de59"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/d78/a07054.html">Battleground</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#a33858c5514cd62b25f056e4ba170de59">BattlegroundContainer</a></td></tr>
+<tr class="separator:a33858c5514cd62b25f056e4ba170de59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d7efc49483e1820c6d759f0f3613f2"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#aa4d7efc49483e1820c6d759f0f3613f2">BattlegroundClientIdsContainer</a></td></tr>
+<tr class="separator:aa4d7efc49483e1820c6d759f0f3613f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0167dc8561c0fb4a41f0eaa6bea38980"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../da/d34/a04592.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#a0167dc8561c0fb4a41f0eaa6bea38980">BattleMastersMap</a></td></tr>
+<tr class="separator:a0167dc8561c0fb4a41f0eaa6bea38980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8c1781106a97335f700c82ac98e915"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d5/d78/a07054.html">Battleground</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#a1d8c1781106a97335f700c82ac98e915">bgRef</a>) (<a class="el" href="../../d5/d78/a07054.html">Battleground</a> *)</td></tr>
+<tr class="separator:a1d8c1781106a97335f700c82ac98e915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91490e6276f571e959bcc65a1a7e4007"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#a91490e6276f571e959bcc65a1a7e4007">bgMapRef</a>) (<a class="el" href="../../d6/df8/a10678.html">WorldPacket</a> *, Battleground::BattlegroundScoreMap::const_iterator)</td></tr>
+<tr class="separator:a91490e6276f571e959bcc65a1a7e4007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab13257a97cde6f35eb3aed651e61e20c"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#ab13257a97cde6f35eb3aed651e61e20c">bgTypeRef</a>) (<a class="el" href="../../d6/df8/a10678.html">WorldPacket</a> *, Battleground::BattlegroundScoreMap::const_iterator, <a class="el" href="../../d5/d78/a07054.html">Battleground</a> *)</td></tr>
+<tr class="separator:ab13257a97cde6f35eb3aed651e61e20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356842317f4215b2ee31abb25b4d54e7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d31/a04292.html#a356842317f4215b2ee31abb25b4d54e7">BGFreeSlotQueueContainer</a> = std::list&lt; <a class="el" href="../../d5/d78/a07054.html">Battleground</a> * &gt;</td></tr>
+<tr class="separator:a356842317f4215b2ee31abb25b4d54e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="abe50926a988d0fff4ee6ba0358c6b278" name="abe50926a988d0fff4ee6ba0358c6b278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe50926a988d0fff4ee6ba0358c6b278">&#9670;&#160;</a></span>sBattlegroundMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sBattlegroundMgr&#160;&#160;&#160;<a class="el" href="../../dd/d41/a07066.html#a48a9b67328407574f9eefda8ce2b9154">BattlegroundMgr::instance</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aa4d7efc49483e1820c6d759f0f3613f2" name="aa4d7efc49483e1820c6d759f0f3613f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d7efc49483e1820c6d759f0f3613f2">&#9670;&#160;</a></span>BattlegroundClientIdsContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../d3/d31/a04292.html#aa4d7efc49483e1820c6d759f0f3613f2">BattlegroundClientIdsContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33858c5514cd62b25f056e4ba170de59" name="a33858c5514cd62b25f056e4ba170de59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33858c5514cd62b25f056e4ba170de59">&#9670;&#160;</a></span>BattlegroundContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/d78/a07054.html">Battleground</a>*&gt; <a class="el" href="../../d3/d31/a04292.html#a33858c5514cd62b25f056e4ba170de59">BattlegroundContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0167dc8561c0fb4a41f0eaa6bea38980" name="a0167dc8561c0fb4a41f0eaa6bea38980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0167dc8561c0fb4a41f0eaa6bea38980">&#9670;&#160;</a></span>BattleMastersMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../da/d34/a04592.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>&gt; <a class="el" href="../../d3/d31/a04292.html#a0167dc8561c0fb4a41f0eaa6bea38980">BattleMastersMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a356842317f4215b2ee31abb25b4d54e7" name="a356842317f4215b2ee31abb25b4d54e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356842317f4215b2ee31abb25b4d54e7">&#9670;&#160;</a></span>BGFreeSlotQueueContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d3/d31/a04292.html#a356842317f4215b2ee31abb25b4d54e7">BGFreeSlotQueueContainer</a> =  std::list&lt;<a class="el" href="../../d5/d78/a07054.html">Battleground</a>*&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91490e6276f571e959bcc65a1a7e4007" name="a91490e6276f571e959bcc65a1a7e4007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91490e6276f571e959bcc65a1a7e4007">&#9670;&#160;</a></span>bgMapRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* bgMapRef) (<a class="el" href="../../d6/df8/a10678.html">WorldPacket</a> *, Battleground::BattlegroundScoreMap::const_iterator)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d8c1781106a97335f700c82ac98e915" name="a1d8c1781106a97335f700c82ac98e915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8c1781106a97335f700c82ac98e915">&#9670;&#160;</a></span>bgRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d5/d78/a07054.html">Battleground</a> *(* bgRef) (<a class="el" href="../../d5/d78/a07054.html">Battleground</a> *)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab13257a97cde6f35eb3aed651e61e20c" name="ab13257a97cde6f35eb3aed651e61e20c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab13257a97cde6f35eb3aed651e61e20c">&#9670;&#160;</a></span>bgTypeRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* bgTypeRef) (<a class="el" href="../../d6/df8/a10678.html">WorldPacket</a> *, Battleground::BattlegroundScoreMap::const_iterator, <a class="el" href="../../d5/d78/a07054.html">Battleground</a> *)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_cd5f8786a04521b4a96eac0f95f95a85.html">Spline</a></li><li class="navelem"><a class="el" href="../../d3/d31/a04292.html">SplineImpl.h</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d3/d31/a04292.html">BattlegroundMgr.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

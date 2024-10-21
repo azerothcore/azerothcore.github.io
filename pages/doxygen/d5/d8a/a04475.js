@@ -1,6 +1,6 @@
 var a04475 =
 [
-    [ "WorldPackets::Packet", "d8/d61/a10150.html", "d8/d61/a10150" ],
-    [ "WorldPackets::ServerPacket", "df/d8b/a10154.html", "df/d8b/a10154" ],
-    [ "WorldPackets::ClientPacket", "d7/d7a/a10158.html", "d7/d7a/a10158" ]
+    [ "LogHeader", "d6/d12/a10658.html", "d6/d12/a10658" ],
+    [ "PacketHeader", "db/d96/a10662.html", "db/d96/a10662" ],
+    [ "PacketHeader::OptionalData", "da/dd1/a10666.html", "da/dd1/a10666" ]
 ];

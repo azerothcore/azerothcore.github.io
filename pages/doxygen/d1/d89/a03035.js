@@ -1,8 +1,5 @@
 var a03035 =
 [
-    [ "ePoints", "d1/d89/a03035.html#a2604bd06487e34b78d3e50cd892f3c4d", [
-      [ "POINT_LAST_POINT", "d1/d89/a03035.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb", null ],
-      [ "POINT_HOME", "d1/d89/a03035.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162", null ],
-      [ "POINT_COMBAT_START", "d9/df8/a03023.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4", null ]
-    ] ]
+    [ "TotemAI", "d0/da6/a06022.html", "d0/da6/a06022" ],
+    [ "KillMagnetEvent", "d0/dbe/a06026.html", "d0/dbe/a06026" ]
 ];

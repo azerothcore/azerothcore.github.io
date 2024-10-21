@@ -1,24 +1,14 @@
 var a01832 =
 [
-    [ "RegisterShadowLabyrinthCreatureAI", "dc/d06/a01832.html#afbd2592662281ddc8b6d11567efe9a50", null ],
-    [ "ShadowLabyrinthScriptName", "dc/d06/a01832.html#ab96ece1dcc827c0af968525da00da892", null ],
-    [ "slData", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87d", [
-      [ "TYPE_RITUALISTS", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da2448fcd14abb165e775c665932a04948", null ],
-      [ "TYPE_HELLMAW", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da52ac1b40043222aff2cbe571a96bd05f", null ],
-      [ "DATA_BLACKHEARTTHEINCITEREVENT", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26", null ],
-      [ "DATA_GRANDMASTER_VORPIL", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87dabbbeb54dc0be17516ae2b37fd91b4748", null ],
-      [ "DATA_GRANDMASTER_VORPIL_EVENT", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87dad90f8f395f905f5f55ca7b675b597f8b", null ],
-      [ "DATA_MURMUR", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da50ac08073863c86c5be25a661f884900", null ],
-      [ "DATA_MURMUREVENT", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da6d821b47b03599b8b3c294d32359c13f", null ],
-      [ "MAX_ENCOUNTER", "dc/d06/a01832.html#a0bb87d52cf69de5a588288e14237b87da7913656ef56deb3793c0c5f3d999d80d", null ]
+    [ "npc_tapoke_slim_jahn", "d3/dd6/a13534.html", "d3/dd6/a13534" ],
+    [ "npc_tapoke_slim_jahn::npc_tapoke_slim_jahnAI", "d1/d68/a13538.html", "d1/d68/a13538" ],
+    [ "npc_mikhail", "d0/d46/a13542.html", "d0/d46/a13542" ],
+    [ "TapokeSlim", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9", [
+      [ "QUEST_MISSING_DIPLO_PT11", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2", null ],
+      [ "SPELL_STEALTH", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576", null ],
+      [ "SPELL_CALL_FRIENDS", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779", null ],
+      [ "NPC_SLIMS_FRIEND", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1", null ],
+      [ "NPC_TAPOKE_SLIM_JAHN", "dc/d06/a01832.html#ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda", null ]
     ] ],
-    [ "slNPCandGO", "dc/d06/a01832.html#a5aeaf5f332ee73166572f5313be89bf1", [
-      [ "NPC_CABAL_RITUALIST", "dc/d06/a01832.html#a5aeaf5f332ee73166572f5313be89bf1a726fe6195260ca333078e65a64d24f7a", null ],
-      [ "NPC_HELLMAW", "dc/d06/a01832.html#a5aeaf5f332ee73166572f5313be89bf1ad42fe7f18144f0b2ff2949b85385db8b", null ],
-      [ "GO_REFECTORY_DOOR", "dc/d06/a01832.html#a5aeaf5f332ee73166572f5313be89bf1a84947de77bc0d365a3dbc4c222a80d7c", null ],
-      [ "GO_SCREAMING_HALL_DOOR", "dc/d06/a01832.html#a5aeaf5f332ee73166572f5313be89bf1a8dcc6b729c4258a8e241fa45bff0798a", null ]
-    ] ],
-    [ "GetShadowLabyrinthAI", "dc/d06/a01832.html#a04723307a726c0b79db08448db0704db", null ],
-    [ "EncounterCount", "dc/d06/a01832.html#ae1fbcd81e7256d27efa0288994753839", null ],
-    [ "PersistentDataCount", "dc/d06/a01832.html#aa38a92afffebaf4b33726515956b256b", null ]
+    [ "AddSC_wetlands", "dc/d06/a01832.html#a96be3075a4a99658d93ffe3d69ba369a", null ]
 ];

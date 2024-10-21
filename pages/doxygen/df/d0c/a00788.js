@@ -37,10 +37,10 @@ var a00788 =
       [ "PRIEST_ICON_ID_PAIN_AND_SUFFERING", "df/d0c/a00788.html#abe70daab495ab444be54480721d6740dad94a6e01fcc1a664d89fdd064aaa29f4", null ]
     ] ],
     [ "PriestSpells", "df/d0c/a00788.html#a8aaecfe4214ff7bd567980dd904b110f", [
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "de/df1/a01151.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "de/df1/a01151.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
-      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "de/df1/a01151.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
-      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "de/df1/a01151.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "d8/dba/a00773.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "d8/dba/a00773.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
+      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "d8/dba/a00773.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
+      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d8/dba/a00773.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
       [ "SPELL_PRIEST_DIVINE_AEGIS", "df/d0c/a00788.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1", null ],
       [ "SPELL_PRIEST_EMPOWERED_RENEW", "df/d0c/a00788.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014", null ],
       [ "SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING", "df/d0c/a00788.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5", null ],

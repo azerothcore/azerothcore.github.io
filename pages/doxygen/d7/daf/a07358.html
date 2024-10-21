@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('d7/daf/a07358.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a21bc680abec11928000923003bbad93f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/a07358.html#a21bc680abec11928000923003bbad93f">SearchMap</a> = std::map&lt; std::string_view, <a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; T &gt;, <a class="el" href="../../d7/d55/a05514.html">StringCompareLessI_T</a> &gt;</td></tr>
+<tr class="memitem:a21bc680abec11928000923003bbad93f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/a07358.html#a21bc680abec11928000923003bbad93f">SearchMap</a> = std::map&lt; std::string_view, <a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; T &gt;, <a class="el" href="../../d7/d55/a05514.html">StringCompareLessI_T</a> &gt;</td></tr>
 <tr class="separator:a21bc680abec11928000923003bbad93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -146,7 +146,7 @@ struct Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_en
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d5/d3e/a07338.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;::SearchMap =  std::map&lt;std::string_view, <a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt;T&gt;, <a class="el" href="../../d7/d55/a05514.html">StringCompareLessI_T</a>&gt;</td>
+          <td class="memname">using <a class="el" href="../../d5/d3e/a07338.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;::SearchMap =  std::map&lt;std::string_view, <a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt;T&gt;, <a class="el" href="../../d7/d55/a05514.html">StringCompareLessI_T</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -237,14 +237,14 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  158</span>        {</div>
 <div class="line"><span class="lineno">  159</span>            <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">_map</a>.lower_bound(s);</div>
-<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">_map</a>.end() || !<a class="code hl_function" href="../../d9/d87/a00551.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a>(it-&gt;first, s)) <span class="comment">// not a match</span></div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">_map</a>.end() || !<a class="code hl_function" href="../../d7/d5e/a00467.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a>(it-&gt;first, s)) <span class="comment">// not a match</span></div>
 <div class="line"><span class="lineno">  161</span>                <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><span class="lineno">  162</span> </div>
-<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/d87/a00539.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(it-&gt;first, s)) <span class="comment">// we don&#39;t have an exact match - check if it is unique</span></div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d80/a00371.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(it-&gt;first, s)) <span class="comment">// we don&#39;t have an exact match - check if it is unique</span></div>
 <div class="line"><span class="lineno">  164</span>            {</div>
 <div class="line"><span class="lineno">  165</span>                <span class="keyword">auto</span> it2 = it;</div>
 <div class="line"><span class="lineno">  166</span>                ++it2;</div>
-<div class="line"><span class="lineno">  167</span>                <span class="keywordflow">if</span> ((it2 != <a class="code hl_variable" href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">_map</a>.end()) &amp;&amp; <a class="code hl_function" href="../../d9/d87/a00551.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a>(it2-&gt;first, s)) <span class="comment">// not unique</span></div>
+<div class="line"><span class="lineno">  167</span>                <span class="keywordflow">if</span> ((it2 != <a class="code hl_variable" href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">_map</a>.end()) &amp;&amp; <a class="code hl_function" href="../../d7/d5e/a00467.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a>(it2-&gt;first, s)) <span class="comment">// not unique</span></div>
 <div class="line"><span class="lineno">  168</span>                    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><span class="lineno">  169</span>            }</div>
 <div class="line"><span class="lineno">  170</span> </div>
@@ -253,8 +253,8 @@ template&lt;typename T &gt; </div>
 <div class="line"><span class="lineno">  173</span>            <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  174</span>                <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><span class="lineno">  175</span>        }</div>
-<div class="ttc" id="aa00539_html_a131b997858d0d4c6825222d64948db73"><div class="ttname"><a href="../../d3/d87/a00539.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a></div><div class="ttdeci">bool StringEqualI(std::string_view a, std::string_view b)</div><div class="ttdef"><b>Definition:</b> Util.cpp:592</div></div>
-<div class="ttc" id="aa00551_html_abf9a3b94088837eacc4d3d0e1c8a77a2"><div class="ttname"><a href="../../d9/d87/a00551.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a></div><div class="ttdeci">bool StringStartsWithI(std::string_view haystack, std::string_view needle)</div><div class="ttdef"><b>Definition:</b> Util.h:402</div></div>
+<div class="ttc" id="aa00371_html_a131b997858d0d4c6825222d64948db73"><div class="ttname"><a href="../../d6/d80/a00371.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a></div><div class="ttdeci">bool StringEqualI(std::string_view a, std::string_view b)</div><div class="ttdef"><b>Definition:</b> Util.cpp:592</div></div>
+<div class="ttc" id="aa00467_html_abf9a3b94088837eacc4d3d0e1c8a77a2"><div class="ttname"><a href="../../d7/d5e/a00467.html#abf9a3b94088837eacc4d3d0e1c8a77a2">StringStartsWithI</a></div><div class="ttdeci">bool StringStartsWithI(std::string_view haystack, std::string_view needle)</div><div class="ttdef"><b>Definition:</b> Util.h:402</div></div>
 <div class="ttc" id="aa07358_html_a97e69e0044967ebb5369bfa0f46bd7bf"><div class="ttname"><a href="../../d7/daf/a07358.html#a97e69e0044967ebb5369bfa0f46bd7bf">Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;::_map</a></div><div class="ttdeci">static SearchMap const _map</div><div class="ttdef"><b>Definition:</b> ChatCommandArgs.h:155</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00592">StringEqualI()</a>, and <a class="el" href="../../#l00402">StringStartsWithI()</a>.</p>
@@ -327,11 +327,11 @@ template&lt;typename T &gt; </div>
 <div class="line"><span class="lineno">  200</span>            }</div>
 <div class="line"><span class="lineno">  201</span> </div>
 <div class="line"><span class="lineno">  202</span>            <span class="keywordflow">if</span> (next1)</div>
-<div class="line"><span class="lineno">  203</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/a04713.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d6/deb/a02915.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, strVal, GetTypeName&lt;T&gt;());</div>
+<div class="line"><span class="lineno">  203</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/a04713.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../dd/d77/a03659.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, strVal, GetTypeName&lt;T&gt;());</div>
 <div class="line"><span class="lineno">  204</span>            <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  205</span>                <span class="keywordflow">return</span> next1;</div>
 <div class="line"><span class="lineno">  206</span>        }</div>
-<div class="ttc" id="aa02915_html_af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96"><div class="ttname"><a href="../../d6/deb/a02915.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a></div><div class="ttdeci">@ LANG_CMDPARSER_STRING_VALUE_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:993</div></div>
+<div class="ttc" id="aa03659_html_af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96"><div class="ttname"><a href="../../dd/d77/a03659.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a></div><div class="ttdeci">@ LANG_CMDPARSER_STRING_VALUE_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:993</div></div>
 <div class="ttc" id="aa04713_html_a496bce28eb0bf0ac4b5e1c54c19193b7"><div class="ttname"><a href="../../da/d6d/a04713.html#a496bce28eb0bf0ac4b5e1c54c19193b7">Acore::Impl::ChatCommands::FormatAcoreString</a></div><div class="ttdeci">std::string FormatAcoreString(ChatHandler const *handler, AcoreStrings which, Ts &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:125</div></div>
 <div class="ttc" id="aa07358_html_a9f447ee626e80d616c304a4d07f25987"><div class="ttname"><a href="../../d7/daf/a07358.html#a9f447ee626e80d616c304a4d07f25987">Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;::Match</a></div><div class="ttdeci">static T const * Match(std::string_view s)</div><div class="ttdef"><b>Definition:</b> ChatCommandArgs.h:157</div></div>
 <div class="ttc" id="aa07422_html"><div class="ttname"><a href="../../d4/dec/a07422.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:100</div></div>
@@ -371,7 +371,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04685.html">Impl</a></li><li class="navelem"><a class="el" href="../../da/d6d/a04713.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d7/daf/a07358.html">ArgInfo&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:42:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:41:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

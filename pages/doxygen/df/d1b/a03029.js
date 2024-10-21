@@ -1,10 +1,8 @@
 var a03029 =
 [
-    [ "AddGossipItemFor", "df/d1b/a03029.html#a21e32e886a589c9093660b3c4c58f72c", null ],
-    [ "AddGossipItemFor", "df/d1b/a03029.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5", null ],
-    [ "AddGossipItemFor", "df/d1b/a03029.html#acd7e8e52a911742a99728cf9408e23b8", null ],
-    [ "ClearGossipMenuFor", "df/d1b/a03029.html#af077a82741577a63a075c7d40b3b3dc5", null ],
-    [ "CloseGossipMenuFor", "df/d1b/a03029.html#af8f7e54dac5ecc86e92d780c3918cb09", null ],
-    [ "SendGossipMenuFor", "df/d1b/a03029.html#ad893abf2b09592b57715ef4a3222a2b3", null ],
-    [ "SendGossipMenuFor", "df/d1b/a03029.html#a18599cfc6649557de0d505ed4d4a0210", null ]
+    [ "PassiveAI", "de/d1f/a05994.html", "de/d1f/a05994" ],
+    [ "PossessedAI", "dd/d5d/a05998.html", "dd/d5d/a05998" ],
+    [ "NullCreatureAI", "d1/df7/a06002.html", "d1/df7/a06002" ],
+    [ "CritterAI", "dc/dd4/a06006.html", "dc/dd4/a06006" ],
+    [ "TriggerAI", "d3/d56/a06010.html", "d3/d56/a06010" ]
 ];

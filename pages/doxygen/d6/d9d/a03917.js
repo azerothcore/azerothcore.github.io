@@ -1,8 +1,9 @@
 var a03917 =
 [
-    [ "CreatureScript", "d4/de7/a09986.html", "d4/de7/a09986" ],
-    [ "GenericCreatureScript< AI >", "d2/d97/a09990.html", "d2/d97/a09990" ],
-    [ "FactoryCreatureScript< AI, AIFactory >", "de/dad/a09994.html", "de/dad/a09994" ],
-    [ "RegisterCreatureAI", "d6/d9d/a03917.html#a5e7352841895df7117e2830448eb533f", null ],
-    [ "RegisterCreatureAIWithFactory", "d6/d9d/a03917.html#a25cc02ecf50f52ec8cdff096060b8be1", null ]
+    [ "PetSpell", "d3/d07/a08230.html", "d3/d07/a08230" ],
+    [ "Pet", "d5/da9/a08234.html", "d5/da9/a08234" ],
+    [ "AutoSpellList", "d6/d9d/a03917.html#a85baf40bd776b1c20b66ba7ad78e0356", null ],
+    [ "PetSpellMap", "d6/d9d/a03917.html#a5b33058abef8c309621a9029df331c0e", null ],
+    [ "HAPPINESS_LEVEL_SIZE", "d6/d9d/a03917.html#a892e58d225a828ccac38c7d241365e30", null ],
+    [ "PET_LOSE_HAPPINES_INTERVAL", "d6/d9d/a03917.html#aa23de8f28ae915637ac3f4f6429b59fb", null ]
 ];

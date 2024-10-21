@@ -1,5 +1,7 @@
 var a00620 =
 [
-    [ "FormattedMotd", "dc/d4d/a00620.html#acadcdb5816d12c64acadfd214da71bb5", null ],
-    [ "MotdPacket", "dc/d4d/a00620.html#a78c7bbe511721151aa51c1143d1a14f9", null ]
+    [ "UpdateResult", "dd/dd9/a05802.html", "dd/dd9/a05802" ],
+    [ "UpdateFetcher", "dd/d3e/a05806.html", "dd/d3e/a05806" ],
+    [ "UpdateFetcher::AppliedFileEntry", "dc/d5c/a05810.html", "dc/d5c/a05810" ],
+    [ "UpdateFetcher::PathCompare", "d6/db5/a05814.html", "d6/db5/a05814" ]
 ];

@@ -1,4 +1,4 @@
 var a03290 =
 [
-    [ "SplineRawInitializer", "d1/d2a/a09562.html", "d1/d2a/a09562" ]
+    [ "ScriptRegistry< OutdoorPvPScript >", "d6/d85/a03290.html#a87dac516981f5c502b37a0500f6f7882", null ]
 ];

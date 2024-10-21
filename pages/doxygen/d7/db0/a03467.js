@@ -1,5 +1,4 @@
 var a03467 =
 [
-    [ "Acore::BattlegroundChatBuilder", "d8/d33/a07038.html", "d8/d33/a07038" ],
-    [ "Acore::Battleground2ChatBuilder", "d1/d43/a07042.html", "d1/d43/a07042" ]
+    [ "ScriptRegistry< AchievementCriteriaScript >", "d7/db0/a03467.html#a691565a1335cabfa534300dece8e65e8", null ]
 ];

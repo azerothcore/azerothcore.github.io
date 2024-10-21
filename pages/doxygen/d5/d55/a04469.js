@@ -1,6 +1,6 @@
 var a04469 =
 [
-    [ "LogHeader", "d6/d12/a10658.html", "d6/d12/a10658" ],
-    [ "PacketHeader", "db/d96/a10662.html", "db/d96/a10662" ],
-    [ "PacketHeader::OptionalData", "da/dd1/a10666.html", "da/dd1/a10666" ]
+    [ "AccountInfoQueryHolderPerRealm", "d2/d10/a10682.html", "d2/d10/a10682" ],
+    [ "REMOVE_VIOLATING_FLAGS", "d5/d55/a04469.html#a9d7c4eaedbb2a06f275a5f59222bc747", null ],
+    [ "DefaultPlayerName", "d5/d55/a04469.html#a586e06ca0d339349e13d81197056bb5f", null ]
 ];

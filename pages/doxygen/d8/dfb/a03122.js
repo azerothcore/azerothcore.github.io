@@ -1,9 +1,20 @@
 var a03122 =
 [
-    [ "MapType", "d8/dfb/a03122.html#a2a540ae6cb73c9914f0253464b155227", null ],
-    [ "Find", "d8/dfb/a03122.html#a42d065468e6e62b7161ba0c17e1d75ea", null ],
-    [ "Insert", "d8/dfb/a03122.html#a3ba44f9ba2a1ff4fd122944f95ef06bd", null ],
-    [ "Remove", "d8/dfb/a03122.html#a8f833a3f02f1e431170dd5d052b0f919", null ],
-    [ "RemoveByName", "d8/dfb/a03122.html#a9c5298580060e7a6078ffb5f4008c549", null ],
-    [ "PlayerNameMap", "d8/dfb/a03122.html#aa8fcdd0ac947e92edddddd4e2daf61dd", null ]
+    [ "WardenCheck", "d0/da4/a11186.html", "d0/da4/a11186" ],
+    [ "WardenCheckResult", "de/dee/a11190.html", "de/dee/a11190" ],
+    [ "WardenCheckMgr", "de/d3a/a11194.html", "de/d3a/a11194" ],
+    [ "sWardenCheckMgr", "d8/dfb/a03122.html#a367963ecc82479f8bea3aea9e235a85c", null ],
+    [ "WardenActions", "d8/dfb/a03122.html#acd25f1c729cc9c78338c6bc117dcd5e1", [
+      [ "WARDEN_ACTION_LOG", "d8/dfb/a03122.html#acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81", null ],
+      [ "WARDEN_ACTION_KICK", "d8/dfb/a03122.html#acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13", null ],
+      [ "WARDEN_ACTION_BAN", "d8/dfb/a03122.html#acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0", null ]
+    ] ],
+    [ "WardenCheckTypes", "d8/dfb/a03122.html#ad353d1b1b229bf72b97440ac296da2f0", [
+      [ "WARDEN_CHECK_MEM_TYPE", "d8/dfb/a03122.html#ad353d1b1b229bf72b97440ac296da2f0a3a995022793f145e1eb48b42d3aadfb3", null ],
+      [ "WARDEN_CHECK_LUA_TYPE", "d8/dfb/a03122.html#ad353d1b1b229bf72b97440ac296da2f0a78405e80a7b4bf4186706d64389e96af", null ],
+      [ "WARDEN_CHECK_OTHER_TYPE", "d8/dfb/a03122.html#ad353d1b1b229bf72b97440ac296da2f0ab3ea81385a6db9185a94c0715749ffe2", null ]
+    ] ],
+    [ "MAX_WARDEN_ACTION", "d8/dfb/a03122.html#afa0b1cff6db4dd71ef500011182f2834", null ],
+    [ "MAX_WARDEN_CHECK_TYPES", "d8/dfb/a03122.html#a80604a840828219101f07100a7a48dad", null ],
+    [ "WARDEN_MAX_LUA_CHECK_LENGTH", "d8/dfb/a03122.html#a005df8388201fb598a4eedfeac422fbc", null ]
 ];

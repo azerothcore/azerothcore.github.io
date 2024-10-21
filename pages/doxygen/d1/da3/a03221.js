@@ -1,31 +1,25 @@
 var a03221 =
 [
-    [ "DisableType", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c", [
-      [ "DISABLE_TYPE_SPELL", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27", null ],
-      [ "DISABLE_TYPE_QUEST", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e", null ],
-      [ "DISABLE_TYPE_MAP", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c", null ],
-      [ "DISABLE_TYPE_BATTLEGROUND", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a", null ],
-      [ "DISABLE_TYPE_ACHIEVEMENT_CRITERIA", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1", null ],
-      [ "DISABLE_TYPE_OUTDOORPVP", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296", null ],
-      [ "DISABLE_TYPE_VMAP", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff", null ],
-      [ "DISABLE_TYPE_GO_LOS", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a", null ],
-      [ "DISABLE_TYPE_LFG_MAP", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68", null ],
-      [ "DISABLE_TYPE_GAME_EVENT", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0", null ],
-      [ "DISABLE_TYPE_LOOT", "d1/da3/a03221.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f", null ]
-    ] ],
-    [ "SpellDisableTypes", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7", [
-      [ "SPELL_DISABLE_PLAYER", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41", null ],
-      [ "SPELL_DISABLE_CREATURE", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707", null ],
-      [ "SPELL_DISABLE_PET", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4", null ],
-      [ "SPELL_DISABLE_DEPRECATED_SPELL", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b", null ],
-      [ "SPELL_DISABLE_MAP", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484", null ],
-      [ "SPELL_DISABLE_AREA", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268", null ],
-      [ "SPELL_DISABLE_LOS", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437", null ],
-      [ "MAX_SPELL_DISABLE_TYPE", "d1/da3/a03221.html#a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d", null ]
-    ] ],
-    [ "CheckQuestDisables", "d1/da3/a03221.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
-    [ "IsDisabledFor", "d1/da3/a03221.html#a6673bbc719c96febfc86a4220a988ed0", null ],
-    [ "IsPathfindingEnabled", "d1/da3/a03221.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
-    [ "IsVMAPDisabledFor", "d1/da3/a03221.html#a38b182e1836b2197303b2809006f5148", null ],
-    [ "LoadDisables", "d1/da3/a03221.html#adb464165caf6cd436499fa84969eeaf8", null ]
+    [ "MiscScript", "d4/d9c/a10058.html", "d4/d9c/a10058" ],
+    [ "MiscHook", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134", [
+      [ "MISCHOOK_ON_CONSTRUCT_OBJECT", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb", null ],
+      [ "MISCHOOK_ON_DESTRUCT_OBJECT", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f", null ],
+      [ "MISCHOOK_ON_CONSTRUCT_PLAYER", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439", null ],
+      [ "MISCHOOK_ON_DESTRUCT_PLAYER", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf", null ],
+      [ "MISCHOOK_ON_CONSTRUCT_GROUP", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72", null ],
+      [ "MISCHOOK_ON_DESTRUCT_GROUP", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da", null ],
+      [ "MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2", null ],
+      [ "MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5", null ],
+      [ "MISCHOOK_ON_ITEM_CREATE", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c", null ],
+      [ "MISCHOOK_CAN_APPLY_SOULBOUND_FLAG", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f", null ],
+      [ "MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded", null ],
+      [ "MISCHOOK_CAN_SEND_AUCTIONHELLO", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27", null ],
+      [ "MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0", null ],
+      [ "MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433", null ],
+      [ "MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea", null ],
+      [ "MISCHOOK_ON_PLAYER_SET_PHASE", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616", null ],
+      [ "MISCHOOK_ON_INSTANCE_SAVE", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f", null ],
+      [ "MISCHOOK_GET_DIALOG_STATUS", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490", null ],
+      [ "MISCHOOK_END", "d1/da3/a03221.html#af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9", null ]
+    ] ]
 ];

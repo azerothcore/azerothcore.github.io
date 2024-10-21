@@ -1,6 +1,5 @@
 var a03368 =
 [
-    [ "lfg::LFGPlayerScript", "d3/d49/a07738.html", "d3/d49/a07738" ],
-    [ "lfg::LFGGroupScript", "db/d4e/a07742.html", "db/d4e/a07742" ],
-    [ "AddSC_LFGScripts", "d0/d06/a03368.html#a9624b9328e26a9f420a4a3f07e253763", null ]
+    [ "ScriptRegistry< AllItemScript >", "d0/d06/a03368.html#a0f69164743e657905c670df85e97a29c", null ],
+    [ "ScriptRegistry< ItemScript >", "d0/d06/a03368.html#a9f258d1e2f9fb6ce144923451b63f995", null ]
 ];

@@ -1,44 +1,44 @@
 var a04370 =
 [
-    [ "npc_cork_gizelton", "dc/d98/a15234.html", "dc/d98/a15234" ],
-    [ "npc_cork_gizelton::npc_cork_gizeltonAI", "d3/d76/a15238.html", "d3/d76/a15238" ],
-    [ "npc_aged_dying_ancient_kodo", "da/d64/a15242.html", "da/d64/a15242" ],
-    [ "npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI", "da/d79/a15246.html", "da/d79/a15246" ],
-    [ "Caravan", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728", [
-      [ "QUEST_BODYGUARD_FOR_HIRE", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a07d8fdc2ba6f3382ab9a9c0ccb910712", null ],
-      [ "QUEST_GIZELTON_CARAVAN", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728af1f220a5094995c40054b8afcfc956f9", null ],
-      [ "EVENT_RESUME_PATH", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a69f42ceba9244cdbe2e7dfc9e833acc9", null ],
-      [ "EVENT_WAIT_FOR_ASSIST", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728ac88ffb83ceecf13ef48bd0988529cba7", null ],
-      [ "EVENT_RESTART_ESCORT", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a7410480ad3fe5ae4742c8d12f885e2d1", null ],
-      [ "NPC_CORK_GIZELTON", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a3ac8ce9d7c78aa74818eb286eb1530ba", null ],
-      [ "NPC_RIGGER_GIZELTON", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a73d4fb993cb56f5e539c1255d432d1a5", null ],
-      [ "NPC_CARAVAN_KODO", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728ae4dd98db048a9b333326fb52a0a08858", null ],
-      [ "NPC_VENDOR_TRON", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728acb0c2bc0eea43af8bd0e1801fac8846f", null ],
-      [ "NPC_SUPER_SELLER", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a8329377778d66d3c939420b04264e573", null ],
-      [ "SAY_CARAVAN_LEAVE", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a52926a8d01b0b50f89cc5fb99e6919aa", null ],
-      [ "SAY_CARAVAN_HIRE", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728ab0f9b346c5f60c1ec44e45615f360ef3", null ],
-      [ "MAX_CARAVAN_SUMMONS", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a4466b99c64cd47f91aec55ce7ef75362", null ],
-      [ "TIME_SHOP_STOP", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728abbe7d7ba7ba0306763dbae08e8d04afd", null ],
-      [ "TIME_HIRE_STOP", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a988424f7f1f59cb5b30cef0ba4b8f3f7", null ],
-      [ "NPC_KOLKAR_WAYLAYER", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728af42ec3a8ba079cb93c6ad5406dcc4ece", null ],
-      [ "NPC_KOLKAR_AMBUSHER", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728a7a9eb27a8fb0e7ef6c66a86720d9233c", null ],
-      [ "NPC_LESSER_INFERNAL", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728aae0903900c838cf1102ca86baa598224", null ],
-      [ "NPC_DOOMWARDER", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728ae43176493b6aa526db1f2f2912bf6027", null ],
-      [ "NPC_NETHER", "d7/dc9/a04370.html#aec2c916c560ca6ceedd660d3b140e728ac95afd23fdda714496e33c6aab109eda", null ]
+    [ "WorldSession::DosProtection", "d4/dde/a10726.html", "d4/dde/a10726" ],
+    [ "GLOBAL_CACHE_MASK", "d5/d43/a04668.html#gabaf56bd86a496e0886a553118d6ffb08", null ],
+    [ "NUM_ACCOUNT_DATA_TYPES", "d5/d43/a04668.html#gafb353aeb5e84007c9b55aa50ba6e3ddc", null ],
+    [ "PER_CHARACTER_CACHE_MASK", "d5/d43/a04668.html#ga38a03c6cd9103a9891842f233758fbe7", null ],
+    [ "AccountDataType", "d5/d43/a04668.html#gadab21b8c7fecf26675a55eea7811812d", [
+      [ "GLOBAL_CONFIG_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812daada79ad8567ef8c1839bb4aa1388f59c", null ],
+      [ "PER_CHARACTER_CONFIG_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da3199deafd9678b717f9357659ed271b0", null ],
+      [ "GLOBAL_BINDINGS_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da580bf2ae915070c0cb1dfa2a2c470936", null ],
+      [ "PER_CHARACTER_BINDINGS_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812daaa2164f22e7a6cd3e9211bdd39c1c4e6", null ],
+      [ "GLOBAL_MACROS_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da2bffb16258c4258924334e7231928217", null ],
+      [ "PER_CHARACTER_MACROS_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da0d53cc3dcb154b042fe7a1b81404752c", null ],
+      [ "PER_CHARACTER_LAYOUT_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da8db107b5c382a0630b177b9f521dd87c", null ],
+      [ "PER_CHARACTER_CHAT_CACHE", "d5/d43/a04668.html#ggadab21b8c7fecf26675a55eea7811812da5dbeffe8a7f8c60877f3f41a4e813327", null ]
     ] ],
-    [ "DyingKodo", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663", [
-      [ "SAY_SMEED_HOME", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a07ed71cb461662af72c9811505b9c955", null ],
-      [ "QUEST_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a8019fb9754f039595728a149d4c3214f", null ],
-      [ "NPC_TEXT_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a934cabb76d1cbddd53e5a682b3560c7e", null ],
-      [ "NPC_SMEED", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663ab289aa3f772d2e87dad418d075ab8dce", null ],
-      [ "NPC_AGED_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663ab93894e9256e085d45fb24b0d544e154", null ],
-      [ "NPC_DYING_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a6116f630ddd9390420cc6aa4230a862e", null ],
-      [ "NPC_ANCIENT_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a1267b33b446af4c80d35df16c24e2ac3", null ],
-      [ "NPC_TAMED_KODO", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a47e69d141a6091158f3102f0ebc301e3", null ],
-      [ "SPELL_KODO_KOMBO_ITEM", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663ad0806f22dfe303368c6bfef3b25bdbe9", null ],
-      [ "SPELL_KODO_KOMBO_PLAYER_BUFF", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a77343420c8740b50963dbc05382dc5ea", null ],
-      [ "SPELL_KODO_KOMBO_DESPAWN_BUFF", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663abf5a59eb8d83eefa21ea7e9b53e96ad5", null ],
-      [ "SPELL_KODO_KOMBO_GOSSIP", "d7/dc9/a04370.html#af45ec6fee60329d3c66726e0fa939663a08489d27d91546512009b1555fa59de3", null ]
+    [ "BFLeaveReason", "d5/d43/a04668.html#gae00b3f15198199be79029b7f245cba4e", [
+      [ "BF_LEAVE_REASON_CLOSE", "d5/d43/a04668.html#ggae00b3f15198199be79029b7f245cba4eaa804834f71e74d728992a144bc3a4bf7", null ],
+      [ "BF_LEAVE_REASON_EXITED", "d5/d43/a04668.html#ggae00b3f15198199be79029b7f245cba4eac58152c3c20952288b738bbcd94b6e04", null ],
+      [ "BF_LEAVE_REASON_LOW_LEVEL", "d5/d43/a04668.html#ggae00b3f15198199be79029b7f245cba4ea409833e268b63d87c8329740d22f8d6d", null ]
     ] ],
-    [ "AddSC_desolace", "d7/dc9/a04370.html#a626ec1db47701aabca9f7bda1c8b7c7a", null ]
+    [ "CharterTypes", "d5/d43/a04668.html#gae6a6780680157e01b09a257d84b150c7", [
+      [ "GUILD_CHARTER_TYPE", "d5/d43/a04668.html#ggae6a6780680157e01b09a257d84b150c7abc99a46e1b6360a30376c4500292e27c", null ],
+      [ "ARENA_TEAM_CHARTER_2v2_TYPE", "d5/d43/a04668.html#ggae6a6780680157e01b09a257d84b150c7a917d335b0e9d21fec525d5daed0c1356", null ],
+      [ "ARENA_TEAM_CHARTER_3v3_TYPE", "d5/d43/a04668.html#ggae6a6780680157e01b09a257d84b150c7aed12afbbdd721e734868da792db28482", null ],
+      [ "ARENA_TEAM_CHARTER_5v5_TYPE", "d5/d43/a04668.html#ggae6a6780680157e01b09a257d84b150c7afa2e8ef459ee0af6eea7b2be7ce30841", null ]
+    ] ],
+    [ "ChatRestrictionType", "d5/d43/a04668.html#ga54cc6595f95ac4f430e8540afc94f13d", [
+      [ "ERR_CHAT_RESTRICTED", "d5/d43/a04668.html#gga54cc6595f95ac4f430e8540afc94f13da86e568474f13bb72e15b8e92a270b1c9", null ],
+      [ "ERR_CHAT_THROTTLED", "d5/d43/a04668.html#gga54cc6595f95ac4f430e8540afc94f13da34a062f33bdc742a4c6be1f28ef613e7", null ],
+      [ "ERR_USER_SQUELCHED", "d5/d43/a04668.html#gga54cc6595f95ac4f430e8540afc94f13da9bbb4686187f6e5c88606f90f22b18c8", null ],
+      [ "ERR_YELL_RESTRICTED", "d5/d43/a04668.html#gga54cc6595f95ac4f430e8540afc94f13da584e0c0e91185b9f8d415b89e5cbacd7", null ]
+    ] ],
+    [ "DeclinedNameResult", "d5/d43/a04668.html#ga98490641bb011ba9187ee1ed5c94b406", [
+      [ "DECLINED_NAMES_RESULT_SUCCESS", "d5/d43/a04668.html#gga98490641bb011ba9187ee1ed5c94b406add610d06699db29b6f69db8b69d87267", null ],
+      [ "DECLINED_NAMES_RESULT_ERROR", "d5/d43/a04668.html#gga98490641bb011ba9187ee1ed5c94b406ae7ea9b45868387cbcd0f7aff13476683", null ]
+    ] ],
+    [ "PartyOperation", "d5/d43/a04668.html#gaa4a0361b2172789575d5eac42ecb612a", [
+      [ "PARTY_OP_INVITE", "d5/d43/a04668.html#ggaa4a0361b2172789575d5eac42ecb612aa8b30d82ca0b8d909d0445472f4003036", null ],
+      [ "PARTY_OP_UNINVITE", "d5/d43/a04668.html#ggaa4a0361b2172789575d5eac42ecb612aaea450b61d9aa99430d227f2bc20ba66e", null ],
+      [ "PARTY_OP_LEAVE", "d5/d43/a04668.html#ggaa4a0361b2172789575d5eac42ecb612aaf8c14598abfe7de9431f923cce924457", null ],
+      [ "PARTY_OP_SWAP", "d5/d43/a04668.html#ggaa4a0361b2172789575d5eac42ecb612aac2c1d8e8f575d57bed2ae682d80c1a14", null ]
+    ] ]
 ];

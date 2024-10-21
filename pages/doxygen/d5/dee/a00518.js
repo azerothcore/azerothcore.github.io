@@ -1,15 +1,15 @@
 var a00518 =
 [
-    [ "frand", "d5/dee/a00518.html#a19bd31014583536af788a65b398e4406", null ],
-    [ "GetRng", "d5/dee/a00518.html#a8602a67daa881e92c3eb9204c88b7733", null ],
-    [ "irand", "d5/dee/a00518.html#a6ae07d2bb0593d8339e65c136f63ecc0", null ],
-    [ "rand32", "d5/dee/a00518.html#ac699324b85bb2266ea8978796967c541", null ],
-    [ "rand_chance", "d5/dee/a00518.html#a66621d09a8cc2aa9476391004fe2c427", null ],
-    [ "rand_norm", "d5/dee/a00518.html#af2f9363ceebb6f78067b4a146d1de9df", null ],
-    [ "randtime", "d5/dee/a00518.html#a9ecda65ea9686c86f47934d04d38ec69", null ],
-    [ "urand", "d5/dee/a00518.html#ab17def34ccbbd868dc87a16bf35acdbd", null ],
-    [ "urandms", "d5/dee/a00518.html#af901d57f29ff48f701a375e44a0f1261", null ],
-    [ "urandweighted", "d5/dee/a00518.html#a3f7e714c8fc3a6f6ccbe91d524a84f23", null ],
-    [ "engine", "d5/dee/a00518.html#a8ab11e2fa939d9f333dfa1a858e7690b", null ],
-    [ "sfmtRand", "d5/dee/a00518.html#a131ba7587aa544a7e73ff9884d6bc784", null ]
+    [ "VMAP::ManagedModel", "d1/d58/a04886.html", "d1/d58/a04886" ],
+    [ "VMAP::VMapMgr2", "d1/d0b/a04890.html", "d1/d0b/a04890" ],
+    [ "FILENAMEBUFFER_SIZE", "d5/dee/a00518.html#aebe91d3f560a4221b135ef03b21a485f", null ],
+    [ "MAP_FILENAME_EXTENSION2", "d5/dee/a00518.html#aad39c14e5fae9fd5141df154332ae6fd", null ],
+    [ "InstanceTreeMap", "d5/dee/a00518.html#a38798cd0b87931dbaeda34fa316c2f6f", null ],
+    [ "ModelFileMap", "d5/dee/a00518.html#a6efa1bd5795cb2fcc8688e7500a8570f", null ],
+    [ "DisableTypes", "d5/dee/a00518.html#ae6fa86a61cff3bac928739b18ffb8c1b", [
+      [ "VMAP_DISABLE_AREAFLAG", "d5/dee/a00518.html#ae6fa86a61cff3bac928739b18ffb8c1ba4fc4dc95e6df57c161e146d8da4b4a19", null ],
+      [ "VMAP_DISABLE_HEIGHT", "d5/dee/a00518.html#ae6fa86a61cff3bac928739b18ffb8c1ba2f9e18e9b167ecc25202f607e29af926", null ],
+      [ "VMAP_DISABLE_LOS", "d5/dee/a00518.html#ae6fa86a61cff3bac928739b18ffb8c1ba26f8933b26a6ce62d8bddafde8ebb108", null ],
+      [ "VMAP_DISABLE_LIQUIDSTATUS", "d5/dee/a00518.html#ae6fa86a61cff3bac928739b18ffb8c1ba191004652b9fbcccb26c14ce81a94cec", null ]
+    ] ]
 ];

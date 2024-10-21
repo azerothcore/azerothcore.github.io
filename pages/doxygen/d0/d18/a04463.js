@@ -1,9 +1,4 @@
 var a04463 =
 [
-    [ "PacketLog", "de/d0e/a10670.html", "de/d0e/a10670" ],
-    [ "sPacketLog", "d0/d18/a04463.html#a14b702138c7f0a62a900dfc8eecc1f6f", null ],
-    [ "Direction", "d0/d18/a04463.html#a224b9163917ac32fc95a60d8c1eec3aa", [
-      [ "CLIENT_TO_SERVER", "d0/d18/a04463.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476", null ],
-      [ "SERVER_TO_CLIENT", "d0/d18/a04463.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3", null ]
-    ] ]
+    [ "WorldPacket", "d6/df8/a10678.html", "d6/df8/a10678" ]
 ];

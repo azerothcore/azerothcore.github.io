@@ -1,23 +1,19 @@
 var a00119 =
 [
-    [ "MetricData", "dd/df0/a05262.html", "dd/df0/a05262" ],
-    [ "Metric", "d7/dc7/a05266.html", "d7/dc7/a05266" ],
-    [ "MetricStopWatch< LoggerType >", "de/d4f/a05270.html", "de/d4f/a05270" ],
-    [ "METRIC_CONCAT", "df/d6a/a00119.html#ad81585df46d4cee988a1222012dbabf1", null ],
-    [ "METRIC_DETAILED_EVENT", "df/d6a/a00119.html#ac782d1c3265f7b707782545777d49d05", null ],
-    [ "METRIC_DETAILED_NO_THRESHOLD_TIMER", "df/d6a/a00119.html#a281633f6f8b252d96029ce8fd29da746", null ],
-    [ "METRIC_DETAILED_TIMER", "df/d6a/a00119.html#a22dcbf78f0d280a4b2b4e0662034efe9", null ],
-    [ "METRIC_DO_CONCAT", "df/d6a/a00119.html#aa861206b38b55c4f39f1ed649defb338", null ],
-    [ "METRIC_EVENT", "df/d6a/a00119.html#ad57573999508dbc7a2c953379996b542", null ],
-    [ "METRIC_TAG", "df/d6a/a00119.html#ab81b5769123c1e5e3870b9b05f25fe0a", null ],
-    [ "METRIC_TIMER", "df/d6a/a00119.html#ad88ae7d281622a32a700443aa3dc51f9", null ],
-    [ "METRIC_UNIQUE_NAME", "df/d6a/a00119.html#adf91483a75eca0531263536ce38d9339", null ],
-    [ "METRIC_VALUE", "df/d6a/a00119.html#a92aedc832ddfc479ecc61289f12be449", null ],
-    [ "sMetric", "df/d6a/a00119.html#a4e89926204845a9c9e315d6f0abec5ef", null ],
-    [ "MetricTag", "df/d6a/a00119.html#a8fdc9a93c03faef11e4c36679e79e3f1", null ],
-    [ "MetricDataType", "df/d6a/a00119.html#a0bb9cc086e32544cb0e43338f83d8e62", [
-      [ "METRIC_DATA_VALUE", "df/d6a/a00119.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155", null ],
-      [ "METRIC_DATA_EVENT", "df/d6a/a00119.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2", null ]
-    ] ],
-    [ "MakeMetricStopWatch", "df/d6a/a00119.html#ab339934305abce426aa1d43c99d65e9f", null ]
+    [ "Find", "df/d6a/a00119.html#a516e9fe262b5a1c4dcd65da7ccf71b5a", null ],
+    [ "Find", "df/d6a/a00119.html#a6823f2f647f14752459f26981d4c26b7", null ],
+    [ "Find", "df/d6a/a00119.html#a4bfb4bddc798432f29bd818e89944edf", null ],
+    [ "Find", "df/d6a/a00119.html#a19feef3708a949a3dcdf70f3fe86ff0e", null ],
+    [ "Find", "df/d6a/a00119.html#ae166e7e76c33c81464ce6c03126a9851", null ],
+    [ "Find", "df/d6a/a00119.html#a6c9d620966c3418af1971dc8326ccb4a", null ],
+    [ "Find", "df/d6a/a00119.html#a5ebe906ee0f2f706bcc950236459a7f8", null ],
+    [ "Find", "df/d6a/a00119.html#a63a0d0d14ac1e3ecbed175c4206b87f2", null ],
+    [ "Insert", "df/d6a/a00119.html#ae7e83af9675f10ea565b725be25b8c5e", null ],
+    [ "Insert", "df/d6a/a00119.html#a2cb738cb02deb5f4d7d30a7d860a45ff", null ],
+    [ "Insert", "df/d6a/a00119.html#a9113786a11594dfcecc6d3bb4e1aadb2", null ],
+    [ "Insert", "df/d6a/a00119.html#a3bc394692e5fd3b096a149b1208e3675", null ],
+    [ "Remove", "df/d6a/a00119.html#a3714737e66e682a43beb71292ccd564e", null ],
+    [ "Remove", "df/d6a/a00119.html#ac344e92ea8d73f94dc08c6a52001ec3e", null ],
+    [ "Remove", "df/d6a/a00119.html#aecc909b333bb7f55f438bfcf1ea3085f", null ],
+    [ "Remove", "df/d6a/a00119.html#a36e61ba9bc4e287e215444ea9314a656", null ]
 ];

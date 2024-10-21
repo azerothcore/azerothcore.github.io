@@ -1,5 +1,6 @@
 var a03737 =
 [
-    [ "Vehicle", "de/d71/a08530.html", "de/d71/a08530" ],
-    [ "VehicleDespawnEvent", "d4/d26/a08534.html", "d4/d26/a08534" ]
+    [ "ObjectGridLoader", "d3/d38/a09166.html", "d3/d38/a09166" ],
+    [ "ObjectGridCleaner", "d0/d3e/a09170.html", "d0/d3e/a09170" ],
+    [ "ObjectGridUnloader", "d7/dcc/a09174.html", "d7/dcc/a09174" ]
 ];

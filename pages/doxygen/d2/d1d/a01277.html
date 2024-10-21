@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/utgarde_keep.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/instance_ruby_sanctum.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,173 +106,66 @@ $(document).ready(function(){initNavTree('d2/d1d/a01277.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">utgarde_keep.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_ruby_sanctum.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">utgarde_keep.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ruby_sanctum.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbb/a20966.html">npc_dragonflayer_forge_master</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d35/a15978.html">instance_ruby_sanctum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d49/a20970.html">npc_dragonflayer_forge_master::npc_dragonflayer_forge_masterAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d96/a15982.html">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2f/a20974.html">npc_enslaved_proto_drake</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc8/a15986.html">spell_ruby_sanctum_rallying_shout</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbe/a20978.html">npc_enslaved_proto_drake::npc_enslaved_proto_drakeAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de6/a20982.html">spell_ticking_time_bomb_aura</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a5858242a9c3f514606e1286c62fcf278"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278">EnslavedProtoDrake</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56">TYPE_PROTODRAKE_AT</a> = 28
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad">DATA_PROTODRAKE_MOVE</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076">PATH_PROTODRAKE</a> = 125946
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d">EVENT_REND</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40">EVENT_FLAME_BREATH</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517">EVENT_KNOCKAWAY</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6">SPELL_REND</a> = 43931
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b">SPELL_FLAME_BREATH</a> = 50653
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa">SPELL_KNOCK_AWAY</a> = 49722
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee">POINT_LAST</a> = 5
-<br />
- }</td></tr>
-<tr class="separator:a5858242a9c3f514606e1286c62fcf278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9126ee26be77d9dcf83d14c8abae1cca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1cca">TickingTimeBomb</a> { <a class="el" href="../../d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b">SPELL_TICKING_TIME_BOMB_EXPLODE</a> = 59687
- }</td></tr>
-<tr class="separator:a9126ee26be77d9dcf83d14c8abae1cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3252f1bf2be160c6d8960f41e595db47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a3252f1bf2be160c6d8960f41e595db47">AddSC_utgarde_keep</a> ()</td></tr>
-<tr class="separator:a3252f1bf2be160c6d8960f41e595db47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f8126d2e36ad7caab980f1c3f83a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a93f8126d2e36ad7caab980f1c3f83a14">AddSC_instance_ruby_sanctum</a> ()</td></tr>
+<tr class="separator:a93f8126d2e36ad7caab980f1c3f83a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0a556a898032cb18eabb6df4a3f482e1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d9/d08/a08198.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a0a556a898032cb18eabb6df4a3f482e1">protodrakeCheckPos</a> = {206.24f, -190.28f, 200.11f, 0.f}</td></tr>
-<tr class="separator:a0a556a898032cb18eabb6df4a3f482e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d31/a09318.html">BossBoundaryData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#aa75d7d0ffe0cef214f982966c33db1c1">boundaries</a></td></tr>
+<tr class="separator:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d60/a09310.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1d/a01277.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a5858242a9c3f514606e1286c62fcf278" name="a5858242a9c3f514606e1286c62fcf278"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5858242a9c3f514606e1286c62fcf278">&#9670;&#160;</a></span>EnslavedProtoDrake</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278">EnslavedProtoDrake</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56" name="a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56"></a>TYPE_PROTODRAKE_AT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad" name="a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad"></a>DATA_PROTODRAKE_MOVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076" name="a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076"></a>PATH_PROTODRAKE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d" name="a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d"></a>EVENT_REND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40" name="a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40"></a>EVENT_FLAME_BREATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517" name="a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517"></a>EVENT_KNOCKAWAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6" name="a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6"></a>SPELL_REND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b" name="a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b"></a>SPELL_FLAME_BREATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa" name="a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa"></a>SPELL_KNOCK_AWAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee" name="a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee"></a>POINT_LAST&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   95</span>{</div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56">TYPE_PROTODRAKE_AT</a>      = 28,</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad">DATA_PROTODRAKE_MOVE</a>    = 6,</div>
-<div class="line"><span class="lineno">   98</span> </div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076">PATH_PROTODRAKE</a>         = 125946,</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d">EVENT_REND</a>              = 1,</div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40">EVENT_FLAME_BREATH</a>      = 2,</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517">EVENT_KNOCKAWAY</a>         = 3,</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6">SPELL_REND</a>              = 43931,</div>
-<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b">SPELL_FLAME_BREATH</a>      = 50653,</div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa">SPELL_KNOCK_AWAY</a>        = 49722,</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee">POINT_LAST</a>              = 5,</div>
-<div class="line"><span class="lineno">  110</span>};</div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40">EVENT_FLAME_BREATH</a></div><div class="ttdeci">@ EVENT_FLAME_BREATH</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:102</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d">EVENT_REND</a></div><div class="ttdeci">@ EVENT_REND</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:101</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b">SPELL_FLAME_BREATH</a></div><div class="ttdeci">@ SPELL_FLAME_BREATH</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:106</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56">TYPE_PROTODRAKE_AT</a></div><div class="ttdeci">@ TYPE_PROTODRAKE_AT</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:96</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad">DATA_PROTODRAKE_MOVE</a></div><div class="ttdeci">@ DATA_PROTODRAKE_MOVE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:97</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee">POINT_LAST</a></div><div class="ttdeci">@ POINT_LAST</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:109</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076">PATH_PROTODRAKE</a></div><div class="ttdeci">@ PATH_PROTODRAKE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:99</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa">SPELL_KNOCK_AWAY</a></div><div class="ttdeci">@ SPELL_KNOCK_AWAY</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:107</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6">SPELL_REND</a></div><div class="ttdeci">@ SPELL_REND</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:105</div></div>
-<div class="ttc" id="aa01277_html_a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517"><div class="ttname"><a href="../../d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517">EVENT_KNOCKAWAY</a></div><div class="ttdeci">@ EVENT_KNOCKAWAY</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:103</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9126ee26be77d9dcf83d14c8abae1cca" name="a9126ee26be77d9dcf83d14c8abae1cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9126ee26be77d9dcf83d14c8abae1cca">&#9670;&#160;</a></span>TickingTimeBomb</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1cca">TickingTimeBomb</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b" name="a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b"></a>SPELL_TICKING_TIME_BOMB_EXPLODE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  208</span>{</div>
-<div class="line"><span class="lineno">  209</span>    <a class="code hl_enumvalue" href="../../d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b">SPELL_TICKING_TIME_BOMB_EXPLODE</a> = 59687</div>
-<div class="line"><span class="lineno">  210</span>};</div>
-<div class="ttc" id="aa01277_html_a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b"><div class="ttname"><a href="../../d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b">SPELL_TICKING_TIME_BOMB_EXPLODE</a></div><div class="ttdeci">@ SPELL_TICKING_TIME_BOMB_EXPLODE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:209</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a3252f1bf2be160c6d8960f41e595db47" name="a3252f1bf2be160c6d8960f41e595db47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3252f1bf2be160c6d8960f41e595db47">&#9670;&#160;</a></span>AddSC_utgarde_keep()</h2>
+<a id="a93f8126d2e36ad7caab980f1c3f83a14" name="a93f8126d2e36ad7caab980f1c3f83a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f8126d2e36ad7caab980f1c3f83a14">&#9670;&#160;</a></span>AddSC_instance_ruby_sanctum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_utgarde_keep </td>
+          <td class="memname">void AddSC_instance_ruby_sanctum </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
-<div class="line"><span class="lineno">  237</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/dbb/a20966.html">npc_dragonflayer_forge_master</a>();</div>
-<div class="line"><span class="lineno">  238</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d2f/a20974.html">npc_enslaved_proto_drake</a>();</div>
-<div class="line"><span class="lineno">  239</span> </div>
-<div class="line"><span class="lineno">  240</span>    <a class="code hl_define" href="../../d0/d18/a04070.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/de6/a20982.html">spell_ticking_time_bomb_aura</a>);</div>
-<div class="line"><span class="lineno">  241</span>}</div>
-<div class="ttc" id="aa04070_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d0/d18/a04070.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa20966_html"><div class="ttname"><a href="../../de/dbb/a20966.html">npc_dragonflayer_forge_master</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:27</div></div>
-<div class="ttc" id="aa20974_html"><div class="ttname"><a href="../../dd/d2f/a20974.html">npc_enslaved_proto_drake</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:115</div></div>
-<div class="ttc" id="aa20982_html"><div class="ttname"><a href="../../d3/de6/a20982.html">spell_ticking_time_bomb_aura</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:213</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  275</span>{</div>
+<div class="line"><span class="lineno">  276</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d35/a15978.html">instance_ruby_sanctum</a>();</div>
+<div class="line"><span class="lineno">  277</span>    <a class="code hl_define" href="../../db/dee/a03338.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dd/dc8/a15986.html">spell_ruby_sanctum_rallying_shout</a>);</div>
+<div class="line"><span class="lineno">  278</span>}</div>
+<div class="ttc" id="aa03338_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../db/dee/a03338.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
+<div class="ttc" id="aa15978_html"><div class="ttname"><a href="../../d4/d35/a15978.html">instance_ruby_sanctum</a></div><div class="ttdef"><b>Definition:</b> instance_ruby_sanctum.cpp:49</div></div>
+<div class="ttc" id="aa15986_html"><div class="ttname"><a href="../../dd/dc8/a15986.html">spell_ruby_sanctum_rallying_shout</a></div><div class="ttdef"><b>Definition:</b> instance_ruby_sanctum.cpp:249</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
 
@@ -281,19 +174,71 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a0a556a898032cb18eabb6df4a3f482e1" name="a0a556a898032cb18eabb6df4a3f482e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a556a898032cb18eabb6df4a3f482e1">&#9670;&#160;</a></span>protodrakeCheckPos</h2>
+<a id="aa75d7d0ffe0cef214f982966c33db1c1" name="aa75d7d0ffe0cef214f982966c33db1c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75d7d0ffe0cef214f982966c33db1c1">&#9670;&#160;</a></span>boundaries</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d9/d08/a08198.html">Position</a> protodrakeCheckPos = {206.24f, -190.28f, 200.11f, 0.f}</td>
+          <td class="memname"><a class="el" href="../../dd/d31/a09318.html">BossBoundaryData</a> const boundaries</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../da/dc5/a09438.html">EllipseBoundary</a>(<a class="code hl_struct" href="../../d9/d08/a08198.html">Position</a>(3013.409f, 529.492f), 45.0, 100.0) },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../db/d55/a09434.html">CircleBoundary</a>(<a class="code hl_struct" href="../../d9/d08/a08198.html">Position</a>(3156.037f, 533.2656f), 48.5) }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a></div><div class="ttdeci">@ DATA_GENERAL_ZARITHRIAN</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:31</div></div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a></div><div class="ttdeci">@ DATA_HALION</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:36</div></div>
+<div class="ttc" id="aa08198_html"><div class="ttname"><a href="../../d9/d08/a08198.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="aa09434_html"><div class="ttname"><a href="../../db/d55/a09434.html">CircleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:89</div></div>
+<div class="ttc" id="aa09438_html"><div class="ttname"><a href="../../da/dc5/a09438.html">EllipseBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:103</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00055">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript::instance_ruby_sanctum_InstanceMapScript()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00151">npc_enslaved_proto_drake::npc_enslaved_proto_drakeAI::SetData()</a>.</p>
+</div>
+</div>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d60/a09310.html">DoorData</a> const doorData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9">GO_FIRE_FIELD</a>,     <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a>, <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1">DATA_SAVIANA_RAGEFIRE</a>,      <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a>, <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a>,    <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>,   },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d">GO_BURNING_TREE_4</a>, <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a>,         <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1">GO_BURNING_TREE_3</a>, <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a>,         <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f">GO_BURNING_TREE_2</a>, <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a>,         <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1">GO_BURNING_TREE_1</a>, <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a>,         <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8">GO_TWILIGHT_FLAME_RING</a>, <a class="code hl_enumvalue" href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a>,           <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
+<div class="line">    {0,                 0,                          <a class="code hl_enumvalue" href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
+<div class="line">}</div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9">GO_FIRE_FIELD</a></div><div class="ttdeci">@ GO_FIRE_FIELD</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:88</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f">GO_BURNING_TREE_2</a></div><div class="ttdeci">@ GO_BURNING_TREE_2</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:93</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8">GO_TWILIGHT_FLAME_RING</a></div><div class="ttdeci">@ GO_TWILIGHT_FLAME_RING</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:91</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1">GO_BURNING_TREE_1</a></div><div class="ttdeci">@ GO_BURNING_TREE_1</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:92</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1">GO_BURNING_TREE_3</a></div><div class="ttdeci">@ GO_BURNING_TREE_3</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:94</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d">GO_BURNING_TREE_4</a></div><div class="ttdeci">@ GO_BURNING_TREE_4</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:95</div></div>
+<div class="ttc" id="aa01286_html_af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5"><div class="ttname"><a href="../../d0/d00/a01286.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a></div><div class="ttdeci">@ GO_FLAME_WALLS</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:89</div></div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a></div><div class="ttdeci">@ DATA_HALION_INTRO1</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:33</div></div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1">DATA_SAVIANA_RAGEFIRE</a></div><div class="ttdeci">@ DATA_SAVIANA_RAGEFIRE</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:32</div></div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a></div><div class="ttdeci">@ DATA_HALION_INTRO2</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:34</div></div>
+<div class="ttc" id="aa01286_html_afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862"><div class="ttname"><a href="../../d0/d00/a01286.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a></div><div class="ttdeci">@ DATA_BALTHARUS_THE_WARBORN</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:30</div></div>
+<div class="ttc" id="aa03707_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
+<div class="ttc" id="aa03707_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../d1/d00/a03707.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00055">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript::instance_ruby_sanctum_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
@@ -302,8 +247,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d1549822ab15c727c75ddc2dceea56dd.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../dir_14e88a38456ce636c6ee65eed9c3a2a1.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../d2/d1d/a01277.html">utgarde_keep.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:41:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_719d04167aa7ea3db3432ca0946ea1bc.html">ChamberOfAspects</a></li><li class="navelem"><a class="el" href="../../dir_23d74cf01fe3f1f57e5987f77f0efe4c.html">RubySanctum</a></li><li class="navelem"><a class="el" href="../../d2/d1d/a01277.html">instance_ruby_sanctum.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

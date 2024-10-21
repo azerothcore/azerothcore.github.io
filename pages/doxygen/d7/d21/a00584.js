@@ -1,10 +1,8 @@
 var a00584 =
 [
-    [ "MMAP::MapTiles", "d8/d3d/a28574.html", "d8/d3d/a28574" ],
-    [ "MMAP::Tile", "d5/d06/a28578.html", "d5/d06/a28578" ],
-    [ "MMAP::TileConfig", "df/dfe/a28582.html", "df/dfe/a28582" ],
-    [ "MMAP::TileInfo", "de/dcf/a28586.html", "de/dcf/a28586" ],
-    [ "MMAP::TileBuilder", "d3/d88/a28590.html", "d3/d88/a28590" ],
-    [ "MMAP::MapBuilder", "d3/d41/a28594.html", "d3/d41/a28594" ],
-    [ "TileList", "d7/d21/a00584.html#aa2aae6f254337f29866a5d240d5ec2b1", null ]
+    [ "ModelIgnoreFlags", "d7/d21/a00584.html#a6996c44f3ac72cd9dc04515186d2da28", [
+      [ "Nothing", "d7/d21/a00584.html#a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5", null ],
+      [ "M2", "d7/d21/a00584.html#a6996c44f3ac72cd9dc04515186d2da28a9d8322530b67e2366e5b1ba67081ded9", null ]
+    ] ],
+    [ "operator&", "d7/d21/a00584.html#a3c25bdb4d30c345cd6760935e2c456f4", null ]
 ];

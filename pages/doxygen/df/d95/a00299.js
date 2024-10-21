@@ -1,4 +1,4 @@
 var a00299 =
 [
-    [ "ProducerConsumerQueue< T >", "d6/df3/a05294.html", "d6/df3/a05294" ]
+    [ "LogMessage", "d2/dbd/a05254.html", "d2/dbd/a05254" ]
 ];

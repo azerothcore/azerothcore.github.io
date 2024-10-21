@@ -1,35 +1,22 @@
 var a04538 =
 [
-    [ "npc_pet_pri_lightwell", "de/da8/a24410.html", "de/da8/a24410" ],
-    [ "npc_pet_pri_shadowfiend", "d4/d76/a24414.html", "d4/d76/a24414" ],
-    [ "PriestSpells", "d7/d23/a04538.html#a8aaecfe4214ff7bd567980dd904b110f", [
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "d7/d23/a04538.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "d7/d23/a04538.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
-      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "d7/d23/a04538.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
-      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d7/d23/a04538.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
-      [ "SPELL_PRIEST_DIVINE_AEGIS", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1", null ],
-      [ "SPELL_PRIEST_EMPOWERED_RENEW", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_LIGHTWELL", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e", null ],
-      [ "SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4", null ],
-      [ "SPELL_PRIEST_ITEM_EFFICIENCY", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d", null ],
-      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
-      [ "SPELL_PRIEST_MANA_LEECH_PROC", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366", null ],
-      [ "SPELL_PRIEST_PENANCE_R1", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099", null ],
-      [ "SPELL_PRIEST_PENANCE_R1_DAMAGE", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d", null ],
-      [ "SPELL_PRIEST_PENANCE_R1_HEAL", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68", null ],
-      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4", null ],
-      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_R1", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb", null ],
-      [ "SPELL_PRIEST_SHADOW_WORD_DEATH", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f", null ],
-      [ "SPELL_PRIEST_T9_HEALING_2P", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87", null ],
-      [ "SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03", null ],
-      [ "SPELL_PRIEST_T4_4P_FLEXIBILITY", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c", null ],
-      [ "SPELL_GENERIC_ARENA_DAMPENING", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0", null ],
-      [ "SPELL_GENERIC_BATTLEGROUND_DAMPENING", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4", null ],
-      [ "SPELL_PRIEST_TWIN_DISCIPLINE_R1", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690", null ],
-      [ "SPELL_PRIEST_SPIRITUAL_HEALING_R1", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af", null ],
-      [ "SPELL_PRIEST_DIVINE_PROVIDENCE_R1", "d1/dce/a04559.html#a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae", null ]
+    [ "GameEventFinishCondition", "d3/db6/a08562.html", "d3/db6/a08562" ],
+    [ "GameEventQuestToEventConditionNum", "d3/d4a/a08566.html", "d3/d4a/a08566" ],
+    [ "GameEventData", "da/d8a/a08570.html", "da/d8a/a08570" ],
+    [ "ModelEquip", "d4/d3a/a08574.html", "d4/d3a/a08574" ],
+    [ "NPCVendorEntry", "d2/d54/a08578.html", "d2/d54/a08578" ],
+    [ "GameEventMgr", "da/d14/a08582.html", "da/d14/a08582" ],
+    [ "max_ge_check_delay", "d7/d23/a04538.html#adaa73d920934a951856f7ce003ce2342", null ],
+    [ "sGameEventMgr", "d7/d23/a04538.html#a3c1c916d94272dfe845b9cc5e8fc292a", null ],
+    [ "GameEventConditionMap", "d7/d23/a04538.html#ac4262be385ac879bb433e00533d835c0", null ],
+    [ "GameEventState", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5", [
+      [ "GAMEEVENT_NORMAL", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921", null ],
+      [ "GAMEEVENT_WORLD_INACTIVE", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5ac5c7f13cfd107dd2d1efb99ce8dd5136", null ],
+      [ "GAMEEVENT_WORLD_CONDITIONS", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a627f133a79fe9018b98ee3646e334ff7", null ],
+      [ "GAMEEVENT_WORLD_NEXTPHASE", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5aa9ecd88c85a086ee5273110051a00bc0", null ],
+      [ "GAMEEVENT_WORLD_FINISHED", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a50f420580ff8bcf744a958e2613085bf", null ],
+      [ "GAMEEVENT_INTERNAL", "d7/d23/a04538.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a2612ea68e0c9d21dae1af2e9ac04bc81", null ]
     ] ],
-    [ "AddSC_priest_pet_scripts", "d7/d23/a04538.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ]
+    [ "IsEventActive", "d7/d23/a04538.html#aaddb0f1fada20faf4702603241206f91", null ],
+    [ "IsHolidayActive", "d7/d23/a04538.html#a429db26781d2673aa2f031fc1327ffaf", null ]
 ];

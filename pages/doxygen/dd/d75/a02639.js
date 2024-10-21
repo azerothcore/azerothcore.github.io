@@ -1,6 +1,8 @@
 var a02639 =
 [
-    [ "fireworkShowGameobjectOrgrimmar", "dd/d75/a02639.html#aa00988212bcd8875445e2b120c00025c", null ],
-    [ "fireworkShowOrgrimmar", "dd/d75/a02639.html#a20e15c8e61c734af478a4849bd54c9d3", null ],
-    [ "fireworkShowScheduleOrgrimmar", "dd/d75/a02639.html#a2e2ca4fa893601a2122f94a72c18401f", null ]
+    [ "spell_gordunni_trap", "db/d8c/a15254.html", "db/d8c/a15254" ],
+    [ "GordunniTrap", "dd/d75/a02639.html#ae11511f5835ecdfec73fde1f9f29431c", [
+      [ "GO_GORDUNNI_DIRT_MOUND", "dd/d75/a02639.html#ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab", null ]
+    ] ],
+    [ "AddSC_feralas", "dd/d75/a02639.html#a06e54e3edc2df068be660ac788b402e3", null ]
 ];

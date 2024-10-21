@@ -1,8 +1,8 @@
 var dir_673d72b3ca5d3075a881357412b54b23 =
 [
-    [ "alterac_valley.cpp", "d4/d64/a02111.html", "d4/d64/a02111" ],
-    [ "boss_balinda.cpp", "d0/d79/a02117.html", "d0/d79/a02117" ],
-    [ "boss_drekthar.cpp", "d8/dd8/a02108.html", "d8/dd8/a02108" ],
-    [ "boss_galvangar.cpp", "db/d7a/a02105.html", "db/d7a/a02105" ],
-    [ "boss_vanndar.cpp", "da/d4a/a02114.html", "da/d4a/a02114" ]
+    [ "alterac_valley.cpp", "d1/d39/a02048.html", "d1/d39/a02048" ],
+    [ "boss_balinda.cpp", "d7/d13/a02045.html", "d7/d13/a02045" ],
+    [ "boss_drekthar.cpp", "d1/dc4/a02042.html", "d1/dc4/a02042" ],
+    [ "boss_galvangar.cpp", "d4/d9b/a02039.html", "d4/d9b/a02039" ],
+    [ "boss_vanndar.cpp", "d4/d2e/a02051.html", "d4/d2e/a02051" ]
 ];

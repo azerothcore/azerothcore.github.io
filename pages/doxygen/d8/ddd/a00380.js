@@ -1,4 +1,4 @@
 var a00380 =
 [
-    [ "SFMTRand", "d1/df3/a05390.html", "d1/df3/a05390" ]
+    [ "Optional", "d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82", null ]
 ];

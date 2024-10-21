@@ -1,36 +1,14 @@
 var a01778 =
 [
-    [ "boss_high_king_maulgar", "dc/dfb/a23394.html", "dc/dfb/a23394" ],
-    [ "boss_olm_the_summoner", "d2/d7c/a23398.html", "d2/d7c/a23398" ],
-    [ "boss_kiggler_the_crazed", "d2/d4f/a23402.html", "d2/d4f/a23402" ],
-    [ "boss_blindeye_the_seer", "d1/d13/a23406.html", "d1/d13/a23406" ],
-    [ "boss_krosh_firehand", "de/d80/a23410.html", "de/d80/a23410" ],
-    [ "HighKingMaulgar", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00", [
-      [ "SAY_AGGRO", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_ENRAGE", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00ac90d9311ef3cf3f33564ce22ff904f54", null ],
-      [ "SAY_OGRE_DEATH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a95b1d5ce0a72c3cd74ad2936384e0327", null ],
-      [ "SAY_SLAY", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_ARCING_SMASH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00abfd4b3a49fefdc02e654db0e63326f1e", null ],
-      [ "SPELL_MIGHTY_BLOW", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00ae9c68ac99f2257b412925e1b55e98716", null ],
-      [ "SPELL_WHIRLWIND", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00aed3f27157e41ec7644a53b6f9a827801", null ],
-      [ "SPELL_BERSERKER_C", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a3310668bd975bc2e17281127230ab8c4", null ],
-      [ "SPELL_ROAR", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a2850de7b373712096ae835fe75a3632f", null ],
-      [ "SPELL_FLURRY", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a98984f299eb2988a14d18b17e10cae58", null ],
-      [ "SPELL_DARK_DECAY", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00af01fc976fe7d4ab3beae4c372bc5920c", null ],
-      [ "SPELL_DEATH_COIL", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a196972e452f4cb5df032e5119d25f163", null ],
-      [ "SPELL_SUMMON_WFH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a2e3a5283de8e1145f42de375883b6112", null ],
-      [ "SPELL_GREATER_POLYMORPH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a1dd7faa947ee359df60cc4dfc87aa9df", null ],
-      [ "SPELL_LIGHTNING_BOLT", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a920803a7ad734282762d93767b701526", null ],
-      [ "SPELL_ARCANE_SHOCK", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a70217cff0adeb1a0499b1651a82f03ef", null ],
-      [ "SPELL_ARCANE_EXPLOSION", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a6cef4c5e88133771f6b27aec8b8cfdce", null ],
-      [ "SPELL_GREATER_PW_SHIELD", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a55ae8f41cbf9520dcf85fbec5a89d7d0", null ],
-      [ "SPELL_HEAL", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a69fcca2d13e03c684fa0459f960ef9a7", null ],
-      [ "SPELL_PRAYER_OH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a60e7f4938fc88cf1649f00a81e4ea95b", null ],
-      [ "SPELL_GREATER_FIREBALL", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00ab7f9ec669b70354ccaba25559dda41d7", null ],
-      [ "SPELL_SPELLSHIELD", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a37fcb71489a9591a31c6f74520ed175e", null ],
-      [ "SPELL_BLAST_WAVE", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a70309c041527816c73053b7d9b387f88", null ],
-      [ "ACTION_ADD_DEATH", "df/d21/a01778.html#a79b8e9b872a1c2b80ceefb2d55901a00a37c2463b1e6a48c0812bd3a0df718ffd", null ]
+    [ "guard_shattrath_scryer", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
+    [ "guard_shattrath_scryer::guard_shattrath_scryerAI", "d1/da0/a27262.html", "d1/da0/a27262" ],
+    [ "guard_shattrath_aldor", "da/dab/a27266.html", "da/dab/a27266" ],
+    [ "guard_shattrath_aldor::guard_shattrath_aldorAI", "de/d4f/a27270.html", "de/d4f/a27270" ],
+    [ "GuardShattrath", "df/d21/a01778.html#a7c8fcdd86e1aa9eab132e6321290e79c", [
+      [ "SPELL_BANISHED_SHATTRATH_A", "df/d21/a01778.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe", null ],
+      [ "SPELL_BANISHED_SHATTRATH_S", "df/d21/a01778.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48", null ],
+      [ "SPELL_BANISH_TELEPORT", "df/d21/a01778.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0", null ],
+      [ "SPELL_EXILE", "df/d21/a01778.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d", null ]
     ] ],
-    [ "AddSC_boss_high_king_maulgar", "df/d21/a01778.html#a834deb3700299f1a26f70d1db3e7c804", null ]
+    [ "AddSC_guards", "df/d21/a01778.html#acba582cbc90c710c629dd30926acdca4", null ]
 ];

@@ -1,5 +1,6 @@
 var a03182 =
 [
-    [ "Module_79C0768D657977D697E10BAD956CCED1", "dd/d1c/a11158.html", "dd/d1c/a11158" ],
-    [ "Module", "dd/d71/a03182.html#a6609439bd06281755d1dd966d61cd743", null ]
+    [ "ChatHandler", "db/d55/a07266.html", "db/d55/a07266" ],
+    [ "CliHandler", "d7/d12/a07270.html", "d7/d12/a07270" ],
+    [ "AddonChannelCommandHandler", "de/d94/a07274.html", "de/d94/a07274" ]
 ];

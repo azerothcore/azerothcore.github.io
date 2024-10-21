@@ -1,8 +1,6 @@
 var a04112 =
 [
-    [ "GameObjectScript", "d3/d77/a10018.html", "d3/d77/a10018" ],
-    [ "GenericGameObjectScript< AI >", "d3/d59/a10022.html", "d3/d59/a10022" ],
-    [ "FactoryGameObjectScript< AI, AIFactory >", "da/d24/a10026.html", "da/d24/a10026" ],
-    [ "RegisterGameObjectAI", "d5/d8b/a04112.html#a87397a2ba2a1acd88f62793eae9aa30e", null ],
-    [ "RegisterGameObjectAIWithFactory", "d5/d8b/a04112.html#a1614f98721d8a94351c4be15a72e499f", null ]
+    [ "MAX_QUIET_DISTANCE", "d5/d8b/a04112.html#a9738c927d0a0b9da431824ab69a5988a", null ],
+    [ "MIN_PATH_LENGTH", "d5/d8b/a04112.html#aa1f2b73706ddb69d07dbdc87257f010f", null ],
+    [ "MIN_QUIET_DISTANCE", "d5/d8b/a04112.html#ad1ba65a06a9ac4ab2293efde8be35403", null ]
 ];

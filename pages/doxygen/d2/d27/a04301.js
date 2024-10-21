@@ -1,11 +1,17 @@
 var a04301 =
 [
-    [ "Movement::counter< T, limit >", "df/d21/a09758.html", "df/d21/a09758" ],
-    [ "UInt32Counter", "d2/d27/a04301.html#adebd21803156b193f9b8a733b6cbd3c7", null ],
-    [ "computeFallElevation", "d2/d27/a04301.html#a87260372150c8322b45e75bfaa445f14", null ],
-    [ "computeFallTime", "d2/d27/a04301.html#a40f989c23fe19e12628da3cd9e64edf4", null ],
-    [ "MSToSec", "d2/d27/a04301.html#aefc83834e7badc5f8450322da9567bd6", null ],
-    [ "SecToMS", "d2/d27/a04301.html#a418fff34f8aed72d6d80876be5a33c58", null ],
-    [ "gravity", "d2/d27/a04301.html#a15b376933a666c7f7c4600e62d7afe91", null ],
-    [ "splineIdGen", "d2/d27/a04301.html#a5149db3325f467381006d8d5df24a2a8", null ]
+    [ "GroupQueueInfo", "d5/db4/a07070.html", "d5/db4/a07070" ],
+    [ "BattlegroundQueue", "d5/d31/a07074.html", "d5/d31/a07074" ],
+    [ "BattlegroundQueue::SelectionPool", "d3/d86/a07078.html", "d3/d86/a07078" ],
+    [ "BGQueueInviteEvent", "d4/db3/a07082.html", "d4/db3/a07082" ],
+    [ "BGQueueRemoveEvent", "d3/d45/a07086.html", "d3/d45/a07086" ],
+    [ "BattlegroundQueueGroupTypes", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17", [
+      [ "BG_QUEUE_PREMADE_ALLIANCE", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4", null ],
+      [ "BG_QUEUE_PREMADE_HORDE", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c", null ],
+      [ "BG_QUEUE_NORMAL_ALLIANCE", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697", null ],
+      [ "BG_QUEUE_NORMAL_HORDE", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d", null ],
+      [ "BG_QUEUE_CFBG", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239", null ],
+      [ "BG_QUEUE_MAX", "d2/d27/a04301.html#a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992", null ]
+    ] ],
+    [ "COUNT_OF_PLAYERS_TO_AVERAGE_WAIT_TIME", "d2/d27/a04301.html#aebc536d6c303d31049ad05f333c275ba", null ]
 ];

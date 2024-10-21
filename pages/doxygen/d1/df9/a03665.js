@@ -1,17 +1,11 @@
 var a03665 =
 [
-    [ "SplineHandler", "d1/d05/a08434.html", "d1/d05/a08434" ],
-    [ "spellIdImmunityPredicate", "d6/ded/a08438.html", "d6/ded/a08438" ],
-    [ "ProcTriggeredData", "d5/db3/a08442.html", "d5/db3/a08442" ],
-    [ "AuraMunchingQueue", "d8/dae/a08446.html", "d8/dae/a08446" ],
-    [ "ProcTriggeredList", "d1/df9/a03665.html#af5ec5d5b1ba4d4454c1bdcbc139de758", null ],
-    [ "createProcExtendMask", "d1/df9/a03665.html#afb539370dad036ff97905efdbb4270c0", null ],
-    [ "createProcFlags", "d1/df9/a03665.html#a7d920511c20f084098c0f68a75006159", null ],
-    [ "InitTriggerAuraData", "d1/df9/a03665.html#a70fb722e03fe637ce7c9979a00725a3c", null ],
-    [ "baseMoveSpeed", "d1/df9/a03665.html#a2ede1cce0416c74db2d4599bab36eb57", null ],
-    [ "isAlwaysTriggeredAura", "d1/df9/a03665.html#a59735a3ed46ce3add4f949e4c9e041f8", null ],
-    [ "isNonTriggerAura", "d1/df9/a03665.html#a993ff0928a2b90204efd437a0726e787", null ],
-    [ "isTriggerAura", "d1/df9/a03665.html#ad51bed43268eefcceebdda05d85c6a61", null ],
-    [ "playerBaseMoveSpeed", "d1/df9/a03665.html#afef08589b9944f10d66bdc1de74d0270", null ],
-    [ "procPrepared", "d1/df9/a03665.html#a11410c456e972de7cfb44bbe17709cc4", null ]
+    [ "BaseGain", "d1/df9/a03665.html#ada8e56c81ab672d85f2ff274d109e477", null ],
+    [ "Gain", "d1/df9/a03665.html#ab923dd9a0df7d75127965b40539d4a10", null ],
+    [ "GetColorCode", "d1/df9/a03665.html#a812c722ab7eb34807d8cad9659d34245", null ],
+    [ "GetGrayLevel", "d1/df9/a03665.html#a9c310a4423fd5ada14fac549e4b1a6fd", null ],
+    [ "GetZeroDifference", "d1/df9/a03665.html#a4152e9ef9972f6a20cbc990dce953c36", null ],
+    [ "hk_honor_at_level", "d1/df9/a03665.html#ad25519337dcc6370a39a072c53386f55", null ],
+    [ "hk_honor_at_level_f", "d1/df9/a03665.html#a218866625f1b3b8224fb44f5a0c8b416", null ],
+    [ "xp_in_group_rate", "d1/df9/a03665.html#a304088bebc0743c764589112d2ba3b7f", null ]
 ];

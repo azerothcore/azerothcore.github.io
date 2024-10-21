@@ -1,14 +1,10 @@
 var a00683 =
 [
-    [ "NpcFlagText", "d7/d69/a11394.html", "d7/d69/a11394" ],
-    [ "MechanicImmune", "d6/d0f/a11398.html", "d6/d0f/a11398" ],
-    [ "SpellSchoolImmune", "d2/d1a/a11402.html", "d2/d1a/a11402" ],
-    [ "npc_commandscript", "da/dab/a11406.html", "da/dab/a11406" ],
-    [ "NPCFLAG_COUNT", "db/d77/a00683.html#afc1ed6083684621f30fbabb23d2986c0", null ],
-    [ "CreatureEntry", "db/d77/a00683.html#a220449830f7fe293c9d82dcd3b84acd9", null ],
-    [ "CreatureSpawnId", "db/d77/a00683.html#a5e5fd5f7a85fd4ad7fe92f2125f17acc", null ],
-    [ "AddSC_npc_commandscript", "db/d77/a00683.html#ae99689f5e8e57f75adfcf54370ed979d", null ],
-    [ "mechanicImmunes", "db/d77/a00683.html#a9e8359f68aec0f69f42fe7aee7934859", null ],
-    [ "npcFlagTexts", "db/d77/a00683.html#a048bdd249b6deeed66fba6bad126b30b", null ],
-    [ "spellSchoolImmunes", "db/d77/a00683.html#a8708a11856730666b04e749bc0952c8f", null ]
+    [ "PreparedStatementData", "d3/d7c/a05706.html", "d3/d7c/a05706" ],
+    [ "PreparedStatementBase", "d4/d00/a05710.html", "d4/d00/a05710" ],
+    [ "PreparedStatement< T >", "d4/de2/a05578.html", "d4/de2/a05578" ],
+    [ "PreparedStatementTask", "d1/d9f/a05714.html", "d1/d9f/a05714" ],
+    [ "is_default", "db/d77/a00683.html#a6d4fe40146df0d52c6917d8cc920ac84", null ],
+    [ "is_enum_v", "db/d77/a00683.html#ae544e1b7f5a34959b1b48592f67dd4e7", null ],
+    [ "is_non_string_view_v", "db/d77/a00683.html#a67eb68c20f5616b2ea2a16a87784360a", null ]
 ];

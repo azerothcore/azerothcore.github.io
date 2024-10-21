@@ -1,29 +1,4 @@
 var a03128 =
 [
-    [ "HashMapHolder< T >", "d1/dfe/a08586.html", "d1/dfe/a08586" ],
-    [ "AddObject", "db/d6b/a03128.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
-    [ "AddObject", "db/d6b/a03128.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
-    [ "FindConnectedPlayer", "db/d6b/a03128.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
-    [ "FindPlayer", "db/d6b/a03128.html#a9ede56180a13f102ad195136eadb97ee", null ],
-    [ "FindPlayerByLowGUID", "db/d6b/a03128.html#a106c85352229fc2c097d9e021b4ce297", null ],
-    [ "FindPlayerByName", "db/d6b/a03128.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
-    [ "GetCorpse", "db/d6b/a03128.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
-    [ "GetCreature", "db/d6b/a03128.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
-    [ "GetCreatureOrPetOrVehicle", "db/d6b/a03128.html#abe7c8995443541417f52b00973dbde6f", null ],
-    [ "GetDynamicObject", "db/d6b/a03128.html#a76097a1f20df3f0e83516b1175a17397", null ],
-    [ "GetGameObject", "db/d6b/a03128.html#a424a63829a446dac6f97a464cc64ed48", null ],
-    [ "GetObjectByTypeMask", "db/d6b/a03128.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
-    [ "GetPet", "db/d6b/a03128.html#a76e4ca902836751980d6157a3eed7967", null ],
-    [ "GetPlayer", "db/d6b/a03128.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
-    [ "GetPlayer", "db/d6b/a03128.html#a9179a3b50b384405892a8e8e538617b4", null ],
-    [ "GetPlayers", "db/d6b/a03128.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
-    [ "GetSpawnedCreatureByDBGUID", "db/d6b/a03128.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
-    [ "GetSpawnedGameObjectByDBGUID", "db/d6b/a03128.html#a6639665d2704cbd06727004567caac15", null ],
-    [ "GetTransport", "db/d6b/a03128.html#a2ddde0dc109d262af644c232a315afd7", null ],
-    [ "GetUnit", "db/d6b/a03128.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
-    [ "GetWorldObject", "db/d6b/a03128.html#ade254f98439319c444ce701c75d4f93a", null ],
-    [ "RemoveObject", "db/d6b/a03128.html#a43f4538cfa587672688705f6f7a60edc", null ],
-    [ "RemoveObject", "db/d6b/a03128.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
-    [ "SaveAllPlayers", "db/d6b/a03128.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
-    [ "UpdatePlayerNameMapReference", "db/d6b/a03128.html#a8a088e6967b9972662d788beffba14d4", null ]
+    [ "WardenPayloadMgr", "d6/d53/a11214.html", "d6/d53/a11214" ]
 ];

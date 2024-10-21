@@ -1,5 +1,5 @@
 var a04610 =
 [
-    [ "AddonHandler", "d5/d59/a09258.html", "d5/d59/a09258" ],
-    [ "sAddOnHandler", "d9/d98/a04610.html#a53c18d341aaa47d117be75333e4ab43d", null ]
+    [ "DBCStorageBase", "d4/dc5/a27578.html", "d4/dc5/a27578" ],
+    [ "DBCStorage< T >", "d9/d75/a27582.html", "d9/d75/a27582" ]
 ];

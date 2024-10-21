@@ -1,9 +1,23 @@
 var a04247 =
 [
-    [ "RandomMovementGenerator< T >", "df/d60/a09718.html", "df/d60/a09718" ],
-    [ "MAX_PATH_LENGHT_FACTOR", "dc/dd9/a04247.html#a6e563601030e3152f7023ecd4fa3f3c7", null ],
-    [ "MIN_WANDER_DISTANCE_AIR", "dc/dd9/a04247.html#a81b46c6e5a328cf46ead22b160a8a576", null ],
-    [ "MIN_WANDER_DISTANCE_GROUND", "dc/dd9/a04247.html#a85e56933db548199999e1edb8e96836d", null ],
-    [ "RANDOM_LINKS_COUNT", "dc/dd9/a04247.html#af447061c654f18b25537973f2739dad3", null ],
-    [ "RANDOM_POINTS_NUMBER", "dc/dd9/a04247.html#ac0f6eaac315a81192c2307dcbac20f70", null ]
+    [ "BattlegroundNA", "d6/ded/a07182.html", "d6/ded/a07182" ],
+    [ "BattlegroundNAGameObjects", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9", [
+      [ "BG_NA_OBJECT_TYPE_DOOR_1", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9a1316dbe197353489e03213d3277f32ff", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_2", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9a20f05476fbcb6371766b7ae3ed489890", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_3", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9ae0d1716599d048803d55154e63f7a3a5", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_4", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9af563fe3ddbb78a9d4d6f2a22479077db", null ],
+      [ "BG_NA_OBJECT_TYPE_BUFF_1", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9aba131a1275e72b2445749ef2c5689f96", null ],
+      [ "BG_NA_OBJECT_TYPE_BUFF_2", "dc/dd9/a04247.html#add49f720fa08ffa96e26473cae2b61a9a7c0aab8f173d7f00439a05931bd2925c", null ]
+    ] ],
+    [ "BattlegroundNAObjectTypes", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffc", [
+      [ "BG_NA_OBJECT_DOOR_1", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffca51bc6ecc32ca4cab5dfc799e14edfdc9", null ],
+      [ "BG_NA_OBJECT_DOOR_2", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffcaa22fe8f33675b8eac05c69224d71fc5f", null ],
+      [ "BG_NA_OBJECT_DOOR_3", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffcac72fe751e3b1f451e48ee8ac82c78370", null ],
+      [ "BG_NA_OBJECT_DOOR_4", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffca5690093aa04635e30731d6b165331299", null ],
+      [ "BG_NA_OBJECT_BUFF_1", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffcac1c0e18a004c1daaae690b77cb61e340", null ],
+      [ "BG_NA_OBJECT_BUFF_2", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffca87f6c8115cba6b3e3c8f30d7845108de", null ],
+      [ "BG_NA_OBJECT_READY_MARKER_1", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffcaa4f00f50070659c120fae25ccaf3a362", null ],
+      [ "BG_NA_OBJECT_READY_MARKER_2", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffcacf5a04e41e8a9fc5cadcc3448f88213c", null ],
+      [ "BG_NA_OBJECT_MAX", "dc/dd9/a04247.html#aa6ddc80a19a5d68782bca5f23b651ffca68f38c2d23db000bca22be2fb9cc9f8b", null ]
+    ] ]
 ];

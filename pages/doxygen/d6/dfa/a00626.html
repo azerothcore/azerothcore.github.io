@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_event.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Updater/DBUpdater.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,72 +106,67 @@ $(document).ready(function(){initNavTree('d6/dfa/a00626.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">cs_event.cpp File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">DBUpdater.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d08/a11318.html">event_commandscript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/a05786.html">UpdateException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html">DBUpdaterUtil</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc2/a05794.html">DBUpdater&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:accd9dac141ffd4618bb7d3f69e8eb716"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfa/a00626.html#accd9dac141ffd4618bb7d3f69e8eb716">EventEntry</a> = <a class="el" href="../../db/d86/a07466.html">Variant</a>&lt; <a class="el" href="../../d2/d57/a07458.html">Hyperlink</a>&lt; gameevent &gt;, <a class="el" href="../../d3/def/a00446.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;</td></tr>
-<tr class="separator:accd9dac141ffd4618bb7d3f69e8eb716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/dca/a04670"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04670.html">boost</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d88/a04704"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d88/a04704.html">boost::filesystem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4f3834f706dcb17ca67ce6513f6aecad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfa/a00626.html#a4f3834f706dcb17ca67ce6513f6aecad">AddSC_event_commandscript</a> ()</td></tr>
-<tr class="separator:a4f3834f706dcb17ca67ce6513f6aecad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a>
+<br />
+ }</td></tr>
+<tr class="separator:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="accd9dac141ffd4618bb7d3f69e8eb716" name="accd9dac141ffd4618bb7d3f69e8eb716"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accd9dac141ffd4618bb7d3f69e8eb716">&#9670;&#160;</a></span>EventEntry</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0c382fe144b0dc101a8b2b9d4ef51010" name="a0c382fe144b0dc101a8b2b9d4ef51010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c382fe144b0dc101a8b2b9d4ef51010">&#9670;&#160;</a></span>BaseLocation</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d6/dfa/a00626.html#accd9dac141ffd4618bb7d3f69e8eb716">EventEntry</a> =  <a class="el" href="../../db/d86/a07466.html">Variant</a>&lt;<a class="el" href="../../d2/d57/a07458.html">Hyperlink</a>&lt;gameevent&gt;, <a class="el" href="../../d3/def/a00446.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt;</td>
+          <td class="memname">enum <a class="el" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a4f3834f706dcb17ca67ce6513f6aecad" name="a4f3834f706dcb17ca67ce6513f6aecad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f3834f706dcb17ca67ce6513f6aecad">&#9670;&#160;</a></span>AddSC_event_commandscript()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_commandscript </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  191</span>{</div>
-<div class="line"><span class="lineno">  192</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d08/a11318.html">event_commandscript</a>();</div>
-<div class="line"><span class="lineno">  193</span>}</div>
-<div class="ttc" id="aa11318_html"><div class="ttname"><a href="../../d5/d08/a11318.html">event_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_event.cpp:37</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550" name="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"></a>LOCATION_REPOSITORY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c" name="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"></a>LOCATION_DOWNLOAD&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div>
+<div class="line"><span class="lineno">   53</span>};</div>
+<div class="ttc" id="aa00626_html_a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"><div class="ttname"><a href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div><div class="ttdeci">@ LOCATION_DOWNLOAD</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:52</div></div>
+<div class="ttc" id="aa00626_html_a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"><div class="ttname"><a href="../../d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a></div><div class="ttdeci">@ LOCATION_REPOSITORY</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:51</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -179,8 +174,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d6/dfa/a00626.html">cs_event.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_ac632e0cb7d565e729369f2b018d776c.html">Updater</a></li><li class="navelem"><a class="el" href="../../d6/dfa/a00626.html">DBUpdater.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

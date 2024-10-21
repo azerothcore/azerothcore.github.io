@@ -1,6 +1,10 @@
 var a00626 =
 [
-    [ "event_commandscript", "d5/d08/a11318.html", "d5/d08/a11318" ],
-    [ "EventEntry", "d6/dfa/a00626.html#accd9dac141ffd4618bb7d3f69e8eb716", null ],
-    [ "AddSC_event_commandscript", "d6/dfa/a00626.html#a4f3834f706dcb17ca67ce6513f6aecad", null ]
+    [ "UpdateException", "d5/d95/a05786.html", "d5/d95/a05786" ],
+    [ "DBUpdaterUtil", "d3/d09/a05790.html", "d3/d09/a05790" ],
+    [ "DBUpdater< T >", "d4/dc2/a05794.html", "d4/dc2/a05794" ],
+    [ "BaseLocation", "d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010", [
+      [ "LOCATION_REPOSITORY", "d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550", null ],
+      [ "LOCATION_DOWNLOAD", "d6/dfa/a00626.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c", null ]
+    ] ]
 ];

@@ -1,7 +1,6 @@
 var a04160 =
 [
-    [ "ScriptObject", "d8/d8e/a10130.html", "d8/d8e/a10130" ],
-    [ "UpdatableScript< TObject >", "d0/daa/a10134.html", "d0/daa/a10134" ],
-    [ "MapScript< TMap >", "d4/d2d/a10138.html", "d4/d2d/a10138" ],
-    [ "VISIBLE_RANGE", "dc/d95/a04160.html#ac7e3013df774904b0d331e5b0c6e93ad", null ]
+    [ "Movement::FacingInfo", "de/db8/a09794.html", "de/db8/a09794" ],
+    [ "Movement::MoveSplineInitArgs", "d5/d32/a09802.html", "d5/d32/a09802" ],
+    [ "PointsArray", "dc/d95/a04160.html#a86528b2e04ddf38b80888e45d6b9c37d", null ]
 ];

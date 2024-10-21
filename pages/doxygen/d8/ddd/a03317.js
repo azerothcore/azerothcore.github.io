@@ -1,17 +1,27 @@
 var a03317 =
 [
-    [ "KeyFrame", "dc/db7/a09566.html", "dc/db7/a09566" ],
-    [ "TransportTemplate", "de/df7/a09570.html", "de/df7/a09570" ],
-    [ "TransportAnimation", "da/de5/a09574.html", "da/de5/a09574" ],
-    [ "TransportMgr", "de/d5e/a09578.html", "de/d5e/a09578" ],
-    [ "sTransportMgr", "d8/ddd/a03317.html#a8490de0c5d2ca76c3c17a5f9241ad635", null ],
-    [ "KeyFrameVec", "d8/ddd/a03317.html#a933345ef2cba8f20007b633f8bce737c", null ],
-    [ "TransportAnimationContainer", "d8/ddd/a03317.html#a66190b362b4aab515b7cf6974acdc3ee", null ],
-    [ "TransportInstanceMap", "d8/ddd/a03317.html#a5d0b038ae19d95dc969ce0306e61df37", null ],
-    [ "TransportMap", "d8/ddd/a03317.html#a41b04a0a994912eda6d213e37d97a0a9", null ],
-    [ "TransportPathContainer", "d8/ddd/a03317.html#a7905b31432c2140de30ffc9363c3e9b9", null ],
-    [ "TransportPathRotationContainer", "d8/ddd/a03317.html#a58adfcebbe67029f647a3db4897a6558", null ],
-    [ "TransportSet", "d8/ddd/a03317.html#abdd9e6bc913517c5ebd7f5e99f699e1e", null ],
-    [ "TransportSpline", "d8/ddd/a03317.html#a05990a03a3ab902d6d79e9f33385b605", null ],
-    [ "TransportTemplates", "d8/ddd/a03317.html#a95da4f79fff198b8042b47657f7ccb66", null ]
+    [ "GlobalScript", "d8/d23/a10030.html", "d8/d23/a10030" ],
+    [ "GlobalHook", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54f", [
+      [ "GLOBALHOOK_ON_ITEM_DEL_FROM_DB", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa3fee3c5c76e67faee134aa5f3004fb3a", null ],
+      [ "GLOBALHOOK_ON_MIRRORIMAGE_DISPLAY_ITEM", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa54996842f471924462c858b424771301", null ],
+      [ "GLOBALHOOK_ON_AFTER_REF_COUNT", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fadf7277c0c7e7daf6f206ad30076ca6b0", null ],
+      [ "GLOBALHOOK_ON_AFTER_CALCULATE_LOOT_GROUP_AMOUNT", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fab9f74534592d5b25eac4afa022f0afb8", null ],
+      [ "GLOBALHOOK_ON_BEFORE_DROP_ADD_ITEM", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa0023a1c24752cf2d5bf1373304031616", null ],
+      [ "GLOBALHOOK_ON_ITEM_ROLL", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa1910f8cb74757454664169058b78e315", null ],
+      [ "GLOBALHOOK_ON_BEFORE_LOOT_EQUAL_CHANCED", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fac9c482aae055a76e845712ea267cbf54", null ],
+      [ "GLOBALHOOK_ON_INITIALIZE_LOCKED_DUNGEONS", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faff3a42ff936243662b474b34bdf3eaaf", null ],
+      [ "GLOBALHOOK_ON_AFTER_INITIALIZE_LOCKED_DUNGEONS", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa4a73293aee8407b7b998c4b054b1f441", null ],
+      [ "GLOBALHOOK_ON_BEFORE_UPDATE_ARENA_POINTS", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa5b66ed30713c1b3afbbeb93e0185721f", null ],
+      [ "GLOBALHOOK_ON_AFTER_UPDATE_ENCOUNTER_STATE", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fade9db726b6ebfefed02d9958ba2352d1", null ],
+      [ "GLOBALHOOK_ON_BEFORE_WORLDOBJECT_SET_PHASEMASK", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa46e286ea2fa14ba1003d3f921bc174b6", null ],
+      [ "GLOBALHOOK_ON_IS_AFFECTED_BY_SPELL_MOD_CHECK", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa47d4b00882af22c458fd791f70844d1b", null ],
+      [ "GLOBALHOOK_ON_SPELL_HEALING_BONUS_TAKEN_NEGATIVE_MODIFIERS", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa1efd25cc1c4e57becd0c5acf89c12857", null ],
+      [ "GLOBALHOOK_ON_LOAD_SPELL_CUSTOM_ATTR", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa53ea8c3814440b2cc9bc99760a365ffc", null ],
+      [ "GLOBALHOOK_ON_ALLOWED_FOR_PLAYER_LOOT_CHECK", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faac2ab4f02438b0689dcb2fd4e4b6e689", null ],
+      [ "GLOBALHOOK_ON_ALLOWED_TO_LOOT_CONTAINER_CHECK", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54fa484cdc863db646dfef82e9bd93fab517", null ],
+      [ "GLOBALHOOK_ON_INSTANCEID_REMOVED", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faca0b78e4f7e01f485fa13984516ad19c", null ],
+      [ "GLOBALHOOK_ON_BEFORE_SET_BOSS_STATE", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faaa74d1171724a0c0ef83fe371e38b203", null ],
+      [ "GLOBALHOOK_AFTER_INSTANCE_GAME_OBJECT_CREATE", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faf8f95fca3547e7cb68711a197b935872", null ],
+      [ "GLOBALHOOK_END", "d8/ddd/a03317.html#a9442fcdfa182319eedd41c65183aa54faaf8763605020a918c2880562446d020a", null ]
+    ] ]
 ];

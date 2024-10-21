@@ -1,21 +1,14 @@
 var a01106 =
 [
-    [ "AccountActionIpLogger", "d6/d22/a26930.html", "d6/d22/a26930" ],
-    [ "CharacterActionIpLogger", "d1/dca/a26934.html", "d1/dca/a26934" ],
-    [ "CharacterDeleteActionIpLogger", "dd/d99/a26938.html", "dd/d99/a26938" ],
-    [ "IPLoggingTypes", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
-      [ "ACCOUNT_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
-      [ "ACCOUNT_FAIL_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],
-      [ "ACCOUNT_CHANGE_PW", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059", null ],
-      [ "ACCOUNT_CHANGE_PW_FAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53", null ],
-      [ "ACCOUNT_CHANGE_EMAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c", null ],
-      [ "ACCOUNT_CHANGE_EMAIL_FAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30", null ],
-      [ "CHARACTER_CREATE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85", null ],
-      [ "CHARACTER_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363", null ],
-      [ "CHARACTER_LOGOUT", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607", null ],
-      [ "CHARACTER_DELETE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162", null ],
-      [ "CHARACTER_FAILED_DELETE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7", null ],
-      [ "UNKNOWN_ACTION", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8", null ]
+    [ "DataHeader", "da/d4e/a01106.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "MTScriptName", "da/d4e/a01106.html#a772413d8818d681e2261c99f58e1268c", null ],
+    [ "RegisterManaTombsCreatureAI", "da/d4e/a01106.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
+    [ "MTDataTypes", "da/d4e/a01106.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
+      [ "DATA_PANDEMONIUS", "da/d4e/a01106.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
+      [ "DATA_TAVAROK", "da/d4e/a01106.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
+      [ "DATA_NEXUSPRINCE_SHAFFAR", "da/d4e/a01106.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
+      [ "DATA_YOR", "da/d4e/a01106.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
     ] ],
-    [ "AddSC_action_ip_logger", "da/d4e/a01106.html#a530be5efb251d5ca58e97804e48ad953", null ]
+    [ "GetManaTombsAI", "da/d4e/a01106.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
+    [ "EncounterCount", "da/d4e/a01106.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

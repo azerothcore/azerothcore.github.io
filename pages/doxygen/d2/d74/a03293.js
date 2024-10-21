@@ -1,4 +1,4 @@
 var a03293 =
 [
-    [ "MapUpdater", "db/dba/a09558.html", "db/dba/a09558" ]
+    [ "ScriptRegistry< AllCreatureScript >", "d2/d74/a03293.html#a1fdf1f4f0e165d771b9e1e9064529256", null ]
 ];

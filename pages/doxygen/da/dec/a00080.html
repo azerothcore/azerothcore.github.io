@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/map_extractor/loadlib.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/PathCommon.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,66 +105,51 @@ $(document).ready(function(){initNavTree('da/dec/a00080.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">loadlib.cpp File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">PathCommon.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;loadlib.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">mpq_libmpq04.h</a>&quot;</code><br />
-<code>#include &lt;cstdio&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;cerrno&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a411c46599e926f8cdf49c63957255359"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.html#a411c46599e926f8cdf49c63957255359">_CRT_SECURE_NO_DEPRECATE</a></td></tr>
-<tr class="separator:a411c46599e926f8cdf49c63957255359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d2/db6/a04681"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html">MMAP</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a076cdc3e61f69e52913492840fc864cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df0/a28474.html">u_map_fcc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dec/a00080.html#a076cdc3e61f69e52913492840fc864cf">MverMagic</a> = { {'R', 'E', 'V', 'M'} }</td></tr>
-<tr class="separator:a076cdc3e61f69e52913492840fc864cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a030b28c9f552c0de4a4b4844fc5e6101"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#a030b28c9f552c0de4a4b4844fc5e6101">MMAP::ListFilesResult</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">MMAP::LISTFILE_DIRECTORY_NOT_FOUND</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687">MMAP::LISTFILE_OK</a> = 1
+<br />
+ }</td></tr>
+<tr class="separator:a030b28c9f552c0de4a4b4844fc5e6101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0b1c31a5b3e8bebc7fa860b40f7997e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#a0b1c31a5b3e8bebc7fa860b40f7997e1">MMAP::matchWildcardFilter</a> (const char *filter, const char *str)</td></tr>
+<tr class="separator:a0b1c31a5b3e8bebc7fa860b40f7997e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3620968f3c1f5c1a3bb0c809ab0eb4ab"><td class="memItemLeft" align="right" valign="top">ListFilesResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">MMAP::getDirContents</a> (std::vector&lt; std::string &gt; &amp;fileList, std::string dirpath=&quot;.&quot;, std::string filter=&quot;*&quot;)</td></tr>
+<tr class="separator:a3620968f3c1f5c1a3bb0c809ab0eb4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a411c46599e926f8cdf49c63957255359" name="a411c46599e926f8cdf49c63957255359"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a411c46599e926f8cdf49c63957255359">&#9670;&#160;</a></span>_CRT_SECURE_NO_DEPRECATE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _CRT_SECURE_NO_DEPRECATE</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a076cdc3e61f69e52913492840fc864cf" name="a076cdc3e61f69e52913492840fc864cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076cdc3e61f69e52913492840fc864cf">&#9670;&#160;</a></span>MverMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/df0/a28474.html">u_map_fcc</a> MverMagic = { {'R', 'E', 'V', 'M'} }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00065">FileLoader::prepareLoadedData()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_816589248c496bc2270bc4e83dc7035c.html">map_extractor</a></li><li class="navelem"><a class="el" href="../../da/dec/a00080.html">loadlib.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:41:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../da/dec/a00080.html">PathCommon.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:40:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

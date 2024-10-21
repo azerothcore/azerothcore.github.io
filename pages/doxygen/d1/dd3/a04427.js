@@ -1,16 +1,10 @@
 var a04427 =
 [
-    [ "WorldPackets::Misc::Weather", "da/d14/a10470.html", "da/d14/a10470" ],
-    [ "WorldPackets::Misc::LevelUpInfo", "d1/df0/a10474.html", "d1/df0/a10474" ],
-    [ "WorldPackets::Misc::PlayMusic", "d0/dd2/a10478.html", "d0/dd2/a10478" ],
-    [ "WorldPackets::Misc::PlayObjectSound", "df/d55/a10482.html", "df/d55/a10482" ],
-    [ "WorldPackets::Misc::Playsound", "dd/d95/a10486.html", "dd/d95/a10486" ],
-    [ "WorldPackets::Misc::RandomRollClient", "d6/df4/a10490.html", "d6/df4/a10490" ],
-    [ "WorldPackets::Misc::RandomRoll", "de/da7/a10494.html", "de/da7/a10494" ],
-    [ "WorldPackets::Misc::StartMirrorTimer", "d2/d5f/a10498.html", "d2/d5f/a10498" ],
-    [ "WorldPackets::Misc::PauseMirrorTimer", "dc/d63/a10502.html", "dc/d63/a10502" ],
-    [ "WorldPackets::Misc::StopMirrorTimer", "dc/d06/a10506.html", "dc/d06/a10506" ],
-    [ "WorldPackets::Misc::DurabilityDamageDeath", "dd/d31/a10510.html", "dd/d31/a10510" ],
-    [ "WorldPackets::Misc::CrossedInebriationThreshold", "db/ddb/a10514.html", "db/ddb/a10514" ],
-    [ "WorldPackets::Misc::UITime", "db/dab/a10518.html", "db/dab/a10518" ]
+    [ "WorldPackets::Pet::DismissCritter", "de/dfd/a10578.html", "de/dfd/a10578" ],
+    [ "WorldPackets::Pet::PetAbandon", "df/d78/a10582.html", "df/d78/a10582" ],
+    [ "WorldPackets::Pet::PetStopAttack", "d3/dd6/a10586.html", "d3/dd6/a10586" ],
+    [ "WorldPackets::Pet::PetSpellAutocast", "dd/d82/a10590.html", "dd/d82/a10590" ],
+    [ "WorldPackets::Pet::PetLearnedSpell", "de/d21/a10594.html", "de/d21/a10594" ],
+    [ "WorldPackets::Pet::PetUnlearnedSpell", "dc/d55/a10598.html", "dc/d55/a10598" ],
+    [ "WorldPackets::Pet::RequestPetInfo", "d2/d62/a10602.html", "d2/d62/a10602" ]
 ];

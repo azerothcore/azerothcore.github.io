@@ -1,4 +1,6 @@
 var a04130 =
 [
-    [ "ScriptRegistry< AllGameObjectScript >", "d7/ded/a04130.html#a60896f2f8318a9eeba3e23357a17292f", null ]
+    [ "TargetedMovementGeneratorBase", "d9/d0e/a09722.html", "d9/d0e/a09722" ],
+    [ "ChaseMovementGenerator< T >", "db/d8d/a09726.html", "db/d8d/a09726" ],
+    [ "FollowMovementGenerator< T >", "d8/dc2/a09730.html", "d8/dc2/a09730" ]
 ];

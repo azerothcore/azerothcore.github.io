@@ -1,9 +1,33 @@
 var a01484 =
 [
-    [ "instance_drak_tharon_keep", "dd/d32/a16546.html", "dd/d32/a16546" ],
-    [ "instance_drak_tharon_keep::instance_drak_tharon_keep_InstanceScript", "d9/dea/a16550.html", "d9/dea/a16550" ],
-    [ "spell_dtk_raise_dead_aura", "de/dec/a16554.html", "de/dec/a16554" ],
-    [ "spell_dtk_summon_random_drakkari", "d6/d43/a16558.html", "d6/d43/a16558" ],
-    [ "AddSC_instance_drak_tharon_keep", "d2/d21/a01484.html#a5644ddec1299c3c3988ffb003d0c3367", null ],
-    [ "doorData", "d2/d21/a01484.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "npc_pos_leader", "da/d72/a16850.html", "da/d72/a16850" ],
+    [ "npc_pos_leader::npc_pos_leaderAI", "d1/d46/a16854.html", "d1/d46/a16854" ],
+    [ "npc_pos_deathwhisper_necrolyte", "d6/dee/a16858.html", "d6/dee/a16858" ],
+    [ "npc_pos_deathwhisper_necrolyte::npc_pos_deathwhisper_necrolyteAI", "d6/d04/a16862.html", "d6/d04/a16862" ],
+    [ "npc_pos_after_first_boss", "d0/d55/a16866.html", "d0/d55/a16866" ],
+    [ "npc_pos_after_first_boss::npc_pos_after_first_bossAI", "d6/de1/a16870.html", "d6/de1/a16870" ],
+    [ "npc_pos_tyrannus_events", "da/d29/a16874.html", "da/d29/a16874" ],
+    [ "npc_pos_tyrannus_events::npc_pos_tyrannus_eventsAI", "da/dd2/a16878.html", "da/dd2/a16878" ],
+    [ "npc_pos_icicle_trigger", "d7/d94/a16882.html", "d7/d94/a16882" ],
+    [ "npc_pos_icicle_trigger::npc_pos_icicle_triggerAI", "d7/d49/a16886.html", "d7/d49/a16886" ],
+    [ "npc_pos_collapsing_icicle", "d3/d58/a16890.html", "d3/d58/a16890" ],
+    [ "npc_pos_collapsing_icicle::npc_pos_collapsing_icicleAI", "dd/d63/a16894.html", "dd/d63/a16894" ],
+    [ "npc_pos_martin_or_gorkun_second", "de/d11/a16898.html", "de/d11/a16898" ],
+    [ "npc_pos_martin_or_gorkun_second::npc_pos_martin_or_gorkun_secondAI", "d5/d69/a16902.html", "d5/d69/a16902" ],
+    [ "npc_pos_freed_slave", "d2/d99/a16906.html", "d2/d99/a16906" ],
+    [ "npc_pos_freed_slave::npc_pos_freed_slaveAI", "d1/d97/a16910.html", "d1/d97/a16910" ],
+    [ "npc_pos_leader_second", "d7/dc0/a16914.html", "d7/dc0/a16914" ],
+    [ "npc_pos_leader_second::npc_pos_leader_secondAI", "db/dc1/a16918.html", "db/dc1/a16918" ],
+    [ "spell_pos_empowered_blizzard_aura", "d8/d8a/a16922.html", "d8/d8a/a16922" ],
+    [ "SlaveRunEvent", "db/db1/a16926.html", "db/db1/a16926" ],
+    [ "spell_pos_slave_trigger_closest", "d6/d32/a16930.html", "d6/d32/a16930" ],
+    [ "spell_pos_rimefang_frost_nova", "d1/d23/a16934.html", "d1/d23/a16934" ],
+    [ "spell_pos_blight_aura", "dc/d7d/a16938.html", "dc/d7d/a16938" ],
+    [ "spell_pos_glacial_strike_aura", "d7/dc2/a16942.html", "d7/dc2/a16942" ],
+    [ "at_tyrannus_event_starter", "d6/d3a/a16946.html", "d6/d3a/a16946" ],
+    [ "EmpoweredBlizzard", "d2/d21/a01484.html#a8fcef7a07939b8b584fe27646f0e409b", [
+      [ "SPELL_EMPOWERED_BLIZZARD", "d2/d21/a01484.html#a8fcef7a07939b8b584fe27646f0e409bab466d53fed70cfde01f9b48a6bf13fab", null ]
+    ] ],
+    [ "AddSC_pit_of_saron", "d2/d21/a01484.html#ad9b4c5bfe589f9f6b1ea405752347585", null ],
+    [ "slaveFreePos", "d2/d21/a01484.html#a302aeb8575da3775869e8ba2aa788da0", null ]
 ];

@@ -1,6 +1,12 @@
 var a01811 =
 [
-    [ "instance_mana_tombs", "d6/d1d/a22538.html", "d6/d1d/a22538" ],
-    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "de/dcc/a22542.html", "de/dcc/a22542" ],
-    [ "AddSC_instance_mana_tombs", "d2/d31/a01811.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
+    [ "npc_valkyr_battle_maiden", "d5/d92/a12706.html", "d5/d92/a12706" ],
+    [ "npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI", "de/d2e/a12710.html", "de/d2e/a12710" ],
+    [ "Says_VBM", "d2/d31/a01811.html#a1e8eb132ddeee98b584395e0a134c9e4", [
+      [ "WHISPER_REVIVE", "d2/d31/a01811.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833", null ]
+    ] ],
+    [ "Spells_VBM", "d2/d31/a01811.html#a97df4b07a8686c29a9700c8d11af35e3", [
+      [ "SPELL_REVIVE", "d2/d31/a01811.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38", null ]
+    ] ],
+    [ "AddSC_the_scarlet_enclave", "d2/d31/a01811.html#a86bbb652876f394aaca15b4ed6e2bfa7", null ]
 ];

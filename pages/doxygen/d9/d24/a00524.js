@@ -1,10 +1,12 @@
 var a00524 =
 [
-    [ "Acore::has_type< T, std::tuple< Us... > >", "d0/d3d/a05482.html", null ],
-    [ "Acore::is_tuple< typename >", "dd/d2c/a05486.html", null ],
-    [ "Acore::is_tuple< std::tuple< Ts... > >", "d2/d30/a05490.html", null ],
-    [ "new_from_tuple", "d9/d24/a00524.html#aac12e702d41e9aa126f7d39f0f295252", null ],
-    [ "new_from_tuple", "d9/d24/a00524.html#a028fc93107022ad23a763503c9b0bbdb", null ],
-    [ "has_type_v", "d9/d24/a00524.html#aa4e7bc2a96e641dd1642a3c61cfc96b0", null ],
-    [ "is_tuple_v", "d9/d24/a00524.html#a4104f84ad757b701a6ffbd51f5d10b9f", null ]
+    [ "MMAP::IMMapMgr", "d5/dab/a04850.html", "d5/dab/a04850" ],
+    [ "MMAP_LOAD_RESULT", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868", [
+      [ "MMAP_LOAD_RESULT_ERROR", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
+      [ "MMAP_LOAD_RESULT_OK", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
+      [ "MMAP_LOAD_RESULT_IGNORED", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ],
+      [ "MMAP_LOAD_RESULT_ERROR", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
+      [ "MMAP_LOAD_RESULT_OK", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
+      [ "MMAP_LOAD_RESULT_IGNORED", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ]
+    ] ]
 ];

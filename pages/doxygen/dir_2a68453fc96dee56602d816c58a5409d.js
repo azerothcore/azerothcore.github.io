@@ -1,9 +1,9 @@
 var dir_2a68453fc96dee56602d816c58a5409d =
 [
-    [ "boss_nethekurse.cpp", "d1/d6b/a01775.html", "d1/d6b/a01775" ],
-    [ "boss_porung.cpp", "d9/d27/a01763.html", "d9/d27/a01763" ],
-    [ "boss_warbringer_omrogg.cpp", "d7/d6d/a01769.html", "d7/d6d/a01769" ],
-    [ "boss_warchief_kargath_bladefist.cpp", "dd/d20/a01772.html", "dd/d20/a01772" ],
-    [ "instance_shattered_halls.cpp", "d0/d79/a01766.html", "d0/d79/a01766" ],
-    [ "shattered_halls.h", "d0/d9d/a01760.html", "d0/d9d/a01760" ]
+    [ "boss_nethekurse.cpp", "d5/da3/a00953.html", "d5/da3/a00953" ],
+    [ "boss_porung.cpp", "d6/dad/a00941.html", "d6/dad/a00941" ],
+    [ "boss_warbringer_omrogg.cpp", "d9/dce/a00944.html", "d9/dce/a00944" ],
+    [ "boss_warchief_kargath_bladefist.cpp", "df/d39/a00950.html", "df/d39/a00950" ],
+    [ "instance_shattered_halls.cpp", "d3/d29/a00947.html", "d3/d29/a00947" ],
+    [ "shattered_halls.h", "d3/de5/a00956.html", "d3/de5/a00956" ]
 ];

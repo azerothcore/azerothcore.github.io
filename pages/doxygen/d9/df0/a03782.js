@@ -1,18 +1,25 @@
 var a03782 =
 [
-    [ "instance_sunwell_plateau", "d0/db6/a13206.html", "d0/db6/a13206" ],
-    [ "instance_sunwell_plateau::instance_sunwell_plateau_InstanceMapScript", "da/d69/a13210.html", "da/d69/a13210" ],
-    [ "spell_cataclysm_breath", "d2/d65/a13214.html", "d2/d65/a13214" ],
-    [ "cataclysmBreath", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901c", [
-      [ "SPELL_CORROSIVE_POISON", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca818edbfea0cf0c02ff4960dc3223a5f3", null ],
-      [ "SPELL_FEVERED_FATIGUE", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca998a1e2cfc29e3344feb12041284e222", null ],
-      [ "SPELL_HEX", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca88cd9f67c5feb7f0ba6c853b8520a00b", null ],
-      [ "SPELL_NECROTIC_POISON", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca91659ae45d576a823387ef54f56e2c4b", null ],
-      [ "SPELL_PIERCING_SHADOW", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901cadfad6c0302dc1ae7b545b95f9b85b58d", null ],
-      [ "SPELL_SHRINK", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca049e0d56c3f30d8991dde2beae302c4f", null ],
-      [ "SPELL_WAVERING_WILL", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901ca799fa97283c7b88949520a98f9f00ee8", null ],
-      [ "SPELL_WITHERED_TOUCH", "d9/df0/a03782.html#a6a5181bd462eed11e28ffb04c14a901caa34a7e07cb901fc82e3dc957d620e03b", null ]
+    [ "PlayerDump", "d2/d4b/a11146.html", "d2/d4b/a11146" ],
+    [ "PlayerDumpWriter", "d3/dfc/a11150.html", "d3/dfc/a11150" ],
+    [ "PlayerDumpReader", "df/d70/a11154.html", "df/d70/a11154" ],
+    [ "DumpReturn", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866", [
+      [ "DUMP_SUCCESS", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e", null ],
+      [ "DUMP_FILE_OPEN_ERROR", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656", null ],
+      [ "DUMP_TOO_MANY_CHARS", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d", null ],
+      [ "DUMP_FILE_BROKEN", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6", null ],
+      [ "DUMP_CHARACTER_DELETED", "d9/df0/a03782.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47", null ]
     ] ],
-    [ "AddSC_instance_sunwell_plateau", "d9/df0/a03782.html#a6f050a93b62a1391ae6321d1d2d6450a", null ],
-    [ "doorData", "d9/df0/a03782.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "DumpTableType", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7ef", [
+      [ "DTT_CHARACTER", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323", null ],
+      [ "DTT_CHAR_TABLE", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94", null ],
+      [ "DTT_EQSET_TABLE", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de", null ],
+      [ "DTT_INVENTORY", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f", null ],
+      [ "DTT_MAIL", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d", null ],
+      [ "DTT_MAIL_ITEM", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b", null ],
+      [ "DTT_ITEM", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d", null ],
+      [ "DTT_ITEM_GIFT", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847", null ],
+      [ "DTT_PET", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8", null ],
+      [ "DTT_PET_TABLE", "d9/df0/a03782.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4", null ]
+    ] ]
 ];

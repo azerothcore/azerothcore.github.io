@@ -1,4 +1,4 @@
 var a00410 =
 [
-    [ "GUARD_RETURN", "d8/d91/a00410.html#a545bfab3f5e5f49c7d68774189728da8", null ]
+    [ "Acore::String::Trim< std::string >", "d8/d91/a00410.html#a39e286b6ca47198eba4d5e31cef66aa5", null ]
 ];

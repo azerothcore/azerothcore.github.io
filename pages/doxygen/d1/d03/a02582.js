@@ -1,100 +1,42 @@
 var a02582 =
 [
-    [ "HalaaIds", "d9/d96/a22442.html", "d9/d96/a22442" ],
-    [ "OPvPCapturePointNA", "d4/d1d/a22446.html", "d4/d1d/a22446" ],
-    [ "OutdoorPvPNA", "d6/d95/a22450.html", "d6/d95/a22450" ],
-    [ "HalaaNPCS", "d1/d03/a02582.html#a3951c5b11bab0eeb9b06c1e19b25c036", null ],
-    [ "ControlGOTypes", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19", [
-      [ "NA_ROOST_S", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19afa875929ebc8b1c2db3a195ee37095ad", null ],
-      [ "NA_ROOST_W", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a237f904232faee9c60bf01b3e5d27623", null ],
-      [ "NA_ROOST_N", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19ad182fca04bd07e7f4b7a924bf476a520", null ],
-      [ "NA_ROOST_E", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19ac2360c16ea760d37dcec325a5165ec8c", null ],
-      [ "NA_BOMB_WAGON_S", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a8fe4900cb979a36257cc3ee70cfcd56e", null ],
-      [ "NA_BOMB_WAGON_W", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a7ff23be34578fcc2d55e1f088b3e00cb", null ],
-      [ "NA_BOMB_WAGON_N", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a7b1be1932fafd2586d4706e8541b85b8", null ],
-      [ "NA_BOMB_WAGON_E", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a2447af22ca220eab12dbc987125a6870", null ],
-      [ "NA_DESTROYED_ROOST_S", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a6267ce0c271fd7e77fcebb63e09b4099", null ],
-      [ "NA_DESTROYED_ROOST_W", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19ab023c62e57c5d189c91a4babd13525cf", null ],
-      [ "NA_DESTROYED_ROOST_N", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a9cbe15da02cd0024dbedf82b2c752f0f", null ],
-      [ "NA_DESTROYED_ROOST_E", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19a81fe1a37a84a9d647898f65913718e3e", null ],
-      [ "NA_CONTROL_GO_NUM", "d1/d03/a02582.html#a671e2c9be7783733226427ebd264eb19ac9ebedb94fb10e2eb33d411be0865bd7", null ]
+    [ "npc_lakota_windsong", "d6/dfd/a15438.html", "d6/dfd/a15438" ],
+    [ "npc_lakota_windsong::npc_lakota_windsongAI", "db/d8e/a15442.html", "db/d8e/a15442" ],
+    [ "npc_paoka_swiftmountain", "d3/d6a/a15446.html", "d3/d6a/a15446" ],
+    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "d4/d8a/a15450.html", "d4/d8a/a15450" ],
+    [ "npc_plucky", "df/d38/a15454.html", "df/d38/a15454" ],
+    [ "npc_plucky::npc_pluckyAI", "d5/d33/a15458.html", "d5/d33/a15458" ],
+    [ "spell_panther_cage_key", "d4/d39/a15462.html", "d4/d39/a15462" ],
+    [ "GOSSIP_P", "d1/d03/a02582.html#abe76f0bf6cd768a947537874b5a56330", null ],
+    [ "Lakota", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745", [
+      [ "SAY_LAKO_START", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745ad685ecf0f999b3b0859c272226a5b4b0", null ],
+      [ "SAY_LAKO_LOOK_OUT", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745a1b46b3b897330c62331282922a1cc28f", null ],
+      [ "SAY_LAKO_HERE_COME", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745ab3d49c68827aa5fe936a35424c8f0e6a", null ],
+      [ "SAY_LAKO_MORE", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745a2c2cac4bc7f485753ffc62ce9ac53f74", null ],
+      [ "SAY_LAKO_END", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745aec914a4c9c6b907b2f105307b224a80c", null ],
+      [ "QUEST_FREE_AT_LAST", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745aaab7b3aeba6646842a5bdadb11feed57", null ],
+      [ "NPC_GRIM_BANDIT", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745acbe7e3eadbfd99e1aefdd918f0c28923", null ],
+      [ "ID_AMBUSH_1", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745a6b351de9d4d7cf41632a688dac1d3c33", null ],
+      [ "ID_AMBUSH_2", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745af63f5bcbb697f260ed4b2b515e6c5820", null ],
+      [ "ID_AMBUSH_3", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745a104db33b08420d20a3c621920e5af607", null ]
     ] ],
-    [ "FlightSpellsNA", "d1/d03/a02582.html#a68fd902d513cc8e7bf37946f9d26a80b", [
-      [ "NA_SPELL_FLY_SOUTH", "d1/d03/a02582.html#a68fd902d513cc8e7bf37946f9d26a80ba86e4e8c951657bc667c88d574dcbdb8f", null ],
-      [ "NA_SPELL_FLY_WEST", "d1/d03/a02582.html#a68fd902d513cc8e7bf37946f9d26a80ba9a9deaeede3e488499190b425fd3bdc2", null ],
-      [ "NA_SPELL_FLY_NORTH", "d1/d03/a02582.html#a68fd902d513cc8e7bf37946f9d26a80bafd6b9390ea045f8cfa5feef209cb9be3", null ],
-      [ "NA_SPELL_FLY_EAST", "d1/d03/a02582.html#a68fd902d513cc8e7bf37946f9d26a80bab97171fab8df1e600228b3da1456452d", null ]
+    [ "Packa", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102", [
+      [ "SAY_START", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_WYVERN", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102a89b65c3f1b01d8e211937b52981ec045", null ],
+      [ "SAY_COMPLETE", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102ac31c61437b536671a4aac2cfc0a66fdd", null ],
+      [ "QUEST_HOMEWARD", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102a226fac5a4fdf03b5b8cbdb6ff533037c", null ],
+      [ "NPC_WYVERN", "d1/d03/a02582.html#aa5861ade3620d04c615fc8c237d80102a771d1fc8b6ed270a927ff5a146e4d9de", null ]
     ] ],
-    [ "HalaaCreaturesSpawn", "d1/d03/a02582.html#a394f453184d3eefd51298b772b4c789a", [
-      [ "NA_HALAA_CREATURES", "d1/d03/a02582.html#a394f453184d3eefd51298b772b4c789aa40c5b092548e0e873f1dbe1ff48a0910", null ],
-      [ "NA_HALAA_CREATURE_TEAM_SPAWN", "d1/d03/a02582.html#a394f453184d3eefd51298b772b4c789aa79500d69d3c666a75f664fa63f63de94", null ],
-      [ "NA_HALAA_MAX_CREATURE_SPAWN", "d1/d03/a02582.html#a394f453184d3eefd51298b772b4c789aa3d72e7f62a2349039b0c269f0c469553", null ]
+    [ "PantherCage", "d1/d03/a02582.html#a59d31c8fc3505146f60a3a4fcbb5b502", [
+      [ "NPC_ENRAGED_PANTHER", "d1/d03/a02582.html#a59d31c8fc3505146f60a3a4fcbb5b502a9a705dc738c579f064f3dedc010cfa84", null ],
+      [ "QUEST_HYPERCAPACITOR_GIZMO", "d1/d03/a02582.html#a59d31c8fc3505146f60a3a4fcbb5b502af086e007008db9902863c5bb28c1affe", null ]
     ] ],
-    [ "HalaaGuardsNA", "d1/d03/a02582.html#a4e91f98214fe304c148fea20beaa5fae", [
-      [ "NA_HALAANI_GUARD_A", "d1/d03/a02582.html#a4e91f98214fe304c148fea20beaa5faeaa2b1c68dc890890449426eb6d46ff6c0", null ],
-      [ "NA_HALAANI_GUARD_H", "d1/d03/a02582.html#a4e91f98214fe304c148fea20beaa5faea6486eb6f2da8e52df614e7728a1f4304", null ]
+    [ "Plucky", "d1/d03/a02582.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1", [
+      [ "QUEST_SCOOP", "d1/d03/a02582.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1a6c756d0f0363f4a2918294de15581e1b", null ],
+      [ "SPELL_PLUCKY_HUMAN", "d1/d03/a02582.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1ae828034bf4e23f2a9ab587c74aea1e47", null ],
+      [ "SPELL_PLUCKY_CHICKEN", "d1/d03/a02582.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1ae20866bf46f5f2e406792d8e5e6a5179", null ]
     ] ],
-    [ "HalaaStates", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809", [
-      [ "HALAA_N", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809a255888833d6c2bfcb48d6300e3a00e76", null ],
-      [ "HALAA_N_A", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809a5e75a8ea3c221ca8d430a5c3a059ffba", null ],
-      [ "HALAA_A", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809a7e97d445255ae31253d61c6042240799", null ],
-      [ "HALAA_N_H", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809a83d195b2954e67659ed1f1c246d2a889", null ],
-      [ "HALAA_H", "d1/d03/a02582.html#a2c40def86e302e716c09a15f01e5b809a7159ad16ee5d51946529c3cd325c6547", null ]
-    ] ],
-    [ "OutdoorPvPNASpells", "d1/d03/a02582.html#a933dca48e43f02c2e7846375e0e3a3e2", [
-      [ "NA_KILL_TOKEN_ALLIANCE", "d1/d03/a02582.html#a933dca48e43f02c2e7846375e0e3a3e2aae0070f813d277d5864226d25a571413", null ],
-      [ "NA_KILL_TOKEN_HORDE", "d1/d03/a02582.html#a933dca48e43f02c2e7846375e0e3a3e2aacbd3b5420e976421bab93b50cfa1f0c", null ],
-      [ "NA_CAPTURE_BUFF", "d1/d03/a02582.html#a933dca48e43f02c2e7846375e0e3a3e2a734083143cec178f24ecabb449f0637c", null ]
-    ] ],
-    [ "OutdoorPvPNAWorldStates", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4", [
-      [ "NA_UI_HORDE_GUARDS_SHOW", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a46b1f69332f51942a69d5cd7f67c4060", null ],
-      [ "NA_UI_ALLIANCE_GUARDS_SHOW", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a18435bb3a2f55ccca54de96446c11c76", null ],
-      [ "NA_UI_GUARDS_MAX", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a78242c0e11a3b54151abc16a62c13155", null ],
-      [ "NA_UI_GUARDS_LEFT", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a9a1ac167627348793911b3eaa4eaf53f", null ],
-      [ "NA_UI_TOWER_SLIDER_DISPLAY", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a1d92d9a19c333accc776ec42292a9d99", null ],
-      [ "NA_UI_TOWER_SLIDER_POS", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a7e18ded329932acb1fadaea0aef590f2", null ],
-      [ "NA_UI_TOWER_SLIDER_N", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a692bf9811d4e43b5cb6592603420fbd0", null ],
-      [ "NA_MAP_WYVERN_NORTH_NEU_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a4681dce2da233ead15dba6679a4d4e47", null ],
-      [ "NA_MAP_WYVERN_NORTH_NEU_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a1ab284fdfbbfc708edd83a8d89077a61", null ],
-      [ "NA_MAP_WYVERN_NORTH_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a81ff4445d826a3ccc2b9cc3c3cdd9f8c", null ],
-      [ "NA_MAP_WYVERN_NORTH_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4af1a0af9ad4fc7843beb09e7690888001", null ],
-      [ "NA_MAP_WYVERN_SOUTH_NEU_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a0c6989cca039b53419eca78e0e80f2bc", null ],
-      [ "NA_MAP_WYVERN_SOUTH_NEU_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a2f3e15db5f33aa0098e664a4fc87e60a", null ],
-      [ "NA_MAP_WYVERN_SOUTH_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4af7f9e1b3fca047093d3fb6185d0f0e68", null ],
-      [ "NA_MAP_WYVERN_SOUTH_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a647b4b194ccecc222b2f641c4922dd15", null ],
-      [ "NA_MAP_WYVERN_WEST_NEU_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4aec85f147209dedfec2dbad91ab82d069", null ],
-      [ "NA_MAP_WYVERN_WEST_NEU_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a2cd7bee50399d66b488991819345a49f", null ],
-      [ "NA_MAP_WYVERN_WEST_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a3d338e189e3e1486c9e4ea368074e0bf", null ],
-      [ "NA_MAP_WYVERN_WEST_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4abcee1ec94244ad1c50af5baae35a68cf", null ],
-      [ "NA_MAP_WYVERN_EAST_NEU_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4ad77abb574994240e2aa2e7e23c5e3ac5", null ],
-      [ "NA_MAP_WYVERN_EAST_NEU_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4ad4dff8ecf2f435b8fdfb92798a300b89", null ],
-      [ "NA_MAP_WYVERN_EAST_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a5819d09734d5965cde5ff2d0342166e6", null ],
-      [ "NA_MAP_WYVERN_EAST_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a7d32a3b4d8eee8fe173cd43385457603", null ],
-      [ "NA_MAP_HALAA_NEUTRAL", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a25f97ed867e096cf488dd3c9e3c26506", null ],
-      [ "NA_MAP_HALAA_NEU_A", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a077e9ee539e99324b160b42186e8e6e5", null ],
-      [ "NA_MAP_HALAA_NEU_H", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4ae9b05219d2e4f96b937bc4c0e4d62fa1", null ],
-      [ "NA_MAP_HALAA_HORDE", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a14610fd9aae7251bc5652691bc33dcbe", null ],
-      [ "NA_MAP_HALAA_ALLIANCE", "d1/d03/a02582.html#a9d08dd162b413a84763f631ffd350fa4a57a31768a82d5e2224ba8ad48f3b4393", null ]
-    ] ],
-    [ "WyvernStates", "d1/d03/a02582.html#a408ccf9c409baffb9c6d03f2edde557c", [
-      [ "WYVERN_NEU_HORDE", "d1/d03/a02582.html#a408ccf9c409baffb9c6d03f2edde557ca9069d119becf81d131d0212caf8c6ab5", null ],
-      [ "WYVERN_NEU_ALLIANCE", "d1/d03/a02582.html#a408ccf9c409baffb9c6d03f2edde557ca98723680d7ec1dc91030d50df4603200", null ],
-      [ "WYVERN_HORDE", "d1/d03/a02582.html#a408ccf9c409baffb9c6d03f2edde557cafdcbf2305711075969d48e3a56c2a578", null ],
-      [ "WYVERN_ALLIANCE", "d1/d03/a02582.html#a408ccf9c409baffb9c6d03f2edde557cabc4cc5f16edf95d854b436d27ce77c8e", null ]
-    ] ],
-    [ "AllianceControlGOs", "d1/d03/a02582.html#a6da5d6b9a0ecd5b15ced61c27d1c8aa4", null ],
-    [ "FLIGHT_NODES_NUM", "d1/d03/a02582.html#a767a89853ad9fbcea5e94bae963b3168", null ],
-    [ "FlightPathEndNodes", "d1/d03/a02582.html#aa4cf9c47955c274ca0bdce61e98a3a5a", null ],
-    [ "FlightPathStartNodes", "d1/d03/a02582.html#ac9bda252b1c34c9a478d3251069384b8", null ],
-    [ "HordeControlGOs", "d1/d03/a02582.html#a2ca90cdca32c0c9a0fef5ece362bb3e6", null ],
-    [ "NA_BUFF_ZONE", "d1/d03/a02582.html#ae9287f13e383331fe53c5a514989ca99", null ],
-    [ "NA_CREDIT_MARKER", "d1/d03/a02582.html#a8c04516b1462a78d64563849fe3136a1", null ],
-    [ "NA_GUARD_CHECK_TIME", "d1/d03/a02582.html#a0f69597d7fce786cae5202cb06be06cf", null ],
-    [ "NA_GUARDS_MAX", "d1/d03/a02582.html#a3fba4585a3d42e96191aa62b6938472f", null ],
-    [ "NA_HALAA_BOMB", "d1/d03/a02582.html#a793a1d2d8d6683df19de9b728d2af1de", null ],
-    [ "NA_HALAA_GRAVEYARD", "d1/d03/a02582.html#a23eddcc072a261674acb3acb48f637cb", null ],
-    [ "NA_HALAA_GRAVEYARD_ZONE", "d1/d03/a02582.html#a74f493038b14c5e7e5a00c661339278e", null ],
-    [ "NA_HALAA_ZONE_ID", "d1/d03/a02582.html#adca7c435af0a29cf2e0ed3525ec6a7df", null ],
-    [ "NA_RESPAWN_TIME", "d1/d03/a02582.html#a6fd5686dd6cf4251b3b33513928f44bd", null ],
-    [ "PatrolCreatureEntry", "d1/d03/a02582.html#aac17891901d073bcbdc4b9b919bb8f43", null ]
+    [ "AddSC_thousand_needles", "d1/d03/a02582.html#a58e024bcebfefe3b44080ac0751c36bd", null ],
+    [ "BanditLoc", "d1/d03/a02582.html#a9d831677b4e878c5a76e7bc332ba6730", null ],
+    [ "WyvernLoc", "d1/d03/a02582.html#aca7b1639e471cc34f43cd5768265d02a", null ]
 ];

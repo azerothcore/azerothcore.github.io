@@ -1,20 +1,10 @@
 var a03839 =
 [
-    [ "WEATHER_SEASONS", "db/d7c/a04669.html#ga5ee30d2da0d958800dd3ad582c49d487", null ],
-    [ "WeatherState", "db/d7c/a04669.html#ga32b7b9e733438755c99c2abd6cb8c94d", [
-      [ "WEATHER_STATE_FINE", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da5d4c47a117d36afee4195bd260951366", null ],
-      [ "WEATHER_STATE_FOG", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daf088b1890d40b05c4022d90d931e8717", null ],
-      [ "WEATHER_STATE_LIGHT_RAIN", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94dafe59189ae98629ed11fbd343da10e97d", null ],
-      [ "WEATHER_STATE_MEDIUM_RAIN", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da33ce6050f5c9a8dbbfc2556756f960c3", null ],
-      [ "WEATHER_STATE_HEAVY_RAIN", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da13bf6f46f69defe7fbea2c659e6d3873", null ],
-      [ "WEATHER_STATE_LIGHT_SNOW", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da8a760bcf8d764d8749a800905111ab05", null ],
-      [ "WEATHER_STATE_MEDIUM_SNOW", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da2a382668c4c73bc864079b0cf1602da6", null ],
-      [ "WEATHER_STATE_HEAVY_SNOW", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daaad9131eee7d0dce651a4142705871a3", null ],
-      [ "WEATHER_STATE_LIGHT_SANDSTORM", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94dabe53f9722c1f5ee37a0ce46a356402eb", null ],
-      [ "WEATHER_STATE_MEDIUM_SANDSTORM", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da35248c6d29502ee854f2a9c92a1c9204", null ],
-      [ "WEATHER_STATE_HEAVY_SANDSTORM", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da185c2513fb0f271a64db1feb5691def0", null ],
-      [ "WEATHER_STATE_THUNDERS", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da0a333865e8ae65ce8f5bb03f905dee29", null ],
-      [ "WEATHER_STATE_BLACKRAIN", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daa69a93da31c84906e5b64469cda9f27f", null ],
-      [ "WEATHER_STATE_BLACKSNOW", "db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da3aea8b6958d36e83f025fc7a489d1357", null ]
-    ] ]
+    [ "GraveyardStruct", "d1/d2e/a09610.html", "d1/d2e/a09610" ],
+    [ "GraveyardData", "d6/da7/a09614.html", "d6/da7/a09614" ],
+    [ "Graveyard", "df/dae/a09618.html", "df/dae/a09618" ],
+    [ "sGraveyard", "d9/d83/a03839.html#ac68c2a63982a6142e1931450d7b6115c", null ],
+    [ "GraveyardMapBounds", "d9/d83/a03839.html#aa5ea0c376a2e44483f8c5cb084b3b186", null ],
+    [ "GraveyardMapBoundsNonConst", "d9/d83/a03839.html#a6a551a1219fa9a26b5ed21656c2f9dd1", null ],
+    [ "WGGraveyardContainer", "d9/d83/a03839.html#a484cb47c00fe9b952853e3b04212437c", null ]
 ];

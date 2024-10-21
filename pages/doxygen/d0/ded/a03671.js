@@ -1,6 +1,6 @@
 var a03671 =
 [
-    [ "fireworkShowExodar", "d0/ded/a03671.html#a62ccee24b6a90b61a19256b66e97c1dd", null ],
-    [ "fireworkShowGameobjectExodar", "d0/ded/a03671.html#a5b7a7ca2308d23103ee3d053d6301e5c", null ],
-    [ "fireworkShowScheduleExodar", "d0/ded/a03671.html#a44290c427b72dfa245ba73b6fa1ea317", null ]
+    [ "Acore::BroadcastTextBuilder", "d4/d81/a11066.html", "d4/d81/a11066" ],
+    [ "Acore::CustomChatTextBuilder", "d0/dd9/a11070.html", "d0/dd9/a11070" ],
+    [ "Acore::AcoreStringChatBuilder", "df/d30/a11074.html", "df/d30/a11074" ]
 ];

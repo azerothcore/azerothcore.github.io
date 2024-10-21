@@ -454,7 +454,7 @@ template&lt;&gt; </div>
 <div class="line"><span class="lineno">  497</span>    {</div>
 <div class="line"><span class="lineno">  498</span>        <span class="keywordflow">if</span> (showLogs)</div>
 <div class="line"><span class="lineno">  499</span>        {</div>
-<div class="line"><span class="lineno">  500</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
+<div class="line"><span class="lineno">  500</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
 <div class="line"><span class="lineno">  501</span>                name, def ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
 <div class="line"><span class="lineno">  502</span>        }</div>
 <div class="line"><span class="lineno">  503</span> </div>
@@ -463,7 +463,7 @@ template&lt;&gt; </div>
 <div class="line"><span class="lineno">  506</span> </div>
 <div class="line"><span class="lineno">  507</span>    <span class="keywordflow">return</span> *boolVal;</div>
 <div class="line"><span class="lineno">  508</span>}</div>
-<div class="ttc" id="aa00137_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d2/df5/a00137.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
+<div class="ttc" id="aa00326_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d8/d23/a00326.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
 <div class="ttc" id="aa05034_html_a4a122373714bb95f10e6532e30735e55"><div class="ttname"><a href="../../db/d20/a05034.html#a4a122373714bb95f10e6532e30735e55">ConfigMgr::GetValueDefault</a></div><div class="ttdeci">T GetValueDefault(std::string const &amp;name, T const &amp;def, bool showLogs=true) const</div><div class="ttdef"><b>Definition:</b> Config.cpp:380</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00380">GetValueDefault()</a>, and <a class="el" href="../../#l00156">LOG_ERROR</a>.</p>
@@ -557,13 +557,13 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  385</span>    <span class="keywordtype">bool</span> fatalConfig = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  386</span>    <span class="keywordtype">bool</span> notFound = itr == <a class="code hl_variable" href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end();</div>
 <div class="line"><span class="lineno">  387</span>    <span class="keyword">auto</span> envVarName = <a class="code hl_function" href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">GetEnvVarName</a>(name);</div>
-<div class="line"><span class="lineno">  388</span>    <a class="code hl_typedef" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
+<div class="line"><span class="lineno">  388</span>    <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
 <div class="line"><span class="lineno">  389</span>    <span class="keywordflow">if</span> (envVar)</div>
 <div class="line"><span class="lineno">  390</span>    {</div>
 <div class="line"><span class="lineno">  391</span>        <span class="comment">// If showLogs and this key/value pair wasn&#39;t found in the currently saved config</span></div>
 <div class="line"><span class="lineno">  392</span>        <span class="keywordflow">if</span> (showLogs &amp;&amp; (notFound || itr-&gt;second != envVar-&gt;c_str()))</div>
 <div class="line"><span class="lineno">  393</span>        {</div>
-<div class="line"><span class="lineno">  394</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName );</div>
+<div class="line"><span class="lineno">  394</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName );</div>
 <div class="line"><span class="lineno">  395</span>            <a class="code hl_function" href="../../d9/db6/a04683.html#ab573c6a7facb635d7c4787e5b6f346fa">AddKey</a>(name, envVar-&gt;c_str(), <span class="stringliteral">&quot;ENVIRONMENT&quot;</span>, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">  396</span>        }</div>
 <div class="line"><span class="lineno">  397</span> </div>
@@ -581,10 +581,10 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  409</span>                }</div>
 <div class="line"><span class="lineno">  410</span> </div>
 <div class="line"><span class="lineno">  411</span>            <span class="keywordflow">if</span> (fatalConfig)</div>
-<div class="line"><span class="lineno">  412</span>                <a class="code hl_define" href="../../d2/df5/a00137.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable\n\nYour server cannot start without this option!&quot;</span>,</div>
+<div class="line"><span class="lineno">  412</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable\n\nYour server cannot start without this option!&quot;</span>,</div>
 <div class="line"><span class="lineno">  413</span>                    name, _filename, name, <a class="code hl_function" href="../../d7/de4/a04674.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def), envVarName);</div>
 <div class="line"><span class="lineno">  414</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  415</span>                <a class="code hl_define" href="../../d2/df5/a00137.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
+<div class="line"><span class="lineno">  415</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
 <div class="line"><span class="lineno">  416</span>                    name, _filename, name, <a class="code hl_function" href="../../d7/de4/a04674.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def), envVarName);</div>
 <div class="line"><span class="lineno">  417</span>        }</div>
 <div class="line"><span class="lineno">  418</span>        <span class="keywordflow">return</span> def;</div>
@@ -599,7 +599,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  427</span>    {</div>
 <div class="line"><span class="lineno">  428</span>        <span class="keywordflow">if</span> (showLogs)</div>
 <div class="line"><span class="lineno">  429</span>        {</div>
-<div class="line"><span class="lineno">  430</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
+<div class="line"><span class="lineno">  430</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
 <div class="line"><span class="lineno">  431</span>                name, <a class="code hl_function" href="../../d7/de4/a04674.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def));</div>
 <div class="line"><span class="lineno">  432</span>        }</div>
 <div class="line"><span class="lineno">  433</span> </div>
@@ -608,10 +608,10 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  436</span> </div>
 <div class="line"><span class="lineno">  437</span>    <span class="keywordflow">return</span> *value;</div>
 <div class="line"><span class="lineno">  438</span>}</div>
-<div class="ttc" id="aa00137_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d2/df5/a00137.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:152</div></div>
-<div class="ttc" id="aa00137_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
-<div class="ttc" id="aa00137_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d2/df5/a00137.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
-<div class="ttc" id="aa00482_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
+<div class="ttc" id="aa00326_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:152</div></div>
+<div class="ttc" id="aa00326_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
+<div class="ttc" id="aa00326_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
+<div class="ttc" id="aa00380_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
 <div class="ttc" id="aa04674_html_ac2cb308fb001c35fbaa90489ea6cf478"><div class="ttname"><a href="../../d7/de4/a04674.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a></div><div class="ttdeci">std::string ToString(Type &amp;&amp;val, Params &amp;&amp;... params)</div><div class="ttdef"><b>Definition:</b> StringConvert.h:250</div></div>
 <div class="ttc" id="aa04683_html_a037f48efd9ff4f980901dc23f9062cfe"><div class="ttname"><a href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a></div><div class="ttdeci">std::string GetEnvVarName(std::string const &amp;configName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:281</div></div>
 <div class="ttc" id="aa04683_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:34</div></div>
@@ -848,8 +848,8 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  582</span> </div>
 <div class="line"><span class="lineno">  583</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
 <div class="line"><span class="lineno">  584</span>    {</div>
-<div class="line"><span class="lineno">  585</span>        <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  586</span>        <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Modules Configuration...&quot;</span>);</div>
+<div class="line"><span class="lineno">  585</span>        <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  586</span>        <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Modules Configuration...&quot;</span>);</div>
 <div class="line"><span class="lineno">  587</span>    }</div>
 <div class="line"><span class="lineno">  588</span> </div>
 <div class="line"><span class="lineno">  589</span>    <span class="comment">// Start loading module configs</span></div>
@@ -871,8 +871,8 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  605</span> </div>
 <div class="line"><span class="lineno">  606</span>        <span class="keywordflow">if</span> (!isReload &amp;&amp; !isExistDistConfig)</div>
 <div class="line"><span class="lineno">  607</span>        {</div>
-<div class="line"><span class="lineno">  608</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; ConfigMgr::LoadModulesConfigs: Not found original config &#39;{}&#39;. Stop loading&quot;</span>, distFileName);</div>
-<div class="line"><span class="lineno">  609</span>            <a class="code hl_define" href="../../df/d70/a00431.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno">  608</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; ConfigMgr::LoadModulesConfigs: Not found original config &#39;{}&#39;. Stop loading&quot;</span>, distFileName);</div>
+<div class="line"><span class="lineno">  609</span>            <a class="code hl_define" href="../../d6/d1a/a00485.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
 <div class="line"><span class="lineno">  610</span>        }</div>
 <div class="line"><span class="lineno">  611</span> </div>
 <div class="line"><span class="lineno">  612</span>        <span class="comment">// Load .conf config</span></div>
@@ -893,28 +893,28 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  627</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/d20/a05034.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.empty())</div>
 <div class="line"><span class="lineno">  628</span>        {</div>
 <div class="line"><span class="lineno">  629</span>            <span class="comment">// Print modules configurations</span></div>
-<div class="line"><span class="lineno">  630</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  631</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Using modules configuration:&quot;</span>);</div>
+<div class="line"><span class="lineno">  630</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  631</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Using modules configuration:&quot;</span>);</div>
 <div class="line"><span class="lineno">  632</span> </div>
 <div class="line"><span class="lineno">  633</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_variable" href="../../db/d20/a05034.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>)</div>
 <div class="line"><span class="lineno">  634</span>            {</div>
-<div class="line"><span class="lineno">  635</span>                <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; {}&quot;</span>, itr);</div>
+<div class="line"><span class="lineno">  635</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; {}&quot;</span>, itr);</div>
 <div class="line"><span class="lineno">  636</span>            }</div>
 <div class="line"><span class="lineno">  637</span>        }</div>
 <div class="line"><span class="lineno">  638</span>        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  639</span>        {</div>
-<div class="line"><span class="lineno">  640</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Not found modules config files&quot;</span>);</div>
+<div class="line"><span class="lineno">  640</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Not found modules config files&quot;</span>);</div>
 <div class="line"><span class="lineno">  641</span>        }</div>
 <div class="line"><span class="lineno">  642</span>    }</div>
 <div class="line"><span class="lineno">  643</span> </div>
 <div class="line"><span class="lineno">  644</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
 <div class="line"><span class="lineno">  645</span>    {</div>
-<div class="line"><span class="lineno">  646</span>        <a class="code hl_define" href="../../d2/df5/a00137.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  646</span>        <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
 <div class="line"><span class="lineno">  647</span>    }</div>
 <div class="line"><span class="lineno">  648</span> </div>
 <div class="line"><span class="lineno">  649</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  650</span>}</div>
-<div class="ttc" id="aa00431_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../df/d70/a00431.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+<div class="ttc" id="aa00485_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../d6/d1a/a00485.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
 <div class="ttc" id="aa05034_html_a104bef8d83f8c3b643f7538ac7bf5c30"><div class="ttname"><a href="../../db/d20/a05034.html#a104bef8d83f8c3b643f7538ac7bf5c30">ConfigMgr::GetConfigPath</a></div><div class="ttdeci">std::string const GetConfigPath()</div><div class="ttdef"><b>Definition:</b> Config.cpp:538</div></div>
 <div class="ttc" id="aa05034_html_a58c320a6a1cf51bbeb51b90f0e4f2a71"><div class="ttname"><a href="../../db/d20/a05034.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">ConfigMgr::LoadAdditionalFile</a></div><div class="ttdeci">bool LoadAdditionalFile(std::string file, bool isOptional=false, bool isReload=false)</div><div class="ttdef"><b>Definition:</b> Config.cpp:304</div></div>
 <div class="ttc" id="aa05034_html_aa5a8c891e53c6d76cf63d0a40fd799e1"><div class="ttname"><a href="../../db/d20/a05034.html#aa5a8c891e53c6d76cf63d0a40fd799e1">ConfigMgr::_moduleConfigFiles</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _moduleConfigFiles</div><div class="ttdef"><b>Definition:</b> Config.h:65</div></div>
@@ -977,7 +977,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  364</span>        <span class="keywordflow">if</span> (itr.first.empty())</div>
 <div class="line"><span class="lineno">  365</span>            <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">  366</span> </div>
-<div class="line"><span class="lineno">  367</span>        <a class="code hl_typedef" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(itr.first);</div>
+<div class="line"><span class="lineno">  367</span>        <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(itr.first);</div>
 <div class="line"><span class="lineno">  368</span>        <span class="keywordflow">if</span> (!envVar)</div>
 <div class="line"><span class="lineno">  369</span>            <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">  370</span> </div>
@@ -1115,7 +1115,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d20/a05034.html">ConfigMgr</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:41:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:40:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

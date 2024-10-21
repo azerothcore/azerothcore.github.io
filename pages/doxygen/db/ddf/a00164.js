@@ -1,6 +1,6 @@
 var a00164 =
 [
-    [ "VMAP::LocationInfo", "d5/de6/a04910.html", "d5/de6/a04910" ],
-    [ "VMAP::StaticMapTree", "df/df6/a04914.html", "df/df6/a04914" ],
-    [ "VMAP::AreaInfo", "d6/d54/a04918.html", "d6/d54/a04918" ]
+    [ "IpLocationRecord", "d5/d9b/a05222.html", "d5/d9b/a05222" ],
+    [ "IpLocationStore", "d6/d11/a05226.html", "d6/d11/a05226" ],
+    [ "sIPLocation", "db/ddf/a00164.html#a85e62bd98f395189fea9c9514d44fc31", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/TradeHandler.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/shared/DataStores/DBCStructure.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,39 +105,907 @@ $(document).ready(function(){initNavTree('d8/d7c/a04601.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">TradeHandler.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">DBCStructure.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCEnums.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a63b255ea813e0ea4f109492ed7f0213c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a63b255ea813e0ea4f109492ed7f0213c">setAcceptTradeMode</a> (<a class="el" href="../../d9/d86/a08398.html">TradeData</a> *myTrade, <a class="el" href="../../d9/d86/a08398.html">TradeData</a> *hisTrade, <a class="el" href="../../dc/d37/a08078.html">Item</a> **myItems, <a class="el" href="../../dc/d37/a08078.html">Item</a> **hisItems)</td></tr>
-<tr class="separator:a63b255ea813e0ea4f109492ed7f0213c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5fc6374a945ebbe9b397c1e115e952"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a7b5fc6374a945ebbe9b397c1e115e952">clearAcceptTradeMode</a> (<a class="el" href="../../d9/d86/a08398.html">TradeData</a> *myTrade, <a class="el" href="../../d9/d86/a08398.html">TradeData</a> *hisTrade)</td></tr>
-<tr class="separator:a7b5fc6374a945ebbe9b397c1e115e952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab516bffb39dfd3d3133b1d3a515c9fb1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ab516bffb39dfd3d3133b1d3a515c9fb1">clearAcceptTradeMode</a> (<a class="el" href="../../dc/d37/a08078.html">Item</a> **myItems, <a class="el" href="../../dc/d37/a08078.html">Item</a> **hisItems)</td></tr>
-<tr class="separator:ab516bffb39dfd3d3133b1d3a515c9fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcf/a27590.html">AchievementEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dad/a27594.html">AchievementCategoryEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dde/a27598.html">AchievementCriteriaEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7b/a27858.html">AreaTableEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6c/a27862.html">AreaGroupEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d23/a27866.html">AreaPOIEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d22/a27870.html">AuctionHouseEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8a/a27874.html">BankBagSlotPricesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df2/a27878.html">BarberShopStyleEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d42/a27882.html">BattlemasterListEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d27/a27886.html">CharStartOutfitEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dae/a27890.html">CharTitlesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc2/a27894.html">ChatChannelsEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0c/a27898.html">ChrClassesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc9/a27902.html">ChrRacesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbb/a27906.html">CinematicCameraEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1f/a27910.html">CinematicSequencesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/a27914.html">CreatureDisplayInfoEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0b/a27918.html">CreatureDisplayInfoExtraEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d78/a27922.html">CreatureFamilyEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df5/a27926.html">CreatureModelDataEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcf/a27930.html">CreatureSpellDataEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d30/a27934.html">CreatureTypeEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2c/a27938.html">CurrencyTypesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d03/a27942.html">DestructibleModelDataEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db5/a27946.html">DungeonEncounterEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d04/a27950.html">DurabilityCostsEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dad/a27954.html">DurabilityQualityEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/a27958.html">EmotesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db1/a27962.html">EmotesTextEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de1/a27966.html">FactionEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d61/a27970.html">FactionTemplateEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d29/a27974.html">GameObjectArtKitEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d91/a27978.html">GameObjectDisplayInfoEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2c/a27982.html">GemPropertiesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db7/a27986.html">GlyphPropertiesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/a27990.html">GlyphSlotEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0a/a27994.html">GtBarberShopCostBaseEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d80/a27998.html">GtCombatRatingsEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da7/a28002.html">GtChanceToMeleeCritBaseEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a28006.html">GtChanceToMeleeCritEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/a28010.html">GtChanceToSpellCritBaseEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d14/a28014.html">GtNPCManaCostScalerEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5d/a28018.html">GtChanceToSpellCritEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a28022.html">GtOCTClassCombatRatingScalarEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a28026.html">GtOCTRegenHPEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d28/a28030.html">GtRegenHPPerSptEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d83/a28034.html">GtRegenMPPerSptEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html">HolidaysEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/a28042.html">ItemEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/a28046.html">ItemBagFamilyEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/a28050.html">ItemDisplayInfoEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a28054.html">ItemExtendedCostEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d36/a28058.html">ItemLimitCategoryEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d65/a28062.html">ItemRandomPropertiesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a28066.html">ItemRandomSuffixEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/a28070.html">ItemSetEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d09/a28074.html">LFGDungeonEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d50/a28078.html">LightEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d35/a28082.html">LiquidTypeEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d48/a28086.html">LockEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d77/a28090.html">MailTemplateEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2c/a28094.html">MapEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5d/a28098.html">MapDifficultyEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/a28102.html">MovieEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd2/a28106.html">NamesReservedEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de9/a28110.html">NamesProfanityEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3f/a28114.html">OverrideSpellDataEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/a28118.html">PowerDisplayEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d40/a28122.html">PvPDifficultyEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d28/a28126.html">QuestSortEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da8/a28130.html">QuestXPEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db7/a28134.html">QuestFactionRewEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df2/a28138.html">RandomPropertiesPointsEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcc/a28142.html">ScalingStatDistributionEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/deb/a28146.html">ScalingStatValuesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2c/a28150.html">SkillRaceClassInfoEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d08/a28154.html">SkillLineEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/def/a28158.html">SkillLineAbilityEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/a28162.html">SkillTiersEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d24/a28166.html">SoundEntriesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4e/a28170.html">SpellEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a28174.html">SpellCastTimesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/a28178.html">SpellCategoryEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dce/a28182.html">SpellDifficultyEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d90/a28186.html">SpellFocusObjectEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/a28190.html">SpellRadiusEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a28194.html">SpellRangeEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d04/a28198.html">SpellRuneCostEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a28202.html">SpellShapeshiftFormEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d31/a28206.html">SpellDurationEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df0/a28210.html">SpellItemEnchantmentEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a28214.html">SpellItemEnchantmentConditionEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d91/a28218.html">SpellVisualEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/a28222.html">StableSlotPricesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html">SummonPropertiesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a28230.html">TalentEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/a28234.html">TalentTabEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a28238.html">TaxiNodesEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d79/a28242.html">TaxiPathEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a28246.html">TaxiPathNodeEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daa/a28250.html">TeamContributionPointsEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de2/a28254.html">TotemCategoryEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcc/a28258.html">TransportAnimationEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4a/a28262.html">TransportRotationEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d03/a28266.html">VehicleEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/a28270.html">VehicleSeatEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/a28274.html">WMOAreaTableEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d6c/a28278.html">WorldMapAreaEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/a28282.html">WorldMapOverlayEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d37/a28286.html">MapDifficulty</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d89/a28290.html">TalentSpellPos</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ab8e8a384bd12e49b286a3ee30ff11ff7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ab8e8a384bd12e49b286a3ee30ff11ff7">MAX_GROUP_AREA_IDS</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ab8e8a384bd12e49b286a3ee30ff11ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade532186d3fab018819b9718af66b6f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ade532186d3fab018819b9718af66b6f8">MAX_OUTFIT_ITEMS</a>&#160;&#160;&#160;24</td></tr>
+<tr class="separator:ade532186d3fab018819b9718af66b6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f97addb2541cd13960d71b99ac4f9c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a84f97addb2541cd13960d71b99ac4f9c">MAX_CREATURE_SPELL_DATA_SLOT</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a84f97addb2541cd13960d71b99ac4f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba26b8226744809f550efa818f10b186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#aba26b8226744809f550efa818f10b186">MAX_FACTION_RELATIONS</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:aba26b8226744809f550efa818f10b186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f11f6829a2ed728bfc49ad3b2f932ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a7f11f6829a2ed728bfc49ad3b2f932ca">GT_MAX_LEVEL</a>&#160;&#160;&#160;100</td></tr>
+<tr class="separator:a7f11f6829a2ed728bfc49ad3b2f932ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99aa40e9a3a154a942515839010d79ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a99aa40e9a3a154a942515839010d79ff">GT_MAX_RATING</a>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:a99aa40e9a3a154a942515839010d79ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4bf557cbdd070d5483ea758ef1ef0f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ae4bf557cbdd070d5483ea758ef1ef0f2">MAX_HOLIDAY_DURATIONS</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ae4bf557cbdd070d5483ea758ef1ef0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9554dfb95ff901f440f4166cf1d04ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ae9554dfb95ff901f440f4166cf1d04ab">MAX_HOLIDAY_DATES</a>&#160;&#160;&#160;26</td></tr>
+<tr class="separator:ae9554dfb95ff901f440f4166cf1d04ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24517e5894a4a3cd7203781ea7e6304"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ac24517e5894a4a3cd7203781ea7e6304">MAX_HOLIDAY_FLAGS</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ac24517e5894a4a3cd7203781ea7e6304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40412d1e32e215a5270cf717434ae108"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a40412d1e32e215a5270cf717434ae108">MAX_ITEM_EXTENDED_COST_REQUIREMENTS</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a40412d1e32e215a5270cf717434ae108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d8d6c7748de71fbd87ae5d02985404"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#af0d8d6c7748de71fbd87ae5d02985404">MAX_ITEM_ENCHANTMENT_EFFECTS</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:af0d8d6c7748de71fbd87ae5d02985404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7efd6aeed170ce6a86c16bd1fa48518d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a7efd6aeed170ce6a86c16bd1fa48518d">MAX_ITEM_SET_ITEMS</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a7efd6aeed170ce6a86c16bd1fa48518d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d93d74d9cdf834a33735836824866e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a1d93d74d9cdf834a33735836824866e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebc07de85011e32e1cb7a2f1637f092"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a1ebc07de85011e32e1cb7a2f1637f092">MAX_LOCK_CASE</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a1ebc07de85011e32e1cb7a2f1637f092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ab857719ce6437c52aee4b87c639f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#af5ab857719ce6437c52aee4b87c639f3">MAX_OVERRIDE_SPELL</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:af5ab857719ce6437c52aee4b87c639f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae298a04d2c0b52f390ffb06d804ca9e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ae298a04d2c0b52f390ffb06d804ca9e9">MAX_SKILL_STEP</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:ae298a04d2c0b52f390ffb06d804ca9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5733f5b58bf8a23a1919a005b5ec895"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ac5733f5b58bf8a23a1919a005b5ec895">MAX_SPELL_EFFECTS</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ac5733f5b58bf8a23a1919a005b5ec895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac65d8635b4379f0d5b75a0e2dfd9c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a3ac65d8635b4379f0d5b75a0e2dfd9c8">MAX_EFFECT_MASK</a>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:a3ac65d8635b4379f0d5b75a0e2dfd9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfd9b5e0adb5c5e3ebf3173f80fbcce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a7dfd9b5e0adb5c5e3ebf3173f80fbcce">MAX_SPELL_REAGENTS</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a7dfd9b5e0adb5c5e3ebf3173f80fbcce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0b93bba896da1bb3ecaac8d847ee2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a8c0b93bba896da1bb3ecaac8d847ee2d">MAX_SHAPESHIFT_SPELLS</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a8c0b93bba896da1bb3ecaac8d847ee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66cd5828c451f68f55f1b054c29a8fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ab66cd5828c451f68f55f1b054c29a8fc">MAX_SPELL_ITEM_ENCHANTMENT_EFFECTS</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ab66cd5828c451f68f55f1b054c29a8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6d5cac52d7a437e341e9f6ebc21a21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a8d6d5cac52d7a437e341e9f6ebc21a21">MAX_TALENT_RANK</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a8d6d5cac52d7a437e341e9f6ebc21a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ed02c281ef8b03f0092b73e6b99e33"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a98ed02c281ef8b03f0092b73e6b99e33">MAX_PET_TALENT_RANK</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a98ed02c281ef8b03f0092b73e6b99e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f3ed43957e7cda0874bdf343b03d4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a22f3ed43957e7cda0874bdf343b03d4b">MAX_TALENT_TABS</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a22f3ed43957e7cda0874bdf343b03d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5925e58fbd29a3a77ff05ab092fa1f77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a5925e58fbd29a3a77ff05ab092fa1f77">MAX_VEHICLE_SEATS</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a5925e58fbd29a3a77ff05ab092fa1f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b34f321cc6fb7b11aac46ef9b08897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#aa7b34f321cc6fb7b11aac46ef9b08897">MAX_WORLD_MAP_OVERLAY_AREA_IDX</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:aa7b34f321cc6fb7b11aac46ef9b08897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:abec1611f7460fe442eeb44ec9c6e0338"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; std::pair&lt; bool, <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#abec1611f7460fe442eeb44ec9c6e0338">SpellCategorySet</a></td></tr>
+<tr class="separator:abec1611f7460fe442eeb44ec9c6e0338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec458115a1262f91caf58114ea781708"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#abec1611f7460fe442eeb44ec9c6e0338">SpellCategorySet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#aec458115a1262f91caf58114ea781708">SpellCategoryStore</a></td></tr>
+<tr class="separator:aec458115a1262f91caf58114ea781708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad93484e8f4ff5cbe27a41c4822b0c232"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#ad93484e8f4ff5cbe27a41c4822b0c232">PetFamilySpellsSet</a></td></tr>
+<tr class="separator:ad93484e8f4ff5cbe27a41c4822b0c232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e08729fa68ec0715f2af029e8a0d1d8"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#ad93484e8f4ff5cbe27a41c4822b0c232">PetFamilySpellsSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a0e08729fa68ec0715f2af029e8a0d1d8">PetFamilySpellsStore</a></td></tr>
+<tr class="separator:a0e08729fa68ec0715f2af029e8a0d1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec54003aaeeffeda4e99f6e9c019a29f"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../da/d89/a28290.html">TalentSpellPos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#aec54003aaeeffeda4e99f6e9c019a29f">TalentSpellPosMap</a></td></tr>
+<tr class="separator:aec54003aaeeffeda4e99f6e9c019a29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a7676e14471f288073e4d2ce5fb580"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/d79/a28242.html">TaxiPathEntry</a> const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a96a7676e14471f288073e4d2ce5fb580">TaxiPathSetForSource</a></td></tr>
+<tr class="separator:a96a7676e14471f288073e4d2ce5fb580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9b837c2c4d75978949b5718741443a"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#a96a7676e14471f288073e4d2ce5fb580">TaxiPathSetForSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a8d9b837c2c4d75978949b5718741443a">TaxiPathSetBySource</a></td></tr>
+<tr class="separator:a8d9b837c2c4d75978949b5718741443a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696428ce320a7e4dd796c85fbf98b7f2"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dc/d64/a28246.html">TaxiPathNodeEntry</a> const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a></td></tr>
+<tr class="separator:a696428ce320a7e4dd796c85fbf98b7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9bd32b40fdd19846034d6430c681cb"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d8/d7c/a04601.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a0a9bd32b40fdd19846034d6430c681cb">TaxiPathNodesByPath</a></td></tr>
+<tr class="separator:a0a9bd32b40fdd19846034d6430c681cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415cc3633225b2cfe241a12bce9aeb9b"><td class="memItemLeft" align="right" valign="top">typedef std::array&lt; <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#af55b7730b9b6bf94de4604ce96e812c0">TaxiMaskSize</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a415cc3633225b2cfe241a12bce9aeb9b">TaxiMask</a></td></tr>
+<tr class="separator:a415cc3633225b2cfe241a12bce9aeb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a86846f30ebbb1a9ce21222e1a3e26494"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494">ChrRacesFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c">CHRRACES_FLAGS_NOT_PLAYABLE</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d">CHRRACES_FLAGS_BARE_FEET</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b">CHRRACES_FLAGS_CAN_MOUNT</a> = 0x04
+<br />
+ }</td></tr>
+<tr class="separator:a86846f30ebbb1a9ce21222e1a3e26494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94648e677bb402393465ccb4b0f96f20"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#a94648e677bb402393465ccb4b0f96f20">CreatureModelDataFlags</a> { <a class="el" href="../../d8/d7c/a04601.html#a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900">CREATURE_MODEL_DATA_FLAGS_CAN_MOUNT</a> = 0x00000080
+ }</td></tr>
+<tr class="separator:a94648e677bb402393465ccb4b0f96f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af55b7730b9b6bf94de4604ce96e812c0"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7c/a04601.html#af55b7730b9b6bf94de4604ce96e812c0">TaxiMaskSize</a> = 14</td></tr>
+<tr class="separator:af55b7730b9b6bf94de4604ce96e812c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ab516bffb39dfd3d3133b1d3a515c9fb1" name="ab516bffb39dfd3d3133b1d3a515c9fb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab516bffb39dfd3d3133b1d3a515c9fb1">&#9670;&#160;</a></span>clearAcceptTradeMode() <span class="overload">[1/2]</span></h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7f11f6829a2ed728bfc49ad3b2f932ca" name="a7f11f6829a2ed728bfc49ad3b2f932ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f11f6829a2ed728bfc49ad3b2f932ca">&#9670;&#160;</a></span>GT_MAX_LEVEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GT_MAX_LEVEL&#160;&#160;&#160;100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99aa40e9a3a154a942515839010d79ff" name="a99aa40e9a3a154a942515839010d79ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99aa40e9a3a154a942515839010d79ff">&#9670;&#160;</a></span>GT_MAX_RATING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GT_MAX_RATING&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84f97addb2541cd13960d71b99ac4f9c" name="a84f97addb2541cd13960d71b99ac4f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f97addb2541cd13960d71b99ac4f9c">&#9670;&#160;</a></span>MAX_CREATURE_SPELL_DATA_SLOT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_CREATURE_SPELL_DATA_SLOT&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ac65d8635b4379f0d5b75a0e2dfd9c8" name="a3ac65d8635b4379f0d5b75a0e2dfd9c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ac65d8635b4379f0d5b75a0e2dfd9c8">&#9670;&#160;</a></span>MAX_EFFECT_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_EFFECT_MASK&#160;&#160;&#160;7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba26b8226744809f550efa818f10b186" name="aba26b8226744809f550efa818f10b186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba26b8226744809f550efa818f10b186">&#9670;&#160;</a></span>MAX_FACTION_RELATIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_FACTION_RELATIONS&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8e8a384bd12e49b286a3ee30ff11ff7" name="ab8e8a384bd12e49b286a3ee30ff11ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e8a384bd12e49b286a3ee30ff11ff7">&#9670;&#160;</a></span>MAX_GROUP_AREA_IDS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_GROUP_AREA_IDS&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9554dfb95ff901f440f4166cf1d04ab" name="ae9554dfb95ff901f440f4166cf1d04ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9554dfb95ff901f440f4166cf1d04ab">&#9670;&#160;</a></span>MAX_HOLIDAY_DATES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_HOLIDAY_DATES&#160;&#160;&#160;26</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4bf557cbdd070d5483ea758ef1ef0f2" name="ae4bf557cbdd070d5483ea758ef1ef0f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4bf557cbdd070d5483ea758ef1ef0f2">&#9670;&#160;</a></span>MAX_HOLIDAY_DURATIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_HOLIDAY_DURATIONS&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac24517e5894a4a3cd7203781ea7e6304" name="ac24517e5894a4a3cd7203781ea7e6304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24517e5894a4a3cd7203781ea7e6304">&#9670;&#160;</a></span>MAX_HOLIDAY_FLAGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_HOLIDAY_FLAGS&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0d8d6c7748de71fbd87ae5d02985404" name="af0d8d6c7748de71fbd87ae5d02985404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d8d6c7748de71fbd87ae5d02985404">&#9670;&#160;</a></span>MAX_ITEM_ENCHANTMENT_EFFECTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_ITEM_ENCHANTMENT_EFFECTS&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40412d1e32e215a5270cf717434ae108" name="a40412d1e32e215a5270cf717434ae108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40412d1e32e215a5270cf717434ae108">&#9670;&#160;</a></span>MAX_ITEM_EXTENDED_COST_REQUIREMENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_ITEM_EXTENDED_COST_REQUIREMENTS&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7efd6aeed170ce6a86c16bd1fa48518d" name="a7efd6aeed170ce6a86c16bd1fa48518d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7efd6aeed170ce6a86c16bd1fa48518d">&#9670;&#160;</a></span>MAX_ITEM_SET_ITEMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_ITEM_SET_ITEMS&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d93d74d9cdf834a33735836824866e2" name="a1d93d74d9cdf834a33735836824866e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d93d74d9cdf834a33735836824866e2">&#9670;&#160;</a></span>MAX_ITEM_SET_SPELLS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_ITEM_SET_SPELLS&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ebc07de85011e32e1cb7a2f1637f092" name="a1ebc07de85011e32e1cb7a2f1637f092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebc07de85011e32e1cb7a2f1637f092">&#9670;&#160;</a></span>MAX_LOCK_CASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_LOCK_CASE&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade532186d3fab018819b9718af66b6f8" name="ade532186d3fab018819b9718af66b6f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade532186d3fab018819b9718af66b6f8">&#9670;&#160;</a></span>MAX_OUTFIT_ITEMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_OUTFIT_ITEMS&#160;&#160;&#160;24</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5ab857719ce6437c52aee4b87c639f3" name="af5ab857719ce6437c52aee4b87c639f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ab857719ce6437c52aee4b87c639f3">&#9670;&#160;</a></span>MAX_OVERRIDE_SPELL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_OVERRIDE_SPELL&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98ed02c281ef8b03f0092b73e6b99e33" name="a98ed02c281ef8b03f0092b73e6b99e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ed02c281ef8b03f0092b73e6b99e33">&#9670;&#160;</a></span>MAX_PET_TALENT_RANK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_PET_TALENT_RANK&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c0b93bba896da1bb3ecaac8d847ee2d" name="a8c0b93bba896da1bb3ecaac8d847ee2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0b93bba896da1bb3ecaac8d847ee2d">&#9670;&#160;</a></span>MAX_SHAPESHIFT_SPELLS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_SHAPESHIFT_SPELLS&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae298a04d2c0b52f390ffb06d804ca9e9" name="ae298a04d2c0b52f390ffb06d804ca9e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae298a04d2c0b52f390ffb06d804ca9e9">&#9670;&#160;</a></span>MAX_SKILL_STEP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_SKILL_STEP&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5733f5b58bf8a23a1919a005b5ec895" name="ac5733f5b58bf8a23a1919a005b5ec895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5733f5b58bf8a23a1919a005b5ec895">&#9670;&#160;</a></span>MAX_SPELL_EFFECTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_SPELL_EFFECTS&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab66cd5828c451f68f55f1b054c29a8fc" name="ab66cd5828c451f68f55f1b054c29a8fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66cd5828c451f68f55f1b054c29a8fc">&#9670;&#160;</a></span>MAX_SPELL_ITEM_ENCHANTMENT_EFFECTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_SPELL_ITEM_ENCHANTMENT_EFFECTS&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7dfd9b5e0adb5c5e3ebf3173f80fbcce" name="a7dfd9b5e0adb5c5e3ebf3173f80fbcce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dfd9b5e0adb5c5e3ebf3173f80fbcce">&#9670;&#160;</a></span>MAX_SPELL_REAGENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_SPELL_REAGENTS&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d6d5cac52d7a437e341e9f6ebc21a21" name="a8d6d5cac52d7a437e341e9f6ebc21a21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6d5cac52d7a437e341e9f6ebc21a21">&#9670;&#160;</a></span>MAX_TALENT_RANK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_TALENT_RANK&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22f3ed43957e7cda0874bdf343b03d4b" name="a22f3ed43957e7cda0874bdf343b03d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f3ed43957e7cda0874bdf343b03d4b">&#9670;&#160;</a></span>MAX_TALENT_TABS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_TALENT_TABS&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5925e58fbd29a3a77ff05ab092fa1f77" name="a5925e58fbd29a3a77ff05ab092fa1f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5925e58fbd29a3a77ff05ab092fa1f77">&#9670;&#160;</a></span>MAX_VEHICLE_SEATS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_VEHICLE_SEATS&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7b34f321cc6fb7b11aac46ef9b08897" name="aa7b34f321cc6fb7b11aac46ef9b08897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7b34f321cc6fb7b11aac46ef9b08897">&#9670;&#160;</a></span>MAX_WORLD_MAP_OVERLAY_AREA_IDX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_WORLD_MAP_OVERLAY_AREA_IDX&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ad93484e8f4ff5cbe27a41c4822b0c232" name="ad93484e8f4ff5cbe27a41c4822b0c232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93484e8f4ff5cbe27a41c4822b0c232">&#9670;&#160;</a></span>PetFamilySpellsSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#ad93484e8f4ff5cbe27a41c4822b0c232">PetFamilySpellsSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e08729fa68ec0715f2af029e8a0d1d8" name="a0e08729fa68ec0715f2af029e8a0d1d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e08729fa68ec0715f2af029e8a0d1d8">&#9670;&#160;</a></span>PetFamilySpellsStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#ad93484e8f4ff5cbe27a41c4822b0c232">PetFamilySpellsSet</a> &gt; <a class="el" href="../../d8/d7c/a04601.html#a0e08729fa68ec0715f2af029e8a0d1d8">PetFamilySpellsStore</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abec1611f7460fe442eeb44ec9c6e0338" name="abec1611f7460fe442eeb44ec9c6e0338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec1611f7460fe442eeb44ec9c6e0338">&#9670;&#160;</a></span>SpellCategorySet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;std::pair&lt;bool, <a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; &gt; <a class="el" href="../../d8/d7c/a04601.html#abec1611f7460fe442eeb44ec9c6e0338">SpellCategorySet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec458115a1262f91caf58114ea781708" name="aec458115a1262f91caf58114ea781708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec458115a1262f91caf58114ea781708">&#9670;&#160;</a></span>SpellCategoryStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#abec1611f7460fe442eeb44ec9c6e0338">SpellCategorySet</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#aec458115a1262f91caf58114ea781708">SpellCategoryStore</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec54003aaeeffeda4e99f6e9c019a29f" name="aec54003aaeeffeda4e99f6e9c019a29f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec54003aaeeffeda4e99f6e9c019a29f">&#9670;&#160;</a></span>TalentSpellPosMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../da/d89/a28290.html">TalentSpellPos</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#aec54003aaeeffeda4e99f6e9c019a29f">TalentSpellPosMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a415cc3633225b2cfe241a12bce9aeb9b" name="a415cc3633225b2cfe241a12bce9aeb9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a415cc3633225b2cfe241a12bce9aeb9b">&#9670;&#160;</a></span>TaxiMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::array&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#af55b7730b9b6bf94de4604ce96e812c0">TaxiMaskSize</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#a415cc3633225b2cfe241a12bce9aeb9b">TaxiMask</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a696428ce320a7e4dd796c85fbf98b7f2" name="a696428ce320a7e4dd796c85fbf98b7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696428ce320a7e4dd796c85fbf98b7f2">&#9670;&#160;</a></span>TaxiPathNodeList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../dc/d64/a28246.html">TaxiPathNodeEntry</a> const*&gt; <a class="el" href="../../d8/d7c/a04601.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a9bd32b40fdd19846034d6430c681cb" name="a0a9bd32b40fdd19846034d6430c681cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9bd32b40fdd19846034d6430c681cb">&#9670;&#160;</a></span>TaxiPathNodesByPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d8/d7c/a04601.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#a0a9bd32b40fdd19846034d6430c681cb">TaxiPathNodesByPath</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d9b837c2c4d75978949b5718741443a" name="a8d9b837c2c4d75978949b5718741443a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d9b837c2c4d75978949b5718741443a">&#9670;&#160;</a></span>TaxiPathSetBySource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/d7c/a04601.html#a96a7676e14471f288073e4d2ce5fb580">TaxiPathSetForSource</a>&gt; <a class="el" href="../../d8/d7c/a04601.html#a8d9b837c2c4d75978949b5718741443a">TaxiPathSetBySource</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96a7676e14471f288073e4d2ce5fb580" name="a96a7676e14471f288073e4d2ce5fb580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a7676e14471f288073e4d2ce5fb580">&#9670;&#160;</a></span>TaxiPathSetForSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/d79/a28242.html">TaxiPathEntry</a> const*&gt; <a class="el" href="../../d8/d7c/a04601.html#a96a7676e14471f288073e4d2ce5fb580">TaxiPathSetForSource</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a86846f30ebbb1a9ce21222e1a3e26494" name="a86846f30ebbb1a9ce21222e1a3e26494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86846f30ebbb1a9ce21222e1a3e26494">&#9670;&#160;</a></span>ChrRacesFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494">ChrRacesFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c" name="a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c"></a>CHRRACES_FLAGS_NOT_PLAYABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d" name="a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d"></a>CHRRACES_FLAGS_BARE_FEET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b" name="a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b"></a>CHRRACES_FLAGS_CAN_MOUNT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  671</span>{</div>
+<div class="line"><span class="lineno">  672</span>    <a class="code hl_enumvalue" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c">CHRRACES_FLAGS_NOT_PLAYABLE</a> = 0x01,</div>
+<div class="line"><span class="lineno">  673</span>    <a class="code hl_enumvalue" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d">CHRRACES_FLAGS_BARE_FEET</a>    = 0x02,</div>
+<div class="line"><span class="lineno">  674</span>    <a class="code hl_enumvalue" href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b">CHRRACES_FLAGS_CAN_MOUNT</a>    = 0x04</div>
+<div class="line"><span class="lineno">  675</span>};</div>
+<div class="ttc" id="aa04601_html_a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c"><div class="ttname"><a href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494a3d08c1d97c12c83282e399083d88130c">CHRRACES_FLAGS_NOT_PLAYABLE</a></div><div class="ttdeci">@ CHRRACES_FLAGS_NOT_PLAYABLE</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:672</div></div>
+<div class="ttc" id="aa04601_html_a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b"><div class="ttname"><a href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494aa315bad0a3d44c08b274603d2fef712b">CHRRACES_FLAGS_CAN_MOUNT</a></div><div class="ttdeci">@ CHRRACES_FLAGS_CAN_MOUNT</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:674</div></div>
+<div class="ttc" id="aa04601_html_a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d"><div class="ttname"><a href="../../d8/d7c/a04601.html#a86846f30ebbb1a9ce21222e1a3e26494ad794a77acd03e5e888c279a84667097d">CHRRACES_FLAGS_BARE_FEET</a></div><div class="ttdeci">@ CHRRACES_FLAGS_BARE_FEET</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:673</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a94648e677bb402393465ccb4b0f96f20" name="a94648e677bb402393465ccb4b0f96f20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94648e677bb402393465ccb4b0f96f20">&#9670;&#160;</a></span>CreatureModelDataFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/d7c/a04601.html#a94648e677bb402393465ccb4b0f96f20">CreatureModelDataFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900" name="a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900"></a>CREATURE_MODEL_DATA_FLAGS_CAN_MOUNT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  769</span>{</div>
+<div class="line"><span class="lineno">  770</span>    <a class="code hl_enumvalue" href="../../d8/d7c/a04601.html#a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900">CREATURE_MODEL_DATA_FLAGS_CAN_MOUNT</a>     = 0x00000080</div>
+<div class="line"><span class="lineno">  771</span>};</div>
+<div class="ttc" id="aa04601_html_a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900"><div class="ttname"><a href="../../d8/d7c/a04601.html#a94648e677bb402393465ccb4b0f96f20add9bdc598ebec1fd2032eaef06878900">CREATURE_MODEL_DATA_FLAGS_CAN_MOUNT</a></div><div class="ttdeci">@ CREATURE_MODEL_DATA_FLAGS_CAN_MOUNT</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:770</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af55b7730b9b6bf94de4604ce96e812c0" name="af55b7730b9b6bf94de4604ce96e812c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af55b7730b9b6bf94de4604ce96e812c0">&#9670;&#160;</a></span>TaxiMaskSize</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,168 +1014,17 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void clearAcceptTradeMode </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d37/a08078.html">Item</a> **&#160;</td>
-          <td class="paramname"><em>myItems</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d37/a08078.html">Item</a> **&#160;</td>
-          <td class="paramname"><em>hisItems</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">constexpr std::size_t TaxiMaskSize = 14</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  235</span>{</div>
-<div class="line"><span class="lineno">  236</span>    <span class="comment">// clear &#39;in-trade&#39; flag</span></div>
-<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a>; ++i)</div>
-<div class="line"><span class="lineno">  238</span>    {</div>
-<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">if</span> (myItems[i])</div>
-<div class="line"><span class="lineno">  240</span>            myItems[i]-&gt;<a class="code hl_function" href="../../dc/d37/a08078.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  241</span>        <span class="keywordflow">if</span> (hisItems[i])</div>
-<div class="line"><span class="lineno">  242</span>            hisItems[i]-&gt;<a class="code hl_function" href="../../dc/d37/a08078.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  243</span>    }</div>
-<div class="line"><span class="lineno">  244</span>}</div>
-<div class="ttc" id="aa00446_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa03692_html_ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79"><div class="ttname"><a href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a></div><div class="ttdeci">@ TRADE_SLOT_TRADED_COUNT</div><div class="ttdef"><b>Definition:</b> TradeData.h:30</div></div>
-<div class="ttc" id="aa08078_html_afcb47d626c017f93e12d3949fe3ab056"><div class="ttname"><a href="../../dc/d37/a08078.html#afcb47d626c017f93e12d3949fe3ab056">Item::SetInTrade</a></div><div class="ttdeci">void SetInTrade(bool b=true)</div><div class="ttdef"><b>Definition:</b> Item.h:259</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00259">Item::SetInTrade()</a>, and <a class="el" href="../../#l00030">TRADE_SLOT_TRADED_COUNT</a>.</p>
 
-</div>
-</div>
-<a id="a7b5fc6374a945ebbe9b397c1e115e952" name="a7b5fc6374a945ebbe9b397c1e115e952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b5fc6374a945ebbe9b397c1e115e952">&#9670;&#160;</a></span>clearAcceptTradeMode() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void clearAcceptTradeMode </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">TradeData</a> *&#160;</td>
-          <td class="paramname"><em>myTrade</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">TradeData</a> *&#160;</td>
-          <td class="paramname"><em>hisTrade</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  229</span>{</div>
-<div class="line"><span class="lineno">  230</span>    myTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  231</span>    hisTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  232</span>}</div>
-<div class="ttc" id="aa08398_html_a4851016708b0e8336ec33c64ab41aa8a"><div class="ttname"><a href="../../d9/d86/a08398.html#a4851016708b0e8336ec33c64ab41aa8a">TradeData::SetInAcceptProcess</a></div><div class="ttdeci">void SetInAcceptProcess(bool state)</div><div class="ttdef"><b>Definition:</b> TradeData.h:62</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00062">TradeData::SetInAcceptProcess()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00246">WorldSession::HandleAcceptTradeOpcode()</a>.</p>
-
-</div>
-</div>
-<a id="a63b255ea813e0ea4f109492ed7f0213c" name="a63b255ea813e0ea4f109492ed7f0213c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63b255ea813e0ea4f109492ed7f0213c">&#9670;&#160;</a></span>setAcceptTradeMode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void setAcceptTradeMode </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">TradeData</a> *&#160;</td>
-          <td class="paramname"><em>myTrade</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">TradeData</a> *&#160;</td>
-          <td class="paramname"><em>hisTrade</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d37/a08078.html">Item</a> **&#160;</td>
-          <td class="paramname"><em>myItems</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d37/a08078.html">Item</a> **&#160;</td>
-          <td class="paramname"><em>hisItems</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  204</span>{</div>
-<div class="line"><span class="lineno">  205</span>    myTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  206</span>    hisTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  207</span> </div>
-<div class="line"><span class="lineno">  208</span>    <span class="comment">// store items in local list and set &#39;in-trade&#39; flag</span></div>
-<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d3/def/a00446.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a>; ++i)</div>
-<div class="line"><span class="lineno">  210</span>    {</div>
-<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d37/a08078.html">Item</a>* item = myTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a6c769042535c69e89bdc19234dd680e4">GetItem</a>(<a class="code hl_enumeration" href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a>(i)))</div>
-<div class="line"><span class="lineno">  212</span>        {</div>
-<div class="line"><span class="lineno">  213</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.opcode&quot;</span>, <span class="stringliteral">&quot;player trade item {} bag: {} slot: {}&quot;</span>, item-&gt;GetGUID().ToString(), item-&gt;GetBagSlot(), item-&gt;GetSlot());</div>
-<div class="line"><span class="lineno">  214</span>            <span class="comment">//Can return nullptr</span></div>
-<div class="line"><span class="lineno">  215</span>            myItems[i] = item;</div>
-<div class="line"><span class="lineno">  216</span>            myItems[i]-&gt;<a class="code hl_function" href="../../dc/d37/a08078.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>();</div>
-<div class="line"><span class="lineno">  217</span>        }</div>
-<div class="line"><span class="lineno">  218</span> </div>
-<div class="line"><span class="lineno">  219</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d37/a08078.html">Item</a>* item = hisTrade-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a6c769042535c69e89bdc19234dd680e4">GetItem</a>(<a class="code hl_enumeration" href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a>(i)))</div>
-<div class="line"><span class="lineno">  220</span>        {</div>
-<div class="line"><span class="lineno">  221</span>            <a class="code hl_define" href="../../d2/df5/a00137.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.opcode&quot;</span>, <span class="stringliteral">&quot;partner trade item {} bag: {} slot: {}&quot;</span>, item-&gt;GetGUID().ToString(), item-&gt;GetBagSlot(), item-&gt;GetSlot());</div>
-<div class="line"><span class="lineno">  222</span>            hisItems[i] = item;</div>
-<div class="line"><span class="lineno">  223</span>            hisItems[i]-&gt;<a class="code hl_function" href="../../dc/d37/a08078.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>();</div>
-<div class="line"><span class="lineno">  224</span>        }</div>
-<div class="line"><span class="lineno">  225</span>    }</div>
-<div class="line"><span class="lineno">  226</span>}</div>
-<div class="ttc" id="aa00137_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d2/df5/a00137.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:168</div></div>
-<div class="ttc" id="aa03692_html_ad8fd978c4198825d89a1f02643d20c62"><div class="ttname"><a href="../../d6/d1c/a03692.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a></div><div class="ttdeci">TradeSlots</div><div class="ttdef"><b>Definition:</b> TradeData.h:28</div></div>
-<div class="ttc" id="aa08078_html"><div class="ttname"><a href="../../dc/d37/a08078.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:220</div></div>
-<div class="ttc" id="aa08398_html_a6c769042535c69e89bdc19234dd680e4"><div class="ttname"><a href="../../d9/d86/a08398.html#a6c769042535c69e89bdc19234dd680e4">TradeData::GetItem</a></div><div class="ttdeci">Item * GetItem(TradeSlots slot) const</div><div class="ttdef"><b>Definition:</b> TradeData.cpp:26</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00026">TradeData::GetItem()</a>, <a class="el" href="../../#l00168">LOG_DEBUG</a>, <a class="el" href="../../#l00062">TradeData::SetInAcceptProcess()</a>, <a class="el" href="../../#l00259">Item::SetInTrade()</a>, and <a class="el" href="../../#l00030">TRADE_SLOT_TRADED_COUNT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00246">WorldSession::HandleAcceptTradeOpcode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00116">PlayerTaxi::AppendTaximaskTo()</a>, <a class="el" href="../../#l06538">ObjectMgr::GetNearestTaxiNode()</a>, <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>, <a class="el" href="../../#l00023">PlayerTaxi::InitTaxiNodesForLevel()</a>, and <a class="el" href="../../#l00089">PlayerTaxi::LoadTaxiMask()</a>.</p>
 
 </div>
 </div>
@@ -316,8 +1033,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d8/d7c/a04601.html">TradeHandler.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_df159a8f325d88d9d469ac728430a4fa.html">DataStores</a></li><li class="navelem"><a class="el" href="../../d8/d7c/a04601.html">DBCStructure.h</a></li>
+    <li class="footer">Generated on Mon Oct 21 2024 20:40:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
