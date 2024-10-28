@@ -1,8 +1,6 @@
 var a09954 =
 [
-    [ "_OnTrigger", "da/d73/a09954.html#a6da93a21c84345bd77e467377810e756", null ],
     [ "AreaTriggerScript", "da/d73/a09954.html#a478e4dee0f4211af9be6ea448d4e6c89", null ],
-    [ "OnTrigger", "da/d73/a09954.html#a4ac7e4963d36c8163a560dc8401b5f34", null ],
-    [ "ResetAreaTriggerDone", "da/d73/a09954.html#a3b44c1892c1100028b387d15bfbdae60", null ],
-    [ "ResetAreaTriggerDone", "da/d73/a09954.html#a3917da4a6f605077720172cda25322ee", null ]
+    [ "IsDatabaseBound", "da/d73/a09954.html#ac5234a2cd020cd8f90b6d19c28ad46ae", null ],
+    [ "OnTrigger", "da/d73/a09954.html#abb6cdada718e9fad7da98fbb667c6d53", null ]
 ];

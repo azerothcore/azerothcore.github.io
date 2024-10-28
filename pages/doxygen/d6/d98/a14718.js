@@ -1,14 +1,7 @@
 var a14718 =
 [
-    [ "boss_ayamiss", "d6/d98/a14718.html#a0e923d4fa8bd6623ec58d7f64b5ea261", null ],
-    [ "DoAction", "d6/d98/a14718.html#a0114a79274c34fe3dfbc8a34f39920bc", null ],
-    [ "EnterEvadeMode", "d6/d98/a14718.html#a52f584da6d3d1b87fe91528dc25b8c5e", null ],
-    [ "JustDied", "d6/d98/a14718.html#acddcbb06b7d5980e199ef11103fabf7c", null ],
-    [ "JustEngagedWith", "d6/d98/a14718.html#aaaf1b765256f4a6342d16bd7767f92cf", null ],
-    [ "JustSummoned", "d6/d98/a14718.html#a4281f761256cd93c19aea0a76239512d", null ],
-    [ "MovementInform", "d6/d98/a14718.html#a6bc1f0767785efb5a5fb005b49338032", null ],
-    [ "Reset", "d6/d98/a14718.html#a10111f97236c2846181aa20f7d9b64fd", null ],
-    [ "ScheduleTasks", "d6/d98/a14718.html#a166238b9395a426a7333cf71a38c6c5c", null ],
-    [ "_swarmers", "d6/d98/a14718.html#aa6dd99f8085d1424acf07cc124ac210c", null ],
-    [ "homePos", "d6/d98/a14718.html#ab098ee0f8872d1cf9d34993c01971921", null ]
+    [ "HandleScript", "d6/d98/a14718.html#ad1654a408e94012a0ac2ade09d61a63e", null ],
+    [ "PrepareSpellScript", "d6/d98/a14718.html#a53e1a8632ca51beefe4fc97a3e471ad7", null ],
+    [ "Register", "d6/d98/a14718.html#aff966352a2babe6e6daed91f02e1190a", null ],
+    [ "Validate", "d6/d98/a14718.html#a6ffcf81642f31ee93f3ec213cdc8f92e", null ]
 ];

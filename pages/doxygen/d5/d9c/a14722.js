@@ -1,7 +1,7 @@
 var a14722 =
 [
-    [ "npc_hive_zara_larva", "d5/d9c/a14722.html#a50fb5738d7b0818689216fee0915a0de", null ],
-    [ "JustSummoned", "d5/d9c/a14722.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
-    [ "MovementInform", "d5/d9c/a14722.html#a6890c58106450d654062f548a80cb42f", null ],
-    [ "_instance", "d5/d9c/a14722.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
+    [ "HandleScript", "d5/d9c/a14722.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
+    [ "Load", "d5/d9c/a14722.html#a2dc1edf537f58133fb4daabde9f43843", null ],
+    [ "PrepareSpellScript", "d5/d9c/a14722.html#ae856c6e70ededa95c0308596a9f980af", null ],
+    [ "Register", "d5/d9c/a14722.html#ac2e82c7e626658faa968f75c26688b43", null ]
 ];

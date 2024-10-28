@@ -1,7 +1,6 @@
 var a19590 =
 [
-    [ "HandlePeriodic", "d5/db3/a19590.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
-    [ "PrepareAuraScript", "d5/db3/a19590.html#ad78b06733a8609dd39e885db2f23edba", null ],
-    [ "Register", "d5/db3/a19590.html#ac9ae9be546964752869163896c4045dd", null ],
-    [ "Validate", "d5/db3/a19590.html#afcca84d03b29ef7569c03f973a6c191b", null ]
+    [ "boss_steelbreakerAI", "d4/d20/a19594.html", "d4/d20/a19594" ],
+    [ "boss_steelbreaker", "d5/db3/a19590.html#af6e4c3729874e59959b35ca67a46aa44", null ],
+    [ "GetAI", "d5/db3/a19590.html#ac4189ffbba997719fb36a10ecdabd26c", null ]
 ];

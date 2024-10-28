@@ -1,13 +1,12 @@
 var a22146 =
 [
-    [ "npc_frosthoundAI", "da/d7b/a22146.html#ac8f41789568399318cdc30292abfd93b", null ],
-    [ "AttackStart", "da/d7b/a22146.html#a0278736f670f5aac069b03530f441ae1", null ],
-    [ "EnterEvadeMode", "da/d7b/a22146.html#acc1a3842ddae670e23d8c55e8768ace9", null ],
-    [ "JustDied", "da/d7b/a22146.html#a26f4657c1d373cf4a2b45f6487a9e901", null ],
-    [ "JustEngagedWith", "da/d7b/a22146.html#a80eec4a19fb53be5946b2e021b8dd332", null ],
-    [ "JustSummoned", "da/d7b/a22146.html#a8db3dbace66dabfa54800cacbfdfab9b", null ],
-    [ "OnCharmed", "da/d7b/a22146.html#ae1e2a4763e8bfc8ab04687829830c639", null ],
-    [ "PassengerBoarded", "da/d7b/a22146.html#aea512a9811ec0766b9b175ec2ca9a447", null ],
-    [ "UpdateAI", "da/d7b/a22146.html#a9a755fd6d53d124c441357472fcb73e0", null ],
-    [ "WaypointReached", "da/d7b/a22146.html#aa87f8d5bbbd105481773941a90a96cf6", null ]
+    [ "npc_time_lost_proto_drakeAI", "da/d7b/a22146.html#ab98805519233eda932c6131aca059a8b", null ],
+    [ "JustEngagedWith", "da/d7b/a22146.html#a14f41b30451b8ac8fe2411ec7102ae81", null ],
+    [ "Reset", "da/d7b/a22146.html#a418ea9621040e3c717c4e24f73539f44", null ],
+    [ "RollPath", "da/d7b/a22146.html#aabb3dd1d54a1290d500429efc8fa9e41", null ],
+    [ "UpdateEscortAI", "da/d7b/a22146.html#a1a5442a5796b27d04eaa3ab62c613199", null ],
+    [ "WaypointReached", "da/d7b/a22146.html#ad262b9dbc0edd2bac126fafbb5eb5f01", null ],
+    [ "events", "da/d7b/a22146.html#aa2e4c3396d63d85a5d0abc8c74e58a79", null ],
+    [ "rollPath", "da/d7b/a22146.html#a5431fd5a0801569bc03507818461aa7d", null ],
+    [ "setVisible", "da/d7b/a22146.html#a63558b3406c241ecb27f3e485eeb439b", null ]
 ];

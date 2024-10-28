@@ -1,6 +1,6 @@
 var a17066 =
 [
-    [ "StandUpEvent", "de/d0d/a17066.html#a2f68b19898c65b9229159d9133b3d7cf", null ],
-    [ "Execute", "de/d0d/a17066.html#a56bc1071300ff8f81e62839685e8f53a", null ],
-    [ "_owner", "de/d0d/a17066.html#a456a494140657d81b203834f7b88d5d1", null ]
+    [ "boss_prince_taldaramAI", "d1/d75/a17070.html", "d1/d75/a17070" ],
+    [ "boss_prince_taldaram_icc", "de/d0d/a17066.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
+    [ "GetAI", "de/d0d/a17066.html#a2a8c89206ab72afc68260f41a246da3b", null ]
 ];

@@ -1,5 +1,6 @@
 var a23994 =
 [
-    [ "go_warmaul_prison", "d8/d4e/a23994.html#adffbb532d7ee3c5a67543fe15ce5b67b", null ],
-    [ "OnGossipHello", "d8/d4e/a23994.html#ac9e66eeb30bf951d37f2d0917a295705", null ]
+    [ "npc_commander_dawnforgeAI", "d6/df3/a23998.html", "d6/df3/a23998" ],
+    [ "npc_commander_dawnforge", "d8/d4e/a23994.html#ab4d430725f68f906e9c8def66b1d6646", null ],
+    [ "GetAI", "d8/d4e/a23994.html#a6089b087b7c3b18659e23c677814318b", null ]
 ];

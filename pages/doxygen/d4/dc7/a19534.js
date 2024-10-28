@@ -1,6 +1,6 @@
 var a19534 =
 [
-    [ "npc_collapsing_starAI", "d2/d36/a19538.html", "d2/d36/a19538" ],
-    [ "npc_collapsing_star", "d4/dc7/a19534.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
-    [ "GetAI", "d4/dc7/a19534.html#a346af96d122e64c68defdeccb9183cd4", null ]
+    [ "npc_algalon_worm_holeAI", "d2/d36/a19538.html", "d2/d36/a19538" ],
+    [ "npc_algalon_worm_hole", "d4/dc7/a19534.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "d4/dc7/a19534.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

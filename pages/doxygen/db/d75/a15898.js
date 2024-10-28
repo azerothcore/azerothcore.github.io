@@ -1,10 +1,8 @@
 var a15898 =
 [
-    [ "spell_halion_combustion_consumption_aura", "db/d75/a15898.html#a8b67aee76c7288748757e6bec7f4cb78", null ],
-    [ "AddMarkStack", "db/d75/a15898.html#a337776c42bd6c42ecdffb508808ed070", null ],
-    [ "OnApply", "db/d75/a15898.html#afeea3e5026e6d8472440c9cffac9bce9", null ],
-    [ "OnRemove", "db/d75/a15898.html#a3959dbe8bbdf2d3953daf14072614708", null ],
-    [ "PrepareAuraScript", "db/d75/a15898.html#a334f2211429dde989b6beb6c10a71464", null ],
-    [ "Register", "db/d75/a15898.html#affc66a03e9d1eaef30a54b8a044734b8", null ],
-    [ "_markSpell", "db/d75/a15898.html#a8236d9d50f267a12216d90f8041da439", null ]
+    [ "Load", "db/d75/a15898.html#a55dc086667f0fe23e513608e951276ed", null ],
+    [ "Phase", "db/d75/a15898.html#af66a6bff13803e54b6ed1447d1285ad4", null ],
+    [ "PrepareSpellScript", "db/d75/a15898.html#ae2c7cbd68ccf893144e38581a6f86f04", null ],
+    [ "Register", "db/d75/a15898.html#a8ab7e05e98771abcf9bed9995875b71d", null ],
+    [ "Validate", "db/d75/a15898.html#a87192df547adaf3cb060155d9cf4da79", null ]
 ];

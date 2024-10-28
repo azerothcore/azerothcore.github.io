@@ -1,7 +1,6 @@
 var a18750 =
 [
-    [ "HandleGameObjectDamage", "d0/d14/a18750.html#a811edfe01c1784664b5b4253d2305b4e", null ],
-    [ "PrepareSpellScript", "d0/d14/a18750.html#a0cfedeba2a747777de292b8f30b6752b", null ],
-    [ "Register", "d0/d14/a18750.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
-    [ "Validate", "d0/d14/a18750.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
+    [ "boss_anubrekhanAI", "dd/d65/a18754.html", "dd/d65/a18754" ],
+    [ "boss_anubrekhan", "d0/d14/a18750.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
+    [ "GetAI", "d0/d14/a18750.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
 ];

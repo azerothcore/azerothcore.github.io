@@ -1,6 +1,6 @@
 var a15338 =
 [
-    [ "npc_anachronos_quest_triggerAI", "da/d98/a15342.html", "da/d98/a15342" ],
-    [ "npc_anachronos_quest_trigger", "d7/d0c/a15338.html#ad39871952acd3152b51820fe360f4ebd", null ],
-    [ "GetAI", "d7/d0c/a15338.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
+    [ "go_wind_stoneAI", "da/d98/a15342.html", "da/d98/a15342" ],
+    [ "go_wind_stone", "d7/d0c/a15338.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
+    [ "GetAI", "d7/d0c/a15338.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
 ];

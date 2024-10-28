@@ -1,9 +1,10 @@
 var a14754 =
 [
-    [ "npc_buru_egg", "d8/d2f/a14754.html#a6aa2896342b802caecde1c1dffcf4907", null ],
-    [ "JustDied", "d8/d2f/a14754.html#a3de169b252374f0b2daed3ecb5a11502", null ],
-    [ "JustEngagedWith", "d8/d2f/a14754.html#a8cde6848569671876a17b00d75228ebe", null ],
-    [ "JustSummoned", "d8/d2f/a14754.html#abebb96dcb3d653bddd4210da6567fb87", null ],
-    [ "UpdateAI", "d8/d2f/a14754.html#a4d77f8b40ea8e936c9388aeff4927420", null ],
-    [ "_instance", "d8/d2f/a14754.html#a5b168226755a57368f17827e3457a0ca", null ]
+    [ "boss_moam", "d8/d2f/a14754.html#a9a7a9f410efc5a05e46fd05f331e96c9", null ],
+    [ "InitializeAI", "d8/d2f/a14754.html#a2c8bde24fb3811e29c91a57258a243e5", null ],
+    [ "JustDied", "d8/d2f/a14754.html#a06b843bddd8f2759fa733c5169e0a5e6", null ],
+    [ "JustEngagedWith", "d8/d2f/a14754.html#ad33ba2f2cf9c83f37856aa6f2212637b", null ],
+    [ "Reset", "d8/d2f/a14754.html#a4112940fbe1f8be8e7adee7dbc48a9ae", null ],
+    [ "SummonedCreatureDies", "d8/d2f/a14754.html#a8401c5e2bd216deee197617b78d85222", null ],
+    [ "UpdateAI", "d8/d2f/a14754.html#aadd8320c6194923b113967d3d6c49a5e", null ]
 ];

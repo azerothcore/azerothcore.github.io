@@ -1,8 +1,7 @@
 var a26698 =
 [
-    [ "CheckProc", "df/d3c/a26698.html#afcda3b112699e108e2db6270836fce1b", null ],
-    [ "OnProc", "df/d3c/a26698.html#ab953f817368120933828d6b3e5e200c0", null ],
-    [ "PrepareAuraScript", "df/d3c/a26698.html#a33381b811abcd52f7a57e0f62fa73e5f", null ],
-    [ "Register", "df/d3c/a26698.html#abfdd5179215432a3e89ea7b498d49867", null ],
-    [ "Validate", "df/d3c/a26698.html#a19e8f1b9aab5ee4e718b304c87303627", null ]
+    [ "HandleTeleport", "df/d3c/a26698.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
+    [ "PrepareAuraScript", "df/d3c/a26698.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
+    [ "Register", "df/d3c/a26698.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
+    [ "Validate", "df/d3c/a26698.html#adabf22bd591a10662ffbf0354a18a936", null ]
 ];

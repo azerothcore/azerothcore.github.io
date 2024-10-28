@@ -1,7 +1,16 @@
 var a28406 =
 [
-    [ "asyncId", "d8/d0e/a28406.html#afd18849875b4562e4a532903676ce25d", null ],
-    [ "flags", "d8/d0e/a28406.html#a9b9c3cec4acbd87911aa047dd52ae443", null ],
-    [ "offsMCNK", "d8/d0e/a28406.html#a063c5dc62c44038e882340221bf8228a", null ],
-    [ "size", "d8/d0e/a28406.html#a47a5eeb595d53de009651ae02d2b416d", null ]
+    [ "adt_LIQUID", "d4/d13/a28414.html", "d4/d13/a28414" ],
+    [ "GetLiquidAttributes", "d8/d0e/a28406.html#a343859f1c04059988ca0e4050ffac22f", null ],
+    [ "GetLiquidDepth", "d8/d0e/a28406.html#a6f620512f4feb239bc732efcfe53ae7c", null ],
+    [ "GetLiquidExistsBitmap", "d8/d0e/a28406.html#aaa9e70d67222ddcfbd890e8e3262f8e0", null ],
+    [ "GetLiquidHeight", "d8/d0e/a28406.html#a73ad976bf67c8adba2443190e6db533f", null ],
+    [ "GetLiquidInstance", "d8/d0e/a28406.html#a65b3323ff560d26302f86dcfc79eb4c3", null ],
+    [ "GetLiquidTextureCoordMap", "d8/d0e/a28406.html#a1d0cfd669f16b346e9199f6ade39cbce", null ],
+    [ "GetLiquidType", "d8/d0e/a28406.html#acd96d3f82d0ad8c3cb601097e52427b5", null ],
+    [ "prepareLoadedData", "d8/d0e/a28406.html#a05b77a8778e3d85dae8437d96a4aae8a", null ],
+    [ "fcc", "d8/d0e/a28406.html#a6c09458d5788c58dbd2f9b96448a1ff4", null ],
+    [ "fcc_txt", "d8/d0e/a28406.html#a5abe0d5184d096f87c2c0ff1f9a115dc", null ],
+    [ "liquid", "d8/d0e/a28406.html#aaaff4b98a34d81985b552fd671411450", null ],
+    [ "size", "d8/d0e/a28406.html#a2110a26debb714695e38e5ec159131f2", null ]
 ];

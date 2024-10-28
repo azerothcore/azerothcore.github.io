@@ -1,7 +1,12 @@
 var a16654 =
 [
-    [ "OnRemove", "d2/d9d/a16654.html#a4b95717cb19116b81f3eec798089abad", null ],
-    [ "PrepareAuraScript", "d2/d9d/a16654.html#a581645fa151531aaf7b562a8739d5616", null ],
-    [ "Register", "d2/d9d/a16654.html#a01304c556d79001e290707551bee7622", null ],
-    [ "Validate", "d2/d9d/a16654.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
+    [ "npc_ghostly_priestAI", "d2/d9d/a16654.html#abb6815d1395b68654eeb6ab8b4217388", null ],
+    [ "AttackStart", "d2/d9d/a16654.html#a9719d1ad6e58b727bc1720cb815be3e9", null ],
+    [ "DoAction", "d2/d9d/a16654.html#a89c991a1d4c07f1229436871f503c949", null ],
+    [ "EnterEvadeMode", "d2/d9d/a16654.html#ab8fd2df32ef12f5f648b8af9abcc3201", null ],
+    [ "JustDied", "d2/d9d/a16654.html#a004e8aec05741b9ee36b0695840e6c2a", null ],
+    [ "JustEngagedWith", "d2/d9d/a16654.html#a780d530e224ca1f72e26db17cd57f44a", null ],
+    [ "Reset", "d2/d9d/a16654.html#ab8f7559110be76633153842e0714554a", null ],
+    [ "UpdateAI", "d2/d9d/a16654.html#ab431f451963d0b608f11129934496700", null ],
+    [ "events", "d2/d9d/a16654.html#a9b49c143b5a29b4f9b4ce34ce0aecca7", null ]
 ];

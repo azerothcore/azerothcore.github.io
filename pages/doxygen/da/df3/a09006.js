@@ -1,8 +1,8 @@
 var a09006 =
 [
-    [ "AnyUnfriendlyUnitInObjectRangeCheck", "da/df3/a09006.html#a2d83b68a7991d3b3dc2355ecde1efa5d", null ],
-    [ "operator()", "da/df3/a09006.html#a5b02b45b937d6b2b0b141967c70f93d9", null ],
-    [ "i_funit", "da/df3/a09006.html#a55222acf6dbb538a213eb604f67f40ce", null ],
-    [ "i_obj", "da/df3/a09006.html#a5d7e5e8898bd092c1055739fae82f693", null ],
-    [ "i_range", "da/df3/a09006.html#aa1c728ceea2ddc2e88ea07132a3fe250", null ]
+    [ "FriendlyMissingBuffInRange", "da/df3/a09006.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
+    [ "operator()", "da/df3/a09006.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
+    [ "i_obj", "da/df3/a09006.html#aba43edf48b2b0184b52143707c3531f4", null ],
+    [ "i_range", "da/df3/a09006.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
+    [ "i_spell", "da/df3/a09006.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
 ];

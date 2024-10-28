@@ -1,6 +1,6 @@
 var a19646 =
 [
-    [ "HandleInstaKill", "d3/d67/a19646.html#a9371a2cc86616fd04e47939d45f01cae", null ],
-    [ "PrepareSpellScript", "d3/d67/a19646.html#a38eed301f1db3ea7ac15b626e5927500", null ],
-    [ "Register", "d3/d67/a19646.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
+    [ "boss_auriayaAI", "d5/ddf/a19650.html", "d5/ddf/a19650" ],
+    [ "boss_auriaya", "d3/d67/a19646.html#a8acecf02a63e846d1a46633a6ade6083", null ],
+    [ "GetAI", "d3/d67/a19646.html#a09c7cd124672eb12ec349dbbbd3c87ef", null ]
 ];

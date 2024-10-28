@@ -1,16 +1,6 @@
 var a21118 =
 [
-    [ "boss_emalonAI", "d1/d2e/a21118.html#ac87b3ea34e9781f3843321ef874321fe", null ],
-    [ "AttackStart", "d1/d2e/a21118.html#ab08f49aabe76b623496da2fc0198a6c1", null ],
-    [ "JustDied", "d1/d2e/a21118.html#a79a05156b690140e955a6e850ac41e5b", null ],
-    [ "JustEngagedWith", "d1/d2e/a21118.html#a9a3b4e6df73586125c0369aa2d3666df", null ],
-    [ "JustSummoned", "d1/d2e/a21118.html#a895f302d336faa0c3f93854314d3b427", null ],
-    [ "Reset", "d1/d2e/a21118.html#ae5d33f728077d5bbc3b7d74db8015f5d", null ],
-    [ "ResetSummons", "d1/d2e/a21118.html#a7df4da85c40ba1c34063df9b2df5874b", null ],
-    [ "SpellHitTarget", "d1/d2e/a21118.html#a2c60642848b73bc00d1a8244d4fb4733", null ],
-    [ "SummonedCreatureDies", "d1/d2e/a21118.html#a25a18c4d110b407c5fcf09c14444e8b0", null ],
-    [ "UpdateAI", "d1/d2e/a21118.html#a4701d5a77b6ae7ce3432c81b7b6d14cf", null ],
-    [ "events", "d1/d2e/a21118.html#a78312371e28b4be3c072dc870370b577", null ],
-    [ "pInstance", "d1/d2e/a21118.html#af4cc6489905f9702999cc23fd6a920c2", null ],
-    [ "summons", "d1/d2e/a21118.html#a1b6ccd418114e57a0c843cc980a56243", null ]
+    [ "HandleOnHit", "d1/d2e/a21118.html#a032001817b4c07dca0f3619116bd7158", null ],
+    [ "PrepareSpellScript", "d1/d2e/a21118.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
+    [ "Register", "d1/d2e/a21118.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
 ];

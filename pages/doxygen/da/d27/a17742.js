@@ -1,6 +1,6 @@
 var a17742 =
 [
-    [ "FilterTargetsInitial", "da/d27/a17742.html#a92cc71f268793c616bed66d9a489a145", null ],
-    [ "PrepareSpellScript", "da/d27/a17742.html#ae27e6ceab6b92e59c97307ed10f24ab2", null ],
-    [ "Register", "da/d27/a17742.html#a91b96940a9e72e632989b49f7e475dba", null ]
+    [ "boss_rotfaceAI", "d7/df3/a17746.html", "d7/df3/a17746" ],
+    [ "boss_rotface", "da/d27/a17742.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
+    [ "GetAI", "da/d27/a17742.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
 ];

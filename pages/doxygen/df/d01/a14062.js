@@ -1,11 +1,12 @@
 var a14062 =
 [
-    [ "npc_the_biggest_tree", "df/d01/a14062.html#a7366f46c4864fa0f1372c920b94c6e97", null ],
-    [ "MoveInLineOfSight", "df/d01/a14062.html#a572c0b146d461b6a8504163452570954", null ],
-    [ "Reset", "df/d01/a14062.html#a3fd4c5e522e8945925124426a8ff870b", null ],
-    [ "UpdateAI", "df/d01/a14062.html#a3d1b33ab7cd28de5438f53a00657170a", null ],
-    [ "orphanGUID", "df/d01/a14062.html#a36c170fb178a19256fd41fb2cbbb7830", null ],
-    [ "phase", "df/d01/a14062.html#a7101fe10b15ce1779d3d131e597ef636", null ],
-    [ "playerGUID", "df/d01/a14062.html#ab39af61d9ab7d9f7210f96b65971654d", null ],
-    [ "timer", "df/d01/a14062.html#a7525783692c3bc9642f534296b71a5f5", null ]
+    [ "npc_alexstraza_the_lifebinder", "df/d01/a14062.html#a7c30258540803bde75843cb070b6a288", null ],
+    [ "MoveInLineOfSight", "df/d01/a14062.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
+    [ "Reset", "df/d01/a14062.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
+    [ "SetData", "df/d01/a14062.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
+    [ "UpdateAI", "df/d01/a14062.html#ad13b21d571833210b1c069b7ea8bea05", null ],
+    [ "orphanGUID", "df/d01/a14062.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
+    [ "phase", "df/d01/a14062.html#a98216e43888854ac93f22169a0e253e5", null ],
+    [ "playerGUID", "df/d01/a14062.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
+    [ "timer", "df/d01/a14062.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
 ];

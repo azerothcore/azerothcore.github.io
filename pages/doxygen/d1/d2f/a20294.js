@@ -1,6 +1,7 @@
 var a20294 =
 [
-    [ "npc_ulduar_magnetic_coreAI", "d7/dff/a20298.html", "d7/dff/a20298" ],
-    [ "npc_ulduar_magnetic_core", "d1/d2f/a20294.html#a788a1a6d3ec28c866d6b8cb112fe8071", null ],
-    [ "GetAI", "d1/d2f/a20294.html#a3adcc5c7650e2b016f02a1160c3fa6ab", null ]
+    [ "HandleEffectPeriodic", "d1/d2f/a20294.html#a0fc0cf6cd635249a10aefd284d9ae789", null ],
+    [ "PrepareAuraScript", "d1/d2f/a20294.html#af432e810a46e35f95bb0b3b2eaada132", null ],
+    [ "Register", "d1/d2f/a20294.html#a41c3846c03ce1e37fc6858a676f61c48", null ],
+    [ "Validate", "d1/d2f/a20294.html#ac8e9521a6b8ab9a4642361085dbe517d", null ]
 ];

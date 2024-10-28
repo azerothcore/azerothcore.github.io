@@ -1,7 +1,7 @@
 var a16262 =
 [
-    [ "npc_toc_rogueAI", "d1/d6e/a16262.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d1/d6e/a16262.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d1/d6e/a16262.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d1/d6e/a16262.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "npc_toc_retro_paladinAI", "d1/d6e/a16262.html#afe933281cea61c9a4f3ded76290a3b72", null ],
+    [ "myCanCast", "d1/d6e/a16262.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
+    [ "UpdateAI", "d1/d6e/a16262.html#a105d6b9c133c1147b310826d7be416f5", null ],
+    [ "events", "d1/d6e/a16262.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
 ];

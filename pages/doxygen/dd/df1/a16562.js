@@ -1,6 +1,6 @@
 var a16562 =
 [
-    [ "boss_bronjahmAI", "dc/d05/a16566.html", "dc/d05/a16566" ],
-    [ "boss_bronjahm", "dd/df1/a16562.html#a699e1be5273979c76cd5d06b60f0ee05", null ],
-    [ "GetAI", "dd/df1/a16562.html#a04676028f1f324b6eecea625122794ed", null ]
+    [ "PrepareSpellScript", "dd/df1/a16562.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
+    [ "RecalculateDamage", "dd/df1/a16562.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
+    [ "Register", "dd/df1/a16562.html#a1a740e697fc84f5f035f2ec251872009", null ]
 ];

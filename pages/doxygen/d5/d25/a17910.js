@@ -1,7 +1,6 @@
 var a17910 =
 [
-    [ "PeriodicTick", "d5/d25/a17910.html#a0c365bbb4ae9b77bb9e00a1eb41b96e4", null ],
-    [ "PrepareAuraScript", "d5/d25/a17910.html#afcadfbdd84608e827b89c64bf03c8501", null ],
-    [ "Register", "d5/d25/a17910.html#a0e8e8685ce8c1eea2b60e8bf6aeed782", null ],
-    [ "Validate", "d5/d25/a17910.html#a879b657d94c1faf6225fe64f907cdf82", null ]
+    [ "npc_rimefangAI", "d9/d2b/a17914.html", "d9/d2b/a17914" ],
+    [ "npc_rimefang", "d5/d25/a17910.html#af8ab4e318726b5250de56e3c6d09fcd2", null ],
+    [ "GetAI", "d5/d25/a17910.html#a2fce9c36b7ef1861c9dcb5db2cacf438", null ]
 ];

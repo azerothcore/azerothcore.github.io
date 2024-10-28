@@ -1,11 +1,11 @@
 var a02579 =
 [
-    [ "npc_rivern_frostwind", "d1/dbd/a15490.html", "d1/dbd/a15490" ],
-    [ "DialogueEntry", "d4/dfd/a15494.html", "d4/dfd/a15494" ],
-    [ "DialogueHelper", "dc/d0f/a15498.html", "dc/d0f/a15498" ],
-    [ "npc_ranshalla", "d4/dec/a15502.html", "d4/dec/a15502" ],
-    [ "npc_ranshalla::npc_ranshallaAI", "d6/d5e/a15506.html", "d6/d5e/a15506" ],
-    [ "go_elune_fire", "d2/d5a/a15510.html", "d2/d5a/a15510" ],
+    [ "npc_rivern_frostwind", "de/d0e/a15474.html", "de/d0e/a15474" ],
+    [ "DialogueEntry", "d3/d76/a15478.html", "d3/d76/a15478" ],
+    [ "DialogueHelper", "d5/d85/a15482.html", "d5/d85/a15482" ],
+    [ "npc_ranshalla", "d3/d67/a15486.html", "d3/d67/a15486" ],
+    [ "npc_ranshalla::npc_ranshallaAI", "d1/dbd/a15490.html", "d1/dbd/a15490" ],
+    [ "go_elune_fire", "d4/dfd/a15494.html", "d4/dfd/a15494" ],
     [ "Dummies", "d4/d70/a02579.html#a2bbe982dfe66b7d2feb6449e4b33ac2e", [
       [ "NPC_PRIESTESS_DATA_1", "d4/d70/a02579.html#a2bbe982dfe66b7d2feb6449e4b33ac2ea0594ed0eed6a55af01b29286273cadef", null ],
       [ "NPC_PRIESTESS_DATA_2", "d4/d70/a02579.html#a2bbe982dfe66b7d2feb6449e4b33ac2ea4236792aa6debd5b26af8a27358513fc", null ],
@@ -1601,7 +1601,8 @@ var a02579 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

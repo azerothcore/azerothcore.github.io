@@ -1,7 +1,7 @@
 var a23202 =
 [
-    [ "go_ahune_ice_spear", "dd/d80/a23202.html#a22922e47b819bc60e331cffbc7c353b3", null ],
-    [ "Reset", "dd/d80/a23202.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
-    [ "UpdateAI", "dd/d80/a23202.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
-    [ "_scheduler", "dd/d80/a23202.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
+    [ "PeriodicTick", "dd/d80/a23202.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "dd/d80/a23202.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "dd/d80/a23202.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "dd/d80/a23202.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

@@ -1,8 +1,7 @@
 var a21806 =
 [
-    [ "npc_ravenous_worgAI", "de/d6b/a21806.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "de/d6b/a21806.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "de/d6b/a21806.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "de/d6b/a21806.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "de/d6b/a21806.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "npc_tallhorn_stagAI", "de/d6b/a21806.html#a50947c450eece979193b45728e5e1f82", null ],
+    [ "Reset", "de/d6b/a21806.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
+    [ "UpdateAI", "de/d6b/a21806.html#adf60f62fa92238cb315c42e0179c3f17", null ],
+    [ "_phase", "de/d6b/a21806.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
 ];

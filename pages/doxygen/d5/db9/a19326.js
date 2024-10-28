@@ -1,6 +1,6 @@
 var a19326 =
 [
-    [ "npc_stormforged_lieutenantAI", "d4/dd9/a19330.html", "d4/dd9/a19330" ],
-    [ "npc_stormforged_lieutenant", "d5/db9/a19326.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
-    [ "GetAI", "d5/db9/a19326.html#ae3aba4b53e73097c261eaaed19f17950", null ]
+    [ "npc_spark_of_ionarAI", "d4/dd9/a19330.html", "d4/dd9/a19330" ],
+    [ "npc_spark_of_ionar", "d5/db9/a19326.html#a63578a0d77331849b7a48272870af04d", null ],
+    [ "GetAI", "d5/db9/a19326.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
 ];

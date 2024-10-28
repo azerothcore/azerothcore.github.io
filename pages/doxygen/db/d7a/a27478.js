@@ -1,7 +1,8 @@
 var a27478 =
 [
-    [ "npc_sayge", "db/d7a/a27478.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
-    [ "OnGossipHello", "db/d7a/a27478.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
-    [ "OnGossipSelect", "db/d7a/a27478.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
-    [ "SendAction", "db/d7a/a27478.html#aed1988335672423d024546654aa95298", null ]
+    [ "npc_wormholeAI", "da/d5f/a27482.html", "da/d5f/a27482" ],
+    [ "npc_wormhole", "db/d7a/a27478.html#aeace4cbf665409786b86140709191cb0", null ],
+    [ "GetAI", "db/d7a/a27478.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
+    [ "OnGossipHello", "db/d7a/a27478.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
+    [ "OnGossipSelect", "db/d7a/a27478.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
 ];

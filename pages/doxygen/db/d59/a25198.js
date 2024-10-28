@@ -1,7 +1,8 @@
 var a25198 =
 [
-    [ "ModDest", "db/d59/a25198.html#afe0fb68de61a657ce6900e71973e4d77", null ],
-    [ "ModifyCookingSkill", "db/d59/a25198.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
-    [ "PrepareSpellScript", "db/d59/a25198.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
-    [ "Register", "db/d59/a25198.html#a6919079b43a816eb601a68c51ad39794", null ]
+    [ "HandleApply", "db/d59/a25198.html#af20f30fe2bfc7a370b166a6200b44ca9", null ],
+    [ "OnPeriodic", "db/d59/a25198.html#a6b3223ef23854f22b9a3baba0d42cb11", null ],
+    [ "PrepareAuraScript", "db/d59/a25198.html#a344d1a92623865876174c0e88ce8ab4b", null ],
+    [ "Register", "db/d59/a25198.html#a352ff0e85eee6e51e9f2eea5cdd9108c", null ],
+    [ "Validate", "db/d59/a25198.html#ac4fd8fdde53f947082b23852ce149ea9", null ]
 ];

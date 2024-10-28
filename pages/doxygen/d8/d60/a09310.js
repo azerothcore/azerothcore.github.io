@@ -1,6 +1,8 @@
 var a09310 =
 [
-    [ "bossId", "d8/d60/a09310.html#ac7ce1fcc568ad1fe6bc8a20957357ed8", null ],
-    [ "entry", "d8/d60/a09310.html#a1a199d022692efe54e29a7cb90e73dee", null ],
-    [ "type", "d8/d60/a09310.html#ab5654860b5c27654fa0346e9e92a71fc", null ]
+    [ "InstResetEvent", "d8/d60/a09310.html#aefa8f2b1b2cf29ad3472712278741fa4", null ],
+    [ "InstResetEvent", "d8/d60/a09310.html#af6f80b924e52cd5296d21f4a5d1374c2", null ],
+    [ "difficulty", "d8/d60/a09310.html#a67afe513dd42370ac4bb385a7128a324", null ],
+    [ "mapid", "d8/d60/a09310.html#ad02e00b2782304fbd75973fe58eefd33", null ],
+    [ "type", "d8/d60/a09310.html#ad211513c7ed39269d464190398dabaed", null ]
 ];

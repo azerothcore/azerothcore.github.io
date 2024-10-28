@@ -1,14 +1,13 @@
 var a20998 =
 [
-    [ "npc_massive_jormungarAI", "d1/d55/a20998.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "d1/d55/a20998.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "JustDied", "d1/d55/a20998.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustEngagedWith", "d1/d55/a20998.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
-    [ "JustReachedHome", "d1/d55/a20998.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "d1/d55/a20998.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "d1/d55/a20998.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "d1/d55/a20998.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "d1/d55/a20998.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "d1/d55/a20998.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "d1/d55/a20998.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "npc_ravenous_furbolgAI", "d1/d55/a20998.html#a3e2a0cac8a02d2d6105b06b5c21f1628", null ],
+    [ "DoAction", "d1/d55/a20998.html#a837b442d7812b0c5708995d35c0d45f6", null ],
+    [ "JustDied", "d1/d55/a20998.html#a03e5dd969fcc2e3dcebc714247e18bf2", null ],
+    [ "JustEngagedWith", "d1/d55/a20998.html#a003eb350a11f3f5c2355a58958633f36", null ],
+    [ "JustReachedHome", "d1/d55/a20998.html#a09fc5ba4680c1e5a7a49a81c50cee540", null ],
+    [ "MoveInLineOfSight", "d1/d55/a20998.html#a0b4db9708b9b0288ddb1be2f2205e03a", null ],
+    [ "Reset", "d1/d55/a20998.html#aca5ae47050590ec22e6e929f44e09276", null ],
+    [ "UpdateAI", "d1/d55/a20998.html#ad044c04381a8d61a8fefc55129453ddf", null ],
+    [ "events", "d1/d55/a20998.html#a8bf068c63d7ae10c6edf0af3aab1a6c3", null ],
+    [ "m_pInstance", "d1/d55/a20998.html#aeb0a7644ada4d44e649b4ae45e0d2dc2", null ]
 ];

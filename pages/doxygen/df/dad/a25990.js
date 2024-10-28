@@ -1,6 +1,7 @@
 var a25990 =
 [
-    [ "HandleEffectCalcSpellMod", "df/dad/a25990.html#a81395c735b9546632af71319067b575b", null ],
-    [ "PrepareAuraScript", "df/dad/a25990.html#ad5a716f0644b1707aa6d179d564ceb80", null ],
-    [ "Register", "df/dad/a25990.html#ae49a0ec525819981595c12839133a35b", null ]
+    [ "HandleScriptEffect", "df/dad/a25990.html#a6c1ac025fa93caa08737387a18003612", null ],
+    [ "PrepareSpellScript", "df/dad/a25990.html#acb5ad05212399b06ed9bb64bb9203069", null ],
+    [ "Register", "df/dad/a25990.html#afbf989d514c308f466ecfd9957d2d177", null ],
+    [ "Validate", "df/dad/a25990.html#a2f48b1903edef1a5bb8beeddc8879aa4", null ]
 ];

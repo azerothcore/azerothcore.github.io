@@ -1,8 +1,9 @@
 var a20482 =
 [
-    [ "boss_thorim_pillarAI", "d9/d3e/a20482.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
-    [ "Reset", "d9/d3e/a20482.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
-    [ "SpellHit", "d9/d3e/a20482.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
-    [ "UpdateAI", "d9/d3e/a20482.html#afd8e05444eeea620a7ef21e97c345d41", null ],
-    [ "_resetTimer", "d9/d3e/a20482.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
+    [ "boss_thorim_gauntlet_npcsAI", "d9/d3e/a20482.html#aaa7e94f653a1db001cd0c962fb855098", null ],
+    [ "JustEngagedWith", "d9/d3e/a20482.html#afaf0a05b1fd2fc2187b52328340b65bb", null ],
+    [ "Reset", "d9/d3e/a20482.html#a9e4c25742785809d788f2e910f7840bc", null ],
+    [ "UpdateAI", "d9/d3e/a20482.html#a4dd5a9cbbb10d514a0473dfd7cdd3c29", null ],
+    [ "_isCaster", "d9/d3e/a20482.html#a104f447cc52c285d59653a8ebff20fef", null ],
+    [ "events", "d9/d3e/a20482.html#a650508e05b6fa1af538a0b34e04c8bf5", null ]
 ];

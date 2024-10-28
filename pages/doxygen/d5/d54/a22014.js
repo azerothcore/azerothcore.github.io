@@ -1,6 +1,6 @@
 var a22014 =
 [
-    [ "npc_guardian_pavilionAI", "db/d28/a22018.html", "db/d28/a22018" ],
-    [ "npc_guardian_pavilion", "d5/d54/a22014.html#aecc7e93f2b50351584049f031362e0f0", null ],
-    [ "GetAI", "d5/d54/a22014.html#a89e55b3267cd93ae688573678851c7b9", null ]
+    [ "npc_blessed_bannerAI", "db/d28/a22018.html", "db/d28/a22018" ],
+    [ "npc_blessed_banner", "d5/d54/a22014.html#a779a0c653088b2d206226e146a19101f", null ],
+    [ "GetAI", "d5/d54/a22014.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
 ];

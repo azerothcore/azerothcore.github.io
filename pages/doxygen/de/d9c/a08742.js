@@ -1,8 +1,10 @@
 var a08742 =
 [
-    [ "MailLevelReward", "de/d9c/a08742.html#accd52642cbbab457b69dba54a6ffa23b", null ],
-    [ "MailLevelReward", "de/d9c/a08742.html#a3e98aa5c30b0b5648784f9aaf5349a76", null ],
-    [ "mailTemplateId", "de/d9c/a08742.html#afdf6684bcd2751822bd00ba1509ef933", null ],
-    [ "raceMask", "de/d9c/a08742.html#a341088acd89b79161d932367f4f1798d", null ],
-    [ "senderEntry", "de/d9c/a08742.html#a2b678ac953209691b38d583cffab55b5", null ]
+    [ "PetLevelInfo", "de/d9c/a08742.html#ad8e757abeae500063e963ffef5469809", null ],
+    [ "armor", "de/d9c/a08742.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
+    [ "health", "de/d9c/a08742.html#a322dcab3af8f98726aa6addf38e8891b", null ],
+    [ "mana", "de/d9c/a08742.html#a27352e73d6ed3945e398e0634dee1e96", null ],
+    [ "max_dmg", "de/d9c/a08742.html#a092f2600f64f2af885142b2e96d1fe64", null ],
+    [ "min_dmg", "de/d9c/a08742.html#a299d1c7f4c28893e09de79cd816afa95", null ],
+    [ "stats", "de/d9c/a08742.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
 ];

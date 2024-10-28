@@ -1,7 +1,8 @@
 var a16278 =
 [
-    [ "npc_toc_retro_paladinAI", "d1/d94/a16278.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "d1/d94/a16278.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "d1/d94/a16278.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "d1/d94/a16278.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "npc_toc_pet_hunterAI", "d1/d94/a16278.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
+    [ "EnterEvadeMode", "d1/d94/a16278.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
+    [ "myCanCast", "d1/d94/a16278.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
+    [ "UpdateAI", "d1/d94/a16278.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
+    [ "events", "d1/d94/a16278.html#ade038312363f976b34868ed2cbebb58d", null ]
 ];

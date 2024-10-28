@@ -1,6 +1,6 @@
 var a21478 =
 [
-    [ "npc_valiance_keep_cannoneerAI", "de/d30/a21482.html", "de/d30/a21482" ],
-    [ "npc_valiance_keep_cannoneer", "d1/d45/a21478.html#a11f6060a7c6cd7be60001f5c259c94d3", null ],
-    [ "GetAI", "d1/d45/a21478.html#a8bfc1505dedee28d1517ba6a7738ffd5", null ]
+    [ "npc_hidden_cultistAI", "de/d30/a21482.html", "de/d30/a21482" ],
+    [ "npc_hidden_cultist", "d1/d45/a21478.html#ab455b35fea966360e01fb8975adad989", null ],
+    [ "GetAI", "d1/d45/a21478.html#a4897006d9416f1177b0bc0e41df60293", null ]
 ];

@@ -1,8 +1,9 @@
 var a14386 =
 [
-    [ "npc_doomfire_spirit", "d3/dce/a14386.html#a3d16e8437c2e90ad1ab5de609f4fcff0", null ],
-    [ "Reset", "d3/dce/a14386.html#a0600718fad91723eba74b903583c5942", null ],
-    [ "TryTeleportInDirection", "d3/dce/a14386.html#a7fc48df636df66a006a8179fd63e2a65", null ],
-    [ "UpdateAI", "d3/dce/a14386.html#aa0d953c28f25e2838f3b24364b51f10b", null ],
-    [ "turnConstant", "d3/dce/a14386.html#afeab7c791c31457d86e98a0064fa6ad8", null ]
+    [ "boss_azgalor", "d3/dce/a14386.html#ac794e0eacc2d543fa62e4b521089f080", null ],
+    [ "DoAction", "d3/dce/a14386.html#a43d7afa9da1375f431df871e2a1dfff2", null ],
+    [ "JustDied", "d3/dce/a14386.html#a49cc8abf458f82ad7d46c9c1563f0e98", null ],
+    [ "JustEngagedWith", "d3/dce/a14386.html#a4b067c3bccbd5f9c96c50d009250d3d0", null ],
+    [ "KilledUnit", "d3/dce/a14386.html#a04df1058e89ccc6e7ef2d1dff38d47e7", null ],
+    [ "_recentlySpoken", "d3/dce/a14386.html#abea34396ddde0aa02a073b2f3119fec9", null ]
 ];

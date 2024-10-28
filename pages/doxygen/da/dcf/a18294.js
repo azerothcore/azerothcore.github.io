@@ -1,6 +1,6 @@
 var a18294 =
 [
-    [ "npc_valithria_portalAI", "d3/d99/a18298.html", "d3/d99/a18298" ],
-    [ "npc_valithria_portal", "da/dcf/a18294.html#a6014d7a57dfe5d21f63c03b3efcbdfc8", null ],
-    [ "GetAI", "da/dcf/a18294.html#a9770ad0bc3732f2271876bbc84885dc0", null ]
+    [ "npc_blazing_skeletonAI", "d3/d99/a18298.html", "d3/d99/a18298" ],
+    [ "npc_blazing_skeleton", "da/dcf/a18294.html#a158720704479946048472ffe0beec492", null ],
+    [ "GetAI", "da/dcf/a18294.html#af29ea4620ebafaa4d47ec9f37758af77", null ]
 ];

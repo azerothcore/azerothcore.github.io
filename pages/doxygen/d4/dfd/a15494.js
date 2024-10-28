@@ -1,6 +1,5 @@
 var a15494 =
 [
-    [ "SayerEntry", "d4/dfd/a15494.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "d4/dfd/a15494.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "d4/dfd/a15494.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "go_elune_fire", "d4/dfd/a15494.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
+    [ "OnGossipHello", "d4/dfd/a15494.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
 ];

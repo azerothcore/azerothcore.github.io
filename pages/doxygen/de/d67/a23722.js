@@ -1,10 +1,10 @@
 var a23722 =
 [
-    [ "npc_lord_sanguinar", "de/d67/a23722.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
-    [ "JustDied", "de/d67/a23722.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
-    [ "JustEngagedWith", "de/d67/a23722.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
-    [ "Reset", "de/d67/a23722.html#a25d998de67f88d4618f8f8d88681e68b", null ],
-    [ "UpdateAI", "de/d67/a23722.html#a27df1dbb76a650b8039690cab4ddad68", null ],
-    [ "_hasDied", "de/d67/a23722.html#a6f0a66b88b95412f443998190b142eaf", null ],
-    [ "_instance", "de/d67/a23722.html#aa610a2ca98d2fff376821dd243947096", null ]
+    [ "npc_thaladred", "de/d67/a23722.html#a2589c19d5cc48c0a5fd504aecddfaa90", null ],
+    [ "JustDied", "de/d67/a23722.html#acb50d54da8d8a422eab2b12aae5691b2", null ],
+    [ "JustEngagedWith", "de/d67/a23722.html#a376664a7801ed27214b614b262b57d1c", null ],
+    [ "Reset", "de/d67/a23722.html#a1ea5f71a78b8af971784c54048e3a6a0", null ],
+    [ "UpdateAI", "de/d67/a23722.html#ab5d1276a3ef79239cfcada00fd48e1cd", null ],
+    [ "_hasDied", "de/d67/a23722.html#a36d70481c9e6ebd20996fa1a4844a9d3", null ],
+    [ "_instance", "de/d67/a23722.html#ae034800974950fd97b9bc9d0a15590d5", null ]
 ];

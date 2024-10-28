@@ -1,6 +1,7 @@
 var a18730 =
 [
-    [ "npc_ioc_gunship_captainAI", "d0/d55/a18734.html", "d0/d55/a18734" ],
-    [ "npc_ioc_gunship_captain", "d9/d5f/a18730.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
-    [ "GetAI", "d9/d5f/a18730.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
+    [ "OnRemove", "d9/d5f/a18730.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "d9/d5f/a18730.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "d9/d5f/a18730.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "d9/d5f/a18730.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

@@ -1,6 +1,6 @@
 var a17670 =
 [
-    [ "npc_gas_cloudAI", "df/d4b/a17670.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
-    [ "CastMainSpell", "df/d4b/a17670.html#a61681f6f9616fe33274302d4160c709b", null ],
-    [ "_newTargetSelectTimer", "df/d4b/a17670.html#a6989b904abaa5b71362e43664f4b084d", null ]
+    [ "HandleScript", "df/d4b/a17670.html#aefdd306b81b44a0a5564eab5a0491e09", null ],
+    [ "PrepareSpellScript", "df/d4b/a17670.html#a68c0462bd108b04621f8288328f78b18", null ],
+    [ "Register", "df/d4b/a17670.html#aedaec0afc414800bc481a434592ffb5d", null ]
 ];

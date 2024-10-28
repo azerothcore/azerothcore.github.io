@@ -1,8 +1,4 @@
 var a22526 =
 [
-    [ "npc_yor", "dd/d67/a22526.html#a43ed8720d06c035085d481dbe6539dca", null ],
-    [ "JustEngagedWith", "dd/d67/a22526.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
-    [ "Reset", "dd/d67/a22526.html#aa698540b646fd870b33afbaf19ddbe07", null ],
-    [ "UpdateAI", "dd/d67/a22526.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
-    [ "_scheduler", "dd/d67/a22526.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
+    [ "instance_mana_tombs_InstanceMapScript", "dd/d67/a22526.html#a1523ad04993ce4ddf5b503355f7c856a", null ]
 ];

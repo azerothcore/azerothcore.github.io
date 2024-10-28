@@ -1,6 +1,6 @@
 var a17174 =
 [
-    [ "boss_blood_queen_lana_thelAI", "d5/dad/a17178.html", "d5/dad/a17178" ],
-    [ "boss_blood_queen_lana_thel", "d9/d66/a17174.html#a9f8fa906f01082caacd106abc2707b07", null ],
-    [ "GetAI", "d9/d66/a17174.html#a7873efd945bdb24228866f639e32879b", null ]
+    [ "FilterTargets", "d9/d66/a17174.html#aede4900c9b71bf60ca61e03dd0b63aa8", null ],
+    [ "PrepareSpellScript", "d9/d66/a17174.html#a2ddc1dc9c04297a80f6708e546fe5a58", null ],
+    [ "Register", "d9/d66/a17174.html#add40d7731b07b30b595f76f7d4e983f4", null ]
 ];

@@ -1,6 +1,9 @@
 var a22298 =
 [
-    [ "PrepareSpellScript", "da/d26/a22298.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
-    [ "RecalculateDamage", "da/d26/a22298.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
-    [ "Register", "da/d26/a22298.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
+    [ "npc_finklesteinAI", "d5/d5f/a22302.html", "d5/d5f/a22302" ],
+    [ "npc_finklestein", "da/d26/a22298.html#aa719b4bb95012c22ef8123e255e32edd", null ],
+    [ "GetAI", "da/d26/a22298.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
+    [ "OnGossipHello", "da/d26/a22298.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
+    [ "OnGossipSelect", "da/d26/a22298.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
+    [ "OnQuestAccept", "da/d26/a22298.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
 ];

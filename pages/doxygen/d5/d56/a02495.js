@@ -1,7 +1,7 @@
 var a02495 =
 [
-    [ "instance_hyjal", "d7/d74/a14470.html", "d7/d74/a14470" ],
-    [ "instance_hyjal::instance_mount_hyjal_InstanceMapScript", "d3/d2d/a14474.html", "d3/d2d/a14474" ],
+    [ "instance_hyjal", "db/d86/a14454.html", "db/d86/a14454" ],
+    [ "instance_hyjal::instance_mount_hyjal_InstanceMapScript", "da/db5/a14458.html", "da/db5/a14458" ],
     [ "AddSC_instance_mount_hyjal", "d5/d56/a02495.html#a5c7a0ad3a2ae9f82eb9c45fbf90d5b41", null ],
     [ "creatureData", "d5/d56/a02495.html#a412286b689bd324fedd65ddd8dde8afb", null ],
     [ "doorData", "d5/d56/a02495.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],

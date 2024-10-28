@@ -1,9 +1,4 @@
 var a12270 =
 [
-    [ "boss_curator", "dd/dec/a12270.html#a41b65078d0822ba87f3e40fc7bb10a40", null ],
-    [ "JustDied", "dd/dec/a12270.html#a5617f51f51304682d48af11fdb0c6b8b", null ],
-    [ "JustEngagedWith", "dd/dec/a12270.html#a848f477a101956662389cab5ffcc0727", null ],
-    [ "JustSummoned", "dd/dec/a12270.html#ac779d275e03e6ba190617d215b217ce5", null ],
-    [ "KilledUnit", "dd/dec/a12270.html#a9bfb89a8747251e4a84eb2f94a547f0d", null ],
-    [ "Reset", "dd/dec/a12270.html#af6fbf3c3d77f9f052f11974f7b54feab", null ]
+    [ "PrepareAuraScript", "dd/dec/a12270.html#aae5dc71af1a0fade2da9ee88875896a5", null ]
 ];

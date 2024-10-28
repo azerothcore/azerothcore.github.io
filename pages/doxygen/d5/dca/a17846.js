@@ -1,6 +1,6 @@
 var a17846 =
 [
-    [ "npc_ice_tombAI", "d4/d7d/a17850.html", "d4/d7d/a17850" ],
-    [ "npc_ice_tomb", "d5/dca/a17846.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
-    [ "GetAI", "d5/dca/a17846.html#ac99b7c9887e54a1764310bd3e079811a", null ]
+    [ "FilterTargets", "d5/dca/a17846.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
+    [ "PrepareSpellScript", "d5/dca/a17846.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
+    [ "Register", "d5/dca/a17846.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
 ];

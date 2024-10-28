@@ -1,5 +1,5 @@
 var a20350 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "d6/d95/a20350.html#a6308129d11989dadf0a5948c4a268e4b", null ],
-    [ "SpellHitTarget", "d6/d95/a20350.html#a3c254e16f62e7d2414d81062c91c2468", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_13", "d6/d95/a20350.html#a74b0cafbc4be4261c8f8f2af3671cbd9", null ],
+    [ "OnCheck", "d6/d95/a20350.html#ac91196d094f159932ad871ffa9c0f405", null ]
 ];

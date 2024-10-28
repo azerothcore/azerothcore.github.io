@@ -1,7 +1,7 @@
 var a21858 =
 [
-    [ "HandleScript", "dc/dfc/a21858.html#a95de3ae27cfd764380ab1648b49af38d", null ],
-    [ "Load", "dc/dfc/a21858.html#a1aafe141985bc1e9c5b9467d4896d96b", null ],
-    [ "PrepareSpellScript", "dc/dfc/a21858.html#a442138710213b9b120d8ce57b733205a", null ],
-    [ "Register", "dc/dfc/a21858.html#af9d8f764a6a02737f8b559f067156df6", null ]
+    [ "HandleDummy", "dc/dfc/a21858.html#abb5726c8afa66a946eefc8767094ea9b", null ],
+    [ "PrepareSpellScript", "dc/dfc/a21858.html#ab5d9f8125c75bbd8fbb2717516d3eddd", null ],
+    [ "Register", "dc/dfc/a21858.html#a38efc59fcbb40469521419723a1dceb3", null ],
+    [ "Validate", "dc/dfc/a21858.html#a93cf1b5dbc23bb25c4fe8aa24da0fd2e", null ]
 ];

@@ -1,6 +1,8 @@
 var a22926 =
 [
-    [ "HandleSchoolDamage", "da/d88/a22926.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
-    [ "PrepareSpellScript", "da/d88/a22926.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
-    [ "Register", "da/d88/a22926.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
+    [ "instance_black_temple_InstanceMapScript", "da/d88/a22926.html#aa59f4d11ca1418bb3df3a7d5b11795b9", null ],
+    [ "OnCreatureCreate", "da/d88/a22926.html#a814ac33238558b4e2a2ff57e6039d4fc", null ],
+    [ "OnGameObjectCreate", "da/d88/a22926.html#a564a49814ceb3b3161a6476335ab653a", null ],
+    [ "SetBossState", "da/d88/a22926.html#aadcbe48888eba0d0ed50eb9811ce40b0", null ],
+    [ "ashtongueGUIDs", "da/d88/a22926.html#a85fa9c5231f13529a0741b0f92266c90", null ]
 ];

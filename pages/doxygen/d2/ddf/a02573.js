@@ -1,6 +1,6 @@
 var a02573 =
 [
-    [ "boss_isalien", "db/d23/a14638.html", "db/d23/a14638" ],
+    [ "boss_isalien", "d5/def/a14622.html", "d5/def/a14622" ],
     [ "Phases", "d2/ddf/a02573.html#a5d32d09cde4f13ec4fb05a824d3e3219", [
       [ "PHASE_HUMAN", "db/d4b/a01883.html#a5d32d09cde4f13ec4fb05a824d3e3219aa89ac360fd4481a03c666986e321f9b6", null ],
       [ "PHASE_CAT", "db/d4b/a01883.html#a5d32d09cde4f13ec4fb05a824d3e3219a1b3fac79b38cbf006c4a86301ac01afb", null ],
@@ -929,7 +929,8 @@ var a02573 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

@@ -1,6 +1,8 @@
 var a27418 =
 [
-    [ "spawnedCreatureEntry", "d7/db6/a27418.html#a32b390dfff99d5fd3c49359779718af4", null ],
-    [ "spawnType", "d7/db6/a27418.html#a056dabf4092da4ef3155a661607ca772", null ],
-    [ "thisCreatureEntry", "d7/db6/a27418.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
+    [ "npc_chicken_cluckAI", "db/d08/a27422.html", "db/d08/a27422" ],
+    [ "npc_chicken_cluck", "d7/db6/a27418.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "d7/db6/a27418.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "d7/db6/a27418.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "d7/db6/a27418.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

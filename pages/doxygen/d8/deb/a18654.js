@@ -1,6 +1,5 @@
 var a18654 =
 [
-    [ "npc_icc_gauntlet_controllerAI", "df/db8/a18658.html", "df/db8/a18658" ],
-    [ "npc_icc_gauntlet_controller", "d8/deb/a18654.html#a5fc4c941842e25bc3da93686e588627b", null ],
-    [ "GetAI", "d8/deb/a18654.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
+    [ "at_icc_gauntlet_event", "d8/deb/a18654.html#ae8790bad655661aeda887f56b9393847", null ],
+    [ "OnTrigger", "d8/deb/a18654.html#a9329ec078db088b1c13144ac7ed7a13a", null ]
 ];

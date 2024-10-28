@@ -1,5 +1,5 @@
 var a11650 =
 [
-    [ "boss_high_priestess_thaurissan", "d5/d06/a11650.html#a53d3fd78f6a1a3b5028c6fc2940dfbd0", null ],
-    [ "GetAI", "d5/d06/a11650.html#a7d2bb83a766b8eaa9bdbbb0f45a4fe62", null ]
+    [ "boss_moira_bronzebeard", "d5/d06/a11650.html#abb9a87023b8afa242e60f9694dea1c39", null ],
+    [ "GetAI", "d5/d06/a11650.html#ad99554aac80c79933b78ab4b6d42cc4f", null ]
 ];

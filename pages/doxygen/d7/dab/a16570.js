@@ -1,6 +1,7 @@
 var a16570 =
 [
-    [ "npc_fos_corrupted_soul_fragmentAI", "de/dc6/a16574.html", "de/dc6/a16574" ],
-    [ "npc_fos_corrupted_soul_fragment", "d7/dab/a16570.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
-    [ "GetAI", "d7/dab/a16570.html#aed663e0a313223fcaa988b89b1b02df3", null ]
+    [ "HandlePeriodicTick", "d7/dab/a16570.html#abe9cc0a87d84504ee029cc565dd97ef5", null ],
+    [ "PrepareAuraScript", "d7/dab/a16570.html#a93e894c642101160dd51f30952c82d24", null ],
+    [ "Register", "d7/dab/a16570.html#a49172ede0f888e391b9b4a835475220a", null ],
+    [ "Validate", "d7/dab/a16570.html#a3b9998ef5ee0931afbe5b04430da10a0", null ]
 ];

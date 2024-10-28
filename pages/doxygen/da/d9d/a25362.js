@@ -1,6 +1,6 @@
 var a25362 =
 [
-    [ "CheckProc", "da/d9d/a25362.html#a393946dd3404c4b03a9a8ced7913ccaa", null ],
-    [ "PrepareAuraScript", "da/d9d/a25362.html#ae28075d0d66c99fb77a2c7fef678f4e2", null ],
-    [ "Register", "da/d9d/a25362.html#a3e0279f7dc724b4d49bfda4f0e417353", null ]
+    [ "HandleItemRemove", "da/d9d/a25362.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
+    [ "PrepareSpellScript", "da/d9d/a25362.html#a8b43e146724a2c8b3c495e886a79d021", null ],
+    [ "Register", "da/d9d/a25362.html#af8b02c31b81dce516ea47d6a1235d683", null ]
 ];

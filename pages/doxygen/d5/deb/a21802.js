@@ -1,6 +1,6 @@
 var a21802 =
 [
-    [ "npc_ravenous_worgAI", "de/d6b/a21806.html", "de/d6b/a21806" ],
-    [ "npc_ravenous_worg", "d5/deb/a21802.html#ad7f8da1c82072367fe4a537620df9ac0", null ],
-    [ "GetAI", "d5/deb/a21802.html#ac966ae31d3a86c9435b14d9f50a5f4cb", null ]
+    [ "npc_tallhorn_stagAI", "de/d6b/a21806.html", "de/d6b/a21806" ],
+    [ "npc_tallhorn_stag", "d5/deb/a21802.html#aff7f23376c27312894c9a042f6a0f848", null ],
+    [ "GetAI", "d5/deb/a21802.html#a3d993542271c80982adcee9a9d60e46b", null ]
 ];

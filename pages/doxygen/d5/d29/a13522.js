@@ -1,5 +1,6 @@
 var a13522 =
 [
-    [ "npc_andorhal_towerAI", "d5/d29/a13522.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
-    [ "MoveInLineOfSight", "d5/d29/a13522.html#a1165ee0e066dcaeb300096e55758389b", null ]
+    [ "npc_andorhal_towerAI", "dd/de8/a13526.html", "dd/de8/a13526" ],
+    [ "npc_andorhal_tower", "d5/d29/a13522.html#abf63419b6c10af47f5e5df1a4e7320e7", null ],
+    [ "GetAI", "d5/d29/a13522.html#a51139c28da736d26bf27a061862d24ee", null ]
 ];

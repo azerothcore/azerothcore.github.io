@@ -1,6 +1,6 @@
 var a16630 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d3/d8c/a16634.html", "d3/d8c/a16634" ],
-    [ "instance_forge_of_souls", "d4/d8f/a16630.html#a504896f6e191c87ce77231c4ef267b27", null ],
-    [ "GetInstanceScript", "d4/d8f/a16630.html#a64982b527cfa6057315b8e628549480b", null ]
+    [ "boss_marwynAI", "d3/d8c/a16634.html", "d3/d8c/a16634" ],
+    [ "boss_marwyn", "d4/d8f/a16630.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
+    [ "GetAI", "d4/d8f/a16630.html#af1c83878d2121163994bc327ae8e04f7", null ]
 ];

@@ -1,7 +1,8 @@
 var a26790 =
 [
-    [ "HandleDummy", "de/d1d/a26790.html#a0eae8fe2faee05bad7a34e84dddd3317", null ],
-    [ "PrepareSpellScript", "de/d1d/a26790.html#a24634405a8d0ccdd22f4832815262446", null ],
-    [ "Register", "de/d1d/a26790.html#a3394b9b9e5899550251d553ac9f77f8a", null ],
-    [ "Validate", "de/d1d/a26790.html#ae56a900b3484fd6397d38c4ad8efe5c2", null ]
+    [ "HandleDummy", "de/d1d/a26790.html#ad2eec86cff225cc0bd806e31596fb127", null ],
+    [ "PrepareSpellScript", "de/d1d/a26790.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
+    [ "Register", "de/d1d/a26790.html#a6c72b4c813368774283ae94036a43ee2", null ],
+    [ "SendMiss", "de/d1d/a26790.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
+    [ "Validate", "de/d1d/a26790.html#a9a5014de08f73ad5dad29354812030ac", null ]
 ];

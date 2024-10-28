@@ -1,6 +1,6 @@
 var a21506 =
 [
-    [ "npc_bloodmage_laurithAI", "d1/dee/a21510.html", "d1/dee/a21510" ],
-    [ "npc_bloodmage_laurith", "df/d52/a21506.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
-    [ "GetAI", "df/d52/a21506.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
+    [ "npc_thassarian2AI", "d1/dee/a21510.html", "d1/dee/a21510" ],
+    [ "npc_thassarian2", "df/d52/a21506.html#a8a2f1e1595349e4fa9968e85f17d0468", null ],
+    [ "GetAI", "df/d52/a21506.html#adb87c99f3375f88eca55b39e1cd0bbd5", null ]
 ];

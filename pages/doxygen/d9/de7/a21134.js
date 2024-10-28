@@ -1,6 +1,6 @@
 var a21134 =
 [
-    [ "HandleOnHit", "d9/de7/a21134.html#a032001817b4c07dca0f3619116bd7158", null ],
-    [ "PrepareSpellScript", "d9/de7/a21134.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
-    [ "Register", "d9/de7/a21134.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
+    [ "HandleDummy", "d9/de7/a21134.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
+    [ "PrepareSpellScript", "d9/de7/a21134.html#abb80edac9217487c4be085f12295691e", null ],
+    [ "Register", "d9/de7/a21134.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
 ];

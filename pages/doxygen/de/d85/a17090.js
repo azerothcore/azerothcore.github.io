@@ -1,6 +1,6 @@
 var a17090 =
 [
-    [ "boss_prince_valanarAI", "d7/da7/a17094.html", "d7/da7/a17094" ],
-    [ "boss_prince_valanar_icc", "de/d85/a17090.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
-    [ "GetAI", "de/d85/a17090.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
+    [ "npc_dark_nucleusAI", "d7/da7/a17094.html", "d7/da7/a17094" ],
+    [ "npc_dark_nucleus", "de/d85/a17090.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
+    [ "GetAI", "de/d85/a17090.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
 ];

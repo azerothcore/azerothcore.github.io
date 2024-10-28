@@ -1,10 +1,10 @@
 var a02594 =
 [
-    [ "PyramidEventData", "d8/df0/a15514.html", "d8/df0/a15514" ],
-    [ "instance_zulfarrak", "d3/d56/a15518.html", "d3/d56/a15518" ],
-    [ "instance_zulfarrak::instance_zulfarrak_InstanceMapScript", "d4/d78/a15522.html", "d4/d78/a15522" ],
-    [ "spell_zulfarrak_summon_zulfarrak_zombies", "d5/d2b/a15526.html", "d5/d2b/a15526" ],
-    [ "spell_zulfarrak_unlocking", "d4/d4b/a15530.html", "d4/d4b/a15530" ],
+    [ "PyramidEventData", "dc/d0f/a15498.html", "dc/d0f/a15498" ],
+    [ "instance_zulfarrak", "d4/dec/a15502.html", "d4/dec/a15502" ],
+    [ "instance_zulfarrak::instance_zulfarrak_InstanceMapScript", "d6/d5e/a15506.html", "d6/d5e/a15506" ],
+    [ "spell_zulfarrak_summon_zulfarrak_zombies", "d2/d5a/a15510.html", "d2/d5a/a15510" ],
+    [ "spell_zulfarrak_unlocking", "d8/df0/a15514.html", "d8/df0/a15514" ],
     [ "Misc", "db/d8b/a02594.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d0/d2b/a01997.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/da8/a01865.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],
@@ -171,6 +171,9 @@ var a02594 =
       [ "DATA_NEGATIVE_ENERGY_TARGETS", "d1/dce/a02168.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a988392416213171dc24d639763771cb2", null ],
       [ "ITEM_FRAGMENT", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8c167711f76366adc8cf61625480f6da", null ],
       [ "NPC_TWILIGHT_CORRUPTER", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
+      [ "MAX_BOMB_COUNT", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
+      [ "SCHEDULER_GROUP_HATCHING", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a60817628f0ac235a3cafc6215f674a42", null ],
+      [ "EVENT_BERSERK", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a94f1144a24a622ff9e12ebe57137f266", null ],
       [ "MAX_ENCOUNTER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7913656ef56deb3793c0c5f3d999d80d", null ],
       [ "RAND_VENDOR", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ac1150c56f4c1aa81c823e2f9892ff818", null ],
       [ "WORLDSTATE_SHOW_TIMER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad9983a17d117d785671b552859fb22ec", null ],

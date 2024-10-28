@@ -1,9 +1,7 @@
 var a10494 =
 [
-    [ "RandomRoll", "de/da7/a10494.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
-    [ "Write", "de/da7/a10494.html#aab5879874745603dd448a7f5084d60d4", null ],
-    [ "Max", "de/da7/a10494.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
-    [ "Min", "de/da7/a10494.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
-    [ "Result", "de/da7/a10494.html#a34fd2c1d018bb292836724671163ff07", null ],
-    [ "Roller", "de/da7/a10494.html#af02aa97826259885791d0f4afc0c1a84", null ]
+    [ "RandomRollClient", "de/da7/a10494.html#a6d2edee5a6dbafd5b6194b60eeb0aafb", null ],
+    [ "Read", "de/da7/a10494.html#ab682763f35a40f776b1742927df0a336", null ],
+    [ "Max", "de/da7/a10494.html#a45a1e140ed402f54deb4c0798360a43a", null ],
+    [ "Min", "de/da7/a10494.html#a3cd07e7891b43b453b56013d76f51f71", null ]
 ];

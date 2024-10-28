@@ -1,6 +1,6 @@
 var a18454 =
 [
-    [ "npc_captain_grondelAI", "d8/d24/a18458.html", "d8/d24/a18458" ],
-    [ "npc_captain_grondel", "da/dec/a18454.html#a54a53f8e3cde87405219c815a56d523c", null ],
-    [ "GetAI", "da/dec/a18454.html#a2a7725e81294e80701b7742d2605ec00", null ]
+    [ "npc_frostwing_vrykulAI", "d8/d24/a18458.html", "d8/d24/a18458" ],
+    [ "npc_frostwing_vrykul", "da/dec/a18454.html#ab915aa094ddebd9201a1c626e6427409", null ],
+    [ "GetAI", "da/dec/a18454.html#a11678e59b6db9a41c7b6a575339995fd", null ]
 ];

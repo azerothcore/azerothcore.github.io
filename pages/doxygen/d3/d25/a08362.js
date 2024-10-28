@@ -1,9 +1,13 @@
 var a08362 =
 [
-    [ "EntryPointData", "d3/d25/a08362.html#a1852523ba9ca889cdd6731c63de759e2", null ],
-    [ "ClearTaxiPath", "d3/d25/a08362.html#a4aee0d4ef3850fb486987ae6fe78ee91", null ],
-    [ "HasTaxiPath", "d3/d25/a08362.html#afd310b2f367ec7df76f01689ea120e6e", null ],
-    [ "joinPos", "d3/d25/a08362.html#abfdc0ccd945f60e0a3ec37d278c96940", null ],
-    [ "mountSpell", "d3/d25/a08362.html#a06e1cadac24a2ab90e57373692f829dc", null ],
-    [ "taxiPath", "d3/d25/a08362.html#a5af670fa420b250c22e0f3237e753a6f", null ]
+    [ "BGData", "d3/d25/a08362.html#a91ccfa5183ef5996fb4bdf78567c09ba", null ],
+    [ "bgAfkReportedCount", "d3/d25/a08362.html#ab7374e7b8fc6607dd6b4f04385e80ca3", null ],
+    [ "bgAfkReportedTimer", "d3/d25/a08362.html#a51f8f4e05dc0224982af9a61d2dfae36", null ],
+    [ "bgAfkReporter", "d3/d25/a08362.html#a94047ac71676b7914e058aac8a8cb0ea", null ],
+    [ "bgInstanceID", "d3/d25/a08362.html#a8eff26fd78b5763501a3f5460de4e551", null ],
+    [ "bgIsRandom", "d3/d25/a08362.html#a6f25dd5c9dc6afcc7964a5d0b7d1444c", null ],
+    [ "bgQueueSlot", "d3/d25/a08362.html#a1c77bcf4135d994f0801558adca02f40", null ],
+    [ "bgTeamId", "d3/d25/a08362.html#ac97f7cafb6ae69a12588e40328cdc0cb", null ],
+    [ "bgTypeID", "d3/d25/a08362.html#a3398da6a15fd66cdd8dc172997d3786b", null ],
+    [ "isInvited", "d3/d25/a08362.html#a8e23a1664eedf33b2195d2d8d5b01b82", null ]
 ];

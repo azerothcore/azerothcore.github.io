@@ -1,6 +1,7 @@
 var a12806 =
 [
-    [ "npc_scholomance_occultistAI", "d3/de0/a12810.html", "d3/de0/a12810" ],
-    [ "npc_scholomance_occultist", "db/d00/a12806.html#adf100912a15ff8edf056efa7eebd13ff", null ],
-    [ "GetAI", "db/d00/a12806.html#a5da2b011ec4859523c1f713dc18e4d5b", null ]
+    [ "OnApply", "db/d00/a12806.html#af266d5c798e43fc4d7065cb0a1e5cf7c", null ],
+    [ "OnRemove", "db/d00/a12806.html#a764f5c726042ddae0f352b326d23866b", null ],
+    [ "PrepareAuraScript", "db/d00/a12806.html#ace35d5e3231daf694281cd54e4e79c94", null ],
+    [ "Register", "db/d00/a12806.html#a7f44154ce5949661d62bc066939c7ea0", null ]
 ];

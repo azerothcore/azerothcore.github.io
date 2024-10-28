@@ -1,5 +1,5 @@
 var a18674 =
 [
-    [ "at_icc_putricide_trap", "d7/d50/a18674.html#a9d4183629deada9c22750b8a34e94583", null ],
-    [ "OnTrigger", "d7/d50/a18674.html#ad59c2f694c50fabf1946d2c7ae726413", null ]
+    [ "at_frozen_throne_teleport", "d7/d50/a18674.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "d7/d50/a18674.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

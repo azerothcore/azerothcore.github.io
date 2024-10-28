@@ -1,6 +1,6 @@
 var a13046 =
 [
-    [ "boss_kalecgosAI", "d9/ddc/a13050.html", "d9/ddc/a13050" ],
-    [ "boss_kalecgos", "d0/dba/a13046.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
-    [ "GetAI", "d0/dba/a13046.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
+    [ "FilterTargets", "d0/dba/a13046.html#ac7f7287b88cde82fbf8a625f002c86fa", null ],
+    [ "PrepareSpellScript", "d0/dba/a13046.html#a222e2c8e5401c132e89b29bbd22d46a6", null ],
+    [ "Register", "d0/dba/a13046.html#a1a3607dd7e3d56bde3b92cbf4bcd0e78", null ]
 ];

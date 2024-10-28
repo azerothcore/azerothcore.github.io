@@ -1,5 +1,9 @@
 var a26970 =
 [
-    [ "AreaTrigger_at_sentry_point", "d8/da1/a26970.html#a9c27f669aba3be1a83fdd1c99a8af4cf", null ],
-    [ "OnTrigger", "d8/da1/a26970.html#ab59fb74f4f988c208359855d2e4d9918", null ]
+    [ "emerald_dragonAI", "d8/da1/a26970.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
+    [ "ExecuteEvent", "d8/da1/a26970.html#a6e60f146c7b86a119f269bf755831ac6", null ],
+    [ "JustSummoned", "d8/da1/a26970.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
+    [ "KilledUnit", "d8/da1/a26970.html#a69b24bf865ecd38822d5602314cddf11", null ],
+    [ "Reset", "d8/da1/a26970.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
+    [ "UpdateAI", "d8/da1/a26970.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
 ];

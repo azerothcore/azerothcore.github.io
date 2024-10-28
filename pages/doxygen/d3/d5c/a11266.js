@@ -1,11 +1,7 @@
 var a11266 =
 [
-    [ "arena_commandscript", "d3/d5c/a11266.html#ad433113f5a3cf7f2cb43ff4fd3f0d49d", null ],
-    [ "GetCommands", "d3/d5c/a11266.html#a3a5e95fca957fd1898d6a7acea98931e", null ],
-    [ "HandleArenaCaptainCommand", "d3/d5c/a11266.html#a7b7123c837bbecb1a4d3d2e8aa934d4c", null ],
-    [ "HandleArenaCreateCommand", "d3/d5c/a11266.html#a10eab39042cb718d839fbdf7236b1a31", null ],
-    [ "HandleArenaDisbandCommand", "d3/d5c/a11266.html#a012626d4c101a63d9a70c530c9e98354", null ],
-    [ "HandleArenaInfoCommand", "d3/d5c/a11266.html#a90fc70aae7b3e0fec179a0a1a7482c11", null ],
-    [ "HandleArenaLookupCommand", "d3/d5c/a11266.html#a7356c0a45dcf32809a32fe6053b94de0", null ],
-    [ "HandleArenaRenameCommand", "d3/d5c/a11266.html#a4095683ee7b5a2236dac8aa36a607d7c", null ]
+    [ "achievement_commandscript", "d3/d5c/a11266.html#ac1c40d7b3b628cc206c44eae18592292", null ],
+    [ "GetCommands", "d3/d5c/a11266.html#adeac4e6f74f006daa76b0ebb8ea1469c", null ],
+    [ "HandleAchievementAddCommand", "d3/d5c/a11266.html#ac4f6addfb0c52d584bf8081436aa3d7a", null ],
+    [ "HandleAchievementCheckAllCommand", "d3/d5c/a11266.html#a0e3b83961ff20899a8492c8d8b7c13be", null ]
 ];

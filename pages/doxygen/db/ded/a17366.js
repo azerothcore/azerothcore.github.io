@@ -1,6 +1,6 @@
 var a17366 =
 [
-    [ "npc_muradin_bronzebeard_igbAI", "de/d5f/a17370.html", "de/d5f/a17370" ],
-    [ "npc_muradin_bronzebeard_igb", "db/ded/a17366.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
-    [ "GetAI", "db/ded/a17366.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
+    [ "npc_igb_ship_crewAI", "de/d5f/a17370.html", "de/d5f/a17370" ],
+    [ "npc_igb_ship_crew", "db/ded/a17366.html#a5f4380aba94766a6a75b97026998b881", null ],
+    [ "GetAI", "db/ded/a17366.html#a48955817e21a01a726b50685b467c229", null ]
 ];

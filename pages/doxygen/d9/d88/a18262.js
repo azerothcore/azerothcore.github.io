@@ -1,6 +1,6 @@
 var a18262 =
 [
-    [ "boss_valithria_dreamwalkerAI", "d8/d59/a18266.html", "d8/d59/a18266" ],
-    [ "boss_valithria_dreamwalker", "d9/d88/a18262.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
-    [ "GetAI", "d9/d88/a18262.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
+    [ "npc_the_lich_king_controllerAI", "d8/d59/a18266.html", "d8/d59/a18266" ],
+    [ "npc_the_lich_king_controller", "d9/d88/a18262.html#a32b14d699737497ba7c90d8ef17557d7", null ],
+    [ "GetAI", "d9/d88/a18262.html#ae9b6dacb0f4e8e6f12f187ab0dfd2165", null ]
 ];

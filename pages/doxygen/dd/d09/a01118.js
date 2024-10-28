@@ -1,6 +1,6 @@
 var a01118 =
 [
-    [ "boss_pandemonius", "d5/d89/a22530.html", "d5/d89/a22530" ],
+    [ "boss_pandemonius", "d1/dcb/a22514.html", "d1/dcb/a22514" ],
     [ "Groups", "dd/d09/a01118.html#aab072245ab577ff0e12efe20a536b99a", [
       [ "GROUP_PRECOMBAT_TALK", "d2/d31/a02087.html#aab072245ab577ff0e12efe20a536b99aa3e7953992f23b2eba8d8498bfc66e01d", null ],
       [ "PORTAL_PHASE", "d2/d50/a02081.html#aab072245ab577ff0e12efe20a536b99aa8f7d8b62b79ce76fc356b355521db829", null ],
@@ -843,7 +843,8 @@ var a01118 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

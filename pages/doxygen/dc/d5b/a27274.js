@@ -1,5 +1,5 @@
 var a27274 =
 [
-    [ "item_only_for_flight", "dc/d5b/a27274.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
-    [ "OnUse", "dc/d5b/a27274.html#a88cdf17a85630aef703f93143ba41d4d", null ]
+    [ "item_disgusting_jar", "dc/d5b/a27274.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
+    [ "OnExpire", "dc/d5b/a27274.html#a4f6967035a4d247914a6034fcebac5c5", null ]
 ];

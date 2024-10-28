@@ -1,6 +1,6 @@
 var a22250 =
 [
-    [ "npc_wg_queueAI", "d7/d27/a22250.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "d7/d27/a22250.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "d7/d27/a22250.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "go_wg_vehicle_teleporterAI", "d7/de8/a22254.html", "d7/de8/a22254" ],
+    [ "go_wg_vehicle_teleporter", "d7/d27/a22250.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
+    [ "GetAI", "d7/d27/a22250.html#a113aaf42c095000c1a016bfe60df11e7", null ]
 ];

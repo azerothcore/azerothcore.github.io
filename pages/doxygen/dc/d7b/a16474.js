@@ -1,5 +1,6 @@
 var a16474 =
 [
-    [ "achievement_better_off_dred", "dc/d7b/a16474.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
-    [ "OnCheck", "dc/d7b/a16474.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
+    [ "HandleEffectApply", "dc/d7b/a16474.html#aaea2c3733dadc19072c81774468e345a", null ],
+    [ "PrepareAuraScript", "dc/d7b/a16474.html#a3848997e9f775add50d40342b6211ff0", null ],
+    [ "Register", "dc/d7b/a16474.html#a775b1cf494049ed13d149ca6318142c3", null ]
 ];

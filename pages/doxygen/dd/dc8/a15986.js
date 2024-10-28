@@ -1,7 +1,17 @@
 var a15986 =
 [
-    [ "CountAllies", "dd/dc8/a15986.html#a207c1fd89fd726054a881e342391d2a0", null ],
-    [ "PrepareSpellScript", "dd/dc8/a15986.html#ae1e230ad204a280a261ebe0f21c7f8a5", null ],
-    [ "Register", "dd/dc8/a15986.html#a47574795b2a262625c65ab23a4179684", null ],
-    [ "Validate", "dd/dc8/a15986.html#a0178e7c4f5509a4bb2c6ed3811fc9685", null ]
+    [ "boss_paletressAI", "dd/dc8/a15986.html#a3bd22d082434895c4779b121f926a8c4", null ],
+    [ "DamageTaken", "dd/dc8/a15986.html#a54af3ec8de6d0fdb17ae0499645a02bd", null ],
+    [ "DoAction", "dd/dc8/a15986.html#a30babeb3c9644af4e9c6cbc879317299", null ],
+    [ "JustEngagedWith", "dd/dc8/a15986.html#ab8e8485765502d39cb4311d92ac98441", null ],
+    [ "JustSummoned", "dd/dc8/a15986.html#a82df372b8216703b8377ff334aa64684", null ],
+    [ "KilledUnit", "dd/dc8/a15986.html#af9aa74ec5a3c88475734f864ec307563", null ],
+    [ "MovementInform", "dd/dc8/a15986.html#a0ececc88bc520584d1c7baf8d7a5e7f6", null ],
+    [ "Reset", "dd/dc8/a15986.html#af216c7ce539b5e8ce80223270f202603", null ],
+    [ "SummonMemory", "dd/dc8/a15986.html#ae9daef57101d1ab25e9c6fb6980b05ff", null ],
+    [ "UpdateAI", "dd/dc8/a15986.html#a6f8c8d20fbfff32d34cd30f9c3a757a6", null ],
+    [ "events", "dd/dc8/a15986.html#a4b19d38e2a84097c7c47c434d66be052", null ],
+    [ "MemoryGUID", "dd/dc8/a15986.html#a5b2d80b38623174b7913ed4d893f03c9", null ],
+    [ "pInstance", "dd/dc8/a15986.html#a9ef97ec685e516e80b792fa1d7e891c1", null ],
+    [ "summoned", "dd/dc8/a15986.html#a6064594bc0e9bd008b76d498f4cdc36c", null ]
 ];

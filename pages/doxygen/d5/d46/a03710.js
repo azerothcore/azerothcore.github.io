@@ -1,8 +1,8 @@
 var a03710 =
 [
-    [ "Petition", "de/d8a/a09846.html", "de/d8a/a09846" ],
-    [ "Signatures", "d5/de8/a09850.html", "d5/de8/a09850" ],
-    [ "PetitionMgr", "da/d98/a09854.html", "da/d98/a09854" ],
+    [ "Petition", "d5/de8/a09850.html", "d5/de8/a09850" ],
+    [ "Signatures", "da/d98/a09854.html", "da/d98/a09854" ],
+    [ "PetitionMgr", "d8/dfa/a09858.html", "d8/dfa/a09858" ],
     [ "CHARTER_DISPLAY_ID", "d5/d46/a03710.html#a33856c1d078b61fa0516a63176297c49", null ],
     [ "sPetitionMgr", "d5/d46/a03710.html#a2910b9c8b8c58925b562acf66b3e46d2", null ],
     [ "PetitionContainer", "d5/d46/a03710.html#a223a8d1b8f865a0d4e8f100758e36bce", null ],

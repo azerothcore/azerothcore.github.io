@@ -1,9 +1,5 @@
 var a16762 =
 [
-    [ "npc_hor_risen_witch_doctorAI", "df/d9c/a16762.html#acd33d4811521f6d41bce21270198db45", null ],
-    [ "JustDied", "df/d9c/a16762.html#a49eb1c20ef810d0e4aeea8f99fcabebb", null ],
-    [ "JustEngagedWith", "df/d9c/a16762.html#a54378daf294fcbee4ba1abf14927cc52", null ],
-    [ "Reset", "df/d9c/a16762.html#a20742bb0fe610367283cd5dc7e8b36ff", null ],
-    [ "UpdateAI", "df/d9c/a16762.html#af9baaf71fa53a42ab5d1507fdd6aa9fd", null ],
-    [ "events", "df/d9c/a16762.html#abb39744cdcdc8e1fbf8fd06508af35f9", null ]
+    [ "at_hor_battered_hilt_start", "df/d9c/a16762.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
+    [ "OnTrigger", "df/d9c/a16762.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
 ];

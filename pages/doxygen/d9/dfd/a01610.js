@@ -1,9 +1,9 @@
 var a01610 =
 [
-    [ "boss_razuvious", "dd/d0d/a18942.html", "dd/d0d/a18942" ],
-    [ "boss_razuvious::boss_razuviousAI", "da/d9c/a18946.html", "da/d9c/a18946" ],
-    [ "boss_razuvious_minion", "d9/d28/a18950.html", "d9/d28/a18950" ],
-    [ "boss_razuvious_minion::boss_razuvious_minionAI", "df/d3f/a18954.html", "df/d3f/a18954" ],
+    [ "boss_razuvious", "db/dc9/a18926.html", "db/dc9/a18926" ],
+    [ "boss_razuvious::boss_razuviousAI", "d4/d54/a18930.html", "d4/d54/a18930" ],
+    [ "boss_razuvious_minion", "d1/d48/a18934.html", "d1/d48/a18934" ],
+    [ "boss_razuvious_minion::boss_razuvious_minionAI", "de/db7/a18938.html", "de/db7/a18938" ],
     [ "Actions", "d9/dfd/a01610.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],
@@ -1547,6 +1547,9 @@ var a01610 =
       [ "DATA_NEGATIVE_ENERGY_TARGETS", "d1/dce/a02168.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a988392416213171dc24d639763771cb2", null ],
       [ "ITEM_FRAGMENT", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8c167711f76366adc8cf61625480f6da", null ],
       [ "NPC_TWILIGHT_CORRUPTER", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
+      [ "MAX_BOMB_COUNT", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
+      [ "SCHEDULER_GROUP_HATCHING", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a60817628f0ac235a3cafc6215f674a42", null ],
+      [ "EVENT_BERSERK", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a94f1144a24a622ff9e12ebe57137f266", null ],
       [ "MAX_ENCOUNTER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7913656ef56deb3793c0c5f3d999d80d", null ],
       [ "RAND_VENDOR", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ac1150c56f4c1aa81c823e2f9892ff818", null ],
       [ "WORLDSTATE_SHOW_TIMER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad9983a17d117d785671b552859fb22ec", null ],
@@ -3740,7 +3743,8 @@ var a01610 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

@@ -1,8 +1,7 @@
 var a19266 =
 [
-    [ "npc_centrifuge_constructAI", "d6/d4c/a19266.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
-    [ "DamageTaken", "d6/d4c/a19266.html#aa568418de267a99108698e79baa1b3f4", null ],
-    [ "JustEngagedWith", "d6/d4c/a19266.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
-    [ "Reset", "d6/d4c/a19266.html#a2f7750cea2f59d794c85e20b703370af", null ],
-    [ "UpdateAI", "d6/d4c/a19266.html#a28316416ad6c56d83c9e878511256445", null ]
+    [ "HandleProc", "d6/d4c/a19266.html#a84255cd31ebaa7c70de93d569258c709", null ],
+    [ "PrepareAuraScript", "d6/d4c/a19266.html#a8d9c8122b105b28b88c4297d3a9acf7f", null ],
+    [ "Register", "d6/d4c/a19266.html#a6bc166d2e1455537fa78c4223da17746", null ],
+    [ "Validate", "d6/d4c/a19266.html#ab38bde2ed642dcf4fda1893a131aa6fe", null ]
 ];

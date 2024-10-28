@@ -1,6 +1,6 @@
 var a03911 =
 [
-    [ "TradeData", "d9/d86/a08398.html", "d9/d86/a08398" ],
+    [ "TradeData", "d7/df7/a08402.html", "d7/df7/a08402" ],
     [ "TradeSlots", "d4/da4/a03911.html#ad8fd978c4198825d89a1f02643d20c62", [
       [ "TRADE_SLOT_COUNT", "d4/da4/a03911.html#ad8fd978c4198825d89a1f02643d20c62a1e8d56a5a22d784c5d388fd8bd206488", null ],
       [ "TRADE_SLOT_TRADED_COUNT", "d4/da4/a03911.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79", null ],

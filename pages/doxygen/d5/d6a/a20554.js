@@ -1,6 +1,6 @@
 var a20554 =
 [
-    [ "npc_xt002_heartAI", "d0/d7a/a20558.html", "d0/d7a/a20558" ],
-    [ "npc_xt002_heart", "d5/d6a/a20554.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
-    [ "GetAI", "d5/d6a/a20554.html#af59c6623b97d1adff765e8ba4958d482", null ]
+    [ "npc_xt002_pummellerAI", "d0/d7a/a20558.html", "d0/d7a/a20558" ],
+    [ "npc_xt002_pummeller", "d5/d6a/a20554.html#af620e31a231ca8fb812324521bad4673", null ],
+    [ "GetAI", "d5/d6a/a20554.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
 ];

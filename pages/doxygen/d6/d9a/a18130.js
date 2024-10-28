@@ -1,10 +1,6 @@
 var a18130 =
 [
-    [ "HandleScript", "d6/d9a/a18130.html#a18c80010b9e8803b3c225acf2dd0b605", null ],
-    [ "Load", "d6/d9a/a18130.html#af31fd5b1f9cdc67650eec5e305f095bf", null ],
-    [ "PrepareSpellScript", "d6/d9a/a18130.html#afcc1efc69d73086a9ab686855911e516", null ],
-    [ "Register", "d6/d9a/a18130.html#a061e110b9a032a9bbd0a48f686d16a84", null ],
-    [ "ReplaceTarget", "d6/d9a/a18130.html#a01cb7d25bef14a2266d81594544f6283", null ],
-    [ "SelectTarget", "d6/d9a/a18130.html#aa06b7505ff483bc5e534cc37d909b28c", null ],
-    [ "_target", "d6/d9a/a18130.html#a3a84a9d7109845d201b395f05f66d109", null ]
+    [ "ModDestHeight", "d6/d9a/a18130.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
+    [ "PrepareSpellScript", "d6/d9a/a18130.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
+    [ "Register", "d6/d9a/a18130.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
 ];

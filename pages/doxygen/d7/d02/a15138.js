@@ -1,7 +1,11 @@
 var a15138 =
 [
-    [ "npc_webbed_creatureAI", "d7/d02/a15138.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
-    [ "JustDied", "d7/d02/a15138.html#a153d461124ec9266ffcac147a217f6d9", null ],
-    [ "JustEngagedWith", "d7/d02/a15138.html#ac52ad6512bcaee35932f856abdac80d4", null ],
-    [ "Reset", "d7/d02/a15138.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
+    [ "npc_kerlonianAI", "d7/d02/a15138.html#a0f7a4566ca93a174c92fe10e904af480", null ],
+    [ "ClearSleeping", "d7/d02/a15138.html#aea2815d79da4fa006ea150f052255b9d", null ],
+    [ "MoveInLineOfSight", "d7/d02/a15138.html#a8b0a606510d278f26099a125d583377a", null ],
+    [ "Reset", "d7/d02/a15138.html#a20fac33bf3322ad0caf72ea883680b8d", null ],
+    [ "SetSleeping", "d7/d02/a15138.html#a0e1e6beaa98090d8bf8a17d28a9ee733", null ],
+    [ "SpellHit", "d7/d02/a15138.html#a1df028085cf1cb9e8152cdb70a3d28b1", null ],
+    [ "UpdateFollowerAI", "d7/d02/a15138.html#aa86dc8b3e934ff3297f7316de5420fe6", null ],
+    [ "FallAsleepTimer", "d7/d02/a15138.html#a8cfd8d869f8a313d041d89f8d0daa1bb", null ]
 ];

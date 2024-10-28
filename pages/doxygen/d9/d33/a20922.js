@@ -1,6 +1,7 @@
 var a20922 =
 [
-    [ "boss_kelesethAI", "de/d94/a20926.html", "de/d94/a20926" ],
-    [ "boss_keleseth", "d9/d33/a20922.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
-    [ "GetAI", "d9/d33/a20922.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
+    [ "HandleEffectPeriodic", "d9/d33/a20922.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "d9/d33/a20922.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "d9/d33/a20922.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "d9/d33/a20922.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

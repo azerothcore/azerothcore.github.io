@@ -1,6 +1,6 @@
 var a17170 =
 [
-    [ "PrepareSpellScript", "df/da2/a17170.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
-    [ "Register", "df/da2/a17170.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
-    [ "SetDest", "df/da2/a17170.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
+    [ "FilterTargets", "df/da2/a17170.html#a7abb4397b5fcf956bf31fa4dc9960ece", null ],
+    [ "PrepareSpellScript", "df/da2/a17170.html#a8e9d81b34e05506569f4b910c1958de3", null ],
+    [ "Register", "df/da2/a17170.html#aa80980c3f68abcb0fac7a41172f70012", null ]
 ];

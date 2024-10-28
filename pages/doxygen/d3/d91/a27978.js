@@ -1,11 +1,6 @@
 var a27978 =
 [
-    [ "Displayid", "d3/d91/a27978.html#a4aa3c391401f39d6f4a595f4dff0668b", null ],
-    [ "filename", "d3/d91/a27978.html#a0cee5b90a15b39e1ff49231e332cc320", null ],
-    [ "maxX", "d3/d91/a27978.html#a10563ae885d34e516825a18db95b40e7", null ],
-    [ "maxY", "d3/d91/a27978.html#a711286df6d2bd74246dee2170052c17a", null ],
-    [ "maxZ", "d3/d91/a27978.html#acb74e32790b2c60cca5faef1caa225e4", null ],
-    [ "minX", "d3/d91/a27978.html#a77466c3aabd4e7b6b7aa8b5f9f2a82da", null ],
-    [ "minY", "d3/d91/a27978.html#a7168f5b3229bd27edde78e88bf7dc20a", null ],
-    [ "minZ", "d3/d91/a27978.html#ac88aefc2530212b9dff10e018c4e9305", null ]
+    [ "Id", "d3/d91/a27978.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
+    [ "Order", "d3/d91/a27978.html#a16fca42d9a0a98e034a93984c4362b53", null ],
+    [ "TypeFlags", "d3/d91/a27978.html#ac7246adc7c6c3217de8ac093983b7553", null ]
 ];

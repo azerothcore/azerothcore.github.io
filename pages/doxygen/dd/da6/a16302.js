@@ -1,7 +1,9 @@
 var a16302 =
 [
-    [ "HandleDispel", "dd/da6/a16302.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "dd/da6/a16302.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "dd/da6/a16302.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "dd/da6/a16302.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "npc_fel_infernalAI", "dd/da6/a16302.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
+    [ "EnterEvadeMode", "dd/da6/a16302.html#aedec8729b9be931a74fe00d1aa649848", null ],
+    [ "JustDied", "dd/da6/a16302.html#a599786069f98231eeb7f9ca809f8e671", null ],
+    [ "Reset", "dd/da6/a16302.html#a09f408c9250467228b91ef9f6c9544f4", null ],
+    [ "UpdateAI", "dd/da6/a16302.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
+    [ "events", "dd/da6/a16302.html#acf955037c246f7b5f12cc5338b300b63", null ]
 ];

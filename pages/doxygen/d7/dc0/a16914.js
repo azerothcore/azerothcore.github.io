@@ -1,6 +1,6 @@
 var a16914 =
 [
-    [ "npc_pos_leader_secondAI", "db/dc1/a16918.html", "db/dc1/a16918" ],
-    [ "npc_pos_leader_second", "d7/dc0/a16914.html#ac4758674cc97eae0937264fa028e6da5", null ],
-    [ "GetAI", "d7/dc0/a16914.html#ac403cfc86247990d78c9cf4179df8b87", null ]
+    [ "HandleDummy", "d7/dc0/a16914.html#aef592aafe931351186edf98f7aba7e22", null ],
+    [ "PrepareSpellScript", "d7/dc0/a16914.html#ab79a160e0d5b0c6e0ecfa842a4da2819", null ],
+    [ "Register", "d7/dc0/a16914.html#a7594952f23cba22b886c2c3b10f363d4", null ]
 ];

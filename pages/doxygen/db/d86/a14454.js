@@ -1,6 +1,6 @@
 var a14454 =
 [
-    [ "HandleHeal", "db/d86/a14454.html#a953536a9a393af9472bdd89018449df0", null ],
-    [ "PrepareSpellScript", "db/d86/a14454.html#a70503fc6042001a860d361f2597b7153", null ],
-    [ "Register", "db/d86/a14454.html#a383479896e6deb96e50b827370ccfd4d", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "da/db5/a14458.html", "da/db5/a14458" ],
+    [ "instance_hyjal", "db/d86/a14454.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
+    [ "GetInstanceScript", "db/d86/a14454.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
 ];

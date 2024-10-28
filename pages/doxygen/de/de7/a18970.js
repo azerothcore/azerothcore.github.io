@@ -1,6 +1,8 @@
 var a18970 =
 [
-    [ "boss_thaddiusAI", "dc/d84/a18974.html", "dc/d84/a18974" ],
-    [ "boss_thaddius", "de/de7/a18970.html#aff97b030b861feb646e1b22f60ee3605", null ],
-    [ "GetAI", "de/de7/a18970.html#acf841c6897396f517a74932fc3480e69", null ]
+    [ "HandleDamage", "de/de7/a18970.html#ab8948b09b685ad970f5292ca4c5d97ba", null ],
+    [ "HandleTargets", "de/de7/a18970.html#ac36e689bad93aa17738f390680764a7e", null ],
+    [ "PrepareSpellScript", "de/de7/a18970.html#a149db071722ce12cded16087c8eec1df", null ],
+    [ "Register", "de/de7/a18970.html#abd073f34a414fab7ee23ee933863f1c7", null ],
+    [ "Validate", "de/de7/a18970.html#a177320de9c3a2c2f29120fcaa413ab13", null ]
 ];

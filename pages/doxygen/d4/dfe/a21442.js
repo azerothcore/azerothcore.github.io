@@ -1,6 +1,10 @@
 var a21442 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d5/de1/a21446.html", "d5/de1/a21446" ],
-    [ "npc_captured_beryl_sorcerer", "d4/dfe/a21442.html#ace67e76e96e3be9fa5976dc4c90041e6", null ],
-    [ "GetAI", "d4/dfe/a21442.html#aa5a31390ff3c6277ebff2a5eebe72b3d", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "d4/dfe/a21442.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
+    [ "GotStinged", "d4/dfe/a21442.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
+    [ "JustEngagedWith", "d4/dfe/a21442.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
+    [ "Reset", "d4/dfe/a21442.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
+    [ "SpellHit", "d4/dfe/a21442.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
+    [ "UpdateAI", "d4/dfe/a21442.html#a21def23073eeec051c1c97a813e0ea84", null ],
+    [ "rebuff", "d4/dfe/a21442.html#ac83c25091fdd3c7876a88927b758261f", null ]
 ];

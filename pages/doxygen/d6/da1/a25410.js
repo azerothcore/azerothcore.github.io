@@ -1,6 +1,8 @@
 var a25410 =
 [
-    [ "HandleDummyTick", "d6/da1/a25410.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "d6/da1/a25410.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "d6/da1/a25410.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "OnApply", "d6/da1/a25410.html#a75b45732648d5ba90b49725a48609a89", null ],
+    [ "OnBaseRemove", "d6/da1/a25410.html#aa6d10399bba721ff7a3651508fcdf449", null ],
+    [ "OnRemove", "d6/da1/a25410.html#a0331b3860691db793c5a7bcf53550c6f", null ],
+    [ "PrepareAuraScript", "d6/da1/a25410.html#a34ad4890c7ce30427537e36980057e57", null ],
+    [ "Register", "d6/da1/a25410.html#a713e694cad6f1cf533d45f5d633da36e", null ]
 ];

@@ -1,7 +1,6 @@
 var a23754 =
 [
-    [ "HandleEffect", "d6/d28/a23754.html#ac0fb38f62cc9a41eb70b2ca951f9d1dc", null ],
-    [ "PrepareSpellScript", "d6/d28/a23754.html#abbbffa0a53dc2a55df5e7b17a7f4d38f", null ],
-    [ "Register", "d6/d28/a23754.html#ac406946bb793125d49006e3a877c9638", null ],
-    [ "SelectTarget", "d6/d28/a23754.html#ac36f3d88a0ef8ccaee5bac17bffcaf49", null ]
+    [ "lapseTeleport", "d6/d28/a23754.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "d6/d28/a23754.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "d6/d28/a23754.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

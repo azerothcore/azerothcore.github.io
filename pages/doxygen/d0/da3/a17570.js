@@ -1,6 +1,5 @@
 var a17570 =
 [
-    [ "npc_darnavanAI", "df/d32/a17574.html", "df/d32/a17574" ],
-    [ "npc_darnavan", "d0/da3/a17570.html#ac358ca123155165395fa5f7ec02c9dab", null ],
-    [ "GetAI", "d0/da3/a17570.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
+    [ "at_lady_deathwhisper_entrance", "d0/da3/a17570.html#a3c16844f4ff97fd0699edb1d1aca2f60", null ],
+    [ "OnTrigger", "d0/da3/a17570.html#a769c838c94a88af5492057909d88f3de", null ]
 ];

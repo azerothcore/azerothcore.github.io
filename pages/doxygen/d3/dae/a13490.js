@@ -1,7 +1,7 @@
 var a13490 =
 [
-    [ "HandleScript", "d3/dae/a13490.html#acd4373ab762d00d262984c36190d6f93", null ],
-    [ "PrepareSpellScript", "d3/dae/a13490.html#a113216b272d0386f248a75bfcf30c6a3", null ],
-    [ "Register", "d3/dae/a13490.html#abbf65c0cabb06141a5856210f5ce5ab8", null ],
-    [ "Validate", "d3/dae/a13490.html#a5746fd6257dd10be58a61e0e8a2403be", null ]
+    [ "boss_blight_wormAI", "d3/dae/a13490.html#af267e395fbd539f871e498dc6745c610", null ],
+    [ "Reset", "d3/dae/a13490.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
+    [ "UpdateAI", "d3/dae/a13490.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
+    [ "_events", "d3/dae/a13490.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
 ];

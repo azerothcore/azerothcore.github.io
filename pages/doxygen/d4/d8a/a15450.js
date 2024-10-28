@@ -1,7 +1,6 @@
 var a15450 =
 [
-    [ "npc_paoka_swiftmountainAI", "d4/d8a/a15450.html#a92a229f76de3bc46ae14910439db0004", null ],
-    [ "DoSpawnWyvern", "d4/d8a/a15450.html#a7997a3d398db82c205e3a8af77ac1684", null ],
-    [ "Reset", "d4/d8a/a15450.html#acae0427957aba04a54e6001823bc7eb4", null ],
-    [ "WaypointReached", "d4/d8a/a15450.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
+    [ "npc_cairne_bloodhoofAI", "df/d38/a15454.html", "df/d38/a15454" ],
+    [ "npc_cairne_bloodhoof", "d4/d8a/a15450.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
+    [ "GetAI", "d4/d8a/a15450.html#a1c34470c46ae9e98684de0e786be28b7", null ]
 ];

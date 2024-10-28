@@ -1,6 +1,6 @@
 var a19502 =
 [
-    [ "HandleEffectRemove", "d4/df9/a19502.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "d4/df9/a19502.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "d4/df9/a19502.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "boss_algalon_the_observerAI", "d3/dca/a19506.html", "d3/dca/a19506" ],
+    [ "boss_algalon_the_observer", "d4/df9/a19502.html#a0691b47a116401da58b246203ecba2cb", null ],
+    [ "GetAI", "d4/df9/a19502.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
 ];

@@ -1,10 +1,9 @@
 var a26022 =
 [
-    [ "spell_pal_judgement", "dc/ddf/a26022.html#a497aed8c1d8c6a2af22e9e8daae96e14", null ],
-    [ "HandleScriptEffect", "dc/ddf/a26022.html#add419a824dbebdc168d2b6dc49d07913", null ],
-    [ "PrepareSpellScript", "dc/ddf/a26022.html#a2cffed69c16a1a6189048ed52af35152", null ],
-    [ "Register", "dc/ddf/a26022.html#ad8e65beb41a1bb41a2dd307f3b1da839", null ],
-    [ "SealApplication", "dc/ddf/a26022.html#a0bb55f122d560c70f416e448d03d2184", null ],
-    [ "Validate", "dc/ddf/a26022.html#a3971c195a279338253771675131b4802", null ],
-    [ "_spellId", "dc/ddf/a26022.html#ad49ea02800078c672747f4fdbbab1d20", null ]
+    [ "CheckCast", "dc/ddf/a26022.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
+    [ "HandleTriggerSpellHit", "dc/ddf/a26022.html#aca027bb2995456bfcedd33c06966eb88", null ],
+    [ "HandleTriggerSpellLaunch", "dc/ddf/a26022.html#aa67bf9f81086a3837037d67306979072", null ],
+    [ "PrepareSpellScript", "dc/ddf/a26022.html#a9247b5f3a376bebdcf857565b5049944", null ],
+    [ "Register", "dc/ddf/a26022.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
+    [ "Validate", "dc/ddf/a26022.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
 ];

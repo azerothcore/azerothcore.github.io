@@ -1,6 +1,6 @@
 var a19422 =
 [
-    [ "boss_maiden_of_griefAI", "df/dd9/a19426.html", "df/dd9/a19426" ],
-    [ "boss_maiden_of_grief", "d8/deb/a19422.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
-    [ "GetAI", "d8/deb/a19422.html#af8d2e6392a0c73add801910945b2558e", null ]
+    [ "boss_sjonnir_dwarfAI", "df/dd9/a19426.html", "df/dd9/a19426" ],
+    [ "boss_sjonnir_dwarf", "d8/deb/a19422.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
+    [ "GetAI", "d8/deb/a19422.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
 ];

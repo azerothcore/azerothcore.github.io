@@ -1,12 +1,12 @@
 var a02582 =
 [
-    [ "npc_lakota_windsong", "d6/dfd/a15438.html", "d6/dfd/a15438" ],
-    [ "npc_lakota_windsong::npc_lakota_windsongAI", "db/d8e/a15442.html", "db/d8e/a15442" ],
-    [ "npc_paoka_swiftmountain", "d3/d6a/a15446.html", "d3/d6a/a15446" ],
-    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "d4/d8a/a15450.html", "d4/d8a/a15450" ],
-    [ "npc_plucky", "df/d38/a15454.html", "df/d38/a15454" ],
-    [ "npc_plucky::npc_pluckyAI", "d5/d33/a15458.html", "d5/d33/a15458" ],
-    [ "spell_panther_cage_key", "d4/d39/a15462.html", "d4/d39/a15462" ],
+    [ "npc_lakota_windsong", "d8/dfe/a15422.html", "d8/dfe/a15422" ],
+    [ "npc_lakota_windsong::npc_lakota_windsongAI", "d2/d2b/a15426.html", "d2/d2b/a15426" ],
+    [ "npc_paoka_swiftmountain", "d1/d3b/a15430.html", "d1/d3b/a15430" ],
+    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "d5/d9f/a15434.html", "d5/d9f/a15434" ],
+    [ "npc_plucky", "d6/dfd/a15438.html", "d6/dfd/a15438" ],
+    [ "npc_plucky::npc_pluckyAI", "db/d8e/a15442.html", "db/d8e/a15442" ],
+    [ "spell_panther_cage_key", "d3/d6a/a15446.html", "d3/d6a/a15446" ],
     [ "GOSSIP_P", "d1/d03/a02582.html#abe76f0bf6cd768a947537874b5a56330", null ],
     [ "Lakota", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745", [
       [ "SAY_LAKO_START", "d1/d03/a02582.html#ac39a2ad4e9c1ced24984bd5c9acf3745ad685ecf0f999b3b0859c272226a5b4b0", null ],

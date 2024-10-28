@@ -1,6 +1,9 @@
 var a27422 =
 [
-    [ "npc_air_force_botsAI", "dc/dd0/a27426.html", "dc/dd0/a27426" ],
-    [ "npc_air_force_bots", "db/d08/a27422.html#a00b8f274bde3260a113ea21e0f68cdf8", null ],
-    [ "GetAI", "db/d08/a27422.html#ae971e34d61b0f960d8f5940f9015523d", null ]
+    [ "npc_chicken_cluckAI", "db/d08/a27422.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "JustEngagedWith", "db/d08/a27422.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
+    [ "ReceiveEmote", "db/d08/a27422.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "db/d08/a27422.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "db/d08/a27422.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "db/d08/a27422.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

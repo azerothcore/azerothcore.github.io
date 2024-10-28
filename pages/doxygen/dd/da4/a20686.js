@@ -1,8 +1,10 @@
 var a20686 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "dd/da4/a20686.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "dd/da4/a20686.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "dd/da4/a20686.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "dd/da4/a20686.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "dd/da4/a20686.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "dd/da4/a20686.html#a351df0050661628e3ab0be2f636f9c4e", null ],
+    [ "DoAction", "dd/da4/a20686.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
+    [ "JustDied", "dd/da4/a20686.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
+    [ "SelectConstrictTarget", "dd/da4/a20686.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
+    [ "UpdateAI", "dd/da4/a20686.html#a00c137429f2b565bf195dab4e9902a7c", null ],
+    [ "_checkTimer", "dd/da4/a20686.html#ae5c189401dd04823449e7a16c197e65f", null ],
+    [ "_playerGUID", "dd/da4/a20686.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
 ];

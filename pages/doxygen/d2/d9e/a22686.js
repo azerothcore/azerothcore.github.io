@@ -1,8 +1,7 @@
 var a22686 =
 [
-    [ "Load", "d2/d9e/a22686.html#a4ff26763f05b07d882cd8d209464910e", null ],
-    [ "OnPeriodic", "d2/d9e/a22686.html#a3e3bb503a6b5f90741a4df668851accf", null ],
-    [ "PrepareAuraScript", "d2/d9e/a22686.html#a4126d35669859963f10ed1425a054298", null ],
-    [ "Register", "d2/d9e/a22686.html#adb6a44892d80aeaaf4c15c71a47f422e", null ],
-    [ "Validate", "d2/d9e/a22686.html#a22d6c338ea1f2af9be0eb02aceba42bd", null ]
+    [ "HandleDummy", "d2/d9e/a22686.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
+    [ "PrepareSpellScript", "d2/d9e/a22686.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
+    [ "Register", "d2/d9e/a22686.html#af5926d8570de13e66aa1870184620b94", null ],
+    [ "Validate", "d2/d9e/a22686.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
 ];

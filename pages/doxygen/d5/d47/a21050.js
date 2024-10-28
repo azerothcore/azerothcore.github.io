@@ -1,6 +1,6 @@
 var a21050 =
 [
-    [ "boss_svalaAI", "d0/da1/a21054.html", "d0/da1/a21054" ],
-    [ "boss_svala", "d5/d47/a21050.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "d5/d47/a21050.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "HandleDummyEffect", "d5/d47/a21050.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
+    [ "PrepareSpellScript", "d5/d47/a21050.html#a07376c95cb2ec41d86a24be59094d207", null ],
+    [ "Register", "d5/d47/a21050.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
 ];

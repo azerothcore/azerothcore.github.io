@@ -1,6 +1,6 @@
 var a17998 =
 [
-    [ "LichKingDeathEvent", "da/da5/a17998.html#a9aa328b60358034355b1eed5caacb9f8", null ],
-    [ "Execute", "da/da5/a17998.html#a06b9a77d3c5efb228368a1e423a620ae", null ],
-    [ "_owner", "da/da5/a17998.html#a75ccb1b2bd5a8149aff85404b5e0ce21", null ]
+    [ "boss_the_lich_kingAI", "df/df1/a18002.html", "df/df1/a18002" ],
+    [ "boss_the_lich_king", "da/da5/a17998.html#a10e2789a98a85907d24eabae6d7655f4", null ],
+    [ "GetAI", "da/da5/a17998.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
 ];

@@ -1,6 +1,6 @@
 var a18714 =
 [
-    [ "npc_isle_of_conquest_turretAI", "d1/d73/a18718.html", "d1/d73/a18718" ],
-    [ "npc_isle_of_conquest_turret", "d9/da2/a18714.html#ac080845203adef25e6841133b7e2f4dc", null ],
-    [ "GetAI", "d9/da2/a18714.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
+    [ "npc_ioc_gunship_captainAI", "d1/d73/a18718.html", "d1/d73/a18718" ],
+    [ "npc_ioc_gunship_captain", "d9/da2/a18714.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
+    [ "GetAI", "d9/da2/a18714.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
 ];

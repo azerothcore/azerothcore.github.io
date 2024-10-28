@@ -1,6 +1,8 @@
 var a17330 =
 [
-    [ "Cooldown", "d9/da1/a17330.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
-    [ "Entry", "d9/da1/a17330.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
-    [ "TargetPosition", "d9/da1/a17330.html#ac47af49622012b4ad40357cadc5214b3", null ]
+    [ "ResetEncounterEvent", "d9/da1/a17330.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
+    [ "Execute", "d9/da1/a17330.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
+    [ "_caster", "d9/da1/a17330.html#abb37778222749b27791baa329e268c32", null ],
+    [ "_otherTransport", "d9/da1/a17330.html#a7f2d0aaade5833381e3e7624745fc504", null ],
+    [ "_spellId", "d9/da1/a17330.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
 ];

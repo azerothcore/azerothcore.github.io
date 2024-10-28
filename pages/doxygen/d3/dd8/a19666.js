@@ -1,19 +1,12 @@
 var a19666 =
 [
-    [ "boss_auriayaAI", "d3/dd8/a19666.html#a1bbc9ffd506dcd3a19925a860f94418f", null ],
-    [ "DoAction", "d3/dd8/a19666.html#ac48a5399c13ccda015338649f319621b", null ],
-    [ "GetData", "d3/dd8/a19666.html#afda379773808c3974679037828d00b9e", null ],
-    [ "JustDied", "d3/dd8/a19666.html#af2316d1c62623c9915cecb1308310856", null ],
-    [ "JustEngagedWith", "d3/dd8/a19666.html#a4b939a5e446aeac12fe6dc006a21fe3b", null ],
-    [ "JustReachedHome", "d3/dd8/a19666.html#a94f4f2d836042c24e2b26b4664783570", null ],
-    [ "JustSummoned", "d3/dd8/a19666.html#a61c3887481f8f7119357ef3402ed82be", null ],
-    [ "KilledUnit", "d3/dd8/a19666.html#a0610a140c5b9687f345b60365badd629", null ],
-    [ "Reset", "d3/dd8/a19666.html#a8e554328a8179802c3f35326b059d173", null ],
-    [ "SummonedCreatureDies", "d3/dd8/a19666.html#a9b3ea0af39d0b391ef181e2846f437cd", null ],
-    [ "UpdateAI", "d3/dd8/a19666.html#a9da5d29f33e9e84fdf42c03c72b2ea8a", null ],
-    [ "_feralDied", "d3/dd8/a19666.html#a6bd69d474df1db36bd020fad50fbcee4", null ],
-    [ "_nineLives", "d3/dd8/a19666.html#a1cfc503178c3c59ee87d2ffb9372636d", null ],
-    [ "events", "d3/dd8/a19666.html#afdccfdf0d44d08d9d8ebb6cb235a7503", null ],
-    [ "m_pInstance", "d3/dd8/a19666.html#a0984d626105f95a97c8c4469cd2fad8f", null ],
-    [ "summons", "d3/dd8/a19666.html#a23b5c1258b56f0eb752abc77e622cc8a", null ]
+    [ "npc_auriaya_feral_defenderAI", "d3/dd8/a19666.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
+    [ "DoAction", "d3/dd8/a19666.html#a2b0a176dba865e90bdc22727b2860509", null ],
+    [ "JustDied", "d3/dd8/a19666.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
+    [ "Reset", "d3/dd8/a19666.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
+    [ "UpdateAI", "d3/dd8/a19666.html#a1edc249808e1ebdb88605c56e19c272a", null ],
+    [ "_feralEssenceStack", "d3/dd8/a19666.html#aab51096b8f57528a0a27e23a306d6762", null ],
+    [ "_feralPounceTimer", "d3/dd8/a19666.html#ab91df5ebee9c12d067ff83ee64effece", null ],
+    [ "_feralRushTimer", "d3/dd8/a19666.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
+    [ "summons", "d3/dd8/a19666.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
 ];

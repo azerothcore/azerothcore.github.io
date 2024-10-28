@@ -1,9 +1,9 @@
 var a01355 =
 [
-    [ "boss_drakos", "d9/d8b/a19198.html", "d9/d8b/a19198" ],
-    [ "boss_drakos::boss_drakosAI", "d2/d40/a19202.html", "d2/d40/a19202" ],
-    [ "npc_oculus_unstable_sphere", "df/d28/a19206.html", "df/d28/a19206" ],
-    [ "npc_oculus_unstable_sphere::npc_oculus_unstable_sphereAI", "de/d47/a19210.html", "de/d47/a19210" ],
+    [ "boss_drakos", "df/dd4/a19182.html", "df/dd4/a19182" ],
+    [ "boss_drakos::boss_drakosAI", "d5/d37/a19186.html", "d5/d37/a19186" ],
+    [ "npc_oculus_unstable_sphere", "d8/d3f/a19190.html", "d8/d3f/a19190" ],
+    [ "npc_oculus_unstable_sphere::npc_oculus_unstable_sphereAI", "d5/de6/a19194.html", "d5/de6/a19194" ],
     [ "SPELL_THUNDERING_STOMP", "d8/d4e/a01355.html#a49700fd50259585cfac2c788de5e00a8", null ],
     [ "DrakosNPCs", "d8/d4e/a01355.html#a9b6e942098b05e96df3467d6c45f057c", [
       [ "NPC_UNSTABLE_SPHERE", "d8/d4e/a01355.html#a9b6e942098b05e96df3467d6c45f057ca6fbda431676e3cb2a0fe335145f2d815", null ]
@@ -2120,7 +2120,8 @@ var a01355 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

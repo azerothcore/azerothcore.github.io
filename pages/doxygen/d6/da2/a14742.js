@@ -1,8 +1,6 @@
 var a14742 =
 [
-    [ "HandleScript", "d6/da2/a14742.html#ac58aef1b295e32c8a44852278edc18f8", null ],
-    [ "Load", "d6/da2/a14742.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
-    [ "PrepareSpellScript", "d6/da2/a14742.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
-    [ "Register", "d6/da2/a14742.html#a95f4abd67d6baf75980ff28a7518503d", null ],
-    [ "Validate", "d6/da2/a14742.html#a98271e7adb17b11e39241154a83b0d0d", null ]
+    [ "HandleDummyHitTarget", "d6/da2/a14742.html#ae773d73496578170061baedd8f7daec1", null ],
+    [ "PrepareSpellScript", "d6/da2/a14742.html#a822fe6d19c2ee0d02dc5561b4f910cf9", null ],
+    [ "Register", "d6/da2/a14742.html#a651cc94581130224ba23e864f8ad7060", null ]
 ];

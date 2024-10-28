@@ -1,7 +1,6 @@
 var a22790 =
 [
-    [ "SuckBackEvent", "df/dff/a22790.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
-    [ "Execute", "df/dff/a22790.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
-    [ "_action", "df/dff/a22790.html#abc54669df2dba0238723a40ababe4c0a", null ],
-    [ "_owner", "df/dff/a22790.html#a4d8bc09803f7786022c1836457ded488", null ]
+    [ "boss_essence_of_sufferingAI", "d6/db8/a22794.html", "d6/db8/a22794" ],
+    [ "boss_essence_of_suffering", "df/dff/a22790.html#a1237f428657f0e9a0218695264358384", null ],
+    [ "GetAI", "df/dff/a22790.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
 ];

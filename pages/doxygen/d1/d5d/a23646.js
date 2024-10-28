@@ -1,7 +1,8 @@
 var a23646 =
 [
-    [ "HandleCast", "d1/d5d/a23646.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
-    [ "PrepareSpellScript", "d1/d5d/a23646.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
-    [ "Register", "d1/d5d/a23646.html#a6ae0573ea69573df64cd57ba84f99918", null ],
-    [ "Validate", "d1/d5d/a23646.html#ab5794ca5c0863ce40194ed40e156279a", null ]
+    [ "boss_laj", "d1/d5d/a23646.html#a3c9323ab4b5530504588ea62aed2edff", null ],
+    [ "Reset", "d1/d5d/a23646.html#ace690a0662376addaa40093f3f119c31", null ],
+    [ "ScheduleTasks", "d1/d5d/a23646.html#a6bd0db1ed4c963cdceb681c84469b06c", null ],
+    [ "_lastTransform", "d1/d5d/a23646.html#a097eacaaf77a09bec087530bad587b11", null ],
+    [ "_transformContainer", "d1/d5d/a23646.html#a313e66ceeb4e359251dad65383e7f568", null ]
 ];

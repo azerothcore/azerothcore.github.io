@@ -1,7 +1,6 @@
 var a18758 =
 [
-    [ "HandleTriggerSpell", "d6/d1c/a18758.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
-    [ "PrepareAuraScript", "d6/d1c/a18758.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
-    [ "Register", "d6/d1c/a18758.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
-    [ "Validate", "d6/d1c/a18758.html#a813bad39641956fff697580f271416d2", null ]
+    [ "boss_faerlinaAI", "db/d63/a18762.html", "db/d63/a18762" ],
+    [ "boss_faerlina", "d6/d1c/a18758.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d6/d1c/a18758.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

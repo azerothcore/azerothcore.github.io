@@ -1,7 +1,6 @@
 var a15474 =
 [
-    [ "npc_ameAI", "d3/d76/a15478.html", "d3/d76/a15478" ],
-    [ "npc_ame", "de/d0e/a15474.html#a6b4a20b06bc88393dd08b4eae83c1d50", null ],
-    [ "GetAI", "de/d0e/a15474.html#a09f7688c38d56319791f7543eb32f317", null ],
-    [ "OnQuestAccept", "de/d0e/a15474.html#a69b8ec6558e70e34f7e405b397b09f43", null ]
+    [ "npc_rivern_frostwind", "de/d0e/a15474.html#a0675c120fc28b26c7ea3c35f8d3f2a64", null ],
+    [ "OnGossipHello", "de/d0e/a15474.html#a90a6582633336de422c9f98973562b32", null ],
+    [ "OnGossipSelect", "de/d0e/a15474.html#a067ff91179f551633594d488eda269ed", null ]
 ];

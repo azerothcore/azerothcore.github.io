@@ -1,5 +1,6 @@
 var a09314 =
 [
-    [ "bossId", "d7/da5/a09314.html#af9fc7d02d16d4fb3547273428553cf05", null ],
-    [ "boundary", "d7/da5/a09314.html#a7b474c6b9225102ba08864256d07d9e6", null ]
+    [ "bossId", "d7/da5/a09314.html#ac7ce1fcc568ad1fe6bc8a20957357ed8", null ],
+    [ "entry", "d7/da5/a09314.html#a1a199d022692efe54e29a7cb90e73dee", null ],
+    [ "type", "d7/da5/a09314.html#ab5654860b5c27654fa0346e9e92a71fc", null ]
 ];

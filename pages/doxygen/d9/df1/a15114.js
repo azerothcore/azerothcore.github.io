@@ -1,8 +1,7 @@
 var a15114 =
 [
-    [ "npc_death_ravagerAI", "d9/df1/a15114.html#ad18242b078db0883029537562a41cc20", null ],
-    [ "Reset", "d9/df1/a15114.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
-    [ "UpdateAI", "d9/df1/a15114.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
-    [ "EnragingBiteTimer", "d9/df1/a15114.html#af33898ebd9bea6b1a58b673373de3c64", null ],
-    [ "RendTimer", "d9/df1/a15114.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
+    [ "HandleEffectRemove", "d9/df1/a15114.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
+    [ "PrepareAuraScript", "d9/df1/a15114.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
+    [ "Register", "d9/df1/a15114.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
+    [ "AuraEffectHandleModes", "d9/df1/a15114.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
 ];

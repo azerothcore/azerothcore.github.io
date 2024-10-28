@@ -1,7 +1,7 @@
 var a25082 =
 [
-    [ "HandleApplyEffect", "d5/daf/a25082.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d5/daf/a25082.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d5/daf/a25082.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d5/daf/a25082.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "HandleDummy", "d5/daf/a25082.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "d5/daf/a25082.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "d5/daf/a25082.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "d5/daf/a25082.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

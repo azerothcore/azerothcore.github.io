@@ -1,9 +1,6 @@
 var a17630 =
 [
-    [ "CountTargets", "d0/db3/a17630.html#aa72b762d802c27047d485a8a314c6c6d", null ],
-    [ "Load", "d0/db3/a17630.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
-    [ "PrepareSpellScript", "d0/db3/a17630.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
-    [ "Register", "d0/db3/a17630.html#a86cad92c07fa31c730a3b560d33ed824", null ],
-    [ "SplitDamage", "d0/db3/a17630.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
-    [ "_targetCount", "d0/db3/a17630.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
+    [ "boss_professor_putricideAI", "dd/d7a/a17634.html", "dd/d7a/a17634" ],
+    [ "boss_professor_putricide", "d0/db3/a17630.html#a80776dad5c0205aa6a98752f43e85e32", null ],
+    [ "GetAI", "d0/db3/a17630.html#a7c84089d24bb0c77a5203884254e0925", null ]
 ];

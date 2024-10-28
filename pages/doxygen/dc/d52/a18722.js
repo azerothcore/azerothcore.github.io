@@ -1,6 +1,6 @@
 var a18722 =
 [
-    [ "npc_four_car_garageAI", "de/d0a/a18726.html", "de/d0a/a18726" ],
-    [ "npc_four_car_garage", "dc/d52/a18722.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "dc/d52/a18722.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "boss_isle_of_conquestAI", "de/d0a/a18726.html", "de/d0a/a18726" ],
+    [ "boss_isle_of_conquest", "dc/d52/a18722.html#ad4052d1b6865585d32016e1240449659", null ],
+    [ "GetAI", "dc/d52/a18722.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
 ];

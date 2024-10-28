@@ -1,7 +1,8 @@
 var a17694 =
 [
-    [ "HandleExtraEffect", "d6/d2a/a17694.html#a8fbfac8e62d2534daf40194f7fe31945", null ],
-    [ "PrepareAuraScript", "d6/d2a/a17694.html#a45e83b3bfa344391bb87c8088ae1c6a7", null ],
-    [ "Register", "d6/d2a/a17694.html#a5ec23a02a4e617e6db8cf17d2bd36aff", null ],
-    [ "Validate", "d6/d2a/a17694.html#a2e7253cfc18b66d663457c2fb7ab3302", null ]
+    [ "FilterTargets", "d6/d2a/a17694.html#a1b125c887db7d2030838d0ac8e38c4e3", null ],
+    [ "HandleScript", "d6/d2a/a17694.html#a4c7be5a65b1fb7e8db62691f5ef6b38d", null ],
+    [ "PrepareSpellScript", "d6/d2a/a17694.html#ae6b30b8da52141c385f985435cac99a1", null ],
+    [ "Register", "d6/d2a/a17694.html#a17dc25670b0f21525a01f6e7aa7eb572", null ],
+    [ "Validate", "d6/d2a/a17694.html#accff1f03fb7c0d56cb197bb18348635c", null ]
 ];

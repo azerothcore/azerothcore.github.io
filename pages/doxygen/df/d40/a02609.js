@@ -1,9 +1,9 @@
 var a02609 =
 [
-    [ "npc_shenthul", "d8/d42/a15294.html", "d8/d42/a15294" ],
-    [ "npc_shenthul::npc_shenthulAI", "d4/d38/a15298.html", "d4/d38/a15298" ],
-    [ "npc_thrall_warchief", "da/d06/a15302.html", "da/d06/a15302" ],
-    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "d4/d1c/a15306.html", "d4/d1c/a15306" ],
+    [ "npc_shenthul", "d6/d65/a15278.html", "d6/d65/a15278" ],
+    [ "npc_shenthul::npc_shenthulAI", "d6/d26/a15282.html", "d6/d26/a15282" ],
+    [ "npc_thrall_warchief", "d4/d30/a15286.html", "d4/d30/a15286" ],
+    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
     [ "Shenthul", "df/d40/a02609.html#a032512bb2693fda342f4d77dba794fbe", [
       [ "QUEST_SHATTERED_SALUTE", "df/d40/a02609.html#a032512bb2693fda342f4d77dba794fbea38993f500c01e7bc0ae8dd3a83848ff0", null ]
     ] ],

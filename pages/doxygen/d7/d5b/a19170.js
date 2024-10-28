@@ -1,11 +1,10 @@
 var a19170 =
 [
-    [ "boss_ormorokAI", "d7/d5b/a19170.html#a629b681ef2d496a7f6753776ec5b21c9", null ],
-    [ "JustDied", "d7/d5b/a19170.html#a221d29715aae6ca4ee527cb0b5d427c7", null ],
-    [ "JustEngagedWith", "d7/d5b/a19170.html#a0c943024e4ae7c981002dfebc1d15a78", null ],
-    [ "JustSummoned", "d7/d5b/a19170.html#a2ebbf4ba1abfcbf8c57de9ac65801ce1", null ],
-    [ "KilledUnit", "d7/d5b/a19170.html#aed375e4abb47337674f8bb71bafa4ec8", null ],
-    [ "Reset", "d7/d5b/a19170.html#ae0059fe689513c1d8073c530f1971de1", null ],
-    [ "UpdateAI", "d7/d5b/a19170.html#ac799ad65e2ac9cbb807953763ad01013", null ],
-    [ "_spikesCount", "d7/d5b/a19170.html#ac054b6f3659d4f2d9ad1019433a86e59", null ]
+    [ "instance_nexus_InstanceMapScript", "d7/d5b/a19170.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
+    [ "Initialize", "d7/d5b/a19170.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
+    [ "OnCreatureCreate", "d7/d5b/a19170.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
+    [ "OnGameObjectCreate", "d7/d5b/a19170.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
+    [ "OnGameObjectRemove", "d7/d5b/a19170.html#ac148c67823484eee38ab6646dfb68530", null ],
+    [ "SetBossState", "d7/d5b/a19170.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
+    [ "SetData", "d7/d5b/a19170.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
 ];

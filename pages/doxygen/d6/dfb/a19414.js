@@ -1,6 +1,6 @@
 var a19414 =
 [
-    [ "spell_krystallus_shatter_effect_SpellScript", "de/d0d/a19418.html", "de/d0d/a19418" ],
-    [ "spell_krystallus_shatter_effect", "d6/dfb/a19414.html#a6386cca53ddb3fadc61694483e549d57", null ],
-    [ "GetSpellScript", "d6/dfb/a19414.html#a16dec11a63865243b2b0f467e394a1d3", null ]
+    [ "boss_sjonnirAI", "de/d0d/a19418.html", "de/d0d/a19418" ],
+    [ "boss_sjonnir", "d6/dfb/a19414.html#a8bb9b10778a2dedcde3d4ced44bc13f1", null ],
+    [ "GetAI", "d6/dfb/a19414.html#a0bb79667d9d80f0c49e30fa0547c6062", null ]
 ];

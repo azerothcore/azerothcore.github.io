@@ -1,6 +1,5 @@
 var a13746 =
 [
-    [ "boss_hakkarAI", "da/d61/a13750.html", "da/d61/a13750" ],
-    [ "boss_hakkar", "d9/dc7/a13746.html#a834bd1f223154fbf1be94bf43136da28", null ],
-    [ "GetAI", "d9/dc7/a13746.html#aff3a089e30dcddfde4db372104153723", null ]
+    [ "at_zulgurub_temple_speech", "d9/dc7/a13746.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
+    [ "_OnTrigger", "d9/dc7/a13746.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
 ];

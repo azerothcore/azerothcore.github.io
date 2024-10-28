@@ -1,8 +1,12 @@
 var a15454 =
 [
-    [ "npc_pluckyAI", "d5/d33/a15458.html", "d5/d33/a15458" ],
-    [ "npc_plucky", "df/d38/a15454.html#a86bb2992b8af5893987145117aaf3608", null ],
-    [ "GetAI", "df/d38/a15454.html#a51e73f4e1f618aee5a000e31328efefc", null ],
-    [ "OnGossipHello", "df/d38/a15454.html#a3443f3e8c2b3fcc96955ab2e55e7fd61", null ],
-    [ "OnGossipSelect", "df/d38/a15454.html#a88fa465246b4c657b921ebdc96f7a112", null ]
+    [ "npc_cairne_bloodhoofAI", "df/d38/a15454.html#ac87f0d10b1886ffa24ae201fdb614441", null ],
+    [ "Reset", "df/d38/a15454.html#ab58f32a6bd1659b1a54fb056526c121a", null ],
+    [ "sGossipSelect", "df/d38/a15454.html#aa95b820eb4d3c6c5f1898a67c319b1a6", null ],
+    [ "UpdateAI", "df/d38/a15454.html#aefcbb7b2da6d1039055c27feeb1f5f9e", null ],
+    [ "_berserkerChargeTimer", "df/d38/a15454.html#a2efb1949abe83dadf62b5c868ae57fe2", null ],
+    [ "_cleaveTimer", "df/d38/a15454.html#ab1ed741e998cd7ed088cab3af378b3ca", null ],
+    [ "_mortalStrikeTimer", "df/d38/a15454.html#a9f33790662ce229669e5d1d6f2aac8b0", null ],
+    [ "_thunderclapTimer", "df/d38/a15454.html#a6bdca667875353db2badc40fd95a1ce4", null ],
+    [ "_uppercutTimer", "df/d38/a15454.html#a9f13acd7df900d9bdac64898b183c67d", null ]
 ];

@@ -1,6 +1,7 @@
 var a20582 =
 [
-    [ "npc_xt002_boombotAI", "d1/dee/a20586.html", "d1/dee/a20586" ],
-    [ "npc_xt002_boombot", "d4/d2e/a20582.html#a6e2f7dd0d26d140a5b73b0f66ea434af", null ],
-    [ "GetAI", "d4/d2e/a20582.html#a27237e7a60042ed7163b19d80537c1b3", null ]
+    [ "FilterTargets", "d4/d2e/a20582.html#a582691eca81b6db6d78ca925ad8fb084", null ],
+    [ "PrepareSpellScript", "d4/d2e/a20582.html#a28ce9d2750c79b2b0061b00df5ae9e8b", null ],
+    [ "RecalculateDamage", "d4/d2e/a20582.html#a02c1af0414de344056b2375488f23c01", null ],
+    [ "Register", "d4/d2e/a20582.html#a1e030067944878000b731edf456d6bc8", null ]
 ];

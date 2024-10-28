@@ -1,6 +1,6 @@
 var a21242 =
 [
-    [ "boss_lavanthorAI", "db/da9/a21246.html", "db/da9/a21246" ],
-    [ "boss_lavanthor", "d7/dbb/a21242.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "d7/dbb/a21242.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "HandleEffectPeriodic", "d7/dbb/a21242.html#a508ff9e362d586497839aa29ceae1227", null ],
+    [ "PrepareAuraScript", "d7/dbb/a21242.html#a4e7d5317d28207136b1fd3477a51ae06", null ],
+    [ "Register", "d7/dbb/a21242.html#a4b08cefe7d334635b70d389cc9df4901", null ]
 ];

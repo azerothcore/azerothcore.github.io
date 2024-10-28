@@ -1,8 +1,6 @@
 var a16610 =
 [
-    [ "npc_fos_leaderAI", "d6/df0/a16610.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
-    [ "DoAction", "d6/df0/a16610.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
-    [ "Reset", "d6/df0/a16610.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
-    [ "UpdateAI", "d6/df0/a16610.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
-    [ "events", "d6/df0/a16610.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
+    [ "entry", "d6/df0/a16610.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "d6/df0/a16610.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "d6/df0/a16610.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

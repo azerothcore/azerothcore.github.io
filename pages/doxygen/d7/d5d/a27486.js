@@ -1,7 +1,6 @@
 var a27486 =
 [
-    [ "npc_steam_tonkAI", "d7/d5d/a27486.html#a64bc74af412304d50526e5c93e01a333", null ],
-    [ "JustEngagedWith", "d7/d5d/a27486.html#a95b023adf0a2e62788e0d5646b17b319", null ],
-    [ "OnPossess", "d7/d5d/a27486.html#a954208c1a9826ae84a7402f59e1d7055", null ],
-    [ "Reset", "d7/d5d/a27486.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
+    [ "npc_pet_trainerAI", "d7/dab/a27490.html", "d7/dab/a27490" ],
+    [ "npc_pet_trainer", "d7/d5d/a27486.html#ac2279bce52e911b1c339da5e68aa2501", null ],
+    [ "GetAI", "d7/d5d/a27486.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
 ];

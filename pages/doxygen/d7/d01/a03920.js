@@ -1,7 +1,7 @@
 var a03920 =
 [
-    [ "PetStable", "de/d8b/a08238.html", "de/d8b/a08238" ],
-    [ "PetStable::PetInfo", "d4/dfb/a08242.html", "d4/dfb/a08242" ],
+    [ "PetStable", "d4/dfb/a08242.html", "d4/dfb/a08242" ],
+    [ "PetStable::PetInfo", "d3/d99/a08246.html", "d3/d99/a08246" ],
     [ "PET_FOLLOW_ANGLE", "d7/d01/a03920.html#a346068e848cb7777695f170d2c7958de", null ],
     [ "PET_FOLLOW_DIST", "d7/d01/a03920.html#a83e96c6d024ceb5d1189baac7b823d5d", null ],
     [ "ActionFeedback", "d7/d01/a03920.html#aeb5551b3f37a2573e008d2d5d865359d", [

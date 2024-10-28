@@ -1,5 +1,6 @@
 var a18206 =
 [
-    [ "npc_icc_lk_checktargetAI", "d9/d7b/a18206.html#a9a5953a9353be61a3fa96eaf7df7c489", null ],
-    [ "CanAIAttack", "d9/d7b/a18206.html#a4dfce75e23f1093c3de0ce75b049a20a", null ]
+    [ "ActivateSpirit", "d9/d7b/a18206.html#ae5c9f8e693a98c828e0e922870552952", null ],
+    [ "PrepareSpellScript", "d9/d7b/a18206.html#aa55f0fe4e27520b8a7ae1bb0f810838d", null ],
+    [ "Register", "d9/d7b/a18206.html#a2b1d27e93a879681098a83d17c4d686a", null ]
 ];

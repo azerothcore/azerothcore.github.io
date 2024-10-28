@@ -1,7 +1,7 @@
 var a16174 =
 [
-    [ "npc_toc_druidAI", "d8/deb/a16174.html#adb456f1f93be5329174a3199c9092825", null ],
-    [ "myCanCast", "d8/deb/a16174.html#af82baa22ae49ba268f494cb07287845e", null ],
-    [ "UpdateAI", "d8/deb/a16174.html#a82a22a557db647f73690d8838a635eaf", null ],
-    [ "events", "d8/deb/a16174.html#a6bb27baf17f0286db3222287a8073bd7", null ]
+    [ "npc_toc_paladinAI", "d8/deb/a16174.html#a025d39c04e864ebd77f4f930ec20b1e5", null ],
+    [ "myCanCast", "d8/deb/a16174.html#a06130e6e440d0b25d8b5566de6190cbc", null ],
+    [ "UpdateAI", "d8/deb/a16174.html#a32943f1c3ffd0239c85ac1b81786f049", null ],
+    [ "events", "d8/deb/a16174.html#ae47a32bbb05cf2f634ae18bc672ec004", null ]
 ];

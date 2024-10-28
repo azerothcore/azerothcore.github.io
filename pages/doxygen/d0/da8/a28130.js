@@ -1,5 +1,7 @@
 var a28130 =
 [
-    [ "Exp", "d0/da8/a28130.html#aa34490babd6ccdc45857947db3f36d60", null ],
-    [ "id", "d0/da8/a28130.html#abe177efe7ea9d1d1ae8e7d09655c7193", null ]
+    [ "Id", "d0/da8/a28130.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "d0/da8/a28130.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "d0/da8/a28130.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "d0/da8/a28130.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

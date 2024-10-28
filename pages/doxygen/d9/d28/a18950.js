@@ -1,6 +1,6 @@
 var a18950 =
 [
-    [ "boss_razuvious_minionAI", "df/d3f/a18954.html", "df/d3f/a18954" ],
-    [ "boss_razuvious_minion", "d9/d28/a18950.html#ae23d51c9ebfe31f624a749578d27252c", null ],
-    [ "GetAI", "d9/d28/a18950.html#afab8dccbc0b098a1fa058ef8479ba865", null ]
+    [ "FilterTargets", "d9/d28/a18950.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
+    [ "PrepareSpellScript", "d9/d28/a18950.html#a452937a4e95b40366f915213ec475a84", null ],
+    [ "Register", "d9/d28/a18950.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
 ];

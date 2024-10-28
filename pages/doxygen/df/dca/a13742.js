@@ -1,8 +1,5 @@
 var a13742 =
 [
-    [ "boss_grilekAI", "df/dca/a13742.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
-    [ "JustEngagedWith", "df/dca/a13742.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
-    [ "Reset", "df/dca/a13742.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
-    [ "UpdateAI", "df/dca/a13742.html#a19438103c9a582a7d36d805c80131e8c", null ],
-    [ "_pursuitTargetGUID", "df/dca/a13742.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
+    [ "at_zulgurub_bridge_speech", "df/dca/a13742.html#a0ef9d44dc98ddee8fe5133862339808d", null ],
+    [ "_OnTrigger", "df/dca/a13742.html#a67234a1f4c77888a8535d0ea52e16ba9", null ]
 ];

@@ -1,6 +1,6 @@
 var a16082 =
 [
-    [ "instance_trial_of_the_champion_InstanceMapScript", "de/db7/a16086.html", "de/db7/a16086" ],
-    [ "instance_trial_of_the_champion", "d4/db8/a16082.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
-    [ "GetInstanceScript", "d4/db8/a16082.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
+    [ "HideNpcEvent", "d4/db8/a16082.html#ab454295aab0f5d4586740140232e96eb", null ],
+    [ "Execute", "d4/db8/a16082.html#aecfbbbcac3fd98675913a6381c891a59", null ],
+    [ "_owner", "d4/db8/a16082.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
 ];

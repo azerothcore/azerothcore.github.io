@@ -1,6 +1,6 @@
 var a14394 =
 [
-    [ "HandleHit", "dd/dc4/a14394.html#aec32d6b45bdcfe3a6a32c2fb7558edd1", null ],
-    [ "PrepareSpellScript", "dd/dc4/a14394.html#a31fdc4d630a4a6647d2a9b1100aecdad", null ],
-    [ "Register", "dd/dc4/a14394.html#a64a861b5c25df5780390aa55899393d7", null ]
+    [ "OnRemove", "dd/dc4/a14394.html#af9da33426d8ea4462f7d9957c4312019", null ],
+    [ "PrepareAuraScript", "dd/dc4/a14394.html#a594f2b65fdbe30f3d52e608f9b7c9731", null ],
+    [ "Register", "dd/dc4/a14394.html#a4b04c70fd9c55d20261d9d256ea0966f", null ]
 ];

@@ -1,6 +1,6 @@
 var a03323 =
 [
-    [ "AuctionHouseScript", "df/d5b/a09966.html", "df/d5b/a09966" ],
+    [ "AuctionHouseScript", "d6/d21/a09970.html", "d6/d21/a09970" ],
     [ "AuctionHouseHook", "d4/d00/a03323.html#a12159e90d998de411ceb193c223f26c9", [
       [ "AUCTIONHOUSEHOOK_ON_AUCTION_ADD", "d4/d00/a03323.html#a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0", null ],
       [ "AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE", "d4/d00/a03323.html#a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2", null ],

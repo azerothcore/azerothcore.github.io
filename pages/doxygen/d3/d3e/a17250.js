@@ -1,6 +1,7 @@
 var a17250 =
 [
-    [ "npc_saurfang_eventAI", "d8/dcf/a17254.html", "d8/dcf/a17254" ],
-    [ "npc_saurfang_event", "d3/d3e/a17250.html#a3bfce5457466360458498833098d660c", null ],
-    [ "GetAI", "d3/d3e/a17250.html#a953842d2fa3380a8331faf3a42cb3177", null ]
+    [ "HandleDummy", "d3/d3e/a17250.html#a89c0706f21fe92fd443c3638181044ec", null ],
+    [ "PrepareSpellScript", "d3/d3e/a17250.html#a957e29d2458fd90228ef9c53e997c642", null ],
+    [ "Register", "d3/d3e/a17250.html#a250c95310503cd59d73e45a9b9372268", null ],
+    [ "Validate", "d3/d3e/a17250.html#a1c67a262eb95def51661919a3bad3437", null ]
 ];

@@ -1,14 +1,13 @@
 var a10914 =
 [
-    [ "IsFitToRequirements", "d1/d6c/a10914.html#af1585273701356a591bf9d9483e996a3", null ],
-    [ "areaId", "d1/d6c/a10914.html#af7e6f7b027388447a1f99e759975ca09", null ],
-    [ "auraSpell", "d1/d6c/a10914.html#adaf2f6f7c56701fe42a2674aca74fba0", null ],
-    [ "autocast", "d1/d6c/a10914.html#a38b42b82e4a588e102eb393cc907cd27", null ],
-    [ "gender", "d1/d6c/a10914.html#af4314cba9c91fd1e2c09905c17c67d22", null ],
-    [ "questEnd", "d1/d6c/a10914.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f", null ],
-    [ "questEndStatus", "d1/d6c/a10914.html#ac6c7ed326628642da138bb3835db9a1d", null ],
-    [ "questStart", "d1/d6c/a10914.html#afc99b14a3724fef7c5dd70e976a479a8", null ],
-    [ "questStartStatus", "d1/d6c/a10914.html#a7f4466dfd9ab56850a36d0d09ff84798", null ],
-    [ "raceMask", "d1/d6c/a10914.html#a402373ff841bd2aa47b4b36a581624cc", null ],
-    [ "spellId", "d1/d6c/a10914.html#a8a299d901e2c13cdc3c00d6cf0a856d3", null ]
+    [ "PetAuraMap", "d1/d6c/a10914.html#a6c020340ff467b5f2d00c3b5f9fee817", null ],
+    [ "PetAura", "d1/d6c/a10914.html#a8cd7e3284837b30a8a3c6739ab5cb9b3", null ],
+    [ "PetAura", "d1/d6c/a10914.html#a79a2f086e2d8dbe1af47716b53df0524", null ],
+    [ "AddAura", "d1/d6c/a10914.html#ae33bb99ab341f66fb2f296ccd6617e63", null ],
+    [ "GetAura", "d1/d6c/a10914.html#a6f8318410229a89e0b3aa2af28d6cb2b", null ],
+    [ "GetDamage", "d1/d6c/a10914.html#a38087712cef92ad55dc84f96e2b9e300", null ],
+    [ "IsRemovedOnChangePet", "d1/d6c/a10914.html#adc1b329e1f303b5ad3f353abb4343cdf", null ],
+    [ "auras", "d1/d6c/a10914.html#abacd738dfb04687810b981297b1a1567", null ],
+    [ "damage", "d1/d6c/a10914.html#a216021a7ad893ae6ca65ea068dd6eedb", null ],
+    [ "removeOnChangePet", "d1/d6c/a10914.html#aa5b3219cd2021341ce0910dce81d8b56", null ]
 ];

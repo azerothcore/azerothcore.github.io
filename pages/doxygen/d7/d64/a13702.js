@@ -1,6 +1,5 @@
 var a13702 =
 [
-    [ "boss_arlokkAI", "d1/d4e/a13706.html", "d1/d4e/a13706" ],
-    [ "boss_arlokk", "d7/d64/a13702.html#a55bb21239e05acff18d2fb147449800e", null ],
-    [ "GetAI", "d7/d64/a13702.html#a58b8cc7a198784b48faaab1b069d397c", null ]
+    [ "go_gong_of_bethekk", "d7/d64/a13702.html#ae261467be63f1a744eb20f81473c2239", null ],
+    [ "OnGossipHello", "d7/d64/a13702.html#a82072ff8c030aec1a5ed447865680788", null ]
 ];

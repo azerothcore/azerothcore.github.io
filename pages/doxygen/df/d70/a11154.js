@@ -1,7 +1,13 @@
 var a11154 =
 [
-    [ "PlayerDumpReader", "df/d70/a11154.html#ad630b61e298fb1ddf165481c9a14e077", null ],
-    [ "LoadDump", "df/d70/a11154.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
-    [ "LoadDumpFromFile", "df/d70/a11154.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
-    [ "LoadDumpFromString", "df/d70/a11154.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
+    [ "PlayerDumpWriter", "df/d70/a11154.html#a060152c060b37c4bf1208a99edc4a840", null ],
+    [ "AppendTable", "df/d70/a11154.html#a7f285fddf6d33dd1664b5af801f110e9", null ],
+    [ "GetDump", "df/d70/a11154.html#a17457008e1262c0aed284469e55841c6", null ],
+    [ "PopulateGuids", "df/d70/a11154.html#aab122c84eefe801ac23211ec5a41e888", null ],
+    [ "WriteDumpToFile", "df/d70/a11154.html#a81612bfc0d161595f4de1a6133d5c46d", null ],
+    [ "WriteDumpToString", "df/d70/a11154.html#a43d30815c9b3b2608e0fecad7bba7254", null ],
+    [ "_items", "df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26", null ],
+    [ "_itemSets", "df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92", null ],
+    [ "_mails", "df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a", null ],
+    [ "_pets", "df/d70/a11154.html#a33325b0514324020bba98364a7f59de5", null ]
 ];

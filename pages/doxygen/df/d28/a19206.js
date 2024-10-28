@@ -1,6 +1,6 @@
 var a19206 =
 [
-    [ "npc_oculus_unstable_sphereAI", "de/d47/a19210.html", "de/d47/a19210" ],
-    [ "npc_oculus_unstable_sphere", "df/d28/a19206.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
-    [ "GetAI", "df/d28/a19206.html#adda2a9e7eab03444742e85729673ab2f", null ]
+    [ "boss_uromAI", "de/d47/a19210.html", "de/d47/a19210" ],
+    [ "boss_urom", "df/d28/a19206.html#ae85d0bb54d3bf6571bec9d35f31a3e25", null ],
+    [ "GetAI", "df/d28/a19206.html#ac381b851f3cc746fb323ff238892c537", null ]
 ];

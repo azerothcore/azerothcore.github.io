@@ -1,6 +1,11 @@
 var a18046 =
 [
-    [ "npc_shambling_horror_iccAI", "da/d7d/a18050.html", "da/d7d/a18050" ],
-    [ "npc_shambling_horror_icc", "d8/dca/a18046.html#a68219e0c6e79f5e7bed1f353d7bb5bcb", null ],
-    [ "GetAI", "d8/dca/a18046.html#a96fd525fcb34e793b1fc3fc5179e92ec", null ]
+    [ "AddMissingStack", "d8/dca/a18046.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
+    [ "CheckAura", "d8/dca/a18046.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
+    [ "FilterTargets", "d8/dca/a18046.html#ab6c86c3680823329d5f3aad985aa316a", null ],
+    [ "Load", "d8/dca/a18046.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
+    [ "PrepareSpellScript", "d8/dca/a18046.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
+    [ "Register", "d8/dca/a18046.html#af0e6f1fc6687de1abcc1689116150088", null ],
+    [ "_hadInitialAura", "d8/dca/a18046.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
+    [ "_hadJumpingAura", "d8/dca/a18046.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
 ];

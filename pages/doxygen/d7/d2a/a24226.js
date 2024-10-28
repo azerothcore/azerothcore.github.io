@@ -1,6 +1,7 @@
 var a24226 =
 [
-    [ "PrepareSpellScript", "d7/d2a/a24226.html#ac781a5ff389268d1f18867ff5585ca71", null ],
-    [ "Register", "d7/d2a/a24226.html#a5cb9e02774ea6c307e76183253ffb472", null ],
-    [ "SetDest", "d7/d2a/a24226.html#a5fec9885b1dd6cf80fb47af321fad98e", null ]
+    [ "npc_isla_starmaneAI", "dd/dfe/a24230.html", "dd/dfe/a24230" ],
+    [ "npc_isla_starmane", "d7/d2a/a24226.html#af30b3658d8f19be0dc07cb35eeb04668", null ],
+    [ "GetAI", "d7/d2a/a24226.html#a0ea2dbaab4115772f92849e06aa85575", null ],
+    [ "OnQuestAccept", "d7/d2a/a24226.html#afeda3da3761e96e2901ea06c5a26fa3a", null ]
 ];

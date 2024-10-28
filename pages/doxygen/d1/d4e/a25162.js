@@ -1,7 +1,7 @@
 var a25162 =
 [
-    [ "EjectPassenger", "d1/d4e/a25162.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
-    [ "PrepareSpellScript", "d1/d4e/a25162.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
-    [ "Register", "d1/d4e/a25162.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
-    [ "Validate", "d1/d4e/a25162.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
+    [ "OnApply", "d1/d4e/a25162.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
+    [ "OnRemove", "d1/d4e/a25162.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
+    [ "PrepareAuraScript", "d1/d4e/a25162.html#a9a7b549e059b6bd2d22802f60e952658", null ],
+    [ "Register", "d1/d4e/a25162.html#aae603735281daf02ceca157e218d5c9f", null ]
 ];

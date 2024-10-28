@@ -1,6 +1,6 @@
 var a17122 =
 [
-    [ "npc_kinetic_bombAI", "db/d36/a17126.html", "db/d36/a17126" ],
-    [ "npc_kinetic_bomb", "d1/d16/a17122.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
-    [ "GetAI", "d1/d16/a17122.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
+    [ "HandleScript", "d1/d16/a17122.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "d1/d16/a17122.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "d1/d16/a17122.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

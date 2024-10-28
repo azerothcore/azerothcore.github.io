@@ -1,11 +1,6 @@
 var a23366 =
 [
-    [ "boss_gruul", "d2/dd3/a23366.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "d2/dd3/a23366.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "d2/dd3/a23366.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "d2/dd3/a23366.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "d2/dd3/a23366.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "d2/dd3/a23366.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "d2/dd3/a23366.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "d2/dd3/a23366.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "HandleScriptEffect", "d2/dd3/a23366.html#abba5817280db6579e3e6e0b964655c6e", null ],
+    [ "PrepareSpellScript", "d2/dd3/a23366.html#a846fa43c9907ddb6243c006327757a1c", null ],
+    [ "Register", "d2/dd3/a23366.html#a7daa26f4035912bff4811b0bfee35fee", null ]
 ];

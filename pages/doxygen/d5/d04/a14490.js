@@ -1,13 +1,10 @@
 var a14490 =
 [
-    [ "boss_infinite_corruptorAI", "d5/d04/a14490.html#add36192941eaabf7f3d1d41c572783bd", null ],
-    [ "DoAction", "d5/d04/a14490.html#a8ff0a9731ad7bc118a1014bdbb0e1daf", null ],
-    [ "JustDied", "d5/d04/a14490.html#a6d2f445bf0819ac644d7de14d3b7034d", null ],
-    [ "JustEngagedWith", "d5/d04/a14490.html#a644725505db4fc7a98c4255d0eb34616", null ],
-    [ "JustSummoned", "d5/d04/a14490.html#a2b12c03184b169a56a0e6696a107dc35", null ],
-    [ "Reset", "d5/d04/a14490.html#a4dbff495bfcda6fb715dec68616e1764", null ],
-    [ "UpdateAI", "d5/d04/a14490.html#aaa0a45066ab7ad7d5a7543822d399947", null ],
-    [ "beamTimer", "d5/d04/a14490.html#a2f8048e591a818f073a65bfcfa49e66c", null ],
-    [ "events", "d5/d04/a14490.html#a5491db8f5e063ca84f18f1ca63c1e846", null ],
-    [ "summons", "d5/d04/a14490.html#aa5de5f986f8a6d3ba5f3aad84422eab6", null ]
+    [ "boss_meathookAI", "d5/d04/a14490.html#abb35c98da760db634545b81d740cd51a", null ],
+    [ "JustDied", "d5/d04/a14490.html#a44ebee45de335ff6f653e9d60a364458", null ],
+    [ "JustEngagedWith", "d5/d04/a14490.html#adf199bf96bbf342caaa74b7dd6b8013c", null ],
+    [ "KilledUnit", "d5/d04/a14490.html#a54deac512294bb0901d072faef3166b1", null ],
+    [ "Reset", "d5/d04/a14490.html#ab4dbdedb1ae114fe4aff1fbe0e8adec1", null ],
+    [ "UpdateAI", "d5/d04/a14490.html#afeaee24a9b6484e8a0e6509b973ed74d", null ],
+    [ "events", "d5/d04/a14490.html#a6cf32d8601a1d07a3a445fa7d9a1ccbc", null ]
 ];

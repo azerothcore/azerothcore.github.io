@@ -1,8 +1,10 @@
 var a09046 =
 [
-    [ "AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck", "d7/d3d/a09046.html#ab3a1ebf25ef0da5df75a5a6a8bbf3ddf", null ],
-    [ "operator()", "d7/d3d/a09046.html#a2b38f9e66b1ba3bb678d763937852e02", null ],
-    [ "i_funit", "d7/d3d/a09046.html#aed6fe2e6d17e2076a373b32de071cd18", null ],
-    [ "i_obj", "d7/d3d/a09046.html#a65245ce627d5ccfde557f2d7e744ead6", null ],
-    [ "i_range", "d7/d3d/a09046.html#aff91ead572f2ed0d1912dbd0180196d5", null ]
+    [ "AnyAoETargetUnitInObjectRangeCheck", "d7/d3d/a09046.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
+    [ "operator()", "d7/d3d/a09046.html#af9a0c32593544a73aae22cd397eef63a", null ],
+    [ "_spellInfo", "d7/d3d/a09046.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
+    [ "i_funit", "d7/d3d/a09046.html#aa00b184a24ea73293114f92126f58f24", null ],
+    [ "i_obj", "d7/d3d/a09046.html#aa4acf0089c978408e30b08d539f2512f", null ],
+    [ "i_range", "d7/d3d/a09046.html#ad386efa8206906fd99816694a6a8d69b", null ],
+    [ "i_targetForPlayer", "d7/d3d/a09046.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
 ];

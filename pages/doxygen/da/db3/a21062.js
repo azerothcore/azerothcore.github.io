@@ -1,5 +1,6 @@
 var a21062 =
 [
-    [ "npc_ritual_channelerAI", "da/db3/a21062.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "da/db3/a21062.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "boss_ymironAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
+    [ "boss_ymiron", "da/db3/a21062.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
+    [ "GetAI", "da/db3/a21062.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
 ];

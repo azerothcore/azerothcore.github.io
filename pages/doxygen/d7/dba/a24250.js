@@ -1,6 +1,6 @@
 var a24250 =
 [
-    [ "npc_slim", "d7/dba/a24250.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "d7/dba/a24250.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "d7/dba/a24250.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "npc_pet_dk_ghoulAI", "dd/dd2/a24254.html", "dd/dd2/a24254" ],
+    [ "npc_pet_dk_ghoul", "d7/dba/a24250.html#ac8af6ae753151a08e80d434a04ef58db", null ],
+    [ "GetAI", "d7/dba/a24250.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
 ];

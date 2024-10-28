@@ -1,11 +1,10 @@
 var a18938 =
 [
-    [ "boss_patchwerkAI", "de/db7/a18938.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "JustDied", "de/db7/a18938.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "JustEngagedWith", "de/db7/a18938.html#a1317cb819d6247f62e0c6c725157db30", null ],
-    [ "KilledUnit", "de/db7/a18938.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "de/db7/a18938.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "de/db7/a18938.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "de/db7/a18938.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "de/db7/a18938.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "boss_razuvious_minionAI", "de/db7/a18938.html#a6f9fc7dad68f35846ee76d4bff564407", null ],
+    [ "DoAction", "de/db7/a18938.html#a93cfa3f706ffadd94ad4dbe0585eebf1", null ],
+    [ "JustEngagedWith", "de/db7/a18938.html#ada2e7a5ac1f129572a0689afce49d310", null ],
+    [ "KilledUnit", "de/db7/a18938.html#ab1a6f582098c9d1218551af0aae1815d", null ],
+    [ "Reset", "de/db7/a18938.html#a170de8517a03a0e78b1e67652869fd9a", null ],
+    [ "ScheduleAttackDummy", "de/db7/a18938.html#abed82c71605d7c57bf29cedc21fc6b24", null ],
+    [ "UpdateAI", "de/db7/a18938.html#ad56fca0ae00fba6e575baefd72c7a8d0", null ]
 ];

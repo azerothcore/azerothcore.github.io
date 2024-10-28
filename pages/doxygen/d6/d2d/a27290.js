@@ -1,5 +1,6 @@
 var a27290 =
 [
-    [ "item_petrov_cluster_bombs", "d6/d2d/a27290.html#a1a76760f7c4617a40d96b9833e7466df", null ],
-    [ "OnUse", "d6/d2d/a27290.html#a14e8a00a532b5aebc8469ff538848f53", null ]
+    [ "trigger_periodicAI", "d1/d8c/a27294.html", "d1/d8c/a27294" ],
+    [ "trigger_periodic", "d6/d2d/a27290.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
+    [ "GetAI", "d6/d2d/a27290.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
 ];

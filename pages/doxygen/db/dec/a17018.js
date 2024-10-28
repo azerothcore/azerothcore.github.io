@@ -1,7 +1,6 @@
 var a17018 =
 [
-    [ "HandleScriptEffect", "db/dec/a17018.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
-    [ "PrepareSpellScript", "db/dec/a17018.html#aac410690d906867216b40a49d8f15318", null ],
-    [ "Register", "db/dec/a17018.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
-    [ "Validate", "db/dec/a17018.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
+    [ "HandlePeriodic", "db/dec/a17018.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
+    [ "PrepareAuraScript", "db/dec/a17018.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
+    [ "Register", "db/dec/a17018.html#a9753daf5cdc812e9027c1153b450686d", null ]
 ];

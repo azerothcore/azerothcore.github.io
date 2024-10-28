@@ -1,9 +1,9 @@
 var a01325 =
 [
-    [ "npc_taldaram_flamesphere", "d2/dde/a15622.html", "d2/dde/a15622" ],
-    [ "boss_taldaram", "da/db2/a15626.html", "da/db2/a15626" ],
-    [ "spell_prince_taldaram_conjure_flame_sphere", "da/d48/a15630.html", "da/d48/a15630" ],
-    [ "spell_prince_taldaram_flame_sphere_summon", "dc/d38/a15634.html", "dc/d38/a15634" ],
+    [ "npc_taldaram_flamesphere", "db/d11/a15606.html", "db/d11/a15606" ],
+    [ "boss_taldaram", "dc/d91/a15610.html", "dc/d91/a15610" ],
+    [ "spell_prince_taldaram_conjure_flame_sphere", "de/db3/a15614.html", "de/db3/a15614" ],
+    [ "spell_prince_taldaram_flame_sphere_summon", "dc/d1d/a15618.html", "dc/d1d/a15618" ],
     [ "DATA_SPHERE_ANGLE_OFFSET", "dd/d5d/a01325.html#abba5e7f7dee2d39e8b41c5ac0f4b1746", null ],
     [ "SPELL_EMBRACE_OF_THE_VAMPYR", "dd/d5d/a01325.html#aba2148c075727cb24738046dd2f9e8ae", null ],
     [ "Actions", "dd/d5d/a01325.html#a250372292659bed7ae290d8621f88ccf", [
@@ -280,6 +280,9 @@ var a01325 =
       [ "DATA_NEGATIVE_ENERGY_TARGETS", "d1/dce/a02168.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a988392416213171dc24d639763771cb2", null ],
       [ "ITEM_FRAGMENT", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8c167711f76366adc8cf61625480f6da", null ],
       [ "NPC_TWILIGHT_CORRUPTER", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
+      [ "MAX_BOMB_COUNT", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
+      [ "SCHEDULER_GROUP_HATCHING", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a60817628f0ac235a3cafc6215f674a42", null ],
+      [ "EVENT_BERSERK", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a94f1144a24a622ff9e12ebe57137f266", null ],
       [ "MAX_ENCOUNTER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7913656ef56deb3793c0c5f3d999d80d", null ],
       [ "RAND_VENDOR", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ac1150c56f4c1aa81c823e2f9892ff818", null ],
       [ "WORLDSTATE_SHOW_TIMER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad9983a17d117d785671b552859fb22ec", null ],
@@ -1811,7 +1814,8 @@ var a01325 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

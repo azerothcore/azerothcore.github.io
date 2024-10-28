@@ -1,5 +1,6 @@
 var a24138 =
 [
-    [ "go_crystal_prison", "d5/dcf/a24138.html#a0faca8b76f9650ee5cc7825b90463365", null ],
-    [ "OnQuestAccept", "d5/dcf/a24138.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
+    [ "npc_shadowmoon_tuber_nodeAI", "dc/d11/a24142.html", "dc/d11/a24142" ],
+    [ "npc_shadowmoon_tuber_node", "d5/dcf/a24138.html#a98e8c7a84789457900fa342cca209d41", null ],
+    [ "GetAI", "d5/dcf/a24138.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
 ];

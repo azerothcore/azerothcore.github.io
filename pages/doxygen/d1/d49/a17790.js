@@ -1,7 +1,6 @@
 var a17790 =
 [
-    [ "HandleScript", "d1/d49/a17790.html#a37b261d0df2829788d8290a9194913f5", null ],
-    [ "PrepareSpellScript", "d1/d49/a17790.html#a69386dbef57322393a38eec90662135f", null ],
-    [ "Register", "d1/d49/a17790.html#a5b85b01100d7f7c672c437e4bdfd7a7c", null ],
-    [ "Validate", "d1/d49/a17790.html#a63c446574c700a895d7fbc5bb2b81508", null ]
+    [ "CheckTarget", "d1/d49/a17790.html#afce64ba75f8370cab6b8f1e561b10587", null ],
+    [ "PrepareSpellScript", "d1/d49/a17790.html#a6b6eaf3e761f2c173c2e72f46b25595a", null ],
+    [ "Register", "d1/d49/a17790.html#a6964ca668f02a8b5b1c3015503a41eef", null ]
 ];

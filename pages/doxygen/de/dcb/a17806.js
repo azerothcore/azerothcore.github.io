@@ -1,6 +1,7 @@
 var a17806 =
 [
-    [ "CheckTarget", "de/dcb/a17806.html#afce64ba75f8370cab6b8f1e561b10587", null ],
-    [ "PrepareSpellScript", "de/dcb/a17806.html#a6b6eaf3e761f2c173c2e72f46b25595a", null ],
-    [ "Register", "de/dcb/a17806.html#a6964ca668f02a8b5b1c3015503a41eef", null ]
+    [ "FrostwyrmLandEvent", "de/dcb/a17806.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
+    [ "Execute", "de/dcb/a17806.html#a4da77796a223e6233ac6d908f7700623", null ],
+    [ "_dest", "de/dcb/a17806.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
+    [ "_owner", "de/dcb/a17806.html#a6336050092606ebb27a180abff55dfa2", null ]
 ];

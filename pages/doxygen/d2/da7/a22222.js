@@ -1,6 +1,8 @@
 var a22222 =
 [
-    [ "HandleScriptEffect", "d2/da7/a22222.html#a66849cb61f056e861d8887dc98f6ccbf", null ],
-    [ "PrepareSpellScript", "d2/da7/a22222.html#afa4ad1b205bf963b4230881738baf938", null ],
-    [ "Register", "d2/da7/a22222.html#a0d8925effced854471e2fbec9c631b91", null ]
+    [ "npc_wg_spirit_guideAI", "dd/ddd/a22226.html", "dd/ddd/a22226" ],
+    [ "npc_wg_spirit_guide", "d2/da7/a22222.html#ad6ca047a51547203ee2c5f69efb6f2d3", null ],
+    [ "GetAI", "d2/da7/a22222.html#a769cdf4ac330b5dec71437d325aaf46a", null ],
+    [ "OnGossipHello", "d2/da7/a22222.html#a2d46078cb47f817239685d168f7f2e35", null ],
+    [ "OnGossipSelect", "d2/da7/a22222.html#aae050d38b9fa9c16d398d2733b1e5faf", null ]
 ];

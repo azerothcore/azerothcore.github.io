@@ -1,6 +1,6 @@
 var a15782 =
 [
-    [ "instance_obsidian_sanctum_InstanceMapScript", "d4/d7d/a15786.html", "d4/d7d/a15786" ],
-    [ "instance_obsidian_sanctum", "d7/d2f/a15782.html#a6cf2121c4167156f5748c144372b3c0b", null ],
-    [ "GetInstanceScript", "d7/d2f/a15782.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
+    [ "boss_baltharus_the_warbornAI", "d4/d7d/a15786.html", "d4/d7d/a15786" ],
+    [ "boss_baltharus_the_warborn", "d7/d2f/a15782.html#aababb8862273d60f140dce675131783d", null ],
+    [ "GetAI", "d7/d2f/a15782.html#afe7ecf8635c8c0a051047a801c2a8d54", null ]
 ];

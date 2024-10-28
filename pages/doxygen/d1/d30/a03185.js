@@ -1,7 +1,7 @@
 var a03185 =
 [
-    [ "ScriptPointMove", "d6/dd4/a10142.html", "d6/dd4/a10142" ],
-    [ "SystemMgr", "db/d3e/a10146.html", "db/d3e/a10146" ],
+    [ "ScriptPointMove", "db/d3e/a10146.html", "db/d3e/a10146" ],
+    [ "SystemMgr", "d8/d61/a10150.html", "d8/d61/a10150" ],
     [ "sScriptSystemMgr", "d1/d30/a03185.html#a95cfdf568913b08b669f19b401f888a7", null ],
     [ "TEXT_SOURCE_RANGE", "d1/d30/a03185.html#a55d384db121a9bd513042ebdeb40e602", null ],
     [ "ScriptPointVector", "d1/d30/a03185.html#aab50bb2bd1f4c2c015d1ed573408733a", null ],

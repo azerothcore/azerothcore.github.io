@@ -1,9 +1,6 @@
 var a22610 =
 [
-    [ "instance_shadow_labyrinth_InstanceMapScript", "d3/dc6/a22610.html#ada5f19c96bfe623b110389ede032ef53", null ],
-    [ "GetData", "d3/dc6/a22610.html#ad876ebd581c470f5a3075129076bd1fb", null ],
-    [ "Initialize", "d3/dc6/a22610.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
-    [ "OnCreatureCreate", "d3/dc6/a22610.html#a118b4a7a7c872327ec2868c5b0417636", null ],
-    [ "OnUnitDeath", "d3/dc6/a22610.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
-    [ "_ritualistsAliveCount", "d3/dc6/a22610.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
+    [ "HandleScriptEffect", "d3/dc6/a22610.html#a21740b341acce23e284a3d4ceea9b6e0", null ],
+    [ "PrepareSpellScript", "d3/dc6/a22610.html#addcd30a673390ca8b76eab5ccb5f4245", null ],
+    [ "Register", "d3/dc6/a22610.html#aad6959f74932db219e991efd3b3af44a", null ]
 ];

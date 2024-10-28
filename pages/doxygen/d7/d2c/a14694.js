@@ -1,6 +1,6 @@
 var a14694 =
 [
-    [ "npc_belnistraszAI", "df/d7b/a14698.html", "df/d7b/a14698" ],
-    [ "npc_belnistrasz", "d7/d2c/a14694.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
-    [ "GetAI", "d7/d2c/a14694.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
+    [ "instance_razorfen_kraul_InstanceMapScript", "df/d7b/a14698.html", "df/d7b/a14698" ],
+    [ "instance_razorfen_kraul", "d7/d2c/a14694.html#aedd65b901c8131a7ac21e8576734f76f", null ],
+    [ "GetInstanceScript", "d7/d2c/a14694.html#a78e77010ebb055b9530733ca25533110", null ]
 ];

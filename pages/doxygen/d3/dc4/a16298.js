@@ -1,6 +1,6 @@
 var a16298 =
 [
-    [ "spell_faction_champion_warl_unstable_affliction_AuraScript", "dd/da6/a16302.html", "dd/da6/a16302" ],
-    [ "spell_faction_champion_warl_unstable_affliction", "d3/dc4/a16298.html#abe931f01a51b99eae8c10c31cb816e3c", null ],
-    [ "GetAuraScript", "d3/dc4/a16298.html#a21e86741c8718c681dd167ef4b75ccca", null ]
+    [ "npc_fel_infernalAI", "dd/da6/a16302.html", "dd/da6/a16302" ],
+    [ "npc_fel_infernal", "d3/dc4/a16298.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
+    [ "GetAI", "d3/dc4/a16298.html#a768201a7516c9972800c941cf2079a11", null ]
 ];

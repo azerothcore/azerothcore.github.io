@@ -1,4 +1,5 @@
 var a14714 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "da/d7a/a14714.html#a60715ab6220e798f16b16bcaa3714ad9", null ]
+    [ "pathId", "da/d7a/a14714.html#aefd9fa5c6e7f45047994c7cc47e5967c", null ],
+    [ "spellId", "da/d7a/a14714.html#af495f984d5b81baeaa61ddca127a9508", null ]
 ];

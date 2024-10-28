@@ -1,11 +1,7 @@
 var a18062 =
 [
-    [ "AddMissingStack", "de/d3f/a18062.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
-    [ "CheckAura", "de/d3f/a18062.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
-    [ "FilterTargets", "de/d3f/a18062.html#ab6c86c3680823329d5f3aad985aa316a", null ],
-    [ "Load", "de/d3f/a18062.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
-    [ "PrepareSpellScript", "de/d3f/a18062.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
-    [ "Register", "de/d3f/a18062.html#af0e6f1fc6687de1abcc1689116150088", null ],
-    [ "_hadInitialAura", "de/d3f/a18062.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
-    [ "_hadJumpingAura", "de/d3f/a18062.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
+    [ "CheckTargetCount", "de/d3f/a18062.html#a637ba0717ae0f6f736f5532ed65ca301", null ],
+    [ "PrepareSpellScript", "de/d3f/a18062.html#af560e5c4e985e9b139999f5ef618fe3c", null ],
+    [ "Register", "de/d3f/a18062.html#a86e7512496fd38201d458c03a7a60296", null ],
+    [ "Validate", "de/d3f/a18062.html#a744c4aa76387be4aa76a69fbcaa7932e", null ]
 ];

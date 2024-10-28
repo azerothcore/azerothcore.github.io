@@ -1,6 +1,5 @@
 var a24262 =
 [
-    [ "npc_pet_dk_ghoulAI", "da/d9a/a24266.html", "da/d9a/a24266" ],
-    [ "npc_pet_dk_ghoul", "d5/df0/a24262.html#ac8af6ae753151a08e80d434a04ef58db", null ],
-    [ "GetAI", "d5/df0/a24262.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
+    [ "npc_pet_dk_risen_allyAI", "d5/df0/a24262.html#ac9f42a8f6d87ab65e78d9a3951102705", null ],
+    [ "OnCharmed", "d5/df0/a24262.html#ada01d7ab11b7bf240cad932c96978a06", null ]
 ];

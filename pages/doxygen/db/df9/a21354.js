@@ -1,6 +1,6 @@
 var a21354 =
 [
-    [ "npc_azure_spellbreakerAI", "d6/d7a/a21358.html", "d6/d7a/a21358" ],
-    [ "npc_azure_spellbreaker", "db/df9/a21354.html#a36f09ff7a60a04e6dd99bc37146000f8", null ],
-    [ "GetAI", "db/df9/a21354.html#a7b2e89c33deef7fb5237b271dd5b0d12", null ]
+    [ "npc_azure_sorcerorAI", "d6/d7a/a21358.html", "d6/d7a/a21358" ],
+    [ "npc_azure_sorceror", "db/df9/a21354.html#ab81ec144680a37312b0a5e0110365a1a", null ],
+    [ "GetAI", "db/df9/a21354.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
 ];

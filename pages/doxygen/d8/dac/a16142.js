@@ -1,6 +1,6 @@
 var a16142 =
 [
-    [ "spell_pursuing_spikesAuraScript", "d4/d27/a16146.html", "d4/d27/a16146" ],
-    [ "spell_pursuing_spikes", "d8/dac/a16142.html#a8885f224489fb87a4468b8fb1d0d5ef9", null ],
-    [ "GetAuraScript", "d8/dac/a16142.html#ae95f7398f9185a46dd50445c5a44d9bb", null ]
+    [ "spell_gen_leeching_swarm_dmg_SpellScript", "d4/d27/a16146.html", "d4/d27/a16146" ],
+    [ "spell_gen_leeching_swarm_dmg", "d8/dac/a16142.html#a9f6b89aee3b080ce3b675635097750ff", null ],
+    [ "GetSpellScript", "d8/dac/a16142.html#a4fa3aca5964728833eb1615df4f31221", null ]
 ];

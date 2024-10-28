@@ -1,8 +1,9 @@
 var a16754 =
 [
-    [ "npc_hor_raging_ghoulAI", "d1/dd8/a16754.html#ac4b2b3acf8a7acda73c7158f1565a274", null ],
-    [ "JustDied", "d1/dd8/a16754.html#a70e581c9b3f7d88d497c1540ac9ca04c", null ],
-    [ "Reset", "d1/dd8/a16754.html#aa52576d94e230797209dfc938d62187f", null ],
-    [ "UpdateAI", "d1/dd8/a16754.html#ac7c8571eac32f722a5fb0c28092b7e8f", null ],
-    [ "leaped", "d1/dd8/a16754.html#a12f6e6d5911b2b8b9caa01a9a83570bc", null ]
+    [ "npc_hor_lumbering_abominationAI", "d1/dd8/a16754.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
+    [ "JustDied", "d1/dd8/a16754.html#af243a79da3028d3d66facc8a15132f78", null ],
+    [ "JustEngagedWith", "d1/dd8/a16754.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
+    [ "Reset", "d1/dd8/a16754.html#a4270f405bbade0028fce4df0655a1987", null ],
+    [ "UpdateAI", "d1/dd8/a16754.html#a995d0f7902cb70280d1448ac7731a816", null ],
+    [ "events", "d1/dd8/a16754.html#aee9063950477b50e38ec904e91882689", null ]
 ];

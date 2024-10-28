@@ -1,7 +1,6 @@
 var a16554 =
 [
-    [ "HandleEffectRemove", "de/dec/a16554.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
-    [ "Load", "de/dec/a16554.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
-    [ "PrepareAuraScript", "de/dec/a16554.html#a97411ddf89a10a962ba74d294eb653e7", null ],
-    [ "Register", "de/dec/a16554.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
+    [ "npc_fos_corrupted_soul_fragmentAI", "d6/d43/a16558.html", "d6/d43/a16558" ],
+    [ "npc_fos_corrupted_soul_fragment", "de/dec/a16554.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
+    [ "GetAI", "de/dec/a16554.html#aed663e0a313223fcaa988b89b1b02df3", null ]
 ];

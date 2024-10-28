@@ -1,6 +1,6 @@
 var a02876 =
 [
-    [ "AutobroadcastMgr", "d5/deb/a06942.html", "d5/deb/a06942" ],
+    [ "AutobroadcastMgr", "d0/d21/a06946.html", "d0/d21/a06946" ],
     [ "sAutobroadcastMgr", "d7/d65/a02876.html#a34abff2dadcb74370b0749fe9fda3878", null ],
     [ "AnnounceType", "d7/d65/a02876.html#a28a4ef2f64643c76d8be05bf9eafc731", [
       [ "World", "d7/d65/a02876.html#a28a4ef2f64643c76d8be05bf9eafc731af5a7924e621e84c9280a9a27e1bcb7f6", null ],

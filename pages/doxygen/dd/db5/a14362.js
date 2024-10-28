@@ -1,9 +1,6 @@
 var a14362 =
 [
-    [ "boss_azuregosAI", "dd/db5/a14362.html#a839ab1e096d30062d64c1c515a7462a4", null ],
-    [ "JustDied", "dd/db5/a14362.html#aea4d204173b7882d2d9acf8204410947", null ],
-    [ "JustEngagedWith", "dd/db5/a14362.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
-    [ "KilledUnit", "dd/db5/a14362.html#aeefc791e17d2a687f8beae809c44d123", null ],
-    [ "Reset", "dd/db5/a14362.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
-    [ "UpdateAI", "dd/db5/a14362.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ]
+    [ "FilterTargets", "dd/db5/a14362.html#ae2d33bee9d8d8c29f07ed60bbaf3e7b0", null ],
+    [ "PrepareSpellScript", "dd/db5/a14362.html#a2b7ec1db13418f2e369faab6ec8422b4", null ],
+    [ "Register", "dd/db5/a14362.html#a6375482bd9d1fc6c6941607273c506dc", null ]
 ];

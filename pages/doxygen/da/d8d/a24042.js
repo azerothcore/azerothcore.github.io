@@ -1,7 +1,6 @@
 var a24042 =
 [
-    [ "CheckRequirement", "da/d8d/a24042.html#a4ad521364c6156c0ecef818a23ce7aff", null ],
-    [ "PrepareSpellScript", "da/d8d/a24042.html#a0d995c6ae6d1da0014c053a62b37a7b7", null ],
-    [ "Register", "da/d8d/a24042.html#a25f275e84570f674071bfae03aeb0ddc", null ],
-    [ "Validate", "da/d8d/a24042.html#adc648151e2c61a61a0dc5883d9fa4ae0", null ]
+    [ "npc_invis_infernal_casterAI", "dd/d25/a24046.html", "dd/d25/a24046" ],
+    [ "npc_invis_infernal_caster", "da/d8d/a24042.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "da/d8d/a24042.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

@@ -1,6 +1,6 @@
 var a19110 =
 [
-    [ "ChargeRifts", "d4/d8e/a19110.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
-    [ "Execute", "d4/d8e/a19110.html#a8d01bf861d37c25413dc14eee16a2939", null ],
-    [ "_caster", "d4/d8e/a19110.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
+    [ "boss_commander_stoutbeardAI", "d9/d93/a19114.html", "d9/d93/a19114" ],
+    [ "boss_commander_stoutbeard", "d4/d8e/a19110.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
+    [ "GetAI", "d4/d8e/a19110.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
 ];

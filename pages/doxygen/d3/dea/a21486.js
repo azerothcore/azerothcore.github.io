@@ -1,6 +1,6 @@
 var a21486 =
 [
-    [ "npc_warmage_coldarraAI", "de/db2/a21490.html", "de/db2/a21490" ],
-    [ "npc_warmage_coldarra", "d3/dea/a21486.html#a358f8ab26991798ff076ac764cd7abe2", null ],
-    [ "GetAI", "d3/dea/a21486.html#aa29181e0ad61b44eff685267f3231382", null ]
+    [ "HandleEffect", "d3/dea/a21486.html#a6732d51d5de34b3e737cc785fb2ab43e", null ],
+    [ "PrepareSpellScript", "d3/dea/a21486.html#aec199e9f9651267fac88bd86be326bb4", null ],
+    [ "Register", "d3/dea/a21486.html#a14bd854db86750704c8377d457dea360", null ]
 ];

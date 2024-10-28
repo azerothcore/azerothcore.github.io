@@ -1,6 +1,6 @@
 var a20562 =
 [
-    [ "npc_xt002_scrapbotAI", "dc/d04/a20566.html", "dc/d04/a20566" ],
-    [ "npc_xt002_scrapbot", "d1/d93/a20562.html#accfd75266d058af3856bdb625728c18d", null ],
-    [ "GetAI", "d1/d93/a20562.html#aa3639c32c94f0e031ba774e4eed659cd", null ]
+    [ "BoomEvent", "d1/d93/a20562.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
+    [ "Execute", "d1/d93/a20562.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
+    [ "_me", "d1/d93/a20562.html#a30de77ee751f1c10231088cb84942342", null ]
 ];

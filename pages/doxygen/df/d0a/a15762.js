@@ -1,6 +1,6 @@
 var a15762 =
 [
-    [ "npc_twilight_summonAI", "d5/d66/a15766.html", "d5/d66/a15766" ],
-    [ "npc_twilight_summon", "df/d0a/a15762.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
-    [ "GetAI", "df/d0a/a15762.html#a98bf5ce96c25bc252acd46163644bf33", null ]
+    [ "HandleLeapBack", "df/d0a/a15762.html#a71a9b9967528c1153ad1215635bc7d01", null ],
+    [ "PrepareSpellScript", "df/d0a/a15762.html#a25a2db5c19e721b112b7bc84b3ac0968", null ],
+    [ "Register", "df/d0a/a15762.html#a6ef11d0538616315fa7cf098748aa01f", null ]
 ];

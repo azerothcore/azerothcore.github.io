@@ -1,6 +1,6 @@
 var a20710 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
-    [ "boss_yoggsaron_descend_portal", "dd/dac/a20710.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
-    [ "GetAI", "dd/dac/a20710.html#aceb50c808eed17ca468a80b823af1907", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
+    [ "boss_yoggsaron_immortal_guardian", "dd/dac/a20710.html#a4009759d284b54cb958ee0bb80c45f14", null ],
+    [ "GetAI", "dd/dac/a20710.html#ac532ca090d93ce6d11a0332329111f2b", null ]
 ];

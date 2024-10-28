@@ -1,5 +1,5 @@
 var a07482 =
 [
-    [ "IsColorValid", "de/dbd/a07482.html#a6fca3f0ea620fbef8ed532ddb26875a0", null ],
-    [ "IsTextValid", "de/dbd/a07482.html#aef8ebbb11dc11311ba7152732a1ace58", null ]
+    [ "IsColorValid", "de/dbd/a07482.html#a537a2beaa8321095d2d67b8fb655acea", null ],
+    [ "IsTextValid", "de/dbd/a07482.html#aeaa47302a91b5882afae3950ffc460cc", null ]
 ];

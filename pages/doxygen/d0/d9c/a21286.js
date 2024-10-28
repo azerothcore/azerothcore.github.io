@@ -1,6 +1,6 @@
 var a21286 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "db/d50/a21290.html", "db/d50/a21290" ],
-    [ "instance_violet_hold", "d0/d9c/a21286.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "d0/d9c/a21286.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "npc_vh_teleportation_portalAI", "db/d50/a21290.html", "db/d50/a21290" ],
+    [ "npc_vh_teleportation_portal", "d0/d9c/a21286.html#a9a554058f594f992a17dbb3887117a6f", null ],
+    [ "GetAI", "d0/d9c/a21286.html#a0721c64c01ae69bd78dfc15637c97f49", null ]
 ];

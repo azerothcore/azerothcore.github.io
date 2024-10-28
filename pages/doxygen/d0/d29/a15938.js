@@ -1,6 +1,6 @@
 var a15938 =
 [
-    [ "PrepareSpellScript", "d0/d29/a15938.html#a743f910c3854e2c4e726e97c55fa7038", null ],
-    [ "Register", "d0/d29/a15938.html#a3b9b2ffa90f58a5da93fd369e11c6216", null ],
-    [ "RemoveNotBetween", "d0/d29/a15938.html#aba462e5b8e9336a508d19606f98750b5", null ]
+    [ "npc_living_infernoAI", "db/d73/a15942.html", "db/d73/a15942" ],
+    [ "npc_living_inferno", "d0/d29/a15938.html#a7df2bb522e67b6f1864604c7b0182078", null ],
+    [ "GetAI", "d0/d29/a15938.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
 ];

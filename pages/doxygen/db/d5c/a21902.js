@@ -1,6 +1,6 @@
 var a21902 =
 [
-    [ "npc_your_inner_turmoilAI", "dd/d39/a21906.html", "dd/d39/a21906" ],
-    [ "npc_your_inner_turmoil", "db/d5c/a21902.html#a72856ef469bb8f6ff4a89a16159479af", null ],
-    [ "GetAI", "db/d5c/a21902.html#a29c8f76b072e891face1225770688ca6", null ]
+    [ "npc_plaguehound_trackerAI", "dd/d39/a21906.html", "dd/d39/a21906" ],
+    [ "npc_plaguehound_tracker", "db/d5c/a21902.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
+    [ "GetAI", "db/d5c/a21902.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
 ];

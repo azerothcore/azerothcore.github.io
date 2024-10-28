@@ -1,4 +1,4 @@
 var a04655 =
 [
-    [ "SocketMgr< SocketType >", "d1/d97/a28306.html", "d1/d97/a28306" ]
+    [ "SocketMgr< SocketType >", "df/db6/a28294.html", "df/db6/a28294" ]
 ];

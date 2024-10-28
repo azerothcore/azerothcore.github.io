@@ -1,7 +1,6 @@
 var a25774 =
 [
-    [ "HandleDummy", "d5/dfb/a25774.html#a884ab3487725dbdd5b069f3a45b7164b", null ],
-    [ "PrepareSpellScript", "d5/dfb/a25774.html#a6ad225a1bcd7bdad7ee1751766e7c129", null ],
-    [ "Register", "d5/dfb/a25774.html#a0877a96dde66adb988628ebb93fe15b6", null ],
-    [ "Validate", "d5/dfb/a25774.html#ad784bb6b5d3588965492b102f2b2898e", null ]
+    [ "CalculateDamage", "d5/dfb/a25774.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
+    [ "PrepareSpellScript", "d5/dfb/a25774.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
+    [ "Register", "d5/dfb/a25774.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
 ];

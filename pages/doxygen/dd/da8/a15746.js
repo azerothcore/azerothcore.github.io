@@ -1,6 +1,6 @@
 var a15746 =
 [
-    [ "boss_sartharion_shadronAI", "df/d54/a15750.html", "df/d54/a15750" ],
-    [ "boss_sartharion_shadron", "dd/da8/a15746.html#ac297719abff8c795af10973492fc6fbe", null ],
-    [ "GetAI", "dd/da8/a15746.html#a95c7184ee7589f01920adc57a7df963b", null ]
+    [ "npc_twilight_summonAI", "df/d54/a15750.html", "df/d54/a15750" ],
+    [ "npc_twilight_summon", "dd/da8/a15746.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
+    [ "GetAI", "dd/da8/a15746.html#a98bf5ce96c25bc252acd46163644bf33", null ]
 ];

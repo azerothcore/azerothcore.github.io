@@ -1,8 +1,8 @@
 var a14206 =
 [
-    [ "npc_love_in_air_snivel_real", "d1/d81/a14206.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
-    [ "Talk", "d1/d81/a14206.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
-    [ "UpdateAI", "d1/d81/a14206.html#a22ed25da8fe3441ef0e4183390983f40", null ],
-    [ "actionCounter", "d1/d81/a14206.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
-    [ "actionTimer", "d1/d81/a14206.html#a3bbee1ff355581772b337268775b8fbc", null ]
+    [ "OnApply", "d1/d81/a14206.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
+    [ "OnRemove", "d1/d81/a14206.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
+    [ "PrepareAuraScript", "d1/d81/a14206.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
+    [ "Register", "d1/d81/a14206.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
+    [ "Validate", "d1/d81/a14206.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
 ];

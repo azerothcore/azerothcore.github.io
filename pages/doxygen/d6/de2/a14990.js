@@ -1,6 +1,6 @@
 var a14990 =
 [
-    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "dc/ddb/a14994.html", "dc/ddb/a14994" ],
-    [ "instance_temple_of_ahnqiraj", "d6/de2/a14990.html#a316c5e2cac59f2ee2520fba1b97407e3", null ],
-    [ "GetInstanceScript", "d6/de2/a14990.html#a9e3060d9f2188f410da8aa3e9526e79d", null ]
+    [ "OnPeriodic", "d6/de2/a14990.html#a5945e24db52c6bacae7221b085dc877b", null ],
+    [ "PrepareAuraScript", "d6/de2/a14990.html#acc987aa864a8333de7bd0b770eb9018d", null ],
+    [ "Register", "d6/de2/a14990.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
 ];

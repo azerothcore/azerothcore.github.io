@@ -1,7 +1,5 @@
 var a28374 =
 [
-    [ "RealmHandle", "de/dfe/a28374.html#a120fb45f2301188a843ab2e712f768e4", null ],
-    [ "RealmHandle", "de/dfe/a28374.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
-    [ "operator<", "de/dfe/a28374.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
-    [ "Realm", "de/dfe/a28374.html#a31af0d9064a295b1579fce3c80217bfd", null ]
+    [ "height", "de/dfe/a28374.html#a9ee8f132a89d37d9b202c7f49d2c3a49", null ],
+    [ "light", "de/dfe/a28374.html#a53c2edf09fb56334d1c3621d3630de5d", null ]
 ];

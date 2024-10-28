@@ -1,6 +1,6 @@
 var a16066 =
 [
-    [ "npc_toc5_grand_champion_minionAI", "d9/d48/a16070.html", "d9/d48/a16070" ],
-    [ "npc_toc5_grand_champion_minion", "da/d7e/a16066.html#a5761757b3cbbbce8ada4770805eb8de5", null ],
-    [ "GetAI", "da/d7e/a16066.html#a55acf397b94ba63b1db626dc1041b28e", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "d9/d48/a16070.html", "d9/d48/a16070" ],
+    [ "instance_trial_of_the_champion", "da/d7e/a16066.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "da/d7e/a16066.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

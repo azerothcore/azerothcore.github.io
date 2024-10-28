@@ -1,5 +1,7 @@
 var a10626 =
 [
-    [ "PacketHandler", "da/da2/a10626.html#ae28d6ea18799c4dc90be8225fd2fad66", null ],
-    [ "Call", "da/da2/a10626.html#a9468be560aba807419fb7e28bf0d6a41", null ]
+    [ "UpdateWorldState", "da/da2/a10626.html#a1ccdf24be9a20c824b479af014f4fcb0", null ],
+    [ "Write", "da/da2/a10626.html#a76a4c5d6a06ce8d86a2d3f04f68e838d", null ],
+    [ "Value", "da/da2/a10626.html#a51fa2401d8af4c1c7848b423cb6f056f", null ],
+    [ "VariableID", "da/da2/a10626.html#aa73278b324822f509f48e6edcdaed457", null ]
 ];

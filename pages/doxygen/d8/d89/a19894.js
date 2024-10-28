@@ -1,6 +1,6 @@
 var a19894 =
 [
-    [ "boss_freya_elder_brightleafAI", "df/d76/a19898.html", "df/d76/a19898" ],
-    [ "boss_freya_elder_brightleaf", "d8/d89/a19894.html#a9b1539b37912ef5ae46d5926bf2e0f40", null ],
-    [ "GetAI", "d8/d89/a19894.html#a3c39424ecf97ced8c2a962baff5ae342", null ]
+    [ "boss_freya_iron_rootAI", "df/d76/a19898.html", "df/d76/a19898" ],
+    [ "boss_freya_iron_root", "d8/d89/a19894.html#a9478144d6cb72d08698cbfc50893935b", null ],
+    [ "GetAI", "d8/d89/a19894.html#acdda736e9259d59a30a40d989e70f95c", null ]
 ];

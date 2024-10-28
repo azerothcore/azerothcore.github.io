@@ -1,5 +1,5 @@
 var a27214 =
 [
-    [ "go_table_theka", "d6/deb/a27214.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
-    [ "OnGossipHello", "d6/deb/a27214.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
+    [ "go_dragonflayer_cage", "d6/deb/a27214.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
+    [ "OnGossipHello", "d6/deb/a27214.html#a542530a0b84879b21a4b9982cf4300d0", null ]
 ];

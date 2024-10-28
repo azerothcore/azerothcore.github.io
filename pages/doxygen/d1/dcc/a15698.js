@@ -1,6 +1,7 @@
 var a15698 =
 [
-    [ "boss_krik_thirAI", "dd/dae/a15702.html", "dd/dae/a15702" ],
-    [ "boss_krik_thir", "d1/dcc/a15698.html#ab7001cd05e8e5e371cbd6ee2b25f3522", null ],
-    [ "GetAI", "d1/dcc/a15698.html#a10e582440092d5c6558c2a11d60907aa", null ]
+    [ "instance_azjol_nerub_InstanceScript", "d1/dcc/a15698.html#a886ed4c1485fdedcc176341210eee31a", null ],
+    [ "OnCreatureCreate", "d1/dcc/a15698.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
+    [ "OnGameObjectCreate", "d1/dcc/a15698.html#a1ef3dc88400345998d03f3c993b9a181", null ],
+    [ "OnGameObjectRemove", "d1/dcc/a15698.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
 ];

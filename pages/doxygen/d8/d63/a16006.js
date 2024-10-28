@@ -1,6 +1,6 @@
 var a16006 =
 [
-    [ "npc_memoryAI", "d3/d99/a16010.html", "d3/d99/a16010" ],
-    [ "npc_memory", "d8/d63/a16006.html#acebf31813025d323f9486d6575a60483", null ],
-    [ "GetAI", "d8/d63/a16006.html#ad8e532d029217a06d11ae39810498976", null ]
+    [ "FilterTargets", "d8/d63/a16006.html#a79d34d7e517b27e44c6a91d6056dfec7", null ],
+    [ "PrepareSpellScript", "d8/d63/a16006.html#a5ede43deece629a38f5482280983b59a", null ],
+    [ "Register", "d8/d63/a16006.html#aec3d0ed996e9cbfed9fb78c5f16e254f", null ]
 ];

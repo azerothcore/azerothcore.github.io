@@ -1,15 +1,10 @@
 var a16966 =
 [
-    [ "boss_drakkari_colossusAI", "d6/def/a16966.html#a28594cf76c5b1977a4f70ba0c3811646", null ],
-    [ "DamageTaken", "d6/def/a16966.html#ae31f77e5b63fee3d0745919ed737b599", null ],
-    [ "DoAction", "d6/def/a16966.html#a8e72a38f6a605cafa2667ca585cf0761", null ],
-    [ "InitializeAI", "d6/def/a16966.html#aa268314e8be79ce2500ab7bb96204766", null ],
-    [ "JustEngagedWith", "d6/def/a16966.html#ae88b465b2136afd4f5cf7763e0069106", null ],
-    [ "JustReachedHome", "d6/def/a16966.html#a93f73f204d07b4805f4a7dd240a96d13", null ],
-    [ "JustSummoned", "d6/def/a16966.html#ab58d286bb6f0ea94c2eb70e52e513ad4", null ],
-    [ "MoveInLineOfSight", "d6/def/a16966.html#ae1151f6fc9f9ca011a7d476f7d1c6927", null ],
-    [ "Reset", "d6/def/a16966.html#a5e9c6da15df58a206533a7c718056c3e", null ],
-    [ "SummonedCreatureDespawn", "d6/def/a16966.html#a58658947c4fc115ea9c1d6f1edd1332e", null ],
-    [ "SummonedCreatureDies", "d6/def/a16966.html#a59f9efbc2964eec057606d69458b4402", null ],
-    [ "UpdateAI", "d6/def/a16966.html#afc816b7d1c2705675560ddd13ecce22d", null ]
+    [ "npc_living_mojoAI", "d6/def/a16966.html#ab0e6dd5db0c358ff4fefc4797a622b8c", null ],
+    [ "AttackStart", "d6/def/a16966.html#ad3f73a040176cd804f9715141063d176", null ],
+    [ "DoAction", "d6/def/a16966.html#a9d942e99f358a7488d473969ab461d6f", null ],
+    [ "MoveInLineOfSight", "d6/def/a16966.html#a7981568666269e25580ae839f1f97f09", null ],
+    [ "Reset", "d6/def/a16966.html#a139df1207438dbd3793a2fbc58c2396c", null ],
+    [ "UpdateAI", "d6/def/a16966.html#a418d7eee72f0a8506357eee3f1fbaf6c", null ],
+    [ "events", "d6/def/a16966.html#acc7fd42cf4ea4b0203ad7ba4f775e3f2", null ]
 ];

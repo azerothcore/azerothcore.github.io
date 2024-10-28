@@ -1,8 +1,9 @@
 var a20410 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "d1/d89/a20410.html#aedb43124c923621aadecb77511204fc6", null ],
-    [ "CanAIAttack", "d1/d89/a20410.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
-    [ "Reset", "d1/d89/a20410.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
-    [ "UpdateAI", "d1/d89/a20410.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
-    [ "timer2", "d1/d89/a20410.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "d1/d89/a20410.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
+    [ "CanAIAttack", "d1/d89/a20410.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
+    [ "Reset", "d1/d89/a20410.html#ada2897f48effedd5d5baa5a260497b5a", null ],
+    [ "UpdateAI", "d1/d89/a20410.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
+    [ "timer1", "d1/d89/a20410.html#a383a2ee113822b7eff52466f0cc0e137", null ],
+    [ "timer2", "d1/d89/a20410.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
 ];

@@ -1,6 +1,6 @@
 var a21362 =
 [
-    [ "npc_azure_captainAI", "d7/d7e/a21366.html", "d7/d7e/a21366" ],
-    [ "npc_azure_captain", "d2/d62/a21362.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
-    [ "GetAI", "d2/d62/a21362.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
+    [ "npc_azure_saboteurAI", "d7/d7e/a21366.html", "d7/d7e/a21366" ],
+    [ "npc_azure_saboteur", "d2/d62/a21362.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
+    [ "GetAI", "d2/d62/a21362.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
 ];

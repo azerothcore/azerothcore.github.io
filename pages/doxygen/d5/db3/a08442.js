@@ -1,9 +1,6 @@
 var a08442 =
 [
-    [ "ProcTriggeredData", "d5/db3/a08442.html#a37c5cbfd0b916b950a0e638223394de4", null ],
-    [ "operator==", "d5/db3/a08442.html#a787760cbd8a6ee5192975bc514886159", null ],
-    [ "aura", "d5/db3/a08442.html#a5138144d49900690bb15a5f66b763eac", null ],
-    [ "effMask", "d5/db3/a08442.html#a1c2bfb3e0016ba823e12b3defe373790", null ],
-    [ "spellProcEvent", "d5/db3/a08442.html#ac6e491a7ef478d271d3c74d7b9df577e", null ],
-    [ "triggerSpelId", "d5/db3/a08442.html#abfd99a1e3beb871a3cbf83d7578ec98a", null ]
+    [ "spellIdImmunityPredicate", "d5/db3/a08442.html#a04893e34d418a0649d51dfa82b559d9c", null ],
+    [ "operator()", "d5/db3/a08442.html#ae97afff7a6b3ea5dca917d3dbb9ef818", null ],
+    [ "_type", "d5/db3/a08442.html#a125dfe727d668b5b9820adf1f7f0e0a8", null ]
 ];

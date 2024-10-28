@@ -1,6 +1,6 @@
 var a19974 =
 [
-    [ "npc_ulduar_saronite_animusAI", "de/d10/a19978.html", "de/d10/a19978" ],
-    [ "npc_ulduar_saronite_animus", "d9/d2e/a19974.html#a22d552adc9db3f7d2a533ab7f58a2470", null ],
-    [ "GetAI", "d9/d2e/a19974.html#a1fdd851e9d6e399f8f57d063a7dbd6d9", null ]
+    [ "FilterTargets", "d9/d2e/a19974.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
+    [ "PrepareSpellScript", "d9/d2e/a19974.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
+    [ "Register", "d9/d2e/a19974.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
 ];

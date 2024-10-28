@@ -1,6 +1,6 @@
 var a20034 =
 [
-    [ "npc_ulduar_flash_freezeAI", "d3/dd2/a20038.html", "d3/dd2/a20038" ],
-    [ "npc_ulduar_flash_freeze", "d6/d47/a20034.html#a0301ed1231d3b0d113e9fc9389e8f160", null ],
-    [ "GetAI", "d6/d47/a20034.html#a933f99c8d38ab98c8454919b6373bb41", null ]
+    [ "npc_ulduar_hodir_priestAI", "d3/dd2/a20038.html", "d3/dd2/a20038" ],
+    [ "npc_ulduar_hodir_priest", "d6/d47/a20034.html#a30d7f1b68f9a1d10bc47288b81fc517c", null ],
+    [ "GetAI", "d6/d47/a20034.html#a276046b974666c1462440a46a8096de7", null ]
 ];

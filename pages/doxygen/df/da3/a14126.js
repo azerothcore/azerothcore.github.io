@@ -1,6 +1,7 @@
 var a14126 =
 [
-    [ "HandleScript", "df/da3/a14126.html#aa60824ed67ae87e96117fc5bf90bec8c", null ],
-    [ "PrepareSpellScript", "df/da3/a14126.html#aab4303fff660c68db100e07a4423c39b", null ],
-    [ "Register", "df/da3/a14126.html#a0fbc130652e58d9418cb3c5036b6aed2", null ]
+    [ "HandleEffectApply", "df/da3/a14126.html#a22f3143b10155635194abe22994a397c", null ],
+    [ "HandleEffectRemove", "df/da3/a14126.html#a2ecc50fa3c14918b6eace63eac75eb96", null ],
+    [ "PrepareAuraScript", "df/da3/a14126.html#abb4f53a42e701323b2fc66598ec3503c", null ],
+    [ "Register", "df/da3/a14126.html#ad1ff6d29459d9a38fcdef3f6c7007f6b", null ]
 ];

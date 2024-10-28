@@ -1,6 +1,9 @@
 var a19570 =
 [
-    [ "HandlePeriodic", "d8/d11/a19570.html#a0a77c0b232e24e5cb8b3392ac8adbd3a", null ],
-    [ "PrepareAuraScript", "d8/d11/a19570.html#a7c6b6839da4a93f656800c9ae174c832", null ],
-    [ "Register", "d8/d11/a19570.html#ae28e67baa12488e248efd46ef5a7cb11", null ]
+    [ "CheckTargets", "d8/d11/a19570.html#a9340c167ef70508635092e273c23dcde", null ],
+    [ "CountTargets", "d8/d11/a19570.html#a996db37b678143fbc0a392032d29fff5", null ],
+    [ "Load", "d8/d11/a19570.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
+    [ "PrepareSpellScript", "d8/d11/a19570.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
+    [ "Register", "d8/d11/a19570.html#aed312a4408134589fd02bbcb844fd1b7", null ],
+    [ "_targetCount", "d8/d11/a19570.html#ac780614674e748274081f9f99a5165fe", null ]
 ];

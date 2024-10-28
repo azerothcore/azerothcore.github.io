@@ -1,6 +1,8 @@
 var a20750 =
 [
-    [ "boss_yoggsaron_neltharionAI", "d0/dd6/a20754.html", "d0/dd6/a20754" ],
-    [ "boss_yoggsaron_neltharion", "dd/d7b/a20750.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "dd/d7b/a20750.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "OnApply", "dd/d7b/a20750.html#a3046fa845b6763c5602ca7b50aefd68f", null ],
+    [ "OnRemove", "dd/d7b/a20750.html#ad3f482f9fff9798cc6e7a06183344742", null ],
+    [ "PrepareAuraScript", "dd/d7b/a20750.html#ab830a7a6c5ed432f8718071345c99b57", null ],
+    [ "Register", "dd/d7b/a20750.html#ac83a8d085d02feec64b6012cacb60dce", null ],
+    [ "Validate", "dd/d7b/a20750.html#a69a3e0a6c06e3c4085bf0ad25e40edf9", null ]
 ];

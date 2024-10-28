@@ -1,8 +1,9 @@
 var a24330 =
 [
-    [ "npc_pet_gen_wind_rider_cub", "da/da3/a24330.html#a17e1f3155b9a9864459e48d1cd11c6a6", null ],
-    [ "UpdateAI", "da/da3/a24330.html#a534d122522d553e106e6c7729d6c55db", null ],
-    [ "checkTimer", "da/da3/a24330.html#a39fcfc5f5d9a630180713512db778b32", null ],
-    [ "checkTimer2", "da/da3/a24330.html#aabeaf7a9b5b77df540e1111950860e98", null ],
-    [ "isFlying", "da/da3/a24330.html#a57124f8172bd15a5e6c708edff41dc2f", null ]
+    [ "npc_pet_gen_fetch_ball", "da/da3/a24330.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
+    [ "IsSummonedBy", "da/da3/a24330.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
+    [ "SpellHitTarget", "da/da3/a24330.html#a87bdded236f6584d9b71507a1253f7d0", null ],
+    [ "UpdateAI", "da/da3/a24330.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
+    [ "checkTimer", "da/da3/a24330.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
+    [ "targetGUID", "da/da3/a24330.html#ae474374af7c2270e218ed236d90c789c", null ]
 ];

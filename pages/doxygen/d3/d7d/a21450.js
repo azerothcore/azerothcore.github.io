@@ -1,7 +1,7 @@
 var a21450 =
 [
-    [ "HandleScriptEffect", "d3/d7d/a21450.html#a23d220613a4133e01fb3d7cbacb3aa1c", null ],
-    [ "PrepareSpellScript", "d3/d7d/a21450.html#a73b5af95ee4f593337c3803574d190db", null ],
-    [ "Register", "d3/d7d/a21450.html#a930de2343532feb50b86304f32269e4c", null ],
-    [ "Validate", "d3/d7d/a21450.html#ae9bfedf7e89487217ad927459e259c04", null ]
+    [ "npc_mootoo_the_youngerAI", "d3/d7d/a21450.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
+    [ "JustDied", "d3/d7d/a21450.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
+    [ "Reset", "d3/d7d/a21450.html#a04624b9b4d552d6b27308edc3ad44644", null ],
+    [ "WaypointReached", "d3/d7d/a21450.html#ac758a992ed0d62a272930c84d617b348", null ]
 ];

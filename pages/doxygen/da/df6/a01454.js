@@ -1,11 +1,11 @@
 var a01454 =
 [
-    [ "boss_trollgore", "d7/de7/a16522.html", "d7/de7/a16522" ],
-    [ "boss_trollgore::boss_trollgoreAI", "d1/d9e/a16526.html", "d1/d9e/a16526" ],
-    [ "spell_trollgore_consume", "de/d67/a16530.html", "de/d67/a16530" ],
-    [ "spell_trollgore_corpse_explode_aura", "de/d6e/a16534.html", "de/d6e/a16534" ],
-    [ "spell_trollgore_invader_taunt", "dc/d65/a16538.html", "dc/d65/a16538" ],
-    [ "achievement_consumption_junction", "df/d15/a16542.html", "df/d15/a16542" ],
+    [ "boss_trollgore", "db/dce/a16506.html", "db/dce/a16506" ],
+    [ "boss_trollgore::boss_trollgoreAI", "da/df6/a16510.html", "da/df6/a16510" ],
+    [ "spell_trollgore_consume", "dc/d25/a16514.html", "dc/d25/a16514" ],
+    [ "spell_trollgore_corpse_explode_aura", "d6/dff/a16518.html", "d6/dff/a16518" ],
+    [ "spell_trollgore_invader_taunt", "d7/de7/a16522.html", "d7/de7/a16522" ],
+    [ "achievement_consumption_junction", "d1/d9e/a16526.html", "d1/d9e/a16526" ],
     [ "Events", "da/df6/a01454.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
@@ -2118,7 +2118,8 @@ var a01454 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

@@ -1,7 +1,10 @@
 var a23822 =
 [
-    [ "HandleDamage", "d9/d9b/a23822.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d9/d9b/a23822.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d9/d9b/a23822.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d9/d9b/a23822.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "boss_nethermancer_sepethrea", "d9/d9b/a23822.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
+    [ "CanAIAttack", "d9/d9b/a23822.html#a34fbf871d99519306469c010d5fed9c7", null ],
+    [ "EnterEvadeMode", "d9/d9b/a23822.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
+    [ "JustDied", "d9/d9b/a23822.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
+    [ "JustEngagedWith", "d9/d9b/a23822.html#a89851b9f6eb94270fe22151d3a968bec", null ],
+    [ "JustSummoned", "d9/d9b/a23822.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
+    [ "KilledUnit", "d9/d9b/a23822.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
 ];

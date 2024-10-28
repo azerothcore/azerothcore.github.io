@@ -1,9 +1,12 @@
 var a24478 =
 [
-    [ "HandleAfterHit", "d4/d72/a24478.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
-    [ "Load", "d4/d72/a24478.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
-    [ "PrepareSpellScript", "d4/d72/a24478.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
-    [ "Register", "d4/d72/a24478.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
-    [ "Validate", "d4/d72/a24478.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
-    [ "_executed", "d4/d72/a24478.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
+    [ "CheckTarget", "d4/d72/a24478.html#a731aa2c0a2b67b8a15cab72ea2cb961a", null ],
+    [ "CheckTargets", "d4/d72/a24478.html#a3b5bbef0c43a600387235822f3c6dbc7", null ],
+    [ "HandleCorpseExplosion", "d4/d72/a24478.html#a201de2ee86d0cf954117df0e5343ee69", null ],
+    [ "HandleDamage", "d4/d72/a24478.html#a810fc65eb5d7160366d63210bad9caea", null ],
+    [ "Load", "d4/d72/a24478.html#a00b45e2f466de39c95251c2a38f6c3bd", null ],
+    [ "PrepareSpellScript", "d4/d72/a24478.html#a4cae1673a840d8ec0d727b881a3616cf", null ],
+    [ "Register", "d4/d72/a24478.html#a9e67ea51300569a0e163cb3e427b086e", null ],
+    [ "Validate", "d4/d72/a24478.html#a93984e8b831cb4c37ec2726d44532d43", null ],
+    [ "_target", "d4/d72/a24478.html#a5028b9d3166270b2b0557943e962eade", null ]
 ];

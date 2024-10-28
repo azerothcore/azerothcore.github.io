@@ -1,7 +1,6 @@
 var a16990 =
 [
-    [ "HandleDummy", "d6/db5/a16990.html#a367f4ebd296aa0fd54ff9ef6185a1c92", null ],
-    [ "PrepareSpellScript", "d6/db5/a16990.html#ab6e33bf137a54c9cd792aefb0ecd2ef1", null ],
-    [ "Register", "d6/db5/a16990.html#a371073fb37337719115242fc8758026f", null ],
-    [ "Validate", "d6/db5/a16990.html#ad5df08da54defc89a7a552c39de089c3", null ]
+    [ "boss_gal_darahAI", "df/dee/a16994.html", "df/dee/a16994" ],
+    [ "boss_gal_darah", "d6/db5/a16990.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
+    [ "GetAI", "d6/db5/a16990.html#a8f709568f5a06265056571061ff3a26b", null ]
 ];

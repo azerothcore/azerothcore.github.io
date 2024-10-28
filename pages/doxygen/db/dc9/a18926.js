@@ -1,6 +1,6 @@
 var a18926 =
 [
-    [ "boss_nothAI", "d4/d54/a18930.html", "d4/d54/a18930" ],
-    [ "boss_noth", "db/dc9/a18926.html#a2760f1ec46a21f22de0e57527cbe9768", null ],
-    [ "GetAI", "db/dc9/a18926.html#a534f30792c051ab44c6c07c9347893e5", null ]
+    [ "boss_razuviousAI", "d4/d54/a18930.html", "d4/d54/a18930" ],
+    [ "boss_razuvious", "db/dc9/a18926.html#ac1a2942f4a7957c671b075df7bf20215", null ],
+    [ "GetAI", "db/dc9/a18926.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
 ];

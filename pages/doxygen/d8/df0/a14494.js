@@ -1,6 +1,6 @@
 var a14494 =
 [
-    [ "boss_mal_ganisAI", "db/d46/a14498.html", "db/d46/a14498" ],
-    [ "boss_mal_ganis", "d8/df0/a14494.html#a604becb65e766f4fb71d2ae168d1be4e", null ],
-    [ "GetAI", "d8/df0/a14494.html#aa747abd11310c3535ea2ea37e4aac28b", null ]
+    [ "boss_salrammAI", "db/d46/a14498.html", "db/d46/a14498" ],
+    [ "boss_salramm", "d8/df0/a14494.html#a62c629a03f0c7ca7f3bf14b5209342d1", null ],
+    [ "GetAI", "d8/df0/a14494.html#ab6b400f0d329d4def074d012de47f53d", null ]
 ];

@@ -1,9 +1,9 @@
 var a12038 =
 [
-    [ "HandleAfterApply", "dc/d09/a12038.html#ab5dea2b9154ea73e9f159f6899f71d1d", null ],
-    [ "HandleAfterRemove", "dc/d09/a12038.html#a07bfb9395c738a197bafbaa0a43b9d48", null ],
-    [ "PeriodicTick", "dc/d09/a12038.html#a1ea9275cf310f95e9f8351892dce0a21", null ],
-    [ "PrepareAuraScript", "dc/d09/a12038.html#a8f13734ec4eb2dfda64be4ed3410e9a7", null ],
-    [ "Register", "dc/d09/a12038.html#a778da1e0ae7d5cab576b55bff93c923f", null ],
-    [ "Validate", "dc/d09/a12038.html#a205b4cc0f5c513680573b41a786a0b5e", null ]
+    [ "boss_baron_geddonAI", "dc/d09/a12038.html#a3a85b2a6e958a965e52a9fde87c08177", null ],
+    [ "DamageTaken", "dc/d09/a12038.html#ad339cb7149b50cf5accc24b5a2d0bf82", null ],
+    [ "ExecuteEvent", "dc/d09/a12038.html#a2c3ed57dd0336ce8ac1a85c957da9e4a", null ],
+    [ "JustEngagedWith", "dc/d09/a12038.html#a8c5e43b4b4e0583db7dcc93694202bd8", null ],
+    [ "Reset", "dc/d09/a12038.html#aaf47fc993e672877f51b5095f682906c", null ],
+    [ "armageddonCasted", "dc/d09/a12038.html#a1a034601a7dda94becbf1801bda63d55", null ]
 ];

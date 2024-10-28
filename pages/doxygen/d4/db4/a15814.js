@@ -1,7 +1,6 @@
 var a15814 =
 [
-    [ "CheckDistance", "d4/db4/a15814.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
-    [ "PrepareSpellScript", "d4/db4/a15814.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
-    [ "Register", "d4/db4/a15814.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
-    [ "Validate", "d4/db4/a15814.html#aa5d7a420154b156ca24e73de2faf912a", null ]
+    [ "boss_general_zarithrianAI", "db/dd6/a15818.html", "db/dd6/a15818" ],
+    [ "boss_general_zarithrian", "d4/db4/a15814.html#a030c53b6ef1d75027ddfd298d49ab330", null ],
+    [ "GetAI", "d4/db4/a15814.html#a22ba4e0769dd9404ae043fb9c16233ff", null ]
 ];

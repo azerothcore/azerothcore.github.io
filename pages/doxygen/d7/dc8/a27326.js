@@ -1,7 +1,8 @@
 var a27326 =
 [
-    [ "npc_prof_leather", "d7/dc8/a27326.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
-    [ "HasLeatherSpecialty", "d7/dc8/a27326.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
-    [ "OnGossipHello", "d7/dc8/a27326.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
-    [ "OnGossipSelect", "d7/dc8/a27326.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
+    [ "npc_artoriusAI", "db/d59/a27330.html", "db/d59/a27330" ],
+    [ "npc_artorius", "d7/dc8/a27326.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
+    [ "GetAI", "d7/dc8/a27326.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
+    [ "OnGossipHello", "d7/dc8/a27326.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
+    [ "OnGossipSelect", "d7/dc8/a27326.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
 ];

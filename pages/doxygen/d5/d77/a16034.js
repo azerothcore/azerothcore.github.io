@@ -1,6 +1,6 @@
 var a16034 =
 [
-    [ "boss_black_knightAI", "d5/db0/a16038.html", "d5/db0/a16038" ],
-    [ "boss_black_knight", "d5/d77/a16034.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "d5/d77/a16034.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "npc_black_knight_ghoulAI", "d5/db0/a16038.html", "d5/db0/a16038" ],
+    [ "npc_black_knight_ghoul", "d5/d77/a16034.html#a8e62b1070f0ed4e5b917fcaaeb2da8d0", null ],
+    [ "GetAI", "d5/d77/a16034.html#a52308f8d168e1ccea22de653813b7f6f", null ]
 ];

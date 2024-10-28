@@ -1,6 +1,6 @@
 var a03083 =
 [
-    [ "SkillDiscoveryEntry", "db/d29/a10750.html", "db/d29/a10750" ],
+    [ "SkillDiscoveryEntry", "d1/d5e/a10754.html", "d1/d5e/a10754" ],
     [ "SkillDiscoveryList", "d5/dd8/a03083.html#a0c80a6b86b3b7bd5e9c238efa802919b", null ],
     [ "SkillDiscoveryMap", "d5/dd8/a03083.html#ab7ec6a8662e4edd3167deb3c917d2eab", null ],
     [ "GetExplicitDiscoverySpell", "d5/dd8/a03083.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],

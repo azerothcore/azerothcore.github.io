@@ -1,6 +1,6 @@
 var a14786 =
 [
-    [ "go_ossirian_crystalAI", "d6/d50/a14790.html", "d6/d50/a14790" ],
-    [ "go_ossirian_crystal", "d7/d86/a14786.html#a783f0f0570ee0f667920e29613b565b2", null ],
-    [ "GetAI", "d7/d86/a14786.html#a2f7b12eddc6504917614913e347ec0a0", null ]
+    [ "FilterTargets", "d7/d86/a14786.html#ab0cd088c750e9538e2087f58fdaac20e", null ],
+    [ "PrepareSpellScript", "d7/d86/a14786.html#ae252cbce0ebc63eb4e54bedfc88640ad", null ],
+    [ "Register", "d7/d86/a14786.html#a3168a3f97ddb38b261a0730405ba27db", null ]
 ];

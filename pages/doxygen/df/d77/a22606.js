@@ -1,6 +1,6 @@
 var a22606 =
 [
-    [ "instance_shadow_labyrinth_InstanceMapScript", "d3/dc6/a22610.html", "d3/dc6/a22610" ],
-    [ "instance_shadow_labyrinth", "df/d77/a22606.html#a16a3acdfd9b1053374dfa5f27e5f3c19", null ],
-    [ "GetInstanceScript", "df/d77/a22606.html#af9edf624413593a5cdf025dd9a1c3631", null ]
+    [ "FilterTargets", "df/d77/a22606.html#abd3fafc2120b7069790dd9822cd62adc", null ],
+    [ "PrepareSpellScript", "df/d77/a22606.html#aebc0441481a2c458fc904175df931a9e", null ],
+    [ "Register", "df/d77/a22606.html#af1173988538ad44c27ea2ed9d49fe06d", null ]
 ];

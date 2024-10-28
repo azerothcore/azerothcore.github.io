@@ -1,9 +1,9 @@
 var a01376 =
 [
-    [ "boss_ormorok", "dd/d80/a19166.html", "dd/d80/a19166" ],
-    [ "boss_ormorok::boss_ormorokAI", "d7/d5b/a19170.html", "d7/d5b/a19170" ],
-    [ "npc_crystal_spike", "d0/d2e/a19174.html", "d0/d2e/a19174" ],
-    [ "npc_crystal_spike::npc_crystal_spikeAI", "d7/de0/a19178.html", "d7/de0/a19178" ],
+    [ "boss_ormorok", "da/d2c/a19150.html", "da/d2c/a19150" ],
+    [ "boss_ormorok::boss_ormorokAI", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
+    [ "npc_crystal_spike", "dc/d85/a19158.html", "dc/d85/a19158" ],
+    [ "npc_crystal_spike::npc_crystal_spikeAI", "d4/d2d/a19162.html", "d4/d2d/a19162" ],
     [ "eEnums", "d2/d29/a01376.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d0/d9b/a01379.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d0/d9b/a01379.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],
@@ -1499,6 +1499,9 @@ var a01376 =
       [ "DATA_NEGATIVE_ENERGY_TARGETS", "d1/dce/a02168.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a988392416213171dc24d639763771cb2", null ],
       [ "ITEM_FRAGMENT", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8c167711f76366adc8cf61625480f6da", null ],
       [ "NPC_TWILIGHT_CORRUPTER", "d7/d62/a01805.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
+      [ "MAX_BOMB_COUNT", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
+      [ "SCHEDULER_GROUP_HATCHING", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a60817628f0ac235a3cafc6215f674a42", null ],
+      [ "EVENT_BERSERK", "d3/d23/a02120.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a94f1144a24a622ff9e12ebe57137f266", null ],
       [ "MAX_ENCOUNTER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7913656ef56deb3793c0c5f3d999d80d", null ],
       [ "RAND_VENDOR", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ac1150c56f4c1aa81c823e2f9892ff818", null ],
       [ "WORLDSTATE_SHOW_TIMER", "db/d26/a02129.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad9983a17d117d785671b552859fb22ec", null ],

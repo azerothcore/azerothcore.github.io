@@ -1,6 +1,6 @@
 var a19406 =
 [
-    [ "spell_krystallus_shatter_SpellScript", "d3/d67/a19410.html", "d3/d67/a19410" ],
-    [ "spell_krystallus_shatter", "de/d55/a19406.html#a3845e28e2e90252c04e5f8355cba748a", null ],
-    [ "GetSpellScript", "de/d55/a19406.html#a0d52e0904ed8a694adc2c40131f7c9e9", null ]
+    [ "boss_maiden_of_griefAI", "d3/d67/a19410.html", "d3/d67/a19410" ],
+    [ "boss_maiden_of_grief", "de/d55/a19406.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "de/d55/a19406.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

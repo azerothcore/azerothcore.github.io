@@ -1,6 +1,6 @@
 var a16218 =
 [
-    [ "npc_toc_mageAI", "d7/dfb/a16222.html", "d7/dfb/a16222" ],
-    [ "npc_toc_mage", "d8/d79/a16218.html#a8270875c1da3e2e96f767362ef90cdc6", null ],
-    [ "GetAI", "d8/d79/a16218.html#a64b5b8b3a5933a0264537f2187e81e15", null ]
+    [ "npc_toc_boomkinAI", "d7/dfb/a16222.html", "d7/dfb/a16222" ],
+    [ "npc_toc_boomkin", "d8/d79/a16218.html#a17274ff748cd364592a551ad2c547eac", null ],
+    [ "GetAI", "d8/d79/a16218.html#a626fe854faade9bd96cd60b9e6e970bd", null ]
 ];

@@ -1,7 +1,5 @@
 var a17966 =
 [
-    [ "HandleInfusion", "d3/d52/a17966.html#a9f77330d81fef646dd5d5399800cba66", null ],
-    [ "PrepareSpellScript", "d3/d52/a17966.html#ae0a272902b0a9f74058c1dbe62974358", null ],
-    [ "Register", "d3/d52/a17966.html#ad759f6215e722f799156b4bdddcb7af1", null ],
-    [ "Validate", "d3/d52/a17966.html#a7b7254e7c6cb0d819dd003ffd19d0731", null ]
+    [ "FrozenThroneResetWorker", "d3/d52/a17966.html#afd21e9c1449d4e391713256e197bc92b", null ],
+    [ "operator()", "d3/d52/a17966.html#a7119548d30d760ae817a87cacf712cf6", null ]
 ];

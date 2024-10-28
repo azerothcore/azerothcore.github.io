@@ -1,12 +1,13 @@
 var a18650 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "d5/d3d/a18650.html#a2e3abb6f8889b8df818e8260e6428375", null ],
-    [ "InitializeAI", "d5/d3d/a18650.html#ac39bb8074ebb7106b426f507b73b368e", null ],
-    [ "JustEngagedWith", "d5/d3d/a18650.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
-    [ "MoveInLineOfSight", "d5/d3d/a18650.html#a846fe2784308eb694f5f482133a33a7f", null ],
-    [ "MovementInform", "d5/d3d/a18650.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
-    [ "Reset", "d5/d3d/a18650.html#afbb260e4968865e7c4141e73a050e663", null ],
-    [ "UpdateAI", "d5/d3d/a18650.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
-    [ "_didWebBeam", "d5/d3d/a18650.html#a8772cf938d30ddcc439d3912db578dfa", null ],
-    [ "events", "d5/d3d/a18650.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
+    [ "npc_icc_putricades_trapAI", "d5/d3d/a18650.html#a9252a83e3deee62d5796e9f283662771", null ],
+    [ "DoAction", "d5/d3d/a18650.html#ac8a30d8eba315b967c4e0713b14dcba7", null ],
+    [ "JustReachedHome", "d5/d3d/a18650.html#a98f908e89630b23584982e298193cc0e", null ],
+    [ "JustSummoned", "d5/d3d/a18650.html#abc5776b08b4fd43a4bb430f160eb630a", null ],
+    [ "Reset", "d5/d3d/a18650.html#a3430515c94fd419bd2c59113b3f4e625", null ],
+    [ "SummonedCreatureDies", "d5/d3d/a18650.html#a2e49dc8924da5d5537c33f7306287963", null ],
+    [ "UpdateAI", "d5/d3d/a18650.html#a724e133f2c4d8c9fe140b3b998c88f64", null ],
+    [ "events", "d5/d3d/a18650.html#a3249114a5b208109ec2c2a23533ede82", null ],
+    [ "instance", "d5/d3d/a18650.html#a9f6f342ffbf6a29c745de6ea6a5ec0dc", null ],
+    [ "summons", "d5/d3d/a18650.html#aaa914f4c2b48bd24c2dd06bc3599f563", null ]
 ];

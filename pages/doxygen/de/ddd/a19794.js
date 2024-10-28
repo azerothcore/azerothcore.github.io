@@ -1,6 +1,8 @@
 var a19794 =
 [
-    [ "npc_mechanoliftAI", "d0/d0d/a19798.html", "d0/d0d/a19798" ],
-    [ "npc_mechanolift", "de/ddd/a19794.html#a7b753a3426213706c899745a6d0d989b", null ],
-    [ "GetAI", "de/ddd/a19794.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
+    [ "FilterTargets", "de/ddd/a19794.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
+    [ "HandleScript", "de/ddd/a19794.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
+    [ "PrepareSpellScript", "de/ddd/a19794.html#aea46762f43b31923617f740e0545fe98", null ],
+    [ "Register", "de/ddd/a19794.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
+    [ "Validate", "de/ddd/a19794.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
 ];

@@ -1,11 +1,6 @@
 var a20514 =
 [
-    [ "boss_thorim_ancient_rune_giantAI", "da/db9/a20514.html#a75df92817fb5eafa28e5d9c33679dcf8", null ],
-    [ "DoAction", "da/db9/a20514.html#a1ee097badabf5264517bc0e9d9a45051", null ],
-    [ "JustDied", "da/db9/a20514.html#ac69a6187be136fa53c65a7eb13bf19d4", null ],
-    [ "JustEngagedWith", "da/db9/a20514.html#acbfd05bbbae2f5b8a6fa2ee8bc440498", null ],
-    [ "Reset", "da/db9/a20514.html#a280a68af0d6b65bc99bb9b7116b801ad", null ],
-    [ "UpdateAI", "da/db9/a20514.html#aef980c0fe0c50beca167ea0ef46ff0c7", null ],
-    [ "_isInCombat", "da/db9/a20514.html#ab015a6dc76067be1d51d3ce67b6a7aff", null ],
-    [ "events", "da/db9/a20514.html#afff251a2cc56b7ce686a5b58c196c16c", null ]
+    [ "OnPeriodic", "da/db9/a20514.html#a418b37f00a8a48d0a4362fd5381797bf", null ],
+    [ "PrepareAuraScript", "da/db9/a20514.html#a60c0d5d67de6e3224cba34599acc3e69", null ],
+    [ "Register", "da/db9/a20514.html#a92fb0160f7a16e6cb6b9c928b744f5e0", null ]
 ];

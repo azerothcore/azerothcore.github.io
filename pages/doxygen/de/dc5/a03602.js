@@ -1,7 +1,7 @@
 var a03602 =
 [
-    [ "u_map_magic", "d3/d21/a09462.html", "d3/d21/a09462" ],
-    [ "ResetNotifier", "d1/d73/a09466.html", "d1/d73/a09466" ],
+    [ "u_map_magic", "d1/d73/a09466.html", "d1/d73/a09466" ],
+    [ "ResetNotifier", "d1/d5c/a09470.html", "d1/d5c/a09470" ],
     [ "IsInWMOInterior", "de/dc5/a03602.html#ad41458075af3abab316f89b325f54b7e", null ],
     [ "holetab_h", "de/dc5/a03602.html#a10e90ca95e60d3244de3e68d7882433b", null ],
     [ "holetab_v", "de/dc5/a03602.html#a54b408dce116992610ba9c141426d821", null ],

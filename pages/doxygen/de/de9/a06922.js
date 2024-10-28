@@ -1,27 +1,9 @@
 var a06922 =
 [
-    [ "SmartAIMgr", "de/de9/a06922.html#af0d63c3897cd3f3520d4f4f8cd709d19", null ],
-    [ "~SmartAIMgr", "de/de9/a06922.html#abfe39315c88150e426ce1e421a739a14", null ],
-    [ "CheckUnusedActionParams", "de/de9/a06922.html#ada782861c6465b53febcb835c201b46b", null ],
-    [ "CheckUnusedEventParams", "de/de9/a06922.html#ac8bd37889f7c8cd41359f0d81110a42f", null ],
-    [ "CheckUnusedTargetParams", "de/de9/a06922.html#a710c4df0ccbc1f1112bfe45d5f2e9c52", null ],
-    [ "EventHasInvoker", "de/de9/a06922.html#a88cb07fff5522d4a982c63963f914f75", null ],
-    [ "GetScript", "de/de9/a06922.html#a242aa1dec322743082410e77130b8a64", null ],
-    [ "instance", "de/de9/a06922.html#acc1e1ad2f94741f64ec2f1e01326a528", null ],
-    [ "IsAreaTriggerValid", "de/de9/a06922.html#aa81e548346b1192c7db1d5ebf8a91ce3", null ],
-    [ "IsCreatureValid", "de/de9/a06922.html#aa0415cf9d0fbff47974243ec9dc02a5f", null ],
-    [ "IsEmoteValid", "de/de9/a06922.html#aecba247ae946b0183089e889c0ca3aa2", null ],
-    [ "IsEventValid", "de/de9/a06922.html#a58e82f8670d6827bd914e98bf4edb3aa", null ],
-    [ "IsGameObjectValid", "de/de9/a06922.html#a6f01c4d9414b194e671141aa560b1f06", null ],
-    [ "IsItemValid", "de/de9/a06922.html#adb011836ffb01660a069ced11c24aa81", null ],
-    [ "IsMinMaxValid", "de/de9/a06922.html#a819e55257c9a9bfb1eb951d650a36843", null ],
-    [ "IsQuestValid", "de/de9/a06922.html#a99cb71cb69ba38b8bebd6edbdbf34221", null ],
-    [ "IsSoundValid", "de/de9/a06922.html#a5060a757f6617a6fe2638b9c15f2c2a6", null ],
-    [ "IsSpellValid", "de/de9/a06922.html#af74d3b1999c3774350e87d70a08c8210", null ],
-    [ "IsTargetValid", "de/de9/a06922.html#a2c560363e15bafb702256b053143e635", null ],
-    [ "IsTextEmoteValid", "de/de9/a06922.html#a264913afc64ff37c3fb45dd64855fa04", null ],
-    [ "IsTextValid", "de/de9/a06922.html#ab17b5915ed93c9238e1db244af053313", null ],
-    [ "LoadSmartAIFromDB", "de/de9/a06922.html#ad29edf0f46841b176529e386a669cba0", null ],
-    [ "NotNULL", "de/de9/a06922.html#a2faf54e12bcca4f2b293927f83519ceb", null ],
-    [ "mEventMap", "de/de9/a06922.html#a058fc520249afed73a0800f881feabd5", null ]
+    [ "SmartWaypointMgr", "de/de9/a06922.html#ad9168edcc4fd16260178d4a9277f71ba", null ],
+    [ "~SmartWaypointMgr", "de/de9/a06922.html#a300be22ad39e320833297c3f05cdcecc", null ],
+    [ "GetPath", "de/de9/a06922.html#ac3ea00baf665a3a201c911c875600010", null ],
+    [ "instance", "de/de9/a06922.html#a7ae477d4d210d938e167453d9085e520", null ],
+    [ "LoadFromDB", "de/de9/a06922.html#a9b5cdb29d31e7de0a407f600aef482af", null ],
+    [ "waypoint_map", "de/de9/a06922.html#a6acec90c526e47c3b16d1ba556f79c35", null ]
 ];

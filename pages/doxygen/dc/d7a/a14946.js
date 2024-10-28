@@ -1,6 +1,5 @@
 var a14946 =
 [
-    [ "FilterTargets", "dc/d7a/a14946.html#a1ceb8f97a19b7c0434c430b388d0f76b", null ],
-    [ "PrepareSpellScript", "dc/d7a/a14946.html#a4a376e2a30c79ee2819c695e72535c0a", null ],
-    [ "Register", "dc/d7a/a14946.html#aaf7b4fba94d94331f6b35add2b836061", null ]
+    [ "at_twin_emperors", "dc/d7a/a14946.html#a343d482857fa0a45c42f593e591f7754", null ],
+    [ "_OnTrigger", "dc/d7a/a14946.html#adf3120b7bf611e0246abb2970711ada3", null ]
 ];

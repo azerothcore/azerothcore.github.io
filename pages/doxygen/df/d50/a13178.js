@@ -1,13 +1,6 @@
 var a13178 =
 [
-    [ "boss_entropiusAI", "df/d50/a13178.html#a48cc322f304ce55878e4a07b716e661f", null ],
-    [ "EnterEvadeMode", "df/d50/a13178.html#a7b02f06edba8ab8f77f3badea7d6fbb0", null ],
-    [ "GetData", "df/d50/a13178.html#aa6f4f0405b67142acdb835a81b6b9aaa", null ],
-    [ "JustDied", "df/d50/a13178.html#a48ee11cbdca3270e2ca59e0b98c17394", null ],
-    [ "JustEngagedWith", "df/d50/a13178.html#a5be9a6203ebb7b29c33950313f7f06a9", null ],
-    [ "Reset", "df/d50/a13178.html#a2e848102680ffe3672ba1058b217b664", null ],
-    [ "SetData", "df/d50/a13178.html#a69b0bfacf1f5bc2a347401db84cfe618", null ],
-    [ "UpdateAI", "df/d50/a13178.html#a4a16eee2ae3ded90f7040af8bfd50ad3", null ],
-    [ "events", "df/d50/a13178.html#a5aac63df7001a964ad8190370e4bf988", null ],
-    [ "events2", "df/d50/a13178.html#a36c26fc1276c5b19d38ac190381636f9", null ]
+    [ "boss_entropiusAI", "d6/dc0/a13182.html", "d6/dc0/a13182" ],
+    [ "boss_entropius", "df/d50/a13178.html#a100779eb6056f7447e665306c87c3f55", null ],
+    [ "GetAI", "df/d50/a13178.html#a4a7180207cfdb3e67e87e0f879155416", null ]
 ];

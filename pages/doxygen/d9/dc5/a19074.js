@@ -1,6 +1,5 @@
 var a19074 =
 [
-    [ "npc_alexstraszaAI", "df/d7e/a19078.html", "df/d7e/a19078" ],
-    [ "npc_alexstrasza", "d9/dc5/a19074.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
-    [ "GetAI", "d9/dc5/a19074.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
+    [ "go_the_focusing_iris", "d9/dc5/a19074.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
+    [ "OnGossipHello", "d9/dc5/a19074.html#a7f3f1170713d63f912ca5732453a7e33", null ]
 ];

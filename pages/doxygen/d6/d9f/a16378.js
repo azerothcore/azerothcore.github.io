@@ -1,4 +1,6 @@
 var a16378 =
 [
-    [ "boss_dreadscaleAI", "d6/d9f/a16378.html#ab0d0f8a7ec6567e8811d09721f6fa9ed", null ]
+    [ "boss_eydisAI", "de/d0c/a16382.html", "de/d0c/a16382" ],
+    [ "boss_eydis", "d6/d9f/a16378.html#aa555f80882499bc4627e622fbb48b2a4", null ],
+    [ "GetAI", "d6/d9f/a16378.html#ad49a673431c479fa2f5d9b6da42bbf55", null ]
 ];

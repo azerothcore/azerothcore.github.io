@@ -1,8 +1,9 @@
 var a23638 =
 [
-    [ "boss_commander_sarannis", "d8/d8f/a23638.html#ace0957feb37f864798008849be25f607", null ],
-    [ "JustDied", "d8/d8f/a23638.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
-    [ "JustEngagedWith", "d8/d8f/a23638.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
-    [ "KilledUnit", "d8/d8f/a23638.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
-    [ "ScheduleReinforcements", "d8/d8f/a23638.html#a293f0b860a66396a30c6d255eef85309", null ]
+    [ "boss_high_botanist_freywinn", "d8/d8f/a23638.html#aeecf6ed56e34cf1d9a552aab82f1f64a", null ],
+    [ "JustDied", "d8/d8f/a23638.html#a7b370482ea195d0305cba339ce0cbab3", null ],
+    [ "JustEngagedWith", "d8/d8f/a23638.html#a841c6f08d8d8c0e47bd8d06bfed7ab8b", null ],
+    [ "KilledUnit", "d8/d8f/a23638.html#a80a997e0d12c175da0a46d7362890b9c", null ],
+    [ "ResumeEncounter", "d8/d8f/a23638.html#a06adcf26cb264d35a16ca416661ab4bd", null ],
+    [ "SummonedCreatureDies", "d8/d8f/a23638.html#a7f1a02d4b944191471f59ba728b6372e", null ]
 ];

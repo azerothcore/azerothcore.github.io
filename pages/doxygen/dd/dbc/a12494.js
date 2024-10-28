@@ -1,6 +1,6 @@
 var a12494 =
 [
-    [ "boss_warlord_salaris", "dd/dbc/a12494.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
-    [ "JustEngagedWith", "dd/dbc/a12494.html#a77b3b531466810ee17f9fd6eadf5872a", null ],
-    [ "UpdateAI", "dd/dbc/a12494.html#a265aab47f95d952125c98773b53a67bf", null ]
+    [ "boss_yazzai", "dd/dbc/a12494.html#a6c92ffeff3e56f98cb1bd08f1835fe10", null ],
+    [ "JustEngagedWith", "dd/dbc/a12494.html#ab504de0e51a3715485eb65e006352a6f", null ],
+    [ "UpdateAI", "dd/dbc/a12494.html#a44e33c5012310bb4edb49ca6c0726bc0", null ]
 ];

@@ -1,7 +1,6 @@
 var a15946 =
 [
-    [ "HandleDummy", "d6/d2d/a15946.html#a96b430cb0546fb599da22cd675660187", null ],
-    [ "PrepareSpellScript", "d6/d2d/a15946.html#ad0330cb78a330f05c18f33375f231fbc", null ],
-    [ "Register", "d6/d2d/a15946.html#a70a36683a235dec6044a8a32f20c606c", null ],
-    [ "Validate", "d6/d2d/a15946.html#affa7ccf869e98eacd3a153cc645d704e", null ]
+    [ "boss_saviana_ragefireAI", "d1/d6f/a15950.html", "d1/d6f/a15950" ],
+    [ "boss_saviana_ragefire", "d6/d2d/a15946.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
+    [ "GetAI", "d6/d2d/a15946.html#a0a0073d8710af066d9711636f4d5b01e", null ]
 ];

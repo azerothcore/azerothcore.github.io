@@ -1,6 +1,6 @@
 var a16026 =
 [
-    [ "FilterTargets", "d3/d7a/a16026.html#a40c4d2b624fe87e21263d1b137994cc3", null ],
-    [ "PrepareSpellScript", "d3/d7a/a16026.html#a697a52cbc50eafd2b0377621afb01557", null ],
-    [ "Register", "d3/d7a/a16026.html#a3d523f92cb8123f30cb068cbac39a9c3", null ]
+    [ "npc_black_knight_skeletal_gryphonAI", "d3/d47/a16030.html", "d3/d47/a16030" ],
+    [ "npc_black_knight_skeletal_gryphon", "d3/d7a/a16026.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
+    [ "GetAI", "d3/d7a/a16026.html#aad244f95877a208b56a2b6544984d724", null ]
 ];

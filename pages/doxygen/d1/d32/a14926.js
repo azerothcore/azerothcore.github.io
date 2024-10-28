@@ -1,18 +1,15 @@
 var a14926 =
 [
-    [ "boss_ouro", "d1/d32/a14926.html#a624700c5010edda9e7880070bd7495d7", null ],
-    [ "CanAIAttack", "d1/d32/a14926.html#a7b9682b239a2d436069b9e6be1d90648", null ],
-    [ "CastGroundRupture", "d1/d32/a14926.html#a2b8d88aeb824890a090f3bec544f5de2", null ],
-    [ "DamageTaken", "d1/d32/a14926.html#aa571cee2fee8a79917f4c63b94a9a1b6", null ],
-    [ "Emerge", "d1/d32/a14926.html#ac0b0c890f8cec105e6c284f6c1c5dd78", null ],
-    [ "EnterEvadeMode", "d1/d32/a14926.html#aee5769af48127617d40fa440d042e434", null ],
-    [ "IsPlayerWithinMeleeRange", "d1/d32/a14926.html#a9f9b4a53cf5c7e9d4e98d2d57e500172", null ],
-    [ "JustEngagedWith", "d1/d32/a14926.html#a20b0b4a3770564595f40e1375b2811d7", null ],
-    [ "Reset", "d1/d32/a14926.html#a8d8e471d0a76950d4bcbdb3e6d1b77bf", null ],
-    [ "SpellHitTarget", "d1/d32/a14926.html#a53fb0c076ce60d769d21fa740fa73308", null ],
-    [ "Submerge", "d1/d32/a14926.html#aa39a371112f585da952331c200b8b5aa", null ],
-    [ "UpdateAI", "d1/d32/a14926.html#ab59237535be7a86cb4c0db4819a4d9d5", null ],
-    [ "_enraged", "d1/d32/a14926.html#a14a147b2cb47bbc5bd7cdeb49fd22328", null ],
-    [ "_submerged", "d1/d32/a14926.html#aff594fd1558ac0c150ef7dc44b185863", null ],
-    [ "_submergeMelee", "d1/d32/a14926.html#a1f9afe42fad602f470456929214f40d3", null ]
+    [ "boss_skeram", "d1/d32/a14926.html#a293710a88c91a181ee1000939386e176", null ],
+    [ "DoTeleport", "d1/d32/a14926.html#a96166ddebd5906868b872c39a6755a70", null ],
+    [ "EnterEvadeMode", "d1/d32/a14926.html#ab050e31d661c8c089d175de231b0eeb2", null ],
+    [ "JustDied", "d1/d32/a14926.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
+    [ "JustEngagedWith", "d1/d32/a14926.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
+    [ "JustSummoned", "d1/d32/a14926.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
+    [ "KilledUnit", "d1/d32/a14926.html#a185cb6686d37e064278260ebe5fae13a", null ],
+    [ "Reset", "d1/d32/a14926.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
+    [ "UpdateAI", "d1/d32/a14926.html#aaf29331e0fac71479747d62fd9f1e301", null ],
+    [ "_copiesGUIDs", "d1/d32/a14926.html#a28f1465938dc2141779d5171ea09ecd0", null ],
+    [ "_flag", "d1/d32/a14926.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
+    [ "_hpct", "d1/d32/a14926.html#a5c8760788264a9a04a28c05a0247676c", null ]
 ];

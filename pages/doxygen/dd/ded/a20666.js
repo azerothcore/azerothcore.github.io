@@ -1,6 +1,6 @@
 var a20666 =
 [
-    [ "boss_yoggsaron_brainAI", "dd/dab/a20670.html", "dd/dab/a20670" ],
-    [ "boss_yoggsaron_brain", "dd/ded/a20666.html#a8094e2a062f06c5a954c1d3401ca18d4", null ],
-    [ "GetAI", "dd/ded/a20666.html#a02e6b07087765d75d0f49b864e2f323f", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "dd/dab/a20670.html", "dd/dab/a20670" ],
+    [ "boss_yoggsaron_crusher_tentacle", "dd/ded/a20666.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
+    [ "GetAI", "dd/ded/a20666.html#a82b6a328197ec81223c1d00dabb79a66", null ]
 ];

@@ -1,7 +1,11 @@
 var a25178 =
 [
-    [ "PrepareAuraScript", "df/de9/a25178.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "df/de9/a25178.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "df/de9/a25178.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "df/de9/a25178.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "spell_gen_consume", "df/de9/a25178.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
+    [ "AfterRemove", "df/de9/a25178.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
+    [ "HandleProc", "df/de9/a25178.html#af69251aa0415a2148162f32dd9113917", null ],
+    [ "PrepareAuraScript", "df/de9/a25178.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
+    [ "Register", "df/de9/a25178.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
+    [ "Validate", "df/de9/a25178.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
+    [ "_spellId1", "df/de9/a25178.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
+    [ "_spellId2", "df/de9/a25178.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
 ];

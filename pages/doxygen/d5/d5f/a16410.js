@@ -1,5 +1,6 @@
 var a16410 =
 [
-    [ "npc_essence_of_twin", "d5/d5f/a16410.html#a019de64e5e01e611acfda5db4c279b19", null ],
-    [ "OnGossipHello", "d5/d5f/a16410.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
+    [ "if", "d5/d5f/a16410.html#a05a4c1db7e7d6810209175a22db5a639", null ],
+    [ "PrepareAuraScript", "d5/d5f/a16410.html#ab918782945539513ae49cff3280fc352", null ],
+    [ "absorbAmount", "d5/d5f/a16410.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
 ];

@@ -1,6 +1,6 @@
 var a16978 =
 [
-    [ "npc_living_mojoAI", "db/dd3/a16982.html", "db/dd3/a16982" ],
-    [ "npc_living_mojo", "df/d21/a16978.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "df/d21/a16978.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "HandleScriptEffect", "df/d21/a16978.html#ab9c289e946cfaf2b63f2526914d79812", null ],
+    [ "PrepareSpellScript", "df/d21/a16978.html#a832f8ab737254760fe2b91f19d119781", null ],
+    [ "Register", "df/d21/a16978.html#a86f620a16780cef2c09f45eefb6dad9c", null ]
 ];

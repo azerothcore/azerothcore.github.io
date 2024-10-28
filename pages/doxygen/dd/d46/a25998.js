@@ -1,6 +1,6 @@
 var a25998 =
 [
-    [ "FilterTargets", "dd/d46/a25998.html#a9ee58cd4e7a0fa59bfb6ef1270d51f21", null ],
-    [ "PrepareSpellScript", "dd/d46/a25998.html#a5992d94317d3da7400d5a9ab115e621e", null ],
-    [ "Register", "dd/d46/a25998.html#a125ce6c8dfdc6419b4409c72f74fcf85", null ]
+    [ "CheckTarget", "dd/d46/a25998.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
+    [ "PrepareSpellScript", "dd/d46/a25998.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
+    [ "Register", "dd/d46/a25998.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
 ];

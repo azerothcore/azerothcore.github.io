@@ -1,6 +1,6 @@
 var a17562 =
 [
-    [ "npc_vengeful_shadeAI", "d4/d67/a17566.html", "d4/d67/a17566" ],
-    [ "npc_vengeful_shade", "d6/dc8/a17562.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
-    [ "GetAI", "d6/dc8/a17562.html#afa2c672015b43d83bd55050ed020f7e5", null ]
+    [ "HandlePeriodicTick", "d6/dc8/a17562.html#a29bf443cdb53b10032ba382b8ae44828", null ],
+    [ "PrepareAuraScript", "d6/dc8/a17562.html#aa22f2997c77c25927f01d9fb1c6852b9", null ],
+    [ "Register", "d6/dc8/a17562.html#a01e31df6c6ec9f6ae5bffb4b435caf8e", null ]
 ];

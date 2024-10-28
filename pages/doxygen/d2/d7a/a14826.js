@@ -1,7 +1,5 @@
 var a14826 =
 [
-    [ "npc_hivezara_stinger", "d2/d7a/a14826.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
-    [ "JustEngagedWith", "d2/d7a/a14826.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
-    [ "Reset", "d2/d7a/a14826.html#ae8e893c90942a469628c393d5b5380cc", null ],
-    [ "UpdateAI", "d2/d7a/a14826.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
+    [ "boss_kri", "d2/d7a/a14826.html#a0a95f8d2a380ab48ffd5a034e012cc2c", null ],
+    [ "JustEngagedWith", "d2/d7a/a14826.html#ab2169ec49ecbff2ee1460e38bd1a163e", null ]
 ];

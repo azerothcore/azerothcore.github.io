@@ -1,7 +1,7 @@
 var a25058 =
 [
-    [ "HandleChargeEffect", "d9/d21/a25058.html#ad8d2871e6277dd982653fa864010d084", null ],
-    [ "HandleScriptEffect", "d9/d21/a25058.html#a2c0a734c9e8cc1bd7ae4baa168bda7fc", null ],
-    [ "PrepareSpellScript", "d9/d21/a25058.html#a1f8722308e1a5bef546dcb939d73dca7", null ],
-    [ "Register", "d9/d21/a25058.html#a2cdda449ab11438347e7dd32fd058e6d", null ]
+    [ "HandleScriptEffect", "d9/d21/a25058.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
+    [ "PrepareSpellScript", "d9/d21/a25058.html#af4320dd6567d8c9cb2a1492095a98459", null ],
+    [ "Register", "d9/d21/a25058.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
+    [ "Validate", "d9/d21/a25058.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
 ];

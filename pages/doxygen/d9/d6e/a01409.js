@@ -1,10 +1,10 @@
 var a01409 =
 [
-    [ "WeeklyQuest", "d0/d6c/a18694.html", "d0/d6c/a18694" ],
-    [ "RespawnEvent", "d2/db5/a18698.html", "d2/db5/a18698" ],
-    [ "DelayedCastMincharEvent", "d7/df5/a18702.html", "d7/df5/a18702" ],
-    [ "instance_icecrown_citadel", "d2/d16/a18706.html", "d2/d16/a18706" ],
-    [ "instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript", "df/d20/a18710.html", "df/d20/a18710" ],
+    [ "WeeklyQuest", "dd/da4/a18678.html", "dd/da4/a18678" ],
+    [ "RespawnEvent", "d5/db6/a18682.html", "d5/db6/a18682" ],
+    [ "DelayedCastMincharEvent", "d7/dea/a18686.html", "d7/dea/a18686" ],
+    [ "instance_icecrown_citadel", "d2/d02/a18690.html", "d2/d02/a18690" ],
+    [ "instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript", "d0/d6c/a18694.html", "d0/d6c/a18694" ],
     [ "EventIds", "d9/d6e/a01409.html#acb64662cd19d8282959c12081cb2b4b4", [
       [ "EVENT_DRAGONSPIRE_ROOM_STORE", "d4/d0d/a01904.html#acb64662cd19d8282959c12081cb2b4b4ab5e1f4a5290781237c4337916b99a96a", null ],
       [ "EVENT_DRAGONSPIRE_ROOM_CHECK", "d4/d0d/a01904.html#acb64662cd19d8282959c12081cb2b4b4adeb0aa4435158cf9a960477680a6cb50", null ],
@@ -900,7 +900,8 @@ var a01409 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

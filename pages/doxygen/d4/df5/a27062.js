@@ -1,5 +1,5 @@
 var a27062 =
 [
-    [ "go_mistwhisper_treasure", "d4/df5/a27062.html#a87c90caa9f6a628cb0eea3556b58449e", null ],
-    [ "OnGossipHello", "d4/df5/a27062.html#a03b6b19faba005ced7ff921fdf8ab493", null ]
+    [ "go_arena_ready_marker", "d4/df5/a27062.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "d4/df5/a27062.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

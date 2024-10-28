@@ -1,8 +1,11 @@
 var a06970 =
 [
-    [ "WintergraspCapturePoint", "d8/da7/a06970.html#a36090feb3626e204e0029ea45f1d8136", null ],
-    [ "ChangeTeam", "d8/da7/a06970.html#a66564dd3237538b256ebeb76d236001f", null ],
-    [ "GetTeam", "d8/da7/a06970.html#a7ff4106591a5aac1ea8820016b8164bb", null ],
-    [ "LinkToWorkshop", "d8/da7/a06970.html#a32d378eba7f0eea0f011b8ea8c7e6eee", null ],
-    [ "m_Workshop", "d8/da7/a06970.html#a1e780ccd3759538fe4c9d7e3fc5447ed", null ]
+    [ "gyid", "d8/da7/a06970.html#a742fcc91d2daf1a9331f02a90496328c", null ],
+    [ "o", "d8/da7/a06970.html#a9c761e77b7194ab1bb80d28f2b1e1f6d", null ],
+    [ "startcontrol", "d8/da7/a06970.html#a8b0aed9e6973ce6efc5d89a0d10a4139", null ],
+    [ "textid", "d8/da7/a06970.html#a87d80377ad632b9d667eecf11ae8faae", null ],
+    [ "type", "d8/da7/a06970.html#ae1a4b69ea4edabe51f1378c6cb066cad", null ],
+    [ "x", "d8/da7/a06970.html#ad69833b4e2a27999dcd13e5ac5bda892", null ],
+    [ "y", "d8/da7/a06970.html#a405e8098772e77250683985f957ce5f3", null ],
+    [ "z", "d8/da7/a06970.html#a844e4c9c9b1a9a22a817025ccda7f08d", null ]
 ];

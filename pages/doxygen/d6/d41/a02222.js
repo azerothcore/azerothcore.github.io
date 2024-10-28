@@ -1,11 +1,11 @@
 var a02222 =
 [
-    [ "boss_jindo", "d4/d2b/a13802.html", "d4/d2b/a13802" ],
-    [ "npc_healing_ward", "dd/dd9/a13806.html", "dd/dd9/a13806" ],
-    [ "npc_shade_of_jindo", "db/d93/a13810.html", "db/d93/a13810" ],
-    [ "spell_random_aggro", "d7/d6d/a13814.html", "d7/d6d/a13814" ],
-    [ "spell_delusions_of_jindo", "da/da7/a13818.html", "da/da7/a13818" ],
-    [ "npc_brain_wash_totem", "db/dfd/a13822.html", "db/dfd/a13822" ],
+    [ "boss_jindo", "dd/d08/a13786.html", "dd/d08/a13786" ],
+    [ "npc_healing_ward", "df/d5b/a13790.html", "df/d5b/a13790" ],
+    [ "npc_shade_of_jindo", "d4/dc7/a13794.html", "d4/dc7/a13794" ],
+    [ "spell_random_aggro", "dd/db2/a13798.html", "dd/db2/a13798" ],
+    [ "spell_delusions_of_jindo", "d4/d2b/a13802.html", "d4/d2b/a13802" ],
+    [ "npc_brain_wash_totem", "dd/dd9/a13806.html", "dd/dd9/a13806" ],
     [ "Events", "d6/d41/a02222.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
@@ -2177,7 +2177,8 @@ var a02222 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

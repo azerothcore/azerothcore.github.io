@@ -1,18 +1,11 @@
 var a08390 =
 [
-    [ "PlayerSocialMap", "db/dff/a08390.html#abfb2167fc86ea41b8cf66eebdaa95ceb", null ],
-    [ "PlayerSocial", "db/dff/a08390.html#ad505f01fad548b70cf070a86dce40278", null ],
-    [ "_checkContact", "db/dff/a08390.html#a56e7be93e0ed5e55e21c2b827e73f16b", null ],
-    [ "AddToSocialList", "db/dff/a08390.html#ae21a947058622c611f8ffc1430f7f3c3", null ],
-    [ "GetNumberOfSocialsWithFlag", "db/dff/a08390.html#ad4b6d7563aa448307c71fd01d0b748c3", null ],
-    [ "GetPlayerGUID", "db/dff/a08390.html#aa14bba47d54e94391d494a6752d45949", null ],
-    [ "HasFriend", "db/dff/a08390.html#a85c9c9320e8fa0c673e75d11d7e7b91c", null ],
-    [ "HasIgnore", "db/dff/a08390.html#ab4a6c0eab682fbdfa98a0a71fa6aced8", null ],
-    [ "RemoveFromSocialList", "db/dff/a08390.html#a8fb0fc85204ea32cc000a2d711f1245b", null ],
-    [ "SendSocialList", "db/dff/a08390.html#aa31ca078f363c5d5f6cfabcc4126fa9b", null ],
-    [ "SetFriendNote", "db/dff/a08390.html#a0ee1c5bebc234010f60f79618b541613", null ],
-    [ "SetPlayerGUID", "db/dff/a08390.html#af913d007399dede4ddf59c2811fc3b8a", null ],
-    [ "SocialMgr", "db/dff/a08390.html#ac90a13e772eca1f96d98f76cfc8bf396", null ],
-    [ "m_playerGUID", "db/dff/a08390.html#accf6a40286cca75dd9d5eed8cc3c6790", null ],
-    [ "m_playerSocialMap", "db/dff/a08390.html#a608444605a276e67a868b7ceac94a954", null ]
+    [ "FriendInfo", "db/dff/a08390.html#a31272eeef0d6b9c98821f8ee7f379977", null ],
+    [ "FriendInfo", "db/dff/a08390.html#a04f34a681d62e3dc1013f840ac04f3ec", null ],
+    [ "Area", "db/dff/a08390.html#adf16884b55545ed9302dbb54d653867b", null ],
+    [ "Class", "db/dff/a08390.html#a8b797fcfda05d52d4297f32e458be519", null ],
+    [ "Flags", "db/dff/a08390.html#ab74652d747c8baa8df7fdbcfd5c68636", null ],
+    [ "Level", "db/dff/a08390.html#a70d9a74f4587f648db5bf49b61091213", null ],
+    [ "Note", "db/dff/a08390.html#aa9aea70eba08de460ff9cc5c622ca75f", null ],
+    [ "Status", "db/dff/a08390.html#a380f11d65b34e1e598b7861987cecfe6", null ]
 ];

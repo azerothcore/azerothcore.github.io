@@ -1,6 +1,9 @@
 var a14890 =
 [
-    [ "FilterTargets", "df/dd2/a14890.html#a3ec2840ab1d853a1546c64a2d158e75f", null ],
-    [ "PrepareSpellScript", "df/dd2/a14890.html#a511e54100036307aa5d37bc959405c73", null ],
-    [ "Register", "df/dd2/a14890.html#a31d1d590f0e6fc2e56322d606961828f", null ]
+    [ "boss_fankriss", "df/dd2/a14890.html#ab6b0ee6c1605aaf148dddd6a6f4788b9", null ],
+    [ "JustEngagedWith", "df/dd2/a14890.html#a9eaae719a271a95f64ac8076fe807c13", null ],
+    [ "Reset", "df/dd2/a14890.html#af84010ee103eb81c1e269b03fc640f81", null ],
+    [ "SummonHatchlingWaves", "df/dd2/a14890.html#a91420e51be346e1b9cfa4efbdec00d76", null ],
+    [ "SummonWorms", "df/dd2/a14890.html#ada23537921c3a11195450db89eb8fcfe", null ],
+    [ "summonWormSpells", "df/dd2/a14890.html#a4f9722f1c6aa27be798d4bacbdb5fac6", null ]
 ];

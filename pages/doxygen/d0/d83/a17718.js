@@ -1,6 +1,7 @@
 var a17718 =
 [
-    [ "HandleScript", "d0/d83/a17718.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
-    [ "PrepareSpellScript", "d0/d83/a17718.html#a50560d754709e6b9ec6863142c1ffce3", null ],
-    [ "Register", "d0/d83/a17718.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
+    [ "HandleSummon", "d0/d83/a17718.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
+    [ "PrepareSpellScript", "d0/d83/a17718.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
+    [ "Register", "d0/d83/a17718.html#a01281869dc98a0af5027695391f1221f", null ],
+    [ "Validate", "d0/d83/a17718.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
 ];

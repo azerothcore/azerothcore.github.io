@@ -1,8 +1,10 @@
 var a24982 =
 [
-    [ "CheckRequirement", "d2/de5/a24982.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
-    [ "HandleScript", "d2/de5/a24982.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
-    [ "Load", "d2/de5/a24982.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
-    [ "PrepareSpellScript", "d2/de5/a24982.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
-    [ "Register", "d2/de5/a24982.html#a89d053e0ee793017c74188aac32d99d5", null ]
+    [ "Load", "d2/de5/a24982.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
+    [ "OnApply", "d2/de5/a24982.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
+    [ "OnRemove", "d2/de5/a24982.html#a29834c598d6ef8299d54e48a3461e603", null ],
+    [ "PrepareAuraScript", "d2/de5/a24982.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
+    [ "Register", "d2/de5/a24982.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
+    [ "Validate", "d2/de5/a24982.html#aeaf16594f569af671d221234a4aa2c8b", null ],
+    [ "prevItem", "d2/de5/a24982.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
 ];

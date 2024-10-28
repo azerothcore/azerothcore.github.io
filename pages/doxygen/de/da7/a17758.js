@@ -1,6 +1,6 @@
 var a17758 =
 [
-    [ "boss_rotfaceAI", "d6/d9f/a17762.html", "d6/d9f/a17762" ],
-    [ "boss_rotface", "de/da7/a17758.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
-    [ "GetAI", "de/da7/a17758.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
+    [ "npc_big_oozeAI", "d6/d9f/a17762.html", "d6/d9f/a17762" ],
+    [ "npc_big_ooze", "de/da7/a17758.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
+    [ "GetAI", "de/da7/a17758.html#ad06308602d69b51ff3f269bda6c465b5", null ]
 ];

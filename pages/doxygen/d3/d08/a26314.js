@@ -1,6 +1,6 @@
 var a26314 =
 [
-    [ "HandleDummy", "d3/d08/a26314.html#aa530b0e27c9b9ba1978a80fd4a47f68d", null ],
-    [ "PrepareSpellScript", "d3/d08/a26314.html#a22adac71d2693d17313e506f1d12532f", null ],
-    [ "Register", "d3/d08/a26314.html#a2680afcbe3d7e95404c614e2f0f93bf4", null ]
+    [ "OnApply", "d3/d08/a26314.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "d3/d08/a26314.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "d3/d08/a26314.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

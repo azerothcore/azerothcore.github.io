@@ -1,8 +1,9 @@
 var a26534 =
 [
-    [ "ApplyDebuff", "d0/d77/a26534.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
-    [ "PrepareSpellScript", "d0/d77/a26534.html#aa37525d089348f58e3d871830caa3417", null ],
-    [ "Register", "d0/d77/a26534.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
-    [ "RemoveInvalidTargets", "d0/d77/a26534.html#a0451b75aa962065a01a5806992e01b16", null ],
-    [ "Validate", "d0/d77/a26534.html#ac69d777fdf7a2d3c527621dee256690c", null ]
+    [ "CalculateAmount", "d0/d77/a26534.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "d0/d77/a26534.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "d0/d77/a26534.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "d0/d77/a26534.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "d0/d77/a26534.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "d0/d77/a26534.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

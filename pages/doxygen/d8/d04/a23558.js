@@ -1,7 +1,16 @@
 var a23558 =
 [
-    [ "FilterTargets", "d8/d04/a23558.html#a834163302ff10875227806d7d4945988", null ],
-    [ "HandleScriptEffect", "d8/d04/a23558.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
-    [ "PrepareSpellScript", "d8/d04/a23558.html#a079e72d57550e03956088b4be1d11422", null ],
-    [ "Register", "d8/d04/a23558.html#abd4e0f268652652d3828ba8d350de849", null ]
+    [ "boss_warchief_kargath_bladefist", "d8/d04/a23558.html#a0957dbfd6c085575fa862f38c87b6b3d", null ],
+    [ "InitializeAI", "d8/d04/a23558.html#a86d9b5b1500960235e76ae71337a6c90", null ],
+    [ "IsInRoom", "d8/d04/a23558.html#af9d4bd9d94115a1040e1e4a4dbf8df83", null ],
+    [ "JustDied", "d8/d04/a23558.html#a436b90336c90f6662f3ce704a62f0d90", null ],
+    [ "JustEngagedWith", "d8/d04/a23558.html#ab3d7b0ebca4f8134e5c2f31422ff006b", null ],
+    [ "JustSummoned", "d8/d04/a23558.html#aaa69f064d7eb3a0d107c835c806fa1de", null ],
+    [ "KilledUnit", "d8/d04/a23558.html#a730bbd2f95a2919fba1a7300b4307b84", null ],
+    [ "MovementInform", "d8/d04/a23558.html#a716eab9bda2b697252dde90aa513d7df", null ],
+    [ "Reset", "d8/d04/a23558.html#a50fa7a5aed8d3f4916f0449c4fb075ac", null ],
+    [ "RespawnAssassins", "d8/d04/a23558.html#a1397317259589ea69f77f52f60852043", null ],
+    [ "SummonedCreatureDies", "d8/d04/a23558.html#a325da34f78d202708a58c1a543ecb8ca", null ],
+    [ "UpdateAI", "d8/d04/a23558.html#acd463cac8e2fa8289ecb5567709db678", null ],
+    [ "_danceCount", "d8/d04/a23558.html#af4a60caaef6388caff973295e3397a7d", null ]
 ];

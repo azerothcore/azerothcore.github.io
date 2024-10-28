@@ -1,5 +1,7 @@
 var a14194 =
 [
-    [ "go_pumpkin_shrine", "de/d24/a14194.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
-    [ "OnGossipSelect", "de/d24/a14194.html#a35763a67d39c1d68974a9602ce26b699", null ]
+    [ "HandleEffectApply", "de/d24/a14194.html#ad48d832fef881bfb517fb8df694b7507", null ],
+    [ "HandleEffectRemove", "de/d24/a14194.html#a1534b010301dbaff66d41443142c50b7", null ],
+    [ "PrepareAuraScript", "de/d24/a14194.html#ab4bba02a5e2196ad65ccea94a4615a9d", null ],
+    [ "Register", "de/d24/a14194.html#a97a0003cca808e5b03f720bb3be07419", null ]
 ];

@@ -1,5 +1,5 @@
 var a18678 =
 [
-    [ "at_icc_spire_frostwyrm", "dd/da4/a18678.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
-    [ "_OnTrigger", "dd/da4/a18678.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
+    [ "creatureEntry", "dd/da4/a18678.html#afab12c40af70303dff2a9553d47dbb7d", null ],
+    [ "questId", "dd/da4/a18678.html#ace2a7dd58d442b6afb2173311c89593b", null ]
 ];

@@ -1,8 +1,7 @@
 var a23494 =
 [
-    [ "npc_target_trigger", "d2/d37/a23494.html#a238058ba80130c6239b7267db3247196", null ],
-    [ "Reset", "d2/d37/a23494.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
-    [ "UpdateAI", "d2/d37/a23494.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
-    [ "_cast", "d2/d37/a23494.html#a4ec89ca960323f7ad135d5a425a82416", null ],
-    [ "_scheduler", "d2/d37/a23494.html#a9b418b09e25c8f96692b4e2626339c96", null ]
+    [ "HandleDummyApply", "d2/d37/a23494.html#a8a982bbbda94a2cf981c845161f05bdc", null ],
+    [ "HandleDummyRemove", "d2/d37/a23494.html#a5d68d9e15600119deca7179ffe00acda", null ],
+    [ "PrepareAuraScript", "d2/d37/a23494.html#a34d09e48b69d32dae6c127fa0837be4b", null ],
+    [ "Register", "d2/d37/a23494.html#a094004ccf6b4cae4d27bca639b76b899", null ]
 ];

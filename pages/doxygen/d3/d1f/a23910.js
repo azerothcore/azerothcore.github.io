@@ -1,6 +1,7 @@
 var a23910 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "dc/dd9/a23914.html", "dc/dd9/a23914" ],
-    [ "npc_oscillating_frequency_scanner_master_bunny", "d3/d1f/a23910.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
-    [ "GetAI", "d3/d1f/a23910.html#a60d55e2eda4484ceea4e475ac8653977", null ]
+    [ "HandleDummy", "d3/d1f/a23910.html#a08f2f0aef00ce075572ff84643905a0a", null ],
+    [ "PrepareSpellScript", "d3/d1f/a23910.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
+    [ "Register", "d3/d1f/a23910.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
+    [ "Validate", "d3/d1f/a23910.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
 ];

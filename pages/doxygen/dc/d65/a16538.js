@@ -1,6 +1,7 @@
 var a16538 =
 [
-    [ "HandleScriptEffect", "dc/d65/a16538.html#a90b13b2a093fdd430a383d7ea4126290", null ],
-    [ "PrepareSpellScript", "dc/d65/a16538.html#a96cc7aabf7af3b2e7f978173921d55cd", null ],
-    [ "Register", "dc/d65/a16538.html#a53c8d47ee21637055ad901946be1e2c2", null ]
+    [ "HandleEffectRemove", "dc/d65/a16538.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
+    [ "Load", "dc/d65/a16538.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
+    [ "PrepareAuraScript", "dc/d65/a16538.html#a97411ddf89a10a962ba74d294eb653e7", null ],
+    [ "Register", "dc/d65/a16538.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
 ];

@@ -1,21 +1,7 @@
 var a16166 =
 [
-    [ "boss_faction_championsAI", "d7/def/a16166.html#aec4455c8bdd8d0629b9c3f17178818b6", null ],
-    [ "AttackStart", "d7/def/a16166.html#a465492574894303cbce6df2107b87252", null ],
-    [ "EnemiesInRange", "d7/def/a16166.html#acbb166d6ac50f11eae591ddf1dbba917", null ],
-    [ "EnterEvadeMode", "d7/def/a16166.html#a81f01bf15e7d7d647fa01da165ee0896", null ],
-    [ "EventMapGCD", "d7/def/a16166.html#a8f993213b96d47f12258f6182b876042", null ],
-    [ "GetThreatMod", "d7/def/a16166.html#aae5bc496f0f17c2167dd8a47c8ae40cd", null ],
-    [ "IsCCed", "d7/def/a16166.html#a6df04b369e7a85e6779228f8a7657ba7", null ],
-    [ "JustDied", "d7/def/a16166.html#aa8976d148ac4882063787f144ebeeea8", null ],
-    [ "JustEngagedWith", "d7/def/a16166.html#a3c8e2e446e6325597f1687201698a2c6", null ],
-    [ "KilledUnit", "d7/def/a16166.html#ac49f6c9994484a6d905362fd66ccf81e", null ],
-    [ "RecalculateThreat", "d7/def/a16166.html#a435b28bf38824d8b36bc6cf105d2dcf2", null ],
-    [ "SelectEnemyCaster", "d7/def/a16166.html#a81a318b636472e15624d01ecf3be65fb", null ],
-    [ "SelectTarget_MostHPLostFriendlyMissingBuff", "d7/def/a16166.html#aea6f9e045fb3866cef15d890f63766d8", null ],
-    [ "UpdateAI", "d7/def/a16166.html#a6c93329b33c0fa469b04622cff1aa517", null ],
-    [ "mAIType", "d7/def/a16166.html#acff880f98ff81d25d02224931fe8ff93", null ],
-    [ "pInstance", "d7/def/a16166.html#a546bff05f2ca0e8e4c8371bfd4d6ed79", null ],
-    [ "powerTimer", "d7/def/a16166.html#a38394cc3ee369fb5bb580d3702792604", null ],
-    [ "threatTimer", "d7/def/a16166.html#a6aa684c94874d3a3bcd7150b0d7cd04b", null ]
+    [ "npc_toc_shamanAI", "d7/def/a16166.html#abd0b0e503c1bbc48aebb5923ec3f4291", null ],
+    [ "myCanCast", "d7/def/a16166.html#a993739662d2687c27219853669b8a485", null ],
+    [ "UpdateAI", "d7/def/a16166.html#a2ad17245685feb3f085ef9a669459c61", null ],
+    [ "events", "d7/def/a16166.html#ab573ab0ee616348ccdb28b71255ac35d", null ]
 ];

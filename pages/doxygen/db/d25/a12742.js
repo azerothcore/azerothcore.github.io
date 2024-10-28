@@ -1,7 +1,6 @@
 var a12742 =
 [
-    [ "npc_fairbanksAI", "db/d25/a12742.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
-    [ "MoveInLineOfSight", "db/d25/a12742.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
-    [ "Reset", "db/d25/a12742.html#a2290dd6189572cddd0597f622582c3a8", null ],
-    [ "SayAshbringer", "db/d25/a12742.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
+    [ "npc_fairbanksAI", "dc/d61/a12746.html", "dc/d61/a12746" ],
+    [ "npc_fairbanks", "db/d25/a12742.html#a7f4740bb99ce2ccc059bcb5b02057082", null ],
+    [ "GetAI", "db/d25/a12742.html#a58f4c8c8ca0a2d9696bf443aeeb00f95", null ]
 ];

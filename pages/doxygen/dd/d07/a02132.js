@@ -1,11 +1,11 @@
 var a02132 =
 [
-    [ "npc_forest_frog", "da/d4d/a13678.html", "da/d4d/a13678" ],
-    [ "npc_forest_frog::npc_forest_frogAI", "d1/d01/a13682.html", "d1/d01/a13682" ],
-    [ "npc_zulaman_hostage", "dc/d7b/a13686.html", "dc/d7b/a13686" ],
-    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "dc/d03/a13690.html", "dc/d03/a13690" ],
-    [ "npc_harrison_jones", "d8/db0/a13694.html", "d8/db0/a13694" ],
-    [ "npc_harrison_jones::npc_harrison_jonesAI", "d3/d5b/a13698.html", "d3/d5b/a13698" ],
+    [ "npc_forest_frog", "df/dc8/a13662.html", "df/dc8/a13662" ],
+    [ "npc_forest_frog::npc_forest_frogAI", "d4/dd2/a13666.html", "d4/dd2/a13666" ],
+    [ "npc_zulaman_hostage", "da/df7/a13670.html", "da/df7/a13670" ],
+    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "d4/dfd/a13674.html", "d4/dfd/a13674" ],
+    [ "npc_harrison_jones", "da/d4d/a13678.html", "da/d4d/a13678" ],
+    [ "npc_harrison_jones::npc_harrison_jonesAI", "d1/d01/a13682.html", "d1/d01/a13682" ],
     [ "GOSSIP_HOSTAGE1", "dd/d07/a02132.html#a7e5907213ed023454f786158e3b1f388", null ],
     [ "DisplayIds", "dd/d07/a02132.html#ae174127de47b293b45880c8eb9ed7762", [
       [ "MODEL_HARRISON_JONES_0", "dd/d07/a02132.html#ae174127de47b293b45880c8eb9ed7762aed66d1a5a4697411e1639336f0eb6e8c", null ],
@@ -2739,7 +2739,8 @@ var a02132 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

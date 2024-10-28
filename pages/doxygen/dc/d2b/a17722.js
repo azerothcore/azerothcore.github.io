@@ -1,6 +1,6 @@
 var a17722 =
 [
-    [ "HandleScript", "dc/d2b/a17722.html#abd766c298f8aa363d28198b6a5d7e374", null ],
-    [ "PrepareSpellScript", "dc/d2b/a17722.html#a5a4e7d674c09ebbbc9d918cf877418a3", null ],
-    [ "Register", "dc/d2b/a17722.html#ae9bd26c97b3dc9c1af96304e3c67d532", null ]
+    [ "OnRemove", "dc/d2b/a17722.html#a5b9f23b815b1c85ecf2e56c626ce5077", null ],
+    [ "PrepareAuraScript", "dc/d2b/a17722.html#a9207d9f59026e1beb7c266ee3a1ef884", null ],
+    [ "Register", "dc/d2b/a17722.html#ad9eb03a09fc13f6b2b30e9f6cc1990bc", null ]
 ];

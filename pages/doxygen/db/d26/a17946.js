@@ -1,15 +1,6 @@
 var a17946 =
 [
-    [ "npc_sindragosa_trashAI", "db/d26/a17946.html#a7401a422bc4c2140c631bc118f396f25", null ],
-    [ "GetData", "db/d26/a17946.html#a701b8189869bf20d2b3da31b73aed9da", null ],
-    [ "InitializeAI", "db/d26/a17946.html#a3a8b341c7304faa2c238305f9dde29b0", null ],
-    [ "JustEngagedWith", "db/d26/a17946.html#a0a7a0012105dea55fe4c8b51d9df5fc7", null ],
-    [ "JustRespawned", "db/d26/a17946.html#a6438b9f864f178dc4e35e24a48066980", null ],
-    [ "Reset", "db/d26/a17946.html#a823df6bb8b36ab38aa059e6d1313f2c0", null ],
-    [ "SetData", "db/d26/a17946.html#a4aaa7f3963b24ac03e2fb8aaea7b62b2", null ],
-    [ "UpdateAI", "db/d26/a17946.html#a12b995cc8c836efbf0eecc6591c85ff4", null ],
-    [ "_events", "db/d26/a17946.html#ab789c21e742fe261f9f8aa63509a7d45", null ],
-    [ "_frostwyrmId", "db/d26/a17946.html#ac2853246532bd913211fc743f4723ce0", null ],
-    [ "_instance", "db/d26/a17946.html#aa2199507fdabe850b6af9a5ae0283fdc", null ],
-    [ "_isTaunted", "db/d26/a17946.html#a50632ee1a85936748aabc5fb10f5e982", null ]
+    [ "PeriodicTick", "db/d26/a17946.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
+    [ "PrepareAuraScript", "db/d26/a17946.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
+    [ "Register", "db/d26/a17946.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
 ];

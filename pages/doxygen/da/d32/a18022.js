@@ -1,6 +1,6 @@
 var a18022 =
 [
-    [ "npc_tirion_fordringAI", "da/dd5/a18026.html", "da/dd5/a18026" ],
-    [ "npc_tirion_fordring_tft", "da/d32/a18022.html#a04036d958e7ac643c9ba8d9073bca404", null ],
-    [ "GetAI", "da/d32/a18022.html#a41dcfa415831091531cbf46e946f442d", null ]
+    [ "HandleScript", "da/d32/a18022.html#a6f9b2c00cdc050ff25ec37f5b7610c71", null ],
+    [ "PrepareSpellScript", "da/d32/a18022.html#a5405e4547ec6cbc05acceb72d1b16530", null ],
+    [ "Register", "da/d32/a18022.html#a172490b953b958df354394e947b7cfd0", null ]
 ];

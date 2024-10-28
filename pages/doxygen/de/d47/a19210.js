@@ -1,13 +1,23 @@
 var a19210 =
 [
-    [ "npc_oculus_unstable_sphereAI", "de/d47/a19210.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "de/d47/a19210.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "de/d47/a19210.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "de/d47/a19210.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "de/d47/a19210.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "de/d47/a19210.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "de/d47/a19210.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "de/d47/a19210.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "de/d47/a19210.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "de/d47/a19210.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "boss_uromAI", "de/d47/a19210.html#abeb96b1a52d3daf6d8df91a4ce96dfa8", null ],
+    [ "AttackStart", "de/d47/a19210.html#ab9f197acf29e3616ef121d6c06573ccd", null ],
+    [ "EnterEvadeMode", "de/d47/a19210.html#aaf668ef4af475ec259e909567fda5d66", null ],
+    [ "GetPhaseByCurrentPosition", "de/d47/a19210.html#ab389d9d13a4a2fcca0498b1313093c17", null ],
+    [ "JustDied", "de/d47/a19210.html#a2e675e9df2dbe084b27ee81a8e33ee70", null ],
+    [ "JustEngagedWith", "de/d47/a19210.html#a02dbc09934058463d93b88268c70ca7c", null ],
+    [ "JustSummoned", "de/d47/a19210.html#ad298bdd2619770af73265b10e77f1190", null ],
+    [ "KilledUnit", "de/d47/a19210.html#abb34f62f4e4a7f88909b1293163b8c8e", null ],
+    [ "LeaveCombat", "de/d47/a19210.html#adbc7a01adc7dd95894f3d175677353e3", null ],
+    [ "MoveInLineOfSight", "de/d47/a19210.html#ad195384e0216075b7cae67875a0d7284", null ],
+    [ "Reset", "de/d47/a19210.html#a6b8817aec3aacbedbb290c178f5b9eb0", null ],
+    [ "SpellHit", "de/d47/a19210.html#a669ede4aef5ca1da7bcca867d7231c35", null ],
+    [ "UpdateAI", "de/d47/a19210.html#a037de8c5598890701fcef021abd14c71", null ],
+    [ "events", "de/d47/a19210.html#a97732ed404611bee7168e1f04722426c", null ],
+    [ "lock", "de/d47/a19210.html#a9f8635cb44dd5ac3b148c69890cfb38f", null ],
+    [ "pInstance", "de/d47/a19210.html#ab4ef43ca30ccf83c81245db164288794", null ],
+    [ "releaseLockTimer", "de/d47/a19210.html#ab96273a14e3cec773d8fe79ca774ec52", null ],
+    [ "x", "de/d47/a19210.html#a8993238ebdb4b2cc2cb92e75f705d465", null ],
+    [ "y", "de/d47/a19210.html#ae4948d320ec32a56f514f8f01061c524", null ],
+    [ "z", "de/d47/a19210.html#a7bd99156fdc38c22d43e46da8509e8c7", null ]
 ];

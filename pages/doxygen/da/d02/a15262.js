@@ -1,6 +1,6 @@
 var a15262 =
 [
-    [ "npc_great_bear_spirit", "da/d02/a15262.html#a141470a3623aa1152d3505661f1532c8", null ],
-    [ "OnGossipHello", "da/d02/a15262.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
-    [ "OnGossipSelect", "da/d02/a15262.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
+    [ "npc_omenAI", "da/db8/a15266.html", "da/db8/a15266" ],
+    [ "npc_omen", "da/d02/a15262.html#aff955303a8b9741838779a59dd496f62", null ],
+    [ "GetAI", "da/d02/a15262.html#a8023ad3298000d9819c46f46a93166d4", null ]
 ];

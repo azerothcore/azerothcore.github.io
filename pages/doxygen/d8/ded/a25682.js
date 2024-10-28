@@ -1,6 +1,7 @@
 var a25682 =
 [
-    [ "HandleTriggerSpell", "d8/ded/a25682.html#a2c9f565aec4c42900037dd387549df18", null ],
-    [ "PrepareAuraScript", "d8/ded/a25682.html#a5864bbba50001cdb84b0015d08134c56", null ],
-    [ "Register", "d8/ded/a25682.html#a5a41ac9e41201ec3defc05c324a792c9", null ]
+    [ "HandleDummy", "d8/ded/a25682.html#ad6d449ac393851166d8be653639c7d05", null ],
+    [ "PrepareSpellScript", "d8/ded/a25682.html#acb0b66631c0b3df227ee371e2e4000ac", null ],
+    [ "Register", "d8/ded/a25682.html#a8dcd509be4d9034e8c0262bdcb2cf189", null ],
+    [ "Validate", "d8/ded/a25682.html#af8f4e6bb32120c8113ddddcda17ae51d", null ]
 ];

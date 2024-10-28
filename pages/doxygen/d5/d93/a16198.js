@@ -1,7 +1,8 @@
 var a16198 =
 [
-    [ "npc_toc_priestAI", "d5/d93/a16198.html#aa362d2136193a8738e311bba18b87c90", null ],
-    [ "myCanCast", "d5/d93/a16198.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
-    [ "UpdateAI", "d5/d93/a16198.html#ae51d2ac95320909150c673b76c9856c7", null ],
-    [ "events", "d5/d93/a16198.html#aa5be20e87351424e0e4698540fc1fef4", null ]
+    [ "npc_toc_warlockAI", "d5/d93/a16198.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "d5/d93/a16198.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "d5/d93/a16198.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "d5/d93/a16198.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "d5/d93/a16198.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

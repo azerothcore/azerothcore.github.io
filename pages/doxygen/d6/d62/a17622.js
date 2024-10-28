@@ -1,6 +1,6 @@
 var a17622 =
 [
-    [ "HandleScriptEffect", "d6/d62/a17622.html#ac6017cbe86b328aef00f707051c67e5f", null ],
-    [ "PrepareSpellScript", "d6/d62/a17622.html#a3e21794652b0ffea67571f9b294b4961", null ],
-    [ "Register", "d6/d62/a17622.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
+    [ "UnboundPlagueTargetSelector", "d6/d62/a17622.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
+    [ "operator()", "d6/d62/a17622.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
+    [ "_source", "d6/d62/a17622.html#a87eb77615e443ccec373d571708a156a", null ]
 ];

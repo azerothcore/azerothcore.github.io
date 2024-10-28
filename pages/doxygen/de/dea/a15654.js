@@ -1,14 +1,6 @@
 var a15654 =
 [
-    [ "boss_anub_arakAI", "de/dea/a15654.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
-    [ "EnterEvadeMode", "de/dea/a15654.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
-    [ "JustDied", "de/dea/a15654.html#abc93931e7698ffd717199a598e16c917", null ],
-    [ "JustEngagedWith", "de/dea/a15654.html#a589c252516b738a8f38f9d89da11912c", null ],
-    [ "JustSummoned", "de/dea/a15654.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
-    [ "KilledUnit", "de/dea/a15654.html#a33e26ae3907e84ecc02514e4133e3002", null ],
-    [ "MoveInLineOfSight", "de/dea/a15654.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
-    [ "Reset", "de/dea/a15654.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
-    [ "SummonHelpers", "de/dea/a15654.html#a709ef4602ace41c9b9ccebe8795badec", null ],
-    [ "UpdateAI", "de/dea/a15654.html#acf3ddec273ded62c768631be2b3299fa", null ],
-    [ "intro", "de/dea/a15654.html#a4916d6a1ed06330e94698a13c404ee52", null ]
+    [ "boss_hadronoxAI", "de/d57/a15658.html", "de/d57/a15658" ],
+    [ "boss_hadronox", "de/dea/a15654.html#ae3457fd6108cc350cf9eedab3178f781", null ],
+    [ "GetAI", "de/dea/a15654.html#a90bf0ecb218e30e61852baffeabc3dc1", null ]
 ];

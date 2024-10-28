@@ -1,11 +1,16 @@
 var a21102 =
 [
-    [ "boss_archavonAI", "d2/d14/a21102.html#a101518193c0fb6bbd6892362a6f09b9c", null ],
-    [ "AttackStart", "d2/d14/a21102.html#ac9f82f61ee7fe945cb3fba23a69e704c", null ],
-    [ "JustDied", "d2/d14/a21102.html#a3974065a80dedf3e673452e7f6f8e449", null ],
-    [ "JustEngagedWith", "d2/d14/a21102.html#ace4a10f62eaa21ecd997ad1dbe15f3c8", null ],
-    [ "Reset", "d2/d14/a21102.html#a7d101626f39947dd54b574491a5e6d72", null ],
-    [ "UpdateAI", "d2/d14/a21102.html#a5abb4c2b4149172d2e7bf0d539237323", null ],
-    [ "events", "d2/d14/a21102.html#a8d7fef6dfcdc5be20f0531c34b09fc13", null ],
-    [ "pInstance", "d2/d14/a21102.html#ab51f09b76054d8bdb13f3c27396db87e", null ]
+    [ "boss_emalonAI", "d2/d14/a21102.html#ac87b3ea34e9781f3843321ef874321fe", null ],
+    [ "AttackStart", "d2/d14/a21102.html#ab08f49aabe76b623496da2fc0198a6c1", null ],
+    [ "JustDied", "d2/d14/a21102.html#a79a05156b690140e955a6e850ac41e5b", null ],
+    [ "JustEngagedWith", "d2/d14/a21102.html#a9a3b4e6df73586125c0369aa2d3666df", null ],
+    [ "JustSummoned", "d2/d14/a21102.html#a895f302d336faa0c3f93854314d3b427", null ],
+    [ "Reset", "d2/d14/a21102.html#ae5d33f728077d5bbc3b7d74db8015f5d", null ],
+    [ "ResetSummons", "d2/d14/a21102.html#a7df4da85c40ba1c34063df9b2df5874b", null ],
+    [ "SpellHitTarget", "d2/d14/a21102.html#a2c60642848b73bc00d1a8244d4fb4733", null ],
+    [ "SummonedCreatureDies", "d2/d14/a21102.html#a25a18c4d110b407c5fcf09c14444e8b0", null ],
+    [ "UpdateAI", "d2/d14/a21102.html#a4701d5a77b6ae7ce3432c81b7b6d14cf", null ],
+    [ "events", "d2/d14/a21102.html#a78312371e28b4be3c072dc870370b577", null ],
+    [ "pInstance", "d2/d14/a21102.html#af4cc6489905f9702999cc23fd6a920c2", null ],
+    [ "summons", "d2/d14/a21102.html#a1b6ccd418114e57a0c843cc980a56243", null ]
 ];

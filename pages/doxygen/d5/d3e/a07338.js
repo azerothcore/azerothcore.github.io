@@ -1,5 +1,6 @@
 var a07338 =
 [
-    [ "calcThreat", "d5/d3e/a07338.html#a0f3da2af1c68a535ac2396dd600ee00b", null ],
-    [ "isValidProcess", "d5/d3e/a07338.html#a86dca4bc12138bef3dd53d4b3356f5d2", null ]
+    [ "value_type", "d5/d3e/a07338.html#aea5c629ecdcd9c2bfc1253ef8e775c3a", null ],
+    [ "operator()", "d5/d3e/a07338.html#a864f3c2f78b80dbc4b65dffb0d38ab55", null ],
+    [ "operator()", "d5/d3e/a07338.html#a4e13ed545328e052481a0379e7f027a5", null ]
 ];

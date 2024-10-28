@@ -1,5 +1,5 @@
 var a27278 =
 [
-    [ "item_incendiary_explosives", "d3/d40/a27278.html#a3a10f4e40374cae75a5ed320385a67f9", null ],
-    [ "OnUse", "d3/d40/a27278.html#a1e566a6a5b6cfb8b7e331a6ea94f77b4", null ]
+    [ "item_petrov_cluster_bombs", "d3/d40/a27278.html#a1a76760f7c4617a40d96b9833e7466df", null ],
+    [ "OnUse", "d3/d40/a27278.html#a14e8a00a532b5aebc8469ff538848f53", null ]
 ];

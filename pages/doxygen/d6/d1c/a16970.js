@@ -1,6 +1,7 @@
 var a16970 =
 [
-    [ "boss_drakkari_elementalAI", "d3/d8c/a16974.html", "d3/d8c/a16974" ],
-    [ "boss_drakkari_elemental", "d6/d1c/a16970.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
-    [ "GetAI", "d6/d1c/a16970.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
+    [ "HandleDummy", "d6/d1c/a16970.html#ab614c27fbeb0fc6cac42c3e8f981e11d", null ],
+    [ "PrepareSpellScript", "d6/d1c/a16970.html#a3ef0564565ea49265800422c835432b0", null ],
+    [ "Register", "d6/d1c/a16970.html#a7b685926a8d511397889616e97bbd563", null ],
+    [ "Validate", "d6/d1c/a16970.html#aecd40c136e44dfc9c5e4dd572d577578", null ]
 ];

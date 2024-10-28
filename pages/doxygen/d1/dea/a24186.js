@@ -1,7 +1,7 @@
 var a24186 =
 [
-    [ "npc_kservantAI", "d1/dea/a24186.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "d1/dea/a24186.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "d1/dea/a24186.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "d1/dea/a24186.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "HandleEffectRemove", "d1/dea/a24186.html#a63c0fede080591df9ebf8b3de2cd2fc3", null ],
+    [ "PrepareAuraScript", "d1/dea/a24186.html#a19ce53b5731b0789896612fa55f38849", null ],
+    [ "Register", "d1/dea/a24186.html#a7d60c5b18bbf77a18ab683a101782ada", null ],
+    [ "Validate", "d1/dea/a24186.html#ae3c3c1bce38882cd5de32295813b1a47", null ]
 ];

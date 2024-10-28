@@ -1,8 +1,8 @@
 var a03995 =
 [
-    [ "FormationInfo", "d5/dc1/a07838.html", "d5/dc1/a07838" ],
-    [ "FormationMgr", "d8/d39/a07842.html", "d8/d39/a07842" ],
-    [ "CreatureGroup", "d8/d56/a07846.html", "d8/d56/a07846" ],
+    [ "FormationInfo", "d8/d39/a07842.html", "d8/d39/a07842" ],
+    [ "FormationMgr", "d8/d56/a07846.html", "d8/d56/a07846" ],
+    [ "CreatureGroup", "d8/d6c/a07850.html", "d8/d6c/a07850" ],
     [ "sFormationMgr", "d9/d0d/a03995.html#ae80a51404625cee821a8727ed7369352", null ],
     [ "CreatureGroupInfoType", "d9/d0d/a03995.html#a2c3447bf21f430bff136da6811d93a61", null ],
     [ "GroupAIFlags", "d9/d0d/a03995.html#a3754da8cc6b209da0180cd76de20869c", [

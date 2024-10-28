@@ -1,8 +1,7 @@
 var a14922 =
 [
-    [ "npc_ouro_spawner", "d5/dee/a14922.html#acb18739e5a1734312ffdda35321e5f34", null ],
-    [ "JustSummoned", "d5/dee/a14922.html#a722dada5bf97c730462a0de2b082d5ff", null ],
-    [ "MoveInLineOfSight", "d5/dee/a14922.html#a83c0972db4435ccf1af069574e4056f4", null ],
-    [ "Reset", "d5/dee/a14922.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
-    [ "hasSummoned", "d5/dee/a14922.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
+    [ "npc_sartura_royal_guard", "d5/dee/a14922.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "d5/dee/a14922.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "d5/dee/a14922.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "d5/dee/a14922.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

@@ -1,6 +1,6 @@
 var a21234 =
 [
-    [ "npc_ichor_globuleAI", "dd/d92/a21238.html", "dd/d92/a21238" ],
-    [ "npc_ichor_globule", "d8/df3/a21234.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
-    [ "GetAI", "d8/df3/a21234.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
+    [ "boss_moraggAI", "dd/d92/a21238.html", "dd/d92/a21238" ],
+    [ "boss_moragg", "d8/df3/a21234.html#aeb43f9cc4c41f049fd0a13e79cadfcd1", null ],
+    [ "GetAI", "d8/df3/a21234.html#a5ea2f210038b3e44bf2cb9c402e1b761", null ]
 ];

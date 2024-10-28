@@ -1,14 +1,6 @@
 var a19938 =
 [
-    [ "boss_freya_summonsAI", "d4/d55/a19938.html#acbba11d918cc6368612cbd3d95310fe2", null ],
-    [ "DoAction", "d4/d55/a19938.html#ad9dd522e33ffd42bff75f7dd5f1bdc45", null ],
-    [ "JustDied", "d4/d55/a19938.html#af7668e0cb4be7d49af8be697b8fa3299", null ],
-    [ "JustEngagedWith", "d4/d55/a19938.html#a3163e12dd184dc5b8981c356e601a05a", null ],
-    [ "Reset", "d4/d55/a19938.html#a44f1ac940625fdd0cdb84454082e7ab6", null ],
-    [ "UpdateAI", "d4/d55/a19938.html#afdd17576728872509ec31188fa68505b", null ],
-    [ "_freyaGUID", "d4/d55/a19938.html#adcdf01b496a52b1d0aa2f1b3bf6a7a0a", null ],
-    [ "_hasDied", "d4/d55/a19938.html#a86f421141d31ac70e58cf63fe707ba27", null ],
-    [ "_isTrio", "d4/d55/a19938.html#ab31e8c73c3e22b031e5efe89ae95ce0e", null ],
-    [ "_stackCount", "d4/d55/a19938.html#ab7fc673ad22c1dd3bd41fa185ee03abb", null ],
-    [ "events", "d4/d55/a19938.html#a79403b4a24b92f89252db603d8ea2210", null ]
+    [ "achievement_freya_knock_on_wood", "d4/d55/a19938.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
+    [ "OnCheck", "d4/d55/a19938.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
+    [ "_elderCount", "d4/d55/a19938.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
 ];

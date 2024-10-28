@@ -1,6 +1,6 @@
 var a24162 =
 [
-    [ "PrepareSpellScript", "dc/db9/a24162.html#aa858fff409e5c75d865c91cb5fbef679", null ],
-    [ "Register", "dc/db9/a24162.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
-    [ "SetDest", "dc/db9/a24162.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
+    [ "npc_shattrathflaskvendors", "dc/db9/a24162.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "dc/db9/a24162.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "dc/db9/a24162.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

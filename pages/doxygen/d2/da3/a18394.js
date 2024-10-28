@@ -1,6 +1,6 @@
 var a18394 =
 [
-    [ "npc_highlord_tirion_fordringAI", "de/d0e/a18398.html", "de/d0e/a18398" ],
-    [ "npc_highlord_tirion_fordring_lh", "d2/da3/a18394.html#a96102a488330c54a3e3654c767e8e1a5", null ],
-    [ "GetAI", "d2/da3/a18394.html#aea42394c04c1763cffe10eb5eba09854", null ]
+    [ "npc_frost_freeze_trapAI", "de/d0e/a18398.html", "de/d0e/a18398" ],
+    [ "npc_frost_freeze_trap", "d2/da3/a18394.html#ac58ed2598fd4250f220208a91343f9b8", null ],
+    [ "GetAI", "d2/da3/a18394.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
 ];

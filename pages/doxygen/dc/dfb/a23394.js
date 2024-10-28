@@ -1,11 +1,10 @@
 var a23394 =
 [
-    [ "boss_high_king_maulgar", "dc/dfb/a23394.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
-    [ "DoAction", "dc/dfb/a23394.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
-    [ "JustDied", "dc/dfb/a23394.html#ad235febd755745313b72394c633c3723", null ],
-    [ "JustEngagedWith", "dc/dfb/a23394.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
-    [ "KilledUnit", "dc/dfb/a23394.html#a2059016597039929103c053d6524ebf7", null ],
-    [ "Reset", "dc/dfb/a23394.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
-    [ "UpdateAI", "dc/dfb/a23394.html#ae540909dbbb3cf93e37503cd755c3001", null ],
-    [ "_recentlySpoken", "dc/dfb/a23394.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
+    [ "boss_blindeye_the_seer", "dc/dfb/a23394.html#a8b95c6f0a822adf018c5aefe59ecef5b", null ],
+    [ "JustDied", "dc/dfb/a23394.html#ad70a72b18587da82d26bde8f10d63700", null ],
+    [ "JustEngagedWith", "dc/dfb/a23394.html#a0cf082eefe75eac19cc09d2f714d5ff1", null ],
+    [ "Reset", "dc/dfb/a23394.html#aabbda75266615f64ce88ce092e68bfa4", null ],
+    [ "UpdateAI", "dc/dfb/a23394.html#a8ff8ae03cc528b9a2c71cfc2c7ff3f88", null ],
+    [ "_scheduler", "dc/dfb/a23394.html#a0c5ec6cf114a289e22d890c61d4bdc93", null ],
+    [ "instance", "dc/dfb/a23394.html#a74462f26d66da3ca370825858060b1c2", null ]
 ];

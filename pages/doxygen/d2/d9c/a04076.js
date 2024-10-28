@@ -1,10 +1,10 @@
 var a04076 =
 [
-    [ "PassengerInfo", "d7/d03/a08538.html", "d7/d03/a08538" ],
-    [ "VehicleSeatAddon", "d3/d31/a08542.html", "d3/d31/a08542" ],
-    [ "VehicleSeat", "d5/d80/a08546.html", "d5/d80/a08546" ],
-    [ "VehicleAccessory", "df/d7b/a08550.html", "df/d7b/a08550" ],
-    [ "TransportBase", "de/da8/a08554.html", "de/da8/a08554" ],
+    [ "PassengerInfo", "d3/d31/a08542.html", "d3/d31/a08542" ],
+    [ "VehicleSeatAddon", "d5/d80/a08546.html", "d5/d80/a08546" ],
+    [ "VehicleSeat", "df/d7b/a08550.html", "df/d7b/a08550" ],
+    [ "VehicleAccessory", "de/da8/a08554.html", "de/da8/a08554" ],
+    [ "TransportBase", "db/dc8/a08558.html", "db/dc8/a08558" ],
     [ "SeatMap", "d2/d9c/a04076.html#a2dadb2596b27d20ebbc12696cb7b9a74", null ],
     [ "VehicleAccessoryContainer", "d2/d9c/a04076.html#a5b46179616c0e205a7c933e02f87160b", null ],
     [ "VehicleAccessoryList", "d2/d9c/a04076.html#af5d682a742080008bd21db9bba6e162f", null ],

@@ -1,8 +1,5 @@
 var a27046 =
 [
-    [ "FilterTargets", "df/d3f/a27046.html#a53c6d73f3588e50c2be7ce68595a704c", null ],
-    [ "HandleEffect", "df/d3f/a27046.html#a2edac19abf8aa765ada369e00cd7ea69", null ],
-    [ "PrepareSpellScript", "df/d3f/a27046.html#ae1e1ff5456cb7c558ff4fe415de6a691", null ],
-    [ "Register", "df/d3f/a27046.html#acb4d6abeb0e293728ae3dd0d248e0844", null ],
-    [ "Validate", "df/d3f/a27046.html#aabc063155fad404ffd044c9f79b88051", null ]
+    [ "go_seer_of_zebhalak", "df/d3f/a27046.html#a423f16e878d67f7dc6ec3860afabacf4", null ],
+    [ "OnGossipHello", "df/d3f/a27046.html#a84009789ce8e8d0d7c42996fde161135", null ]
 ];

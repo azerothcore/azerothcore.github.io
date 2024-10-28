@@ -1,6 +1,5 @@
 var a26894 =
 [
-    [ "achievement_arena_by_type", "de/d60/a26894.html#a2042c808304e8ddf1849820491b9f1a3", null ],
-    [ "OnCheck", "de/d60/a26894.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
-    [ "_arenaType", "de/d60/a26894.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
+    [ "achievement_bg_av_perfection", "de/d60/a26894.html#a8a0ef996bdb1244026268922b301184c", null ],
+    [ "OnCheck", "de/d60/a26894.html#a17e700c17b5144b571f2aeed92a77749", null ]
 ];

@@ -1,9 +1,6 @@
 var a22918 =
 [
-    [ "boss_najentus", "d9/dec/a22918.html#ac5d3d54a49524892fe844925d483c244", null ],
-    [ "JustDied", "d9/dec/a22918.html#afee32dd32033c7a45068ce12e961797c", null ],
-    [ "JustEngagedWith", "d9/dec/a22918.html#a46e3aab64c21b24ac6457acd598679ec", null ],
-    [ "KilledUnit", "d9/dec/a22918.html#ad55e1de3aa7a636b3d30b0d61a17dab9", null ],
-    [ "Reset", "d9/dec/a22918.html#ab7e0bdb8954722c9080146a88a3c5aa2", null ],
-    [ "_canTalk", "d9/dec/a22918.html#a25ac29a79cdcfb4ebc48de13d677f1d4", null ]
+    [ "PrepareSpellScript", "d9/dec/a22918.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
+    [ "Register", "d9/dec/a22918.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
+    [ "RemoveSpines", "d9/dec/a22918.html#a076b056328ba6181a6ec907f21258f9d", null ]
 ];

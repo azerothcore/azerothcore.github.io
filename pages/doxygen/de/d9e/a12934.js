@@ -1,6 +1,6 @@
 var a12934 =
 [
-    [ "boss_brutallusAI", "dd/d09/a12938.html", "dd/d09/a12938" ],
-    [ "boss_brutallus", "de/d9e/a12934.html#a0030c442145a411b5534028885b44e04", null ],
-    [ "GetAI", "de/d9e/a12934.html#a536baa1f734a104e4f00902f973bd87a", null ]
+    [ "HandleSendEvent", "de/d9e/a12934.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
+    [ "PrepareSpellScript", "de/d9e/a12934.html#a8535dcbf13fe48e8116258b8a572b692", null ],
+    [ "Register", "de/d9e/a12934.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
 ];

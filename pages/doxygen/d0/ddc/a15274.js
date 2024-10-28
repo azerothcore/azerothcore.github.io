@@ -1,17 +1,7 @@
 var a15274 =
 [
-    [ "npc_clintar_spiritAI", "d0/ddc/a15274.html#ab64c9da6af7246e1665a5264a26d75ab", null ],
-    [ "EnterEvadeMode", "d0/ddc/a15274.html#a2ccffe81e2bd7cddcab10746bc9311bf", null ],
-    [ "IsSummonedBy", "d0/ddc/a15274.html#af55bc32b17bfd45968e668c5591325ae", null ],
-    [ "JustDied", "d0/ddc/a15274.html#a4e90511d9daf0545f0fee471f3ab0d5e", null ],
-    [ "Reset", "d0/ddc/a15274.html#afd59b5e50deb65f7175138272f439740", null ],
-    [ "StartEvent", "d0/ddc/a15274.html#ae3bbfd8374bf667d4eeb26e047ee2186", null ],
-    [ "UpdateAI", "d0/ddc/a15274.html#a4b780f14cb2aa08c06e39a58501a21fe", null ],
-    [ "WaypointReached", "d0/ddc/a15274.html#a98315f3202daaac261a1e7f0222b01c5", null ],
-    [ "checkPlayerTimer", "d0/ddc/a15274.html#a10165a369bb8a7775050ae425cb94123", null ],
-    [ "CurrWP", "d0/ddc/a15274.html#ae3b4588a2dfd337ffc71456652fa136f", null ],
-    [ "EventOnWait", "d0/ddc/a15274.html#a7473dff3417d3e7510bc4fb7acbeb494", null ],
-    [ "EventTimer", "d0/ddc/a15274.html#a27b0a90757df63df276b1e26bfbaba83", null ],
-    [ "PlayerGUID", "d0/ddc/a15274.html#ad721852353215d46bc623efca358981f", null ],
-    [ "Step", "d0/ddc/a15274.html#af9b65e2de0dcce5844fbc642b32f5a3f", null ]
+    [ "npc_giant_spotlightAI", "d0/ddc/a15274.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
+    [ "Reset", "d0/ddc/a15274.html#a79f6703107eed52a3aeae30393507c0f", null ],
+    [ "UpdateAI", "d0/ddc/a15274.html#a8567f936dd15933300497d5abe80a272", null ],
+    [ "events", "d0/ddc/a15274.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
 ];

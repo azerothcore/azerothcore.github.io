@@ -1,7 +1,6 @@
 var a23762 =
 [
-    [ "Load", "d9/d64/a23762.html#aba7e1a0b87607386649bb842b5058c3e", null ],
-    [ "OnRemove", "d9/d64/a23762.html#ac2f7a4532f62fb49f54c60b79aceb2e8", null ],
-    [ "PrepareAuraScript", "d9/d64/a23762.html#ac62b18eedbadb0b3581d772909175e96", null ],
-    [ "Register", "d9/d64/a23762.html#a17e8be131f01b2434b18740b20a08d6e", null ]
+    [ "HandleScriptEffect", "d9/d64/a23762.html#a32c5e4743adeb3085a6eac062b8f6226", null ],
+    [ "PrepareSpellScript", "d9/d64/a23762.html#a0c51d5a108d8225387ce8a149a0a0c86", null ],
+    [ "Register", "d9/d64/a23762.html#a4b940caf98f1164be5e2f4e748811fc6", null ]
 ];

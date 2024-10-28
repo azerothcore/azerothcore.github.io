@@ -1,15 +1,16 @@
 var a18882 =
 [
-    [ "boss_kelthuzad_minionAI", "d8/da2/a18882.html#addeb3112e8b6da5713e6c25878c7e785", null ],
-    [ "AttackStart", "d8/da2/a18882.html#ae6e2b0dd529f819b5b62348059dacb02", null ],
-    [ "DoAction", "d8/da2/a18882.html#acd08aa78c1620f5552bbbc77c06b4344", null ],
-    [ "JustDied", "d8/da2/a18882.html#abc6db76c9dcdbdb1c51b7f67d4c39551", null ],
-    [ "JustEngagedWith", "d8/da2/a18882.html#a135dd028f95eeb34b2852e8dafebbe63", null ],
-    [ "JustReachedHome", "d8/da2/a18882.html#aedfaf037ddf66d0e3aa990b4ea5b171c", null ],
-    [ "KilledUnit", "d8/da2/a18882.html#ac8a2297a89310f4902fdc544ef71b673", null ],
-    [ "MoveInLineOfSight", "d8/da2/a18882.html#aee871ff356bcfd38162a5f6c9bd3c994", null ],
-    [ "Reset", "d8/da2/a18882.html#a01db0df4ec5f49d0915e90c418ebba75", null ],
-    [ "UpdateAI", "d8/da2/a18882.html#ad60ec485144e447fd9d43b0cd5d6c87c", null ],
-    [ "callHelp", "d8/da2/a18882.html#a6c6935e058bc18c013bc31f03f5a914b", null ],
-    [ "events", "d8/da2/a18882.html#a2885d65bfaf345e7c3dfa42d8c80a892", null ]
+    [ "boss_loathebAI", "d8/da2/a18882.html#a60256114947b0e9c01f5308108485935", null ],
+    [ "IsInRoom", "d8/da2/a18882.html#a617d45ab3bde4184aa31c1b2c70c1a6f", null ],
+    [ "JustDied", "d8/da2/a18882.html#acf24e563d4876fb9f899a4250b19b6f5", null ],
+    [ "JustEngagedWith", "d8/da2/a18882.html#a1abcf157e05eeb634f8e857a2de35538", null ],
+    [ "JustSummoned", "d8/da2/a18882.html#a8a28f9fe6c087c230103d1139ddb73dc", null ],
+    [ "KilledUnit", "d8/da2/a18882.html#a4dac78bba24069050dd9df729dd58b45", null ],
+    [ "Reset", "d8/da2/a18882.html#a709a4c2fe45fd757ecae6afa402e4728", null ],
+    [ "SummonedCreatureDies", "d8/da2/a18882.html#aeddc6bd981a13ec133e5481b36668b0e", null ],
+    [ "UpdateAI", "d8/da2/a18882.html#ab009008f892493b822e5ea5491c58525", null ],
+    [ "doomCounter", "d8/da2/a18882.html#aed5c631ede2eea27451a74ae21221325", null ],
+    [ "events", "d8/da2/a18882.html#adc49463bbe227f892e31716516032c64", null ],
+    [ "pInstance", "d8/da2/a18882.html#ac91a2f174571d0700bd50f66a2a66718", null ],
+    [ "summons", "d8/da2/a18882.html#a37ef117714403002afb4faa4978f136b", null ]
 ];

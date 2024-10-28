@@ -1,6 +1,6 @@
 var a16614 =
 [
-    [ "npc_fos_leader_secondAI", "df/d1a/a16618.html", "df/d1a/a16618" ],
-    [ "npc_fos_leader_second", "d1/d36/a16614.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
-    [ "GetAI", "d1/d36/a16614.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
+    [ "instance_forge_of_souls_InstanceScript", "df/d1a/a16618.html", "df/d1a/a16618" ],
+    [ "instance_forge_of_souls", "d1/d36/a16614.html#a504896f6e191c87ce77231c4ef267b27", null ],
+    [ "GetInstanceScript", "d1/d36/a16614.html#a64982b527cfa6057315b8e628549480b", null ]
 ];

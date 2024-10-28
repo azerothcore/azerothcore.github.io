@@ -1,5 +1,6 @@
 var a16406 =
 [
-    [ "boss_fjolaAI", "dc/dab/a16406.html#aa46fdff841d01f28ef50aa5363082f71", null ],
-    [ "JustSummoned", "dc/dab/a16406.html#a59a3f2453f923d4f19c63e88402d1a76", null ]
+    [ "spell_valkyr_essence_auraAuraScript", "d5/d5f/a16410.html", "d5/d5f/a16410" ],
+    [ "spell_valkyr_essence", "dc/dab/a16406.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
+    [ "GetAuraScript", "dc/dab/a16406.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
 ];

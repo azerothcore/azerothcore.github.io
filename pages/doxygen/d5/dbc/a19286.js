@@ -1,6 +1,8 @@
 var a19286 =
 [
-    [ "HandleDamageCalc", "d5/dbc/a19286.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
-    [ "PrepareSpellScript", "d5/dbc/a19286.html#a754da297cd5801616e24bf2d802d0b38", null ],
-    [ "Register", "d5/dbc/a19286.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
+    [ "HandleOnEffectApply", "d5/dbc/a19286.html#ac852d761940494f78b50ba3b060057a2", null ],
+    [ "HandleOnEffectRemove", "d5/dbc/a19286.html#a6764750586be8b57d52a2dba87d89e76", null ],
+    [ "PrepareAuraScript", "d5/dbc/a19286.html#acc93a6d463501a23b73bd1ac1f99854e", null ],
+    [ "Register", "d5/dbc/a19286.html#a2cb77175d7341752bdd8733cfcfe8ed3", null ],
+    [ "Validate", "d5/dbc/a19286.html#a4de69fb4aa8e1506581ed01c42dc8f76", null ]
 ];

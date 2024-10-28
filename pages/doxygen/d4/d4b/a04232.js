@@ -1,7 +1,7 @@
 var a04232 =
 [
-    [ "BattlegroundWGScore", "d6/dc7/a07206.html", "d6/dc7/a07206" ],
-    [ "BattlegroundWS", "d7/dc6/a07210.html", "d7/dc6/a07210" ],
+    [ "BattlegroundWGScore", "d7/dc6/a07210.html", "d7/dc6/a07210" ],
+    [ "BattlegroundWS", "de/dfd/a07214.html", "de/dfd/a07214" ],
     [ "BG_WS_BroadcastTexts", "d4/d4b/a04232.html#a7c9154e6ca4e1207a973b539247c437e", [
       [ "BG_WS_TEXT_START_ONE_MINUTE", "d4/d4b/a04232.html#a7c9154e6ca4e1207a973b539247c437ead7db7cd7c39b7d45b4fde846f6ce35ab", null ],
       [ "BG_WS_TEXT_START_HALF_MINUTE", "d4/d4b/a04232.html#a7c9154e6ca4e1207a973b539247c437ea143eab6f072004d7ef36368cb8c5a6a3", null ],

@@ -1,5 +1,6 @@
 var a13926 =
 [
-    [ "go_brazier_of_madness", "dc/d13/a13926.html#aeb900e575be02244e62c6e5e4153c855", null ],
-    [ "GossipHello", "dc/d13/a13926.html#aba3af326b01cd045523434aec189fd47", null ]
+    [ "npc_brewfest_bark_trigger", "dc/d13/a13926.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "dc/d13/a13926.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "dc/d13/a13926.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

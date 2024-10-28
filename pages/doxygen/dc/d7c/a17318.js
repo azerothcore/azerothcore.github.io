@@ -1,5 +1,9 @@
 var a17318 =
 [
-    [ "achievement_flu_shot_shortage", "dc/d7c/a17318.html#af448c773bcdf31cec7ae9d7c85e9e595", null ],
-    [ "OnCheck", "dc/d7c/a17318.html#a3195af1d4504ffc200c99bef84eaaa5a", null ]
+    [ "BattleExperienceEvent", "dc/d7c/a17318.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "dc/d7c/a17318.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "dc/d7c/a17318.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "dc/d7c/a17318.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "dc/d7c/a17318.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "dc/d7c/a17318.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

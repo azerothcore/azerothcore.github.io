@@ -1,6 +1,7 @@
 var a18774 =
 [
-    [ "boss_faerlinaAI", "db/d3c/a18778.html", "db/d3c/a18778" ],
-    [ "boss_faerlina", "d9/db8/a18774.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
-    [ "GetAI", "d9/db8/a18774.html#aed8214323ff5b792d9bd6aae478e7848", null ]
+    [ "OnApply", "d9/db8/a18774.html#a72a01dea703436b2a220a9976da60fa6", null ],
+    [ "PrepareAuraScript", "d9/db8/a18774.html#adb17425258d4fb2c0c464236e15f32d7", null ],
+    [ "Register", "d9/db8/a18774.html#af026c126029c68ed8b7c6c1886720e4c", null ],
+    [ "Validate", "d9/db8/a18774.html#a5674396828adf4e80102ed2277f1e08a", null ]
 ];

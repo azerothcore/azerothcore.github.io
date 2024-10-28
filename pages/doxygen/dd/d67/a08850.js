@@ -1,7 +1,6 @@
 var a08850 =
 [
-    [ "CreatureRelocationNotifier", "dd/d67/a08850.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
-    [ "Visit", "dd/d67/a08850.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
-    [ "Visit", "dd/d67/a08850.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
-    [ "i_creature", "dd/d67/a08850.html#a3116f6245816ba8fb9edb5995faa9927", null ]
+    [ "PlayerRelocationNotifier", "dd/d67/a08850.html#a01cbecc2a9727d822b94a90b0c3035aa", null ],
+    [ "Visit", "dd/d67/a08850.html#ab9b3ad469216db3a7a49176b41b0b1ea", null ],
+    [ "Visit", "dd/d67/a08850.html#acffc7490cb9b0cf171a1cfc6e1dbdc79", null ]
 ];

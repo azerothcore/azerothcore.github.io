@@ -1,10 +1,10 @@
 var a02774 =
 [
-    [ "spell_winter_veil_mistletoe", "dd/dd7/a14330.html", "dd/dd7/a14330" ],
-    [ "spell_winter_wondervolt_trap", "dd/d42/a14334.html", "dd/d42/a14334" ],
-    [ "spell_winter_veil_racer_rocket_slam", "dc/d1b/a14338.html", "dc/d1b/a14338" ],
-    [ "spell_winter_veil_racer_slam_hit", "dd/d56/a14342.html", "dd/d56/a14342" ],
-    [ "spell_winter_veil_shoot_air_rifle", "d7/d4d/a14346.html", "d7/d4d/a14346" ],
+    [ "spell_winter_veil_mistletoe", "d8/d73/a14314.html", "d8/d73/a14314" ],
+    [ "spell_winter_wondervolt_trap", "d4/d35/a14318.html", "d4/d35/a14318" ],
+    [ "spell_winter_veil_racer_rocket_slam", "de/d78/a14322.html", "de/d78/a14322" ],
+    [ "spell_winter_veil_racer_slam_hit", "dc/dfa/a14326.html", "dc/dfa/a14326" ],
+    [ "spell_winter_veil_shoot_air_rifle", "dd/dd7/a14330.html", "dd/dd7/a14330" ],
     [ "airRifle", "df/d91/a02774.html#a0a0aa9e1464024e9f2c7b6ec598e13ff", [
       [ "SPELL_AIR_RIFLE_RIGHT_IN_THE_EYE", "df/d91/a02774.html#a0a0aa9e1464024e9f2c7b6ec598e13ffa5a3aacd3d3eb74e1020f0e24c3de3d64", null ],
       [ "SPELL_AIR_RIFLE_STARLED", "df/d91/a02774.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaab4b4a71800d5b266ac17392701535bd", null ],

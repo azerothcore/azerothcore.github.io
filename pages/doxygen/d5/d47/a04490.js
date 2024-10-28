@@ -1,8 +1,8 @@
 var a04490 =
 [
-    [ "CalendarInvite", "d2/da4/a07230.html", "d2/da4/a07230" ],
-    [ "CalendarEvent", "d4/d8c/a07234.html", "d4/d8c/a07234" ],
-    [ "CalendarMgr", "d1/ddc/a07238.html", "d1/ddc/a07238" ],
+    [ "CalendarInvite", "d4/d8c/a07234.html", "d4/d8c/a07234" ],
+    [ "CalendarEvent", "d1/ddc/a07238.html", "d1/ddc/a07238" ],
+    [ "CalendarMgr", "d3/d34/a07242.html", "d3/d34/a07242" ],
     [ "sCalendarMgr", "d5/d47/a04490.html#a19ac4cd787f75380716d027d20c06b7a", null ],
     [ "CalendarEventInviteStore", "d5/d47/a04490.html#af35b9a127e069a3aed4acad11a7cc5a6", null ],
     [ "CalendarEventStore", "d5/d47/a04490.html#aea0466a27af69ea188d66b721b49a3d6", null ],

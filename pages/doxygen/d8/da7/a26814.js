@@ -1,6 +1,7 @@
 var a26814 =
 [
-    [ "HandleDummy", "d8/da7/a26814.html#a68a86f7f86324336dc837622e01fa6af", null ],
-    [ "PrepareSpellScript", "d8/da7/a26814.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
-    [ "Register", "d8/da7/a26814.html#ad168c9164d1edd23abfbf05141b96de4", null ]
+    [ "HandleEffect", "d8/da7/a26814.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
+    [ "PrepareSpellScript", "d8/da7/a26814.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
+    [ "Register", "d8/da7/a26814.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
+    [ "Validate", "d8/da7/a26814.html#ab6d78ecb650f13df3376baced8c40a63", null ]
 ];

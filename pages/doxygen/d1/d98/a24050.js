@@ -1,7 +1,6 @@
 var a24050 =
 [
-    [ "HandleEffectApply", "d1/d98/a24050.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
-    [ "HandleEffectRemove", "d1/d98/a24050.html#a96769390468dc132df62b5a0ec3a2da4", null ],
-    [ "PrepareAuraScript", "d1/d98/a24050.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
-    [ "Register", "d1/d98/a24050.html#a95905ec163c42463314a5f5bb023b4d6", null ]
+    [ "npc_infernal_attackerAI", "d3/d99/a24054.html", "d3/d99/a24054" ],
+    [ "npc_infernal_attacker", "d1/d98/a24050.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
+    [ "GetAI", "d1/d98/a24050.html#ad1d9186c186de36efbe102a07fe89de4", null ]
 ];

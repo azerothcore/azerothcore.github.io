@@ -1,7 +1,7 @@
 var a15222 =
 [
-    [ "HandleEffectPeriodic", "d5/de5/a15222.html#ac47c157dbd193bc131d281666ae2097f", null ],
-    [ "PrepareAuraScript", "d5/de5/a15222.html#ac650ece6e2d9e9e7ff9b863d77f84975", null ],
-    [ "Register", "d5/de5/a15222.html#ac3c158fdddd007d1d7986470032bfc25", null ],
-    [ "Validate", "d5/de5/a15222.html#a26b117dc8a3b104dec9de27597fbe55d", null ]
+    [ "HandleDummy", "d5/de5/a15222.html#a30a87266b89021caf7d05c45397f70d1", null ],
+    [ "PrepareSpellScript", "d5/de5/a15222.html#a43a92b346088d710719722e8feed9634", null ],
+    [ "Register", "d5/de5/a15222.html#ad7a53cc6a24197c050ed8577f6c6cc12", null ],
+    [ "Validate", "d5/de5/a15222.html#a8b5097b623adbc1d8a10d7b1c4c248ab", null ]
 ];

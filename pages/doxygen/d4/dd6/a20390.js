@@ -1,10 +1,6 @@
 var a20390 =
 [
-    [ "npc_ulduar_harpoonfirestateAI", "d4/dd6/a20390.html#acc6853671f37e35c746ffa3807ae10b2", null ],
-    [ "GetData", "d4/dd6/a20390.html#ac23f2c901ef8c2160ceea43a0a15e185", null ],
-    [ "GetHarpoonGunIdForThisHFS", "d4/dd6/a20390.html#af21c4d50febac02eb0572efe564a19b1", null ],
-    [ "Reset", "d4/dd6/a20390.html#af300a8271762fe1b5582384114902ee8", null ],
-    [ "SetData", "d4/dd6/a20390.html#abf485123f0a73aa84ad5178e23c4192e", null ],
-    [ "pInstance", "d4/dd6/a20390.html#af576864ded6610daad973ac420d2fdb8", null ],
-    [ "repairPoints", "d4/dd6/a20390.html#a5e9bcd384285b9046da93bd18804d07b", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "db/d91/a20394.html", "db/d91/a20394" ],
+    [ "npc_ulduar_dark_rune_guardian", "d4/dd6/a20390.html#a6266dd5c096402b5383af09ac361a634", null ],
+    [ "GetAI", "d4/dd6/a20390.html#a9ed188491483548658ce682bf36e6fd2", null ]
 ];

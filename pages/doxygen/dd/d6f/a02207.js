@@ -1,6 +1,6 @@
 var a02207 =
 [
-    [ "boss_venoxis", "d8/d41/a13906.html", "d8/d41/a13906" ],
+    [ "boss_venoxis", "d5/dd2/a13890.html", "d5/dd2/a13890" ],
     [ "NPCs", "dd/d6f/a02207.html#a6986ec7b2d3274669934af9795f26d5c", [
       [ "NPC_EMI_SHORTFUSE", "dc/d29/a02144.html#a6986ec7b2d3274669934af9795f26d5ca9e4a9c0c7e0adc0ef8c70ad7a302078a", null ],
       [ "BOSS_VENOXIS", "dd/d6f/a02207.html#a6986ec7b2d3274669934af9795f26d5caae68e55f680ae41a7b7f050bb06a5702", null ],
@@ -1591,7 +1591,8 @@ var a02207 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

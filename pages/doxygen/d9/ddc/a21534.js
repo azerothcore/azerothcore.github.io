@@ -1,5 +1,7 @@
 var a21534 =
 [
-    [ "npc_leryssaAI", "d9/ddc/a21534.html#ad21a1e1572880ba8cbf6625e658989eb", null ],
-    [ "MovementInform", "d9/ddc/a21534.html#a36180f7351ab11a9942ec59ee24ae6ad", null ]
+    [ "npc_warmage_violetstand", "d9/ddc/a21534.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
+    [ "Reset", "d9/ddc/a21534.html#a99015610597f43f184cc686c9fab2fa9", null ],
+    [ "UpdateAI", "d9/ddc/a21534.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
+    [ "targetGUID", "d9/ddc/a21534.html#a46560aa7aa90778967a79c931a81721b", null ]
 ];

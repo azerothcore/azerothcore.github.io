@@ -1,7 +1,10 @@
 var a15890 =
 [
-    [ "HandlePeriodic", "d8/dad/a15890.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
-    [ "PrepareAuraScript", "d8/dad/a15890.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
-    [ "Register", "d8/dad/a15890.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
-    [ "Validate", "d8/dad/a15890.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
+    [ "spell_halion_damage_aoe_summon", "d8/dad/a15890.html#a6152e7a0515076af2c7c2155506257b0", null ],
+    [ "HandleSummon", "d8/dad/a15890.html#a47a810b94c515b7e48c9cc5f99c6bc23", null ],
+    [ "PrepareSpellScript", "d8/dad/a15890.html#ae05be3eca26724f57f3f4b37b723aa63", null ],
+    [ "Register", "d8/dad/a15890.html#aa1f9239a2910d53c85539abba6333893", null ],
+    [ "Validate", "d8/dad/a15890.html#acb359257b29354b5962d9865e06137e7", null ],
+    [ "_auraSpell", "d8/dad/a15890.html#a497a74eca703470964157639a6f372e2", null ],
+    [ "_explosionSpell", "d8/dad/a15890.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
 ];

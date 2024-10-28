@@ -1,7 +1,6 @@
 var a19998 =
 [
-    [ "HandleAfterHit", "dd/d2b/a19998.html#a75953cbb3a288fd373e602ed07d84441", null ],
-    [ "PrepareSpellScript", "dd/d2b/a19998.html#a55c604f072fd0bbdcb886635fb53eaa8", null ],
-    [ "Register", "dd/d2b/a19998.html#af963f0dcdf2a1bc040a597c06983f0a7", null ],
-    [ "Validate", "dd/d2b/a19998.html#aea2b951dd2353800958f654df58d8fd8", null ]
+    [ "id", "dd/d2b/a19998.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "dd/d2b/a19998.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "dd/d2b/a19998.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

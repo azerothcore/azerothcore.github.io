@@ -1,8 +1,6 @@
 var a17234 =
 [
-    [ "npc_high_overlord_saurfangAI", "d4/db5/a17238.html", "d4/db5/a17238" ],
-    [ "npc_high_overlord_saurfang_icc", "d2/d96/a17234.html#ac02fe80550572e142406c2d80c0392df", null ],
-    [ "GetAI", "d2/d96/a17234.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
-    [ "OnGossipHello", "d2/d96/a17234.html#a515a87f751527412222cfdd968febe7c", null ],
-    [ "OnGossipSelect", "d2/d96/a17234.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
+    [ "npc_saurfang_eventAI", "d4/db5/a17238.html", "d4/db5/a17238" ],
+    [ "npc_saurfang_event", "d2/d96/a17234.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "d2/d96/a17234.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

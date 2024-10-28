@@ -1,6 +1,6 @@
 var a19398 =
 [
-    [ "boss_krystallusAI", "dc/d54/a19402.html", "dc/d54/a19402" ],
-    [ "boss_krystallus", "db/d7f/a19398.html#a1d7453c9d67594bfdbd650fea897666a", null ],
-    [ "GetAI", "db/d7f/a19398.html#aba14bcfa00a5d997959abd94af647bf4", null ]
+    [ "spell_krystallus_shatter_effect_SpellScript", "dc/d54/a19402.html", "dc/d54/a19402" ],
+    [ "spell_krystallus_shatter_effect", "db/d7f/a19398.html#a6386cca53ddb3fadc61694483e549d57", null ],
+    [ "GetSpellScript", "db/d7f/a19398.html#a16dec11a63865243b2b0f467e394a1d3", null ]
 ];

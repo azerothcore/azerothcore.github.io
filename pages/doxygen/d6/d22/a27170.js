@@ -1,5 +1,5 @@
 var a27170 =
 [
-    [ "go_tablet_of_the_seven", "d6/d22/a27170.html#aa5bcd36c6d0250571f6721f71864ab59", null ],
-    [ "OnGossipHello", "d6/d22/a27170.html#a54d27dc2a52d69d8fd9605c358a855fc", null ]
+    [ "go_southfury_moonstone", "d6/d22/a27170.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
+    [ "OnGossipHello", "d6/d22/a27170.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
 ];

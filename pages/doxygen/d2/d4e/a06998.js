@@ -1,7 +1,8 @@
 var a06998 =
 [
-    [ "attackText", "d2/d4e/a06998.html#a9c1319033a432ca0db51a9a1545aa7af", null ],
-    [ "id", "d2/d4e/a06998.html#a7f28adc30e9293df2f2c124469550d75", null ],
-    [ "takenText", "d2/d4e/a06998.html#a55ccbd94fe08ecc99f5be97b96761f68", null ],
-    [ "worldstate", "d2/d4e/a06998.html#a342ef087df4f9326952728c2192a3da3", null ]
+    [ "nbTowerCannonBottom", "d2/d4e/a06998.html#a06e8dcf63efd928b72f3ec7d433ccb89", null ],
+    [ "nbTurretTop", "d2/d4e/a06998.html#a5a728dccad89da190131cd93b62390b7", null ],
+    [ "TowerCannonBottom", "d2/d4e/a06998.html#a21fa09356b3349bf45865aa3f0920268", null ],
+    [ "towerEntry", "d2/d4e/a06998.html#a37e171a06a6e7bf5c0832417c597c2e1", null ],
+    [ "TurretTop", "d2/d4e/a06998.html#a6849ba6967fa275950da9fec16df9bec", null ]
 ];

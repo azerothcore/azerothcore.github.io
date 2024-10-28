@@ -1,7 +1,17 @@
 var a24106 =
 [
-    [ "o", "de/d80/a24106.html#a3785e9b55ea3a7140086ce1f86232109", null ],
-    [ "x", "de/d80/a24106.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
-    [ "y", "de/d80/a24106.html#a10fbad67977d8dd3911eb629c1797684", null ],
-    [ "z", "de/d80/a24106.html#a69fc2438e52f6c0de3af13900ff38166", null ]
+    [ "npc_torloth_the_magnificentAI", "de/d80/a24106.html#ad34b85c80ebfb2332709c7ee21c053b7", null ],
+    [ "HandleAnimation", "de/d80/a24106.html#ab69f481e3871e5ce803ab1f389a2385c", null ],
+    [ "JustDied", "de/d80/a24106.html#aef9d2bcc04b8c1a54bf59f4744eba3ae", null ],
+    [ "JustEngagedWith", "de/d80/a24106.html#abf3fc3538e82fceaa916d4e217d6f9fd", null ],
+    [ "Reset", "de/d80/a24106.html#aa7944f80bb6718a65a07128be830ed94", null ],
+    [ "UpdateAI", "de/d80/a24106.html#ad5f7769462aa39fabb7ec5e79670cda1", null ],
+    [ "AggroTargetGUID", "de/d80/a24106.html#a826ecad9e9a06050a3ebc0861bf52c1e", null ],
+    [ "AnimationCount", "de/d80/a24106.html#afbe712b9e3dfe97417e1e621f4eff113", null ],
+    [ "AnimationTimer", "de/d80/a24106.html#a2485ad15002946c0c5b2ebce65221629", null ],
+    [ "LordIllidanGUID", "de/d80/a24106.html#ad135529fe083af2ce3e79823213d2735", null ],
+    [ "SpellTimer1", "de/d80/a24106.html#a991868074e39e2a4d06c37afc642a756", null ],
+    [ "SpellTimer2", "de/d80/a24106.html#a7da30509a017de1392cc3ba181a0dc53", null ],
+    [ "SpellTimer3", "de/d80/a24106.html#a0caf2b2d48c78b2eb032ff73168e2556", null ],
+    [ "Timers", "de/d80/a24106.html#a0eb0c24aff4cdab76d234ba17dbc4b5b", null ]
 ];

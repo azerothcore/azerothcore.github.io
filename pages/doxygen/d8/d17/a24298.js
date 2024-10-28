@@ -1,9 +1,7 @@
 var a24298 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "d8/d17/a24298.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "d8/d17/a24298.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "d8/d17/a24298.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "d8/d17/a24298.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "d8/d17/a24298.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "d8/d17/a24298.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "npc_pet_gen_target_following_bomb", "d8/d17/a24298.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "d8/d17/a24298.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "d8/d17/a24298.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "d8/d17/a24298.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

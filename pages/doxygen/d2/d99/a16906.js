@@ -1,6 +1,7 @@
 var a16906 =
 [
-    [ "npc_pos_freed_slaveAI", "d1/d97/a16910.html", "d1/d97/a16910" ],
-    [ "npc_pos_freed_slave", "d2/d99/a16906.html#a19fd79279646cb1c49c04056636615fc", null ],
-    [ "GetAI", "d2/d99/a16906.html#ac798c2584d48892162cc2bc779701e16", null ]
+    [ "HandleEffectPeriodic", "d2/d99/a16906.html#a370e2cbf796c1bc0a891243b61c057e1", null ],
+    [ "PrepareAuraScript", "d2/d99/a16906.html#ac0cb90fe9bfa7f371cc5469626ce2467", null ],
+    [ "Register", "d2/d99/a16906.html#a5a44978cec95fef30c9ea4308bda2508", null ],
+    [ "Validate", "d2/d99/a16906.html#a8b9f7d76f86f1a5abffdead3ebee694a", null ]
 ];

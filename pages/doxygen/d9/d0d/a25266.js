@@ -1,6 +1,7 @@
 var a25266 =
 [
-    [ "PrepareAuraScript", "d9/d0d/a25266.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
-    [ "Register", "d9/d0d/a25266.html#abb54f08b1932e3638537656360d3aad8", null ],
-    [ "AuraEffectHandleModes", "d9/d0d/a25266.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
+    [ "HandleOnEffectApply", "d9/d0d/a25266.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
+    [ "HandleOnEffectRemove", "d9/d0d/a25266.html#a094d788d157474a9683387d5c340538f", null ],
+    [ "PrepareAuraScript", "d9/d0d/a25266.html#aad378b8c45f11af51faf9128878c01df", null ],
+    [ "Register", "d9/d0d/a25266.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
 ];

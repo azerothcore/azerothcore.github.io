@@ -1,13 +1,18 @@
 var a27566 =
 [
-    [ "DBCDatabaseLoader", "d0/d09/a27566.html#a2efbbd3799e5f72fecaeaf9365579482", null ],
-    [ "DBCDatabaseLoader", "d0/d09/a27566.html#a7d93e6d37796f341edcf25062743c5b5", null ],
-    [ "CloneStringToPool", "d0/d09/a27566.html#a68e5ae50c980aa81b051d0622575bb2d", null ],
-    [ "Load", "d0/d09/a27566.html#a1b116dca8b01e0462a2e6c08245a49a3", null ],
-    [ "operator=", "d0/d09/a27566.html#a46f7d5670840892f7a8714ce0b6cde13", null ],
-    [ "_dbcFormat", "d0/d09/a27566.html#aa749118514d0b784ac6df295bd820d8e", null ],
-    [ "_recordSize", "d0/d09/a27566.html#a6721538ebbcfe020fb195d44b3bdbd11", null ],
-    [ "_sqlIndexPos", "d0/d09/a27566.html#ac1b5b191615d3e3121ea70965b0d495a", null ],
-    [ "_sqlTableName", "d0/d09/a27566.html#ab6590071edf5311ccf484d48e4fd125e", null ],
-    [ "_stringPool", "d0/d09/a27566.html#a52b5b86f0efb8ad0716bc0171a3aa740", null ]
+    [ "DBCStorageBase", "d0/d09/a27566.html#ad688053187f77a4a016274f7e46a76a3", null ],
+    [ "~DBCStorageBase", "d0/d09/a27566.html#a39d4e4f05a50b952c2f952a452beb010", null ],
+    [ "GetFieldCount", "d0/d09/a27566.html#a867375a50bcf7ec8c40b6ff7305a5e81", null ],
+    [ "GetFormat", "d0/d09/a27566.html#ab333cdbf4cb7c6f527045902256fdf2f", null ],
+    [ "Load", "d0/d09/a27566.html#a779bd666cbdc6587eab6a81e51e894d8", null ],
+    [ "Load", "d0/d09/a27566.html#a14dfcde7f1c9c63a293638009b6ce16b", null ],
+    [ "LoadFromDB", "d0/d09/a27566.html#abea56cf48880a3ae02d322b6283032b4", null ],
+    [ "LoadFromDB", "d0/d09/a27566.html#a7156af21138d19a978b9551a2ca24708", null ],
+    [ "LoadStringsFrom", "d0/d09/a27566.html#a912b4793ddc3e3ff3bc9279693373b79", null ],
+    [ "LoadStringsFrom", "d0/d09/a27566.html#a0e3e3be24e2404fad11c322190e0e337", null ],
+    [ "_dataTable", "d0/d09/a27566.html#ab13a1018e69345a3665f50d696bc7236", null ],
+    [ "_fieldCount", "d0/d09/a27566.html#aa9bebefe18610016bef2c7d087d20abe", null ],
+    [ "_fileFormat", "d0/d09/a27566.html#a3ac1c70817c9b7a351ea0e0d2e602351", null ],
+    [ "_indexTableSize", "d0/d09/a27566.html#aa17bb429de3b9df9bb6ffcbc9bf9010b", null ],
+    [ "_stringPool", "d0/d09/a27566.html#a8d571b107344a2dbde0b2cbcfa3c9b52", null ]
 ];

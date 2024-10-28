@@ -1,6 +1,7 @@
 var a23050 =
 [
-    [ "HandleEffectRemove", "d5/d5c/a23050.html#a9e578e576d8fa4198cf1f0e9f03ba47a", null ],
-    [ "PrepareAuraScript", "d5/d5c/a23050.html#a5fa56f4d61c63487919bb2080795e391", null ],
-    [ "Register", "d5/d5c/a23050.html#a2d0bbef8b32c688b7409837b426d9cd1", null ]
+    [ "npc_tainted_elemental", "d5/d5c/a23050.html#a71736892dc20a5be304a161dac183bc9", null ],
+    [ "JustEngagedWith", "d5/d5c/a23050.html#a51a05405b3acb9cc0bd27ff14fc61cd2", null ],
+    [ "Reset", "d5/d5c/a23050.html#aa6792680e31edf8597948b77f5ff2218", null ],
+    [ "UpdateAI", "d5/d5c/a23050.html#a32a68a990c764a0f73d3420b93e3b97c", null ]
 ];

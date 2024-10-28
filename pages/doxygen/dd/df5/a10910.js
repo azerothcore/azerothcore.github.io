@@ -1,13 +1,8 @@
 var a10910 =
 [
-    [ "PetAuraMap", "dd/df5/a10910.html#a6c020340ff467b5f2d00c3b5f9fee817", null ],
-    [ "PetAura", "dd/df5/a10910.html#a8cd7e3284837b30a8a3c6739ab5cb9b3", null ],
-    [ "PetAura", "dd/df5/a10910.html#a79a2f086e2d8dbe1af47716b53df0524", null ],
-    [ "AddAura", "dd/df5/a10910.html#ae33bb99ab341f66fb2f296ccd6617e63", null ],
-    [ "GetAura", "dd/df5/a10910.html#a6f8318410229a89e0b3aa2af28d6cb2b", null ],
-    [ "GetDamage", "dd/df5/a10910.html#a38087712cef92ad55dc84f96e2b9e300", null ],
-    [ "IsRemovedOnChangePet", "dd/df5/a10910.html#adc1b329e1f303b5ad3f353abb4343cdf", null ],
-    [ "auras", "dd/df5/a10910.html#abacd738dfb04687810b981297b1a1567", null ],
-    [ "damage", "dd/df5/a10910.html#a216021a7ad893ae6ca65ea068dd6eedb", null ],
-    [ "removeOnChangePet", "dd/df5/a10910.html#aa5b3219cd2021341ce0910dce81d8b56", null ]
+    [ "target_mapId", "dd/df5/a10910.html#a6dbbb558810388e0d051d84a0279a444", null ],
+    [ "target_Orientation", "dd/df5/a10910.html#a7e30264eff9ece771dfaa421ef987b2a", null ],
+    [ "target_X", "dd/df5/a10910.html#aa78b3d4cfb4277bcb1bf6a31ffc87546", null ],
+    [ "target_Y", "dd/df5/a10910.html#a6f432d8770adebf513346713b7890b5c", null ],
+    [ "target_Z", "dd/df5/a10910.html#a3af706b81f8fbef12277c518964f717a", null ]
 ];

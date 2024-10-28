@@ -1,8 +1,7 @@
 var a14958 =
 [
-    [ "boss_veklor", "d5/dac/a14958.html#acbbe1a2e6ffcb00a28f7ae5413cd02c1", null ],
-    [ "AttackStart", "d5/dac/a14958.html#a7ecfff13457bf177c1ec250bbee75cbf", null ],
-    [ "IAmVeklor", "d5/dac/a14958.html#a4c43713c24b5537f292be1e0fcaee703", null ],
-    [ "JustEngagedWith", "d5/dac/a14958.html#a05913da666b1715eac68441195dd9df4", null ],
-    [ "SpellHit", "d5/dac/a14958.html#ab5d9ec12c18e360ce2c8749dd97f2ab0", null ]
+    [ "boss_glob_of_viscidus", "d5/dac/a14958.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
+    [ "InitializeAI", "d5/dac/a14958.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
+    [ "MovementInform", "d5/dac/a14958.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
+    [ "UpdateAI", "d5/dac/a14958.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
 ];

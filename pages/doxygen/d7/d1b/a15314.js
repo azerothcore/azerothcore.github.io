@@ -1,10 +1,6 @@
 var a15314 =
 [
-    [ "CreatureId", "d7/d1b/a15314.html#a09f696e37f96e7da259fc026a7c4fd83", null ],
-    [ "DespTimer", "d7/d1b/a15314.html#a0dfec745982b346ac1cd0af672be31fb", null ],
-    [ "SpawnCount", "d7/d1b/a15314.html#ad5347ee83eaa00fe0721279099c48433", null ],
-    [ "SpawnTimer", "d7/d1b/a15314.html#ab1720ffe0aeeb5669ab49fc32cb24750", null ],
-    [ "UsedSpawnPoint", "d7/d1b/a15314.html#a7db57df5da62ebb3b52ecd70ec3d45f2", null ],
-    [ "WaveTextId", "d7/d1b/a15314.html#a0a9807e31c2d5c769bc0a020941b234c", null ],
-    [ "YellTimer", "d7/d1b/a15314.html#ac3f9997775f34babc79d4321fd1a6d6d", null ]
+    [ "npc_qiraj_war_spawnAI", "d5/df8/a15318.html", "d5/df8/a15318" ],
+    [ "npc_qiraj_war_spawn", "d7/d1b/a15314.html#a2afba33e9fd879ac3fea206768b14334", null ],
+    [ "GetAI", "d7/d1b/a15314.html#a32339f20251c188b895c02b6cc9217e9", null ]
 ];

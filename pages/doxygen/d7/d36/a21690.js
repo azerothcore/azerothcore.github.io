@@ -1,7 +1,5 @@
 var a21690 =
 [
-    [ "HandleApplyEffect", "d7/d36/a21690.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
-    [ "HandleRemoveEffect", "d7/d36/a21690.html#a243933fec9ccd650303ea5badbea725b", null ],
-    [ "PrepareAuraScript", "d7/d36/a21690.html#ac0e1fc0694dd51e245340d3658592447", null ],
-    [ "Register", "d7/d36/a21690.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
+    [ "at_q24545_frostmourne_cavern", "d7/d36/a21690.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
+    [ "OnTrigger", "d7/d36/a21690.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
 ];

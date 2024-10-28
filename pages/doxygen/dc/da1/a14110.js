@@ -1,6 +1,6 @@
 var a14110 =
 [
-    [ "gameobjectId", "dc/da1/a14110.html#a5cebf652fccc66cb5f98968036405d14", null ],
-    [ "spawnIndex", "dc/da1/a14110.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
-    [ "timestamp", "dc/da1/a14110.html#a0c49f62b35e906637890fee896c74951", null ]
+    [ "HandleScript", "dc/da1/a14110.html#aa60824ed67ae87e96117fc5bf90bec8c", null ],
+    [ "PrepareSpellScript", "dc/da1/a14110.html#aab4303fff660c68db100e07a4423c39b", null ],
+    [ "Register", "dc/da1/a14110.html#a0fbc130652e58d9418cb3c5036b6aed2", null ]
 ];

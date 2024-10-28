@@ -1,11 +1,11 @@
 var a01187 =
 [
-    [ "boss_toravon", "dc/d38/a21170.html", "dc/d38/a21170" ],
-    [ "boss_toravon::boss_toravonAI", "d1/d86/a21174.html", "d1/d86/a21174" ],
-    [ "npc_frozen_orb", "df/da0/a21178.html", "df/da0/a21178" ],
-    [ "npc_frozen_orb::npc_frozen_orbAI", "dc/d68/a21182.html", "dc/d68/a21182" ],
-    [ "npc_frozen_orb_stalker", "d9/dd0/a21186.html", "d9/dd0/a21186" ],
-    [ "npc_frozen_orb_stalker::npc_frozen_orb_stalkerAI", "d0/d37/a21190.html", "d0/d37/a21190" ],
+    [ "boss_toravon", "d2/d89/a21154.html", "d2/d89/a21154" ],
+    [ "boss_toravon::boss_toravonAI", "d4/d5c/a21158.html", "d4/d5c/a21158" ],
+    [ "npc_frozen_orb", "d5/d0e/a21162.html", "d5/d0e/a21162" ],
+    [ "npc_frozen_orb::npc_frozen_orbAI", "d0/d28/a21166.html", "d0/d28/a21166" ],
+    [ "npc_frozen_orb_stalker", "dc/d38/a21170.html", "dc/d38/a21170" ],
+    [ "npc_frozen_orb_stalker::npc_frozen_orb_stalkerAI", "d1/d86/a21174.html", "d1/d86/a21174" ],
     [ "Events", "dc/d70/a01187.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
@@ -2118,7 +2118,8 @@ var a01187 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

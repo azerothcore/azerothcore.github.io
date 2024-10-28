@@ -1,7 +1,6 @@
 var a16494 =
 [
-    [ "HandleScript", "d1/d57/a16494.html#a927cc2ab0e5bba58a2b49e3e4e52ebaa", null ],
-    [ "PrepareSpellScript", "d1/d57/a16494.html#a71b28156c628aacbc6cb481038c0e76c", null ],
-    [ "Register", "d1/d57/a16494.html#a6f036bb2d42f248e0c252158a5ecedf1", null ],
-    [ "Validate", "d1/d57/a16494.html#a7c8a5a7c47bd7a9624028f92b1d9cf9c", null ]
+    [ "OnPeriodic", "d1/d57/a16494.html#ab71faf6fb2900e176aac245317113758", null ],
+    [ "PrepareAuraScript", "d1/d57/a16494.html#a5b4bf1fe2987cdebedaa2e7d048742d6", null ],
+    [ "Register", "d1/d57/a16494.html#a8b90810bfc5416cdfeac2f6a72c55d3e", null ]
 ];

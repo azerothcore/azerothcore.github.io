@@ -1,6 +1,6 @@
 var a15710 =
 [
-    [ "instance_azjol_nerub_InstanceScript", "da/d13/a15714.html", "da/d13/a15714" ],
-    [ "instance_azjol_nerub", "d6/dc4/a15710.html#a61476a0d15136d2bdb3a65eca72963da", null ],
-    [ "GetInstanceScript", "d6/dc4/a15710.html#a8bb8477669c6369afe508a400bd4d489", null ]
+    [ "boss_sartharionAI", "da/d13/a15714.html", "da/d13/a15714" ],
+    [ "boss_sartharion", "d6/dc4/a15710.html#a6605aee69372d08fba8f4b4523896588", null ],
+    [ "GetAI", "d6/dc4/a15710.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
 ];

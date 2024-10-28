@@ -1,8 +1,7 @@
 var a14170 =
 [
-    [ "npc_hallows_end_train_fire", "d9/d12/a14170.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
-    [ "Reset", "d9/d12/a14170.html#afdda52e0adce23f56fa9d1357469a17d", null ],
-    [ "SpellHit", "d9/d12/a14170.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
-    [ "UpdateAI", "d9/d12/a14170.html#a686a565e1743c31166d8d57f67a0adce", null ],
-    [ "timer", "d9/d12/a14170.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
+    [ "go_loosely_turned_soilAI", "d4/dc5/a14174.html", "d4/dc5/a14174" ],
+    [ "go_loosely_turned_soil", "d9/d12/a14170.html#a3b4d51e2b3a604e030962127269236f1", null ],
+    [ "GetAI", "d9/d12/a14170.html#acead5810a848f8837fa65af1f2ac00bd", null ],
+    [ "OnQuestReward", "d9/d12/a14170.html#a1ac57b34c5b3e21c033330eaeefaa6a8", null ]
 ];

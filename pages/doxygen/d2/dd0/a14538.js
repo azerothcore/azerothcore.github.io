@@ -1,6 +1,6 @@
 var a14538 =
 [
-    [ "npc_cos_chromie_start", "d2/dd0/a14538.html#ae8f810af1e593ad16958049f6ad19616", null ],
-    [ "OnGossipSelect", "d2/dd0/a14538.html#a35cba5a1b7865b07a4e843648cea50c8", null ],
-    [ "OnQuestAccept", "d2/dd0/a14538.html#aa730cb17e6cfe917bc32f7e7ae52e8ef", null ]
+    [ "instance_culling_of_stratholme_InstanceMapScript", "dc/d37/a14542.html", "dc/d37/a14542" ],
+    [ "instance_culling_of_stratholme", "d2/dd0/a14538.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
+    [ "GetInstanceScript", "d2/dd0/a14538.html#ad8cbcb198666d44d79d6255d066c8315", null ]
 ];

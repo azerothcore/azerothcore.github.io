@@ -1,6 +1,6 @@
 var a03230 =
 [
-    [ "WorldObjectScript", "d4/d79/a10114.html", "d4/d79/a10114" ],
+    [ "WorldObjectScript", "d6/d82/a10118.html", "d6/d82/a10118" ],
     [ "WorldObjectHook", "df/dc9/a03230.html#ab8a14556853bd2637a19973d68ba6d1c", [
       [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY", "df/dc9/a03230.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce", null ],
       [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE", "df/dc9/a03230.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c", null ],

@@ -1,6 +1,6 @@
 var a24358 =
 [
-    [ "DeathEvent", "d2/d60/a24358.html#a2fb9a98c077d715c4648aede6597276e", null ],
-    [ "Execute", "d2/d60/a24358.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
-    [ "_owner", "d2/d60/a24358.html#a099d0d5ae50126f00220b3ed90907617", null ]
+    [ "npc_pet_pri_shadowfiend", "d2/d60/a24358.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "d2/d60/a24358.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "d2/d60/a24358.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

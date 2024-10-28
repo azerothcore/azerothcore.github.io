@@ -1,8 +1,6 @@
 var a13642 =
 [
-    [ "entry", "da/de2/a13642.html#ad7431eb64907aed0a03205a37c65a735", null ],
-    [ "orient", "da/de2/a13642.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
-    [ "x", "da/de2/a13642.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
-    [ "y", "da/de2/a13642.html#ae726b332e6759612c76de6b9f38a3147", null ],
-    [ "z", "da/de2/a13642.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
+    [ "npc_zuljin_vortexAI", "d1/d3e/a13646.html", "d1/d3e/a13646" ],
+    [ "npc_zuljin_vortex", "da/de2/a13642.html#a0f58fde79a4110f90be45190355e6161", null ],
+    [ "GetAI", "da/de2/a13642.html#af2878b4e5f11a6d43c6cc58dffddab09", null ]
 ];

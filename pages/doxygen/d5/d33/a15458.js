@@ -1,9 +1,7 @@
 var a15458 =
 [
-    [ "npc_pluckyAI", "d5/d33/a15458.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
-    [ "ReceiveEmote", "d5/d33/a15458.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
-    [ "Reset", "d5/d33/a15458.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
-    [ "UpdateAI", "d5/d33/a15458.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
-    [ "NormFaction", "d5/d33/a15458.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
-    [ "ResetTimer", "d5/d33/a15458.html#ac9808c21666cd17b0603e7e67a61d015", null ]
+    [ "npc_ameAI", "d4/d39/a15462.html", "d4/d39/a15462" ],
+    [ "npc_ame", "d5/d33/a15458.html#a6b4a20b06bc88393dd08b4eae83c1d50", null ],
+    [ "GetAI", "d5/d33/a15458.html#a09f7688c38d56319791f7543eb32f317", null ],
+    [ "OnQuestAccept", "d5/d33/a15458.html#a69b8ec6558e70e34f7e405b397b09f43", null ]
 ];

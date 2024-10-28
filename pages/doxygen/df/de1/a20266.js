@@ -1,24 +1,12 @@
 var a20266 =
 [
-    [ "npc_ulduar_vx001AI", "df/de1/a20266.html#a47b46f1110a0a376544e388501a5dc82", null ],
-    [ "AttackStart", "df/de1/a20266.html#a5b3fdc76e6ea484a7d0fdc815dad56c7", null ],
-    [ "DamageTaken", "df/de1/a20266.html#a41b562b4df965445e8581eec12a4bcfa", null ],
-    [ "DoAction", "df/de1/a20266.html#aacbaae85f9870e64ca43a42c224bb12e", null ],
-    [ "EnterEvadeMode", "df/de1/a20266.html#aed853ac2a262750d1ccb636146897f06", null ],
-    [ "GetData", "df/de1/a20266.html#a7b7387c58924d3e05ed1e5fc9273e1fa", null ],
-    [ "KilledUnit", "df/de1/a20266.html#a0a12f7cfd55b0e14f41b8ae3107656fc", null ],
-    [ "MoveInLineOfSight", "df/de1/a20266.html#a37295ca8047d2cb2248faa59b68830bf", null ],
-    [ "PassengerBoarded", "df/de1/a20266.html#a8b9f0a4a56f38f527ce1c80202ce084f", null ],
-    [ "Reset", "df/de1/a20266.html#a07dcd2c5ce8125bff0287f172ead79d5", null ],
-    [ "SetData", "df/de1/a20266.html#a3cfeac1b6f76d9c337ceb64dd8647980", null ],
-    [ "SpellHit", "df/de1/a20266.html#abf25b8b64231c1aba63a381734709d76", null ],
-    [ "UpdateAI", "df/de1/a20266.html#aeb7956153cbfcac4064a5896c231bebb", null ],
-    [ "bIsEvading", "df/de1/a20266.html#ab0230a2e72f5a0f37abcb01428749db2", null ],
-    [ "events", "df/de1/a20266.html#a4728fe7157b76c4841a29548817ca3be", null ],
-    [ "fighting", "df/de1/a20266.html#a53ff3572622d29e3b58719990df8ce6a", null ],
-    [ "leftarm", "df/de1/a20266.html#a52c6c4e1ed36f81b5d655e0399d485e1", null ],
-    [ "Phase", "df/de1/a20266.html#a17aa1eaa6af8e450f47348096d9ed400", null ],
-    [ "pInstance", "df/de1/a20266.html#a05d8dfa16d609a8689e7b1f01cd4333b", null ],
-    [ "spinningUpOrientation", "df/de1/a20266.html#a2d696433e3897b0ddbc2d22da8af741f", null ],
-    [ "spinningUpTimer", "df/de1/a20266.html#ab42021785e07a3ca000ae807c53c84a8", null ]
+    [ "npc_ulduar_proximity_mineAI", "df/de1/a20266.html#aa3001a71c8a298be688631d618745495", null ],
+    [ "AttackStart", "df/de1/a20266.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
+    [ "CanAIAttack", "df/de1/a20266.html#a0216f41bf596eb43a9b9eea13152d262", null ],
+    [ "MoveInLineOfSight", "df/de1/a20266.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
+    [ "SpellHitTarget", "df/de1/a20266.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
+    [ "UpdateAI", "df/de1/a20266.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
+    [ "exploded", "df/de1/a20266.html#a1706ff0cfd7192040c32f13a37610c43", null ],
+    [ "timer", "df/de1/a20266.html#a4c743646055b4c95bf379a751eb5892e", null ],
+    [ "timer2", "df/de1/a20266.html#a446b7658fa4c165f43947a05562827b2", null ]
 ];

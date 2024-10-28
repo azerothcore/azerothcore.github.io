@@ -1,6 +1,6 @@
 var a22362 =
 [
-    [ "npc_released_offspring_harkoaAI", "dd/dac/a22362.html#ab1002f002987b6ea2366129afd48d65c", null ],
-    [ "MovementInform", "dd/dac/a22362.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
-    [ "Reset", "dd/dac/a22362.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
+    [ "npc_storm_cloudAI", "dc/d74/a22366.html", "dc/d74/a22366" ],
+    [ "npc_storm_cloud", "dd/dac/a22362.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
+    [ "GetAI", "dd/dac/a22362.html#a952bd1cf5406b989182d8560d8b9e665", null ]
 ];

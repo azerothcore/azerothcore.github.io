@@ -1,5 +1,6 @@
 var a20430 =
 [
-    [ "achievement_quick_shave", "db/d6c/a20430.html#a6c2f1e60d2311922abbaf7e22e1e9e4b", null ],
-    [ "OnCheck", "db/d6c/a20430.html#a151c479da3d4cec05999ad8a249b100c", null ]
+    [ "boss_thorim_sifAI", "d6/d5b/a20434.html", "d6/d5b/a20434" ],
+    [ "boss_thorim_sif", "db/d6c/a20430.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
+    [ "GetAI", "db/d6c/a20430.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
 ];

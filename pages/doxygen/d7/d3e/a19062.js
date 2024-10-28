@@ -1,10 +1,8 @@
 var a19062 =
 [
-    [ "npc_scion_of_eternityAI", "d7/d3e/a19062.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
-    [ "AttackStart", "d7/d3e/a19062.html#a1335f9e34ff73d5501455062be025ada", null ],
-    [ "JustDied", "d7/d3e/a19062.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
-    [ "MoveInLineOfSight", "d7/d3e/a19062.html#a74a69fa532f0921285ef678bbd2fa761", null ],
-    [ "UpdateAI", "d7/d3e/a19062.html#adb16afb6ea1583a7156b80a8d833951a", null ],
-    [ "events", "d7/d3e/a19062.html#ae0e194a24a14033a499e68524da1699d", null ],
-    [ "pInstance", "d7/d3e/a19062.html#aa828ca4a75696645d7aa350f1f981f40", null ]
+    [ "npc_alexstraszaAI", "d7/d3e/a19062.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
+    [ "AttackStart", "d7/d3e/a19062.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
+    [ "MoveInLineOfSight", "d7/d3e/a19062.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
+    [ "UpdateAI", "d7/d3e/a19062.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
+    [ "events", "d7/d3e/a19062.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
 ];

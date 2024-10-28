@@ -1,8 +1,7 @@
 var a19978 =
 [
-    [ "npc_ulduar_saronite_animusAI", "de/d10/a19978.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "de/d10/a19978.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "de/d10/a19978.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "de/d10/a19978.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "de/d10/a19978.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "HandleAfterEffectApply", "de/d10/a19978.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "de/d10/a19978.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "de/d10/a19978.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "de/d10/a19978.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

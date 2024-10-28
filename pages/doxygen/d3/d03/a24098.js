@@ -1,5 +1,8 @@
 var a24098 =
 [
-    [ "npc_karynaku", "d3/d03/a24098.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "d3/d03/a24098.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "CreatureId", "d3/d03/a24098.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d3/d03/a24098.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d3/d03/a24098.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d3/d03/a24098.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d3/d03/a24098.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

@@ -1,6 +1,6 @@
 var a19498 =
 [
-    [ "spell_hos_dark_matter_AuraScript", "d4/df9/a19502.html", "d4/df9/a19502" ],
-    [ "spell_hos_dark_matter", "d3/de9/a19498.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
-    [ "GetAuraScript", "d3/de9/a19498.html#a2277580897f7533440713157d9cd863f", null ]
+    [ "CosmicSmashDamageEvent", "d3/de9/a19498.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d3/de9/a19498.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d3/de9/a19498.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

@@ -1,10 +1,9 @@
 var a17426 =
 [
-    [ "npc_gunship_gunnerAI", "de/d00/a17426.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
-    [ "AttackStart", "de/d00/a17426.html#ac21b90c1892c15882794384517ef9fd2", null ],
-    [ "CanAIAttack", "de/d00/a17426.html#aef351305ef34fa316809697125a3bc9a", null ],
-    [ "MovementInform", "de/d00/a17426.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
-    [ "UpdateAI", "de/d00/a17426.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
-    [ "anyValid", "de/d00/a17426.html#a00c7dc23618c60826241133a0067c1c4", null ],
-    [ "checkTimer", "de/d00/a17426.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
+    [ "CheckAreaTarget", "de/d00/a17426.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
+    [ "HandleApply", "de/d00/a17426.html#a9ce86d32957af07313af379b4176d0b3", null ],
+    [ "HandleRemove", "de/d00/a17426.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
+    [ "Load", "de/d00/a17426.html#aa10821981f3e80262850e5c46449d5d0", null ],
+    [ "PrepareAuraScript", "de/d00/a17426.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
+    [ "Register", "de/d00/a17426.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
 ];

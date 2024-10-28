@@ -1,13 +1,8 @@
 var a23562 =
 [
-    [ "boss_warbringer_omrogg", "d5/d49/a23562.html#a20f790595640cd41d636ad43c8837cda", null ],
-    [ "HandleHeadTalk", "d5/d49/a23562.html#aaa324c065f6c2bbf75688f5910be09d1", null ],
-    [ "JustDied", "d5/d49/a23562.html#a8a2abaceda580ac2ed4f1c736281828f", null ],
-    [ "JustEngagedWith", "d5/d49/a23562.html#ae1710f22f8a72f661498c4fbc6d108a5", null ],
-    [ "KilledUnit", "d5/d49/a23562.html#add6b54c4744be120b6b5fd53912ce1fd", null ],
-    [ "ScheduleBurningPhase", "d5/d49/a23562.html#afd20a8bd1f6f083e0725d962ec747e26", null ],
-    [ "ScheduleNonBurningPhase", "d5/d49/a23562.html#a176217a0767e8153d07996461ac68f60", null ],
-    [ "SetData", "d5/d49/a23562.html#a4d1154d64c999316f9ae02ab76cbc870", null ],
-    [ "UpdateAI", "d5/d49/a23562.html#a90369760ed0e52f1ffc6d3e7c4e39ec2", null ],
-    [ "_headTalk", "d5/d49/a23562.html#ae657addceb26f4d02d734fa0790a1ae2", null ]
+    [ "npc_warchief_portal", "d5/d49/a23562.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "d5/d49/a23562.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "d5/d49/a23562.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "d5/d49/a23562.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "d5/d49/a23562.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

@@ -1,6 +1,7 @@
 var a14022 =
 [
-    [ "go_direbrew_mole_machineAI", "d0/df0/a14026.html", "d0/df0/a14026" ],
-    [ "go_direbrew_mole_machine", "d0/dcb/a14022.html#a759d291a5be227d8beae3bbc779e56f4", null ],
-    [ "GetAI", "d0/dcb/a14022.html#a793e5e544664d6c2c3897161c9cccbbb", null ]
+    [ "HandleScriptEffect", "d0/dcb/a14022.html#ae758c224878aebdde0124b5d4ec902a5", null ],
+    [ "PrepareSpellScript", "d0/dcb/a14022.html#ac3755ef09a905d90ce7df328b83d51aa", null ],
+    [ "Register", "d0/dcb/a14022.html#a051d0fe383e5675e39e4ac8ed7a6e329", null ],
+    [ "Validate", "d0/dcb/a14022.html#a56f71954e122f651c6e2ec68453e16cc", null ]
 ];

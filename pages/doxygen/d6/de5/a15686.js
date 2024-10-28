@@ -1,11 +1,15 @@
 var a15686 =
 [
-    [ "spell_hadronox_summon_periodic_aura", "d6/de5/a15686.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
-    [ "HandlePeriodic", "d6/de5/a15686.html#a048695baf71d307e5aaa00e54586c9f7", null ],
-    [ "OnApply", "d6/de5/a15686.html#a4466547bc1a5259a33354f2008d6cce7", null ],
-    [ "PrepareAuraScript", "d6/de5/a15686.html#a4205560054e5baed86aecba3b98fc202", null ],
-    [ "Register", "d6/de5/a15686.html#a09efdcddaed4af2833139ca20ef94376", null ],
-    [ "Validate", "d6/de5/a15686.html#a20827683249c17625242e205bb51f9e8", null ],
-    [ "_delay", "d6/de5/a15686.html#a191d7eec948e0753835bd41eef66f1ec", null ],
-    [ "_spellEntry", "d6/de5/a15686.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
+    [ "boss_krik_thirAI", "d6/de5/a15686.html#a92a2b2089c890901cd438c8d8ea432c7", null ],
+    [ "GetData", "d6/de5/a15686.html#adcca5f21a596ffae3c50f102c4698c4e", null ],
+    [ "JustDied", "d6/de5/a15686.html#ab4a576f9746f7ade8f6b8f8c08795433", null ],
+    [ "JustEngagedWith", "d6/de5/a15686.html#aa99c241641fc7e94412d08bebed07475", null ],
+    [ "JustSummoned", "d6/de5/a15686.html#afff556f4bc00b87b3d2a37ffbf54c919", null ],
+    [ "KilledUnit", "d6/de5/a15686.html#aad554ec61a0c6ad9cedf6d7d1b33ed1d", null ],
+    [ "MoveInLineOfSight", "d6/de5/a15686.html#a6c72cebac0e09f66bf0a60cdc328aa4d", null ],
+    [ "Reset", "d6/de5/a15686.html#a613441fcb7bd851a03729be84d27650c", null ],
+    [ "SummonedCreatureDies", "d6/de5/a15686.html#acb7b45fbe3a736ad65b0a2556ead40ae", null ],
+    [ "UpdateAI", "d6/de5/a15686.html#ae37227df78ad9ffb9722caa0c16ffa5f", null ],
+    [ "_initTalk", "d6/de5/a15686.html#a68a4994c750979b91e46160b0cba77b4", null ],
+    [ "events2", "d6/de5/a15686.html#a8f706239d33861105a37476eecb977ec", null ]
 ];

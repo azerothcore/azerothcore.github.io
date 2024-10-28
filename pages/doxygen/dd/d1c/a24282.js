@@ -1,5 +1,6 @@
 var a24282 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "dd/d1c/a24282.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
-    [ "InitializeAI", "dd/d1c/a24282.html#af3ecec126ed3d902acd4bfe979382307", null ]
+    [ "HandleDamageCalc", "dd/d1c/a24282.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "dd/d1c/a24282.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "dd/d1c/a24282.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

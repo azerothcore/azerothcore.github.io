@@ -1,5 +1,6 @@
 var a17054 =
 [
-    [ "achievement_snakes_whyd_it_have_to_be_snakes", "de/db9/a17054.html#a4245e53260b83f77f9b4313e13f1f7d3", null ],
-    [ "OnCheck", "de/db9/a17054.html#a1bc62ef6dbdb98b9ca8ea3f3bfc742b0", null ]
+    [ "ShockVortexExplodeEvent", "de/db9/a17054.html#ad972aed372822e10a476d1592192f3ea", null ],
+    [ "Execute", "de/db9/a17054.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
+    [ "_owner", "de/db9/a17054.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
 ];

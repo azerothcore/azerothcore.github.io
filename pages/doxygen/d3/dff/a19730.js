@@ -1,6 +1,6 @@
 var a19730 =
 [
-    [ "npc_freya_wardAI", "d7/de8/a19734.html", "d7/de8/a19734" ],
-    [ "npc_freya_ward", "d3/dff/a19730.html#aebaadcc001922c78e8ec43084a827ac9", null ],
-    [ "GetAI", "d3/dff/a19730.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
+    [ "npc_mimirons_infernoAI", "d7/de8/a19734.html", "d7/de8/a19734" ],
+    [ "npc_mimirons_inferno", "d3/dff/a19730.html#a7a531a65a179b5d56c888c055b72d269", null ],
+    [ "GetAI", "d3/dff/a19730.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
 ];

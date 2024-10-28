@@ -1,8 +1,6 @@
 var a27370 =
 [
-    [ "npc_franklinAI", "d3/dd8/a27374.html", "d3/dd8/a27374" ],
-    [ "npc_franklin", "df/d34/a27370.html#aab059dfa69e52083892e3170c8838e0a", null ],
-    [ "GetAI", "df/d34/a27370.html#a10933878afe9d0cc78fa1113341fd522", null ],
-    [ "OnGossipHello", "df/d34/a27370.html#a318d512914b135800caabe0efbb1c467", null ],
-    [ "OnGossipSelect", "df/d34/a27370.html#a8c37ff7ff15cc9ac49dadabd1650964d", null ]
+    [ "npc_taxi", "df/d34/a27370.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "df/d34/a27370.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "df/d34/a27370.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

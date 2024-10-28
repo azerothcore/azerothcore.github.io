@@ -1,8 +1,8 @@
 var a18494 =
 [
-    [ "npc_arthas_teleport_visualAI", "da/d4f/a18494.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
-    [ "Reset", "da/d4f/a18494.html#a27155b8880a2a86b733bcd074e977b59", null ],
-    [ "UpdateAI", "da/d4f/a18494.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
-    [ "_events", "da/d4f/a18494.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
-    [ "_instance", "da/d4f/a18494.html#a25bc023e061a0845421a652b571a6e1e", null ]
+    [ "CountTargets", "da/d4f/a18494.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
+    [ "HandleScript", "da/d4f/a18494.html#af058a0c458463bdba4a4eb73aa91c113", null ],
+    [ "PrepareSpellScript", "da/d4f/a18494.html#a83b2fad7cdc189a17129e25a015952ff", null ],
+    [ "Register", "da/d4f/a18494.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
+    [ "Validate", "da/d4f/a18494.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
 ];

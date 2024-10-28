@@ -1,6 +1,7 @@
 var a23750 =
 [
-    [ "HandleBeforeCast", "db/d57/a23750.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
-    [ "PrepareSpellScript", "db/d57/a23750.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
-    [ "Register", "db/d57/a23750.html#a45ae470002052c87d5270e3556f0e706", null ]
+    [ "Load", "db/d57/a23750.html#aba7e1a0b87607386649bb842b5058c3e", null ],
+    [ "OnRemove", "db/d57/a23750.html#ac2f7a4532f62fb49f54c60b79aceb2e8", null ],
+    [ "PrepareAuraScript", "db/d57/a23750.html#ac62b18eedbadb0b3581d772909175e96", null ],
+    [ "Register", "db/d57/a23750.html#a17e8be131f01b2434b18740b20a08d6e", null ]
 ];

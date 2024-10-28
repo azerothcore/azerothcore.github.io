@@ -1,8 +1,11 @@
 var a14050 =
 [
-    [ "OnApply", "d7/de1/a14050.html#a6f3f05316f025ef638672a82cc855136", null ],
-    [ "PeriodicTick", "d7/de1/a14050.html#a051d292f9483e6b82d773fba3ab52460", null ],
-    [ "PrepareAuraScript", "d7/de1/a14050.html#ab8face95be60d7c5ba3fe15f0d05de25", null ],
-    [ "Register", "d7/de1/a14050.html#a0004de73250b8523db2b9ab714c8a246", null ],
-    [ "Validate", "d7/de1/a14050.html#aae1809dd5bc8baa06ee079a6d2a8b940", null ]
+    [ "npc_high_oracle_soo_roo", "d7/de1/a14050.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
+    [ "MoveInLineOfSight", "d7/de1/a14050.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
+    [ "Reset", "d7/de1/a14050.html#a89a60a83a46e0095045b2353e50483ed", null ],
+    [ "UpdateAI", "d7/de1/a14050.html#ac22cfa519e478da643a51ae887f306fd", null ],
+    [ "orphanGUID", "d7/de1/a14050.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
+    [ "phase", "d7/de1/a14050.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
+    [ "playerGUID", "d7/de1/a14050.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
+    [ "timer", "d7/de1/a14050.html#aa5238d3ee361374681947de874391a1f", null ]
 ];

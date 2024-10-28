@@ -1,9 +1,9 @@
 var a01934 =
 [
-    [ "boss_razorgore", "d9/d02/a11986.html", "d9/d02/a11986" ],
-    [ "boss_razorgore::boss_razorgoreAI", "df/dc0/a11990.html", "df/dc0/a11990" ],
-    [ "go_orb_of_domination", "dd/d2f/a11994.html", "dd/d2f/a11994" ],
-    [ "spell_egg_event", "d7/d10/a11998.html", "d7/d10/a11998" ],
+    [ "boss_razorgore", "df/dc0/a11990.html", "df/dc0/a11990" ],
+    [ "boss_razorgore::boss_razorgoreAI", "dd/d2f/a11994.html", "dd/d2f/a11994" ],
+    [ "go_orb_of_domination", "d7/d10/a11998.html", "d7/d10/a11998" ],
+    [ "spell_egg_event", "d8/dae/a12002.html", "d8/dae/a12002" ],
     [ "EVENTS", "de/da9/a01934.html#a0383e5bf22653a832beeabda82c1eeb3", [
       [ "EVENT_CLEAVE", "de/da9/a01934.html#a0383e5bf22653a832beeabda82c1eeb3ad4266671217cc53e473a6844d92ef36a", null ],
       [ "EVENT_STOMP", "de/da9/a01934.html#a0383e5bf22653a832beeabda82c1eeb3aae6a7bd26e8ee17a505a5f6c6f720316", null ],
@@ -946,7 +946,8 @@ var a01934 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

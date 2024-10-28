@@ -1,5 +1,5 @@
 var a26218 =
 [
-    [ "PrepareSpellScript", "d1/d89/a26218.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "d1/d89/a26218.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "spell_q55_sacred_cleansing", "d1/d89/a26218.html#a4aa8a16350a7a55706841471fd985ca2", null ],
+    [ "GetSpellScript", "d1/d89/a26218.html#a50a8f2d777169aaeef88533b66b88fb2", null ]
 ];

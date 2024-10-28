@@ -1,12 +1,15 @@
 var a16838 =
 [
-    [ "boss_tyrannusAI", "dc/dc7/a16838.html#a753de14d2cecaaed2c7b24e09397b008", null ],
-    [ "CanAIAttack", "dc/dc7/a16838.html#a0cb60f308637cbd152faf274b3e5f636", null ],
-    [ "DoAction", "dc/dc7/a16838.html#ab4d899ab5da283c8d256df8cb0d4e312", null ],
-    [ "JustDied", "dc/dc7/a16838.html#a249b7dc28dfc40c2a782ef32b88dbb48", null ],
-    [ "KilledUnit", "dc/dc7/a16838.html#abf7c8909143dac641c00cca160bef964", null ],
-    [ "Reset", "dc/dc7/a16838.html#aec686cffccd8d95a341e320ffc7d5b7e", null ],
-    [ "UpdateAI", "dc/dc7/a16838.html#a4357dc2e9b1d714d780db6ce3f60728b", null ],
-    [ "events", "dc/dc7/a16838.html#a2168a2e1b36607b76614bdef54b02bc3", null ],
-    [ "pInstance", "dc/dc7/a16838.html#ad4a8282849aaa1ce8b4702b5af55d35b", null ]
+    [ "npc_pos_leaderAI", "dc/dc7/a16838.html#a21973bccde394785f8619df7cae5270b", null ],
+    [ "AttackStart", "dc/dc7/a16838.html#a6dc4161441752b8ea9baab642d6a0684", null ],
+    [ "JustSummoned", "dc/dc7/a16838.html#a03bfcd0ea38073ff8481188d1b570553", null ],
+    [ "MoveInLineOfSight", "dc/dc7/a16838.html#ad28f607b313f7729649261969912eba5", null ],
+    [ "Reset", "dc/dc7/a16838.html#aee23a2835b84ac060a29b41c10116904", null ],
+    [ "SetData", "dc/dc7/a16838.html#a2b49d5045e0d1e25e7a05b1e3ce65b4f", null ],
+    [ "SummonedCreatureDespawn", "dc/dc7/a16838.html#a9a35459cf7b83c9f0afc557d1b0b40e7", null ],
+    [ "UpdateAI", "dc/dc7/a16838.html#a1507ab4bdade501cf92f843cec20842d", null ],
+    [ "counter", "dc/dc7/a16838.html#a7012a08c6409a40646dcd91a47eb6886", null ],
+    [ "events", "dc/dc7/a16838.html#a7ea570e98c7a70ae604861c2166eb429", null ],
+    [ "pInstance", "dc/dc7/a16838.html#a1ba3692738d6bd474d54fe8910a7f316", null ],
+    [ "summons", "dc/dc7/a16838.html#a44b5ee694d96644da91167c7d793eeb3", null ]
 ];

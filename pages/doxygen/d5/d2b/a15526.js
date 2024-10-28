@@ -1,6 +1,6 @@
 var a15526 =
 [
-    [ "HandleSummon", "d5/d2b/a15526.html#a730e0c865f8c0c12544be951a48fe9ff", null ],
-    [ "PrepareSpellScript", "d5/d2b/a15526.html#a31271cd4668d3cbc4f4bdbeb693fe141", null ],
-    [ "Register", "d5/d2b/a15526.html#ae388ee1b08891f021ab1308ec7ffebaa", null ]
+    [ "go_troll_cageAI", "d4/d4b/a15530.html", "d4/d4b/a15530" ],
+    [ "go_troll_cage", "d5/d2b/a15526.html#ac571df719edabd9e9ecf5c8bb0e153c2", null ],
+    [ "GetAI", "d5/d2b/a15526.html#a807f526225dc9a6b27ac64a7f4a3d9b8", null ]
 ];

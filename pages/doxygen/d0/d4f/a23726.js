@@ -1,11 +1,6 @@
 var a23726 =
 [
-    [ "npc_capernian", "d0/d4f/a23726.html#a0acb568664c777797eeb7104f454699d", null ],
-    [ "AttackStart", "d0/d4f/a23726.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
-    [ "JustDied", "d0/d4f/a23726.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
-    [ "JustEngagedWith", "d0/d4f/a23726.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
-    [ "Reset", "d0/d4f/a23726.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
-    [ "UpdateAI", "d0/d4f/a23726.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
-    [ "_hasDied", "d0/d4f/a23726.html#a05976816642fad6c31a1ffe9066e5606", null ],
-    [ "_instance", "d0/d4f/a23726.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
+    [ "Load", "d0/d4f/a23726.html#a0fa22884296d705fd28eed88351d1165", null ],
+    [ "PrepareSpellScript", "d0/d4f/a23726.html#ae04539319a7bab4965f663039c991614", null ],
+    [ "Register", "d0/d4f/a23726.html#a7c7abeb9bc621824173db2c727c28045", null ]
 ];

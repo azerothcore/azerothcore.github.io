@@ -1,6 +1,6 @@
 var a03926 =
 [
-    [ "Corpse", "d6/dac/a07746.html", "d6/dac/a07746" ],
+    [ "Corpse", "da/d03/a07750.html", "da/d03/a07750" ],
     [ "CORPSE_RECLAIM_RADIUS", "d1/d59/a03926.html#a1cebf109f41dcdac8a90086696642782", null ],
     [ "MAX_CORPSE_TYPE", "d1/d59/a03926.html#aec0512ffe7d6a8f7dd8330c334bb4fc3", null ],
     [ "CorpseFlags", "d1/d59/a03926.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c", [

@@ -1,14 +1,12 @@
 var a23462 =
 [
-    [ "boss_vazruden", "dd/d44/a23462.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "dd/d44/a23462.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "dd/d44/a23462.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "dd/d44/a23462.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "dd/d44/a23462.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "dd/d44/a23462.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "dd/d44/a23462.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "dd/d44/a23462.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "dd/d44/a23462.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "dd/d44/a23462.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "dd/d44/a23462.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "boss_watchkeeper_gargolmar", "dd/d44/a23462.html#acb4212c6f852f50f3edfa3880806a9d2", null ],
+    [ "JustDied", "dd/d44/a23462.html#a39be5796b39bea913105fc48dda0d186", null ],
+    [ "JustEngagedWith", "dd/d44/a23462.html#a9e3194d02d0d3b66ef38118aa32ae684", null ],
+    [ "KilledUnit", "dd/d44/a23462.html#a22736c2680f41cfd3443a76cd4de9352", null ],
+    [ "MoveInLineOfSight", "dd/d44/a23462.html#adec9837fdb2595ce57acffb279a7d011", null ],
+    [ "Reset", "dd/d44/a23462.html#a356b7fe9071b073b74b21913e35e7408", null ],
+    [ "UpdateAI", "dd/d44/a23462.html#a1453d26ccbd3e78f46cb33f054d57759", null ],
+    [ "_hasSpoken", "dd/d44/a23462.html#a3cd89b2567668b52d96b02af7eb85db8", null ],
+    [ "_taunted", "dd/d44/a23462.html#ab5623501bf92e119806ba4e2ccd0cd7a", null ]
 ];

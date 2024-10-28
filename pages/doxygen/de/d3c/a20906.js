@@ -1,6 +1,6 @@
 var a20906 =
 [
-    [ "boss_ingvar_the_plundererAI", "d9/d8f/a20910.html", "d9/d8f/a20910" ],
-    [ "boss_ingvar_the_plunderer", "de/d3c/a20906.html#a9e3612be4a81159dee2b883d434d811d", null ],
-    [ "GetAI", "de/d3c/a20906.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
+    [ "boss_kelesethAI", "d9/d8f/a20910.html", "d9/d8f/a20910" ],
+    [ "boss_keleseth", "de/d3c/a20906.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
+    [ "GetAI", "de/d3c/a20906.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
 ];

@@ -1,7 +1,6 @@
 var a21426 =
 [
-    [ "npc_lurgglbrAI", "d1/d59/a21430.html", "d1/d59/a21430" ],
-    [ "npc_lurgglbr", "d3/dd6/a21426.html#a7df52667e4d789391820a4c2182db8d2", null ],
-    [ "GetAI", "d3/dd6/a21426.html#a2795346371e7b474c53dcacb9daf2001", null ],
-    [ "OnQuestAccept", "d3/dd6/a21426.html#a1b3ba7b0782dc91ff268b7044cf13e82", null ]
+    [ "npc_captured_beryl_sorcererAI", "d1/d59/a21430.html", "d1/d59/a21430" ],
+    [ "npc_captured_beryl_sorcerer", "d3/dd6/a21426.html#ace67e76e96e3be9fa5976dc4c90041e6", null ],
+    [ "GetAI", "d3/dd6/a21426.html#aa5a31390ff3c6277ebff2a5eebe72b3d", null ]
 ];

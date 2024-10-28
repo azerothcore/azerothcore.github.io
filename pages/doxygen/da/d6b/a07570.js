@@ -1,12 +1,9 @@
 var a07570 =
 [
-    [ "HyperlinkInfo", "da/d6b/a07570.html#aa61aad1a1e2cf1a699ff67ee25cc474b", null ],
-    [ "HyperlinkInfo", "da/d6b/a07570.html#ac08518b3afb878fc7979807d764b7872", null ],
-    [ "operator bool", "da/d6b/a07570.html#a834ac95bb310f6653208026e203e065f", null ],
-    [ "color", "da/d6b/a07570.html#a38c0121d4001ad938d9bc53ca08217db", null ],
-    [ "data", "da/d6b/a07570.html#a7d7d839de8eb48a25e2b687b69a092ea", null ],
-    [ "ok", "da/d6b/a07570.html#a54c7a812f79593258002d367110b2403", null ],
-    [ "tag", "da/d6b/a07570.html#a2171d081c4eb0a23d00e637dfa64bcfc", null ],
-    [ "tail", "da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00", null ],
-    [ "text", "da/d6b/a07570.html#a2b914c9bdc41771b8cb058468bfa23db", null ]
+    [ "HyperlinkColor", "da/d6b/a07570.html#a4b246814aa2e2ac930e1e9e4e79345f0", null ],
+    [ "operator==", "da/d6b/a07570.html#aad186f06a8d61834ec94d29d305fa0f2", null ],
+    [ "a", "da/d6b/a07570.html#a57d68da0bcaec609d89efb18185b7f03", null ],
+    [ "b", "da/d6b/a07570.html#a5ef7a2aab07e2e9a5097a27a466adeca", null ],
+    [ "g", "da/d6b/a07570.html#a4570365880f14c7f7c5e7d96332ae150", null ],
+    [ "r", "da/d6b/a07570.html#a1b4e0f604b95a773d28b93601af8ffe0", null ]
 ];

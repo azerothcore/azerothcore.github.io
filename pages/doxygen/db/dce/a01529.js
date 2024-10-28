@@ -1,10 +1,10 @@
 var a01529 =
 [
-    [ "boss_gal_darah", "dc/d14/a17006.html", "dc/d14/a17006" ],
-    [ "boss_gal_darah::boss_gal_darahAI", "d0/d7c/a17010.html", "d0/d7c/a17010" ],
-    [ "spell_galdarah_impaling_charge", "d7/d3b/a17014.html", "d7/d3b/a17014" ],
-    [ "spell_galdarah_transform", "db/dec/a17018.html", "db/dec/a17018" ],
-    [ "achievement_share_the_love", "df/d1d/a17022.html", "df/d1d/a17022" ],
+    [ "boss_gal_darah", "d6/db5/a16990.html", "d6/db5/a16990" ],
+    [ "boss_gal_darah::boss_gal_darahAI", "df/dee/a16994.html", "df/dee/a16994" ],
+    [ "spell_galdarah_impaling_charge", "d8/de6/a16998.html", "d8/de6/a16998" ],
+    [ "spell_galdarah_transform", "d9/d6a/a17002.html", "d9/d6a/a17002" ],
+    [ "achievement_share_the_love", "dc/d14/a17006.html", "dc/d14/a17006" ],
     [ "Events", "db/dce/a01529.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
@@ -2117,7 +2117,8 @@ var a01529 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

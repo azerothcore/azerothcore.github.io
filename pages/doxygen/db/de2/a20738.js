@@ -1,11 +1,11 @@
 var a20738 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "db/de2/a20738.html#a4fcf1be1bc20327ff8daf9c79baabde7", null ],
-    [ "NextStep", "db/de2/a20738.html#a4f99e511d6296b56df8ab8fbe53620e6", null ],
-    [ "Reset", "db/de2/a20738.html#a4c8f098f245e90685f0f3660028500a8", null ],
-    [ "Say", "db/de2/a20738.html#a01217dd4c33b0ccae448aa137e83dd9b", null ],
-    [ "UpdateAI", "db/de2/a20738.html#a3cbe18164c993fd034242b3f19d27e31", null ],
-    [ "_checkTimer", "db/de2/a20738.html#a8f0234b32612ff56ac6a7429f6e4da09", null ],
-    [ "_running", "db/de2/a20738.html#a9d7f0f2a8cf4f421253c8c5a6ec98111", null ],
-    [ "_step", "db/de2/a20738.html#a6af98b3daace7852a485983167538f85", null ]
+    [ "boss_yoggsaron_neltharionAI", "db/de2/a20738.html#aacefe32de32513bdf46c0dd526768e25", null ],
+    [ "NextStep", "db/de2/a20738.html#a4770948240ac56ec151c262c8996e4e4", null ],
+    [ "Reset", "db/de2/a20738.html#a03841acfd21e920bc6589203448709a0", null ],
+    [ "Say", "db/de2/a20738.html#ae45f051ab64ce1f96f32e5b8d073356e", null ],
+    [ "UpdateAI", "db/de2/a20738.html#a80c174a8ffa15550627ed27ab0d8925d", null ],
+    [ "_checkTimer", "db/de2/a20738.html#a7eef651198e09cf25c2f039bcb4a1876", null ],
+    [ "_running", "db/de2/a20738.html#a6b2f01ed2ffe8113cbddd4a033886059", null ],
+    [ "_step", "db/de2/a20738.html#a0ac37717e940b094d322a7e492202718", null ]
 ];

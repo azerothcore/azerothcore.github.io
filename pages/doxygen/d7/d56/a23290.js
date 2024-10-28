@@ -1,6 +1,5 @@
 var a23290 =
 [
-    [ "instance_steam_vault_InstanceMapScript", "de/df5/a23294.html", "de/df5/a23294" ],
-    [ "instance_steam_vault", "d7/d56/a23290.html#aa3417083841ccb50c8a2f29ba343e115", null ],
-    [ "GetInstanceScript", "d7/d56/a23290.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
+    [ "at_underbog_ghazan", "d7/d56/a23290.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
+    [ "_OnTrigger", "d7/d56/a23290.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
 ];

@@ -1,22 +1,8 @@
 var a29414 =
 [
-    [ "TEMPLATE_CONFIG_OPTION", "d5/d1d/a29414.html#a88481e3afc1a3d0cced9a0eb22ef52c4", null ],
-    [ "AddKey", "d5/d1d/a29414.html#ab573c6a7facb635d7c4787e5b6f346fa", null ],
-    [ "ConfigMgr::GetValueDefault< std::string >", "d5/d1d/a29414.html#a7096a6c65872ca33d8f44bdd841eaa31", null ],
-    [ "EnvVarForIniKey", "d5/d1d/a29414.html#a4b39ee4aeace82542c39141c4c052417", null ],
-    [ "GetEnvFromCache", "d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee", null ],
-    [ "GetEnvVarName", "d5/d1d/a29414.html#a037f48efd9ff4f980901dc23f9062cfe", null ],
-    [ "IniKeyToEnvVarKey", "d5/d1d/a29414.html#ab1ffb5b5ec6ef364da691218a1f840ed", null ],
-    [ "IsAppConfig", "d5/d1d/a29414.html#ac70d5ef108e0df78183c2c28431f34cc", null ],
-    [ "IsLoggingSystemOptions", "d5/d1d/a29414.html#a874bf90eeee29a9e6e9348805c0b8ca8", null ],
-    [ "LoadFile", "d5/d1d/a29414.html#a04d7cd62693d073b89d11aab4ba3342d", null ],
-    [ "ParseFile", "d5/d1d/a29414.html#af25d36c8039da7689a28ce9c1334b70f", null ],
-    [ "PrintError", "d5/d1d/a29414.html#a31b53ef96726f745da939de555373737", null ],
-    [ "_additonalFiles", "d5/d1d/a29414.html#ac4608b63b3297653b81c9c4196c12141", null ],
-    [ "_args", "d5/d1d/a29414.html#aa324820f5ede7eec5a4d8eefc77298f4", null ],
-    [ "_configLock", "d5/d1d/a29414.html#a96e361ca2d2603bb0a5689262ac6787a", null ],
-    [ "_configOptions", "d5/d1d/a29414.html#a4c4d5bd9313e617a40ed0f27d79dbae9", null ],
-    [ "_envVarCache", "d5/d1d/a29414.html#a4e8b4d4501c2038b56b2692bbd6adb72", null ],
-    [ "_fatalConfigOptions", "d5/d1d/a29414.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f", null ],
-    [ "_filename", "d5/d1d/a29414.html#a8bfa20db83fbdc4e649e394ea8d05d0d", null ]
+    [ "_ACORE_DB_IMPORT_CONFIG", "d5/d1d/a29414.html#a97392c73658eeeb49d256527b19ad90f", null ],
+    [ "GetConsoleArguments", "d5/d1d/a29414.html#a6f250d3a28ed2192d175846c6ce5795b", null ],
+    [ "main", "d5/d1d/a29414.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
+    [ "StartDB", "d5/d1d/a29414.html#a1551df43a48f1dbf64dbec1e47b07eea", null ],
+    [ "StopDB", "d5/d1d/a29414.html#a927af1587546ee7503a3b9a18f6439c0", null ]
 ];

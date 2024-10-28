@@ -1,5 +1,5 @@
 var a04214 =
 [
-    [ "ArenaScore", "d3/de9/a07014.html", "d3/de9/a07014" ],
-    [ "ArenaTeamScore", "dd/deb/a07018.html", "dd/deb/a07018" ]
+    [ "ArenaScore", "dd/deb/a07018.html", "dd/deb/a07018" ],
+    [ "ArenaTeamScore", "d9/d00/a07022.html", "d9/d00/a07022" ]
 ];

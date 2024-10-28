@@ -1,10 +1,12 @@
 var a24066 =
 [
-    [ "npc_infernal_attackerAI", "dc/d30/a24066.html#ae04c4e026f22bd650bb33940b923df9a", null ],
-    [ "IsSummonedBy", "dc/d30/a24066.html#a926e6cd6772784872a905de7245007ac", null ],
-    [ "JustDied", "dc/d30/a24066.html#a1822131520f98dd5f1dd637282f20ae3", null ],
-    [ "Reset", "dc/d30/a24066.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
-    [ "SpellHit", "dc/d30/a24066.html#a956f3fb1e341519817599df08afc2589", null ],
-    [ "UpdateAI", "dc/d30/a24066.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
-    [ "casterGUID", "dc/d30/a24066.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
+    [ "npc_enslaved_netherwing_drake", "dc/d30/a24066.html#a9f848fa3c68b8a269f0b6016058ec364", null ],
+    [ "_GetPlayer", "dc/d30/a24066.html#af02a965e98f35134a3c40ed9cdfb723e", null ],
+    [ "JustDied", "dc/d30/a24066.html#acde70c9d8c675a9a9dd14695dc752184", null ],
+    [ "MovementInform", "dc/d30/a24066.html#afa030a380365daa33c156a0d6be6a6d9", null ],
+    [ "Reset", "dc/d30/a24066.html#aec02b19d27a09f16ef06adb694c2e65e", null ],
+    [ "SpellHit", "dc/d30/a24066.html#a195794e88870a0b1ca35473f5f0378a7", null ],
+    [ "UpdateAI", "dc/d30/a24066.html#aa7ac2dd17bdf4939d74fe5af85c649b9", null ],
+    [ "_playerGUID", "dc/d30/a24066.html#a2f9a6a6cbaa9cab0e6014f6fd1c54346", null ],
+    [ "_tapped", "dc/d30/a24066.html#a9cbafd9536ff7eca33b0b44295aaec92", null ]
 ];

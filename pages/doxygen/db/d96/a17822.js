@@ -1,7 +1,6 @@
 var a17822 =
 [
-    [ "FrostwyrmLandEvent", "db/d96/a17822.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
-    [ "Execute", "db/d96/a17822.html#a4da77796a223e6233ac6d908f7700623", null ],
-    [ "_dest", "db/d96/a17822.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
-    [ "_owner", "db/d96/a17822.html#a6336050092606ebb27a180abff55dfa2", null ]
+    [ "boss_sindragosaAI", "dc/df6/a17826.html", "dc/df6/a17826" ],
+    [ "boss_sindragosa", "db/d96/a17822.html#af5cdf4798b8b87467fa45dbda7fcbee1", null ],
+    [ "GetAI", "db/d96/a17822.html#a005a6da9f4f9690416a108872b3c2b36", null ]
 ];

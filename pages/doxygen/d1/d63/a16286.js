@@ -1,8 +1,7 @@
 var a16286 =
 [
-    [ "npc_toc_pet_warlockAI", "d1/d63/a16286.html#a0f4128d5fd7a855f1fb2870465bc1ce7", null ],
-    [ "EnterEvadeMode", "d1/d63/a16286.html#a62219f63e82fc67f63db2cbd713647a0", null ],
-    [ "myCanCast", "d1/d63/a16286.html#a81607ebd90d8f511bb18b03ff497d9eb", null ],
-    [ "UpdateAI", "d1/d63/a16286.html#a05a150e01f519675ac7b69d3c2a97ed4", null ],
-    [ "events", "d1/d63/a16286.html#a8edadebd7e6660041233a24fb07173bf", null ]
+    [ "HandleDispel", "d1/d63/a16286.html#ab720416f0497b4ad827208e186afd79a", null ],
+    [ "PrepareAuraScript", "d1/d63/a16286.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
+    [ "Register", "d1/d63/a16286.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
+    [ "Validate", "d1/d63/a16286.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
 ];

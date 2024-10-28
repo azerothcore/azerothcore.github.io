@@ -1,11 +1,11 @@
 var a02033 =
 [
-    [ "npc_deathstalker_erland", "dc/df2/a13390.html", "dc/df2/a13390" ],
-    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "df/dee/a13394.html", "df/dee/a13394" ],
-    [ "pyrewood_ambush", "d1/ddd/a13398.html", "d1/ddd/a13398" ],
-    [ "pyrewood_ambush::pyrewood_ambushAI", "de/d6f/a13402.html", "de/d6f/a13402" ],
-    [ "npc_ravenclaw_apparition", "d3/d83/a13406.html", "d3/d83/a13406" ],
-    [ "npc_ravenclaw_apparition::npc_ravenclaw_apparitionAI", "d2/dd5/a13410.html", "d2/dd5/a13410" ],
+    [ "npc_deathstalker_erland", "df/dee/a13394.html", "df/dee/a13394" ],
+    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "d1/ddd/a13398.html", "d1/ddd/a13398" ],
+    [ "pyrewood_ambush", "de/d6f/a13402.html", "de/d6f/a13402" ],
+    [ "pyrewood_ambush::pyrewood_ambushAI", "d3/d83/a13406.html", "d3/d83/a13406" ],
+    [ "npc_ravenclaw_apparition", "d2/dd5/a13410.html", "d2/dd5/a13410" ],
+    [ "npc_ravenclaw_apparition::npc_ravenclaw_apparitionAI", "d6/d38/a13414.html", "d6/d38/a13414" ],
     [ "WAIT_SECS", "d6/d94/a02033.html#a9ad1ed098bd723cdee424425d0e071cb", null ],
     [ "ApparitionEvents", "d6/d94/a02033.html#ac7d12f884ef22dca36021fe54df83416", [
       [ "EVENT_APPA_INTRO", "d6/d94/a02033.html#ac7d12f884ef22dca36021fe54df83416acb7d83e4f63d87d9e07acd3fe790cf3f", null ],

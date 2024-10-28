@@ -1,7 +1,9 @@
 var a22770 =
 [
-    [ "PrepareAuraScript", "d6/d6c/a22770.html#afb2e94c1e67b12b7350d83241b3f2864", null ],
-    [ "Register", "d6/d6c/a22770.html#a0a5ac432eca09206ac032317e8aa8cfc", null ],
-    [ "Update", "d6/d6c/a22770.html#aa0da369c2047df144c4a9af37a2ea13c", null ],
-    [ "Validate", "d6/d6c/a22770.html#a70248cfa468dfb3a97ea7f8b6848bc5f", null ]
+    [ "FilterTargets", "d6/d6c/a22770.html#aa8f0401dd004e816b8071381289116fa", null ],
+    [ "HandleTeleportUnits", "d6/d6c/a22770.html#a4333f10a29ef3e5643f637899a0ab5c5", null ],
+    [ "PrepareSpellScript", "d6/d6c/a22770.html#a47898c213cdd125714c80d327bf42d8c", null ],
+    [ "Register", "d6/d6c/a22770.html#a6036577cd7b4fbbc55e90e9ab067f13a", null ],
+    [ "SetDest", "d6/d6c/a22770.html#a4cf75d96a0d1de62bc989826204b04c9", null ],
+    [ "Validate", "d6/d6c/a22770.html#a814083360970284a325621f45e109b5b", null ]
 ];

@@ -1,5 +1,5 @@
 var a27074 =
 [
-    [ "go_arena_ready_marker", "df/def/a27074.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
-    [ "OnGossipHello", "df/def/a27074.html#a9f51ead2b56d51427ff23be9688388d8", null ]
+    [ "go_resonite_cask", "df/def/a27074.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "df/def/a27074.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

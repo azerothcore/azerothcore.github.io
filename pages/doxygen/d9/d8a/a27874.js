@@ -1,5 +1,7 @@
 var a27874 =
 [
-    [ "ID", "d9/d8a/a27874.html#a4f030d8b8b87aff67e0d8319c6b53310", null ],
-    [ "price", "d9/d8a/a27874.html#a9b81ec4b4638763b738862d6c184e2a9", null ]
+    [ "Class", "d9/d8a/a27874.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "d9/d8a/a27874.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "d9/d8a/a27874.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "d9/d8a/a27874.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

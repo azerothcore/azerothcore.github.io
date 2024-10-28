@@ -1,13 +1,15 @@
 var a28490 =
 [
-    [ "MPQArchive", "dc/dd3/a28490.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "dc/dd3/a28490.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "MPQArchive", "dc/dd3/a28490.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "dc/dd3/a28490.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "close", "dc/dd3/a28490.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "close", "dc/dd3/a28490.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "GetFileListTo", "dc/dd3/a28490.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "GetFileListTo", "dc/dd3/a28490.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "isOpened", "dc/dd3/a28490.html#a2026335b9ede29197acfaac8513456d5", null ],
-    [ "mpq_a", "dc/dd3/a28490.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
+    [ "prepareLoadedData", "dc/dd3/a28490.html#ace847b2eee40844bb3fa880e3c1d1aa5", null ],
+    [ "data1", "dc/dd3/a28490.html#a9e2886eb133eb0e0bc8fa21a5b166d20", null ],
+    [ "data2", "dc/dd3/a28490.html#a53f0a49fd2de7f29032556fe3a4e9110", null ],
+    [ "data3", "dc/dd3/a28490.html#a2092bb81ccdea07c4752a2df49cba4c2", null ],
+    [ "data4", "dc/dd3/a28490.html#a2bfc7b7268caaa684c6fece0d0769b9e", null ],
+    [ "data5", "dc/dd3/a28490.html#a9536fcb98293d1c09a1975b753f02ae8", null ],
+    [ "data6", "dc/dd3/a28490.html#ad43914a6df430c32a0c2f56bb8f1f4d7", null ],
+    [ "data7", "dc/dd3/a28490.html#a7508e9fa38ab965ecf8e21b1f859a918", null ],
+    [ "data8", "dc/dd3/a28490.html#ae926543e029695e268ed950edf625bdb", null ],
+    [ "fcc", "dc/dd3/a28490.html#aa0ccc34e7e7a2de4e9866819dbe0c72a", null ],
+    [ "fcc_txt", "dc/dd3/a28490.html#aaa61a13b39e23a3efba960645e3e14a9", null ],
+    [ "size", "dc/dd3/a28490.html#a1af89d5193eff2f32cf37d131f9ef7b8", null ]
 ];

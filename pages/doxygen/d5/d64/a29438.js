@@ -1,22 +1,14 @@
 var a29438 =
 [
-    [ "TEMPLATE_CONFIG_OPTION", "d5/d64/a29438.html#a88481e3afc1a3d0cced9a0eb22ef52c4", null ],
-    [ "AddKey", "d5/d64/a29438.html#ab573c6a7facb635d7c4787e5b6f346fa", null ],
-    [ "ConfigMgr::GetValueDefault< std::string >", "d5/d64/a29438.html#a7096a6c65872ca33d8f44bdd841eaa31", null ],
-    [ "EnvVarForIniKey", "d5/d64/a29438.html#a4b39ee4aeace82542c39141c4c052417", null ],
-    [ "GetEnvFromCache", "d5/d64/a29438.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee", null ],
-    [ "GetEnvVarName", "d5/d64/a29438.html#a037f48efd9ff4f980901dc23f9062cfe", null ],
-    [ "IniKeyToEnvVarKey", "d5/d64/a29438.html#ab1ffb5b5ec6ef364da691218a1f840ed", null ],
-    [ "IsAppConfig", "d5/d64/a29438.html#ac70d5ef108e0df78183c2c28431f34cc", null ],
-    [ "IsLoggingSystemOptions", "d5/d64/a29438.html#a874bf90eeee29a9e6e9348805c0b8ca8", null ],
-    [ "LoadFile", "d5/d64/a29438.html#a04d7cd62693d073b89d11aab4ba3342d", null ],
-    [ "ParseFile", "d5/d64/a29438.html#af25d36c8039da7689a28ce9c1334b70f", null ],
-    [ "PrintError", "d5/d64/a29438.html#a31b53ef96726f745da939de555373737", null ],
-    [ "_additonalFiles", "d5/d64/a29438.html#ac4608b63b3297653b81c9c4196c12141", null ],
-    [ "_args", "d5/d64/a29438.html#aa324820f5ede7eec5a4d8eefc77298f4", null ],
-    [ "_configLock", "d5/d64/a29438.html#a96e361ca2d2603bb0a5689262ac6787a", null ],
-    [ "_configOptions", "d5/d64/a29438.html#a4c4d5bd9313e617a40ed0f27d79dbae9", null ],
-    [ "_envVarCache", "d5/d64/a29438.html#a4e8b4d4501c2038b56b2692bbd6adb72", null ],
-    [ "_fatalConfigOptions", "d5/d64/a29438.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f", null ],
-    [ "_filename", "d5/d64/a29438.html#a8bfa20db83fbdc4e649e394ea8d05d0d", null ]
+    [ "file_MVER", "df/dd6/a28466.html", "df/dd6/a28466" ],
+    [ "FileLoader", "de/df0/a28474.html", "de/df0/a28474" ],
+    [ "FILE_FORMAT_VERSION", "d5/d64/a29438.html#a82680783457cdcbe83db9eefe68f8a9b", null ],
+    [ "int16", "d5/d64/a29438.html#aa0d0fdc87fd135ef2bedb030901cdb9c", null ],
+    [ "int32", "d5/d64/a29438.html#ab7903878916593daecbeb95b98115ab0", null ],
+    [ "int64", "d5/d64/a29438.html#a7cde0074dfd288f2d70c0e035dacb28a", null ],
+    [ "int8", "d5/d64/a29438.html#aa79c2d3de4fcd200458c406f40b2ae64", null ],
+    [ "uint16", "d5/d64/a29438.html#ac2a9e79eb120216f855626495b7bd18a", null ],
+    [ "uint32", "d5/d64/a29438.html#acbd4acd0d29e2d6c43104827f77d9cd2", null ],
+    [ "uint64", "d5/d64/a29438.html#abc0f5bc07737e498f287334775dff2b6", null ],
+    [ "uint8", "d5/d64/a29438.html#a33a5e996e7a90acefb8b1c0bea47e365", null ]
 ];

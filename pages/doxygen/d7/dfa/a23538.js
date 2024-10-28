@@ -1,6 +1,6 @@
 var a23538 =
 [
-    [ "PrepareSpellScript", "d7/dfa/a23538.html#a5b17110b189b7134939aea9dbf2d724b", null ],
-    [ "Register", "d7/dfa/a23538.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
-    [ "SelectRandomPlayer", "d7/dfa/a23538.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
+    [ "boss_porung", "d7/dfa/a23538.html#acef31010461bbf716ac9b13d950807ee", null ],
+    [ "JustDied", "d7/dfa/a23538.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
+    [ "JustEngagedWith", "d7/dfa/a23538.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
 ];

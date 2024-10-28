@@ -1,17 +1,12 @@
 var a22490 =
 [
-    [ "OPvPCapturePointZM_GraveYard", "de/d95/a22490.html#a4996bc1787009cc204047f574fc55aa3", null ],
-    [ "CanTalkTo", "de/d95/a22490.html#aabcde0e8e3e089dccea0ae6a439e7c4a", null ],
-    [ "ChangeState", "de/d95/a22490.html#a95394b3e6863c367e4a6257c9b9864df", null ],
-    [ "FillInitialWorldStates", "de/d95/a22490.html#a745acfba4972d64dca84287d8db292fc", null ],
-    [ "GetGraveYardState", "de/d95/a22490.html#a8c01f60011d967344df5895f05e1f80e", null ],
-    [ "HandleDropFlag", "de/d95/a22490.html#a2962a45d4c4145f6ba135477ef362ec8", null ],
-    [ "HandleGossipOption", "de/d95/a22490.html#a28ce2dba96ff5784c4758bd3d0d4e640", null ],
-    [ "HandleOpenGo", "de/d95/a22490.html#af72356107675ab5ad6c74fda1c3b69fa", null ],
-    [ "SetBeaconState", "de/d95/a22490.html#a8ed94a0433eab7ae25ea2686fd8e4e9a", null ],
-    [ "Update", "de/d95/a22490.html#a5210c40f88803137e4a8fe3ea69eda14", null ],
-    [ "UpdateTowerState", "de/d95/a22490.html#abee798494628344c9f8c1052ec248501", null ],
-    [ "m_BothControllingFactionId", "de/d95/a22490.html#acac201bebe2ec8e214e5632a21aa8331", null ],
-    [ "m_FlagCarrierGUID", "de/d95/a22490.html#a103cb36247799a5826c47978d451d2b7", null ],
-    [ "m_GraveYardState", "de/d95/a22490.html#af281f3b638d2af3d3e8378614a23457f", null ]
+    [ "boss_shirrak_the_dead_watcher", "de/d95/a22490.html#aaa6826de3b6563342b89544b38386d93", null ],
+    [ "EnterEvadeMode", "de/d95/a22490.html#a23768629c4ab48954880c3c29099f432", null ],
+    [ "getStackCount", "de/d95/a22490.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
+    [ "JustEngagedWith", "de/d95/a22490.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
+    [ "JustSummoned", "de/d95/a22490.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
+    [ "Reset", "de/d95/a22490.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
+    [ "SpellHitTarget", "de/d95/a22490.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
+    [ "UpdateAI", "de/d95/a22490.html#a855505f949f53f979187abcb5b2f617f", null ],
+    [ "focusGUID", "de/d95/a22490.html#a81a7eade42ef595c173d7828ce59ef88", null ]
 ];

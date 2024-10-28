@@ -1,7 +1,5 @@
 var a26542 =
 [
-    [ "HandleDummy", "d1/dea/a26542.html#a96c5064738653ce16f06634196218a88", null ],
-    [ "PrepareSpellScript", "d1/dea/a26542.html#a2fa51a29d2c8ce74c8a4351712ccdeb9", null ],
-    [ "Register", "d1/dea/a26542.html#a080969e035143ac8527443025dbacef2", null ],
-    [ "Validate", "d1/dea/a26542.html#a66fd30d7cffdc7307b4c9dc821ccdf92", null ]
+    [ "EarthenPowerTargetSelector", "d1/dea/a26542.html#a61290afcc621c73682160a4e6a6e0f5d", null ],
+    [ "operator()", "d1/dea/a26542.html#a9f3d7e7bdb3a3affa72da57903f28940", null ]
 ];

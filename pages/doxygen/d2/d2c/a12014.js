@@ -1,6 +1,7 @@
 var a12014 =
 [
-    [ "instance_blackwing_lair_InstanceMapScript", "d7/d87/a12018.html", "d7/d87/a12018" ],
-    [ "instance_blackwing_lair", "d2/d2c/a12014.html#afb9a7ce1ac297b023aa8364cc1383336", null ],
-    [ "GetInstanceScript", "d2/d2c/a12014.html#a70aff4e1bb406f232d0b4961037ed0a1", null ]
+    [ "HandleRemove", "d2/d2c/a12014.html#a754b44b62c131e20e1be94b3407e2006", null ],
+    [ "PrepareAuraScript", "d2/d2c/a12014.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
+    [ "Register", "d2/d2c/a12014.html#a02cd375ec140f7614104b7e56df13430", null ],
+    [ "Validate", "d2/d2c/a12014.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
 ];

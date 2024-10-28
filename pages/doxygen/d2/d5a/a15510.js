@@ -1,5 +1,6 @@
 var a15510 =
 [
-    [ "go_elune_fire", "d2/d5a/a15510.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
-    [ "OnGossipHello", "d2/d5a/a15510.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
+    [ "HandleSummon", "d2/d5a/a15510.html#a730e0c865f8c0c12544be951a48fe9ff", null ],
+    [ "PrepareSpellScript", "d2/d5a/a15510.html#a31271cd4668d3cbc4f4bdbeb693fe141", null ],
+    [ "Register", "d2/d5a/a15510.html#ae388ee1b08891f021ab1308ec7ffebaa", null ]
 ];

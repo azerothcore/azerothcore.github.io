@@ -1,6 +1,6 @@
 var a19862 =
 [
-    [ "achievement_flame_leviathan_towers", "d7/d8f/a19862.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "d7/d8f/a19862.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "d7/d8f/a19862.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "boss_freyaAI", "d8/d4f/a19866.html", "d8/d4f/a19866" ],
+    [ "boss_freya", "d7/d8f/a19862.html#ae366f60526e7c948dee148cdd12f0752", null ],
+    [ "GetAI", "d7/d8f/a19862.html#a6a2f5b402e99208a535fc3f23c2a0eb3", null ]
 ];

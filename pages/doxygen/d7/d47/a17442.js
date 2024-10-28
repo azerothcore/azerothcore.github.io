@@ -1,9 +1,8 @@
 var a17442 =
 [
-    [ "CheckAreaTarget", "d7/d47/a17442.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
-    [ "HandleApply", "d7/d47/a17442.html#a9ce86d32957af07313af379b4176d0b3", null ],
-    [ "HandleRemove", "d7/d47/a17442.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
-    [ "Load", "d7/d47/a17442.html#aa10821981f3e80262850e5c46449d5d0", null ],
-    [ "PrepareAuraScript", "d7/d47/a17442.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
-    [ "Register", "d7/d47/a17442.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
+    [ "Load", "d7/d47/a17442.html#ad1105149d5e42318382af6c07149d522", null ],
+    [ "PeriodicTick", "d7/d47/a17442.html#a8e675178256746d08af50a6b75ec582e", null ],
+    [ "PrepareAuraScript", "d7/d47/a17442.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
+    [ "Register", "d7/d47/a17442.html#a0fa7d86214827711edd019dd3b40c667", null ],
+    [ "_tickNo", "d7/d47/a17442.html#a418212d2daa873d69a83b4c1341a8903", null ]
 ];

@@ -1,6 +1,8 @@
 var a13854 =
 [
-    [ "OnRemove", "d3/d19/a13854.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
-    [ "PrepareAuraScript", "d3/d19/a13854.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
-    [ "Register", "d3/d19/a13854.html#a7457949331552492cf6df83737729a08", null ]
+    [ "npc_spawn_of_marli", "d3/d19/a13854.html#a1dcd5066de108203903f5767c4b375ea", null ],
+    [ "JustEngagedWith", "d3/d19/a13854.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
+    [ "Reset", "d3/d19/a13854.html#a79ef192d41af75e0dad0494776c75189", null ],
+    [ "UpdateAI", "d3/d19/a13854.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
+    [ "_scheduler", "d3/d19/a13854.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
 ];

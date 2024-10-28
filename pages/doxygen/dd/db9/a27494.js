@@ -1,7 +1,6 @@
 var a27494 =
 [
-    [ "npc_wormholeAI", "dd/db9/a27494.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
-    [ "GetData", "dd/db9/a27494.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
-    [ "InitializeAI", "dd/db9/a27494.html#aa0a903014ec7243036604ffcc67e0a36", null ],
-    [ "_showUnderground", "dd/db9/a27494.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
+    [ "npc_locksmith", "dd/db9/a27494.html#af959a6395ebc33109405f18f262e4ecb", null ],
+    [ "OnGossipHello", "dd/db9/a27494.html#aec977cf39f11a7bc2f13c2bde8e97351", null ],
+    [ "OnGossipSelect", "dd/db9/a27494.html#a62ec02e226255ff1f81895391a6494b8", null ]
 ];

@@ -1,6 +1,6 @@
 var a16942 =
 [
-    [ "HandleEffectPeriodic", "d7/dc2/a16942.html#a8a165d3931353fefc2e6a7c7f309150e", null ],
-    [ "PrepareAuraScript", "d7/dc2/a16942.html#a2de3b6d4e32832ec7ce4548df23d3d5c", null ],
-    [ "Register", "d7/dc2/a16942.html#a3593ab75583bb5b9b31b29ba2c3cdd76", null ]
+    [ "entry", "d7/dc2/a16942.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "d7/dc2/a16942.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "d7/dc2/a16942.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

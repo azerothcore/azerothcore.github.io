@@ -1,6 +1,6 @@
 var a18838 =
 [
-    [ "boss_grobbulusAI", "dd/d87/a18842.html", "dd/d87/a18842" ],
-    [ "boss_grobbulus", "d0/d1f/a18838.html#acf1b781e86e33a363b68354d34d3c015", null ],
-    [ "GetAI", "d0/d1f/a18838.html#ae918614566a0b9979aef4e1aeaac394c", null ]
+    [ "FilterTargets", "d0/d1f/a18838.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
+    [ "PrepareSpellScript", "d0/d1f/a18838.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
+    [ "Register", "d0/d1f/a18838.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
 ];

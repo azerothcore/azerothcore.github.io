@@ -1,9 +1,6 @@
 var a17210 =
 [
-    [ "CheckTarget", "d5/d92/a17210.html#a43fc6a16aca217ef043fa34a58391357", null ],
-    [ "HandlePresence", "d5/d92/a17210.html#a52ea6041c5fe004c1e996a974cc59d5d", null ],
-    [ "OnCast", "d5/d92/a17210.html#a96cec6f1b51a2c0c03f89447c5306b5a", null ],
-    [ "PrepareSpellScript", "d5/d92/a17210.html#abe559b32aa82f19abb0a6d664b75c748", null ],
-    [ "Register", "d5/d92/a17210.html#ad8c7a9935e85c06f837e694ebcaffba1", null ],
-    [ "Validate", "d5/d92/a17210.html#a2301414a88dcbf4bdc8a486ec4be994e", null ]
+    [ "boss_deathbringer_saurfangAI", "d2/d39/a17214.html", "d2/d39/a17214" ],
+    [ "boss_deathbringer_saurfang", "d5/d92/a17210.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
+    [ "GetAI", "d5/d92/a17210.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
 ];

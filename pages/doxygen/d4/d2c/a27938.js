@@ -1,5 +1,5 @@
 var a27938 =
 [
-    [ "BitIndex", "d4/d2c/a27938.html#a55fdf966aec0ca687cd6074683af6e7f", null ],
-    [ "ItemId", "d4/d2c/a27938.html#a998c1f6dadb823fbba56bb2154396635", null ]
+    [ "Itemlvl", "d4/d2c/a27938.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
+    [ "multiplier", "d4/d2c/a27938.html#a5c6c206a6185a546223de7501ff846f6", null ]
 ];

@@ -1,9 +1,9 @@
 var a26450 =
 [
-    [ "HandleAfterHit", "de/df8/a26450.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
-    [ "HandleBeforeHit", "de/df8/a26450.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
-    [ "Load", "de/df8/a26450.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
-    [ "PrepareSpellScript", "de/df8/a26450.html#a496c27472579be3b8989868765ec19ef", null ],
-    [ "Register", "de/df8/a26450.html#a133e338413e960c442446a2a4a13b85b", null ],
-    [ "_stackAmount", "de/df8/a26450.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
+    [ "Absorb", "de/df8/a26450.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
+    [ "CalculateAmount", "de/df8/a26450.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
+    [ "Load", "de/df8/a26450.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
+    [ "PrepareAuraScript", "de/df8/a26450.html#ac273b669dc396561d9ec8b523659363f", null ],
+    [ "Register", "de/df8/a26450.html#a656f4770b0f7099f5926a8063f7d740c", null ],
+    [ "absorbPct", "de/df8/a26450.html#a31d7ca52ace4e22652403292969baf55", null ]
 ];

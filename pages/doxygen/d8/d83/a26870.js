@@ -1,5 +1,5 @@
 var a26870 =
 [
-    [ "achievement_bg_control_all_nodes", "d8/d83/a26870.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
-    [ "OnCheck", "d8/d83/a26870.html#a69609eb5488519fa5a1f43b13a80e280", null ]
+    [ "achievement_bg_ic_glaive_grave", "d8/d83/a26870.html#a97e1cead0102a120b3bd14592ea26034", null ],
+    [ "OnCheck", "d8/d83/a26870.html#a0eacab5595969cfe5e3d083c984dfd77", null ]
 ];

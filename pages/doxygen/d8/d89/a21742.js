@@ -1,6 +1,6 @@
 var a21742 =
 [
-    [ "npc_q24545_vegardAI", "d4/d25/a21746.html", "d4/d25/a21746" ],
-    [ "npc_q24545_vegard", "d8/d89/a21742.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "d8/d89/a21742.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "npc_commander_eligor_dawnbringerAI", "d4/d25/a21746.html", "d4/d25/a21746" ],
+    [ "npc_commander_eligor_dawnbringer", "d8/d89/a21742.html#a71d919af98464d6d63f948507f3ff08c", null ],
+    [ "GetAI", "d8/d89/a21742.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
 ];

@@ -1,6 +1,6 @@
 var a15518 =
 [
-    [ "instance_zulfarrak_InstanceMapScript", "d4/d78/a15522.html", "d4/d78/a15522" ],
-    [ "instance_zulfarrak", "d3/d56/a15518.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
-    [ "GetInstanceScript", "d3/d56/a15518.html#a5f092341e49848c9d321452be2193d56", null ]
+    [ "npc_sergeant_blyAI", "d4/d78/a15522.html", "d4/d78/a15522" ],
+    [ "npc_sergeant_bly", "d3/d56/a15518.html#afd5c6129098e4939e2b9f3d12b8c7058", null ],
+    [ "GetAI", "d3/d56/a15518.html#ad54ff5aabbc30de759c8f31b7ef9f46e", null ]
 ];

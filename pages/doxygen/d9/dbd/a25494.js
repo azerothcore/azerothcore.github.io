@@ -1,6 +1,6 @@
 var a25494 =
 [
-    [ "HandleProc", "d9/dbd/a25494.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
-    [ "PrepareAuraScript", "d9/dbd/a25494.html#a5299aaeacead013e00e81ec7960528f8", null ],
-    [ "Register", "d9/dbd/a25494.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
+    [ "HandlePeriodicTick", "d9/dbd/a25494.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
+    [ "PrepareAuraScript", "d9/dbd/a25494.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
+    [ "Register", "d9/dbd/a25494.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
 ];

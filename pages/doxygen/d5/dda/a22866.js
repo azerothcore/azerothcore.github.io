@@ -1,7 +1,11 @@
 var a22866 =
 [
-    [ "npc_ashtongue_channeler", "d5/dda/a22866.html#af7217d00f87e56e5cdb411fcad161b51", null ],
-    [ "Reset", "d5/dda/a22866.html#ab935559c19b18f9c94dd36c85be5b3b2", null ],
-    [ "UpdateAI", "d5/dda/a22866.html#af855dfa521404c4e6127a9bf12a75604", null ],
-    [ "scheduler", "d5/dda/a22866.html#a4f58bbd2c44f7a3f9835fd55408ffaf4", null ]
+    [ "boss_supremus", "d5/dda/a22866.html#af1f094534b0e2dec70422839a02327cd", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d5/dda/a22866.html#a2654bf5b1d5b6da723d4968219e069a9", null ],
+    [ "FindHatefulStrikeTarget", "d5/dda/a22866.html#af560466902d0d372662020e1a67b627c", null ],
+    [ "JustEngagedWith", "d5/dda/a22866.html#a7d3a5e2c183db7639a7c25f309359ed1", null ],
+    [ "JustSummoned", "d5/dda/a22866.html#a7265a01fa79213ab6d8b82a4c92b7661", null ],
+    [ "Reset", "d5/dda/a22866.html#a0eaa29849a2571417d4826d238d72e25", null ],
+    [ "SchedulePhase", "d5/dda/a22866.html#a87e3943d6c645138853aa97644f9df0e", null ],
+    [ "SummonedCreatureDespawn", "d5/dda/a22866.html#a2ae72bfef577654e676a64eb2e4efa7a", null ]
 ];

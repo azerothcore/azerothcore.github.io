@@ -1,6 +1,8 @@
 var a15098 =
 [
-    [ "npc_magwinAI", "d3/d85/a15102.html", "d3/d85/a15102" ],
-    [ "npc_magwin", "d4/dcc/a15098.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
-    [ "GetAI", "d4/dcc/a15098.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
+    [ "npc_death_ravagerAI", "d4/dcc/a15098.html#ad18242b078db0883029537562a41cc20", null ],
+    [ "Reset", "d4/dcc/a15098.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
+    [ "UpdateAI", "d4/dcc/a15098.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
+    [ "EnragingBiteTimer", "d4/dcc/a15098.html#af33898ebd9bea6b1a58b673373de3c64", null ],
+    [ "RendTimer", "d4/dcc/a15098.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
 ];

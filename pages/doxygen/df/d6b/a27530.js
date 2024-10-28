@@ -1,6 +1,6 @@
 var a27530 =
 [
-    [ "npc_stable_masterAI", "d0/d36/a27534.html", "d0/d36/a27534" ],
-    [ "npc_stable_master", "df/d6b/a27530.html#ad327340f47e10bec7f077192227b0899", null ],
-    [ "GetAI", "df/d6b/a27530.html#a7e34e18d2dad465eb88b0388fa830490", null ]
+    [ "npc_venomhide_hatchlingAI", "df/d6b/a27530.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
+    [ "IsSummonedBy", "df/d6b/a27530.html#a6e1b76f43217f1eb855b50d58a069518", null ],
+    [ "SpellHit", "df/d6b/a27530.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
 ];

@@ -1,18 +1,13 @@
 var a08722 =
 [
-    [ "BroadcastText", "dc/d3c/a08722.html#abab322532f769f25ad0241422e066c3c", null ],
-    [ "GetText", "dc/d3c/a08722.html#a5002c01e04536db717167eb7d0f4c5ec", null ],
-    [ "EmoteDelay1", "dc/d3c/a08722.html#a627971cd4d55f9e3e17c885791a0cfbf", null ],
-    [ "EmoteDelay2", "dc/d3c/a08722.html#a101f8fcc99c6badc2a7b05a9f18aa0f5", null ],
-    [ "EmoteDelay3", "dc/d3c/a08722.html#ad54e97026a67329529daaa30f997a89a", null ],
-    [ "EmoteId1", "dc/d3c/a08722.html#acc72081442b6a4544533a3084b5240da", null ],
-    [ "EmoteId2", "dc/d3c/a08722.html#a519449d0a5cc67e758f39c154e22f853", null ],
-    [ "EmoteId3", "dc/d3c/a08722.html#acbce2101751bdaed47315c23f5058a7b", null ],
-    [ "EmotesID", "dc/d3c/a08722.html#a2c7c03c32d8fe589507b575fc5c2138f", null ],
-    [ "FemaleText", "dc/d3c/a08722.html#a255f95912612f11867611093ebc23a59", null ],
-    [ "Flags", "dc/d3c/a08722.html#af07f883cd3deb5a1a59e23aa058e6c78", null ],
-    [ "Id", "dc/d3c/a08722.html#a12594a2bbd643a1968726db708a35b79", null ],
-    [ "LanguageID", "dc/d3c/a08722.html#a35ea9cc4ebd2680988e610f344086c86", null ],
-    [ "MaleText", "dc/d3c/a08722.html#ab30526857fe7c7c945d84931ffa4c416", null ],
-    [ "SoundEntriesId", "dc/d3c/a08722.html#aae69d8b9ca72f1cb20869b69a9601595", null ]
+    [ "entry", "dc/d3c/a08722.html#a9b4a88edefbc1e4b08a8ee03dfd90274", null ],
+    [ "height", "dc/d3c/a08722.html#a40fcdb1274bc2587e8870b39a64289e1", null ],
+    [ "length", "dc/d3c/a08722.html#a8e1ac424a973e546aa7c35e387e32a23", null ],
+    [ "map", "dc/d3c/a08722.html#a9ecb58fde45a318ba0d6306c603aba4b", null ],
+    [ "orientation", "dc/d3c/a08722.html#a5db58eaf63aceeaeb93bf6f4d5961a97", null ],
+    [ "radius", "dc/d3c/a08722.html#ae4195d9f29b425394296009c22654380", null ],
+    [ "width", "dc/d3c/a08722.html#af914195a4e7f2314a6241fb81cc8cfa8", null ],
+    [ "x", "dc/d3c/a08722.html#a423077ceaf75c367831a6d9f55427a6f", null ],
+    [ "y", "dc/d3c/a08722.html#a55ab832828addcef1b2f570bda81f2ce", null ],
+    [ "z", "dc/d3c/a08722.html#ae5d0d4e9ef4006ad6c7195b999ef00c2", null ]
 ];

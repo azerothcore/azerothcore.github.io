@@ -1,6 +1,8 @@
 var a19550 =
 [
-    [ "npc_algalon_worm_holeAI", "de/d6c/a19554.html", "de/d6c/a19554" ],
-    [ "npc_algalon_worm_hole", "d8/d38/a19550.html#a72516a4824fa61a331caff46d2784c64", null ],
-    [ "GetAI", "d8/d38/a19550.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
+    [ "HandlePeriodic", "d8/d38/a19550.html#a2724a85983561a14db8b06ae492ead55", null ],
+    [ "OnRemove", "d8/d38/a19550.html#a6d0f941f30d8c850e48396fffd13768d", null ],
+    [ "PrepareAuraScript", "d8/d38/a19550.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
+    [ "Register", "d8/d38/a19550.html#a85270947972be9c299a642b31969ef68", null ],
+    [ "Validate", "d8/d38/a19550.html#a91ebb4e69d02deb5129965f543c474d1", null ]
 ];

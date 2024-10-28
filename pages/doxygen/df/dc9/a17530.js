@@ -1,6 +1,6 @@
 var a17530 =
 [
-    [ "CheckProc", "df/dc9/a17530.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "df/dc9/a17530.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "df/dc9/a17530.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "npc_cult_fanaticAI", "df/df8/a17534.html", "df/df8/a17534" ],
+    [ "npc_cult_fanatic", "df/dc9/a17530.html#af29ab8f7628b96b0f192bccab74ca02e", null ],
+    [ "GetAI", "df/dc9/a17530.html#ae4d22bac12d17d79669d3fccd4029952", null ]
 ];

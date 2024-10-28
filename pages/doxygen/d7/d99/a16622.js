@@ -1,10 +1,6 @@
 var a16622 =
 [
-    [ "HandleAfterEffectAbsorb", "d7/d99/a16622.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
-    [ "Load", "d7/d99/a16622.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
-    [ "PrepareAuraScript", "d7/d99/a16622.html#a0856d66c801715f16cd251ddf9b25a59", null ],
-    [ "Register", "d7/d99/a16622.html#a69d8dfebb981b51592770b7b5807bc80", null ],
-    [ "Validate", "d7/d99/a16622.html#a55ec42ce316978220103a3a39f3939a3", null ],
-    [ "amount", "d7/d99/a16622.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
-    [ "fired", "d7/d99/a16622.html#a6a7afa99044644608b16e83328bfd5fa", null ]
+    [ "boss_falricAI", "db/dd6/a16626.html", "db/dd6/a16626" ],
+    [ "boss_falric", "d7/d99/a16622.html#aa64253f502f79db5947c09788fb66deb", null ],
+    [ "GetAI", "d7/d99/a16622.html#a95249877208d19bb54edd8de18616158", null ]
 ];

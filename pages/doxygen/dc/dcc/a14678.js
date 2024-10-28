@@ -1,6 +1,6 @@
 var a14678 =
 [
-    [ "instance_ragefire_chasm_InstanceMapScript", "d4/df9/a14682.html", "d4/df9/a14682" ],
-    [ "instance_ragefire_chasm", "dc/dcc/a14678.html#ab7f27d3e73b24d16dcf9b114f7dd4b36", null ],
-    [ "GetInstanceScript", "dc/dcc/a14678.html#a0568996a61ef91688b9f223cb3782e5a", null ]
+    [ "npc_belnistraszAI", "d4/df9/a14682.html", "d4/df9/a14682" ],
+    [ "npc_belnistrasz", "dc/dcc/a14678.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
+    [ "GetAI", "dc/dcc/a14678.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
 ];

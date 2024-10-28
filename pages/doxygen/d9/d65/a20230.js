@@ -1,6 +1,6 @@
 var a20230 =
 [
-    [ "OnPeriodic", "d9/d65/a20230.html#a8a12342f694499043e8ed4446fd92d36", null ],
-    [ "PrepareAuraScript", "d9/d65/a20230.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
-    [ "Register", "d9/d65/a20230.html#a381709d53101832de6b2161c4a33a0d4", null ]
+    [ "boss_mimironAI", "d7/d5d/a20234.html", "d7/d5d/a20234" ],
+    [ "boss_mimiron", "d9/d65/a20230.html#a72904837bd85e9f711fcf3da04c459c3", null ],
+    [ "GetAI", "d9/d65/a20230.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
 ];

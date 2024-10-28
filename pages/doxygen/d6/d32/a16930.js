@@ -1,6 +1,5 @@
 var a16930 =
 [
-    [ "HandleDummy", "d6/d32/a16930.html#aef592aafe931351186edf98f7aba7e22", null ],
-    [ "PrepareSpellScript", "d6/d32/a16930.html#ab79a160e0d5b0c6e0ecfa842a4da2819", null ],
-    [ "Register", "d6/d32/a16930.html#a7594952f23cba22b886c2c3b10f363d4", null ]
+    [ "at_tyrannus_event_starter", "d6/d32/a16930.html#a1aef2522c20dd242e749d93a6bee66d8", null ],
+    [ "OnTrigger", "d6/d32/a16930.html#a8dcfce4cd24dbc45df987b4a9bfcbbc0", null ]
 ];

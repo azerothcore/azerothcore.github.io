@@ -1,6 +1,6 @@
 var a18846 =
 [
-    [ "boss_grobbulus_poison_cloudAI", "d0/dbe/a18850.html", "d0/dbe/a18850" ],
-    [ "boss_grobbulus_poison_cloud", "dc/dcb/a18846.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
-    [ "GetAI", "dc/dcb/a18846.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
+    [ "boss_heiganAI", "d0/dbe/a18850.html", "d0/dbe/a18850" ],
+    [ "boss_heigan", "dc/dcb/a18846.html#aefa3a6d870bde0d33504c5f2b56572be", null ],
+    [ "GetAI", "dc/dcb/a18846.html#ad9edf8eade874c1ecc2cecdac17700a1", null ]
 ];

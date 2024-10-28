@@ -1,10 +1,9 @@
 var a10614 =
 [
-    [ "WorldStateInfo", "da/d7f/a10618.html", "da/d7f/a10618" ],
-    [ "InitWorldStates", "de/dbd/a10614.html#a9b1f27c7a07df6629473a6e9d6aa45b5", null ],
-    [ "Write", "de/dbd/a10614.html#ad40588a16c7430a633c0537c82ea3a5b", null ],
-    [ "AreaID", "de/dbd/a10614.html#a98ac08c68b5c004fd352f38c7084531f", null ],
-    [ "MapID", "de/dbd/a10614.html#a657c3043204c6957e8438c3c3c7068f3", null ],
-    [ "Worldstates", "de/dbd/a10614.html#a29ffba2a130f0b93d61b2025255502fb", null ],
-    [ "ZoneID", "de/dbd/a10614.html#add07a226b1fe8ea752306b0e04d4ef71", null ]
+    [ "TotemCreated", "de/dbd/a10614.html#a24c9e483d1edb526330311c719d750df", null ],
+    [ "Write", "de/dbd/a10614.html#a554900ae7442f00a63c983ea7ea74510", null ],
+    [ "Duration", "de/dbd/a10614.html#aff6335b86ac051bccb623124905c7180", null ],
+    [ "Slot", "de/dbd/a10614.html#a0889c816fbef728f1a0a6c530c801eac", null ],
+    [ "SpellID", "de/dbd/a10614.html#a2fe9f98b653d7c2afcf3166e86f3756e", null ],
+    [ "Totem", "de/dbd/a10614.html#a684d15c5368e8065c78e9320eebb676b", null ]
 ];

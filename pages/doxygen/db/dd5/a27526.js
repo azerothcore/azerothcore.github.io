@@ -1,13 +1,7 @@
 var a27526 =
 [
-    [ "npc_spring_rabbitAI", "db/dd5/a27526.html#a1211ab47dee4844b90a010c284c4f1a5", null ],
-    [ "DoAction", "db/dd5/a27526.html#a288ddb2f1ee0ab7113f1a1f34dc545c5", null ],
-    [ "JustEngagedWith", "db/dd5/a27526.html#a0c36f1dfc094007990f067544a940538", null ],
-    [ "Reset", "db/dd5/a27526.html#ac0f6b47044099016dd6453674b75b2c8", null ],
-    [ "UpdateAI", "db/dd5/a27526.html#af9da118068234755fa9219b84050d2a3", null ],
-    [ "bunnyTimer", "db/dd5/a27526.html#a99c2923194cf6a07bee8924abf98f470", null ],
-    [ "inLove", "db/dd5/a27526.html#aec8887aedf32fb4ebcc68c48f0ee0ea5", null ],
-    [ "jumpTimer", "db/dd5/a27526.html#a5c17e00187ac87b23482dfbabb89809b", null ],
-    [ "rabbitGUID", "db/dd5/a27526.html#af838b25c8442767aaef16e95022cb062", null ],
-    [ "searchTimer", "db/dd5/a27526.html#af1b82227dadf30c6c796e7b8c2abbe82", null ]
+    [ "npc_venomhide_hatchlingAI", "df/d6b/a27530.html", "df/d6b/a27530" ],
+    [ "npc_venomhide_hatchling", "db/dd5/a27526.html#a4dc217dd5950db7b270b7cce3e594e4d", null ],
+    [ "GetAI", "db/dd5/a27526.html#a96110b752965d751ab7b466c4f67e333", null ],
+    [ "OnGossipHello", "db/dd5/a27526.html#a404d875592b847ddb9f3250c9d954bfc", null ]
 ];

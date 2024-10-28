@@ -1,9 +1,7 @@
 var a14790 =
 [
-    [ "go_ossirian_crystalAI", "d6/d50/a14790.html#ae4d3c0c2cff08bd9fe86cbfee2cbb980", null ],
-    [ "DoAction", "d6/d50/a14790.html#a581436335d190466520c07fde56ad441", null ],
-    [ "GossipHello", "d6/d50/a14790.html#ad1aff0e18d8f4ef7fe5d4cfa7ef17875", null ],
-    [ "SetGUID", "d6/d50/a14790.html#a9c983aa02285dbebc545b4056191200c", null ],
-    [ "_instance", "d6/d50/a14790.html#aa2c83296cbe8d49de7bc7262b792e8b3", null ],
-    [ "_triggerGUID", "d6/d50/a14790.html#abd96d9b4f2c5f41e4a85606b22e1b0cf", null ]
+    [ "boss_rajaxx", "d6/d50/a14790.html#afca05f7afabb4c0e181ce3757acb3bcb", null ],
+    [ "JustDied", "d6/d50/a14790.html#a9231a20150ed6eae0cbc79c8386f7371", null ],
+    [ "JustEngagedWith", "d6/d50/a14790.html#a8dad79921559359b6aa7149641925fe5", null ],
+    [ "UpdateAI", "d6/d50/a14790.html#a9b949bea61ceb45ec1b3e452f218c227", null ]
 ];

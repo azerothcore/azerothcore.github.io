@@ -1,6 +1,8 @@
 var a18602 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "dd/d71/a18606.html", "dd/d71/a18606" ],
-    [ "npc_icc_skybreaker_luminary", "db/dfc/a18602.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
-    [ "GetAI", "db/dfc/a18602.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
+    [ "Class", "db/dfc/a18602.html#a095390e9023609f5836c4481ed79e1af", null ],
+    [ "cooldown_ms", "db/dfc/a18602.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
+    [ "id", "db/dfc/a18602.html#ae9fdf89271339b93f306c4aa0871f844", null ],
+    [ "range", "db/dfc/a18602.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
+    [ "targetType", "db/dfc/a18602.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
 ];

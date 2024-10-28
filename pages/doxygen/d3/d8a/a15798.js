@@ -1,6 +1,7 @@
 var a15798 =
 [
-    [ "boss_baltharus_the_warbornAI", "d2/db8/a15802.html", "d2/db8/a15802" ],
-    [ "boss_baltharus_the_warborn", "d3/d8a/a15798.html#aababb8862273d60f140dce675131783d", null ],
-    [ "GetAI", "d3/d8a/a15798.html#afe7ecf8635c8c0a051047a801c2a8d54", null ]
+    [ "CheckDistance", "d3/d8a/a15798.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "d3/d8a/a15798.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "d3/d8a/a15798.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "d3/d8a/a15798.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

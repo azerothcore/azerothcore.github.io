@@ -1,7 +1,8 @@
 var a23626 =
 [
-    [ "boss_zereketh_the_unbound", "de/dad/a23626.html#abb2fc5cbe7514142160818016fda1936", null ],
-    [ "JustDied", "de/dad/a23626.html#ac5d96da9a33a536f2002cce11453ded3", null ],
-    [ "JustEngagedWith", "de/dad/a23626.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
-    [ "KilledUnit", "de/dad/a23626.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
+    [ "boss_commander_sarannis", "de/dad/a23626.html#ace0957feb37f864798008849be25f607", null ],
+    [ "JustDied", "de/dad/a23626.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
+    [ "JustEngagedWith", "de/dad/a23626.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
+    [ "KilledUnit", "de/dad/a23626.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
+    [ "ScheduleReinforcements", "de/dad/a23626.html#a293f0b860a66396a30c6d255eef85309", null ]
 ];

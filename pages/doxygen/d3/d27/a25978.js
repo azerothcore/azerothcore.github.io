@@ -1,10 +1,6 @@
 var a25978 =
 [
-    [ "Load", "d3/d27/a25978.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
-    [ "PrepareAuraScript", "d3/d27/a25978.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
-    [ "Register", "d3/d27/a25978.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
-    [ "Split", "d3/d27/a25978.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
-    [ "groupSize", "d3/d27/a25978.html#aa1e61b128f63c802dc623be551657df1", null ],
-    [ "minHpPct", "d3/d27/a25978.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
-    [ "remainingAmount", "d3/d27/a25978.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
+    [ "HandleEffectCalcSpellMod", "d3/d27/a25978.html#a81395c735b9546632af71319067b575b", null ],
+    [ "PrepareAuraScript", "d3/d27/a25978.html#ad5a716f0644b1707aa6d179d564ceb80", null ],
+    [ "Register", "d3/d27/a25978.html#ae49a0ec525819981595c12839133a35b", null ]
 ];

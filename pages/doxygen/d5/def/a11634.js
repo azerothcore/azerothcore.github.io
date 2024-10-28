@@ -1,7 +1,6 @@
 var a11634 =
 [
-    [ "boss_magmusAI", "d5/def/a11634.html#a8a3e5361bda492007013af9228899b8f", null ],
-    [ "JustEngagedWith", "d5/def/a11634.html#a11e4868628564078997694373315a9d6", null ],
-    [ "Reset", "d5/def/a11634.html#a5fe304cec86831b7e64f83caee1392d0", null ],
-    [ "UpdateAI", "d5/def/a11634.html#aa8bb8282c794ea02fe7bd95b3d32e5ea", null ]
+    [ "boss_magmusAI", "d3/d73/a11638.html", "d3/d73/a11638" ],
+    [ "boss_magmus", "d5/def/a11634.html#a97747c0d7e1fd33204033d6061d6d570", null ],
+    [ "GetAI", "d5/def/a11634.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
 ];

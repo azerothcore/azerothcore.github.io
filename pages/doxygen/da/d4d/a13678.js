@@ -1,6 +1,6 @@
 var a13678 =
 [
-    [ "npc_forest_frogAI", "d1/d01/a13682.html", "d1/d01/a13682" ],
-    [ "npc_forest_frog", "da/d4d/a13678.html#a31a1a10db8eaeca39a60e5dc3f028f8e", null ],
-    [ "GetAI", "da/d4d/a13678.html#a51a83289e04ed9dfa587d448d4b5b1fe", null ]
+    [ "npc_harrison_jonesAI", "d1/d01/a13682.html", "d1/d01/a13682" ],
+    [ "npc_harrison_jones", "da/d4d/a13678.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
+    [ "GetAI", "da/d4d/a13678.html#ac7df55d850973073266509f6e09ea367", null ]
 ];

@@ -1,6 +1,6 @@
 var a16162 =
 [
-    [ "HandleAfterHit", "d0/d1f/a16162.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "d0/d1f/a16162.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "d0/d1f/a16162.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "npc_toc_shamanAI", "d7/def/a16166.html", "d7/def/a16166" ],
+    [ "npc_toc_shaman", "d0/d1f/a16162.html#a26e3a539d8d918057e9f81b9ee83f17d", null ],
+    [ "GetAI", "d0/d1f/a16162.html#a7102a3aec6c229a04b617c562512bf29", null ]
 ];

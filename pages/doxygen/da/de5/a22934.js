@@ -1,6 +1,6 @@
 var a22934 =
 [
-    [ "instance_black_temple_InstanceMapScript", "de/ddc/a22938.html", "de/ddc/a22938" ],
-    [ "instance_black_temple", "da/de5/a22934.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
-    [ "GetInstanceScript", "da/de5/a22934.html#a947a1279eabde75d9884b1ef84b295a3", null ]
+    [ "HandleScriptEffect", "da/de5/a22934.html#a0810dd4ad4d324c1a53e192fc99d1d35", null ],
+    [ "PrepareSpellScript", "da/de5/a22934.html#a0ece61d7bed3e19ee6f6175a55c0733d", null ],
+    [ "Register", "da/de5/a22934.html#a827cefe322562f0e8ea7cfa58b9a776b", null ]
 ];

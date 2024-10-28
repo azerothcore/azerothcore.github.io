@@ -1,6 +1,6 @@
 var a18766 =
 [
-    [ "boss_anubrekhanAI", "db/dc3/a18770.html", "db/dc3/a18770" ],
-    [ "boss_anubrekhan", "d6/d7f/a18766.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
-    [ "GetAI", "d6/d7f/a18766.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
+    [ "boss_four_horsemenAI", "db/dc3/a18770.html", "db/dc3/a18770" ],
+    [ "boss_four_horsemen", "d6/d7f/a18766.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
+    [ "GetAI", "d6/d7f/a18766.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
 ];

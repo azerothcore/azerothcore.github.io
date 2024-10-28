@@ -1,6 +1,6 @@
 var a11858 =
 [
-    [ "npc_vaelastrasz_the_redAI", "d4/d85/a11862.html", "d4/d85/a11862" ],
-    [ "npc_vaelastrasz_the_red", "d7/d6b/a11858.html#af39fcaa29b200e3b7933f97de277df6b", null ],
-    [ "GetAI", "d7/d6b/a11858.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
+    [ "OnEffect", "d7/d6b/a11858.html#a1b5999f392cec9fea4431c3f746ee034", null ],
+    [ "PrepareSpellScript", "d7/d6b/a11858.html#a4748a82fcc7b3794850461092ee6b2e4", null ],
+    [ "Register", "d7/d6b/a11858.html#acfa32dfc22778576d0dd3096c456ebe0", null ]
 ];

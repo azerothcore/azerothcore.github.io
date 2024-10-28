@@ -1,7 +1,5 @@
 var a09998 =
 [
-    [ "DatabaseScript", "d8/dd6/a09998.html#aab34b85df1a5ccdf17fede64baca4994", null ],
-    [ "IsDatabaseBound", "d8/dd6/a09998.html#af4321bb95ed9bb3bb0e5a8a93c89c235", null ],
-    [ "OnAfterDatabaseLoadCreatureTemplates", "d8/dd6/a09998.html#a2f4e91e2b1192c0ceb399cd93eb33ee3", null ],
-    [ "OnAfterDatabasesLoaded", "d8/dd6/a09998.html#ab52afc833cb462693f5e0d79cff6bb3f", null ]
+    [ "FactoryCreatureScript", "d8/dd6/a09998.html#a62cd4db9e8dd3dab606f1166fdf0ce44", null ],
+    [ "GetAI", "d8/dd6/a09998.html#a0e491e4cda2b03456d798f6726dbde54", null ]
 ];

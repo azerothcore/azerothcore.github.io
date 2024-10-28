@@ -1,6 +1,5 @@
 var a16394 =
 [
-    [ "boss_eydisAI", "d1/db3/a16398.html", "d1/db3/a16398" ],
-    [ "boss_eydis", "d1/db6/a16394.html#aa555f80882499bc4627e622fbb48b2a4", null ],
-    [ "GetAI", "d1/db6/a16394.html#ad49a673431c479fa2f5d9b6da42bbf55", null ]
+    [ "npc_essence_of_twin", "d1/db6/a16394.html#a019de64e5e01e611acfda5db4c279b19", null ],
+    [ "OnGossipHello", "d1/db6/a16394.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
 ];

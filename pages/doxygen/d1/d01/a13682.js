@@ -1,14 +1,13 @@
 var a13682 =
 [
-    [ "npc_forest_frogAI", "d1/d01/a13682.html#a1859934c3166e8e1f3b215721eb7dde0", null ],
-    [ "DoSpawnRandom", "d1/d01/a13682.html#ad69092e6830cb4ed9b4971573b4938c2", null ],
-    [ "JustEngagedWith", "d1/d01/a13682.html#a11af64dd35f59e7621ef47f0a0dc70fd", null ],
-    [ "MovementInform", "d1/d01/a13682.html#a980316d840d9e6386a506101b665777e", null ],
-    [ "Reset", "d1/d01/a13682.html#abc3c1cbb9a8e403fb3c1513113437746", null ],
-    [ "SpellHit", "d1/d01/a13682.html#a598b45191168a9a2b0ef9345216bebcb", null ],
-    [ "UpdateAI", "d1/d01/a13682.html#a05ef7e4899ef1287cb4caa59d07324f7", null ],
-    [ "events", "d1/d01/a13682.html#ae007a0e7256b2118388a11035d26963d", null ],
-    [ "eventTimer", "d1/d01/a13682.html#a8064110ee297642b05fed81f421d82d3", null ],
-    [ "instance", "d1/d01/a13682.html#ae7631fcf8af5f7d3708e4580257f370b", null ],
-    [ "PlayerGUID", "d1/d01/a13682.html#a1f8f417d59c3be3bf46ab5f6ac399bc4", null ]
+    [ "npc_harrison_jonesAI", "d1/d01/a13682.html#a088e61f55a0f5005a9c4b7d1f837e361", null ],
+    [ "JustEngagedWith", "d1/d01/a13682.html#a5676d911b35ddc38be61b5bd67ce5a1b", null ],
+    [ "Reset", "d1/d01/a13682.html#a57aa269677fb06a66756151d950e7eeb", null ],
+    [ "sGossipSelect", "d1/d01/a13682.html#a222ead437d88313b7d96c916433a45a9", null ],
+    [ "SpellHit", "d1/d01/a13682.html#a58134cca72886cfee57d2f56df1765fb", null ],
+    [ "UpdateAI", "d1/d01/a13682.html#a982d73b5f7ff7f65003bb87c961fd998", null ],
+    [ "_gongEvent", "d1/d01/a13682.html#a2bc677a9e8b4736a1ef1882c77fe5e16", null ],
+    [ "_gongTimer", "d1/d01/a13682.html#ae905e486190f0f984a425c1dcf7991f7", null ],
+    [ "instance", "d1/d01/a13682.html#aca87aebdeb6db3c38ee2514d5e07432d", null ],
+    [ "uiTargetGUID", "d1/d01/a13682.html#a5696b4215ebfe2671d20ddb1c00db12f", null ]
 ];

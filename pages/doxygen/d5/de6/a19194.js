@@ -1,13 +1,13 @@
 var a19194 =
 [
-    [ "npc_crystalline_frayerAI", "d5/de6/a19194.html#a3e40823e8b0b498d150a3ebe3d1dbc41", null ],
-    [ "DamageTaken", "d5/de6/a19194.html#ab899f99852e72e14a85df6c4642ecd75", null ],
-    [ "EnterEvadeMode", "d5/de6/a19194.html#ae2e904f098a1290da4a413642a08bdd6", null ],
-    [ "JustEngagedWith", "d5/de6/a19194.html#a4228d6d142219f2bc0e856bd0cd29456", null ],
-    [ "Reset", "d5/de6/a19194.html#a3c40960117bff0c943bbec58eb1c187e", null ],
-    [ "UpdateAI", "d5/de6/a19194.html#a0f28d1c6eed3d155aaf3f28494a865aa", null ],
-    [ "_allowDeath", "d5/de6/a19194.html#a5070b825c1ffced4d8b0f864f11ba07d", null ],
-    [ "abilityTimer1", "d5/de6/a19194.html#a4120d65ba18ff16dfb291523c8f52970", null ],
-    [ "abilityTimer2", "d5/de6/a19194.html#ab1934b20e57e6df649b3044230b70943", null ],
-    [ "restoreTimer", "d5/de6/a19194.html#aea508af2b17a40b1a5ecb3815d85dd4f", null ]
+    [ "npc_oculus_unstable_sphereAI", "d5/de6/a19194.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
+    [ "AttackStart", "d5/de6/a19194.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
+    [ "MoveInLineOfSight", "d5/de6/a19194.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
+    [ "MovementInform", "d5/de6/a19194.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
+    [ "PickNewLocation", "d5/de6/a19194.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
+    [ "Reset", "d5/de6/a19194.html#ac2e391d0149b62823ac9074d45c694cf", null ],
+    [ "UpdateAI", "d5/de6/a19194.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
+    [ "gonext", "d5/de6/a19194.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
+    [ "located", "d5/de6/a19194.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
+    [ "timer", "d5/de6/a19194.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
 ];

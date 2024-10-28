@@ -1,13 +1,10 @@
 var a15298 =
 [
-    [ "npc_shenthulAI", "d4/d38/a15298.html#ae056474022c27be5565bf018a1b56f0b", null ],
-    [ "JustEngagedWith", "d4/d38/a15298.html#acb202ef530bc11ea807f580ff5dfc621", null ],
-    [ "ReceiveEmote", "d4/d38/a15298.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
-    [ "Reset", "d4/d38/a15298.html#af077e96eb8bf89af2d6eb79907444a17", null ],
-    [ "UpdateAI", "d4/d38/a15298.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
-    [ "CanEmote", "d4/d38/a15298.html#a920209c374e611e96347d209337c044f", null ],
-    [ "CanTalk", "d4/d38/a15298.html#a82ea8d2ee50538135add120be7616f86", null ],
-    [ "PlayerGUID", "d4/d38/a15298.html#a4b262388aca789d19231426a8cb73379", null ],
-    [ "ResetTimer", "d4/d38/a15298.html#a475a141d639f0136ac943e6afb1ecd15", null ],
-    [ "SaluteTimer", "d4/d38/a15298.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
+    [ "CreatureId", "d4/d38/a15298.html#a09f696e37f96e7da259fc026a7c4fd83", null ],
+    [ "DespTimer", "d4/d38/a15298.html#a0dfec745982b346ac1cd0af672be31fb", null ],
+    [ "SpawnCount", "d4/d38/a15298.html#ad5347ee83eaa00fe0721279099c48433", null ],
+    [ "SpawnTimer", "d4/d38/a15298.html#ab1720ffe0aeeb5669ab49fc32cb24750", null ],
+    [ "UsedSpawnPoint", "d4/d38/a15298.html#a7db57df5da62ebb3b52ecd70ec3d45f2", null ],
+    [ "WaveTextId", "d4/d38/a15298.html#a0a9807e31c2d5c769bc0a020941b234c", null ],
+    [ "YellTimer", "d4/d38/a15298.html#ac3f9997775f34babc79d4321fd1a6d6d", null ]
 ];

@@ -1,5 +1,5 @@
 var a11518 =
 [
-    [ "at_ring_of_law", "d9/db3/a11518.html#ad9bb44e898f90fb489b50cad0a711976", null ],
-    [ "OnTrigger", "d9/db3/a11518.html#a613471caae75ab3d82ce915101a20108", null ]
+    [ "amount", "d9/db3/a11518.html#a35b1ecbfecae77f1cb7a0a52eafc5f7b", null ],
+    [ "entry", "d9/db3/a11518.html#ac3d4d211ebb927b1b9a376ee956e1b26", null ]
 ];

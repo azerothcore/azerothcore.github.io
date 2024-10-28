@@ -1,7 +1,7 @@
 var a18734 =
 [
-    [ "npc_ioc_gunship_captainAI", "d0/d55/a18734.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
-    [ "DoAction", "d0/d55/a18734.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
-    [ "UpdateAI", "d0/d55/a18734.html#a222b304633143bba47d3edde67ea093b", null ],
-    [ "_events", "d0/d55/a18734.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
+    [ "HandleGameObjectDamage", "d0/d55/a18734.html#a811edfe01c1784664b5b4253d2305b4e", null ],
+    [ "PrepareSpellScript", "d0/d55/a18734.html#a0cfedeba2a747777de292b8f30b6752b", null ],
+    [ "Register", "d0/d55/a18734.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
+    [ "Validate", "d0/d55/a18734.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
 ];

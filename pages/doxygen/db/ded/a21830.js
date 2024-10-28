@@ -1,7 +1,9 @@
 var a21830 =
 [
-    [ "npc_amberpine_woodsmanAI", "db/ded/a21830.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
-    [ "Reset", "db/ded/a21830.html#a8da613c7bbaadf331c95667e7a361702", null ],
-    [ "UpdateAI", "db/ded/a21830.html#a64dbf41424a710c400d51507f6457b41", null ],
-    [ "_events", "db/ded/a21830.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
+    [ "npc_venture_co_stragglerAI", "db/ded/a21830.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
+    [ "Reset", "db/ded/a21830.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
+    [ "SpellHit", "db/ded/a21830.html#ae1919454c270d10342079b60a727a306", null ],
+    [ "UpdateAI", "db/ded/a21830.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
+    [ "_events", "db/ded/a21830.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
+    [ "_playerGUID", "db/ded/a21830.html#a649493944b143782d995b5bdda3714b4", null ]
 ];

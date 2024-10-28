@@ -1,9 +1,9 @@
 var a23126 =
 [
-    [ "CalcPeriodic", "d3/db8/a23126.html#a5cd39919a088cab2fd160ea6e16ee7c8", null ],
-    [ "HandleEffectApply", "d3/db8/a23126.html#adb983cc531fa666648bbdb432684ff1d", null ],
-    [ "HandleEffectRemove", "d3/db8/a23126.html#a99c1bfc5aa4b67318bb3572589a42b1a", null ],
-    [ "OnPeriodic", "d3/db8/a23126.html#aecefab535157dbe8e42aff3b23cd685b", null ],
-    [ "PrepareAuraScript", "d3/db8/a23126.html#ad9ecc1fd4bcf1a2ecb5e2d1ec2ea37f7", null ],
-    [ "Register", "d3/db8/a23126.html#a3771abcc829883ba0cbae9587adbe751", null ]
+    [ "FilterTargets", "d3/db8/a23126.html#a9049c113d65b15a9a8e1143980a84b23", null ],
+    [ "HandleDummy", "d3/db8/a23126.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
+    [ "Load", "d3/db8/a23126.html#a8cad82701e0147e14f826243175e1c32", null ],
+    [ "PrepareSpellScript", "d3/db8/a23126.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
+    [ "Register", "d3/db8/a23126.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
+    [ "_targetNumber", "d3/db8/a23126.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
 ];

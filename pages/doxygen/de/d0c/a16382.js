@@ -1,6 +1,5 @@
 var a16382 =
 [
-    [ "boss_icehowlAI", "d8/d28/a16386.html", "d8/d28/a16386" ],
-    [ "boss_icehowl", "de/d0c/a16382.html#ab3c9711fa6af17be9dc7331b42c408be", null ],
-    [ "GetAI", "de/d0c/a16382.html#ac77bf3b9d954b8c6be01d0209a80cc6a", null ]
+    [ "boss_eydisAI", "de/d0c/a16382.html#a0e97e184b2a2f610730cd3d455702955", null ],
+    [ "JustSummoned", "de/d0c/a16382.html#aa5ae64cfe003a25859364a12cb871199", null ]
 ];

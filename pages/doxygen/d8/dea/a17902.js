@@ -1,6 +1,6 @@
 var a17902 =
 [
-    [ "MysticBuffetTargetFilter", "d8/dea/a17902.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
-    [ "operator()", "d8/dea/a17902.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
-    [ "_caster", "d8/dea/a17902.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
+    [ "npc_spinestalkerAI", "d0/d9b/a17906.html", "d0/d9b/a17906" ],
+    [ "npc_spinestalker", "d8/dea/a17902.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
+    [ "GetAI", "d8/dea/a17902.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
 ];

@@ -1,6 +1,6 @@
 var a22922 =
 [
-    [ "HandleDummy", "da/ddd/a22922.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
-    [ "PrepareSpellScript", "da/ddd/a22922.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
-    [ "Register", "da/ddd/a22922.html#a972574075c86c32593982add71dc893f", null ]
+    [ "instance_black_temple_InstanceMapScript", "da/d88/a22926.html", "da/d88/a22926" ],
+    [ "instance_black_temple", "da/ddd/a22922.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
+    [ "GetInstanceScript", "da/ddd/a22922.html#a947a1279eabde75d9884b1ef84b295a3", null ]
 ];

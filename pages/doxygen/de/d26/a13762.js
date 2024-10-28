@@ -1,5 +1,6 @@
 var a13762 =
 [
-    [ "at_zulgurub_temple_speech", "de/d26/a13762.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
-    [ "_OnTrigger", "de/d26/a13762.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
+    [ "HandleOnHit", "de/d26/a13762.html#a1f133ab9e85f80c225276bf744da6898", null ],
+    [ "PrepareSpellScript", "de/d26/a13762.html#ae554f8be36eabc6d23f823e6d153be2b", null ],
+    [ "Register", "de/d26/a13762.html#a1063358ed71ded8454f35f43442354ab", null ]
 ];

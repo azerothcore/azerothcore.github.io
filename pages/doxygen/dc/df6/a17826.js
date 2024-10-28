@@ -1,7 +1,25 @@
 var a17826 =
 [
-    [ "FrostBombExplosion", "dc/df6/a17826.html#ac7d318e241e6442e8aa084b27ea50236", null ],
-    [ "Execute", "dc/df6/a17826.html#a0b6521266f18b621260286c530ff3f36", null ],
-    [ "_owner", "dc/df6/a17826.html#aa9ff39ce43c351e8815f895896fa759b", null ],
-    [ "_sindragosaGUID", "dc/df6/a17826.html#a5afc3d543c8fa457c90735f841aa161c", null ]
+    [ "boss_sindragosaAI", "dc/df6/a17826.html#ab02e42a863496b27a8f2b745085e30ea", null ],
+    [ "CanAIAttack", "dc/df6/a17826.html#aea65b981e8b9461750a53fca3919c27f", null ],
+    [ "DamageTaken", "dc/df6/a17826.html#ab4bc9869ad6074a1671b0b18f681a913", null ],
+    [ "DoAction", "dc/df6/a17826.html#a93859d74931e5b810e3c48e492103919", null ],
+    [ "EnterEvadeMode", "dc/df6/a17826.html#acb1e677b2347e0464df832e1d86cd3b5", null ],
+    [ "GetData", "dc/df6/a17826.html#abbdaf0b2fe76e6f79126d15a1cecca2a", null ],
+    [ "JustDied", "dc/df6/a17826.html#a0a41a38ba0577f9b4f10bd1143a1e615", null ],
+    [ "JustEngagedWith", "dc/df6/a17826.html#af0151f1cb6776a3a180b4e24332c8489", null ],
+    [ "JustSummoned", "dc/df6/a17826.html#ac3d9b66097202719781ede743fabc1ea", null ],
+    [ "KilledUnit", "dc/df6/a17826.html#a27f5953a9cf68ec10a63622cf0f33d9b", null ],
+    [ "MoveInLineOfSight", "dc/df6/a17826.html#a17d93e98d5c8f91e8009674a4117bd39", null ],
+    [ "MovementInform", "dc/df6/a17826.html#abff1b505e9d2d6c826f814b2d43409af", null ],
+    [ "Reset", "dc/df6/a17826.html#a5350ca3791fb777959de068933d121ba", null ],
+    [ "SpellHitTarget", "dc/df6/a17826.html#ad2d10d5aeebea48809a61eee293ff9da", null ],
+    [ "SummonedCreatureDespawn", "dc/df6/a17826.html#a5245dbb8a3065f2da4815be744dce357", null ],
+    [ "UpdateAI", "dc/df6/a17826.html#a0e92f831d702eda65309787c651f221b", null ],
+    [ "_bombCount", "dc/df6/a17826.html#a8ef89884c8d1b272d28dd7a6d2048964", null ],
+    [ "_isBelow20Pct", "dc/df6/a17826.html#a87663e3f6d1c87c9def8eb1852adc029", null ],
+    [ "_isInAirPhase", "dc/df6/a17826.html#addc25d8f87dd9fd627c0bde5944c037a", null ],
+    [ "_isLanding", "dc/df6/a17826.html#a3de52bd0571eab9df13809ff5a4b891c", null ],
+    [ "_isThirdPhase", "dc/df6/a17826.html#a741a811fd9832fb4275c51d2272d98f0", null ],
+    [ "_mysticBuffetStack", "dc/df6/a17826.html#a9cfaa3b61da9a7aad88c2d2a537f0821", null ]
 ];

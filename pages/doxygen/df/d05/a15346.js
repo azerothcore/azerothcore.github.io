@@ -1,5 +1,6 @@
 var a15346 =
 [
-    [ "go_crystalline_tear", "df/d05/a15346.html#a9e19c6538ecd1a758f2639171321d965", null ],
-    [ "OnQuestAccept", "df/d05/a15346.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
+    [ "npc_braug_dimspirit", "df/d05/a15346.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
+    [ "OnGossipHello", "df/d05/a15346.html#aeaed026edf5a1fa82c941f667c05815b", null ],
+    [ "OnGossipSelect", "df/d05/a15346.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
 ];

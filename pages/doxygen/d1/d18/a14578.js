@@ -1,26 +1,10 @@
 var a14578 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "d1/d18/a14578.html#a31fbc078e2c8d2a0f070a8a52c34ef90", null ],
-    [ "CleanupInstance", "d1/d18/a14578.html#a20b8aa23c6c9e29f34cda71554c6d7a7", null ],
-    [ "EnsureGridLoaded", "d1/d18/a14578.html#a337693ca3ad4527249b0f9f5c9a62d0f", null ],
-    [ "GetData", "d1/d18/a14578.html#aa7ae89c6d23a061385a756cf0b0200bf", null ],
-    [ "GetGuidData", "d1/d18/a14578.html#a119965a939e79b0fb395e8e3695359aa", null ],
-    [ "Initialize", "d1/d18/a14578.html#ac9e53a8a406110bbc1d454be7b87fb34", null ],
-    [ "OnCreatureCreate", "d1/d18/a14578.html#a04bf5f844ab8e802f95745f56d996716", null ],
-    [ "OnGameObjectCreate", "d1/d18/a14578.html#ae5f9223af1488f1edd99f35f7b1c7207", null ],
-    [ "OnPlayerEnter", "d1/d18/a14578.html#a29ebe48953ba6be93da519c7a43c356e", null ],
-    [ "ReadSaveDataMore", "d1/d18/a14578.html#a81322de635b72f95de486ccd1abf9644", null ],
-    [ "Reposition", "d1/d18/a14578.html#a7fcd0c449edfe21933ee055549ea7ddf", null ],
-    [ "SetData", "d1/d18/a14578.html#a961dd71754113ce6b5aecde16b6426d2", null ],
-    [ "Update", "d1/d18/a14578.html#ac0bb22a2f69eecc269c69005777d9c38", null ],
-    [ "WriteSaveDataMore", "d1/d18/a14578.html#ae409ddd2759f8eea883cefa21d045a40", null ],
-    [ "_attemptsCount", "d1/d18/a14578.html#ac5c012148a60cc7dd26e36ba6950494b", null ],
-    [ "_barrelCount", "d1/d18/a14578.html#aeb5828d54f327c5d2a30004afa86c4af", null ],
-    [ "_encounterProgress", "d1/d18/a14578.html#a9b5fff035fb76116f0cea6f6786d506e", null ],
-    [ "_events", "d1/d18/a14578.html#ab3a9785a2240d62de4dfcf0b2523520f", null ],
-    [ "_finalFlamesSet", "d1/d18/a14578.html#a914232c182475a17e3583435f2fde9bc", null ],
-    [ "_initalFlamesSet", "d1/d18/a14578.html#a2404c19bd154f8277aa539f48ae99963", null ],
-    [ "_prisonersSet", "d1/d18/a14578.html#a43e3b3d3cb4797a8c03731df72e7cb5a", null ],
-    [ "_tarethaGUID", "d1/d18/a14578.html#ada3dcc37cba14ae8361989f1b842b462", null ],
-    [ "_thrallGUID", "d1/d18/a14578.html#add8e04fa930e970ab0e88258c10f9c5d", null ]
+    [ "npc_tarethaAI", "d1/d18/a14578.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
+    [ "AttackStart", "d1/d18/a14578.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
+    [ "DoAction", "d1/d18/a14578.html#adbb40db0b70532a20731cf5039e44d0b", null ],
+    [ "MoveInLineOfSight", "d1/d18/a14578.html#afa0427372e43316851018bf78274707f", null ],
+    [ "Reset", "d1/d18/a14578.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
+    [ "WaypointReached", "d1/d18/a14578.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
+    [ "instance", "d1/d18/a14578.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
 ];

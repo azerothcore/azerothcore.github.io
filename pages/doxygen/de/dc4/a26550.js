@@ -1,8 +1,7 @@
 var a26550 =
 [
-    [ "Apply", "de/dc4/a26550.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "de/dc4/a26550.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "de/dc4/a26550.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "de/dc4/a26550.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "de/dc4/a26550.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "CheckProc", "de/dc4/a26550.html#a4efa486733390dea566e1169902db915", null ],
+    [ "PrepareAuraScript", "de/dc4/a26550.html#a241b65bdcb6aefa4e37b61c5007149f6", null ],
+    [ "Register", "de/dc4/a26550.html#a5c70bb3ff8d2c3d9a2ab8aad729917bb", null ],
+    [ "Validate", "de/dc4/a26550.html#a7c5d82eba0bba896294cffc94843414c", null ]
 ];

@@ -1,10 +1,7 @@
 var a07050 =
 [
-    [ "ArenaLogEntryData", "d8/de3/a07050.html#a8f3ec057dd930d2f2acd7961e0cf4e5e", null ],
-    [ "Fill", "d8/de3/a07050.html#aa3cca4521431bf152550611549bf4bbe", null ],
-    [ "Acc", "d8/de3/a07050.html#aa8983930063298c86f4635d2ae3078fe", null ],
-    [ "ArenaTeamId", "d8/de3/a07050.html#ac764620c3c8a986286fd74062dac4645", null ],
-    [ "Guid", "d8/de3/a07050.html#a03b32cd44c655dcc9104aead3b76454e", null ],
-    [ "IP", "d8/de3/a07050.html#ab9f80eacfe24025a2d4947085d3f6dd7", null ],
-    [ "Name", "d8/de3/a07050.html#a5c18d554adb9e38ab10baf36c9b3fdd7", null ]
+    [ "BattlegroundObjectInfo", "d8/de3/a07050.html#a848f2b15f47ceeb91c40e916d5659486", null ],
+    [ "object", "d8/de3/a07050.html#a6722b83d6969c1a34b4846f19865075a", null ],
+    [ "spellid", "d8/de3/a07050.html#ae0233a1078bc735e40855ea7608f5f11", null ],
+    [ "timer", "d8/de3/a07050.html#a7eaf1fbe40f3a7918965da8d5ac81a50", null ]
 ];

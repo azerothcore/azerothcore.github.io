@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Configuration/Config.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/dbimport/Main.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,93 +105,58 @@ $(document).ready(function(){initNavTree('d5/d1d/a29414.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Config.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Banner.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IoContext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLThreading.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OpenSSLCrypto.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;cstdlib&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;boost/program_options.hpp&gt;</code><br />
+<code>#include &lt;boost/version.hpp&gt;</code><br />
+<code>#include &lt;csignal&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;openssl/crypto.h&gt;</code><br />
+<code>#include &lt;openssl/opensslv.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d9/db6/a04683"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html">anonymous_namespace{Config.cpp}</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a88481e3afc1a3d0cced9a0eb22ef52c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a88481e3afc1a3d0cced9a0eb22ef52c4">TEMPLATE_CONFIG_OPTION</a>(__typename)&#160;&#160;&#160;    template __typename <a class="el" href="../../db/d20/a05034.html#a711be8eda4077d967a3677bd138998ac">ConfigMgr::GetOption</a>&lt;__typename&gt;(std::string const&amp; name, __typename const&amp; def, bool showLogs /*= true*/) const;</td></tr>
-<tr class="separator:a88481e3afc1a3d0cced9a0eb22ef52c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97392c73658eeeb49d256527b19ad90f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a97392c73658eeeb49d256527b19ad90f">_ACORE_DB_IMPORT_CONFIG</a>&#160;&#160;&#160;&quot;dbimport.conf&quot;</td></tr>
+<tr class="separator:a97392c73658eeeb49d256527b19ad90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac70d5ef108e0df78183c2c28431f34cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#ac70d5ef108e0df78183c2c28431f34cc">anonymous_namespace{Config.cpp}::IsAppConfig</a> (std::string_view fileName)</td></tr>
-<tr class="separator:ac70d5ef108e0df78183c2c28431f34cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874bf90eeee29a9e6e9348805c0b8ca8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a874bf90eeee29a9e6e9348805c0b8ca8">anonymous_namespace{Config.cpp}::IsLoggingSystemOptions</a> (std::string_view optionName)</td></tr>
-<tr class="separator:a874bf90eeee29a9e6e9348805c0b8ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31b53ef96726f745da939de555373737"><td class="memTemplParams" colspan="2">template&lt;typename Format , typename... Args&gt; </td></tr>
-<tr class="memitem:a31b53ef96726f745da939de555373737"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a31b53ef96726f745da939de555373737">anonymous_namespace{Config.cpp}::PrintError</a> (std::string_view filename, Format &amp;&amp;fmt, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a31b53ef96726f745da939de555373737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab573c6a7facb635d7c4787e5b6f346fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#ab573c6a7facb635d7c4787e5b6f346fa">anonymous_namespace{Config.cpp}::AddKey</a> (std::string const &amp;optionName, std::string const &amp;optionKey, std::string_view fileName, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:ab573c6a7facb635d7c4787e5b6f346fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25d36c8039da7689a28ce9c1334b70f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#af25d36c8039da7689a28ce9c1334b70f">anonymous_namespace{Config.cpp}::ParseFile</a> (std::string const &amp;file, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:af25d36c8039da7689a28ce9c1334b70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d7cd62693d073b89d11aab4ba3342d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a04d7cd62693d073b89d11aab4ba3342d">anonymous_namespace{Config.cpp}::LoadFile</a> (std::string const &amp;file, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:a04d7cd62693d073b89d11aab4ba3342d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ffb5b5ec6ef364da691218a1f840ed"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#ab1ffb5b5ec6ef364da691218a1f840ed">anonymous_namespace{Config.cpp}::IniKeyToEnvVarKey</a> (std::string const &amp;key)</td></tr>
-<tr class="separator:ab1ffb5b5ec6ef364da691218a1f840ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037f48efd9ff4f980901dc23f9062cfe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a> (std::string const &amp;configName)</td></tr>
-<tr class="separator:a037f48efd9ff4f980901dc23f9062cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b39ee4aeace82542c39141c4c052417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a> (std::string const &amp;key)</td></tr>
-<tr class="separator:a4b39ee4aeace82542c39141c4c052417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a> (std::string const &amp;configName, std::string const &amp;envVarName)</td></tr>
-<tr class="separator:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a7096a6c65872ca33d8f44bdd841eaa31">ConfigMgr::GetValueDefault&lt; std::string &gt;</a> (std::string const &amp;name, std::string const &amp;def, bool showLogs) const</td></tr>
-<tr class="separator:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8bfa20db83fbdc4e649e394ea8d05d0d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></td></tr>
-<tr class="separator:a8bfa20db83fbdc4e649e394ea8d05d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4608b63b3297653b81c9c4196c12141"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#ac4608b63b3297653b81c9c4196c12141">anonymous_namespace{Config.cpp}::_additonalFiles</a></td></tr>
-<tr class="separator:ac4608b63b3297653b81c9c4196c12141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa324820f5ede7eec5a4d8eefc77298f4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#aa324820f5ede7eec5a4d8eefc77298f4">anonymous_namespace{Config.cpp}::_args</a></td></tr>
-<tr class="separator:aa324820f5ede7eec5a4d8eefc77298f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c4d5bd9313e617a40ed0f27d79dbae9"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></td></tr>
-<tr class="separator:a4c4d5bd9313e617a40ed0f27d79dbae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e8b4d4501c2038b56b2692bbd6adb72"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">anonymous_namespace{Config.cpp}::_envVarCache</a></td></tr>
-<tr class="separator:a4e8b4d4501c2038b56b2692bbd6adb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e361ca2d2603bb0a5689262ac6787a"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a96e361ca2d2603bb0a5689262ac6787a">anonymous_namespace{Config.cpp}::_configLock</a></td></tr>
-<tr class="separator:a96e361ca2d2603bb0a5689262ac6787a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4222a9ebe6cae31f1a5ad0a4a44bee3f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/a04683.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a></td></tr>
-<tr class="separator:a4222a9ebe6cae31f1a5ad0a4a44bee3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1551df43a48f1dbf64dbec1e47b07eea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a1551df43a48f1dbf64dbec1e47b07eea">StartDB</a> ()</td></tr>
+<tr class="memdesc:a1551df43a48f1dbf64dbec1e47b07eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize connection to the database.  <a href="../../d5/d1d/a29414.html#a1551df43a48f1dbf64dbec1e47b07eea">More...</a><br /></td></tr>
+<tr class="separator:a1551df43a48f1dbf64dbec1e47b07eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927af1587546ee7503a3b9a18f6439c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a927af1587546ee7503a3b9a18f6439c0">StopDB</a> ()</td></tr>
+<tr class="memdesc:a927af1587546ee7503a3b9a18f6439c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the connection to the database.  <a href="../../d5/d1d/a29414.html#a927af1587546ee7503a3b9a18f6439c0">More...</a><br /></td></tr>
+<tr class="separator:a927af1587546ee7503a3b9a18f6439c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f250d3a28ed2192d175846c6ce5795b"><td class="memItemLeft" align="right" valign="top">variables_map&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a6f250d3a28ed2192d175846c6ce5795b">GetConsoleArguments</a> (int argc, char **argv, fs::path &amp;configFile)</td></tr>
+<tr class="separator:a6f250d3a28ed2192d175846c6ce5795b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a29414.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="memdesc:a3c04138a5bfe5d72780bb7e82a18e627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch the db import server.  <a href="../../d5/d1d/a29414.html#a3c04138a5bfe5d72780bb7e82a18e627">More...</a><br /></td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a88481e3afc1a3d0cced9a0eb22ef52c4" name="a88481e3afc1a3d0cced9a0eb22ef52c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88481e3afc1a3d0cced9a0eb22ef52c4">&#9670;&#160;</a></span>TEMPLATE_CONFIG_OPTION</h2>
+<a id="a97392c73658eeeb49d256527b19ad90f" name="a97392c73658eeeb49d256527b19ad90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97392c73658eeeb49d256527b19ad90f">&#9670;&#160;</a></span>_ACORE_DB_IMPORT_CONFIG</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TEMPLATE_CONFIG_OPTION</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">__typename</td><td>)</td>
-          <td>&#160;&#160;&#160;    template __typename <a class="el" href="../../db/d20/a05034.html#a711be8eda4077d967a3677bd138998ac">ConfigMgr::GetOption</a>&lt;__typename&gt;(std::string const&amp; name, __typename const&amp; def, bool showLogs /*= true*/) const;</td>
+          <td class="memname">#define _ACORE_DB_IMPORT_CONFIG&#160;&#160;&#160;&quot;dbimport.conf&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,112 +164,29 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7096a6c65872ca33d8f44bdd841eaa31" name="a7096a6c65872ca33d8f44bdd841eaa31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7096a6c65872ca33d8f44bdd841eaa31">&#9670;&#160;</a></span>ConfigMgr::GetValueDefault&lt; std::string &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string <a class="el" href="../../db/d20/a05034.html#a4a122373714bb95f10e6532e30735e55">ConfigMgr::GetValueDefault</a>&lt; std::string &gt; </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  442</span>{</div>
-<div class="line"><span class="lineno">  443</span>    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.find(name);</div>
-<div class="line"><span class="lineno">  444</span>    <span class="keywordtype">bool</span> fatalConfig = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  445</span>    <span class="keywordtype">bool</span> notFound = itr == <a class="code hl_variable" href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end();</div>
-<div class="line"><span class="lineno">  446</span>    <span class="keyword">auto</span> envVarName = <a class="code hl_function" href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">GetEnvVarName</a>(name);</div>
-<div class="line"><span class="lineno">  447</span>    <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
-<div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (envVar)</div>
-<div class="line"><span class="lineno">  449</span>    {</div>
-<div class="line"><span class="lineno">  450</span>        <span class="comment">// If showLogs and this key/value pair wasn&#39;t found in the currently saved config</span></div>
-<div class="line"><span class="lineno">  451</span>        <span class="keywordflow">if</span> (showLogs &amp;&amp; (notFound || itr-&gt;second != envVar-&gt;c_str()))</div>
-<div class="line"><span class="lineno">  452</span>        {</div>
-<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName);</div>
-<div class="line"><span class="lineno">  454</span>            <a class="code hl_function" href="../../d9/db6/a04683.html#ab573c6a7facb635d7c4787e5b6f346fa">AddKey</a>(name, *envVar, <span class="stringliteral">&quot;ENVIRONMENT&quot;</span>, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  455</span>        }</div>
-<div class="line"><span class="lineno">  456</span> </div>
-<div class="line"><span class="lineno">  457</span>        <span class="keywordflow">return</span> *envVar;</div>
-<div class="line"><span class="lineno">  458</span>    }</div>
-<div class="line"><span class="lineno">  459</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (notFound)</div>
-<div class="line"><span class="lineno">  460</span>    {</div>
-<div class="line"><span class="lineno">  461</span>        <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  462</span>        {</div>
-<div class="line"><span class="lineno">  463</span>            <span class="keywordflow">for</span> (std::string s : <a class="code hl_variable" href="../../d9/db6/a04683.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">_fatalConfigOptions</a>)</div>
-<div class="line"><span class="lineno">  464</span>                <span class="keywordflow">if</span> (s == name)</div>
-<div class="line"><span class="lineno">  465</span>                {</div>
-<div class="line"><span class="lineno">  466</span>                    fatalConfig = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  467</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  468</span>                }</div>
-<div class="line"><span class="lineno">  469</span> </div>
-<div class="line"><span class="lineno">  470</span>            <span class="keywordflow">if</span> (fatalConfig)</div>
-<div class="line"><span class="lineno">  471</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.\n\nYour server cannot start without this option!&quot;</span>,</div>
-<div class="line"><span class="lineno">  472</span>                    name, <a class="code hl_variable" href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
-<div class="line"><span class="lineno">  473</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  474</span>                <a class="code hl_define" href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
-<div class="line"><span class="lineno">  475</span>                    name, <a class="code hl_variable" href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
-<div class="line"><span class="lineno">  476</span>        }</div>
-<div class="line"><span class="lineno">  477</span> </div>
-<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">return</span> def;</div>
-<div class="line"><span class="lineno">  479</span>    }</div>
-<div class="line"><span class="lineno">  480</span> </div>
-<div class="line"><span class="lineno">  481</span>    <span class="keywordflow">return</span> itr-&gt;second;</div>
-<div class="line"><span class="lineno">  482</span>}</div>
-<div class="ttc" id="aa00326_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d8/d23/a00326.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:152</div></div>
-<div class="ttc" id="aa00326_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
-<div class="ttc" id="aa00326_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d8/d23/a00326.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
-<div class="ttc" id="aa00380_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa04683_html_a037f48efd9ff4f980901dc23f9062cfe"><div class="ttname"><a href="../../d9/db6/a04683.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a></div><div class="ttdeci">std::string GetEnvVarName(std::string const &amp;configName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:281</div></div>
-<div class="ttc" id="aa04683_html_a4222a9ebe6cae31f1a5ad0a4a44bee3f"><div class="ttname"><a href="../../d9/db6/a04683.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _fatalConfigOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:38</div></div>
-<div class="ttc" id="aa04683_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d9/db6/a04683.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:34</div></div>
-<div class="ttc" id="aa04683_html_a8bfa20db83fbdc4e649e394ea8d05d0d"><div class="ttname"><a href="../../d9/db6/a04683.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></div><div class="ttdeci">std::string _filename</div><div class="ttdef"><b>Definition:</b> Config.cpp:31</div></div>
-<div class="ttc" id="aa04683_html_ab573c6a7facb635d7c4787e5b6f346fa"><div class="ttname"><a href="../../d9/db6/a04683.html#ab573c6a7facb635d7c4787e5b6f346fa">anonymous_namespace{Config.cpp}::AddKey</a></div><div class="ttdeci">void AddKey(std::string const &amp;optionName, std::string const &amp;optionKey, std::string_view fileName, bool isOptional, bool isReload)</div><div class="ttdef"><b>Definition:</b> Config.cpp:80</div></div>
-<div class="ttc" id="aa29414_html_aa22b6bcf6d5dd7e02cab1b0aea10bbee"><div class="ttname"><a href="../../d5/d1d/a29414.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a></div><div class="ttdeci">Optional&lt; std::string &gt; GetEnvFromCache(std::string const &amp;configName, std::string const &amp;envVarName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:335</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00034">anonymous_namespace{Config.cpp}::_configOptions</a>, <a class="el" href="../../#l00038">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a>, <a class="el" href="../../#l00031">anonymous_namespace{Config.cpp}::_filename</a>, <a class="el" href="../../#l00080">anonymous_namespace{Config.cpp}::AddKey()</a>, <a class="el" href="../../#l00335">GetEnvFromCache()</a>, <a class="el" href="../../#l00281">anonymous_namespace{Config.cpp}::GetEnvVarName()</a>, <a class="el" href="../../#l00152">LOG_FATAL</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, and <a class="el" href="../../#l00160">LOG_WARN</a>.</p>
-
-</div>
-</div>
-<a id="aa22b6bcf6d5dd7e02cab1b0aea10bbee" name="aa22b6bcf6d5dd7e02cab1b0aea10bbee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa22b6bcf6d5dd7e02cab1b0aea10bbee">&#9670;&#160;</a></span>GetEnvFromCache()</h2>
+<a id="a6f250d3a28ed2192d175846c6ce5795b" name="a6f250d3a28ed2192d175846c6ce5795b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f250d3a28ed2192d175846c6ce5795b">&#9670;&#160;</a></span>GetConsoleArguments()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt; GetEnvFromCache </td>
+          <td class="memname">variables_map GetConsoleArguments </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>configName</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>envVarName</em>&#160;</td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">fs::path &amp;&#160;</td>
+          <td class="paramname"><em>configFile</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -313,31 +195,219 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  336</span>{</div>
-<div class="line"><span class="lineno">  337</span>    <span class="keyword">auto</span> foundInCache = <a class="code hl_variable" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.find(envVarName);</div>
-<div class="line"><span class="lineno">  338</span>    <a class="code hl_typedef" href="../../d8/ddd/a00380.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> foundInEnv;</div>
-<div class="line"><span class="lineno">  339</span>    <span class="comment">// If it&#39;s not in the cache</span></div>
-<div class="line"><span class="lineno">  340</span>    <span class="keywordflow">if</span> (foundInCache == <a class="code hl_variable" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.end())</div>
-<div class="line"><span class="lineno">  341</span>    {</div>
-<div class="line"><span class="lineno">  342</span>        <span class="comment">// Check the env itself</span></div>
-<div class="line"><span class="lineno">  343</span>        foundInEnv = <a class="code hl_function" href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(configName);</div>
-<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">if</span> (foundInEnv)</div>
-<div class="line"><span class="lineno">  345</span>        {</div>
-<div class="line"><span class="lineno">  346</span>            <span class="comment">// If it&#39;s found in the env, put it in the cache</span></div>
-<div class="line"><span class="lineno">  347</span>            <a class="code hl_variable" href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.emplace(envVarName, *foundInEnv);</div>
-<div class="line"><span class="lineno">  348</span>        }</div>
-<div class="line"><span class="lineno">  349</span>        <span class="comment">// Return the result of checking env</span></div>
-<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">return</span> foundInEnv;</div>
-<div class="line"><span class="lineno">  351</span>    }</div>
-<div class="line"><span class="lineno">  352</span> </div>
-<div class="line"><span class="lineno">  353</span>    <span class="keywordflow">return</span> foundInCache-&gt;second;</div>
-<div class="line"><span class="lineno">  354</span>}</div>
-<div class="ttc" id="aa04683_html_a4b39ee4aeace82542c39141c4c052417"><div class="ttname"><a href="../../d9/db6/a04683.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a></div><div class="ttdeci">Optional&lt; std::string &gt; EnvVarForIniKey(std::string const &amp;key)</div><div class="ttdef"><b>Definition:</b> Config.cpp:286</div></div>
-<div class="ttc" id="aa04683_html_a4e8b4d4501c2038b56b2692bbd6adb72"><div class="ttname"><a href="../../d9/db6/a04683.html#a4e8b4d4501c2038b56b2692bbd6adb72">anonymous_namespace{Config.cpp}::_envVarCache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _envVarCache</div><div class="ttdef"><b>Definition:</b> Config.cpp:35</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  137</span>{</div>
+<div class="line"><span class="lineno">  138</span>    options_description all(<span class="stringliteral">&quot;Allowed options&quot;</span>);</div>
+<div class="line"><span class="lineno">  139</span>    all.add_options()</div>
+<div class="line"><span class="lineno">  140</span>        (<span class="stringliteral">&quot;help,h&quot;</span>, <span class="stringliteral">&quot;print usage message&quot;</span>)</div>
+<div class="line"><span class="lineno">  141</span>        (<span class="stringliteral">&quot;version,v&quot;</span>, <span class="stringliteral">&quot;print version build info&quot;</span>)</div>
+<div class="line"><span class="lineno">  142</span>        (<span class="stringliteral">&quot;dry-run,d&quot;</span>, <span class="stringliteral">&quot;Dry run&quot;</span>)</div>
+<div class="line"><span class="lineno">  143</span>        (<span class="stringliteral">&quot;config,c&quot;</span>, value&lt;fs::path&gt;(&amp;configFile)-&gt;default_value(fs::path(<a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetConfigPath() + std::string(<a class="code hl_define" href="../../d5/d1d/a29414.html#a97392c73658eeeb49d256527b19ad90f">_ACORE_DB_IMPORT_CONFIG</a>))), <span class="stringliteral">&quot;use &lt;arg&gt; as configuration file&quot;</span>);</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>    variables_map variablesMap;</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>    <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        store(command_line_parser(argc, argv).options(all).allow_unregistered().run(), variablesMap);</div>
+<div class="line"><span class="lineno">  150</span>        notify(variablesMap);</div>
+<div class="line"><span class="lineno">  151</span>    }</div>
+<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">catch</span> (std::exception <span class="keyword">const</span>&amp; e)</div>
+<div class="line"><span class="lineno">  153</span>    {</div>
+<div class="line"><span class="lineno">  154</span>        std::cerr &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  155</span>    }</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>    <span class="keywordflow">if</span> (variablesMap.count(<span class="stringliteral">&quot;help&quot;</span>))</div>
+<div class="line"><span class="lineno">  158</span>    {</div>
+<div class="line"><span class="lineno">  159</span>        std::cout &lt;&lt; all &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  160</span>    }</div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (variablesMap.count(<span class="stringliteral">&quot;dry-run&quot;</span>))</div>
+<div class="line"><span class="lineno">  162</span>    {</div>
+<div class="line"><span class="lineno">  163</span>        <a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;setDryRun(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">return</span> variablesMap;</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+<div class="ttc" id="aa00203_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:74</div></div>
+<div class="ttc" id="aa29414_html_a97392c73658eeeb49d256527b19ad90f"><div class="ttname"><a href="../../d5/d1d/a29414.html#a97392c73658eeeb49d256527b19ad90f">_ACORE_DB_IMPORT_CONFIG</a></div><div class="ttdeci">#define _ACORE_DB_IMPORT_CONFIG</div><div class="ttdef"><b>Definition:</b> Main.cpp:36</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00035">anonymous_namespace{Config.cpp}::_envVarCache</a>, and <a class="el" href="../../#l00286">anonymous_namespace{Config.cpp}::EnvVarForIniKey()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00036">_ACORE_DB_IMPORT_CONFIG</a>, and <a class="el" href="../../#l00074">sConfigMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00441">ConfigMgr::GetValueDefault&lt; std::string &gt;()</a>, and <a class="el" href="../../#l00380">ConfigMgr::GetValueDefault()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00047">main()</a>.</p>
+
+</div>
+</div>
+<a id="a3c04138a5bfe5d72780bb7e82a18e627" name="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c04138a5bfe5d72780bb7e82a18e627">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Launch the db import server. </p>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    signal(SIGABRT, &amp;<a class="code hl_function" href="../../d7/de4/a04674.html#ad49ea597ac6ffd8eb9ae06bab8c38b43">Acore::AbortHandler</a>);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// Command line parsing</span></div>
+<div class="line"><span class="lineno">   52</span>    <span class="keyword">auto</span> configFile = fs::path(<a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetConfigPath() + std::string(<a class="code hl_define" href="../../d5/d1d/a29414.html#a97392c73658eeeb49d256527b19ad90f">_ACORE_DB_IMPORT_CONFIG</a>));</div>
+<div class="line"><span class="lineno">   53</span>    <span class="keyword">auto</span> vm = <a class="code hl_function" href="../../d5/d1d/a29414.html#a6f250d3a28ed2192d175846c6ce5795b">GetConsoleArguments</a>(argc, argv, configFile);</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="comment">// exit if help is enabled</span></div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (vm.count(<span class="stringliteral">&quot;help&quot;</span>))</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <span class="comment">// Add file and args in config</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;Configure(configFile.generic_string(), std::vector&lt;std::string&gt;(argv, argv + argc));</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;LoadAppConfigs())</div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    std::vector&lt;std::string&gt; overriddenKeys = <a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;OverrideWithEnvVariablesIfAny();</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>    <span class="comment">// Init logging</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_define" href="../../d8/d23/a00326.html#ab5487500f5b4b12072043104b916d582">sLog</a>-&gt;Initialize();</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_function" href="../../d9/d76/a04677.html#af6170962feecf3d126a80593221a357d">Acore::Banner::Show</a>(<span class="stringliteral">&quot;dbimport&quot;</span>,</div>
+<div class="line"><span class="lineno">   71</span>        [](std::string_view text)</div>
+<div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, text);</div>
+<div class="line"><span class="lineno">   74</span>        },</div>
+<div class="line"><span class="lineno">   75</span>        []()</div>
+<div class="line"><span class="lineno">   76</span>        {</div>
+<div class="line"><span class="lineno">   77</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;&gt; Using configuration file:       {}&quot;</span>, <a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetFilename());</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;&gt; Using SSL version:              {} (library: {})&quot;</span>, OPENSSL_VERSION_TEXT, OpenSSL_version(OPENSSL_VERSION));</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;&gt; Using Boost version:            {}.{}.{}&quot;</span>, BOOST_VERSION / 100000, BOOST_VERSION / 100 % 1000, BOOST_VERSION % 100);</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="line"><span class="lineno">   81</span>    );</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">for</span> (std::string <span class="keyword">const</span>&amp; key : overriddenKeys)</div>
+<div class="line"><span class="lineno">   84</span>        <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;Configuration field {} was overridden with environment variable.&quot;</span>, key);</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_function" href="../../d8/d20/a04686.html#ae2c343f2efc8fa69b50e1bd35bf410fd">OpenSSLCrypto::threadsSetup</a>();</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    std::shared_ptr&lt;void&gt; opensslHandle(<span class="keyword">nullptr</span>, [](<span class="keywordtype">void</span>*) { <a class="code hl_function" href="../../d8/d20/a04686.html#af868d9171650614810772c5675c47fd3">OpenSSLCrypto::threadsCleanup</a>(); });</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>    <span class="comment">// Initialize the database connection</span></div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d5/d1d/a29414.html#a1551df43a48f1dbf64dbec1e47b07eea">StartDB</a>())</div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>    std::shared_ptr&lt;void&gt; dbHandle(<span class="keyword">nullptr</span>, [](<span class="keywordtype">void</span>*) { <a class="code hl_function" href="../../d5/d1d/a29414.html#a927af1587546ee7503a3b9a18f6439c0">StopDB</a>(); });</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;Halting process...&quot;</span>);</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="aa00326_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00326_html_ab5487500f5b4b12072043104b916d582"><div class="ttname"><a href="../../d8/d23/a00326.html#ab5487500f5b4b12072043104b916d582">sLog</a></div><div class="ttdeci">#define sLog</div><div class="ttdef"><b>Definition:</b> Log.h:126</div></div>
+<div class="ttc" id="aa04674_html_ad49ea597ac6ffd8eb9ae06bab8c38b43"><div class="ttname"><a href="../../d7/de4/a04674.html#ad49ea597ac6ffd8eb9ae06bab8c38b43">Acore::AbortHandler</a></div><div class="ttdeci">AC_COMMON_API void AbortHandler(int sigval)</div><div class="ttdef"><b>Definition:</b> Errors.cpp:148</div></div>
+<div class="ttc" id="aa04677_html_af6170962feecf3d126a80593221a357d"><div class="ttname"><a href="../../d9/d76/a04677.html#af6170962feecf3d126a80593221a357d">Acore::Banner::Show</a></div><div class="ttdeci">AC_COMMON_API void Show(std::string_view applicationName, void(*log)(std::string_view text), void(*logExtraInfo)())</div><div class="ttdef"><b>Definition:</b> Banner.cpp:22</div></div>
+<div class="ttc" id="aa04686_html_ae2c343f2efc8fa69b50e1bd35bf410fd"><div class="ttname"><a href="../../d8/d20/a04686.html#ae2c343f2efc8fa69b50e1bd35bf410fd">OpenSSLCrypto::threadsSetup</a></div><div class="ttdeci">AC_COMMON_API void threadsSetup()</div><div class="ttdoc">Needs to be called before threads using openssl are spawned.</div><div class="ttdef"><b>Definition:</b> OpenSSLCrypto.cpp:41</div></div>
+<div class="ttc" id="aa04686_html_af868d9171650614810772c5675c47fd3"><div class="ttname"><a href="../../d8/d20/a04686.html#af868d9171650614810772c5675c47fd3">OpenSSLCrypto::threadsCleanup</a></div><div class="ttdeci">AC_COMMON_API void threadsCleanup()</div><div class="ttdoc">Needs to be called after threads using openssl are despawned.</div><div class="ttdef"><b>Definition:</b> OpenSSLCrypto.cpp:50</div></div>
+<div class="ttc" id="aa29414_html_a1551df43a48f1dbf64dbec1e47b07eea"><div class="ttname"><a href="../../d5/d1d/a29414.html#a1551df43a48f1dbf64dbec1e47b07eea">StartDB</a></div><div class="ttdeci">bool StartDB()</div><div class="ttdoc">Initialize connection to the database.</div><div class="ttdef"><b>Definition:</b> Main.cpp:102</div></div>
+<div class="ttc" id="aa29414_html_a6f250d3a28ed2192d175846c6ce5795b"><div class="ttname"><a href="../../d5/d1d/a29414.html#a6f250d3a28ed2192d175846c6ce5795b">GetConsoleArguments</a></div><div class="ttdeci">variables_map GetConsoleArguments(int argc, char **argv, fs::path &amp;configFile)</div><div class="ttdef"><b>Definition:</b> Main.cpp:136</div></div>
+<div class="ttc" id="aa29414_html_a927af1587546ee7503a3b9a18f6439c0"><div class="ttname"><a href="../../d5/d1d/a29414.html#a927af1587546ee7503a3b9a18f6439c0">StopDB</a></div><div class="ttdeci">void StopDB()</div><div class="ttdoc">Close the connection to the database.</div><div class="ttdef"><b>Definition:</b> Main.cpp:128</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00036">_ACORE_DB_IMPORT_CONFIG</a>, <a class="el" href="../../#l00148">Acore::AbortHandler()</a>, <a class="el" href="../../#l00136">GetConsoleArguments()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00074">sConfigMgr</a>, <a class="el" href="../../#l00022">Acore::Banner::Show()</a>, <a class="el" href="../../#l00126">sLog</a>, <a class="el" href="../../#l00102">StartDB()</a>, <a class="el" href="../../#l00128">StopDB()</a>, <a class="el" href="../../#l00050">OpenSSLCrypto::threadsCleanup()</a>, and <a class="el" href="../../#l00041">OpenSSLCrypto::threadsSetup()</a>.</p>
+
+</div>
+</div>
+<a id="a1551df43a48f1dbf64dbec1e47b07eea" name="a1551df43a48f1dbf64dbec1e47b07eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1551df43a48f1dbf64dbec1e47b07eea">&#9670;&#160;</a></span>StartDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool StartDB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize connection to the database. </p>
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_function" href="../../df/dd9/a04702.html#a70b74137156f0a22792c3cf95c54decc">MySQL::Library_Init</a>();</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <span class="comment">// Load modules conditionally based on what modules are allowed to auto-update or none</span></div>
+<div class="line"><span class="lineno">  107</span>    std::string modules = <a class="code hl_define" href="../../de/d79/a00203.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;Updates.AllowedModules&quot;</span>, <span class="stringliteral">&quot;all&quot;</span>);</div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;Loading modules: {}&quot;</span>, modules.empty() ? <span class="stringliteral">&quot;none&quot;</span> : modules);</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a> loader =</div>
+<div class="line"><span class="lineno">  111</span>        modules.empty() ? <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a>(<span class="stringliteral">&quot;dbimport&quot;</span>) :</div>
+<div class="line"><span class="lineno">  112</span>        (modules == <span class="stringliteral">&quot;all&quot;</span>) ? <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a>::DATABASE_NONE, AC_MODULES_LIST) :</div>
+<div class="line"><span class="lineno">  113</span>        <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <a class="code hl_class" href="../../d3/ddd/a05594.html">DatabaseLoader</a>::DATABASE_NONE, modules);</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>    loader</div>
+<div class="line"><span class="lineno">  116</span>        .<a class="code hl_function" href="../../d3/ddd/a05594.html#a90e78741afab5e8acae41e24ba256675">AddDatabase</a>(<a class="code hl_variable" href="../../d1/daa/a00638.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>, <span class="stringliteral">&quot;Login&quot;</span>)</div>
+<div class="line"><span class="lineno">  117</span>        .<a class="code hl_function" href="../../d3/ddd/a05594.html#a90e78741afab5e8acae41e24ba256675">AddDatabase</a>(<a class="code hl_variable" href="../../d1/daa/a00638.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>, <span class="stringliteral">&quot;Character&quot;</span>)</div>
+<div class="line"><span class="lineno">  118</span>        .<a class="code hl_function" href="../../d3/ddd/a05594.html#a90e78741afab5e8acae41e24ba256675">AddDatabase</a>(<a class="code hl_variable" href="../../d1/daa/a00638.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>, <span class="stringliteral">&quot;World&quot;</span>);</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>    <span class="keywordflow">if</span> (!loader.<a class="code hl_function" href="../../d3/ddd/a05594.html#ab0ffcdb400e9e5d80598f89dddb3bea8">Load</a>())</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_define" href="../../d8/d23/a00326.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;dbimport&quot;</span>, <span class="stringliteral">&quot;Started database connection pool.&quot;</span>);</div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="ttc" id="aa00638_html_a2cf25eafe7f2f73b61ccde11d55daf0c"><div class="ttname"><a href="../../d1/daa/a00638.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; LoginDatabaseConnection &gt; LoginDatabase</div><div class="ttdoc">Accessor to the realm/login database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:22</div></div>
+<div class="ttc" id="aa00638_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d1/daa/a00638.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa00638_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d1/daa/a00638.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa04702_html_a70b74137156f0a22792c3cf95c54decc"><div class="ttname"><a href="../../df/dd9/a04702.html#a70b74137156f0a22792c3cf95c54decc">MySQL::Library_Init</a></div><div class="ttdeci">AC_DATABASE_API void Library_Init()</div><div class="ttdef"><b>Definition:</b> MySQLThreading.cpp:21</div></div>
+<div class="ttc" id="aa05594_html"><div class="ttname"><a href="../../d3/ddd/a05594.html">DatabaseLoader</a></div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:33</div></div>
+<div class="ttc" id="aa05594_html_a90e78741afab5e8acae41e24ba256675"><div class="ttname"><a href="../../d3/ddd/a05594.html#a90e78741afab5e8acae41e24ba256675">DatabaseLoader::AddDatabase</a></div><div class="ttdeci">DatabaseLoader &amp; AddDatabase(DatabaseWorkerPool&lt; T &gt; &amp;pool, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:35</div></div>
+<div class="ttc" id="aa05594_html_ab0ffcdb400e9e5d80598f89dddb3bea8"><div class="ttname"><a href="../../d3/ddd/a05594.html#ab0ffcdb400e9e5d80598f89dddb3bea8">DatabaseLoader::Load</a></div><div class="ttdeci">bool Load()</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:154</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00035">DatabaseLoader::AddDatabase()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00046">DatabaseLoader::DATABASE_NONE</a>, <a class="el" href="../../#l00021">MySQL::Library_Init()</a>, <a class="el" href="../../#l00154">DatabaseLoader::Load()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00022">LoginDatabase</a>, <a class="el" href="../../#l00074">sConfigMgr</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00047">main()</a>.</p>
+
+</div>
+</div>
+<a id="a927af1587546ee7503a3b9a18f6439c0" name="a927af1587546ee7503a3b9a18f6439c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927af1587546ee7503a3b9a18f6439c0">&#9670;&#160;</a></span>StopDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StopDB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close the connection to the database. </p>
+<div class="fragment"><div class="line"><span class="lineno">  129</span>{</div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_variable" href="../../d1/daa/a00638.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Close();</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_variable" href="../../d1/daa/a00638.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Close();</div>
+<div class="line"><span class="lineno">  132</span>    <a class="code hl_variable" href="../../d1/daa/a00638.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Close();</div>
+<div class="line"><span class="lineno">  133</span>    <a class="code hl_function" href="../../df/dd9/a04702.html#aff44554b66bd7ef0e21f1db5beb0b81a">MySQL::Library_End</a>();</div>
+<div class="line"><span class="lineno">  134</span>}</div>
+<div class="ttc" id="aa04702_html_aff44554b66bd7ef0e21f1db5beb0b81a"><div class="ttname"><a href="../../df/dd9/a04702.html#aff44554b66bd7ef0e21f1db5beb0b81a">MySQL::Library_End</a></div><div class="ttdeci">AC_DATABASE_API void Library_End()</div><div class="ttdef"><b>Definition:</b> MySQLThreading.cpp:26</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00026">MySQL::Library_End()</a>, <a class="el" href="../../#l00022">LoginDatabase</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00047">main()</a>.</p>
 
 </div>
 </div>
@@ -346,8 +416,8 @@ template&lt;&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e8df728d6a6e829c2d0f8060a021b576.html">Configuration</a></li><li class="navelem"><a class="el" href="../../d5/d1d/a29414.html">Config.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 21 2024 20:40:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_641f68e763fd61f0f25b36c08d43d6d4.html">dbimport</a></li><li class="navelem"><a class="el" href="../../d5/d1d/a29414.html">Main.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 28 2024 20:40:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,8 @@
 var a26158 =
 [
-    [ "HandleScriptEffect", "d4/d91/a26158.html#a8b60ae77f13045a582548fe5d1186d54", null ],
-    [ "PrepareSpellScript", "d4/d91/a26158.html#ad68619783c4a1aad5a24826bf5d89858", null ],
-    [ "Register", "d4/d91/a26158.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
+    [ "HandleDummy", "d4/d91/a26158.html#ae396c96647e36da357bdc70e11e3145f", null ],
+    [ "Load", "d4/d91/a26158.html#a2b4811bf7e60361e13bc382e62173cee", null ],
+    [ "PrepareSpellScript", "d4/d91/a26158.html#ac97d07fb0d964bf3fb29d8bee57fc8e7", null ],
+    [ "Register", "d4/d91/a26158.html#a7c6aa891b012a0e1820fbe67976d68fd", null ],
+    [ "count", "d4/d91/a26158.html#a73358b2272ad12faef006b1ef633cac0", null ]
 ];

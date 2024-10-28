@@ -1,9 +1,8 @@
 var a21350 =
 [
-    [ "npc_azure_stalkerAI", "da/dfc/a21350.html#a1499e734f0d95d491bcd23c2e858a1ee", null ],
-    [ "Reset", "da/dfc/a21350.html#a9bd36e95ce7c3157a2ac53400da51d23", null ],
-    [ "UpdateAI", "da/dfc/a21350.html#a8c4ea046d69b269e886960ba9562fd0c", null ],
-    [ "TacticalBlinkCasted", "da/dfc/a21350.html#a875a272380251fcc7f98e5c0f84bb41a", null ],
-    [ "uiBackstabTimer", "da/dfc/a21350.html#ad03ba957706a62e3d8091d025ddd50dc", null ],
-    [ "uiTacticalBlinkTimer", "da/dfc/a21350.html#ab817fb9f2f06715f0a08a99e12693697", null ]
+    [ "npc_azure_captainAI", "da/dfc/a21350.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
+    [ "Reset", "da/dfc/a21350.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
+    [ "UpdateAI", "da/dfc/a21350.html#ae50ac21138e12be43caa93e37062051e", null ],
+    [ "uiMortalStrikeTimer", "da/dfc/a21350.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
+    [ "uiWhirlwindTimer", "da/dfc/a21350.html#a2e3439976a6e84a60be765cb0b929798", null ]
 ];

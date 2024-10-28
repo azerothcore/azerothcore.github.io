@@ -1,6 +1,8 @@
 var a16594 =
 [
-    [ "boss_devourer_of_soulsAI", "d4/dbc/a16598.html", "d4/dbc/a16598" ],
-    [ "boss_devourer_of_souls", "d8/d9e/a16594.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
-    [ "GetAI", "d8/d9e/a16594.html#a3de68fa630c5b74104c461f88edd1d36", null ]
+    [ "npc_fos_leaderAI", "d8/d9e/a16594.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
+    [ "DoAction", "d8/d9e/a16594.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
+    [ "Reset", "d8/d9e/a16594.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
+    [ "UpdateAI", "d8/d9e/a16594.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
+    [ "events", "d8/d9e/a16594.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
 ];

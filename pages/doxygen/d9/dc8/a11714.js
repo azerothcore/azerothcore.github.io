@@ -1,6 +1,8 @@
 var a11714 =
 [
-    [ "boss_highlordomokkAI", "d6/dac/a11718.html", "d6/dac/a11718" ],
-    [ "boss_highlord_omokk", "d9/dc8/a11714.html#af5174587ed3cd1c46f604183a75de99e", null ],
-    [ "GetAI", "d9/dc8/a11714.html#afb8efb012791c6a2fc18975a1ec7f984", null ]
+    [ "boss_halyconAI", "d9/dc8/a11714.html#acc110d5d802fc0da3ea630f667167748", null ],
+    [ "JustDied", "d9/dc8/a11714.html#a7d71e135a8edf3d3b99ccfcb3b071eaa", null ],
+    [ "JustEngagedWith", "d9/dc8/a11714.html#a5735567462167fffa4d01800d696296e", null ],
+    [ "Reset", "d9/dc8/a11714.html#ac5622260b0b40cb584cf3037521cc5b8", null ],
+    [ "UpdateAI", "d9/dc8/a11714.html#a6e72949b63de3d32d8369c7122b6060d", null ]
 ];

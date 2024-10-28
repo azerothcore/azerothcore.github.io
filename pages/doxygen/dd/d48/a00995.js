@@ -1,6 +1,6 @@
 var a00995 =
 [
-    [ "boss_high_botanist_freywinn", "d2/d08/a23650.html", "d2/d08/a23650" ],
+    [ "boss_high_botanist_freywinn", "d8/d8f/a23638.html", "d8/d8f/a23638" ],
     [ "Npcs", "dd/d48/a00995.html#a213e9ce155baf17b6147afe6a069d54d", [
       [ "NPC_TM_GUARDSMAN", "d2/dab/a02516.html#a213e9ce155baf17b6147afe6a069d54da21f261d22a0cd419e2febe6c2604502e", null ],
       [ "NPC_TM_PROTECTOR", "d2/dab/a02516.html#a213e9ce155baf17b6147afe6a069d54da78f045556089f7be512b4bc38abc558f", null ],
@@ -1405,7 +1405,8 @@ var a00995 =
       [ "SPELL_FIRE_BOMB_THROW", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cadf9779b2d2bc0e1c6a72ae6c352a5921", null ],
       [ "SPELL_FIRE_BOMB_DUMMY", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9b9aaccff4f61780c382ea37c958a547", null ],
       [ "SPELL_FIRE_BOMB_DAMAGE", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298caf31d590a95c5dc269e144c0e358b7d69", null ],
-      [ "SPELL_HATCH_EGG", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7", null ],
+      [ "SPELL_HATCH_EGG_ALL", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca0eca4ab9e4ea454b87f43f9b7b2a66e5", null ],
+      [ "SPELL_HATCH_EGG_SINGULAR", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca5932bd0c5270ec9a33b6a582b5aebfe4", null ],
       [ "SPELL_SUMMON_HATCHLING", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca028becb2dfa4b3e1c463f4957700f454", null ],
       [ "SPELL_FLAMEBUFFET", "d3/d23/a02120.html#a5bd342133be8c2137b831460acc9298ca9e439cf66405c1d716b0743793f0f488", null ],
       [ "SPELL_BERSERK", "d0/d79/a02117.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],

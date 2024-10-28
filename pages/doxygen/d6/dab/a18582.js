@@ -1,9 +1,9 @@
 var a18582 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "d6/dab/a18582.html#a18330d49e510f83af7ee0120df14e633", null ],
-    [ "AttackStart", "d6/dab/a18582.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
-    [ "JustEngagedWith", "d6/dab/a18582.html#adddd56260b41738d69fcdfe31b677c51", null ],
-    [ "Reset", "d6/dab/a18582.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
-    [ "UpdateAI", "d6/dab/a18582.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
-    [ "events", "d6/dab/a18582.html#a1c8a527d217f9b810f87da0fc020528a", null ]
+    [ "npc_icc_skybreaker_vicarAI", "d6/dab/a18582.html#ae74a306850b328f536b55e5c24c040ab", null ],
+    [ "AttackStart", "d6/dab/a18582.html#a52b753e1f599eb02385d980a78cd3c78", null ],
+    [ "JustEngagedWith", "d6/dab/a18582.html#afdb4215cd0578de7342b152783666ed6", null ],
+    [ "Reset", "d6/dab/a18582.html#aeb11687534fa7c1e76ea22cc07deb73d", null ],
+    [ "UpdateAI", "d6/dab/a18582.html#af1726169fe63eb3ff1ed95eb0e10d2f0", null ],
+    [ "events", "d6/dab/a18582.html#a711d9571b4edb87f77eeebbd12e248b3", null ]
 ];

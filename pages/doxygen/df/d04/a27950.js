@@ -1,5 +1,5 @@
 var a27950 =
 [
-    [ "Itemlvl", "df/d04/a27950.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
-    [ "multiplier", "df/d04/a27950.html#a5c6c206a6185a546223de7501ff846f6", null ]
+    [ "Id", "df/d04/a27950.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
+    [ "textid", "df/d04/a27950.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
 ];

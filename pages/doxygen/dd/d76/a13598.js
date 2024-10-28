@@ -1,6 +1,7 @@
 var a13598 =
 [
-    [ "boss_janalaiAI", "d6/d95/a13602.html", "d6/d95/a13602" ],
-    [ "boss_janalai", "dd/d76/a13598.html#adb902ccc4dfc4ef7bab3e3428ff1082b", null ],
-    [ "GetAI", "dd/d76/a13598.html#a1782fb8882fae9818c03feab00417619", null ]
+    [ "HandleDispel", "dd/d76/a13598.html#a415977576283972ce4a1050c70826d7c", null ],
+    [ "PrepareAuraScript", "dd/d76/a13598.html#a95dfbfe631e8ec9213a32c6f52d3feb1", null ],
+    [ "Register", "dd/d76/a13598.html#a1bbb71eeb2273c2ecd0eb774b68735dc", null ],
+    [ "Validate", "dd/d76/a13598.html#ac496e7bef875ca46660217e74fc3bc74", null ]
 ];

@@ -1,6 +1,10 @@
 var a20074 =
 [
-    [ "npc_ulduar_hodir_mageAI", "d8/da5/a20078.html", "d8/da5/a20078" ],
-    [ "npc_ulduar_hodir_mage", "d2/d24/a20074.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
-    [ "GetAI", "d2/d24/a20074.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
+    [ "HandleEffectPeriodic", "d2/d24/a20074.html#aa62be73e00d9cb512806787eaf1c4144", null ],
+    [ "Load", "d2/d24/a20074.html#ab31989a4abd6b5cb08818b0e082c7d9f", null ],
+    [ "PrepareAuraScript", "d2/d24/a20074.html#ad9664bff267b330565d3c706e1752e9d", null ],
+    [ "Register", "d2/d24/a20074.html#ad971837f4f0da07b21271fb2b5ac1715", null ],
+    [ "Validate", "d2/d24/a20074.html#a3f6653b4ca202d9b0971189930e8b463", null ],
+    [ "_counter", "d2/d24/a20074.html#a3e7343f124b66a55d9a6cbf0ab085309", null ],
+    [ "_prev", "d2/d24/a20074.html#a9dd8f32c8ec709a14be15b46745b692b", null ]
 ];

@@ -1,8 +1,10 @@
 var a27306 =
 [
-    [ "trigger_periodicAI", "dc/d9c/a27306.html#a696d62fed28de9c67827dad111cf320b", null ],
-    [ "UpdateAI", "dc/d9c/a27306.html#aed31d60765eff7dd11790714e28e729e", null ],
-    [ "interval", "dc/d9c/a27306.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
-    [ "spell", "dc/d9c/a27306.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
-    [ "timer", "dc/d9c/a27306.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
+    [ "npc_prof_blacksmith", "dc/d9c/a27306.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
+    [ "HasWeaponSub", "dc/d9c/a27306.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
+    [ "OnGossipHello", "dc/d9c/a27306.html#a9a432c1ec33578949110c877fc6a686d", null ],
+    [ "OnGossipSelect", "dc/d9c/a27306.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
+    [ "SendActionMenu", "dc/d9c/a27306.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
+    [ "SendConfirmLearn", "dc/d9c/a27306.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
+    [ "SendConfirmUnlearn", "dc/d9c/a27306.html#a851dc241d944bc888a00df85bff17e3a", null ]
 ];

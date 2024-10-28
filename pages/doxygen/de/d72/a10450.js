@@ -1,6 +1,7 @@
 var a10450 =
 [
-    [ "GuildSetGuildMaster", "de/d72/a10450.html#ae6ca07252de719cc506042c8d3e8285e", null ],
-    [ "Read", "de/d72/a10450.html#a94f16e55a840c7cba991a119af5d8263", null ],
-    [ "NewMasterName", "de/d72/a10450.html#a02f37610492c75373266bb93000adcbf", null ]
+    [ "GuildBankSetTabText", "de/d72/a10450.html#aba353d3f94a88b71f49b9c0dc096be2c", null ],
+    [ "Read", "de/d72/a10450.html#a24f580f6addcd08945c05016b3f0e544", null ],
+    [ "Tab", "de/d72/a10450.html#ada6707c2105410d78d4335dbf4747141", null ],
+    [ "TabText", "de/d72/a10450.html#a9bb8c3f539fdcf389caf57ed818c6164", null ]
 ];

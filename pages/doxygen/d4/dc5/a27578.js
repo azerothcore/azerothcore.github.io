@@ -1,18 +1,12 @@
 var a27578 =
 [
-    [ "DBCStorageBase", "d4/dc5/a27578.html#ad688053187f77a4a016274f7e46a76a3", null ],
-    [ "~DBCStorageBase", "d4/dc5/a27578.html#a39d4e4f05a50b952c2f952a452beb010", null ],
-    [ "GetFieldCount", "d4/dc5/a27578.html#a867375a50bcf7ec8c40b6ff7305a5e81", null ],
-    [ "GetFormat", "d4/dc5/a27578.html#ab333cdbf4cb7c6f527045902256fdf2f", null ],
-    [ "Load", "d4/dc5/a27578.html#a779bd666cbdc6587eab6a81e51e894d8", null ],
-    [ "Load", "d4/dc5/a27578.html#a14dfcde7f1c9c63a293638009b6ce16b", null ],
-    [ "LoadFromDB", "d4/dc5/a27578.html#abea56cf48880a3ae02d322b6283032b4", null ],
-    [ "LoadFromDB", "d4/dc5/a27578.html#a7156af21138d19a978b9551a2ca24708", null ],
-    [ "LoadStringsFrom", "d4/dc5/a27578.html#a912b4793ddc3e3ff3bc9279693373b79", null ],
-    [ "LoadStringsFrom", "d4/dc5/a27578.html#a0e3e3be24e2404fad11c322190e0e337", null ],
-    [ "_dataTable", "d4/dc5/a27578.html#ab13a1018e69345a3665f50d696bc7236", null ],
-    [ "_fieldCount", "d4/dc5/a27578.html#aa9bebefe18610016bef2c7d087d20abe", null ],
-    [ "_fileFormat", "d4/dc5/a27578.html#a3ac1c70817c9b7a351ea0e0d2e602351", null ],
-    [ "_indexTableSize", "d4/dc5/a27578.html#aa17bb429de3b9df9bb6ffcbc9bf9010b", null ],
-    [ "_stringPool", "d4/dc5/a27578.html#a8d571b107344a2dbde0b2cbcfa3c9b52", null ]
+    [ "categoryId", "d4/dc5/a27578.html#a1de0e4302757f18c08b90b40e059737b", null ],
+    [ "count", "d4/dc5/a27578.html#a93aac150067979467f56d9919ff665a4", null ],
+    [ "flags", "d4/dc5/a27578.html#a5c0dfb5b3c0711aff47d3d604ded2d1a", null ],
+    [ "ID", "d4/dc5/a27578.html#a843fee247948d02f7aaf04144cb37ef5", null ],
+    [ "mapID", "d4/dc5/a27578.html#ab3d41381808c8bdc163554f7c46f6bc6", null ],
+    [ "name", "d4/dc5/a27578.html#a806cfeddc475994f1b421679bd9699e6", null ],
+    [ "points", "d4/dc5/a27578.html#abc2b4cf9c6580c6bc99d5c47d7539374", null ],
+    [ "refAchievement", "d4/dc5/a27578.html#a858661b2e3479fa3fc2e029ae0d8a145", null ],
+    [ "requiredFaction", "d4/dc5/a27578.html#a722dbda5ed8d74f5a1e75bdec8841aa3", null ]
 ];

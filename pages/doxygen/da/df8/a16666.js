@@ -1,6 +1,6 @@
 var a16666 =
 [
-    [ "npc_ghostly_priestAI", "d3/d7d/a16670.html", "d3/d7d/a16670" ],
-    [ "npc_ghostly_priest", "da/df8/a16666.html#a7c03bb327cfc65f4df515969da482ddb", null ],
-    [ "GetAI", "da/df8/a16666.html#a0fab76345c5459efcedff02123e4fc8d", null ]
+    [ "npc_phantom_hallucinationAI", "d3/d7d/a16670.html", "d3/d7d/a16670" ],
+    [ "npc_phantom_hallucination", "da/df8/a16666.html#a685889c090152a2562ee9adef7efbf71", null ],
+    [ "GetAI", "da/df8/a16666.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
 ];

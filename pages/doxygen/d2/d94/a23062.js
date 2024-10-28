@@ -1,7 +1,6 @@
 var a23062 =
 [
-    [ "npc_tainted_elemental", "d2/d94/a23062.html#a71736892dc20a5be304a161dac183bc9", null ],
-    [ "JustEngagedWith", "d2/d94/a23062.html#a51a05405b3acb9cc0bd27ff14fc61cd2", null ],
-    [ "Reset", "d2/d94/a23062.html#aa6792680e31edf8597948b77f5ff2218", null ],
-    [ "UpdateAI", "d2/d94/a23062.html#a32a68a990c764a0f73d3420b93e3b97c", null ]
+    [ "HandleScriptEffect", "d2/d94/a23062.html#a62ed9bff154c5aab74e044f8f9982263", null ],
+    [ "PrepareSpellScript", "d2/d94/a23062.html#a0e87265cf22ef8b4e302b8e216123395", null ],
+    [ "Register", "d2/d94/a23062.html#a0d722447d91991462245e8b392d20e10", null ]
 ];

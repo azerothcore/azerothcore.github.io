@@ -1,12 +1,14 @@
 var a22506 =
 [
-    [ "boss_shirrak_the_dead_watcher", "d6/d15/a22506.html#aaa6826de3b6563342b89544b38386d93", null ],
-    [ "EnterEvadeMode", "d6/d15/a22506.html#a23768629c4ab48954880c3c29099f432", null ],
-    [ "getStackCount", "d6/d15/a22506.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
-    [ "JustEngagedWith", "d6/d15/a22506.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
-    [ "JustSummoned", "d6/d15/a22506.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
-    [ "Reset", "d6/d15/a22506.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
-    [ "SpellHitTarget", "d6/d15/a22506.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
-    [ "UpdateAI", "d6/d15/a22506.html#a855505f949f53f979187abcb5b2f617f", null ],
-    [ "focusGUID", "d6/d15/a22506.html#a81a7eade42ef595c173d7828ce59ef88", null ]
+    [ "boss_nexusprince_shaffar", "d6/d15/a22506.html#a2e861fb53bca7a40e967971b5e7be533", null ],
+    [ "JustDied", "d6/d15/a22506.html#abf2fef0888bced83511883027bf4d500", null ],
+    [ "JustEngagedWith", "d6/d15/a22506.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
+    [ "JustSummoned", "d6/d15/a22506.html#a576240b46ce0988f0ef86e1460c831ef", null ],
+    [ "KilledUnit", "d6/d15/a22506.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
+    [ "MoveInLineOfSight", "d6/d15/a22506.html#a71e501225d88851210d2e0e58de27f99", null ],
+    [ "Reset", "d6/d15/a22506.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
+    [ "SummonedCreatureDespawn", "d6/d15/a22506.html#ab806564e96708ca12f444249abd3c88c", null ],
+    [ "UpdateAI", "d6/d15/a22506.html#a147500575a3821262ec718ec023b458c", null ],
+    [ "HasTaunted", "d6/d15/a22506.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
+    [ "summons", "d6/d15/a22506.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
 ];

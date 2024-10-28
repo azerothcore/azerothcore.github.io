@@ -1,5 +1,5 @@
 var a27174 =
 [
-    [ "go_jump_a_tron", "dd/d6d/a27174.html#a23306caf54a4282d290eec5daa3bfbc5", null ],
-    [ "OnGossipHello", "dd/d6d/a27174.html#ae45085de26fc6ad4c3fa2bddf0bf20ec", null ]
+    [ "go_tele_to_dalaran_crystal", "dd/d6d/a27174.html#ab41268b7d568e8f189338f27cd90a62c", null ],
+    [ "OnGossipHello", "dd/d6d/a27174.html#a7f754a29249653ca7848494310ef1a8d", null ]
 ];

@@ -1,7 +1,8 @@
 var a21166 =
 [
-    [ "PrepareAuraScript", "d0/d28/a21166.html#ac55d68816fa778b0961f574f7bfd7d6f", null ],
-    [ "Register", "d0/d28/a21166.html#a02fcc46ae737553240bffbc88ed0288b", null ],
-    [ "TriggerFists", "d0/d28/a21166.html#ae4329c52d90073f0d9c4211d3fd4c309", null ],
-    [ "Validate", "d0/d28/a21166.html#aec13cc93019c6f62df5ba2f27dd02892", null ]
+    [ "npc_frozen_orbAI", "d0/d28/a21166.html#aa7456d1d876690e3723ee0a36866348b", null ],
+    [ "JustEngagedWith", "d0/d28/a21166.html#afd9686dbb8503d7f756b670269aed33d", null ],
+    [ "Reset", "d0/d28/a21166.html#a376dc1fcef9752e235008c4ba66e2463", null ],
+    [ "UpdateAI", "d0/d28/a21166.html#a37d7cf81197fe4344c8b847753997e93", null ],
+    [ "switchTimer", "d0/d28/a21166.html#afc63a3cf6b814df81a35b53278d722c9", null ]
 ];

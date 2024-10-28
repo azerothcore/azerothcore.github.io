@@ -1,5 +1,5 @@
 var a08206 =
 [
-    [ "PositionXYZStreamer", "da/de1/a08206.html#a8da1be6111bd97ef68d62d0d9d630c56", null ],
-    [ "m_pos", "da/de1/a08206.html#ae5db7cb3adba811c0b9483645a7f1770", null ]
+    [ "PositionXYStreamer", "da/de1/a08206.html#a6f165ea30ccb7cdeba0c4e197b3a0e5b", null ],
+    [ "Pos", "da/de1/a08206.html#afb17e60540233b8861b6e967d0e44e07", null ]
 ];

@@ -1,5 +1,5 @@
 var a14226 =
 [
-    [ "MidsummerPlayerScript", "d7/d5e/a14226.html#ace19c3dfaec5aa5bdfab46552a759306", null ],
-    [ "OnUpdateZone", "d7/d5e/a14226.html#af9b22522b5e3f9530482861f932c5489", null ]
+    [ "PrepareSpellScript", "d7/d5e/a14226.html#a50ee42c11937759b6c52c2ab994481c4", null ],
+    [ "Register", "d7/d5e/a14226.html#a8dc12a723c2da948c38119e3fc34df35", null ]
 ];

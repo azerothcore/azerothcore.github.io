@@ -1,6 +1,28 @@
 var a18002 =
 [
-    [ "LichKingMovieEvent", "df/df1/a18002.html#a3e48e13dc5166c73a9f379045988f86a", null ],
-    [ "Execute", "df/df1/a18002.html#a22d6181fd2651d62dcb6cdbabe0561fe", null ],
-    [ "_owner", "df/df1/a18002.html#a7ed68f442a644d6bb7a036812351d89e", null ]
+    [ "boss_the_lich_kingAI", "df/df1/a18002.html#ab8b78326fe92f51a9fe21943a3bb980c", null ],
+    [ "CanAIAttack", "df/df1/a18002.html#ae4ebbccc403bcc3621437a36f8678b93", null ],
+    [ "DamageTaken", "df/df1/a18002.html#a787f4d84930767b71b4af9e5092734c4", null ],
+    [ "DoAction", "df/df1/a18002.html#a179ff0d1381abc320efc88a4da0e1c2a", null ],
+    [ "EnterEvadeMode", "df/df1/a18002.html#a1d71569f5da22dd4046a76525bff6452", null ],
+    [ "GetData", "df/df1/a18002.html#a5b289363b4ac0b2be62a8df7deae8ed7", null ],
+    [ "JustDied", "df/df1/a18002.html#a80cfbecffa68f9fc42028ebdac0975c4", null ],
+    [ "JustEngagedWith", "df/df1/a18002.html#a401e1c529438c1ce08943ba2da8f1347", null ],
+    [ "JustSummoned", "df/df1/a18002.html#a0e1ab5732b70522e47036f067866eef3", null ],
+    [ "KilledUnit", "df/df1/a18002.html#acb8e6c03bbace5d66166c98c13a98290", null ],
+    [ "MovementInform", "df/df1/a18002.html#a4d66d60d0e129b3a873d0c91c03e02f4", null ],
+    [ "Reset", "df/df1/a18002.html#ad6653183f1dda6bfe3659a94993772ab", null ],
+    [ "SetData", "df/df1/a18002.html#a13f8561d1d131b7e57904678a64ae1de", null ],
+    [ "SpellHit", "df/df1/a18002.html#ac756adaba702219440fee3bfc2548f3c", null ],
+    [ "SpellHitTarget", "df/df1/a18002.html#a43ba267fd91585541e69e3911c0291d7", null ],
+    [ "SummonedCreatureDies", "df/df1/a18002.html#af81105d937124f49bd722ca787d31d58", null ],
+    [ "UpdateAI", "df/df1/a18002.html#a06c2609a2cff0d6b684dc197e6a29e9b", null ],
+    [ "_bFordringMustFallYell", "df/df1/a18002.html#a0e932a7e98d4e5d5fce8c35926acc185", null ],
+    [ "_bFrostmournePhase", "df/df1/a18002.html#af867d86aa20366bfbbfaf8083fe35271", null ],
+    [ "_lastTalkTimeBuff", "df/df1/a18002.html#af948b1ee8415f61e3d4fb8841c1ff9e3", null ],
+    [ "_lastTalkTimeKill", "df/df1/a18002.html#a9b94bb5efd74560dd8d653e0abfdbcf0", null ],
+    [ "_necroticPlagueStack", "df/df1/a18002.html#ad8a8a978402cc32046b67a42621d8d42", null ],
+    [ "_phase", "df/df1/a18002.html#ae069cec361b187a657a707d6613f32b7", null ],
+    [ "_positionCheckTimer", "df/df1/a18002.html#a94896994f59ab4c38479a5c97742128a", null ],
+    [ "_vileSpiritExplosions", "df/df1/a18002.html#a94f291e9cf428fe2912c666fa49360d8", null ]
 ];

@@ -1,6 +1,7 @@
 var a26070 =
 [
-    [ "FilterTargets", "d4/d6d/a26070.html#a17626abdbc4066956b76945b11b3f0c6", null ],
-    [ "PrepareSpellScript", "d4/d6d/a26070.html#abfeb75060c1f930b33003dd1e458f882", null ],
-    [ "Register", "d4/d6d/a26070.html#a8e5146a57f181b17280d198bcd2e216d", null ]
+    [ "CalculateAmount", "d4/d6d/a26070.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
+    [ "HandleUpdateSpellclick", "d4/d6d/a26070.html#a89956d7f3a6404d5b60e46034867c82c", null ],
+    [ "PrepareAuraScript", "d4/d6d/a26070.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
+    [ "Register", "d4/d6d/a26070.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
 ];

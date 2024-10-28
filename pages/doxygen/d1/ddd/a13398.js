@@ -1,7 +1,7 @@
 var a13398 =
 [
-    [ "pyrewood_ambushAI", "de/d6f/a13402.html", "de/d6f/a13402" ],
-    [ "pyrewood_ambush", "d1/ddd/a13398.html#a07dfe00bcc86320c4968ca10e9480322", null ],
-    [ "GetAI", "d1/ddd/a13398.html#a4067c8aca15fe1f783eadd277b635fa8", null ],
-    [ "OnQuestAccept", "d1/ddd/a13398.html#add2804a9a76559dc5f051102f067e0bf", null ]
+    [ "npc_deathstalker_erlandAI", "d1/ddd/a13398.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
+    [ "JustEngagedWith", "d1/ddd/a13398.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
+    [ "Reset", "d1/ddd/a13398.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
+    [ "WaypointReached", "d1/ddd/a13398.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
 ];

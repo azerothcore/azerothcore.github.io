@@ -1,6 +1,6 @@
 var a15042 =
 [
-    [ "HandleApply", "db/dbf/a15042.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "db/dbf/a15042.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "db/dbf/a15042.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "npc_muglashAI", "de/da5/a15046.html", "de/da5/a15046" ],
+    [ "npc_muglash", "db/dbf/a15042.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
+    [ "GetAI", "db/dbf/a15042.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
 ];

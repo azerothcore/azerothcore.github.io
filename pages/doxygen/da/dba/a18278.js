@@ -1,6 +1,6 @@
 var a18278 =
 [
-    [ "npc_the_lich_king_controllerAI", "d8/d17/a18282.html", "d8/d17/a18282" ],
-    [ "npc_the_lich_king_controller", "da/dba/a18278.html#a32b14d699737497ba7c90d8ef17557d7", null ],
-    [ "GetAI", "da/dba/a18278.html#ae9b6dacb0f4e8e6f12f187ab0dfd2165", null ]
+    [ "npc_valithria_portalAI", "d8/d17/a18282.html", "d8/d17/a18282" ],
+    [ "npc_valithria_portal", "da/dba/a18278.html#a6014d7a57dfe5d21f63c03b3efcbdfc8", null ],
+    [ "GetAI", "da/dba/a18278.html#a9770ad0bc3732f2271876bbc84885dc0", null ]
 ];

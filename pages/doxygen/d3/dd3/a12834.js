@@ -1,7 +1,8 @@
 var a12834 =
 [
-    [ "HandleAfterCast", "d3/dd3/a12834.html#afa662fbe1b777047259ac6212961f7a5", null ],
-    [ "HandleScript", "d3/dd3/a12834.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
-    [ "PrepareSpellScript", "d3/dd3/a12834.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
-    [ "Register", "d3/dd3/a12834.html#a4a898b0b096583af33f1f691a252b2ed", null ]
+    [ "npc_apothecary_baxter", "d3/dd3/a12834.html#a4a41816ff4f857a15a4665b8da1aec99", null ],
+    [ "JustDied", "d3/dd3/a12834.html#a9bf2362ba1b1e3a290ca12f1ceb54ab9", null ],
+    [ "Reset", "d3/dd3/a12834.html#afee5103029bd761c48cbf6a11655c44a", null ],
+    [ "UpdateAI", "d3/dd3/a12834.html#ad06090f599d0fda3a88f3182c990a49f", null ],
+    [ "_scheduler", "d3/dd3/a12834.html#a6d813041e055f3c2b28be7cba3acde13", null ]
 ];
