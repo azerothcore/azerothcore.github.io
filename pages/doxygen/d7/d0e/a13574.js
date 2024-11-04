@@ -1,6 +1,6 @@
 var a13574 =
 [
-    [ "cooldown", "d7/d0e/a13574.html#a435dff1f5801d4dda241ae37460eb9ac", null ],
-    [ "spell", "d7/d0e/a13574.html#a00ee3238030686e1cc66562f7cefb27a", null ],
-    [ "target", "d7/d0e/a13574.html#a16e54dbd059baac1b6e7229621339d83", null ]
+    [ "boss_zuljinAI", "d2/d46/a13578.html", "d2/d46/a13578" ],
+    [ "boss_zuljin", "d7/d0e/a13574.html#ab8897eaa13c21ca4169bc54b5d9270f4", null ],
+    [ "GetAI", "d7/d0e/a13574.html#a92eb91c259fe70f3eb6876941cb3406a", null ]
 ];

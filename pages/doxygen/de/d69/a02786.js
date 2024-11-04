@@ -1,12 +1,12 @@
 var a02786 =
 [
-    [ "npc_love_in_air_supply_sentry", "dd/dfe/a14182.html", "dd/dfe/a14182" ],
-    [ "npc_love_in_air_snivel", "db/d1b/a14186.html", "db/d1b/a14186" ],
-    [ "npc_love_in_air_snivel_real", "dc/d98/a14190.html", "dc/d98/a14190" ],
-    [ "spell_love_in_air_perfume_immune", "de/d24/a14194.html", "de/d24/a14194" ],
-    [ "spell_item_create_heart_candy", "d0/d2c/a14198.html", "d0/d2c/a14198" ],
-    [ "spell_love_is_in_the_air_romantic_picnic", "d0/d61/a14202.html", "d0/d61/a14202" ],
-    [ "spell_gen_aura_service_uniform", "d1/d81/a14206.html", "d1/d81/a14206" ],
+    [ "npc_love_in_air_supply_sentry", "d9/da0/a14118.html", "d9/da0/a14118" ],
+    [ "npc_love_in_air_snivel", "d4/da7/a14122.html", "d4/da7/a14122" ],
+    [ "npc_love_in_air_snivel_real", "df/da3/a14126.html", "df/da3/a14126" ],
+    [ "spell_love_in_air_perfume_immune", "d9/d6f/a14130.html", "d9/d6f/a14130" ],
+    [ "spell_item_create_heart_candy", "d0/d7d/a14134.html", "d0/d7d/a14134" ],
+    [ "spell_love_is_in_the_air_romantic_picnic", "da/dc0/a14138.html", "da/dc0/a14138" ],
+    [ "spell_gen_aura_service_uniform", "dc/d1e/a14142.html", "dc/d1e/a14142" ],
     [ "CreateHeartCandy", "de/d69/a02786.html#a2b366c81ccbae806e6b8b58cd8ee079a", [
       [ "SPELL_CREATE_HEART_CANDY_1", "de/d69/a02786.html#a2b366c81ccbae806e6b8b58cd8ee079aa31a214038bcf7d15ed56ca53ad12c8a4", null ],
       [ "SPELL_CREATE_HEART_CANDY_2", "de/d69/a02786.html#a2b366c81ccbae806e6b8b58cd8ee079aacb451943546eb8cc10fe892cd4573edf", null ],

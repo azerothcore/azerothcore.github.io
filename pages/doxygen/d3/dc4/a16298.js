@@ -1,6 +1,6 @@
 var a16298 =
 [
-    [ "npc_fel_infernalAI", "dd/da6/a16302.html", "dd/da6/a16302" ],
-    [ "npc_fel_infernal", "d3/dc4/a16298.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
-    [ "GetAI", "d3/dc4/a16298.html#a768201a7516c9972800c941cf2079a11", null ]
+    [ "boss_fjolaAI", "dd/da6/a16302.html", "dd/da6/a16302" ],
+    [ "boss_fjola", "d3/dc4/a16298.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
+    [ "GetAI", "d3/dc4/a16298.html#a96d9ea0716199758b60ad933ade28de4", null ]
 ];

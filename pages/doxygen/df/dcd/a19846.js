@@ -1,6 +1,8 @@
 var a19846 =
 [
-    [ "achievement_flame_leviathan_towers", "df/dcd/a19846.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "df/dcd/a19846.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "df/dcd/a19846.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "npc_ulduar_saronite_animusAI", "df/dcd/a19846.html#a2b94427feb24a7bda075b6a8f403433a", null ],
+    [ "JustDied", "df/dcd/a19846.html#a30abcab01de3732bc5525864576615b0", null ],
+    [ "UpdateAI", "df/dcd/a19846.html#a1490961adc8fc03ab28a992aff55b43b", null ],
+    [ "pInstance", "df/dcd/a19846.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
+    [ "timer", "df/dcd/a19846.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
 ];

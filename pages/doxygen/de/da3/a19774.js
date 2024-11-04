@@ -1,7 +1,10 @@
 var a19774 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "de/da3/a19774.html#ab9191e20df488df184c468ca1ac41084", null ],
-    [ "MovementInform", "de/da3/a19774.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
-    [ "UpdateAI", "de/da3/a19774.html#a77b3a493c5650d91c903879db324651d", null ],
-    [ "_allowTimer", "de/da3/a19774.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
+    [ "boss_freya_elder_ironbranchAI", "de/da3/a19774.html#a4a7350a2bf7c813b1b18fe32566e4d56", null ],
+    [ "JustDied", "de/da3/a19774.html#aab878773508fcbb437661d316266b942", null ],
+    [ "JustEngagedWith", "de/da3/a19774.html#ab7b5df914ee5b22c25098c188306d123", null ],
+    [ "KilledUnit", "de/da3/a19774.html#a7dc8d3b497c2297b35f6aec70cc5447b", null ],
+    [ "Reset", "de/da3/a19774.html#afd87a8fc3ca55d1a91f4cc08b34095c8", null ],
+    [ "UpdateAI", "de/da3/a19774.html#a711cd2788bff7fbc648c039921297eac", null ],
+    [ "events", "de/da3/a19774.html#a88193ba77c8a0269a5b8bdc4f3dc96d2", null ]
 ];

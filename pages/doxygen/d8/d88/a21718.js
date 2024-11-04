@@ -1,6 +1,7 @@
 var a21718 =
 [
-    [ "npc_q24545_vegard_dummyAI", "d6/d28/a21722.html", "d6/d28/a21722" ],
-    [ "npc_q24545_vegard_dummy", "d8/d88/a21718.html#a12363e26a720ae33b6cde0f44aec3adf", null ],
-    [ "GetAI", "d8/d88/a21718.html#a201d1dec206887c26e33f795a0fd0887", null ]
+    [ "HandleDummy", "d8/d88/a21718.html#abb5726c8afa66a946eefc8767094ea9b", null ],
+    [ "PrepareSpellScript", "d8/d88/a21718.html#ab5d9f8125c75bbd8fbb2717516d3eddd", null ],
+    [ "Register", "d8/d88/a21718.html#a38efc59fcbb40469521419723a1dceb3", null ],
+    [ "Validate", "d8/d88/a21718.html#a93cf1b5dbc23bb25c4fe8aa24da0fd2e", null ]
 ];

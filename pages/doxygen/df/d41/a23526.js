@@ -1,6 +1,9 @@
 var a23526 =
 [
-    [ "PrepareSpellScript", "df/d41/a23526.html#a5b17110b189b7134939aea9dbf2d724b", null ],
-    [ "Register", "df/d41/a23526.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
-    [ "SelectRandomPlayer", "df/d41/a23526.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
+    [ "HandleEffectApply", "df/d41/a23526.html#ac9e030810cc1ffb3927943353bcbb764", null ],
+    [ "HandleEffectRemove", "df/d41/a23526.html#a2524bb4614fa62fb703a3d3cf0c25da0", null ],
+    [ "Load", "df/d41/a23526.html#a60f41c19f5104eef82048fd1e3416abd", null ],
+    [ "PrepareAuraScript", "df/d41/a23526.html#a277d9865108acafac4b1a42bc5b5714b", null ],
+    [ "Register", "df/d41/a23526.html#a5ffe5a8b3422382482f713ff6d8514b2", null ],
+    [ "_falconSet", "df/d41/a23526.html#a1a20f75d251936bff7a0777831d79140", null ]
 ];

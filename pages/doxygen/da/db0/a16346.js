@@ -1,22 +1,10 @@
 var a16346 =
 [
-    [ "boss_jormungarAI", "da/db0/a16346.html#ab5291ccd06b4a0601e3426a89a86d99d", null ],
-    [ "AttackStart", "da/db0/a16346.html#acabeffd2f9978b25a0b27abfbb3f5220", null ],
-    [ "DoAction", "da/db0/a16346.html#a5ce0f99d3889933633e1d88b4bacee88", null ],
-    [ "EnterEvadeMode", "da/db0/a16346.html#aa3cd34a173b92dd2b54a28bb1b17fae7", null ],
-    [ "JustDied", "da/db0/a16346.html#a2a9278b547776c84b756b6fb2fc89e67", null ],
-    [ "JustEngagedWith", "da/db0/a16346.html#af5a266b577c5bb8ef8f7bbd7fddc163e", null ],
-    [ "JustReachedHome", "da/db0/a16346.html#afd345729b079d2dacd8f37f4481968f1", null ],
-    [ "ScheduleEvents", "da/db0/a16346.html#a6fd24ecd0be5692e9e389833a6134de5", null ],
-    [ "UpdateAI", "da/db0/a16346.html#ad8e5bf4176dfa37c3af476f6f71e699e", null ],
-    [ "_MODEL_MOBILE", "da/db0/a16346.html#a4be09bf0ae4c96d77edd5b1577b8aa28", null ],
-    [ "_MODEL_STATIONARY", "da/db0/a16346.html#adb7d8c493523dadcd0168899621cd246", null ],
-    [ "_SPELL_BITE", "da/db0/a16346.html#a604bcb56112044c4e437a9c447f0db51", null ],
-    [ "_SPELL_SPEW", "da/db0/a16346.html#af8f47b7cbad0adb835c1bdcf40ca5288", null ],
-    [ "_SPELL_SPIT", "da/db0/a16346.html#a4bdfcadfd0ebcc98b0a2c221b3a387b2", null ],
-    [ "_SPELL_SPRAY", "da/db0/a16346.html#ac73edc1b85cd78b045657279335a7564", null ],
-    [ "_TYPE_OTHER", "da/db0/a16346.html#a4c341523dfc63b6c9b73f9e3a49ce854", null ],
-    [ "bIsStationary", "da/db0/a16346.html#a16e42748b51576e6acb7cb30794b47bf", null ],
-    [ "events", "da/db0/a16346.html#a08cfa4cc7bf270926bf1d3fc8089318f", null ],
-    [ "pInstance", "da/db0/a16346.html#a981495f258c2fdeec9d0139ab02cf044", null ]
+    [ "boss_dredAI", "da/db0/a16346.html#a4ad04fe31990a37fd6d3a23329350248", null ],
+    [ "GetData", "da/db0/a16346.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
+    [ "JustEngagedWith", "da/db0/a16346.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
+    [ "Reset", "da/db0/a16346.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
+    [ "SetData", "da/db0/a16346.html#a884f48aabc26b054dcd303a91cb88301", null ],
+    [ "UpdateAI", "da/db0/a16346.html#afc12ced9b5026fe3b297560c30e129ed", null ],
+    [ "_raptorCount", "da/db0/a16346.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
 ];

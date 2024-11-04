@@ -1,7 +1,7 @@
 var a13274 =
 [
-    [ "HandleScriptEffect", "d1/d4e/a13274.html#aa537704c2066df4f5b4c60a775026a83", null ],
-    [ "PrepareSpellScript", "d1/d4e/a13274.html#ac500902c22102ebfc6dcf6f78f0dd8c1", null ],
-    [ "Register", "d1/d4e/a13274.html#a1d9cfdc65bd5ae76376e709d0ac891c0", null ],
-    [ "Validate", "d1/d4e/a13274.html#a9ef5a491b5a06c31cdb0249dc086e32f", null ]
+    [ "npc_ranger_lilatha", "d1/d4e/a13274.html#abd13a89b41a289edefb9bc21588f8d29", null ],
+    [ "Reset", "d1/d4e/a13274.html#a3e804e483b51961193ee1079caba40be", null ],
+    [ "sQuestAccept", "d1/d4e/a13274.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
+    [ "WaypointReached", "d1/d4e/a13274.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
 ];

@@ -1,6 +1,7 @@
 var a19706 =
 [
-    [ "boss_flame_leviathan_overload_deviceAI", "d6/d24/a19710.html", "d6/d24/a19710" ],
-    [ "boss_flame_leviathan_overload_device", "d9/dbf/a19706.html#ad00f601170c1af833aadb17eab5d19a8", null ],
-    [ "GetAI", "d9/dbf/a19706.html#a73988d2b1cfe61d0356ec1f317d90162", null ]
+    [ "OnPeriodic", "d9/dbf/a19706.html#a9407d5477a40e36863e5fb5775dda122", null ],
+    [ "PrepareAuraScript", "d9/dbf/a19706.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
+    [ "Register", "d9/dbf/a19706.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
+    [ "Validate", "d9/dbf/a19706.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
 ];

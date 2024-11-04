@@ -1,8 +1,12 @@
 var a13254 =
 [
-    [ "HandleEffectApply", "db/d70/a13254.html#affb8b36a1f975be9440734c2775bae04", null ],
-    [ "HandleEffectRemove", "db/d70/a13254.html#a9aa18234139cfa0a3d96f37a5bbc1e03", null ],
-    [ "Load", "db/d70/a13254.html#a7b34beda2504b605f3fc311e2b4b5d5e", null ],
-    [ "PrepareAuraScript", "db/d70/a13254.html#a98a1b090e408ffb9e301ee39b380acb4", null ],
-    [ "Register", "db/d70/a13254.html#a8daf0993bd08a5b88a840ac87c83206d", null ]
+    [ "npc_cameron", "db/d70/a13254.html#a45e47ec5c9dadc6f0899e83ac2e19cff", null ],
+    [ "MoveTheChildren", "db/d70/a13254.html#a85ae436f19f69ffb853330f01ee152a0", null ],
+    [ "PathEndReached", "db/d70/a13254.html#a0bf53f40eeb4fe3ed7d62988bee0a912", null ],
+    [ "sOnGameEvent", "db/d70/a13254.html#ab22841871cfcdc926b28296a5b4e440c", null ],
+    [ "SoundPicker", "db/d70/a13254.html#a2ad97aaac0bd759921e0b75cfc88d07d", null ],
+    [ "UpdateAI", "db/d70/a13254.html#a32a2dd2be2c06700fb81f4072a364ce2", null ],
+    [ "_childrenGUIDs", "db/d70/a13254.html#ad260466902e8fb1a2e02998cc4549695", null ],
+    [ "_events", "db/d70/a13254.html#ad6c58f433520c4ed55f43ef3604dde28", null ],
+    [ "_started", "db/d70/a13254.html#a985d0590eedde340a3923e299d4dffd8", null ]
 ];

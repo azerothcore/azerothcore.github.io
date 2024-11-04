@@ -1,7 +1,7 @@
 var a12590 =
 [
-    [ "npc_scarlet_cannonAI", "da/d34/a12590.html#a26720b34088b8063544f8c5db3b8d67c", null ],
-    [ "PassengerBoarded", "da/d34/a12590.html#a71241dfc9b3ebe1f664d0adf03439c41", null ],
-    [ "UpdateAI", "da/d34/a12590.html#a18ebb585e9b83f3781d3c49de5dc73b5", null ],
-    [ "summonAttackers", "da/d34/a12590.html#a9e8eeb6995dae9a9d9ec3cb0ca6a07f5", null ]
+    [ "npc_unworthy_initiate_anchorAI", "da/d34/a12590.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
+    [ "GetGUID", "da/d34/a12590.html#a83cca82e7d75231a6aa586f67dad766e", null ],
+    [ "SetGUID", "da/d34/a12590.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
+    [ "prisonerGUID", "da/d34/a12590.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
 ];

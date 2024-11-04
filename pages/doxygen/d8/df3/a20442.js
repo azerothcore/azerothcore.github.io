@@ -1,11 +1,9 @@
 var a20442 =
 [
-    [ "boss_thorim_lightning_orbAI", "d8/df3/a20442.html#a14d4b9f445abfaba77bcfc52173ff705", null ],
-    [ "AttackStart", "d8/df3/a20442.html#a88a885b96016788f8011dd1d3d44d992", null ],
-    [ "EnterEvadeMode", "d8/df3/a20442.html#a04bc99d1bd16f8297e7da8902e4bcaab", null ],
-    [ "InitWaypoint", "d8/df3/a20442.html#a420217dd9e482edc24a87dead2753321", null ],
-    [ "MoveInLineOfSight", "d8/df3/a20442.html#a0ee02cdd5cedf8a6565493b9812e88ae", null ],
-    [ "Reset", "d8/df3/a20442.html#a4e410303d287a4c827c279a4e7c3ca99", null ],
-    [ "WaypointReached", "d8/df3/a20442.html#a141659a0ebbcc097f0f03dec30dad2ca", null ],
-    [ "Timer", "d8/df3/a20442.html#ac251df35736ae44e08f82ae7bbe8fc15", null ]
+    [ "npc_xt002_pummellerAI", "d8/df3/a20442.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d8/df3/a20442.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d8/df3/a20442.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d8/df3/a20442.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d8/df3/a20442.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d8/df3/a20442.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

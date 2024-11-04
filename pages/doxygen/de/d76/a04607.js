@@ -1,6 +1,6 @@
 var a04607 =
 [
-    [ "DBCPosition3D", "d8/d9d/a27558.html", "d8/d9d/a27558" ],
+    [ "DBCPosition3D", "db/d08/a27422.html", "db/d08/a27422" ],
     [ "DEFAULT_MAX_LEVEL", "de/d76/a04607.html#af0724337c52ef108a88542412eb75d00", null ],
     [ "MAX_BATTLEGROUND_BRACKETS", "de/d76/a04607.html#a5201a522ecfb21f8b94bcab8b2ba2f8c", null ],
     [ "MAX_CRITERIA_REQUIREMENTS", "de/d76/a04607.html#aac939a6398e92f385f4dbd9f118d8583", null ],

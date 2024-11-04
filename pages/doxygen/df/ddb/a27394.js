@@ -1,10 +1,6 @@
 var a27394 =
 [
-    [ "npc_training_dummyAI", "df/ddb/a27394.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
-    [ "DamageTaken", "df/ddb/a27394.html#a641c40906a6365f068ccbdba9d033923", null ],
-    [ "EnterEvadeMode", "df/ddb/a27394.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
-    [ "MoveInLineOfSight", "df/ddb/a27394.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
-    [ "Reset", "df/ddb/a27394.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
-    [ "UpdateAI", "df/ddb/a27394.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
-    [ "resetTimer", "df/ddb/a27394.html#a443f2f7de257af473d6e9793f34a2071", null ]
+    [ "npc_venomhide_hatchlingAI", "df/ddb/a27394.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
+    [ "IsSummonedBy", "df/ddb/a27394.html#a6e1b76f43217f1eb855b50d58a069518", null ],
+    [ "SpellHit", "df/ddb/a27394.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
 ];

@@ -1,7 +1,8 @@
 var a14170 =
 [
-    [ "go_loosely_turned_soilAI", "d4/dc5/a14174.html", "d4/dc5/a14174" ],
-    [ "go_loosely_turned_soil", "d9/d12/a14170.html#a3b4d51e2b3a604e030962127269236f1", null ],
-    [ "GetAI", "d9/d12/a14170.html#acead5810a848f8837fa65af1f2ac00bd", null ],
-    [ "OnQuestReward", "d9/d12/a14170.html#a1ac57b34c5b3e21c033330eaeefaa6a8", null ]
+    [ "OnApply", "d9/d12/a14170.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
+    [ "OnRemove", "d9/d12/a14170.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
+    [ "PrepareAuraScript", "d9/d12/a14170.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
+    [ "Register", "d9/d12/a14170.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
+    [ "Validate", "d9/d12/a14170.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
 ];

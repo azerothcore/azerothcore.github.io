@@ -1,9 +1,6 @@
 var a20918 =
 [
-    [ "npc_vrykul_skeletonAI", "d2/d22/a20918.html#a06b3f450485e9e90c91b1e9f5c41a2bd", null ],
-    [ "DamageTaken", "d2/d22/a20918.html#aeed85c443bd29c74aeb768e1f93b7006", null ],
-    [ "Reset", "d2/d22/a20918.html#a30a56c6c5e8509f692100aa02c691481", null ],
-    [ "UpdateAI", "d2/d22/a20918.html#ab8c18176fbe84f12ca5a63f99d66d394", null ],
-    [ "events", "d2/d22/a20918.html#aa797776c850ef3480f30a1551cdb878b", null ],
-    [ "pInstance", "d2/d22/a20918.html#a87c7c6a427a21c745fcfd3ff804f38d6", null ]
+    [ "boss_svalaAI", "d9/d33/a20922.html", "d9/d33/a20922" ],
+    [ "boss_svala", "d2/d22/a20918.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
+    [ "GetAI", "d2/d22/a20918.html#a0c3b94635eca667a28496cf799efad25", null ]
 ];

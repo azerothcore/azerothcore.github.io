@@ -1,7 +1,7 @@
 var a21674 =
 [
-    [ "HandleApplyEffect", "d5/d78/a21674.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
-    [ "HandleRemoveEffect", "d5/d78/a21674.html#a243933fec9ccd650303ea5badbea725b", null ],
-    [ "PrepareAuraScript", "d5/d78/a21674.html#ac0e1fc0694dd51e245340d3658592447", null ],
-    [ "Register", "d5/d78/a21674.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
+    [ "npc_amberpine_woodsmanAI", "d5/d78/a21674.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
+    [ "Reset", "d5/d78/a21674.html#a8da613c7bbaadf331c95667e7a361702", null ],
+    [ "UpdateAI", "d5/d78/a21674.html#a64dbf41424a710c400d51507f6457b41", null ],
+    [ "_events", "d5/d78/a21674.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
 ];

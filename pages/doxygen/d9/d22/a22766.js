@@ -1,7 +1,9 @@
 var a22766 =
 [
-    [ "CheckProc", "d9/d22/a22766.html#a0968b7b32f2d2bef6035e030f544088a", null ],
-    [ "PrepareAuraScript", "d9/d22/a22766.html#ac424e41948196a6e60b790ebcf40783f", null ],
-    [ "Register", "d9/d22/a22766.html#a06bdac68e36b43ee534e937ffd974086", null ],
-    [ "Update", "d9/d22/a22766.html#af6c228840f6af96e353ba964fdd01e54", null ]
+    [ "boss_najentus", "d9/d22/a22766.html#ac5d3d54a49524892fe844925d483c244", null ],
+    [ "JustDied", "d9/d22/a22766.html#afee32dd32033c7a45068ce12e961797c", null ],
+    [ "JustEngagedWith", "d9/d22/a22766.html#a46e3aab64c21b24ac6457acd598679ec", null ],
+    [ "KilledUnit", "d9/d22/a22766.html#ad55e1de3aa7a636b3d30b0d61a17dab9", null ],
+    [ "Reset", "d9/d22/a22766.html#ab7e0bdb8954722c9080146a88a3c5aa2", null ],
+    [ "_canTalk", "d9/d22/a22766.html#a25ac29a79cdcfb4ebc48de13d677f1d4", null ]
 ];

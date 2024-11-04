@@ -1,6 +1,6 @@
 var a21346 =
 [
-    [ "npc_azure_captainAI", "da/dfc/a21350.html", "da/dfc/a21350" ],
-    [ "npc_azure_captain", "d6/d6f/a21346.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
-    [ "GetAI", "d6/d6f/a21346.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
+    [ "HandleEffect", "d6/d6f/a21346.html#a6732d51d5de34b3e737cc785fb2ab43e", null ],
+    [ "PrepareSpellScript", "d6/d6f/a21346.html#aec199e9f9651267fac88bd86be326bb4", null ],
+    [ "Register", "d6/d6f/a21346.html#a14bd854db86750704c8377d457dea360", null ]
 ];

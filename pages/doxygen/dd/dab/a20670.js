@@ -1,8 +1,8 @@
 var a20670 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "dd/dab/a20670.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "dd/dab/a20670.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "dd/dab/a20670.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "dd/dab/a20670.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "dd/dab/a20670.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "FilterTargets", "dd/dab/a20670.html#a45d300e8cb6fbc499345b3bb2fb0d34f", null ],
+    [ "HandleDummyEffect", "dd/dab/a20670.html#ab1f662fa107d176386067ffc6467d90f", null ],
+    [ "PrepareSpellScript", "dd/dab/a20670.html#a069cc54bf009830ad781c790b4fcedad", null ],
+    [ "Register", "dd/dab/a20670.html#ac91532151b689bde35d7120b1e9aec5b", null ],
+    [ "Validate", "dd/dab/a20670.html#ad225dcdb1325a855f1909a8c66ca577b", null ]
 ];

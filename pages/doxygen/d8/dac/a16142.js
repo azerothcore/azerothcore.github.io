@@ -1,6 +1,6 @@
 var a16142 =
 [
-    [ "spell_gen_leeching_swarm_dmg_SpellScript", "d4/d27/a16146.html", "d4/d27/a16146" ],
-    [ "spell_gen_leeching_swarm_dmg", "d8/dac/a16142.html#a9f6b89aee3b080ce3b675635097750ff", null ],
-    [ "GetSpellScript", "d8/dac/a16142.html#a4fa3aca5964728833eb1615df4f31221", null ]
+    [ "npc_toc_boomkinAI", "d4/d27/a16146.html", "d4/d27/a16146" ],
+    [ "npc_toc_boomkin", "d8/dac/a16142.html#a17274ff748cd364592a551ad2c547eac", null ],
+    [ "GetAI", "d8/dac/a16142.html#a626fe854faade9bd96cd60b9e6e970bd", null ]
 ];

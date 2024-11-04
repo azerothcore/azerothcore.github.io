@@ -1,6 +1,7 @@
 var a19334 =
 [
-    [ "boss_lokenAI", "d9/d9f/a19338.html", "d9/d9f/a19338" ],
-    [ "boss_loken", "d2/d0f/a19334.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
-    [ "GetAI", "d2/d0f/a19334.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
+    [ "creature", "d2/d0f/a19334.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "d2/d0f/a19334.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "d2/d0f/a19334.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "d2/d0f/a19334.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

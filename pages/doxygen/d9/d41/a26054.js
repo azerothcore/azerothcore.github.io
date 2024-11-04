@@ -1,10 +1,10 @@
 var a26054 =
 [
-    [ "Absorb", "d9/d41/a26054.html#ab4006b00d415a94e6a49856cee7e272b", null ],
-    [ "CalculateAmount", "d9/d41/a26054.html#a57bfd4e7178e9e7c3df12c025d0c7d9e", null ],
-    [ "Load", "d9/d41/a26054.html#a88aa9623f587bb7b5e91da83c76f562a", null ],
-    [ "PrepareAuraScript", "d9/d41/a26054.html#a456c1bd5b284f642d1e040de52eee24b", null ],
-    [ "Register", "d9/d41/a26054.html#a905994099dcc4ac9512d5f27b78a778c", null ],
-    [ "Validate", "d9/d41/a26054.html#ad99966111a1919c610a942a8eb133ea1", null ],
-    [ "healPct", "d9/d41/a26054.html#a3b0527ce7f1fd6afaa57f942275ec81b", null ]
+    [ "GetTarget", "d9/d41/a26054.html#a1bfcb90731a93e4897c9d4fbf46d2a01", null ],
+    [ "HandleEffectPeriodicPlatform", "d9/d41/a26054.html#ac499c8adcd74206ad60a7fc24d32cc3c", null ],
+    [ "HandleEffectPeriodicSelf", "d9/d41/a26054.html#a2272a970ca5edca6f7353beb2279c29c", null ],
+    [ "PerformKick", "d9/d41/a26054.html#aa192aa92cc5c55f8bf2306c4463a3efc", null ],
+    [ "PrepareAuraScript", "d9/d41/a26054.html#a489f1da8f8008db8f096470f28455ef9", null ],
+    [ "Register", "d9/d41/a26054.html#a164c94c63cf03b98ee085b18a0a8af9a", null ],
+    [ "AuraEffectHandleModes", "d9/d41/a26054.html#a91d53900d8c6d0dd2a7519a4836aa05b", null ]
 ];

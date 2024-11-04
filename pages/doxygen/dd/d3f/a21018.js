@@ -1,17 +1,13 @@
 var a21018 =
 [
-    [ "boss_skadiAI", "dd/d3f/a21018.html#a674e0cea77b25ec6413f8e52336d06db", null ],
-    [ "DoAction", "dd/d3f/a21018.html#ac0513a8e187b3d68fd320b124930ac8b", null ],
-    [ "GetGrauf", "dd/d3f/a21018.html#a48806cf61d295e6ab86a1e018b0fd30a", null ],
-    [ "JustDied", "dd/d3f/a21018.html#af963eda18854869f3a73cb22f48b0230", null ],
-    [ "JustEngagedWith", "dd/d3f/a21018.html#a2853d557da48decede7baa4845f5573f", null ],
-    [ "KilledUnit", "dd/d3f/a21018.html#aab72405691cab78ac0f224cf637f7570", null ],
-    [ "Reset", "dd/d3f/a21018.html#a7d1287f7a3cc5703a7430a15e769cb2c", null ],
-    [ "UpdateAI", "dd/d3f/a21018.html#a05690f147e2c2a584179c19b0a84a1b0", null ],
-    [ "events", "dd/d3f/a21018.html#a7dabced72e6cc2191cc29a221967159e", null ],
-    [ "EventStarted", "dd/d3f/a21018.html#aa4f75b2430f3b95dcc2a06f22f5d9680", null ],
-    [ "GraufGUID", "dd/d3f/a21018.html#a9990eed4758e5eaad8a538b09ac7ee4f", null ],
-    [ "m_pInstance", "dd/d3f/a21018.html#ae48e23b61d9cafbdc9a7811361ebcd11", null ],
-    [ "SecondPhase", "dd/d3f/a21018.html#a3a3892c0fcc148cf8d3b903a37de3e1f", null ],
-    [ "summons", "dd/d3f/a21018.html#a93762ced245b700eb6196ea3a96b143c", null ]
+    [ "boss_toravonAI", "dd/d3f/a21018.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
+    [ "AttackStart", "dd/d3f/a21018.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
+    [ "JustDied", "dd/d3f/a21018.html#ad501bb34a0014be0abc965aae5383e21", null ],
+    [ "JustEngagedWith", "dd/d3f/a21018.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
+    [ "JustSummoned", "dd/d3f/a21018.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
+    [ "Reset", "dd/d3f/a21018.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
+    [ "UpdateAI", "dd/d3f/a21018.html#a97c16b1689cfdb7fa680381964cb272a", null ],
+    [ "events", "dd/d3f/a21018.html#ae2a3b691f1580275228204ea8ccaf846", null ],
+    [ "pInstance", "dd/d3f/a21018.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
+    [ "summons", "dd/d3f/a21018.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
 ];

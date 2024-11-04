@@ -1,11 +1,9 @@
 var a14050 =
 [
-    [ "npc_high_oracle_soo_roo", "d7/de1/a14050.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
-    [ "MoveInLineOfSight", "d7/de1/a14050.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
-    [ "Reset", "d7/de1/a14050.html#a89a60a83a46e0095045b2353e50483ed", null ],
-    [ "UpdateAI", "d7/de1/a14050.html#ac22cfa519e478da643a51ae887f306fd", null ],
-    [ "orphanGUID", "d7/de1/a14050.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
-    [ "phase", "d7/de1/a14050.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
-    [ "playerGUID", "d7/de1/a14050.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
-    [ "timer", "d7/de1/a14050.html#aa5238d3ee361374681947de874391a1f", null ]
+    [ "spell_hallows_end_put_costume", "d7/de1/a14050.html#ac1fcd0a32142744f353cdc01bce740e3", null ],
+    [ "HandleScript", "d7/de1/a14050.html#ac4be92e73c08c06c1c9954547bfe8013", null ],
+    [ "PrepareSpellScript", "d7/de1/a14050.html#ac0e4692be1527f052a23ed52af32d042", null ],
+    [ "Register", "d7/de1/a14050.html#ac38299892d02c497e3bbae3c73a095ab", null ],
+    [ "_femaleSpell", "d7/de1/a14050.html#a5ccb30abd83ed1d0be104bffc91deca2", null ],
+    [ "_maleSpell", "d7/de1/a14050.html#af9b285133389942bea6738e518d34e48", null ]
 ];

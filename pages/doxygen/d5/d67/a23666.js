@@ -1,9 +1,8 @@
 var a23666 =
 [
-    [ "HandleEffectApply", "d5/d67/a23666.html#ac9e030810cc1ffb3927943353bcbb764", null ],
-    [ "HandleEffectRemove", "d5/d67/a23666.html#a2524bb4614fa62fb703a3d3cf0c25da0", null ],
-    [ "Load", "d5/d67/a23666.html#a60f41c19f5104eef82048fd1e3416abd", null ],
-    [ "PrepareAuraScript", "d5/d67/a23666.html#a277d9865108acafac4b1a42bc5b5714b", null ],
-    [ "Register", "d5/d67/a23666.html#a5ffe5a8b3422382482f713ff6d8514b2", null ],
-    [ "_falconSet", "d5/d67/a23666.html#a1a20f75d251936bff7a0777831d79140", null ]
+    [ "boss_mechano_lord_capacitus", "d5/d67/a23666.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
+    [ "JustDied", "d5/d67/a23666.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
+    [ "JustEngagedWith", "d5/d67/a23666.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
+    [ "JustSummoned", "d5/d67/a23666.html#a9a0b2cac08002db63162f95b9476c251", null ],
+    [ "KilledUnit", "d5/d67/a23666.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
 ];

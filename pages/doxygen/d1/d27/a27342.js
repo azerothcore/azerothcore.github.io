@@ -1,8 +1,8 @@
 var a27342 =
 [
-    [ "npc_simoneAI", "da/dc9/a27346.html", "da/dc9/a27346" ],
-    [ "npc_simone", "d1/d27/a27342.html#acf3e759dea12cc5fbe1376213bd3585c", null ],
-    [ "GetAI", "d1/d27/a27342.html#a36d94c5ab6c910cd3853e579d6a5ab5a", null ],
-    [ "OnGossipHello", "d1/d27/a27342.html#ae1a0cd1fbee6bee0a54a1a666c8367dd", null ],
-    [ "OnGossipSelect", "d1/d27/a27342.html#ae2b1a653be3767881769b54607219757", null ]
+    [ "npc_wormholeAI", "da/dc9/a27346.html", "da/dc9/a27346" ],
+    [ "npc_wormhole", "d1/d27/a27342.html#aeace4cbf665409786b86140709191cb0", null ],
+    [ "GetAI", "d1/d27/a27342.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
+    [ "OnGossipHello", "d1/d27/a27342.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
+    [ "OnGossipSelect", "d1/d27/a27342.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
 ];

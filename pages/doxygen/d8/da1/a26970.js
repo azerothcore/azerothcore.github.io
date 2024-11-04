@@ -1,9 +1,7 @@
 var a26970 =
 [
-    [ "emerald_dragonAI", "d8/da1/a26970.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
-    [ "ExecuteEvent", "d8/da1/a26970.html#a6e60f146c7b86a119f269bf755831ac6", null ],
-    [ "JustSummoned", "d8/da1/a26970.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
-    [ "KilledUnit", "d8/da1/a26970.html#a69b24bf865ecd38822d5602314cddf11", null ],
-    [ "Reset", "d8/da1/a26970.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
-    [ "UpdateAI", "d8/da1/a26970.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
+    [ "go_bear_trapAI", "d8/da1/a26970.html#ad97484d73bcea6a84909004c099eec34", null ],
+    [ "Initialize", "d8/da1/a26970.html#a89c76f1563f541c572c48f8cf633aa6a", null ],
+    [ "UpdateAI", "d8/da1/a26970.html#a8901922d736bb0391da5618593ced5c5", null ],
+    [ "_events", "d8/da1/a26970.html#a59f37a130326818dd922763ae9058fe7", null ]
 ];

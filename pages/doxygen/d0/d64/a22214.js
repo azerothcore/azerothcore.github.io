@@ -1,6 +1,9 @@
 var a22214 =
 [
-    [ "npc_vehicle_d16_propelled_deliveryAI", "d0/d64/a22214.html#afd54b130725aa724b80f150f968ce09d", null ],
-    [ "MovementInform", "d0/d64/a22214.html#a37800436af47a8f6fbc6f6eb25eab9f9", null ],
-    [ "PassengerBoarded", "d0/d64/a22214.html#a588ed86f5b8316feafd938d85ac65aa0", null ]
+    [ "npc_crusade_recruitAI", "d0/d64/a22214.html#aa5d5e8cc4fe612fda84d971d9cee987f", null ],
+    [ "Reset", "d0/d64/a22214.html#a183360b99ecbd784b4dabbf5158f59d1", null ],
+    [ "sGossipSelect", "d0/d64/a22214.html#ab7bfdc4cc8c86645174ac154ee5db541", null ],
+    [ "UpdateAI", "d0/d64/a22214.html#a0b4dad62e1adf04013d8fbcefe310400", null ],
+    [ "_events", "d0/d64/a22214.html#a32060a04ba73fbf9ae2df8417e826ce9", null ],
+    [ "_heading", "d0/d64/a22214.html#a6e260a6e085962d54b765bff4cb17963", null ]
 ];

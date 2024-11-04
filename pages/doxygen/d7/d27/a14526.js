@@ -1,7 +1,9 @@
 var a14526 =
 [
-    [ "npc_cos_chromie_middle", "d7/d27/a14526.html#a1bb7229781c122d362e781d2737d0fd3", null ],
-    [ "OnGossipHello", "d7/d27/a14526.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
-    [ "OnGossipSelect", "d7/d27/a14526.html#a37ebdd257ef22554c81cf3c062856141", null ],
-    [ "OnQuestAccept", "d7/d27/a14526.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
+    [ "boss_temporus", "d7/d27/a14526.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
+    [ "JustDied", "d7/d27/a14526.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
+    [ "JustEngagedWith", "d7/d27/a14526.html#abe7f18497c1c8b31693980e98b1d1859", null ],
+    [ "KilledUnit", "d7/d27/a14526.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
+    [ "MoveInLineOfSight", "d7/d27/a14526.html#a18a0279036324498a9daf8c7d0296ffc", null ],
+    [ "OwnTalk", "d7/d27/a14526.html#a99356589a048debbc308b8431259da5c", null ]
 ];

@@ -1,17 +1,17 @@
 var a28398 =
 [
-    [ "GetHeight", "d5/d9c/a28398.html#a98bc670c8dd44b210b398f5f014cbbc7", null ],
-    [ "GetOffsetX", "d5/d9c/a28398.html#a8facef2fdb586a71f1f740086fe160ab", null ],
-    [ "GetOffsetY", "d5/d9c/a28398.html#aecd2f6f40509d9b65f9f254e59298e8c", null ],
-    [ "GetWidth", "d5/d9c/a28398.html#a240dac4718a12daee7c8ec526209c4ba", null ],
-    [ "Height", "d5/d9c/a28398.html#abb92a54ddecdd06c1031bafd41e642dc", null ],
-    [ "LiquidType", "d5/d9c/a28398.html#a910553870f082a1b8dd47c27c8f981f1", null ],
-    [ "LiquidVertexFormat", "d5/d9c/a28398.html#ab1376e3688bcf9110111bf87f8fd940a", null ],
-    [ "MaxHeightLevel", "d5/d9c/a28398.html#aa73500f507b6ee2678f3c81328b716e1", null ],
-    [ "MinHeightLevel", "d5/d9c/a28398.html#a5c56ad9303d1b652774019efbe316dbd", null ],
-    [ "OffsetExistsBitmap", "d5/d9c/a28398.html#a1852863d7fcbbd95e6ccb190895841ca", null ],
-    [ "OffsetVertexData", "d5/d9c/a28398.html#abfe19bd9c6d9d1d41433abe6fae3baea", null ],
-    [ "OffsetX", "d5/d9c/a28398.html#a1dcb423f7ba1c0c7bdaa77aef8139b6c", null ],
-    [ "OffsetY", "d5/d9c/a28398.html#a08a02703ec946d3a6fb6326c24b4f6cc", null ],
-    [ "Width", "d5/d9c/a28398.html#a4b1bd0f232da1acde53787109e26c9b3", null ]
+    [ "TileBuilder", "d5/d9c/a28398.html#acf61f0eada3f4cc5e88ef7d36c6d0c36", null ],
+    [ "TileBuilder", "d5/d9c/a28398.html#ac7ed1b1c9fdff7fc933fa6029fa9ff9d", null ],
+    [ "~TileBuilder", "d5/d9c/a28398.html#a7fabcd86a5679f19ad69e9c69f1d5885", null ],
+    [ "buildMoveMapTile", "d5/d9c/a28398.html#add45abc9c1f79f95dae9d7616b100dc0", null ],
+    [ "buildTile", "d5/d9c/a28398.html#ab7eca8778fd61ecbfe5f07bba0b38857", null ],
+    [ "shouldSkipTile", "d5/d9c/a28398.html#a77ecbab0c34dfe69c414304768b20ea3", null ],
+    [ "WaitCompletion", "d5/d9c/a28398.html#ae386f742fed7d2b66bcf3750abf91daf", null ],
+    [ "WorkerThread", "d5/d9c/a28398.html#a4c0497cde74883557ec841233376f95c", null ],
+    [ "m_bigBaseUnit", "d5/d9c/a28398.html#a5b5313e24c00e58940067d53be93a3de", null ],
+    [ "m_debugOutput", "d5/d9c/a28398.html#a4c881a6e6ec66b315f72f84da5c534c2", null ],
+    [ "m_mapBuilder", "d5/d9c/a28398.html#aa83fbc484835a6d1a4c7bf6201b46639", null ],
+    [ "m_rcContext", "d5/d9c/a28398.html#a160c3ad76146488175c6ae228ad4ef83", null ],
+    [ "m_terrainBuilder", "d5/d9c/a28398.html#ade1605fb1b68693516c9fb27f94b278d", null ],
+    [ "m_workerThread", "d5/d9c/a28398.html#a4e03cb818b108400737e3a54df24945d", null ]
 ];

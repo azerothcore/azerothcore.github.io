@@ -1,6 +1,6 @@
 var a17554 =
 [
-    [ "npc_darnavanAI", "d3/d10/a17558.html", "d3/d10/a17558" ],
-    [ "npc_darnavan", "d2/d4b/a17554.html#ac358ca123155165395fa5f7ec02c9dab", null ],
-    [ "GetAI", "d2/d4b/a17554.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
+    [ "npc_gas_cloudAI", "d2/d4b/a17554.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
+    [ "CastMainSpell", "d2/d4b/a17554.html#a61681f6f9616fe33274302d4160c709b", null ],
+    [ "_newTargetSelectTimer", "d2/d4b/a17554.html#a6989b904abaa5b71362e43664f4b084d", null ]
 ];

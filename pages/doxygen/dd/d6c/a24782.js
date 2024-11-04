@@ -1,6 +1,7 @@
 var a24782 =
 [
-    [ "CheckAreaTarget", "dd/d6c/a24782.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
-    [ "PrepareAuraScript", "dd/d6c/a24782.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
-    [ "Register", "dd/d6c/a24782.html#a6647a8e35009cf8559e4957a666f037a", null ]
+    [ "HandleEffectPeriodic", "dd/d6c/a24782.html#a3a2e7653276964fd36c93b41aa8f25ea", null ],
+    [ "PrepareAuraScript", "dd/d6c/a24782.html#a893a539f4eeb0b9f027c5a306cc7bd53", null ],
+    [ "Register", "dd/d6c/a24782.html#a36792fd068ec7444aa118ec63cf972a7", null ],
+    [ "Validate", "dd/d6c/a24782.html#aa57af116294cfba007586506ba1dbeb5", null ]
 ];

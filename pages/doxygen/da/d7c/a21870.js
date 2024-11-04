@@ -1,6 +1,12 @@
 var a21870 =
 [
-    [ "HandleOnEffectRemove", "da/d7c/a21870.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
-    [ "PrepareAuraScript", "da/d7c/a21870.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
-    [ "Register", "da/d7c/a21870.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
+    [ "npc_tournament_training_dummyAI", "da/d7c/a21870.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
+    [ "DamageTaken", "da/d7c/a21870.html#a98c18794124922e6946a82a324410837", null ],
+    [ "EnterEvadeMode", "da/d7c/a21870.html#a3f31d705284b0fad2f00c9210ff06646", null ],
+    [ "MoveInLineOfSight", "da/d7c/a21870.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
+    [ "Reset", "da/d7c/a21870.html#a7339ffe52dc789f9480afca7141a169e", null ],
+    [ "SpellHit", "da/d7c/a21870.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
+    [ "UpdateAI", "da/d7c/a21870.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
+    [ "events", "da/d7c/a21870.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
+    [ "isVulnerable", "da/d7c/a21870.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
 ];

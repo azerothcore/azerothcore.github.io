@@ -1,7 +1,6 @@
 var a23910 =
 [
-    [ "HandleDummy", "d3/d1f/a23910.html#a08f2f0aef00ce075572ff84643905a0a", null ],
-    [ "PrepareSpellScript", "d3/d1f/a23910.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
-    [ "Register", "d3/d1f/a23910.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
-    [ "Validate", "d3/d1f/a23910.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
+    [ "npc_infernal_attackerAI", "dc/dd9/a23914.html", "dc/dd9/a23914" ],
+    [ "npc_infernal_attacker", "d3/d1f/a23910.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
+    [ "GetAI", "d3/d1f/a23910.html#ad1d9186c186de36efbe102a07fe89de4", null ]
 ];

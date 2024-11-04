@@ -1,6 +1,7 @@
 var a17150 =
 [
-    [ "PrepareSpellScript", "df/dd2/a17150.html#a37899f12707930d038de38bae92c9aff", null ],
-    [ "Register", "df/dd2/a17150.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
-    [ "SelectDest", "df/dd2/a17150.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
+    [ "HandleDummy", "df/dd2/a17150.html#a89c0706f21fe92fd443c3638181044ec", null ],
+    [ "PrepareSpellScript", "df/dd2/a17150.html#a957e29d2458fd90228ef9c53e997c642", null ],
+    [ "Register", "df/dd2/a17150.html#a250c95310503cd59d73e45a9b9372268", null ],
+    [ "Validate", "df/dd2/a17150.html#a1c67a262eb95def51661919a3bad3437", null ]
 ];

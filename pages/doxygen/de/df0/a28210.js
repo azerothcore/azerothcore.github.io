@@ -1,5 +1,5 @@
 var a28210 =
 [
-    [ "Price", "de/df0/a28210.html#a9cf01cf0d41d49613b4ceaf1eeb1716b", null ],
-    [ "Slot", "de/df0/a28210.html#aa53247914bda0ceca015b8b9ca117379", null ]
+    [ "type", "de/df0/a28210.html#af749459df7757d1bab17a54be813f6b6", null ],
+    [ "_type", "de/df0/a28210.html#ab0344571616786baef4511c647a3abea", null ]
 ];

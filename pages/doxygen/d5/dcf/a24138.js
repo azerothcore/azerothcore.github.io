@@ -1,6 +1,5 @@
 var a24138 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "dc/d11/a24142.html", "dc/d11/a24142" ],
-    [ "npc_shadowmoon_tuber_node", "d5/dcf/a24138.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "d5/dcf/a24138.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/dcf/a24138.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
+    [ "InitializeAI", "d5/dcf/a24138.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
 ];

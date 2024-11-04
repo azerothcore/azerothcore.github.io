@@ -1,5 +1,6 @@
 var a27262 =
 [
-    [ "item_only_for_flight", "d1/da0/a27262.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
-    [ "OnUse", "d1/da0/a27262.html#a88cdf17a85630aef703f93143ba41d4d", null ]
+    [ "npc_target_dummyAI", "da/dab/a27266.html", "da/dab/a27266" ],
+    [ "npc_target_dummy", "d1/da0/a27262.html#a04847f9893a40c0f1c1879f448cc228d", null ],
+    [ "GetAI", "d1/da0/a27262.html#a1aff9199c160e20f9e92ee9f90178d63", null ]
 ];

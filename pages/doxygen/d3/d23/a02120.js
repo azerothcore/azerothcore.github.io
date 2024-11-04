@@ -1,10 +1,10 @@
 var a02120 =
 [
-    [ "boss_janalai", "d6/d95/a13602.html", "d6/d95/a13602" ],
-    [ "npc_janalai_firebomb", "dc/de5/a13606.html", "dc/de5/a13606" ],
-    [ "npc_janalai_hatcher", "d2/d57/a13610.html", "d2/d57/a13610" ],
-    [ "npc_janalai_hatchling", "dc/d3f/a13614.html", "dc/d3f/a13614" ],
-    [ "npc_janalai_egg", "d7/dc0/a13618.html", "d7/dc0/a13618" ],
+    [ "boss_janalai", "d0/d46/a13542.html", "d0/d46/a13542" ],
+    [ "npc_janalai_firebomb", "dd/de2/a13546.html", "dd/de2/a13546" ],
+    [ "npc_janalai_hatcher", "d1/d8d/a13550.html", "d1/d8d/a13550" ],
+    [ "npc_janalai_hatchling", "d3/d18/a13554.html", "d3/d18/a13554" ],
+    [ "npc_janalai_egg", "dd/d9c/a13558.html", "dd/d9c/a13558" ],
     [ "Creatures", "d3/d23/a02120.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d1/d39/a02048.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d1/d39/a02048.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

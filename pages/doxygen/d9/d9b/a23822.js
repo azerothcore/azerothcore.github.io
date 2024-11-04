@@ -1,10 +1,14 @@
 var a23822 =
 [
-    [ "boss_nethermancer_sepethrea", "d9/d9b/a23822.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
-    [ "CanAIAttack", "d9/d9b/a23822.html#a34fbf871d99519306469c010d5fed9c7", null ],
-    [ "EnterEvadeMode", "d9/d9b/a23822.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
-    [ "JustDied", "d9/d9b/a23822.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
-    [ "JustEngagedWith", "d9/d9b/a23822.html#a89851b9f6eb94270fe22151d3a968bec", null ],
-    [ "JustSummoned", "d9/d9b/a23822.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
-    [ "KilledUnit", "d9/d9b/a23822.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
+    [ "npc_maghar_captiveAI", "d9/d9b/a23822.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
+    [ "JustDied", "d9/d9b/a23822.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
+    [ "JustEngagedWith", "d9/d9b/a23822.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
+    [ "JustSummoned", "d9/d9b/a23822.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
+    [ "Reset", "d9/d9b/a23822.html#abebcdcb102f8d338ae0b792708940cd7", null ],
+    [ "SpellHitTarget", "d9/d9b/a23822.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
+    [ "UpdateAI", "d9/d9b/a23822.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
+    [ "WaypointReached", "d9/d9b/a23822.html#abfbba8942df57e974ab24ad693c16e70", null ],
+    [ "ChainLightningTimer", "d9/d9b/a23822.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
+    [ "FrostShockTimer", "d9/d9b/a23822.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
+    [ "HealTimer", "d9/d9b/a23822.html#a31613adba706f3b5f948f2f7c4222038", null ]
 ];

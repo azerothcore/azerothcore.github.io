@@ -1,5 +1,12 @@
 var a12610 =
 [
-    [ "go_acherus_soul_prison", "df/d23/a12610.html#a13c858f74080b8f7963fdacc4b554019", null ],
-    [ "OnGossipHello", "df/d23/a12610.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
+    [ "npc_scarlet_minerAI", "df/d23/a12610.html#a7f5ca173103eb4498ce41912bda5da66", null ],
+    [ "InitCartQuest", "df/d23/a12610.html#a5d3ece8f2f02a2bae4550a41f55348b0", null ],
+    [ "InitWaypoint", "df/d23/a12610.html#a7fe048368b6e0a43b5be501a24773b8c", null ],
+    [ "Reset", "df/d23/a12610.html#a2a8660173dc32c38de917049eb33fff8", null ],
+    [ "UpdateAI", "df/d23/a12610.html#a48d2c92a4d45d5e59252f9455b82cbbd", null ],
+    [ "WaypointReached", "df/d23/a12610.html#a31f4363e269b51d3a002a132b5516dd0", null ],
+    [ "carGUID", "df/d23/a12610.html#a963f9c0ca58ce160b43f36f5a9f7dee7", null ],
+    [ "IntroPhase", "df/d23/a12610.html#a094c2ee20d13c88805c3de7f9f94b86e", null ],
+    [ "IntroTimer", "df/d23/a12610.html#adae2103753dd62699359ff01ac3ba865", null ]
 ];

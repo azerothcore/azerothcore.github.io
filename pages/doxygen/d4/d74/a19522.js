@@ -1,6 +1,6 @@
 var a19522 =
 [
-    [ "npc_collapsing_starAI", "d4/d74/a19522.html#ac389b380a8f315ae50a8cd809393a773", null ],
-    [ "DamageTaken", "d4/d74/a19522.html#a424fac98093eb9d02cda5027523ad06a", null ],
-    [ "JustSummoned", "d4/d74/a19522.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
+    [ "achievement_assembly_of_iron", "d4/d74/a19522.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
+    [ "OnCheck", "d4/d74/a19522.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
+    [ "_targetEntry", "d4/d74/a19522.html#a20e8938ff30b18737fb96cf0277b5680", null ]
 ];

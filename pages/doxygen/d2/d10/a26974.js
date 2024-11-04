@@ -1,6 +1,6 @@
 var a26974 =
 [
-    [ "npc_dream_fogAI", "d8/dc5/a26978.html", "d8/dc5/a26978" ],
-    [ "npc_dream_fog", "d2/d10/a26974.html#ae50306be88f15c9dfc4d0f12c63c68e6", null ],
-    [ "GetAI", "d2/d10/a26974.html#a48c45fec086e3a50462deed44734ba38", null ]
+    [ "go_l70_etc_musicAI", "d8/dc5/a26978.html", "d8/dc5/a26978" ],
+    [ "go_l70_etc_music", "d2/d10/a26974.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "d2/d10/a26974.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

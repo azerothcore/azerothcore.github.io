@@ -1,6 +1,6 @@
 var a25398 =
 [
-    [ "HandleDummyTick", "d1/d3e/a25398.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "d1/d3e/a25398.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "d1/d3e/a25398.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "CheckProc", "d1/d3e/a25398.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
+    [ "PrepareAuraScript", "d1/d3e/a25398.html#aebe1c8083ba09c21125c47843b2949da", null ],
+    [ "Register", "d1/d3e/a25398.html#adde6dada6b3012c2650ba9173c6616a0", null ]
 ];

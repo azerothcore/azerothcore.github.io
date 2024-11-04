@@ -1,7 +1,6 @@
 var a15566 =
 [
-    [ "npc_ahnkahar_nerubian", "da/d05/a15566.html#ae18cdf09bae50751e266e95caf165f8e", null ],
-    [ "Reset", "da/d05/a15566.html#a387831015ec8e4bc65cff8c8550bb176", null ],
-    [ "UpdateAI", "da/d05/a15566.html#a9a773127e4f94bcdf142718355eae0e8", null ],
-    [ "uiSprintTimer", "da/d05/a15566.html#a27a6f57a6b145cc595896d1ad453064f", null ]
+    [ "HandlePeriodic", "da/d05/a15566.html#ad22b433005b2678bde3516a01eaaaa60", null ],
+    [ "PrepareAuraScript", "da/d05/a15566.html#a3711004edaef7242d9cae1f23f9b7467", null ],
+    [ "Register", "da/d05/a15566.html#ad570e51a3d2dd5d3cc4b91aebeefd9ef", null ]
 ];

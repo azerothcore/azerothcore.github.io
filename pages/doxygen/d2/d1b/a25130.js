@@ -1,7 +1,10 @@
 var a25130 =
 [
-    [ "CalculateAmount", "d2/d1b/a25130.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
-    [ "Load", "d2/d1b/a25130.html#a777803a61286e0eba31246d4771630df", null ],
-    [ "PrepareAuraScript", "d2/d1b/a25130.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
-    [ "Register", "d2/d1b/a25130.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
+    [ "Load", "d2/d1b/a25130.html#a04526f30ad35af3f629cdd0c8312e33c", null ],
+    [ "OnApply", "d2/d1b/a25130.html#a83d922c434442e22482410d61aa0198f", null ],
+    [ "OnPetApply", "d2/d1b/a25130.html#a6df5e59e29cb89310a1c78bf93029545", null ],
+    [ "OnRemove", "d2/d1b/a25130.html#aa4efa4ed7d98c63989353c398bb2b128", null ],
+    [ "PrepareAuraScript", "d2/d1b/a25130.html#a1b4d8f636c01f01bc9380c290de91a0e", null ],
+    [ "Register", "d2/d1b/a25130.html#a265726c9bfa180c3b8f470eb1eee837b", null ],
+    [ "Validate", "d2/d1b/a25130.html#ab318472ea9f4aaa79e45f18783586eed", null ]
 ];

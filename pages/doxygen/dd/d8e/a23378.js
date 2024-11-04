@@ -1,6 +1,5 @@
 var a23378 =
 [
-    [ "CalculateDamage", "dd/d8e/a23378.html#a170fb61e3a7358d42cc6506067fb978a", null ],
-    [ "PrepareSpellScript", "dd/d8e/a23378.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
-    [ "Register", "dd/d8e/a23378.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
+    [ "spellId", "dd/d8e/a23378.html#acc63d01d5095adef28b9746c520be973", null ],
+    [ "textId", "dd/d8e/a23378.html#a5b366c702c1cda6ea10ad0b58935f97c", null ]
 ];

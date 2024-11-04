@@ -1,7 +1,5 @@
 var a26742 =
 [
-    [ "HandleApply", "d5/d3f/a26742.html#a046abc4b8afd26d13bcb7140165aed80", null ],
-    [ "HandleRemove", "d5/d3f/a26742.html#ad35716d4210572057fe67d426849931a", null ],
-    [ "PrepareAuraScript", "d5/d3f/a26742.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
-    [ "Register", "d5/d3f/a26742.html#a37c4c881c563882fb72693babe545fc4", null ]
+    [ "achievement_bg_sa_artillery", "d5/d3f/a26742.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
+    [ "OnCheck", "d5/d3f/a26742.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
 ];

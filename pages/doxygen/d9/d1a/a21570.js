@@ -1,6 +1,6 @@
 var a21570 =
 [
-    [ "npc_mageguard_dalaranAI", "d0/d5f/a21574.html", "d0/d5f/a21574" ],
-    [ "npc_mageguard_dalaran", "d9/d1a/a21570.html#a0cec4f232b665325c421cecb5839885f", null ],
-    [ "GetAI", "d9/d1a/a21570.html#a10cbddceb53a2d432da2224128c59b28", null ]
+    [ "GhoulTargetCheck", "d9/d1a/a21570.html#acd743b2b1407c5171fbf410a02ff07bf", null ],
+    [ "operator()", "d9/d1a/a21570.html#a6722cfe5a1ceecccf2c07924b2975f46", null ],
+    [ "_alive", "d9/d1a/a21570.html#ab44092ca1cd6d7c17d7c63e0a8333453", null ]
 ];

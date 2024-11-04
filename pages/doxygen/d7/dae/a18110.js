@@ -1,6 +1,6 @@
 var a18110 =
 [
-    [ "ModDest", "d7/dae/a18110.html#a71638bdecb0f580dceff7858441056d8", null ],
-    [ "PrepareSpellScript", "d7/dae/a18110.html#a741227928e07585b156ec716ae8b13da", null ],
-    [ "Register", "d7/dae/a18110.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
+    [ "npc_lk_wicked_spiritAI", "df/d8c/a18114.html", "df/d8c/a18114" ],
+    [ "npc_lk_wicked_spirit", "d7/dae/a18110.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
+    [ "GetAI", "d7/dae/a18110.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
 ];

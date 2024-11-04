@@ -1,6 +1,6 @@
 var a19770 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "de/da3/a19774.html", "de/da3/a19774" ],
-    [ "boss_flame_leviathan_safety_container", "d8/d54/a19770.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
-    [ "GetAI", "d8/d54/a19770.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
+    [ "boss_freya_elder_ironbranchAI", "de/da3/a19774.html", "de/da3/a19774" ],
+    [ "boss_freya_elder_ironbranch", "d8/d54/a19770.html#a066083e4d6fde6439f7dce80be209075", null ],
+    [ "GetAI", "d8/d54/a19770.html#a67f483d12fe801c1d840dd0f74396564", null ]
 ];

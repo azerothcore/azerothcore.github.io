@@ -1,8 +1,7 @@
 var a22514 =
 [
-    [ "boss_pandemonius", "d1/dcb/a22514.html#a650746de74bb8a91e0c9c59d8a6a09ea", null ],
-    [ "JustDied", "d1/dcb/a22514.html#a64a493c0dd4bcf5917e00c3e2713f4ce", null ],
-    [ "JustEngagedWith", "d1/dcb/a22514.html#a3dbedc67006db89b95443f783cd8dbd9", null ],
-    [ "KilledUnit", "d1/dcb/a22514.html#a26a012afe8c418c8da283c7b9f983e89", null ],
-    [ "PullRoom", "d1/dcb/a22514.html#a05011127290350f11cc1a333b23dbb04", null ]
+    [ "HandleEffectRemove", "d1/dcb/a22514.html#a09124a4351930a35e33359e95ca88580", null ],
+    [ "PrepareAuraScript", "d1/dcb/a22514.html#a6ac4aa40f00e7ca03a3a5cf36d6e5d33", null ],
+    [ "Register", "d1/dcb/a22514.html#a8b59d3d74816b41a65f9c5bd07226c4e", null ],
+    [ "Validate", "d1/dcb/a22514.html#a5bf3ac4b8ff19bdbde604c4d8931d1bc", null ]
 ];

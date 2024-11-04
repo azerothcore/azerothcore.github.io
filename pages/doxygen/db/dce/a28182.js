@@ -1,7 +1,7 @@
 var a28182 =
 [
-    [ "Flags", "db/dce/a28182.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
-    [ "ID", "db/dce/a28182.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
-    [ "RangeMax", "db/dce/a28182.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
-    [ "RangeMin", "db/dce/a28182.html#a127a46f2382edea750ca567d5ea3d304", null ]
+    [ "RealmHandle", "db/dce/a28182.html#a120fb45f2301188a843ab2e712f768e4", null ],
+    [ "RealmHandle", "db/dce/a28182.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
+    [ "operator<", "db/dce/a28182.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
+    [ "Realm", "db/dce/a28182.html#a31af0d9064a295b1579fce3c80217bfd", null ]
 ];

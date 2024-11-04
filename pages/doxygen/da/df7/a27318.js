@@ -1,10 +1,13 @@
 var a27318 =
 [
-    [ "npc_prof_tailor", "da/df7/a27318.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
-    [ "HasTailorSpell", "da/df7/a27318.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
-    [ "OnGossipHello", "da/df7/a27318.html#a686098ac43916ea2f82b7c321527863d", null ],
-    [ "OnGossipSelect", "da/df7/a27318.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
-    [ "SendActionMenu", "da/df7/a27318.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
-    [ "SendConfirmLearn", "da/df7/a27318.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
-    [ "SendConfirmUnlearn", "da/df7/a27318.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
+    [ "npc_garments_of_questsAI", "da/df7/a27318.html#a079f719ca488ed6fde2783b5db4f328b", null ],
+    [ "JustEngagedWith", "da/df7/a27318.html#aa14c07eaaa8d6381e8a821eab7a3d421", null ],
+    [ "Reset", "da/df7/a27318.html#aaaaa3e41deae0057bd659be5c579d226", null ],
+    [ "SpellHit", "da/df7/a27318.html#ad22195dba70ced744b319bc1ad83c083", null ],
+    [ "UpdateAI", "da/df7/a27318.html#aadf1a807ff49bd83eb21fc38fb2ed81c", null ],
+    [ "WaypointReached", "da/df7/a27318.html#a9bd63db7774e77ce4af6cfa952bcfa6d", null ],
+    [ "CanRun", "da/df7/a27318.html#a93c41781e4cb037b56773bbbf36181b7", null ],
+    [ "CasterGUID", "da/df7/a27318.html#ad2656e6a080b6407b57a3a1afeed12a0", null ],
+    [ "IsHealed", "da/df7/a27318.html#a96db66704eabf028362d5f8b5c424712", null ],
+    [ "RunAwayTimer", "da/df7/a27318.html#ac0a898f8938ea9b3721cc7440fac2da0", null ]
 ];

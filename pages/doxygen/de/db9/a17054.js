@@ -1,6 +1,6 @@
 var a17054 =
 [
-    [ "ShockVortexExplodeEvent", "de/db9/a17054.html#ad972aed372822e10a476d1592192f3ea", null ],
-    [ "Execute", "de/db9/a17054.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
-    [ "_owner", "de/db9/a17054.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
+    [ "PrepareSpellScript", "de/db9/a17054.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
+    [ "Register", "de/db9/a17054.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
+    [ "SetDest", "de/db9/a17054.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
 ];

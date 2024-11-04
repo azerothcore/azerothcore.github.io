@@ -1,7 +1,13 @@
 var a27754 =
 [
-    [ "HandleDummy", "d3/d8d/a27754.html#addfcb17cbbb56bda88997b34ce3e3ddd", null ],
-    [ "PrepareSpellScript", "d3/d8d/a27754.html#a22614b06c6f1853f02a992dcab027a60", null ],
-    [ "Register", "d3/d8d/a27754.html#a9ad5691f6049078c45052d07513b35a2", null ],
-    [ "Validate", "d3/d8d/a27754.html#a3fab2057be5de9e2f7703b8f43a99ed5", null ]
+    [ "HasFlag", "d3/d8d/a27754.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
+    [ "CinematicSequence", "d3/d8d/a27754.html#a33a01b1c26b21706d9898af246f2a0df", null ],
+    [ "expansion", "d3/d8d/a27754.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
+    [ "FactionID", "d3/d8d/a27754.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
+    [ "Flags", "d3/d8d/a27754.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
+    [ "model_f", "d3/d8d/a27754.html#a4807227fd863e247b18d29db0ea8236a", null ],
+    [ "model_m", "d3/d8d/a27754.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
+    [ "name", "d3/d8d/a27754.html#a4970323e45feb3f74b47420648371ab6", null ],
+    [ "RaceID", "d3/d8d/a27754.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
+    [ "TeamID", "d3/d8d/a27754.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
 ];

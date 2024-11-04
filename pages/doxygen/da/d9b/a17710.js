@@ -1,7 +1,7 @@
 var a17710 =
 [
-    [ "CheckRequirement", "da/d9b/a17710.html#a1568599758bdc757ae448ab5a77c1cc7", null ],
-    [ "CheckRequirementInternal", "da/d9b/a17710.html#ac2559b4a925fc0960a902fa2b306dc54", null ],
-    [ "PrepareSpellScript", "da/d9b/a17710.html#a0d6745dab09cdd228fc802e482c3d15c", null ],
-    [ "Register", "da/d9b/a17710.html#a95a250aeb3a41922c529f476d39f18e4", null ]
+    [ "FrostBombExplosion", "da/d9b/a17710.html#ac7d318e241e6442e8aa084b27ea50236", null ],
+    [ "Execute", "da/d9b/a17710.html#a0b6521266f18b621260286c530ff3f36", null ],
+    [ "_owner", "da/d9b/a17710.html#aa9ff39ce43c351e8815f895896fa759b", null ],
+    [ "_sindragosaGUID", "da/d9b/a17710.html#a5afc3d543c8fa457c90735f841aa161c", null ]
 ];

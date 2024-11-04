@@ -1,10 +1,6 @@
 var a13326 =
 [
-    [ "npc_partygoer_pather", "dd/d3d/a13326.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
-    [ "Initialize", "dd/d3d/a13326.html#afb114b0587c550e39c41e131364da663", null ],
-    [ "PathEndReached", "dd/d3d/a13326.html#a55833d306716ba411f96ecd024cc7c72", null ],
-    [ "Reset", "dd/d3d/a13326.html#ade2cc36ff49001138eee5b607ec83b12", null ],
-    [ "UpdateAI", "dd/d3d/a13326.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
-    [ "_events", "dd/d3d/a13326.html#ac210dc0286ded980e78743237a08bb23", null ],
-    [ "_path", "dd/d3d/a13326.html#a4da184c44858e99eca2b07193fd48f13", null ]
+    [ "npc_corporal_keeshanAI", "dd/d99/a13330.html", "dd/d99/a13330" ],
+    [ "npc_corporal_keeshan", "dd/d3d/a13326.html#a0ca9459a7f283e040f14e0052762f587", null ],
+    [ "GetAI", "dd/d3d/a13326.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
 ];

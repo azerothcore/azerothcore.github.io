@@ -1,6 +1,12 @@
 var a22342 =
 [
-    [ "npc_released_offspring_harkoaAI", "dd/de6/a22346.html", "dd/de6/a22346" ],
-    [ "npc_released_offspring_harkoa", "d6/d3b/a22342.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
-    [ "GetAI", "d6/d3b/a22342.html#ae3d2a02c496be1b2606fce596625d12e", null ]
+    [ "boss_exarch_maladaar", "d6/d3b/a22342.html#a5dac68e3dc6fc37736bf85b84eadd417", null ],
+    [ "JustDied", "d6/d3b/a22342.html#ab1179a19af8948d430559db4074c41ed", null ],
+    [ "JustEngagedWith", "d6/d3b/a22342.html#a69427e7a0ca70253ad8035b5e6b1e01e", null ],
+    [ "JustSummoned", "d6/d3b/a22342.html#a8f59e1b093af8c85da8c2fd38e01ca1b", null ],
+    [ "KilledUnit", "d6/d3b/a22342.html#adf35cb8b039676500d4040baa08b0d48", null ],
+    [ "MoveInLineOfSight", "d6/d3b/a22342.html#a14baacd30b9186c7492c981313421d5b", null ],
+    [ "Reset", "d6/d3b/a22342.html#accb21d3c4a6856d2de9641cf84c42ce9", null ],
+    [ "UpdateAI", "d6/d3b/a22342.html#a7646c4477135d3d3b8580432902babd4", null ],
+    [ "_talked", "d6/d3b/a22342.html#a15c4f122529b9f52823ea407c43433c5", null ]
 ];

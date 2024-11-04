@@ -1,6 +1,9 @@
 var a21218 =
 [
-    [ "npc_ichor_globuleAI", "dd/dc7/a21222.html", "dd/dc7/a21222" ],
-    [ "npc_ichor_globule", "d8/d71/a21218.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
-    [ "GetAI", "d8/d71/a21218.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
+    [ "npc_azure_sorcerorAI", "d8/d71/a21218.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d8/d71/a21218.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d8/d71/a21218.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d8/d71/a21218.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d8/d71/a21218.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d8/d71/a21218.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

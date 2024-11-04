@@ -1,7 +1,7 @@
 var a02135 =
 [
-    [ "boss_halazzi", "d9/d68/a13566.html", "d9/d68/a13566" ],
-    [ "npc_halazzi_lynx", "d9/d43/a13570.html", "d9/d43/a13570" ],
+    [ "boss_halazzi", "dd/d57/a13506.html", "dd/d57/a13506" ],
+    [ "npc_halazzi_lynx", "d4/df0/a13510.html", "d4/df0/a13510" ],
     [ "Groups", "df/daa/a02135.html#aab072245ab577ff0e12efe20a536b99a", [
       [ "GROUP_PRECOMBAT_TALK", "d2/d31/a02087.html#aab072245ab577ff0e12efe20a536b99aa3e7953992f23b2eba8d8498bfc66e01d", null ],
       [ "PORTAL_PHASE", "d2/d50/a02081.html#aab072245ab577ff0e12efe20a536b99aa8f7d8b62b79ce76fc356b355521db829", null ],

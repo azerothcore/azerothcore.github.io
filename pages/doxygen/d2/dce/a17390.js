@@ -1,6 +1,6 @@
 var a17390 =
 [
-    [ "npc_gunship_boarding_add_realAI", "db/dd1/a17394.html", "db/dd1/a17394" ],
-    [ "npc_gunship_boarding_add", "d2/dce/a17390.html#aa80871f80bae7186d3665f73d757e108", null ],
-    [ "GetAI", "d2/dce/a17390.html#ad7e173bffccca6d852ba545427235447", null ]
+    [ "IgbArtilleryCheck", "d2/dce/a17390.html#a78b65928551ed799cf3f446f0603c50e", null ],
+    [ "operator()", "d2/dce/a17390.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
+    [ "_entry", "d2/dce/a17390.html#a98a6a0836414da82c288e372e982f69f", null ]
 ];

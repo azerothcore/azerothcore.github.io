@@ -1,9 +1,22 @@
 var a17426 =
 [
-    [ "CheckAreaTarget", "de/d00/a17426.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
-    [ "HandleApply", "de/d00/a17426.html#a9ce86d32957af07313af379b4176d0b3", null ],
-    [ "HandleRemove", "de/d00/a17426.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
-    [ "Load", "de/d00/a17426.html#aa10821981f3e80262850e5c46449d5d0", null ],
-    [ "PrepareAuraScript", "de/d00/a17426.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
-    [ "Register", "de/d00/a17426.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
+    [ "boss_lady_deathwhisperAI", "de/d00/a17426.html#a277180410090d1857bcc8962e22d965d", null ],
+    [ "AttackStart", "de/d00/a17426.html#a95268fc3088ecb1e0689bc502389eed1", null ],
+    [ "DamageTaken", "de/d00/a17426.html#a929dea6ce420f201341a20ab5d9273ed", null ],
+    [ "DoAction", "de/d00/a17426.html#a563f30e5e2a46c514cb114ef72dfa9e8", null ],
+    [ "EmpowerCultist", "de/d00/a17426.html#afc8a2df592e16bbac65a7aee4e6c7c95", null ],
+    [ "JustDied", "de/d00/a17426.html#a974094ecbdc1149ca3d1eec9211438df", null ],
+    [ "JustEngagedWith", "de/d00/a17426.html#ac56045f2aa26423bd69e97d8f279cf5e", null ],
+    [ "JustSummoned", "de/d00/a17426.html#a6ab4dc86911debb47e9d1784cb65dbb8", null ],
+    [ "KilledUnit", "de/d00/a17426.html#a325834b73d181e0506e1ea40380cddac", null ],
+    [ "Reset", "de/d00/a17426.html#a7eec8900602522cf39dd3a8dba733649", null ],
+    [ "SpellHitTarget", "de/d00/a17426.html#a868b18df67744868a8f694e7df7f1e66", null ],
+    [ "Summon", "de/d00/a17426.html#a933a9e13ca59d1d1049038f9f182470b", null ],
+    [ "SummonedCreatureDespawn", "de/d00/a17426.html#aa630ff1884cf1ebaa189c094d2278a1f", null ],
+    [ "SummonWaveP1", "de/d00/a17426.html#ad0cf8e10b041409868b8b75558f07e1b", null ],
+    [ "SummonWaveP2", "de/d00/a17426.html#a72971bdfe394da6fe94ce340143ab060", null ],
+    [ "UpdateAI", "de/d00/a17426.html#af602295a448fca10719861983a567d99", null ],
+    [ "_darnavanGUID", "de/d00/a17426.html#af4f251406b3a4ae3db32e83005993dfa", null ],
+    [ "_introDone", "de/d00/a17426.html#a162870aad6c99276f760b2e37b42c6c9", null ],
+    [ "_waveCounter", "de/d00/a17426.html#ab2819e4ade2c7a07d1d0a67d86063f16", null ]
 ];

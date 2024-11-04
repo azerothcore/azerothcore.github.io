@@ -1,5 +1,6 @@
 var a19426 =
 [
-    [ "boss_sjonnir_dwarfAI", "df/dd9/a19426.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
-    [ "UpdateAI", "df/dd9/a19426.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
+    [ "go_celestial_planetarium_accessAI", "de/db7/a19430.html", "de/db7/a19430" ],
+    [ "go_celestial_planetarium_access", "df/dd9/a19426.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
+    [ "GetAI", "df/dd9/a19426.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
 ];

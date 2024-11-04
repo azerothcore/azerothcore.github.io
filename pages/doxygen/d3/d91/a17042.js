@@ -1,6 +1,6 @@
 var a17042 =
 [
-    [ "instance_gundrak_InstanceMapScript", "d8/d97/a17046.html", "d8/d97/a17046" ],
-    [ "instance_gundrak", "d3/d91/a17042.html#ad6acbbcd96740a011f2a72a63fb211c3", null ],
-    [ "GetInstanceScript", "d3/d91/a17042.html#a738b4ea54d1e0d7b1db90b9cc3a9c83c", null ]
+    [ "OnAbsorb", "d3/d91/a17042.html#aa6582457cd0502ca263433d04b40b64f", null ],
+    [ "PrepareAuraScript", "d3/d91/a17042.html#a0b6916dd3f6172e59edf477f203c85b1", null ],
+    [ "Register", "d3/d91/a17042.html#a945ec4037120992e8a2986e7fd2e2c96", null ]
 ];

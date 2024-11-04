@@ -1,5 +1,6 @@
 var a20162 =
 [
-    [ "achievement_ignis_shattered", "da/df9/a20162.html#adbe893b0dd409eb3f10768f81f182f61", null ],
-    [ "OnCheck", "da/df9/a20162.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
+    [ "npc_ulduar_magnetic_coreAI", "d7/de5/a20166.html", "d7/de5/a20166" ],
+    [ "npc_ulduar_magnetic_core", "da/df9/a20162.html#a788a1a6d3ec28c866d6b8cb112fe8071", null ],
+    [ "GetAI", "da/df9/a20162.html#a3adcc5c7650e2b016f02a1160c3fa6ab", null ]
 ];

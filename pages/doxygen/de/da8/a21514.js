@@ -1,6 +1,6 @@
 var a21514 =
 [
-    [ "npc_leryssaAI", "d9/dbb/a21518.html", "d9/dbb/a21518" ],
-    [ "npc_leryssa", "de/da8/a21514.html#a549bed4476f88c313e6b42c0fe1fffb8", null ],
-    [ "GetAI", "de/da8/a21514.html#a4725831580b206d91dbd8c21a703893f", null ]
+    [ "CheckCast", "de/da8/a21514.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
+    [ "PrepareSpellScript", "de/da8/a21514.html#abff433d61c798d17882292b6b0956a58", null ],
+    [ "Register", "de/da8/a21514.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
 ];

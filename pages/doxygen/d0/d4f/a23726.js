@@ -1,6 +1,6 @@
 var a23726 =
 [
-    [ "Load", "d0/d4f/a23726.html#a0fa22884296d705fd28eed88351d1165", null ],
-    [ "PrepareSpellScript", "d0/d4f/a23726.html#ae04539319a7bab4965f663039c991614", null ],
-    [ "Register", "d0/d4f/a23726.html#a7c7abeb9bc621824173db2c727c28045", null ]
+    [ "npc_nether_drakeAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
+    [ "npc_nether_drake", "d0/d4f/a23726.html#a253ec3c91857b899ea9e2c824870b760", null ],
+    [ "GetAI", "d0/d4f/a23726.html#a58d269e2c73cae07bb507162b742fe8f", null ]
 ];

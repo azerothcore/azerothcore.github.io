@@ -1,17 +1,18 @@
 var a24106 =
 [
-    [ "npc_torloth_the_magnificentAI", "de/d80/a24106.html#ad34b85c80ebfb2332709c7ee21c053b7", null ],
-    [ "HandleAnimation", "de/d80/a24106.html#ab69f481e3871e5ce803ab1f389a2385c", null ],
-    [ "JustDied", "de/d80/a24106.html#aef9d2bcc04b8c1a54bf59f4744eba3ae", null ],
-    [ "JustEngagedWith", "de/d80/a24106.html#abf3fc3538e82fceaa916d4e217d6f9fd", null ],
-    [ "Reset", "de/d80/a24106.html#aa7944f80bb6718a65a07128be830ed94", null ],
-    [ "UpdateAI", "de/d80/a24106.html#ad5f7769462aa39fabb7ec5e79670cda1", null ],
-    [ "AggroTargetGUID", "de/d80/a24106.html#a826ecad9e9a06050a3ebc0861bf52c1e", null ],
-    [ "AnimationCount", "de/d80/a24106.html#afbe712b9e3dfe97417e1e621f4eff113", null ],
-    [ "AnimationTimer", "de/d80/a24106.html#a2485ad15002946c0c5b2ebce65221629", null ],
-    [ "LordIllidanGUID", "de/d80/a24106.html#ad135529fe083af2ce3e79823213d2735", null ],
-    [ "SpellTimer1", "de/d80/a24106.html#a991868074e39e2a4d06c37afc642a756", null ],
-    [ "SpellTimer2", "de/d80/a24106.html#a7da30509a017de1392cc3ba181a0dc53", null ],
-    [ "SpellTimer3", "de/d80/a24106.html#a0caf2b2d48c78b2eb032ff73168e2556", null ],
-    [ "Timers", "de/d80/a24106.html#a0eb0c24aff4cdab76d234ba17dbc4b5b", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "de/d80/a24106.html#a5181a22e0e3b242112095552b6a9a0ab", null ],
+    [ "AttackStart", "de/d80/a24106.html#a46a5511e57af5f9e5128f922c691fc4f", null ],
+    [ "FlyAway", "de/d80/a24106.html#a9af7240d389affb09dc8656417d902fa", null ],
+    [ "InitializeAI", "de/d80/a24106.html#a63e7284a03c4ad3ba2242f5cc61ab33f", null ],
+    [ "MovementInform", "de/d80/a24106.html#a82b40fd7eeccef8c52cf31dd8d20da9a", null ],
+    [ "MySelectNextTarget", "de/d80/a24106.html#a67471ffe36c1535f1034a7037f9ae607", null ],
+    [ "RemoveTargetAura", "de/d80/a24106.html#a2fb3b35fadc56c1bdab31b21785f9b75", null ],
+    [ "Reset", "de/d80/a24106.html#a0a47ddb3568b8683a109489bdf5a018e", null ],
+    [ "UpdateAI", "de/d80/a24106.html#ae37e2b9453449eb1e8c629af49b48e82", null ],
+    [ "_despawning", "de/d80/a24106.html#afd200dfb3b8ceb05ff70c5413cd8a961", null ],
+    [ "_despawnTimer", "de/d80/a24106.html#ab53127c5db2ccb85d260bdf29a6f714b", null ],
+    [ "_initialCastTimer", "de/d80/a24106.html#a921dcc19257c708a2f84f515ae5df113", null ],
+    [ "_initialSelection", "de/d80/a24106.html#aac259fa5c5ca81b8be77cd0c33f58e1f", null ],
+    [ "_selectionTimer", "de/d80/a24106.html#a3fb591687748bacef72990ecac0ea246", null ],
+    [ "_targetGUID", "de/d80/a24106.html#af1f5d442840812b4d73f9411226e6925", null ]
 ];

@@ -1,8 +1,7 @@
 var a27934 =
 [
-    [ "difficulty", "d7/d30/a27934.html#a2a04df701c13dc49053b09a9587a72a8", null ],
-    [ "encounterIndex", "d7/d30/a27934.html#a3d35560824a3aaeecb8db4bf8628ebfd", null ],
-    [ "encounterName", "d7/d30/a27934.html#af4f26f56526b945e392ddaf6b2d43fa1", null ],
-    [ "id", "d7/d30/a27934.html#aa9828ccc644a11f9cb35fbcc7d31a827", null ],
-    [ "mapId", "d7/d30/a27934.html#a61c1ac724c8eb96907d2ea9402a8f9ce", null ]
+    [ "Id", "d7/d30/a27934.html#a94843a6f0cb39332f39a9630945f1fc8", null ],
+    [ "SoundBank", "d7/d30/a27934.html#a1dd2e40caf515186c831dc8cc82c095b", null ],
+    [ "SpellId", "d7/d30/a27934.html#aa010947f5fbec6867b005b25728e720b", null ],
+    [ "Type", "d7/d30/a27934.html#a7f610dd6a9944b4634bb981c0cb8e230", null ]
 ];

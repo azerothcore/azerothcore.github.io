@@ -1,6 +1,13 @@
 var a20942 =
 [
-    [ "instance_utgarde_keep_InstanceMapScript", "dd/df0/a20946.html", "dd/df0/a20946" ],
-    [ "instance_utgarde_keep", "d2/ddb/a20942.html#abe013e4f086f63722a6398b2b7928c80", null ],
-    [ "GetInstanceScript", "d2/ddb/a20942.html#a9a42e0dde1c7598eb2ef665f11e25e92", null ]
+    [ "MoveX", "d2/ddb/a20942.html#aaae6e8ea168850a934b887ec006d7d8b", null ],
+    [ "MoveY", "d2/ddb/a20942.html#a62cd7f778cea049a1a6a4c34d21545a7", null ],
+    [ "MoveZ", "d2/ddb/a20942.html#a80b842f55108fec58fe04cf02e8e0b35", null ],
+    [ "npc", "d2/ddb/a20942.html#a4bdccc14156f7e5822c9a8eefc29adaa", null ],
+    [ "say", "d2/ddb/a20942.html#adcd8647fc0ee9799e24173780209f2d9", null ],
+    [ "SpawnO", "d2/ddb/a20942.html#a3b6b89143c8a875cda01b000cea6a7c7", null ],
+    [ "SpawnX", "d2/ddb/a20942.html#af3ae27adaecafe9a09802bc202973d68", null ],
+    [ "SpawnY", "d2/ddb/a20942.html#a749e9c6edcc87f258f250344d652145c", null ],
+    [ "SpawnZ", "d2/ddb/a20942.html#a06a0f8e5a7d63204d57992dc9623f83b", null ],
+    [ "trigger", "d2/ddb/a20942.html#ad2291d89a874c79859b3140754594ed7", null ]
 ];

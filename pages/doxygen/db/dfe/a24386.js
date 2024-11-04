@@ -1,6 +1,6 @@
 var a24386 =
 [
-    [ "PrepareSpellScript", "db/dfe/a24386.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
-    [ "RecalculateDamage", "db/dfe/a24386.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
-    [ "Register", "db/dfe/a24386.html#a834484683d2d782b4f4c027091108172", null ]
+    [ "HandleScriptEffect", "db/dfe/a24386.html#afaffd667477e286700dd7e5562423452", null ],
+    [ "PrepareSpellScript", "db/dfe/a24386.html#a9c30d4d6427cfc96b88a1427afcedb00", null ],
+    [ "Register", "db/dfe/a24386.html#ab8b68e02d05abceeb4b7eef00092e759", null ]
 ];

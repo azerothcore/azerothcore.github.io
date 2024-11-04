@@ -1,5 +1,30 @@
 var a13442 =
 [
-    [ "npc_tyrion", "df/d28/a13442.html#a85b1abd4910729c17099174def6507b1", null ],
-    [ "OnQuestAccept", "df/d28/a13442.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
+    [ "npc_thrall_bfuAI", "df/d28/a13442.html#a0b719e975918c6bf1cb9e74d4b34691e", null ],
+    [ "ActivateValimathrasPortal", "df/d28/a13442.html#a2a58331b6282602891e98d84921ed600", null ],
+    [ "CanAIAttack", "df/d28/a13442.html#a1f35d939b0f27c143dc50be18eace58d", null ],
+    [ "EnterEvadeMode", "df/d28/a13442.html#a4d73a0a63409d251652289db36e9fe8d", null ],
+    [ "FollowThrall", "df/d28/a13442.html#a183bfae549896afac18bcb89270ca87a", null ],
+    [ "JumpToNextStep", "df/d28/a13442.html#aa942d8c8cde5ec6e9bcbbc76f62e6eab", null ],
+    [ "JustSummoned", "df/d28/a13442.html#afe5a4958d703cd9767f6b4051f3b0db2", null ],
+    [ "Reset", "df/d28/a13442.html#a5f30e1257412cc2dcc9b7b085b8b7bc5", null ],
+    [ "SetHoldState", "df/d28/a13442.html#a1d587fe68e8ada3994896d7e1bd288fb", null ],
+    [ "SpawnWave", "df/d28/a13442.html#abde28867b6d1975032a73f4990d0a2b4", null ],
+    [ "SummonedCreatureDies", "df/d28/a13442.html#a0a2f6ddcb7334a6a7c0b131f82611776", null ],
+    [ "UpdateAI", "df/d28/a13442.html#ac0d604a3db43172dcc8ae121fe3faa60", null ],
+    [ "UpdateWorldState", "df/d28/a13442.html#a1f3968dbd3168e745815c45c0b1f044c", null ],
+    [ "WaypointReached", "df/d28/a13442.html#ab9058c31253d42457136ad4e7a92909c", null ],
+    [ "_events", "df/d28/a13442.html#ab724c7b0673ab8cd50def4a864545617", null ],
+    [ "allianceForcesGUID", "df/d28/a13442.html#a97badd906bc9b0cd0278d003191e585a", null ],
+    [ "bStepping", "df/d28/a13442.html#a2f03d831bd3217366741716f671fcde6", null ],
+    [ "EnableAttack", "df/d28/a13442.html#aabaab2a83d00264c500552c7463cd9bc", null ],
+    [ "hordeGuardsGUID", "df/d28/a13442.html#ad0ea32cef7b5fa79e980bc804fd0f22e", null ],
+    [ "JainaGUID", "df/d28/a13442.html#aaf200bc2ab00524cd78d7cccc141d31d", null ],
+    [ "phaseTimer", "df/d28/a13442.html#a7fccc11c62d1d898d9c6f40456626ab7", null ],
+    [ "SaurfangGUID", "df/d28/a13442.html#a5211d82bf6c3bb5d6be665cced01018b", null ],
+    [ "step", "df/d28/a13442.html#abe0cf3f5e154edd5b0005c62a70dfb06", null ],
+    [ "sylvanasfollowGUID", "df/d28/a13442.html#a9a948a3a8dd472dce54a1921272b5994", null ],
+    [ "ValimathrasGUID", "df/d28/a13442.html#a34f9a36d0bdb6dea215d21da3bdf54de", null ],
+    [ "ValimathrasPortalGUID", "df/d28/a13442.html#a4466ddcdc8acdd99e4c46a2128ac696c", null ],
+    [ "WrynnGUID", "df/d28/a13442.html#ae764b73931eb22712fc4e22e0c15a080", null ]
 ];

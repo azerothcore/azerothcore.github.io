@@ -1,6 +1,9 @@
 var a22986 =
 [
-    [ "boss_doomlordkazzakAI", "dc/d0a/a22990.html", "dc/d0a/a22990" ],
-    [ "boss_doomlord_kazzak", "de/d5d/a22986.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
-    [ "GetAI", "de/d5d/a22986.html#a460a32ce37aae852b48f1990406da9a4", null ]
+    [ "FilterTargets", "de/d5d/a22986.html#a9049c113d65b15a9a8e1143980a84b23", null ],
+    [ "HandleDummy", "de/d5d/a22986.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
+    [ "Load", "de/d5d/a22986.html#a8cad82701e0147e14f826243175e1c32", null ],
+    [ "PrepareSpellScript", "de/d5d/a22986.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
+    [ "Register", "de/d5d/a22986.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
+    [ "_targetNumber", "de/d5d/a22986.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
 ];

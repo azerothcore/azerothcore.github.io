@@ -1,10 +1,16 @@
 var a23650 =
 [
-    [ "boss_thorngrin_the_tender", "d2/d08/a23650.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "d2/d08/a23650.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "d2/d08/a23650.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "d2/d08/a23650.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "d2/d08/a23650.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "d2/d08/a23650.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "d2/d08/a23650.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "instance_the_eye_InstanceMapScript", "d2/d08/a23650.html#a0c2b90c0f155e279aece7cd36d9de6d7", null ],
+    [ "GetGuidData", "d2/d08/a23650.html#a882432d126cc9e90322eaa16f5ef15c8", null ],
+    [ "OnCreatureCreate", "d2/d08/a23650.html#a8a89f56945022e34cc5d9ead06a58b63", null ],
+    [ "OnGameObjectCreate", "d2/d08/a23650.html#a56c6933c2c231c228ca147107fbfc930", null ],
+    [ "AlarGUID", "d2/d08/a23650.html#a2a5323d92963da3b4b99ef1f7debaa4d", null ],
+    [ "BridgeWindowGUID", "d2/d08/a23650.html#a1fa987352d6c4c5f11d5415d4b886aaa", null ],
+    [ "GrandAstromancerCapernianGUID", "d2/d08/a23650.html#aa8e267617231a7816a43e9957c745c58", null ],
+    [ "KaelStateLeftGUID", "d2/d08/a23650.html#ab2ca710f119fbfc1a7b57a88462d145b", null ],
+    [ "KaelStateRightGUID", "d2/d08/a23650.html#a25ba703325800d2976eff860437f3d57", null ],
+    [ "KaelthasGUID", "d2/d08/a23650.html#a547528fbfe31974759b0e6fbdf12df31", null ],
+    [ "LordSanguinarGUID", "d2/d08/a23650.html#a5794e1c326ad2eb4fee2bdfab8261257", null ],
+    [ "MasterEngineerTelonicusGUID", "d2/d08/a23650.html#abded7dc13c226ccad53c151d75ced243", null ],
+    [ "ThaladredTheDarkenerGUID", "d2/d08/a23650.html#ada64ef9f71d61ea19144cec596ba06e2", null ]
 ];

@@ -1,7 +1,6 @@
 var a15166 =
 [
-    [ "npc_cork_gizeltonAI", "dc/df8/a15170.html", "dc/df8/a15170" ],
-    [ "npc_cork_gizelton", "da/dcc/a15166.html#a915aa2abc18109e7d0197863f59536f2", null ],
-    [ "GetAI", "da/dcc/a15166.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
-    [ "OnQuestAccept", "da/dcc/a15166.html#a11dc1fea0a24add451272b537298fc13", null ]
+    [ "npcs_riverbreeze_and_silversky", "da/dcc/a15166.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
+    [ "OnGossipHello", "da/dcc/a15166.html#a7de032322a37f929c316aadfdadda768", null ],
+    [ "OnGossipSelect", "da/dcc/a15166.html#a93c7b159dda733da5030de747bad30b5", null ]
 ];

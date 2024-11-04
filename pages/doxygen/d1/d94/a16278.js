@@ -1,8 +1,6 @@
 var a16278 =
 [
-    [ "npc_toc_pet_hunterAI", "d1/d94/a16278.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
-    [ "EnterEvadeMode", "d1/d94/a16278.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
-    [ "myCanCast", "d1/d94/a16278.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
-    [ "UpdateAI", "d1/d94/a16278.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
-    [ "events", "d1/d94/a16278.html#ade038312363f976b34868ed2cbebb58d", null ]
+    [ "boss_icehowlAI", "d9/d10/a16282.html", "d9/d10/a16282" ],
+    [ "boss_icehowl", "d1/d94/a16278.html#ab3c9711fa6af17be9dc7331b42c408be", null ],
+    [ "GetAI", "d1/d94/a16278.html#ac77bf3b9d954b8c6be01d0209a80cc6a", null ]
 ];

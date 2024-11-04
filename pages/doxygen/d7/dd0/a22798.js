@@ -1,6 +1,8 @@
 var a22798 =
 [
-    [ "boss_essence_of_desireAI", "d7/d5d/a22802.html", "d7/d5d/a22802" ],
-    [ "boss_essence_of_desire", "d7/dd0/a22798.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
-    [ "GetAI", "d7/dd0/a22798.html#a14b66470c508fa24e214062aeec0aae6", null ]
+    [ "CalcPeriodic", "d7/dd0/a22798.html#aad87c25b9b3255a4871bec39d9787299", null ],
+    [ "PrepareAuraScript", "d7/dd0/a22798.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
+    [ "Register", "d7/dd0/a22798.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
+    [ "Update", "d7/dd0/a22798.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
+    [ "Validate", "d7/dd0/a22798.html#ae4f7bfb1cd95666acada217173876352", null ]
 ];

@@ -1,17 +1,12 @@
 var a16722 =
 [
-    [ "npc_hor_lich_kingAI", "d6/d21/a16722.html#a689fd445286595780c3d842976a5913f", null ],
-    [ "DoAction", "d6/d21/a16722.html#a904a57d99527b6ff47d4f9ab8751a4a5", null ],
-    [ "JustSummoned", "d6/d21/a16722.html#aed675a5238ca6a6312d1758ecbe86aa2", null ],
-    [ "MovementInform", "d6/d21/a16722.html#aeeea82d3e5869e5f604314474533975c", null ],
-    [ "Reset", "d6/d21/a16722.html#a1f1bb445ea29daaf479e7171c96db901", null ],
-    [ "SpellHitTarget", "d6/d21/a16722.html#adcee3757198acfaf4fd4dc8765b86a98", null ],
-    [ "SummonedCreatureDespawn", "d6/d21/a16722.html#a1f3a49cd9e1f9c1013a7c5c2ead3bb3d", null ],
-    [ "UpdateAI", "d6/d21/a16722.html#a127cc66ea4804da51eb9069037b9ba33", null ],
-    [ "currentWall", "d6/d21/a16722.html#a13c505b17edf9f843c6c638802eb62aa", null ],
-    [ "div2", "d6/d21/a16722.html#a63a1741fba6e0fecaf9aac6b6c397acf", null ],
-    [ "events", "d6/d21/a16722.html#a06550732cba84da4cbd708d03a7bd6bb", null ],
-    [ "pInstance", "d6/d21/a16722.html#a5c8ce256ab8e71705bc8d84f08245417", null ],
-    [ "reqKillCount", "d6/d21/a16722.html#a69da5432ed2b4ef9944fbd19c97d404d", null ],
-    [ "summons", "d6/d21/a16722.html#af55dd229cd141ffab701c6ab77304127", null ]
+    [ "boss_tyrannusAI", "d6/d21/a16722.html#a753de14d2cecaaed2c7b24e09397b008", null ],
+    [ "CanAIAttack", "d6/d21/a16722.html#a0cb60f308637cbd152faf274b3e5f636", null ],
+    [ "DoAction", "d6/d21/a16722.html#ab4d899ab5da283c8d256df8cb0d4e312", null ],
+    [ "JustDied", "d6/d21/a16722.html#a249b7dc28dfc40c2a782ef32b88dbb48", null ],
+    [ "KilledUnit", "d6/d21/a16722.html#abf7c8909143dac641c00cca160bef964", null ],
+    [ "Reset", "d6/d21/a16722.html#aec686cffccd8d95a341e320ffc7d5b7e", null ],
+    [ "UpdateAI", "d6/d21/a16722.html#a4357dc2e9b1d714d780db6ce3f60728b", null ],
+    [ "events", "d6/d21/a16722.html#a2168a2e1b36607b76614bdef54b02bc3", null ],
+    [ "pInstance", "d6/d21/a16722.html#ad4a8282849aaa1ce8b4702b5af55d35b", null ]
 ];

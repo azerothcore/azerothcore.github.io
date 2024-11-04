@@ -1,6 +1,6 @@
 var a24402 =
 [
-    [ "HandlePeriodic", "d3/daf/a24402.html#adc387a1b001119b95179856c030853ad", null ],
-    [ "PrepareAuraScript", "d3/daf/a24402.html#a64eb2c68651171f1cbda3aa98d58e68e", null ],
-    [ "Register", "d3/daf/a24402.html#a1234c3e7b32d5bed67c8e9c2afc1fdc5", null ]
+    [ "CheckTargets", "d3/daf/a24402.html#abb6ffb41731b05b868f82498b373d8b9", null ],
+    [ "PrepareSpellScript", "d3/daf/a24402.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
+    [ "Register", "d3/daf/a24402.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
 ];

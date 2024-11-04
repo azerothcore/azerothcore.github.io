@@ -1,6 +1,6 @@
 var a25362 =
 [
-    [ "HandleItemRemove", "da/d9d/a25362.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "da/d9d/a25362.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "da/d9d/a25362.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "HandleSummon", "da/d9d/a25362.html#ad1ee0eb347454d50216610a266226d68", null ],
+    [ "PrepareSpellScript", "da/d9d/a25362.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
+    [ "Register", "da/d9d/a25362.html#aa145041af68291f107c3ff11ce15b85e", null ]
 ];

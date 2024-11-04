@@ -1,12 +1,12 @@
 var a01733 =
 [
-    [ "item_only_for_flight", "d1/da0/a27262.html", "d1/da0/a27262" ],
-    [ "item_incendiary_explosives", "da/dab/a27266.html", "da/dab/a27266" ],
-    [ "item_mysterious_egg", "de/d4f/a27270.html", "de/d4f/a27270" ],
-    [ "item_disgusting_jar", "dc/d5b/a27274.html", "dc/d5b/a27274" ],
-    [ "item_petrov_cluster_bombs", "d3/d40/a27278.html", "d3/d40/a27278" ],
-    [ "item_captured_frog", "d2/d00/a27282.html", "d2/d00/a27282" ],
-    [ "item_generic_limit_chance_above_60", "de/da3/a27286.html", "de/da3/a27286" ],
+    [ "item_only_for_flight", "df/d42/a27126.html", "df/d42/a27126" ],
+    [ "item_incendiary_explosives", "dc/d22/a27130.html", "dc/d22/a27130" ],
+    [ "item_mysterious_egg", "d5/dd4/a27134.html", "d5/dd4/a27134" ],
+    [ "item_disgusting_jar", "dd/dab/a27138.html", "dd/dab/a27138" ],
+    [ "item_petrov_cluster_bombs", "d3/d82/a27142.html", "d3/d82/a27142" ],
+    [ "item_captured_frog", "d6/dee/a27146.html", "d6/dee/a27146" ],
+    [ "item_generic_limit_chance_above_60", "de/d4d/a27150.html", "de/d4d/a27150" ],
     [ "CapturedFrog", "d8/d9c/a01733.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
       [ "QUEST_THE_PERFECT_SPIES", "d8/d9c/a01733.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
       [ "NPC_VANIRAS_SENTRY_TOTEM", "d8/d9c/a01733.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]

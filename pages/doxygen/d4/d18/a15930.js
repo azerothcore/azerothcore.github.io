@@ -1,7 +1,9 @@
 var a15930 =
 [
-    [ "HandleDummy", "d4/d18/a15930.html#a96b430cb0546fb599da22cd675660187", null ],
-    [ "PrepareSpellScript", "d4/d18/a15930.html#ad0330cb78a330f05c18f33375f231fbc", null ],
-    [ "Register", "d4/d18/a15930.html#a70a36683a235dec6044a8a32f20c606c", null ],
-    [ "Validate", "d4/d18/a15930.html#affa7ccf869e98eacd3a153cc645d704e", null ]
+    [ "npc_memoryAI", "d4/d18/a15930.html#ad927d377d60b44f43808469042f5feb9", null ],
+    [ "JustDied", "d4/d18/a15930.html#a7b0484919d671877f29dfa05ca1265d9", null ],
+    [ "Reset", "d4/d18/a15930.html#a985c51bbfa2cceeb7601432491253aaf", null ],
+    [ "UpdateAI", "d4/d18/a15930.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
+    [ "events", "d4/d18/a15930.html#a2ed2993e89728a3723456a67e13581f7", null ],
+    [ "pInstance", "d4/d18/a15930.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
 ];

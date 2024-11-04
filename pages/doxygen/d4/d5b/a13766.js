@@ -1,9 +1,12 @@
 var a13766 =
 [
-    [ "boss_hazzarah", "d4/d5b/a13766.html#a73ba49b91addc9c03e1692587fe66a52", null ],
-    [ "CanAIAttack", "d4/d5b/a13766.html#a9038a5b4276fda8a6865217a7c494eec", null ],
-    [ "JustEngagedWith", "d4/d5b/a13766.html#a18e382c03ff923bb851a9cd8e2541788", null ],
-    [ "JustSummoned", "d4/d5b/a13766.html#a1c3969fbc027f054598ec4123abd6fa4", null ],
-    [ "SummonedCreatureDies", "d4/d5b/a13766.html#aac0c990013edf1968d33aeb59d4f05b0", null ],
-    [ "UpdateAI", "d4/d5b/a13766.html#a61d92f1650a84ed9684d33879e54bd09", null ]
+    [ "npc_chained_spirit", "d4/d5b/a13766.html#a5f407e700a2086f971bed0e8c0def0db", null ],
+    [ "DoAction", "d4/d5b/a13766.html#a7205ef13ca0d164a9222c049bc582254", null ],
+    [ "JustDied", "d4/d5b/a13766.html#a3b405503231173e7ff7aa52e34f63da5", null ],
+    [ "MovementInform", "d4/d5b/a13766.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
+    [ "Reset", "d4/d5b/a13766.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
+    [ "SetGUID", "d4/d5b/a13766.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
+    [ "UpdateAI", "d4/d5b/a13766.html#a38d14b69c71bf2902a916028580fbfad", null ],
+    [ "instance", "d4/d5b/a13766.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
+    [ "revivePlayerGUID", "d4/d5b/a13766.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
 ];

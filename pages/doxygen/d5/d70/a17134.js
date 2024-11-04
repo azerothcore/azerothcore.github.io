@@ -1,6 +1,6 @@
 var a17134 =
 [
-    [ "ChangeSummonPos", "d5/d70/a17134.html#a2c3d69419762c7f78688a22017a8c535", null ],
-    [ "PrepareSpellScript", "d5/d70/a17134.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
-    [ "Register", "d5/d70/a17134.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
+    [ "npc_saurfang_eventAI", "d5/dd2/a17138.html", "d5/dd2/a17138" ],
+    [ "npc_saurfang_event", "d5/d70/a17134.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "d5/d70/a17134.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

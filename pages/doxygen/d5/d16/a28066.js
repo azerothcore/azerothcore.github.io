@@ -1,8 +1,8 @@
 var a28066 =
 [
-    [ "Id", "d5/d16/a28066.html#a6943bf760d15b3f8af4109d131652d72", null ],
-    [ "MapId", "d5/d16/a28066.html#ab0cccd760636a3b42af693d6c483bed9", null ],
-    [ "X", "d5/d16/a28066.html#a91183890254546efeb3162173cc60dad", null ],
-    [ "Y", "d5/d16/a28066.html#a19ab4d026b45d74f006479641afbc4d3", null ],
-    [ "Z", "d5/d16/a28066.html#aaa23c59f20fc96aec148b82516f30036", null ]
+    [ "Color", "d5/d16/a28066.html#a670fb4e2a31958f81d46047f74d9916f", null ],
+    [ "Comparator", "d5/d16/a28066.html#ace0bdad11edd9db12e45d374da623793", null ],
+    [ "CompareColor", "d5/d16/a28066.html#a801e2221bbb1b6aab67a57381901cf08", null ],
+    [ "ID", "d5/d16/a28066.html#aae73769db40326d298bb1d04eef38871", null ],
+    [ "Value", "d5/d16/a28066.html#ac314a9a6b447d386e31a286811f66538", null ]
 ];

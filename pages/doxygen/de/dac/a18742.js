@@ -1,7 +1,7 @@
 var a18742 =
 [
-    [ "HandleTriggerSpell", "de/dac/a18742.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
-    [ "PrepareAuraScript", "de/dac/a18742.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
-    [ "Register", "de/dac/a18742.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
-    [ "Validate", "de/dac/a18742.html#a813bad39641956fff697580f271416d2", null ]
+    [ "HandleRemove", "de/dac/a18742.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
+    [ "PrepareAuraScript", "de/dac/a18742.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
+    [ "Register", "de/dac/a18742.html#ad7ba015a7878adad0820cf378d2632ca", null ],
+    [ "Validate", "de/dac/a18742.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
 ];

@@ -1,5 +1,6 @@
 var a18658 =
 [
-    [ "at_icc_putricide_trap", "df/db8/a18658.html#a9d4183629deada9c22750b8a34e94583", null ],
-    [ "OnTrigger", "df/db8/a18658.html#ad59c2f694c50fabf1946d2c7ae726413", null ]
+    [ "boss_faerlinaAI", "d3/dff/a18662.html", "d3/dff/a18662" ],
+    [ "boss_faerlina", "df/db8/a18658.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "df/db8/a18658.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

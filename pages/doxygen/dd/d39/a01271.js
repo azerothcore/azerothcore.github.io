@@ -1,10 +1,10 @@
 var a01271 =
 [
-    [ "boss_skadi", "d4/da0/a21014.html", "d4/da0/a21014" ],
-    [ "boss_skadi::boss_skadiAI", "dd/d3f/a21018.html", "dd/d3f/a21018" ],
-    [ "boss_skadi_grauf", "d8/d49/a21022.html", "d8/d49/a21022" ],
-    [ "boss_skadi_grauf::boss_skadi_graufAI", "d6/d7a/a21026.html", "d6/d7a/a21026" ],
-    [ "go_harpoon_canon", "d0/d27/a21030.html", "d0/d27/a21030" ],
+    [ "boss_skadi", "d2/d66/a20898.html", "d2/d66/a20898" ],
+    [ "boss_skadi::boss_skadiAI", "d8/d2f/a20902.html", "d8/d2f/a20902" ],
+    [ "boss_skadi_grauf", "de/d3c/a20906.html", "de/d3c/a20906" ],
+    [ "boss_skadi_grauf::boss_skadi_graufAI", "d9/d8f/a20910.html", "d9/d8f/a20910" ],
+    [ "go_harpoon_canon", "d4/dd5/a20914.html", "d4/dd5/a20914" ],
     [ "Events", "dd/d39/a01271.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,8 +1,6 @@
 var a22774 =
 [
-    [ "FilterTargets", "dc/d46/a22774.html#a0ee5b216f8e713a5c632d0f456fd2b72", null ],
-    [ "HandleDummy", "dc/d46/a22774.html#ab89ab441f022ee017548ba49d128b92e", null ],
-    [ "PrepareSpellScript", "dc/d46/a22774.html#aa8578390d7d9379328c02ceb209e94ed", null ],
-    [ "Register", "dc/d46/a22774.html#a486387d707b7ad66ecb443ab2bb60778", null ],
-    [ "Validate", "dc/d46/a22774.html#ad5d695978794d796eb7139fce1530d57", null ]
+    [ "HandleSchoolDamage", "dc/d46/a22774.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
+    [ "PrepareSpellScript", "dc/d46/a22774.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
+    [ "Register", "dc/d46/a22774.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
 ];

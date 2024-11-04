@@ -1,7 +1,6 @@
 var a16190 =
 [
-    [ "npc_toc_shadow_priestAI", "d2/d07/a16190.html#af13a18be542fb314c19af52f89d216b8", null ],
-    [ "myCanCast", "d2/d07/a16190.html#a83422ff3e140b57a484d98876a9a8070", null ],
-    [ "UpdateAI", "d2/d07/a16190.html#afc23ba15d3ee925212e77b5211504c2b", null ],
-    [ "events", "d2/d07/a16190.html#a31665a22920b416d7423958a3e2928ec", null ]
+    [ "npc_toc_pet_warlockAI", "dc/d5a/a16194.html", "dc/d5a/a16194" ],
+    [ "npc_toc_pet_warlock", "d2/d07/a16190.html#a4703f506d677d7e490c6813c6d9b060b", null ],
+    [ "GetAI", "d2/d07/a16190.html#aebcaff82726508a14028cb22a1ef944b", null ]
 ];

@@ -1,7 +1,6 @@
 var a13222 =
 [
-    [ "HandleAfterCast", "dc/dc4/a13222.html#a251ddadd9d26039da542c402e4ee254f", null ],
-    [ "PrepareSpellScript", "dc/dc4/a13222.html#a91114aeb4f917ec5138a0c7b20688174", null ],
-    [ "Register", "dc/dc4/a13222.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
-    [ "Validate", "dc/dc4/a13222.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
+    [ "npc_maredis_firestarAI", "dc/dc4/a13222.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
+    [ "sGossipHello", "dc/dc4/a13222.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
+    [ "sGossipSelect", "dc/dc4/a13222.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
 ];

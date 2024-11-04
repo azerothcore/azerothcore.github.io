@@ -1,6 +1,6 @@
 var a24250 =
 [
-    [ "npc_pet_dk_ghoulAI", "dd/dd2/a24254.html", "dd/dd2/a24254" ],
-    [ "npc_pet_dk_ghoul", "d7/dba/a24250.html#ac8af6ae753151a08e80d434a04ef58db", null ],
-    [ "GetAI", "d7/dba/a24250.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
+    [ "HandlePeriodic", "d7/dba/a24250.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
+    [ "PrepareAuraScript", "d7/dba/a24250.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
+    [ "Register", "d7/dba/a24250.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
 ];

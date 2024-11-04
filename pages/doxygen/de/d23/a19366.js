@@ -1,6 +1,8 @@
 var a19366 =
 [
-    [ "npc_hol_monumentAI", "dd/d85/a19370.html", "dd/d85/a19370" ],
-    [ "npc_hol_monument", "de/d23/a19366.html#ae70329e600ba869891e04b31d7452fc0", null ],
-    [ "GetAI", "de/d23/a19366.html#a8e025a4c67d3a04a231f4effe0ef3746", null ]
+    [ "iron_golem_custodianAI", "de/d23/a19366.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "de/d23/a19366.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "de/d23/a19366.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "de/d23/a19366.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "de/d23/a19366.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

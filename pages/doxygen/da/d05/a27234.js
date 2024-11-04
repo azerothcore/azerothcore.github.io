@@ -1,6 +1,6 @@
 var a27234 =
 [
-    [ "go_bellsAI", "d2/d6f/a27238.html", "d2/d6f/a27238" ],
-    [ "go_bells", "da/d05/a27234.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
-    [ "GetAI", "da/d05/a27234.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
+    [ "npc_taxi", "da/d05/a27234.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "da/d05/a27234.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "da/d05/a27234.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

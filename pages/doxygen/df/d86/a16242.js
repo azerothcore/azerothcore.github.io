@@ -1,6 +1,6 @@
 var a16242 =
 [
-    [ "npc_toc_rogueAI", "da/d85/a16246.html", "da/d85/a16246" ],
-    [ "npc_toc_rogue", "df/d86/a16242.html#a925840be9698e381358235a827c20b8a", null ],
-    [ "GetAI", "df/d86/a16242.html#a6f0246b284ffd800e3870d70e9c52aac", null ]
+    [ "npc_snobold_vassalAI", "da/d85/a16246.html", "da/d85/a16246" ],
+    [ "npc_snobold_vassal", "df/d86/a16242.html#a243cefbc15931ebbb555936d54583314", null ],
+    [ "GetAI", "df/d86/a16242.html#a77976a59f600591454fac197ded613ef", null ]
 ];

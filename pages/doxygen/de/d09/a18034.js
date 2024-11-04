@@ -1,10 +1,9 @@
 var a18034 =
 [
-    [ "npc_shambling_horror_iccAI", "de/d09/a18034.html#a0d15c62bead7a4da3c8a8abd0b2ee612", null ],
-    [ "CanAIAttack", "de/d09/a18034.html#a6d77fdd16c4b089049ade7f7b081b4e9", null ],
-    [ "DamageTaken", "de/d09/a18034.html#aed90f2c487c28190c7af630f4ea2fa13", null ],
-    [ "Reset", "de/d09/a18034.html#ac5bab3d9f360e4e00dcab9abc3799865", null ],
-    [ "UpdateAI", "de/d09/a18034.html#abae6058591022057e93d48da3db1b8bc", null ],
-    [ "_events", "de/d09/a18034.html#af12b65fe4f77e8b2d3f5c87379dd69d2", null ],
-    [ "_frenzied", "de/d09/a18034.html#a34347cbecea4c6f538345b7285e8f1c0", null ]
+    [ "HandleScript", "de/d09/a18034.html#adaab7b03edc6ff147e856dc0cdfc5ad0", null ],
+    [ "Load", "de/d09/a18034.html#aa2a5488ff4706a44350bd969d57a99e1", null ],
+    [ "PrepareSpellScript", "de/d09/a18034.html#a73931c9434114749b9db648665153083", null ],
+    [ "Register", "de/d09/a18034.html#a16b01725a1b2a105df365e0b178a4f0f", null ],
+    [ "SelectTarget", "de/d09/a18034.html#a95be527c43ceeb4801f4e494753c1b59", null ],
+    [ "_target", "de/d09/a18034.html#a2e97dd4fd1fd2ea2ba8bf3d335711de8", null ]
 ];

@@ -1,9 +1,6 @@
 var a22202 =
 [
-    [ "HandlePeriodic", "d6/db4/a22202.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
-    [ "Load", "d6/db4/a22202.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
-    [ "PrepareAuraScript", "d6/db4/a22202.html#a1057e5262d413149a023bc904a3c3751", null ],
-    [ "Register", "d6/db4/a22202.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
-    [ "Validate", "d6/db4/a22202.html#a85d7ac258d50f690574ad7656256cd05", null ],
-    [ "_counter", "d6/db4/a22202.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
+    [ "npc_released_offspring_harkoaAI", "df/da6/a22206.html", "df/da6/a22206" ],
+    [ "npc_released_offspring_harkoa", "d6/db4/a22202.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
+    [ "GetAI", "d6/db4/a22202.html#ae3d2a02c496be1b2606fce596625d12e", null ]
 ];

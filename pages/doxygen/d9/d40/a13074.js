@@ -1,6 +1,6 @@
 var a13074 =
 [
-    [ "SpectralBlastCheck", "d9/d40/a13074.html#ada2eda8781891a4049ee30c5ecb81c3c", null ],
-    [ "operator()", "d9/d40/a13074.html#afbe13a5f90a5b95832e14fe9d7affc9f", null ],
-    [ "_victim", "d9/d40/a13074.html#ab96456159d61e781aa8d691dd0b1fec1", null ]
+    [ "npc_kalecgos_kjAI", "d4/d99/a13078.html", "d4/d99/a13078" ],
+    [ "npc_kalecgos_kj", "d9/d40/a13074.html#aa8c9e532e3980f94d316b60454799c63", null ],
+    [ "GetAI", "d9/d40/a13074.html#af63f0d90581189f4850414ffdddd1ba4", null ]
 ];

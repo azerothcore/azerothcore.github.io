@@ -1,6 +1,6 @@
 var a25426 =
 [
-    [ "HandleHeal", "dc/d18/a25426.html#a3d315ab6d76d45f3d0f5de4a312377ff", null ],
-    [ "PrepareSpellScript", "dc/d18/a25426.html#ad77d816c82714fe2cafb4dbf48691937", null ],
-    [ "Register", "dc/d18/a25426.html#a313abe6367e5494bd81a557ab42f9f50", null ]
+    [ "HandleEffectApply", "dc/d18/a25426.html#a9e8b226f3ebb33c47de584850643994f", null ],
+    [ "PrepareAuraScript", "dc/d18/a25426.html#a30b74d44bb81a04ea1cfe1b6d5f926c7", null ],
+    [ "Register", "dc/d18/a25426.html#a1d3d32c057877b5cf00f5970e583c25e", null ]
 ];

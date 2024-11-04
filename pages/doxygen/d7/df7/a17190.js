@@ -1,7 +1,7 @@
 var a17190 =
 [
-    [ "OnProc", "d7/df7/a17190.html#a5b6e96abb900da33657cdbbd137138e3", null ],
-    [ "PrepareAuraScript", "d7/df7/a17190.html#a5502476536a923e77af67c4bbcf005e3", null ],
-    [ "Register", "d7/df7/a17190.html#aca08edf219504156d6157c95702bb815", null ],
-    [ "Validate", "d7/df7/a17190.html#a52b1231f37e8b3d810614365659a98b6", null ]
+    [ "HandleScript", "d7/df7/a17190.html#a5fe0b684473bd5dd1ff9b12432ff3de8", null ],
+    [ "Load", "d7/df7/a17190.html#ab1d81386ae3ccd332c01864d7f456017", null ],
+    [ "PrepareSpellScript", "d7/df7/a17190.html#ae3ef753ff4c99aa8bed20ce3369a7e0f", null ],
+    [ "Register", "d7/df7/a17190.html#a7edb44f70501c2e760d29c8f78a4e087", null ]
 ];

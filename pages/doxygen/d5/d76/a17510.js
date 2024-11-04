@@ -1,5 +1,6 @@
 var a17510 =
 [
-    [ "achievement_im_on_a_boat", "d5/d76/a17510.html#aa25d330534aab023ec798e86976a6d50", null ],
-    [ "OnCheck", "d5/d76/a17510.html#ab4fffc061b9ff77563e7e0a5a796be1e", null ]
+    [ "PrepareSpellScript", "d5/d76/a17510.html#a9041ce6139de9a48621d6898ddcca673", null ],
+    [ "RecalculateDamage", "d5/d76/a17510.html#abfb7c002577a59864fb2aa069b713c0a", null ],
+    [ "Register", "d5/d76/a17510.html#a4308449e8cbe7ed59598a837024141cb", null ]
 ];

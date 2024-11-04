@@ -1,6 +1,9 @@
 var a17514 =
 [
-    [ "CheckProc", "d2/d3e/a17514.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "d2/d3e/a17514.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "d2/d3e/a17514.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "CountTargets", "d2/d3e/a17514.html#aa72b762d802c27047d485a8a314c6c6d", null ],
+    [ "Load", "d2/d3e/a17514.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
+    [ "PrepareSpellScript", "d2/d3e/a17514.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
+    [ "Register", "d2/d3e/a17514.html#a86cad92c07fa31c730a3b560d33ed824", null ],
+    [ "SplitDamage", "d2/d3e/a17514.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
+    [ "_targetCount", "d2/d3e/a17514.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
 ];

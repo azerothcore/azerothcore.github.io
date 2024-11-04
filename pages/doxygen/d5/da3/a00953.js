@@ -1,10 +1,10 @@
 var a00953 =
 [
-    [ "PeonRoleplay", "dc/dbf/a23518.html", "dc/dbf/a23518" ],
-    [ "boss_grand_warlock_nethekurse", "d2/db4/a23522.html", "d2/db4/a23522" ],
-    [ "spell_tsh_shadow_bolt", "df/d41/a23526.html", "df/d41/a23526" ],
-    [ "spell_target_fissures", "d5/d64/a23530.html", "d5/d64/a23530" ],
-    [ "at_rp_nethekurse", "d1/d9e/a23534.html", "d1/d9e/a23534" ],
+    [ "PeonRoleplay", "dd/d8e/a23378.html", "dd/d8e/a23378" ],
+    [ "boss_grand_warlock_nethekurse", "d6/d49/a23382.html", "d6/d49/a23382" ],
+    [ "spell_tsh_shadow_bolt", "d8/da5/a23386.html", "d8/da5/a23386" ],
+    [ "spell_target_fissures", "d3/d15/a23390.html", "d3/d15/a23390" ],
+    [ "at_rp_nethekurse", "dc/dfb/a23394.html", "dc/dfb/a23394" ],
     [ "Actions", "d5/da3/a00953.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

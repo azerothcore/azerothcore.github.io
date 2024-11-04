@@ -1,6 +1,6 @@
 var a25354 =
 [
-    [ "CheckCast", "de/d76/a25354.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
-    [ "PrepareSpellScript", "de/d76/a25354.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
-    [ "Register", "de/d76/a25354.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
+    [ "HandlePeriodicTick", "de/d76/a25354.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
+    [ "PrepareAuraScript", "de/d76/a25354.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
+    [ "Register", "de/d76/a25354.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
 ];

@@ -1,6 +1,6 @@
 var a20058 =
 [
-    [ "npc_ulduar_hodir_mageAI", "d2/daa/a20062.html", "d2/daa/a20062" ],
-    [ "npc_ulduar_hodir_mage", "d8/d35/a20058.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
-    [ "GetAI", "d8/d35/a20058.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
+    [ "boss_kologarn_armsAI", "d2/daa/a20062.html", "d2/daa/a20062" ],
+    [ "boss_kologarn_arms", "d8/d35/a20058.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
+    [ "GetAI", "d8/d35/a20058.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
 ];

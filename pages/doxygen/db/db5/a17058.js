@@ -1,6 +1,6 @@
 var a17058 =
 [
-    [ "boss_prince_kelesethAI", "d3/d93/a17062.html", "d3/d93/a17062" ],
-    [ "boss_prince_keleseth_icc", "db/db5/a17058.html#a0df14bbfc96b1d6eff19633716cea9f9", null ],
-    [ "GetAI", "db/db5/a17058.html#ae5a03bbe1d85b9bc865026f05a99545e", null ]
+    [ "boss_blood_queen_lana_thelAI", "d3/d93/a17062.html", "d3/d93/a17062" ],
+    [ "boss_blood_queen_lana_thel", "db/db5/a17058.html#a9f8fa906f01082caacd106abc2707b07", null ],
+    [ "GetAI", "db/db5/a17058.html#a7873efd945bdb24228866f639e32879b", null ]
 ];

@@ -1,6 +1,6 @@
 var a21638 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
-    [ "npc_injured_7th_legion_soldier", "d0/d79/a21638.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "d0/d79/a21638.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "npc_mrfloppyAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
+    [ "npc_mrfloppy", "d0/d79/a21638.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
+    [ "GetAI", "d0/d79/a21638.html#a88590566309f3fc155eb6dc26055a161", null ]
 ];

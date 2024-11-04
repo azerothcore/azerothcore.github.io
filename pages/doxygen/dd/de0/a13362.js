@@ -1,16 +1,13 @@
 var a13362 =
 [
-    [ "npc_bh_thalorien_dawnseekerAI", "dd/de0/a13362.html#aa0fc35194d16d63854926d4266569d77", null ],
-    [ "DamageTaken", "dd/de0/a13362.html#a46f47c937db63c2cd12331bce4e251cf", null ],
-    [ "EnterEvadeMode", "dd/de0/a13362.html#a55b6176ee579f5f320ce36b63f83d314", null ],
-    [ "JustSummoned", "dd/de0/a13362.html#aa23391bbed38571a86508b4c87e5c66c", null ],
-    [ "MovementInform", "dd/de0/a13362.html#a5f47c72447c197642a0081e544095489", null ],
-    [ "Reset", "dd/de0/a13362.html#a6a9beaf984d954bc11a5f7dff17ca442", null ],
-    [ "SetData", "dd/de0/a13362.html#a24293b807b8999acbb6fbe59e3c06232", null ],
-    [ "SummonedCreatureDespawn", "dd/de0/a13362.html#a095587a925d6054da2e2fdc9de2b415e", null ],
-    [ "UpdateAI", "dd/de0/a13362.html#aa432d9d89eed150f0b3cf0beaef144d2", null ],
-    [ "events", "dd/de0/a13362.html#a5b98f3bcba320cbec0116d3f4a8e4d05", null ],
-    [ "morlenGUID", "dd/de0/a13362.html#aefe243dea75b1aac366fae1395e0e398", null ],
-    [ "playerGUID", "dd/de0/a13362.html#ab93ca177abc21647a1162006ed50a551", null ],
-    [ "summons", "dd/de0/a13362.html#af36ccbeaec6bc0157cb8cac6d705c3c3", null ]
+    [ "npc_lord_gregor_lescovarAI", "dd/de0/a13362.html#ab3ed8a9536fc6be948f280e319d4fec7", null ],
+    [ "DoGuardsDisappearAndDie", "dd/de0/a13362.html#a8588cae3dc8aa3dd46c55439d355df9b", null ],
+    [ "EnterEvadeMode", "dd/de0/a13362.html#a95e60614808191e4c1f909f5e38e4741", null ],
+    [ "JustEngagedWith", "dd/de0/a13362.html#ad0ca7d80d68b9623b99c644daa8f4c57", null ],
+    [ "Reset", "dd/de0/a13362.html#a06df695e9acd96b07f4e58c9461a708c", null ],
+    [ "UpdateAI", "dd/de0/a13362.html#ab8cc7d7d56550e66497116e5b4233a02", null ],
+    [ "WaypointReached", "dd/de0/a13362.html#ad91850dc72d0307e28b881717bfba6db", null ],
+    [ "MarzonGUID", "dd/de0/a13362.html#a68779dfa5643ffbf0065964d72ba5ddc", null ],
+    [ "uiPhase", "dd/de0/a13362.html#a3eaf47541cabaac9ce12f830d7d3ef41", null ],
+    [ "uiTimer", "dd/de0/a13362.html#a70e6be2f5c0f88664c6bbe3f29e1d184", null ]
 ];

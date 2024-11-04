@@ -1,6 +1,6 @@
 var a20566 =
 [
-    [ "npc_xt002_boombotAI", "db/d9f/a20570.html", "db/d9f/a20570" ],
-    [ "npc_xt002_boombot", "dc/d04/a20566.html#a6e2f7dd0d26d140a5b73b0f66ea434af", null ],
-    [ "GetAI", "dc/d04/a20566.html#a27237e7a60042ed7163b19d80537c1b3", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "db/d9f/a20570.html", "db/d9f/a20570" ],
+    [ "boss_yoggsaron_constrictor_tentacle", "dc/d04/a20566.html#a131809f1c691e55a33863caf6fe0c5dc", null ],
+    [ "GetAI", "dc/d04/a20566.html#ac469d5661eb664c73bf5ab38084cb03e", null ]
 ];

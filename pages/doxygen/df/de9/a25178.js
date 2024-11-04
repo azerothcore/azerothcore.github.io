@@ -1,11 +1,9 @@
 var a25178 =
 [
-    [ "spell_gen_consume", "df/de9/a25178.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
-    [ "AfterRemove", "df/de9/a25178.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
-    [ "HandleProc", "df/de9/a25178.html#af69251aa0415a2148162f32dd9113917", null ],
-    [ "PrepareAuraScript", "df/de9/a25178.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
-    [ "Register", "df/de9/a25178.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
-    [ "Validate", "df/de9/a25178.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
-    [ "_spellId1", "df/de9/a25178.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
-    [ "_spellId2", "df/de9/a25178.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
+    [ "CheckProc", "df/de9/a25178.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
+    [ "HandleProc", "df/de9/a25178.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
+    [ "OnRemove", "df/de9/a25178.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
+    [ "PrepareAuraScript", "df/de9/a25178.html#a2e13f63459342fb749594f7fbb517c80", null ],
+    [ "Register", "df/de9/a25178.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
+    [ "Validate", "df/de9/a25178.html#a008ec43da50deb568ec453e992f89887", null ]
 ];

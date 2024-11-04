@@ -1,6 +1,6 @@
 var a23774 =
 [
-    [ "HandleScriptEffect", "d7/d01/a23774.html#a032b00bcd9bda0cd04f93848e4630c6a", null ],
-    [ "PrepareSpellScript", "d7/d01/a23774.html#ad99a318c6b3ee834aa3c3591a0f8a330", null ],
-    [ "Register", "d7/d01/a23774.html#aa96de13af039d8dfab0ae1a5d30e21a8", null ]
+    [ "npc_aeranasAI", "d2/d67/a23778.html", "d2/d67/a23778" ],
+    [ "npc_aeranas", "d7/d01/a23774.html#a6ea71481ef6a223a329b805081122537", null ],
+    [ "GetAI", "d7/d01/a23774.html#a81167df6665bdca81ee13468dec19643", null ]
 ];

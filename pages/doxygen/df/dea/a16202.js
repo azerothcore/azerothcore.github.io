@@ -1,6 +1,8 @@
 var a16202 =
 [
-    [ "npc_toc_mageAI", "db/d43/a16206.html", "db/d43/a16206" ],
-    [ "npc_toc_mage", "df/dea/a16202.html#a8270875c1da3e2e96f767362ef90cdc6", null ],
-    [ "GetAI", "df/dea/a16202.html#a64b5b8b3a5933a0264537f2187e81e15", null ]
+    [ "npc_toc_pet_hunterAI", "df/dea/a16202.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
+    [ "EnterEvadeMode", "df/dea/a16202.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
+    [ "myCanCast", "df/dea/a16202.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
+    [ "UpdateAI", "df/dea/a16202.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
+    [ "events", "df/dea/a16202.html#ade038312363f976b34868ed2cbebb58d", null ]
 ];

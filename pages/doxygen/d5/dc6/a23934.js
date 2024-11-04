@@ -1,9 +1,16 @@
 var a23934 =
 [
-    [ "npc_wounded_blood_elfAI", "d5/dc6/a23934.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
-    [ "JustEngagedWith", "d5/dc6/a23934.html#aba950ba77ff71508263cc54b28c7725b", null ],
-    [ "JustSummoned", "d5/dc6/a23934.html#aa97f5294981c44b530efca1411458a97", null ],
-    [ "Reset", "d5/dc6/a23934.html#a8e6be35a3079998f3bab829f5d963c71", null ],
-    [ "sQuestAccept", "d5/dc6/a23934.html#a56c157928c24daae6edacd5a126ef171", null ],
-    [ "WaypointReached", "d5/dc6/a23934.html#a5affcb00e28a582f8926ab2226001cd0", null ]
+    [ "npc_dragonmaw_peonAI", "d5/dc6/a23934.html#a6f1255fead5357001ec85fdaa6980249", null ],
+    [ "CreditPlayer", "d5/dc6/a23934.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
+    [ "JustEngagedWith", "d5/dc6/a23934.html#abd5b37793aa2fb150c808b7dc7270763", null ],
+    [ "MovementInform", "d5/dc6/a23934.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
+    [ "Reset", "d5/dc6/a23934.html#a9d876ec76b51f743c71e67749c21d939", null ],
+    [ "SpellHit", "d5/dc6/a23934.html#abe5162608ba0acd7360a630562ff5935", null ],
+    [ "UpdateAI", "d5/dc6/a23934.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
+    [ "events", "d5/dc6/a23934.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
+    [ "PlayerGUID", "d5/dc6/a23934.html#ad6838d98e34a32cbed42c77cdf096070", null ],
+    [ "Tapped", "d5/dc6/a23934.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
+    [ "x", "d5/dc6/a23934.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
+    [ "y", "d5/dc6/a23934.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
+    [ "z", "d5/dc6/a23934.html#a7722420716c030b5abe7b760199df14d", null ]
 ];

@@ -1,7 +1,6 @@
 var a21502 =
 [
-    [ "npc_thassarianAI", "db/d00/a21502.html#a92e873dc3aa97f81919225ce75a5f894", null ],
-    [ "Reset", "db/d00/a21502.html#a8611ef17700c739dbd5e7a70660f1379", null ],
-    [ "UpdateAI", "db/d00/a21502.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
-    [ "_events", "db/d00/a21502.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
+    [ "npc_injured_7th_legion_soldierAI", "db/d00/a21502.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
+    [ "MovementInform", "db/d00/a21502.html#a999bc868db485578fcc70ae7e056b778", null ],
+    [ "Reset", "db/d00/a21502.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
 ];

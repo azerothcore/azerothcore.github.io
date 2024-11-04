@@ -1,6 +1,7 @@
 var a25390 =
 [
-    [ "HandlePreventAura", "d1/d0e/a25390.html#a62b9a62f5379f4ca98921c7fe4278b58", null ],
-    [ "PrepareSpellScript", "d1/d0e/a25390.html#a61b2f1d5634219f9c48a9ea75e90d423", null ],
-    [ "Register", "d1/d0e/a25390.html#ab1a90b7939c146b40badfd6424c35cf7", null ]
+    [ "HandleProc", "d1/d0e/a25390.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
+    [ "PrepareAuraScript", "d1/d0e/a25390.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
+    [ "Register", "d1/d0e/a25390.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
+    [ "Validate", "d1/d0e/a25390.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
 ];

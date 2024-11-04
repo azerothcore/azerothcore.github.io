@@ -1,6 +1,6 @@
 var a15446 =
 [
-    [ "HandleDummy", "d3/d6a/a15446.html#a2750ae788168e7496ea2345c5535509c", null ],
-    [ "PrepareSpellScript", "d3/d6a/a15446.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
-    [ "Register", "d3/d6a/a15446.html#ab6c961d89d22761402eb4f5881cbd318", null ]
+    [ "HandleSummon", "d3/d6a/a15446.html#a730e0c865f8c0c12544be951a48fe9ff", null ],
+    [ "PrepareSpellScript", "d3/d6a/a15446.html#a31271cd4668d3cbc4f4bdbeb693fe141", null ],
+    [ "Register", "d3/d6a/a15446.html#ae388ee1b08891f021ab1308ec7ffebaa", null ]
 ];

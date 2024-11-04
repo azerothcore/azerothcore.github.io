@@ -1,6 +1,9 @@
 var a23994 =
 [
-    [ "npc_commander_dawnforgeAI", "d6/df3/a23998.html", "d6/df3/a23998" ],
-    [ "npc_commander_dawnforge", "d8/d4e/a23994.html#ab4d430725f68f906e9c8def66b1d6646", null ],
-    [ "GetAI", "d8/d4e/a23994.html#a6089b087b7c3b18659e23c677814318b", null ]
+    [ "npc_enraged_spiritAI", "d8/d4e/a23994.html#aa487c906c1c0d15dc7761c7288e7d3c6", null ],
+    [ "JustDied", "d8/d4e/a23994.html#a9322622f679dbc311bd8983f5037bd2e", null ],
+    [ "JustEngagedWith", "d8/d4e/a23994.html#a1d192d0dd563dc2735b23a171b2bf659", null ],
+    [ "Reset", "d8/d4e/a23994.html#a2d56572acf042ba34f468f0ff3b0bd1a", null ],
+    [ "UpdateAI", "d8/d4e/a23994.html#adc3d04d66f2b4de7a970f2cd5e476a2b", null ],
+    [ "_scheduler", "d8/d4e/a23994.html#afa6825696b0622849f877b392df4b326", null ]
 ];

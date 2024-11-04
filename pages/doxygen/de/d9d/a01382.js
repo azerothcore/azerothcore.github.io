@@ -1,10 +1,10 @@
 var a01382 =
 [
-    [ "boss_magus_telestra", "d8/d0e/a19130.html", "d8/d0e/a19130" ],
-    [ "boss_magus_telestra::boss_magus_telestraAI", "d1/d65/a19134.html", "d1/d65/a19134" ],
-    [ "spell_boss_magus_telestra_summon_telestra_clones_aura", "db/dab/a19138.html", "db/dab/a19138" ],
-    [ "spell_boss_magus_telestra_gravity_well", "df/d33/a19142.html", "df/d33/a19142" ],
-    [ "achievement_split_personality", "df/db6/a19146.html", "df/db6/a19146" ],
+    [ "boss_magus_telestra", "da/dc9/a19030.html", "da/dc9/a19030" ],
+    [ "boss_magus_telestra::boss_magus_telestraAI", "d8/da0/a19034.html", "d8/da0/a19034" ],
+    [ "spell_boss_magus_telestra_summon_telestra_clones_aura", "d1/d00/a19038.html", "d1/d00/a19038" ],
+    [ "spell_boss_magus_telestra_gravity_well", "d9/d94/a19042.html", "d9/d94/a19042" ],
+    [ "achievement_split_personality", "d8/d00/a19046.html", "d8/d00/a19046" ],
     [ "Events", "de/d9d/a01382.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

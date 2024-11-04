@@ -1,11 +1,8 @@
 var a17086 =
 [
-    [ "npc_blood_queen_lana_thelAI", "d9/d9d/a17086.html#a7b099b90600e433e304dee1f356a9909", null ],
-    [ "MoveInLineOfSight", "d9/d9d/a17086.html#af1aafdc45abcdfbdbea7f5b67f3bc620", null ],
-    [ "MovementInform", "d9/d9d/a17086.html#a004a878ccb5fe68b249342f6a0fce31d", null ],
-    [ "Reset", "d9/d9d/a17086.html#a539b0e158c800e1aade54f37aa99751e", null ],
-    [ "UpdateAI", "d9/d9d/a17086.html#ae9d2f6b53898db04da58efe0deeceea5", null ],
-    [ "_events", "d9/d9d/a17086.html#a8ec7641bab991fc584b066fae55690bf", null ],
-    [ "_instance", "d9/d9d/a17086.html#a9058ce72bb956d7e90eff740c0f9633a", null ],
-    [ "_introDone", "d9/d9d/a17086.html#a40c642758a751e072e41343bb75ad306", null ]
+    [ "OnApply", "d9/d9d/a17086.html#a4741bfaaea8bc956fd1020aca13a51c2", null ],
+    [ "OnRemove", "d9/d9d/a17086.html#a21aad38fe91580d3b8e0cc71dce7b1ad", null ],
+    [ "PrepareAuraScript", "d9/d9d/a17086.html#a54b2ab23915e84b9c9728eb624dae47b", null ],
+    [ "Register", "d9/d9d/a17086.html#a6d552ff58f7bb267cf4d20f2f5aedc7a", null ],
+    [ "Validate", "d9/d9d/a17086.html#a5542dca73b5cc2ec1c724fe536e8a15f", null ]
 ];

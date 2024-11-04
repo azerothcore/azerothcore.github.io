@@ -1,5 +1,5 @@
 var a26906 =
 [
-    [ "achievement_not_even_a_scratch", "d5/d1a/a26906.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "d5/d1a/a26906.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "go_noblegarden_colored_egg", "d5/d1a/a26906.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
+    [ "OnGossipHello", "d5/d1a/a26906.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
 ];

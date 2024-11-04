@@ -1,8 +1,12 @@
 var a24338 =
 [
-    [ "npc_pet_darting_hatchling", "d3/dd6/a24338.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "d3/dd6/a24338.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "d3/dd6/a24338.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "d3/dd6/a24338.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "d3/dd6/a24338.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "CheckTarget", "d3/dd6/a24338.html#a731aa2c0a2b67b8a15cab72ea2cb961a", null ],
+    [ "CheckTargets", "d3/dd6/a24338.html#a3b5bbef0c43a600387235822f3c6dbc7", null ],
+    [ "HandleCorpseExplosion", "d3/dd6/a24338.html#a201de2ee86d0cf954117df0e5343ee69", null ],
+    [ "HandleDamage", "d3/dd6/a24338.html#a810fc65eb5d7160366d63210bad9caea", null ],
+    [ "Load", "d3/dd6/a24338.html#a00b45e2f466de39c95251c2a38f6c3bd", null ],
+    [ "PrepareSpellScript", "d3/dd6/a24338.html#a4cae1673a840d8ec0d727b881a3616cf", null ],
+    [ "Register", "d3/dd6/a24338.html#a9e67ea51300569a0e163cb3e427b086e", null ],
+    [ "Validate", "d3/dd6/a24338.html#a93984e8b831cb4c37ec2726d44532d43", null ],
+    [ "_target", "d3/dd6/a24338.html#a5028b9d3166270b2b0557943e962eade", null ]
 ];

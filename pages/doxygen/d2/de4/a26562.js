@@ -1,7 +1,7 @@
 var a26562 =
 [
-    [ "HandleDummy", "d2/de4/a26562.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
-    [ "PrepareSpellScript", "d2/de4/a26562.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
-    [ "Register", "d2/de4/a26562.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
-    [ "Validate", "d2/de4/a26562.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
+    [ "HandleTeleport", "d2/de4/a26562.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
+    [ "PrepareAuraScript", "d2/de4/a26562.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
+    [ "Register", "d2/de4/a26562.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
+    [ "Validate", "d2/de4/a26562.html#adabf22bd591a10662ffbf0354a18a936", null ]
 ];

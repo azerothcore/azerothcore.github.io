@@ -1,14 +1,9 @@
 var a22454 =
 [
-    [ "OPvPCapturePointTF", "da/d58/a22454.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
-    [ "ChangeState", "da/d58/a22454.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
-    [ "FillInitialWorldStates", "da/d58/a22454.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
-    [ "HandlePlayerEnter", "da/d58/a22454.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
-    [ "HandlePlayerLeave", "da/d58/a22454.html#ace20d19311478a136ae0b75016c36ea8", null ],
-    [ "ResetToTeamControlled", "da/d58/a22454.html#a7ad637f6a4005da3166601dafda52d1b", null ],
-    [ "SendChangePhase", "da/d58/a22454.html#a16efee78249e510e211b18694ea868f2", null ],
-    [ "Update", "da/d58/a22454.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
-    [ "UpdateTowerState", "da/d58/a22454.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
-    [ "m_TowerState", "da/d58/a22454.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
-    [ "m_TowerType", "da/d58/a22454.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "da/d58/a22454.html#ada5f19c96bfe623b110389ede032ef53", null ],
+    [ "GetData", "da/d58/a22454.html#ad876ebd581c470f5a3075129076bd1fb", null ],
+    [ "Initialize", "da/d58/a22454.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
+    [ "OnCreatureCreate", "da/d58/a22454.html#a118b4a7a7c872327ec2868c5b0417636", null ],
+    [ "OnUnitDeath", "da/d58/a22454.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
+    [ "_ritualistsAliveCount", "da/d58/a22454.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
 ];

@@ -1,7 +1,7 @@
 var a18182 =
 [
-    [ "OnPeriodic", "dc/def/a18182.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
-    [ "PrepareAuraScript", "dc/def/a18182.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
-    [ "Register", "dc/def/a18182.html#a0fc7ca43a0d82058fc04277742231388", null ],
-    [ "Validate", "dc/def/a18182.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
+    [ "npc_valithria_portalAI", "dc/def/a18182.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
+    [ "GetData", "dc/def/a18182.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
+    [ "OnSpellClick", "dc/def/a18182.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
+    [ "_used", "dc/def/a18182.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
 ];

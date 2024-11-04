@@ -1,6 +1,5 @@
 var a14110 =
 [
-    [ "HandleScript", "dc/da1/a14110.html#aa60824ed67ae87e96117fc5bf90bec8c", null ],
-    [ "PrepareSpellScript", "dc/da1/a14110.html#aab4303fff660c68db100e07a4423c39b", null ],
-    [ "Register", "dc/da1/a14110.html#a0fbc130652e58d9418cb3c5036b6aed2", null ]
+    [ "go_loosely_turned_soilAI", "dc/da1/a14110.html#a603641bc52d26521d64afaaeed3abc4d", null ],
+    [ "CanBeSeen", "dc/da1/a14110.html#a424b51b08d17ceb04b015cd535256889", null ]
 ];

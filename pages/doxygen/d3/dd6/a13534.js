@@ -1,12 +1,9 @@
 var a13534 =
 [
-    [ "npc_daphne_stilwellAI", "d3/dd6/a13534.html#ac2e9f940bc64a70ff8a386e4f483a65e", null ],
-    [ "AttackStart", "d3/dd6/a13534.html#a30056a45adb91a12cf7bcc4e9f0b2d54", null ],
-    [ "JustSummoned", "d3/dd6/a13534.html#ae56554d30e9de7644efab891555c57e0", null ],
-    [ "Reset", "d3/dd6/a13534.html#ae6f0b271478aecf7fd1f3e1c733d77f0", null ],
-    [ "SummonedCreatureDies", "d3/dd6/a13534.html#aa6fdcf9e09031522d342b603b4c70aed", null ],
-    [ "Update", "d3/dd6/a13534.html#a4099d75c4a6bca1525781a5753ef9972", null ],
-    [ "WaypointReached", "d3/dd6/a13534.html#a1035eb0a1696730d8304593b5fb079e4", null ],
-    [ "summons", "d3/dd6/a13534.html#a0cbf5aaf1cb2f234e725074de0acc7e6", null ],
-    [ "textCounter", "d3/dd6/a13534.html#a62ab24169c1b7c3028ab33303b217f63", null ]
+    [ "boss_alyson_antilleAI", "d3/dd6/a13534.html#a31fadb4f3cd15deda115274f7b7be3d6", null ],
+    [ "AttackStart", "d3/dd6/a13534.html#a77ddba446344f1ec4c70dd09c61f22e7", null ],
+    [ "Reset", "d3/dd6/a13534.html#aaddce1da826fd4a228bf8bc96468e47c", null ],
+    [ "UpdateAI", "d3/dd6/a13534.html#a035bff3662b703d6e7d3789ccc78b584", null ],
+    [ "dispelmagic_timer", "d3/dd6/a13534.html#a7d12e5664422861a93329896eea6e9ec", null ],
+    [ "flashheal_timer", "d3/dd6/a13534.html#a74a1d280c02f4fa8bca30524e447da9e", null ]
 ];

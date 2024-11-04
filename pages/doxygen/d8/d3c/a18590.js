@@ -1,9 +1,6 @@
 var a18590 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "d8/d3c/a18590.html#a91868021309239f5582bb7ee89baec13", null ],
-    [ "AttackStart", "d8/d3c/a18590.html#acf8d1eaebdc68cb53866155d8aad6e48", null ],
-    [ "JustEngagedWith", "d8/d3c/a18590.html#a12927240144022174e3d190be6b34976", null ],
-    [ "Reset", "d8/d3c/a18590.html#ac925b84b81ec1d1e118f3e62edfbdd15", null ],
-    [ "UpdateAI", "d8/d3c/a18590.html#a969a36e147006971a93711349f90c193", null ],
-    [ "events", "d8/d3c/a18590.html#a8521aef674b9a295c27f7e5725af4ffe", null ]
+    [ "instance_icecrown_citadel_InstanceMapScript", "d8/d05/a18594.html", "d8/d05/a18594" ],
+    [ "instance_icecrown_citadel", "d8/d3c/a18590.html#a0901e23025cff08d1a7516bbef099ffa", null ],
+    [ "GetInstanceScript", "d8/d3c/a18590.html#a787c32626681f15f5515385a9ba6b848", null ]
 ];

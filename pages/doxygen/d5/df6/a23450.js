@@ -1,14 +1,6 @@
 var a23450 =
 [
-    [ "boss_vazruden", "d5/df6/a23450.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "d5/df6/a23450.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "d5/df6/a23450.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "d5/df6/a23450.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "d5/df6/a23450.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "d5/df6/a23450.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "d5/df6/a23450.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "d5/df6/a23450.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "d5/df6/a23450.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "d5/df6/a23450.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "d5/df6/a23450.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "npc_warden_mellicharAI", "dc/d5f/a23454.html", "dc/d5f/a23454" ],
+    [ "npc_warden_mellichar", "d5/df6/a23450.html#aba5c3d005097430941bd40bbbb0d3562", null ],
+    [ "GetAI", "d5/df6/a23450.html#a7cb7437a61b49d8110c3b7fee43e495b", null ]
 ];

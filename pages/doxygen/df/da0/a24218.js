@@ -1,6 +1,6 @@
 var a24218 =
 [
-    [ "npc_unkor_the_ruthlessAI", "da/d67/a24222.html", "da/d67/a24222" ],
-    [ "npc_unkor_the_ruthless", "df/da0/a24218.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "df/da0/a24218.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "npc_pet_pri_shadowfiend", "df/da0/a24218.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "df/da0/a24218.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "df/da0/a24218.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

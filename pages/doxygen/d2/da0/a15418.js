@@ -1,12 +1,12 @@
 var a15418 =
 [
-    [ "npc_wizzlecrank_shredderAI", "d2/da0/a15418.html#a055c4b426219aa3372a83d2e2021d916", null ],
-    [ "JustSummoned", "d2/da0/a15418.html#a7cad21f0b3286ed75256a49c315069ce", null ],
-    [ "Reset", "d2/da0/a15418.html#a86929e8a2f3433f37e4dda03e3011193", null ],
-    [ "UpdateEscortAI", "d2/da0/a15418.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
-    [ "WaypointReached", "d2/da0/a15418.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
-    [ "WaypointStart", "d2/da0/a15418.html#a00857e372e53950338ed71d672edb780", null ],
-    [ "IsPostEvent", "d2/da0/a15418.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
-    [ "PostEventCount", "d2/da0/a15418.html#aa5284a284c074f32cee85d29aea00f2f", null ],
-    [ "PostEventTimer", "d2/da0/a15418.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
+    [ "DialogueHelper", "d2/da0/a15418.html#a3566655e8781bf5f9dff514fcd659421", null ],
+    [ "DialogueUpdate", "d2/da0/a15418.html#aaac3463d91a0cdbe2622b4fd85b34ed0", null ],
+    [ "DoNextDialogueStep", "d2/da0/a15418.html#a6e23a56ba5c5e4d4ab3b4c6be5cb09af", null ],
+    [ "GetSpeakerByEntry", "d2/da0/a15418.html#a50e652ca2cff035d8c79517fdbcfc67a", null ],
+    [ "JustDidDialogueStep", "d2/da0/a15418.html#a79e80634f1780895669f5c810958fd4f", null ],
+    [ "StartNextDialogueText", "d2/da0/a15418.html#ac16b8b9b50e8b35980d21f161bf33340", null ],
+    [ "_actionTimer", "d2/da0/a15418.html#a33b8551c136bcbc896b29d935c155a75", null ],
+    [ "_currentEntry", "d2/da0/a15418.html#a89ca5e8d25372bd8ab32322a0a9999f2", null ],
+    [ "_dialogueArray", "d2/da0/a15418.html#a489b8cd1c75ced0ec8e34b8051899dd7", null ]
 ];

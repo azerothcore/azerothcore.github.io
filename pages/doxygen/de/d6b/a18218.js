@@ -1,5 +1,6 @@
 var a18218 =
 [
-    [ "achievement_been_waiting_long_time", "de/d6b/a18218.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
-    [ "OnCheck", "de/d6b/a18218.html#a5e72304220d3a649d2182cb287215da6", null ]
+    [ "npc_gluttonous_abominationAI", "d0/d6f/a18222.html", "d0/d6f/a18222" ],
+    [ "npc_gluttonous_abomination", "de/d6b/a18218.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
+    [ "GetAI", "de/d6b/a18218.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
 ];

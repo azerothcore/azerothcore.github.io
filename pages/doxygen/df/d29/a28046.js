@@ -1,6 +1,7 @@
 var a28046 =
 [
-    [ "ID", "df/d29/a28046.html#a7d40e334785d96a2e57d28f87a59778a", null ],
-    [ "maxCount", "df/d29/a28046.html#a5edc6442e026b12dae654fa86440a11a", null ],
-    [ "mode", "df/d29/a28046.html#a76553ecf9f880a5e5967f818123742fd", null ]
+    [ "Flags", "df/d29/a28046.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
+    [ "ID", "df/d29/a28046.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
+    [ "RangeMax", "df/d29/a28046.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
+    [ "RangeMin", "df/d29/a28046.html#a127a46f2382edea750ca567d5ea3d304", null ]
 ];

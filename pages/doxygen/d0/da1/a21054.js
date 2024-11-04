@@ -1,6 +1,6 @@
 var a21054 =
 [
-    [ "CalculateAmount", "d0/da1/a21054.html#a79019ef395c9b66f6a88759b0517005d", null ],
-    [ "PrepareAuraScript", "d0/da1/a21054.html#a1336ab2b7f560deeeeaaf017578bd524", null ],
-    [ "Register", "d0/da1/a21054.html#a9bce52699983fe798c903385faa42462", null ]
+    [ "boss_erekemAI", "dd/d61/a21058.html", "dd/d61/a21058" ],
+    [ "boss_erekem", "d0/da1/a21054.html#ab618380bd8f8c199ca85f1fe8a67db4d", null ],
+    [ "GetAI", "d0/da1/a21054.html#aa472a21bf4a855ba75bc7de05cce494c", null ]
 ];

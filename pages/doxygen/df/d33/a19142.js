@@ -1,7 +1,12 @@
 var a19142 =
 [
-    [ "HandlePull", "df/d33/a19142.html#a05e6155abeb2720923ddf0d8cae54feb", null ],
-    [ "PrepareSpellScript", "df/d33/a19142.html#ac192245513e162a2842e47f5b0d64338", null ],
-    [ "Register", "df/d33/a19142.html#af6c7a881c2fcf07461006fef63074e5e", null ],
-    [ "SelectTarget", "df/d33/a19142.html#aabee5b6b8f3ba7e2cf91bcb05ce7929d", null ]
+    [ "npc_oculus_drakeAI", "df/d33/a19142.html#a214d9b77a5653f1a5f60106081eaf683", null ],
+    [ "IsSummonedBy", "df/d33/a19142.html#a151e59f7b6032d5ed62f9f0ed2923f40", null ],
+    [ "MovementInform", "df/d33/a19142.html#a5f6de11b9cd3c0d6593d7d249cb59555", null ],
+    [ "PassengerBoarded", "df/d33/a19142.html#a5efc6f166b5fd77fa329b17e1e143379", null ],
+    [ "SpellHitTarget", "df/d33/a19142.html#aebb8fb75777d7fc3ddc69dc558b08f7e", null ],
+    [ "UpdateAI", "df/d33/a19142.html#a8ecaebfcf1c1fbe8ed263be6148ccef6", null ],
+    [ "despawnTimer", "df/d33/a19142.html#a560dc0936a78267a4036b209c6718732", null ],
+    [ "JustSummoned", "df/d33/a19142.html#a8b656a464525e881944e72e9486b0eb9", null ],
+    [ "m_pInstance", "df/d33/a19142.html#a4df6c06ec857086f7a2747cab2c4703c", null ]
 ];

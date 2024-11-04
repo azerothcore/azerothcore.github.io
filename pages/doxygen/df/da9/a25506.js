@@ -1,5 +1,6 @@
 var a25506 =
 [
-    [ "PrepareSpellScript", "df/da9/a25506.html#a065d81d698c978bcdd234712807e9098", null ],
-    [ "Register", "df/da9/a25506.html#a3efcd145189b27272495110c799cf14f", null ]
+    [ "CalculateAmount", "df/da9/a25506.html#a6faee23ed5947a904e58bfb38cf01d05", null ],
+    [ "PrepareAuraScript", "df/da9/a25506.html#a5e7d089dd117b6b3a605ea2e8aea0b04", null ],
+    [ "Register", "df/da9/a25506.html#a37e277143b2ae6cd88260776941b59bf", null ]
 ];

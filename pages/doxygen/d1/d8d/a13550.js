@@ -1,6 +1,16 @@
 var a13550 =
 [
-    [ "boss_akilzonAI", "d3/d18/a13554.html", "d3/d18/a13554" ],
-    [ "boss_akilzon", "d1/d8d/a13550.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
-    [ "GetAI", "d1/d8d/a13550.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
+    [ "npc_janalai_hatcher", "d1/d8d/a13550.html#a337e21f5a014d0f9d7a1f614b7245f36", null ],
+    [ "AttackStart", "d1/d8d/a13550.html#a5a7826964349ed9adbbdeb7c733dd915", null ],
+    [ "JustEngagedWith", "d1/d8d/a13550.html#a54c251278dcfa22052b6c6e49a4abd89", null ],
+    [ "MoveInLineOfSight", "d1/d8d/a13550.html#a4ae2157e37bb93b7465e029e526a6ce4", null ],
+    [ "MovementInform", "d1/d8d/a13550.html#a3a0170bc53f9f8f96090e34097b90c2c", null ],
+    [ "MoveToNewWaypoint", "d1/d8d/a13550.html#ab775a888ae1002eed3ed548ab89ca2e4", null ],
+    [ "Reset", "d1/d8d/a13550.html#ab1c3945160c55b2b2d63763eacced473", null ],
+    [ "UpdateAI", "d1/d8d/a13550.html#ab5cc0c5f73593128b6d6e023aa4ce609", null ],
+    [ "_hasChangedSide", "d1/d8d/a13550.html#a06eea2845122d2e4ee1debe3394b17a8", null ],
+    [ "_instance", "d1/d8d/a13550.html#a19d8bf1948bc72b4d6b5afdeb1c5cd00", null ],
+    [ "_isHatching", "d1/d8d/a13550.html#aae712db69c870d00d07a37b8611ecaf4", null ],
+    [ "_side", "d1/d8d/a13550.html#a177ddd5ff96902363ab708f0c737fc20", null ],
+    [ "_waypoint", "d1/d8d/a13550.html#ab39ab27d8057b52b77637faefd48e8e6", null ]
 ];

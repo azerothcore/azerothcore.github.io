@@ -1,7 +1,9 @@
 var a28126 =
 [
-    [ "EpicPropertiesPoints", "d5/d28/a28126.html#a35dc60a15091357e03032226621340f7", null ],
-    [ "itemLevel", "d5/d28/a28126.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
-    [ "RarePropertiesPoints", "d5/d28/a28126.html#a9359171635ef3e9a0029820fad286368", null ],
-    [ "UncommonPropertiesPoints", "d5/d28/a28126.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
+    [ "adtId", "d5/d28/a28126.html#a9bf7e7dd9dd55e5b1ffeffb0ad3e92e0", null ],
+    [ "areaId", "d5/d28/a28126.html#a7f652c68036429350543fc5a2cc6861e", null ],
+    [ "Flags", "d5/d28/a28126.html#a60f9a61948d1e28587c9d1a338730f37", null ],
+    [ "groupId", "d5/d28/a28126.html#a09052bad3028899580ffedd556672b64", null ],
+    [ "Id", "d5/d28/a28126.html#a70e3e94df9d0b0b1c114ed1001768066", null ],
+    [ "rootId", "d5/d28/a28126.html#a7997c7ac31abdb40f2e7f0e0a7e04403", null ]
 ];

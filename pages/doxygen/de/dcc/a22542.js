@@ -1,11 +1,7 @@
 var a22542 =
 [
-    [ "boss_talon_king_ikiss", "de/dcc/a22542.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "de/dcc/a22542.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "de/dcc/a22542.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "de/dcc/a22542.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "de/dcc/a22542.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "de/dcc/a22542.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "de/dcc/a22542.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "de/dcc/a22542.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "HandleScriptEffect", "de/dcc/a22542.html#a16f131e42272bc75c99df2a9cf43470e", null ],
+    [ "PrepareSpellScript", "de/dcc/a22542.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
+    [ "Register", "de/dcc/a22542.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
+    [ "Validate", "de/dcc/a22542.html#a58ff628906f3077a354ed486d3c56d23", null ]
 ];

@@ -1,13 +1,9 @@
 var a26834 =
 [
-    [ "CheckProc", "de/d7c/a26834.html#abb43619da8154c1c9ebc9d164a2f6dc6", null ],
-    [ "HandleAfterApply", "de/d7c/a26834.html#ac3c12801bde3bd259b573eeca6dc4d5b", null ],
-    [ "HandleApply", "de/d7c/a26834.html#aaa07858f0604965fad5c1189125a822b", null ],
-    [ "HandleProc", "de/d7c/a26834.html#a9fd416a5f8f8a405f40c41b9ef8b734e", null ],
-    [ "HandleRemove", "de/d7c/a26834.html#a3da984d172878110b77549b51409d7e0", null ],
-    [ "Load", "de/d7c/a26834.html#a644aaf343b41f049f34ff7387c613bf1", null ],
-    [ "PrepareAuraScript", "de/d7c/a26834.html#aea23ff608c74017d98edcc146d3ba35a", null ],
-    [ "Register", "de/d7c/a26834.html#a624d09c6f1a177912a1c7cab30d89c7b", null ],
-    [ "Validate", "de/d7c/a26834.html#a34f1b7782dbf2dcc18eb803497104a13", null ],
-    [ "_procTarget", "de/d7c/a26834.html#ac6c81bc1f9008c3861f99f4e89626969", null ]
+    [ "emerald_dragonAI", "de/d7c/a26834.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
+    [ "ExecuteEvent", "de/d7c/a26834.html#a6e60f146c7b86a119f269bf755831ac6", null ],
+    [ "JustSummoned", "de/d7c/a26834.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
+    [ "KilledUnit", "de/d7c/a26834.html#a69b24bf865ecd38822d5602314cddf11", null ],
+    [ "Reset", "de/d7c/a26834.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
+    [ "UpdateAI", "de/d7c/a26834.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
 ];

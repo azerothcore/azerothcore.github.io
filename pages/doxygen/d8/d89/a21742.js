@@ -1,6 +1,6 @@
 var a21742 =
 [
-    [ "npc_commander_eligor_dawnbringerAI", "d4/d25/a21746.html", "d4/d25/a21746" ],
-    [ "npc_commander_eligor_dawnbringer", "d8/d89/a21742.html#a71d919af98464d6d63f948507f3ff08c", null ],
-    [ "GetAI", "d8/d89/a21742.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
+    [ "npc_attracted_reef_bullAI", "d8/d89/a21742.html#aa8917a912fb31a5987332e53e8d268e7", null ],
+    [ "MovementInform", "d8/d89/a21742.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
+    [ "SpellHit", "d8/d89/a21742.html#ab06ee7ef84d881262ae682b69fae3135", null ]
 ];

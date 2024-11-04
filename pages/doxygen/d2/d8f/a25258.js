@@ -1,6 +1,6 @@
 var a25258 =
 [
-    [ "CalculateAmount", "d2/d8f/a25258.html#ac0018b57967a3d3ae71aa81745032f15", null ],
-    [ "PrepareAuraScript", "d2/d8f/a25258.html#ab249a493050c5527eeec8913e94cfc64", null ],
-    [ "Register", "d2/d8f/a25258.html#a8f078f8370eacba197ceb2068b6a538d", null ]
+    [ "HandleDummyTick", "d2/d8f/a25258.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
+    [ "PrepareAuraScript", "d2/d8f/a25258.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
+    [ "Register", "d2/d8f/a25258.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
 ];

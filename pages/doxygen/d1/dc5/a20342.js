@@ -1,5 +1,10 @@
 var a20342 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_11", "d1/dc5/a20342.html#a5d8980111e029b4c9311737f3985ab61", null ],
-    [ "OnCheck", "d1/dc5/a20342.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
+    [ "boss_thorim_sif_blizzardAI", "d1/dc5/a20342.html#a99d1c529126452e580ebc7e3e513b367", null ],
+    [ "AttackStart", "d1/dc5/a20342.html#a1f05551f323fa410a699497f3875b21f", null ],
+    [ "InitWaypoint", "d1/dc5/a20342.html#a1e0a384081750bdf38cc8e0065070ec8", null ],
+    [ "JustEngagedWith", "d1/dc5/a20342.html#a9fea5617dccb493c7af435c485462ff3", null ],
+    [ "MoveInLineOfSight", "d1/dc5/a20342.html#ab91a2a71ff00e38d2eca50ccc654d9f3", null ],
+    [ "Reset", "d1/dc5/a20342.html#a193ba575c4f3f16d850e56f12f190c77", null ],
+    [ "WaypointReached", "d1/dc5/a20342.html#a961f90068f25d81f55159763fe2677f8", null ]
 ];

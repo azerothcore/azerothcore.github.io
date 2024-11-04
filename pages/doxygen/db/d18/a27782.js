@@ -1,7 +1,5 @@
 var a27782 =
 [
-    [ "HandleDummy", "db/d18/a27782.html#a884ab3487725dbdd5b069f3a45b7164b", null ],
-    [ "PrepareSpellScript", "db/d18/a27782.html#a6ad225a1bcd7bdad7ee1751766e7c129", null ],
-    [ "Register", "db/d18/a27782.html#a0877a96dde66adb988628ebb93fe15b6", null ],
-    [ "Validate", "db/d18/a27782.html#ad784bb6b5d3588965492b102f2b2898e", null ]
+    [ "ID", "db/d18/a27782.html#a01bcdc3543d3ff250354acf5e0724c14", null ],
+    [ "spellId", "db/d18/a27782.html#aabbb95c091e0b0946bcb05746b1c23f3", null ]
 ];

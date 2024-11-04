@@ -1,10 +1,6 @@
 var a24982 =
 [
-    [ "Load", "d2/de5/a24982.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
-    [ "OnApply", "d2/de5/a24982.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
-    [ "OnRemove", "d2/de5/a24982.html#a29834c598d6ef8299d54e48a3461e603", null ],
-    [ "PrepareAuraScript", "d2/de5/a24982.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
-    [ "Register", "d2/de5/a24982.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
-    [ "Validate", "d2/de5/a24982.html#aeaf16594f569af671d221234a4aa2c8b", null ],
-    [ "prevItem", "d2/de5/a24982.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
+    [ "CalculateAmount", "d2/de5/a24982.html#a0522f4bf54b4a71df4e09f97a28fda45", null ],
+    [ "PrepareAuraScript", "d2/de5/a24982.html#acf699e467734499dd992f401da38cf88", null ],
+    [ "Register", "d2/de5/a24982.html#a6e6396a162a532ff25b9bd7c551f05d8", null ]
 ];

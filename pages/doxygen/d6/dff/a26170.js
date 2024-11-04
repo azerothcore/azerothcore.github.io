@@ -1,7 +1,7 @@
 var a26170 =
 [
-    [ "CheckRequirement", "d6/dff/a26170.html#afc9206b1d92834943c9825dfd97439c9", null ],
-    [ "HandleScriptEffect", "d6/dff/a26170.html#acef8bf4c93226e1b4c95f8b8cdd80f40", null ],
-    [ "PrepareSpellScript", "d6/dff/a26170.html#a0223c05b5832c64b248e82eba770f7fa", null ],
-    [ "Register", "d6/dff/a26170.html#aef93e3c5a60633f69871bbd49d40caf5", null ]
+    [ "HandleScriptEffect", "d6/dff/a26170.html#ae7bfcdf3306fe4c8532649ff7e892c57", null ],
+    [ "PrepareSpellScript", "d6/dff/a26170.html#ad2bfab00a973366af32388e40b9d2566", null ],
+    [ "Register", "d6/dff/a26170.html#acbf74d85d9d8ce8e9ce0546c90cb7efa", null ],
+    [ "Validate", "d6/dff/a26170.html#a487fa0e6b5f2682349b22737ceeae50c", null ]
 ];

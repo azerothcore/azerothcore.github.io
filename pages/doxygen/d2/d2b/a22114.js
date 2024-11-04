@@ -1,8 +1,8 @@
 var a22114 =
 [
-    [ "npc_vics_flying_machineAI", "d2/d2b/a22114.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
-    [ "MovementInform", "d2/d2b/a22114.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
-    [ "PassengerBoarded", "d2/d2b/a22114.html#aa67dcbb4b43b047398fec2619ad61829", null ],
-    [ "SpellHit", "d2/d2b/a22114.html#aa81229a104e1521d570abec4b6f7bca7", null ],
-    [ "pointId", "d2/d2b/a22114.html#aa1412c23f0c3b964262e145c51aea974", null ]
+    [ "go_wg_vehicle_teleporterAI", "d2/d2b/a22114.html#af84e73765b1a4d810b41613824999186", null ],
+    [ "IsFriendly", "d2/d2b/a22114.html#adca817c8919958db888d5e9c759ad545", null ],
+    [ "IsValidVehicle", "d2/d2b/a22114.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
+    [ "UpdateAI", "d2/d2b/a22114.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
+    [ "_checkTimer", "d2/d2b/a22114.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
 ];

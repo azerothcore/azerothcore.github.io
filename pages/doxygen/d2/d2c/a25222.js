@@ -1,7 +1,6 @@
 var a25222 =
 [
-    [ "HandleScript", "d2/d2c/a25222.html#a27e2575e538732ac76add53f2f8f6832", null ],
-    [ "PrepareSpellScript", "d2/d2c/a25222.html#ad7c98be6cca23fb1484a6b77bcc7bc9d", null ],
-    [ "Register", "d2/d2c/a25222.html#a4ee74f6d8a61a8ba38ece33176c18f84", null ],
-    [ "Validate", "d2/d2c/a25222.html#aef9eef1819652e0fce1cd4b3ba9c387c", null ]
+    [ "HandleItemRemove", "d2/d2c/a25222.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
+    [ "PrepareSpellScript", "d2/d2c/a25222.html#a8b43e146724a2c8b3c495e886a79d021", null ],
+    [ "Register", "d2/d2c/a25222.html#af8b02c31b81dce516ea47d6a1235d683", null ]
 ];

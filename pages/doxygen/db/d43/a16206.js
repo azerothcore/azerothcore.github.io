@@ -1,7 +1,7 @@
 var a16206 =
 [
-    [ "npc_toc_mageAI", "db/d43/a16206.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "db/d43/a16206.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "db/d43/a16206.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "db/d43/a16206.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "HandleDispel", "db/d43/a16206.html#a7b24f38bbb7813826520f928b22d30aa", null ],
+    [ "PrepareAuraScript", "db/d43/a16206.html#a0e0424bd590cfc4f85f40728bf6efd22", null ],
+    [ "Register", "db/d43/a16206.html#a2bf6921550da3c13730fd98bded2c927", null ],
+    [ "Validate", "db/d43/a16206.html#ad8b0bb389d232c74acf106b711414fa1", null ]
 ];

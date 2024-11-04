@@ -1,6 +1,5 @@
 var a27058 =
 [
-    [ "go_witherbark_totem_bundleAI", "d9/dc9/a27058.html#a955625e2315008a2e36936d44f825060", null ],
-    [ "UpdateAI", "d9/dc9/a27058.html#af688bab2dc3d938951adb303e8b8d88b", null ],
-    [ "_timer", "d9/dc9/a27058.html#a509e6d8401380c326a0f565a6b903d7a", null ]
+    [ "go_arcane_prison", "d9/dc9/a27058.html#ad73ac33d843027de0e516de8f90c45a0", null ],
+    [ "OnGossipHello", "d9/dc9/a27058.html#a0f9d414ce1f3f3e734cb79a554f7523e", null ]
 ];

@@ -1,5 +1,7 @@
 var a16714 =
 [
-    [ "at_hor_shadow_throne", "d4/ddf/a16714.html#a342808808be75079acf6a2f930afe930", null ],
-    [ "OnTrigger", "d4/ddf/a16714.html#a0166b1a58f4171c4d9893010df5831c4", null ]
+    [ "HandlePeriodicTick", "d4/ddf/a16714.html#a61417176afec531ca2bf6e80eb72ac6a", null ],
+    [ "PrepareAuraScript", "d4/ddf/a16714.html#ad5f954d5050bded2e6a5877cb9f81df5", null ],
+    [ "Register", "d4/ddf/a16714.html#a4653ccb0d93d056adf3b14056865787c", null ],
+    [ "Validate", "d4/ddf/a16714.html#a675b447cf1cf0e7d92c777ae31888a8c", null ]
 ];

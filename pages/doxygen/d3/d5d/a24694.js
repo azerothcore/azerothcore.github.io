@@ -1,7 +1,6 @@
 var a24694 =
 [
-    [ "FilterTargets", "d3/d5d/a24694.html#a9abf4baaba572636dba3980e5ae777c5", null ],
-    [ "Load", "d3/d5d/a24694.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
-    [ "PrepareSpellScript", "d3/d5d/a24694.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
-    [ "Register", "d3/d5d/a24694.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
+    [ "HandleScriptEffect", "d3/d5d/a24694.html#a142d6a512ba6e937985a9c21725d8d33", null ],
+    [ "PrepareSpellScript", "d3/d5d/a24694.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
+    [ "Register", "d3/d5d/a24694.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
 ];

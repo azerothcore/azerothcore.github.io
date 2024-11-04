@@ -1,15 +1,9 @@
 var a21290 =
 [
-    [ "npc_vh_teleportation_portalAI", "db/d50/a21290.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
-    [ "JustDied", "db/d50/a21290.html#aab2cc259d78492c54e21b4279697f909", null ],
-    [ "JustSummoned", "db/d50/a21290.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
-    [ "SummonedMobDied", "db/d50/a21290.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
-    [ "UpdateAI", "db/d50/a21290.html#a812e330e20924cc34262363ecc0a3fc1", null ],
-    [ "addValue", "db/d50/a21290.html#aa52f29a41d12320516737b437af62fc3", null ],
-    [ "bKorG", "db/d50/a21290.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
-    [ "events", "db/d50/a21290.html#a329635246e80e7264cad6749ee70be40", null ],
-    [ "listOfMobs", "db/d50/a21290.html#a470a61cf7d424711b07770fd56c74b29", null ],
-    [ "pInstance", "db/d50/a21290.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
-    [ "spawned", "db/d50/a21290.html#a8921c314c2f4b958e11136504971f427", null ],
-    [ "wave", "db/d50/a21290.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
+    [ "npc_captured_beryl_sorcererAI", "db/d50/a21290.html#a3c3f47022aee418f228803a2504470a3", null ],
+    [ "Initialize", "db/d50/a21290.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
+    [ "MoveInLineOfSight", "db/d50/a21290.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
+    [ "Reset", "db/d50/a21290.html#ac96af1fd018e88950d1c58562dffdb83", null ],
+    [ "UpdateAI", "db/d50/a21290.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
+    [ "_events", "db/d50/a21290.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
 ];

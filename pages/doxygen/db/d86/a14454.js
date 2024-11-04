@@ -1,6 +1,6 @@
 var a14454 =
 [
-    [ "instance_mount_hyjal_InstanceMapScript", "da/db5/a14458.html", "da/db5/a14458" ],
-    [ "instance_hyjal", "db/d86/a14454.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
-    [ "GetInstanceScript", "db/d86/a14454.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
+    [ "npc_crate_helperAI", "db/d86/a14454.html#ad58a2f3746da7862658fb3b9e1580836", null ],
+    [ "SpellHit", "db/d86/a14454.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
+    [ "_marked", "db/d86/a14454.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
 ];

@@ -1,7 +1,7 @@
 var a13802 =
 [
-    [ "HandleOnHit", "d4/d2b/a13802.html#a561799e6241b1fe17cd09f17c447107b", null ],
-    [ "PrepareSpellScript", "d4/d2b/a13802.html#ad98ba2831e93bd601b51a5c6a7e8441d", null ],
-    [ "Register", "d4/d2b/a13802.html#ad9b601b73631285cb5a79e30dfe4a8cc", null ],
-    [ "Validate", "d4/d2b/a13802.html#adb339686c5e9dcb298712455dc8435bf", null ]
+    [ "HandleApply", "d4/d2b/a13802.html#a92734043e53b5e1ef81fa9b5ccce135e", null ],
+    [ "HandleRemove", "d4/d2b/a13802.html#a56bf9c77cf96b1e34543a59fc2a308b2", null ],
+    [ "PrepareAuraScript", "d4/d2b/a13802.html#ae3bcbf588e46cb0e81160fdd48502566", null ],
+    [ "Register", "d4/d2b/a13802.html#af2343add2ed014832bd34d11519b391b", null ]
 ];

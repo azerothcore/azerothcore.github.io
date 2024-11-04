@@ -1,8 +1,12 @@
 var a25718 =
 [
-    [ "HandleDummy", "df/d43/a25718.html#ae73e0d900e5b33f47bf2ba45d8ab26ce", null ],
-    [ "Load", "df/d43/a25718.html#a5c0e5de94faca0c2841153f7a099d2eb", null ],
-    [ "PrepareSpellScript", "df/d43/a25718.html#af89de259afbab436326a67b9eb7833ad", null ],
-    [ "Register", "df/d43/a25718.html#a78ffb20ccc10c3c632934af862273716", null ],
-    [ "Validate", "df/d43/a25718.html#ace6bdf4755f1d1c95011bb782cb2e59e", null ]
+    [ "CalcPeriodic", "df/d43/a25718.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "df/d43/a25718.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "df/d43/a25718.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "df/d43/a25718.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "df/d43/a25718.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "df/d43/a25718.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "df/d43/a25718.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "df/d43/a25718.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "df/d43/a25718.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

@@ -1,6 +1,6 @@
 var a22914 =
 [
-    [ "HandleSchoolDamage", "df/d25/a22914.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
-    [ "PrepareSpellScript", "df/d25/a22914.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
-    [ "Register", "df/d25/a22914.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
+    [ "HandleEffectRemove", "df/d25/a22914.html#adfbbb75ace34ab5c0fec35e6aa88505a", null ],
+    [ "PrepareAuraScript", "df/d25/a22914.html#a94b91d27b9a218b5fdce91d6a6e72f62", null ],
+    [ "Register", "df/d25/a22914.html#a2b7fb2d6d0f92a970a45e0b9c409408d", null ]
 ];

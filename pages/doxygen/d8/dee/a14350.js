@@ -1,7 +1,7 @@
 var a14350 =
 [
-    [ "HandleOnHit", "d8/dee/a14350.html#ae3241486a612293b5421a523f6d854d9", null ],
-    [ "PrepareSpellScript", "d8/dee/a14350.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
-    [ "Register", "d8/dee/a14350.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
-    [ "Validate", "d8/dee/a14350.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
+    [ "hyjalJainaAI", "d6/d7b/a14354.html", "d6/d7b/a14354" ],
+    [ "npc_hyjal_jaina", "d8/dee/a14350.html#a6616aa6c38818770610259312a392a3f", null ],
+    [ "GetAI", "d8/dee/a14350.html#ab1891f5a2aacf5d9aeb9377bd92393ed", null ],
+    [ "OnGossipSelect", "d8/dee/a14350.html#a47853fa317b1a9325fcbe555867139f6", null ]
 ];

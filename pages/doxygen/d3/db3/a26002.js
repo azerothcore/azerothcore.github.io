@@ -1,6 +1,6 @@
 var a26002 =
 [
-    [ "CalculateAmount", "d3/db3/a26002.html#a9c4a38bb60cc61156da5bd1b89b3e116", null ],
-    [ "PrepareAuraScript", "d3/db3/a26002.html#a5bd55cb8b992f7ceb52f7193bcdbf210", null ],
-    [ "Register", "d3/db3/a26002.html#a1f717d941f8d100eb73d7e2a3b638bad", null ]
+    [ "HandleFinish", "d3/db3/a26002.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
+    [ "PrepareSpellScript", "d3/db3/a26002.html#a8113f61816473399f0ceab18b104d058", null ],
+    [ "Register", "d3/db3/a26002.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
 ];

@@ -1,6 +1,5 @@
 var a23150 =
 [
-    [ "HandleApplyAura", "d0/daf/a23150.html#a4fde347d339f08cd01e2a47883d4b988", null ],
-    [ "PrepareSpellScript", "d0/daf/a23150.html#ab22bd56638a6adc8d111250780221cb9", null ],
-    [ "Register", "d0/daf/a23150.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
+    [ "at_underbog_ghazan", "d0/daf/a23150.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
+    [ "_OnTrigger", "d0/daf/a23150.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
 ];

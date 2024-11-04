@@ -1,6 +1,7 @@
 var a23658 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d9/dea/a23662.html", "d9/dea/a23662" ],
-    [ "instance_the_botanica", "d9/dcf/a23658.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "d9/dcf/a23658.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "boss_gatewatcher_gyrokill", "d9/dcf/a23658.html#a82335081dd79f7a0aa1dc0c26bd878fb", null ],
+    [ "JustDied", "d9/dcf/a23658.html#a4bbfb59c2a687ebb3e88bde9784af38e", null ],
+    [ "JustEngagedWith", "d9/dcf/a23658.html#a95d3ae80f87be9d972ecb056e0b85412", null ],
+    [ "KilledUnit", "d9/dcf/a23658.html#a274355d0303d9bf5761758f175826bd1", null ]
 ];

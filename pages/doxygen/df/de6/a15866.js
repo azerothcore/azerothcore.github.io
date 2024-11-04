@@ -1,7 +1,7 @@
 var a15866 =
 [
-    [ "HandleDummy", "df/de6/a15866.html#ad0782bfbd977954aac6170ee9111aef6", null ],
-    [ "PrepareSpellScript", "df/de6/a15866.html#ac456524856c4a3c4913423693a8fd50c", null ],
-    [ "Register", "df/de6/a15866.html#a82d88c5dac164eb9dee9883a91edd0df", null ],
-    [ "Validate", "df/de6/a15866.html#a2cf4ee02293cee5e383e99efe14e0008", null ]
+    [ "HandleDummy", "df/de6/a15866.html#a96b430cb0546fb599da22cd675660187", null ],
+    [ "PrepareSpellScript", "df/de6/a15866.html#ad0330cb78a330f05c18f33375f231fbc", null ],
+    [ "Register", "df/de6/a15866.html#a70a36683a235dec6044a8a32f20c606c", null ],
+    [ "Validate", "df/de6/a15866.html#affa7ccf869e98eacd3a153cc645d704e", null ]
 ];

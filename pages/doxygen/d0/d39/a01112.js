@@ -1,6 +1,6 @@
 var a01112 =
 [
-    [ "boss_tavarok", "d9/d53/a22518.html", "d9/d53/a22518" ],
+    [ "boss_tavarok", "d8/dcf/a22378.html", "d8/dcf/a22378" ],
     [ "Spells", "d0/d39/a01112.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "dc/d5e/a04220.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "dc/d5e/a04220.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

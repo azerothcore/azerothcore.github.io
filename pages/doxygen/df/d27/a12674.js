@@ -1,11 +1,25 @@
 var a12674 =
 [
-    [ "npc_a_special_surpriseAI", "df/d27/a12674.html#acf062337317d98e491e40cf6ae9bb3ea", null ],
-    [ "MeetQuestCondition", "df/d27/a12674.html#a35f4db17e0301ceaaab49727d1ca8289", null ],
-    [ "MoveInLineOfSight", "df/d27/a12674.html#af0b183b951f1eba8114da1f7a1284d09", null ],
-    [ "Reset", "df/d27/a12674.html#a9526f6b257eade275b828d2b30328533", null ],
-    [ "UpdateAI", "df/d27/a12674.html#a8572ec4b4fdcaab93666f581edf1c852", null ],
-    [ "ExecuteSpeech_Counter", "df/d27/a12674.html#ae1ff67fb743b4125b015c1ecce4bc9db", null ],
-    [ "ExecuteSpeech_Timer", "df/d27/a12674.html#a8761840d6abdc0b195b5860b95f59b1c", null ],
-    [ "PlayerGUID", "df/d27/a12674.html#a683cdbd0ef9d0562842aace5b440594f", null ]
+    [ "npc_highlord_darion_mograineAI", "df/d27/a12674.html#a04be4c12a255c082b2a00daf40e86d96", null ],
+    [ "DoAction", "df/d27/a12674.html#a7103aa11bc2dff6942f4a4de5cd8d759", null ],
+    [ "FinishFight", "df/d27/a12674.html#ab3fef458ca3180f49d78579f7485e76c", null ],
+    [ "GetData", "df/d27/a12674.html#aa3eae106cf85eb7cb163f9780bf16b9f", null ],
+    [ "GetEntryFromSummons", "df/d27/a12674.html#a2c9e336d14667aabc3e1a8f3a99fc1e7", null ],
+    [ "JustDied", "df/d27/a12674.html#a2875789a251381677106f74e61efaa77", null ],
+    [ "JustEngagedWith", "df/d27/a12674.html#ac6ca07a76351dfc5a82b0a57fdfa08d8", null ],
+    [ "JustRespawned", "df/d27/a12674.html#a3116088116fe6b4a6b42014f7f5fb3a8", null ],
+    [ "JustSummoned", "df/d27/a12674.html#a9ddc2350ffbbf6e3ae91410da55bd326", null ],
+    [ "MovementInform", "df/d27/a12674.html#a205b7ebb74ca3be7a6a11fb2d8670288", null ],
+    [ "Reset", "df/d27/a12674.html#a7dde645763bab79e34fa7421dbec518e", null ],
+    [ "SendInitialWorldStates", "df/d27/a12674.html#ab49e38e481fcb263337f5224c1db7383", null ],
+    [ "SendUpdateWorldState", "df/d27/a12674.html#a32fed806170c3664eeb1dd2a1bfdf278", null ],
+    [ "SummonedCreatureDies", "df/d27/a12674.html#aa0935ab5c5a8a3ad41719e520703ff92", null ],
+    [ "UpdateAI", "df/d27/a12674.html#a086efd646a7298ce17f7ead4688fa022", null ],
+    [ "battleStarted", "df/d27/a12674.html#aecb7e1bdebf943e1793656f8a9c39917", null ],
+    [ "defendersRemaining", "df/d27/a12674.html#a49b41a9719548bffd2020caea7a94a3d", null ],
+    [ "events", "df/d27/a12674.html#a2155cbea373225904a3645a77738dea4", null ],
+    [ "resetExecuted", "df/d27/a12674.html#ae1431b2f46cf2ae096e7ddfb22e54a28", null ],
+    [ "scourgeRemaining", "df/d27/a12674.html#aabaa1fb49467d4dc5abf2a14ec833d15", null ],
+    [ "startTimeRemaining", "df/d27/a12674.html#a503f8e5166ec08664085ae032611de61", null ],
+    [ "summons", "df/d27/a12674.html#ae592eef844350ca8fa8415f343d8dffc", null ]
 ];

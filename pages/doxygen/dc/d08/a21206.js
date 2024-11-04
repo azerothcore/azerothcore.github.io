@@ -1,10 +1,6 @@
 var a21206 =
 [
-    [ "npc_erekem_guardAI", "dc/d08/a21206.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
-    [ "JustEngagedWith", "dc/d08/a21206.html#a93819c5c76821b1c9559be55359d677e", null ],
-    [ "MoveInLineOfSight", "dc/d08/a21206.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
-    [ "Reset", "dc/d08/a21206.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
-    [ "UpdateAI", "dc/d08/a21206.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
-    [ "events", "dc/d08/a21206.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
-    [ "pInstance", "dc/d08/a21206.html#a81985b8522111f2aae540353cd5641fe", null ]
+    [ "npc_azure_captainAI", "de/dff/a21210.html", "de/dff/a21210" ],
+    [ "npc_azure_captain", "dc/d08/a21206.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
+    [ "GetAI", "dc/d08/a21206.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
 ];

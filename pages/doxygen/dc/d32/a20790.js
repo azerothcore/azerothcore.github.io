@@ -1,6 +1,6 @@
 var a20790 =
 [
-    [ "OnRemove", "dc/d32/a20790.html#a0e2113cd165f9f6ce88ba6eea9034806", null ],
-    [ "PrepareAuraScript", "dc/d32/a20790.html#a5fb0837417b915676549370cc76c477d", null ],
-    [ "Register", "dc/d32/a20790.html#a7f1844fded6ad112cc99d33f52e0799c", null ]
+    [ "boss_kelesethAI", "d5/d12/a20794.html", "d5/d12/a20794" ],
+    [ "boss_keleseth", "dc/d32/a20790.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
+    [ "GetAI", "dc/d32/a20790.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
 ];

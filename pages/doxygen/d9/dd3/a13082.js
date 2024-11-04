@@ -1,8 +1,6 @@
 var a13082 =
 [
-    [ "OnPeriodic", "d9/dd3/a13082.html#acd400b0a061d1814591e33d16bf4180a", null ],
-    [ "OnRemove", "d9/dd3/a13082.html#a3da85c726007690220e9b4f81d30f185", null ],
-    [ "PrepareAuraScript", "d9/dd3/a13082.html#a216d723f309ffa46df4bba7af79752c8", null ],
-    [ "Register", "d9/dd3/a13082.html#a43fe84c2717d73e20a2562f596a84f36", null ],
-    [ "Validate", "d9/dd3/a13082.html#a4ab8e285bae57560eee85d3a837ac2f5", null ]
+    [ "HandlePeriodic", "d9/dd3/a13082.html#aec1ff41f0051a6c6dfbd11ea7741b1af", null ],
+    [ "PrepareAuraScript", "d9/dd3/a13082.html#a7ac99d626990f068a00f403847bfa6bc", null ],
+    [ "Register", "d9/dd3/a13082.html#ad3c0a2c270d1b8c31761674f89500b8a", null ]
 ];

@@ -1,17 +1,11 @@
 var a13990 =
 [
-    [ "npc_coren_direbrew", "d7/de6/a13990.html#a51ab68feb3dde3fb23c708afcdcdbd34", null ],
-    [ "CanBeSeen", "d7/de6/a13990.html#ad4db2a85c92f69e54036f4133396f201", null ],
-    [ "DamageTaken", "d7/de6/a13990.html#a782a08ed525eab8a9e9044dc1d5814b3", null ],
-    [ "DoAction", "d7/de6/a13990.html#a2d417a9310b5b75df09879678d967794", null ],
-    [ "JustDied", "d7/de6/a13990.html#a39913e601440fcd6ffbc77ad7c204ac8", null ],
-    [ "JustSummoned", "d7/de6/a13990.html#a2cb3d9de6ccdffa73f709b82cfae790a", null ],
-    [ "MoveInLineOfSight", "d7/de6/a13990.html#a9c48c7e4a97998c2091992f51b734679", null ],
-    [ "Reset", "d7/de6/a13990.html#a49eb75eb89742ee70ca957d4e2f0b5d0", null ],
-    [ "sGossipSelect", "d7/de6/a13990.html#ad8b665606985984ad633f66ad9b73bd2", null ],
-    [ "SummonedCreatureDies", "d7/de6/a13990.html#aafdc2d271d1e267f5b3deba7d00e07fc", null ],
-    [ "SummonSister", "d7/de6/a13990.html#a358fe5922a85ea3eee6abe9451869b66", null ],
-    [ "UpdateAI", "d7/de6/a13990.html#af6615292fa853883979dc37c6e247289", null ],
-    [ "_events", "d7/de6/a13990.html#a81ee26c215b7581a13faf56ee041b9fe", null ],
-    [ "_summons", "d7/de6/a13990.html#a261d4c4dea56748e66752cb11588086a", null ]
+    [ "npc_elder_kekek", "d7/de6/a13990.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
+    [ "MoveInLineOfSight", "d7/de6/a13990.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
+    [ "Reset", "d7/de6/a13990.html#a97e615bdefba5baf459960fc2987cd69", null ],
+    [ "UpdateAI", "d7/de6/a13990.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
+    [ "orphanGUID", "d7/de6/a13990.html#a98c79e46e051c35819c6025828a519cb", null ],
+    [ "phase", "d7/de6/a13990.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
+    [ "playerGUID", "d7/de6/a13990.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
+    [ "timer", "d7/de6/a13990.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
 ];

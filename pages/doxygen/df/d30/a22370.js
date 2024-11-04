@@ -1,5 +1,8 @@
 var a22370 =
 [
-    [ "OutdoorPvP_eastern_plaguelands", "df/d30/a22370.html#a5178152ee493eb90b1c1c0f611c6cd92", null ],
-    [ "GetOutdoorPvP", "df/d30/a22370.html#abc4e99dfa8a600ef578b77ffc3956ada", null ]
+    [ "npc_yor", "df/d30/a22370.html#a43ed8720d06c035085d481dbe6539dca", null ],
+    [ "JustEngagedWith", "df/d30/a22370.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
+    [ "Reset", "df/d30/a22370.html#aa698540b646fd870b33afbaf19ddbe07", null ],
+    [ "UpdateAI", "df/d30/a22370.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
+    [ "_scheduler", "df/d30/a22370.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
 ];

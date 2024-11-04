@@ -1,7 +1,10 @@
 var a22686 =
 [
-    [ "HandleDummy", "d2/d9e/a22686.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
-    [ "PrepareSpellScript", "d2/d9e/a22686.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
-    [ "Register", "d2/d9e/a22686.html#af5926d8570de13e66aa1870184620b94", null ],
-    [ "Validate", "d2/d9e/a22686.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
+    [ "CalculateAmount", "d2/d9e/a22686.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
+    [ "CheckProc", "d2/d9e/a22686.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
+    [ "HandleProc", "d2/d9e/a22686.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
+    [ "PrepareAuraScript", "d2/d9e/a22686.html#a6e066884663276dbba82e46ca5f66e59", null ],
+    [ "Register", "d2/d9e/a22686.html#ac4154f0746e77229e8d349021d5b9c30", null ],
+    [ "Update", "d2/d9e/a22686.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
+    [ "Validate", "d2/d9e/a22686.html#a4f10d23f63c47b408b70373623b877a8", null ]
 ];

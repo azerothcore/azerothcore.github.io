@@ -1,8 +1,6 @@
 var a14814 =
 [
-    [ "npc_obsidian_destroyer", "da/d46/a14814.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
-    [ "JustDied", "da/d46/a14814.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
-    [ "JustEngagedWith", "da/d46/a14814.html#aaf95dd2c92a5d1745311e4162aee8dbc", null ],
-    [ "Reset", "da/d46/a14814.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
-    [ "UpdateAI", "da/d46/a14814.html#a79ba48d421a636f99ea65c0e34d084e1", null ]
+    [ "OnPeriodic", "da/d46/a14814.html#a08dce8b98afadc134166a615b4496151", null ],
+    [ "PrepareAuraScript", "da/d46/a14814.html#a9ebb34665b176e4e60f085da65183d8e", null ],
+    [ "Register", "da/d46/a14814.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
 ];

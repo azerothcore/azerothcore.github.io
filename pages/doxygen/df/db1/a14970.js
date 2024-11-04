@@ -1,6 +1,6 @@
 var a14970 =
 [
-    [ "HandleOnHit", "df/db1/a14970.html#a65818c4421ea83869d36a116d1bc6d2c", null ],
-    [ "PrepareSpellScript", "df/db1/a14970.html#a9e568a1608715973fc438ff5e4356714", null ],
-    [ "Register", "df/db1/a14970.html#a752d697aada626440fdff2bd889f890f", null ]
+    [ "instance_wailing_caverns_InstanceMapScript", "d1/dd6/a14974.html", "d1/dd6/a14974" ],
+    [ "instance_wailing_caverns", "df/db1/a14970.html#a906f59c39f59237e9eedb479dfc7d825", null ],
+    [ "GetInstanceScript", "df/db1/a14970.html#a0f1020e86443d6902b3c4d8726f3e610", null ]
 ];

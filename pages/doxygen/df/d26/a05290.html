@@ -171,19 +171,19 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   94</span>                             : <a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>(<span class="keyword">reinterpret_cast&lt;</span>T*<span class="keyword">&gt;</span>(std::addressof(<a class="code hl_variable" href="../../df/d26/a05290.html#ad4d3a9cebe46fc524e474b7854a20b03">_dummy</a>))), <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>), <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>)</div>
-<div class="line"><span class="lineno">   95</span>        {</div>
-<div class="line"><span class="lineno">   96</span>            <span class="comment">// _dummy is constructed from aligned_storage and is intentionally left uninitialized (it might not be default constructible)</span></div>
-<div class="line"><span class="lineno">   97</span>            <span class="comment">// so we init only its IntrusiveLink here</span></div>
-<div class="line"><span class="lineno">   98</span>            std::atomic&lt;T*&gt;* dummyNext = <span class="keyword">new</span> (&amp;(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>-&gt;*IntrusiveLink)) std::atomic&lt;T*&gt;();</div>
-<div class="line"><span class="lineno">   99</span>            dummyNext-&gt;store(<span class="keyword">nullptr</span>, std::memory_order_relaxed);</div>
-<div class="line"><span class="lineno">  100</span>        }</div>
-<div class="ttc" id="aa05290_html_a115e9affe6159ae8aa08c6fc358e400c"><div class="ttname"><a href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">Acore::Impl::MPSCQueueIntrusive::_dummyPtr</a></div><div class="ttdeci">T * _dummyPtr</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:154</div></div>
-<div class="ttc" id="aa05290_html_a7fb32fbb507e82f9e8a6c1691e281fcd"><div class="ttname"><a href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">Acore::Impl::MPSCQueueIntrusive::_head</a></div><div class="ttdeci">std::atomic&lt; T * &gt; _head</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:155</div></div>
-<div class="ttc" id="aa05290_html_ac7e333db415e6301a02052c53779d1d4"><div class="ttname"><a href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">Acore::Impl::MPSCQueueIntrusive::_tail</a></div><div class="ttdeci">std::atomic&lt; T * &gt; _tail</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:156</div></div>
-<div class="ttc" id="aa05290_html_ad4d3a9cebe46fc524e474b7854a20b03"><div class="ttname"><a href="../../df/d26/a05290.html#ad4d3a9cebe46fc524e474b7854a20b03">Acore::Impl::MPSCQueueIntrusive::_dummy</a></div><div class="ttdeci">std::aligned_storage_t&lt; sizeof(T), alignof(T)&gt; _dummy</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:153</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   93</span>                             : <a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>(<span class="keyword">reinterpret_cast&lt;</span>T*<span class="keyword">&gt;</span>(std::addressof(<a class="code hl_variable" href="../../df/d26/a05290.html#ad4d3a9cebe46fc524e474b7854a20b03">_dummy</a>))), <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>), <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>)</div>
+<div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            <span class="comment">// _dummy is constructed from aligned_storage and is intentionally left uninitialized (it might not be default constructible)</span></div>
+<div class="line"><span class="lineno">   96</span>            <span class="comment">// so we init only its IntrusiveLink here</span></div>
+<div class="line"><span class="lineno">   97</span>            std::atomic&lt;T*&gt;* dummyNext = <span class="keyword">new</span> (&amp;(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>-&gt;*IntrusiveLink)) std::atomic&lt;T*&gt;();</div>
+<div class="line"><span class="lineno">   98</span>            dummyNext-&gt;store(<span class="keyword">nullptr</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   99</span>        }</div>
+<div class="ttc" id="aa05290_html_a115e9affe6159ae8aa08c6fc358e400c"><div class="ttname"><a href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">Acore::Impl::MPSCQueueIntrusive::_dummyPtr</a></div><div class="ttdeci">T * _dummyPtr</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:153</div></div>
+<div class="ttc" id="aa05290_html_a7fb32fbb507e82f9e8a6c1691e281fcd"><div class="ttname"><a href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">Acore::Impl::MPSCQueueIntrusive::_head</a></div><div class="ttdeci">std::atomic&lt; T * &gt; _head</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:154</div></div>
+<div class="ttc" id="aa05290_html_ac7e333db415e6301a02052c53779d1d4"><div class="ttname"><a href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">Acore::Impl::MPSCQueueIntrusive::_tail</a></div><div class="ttdeci">std::atomic&lt; T * &gt; _tail</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:155</div></div>
+<div class="ttc" id="aa05290_html_ad4d3a9cebe46fc524e474b7854a20b03"><div class="ttname"><a href="../../df/d26/a05290.html#ad4d3a9cebe46fc524e474b7854a20b03">Acore::Impl::MPSCQueueIntrusive::_dummy</a></div><div class="ttdeci">std::aligned_storage_t&lt; sizeof(T), alignof(T)&gt; _dummy</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:152</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00154">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_dummyPtr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00153">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_dummyPtr</a>.</p>
 
 </div>
 </div>
@@ -211,14 +211,14 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  103</span>        {</div>
-<div class="line"><span class="lineno">  104</span>            T* output;</div>
-<div class="line"><span class="lineno">  105</span>            <span class="keywordflow">while</span> (<a class="code hl_function" href="../../df/d26/a05290.html#a798e36f41ef34c226690f76e9dc03fd6">Dequeue</a>(output))</div>
-<div class="line"><span class="lineno">  106</span>                <span class="keyword">delete</span> output;</div>
-<div class="line"><span class="lineno">  107</span>        }</div>
-<div class="ttc" id="aa05290_html_a798e36f41ef34c226690f76e9dc03fd6"><div class="ttname"><a href="../../df/d26/a05290.html#a798e36f41ef34c226690f76e9dc03fd6">Acore::Impl::MPSCQueueIntrusive::Dequeue</a></div><div class="ttdeci">bool Dequeue(T *&amp;result)</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:116</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  102</span>        {</div>
+<div class="line"><span class="lineno">  103</span>            T* output;</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">while</span> (<a class="code hl_function" href="../../df/d26/a05290.html#a798e36f41ef34c226690f76e9dc03fd6">Dequeue</a>(output))</div>
+<div class="line"><span class="lineno">  105</span>                <span class="keyword">delete</span> output;</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+<div class="ttc" id="aa05290_html_a798e36f41ef34c226690f76e9dc03fd6"><div class="ttname"><a href="../../df/d26/a05290.html#a798e36f41ef34c226690f76e9dc03fd6">Acore::Impl::MPSCQueueIntrusive::Dequeue</a></div><div class="ttdeci">bool Dequeue(T *&amp;result)</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:115</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00115">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
 
 </div>
 </div>
@@ -276,45 +276,45 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  117</span>        {</div>
-<div class="line"><span class="lineno">  118</span>            T* tail = <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.load(std::memory_order_relaxed);</div>
-<div class="line"><span class="lineno">  119</span>            T* next = (tail-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
-<div class="line"><span class="lineno">  120</span>            <span class="keywordflow">if</span> (tail == <a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>)</div>
-<div class="line"><span class="lineno">  121</span>            {</div>
-<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">if</span> (!next)</div>
-<div class="line"><span class="lineno">  123</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
-<div class="line"><span class="lineno">  126</span>                tail = next;</div>
-<div class="line"><span class="lineno">  127</span>                next = (next-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
-<div class="line"><span class="lineno">  128</span>            }</div>
-<div class="line"><span class="lineno">  129</span> </div>
-<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">if</span> (next)</div>
-<div class="line"><span class="lineno">  131</span>            {</div>
-<div class="line"><span class="lineno">  132</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
-<div class="line"><span class="lineno">  133</span>                result = tail;</div>
-<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  135</span>            }</div>
-<div class="line"><span class="lineno">  136</span> </div>
-<div class="line"><span class="lineno">  137</span>            T* head = <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>.load(std::memory_order_acquire);</div>
-<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">if</span> (tail != head)</div>
-<div class="line"><span class="lineno">  139</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  140</span> </div>
-<div class="line"><span class="lineno">  141</span>            <a class="code hl_function" href="../../df/d26/a05290.html#a233004b906cfa66cdd285233105dddf7">Enqueue</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>);</div>
-<div class="line"><span class="lineno">  142</span>            next = (tail-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
-<div class="line"><span class="lineno">  143</span>            <span class="keywordflow">if</span> (next)</div>
-<div class="line"><span class="lineno">  144</span>            {</div>
-<div class="line"><span class="lineno">  145</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
-<div class="line"><span class="lineno">  146</span>                result = tail;</div>
-<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  148</span>            }</div>
-<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  150</span>        }</div>
-<div class="ttc" id="aa05290_html_a233004b906cfa66cdd285233105dddf7"><div class="ttname"><a href="../../df/d26/a05290.html#a233004b906cfa66cdd285233105dddf7">Acore::Impl::MPSCQueueIntrusive::Enqueue</a></div><div class="ttdeci">void Enqueue(T *input)</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:109</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  116</span>        {</div>
+<div class="line"><span class="lineno">  117</span>            T* tail = <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.load(std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">  118</span>            T* next = (tail-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
+<div class="line"><span class="lineno">  119</span>            <span class="keywordflow">if</span> (tail == <a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>)</div>
+<div class="line"><span class="lineno">  120</span>            {</div>
+<div class="line"><span class="lineno">  121</span>                <span class="keywordflow">if</span> (!next)</div>
+<div class="line"><span class="lineno">  122</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  123</span> </div>
+<div class="line"><span class="lineno">  124</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
+<div class="line"><span class="lineno">  125</span>                tail = next;</div>
+<div class="line"><span class="lineno">  126</span>                next = (next-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
+<div class="line"><span class="lineno">  127</span>            }</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">if</span> (next)</div>
+<div class="line"><span class="lineno">  130</span>            {</div>
+<div class="line"><span class="lineno">  131</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
+<div class="line"><span class="lineno">  132</span>                result = tail;</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  134</span>            }</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>            T* head = <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>.load(std::memory_order_acquire);</div>
+<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">if</span> (tail != head)</div>
+<div class="line"><span class="lineno">  138</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>            <a class="code hl_function" href="../../df/d26/a05290.html#a233004b906cfa66cdd285233105dddf7">Enqueue</a>(<a class="code hl_variable" href="../../df/d26/a05290.html#a115e9affe6159ae8aa08c6fc358e400c">_dummyPtr</a>);</div>
+<div class="line"><span class="lineno">  141</span>            next = (tail-&gt;*IntrusiveLink).load(std::memory_order_acquire);</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">if</span> (next)</div>
+<div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                <a class="code hl_variable" href="../../df/d26/a05290.html#ac7e333db415e6301a02052c53779d1d4">_tail</a>.store(next, std::memory_order_release);</div>
+<div class="line"><span class="lineno">  145</span>                result = tail;</div>
+<div class="line"><span class="lineno">  146</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  147</span>            }</div>
+<div class="line"><span class="lineno">  148</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="ttc" id="aa05290_html_a233004b906cfa66cdd285233105dddf7"><div class="ttname"><a href="../../df/d26/a05290.html#a233004b906cfa66cdd285233105dddf7">Acore::Impl::MPSCQueueIntrusive::Enqueue</a></div><div class="ttdeci">void Enqueue(T *input)</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:108</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00154">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_dummyPtr</a>, <a class="el" href="../../#l00155">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_head</a>, <a class="el" href="../../#l00156">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_tail</a>, and <a class="el" href="../../#l00109">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Enqueue()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00153">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_dummyPtr</a>, <a class="el" href="../../#l00154">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_head</a>, <a class="el" href="../../#l00155">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_tail</a>, and <a class="el" href="../../#l00108">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Enqueue()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00102">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::~MPSCQueueIntrusive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00101">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::~MPSCQueueIntrusive()</a>.</p>
 
 </div>
 </div>
@@ -343,15 +343,15 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  110</span>        {</div>
-<div class="line"><span class="lineno">  111</span>            (input-&gt;*IntrusiveLink).store(<span class="keyword">nullptr</span>, std::memory_order_release);</div>
-<div class="line"><span class="lineno">  112</span>            T* prevHead = <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>.exchange(input, std::memory_order_acq_rel);</div>
-<div class="line"><span class="lineno">  113</span>            (prevHead-&gt;*IntrusiveLink).store(input, std::memory_order_release);</div>
-<div class="line"><span class="lineno">  114</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            (input-&gt;*IntrusiveLink).store(<span class="keyword">nullptr</span>, std::memory_order_release);</div>
+<div class="line"><span class="lineno">  111</span>            T* prevHead = <a class="code hl_variable" href="../../df/d26/a05290.html#a7fb32fbb507e82f9e8a6c1691e281fcd">_head</a>.exchange(input, std::memory_order_acq_rel);</div>
+<div class="line"><span class="lineno">  112</span>            (prevHead-&gt;*IntrusiveLink).store(input, std::memory_order_release);</div>
+<div class="line"><span class="lineno">  113</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00155">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_head</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00154">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::_head</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00116">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00115">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00116">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>, and <a class="el" href="../../#l00094">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::MPSCQueueIntrusive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00115">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>, and <a class="el" href="../../#l00093">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::MPSCQueueIntrusive()</a>.</p>
 
 </div>
 </div>
@@ -456,7 +456,7 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00116">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>, and <a class="el" href="../../#l00109">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Enqueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00115">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>, and <a class="el" href="../../#l00108">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Enqueue()</a>.</p>
 
 </div>
 </div>
@@ -482,7 +482,7 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00116">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00115">Acore::Impl::MPSCQueueIntrusive&lt; T, IntrusiveLink &gt;::Dequeue()</a>.</p>
 
 </div>
 </div>
@@ -492,7 +492,7 @@ template&lt;typename T , std::atomic&lt; T * &gt; T::* IntrusiveLink&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04685.html">Impl</a></li><li class="navelem"><a class="el" href="../../df/d26/a05290.html">MPSCQueueIntrusive</a></li>
-    <li class="footer">Generated on Mon Oct 28 2024 20:41:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 4 2024 20:41:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

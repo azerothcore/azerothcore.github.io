@@ -1,7 +1,9 @@
 var a27750 =
 [
-    [ "HandleHeal", "df/d69/a27750.html#a30a5d100e899052598ac6ebf68b0d630", null ],
-    [ "Load", "df/d69/a27750.html#a9389c5ed206546edadd2b374b6d1d083", null ],
-    [ "PrepareSpellScript", "df/d69/a27750.html#aa9013c98808203a09e5f1cf5ad444537", null ],
-    [ "Register", "df/d69/a27750.html#aaec4586d9c929a38245b748953940589", null ]
+    [ "CinematicSequence", "df/d69/a27750.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
+    [ "ClassID", "df/d69/a27750.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
+    [ "expansion", "df/d69/a27750.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
+    [ "name", "df/d69/a27750.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
+    [ "powerType", "df/d69/a27750.html#a74aec35dc161a7e830453b9365a6f107", null ],
+    [ "spellfamily", "df/d69/a27750.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
 ];

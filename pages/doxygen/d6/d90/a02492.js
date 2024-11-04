@@ -1,10 +1,10 @@
 var a02492 =
 [
-    [ "npc_ancient_wisp", "d6/d05/a14366.html", "d6/d05/a14366" ],
-    [ "npc_doomfire_spirit", "d1/d38/a14370.html", "d1/d38/a14370" ],
-    [ "boss_archimonde", "df/d7a/a14374.html", "df/d7a/a14374" ],
-    [ "spell_red_sky_effect", "d1/de9/a14378.html", "d1/de9/a14378" ],
-    [ "spell_doomfire", "d8/de8/a14382.html", "d8/de8/a14382" ],
+    [ "npc_ancient_wisp", "d2/d82/a14302.html", "d2/d82/a14302" ],
+    [ "npc_doomfire_spirit", "de/dc7/a14306.html", "de/dc7/a14306" ],
+    [ "boss_archimonde", "d5/d1b/a14310.html", "d5/d1b/a14310" ],
+    [ "spell_red_sky_effect", "d8/d73/a14314.html", "d8/d73/a14314" ],
+    [ "spell_doomfire", "d4/d35/a14318.html", "d4/d35/a14318" ],
     [ "ArchiSpells", "d6/d90/a02492.html#a53d8e09d2b56c10f7952ddbff6d587b0", [
       [ "SPELL_DENOUEMENT_WISP", "d6/d90/a02492.html#a53d8e09d2b56c10f7952ddbff6d587b0a7d0eeee63d4725180e8ce6f7e93e20f0", null ],
       [ "SPELL_ANCIENT_SPARK", "d6/d90/a02492.html#a53d8e09d2b56c10f7952ddbff6d587b0a727ced848cbabecb2db6c226d24b60a9", null ],

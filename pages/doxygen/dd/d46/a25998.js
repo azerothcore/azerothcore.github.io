@@ -1,6 +1,6 @@
 var a25998 =
 [
-    [ "CheckTarget", "dd/d46/a25998.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
-    [ "PrepareSpellScript", "dd/d46/a25998.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
-    [ "Register", "dd/d46/a25998.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
+    [ "HandleDummyEffect", "dd/d46/a25998.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
+    [ "PrepareSpellScript", "dd/d46/a25998.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
+    [ "Register", "dd/d46/a25998.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
 ];

@@ -1,6 +1,6 @@
 var a16422 =
 [
-    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d3/d35/a16426.html", "d3/d35/a16426" ],
-    [ "spell_valkyr_ball_periodic_dummy", "d6/d8e/a16422.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
-    [ "GetAuraScript", "d6/d8e/a16422.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
+    [ "HandleScriptEffect", "d6/d8e/a16422.html#a90b13b2a093fdd430a383d7ea4126290", null ],
+    [ "PrepareSpellScript", "d6/d8e/a16422.html#a96cc7aabf7af3b2e7f978173921d55cd", null ],
+    [ "Register", "d6/d8e/a16422.html#a53c8d47ee21637055ad901946be1e2c2", null ]
 ];

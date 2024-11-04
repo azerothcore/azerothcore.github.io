@@ -1,6 +1,6 @@
 var a25802 =
 [
-    [ "PrepareSpellScript", "de/de0/a25802.html#a7099b8d28128cfea49288792ea02606c", null ],
-    [ "Register", "de/de0/a25802.html#a7622be3b736678ebeb3982a8d6a5b601", null ],
-    [ "UpdateTarget", "de/de0/a25802.html#a4e808b026c89d080e309a0ca8b4f57d1", null ]
+    [ "HandleRemove", "de/de0/a25802.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "de/de0/a25802.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "de/de0/a25802.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

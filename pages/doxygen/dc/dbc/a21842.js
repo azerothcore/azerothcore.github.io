@@ -1,7 +1,6 @@
 var a21842 =
 [
-    [ "HandleScript", "dc/dbc/a21842.html#a95de3ae27cfd764380ab1648b49af38d", null ],
-    [ "Load", "dc/dbc/a21842.html#a1aafe141985bc1e9c5b9467d4896d96b", null ],
-    [ "PrepareSpellScript", "dc/dbc/a21842.html#a442138710213b9b120d8ce57b733205a", null ],
-    [ "Register", "dc/dbc/a21842.html#af9d8f764a6a02737f8b559f067156df6", null ]
+    [ "npc_infra_green_bomber_genericAI", "d1/d47/a21846.html", "d1/d47/a21846" ],
+    [ "npc_infra_green_bomber_generic", "dc/dbc/a21842.html#a39134a09376c35f15e99377cd28ac6ff", null ],
+    [ "GetAI", "dc/dbc/a21842.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
 ];

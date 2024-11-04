@@ -1,8 +1,6 @@
 var a27382 =
 [
-    [ "npc_riggle_bassbaitAI", "dd/d50/a27386.html", "dd/d50/a27386" ],
-    [ "npc_riggle_bassbait", "df/d1b/a27382.html#afc4280099cda3c28c4634d649e636839", null ],
-    [ "GetAI", "df/d1b/a27382.html#ad5e3230dae9ac23aa83883e53b37234e", null ],
-    [ "OnGossipHello", "df/d1b/a27382.html#aeea1e5d4d59c72ce97e1f0eb8da5b6fe", null ],
-    [ "OnQuestReward", "df/d1b/a27382.html#aa3ef2b3ebd7542a4836983872c397e66", null ]
+    [ "npc_stable_masterAI", "dd/d50/a27386.html", "dd/d50/a27386" ],
+    [ "npc_stable_master", "df/d1b/a27382.html#ad327340f47e10bec7f077192227b0899", null ],
+    [ "GetAI", "df/d1b/a27382.html#a7e34e18d2dad465eb88b0388fa830490", null ]
 ];

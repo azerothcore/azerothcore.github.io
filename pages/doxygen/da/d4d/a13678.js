@@ -1,6 +1,5 @@
 var a13678 =
 [
-    [ "npc_harrison_jonesAI", "d1/d01/a13682.html", "d1/d01/a13682" ],
-    [ "npc_harrison_jones", "da/d4d/a13678.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
-    [ "GetAI", "da/d4d/a13678.html#ac7df55d850973073266509f6e09ea367", null ]
+    [ "at_zulgurub_entrance_speech", "da/d4d/a13678.html#afef11c6a7e97befd07072826fa13be55", null ],
+    [ "_OnTrigger", "da/d4d/a13678.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
 ];

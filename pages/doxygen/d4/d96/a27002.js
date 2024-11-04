@@ -1,7 +1,7 @@
 var a27002 =
 [
-    [ "npc_spirit_shadeAI", "d4/d96/a27002.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
-    [ "IsSummonedBy", "d4/d96/a27002.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
-    [ "MovementInform", "d4/d96/a27002.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
-    [ "_summonerGuid", "d4/d96/a27002.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
+    [ "go_darkmoon_faire_musicAI", "d4/d96/a27002.html#a2ee13dd1260c1ad5b810c25665c9ec87", null ],
+    [ "UpdateAI", "d4/d96/a27002.html#af3d802bd852fc0483f72781edb13b5d5", null ],
+    [ "_events", "d4/d96/a27002.html#acc7e15d2b286b7df262623acf7ea7f03", null ],
+    [ "rnd", "d4/d96/a27002.html#a9a4c983f11c4d912f31eaaf351afc016", null ]
 ];

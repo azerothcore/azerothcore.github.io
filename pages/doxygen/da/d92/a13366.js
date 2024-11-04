@@ -1,6 +1,6 @@
 var a13366 =
 [
-    [ "OnEffect", "da/d92/a13366.html#a41903586310ec274dd10537ccb8655f3", null ],
-    [ "PrepareSpellScript", "da/d92/a13366.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
-    [ "Register", "da/d92/a13366.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
+    [ "npc_marzon_silent_bladeAI", "d9/d0d/a13370.html", "d9/d0d/a13370" ],
+    [ "npc_marzon_silent_blade", "da/d92/a13366.html#a8fa1c0e11555df45005f37fd9de7f3a8", null ],
+    [ "GetAI", "da/d92/a13366.html#aadde9b84b46c594e41ae8ca3ae0265a1", null ]
 ];

@@ -1,5 +1,5 @@
 var a26934 =
 [
-    [ "AreaTrigger_at_coilfang_waterfall", "d1/dca/a26934.html#aa2e9a01adad7e195860bbc6c55131024", null ],
-    [ "OnTrigger", "d1/dca/a26934.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
+    [ "go_ethereum_stasis", "d1/dca/a26934.html#aaa8fc5733678a17a37c60c9853f91e62", null ],
+    [ "OnGossipHello", "d1/dca/a26934.html#ac36da8dccbebcaee605a878df3904c60", null ]
 ];

@@ -1,10 +1,8 @@
 var a18114 =
 [
-    [ "HandleScript", "df/d8c/a18114.html#a18c80010b9e8803b3c225acf2dd0b605", null ],
-    [ "Load", "df/d8c/a18114.html#af31fd5b1f9cdc67650eec5e305f095bf", null ],
-    [ "PrepareSpellScript", "df/d8c/a18114.html#afcc1efc69d73086a9ab686855911e516", null ],
-    [ "Register", "df/d8c/a18114.html#a061e110b9a032a9bbd0a48f686d16a84", null ],
-    [ "ReplaceTarget", "df/d8c/a18114.html#a01cb7d25bef14a2266d81594544f6283", null ],
-    [ "SelectTarget", "df/d8c/a18114.html#aa06b7505ff483bc5e534cc37d909b28c", null ],
-    [ "_target", "df/d8c/a18114.html#a3a84a9d7109845d201b395f05f66d109", null ]
+    [ "npc_lk_wicked_spiritAI", "df/d8c/a18114.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
+    [ "CanAIAttack", "df/d8c/a18114.html#ae094420b1a6e134632baa0b086c806c6", null ],
+    [ "JustDied", "df/d8c/a18114.html#adf153fab1c8639b2b5790ed418afb85d", null ],
+    [ "JustRespawned", "df/d8c/a18114.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
+    [ "Reset", "df/d8c/a18114.html#a8b15079251b6855679d738a342126006", null ]
 ];

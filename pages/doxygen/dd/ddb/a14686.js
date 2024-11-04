@@ -1,6 +1,7 @@
 var a14686 =
 [
-    [ "npc_idol_room_spawnerAI", "db/d99/a14690.html", "db/d99/a14690" ],
-    [ "npc_idol_room_spawner", "dd/ddb/a14686.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
-    [ "GetAI", "dd/ddb/a14686.html#a3017caa645e98a7647ec42a43c025624", null ]
+    [ "go_sand_trap", "dd/ddb/a14686.html#a58d45acac672cb05988ddca78185b469", null ],
+    [ "Reset", "dd/ddb/a14686.html#a7071a3e420e9137ca133b471bc217bf3", null ],
+    [ "UpdateAI", "dd/ddb/a14686.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
+    [ "_scheduler", "dd/ddb/a14686.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
 ];

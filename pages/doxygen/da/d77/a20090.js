@@ -1,7 +1,6 @@
 var a20090 =
 [
-    [ "HandleEffectPeriodic", "da/d77/a20090.html#af6c50396e9b47cd909184aea80244728", null ],
-    [ "PrepareAuraScript", "da/d77/a20090.html#aeb41825334049c8e3a39b48cbf271477", null ],
-    [ "Register", "da/d77/a20090.html#aaa44ceb54aa928c4436120f435bcdc4b", null ],
-    [ "Validate", "da/d77/a20090.html#a0098e4949fc75b1a2464128f4df869aa", null ]
+    [ "HandleInstaKill", "da/d77/a20090.html#a593786eb89bf77e05dad4b502ffc1925", null ],
+    [ "PrepareSpellScript", "da/d77/a20090.html#aa89401a4c6b1c85e4242bda45933b0ad", null ],
+    [ "Register", "da/d77/a20090.html#a46f2c2658e6b55f091bf8894f06a787c", null ]
 ];

@@ -1,7 +1,7 @@
 var a21658 =
 [
-    [ "CheckRequirement", "d4/d6c/a21658.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d4/d6c/a21658.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d4/d6c/a21658.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d4/d6c/a21658.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "HandleScriptEffect", "d4/d6c/a21658.html#a2d39a073c351860db735301b4cf9c79f", null ],
+    [ "PrepareSpellScript", "d4/d6c/a21658.html#a3674adaef23f1531af360a65c14efadd", null ],
+    [ "Register", "d4/d6c/a21658.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
+    [ "Validate", "d4/d6c/a21658.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
 ];

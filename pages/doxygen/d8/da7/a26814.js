@@ -1,7 +1,5 @@
 var a26814 =
 [
-    [ "HandleEffect", "d8/da7/a26814.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
-    [ "PrepareSpellScript", "d8/da7/a26814.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
-    [ "Register", "d8/da7/a26814.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
-    [ "Validate", "d8/da7/a26814.html#ab6d78ecb650f13df3376baced8c40a63", null ]
+    [ "AreaTrigger_at_last_rites", "d8/da7/a26814.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
+    [ "OnTrigger", "d8/da7/a26814.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
 ];

@@ -1,11 +1,12 @@
 var a23170 =
 [
-    [ "boss_ahune", "d8/d44/a23170.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
-    [ "DoAction", "d8/d44/a23170.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
-    [ "Emerge", "d8/d44/a23170.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
-    [ "EnterEvadeMode", "d8/d44/a23170.html#a2b906881621e59143a916c588beb70e7", null ],
-    [ "ExecuteEvent", "d8/d44/a23170.html#a46b477aef635de1d3ec88baa2465089f", null ],
-    [ "JustDied", "d8/d44/a23170.html#af2fc7c071321653a644ee569ead67d63", null ],
-    [ "JustEngagedWith", "d8/d44/a23170.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
-    [ "Submerge", "d8/d44/a23170.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
+    [ "boss_swamplord_muselek", "d8/d44/a23170.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
+    [ "AttackStart", "d8/d44/a23170.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
+    [ "CanShootVictim", "d8/d44/a23170.html#af84af5e4b344fc5f5da9f2047519710a", null ],
+    [ "JustDied", "d8/d44/a23170.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
+    [ "JustEngagedWith", "d8/d44/a23170.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
+    [ "KilledUnit", "d8/d44/a23170.html#a9f2afd6aacb9befa956079a42fbace37", null ],
+    [ "Reset", "d8/d44/a23170.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
+    [ "_canChase", "d8/d44/a23170.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
+    [ "_markTarget", "d8/d44/a23170.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
 ];

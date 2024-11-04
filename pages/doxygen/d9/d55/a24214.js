@@ -1,6 +1,5 @@
 var a24214 =
 [
-    [ "PrepareSpellScript", "d9/d55/a24214.html#ac781a5ff389268d1f18867ff5585ca71", null ],
-    [ "Register", "d9/d55/a24214.html#a5cb9e02774ea6c307e76183253ffb472", null ],
-    [ "SetDest", "d9/d55/a24214.html#a5fec9885b1dd6cf80fb47af321fad98e", null ]
+    [ "npc_pet_pri_lightwell", "d9/d55/a24214.html#aebeb192e66c7d5b4201cbaa81d46703c", null ],
+    [ "InitializeAI", "d9/d55/a24214.html#a5244bcfab27ccad603f80c6f2b2fcd3a", null ]
 ];

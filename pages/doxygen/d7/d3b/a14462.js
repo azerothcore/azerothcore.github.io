@@ -1,6 +1,7 @@
 var a14462 =
 [
-    [ "boss_epochAI", "da/d8b/a14466.html", "da/d8b/a14466" ],
-    [ "boss_epoch", "d7/d3b/a14462.html#a78b7d775bc3fc44496e41c58f2ed534d", null ],
-    [ "GetAI", "d7/d3b/a14462.html#a2673a4fb8c70d62009dfdc6daf23aee2", null ]
+    [ "npc_cos_chromie_middle", "d7/d3b/a14462.html#a1bb7229781c122d362e781d2737d0fd3", null ],
+    [ "OnGossipHello", "d7/d3b/a14462.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
+    [ "OnGossipSelect", "d7/d3b/a14462.html#a37ebdd257ef22554c81cf3c062856141", null ],
+    [ "OnQuestAccept", "d7/d3b/a14462.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
 ];

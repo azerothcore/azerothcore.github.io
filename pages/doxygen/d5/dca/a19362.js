@@ -1,10 +1,6 @@
 var a19362 =
 [
-    [ "npc_molten_golemAI", "d5/dca/a19362.html#a5172d70649be5030fd91e1adbcad4f06", null ],
-    [ "DamageTaken", "d5/dca/a19362.html#a0dd2ca5b83f5d75c51dfa358544c018a", null ],
-    [ "DoAction", "d5/dca/a19362.html#ada2e9c39ce16f00b47df2f52971d99b1", null ],
-    [ "Reset", "d5/dca/a19362.html#a9f90e791c77377c02c66e5d809c555cc", null ],
-    [ "UpdateAI", "d5/dca/a19362.html#ade3cfd0deb27508f5f084b1b49caf13f", null ],
-    [ "events", "d5/dca/a19362.html#ad97142df8344df59eddfb92471d1a737", null ],
-    [ "m_pInstance", "d5/dca/a19362.html#ad1a300c13e98965b935c1e3fc26b9606", null ]
+    [ "iron_golem_custodianAI", "de/d23/a19366.html", "de/d23/a19366" ],
+    [ "iron_golem_custodian", "d5/dca/a19362.html#adc11b755e193adbad757c21e5b15e063", null ],
+    [ "GetAI", "d5/dca/a19362.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
 ];

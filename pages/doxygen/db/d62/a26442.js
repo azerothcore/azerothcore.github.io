@@ -1,11 +1,8 @@
 var a26442 =
 [
-    [ "AddTarget", "db/d62/a26442.html#a18875ef707271a77c0c5867fa8de7ff7", null ],
-    [ "HandleApply", "db/d62/a26442.html#afad10ab0f64e688a18ed749c294a2fbe", null ],
-    [ "HandleEffectPeriodic", "db/d62/a26442.html#a339b71689056a61e4eebf77f1abcb3dd", null ],
-    [ "HandleRemove", "db/d62/a26442.html#a1bd9806323ad6b26a0c1fb8773596c98", null ],
-    [ "PrepareAuraScript", "db/d62/a26442.html#abd535f756fae06c9fae613d69ef4e353", null ],
-    [ "Register", "db/d62/a26442.html#a0f41f9287f5eb5046e6679d22c65416a", null ],
-    [ "Validate", "db/d62/a26442.html#a47351141df5e5e15a2d454cc653a9cf5", null ],
-    [ "_targets", "db/d62/a26442.html#ad2467bc150cb08766c57cca23d4d9843", null ]
+    [ "CheckProc", "db/d62/a26442.html#a33412f2b5abb1ce2160408ef13e7f0cb", null ],
+    [ "HandleProc", "db/d62/a26442.html#ab24c3d3f697a7ebd146d6135305c7741", null ],
+    [ "PrepareAuraScript", "db/d62/a26442.html#a8eccfbb749b85bbb850874324f17bbde", null ],
+    [ "Register", "db/d62/a26442.html#a482dd09de6cba9f5a36a6cdad1b82a0a", null ],
+    [ "Validate", "db/d62/a26442.html#a0c3020d44608920a2820e73e0b9e4b42", null ]
 ];

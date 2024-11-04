@@ -1,6 +1,6 @@
 var a13242 =
 [
-    [ "spell_uldaman_sub_boss_agro_keepers_SpellScript", "dd/d72/a13246.html", "dd/d72/a13246" ],
-    [ "spell_uldaman_sub_boss_agro_keepers", "d7/d06/a13242.html#abf3c4ac5e131f66ee8c7dcafa6d78279", null ],
-    [ "GetSpellScript", "d7/d06/a13242.html#a2db1d5f97da0387d1565809f8b090f2f", null ]
+    [ "npc_balance_of_light_and_shadowAI", "dd/d72/a13246.html", "dd/d72/a13246" ],
+    [ "npc_balance_of_light_and_shadow", "d7/d06/a13242.html#a55229e3ea8dd9c52972185b36c08908b", null ],
+    [ "GetAI", "d7/d06/a13242.html#a07e0547e6bf81cc7ff9fe0aa4a851388", null ]
 ];

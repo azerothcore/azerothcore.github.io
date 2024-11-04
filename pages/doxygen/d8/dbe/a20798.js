@@ -1,6 +1,6 @@
 var a20798 =
 [
-    [ "OnEffect", "d8/dbe/a20798.html#aa24cfd6feec65f466e74c68484815c1e", null ],
-    [ "PrepareSpellScript", "d8/dbe/a20798.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
-    [ "Register", "d8/dbe/a20798.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
+    [ "npc_vrykul_skeletonAI", "d9/d04/a20802.html", "d9/d04/a20802" ],
+    [ "npc_vrykul_skeleton", "d8/dbe/a20798.html#a08b79a9baba3cd05768d13ff36b6ed42", null ],
+    [ "GetAI", "d8/dbe/a20798.html#a74292cbb6f83ef9b6b90febda02570a5", null ]
 ];

@@ -1,5 +1,7 @@
 var a22554 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "d6/d8c/a22554.html#a037ee225b626b64436570680ae4e9ea0", null ],
-    [ "ProcessEvent", "d6/d8c/a22554.html#aba05b0edb57e6c42bd45593a51598365", null ]
+    [ "OnPeriodic", "d6/d8c/a22554.html#a165d47b116b0a53e37b05f664960e6ec", null ],
+    [ "PrepareAuraScript", "d6/d8c/a22554.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
+    [ "Register", "d6/d8c/a22554.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
+    [ "Validate", "d6/d8c/a22554.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
 ];

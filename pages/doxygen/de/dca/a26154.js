@@ -1,7 +1,7 @@
 var a26154 =
 [
-    [ "if", "de/dca/a26154.html#aefedb14e99d2e60abfd58f7778deb39b", null ],
-    [ "PrepareAuraScript", "de/dca/a26154.html#ad61e8c804e59ca0623748acde69aeddb", null ],
-    [ "Register", "de/dca/a26154.html#af917d32bc0d7f825a52c0a916a3a2357", null ],
-    [ "AuraEffectHandleModes", "de/dca/a26154.html#accfab0bada4faf21178e3f67a79c6dfe", null ]
+    [ "HandleDummy", "de/dca/a26154.html#aef93741620dcf29179502f88891ad0b5", null ],
+    [ "Load", "de/dca/a26154.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
+    [ "PrepareSpellScript", "de/dca/a26154.html#ac92fd133395705e4cb3730bc96e1f787", null ],
+    [ "Register", "de/dca/a26154.html#a69336bea35240c0014693ae167d4124b", null ]
 ];

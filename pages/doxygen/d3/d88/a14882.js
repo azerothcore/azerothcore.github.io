@@ -1,5 +1,5 @@
 var a14882 =
 [
-    [ "at_cthun_stomach_exit", "d3/d88/a14882.html#ab37174eff353cdbba1f300464645ac63", null ],
-    [ "OnTrigger", "d3/d88/a14882.html#ab56dca3fe200dc7822459a22912247bf", null ]
+    [ "at_twin_emperors", "d3/d88/a14882.html#a343d482857fa0a45c42f593e591f7754", null ],
+    [ "_OnTrigger", "d3/d88/a14882.html#adf3120b7bf611e0246abb2970711ada3", null ]
 ];

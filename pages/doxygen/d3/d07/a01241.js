@@ -1,7 +1,7 @@
 var a01241 =
 [
-    [ "boss_ingvar_the_plunderer", "d2/ddd/a20890.html", "d2/ddd/a20890" ],
-    [ "boss_ingvar_the_plunderer::boss_ingvar_the_plundererAI", "db/d0d/a20894.html", "db/d0d/a20894" ],
+    [ "boss_ingvar_the_plunderer", "d5/d0f/a20774.html", "d5/d0f/a20774" ],
+    [ "boss_ingvar_the_plunderer::boss_ingvar_the_plundererAI", "d3/d45/a20778.html", "d3/d45/a20778" ],
     [ "SPELL_DREADFUL_ROAR", "d3/d07/a01241.html#ac1e0e2698ab0ecb24bebdfa4c7ff14ca", null ],
     [ "SPELL_ENRAGE", "d3/d07/a01241.html#a101191d5841177786224ce21dc4ee986", null ],
     [ "SPELL_SMASH", "d3/d07/a01241.html#a29597657a2021b4ce69510ef57e5c532", null ],

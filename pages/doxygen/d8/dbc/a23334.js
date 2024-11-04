@@ -1,6 +1,8 @@
 var a23334 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "d5/db8/a23338.html", "d5/db8/a23338" ],
-    [ "instance_the_underbog", "d8/dbc/a23334.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
-    [ "GetInstanceScript", "d8/dbc/a23334.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "d8/dbc/a23334.html#aebc047b45cb4560a38df89db75f8efab", null ],
+    [ "Initialize", "d8/dbc/a23334.html#a115a36ec26e15e23be4d78250d86d814", null ],
+    [ "OnGameObjectCreate", "d8/dbc/a23334.html#a0639fcd867616d1f04aacde44020bb30", null ],
+    [ "SetBossState", "d8/dbc/a23334.html#a7a38526ca7b9a7c7c04231f8f8efd2f7", null ],
+    [ "felIronChestGUID", "d8/dbc/a23334.html#a7cfcac5dbe4562268679ddceaf8ec8ea", null ]
 ];

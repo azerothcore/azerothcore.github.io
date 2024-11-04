@@ -1,6 +1,7 @@
 var a16874 =
 [
-    [ "npc_pos_collapsing_icicleAI", "da/dd2/a16878.html", "da/dd2/a16878" ],
-    [ "npc_pos_collapsing_icicle", "da/d29/a16874.html#a42b29fe5d4e106c1e5e5b866a0074664", null ],
-    [ "GetAI", "da/d29/a16874.html#a96969ebe749b49ceb38920c63ec6fce3", null ]
+    [ "HandleDummy", "da/d29/a16874.html#a367f4ebd296aa0fd54ff9ef6185a1c92", null ],
+    [ "PrepareSpellScript", "da/d29/a16874.html#ab6e33bf137a54c9cd792aefb0ecd2ef1", null ],
+    [ "Register", "da/d29/a16874.html#a371073fb37337719115242fc8758026f", null ],
+    [ "Validate", "da/d29/a16874.html#ad5df08da54defc89a7a552c39de089c3", null ]
 ];

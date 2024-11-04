@@ -1,7 +1,6 @@
 var a17482 =
 [
-    [ "FilterTargets", "db/d49/a17482.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
-    [ "HandleDummy", "db/d49/a17482.html#a04166e4e5a4ba082755433555855cb30", null ],
-    [ "PrepareSpellScript", "db/d49/a17482.html#aaefa58014db12fb76e3416ae807c69e8", null ],
-    [ "Register", "db/d49/a17482.html#a497ee30669d45341023abe549c91ddaf", null ]
+    [ "npc_coldflameAI", "d9/dc9/a17486.html", "d9/dc9/a17486" ],
+    [ "npc_coldflame", "db/d49/a17482.html#a573b887358e2ba2281c4c119a267c33f", null ],
+    [ "GetAI", "db/d49/a17482.html#ac33d0528cdc3c3a0fb7acc4d46b1c2b1", null ]
 ];

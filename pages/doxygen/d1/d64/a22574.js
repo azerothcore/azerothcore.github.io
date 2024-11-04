@@ -1,11 +1,11 @@
 var a22574 =
 [
-    [ "boss_murmur", "d1/d64/a22574.html#ad89ea433764c3017a3d33b37eb9e5602", null ],
-    [ "CanAIAttack", "d1/d64/a22574.html#a6b89c95747c0a37c0b37527cd360e524", null ],
-    [ "CastSuppressionOOC", "d1/d64/a22574.html#aab66339a7436c3c483297b25f6859558", null ],
-    [ "EnterEvadeMode", "d1/d64/a22574.html#aa0f549c83a92302ece2323c75dd29acc", null ],
-    [ "JustEngagedWith", "d1/d64/a22574.html#a3d872beeee7bf6ecd0c4aeaa3f8c603d", null ],
-    [ "Reset", "d1/d64/a22574.html#a1f40ead1b2269b97c69bd4db808d6bae", null ],
-    [ "SetGUID", "d1/d64/a22574.html#a88e18fd646a807ee92f1b24b43d500a6", null ],
-    [ "ShouldCastResonance", "d1/d64/a22574.html#ade07217a85655a513d7a472d24589691", null ]
+    [ "boss_high_nethermancer_zerevor", "d1/d64/a22574.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
+    [ "AttackStart", "d1/d64/a22574.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
+    [ "CastDampenMagicIfPossible", "d1/d64/a22574.html#ab0af23baf43d377935811c52a346c566", null ],
+    [ "JustEngagedWith", "d1/d64/a22574.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
+    [ "OnAuraRemove", "d1/d64/a22574.html#a7dd31808dbf00f77b59fce84249778fe", null ],
+    [ "Reset", "d1/d64/a22574.html#afd7a419de217b3d129f783ddc87780af", null ],
+    [ "UpdateAI", "d1/d64/a22574.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ],
+    [ "_canCastDampenMagic", "d1/d64/a22574.html#a72c89454c2b0754690ae72fd7aacb0e8", null ]
 ];

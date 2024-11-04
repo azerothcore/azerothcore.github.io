@@ -1,5 +1,6 @@
 var a12830 =
 [
-    [ "npc_apothecary_frye", "d2/def/a12830.html#a5546099958a9a267d237e65720588456", null ],
-    [ "JustDied", "d2/def/a12830.html#ab1dc310e90c591b44ce4d5bcf1bac930", null ]
+    [ "instance_shadowfang_keep_InstanceMapScript", "d3/dd3/a12834.html", "d3/dd3/a12834" ],
+    [ "instance_shadowfang_keep", "d2/def/a12830.html#aa6817df7270fbf9397c6b66b28d0f6f8", null ],
+    [ "GetInstanceScript", "d2/def/a12830.html#a5c076ed86470247de5b4e3733b70fa25", null ]
 ];

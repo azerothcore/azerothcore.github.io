@@ -1,6 +1,5 @@
 var a21778 =
 [
-    [ "npc_mrfloppyAI", "dc/ddd/a21782.html", "dc/ddd/a21782" ],
-    [ "npc_mrfloppy", "dc/d86/a21778.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
-    [ "GetAI", "dc/d86/a21778.html#a88590566309f3fc155eb6dc26055a161", null ]
+    [ "npc_black_knight_graveyardAI", "dc/d86/a21778.html#a908ccf6763240ba0c0ebdf2dec6e1b36", null ],
+    [ "MoveInLineOfSight", "dc/d86/a21778.html#aa5c80b5759656e3865d6721161f9f005", null ]
 ];

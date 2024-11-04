@@ -1,6 +1,6 @@
 var a21234 =
 [
-    [ "boss_moraggAI", "dd/d92/a21238.html", "dd/d92/a21238" ],
-    [ "boss_moragg", "d8/df3/a21234.html#aeb43f9cc4c41f049fd0a13e79cadfcd1", null ],
-    [ "GetAI", "d8/df3/a21234.html#a5ea2f210038b3e44bf2cb9c402e1b761", null ]
+    [ "npc_violet_hold_defense_system", "d8/df3/a21234.html#abb5eb275e803201aad3010ad77aa4b41", null ],
+    [ "Reset", "d8/df3/a21234.html#a77925ae6097f7a52d446ee20bbb3de62", null ],
+    [ "UpdateAI", "d8/df3/a21234.html#ab39bc3da2d7ce33be1e27cd48fc16e89", null ]
 ];

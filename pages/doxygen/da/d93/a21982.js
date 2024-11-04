@@ -1,6 +1,6 @@
 var a21982 =
 [
-    [ "npc_infra_green_bomber_genericAI", "d6/df5/a21986.html", "d6/df5/a21986" ],
-    [ "npc_infra_green_bomber_generic", "da/d93/a21982.html#a39134a09376c35f15e99377cd28ac6ff", null ],
-    [ "GetAI", "da/d93/a21982.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
+    [ "HandleScriptEffect", "da/d93/a21982.html#a1dac2806b74471332aec0595118005a3", null ],
+    [ "PrepareSpellScript", "da/d93/a21982.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
+    [ "Register", "da/d93/a21982.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
 ];

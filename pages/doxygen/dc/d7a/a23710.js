@@ -1,10 +1,14 @@
 var a23710 =
 [
-    [ "npc_lord_sanguinar", "dc/d7a/a23710.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
-    [ "JustDied", "dc/d7a/a23710.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
-    [ "JustEngagedWith", "dc/d7a/a23710.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
-    [ "Reset", "dc/d7a/a23710.html#a25d998de67f88d4618f8f8d88681e68b", null ],
-    [ "UpdateAI", "dc/d7a/a23710.html#a27df1dbb76a650b8039690cab4ddad68", null ],
-    [ "_hasDied", "dc/d7a/a23710.html#a6f0a66b88b95412f443998190b142eaf", null ],
-    [ "_instance", "dc/d7a/a23710.html#aa610a2ca98d2fff376821dd243947096", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "dc/d7a/a23710.html#a258f55153ad857fbf35545cfb87c3d3a", null ],
+    [ "Initialize", "dc/d7a/a23710.html#a187340b00067f2f65a7e48845a6edaba", null ],
+    [ "JustSummoned", "dc/d7a/a23710.html#a10a3b9b4a2763bac4c9fe5f680850052", null ],
+    [ "Reset", "dc/d7a/a23710.html#a92a6cbe0515752440284d18bae0adf66", null ],
+    [ "SpellHit", "dc/d7a/a23710.html#a517f7412208de83604d0d6806fbc0b34", null ],
+    [ "UpdateAI", "dc/d7a/a23710.html#ab4fb75f1b84c2722f936387a6942028b", null ],
+    [ "CannonGUID", "dc/d7a/a23710.html#a220e111467cfb6f02e996f012123e09b", null ],
+    [ "count", "dc/d7a/a23710.html#ac78f94033239dcf247be9a48d0535081", null ],
+    [ "events", "dc/d7a/a23710.html#acf362c9e3eb844db9f66cc8c969cd22e", null ],
+    [ "PartyTime", "dc/d7a/a23710.html#a1780c656fb539be6dcd74e271cea4c53", null ],
+    [ "PlayerGUID", "dc/d7a/a23710.html#a686314ffe4a588a1ba8722a6cab56fc7", null ]
 ];

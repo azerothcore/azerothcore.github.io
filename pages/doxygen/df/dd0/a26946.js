@@ -1,5 +1,9 @@
 var a26946 =
 [
-    [ "AreaTrigger_at_scent_larkorwi", "df/dd0/a26946.html#a967a43eae4cc986754eed9ee8291c17e", null ],
-    [ "OnTrigger", "df/dd0/a26946.html#aeeb339afa5a7dd4b028aea800026998e", null ]
+    [ "go_tadpole_cageAI", "df/dd0/a26946.html#a87dc192a13cecf834d49cd04451224cd", null ],
+    [ "GossipHello", "df/dd0/a26946.html#a5c59db4b4d21b9e7de9bbb8835f31f2a", null ],
+    [ "OnStateChanged", "df/dd0/a26946.html#aa545ba4659b288c1ce1f5c2332d5e61f", null ],
+    [ "SummonTadpoles", "df/dd0/a26946.html#ab4903827c78b1b042cc17aef661a0b4f", null ],
+    [ "UpdateAI", "df/dd0/a26946.html#af6d4f5c3fe822815f58665a0207e3c32", null ],
+    [ "requireSummon", "df/dd0/a26946.html#a9884081855fc45776a6b12b9a68890e4", null ]
 ];

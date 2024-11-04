@@ -1,6 +1,6 @@
 var a21614 =
 [
-    [ "npc_hourglass_of_eternityAI", "dd/dbe/a21618.html", "dd/dbe/a21618" ],
-    [ "npc_hourglass_of_eternity", "df/d50/a21614.html#a40500ff582ead06bd646be86baad7d35", null ],
-    [ "GetAI", "df/d50/a21614.html#a6cdec424e78e5c9decac73d091eec0ed", null ]
+    [ "HandleDummy", "df/d50/a21614.html#afe86744c6ab901750731fca486ff2e6c", null ],
+    [ "PrepareSpellScript", "df/d50/a21614.html#a47e8a3187fa523c61842885f1cbd041d", null ],
+    [ "Register", "df/d50/a21614.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
 ];

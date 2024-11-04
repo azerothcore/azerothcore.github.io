@@ -1,6 +1,6 @@
 var a15230 =
 [
-    [ "npcs_riverbreeze_and_silversky", "dc/d61/a15230.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
-    [ "OnGossipHello", "dc/d61/a15230.html#a7de032322a37f929c316aadfdadda768", null ],
-    [ "OnGossipSelect", "dc/d61/a15230.html#a93c7b159dda733da5030de747bad30b5", null ]
+    [ "Creature", "dc/d61/a15230.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "dc/d61/a15230.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "dc/d61/a15230.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

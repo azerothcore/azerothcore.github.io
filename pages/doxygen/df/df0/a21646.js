@@ -1,12 +1,6 @@
 var a21646 =
 [
-    [ "npc_wintergarde_gryphon", "df/df0/a21646.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
-    [ "getVillager", "df/df0/a21646.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
-    [ "IsSummonedBy", "df/df0/a21646.html#acd7cea6226034d53b854c5ed659ff949", null ],
-    [ "JustDied", "df/df0/a21646.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
-    [ "MovementInform", "df/df0/a21646.html#a8f2faf49533d27d971110681e050c060", null ],
-    [ "PassengerBoarded", "df/df0/a21646.html#a16c01d26aef06358f979f59fe68c09ca", null ],
-    [ "SpellHit", "df/df0/a21646.html#acf64143ea83321556156fde30e1a34d4", null ],
-    [ "UpdateAI", "df/df0/a21646.html#aa161f280e7a7370696cecc27c51ee55c", null ],
-    [ "villagerGUID", "df/df0/a21646.html#a56a7973a05061197192111ecf55ef14a", null ]
+    [ "npc_ravenous_worgAI", "d2/dd4/a21650.html", "d2/dd4/a21650" ],
+    [ "npc_ravenous_worg", "df/df0/a21646.html#ad7f8da1c82072367fe4a537620df9ac0", null ],
+    [ "GetAI", "df/df0/a21646.html#ac966ae31d3a86c9435b14d9f50a5f4cb", null ]
 ];

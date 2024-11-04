@@ -1,6 +1,9 @@
 var a24962 =
 [
-    [ "PrepareSpellScript", "df/d37/a24962.html#a47d6dbe250410458fe54421158545efb", null ],
-    [ "Register", "df/d37/a24962.html#ae2334b3fcfa916eb4b9ae1ca85a9687e", null ],
-    [ "SetDest", "df/d37/a24962.html#aa037240eae1a1dd2c2670fed7dcc4e8c", null ]
+    [ "spell_gen_lifebloom", "df/d37/a24962.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
+    [ "AfterRemove", "df/d37/a24962.html#aea962f603e56c1bd33fccaef0c89d917", null ],
+    [ "PrepareAuraScript", "df/d37/a24962.html#ac11134bdc3588795ce6e256c5b02055f", null ],
+    [ "Register", "df/d37/a24962.html#ab4a552402ee9f90834320d6fc668cff3", null ],
+    [ "Validate", "df/d37/a24962.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
+    [ "_spellId", "df/d37/a24962.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
 ];

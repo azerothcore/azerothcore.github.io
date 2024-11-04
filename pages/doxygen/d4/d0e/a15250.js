@@ -1,6 +1,6 @@
 var a15250 =
 [
-    [ "npc_silva_filnaveth", "d4/d0e/a15250.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "d4/d0e/a15250.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "d4/d0e/a15250.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "npc_qiraj_war_spawnAI", "db/d8c/a15254.html", "db/d8c/a15254" ],
+    [ "npc_qiraj_war_spawn", "d4/d0e/a15250.html#a2afba33e9fd879ac3fea206768b14334", null ],
+    [ "GetAI", "d4/d0e/a15250.html#a32339f20251c188b895c02b6cc9217e9", null ]
 ];

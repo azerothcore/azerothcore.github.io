@@ -1,6 +1,7 @@
 var a21734 =
 [
-    [ "npc_spiritual_insightAI", "de/ded/a21738.html", "de/ded/a21738" ],
-    [ "npc_spiritual_insight", "d9/d46/a21734.html#afe7b9d5953462719407f03b33b8de564", null ],
-    [ "GetAI", "d9/d46/a21734.html#ab2884e1160ccad9adb8e3ae69db55bc4", null ]
+    [ "HandleScript", "d9/d46/a21734.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "d9/d46/a21734.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "d9/d46/a21734.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "d9/d46/a21734.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

@@ -1,6 +1,9 @@
 var a26302 =
 [
-    [ "HandleDummy", "de/d1c/a26302.html#aa530b0e27c9b9ba1978a80fd4a47f68d", null ],
-    [ "PrepareSpellScript", "de/d1c/a26302.html#a22adac71d2693d17313e506f1d12532f", null ],
-    [ "Register", "de/d1c/a26302.html#a2680afcbe3d7e95404c614e2f0f93bf4", null ]
+    [ "HandleAfterHit", "de/d1c/a26302.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
+    [ "HandleBeforeHit", "de/d1c/a26302.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
+    [ "Load", "de/d1c/a26302.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
+    [ "PrepareSpellScript", "de/d1c/a26302.html#a496c27472579be3b8989868765ec19ef", null ],
+    [ "Register", "de/d1c/a26302.html#a133e338413e960c442446a2a4a13b85b", null ],
+    [ "_stackAmount", "de/d1c/a26302.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
 ];

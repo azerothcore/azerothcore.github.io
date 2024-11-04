@@ -1,8 +1,5 @@
 var a19966 =
 [
-    [ "OnApply", "d0/d29/a19966.html#a101aab87e9f45ebab1cbe77ecca65c5a", null ],
-    [ "OnRemove", "d0/d29/a19966.html#a4709f570f9014eb36bc8c65269470373", null ],
-    [ "PrepareAuraScript", "d0/d29/a19966.html#a6ac96ce73f9983915a05686eb5d411e7", null ],
-    [ "Register", "d0/d29/a19966.html#a7b4f44d86df652df78a10466bf64a2cf", null ],
-    [ "Validate", "d0/d29/a19966.html#a3b98409fa1ed8d4e53e526686bc25987", null ]
+    [ "FlashFreezeCheck", "d0/d29/a19966.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
+    [ "operator()", "d0/d29/a19966.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
 ];

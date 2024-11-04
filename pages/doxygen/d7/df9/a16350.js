@@ -1,6 +1,6 @@
 var a16350 =
 [
-    [ "boss_acidmawAI", "d9/d78/a16354.html", "d9/d78/a16354" ],
-    [ "boss_acidmaw", "d7/df9/a16350.html#a86e71bf9ae950a4f8efa58d6f679e8bf", null ],
-    [ "GetAI", "d7/df9/a16350.html#aacbd4c83e6e9c9790e6cf9a87e3aa9a0", null ]
+    [ "OnPeriodic", "d7/df9/a16350.html#a6f2e191d76f894517aed395866b7e508", null ],
+    [ "PrepareAuraScript", "d7/df9/a16350.html#a571ee1c735b6095408973bfe5f91bcf7", null ],
+    [ "Register", "d7/df9/a16350.html#a6094dc303c034e49fb4e543874db080b", null ]
 ];

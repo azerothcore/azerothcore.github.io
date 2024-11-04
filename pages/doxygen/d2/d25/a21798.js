@@ -1,7 +1,6 @@
 var a21798 =
 [
-    [ "HandleScriptEffect", "d2/d25/a21798.html#a2d39a073c351860db735301b4cf9c79f", null ],
-    [ "PrepareSpellScript", "d2/d25/a21798.html#a3674adaef23f1531af360a65c14efadd", null ],
-    [ "Register", "d2/d25/a21798.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
-    [ "Validate", "d2/d25/a21798.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
+    [ "npc_lord_areteAI", "d5/deb/a21802.html", "d5/deb/a21802" ],
+    [ "npc_lord_arete", "d2/d25/a21798.html#a929e3f3346bf4dbaee127463eaf4ffcc", null ],
+    [ "GetAI", "d2/d25/a21798.html#a212d003e9acb5f141197b5c4d10163a4", null ]
 ];

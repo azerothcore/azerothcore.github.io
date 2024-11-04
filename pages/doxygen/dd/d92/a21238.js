@@ -1,12 +1,8 @@
 var a21238 =
 [
-    [ "boss_moraggAI", "dd/d92/a21238.html#a3ae881c9adca20a2cb894af85297d53e", null ],
-    [ "EnterEvadeMode", "dd/d92/a21238.html#a4e70e42407f452c4685c732949fd2b52", null ],
-    [ "JustDied", "dd/d92/a21238.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
-    [ "JustEngagedWith", "dd/d92/a21238.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
-    [ "MoveInLineOfSight", "dd/d92/a21238.html#a52a99d72dfa017baacb76717e6db931b", null ],
-    [ "Reset", "dd/d92/a21238.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
-    [ "UpdateAI", "dd/d92/a21238.html#aec7645eaae190d1e7982aae181ff9224", null ],
-    [ "events", "dd/d92/a21238.html#acd021e4216e3920f0534da95d69ba5eb", null ],
-    [ "pInstance", "dd/d92/a21238.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
+    [ "HandleEffectRemove", "dd/d92/a21238.html#aa2b05befb775244423264f6b5e2387c1", null ],
+    [ "Load", "dd/d92/a21238.html#a02ea4c29f2c7e15a5039b93d7a0d3c5e", null ],
+    [ "PrepareAuraScript", "dd/d92/a21238.html#a632e81cc39bdcd0f5adcc684231d1171", null ],
+    [ "Register", "dd/d92/a21238.html#aba5483b1d35c1b58841fad2b1086f07c", null ],
+    [ "Validate", "dd/d92/a21238.html#ada90e1f06ced8f4e353fe2bda3d31637", null ]
 ];

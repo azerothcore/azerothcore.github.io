@@ -1,6 +1,6 @@
 var a12638 =
 [
-    [ "npc_crusade_persuadedAI", "d7/de8/a12642.html", "d7/de8/a12642" ],
-    [ "npc_crusade_persuaded", "db/d7f/a12638.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
-    [ "GetAI", "db/d7f/a12638.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
+    [ "npc_scarlet_courierAI", "d7/de8/a12642.html", "d7/de8/a12642" ],
+    [ "npc_scarlet_courier", "db/d7f/a12638.html#ac9bb46ff40bdf5c83d55c14e52243004", null ],
+    [ "GetAI", "db/d7f/a12638.html#a4b6b5a14ec6ce13a9ce7089f08bce9f5", null ]
 ];

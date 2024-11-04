@@ -1,12 +1,7 @@
 var a13322 =
 [
-    [ "npc_eastvale_peasent", "d5/dac/a13322.html#a5282dac41228569d4431d84c1f160f05", null ],
-    [ "Initialize", "d5/dac/a13322.html#a8b73aa30b0b4a984d8644e6d9541461d", null ],
-    [ "PathEndReached", "d5/dac/a13322.html#a002ec21e0715b020aa19cd0839408033", null ],
-    [ "Reset", "d5/dac/a13322.html#a7eb6cf174a46fd31c8c5241649fcebdc", null ],
-    [ "SetData", "d5/dac/a13322.html#add14d9505880727e208e7ef9428f5acd", null ],
-    [ "UpdateAI", "d5/dac/a13322.html#a868eb38757bf7bc02d5b3ffa66feb375", null ],
-    [ "_events", "d5/dac/a13322.html#a1b310b07481366042dc45f7a27ce6408", null ],
-    [ "_path", "d5/dac/a13322.html#a907db8e6148947248b5bcfdb35023e16", null ],
-    [ "_realenGUID", "d5/dac/a13322.html#aad06364be8698b5ba69cd229e2a5085b", null ]
+    [ "npc_greengill_slaveAI", "d5/dac/a13322.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "d5/dac/a13322.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "d5/dac/a13322.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "d5/dac/a13322.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

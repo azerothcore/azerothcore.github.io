@@ -1,6 +1,9 @@
 var a25246 =
 [
-    [ "CheckCast", "d0/d86/a25246.html#a712900d0c9e9cc78b5de2886e416f34d", null ],
-    [ "PrepareSpellScript", "d0/d86/a25246.html#a0bc2de519e0c84688fad609444d28afa", null ],
-    [ "Register", "d0/d86/a25246.html#a7f438fb8ce7eda520a366437df65c6e8", null ]
+    [ "getMountSpellId", "d0/d86/a25246.html#afe306ed6057050baf342ee717723764d", null ],
+    [ "OnApply", "d0/d86/a25246.html#aa8bee986d413be60d00ac1d2111ef719", null ],
+    [ "OnRemove", "d0/d86/a25246.html#a162d466a1dcd2cb710abf12c06f7c2de", null ],
+    [ "PrepareAuraScript", "d0/d86/a25246.html#a7070cc7aeec4a88fbde960cebf1aef56", null ],
+    [ "Register", "d0/d86/a25246.html#a481e5295da3d789d9b3c1ed30fdaf0bd", null ],
+    [ "Validate", "d0/d86/a25246.html#a6868f6e88c9179efd921b266c83f6daf", null ]
 ];

@@ -1,7 +1,5 @@
 var a13466 =
 [
-    [ "o", "d0/d4d/a13466.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
-    [ "x", "d0/d4d/a13466.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
-    [ "y", "d0/d4d/a13466.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
-    [ "z", "d0/d4d/a13466.html#abf42d988d416ebe409100c4b860d26db", null ]
+    [ "npc_andorhal_towerAI", "d0/d4d/a13466.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
+    [ "MoveInLineOfSight", "d0/d4d/a13466.html#a1165ee0e066dcaeb300096e55758389b", null ]
 ];

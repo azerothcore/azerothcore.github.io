@@ -1,7 +1,6 @@
 var a22886 =
 [
-    [ "Absorb", "d9/dbd/a22886.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
-    [ "HandleEffectRemove", "d9/dbd/a22886.html#a3d4026e5208acb948c089a4bedba0de8", null ],
-    [ "PrepareAuraScript", "d9/dbd/a22886.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
-    [ "Register", "d9/dbd/a22886.html#a983cf678001efcbccc4b34a9ad919881", null ]
+    [ "OnPeriodic", "d9/dbd/a22886.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "d9/dbd/a22886.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "d9/dbd/a22886.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

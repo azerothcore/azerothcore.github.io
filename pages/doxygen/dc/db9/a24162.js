@@ -1,6 +1,8 @@
 var a24162 =
 [
-    [ "npc_shattrathflaskvendors", "dc/db9/a24162.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "dc/db9/a24162.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "dc/db9/a24162.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "dc/db9/a24162.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "dc/db9/a24162.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "dc/db9/a24162.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "dc/db9/a24162.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "dc/db9/a24162.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

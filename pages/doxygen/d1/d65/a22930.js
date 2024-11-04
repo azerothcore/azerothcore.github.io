@@ -1,9 +1,14 @@
 var a22930 =
 [
-    [ "HandleEffectApply", "d1/d65/a22930.html#aca8ff864832d30e45bccfca12256560a", null ],
-    [ "HandleEffectRemove", "d1/d65/a22930.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
-    [ "Load", "d1/d65/a22930.html#a3b9838f26673ce344ca40f9f487ef878", null ],
-    [ "PrepareAuraScript", "d1/d65/a22930.html#a79b93c86a01d31d08cba15436856b794", null ],
-    [ "Register", "d1/d65/a22930.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
-    [ "_turtleSet", "d1/d65/a22930.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
+    [ "SpellIds", "d1/d65/a22930.html#a2d0e9022edc8a9f6fc0e34330fda114a", [
+      [ "SPELL_SUMMON_WAVE_A_MOB", "d1/d65/a22930.html#a2d0e9022edc8a9f6fc0e34330fda114aa19ea6e555692392677c74fccd206380b", null ],
+      [ "SPELL_SUMMON_WAVE_B_MOB", "d1/d65/a22930.html#a2d0e9022edc8a9f6fc0e34330fda114aa938130293fb55c96d06462e407a24a89", null ],
+      [ "SPELL_SUMMON_WAVE_C_MOB", "d1/d65/a22930.html#a2d0e9022edc8a9f6fc0e34330fda114aadc855654104e4ec0a09540e9b51cb098", null ],
+      [ "SPELL_SUMMON_WAVE_D_MOB", "d1/d65/a22930.html#a2d0e9022edc8a9f6fc0e34330fda114aa3bbb32a8c4da3b06e9bf5da83f39970d", null ]
+    ] ],
+    [ "FilterTargets", "d1/d65/a22930.html#a2a1a2e5069587f52ae968c84cd702eaf", null ],
+    [ "HandleHit", "d1/d65/a22930.html#aa670812f42c3082f42e0f232ee6bee16", null ],
+    [ "PrepareSpellScript", "d1/d65/a22930.html#a7fe65229c64c27909868f02439c1ef66", null ],
+    [ "Register", "d1/d65/a22930.html#a0a8f29b524391ff257aba5cbdc355115", null ],
+    [ "Validate", "d1/d65/a22930.html#ab8bcdcfcad2a9998d95567006817711e", null ]
 ];

@@ -1,6 +1,7 @@
 var a16414 =
 [
-    [ "spell_valkyr_touchAuraScript", "d6/d89/a16418.html", "d6/d89/a16418" ],
-    [ "spell_valkyr_touch", "d0/d5d/a16414.html#a13ab6fdfe33659448a4598feed1db0a6", null ],
-    [ "GetAuraScript", "d0/d5d/a16414.html#af8205cf431f034e4b678e1396fbe40a8", null ]
+    [ "HandleScriptEffect", "d0/d5d/a16414.html#a62cef31900cd61167823f3e66aa2d64b", null ],
+    [ "PrepareSpellScript", "d0/d5d/a16414.html#aff3fc5d7d6185bcb09d14f1408a67aad", null ],
+    [ "Register", "d0/d5d/a16414.html#ac73b3f568ce54f9b59b2b23f069da3c1", null ],
+    [ "Validate", "d0/d5d/a16414.html#aab4d84e896c8225d8d131558aaa71dbe", null ]
 ];

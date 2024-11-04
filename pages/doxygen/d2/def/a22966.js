@@ -1,6 +1,14 @@
 var a22966 =
 [
-    [ "HandleProc", "d2/def/a22966.html#a93dfb9e0dac89cb66f340c41dbc526bb", null ],
-    [ "PrepareAuraScript", "d2/def/a22966.html#a94b244ef26355d53c874aec6d26f3a53", null ],
-    [ "Register", "d2/def/a22966.html#a9499d88802213ceb877e19d1651324f2", null ]
+    [ "boss_the_lurker_below", "d2/def/a22966.html#ac76c71b6a47e1a936256d9c5901c27ab", null ],
+    [ "AttackStart", "d2/def/a22966.html#af0f6fbe31dbcd6df4e8f1b57730e093b", null ],
+    [ "DamageTaken", "d2/def/a22966.html#ae7c05744013753b29072ec1b5d9f2570", null ],
+    [ "DoAction", "d2/def/a22966.html#a30e07055aa632066a75ad48f3e8109e2", null ],
+    [ "EnterEvadeMode", "d2/def/a22966.html#a522164e819db5062225f7d5704cdaa36", null ],
+    [ "JustEngagedWith", "d2/def/a22966.html#aa31e26b77e0c2403a338f781bf14c94b", null ],
+    [ "Reset", "d2/def/a22966.html#ae592707182d64689e6578813b3617ee3", null ],
+    [ "SchedulerPhaseOne", "d2/def/a22966.html#a42dd2ed36209e7be61788d054e2754b5", null ],
+    [ "SchedulerPhaseTwo", "d2/def/a22966.html#aa910c20d3ee26d6d2e71818008eb3b5c", null ],
+    [ "SummonedCreatureDies", "d2/def/a22966.html#a5ec68a1bc5b22e03fe485448257ad7df", null ],
+    [ "UpdateAI", "d2/def/a22966.html#a92d854cb21b272bd09674c724b1aa862", null ]
 ];

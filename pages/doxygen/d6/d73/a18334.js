@@ -1,8 +1,6 @@
 var a18334 =
 [
-    [ "Load", "d6/d73/a18334.html#a3a5fa4814a7724db0ba7be5c5158798b", null ],
-    [ "PeriodicTick", "d6/d73/a18334.html#a4ff0ab22db0bbd4483ddb379de069c48", null ],
-    [ "PrepareAuraScript", "d6/d73/a18334.html#a029820fbfc34af4d0ccb825a9f9d2b0d", null ],
-    [ "Register", "d6/d73/a18334.html#a909819dde9d5154f3d2cf04b04fa33f7", null ],
-    [ "_instance", "d6/d73/a18334.html#aebebb858f2ae41f2260d6843b3da8052", null ]
+    [ "npc_captain_brandonAI", "d6/d73/a18334.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d6/d73/a18334.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d6/d73/a18334.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

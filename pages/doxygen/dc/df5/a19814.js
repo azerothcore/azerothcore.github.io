@@ -1,6 +1,9 @@
 var a19814 =
 [
-    [ "OnPeriodic", "dc/df5/a19814.html#a379c55df994c58932fef7e7a59fd8426", null ],
-    [ "PrepareAuraScript", "dc/df5/a19814.html#ab180f54264f0c90376587d1b4c4dfd40", null ],
-    [ "Register", "dc/df5/a19814.html#aacfaa385ca4cbe64217ef191a32936e2", null ]
+    [ "boss_freya_nature_bombAI", "dc/df5/a19814.html#acbf4d330bb5bf4a032732895e8f7e35b", null ],
+    [ "Reset", "dc/df5/a19814.html#a60738702870e2cacbcdf600e9e7073b5", null ],
+    [ "UpdateAI", "dc/df5/a19814.html#a4bfa9df3e3151743485f59c4d318d7f9", null ],
+    [ "_explodeTimer", "dc/df5/a19814.html#a2af9ed2067097eec2a647f17f8b1ef71", null ],
+    [ "_goGUID", "dc/df5/a19814.html#a1a7579cc6957a52d65a1d302d5ba1da0", null ],
+    [ "Timer", "dc/df5/a19814.html#a714a582c6ec552b969624244d709d14d", null ]
 ];

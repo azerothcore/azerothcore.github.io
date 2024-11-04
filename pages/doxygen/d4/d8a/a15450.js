@@ -1,6 +1,6 @@
 var a15450 =
 [
-    [ "npc_cairne_bloodhoofAI", "df/d38/a15454.html", "df/d38/a15454" ],
-    [ "npc_cairne_bloodhoof", "d4/d8a/a15450.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
-    [ "GetAI", "d4/d8a/a15450.html#a1c34470c46ae9e98684de0e786be28b7", null ]
+    [ "HandleOpenLock", "d4/d8a/a15450.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
+    [ "PrepareSpellScript", "d4/d8a/a15450.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
+    [ "Register", "d4/d8a/a15450.html#a5dcac6f609ec93074ec3ce195101f592", null ]
 ];

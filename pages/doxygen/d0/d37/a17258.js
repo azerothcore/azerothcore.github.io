@@ -1,6 +1,6 @@
 var a17258 =
 [
-    [ "PrepareAuraScript", "d0/d37/a17258.html#abbcd0a9a63908a875bcdbc66fb5e1218", null ],
-    [ "RecalculateHook", "d0/d37/a17258.html#a829e96cabbb565922f7183adb3edf13c", null ],
-    [ "Register", "d0/d37/a17258.html#a7ded7cbe8c5cbffd6798bbb66d8a5d1a", null ]
+    [ "npc_zafod_boomboxAI", "d7/dfc/a17262.html", "d7/dfc/a17262" ],
+    [ "npc_zafod_boombox", "d0/d37/a17258.html#a7124746ed3f25ae6d96a2fa1910d98d0", null ],
+    [ "GetAI", "d0/d37/a17258.html#af80f6913cef53d39cafdcd47b2cd07f0", null ]
 ];

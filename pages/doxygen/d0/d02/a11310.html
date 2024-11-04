@@ -153,7 +153,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1321</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1320</span>{ }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -181,25 +181,25 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1336</span>        {</div>
-<div class="line"><span class="lineno"> 1337</span>            <span class="keyword">auto</span> comp = [](std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; a, std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; b)</div>
-<div class="line"><span class="lineno"> 1338</span>            {</div>
-<div class="line"><span class="lineno"> 1339</span>                <span class="keywordflow">return</span> a.second &gt; b.second;</div>
-<div class="line"><span class="lineno"> 1340</span>            };</div>
-<div class="line"><span class="lineno"> 1341</span>            std::set&lt;std::pair&lt;uint32, uint32&gt;, <span class="keyword">decltype</span>(comp)&gt; set(<a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.begin(), <a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.end(), comp);</div>
-<div class="line"><span class="lineno"> 1342</span> </div>
-<div class="line"><span class="lineno"> 1343</span>            count = std::min(count, <a class="code hl_typedef" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(set.size()));</div>
-<div class="line"><span class="lineno"> 1344</span>            std::vector&lt;std::pair&lt;uint32, uint32&gt;&gt; result(count);</div>
-<div class="line"><span class="lineno"> 1345</span>            std::copy_n(set.begin(), count, result.begin());</div>
-<div class="line"><span class="lineno"> 1346</span> </div>
-<div class="line"><span class="lineno"> 1347</span>            <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 1348</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1335</span>        {</div>
+<div class="line"><span class="lineno"> 1336</span>            <span class="keyword">auto</span> comp = [](std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; a, std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; b)</div>
+<div class="line"><span class="lineno"> 1337</span>            {</div>
+<div class="line"><span class="lineno"> 1338</span>                <span class="keywordflow">return</span> a.second &gt; b.second;</div>
+<div class="line"><span class="lineno"> 1339</span>            };</div>
+<div class="line"><span class="lineno"> 1340</span>            std::set&lt;std::pair&lt;uint32, uint32&gt;, <span class="keyword">decltype</span>(comp)&gt; set(<a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.begin(), <a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.end(), comp);</div>
+<div class="line"><span class="lineno"> 1341</span> </div>
+<div class="line"><span class="lineno"> 1342</span>            count = std::min(count, <a class="code hl_typedef" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(set.size()));</div>
+<div class="line"><span class="lineno"> 1343</span>            std::vector&lt;std::pair&lt;uint32, uint32&gt;&gt; result(count);</div>
+<div class="line"><span class="lineno"> 1344</span>            std::copy_n(set.begin(), count, result.begin());</div>
+<div class="line"><span class="lineno"> 1345</span> </div>
+<div class="line"><span class="lineno"> 1346</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 1347</span>        }</div>
 <div class="ttc" id="aa00359_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa11310_html_a3a6f946c40b1006164793dbaed2b3948"><div class="ttname"><a href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">debug_commandscript::CreatureCountWorker::creatureIds</a></div><div class="ttdeci">std::unordered_map&lt; uint32, uint32 &gt; creatureIds</div><div class="ttdef"><b>Definition:</b> cs_debug.cpp:1351</div></div>
+<div class="ttc" id="aa11310_html_a3a6f946c40b1006164793dbaed2b3948"><div class="ttname"><a href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">debug_commandscript::CreatureCountWorker::creatureIds</a></div><div class="ttdeci">std::unordered_map&lt; uint32, uint32 &gt; creatureIds</div><div class="ttdef"><b>Definition:</b> cs_debug.cpp:1350</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01351">creatureIds</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01350">creatureIds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01354">debug_commandscript::HandleDebugObjectCountMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01353">debug_commandscript::HandleDebugObjectCountMap()</a>.</p>
 
 </div>
 </div>
@@ -226,15 +226,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1324</span>        {</div>
-<div class="line"><span class="lineno"> 1325</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; p : creatureMap)</div>
-<div class="line"><span class="lineno"> 1326</span>            {</div>
-<div class="line"><span class="lineno"> 1327</span>                <a class="code hl_typedef" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; count = <a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>[p.second-&gt;GetEntry()];</div>
-<div class="line"><span class="lineno"> 1328</span>                ++count;</div>
-<div class="line"><span class="lineno"> 1329</span>            }</div>
-<div class="line"><span class="lineno"> 1330</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1323</span>        {</div>
+<div class="line"><span class="lineno"> 1324</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; p : creatureMap)</div>
+<div class="line"><span class="lineno"> 1325</span>            {</div>
+<div class="line"><span class="lineno"> 1326</span>                <a class="code hl_typedef" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; count = <a class="code hl_variable" href="../../d0/d02/a11310.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>[p.second-&gt;GetEntry()];</div>
+<div class="line"><span class="lineno"> 1327</span>                ++count;</div>
+<div class="line"><span class="lineno"> 1328</span>            }</div>
+<div class="line"><span class="lineno"> 1329</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01351">creatureIds</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01350">creatureIds</a>.</p>
 
 </div>
 </div>
@@ -263,7 +263,7 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1333</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1332</span>{ }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -288,7 +288,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l01335">GetTopCreatureCount()</a>, and <a class="el" href="../../#l01323">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01334">GetTopCreatureCount()</a>, and <a class="el" href="../../#l01322">Visit()</a>.</p>
 
 </div>
 </div>
@@ -298,7 +298,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/dfa/a11306.html">debug_commandscript</a></li><li class="navelem"><a class="el" href="../../d0/d02/a11310.html">CreatureCountWorker</a></li>
-    <li class="footer">Generated on Mon Oct 28 2024 20:40:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 4 2024 20:40:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

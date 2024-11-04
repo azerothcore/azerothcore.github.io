@@ -1,13 +1,10 @@
 var a13822 =
 [
-    [ "npc_ohganAI", "db/dfd/a13822.html#a43f7fa66ff39bca177d30fc1d0d78080", null ],
-    [ "JustDied", "db/dfd/a13822.html#a89e506868e3191362545e34d21528b8f", null ],
-    [ "JustEngagedWith", "db/dfd/a13822.html#a5b6171794c5b49e8ee439de7bdc51ba5", null ],
-    [ "KilledUnit", "db/dfd/a13822.html#a4e202eef928e54bd52160705bba5cc35", null ],
-    [ "Reset", "db/dfd/a13822.html#ac3e1bc9dc819138741eb3b4448051547", null ],
-    [ "SetGUID", "db/dfd/a13822.html#a5baf8e15902d4d8ff06c8410314327f6", null ],
-    [ "UpdateAI", "db/dfd/a13822.html#aea7c169bc2b7c52ff7d4d9a5dd7a6f0a", null ],
-    [ "_scheduler", "db/dfd/a13822.html#a838f1354e24c47e1c52e4b50e2b93c85", null ],
-    [ "instance", "db/dfd/a13822.html#aeb6f6bddf881edf818fdc31fc639d5d5", null ],
-    [ "reviveGUID", "db/dfd/a13822.html#afc066ae0c6d370f6632408b08de3c3bb", null ]
+    [ "npc_zealot_zath", "db/dfd/a13822.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "db/dfd/a13822.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "db/dfd/a13822.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "db/dfd/a13822.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "db/dfd/a13822.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "db/dfd/a13822.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "db/dfd/a13822.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

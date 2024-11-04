@@ -1,6 +1,7 @@
 var a12678 =
 [
-    [ "HandleScriptEffect", "db/d21/a12678.html#af265f0bba7028f45763a7f9afea2d051", null ],
-    [ "PrepareSpellScript", "db/d21/a12678.html#a27518fd5482e65e0324100057e747d68", null ],
-    [ "Register", "db/d21/a12678.html#a07789d7d092eb1b6633200442466c52b", null ]
+    [ "OnApply", "db/d21/a12678.html#a21450cd59487a927bbc0a5a5e1ffa72b", null ],
+    [ "OnRemove", "db/d21/a12678.html#a810203874163cf04798c3edbe69b747e", null ],
+    [ "PrepareAuraScript", "db/d21/a12678.html#a3c17a7366acd9bd1863bae0f9218930a", null ],
+    [ "Register", "db/d21/a12678.html#af2ad52165de188897fdeb8d62646b7cc", null ]
 ];

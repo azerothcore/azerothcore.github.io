@@ -1,9 +1,8 @@
 var a21414 =
 [
-    [ "npc_lurgglbrAI", "d0/d92/a21414.html#a9239b85c65f9b405335d432f355637d5", null ],
-    [ "Reset", "d0/d92/a21414.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
-    [ "UpdateAI", "d0/d92/a21414.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
-    [ "WaypointReached", "d0/d92/a21414.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
-    [ "IntroPhase", "d0/d92/a21414.html#a57e2c42cccf91765365e0b046446637a", null ],
-    [ "IntroTimer", "d0/d92/a21414.html#ada9762806ae0132e37197e6fb1279866", null ]
+    [ "npc_shandy_dalaranAI", "d9/db8/a21418.html", "d9/db8/a21418" ],
+    [ "npc_shandy_dalaran", "d0/d92/a21414.html#a7077c769a252af8ba37b5ff5d524463e", null ],
+    [ "GetAI", "d0/d92/a21414.html#a641551a2aef739e1679912ae27ddb888", null ],
+    [ "OnGossipHello", "d0/d92/a21414.html#a91287aaba09fce091c9d826e75208f84", null ],
+    [ "OnGossipSelect", "d0/d92/a21414.html#ad005a17da187e0cfd03d2faf0099c448", null ]
 ];

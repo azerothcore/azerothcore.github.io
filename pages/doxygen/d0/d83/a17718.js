@@ -1,7 +1,6 @@
 var a17718 =
 [
-    [ "HandleSummon", "d0/d83/a17718.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
-    [ "PrepareSpellScript", "d0/d83/a17718.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
-    [ "Register", "d0/d83/a17718.html#a01281869dc98a0af5027695391f1221f", null ],
-    [ "Validate", "d0/d83/a17718.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
+    [ "LastPhaseIceTombTargetSelector", "d0/d83/a17718.html#ac01f20b199bb0ee63b9c8f8206321057", null ],
+    [ "operator()", "d0/d83/a17718.html#a92a846ff557334b1f30d8e062a2c64e9", null ],
+    [ "_source", "d0/d83/a17718.html#ab10d10dd0de7717078d31ac026d4c933", null ]
 ];

@@ -1,6 +1,8 @@
 var a19358 =
 [
-    [ "npc_molten_golemAI", "d5/dca/a19362.html", "d5/dca/a19362" ],
-    [ "npc_molten_golem", "d1/d5c/a19358.html#a63e16216a59b50524632b49599bd3bd1", null ],
-    [ "GetAI", "d1/d5c/a19358.html#a22a723039267cb0901b78c6064a88d0c", null ]
+    [ "dark_rune_stormcallerAI", "d1/d5c/a19358.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
+    [ "JustEngagedWith", "d1/d5c/a19358.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
+    [ "Reset", "d1/d5c/a19358.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
+    [ "UpdateAI", "d1/d5c/a19358.html#adbd245fc5180dc7c78704595a9592864", null ],
+    [ "events", "d1/d5c/a19358.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
 ];

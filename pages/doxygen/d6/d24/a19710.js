@@ -1,5 +1,6 @@
 var a19710 =
 [
-    [ "boss_flame_leviathan_overload_deviceAI", "d6/d24/a19710.html#ab28c1371c20672e717f92fbc3656fb99", null ],
-    [ "OnSpellClick", "d6/d24/a19710.html#af432be27e1b91ecf5a5a53c7b6add39e", null ]
+    [ "CheckAreaTarget", "d6/d24/a19710.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
+    [ "PrepareAuraScript", "d6/d24/a19710.html#a921b2f67c417244310398bd93061d61c", null ],
+    [ "Register", "d6/d24/a19710.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
 ];

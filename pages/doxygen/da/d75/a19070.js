@@ -1,6 +1,10 @@
 var a19070 =
 [
-    [ "npc_eoe_wyrmrest_skytalonAI", "da/d75/a19070.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
-    [ "JustDied", "da/d75/a19070.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
-    [ "PassengerBoarded", "da/d75/a19070.html#aa3352276e87d805cc8722eb97d10ca46", null ]
+    [ "instance_nexus_InstanceMapScript", "da/d75/a19070.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
+    [ "Initialize", "da/d75/a19070.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
+    [ "OnCreatureCreate", "da/d75/a19070.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
+    [ "OnGameObjectCreate", "da/d75/a19070.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
+    [ "OnGameObjectRemove", "da/d75/a19070.html#ac148c67823484eee38ab6646dfb68530", null ],
+    [ "SetBossState", "da/d75/a19070.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
+    [ "SetData", "da/d75/a19070.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
 ];

@@ -1,8 +1,11 @@
 var a27718 =
 [
-    [ "HandleDummy", "de/dcb/a27718.html#ae5487bc9e4c7444468d076785af473ca", null ],
-    [ "Load", "de/dcb/a27718.html#a3bf16100687a002a0d3b95bea11dc90f", null ],
-    [ "PrepareSpellScript", "de/dcb/a27718.html#a8586b480a304f19741de62b606c9f456", null ],
-    [ "Register", "de/dcb/a27718.html#a4698eab378b8cf6d4aeb595b53a9df13", null ],
-    [ "Validate", "de/dcb/a27718.html#ab3e697ba71654bf9b67e1d1660b3a7ea", null ]
+    [ "icon", "de/dcb/a27718.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
+    [ "id", "de/dcb/a27718.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
+    [ "mapId", "de/dcb/a27718.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
+    [ "worldState", "de/dcb/a27718.html#a9d745d26316726c861cc5a242f6a4f57", null ],
+    [ "x", "de/dcb/a27718.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
+    [ "y", "de/dcb/a27718.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
+    [ "z", "de/dcb/a27718.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
+    [ "zoneId", "de/dcb/a27718.html#a0cc33089981237694ca550cba6793a3e", null ]
 ];

@@ -1,17 +1,13 @@
 var a14850 =
 [
-    [ "boss_eye_of_cthun", "d5/d3a/a14850.html#ac780d2e04a1fab6bd02db049bc6eaab2", null ],
-    [ "DamageTaken", "d5/d3a/a14850.html#a1a28da1eefd61303201d1f3150fe405f", null ],
-    [ "DoAction", "d5/d3a/a14850.html#a102aabe3ce6d89b6403760c11eac87ec", null ],
-    [ "JustDied", "d5/d3a/a14850.html#a4dec255ac49195d835390772a8f1f517", null ],
-    [ "JustEngagedWith", "d5/d3a/a14850.html#ae83ed5b888df95ad0b854f67192cbd4a", null ],
-    [ "JustSummoned", "d5/d3a/a14850.html#a5c037c1fa7adb8355242bf36beb9c61d", null ],
-    [ "MoveInLineOfSight", "d5/d3a/a14850.html#a4555b8c931f9d02b7bd3af1c1f569c6c", null ],
-    [ "Reset", "d5/d3a/a14850.html#a66aec1afcbaa46ede6be2ffc32b67faa", null ],
-    [ "ScheduleTask", "d5/d3a/a14850.html#a14e5b518f2c8534096b8a8059458636d", null ],
-    [ "_beamTarget", "d5/d3a/a14850.html#a2c217290b988d06397c52e3485a7dae8", null ],
-    [ "_eyeTentacleCounter", "d5/d3a/a14850.html#a559d6ba31ed626d8c42a00c230d647b8", null ],
-    [ "ClockWise", "d5/d3a/a14850.html#a701a24f3a06657467b8665d2e4216710", null ],
-    [ "DarkGlareAngle", "d5/d3a/a14850.html#ac71992a2cf223d65c0e06cd8bd440164", null ],
-    [ "DarkGlareTick", "d5/d3a/a14850.html#af546d3325ad456d335148cd7284f7cad", null ]
+    [ "npc_dirt_mound", "d5/d3a/a14850.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
+    [ "ChaseNewTarget", "d5/d3a/a14850.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
+    [ "EnterEvadeMode", "d5/d3a/a14850.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
+    [ "JustEngagedWith", "d5/d3a/a14850.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
+    [ "JustSummoned", "d5/d3a/a14850.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
+    [ "Reset", "d5/d3a/a14850.html#ae1662eb73f21351e07d00a717421de68", null ],
+    [ "SetData", "d5/d3a/a14850.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
+    [ "UpdateAI", "d5/d3a/a14850.html#a88447191070cf8b84df96db565eef48d", null ],
+    [ "_instance", "d5/d3a/a14850.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
+    [ "_ouroHealth", "d5/d3a/a14850.html#ac83391fa5069ae4574748f82d15e833d", null ]
 ];

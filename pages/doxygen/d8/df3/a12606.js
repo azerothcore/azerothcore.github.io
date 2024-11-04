@@ -1,7 +1,6 @@
 var a12606 =
 [
-    [ "npc_unworthy_initiate_anchorAI", "d8/df3/a12606.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
-    [ "GetGUID", "d8/df3/a12606.html#a83cca82e7d75231a6aa586f67dad766e", null ],
-    [ "SetGUID", "d8/df3/a12606.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
-    [ "prisonerGUID", "d8/df3/a12606.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
+    [ "npc_scarlet_minerAI", "df/d23/a12610.html", "df/d23/a12610" ],
+    [ "npc_scarlet_miner", "d8/df3/a12606.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
+    [ "GetAI", "d8/df3/a12606.html#abd2973972788ce9b39572aaa819d0690", null ]
 ];

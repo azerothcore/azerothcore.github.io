@@ -1,9 +1,7 @@
 var a20690 =
 [
-    [ "boss_yoggsaron_keeper", "d5/d2f/a20690.html#ad2098933656371b1bf80ec3ea859c418", null ],
-    [ "DoAction", "d5/d2f/a20690.html#a9e3d251810b55072458003356213ae15", null ],
-    [ "JustEngagedWith", "d5/d2f/a20690.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
-    [ "JustSummoned", "d5/d2f/a20690.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
-    [ "UpdateAI", "d5/d2f/a20690.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
-    [ "_summons", "d5/d2f/a20690.html#aa840eff5f3d8b24225046113737936b4", null ]
+    [ "HandleScriptEffect", "d5/d2f/a20690.html#a173ee086127655cdfcca507fd5b15b2e", null ],
+    [ "PrepareSpellScript", "d5/d2f/a20690.html#a005d47b18a820c35ec596b5539db94eb", null ],
+    [ "Register", "d5/d2f/a20690.html#a20a0d554e80707c1517422cb747f38e8", null ],
+    [ "Validate", "d5/d2f/a20690.html#a5ca44686e26def56adc2b98d88145235", null ]
 ];

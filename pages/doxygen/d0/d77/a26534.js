@@ -1,9 +1,6 @@
 var a26534 =
 [
-    [ "CalculateAmount", "d0/d77/a26534.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
-    [ "CheckProc", "d0/d77/a26534.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
-    [ "HandleProc", "d0/d77/a26534.html#a741570ba77f70d90b437198f63e565f3", null ],
-    [ "PrepareAuraScript", "d0/d77/a26534.html#af4e49e2362994f247c119c16c013e4b3", null ],
-    [ "Register", "d0/d77/a26534.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
-    [ "Validate", "d0/d77/a26534.html#a939d6815bcaee9b9d2b062313aac912a", null ]
+    [ "FilterTargets", "d0/d77/a26534.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
+    [ "PrepareSpellScript", "d0/d77/a26534.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
+    [ "Register", "d0/d77/a26534.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
 ];

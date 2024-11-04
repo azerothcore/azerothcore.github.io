@@ -1,6 +1,6 @@
 var a19730 =
 [
-    [ "npc_mimirons_infernoAI", "d7/de8/a19734.html", "d7/de8/a19734" ],
-    [ "npc_mimirons_inferno", "d3/dff/a19730.html#a7a531a65a179b5d56c888c055b72d269", null ],
-    [ "GetAI", "d3/dff/a19730.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
+    [ "achievement_flame_leviathan_towers", "d3/dff/a19730.html#a491d66bdd373b6044e406126719ef910", null ],
+    [ "OnCheck", "d3/dff/a19730.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
+    [ "_towerCount", "d3/dff/a19730.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
 ];

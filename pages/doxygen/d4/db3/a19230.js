@@ -1,11 +1,11 @@
 var a19230 =
 [
-    [ "npc_oculus_drakegiverAI", "d3/d50/a19234.html", "d3/d50/a19234" ],
-    [ "npc_oculus_drakegiver", "d4/db3/a19230.html#add34aba22fb2ca16f6f055dd77a2994b", null ],
-    [ "GetAI", "d4/db3/a19230.html#aa26a2b82c5e4076ce704d5884895d903", null ],
-    [ "OnGossipHello", "d4/db3/a19230.html#ac00d09d2d81121d562e3303704229c18", null ],
-    [ "OnGossipSelect", "d4/db3/a19230.html#ad0fc46e306080ccfe9988d416ef71e77", null ],
-    [ "RemoveEssence", "d4/db3/a19230.html#a70513d873111c590ca4e33cb446a4438", null ],
-    [ "StoreEssence", "d4/db3/a19230.html#ac8bbe890722aa924a7f0dee161d342c4", null ],
-    [ "openedMenu", "d4/db3/a19230.html#a650d1cd18700e29328e0fc97b1709f38", null ]
+    [ "npc_spark_of_ionarAI", "d4/db3/a19230.html#a738ceaa68f13c084fedee2add6fba99e", null ],
+    [ "AttackStart", "d4/db3/a19230.html#a7616d68c090aece19389b4c4842e30a3", null ],
+    [ "DamageTaken", "d4/db3/a19230.html#a42466b7c6af30727b8872bd2ddfddb6f", null ],
+    [ "DoAction", "d4/db3/a19230.html#a995efdb87fdd72eccfdce11d2af0201b", null ],
+    [ "MoveInLineOfSight", "d4/db3/a19230.html#ac87193fba7975147731ca3c92946c308", null ],
+    [ "Reset", "d4/db3/a19230.html#a4b4511ac7258c1182e428bddb2db6519", null ],
+    [ "UpdateAI", "d4/db3/a19230.html#ae4e881e4e66e49c124c0cf540e1d59b7", null ],
+    [ "returning", "d4/db3/a19230.html#a5f6ef34741a6d726c3fecd66d768bd67", null ]
 ];

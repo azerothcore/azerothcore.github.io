@@ -1,9 +1,6 @@
 var a18070 =
 [
-    [ "npc_icc_ice_sphereAI", "d0/dc5/a18070.html#a685f45e5cd15b005646e596ff61088e8", null ],
-    [ "DoAction", "d0/dc5/a18070.html#ac056ecdd93bc716964054f38ab81014e", null ],
-    [ "SelectNewTarget", "d0/dc5/a18070.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
-    [ "UpdateAI", "d0/dc5/a18070.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
-    [ "targetGUID", "d0/dc5/a18070.html#a3e202f9bde2a202d329066f7aab8897c", null ],
-    [ "timer", "d0/dc5/a18070.html#a42842e92926e18ef2589687d81a7d0d4", null ]
+    [ "npc_spirit_wardenAI", "d7/df2/a18074.html", "d7/df2/a18074" ],
+    [ "npc_spirit_warden", "d0/dc5/a18070.html#ab585d20eadb7876752d731702db44293", null ],
+    [ "GetAI", "d0/dc5/a18070.html#ab33ab494d7fee64eed7c75464ce60489", null ]
 ];

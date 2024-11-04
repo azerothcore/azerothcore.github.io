@@ -1,8 +1,6 @@
 var a22958 =
 [
-    [ "Absorb", "d5/df1/a22958.html#a1c054ce067a620e16611cbb9e784cee1", null ],
-    [ "CalculateAmount", "d5/df1/a22958.html#abd828dd3493339db9c0613e960792941", null ],
-    [ "PrepareAuraScript", "d5/df1/a22958.html#a1075139fc82cd8e1b30d4bc0f89fbfe0", null ],
-    [ "Register", "d5/df1/a22958.html#a85840e7d27a7ed256c45de87f4486d45", null ],
-    [ "Update", "d5/df1/a22958.html#afbf28fd4eb66899a424e0b542d561656", null ]
+    [ "OnPeriodic", "d5/df1/a22958.html#adfd5a3a6d9c16cd6acdb1f24e7874f20", null ],
+    [ "PrepareAuraScript", "d5/df1/a22958.html#a8444053fa146a4163ea905634be78dfc", null ],
+    [ "Register", "d5/df1/a22958.html#aad8868dc3d00fd3ea648abe7b536970d", null ]
 ];

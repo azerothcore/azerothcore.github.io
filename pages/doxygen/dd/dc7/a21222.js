@@ -1,11 +1,6 @@
 var a21222 =
 [
-    [ "npc_ichor_globuleAI", "dd/dc7/a21222.html#a4d581f89c8385276fd407c000af9e569", null ],
-    [ "AttackStart", "dd/dc7/a21222.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
-    [ "JustDied", "dd/dc7/a21222.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
-    [ "MoveInLineOfSight", "dd/dc7/a21222.html#af8ef8296512d57d934a171f1a5060e73", null ],
-    [ "SpellHit", "dd/dc7/a21222.html#a1396538a446545408e3c304f3e56400f", null ],
-    [ "UpdateAI", "dd/dc7/a21222.html#a6ff13c853583e5178fb3a690e17303de", null ],
-    [ "pInstance", "dd/dc7/a21222.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
-    [ "uiRangeCheck_Timer", "dd/dc7/a21222.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
+    [ "npc_azure_saboteurAI", "df/d91/a21226.html", "df/d91/a21226" ],
+    [ "npc_azure_saboteur", "dd/dc7/a21222.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
+    [ "GetAI", "dd/dc7/a21222.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
 ];

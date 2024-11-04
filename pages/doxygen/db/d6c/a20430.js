@@ -1,6 +1,6 @@
 var a20430 =
 [
-    [ "boss_thorim_sifAI", "d6/d5b/a20434.html", "d6/d5b/a20434" ],
-    [ "boss_thorim_sif", "db/d6c/a20430.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
-    [ "GetAI", "db/d6c/a20430.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
+    [ "npc_xt002_scrapbotAI", "d6/d5b/a20434.html", "d6/d5b/a20434" ],
+    [ "npc_xt002_scrapbot", "db/d6c/a20430.html#accfd75266d058af3856bdb625728c18d", null ],
+    [ "GetAI", "db/d6c/a20430.html#aa3639c32c94f0e031ba774e4eed659cd", null ]
 ];

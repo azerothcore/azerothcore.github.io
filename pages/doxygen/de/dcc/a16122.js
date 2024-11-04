@@ -1,11 +1,8 @@
 var a16122 =
 [
-    [ "npc_anubarak_spikeAI", "de/dcc/a16122.html#a1982ce33ce76e15d33bfcc222f5ad734", null ],
-    [ "DamageTaken", "de/dcc/a16122.html#a3b548e629d2c6217f21644136ca7ba4b", null ],
-    [ "DoAction", "de/dcc/a16122.html#ab583d97745ea69e95a1ecc0b68ac9878", null ],
-    [ "Reset", "de/dcc/a16122.html#af5b4a1227467d86d9dbba57362fdf360", null ],
-    [ "SelectNewTarget", "de/dcc/a16122.html#ab9ed5d53703464c488267f578a214fb8", null ],
-    [ "UpdateAI", "de/dcc/a16122.html#af8d6d840785c718d963c7b150cd12d9c", null ],
-    [ "events", "de/dcc/a16122.html#a52ff0006b5194edcb55f49e970a15ab8", null ],
-    [ "TargetGUID", "de/dcc/a16122.html#a2f7cbaf81e159035476ee9576a0e3990", null ]
+    [ "npc_toc_warlockAI", "de/dcc/a16122.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "de/dcc/a16122.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "de/dcc/a16122.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "de/dcc/a16122.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "de/dcc/a16122.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

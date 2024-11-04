@@ -1,6 +1,9 @@
 var a26314 =
 [
-    [ "OnApply", "d3/d08/a26314.html#a50ced6d5a475ccad9429dfbb05130394", null ],
-    [ "PrepareAuraScript", "d3/d08/a26314.html#abd02e129b1201449d473a66aea77d569", null ],
-    [ "Register", "d3/d08/a26314.html#a8c09775f642335252c6e548900dc9d3a", null ]
+    [ "Absorb", "d3/d08/a26314.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
+    [ "CalculateAmount", "d3/d08/a26314.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
+    [ "Load", "d3/d08/a26314.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
+    [ "PrepareAuraScript", "d3/d08/a26314.html#ac273b669dc396561d9ec8b523659363f", null ],
+    [ "Register", "d3/d08/a26314.html#a656f4770b0f7099f5926a8063f7d740c", null ],
+    [ "absorbPct", "d3/d08/a26314.html#a31d7ca52ace4e22652403292969baf55", null ]
 ];

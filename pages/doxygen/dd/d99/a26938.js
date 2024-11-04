@@ -1,5 +1,5 @@
 var a26938 =
 [
-    [ "AreaTrigger_at_legion_teleporter", "dd/d99/a26938.html#a2b648bd038f41025c19338367c696d25", null ],
-    [ "OnTrigger", "dd/d99/a26938.html#ae8239e5ad56d93627102dbd02989353d", null ]
+    [ "go_resonite_cask", "dd/d99/a26938.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "dd/d99/a26938.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

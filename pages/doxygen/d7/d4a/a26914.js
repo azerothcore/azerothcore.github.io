@@ -1,5 +1,5 @@
 var a26914 =
 [
-    [ "achievement_flirt_with_disaster_perf_check", "d7/d4a/a26914.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
-    [ "OnCheck", "d7/d4a/a26914.html#a15e620be2f37f930477ba94293dbaf63", null ]
+    [ "go_mistwhisper_treasure", "d7/d4a/a26914.html#a87c90caa9f6a628cb0eea3556b58449e", null ],
+    [ "OnGossipHello", "d7/d4a/a26914.html#a03b6b19faba005ced7ff921fdf8ab493", null ]
 ];

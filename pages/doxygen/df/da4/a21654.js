@@ -1,6 +1,7 @@
 var a21654 =
 [
-    [ "CheckCast", "df/da4/a21654.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
-    [ "PrepareSpellScript", "df/da4/a21654.html#abff433d61c798d17882292b6b0956a58", null ],
-    [ "Register", "df/da4/a21654.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
+    [ "HandleScriptEffect", "df/da4/a21654.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
+    [ "PrepareSpellScript", "df/da4/a21654.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
+    [ "Register", "df/da4/a21654.html#a278206630f9f45f2dba50b259a6115c1", null ],
+    [ "Validate", "df/da4/a21654.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
 ];

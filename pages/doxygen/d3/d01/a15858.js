@@ -1,6 +1,6 @@
 var a15858 =
 [
-    [ "npc_orb_carrierAI", "d4/dab/a15862.html", "d4/dab/a15862" ],
-    [ "npc_orb_carrier", "d3/d01/a15858.html#a69fdd8cb2f0cdf7cf6cf0bdabbc0cd03", null ],
-    [ "GetAI", "d3/d01/a15858.html#ab5b7bbffc43b840c686dc889805ea401", null ]
+    [ "PrepareSpellScript", "d3/d01/a15858.html#a743f910c3854e2c4e726e97c55fa7038", null ],
+    [ "Register", "d3/d01/a15858.html#a3b9b2ffa90f58a5da93fd369e11c6216", null ],
+    [ "RemoveNotBetween", "d3/d01/a15858.html#aba462e5b8e9336a508d19606f98750b5", null ]
 ];

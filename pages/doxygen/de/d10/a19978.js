@@ -1,7 +1,7 @@
 var a19978 =
 [
-    [ "HandleAfterEffectApply", "de/d10/a19978.html#a672526de2c71dcae79bacef88f34dc26", null ],
-    [ "PrepareAuraScript", "de/d10/a19978.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
-    [ "Register", "de/d10/a19978.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
-    [ "Validate", "de/d10/a19978.html#ab5833f6218760a7d9829b5d453436302", null ]
+    [ "HandleAfterEffectApply", "de/d10/a19978.html#adab765d78094eec673abce5140145267", null ],
+    [ "OnApply", "de/d10/a19978.html#aab4331a7a55dc6f713db02726ec22e3a", null ],
+    [ "PrepareAuraScript", "de/d10/a19978.html#acb827ae4299ae482d9b7f3fb09bbcc52", null ],
+    [ "Register", "de/d10/a19978.html#ac1007ce2ee5e046639829558855f0188", null ]
 ];

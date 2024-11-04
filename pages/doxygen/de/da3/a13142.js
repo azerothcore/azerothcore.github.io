@@ -1,7 +1,7 @@
 var a13142 =
 [
-    [ "HandleSchoolDamage", "de/da3/a13142.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
-    [ "PrepareSpellScript", "de/da3/a13142.html#a8063f3d669e07dc0768607feb9a2f763", null ],
-    [ "Register", "de/da3/a13142.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
-    [ "Validate", "de/da3/a13142.html#af90ae09274b0082bd8bd674ca43596f6", null ]
+    [ "npc_singularityAI", "de/da3/a13142.html#a3385a5ff1216daed82fb8bf7bb830b21", null ],
+    [ "Reset", "de/da3/a13142.html#ac4fa5b0fe7e1bf62c7deb9197b54f939", null ],
+    [ "UpdateAI", "de/da3/a13142.html#aafa3ceeeb22492ef1ead260a33833bd3", null ],
+    [ "events", "de/da3/a13142.html#a68c7f293c67b7d014411d8f847925ef4", null ]
 ];

@@ -1,10 +1,8 @@
 var a23174 =
 [
-    [ "npc_frozen_core", "db/dfe/a23174.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
-    [ "DoAction", "db/dfe/a23174.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
-    [ "Initialize", "db/dfe/a23174.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
-    [ "JustDied", "db/dfe/a23174.html#a476e086b0379e0cef3a44d250b020d6a", null ],
-    [ "UpdateAI", "db/dfe/a23174.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
-    [ "_events", "db/dfe/a23174.html#a3a5efec3279644ef713722e1556a3c84", null ],
-    [ "_instance", "db/dfe/a23174.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
+    [ "boss_the_black_stalker", "db/dfe/a23174.html#ac33519b374509cefe43b8e97701719ee", null ],
+    [ "JustEngagedWith", "db/dfe/a23174.html#ad118347103ec463a09492e81dbd61418", null ],
+    [ "JustSummoned", "db/dfe/a23174.html#a9e0299a99df83abb7de476a765b667b9", null ],
+    [ "SummonedCreatureDies", "db/dfe/a23174.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
+    [ "UpdateAI", "db/dfe/a23174.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
 ];

@@ -1,10 +1,8 @@
 var a24342 =
 [
-    [ "npc_pet_hunter_snake_trap", "d1/d80/a24342.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "d1/d80/a24342.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "d1/d80/a24342.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "d1/d80/a24342.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "d1/d80/a24342.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "d1/d80/a24342.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "d1/d80/a24342.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "CheckCast", "d1/d80/a24342.html#a94851a2b6a62138e28466317e9e88480", null ],
+    [ "HandleDummy", "d1/d80/a24342.html#a970684d219c99519512c437a8efd8d43", null ],
+    [ "PrepareSpellScript", "d1/d80/a24342.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
+    [ "Register", "d1/d80/a24342.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
+    [ "Validate", "d1/d80/a24342.html#a59cca008a97447e257bf24071301b366", null ]
 ];

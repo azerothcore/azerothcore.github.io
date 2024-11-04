@@ -1,8 +1,8 @@
 var a28138 =
 [
-    [ "ClassMask", "d6/df2/a28138.html#a563ba1618ffefa5470696e37f65c70d4", null ],
-    [ "Flags", "d6/df2/a28138.html#af89c32a22f018557fe016e0784a82384", null ],
-    [ "RaceMask", "d6/df2/a28138.html#acff47bf5c075d669f95b0d229674f9bc", null ],
-    [ "SkillID", "d6/df2/a28138.html#ab9237a8776aa854e0f81cf228a247ef0", null ],
-    [ "SkillTierID", "d6/df2/a28138.html#ab6153043461b71336e12b00957499075", null ]
+    [ "MapDifficulty", "d6/df2/a28138.html#abf514d1105541d5c5aaf52a91330a1e2", null ],
+    [ "MapDifficulty", "d6/df2/a28138.html#a227aec55b5b774076882ea34f70d5d88", null ],
+    [ "hasErrorMessage", "d6/df2/a28138.html#a8dd5436eaec4d0e67f8b41c8dd071148", null ],
+    [ "maxPlayers", "d6/df2/a28138.html#af82ad844bc4ac9585cb9df1963697e1b", null ],
+    [ "resetTime", "d6/df2/a28138.html#a7190131620b9eee0897ac7b4dd62949e", null ]
 ];

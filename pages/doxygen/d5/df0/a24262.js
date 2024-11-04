@@ -1,5 +1,6 @@
 var a24262 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d5/df0/a24262.html#ac9f42a8f6d87ab65e78d9a3951102705", null ],
-    [ "OnCharmed", "d5/df0/a24262.html#ada01d7ab11b7bf240cad932c96978a06", null ]
+    [ "HandlePeriodic", "d5/df0/a24262.html#adc387a1b001119b95179856c030853ad", null ],
+    [ "PrepareAuraScript", "d5/df0/a24262.html#a64eb2c68651171f1cbda3aa98d58e68e", null ],
+    [ "Register", "d5/df0/a24262.html#a1234c3e7b32d5bed67c8e9c2afc1fdc5", null ]
 ];

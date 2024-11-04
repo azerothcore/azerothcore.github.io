@@ -1,6 +1,6 @@
 var a13834 =
 [
-    [ "spell_threatening_gaze_AuraScript", "d8/da6/a13838.html", "d8/da6/a13838" ],
-    [ "spell_threatening_gaze", "dd/dab/a13834.html#a20ec140807d12fd521a4c8b8ea7a741a", null ],
-    [ "GetAuraScript", "dd/dab/a13834.html#a51aae442dabc59728c3ff8983b6db818", null ]
+    [ "boss_wushoolayAI", "dd/dab/a13834.html#a2ea62154c0932e5cd34bd4b858829ffe", null ],
+    [ "JustEngagedWith", "dd/dab/a13834.html#af519da543fff63a39a6fbe48f90f2f22", null ],
+    [ "UpdateAI", "dd/dab/a13834.html#acfaacee2a97212eb15056c1552b9e06b", null ]
 ];

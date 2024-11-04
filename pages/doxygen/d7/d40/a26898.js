@@ -1,5 +1,8 @@
 var a26898 =
 [
-    [ "achievement_sa_defense_of_the_ancients", "d7/d40/a26898.html#a678cffdece32710a42a92db0c092f3a5", null ],
-    [ "OnCheck", "d7/d40/a26898.html#af23e346f9b022f490b84c8081f847a2f", null ]
+    [ "FilterTargets", "d7/d40/a26898.html#a53c6d73f3588e50c2be7ce68595a704c", null ],
+    [ "HandleEffect", "d7/d40/a26898.html#a2edac19abf8aa765ada369e00cd7ea69", null ],
+    [ "PrepareSpellScript", "d7/d40/a26898.html#ae1e1ff5456cb7c558ff4fe415de6a691", null ],
+    [ "Register", "d7/d40/a26898.html#acb4d6abeb0e293728ae3dd0d248e0844", null ],
+    [ "Validate", "d7/d40/a26898.html#aabc063155fad404ffd044c9f79b88051", null ]
 ];

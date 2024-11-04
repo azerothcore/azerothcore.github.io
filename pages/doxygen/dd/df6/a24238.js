@@ -1,6 +1,6 @@
 var a24238 =
 [
-    [ "npc_slim", "dd/df6/a24238.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "dd/df6/a24238.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "dd/df6/a24238.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "HandleEffectRemove", "dd/df6/a24238.html#a9472b79a272aff36be657b66883d822f", null ],
+    [ "PrepareAuraScript", "dd/df6/a24238.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
+    [ "Register", "dd/df6/a24238.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
 ];

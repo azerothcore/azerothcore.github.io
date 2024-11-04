@@ -1,11 +1,10 @@
 var a22562 =
 [
-    [ "boss_blackheart_the_inciter", "da/d19/a22562.html#a772b2b4574fa6ccd445924193985859b", null ],
-    [ "EnterEvadeMode", "da/d19/a22562.html#aaf2c9d37b0af1db1d35af01923eca45b", null ],
-    [ "JustDied", "da/d19/a22562.html#a1e7ca1ade637766d4c6039c50e9c85f7", null ],
-    [ "JustEngagedWith", "da/d19/a22562.html#abeb0cc4ff2543531f7a7c7993559f1cb", null ],
-    [ "KilledUnit", "da/d19/a22562.html#ad7de71ea14e5be6e2b126edde1c78ab6", null ],
-    [ "Reset", "da/d19/a22562.html#add75633d1c04d0be91e7e80f28213917", null ],
-    [ "UpdateAI", "da/d19/a22562.html#a0648c4bbabf30efd706b973bf8028dbb", null ],
-    [ "InciteChaos", "da/d19/a22562.html#a640c5301b22a0bfef2c4bcac4556a992", null ]
+    [ "boss_illidari_council", "da/d19/a22562.html#a078c36be39b377f6d1cdbf061d70270d", null ],
+    [ "AttackStart", "da/d19/a22562.html#a260b15ec58164f17543aa044a89875a8", null ],
+    [ "DamageTaken", "da/d19/a22562.html#af8e88c307efaba392cc2a1d2f3862078", null ],
+    [ "DoAction", "da/d19/a22562.html#a6c3c57523ed2775ba553af1171b46463", null ],
+    [ "EnterEvadeMode", "da/d19/a22562.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
+    [ "MoveInLineOfSight", "da/d19/a22562.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
+    [ "UpdateAI", "da/d19/a22562.html#a8b30df956aa4ce1727756f1d19e151be", null ]
 ];

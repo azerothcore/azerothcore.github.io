@@ -1,6 +1,6 @@
 var a16734 =
 [
-    [ "npc_hor_raging_ghoulAI", "dd/d62/a16738.html", "dd/d62/a16738" ],
-    [ "npc_hor_raging_ghoul", "d6/d32/a16734.html#ad2130edf27295719c46dde14deefe5a4", null ],
-    [ "GetAI", "d6/d32/a16734.html#ab29cebad1d54d14ecf21bbd215dc2f2d", null ]
+    [ "npc_pos_leaderAI", "dd/d62/a16738.html", "dd/d62/a16738" ],
+    [ "npc_pos_leader", "d6/d32/a16734.html#a690956ba5c822f4cbea9c27c95d5924c", null ],
+    [ "GetAI", "d6/d32/a16734.html#a0c0b85bef0b04989dc80d861fa70f463", null ]
 ];

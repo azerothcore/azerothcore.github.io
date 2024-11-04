@@ -1,6 +1,7 @@
 var a14318 =
 [
-    [ "HandleScriptEffect", "d4/d35/a14318.html#aebd700897688157ca62405c92fe58680", null ],
-    [ "PrepareSpellScript", "d4/d35/a14318.html#a09e11d1938279a2302fb8805e71c6c36", null ],
-    [ "Register", "d4/d35/a14318.html#aa0679665ba2c496e0a5aa5f6864d7230", null ]
+    [ "PeriodicTick", "d4/d35/a14318.html#aa94e4d6a31a08959a5287b863737c2e2", null ],
+    [ "PrepareAuraScript", "d4/d35/a14318.html#a59a9c4dfe06859daac5bb69fa5d20e95", null ],
+    [ "Register", "d4/d35/a14318.html#a24058b120f4fa06b89f6d582c53a365a", null ],
+    [ "Validate", "d4/d35/a14318.html#a093b09be5abde91a1487d67a7a554d30", null ]
 ];

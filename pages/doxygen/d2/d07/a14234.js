@@ -1,8 +1,6 @@
 var a14234 =
 [
-    [ "OnApply", "d2/d07/a14234.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
-    [ "OnRemove", "d2/d07/a14234.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
-    [ "PrepareAuraScript", "d2/d07/a14234.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
-    [ "Register", "d2/d07/a14234.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
-    [ "Validate", "d2/d07/a14234.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
+    [ "PrepareAuraScript", "d2/d07/a14234.html#a80660b1417ab33edaf2c4cd517e10e30", null ],
+    [ "RecalculateHook", "d2/d07/a14234.html#af3952993947dfb24381083d21a9e64cb", null ],
+    [ "Register", "d2/d07/a14234.html#ab7f0aa924dfe8043e44cd794f72e4555", null ]
 ];

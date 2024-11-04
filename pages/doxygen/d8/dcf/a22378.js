@@ -1,13 +1,8 @@
 var a22378 =
 [
-    [ "OPvPCapturePointEP_NPT", "d8/dcf/a22378.html#a2cb0929c3acb81530a0bd7ea57bcc298", null ],
-    [ "ChangeState", "d8/dcf/a22378.html#a9e046ace6129ce67568ed7c15130b617", null ],
-    [ "FillInitialWorldStates", "d8/dcf/a22378.html#a92ab3651e036895f664c33d79a6ec747", null ],
-    [ "HandlePlayerEnter", "d8/dcf/a22378.html#ace643b7f7bc793934972c61c618045eb", null ],
-    [ "HandlePlayerLeave", "d8/dcf/a22378.html#a950cd355c808f40ca95c0e5a46bac0a2", null ],
-    [ "SendChangePhase", "d8/dcf/a22378.html#aef84a9917d5f40cfff48acb45ffdf0aa", null ],
-    [ "SummonGO", "d8/dcf/a22378.html#a08a54abf3668074b5878c165bd2f8ddd", null ],
-    [ "UpdateTowerState", "d8/dcf/a22378.html#ad8cfefcc567346273914e8039b039835", null ],
-    [ "m_SummonedGOSideId", "d8/dcf/a22378.html#aa034240d169c9ab7276786bb188abc70", null ],
-    [ "m_TowerState", "d8/dcf/a22378.html#a703b68024362d13ceaf9012202b72e7d", null ]
+    [ "boss_tavarok", "d8/dcf/a22378.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
+    [ "JustDied", "d8/dcf/a22378.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
+    [ "JustEngagedWith", "d8/dcf/a22378.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
+    [ "KilledUnit", "d8/dcf/a22378.html#a2c99df9457c548ee562fde920592ea88", null ],
+    [ "Reset", "d8/dcf/a22378.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
 ];

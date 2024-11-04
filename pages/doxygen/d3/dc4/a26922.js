@@ -1,8 +1,6 @@
 var a26922 =
 [
-    [ "CharacterActionIpLogger", "d3/dc4/a26922.html#a39861f7348a79031a8215b435ba81059", null ],
-    [ "CharacterIPLogAction", "d3/dc4/a26922.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
-    [ "OnCreate", "d3/dc4/a26922.html#ae25875eed131046444874c4109619748", null ],
-    [ "OnLogin", "d3/dc4/a26922.html#af430f10fe536ac40df50bc9424a7decb", null ],
-    [ "OnLogout", "d3/dc4/a26922.html#aca289740b022dcaa0ae681327785cb72", null ]
+    [ "go_witherbark_totem_bundleAI", "d3/dc4/a26922.html#a955625e2315008a2e36936d44f825060", null ],
+    [ "UpdateAI", "d3/dc4/a26922.html#af688bab2dc3d938951adb303e8b8d88b", null ],
+    [ "_timer", "d3/dc4/a26922.html#a509e6d8401380c326a0f565a6b903d7a", null ]
 ];

@@ -1,6 +1,9 @@
 var a22790 =
 [
-    [ "boss_essence_of_sufferingAI", "d6/db8/a22794.html", "d6/db8/a22794" ],
-    [ "boss_essence_of_suffering", "df/dff/a22790.html#a1237f428657f0e9a0218695264358384", null ],
-    [ "GetAI", "df/dff/a22790.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
+    [ "HandleEffectApply", "df/dff/a22790.html#aca8ff864832d30e45bccfca12256560a", null ],
+    [ "HandleEffectRemove", "df/dff/a22790.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
+    [ "Load", "df/dff/a22790.html#a3b9838f26673ce344ca40f9f487ef878", null ],
+    [ "PrepareAuraScript", "df/dff/a22790.html#a79b93c86a01d31d08cba15436856b794", null ],
+    [ "Register", "df/dff/a22790.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
+    [ "_turtleSet", "df/dff/a22790.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
 ];

@@ -1,15 +1,12 @@
 var a14610 =
 [
-    [ "npc_time_rift", "d5/d21/a14610.html#ab553bcc40699a63310feaaa7b1bd2604", null ],
-    [ "DoSelectSummon", "d5/d21/a14610.html#af2932c60efaea64d27d52b118b9a8095", null ],
-    [ "DoSummonAtRift", "d5/d21/a14610.html#a6cb4717848efe7e5e0b0113a9ff7dcb5", null ],
-    [ "JustSummoned", "d5/d21/a14610.html#a1d96b081db3cb2a9c40f5adb1c9b109d", null ],
-    [ "Reset", "d5/d21/a14610.html#ad08ca716f120a45ee1688e03d2049aba", null ],
-    [ "SummonedCreatureDies", "d5/d21/a14610.html#ae0ebd0268454ac0cac83235afd7f6363", null ],
-    [ "UpdateAI", "d5/d21/a14610.html#ab5924378c7978c6fae95f9861040c63d", null ],
-    [ "_events", "d5/d21/a14610.html#a12ffd459f8d63f299269da5b65f60128", null ],
-    [ "_instance", "d5/d21/a14610.html#a8eab9c3011c885321d59e2884318d0e8", null ],
-    [ "_riftKeeperGUID", "d5/d21/a14610.html#ad554d8266ded70cadd8c00a3ff5a3321", null ],
-    [ "waveMobIndex", "d5/d21/a14610.html#aa312223ece9f0f1c4ac2861aed3988a9", null ],
-    [ "waveMobs", "d5/d21/a14610.html#a7872706f9b5bdee7e6ca2d94e39e592f", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "d5/d21/a14610.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
+    [ "GetData", "d5/d21/a14610.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
+    [ "Initialize", "d5/d21/a14610.html#aed9ab9542badb0296ca0660c39541cb8", null ],
+    [ "OnGameObjectCreate", "d5/d21/a14610.html#a567ac5d9a17514ede5b84c5d78204072", null ],
+    [ "ReadSaveDataMore", "d5/d21/a14610.html#a7d6fefed563b0b9763b9c63136c65952", null ],
+    [ "SetData", "d5/d21/a14610.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
+    [ "WriteSaveDataMore", "d5/d21/a14610.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
+    [ "_firesState", "d5/d21/a14610.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
+    [ "_gongPhase", "d5/d21/a14610.html#a23485a35f0aa2f2ffad53398882d163a", null ]
 ];

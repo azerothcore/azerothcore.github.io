@@ -1,7 +1,9 @@
 var a23802 =
 [
-    [ "boss_gatewatcher_iron_hand", "d8/d76/a23802.html#aef70e713007af38b510f0a3b8c082b24", null ],
-    [ "JustDied", "d8/d76/a23802.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
-    [ "JustEngagedWith", "d8/d76/a23802.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
-    [ "KilledUnit", "d8/d76/a23802.html#a1973142412b4094dbd9fa51600741148", null ]
+    [ "npc_fel_guard_houndAI", "d8/d76/a23802.html#af8b3a9b56e4bdf8d8b654ecccd096651", null ],
+    [ "MovementInform", "d8/d76/a23802.html#a127a0d7b61fde64c0ced52192f438f12", null ],
+    [ "Reset", "d8/d76/a23802.html#ab979c3602897b1148ffd5d4a81941197", null ],
+    [ "UpdateAI", "d8/d76/a23802.html#a97a59eec672d7dfe36264d34b922d0c8", null ],
+    [ "checkTimer", "d8/d76/a23802.html#ad22bb6efafb4396cd0137c1384240029", null ],
+    [ "helboarGUID", "d8/d76/a23802.html#aadcf9b51dbcaa1e62b6619b89d865814", null ]
 ];

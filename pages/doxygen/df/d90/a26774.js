@@ -1,6 +1,5 @@
 var a26774 =
 [
-    [ "HandleRemove", "df/d90/a26774.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
-    [ "PrepareAuraScript", "df/d90/a26774.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
-    [ "Register", "df/d90/a26774.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
+    [ "achievement_killed_exp_or_honor_target", "df/d90/a26774.html#aad432878c97af698dd1cc4019d716281", null ],
+    [ "OnCheck", "df/d90/a26774.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
 ];

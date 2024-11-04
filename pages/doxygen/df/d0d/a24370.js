@@ -1,6 +1,7 @@
 var a24370 =
 [
-    [ "FilterTargets", "df/d0d/a24370.html#adab73c94c659d7421c9c6887d956cd83", null ],
-    [ "PrepareSpellScript", "df/d0d/a24370.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
-    [ "Register", "df/d0d/a24370.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
+    [ "CalculateAmount", "df/d0d/a24370.html#ad99a4176d27864280a79ac548a57a4c8", null ],
+    [ "Load", "df/d0d/a24370.html#aeafec50b06b5dd2f69ca6ab4096aea4d", null ],
+    [ "PrepareAuraScript", "df/d0d/a24370.html#a76528513f0f6728e73085a3d403c3e59", null ],
+    [ "Register", "df/d0d/a24370.html#a4d09be7d33755ae719138d079884e281", null ]
 ];

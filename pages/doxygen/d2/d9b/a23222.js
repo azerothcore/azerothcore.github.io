@@ -1,7 +1,8 @@
 var a23222 =
 [
-    [ "HandleProc", "d2/d9b/a23222.html#a03b2be5894d489a6021aff2744aee0e0", null ],
-    [ "PrepareAuraScript", "d2/d9b/a23222.html#a0ff401cd6d8e32ff458b7383b76a92a1", null ],
-    [ "Register", "d2/d9b/a23222.html#a804e1bc3d570d28cb2e06155054f3169", null ],
-    [ "Validate", "d2/d9b/a23222.html#a8d18e9ed9fa851f1c4d36c1f0bed8fcb", null ]
+    [ "ApplyStun", "d2/d9b/a23222.html#a5a5b921dc45418485919e599e80f8ca8", null ],
+    [ "HandleScriptEffect", "d2/d9b/a23222.html#a32619710179250a6a0b408856a888153", null ],
+    [ "PrepareSpellScript", "d2/d9b/a23222.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
+    [ "Register", "d2/d9b/a23222.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
+    [ "Validate", "d2/d9b/a23222.html#a66d91a87078c663903cd836344eec867", null ]
 ];

@@ -1,7 +1,7 @@
 var a13334 =
 [
-    [ "npc_ranger_lilatha", "df/d68/a13334.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "df/d68/a13334.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "df/d68/a13334.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "df/d68/a13334.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_deathstalker_erlandAI", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
+    [ "npc_deathstalker_erland", "df/d68/a13334.html#ad49faf068e982f245f0d1e21f0700c40", null ],
+    [ "GetAI", "df/d68/a13334.html#ab59235f212ddb985056cb8e32719b723", null ],
+    [ "OnQuestAccept", "df/d68/a13334.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
 ];

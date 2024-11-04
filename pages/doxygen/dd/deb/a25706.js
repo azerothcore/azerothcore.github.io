@@ -1,7 +1,7 @@
 var a25706 =
 [
-    [ "HandleDummy", "dd/deb/a25706.html#a5d95d2329c750692d9a4facae9ddf781", null ],
-    [ "PrepareSpellScript", "dd/deb/a25706.html#a2699b3bc033bdd896d0f9a4b3c067354", null ],
-    [ "Register", "dd/deb/a25706.html#a8d83f9e52ba19f75647e99760439c380", null ],
-    [ "Validate", "dd/deb/a25706.html#a24610d5652ef85e883b1bac9256b30f7", null ]
+    [ "CalcPeriodic", "dd/deb/a25706.html#a404e5309016cfcaa3071c0216978699e", null ],
+    [ "PrepareAuraScript", "dd/deb/a25706.html#a9675e5c417e5e9a5a358a3ffb371073e", null ],
+    [ "Register", "dd/deb/a25706.html#a60ffc059d00fd58abe7e758f06bbf35c", null ],
+    [ "AuraEffectHandleModes", "dd/deb/a25706.html#aa66ee788b7e09815b827a0f4ac954e1f", null ]
 ];

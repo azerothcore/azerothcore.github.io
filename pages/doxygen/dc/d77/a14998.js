@@ -1,10 +1,11 @@
 var a14998 =
 [
-    [ "npc_anubisath_defender", "dc/d77/a14998.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
-    [ "DamageTaken", "dc/d77/a14998.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
-    [ "JustDied", "dc/d77/a14998.html#a225ca1b3144953bcc5890caf0d32b606", null ],
-    [ "JustEngagedWith", "dc/d77/a14998.html#a6505fcae0e99cae44750f16daddc3309", null ],
-    [ "Reset", "dc/d77/a14998.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
-    [ "UpdateAI", "dc/d77/a14998.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
-    [ "_enraged", "dc/d77/a14998.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ]
+    [ "npc_depth_chargeAI", "dc/d77/a14998.html#a088848c16418964973107e125c20f508", null ],
+    [ "AttackStart", "dc/d77/a14998.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
+    [ "JustEngagedWith", "dc/d77/a14998.html#a90cc6eab8b63588f2567f59941eafc59", null ],
+    [ "MoveInLineOfSight", "dc/d77/a14998.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
+    [ "Reset", "dc/d77/a14998.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
+    [ "UpdateAI", "dc/d77/a14998.html#af34e55c3aee40f840edf695adc06495e", null ],
+    [ "WeMustDie", "dc/d77/a14998.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
+    [ "WeMustDieTimer", "dc/d77/a14998.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
 ];

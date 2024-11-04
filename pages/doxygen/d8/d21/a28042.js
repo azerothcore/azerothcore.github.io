@@ -1,10 +1,7 @@
 var a28042 =
 [
-    [ "ID", "d8/d21/a28042.html#a906c42770a619884f08b67e2870bff93", null ],
-    [ "reqarenapoints", "d8/d21/a28042.html#a5d45007a832d6120e29c7821c07646de", null ],
-    [ "reqarenaslot", "d8/d21/a28042.html#ad1e4b8f94a743bac02bbadbc8d62ad0b", null ],
-    [ "reqhonorpoints", "d8/d21/a28042.html#aca509fb7e234bc54632ff988bf37e6ad", null ],
-    [ "reqitem", "d8/d21/a28042.html#a9cba8872c909260a55dcfdf7f4726899", null ],
-    [ "reqitemcount", "d8/d21/a28042.html#a615c5fe0966b5054303ebe1290adc9b6", null ],
-    [ "reqpersonalarenarating", "d8/d21/a28042.html#af4ff8d55234b03637e4b2fbd10778e97", null ]
+    [ "ID", "d8/d21/a28042.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
+    [ "RadiusMax", "d8/d21/a28042.html#ab82c1acb9309b17104958182d80b01d1", null ],
+    [ "RadiusMin", "d8/d21/a28042.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
+    [ "RadiusPerLevel", "d8/d21/a28042.html#a74bb59afb808af45ceff6367468fca1e", null ]
 ];

@@ -1,6 +1,6 @@
 var a22586 =
 [
-    [ "PrepareSpellScript", "db/d7d/a22586.html#abd6b61e7efbed1427b7603640ac7d474", null ],
-    [ "RecalculateDamage", "db/d7d/a22586.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
-    [ "Register", "db/d7d/a22586.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
+    [ "CalculateAmount", "db/d7d/a22586.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
+    [ "PrepareAuraScript", "db/d7d/a22586.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
+    [ "Register", "db/d7d/a22586.html#a0d2e97463f268892965e307628aaa931", null ]
 ];

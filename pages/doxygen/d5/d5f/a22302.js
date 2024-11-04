@@ -1,14 +1,17 @@
 var a22302 =
 [
-    [ "npc_finklesteinAI", "d5/d5f/a22302.html#a075481689af110f8c20cd5ca13258ba3", null ],
-    [ "ClearPlayerOnTask", "d5/d5f/a22302.html#ad6ec9c020ba2f8eae9250a89fbe9490d", null ],
-    [ "GetTaskAura", "d5/d5f/a22302.html#ae3a1b7fbdd9aba64e8f853f53d9c261c", null ],
-    [ "GetTaskCounter", "d5/d5f/a22302.html#a240e8f556176b9571bd08407276402be", null ],
-    [ "GetTaskItemEntry", "d5/d5f/a22302.html#a08a3005db6d192663a835b9ee192352b", null ],
-    [ "GetTaskItemName", "d5/d5f/a22302.html#adce990629aa1833dc07c7dbb1297cead", null ],
-    [ "IsPlayerOnTask", "d5/d5f/a22302.html#ad815f0d79ab73d95e9fbf3a659aea2ce", null ],
-    [ "RightClickCauldron", "d5/d5f/a22302.html#a71fea2fdf5079fbc1d8baa72e7e4ae82", null ],
-    [ "SelectRandomCode", "d5/d5f/a22302.html#a16c9ddf6f2f858f4147a0188e0df7250", null ],
-    [ "StartNextTask", "d5/d5f/a22302.html#a89c5c3a90fad1719bc4d2e2cb611e8c7", null ],
-    [ "questList", "d5/d5f/a22302.html#a5c3a3237579721b94dd433841b83bb02", null ]
+    [ "OutdoorPvPSI", "d5/d5f/a22302.html#a89bf2d913b7d68ee921ef4b9aeea61e1", null ],
+    [ "FillInitialWorldStates", "d5/d5f/a22302.html#a0bf1688569e00431dcb128113b35d0f5", null ],
+    [ "HandleAreaTrigger", "d5/d5f/a22302.html#a7c6d70d7a611752456c55d13420ff840", null ],
+    [ "HandleCustomSpell", "d5/d5f/a22302.html#a10853a2f5766b6fc75044a20b281a198", null ],
+    [ "HandleDropFlag", "d5/d5f/a22302.html#a9238a5007253d84d66192bd340d8311a", null ],
+    [ "HandlePlayerEnterZone", "d5/d5f/a22302.html#ad2cabd461406a61e40411850b3d31c0c", null ],
+    [ "HandlePlayerLeaveZone", "d5/d5f/a22302.html#aa06088b1d80072577e6fc7653a214512", null ],
+    [ "SendRemoveWorldStates", "d5/d5f/a22302.html#aae7deda0662b28f6fc0e16115a65304b", null ],
+    [ "SetupOutdoorPvP", "d5/d5f/a22302.html#a401da5bef2350c4eb21b249b4f8b3e40", null ],
+    [ "Update", "d5/d5f/a22302.html#a56bda08a795a4b0cd1c52ec448920fac", null ],
+    [ "UpdateWorldState", "d5/d5f/a22302.html#a81f4362ece83f37f14471926e9a85fb3", null ],
+    [ "m_Gathered_A", "d5/d5f/a22302.html#ab532337ab7e66e1489221e3189e48bac", null ],
+    [ "m_Gathered_H", "d5/d5f/a22302.html#abcd36fe918edbbea387573bd5fab89e7", null ],
+    [ "m_LastController", "d5/d5f/a22302.html#a05c33cec2d0c1a9fe31cb3d9ba3f3c1c", null ]
 ];

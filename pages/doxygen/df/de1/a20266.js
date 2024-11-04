@@ -1,12 +1,11 @@
 var a20266 =
 [
-    [ "npc_ulduar_proximity_mineAI", "df/de1/a20266.html#aa3001a71c8a298be688631d618745495", null ],
-    [ "AttackStart", "df/de1/a20266.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
-    [ "CanAIAttack", "df/de1/a20266.html#a0216f41bf596eb43a9b9eea13152d262", null ],
-    [ "MoveInLineOfSight", "df/de1/a20266.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
-    [ "SpellHitTarget", "df/de1/a20266.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
-    [ "UpdateAI", "df/de1/a20266.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
-    [ "exploded", "df/de1/a20266.html#a1706ff0cfd7192040c32f13a37610c43", null ],
-    [ "timer", "df/de1/a20266.html#a4c743646055b4c95bf379a751eb5892e", null ],
-    [ "timer2", "df/de1/a20266.html#a446b7658fa4c165f43947a05562827b2", null ]
+    [ "npc_ulduar_expedition_engineerAI", "df/de1/a20266.html#a48e29edad38f8ecbab54579203c93044", null ],
+    [ "Reset", "df/de1/a20266.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
+    [ "SetData", "df/de1/a20266.html#a31db1ae61777b8f1a38d381e785ce158", null ],
+    [ "UpdateAI", "df/de1/a20266.html#ab6d29aaae95038282fece78479448459", null ],
+    [ "fixingGUID", "df/de1/a20266.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
+    [ "pInstance", "df/de1/a20266.html#a6b858d46eda05493ec0cac22e174854c", null ],
+    [ "timer", "df/de1/a20266.html#a926b343da3d3953d386b18f24bc72867", null ],
+    [ "working", "df/de1/a20266.html#ab8e436472efd91f2d400c02c1b500746", null ]
 ];

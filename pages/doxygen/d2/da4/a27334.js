@@ -1,6 +1,6 @@
 var a27334 =
 [
-    [ "npc_preciousAI", "d3/dc5/a27338.html", "d3/dc5/a27338" ],
-    [ "npc_precious", "d2/da4/a27334.html#a3c3ad9da13de64498cabc8e252e99ab2", null ],
-    [ "GetAI", "d2/da4/a27334.html#a754ad85c8b1942b400a47c28297bad62", null ]
+    [ "npc_steam_tonkAI", "d3/dc5/a27338.html", "d3/dc5/a27338" ],
+    [ "npc_steam_tonk", "d2/da4/a27334.html#a19731e7f1bc6fe0220e8c28619ff7c50", null ],
+    [ "GetAI", "d2/da4/a27334.html#a38e51485a3610a204a45677fce15c943", null ]
 ];

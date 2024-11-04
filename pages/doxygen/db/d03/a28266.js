@@ -1,10 +1,5 @@
 var a28266 =
 [
-    [ "area_id", "db/d03/a28266.html#acbd77950bf9548d266e568640cf38458", null ],
-    [ "map_id", "db/d03/a28266.html#abeabdc3d225dcd6626a641d6792d7ff8", null ],
-    [ "virtual_map_id", "db/d03/a28266.html#afe75f114a3aa74a0589cc575e372f1b1", null ],
-    [ "x1", "db/d03/a28266.html#a78967fef40841f705c2564a177cb36f3", null ],
-    [ "x2", "db/d03/a28266.html#a037dca812715df0b4f2551f8684b537c", null ],
-    [ "y1", "db/d03/a28266.html#a7f90073656e1cd00a88add9f8d881d11", null ],
-    [ "y2", "db/d03/a28266.html#ad8e0164952e5565488d5443f269ec79e", null ]
+    [ "Deep", "db/d03/a28266.html#a9efcd2f19d9701713666f1ad2285d992", null ],
+    [ "Fishable", "db/d03/a28266.html#a929299daf6bc46aa775b9b0fa055c9e2", null ]
 ];

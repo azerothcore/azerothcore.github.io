@@ -1,8 +1,10 @@
 var a27294 =
 [
-    [ "trigger_periodicAI", "d1/d8c/a27294.html#a696d62fed28de9c67827dad111cf320b", null ],
-    [ "UpdateAI", "d1/d8c/a27294.html#aed31d60765eff7dd11790714e28e729e", null ],
-    [ "interval", "d1/d8c/a27294.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
-    [ "spell", "d1/d8c/a27294.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
-    [ "timer", "d1/d8c/a27294.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
+    [ "npc_dancing_flamesAI", "d1/d8c/a27294.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
+    [ "JustEngagedWith", "d1/d8c/a27294.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
+    [ "ReceiveEmote", "d1/d8c/a27294.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
+    [ "Reset", "d1/d8c/a27294.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
+    [ "UpdateAI", "d1/d8c/a27294.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
+    [ "Active", "d1/d8c/a27294.html#aa79036bed206327847bf5ad2e768e8f6", null ],
+    [ "CanIteract", "d1/d8c/a27294.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
 ];

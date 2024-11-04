@@ -1,8 +1,8 @@
 var a19062 =
 [
-    [ "npc_alexstraszaAI", "d7/d3e/a19062.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
-    [ "AttackStart", "d7/d3e/a19062.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
-    [ "MoveInLineOfSight", "d7/d3e/a19062.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
-    [ "UpdateAI", "d7/d3e/a19062.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
-    [ "events", "d7/d3e/a19062.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
+    [ "npc_crystal_spikeAI", "d7/d3e/a19062.html#ac30dc3941c92fa0cda6639864f803a55", null ],
+    [ "Reset", "d7/d3e/a19062.html#ad8889e7a77daba18e3e5506855988537", null ],
+    [ "UpdateAI", "d7/d3e/a19062.html#a158ca019d06e045358ba305bd6e20bc1", null ],
+    [ "_damageTimer", "d7/d3e/a19062.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
+    [ "_gameObjectGUID", "d7/d3e/a19062.html#acdeacf285b083f4c802295d8d0583ed7", null ]
 ];

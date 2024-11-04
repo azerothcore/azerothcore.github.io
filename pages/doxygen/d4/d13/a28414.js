@@ -1,6 +1,9 @@
 var a28414 =
 [
-    [ "OffsetAttributes", "d4/d13/a28414.html#a072918c298b316823e784c2e5779be2a", null ],
-    [ "OffsetInstances", "d4/d13/a28414.html#abb618c81b9ee9de03c3d4cf8689f5cd4", null ],
-    [ "used", "d4/d13/a28414.html#a20a458e613639ea26255dd772824a642", null ]
+    [ "Flags", "d4/d13/a28414.html#a4471edebd870d3dfaaf34292341e5f60", null ],
+    [ "Id", "d4/d13/a28414.html#a6a25126338a8c3aa7d36c02c979639dd", null ],
+    [ "Position", "d4/d13/a28414.html#a8fa9a49b3195ffe74dcf1872d0fb05c1", null ],
+    [ "Rotation", "d4/d13/a28414.html#a986c3ea05d510db03ec969f0d116fb34", null ],
+    [ "Scale", "d4/d13/a28414.html#af8bcb02c541b9261dbf879353ba6893a", null ],
+    [ "UniqueId", "d4/d13/a28414.html#a374c9893af515badc54b22b2a4d5e024", null ]
 ];

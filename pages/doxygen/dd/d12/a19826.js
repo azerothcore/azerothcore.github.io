@@ -1,6 +1,6 @@
 var a19826 =
 [
-    [ "CheckAreaTarget", "dd/d12/a19826.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
-    [ "PrepareAuraScript", "dd/d12/a19826.html#a921b2f67c417244310398bd93061d61c", null ],
-    [ "Register", "dd/d12/a19826.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
+    [ "boss_vezaxAI", "d5/dc2/a19830.html", "d5/dc2/a19830" ],
+    [ "boss_vezax", "dd/d12/a19826.html#af778f9ef3070598f8ca5109b2f6f0f82", null ],
+    [ "GetAI", "dd/d12/a19826.html#a55c7f1ee93252768ba02e8d0d4634eb9", null ]
 ];

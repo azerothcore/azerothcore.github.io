@@ -1,6 +1,7 @@
 var a29284 =
 [
-    [ "go_soulwellAI", "d3/d4d/a29288.html", "d3/d4d/a29288" ],
-    [ "go_soulwell", "d2/de4/a29284.html#a3747499bd05326ef6f7024c0ee91a4ce", null ],
-    [ "GetAI", "d2/de4/a29284.html#a0c8b8cf09c26ad08c1c6dbb1a0c57861", null ]
+    [ "checkDirectories", "d2/de4/a29284.html#ab24803c49e5019c665aa545cfd2d32dc", null ],
+    [ "finish", "d2/de4/a29284.html#a32e7545f3a98690aeb284a4eb66f272d", null ],
+    [ "handleArgs", "d2/de4/a29284.html#a9da584ba5e81bed140f90563dd648d38", null ],
+    [ "main", "d2/de4/a29284.html#a3c04138a5bfe5d72780bb7e82a18e627", null ]
 ];

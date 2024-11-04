@@ -1,6 +1,8 @@
 var a12810 =
 [
-    [ "npc_scholomance_occultistAI", "d5/d06/a12814.html", "d5/d06/a12814" ],
-    [ "npc_scholomance_occultist", "d3/de0/a12810.html#adf100912a15ff8edf056efa7eebd13ff", null ],
-    [ "GetAI", "d3/de0/a12810.html#a5da2b011ec4859523c1f713dc18e4d5b", null ]
+    [ "FilterTargets", "d3/de0/a12810.html#a4c7627dc20c4dafcee4d6faf97d3914e", null ],
+    [ "HandleScript", "d3/de0/a12810.html#aecb62c147905d0a4fe60086b8028df0b", null ],
+    [ "PrepareSpellScript", "d3/de0/a12810.html#a84ed93d5235781d9d53a47fff39d3ad2", null ],
+    [ "Register", "d3/de0/a12810.html#a2832f131d99608923ade8070e17da86d", null ],
+    [ "Validate", "d3/de0/a12810.html#a1a510f9cf49df69c5904cb79c8cdc860", null ]
 ];

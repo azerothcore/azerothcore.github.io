@@ -1,5 +1,8 @@
 var a24178 =
 [
-    [ "npc_shattrath_daily_quest", "d5/dd0/a24178.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
-    [ "DoAction", "d5/dd0/a24178.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
+    [ "npc_pet_gen_wind_rider_cub", "d5/dd0/a24178.html#a17e1f3155b9a9864459e48d1cd11c6a6", null ],
+    [ "UpdateAI", "d5/dd0/a24178.html#a534d122522d553e106e6c7729d6c55db", null ],
+    [ "checkTimer", "d5/dd0/a24178.html#a39fcfc5f5d9a630180713512db778b32", null ],
+    [ "checkTimer2", "d5/dd0/a24178.html#aabeaf7a9b5b77df540e1111950860e98", null ],
+    [ "isFlying", "d5/dd0/a24178.html#a57124f8172bd15a5e6c708edff41dc2f", null ]
 ];

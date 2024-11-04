@@ -1,9 +1,9 @@
 var a24326 =
 [
-    [ "npc_pet_gen_toxic_wasteling", "df/d52/a24326.html#a550a1a9324f605b1a9fd715571f819b7", null ],
-    [ "EnterEvadeMode", "df/d52/a24326.html#abe25deca7fd1c319085995657d62f22a", null ],
-    [ "MovementInform", "df/d52/a24326.html#aec73d567c3bd178ffee3bdece83a409e", null ],
-    [ "Reset", "df/d52/a24326.html#a06a8be653c8685aaf28aee1d1d3ae114", null ],
-    [ "UpdateAI", "df/d52/a24326.html#a22f96d995fcc722c0e95c4f5692cc128", null ],
-    [ "checkTimer", "df/d52/a24326.html#aafe402e0443bd39a1b7aa274d95edad6", null ]
+    [ "HandleAfterHit", "df/d52/a24326.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
+    [ "Load", "df/d52/a24326.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
+    [ "PrepareSpellScript", "df/d52/a24326.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
+    [ "Register", "df/d52/a24326.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
+    [ "Validate", "df/d52/a24326.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
+    [ "_executed", "df/d52/a24326.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
 ];

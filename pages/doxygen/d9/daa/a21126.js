@@ -1,12 +1,11 @@
 var a21126 =
 [
-    [ "boss_koralonAI", "d9/daa/a21126.html#a3f5bc42a141011e543d1215eac09dc74", null ],
-    [ "AttackStart", "d9/daa/a21126.html#aa84e6e9a302172e134163cd07ca57864", null ],
-    [ "JustDied", "d9/daa/a21126.html#a102c10792d9e7df61d920b5a43f58e51", null ],
-    [ "JustEngagedWith", "d9/daa/a21126.html#aa7503618dd09e0aebac44394595f4715", null ],
-    [ "Reset", "d9/daa/a21126.html#a0e57ee42e45e55b1a69ac7cb0f1d2666", null ],
-    [ "UpdateAI", "d9/daa/a21126.html#aa944aad2eb68adc917cba743d1e530c7", null ],
-    [ "events", "d9/daa/a21126.html#abc8b9a8759b0e3e95d66c16615f621f5", null ],
-    [ "pInstance", "d9/daa/a21126.html#a4bdea1a9d7e46d4ef71cd43ce969e59c", null ],
-    [ "rotateTimer", "d9/daa/a21126.html#ad4b766094f28e940b0b7971d6dadc277", null ]
+    [ "npc_vh_void_sentryAI", "d9/daa/a21126.html#a312f4bbc07e6d786e85c2b4e89d36344", null ],
+    [ "DoAction", "d9/daa/a21126.html#a0bc95eea54b5cdc16a4d3f588f3ff900", null ],
+    [ "JustDied", "d9/daa/a21126.html#add5121ed38a74be9ae168df5f893f89e", null ],
+    [ "SummonedCreatureDespawn", "d9/daa/a21126.html#a24ff36cdb049da7c67c1f041361e17e4", null ],
+    [ "UpdateAI", "d9/daa/a21126.html#ae1f683d5ef920213c9c86da35c626381", null ],
+    [ "checkTimer", "d9/daa/a21126.html#a675bcae4119e45490403013534c731ef", null ],
+    [ "pInstance", "d9/daa/a21126.html#a7527473944681143bab89fd12b475645", null ],
+    [ "SummonedGUID", "d9/daa/a21126.html#a4420eb2cf4d3b6d161355b0f4ad9516d", null ]
 ];

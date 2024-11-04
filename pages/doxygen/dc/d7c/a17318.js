@@ -1,9 +1,7 @@
 var a17318 =
 [
-    [ "BattleExperienceEvent", "dc/d7c/a17318.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
-    [ "Execute", "dc/d7c/a17318.html#a3971962ec90f682baeae96fe6098fa97", null ],
-    [ "_creature", "dc/d7c/a17318.html#a0155536d5c2be329a1f3b57c4d852098", null ],
-    [ "_level", "dc/d7c/a17318.html#a22f0d7e59f579362be4576180d0977b8", null ],
-    [ "ExperiencedSpells", "dc/d7c/a17318.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
-    [ "ExperiencedTimes", "dc/d7c/a17318.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
+    [ "npc_gunship_rocketeerAI", "dc/d7c/a17318.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "dc/d7c/a17318.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "dc/d7c/a17318.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "dc/d7c/a17318.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

@@ -1,8 +1,8 @@
 var a02210 =
 [
-    [ "boss_jeklik", "d5/db6/a13774.html", "d5/db6/a13774" ],
-    [ "npc_batrider", "db/db6/a13778.html", "db/db6/a13778" ],
-    [ "spell_batrider_bomb", "d1/dc7/a13782.html", "d1/dc7/a13782" ],
+    [ "boss_jeklik", "de/da9/a13714.html", "de/da9/a13714" ],
+    [ "npc_batrider", "dc/db0/a13718.html", "dc/db0/a13718" ],
+    [ "spell_batrider_bomb", "db/db7/a13722.html", "db/db7/a13722" ],
     [ "BatIds", "d8/d1e/a02210.html#a3b3d24c3d210da1467e82670d75b702c", [
       [ "NPC_BLOODSEEKER_BAT", "d8/d1e/a02210.html#a3b3d24c3d210da1467e82670d75b702ca3bdc4a48ebcc2262d98ef45c756dea14", null ],
       [ "NPC_BATRIDER", "d8/d1e/a02210.html#a3b3d24c3d210da1467e82670d75b702ca7d8c3cd30d5f7194b465e3cfd2fdc310", null ]

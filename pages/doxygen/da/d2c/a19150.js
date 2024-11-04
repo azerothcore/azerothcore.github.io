@@ -1,6 +1,8 @@
 var a19150 =
 [
-    [ "boss_ormorokAI", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
-    [ "boss_ormorok", "da/d2c/a19150.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
-    [ "GetAI", "da/d2c/a19150.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
+    [ "npc_centrifuge_constructAI", "da/d2c/a19150.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
+    [ "DamageTaken", "da/d2c/a19150.html#aa568418de267a99108698e79baa1b3f4", null ],
+    [ "JustEngagedWith", "da/d2c/a19150.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
+    [ "Reset", "da/d2c/a19150.html#a2f7750cea2f59d794c85e20b703370af", null ],
+    [ "UpdateAI", "da/d2c/a19150.html#a28316416ad6c56d83c9e878511256445", null ]
 ];

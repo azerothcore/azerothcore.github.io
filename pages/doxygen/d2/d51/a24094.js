@@ -1,7 +1,8 @@
 var a24094 =
 [
-    [ "o", "d2/d51/a24094.html#a3785e9b55ea3a7140086ce1f86232109", null ],
-    [ "x", "d2/d51/a24094.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
-    [ "y", "d2/d51/a24094.html#a10fbad67977d8dd3911eb629c1797684", null ],
-    [ "z", "d2/d51/a24094.html#a69fc2438e52f6c0de3af13900ff38166", null ]
+    [ "go_skull_pile", "d2/d51/a24094.html#a9cf8dfef432c4967c60f66e645585770", null ],
+    [ "OnGossipHello", "d2/d51/a24094.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
+    [ "OnGossipSelect", "d2/d51/a24094.html#afb8e8db2705355e975fa48c98e09f20b", null ],
+    [ "SendActionMenu", "d2/d51/a24094.html#a048dd224b46ead864958ad524d76167f", null ],
+    [ "_result", "d2/d51/a24094.html#af74fcd75404c0886128401d661067394", null ]
 ];

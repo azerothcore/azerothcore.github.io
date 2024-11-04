@@ -1,6 +1,6 @@
 var a18130 =
 [
-    [ "ModDestHeight", "d6/d9a/a18130.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
-    [ "PrepareSpellScript", "d6/d9a/a18130.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
-    [ "Register", "d6/d9a/a18130.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
+    [ "ManaVoidSelector", "d6/d9a/a18130.html#aa57a0960e7ce90b8de23f01ae72a1fff", null ],
+    [ "operator()", "d6/d9a/a18130.html#a464d63f2cf8cfe7d0c6bb5293e788a28", null ],
+    [ "_source", "d6/d9a/a18130.html#ae45c999db51bc153bba7f2fdfb99f6ba", null ]
 ];

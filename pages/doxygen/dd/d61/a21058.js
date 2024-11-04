@@ -1,13 +1,14 @@
 var a21058 =
 [
-    [ "MoveX", "dd/d61/a21058.html#aaae6e8ea168850a934b887ec006d7d8b", null ],
-    [ "MoveY", "dd/d61/a21058.html#a62cd7f778cea049a1a6a4c34d21545a7", null ],
-    [ "MoveZ", "dd/d61/a21058.html#a80b842f55108fec58fe04cf02e8e0b35", null ],
-    [ "npc", "dd/d61/a21058.html#a4bdccc14156f7e5822c9a8eefc29adaa", null ],
-    [ "say", "dd/d61/a21058.html#adcd8647fc0ee9799e24173780209f2d9", null ],
-    [ "SpawnO", "dd/d61/a21058.html#a3b6b89143c8a875cda01b000cea6a7c7", null ],
-    [ "SpawnX", "dd/d61/a21058.html#af3ae27adaecafe9a09802bc202973d68", null ],
-    [ "SpawnY", "dd/d61/a21058.html#a749e9c6edcc87f258f250344d652145c", null ],
-    [ "SpawnZ", "dd/d61/a21058.html#a06a0f8e5a7d63204d57992dc9623f83b", null ],
-    [ "trigger", "dd/d61/a21058.html#ad2291d89a874c79859b3140754594ed7", null ]
+    [ "boss_erekemAI", "dd/d61/a21058.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
+    [ "EnterEvadeMode", "dd/d61/a21058.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
+    [ "GetChainHealTargetGUID", "dd/d61/a21058.html#aa346cbaded883bbb3806acf9cb32579a", null ],
+    [ "JustDied", "dd/d61/a21058.html#a12e7fb5389977dcacb4e1eadda771467", null ],
+    [ "JustEngagedWith", "dd/d61/a21058.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
+    [ "KilledUnit", "dd/d61/a21058.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
+    [ "MoveInLineOfSight", "dd/d61/a21058.html#a5905809cba20d426c4d222b1e91055bc", null ],
+    [ "Reset", "dd/d61/a21058.html#a338bbc123b1d3adef4f014c3302c4590", null ],
+    [ "UpdateAI", "dd/d61/a21058.html#a234ae447260ae30a137a53fb986e5dc4", null ],
+    [ "events", "dd/d61/a21058.html#a8d4445b6d35f534061818f7708f39f7e", null ],
+    [ "pInstance", "dd/d61/a21058.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
 ];

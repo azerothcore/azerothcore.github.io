@@ -1,8 +1,6 @@
 var a25614 =
 [
-    [ "HandleDummy", "de/d99/a25614.html#a57897df074b7766c022526e082b4a13b", null ],
-    [ "Load", "de/d99/a25614.html#a47cbade67be124496c6194391ab51794", null ],
-    [ "PrepareSpellScript", "de/d99/a25614.html#af5e5a22976adfa5588ca8e054e19a669", null ],
-    [ "Register", "de/d99/a25614.html#ab0c3be8436b79288bb45899448fd6c1b", null ],
-    [ "Validate", "de/d99/a25614.html#a97d037267e385e0d3fd80543a5ddb366", null ]
+    [ "HandleDummy", "de/d99/a25614.html#a1daf78c552ffd963f181eded01b570a9", null ],
+    [ "PrepareSpellScript", "de/d99/a25614.html#adaa82dfd828ed915cfc16f95e73cd224", null ],
+    [ "Register", "de/d99/a25614.html#a63771475c954e4bddf6c1fc4c04990e0", null ]
 ];

@@ -1,5 +1,6 @@
 var a19858 =
 [
-    [ "achievement_flame_leviathan_unbroken", "db/d58/a19858.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
-    [ "OnCheck", "db/d58/a19858.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
+    [ "FilterTargets", "db/d58/a19858.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
+    [ "PrepareSpellScript", "db/d58/a19858.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
+    [ "Register", "db/d58/a19858.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
 ];

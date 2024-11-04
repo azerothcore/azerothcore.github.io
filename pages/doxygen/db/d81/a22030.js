@@ -1,6 +1,6 @@
 var a22030 =
 [
-    [ "HandleHealPct", "db/d81/a22030.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
-    [ "PrepareSpellScript", "db/d81/a22030.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
-    [ "Register", "db/d81/a22030.html#a52f253d2a3b9b3890020107b7722ad96", null ]
+    [ "npc_brunnhildar_prisonerAI", "df/dc1/a22034.html", "df/dc1/a22034" ],
+    [ "npc_brunnhildar_prisoner", "db/d81/a22030.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "db/d81/a22030.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

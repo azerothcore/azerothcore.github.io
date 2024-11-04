@@ -1,10 +1,8 @@
 var a17594 =
 [
-    [ "npc_bone_spikeAI", "d5/db3/a17594.html#a1b54aaa7b5ed142561fbc02e9593e87c", null ],
-    [ "DoAction", "d5/db3/a17594.html#a38b2944fb4e9d7fcc7205423faa8a994", null ],
-    [ "IsSummonedBy", "d5/db3/a17594.html#af2794484ee3ebf0579ce7357d222240d", null ],
-    [ "JustDied", "d5/db3/a17594.html#ae9c8fa649ba9fac74187913d29be9dd6", null ],
-    [ "UpdateAI", "d5/db3/a17594.html#a8eff2bcc6507c65e563ed272977f224e", null ],
-    [ "events", "d5/db3/a17594.html#a6a35900435d41d0603919f29415667a5", null ],
-    [ "hasTrappedUnit", "d5/db3/a17594.html#aeb7236ef0d313fd3799458f3d50276f7", null ]
+    [ "FilterTargets", "d5/db3/a17594.html#a1b125c887db7d2030838d0ac8e38c4e3", null ],
+    [ "HandleScript", "d5/db3/a17594.html#a4c7be5a65b1fb7e8db62691f5ef6b38d", null ],
+    [ "PrepareSpellScript", "d5/db3/a17594.html#ae6b30b8da52141c385f985435cac99a1", null ],
+    [ "Register", "d5/db3/a17594.html#a17dc25670b0f21525a01f6e7aa7eb572", null ],
+    [ "Validate", "d5/db3/a17594.html#accff1f03fb7c0d56cb197bb18348635c", null ]
 ];

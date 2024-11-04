@@ -1,6 +1,10 @@
 var a21634 =
 [
-    [ "npc_mindless_ghoulAI", "d4/dff/a21634.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
-    [ "CanAIAttack", "d4/dff/a21634.html#a18fbc44ad760a69d952d003622ec75b2", null ],
-    [ "JustDied", "d4/dff/a21634.html#a272067bef6dbab24024f7de990c10b64", null ]
+    [ "npc_emilyAI", "d4/dff/a21634.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
+    [ "JustEngagedWith", "d4/dff/a21634.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
+    [ "JustSummoned", "d4/dff/a21634.html#a4730c94b54d2ee5160011557704b35f2", null ],
+    [ "Reset", "d4/dff/a21634.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
+    [ "WaypointReached", "d4/dff/a21634.html#a0a68676a6eac8fbe2b634098268eb516", null ],
+    [ "_mrfloppyGUID", "d4/dff/a21634.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
+    [ "_RavenousworgGUID", "d4/dff/a21634.html#aa2a5e45366be9f89221453e00179e1a3", null ]
 ];

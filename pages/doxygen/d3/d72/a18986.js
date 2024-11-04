@@ -1,5 +1,6 @@
 var a18986 =
 [
-    [ "at_thaddius_entrance", "d3/d72/a18986.html#ad81a60cac337baad82ea526de1d151d1", null ],
-    [ "OnTrigger", "d3/d72/a18986.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
+    [ "instance_eye_of_eternity_InstanceMapScript", "d9/d53/a18990.html", "d9/d53/a18990" ],
+    [ "instance_eye_of_eternity", "d3/d72/a18986.html#afcab4ba969d0423871a4e398627a323d", null ],
+    [ "GetInstanceScript", "d3/d72/a18986.html#af51319609d355fe87a77a87eb697f434", null ]
 ];

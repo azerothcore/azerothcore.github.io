@@ -1,11 +1,6 @@
 var a15726 =
 [
-    [ "boss_sartharion_tenebronAI", "d4/d90/a15726.html#a9996fce9320390ead967ad82bcef9554", null ],
-    [ "ClearInstance", "d4/d90/a15726.html#af9e0459fff845bf4f6e53d06e4a9447f", null ],
-    [ "ExecuteEvent", "d4/d90/a15726.html#a6a7f8255aa1dcbb979354467d0e6949d", null ],
-    [ "HandleExtraEvent", "d4/d90/a15726.html#ad78a939f0584b775e29341ff08f0eee1", null ],
-    [ "JustDied", "d4/d90/a15726.html#ac3e03263a174dd147854fa6d714ec003", null ],
-    [ "JustSummoned", "d4/d90/a15726.html#a50d000b322e3d3a61cc02dea96c2979d", null ],
-    [ "Reset", "d4/d90/a15726.html#a1aa8277ddc91989ed7480d4221a6e534", null ],
-    [ "summons2", "d4/d90/a15726.html#a5060b01175ece5ad782e96bdf3d2c82d", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "d0/d7a/a15730.html", "d0/d7a/a15730" ],
+    [ "npc_baltharus_the_warborn_clone", "d4/d90/a15726.html#a7ed0731a015709ecd3c0c26fafb795ff", null ],
+    [ "GetAI", "d4/d90/a15726.html#a87b50fbc3a67345f375b41c3cb2ba754", null ]
 ];

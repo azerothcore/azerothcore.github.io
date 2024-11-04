@@ -1,6 +1,6 @@
 var a17050 =
 [
-    [ "StandUpEvent", "d1/d7c/a17050.html#a2f68b19898c65b9229159d9133b3d7cf", null ],
-    [ "Execute", "d1/d7c/a17050.html#a56bc1071300ff8f81e62839685e8f53a", null ],
-    [ "_owner", "d1/d7c/a17050.html#a456a494140657d81b203834f7b88d5d1", null ]
+    [ "PrepareSpellScript", "d1/d7c/a17050.html#a37899f12707930d038de38bae92c9aff", null ],
+    [ "Register", "d1/d7c/a17050.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
+    [ "SelectDest", "d1/d7c/a17050.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
 ];

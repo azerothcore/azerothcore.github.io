@@ -1,7 +1,7 @@
 var a26462 =
 [
-    [ "CalculateAmount", "db/da7/a26462.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
-    [ "Load", "db/da7/a26462.html#ae2ef0eae77137c120ec61af8698677db", null ],
-    [ "PrepareAuraScript", "db/da7/a26462.html#acaecc78c031aa436f432fd7145478de4", null ],
-    [ "Register", "db/da7/a26462.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
+    [ "AfterRemove", "db/da7/a26462.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "db/da7/a26462.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "db/da7/a26462.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "db/da7/a26462.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

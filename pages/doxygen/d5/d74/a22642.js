@@ -1,7 +1,6 @@
 var a22642 =
 [
-    [ "HandleScriptEffect", "d5/d74/a22642.html#a6ec6e79849c618d009eae3551e16ff0a", null ],
-    [ "PrepareSpellScript", "d5/d74/a22642.html#a4f00eca7c78a785780be4379c1a56a6b", null ],
-    [ "Register", "d5/d74/a22642.html#adb676b9d6f36c30efbb8286b1e5edf6d", null ],
-    [ "Validate", "d5/d74/a22642.html#a9ce122d497e72e3a46b1857d722af48d", null ]
+    [ "boss_reliquary_of_soulsAI", "d8/da7/a22646.html", "d8/da7/a22646" ],
+    [ "boss_reliquary_of_souls", "d5/d74/a22642.html#a0c73fc6221da0b19903e534932ca6406", null ],
+    [ "GetAI", "d5/d74/a22642.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
 ];

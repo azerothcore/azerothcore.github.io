@@ -1,6 +1,6 @@
 var a20878 =
 [
-    [ "HandleEffectPeriodic", "dc/d3e/a20878.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
-    [ "PrepareAuraScript", "dc/d3e/a20878.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
-    [ "Register", "dc/d3e/a20878.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
+    [ "npc_ravenous_furbolgAI", "de/de3/a20882.html", "de/de3/a20882" ],
+    [ "npc_ravenous_furbolg", "dc/d3e/a20878.html#a1d7adf8eb055cb6ba82db2f173256fe9", null ],
+    [ "GetAI", "dc/d3e/a20878.html#a284c366e6f5bd024d9627a83dd966669", null ]
 ];

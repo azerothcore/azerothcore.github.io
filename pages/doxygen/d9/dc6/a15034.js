@@ -1,6 +1,8 @@
 var a15034 =
 [
-    [ "instance_wailing_caverns_InstanceMapScript", "d6/dec/a15038.html", "d6/dec/a15038" ],
-    [ "instance_wailing_caverns", "d9/dc6/a15034.html#a906f59c39f59237e9eedb479dfc7d825", null ],
-    [ "GetInstanceScript", "d9/dc6/a15034.html#a0f1020e86443d6902b3c4d8726f3e610", null ]
+    [ "npc_death_ravagerAI", "d9/dc6/a15034.html#ad18242b078db0883029537562a41cc20", null ],
+    [ "Reset", "d9/dc6/a15034.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
+    [ "UpdateAI", "d9/dc6/a15034.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
+    [ "EnragingBiteTimer", "d9/dc6/a15034.html#af33898ebd9bea6b1a58b673373de3c64", null ],
+    [ "RendTimer", "d9/dc6/a15034.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
 ];

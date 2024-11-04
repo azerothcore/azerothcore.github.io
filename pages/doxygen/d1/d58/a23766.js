@@ -1,6 +1,7 @@
 var a23766 =
 [
-    [ "HandleScriptEffect", "d1/d58/a23766.html#a724e857ad8604ef4546c8823bb7bd632", null ],
-    [ "PrepareSpellScript", "d1/d58/a23766.html#a7a67cdf9c3c8017fd065549a499831fc", null ],
-    [ "Register", "d1/d58/a23766.html#aadbf9ca8c4b5fa0f72b967f059ee22ab", null ]
+    [ "HandleEffect", "d1/d58/a23766.html#acb353dbdd050bfc6aa4b4b5f6433dc03", null ],
+    [ "PrepareSpellScript", "d1/d58/a23766.html#ad95bc33917e1aa968eedc636f6e3ddcb", null ],
+    [ "Register", "d1/d58/a23766.html#ac2b2bd2581a638553167d5c8099a70cd", null ],
+    [ "Validate", "d1/d58/a23766.html#a7702b0e876ab5ccd750d1072ee70ed69", null ]
 ];

@@ -1,6 +1,7 @@
 var a18022 =
 [
-    [ "HandleScript", "da/d32/a18022.html#a6f9b2c00cdc050ff25ec37f5b7610c71", null ],
-    [ "PrepareSpellScript", "da/d32/a18022.html#a5405e4547ec6cbc05acceb72d1b16530", null ],
-    [ "Register", "da/d32/a18022.html#a172490b953b958df354394e947b7cfd0", null ]
+    [ "PrepareSpellScript", "da/d32/a18022.html#a3283e829757b50bb52f66ee1e64033ae", null ],
+    [ "Register", "da/d32/a18022.html#a0162c92c32210f2873686610f4f00b87", null ],
+    [ "TriggerHeal", "da/d32/a18022.html#a3cdfca33a535bad0942beea24aefa1bb", null ],
+    [ "Validate", "da/d32/a18022.html#a6545fe9f40c0aed036192008a2d6e28e", null ]
 ];

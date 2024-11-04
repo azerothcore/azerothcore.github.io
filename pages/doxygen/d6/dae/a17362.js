@@ -1,5 +1,6 @@
 var a17362 =
 [
-    [ "npc_zafod_boomboxAI", "d6/dae/a17362.html#a6540d8f5787ce1da211123721ef659f3", null ],
-    [ "sGossipSelect", "d6/dae/a17362.html#a6378748a168e4e668f696bd9c6dfbc31", null ]
+    [ "HandlePeriodicTick", "d6/dae/a17362.html#accfe8a0cea8af9c9474d25fc3e7c7e22", null ],
+    [ "PrepareAuraScript", "d6/dae/a17362.html#a9962029ce4a5223d7aa05068e8d83326", null ],
+    [ "Register", "d6/dae/a17362.html#a64cf56299c8ab5292dbc9cddcee5f841", null ]
 ];

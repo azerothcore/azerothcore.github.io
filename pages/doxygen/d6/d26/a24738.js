@@ -1,11 +1,8 @@
 var a24738 =
 [
-    [ "spell_gen_relocaste_dest", "d6/d26/a24738.html#a5b839f3bd5571ff3b23701c0cd862568", null ],
-    [ "PrepareSpellScript", "d6/d26/a24738.html#a135638c19c130f43f7f3c3c14f1d1570", null ],
-    [ "Register", "d6/d26/a24738.html#a9fd403a48ac9cec79fdf4ac485bbaa6a", null ],
-    [ "RelocateDest", "d6/d26/a24738.html#a1efeb8d17fa6f7cfd9d098d7e97381d9", null ],
-    [ "_o", "d6/d26/a24738.html#a31ecfa99e580c8fb828c1a4ee988ac94", null ],
-    [ "_x", "d6/d26/a24738.html#aa0d6afcc49e6fa41b6ae37d16e0c25e5", null ],
-    [ "_y", "d6/d26/a24738.html#a0152bc47b5950546d9e9505512ed842b", null ],
-    [ "_z", "d6/d26/a24738.html#a40136ab0219829dfb0dcfe234aa73af7", null ]
+    [ "Absorb", "d6/d26/a24738.html#aecfcbafe098adddba0a73965c447558c", null ],
+    [ "Load", "d6/d26/a24738.html#a1883cb4c86478359dd1ff8df25e2ec65", null ],
+    [ "PrepareAuraScript", "d6/d26/a24738.html#a3a65787dd5b7c1c796b98ce79f180d4d", null ],
+    [ "Register", "d6/d26/a24738.html#ab6bea7d62539841fa21fa8f3c8122707", null ],
+    [ "_limit", "d6/d26/a24738.html#a5985a97749e318e3ccba4c96724d8704", null ]
 ];

@@ -1,6 +1,7 @@
 var a18386 =
 [
-    [ "npc_rotting_frost_giantAI", "de/d9a/a18390.html", "de/d9a/a18390" ],
-    [ "npc_rotting_frost_giant", "d7/df4/a18386.html#ad4440216e11a00d97af43dc5f3957e95", null ],
-    [ "GetAI", "d7/df4/a18386.html#aabc388b3690f2d03e903c7f480d52842", null ]
+    [ "HandleEvent", "d7/df4/a18386.html#a7aea0f5c4cd3765a8266e5478322910b", null ],
+    [ "PrepareSpellScript", "d7/df4/a18386.html#a2e59f7f9eb67790c59c2e94cf877b4f3", null ],
+    [ "Register", "d7/df4/a18386.html#a96c6a479141f765b9c0f96b5f148a428", null ],
+    [ "Validate", "d7/df4/a18386.html#aa86d2cea5cb41b1e0a86248d95b5bfdb", null ]
 ];

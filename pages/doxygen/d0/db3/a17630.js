@@ -1,6 +1,8 @@
 var a17630 =
 [
-    [ "boss_professor_putricideAI", "dd/d7a/a17634.html", "dd/d7a/a17634" ],
-    [ "boss_professor_putricide", "d0/db3/a17630.html#a80776dad5c0205aa6a98752f43e85e32", null ],
-    [ "GetAI", "d0/db3/a17630.html#a7c84089d24bb0c77a5203884254e0925", null ]
+    [ "HandleScript", "d0/db3/a17630.html#a9f3cef57312626ae1884c36ad4bfdca6", null ],
+    [ "PrepareSpellScript", "d0/db3/a17630.html#a2ba03324afacf8da8e5fe6bc725e4d2f", null ],
+    [ "Register", "d0/db3/a17630.html#a9b0e0427b7f8abbd0e9d556ccc581aeb", null ],
+    [ "SelectTarget", "d0/db3/a17630.html#a36d575c6a63e94905bf435bc9d39e588", null ],
+    [ "Validate", "d0/db3/a17630.html#afc4a6277e3a7419b6a4aaa99f6697b91", null ]
 ];

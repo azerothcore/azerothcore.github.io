@@ -1,12 +1,16 @@
 var a23446 =
 [
-    [ "boss_nazan", "d4/d67/a23446.html#a4390d3e181c4db46e364df3302612763", null ],
-    [ "AttackStart", "d4/d67/a23446.html#a7acea69f908e7a004c2a78c103528975", null ],
-    [ "DoAction", "d4/d67/a23446.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
-    [ "EnterEvadeMode", "d4/d67/a23446.html#ab6338a7d240014e548b22044b788ce8f", null ],
-    [ "JustEngagedWith", "d4/d67/a23446.html#a4d44b759530f32207a46a608fb7d6209", null ],
-    [ "MovementInform", "d4/d67/a23446.html#ad35866322ff55263b1f8b105d2cad952", null ],
-    [ "Reset", "d4/d67/a23446.html#a5c10e932075130399a9127869f45ce1d", null ],
-    [ "UpdateAI", "d4/d67/a23446.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
-    [ "_scheduler", "d4/d67/a23446.html#a8915d84ec4ffb8dade18041d5e910018", null ]
+    [ "npc_millhouse_manastormAI", "d4/d67/a23446.html#ac86df4d5887c4c1b719ce47f00b32995", null ],
+    [ "AttackStart", "d4/d67/a23446.html#a032cc1ad7a07ead4ced3afe99601d94f", null ],
+    [ "DamageTaken", "d4/d67/a23446.html#a30ed336d552596211b3bfc316d223968", null ],
+    [ "InitializeAI", "d4/d67/a23446.html#a7e8f7483b7cf4ba5d87386940e632339", null ],
+    [ "JustDied", "d4/d67/a23446.html#aaa22ed7812600c1670d12d6887d316d6", null ],
+    [ "JustEngagedWith", "d4/d67/a23446.html#a5e643192572f29f954a31b7b949f6525", null ],
+    [ "KilledUnit", "d4/d67/a23446.html#ac3ba302f496d03c171d1d3f4dbf175da", null ],
+    [ "Reset", "d4/d67/a23446.html#a74076048ea382816fa9c98a0d759af46", null ],
+    [ "UpdateAI", "d4/d67/a23446.html#a7dad659c4ba1db0460c23a3dc573eff2", null ],
+    [ "_usedIceblock", "d4/d67/a23446.html#af0ce341df018dafdce89f75fcb9f0063", null ],
+    [ "events", "d4/d67/a23446.html#aa9aadd461e32cf8a65b185d77f62d838", null ],
+    [ "events2", "d4/d67/a23446.html#ac762ce5981457cbcf6ec73236bab2486", null ],
+    [ "instance", "d4/d67/a23446.html#aff28c68ed9575440f5732df855ab4372", null ]
 ];

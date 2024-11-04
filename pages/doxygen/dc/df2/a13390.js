@@ -1,12 +1,12 @@
 var a13390 =
 [
-    [ "npc_corporal_keeshanAI", "dc/df2/a13390.html#aac5b72ede6e1496f80c4c2520e886efd", null ],
-    [ "Reset", "dc/df2/a13390.html#a311488932a3de9153490d41e3fae92fb", null ],
-    [ "sQuestAccept", "dc/df2/a13390.html#a52dd95c74b1457ad5b496b28fd183b06", null ],
-    [ "UpdateAI", "dc/df2/a13390.html#a973cf65978e531dc8bd7db20fc2809b6", null ],
-    [ "WaypointReached", "dc/df2/a13390.html#a3edc9ab54068e47f955116db70454f6c", null ],
-    [ "mockingBlowTimer", "dc/df2/a13390.html#a21cd1ca86864b8507d43e5a1c4c13e0c", null ],
-    [ "phase", "dc/df2/a13390.html#ae79dcfdb10738d673e8c1aebc6abdee6", null ],
-    [ "shieldBashTimer", "dc/df2/a13390.html#abb5eaa25a77dd3e6dfff7aaa0aa6c375", null ],
-    [ "timer", "dc/df2/a13390.html#a3107368f175aa7f4e8c405248ef917df", null ]
+    [ "npc_lady_sylvanas_windrunnerAI", "dc/df2/a13390.html#ad6eefe9a14ce64b12b65a22c3ebb4db0", null ],
+    [ "JustEngagedWith", "dc/df2/a13390.html#a36324482fb264cc3cacf11c3ed542eee", null ],
+    [ "JustSummoned", "dc/df2/a13390.html#a456ee6f4b5b8cdd79647a42185265be8", null ],
+    [ "Reset", "dc/df2/a13390.html#ad4c6cb31a8d3dc280e689d5d29e27479", null ],
+    [ "SetGUID", "dc/df2/a13390.html#aa5270e7468dcafba98d3ee72752771ce", null ],
+    [ "UpdateAI", "dc/df2/a13390.html#ab704e4f3af8aa734910efd259db31407", null ],
+    [ "_events", "dc/df2/a13390.html#a621d4db4fac3a7c3d08defa2a8ed06d0", null ],
+    [ "LamentEvent", "dc/df2/a13390.html#ace9e901a965665e0f97cb9646af308aa", null ],
+    [ "playerGUID", "dc/df2/a13390.html#aa125ab2a33dbf9f1d40f238e7d45000d", null ]
 ];

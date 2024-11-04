@@ -1,6 +1,10 @@
 var a27114 =
 [
-    [ "go_l70_etc_musicAI", "d8/d7a/a27114.html#a1709414fc40d48ac7c13eb8251dfbb26", null ],
-    [ "UpdateAI", "d8/d7a/a27114.html#a182a5a9bbe53ced25740de9a4a368469", null ],
-    [ "_events", "d8/d7a/a27114.html#aa0cda672b4491b3cfc75214038aa2132", null ]
+    [ "guard_shattrath_scryerAI", "d8/d7a/a27114.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "d8/d7a/a27114.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "d8/d7a/a27114.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "d8/d7a/a27114.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "d8/d7a/a27114.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "d8/d7a/a27114.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "d8/d7a/a27114.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

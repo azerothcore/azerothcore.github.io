@@ -1,7 +1,7 @@
 var a01343 =
 [
-    [ "boss_eregos", "d9/d8b/a19198.html", "d9/d8b/a19198" ],
-    [ "boss_eregos::boss_eregosAI", "d2/d40/a19202.html", "d2/d40/a19202" ],
+    [ "boss_eregos", "dc/d4b/a19098.html", "dc/d4b/a19098" ],
+    [ "boss_eregos::boss_eregosAI", "de/d7f/a19102.html", "de/d7f/a19102" ],
     [ "SPELL_ARCANE_BARRAGE", "d3/da4/a01343.html#a08343cea04d45054f3c55b70c2c4f77a", null ],
     [ "SPELL_ARCANE_VOLLEY", "d3/da4/a01343.html#a46a311f1484a23f697614b35a94255ed", null ],
     [ "Events", "d3/da4/a01343.html#af60e00b78607064c5be6aa9397ea49c1", [

@@ -1,7 +1,8 @@
 var a26582 =
 [
-    [ "HandleEffectProc", "d8/d5f/a26582.html#a7f2ddbf54a4932277ad91eb0036915ab", null ],
-    [ "PrepareAuraScript", "d8/d5f/a26582.html#a47d844a9700cd8add793e3f3088d1b82", null ],
-    [ "Register", "d8/d5f/a26582.html#ad40dfc164ab98fc9734e1ed15ea14c17", null ],
-    [ "Validate", "d8/d5f/a26582.html#a97f5239399e7135b02000722eaf837ad", null ]
+    [ "Load", "d8/d5f/a26582.html#af6c19828b80a6cc06e4c9c207e7c52b8", null ],
+    [ "OnRemove", "d8/d5f/a26582.html#a097cf2a2abecda1e89f85bc4bd4ec029", null ],
+    [ "PrepareAuraScript", "d8/d5f/a26582.html#a2161d27a90b3f87fd07f75723b6d9e13", null ],
+    [ "Register", "d8/d5f/a26582.html#a932760326c822f1b47df1afdec6bb9cb", null ],
+    [ "Validate", "d8/d5f/a26582.html#a69bcfedb7f566c572201aadc9e75df08", null ]
 ];

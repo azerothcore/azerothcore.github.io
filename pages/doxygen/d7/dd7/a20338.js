@@ -1,5 +1,6 @@
 var a20338 =
 [
-    [ "achievement_mimiron_firefighter", "d7/dd7/a20338.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
-    [ "OnCheck", "d7/dd7/a20338.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
+    [ "boss_thorim_sif_blizzardAI", "d1/dc5/a20342.html", "d1/dc5/a20342" ],
+    [ "boss_thorim_sif_blizzard", "d7/dd7/a20338.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
+    [ "GetAI", "d7/dd7/a20338.html#afbff96363951c952a195f5c2a105e279", null ]
 ];

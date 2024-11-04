@@ -1,6 +1,7 @@
 var a27766 =
 [
-    [ "HandleDummy", "d7/dbb/a27766.html#aeda7eba9ab0b80b549976a4db6e9712c", null ],
-    [ "PrepareSpellScript", "d7/dbb/a27766.html#a251e93768ff684d1586286ce040a611b", null ],
-    [ "Register", "d7/dbb/a27766.html#ad1d4fa3d7bda8f4354325cc4df623b65", null ]
+    [ "Displayid", "d7/dbb/a27766.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
+    [ "ExtendedDisplayInfoID", "d7/dbb/a27766.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
+    [ "ModelId", "d7/dbb/a27766.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
+    [ "scale", "d7/dbb/a27766.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
 ];

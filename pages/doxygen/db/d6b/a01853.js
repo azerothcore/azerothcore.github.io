@@ -1,13 +1,13 @@
 var a01853 =
 [
-    [ "instance_scarlet_monastery", "da/d4f/a12718.html", "da/d4f/a12718" ],
-    [ "instance_scarlet_monastery::instance_scarlet_monastery_InstanceMapScript", "d0/d87/a12722.html", "d0/d87/a12722" ],
-    [ "npc_mograine", "d2/d34/a12726.html", "d2/d34/a12726" ],
-    [ "npc_mograine::npc_mograineAI", "db/d48/a12730.html", "db/d48/a12730" ],
-    [ "boss_high_inquisitor_whitemane", "d6/d04/a12734.html", "d6/d04/a12734" ],
-    [ "boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI", "de/d6c/a12738.html", "de/d6c/a12738" ],
-    [ "npc_fairbanks", "db/d25/a12742.html", "db/d25/a12742" ],
-    [ "npc_fairbanks::npc_fairbanksAI", "dc/d61/a12746.html", "dc/d61/a12746" ],
+    [ "instance_scarlet_monastery", "df/d35/a12694.html", "df/d35/a12694" ],
+    [ "instance_scarlet_monastery::instance_scarlet_monastery_InstanceMapScript", "df/d4c/a12698.html", "df/d4c/a12698" ],
+    [ "npc_mograine", "d8/d4a/a12702.html", "d8/d4a/a12702" ],
+    [ "npc_mograine::npc_mograineAI", "d5/d92/a12706.html", "d5/d92/a12706" ],
+    [ "boss_high_inquisitor_whitemane", "de/d2e/a12710.html", "de/d2e/a12710" ],
+    [ "boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI", "df/d93/a12714.html", "df/d93/a12714" ],
+    [ "npc_fairbanks", "da/d4f/a12718.html", "da/d4f/a12718" ],
+    [ "npc_fairbanks::npc_fairbanksAI", "d0/d87/a12722.html", "d0/d87/a12722" ],
     [ "AshbringerEventMisc", "db/d6b/a01853.html#a19acf5cf631b82922ff0a2ca3149ee9d", [
       [ "AURA_OF_ASHBRINGER", "db/d6b/a01853.html#a19acf5cf631b82922ff0a2ca3149ee9dac4127ea2034069c6c4e6db3f2e323f13", null ],
       [ "NPC_SCARLET_MYRIDON", "db/d6b/a01853.html#a19acf5cf631b82922ff0a2ca3149ee9da84ff7f1a4f2833a87f59e7149bd373bb", null ],

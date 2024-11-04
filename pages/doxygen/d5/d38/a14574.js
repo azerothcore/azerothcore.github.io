@@ -1,7 +1,10 @@
 var a14574 =
 [
-    [ "npc_tarethaAI", "d1/d18/a14578.html", "d1/d18/a14578" ],
-    [ "npc_taretha", "d5/d38/a14574.html#a54379e06518ff972e91e25e295731f5a", null ],
-    [ "GetAI", "d5/d38/a14574.html#a5045bb7119b12800ee0053818fcae5fe", null ],
-    [ "OnGossipHello", "d5/d38/a14574.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
+    [ "instance_maraudon_InstanceMapScript", "d5/d38/a14574.html#a9c46508320d3973006561444feae0586", null ],
+    [ "Initialize", "d5/d38/a14574.html#a61cb2b2bf09bb997457bc01a41e092e9", null ],
+    [ "OnGameObjectCreate", "d5/d38/a14574.html#a3a287b97db58c3489815f20ee0d37977", null ],
+    [ "ReadSaveDataMore", "d5/d38/a14574.html#ac2cd336874b25ad20dac104037de1df5", null ],
+    [ "SetData", "d5/d38/a14574.html#a6e90bf60a076c164e432128f7ec62fba", null ],
+    [ "WriteSaveDataMore", "d5/d38/a14574.html#a6e4072342e66689d343912de85e66b34", null ],
+    [ "_encounters", "d5/d38/a14574.html#af2e752a791d75e50001060c4a9f18173", null ]
 ];

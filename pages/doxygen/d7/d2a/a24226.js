@@ -1,7 +1,9 @@
 var a24226 =
 [
-    [ "npc_isla_starmaneAI", "dd/dfe/a24230.html", "dd/dfe/a24230" ],
-    [ "npc_isla_starmane", "d7/d2a/a24226.html#af30b3658d8f19be0dc07cb35eeb04668", null ],
-    [ "GetAI", "d7/d2a/a24226.html#a0ea2dbaab4115772f92849e06aa85575", null ],
-    [ "OnQuestAccept", "d7/d2a/a24226.html#afeda3da3761e96e2901ea06c5a26fa3a", null ]
+    [ "npc_pet_shaman_fire_elemental", "d7/d2a/a24226.html#a3428642963fc9e7588ec92fd838f1af9", null ],
+    [ "InitializeAI", "d7/d2a/a24226.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
+    [ "JustEngagedWith", "d7/d2a/a24226.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
+    [ "UpdateAI", "d7/d2a/a24226.html#a2280e5cc5187a91917a1e517e80e960d", null ],
+    [ "_events", "d7/d2a/a24226.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
+    [ "_initAttack", "d7/d2a/a24226.html#a2df79acc05dd8489e9e994e044b45404", null ]
 ];

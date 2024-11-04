@@ -1,12 +1,6 @@
 var a21230 =
 [
-    [ "boss_lavanthorAI", "de/d7a/a21230.html#aa562ad1ee029a35adebf8eac8f8249f3", null ],
-    [ "EnterEvadeMode", "de/d7a/a21230.html#a0334d92f1ddf30235efe298df622535b", null ],
-    [ "JustDied", "de/d7a/a21230.html#a300dbedf5514998e7065a2ef44a65f1f", null ],
-    [ "JustEngagedWith", "de/d7a/a21230.html#a9820ec47af72af19f00b172ee138f908", null ],
-    [ "MoveInLineOfSight", "de/d7a/a21230.html#aa613f70d93be479aa701675dfdb2d3e3", null ],
-    [ "Reset", "de/d7a/a21230.html#a55d5cc6906033b5c56daa3ed15fabf0f", null ],
-    [ "UpdateAI", "de/d7a/a21230.html#ab77ac2c78e94fed437e8ccefba4e363c", null ],
-    [ "events", "de/d7a/a21230.html#a273adc56adefe9810013bc80950f2624", null ],
-    [ "pInstance", "de/d7a/a21230.html#ad6059577c5e131523f39316c2291b421", null ]
+    [ "HandleEffectPeriodic", "de/d7a/a21230.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
+    [ "PrepareAuraScript", "de/d7a/a21230.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
+    [ "Register", "de/d7a/a21230.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
 ];

@@ -1,7 +1,6 @@
 var a22682 =
 [
-    [ "HandleScriptEffect", "de/d2d/a22682.html#a16f131e42272bc75c99df2a9cf43470e", null ],
-    [ "PrepareSpellScript", "de/d2d/a22682.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
-    [ "Register", "de/d2d/a22682.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
-    [ "Validate", "de/d2d/a22682.html#a58ff628906f3077a354ed486d3c56d23", null ]
+    [ "HandleEffectRemove", "de/d2d/a22682.html#ae9baf688d8ac42c4ccbbf13f3b79e831", null ],
+    [ "PrepareAuraScript", "de/d2d/a22682.html#a2e2668f0b5bf369ec859627e0bd8d980", null ],
+    [ "Register", "de/d2d/a22682.html#acd7e22159d262a9888c744eecb978c09", null ]
 ];

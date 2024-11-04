@@ -1,14 +1,7 @@
 var a15070 =
 [
-    [ "npc_draenei_survivorAI", "d2/dc3/a15070.html#a8766dcf9afd6d26d619bead82b549a8f", null ],
-    [ "JustEngagedWith", "d2/dc3/a15070.html#a6d0b790ad7466b14bf0bba0aa37eebf2", null ],
-    [ "MoveInLineOfSight", "d2/dc3/a15070.html#a2b3f0a595fde04ad1e054331a596e225", null ],
-    [ "Reset", "d2/dc3/a15070.html#a3db19a846ce3b4810321eb02d314633f", null ],
-    [ "SpellHit", "d2/dc3/a15070.html#a079789d2f6a03b1c7b0ac7dc43a2550a", null ],
-    [ "UpdateAI", "d2/dc3/a15070.html#aa3fd8e3747fa69b5156e932fddaf6fa7", null ],
-    [ "CanSayHelp", "d2/dc3/a15070.html#a6bf8c4eb06fe661da0c850424843bd42", null ],
-    [ "pCaster", "d2/dc3/a15070.html#a35ad8350e51fd520b75cd0289f19cb09", null ],
-    [ "RunAwayTimer", "d2/dc3/a15070.html#a233885b12615bfbc927d8845d0cff3fd", null ],
-    [ "SayHelpTimer", "d2/dc3/a15070.html#a8d77b110c6af6615d5d39e0870cbe890", null ],
-    [ "SayThanksTimer", "d2/dc3/a15070.html#a4f2d829af97d6fb5ef13e3922ebe99e8", null ]
+    [ "npc_kerlonianAI", "d4/d55/a15074.html", "d4/d55/a15074" ],
+    [ "npc_kerlonian", "d2/dc3/a15070.html#a8a5ab1fde9f21ac256d5168ef3f17f87", null ],
+    [ "GetAI", "d2/dc3/a15070.html#a93d93ba13d8521fee39801473b7c4b6a", null ],
+    [ "OnQuestAccept", "d2/dc3/a15070.html#a257d24295318605ac2fd5554315dfd63", null ]
 ];

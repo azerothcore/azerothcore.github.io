@@ -1,8 +1,10 @@
 var a20846 =
 [
-    [ "npc_ulduar_keeperAI", "de/d08/a20850.html", "de/d08/a20850" ],
-    [ "npc_ulduar_keeper", "d8/d08/a20846.html#a252b781061a2e21dc961ea94f7120d59", null ],
-    [ "GetAI", "d8/d08/a20846.html#ad0c0f5d3786e3f3b3394a599f3ee6256", null ],
-    [ "OnGossipHello", "d8/d08/a20846.html#a4db12efd22c7d2a5f18144fd16543230", null ],
-    [ "OnGossipSelect", "d8/d08/a20846.html#acf8681577117107d16d45705e4b8463f", null ]
+    [ "npc_enslaved_proto_drakeAI", "d8/d08/a20846.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "d8/d08/a20846.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "d8/d08/a20846.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "d8/d08/a20846.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "d8/d08/a20846.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "d8/d08/a20846.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "d8/d08/a20846.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

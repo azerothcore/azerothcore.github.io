@@ -1,10 +1,6 @@
 var a22410 =
 [
-    [ "OPvPCapturePointHP", "d4/dca/a22410.html#a7f5fa3e3bd28924965cc08f41b5d6bd8", null ],
-    [ "ChangeState", "d4/dca/a22410.html#aa0dc544ad3d53255dbfdab7461efcaa1", null ],
-    [ "FillInitialWorldStates", "d4/dca/a22410.html#a4021432ef58674bf456ad2684e56b256", null ],
-    [ "HandlePlayerEnter", "d4/dca/a22410.html#ad9738c621df084d5a3f0070c80403642", null ],
-    [ "HandlePlayerLeave", "d4/dca/a22410.html#a86e849e5387383a6c751e69350ffa07c", null ],
-    [ "SendChangePhase", "d4/dca/a22410.html#a42528a90eda9ec28dd00df3f0ec78a15", null ],
-    [ "m_TowerType", "d4/dca/a22410.html#a0191bec2d9492e21957ed9b4e0fed484", null ]
+    [ "instance_sethekk_halls_InstanceMapScript", "da/dd7/a22414.html", "da/dd7/a22414" ],
+    [ "instance_sethekk_halls", "d4/dca/a22410.html#ab50d296266cf377bfb34750ec36963ef", null ],
+    [ "GetInstanceScript", "d4/dca/a22410.html#adc07afe1aa8132f70474f9a534ecb76c", null ]
 ];

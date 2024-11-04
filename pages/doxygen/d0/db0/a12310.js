@@ -1,28 +1,5 @@
 var a12310 =
 [
-    [ "boss_nightbane", "d0/db0/a12310.html#a14e8d2773f75c8464a725c4c0e29789f", null ],
-    [ "AttackStart", "d0/db0/a12310.html#a1709459f82758e690b6f5f667ac113b2", null ],
-    [ "DamageTaken", "d0/db0/a12310.html#ae49cca4df3d3e4671fcd29d0ff80b820", null ],
-    [ "DoAction", "d0/db0/a12310.html#aa27b56f7248f504d9a79de0f5f104961", null ],
-    [ "EnterEvadeMode", "d0/db0/a12310.html#a0bf6d0a9bc0be2532f5d367758f03446", null ],
-    [ "FlyToClosestPreFlyWayPoint", "d0/db0/a12310.html#affc0741ba52bdb3af2f3ca1ba65e5d16", null ],
-    [ "JustEngagedWith", "d0/db0/a12310.html#add269fc76dc2094109261d654e0cb75b", null ],
-    [ "JustReachedHome", "d0/db0/a12310.html#a867c09a5802d402db3a4dca7584b6d85", null ],
-    [ "JustSummoned", "d0/db0/a12310.html#aebe3a054846638cb704537bb6ae8df26", null ],
-    [ "MoveInLineOfSight", "d0/db0/a12310.html#a2cdc3d7e7f83391eaf96e92f20ea703b", null ],
-    [ "MovementInform", "d0/db0/a12310.html#aebfd407ada0b093a22ba50fbfb22dc0c", null ],
-    [ "PathEndReached", "d0/db0/a12310.html#a96d7a6c7fd756c78cb528b738e2f15e6", null ],
-    [ "Reset", "d0/db0/a12310.html#a16e5dba8c2187d2f8b175360f40c299c", null ],
-    [ "ScheduleFly", "d0/db0/a12310.html#a536b576c59bfe91e88823634978e174d", null ],
-    [ "ScheduleGround", "d0/db0/a12310.html#aab88cfbfbf9bdb347683b6c49ee455ee", null ],
-    [ "ScheduleLand", "d0/db0/a12310.html#a9a42862b459b6447a0a3b59828515337", null ],
-    [ "TriggerHealthTakeOff", "d0/db0/a12310.html#a7973791c2410f57ed9bc72b151a35419", null ],
-    [ "UpdateAI", "d0/db0/a12310.html#afc9746671aab95918269375a672ecbed", null ],
-    [ "_airPhasesCompleted", "d0/db0/a12310.html#a097feecad913478440092a818b6b6f38", null ],
-    [ "_phase", "d0/db0/a12310.html#ae15a984403ef5ef27b58400dbc92777d", null ],
-    [ "_skeletonCount", "d0/db0/a12310.html#a2588f568133a843cb2bd6ef97794a03f", null ],
-    [ "_skeletonscheduler", "d0/db0/a12310.html#aff6649c16f1c929325e1941479569fc1", null ],
-    [ "_skeletonSpawnCounter", "d0/db0/a12310.html#a39ed84d01215f9f8427e5c599e424927", null ],
-    [ "_skeletonSpawnPos", "d0/db0/a12310.html#a28ded4432525290ff7e81d03545d46cf", null ],
-    [ "_triggerCountTakeOffWhileFlying", "d0/db0/a12310.html#a55a8cf6e293b0c7ad3865340412aa31e", null ]
+    [ "go_blackened_urn", "d0/db0/a12310.html#aaa311353e693a0dd7fd9a6f8e617e0ab", null ],
+    [ "OnGossipHello", "d0/db0/a12310.html#ab091bd54734acc65532303a391441ee2", null ]
 ];

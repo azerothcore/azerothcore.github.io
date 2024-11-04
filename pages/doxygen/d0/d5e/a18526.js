@@ -1,5 +1,5 @@
 var a18526 =
 [
-    [ "at_icc_start_blood_quickening", "d0/d5e/a18526.html#a544b0591b19a62e5c8a6efcfffd98326", null ],
-    [ "OnTrigger", "d0/d5e/a18526.html#a814670e127b1eace6068a553b23d00f7", null ]
+    [ "npc_icc_buff_switcher", "d0/d5e/a18526.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
+    [ "OnGossipSelect", "d0/d5e/a18526.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
 ];

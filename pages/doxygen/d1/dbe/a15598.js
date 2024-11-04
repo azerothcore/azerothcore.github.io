@@ -1,6 +1,6 @@
 var a15598 =
 [
-    [ "ModDestHeight", "d1/dbe/a15598.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d1/dbe/a15598.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d1/dbe/a15598.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "npc_anub_ar_crusherAI", "d7/de8/a15602.html", "d7/de8/a15602" ],
+    [ "npc_anub_ar_crusher", "d1/dbe/a15598.html#a3397fab6358ce8c19aecaad734e0ef78", null ],
+    [ "GetAI", "d1/dbe/a15598.html#aeb8eb3e39612d0f7059f1910033cbbcc", null ]
 ];

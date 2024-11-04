@@ -1,12 +1,13 @@
 var a27378 =
 [
-    [ "npc_elder_clearwaterAI", "d8/d64/a27378.html#a4de89cf4a18918d577be4ac5cc55ba5a", null ],
-    [ "DoAction", "d8/d64/a27378.html#ac46b0f66be3074f73f5a69cffee6d354", null ],
-    [ "GetData", "d8/d64/a27378.html#a077c02bf06b16439225a5cf8d83babf2", null ],
-    [ "UpdateAI", "d8/d64/a27378.html#afbec3c78d34ce4d11a11b56064f343f3", null ],
-    [ "events", "d8/d64/a27378.html#a267fec22dc3d7272cae74267d0567618", null ],
-    [ "finished", "d8/d64/a27378.html#af51d6abb8fc8b59d068156a4859a377e", null ],
-    [ "finishWarning", "d8/d64/a27378.html#a83a2b8e6ceed45d4e6b834e13a4a4cdc", null ],
-    [ "preWarning", "d8/d64/a27378.html#a64abe15565c7e97a3a0ef195d436fedc", null ],
-    [ "startWarning", "d8/d64/a27378.html#a01545211dec4338ac44304ebc7f18a97", null ]
+    [ "npc_spring_rabbitAI", "d8/d64/a27378.html#a1211ab47dee4844b90a010c284c4f1a5", null ],
+    [ "DoAction", "d8/d64/a27378.html#a288ddb2f1ee0ab7113f1a1f34dc545c5", null ],
+    [ "JustEngagedWith", "d8/d64/a27378.html#a0c36f1dfc094007990f067544a940538", null ],
+    [ "Reset", "d8/d64/a27378.html#ac0f6b47044099016dd6453674b75b2c8", null ],
+    [ "UpdateAI", "d8/d64/a27378.html#af9da118068234755fa9219b84050d2a3", null ],
+    [ "bunnyTimer", "d8/d64/a27378.html#a99c2923194cf6a07bee8924abf98f470", null ],
+    [ "inLove", "d8/d64/a27378.html#aec8887aedf32fb4ebcc68c48f0ee0ea5", null ],
+    [ "jumpTimer", "d8/d64/a27378.html#a5c17e00187ac87b23482dfbabb89809b", null ],
+    [ "rabbitGUID", "d8/d64/a27378.html#af838b25c8442767aaef16e95022cb062", null ],
+    [ "searchTimer", "d8/d64/a27378.html#af1b82227dadf30c6c796e7b8c2abbe82", null ]
 ];

@@ -1,12 +1,7 @@
 var a14062 =
 [
-    [ "npc_alexstraza_the_lifebinder", "df/d01/a14062.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "df/d01/a14062.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "df/d01/a14062.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "df/d01/a14062.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "df/d01/a14062.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "df/d01/a14062.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "df/d01/a14062.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "df/d01/a14062.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "df/d01/a14062.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "HandleEffectApply", "df/d01/a14062.html#a22f3143b10155635194abe22994a397c", null ],
+    [ "HandleEffectRemove", "df/d01/a14062.html#a2ecc50fa3c14918b6eace63eac75eb96", null ],
+    [ "PrepareAuraScript", "df/d01/a14062.html#abb4f53a42e701323b2fc66598ec3503c", null ],
+    [ "Register", "df/d01/a14062.html#ad1ff6d29459d9a38fcdef3f6c7007f6b", null ]
 ];

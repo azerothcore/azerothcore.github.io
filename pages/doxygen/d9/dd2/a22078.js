@@ -1,7 +1,7 @@
 var a22078 =
 [
-    [ "npc_engineer_heliceAI", "d8/d4f/a22082.html", "d8/d4f/a22082" ],
-    [ "npc_engineer_helice", "d9/dd2/a22078.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "d9/dd2/a22078.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "d9/dd2/a22078.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "npc_wg_demolisher_engineer", "d9/dd2/a22078.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d9/dd2/a22078.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d9/dd2/a22078.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d9/dd2/a22078.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

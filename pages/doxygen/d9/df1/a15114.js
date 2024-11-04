@@ -1,7 +1,7 @@
 var a15114 =
 [
-    [ "HandleEffectRemove", "d9/df1/a15114.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
-    [ "PrepareAuraScript", "d9/df1/a15114.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
-    [ "Register", "d9/df1/a15114.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
-    [ "AuraEffectHandleModes", "d9/df1/a15114.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d9/df1/a15114.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d9/df1/a15114.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d9/df1/a15114.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d9/df1/a15114.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

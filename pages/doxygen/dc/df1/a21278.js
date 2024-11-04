@@ -1,5 +1,6 @@
 var a21278 =
 [
-    [ "go_vh_activation_crystal", "dc/df1/a21278.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "dc/df1/a21278.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "npc_beryl_sorcererAI", "d5/d5d/a21282.html", "d5/d5d/a21282" ],
+    [ "npc_beryl_sorcerer", "dc/df1/a21278.html#a4f74ee45ee0730fcfd044418771a9ee1", null ],
+    [ "GetAI", "dc/df1/a21278.html#a963646eed9f121f87efe480312957286", null ]
 ];

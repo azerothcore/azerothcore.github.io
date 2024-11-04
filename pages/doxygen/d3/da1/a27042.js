@@ -1,5 +1,5 @@
 var a27042 =
 [
-    [ "go_noblegarden_colored_egg", "d3/da1/a27042.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
-    [ "OnGossipHello", "d3/da1/a27042.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
+    [ "go_tele_to_violet_stand", "d3/da1/a27042.html#a63350db1dfd400c565e30775378d48cc", null ],
+    [ "OnGossipHello", "d3/da1/a27042.html#a4d075584f065501a2c3be9ef82387f43", null ]
 ];

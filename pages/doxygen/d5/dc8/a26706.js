@@ -1,6 +1,6 @@
 var a26706 =
 [
-    [ "HandleAfterHit", "d5/dc8/a26706.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
-    [ "PrepareSpellScript", "d5/dc8/a26706.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
-    [ "Register", "d5/dc8/a26706.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
+    [ "HandleEffectCalcSpellMod", "d5/dc8/a26706.html#a38c2a5daeda4b366518026638e6a8e1b", null ],
+    [ "PrepareAuraScript", "d5/dc8/a26706.html#a767c3c52e917b56dbf2368b5dbbf1610", null ],
+    [ "Register", "d5/dc8/a26706.html#af60592a9f1e595f31814eae405d03d5a", null ]
 ];

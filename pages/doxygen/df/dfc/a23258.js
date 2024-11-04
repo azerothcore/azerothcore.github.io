@@ -1,7 +1,11 @@
 var a23258 =
 [
-    [ "boss_hydromancer_thespia", "df/dfc/a23258.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
-    [ "JustDied", "df/dfc/a23258.html#ad0662daabd636bbf544a6791187d71fa", null ],
-    [ "JustEngagedWith", "df/dfc/a23258.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
-    [ "KilledUnit", "df/dfc/a23258.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
+    [ "boss_krosh_firehand", "df/dfc/a23258.html#a1ef3618844f086de7875f26e7e6190f9", null ],
+    [ "AttackStart", "df/dfc/a23258.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
+    [ "JustDied", "df/dfc/a23258.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
+    [ "JustEngagedWith", "df/dfc/a23258.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
+    [ "Reset", "df/dfc/a23258.html#a989c4b762a7cdb228b245e91881d97a2", null ],
+    [ "UpdateAI", "df/dfc/a23258.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
+    [ "_scheduler", "df/dfc/a23258.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
+    [ "instance", "df/dfc/a23258.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
 ];

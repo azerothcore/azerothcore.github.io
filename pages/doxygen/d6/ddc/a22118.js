@@ -1,6 +1,7 @@
 var a22118 =
 [
-    [ "HandleScript", "d6/ddc/a22118.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "d6/ddc/a22118.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "d6/ddc/a22118.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "HandleScript", "d6/ddc/a22118.html#a26eb647b6c938df3aeff7981571dc475", null ],
+    [ "PrepareSpellScript", "d6/ddc/a22118.html#a10114d8fa956aabff64aa0df7708f635", null ],
+    [ "Register", "d6/ddc/a22118.html#a0c6c379f5dcbb417d94d8e6315aa49dd", null ],
+    [ "Validate", "d6/ddc/a22118.html#adb477d34d8012c6fb45c5548fc49e127", null ]
 ];

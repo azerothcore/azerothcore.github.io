@@ -1,12 +1,6 @@
 var a22802 =
 [
-    [ "boss_essence_of_desireAI", "d7/d5d/a22802.html#a02f6dec07038297c15c264fb501b01ab", null ],
-    [ "DamageTaken", "d7/d5d/a22802.html#abc2d334c185f519230e5ee4d1fc8ff39", null ],
-    [ "DoAction", "d7/d5d/a22802.html#ad55459d8e75f34783c1516be05cbb97f", null ],
-    [ "JustEngagedWith", "d7/d5d/a22802.html#a0976078399b2190cca25aa2ae5c3c201", null ],
-    [ "KilledUnit", "d7/d5d/a22802.html#a07509843bd658e3fc0b02cb817da37e9", null ],
-    [ "MovementInform", "d7/d5d/a22802.html#ad65068c5f56db269b4dc711745f96cfb", null ],
-    [ "Reset", "d7/d5d/a22802.html#a5c785c728d201a1a4f8f1e01d7000166", null ],
-    [ "UpdateAI", "d7/d5d/a22802.html#af348a1b996a8e7704ba55185ef79fe7d", null ],
-    [ "_recentlySpoken", "d7/d5d/a22802.html#a6507c0da056a74d961d28e96120cd676", null ]
+    [ "HandleEffectRemove", "d7/d5d/a22802.html#a99f96034b5976615c38e13e5e55c61b6", null ],
+    [ "PrepareAuraScript", "d7/d5d/a22802.html#a0515a72abd37df13606876021659b995", null ],
+    [ "Register", "d7/d5d/a22802.html#ad7c8338ae3f3e6680405652c3e5f7f06", null ]
 ];

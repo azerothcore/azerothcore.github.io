@@ -1,10 +1,7 @@
 var a14642 =
 [
-    [ "CurrId", "dc/d70/a14642.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
-    [ "DestId", "dc/d70/a14642.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
-    [ "o", "dc/d70/a14642.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
-    [ "spellId", "dc/d70/a14642.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
-    [ "x", "dc/d70/a14642.html#a41c7bdb057d984f552a41835651d84f5", null ],
-    [ "y", "dc/d70/a14642.html#abe083129d7a4e514e97eeae7cff40af5", null ],
-    [ "z", "dc/d70/a14642.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
+    [ "npc_hive_zara_larva", "dc/d70/a14642.html#a50fb5738d7b0818689216fee0915a0de", null ],
+    [ "JustSummoned", "dc/d70/a14642.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
+    [ "MovementInform", "dc/d70/a14642.html#a6890c58106450d654062f548a80cb42f", null ],
+    [ "_instance", "dc/d70/a14642.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
 ];

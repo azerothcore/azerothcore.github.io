@@ -1,6 +1,6 @@
 var a24274 =
 [
-    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/d9b/a24278.html", "d5/d9b/a24278" ],
-    [ "npc_pet_dk_dancing_rune_weapon", "d2/d1c/a24274.html#aaa0881509c2842d6c0442884d0947e28", null ],
-    [ "GetAI", "d2/d1c/a24274.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
+    [ "CheckProc", "d2/d1c/a24274.html#a451ceeda18638f88d2e0a24ac445f5e2", null ],
+    [ "PrepareAuraScript", "d2/d1c/a24274.html#a0a6d4617ff3351411f4e13f53876db31", null ],
+    [ "Register", "d2/d1c/a24274.html#a0e5d974111eeca075f38910223f5eaf4", null ]
 ];

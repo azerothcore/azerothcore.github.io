@@ -1,7 +1,11 @@
 var a23554 =
 [
-    [ "HandleOnApply", "d4/dcc/a23554.html#a4d14f81325ecd0bde345d60a135ad8ba", null ],
-    [ "HandleOnRemove", "d4/dcc/a23554.html#aed5f87523c58d94c8f98b76c06abb140", null ],
-    [ "PrepareAuraScript", "d4/dcc/a23554.html#ab32413873bec92540f9e85e8013b7ea2", null ],
-    [ "Register", "d4/dcc/a23554.html#a0653d8688f98822580a3243a0d47c17a", null ]
+    [ "boss_high_astromancer_solarian", "d4/dcc/a23554.html#a2db48cc179539f81b55188de08a7e180", null ],
+    [ "AttackStart", "d4/dcc/a23554.html#acaf94134aef553447e766a5e431c8b83", null ],
+    [ "JustDied", "d4/dcc/a23554.html#a510eb2e4f0770670d6767bc2545375b7", null ],
+    [ "JustEngagedWith", "d4/dcc/a23554.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
+    [ "JustSummoned", "d4/dcc/a23554.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
+    [ "KilledUnit", "d4/dcc/a23554.html#a561a78193615575b7e43e0f21387f1b8", null ],
+    [ "Reset", "d4/dcc/a23554.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
+    [ "UpdateAI", "d4/dcc/a23554.html#a07a76c34a978c31212390cf10ed3e382", null ]
 ];

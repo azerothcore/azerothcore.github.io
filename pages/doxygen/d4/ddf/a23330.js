@@ -1,7 +1,6 @@
 var a23330 =
 [
-    [ "HandleScript", "d4/ddf/a23330.html#a42052a416290a54d5479a402de578a73", null ],
-    [ "PrepareSpellScript", "d4/ddf/a23330.html#a5f6aa972879b65c0207e47435d436a33", null ],
-    [ "Register", "d4/ddf/a23330.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
-    [ "Validate", "d4/ddf/a23330.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "d8/dbc/a23334.html", "d8/dbc/a23334" ],
+    [ "instance_hellfire_ramparts", "d4/ddf/a23330.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
+    [ "GetInstanceScript", "d4/ddf/a23330.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
 ];

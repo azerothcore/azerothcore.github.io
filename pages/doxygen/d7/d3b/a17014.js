@@ -1,11 +1,7 @@
 var a17014 =
 [
-    [ "boss_moorabiAI", "d7/d3b/a17014.html#a60a03c3840a3743719996929d2ca9e59", null ],
-    [ "JustDied", "d7/d3b/a17014.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
-    [ "JustEngagedWith", "d7/d3b/a17014.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
-    [ "KilledUnit", "d7/d3b/a17014.html#a265855d2972e534e927bfa609fbf2cf5", null ],
-    [ "Reset", "d7/d3b/a17014.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
-    [ "SpellHitTarget", "d7/d3b/a17014.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
-    [ "UpdateAI", "d7/d3b/a17014.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
-    [ "events2", "d7/d3b/a17014.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
+    [ "HandleDummyTick", "d7/d3b/a17014.html#ac0aba414bc0f9f947b7bba9bd41f47b8", null ],
+    [ "PrepareAuraScript", "d7/d3b/a17014.html#a0e61ac6aa03aaad08d91883e587f1c40", null ],
+    [ "Register", "d7/d3b/a17014.html#a626900d1d0c8a471f4d100b2c2883a52", null ],
+    [ "Validate", "d7/d3b/a17014.html#aa6ea31d8757b42bdea42d30b758a9c6d", null ]
 ];

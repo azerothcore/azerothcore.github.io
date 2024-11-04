@@ -1,8 +1,6 @@
 var a15586 =
 [
-    [ "HandleScriptEffect", "de/d77/a15586.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "de/d77/a15586.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "de/d77/a15586.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "de/d77/a15586.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "de/d77/a15586.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "PrepareSpellScript", "de/d77/a15586.html#a2a3602af522bb8658c1bfdede1234efd", null ],
+    [ "Register", "de/d77/a15586.html#aba235111ea4e186064a85295466f2a3f", null ],
+    [ "SetDest", "de/d77/a15586.html#a89827e4db37bea4847c79265d95386c6", null ]
 ];

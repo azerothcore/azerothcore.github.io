@@ -1,11 +1,6 @@
 var a14258 =
 [
-    [ "HandleFinish", "df/dd5/a14258.html#ace3a2ad0cf8ac31f7ef5345f1dbbf6e7", null ],
-    [ "HandleScript", "df/dd5/a14258.html#a2a2f005c29f0381c3c45d04a75ccc378", null ],
-    [ "Load", "df/dd5/a14258.html#a177ea78202f4d5b4c381f1712b01fe43", null ],
-    [ "PrepareSpellScript", "df/dd5/a14258.html#a9714f48de3982feb245f78efb8008f1b", null ],
-    [ "Register", "df/dd5/a14258.html#ad24c159a0dcfb86eb35a4286f606a3ab", null ],
-    [ "ThrowNextTorch", "df/dd5/a14258.html#a6ea11852ede397c1ede1ebaabb906c35", null ],
-    [ "Validate", "df/dd5/a14258.html#a026fbf7123f6780459c19ff04b370b08", null ],
-    [ "handled", "df/dd5/a14258.html#a869fde9e5d0756d3c68a8db3e10ad50d", null ]
+    [ "HandleTriggerSpell", "df/dd5/a14258.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "df/dd5/a14258.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "df/dd5/a14258.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

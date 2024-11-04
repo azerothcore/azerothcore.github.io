@@ -1,9 +1,7 @@
 var a21830 =
 [
-    [ "npc_venture_co_stragglerAI", "db/ded/a21830.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
-    [ "Reset", "db/ded/a21830.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
-    [ "SpellHit", "db/ded/a21830.html#ae1919454c270d10342079b60a727a306", null ],
-    [ "UpdateAI", "db/ded/a21830.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
-    [ "_events", "db/ded/a21830.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
-    [ "_playerGUID", "db/ded/a21830.html#a649493944b143782d995b5bdda3714b4", null ]
+    [ "Absorb", "db/ded/a21830.html#a784b48553696734abac77545df2fc045", null ],
+    [ "CalculateAmount", "db/ded/a21830.html#a456ee99a71062f6217bda7561e4e7766", null ],
+    [ "PrepareAuraScript", "db/ded/a21830.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
+    [ "Register", "db/ded/a21830.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
 ];

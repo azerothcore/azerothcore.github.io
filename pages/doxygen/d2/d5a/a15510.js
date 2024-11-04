@@ -1,6 +1,5 @@
 var a15510 =
 [
-    [ "HandleSummon", "d2/d5a/a15510.html#a730e0c865f8c0c12544be951a48fe9ff", null ],
-    [ "PrepareSpellScript", "d2/d5a/a15510.html#a31271cd4668d3cbc4f4bdbeb693fe141", null ],
-    [ "Register", "d2/d5a/a15510.html#ae388ee1b08891f021ab1308ec7ffebaa", null ]
+    [ "achievement_respect_your_elders", "d2/d5a/a15510.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
+    [ "OnCheck", "d2/d5a/a15510.html#a770922be3ab19848f7a8f43a82d78b88", null ]
 ];

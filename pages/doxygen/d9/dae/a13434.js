@@ -1,6 +1,7 @@
 var a13434 =
 [
-    [ "npc_tyrion_spybotAI", "d3/d87/a13438.html", "d3/d87/a13438" ],
-    [ "npc_tyrion_spybot", "d9/dae/a13434.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
-    [ "GetAI", "d9/dae/a13434.html#af81b70437703edc8d99fe24249891dd6", null ]
+    [ "HandleScript", "d9/dae/a13434.html#acd4373ab762d00d262984c36190d6f93", null ],
+    [ "PrepareSpellScript", "d9/dae/a13434.html#a113216b272d0386f248a75bfcf30c6a3", null ],
+    [ "Register", "d9/dae/a13434.html#abbf65c0cabb06141a5856210f5ce5ab8", null ],
+    [ "Validate", "d9/dae/a13434.html#a5746fd6257dd10be58a61e0e8a2403be", null ]
 ];

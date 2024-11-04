@@ -1,5 +1,6 @@
 var a27270 =
 [
-    [ "item_mysterious_egg", "de/d4f/a27270.html#ac32e296dcb700f32f6d0296f2921e6c7", null ],
-    [ "OnExpire", "de/d4f/a27270.html#a5ea72284626826b75819f89b3b91c540", null ]
+    [ "spawnedCreatureEntry", "de/d4f/a27270.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "de/d4f/a27270.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "de/d4f/a27270.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

@@ -1,7 +1,8 @@
 var a12838 =
 [
-    [ "HandleAfterCast", "df/d72/a12838.html#afa662fbe1b777047259ac6212961f7a5", null ],
-    [ "HandleScript", "df/d72/a12838.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
-    [ "PrepareSpellScript", "df/d72/a12838.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
-    [ "Register", "df/d72/a12838.html#a4a898b0b096583af33f1f691a252b2ed", null ]
+    [ "CalcPeriodic", "df/d72/a12838.html#a9aaca3bb1d762c9bddf3b91205f48d00", null ],
+    [ "HandleDummyTick", "df/d72/a12838.html#acd3616df94f888ad5fb1c5b0607f6f25", null ],
+    [ "HandleUpdatePeriodic", "df/d72/a12838.html#a70ef86fd58eec1422bac6b61a4123842", null ],
+    [ "PrepareAuraScript", "df/d72/a12838.html#a9a97a6ab249728dbad4d3603640a7963", null ],
+    [ "Register", "df/d72/a12838.html#ab6b223ed68a521ea9a3cbc2a6e21ac49", null ]
 ];

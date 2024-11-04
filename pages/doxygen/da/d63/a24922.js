@@ -1,7 +1,7 @@
 var a24922 =
 [
-    [ "HandleEffectPeriodic", "da/d63/a24922.html#a3a2e7653276964fd36c93b41aa8f25ea", null ],
-    [ "PrepareAuraScript", "da/d63/a24922.html#a893a539f4eeb0b9f027c5a306cc7bd53", null ],
-    [ "Register", "da/d63/a24922.html#a36792fd068ec7444aa118ec63cf972a7", null ],
-    [ "Validate", "da/d63/a24922.html#aa57af116294cfba007586506ba1dbeb5", null ]
+    [ "CheckIfLanceEquipped", "da/d63/a24922.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
+    [ "PrepareSpellScript", "da/d63/a24922.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
+    [ "Register", "da/d63/a24922.html#a4421ceaedce16777f8f04b9c40855782", null ],
+    [ "Validate", "da/d63/a24922.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
 ];

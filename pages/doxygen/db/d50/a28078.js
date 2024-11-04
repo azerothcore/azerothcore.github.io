@@ -1,5 +1,9 @@
 var a28078 =
 [
-    [ "content", "db/d50/a28078.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
-    [ "ID", "db/d50/a28078.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
+    [ "Category", "db/d50/a28078.html#acd933f251a1faa1f705420307136681d", null ],
+    [ "Faction", "db/d50/a28078.html#a4876df0f9a92e10634b7bc0b389ade00", null ],
+    [ "Flags", "db/d50/a28078.html#a8b41ed573eae71196664a61bac83fe3e", null ],
+    [ "Id", "db/d50/a28078.html#ae0b89d5ae5f82b4f807a2f8dbbec351a", null ],
+    [ "Slot", "db/d50/a28078.html#a24449c3e3fd89ae3dbe4be3f64248115", null ],
+    [ "Type", "db/d50/a28078.html#aa1cbad19aaa973e21fdbd74cec5119f6", null ]
 ];

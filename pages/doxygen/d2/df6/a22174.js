@@ -1,9 +1,8 @@
 var a22174 =
 [
-    [ "npc_brunnhildar_prisonerAI", "d2/df6/a22174.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
-    [ "JustRespawned", "d2/df6/a22174.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
-    [ "Reset", "d2/df6/a22174.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
-    [ "SpellHit", "d2/df6/a22174.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
-    [ "UpdateAI", "d2/df6/a22174.html#a0702d4cf577ac00688a7b93bfe656952", null ],
-    [ "freed", "d2/df6/a22174.html#a46e03a19bac91a800154e3c873235800", null ]
+    [ "npc_feedin_da_goolzAI", "d2/df6/a22174.html#ada9ba6b4a0dfa5858b76986f8ebaa5d0", null ],
+    [ "UpdateAI", "d2/df6/a22174.html#a7cbe5e54620e2356601c09effbe22928", null ],
+    [ "checkTimer", "d2/df6/a22174.html#a834f91e84fc2dff6a07e46f0b677de3e", null ],
+    [ "findTimer", "d2/df6/a22174.html#a91b49f7c12fed4ddd958171187ccfb47", null ],
+    [ "ghoulFed", "d2/df6/a22174.html#adf256f6a4311f8b7cf6758259cc78f3f", null ]
 ];

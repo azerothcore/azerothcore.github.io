@@ -1,5 +1,6 @@
 var a17022 =
 [
-    [ "achievement_less_rabi", "df/d1d/a17022.html#aee43dd7623f7fecc20a0acb15f342a99", null ],
-    [ "OnCheck", "df/d1d/a17022.html#a16b200bf93fa2571c8b31359ad7ca151", null ]
+    [ "HandleScript", "df/d1d/a17022.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "df/d1d/a17022.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "df/d1d/a17022.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

@@ -1,7 +1,7 @@
 var a18298 =
 [
-    [ "npc_blazing_skeletonAI", "d3/d99/a18298.html#ad4f997a7a4cc0fa96594da35434fd921", null ],
-    [ "Reset", "d3/d99/a18298.html#a3bbc4cf7b6dbe11d6768a0fb0626e84a", null ],
-    [ "UpdateAI", "d3/d99/a18298.html#a0010c4befd13ec6beada0de1607f3f7a", null ],
-    [ "_events", "d3/d99/a18298.html#aab1b04989d5e3fc289f00bc121df193d", null ]
+    [ "npc_frost_freeze_trapAI", "d3/d99/a18298.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
+    [ "DoAction", "d3/d99/a18298.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
+    [ "UpdateAI", "d3/d99/a18298.html#ae8efccb090f38968f3c0ca51f022013b", null ],
+    [ "_events", "d3/d99/a18298.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
 ];

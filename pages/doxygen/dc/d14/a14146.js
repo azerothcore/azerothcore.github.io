@@ -1,6 +1,5 @@
 var a14146 =
 [
-    [ "npc_soh_fire_trigger", "dc/d14/a14146.html#a8bddde264f4848c9a8ed83dcad190223", null ],
-    [ "Reset", "dc/d14/a14146.html#acbec442907a8b40ae04496c53f210aa2", null ],
-    [ "SpellHit", "dc/d14/a14146.html#a6b96cc998d38c9fbf0ce93e0529c0f4c", null ]
+    [ "MidsummerPlayerScript", "dc/d14/a14146.html#ace19c3dfaec5aa5bdfab46552a759306", null ],
+    [ "OnUpdateZone", "dc/d14/a14146.html#af9b22522b5e3f9530482861f932c5489", null ]
 ];

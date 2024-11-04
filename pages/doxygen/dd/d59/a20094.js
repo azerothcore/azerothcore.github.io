@@ -1,7 +1,6 @@
 var a20094 =
 [
-    [ "HandleAfterEffectApply", "dd/d59/a20094.html#adab765d78094eec673abce5140145267", null ],
-    [ "OnApply", "dd/d59/a20094.html#aab4331a7a55dc6f713db02726ec22e3a", null ],
-    [ "PrepareAuraScript", "dd/d59/a20094.html#acb827ae4299ae482d9b7f3fb09bbcc52", null ],
-    [ "Register", "dd/d59/a20094.html#ac1007ce2ee5e046639829558855f0188", null ]
+    [ "FilterTargets", "dd/d59/a20094.html#ae8d940a89be9b63286911bd55dcd3844", null ],
+    [ "PrepareSpellScript", "dd/d59/a20094.html#a8f4b4d82e53c8f820b620896478681a9", null ],
+    [ "Register", "dd/d59/a20094.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
 ];

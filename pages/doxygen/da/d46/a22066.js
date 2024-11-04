@@ -1,6 +1,6 @@
 var a22066 =
 [
-    [ "npc_avatar_of_freya", "da/d46/a22066.html#a3a6c4f6d8f05d606c6f545d91acdb2c1", null ],
-    [ "OnGossipHello", "da/d46/a22066.html#a020e8e41b32eb65ff906c9ca934a03fe", null ],
-    [ "OnGossipSelect", "da/d46/a22066.html#aba1b13e922873e939b2510b4bc77f49d", null ]
+    [ "HandleScriptEffect", "da/d46/a22066.html#a66849cb61f056e861d8887dc98f6ccbf", null ],
+    [ "PrepareSpellScript", "da/d46/a22066.html#afa4ad1b205bf963b4230881738baf938", null ],
+    [ "Register", "da/d46/a22066.html#a0d8925effced854471e2fbec9c631b91", null ]
 ];

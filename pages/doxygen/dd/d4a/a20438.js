@@ -1,6 +1,6 @@
 var a20438 =
 [
-    [ "boss_thorim_lightning_orbAI", "d8/df3/a20442.html", "d8/df3/a20442" ],
-    [ "boss_thorim_lightning_orb", "dd/d4a/a20438.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
-    [ "GetAI", "dd/d4a/a20438.html#ad24d28866145c4fccf7a3971856fa87f", null ]
+    [ "npc_xt002_pummellerAI", "d8/df3/a20442.html", "d8/df3/a20442" ],
+    [ "npc_xt002_pummeller", "dd/d4a/a20438.html#af620e31a231ca8fb812324521bad4673", null ],
+    [ "GetAI", "dd/d4a/a20438.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
 ];

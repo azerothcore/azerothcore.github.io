@@ -1,22 +1,5 @@
 var a14646 =
 [
-    [ "boss_onyxia", "df/ded/a14646.html#ab46b86e0eeee3918d1308a1fdb48e22f", null ],
-    [ "CheckInRoom", "df/ded/a14646.html#a4278354db54db2190f8e5639d51f180e", null ],
-    [ "DamageTaken", "df/ded/a14646.html#abf2607b4eb644bd42edc9e723ec92ef4", null ],
-    [ "DoAction", "df/ded/a14646.html#a9e6a94b225caf455f9072c3a430ba49e", null ],
-    [ "HandleWhelpSpam", "df/ded/a14646.html#aa03a986845d79dba3c60446d84ec7189", null ],
-    [ "Initialize", "df/ded/a14646.html#ae64cfe5c532c4eae8e76c4ddd845e278", null ],
-    [ "JustEngagedWith", "df/ded/a14646.html#a1dff56a293babebe82b3947c53a1e0e9", null ],
-    [ "JustSummoned", "df/ded/a14646.html#a424a1815a0f51097c184f7582f1b2f45", null ],
-    [ "MovementInform", "df/ded/a14646.html#a1413f44b212b651f276ecb1e2f01c36a", null ],
-    [ "Reset", "df/ded/a14646.html#a837fb19b4c85d87ebf026b2f692696bb", null ],
-    [ "SetPhase", "df/ded/a14646.html#a7b0df8fb7524d223c14f360c2eb9e282", null ],
-    [ "SpellHitTarget", "df/ded/a14646.html#ace3d7dd677a4716e13f4c0c1c5944471", null ],
-    [ "UpdateAI", "df/ded/a14646.html#ad04fc48bd1aa5ffa5570c0e44b2a112c", null ],
-    [ "bManyWhelpsAvailable", "df/ded/a14646.html#a78565986741d7225de01c283613ba8f2", null ],
-    [ "CurrentWP", "df/ded/a14646.html#a1b1544c5aea342607a8bc83b49396340", null ],
-    [ "Phase", "df/ded/a14646.html#a3b10bf8659039752648b2035da7808d6", null ],
-    [ "whelpCount", "df/ded/a14646.html#a447ca146d4fad7506a274dea1068ec84", null ],
-    [ "whelpSpam", "df/ded/a14646.html#ab465e9d7dd63ca51559b9b8f1ed9921e", null ],
-    [ "whelpSpamTimer", "df/ded/a14646.html#a0990000f7fd0041b8da642d1dd714406", null ]
+    [ "npc_hive_zara_swarmer", "df/ded/a14646.html#a374fa63e210e0be8a074af9199126a9e", null ],
+    [ "PathEndReached", "df/ded/a14646.html#a3b3510bd00853395b756e1d83d96a474", null ]
 ];

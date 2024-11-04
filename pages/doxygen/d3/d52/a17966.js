@@ -1,5 +1,6 @@
 var a17966 =
 [
-    [ "FrozenThroneResetWorker", "d3/d52/a17966.html#afd21e9c1449d4e391713256e197bc92b", null ],
-    [ "operator()", "d3/d52/a17966.html#a7119548d30d760ae817a87cacf712cf6", null ]
+    [ "npc_icc_ice_sphereAI", "d5/dd4/a17970.html", "d5/dd4/a17970" ],
+    [ "npc_icc_ice_sphere", "d3/d52/a17966.html#a4ed169ba87e801bb83ca4f3c457534cf", null ],
+    [ "GetAI", "d3/d52/a17966.html#aabb9ef14ea217f282173edf1600d3ecd", null ]
 ];

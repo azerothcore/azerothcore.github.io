@@ -1,7 +1,8 @@
 var a26786 =
 [
-    [ "HandleDummy", "d1/d91/a26786.html#a3af91500357eb127f813334bdf538dbd", null ],
-    [ "PrepareSpellScript", "d1/d91/a26786.html#ae34ff5e6027efecc34fa770690df5887", null ],
-    [ "Register", "d1/d91/a26786.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
-    [ "Validate", "d1/d91/a26786.html#a0b107442c0b76a018cc019f776c0b785", null ]
+    [ "CharacterActionIpLogger", "d1/d91/a26786.html#a39861f7348a79031a8215b435ba81059", null ],
+    [ "CharacterIPLogAction", "d1/d91/a26786.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
+    [ "OnCreate", "d1/d91/a26786.html#ae25875eed131046444874c4109619748", null ],
+    [ "OnLogin", "d1/d91/a26786.html#af430f10fe536ac40df50bc9424a7decb", null ],
+    [ "OnLogout", "d1/d91/a26786.html#aca289740b022dcaa0ae681327785cb72", null ]
 ];

@@ -1,5 +1,6 @@
 var a20130 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "de/d45/a20130.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "de/d45/a20130.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "npc_ulduar_vx001AI", "db/d2e/a20134.html", "db/d2e/a20134" ],
+    [ "npc_ulduar_vx001", "de/d45/a20130.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
+    [ "GetAI", "de/d45/a20130.html#acdab817141b851deb09861230323ee58", null ]
 ];

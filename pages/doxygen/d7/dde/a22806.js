@@ -1,6 +1,7 @@
 var a22806 =
 [
-    [ "boss_essence_of_angerAI", "db/d4a/a22810.html", "db/d4a/a22810" ],
-    [ "boss_essence_of_anger", "d7/dde/a22806.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "d7/dde/a22806.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "HandleEffectRemove", "d7/dde/a22806.html#a070e0dacb457d7dc0bd61594f0ed6d83", null ],
+    [ "PrepareAuraScript", "d7/dde/a22806.html#ac30073d35c40385a24b694012776391e", null ],
+    [ "Register", "d7/dde/a22806.html#ae66eceece2812aee47acb386735f50a0", null ],
+    [ "Validate", "d7/dde/a22806.html#af26c0361e6b7e480f59563d8630d6736", null ]
 ];

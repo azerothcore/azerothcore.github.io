@@ -1,7 +1,6 @@
 var a15918 =
 [
-    [ "TwilightCutterSelector", "d3/d6c/a15918.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
-    [ "operator()", "d3/d6c/a15918.html#a6374425df156bdf202d53a2c73ef784c", null ],
-    [ "_caster", "d3/d6c/a15918.html#a784c95ef6472e711f4200f194222d179", null ],
-    [ "_cutterCaster", "d3/d6c/a15918.html#a7f713777a36a8d127c2865e4610b1288", null ]
+    [ "boss_paletressAI", "d3/d87/a15922.html", "d3/d87/a15922" ],
+    [ "boss_paletress", "d3/d6c/a15918.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
+    [ "GetAI", "d3/d6c/a15918.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
 ];

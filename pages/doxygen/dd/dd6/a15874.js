@@ -1,7 +1,6 @@
 var a15874 =
 [
-    [ "HandlePeriodic", "dd/dd6/a15874.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
-    [ "PrepareAuraScript", "dd/dd6/a15874.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
-    [ "Register", "dd/dd6/a15874.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
-    [ "Validate", "dd/dd6/a15874.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
+    [ "npc_living_infernoAI", "d3/db4/a15878.html", "d3/db4/a15878" ],
+    [ "npc_living_inferno", "dd/dd6/a15874.html#a7df2bb522e67b6f1864604c7b0182078", null ],
+    [ "GetAI", "dd/dd6/a15874.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
 ];

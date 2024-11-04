@@ -1,7 +1,7 @@
 var a22598 =
 [
-    [ "HandleProc", "d2/db8/a22598.html#a4d12ab1b286105fdad5eb2dd20131408", null ],
-    [ "PrepareAuraScript", "d2/db8/a22598.html#a94b6499dc2e1fa95a50bd9c3c491e858", null ],
-    [ "Register", "d2/db8/a22598.html#a6b764182501a1d192f90dc20bbd6549e", null ],
-    [ "Validate", "d2/db8/a22598.html#ad89123425cca5bd02a18526a11595a1a", null ]
+    [ "PrepareAuraScript", "d2/db8/a22598.html#ae6879f1d8c27f19cf3e3ada0b34d568f", null ],
+    [ "ReflectDamage", "d2/db8/a22598.html#acde2cbf4d196cba1fa2c02393c08fe9f", null ],
+    [ "Register", "d2/db8/a22598.html#aa1f27d25209f14dd8bf711bc15cb9165", null ],
+    [ "Validate", "d2/db8/a22598.html#aa730b912aadcde53f6cd94c2a8c99493", null ]
 ];

@@ -1,6 +1,6 @@
 var a16842 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "dc/d5a/a16846.html", "dc/d5a/a16846" ],
-    [ "npc_pos_deathwhisper_necrolyte", "d0/dd4/a16842.html#a0dcdb5b1dfed44f74b04663758b531a0", null ],
-    [ "GetAI", "d0/dd4/a16842.html#ae765669f95f4f14b393b88bf7ecbbfd6", null ]
+    [ "entry", "d0/dd4/a16842.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "d0/dd4/a16842.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "d0/dd4/a16842.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

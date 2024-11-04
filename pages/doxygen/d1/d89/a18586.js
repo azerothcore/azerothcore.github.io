@@ -1,6 +1,7 @@
 var a18586 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "d8/d3c/a18590.html", "d8/d3c/a18590" ],
-    [ "npc_icc_skybreaker_luminary", "d1/d89/a18586.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
-    [ "GetAI", "d1/d89/a18586.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
+    [ "DelayedCastMincharEvent", "d1/d89/a18586.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "d1/d89/a18586.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "d1/d89/a18586.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "d1/d89/a18586.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

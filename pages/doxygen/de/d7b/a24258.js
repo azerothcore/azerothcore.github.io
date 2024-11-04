@@ -1,6 +1,6 @@
 var a24258 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d5/df0/a24262.html", "d5/df0/a24262" ],
-    [ "npc_pet_dk_risen_ally", "de/d7b/a24258.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
-    [ "GetAI", "de/d7b/a24258.html#a7aca5d410a1a28241943914a0d1c71df", null ]
+    [ "HandleAfterCast", "de/d7b/a24258.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "de/d7b/a24258.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "de/d7b/a24258.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

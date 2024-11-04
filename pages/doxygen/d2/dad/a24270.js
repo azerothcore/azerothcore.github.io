@@ -1,5 +1,6 @@
 var a24270 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d2/dad/a24270.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
-    [ "InitializeAI", "d2/dad/a24270.html#af3ecec126ed3d902acd4bfe979382307", null ]
+    [ "PrepareSpellScript", "d2/dad/a24270.html#ad6190cf9ab80ebfd982c1b166d950656", null ],
+    [ "Register", "d2/dad/a24270.html#a4b349a325759517c35d04202e5df9cec", null ],
+    [ "SetDest", "d2/dad/a24270.html#a951f733ab2452655a3b579f8ed190fb0", null ]
 ];

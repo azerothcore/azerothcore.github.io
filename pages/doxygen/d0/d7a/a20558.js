@@ -1,9 +1,6 @@
 var a20558 =
 [
-    [ "npc_xt002_pummellerAI", "d0/d7a/a20558.html#a2942c05c93036c2e02b9a72c784441b1", null ],
-    [ "Reset", "d0/d7a/a20558.html#a6542fb3e585f100f06f6be14a1346306", null ],
-    [ "UpdateAI", "d0/d7a/a20558.html#a959990310303ff2102f1c03852b4ab8e", null ],
-    [ "_arcingSmashTimer", "d0/d7a/a20558.html#a830fda66756dc3f34a530939116e7556", null ],
-    [ "_trampleTimer", "d0/d7a/a20558.html#ae5e450601861f83b20419405bb92ef6d", null ],
-    [ "_uppercutTimer", "d0/d7a/a20558.html#a5a1bdb380438070effc091ec37db6aec", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "d1/d93/a20562.html", "d1/d93/a20562" ],
+    [ "boss_yoggsaron_corruptor_tentacle", "d0/d7a/a20558.html#a86fbf881f0a861124dda085347bb03bd", null ],
+    [ "GetAI", "d0/d7a/a20558.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
 ];

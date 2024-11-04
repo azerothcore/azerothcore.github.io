@@ -1,8 +1,7 @@
 var a13470 =
 [
-    [ "npc_varian_wrynnAI", "d8/dd2/a13474.html", "d8/dd2/a13474" ],
-    [ "npc_varian_wrynn", "d4/d7f/a13470.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
-    [ "GetAI", "d4/d7f/a13470.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
-    [ "OnGossipHello", "d4/d7f/a13470.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
-    [ "OnGossipSelect", "d4/d7f/a13470.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
+    [ "npc_daphne_stilwellAI", "d8/dd2/a13474.html", "d8/dd2/a13474" ],
+    [ "npc_daphne_stilwell", "d4/d7f/a13470.html#ad844c5f0409936d7068ee55271506041", null ],
+    [ "GetAI", "d4/d7f/a13470.html#af1872100f3eeb14e894277cfc8e1a74b", null ],
+    [ "OnQuestAccept", "d4/d7f/a13470.html#ad7b293efc802506a825f202e34cb0f4d", null ]
 ];

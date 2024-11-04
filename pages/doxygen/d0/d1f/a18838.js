@@ -1,6 +1,10 @@
 var a18838 =
 [
-    [ "FilterTargets", "d0/d1f/a18838.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
-    [ "PrepareSpellScript", "d0/d1f/a18838.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
-    [ "Register", "d0/d1f/a18838.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
+    [ "boss_razuvious_minionAI", "d0/d1f/a18838.html#a6f9fc7dad68f35846ee76d4bff564407", null ],
+    [ "DoAction", "d0/d1f/a18838.html#a93cfa3f706ffadd94ad4dbe0585eebf1", null ],
+    [ "JustEngagedWith", "d0/d1f/a18838.html#ada2e7a5ac1f129572a0689afce49d310", null ],
+    [ "KilledUnit", "d0/d1f/a18838.html#ab1a6f582098c9d1218551af0aae1815d", null ],
+    [ "Reset", "d0/d1f/a18838.html#a170de8517a03a0e78b1e67652869fd9a", null ],
+    [ "ScheduleAttackDummy", "d0/d1f/a18838.html#abed82c71605d7c57bf29cedc21fc6b24", null ],
+    [ "UpdateAI", "d0/d1f/a18838.html#ad56fca0ae00fba6e575baefd72c7a8d0", null ]
 ];

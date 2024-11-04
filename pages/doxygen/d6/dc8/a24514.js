@@ -1,8 +1,9 @@
 var a24514 =
 [
-    [ "HandleEffectApply", "d6/dc8/a24514.html#a88e98bcb11fb16696f789878f79c665c", null ],
-    [ "HandleEffectRemove", "d6/dc8/a24514.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2", null ],
-    [ "PrepareAuraScript", "d6/dc8/a24514.html#a64f9e0f3d0376342767b912e32642c6c", null ],
-    [ "Register", "d6/dc8/a24514.html#a72d6639589588282ea15cfe83c9e9b76", null ],
-    [ "Validate", "d6/dc8/a24514.html#ac936c92c3a24fba95505243cd3e79c21", null ]
+    [ "Absorb", "d6/dc8/a24514.html#a8f6e773840274e07d685c891561f72d8", null ],
+    [ "CalculateAmount", "d6/dc8/a24514.html#af337ef5d5cea283f4e43b943961838d6", null ],
+    [ "Load", "d6/dc8/a24514.html#a65f51613dd3614f5b0e3e1dc938f56cf", null ],
+    [ "PrepareAuraScript", "d6/dc8/a24514.html#a5c2eca05834a29fa6d5d7dd3c75e52ed", null ],
+    [ "Register", "d6/dc8/a24514.html#a80982626e1b67374629cb6e0800ccaea", null ],
+    [ "absorbPct", "d6/dc8/a24514.html#a7ce98d22bb4a28f94366b4c08f76b61a", null ]
 ];

@@ -1,10 +1,8 @@
 var a16490 =
 [
-    [ "boss_tharon_jaAI", "d8/d4c/a16490.html#a03025fa529e932f23479ff19b0cd8238", null ],
-    [ "DoAction", "d8/d4c/a16490.html#a655fd83c2d671847fea9ae393c132fb9", null ],
-    [ "JustDied", "d8/d4c/a16490.html#a7928b5db061f1073e1decc2d40601195", null ],
-    [ "JustEngagedWith", "d8/d4c/a16490.html#aab194a8f802eeb625d1a74960acbe154", null ],
-    [ "KilledUnit", "d8/d4c/a16490.html#a41e929a3768768eb06bafdee3269fd24", null ],
-    [ "Reset", "d8/d4c/a16490.html#a272e8565a9b00a27505b301d52814eee", null ],
-    [ "UpdateAI", "d8/d4c/a16490.html#a6f482cabcb0bd56711878a5ea297b950", null ]
+    [ "npc_fos_leaderAI", "d1/d57/a16494.html", "d1/d57/a16494" ],
+    [ "npc_fos_leader", "d8/d4c/a16490.html#a4223072bc180e990ff9e01bf772def5b", null ],
+    [ "GetAI", "d8/d4c/a16490.html#a6eca5c95aa3a8498790d8bf52f0741f8", null ],
+    [ "OnGossipHello", "d8/d4c/a16490.html#a3858054505d439902624378b9355f40d", null ],
+    [ "OnGossipSelect", "d8/d4c/a16490.html#a1b743c6f270a2bdbd09940a414a1b437", null ]
 ];

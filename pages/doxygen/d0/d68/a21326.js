@@ -1,8 +1,7 @@
 var a21326 =
 [
-    [ "npc_azure_raiderAI", "d0/d68/a21326.html#a6928428a9dc1ed483a682c8f2a281ebf", null ],
-    [ "Reset", "d0/d68/a21326.html#a80d9e586e5c03d19b6b9f0e0f7607b20", null ],
-    [ "UpdateAI", "d0/d68/a21326.html#a2e9833d0d25fd8c442f7ab279de6a40a", null ],
-    [ "uiConcussionBlowTimer", "d0/d68/a21326.html#a4e7dfb8d4991bf7ad3d0eeb72dff770b", null ],
-    [ "uiMagicReflectionTimer", "d0/d68/a21326.html#acb262ab506ea58201abfe2057525c548", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d0/d68/a21326.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "d0/d68/a21326.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "d0/d68/a21326.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "d0/d68/a21326.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

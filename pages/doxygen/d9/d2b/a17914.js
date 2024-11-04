@@ -1,17 +1,8 @@
 var a17914 =
 [
-    [ "npc_rimefangAI", "d9/d2b/a17914.html#ae89b397bafdcb06e94fa94c18ef0d2c8", null ],
-    [ "DoAction", "d9/d2b/a17914.html#a79d34453b3ace5c1f80b12b862890e3c", null ],
-    [ "InitializeAI", "d9/d2b/a17914.html#ae515d0b1d383c48e40fa4795edd1b247", null ],
-    [ "JustDied", "d9/d2b/a17914.html#ab3cd1550cda44cecf889f4bf28f976ba", null ],
-    [ "JustEngagedWith", "d9/d2b/a17914.html#ad161bb0a6c76d223b1e687a1cc604375", null ],
-    [ "JustReachedHome", "d9/d2b/a17914.html#a7b15a9c6db1a48c3766afcb41d66b61f", null ],
-    [ "JustRespawned", "d9/d2b/a17914.html#a47ed52a4a0511d7b1e3eb4bd5da409ca", null ],
-    [ "MovementInform", "d9/d2b/a17914.html#aacd146fbfac94b8f82b3971ff74644cc", null ],
-    [ "Reset", "d9/d2b/a17914.html#a8956324e2806393d26bf146f4e2c48b0", null ],
-    [ "UpdateAI", "d9/d2b/a17914.html#a00872042199924a14089c1057c479ff7", null ],
-    [ "_events", "d9/d2b/a17914.html#ade0c279565236eb3fd59fd43eef4c3e1", null ],
-    [ "_icyBlastCounter", "d9/d2b/a17914.html#aef3e7d4cd3d23f407ef4ba5aa5c737c9", null ],
-    [ "_instance", "d9/d2b/a17914.html#ad12541907c439117cf8c8a6741c07445", null ],
-    [ "_summoned", "d9/d2b/a17914.html#aa27dd1e338145a65915262a8d44f7519", null ]
+    [ "FilterTargets", "d9/d2b/a17914.html#a242fa53c2da9ac557623281bccf2af92", null ],
+    [ "HandleSendEvent", "d9/d2b/a17914.html#a6120e057e2ee39d34eaeab79782add8d", null ],
+    [ "Load", "d9/d2b/a17914.html#af48cdbf87d61cf6d8392f65ae4c9b18a", null ],
+    [ "PrepareSpellScript", "d9/d2b/a17914.html#a0846e73f467d9c3a63b5e9a5d795aa37", null ],
+    [ "Register", "d9/d2b/a17914.html#ae83950dfc35f7c1e64806d6ec273083c", null ]
 ];

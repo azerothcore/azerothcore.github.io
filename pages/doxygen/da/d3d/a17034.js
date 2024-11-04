@@ -1,7 +1,6 @@
 var a17034 =
 [
-    [ "HandlePeriodic", "da/d3d/a17034.html#a2087e4de62f7aabb72315e92c28c7bd6", null ],
-    [ "PrepareAuraScript", "da/d3d/a17034.html#ab71db011b1cc1f3a2e85cd6b6f115242", null ],
-    [ "Register", "da/d3d/a17034.html#ad8a16d599a11fa4409d132f66e37e04e", null ],
-    [ "Validate", "da/d3d/a17034.html#afe821a7eb4eaf959d803c7c846f3bdf0", null ]
+    [ "ChangeSummonPos", "da/d3d/a17034.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "da/d3d/a17034.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "da/d3d/a17034.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

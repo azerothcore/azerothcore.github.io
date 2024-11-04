@@ -1,7 +1,7 @@
 var a18774 =
 [
-    [ "OnApply", "d9/db8/a18774.html#a72a01dea703436b2a220a9976da60fa6", null ],
-    [ "PrepareAuraScript", "d9/db8/a18774.html#adb17425258d4fb2c0c464236e15f32d7", null ],
-    [ "Register", "d9/db8/a18774.html#af026c126029c68ed8b7c6c1886720e4c", null ],
-    [ "Validate", "d9/db8/a18774.html#a5674396828adf4e80102ed2277f1e08a", null ]
+    [ "HandleScript", "d9/db8/a18774.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
+    [ "PrepareAuraScript", "d9/db8/a18774.html#aa3053519be0101f55450d76b1291f0f7", null ],
+    [ "Register", "d9/db8/a18774.html#ada596a7f19115c7178fd07fb9e956f58", null ],
+    [ "Validate", "d9/db8/a18774.html#a768dec18bc0e879c457a64135ec27ad9", null ]
 ];

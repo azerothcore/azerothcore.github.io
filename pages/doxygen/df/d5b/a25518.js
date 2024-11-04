@@ -1,6 +1,6 @@
 var a25518 =
 [
-    [ "HandleOnEffectHit", "df/d5b/a25518.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
-    [ "PrepareSpellScript", "df/d5b/a25518.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
-    [ "Register", "df/d5b/a25518.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
+    [ "CheckSinkholes", "df/d5b/a25518.html#a5c363144cde9e809d97730f54873fe85", null ],
+    [ "PrepareSpellScript", "df/d5b/a25518.html#a0cd1fc05ee319b04299fcebe3a405bb4", null ],
+    [ "Register", "df/d5b/a25518.html#a6694fbf58b776b74df0a54cd96141688", null ]
 ];

@@ -1,7 +1,7 @@
 var a02192 =
 [
-    [ "boss_felblood_kaelthas", "df/d91/a12466.html", "df/d91/a12466" ],
-    [ "spell_mt_phoenix_burn", "df/d92/a12470.html", "df/d92/a12470" ],
+    [ "boss_felblood_kaelthas", "da/dd9/a12462.html", "da/dd9/a12462" ],
+    [ "spell_mt_phoenix_burn", "df/d91/a12466.html", "df/d91/a12466" ],
     [ "Misc", "dc/da6/a02192.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d0/d2b/a01997.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/da8/a01865.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

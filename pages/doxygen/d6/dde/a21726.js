@@ -1,6 +1,8 @@
 var a21726 =
 [
-    [ "npc_q24545_vegardAI", "d3/d34/a21730.html", "d3/d34/a21730" ],
-    [ "npc_q24545_vegard", "d6/dde/a21726.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "d6/dde/a21726.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "HandleEffectApply", "d6/dde/a21726.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
+    [ "HandleEffectPeriodic", "d6/dde/a21726.html#a183976530ebf604656db12e41449427e", null ],
+    [ "PrepareAuraScript", "d6/dde/a21726.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
+    [ "Register", "d6/dde/a21726.html#a76be53d506933d4b3c758578b7c33d5f", null ],
+    [ "_posZ", "d6/dde/a21726.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
 ];

@@ -1,6 +1,6 @@
 var a17650 =
 [
-    [ "npc_gas_cloudAI", "d9/ddb/a17654.html", "d9/ddb/a17654" ],
-    [ "npc_gas_cloud", "d0/db3/a17650.html#a99c887cb8a5cc87bbfca026447368b8e", null ],
-    [ "GetAI", "d0/db3/a17650.html#a1c76a148f9c1acec473f102b6a24e3bb", null ]
+    [ "npc_little_oozeAI", "d9/ddb/a17654.html", "d9/ddb/a17654" ],
+    [ "npc_little_ooze", "d0/db3/a17650.html#a9b0849057c1d3dd9f6507b9c80e67a66", null ],
+    [ "GetAI", "d0/db3/a17650.html#a3e56c6dbad6239485897655a4bfbbe07", null ]
 ];

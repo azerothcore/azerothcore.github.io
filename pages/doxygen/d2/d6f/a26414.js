@@ -1,6 +1,7 @@
 var a26414 =
 [
-    [ "HandleScript", "d2/d6f/a26414.html#a54c724bd8786c894ecaa584c164c2e53", null ],
-    [ "PrepareSpellScript", "d2/d6f/a26414.html#a4505b9196609ae9339fe7e5948963663", null ],
-    [ "Register", "d2/d6f/a26414.html#ae293d6a2a477f716f357516781246069", null ]
+    [ "CheckProc", "d2/d6f/a26414.html#a4efa486733390dea566e1169902db915", null ],
+    [ "PrepareAuraScript", "d2/d6f/a26414.html#a241b65bdcb6aefa4e37b61c5007149f6", null ],
+    [ "Register", "d2/d6f/a26414.html#a5c70bb3ff8d2c3d9a2ab8aad729917bb", null ],
+    [ "Validate", "d2/d6f/a26414.html#a7c5d82eba0bba896294cffc94843414c", null ]
 ];

@@ -1,9 +1,6 @@
 var a19726 =
 [
-    [ "npc_hodirs_furyAI", "d1/d41/a19726.html#ae08a68a79a3fef952f6dfa50b4eaabca", null ],
-    [ "MovementInform", "d1/d41/a19726.html#a37b07ddee5403ee2de8f69904412ed42", null ],
-    [ "Reset", "d1/d41/a19726.html#a389f0f17fbc7860c5531f4859be561d3", null ],
-    [ "UpdateAI", "d1/d41/a19726.html#a5417d68891ad0f93c8130c9a14d57513", null ],
-    [ "_switchTargetTimer", "d1/d41/a19726.html#a8d15c1e290438c8a4aa50887cfffccba", null ],
-    [ "_timeToHit", "d1/d41/a19726.html#a594356602bd0068fba82bea64e284837", null ]
+    [ "CheckCast", "d1/d41/a19726.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
+    [ "PrepareSpellScript", "d1/d41/a19726.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
+    [ "Register", "d1/d41/a19726.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
 ];

@@ -1,8 +1,7 @@
 var a18982 =
 [
-    [ "npc_teslaAI", "d0/df8/a18982.html#a7281220648af1357b1377d6f7874d663", null ],
-    [ "DamageTaken", "d0/df8/a18982.html#aa3ab570e86261bc3178e17109d76af12", null ],
-    [ "EnterEvadeMode", "d0/df8/a18982.html#acc8115216989b34593a9435eeb051eda", null ],
-    [ "JustEngagedWith", "d0/df8/a18982.html#add93f68bc96b3c93dc0a3271543711e6", null ],
-    [ "UpdateAI", "d0/df8/a18982.html#a962745569b07e368067ee483d2379840", null ]
+    [ "EoEDrakeEnterVehicleEvent", "d0/df8/a18982.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
+    [ "Execute", "d0/df8/a18982.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
+    [ "_owner", "d0/df8/a18982.html#ab48302fdff800afddfeec2c0d756873c", null ],
+    [ "_playerGUID", "d0/df8/a18982.html#add56bff0695453e01f300e0434a39ec8", null ]
 ];

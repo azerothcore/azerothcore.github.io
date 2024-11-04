@@ -1,8 +1,8 @@
 var a15014 =
 [
-    [ "npc_obsidian_nullifier", "d8/db2/a15014.html#a9dbb6d681e348057564750fcd7e8050a", null ],
-    [ "JustEngagedWith", "d8/db2/a15014.html#ad3e30a214a9bcb6ea13d3a78716b5cb1", null ],
-    [ "Reset", "d8/db2/a15014.html#a9897eab3b71dd0a6a2ea598951b095cd", null ],
-    [ "UpdateAI", "d8/db2/a15014.html#a37cf1d335dd3735b262e82828c4f904a", null ],
-    [ "_targetGUIDs", "d8/db2/a15014.html#aaf125742bf9d17ec0b605b78dee39c7c", null ]
+    [ "npc_injured_draeneiAI", "d8/db2/a15014.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "d8/db2/a15014.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "d8/db2/a15014.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "d8/db2/a15014.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "d8/db2/a15014.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

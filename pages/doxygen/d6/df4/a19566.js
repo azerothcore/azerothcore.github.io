@@ -1,6 +1,6 @@
 var a19566 =
 [
-    [ "PrepareSpellScript", "d6/df4/a19566.html#af7426e99a49f8618fc38242ded7132f1", null ],
-    [ "RecalculateDamage", "d6/df4/a19566.html#a94e70b20f2139f668227dccb623c1af6", null ],
-    [ "Register", "d6/df4/a19566.html#acd911f78780e052d88f5f47574092d62", null ]
+    [ "boss_flame_leviathanAI", "d8/d11/a19570.html", "d8/d11/a19570" ],
+    [ "boss_flame_leviathan", "d6/df4/a19566.html#af4fcd38fc7095701c6c31674d849aef4", null ],
+    [ "GetAI", "d6/df4/a19566.html#a3a402b002472bfe4347b512f21654c50", null ]
 ];

@@ -1,5 +1,6 @@
 var a25378 =
 [
-    [ "PrepareSpellScript", "d6/d42/a25378.html#acb39fd85035670fb98dcea66c29b2ff7", null ],
-    [ "Register", "d6/d42/a25378.html#a7fe416070962ba582d59ddff70c13590", null ]
+    [ "HandleOnEffectHit", "d6/d42/a25378.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
+    [ "PrepareSpellScript", "d6/d42/a25378.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
+    [ "Register", "d6/d42/a25378.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
 ];

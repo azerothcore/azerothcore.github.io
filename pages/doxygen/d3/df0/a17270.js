@@ -1,5 +1,6 @@
 var a17270 =
 [
-    [ "achievement_ive_gone_and_made_a_mess", "d3/df0/a17270.html#a0e71ea3afae02176f81231e51155c038", null ],
-    [ "OnCheck", "d3/df0/a17270.html#a638cead986783523c7c35ecb9d885b11", null ]
+    [ "npc_igb_ship_crewAI", "d3/df0/a17270.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "d3/df0/a17270.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "d3/df0/a17270.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

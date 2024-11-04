@@ -1,16 +1,6 @@
 var a21258 =
 [
-    [ "boss_zuramatAI", "d6/da8/a21258.html#ab4c04fec01023295946d170a466d1c48", null ],
-    [ "EnterEvadeMode", "d6/da8/a21258.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
-    [ "JustDied", "d6/da8/a21258.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
-    [ "JustEngagedWith", "d6/da8/a21258.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
-    [ "JustSummoned", "d6/da8/a21258.html#a6e925207ddc112f7dd7044c08023f90e", null ],
-    [ "KilledUnit", "d6/da8/a21258.html#adb79f8c244f57b88848dd44b592faf41", null ],
-    [ "MoveInLineOfSight", "d6/da8/a21258.html#aa3ef3256d203d264dee12eff4491a28c", null ],
-    [ "Reset", "d6/da8/a21258.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
-    [ "SummonedCreatureDespawn", "d6/da8/a21258.html#a242f814bfec2e937e1338097e78080e3", null ],
-    [ "UpdateAI", "d6/da8/a21258.html#adb591699b7d8ece0b1775afd40a4181b", null ],
-    [ "events", "d6/da8/a21258.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
-    [ "pInstance", "d6/da8/a21258.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
-    [ "summons", "d6/da8/a21258.html#a42cb09654095c8a157720f99e7957102", null ]
+    [ "npc_iruk", "d6/da8/a21258.html#a721aeefd23371cc6bc16738a797bf50a", null ],
+    [ "OnGossipHello", "d6/da8/a21258.html#a774669099330c75ab5e0bea8d460f517", null ],
+    [ "OnGossipSelect", "d6/da8/a21258.html#ae6f7d54d224488a9e29c59c560eba471", null ]
 ];

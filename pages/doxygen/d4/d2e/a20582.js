@@ -1,7 +1,6 @@
 var a20582 =
 [
-    [ "FilterTargets", "d4/d2e/a20582.html#a582691eca81b6db6d78ca925ad8fb084", null ],
-    [ "PrepareSpellScript", "d4/d2e/a20582.html#a28ce9d2750c79b2b0061b00df5ae9e8b", null ],
-    [ "RecalculateDamage", "d4/d2e/a20582.html#a02c1af0414de344056b2375488f23c01", null ],
-    [ "Register", "d4/d2e/a20582.html#a1e030067944878000b731edf456d6bc8", null ]
+    [ "boss_yoggsaron_descend_portalAI", "d4/d2e/a20582.html#a50ddd1d7b1d4a2e729657e53dfee43f2", null ],
+    [ "OnSpellClick", "d4/d2e/a20582.html#aba032a7347230db028d1e939944d3f46", null ],
+    [ "_instance", "d4/d2e/a20582.html#a477abf19a0b5bf9865550541877a29d7", null ]
 ];

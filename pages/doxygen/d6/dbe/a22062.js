@@ -1,6 +1,9 @@
 var a22062 =
 [
-    [ "npc_vekjik", "d6/dbe/a22062.html#a7439c6038237b77ba8623ae92d6cf708", null ],
-    [ "OnGossipHello", "d6/dbe/a22062.html#acdbba5b4970049e72477eccf6672b0e8", null ],
-    [ "OnGossipSelect", "d6/dbe/a22062.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
+    [ "HandlePeriodic", "d6/dbe/a22062.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
+    [ "Load", "d6/dbe/a22062.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
+    [ "PrepareAuraScript", "d6/dbe/a22062.html#a1057e5262d413149a023bc904a3c3751", null ],
+    [ "Register", "d6/dbe/a22062.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
+    [ "Validate", "d6/dbe/a22062.html#a85d7ac258d50f690574ad7656256cd05", null ],
+    [ "_counter", "d6/dbe/a22062.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
 ];

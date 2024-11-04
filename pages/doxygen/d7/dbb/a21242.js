@@ -1,6 +1,6 @@
 var a21242 =
 [
-    [ "HandleEffectPeriodic", "d7/dbb/a21242.html#a508ff9e362d586497839aa29ceae1227", null ],
-    [ "PrepareAuraScript", "d7/dbb/a21242.html#a4e7d5317d28207136b1fd3477a51ae06", null ],
-    [ "Register", "d7/dbb/a21242.html#a4b08cefe7d334635b70d389cc9df4901", null ]
+    [ "npc_sinkhole_kill_creditAI", "db/da9/a21246.html", "db/da9/a21246" ],
+    [ "npc_sinkhole_kill_credit", "d7/dbb/a21242.html#a627d01aaaa3408986f2b4d171624e680", null ],
+    [ "GetAI", "d7/dbb/a21242.html#a4d734432f132bea2c4525d049fbcfa67", null ]
 ];

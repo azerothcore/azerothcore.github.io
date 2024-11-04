@@ -1,6 +1,6 @@
 var a15934 =
 [
-    [ "HandleHealPct", "dc/d0b/a15934.html#ad13b3924815ac3da7902c8292a760943", null ],
-    [ "PrepareSpellScript", "dc/d0b/a15934.html#aeea718bce7dd5aa4ac33bbd1a95a65c0", null ],
-    [ "Register", "dc/d0b/a15934.html#a3016c31c072d6417bbe47c2891059718", null ]
+    [ "npc_argent_soldierAI", "d0/d29/a15938.html", "d0/d29/a15938" ],
+    [ "npc_argent_soldier", "dc/d0b/a15934.html#aa308b4cf1df6edf0666d06e0ddab0797", null ],
+    [ "GetAI", "dc/d0b/a15934.html#adfeed3d533104b9617dfbb06925a3d44", null ]
 ];

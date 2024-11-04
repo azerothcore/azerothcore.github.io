@@ -1,7 +1,6 @@
 var a13446 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "d3/d9e/a13450.html", "d3/d9e/a13450" ],
-    [ "npc_lady_sylvanas_windrunner", "d4/daf/a13446.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
-    [ "GetAI", "d4/daf/a13446.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
-    [ "OnQuestReward", "d4/daf/a13446.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "d3/d9e/a13450.html", "d3/d9e/a13450" ],
+    [ "npc_lady_sylvanas_windrunner_bfu", "d4/daf/a13446.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
+    [ "GetAI", "d4/daf/a13446.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
 ];

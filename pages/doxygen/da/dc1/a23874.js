@@ -1,6 +1,7 @@
 var a23874 =
 [
-    [ "npc_daranelleAI", "d6/d93/a23878.html", "d6/d93/a23878" ],
-    [ "npc_daranelle", "da/dc1/a23874.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
-    [ "GetAI", "da/dc1/a23874.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
+    [ "npc_maxx_a_million_escortAI", "d6/d93/a23878.html", "d6/d93/a23878" ],
+    [ "npc_maxx_a_million_escort", "da/dc1/a23874.html#a958a88b495594dd8e14919d950ac917a", null ],
+    [ "GetAI", "da/dc1/a23874.html#af79619087908d442f503e0b0d633937d", null ],
+    [ "OnQuestAccept", "da/dc1/a23874.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
 ];

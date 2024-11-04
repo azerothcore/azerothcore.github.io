@@ -1,6 +1,5 @@
 var a26802 =
 [
-    [ "HandleDummy", "d9/d98/a26802.html#a68a86f7f86324336dc837622e01fa6af", null ],
-    [ "PrepareSpellScript", "d9/d98/a26802.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
-    [ "Register", "d9/d98/a26802.html#ad168c9164d1edd23abfbf05141b96de4", null ]
+    [ "AreaTrigger_at_legion_teleporter", "d9/d98/a26802.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "d9/d98/a26802.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

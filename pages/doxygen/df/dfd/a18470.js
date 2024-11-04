@@ -1,5 +1,6 @@
 var a18470 =
 [
-    [ "npc_alchemist_adrianna", "df/dfd/a18470.html#a310d375bc73c51e407580b063a6543fa", null ],
-    [ "OnGossipHello", "df/dfd/a18470.html#a02ec6a66037d72e30bbe821ceee38691", null ]
+    [ "npc_icc_skybreaker_marksmanAI", "d6/d4c/a18474.html", "d6/d4c/a18474" ],
+    [ "npc_icc_skybreaker_marksman", "df/dfd/a18470.html#a1d870b78e1acf2d17782265e28698d1c", null ],
+    [ "GetAI", "df/dfd/a18470.html#a374017d37da15705d51ab8edc75683ff", null ]
 ];

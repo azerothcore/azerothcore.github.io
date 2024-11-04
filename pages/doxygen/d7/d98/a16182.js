@@ -1,7 +1,6 @@
 var a16182 =
 [
-    [ "npc_toc_priestAI", "d7/d98/a16182.html#aa362d2136193a8738e311bba18b87c90", null ],
-    [ "myCanCast", "d7/d98/a16182.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
-    [ "UpdateAI", "d7/d98/a16182.html#ae51d2ac95320909150c673b76c9856c7", null ],
-    [ "events", "d7/d98/a16182.html#aa5be20e87351424e0e4698540fc1fef4", null ]
+    [ "npc_toc_retro_paladinAI", "da/d64/a16186.html", "da/d64/a16186" ],
+    [ "npc_toc_retro_paladin", "d7/d98/a16182.html#abfb15148aefe186447cfdb3a2c8749c4", null ],
+    [ "GetAI", "d7/d98/a16182.html#a1213c99792aa4362275bc827aa2f037e", null ]
 ];

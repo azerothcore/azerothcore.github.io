@@ -1,13 +1,8 @@
 var a19186 =
 [
-    [ "boss_drakosAI", "d5/d37/a19186.html#a75d771095897081457353be898b332c3", null ],
-    [ "JustDied", "d5/d37/a19186.html#a7235760bd407f49802bc9e26e8f3f22c", null ],
-    [ "JustEngagedWith", "d5/d37/a19186.html#a4bc15075d9e9a913783da482a7a167c7", null ],
-    [ "JustSummoned", "d5/d37/a19186.html#a06e21c4e5bd1a882ada074b9595d4088", null ],
-    [ "KilledUnit", "d5/d37/a19186.html#a4bd3e45b45660311d7510f58a1850648", null ],
-    [ "MoveInLineOfSight", "d5/d37/a19186.html#a10b2ca39887e906e6e1e33df82afc1da", null ],
-    [ "Reset", "d5/d37/a19186.html#a6fd78f4f45b9f2104acc481fb0f2763f", null ],
-    [ "UpdateAI", "d5/d37/a19186.html#abf761c7cda4031c31354d8c8d42963e0", null ],
-    [ "events", "d5/d37/a19186.html#ae86ad4fcc57cc1137411c881355f2f51", null ],
-    [ "pInstance", "d5/d37/a19186.html#adc9461ae5334634a9140f338547688b4", null ]
+    [ "HandleOnEffectApply", "d5/d37/a19186.html#ac852d761940494f78b50ba3b060057a2", null ],
+    [ "HandleOnEffectRemove", "d5/d37/a19186.html#a6764750586be8b57d52a2dba87d89e76", null ],
+    [ "PrepareAuraScript", "d5/d37/a19186.html#acc93a6d463501a23b73bd1ac1f99854e", null ],
+    [ "Register", "d5/d37/a19186.html#a2cb77175d7341752bdd8733cfcfe8ed3", null ],
+    [ "Validate", "d5/d37/a19186.html#a4de69fb4aa8e1506581ed01c42dc8f76", null ]
 ];

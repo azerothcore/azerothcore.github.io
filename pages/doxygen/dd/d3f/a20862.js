@@ -1,6 +1,6 @@
 var a20862 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "da/d1f/a20866.html", "da/d1f/a20866" ],
-    [ "npc_ulduar_storm_tempered_keeper", "dd/d3f/a20862.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
-    [ "GetAI", "dd/d3f/a20862.html#aa0860236d2abedba1e521ee1610c89e8", null ]
+    [ "npc_massive_jormungarAI", "da/d1f/a20866.html", "da/d1f/a20866" ],
+    [ "npc_massive_jormungar", "dd/d3f/a20862.html#ad17b632fcfe78019dcb9e6b58fa1ac01", null ],
+    [ "GetAI", "dd/d3f/a20862.html#a68e3557e967ef633ba59fa81e661b80c", null ]
 ];

@@ -1,11 +1,9 @@
 var a19038 =
 [
-    [ "npc_nexus_lordAI", "d1/d00/a19038.html#a8d26337fdcd055027a20ea91faf7e01b", null ],
-    [ "AttackStart", "d1/d00/a19038.html#a2f56dcac815431c887b95e9c09aec361", null ],
-    [ "JustDied", "d1/d00/a19038.html#a828007757a618affad71b955681945cf", null ],
-    [ "JustEngagedWith", "d1/d00/a19038.html#acfcf227557b1e212eda385e22ccdb981", null ],
-    [ "UpdateAI", "d1/d00/a19038.html#ad7ddb98d2daaed386e713e423de4cac9", null ],
-    [ "events", "d1/d00/a19038.html#ad20a56e52b22306ca31406d8defa4aa5", null ],
-    [ "pInstance", "d1/d00/a19038.html#a81fae70688bcd8c733ea90b06900503d", null ],
-    [ "timer", "d1/d00/a19038.html#a8edb133f7ca01a4aa75345c572a505c7", null ]
+    [ "HandleApply", "d1/d00/a19038.html#a29679ed64fc288dc0e85beed2971d4be", null ],
+    [ "HandleRemove", "d1/d00/a19038.html#a1f1c3e0ea24174605a7be8fa02e30518", null ],
+    [ "Load", "d1/d00/a19038.html#a0b5d70a7a9bf27696295ccbbffd2a8b9", null ],
+    [ "PrepareAuraScript", "d1/d00/a19038.html#a2804f25643e59f3922291abcb055b641", null ],
+    [ "Register", "d1/d00/a19038.html#a711b5744770d0c9fb5aacb550f2384fa", null ],
+    [ "Validate", "d1/d00/a19038.html#aa239a693db5fa38ac260a37b25e0e6d9", null ]
 ];

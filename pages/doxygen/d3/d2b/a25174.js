@@ -1,6 +1,9 @@
 var a25174 =
 [
-    [ "HandleScriptEffect", "d3/d2b/a25174.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "d3/d2b/a25174.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "d3/d2b/a25174.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "CheckIfCorpseNear", "d3/d2b/a25174.html#a9b512f84f1d728e24845b6aaa28bdd6b", null ],
+    [ "HandleDummy", "d3/d2b/a25174.html#a913c0137d2a13c810bbae869cc6cf734", null ],
+    [ "Load", "d3/d2b/a25174.html#a3f36968d10bde12c7e2eda8db4145252", null ],
+    [ "PrepareSpellScript", "d3/d2b/a25174.html#acc7d6f489c34c3cc26f37bc94f8727e8", null ],
+    [ "Register", "d3/d2b/a25174.html#a736c4fe39e947ad98df19b3b001bdc29", null ],
+    [ "Validate", "d3/d2b/a25174.html#a51b075f95211025b2a7719a3ee70a6be", null ]
 ];

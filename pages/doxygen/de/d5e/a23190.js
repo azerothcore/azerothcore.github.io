@@ -1,7 +1,7 @@
 var a23190 =
 [
-    [ "go_ahune_ice_spear", "de/d5e/a23190.html#a22922e47b819bc60e331cffbc7c353b3", null ],
-    [ "Reset", "de/d5e/a23190.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
-    [ "UpdateAI", "de/d5e/a23190.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
-    [ "_scheduler", "de/d5e/a23190.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
+    [ "HandleScript", "de/d5e/a23190.html#a42052a416290a54d5479a402de578a73", null ],
+    [ "PrepareSpellScript", "de/d5e/a23190.html#a5f6aa972879b65c0207e47435d436a33", null ],
+    [ "Register", "de/d5e/a23190.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
+    [ "Validate", "de/d5e/a23190.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
 ];

@@ -1,7 +1,7 @@
 var a15210 =
 [
-    [ "HandleDummy", "d8/df1/a15210.html#a7657ffcc0b055b838408de4dd5f778f3", null ],
-    [ "PrepareSpellScript", "d8/df1/a15210.html#ace2c23ec11d09cfb6f101a2dbd8b9d89", null ],
-    [ "Register", "d8/df1/a15210.html#ae9be2e8124edf50b98824c584aaa32cf", null ],
-    [ "Validate", "d8/df1/a15210.html#a041c84fd605abd36b8f774903a5200dc", null ]
+    [ "npc_giant_spotlightAI", "d8/df1/a15210.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
+    [ "Reset", "d8/df1/a15210.html#a79f6703107eed52a3aeae30393507c0f", null ],
+    [ "UpdateAI", "d8/df1/a15210.html#a8567f936dd15933300497d5abe80a272", null ],
+    [ "events", "d8/df1/a15210.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
 ];

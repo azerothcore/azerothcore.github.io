@@ -1,12 +1,13 @@
 var a15482 =
 [
-    [ "DialogueHelper", "d5/d85/a15482.html#a3566655e8781bf5f9dff514fcd659421", null ],
-    [ "DialogueUpdate", "d5/d85/a15482.html#aaac3463d91a0cdbe2622b4fd85b34ed0", null ],
-    [ "DoNextDialogueStep", "d5/d85/a15482.html#a6e23a56ba5c5e4d4ab3b4c6be5cb09af", null ],
-    [ "GetSpeakerByEntry", "d5/d85/a15482.html#a50e652ca2cff035d8c79517fdbcfc67a", null ],
-    [ "JustDidDialogueStep", "d5/d85/a15482.html#a79e80634f1780895669f5c810958fd4f", null ],
-    [ "StartNextDialogueText", "d5/d85/a15482.html#ac16b8b9b50e8b35980d21f161bf33340", null ],
-    [ "_actionTimer", "d5/d85/a15482.html#a33b8551c136bcbc896b29d935c155a75", null ],
-    [ "_currentEntry", "d5/d85/a15482.html#a89ca5e8d25372bd8ab32322a0a9999f2", null ],
-    [ "_dialogueArray", "d5/d85/a15482.html#a489b8cd1c75ced0ec8e34b8051899dd7", null ]
+    [ "npc_shadowpriest_sezzizAI", "d5/d85/a15482.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
+    [ "AttackStart", "d5/d85/a15482.html#a8278a73501ea33164cbdef8599144f4a", null ],
+    [ "Reset", "d5/d85/a15482.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
+    [ "UpdateAI", "d5/d85/a15482.html#a1c0236b52d4cd87634659991e0dfc728", null ],
+    [ "_missingHPForHealTimer", "d5/d85/a15482.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
+    [ "_missingHPForRenewTimer", "d5/d85/a15482.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
+    [ "_physicScreemTimer", "d5/d85/a15482.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
+    [ "_shadowBoltTimer", "d5/d85/a15482.html#a34a18991ff2c0aafac15694ed9667193", null ],
+    [ "_summmonAddsCount", "d5/d85/a15482.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
+    [ "_summonAddsTimer", "d5/d85/a15482.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
 ];

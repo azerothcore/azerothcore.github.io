@@ -1,6 +1,8 @@
 var a18962 =
 [
-    [ "boss_thaddius_summonAI", "df/d71/a18966.html", "df/d71/a18966" ],
-    [ "boss_thaddius_summon", "d0/d85/a18962.html#a0fd6c83b5ff6d62b1649f9a13de05c73", null ],
-    [ "GetAI", "d0/d85/a18962.html#aaab5973012f9ac55e8b29cc90f5ec98e", null ]
+    [ "npc_alexstraszaAI", "d0/d85/a18962.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
+    [ "AttackStart", "d0/d85/a18962.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
+    [ "MoveInLineOfSight", "d0/d85/a18962.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
+    [ "UpdateAI", "d0/d85/a18962.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
+    [ "events", "d0/d85/a18962.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
 ];

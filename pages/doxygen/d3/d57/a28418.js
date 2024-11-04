@@ -1,10 +1,12 @@
 var a28418 =
 [
-    [ "plane", "db/d83/a28426.html", "db/d83/a28426" ],
-    [ "prepareLoadedData", "d3/d57/a28418.html#a29dc30be1cb7f5439e023865ff5a4853", null ],
-    [ "fcc", "d3/d57/a28418.html#a8c64958fb4e18bc3bcfaf7dbfde9f178", null ],
-    [ "fcc_txt", "d3/d57/a28418.html#ab768fb1ba27812060cf2edeb5f4b876c", null ],
-    [ "max", "d3/d57/a28418.html#afadebfc1361985b6f5d45c27e22cb303", null ],
-    [ "min", "d3/d57/a28418.html#ac3ebf1557841088ef8912b68fe6df908", null ],
-    [ "size", "d3/d57/a28418.html#af92420cfd862486c73c35ac8a9f9fdee", null ]
+    [ "Bounds", "d3/d57/a28418.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "d3/d57/a28418.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "d3/d57/a28418.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "d3/d57/a28418.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "d3/d57/a28418.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "d3/d57/a28418.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "d3/d57/a28418.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "d3/d57/a28418.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "d3/d57/a28418.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

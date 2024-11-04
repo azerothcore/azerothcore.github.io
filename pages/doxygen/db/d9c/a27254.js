@@ -1,6 +1,6 @@
 var a27254 =
 [
-    [ "guard_shattrath_aldorAI", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
-    [ "guard_shattrath_aldor", "db/d9c/a27254.html#ab965295d9c3828ad814f658670b5f185", null ],
-    [ "GetAI", "db/d9c/a27254.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
+    [ "npc_training_dummyAI", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
+    [ "npc_training_dummy", "db/d9c/a27254.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
+    [ "GetAI", "db/d9c/a27254.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
 ];

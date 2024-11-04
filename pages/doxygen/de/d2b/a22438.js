@@ -1,5 +1,6 @@
 var a22438 =
 [
-    [ "OutdoorPvP_silithus", "de/d2b/a22438.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
-    [ "GetOutdoorPvP", "de/d2b/a22438.html#a126d6acc77218addd10072199ccd2470", null ]
+    [ "PrepareSpellScript", "de/d2b/a22438.html#ad8640f1c01d64f8bbca16e0b636f7f21", null ],
+    [ "Register", "de/d2b/a22438.html#aa41700bf097963c5a352442723181037", null ],
+    [ "SelectTarget", "de/d2b/a22438.html#a15d790b134de8a8c7497ee8d0a6217ba", null ]
 ];

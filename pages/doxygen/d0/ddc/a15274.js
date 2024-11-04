@@ -1,7 +1,6 @@
 var a15274 =
 [
-    [ "npc_giant_spotlightAI", "d0/ddc/a15274.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
-    [ "Reset", "d0/ddc/a15274.html#a79f6703107eed52a3aeae30393507c0f", null ],
-    [ "UpdateAI", "d0/ddc/a15274.html#a8567f936dd15933300497d5abe80a272", null ],
-    [ "events", "d0/ddc/a15274.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
+    [ "go_wind_stoneAI", "d6/d65/a15278.html", "d6/d65/a15278" ],
+    [ "go_wind_stone", "d0/ddc/a15274.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
+    [ "GetAI", "d0/ddc/a15274.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
 ];

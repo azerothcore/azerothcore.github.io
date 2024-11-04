@@ -1,8 +1,7 @@
 var a22546 =
 [
-    [ "FilterTargets", "de/d5a/a22546.html#a9e0a72530a8dc764269e8df6d9d1ed3d", null ],
-    [ "HandleDummyHitTarget", "de/d5a/a22546.html#ae892090a9bd48aa447224c9f96801d37", null ],
-    [ "PrepareSpellScript", "de/d5a/a22546.html#af08ab4fcc3705b07e89ed222794e70e9", null ],
-    [ "Register", "de/d5a/a22546.html#aeb1aad59b6b4767a63660c5fe0277392", null ],
-    [ "Validate", "de/d5a/a22546.html#a5a87a7c18a55caf5288b8ca8bbd2f361", null ]
+    [ "HandleDummy", "de/d5a/a22546.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
+    [ "PrepareSpellScript", "de/d5a/a22546.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
+    [ "Register", "de/d5a/a22546.html#af5926d8570de13e66aa1870184620b94", null ],
+    [ "Validate", "de/d5a/a22546.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
 ];

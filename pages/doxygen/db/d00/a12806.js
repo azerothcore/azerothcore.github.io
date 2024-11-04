@@ -1,7 +1,7 @@
 var a12806 =
 [
-    [ "OnApply", "db/d00/a12806.html#af266d5c798e43fc4d7065cb0a1e5cf7c", null ],
-    [ "OnRemove", "db/d00/a12806.html#a764f5c726042ddae0f352b326d23866b", null ],
-    [ "PrepareAuraScript", "db/d00/a12806.html#ace35d5e3231daf694281cd54e4e79c94", null ],
-    [ "Register", "db/d00/a12806.html#a7f44154ce5949661d62bc066939c7ea0", null ]
+    [ "HandleAfterCast", "db/d00/a12806.html#afa662fbe1b777047259ac6212961f7a5", null ],
+    [ "HandleScript", "db/d00/a12806.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
+    [ "PrepareSpellScript", "db/d00/a12806.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
+    [ "Register", "db/d00/a12806.html#a4a898b0b096583af33f1f691a252b2ed", null ]
 ];

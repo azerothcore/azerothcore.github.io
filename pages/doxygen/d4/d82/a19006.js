@@ -1,5 +1,5 @@
 var a19006 =
 [
-    [ "at_naxxramas_hub_portal", "d4/d82/a19006.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "d4/d82/a19006.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "achievement_chaos_theory", "d4/d82/a19006.html#a3068009fa1fb400439a2c72f00296484", null ],
+    [ "OnCheck", "d4/d82/a19006.html#a68d9a577cb7e005d81f52077707e3555", null ]
 ];

@@ -1,6 +1,14 @@
 var a21050 =
 [
-    [ "HandleDummyEffect", "d5/d47/a21050.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
-    [ "PrepareSpellScript", "d5/d47/a21050.html#a07376c95cb2ec41d86a24be59094d207", null ],
-    [ "Register", "d5/d47/a21050.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
+    [ "boss_cyanigosaAI", "d5/d47/a21050.html#a4b24132889b17b3e682a15009a1ae910", null ],
+    [ "EnterEvadeMode", "d5/d47/a21050.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
+    [ "JustDied", "d5/d47/a21050.html#a805117db567dd3d529a1c862bc24179c", null ],
+    [ "JustEngagedWith", "d5/d47/a21050.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
+    [ "KilledUnit", "d5/d47/a21050.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
+    [ "MoveInLineOfSight", "d5/d47/a21050.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
+    [ "Reset", "d5/d47/a21050.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
+    [ "SpellHitTarget", "d5/d47/a21050.html#ae8218b69e6dc7489e65d891048d84da1", null ],
+    [ "UpdateAI", "d5/d47/a21050.html#ae69afba77636c962045160b610177bd9", null ],
+    [ "events", "d5/d47/a21050.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
+    [ "pInstance", "d5/d47/a21050.html#a075f4a592202dc73d9b5d63ca5178093", null ]
 ];

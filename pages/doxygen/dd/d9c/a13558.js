@@ -1,6 +1,5 @@
 var a13558 =
 [
-    [ "npc_akilzon_eagleAI", "d5/d41/a13562.html", "d5/d41/a13562" ],
-    [ "npc_akilzon_eagle", "dd/d9c/a13558.html#a226355ce2fa1a451ea61a212fd939ec5", null ],
-    [ "GetAI", "dd/d9c/a13558.html#ace5fc83cd4109ea05006660867a2dcf6", null ]
+    [ "npc_janalai_egg", "dd/d9c/a13558.html#a5bcd519712b781153b2ac7c2048b3e93", null ],
+    [ "SpellHit", "dd/d9c/a13558.html#a588f49f71cfc764cf9e635152c9ed056", null ]
 ];

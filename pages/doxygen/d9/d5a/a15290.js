@@ -1,10 +1,7 @@
 var a15290 =
 [
-    [ "npc_thrall_warchiefAI", "d9/d5a/a15290.html#ada9c79c1591a8bd28c66329dc7c5d3dc", null ],
-    [ "DoAction", "d9/d5a/a15290.html#a511da19703e30f6e82e59c5223bf2770", null ],
-    [ "JustEngagedWith", "d9/d5a/a15290.html#a994a9030e2d8c5afaa66c21897e54f82", null ],
-    [ "Reset", "d9/d5a/a15290.html#a920a29258228c9c2e7e0791d38b648e1", null ],
-    [ "UpdateAI", "d9/d5a/a15290.html#a537ed9f2d0a638d01e877d9ca1e7fdf0", null ],
-    [ "ChainLightningTimer", "d9/d5a/a15290.html#ab30df9277fc84f098e0bdd70a2ab3795", null ],
-    [ "ShockTimer", "d9/d5a/a15290.html#aa8609f8824f68ce7259465284c01dd35", null ]
+    [ "npc_kaya_flathoofAI", "d9/d5a/a15290.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
+    [ "JustSummoned", "d9/d5a/a15290.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
+    [ "Reset", "d9/d5a/a15290.html#af9be00be9867622a16103bd21311327f", null ],
+    [ "WaypointReached", "d9/d5a/a15290.html#a8fcbb19279b925138ba96d2a450fc404", null ]
 ];

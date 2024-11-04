@@ -1,7 +1,20 @@
 var a23974 =
 [
-    [ "npc_kurenai_captiveAI", "d8/d8f/a23978.html", "d8/d8f/a23978" ],
-    [ "npc_kurenai_captive", "d1/dcb/a23974.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "d1/dcb/a23974.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "d1/dcb/a23974.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "npc_lord_illidan_stormrageAI", "d1/dcb/a23974.html#a3b48b42c72b51bbdb222f6cd03e50ec8", null ],
+    [ "AttackStart", "d1/dcb/a23974.html#a5f73b83a07f24403cf55de7ef485c003", null ],
+    [ "CheckEventFail", "d1/dcb/a23974.html#aef1607c2132ae78b45d4f209a4320a88", null ],
+    [ "JustEngagedWith", "d1/dcb/a23974.html#af7166b3c7401a74615cdb5c0964200f6", null ],
+    [ "LiveCounter", "d1/dcb/a23974.html#a625b2891d3f9807da7733f678ea29313", null ],
+    [ "MoveInLineOfSight", "d1/dcb/a23974.html#a5c2313ac5767339cd26196f52ff05c5f", null ],
+    [ "Reset", "d1/dcb/a23974.html#a035b85302d54adf9bd7af82cadfd0317", null ],
+    [ "SummonNextWave", "d1/dcb/a23974.html#a240ee54d49248a1700e767568fe93648", null ],
+    [ "UpdateAI", "d1/dcb/a23974.html#a9cf7d73c5f81980c08f785dc3af47dec", null ],
+    [ "Announced", "d1/dcb/a23974.html#a448ba6e2b21273b8e07b6d0a79e856e2", null ],
+    [ "AnnounceTimer", "d1/dcb/a23974.html#a7037e4b43f274f3e2ce45143c029b070", null ],
+    [ "EventStarted", "d1/dcb/a23974.html#a41b3b39d2ea0eeca4b60960f3a903ee8", null ],
+    [ "Failed", "d1/dcb/a23974.html#aba564e34f0358d6c2a3c6ae91e17bf10", null ],
+    [ "LiveCount", "d1/dcb/a23974.html#ab86239a6470a82749f96eb5515c46c59", null ],
+    [ "PlayerGUID", "d1/dcb/a23974.html#af30c5c09f0262479b8920269f7bf198a", null ],
+    [ "WaveCount", "d1/dcb/a23974.html#abdd03400f582e9477bb376e2b34e7a0e", null ],
+    [ "WaveTimer", "d1/dcb/a23974.html#ae727157e6b52817051fea075c2cb7cb1", null ]
 ];

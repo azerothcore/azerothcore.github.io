@@ -1,7 +1,5 @@
 var a24038 =
 [
-    [ "HandleEffectApply", "d2/da5/a24038.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
-    [ "HandleEffectRemove", "d2/da5/a24038.html#a96769390468dc132df62b5a0ec3a2da4", null ],
-    [ "PrepareAuraScript", "d2/da5/a24038.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
-    [ "Register", "d2/da5/a24038.html#a95905ec163c42463314a5f5bb023b4d6", null ]
+    [ "npc_shattrath_daily_quest", "d2/da5/a24038.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "d2/da5/a24038.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

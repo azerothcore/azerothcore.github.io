@@ -1,5 +1,7 @@
 var a20334 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "d7/dd1/a20334.html#a6308129d11989dadf0a5948c4a268e4b", null ],
-    [ "SpellHitTarget", "d7/dd1/a20334.html#a3c254e16f62e7d2414d81062c91c2468", null ]
+    [ "boss_thorim_trapAI", "d7/dd1/a20334.html#aaab278dc6557a49624099b0064b8d6f3", null ],
+    [ "Reset", "d7/dd1/a20334.html#ab0715e75a475409ffb6c623bf363a65d", null ],
+    [ "UpdateAI", "d7/dd1/a20334.html#a40078609a67aa029f71df7971449b056", null ],
+    [ "_checkTimer", "d7/dd1/a20334.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
 ];

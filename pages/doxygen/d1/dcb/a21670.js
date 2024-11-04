@@ -1,6 +1,6 @@
 var a21670 =
 [
-    [ "HandleSendEvent", "d1/dcb/a21670.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
-    [ "PrepareSpellScript", "d1/dcb/a21670.html#aa632d381ac415feaf226f55fc2cd8520", null ],
-    [ "Register", "d1/dcb/a21670.html#a72673f5054cf269cc8da511441f7bd66", null ]
+    [ "npc_amberpine_woodsmanAI", "d5/d78/a21674.html", "d5/d78/a21674" ],
+    [ "npc_amberpine_woodsman", "d1/dcb/a21670.html#a33bbec50a360b724bfe9cb8612cbb47d", null ],
+    [ "GetAI", "d1/dcb/a21670.html#a9c1df6c01c163ca68712d72b14c46139", null ]
 ];

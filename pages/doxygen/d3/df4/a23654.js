@@ -1,7 +1,6 @@
 var a23654 =
 [
-    [ "boss_warp_splinter", "d3/df4/a23654.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
-    [ "JustDied", "d3/df4/a23654.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
-    [ "JustEngagedWith", "d3/df4/a23654.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
-    [ "KilledUnit", "d3/df4/a23654.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
+    [ "PrepareAuraScript", "d3/df4/a23654.html#a14d4d1a75130a77e7e59e41720491bec", null ],
+    [ "PrepareProc", "d3/df4/a23654.html#abea217f4bfdffc70007fbc29849e9a49", null ],
+    [ "Register", "d3/df4/a23654.html#a9dbcd4c940f5941472bebb64829125e3", null ]
 ];

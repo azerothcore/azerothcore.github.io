@@ -1,13 +1,9 @@
 var a24350 =
 [
-    [ "npc_pet_mage_mirror_image", "d5/d89/a24350.html#a2761cc9bf3a8bb7908d3db6d929721ba", null ],
-    [ "EnterEvadeMode", "d5/d89/a24350.html#a858b070fb53112dc78554f0b20cd876a", null ],
-    [ "InitializeAI", "d5/d89/a24350.html#a66d513908aa88504d0cbe4ce9bf222be", null ],
-    [ "MySelectNextTarget", "d5/d89/a24350.html#a49d57ba93cd88816f68c16d56d3b8cd2", null ],
-    [ "Reset", "d5/d89/a24350.html#a79a8c153ab61c619d928ec5535e67077", null ],
-    [ "UpdateAI", "d5/d89/a24350.html#aa219b3adc38b625c6885089895b941b4", null ],
-    [ "_ebonGargoyleGUID", "d5/d89/a24350.html#a8be57d06114f108e74b850ce66722bf3", null ],
-    [ "checktarget", "d5/d89/a24350.html#a074611355768dc2072da69ed9d72242b", null ],
-    [ "dist", "d5/d89/a24350.html#a7fcde453faf05a64e4c7099d840c0e2b", null ],
-    [ "selectionTimer", "d5/d89/a24350.html#a7d7a6ebd88afecd7ae7aaeda0cee6cf7", null ]
+    [ "CheckCast", "d5/d89/a24350.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
+    [ "EntryCheck", "d5/d89/a24350.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
+    [ "HandleBaseDummy", "d5/d89/a24350.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
+    [ "HandleDummy", "d5/d89/a24350.html#a34d9f5699f306b27830ced2129be506c", null ],
+    [ "PrepareSpellScript", "d5/d89/a24350.html#af7aff878540dd34138aa479f532611b6", null ],
+    [ "Register", "d5/d89/a24350.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
 ];

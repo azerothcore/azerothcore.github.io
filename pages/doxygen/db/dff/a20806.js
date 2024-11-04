@@ -1,7 +1,7 @@
 var a20806 =
 [
-    [ "HandleScriptEffect", "db/dff/a20806.html#a173ee086127655cdfcca507fd5b15b2e", null ],
-    [ "PrepareSpellScript", "db/dff/a20806.html#a005d47b18a820c35ec596b5539db94eb", null ],
-    [ "Register", "db/dff/a20806.html#a20a0d554e80707c1517422cb747f38e8", null ],
-    [ "Validate", "db/dff/a20806.html#a5ca44686e26def56adc2b98d88145235", null ]
+    [ "HandleEffectPeriodic", "db/dff/a20806.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "db/dff/a20806.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "db/dff/a20806.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "db/dff/a20806.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

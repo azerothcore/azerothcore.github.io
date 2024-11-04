@@ -1,7 +1,8 @@
 var a21794 =
 [
-    [ "HandleScriptEffect", "d4/d3f/a21794.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
-    [ "PrepareSpellScript", "d4/d3f/a21794.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
-    [ "Register", "d4/d3f/a21794.html#a278206630f9f45f2dba50b259a6115c1", null ],
-    [ "Validate", "d4/d3f/a21794.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
+    [ "npc_llod_genericAI", "d4/d3f/a21794.html#ac75d85ae4b59416952788102cd1db132", null ],
+    [ "Reset", "d4/d3f/a21794.html#a15bd7442fef36a551cc8797f7919f57c", null ],
+    [ "UpdateAI", "d4/d3f/a21794.html#aa7dce553fb699127f63281b2c47a2f02", null ],
+    [ "attackTimer", "d4/d3f/a21794.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
+    [ "summonTimer", "d4/d3f/a21794.html#aeeeef545aee565c14d86d8587923c677", null ]
 ];

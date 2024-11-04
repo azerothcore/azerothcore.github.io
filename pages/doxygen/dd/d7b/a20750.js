@@ -1,8 +1,11 @@
 var a20750 =
 [
-    [ "OnApply", "dd/d7b/a20750.html#a3046fa845b6763c5602ca7b50aefd68f", null ],
-    [ "OnRemove", "dd/d7b/a20750.html#ad3f482f9fff9798cc6e7a06183344742", null ],
-    [ "PrepareAuraScript", "dd/d7b/a20750.html#ab830a7a6c5ed432f8718071345c99b57", null ],
-    [ "Register", "dd/d7b/a20750.html#ac83a8d085d02feec64b6012cacb60dce", null ],
-    [ "Validate", "dd/d7b/a20750.html#a69a3e0a6c06e3c4085bf0ad25e40edf9", null ]
+    [ "npc_ulduar_storm_tempered_keeperAI", "dd/d7b/a20750.html#a97ffe70fab090c7182b2a8dce3c7c54f", null ],
+    [ "JustDied", "dd/d7b/a20750.html#a4778b4c1d7afedc4c8ea3a0b2c2509e1", null ],
+    [ "JustEngagedWith", "dd/d7b/a20750.html#a5ae632ba4da1e78dfa6980fce492ec8e", null ],
+    [ "JustSummoned", "dd/d7b/a20750.html#a7962e2148fb55d96cde4e2fed48e71f4", null ],
+    [ "Reset", "dd/d7b/a20750.html#a521fd2c3f8fb1319daaecfb203d9ebb8", null ],
+    [ "UpdateAI", "dd/d7b/a20750.html#a9d5bc84572934b4fba19d2996e1c89f0", null ],
+    [ "events", "dd/d7b/a20750.html#a0281fd23155c73768a09f60b3a04ce9d", null ],
+    [ "otherGUID", "dd/d7b/a20750.html#a627aa7ff4ffe264d4ea3e78469954170", null ]
 ];

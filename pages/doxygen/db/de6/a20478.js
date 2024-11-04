@@ -1,6 +1,6 @@
 var a20478 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "d9/d3e/a20482.html", "d9/d3e/a20482" ],
-    [ "boss_thorim_gauntlet_npcs", "db/de6/a20478.html#abdf2e90c5b86d3724fac46bff5e15d97", null ],
-    [ "GetAI", "db/de6/a20478.html#a2a71153ed2a9091de6668ab0b6f7674f", null ]
+    [ "HandleScript", "db/de6/a20478.html#a8ebd18095bd826d4bf843961e4e8dc81", null ],
+    [ "PrepareSpellScript", "db/de6/a20478.html#a4fd05478a145157dbd8377532033ab95", null ],
+    [ "Register", "db/de6/a20478.html#a9b30f89493d5b8c8d1097dde5d017a93", null ]
 ];

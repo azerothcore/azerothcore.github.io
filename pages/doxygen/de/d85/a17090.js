@@ -1,6 +1,7 @@
 var a17090 =
 [
-    [ "npc_dark_nucleusAI", "d7/da7/a17094.html", "d7/da7/a17094" ],
-    [ "npc_dark_nucleus", "de/d85/a17090.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "de/d85/a17090.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "OnProc", "de/d85/a17090.html#a5b6e96abb900da33657cdbbd137138e3", null ],
+    [ "PrepareAuraScript", "de/d85/a17090.html#a5502476536a923e77af67c4bbcf005e3", null ],
+    [ "Register", "de/d85/a17090.html#aca08edf219504156d6157c95702bb815", null ],
+    [ "Validate", "de/d85/a17090.html#a52b1231f37e8b3d810614365659a98b6", null ]
 ];

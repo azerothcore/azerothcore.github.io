@@ -1,7 +1,7 @@
 var a17166 =
 [
-    [ "PeriodicTick", "da/d20/a17166.html#af2419a9f9c8706e6b9a090e88f1b6f78", null ],
-    [ "PrepareAuraScript", "da/d20/a17166.html#ac1abcbe62887678adad0194fdf27825a", null ],
-    [ "Register", "da/d20/a17166.html#a9c92c88bf261f1da2143e7dee41a77ec", null ],
-    [ "Validate", "da/d20/a17166.html#ae7526fcf963fe4ea3ab2f1ec7292e8d8", null ]
+    [ "FilterTargets", "da/d20/a17166.html#aeae290d20ade37eb839c1bf3c9ae59bf", null ],
+    [ "Load", "da/d20/a17166.html#a38bf6d96c6a78e5105d0369eb993e58c", null ],
+    [ "PrepareSpellScript", "da/d20/a17166.html#a815c99e9ef570287af5d45c32bdc5b8c", null ],
+    [ "Register", "da/d20/a17166.html#a33342cc676adaabe5e3896fa559631b7", null ]
 ];

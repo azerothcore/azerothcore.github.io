@@ -1,15 +1,11 @@
 var a23030 =
 [
-    [ "boss_hydross_the_unstable", "de/dbe/a23030.html#a8e385f4f7f448033b00828540aa16cde", null ],
-    [ "JustDied", "de/dbe/a23030.html#ad05fa00eade9614ed54b03a9a4d5d348", null ],
-    [ "JustEngagedWith", "de/dbe/a23030.html#a4fd2138ce9962d89410b57702d7df33d", null ],
-    [ "JustReachedHome", "de/dbe/a23030.html#a03cbe48effc4cd3a2821312e60578ed4", null ],
-    [ "JustSummoned", "de/dbe/a23030.html#a3e9031d95c9e62cbd83eeba4af6c965a", null ],
-    [ "KilledUnit", "de/dbe/a23030.html#a252d3abdf24c06922c88823bc5e535f3", null ],
-    [ "Reset", "de/dbe/a23030.html#a0bcad41c74800ab58df8b5ea54d2ec8e", null ],
-    [ "SetForm", "de/dbe/a23030.html#ac80b0611533998d15406d45385d37629", null ],
-    [ "SummonedCreatureDespawn", "de/dbe/a23030.html#afe4b76f528045506586f8289eaee27aa", null ],
-    [ "SummonMovementInform", "de/dbe/a23030.html#af74b63bf239de38f8dd04e69a6ea2b54", null ],
-    [ "SummonTaintedElementalOOC", "de/dbe/a23030.html#a219094dc5a81acb7d7ae86d5d7945da8", null ],
-    [ "_recentlySpoken", "de/dbe/a23030.html#acfd0f1a6331b08659c5fffa7850d30b4", null ]
+    [ "boss_ahune", "de/dbe/a23030.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
+    [ "DoAction", "de/dbe/a23030.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
+    [ "Emerge", "de/dbe/a23030.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
+    [ "EnterEvadeMode", "de/dbe/a23030.html#a2b906881621e59143a916c588beb70e7", null ],
+    [ "ExecuteEvent", "de/dbe/a23030.html#a46b477aef635de1d3ec88baa2465089f", null ],
+    [ "JustDied", "de/dbe/a23030.html#af2fc7c071321653a644ee569ead67d63", null ],
+    [ "JustEngagedWith", "de/dbe/a23030.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
+    [ "Submerge", "de/dbe/a23030.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
 ];

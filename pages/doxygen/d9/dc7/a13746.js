@@ -1,5 +1,5 @@
 var a13746 =
 [
-    [ "at_zulgurub_temple_speech", "d9/dc7/a13746.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
-    [ "_OnTrigger", "d9/dc7/a13746.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
+    [ "npc_brain_wash_totem", "d9/dc7/a13746.html#acdecde614ba82d60ee4a10ace8545fdf", null ],
+    [ "EnterEvadeMode", "d9/dc7/a13746.html#abd32e3210cc384c0c365826ca1fbae1e", null ]
 ];

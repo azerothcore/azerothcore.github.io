@@ -1,6 +1,6 @@
 var a22134 =
 [
-    [ "npc_iron_watcherAI", "dd/d80/a22138.html", "dd/d80/a22138" ],
-    [ "npc_iron_watcher", "dc/d50/a22134.html#a174e19241ca6cd1619fbae074d11c8ba", null ],
-    [ "GetAI", "dc/d50/a22134.html#af3b80b838e192737762ceed599b0be9a", null ]
+    [ "CheckCast", "dc/d50/a22134.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
+    [ "PrepareSpellScript", "dc/d50/a22134.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
+    [ "Register", "dc/d50/a22134.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
 ];

@@ -1,6 +1,6 @@
 var a12930 =
 [
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "de/d9e/a12934.html", "de/d9e/a12934" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d2/dc7/a12930.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
-    [ "GetSpellScript", "d2/dc7/a12930.html#ac76a5ea53843c60d0742245971b5448d", null ]
+    [ "boss_alythessAI", "de/d9e/a12934.html", "de/d9e/a12934" ],
+    [ "boss_alythess", "d2/dc7/a12930.html#aeca256e943f3f7f5437282cf9abd37be", null ],
+    [ "GetAI", "d2/dc7/a12930.html#ae0565de60de28bd91572bb3ec631eff3", null ]
 ];

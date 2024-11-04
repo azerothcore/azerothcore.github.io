@@ -1,7 +1,7 @@
 var a24610 =
 [
-    [ "HandleScriptEffect", "de/d68/a24610.html#a3a33f0ec477ff3b4b19fc98760a2dae7", null ],
-    [ "PrepareSpellScript", "de/d68/a24610.html#ae29c4f69a34e71011192df12509e2935", null ],
-    [ "Register", "de/d68/a24610.html#ae37da44bde25f6bdb5b4a382ab66b7be", null ],
-    [ "Validate", "de/d68/a24610.html#af9056c179b8089cf0b304b3ce61ea92f", null ]
+    [ "CheckRequirement", "de/d68/a24610.html#a6be5f335a15226db87a04548490f488d", null ],
+    [ "PrepareSpellScript", "de/d68/a24610.html#a25463eda0ce51a124e8715baf305c8f6", null ],
+    [ "Register", "de/d68/a24610.html#a8db5a5597d8f6fe4064799766fb61502", null ],
+    [ "_level", "de/d68/a24610.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
 ];

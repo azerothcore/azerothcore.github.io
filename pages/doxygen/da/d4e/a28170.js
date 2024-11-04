@@ -1,5 +1,5 @@
 var a28170 =
 [
-    [ "ID", "da/d4e/a28170.html#a0272b3c1130508a2681035c91ee416e6", null ],
-    [ "SpellID", "da/d4e/a28170.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
+    [ "ByteBufferSourceException", "da/d4e/a28170.html#ad021dff8a62dfc170ef0233294b707f6", null ],
+    [ "~ByteBufferSourceException", "da/d4e/a28170.html#afaf57c545141703ffbe696cfbee6de0f", null ]
 ];

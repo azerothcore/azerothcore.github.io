@@ -1,7 +1,5 @@
 var a27030 =
 [
-    [ "HandlePeriodic", "d6/dbc/a27030.html#a3da4cc5322f2e34244729fe3b3876482", null ],
-    [ "PrepareAuraScript", "d6/dbc/a27030.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
-    [ "Register", "d6/dbc/a27030.html#a53b6067f46912648413fc6d6f107b0d8", null ],
-    [ "Validate", "d6/dbc/a27030.html#aa03222717b3c06316b232a6ac0270ec0", null ]
+    [ "go_sacred_fire_of_life", "d6/dbc/a27030.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "d6/dbc/a27030.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

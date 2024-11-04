@@ -1,6 +1,9 @@
 var a22346 =
 [
-    [ "npc_released_offspring_harkoaAI", "dd/de6/a22346.html#ab1002f002987b6ea2366129afd48d65c", null ],
-    [ "MovementInform", "dd/de6/a22346.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
-    [ "Reset", "dd/de6/a22346.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
+    [ "npc_stolen_soul", "dd/de6/a22346.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "dd/de6/a22346.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "dd/de6/a22346.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "dd/de6/a22346.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "dd/de6/a22346.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "dd/de6/a22346.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

@@ -1,7 +1,8 @@
 var a23958 =
 [
-    [ "npc_maghar_captiveAI", "dc/dfe/a23962.html", "dc/dfe/a23962" ],
-    [ "npc_maghar_captive", "d5/d77/a23958.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
-    [ "GetAI", "d5/d77/a23958.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
-    [ "OnQuestAccept", "d5/d77/a23958.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
+    [ "CreatureId", "d5/d77/a23958.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d5/d77/a23958.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d5/d77/a23958.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d5/d77/a23958.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d5/d77/a23958.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

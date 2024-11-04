@@ -1,7 +1,10 @@
 var a26374 =
 [
-    [ "HandleDummy", "db/df4/a26374.html#a4c837e7342603519d1f23ab8702c3160", null ],
-    [ "PrepareSpellScript", "db/df4/a26374.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
-    [ "Register", "db/df4/a26374.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
-    [ "Validate", "db/df4/a26374.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
+    [ "CalculateAPAmount", "db/df4/a26374.html#abba0772c18bf98696dc1f236da79401e", null ],
+    [ "CalculateResistanceAmount", "db/df4/a26374.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
+    [ "CalculateSPAmount", "db/df4/a26374.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
+    [ "CalculateStatAmount", "db/df4/a26374.html#a9269eee5ef676c466e662305389988f0", null ],
+    [ "HandleEffectApply", "db/df4/a26374.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
+    [ "PrepareAuraScript", "db/df4/a26374.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
+    [ "Register", "db/df4/a26374.html#a9bf7cd6309b4724462b03c1080324f83", null ]
 ];

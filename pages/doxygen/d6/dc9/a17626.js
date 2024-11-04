@@ -1,6 +1,6 @@
 var a17626 =
 [
-    [ "MalleableGooSelector", "d6/dc9/a17626.html#a5adb1e89ab7d5733514a8fefc5de6a35", null ],
-    [ "operator()", "d6/dc9/a17626.html#adf73957539fdcc604f849944473e0015", null ],
-    [ "me", "d6/dc9/a17626.html#a6cd991b360895b4b3405f0cd9e63879f", null ]
+    [ "FilterTargetsInitial", "d6/dc9/a17626.html#a92cc71f268793c616bed66d9a489a145", null ],
+    [ "PrepareSpellScript", "d6/dc9/a17626.html#ae27e6ceab6b92e59c97307ed10f24ab2", null ],
+    [ "Register", "d6/dc9/a17626.html#a91b96940a9e72e632989b49f7e475dba", null ]
 ];

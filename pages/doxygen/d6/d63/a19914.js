@@ -1,7 +1,6 @@
 var a19914 =
 [
-    [ "boss_freya_healthy_sporeAI", "d6/d63/a19914.html#a1f72bc2b113f3b909d44fd54fff87e31", null ],
-    [ "Reset", "d6/d63/a19914.html#ad6d6562b5cc9f8232bdda99ec2204052", null ],
-    [ "UpdateAI", "d6/d63/a19914.html#ace79c59d62e597ae31425b4006e1363f", null ],
-    [ "_despawnTimer", "d6/d63/a19914.html#aaf65ef07480e5c634cc42dac0c7c734c", null ]
+    [ "npc_ulduar_toasty_fireAI", "d6/d63/a19914.html#a145001c6f1c1d505f810ae545ec62c69", null ],
+    [ "DoAction", "d6/d63/a19914.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
+    [ "SpellHit", "d6/d63/a19914.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
 ];

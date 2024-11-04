@@ -1,5 +1,8 @@
 var a25810 =
 [
-    [ "PrepareSpellScript", "dc/d42/a25810.html#a5f3b3fb1c42f21d309923e12f1272408", null ],
-    [ "Register", "dc/d42/a25810.html#afc19789732c46589dca40d46cdb12d9e", null ]
+    [ "CalculateAmount", "dc/d42/a25810.html#a8751483423726ffa8a33c70b7e55db23", null ],
+    [ "CheckProc", "dc/d42/a25810.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
+    [ "HandleProc", "dc/d42/a25810.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
+    [ "PrepareAuraScript", "dc/d42/a25810.html#a6bb54cea419145875c4086a69e1e55e8", null ],
+    [ "Register", "dc/d42/a25810.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
 ];

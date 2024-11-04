@@ -1,6 +1,7 @@
 var a25502 =
 [
-    [ "HandleSummon", "d1/dfa/a25502.html#ad1ee0eb347454d50216610a266226d68", null ],
-    [ "PrepareSpellScript", "d1/dfa/a25502.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
-    [ "Register", "d1/dfa/a25502.html#aa145041af68291f107c3ff11ce15b85e", null ]
+    [ "HandleDummy", "d1/dfa/a25502.html#a02bb860f6d077d4c295ad8b82179174d", null ],
+    [ "PrepareSpellScript", "d1/dfa/a25502.html#ad9eeff5aa428dabff7f2181d2819681d", null ],
+    [ "Register", "d1/dfa/a25502.html#a2c699d4d848a01a80143d6fcc01b64a8", null ],
+    [ "Validate", "d1/dfa/a25502.html#a9fd765b2c48f11837dbeb4caeedc0ae1", null ]
 ];

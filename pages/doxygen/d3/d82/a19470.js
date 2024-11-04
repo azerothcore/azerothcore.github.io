@@ -1,8 +1,5 @@
 var a19470 =
 [
-    [ "dark_rune_stormcallerAI", "d3/d82/a19470.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
-    [ "JustEngagedWith", "d3/d82/a19470.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
-    [ "Reset", "d3/d82/a19470.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
-    [ "UpdateAI", "d3/d82/a19470.html#adbd245fc5180dc7c78704595a9592864", null ],
-    [ "events", "d3/d82/a19470.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
+    [ "achievement_algalon_herald_of_the_titans", "d3/d82/a19470.html#a13c75b878f4669d212eeb09b55336384", null ],
+    [ "OnCheck", "d3/d82/a19470.html#a20811d7bb453b1758967c11545e630e9", null ]
 ];

@@ -1,6 +1,6 @@
 var a00881 =
 [
-    [ "boss_hydromancer_thespia", "df/dfc/a23258.html", "df/dfc/a23258" ],
+    [ "boss_hydromancer_thespia", "d7/d06/a23118.html", "d7/d06/a23118" ],
     [ "HydromancerThespia", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130d", [
       [ "SAY_SUMMON", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130dacebbfa1f13b8de4f039f5d550063c7bf", null ],
       [ "SAY_AGGRO", "df/d41/a00881.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe", null ],

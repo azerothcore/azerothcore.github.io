@@ -1,11 +1,8 @@
 var a20730 =
 [
-    [ "boss_yoggsaron_llaneAI", "de/d3a/a20730.html#a8524834b7dff49844d96b7dc49fd265d", null ],
-    [ "NextStep", "de/d3a/a20730.html#a6587e7873455950bda97b2a7d78e6fc5", null ],
-    [ "Reset", "de/d3a/a20730.html#a86f9d594562f842d478b63de18e52455", null ],
-    [ "Say", "de/d3a/a20730.html#ab619684f15f5325383a413dced7c930e", null ],
-    [ "UpdateAI", "de/d3a/a20730.html#a545378189f85968ac925baa06ad608b5", null ],
-    [ "_checkTimer", "de/d3a/a20730.html#aa4956f6943adce94a9ed4fec951317d6", null ],
-    [ "_running", "de/d3a/a20730.html#a6d6d186febc408ecb830bf7eea3c72bd", null ],
-    [ "_step", "de/d3a/a20730.html#a718c0bf307934b9ee9cbb933899c6324", null ]
+    [ "npc_ulduar_keeperAI", "d2/d38/a20734.html", "d2/d38/a20734" ],
+    [ "npc_ulduar_keeper", "de/d3a/a20730.html#a252b781061a2e21dc961ea94f7120d59", null ],
+    [ "GetAI", "de/d3a/a20730.html#ad0c0f5d3786e3f3b3394a599f3ee6256", null ],
+    [ "OnGossipHello", "de/d3a/a20730.html#a4db12efd22c7d2a5f18144fd16543230", null ],
+    [ "OnGossipSelect", "de/d3a/a20730.html#acf8681577117107d16d45705e4b8463f", null ]
 ];

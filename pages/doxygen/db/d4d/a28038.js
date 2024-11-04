@@ -1,5 +1,4 @@
 var a28038 =
 [
-    [ "ID", "db/d4d/a28038.html#a65acb5af9a688346cbb7dc144710c768", null ],
-    [ "inventoryIcon", "db/d4d/a28038.html#a26b43ee179bd546c6e956dd797fc0842", null ]
+    [ "ID", "db/d4d/a28038.html#a34a2bcafda3bfe22d829f1782031bb4b", null ]
 ];

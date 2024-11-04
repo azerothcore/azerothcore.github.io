@@ -1,5 +1,9 @@
 var a27286 =
 [
-    [ "item_generic_limit_chance_above_60", "de/da3/a27286.html#abc18809810f0a7668020d01c482be84b", null ],
-    [ "OnCastItemCombatSpell", "de/da3/a27286.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
+    [ "npc_chicken_cluckAI", "de/da3/a27286.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "JustEngagedWith", "de/da3/a27286.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
+    [ "ReceiveEmote", "de/da3/a27286.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "de/da3/a27286.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "de/da3/a27286.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "de/da3/a27286.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

@@ -1,6 +1,6 @@
 var a20698 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "df/d9d/a20698.html#a50ddd1d7b1d4a2e729657e53dfee43f2", null ],
-    [ "OnSpellClick", "df/d9d/a20698.html#aba032a7347230db028d1e939944d3f46", null ],
-    [ "_instance", "df/d9d/a20698.html#a477abf19a0b5bf9865550541877a29d7", null ]
+    [ "HandleScript", "df/d9d/a20698.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
+    [ "PrepareSpellScript", "df/d9d/a20698.html#ab2a4155f6029850c61e84d7c180addae", null ],
+    [ "Register", "df/d9d/a20698.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
 ];

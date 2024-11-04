@@ -1,7 +1,6 @@
 var a21770 =
 [
-    [ "npc_emilyAI", "db/d3e/a21774.html", "db/d3e/a21774" ],
-    [ "npc_emily", "da/df4/a21770.html#ab40f581fad087b3d32a7724fca97895d", null ],
-    [ "GetAI", "da/df4/a21770.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
-    [ "OnQuestAccept", "da/df4/a21770.html#ad434e7bf2427b3575a8459021e792152", null ]
+    [ "npc_razael_and_lyana", "da/df4/a21770.html#aec7257a1136a3580e2b4542e032429d6", null ],
+    [ "OnGossipHello", "da/df4/a21770.html#a9c9085db92853d5275c12e804a68b0fc", null ],
+    [ "OnGossipSelect", "da/df4/a21770.html#a407d8344280e8e38efb3991fda1d52cd", null ]
 ];

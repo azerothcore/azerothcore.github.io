@@ -1,6 +1,6 @@
 var a17998 =
 [
-    [ "boss_the_lich_kingAI", "df/df1/a18002.html", "df/df1/a18002" ],
-    [ "boss_the_lich_king", "da/da5/a17998.html#a10e2789a98a85907d24eabae6d7655f4", null ],
-    [ "GetAI", "da/da5/a17998.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
+    [ "npc_valkyr_shadowguardAI", "df/df1/a18002.html", "df/df1/a18002" ],
+    [ "npc_valkyr_shadowguard", "da/da5/a17998.html#a8ee90e21499eebf240c57419454c3829", null ],
+    [ "GetAI", "da/da5/a17998.html#ad84cb094a17e4fb88d3e883c98ce7f5a", null ]
 ];

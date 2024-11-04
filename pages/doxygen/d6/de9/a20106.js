@@ -1,6 +1,5 @@
 var a20106 =
 [
-    [ "HandleAfterEffectApply", "d6/de9/a20106.html#af655bb31dc24a3cede08ca371f784913", null ],
-    [ "PrepareAuraScript", "d6/de9/a20106.html#a1824853d0b369deac0745fabe2df657c", null ],
-    [ "Register", "d6/de9/a20106.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
+    [ "achievement_kologarn_rubble_and_roll", "d6/de9/a20106.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
+    [ "OnCheck", "d6/de9/a20106.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
 ];

@@ -1,6 +1,6 @@
 var a19630 =
 [
-    [ "HandleInstaKill", "d4/d16/a19630.html#a9371a2cc86616fd04e47939d45f01cae", null ],
-    [ "PrepareSpellScript", "d4/d16/a19630.html#a38eed301f1db3ea7ac15b626e5927500", null ],
-    [ "Register", "d4/d16/a19630.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
+    [ "npc_pool_of_tarAI", "d0/dec/a19634.html", "d0/dec/a19634" ],
+    [ "npc_pool_of_tar", "d4/d16/a19630.html#a9c585318b4507babe77b3ba758b06a87", null ],
+    [ "GetAI", "d4/d16/a19630.html#ae77bf48a72ce49f821085f32127e91dc", null ]
 ];

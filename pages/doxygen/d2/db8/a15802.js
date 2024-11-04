@@ -1,6 +1,7 @@
 var a15802 =
 [
-    [ "npc_xerestraszaAI", "dc/dd5/a15806.html", "dc/dd5/a15806" ],
-    [ "npc_xerestrasza", "d2/db8/a15802.html#a49023756b5dab130e4ffd7e62fa80ce4", null ],
-    [ "GetAI", "d2/db8/a15802.html#a5e0ede0054969d4787db56781dc55846", null ]
+    [ "HandleDummy", "d2/db8/a15802.html#ad0782bfbd977954aac6170ee9111aef6", null ],
+    [ "PrepareSpellScript", "d2/db8/a15802.html#ac456524856c4a3c4913423693a8fd50c", null ],
+    [ "Register", "d2/db8/a15802.html#a82d88c5dac164eb9dee9883a91edd0df", null ],
+    [ "Validate", "d2/db8/a15802.html#a2cf4ee02293cee5e383e99efe14e0008", null ]
 ];

@@ -1,6 +1,8 @@
 var a23154 =
 [
-    [ "HandleEffectRemove", "df/d74/a23154.html#a4000209ccbcbc62a51db3e7b672ea69d", null ],
-    [ "PrepareAuraScript", "df/d74/a23154.html#adc6f982b0e3cc56039746f425cb09113", null ],
-    [ "Register", "df/d74/a23154.html#a5ceecc2f9a9664755b5e492fda54a560", null ]
+    [ "boss_hungarfen", "df/d74/a23154.html#a009b8d34731d2310a53195024b434935", null ],
+    [ "JustEngagedWith", "df/d74/a23154.html#a3612bb373ecdba4245587fd94257ba62", null ],
+    [ "Reset", "df/d74/a23154.html#a4b310eff8af9a33c50ae8f2035ba76ad", null ],
+    [ "UpdateAI", "df/d74/a23154.html#a1765bd54c04a3479e837b3d0e241300e", null ],
+    [ "_scheduler", "df/d74/a23154.html#a702185681abb6cfc4add7078ff5bbb52", null ]
 ];

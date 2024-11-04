@@ -1,5 +1,6 @@
 var a19582 =
 [
-    [ "achievement_algalon_he_feeds_on_your_tears", "d8/df6/a19582.html#a91f4ddbce55a50e563df701eb0bcfff7", null ],
-    [ "OnCheck", "d8/df6/a19582.html#affea33614581545c65513bfe533d7246", null ]
+    [ "boss_flame_leviathan_defense_turretAI", "dc/d3e/a19586.html", "dc/d3e/a19586" ],
+    [ "boss_flame_leviathan_defense_turret", "d8/df6/a19582.html#a939c66ff6c1eb6dfdb3d93b3d0292e40", null ],
+    [ "GetAI", "d8/df6/a19582.html#a1c3726e2b753cda18bd11d8f4ff154db", null ]
 ];

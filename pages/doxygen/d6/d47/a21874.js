@@ -1,7 +1,6 @@
 var a21874 =
 [
-    [ "HandleScript", "d6/d47/a21874.html#a7fec959237546201ea94d5f87068e1c5", null ],
-    [ "PrepareSpellScript", "d6/d47/a21874.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
-    [ "Register", "d6/d47/a21874.html#a0aab07a4950f60a290491aa13103b332", null ],
-    [ "Validate", "d6/d47/a21874.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
+    [ "npc_blessed_bannerAI", "d9/dd9/a21878.html", "d9/dd9/a21878" ],
+    [ "npc_blessed_banner", "d6/d47/a21874.html#a779a0c653088b2d206226e146a19101f", null ],
+    [ "GetAI", "d6/d47/a21874.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
 ];

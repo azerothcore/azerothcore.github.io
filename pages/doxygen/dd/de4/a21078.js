@@ -1,8 +1,6 @@
 var a21078 =
 [
-    [ "CheckProc", "dd/de4/a21078.html#ac955cc78dd3206816906dd06b3e006f6", null ],
-    [ "HandleProc", "dd/de4/a21078.html#a966d23cc5714fe35d80b2964dddda536", null ],
-    [ "PrepareAuraScript", "dd/de4/a21078.html#a5c8464dcf2f8b62a624f38dec2f4a0a5", null ],
-    [ "Register", "dd/de4/a21078.html#a3e7479f97e4105f2c12536d9c66284aa", null ],
-    [ "Validate", "dd/de4/a21078.html#a5d8e764dafd26548af8588593bf27990", null ]
+    [ "npc_ichor_globuleAI", "dd/d25/a21082.html", "dd/d25/a21082" ],
+    [ "npc_ichor_globule", "dd/de4/a21078.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
+    [ "GetAI", "dd/de4/a21078.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
 ];

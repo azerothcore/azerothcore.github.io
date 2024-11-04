@@ -1,6 +1,6 @@
 var a13310 =
 [
-    [ "npc_augustus_the_touched", "db/d65/a13310.html#abc84c884345f44cf780410569cdee10c", null ],
-    [ "OnGossipHello", "db/d65/a13310.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
-    [ "OnGossipSelect", "db/d65/a13310.html#a992da9b22693c1fac1148b4ba545b819", null ]
+    [ "npc_grand_magister_rommathAI", "d9/d3b/a13314.html", "d9/d3b/a13314" ],
+    [ "npc_grand_magister_rommath", "db/d65/a13310.html#a63b9786bfbd9c7b462b0549e2f6941ea", null ],
+    [ "GetAI", "db/d65/a13310.html#abd64eff4712e8209e39e938b1813250c", null ]
 ];

@@ -1,6 +1,6 @@
 var a19698 =
 [
-    [ "boss_flame_leviathan_defense_turretAI", "d7/df7/a19702.html", "d7/df7/a19702" ],
-    [ "boss_flame_leviathan_defense_turret", "de/da7/a19698.html#a939c66ff6c1eb6dfdb3d93b3d0292e40", null ],
-    [ "GetAI", "de/da7/a19698.html#a1c3726e2b753cda18bd11d8f4ff154db", null ]
+    [ "OnPeriodic", "de/da7/a19698.html#a379c55df994c58932fef7e7a59fd8426", null ],
+    [ "PrepareAuraScript", "de/da7/a19698.html#ab180f54264f0c90376587d1b4c4dfd40", null ],
+    [ "Register", "de/da7/a19698.html#aacfaa385ca4cbe64217ef191a32936e2", null ]
 ];

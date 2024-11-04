@@ -1,6 +1,6 @@
 var a02195 =
 [
-    [ "boss_vexallus", "d8/d01/a12518.html", "d8/d01/a12518" ],
+    [ "boss_vexallus", "d7/d82/a12514.html", "d7/d82/a12514" ],
     [ "Misc", "df/d0e/a02195.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d0/d2b/a01997.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/da8/a01865.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

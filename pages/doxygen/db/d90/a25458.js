@@ -1,6 +1,8 @@
 var a25458 =
 [
-    [ "HandleScriptEffect", "db/d90/a25458.html#a94bbfc928beab8c8f27d84d1c9ab1558", null ],
-    [ "PrepareSpellScript", "db/d90/a25458.html#a479832175a4c77ce0c0a2f3d3f98f08c", null ],
-    [ "Register", "db/d90/a25458.html#aff9efad03d94958c29c84ea3c0d19fdb", null ]
+    [ "CheckProc", "db/d90/a25458.html#a2e83dd62bfcbe23e38b62e8299a52ee5", null ],
+    [ "HandleProc", "db/d90/a25458.html#a1d45afc30c8dd6de0a01285778117033", null ],
+    [ "PrepareAuraScript", "db/d90/a25458.html#ab468329029c4bc3c16475585b3451615", null ],
+    [ "Register", "db/d90/a25458.html#a37700b8597a3945d30700c5e8b60404a", null ],
+    [ "Validate", "db/d90/a25458.html#a30e57e0b04e16a4a232c6a18801fafa0", null ]
 ];

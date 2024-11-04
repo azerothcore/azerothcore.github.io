@@ -1,9 +1,7 @@
 var a19838 =
 [
-    [ "Absorb", "d0/d76/a19838.html#a16c2e931950102fc0ae5c88ef14587c1", null ],
-    [ "CalculateAmount", "d0/d76/a19838.html#a9166627cbaa536405975444c4ef601de", null ],
-    [ "Load", "d0/d76/a19838.html#abe7c08d2f26cef3603cf1b1f243f9e38", null ],
-    [ "PrepareAuraScript", "d0/d76/a19838.html#aa5793741c2f8179db68a9fb1222a9085", null ],
-    [ "Register", "d0/d76/a19838.html#a17fed57aed8953c7a7e401d1ac925e67", null ],
-    [ "_absorbPct", "d0/d76/a19838.html#ad9e1dcfd8ce7038173ac5b71d448d80a", null ]
+    [ "npc_ulduar_saronite_vaporsAI", "d0/d76/a19838.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
+    [ "IsSummonedBy", "d0/d76/a19838.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
+    [ "JustDied", "d0/d76/a19838.html#a5be637500e7b5735d90e19fa40fde467", null ],
+    [ "pInstance", "d0/d76/a19838.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
 ];

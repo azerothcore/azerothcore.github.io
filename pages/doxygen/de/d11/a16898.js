@@ -1,6 +1,7 @@
 var a16898 =
 [
-    [ "npc_pos_leader_secondAI", "d5/d69/a16902.html", "d5/d69/a16902" ],
-    [ "npc_pos_leader_second", "de/d11/a16898.html#ac4758674cc97eae0937264fa028e6da5", null ],
-    [ "GetAI", "de/d11/a16898.html#ac403cfc86247990d78c9cf4179df8b87", null ]
+    [ "HandleApplyAura", "de/d11/a16898.html#ac71784d7d135df4828ddcf5c85c4301c", null ],
+    [ "PrepareSpellScript", "de/d11/a16898.html#a097bf3b27e4b2d9ceddea07b9c0b8ce9", null ],
+    [ "Register", "de/d11/a16898.html#a80638966202cb9e27d204ea621e379ef", null ],
+    [ "Validate", "de/d11/a16898.html#aaa3505a74905b91f52e37b0ded0ba7fd", null ]
 ];

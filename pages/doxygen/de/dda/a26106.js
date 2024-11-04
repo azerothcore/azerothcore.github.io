@@ -1,8 +1,7 @@
 var a26106 =
 [
-    [ "HandleApplyEffect", "de/dda/a26106.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
-    [ "Load", "de/dda/a26106.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
-    [ "PrepareAuraScript", "de/dda/a26106.html#a6e212284f72320356cfa2f0c2a59999d", null ],
-    [ "Register", "de/dda/a26106.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
-    [ "Validate", "de/dda/a26106.html#a985a52f71371443454d6dd36f7fe83b2", null ]
+    [ "HandleDummy", "de/dda/a26106.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
+    [ "PrepareSpellScript", "de/dda/a26106.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
+    [ "Register", "de/dda/a26106.html#a3f1808538acca2742c19f68af9a6fd56", null ],
+    [ "Validate", "de/dda/a26106.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
 ];

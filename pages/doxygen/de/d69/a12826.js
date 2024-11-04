@@ -1,7 +1,7 @@
 var a12826 =
 [
-    [ "npc_apothecary_genericAI", "de/d69/a12826.html#afb2b04b51e28d0795e7781effa68dffd", null ],
-    [ "DoAction", "de/d69/a12826.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
-    [ "MovementInform", "de/d69/a12826.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
-    [ "_movePos", "de/d69/a12826.html#a53d10ab64df212b043cc21e054f6528c", null ]
+    [ "OnPeriodic", "de/d69/a12826.html#ab193b7cf8a8fe91879317e7d21522976", null ],
+    [ "PrepareAuraScript", "de/d69/a12826.html#a5dca6bc670612f0b0e8e99381c97bf11", null ],
+    [ "Register", "de/d69/a12826.html#ac6e0621064e5e0a77e1cdbfa8dbb6a54", null ],
+    [ "Validate", "de/d69/a12826.html#a290b864756ceff85d52ba3f974a28217", null ]
 ];

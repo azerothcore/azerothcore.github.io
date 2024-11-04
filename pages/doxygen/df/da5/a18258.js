@@ -1,14 +1,7 @@
 var a18258 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "df/da5/a18258.html#a4d4bd899a40ff44f8ee517b2a0328538", null ],
-    [ "AttackStart", "df/da5/a18258.html#a5457c18c60a8301ea60ef34d810a14c9", null ],
-    [ "CanAIAttack", "df/da5/a18258.html#aaf12ae21dddfa6b47ffa7880f65487a4", null ],
-    [ "DoAction", "df/da5/a18258.html#abbd08537ed245084ca7d4cf852a749a2", null ],
-    [ "EnterEvadeMode", "df/da5/a18258.html#a32bd4ed61bc62206ccedcf4acaeb8df8", null ],
-    [ "JustEngagedWith", "df/da5/a18258.html#ad7385306f8058699ee004b7bc5f1b538", null ],
-    [ "JustReachedHome", "df/da5/a18258.html#a2ae1c178a84c6d6899cf6400cb963e44", null ],
-    [ "MoveInLineOfSight", "df/da5/a18258.html#ab2465cf3e5950d827eb0a30e9fc2ea47", null ],
-    [ "Reset", "df/da5/a18258.html#a3dfe1f28c9301c30186beb27ab76f9a9", null ],
-    [ "UpdateAI", "df/da5/a18258.html#a89ce158e08b3da1e54b0be6caa3950b8", null ],
-    [ "checkTimer", "df/da5/a18258.html#ae5c238e2e201c431ceccc59a3a26078b", null ]
+    [ "OnApply", "df/da5/a18258.html#ac35f5d98980f54470a75a72b3578681f", null ],
+    [ "OnRemove", "df/da5/a18258.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
+    [ "PrepareAuraScript", "df/da5/a18258.html#a83c90d16fa151026a1e02927e31922ee", null ],
+    [ "Register", "df/da5/a18258.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
 ];

@@ -1,16 +1,13 @@
 var a28406 =
 [
-    [ "adt_LIQUID", "d4/d13/a28414.html", "d4/d13/a28414" ],
-    [ "GetLiquidAttributes", "d8/d0e/a28406.html#a343859f1c04059988ca0e4050ffac22f", null ],
-    [ "GetLiquidDepth", "d8/d0e/a28406.html#a6f620512f4feb239bc732efcfe53ae7c", null ],
-    [ "GetLiquidExistsBitmap", "d8/d0e/a28406.html#aaa9e70d67222ddcfbd890e8e3262f8e0", null ],
-    [ "GetLiquidHeight", "d8/d0e/a28406.html#a73ad976bf67c8adba2443190e6db533f", null ],
-    [ "GetLiquidInstance", "d8/d0e/a28406.html#a65b3323ff560d26302f86dcfc79eb4c3", null ],
-    [ "GetLiquidTextureCoordMap", "d8/d0e/a28406.html#a1d0cfd669f16b346e9199f6ade39cbce", null ],
-    [ "GetLiquidType", "d8/d0e/a28406.html#acd96d3f82d0ad8c3cb601097e52427b5", null ],
-    [ "prepareLoadedData", "d8/d0e/a28406.html#a05b77a8778e3d85dae8437d96a4aae8a", null ],
-    [ "fcc", "d8/d0e/a28406.html#a6c09458d5788c58dbd2f9b96448a1ff4", null ],
-    [ "fcc_txt", "d8/d0e/a28406.html#a5abe0d5184d096f87c2c0ff1f9a115dc", null ],
-    [ "liquid", "d8/d0e/a28406.html#aaaff4b98a34d81985b552fd671411450", null ],
-    [ "size", "d8/d0e/a28406.html#a2110a26debb714695e38e5ec159131f2", null ]
+    [ "liquidTris", "d8/d0e/a28406.html#ad166656bfa449d3093cb23e7bef2cc76", null ],
+    [ "liquidType", "d8/d0e/a28406.html#afbbb20fcb4e597c2addcc47893a33f92", null ],
+    [ "liquidVerts", "d8/d0e/a28406.html#a52796933ab018f27d12f625673f7f8a9", null ],
+    [ "offMeshConnectionDirs", "d8/d0e/a28406.html#a58350c36d5b88fe255880f6c217d4ef9", null ],
+    [ "offMeshConnectionRads", "d8/d0e/a28406.html#a56bbdeb5028302de0c5eb5a02cffa44c", null ],
+    [ "offMeshConnections", "d8/d0e/a28406.html#a706feac90bb398da61296bac9d0b7176", null ],
+    [ "offMeshConnectionsAreas", "d8/d0e/a28406.html#af5af113433bb2776e6735195e57ab6f7", null ],
+    [ "offMeshConnectionsFlags", "d8/d0e/a28406.html#a8c819b625f1bb0b21bb756144b2e1266", null ],
+    [ "solidTris", "d8/d0e/a28406.html#adb04d376bfa182cf9666689e6c5a7c68", null ],
+    [ "solidVerts", "d8/d0e/a28406.html#a915387c2cfa7111de4a957646a2aace4", null ]
 ];

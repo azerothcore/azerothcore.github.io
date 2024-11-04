@@ -1,6 +1,9 @@
 var a17210 =
 [
-    [ "boss_deathbringer_saurfangAI", "d2/d39/a17214.html", "d2/d39/a17214" ],
-    [ "boss_deathbringer_saurfang", "d5/d92/a17210.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "d5/d92/a17210.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "npc_stinky_iccAI", "d5/d92/a17210.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
+    [ "JustDied", "d5/d92/a17210.html#a7fa392980e2d30c935b79377df8dc694", null ],
+    [ "JustEngagedWith", "d5/d92/a17210.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
+    [ "Reset", "d5/d92/a17210.html#ac66e3398598576fdc889a7b56646eecf", null ],
+    [ "UpdateAI", "d5/d92/a17210.html#af6e04824ea1682c529e8579a306d34ca", null ],
+    [ "events", "d5/d92/a17210.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
 ];

@@ -1,7 +1,6 @@
 var a25018 =
 [
-    [ "HandleDummy", "db/d4f/a25018.html#a582208e608c9fdca7464b817c76c13b3", null ],
-    [ "PrepareSpellScript", "db/d4f/a25018.html#ac7abb7e01362a3333c0d73cd19dcee30", null ],
-    [ "Register", "db/d4f/a25018.html#a3882606b9e9201163cf76cb20b8e6364", null ],
-    [ "Validate", "db/d4f/a25018.html#a12a1cb4b6131d5959f6f541da5e8fc00", null ]
+    [ "OnApply", "db/d4f/a25018.html#a476bf6fc1a91784dbc8534c0e57005d6", null ],
+    [ "PrepareAuraScript", "db/d4f/a25018.html#a159ee8a9b0af729ed01f7632adb58863", null ],
+    [ "Register", "db/d4f/a25018.html#a0f33043317402119aa14e50a1eb6c227", null ]
 ];

@@ -1,6 +1,6 @@
 var a20754 =
 [
-    [ "FilterTargets", "d0/dd6/a20754.html#adaeee235184ddc36e90e532091183056", null ],
-    [ "PrepareSpellScript", "d0/dd6/a20754.html#a599f604e872d3a5a4ed2b155caefdc9f", null ],
-    [ "Register", "d0/dd6/a20754.html#ab79041a2536878498744555475bce5c8", null ]
+    [ "npc_ulduar_arachnopod_destroyerAI", "d2/db8/a20758.html", "d2/db8/a20758" ],
+    [ "npc_ulduar_arachnopod_destroyer", "d0/dd6/a20754.html#aec69c3c143ec27734dd3f2d8db0da9fd", null ],
+    [ "GetAI", "d0/dd6/a20754.html#ad667e7bacc181e79cb002181c71aac7c", null ]
 ];

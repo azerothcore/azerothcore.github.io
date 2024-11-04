@@ -1,7 +1,6 @@
 var a18350 =
 [
-    [ "PeriodicTick", "dc/dcc/a18350.html#ac1bace4fc66349364c84b5784967e9bf", null ],
-    [ "PrepareAuraScript", "dc/dcc/a18350.html#a358193e3340112c04f79c043548c3de0", null ],
-    [ "Register", "dc/dcc/a18350.html#a28f52bc253899aa407e67f9a089c815c", null ],
-    [ "Validate", "dc/dcc/a18350.html#a0dde3447e38e45cea94df44449a19a01", null ]
+    [ "npc_captain_rupertAI", "dc/dcc/a18350.html#ae91de64c440e71e612f34e37b90076d5", null ],
+    [ "Reset", "dc/dcc/a18350.html#a8ebaca725aba2c3aed8856fb23228ae1", null ],
+    [ "UpdateAI", "dc/dcc/a18350.html#a2edf4e51c9a5bde61a1875c067e963f2", null ]
 ];

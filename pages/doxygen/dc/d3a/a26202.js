@@ -1,5 +1,6 @@
 var a26202 =
 [
-    [ "PrepareSpellScript", "dc/d3a/a26202.html#aa2d9d885e55c1685c2ce9cbc5b4d4279", null ],
-    [ "Register", "dc/d3a/a26202.html#a721430db1738b255f114483bdddef5e2", null ]
+    [ "HandleEffectPeriodic", "dc/d3a/a26202.html#ab283b40ceb6dcd0a835550531321ce92", null ],
+    [ "PrepareAuraScript", "dc/d3a/a26202.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
+    [ "Register", "dc/d3a/a26202.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
 ];

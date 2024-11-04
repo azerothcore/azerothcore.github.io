@@ -1,6 +1,6 @@
 var a23054 =
 [
-    [ "HandleEffectRemove", "d7/d78/a23054.html#adfbbb75ace34ab5c0fec35e6aa88505a", null ],
-    [ "PrepareAuraScript", "d7/d78/a23054.html#a94b91d27b9a218b5fdce91d6a6e72f62", null ],
-    [ "Register", "d7/d78/a23054.html#a2b7fb2d6d0f92a970a45e0b9c409408d", null ]
+    [ "go_ahune_ice_stone", "d7/d78/a23054.html#ab7b665f01da80751ea97705c5113bde7", null ],
+    [ "GossipSelect", "d7/d78/a23054.html#aadb4db41ed84922c0a2d0463b8616876", null ],
+    [ "_instance", "d7/d78/a23054.html#a43651f471ac777b59fb8ba67b830cd35", null ]
 ];

@@ -1,6 +1,6 @@
 var a24078 =
 [
-    [ "npc_drake_dealer_hurlunk", "d6/df6/a24078.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "d6/df6/a24078.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "d6/df6/a24078.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "npc_unkor_the_ruthlessAI", "d9/d49/a24082.html", "d9/d49/a24082" ],
+    [ "npc_unkor_the_ruthless", "d6/df6/a24078.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
+    [ "GetAI", "d6/df6/a24078.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
 ];

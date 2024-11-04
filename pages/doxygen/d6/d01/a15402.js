@@ -1,14 +1,7 @@
 var a15402 =
 [
-    [ "npc_taskmaster_fizzuleAI", "d6/d01/a15402.html#ac792f91930c869ce919f8fd96b3fb076", null ],
-    [ "DoFriend", "d6/d01/a15402.html#aacaeb3293bbb4b670cdc7031d22a50c2", null ],
-    [ "JustEngagedWith", "d6/d01/a15402.html#ae7c14a4cf5af178525e5a41c0ba34d4b", null ],
-    [ "ReceiveEmote", "d6/d01/a15402.html#a21d0d70086f085b715a12d05fbe5d611", null ],
-    [ "Reset", "d6/d01/a15402.html#ac45352b8b3d2301dbaecceaa69bdb1cf", null ],
-    [ "SpellHit", "d6/d01/a15402.html#a4c35104935a3a6264c853a657dc42244", null ],
-    [ "UpdateAI", "d6/d01/a15402.html#a95ccf9a84231d64c87b9d88d85b4ec2e", null ],
-    [ "factionNorm", "d6/d01/a15402.html#ac0794d9b1c04ec4fe6f8afd1556f1fbc", null ],
-    [ "FlareCount", "d6/d01/a15402.html#a3a1128b7caa6ef4ba3697e1400aaed04", null ],
-    [ "IsFriend", "d6/d01/a15402.html#ab7e6bd2e023545c73fba758267551eee", null ],
-    [ "ResetTimer", "d6/d01/a15402.html#a376b3c7fbc9a81e82ece6840e8e9e7fc", null ]
+    [ "npc_ringoAI", "d7/d13/a15406.html", "d7/d13/a15406" ],
+    [ "npc_ringo", "d6/d01/a15402.html#aabccd10a446986487bbb09fc2d33cfd9", null ],
+    [ "GetAI", "d6/d01/a15402.html#aee6c9988f0c038c74b0deb3d44617ef1", null ],
+    [ "OnQuestAccept", "d6/d01/a15402.html#abdf4e5e1b26c1b1a288047e24188ad10", null ]
 ];

@@ -1,6 +1,7 @@
 var a18254 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "df/da5/a18258.html", "df/da5/a18258" ],
-    [ "npc_green_dragon_combat_trigger", "d4/d70/a18254.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "d4/d70/a18254.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "HandleForceCast", "d4/d70/a18254.html#accc757e0a23103242865f0ce3085f9d9", null ],
+    [ "Load", "d4/d70/a18254.html#a7206571378a0196a8648659628bdeece", null ],
+    [ "PrepareSpellScript", "d4/d70/a18254.html#a8bb6db3eaebab00d3166b24ad1e41158", null ],
+    [ "Register", "d4/d70/a18254.html#ace665321732f59f13b2ef831c71c2f18", null ]
 ];

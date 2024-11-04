@@ -1,11 +1,13 @@
 var a18922 =
 [
-    [ "boss_patchwerkAI", "df/de3/a18922.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "JustDied", "df/de3/a18922.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "JustEngagedWith", "df/de3/a18922.html#a1317cb819d6247f62e0c6c725157db30", null ],
-    [ "KilledUnit", "df/de3/a18922.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "df/de3/a18922.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "df/de3/a18922.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "df/de3/a18922.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "df/de3/a18922.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "npc_vortex_rideAI", "df/de3/a18922.html#ae827bdfdef36419e33b37aecde1a2cc4", null ],
+    [ "AttackStart", "df/de3/a18922.html#a810c0c03317672d5a4a904a1e96cbba9", null ],
+    [ "DamageTaken", "df/de3/a18922.html#a39e33812041877296c11c9bace6a4667", null ],
+    [ "MoveInLineOfSight", "df/de3/a18922.html#a2c810e2fe14e4681a0092a0c6bb3eadc", null ],
+    [ "PassengerBoarded", "df/de3/a18922.html#a77234a8f4ec9c687b194a8c332820609", null ],
+    [ "UpdateAI", "df/de3/a18922.html#ad450120965f9e85bdb69ffc4c092c901", null ],
+    [ "bUpdatedFlying", "df/de3/a18922.html#a56f2753ef630b76882cc1dce6b5a8fb9", null ],
+    [ "despawnTimer", "df/de3/a18922.html#acd7a8c972db52077f8b02317f5398ff0", null ],
+    [ "timer", "df/de3/a18922.html#acd72c6ae18b84cee94a295e51fae9ac3", null ],
+    [ "VORTEX_RADIUS", "df/de3/a18922.html#adec384ccbdc5f2b90a1d09c67b47d24f", null ]
 ];

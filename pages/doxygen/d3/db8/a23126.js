@@ -1,9 +1,10 @@
 var a23126 =
 [
-    [ "FilterTargets", "d3/db8/a23126.html#a9049c113d65b15a9a8e1143980a84b23", null ],
-    [ "HandleDummy", "d3/db8/a23126.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
-    [ "Load", "d3/db8/a23126.html#a8cad82701e0147e14f826243175e1c32", null ],
-    [ "PrepareSpellScript", "d3/db8/a23126.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
-    [ "Register", "d3/db8/a23126.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
-    [ "_targetNumber", "d3/db8/a23126.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
+    [ "boss_warlord_kalithresh", "d3/db8/a23126.html#afcf2288fbea2d5010c41344ce0247559", null ],
+    [ "JustDied", "d3/db8/a23126.html#a1947562aa9dafea371e2f2da824a3f65", null ],
+    [ "JustEngagedWith", "d3/db8/a23126.html#a2712f5c363c3929550b77ef2536b1385", null ],
+    [ "KilledUnit", "d3/db8/a23126.html#a06855288497f5335a236867ef681d3f8", null ],
+    [ "MoveInLineOfSight", "d3/db8/a23126.html#a544da19b6c3a6f159ed6b1639def1071", null ],
+    [ "Reset", "d3/db8/a23126.html#a89e3bac7eeb3a77e0a7a22d8de9f1024", null ],
+    [ "_introDone", "d3/db8/a23126.html#a8e07118bb6fa249178cc081e2b393d2d", null ]
 ];

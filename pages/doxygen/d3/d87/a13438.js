@@ -1,9 +1,9 @@
 var a13438 =
 [
-    [ "npc_tyrion_spybotAI", "d3/d87/a13438.html#aedad685279012266637d29069ead9063", null ],
-    [ "Reset", "d3/d87/a13438.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
-    [ "UpdateAI", "d3/d87/a13438.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
-    [ "WaypointReached", "d3/d87/a13438.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
-    [ "uiPhase", "d3/d87/a13438.html#af5dbb99fe18d96665efd04bd53294636", null ],
-    [ "uiTimer", "d3/d87/a13438.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
+    [ "npc_thrall_bfuAI", "df/d28/a13442.html", "df/d28/a13442" ],
+    [ "npc_thrall_bfu", "d3/d87/a13438.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
+    [ "GetAI", "d3/d87/a13438.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
+    [ "OnGossipHello", "d3/d87/a13438.html#a71a7108464de9245879c8a1c08932e2a", null ],
+    [ "OnGossipSelect", "d3/d87/a13438.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
+    [ "OnQuestReward", "d3/d87/a13438.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
 ];

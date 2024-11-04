@@ -1,9 +1,6 @@
 var a25634 =
 [
-    [ "CheckProc", "dd/dfb/a25634.html#a185159a5c83e8c65ef5b82f49a89dd8a", null ],
-    [ "HandleProc", "dd/dfb/a25634.html#a67db21e0293f336a31bf518c0fac85d1", null ],
-    [ "OnRemove", "dd/dfb/a25634.html#a1b51483738d5d3b73f50a78ef9fc1c57", null ],
-    [ "PrepareAuraScript", "dd/dfb/a25634.html#a3e549b8764c0f8efc5d110543c9944c7", null ],
-    [ "Register", "dd/dfb/a25634.html#abc4b88f104253b2b141ab0e3e22ee338", null ],
-    [ "Validate", "dd/dfb/a25634.html#a0b5b97081b7c897d451ef70c810bd7f1", null ]
+    [ "CalculateDamage", "dd/dfb/a25634.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
+    [ "PrepareSpellScript", "dd/dfb/a25634.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
+    [ "Register", "dd/dfb/a25634.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
 ];

@@ -1,9 +1,7 @@
 var a13946 =
 [
-    [ "HandleEffectPeriodic", "de/d68/a13946.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "de/d68/a13946.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "de/d68/a13946.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "de/d68/a13946.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "de/d68/a13946.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "de/d68/a13946.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "go_direbrew_mole_machineAI", "de/d68/a13946.html#a4e667ad9e572e93c045ae01f63bea648", null ],
+    [ "Reset", "de/d68/a13946.html#a32dd801b5d898fd8634edcb6cae52bdf", null ],
+    [ "UpdateAI", "de/d68/a13946.html#a2eaa8a0ad0907e4aa497a7e1c3a31b29", null ],
+    [ "_scheduler", "de/d68/a13946.html#a5960ff83f21cf5964f422e3a7b297f22", null ]
 ];

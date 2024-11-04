@@ -1,6 +1,6 @@
 var a21022 =
 [
-    [ "boss_skadi_graufAI", "d6/d7a/a21026.html", "d6/d7a/a21026" ],
-    [ "boss_skadi_grauf", "d8/d49/a21022.html#a571db2d2ae21f38b7051319da0f042f6", null ],
-    [ "GetAI", "d8/d49/a21022.html#a9b637a93a572d21691b81b80ec45206d", null ]
+    [ "npc_frozen_orbAI", "d6/d7a/a21026.html", "d6/d7a/a21026" ],
+    [ "npc_frozen_orb", "d8/d49/a21022.html#ac14966722e39b2b6b3a907756701ed98", null ],
+    [ "GetAI", "d8/d49/a21022.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
 ];

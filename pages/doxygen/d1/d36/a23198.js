@@ -1,6 +1,5 @@
 var a23198 =
 [
-    [ "HandleScript", "d1/d36/a23198.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "d1/d36/a23198.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "d1/d36/a23198.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "instance_the_underbog_InstanceMapScript", "d1/d36/a23198.html#ae7668c7c4432b74caa3ea46a7c7364e3", null ],
+    [ "Initialize", "d1/d36/a23198.html#a9c7c10020eef3db4794283c0f946d086", null ]
 ];

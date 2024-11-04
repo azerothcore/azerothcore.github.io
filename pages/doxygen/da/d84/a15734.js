@@ -1,8 +1,7 @@
 var a15734 =
 [
-    [ "boss_sartharion_shadronAI", "da/d84/a15734.html#a02e2e657ac74ab37a4568589511de664", null ],
-    [ "ExecuteEvent", "da/d84/a15734.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
-    [ "HandleExtraEvent", "da/d84/a15734.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
-    [ "Reset", "da/d84/a15734.html#a7054cde1de2166c2b06489187115cb3f", null ],
-    [ "SummonedCreatureDies", "da/d84/a15734.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
+    [ "CheckDistance", "da/d84/a15734.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "da/d84/a15734.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "da/d84/a15734.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "da/d84/a15734.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

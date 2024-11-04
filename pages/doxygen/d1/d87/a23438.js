@@ -1,12 +1,5 @@
 var a23438 =
 [
-    [ "boss_omor_the_unscarred", "d1/d87/a23438.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
-    [ "JustDied", "d1/d87/a23438.html#a9ddae483a0f8cefd8a19975b60002660", null ],
-    [ "JustEngagedWith", "d1/d87/a23438.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
-    [ "JustSummoned", "d1/d87/a23438.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
-    [ "KilledUnit", "d1/d87/a23438.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
-    [ "Reset", "d1/d87/a23438.html#a0ec22c50cd096677a20299ab45a3c344", null ],
-    [ "UpdateAI", "d1/d87/a23438.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
-    [ "_hasSpoken", "d1/d87/a23438.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
-    [ "_targetGUID", "d1/d87/a23438.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
+    [ "at_shattered_halls_execution", "d1/d87/a23438.html#a73f1d1f03960acd070b7996257f7a526", null ],
+    [ "OnTrigger", "d1/d87/a23438.html#ad35f9736371b091dc0780e5bf0caf9f5", null ]
 ];

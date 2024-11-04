@@ -1,6 +1,6 @@
 var a21034 =
 [
-    [ "boss_svalaAI", "d0/df1/a21038.html", "d0/df1/a21038" ],
-    [ "boss_svala", "d9/ddb/a21034.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "d9/ddb/a21034.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "npc_frozen_orb_stalkerAI", "d9/ddb/a21034.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
+    [ "JustSummoned", "d9/ddb/a21034.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
+    [ "Reset", "d9/ddb/a21034.html#a064ccb90afeb9b36d501850482c60bc4", null ]
 ];

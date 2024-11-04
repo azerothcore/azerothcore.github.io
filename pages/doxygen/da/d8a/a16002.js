@@ -1,15 +1,6 @@
 var a16002 =
 [
-    [ "npc_argent_soldierAI", "da/d8a/a16002.html#abbfbb5a1e116c6deb3db23f12ff8994f", null ],
-    [ "DamageTaken", "da/d8a/a16002.html#afb48cc1c2e254c292c33eade74b6fad7", null ],
-    [ "JustDied", "da/d8a/a16002.html#aedf4dcd909c1009fedfde593522454ec", null ],
-    [ "JustEngagedWith", "da/d8a/a16002.html#a0aa59fdf0668d64f3b670c595579ba81", null ],
-    [ "Reset", "da/d8a/a16002.html#a1a0c00c09c348f746730c9743d4b7b6b", null ],
-    [ "SetData", "da/d8a/a16002.html#a20b62b48f5cf92106fcd1860d9e91956", null ],
-    [ "UpdateAI", "da/d8a/a16002.html#aed2921c1f6bc0507bf9e6f02f224ab44", null ],
-    [ "WaypointReached", "da/d8a/a16002.html#af70fb91477dbeaa7e6e409f3381f0770", null ],
-    [ "bCheck", "da/d8a/a16002.html#af570597c33add7ac5ebf3d01e8c9b2df", null ],
-    [ "events", "da/d8a/a16002.html#ac458fc9a331dc7edfdc764215b1926e8", null ],
-    [ "pInstance", "da/d8a/a16002.html#ac9951514f27f343ae96e856f484e7baf", null ],
-    [ "uiWaypoint", "da/d8a/a16002.html#a87382571221c608017fd2d4cb99193dc", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "d8/d63/a16006.html", "d8/d63/a16006" ],
+    [ "instance_trial_of_the_champion", "da/d8a/a16002.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "da/d8a/a16002.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

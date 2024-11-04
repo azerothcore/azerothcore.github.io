@@ -1,6 +1,8 @@
 var a18802 =
 [
-    [ "npc_boss_gothik_minionAI", "d3/d02/a18806.html", "d3/d02/a18806" ],
-    [ "npc_boss_gothik_minion", "d7/da0/a18802.html#a6cabeae812639ac179133245d85a0e15", null ],
-    [ "GetAI", "d7/da0/a18802.html#a8abb1ec265f9eeb646a858bee06cfb92", null ]
+    [ "boss_maexxna_webwrapAI", "d7/da0/a18802.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
+    [ "IsSummonedBy", "d7/da0/a18802.html#a1d434373ccc7dd54c5de7bc99487170a", null ],
+    [ "JustDied", "d7/da0/a18802.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
+    [ "UpdateAI", "d7/da0/a18802.html#a05220fcded67e15bbd94d13d0b9581a2", null ],
+    [ "victimGUID", "d7/da0/a18802.html#a54081ebfc0df639b7e18b5f079802c92", null ]
 ];

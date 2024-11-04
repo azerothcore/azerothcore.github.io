@@ -1,6 +1,6 @@
 var a20694 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "df/d9d/a20698.html", "df/d9d/a20698" ],
-    [ "boss_yoggsaron_descend_portal", "d1/d02/a20694.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
-    [ "GetAI", "d1/d02/a20694.html#aceb50c808eed17ca468a80b823af1907", null ]
+    [ "CheckCast", "d1/d02/a20694.html#a715a58956db4253c8adfed039833debd", null ],
+    [ "PrepareSpellScript", "d1/d02/a20694.html#a3b03178d8ab54db36a19ba5a27444917", null ],
+    [ "Register", "d1/d02/a20694.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
 ];

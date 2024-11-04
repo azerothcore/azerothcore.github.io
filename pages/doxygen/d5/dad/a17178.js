@@ -1,6 +1,7 @@
 var a17178 =
 [
-    [ "BloodboltHitCheck", "d5/dad/a17178.html#a84873f1ec2c1e214e35d32954622e9af", null ],
-    [ "operator()", "d5/dad/a17178.html#a1eddfd7bbea8def20dcc080413af6364", null ],
-    [ "_ai", "d5/dad/a17178.html#a0a5d115c464b6e88bc1158cd858bcbec", null ]
+    [ "npc_icc_blood_beastAI", "d5/dad/a17178.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "d5/dad/a17178.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "d5/dad/a17178.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "d5/dad/a17178.html#a1074059162f818088808795119f081be", null ]
 ];

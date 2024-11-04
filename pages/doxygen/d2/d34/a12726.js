@@ -1,6 +1,6 @@
 var a12726 =
 [
-    [ "npc_mograineAI", "db/d48/a12730.html", "db/d48/a12730" ],
-    [ "npc_mograine", "d2/d34/a12726.html#a0e840923de338abd46f962fb55253bf5", null ],
-    [ "GetAI", "d2/d34/a12726.html#a6880708a0e4575ff48e0bade859857bf", null ]
+    [ "boss_darkmaster_gandlingAI", "db/d48/a12730.html", "db/d48/a12730" ],
+    [ "boss_darkmaster_gandling", "d2/d34/a12726.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
+    [ "GetAI", "d2/d34/a12726.html#a21ea53862614303af31a517a53d1fbf6", null ]
 ];

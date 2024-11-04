@@ -1,6 +1,6 @@
 var a23754 =
 [
-    [ "lapseTeleport", "d6/d28/a23754.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "d6/d28/a23754.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "d6/d28/a23754.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "go_apexis_relic", "d6/d28/a23754.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
+    [ "OnGossipHello", "d6/d28/a23754.html#ae8f7167ba5b973881e32d604691dc15a", null ],
+    [ "OnGossipSelect", "d6/d28/a23754.html#a025cc7cc9c69f0eb461445170972ab52", null ]
 ];

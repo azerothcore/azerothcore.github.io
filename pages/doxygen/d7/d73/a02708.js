@@ -1,8 +1,8 @@
 var a02708 =
 [
-    [ "boss_moam", "d8/d2f/a14754.html", "d8/d2f/a14754" ],
-    [ "spell_moam_mana_drain_filter", "d7/d3b/a14758.html", "d7/d3b/a14758" ],
-    [ "spell_moam_summon_mana_fiends", "d1/d0d/a14762.html", "d1/d0d/a14762" ],
+    [ "boss_moam", "db/d99/a14690.html", "db/d99/a14690" ],
+    [ "spell_moam_mana_drain_filter", "d7/d2c/a14694.html", "d7/d2c/a14694" ],
+    [ "spell_moam_summon_mana_fiends", "df/d7b/a14698.html", "df/d7b/a14698" ],
     [ "Events", "d7/d73/a02708.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,10 +1,6 @@
 var a26830 =
 [
-    [ "CheckProc", "d2/df5/a26830.html#a68a559c46266fc7337f7d56bb66af542", null ],
-    [ "HandleProc", "d2/df5/a26830.html#a69cdd92cea54ec5bf11f6011578b2338", null ],
-    [ "Load", "d2/df5/a26830.html#ad571b0d2f47cff037030d7a8184f60fd", null ],
-    [ "PrepareAuraScript", "d2/df5/a26830.html#aa20e2911e60f3ae7a9dcceee8f96b6ef", null ],
-    [ "Register", "d2/df5/a26830.html#a8af18925b317c717fcd6b2fae14a16e4", null ],
-    [ "Validate", "d2/df5/a26830.html#ac0cf25901d70e37bb887b3baa38790b5", null ],
-    [ "_procTarget", "d2/df5/a26830.html#ad48f21d3a45e97857265e6047f253910", null ]
+    [ "AreaTrigger_at_area_52_entrance", "d2/df5/a26830.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "d2/df5/a26830.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "d2/df5/a26830.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

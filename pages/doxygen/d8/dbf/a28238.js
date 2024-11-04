@@ -1,4 +1,5 @@
 var a28238 =
 [
-    [ "value", "d8/dbf/a28238.html#a30d3b489f743df8aa828b6e5bb847ea2", null ]
+    [ "height", "d8/dbf/a28238.html#a9ee8f132a89d37d9b202c7f49d2c3a49", null ],
+    [ "light", "d8/dbf/a28238.html#a53c2edf09fb56334d1c3621d3630de5d", null ]
 ];

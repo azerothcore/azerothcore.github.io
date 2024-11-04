@@ -1,8 +1,7 @@
 var a25242 =
 [
-    [ "OnApply", "da/d31/a25242.html#acf25199409ab6f991db15a784749aaf1", null ],
-    [ "OnRemove", "da/d31/a25242.html#a700513c27a2ae22581bbc61c8c4b523a", null ],
-    [ "PrepareAuraScript", "da/d31/a25242.html#ae6f93ab542d8f05a95745d7b10d1856a", null ],
-    [ "Register", "da/d31/a25242.html#a9332cb72f66e83f648b4ed02c8c074eb", null ],
-    [ "Validate", "da/d31/a25242.html#a09017d12ecf0ae0c3091cea17640782c", null ]
+    [ "CalcPeriodic", "da/d31/a25242.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "da/d31/a25242.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "da/d31/a25242.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "da/d31/a25242.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

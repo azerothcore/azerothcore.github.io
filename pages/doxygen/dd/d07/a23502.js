@@ -1,7 +1,5 @@
 var a23502 =
 [
-    [ "FilterTargets", "dd/d07/a23502.html#a921450a09e51585beb9dd2ce9b00bac9", null ],
-    [ "HandleHit", "dd/d07/a23502.html#adb30857a5a320bb24b8cc0bcb9d60040", null ],
-    [ "PrepareSpellScript", "dd/d07/a23502.html#a376618b9811b2e1ec18697431094e22f", null ],
-    [ "Register", "dd/d07/a23502.html#ae7f4f54446d5a1ebb20d49ab9deaed81", null ]
+    [ "modelId", "dd/d07/a23502.html#a6a7f030a6445a46fe55640356e9c5124", null ],
+    [ "spellId", "dd/d07/a23502.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
 ];

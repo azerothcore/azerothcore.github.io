@@ -1,7 +1,6 @@
 var a15002 =
 [
-    [ "npc_vekniss_stinger", "d5/d69/a15002.html#ad48098961715a924270cb8bbbe77e4b0", null ],
-    [ "JustEngagedWith", "d5/d69/a15002.html#ae7c758687c81cfb223066f0a9348eab8", null ],
-    [ "Reset", "d5/d69/a15002.html#a2a79f3775aad83410ff2670aa438e811", null ],
-    [ "UpdateAI", "d5/d69/a15002.html#a1ff479e8f45710f6aa36473933bb87e0", null ]
+    [ "npc_draenei_survivorAI", "dd/d34/a15006.html", "dd/d34/a15006" ],
+    [ "npc_draenei_survivor", "d5/d69/a15002.html#a1dca668a7c3f868677a9bf306288430c", null ],
+    [ "GetAI", "d5/d69/a15002.html#aa8dde30279bb898a4412491faca79267", null ]
 ];

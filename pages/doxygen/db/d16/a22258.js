@@ -1,7 +1,6 @@
 var a22258 =
 [
-    [ "HandleScript", "db/d16/a22258.html#a26eb647b6c938df3aeff7981571dc475", null ],
-    [ "PrepareSpellScript", "db/d16/a22258.html#a10114d8fa956aabff64aa0df7708f635", null ],
-    [ "Register", "db/d16/a22258.html#a0c6c379f5dcbb417d94d8e6315aa49dd", null ],
-    [ "Validate", "db/d16/a22258.html#adb477d34d8012c6fb45c5548fc49e127", null ]
+    [ "OutdoorPvPGH", "db/d16/a22258.html#a619492e0a1fdf75f37554a2f19268660", null ],
+    [ "SendRemoveWorldStates", "db/d16/a22258.html#a92c7e489717072ddc34f707fbe462cb2", null ],
+    [ "SetupOutdoorPvP", "db/d16/a22258.html#a3d62cb27cfa415c9ba7fe5c18384a75d", null ]
 ];

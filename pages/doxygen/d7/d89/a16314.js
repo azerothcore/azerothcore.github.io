@@ -1,6 +1,9 @@
 var a16314 =
 [
-    [ "spell_toc25_mistress_kiss_AuraScript", "d3/d7e/a16318.html", "d3/d7e/a16318" ],
-    [ "spell_toc25_mistress_kiss", "d7/d89/a16314.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
-    [ "GetAuraScript", "d7/d89/a16314.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
+    [ "npc_concentrated_ballAI", "d7/d89/a16314.html#a5aae1554934d8e2aaa59d420a13517b6", null ],
+    [ "DoAction", "d7/d89/a16314.html#ad3284ed37cdc503a688aa6fb2537387e", null ],
+    [ "MovementInform", "d7/d89/a16314.html#a07845a436ded9c799b742ac9e27cc1bd", null ],
+    [ "MoveToNextPoint", "d7/d89/a16314.html#a89d2697d5ccf6d783e973efc3b4669aa", null ],
+    [ "UpdateAI", "d7/d89/a16314.html#a6509ff14639bca29b6877db54102d004", null ],
+    [ "despawning", "d7/d89/a16314.html#a24145c6c4c38b5a1853647d24871090d", null ]
 ];

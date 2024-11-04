@@ -1,10 +1,7 @@
 var a25966 =
 [
-    [ "Load", "de/d84/a25966.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
-    [ "PrepareAuraScript", "de/d84/a25966.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
-    [ "Register", "de/d84/a25966.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
-    [ "Split", "de/d84/a25966.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
-    [ "groupSize", "de/d84/a25966.html#aa1e61b128f63c802dc623be551657df1", null ],
-    [ "minHpPct", "de/d84/a25966.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
-    [ "remainingAmount", "de/d84/a25966.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
+    [ "HandleHeal", "de/d84/a25966.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
+    [ "PrepareSpellScript", "de/d84/a25966.html#a9de9260bc1e2582138c58a708e5d899c", null ],
+    [ "Register", "de/d84/a25966.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
+    [ "Validate", "de/d84/a25966.html#aa300822cf5455404482124a6853fb314", null ]
 ];

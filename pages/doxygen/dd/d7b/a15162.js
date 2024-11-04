@@ -1,13 +1,8 @@
 var a15162 =
 [
-    [ "npc_tharnarianAI", "dd/d7b/a15162.html#a8e22d45f6420aa8079f8fb7150a2a53a", null ],
-    [ "Initialize", "dd/d7b/a15162.html#ad1d89491b42a56406273a04045e7e91d", null ],
-    [ "Reset", "dd/d7b/a15162.html#a7de1f46bee4e79effc5dbb405854a7da", null ],
-    [ "SetGUID", "dd/d7b/a15162.html#a7ac84aac946afc312d8ce27f04127dfd", null ],
-    [ "sGossipSelect", "dd/d7b/a15162.html#a33b5898def48e17ba27363b98f51849b", null ],
-    [ "UpdateAI", "dd/d7b/a15162.html#a1e58a89064bdfb69e4445db72184d8b3", null ],
-    [ "_bearGUID", "dd/d7b/a15162.html#af7a116b8226ddb51e9f0f118f2d8fa22", null ],
-    [ "_events", "dd/d7b/a15162.html#aff73052a4b7407d760af3dde09fa8a07", null ],
-    [ "_facing", "dd/d7b/a15162.html#ad2120fffc0ffa93d4fca1e9e8c0a4371", null ],
-    [ "_scriptRunning", "dd/d7b/a15162.html#a5be50b02cc8ce2e7b4dd334e923a7c10", null ]
+    [ "FilterTargets", "dd/d7b/a15162.html#a47b8055fa1b28968e8323ca98613aa83", null ],
+    [ "HandleScript", "dd/d7b/a15162.html#a8f7984e510d8947a2ae4b0734409866b", null ],
+    [ "PrepareSpellScript", "dd/d7b/a15162.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
+    [ "Register", "dd/d7b/a15162.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
+    [ "Validate", "dd/d7b/a15162.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
 ];

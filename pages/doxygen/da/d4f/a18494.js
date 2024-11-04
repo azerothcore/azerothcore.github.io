@@ -1,8 +1,6 @@
 var a18494 =
 [
-    [ "CountTargets", "da/d4f/a18494.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
-    [ "HandleScript", "da/d4f/a18494.html#af058a0c458463bdba4a4eb73aa91c113", null ],
-    [ "PrepareSpellScript", "da/d4f/a18494.html#a83b2fad7cdc189a17129e25a015952ff", null ],
-    [ "Register", "da/d4f/a18494.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
-    [ "Validate", "da/d4f/a18494.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
+    [ "npc_icc_valkyr_heraldAI", "d5/d0b/a18498.html", "d5/d0b/a18498" ],
+    [ "npc_icc_valkyr_herald", "da/d4f/a18494.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
+    [ "GetAI", "da/d4f/a18494.html#a7537269841d0380d2dc9e4641705acf9", null ]
 ];

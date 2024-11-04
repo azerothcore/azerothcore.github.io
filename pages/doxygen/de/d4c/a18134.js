@@ -1,9 +1,9 @@
 var a18134 =
 [
-    [ "HandleScript", "de/d4c/a18134.html#adaab7b03edc6ff147e856dc0cdfc5ad0", null ],
-    [ "Load", "de/d4c/a18134.html#aa2a5488ff4706a44350bd969d57a99e1", null ],
-    [ "PrepareSpellScript", "de/d4c/a18134.html#a73931c9434114749b9db648665153083", null ],
-    [ "Register", "de/d4c/a18134.html#a16b01725a1b2a105df365e0b178a4f0f", null ],
-    [ "SelectTarget", "de/d4c/a18134.html#a95be527c43ceeb4801f4e494753c1b59", null ],
-    [ "_target", "de/d4c/a18134.html#a2e97dd4fd1fd2ea2ba8bf3d335711de8", null ]
+    [ "DelayedCastEvent", "de/d4c/a18134.html#ae6d57612065d56ce79197aedebedf9f9", null ],
+    [ "Execute", "de/d4c/a18134.html#ae2925429b3049e44d2afd2e8b990af71", null ],
+    [ "_despawnTime", "de/d4c/a18134.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
+    [ "_originalCaster", "de/d4c/a18134.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
+    [ "_spellId", "de/d4c/a18134.html#abe28a6749101233302634ed226a289e8", null ],
+    [ "_trigger", "de/d4c/a18134.html#a85471a151a3165cc906f3a41103c3f5d", null ]
 ];

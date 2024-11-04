@@ -1,8 +1,6 @@
 var a15898 =
 [
-    [ "Load", "db/d75/a15898.html#a55dc086667f0fe23e513608e951276ed", null ],
-    [ "Phase", "db/d75/a15898.html#af66a6bff13803e54b6ed1447d1285ad4", null ],
-    [ "PrepareSpellScript", "db/d75/a15898.html#ae2c7cbd68ccf893144e38581a6f86f04", null ],
-    [ "Register", "db/d75/a15898.html#a8ab7e05e98771abcf9bed9995875b71d", null ],
-    [ "Validate", "db/d75/a15898.html#a87192df547adaf3cb060155d9cf4da79", null ]
+    [ "instance_ruby_sanctum_InstanceMapScript", "dc/d8f/a15902.html", "dc/d8f/a15902" ],
+    [ "instance_ruby_sanctum", "db/d75/a15898.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
+    [ "GetInstanceScript", "db/d75/a15898.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
 ];

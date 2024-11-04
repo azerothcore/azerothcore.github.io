@@ -1,6 +1,9 @@
 var a22034 =
 [
-    [ "npc_artruis_the_hearthlessAI", "de/d61/a22038.html", "de/d61/a22038" ],
-    [ "npc_artruis_the_hearthless", "df/dc1/a22034.html#abeed70f4306113bd5df242eae91bfdb0", null ],
-    [ "GetAI", "df/dc1/a22034.html#a1a7674c5e3e9e0de848bfb0d906ac06c", null ]
+    [ "npc_brunnhildar_prisonerAI", "df/dc1/a22034.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
+    [ "JustRespawned", "df/dc1/a22034.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
+    [ "Reset", "df/dc1/a22034.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
+    [ "SpellHit", "df/dc1/a22034.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
+    [ "UpdateAI", "df/dc1/a22034.html#a0702d4cf577ac00688a7b93bfe656952", null ],
+    [ "freed", "df/dc1/a22034.html#a46e03a19bac91a800154e3c873235800", null ]
 ];

@@ -1,10 +1,13 @@
 var a14410 =
 [
-    [ "boss_rage_winterchill", "d9/d76/a14410.html#a66fed2a7cc6135d41a2c40bdf4ffe02e", null ],
-    [ "DoAction", "d9/d76/a14410.html#a45333aea6d6a180473ca4823ea83920a", null ],
-    [ "JustDied", "d9/d76/a14410.html#ab10c7df81a9e71b2c114465c30e40a9b", null ],
-    [ "JustEngagedWith", "d9/d76/a14410.html#ad36a840c65949c54d5ee3ae8cb6f1f7b", null ],
-    [ "KilledUnit", "d9/d76/a14410.html#a69d69530a080379add7be73c552f4937", null ],
-    [ "PathEndReached", "d9/d76/a14410.html#aec47befdf3246710a5158780fa797fa7", null ],
-    [ "_recentlySpoken", "d9/d76/a14410.html#ae2141b4ea1d10cb74146aec63d65214c", null ]
+    [ "boss_infinite_corruptorAI", "d9/d76/a14410.html#add36192941eaabf7f3d1d41c572783bd", null ],
+    [ "DoAction", "d9/d76/a14410.html#a8ff0a9731ad7bc118a1014bdbb0e1daf", null ],
+    [ "JustDied", "d9/d76/a14410.html#a6d2f445bf0819ac644d7de14d3b7034d", null ],
+    [ "JustEngagedWith", "d9/d76/a14410.html#a644725505db4fc7a98c4255d0eb34616", null ],
+    [ "JustSummoned", "d9/d76/a14410.html#a2b12c03184b169a56a0e6696a107dc35", null ],
+    [ "Reset", "d9/d76/a14410.html#a4dbff495bfcda6fb715dec68616e1764", null ],
+    [ "UpdateAI", "d9/d76/a14410.html#aaa0a45066ab7ad7d5a7543822d399947", null ],
+    [ "beamTimer", "d9/d76/a14410.html#a2f8048e591a818f073a65bfcfa49e66c", null ],
+    [ "events", "d9/d76/a14410.html#a5491db8f5e063ca84f18f1ca63c1e846", null ],
+    [ "summons", "d9/d76/a14410.html#aa5de5f986f8a6d3ba5f3aad84422eab6", null ]
 ];

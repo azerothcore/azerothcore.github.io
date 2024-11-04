@@ -1,8 +1,6 @@
 var a19962 =
 [
-    [ "npc_ulduar_saronite_animusAI", "de/d0f/a19962.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "de/d0f/a19962.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "de/d0f/a19962.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "de/d0f/a19962.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "de/d0f/a19962.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "FilterTargets", "de/d0f/a19962.html#a4f77f654ef8bb589fbb81e8cb1ec6ce6", null ],
+    [ "PrepareSpellScript", "de/d0f/a19962.html#a52c6b32ab01a68b258d4fe89730ec32b", null ],
+    [ "Register", "de/d0f/a19962.html#a2e9ee7705a950d6a500ac472ff783b3a", null ]
 ];

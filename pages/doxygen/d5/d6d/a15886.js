@@ -1,10 +1,11 @@
 var a15886 =
 [
-    [ "spell_halion_marks_aura", "d5/d6d/a15886.html#a3351eb9a4b497e1d92bd0021c0fa01f8", null ],
-    [ "BeforeDispel", "d5/d6d/a15886.html#a48fb48567091c8fd9d365ea3ff8730cc", null ],
-    [ "OnRemove", "d5/d6d/a15886.html#a1c9fefecd33db13e06f267c41e6b0375", null ],
-    [ "PrepareAuraScript", "d5/d6d/a15886.html#acd5285ea5c378b31526440d263c54770", null ],
-    [ "Register", "d5/d6d/a15886.html#ac84d4ab83e56314ff15ee363cafd2feb", null ],
-    [ "_removeSpellId", "d5/d6d/a15886.html#aeef9d928c6a8739337251e144558b169", null ],
-    [ "_summonSpellId", "d5/d6d/a15886.html#a01e8677e4f55dbb55cca1bf16dec48b2", null ]
+    [ "boss_saviana_ragefireAI", "d5/d6d/a15886.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
+    [ "JustDied", "d5/d6d/a15886.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
+    [ "JustEngagedWith", "d5/d6d/a15886.html#a458eb370872c20441b5ec6ecd2c97500", null ],
+    [ "JustReachedHome", "d5/d6d/a15886.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
+    [ "KilledUnit", "d5/d6d/a15886.html#ac07513681c72d6748246cc7c349d117c", null ],
+    [ "MovementInform", "d5/d6d/a15886.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
+    [ "Reset", "d5/d6d/a15886.html#a4b7f103331c566cbf007a075161505af", null ],
+    [ "UpdateAI", "d5/d6d/a15886.html#af36ca2a359f950a10214d07aad240324", null ]
 ];

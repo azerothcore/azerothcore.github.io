@@ -1,6 +1,6 @@
 var a20658 =
 [
-    [ "boss_yoggsaron_death_orbAI", "d9/d2b/a20662.html", "d9/d2b/a20662" ],
-    [ "boss_yoggsaron_death_orb", "df/da7/a20658.html#a862d01f012cee832b41bc7c584816b93", null ],
-    [ "GetAI", "df/da7/a20658.html#a3169cd0e78642503f394a6cb74307871", null ]
+    [ "FilterTargets", "df/da7/a20658.html#a7efa78a7991b7ca859c7d622f973265d", null ],
+    [ "PrepareSpellScript", "df/da7/a20658.html#a67da98b94fe491afa06b7a0cfa92982a", null ],
+    [ "Register", "df/da7/a20658.html#a4d2c901a32f526673e968aa5b7ca9117", null ]
 ];

@@ -1,9 +1,11 @@
 var a20326 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d9/d44/a20326.html#a98ad3308b0fa56847ce6f5583bdfaba9", null ],
-    [ "AttackStart", "d9/d44/a20326.html#aa18e89f63e98112efeb69328f8fdc296", null ],
-    [ "MoveInLineOfSight", "d9/d44/a20326.html#a6384437fff9349df0cfa5053b37313ea", null ],
-    [ "MovementInform", "d9/d44/a20326.html#a2f7d5b821ea4bf80bd01d469859f6fb6", null ],
-    [ "UpdateAI", "d9/d44/a20326.html#a71d24eb5cea764011249b8ff78c3ed6c", null ],
-    [ "events", "d9/d44/a20326.html#a5099c03b3ab1eb437ea11a0c4e8650f1", null ]
+    [ "boss_thorim_lightning_orbAI", "d9/d44/a20326.html#a14d4b9f445abfaba77bcfc52173ff705", null ],
+    [ "AttackStart", "d9/d44/a20326.html#a88a885b96016788f8011dd1d3d44d992", null ],
+    [ "EnterEvadeMode", "d9/d44/a20326.html#a04bc99d1bd16f8297e7da8902e4bcaab", null ],
+    [ "InitWaypoint", "d9/d44/a20326.html#a420217dd9e482edc24a87dead2753321", null ],
+    [ "MoveInLineOfSight", "d9/d44/a20326.html#a0ee02cdd5cedf8a6565493b9812e88ae", null ],
+    [ "Reset", "d9/d44/a20326.html#a4e410303d287a4c827c279a4e7c3ca99", null ],
+    [ "WaypointReached", "d9/d44/a20326.html#a141659a0ebbcc097f0f03dec30dad2ca", null ],
+    [ "Timer", "d9/d44/a20326.html#ac251df35736ae44e08f82ae7bbe8fc15", null ]
 ];

@@ -1,5 +1,7 @@
 var a15330 =
 [
-    [ "go_crystalline_tear", "d4/d74/a15330.html#a9e19c6538ecd1a758f2639171321d965", null ],
-    [ "OnQuestAccept", "d4/d74/a15330.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
+    [ "npc_giltharesAI", "d4/d74/a15330.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d4/d74/a15330.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d4/d74/a15330.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d4/d74/a15330.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

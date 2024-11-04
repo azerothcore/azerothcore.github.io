@@ -1,6 +1,6 @@
 var a21738 =
 [
-    [ "npc_spiritual_insightAI", "de/ded/a21738.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
-    [ "GetSpeachId", "de/ded/a21738.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
-    [ "IsSummonedBy", "de/ded/a21738.html#ab6b39190d1195915ea0b4b191d864da6", null ]
+    [ "npc_attracted_reef_bullAI", "d8/d89/a21742.html", "d8/d89/a21742" ],
+    [ "npc_attracted_reef_bull", "de/ded/a21738.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
+    [ "GetAI", "de/ded/a21738.html#af705e2768cd41c955af7f944c670ac85", null ]
 ];

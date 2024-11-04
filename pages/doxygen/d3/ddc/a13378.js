@@ -1,6 +1,9 @@
 var a13378 =
 [
-    [ "npc_greengill_slaveAI", "d7/d3e/a13382.html", "d7/d3e/a13382" ],
-    [ "npc_greengill_slave", "d3/ddc/a13378.html#a46fb36fadb5ed5fc94a563473edd8732", null ],
-    [ "GetAI", "d3/ddc/a13378.html#ab2cb9adfeef75384becfbb3c5188b8d7", null ]
+    [ "npc_tyrion_spybotAI", "d3/ddc/a13378.html#aedad685279012266637d29069ead9063", null ],
+    [ "Reset", "d3/ddc/a13378.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
+    [ "UpdateAI", "d3/ddc/a13378.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
+    [ "WaypointReached", "d3/ddc/a13378.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
+    [ "uiPhase", "d3/ddc/a13378.html#af5dbb99fe18d96665efd04bd53294636", null ],
+    [ "uiTimer", "d3/ddc/a13378.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
 ];

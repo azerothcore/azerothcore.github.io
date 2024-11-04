@@ -1,6 +1,6 @@
 var a24026 =
 [
-    [ "HandleEffectRemove", "d4/d05/a24026.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
-    [ "PrepareAuraScript", "d4/d05/a24026.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
-    [ "Register", "d4/d05/a24026.html#ac02217c103db141d75377e233e1e4242", null ]
+    [ "npc_zephyr", "d4/d05/a24026.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "d4/d05/a24026.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "d4/d05/a24026.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

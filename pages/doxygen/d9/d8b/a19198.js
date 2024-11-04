@@ -1,6 +1,7 @@
 var a19198 =
 [
-    [ "boss_eregosAI", "d2/d40/a19202.html", "d2/d40/a19202" ],
-    [ "boss_eregos", "d9/d8b/a19198.html#a105820f29aa1391d77a56e024c4b5637", null ],
-    [ "GetAI", "d9/d8b/a19198.html#aee43f0dfee70ab9618c560a27504cb02", null ]
+    [ "HandleOnEffectApply", "d9/d8b/a19198.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "d9/d8b/a19198.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "d9/d8b/a19198.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "d9/d8b/a19198.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

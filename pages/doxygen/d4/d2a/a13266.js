@@ -1,6 +1,10 @@
 var a13266 =
 [
-    [ "npc_professor_phizzlethorpeAI", "d0/db6/a13270.html", "d0/db6/a13270" ],
-    [ "npc_professor_phizzlethorpe", "d4/d2a/a13266.html#a8d32b4a107533c81033c617b0b97027d", null ],
-    [ "GetAI", "d4/d2a/a13266.html#a5eb540d16b2dd123d553ea4ae24d8b53", null ]
+    [ "npc_partygoer_pather", "d4/d2a/a13266.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
+    [ "Initialize", "d4/d2a/a13266.html#afb114b0587c550e39c41e131364da663", null ],
+    [ "PathEndReached", "d4/d2a/a13266.html#a55833d306716ba411f96ecd024cc7c72", null ],
+    [ "Reset", "d4/d2a/a13266.html#ade2cc36ff49001138eee5b607ec83b12", null ],
+    [ "UpdateAI", "d4/d2a/a13266.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
+    [ "_events", "d4/d2a/a13266.html#ac210dc0286ded980e78743237a08bb23", null ],
+    [ "_path", "d4/d2a/a13266.html#a4da184c44858e99eca2b07193fd48f13", null ]
 ];

@@ -1,8 +1,5 @@
 var a28370 =
 [
-    [ "prepareLoadedData", "d7/d4d/a28370.html#a696cfebd8fe66840b316919519e9b319", null ],
-    [ "fcc", "d7/d4d/a28370.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
-    [ "fcc_txt", "d7/d4d/a28370.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
-    [ "height_map", "d7/d4d/a28370.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
-    [ "size", "d7/d4d/a28370.html#add2809c6e520cf4aa43807d61f973f0e", null ]
+    [ "data1", "d7/d4d/a28370.html#a4b0310994e24cce89269fe3dacfca1d6", null ],
+    [ "exist", "d7/d4d/a28370.html#abdd6e3252b117c57a1e363217babd717", null ]
 ];

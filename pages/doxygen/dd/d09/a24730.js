@@ -1,6 +1,6 @@
 var a24730 =
 [
-    [ "PrepareSpellScript", "dd/d09/a24730.html#ae8ef8bea1a6afa3f810c476e038bacc6", null ],
-    [ "RecalculateDamage", "dd/d09/a24730.html#a856fdecdde1c68a163caf61afb2b0b90", null ],
-    [ "Register", "dd/d09/a24730.html#a7f8c5c4920a87605b716e9e85b43ef47", null ]
+    [ "HandleOnEffectHit", "dd/d09/a24730.html#a07b15e180ee79149cad15b32b3c94359", null ],
+    [ "PrepareSpellScript", "dd/d09/a24730.html#afbea54d2dad7a969d7e7558d43ecbc95", null ],
+    [ "Register", "dd/d09/a24730.html#ad2426cf9076d3fe4f33984ab28df11f6", null ]
 ];

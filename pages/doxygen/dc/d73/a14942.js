@@ -1,8 +1,8 @@
 var a14942 =
 [
-    [ "boss_veklor", "dc/d73/a14942.html#acbbe1a2e6ffcb00a28f7ae5413cd02c1", null ],
-    [ "AttackStart", "dc/d73/a14942.html#a7ecfff13457bf177c1ec250bbee75cbf", null ],
-    [ "IAmVeklor", "dc/d73/a14942.html#a4c43713c24b5537f292be1e0fcaee703", null ],
-    [ "JustEngagedWith", "dc/d73/a14942.html#a05913da666b1715eac68441195dd9df4", null ],
-    [ "SpellHit", "dc/d73/a14942.html#ab5d9ec12c18e360ce2c8749dd97f2ab0", null ]
+    [ "npc_obsidian_eradicator", "dc/d73/a14942.html#a84a6c414b3d74468143984e57f83e383", null ],
+    [ "JustEngagedWith", "dc/d73/a14942.html#ab03b7138306a04a00938bf1cdb9a7966", null ],
+    [ "Reset", "dc/d73/a14942.html#a7c76c7d3a69e464c0dcb6a96226baa61", null ],
+    [ "UpdateAI", "dc/d73/a14942.html#a1697d83e89559f047d5bab652007bb61", null ],
+    [ "_targetGUIDs", "dc/d73/a14942.html#abd83775d1eab5ab2a3aadd7fd925c3ae", null ]
 ];

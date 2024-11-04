@@ -1,9 +1,10 @@
 var a14386 =
 [
-    [ "boss_azgalor", "d3/dce/a14386.html#ac794e0eacc2d543fa62e4b521089f080", null ],
-    [ "DoAction", "d3/dce/a14386.html#a43d7afa9da1375f431df871e2a1dfff2", null ],
-    [ "JustDied", "d3/dce/a14386.html#a49cc8abf458f82ad7d46c9c1563f0e98", null ],
-    [ "JustEngagedWith", "d3/dce/a14386.html#a4b067c3bccbd5f9c96c50d009250d3d0", null ],
-    [ "KilledUnit", "d3/dce/a14386.html#a04df1058e89ccc6e7ef2d1dff38d47e7", null ],
-    [ "_recentlySpoken", "d3/dce/a14386.html#abea34396ddde0aa02a073b2f3119fec9", null ]
+    [ "npc_hyjal_frost_wyrm", "d3/dce/a14386.html#a7cdc8ef87d5ccb88777fa823e199b9ce", null ],
+    [ "AttackStart", "d3/dce/a14386.html#abaaea3bcbb8806ed9d807742273eb06d", null ],
+    [ "DoAction", "d3/dce/a14386.html#adab2b42c582cee234aea37d187b66138", null ],
+    [ "JustEngagedWith", "d3/dce/a14386.html#a23dace13bb2811dea43b63f0b970a2ce", null ],
+    [ "PathEndReached", "d3/dce/a14386.html#a2ec3137dad743e4766ca402282d913c7", null ],
+    [ "Reset", "d3/dce/a14386.html#a550c20113f4ebe4015f9a8088888f99b", null ],
+    [ "UpdateAI", "d3/dce/a14386.html#a182c3b440f74a4ebe6dee64651bf701f", null ]
 ];

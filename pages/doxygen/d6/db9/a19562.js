@@ -1,7 +1,5 @@
 var a19562 =
 [
-    [ "HandleDummyEffect", "d6/db9/a19562.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
-    [ "PrepareSpellScript", "d6/db9/a19562.html#a84a4f52928873e58b1fc49e783c5083a", null ],
-    [ "Register", "d6/db9/a19562.html#a90c00bcb1768d696addab407425e406a", null ],
-    [ "SelectTarget", "d6/db9/a19562.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
+    [ "achievement_auriaya_nine_lives", "d6/db9/a19562.html#a750304bc946a7ecefec29dc18c429d3b", null ],
+    [ "OnCheck", "d6/db9/a19562.html#ae1b7ee75a3e7343c3f5f8043b4e39362", null ]
 ];

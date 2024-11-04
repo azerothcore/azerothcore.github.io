@@ -1,6 +1,6 @@
 var a22122 =
 [
-    [ "HandleScriptEffect", "db/d17/a22122.html#a1dac2806b74471332aec0595118005a3", null ],
-    [ "PrepareSpellScript", "db/d17/a22122.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
-    [ "Register", "db/d17/a22122.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
+    [ "HandleSummon", "db/d17/a22122.html#ac2f7b0d0772d72d69d58bb4b66616e21", null ],
+    [ "PrepareSpellScript", "db/d17/a22122.html#ae7f071e9d9a82892be31090385679c9f", null ],
+    [ "Register", "db/d17/a22122.html#a516ab0801cc93f15da434a0f0952c7e4", null ]
 ];

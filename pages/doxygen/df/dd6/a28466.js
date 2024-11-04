@@ -1,7 +1,7 @@
 var a28466 =
 [
-    [ "fcc", "df/dd6/a28466.html#afbaa5fdd612d1c93f7f07aa299d144ad", null ],
-    [ "fcc_txt", "df/dd6/a28466.html#a89ed22b0a63dae9f1443309e54e9e421", null ],
-    [ "size", "df/dd6/a28466.html#a0b9002c302e4dfef6dc533bf8c5bcdcc", null ],
-    [ "ver", "df/dd6/a28466.html#adb92d3e9f7e35255a2e6e147d51ba8fc", null ]
+    [ "Paths", "df/dd6/a28466.html#aff167c694a55441bcf5504f5d1933f41", null ],
+    [ "References", "df/dd6/a28466.html#a07f0d7daa9cd934768b8a603dc52bea3", null ],
+    [ "Sets", "df/dd6/a28466.html#a43774f8dd70e85e16aa8d49b5c6a25b6", null ],
+    [ "Spawns", "df/dd6/a28466.html#a51f24c059516683f0744b81819186c0e", null ]
 ];

@@ -1,9 +1,7 @@
 var a15370 =
 [
-    [ "npc_custodian_of_timeAI", "d4/d4b/a15370.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
-    [ "JustEngagedWith", "d4/d4b/a15370.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
-    [ "MoveInLineOfSight", "d4/d4b/a15370.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
-    [ "Reset", "d4/d4b/a15370.html#a56bcc694ac286488ed4b3f2328c30573", null ],
-    [ "UpdateAI", "d4/d4b/a15370.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
-    [ "WaypointReached", "d4/d4b/a15370.html#a963736e62fbd0caea631ee3fb69fca46", null ]
+    [ "npc_paoka_swiftmountainAI", "d4/d4b/a15370.html#a92a229f76de3bc46ae14910439db0004", null ],
+    [ "DoSpawnWyvern", "d4/d4b/a15370.html#a7997a3d398db82c205e3a8af77ac1684", null ],
+    [ "Reset", "d4/d4b/a15370.html#acae0427957aba04a54e6001823bc7eb4", null ],
+    [ "WaypointReached", "d4/d4b/a15370.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
 ];

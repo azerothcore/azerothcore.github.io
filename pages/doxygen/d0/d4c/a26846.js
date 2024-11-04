@@ -1,7 +1,6 @@
 var a26846 =
 [
-    [ "CheckProc", "d0/d4c/a26846.html#a957f8837b5613a3bfd8200ded3529c54", null ],
-    [ "HandleEffectProc", "d0/d4c/a26846.html#a54810a897e535558d060119e3de6537b", null ],
-    [ "PrepareAuraScript", "d0/d4c/a26846.html#a37950bfd846e1c2c550a108461941a26", null ],
-    [ "Register", "d0/d4c/a26846.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
+    [ "boss_ysondreAI", "d7/df5/a26850.html", "d7/df5/a26850" ],
+    [ "boss_ysondre", "d0/d4c/a26846.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
+    [ "GetAI", "d0/d4c/a26846.html#a0da215d7bc8ee86216887e682b9335c3", null ]
 ];

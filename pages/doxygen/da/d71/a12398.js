@@ -1,8 +1,6 @@
 var a12398 =
 [
-    [ "npc_cyclone", "da/d71/a12398.html#afdc4f98b031f832702929c6a7f192ab5", null ],
-    [ "JustEngagedWith", "da/d71/a12398.html#a61d0710868c91f707643a436c0d79485", null ],
-    [ "Reset", "da/d71/a12398.html#a60b74a96fccc12333b9dc3ed67a54637", null ],
-    [ "UpdateAI", "da/d71/a12398.html#a224795b4ea46fc2c9346e361410f0c0f", null ],
-    [ "_scheduler", "da/d71/a12398.html#a77f4d42ff45e0565f2d9ee5b27787ffd", null ]
+    [ "npc_grandmother", "da/d71/a12398.html#a6cffe8c574859779f6561dde0aef9666", null ],
+    [ "OnGossipHello", "da/d71/a12398.html#ae39335d22b5fd1fc4c0f9d34e8977124", null ],
+    [ "OnGossipSelect", "da/d71/a12398.html#a0e2b684377ed593abfbb49b730cfe9b2", null ]
 ];

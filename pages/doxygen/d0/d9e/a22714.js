@@ -1,11 +1,7 @@
 var a22714 =
 [
-    [ "boss_high_nethermancer_zerevor", "d0/d9e/a22714.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
-    [ "AttackStart", "d0/d9e/a22714.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
-    [ "CastDampenMagicIfPossible", "d0/d9e/a22714.html#ab0af23baf43d377935811c52a346c566", null ],
-    [ "JustEngagedWith", "d0/d9e/a22714.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
-    [ "OnAuraRemove", "d0/d9e/a22714.html#a7dd31808dbf00f77b59fce84249778fe", null ],
-    [ "Reset", "d0/d9e/a22714.html#afd7a419de217b3d129f783ddc87780af", null ],
-    [ "UpdateAI", "d0/d9e/a22714.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ],
-    [ "_canCastDampenMagic", "d0/d9e/a22714.html#a72c89454c2b0754690ae72fd7aacb0e8", null ]
+    [ "npc_ashtongue_channeler", "d0/d9e/a22714.html#af7217d00f87e56e5cdb411fcad161b51", null ],
+    [ "Reset", "d0/d9e/a22714.html#ab935559c19b18f9c94dd36c85be5b3b2", null ],
+    [ "UpdateAI", "d0/d9e/a22714.html#af855dfa521404c4e6127a9bf12a75604", null ],
+    [ "scheduler", "d0/d9e/a22714.html#a4f58bbd2c44f7a3f9835fd55408ffaf4", null ]
 ];

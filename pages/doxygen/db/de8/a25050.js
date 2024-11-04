@@ -1,9 +1,7 @@
 var a25050 =
 [
-    [ "PrepareAuraScript", "db/de8/a25050.html#aebfc1dfb1ff025b0ef4a8c0062a000f1", null ],
-    [ "RefreshVisualShields", "db/de8/a25050.html#aeefbbdd391c347b350ec7738b9825f8c", null ],
-    [ "Register", "db/de8/a25050.html#aacd9f12cddd0c698816916d9cdf5f0ea", null ],
-    [ "RemoveDummyFromDriver", "db/de8/a25050.html#a399641ce72b74038a4517868267bd86a", null ],
-    [ "RemoveVisualShields", "db/de8/a25050.html#aed4bb9ec815ac4e22b952a64c8bd3b51", null ],
-    [ "Validate", "db/de8/a25050.html#ae5799f72b7fbce82799fd730f1525948", null ]
+    [ "HandleDamage", "db/de8/a25050.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
+    [ "PrepareSpellScript", "db/de8/a25050.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
+    [ "Register", "db/de8/a25050.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
+    [ "Validate", "db/de8/a25050.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
 ];

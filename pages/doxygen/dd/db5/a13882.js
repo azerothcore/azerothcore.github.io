@@ -1,10 +1,9 @@
 var a13882 =
 [
-    [ "npc_zealot_lorkhan", "dd/db5/a13882.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
-    [ "JustDied", "dd/db5/a13882.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
-    [ "JustEngagedWith", "dd/db5/a13882.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
-    [ "Reset", "dd/db5/a13882.html#abecbd4a2ea2cf3281244933fe7484239", null ],
-    [ "UpdateAI", "dd/db5/a13882.html#a68c35734f8886b2c241dcbc178899206", null ],
-    [ "_scheduler", "dd/db5/a13882.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
-    [ "instance", "dd/db5/a13882.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
+    [ "HandleEffectPeriodic", "dd/db5/a13882.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
+    [ "HandleEffectRemove", "dd/db5/a13882.html#a96ed7366e568b70e82d622586740aa56", null ],
+    [ "Load", "dd/db5/a13882.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
+    [ "PrepareAuraScript", "dd/db5/a13882.html#abd1f851112a50b79e815cdd894275bab", null ],
+    [ "Register", "dd/db5/a13882.html#aa3cd85aed063017c4737e7660fa81f37", null ],
+    [ "questTick", "dd/db5/a13882.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
 ];

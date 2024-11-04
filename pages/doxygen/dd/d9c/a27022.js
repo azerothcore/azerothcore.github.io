@@ -1,7 +1,5 @@
 var a27022 =
 [
-    [ "FilterTargets", "dd/d9c/a27022.html#a5ee420ce696d23d836ff6e9e1def6405", null ],
-    [ "HandleEffect", "dd/d9c/a27022.html#a064fdac9158e35f290b51ecf9bf537b1", null ],
-    [ "PrepareSpellScript", "dd/d9c/a27022.html#a53b5772c87574beb5b295c26fe983b76", null ],
-    [ "Register", "dd/d9c/a27022.html#a5e93d0d708d2304d9166c47ad285ada5", null ]
+    [ "go_tablet_of_the_seven", "dd/d9c/a27022.html#aa5bcd36c6d0250571f6721f71864ab59", null ],
+    [ "OnGossipHello", "dd/d9c/a27022.html#a54d27dc2a52d69d8fd9605c358a855fc", null ]
 ];

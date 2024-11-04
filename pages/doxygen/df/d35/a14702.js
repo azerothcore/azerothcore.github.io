@@ -1,14 +1,18 @@
 var a14702 =
 [
-    [ "boss_ayamiss", "df/d35/a14702.html#a0e923d4fa8bd6623ec58d7f64b5ea261", null ],
-    [ "DoAction", "df/d35/a14702.html#a0114a79274c34fe3dfbc8a34f39920bc", null ],
-    [ "EnterEvadeMode", "df/d35/a14702.html#a52f584da6d3d1b87fe91528dc25b8c5e", null ],
-    [ "JustDied", "df/d35/a14702.html#acddcbb06b7d5980e199ef11103fabf7c", null ],
-    [ "JustEngagedWith", "df/d35/a14702.html#aaaf1b765256f4a6342d16bd7767f92cf", null ],
-    [ "JustSummoned", "df/d35/a14702.html#a4281f761256cd93c19aea0a76239512d", null ],
-    [ "MovementInform", "df/d35/a14702.html#a6bc1f0767785efb5a5fb005b49338032", null ],
-    [ "Reset", "df/d35/a14702.html#a10111f97236c2846181aa20f7d9b64fd", null ],
-    [ "ScheduleTasks", "df/d35/a14702.html#a166238b9395a426a7333cf71a38c6c5c", null ],
-    [ "_swarmers", "df/d35/a14702.html#aa6dd99f8085d1424acf07cc124ac210c", null ],
-    [ "homePos", "df/d35/a14702.html#ab098ee0f8872d1cf9d34993c01971921", null ]
+    [ "boss_ossirian", "df/d35/a14702.html#ab03a53ee2c0dc70ab86328e9a7ad1495", null ],
+    [ "InitializeAI", "df/d35/a14702.html#a76731e2594cfadf5305d8abc502f665a", null ],
+    [ "JustEngagedWith", "df/d35/a14702.html#a78616bb875bd51d5727e85d0b65d1a73", null ],
+    [ "JustSummoned", "df/d35/a14702.html#ad462996cd1b12395f6cdaa33a7b876f1", null ],
+    [ "KilledUnit", "df/d35/a14702.html#a716acecfc8e38eb663557fafb56719fd", null ],
+    [ "MoveInLineOfSight", "df/d35/a14702.html#a16aa4ac59c1c8f6f844c311745b6e969", null ],
+    [ "Reset", "df/d35/a14702.html#a17a31cf7827cdb904efa64d954b19c4a", null ],
+    [ "SetGUID", "df/d35/a14702.html#a20dcef7e211a7aecbf46ecf6ba3d3fed", null ],
+    [ "SpawnNextCrystal", "df/d35/a14702.html#a2a95c315af6a9e2bcedc8a9c9a9d9789", null ],
+    [ "SpellHit", "df/d35/a14702.html#a0b5b92a9bce9a5dd0054cb833a56d32f", null ],
+    [ "SummonedCreatureDespawn", "df/d35/a14702.html#a5c3ac7bddf52e2390f91599bb3ce3a64", null ],
+    [ "UpdateAI", "df/d35/a14702.html#a8f3822d1cc3354efa5292d88fedd4087", null ],
+    [ "_crystalIterator", "df/d35/a14702.html#adc049248fa851c954d5fcbf643d47c16", null ],
+    [ "_firstCrystalGUID", "df/d35/a14702.html#a498d562d4ceeaecc6a01047bc4559235", null ],
+    [ "_saidIntro", "df/d35/a14702.html#a5a9b0b7ae7421a4554f4c4abc8850220", null ]
 ];

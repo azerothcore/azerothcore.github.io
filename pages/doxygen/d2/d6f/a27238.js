@@ -1,8 +1,8 @@
 var a27238 =
 [
-    [ "go_bellsAI", "d2/d6f/a27238.html#a6f22847c66a3b5faded35da799359846", null ],
-    [ "UpdateAI", "d2/d6f/a27238.html#ab466f67665577f22bfe6cdb94d0a008b", null ],
-    [ "_events", "d2/d6f/a27238.html#a46c66442078cee28a76fc412746ca026", null ],
-    [ "_soundId", "d2/d6f/a27238.html#ab2491e9d27266ea69a5a9163e8c1b35b", null ],
-    [ "once", "d2/d6f/a27238.html#abf6ca2fc64f5764936a6d0179d40c2fa", null ]
+    [ "npc_elder_clearwaterAI", "df/dea/a27242.html", "df/dea/a27242" ],
+    [ "npc_elder_clearwater", "d2/d6f/a27238.html#abeee1650938a71762bb0c148ea9834d1", null ],
+    [ "GetAI", "d2/d6f/a27238.html#a4ae2f507f61ee7cfc0c3b6d7dbfb7f04", null ],
+    [ "OnGossipHello", "d2/d6f/a27238.html#aae382c0a386b8bacd39c6e7a586519e4", null ],
+    [ "OnQuestReward", "d2/d6f/a27238.html#a2d316a2d2c892cecc134cea46b5bf2a8", null ]
 ];

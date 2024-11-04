@@ -1,6 +1,6 @@
 var a16990 =
 [
-    [ "boss_gal_darahAI", "df/dee/a16994.html", "df/dee/a16994" ],
-    [ "boss_gal_darah", "d6/db5/a16990.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "d6/db5/a16990.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "npc_dark_nucleusAI", "df/dee/a16994.html", "df/dee/a16994" ],
+    [ "npc_dark_nucleus", "d6/db5/a16990.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
+    [ "GetAI", "d6/db5/a16990.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
 ];

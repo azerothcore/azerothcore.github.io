@@ -1,9 +1,9 @@
 var a24466 =
 [
-    [ "HandleAfterHit", "d2/de0/a24466.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
-    [ "Load", "d2/de0/a24466.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
-    [ "PrepareSpellScript", "d2/de0/a24466.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
-    [ "Register", "d2/de0/a24466.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
-    [ "Validate", "d2/de0/a24466.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
-    [ "_executed", "d2/de0/a24466.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
+    [ "HandleApply", "d2/de0/a24466.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
+    [ "HandleRemove", "d2/de0/a24466.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
+    [ "PrepareAuraScript", "d2/de0/a24466.html#af2b8e669737cd4282beb6a5035f496fc", null ],
+    [ "RecalculateBaseArmor", "d2/de0/a24466.html#a693720558c7b2b22c41a49a402522014", null ],
+    [ "Register", "d2/de0/a24466.html#aff9bc58342383afe5a08be696cddedf6", null ],
+    [ "Validate", "d2/de0/a24466.html#ad712e1e05d94372defdfa4fe67e65716", null ]
 ];

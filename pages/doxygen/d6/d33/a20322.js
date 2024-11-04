@@ -1,6 +1,6 @@
 var a20322 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d9/d44/a20326.html", "d9/d44/a20326" ],
-    [ "npc_ulduar_emergency_fire_bot", "d6/d33/a20322.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
-    [ "GetAI", "d6/d33/a20322.html#afb3ab952495175c5f571d4e39a5acea4", null ]
+    [ "boss_thorim_lightning_orbAI", "d9/d44/a20326.html", "d9/d44/a20326" ],
+    [ "boss_thorim_lightning_orb", "d6/d33/a20322.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "d6/d33/a20322.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

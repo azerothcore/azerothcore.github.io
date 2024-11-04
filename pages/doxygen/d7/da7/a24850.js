@@ -1,6 +1,10 @@
 var a24850 =
 [
-    [ "ModDest", "d7/da7/a24850.html#a99d08536d2555390a7399a6d2fc199e6", null ],
-    [ "PrepareSpellScript", "d7/da7/a24850.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
-    [ "Register", "d7/da7/a24850.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
+    [ "Load", "d7/da7/a24850.html#a6ae104e97dc9c0aa50e115fe1f17e161", null ],
+    [ "OnPeriodic", "d7/da7/a24850.html#ab1dc8acb8072f70625375480742fee5e", null ],
+    [ "PrepareAuraScript", "d7/da7/a24850.html#a2e81d03893b23aa8dc9c615683206f75", null ],
+    [ "Register", "d7/da7/a24850.html#ac2f2c8359487ad8c619e9faf8535b927", null ],
+    [ "Validate", "d7/da7/a24850.html#a0c88acf48d0ea7dd7ac3ac85aa3a126d", null ],
+    [ "_applyTimes", "d7/da7/a24850.html#a1bf9f3a1eb52bb64df59b381c412552f", null ],
+    [ "stackAmount", "d7/da7/a24850.html#ac8d762bdb40366c93602497e9aaa42eb", null ]
 ];

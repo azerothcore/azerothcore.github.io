@@ -1,9 +1,9 @@
 var a21942 =
 [
-    [ "npc_lord_areteAI", "d4/d76/a21942.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "d4/d76/a21942.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "d4/d76/a21942.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "d4/d76/a21942.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "d4/d76/a21942.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "d4/d76/a21942.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "npc_engineer_heliceAI", "d4/d76/a21942.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
+    [ "JustDied", "d4/d76/a21942.html#aba224727b86a2bfc39a47b70b424ccef", null ],
+    [ "Reset", "d4/d76/a21942.html#ade3f7f526dd8973c155aafb939db3778", null ],
+    [ "UpdateAI", "d4/d76/a21942.html#a1c333511dd6e82cd22af111e12a701c4", null ],
+    [ "WaypointReached", "d4/d76/a21942.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
+    [ "m_uiChatTimer", "d4/d76/a21942.html#aa305bc2b5711d0745650f80275204ea8", null ]
 ];

@@ -1,9 +1,9 @@
 var a24646 =
 [
-    [ "Absorb", "d0/d19/a24646.html#af7df70d0bd68d12032b5b57faa789a87", null ],
-    [ "CalculateAmount", "d0/d19/a24646.html#a40f7cfe30b7bf2237d61665b167476fb", null ],
-    [ "Load", "d0/d19/a24646.html#a1b3e5da38a6aba7cc163bf34848ed950", null ],
-    [ "PrepareAuraScript", "d0/d19/a24646.html#ae63ad15db90ebe73d73e77e232f4d695", null ],
-    [ "Register", "d0/d19/a24646.html#ac7316995b7682a6fafe47ff2547956b0", null ],
-    [ "absorbPct", "d0/d19/a24646.html#ab5b59d975e71e0e12bf41e8d173b9491", null ]
+    [ "spell_gen_select_target_count", "d0/d19/a24646.html#a65507c155a8746ff49c58c051b7868e4", null ],
+    [ "FilterTargets", "d0/d19/a24646.html#a5de89be9ce321a0f4ac49853a700b502", null ],
+    [ "PrepareSpellScript", "d0/d19/a24646.html#a42ddce15414dcdf495b572e0f75e9486", null ],
+    [ "Register", "d0/d19/a24646.html#a94f86992275123e2e3989655cf077efd", null ],
+    [ "_count", "d0/d19/a24646.html#acdf5daa848ae185b859c45a1271df68c", null ],
+    [ "_effTarget", "d0/d19/a24646.html#a9c54508790062277c8275d2466e93fb3", null ]
 ];

@@ -1,8 +1,10 @@
 var a13714 =
 [
-    [ "FilterTargets", "de/da9/a13714.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "de/da9/a13714.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "de/da9/a13714.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "de/da9/a13714.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "de/da9/a13714.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "boss_jeklik", "de/da9/a13714.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
+    [ "EnterEvadeMode", "de/da9/a13714.html#a70dc363e0690e72846db5f779375edc1", null ],
+    [ "JustDied", "de/da9/a13714.html#ae648ba9ff49f4970612a8c3351789b66", null ],
+    [ "JustEngagedWith", "de/da9/a13714.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
+    [ "PathEndReached", "de/da9/a13714.html#a689e8f91361de45e6f885fea0dec900a", null ],
+    [ "Reset", "de/da9/a13714.html#a7959106123e60e3584b32b50a272746c", null ],
+    [ "batRidersCount", "de/da9/a13714.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
 ];

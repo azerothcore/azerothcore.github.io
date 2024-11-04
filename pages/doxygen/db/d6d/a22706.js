@@ -1,13 +1,12 @@
 var a22706 =
 [
-    [ "boss_illidari_council_memberAI", "db/d6d/a22706.html#ac32366dfad13cd37ced2428d041e25c9", null ],
-    [ "DamageTaken", "db/d6d/a22706.html#a1006bbdb6e39b6ceb52037e1b3cdb788", null ],
-    [ "DoAction", "db/d6d/a22706.html#a203310b84d71a24145b1c39e7faff182", null ],
-    [ "EnterEvadeMode", "db/d6d/a22706.html#a9bf2376cd75e0dc825de3839eda857eb", null ],
-    [ "JustDied", "db/d6d/a22706.html#a135c8e8f4113b1c9c05e5b26e61e639c", null ],
-    [ "JustEngagedWith", "db/d6d/a22706.html#a5c43bfb6e1781a83bfad36668ac724f2", null ],
-    [ "KilledUnit", "db/d6d/a22706.html#aa0cb7a373d521038e8e41e354f6bc3f7", null ],
-    [ "Reset", "db/d6d/a22706.html#a8e75d47f56d14d9b66d10b74c3479839", null ],
-    [ "events", "db/d6d/a22706.html#ad47a350f5ed066e04816e72961a80bd0", null ],
-    [ "instance", "db/d6d/a22706.html#adb11720cd0fd87a42b9a78490a70251e", null ]
+    [ "npc_creature_generator_akama", "db/d6d/a22706.html#a8e91cadea7f135ff692635e4d39923e0", null ],
+    [ "DoAction", "db/d6d/a22706.html#a01efeecd374056da287e4a1e468472b6", null ],
+    [ "JustSummoned", "db/d6d/a22706.html#af58d7b130ed3b6c209c08ae14444bfe3", null ],
+    [ "Reset", "db/d6d/a22706.html#a23cf08661802f247147bb23cff30eeab", null ],
+    [ "SummonedCreatureDies", "db/d6d/a22706.html#a35b7ecfa659d80a869868b9a2732d92b", null ],
+    [ "UpdateAI", "db/d6d/a22706.html#a8c6e3ca67691e7625700f22c5b1c09c5", null ],
+    [ "instance", "db/d6d/a22706.html#a109aea7bb0747f8572c1d46e9df2d2a5", null ],
+    [ "spawnCounter", "db/d6d/a22706.html#a02d8acace195438fe6e8d4705a043078", null ],
+    [ "summons", "db/d6d/a22706.html#a3d532e607c48298ca0464ee630dd27b3", null ]
 ];

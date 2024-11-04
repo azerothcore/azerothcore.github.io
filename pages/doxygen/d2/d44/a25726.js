@@ -1,7 +1,6 @@
 var a25726 =
 [
-    [ "HandleHeal", "d2/d44/a25726.html#ae24fd6305b5d17c2fbb6f03238b385c6", null ],
-    [ "Load", "d2/d44/a25726.html#a4dd5016439e8798083fe3d4fa5458731", null ],
-    [ "PrepareSpellScript", "d2/d44/a25726.html#a248ae6d2c8f8d6c014a0164105773836", null ],
-    [ "Register", "d2/d44/a25726.html#af2e80d64787ad31e33d0d3c239f62c81", null ]
+    [ "OnRemove", "d2/d44/a25726.html#ae1f257e43effcb396d57d42db3063afd", null ],
+    [ "PrepareAuraScript", "d2/d44/a25726.html#a5b13e46dc228ffe594ce2ce06a7d6799", null ],
+    [ "Register", "d2/d44/a25726.html#a4a94d5c8efdd7f6e0dd655ebeb8c4614", null ]
 ];

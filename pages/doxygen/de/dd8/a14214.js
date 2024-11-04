@@ -1,15 +1,5 @@
 var a14214 =
 [
-    [ "npc_midsummer_bonfire", "de/dd8/a14214.html#a07c8b1add555697fdb29fda89f42c4af", null ],
-    [ "Ignite", "de/dd8/a14214.html#a2a398299b3584e3a871b1b6e83b4ff5f", null ],
-    [ "InitBonfire", "de/dd8/a14214.html#a9210a0a472d609f66895bfa0a8e324b0", null ],
-    [ "SpellHit", "de/dd8/a14214.html#a9ad2102b2dea60fbb81c1578b97f34dc", null ],
-    [ "StampOut", "de/dd8/a14214.html#a1f8bd11d0f49c0a44764a2f34e6ee147", null ],
-    [ "UpdateAI", "de/dd8/a14214.html#a46733a171006e4693a32391cfe954050", null ],
-    [ "UpdateBonfireBlessingBuffs", "de/dd8/a14214.html#a1236b61f21ff1a1b85bbc7058ca8e17c", null ],
-    [ "_bonfire", "de/dd8/a14214.html#aaa2f2822cb5c104ec2d90c2a344b409d", null ],
-    [ "_isStampedOut", "de/dd8/a14214.html#aa21c9f7a5d7ac29663d94da55ef34373", null ],
-    [ "_spellFocus", "de/dd8/a14214.html#abef815568f7d39bbda20f9611e3abc52", null ],
-    [ "_teamId", "de/dd8/a14214.html#a5c0894721d13dd49961c0687c100d7a5", null ],
-    [ "_type", "de/dd8/a14214.html#a7c26b81f24dc2fc0ed9fc53d1d5935f5", null ]
+    [ "npc_pilgrims_bounty_plate", "de/dd8/a14214.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
+    [ "SpellHit", "de/dd8/a14214.html#a7797b7a532336542ef37f0643df8dec0", null ]
 ];

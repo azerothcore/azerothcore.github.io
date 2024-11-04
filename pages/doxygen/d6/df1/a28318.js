@@ -1,7 +1,20 @@
 var a28318 =
 [
-    [ "RealmHandle", "d6/df1/a28318.html#a120fb45f2301188a843ab2e712f768e4", null ],
-    [ "RealmHandle", "d6/df1/a28318.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
-    [ "operator<", "d6/df1/a28318.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
-    [ "Realm", "d6/df1/a28318.html#a31af0d9064a295b1579fce3c80217bfd", null ]
+    [ "Record", "d6/df1/a28318.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
+    [ "Record", "d6/df1/a28318.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
+    [ "getByte", "d6/df1/a28318.html#ab1897952fa01e930caffa262519645c5", null ],
+    [ "getFloat", "d6/df1/a28318.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
+    [ "getFloat", "d6/df1/a28318.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
+    [ "getInt", "d6/df1/a28318.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
+    [ "getInt", "d6/df1/a28318.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
+    [ "getString", "d6/df1/a28318.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
+    [ "getString", "d6/df1/a28318.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
+    [ "getUInt", "d6/df1/a28318.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
+    [ "getUInt", "d6/df1/a28318.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
+    [ "operator=", "d6/df1/a28318.html#a25c6e7d3b28aade82eb52d41515f0427", null ],
+    [ "DBCFile", "d6/df1/a28318.html#a6c4f02b14caa99337bbe77b30e5615ab", null ],
+    [ "DBCFile::Iterator", "d6/df1/a28318.html#a56d48f82a62e25038bf9cf339e608083", null ],
+    [ "Iterator", "d6/df1/a28318.html#a9830fc407400559db7e7783cc10a9394", null ],
+    [ "file", "d6/df1/a28318.html#adffc3b9545883356dd9bed0a0613a1fe", null ],
+    [ "offset", "d6/df1/a28318.html#ae76eb8b329fb6d580aa42484de46c95e", null ]
 ];

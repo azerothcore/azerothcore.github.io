@@ -1,8 +1,7 @@
 var a22494 =
 [
-    [ "CalcPeriodic", "d9/d70/a22494.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
-    [ "OnRemove", "d9/d70/a22494.html#af120bb9d6a0c3d338706613540849412", null ],
-    [ "PrepareAuraScript", "d9/d70/a22494.html#ad413f14193013058e1775f80b457a81d", null ],
-    [ "Register", "d9/d70/a22494.html#aa35fc5865f108712e450661e67c384ce", null ],
-    [ "Update", "d9/d70/a22494.html#aebc61b57ed8038488ec06c14483b2099", null ]
+    [ "npc_blade_of_azzinoth", "d9/d70/a22494.html#a55afe56313c237afe8080662b2ed2dba", null ],
+    [ "DoAction", "d9/d70/a22494.html#a8e746da7672c0177c4b6c91b1e9d2eb5", null ],
+    [ "IsSummonedBy", "d9/d70/a22494.html#af2925da1235b809ee81469fe32ab0f92", null ],
+    [ "JustSummoned", "d9/d70/a22494.html#a501e2d1ae9af813fd9c30395e7774983", null ]
 ];

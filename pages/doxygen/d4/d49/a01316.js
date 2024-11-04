@@ -1,9 +1,9 @@
 var a01316 =
 [
-    [ "instance_azjol_nerub", "d4/d34/a15694.html", "d4/d34/a15694" ],
-    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "d1/dcc/a15698.html", "d1/dcc/a15698" ],
-    [ "spell_azjol_nerub_fixate", "dd/dae/a15702.html", "dd/dae/a15702" ],
-    [ "spell_azjol_nerub_web_wrap_aura", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
+    [ "instance_azjol_nerub", "da/d48/a15630.html", "da/d48/a15630" ],
+    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "dc/d38/a15634.html", "dc/d38/a15634" ],
+    [ "spell_azjol_nerub_fixate", "da/d4a/a15638.html", "da/d4a/a15638" ],
+    [ "spell_azjol_nerub_web_wrap_aura", "d2/de8/a15642.html", "d2/de8/a15642" ],
     [ "AddSC_instance_azjol_nerub", "d4/d49/a01316.html#a58deb67f6fb8962cfe1dfd044fdaabdb", null ],
     [ "boundaries", "d4/d49/a01316.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
     [ "creatureData", "d4/d49/a01316.html#a412286b689bd324fedd65ddd8dde8afb", null ],

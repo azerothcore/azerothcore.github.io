@@ -1,6 +1,7 @@
 var a21362 =
 [
-    [ "npc_azure_saboteurAI", "d7/d7e/a21366.html", "d7/d7e/a21366" ],
-    [ "npc_azure_saboteur", "d2/d62/a21362.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
-    [ "GetAI", "d2/d62/a21362.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
+    [ "npc_thassarianAI", "d2/d62/a21362.html#a92e873dc3aa97f81919225ce75a5f894", null ],
+    [ "Reset", "d2/d62/a21362.html#a8611ef17700c739dbd5e7a70660f1379", null ],
+    [ "UpdateAI", "d2/d62/a21362.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
+    [ "_events", "d2/d62/a21362.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
 ];

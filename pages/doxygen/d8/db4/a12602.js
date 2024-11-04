@@ -1,6 +1,8 @@
 var a12602 =
 [
-    [ "npc_unworthy_initiate_anchorAI", "d8/df3/a12606.html", "d8/df3/a12606" ],
-    [ "npc_unworthy_initiate_anchor", "d8/db4/a12602.html#a3d4c6d9e5ffa66d3424297b27e5ac4a1", null ],
-    [ "GetAI", "d8/db4/a12602.html#ab012983661d20a3ffa4f58136bd2d808", null ]
+    [ "npc_scarlet_miner_cartAI", "d8/db4/a12602.html#a4256e3bc9f6678dc85a3b702e1c531f8", null ],
+    [ "DoAction", "d8/db4/a12602.html#a99ac60b1a60cc5f269aa7f02f3fd5083", null ],
+    [ "PassengerBoarded", "d8/db4/a12602.html#a3539847efa7014a8e31a78ace83b6bc5", null ],
+    [ "SetGUID", "d8/db4/a12602.html#a5679fef6f40d0e48547e7bd57a93a176", null ],
+    [ "minerGUID", "d8/db4/a12602.html#a084e80b43b5b30b5e1794feff305e9b3", null ]
 ];

@@ -1,7 +1,8 @@
 var a21650 =
 [
-    [ "CheckCast", "d2/dd4/a21650.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
-    [ "HandleScript", "d2/dd4/a21650.html#a8128bb2d7588409dae73bed78d5285a7", null ],
-    [ "PrepareSpellScript", "d2/dd4/a21650.html#aee17a8a21ec5df027082c6990189dccc", null ],
-    [ "Register", "d2/dd4/a21650.html#a2a97265e102e9ce31997d99275b42973", null ]
+    [ "npc_ravenous_worgAI", "d2/dd4/a21650.html#a5404516869e171c84b774f2a7b8be15d", null ],
+    [ "AttackStart", "d2/dd4/a21650.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
+    [ "UpdateAI", "d2/dd4/a21650.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
+    [ "_attack", "d2/dd4/a21650.html#a3df5c98821ba33a40e25e7b050858b96", null ],
+    [ "_pacified", "d2/dd4/a21650.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
 ];

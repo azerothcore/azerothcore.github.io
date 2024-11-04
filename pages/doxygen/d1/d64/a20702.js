@@ -1,6 +1,7 @@
 var a20702 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d1/d27/a20706.html", "d1/d27/a20706" ],
-    [ "boss_yoggsaron_influence_tentacle", "d1/d64/a20702.html#a44155d82364bdde7e00131be3b6edfb6", null ],
-    [ "GetAI", "d1/d64/a20702.html#afb691fae90c0add07cfc8c02b9d2b975", null ]
+    [ "HandleProc", "d1/d64/a20702.html#a1b8782a4f22522cfe224073515abdf45", null ],
+    [ "PrepareAuraScript", "d1/d64/a20702.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
+    [ "Register", "d1/d64/a20702.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
+    [ "Validate", "d1/d64/a20702.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
 ];

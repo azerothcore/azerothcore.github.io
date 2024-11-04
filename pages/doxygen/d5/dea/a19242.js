@@ -1,12 +1,6 @@
 var a19242 =
 [
-    [ "npc_oculus_drakeAI", "d5/dea/a19242.html#a214d9b77a5653f1a5f60106081eaf683", null ],
-    [ "IsSummonedBy", "d5/dea/a19242.html#a151e59f7b6032d5ed62f9f0ed2923f40", null ],
-    [ "MovementInform", "d5/dea/a19242.html#a5f6de11b9cd3c0d6593d7d249cb59555", null ],
-    [ "PassengerBoarded", "d5/dea/a19242.html#a5efc6f166b5fd77fa329b17e1e143379", null ],
-    [ "SpellHitTarget", "d5/dea/a19242.html#aebb8fb75777d7fc3ddc69dc558b08f7e", null ],
-    [ "UpdateAI", "d5/dea/a19242.html#a8ecaebfcf1c1fbe8ed263be6148ccef6", null ],
-    [ "despawnTimer", "d5/dea/a19242.html#a560dc0936a78267a4036b209c6718732", null ],
-    [ "JustSummoned", "d5/dea/a19242.html#a8b656a464525e881944e72e9486b0eb9", null ],
-    [ "m_pInstance", "d5/dea/a19242.html#a4df6c06ec857086f7a2747cab2c4703c", null ]
+    [ "CalculateDamage", "d5/dea/a19242.html#ae38f8cfb44de2798d7a284c942617678", null ],
+    [ "PrepareSpellScript", "d5/dea/a19242.html#a043955d56e0ae4c54d70e8fe6e417dd1", null ],
+    [ "Register", "d5/dea/a19242.html#ab4b32d2db39c8d9079a83c89d63ccd93", null ]
 ];

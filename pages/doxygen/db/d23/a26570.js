@@ -1,7 +1,6 @@
 var a26570 =
 [
-    [ "HandleProc", "db/d23/a26570.html#a3878044c77e9560bcc7d531d5c119e0f", null ],
-    [ "PrepareAuraScript", "db/d23/a26570.html#a3a496539a6adddca91724d9cc77f81c3", null ],
-    [ "Register", "db/d23/a26570.html#a096f4ecd857cc642ff1d1e5119933921", null ],
-    [ "Validate", "db/d23/a26570.html#a1592084736ebe5b10a343aee4dba8050", null ]
+    [ "HandleAfterHit", "db/d23/a26570.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
+    [ "PrepareSpellScript", "db/d23/a26570.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
+    [ "Register", "db/d23/a26570.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
 ];

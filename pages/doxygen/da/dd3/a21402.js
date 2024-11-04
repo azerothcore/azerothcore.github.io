@@ -1,6 +1,5 @@
 var a21402 =
 [
-    [ "npc_nerubar_victimAI", "d4/d7f/a21406.html", "d4/d7f/a21406" ],
-    [ "npc_nerubar_victim", "da/dd3/a21402.html#a4fe80597d3e56776f0f04965fc706097", null ],
-    [ "GetAI", "da/dd3/a21402.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
+    [ "npc_steam_powered_auctioneerAI", "da/dd3/a21402.html#a5ef3dfd385ee3e5a49bd5c0e165103fc", null ],
+    [ "CanBeSeen", "da/dd3/a21402.html#a3352588abda326f7c72d0764a3f53370", null ]
 ];

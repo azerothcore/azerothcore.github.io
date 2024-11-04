@@ -1,9 +1,10 @@
 var a15742 =
 [
-    [ "boss_sartharion_vesperonAI", "d2/dd6/a15742.html#afd67bf2c7a479771976673b05b0fc29e", null ],
-    [ "ClearInstance", "d2/dd6/a15742.html#aad9556374e26cbea7641461510fef9ba", null ],
-    [ "ExecuteEvent", "d2/dd6/a15742.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
-    [ "HandleExtraEvent", "d2/dd6/a15742.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
-    [ "Reset", "d2/dd6/a15742.html#aacf26c52f77ef4eb084814934f00aab1", null ],
-    [ "SummonedCreatureDies", "d2/dd6/a15742.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
+    [ "npc_xerestraszaAI", "d2/dd6/a15742.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
+    [ "DoAction", "d2/dd6/a15742.html#af696ecee315892b2bf0233113d2f89f9", null ],
+    [ "Reset", "d2/dd6/a15742.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
+    [ "UpdateAI", "d2/dd6/a15742.html#a6389ab58f4b44c668590113ec75f2adf", null ],
+    [ "_events", "d2/dd6/a15742.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
+    [ "_introDone", "d2/dd6/a15742.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
+    [ "_isIntro", "d2/dd6/a15742.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
 ];

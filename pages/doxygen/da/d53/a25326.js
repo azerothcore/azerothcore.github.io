@@ -1,6 +1,6 @@
 var a25326 =
 [
-    [ "CheckCast", "da/d53/a25326.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
-    [ "PrepareSpellScript", "da/d53/a25326.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
-    [ "Register", "da/d53/a25326.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
+    [ "HandleActivateObject", "da/d53/a25326.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
+    [ "PrepareSpellScript", "da/d53/a25326.html#a684079434128bacd3d8b8b71c14dc56a", null ],
+    [ "Register", "da/d53/a25326.html#a266301f59c809c03d0ccfc48a2ace302", null ]
 ];

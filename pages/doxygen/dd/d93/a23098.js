@@ -1,6 +1,5 @@
 var a23098 =
 [
-    [ "OnPeriodic", "dd/d93/a23098.html#adfd5a3a6d9c16cd6acdb1f24e7874f20", null ],
-    [ "PrepareAuraScript", "dd/d93/a23098.html#a8444053fa146a4163ea905634be78dfc", null ],
-    [ "Register", "dd/d93/a23098.html#aad8868dc3d00fd3ea648abe7b536970d", null ]
+    [ "boss_quagmirran", "dd/d93/a23098.html#a7f6289b86216b052f434a1417023e22c", null ],
+    [ "JustEngagedWith", "dd/d93/a23098.html#a28253b6653bd2e26e7f246c71a88b625", null ]
 ];

@@ -1,8 +1,6 @@
 var a16498 =
 [
-    [ "HandleEffectApply", "dd/d15/a16498.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
-    [ "HandleEffectRemove", "dd/d15/a16498.html#a04504220319ec562b1b6691f471c1b8d", null ],
-    [ "PrepareAuraScript", "dd/d15/a16498.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
-    [ "Register", "dd/d15/a16498.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
-    [ "Validate", "dd/d15/a16498.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
+    [ "npc_fos_leader_secondAI", "de/dd3/a16502.html", "de/dd3/a16502" ],
+    [ "npc_fos_leader_second", "dd/d15/a16498.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
+    [ "GetAI", "dd/d15/a16498.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
 ];

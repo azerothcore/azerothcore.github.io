@@ -1,6 +1,8 @@
 var a19190 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d5/de6/a19194.html", "d5/de6/a19194" ],
-    [ "npc_oculus_unstable_sphere", "d8/d3f/a19190.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
-    [ "GetAI", "d8/d3f/a19190.html#adda2a9e7eab03444742e85729673ab2f", null ]
+    [ "HandleEffectPeriodic", "d8/d3f/a19190.html#abb453e3d38677be7082f2cd4e43134cc", null ],
+    [ "HandleOnEffectApply", "d8/d3f/a19190.html#a3ec47d5d9fdbdcfe671e02c3b0f55980", null ],
+    [ "PrepareAuraScript", "d8/d3f/a19190.html#ac00c6d9b1cccb38b5d87b3139295614c", null ],
+    [ "Register", "d8/d3f/a19190.html#ae4de4f0f2f4dc4ac98706ddd898df7c5", null ],
+    [ "Validate", "d8/d3f/a19190.html#a09481646f8ec90b0135d93d83cc18929", null ]
 ];

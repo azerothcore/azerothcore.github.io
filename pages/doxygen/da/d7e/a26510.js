@@ -1,10 +1,10 @@
 var a26510 =
 [
-    [ "CalculateAPAmount", "da/d7e/a26510.html#abba0772c18bf98696dc1f236da79401e", null ],
-    [ "CalculateResistanceAmount", "da/d7e/a26510.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
-    [ "CalculateSPAmount", "da/d7e/a26510.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
-    [ "CalculateStatAmount", "da/d7e/a26510.html#a9269eee5ef676c466e662305389988f0", null ],
-    [ "HandleEffectApply", "da/d7e/a26510.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
-    [ "PrepareAuraScript", "da/d7e/a26510.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
-    [ "Register", "da/d7e/a26510.html#a9bf7cd6309b4724462b03c1080324f83", null ]
+    [ "CalculateAPAmount", "da/d7e/a26510.html#ae76d10c68df1f149f83d4247122b47a7", null ],
+    [ "CalculateResistanceAmount", "da/d7e/a26510.html#ab21a4b135dfd70963f75eff7bffbf476", null ],
+    [ "CalculateSPAmount", "da/d7e/a26510.html#a421996ca946d5b04c264718e6dd63fa9", null ],
+    [ "CalculateStatAmount", "da/d7e/a26510.html#ae695515c915f2452dccb71aeb018f3a3", null ],
+    [ "HandleEffectApply", "da/d7e/a26510.html#a207864c73e485e0db0fe47bde97d87a2", null ],
+    [ "PrepareAuraScript", "da/d7e/a26510.html#a4179be48195872410bda69cac3454812", null ],
+    [ "Register", "da/d7e/a26510.html#a94b34a7e4c36bf1336b5611e82e2dd58", null ]
 ];

@@ -1,8 +1,7 @@
 var a20786 =
 [
-    [ "FilterTargets", "d7/d2e/a20786.html#a45d300e8cb6fbc499345b3bb2fb0d34f", null ],
-    [ "HandleDummyEffect", "d7/d2e/a20786.html#ab1f662fa107d176386067ffc6467d90f", null ],
-    [ "PrepareSpellScript", "d7/d2e/a20786.html#a069cc54bf009830ad781c790b4fcedad", null ],
-    [ "Register", "d7/d2e/a20786.html#ac91532151b689bde35d7120b1e9aec5b", null ],
-    [ "Validate", "d7/d2e/a20786.html#ad225dcdb1325a855f1909a8c66ca577b", null ]
+    [ "npc_frost_tombAI", "d7/d2e/a20786.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "d7/d2e/a20786.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "d7/d2e/a20786.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "d7/d2e/a20786.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

@@ -1,15 +1,13 @@
 var a22566 =
 [
-    [ "boss_grandmaster_vorpil", "da/d20/a22566.html#a0196ae46acba9c640b6fdfe30ac63f31", null ],
-    [ "counterVoidSpawns", "da/d20/a22566.html#a7a7c5679fe784025423119dd31d0e6ef", null ],
-    [ "JustDied", "da/d20/a22566.html#ab492fff8a9a275c662b44eeff3300b90", null ],
-    [ "JustEngagedWith", "da/d20/a22566.html#af1e6da02cd33742efad568424cf32c4f", null ],
-    [ "JustSummoned", "da/d20/a22566.html#a8a661b495d7fca340f3bd291d34ab3fc", null ],
-    [ "KilledUnit", "da/d20/a22566.html#af7779029f926e6d1c805b2f6c78cfd06", null ],
-    [ "MoveInLineOfSight", "da/d20/a22566.html#adb24a3d337b64f37759a3a39802d7e27", null ],
-    [ "Reset", "da/d20/a22566.html#a6471121ee02a834591b36d03fae28672", null ],
-    [ "spawnVoidTraveler", "da/d20/a22566.html#aa842bc3d88d0a3a411dcba3711809956", null ],
-    [ "summonPortals", "da/d20/a22566.html#a7cbdb7e7652dcac799b6f59424c8e9fd", null ],
-    [ "sayHelp", "da/d20/a22566.html#a3c83e1f9305fc17aebb4ec5f16225e17", null ],
-    [ "sayIntro", "da/d20/a22566.html#a5dd0edce19b33a1dd87d5b6e4458949f", null ]
+    [ "boss_illidari_council_memberAI", "da/d20/a22566.html#ac32366dfad13cd37ced2428d041e25c9", null ],
+    [ "DamageTaken", "da/d20/a22566.html#a1006bbdb6e39b6ceb52037e1b3cdb788", null ],
+    [ "DoAction", "da/d20/a22566.html#a203310b84d71a24145b1c39e7faff182", null ],
+    [ "EnterEvadeMode", "da/d20/a22566.html#a9bf2376cd75e0dc825de3839eda857eb", null ],
+    [ "JustDied", "da/d20/a22566.html#a135c8e8f4113b1c9c05e5b26e61e639c", null ],
+    [ "JustEngagedWith", "da/d20/a22566.html#a5c43bfb6e1781a83bfad36668ac724f2", null ],
+    [ "KilledUnit", "da/d20/a22566.html#aa0cb7a373d521038e8e41e354f6bc3f7", null ],
+    [ "Reset", "da/d20/a22566.html#a8e75d47f56d14d9b66d10b74c3479839", null ],
+    [ "events", "da/d20/a22566.html#ad47a350f5ed066e04816e72961a80bd0", null ],
+    [ "instance", "da/d20/a22566.html#adb11720cd0fd87a42b9a78490a70251e", null ]
 ];

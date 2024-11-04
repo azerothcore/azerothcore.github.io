@@ -1,7 +1,7 @@
 var a18366 =
 [
-    [ "FrostwingVrykulSearcher", "da/d0e/a18366.html#a10aa54184b42a0538dc4f325204399e9", null ],
-    [ "operator()", "da/d0e/a18366.html#afbf32ce600cee12930fefcf9b5e87f16", null ],
-    [ "_range", "da/d0e/a18366.html#a04b2913aae7fbf6547a960d0876d4d02", null ],
-    [ "_source", "da/d0e/a18366.html#af5d3c93f41698e71c867336d0453d40a", null ]
+    [ "npc_impaling_spearAI", "da/d0e/a18366.html#ae8fbc36a15324b210a24a0e98357adc3", null ],
+    [ "Reset", "da/d0e/a18366.html#a43fa8bf8f22f0635261decd8b15ed6f5", null ],
+    [ "UpdateAI", "da/d0e/a18366.html#acb187a58b0ba256b4e003655ac36db34", null ],
+    [ "_vehicleCheckTimer", "da/d0e/a18366.html#a264874b9f6f0609792d4b3a325e54f59", null ]
 ];

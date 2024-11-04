@@ -1,8 +1,9 @@
 var a26522 =
 [
-    [ "ApplyDebuff", "dc/daf/a26522.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
-    [ "PrepareSpellScript", "dc/daf/a26522.html#aa37525d089348f58e3d871830caa3417", null ],
-    [ "Register", "dc/daf/a26522.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
-    [ "RemoveInvalidTargets", "dc/daf/a26522.html#a0451b75aa962065a01a5806992e01b16", null ],
-    [ "Validate", "dc/daf/a26522.html#ac69d777fdf7a2d3c527621dee256690c", null ]
+    [ "CheckCast", "dc/daf/a26522.html#a441927e0d8d7304030440c19458eb34d", null ],
+    [ "HandleScriptEffect", "dc/daf/a26522.html#a10e9691aa15869c82fba79072a314d7e", null ],
+    [ "PrepareSpellScript", "dc/daf/a26522.html#a90b8ae945aeb85ad6e8a120501288979", null ],
+    [ "Register", "dc/daf/a26522.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
+    [ "Validate", "dc/daf/a26522.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
+    [ "iTypes", "dc/daf/a26522.html#ae852b9df34612c074eab23b025c86870", null ]
 ];

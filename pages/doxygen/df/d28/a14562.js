@@ -1,26 +1,6 @@
 var a14562 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "df/d28/a14562.html#a31fbc078e2c8d2a0f070a8a52c34ef90", null ],
-    [ "CleanupInstance", "df/d28/a14562.html#a20b8aa23c6c9e29f34cda71554c6d7a7", null ],
-    [ "EnsureGridLoaded", "df/d28/a14562.html#a337693ca3ad4527249b0f9f5c9a62d0f", null ],
-    [ "GetData", "df/d28/a14562.html#aa7ae89c6d23a061385a756cf0b0200bf", null ],
-    [ "GetGuidData", "df/d28/a14562.html#a119965a939e79b0fb395e8e3695359aa", null ],
-    [ "Initialize", "df/d28/a14562.html#ac9e53a8a406110bbc1d454be7b87fb34", null ],
-    [ "OnCreatureCreate", "df/d28/a14562.html#a04bf5f844ab8e802f95745f56d996716", null ],
-    [ "OnGameObjectCreate", "df/d28/a14562.html#ae5f9223af1488f1edd99f35f7b1c7207", null ],
-    [ "OnPlayerEnter", "df/d28/a14562.html#a29ebe48953ba6be93da519c7a43c356e", null ],
-    [ "ReadSaveDataMore", "df/d28/a14562.html#a81322de635b72f95de486ccd1abf9644", null ],
-    [ "Reposition", "df/d28/a14562.html#a7fcd0c449edfe21933ee055549ea7ddf", null ],
-    [ "SetData", "df/d28/a14562.html#a961dd71754113ce6b5aecde16b6426d2", null ],
-    [ "Update", "df/d28/a14562.html#ac0bb22a2f69eecc269c69005777d9c38", null ],
-    [ "WriteSaveDataMore", "df/d28/a14562.html#ae409ddd2759f8eea883cefa21d045a40", null ],
-    [ "_attemptsCount", "df/d28/a14562.html#ac5c012148a60cc7dd26e36ba6950494b", null ],
-    [ "_barrelCount", "df/d28/a14562.html#aeb5828d54f327c5d2a30004afa86c4af", null ],
-    [ "_encounterProgress", "df/d28/a14562.html#a9b5fff035fb76116f0cea6f6786d506e", null ],
-    [ "_events", "df/d28/a14562.html#ab3a9785a2240d62de4dfcf0b2523520f", null ],
-    [ "_finalFlamesSet", "df/d28/a14562.html#a914232c182475a17e3583435f2fde9bc", null ],
-    [ "_initalFlamesSet", "df/d28/a14562.html#a2404c19bd154f8277aa539f48ae99963", null ],
-    [ "_prisonersSet", "df/d28/a14562.html#a43e3b3d3cb4797a8c03731df72e7cb5a", null ],
-    [ "_tarethaGUID", "df/d28/a14562.html#ada3dcc37cba14ae8361989f1b842b462", null ],
-    [ "_thrallGUID", "df/d28/a14562.html#add8e04fa930e970ab0e88258c10f9c5d", null ]
+    [ "instance_dire_maul_InstanceMapScript", "d3/d9f/a14566.html", "d3/d9f/a14566" ],
+    [ "instance_dire_maul", "df/d28/a14562.html#a54ac2c7095a99481c7efbe4237533fac", null ],
+    [ "GetInstanceScript", "df/d28/a14562.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
 ];

@@ -1,7 +1,7 @@
 var a02087 =
 [
-    [ "boss_moroes", "d1/d37/a12294.html", "d1/d37/a12294" ],
-    [ "spell_moroes_vanish", "da/dfe/a12298.html", "da/dfe/a12298" ],
+    [ "boss_moroes", "dc/d7f/a12290.html", "dc/d7f/a12290" ],
+    [ "spell_moroes_vanish", "d1/d37/a12294.html", "d1/d37/a12294" ],
     [ "Groups", "d2/d31/a02087.html#aab072245ab577ff0e12efe20a536b99a", [
       [ "GROUP_PRECOMBAT_TALK", "d2/d31/a02087.html#aab072245ab577ff0e12efe20a536b99aa3e7953992f23b2eba8d8498bfc66e01d", null ],
       [ "PORTAL_PHASE", "d2/d50/a02081.html#aab072245ab577ff0e12efe20a536b99aa8f7d8b62b79ce76fc356b355521db829", null ],

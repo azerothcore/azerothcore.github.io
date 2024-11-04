@@ -388,20 +388,20 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <span class="comment">// Xinef: Update gameobjects only</span></div>
-<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d60/a08842.html#a019182fa8a629d796982f9cc565d9bc3">i_gobjOnly</a>)</div>
-<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">for</span> (<span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dc4/a05134.html">GridRefMgr&lt;T&gt;::iterator</a> iter = m.<a class="code hl_function" href="../../d7/d70/a08830.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d7/d70/a08830.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">   37</span>    {</div>
-<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d60/a08842.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != iter-&gt;GetSource()-&gt;IsVisibilityOverridden())</div>
-<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   40</span> </div>
-<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../d8/d60/a08842.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(iter-&gt;GetSource()-&gt;GetGUID());</div>
-<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d8/d60/a08842.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d5/d68/a08370.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(iter-&gt;GetSource(), <a class="code hl_variable" href="../../d8/d60/a08842.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d8/d60/a08842.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   43</span>    }</div>
-<div class="line"><span class="lineno">   44</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">// Xinef: Update gameobjects only</span></div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d60/a08842.html#a019182fa8a629d796982f9cc565d9bc3">i_gobjOnly</a>)</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dc4/a05134.html">GridRefMgr&lt;T&gt;::iterator</a> iter = m.<a class="code hl_function" href="../../d7/d70/a08830.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d7/d70/a08830.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d60/a08842.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != iter-&gt;GetSource()-&gt;IsVisibilityOverridden())</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_variable" href="../../d8/d60/a08842.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(iter-&gt;GetSource()-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../d8/d60/a08842.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d5/d68/a08370.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(iter-&gt;GetSource(), <a class="code hl_variable" href="../../d8/d60/a08842.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d8/d60/a08842.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   42</span>    }</div>
+<div class="line"><span class="lineno">   43</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00035">GridRefMgr&lt; OBJECT &gt;::begin()</a>, <a class="el" href="../../#l00036">GridRefMgr&lt; OBJECT &gt;::end()</a>, <a class="el" href="../../#l00050">i_data</a>, <a class="el" href="../../#l00048">i_gobjOnly</a>, <a class="el" href="../../#l00049">i_largeOnly</a>, <a class="el" href="../../#l00045">i_player</a>, <a class="el" href="../../#l00047">i_visibleNow</a>, <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>, and <a class="el" href="../../#l00046">vis_guids</a>.</p>
 
@@ -436,7 +436,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00030">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00029">Visit()</a>.</p>
 
 </div>
 </div>
@@ -510,7 +510,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/d60/a08842.html">VisibleNotifier</a></li>
-    <li class="footer">Generated on Mon Oct 28 2024 20:41:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 4 2024 20:41:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

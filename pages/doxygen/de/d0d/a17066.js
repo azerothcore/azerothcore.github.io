@@ -1,6 +1,7 @@
 var a17066 =
 [
-    [ "boss_prince_taldaramAI", "d1/d75/a17070.html", "d1/d75/a17070" ],
-    [ "boss_prince_taldaram_icc", "de/d0d/a17066.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
-    [ "GetAI", "de/d0d/a17066.html#a2a8c89206ab72afc68260f41a246da3b", null ]
+    [ "PeriodicTick", "de/d0d/a17066.html#af2419a9f9c8706e6b9a090e88f1b6f78", null ],
+    [ "PrepareAuraScript", "de/d0d/a17066.html#ac1abcbe62887678adad0194fdf27825a", null ],
+    [ "Register", "de/d0d/a17066.html#a9c92c88bf261f1da2143e7dee41a77ec", null ],
+    [ "Validate", "de/d0d/a17066.html#ae7526fcf963fe4ea3ab2f1ec7292e8d8", null ]
 ];

@@ -1,7 +1,6 @@
 var a17250 =
 [
-    [ "HandleDummy", "d3/d3e/a17250.html#a89c0706f21fe92fd443c3638181044ec", null ],
-    [ "PrepareSpellScript", "d3/d3e/a17250.html#a957e29d2458fd90228ef9c53e997c642", null ],
-    [ "Register", "d3/d3e/a17250.html#a250c95310503cd59d73e45a9b9372268", null ],
-    [ "Validate", "d3/d3e/a17250.html#a1c67a262eb95def51661919a3bad3437", null ]
+    [ "npc_muradin_bronzebeard_igbAI", "d8/dcf/a17254.html", "d8/dcf/a17254" ],
+    [ "npc_muradin_bronzebeard_igb", "d3/d3e/a17250.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
+    [ "GetAI", "d3/d3e/a17250.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
 ];

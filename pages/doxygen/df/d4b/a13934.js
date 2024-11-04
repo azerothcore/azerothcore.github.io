@@ -1,11 +1,7 @@
 var a13934 =
 [
-    [ "npc_dark_iron_attack_mole_machine", "df/d4b/a13934.html#a473a8fb4905e5d1333196797d7d0f371", null ],
-    [ "AttackStart", "df/d4b/a13934.html#a999dd932fbaf22a8275dfdba150c3291", null ],
-    [ "JustEngagedWith", "df/d4b/a13934.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
-    [ "MoveInLineOfSight", "df/d4b/a13934.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
-    [ "Reset", "df/d4b/a13934.html#a0727aab751ddfbd94ae070e60e47e768", null ],
-    [ "UpdateAI", "df/d4b/a13934.html#a1217ed510a846d011143ae0a386c6236", null ],
-    [ "goTimer", "df/d4b/a13934.html#a8686845ebef564c9fcaa115866c99749", null ],
-    [ "summonTimer", "df/d4b/a13934.html#a4713da02f4a86547a0f796167e24d8bb", null ]
+    [ "npc_direbrew_minion", "df/d4b/a13934.html#aaac7d1b1a464ea7ff1ec18ace11d54b7", null ],
+    [ "IsSummonedBy", "df/d4b/a13934.html#a78d40e0f2a285b0b9c257f12876eabeb", null ],
+    [ "Reset", "df/d4b/a13934.html#a21fb7a778e9025ca4185951460a96d08", null ],
+    [ "_instance", "df/d4b/a13934.html#aeea9f455c014afa347ce0c3f106ebdb6", null ]
 ];

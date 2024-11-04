@@ -1,6 +1,6 @@
 var a18862 =
 [
-    [ "boss_kelthuzad_minionAI", "d2/d49/a18866.html", "d2/d49/a18866" ],
-    [ "boss_kelthuzad_minion", "da/d5c/a18862.html#a4c6d430035c964b4063139c0cda6bfff", null ],
-    [ "GetAI", "da/d5c/a18862.html#ab951068fedced148653ebf9124ba5e3d", null ]
+    [ "boss_thaddius_summonAI", "d2/d49/a18866.html", "d2/d49/a18866" ],
+    [ "boss_thaddius_summon", "da/d5c/a18862.html#a0fd6c83b5ff6d62b1649f9a13de05c73", null ],
+    [ "GetAI", "da/d5c/a18862.html#aaab5973012f9ac55e8b29cc90f5ec98e", null ]
 ];

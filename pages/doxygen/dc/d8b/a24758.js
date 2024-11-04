@@ -1,5 +1,6 @@
 var a24758 =
 [
-    [ "PrepareSpellScript", "dc/d8b/a24758.html#a41169895bb29fe136e3fb0c2dd50d9fb", null ],
-    [ "Register", "dc/d8b/a24758.html#ab6a32b26cc0277f71a71b9fd1d567bf1", null ]
+    [ "HandleScript", "dc/d8b/a24758.html#aa6104370d5700e43223c7138e941ba05", null ],
+    [ "PrepareSpellScript", "dc/d8b/a24758.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
+    [ "Register", "dc/d8b/a24758.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
 ];

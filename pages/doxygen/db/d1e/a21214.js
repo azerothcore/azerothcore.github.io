@@ -1,22 +1,6 @@
 var a21214 =
 [
-    [ "boss_ichoronAI", "db/d1e/a21214.html#a5030ce0d8d9fd9e8ef697d6a2ce85d25", null ],
-    [ "DoAction", "db/d1e/a21214.html#acb8c43e9c90824f9f46754dc949bfa7a", null ],
-    [ "DoExplodeCompleted", "db/d1e/a21214.html#a4312f74f67649f5f2f3cfaf2a46b09e8", null ],
-    [ "EnterEvadeMode", "db/d1e/a21214.html#aca9b17c0051847800705943a58e56f5f", null ],
-    [ "IchoronDoCastToAllHostilePlayers", "db/d1e/a21214.html#aeeb18f0aee11e7f0bbd7e4c7936e8869", null ],
-    [ "JustDied", "db/d1e/a21214.html#ad0049ff1954cd26b1914ed3a074ed17a", null ],
-    [ "JustEngagedWith", "db/d1e/a21214.html#af0096a40fd1337ecf810e54c89deb327", null ],
-    [ "JustSummoned", "db/d1e/a21214.html#a4c0201fa18a2720548d7f88a6dfd9f36", null ],
-    [ "KilledUnit", "db/d1e/a21214.html#a6038b1e91341653f7feb2e906901f224", null ],
-    [ "MoveInLineOfSight", "db/d1e/a21214.html#aba923f9bebfd6b23a168e7761c1167f4", null ],
-    [ "Reset", "db/d1e/a21214.html#a3b04d35967c6e475f54e7bc52e828954", null ],
-    [ "SummonedCreatureDespawn", "db/d1e/a21214.html#a84d3e3b7e7f587e585f0f4ec47de5c1d", null ],
-    [ "UpdateAI", "db/d1e/a21214.html#a2eb918a85cd7025f5f65c1aec7e9fd1f", null ],
-    [ "bIsExploded", "db/d1e/a21214.html#aa638234a023ef69d3e5829064475f45c", null ],
-    [ "bIsFrenzy", "db/d1e/a21214.html#a72664f34a55c45cbacd9b28aaf6abbc9", null ],
-    [ "globules", "db/d1e/a21214.html#a5de54a4d56b95e5f3f445539a5dd7030", null ],
-    [ "pInstance", "db/d1e/a21214.html#a11dc0853f1262b11c7d58559864698e2", null ],
-    [ "uiDrainedTimer", "db/d1e/a21214.html#a0cc9573f8e2a35faaeee48ff9095e93f", null ],
-    [ "uiWaterBoltVolleyTimer", "db/d1e/a21214.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee", null ]
+    [ "npc_azure_sorcerorAI", "d8/d71/a21218.html", "d8/d71/a21218" ],
+    [ "npc_azure_sorceror", "db/d1e/a21214.html#ab81ec144680a37312b0a5e0110365a1a", null ],
+    [ "GetAI", "db/d1e/a21214.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
 ];

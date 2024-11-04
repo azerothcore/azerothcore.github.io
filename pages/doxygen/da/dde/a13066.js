@@ -1,6 +1,10 @@
 var a13066 =
 [
-    [ "boss_sathrovarrAI", "d1/d06/a13070.html", "d1/d06/a13070" ],
-    [ "boss_sathrovarr", "da/dde/a13066.html#a3ca320e73d9d56a426cc5b3a6942d29f", null ],
-    [ "GetAI", "da/dde/a13066.html#a28cd02e568053ed6f15c0b0df3c427cf", null ]
+    [ "MoveDelayed", "da/dde/a13066.html#a3bf695ce31bb531b134c6c7018f4f197", null ],
+    [ "Execute", "da/dde/a13066.html#aa0db97475196b58bbed1f6bff1440fc6", null ],
+    [ "_o", "da/dde/a13066.html#ad0d76a04b7e85ea8667b05ec438316a0", null ],
+    [ "_owner", "da/dde/a13066.html#a2f7baa4bc22adeac8136df7269eb2895", null ],
+    [ "_x", "da/dde/a13066.html#aa490d19022c27932e76af38281fe158b", null ],
+    [ "_y", "da/dde/a13066.html#a195fc5719683ad645f36b06fd4f60d9f", null ],
+    [ "_z", "da/dde/a13066.html#a6aafdee829472bf22102645e1ff5e7a6", null ]
 ];

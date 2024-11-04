@@ -1,8 +1,6 @@
 var a17730 =
 [
-    [ "HandleScript", "da/d91/a17730.html#a9f3cef57312626ae1884c36ad4bfdca6", null ],
-    [ "PrepareSpellScript", "da/d91/a17730.html#a2ba03324afacf8da8e5fe6bc725e4d2f", null ],
-    [ "Register", "da/d91/a17730.html#a9b0e0427b7f8abbd0e9d556ccc581aeb", null ],
-    [ "SelectTarget", "da/d91/a17730.html#a36d575c6a63e94905bf435bc9d39e588", null ],
-    [ "Validate", "da/d91/a17730.html#afc4a6277e3a7419b6a4aaa99f6697b91", null ]
+    [ "npc_ice_tombAI", "df/db0/a17734.html", "df/db0/a17734" ],
+    [ "npc_ice_tomb", "da/d91/a17730.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
+    [ "GetAI", "da/d91/a17730.html#ac99b7c9887e54a1764310bd3e079811a", null ]
 ];

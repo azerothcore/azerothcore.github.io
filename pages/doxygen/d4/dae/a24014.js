@@ -1,7 +1,6 @@
 var a24014 =
 [
-    [ "npc_maxx_a_million_escortAI", "d0/d03/a24018.html", "d0/d03/a24018" ],
-    [ "npc_maxx_a_million_escort", "d4/dae/a24014.html#a958a88b495594dd8e14919d950ac917a", null ],
-    [ "GetAI", "d4/dae/a24014.html#af79619087908d442f503e0b0d633937d", null ],
-    [ "OnQuestAccept", "d4/dae/a24014.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
+    [ "CheckRequirement", "d4/dae/a24014.html#aa53bdc1b4b57150dbebce61ac87d2b88", null ],
+    [ "PrepareSpellScript", "d4/dae/a24014.html#a8e3d6659174d4c920e65f85afb9308b1", null ],
+    [ "Register", "d4/dae/a24014.html#aa4f62292b32347179a5534e4bc0417f8", null ]
 ];

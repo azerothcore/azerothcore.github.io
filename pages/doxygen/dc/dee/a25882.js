@@ -1,8 +1,10 @@
 var a25882 =
 [
-    [ "Absorb", "dc/dee/a25882.html#a9378cde1cc6daab0dc111b94aef4f6c8", null ],
-    [ "CalculateAmount", "dc/dee/a25882.html#a20d5b4776ebeb859b0641af640e41d80", null ],
-    [ "PrepareAuraScript", "dc/dee/a25882.html#ae1a70e11e89c4252e481ad737ad00ae0", null ],
-    [ "Register", "dc/dee/a25882.html#a8c5399ba68554f4c2e842c5492ad715c", null ],
-    [ "Validate", "dc/dee/a25882.html#aa6264e4dbff71b0d82e3403984c59c03", null ]
+    [ "CheckCast", "dc/dee/a25882.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "dc/dee/a25882.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "dc/dee/a25882.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "dc/dee/a25882.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "dc/dee/a25882.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "dc/dee/a25882.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "dc/dee/a25882.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

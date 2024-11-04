@@ -1,5 +1,7 @@
 var a15810 =
 [
-    [ "at_baltharus_plateau", "d5/d8c/a15810.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
-    [ "OnTrigger", "d5/d8c/a15810.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
+    [ "HandlePeriodic", "d5/d8c/a15810.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
+    [ "PrepareAuraScript", "d5/d8c/a15810.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
+    [ "Register", "d5/d8c/a15810.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
+    [ "Validate", "d5/d8c/a15810.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
 ];

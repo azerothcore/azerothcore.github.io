@@ -1,8 +1,7 @@
 var a28142 =
 [
-    [ "canLink", "d6/dcc/a28142.html#aff87dafee61faf5afdf6248f6f3c9a35", null ],
-    [ "categoryId", "d6/dcc/a28142.html#abf285e69e8e2a90626a157cb0c50d158", null ],
-    [ "id", "d6/dcc/a28142.html#a7740b26f1bde19a05b002c00eded25e3", null ],
-    [ "name", "d6/dcc/a28142.html#afb5e77ab4f6faa132ca62f7664dce116", null ],
-    [ "spellIcon", "d6/dcc/a28142.html#a3a20ea7c73a6739e89bd570d6f4d4b03", null ]
+    [ "TalentSpellPos", "d6/dcc/a28142.html#a1f28fdb07c5f3bc3a417a2d50d57481c", null ],
+    [ "TalentSpellPos", "d6/dcc/a28142.html#afcdb60f43c619209f8c7d9d8d118a89d", null ],
+    [ "rank", "d6/dcc/a28142.html#a46a495cd1d17302d074037ad5ea9c89e", null ],
+    [ "talent_id", "d6/dcc/a28142.html#a06421cba633b9ea52cb4b95d4ce4527d", null ]
 ];

@@ -1,6 +1,8 @@
 var a25466 =
 [
-    [ "HandleActivateObject", "d9/dd1/a25466.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
-    [ "PrepareSpellScript", "d9/dd1/a25466.html#a684079434128bacd3d8b8b71c14dc56a", null ],
-    [ "Register", "d9/dd1/a25466.html#a266301f59c809c03d0ccfc48a2ace302", null ]
+    [ "HandleDummy", "d9/dd1/a25466.html#ac6db67f521a8fd1e8de4cd22220b45fe", null ],
+    [ "Load", "d9/dd1/a25466.html#af767de9953372e5e56509a0be9e90958", null ],
+    [ "PrepareSpellScript", "d9/dd1/a25466.html#a0385a22f908ac62ab987fe9f84cad330", null ],
+    [ "Register", "d9/dd1/a25466.html#a1212726a4fcbac06b527648dff58c546", null ],
+    [ "Validate", "d9/dd1/a25466.html#ab014db76cf4656e10665f12fb18c5997", null ]
 ];

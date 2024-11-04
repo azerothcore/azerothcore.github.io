@@ -1,10 +1,10 @@
 var a01529 =
 [
-    [ "boss_gal_darah", "d6/db5/a16990.html", "d6/db5/a16990" ],
-    [ "boss_gal_darah::boss_gal_darahAI", "df/dee/a16994.html", "df/dee/a16994" ],
-    [ "spell_galdarah_impaling_charge", "d8/de6/a16998.html", "d8/de6/a16998" ],
-    [ "spell_galdarah_transform", "d9/d6a/a17002.html", "d9/d6a/a17002" ],
-    [ "achievement_share_the_love", "dc/d14/a17006.html", "dc/d14/a17006" ],
+    [ "boss_gal_darah", "d3/d58/a16890.html", "d3/d58/a16890" ],
+    [ "boss_gal_darah::boss_gal_darahAI", "dd/d63/a16894.html", "dd/d63/a16894" ],
+    [ "spell_galdarah_impaling_charge", "de/d11/a16898.html", "de/d11/a16898" ],
+    [ "spell_galdarah_transform", "d5/d69/a16902.html", "d5/d69/a16902" ],
+    [ "achievement_share_the_love", "d2/d99/a16906.html", "d2/d99/a16906" ],
     [ "Events", "db/dce/a01529.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

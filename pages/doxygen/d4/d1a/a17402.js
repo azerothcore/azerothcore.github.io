@@ -1,8 +1,7 @@
 var a17402 =
 [
-    [ "npc_gunship_mageAI", "d4/d1a/a17402.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
-    [ "AttackStart", "d4/d1a/a17402.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
-    [ "CanAIAttack", "d4/d1a/a17402.html#aadcb217a9df96bee02287d75a23e32c2", null ],
-    [ "MovementInform", "d4/d1a/a17402.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
-    [ "UpdateAI", "d4/d1a/a17402.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
+    [ "PrepareSpellScript", "d4/d1a/a17402.html#a21bd67c024c5dcfb8496778f67eb48eb", null ],
+    [ "Register", "d4/d1a/a17402.html#aff4f05a5a4742a408646000b7cece38c", null ],
+    [ "RemovePassengers", "d4/d1a/a17402.html#a77c63e85233e2ef14bf06c82ad27c4b2", null ],
+    [ "Validate", "d4/d1a/a17402.html#a2a8da9d150804f979f2313f623ad7760", null ]
 ];

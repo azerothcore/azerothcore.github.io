@@ -1,6 +1,5 @@
 var a22278 =
 [
-    [ "HandlePeriodicDummy", "d8/d2d/a22278.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
-    [ "PrepareAuraScript", "d8/d2d/a22278.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
-    [ "Register", "d8/d2d/a22278.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
+    [ "OutdoorPvP_nagrand", "d8/d2d/a22278.html#ac6e0f41eafb915604bd1b1d84e915f87", null ],
+    [ "GetOutdoorPvP", "d8/d2d/a22278.html#ae8ce0bf210e2be8229b9ac4d8615b058", null ]
 ];

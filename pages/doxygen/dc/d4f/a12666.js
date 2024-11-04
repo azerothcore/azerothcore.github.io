@@ -1,12 +1,8 @@
 var a12666 =
 [
-    [ "npc_high_inquisitor_valrothAI", "dc/d4f/a12666.html#afd15d7c3b64c9c84094234b1c369c6d6", null ],
-    [ "JustDied", "dc/d4f/a12666.html#ac8f4f8594bbd5d984a330d52ef2fde74", null ],
-    [ "JustEngagedWith", "dc/d4f/a12666.html#a9cf989be7062743685b2357309889585", null ],
-    [ "Reset", "dc/d4f/a12666.html#a833adc603d6d0b2eb03ea34b925f88b0", null ],
-    [ "Shout", "dc/d4f/a12666.html#aa80f070da5ad92297a5f5b7b6983085c", null ],
-    [ "UpdateAI", "dc/d4f/a12666.html#abe6becc3a10e0195bd75bf1de2d6bcc6", null ],
-    [ "uiInquisitor_Penance_timer", "dc/d4f/a12666.html#a765ef78cf5c30b1c46da303f4bbeb4d9", null ],
-    [ "uiRenew_timer", "dc/d4f/a12666.html#a1fe70428102a0319031179c97f02cbab", null ],
-    [ "uiValroth_Smite_timer", "dc/d4f/a12666.html#a527628708354414caea85b6bec3d0f1d", null ]
+    [ "DelayedSummonEvent", "dc/d4f/a12666.html#a5cfa870b670fff17d2241ecb85b2ba6c", null ],
+    [ "Execute", "dc/d4f/a12666.html#a65ba0f1a1dc14e07b7b93a71c92ace6b", null ],
+    [ "_entry", "dc/d4f/a12666.html#a24d72110a070eb0bd03af081ef616de4", null ],
+    [ "_owner", "dc/d4f/a12666.html#a2a21cc6387b3605ed4f09cad80a6168a", null ],
+    [ "_pos", "dc/d4f/a12666.html#aef19987803a1cce47cbd8d9005a288ac", null ]
 ];

@@ -1,8 +1,7 @@
 var a27738 =
 [
-    [ "HandleDummy", "d9/d4e/a27738.html#a60a374efc8b47bfdd8ffded2ff1e10d1", null ],
-    [ "Load", "d9/d4e/a27738.html#a9ecd5d24b96d1cde3ad07e76992f5e1f", null ],
-    [ "PrepareSpellScript", "d9/d4e/a27738.html#ad4605cd07b702a660556a8150b44c621", null ],
-    [ "Register", "d9/d4e/a27738.html#a9cc594c2b85156f1482398af6d0bca5b", null ],
-    [ "Validate", "d9/d4e/a27738.html#a954ae38fd04985b9851a09b416ba59bc", null ]
+    [ "Class", "d9/d4e/a27738.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "d9/d4e/a27738.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "d9/d4e/a27738.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "d9/d4e/a27738.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

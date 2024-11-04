@@ -1,6 +1,6 @@
 var a21882 =
 [
-    [ "npc_attracted_reef_bullAI", "d4/d55/a21882.html#aa8917a912fb31a5987332e53e8d268e7", null ],
-    [ "MovementInform", "d4/d55/a21882.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
-    [ "SpellHit", "d4/d55/a21882.html#ab06ee7ef84d881262ae682b69fae3135", null ]
+    [ "npc_frostbrood_skytalonAI", "dd/d61/a21886.html", "dd/d61/a21886" ],
+    [ "npc_frostbrood_skytalon", "d4/d55/a21882.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "d4/d55/a21882.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

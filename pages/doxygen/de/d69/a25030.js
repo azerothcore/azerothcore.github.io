@@ -1,6 +1,6 @@
 var a25030 =
 [
-    [ "HandleDummy", "de/d69/a25030.html#a0bcbef8a2d5978498556a217ac618fed", null ],
-    [ "PrepareSpellScript", "de/d69/a25030.html#a5901c22f3a10fdbd21d934f5cb8cd76d", null ],
-    [ "Register", "de/d69/a25030.html#a2c6d9c273a3d281dacefc20970912166", null ]
+    [ "CheckRequirement", "de/d69/a25030.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
+    [ "PrepareSpellScript", "de/d69/a25030.html#aebb88f5ea803a590a099e4e6427d8276", null ],
+    [ "Register", "de/d69/a25030.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
 ];

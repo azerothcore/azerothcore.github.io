@@ -1,12 +1,9 @@
 var a16654 =
 [
-    [ "npc_ghostly_priestAI", "d2/d9d/a16654.html#abb6815d1395b68654eeb6ab8b4217388", null ],
-    [ "AttackStart", "d2/d9d/a16654.html#a9719d1ad6e58b727bc1720cb815be3e9", null ],
-    [ "DoAction", "d2/d9d/a16654.html#a89c991a1d4c07f1229436871f503c949", null ],
-    [ "EnterEvadeMode", "d2/d9d/a16654.html#ab8fd2df32ef12f5f648b8af9abcc3201", null ],
-    [ "JustDied", "d2/d9d/a16654.html#a004e8aec05741b9ee36b0695840e6c2a", null ],
-    [ "JustEngagedWith", "d2/d9d/a16654.html#a780d530e224ca1f72e26db17cd57f44a", null ],
-    [ "Reset", "d2/d9d/a16654.html#ab8f7559110be76633153842e0714554a", null ],
-    [ "UpdateAI", "d2/d9d/a16654.html#ab431f451963d0b608f11129934496700", null ],
-    [ "events", "d2/d9d/a16654.html#a9b49c143b5a29b4f9b4ce34ce0aecca7", null ]
+    [ "npc_hor_lumbering_abominationAI", "d2/d9d/a16654.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
+    [ "JustDied", "d2/d9d/a16654.html#af243a79da3028d3d66facc8a15132f78", null ],
+    [ "JustEngagedWith", "d2/d9d/a16654.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
+    [ "Reset", "d2/d9d/a16654.html#a4270f405bbade0028fce4df0655a1987", null ],
+    [ "UpdateAI", "d2/d9d/a16654.html#a995d0f7902cb70280d1448ac7731a816", null ],
+    [ "events", "d2/d9d/a16654.html#aee9063950477b50e38ec904e91882689", null ]
 ];

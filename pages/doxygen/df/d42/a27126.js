@@ -1,6 +1,5 @@
 var a27126 =
 [
-    [ "go_pirate_day_musicAI", "dc/d22/a27130.html", "dc/d22/a27130" ],
-    [ "go_pirate_day_music", "df/d42/a27126.html#aa8d19102357639bd160eae9e90a87505", null ],
-    [ "GetAI", "df/d42/a27126.html#a3bce105696415c9a31c5cbeb9607fa95", null ]
+    [ "item_only_for_flight", "df/d42/a27126.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
+    [ "OnUse", "df/d42/a27126.html#a88cdf17a85630aef703f93143ba41d4d", null ]
 ];

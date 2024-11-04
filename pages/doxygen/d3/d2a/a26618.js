@@ -1,6 +1,6 @@
 var a26618 =
 [
-    [ "HandleSchoolDMG", "d3/d2a/a26618.html#a8f3ff0a48d5de4dcd33831400de0ba28", null ],
-    [ "PrepareSpellScript", "d3/d2a/a26618.html#a42bb397aa53fb43ba1b1799a7f162d9b", null ],
-    [ "Register", "d3/d2a/a26618.html#ac1271959fe8de3c11403b1e76acdbf15", null ]
+    [ "HandleOnHit", "d3/d2a/a26618.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
+    [ "PrepareSpellScript", "d3/d2a/a26618.html#a999b019665dec9b0690a1019be428072", null ],
+    [ "Register", "d3/d2a/a26618.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
 ];

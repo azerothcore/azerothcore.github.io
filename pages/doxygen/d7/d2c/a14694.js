@@ -1,6 +1,7 @@
 var a14694 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "df/d7b/a14698.html", "df/d7b/a14698" ],
-    [ "instance_razorfen_kraul", "d7/d2c/a14694.html#aedd65b901c8131a7ac21e8576734f76f", null ],
-    [ "GetInstanceScript", "d7/d2c/a14694.html#a78e77010ebb055b9530733ca25533110", null ]
+    [ "FilterTargets", "d7/d2c/a14694.html#a59e477333a54ec828a429d15b35d4936", null ],
+    [ "HandleScript", "d7/d2c/a14694.html#a983fe53aa52e53a45685055fde04a3b7", null ],
+    [ "PrepareSpellScript", "d7/d2c/a14694.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
+    [ "Register", "d7/d2c/a14694.html#a45ac61990990f16c98eaa7136297afc5", null ]
 ];

@@ -1,6 +1,6 @@
 var a22170 =
 [
-    [ "npc_brunnhildar_prisonerAI", "d2/df6/a22174.html", "d2/df6/a22174" ],
-    [ "npc_brunnhildar_prisoner", "dc/d99/a22170.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
-    [ "GetAI", "dc/d99/a22170.html#aa2a1787849c74a5163a39137c9d03d57", null ]
+    [ "npc_feedin_da_goolzAI", "d2/df6/a22174.html", "d2/df6/a22174" ],
+    [ "npc_feedin_da_goolz", "dc/d99/a22170.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
+    [ "GetAI", "dc/d99/a22170.html#a61ab3189e2525a995a87eec06d45e355", null ]
 ];

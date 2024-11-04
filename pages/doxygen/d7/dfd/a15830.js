@@ -1,6 +1,7 @@
 var a15830 =
 [
-    [ "SendEncounterUnit", "d7/dfd/a15830.html#a5300ba7c1a8001bbf52c56fc2e5dc331", null ],
-    [ "Execute", "d7/dfd/a15830.html#ae21b67f8fe8a0677778436563872495f", null ],
-    [ "_owner", "d7/dfd/a15830.html#a6e1569fb7fa159fe702defbab1e123b6", null ]
+    [ "HandleScriptEffect", "d7/dfd/a15830.html#a9582a8faa1b8ba973a76d651a7479348", null ],
+    [ "PrepareSpellScript", "d7/dfd/a15830.html#a681102507df3aa365ee2e2f064be5e54", null ],
+    [ "Register", "d7/dfd/a15830.html#aebfea5eb3339ede812b43a08a8cb82b9", null ],
+    [ "Validate", "d7/dfd/a15830.html#ae4a5c7952856caf2a2d3919b24b61949", null ]
 ];

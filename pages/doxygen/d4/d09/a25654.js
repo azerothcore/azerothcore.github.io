@@ -1,8 +1,6 @@
 var a25654 =
 [
-    [ "CheckRequirement", "d4/d09/a25654.html#a3ed8450641baeee915fc5a129f9c7434", null ],
-    [ "HandleScript", "d4/d09/a25654.html#a92e3137bb92545876ca67028bcc86a4f", null ],
-    [ "Load", "d4/d09/a25654.html#a56326701447b3a88d9022ca1f1c184a6", null ],
-    [ "PrepareSpellScript", "d4/d09/a25654.html#a94d4155e98a4ac5764d8bfd705b05602", null ],
-    [ "Register", "d4/d09/a25654.html#a9b440dd8bf21b70d068021d05832a3fc", null ]
+    [ "HandleEffect", "d4/d09/a25654.html#a41b46d8918b59a1617f383b3eedfe343", null ],
+    [ "PrepareSpellScript", "d4/d09/a25654.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
+    [ "Register", "d4/d09/a25654.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
 ];

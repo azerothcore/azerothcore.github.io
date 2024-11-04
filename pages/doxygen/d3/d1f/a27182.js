@@ -1,6 +1,10 @@
 var a27182 =
 [
-    [ "go_fel_crystalforge", "d3/d1f/a27182.html#aa44708a617edd51651da49918ab776e5", null ],
-    [ "OnGossipHello", "d3/d1f/a27182.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
-    [ "OnGossipSelect", "d3/d1f/a27182.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
+    [ "npc_prof_tailor", "d3/d1f/a27182.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
+    [ "HasTailorSpell", "d3/d1f/a27182.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
+    [ "OnGossipHello", "d3/d1f/a27182.html#a686098ac43916ea2f82b7c321527863d", null ],
+    [ "OnGossipSelect", "d3/d1f/a27182.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
+    [ "SendActionMenu", "d3/d1f/a27182.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
+    [ "SendConfirmLearn", "d3/d1f/a27182.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
+    [ "SendConfirmUnlearn", "d3/d1f/a27182.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
 ];

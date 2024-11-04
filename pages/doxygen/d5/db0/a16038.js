@@ -1,11 +1,6 @@
 var a16038 =
 [
-    [ "npc_black_knight_ghoulAI", "d5/db0/a16038.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
-    [ "JustEngagedWith", "d5/db0/a16038.html#a8353dea0de91017223c7624a5a96ebec", null ],
-    [ "Reset", "d5/db0/a16038.html#a8a33efa0719063a9565bc07143f8ad83", null ],
-    [ "SpellHit", "d5/db0/a16038.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
-    [ "SpellHitTarget", "d5/db0/a16038.html#a5f106a3b0edf353769db9021b9ca770d", null ],
-    [ "UpdateAI", "d5/db0/a16038.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
-    [ "events", "d5/db0/a16038.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
-    [ "pInstance", "d5/db0/a16038.html#a35b8375f1b3407f5cee653ee118e0697", null ]
+    [ "npc_frost_sphereAI", "d8/d91/a16042.html", "d8/d91/a16042" ],
+    [ "npc_frost_sphere", "d5/db0/a16038.html#a0256ba1c53853307f8b66e22b10bef24", null ],
+    [ "GetAI", "d5/db0/a16038.html#a3e6de3551306fb4c35aabbd4fc656ee6", null ]
 ];

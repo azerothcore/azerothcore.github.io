@@ -1,16 +1,15 @@
 var a14274 =
 [
-    [ "npc_pilgrims_bounty_chair", "d0/d8b/a14274.html#a896c9efee388d7cb5d6dc82e7c537021", null ],
-    [ "AttackStart", "d0/d8b/a14274.html#ad2ed9436e8c6d3afa4ac747b925e66a4", null ],
-    [ "DamageTaken", "d0/d8b/a14274.html#a29b012b8fc4e7cb30072b2c4a935dd3a", null ],
-    [ "DoAction", "d0/d8b/a14274.html#a8a7c49f28df937e90dbaa83be85b595e", null ],
-    [ "GetPlate", "d0/d8b/a14274.html#ad3cbb85577ca0f7b596d1882c71f2371", null ],
-    [ "MoveInLineOfSight", "d0/d8b/a14274.html#aa44fc14f98ac00cfe098516963cc3c8b", null ],
-    [ "PassengerBoarded", "d0/d8b/a14274.html#a9a43ccc98f2e184f709b1af6992acea8", null ],
-    [ "SpellHit", "d0/d8b/a14274.html#a681323ae3100f46dd0aba595159d7daf", null ],
-    [ "SpellHitTarget", "d0/d8b/a14274.html#affd51da83859b962977ed6b51c74d01e", null ],
-    [ "UpdateAI", "d0/d8b/a14274.html#aebe6eb7aca62faece6dfb6dff27d775e", null ],
-    [ "plateGUID", "d0/d8b/a14274.html#a23b35fee8255073c7b94d7bac54d9b22", null ],
-    [ "timerRotateChair", "d0/d8b/a14274.html#a2b9c9bc4d9f4abc53dc717ab3aa9865e", null ],
-    [ "timerSpawnPlate", "d0/d8b/a14274.html#a907cb3d22f4e0daf92dada09fdc16b94", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "d0/d8b/a14274.html#aef8e98b85dfc93a1e9405fbbce084e3f", null ],
+    [ "Initialize", "d0/d8b/a14274.html#a11b698907ffea5dd1a165a35d2c23dd0", null ],
+    [ "IsFireEventDone", "d0/d8b/a14274.html#aadba63a6fa6025858e78712892e4a343", null ],
+    [ "OnCreatureCreate", "d0/d8b/a14274.html#ab5e452958bc474e60fd3f637595629c1", null ],
+    [ "OnGameObjectCreate", "d0/d8b/a14274.html#ae96ecf6e1b4ca99f2b3fc3ace5cbf81b", null ],
+    [ "OnUnitDeath", "d0/d8b/a14274.html#a163178ce8e79aa0bc082172465527173", null ],
+    [ "ReadSaveDataMore", "d0/d8b/a14274.html#a1b045bbe6c337e726158e64375fa9fe7", null ],
+    [ "SetData", "d0/d8b/a14274.html#a79fcee240fbd9190b0b66fd4bf7955d9", null ],
+    [ "WriteSaveDataMore", "d0/d8b/a14274.html#abaa419d432ef6d0d96487c8d9ebcb630", null ],
+    [ "_akumaiPortalGUID", "d0/d8b/a14274.html#a37b3647e927798d77a17f99976910b4b", null ],
+    [ "_encounters", "d0/d8b/a14274.html#a4cfd6047351fd144ba96627889a3e9cd", null ],
+    [ "_requiredDeaths", "d0/d8b/a14274.html#a3aade6e7fb756b84180876b4ba086376", null ]
 ];

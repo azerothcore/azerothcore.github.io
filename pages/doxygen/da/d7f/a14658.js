@@ -1,12 +1,7 @@
 var a14658 =
 [
-    [ "instance_onyxias_lair_InstanceMapScript", "da/d7f/a14658.html#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64", null ],
-    [ "CheckAchievementCriteriaMeet", "da/d7f/a14658.html#a20761aa41e0f70836c4525f17faf064f", null ],
-    [ "Initialize", "da/d7f/a14658.html#a5d109b5acfa2e21e3c50e35dcdf119dd", null ],
-    [ "OnGameObjectCreate", "da/d7f/a14658.html#a1e99600992673d165382d99236e0c59f", null ],
-    [ "SetBossState", "da/d7f/a14658.html#a2a28e42ec49fce2ef47288c1ad4b6e61", null ],
-    [ "SetData", "da/d7f/a14658.html#ac5df2ecb9f88dbedbb1f59ad2bdc8b96", null ],
-    [ "bDeepBreath", "da/d7f/a14658.html#a96211e4e0e033e16d4de57b6e40f2023", null ],
-    [ "ManyWhelpsCounter", "da/d7f/a14658.html#aea148b562a4f2cd752ac73240f902993", null ],
-    [ "str_data", "da/d7f/a14658.html#ad0b65a3cfccdf07d017757751f4e15fa", null ]
+    [ "HandleScript", "da/d7f/a14658.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
+    [ "Load", "da/d7f/a14658.html#a2dc1edf537f58133fb4daabde9f43843", null ],
+    [ "PrepareSpellScript", "da/d7f/a14658.html#ae856c6e70ededa95c0308596a9f980af", null ],
+    [ "Register", "da/d7f/a14658.html#ac2e82c7e626658faa968f75c26688b43", null ]
 ];

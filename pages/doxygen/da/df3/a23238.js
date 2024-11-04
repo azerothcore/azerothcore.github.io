@@ -1,5 +1,6 @@
 var a23238 =
 [
-    [ "boss_quagmirran", "da/df3/a23238.html#a7f6289b86216b052f434a1417023e22c", null ],
-    [ "JustEngagedWith", "da/df3/a23238.html#a28253b6653bd2e26e7f246c71a88b625", null ]
+    [ "CalculateDamage", "da/df3/a23238.html#a170fb61e3a7358d42cc6506067fb978a", null ],
+    [ "PrepareSpellScript", "da/df3/a23238.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
+    [ "Register", "da/df3/a23238.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
 ];

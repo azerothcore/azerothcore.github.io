@@ -1,6 +1,7 @@
 var a23954 =
 [
-    [ "go_beaconAI", "d7/d64/a23954.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
-    [ "OnStateChanged", "d7/d64/a23954.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
-    [ "creatureList", "d7/d64/a23954.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
+    [ "o", "d7/d64/a23954.html#a3785e9b55ea3a7140086ce1f86232109", null ],
+    [ "x", "d7/d64/a23954.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
+    [ "y", "d7/d64/a23954.html#a10fbad67977d8dd3911eb629c1797684", null ],
+    [ "z", "d7/d64/a23954.html#a69fc2438e52f6c0de3af13900ff38166", null ]
 ];

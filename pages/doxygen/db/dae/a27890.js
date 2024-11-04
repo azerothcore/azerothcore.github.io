@@ -1,13 +1,12 @@
 var a27890 =
 [
-    [ "HasFlag", "db/dae/a27890.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
-    [ "CinematicSequence", "db/dae/a27890.html#a33a01b1c26b21706d9898af246f2a0df", null ],
-    [ "expansion", "db/dae/a27890.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
-    [ "FactionID", "db/dae/a27890.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
-    [ "Flags", "db/dae/a27890.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
-    [ "model_f", "db/dae/a27890.html#a4807227fd863e247b18d29db0ea8236a", null ],
-    [ "model_m", "db/dae/a27890.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
-    [ "name", "db/dae/a27890.html#a4970323e45feb3f74b47420648371ab6", null ],
-    [ "RaceID", "db/dae/a27890.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
-    [ "TeamID", "db/dae/a27890.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
+    [ "CalendarFilterType", "db/dae/a27890.html#a082b59a0ead8223e590cbb371f3ad122", null ],
+    [ "CalendarFlags", "db/dae/a27890.html#a6f9cf483200ac982bab7a66ff8bef33d", null ],
+    [ "Date", "db/dae/a27890.html#ac5b08b086ef0668508ea9da48642e95b", null ],
+    [ "Duration", "db/dae/a27890.html#a10cae1b1fbb91930209a714c545b129b", null ],
+    [ "Id", "db/dae/a27890.html#a1119824959b87fb312209a998a5869b1", null ],
+    [ "Looping", "db/dae/a27890.html#afa2d93998650f88e62bfa76807961274", null ],
+    [ "Priority", "db/dae/a27890.html#a6d82bc7a66d227f61c3be2260a3d03f5", null ],
+    [ "Region", "db/dae/a27890.html#a96a8e5ceae0f4b0d8cc6cf3aa59802a0", null ],
+    [ "TextureFilename", "db/dae/a27890.html#a2209ecbb78f1f467491506cc97df57e4", null ]
 ];

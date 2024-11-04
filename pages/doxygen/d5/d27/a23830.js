@@ -1,6 +1,7 @@
 var a23830 =
 [
-    [ "HandlePeriodic", "d5/d27/a23830.html#a0838d4449351f46a1f9f485abaf35c2b", null ],
-    [ "PrepareAuraScript", "d5/d27/a23830.html#a438425f3002028a0978e0dbab580ca03", null ],
-    [ "Register", "d5/d27/a23830.html#af4b26607e8838b7bbbe8777f57601341", null ]
+    [ "npc_creditmarker_visit_with_ancestorsAI", "d5/d27/a23830.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
+    [ "JustEngagedWith", "d5/d27/a23830.html#a4038d707731f64f588e307c22c859902", null ],
+    [ "MoveInLineOfSight", "d5/d27/a23830.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
+    [ "Reset", "d5/d27/a23830.html#a29132346f117ba785039057619edb9e7", null ]
 ];

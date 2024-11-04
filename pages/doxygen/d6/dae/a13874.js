@@ -1,16 +1,19 @@
 var a13874 =
 [
-    [ "boss_renatakiAI", "d6/dae/a13874.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
-    [ "CanAIAttack", "d6/dae/a13874.html#af20dc14dc56500e568a3a11bfb34a227", null ],
-    [ "CanAlwaysBeDetectable", "d6/dae/a13874.html#af75108eacb982586f43a175beede78ef", null ],
-    [ "CanBeSeen", "d6/dae/a13874.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
-    [ "CanSeeAlways", "d6/dae/a13874.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
-    [ "DamageTaken", "d6/dae/a13874.html#a62d97adb310b55a2235737b854dc4aca", null ],
-    [ "JustEngagedWith", "d6/dae/a13874.html#a72e9a85d2215d3da197d50b6aa0b769e", null ],
-    [ "Reset", "d6/dae/a13874.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
-    [ "UpdateAI", "d6/dae/a13874.html#a3a1abaef460d9abe1298080080d74c9d", null ],
-    [ "_dynamicFlags", "d6/dae/a13874.html#a502bfa737cf97ae909144278a3e39bd0", null ],
-    [ "_enraged", "d6/dae/a13874.html#a71e717a2ea732729762aff7970439f74", null ],
-    [ "_thousandBladesCount", "d6/dae/a13874.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
-    [ "_thousandBladesTargets", "d6/dae/a13874.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
+    [ "npc_dark_iron_guzzler", "d6/dae/a13874.html#a53ce152d0bf8e727ed0b385bb2293363", null ],
+    [ "AttackStart", "d6/dae/a13874.html#a47295b69eaecf3c001c43a1550dd1a80", null ],
+    [ "DamageTaken", "d6/dae/a13874.html#affd1f78b5c1df26824b08416d6bd03a1", null ],
+    [ "FindNextKeg", "d6/dae/a13874.html#ac063799097f89c09f30bed79151e8ed6", null ],
+    [ "GetTarget", "d6/dae/a13874.html#a076305d37ce348b24b35f7956385e8fc", null ],
+    [ "JustEngagedWith", "d6/dae/a13874.html#ae8142b745e493ab4a77b9df12ea9474d", null ],
+    [ "KilledUnit", "d6/dae/a13874.html#a018513f23158fcd6f929a90cfecfde4c", null ],
+    [ "MoveInLineOfSight", "d6/dae/a13874.html#aaa4df56f1f587029b24626ae1aca552a", null ],
+    [ "MovementInform", "d6/dae/a13874.html#ada6c7f97e25eb545926d6531495bb397", null ],
+    [ "Reset", "d6/dae/a13874.html#af608024d4b41fa218a7baeae9bee72ef", null ],
+    [ "SayText", "d6/dae/a13874.html#a872bdd2e2ff2b72c983658c63d74e2c3", null ],
+    [ "SpellHit", "d6/dae/a13874.html#ae195867416885e570c2c9a4837ac33c1", null ],
+    [ "UpdateAI", "d6/dae/a13874.html#a5decab6f76369ec9ce037dd050898423", null ],
+    [ "attacking", "d6/dae/a13874.html#a18a1d7e61b99819666366c6791154e01", null ],
+    [ "targetGUID", "d6/dae/a13874.html#a620df1502373954020a910853cb6dd3a", null ],
+    [ "timer", "d6/dae/a13874.html#a9748d587b61c148a27be690a6354473f", null ]
 ];

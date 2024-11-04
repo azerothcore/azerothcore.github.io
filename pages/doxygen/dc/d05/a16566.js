@@ -1,7 +1,6 @@
 var a16566 =
 [
-    [ "HandlePeriodicTick", "dc/d05/a16566.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
-    [ "PrepareAuraScript", "dc/d05/a16566.html#aabaef31a3c699c322e24e064f357f82f", null ],
-    [ "Register", "dc/d05/a16566.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
-    [ "Validate", "dc/d05/a16566.html#a18d92a82760992bc5d8503e3f774f208", null ]
+    [ "npc_phantom_hallucinationAI", "d7/dab/a16570.html", "d7/dab/a16570" ],
+    [ "npc_phantom_hallucination", "dc/d05/a16566.html#a685889c090152a2562ee9adef7efbf71", null ],
+    [ "GetAI", "dc/d05/a16566.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
 ];

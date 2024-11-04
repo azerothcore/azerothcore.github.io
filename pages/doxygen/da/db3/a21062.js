@@ -1,6 +1,6 @@
 var a21062 =
 [
-    [ "boss_ymironAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
-    [ "boss_ymiron", "da/db3/a21062.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
-    [ "GetAI", "da/db3/a21062.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
+    [ "npc_erekem_guardAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
+    [ "npc_erekem_guard", "da/db3/a21062.html#a78592996e90f77f81eec0325a7f11956", null ],
+    [ "GetAI", "da/db3/a21062.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
 ];

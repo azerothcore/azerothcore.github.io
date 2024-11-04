@@ -1,10 +1,8 @@
 var a28110 =
 [
-    [ "PvPDifficultyEntry", "de/de9/a28110.html#acdf17ca6dce80b7311bd6ae79ce16001", null ],
-    [ "GetBracketId", "de/de9/a28110.html#a4bcbc99d34ef8eaa7c15dbd33332c480", null ],
-    [ "bracketId", "de/de9/a28110.html#a670bce11b1d934167d8b3e990ea49d4a", null ],
-    [ "difficulty", "de/de9/a28110.html#a33ac017d785a4586a78e715d97836720", null ],
-    [ "mapId", "de/de9/a28110.html#a58c251f56a928bedbc7b9e8c6cbdbc5d", null ],
-    [ "maxLevel", "de/de9/a28110.html#a1385166568239f2118b65377df8b4b55", null ],
-    [ "minLevel", "de/de9/a28110.html#acd07e8d759af1b73ec7543f6e70df242", null ]
+    [ "TimeSeg", "de/de9/a28110.html#ab94639ba8e26b215ebd31163967574d3", null ],
+    [ "TransportEntry", "de/de9/a28110.html#a859d25b3c11839ad7e37facd40dc79df", null ],
+    [ "X", "de/de9/a28110.html#a8fbd166503396e33a4ad77448bf307ea", null ],
+    [ "Y", "de/de9/a28110.html#a67c279b26cebd8e5c81c36576b145af6", null ],
+    [ "Z", "de/de9/a28110.html#a680689c57479a2cc1ec72ab97204d3e7", null ]
 ];

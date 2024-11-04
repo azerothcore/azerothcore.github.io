@@ -1,6 +1,7 @@
 var a23062 =
 [
-    [ "HandleScriptEffect", "d2/d94/a23062.html#a62ed9bff154c5aab74e044f8f9982263", null ],
-    [ "PrepareSpellScript", "d2/d94/a23062.html#a0e87265cf22ef8b4e302b8e216123395", null ],
-    [ "Register", "d2/d94/a23062.html#a0d722447d91991462245e8b392d20e10", null ]
+    [ "PeriodicTick", "d2/d94/a23062.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "d2/d94/a23062.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "d2/d94/a23062.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "d2/d94/a23062.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

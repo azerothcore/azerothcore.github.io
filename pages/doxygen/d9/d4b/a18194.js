@@ -1,6 +1,6 @@
 var a18194 =
 [
-    [ "HandleScript", "d9/d4b/a18194.html#a910663e3fb2534c0e3aefcfd0adfe2fb", null ],
-    [ "PrepareSpellScript", "d9/d4b/a18194.html#a2c6acef52962f606130d643cbd93104b", null ],
-    [ "Register", "d9/d4b/a18194.html#a03ed4f257c313ba33361c16f313fdfcc", null ]
+    [ "npc_blazing_skeletonAI", "dc/d56/a18198.html", "dc/d56/a18198" ],
+    [ "npc_blazing_skeleton", "d9/d4b/a18194.html#a158720704479946048472ffe0beec492", null ],
+    [ "GetAI", "d9/d4b/a18194.html#af29ea4620ebafaa4d47ec9f37758af77", null ]
 ];

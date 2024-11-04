@@ -1,6 +1,7 @@
 var a13098 =
 [
-    [ "npc_kiljaeden_controllerAI", "dc/d4a/a13102.html", "dc/d4a/a13102" ],
-    [ "npc_kiljaeden_controller", "d9/d25/a13098.html#a28cec1ccf7e4e31fce0977dec75ef279", null ],
-    [ "GetAI", "d9/d25/a13098.html#a397c872adc60b245854465090611d1c9", null ]
+    [ "HandleRemove", "d9/d25/a13098.html#a4484cf33e423f23cad9559a6a16ed9b4", null ],
+    [ "PrepareAuraScript", "d9/d25/a13098.html#a6fa407996b59d98d0eeef877ee89784d", null ],
+    [ "Register", "d9/d25/a13098.html#a7dc81b47954ee8c10b99f389740de0be", null ],
+    [ "Validate", "d9/d25/a13098.html#afd94a159c0f429f2a63ffbd0a38d32e3", null ]
 ];

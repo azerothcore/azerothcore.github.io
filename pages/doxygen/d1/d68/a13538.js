@@ -1,6 +1,7 @@
 var a13538 =
 [
-    [ "npc_tapoke_slim_jahnAI", "d0/d46/a13542.html", "d0/d46/a13542" ],
-    [ "npc_tapoke_slim_jahn", "d1/d68/a13538.html#a61e36b57f8ba78c371d454efb1512579", null ],
-    [ "GetAI", "d1/d68/a13538.html#a397629742eace1b96dfd9d4a2e55cc32", null ]
+    [ "HandleDispel", "d1/d68/a13538.html#a415977576283972ce4a1050c70826d7c", null ],
+    [ "PrepareAuraScript", "d1/d68/a13538.html#a95dfbfe631e8ec9213a32c6f52d3feb1", null ],
+    [ "Register", "d1/d68/a13538.html#a1bbb71eeb2273c2ecd0eb774b68735dc", null ],
+    [ "Validate", "d1/d68/a13538.html#ac496e7bef875ca46660217e74fc3bc74", null ]
 ];

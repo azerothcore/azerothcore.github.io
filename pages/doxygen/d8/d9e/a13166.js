@@ -1,6 +1,6 @@
 var a13166 =
 [
-    [ "FilterTargets", "d8/d9e/a13166.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
-    [ "PrepareSpellScript", "d8/d9e/a13166.html#a905e1f979284a368463ad4829891b6ee", null ],
-    [ "Register", "d8/d9e/a13166.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
+    [ "instance_sunwell_plateau_InstanceMapScript", "de/d6b/a13170.html", "de/d6b/a13170" ],
+    [ "instance_sunwell_plateau", "d8/d9e/a13166.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
+    [ "GetInstanceScript", "d8/d9e/a13166.html#a5960785a845c87e2e1730cfd865b44b4", null ]
 ];

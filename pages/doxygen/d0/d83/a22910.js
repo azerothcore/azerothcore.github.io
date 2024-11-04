@@ -1,6 +1,7 @@
 var a22910 =
 [
-    [ "HandleDummy", "d0/d83/a22910.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
-    [ "PrepareSpellScript", "d0/d83/a22910.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
-    [ "Register", "d0/d83/a22910.html#a972574075c86c32593982add71dc893f", null ]
+    [ "npc_tainted_elemental", "d0/d83/a22910.html#a71736892dc20a5be304a161dac183bc9", null ],
+    [ "JustEngagedWith", "d0/d83/a22910.html#a51a05405b3acb9cc0bd27ff14fc61cd2", null ],
+    [ "Reset", "d0/d83/a22910.html#aa6792680e31edf8597948b77f5ff2218", null ],
+    [ "UpdateAI", "d0/d83/a22910.html#a32a68a990c764a0f73d3420b93e3b97c", null ]
 ];

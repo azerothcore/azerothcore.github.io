@@ -1,14 +1,14 @@
 var a20062 =
 [
-    [ "npc_ulduar_hodir_mageAI", "d2/daa/a20062.html#a118059c877151a9f6b2b15a4070e2704", null ],
-    [ "AttackStart", "d2/daa/a20062.html#a3217617eb3312c1da34dc7dce590fe0d", null ],
-    [ "CanAIAttack", "d2/daa/a20062.html#a66ea56e856fcc706e4f938512def1590", null ],
-    [ "EnterEvadeMode", "d2/daa/a20062.html#a6d4cd626dcd58f825a6c88b804bb38a7", null ],
-    [ "JustDied", "d2/daa/a20062.html#a0176f8b45c20af1552e1a8b70e307442", null ],
-    [ "MoveInLineOfSight", "d2/daa/a20062.html#aaf35c04462b1698e85df64190f4e2c8a", null ],
-    [ "ScheduleAbilities", "d2/daa/a20062.html#a7927f399ef1c89b3eb83804fde9b2700", null ],
-    [ "SpellHit", "d2/daa/a20062.html#aa814a46a45ce5eb9696c8f6c6de8c521", null ],
-    [ "UpdateAI", "d2/daa/a20062.html#acbbe6667360e5bb7576c1ea741c2e2f1", null ],
-    [ "events", "d2/daa/a20062.html#a556453c557df0be6a57255e400d98a87", null ],
-    [ "pInstance", "d2/daa/a20062.html#ac4677898f5612c01d98ab242c7628e8f", null ]
+    [ "boss_kologarn_armsAI", "d2/daa/a20062.html#aa647b59e1bb0abb8f71e81700063624d", null ],
+    [ "AttackStart", "d2/daa/a20062.html#ad8e25495a6559b0c4f63f0c81a4af044", null ],
+    [ "DamageTaken", "d2/daa/a20062.html#aebc4f20f398a884d5cf911746048066e", null ],
+    [ "EnterEvadeMode", "d2/daa/a20062.html#a1d39d05719d6e7730bd3d247ec1f56a7", null ],
+    [ "JustDied", "d2/daa/a20062.html#a224f30aa4703f82e1ff9439b5247398a", null ],
+    [ "MoveInLineOfSight", "d2/daa/a20062.html#a7f8167fe8edc85fc93143a8e8945bed4", null ],
+    [ "PassengerBoarded", "d2/daa/a20062.html#a105880e1f201db0d4130611f5b99d730", null ],
+    [ "Reset", "d2/daa/a20062.html#a8eec8810cdb52bacdd0c9165993dd3c2", null ],
+    [ "UpdateAI", "d2/daa/a20062.html#ad4f392b7aa918d7f038749db4ffd72b8", null ],
+    [ "_combatStarted", "d2/daa/a20062.html#a016c5497988d7ddd9f0744e83f7bf1d3", null ],
+    [ "_damageDone", "d2/daa/a20062.html#af0ad823bc5b02282d5d525d135ee3118", null ]
 ];

@@ -1,11 +1,11 @@
 var a01454 =
 [
-    [ "boss_trollgore", "db/dce/a16506.html", "db/dce/a16506" ],
-    [ "boss_trollgore::boss_trollgoreAI", "da/df6/a16510.html", "da/df6/a16510" ],
-    [ "spell_trollgore_consume", "dc/d25/a16514.html", "dc/d25/a16514" ],
-    [ "spell_trollgore_corpse_explode_aura", "d6/dff/a16518.html", "d6/dff/a16518" ],
-    [ "spell_trollgore_invader_taunt", "d7/de7/a16522.html", "d7/de7/a16522" ],
-    [ "achievement_consumption_junction", "d1/d9e/a16526.html", "d1/d9e/a16526" ],
+    [ "boss_trollgore", "dc/dab/a16406.html", "dc/dab/a16406" ],
+    [ "boss_trollgore::boss_trollgoreAI", "d5/d5f/a16410.html", "d5/d5f/a16410" ],
+    [ "spell_trollgore_consume", "d0/d5d/a16414.html", "d0/d5d/a16414" ],
+    [ "spell_trollgore_corpse_explode_aura", "d6/d89/a16418.html", "d6/d89/a16418" ],
+    [ "spell_trollgore_invader_taunt", "d6/d8e/a16422.html", "d6/d8e/a16422" ],
+    [ "achievement_consumption_junction", "d3/d35/a16426.html", "d3/d35/a16426" ],
     [ "Events", "da/df6/a01454.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

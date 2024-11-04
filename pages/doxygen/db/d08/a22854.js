@@ -1,7 +1,8 @@
 var a22854 =
 [
-    [ "npc_ashtongue_channeler", "db/d08/a22854.html#af7217d00f87e56e5cdb411fcad161b51", null ],
-    [ "Reset", "db/d08/a22854.html#ab935559c19b18f9c94dd36c85be5b3b2", null ],
-    [ "UpdateAI", "db/d08/a22854.html#af855dfa521404c4e6127a9bf12a75604", null ],
-    [ "scheduler", "db/d08/a22854.html#a4f58bbd2c44f7a3f9835fd55408ffaf4", null ]
+    [ "CalculateAmount", "db/d08/a22854.html#a13d44c0d5f9b0111ae3b0d3d089e3e13", null ],
+    [ "OnPeriodic", "db/d08/a22854.html#ab4d3f69d50fa320886f454ddfe1076f4", null ],
+    [ "PrepareAuraScript", "db/d08/a22854.html#a1278420b279449c1c6a53b1a7b53f539", null ],
+    [ "Register", "db/d08/a22854.html#a4795011faa2f68b1068d37b81f8c1cf2", null ],
+    [ "Validate", "db/d08/a22854.html#a601c2db3a8e47d48b956ed102cbca104", null ]
 ];

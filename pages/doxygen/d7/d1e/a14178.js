@@ -1,5 +1,5 @@
 var a14178 =
 [
-    [ "go_pumpkin_shrine", "d7/d1e/a14178.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
-    [ "OnGossipSelect", "d7/d1e/a14178.html#a35763a67d39c1d68974a9602ce26b699", null ]
+    [ "PrepareSpellScript", "d7/d1e/a14178.html#af219083d127afe24b2541a95bfd449ff", null ],
+    [ "Register", "d7/d1e/a14178.html#a03f7ac8d5968970f769191c7df7f5899", null ]
 ];

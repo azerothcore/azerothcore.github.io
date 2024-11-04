@@ -1,8 +1,10 @@
 var a25410 =
 [
-    [ "OnApply", "d6/da1/a25410.html#a75b45732648d5ba90b49725a48609a89", null ],
-    [ "OnBaseRemove", "d6/da1/a25410.html#aa6d10399bba721ff7a3651508fcdf449", null ],
-    [ "OnRemove", "d6/da1/a25410.html#a0331b3860691db793c5a7bcf53550c6f", null ],
-    [ "PrepareAuraScript", "d6/da1/a25410.html#a34ad4890c7ce30427537e36980057e57", null ],
-    [ "Register", "d6/da1/a25410.html#a713e694cad6f1cf533d45f5d633da36e", null ]
+    [ "spell_item_defibrillate", "d6/da1/a25410.html#ab64fdd36fc646ca0bcb2010380199ede", null ],
+    [ "HandleScript", "d6/da1/a25410.html#a7abbc5b8e5c5231d5c6809c45b815b69", null ],
+    [ "PrepareSpellScript", "d6/da1/a25410.html#a6a7ad6c9bb9bee3b093bd06b1b259468", null ],
+    [ "Register", "d6/da1/a25410.html#ad2faa26a2874f68e8e419e59cafbf10b", null ],
+    [ "Validate", "d6/da1/a25410.html#ad871a6bef7ba074f32abe1bf062dffe1", null ],
+    [ "_chance", "d6/da1/a25410.html#a680092f30ebc6b322e5d01a1100b308c", null ],
+    [ "_failSpell", "d6/da1/a25410.html#a4cb3e7f0b0b85c57f27fe2f3ab70647b", null ]
 ];

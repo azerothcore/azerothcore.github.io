@@ -1,7 +1,5 @@
 var a26770 =
 [
-    [ "FilterTargets", "de/dbc/a26770.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
-    [ "PrepareSpellScript", "de/dbc/a26770.html#a954f00317eab544dd57e657368aab7fb", null ],
-    [ "Register", "de/dbc/a26770.html#a1804684c8685372faf2e88e56b48f5be", null ],
-    [ "Validate", "de/dbc/a26770.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
+    [ "achievement_not_even_a_scratch", "de/dbc/a26770.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "de/dbc/a26770.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

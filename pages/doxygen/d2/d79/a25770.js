@@ -1,6 +1,6 @@
 var a25770 =
 [
-    [ "PrepareSpellScript", "d2/d79/a25770.html#a738e105a48f6c603f3d9a690f44b8745", null ],
-    [ "Register", "d2/d79/a25770.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
-    [ "SetDest", "d2/d79/a25770.html#a59641895cead08de4a4503262505ee73", null ]
+    [ "CalculateAmount", "d2/d79/a25770.html#a3491a0a1d2f00f76730ddc53a66c8179", null ],
+    [ "PrepareAuraScript", "d2/d79/a25770.html#a667883298cee173af941cfc07022f318", null ],
+    [ "Register", "d2/d79/a25770.html#a22514461b79f736e3ab595fa7fb48b68", null ]
 ];

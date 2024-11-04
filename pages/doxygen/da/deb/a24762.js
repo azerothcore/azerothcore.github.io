@@ -1,6 +1,7 @@
 var a24762 =
 [
-    [ "PrepareSpellScript", "da/deb/a24762.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "da/deb/a24762.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "da/deb/a24762.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "HandleScript", "da/deb/a24762.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
+    [ "PrepareSpellScript", "da/deb/a24762.html#a8e5aa0a33907c5216299734a928de2fd", null ],
+    [ "Register", "da/deb/a24762.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
+    [ "Validate", "da/deb/a24762.html#a30cc03ed0c19074dc1fde4951a061815", null ]
 ];

@@ -1,21 +1,6 @@
 var a19622 =
 [
-    [ "boss_stormcaller_brundirAI", "dd/d8b/a19622.html#adc28dd5beed1a6e48c79d7cdcceec084", null ],
-    [ "GetData", "dd/d8b/a19622.html#a72b285d89d1bf55d85436718cf25c287", null ],
-    [ "JustDied", "dd/d8b/a19622.html#a8aa9383b97b23d71d598ae1e650d0195", null ],
-    [ "JustEngagedWith", "dd/d8b/a19622.html#a9f2c58c1ebf4ce1809d454c4bba8f758", null ],
-    [ "JustReachedHome", "dd/d8b/a19622.html#af7e52166fdeb9b77ffa7057444ee67ef", null ],
-    [ "KilledUnit", "dd/d8b/a19622.html#af26795d89f26a9d907e81ef16ab10762", null ],
-    [ "MovementInform", "dd/d8b/a19622.html#a396869cd37f7f66c38424d70fb87bb01", null ],
-    [ "Reset", "dd/d8b/a19622.html#a4e1d09a210b4991e2b97e04f7be8a2bf", null ],
-    [ "SpellHit", "dd/d8b/a19622.html#af6e9b985d9bb5f63b1163d8ef1299992", null ],
-    [ "SpellHitTarget", "dd/d8b/a19622.html#a5592b2f9e4ce9149fb77cdc5dcc27539", null ],
-    [ "UpdateAI", "dd/d8b/a19622.html#a483ea3ae6c95ab18cc5fa2f41b613690", null ],
-    [ "UpdatePhase", "dd/d8b/a19622.html#a6f018f955bf546a47c119328b33ef010", null ],
-    [ "_channelTimer", "dd/d8b/a19622.html#a19fe914b34ca1ac05714387f00e0d28d", null ],
-    [ "_flyTargetGUID", "dd/d8b/a19622.html#a30d4b48a08328fb497ff51e0fa260041", null ],
-    [ "_phase", "dd/d8b/a19622.html#afe01d10d1abf8a7ddfc1d3c1b238cd30", null ],
-    [ "_stunnedAchievement", "dd/d8b/a19622.html#a678cd6ce097dab459bbf162553ddd56b", null ],
-    [ "events", "dd/d8b/a19622.html#afe480aedba3a5772a98f694647c7ed50", null ],
-    [ "pInstance", "dd/d8b/a19622.html#ab528df844696fec44595e0878966e0c2", null ]
+    [ "npc_thorims_hammerAI", "d5/df3/a19626.html", "d5/df3/a19626" ],
+    [ "npc_thorims_hammer", "dd/d8b/a19622.html#a97cbcda73931e6119f8ab30fa4bb0806", null ],
+    [ "GetAI", "dd/d8b/a19622.html#aaee92d115d112ebf590cf690de8c6667", null ]
 ];

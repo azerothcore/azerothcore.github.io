@@ -1,6 +1,6 @@
 var a18854 =
 [
-    [ "boss_kelthuzadAI", "df/dd7/a18858.html", "df/dd7/a18858" ],
-    [ "boss_kelthuzad", "d3/d92/a18854.html#a52b0988d0ee9e41c8a7911f2d2460442", null ],
-    [ "GetAI", "d3/d92/a18854.html#acf19b29d6c1eb0052baa7ff491f6a050", null ]
+    [ "boss_thaddiusAI", "df/dd7/a18858.html", "df/dd7/a18858" ],
+    [ "boss_thaddius", "d3/d92/a18854.html#aff97b030b861feb646e1b22f60ee3605", null ],
+    [ "GetAI", "d3/d92/a18854.html#acf841c6897396f517a74932fc3480e69", null ]
 ];

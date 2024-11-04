@@ -1,7 +1,6 @@
 var a23634 =
 [
-    [ "HandleCast", "d8/ddc/a23634.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
-    [ "PrepareSpellScript", "d8/ddc/a23634.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
-    [ "Register", "d8/ddc/a23634.html#a6ae0573ea69573df64cd57ba84f99918", null ],
-    [ "Validate", "d8/ddc/a23634.html#ab5794ca5c0863ce40194ed40e156279a", null ]
+    [ "HandleScriptEffect", "d8/ddc/a23634.html#a032b00bcd9bda0cd04f93848e4630c6a", null ],
+    [ "PrepareSpellScript", "d8/ddc/a23634.html#ad99a318c6b3ee834aa3c3591a0f8a330", null ],
+    [ "Register", "d8/ddc/a23634.html#aa96de13af039d8dfab0ae1a5d30e21a8", null ]
 ];

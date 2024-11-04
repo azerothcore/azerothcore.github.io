@@ -1,7 +1,7 @@
 var a16238 =
 [
-    [ "npc_toc_dkAI", "d4/d67/a16238.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
-    [ "myCanCast", "d4/d67/a16238.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
-    [ "UpdateAI", "d4/d67/a16238.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
-    [ "events", "d4/d67/a16238.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
+    [ "FilterTargets", "d4/d67/a16238.html#a304da18e36ff67c34b80ab39583f8c96", null ],
+    [ "HandleScript", "d4/d67/a16238.html#adf99670bcf862288f513d2a26cbc256a", null ],
+    [ "PrepareSpellScript", "d4/d67/a16238.html#a976cb3c956d37fc9870494b0a6b8d9ee", null ],
+    [ "Register", "d4/d67/a16238.html#a4513de251b2f3d52fe44b7f7e715007c", null ]
 ];

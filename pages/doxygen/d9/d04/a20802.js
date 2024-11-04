@@ -1,7 +1,9 @@
 var a20802 =
 [
-    [ "HandleScriptEffect", "d9/d04/a20802.html#aae469190c1edc1fe45914bad1dac4e93", null ],
-    [ "PrepareSpellScript", "d9/d04/a20802.html#a1bced7e9364a1abb7b718b6786eada9f", null ],
-    [ "Register", "d9/d04/a20802.html#a97265071f226fbd17c37d432cf9e2350", null ],
-    [ "Validate", "d9/d04/a20802.html#aeec0bdd2e39db2da657247376ddcd195", null ]
+    [ "npc_vrykul_skeletonAI", "d9/d04/a20802.html#a06b3f450485e9e90c91b1e9f5c41a2bd", null ],
+    [ "DamageTaken", "d9/d04/a20802.html#aeed85c443bd29c74aeb768e1f93b7006", null ],
+    [ "Reset", "d9/d04/a20802.html#a30a56c6c5e8509f692100aa02c691481", null ],
+    [ "UpdateAI", "d9/d04/a20802.html#ab8c18176fbe84f12ca5a63f99d66d394", null ],
+    [ "events", "d9/d04/a20802.html#aa797776c850ef3480f30a1551cdb878b", null ],
+    [ "pInstance", "d9/d04/a20802.html#a87c7c6a427a21c745fcfd3ff804f38d6", null ]
 ];

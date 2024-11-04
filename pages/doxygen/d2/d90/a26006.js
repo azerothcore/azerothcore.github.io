@@ -1,8 +1,7 @@
 var a26006 =
 [
-    [ "CheckCast", "d2/d90/a26006.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
-    [ "HandleDummy", "d2/d90/a26006.html#a1eac1eb5f39093ff48942e82728478dd", null ],
-    [ "PrepareSpellScript", "d2/d90/a26006.html#adbb58b75232560d101b291c0d99a2a20", null ],
-    [ "Register", "d2/d90/a26006.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
-    [ "Validate", "d2/d90/a26006.html#a4b67c348685a8094668e4ed2f0c78446", null ]
+    [ "if", "d2/d90/a26006.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
+    [ "PrepareAuraScript", "d2/d90/a26006.html#aa31810077c241e77193e378cb297b7de", null ],
+    [ "Register", "d2/d90/a26006.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
+    [ "AuraEffectHandleModes", "d2/d90/a26006.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
 ];

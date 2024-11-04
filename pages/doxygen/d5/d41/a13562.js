@@ -1,12 +1,18 @@
 var a13562 =
 [
-    [ "npc_akilzon_eagleAI", "d5/d41/a13562.html#a08d79db0d679e5ee40c919cde126a15a", null ],
-    [ "JustEngagedWith", "d5/d41/a13562.html#a19c4cd8b2bfcf52157971486c8d24903", null ],
-    [ "MoveInLineOfSight", "d5/d41/a13562.html#a248aff56059e889eb3fd6eb1d511bb68", null ],
-    [ "MovementInform", "d5/d41/a13562.html#a5372643a5014f349fc2593e42d27988b", null ],
-    [ "Reset", "d5/d41/a13562.html#a9fc9924deb5be8dbc33565480f045a7a", null ],
-    [ "UpdateAI", "d5/d41/a13562.html#a29049f0d5acfd96d38e1143e8e9b1a06", null ],
-    [ "arrived", "d5/d41/a13562.html#abec2cfde4f5bc6147339ce89b0d2ce45", null ],
-    [ "EagleSwoop_Timer", "d5/d41/a13562.html#a34c016ca0fb5f01feb48302fdb76d891", null ],
-    [ "TargetGUID", "d5/d41/a13562.html#a9fa61cffe2a605ec4a7953292da16e84", null ]
+    [ "boss_nalorakk", "d5/d41/a13562.html#a4dd18b28685e3dac2406c4e3d8be95aa", null ],
+    [ "CheckFullyDeadGroup", "d5/d41/a13562.html#a0754b8a39fd26f5fb026f9460faa17aa", null ],
+    [ "GroupedAttack", "d5/d41/a13562.html#a249f35697e422a7e7e8a583f85cc97b1", null ],
+    [ "JustDied", "d5/d41/a13562.html#a6f79e518e3a356e0f6093afa8c438fe5", null ],
+    [ "JustEngagedWith", "d5/d41/a13562.html#a1d3c302161e8666c0343d449727c35a9", null ],
+    [ "MoveInLineOfSight", "d5/d41/a13562.html#a3455e91061cfb9ea03712b8006d298df", null ],
+    [ "Reset", "d5/d41/a13562.html#a85093d79b866ceff41357dde22e06867", null ],
+    [ "ShapeShift", "d5/d41/a13562.html#a78b12658138455ccddd9c62b6c7e26dd", null ],
+    [ "UpdateAI", "d5/d41/a13562.html#a4cf5656619dd9339000236ed6b006c90", null ],
+    [ "_active", "d5/d41/a13562.html#a8825e186d58b8f6bbd39976e013ee114", null ],
+    [ "_bearForm", "d5/d41/a13562.html#aa76da1d9912aaa97242f5d27e567e895", null ],
+    [ "_introScheduler", "d5/d41/a13562.html#ac654307d732ac59155321008418f8c90", null ],
+    [ "_phase", "d5/d41/a13562.html#a390142234210027d37f5e4ec7cea84ae", null ],
+    [ "_ranIntro", "d5/d41/a13562.html#a78bd5a9970ab205d9553ed5746a42066", null ],
+    [ "_waveList", "d5/d41/a13562.html#a6093dac3b1353a047174e5aae98c13d6", null ]
 ];

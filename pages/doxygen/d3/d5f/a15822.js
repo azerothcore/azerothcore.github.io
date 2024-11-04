@@ -1,6 +1,10 @@
 var a15822 =
 [
-    [ "npc_onyx_flamecallerAI", "d3/dd9/a15826.html", "d3/dd9/a15826" ],
-    [ "npc_onyx_flamecaller", "d3/d5f/a15822.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "d3/d5f/a15822.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "spell_halion_marks_aura", "d3/d5f/a15822.html#a3351eb9a4b497e1d92bd0021c0fa01f8", null ],
+    [ "BeforeDispel", "d3/d5f/a15822.html#a48fb48567091c8fd9d365ea3ff8730cc", null ],
+    [ "OnRemove", "d3/d5f/a15822.html#a1c9fefecd33db13e06f267c41e6b0375", null ],
+    [ "PrepareAuraScript", "d3/d5f/a15822.html#acd5285ea5c378b31526440d263c54770", null ],
+    [ "Register", "d3/d5f/a15822.html#ac84d4ab83e56314ff15ee363cafd2feb", null ],
+    [ "_removeSpellId", "d3/d5f/a15822.html#aeef9d928c6a8739337251e144558b169", null ],
+    [ "_summonSpellId", "d3/d5f/a15822.html#a01e8677e4f55dbb55cca1bf16dec48b2", null ]
 ];

@@ -1,14 +1,6 @@
 var a23106 =
 [
-    [ "boss_the_lurker_below", "d9/dcd/a23106.html#ac76c71b6a47e1a936256d9c5901c27ab", null ],
-    [ "AttackStart", "d9/dcd/a23106.html#af0f6fbe31dbcd6df4e8f1b57730e093b", null ],
-    [ "DamageTaken", "d9/dcd/a23106.html#ae7c05744013753b29072ec1b5d9f2570", null ],
-    [ "DoAction", "d9/dcd/a23106.html#a30e07055aa632066a75ad48f3e8109e2", null ],
-    [ "EnterEvadeMode", "d9/dcd/a23106.html#a522164e819db5062225f7d5704cdaa36", null ],
-    [ "JustEngagedWith", "d9/dcd/a23106.html#aa31e26b77e0c2403a338f781bf14c94b", null ],
-    [ "Reset", "d9/dcd/a23106.html#ae592707182d64689e6578813b3617ee3", null ],
-    [ "SchedulerPhaseOne", "d9/dcd/a23106.html#a42dd2ed36209e7be61788d054e2754b5", null ],
-    [ "SchedulerPhaseTwo", "d9/dcd/a23106.html#aa910c20d3ee26d6d2e71818008eb3b5c", null ],
-    [ "SummonedCreatureDies", "d9/dcd/a23106.html#a5ec68a1bc5b22e03fe485448257ad7df", null ],
-    [ "UpdateAI", "d9/dcd/a23106.html#a92d854cb21b272bd09674c724b1aa862", null ]
+    [ "instance_the_slave_pens_InstanceMapScript", "db/dd2/a23110.html", "db/dd2/a23110" ],
+    [ "instance_the_slave_pens", "d9/dcd/a23106.html#a765f7b66ad3bed1828524ecb143742f2", null ],
+    [ "GetInstanceScript", "d9/dcd/a23106.html#a0eedcecf1ddc27e139898cacf6f48965", null ]
 ];

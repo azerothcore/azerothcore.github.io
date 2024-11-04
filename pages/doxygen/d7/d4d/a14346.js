@@ -1,9 +1,10 @@
 var a14346 =
 [
-    [ "boss_azuregosAI", "d7/d4d/a14346.html#a839ab1e096d30062d64c1c515a7462a4", null ],
-    [ "JustDied", "d7/d4d/a14346.html#aea4d204173b7882d2d9acf8204410947", null ],
-    [ "JustEngagedWith", "d7/d4d/a14346.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
-    [ "KilledUnit", "d7/d4d/a14346.html#aeefc791e17d2a687f8beae809c44d123", null ],
-    [ "Reset", "d7/d4d/a14346.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
-    [ "UpdateAI", "d7/d4d/a14346.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ]
+    [ "boss_rage_winterchill", "d7/d4d/a14346.html#a66fed2a7cc6135d41a2c40bdf4ffe02e", null ],
+    [ "DoAction", "d7/d4d/a14346.html#a45333aea6d6a180473ca4823ea83920a", null ],
+    [ "JustDied", "d7/d4d/a14346.html#ab10c7df81a9e71b2c114465c30e40a9b", null ],
+    [ "JustEngagedWith", "d7/d4d/a14346.html#ad36a840c65949c54d5ee3ae8cb6f1f7b", null ],
+    [ "KilledUnit", "d7/d4d/a14346.html#a69d69530a080379add7be73c552f4937", null ],
+    [ "PathEndReached", "d7/d4d/a14346.html#aec47befdf3246710a5158780fa797fa7", null ],
+    [ "_recentlySpoken", "d7/d4d/a14346.html#ae2141b4ea1d10cb74146aec63d65214c", null ]
 ];

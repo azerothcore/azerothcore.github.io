@@ -1,10 +1,10 @@
 var a24322 =
 [
-    [ "npc_pet_gen_plump_turkey", "d1/d25/a24322.html#acd5a9cb122cbf5a773461ce1027f28a1", null ],
-    [ "MovementInform", "d1/d25/a24322.html#af27c91388891add6d00e251bf3187743", null ],
-    [ "UpdateAI", "d1/d25/a24322.html#a93d2719bcc6a657a9a32cce06f566b19", null ],
-    [ "checkTimer", "d1/d25/a24322.html#af9e7339416ada0c3bb9829cbd8e1f5d3", null ],
-    [ "goGUID", "d1/d25/a24322.html#a5fa88e045430adea9e72a3744bf72780", null ],
-    [ "jumping", "d1/d25/a24322.html#a8486512b7594f2ce759fcb580f1baf34", null ],
-    [ "jumpTimer", "d1/d25/a24322.html#ad53a9abad41ab6a792a55b854155135d", null ]
+    [ "Absorb", "d1/d25/a24322.html#a99db0d1254ddcfa9e7afb241e73b3235", null ],
+    [ "CalculateAmount", "d1/d25/a24322.html#a279a025cac490ee3647f47584b59179f", null ],
+    [ "Load", "d1/d25/a24322.html#a3fededdbfca9d12e6dbd097620e104be", null ],
+    [ "PrepareAuraScript", "d1/d25/a24322.html#a818875a8073491eab2508182bd941e25", null ],
+    [ "Register", "d1/d25/a24322.html#a2419bff95bad81a0f63c4988f14eb3f9", null ],
+    [ "Validate", "d1/d25/a24322.html#a60eb14be1b3108b7b896a27eab35569b", null ],
+    [ "absorbPct", "d1/d25/a24322.html#ac51bad58076a6dfa520fd3e9ea0c76b5", null ]
 ];

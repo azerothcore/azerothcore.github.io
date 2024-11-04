@@ -1,6 +1,7 @@
 var a23118 =
 [
-    [ "FilterTargets", "d7/d06/a23118.html#af545460920658bc8ee0444f7c0d51970", null ],
-    [ "PrepareSpellScript", "d7/d06/a23118.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
-    [ "Register", "d7/d06/a23118.html#ac12cde698f5b0bbcdf433821772c7519", null ]
+    [ "boss_hydromancer_thespia", "d7/d06/a23118.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
+    [ "JustDied", "d7/d06/a23118.html#ad0662daabd636bbf544a6791187d71fa", null ],
+    [ "JustEngagedWith", "d7/d06/a23118.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
+    [ "KilledUnit", "d7/d06/a23118.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
 ];

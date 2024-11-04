@@ -1,6 +1,6 @@
 var a19010 =
 [
-    [ "boss_malygosAI", "db/d3a/a19014.html", "db/d3a/a19014" ],
-    [ "boss_malygos", "d8/d44/a19010.html#aeac3c63d4ccd2947a6f7e4c007dc6aa1", null ],
-    [ "GetAI", "d8/d44/a19010.html#a9e1d821311fa8b92318a99ea79ddb1e3", null ]
+    [ "boss_commander_stoutbeardAI", "db/d3a/a19014.html", "db/d3a/a19014" ],
+    [ "boss_commander_stoutbeard", "d8/d44/a19010.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
+    [ "GetAI", "d8/d44/a19010.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
 ];

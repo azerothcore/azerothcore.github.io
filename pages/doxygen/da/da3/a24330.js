@@ -1,9 +1,10 @@
 var a24330 =
 [
-    [ "npc_pet_gen_fetch_ball", "da/da3/a24330.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
-    [ "IsSummonedBy", "da/da3/a24330.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
-    [ "SpellHitTarget", "da/da3/a24330.html#a87bdded236f6584d9b71507a1253f7d0", null ],
-    [ "UpdateAI", "da/da3/a24330.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
-    [ "checkTimer", "da/da3/a24330.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
-    [ "targetGUID", "da/da3/a24330.html#ae474374af7c2270e218ed236d90c789c", null ]
+    [ "CheckProc", "da/da3/a24330.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
+    [ "HandleProc", "da/da3/a24330.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
+    [ "Load", "da/da3/a24330.html#ada85014de8a3602e83912d5e1a0165c5", null ],
+    [ "PrepareAuraScript", "da/da3/a24330.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
+    [ "Register", "da/da3/a24330.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
+    [ "Validate", "da/da3/a24330.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
+    [ "_procTarget", "da/da3/a24330.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
 ];

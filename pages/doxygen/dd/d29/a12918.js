@@ -1,5 +1,5 @@
 var a12918 =
 [
-    [ "at_malfurion_stormrage", "dd/d29/a12918.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
-    [ "OnTrigger", "dd/d29/a12918.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
+    [ "AreaTrigger_at_sunwell_madrigosa", "dd/d29/a12918.html#a6202301b3ce2dd20df77e2fd3b2f6042", null ],
+    [ "OnTrigger", "dd/d29/a12918.html#a459fbbd650883aa69ea9a21cf61370f7", null ]
 ];

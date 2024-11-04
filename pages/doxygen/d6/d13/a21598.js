@@ -1,7 +1,6 @@
 var a21598 =
 [
-    [ "npc_cosmetic_toy_plane", "d6/d13/a21598.html#a71b7df4d5f78768d9e47f41ba78b93d2", null ],
-    [ "Reset", "d6/d13/a21598.html#aa66f2e16ce6c4e5dd7399b48bd5bc203", null ],
-    [ "UpdateAI", "d6/d13/a21598.html#a41d62b314510fbd6637d8eddbea16f96", null ],
-    [ "_movementArray", "d6/d13/a21598.html#a5a85278bc14a0e3158dc3fa8abcc8392", null ]
+    [ "npc_spiritual_insightAI", "d6/d13/a21598.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
+    [ "GetSpeachId", "d6/d13/a21598.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
+    [ "IsSummonedBy", "d6/d13/a21598.html#ab6b39190d1195915ea0b4b191d864da6", null ]
 ];

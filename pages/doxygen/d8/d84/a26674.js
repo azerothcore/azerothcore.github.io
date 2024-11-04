@@ -1,10 +1,6 @@
 var a26674 =
 [
-    [ "CalculateAmount", "d8/d84/a26674.html#a9e0e28d871f9d3c89cf2dc862971321d", null ],
-    [ "Detonate", "d8/d84/a26674.html#adc622aae157984546dfe3d8373c0c413", null ],
-    [ "HandleProc", "d8/d84/a26674.html#a3b5812649b67830d8dc6d10b5dd1c937", null ],
-    [ "OnRemove", "d8/d84/a26674.html#a5067cef0afc99d487f995f8d6edea21f", null ],
-    [ "PrepareAuraScript", "d8/d84/a26674.html#abc23ebb3761e3505486ac578bdeaeeed", null ],
-    [ "Register", "d8/d84/a26674.html#acc4819698e175889a0491d7f7cc680fd", null ],
-    [ "Validate", "d8/d84/a26674.html#a0649826ce0d66c9f21be8d47c76f4941", null ]
+    [ "HandleHeal", "d8/d84/a26674.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "d8/d84/a26674.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "d8/d84/a26674.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

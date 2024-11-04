@@ -1,14 +1,7 @@
 var a22506 =
 [
-    [ "boss_nexusprince_shaffar", "d6/d15/a22506.html#a2e861fb53bca7a40e967971b5e7be533", null ],
-    [ "JustDied", "d6/d15/a22506.html#abf2fef0888bced83511883027bf4d500", null ],
-    [ "JustEngagedWith", "d6/d15/a22506.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
-    [ "JustSummoned", "d6/d15/a22506.html#a576240b46ce0988f0ef86e1460c831ef", null ],
-    [ "KilledUnit", "d6/d15/a22506.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
-    [ "MoveInLineOfSight", "d6/d15/a22506.html#a71e501225d88851210d2e0e58de27f99", null ],
-    [ "Reset", "d6/d15/a22506.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
-    [ "SummonedCreatureDespawn", "d6/d15/a22506.html#ab806564e96708ca12f444249abd3c88c", null ],
-    [ "UpdateAI", "d6/d15/a22506.html#a147500575a3821262ec718ec023b458c", null ],
-    [ "HasTaunted", "d6/d15/a22506.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
-    [ "summons", "d6/d15/a22506.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
+    [ "HandleEffectRemove", "d6/d15/a22506.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
+    [ "PrepareAuraScript", "d6/d15/a22506.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
+    [ "Register", "d6/d15/a22506.html#a9ee8e71020c17f593472de5a9c130753", null ],
+    [ "Validate", "d6/d15/a22506.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
 ];

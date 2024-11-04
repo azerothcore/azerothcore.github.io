@@ -1,9 +1,7 @@
 var a25526 =
 [
-    [ "spell_item_trigger_spell", "da/dad/a25526.html#a619e9a5233e36157cbdaba70a3ba80da", null ],
-    [ "HandleDummy", "da/dad/a25526.html#a49613255eea28e34cf5ff8a06798f89a", null ],
-    [ "PrepareSpellScript", "da/dad/a25526.html#a78903f92c30fb23ff7297f7fa16c4861", null ],
-    [ "Register", "da/dad/a25526.html#ab9abd9f01ce37c23d6502e6d86e3f998", null ],
-    [ "Validate", "da/dad/a25526.html#a2f2df93e8f9d0e51273560665ea5c245", null ],
-    [ "_triggeredSpellId", "da/dad/a25526.html#a610c5ac434fe788120ed101f7bf58f63", null ]
+    [ "Load", "da/dad/a25526.html#a8be944ae201f4f8406948aff78f982d9", null ],
+    [ "OnDummyEffect", "da/dad/a25526.html#adcb707400963e549a295e115d6f3583b", null ],
+    [ "PrepareSpellScript", "da/dad/a25526.html#a5b2175a933df10d775bc3381f515aa96", null ],
+    [ "Register", "da/dad/a25526.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
 ];

@@ -1,7 +1,6 @@
 var a14706 =
 [
-    [ "npc_hive_zara_larva", "d6/d68/a14706.html#a50fb5738d7b0818689216fee0915a0de", null ],
-    [ "JustSummoned", "d6/d68/a14706.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
-    [ "MovementInform", "d6/d68/a14706.html#a6890c58106450d654062f548a80cb42f", null ],
-    [ "_instance", "d6/d68/a14706.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
+    [ "go_ossirian_crystalAI", "d4/de3/a14710.html", "d4/de3/a14710" ],
+    [ "go_ossirian_crystal", "d6/d68/a14706.html#a783f0f0570ee0f667920e29613b565b2", null ],
+    [ "GetAI", "d6/d68/a14706.html#a2f7b12eddc6504917614913e347ec0a0", null ]
 ];

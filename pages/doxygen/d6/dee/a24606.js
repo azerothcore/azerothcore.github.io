@@ -1,9 +1,9 @@
 var a24606 =
 [
-    [ "HandleApply", "d6/dee/a24606.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
-    [ "HandleRemove", "d6/dee/a24606.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
-    [ "PrepareAuraScript", "d6/dee/a24606.html#af2b8e669737cd4282beb6a5035f496fc", null ],
-    [ "RecalculateBaseArmor", "d6/dee/a24606.html#a693720558c7b2b22c41a49a402522014", null ],
-    [ "Register", "d6/dee/a24606.html#aff9bc58342383afe5a08be696cddedf6", null ],
-    [ "Validate", "d6/dee/a24606.html#ad712e1e05d94372defdfa4fe67e65716", null ]
+    [ "PrepareAuraScript", "d6/dee/a24606.html#accf6cc89fed8dbf7c3cee201f1e9e806", null ],
+    [ "Register", "d6/dee/a24606.html#a04efbc64bfa0312bc1f372e403803c32", null ],
+    [ "Update", "d6/dee/a24606.html#aa463442b994b6275b2e12fe06ae7805c", null ],
+    [ "amplitude", "d6/dee/a24606.html#aff726eef4dbd10dd71f1614ab6755ea1", null ],
+    [ "amplitude", "d6/dee/a24606.html#ad96a6059cb2f4bdf8e2b341d0a6e294f", null ],
+    [ "isPeriodic", "d6/dee/a24606.html#a0732bf60822bbb547be014566d0e092c", null ]
 ];

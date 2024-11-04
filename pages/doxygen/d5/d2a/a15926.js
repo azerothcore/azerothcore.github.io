@@ -1,6 +1,6 @@
 var a15926 =
 [
-    [ "OnSummon", "d5/d2a/a15926.html#ae2766d12fb686356b46126848f356c5a", null ],
-    [ "PrepareSpellScript", "d5/d2a/a15926.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
-    [ "Register", "d5/d2a/a15926.html#a717394bfbea621ae637f9e87efddda62", null ]
+    [ "npc_memoryAI", "d4/d18/a15930.html", "d4/d18/a15930" ],
+    [ "npc_memory", "d5/d2a/a15926.html#acebf31813025d323f9486d6575a60483", null ],
+    [ "GetAI", "d5/d2a/a15926.html#ad8e532d029217a06d11ae39810498976", null ]
 ];

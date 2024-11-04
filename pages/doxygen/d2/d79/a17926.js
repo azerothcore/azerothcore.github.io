@@ -1,6 +1,7 @@
 var a17926 =
 [
-    [ "npc_sindragosa_trashAI", "db/dee/a17930.html", "db/dee/a17930" ],
-    [ "npc_sindragosa_trash", "d2/d79/a17926.html#a9634ea10e767b4d6e293fc3fdd491702", null ],
-    [ "GetAI", "d2/d79/a17926.html#ab1de715d98236a853a793d830bc601d7", null ]
+    [ "HandleScript", "d2/d79/a17926.html#a0ddd74672b48fd7bf5d3b4d4b6467e4a", null ],
+    [ "PrepareSpellScript", "d2/d79/a17926.html#a598baad08c685bba54ad5306e0d521b4", null ],
+    [ "Register", "d2/d79/a17926.html#a471bac09c68708daefe6a39f283caa4c", null ],
+    [ "Validate", "d2/d79/a17926.html#a162e50b7136687aae7a8df0bb93dd8fe", null ]
 ];

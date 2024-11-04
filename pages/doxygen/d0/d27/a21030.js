@@ -1,5 +1,6 @@
 var a21030 =
 [
-    [ "go_harpoon_canon", "d0/d27/a21030.html#aa7651e111cade00bbbdb9d0feced03e6", null ],
-    [ "OnGossipHello", "d0/d27/a21030.html#ad0098bafd1233636bde181312126e65f", null ]
+    [ "npc_frozen_orb_stalkerAI", "d9/ddb/a21034.html", "d9/ddb/a21034" ],
+    [ "npc_frozen_orb_stalker", "d0/d27/a21030.html#a7f025c829106aa6668427f913d07a722", null ],
+    [ "GetAI", "d0/d27/a21030.html#af33e27138a70286bac561113ed09f350", null ]
 ];

@@ -1,7 +1,6 @@
 var a24682 =
 [
-    [ "CalculateAmount", "df/d3a/a24682.html#ab705e67f7abb72a13dfd32e7a6da4561", null ],
-    [ "Load", "df/d3a/a24682.html#ac87f1c7ccb9aa9985d538c9d8611c850", null ],
-    [ "PrepareAuraScript", "df/d3a/a24682.html#ae4a75ef8bc755c8220b768d5ac87a728", null ],
-    [ "Register", "df/d3a/a24682.html#a636331452bc95a4434f1b85e85ea6e7b", null ]
+    [ "PrepareAuraScript", "df/d3a/a24682.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
+    [ "Register", "df/d3a/a24682.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
+    [ "AuraEffectHandleModes", "df/d3a/a24682.html#aed1cfe63d82450b526e154678fb97ac4", null ]
 ];

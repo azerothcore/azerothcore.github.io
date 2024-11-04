@@ -1,8 +1,8 @@
 var a22534 =
 [
-    [ "npc_anzu_spirit", "da/de5/a22534.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
-    [ "IsSummonedBy", "da/de5/a22534.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
-    [ "Reset", "da/de5/a22534.html#acef3f7093f93b6c227d145523cdc487a", null ],
-    [ "UpdateAI", "da/de5/a22534.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
-    [ "_scheduler", "da/de5/a22534.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
+    [ "Load", "da/de5/a22534.html#a4ff26763f05b07d882cd8d209464910e", null ],
+    [ "OnPeriodic", "da/de5/a22534.html#a3e3bb503a6b5f90741a4df668851accf", null ],
+    [ "PrepareAuraScript", "da/de5/a22534.html#a4126d35669859963f10ed1425a054298", null ],
+    [ "Register", "da/de5/a22534.html#adb6a44892d80aeaaf4c15c71a47f422e", null ],
+    [ "Validate", "da/de5/a22534.html#a22d6c338ea1f2af9be0eb02aceba42bd", null ]
 ];

@@ -1,8 +1,6 @@
 var a20282 =
 [
-    [ "npc_ulduar_magnetic_coreAI", "dd/dbb/a20282.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
-    [ "SetData", "dd/dbb/a20282.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
-    [ "UpdateAI", "dd/dbb/a20282.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
-    [ "despawnTimer", "dd/dbb/a20282.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
-    [ "pInstance", "dd/dbb/a20282.html#a3e01c612a689d89bdbe3529c429a413d", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "dd/d7f/a20286.html", "dd/d7f/a20286" ],
+    [ "npc_ulduar_dark_rune_watcher", "dd/dbb/a20282.html#a0536c61d70d5c6d61496fc1720d37950", null ],
+    [ "GetAI", "dd/dbb/a20282.html#a6677d6dc0d07b508e921064f3299b302", null ]
 ];

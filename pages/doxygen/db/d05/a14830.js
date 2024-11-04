@@ -1,5 +1,10 @@
 var a14830 =
 [
-    [ "boss_vem", "db/d05/a14830.html#a8e303ece8ba209c6dea0ed6c888077d3", null ],
-    [ "JustEngagedWith", "db/d05/a14830.html#ae4b7fa599d31155bdee566b31c60b237", null ]
+    [ "boss_huhuran", "db/d05/a14830.html#a64e0b20891992764c708cbb661c18196", null ],
+    [ "DamageTaken", "db/d05/a14830.html#adb47086f29b41f4168ad5d1b2728547d", null ],
+    [ "JustEngagedWith", "db/d05/a14830.html#a08f1d6550680d5bcf07332eade115730", null ],
+    [ "Reset", "db/d05/a14830.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
+    [ "UpdateAI", "db/d05/a14830.html#a23962e668f046b373f94ea6a2d75574a", null ],
+    [ "_berserk", "db/d05/a14830.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
+    [ "_hardEnrage", "db/d05/a14830.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
 ];

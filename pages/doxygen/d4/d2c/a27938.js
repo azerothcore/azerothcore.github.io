@@ -1,5 +1,7 @@
 var a27938 =
 [
-    [ "Itemlvl", "d4/d2c/a27938.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
-    [ "multiplier", "d4/d2c/a27938.html#a5c6c206a6185a546223de7501ff846f6", null ]
+    [ "ID", "d4/d2c/a27938.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "d4/d2c/a27938.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "d4/d2c/a27938.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "d4/d2c/a27938.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

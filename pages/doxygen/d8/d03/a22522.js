@@ -1,6 +1,7 @@
 var a22522 =
 [
-    [ "instance_mana_tombs_InstanceMapScript", "dd/d67/a22526.html", "dd/d67/a22526" ],
-    [ "instance_mana_tombs", "d8/d03/a22522.html#a78ca8b378e4ab290f1eea2b2b5799630", null ],
-    [ "GetInstanceScript", "d8/d03/a22522.html#a26e4dad0957df886bc446396ab48ceda", null ]
+    [ "OnPeriodic", "d8/d03/a22522.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
+    [ "PrepareAuraScript", "d8/d03/a22522.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
+    [ "Register", "d8/d03/a22522.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
+    [ "Validate", "d8/d03/a22522.html#a006d67e9e82cce68930b90b00d3555a4", null ]
 ];

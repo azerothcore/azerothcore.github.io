@@ -1,6 +1,7 @@
 var a24358 =
 [
-    [ "npc_pet_pri_shadowfiend", "d2/d60/a24358.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "d2/d60/a24358.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "d2/d60/a24358.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "HandleDummy", "d2/d60/a24358.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "d2/d60/a24358.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "d2/d60/a24358.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "d2/d60/a24358.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

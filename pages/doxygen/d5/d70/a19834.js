@@ -1,8 +1,6 @@
 var a19834 =
 [
-    [ "HandleOnEffectApply", "d5/d70/a19834.html#a83ff54727e886161c5568a60833932d1", null ],
-    [ "HandleOnEffectRemove", "d5/d70/a19834.html#a9e48d1c9dc26f882ee685a2cbf59667e", null ],
-    [ "PrepareAuraScript", "d5/d70/a19834.html#a5ec8ffeceae335423dff10f54e096e8a", null ],
-    [ "Register", "d5/d70/a19834.html#ae07af138c6f9c565799574b4f8343492", null ],
-    [ "Validate", "d5/d70/a19834.html#a3a24a25c9b9b118d20ca2b14fbfc5869", null ]
+    [ "npc_ulduar_saronite_vaporsAI", "d0/d76/a19838.html", "d0/d76/a19838" ],
+    [ "npc_ulduar_saronite_vapors", "d5/d70/a19834.html#a567c3aca8c381167ca278c2c3562e6f6", null ],
+    [ "GetAI", "d5/d70/a19834.html#a3c2e7b6263f8935da9291c736b14d139", null ]
 ];

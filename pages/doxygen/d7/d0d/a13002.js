@@ -1,5 +1,6 @@
 var a13002 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "d7/d0d/a13002.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "d7/d0d/a13002.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "boss_kalecgosAI", "d2/de5/a13006.html", "d2/de5/a13006" ],
+    [ "boss_kalecgos", "d7/d0d/a13002.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
+    [ "GetAI", "d7/d0d/a13002.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
 ];

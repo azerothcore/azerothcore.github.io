@@ -1,6 +1,6 @@
 var a17522 =
 [
-    [ "boss_lady_deathwhisperAI", "db/d4b/a17526.html", "db/d4b/a17526" ],
-    [ "boss_lady_deathwhisper", "d2/deb/a17522.html#a979411cb834611b1239f3bf9058d316d", null ],
-    [ "GetAI", "d2/deb/a17522.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
+    [ "UnboundPlagueTargetSelector", "d2/deb/a17522.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
+    [ "operator()", "d2/deb/a17522.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
+    [ "_source", "d2/deb/a17522.html#a87eb77615e443ccec373d571708a156a", null ]
 ];

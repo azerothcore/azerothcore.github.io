@@ -1,8 +1,6 @@
 var a17330 =
 [
-    [ "ResetEncounterEvent", "d9/da1/a17330.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "d9/da1/a17330.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "d9/da1/a17330.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "d9/da1/a17330.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "d9/da1/a17330.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "PrepareSpellScript", "d9/da1/a17330.html#a47df21229183b628c1d82bf34cbbe396", null ],
+    [ "Register", "d9/da1/a17330.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
+    [ "RelocateTransportOffset", "d9/da1/a17330.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
 ];

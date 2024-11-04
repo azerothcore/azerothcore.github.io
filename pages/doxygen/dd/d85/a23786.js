@@ -1,6 +1,8 @@
 var a23786 =
 [
-    [ "instance_the_eye_InstanceMapScript", "db/dbd/a23790.html", "db/dbd/a23790" ],
-    [ "instance_the_eye", "dd/d85/a23786.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
-    [ "GetInstanceScript", "dd/d85/a23786.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
+    [ "npc_ancestral_wolfAI", "dd/d85/a23786.html#a59ccca7093575f4bcac57a4751d977d4", null ],
+    [ "MoveInLineOfSight", "dd/d85/a23786.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
+    [ "Reset", "dd/d85/a23786.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
+    [ "WaypointReached", "dd/d85/a23786.html#a2b553c29823e5ef888ee02a3ed413386", null ],
+    [ "ryga", "dd/d85/a23786.html#ac238214604720e298124b58c35d58e05", null ]
 ];

@@ -1,6 +1,6 @@
 var a14390 =
 [
-    [ "FilterTargets", "dc/d97/a14390.html#ab4e32c78307df1d0ea7e0a71ace11734", null ],
-    [ "PrepareSpellScript", "dc/d97/a14390.html#a54fb8b4b7abd1c92d7d98f3b911a7cec", null ],
-    [ "Register", "dc/d97/a14390.html#a164b8b946dc801db878603488c978adb", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "dd/dc4/a14394.html", "dd/dc4/a14394" ],
+    [ "instance_hyjal", "dc/d97/a14390.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
+    [ "GetInstanceScript", "dc/d97/a14390.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
 ];

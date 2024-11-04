@@ -1,15 +1,8 @@
 var a22786 =
 [
-    [ "boss_reliquary_of_soulsAI", "de/de1/a22786.html#abee29aab1d28a168be3b381d0765a804", null ],
-    [ "AttackStart", "de/de1/a22786.html#af59a9972dfdb264248e78206ea0d834c", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "de/de1/a22786.html#a67343cecd292c2dc40f8c5a275d95fdf", null ],
-    [ "DoAction", "de/de1/a22786.html#aa281dd9c7dc0c6f15c2bfcbf60384006", null ],
-    [ "JustDied", "de/de1/a22786.html#a6e19cb7d94579a70ac11f7173cf930c6", null ],
-    [ "JustEngagedWith", "de/de1/a22786.html#a88eef17a5f475b38a37b0e1adcc0cbbc", null ],
-    [ "JustSummoned", "de/de1/a22786.html#ad3c7679c2341951bbeb49aafad7196cd", null ],
-    [ "MoveInLineOfSight", "de/de1/a22786.html#a315a0ad69f566ff63b06fd0d47ce32d8", null ],
-    [ "PhaseTransitionSpawns", "de/de1/a22786.html#a96235ed84a30458eb5f76d87ed47dc89", null ],
-    [ "Reset", "de/de1/a22786.html#a5dc6ec0521e2ddfb63a6818ad2de0d8b", null ],
-    [ "SummonedCreatureDies", "de/de1/a22786.html#a51ac7df8689bf899eaaf4cde566d8202", null ],
-    [ "UpdateAI", "de/de1/a22786.html#a4289e678a69e35db5e4ea75fddd7e8e4", null ]
+    [ "instance_black_temple_InstanceMapScript", "de/de1/a22786.html#aa59f4d11ca1418bb3df3a7d5b11795b9", null ],
+    [ "OnCreatureCreate", "de/de1/a22786.html#a814ac33238558b4e2a2ff57e6039d4fc", null ],
+    [ "OnGameObjectCreate", "de/de1/a22786.html#a564a49814ceb3b3161a6476335ab653a", null ],
+    [ "SetBossState", "de/de1/a22786.html#aadcbe48888eba0d0ed50eb9811ce40b0", null ],
+    [ "ashtongueGUIDs", "de/de1/a22786.html#a85fa9c5231f13529a0741b0f92266c90", null ]
 ];

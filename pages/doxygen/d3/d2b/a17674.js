@@ -1,6 +1,7 @@
 var a17674 =
 [
-    [ "FilterTargets", "d3/d2b/a17674.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "d3/d2b/a17674.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "d3/d2b/a17674.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "HandleScript", "d3/d2b/a17674.html#a37b261d0df2829788d8290a9194913f5", null ],
+    [ "PrepareSpellScript", "d3/d2b/a17674.html#a69386dbef57322393a38eec90662135f", null ],
+    [ "Register", "d3/d2b/a17674.html#a5b85b01100d7f7c672c437e4bdfd7a7c", null ],
+    [ "Validate", "d3/d2b/a17674.html#a63c446574c700a895d7fbc5bb2b81508", null ]
 ];

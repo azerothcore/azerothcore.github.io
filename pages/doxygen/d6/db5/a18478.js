@@ -1,8 +1,6 @@
 var a18478 =
 [
-    [ "npc_arthas_teleport_visualAI", "d6/db5/a18478.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
-    [ "Reset", "d6/db5/a18478.html#a27155b8880a2a86b733bcd074e977b59", null ],
-    [ "UpdateAI", "d6/db5/a18478.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
-    [ "_events", "d6/db5/a18478.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
-    [ "_instance", "d6/db5/a18478.html#a25bc023e061a0845421a652b571a6e1e", null ]
+    [ "npc_icc_skybreaker_vicarAI", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
+    [ "npc_icc_skybreaker_vicar", "d6/db5/a18478.html#a40451cc6fba0cae59e47fa38e4fb79d3", null ],
+    [ "GetAI", "d6/db5/a18478.html#a6884bb7e54b78abee0cc995c4fbb501d", null ]
 ];

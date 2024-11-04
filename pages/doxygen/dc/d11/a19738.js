@@ -1,6 +1,7 @@
 var a19738 =
 [
-    [ "npc_thorims_hammerAI", "d7/d87/a19742.html", "d7/d87/a19742" ],
-    [ "npc_thorims_hammer", "dc/d11/a19738.html#a97cbcda73931e6119f8ab30fa4bb0806", null ],
-    [ "GetAI", "dc/d11/a19738.html#aaee92d115d112ebf590cf690de8c6667", null ]
+    [ "achievement_flame_leviathan_garage", "dc/d11/a19738.html#a1893b4059d7212d023c45bb828bb1905", null ],
+    [ "OnCheck", "dc/d11/a19738.html#aa5897eb1fadeda4dda9f2390053d89b6", null ],
+    [ "_entry1", "dc/d11/a19738.html#af482d6c1b2681b9fec572281620a86b7", null ],
+    [ "_entry2", "dc/d11/a19738.html#a41e83b47c411dc6a6aff310ae7059f4e", null ]
 ];

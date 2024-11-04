@@ -1,18 +1,13 @@
 var a16786 =
 [
-    [ "boss_garfrostAI", "df/dd2/a16786.html#af9f0a6bc8b982b025312d6b2c1f91549", null ],
-    [ "DamageTaken", "df/dd2/a16786.html#a7a033f54f2c994c74b7125fb549af513", null ],
-    [ "EnterEvadeMode", "df/dd2/a16786.html#acca25c3bf34760ed1f0e451d8d304ab6", null ],
-    [ "JustDied", "df/dd2/a16786.html#a6439d3163c49973b36ae10c85b9dd11e", null ],
-    [ "JustEngagedWith", "df/dd2/a16786.html#a06e1b8d8e0b1f0fd5fac0b2a4bad4ad6", null ],
-    [ "KilledUnit", "df/dd2/a16786.html#af3751410e925a20c21b282d1b2de3bf3", null ],
-    [ "MovementInform", "df/dd2/a16786.html#aadebdb2dd4402be150711f98dfab3f5f", null ],
-    [ "Reset", "df/dd2/a16786.html#a916fd78cf3fd309ab8b13c96325002f2", null ],
-    [ "SetData", "df/dd2/a16786.html#a3563e70e731836857837b1d4ac135130", null ],
-    [ "SpellHitTarget", "df/dd2/a16786.html#ab7a4941d3d4565215ab3ac200ee1d534", null ],
-    [ "UpdateAI", "df/dd2/a16786.html#a27cf76c48504dfb21f1a4a0caf9dd4cb", null ],
-    [ "bCanSayBoulderHit", "df/dd2/a16786.html#a587196314c341334418ea19c7f9ea597", null ],
-    [ "events", "df/dd2/a16786.html#addafeb61c54f95e71d9c45de3bddd25b", null ],
-    [ "phase", "df/dd2/a16786.html#a917a6a57e8c55b9be92f01e2e7422508", null ],
-    [ "pInstance", "df/dd2/a16786.html#a57ded0b0c7085ea978c01efa28e7d096", null ]
+    [ "npc_pos_martin_or_gorkun_secondAI", "df/dd2/a16786.html#a2b8f5479565297c95ecdc4882e7d27ae", null ],
+    [ "DoAction", "df/dd2/a16786.html#aa1df5c0f5612a9fc9a4e78fb901dc8e7", null ],
+    [ "JustSummoned", "df/dd2/a16786.html#acdfc5d370da977ab69752016368cc9b0", null ],
+    [ "MovementInform", "df/dd2/a16786.html#a95c033e4e2ca224be09ce993f4e7996d", null ],
+    [ "SummonedCreatureDespawn", "df/dd2/a16786.html#af31de5c7f901baf4d8c62964fee8ead8", null ],
+    [ "UpdateAI", "df/dd2/a16786.html#ad22fbcd52404c1e9c1fc71f3bc6b7525", null ],
+    [ "events", "df/dd2/a16786.html#a44045ae5151625a4d7aacb69e9c934e5", null ],
+    [ "i", "df/dd2/a16786.html#aa185914ee8a2352e4d233f1fc4800390", null ],
+    [ "pInstance", "df/dd2/a16786.html#ac38febd0bce9338346d0c1aa6ba50de3", null ],
+    [ "summons", "df/dd2/a16786.html#ad0f2097f168ea5983e3eece24cb82bfa", null ]
 ];

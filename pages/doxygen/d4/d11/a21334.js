@@ -1,9 +1,9 @@
 var a21334 =
 [
-    [ "npc_azure_stalkerAI", "d4/d11/a21334.html#a1499e734f0d95d491bcd23c2e858a1ee", null ],
-    [ "Reset", "d4/d11/a21334.html#a9bd36e95ce7c3157a2ac53400da51d23", null ],
-    [ "UpdateAI", "d4/d11/a21334.html#a8c4ea046d69b269e886960ba9562fd0c", null ],
-    [ "TacticalBlinkCasted", "d4/d11/a21334.html#a875a272380251fcc7f98e5c0f84bb41a", null ],
-    [ "uiBackstabTimer", "d4/d11/a21334.html#ad03ba957706a62e3d8091d025ddd50dc", null ],
-    [ "uiTacticalBlinkTimer", "d4/d11/a21334.html#ab817fb9f2f06715f0a08a99e12693697", null ]
+    [ "npc_warmage_coldarraAI", "d4/d11/a21334.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
+    [ "AttackStart", "d4/d11/a21334.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
+    [ "JustEngagedWith", "d4/d11/a21334.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
+    [ "Reset", "d4/d11/a21334.html#adf5094ba2bee34ec793124e798d5af8f", null ],
+    [ "UpdateAI", "d4/d11/a21334.html#a14b221265cc38b4061c52b687274a398", null ],
+    [ "m_uiTimer", "d4/d11/a21334.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
 ];

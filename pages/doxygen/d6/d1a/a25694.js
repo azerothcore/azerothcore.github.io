@@ -1,8 +1,9 @@
 var a25694 =
 [
-    [ "HandleDummy", "d6/d1a/a25694.html#ae5487bc9e4c7444468d076785af473ca", null ],
-    [ "Load", "d6/d1a/a25694.html#a3bf16100687a002a0d3b95bea11dc90f", null ],
-    [ "PrepareSpellScript", "d6/d1a/a25694.html#a8586b480a304f19741de62b606c9f456", null ],
-    [ "Register", "d6/d1a/a25694.html#a4698eab378b8cf6d4aeb595b53a9df13", null ],
-    [ "Validate", "d6/d1a/a25694.html#ab3e697ba71654bf9b67e1d1660b3a7ea", null ]
+    [ "HandleAfterCast", "d6/d1a/a25694.html#afd2fbc51ac1e99789994021af36688f3", null ],
+    [ "HandleTriggerSpell", "d6/d1a/a25694.html#ae140ab00101f081454b55e12a7c54440", null ],
+    [ "Load", "d6/d1a/a25694.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
+    [ "PrepareSpellScript", "d6/d1a/a25694.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
+    [ "Register", "d6/d1a/a25694.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
+    [ "_triggerSpellId", "d6/d1a/a25694.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
 ];

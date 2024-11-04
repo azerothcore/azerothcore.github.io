@@ -1,6 +1,8 @@
 var a18206 =
 [
-    [ "ActivateSpirit", "d9/d7b/a18206.html#ae5c9f8e693a98c828e0e922870552952", null ],
-    [ "PrepareSpellScript", "d9/d7b/a18206.html#aa55f0fe4e27520b8a7ae1bb0f810838d", null ],
-    [ "Register", "d9/d7b/a18206.html#a2b1d27e93a879681098a83d17c4d686a", null ]
+    [ "npc_suppresserAI", "d9/d7b/a18206.html#a5787ec6eadae1fc23b84129933ea14e8", null ],
+    [ "AttackStart", "d9/d7b/a18206.html#ae36105de1df1dd9841332d9a8e7799be", null ],
+    [ "IsSummonedBy", "d9/d7b/a18206.html#a35ec340b2d02a14707fc353428b1298d", null ],
+    [ "UpdateAI", "d9/d7b/a18206.html#a1443e8311b6e2d61d6f9abd2e5f40793", null ],
+    [ "_instance", "d9/d7b/a18206.html#a3e171216b2d53e00f8e504f47759d9a6", null ]
 ];

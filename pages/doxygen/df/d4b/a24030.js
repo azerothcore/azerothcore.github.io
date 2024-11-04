@@ -1,7 +1,6 @@
 var a24030 =
 [
-    [ "CheckRequirement", "df/d4b/a24030.html#a4ad521364c6156c0ecef818a23ce7aff", null ],
-    [ "PrepareSpellScript", "df/d4b/a24030.html#a0d995c6ae6d1da0014c053a62b37a7b7", null ],
-    [ "Register", "df/d4b/a24030.html#a25f275e84570f674071bfae03aeb0ddc", null ],
-    [ "Validate", "df/d4b/a24030.html#adc648151e2c61a61a0dc5883d9fa4ae0", null ]
+    [ "npc_kservantAI", "d1/d37/a24034.html", "d1/d37/a24034" ],
+    [ "npc_kservant", "df/d4b/a24030.html#af04c8a87516e41f7d35071664034af9d", null ],
+    [ "GetAI", "df/d4b/a24030.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
 ];

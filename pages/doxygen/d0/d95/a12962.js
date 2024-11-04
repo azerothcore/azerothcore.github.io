@@ -1,7 +1,6 @@
 var a12962 =
 [
-    [ "HandleScriptEffect", "d0/d95/a12962.html#a703ac8467126f5c2aee393fcf2400ffc", null ],
-    [ "PrepareSpellScript", "d0/d95/a12962.html#a17c49de5f6a37ff83126398d96b43a51", null ],
-    [ "Register", "d0/d95/a12962.html#ae205d84cdbe3fbfa519e7d1c8f2ffe16", null ],
-    [ "Validate", "d0/d95/a12962.html#a17d53f598be9fe9e9790bb96dfcb4891", null ]
+    [ "boss_felmystAI", "d7/d03/a12966.html", "d7/d03/a12966" ],
+    [ "boss_felmyst", "d0/d95/a12962.html#a58de3d9bf83190b18c5e91eae5110edf", null ],
+    [ "GetAI", "d0/d95/a12962.html#a8100e65c5060808ce8dae8ad5424e058", null ]
 ];

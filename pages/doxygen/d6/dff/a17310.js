@@ -1,9 +1,10 @@
 var a17310 =
 [
-    [ "npc_stinky_iccAI", "d6/dff/a17310.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
-    [ "JustDied", "d6/dff/a17310.html#a7fa392980e2d30c935b79377df8dc694", null ],
-    [ "JustEngagedWith", "d6/dff/a17310.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
-    [ "Reset", "d6/dff/a17310.html#ac66e3398598576fdc889a7b56646eecf", null ],
-    [ "UpdateAI", "d6/dff/a17310.html#af6e04824ea1682c529e8579a306d34ca", null ],
-    [ "events", "d6/dff/a17310.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
+    [ "npc_gunship_gunnerAI", "d6/dff/a17310.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
+    [ "AttackStart", "d6/dff/a17310.html#ac21b90c1892c15882794384517ef9fd2", null ],
+    [ "CanAIAttack", "d6/dff/a17310.html#aef351305ef34fa316809697125a3bc9a", null ],
+    [ "MovementInform", "d6/dff/a17310.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
+    [ "UpdateAI", "d6/dff/a17310.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
+    [ "anyValid", "d6/dff/a17310.html#a00c7dc23618c60826241133a0067c1c4", null ],
+    [ "checkTimer", "d6/dff/a17310.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
 ];

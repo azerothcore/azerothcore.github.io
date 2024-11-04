@@ -1,8 +1,18 @@
 var a20778 =
 [
-    [ "Absorb", "d3/d45/a20778.html#a36a7237d7bcd50626e7a07a32c91cfb4", null ],
-    [ "CalculateAmount", "d3/d45/a20778.html#afe50bf22d07e68757caffb056ad55811", null ],
-    [ "PrepareAuraScript", "d3/d45/a20778.html#afa4ef1f7faa36a521c208dde10d09437", null ],
-    [ "Register", "d3/d45/a20778.html#aae020936d42da81c445f7d296660987b", null ],
-    [ "Validate", "d3/d45/a20778.html#a5852135c5214ee3938603632b0f21917", null ]
+    [ "boss_ingvar_the_plundererAI", "d3/d45/a20778.html#aa94ca0c2ca407119cb9bfc43d1af2aca", null ],
+    [ "DamageTaken", "d3/d45/a20778.html#a9443e9d2c03aa77e91389290f96afc19", null ],
+    [ "EnterEvadeMode", "d3/d45/a20778.html#a89e02e6527057c629104757ae1e6f404", null ],
+    [ "FeignDeath", "d3/d45/a20778.html#a44afdb271d0fe6003e7d025600ea9371", null ],
+    [ "JustDied", "d3/d45/a20778.html#af650ad54d4db87a31b413bc2fbc98d76", null ],
+    [ "JustEngagedWith", "d3/d45/a20778.html#a82d34c99d3417526f52a4819e918db2d", null ],
+    [ "JustSummoned", "d3/d45/a20778.html#aa51b4d5b05f59856de9f3b7408622d4f", null ],
+    [ "KilledUnit", "d3/d45/a20778.html#a4fb798fb5c74a2d9570b49fc394cf9d1", null ],
+    [ "Reset", "d3/d45/a20778.html#a6b8acc9a9e92586a65e543d3c1d741d6", null ],
+    [ "UpdateAI", "d3/d45/a20778.html#aee8c3f2c538921036798f48cc2edd18f", null ],
+    [ "events", "d3/d45/a20778.html#a45a81e8be3f83443886bfa8c0284a642", null ],
+    [ "pInstance", "d3/d45/a20778.html#a0b15089de9963714e2b9265fc5be008a", null ],
+    [ "summons", "d3/d45/a20778.html#adbd6cc4efd584a15987631fa8ca4b29b", null ],
+    [ "ThrowGUID", "d3/d45/a20778.html#af5ca7cc17c9da8d496052edbfe4f30f7", null ],
+    [ "ValkyrGUID", "d3/d45/a20778.html#a24b5ff7351f7ffcd201948202c371904", null ]
 ];

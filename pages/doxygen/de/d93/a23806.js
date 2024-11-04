@@ -1,8 +1,11 @@
 var a23806 =
 [
-    [ "boss_mechano_lord_capacitus", "de/d93/a23806.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
-    [ "JustDied", "de/d93/a23806.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
-    [ "JustEngagedWith", "de/d93/a23806.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
-    [ "JustSummoned", "de/d93/a23806.html#a9a0b2cac08002db63162f95b9476c251", null ],
-    [ "KilledUnit", "de/d93/a23806.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
+    [ "npc_magister_aledis", "de/d93/a23806.html#a0e30c5d4f9fe023537a1b29258967630", null ],
+    [ "DamageTaken", "de/d93/a23806.html#a3c3b72de2dc3e2a1e2bdeab908f0691f", null ],
+    [ "Reset", "de/d93/a23806.html#ae0a701eeaacc5188b382c59ecef14518", null ],
+    [ "sGossipSelect", "de/d93/a23806.html#a9960de0b5be8b75e8b7bcc8f12c4f187", null ],
+    [ "StartFight", "de/d93/a23806.html#a9149ce0a1df781043a5590fe4612511a", null ],
+    [ "UpdateAI", "de/d93/a23806.html#aef885088193e2597e6990e3051a31ef7", null ],
+    [ "_events", "de/d93/a23806.html#a5b4cd0ab4d214547dca28b8b384f83df", null ],
+    [ "_playerGUID", "de/d93/a23806.html#a0954d3d1c9ad4eaff387bc2cf4f52aeb", null ]
 ];

@@ -1,6 +1,6 @@
 var a16330 =
 [
-    [ "npc_snobold_vassalAI", "d2/d0c/a16334.html", "d2/d0c/a16334" ],
-    [ "npc_snobold_vassal", "d9/d2d/a16330.html#a243cefbc15931ebbb555936d54583314", null ],
-    [ "GetAI", "d9/d2d/a16330.html#a77976a59f600591454fac197ded613ef", null ]
+    [ "instance_trial_of_the_crusader_InstanceMapScript", "d2/d0c/a16334.html", "d2/d0c/a16334" ],
+    [ "instance_trial_of_the_crusader", "d9/d2d/a16330.html#a764d871d02e4ff53b7cc3a8637dcddf9", null ],
+    [ "GetInstanceScript", "d9/d2d/a16330.html#a792034e9e5687bf5fa543175692bed66", null ]
 ];

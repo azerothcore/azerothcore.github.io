@@ -1,6 +1,6 @@
 var a25630 =
 [
-    [ "HandleProc", "d2/db2/a25630.html#aa333d52d905e722554d8d61c4b9cb656", null ],
-    [ "PrepareAuraScript", "d2/db2/a25630.html#aac4320b061d627e4ffef737d2e858ef3", null ],
-    [ "Register", "d2/db2/a25630.html#ad58fea9afa6a3596437a324ec525982e", null ]
+    [ "PrepareSpellScript", "d2/db2/a25630.html#a738e105a48f6c603f3d9a690f44b8745", null ],
+    [ "Register", "d2/db2/a25630.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
+    [ "SetDest", "d2/db2/a25630.html#a59641895cead08de4a4503262505ee73", null ]
 ];

@@ -1,5 +1,8 @@
 var a27950 =
 [
-    [ "Id", "df/d04/a27950.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
-    [ "textid", "df/d04/a27950.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
+    [ "areaTriggerText", "df/d04/a27950.html#a32bb8c4a4defce661d108627e25b645a", null ],
+    [ "Difficulty", "df/d04/a27950.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
+    [ "MapId", "df/d04/a27950.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
+    [ "maxPlayers", "df/d04/a27950.html#a7ab33229ffee11a27861439053c79831", null ],
+    [ "resetTime", "df/d04/a27950.html#a891a741efb049b51996e1a6110efc52d", null ]
 ];

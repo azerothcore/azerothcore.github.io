@@ -1,6 +1,12 @@
 var a17982 =
 [
-    [ "LichKingDeathEvent", "d9/db7/a17982.html#a9aa328b60358034355b1eed5caacb9f8", null ],
-    [ "Execute", "d9/db7/a17982.html#a06b9a77d3c5efb228368a1e423a620ae", null ],
-    [ "_owner", "d9/db7/a17982.html#a75ccb1b2bd5a8149aff85404b5e0ce21", null ]
+    [ "npc_raging_spiritAI", "d9/db7/a17982.html#a1c85351ae62d5f45381214373e64aec4", null ],
+    [ "AttackStart", "d9/db7/a17982.html#a16ab37be9e31dcfc159b5c78b196b847", null ],
+    [ "CanAIAttack", "d9/db7/a17982.html#a64fa46f05861d8736d881aa3687f4320", null ],
+    [ "IsSummonedBy", "d9/db7/a17982.html#a836d605f4320ba9fd49cb60d6a1e032d", null ],
+    [ "JustDied", "d9/db7/a17982.html#a821377a2c29b4180db00f2c4f4268fe7", null ],
+    [ "Reset", "d9/db7/a17982.html#a9dae9cb2c6f18d89d06cfa72b98d36f2", null ],
+    [ "UpdateAI", "d9/db7/a17982.html#a64beac4aafa9e9bb2089a7c1e35fe8a5", null ],
+    [ "_events", "d9/db7/a17982.html#af5783316983b622f20d8c677f2858111", null ],
+    [ "_instance", "d9/db7/a17982.html#aaa9b5728fcdb379849434385b3501251", null ]
 ];

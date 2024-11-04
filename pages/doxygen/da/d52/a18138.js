@@ -1,7 +1,7 @@
 var a18138 =
 [
-    [ "CheckTargetCount", "da/d52/a18138.html#a44f558248f944464c773105728cffbca", null ],
-    [ "PrepareSpellScript", "da/d52/a18138.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
-    [ "Register", "da/d52/a18138.html#aeda833ca8483d337311086b9d0a14081", null ],
-    [ "Validate", "da/d52/a18138.html#aee84751e352dbfc12472fc15924c48fa", null ]
+    [ "AuraRemoveEvent", "da/d52/a18138.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "da/d52/a18138.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "da/d52/a18138.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "da/d52/a18138.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

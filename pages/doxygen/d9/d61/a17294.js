@@ -1,7 +1,6 @@
 var a17294 =
 [
-    [ "ExtraEffect", "d9/d61/a17294.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
-    [ "PrepareAuraScript", "d9/d61/a17294.html#a53d6013e5ec473854e1537969cb31988", null ],
-    [ "Register", "d9/d61/a17294.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
-    [ "Validate", "d9/d61/a17294.html#ab14e7410cf542d9f4043800a3b86c664", null ]
+    [ "npc_gunship_boarding_add_realAI", "d9/d61/a17294.html#a829c3690ab0d5ad3f0a888cb6701692a", null ],
+    [ "UpdateAI", "d9/d61/a17294.html#a33ac355c8f61907574a0736a24cbee82", null ],
+    [ "_events", "d9/d61/a17294.html#acaea46d9523fa9fe59415b0b0834a2ba", null ]
 ];

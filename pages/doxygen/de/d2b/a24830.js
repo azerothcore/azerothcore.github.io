@@ -1,6 +1,8 @@
 var a24830 =
 [
-    [ "OnPeriodic", "de/d2b/a24830.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
-    [ "PrepareAuraScript", "de/d2b/a24830.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
-    [ "Register", "de/d2b/a24830.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
+    [ "CheckRequirement", "de/d2b/a24830.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "de/d2b/a24830.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "de/d2b/a24830.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "de/d2b/a24830.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "de/d2b/a24830.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

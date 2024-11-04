@@ -1,6 +1,5 @@
 var a17798 =
 [
-    [ "npc_precious_iccAI", "d5/d9c/a17802.html", "d5/d9c/a17802" ],
-    [ "npc_precious_icc", "d4/db2/a17798.html#a463eb0df1edb17e154658dac131f0898", null ],
-    [ "GetAI", "d4/db2/a17798.html#aa63840c5968a089bff41dcd9c86d5849", null ]
+    [ "achievement_all_you_can_eat", "d4/db2/a17798.html#a0995024862a445ea1f0ff5c82475fc64", null ],
+    [ "OnCheck", "d4/db2/a17798.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
 ];

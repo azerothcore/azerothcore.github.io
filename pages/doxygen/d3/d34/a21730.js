@@ -1,8 +1,6 @@
 var a21730 =
 [
-    [ "npc_q24545_vegardAI", "d3/d34/a21730.html#a6a86b56508a86bf32ab5fb2bd46248c9", null ],
-    [ "JustDied", "d3/d34/a21730.html#a1f7784242bbaf39d0fb105d2930da37c", null ],
-    [ "KilledUnit", "d3/d34/a21730.html#a2d78117a6c2a29f52f1905595425964a", null ],
-    [ "UpdateAI", "d3/d34/a21730.html#a79cc34760b58ad4b29c6a0a496971f0a", null ],
-    [ "events", "d3/d34/a21730.html#a68f48d92cc5559025e635d599c2882e3", null ]
+    [ "HandleOnEffectRemove", "d3/d34/a21730.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
+    [ "PrepareAuraScript", "d3/d34/a21730.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
+    [ "Register", "d3/d34/a21730.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
 ];

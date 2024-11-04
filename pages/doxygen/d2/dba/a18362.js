@@ -1,5 +1,6 @@
 var a18362 =
 [
-    [ "achievement_portal_jockey", "d2/dba/a18362.html#a6c6c4779072386ab7b64bad92762e2ac", null ],
-    [ "OnCheck", "d2/dba/a18362.html#a2695b1fee353be7340f319c632a43efc", null ]
+    [ "npc_impaling_spearAI", "da/d0e/a18366.html", "da/d0e/a18366" ],
+    [ "npc_impaling_spear", "d2/dba/a18362.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
+    [ "GetAI", "d2/dba/a18362.html#aad49164a3e7541b755c1c622b996bb9a", null ]
 ];

@@ -1,5 +1,5 @@
 var a21550 =
 [
-    [ "npc_mei_francis_mountAI", "de/d03/a21550.html#aa9886ead02754faebff8b21eeb85dee6", null ],
-    [ "CanBeSeen", "de/d03/a21550.html#ad5e33495339a0315bc7b01351810157e", null ]
+    [ "at_q24545_frostmourne_cavern", "de/d03/a21550.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
+    [ "OnTrigger", "de/d03/a21550.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
 ];

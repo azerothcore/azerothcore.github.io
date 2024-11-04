@@ -1,11 +1,7 @@
 var a20738 =
 [
-    [ "boss_yoggsaron_neltharionAI", "db/de2/a20738.html#aacefe32de32513bdf46c0dd526768e25", null ],
-    [ "NextStep", "db/de2/a20738.html#a4770948240ac56ec151c262c8996e4e4", null ],
-    [ "Reset", "db/de2/a20738.html#a03841acfd21e920bc6589203448709a0", null ],
-    [ "Say", "db/de2/a20738.html#ae45f051ab64ce1f96f32e5b8d073356e", null ],
-    [ "UpdateAI", "db/de2/a20738.html#a80c174a8ffa15550627ed27ab0d8925d", null ],
-    [ "_checkTimer", "db/de2/a20738.html#a7eef651198e09cf25c2f039bcb4a1876", null ],
-    [ "_running", "db/de2/a20738.html#a6b2f01ed2ffe8113cbddd4a033886059", null ],
-    [ "_step", "db/de2/a20738.html#a0ac37717e940b094d322a7e492202718", null ]
+    [ "HandleEffectPeriodic", "db/de2/a20738.html#a2b9426d0a2ce9251632acebb30d0e2b5", null ],
+    [ "PrepareAuraScript", "db/de2/a20738.html#a7dca0398e78278c78dd80e9e6ca874e1", null ],
+    [ "Register", "db/de2/a20738.html#a74052d7da1523b3c4010465510e5fe04", null ],
+    [ "Validate", "db/de2/a20738.html#a587a469c649877f80e8fe80062e8b5d4", null ]
 ];

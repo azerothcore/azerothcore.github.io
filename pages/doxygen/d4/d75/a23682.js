@@ -1,6 +1,10 @@
 var a23682 =
 [
-    [ "HandlePeriodic", "d4/d75/a23682.html#ad47e8edce33f9b923aa7bbfe8d0c082a", null ],
-    [ "PrepareAuraScript", "d4/d75/a23682.html#a2aa04c3c08ffc15b481b740d88a54918", null ],
-    [ "Register", "d4/d75/a23682.html#acf77c76f02671da215c7103b60ed77ac", null ]
+    [ "boss_nethermancer_sepethrea", "d4/d75/a23682.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
+    [ "CanAIAttack", "d4/d75/a23682.html#a34fbf871d99519306469c010d5fed9c7", null ],
+    [ "EnterEvadeMode", "d4/d75/a23682.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
+    [ "JustDied", "d4/d75/a23682.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
+    [ "JustEngagedWith", "d4/d75/a23682.html#a89851b9f6eb94270fe22151d3a968bec", null ],
+    [ "JustSummoned", "d4/d75/a23682.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
+    [ "KilledUnit", "d4/d75/a23682.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
 ];

@@ -1,6 +1,8 @@
 var a16398 =
 [
-    [ "npc_concentrated_ballAI", "d9/dee/a16402.html", "d9/dee/a16402" ],
-    [ "npc_concentrated_ball", "d1/db3/a16398.html#a1f3a873baf61157e704bcb7e524b1d46", null ],
-    [ "GetAI", "d1/db3/a16398.html#add43f8cb27a699ba732d62fedd9d2f02", null ]
+    [ "HandleEffectApply", "d1/db3/a16398.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
+    [ "HandleEffectRemove", "d1/db3/a16398.html#a04504220319ec562b1b6691f471c1b8d", null ],
+    [ "PrepareAuraScript", "d1/db3/a16398.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
+    [ "Register", "d1/db3/a16398.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
+    [ "Validate", "d1/db3/a16398.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
 ];

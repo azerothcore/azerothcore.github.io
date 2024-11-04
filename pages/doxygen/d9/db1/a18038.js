@@ -1,7 +1,7 @@
 var a18038 =
 [
-    [ "OnPeriodic", "d9/db1/a18038.html#accd12b06341f3168c74cb18926614f7f", null ],
-    [ "OnUpdate", "d9/db1/a18038.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
-    [ "PrepareAuraScript", "d9/db1/a18038.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
-    [ "Register", "d9/db1/a18038.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
+    [ "CheckTargetCount", "d9/db1/a18038.html#a44f558248f944464c773105728cffbca", null ],
+    [ "PrepareSpellScript", "d9/db1/a18038.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
+    [ "Register", "d9/db1/a18038.html#aeda833ca8483d337311086b9d0a14081", null ],
+    [ "Validate", "d9/db1/a18038.html#aee84751e352dbfc12472fc15924c48fa", null ]
 ];

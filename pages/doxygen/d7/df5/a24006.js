@@ -1,7 +1,9 @@
 var a24006 =
 [
-    [ "npc_bessyAI", "d2/d98/a24010.html", "d2/d98/a24010" ],
-    [ "npc_bessy", "d7/df5/a24006.html#a08278c1524445054ca158433044a0824", null ],
-    [ "GetAI", "d7/df5/a24006.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
-    [ "OnQuestAccept", "d7/df5/a24006.html#a98b8e816195b81bab12cc9906df79807", null ]
+    [ "npc_korkron_or_wildhammer", "d7/df5/a24006.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
+    [ "IsSummonedBy", "d7/df5/a24006.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
+    [ "JustDied", "d7/df5/a24006.html#a2b216f372b3681b4c96a711568c2a93b", null ],
+    [ "MovementInform", "d7/df5/a24006.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
+    [ "Reset", "d7/df5/a24006.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
+    [ "_playerGUID", "d7/df5/a24006.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
 ];

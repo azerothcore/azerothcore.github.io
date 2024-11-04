@@ -1,8 +1,9 @@
 var a18602 =
 [
-    [ "Class", "db/dfc/a18602.html#a095390e9023609f5836c4481ed79e1af", null ],
-    [ "cooldown_ms", "db/dfc/a18602.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
-    [ "id", "db/dfc/a18602.html#ae9fdf89271339b93f306c4aa0871f844", null ],
-    [ "range", "db/dfc/a18602.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
-    [ "targetType", "db/dfc/a18602.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
+    [ "npc_isle_of_conquest_turretAI", "db/dfc/a18602.html#a0a0f24af22e4c72e843970c0d5c1ff87", null ],
+    [ "JustDied", "db/dfc/a18602.html#a88390da94298bea9c445bb422a806d23", null ],
+    [ "SpellHit", "db/dfc/a18602.html#afc8b8a9be6b0908fcb83af57bef7a57a", null ],
+    [ "UpdateAI", "db/dfc/a18602.html#a81c039a2a230b261967842161757b6f8", null ],
+    [ "events", "db/dfc/a18602.html#aee0aa5a950b3743409fd3ae482bc94b8", null ],
+    [ "faction", "db/dfc/a18602.html#aca941c070a97278c8ec27d7e6b4edede", null ]
 ];

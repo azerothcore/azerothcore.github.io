@@ -1,6 +1,6 @@
 var a24822 =
 [
-    [ "PrepareAuraScript", "dd/d0f/a24822.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
-    [ "Register", "dd/d0f/a24822.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
-    [ "AuraEffectHandleModes", "dd/d0f/a24822.html#aed1cfe63d82450b526e154678fb97ac4", null ]
+    [ "PrepareSpellScript", "dd/d0f/a24822.html#a47d6dbe250410458fe54421158545efb", null ],
+    [ "Register", "dd/d0f/a24822.html#ae2334b3fcfa916eb4b9ae1ca85a9687e", null ],
+    [ "SetDest", "dd/d0f/a24822.html#aa037240eae1a1dd2c2670fed7dcc4e8c", null ]
 ];

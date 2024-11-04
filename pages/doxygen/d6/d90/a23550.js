@@ -1,13 +1,6 @@
 var a23550 =
 [
-    [ "boss_warbringer_omrogg", "d6/d90/a23550.html#a20f790595640cd41d636ad43c8837cda", null ],
-    [ "HandleHeadTalk", "d6/d90/a23550.html#aaa324c065f6c2bbf75688f5910be09d1", null ],
-    [ "JustDied", "d6/d90/a23550.html#a8a2abaceda580ac2ed4f1c736281828f", null ],
-    [ "JustEngagedWith", "d6/d90/a23550.html#ae1710f22f8a72f661498c4fbc6d108a5", null ],
-    [ "KilledUnit", "d6/d90/a23550.html#add6b54c4744be120b6b5fd53912ce1fd", null ],
-    [ "ScheduleBurningPhase", "d6/d90/a23550.html#afd20a8bd1f6f083e0725d962ec747e26", null ],
-    [ "ScheduleNonBurningPhase", "d6/d90/a23550.html#a176217a0767e8153d07996461ac68f60", null ],
-    [ "SetData", "d6/d90/a23550.html#a4d1154d64c999316f9ae02ab76cbc870", null ],
-    [ "UpdateAI", "d6/d90/a23550.html#a90369760ed0e52f1ffc6d3e7c4e39ec2", null ],
-    [ "_headTalk", "d6/d90/a23550.html#ae657addceb26f4d02d734fa0790a1ae2", null ]
+    [ "OnApply", "d6/d90/a23550.html#a472220f22165c6d21eab5f4b5f75921e", null ],
+    [ "PrepareAuraScript", "d6/d90/a23550.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
+    [ "Register", "d6/d90/a23550.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
 ];

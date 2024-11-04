@@ -1,10 +1,6 @@
 var a27322 =
 [
-    [ "go_evil_book_for_dummies", "df/d96/a27322.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "df/d96/a27322.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "df/d96/a27322.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "df/d96/a27322.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "df/d96/a27322.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "df/d96/a27322.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "df/d96/a27322.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "npc_guardianAI", "d7/dc8/a27326.html", "d7/dc8/a27326" ],
+    [ "npc_guardian", "df/d96/a27322.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "df/d96/a27322.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

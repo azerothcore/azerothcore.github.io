@@ -1,7 +1,7 @@
 var a15906 =
 [
-    [ "OnApply", "d5/d50/a15906.html#ad072d243dd148e1b34aea29a2e5d175e", null ],
-    [ "PrepareAuraScript", "d5/d50/a15906.html#ae657ceca517aa3f725ba72c18ddbaf1c", null ],
-    [ "Register", "d5/d50/a15906.html#a4eab0bd70eb884f7736e90f9001d3cc7", null ],
-    [ "Validate", "d5/d50/a15906.html#a2c9e4d82bd25f439e01a05700563b122", null ]
+    [ "CountAllies", "d5/d50/a15906.html#a207c1fd89fd726054a881e342391d2a0", null ],
+    [ "PrepareSpellScript", "d5/d50/a15906.html#ae1e230ad204a280a261ebe0f21c7f8a5", null ],
+    [ "Register", "d5/d50/a15906.html#a47574795b2a262625c65ab23a4179684", null ],
+    [ "Validate", "d5/d50/a15906.html#a0178e7c4f5509a4bb2c6ed3811fc9685", null ]
 ];

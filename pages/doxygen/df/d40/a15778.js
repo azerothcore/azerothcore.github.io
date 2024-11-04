@@ -1,8 +1,6 @@
 var a15778 =
 [
-    [ "RestoreFight", "df/d40/a15778.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
-    [ "RestoreFight", "df/d40/a15778.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
-    [ "Execute", "df/d40/a15778.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
-    [ "Execute", "df/d40/a15778.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
-    [ "_owner", "df/d40/a15778.html#ae35c9b4547fcd7e8ea0f4b6ee4c637a0", null ]
+    [ "boss_twilight_halionAI", "d7/d2f/a15782.html", "d7/d2f/a15782" ],
+    [ "boss_twilight_halion", "df/d40/a15778.html#a23ea0a61acb2cf3fd83aece3ac7d218e", null ],
+    [ "GetAI", "df/d40/a15778.html#a56842d74b16cbd5636649cbc643c50d8", null ]
 ];

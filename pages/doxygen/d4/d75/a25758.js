@@ -1,7 +1,7 @@
 var a25758 =
 [
-    [ "HandleScript", "d4/d75/a25758.html#aad0be226a2d294d3361c1afbf644c5e4", null ],
-    [ "PrepareSpellScript", "d4/d75/a25758.html#a85dee311aab08d796a3a0c1bc9e9390d", null ],
-    [ "Register", "d4/d75/a25758.html#a2b22be9826db241ecf3f99ff16c309c0", null ],
-    [ "Validate", "d4/d75/a25758.html#a98df659504307fc0666fe2b1001eaa00", null ]
+    [ "CalculateSpellAmount", "d4/d75/a25758.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
+    [ "CheckCast", "d4/d75/a25758.html#af043f7ee0f80baf667e64225effd57d1", null ],
+    [ "PrepareSpellScript", "d4/d75/a25758.html#a233ac4020722078d865cf980d7fa76cf", null ],
+    [ "Register", "d4/d75/a25758.html#a3648ecd94430e21dd014795156c1eb98", null ]
 ];

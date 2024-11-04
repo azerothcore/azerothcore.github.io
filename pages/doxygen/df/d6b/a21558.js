@@ -1,13 +1,6 @@
 var a21558 =
 [
-    [ "npc_shandy_dalaranAI", "df/d6b/a21558.html#ae93b853e4852ce71c4d588d4621b16a1", null ],
-    [ "Reset", "df/d6b/a21558.html#a38f0630d4e18cea01de343afdcb96db3", null ],
-    [ "RollTask", "df/d6b/a21558.html#acd1daa5bc99f281bd1ca78d4cdaf5a9e", null ],
-    [ "SetData", "df/d6b/a21558.html#a5c8a0e6e0729d872c230aa72d41236a3", null ],
-    [ "UpdateAI", "df/d6b/a21558.html#ac7c8e87b784d8738b8aacbcb58f471b1", null ],
-    [ "_aquanosGUID", "df/d6b/a21558.html#aa1dfb61fbaae6ab2e25dd9779ec63ed1", null ],
-    [ "_canWash", "df/d6b/a21558.html#af5b1aae6b2dd82c8199caedec3a8fdec", null ],
-    [ "_events", "df/d6b/a21558.html#a3fbae63669c8382097b0bcb936301945", null ],
-    [ "_lCount", "df/d6b/a21558.html#ad55bea5f33de226ff230f99059dc9ec3", null ],
-    [ "_lSource", "df/d6b/a21558.html#a9e01cee4a79bfac56b1d1ecdac17ca3f", null ]
+    [ "SACDeactivateEvent", "df/d6b/a21558.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
+    [ "Execute", "df/d6b/a21558.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
+    [ "_owner", "df/d6b/a21558.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
 ];

@@ -1,14 +1,14 @@
 var a02231 =
 [
-    [ "boss_hakkar", "d8/d17/a13730.html", "d8/d17/a13730" ],
-    [ "boss_hakkar::boss_hakkarAI", "dd/de1/a13734.html", "dd/de1/a13734" ],
-    [ "at_zulgurub_entrance_speech", "d5/d1e/a13738.html", "d5/d1e/a13738" ],
-    [ "at_zulgurub_bridge_speech", "df/dca/a13742.html", "df/dca/a13742" ],
-    [ "at_zulgurub_temple_speech", "d9/dc7/a13746.html", "d9/dc7/a13746" ],
-    [ "at_zulgurub_bloodfire_pit_speech", "da/d61/a13750.html", "da/d61/a13750" ],
-    [ "at_zulgurub_edge_of_madness_speech", "df/de9/a13754.html", "df/de9/a13754" ],
-    [ "spell_blood_siphon", "dc/d42/a13758.html", "dc/d42/a13758" ],
-    [ "spell_hakkar_power_down", "de/d26/a13762.html", "de/d26/a13762" ],
+    [ "boss_hakkar", "da/df7/a13670.html", "da/df7/a13670" ],
+    [ "boss_hakkar::boss_hakkarAI", "d4/dfd/a13674.html", "d4/dfd/a13674" ],
+    [ "at_zulgurub_entrance_speech", "da/d4d/a13678.html", "da/d4d/a13678" ],
+    [ "at_zulgurub_bridge_speech", "d1/d01/a13682.html", "d1/d01/a13682" ],
+    [ "at_zulgurub_temple_speech", "dc/d7b/a13686.html", "dc/d7b/a13686" ],
+    [ "at_zulgurub_bloodfire_pit_speech", "dc/d03/a13690.html", "dc/d03/a13690" ],
+    [ "at_zulgurub_edge_of_madness_speech", "d8/db0/a13694.html", "d8/db0/a13694" ],
+    [ "spell_blood_siphon", "d3/d5b/a13698.html", "d3/d5b/a13698" ],
+    [ "spell_hakkar_power_down", "d7/d64/a13702.html", "d7/d64/a13702" ],
     [ "Events", "d7/da1/a02231.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

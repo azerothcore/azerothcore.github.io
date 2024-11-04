@@ -1,10 +1,7 @@
 var a25550 =
 [
-    [ "spell_item_defibrillate", "d6/d6c/a25550.html#ab64fdd36fc646ca0bcb2010380199ede", null ],
-    [ "HandleScript", "d6/d6c/a25550.html#a7abbc5b8e5c5231d5c6809c45b815b69", null ],
-    [ "PrepareSpellScript", "d6/d6c/a25550.html#a6a7ad6c9bb9bee3b093bd06b1b259468", null ],
-    [ "Register", "d6/d6c/a25550.html#ad2faa26a2874f68e8e419e59cafbf10b", null ],
-    [ "Validate", "d6/d6c/a25550.html#ad871a6bef7ba074f32abe1bf062dffe1", null ],
-    [ "_chance", "d6/d6c/a25550.html#a680092f30ebc6b322e5d01a1100b308c", null ],
-    [ "_failSpell", "d6/d6c/a25550.html#a4cb3e7f0b0b85c57f27fe2f3ab70647b", null ]
+    [ "HandleDummy", "d6/d6c/a25550.html#a630b3359dcecdb65992df67fbc4b197b", null ],
+    [ "PrepareSpellScript", "d6/d6c/a25550.html#a9960211eda513e642a386e0ff3bcd4c5", null ],
+    [ "Register", "d6/d6c/a25550.html#aaa1c9db89ddd7a7590b3b41b377d4cec", null ],
+    [ "Validate", "d6/d6c/a25550.html#a9af89aba8006d93b8c0ae2ce7143255e", null ]
 ];

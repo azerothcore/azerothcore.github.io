@@ -1,6 +1,7 @@
 var a18630 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "de/d6c/a18634.html", "de/d6c/a18634" ],
-    [ "npc_icc_nerubar_broodkeeper", "d5/d68/a18630.html#adf9c3bfb444fed50420c2e780b373f34", null ],
-    [ "GetAI", "d5/d68/a18630.html#ad12186da36f7bbf99275a746bc874bfc", null ]
+    [ "OnRemove", "d5/d68/a18630.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "d5/d68/a18630.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "d5/d68/a18630.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "d5/d68/a18630.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

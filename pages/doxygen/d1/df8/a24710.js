@@ -1,6 +1,6 @@
 var a24710 =
 [
-    [ "HandleScript", "d1/df8/a24710.html#a7bf5f9d28a916704bd1ece8acc64fe59", null ],
-    [ "PrepareSpellScript", "d1/df8/a24710.html#ab9193654a0534dc82c4c93a3158f3f7a", null ],
-    [ "Register", "d1/df8/a24710.html#a0f0360e8b2db795046c3b76e6db0a97e", null ]
+    [ "ModDest", "d1/df8/a24710.html#a99d08536d2555390a7399a6d2fc199e6", null ],
+    [ "PrepareSpellScript", "d1/df8/a24710.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
+    [ "Register", "d1/df8/a24710.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
 ];

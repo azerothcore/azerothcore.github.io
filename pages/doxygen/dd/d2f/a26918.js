@@ -1,11 +1,6 @@
 var a26918 =
 [
-    [ "AccountActionIpLogger", "dd/d2f/a26918.html#a73cad77bd83243cb10c4a1b4d7081e0b", null ],
-    [ "AccountIPLogAction", "dd/d2f/a26918.html#a9c978dafb71e67b8b278806df507e34b", null ],
-    [ "OnAccountLogin", "dd/d2f/a26918.html#a2952adcd73d775b924671e5a69adaccb", null ],
-    [ "OnEmailChange", "dd/d2f/a26918.html#aa15d0cc4e6ed3818fa18a927074f5f0c", null ],
-    [ "OnFailedAccountLogin", "dd/d2f/a26918.html#a8225c45bcb83e1ddd91a8dcd0f7da9cd", null ],
-    [ "OnFailedEmailChange", "dd/d2f/a26918.html#a9fd73dc7b6954dfb4fc94a1f1288ccd2", null ],
-    [ "OnFailedPasswordChange", "dd/d2f/a26918.html#a0663e15ea1a29b3daa672c8b6a25548f", null ],
-    [ "OnPasswordChange", "dd/d2f/a26918.html#a4b71aa9c1790e6d4033d884a17ce0a2f", null ]
+    [ "go_witherbark_totem_bundleAI", "d3/dc4/a26922.html", "d3/dc4/a26922" ],
+    [ "go_witherbark_totem_bundle", "dd/d2f/a26918.html#affcdff7ec6894add0acec842028efd2e", null ],
+    [ "GetAI", "dd/d2f/a26918.html#a5ac2b3b572d67fdcc587f242f3d50f97", null ]
 ];

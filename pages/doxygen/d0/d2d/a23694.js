@@ -1,11 +1,11 @@
 var a23694 =
 [
-    [ "boss_high_astromancer_solarian", "d0/d2d/a23694.html#a2db48cc179539f81b55188de08a7e180", null ],
-    [ "AttackStart", "d0/d2d/a23694.html#acaf94134aef553447e766a5e431c8b83", null ],
-    [ "JustDied", "d0/d2d/a23694.html#a510eb2e4f0770670d6767bc2545375b7", null ],
-    [ "JustEngagedWith", "d0/d2d/a23694.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
-    [ "JustSummoned", "d0/d2d/a23694.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
-    [ "KilledUnit", "d0/d2d/a23694.html#a561a78193615575b7e43e0f21387f1b8", null ],
-    [ "Reset", "d0/d2d/a23694.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
-    [ "UpdateAI", "d0/d2d/a23694.html#a07a76c34a978c31212390cf10ed3e382", null ]
+    [ "boss_pathaleon_the_calculator", "d0/d2d/a23694.html#a679dc3ccc23c6def44e0f0669822e146", null ],
+    [ "CanAIAttack", "d0/d2d/a23694.html#abcbb5f1236ebfbec680241ae8c5cbb00", null ],
+    [ "DoAction", "d0/d2d/a23694.html#a814cb56cc18277cb4adbd7dc8a82b06d", null ],
+    [ "JustDied", "d0/d2d/a23694.html#a0224d47bc85fe54c0cfded69b55e57b3", null ],
+    [ "JustEngagedWith", "d0/d2d/a23694.html#a3ba024e86ceb83ebb26afcc11a75791d", null ],
+    [ "KilledUnit", "d0/d2d/a23694.html#a899fd2e1e01ac1347e43bcb290babc5b", null ],
+    [ "Reset", "d0/d2d/a23694.html#adc48067c3656bf768c3013ff266565c0", null ],
+    [ "_isEnraged", "d0/d2d/a23694.html#ab875fb787d71eaf008b7267c81a2a4df", null ]
 ];

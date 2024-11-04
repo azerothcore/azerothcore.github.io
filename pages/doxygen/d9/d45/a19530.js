@@ -1,11 +1,6 @@
 var a19530 =
 [
-    [ "npc_living_constellationAI", "d9/d45/a19530.html#a54f4e946fad895bca07a59f4e00d10a5", null ],
-    [ "DoAction", "d9/d45/a19530.html#acdc93a7dc3019940d730fa20d115a929", null ],
-    [ "GetData", "d9/d45/a19530.html#acb5cc31d7a084e82d8bde3852f9668dd", null ],
-    [ "Reset", "d9/d45/a19530.html#a664b03bdaea184ab8dd8298ed9952790", null ],
-    [ "SpellHit", "d9/d45/a19530.html#a4c83ef2d5fe161a90d465a8fbd7eb4f8", null ],
-    [ "UpdateAI", "d9/d45/a19530.html#ad5b23c3db46b455c9321e7fb29b88572", null ],
-    [ "_isActive", "d9/d45/a19530.html#a786d2d05f83e59dd0da34f44037bdd35", null ],
-    [ "events", "d9/d45/a19530.html#a679c9fe1ed357b7c7e1ed1fac01ef8d3", null ]
+    [ "boss_auriayaAI", "d4/dc7/a19534.html", "d4/dc7/a19534" ],
+    [ "boss_auriaya", "d9/d45/a19530.html#a8acecf02a63e846d1a46633a6ade6083", null ],
+    [ "GetAI", "d9/d45/a19530.html#a09c7cd124672eb12ec349dbbbd3c87ef", null ]
 ];

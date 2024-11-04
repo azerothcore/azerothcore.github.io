@@ -1,6 +1,6 @@
 var a14874 =
 [
-    [ "FilterTargets", "d6/d92/a14874.html#a3ec2840ab1d853a1546c64a2d158e75f", null ],
-    [ "PrepareSpellScript", "d6/d92/a14874.html#a511e54100036307aa5d37bc959405c73", null ],
-    [ "Register", "d6/d92/a14874.html#a31d1d590f0e6fc2e56322d606961828f", null ]
+    [ "boss_veknilash", "d6/d92/a14874.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
+    [ "IAmVeklor", "d6/d92/a14874.html#a454027d829b962ee0feebb6fd5687714", null ],
+    [ "JustEngagedWith", "d6/d92/a14874.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
 ];

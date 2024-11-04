@@ -1,5 +1,6 @@
 var a23358 =
 [
-    [ "npc_invisible_tractor_beam_source", "d0/da4/a23358.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
-    [ "IsSummonedBy", "d0/da4/a23358.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
+    [ "HandleHit", "d0/da4/a23358.html#ab948b958955c2413ad6e15dfa09fd3cd", null ],
+    [ "PrepareSpellScript", "d0/da4/a23358.html#a37ff09e6b82d69c85b5bd98e84968569", null ],
+    [ "Register", "d0/da4/a23358.html#acb1b681f587817614c2b3684585369db", null ]
 ];

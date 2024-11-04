@@ -1,8 +1,7 @@
 var a25586 =
 [
-    [ "HandleDummy", "d0/d6d/a25586.html#ad303a5c1bbbab3766bd5e9ab753b2a01", null ],
-    [ "Load", "d0/d6d/a25586.html#a054d9083b24183f4427fc0cb4985ba62", null ],
-    [ "PrepareSpellScript", "d0/d6d/a25586.html#aa4904ed55b5e216e0af5e32508372d4e", null ],
-    [ "Register", "d0/d6d/a25586.html#a5679f34290f90dbcaf15f09eca0fb20f", null ],
-    [ "Validate", "d0/d6d/a25586.html#a0a01f5e290b91e58b4b0f8ba443eb7bf", null ]
+    [ "HandleHeal", "d0/d6d/a25586.html#ae24fd6305b5d17c2fbb6f03238b385c6", null ],
+    [ "Load", "d0/d6d/a25586.html#a4dd5016439e8798083fe3d4fa5458731", null ],
+    [ "PrepareSpellScript", "d0/d6d/a25586.html#a248ae6d2c8f8d6c014a0164105773836", null ],
+    [ "Register", "d0/d6d/a25586.html#af2e80d64787ad31e33d0d3c239f62c81", null ]
 ];

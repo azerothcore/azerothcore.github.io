@@ -1,8 +1,9 @@
 var a17218 =
 [
-    [ "npc_high_overlord_saurfangAI", "d3/dd5/a17222.html", "d3/dd5/a17222" ],
-    [ "npc_high_overlord_saurfang_icc", "dd/d47/a17218.html#ac02fe80550572e142406c2d80c0392df", null ],
-    [ "GetAI", "dd/d47/a17218.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
-    [ "OnGossipHello", "dd/d47/a17218.html#a515a87f751527412222cfdd968febe7c", null ],
-    [ "OnGossipSelect", "dd/d47/a17218.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
+    [ "BattleExperienceEvent", "dd/d47/a17218.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "dd/d47/a17218.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "dd/d47/a17218.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "dd/d47/a17218.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "dd/d47/a17218.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "dd/d47/a17218.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

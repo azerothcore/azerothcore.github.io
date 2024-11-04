@@ -1,10 +1,10 @@
 var a21302 =
 [
-    [ "npc_azure_invaderAI", "d2/d4a/a21302.html#a85f164a6ba24d7a14d77264441a78f46", null ],
-    [ "Reset", "d2/d4a/a21302.html#ada44600272b19d9416d957bc52bc3be4", null ],
-    [ "UpdateAI", "d2/d4a/a21302.html#a7dfdcb2a88930c6b4150f7f7c825a2df", null ],
-    [ "uiBrutalStrikeTimer", "d2/d4a/a21302.html#a4b88a85f3344edbdadde0104668509aa", null ],
-    [ "uiCleaveTimer", "d2/d4a/a21302.html#a8b1792a8a405651d602d9ed634f52689", null ],
-    [ "uiImpaleTimer", "d2/d4a/a21302.html#aa709ee8919a2d0317d563259c7630c99", null ],
-    [ "uiSunderArmorTimer", "d2/d4a/a21302.html#ab2e6d01df033985ac29e963cf2895466", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "d2/d4a/a21302.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
+    [ "GotStinged", "d2/d4a/a21302.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
+    [ "JustEngagedWith", "d2/d4a/a21302.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
+    [ "Reset", "d2/d4a/a21302.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
+    [ "SpellHit", "d2/d4a/a21302.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
+    [ "UpdateAI", "d2/d4a/a21302.html#a21def23073eeec051c1c97a813e0ea84", null ],
+    [ "rebuff", "d2/d4a/a21302.html#ac83c25091fdd3c7876a88927b758261f", null ]
 ];

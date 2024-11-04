@@ -1,5 +1,6 @@
 var a26950 =
 [
-    [ "AreaTrigger_at_last_rites", "df/d3a/a26950.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "df/d3a/a26950.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "go_flamesAI", "d2/ddb/a26954.html", "d2/ddb/a26954" ],
+    [ "go_flames", "df/d3a/a26950.html#a75d49202eaf2078b8276e59944d1ec89", null ],
+    [ "GetAI", "df/d3a/a26950.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
 ];

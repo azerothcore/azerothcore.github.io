@@ -1,6 +1,5 @@
 var a16834 =
 [
-    [ "npc_pos_leaderAI", "dc/dc7/a16838.html", "dc/dc7/a16838" ],
-    [ "npc_pos_leader", "de/d65/a16834.html#a690956ba5c822f4cbea9c27c95d5924c", null ],
-    [ "GetAI", "de/d65/a16834.html#a0c0b85bef0b04989dc80d861fa70f463", null ]
+    [ "endPosition", "de/d65/a16834.html#a8a88b0191d28ef6af8f41db627552602", null ],
+    [ "entry", "de/d65/a16834.html#ac4e55af666e269440953ced038c1a8de", null ]
 ];

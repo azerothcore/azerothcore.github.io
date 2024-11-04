@@ -1,6 +1,6 @@
 var a21322 =
 [
-    [ "npc_azure_raiderAI", "d0/d68/a21326.html", "d0/d68/a21326" ],
-    [ "npc_azure_raider", "d9/d78/a21322.html#a249abee0df263e183341193b828a310c", null ],
-    [ "GetAI", "d9/d78/a21322.html#a88a45e3b117c5105f7541d640dda8470", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d0/d68/a21326.html", "d0/d68/a21326" ],
+    [ "npc_valiance_keep_cannoneer", "d9/d78/a21322.html#a11f6060a7c6cd7be60001f5c259c94d3", null ],
+    [ "GetAI", "d9/d78/a21322.html#a8bfc1505dedee28d1517ba6a7738ffd5", null ]
 ];

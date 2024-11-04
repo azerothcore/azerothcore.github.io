@@ -1,6 +1,6 @@
 var a23166 =
 [
-    [ "HandlePeriodic", "da/d9e/a23166.html#a25c698e911ec02d9cd7f757ba87281df", null ],
-    [ "PrepareAuraScript", "da/d9e/a23166.html#a7bf79bc5e5f509b52965f03e998db399", null ],
-    [ "Register", "da/d9e/a23166.html#ab3eec9f591384c7c1c684651c38aa614", null ]
+    [ "HandleScript", "da/d9e/a23166.html#ae45f8a366c1594d3723b83ee6e006957", null ],
+    [ "PrepareSpellScript", "da/d9e/a23166.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
+    [ "Register", "da/d9e/a23166.html#a6b9e449a64747f0a5715424295b1c30f", null ]
 ];

@@ -1,6 +1,6 @@
 var a19950 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "d7/d45/a19954.html", "d7/d45/a19954" ],
-    [ "npc_ulduar_saronite_vapors", "db/dcd/a19950.html#a567c3aca8c381167ca278c2c3562e6f6", null ],
-    [ "GetAI", "db/dcd/a19950.html#a3c2e7b6263f8935da9291c736b14d139", null ]
+    [ "DestroyWinterCache", "db/dcd/a19950.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
+    [ "PrepareSpellScript", "db/dcd/a19950.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
+    [ "Register", "db/dcd/a19950.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
 ];

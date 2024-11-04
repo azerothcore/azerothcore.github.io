@@ -1,13 +1,20 @@
 var a28338 =
 [
-    [ "Secret", "d6/dfb/a28342.html", "d6/dfb/a28342" ],
-    [ "SecretMgr", "da/d0b/a28338.html#a28ee0858a14656d7fc464eb604b127b7", null ],
-    [ "~SecretMgr", "da/d0b/a28338.html#ae6f15def262312b17456583b4e548d99", null ],
-    [ "SecretMgr", "da/d0b/a28338.html#ab48b891b84f116dc5efffe0a10a82f79", null ],
-    [ "AttemptLoad", "da/d0b/a28338.html#a65c2fd304c0f851f81cd80037deac8fb", null ],
-    [ "AttemptTransition", "da/d0b/a28338.html#a4b6cbe75e50ec3e4765fdb9e965ee84f", null ],
-    [ "GetSecret", "da/d0b/a28338.html#aff0b6ca546a62a3d6e7da52c3a2752bd", null ],
-    [ "Initialize", "da/d0b/a28338.html#a929de7b687d7c6bb91ef35306134ebac", null ],
-    [ "instance", "da/d0b/a28338.html#a27e237503dc523367fa94bd28a289d97", null ],
-    [ "_secrets", "da/d0b/a28338.html#a143bb8b3855a9f28df72abc9cfc94f3c", null ]
+    [ "FileLoader", "da/d0b/a28338.html#a51313b536560d1d89d8350475d2bc749", null ],
+    [ "~FileLoader", "da/d0b/a28338.html#a0954776182dd01364bdb216539ce398b", null ],
+    [ "FileLoader", "da/d0b/a28338.html#a51313b536560d1d89d8350475d2bc749", null ],
+    [ "~FileLoader", "da/d0b/a28338.html#a0954776182dd01364bdb216539ce398b", null ],
+    [ "free", "da/d0b/a28338.html#a738aeb2ebe751c9fc75013dbce30dcc4", null ],
+    [ "free", "da/d0b/a28338.html#aef98564821c8e63b6d484179cda0b380", null ],
+    [ "GetData", "da/d0b/a28338.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
+    [ "GetData", "da/d0b/a28338.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
+    [ "GetDataSize", "da/d0b/a28338.html#a2a07adb0692a51af06ccd31d449ae444", null ],
+    [ "GetDataSize", "da/d0b/a28338.html#a2a07adb0692a51af06ccd31d449ae444", null ],
+    [ "loadFile", "da/d0b/a28338.html#a11908109042f93ddde393e7a874683c9", null ],
+    [ "loadFile", "da/d0b/a28338.html#a11908109042f93ddde393e7a874683c9", null ],
+    [ "prepareLoadedData", "da/d0b/a28338.html#ab66347098d7c9ac470339c232f9b7588", null ],
+    [ "prepareLoadedData", "da/d0b/a28338.html#a498a33d80768843b4ab1ff2d5ffe68d9", null ],
+    [ "data", "da/d0b/a28338.html#aff1880ac2038f17f4d1f63bc9f7d9afd", null ],
+    [ "data_size", "da/d0b/a28338.html#a355891fc980538e74080b9b83a95dec8", null ],
+    [ "version", "da/d0b/a28338.html#a41cedec185e5909d83c8a185d1476dee", null ]
 ];

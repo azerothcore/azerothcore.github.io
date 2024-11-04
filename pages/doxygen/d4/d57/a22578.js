@@ -1,6 +1,7 @@
 var a22578 =
 [
-    [ "PrepareSpellScript", "d4/d57/a22578.html#ad8640f1c01d64f8bbca16e0b636f7f21", null ],
-    [ "Register", "d4/d57/a22578.html#aa41700bf097963c5a352442723181037", null ],
-    [ "SelectTarget", "d4/d57/a22578.html#a15d790b134de8a8c7497ee8d0a6217ba", null ]
+    [ "boss_lady_malande", "d4/d57/a22578.html#a8cb693d203463dcba809e7ffc23c6868", null ],
+    [ "AttackStart", "d4/d57/a22578.html#ad5cf6e7b0000c7f96d8606088fb13d31", null ],
+    [ "JustEngagedWith", "d4/d57/a22578.html#af4b5f376e387851e15517de03636acde", null ],
+    [ "UpdateAI", "d4/d57/a22578.html#a6d9d09a49fc87bbbda02387f78bb3739", null ]
 ];

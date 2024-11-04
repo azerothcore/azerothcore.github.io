@@ -1,6 +1,7 @@
 var a23738 =
 [
-    [ "HandleBeforeCast", "d7/de5/a23738.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
-    [ "PrepareSpellScript", "d7/de5/a23738.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
-    [ "Register", "d7/de5/a23738.html#a45ae470002052c87d5270e3556f0e706", null ]
+    [ "npc_daranelleAI", "d7/de5/a23738.html#a49eeff6e0aea079a0375a92074227d12", null ],
+    [ "JustEngagedWith", "d7/de5/a23738.html#aeff39dfd84986186057cdaf7632eed4f", null ],
+    [ "MoveInLineOfSight", "d7/de5/a23738.html#a353e27c1485b88f0751a64260898d35b", null ],
+    [ "Reset", "d7/de5/a23738.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
 ];

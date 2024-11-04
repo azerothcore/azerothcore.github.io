@@ -1,6 +1,6 @@
 var a17742 =
 [
-    [ "boss_rotfaceAI", "d7/df3/a17746.html", "d7/df3/a17746" ],
-    [ "boss_rotface", "da/d27/a17742.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
-    [ "GetAI", "da/d27/a17742.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
+    [ "UnchainedMagicTargetSelector", "da/d27/a17742.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "da/d27/a17742.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "da/d27/a17742.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

@@ -1,9 +1,12 @@
 var a26370 =
 [
-    [ "HandleKnockBack", "d4/d2d/a26370.html#acaa8f445874270f34ea5b42a506671db", null ],
-    [ "HandleScript", "d4/d2d/a26370.html#a29e47298601cb55c5442a3fa59bb3646", null ],
-    [ "Load", "d4/d2d/a26370.html#a45700aba665b601b2c860af5a869d1af", null ],
-    [ "PrepareSpellScript", "d4/d2d/a26370.html#aad1c175a2611152278d847ac59f93090", null ],
-    [ "Register", "d4/d2d/a26370.html#ad790d435f422fabd128e601fb2dff103", null ],
-    [ "Validate", "d4/d2d/a26370.html#a889a129ddc3ea6fcd7f440fc7c163e08", null ]
+    [ "CalcPeriodic", "d4/d2d/a26370.html#a35d58947074659d2692877dfcf13e4bd", null ],
+    [ "CalculateAPAmount", "d4/d2d/a26370.html#ac72434a046c28a4887971cf83d574a6e", null ],
+    [ "CalculateResistanceAmount", "d4/d2d/a26370.html#a82067899470366c2cbf21bba08061ce1", null ],
+    [ "CalculateSPAmount", "d4/d2d/a26370.html#a527213b389be9b1953f423ae84eb16ee", null ],
+    [ "CalculateStatAmount", "d4/d2d/a26370.html#ad7185292820feb168565648133c9e2cc", null ],
+    [ "HandleEffectApply", "d4/d2d/a26370.html#aa333430da4cf3303822d5f048cb9d5a4", null ],
+    [ "HandlePeriodic", "d4/d2d/a26370.html#ae2bca6c841d1ba02a8a39b1a2179ac97", null ],
+    [ "PrepareAuraScript", "d4/d2d/a26370.html#a671a588ae36323c11b33a45d652290de", null ],
+    [ "Register", "d4/d2d/a26370.html#a8aae94d6d6a9ec1fa7d47f88874cce4f", null ]
 ];

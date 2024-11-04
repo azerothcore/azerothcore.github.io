@@ -1,6 +1,5 @@
 var a20718 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "d7/dcd/a20722.html", "d7/dcd/a20722" ],
-    [ "boss_yoggsaron_lich_king", "d0/ddb/a20718.html#a1655d608683e90ccafd350204eed2d31", null ],
-    [ "GetAI", "d0/ddb/a20718.html#aa65cd9c9eafba12ae065903868ee5319", null ]
+    [ "achievement_yogg_saron_kiss_and_make_up", "d0/ddb/a20718.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
+    [ "OnCheck", "d0/ddb/a20718.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
 ];

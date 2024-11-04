@@ -1,10 +1,17 @@
 var a22702 =
 [
-    [ "boss_illidari_council", "db/d1f/a22702.html#a078c36be39b377f6d1cdbf061d70270d", null ],
-    [ "AttackStart", "db/d1f/a22702.html#a260b15ec58164f17543aa044a89875a8", null ],
-    [ "DamageTaken", "db/d1f/a22702.html#af8e88c307efaba392cc2a1d2f3862078", null ],
-    [ "DoAction", "db/d1f/a22702.html#a6c3c57523ed2775ba553af1171b46463", null ],
-    [ "EnterEvadeMode", "db/d1f/a22702.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
-    [ "MoveInLineOfSight", "db/d1f/a22702.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
-    [ "UpdateAI", "db/d1f/a22702.html#a8b30df956aa4ce1727756f1d19e151be", null ]
+    [ "npc_akama_shade", "db/d1f/a22702.html#a95e956e162cb88d2814622bc10166ca5", null ],
+    [ "DamageTaken", "db/d1f/a22702.html#a962723ebc58a2b1f813fcc0715f9f2d2", null ],
+    [ "DoAction", "db/d1f/a22702.html#a59619f193d51e3bad05044aad2d96d9a", null ],
+    [ "EnterEvadeMode", "db/d1f/a22702.html#ae2441741caf0b91196469f67a38823bc", null ],
+    [ "JustEngagedWith", "db/d1f/a22702.html#a87df13ee30423c51e50670c535fdf99d", null ],
+    [ "JustSummoned", "db/d1f/a22702.html#a2372d2e64fb36b64f638583409cf9fa8", null ],
+    [ "MovementInform", "db/d1f/a22702.html#a4f1900d16dd36fbb9e573d59cf2176a1", null ],
+    [ "Reset", "db/d1f/a22702.html#a2d8161405dbb97cc1784e3cf49679d25", null ],
+    [ "sGossipSelect", "db/d1f/a22702.html#a8a18c7195f04caed0cf93655f556ad9a", null ],
+    [ "UpdateAI", "db/d1f/a22702.html#af9091eaa02a0967cbc2acb7d0160e5f1", null ],
+    [ "_died", "db/d1f/a22702.html#a1295073fb0f2dc19baeb16ad73ceb1df", null ],
+    [ "_generators", "db/d1f/a22702.html#a84d8d87d9bb92ba20e357d5854410a5e", null ],
+    [ "_sayLowHealth", "db/d1f/a22702.html#ae068b44aff8c9e4e1b75afab7959fda8", null ],
+    [ "instance", "db/d1f/a22702.html#a590f6a445bcda767c2197da05fc3cb15", null ]
 ];

@@ -1,8 +1,7 @@
 var a28086 =
 [
-    [ "areaTriggerText", "d6/d48/a28086.html#a32bb8c4a4defce661d108627e25b645a", null ],
-    [ "Difficulty", "d6/d48/a28086.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
-    [ "MapId", "d6/d48/a28086.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
-    [ "maxPlayers", "d6/d48/a28086.html#a7ab33229ffee11a27861439053c79831", null ],
-    [ "resetTime", "d6/d48/a28086.html#a891a741efb049b51996e1a6110efc52d", null ]
+    [ "ClassMask", "d6/d48/a28086.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "d6/d48/a28086.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "d6/d48/a28086.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "d6/d48/a28086.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

@@ -1,9 +1,12 @@
 var a18166 =
 [
-    [ "FilterTargets", "dc/d10/a18166.html#a2b669cd93ed96417e4a0a6d83e4095cd", null ],
-    [ "Load", "dc/d10/a18166.html#aaec66c1d360ffa4e25d86f331f3521dd", null ],
-    [ "PrepareSpellScript", "dc/d10/a18166.html#a34d702b1299e2ee27eb1c27bc49be9dc", null ],
-    [ "Register", "dc/d10/a18166.html#afad887fba0d97512a7a13a31977cf42d", null ],
-    [ "Validate", "dc/d10/a18166.html#a2ff2dcfa096bf237c9c4c442ec13fa4d", null ],
-    [ "_instance", "dc/d10/a18166.html#a96dde7a1b30682c6bb04c1ae5449bd7c", null ]
+    [ "npc_the_lich_king_controllerAI", "dc/d10/a18166.html#a211c370e9c370e00fba3c83e51738886", null ],
+    [ "AttackStart", "dc/d10/a18166.html#a58e11746c14f6bbb1b5c56c1d0136d9f", null ],
+    [ "DoAction", "dc/d10/a18166.html#aaf940a0ca812d84dbde81fc7e41feaca", null ],
+    [ "JustSummoned", "dc/d10/a18166.html#aa610e24316505165cbb826ff5bece5c5", null ],
+    [ "MoveInLineOfSight", "dc/d10/a18166.html#a0ee33ab5733c12163e92213376e893e4", null ],
+    [ "Reset", "dc/d10/a18166.html#a2c4410cc2ad995452f742f79e8e4af8b", null ],
+    [ "UpdateAI", "dc/d10/a18166.html#a34a0295ad1a45a9bc060ff8595c22e14", null ],
+    [ "_events", "dc/d10/a18166.html#a90c3d818318004c7c21ec66d4d080615", null ],
+    [ "_instance", "dc/d10/a18166.html#a480a284881ba5f56bc6222607bd01a76", null ]
 ];

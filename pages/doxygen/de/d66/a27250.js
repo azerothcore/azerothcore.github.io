@@ -1,10 +1,7 @@
 var a27250 =
 [
-    [ "guard_shattrath_scryerAI", "de/d66/a27250.html#a97accbf467ca1190f8a05512b3857164", null ],
-    [ "Reset", "de/d66/a27250.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
-    [ "UpdateAI", "de/d66/a27250.html#ad759cca08b0093522e190ddc038e2c73", null ],
-    [ "banishTimer", "de/d66/a27250.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
-    [ "canTeleport", "de/d66/a27250.html#a84188b40b44deae5714466bb23bf2f0d", null ],
-    [ "exileTimer", "de/d66/a27250.html#a97fbc3f54c23049fd91ad432cd560698", null ],
-    [ "playerGUID", "de/d66/a27250.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
+    [ "npc_riggle_bassbaitAI", "de/d66/a27250.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "de/d66/a27250.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "de/d66/a27250.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "de/d66/a27250.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

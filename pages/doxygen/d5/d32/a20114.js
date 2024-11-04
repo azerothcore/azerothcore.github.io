@@ -1,5 +1,6 @@
 var a20114 =
 [
-    [ "achievement_getting_cold_in_here", "d5/d32/a20114.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
-    [ "OnCheck", "d5/d32/a20114.html#aeafd382d378381f754da6ee04d382276", null ]
+    [ "boss_mimironAI", "df/de9/a20118.html", "df/de9/a20118" ],
+    [ "boss_mimiron", "d5/d32/a20114.html#a72904837bd85e9f711fcf3da04c459c3", null ],
+    [ "GetAI", "d5/d32/a20114.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
 ];

@@ -1,9 +1,6 @@
 var a18582 =
 [
-    [ "npc_icc_skybreaker_vicarAI", "d6/dab/a18582.html#ae74a306850b328f536b55e5c24c040ab", null ],
-    [ "AttackStart", "d6/dab/a18582.html#a52b753e1f599eb02385d980a78cd3c78", null ],
-    [ "JustEngagedWith", "d6/dab/a18582.html#afdb4215cd0578de7342b152783666ed6", null ],
-    [ "Reset", "d6/dab/a18582.html#aeb11687534fa7c1e76ea22cc07deb73d", null ],
-    [ "UpdateAI", "d6/dab/a18582.html#af1726169fe63eb3ff1ed95eb0e10d2f0", null ],
-    [ "events", "d6/dab/a18582.html#a711d9571b4edb87f77eeebbd12e248b3", null ]
+    [ "RespawnEvent", "d6/dab/a18582.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d6/dab/a18582.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d6/dab/a18582.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

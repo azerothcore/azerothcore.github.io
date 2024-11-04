@@ -1,7 +1,7 @@
 var a25730 =
 [
-    [ "HandleEnergize", "d4/dc1/a25730.html#a283e713252166a863aa96530d6e7608b", null ],
-    [ "Load", "d4/dc1/a25730.html#a89847e0e9435a708c5722ff928f7033f", null ],
-    [ "PrepareSpellScript", "d4/dc1/a25730.html#a8847e05e6eeafd801fca5423d0689432", null ],
-    [ "Register", "d4/dc1/a25730.html#ae0778ffd8cf203e22510ee91b0394303", null ]
+    [ "OnRemove", "d4/dc1/a25730.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
+    [ "PrepareAuraScript", "d4/dc1/a25730.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
+    [ "Register", "d4/dc1/a25730.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
+    [ "Validate", "d4/dc1/a25730.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
 ];

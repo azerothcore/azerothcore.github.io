@@ -1,7 +1,7 @@
 var a25062 =
 [
-    [ "CheckIfLanceEquipped", "d0/d31/a25062.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
-    [ "PrepareSpellScript", "d0/d31/a25062.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
-    [ "Register", "d0/d31/a25062.html#a4421ceaedce16777f8f04b9c40855782", null ],
-    [ "Validate", "d0/d31/a25062.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
+    [ "OnPeriodic", "d0/d31/a25062.html#a58f13f947b4daac98651f7fa46d7d674", null ],
+    [ "PrepareAuraScript", "d0/d31/a25062.html#a85c4d84408becf2fb4ac55d9da369b25", null ],
+    [ "Register", "d0/d31/a25062.html#ad0c688255e340c428624de7071b5df56", null ],
+    [ "Validate", "d0/d31/a25062.html#a5ecd0e840bd94d4414acfb0aef9abd28", null ]
 ];

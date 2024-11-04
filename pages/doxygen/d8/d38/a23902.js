@@ -1,9 +1,6 @@
 var a23902 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d8/d38/a23902.html#a273d585416dc92d39d5ec3824c08504d", null ],
-    [ "IsSummonedBy", "d8/d38/a23902.html#a5f002d36c492ed2caf2290f4a073a7d0", null ],
-    [ "Reset", "d8/d38/a23902.html#a06fa50580efeab8d847a05f20956d175", null ],
-    [ "UpdateAI", "d8/d38/a23902.html#a8261a259cfbee0d3610ee441406fafcd", null ],
-    [ "playerGuid", "d8/d38/a23902.html#aab717dd49284c483759a6223dbd7e6ea", null ],
-    [ "timer", "d8/d38/a23902.html#afba1b71178c563a3db906057cd20de45", null ]
+    [ "npc_invis_infernal_casterAI", "db/dbb/a23906.html", "db/dbb/a23906" ],
+    [ "npc_invis_infernal_caster", "d8/d38/a23902.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "d8/d38/a23902.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

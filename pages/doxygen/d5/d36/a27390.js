@@ -1,6 +1,7 @@
 var a27390 =
 [
-    [ "npc_training_dummyAI", "df/ddb/a27394.html", "df/ddb/a27394" ],
-    [ "npc_training_dummy", "d5/d36/a27390.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
-    [ "GetAI", "d5/d36/a27390.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
+    [ "npc_venomhide_hatchlingAI", "df/ddb/a27394.html", "df/ddb/a27394" ],
+    [ "npc_venomhide_hatchling", "d5/d36/a27390.html#a4dc217dd5950db7b270b7cce3e594e4d", null ],
+    [ "GetAI", "d5/d36/a27390.html#a96110b752965d751ab7b466c4f67e333", null ],
+    [ "OnGossipHello", "d5/d36/a27390.html#a404d875592b847ddb9f3250c9d954bfc", null ]
 ];

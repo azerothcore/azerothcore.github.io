@@ -1,7 +1,12 @@
 var a15530 =
 [
-    [ "go_troll_cageAI", "d4/d4b/a15530.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
-    [ "GossipHello", "d4/d4b/a15530.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
-    [ "initBlyCrewMember", "d4/d4b/a15530.html#a6bfb77ec97367d8704885acfef801b74", null ],
-    [ "instance", "d4/d4b/a15530.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
+    [ "npc_twilight_volunteer", "d4/d4b/a15530.html#a3062041fcabf972e0a3d4753363c37b3", null ],
+    [ "AttackStart", "d4/d4b/a15530.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
+    [ "DoAction", "d4/d4b/a15530.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
+    [ "EnterEvadeMode", "d4/d4b/a15530.html#abd88e6fe0565babb92ccae17df0421d6", null ],
+    [ "MovementInform", "d4/d4b/a15530.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
+    [ "UpdateAI", "d4/d4b/a15530.html#a93288a45982b172c201e2442a4c91114", null ],
+    [ "events", "d4/d4b/a15530.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
+    [ "isSacraficeTarget", "d4/d4b/a15530.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
+    [ "pInstance", "d4/d4b/a15530.html#ad58453e078520fa23238a96115e5f38f", null ]
 ];

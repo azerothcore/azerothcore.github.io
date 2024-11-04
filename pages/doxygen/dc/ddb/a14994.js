@@ -1,6 +1,6 @@
 var a14994 =
 [
-    [ "HandleDummy", "dc/ddb/a14994.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
-    [ "PrepareSpellScript", "dc/ddb/a14994.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
-    [ "Register", "dc/ddb/a14994.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
+    [ "npc_depth_chargeAI", "dc/d77/a14998.html", "dc/d77/a14998" ],
+    [ "npc_depth_charge", "dc/ddb/a14994.html#ad16e3431b06fdd6797bfb51dda9005f5", null ],
+    [ "GetAI", "dc/ddb/a14994.html#a16de1a207304ea2ad7f47d5674deeec1", null ]
 ];

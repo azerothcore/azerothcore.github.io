@@ -1,12 +1,6 @@
 var a21890 =
 [
-    [ "npc_your_inner_turmoilAI", "dd/da0/a21890.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
-    [ "DamageTaken", "dd/da0/a21890.html#a0e14a306db46e817e6d8f7a358519f83", null ],
-    [ "JustDied", "dd/da0/a21890.html#a142359bf1661542d044a7d27b764832b", null ],
-    [ "Reset", "dd/da0/a21890.html#a4e17e9642ec11712652f41495974b716", null ],
-    [ "setphase", "dd/da0/a21890.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
-    [ "UpdateAI", "dd/da0/a21890.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
-    [ "health50", "dd/da0/a21890.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
-    [ "phase", "dd/da0/a21890.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
-    [ "timer", "dd/da0/a21890.html#af2c272de51aa15a41af9837f99256a62", null ]
+    [ "HandleHealPct", "dd/da0/a21890.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
+    [ "PrepareSpellScript", "dd/da0/a21890.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
+    [ "Register", "dd/da0/a21890.html#a52f253d2a3b9b3890020107b7722ad96", null ]
 ];

@@ -1,20 +1,10 @@
 var a13930 =
 [
-    [ "npc_dark_iron_attack_generator", "d0/d65/a13930.html#aef208e008b00af62710c8479bf7b6618", null ],
-    [ "AllowStart", "d0/d65/a13930.html#a4c0bdf682ced38cd1555ac6c6dd82361", null ],
-    [ "FinishAttackDueToWin", "d0/d65/a13930.html#abe15db24f6cd2c0c4c7fb5572635f09a", null ],
-    [ "FinishEventDueToLoss", "d0/d65/a13930.html#ab2dc568f820e3b0b7c863f83e6ca45fc", null ],
-    [ "GetRandomBartender", "d0/d65/a13930.html#aefe0e7e40ca5aad089aa27c5151e01fa", null ],
-    [ "JustEngagedWith", "d0/d65/a13930.html#a7588ef6382ae081d76423f8233667c5b", null ],
-    [ "MoveInLineOfSight", "d0/d65/a13930.html#ae21b69752a1e45eeef318ccf1e5a3b24", null ],
-    [ "PrepareEvent", "d0/d65/a13930.html#a4371fcc13d221b843275d1d0e7f896fb", null ],
-    [ "Reset", "d0/d65/a13930.html#ab9b3a7d524b8764ef9d00dac3ea75418", null ],
-    [ "SpellHit", "d0/d65/a13930.html#a829946c679b3eff97b1eb3ede6cd91d8", null ],
-    [ "UpdateAI", "d0/d65/a13930.html#a1038fdc5453c78ebaef26b305be23963", null ],
-    [ "events", "d0/d65/a13930.html#a6692f1a74acae5ddebbe8dc8790db07a", null ],
-    [ "guzzlerCounter", "d0/d65/a13930.html#a1a5cc21ee54e3d8d7acb1e3235d4e427", null ],
-    [ "kegCounter", "d0/d65/a13930.html#a3282d8a556e6e3b84a9597c317722d8e", null ],
-    [ "revelerGUIDs", "d0/d65/a13930.html#a873ec2bf87b3d616e60d26aa561258bf", null ],
-    [ "summons", "d0/d65/a13930.html#a5ac0502b880031c937f915a7dbca2262", null ],
-    [ "thrown", "d0/d65/a13930.html#ac372ce0664ec10b7f60026fa808a74d0", null ]
+    [ "npc_coren_direbrew_sisters", "d0/d65/a13930.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
+    [ "GetGUID", "d0/d65/a13930.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
+    [ "JustEngagedWith", "d0/d65/a13930.html#a34e0b6af032240c152c463c221d99335", null ],
+    [ "SetGUID", "d0/d65/a13930.html#ada2e446a929bbba088d3c7e09d117f93", null ],
+    [ "UpdateAI", "d0/d65/a13930.html#a7434b08d12d3f0902d1944b75323560c", null ],
+    [ "_scheduler", "d0/d65/a13930.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
+    [ "_targetGUID", "d0/d65/a13930.html#a801a6811124a7db3a31ec492ef954b20", null ]
 ];

@@ -1,8 +1,6 @@
 var a25798 =
 [
-    [ "HandleScript", "d5/da1/a25798.html#ad99c741ef4bf707ec4b4726a3610d827", null ],
-    [ "Load", "d5/da1/a25798.html#ab7aac5c557c76fdd195565a99d746dc9", null ],
-    [ "PrepareSpellScript", "d5/da1/a25798.html#abb6e76d537d61b5b38ce4488d230d6de", null ],
-    [ "Register", "d5/da1/a25798.html#a2f7e819dfa30f4f0d3645fde9c87408c", null ],
-    [ "Validate", "d5/da1/a25798.html#a0767c66cbc288bee6ee0eb3a4fde315f", null ]
+    [ "FilterTargets", "d5/da1/a25798.html#aad5d183d0d7ea229cbfc11f751536624", null ],
+    [ "PrepareSpellScript", "d5/da1/a25798.html#a68ba19142ae6eb04a2547495233700df", null ],
+    [ "Register", "d5/da1/a25798.html#a22c313409438f94d29ab3e236a56c115", null ]
 ];

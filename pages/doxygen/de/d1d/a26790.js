@@ -1,8 +1,7 @@
 var a26790 =
 [
-    [ "HandleDummy", "de/d1d/a26790.html#ad2eec86cff225cc0bd806e31596fb127", null ],
-    [ "PrepareSpellScript", "de/d1d/a26790.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
-    [ "Register", "de/d1d/a26790.html#a6c72b4c813368774283ae94036a43ee2", null ],
-    [ "SendMiss", "de/d1d/a26790.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
-    [ "Validate", "de/d1d/a26790.html#a9a5014de08f73ad5dad29354812030ac", null ]
+    [ "CharacterDeleteActionIpLogger", "de/d1d/a26790.html#a37481de65409cf375dcff45615463949", null ],
+    [ "DeleteIPLogAction", "de/d1d/a26790.html#a73a5ddacd8892d2300be313cfc12f534", null ],
+    [ "OnDelete", "de/d1d/a26790.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
+    [ "OnFailedDelete", "de/d1d/a26790.html#a34efd44289746078fdcfae63641b5580", null ]
 ];

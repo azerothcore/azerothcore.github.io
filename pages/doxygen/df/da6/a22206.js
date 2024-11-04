@@ -1,6 +1,6 @@
 var a22206 =
 [
-    [ "HandleScriptEffect", "df/da6/a22206.html#a66849cb61f056e861d8887dc98f6ccbf", null ],
-    [ "PrepareSpellScript", "df/da6/a22206.html#afa4ad1b205bf963b4230881738baf938", null ],
-    [ "Register", "df/da6/a22206.html#a0d8925effced854471e2fbec9c631b91", null ]
+    [ "npc_released_offspring_harkoaAI", "df/da6/a22206.html#ab1002f002987b6ea2366129afd48d65c", null ],
+    [ "MovementInform", "df/da6/a22206.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
+    [ "Reset", "df/da6/a22206.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
 ];

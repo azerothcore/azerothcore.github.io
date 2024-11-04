@@ -1,8 +1,7 @@
 var a23362 =
 [
-    [ "ApplyStun", "d3/df6/a23362.html#a5a5b921dc45418485919e599e80f8ca8", null ],
-    [ "HandleScriptEffect", "d3/df6/a23362.html#a32619710179250a6a0b408856a888153", null ],
-    [ "PrepareSpellScript", "d3/df6/a23362.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
-    [ "Register", "d3/df6/a23362.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
-    [ "Validate", "d3/df6/a23362.html#a66d91a87078c663903cd836344eec867", null ]
+    [ "FilterTargets", "d3/df6/a23362.html#a921450a09e51585beb9dd2ce9b00bac9", null ],
+    [ "HandleHit", "d3/df6/a23362.html#adb30857a5a320bb24b8cc0bcb9d60040", null ],
+    [ "PrepareSpellScript", "d3/df6/a23362.html#a376618b9811b2e1ec18697431094e22f", null ],
+    [ "Register", "d3/df6/a23362.html#ae7f4f54446d5a1ebb20d49ab9deaed81", null ]
 ];

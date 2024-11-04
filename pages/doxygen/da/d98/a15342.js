@@ -1,9 +1,6 @@
 var a15342 =
 [
-    [ "go_wind_stoneAI", "da/d98/a15342.html#a4370be2b59ea50bf5ea2285bfbf4e242", null ],
-    [ "GossipHello", "da/d98/a15342.html#a73f129b7b636a1178fe3402cf1e6c50d", null ],
-    [ "GossipSelect", "da/d98/a15342.html#aff4dedbf3a6fea405722f7064633edb1", null ],
-    [ "InitializeAI", "da/d98/a15342.html#a33f98d1de05b539a66c4103b4c61de1f", null ],
-    [ "SummonNPC", "da/d98/a15342.html#ab44f563b8f117a19ac78508c3cba72e9", null ],
-    [ "_creatureGuid", "da/d98/a15342.html#a50ad8b248381a6d9fac7a291796966d6", null ]
+    [ "npc_twiggy_flatheadAI", "df/d05/a15346.html", "df/d05/a15346" ],
+    [ "npc_twiggy_flathead", "da/d98/a15342.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
+    [ "GetAI", "da/d98/a15342.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
 ];

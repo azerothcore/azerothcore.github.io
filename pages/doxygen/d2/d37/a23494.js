@@ -1,7 +1,7 @@
 var a23494 =
 [
-    [ "HandleDummyApply", "d2/d37/a23494.html#a8a982bbbda94a2cf981c845161f05bdc", null ],
-    [ "HandleDummyRemove", "d2/d37/a23494.html#a5d68d9e15600119deca7179ffe00acda", null ],
-    [ "PrepareAuraScript", "d2/d37/a23494.html#a34d09e48b69d32dae6c127fa0837be4b", null ],
-    [ "Register", "d2/d37/a23494.html#a094004ccf6b4cae4d27bca639b76b899", null ]
+    [ "HandleCast", "d2/d37/a23494.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
+    [ "PrepareSpellScript", "d2/d37/a23494.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
+    [ "Register", "d2/d37/a23494.html#a6ae0573ea69573df64cd57ba84f99918", null ],
+    [ "Validate", "d2/d37/a23494.html#ab5794ca5c0863ce40194ed40e156279a", null ]
 ];

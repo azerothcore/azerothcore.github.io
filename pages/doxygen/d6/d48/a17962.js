@@ -1,6 +1,7 @@
 var a17962 =
 [
-    [ "DefileTargetSelector", "d6/d48/a17962.html#a9c13a04378d6550dd135d2cb41c9bc1c", null ],
-    [ "operator()", "d6/d48/a17962.html#a2ffea7bb2c62e0fa069e3d1ffec3ab11", null ],
-    [ "_source", "d6/d48/a17962.html#a427b4304b5a93f26741eda90d20ff13b", null ]
+    [ "CheckTargetCount", "d6/d48/a17962.html#a637ba0717ae0f6f736f5532ed65ca301", null ],
+    [ "PrepareSpellScript", "d6/d48/a17962.html#af560e5c4e985e9b139999f5ef618fe3c", null ],
+    [ "Register", "d6/d48/a17962.html#a86e7512496fd38201d458c03a7a60296", null ],
+    [ "Validate", "d6/d48/a17962.html#a744c4aa76387be4aa76a69fbcaa7932e", null ]
 ];

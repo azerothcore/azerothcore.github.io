@@ -1,6 +1,5 @@
 var a22970 =
 [
-    [ "OnPeriodic", "d5/dc3/a22970.html#aef6afe014ce90711cd7628563aada2a4", null ],
-    [ "PrepareAuraScript", "d5/dc3/a22970.html#a40a98b79b445d3cebe3f195cb9c03a80", null ],
-    [ "Register", "d5/dc3/a22970.html#a44c261ff549ddf0b1dad5ae6d0ff2432", null ]
+    [ "go_strange_pool", "d5/dc3/a22970.html#aa44feb353ad1cb440e5b6707112af680", null ],
+    [ "OnGossipHello", "d5/dc3/a22970.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
 ];

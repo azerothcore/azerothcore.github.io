@@ -1,8 +1,8 @@
 var a02558 =
 [
-    [ "sOnyxMove", "dc/d70/a14642.html", "dc/d70/a14642" ],
-    [ "boss_onyxia", "df/ded/a14646.html", "df/ded/a14646" ],
-    [ "npc_onyxian_lair_guard", "d8/de4/a14650.html", "d8/de4/a14650" ],
+    [ "sOnyxMove", "d1/d18/a14578.html", "d1/d18/a14578" ],
+    [ "boss_onyxia", "d5/d71/a14582.html", "d5/d71/a14582" ],
+    [ "npc_onyxian_lair_guard", "d0/d22/a14586.html", "d0/d22/a14586" ],
     [ "Events", "df/d23/a02558.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

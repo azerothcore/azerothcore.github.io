@@ -1,8 +1,6 @@
 var a13194 =
 [
-    [ "HandleApply", "d7/d81/a13194.html#a9dce02909356193476e66586aee87f1d", null ],
-    [ "OnPeriodic", "d7/d81/a13194.html#add4f000f81d5d4112719c6dd7464163c", null ],
-    [ "PrepareAuraScript", "d7/d81/a13194.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
-    [ "Register", "d7/d81/a13194.html#abc349f12f375b1f284eb78a363e8172a", null ],
-    [ "Validate", "d7/d81/a13194.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
+    [ "HandleSendEvent", "d7/d81/a13194.html#af62c176d53589228d5e0077c9fc268a3", null ],
+    [ "PrepareSpellScript", "d7/d81/a13194.html#acea8e256f267dd496e5f573e982dba5f", null ],
+    [ "Register", "d7/d81/a13194.html#a0827e177a8268994bb4e63f07993a354", null ]
 ];

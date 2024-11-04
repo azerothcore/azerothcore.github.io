@@ -1,6 +1,6 @@
 var a18310 =
 [
-    [ "npc_blistering_zombieAI", "dd/da8/a18314.html", "dd/da8/a18314" ],
-    [ "npc_blistering_zombie", "d1/d6d/a18310.html#aade4afec51e5ee77df8a39cff83e1f44", null ],
-    [ "GetAI", "d1/d6d/a18310.html#a08ef7c13b1755ac665507cd8397a2f93", null ]
+    [ "boss_sister_svalnaAI", "dd/da8/a18314.html", "dd/da8/a18314" ],
+    [ "boss_sister_svalna", "d1/d6d/a18310.html#a233a9606db61f6ab945350e98a0929ff", null ],
+    [ "GetAI", "d1/d6d/a18310.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
 ];

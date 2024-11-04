@@ -1,6 +1,6 @@
 var a12886 =
 [
-    [ "boss_baroness_anastariAI", "d9/dd9/a12890.html", "d9/dd9/a12890" ],
-    [ "boss_baroness_anastari", "dc/dc1/a12886.html#a60f04c10d9b942cacf74a1dc8364dbbe", null ],
-    [ "GetAI", "dc/dc1/a12886.html#a38073f80afbceb5535cc18ab524378a6", null ]
+    [ "HandleSendEvent", "dc/dc1/a12886.html#ad245a7dcf129774b8ef3e3653b3e3026", null ],
+    [ "PrepareSpellScript", "dc/dc1/a12886.html#ad9dfe5b2702540eb119ec86cfbd0ff30", null ],
+    [ "Register", "dc/dc1/a12886.html#a0b5ac8cfc4eb4adadb653a81a59a8287", null ]
 ];

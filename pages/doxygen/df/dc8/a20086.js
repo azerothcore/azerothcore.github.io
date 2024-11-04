@@ -1,6 +1,6 @@
 var a20086 =
 [
-    [ "FilterTargets", "df/dc8/a20086.html#af15fc44e9bd5251aa70aaaa6657e0c29", null ],
-    [ "PrepareSpellScript", "df/dc8/a20086.html#ae0ebd4c2ac0f91da5b2574ee7dac31ec", null ],
-    [ "Register", "df/dc8/a20086.html#af6704b0789566b2b385ac573eaa50f06", null ]
+    [ "OnRemoveStun", "df/dc8/a20086.html#a67aeca34d32c43ff647dc2dbe83cbb7f", null ],
+    [ "PrepareAuraScript", "df/dc8/a20086.html#a0be1d9a7dcba0bff75d59aed926efe55", null ],
+    [ "Register", "df/dc8/a20086.html#a3166cfcd2acdcd4460217503d4008367", null ]
 ];

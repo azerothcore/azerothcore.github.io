@@ -1,7 +1,8 @@
 var a16014 =
 [
-    [ "HandleAfterEffectAbsorb", "d5/df2/a16014.html#ab3d9f3679931b4b3b29713602d08701d", null ],
-    [ "PrepareAuraScript", "d5/df2/a16014.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
-    [ "Register", "d5/df2/a16014.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
-    [ "Validate", "d5/df2/a16014.html#a87750183d2b2d6adb67bba4a1f767029", null ]
+    [ "npc_announcer_toc5AI", "d5/df2/a16014.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
+    [ "DamageTaken", "d5/df2/a16014.html#a53458483699ac026ff2cd36b5f061571", null ],
+    [ "MovementInform", "d5/df2/a16014.html#acdcf4110b3815635ad173a70e7a1e603", null ],
+    [ "Reset", "d5/df2/a16014.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
+    [ "UpdateAI", "d5/df2/a16014.html#ad2c596253d67d051f497a8d77859846d", null ]
 ];

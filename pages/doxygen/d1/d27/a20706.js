@@ -1,6 +1,5 @@
 var a20706 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d1/d27/a20706.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
-    [ "DamageTaken", "d1/d27/a20706.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
-    [ "JustDied", "d1/d27/a20706.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
+    [ "achievement_yogg_saron_drive_me_crazy", "d1/d27/a20706.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
+    [ "OnCheck", "d1/d27/a20706.html#a029fdd68e0643b53971efbb1056f19d8", null ]
 ];

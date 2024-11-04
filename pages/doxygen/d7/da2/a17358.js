@@ -1,6 +1,7 @@
 var a17358 =
 [
-    [ "npc_zafod_boomboxAI", "d6/dae/a17362.html", "d6/dae/a17362" ],
-    [ "npc_zafod_boombox", "d7/da2/a17358.html#a7124746ed3f25ae6d96a2fa1910d98d0", null ],
-    [ "GetAI", "d7/da2/a17358.html#af80f6913cef53d39cafdcd47b2cd07f0", null ]
+    [ "FilterTargets", "d7/da2/a17358.html#a32b2fa87fb2eaca3db0801fbfe4b8aaa", null ],
+    [ "Load", "d7/da2/a17358.html#a39e8ec4726a1f6c2911c165c7187f291", null ],
+    [ "PrepareSpellScript", "d7/da2/a17358.html#a7526a6df4c25136f4be78e753c6abf62", null ],
+    [ "Register", "d7/da2/a17358.html#a0d01b8292c1c071a5c828a5a88617bd5", null ]
 ];

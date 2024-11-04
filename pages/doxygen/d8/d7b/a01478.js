@@ -1,11 +1,11 @@
 var a01478 =
 [
-    [ "boss_ick", "d2/dc3/a16794.html", "d2/dc3/a16794" ],
-    [ "boss_ick::boss_ickAI", "d8/d8b/a16798.html", "d8/d8b/a16798" ],
-    [ "boss_krick", "d2/d40/a16802.html", "d2/d40/a16802" ],
-    [ "boss_krick::boss_krickAI", "d6/da7/a16806.html", "d6/da7/a16806" ],
-    [ "spell_krick_explosive_barrage_aura", "d6/d63/a16810.html", "d6/d63/a16810" ],
-    [ "spell_exploding_orb_auto_grow_aura", "df/d64/a16814.html", "df/d64/a16814" ],
+    [ "boss_ick", "d9/d53/a16694.html", "d9/d53/a16694" ],
+    [ "boss_ick::boss_ickAI", "db/dcc/a16698.html", "db/dcc/a16698" ],
+    [ "boss_krick", "d5/dc6/a16702.html", "d5/dc6/a16702" ],
+    [ "boss_krick::boss_krickAI", "d4/d09/a16706.html", "d4/d09/a16706" ],
+    [ "spell_krick_explosive_barrage_aura", "d1/dbe/a16710.html", "d1/dbe/a16710" ],
+    [ "spell_exploding_orb_auto_grow_aura", "d4/ddf/a16714.html", "d4/ddf/a16714" ],
     [ "Events", "d8/d7b/a01478.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

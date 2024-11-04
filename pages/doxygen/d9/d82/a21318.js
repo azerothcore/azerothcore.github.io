@@ -1,8 +1,9 @@
 var a21318 =
 [
-    [ "npc_azure_mage_slayerAI", "d9/d82/a21318.html#af1a57574d70a48b16d70d8a056f54018", null ],
-    [ "Reset", "d9/d82/a21318.html#aabe921f0d4fd147c457779791a7af619", null ],
-    [ "UpdateAI", "d9/d82/a21318.html#a7cc5ea88be6c9cf767a0cd433db7dd73", null ],
-    [ "uiArcaneEmpowermentTimer", "d9/d82/a21318.html#ace0fdd5e4b57e7ce603d2355bfc838dd", null ],
-    [ "uiSpellLockTimer", "d9/d82/a21318.html#ac3c4d2be0dd9ba42e40adccda7100947", null ]
+    [ "npc_bonker_togglevoltAI", "d9/d82/a21318.html#adfd43a6a804a35e235262e55f0155ffe", null ],
+    [ "JustDied", "d9/d82/a21318.html#a5ac6e89ad9ad3d3d69a87f7b9dc4026f", null ],
+    [ "Reset", "d9/d82/a21318.html#a13efa2a2a0c5c796b3fd9f36a54ce523", null ],
+    [ "UpdateEscortAI", "d9/d82/a21318.html#a9bf17d7ec59d800955c131dbe14a31d8", null ],
+    [ "WaypointReached", "d9/d82/a21318.html#a06dc6c018d52f1cd1b2c7f76dbda3a2d", null ],
+    [ "Bonker_agro", "d9/d82/a21318.html#a395e6e14f03cb0ecfe70348cc148d7ef", null ]
 ];

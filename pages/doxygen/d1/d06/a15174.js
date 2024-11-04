@@ -1,7 +1,6 @@
 var a15174 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "d6/d63/a15178.html", "d6/d63/a15178" ],
-    [ "npc_aged_dying_ancient_kodo", "d1/d06/a15174.html#a676170a319d3a8e46c9d017e61396c28", null ],
-    [ "GetAI", "d1/d06/a15174.html#a886bc82764e4ca6d98dc94ea73415375", null ],
-    [ "OnGossipHello", "d1/d06/a15174.html#a8489b3f23d8eca39f2750711512672e4", null ]
+    [ "HandleDummy", "d1/d06/a15174.html#af9c26a7e5f6cba4f1146cb626dbcf8ed", null ],
+    [ "PrepareSpellScript", "d1/d06/a15174.html#adc581ed46587afcc8be3800ae79105f6", null ],
+    [ "Register", "d1/d06/a15174.html#a7d09808ea2fdec450fcd129e996bd245", null ]
 ];

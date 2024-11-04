@@ -1,7 +1,10 @@
 var a25206 =
 [
-    [ "HandleScript", "de/d6b/a25206.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
-    [ "PrepareSpellScript", "de/d6b/a25206.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
-    [ "Register", "de/d6b/a25206.html#a984b2af5268fbf294a0292502b8ddb44", null ],
-    [ "Validate", "de/d6b/a25206.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
+    [ "ApplyMarker", "de/d6b/a25206.html#aae1bd2f5f21a389e8d110cabecc9d94d", null ],
+    [ "CheckTrapProc", "de/d6b/a25206.html#a00f06f18b6874302f88c3af193d8e4ed", null ],
+    [ "HandleProcs", "de/d6b/a25206.html#a81abe76c24a6a6320811d99ce8f5fb4f", null ],
+    [ "IsTargetValid", "de/d6b/a25206.html#a02590da9b97a4d6bc7a6cbd0e670480f", null ],
+    [ "PrepareAuraScript", "de/d6b/a25206.html#a475320d20875b2d710ed3734b78f4645", null ],
+    [ "Register", "de/d6b/a25206.html#aca7649a87ace4e22793ca33705b1500c", null ],
+    [ "Validate", "de/d6b/a25206.html#a45630b6dc703996321286ff16a17e3e3", null ]
 ];

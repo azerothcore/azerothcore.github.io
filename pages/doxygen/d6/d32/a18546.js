@@ -1,7 +1,6 @@
 var a18546 =
 [
-    [ "HandleEffectPeriodic", "d6/d32/a18546.html#a208c4d59e20cd802cf2f4643fa0d6253", null ],
-    [ "PrepareAuraScript", "d6/d32/a18546.html#af1d284c4686f739b02b350a6c0a166c2", null ],
-    [ "Register", "d6/d32/a18546.html#a006a97823ac07346771ec4ab61bd0763", null ],
-    [ "Validate", "d6/d32/a18546.html#ae1f5555dcadb48ba59bf9571073f4a99", null ]
+    [ "npc_icc_putricades_trapAI", "d7/d3c/a18550.html", "d7/d3c/a18550" ],
+    [ "npc_icc_putricades_trap", "d6/d32/a18546.html#ae022f2991fee4143fb965c53e4d4da5c", null ],
+    [ "GetAI", "d6/d32/a18546.html#a42ab1cb27234ebd10755dbbedce5f187", null ]
 ];

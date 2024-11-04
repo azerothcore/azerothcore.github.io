@@ -1,8 +1,6 @@
 var a18346 =
 [
-    [ "FilterTargets", "d7/d9f/a18346.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
-    [ "HandleForceCast", "d7/d9f/a18346.html#ae783cf255be823bf7c9125f288479e97", null ],
-    [ "Load", "d7/d9f/a18346.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
-    [ "PrepareSpellScript", "d7/d9f/a18346.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
-    [ "Register", "d7/d9f/a18346.html#a454a8909be4bb85f255ea696041ea447", null ]
+    [ "npc_captain_rupertAI", "dc/dcc/a18350.html", "dc/dcc/a18350" ],
+    [ "npc_captain_rupert", "d7/d9f/a18346.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
+    [ "GetAI", "d7/d9f/a18346.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
 ];

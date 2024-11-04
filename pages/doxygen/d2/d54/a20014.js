@@ -1,7 +1,5 @@
 var a20014 =
 [
-    [ "npc_ulduar_icicleAI", "d2/d54/a20014.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
-    [ "UpdateAI", "d2/d54/a20014.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
-    [ "timer1", "d2/d54/a20014.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
-    [ "timer2", "d2/d54/a20014.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
+    [ "achievement_staying_buffed_all_winter_25", "d2/d54/a20014.html#a91f0ab3bada837cff6414350b98a27a3", null ],
+    [ "OnCheck", "d2/d54/a20014.html#a36591082184bc8466e124bad9a910545", null ]
 ];

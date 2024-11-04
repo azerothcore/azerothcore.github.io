@@ -1,6 +1,6 @@
 var a17490 =
 [
-    [ "IgbArtilleryCheck", "dd/d8b/a17490.html#a78b65928551ed799cf3f446f0603c50e", null ],
-    [ "operator()", "dd/d8b/a17490.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
-    [ "_entry", "dd/d8b/a17490.html#a98a6a0836414da82c288e372e982f69f", null ]
+    [ "npc_bone_spikeAI", "dd/da4/a17494.html", "dd/da4/a17494" ],
+    [ "npc_bone_spike", "dd/d8b/a17490.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
+    [ "GetAI", "dd/d8b/a17490.html#a887a9156f550ca55047fa501e1709d95", null ]
 ];

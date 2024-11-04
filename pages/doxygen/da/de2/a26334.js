@@ -1,6 +1,11 @@
 var a26334 =
 [
-    [ "HandleDummy", "da/de2/a26334.html#a73628636431d3549d6e3530c6ef23c08", null ],
-    [ "PrepareSpellScript", "da/de2/a26334.html#ab90d3031b356e8004fa62c9562f1ba1f", null ],
-    [ "Register", "da/de2/a26334.html#a7f42cf47831d3c8544453530a1454ddc", null ]
+    [ "CheckProc", "da/de2/a26334.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
+    [ "HandleProc", "da/de2/a26334.html#af29b1d6d8553003514918a383cb08b4a", null ],
+    [ "Load", "da/de2/a26334.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
+    [ "OnRemove", "da/de2/a26334.html#a9227147dd6e621deddd0088b95e9db2f", null ],
+    [ "PrepareAuraScript", "da/de2/a26334.html#a149881d517edbb15032452554fc64948", null ],
+    [ "Register", "da/de2/a26334.html#ac81d60d54a87a23bd9481934f5753de0", null ],
+    [ "Validate", "da/de2/a26334.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
+    [ "_redirectTarget", "da/de2/a26334.html#af3ee2a283d8942ab3652a6386c26f737", null ]
 ];

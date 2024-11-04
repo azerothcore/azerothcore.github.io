@@ -1,7 +1,7 @@
 var a19982 =
 [
-    [ "HandleAfterHit", "df/d15/a19982.html#a75953cbb3a288fd373e602ed07d84441", null ],
-    [ "PrepareSpellScript", "df/d15/a19982.html#a55c604f072fd0bbdcb886635fb53eaa8", null ],
-    [ "Register", "df/d15/a19982.html#af963f0dcdf2a1bc040a597c06983f0a7", null ],
-    [ "Validate", "df/d15/a19982.html#aea2b951dd2353800958f654df58d8fd8", null ]
+    [ "HandleEffectPeriodic", "df/d15/a19982.html#ae22cd3b6f7cf515e80dd1125349dd152", null ],
+    [ "PrepareAuraScript", "df/d15/a19982.html#a4cc9b379480c50e1116e3dab03afeaad", null ],
+    [ "Register", "df/d15/a19982.html#ac82d5a47f5eca266eed99ab65f9eb5bf", null ],
+    [ "Validate", "df/d15/a19982.html#a2bb4fe398e6b225dd14bdb51e3f01522", null ]
 ];

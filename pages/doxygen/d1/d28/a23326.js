@@ -1,7 +1,6 @@
 var a23326 =
 [
-    [ "HandleScript", "d1/d28/a23326.html#a359ccbdf47c9b6a1df23e6f775d5ffa8", null ],
-    [ "PrepareSpellScript", "d1/d28/a23326.html#ac1193881ad39e7ea7cb1f8f1b6627c60", null ],
-    [ "Register", "d1/d28/a23326.html#afb83fdd384a430e572a7959f81cdf2cb", null ],
-    [ "Validate", "d1/d28/a23326.html#af8587f9dff4b71b7cce8ec6d70f94927", null ]
+    [ "CheckProc", "d1/d28/a23326.html#add583b34b9052fbb37c43c558f0f8b96", null ],
+    [ "PrepareAuraScript", "d1/d28/a23326.html#a3d7ed0fa175daffcf11fc3ee04b189bf", null ],
+    [ "Register", "d1/d28/a23326.html#ab91f611f59e83d4f1b7c71b1595db667", null ]
 ];

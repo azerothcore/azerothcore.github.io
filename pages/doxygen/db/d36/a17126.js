@@ -1,7 +1,8 @@
 var a17126 =
 [
-    [ "HandleScript", "db/d36/a17126.html#a4b1e392acea30a9259e65a75667704c5", null ],
-    [ "Load", "db/d36/a17126.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
-    [ "PrepareSpellScript", "db/d36/a17126.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
-    [ "Register", "db/d36/a17126.html#a77632d11a172e5552c0c49de830a1639", null ]
+    [ "npc_muradin_bronzebeard_iccAI", "d5/d3b/a17130.html", "d5/d3b/a17130" ],
+    [ "npc_muradin_bronzebeard_icc", "db/d36/a17126.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
+    [ "GetAI", "db/d36/a17126.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
+    [ "OnGossipHello", "db/d36/a17126.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
+    [ "OnGossipSelect", "db/d36/a17126.html#a46c4893be723a848d985ff55e28d55a2", null ]
 ];

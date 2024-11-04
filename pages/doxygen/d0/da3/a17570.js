@@ -1,5 +1,6 @@
 var a17570 =
 [
-    [ "at_lady_deathwhisper_entrance", "d0/da3/a17570.html#a3c16844f4ff97fd0699edb1d1aca2f60", null ],
-    [ "OnTrigger", "d0/da3/a17570.html#a769c838c94a88af5492057909d88f3de", null ]
+    [ "HandleScript", "d0/da3/a17570.html#aefdd306b81b44a0a5564eab5a0491e09", null ],
+    [ "PrepareSpellScript", "d0/da3/a17570.html#a68c0462bd108b04621f8288328f78b18", null ],
+    [ "Register", "d0/da3/a17570.html#aedaec0afc414800bc481a434592ffb5d", null ]
 ];

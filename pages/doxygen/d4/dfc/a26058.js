@@ -1,6 +1,6 @@
 var a26058 =
 [
-    [ "FilterTargets", "d4/dfc/a26058.html#a17626abdbc4066956b76945b11b3f0c6", null ],
-    [ "PrepareSpellScript", "d4/dfc/a26058.html#abfeb75060c1f930b33003dd1e458f882", null ],
-    [ "Register", "d4/dfc/a26058.html#a8e5146a57f181b17280d198bcd2e216d", null ]
+    [ "HandleScript", "d4/dfc/a26058.html#ae81570045d4984ee5682a0333b1b142d", null ],
+    [ "PrepareSpellScript", "d4/dfc/a26058.html#acb074781e07961998362349a7616fc4e", null ],
+    [ "Register", "d4/dfc/a26058.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
 ];

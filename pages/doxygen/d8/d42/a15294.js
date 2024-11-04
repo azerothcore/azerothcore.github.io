@@ -1,6 +1,6 @@
 var a15294 =
 [
-    [ "Creature", "d8/d42/a15294.html#a77b33f8998f85808b58052079b1cab54", null ],
-    [ "TextId", "d8/d42/a15294.html#ad691f3cd40035e96547adf7528229119", null ],
-    [ "Timer", "d8/d42/a15294.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
+    [ "npc_aquementasAI", "d4/d38/a15298.html", "d4/d38/a15298" ],
+    [ "npc_aquementas", "d8/d42/a15294.html#a81d0b010c2aef0ea329ff7656b76cbe5", null ],
+    [ "GetAI", "d8/d42/a15294.html#a8a071b3073d69306feb84aca347a22c8", null ]
 ];

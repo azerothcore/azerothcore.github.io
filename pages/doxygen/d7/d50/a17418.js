@@ -1,7 +1,6 @@
 var a17418 =
 [
-    [ "npc_gunship_rocketeerAI", "d7/d50/a17418.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
-    [ "CanAIAttack", "d7/d50/a17418.html#a4b4e2839e426bdb752beea09394f13dc", null ],
-    [ "MovementInform", "d7/d50/a17418.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
-    [ "UpdateAI", "d7/d50/a17418.html#af73d71750f116fb90be1c2acba75ca70", null ]
+    [ "DaranavanMoveEvent", "d7/d50/a17418.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
+    [ "Execute", "d7/d50/a17418.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
+    [ "_darnavan", "d7/d50/a17418.html#a7585edb957755efbc6064f232d50ea4e", null ]
 ];

@@ -1,12 +1,10 @@
 var a13314 =
 [
-    [ "npc_cameron", "d9/d3b/a13314.html#a45e47ec5c9dadc6f0899e83ac2e19cff", null ],
-    [ "MoveTheChildren", "d9/d3b/a13314.html#a85ae436f19f69ffb853330f01ee152a0", null ],
-    [ "PathEndReached", "d9/d3b/a13314.html#a0bf53f40eeb4fe3ed7d62988bee0a912", null ],
-    [ "sOnGameEvent", "d9/d3b/a13314.html#ab22841871cfcdc926b28296a5b4e440c", null ],
-    [ "SoundPicker", "d9/d3b/a13314.html#a2ad97aaac0bd759921e0b75cfc88d07d", null ],
-    [ "UpdateAI", "d9/d3b/a13314.html#a32a2dd2be2c06700fb81f4072a364ce2", null ],
-    [ "_childrenGUIDs", "d9/d3b/a13314.html#ad260466902e8fb1a2e02998cc4549695", null ],
-    [ "_events", "d9/d3b/a13314.html#ad6c58f433520c4ed55f43ef3604dde28", null ],
-    [ "_started", "d9/d3b/a13314.html#a985d0590eedde340a3923e299d4dffd8", null ]
+    [ "npc_grand_magister_rommathAI", "d9/d3b/a13314.html#a5e9404dd8bf4b513e05daac53c076314", null ],
+    [ "DoAction", "d9/d3b/a13314.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
+    [ "MoveInLineOfSight", "d9/d3b/a13314.html#ad35b64b37915484b133bcd185a832011", null ],
+    [ "UpdateAI", "d9/d3b/a13314.html#ac687bd20f0ae66b21ce52c21561af417", null ],
+    [ "announced", "d9/d3b/a13314.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
+    [ "events", "d9/d3b/a13314.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
+    [ "playerGUID", "d9/d3b/a13314.html#ad0ac0647feb998e837a44b0a688694e9", null ]
 ];

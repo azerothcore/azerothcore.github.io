@@ -1,7 +1,6 @@
 var a23346 =
 [
-    [ "OnApply", "d0/d43/a23346.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
-    [ "PeriodicTick", "d0/d43/a23346.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
-    [ "PrepareAuraScript", "d0/d43/a23346.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
-    [ "Register", "d0/d43/a23346.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
+    [ "HandleScriptEffect", "d0/d43/a23346.html#af0841e5c67c981b792a8d8f0d0d18edc", null ],
+    [ "PrepareSpellScript", "d0/d43/a23346.html#a287bff28e57a86f0176921500de78fa9", null ],
+    [ "Register", "d0/d43/a23346.html#ad5fb101794dfdef0c08551dd9397b965", null ]
 ];

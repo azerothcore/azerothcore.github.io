@@ -1,6 +1,6 @@
 var a16322 =
 [
-    [ "spell_mistress_kiss_area_SpellScript", "d1/dc4/a16326.html", "d1/dc4/a16326" ],
-    [ "spell_mistress_kiss_area", "d3/df2/a16322.html#aa565a8a7450f89c71fa484a1ea8bec18", null ],
-    [ "GetSpellScript", "d3/df2/a16322.html#a3b9714728d645ea5c8713528b51bc960", null ]
+    [ "HandleEffectPeriodic", "d3/df2/a16322.html#a8775f4e2cb6be96f57596413d560206c", null ],
+    [ "PrepareAuraScript", "d3/df2/a16322.html#a45118f9887d248a5eb840b945dee5b79", null ],
+    [ "Register", "d3/df2/a16322.html#ad1b2b8e1dca62c31ec2b071ae4ca2f35", null ]
 ];

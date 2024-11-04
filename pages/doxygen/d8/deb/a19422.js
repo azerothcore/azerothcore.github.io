@@ -1,6 +1,8 @@
 var a19422 =
 [
-    [ "boss_sjonnir_dwarfAI", "df/dd9/a19426.html", "df/dd9/a19426" ],
-    [ "boss_sjonnir_dwarf", "d8/deb/a19422.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
-    [ "GetAI", "d8/deb/a19422.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
+    [ "npc_algalon_worm_holeAI", "d8/deb/a19422.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "d8/deb/a19422.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "d8/deb/a19422.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "d8/deb/a19422.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "d8/deb/a19422.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

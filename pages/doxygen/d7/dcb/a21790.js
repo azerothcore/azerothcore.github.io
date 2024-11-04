@@ -1,8 +1,6 @@
 var a21790 =
 [
-    [ "npc_ravenous_worgAI", "d7/dcb/a21790.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "d7/dcb/a21790.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "d7/dcb/a21790.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "d7/dcb/a21790.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "d7/dcb/a21790.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "npc_llod_genericAI", "d4/d3f/a21794.html", "d4/d3f/a21794" ],
+    [ "npc_llod_generic", "d7/dcb/a21790.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
+    [ "GetAI", "d7/dcb/a21790.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
 ];

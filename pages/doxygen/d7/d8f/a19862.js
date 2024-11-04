@@ -1,6 +1,7 @@
 var a19862 =
 [
-    [ "boss_freyaAI", "d8/d4f/a19866.html", "d8/d4f/a19866" ],
-    [ "boss_freya", "d7/d8f/a19862.html#ae366f60526e7c948dee148cdd12f0752", null ],
-    [ "GetAI", "d7/d8f/a19862.html#a6a2f5b402e99208a535fc3f23c2a0eb3", null ]
+    [ "HandleAfterEffectApply", "d7/d8f/a19862.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "d7/d8f/a19862.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "d7/d8f/a19862.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "d7/d8f/a19862.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

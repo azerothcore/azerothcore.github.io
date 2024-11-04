@@ -1,7 +1,5 @@
 var a26926 =
 [
-    [ "CharacterDeleteActionIpLogger", "d0/dfe/a26926.html#a37481de65409cf375dcff45615463949", null ],
-    [ "DeleteIPLogAction", "d0/dfe/a26926.html#a73a5ddacd8892d2300be313cfc12f534", null ],
-    [ "OnDelete", "d0/dfe/a26926.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
-    [ "OnFailedDelete", "d0/dfe/a26926.html#a34efd44289746078fdcfae63641b5580", null ]
+    [ "go_arena_ready_marker", "d0/dfe/a26926.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "d0/dfe/a26926.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

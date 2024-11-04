@@ -1,6 +1,5 @@
 var a14818 =
 [
-    [ "HandleScript", "df/d58/a14818.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
-    [ "PrepareSpellScript", "df/d58/a14818.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
-    [ "Register", "df/d58/a14818.html#a434f0aef7f32edb6990efb992e4d57af", null ]
+    [ "at_cthun_stomach_exit", "df/d58/a14818.html#ab37174eff353cdbba1f300464645ac63", null ],
+    [ "OnTrigger", "df/d58/a14818.html#ab56dca3fe200dc7822459a22912247bf", null ]
 ];

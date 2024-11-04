@@ -1,10 +1,6 @@
 var a27010 =
 [
-    [ "boss_emerissAI", "db/d4e/a27010.html#ad94b3b097d9987e365f91b7e57d0f208", null ],
-    [ "DamageTaken", "db/d4e/a27010.html#abb80c49c166f31cd7e2d24392fbf60e1", null ],
-    [ "ExecuteEvent", "db/d4e/a27010.html#ad3839ad4b0a930bc96154b5b0aab17fe", null ],
-    [ "JustEngagedWith", "db/d4e/a27010.html#a5a51b97216a27637f6bd3020ba05e0f7", null ],
-    [ "KilledUnit", "db/d4e/a27010.html#ad851169bc09a362137e211dd10d30a1b", null ],
-    [ "Reset", "db/d4e/a27010.html#a44dfb325c4e8413662052137edc710ef", null ],
-    [ "_stage", "db/d4e/a27010.html#ae2c8c5c2d2054af41c5dbe938b3eb79a", null ]
+    [ "go_midsummer_musicAI", "db/d4e/a27010.html#a8cbadc16a9588c469ff48dbaf51ac71c", null ],
+    [ "UpdateAI", "db/d4e/a27010.html#adf185ee702e9e74f65204b90786f9eb4", null ],
+    [ "_events", "db/d4e/a27010.html#a31e45a754930cdc3206fe2b7f754d234", null ]
 ];

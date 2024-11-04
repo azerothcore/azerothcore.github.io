@@ -1,5 +1,6 @@
 var a21046 =
 [
-    [ "npc_ritual_channelerAI", "d1/df0/a21046.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d1/df0/a21046.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "boss_cyanigosaAI", "d5/d47/a21050.html", "d5/d47/a21050" ],
+    [ "boss_cyanigosa", "d1/df0/a21046.html#a4db12e2fb873ad3595a437df09663a22", null ],
+    [ "GetAI", "d1/df0/a21046.html#a779c7c3a5f0002501361fa92fe14af69", null ]
 ];

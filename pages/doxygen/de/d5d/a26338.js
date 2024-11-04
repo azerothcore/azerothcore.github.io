@@ -1,6 +1,6 @@
 var a26338 =
 [
-    [ "HandleEffectPeriodic", "de/d5d/a26338.html#ab283b40ceb6dcd0a835550531321ce92", null ],
-    [ "PrepareAuraScript", "de/d5d/a26338.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
-    [ "Register", "de/d5d/a26338.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
+    [ "HandleRemove", "de/d5d/a26338.html#a92eb5e02c8b165caa877d368a456e5b2", null ],
+    [ "PrepareAuraScript", "de/d5d/a26338.html#a132193c0c13a2f89b9b29391d524023a", null ],
+    [ "Register", "de/d5d/a26338.html#a246294a7b9a128a9ec464562846332fc", null ]
 ];

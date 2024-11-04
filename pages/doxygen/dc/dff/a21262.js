@@ -1,6 +1,6 @@
 var a21262 =
 [
-    [ "npc_vh_void_sentryAI", "d4/d5e/a21266.html", "d4/d5e/a21266" ],
-    [ "npc_vh_void_sentry", "dc/dff/a21262.html#a6d4995d112a3fe6b59c3c3c417d98c45", null ],
-    [ "GetAI", "dc/dff/a21262.html#ab3bcb8f8e9084e2ab588f80929a5d5ce", null ]
+    [ "npc_nerubar_victimAI", "d4/d5e/a21266.html", "d4/d5e/a21266" ],
+    [ "npc_nerubar_victim", "dc/dff/a21262.html#a4fe80597d3e56776f0f04965fc706097", null ],
+    [ "GetAI", "dc/dff/a21262.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
 ];

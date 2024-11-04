@@ -1,13 +1,9 @@
 var a23286 =
 [
-    [ "boss_ghazan", "db/dd3/a23286.html#ae730362fcf3606c67b6b85147de98fb6", null ],
-    [ "DoAction", "db/dd3/a23286.html#ac016d5e06ca4f8f0bf2fa13ce2cd89e2", null ],
-    [ "InitializeAI", "db/dd3/a23286.html#a6b8c975a109dc5eb8a3e3fba03fe806e", null ],
-    [ "JustEngagedWith", "db/dd3/a23286.html#ad4136f0f63d267284f36756793c0efa7", null ],
-    [ "JustReachedHome", "db/dd3/a23286.html#af9f2dd854036d5c8b9c6703499836199", null ],
-    [ "MovementInform", "db/dd3/a23286.html#add9b2e60fb2ffc8a3905f063a2f3d0ae", null ],
-    [ "Reset", "db/dd3/a23286.html#afc9522a26060643f2f9d25a8a98691b7", null ],
-    [ "UpdateAI", "db/dd3/a23286.html#a40a6dd5ed2954be7df4612a7552e1bc0", null ],
-    [ "_movedToPlatform", "db/dd3/a23286.html#aa6c0c391355ac0b698d67796efd63062", null ],
-    [ "_reachedPlatform", "db/dd3/a23286.html#af3476318b4721bd52facaf735eabb1f9", null ]
+    [ "boss_the_maker", "db/dd3/a23286.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "db/dd3/a23286.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "db/dd3/a23286.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "db/dd3/a23286.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "db/dd3/a23286.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "db/dd3/a23286.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

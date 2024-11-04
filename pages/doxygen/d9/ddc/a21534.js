@@ -1,7 +1,7 @@
 var a21534 =
 [
-    [ "npc_warmage_violetstand", "d9/ddc/a21534.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
-    [ "Reset", "d9/ddc/a21534.html#a99015610597f43f184cc686c9fab2fa9", null ],
-    [ "UpdateAI", "d9/ddc/a21534.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
-    [ "targetGUID", "d9/ddc/a21534.html#a46560aa7aa90778967a79c931a81721b", null ]
+    [ "HandleApplyEffect", "d9/ddc/a21534.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
+    [ "HandleRemoveEffect", "d9/ddc/a21534.html#a243933fec9ccd650303ea5badbea725b", null ],
+    [ "PrepareAuraScript", "d9/ddc/a21534.html#ac0e1fc0694dd51e245340d3658592447", null ],
+    [ "Register", "d9/ddc/a21534.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
 ];

@@ -1,5 +1,12 @@
 var a27242 =
 [
-    [ "go_duskwither_spire_power_source", "df/dea/a27242.html#aab69de16e8b744af2671e2ed882ee94a", null ],
-    [ "OnGossipHello", "df/dea/a27242.html#a2c7fd017e7985b99bff187119157a041", null ]
+    [ "npc_elder_clearwaterAI", "df/dea/a27242.html#a4de89cf4a18918d577be4ac5cc55ba5a", null ],
+    [ "DoAction", "df/dea/a27242.html#ac46b0f66be3074f73f5a69cffee6d354", null ],
+    [ "GetData", "df/dea/a27242.html#a077c02bf06b16439225a5cf8d83babf2", null ],
+    [ "UpdateAI", "df/dea/a27242.html#afbec3c78d34ce4d11a11b56064f343f3", null ],
+    [ "events", "df/dea/a27242.html#a267fec22dc3d7272cae74267d0567618", null ],
+    [ "finished", "df/dea/a27242.html#af51d6abb8fc8b59d068156a4859a377e", null ],
+    [ "finishWarning", "df/dea/a27242.html#a83a2b8e6ceed45d4e6b834e13a4a4cdc", null ],
+    [ "preWarning", "df/dea/a27242.html#a64abe15565c7e97a3a0ef195d436fedc", null ],
+    [ "startWarning", "df/dea/a27242.html#a01545211dec4338ac44304ebc7f18a97", null ]
 ];

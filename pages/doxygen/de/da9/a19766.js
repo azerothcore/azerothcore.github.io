@@ -1,7 +1,11 @@
 var a19766 =
 [
-    [ "npc_storm_beacon_spawnAI", "de/da9/a19766.html#a031c1941f177a18af58efcf4a1270654", null ],
-    [ "UpdateAI", "de/da9/a19766.html#a249bf56b905ef0c8b34c737d95518c91", null ],
-    [ "_amount", "de/da9/a19766.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
-    [ "_checkTimer", "de/da9/a19766.html#a7fd6d449b6a20ba9463896244c513a67", null ]
+    [ "boss_freya_elder_brightleafAI", "de/da9/a19766.html#a53de463d34b808b4c5d459e1339f6f30", null ],
+    [ "JustDied", "de/da9/a19766.html#aeea7300081f645d3fa83df6841c5a497", null ],
+    [ "JustEngagedWith", "de/da9/a19766.html#a956adeb9b6ea0c8fa71bdcbd3735c79d", null ],
+    [ "KilledUnit", "de/da9/a19766.html#a47935d017a2d34a888acb4079d3ff9aa", null ],
+    [ "Reset", "de/da9/a19766.html#aee11d2e1fad8bc1b18c17b1527610914", null ],
+    [ "UpdateAI", "de/da9/a19766.html#af28f94f278d279513d7f72cdc36528d4", null ],
+    [ "events", "de/da9/a19766.html#a45b4f0d12497dd8e3ffc1cde429116f6", null ],
+    [ "summons", "de/da9/a19766.html#a456123135a7fb4595d611a9e3995f461", null ]
 ];

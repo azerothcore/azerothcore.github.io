@@ -1,6 +1,6 @@
 var a16774 =
 [
-    [ "instance_halls_of_reflection_InstanceMapScript", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
-    [ "instance_halls_of_reflection", "dc/dde/a16774.html#a8872b51ceec25dbf4831f45b27206ed1", null ],
-    [ "GetInstanceScript", "dc/dde/a16774.html#aca27a4f654f41fe6f238c905b48285b7", null ]
+    [ "npc_pos_collapsing_icicleAI", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
+    [ "npc_pos_collapsing_icicle", "dc/dde/a16774.html#a42b29fe5d4e106c1e5e5b866a0074664", null ],
+    [ "GetAI", "dc/dde/a16774.html#a96969ebe749b49ceb38920c63ec6fce3", null ]
 ];

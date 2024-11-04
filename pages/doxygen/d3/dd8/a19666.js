@@ -1,12 +1,8 @@
 var a19666 =
 [
-    [ "npc_auriaya_feral_defenderAI", "d3/dd8/a19666.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
-    [ "DoAction", "d3/dd8/a19666.html#a2b0a176dba865e90bdc22727b2860509", null ],
-    [ "JustDied", "d3/dd8/a19666.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
-    [ "Reset", "d3/dd8/a19666.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
-    [ "UpdateAI", "d3/dd8/a19666.html#a1edc249808e1ebdb88605c56e19c272a", null ],
-    [ "_feralEssenceStack", "d3/dd8/a19666.html#aab51096b8f57528a0a27e23a306d6762", null ],
-    [ "_feralPounceTimer", "d3/dd8/a19666.html#ab91df5ebee9c12d067ff83ee64effece", null ],
-    [ "_feralRushTimer", "d3/dd8/a19666.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
-    [ "summons", "d3/dd8/a19666.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
+    [ "npc_mechanoliftAI", "d3/dd8/a19666.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "d3/dd8/a19666.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "d3/dd8/a19666.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "d3/dd8/a19666.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "d3/dd8/a19666.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

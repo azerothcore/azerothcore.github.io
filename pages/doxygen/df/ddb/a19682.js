@@ -1,6 +1,8 @@
 var a19682 =
 [
-    [ "boss_flame_leviathanAI", "d3/d1f/a19686.html", "d3/d1f/a19686" ],
-    [ "boss_flame_leviathan", "df/ddb/a19682.html#af4fcd38fc7095701c6c31674d849aef4", null ],
-    [ "GetAI", "df/ddb/a19682.html#a3a402b002472bfe4347b512f21654c50", null ]
+    [ "OnApply", "df/ddb/a19682.html#a5aec8606684637bbdb1e819254f5d483", null ],
+    [ "OnRemove", "df/ddb/a19682.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
+    [ "PrepareAuraScript", "df/ddb/a19682.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
+    [ "Register", "df/ddb/a19682.html#af1db6ca387cf0733ba4b9c324172d692", null ],
+    [ "Validate", "df/ddb/a19682.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
 ];

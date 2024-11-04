@@ -1,7 +1,8 @@
 var a13146 =
 [
-    [ "HandleRemove", "d3/d6e/a13146.html#a4484cf33e423f23cad9559a6a16ed9b4", null ],
-    [ "PrepareAuraScript", "d3/d6e/a13146.html#a6fa407996b59d98d0eeef877ee89784d", null ],
-    [ "Register", "d3/d6e/a13146.html#a7dc81b47954ee8c10b99f389740de0be", null ],
-    [ "Validate", "d3/d6e/a13146.html#afd94a159c0f429f2a63ffbd0a38d32e3", null ]
+    [ "HandleApply", "d3/d6e/a13146.html#a9dce02909356193476e66586aee87f1d", null ],
+    [ "OnPeriodic", "d3/d6e/a13146.html#add4f000f81d5d4112719c6dd7464163c", null ],
+    [ "PrepareAuraScript", "d3/d6e/a13146.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
+    [ "Register", "d3/d6e/a13146.html#abc349f12f375b1f284eb78a363e8172a", null ],
+    [ "Validate", "d3/d6e/a13146.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
 ];

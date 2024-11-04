@@ -1,7 +1,9 @@
 var a19626 =
 [
-    [ "OnRemove", "d5/df3/a19626.html#a4d7ec990112b4ed602bcacf5a6de6722", null ],
-    [ "PrepareAuraScript", "d5/df3/a19626.html#a7cc9f0d6882b713c7b0a2585d6008437", null ],
-    [ "Register", "d5/df3/a19626.html#ad3a66fdfb2a159461bb3deeab6f71c13", null ],
-    [ "Validate", "d5/df3/a19626.html#a8bd121743d1153ae3fd8eb124e475d0f", null ]
+    [ "npc_thorims_hammerAI", "d5/df3/a19626.html#aafda36c8d784252d271ef031ab6a3d34", null ],
+    [ "Reset", "d5/df3/a19626.html#a57975d0dc00c86946e547ba43c7151ec", null ],
+    [ "UpdateAI", "d5/df3/a19626.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
+    [ "_beamTimer", "d5/df3/a19626.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
+    [ "_finishTime", "d5/df3/a19626.html#a218bd28d18a2c2f0aef6906619437209", null ],
+    [ "_removeTimer", "d5/df3/a19626.html#a958e4c975d1ae634745107af7d204f82", null ]
 ];

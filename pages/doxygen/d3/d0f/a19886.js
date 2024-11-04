@@ -1,6 +1,6 @@
 var a19886 =
 [
-    [ "boss_freya_elder_ironbranchAI", "db/dee/a19890.html", "db/dee/a19890" ],
-    [ "boss_freya_elder_ironbranch", "d3/d0f/a19886.html#a066083e4d6fde6439f7dce80be209075", null ],
-    [ "GetAI", "d3/d0f/a19886.html#a67f483d12fe801c1d840dd0f74396564", null ]
+    [ "boss_hodirAI", "db/dee/a19890.html", "db/dee/a19890" ],
+    [ "boss_hodir", "d3/d0f/a19886.html#a5740f489f57380d2633a8ee5a18de339", null ],
+    [ "GetAI", "d3/d0f/a19886.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
 ];

@@ -1,6 +1,6 @@
 var a22918 =
 [
-    [ "PrepareSpellScript", "d9/dec/a22918.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
-    [ "Register", "d9/dec/a22918.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
-    [ "RemoveSpines", "d9/dec/a22918.html#a076b056328ba6181a6ec907f21258f9d", null ]
+    [ "HandleScriptEffect", "d9/dec/a22918.html#a6489e3a58421da7c448a24d6673564c5", null ],
+    [ "PrepareSpellScript", "d9/dec/a22918.html#a5afd50fdc8393a12cd39a56c342f9179", null ],
+    [ "Register", "d9/dec/a22918.html#a274d65aa393a65e19bbb67a5d07c7428", null ]
 ];

@@ -1,7 +1,7 @@
 var a02237 =
 [
-    [ "boss_grilek", "db/db7/a13722.html", "db/db7/a13722" ],
-    [ "boss_grilek::boss_grilekAI", "d7/d5e/a13726.html", "d7/d5e/a13726" ],
+    [ "boss_grilek", "df/dc8/a13662.html", "df/dc8/a13662" ],
+    [ "boss_grilek::boss_grilekAI", "d4/dd2/a13666.html", "d4/dd2/a13666" ],
     [ "Events", "d9/d13/a02237.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

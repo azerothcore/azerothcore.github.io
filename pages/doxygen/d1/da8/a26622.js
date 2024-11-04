@@ -1,6 +1,6 @@
 var a26622 =
 [
-    [ "HandleAuraApply", "d1/da8/a26622.html#a19d8103126a6446fb5ade53d2b5d0ddb", null ],
-    [ "PrepareAuraScript", "d1/da8/a26622.html#a7596065e5ffcacf099a5984f5d940c11", null ],
-    [ "Register", "d1/da8/a26622.html#a8efa76b28dddad68fee132f37791f231", null ]
+    [ "PrepareSpellScript", "d1/da8/a26622.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "d1/da8/a26622.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "d1/da8/a26622.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

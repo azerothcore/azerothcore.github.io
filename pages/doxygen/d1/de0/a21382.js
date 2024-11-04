@@ -1,6 +1,6 @@
 var a21382 =
 [
-    [ "npc_sinkhole_kill_creditAI", "d3/d28/a21386.html", "d3/d28/a21386" ],
-    [ "npc_sinkhole_kill_credit", "d1/de0/a21382.html#a627d01aaaa3408986f2b4d171624e680", null ],
-    [ "GetAI", "d1/de0/a21382.html#a4d734432f132bea2c4525d049fbcfa67", null ]
+    [ "npc_counselor_talbotAI", "d3/d28/a21386.html", "d3/d28/a21386" ],
+    [ "npc_counselor_talbot", "d1/de0/a21382.html#a9223380bb78afeda617482bea0a3110c", null ],
+    [ "GetAI", "d1/de0/a21382.html#a3debd13352146a247d635042ecbfa155", null ]
 ];

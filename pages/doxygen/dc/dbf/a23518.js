@@ -1,5 +1,6 @@
 var a23518 =
 [
-    [ "spellId", "dc/dbf/a23518.html#acc63d01d5095adef28b9746c520be973", null ],
-    [ "textId", "dc/dbf/a23518.html#a5b366c702c1cda6ea10ad0b58935f97c", null ]
+    [ "instance_the_botanica_InstanceMapScript", "d2/db4/a23522.html", "d2/db4/a23522" ],
+    [ "instance_the_botanica", "dc/dbf/a23518.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
+    [ "GetInstanceScript", "dc/dbf/a23518.html#a335f671443ca0fb9db5956cefdf37182", null ]
 ];

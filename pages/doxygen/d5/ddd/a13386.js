@@ -1,6 +1,7 @@
 var a13386 =
 [
-    [ "npc_corporal_keeshanAI", "dc/df2/a13390.html", "dc/df2/a13390" ],
-    [ "npc_corporal_keeshan", "d5/ddd/a13386.html#a0ca9459a7f283e040f14e0052762f587", null ],
-    [ "GetAI", "d5/ddd/a13386.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
+    [ "npc_lady_sylvanas_windrunnerAI", "dc/df2/a13390.html", "dc/df2/a13390" ],
+    [ "npc_lady_sylvanas_windrunner", "d5/ddd/a13386.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
+    [ "GetAI", "d5/ddd/a13386.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
+    [ "OnQuestReward", "d5/ddd/a13386.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
 ];

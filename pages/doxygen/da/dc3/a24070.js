@@ -1,6 +1,6 @@
 var a24070 =
 [
-    [ "npc_dragonmaw_peonAI", "db/d8d/a24074.html", "db/d8d/a24074" ],
-    [ "npc_dragonmaw_peon", "da/dc3/a24070.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
-    [ "GetAI", "da/dc3/a24070.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
+    [ "PrepareSpellScript", "da/dc3/a24070.html#a190f6dc3d9b336324da29f627a743fe9", null ],
+    [ "Register", "da/dc3/a24070.html#a3afc8035b852bc31abd3228e88d59819", null ],
+    [ "SetDest", "da/dc3/a24070.html#a85d66a58597954501305ad5b674cc8a2", null ]
 ];

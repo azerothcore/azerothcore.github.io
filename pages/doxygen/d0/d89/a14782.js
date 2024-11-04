@@ -1,6 +1,5 @@
 var a14782 =
 [
-    [ "FilterTargets", "d0/d89/a14782.html#ac4f353ac54e7a461d5411fd8eae33cc1", null ],
-    [ "PrepareSpellScript", "d0/d89/a14782.html#a8cb8041b71dd3175b627fe7ec5b2c2f3", null ],
-    [ "Register", "d0/d89/a14782.html#a07d56d19b95c8d24f6908815e4ceb13f", null ]
+    [ "NotInStomachSelector", "d0/d89/a14782.html#a766a75e73261ac8bb76c90e8befd21ad", null ],
+    [ "operator()", "d0/d89/a14782.html#a189c90e585ecef8ffbcbe9227c588946", null ]
 ];

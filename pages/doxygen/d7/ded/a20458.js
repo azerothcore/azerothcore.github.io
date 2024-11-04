@@ -1,10 +1,6 @@
 var a20458 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d7/ded/a20458.html#a99d1c529126452e580ebc7e3e513b367", null ],
-    [ "AttackStart", "d7/ded/a20458.html#a1f05551f323fa410a699497f3875b21f", null ],
-    [ "InitWaypoint", "d7/ded/a20458.html#a1e0a384081750bdf38cc8e0065070ec8", null ],
-    [ "JustEngagedWith", "d7/ded/a20458.html#a9fea5617dccb493c7af435c485462ff3", null ],
-    [ "MoveInLineOfSight", "d7/ded/a20458.html#ab91a2a71ff00e38d2eca50ccc654d9f3", null ],
-    [ "Reset", "d7/ded/a20458.html#a193ba575c4f3f16d850e56f12f190c77", null ],
-    [ "WaypointReached", "d7/ded/a20458.html#a961f90068f25d81f55159763fe2677f8", null ]
+    [ "npc_xt002_life_sparkAI", "dd/d2e/a20462.html", "dd/d2e/a20462" ],
+    [ "npc_xt002_life_spark", "d7/ded/a20458.html#a9644718d192708e391b833468a0ff21e", null ],
+    [ "GetAI", "d7/ded/a20458.html#a09a1ce332d55fad146947c94bb53f564", null ]
 ];

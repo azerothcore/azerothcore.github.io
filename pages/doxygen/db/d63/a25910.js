@@ -1,10 +1,6 @@
 var a25910 =
 [
-    [ "AfterCheckProc", "db/d63/a25910.html#aa6f32a97ece5fc68c0b0a2cfa36e33eb", null ],
-    [ "HandleProc", "db/d63/a25910.html#a613182c741769d0983206bdfa89242f6", null ],
-    [ "PrepareAuraScript", "db/d63/a25910.html#a4f614fe81d829d8a1ceb7500f9557948", null ],
-    [ "Register", "db/d63/a25910.html#acd807de02a83a97a78572d672fb16027", null ],
-    [ "Validate", "db/d63/a25910.html#a3d2d6f1a00825ac66f507a790f468198", null ],
-    [ "_spellInfo", "db/d63/a25910.html#a66a5eb4caa7b43c34b2830d9a3d2f994", null ],
-    [ "_ticksModifier", "db/d63/a25910.html#ae23b54499fff879a096bd459e264c4f0", null ]
+    [ "FilterTargets", "db/d63/a25910.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
+    [ "PrepareSpellScript", "db/d63/a25910.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
+    [ "Register", "db/d63/a25910.html#a4db02c58be57a797c26b07656d1b5409", null ]
 ];

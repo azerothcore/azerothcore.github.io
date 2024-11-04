@@ -1,9 +1,9 @@
 var a02075 =
 [
-    [ "boss_nightbane", "d0/db0/a12310.html", "d0/db0/a12310" ],
-    [ "go_blackened_urn", "d5/d46/a12314.html", "d5/d46/a12314" ],
-    [ "npc_nightbane_helper_target", "de/d44/a12318.html", "de/d44/a12318" ],
-    [ "spell_nightbane_fireball_barrage", "db/de2/a12322.html", "db/de2/a12322" ],
+    [ "boss_nightbane", "d4/d9f/a12306.html", "d4/d9f/a12306" ],
+    [ "go_blackened_urn", "d0/db0/a12310.html", "d0/db0/a12310" ],
+    [ "npc_nightbane_helper_target", "d5/d46/a12314.html", "d5/d46/a12314" ],
+    [ "spell_nightbane_fireball_barrage", "de/d44/a12318.html", "de/d44/a12318" ],
     [ "Actions", "d9/d95/a02075.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

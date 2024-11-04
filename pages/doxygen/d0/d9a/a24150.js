@@ -1,6 +1,6 @@
 var a24150 =
 [
-    [ "PrepareSpellScript", "d0/d9a/a24150.html#aa858fff409e5c75d865c91cb5fbef679", null ],
-    [ "Register", "d0/d9a/a24150.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
-    [ "SetDest", "d0/d9a/a24150.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
+    [ "achievement", "d0/d9a/a24150.html#abb6071e172abbcbc65020a0ad9554a03", null ],
+    [ "spell", "d0/d9a/a24150.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
+    [ "text", "d0/d9a/a24150.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
 ];

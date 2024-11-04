@@ -1,6 +1,5 @@
 var a14626 =
 [
-    [ "instance_dire_maul_InstanceMapScript", "d5/da8/a14630.html", "d5/da8/a14630" ],
-    [ "instance_dire_maul", "d2/d67/a14626.html#a54ac2c7095a99481c7efbe4237533fac", null ],
-    [ "GetInstanceScript", "d2/d67/a14626.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
+    [ "npc_idol_room_spawnerAI", "d2/d67/a14626.html#a77c4aa88d213271166158c8e75d41a69", null ],
+    [ "SetData", "d2/d67/a14626.html#aa0626c837086b4a275f4d51d1659a242", null ]
 ];

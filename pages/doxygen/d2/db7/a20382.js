@@ -1,11 +1,11 @@
 var a20382 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "d2/db7/a20382.html#a48e29edad38f8ecbab54579203c93044", null ],
-    [ "Reset", "d2/db7/a20382.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
-    [ "SetData", "d2/db7/a20382.html#a31db1ae61777b8f1a38d381e785ce158", null ],
-    [ "UpdateAI", "d2/db7/a20382.html#ab6d29aaae95038282fece78479448459", null ],
-    [ "fixingGUID", "d2/db7/a20382.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
-    [ "pInstance", "d2/db7/a20382.html#a6b858d46eda05493ec0cac22e174854c", null ],
-    [ "timer", "d2/db7/a20382.html#a926b343da3d3953d386b18f24bc72867", null ],
-    [ "working", "d2/db7/a20382.html#ab8e436472efd91f2d400c02c1b500746", null ]
+    [ "boss_thorim_ancient_rune_giantAI", "d2/db7/a20382.html#a75df92817fb5eafa28e5d9c33679dcf8", null ],
+    [ "DoAction", "d2/db7/a20382.html#a1ee097badabf5264517bc0e9d9a45051", null ],
+    [ "JustDied", "d2/db7/a20382.html#ac69a6187be136fa53c65a7eb13bf19d4", null ],
+    [ "JustEngagedWith", "d2/db7/a20382.html#acbfd05bbbae2f5b8a6fa2ee8bc440498", null ],
+    [ "Reset", "d2/db7/a20382.html#a280a68af0d6b65bc99bb9b7116b801ad", null ],
+    [ "UpdateAI", "d2/db7/a20382.html#aef980c0fe0c50beca167ea0ef46ff0c7", null ],
+    [ "_isInCombat", "d2/db7/a20382.html#ab015a6dc76067be1d51d3ce67b6a7aff", null ],
+    [ "events", "d2/db7/a20382.html#afff251a2cc56b7ce686a5b58c196c16c", null ]
 ];

@@ -1,7 +1,6 @@
 var a15698 =
 [
-    [ "instance_azjol_nerub_InstanceScript", "d1/dcc/a15698.html#a886ed4c1485fdedcc176341210eee31a", null ],
-    [ "OnCreatureCreate", "d1/dcc/a15698.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
-    [ "OnGameObjectCreate", "d1/dcc/a15698.html#a1ef3dc88400345998d03f3c993b9a181", null ],
-    [ "OnGameObjectRemove", "d1/dcc/a15698.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
+    [ "HandleLeapBack", "d1/dcc/a15698.html#a71a9b9967528c1153ad1215635bc7d01", null ],
+    [ "PrepareSpellScript", "d1/dcc/a15698.html#a25a2db5c19e721b112b7bc84b3ac0968", null ],
+    [ "Register", "d1/dcc/a15698.html#a6ef11d0538616315fa7cf098748aa01f", null ]
 ];

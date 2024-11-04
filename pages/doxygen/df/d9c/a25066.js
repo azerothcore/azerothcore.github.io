@@ -1,11 +1,7 @@
 var a25066 =
 [
-    [ "GetPennatSpellId", "df/d9c/a25066.html#a1e327a79ce90cf7ebbec644ed15ff67f", null ],
-    [ "HandleApplyEffect", "df/d9c/a25066.html#a396c05708a89758e4038b327e09c65e8", null ],
-    [ "HandleRemoveEffect", "df/d9c/a25066.html#adf6fd3d2a36e1ff115b5c5109d37b7a4", null ],
-    [ "Load", "df/d9c/a25066.html#afc83ecf02a1702d48fb39d60419bdbf1", null ],
-    [ "PrepareAuraScript", "df/d9c/a25066.html#a0230d694e9325d7ac6ac6526ecb5a0e3", null ],
-    [ "Register", "df/d9c/a25066.html#a46782a9dfb8ee2100be00afb6aa8b9a7", null ],
-    [ "Validate", "df/d9c/a25066.html#a095b002671940f2b3504ae2646f76d5a", null ],
-    [ "_pennantSpellId", "df/d9c/a25066.html#a092f0d88ede12dea699b39d5df04131c", null ]
+    [ "HandleScript", "df/d9c/a25066.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
+    [ "PrepareSpellScript", "df/d9c/a25066.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
+    [ "Register", "df/d9c/a25066.html#a984b2af5268fbf294a0292502b8ddb44", null ],
+    [ "Validate", "df/d9c/a25066.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
 ];

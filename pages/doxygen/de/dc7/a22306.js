@@ -1,5 +1,5 @@
 var a22306 =
 [
-    [ "go_finklestein_cauldron", "de/dc7/a22306.html#a8aa352319c54526069588dacd75ab883", null ],
-    [ "OnGossipHello", "de/dc7/a22306.html#aa04f55e8a6cc21cf4a1e4cdc35c6a1ae", null ]
+    [ "OutdoorPvP_terokkar_forest", "de/dc7/a22306.html#ac98a2b4c1dae9a8b75249eedeb7d8cb8", null ],
+    [ "GetOutdoorPvP", "de/dc7/a22306.html#acf268293812d7a1a233e7f1fcba1e733", null ]
 ];

@@ -1,10 +1,10 @@
 var a27258 =
 [
-    [ "guard_shattrath_aldorAI", "d1/dfe/a27258.html#a88961dfe4100dfe207af693a1eed86ad", null ],
-    [ "Reset", "d1/dfe/a27258.html#aef38e83e90c322bbef18b78e6339ef2e", null ],
-    [ "UpdateAI", "d1/dfe/a27258.html#ac87ee12d4487971b68c70f06f63eb410", null ],
-    [ "banishTimer", "d1/dfe/a27258.html#a8b6e4c2acb09c65f2dbebbd21df4f29e", null ],
-    [ "canTeleport", "d1/dfe/a27258.html#af4d933b56431d2f2755d87fb05922458", null ],
-    [ "exileTimer", "d1/dfe/a27258.html#a8d56205206f3e14184922f96873456ad", null ],
-    [ "playerGUID", "d1/dfe/a27258.html#a16fe41ae30d54abaf12f68672b93dc32", null ]
+    [ "npc_training_dummyAI", "d1/dfe/a27258.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
+    [ "DamageTaken", "d1/dfe/a27258.html#a641c40906a6365f068ccbdba9d033923", null ],
+    [ "EnterEvadeMode", "d1/dfe/a27258.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
+    [ "MoveInLineOfSight", "d1/dfe/a27258.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
+    [ "Reset", "d1/dfe/a27258.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
+    [ "UpdateAI", "d1/dfe/a27258.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
+    [ "resetTimer", "d1/dfe/a27258.html#a443f2f7de257af473d6e9793f34a2071", null ]
 ];

@@ -1,9 +1,6 @@
 var a23942 =
 [
-    [ "npc_fel_guard_houndAI", "d6/dfe/a23942.html#af8b3a9b56e4bdf8d8b654ecccd096651", null ],
-    [ "MovementInform", "d6/dfe/a23942.html#a127a0d7b61fde64c0ced52192f438f12", null ],
-    [ "Reset", "d6/dfe/a23942.html#ab979c3602897b1148ffd5d4a81941197", null ],
-    [ "UpdateAI", "d6/dfe/a23942.html#a97a59eec672d7dfe36264d34b922d0c8", null ],
-    [ "checkTimer", "d6/dfe/a23942.html#ad22bb6efafb4396cd0137c1384240029", null ],
-    [ "helboarGUID", "d6/dfe/a23942.html#aadcf9b51dbcaa1e62b6619b89d865814", null ]
+    [ "npcs_flanis_swiftwing_and_kagrosh", "d6/dfe/a23942.html#aa95eceea94521947bd443805c8ddb52d", null ],
+    [ "OnGossipHello", "d6/dfe/a23942.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
+    [ "OnGossipSelect", "d6/dfe/a23942.html#aff34165955ba93e1fcd2b9731894d871", null ]
 ];

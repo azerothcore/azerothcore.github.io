@@ -1,7 +1,7 @@
 var a01232 =
 [
-    [ "boss_cyanigosa", "d9/dd0/a21186.html", "d9/dd0/a21186" ],
-    [ "boss_cyanigosa::boss_cyanigosaAI", "d0/d37/a21190.html", "d0/d37/a21190" ],
+    [ "boss_cyanigosa", "d1/df0/a21046.html", "d1/df0/a21046" ],
+    [ "boss_cyanigosa::boss_cyanigosaAI", "d5/d47/a21050.html", "d5/d47/a21050" ],
     [ "SPELL_BLIZZARD", "d0/d67/a01232.html#ade51c8ba65077da7454b09f96b62bb58", null ],
     [ "SPELL_TAIL_SWEEP", "d0/d67/a01232.html#ae1bb00a935a1bec7d4a9a330722e14d8", null ],
     [ "SPELL_UNCONTROLLABLE_ENERGY", "d0/d67/a01232.html#a868219accc5b136c00fcbb0554a7f665", null ],

@@ -1,16 +1,13 @@
 var a13054 =
 [
-    [ "boss_kalecgosAI", "dc/d37/a13054.html#a753c2128fca04b7bdf3b9aa35659c90a", null ],
-    [ "CanAIAttack", "dc/d37/a13054.html#a11358005a5ed5dfb658f91f310b13cc3", null ],
-    [ "ClearPlayerAuras", "dc/d37/a13054.html#a47882e770917894c13f96d46c5602f13", null ],
-    [ "DamageTaken", "dc/d37/a13054.html#a94c515989d7292890c0092d2d660b8f8", null ],
-    [ "DoAction", "dc/d37/a13054.html#a51f135de6a86ab6ff12c246692a5d5f1", null ],
-    [ "JustDied", "dc/d37/a13054.html#a9d220f823367349aa2764881e14f8178", null ],
-    [ "JustEngagedWith", "dc/d37/a13054.html#a6d72a321c1b48566bab4f24508e88d44", null ],
-    [ "JustReachedHome", "dc/d37/a13054.html#a68ac6c3ac2e796b0b3df2b40a9f10aa5", null ],
-    [ "KilledUnit", "dc/d37/a13054.html#a2d3791958a8af849869981216edd9296", null ],
-    [ "Reset", "dc/d37/a13054.html#a556b00f199aefacae9937d2fae2fab85", null ],
-    [ "UpdateAI", "dc/d37/a13054.html#a1a89f30fd92dfa61695f0e29a442b9d6", null ],
-    [ "events2", "dc/d37/a13054.html#a261314ac667dd561f0f0f5b727bc188f", null ],
-    [ "sathBanished", "dc/d37/a13054.html#afbf22eab4b8242c82f48afe206cc24fe", null ]
+    [ "npc_kiljaeden_controllerAI", "dc/d37/a13054.html#abc80d15a222c759aa95eb640df42240f", null ],
+    [ "JustDied", "dc/d37/a13054.html#a84d88a41be17832893cb4cbfc93f8406", null ],
+    [ "JustSummoned", "dc/d37/a13054.html#a81bf74060f1dbc56969d0a3f1b2ccf40", null ],
+    [ "Reset", "dc/d37/a13054.html#a82ddc6f70aa6950fcc6633147e176d7c", null ],
+    [ "ResetOrbs", "dc/d37/a13054.html#ae3d65f1079d3ad52744efa801b45fdae", null ],
+    [ "SummonedCreatureDies", "dc/d37/a13054.html#a9a5438581db34b7ce34d813e823c46a5", null ],
+    [ "UpdateAI", "dc/d37/a13054.html#ab1c03bc6215db1262eccc37eedf13faa", null ],
+    [ "events", "dc/d37/a13054.html#a9fc0a0f4225281e3d4895d5a350e6452", null ],
+    [ "instance", "dc/d37/a13054.html#a036c61443c77a1f8ea2e9a3efbd79da2", null ],
+    [ "summons", "dc/d37/a13054.html#aa3841afffbc472a3e27b12084ae89c94", null ]
 ];

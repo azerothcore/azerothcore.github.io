@@ -1,6 +1,7 @@
 var a25002 =
 [
-    [ "CheckSeat", "db/dbe/a25002.html#ab4e2376e084bc2cf0e30a91e3e5a270c", null ],
-    [ "PrepareSpellScript", "db/dbe/a25002.html#aaa9a6f31ec57542dcd657874c4eb52aa", null ],
-    [ "Register", "db/dbe/a25002.html#a6feb7c77ba258688a83bdb86e9ee53f8", null ]
+    [ "HandleEffectPeriodic", "db/dbe/a25002.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
+    [ "PrepareAuraScript", "db/dbe/a25002.html#affc698127fe0656df25bd094c02a7e50", null ],
+    [ "Register", "db/dbe/a25002.html#a4707bfaeb86b3540920a6772e1726e26", null ],
+    [ "Validate", "db/dbe/a25002.html#aef839f163d7e623a54b163e1c27542cd", null ]
 ];

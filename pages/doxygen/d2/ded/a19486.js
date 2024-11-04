@@ -1,6 +1,6 @@
 var a19486 =
 [
-    [ "HandleEffectRemove", "d2/ded/a19486.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "d2/ded/a19486.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "d2/ded/a19486.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "boss_runemaster_molgeimAI", "dc/db8/a19490.html", "dc/db8/a19490" ],
+    [ "boss_runemaster_molgeim", "d2/ded/a19486.html#a440e4e43b941ac2b956c7c586a95f991", null ],
+    [ "GetAI", "d2/ded/a19486.html#a080e70913be1e6ad9521bab5b90a92a6", null ]
 ];

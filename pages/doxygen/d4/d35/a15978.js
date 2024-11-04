@@ -1,13 +1,6 @@
 var a15978 =
 [
-    [ "boss_eadricAI", "d4/d35/a15978.html#a461043fe1bff0f5478e2a57504e7477c", null ],
-    [ "DamageTaken", "d4/d35/a15978.html#a440899ffdeda7794ef4fa5530638eecc", null ],
-    [ "JustEngagedWith", "d4/d35/a15978.html#a09a0cebcdffb00e37e9d60111c582669", null ],
-    [ "KilledUnit", "d4/d35/a15978.html#a0bc5d9ba3f45460e62eebdad4e68b8bd", null ],
-    [ "MovementInform", "d4/d35/a15978.html#aa20253b3f0aec2678b2e3b1c3a9d1a47", null ],
-    [ "Reset", "d4/d35/a15978.html#a8776bc2937ed9dc4decd1e71929edf65", null ],
-    [ "SpellHit", "d4/d35/a15978.html#aef7c66b9ff0a728c140899940a2d7e85", null ],
-    [ "UpdateAI", "d4/d35/a15978.html#a38e8052f3e5d8d81bb4b79fb41717efb", null ],
-    [ "events", "d4/d35/a15978.html#a5804ea238fd1c32201c3be943d2fe5ca", null ],
-    [ "pInstance", "d4/d35/a15978.html#a43a8f2beebae9bb27ff03e0e9af2d36b", null ]
+    [ "npc_toc5_player_vehicleAI", "d9/d96/a15982.html", "d9/d96/a15982" ],
+    [ "npc_toc5_player_vehicle", "d4/d35/a15978.html#a8786627999d3d1681d9de58cd8c46744", null ],
+    [ "GetAI", "d4/d35/a15978.html#af89c559eff828130df821c0c30c61f7a", null ]
 ];

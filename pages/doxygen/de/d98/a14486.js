@@ -1,6 +1,7 @@
 var a14486 =
 [
-    [ "boss_meathookAI", "d5/d04/a14490.html", "d5/d04/a14490" ],
-    [ "boss_meathook", "de/d98/a14486.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
-    [ "GetAI", "de/d98/a14486.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
+    [ "boss_epoch_hunter", "de/d98/a14486.html#a652d14ebfced39b8164687a713780600", null ],
+    [ "JustDied", "de/d98/a14486.html#a38d3cbed2ce8f810fd169e0004fd91dc", null ],
+    [ "JustEngagedWith", "de/d98/a14486.html#a2571f98f36d1271f3911617e0fdfba54", null ],
+    [ "KilledUnit", "de/d98/a14486.html#a61456e680e9108dd841e83d97536ef1b", null ]
 ];

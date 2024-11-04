@@ -1,6 +1,7 @@
 var a26478 =
 [
-    [ "CheckCast", "de/d82/a26478.html#a97f479cccecc6f37c75b47122b47e333", null ],
-    [ "PrepareSpellScript", "de/d82/a26478.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
-    [ "Register", "de/d82/a26478.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
+    [ "HandleAuraApply", "de/d82/a26478.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
+    [ "HandleAuraRemove", "de/d82/a26478.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
+    [ "PrepareAuraScript", "de/d82/a26478.html#a5c7d7c0b8880128121d66d39094f1965", null ],
+    [ "Register", "de/d82/a26478.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
 ];

@@ -1,7 +1,5 @@
 var a26066 =
 [
-    [ "HandleScriptEffect", "dc/dca/a26066.html#ad3497a9c986f65978d4b2553b0c9958f", null ],
-    [ "Load", "dc/dca/a26066.html#a33d46e5ebd418ea0242d958345cb44d2", null ],
-    [ "PrepareSpellScript", "dc/dca/a26066.html#ade09cd376d00df8b5e709026e353f409", null ],
-    [ "Register", "dc/dca/a26066.html#ad04bf0d88a3e1fde3c11b91d5ef1c7ae", null ]
+    [ "PrepareSpellScript", "dc/dca/a26066.html#aa2d9d885e55c1685c2ce9cbc5b4d4279", null ],
+    [ "Register", "dc/dca/a26066.html#a721430db1738b255f114483bdddef5e2", null ]
 ];

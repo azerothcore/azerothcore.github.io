@@ -1,6 +1,6 @@
 var a19714 =
 [
-    [ "npc_freya_wardAI", "d2/dbb/a19718.html", "d2/dbb/a19718" ],
-    [ "npc_freya_ward", "d6/d0d/a19714.html#aebaadcc001922c78e8ec43084a827ac9", null ],
-    [ "GetAI", "d6/d0d/a19714.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
+    [ "PrepareSpellScript", "d6/d0d/a19714.html#a7eeb4e2b9c3bb6e7d02d6a5acf8e1d52", null ],
+    [ "RecalculateDamage", "d6/d0d/a19714.html#a094a21cf3cf109e704d3e334ad7dbad1", null ],
+    [ "Register", "d6/d0d/a19714.html#af2b5382122be41a6b1ee4ab721b417da", null ]
 ];

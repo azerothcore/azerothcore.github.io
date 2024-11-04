@@ -1,7 +1,6 @@
 var a22778 =
 [
-    [ "SuckBackEvent", "d2/de9/a22778.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
-    [ "Execute", "d2/de9/a22778.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
-    [ "_action", "d2/de9/a22778.html#abc54669df2dba0238723a40ababe4c0a", null ],
-    [ "_owner", "d2/de9/a22778.html#a4d8bc09803f7786022c1836457ded488", null ]
+    [ "PrepareSpellScript", "d2/de9/a22778.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
+    [ "Register", "d2/de9/a22778.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
+    [ "RemoveSpines", "d2/de9/a22778.html#a076b056328ba6181a6ec907f21258f9d", null ]
 ];

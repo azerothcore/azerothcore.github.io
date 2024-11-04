@@ -1,9 +1,7 @@
 var a27722 =
 [
-    [ "CheckRequirement", "d2/d76/a27722.html#adab261a5221ca54b15cc414d291908fe", null ],
-    [ "HandleDummy", "d2/d76/a27722.html#abb7a734244bb18d75304a0510f9efb8d", null ],
-    [ "Load", "d2/d76/a27722.html#a418eef16d1e3aeff67013f45409c092a", null ],
-    [ "PrepareSpellScript", "d2/d76/a27722.html#ab3e73a456ec7384720827a4ff7f5abc7", null ],
-    [ "Register", "d2/d76/a27722.html#a5dbf60e33f2cdca3921f623cd1098948", null ],
-    [ "Validate", "d2/d76/a27722.html#a1dcba4f3c2874a952ca422b0a3cdafb1", null ]
+    [ "cutPercent", "d2/d76/a27722.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "d2/d76/a27722.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "d2/d76/a27722.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "d2/d76/a27722.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

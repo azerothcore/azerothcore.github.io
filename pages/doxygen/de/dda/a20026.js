@@ -1,6 +1,6 @@
 var a20026 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d2/db3/a20030.html", "d2/db3/a20030" ],
-    [ "npc_ulduar_toasty_fire", "de/dda/a20026.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
-    [ "GetAI", "de/dda/a20026.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
+    [ "boss_ignisAI", "d2/db3/a20030.html", "d2/db3/a20030" ],
+    [ "boss_ignis", "de/dda/a20026.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
+    [ "GetAI", "de/dda/a20026.html#ac11ff148e9cbc985875f859268a3de01", null ]
 ];

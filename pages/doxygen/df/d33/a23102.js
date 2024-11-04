@@ -1,6 +1,6 @@
 var a23102 =
 [
-    [ "HandleScriptEffect", "df/d33/a23102.html#a9e42f1af6fabb7df066cc2488a831418", null ],
-    [ "PrepareSpellScript", "df/d33/a23102.html#a866496b087288a3cb8f00d4dbdb5d2ec", null ],
-    [ "Register", "df/d33/a23102.html#a0fdb5d866d714d1d3bc71c4439a7f593", null ]
+    [ "boss_rokmar_the_crackler", "df/d33/a23102.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
+    [ "JustEngagedWith", "df/d33/a23102.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
+    [ "Reset", "df/d33/a23102.html#aed9cf4a866d5e70647125a08885fb809", null ]
 ];

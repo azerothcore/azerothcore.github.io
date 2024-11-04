@@ -1,7 +1,6 @@
 var a19574 =
 [
-    [ "HandlePeriodic", "d1/d5e/a19574.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
-    [ "PrepareAuraScript", "d1/d5e/a19574.html#ad78b06733a8609dd39e885db2f23edba", null ],
-    [ "Register", "d1/d5e/a19574.html#ac9ae9be546964752869163896c4045dd", null ],
-    [ "Validate", "d1/d5e/a19574.html#afcca84d03b29ef7569c03f973a6c191b", null ]
+    [ "boss_flame_leviathan_seatAI", "dd/df8/a19578.html", "dd/df8/a19578" ],
+    [ "boss_flame_leviathan_seat", "d1/d5e/a19574.html#a0fc90640a5142d889f1c043270582a16", null ],
+    [ "GetAI", "d1/d5e/a19574.html#a0e17225aeb93e0a5f5442c4ac2362af8", null ]
 ];

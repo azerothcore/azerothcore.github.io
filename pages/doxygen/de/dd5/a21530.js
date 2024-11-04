@@ -1,10 +1,6 @@
 var a21530 =
 [
-    [ "npc_preparations_for_war_vehicle", "de/dd5/a21530.html#a56b37aa1c2b50cac4dfb6b907ffb6d48", null ],
-    [ "InitializeAI", "de/dd5/a21530.html#a85eaba9e51498313f8498eaaf0e7d0d1", null ],
-    [ "MovementInform", "de/dd5/a21530.html#ac78c5675b42563f46cc2af0f0c97bee0", null ],
-    [ "UpdateAI", "de/dd5/a21530.html#ae40a23070d96ecf122e9de5571a845ef", null ],
-    [ "pointId", "de/dd5/a21530.html#ae75d286eb6116b41adb346861b3c1365", null ],
-    [ "searchForShipTimer", "de/dd5/a21530.html#a49f8a43891d61460b1d6cdde610a2e88", null ],
-    [ "transportEntry", "de/dd5/a21530.html#aa0083566387cd42750aaa56b1fa23fed", null ]
+    [ "HandleSendEvent", "de/dd5/a21530.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
+    [ "PrepareSpellScript", "de/dd5/a21530.html#aa632d381ac415feaf226f55fc2cd8520", null ],
+    [ "Register", "de/dd5/a21530.html#a72673f5054cf269cc8da511441f7bd66", null ]
 ];

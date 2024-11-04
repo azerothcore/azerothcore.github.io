@@ -1,7 +1,15 @@
 var a22646 =
 [
-    [ "HandleEffectRemove", "d8/da7/a22646.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
-    [ "PrepareAuraScript", "d8/da7/a22646.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
-    [ "Register", "d8/da7/a22646.html#a9ee8e71020c17f593472de5a9c130753", null ],
-    [ "Validate", "d8/da7/a22646.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
+    [ "boss_reliquary_of_soulsAI", "d8/da7/a22646.html#abee29aab1d28a168be3b381d0765a804", null ],
+    [ "AttackStart", "d8/da7/a22646.html#af59a9972dfdb264248e78206ea0d834c", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d8/da7/a22646.html#a67343cecd292c2dc40f8c5a275d95fdf", null ],
+    [ "DoAction", "d8/da7/a22646.html#aa281dd9c7dc0c6f15c2bfcbf60384006", null ],
+    [ "JustDied", "d8/da7/a22646.html#a6e19cb7d94579a70ac11f7173cf930c6", null ],
+    [ "JustEngagedWith", "d8/da7/a22646.html#a88eef17a5f475b38a37b0e1adcc0cbbc", null ],
+    [ "JustSummoned", "d8/da7/a22646.html#ad3c7679c2341951bbeb49aafad7196cd", null ],
+    [ "MoveInLineOfSight", "d8/da7/a22646.html#a315a0ad69f566ff63b06fd0d47ce32d8", null ],
+    [ "PhaseTransitionSpawns", "d8/da7/a22646.html#a96235ed84a30458eb5f76d87ed47dc89", null ],
+    [ "Reset", "d8/da7/a22646.html#a5dc6ec0521e2ddfb63a6818ad2de0d8b", null ],
+    [ "SummonedCreatureDies", "d8/da7/a22646.html#a51ac7df8689bf899eaaf4cde566d8202", null ],
+    [ "UpdateAI", "d8/da7/a22646.html#a4289e678a69e35db5e4ea75fddd7e8e4", null ]
 ];

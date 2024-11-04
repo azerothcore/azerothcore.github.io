@@ -1,14 +1,15 @@
 var a19102 =
 [
-    [ "boss_anomalusAI", "de/d7f/a19102.html#a5f7d1b7b4d7c4d298b22dbf4c8d2e6a6", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "de/d7f/a19102.html#a68c052fcb1a9bc96d82a4284eec0d132", null ],
-    [ "GetData", "de/d7f/a19102.html#a561ad0c1bfc31e9c9d04e07492a96bb2", null ],
-    [ "JustDied", "de/d7f/a19102.html#ae079850413f8f0e87a8d3677a475ba95", null ],
-    [ "JustEngagedWith", "de/d7f/a19102.html#a85da2f5caadf2d38b710a731f4ffe957", null ],
-    [ "JustSummoned", "de/d7f/a19102.html#a2e5306347151100436907dc8ea6b7c86", null ],
-    [ "Reset", "de/d7f/a19102.html#a3e2711ea84cc728716c9e207d8b35ccc", null ],
-    [ "SetData", "de/d7f/a19102.html#a26500dd41960a99400606ceca91bf3e9", null ],
-    [ "UpdateAI", "de/d7f/a19102.html#a5429e5d51739b00f92b00460335f6830", null ],
-    [ "achievement", "de/d7f/a19102.html#a40fa36e5c5fc131e7c063e90ea2468a6", null ],
-    [ "activeRifts", "de/d7f/a19102.html#a66e477fb306404cc544e13417c835138", null ]
+    [ "boss_eregosAI", "de/d7f/a19102.html#a5b09dacbddd6075c2ebf4d62a387a8b6", null ],
+    [ "DamageTaken", "de/d7f/a19102.html#a7a4b4443aed576f080a56a27e15edfd4", null ],
+    [ "JustDied", "de/d7f/a19102.html#ade16be2804b857fc8e93a62d4be42380", null ],
+    [ "JustEngagedWith", "de/d7f/a19102.html#a1544782732beba5d7114c3bb70419ae1", null ],
+    [ "JustSummoned", "de/d7f/a19102.html#a33ef5a080e457f4e08e7997b467b0974", null ],
+    [ "KilledUnit", "de/d7f/a19102.html#a30ad32a4a63ae17eef4fc703a6749d38", null ],
+    [ "MoveInLineOfSight", "de/d7f/a19102.html#ac622481abb0190bdc7654b383766a9ed", null ],
+    [ "Reset", "de/d7f/a19102.html#aeec469c2c9d0ad27461478ee57c30c56", null ],
+    [ "UpdateAI", "de/d7f/a19102.html#a2a190fdb6b1c9ed4eba2b9e536c5cf36", null ],
+    [ "events", "de/d7f/a19102.html#ae6f1f2e3146525596c3dbb646283b744", null ],
+    [ "pInstance", "de/d7f/a19102.html#abf0b366d7b0931ccc30711a33736dda8", null ],
+    [ "shiftNumber", "de/d7f/a19102.html#a16c90dba1f0a7f4cc2025e294dbac455", null ]
 ];

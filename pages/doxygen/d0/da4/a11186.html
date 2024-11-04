@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8bfafc802aa201500682bb39cee6e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a671f914efeb5689fe3b9177fb868e09e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#a671f914efeb5689fe3b9177fb868e09e">RequestHash</a> ()=0</td></tr>
 <tr class="separator:a671f914efeb5689fe3b9177fb868e09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afac740e6d1e2b7c9df4a282b43fa24b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#afac740e6d1e2b7c9df4a282b43fa24b5">HandleHashResult</a> (<a class="el" href="../../db/d97/a28314.html">ByteBuffer</a> &amp;buff)=0</td></tr>
+<tr class="memitem:afac740e6d1e2b7c9df4a282b43fa24b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#afac740e6d1e2b7c9df4a282b43fa24b5">HandleHashResult</a> (<a class="el" href="../../d4/df4/a28178.html">ByteBuffer</a> &amp;buff)=0</td></tr>
 <tr class="separator:afac740e6d1e2b7c9df4a282b43fa24b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79f135bbac6904b2f80485ae838f570"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#af79f135bbac6904b2f80485ae838f570">IsCheckInProgress</a> ()=0</td></tr>
 <tr class="separator:af79f135bbac6904b2f80485ae838f570"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3e786c9bb08fcd9a1349f2ec47cc3eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4d9116061d9e4544e5f4291fd2f7428"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#ae4d9116061d9e4544e5f4291fd2f7428">RequestChecks</a> ()=0</td></tr>
 <tr class="separator:ae4d9116061d9e4544e5f4291fd2f7428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a627a1e0c10ec3ef5b566b9b21f8d69"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#a8a627a1e0c10ec3ef5b566b9b21f8d69">HandleData</a> (<a class="el" href="../../db/d97/a28314.html">ByteBuffer</a> &amp;buff)=0</td></tr>
+<tr class="memitem:a8a627a1e0c10ec3ef5b566b9b21f8d69"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#a8a627a1e0c10ec3ef5b566b9b21f8d69">HandleData</a> (<a class="el" href="../../d4/df4/a28178.html">ByteBuffer</a> &amp;buff)=0</td></tr>
 <tr class="separator:a8a627a1e0c10ec3ef5b566b9b21f8d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571d17d7740745ea297081080be79b8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html#a571d17d7740745ea297081080be79b8a">ProcessLuaCheckResponse</a> (std::string const &amp;msg)</td></tr>
 <tr class="separator:a571d17d7740745ea297081080be79b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,19 +239,19 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">   35</span>    memset(<a class="code hl_variable" href="../../d0/da4/a11186.html#a5df981bbab9e8d8bb4bd57830b9f0ecb">_outputKey</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d0/da4/a11186.html#a5df981bbab9e8d8bb4bd57830b9f0ecb">_outputKey</a>));</div>
 <div class="line"><span class="lineno">   36</span>    memset(<a class="code hl_variable" href="../../d0/da4/a11186.html#a64c5aff3e071b8190fcf5aa3f4e61d0c">_seed</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d0/da4/a11186.html#a64c5aff3e071b8190fcf5aa3f4e61d0c">_seed</a>));</div>
 <div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa11186_html_a1b578b6824a704c33e136c5d2fa0241c"><div class="ttname"><a href="../../d0/da4/a11186.html#a1b578b6824a704c33e136c5d2fa0241c">Warden::_checkTimer</a></div><div class="ttdeci">uint32 _checkTimer</div><div class="ttdef"><b>Definition:</b> Warden.h:146</div></div>
-<div class="ttc" id="aa11186_html_a26834a0b56572c83ddf665ba5feb3229"><div class="ttname"><a href="../../d0/da4/a11186.html#a26834a0b56572c83ddf665ba5feb3229">Warden::_clientResponseTimer</a></div><div class="ttdeci">uint32 _clientResponseTimer</div><div class="ttdef"><b>Definition:</b> Warden.h:147</div></div>
-<div class="ttc" id="aa11186_html_a5949bd3821517bff75d1915ffdfd3e82"><div class="ttname"><a href="../../d0/da4/a11186.html#a5949bd3821517bff75d1915ffdfd3e82">Warden::_inputKey</a></div><div class="ttdeci">uint8 _inputKey[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:141</div></div>
-<div class="ttc" id="aa11186_html_a5df981bbab9e8d8bb4bd57830b9f0ecb"><div class="ttname"><a href="../../d0/da4/a11186.html#a5df981bbab9e8d8bb4bd57830b9f0ecb">Warden::_outputKey</a></div><div class="ttdeci">uint8 _outputKey[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:142</div></div>
-<div class="ttc" id="aa11186_html_a64c5aff3e071b8190fcf5aa3f4e61d0c"><div class="ttname"><a href="../../d0/da4/a11186.html#a64c5aff3e071b8190fcf5aa3f4e61d0c">Warden::_seed</a></div><div class="ttdeci">uint8 _seed[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:143</div></div>
-<div class="ttc" id="aa11186_html_a76a5a99f32011ad4dd9bc004dc9bf102"><div class="ttname"><a href="../../d0/da4/a11186.html#a76a5a99f32011ad4dd9bc004dc9bf102">Warden::_module</a></div><div class="ttdeci">ClientWardenModule * _module</div><div class="ttdef"><b>Definition:</b> Warden.h:149</div></div>
-<div class="ttc" id="aa11186_html_a97082594839d6393adc59cfd553e6219"><div class="ttname"><a href="../../d0/da4/a11186.html#a97082594839d6393adc59cfd553e6219">Warden::_checkInProgress</a></div><div class="ttdeci">bool _checkInProgress</div><div class="ttdef"><b>Definition:</b> Warden.h:152</div></div>
-<div class="ttc" id="aa11186_html_ab67c63af0423210e927a7ce349de762a"><div class="ttname"><a href="../../d0/da4/a11186.html#ab67c63af0423210e927a7ce349de762a">Warden::_dataSent</a></div><div class="ttdeci">bool _dataSent</div><div class="ttdef"><b>Definition:</b> Warden.h:148</div></div>
-<div class="ttc" id="aa11186_html_ac39706645f201fed3c8ff7c1cf3d2654"><div class="ttname"><a href="../../d0/da4/a11186.html#ac39706645f201fed3c8ff7c1cf3d2654">Warden::_initialized</a></div><div class="ttdeci">bool _initialized</div><div class="ttdef"><b>Definition:</b> Warden.h:150</div></div>
-<div class="ttc" id="aa11186_html_aef445e5a6406a0bb5874c3de8f42bd88"><div class="ttname"><a href="../../d0/da4/a11186.html#aef445e5a6406a0bb5874c3de8f42bd88">Warden::_session</a></div><div class="ttdeci">WorldSession * _session</div><div class="ttdef"><b>Definition:</b> Warden.h:139</div></div>
-<div class="ttc" id="aa11186_html_afa01784ae3fa6815dd7f746f52ffb4b4"><div class="ttname"><a href="../../d0/da4/a11186.html#afa01784ae3fa6815dd7f746f52ffb4b4">Warden::_interrupted</a></div><div class="ttdeci">bool _interrupted</div><div class="ttdef"><b>Definition:</b> Warden.h:151</div></div>
+<div class="ttc" id="aa11186_html_a1b578b6824a704c33e136c5d2fa0241c"><div class="ttname"><a href="../../d0/da4/a11186.html#a1b578b6824a704c33e136c5d2fa0241c">Warden::_checkTimer</a></div><div class="ttdeci">uint32 _checkTimer</div><div class="ttdef"><b>Definition:</b> Warden.h:145</div></div>
+<div class="ttc" id="aa11186_html_a26834a0b56572c83ddf665ba5feb3229"><div class="ttname"><a href="../../d0/da4/a11186.html#a26834a0b56572c83ddf665ba5feb3229">Warden::_clientResponseTimer</a></div><div class="ttdeci">uint32 _clientResponseTimer</div><div class="ttdef"><b>Definition:</b> Warden.h:146</div></div>
+<div class="ttc" id="aa11186_html_a5949bd3821517bff75d1915ffdfd3e82"><div class="ttname"><a href="../../d0/da4/a11186.html#a5949bd3821517bff75d1915ffdfd3e82">Warden::_inputKey</a></div><div class="ttdeci">uint8 _inputKey[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:140</div></div>
+<div class="ttc" id="aa11186_html_a5df981bbab9e8d8bb4bd57830b9f0ecb"><div class="ttname"><a href="../../d0/da4/a11186.html#a5df981bbab9e8d8bb4bd57830b9f0ecb">Warden::_outputKey</a></div><div class="ttdeci">uint8 _outputKey[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:141</div></div>
+<div class="ttc" id="aa11186_html_a64c5aff3e071b8190fcf5aa3f4e61d0c"><div class="ttname"><a href="../../d0/da4/a11186.html#a64c5aff3e071b8190fcf5aa3f4e61d0c">Warden::_seed</a></div><div class="ttdeci">uint8 _seed[16]</div><div class="ttdef"><b>Definition:</b> Warden.h:142</div></div>
+<div class="ttc" id="aa11186_html_a76a5a99f32011ad4dd9bc004dc9bf102"><div class="ttname"><a href="../../d0/da4/a11186.html#a76a5a99f32011ad4dd9bc004dc9bf102">Warden::_module</a></div><div class="ttdeci">ClientWardenModule * _module</div><div class="ttdef"><b>Definition:</b> Warden.h:148</div></div>
+<div class="ttc" id="aa11186_html_a97082594839d6393adc59cfd553e6219"><div class="ttname"><a href="../../d0/da4/a11186.html#a97082594839d6393adc59cfd553e6219">Warden::_checkInProgress</a></div><div class="ttdeci">bool _checkInProgress</div><div class="ttdef"><b>Definition:</b> Warden.h:151</div></div>
+<div class="ttc" id="aa11186_html_ab67c63af0423210e927a7ce349de762a"><div class="ttname"><a href="../../d0/da4/a11186.html#ab67c63af0423210e927a7ce349de762a">Warden::_dataSent</a></div><div class="ttdeci">bool _dataSent</div><div class="ttdef"><b>Definition:</b> Warden.h:147</div></div>
+<div class="ttc" id="aa11186_html_ac39706645f201fed3c8ff7c1cf3d2654"><div class="ttname"><a href="../../d0/da4/a11186.html#ac39706645f201fed3c8ff7c1cf3d2654">Warden::_initialized</a></div><div class="ttdeci">bool _initialized</div><div class="ttdef"><b>Definition:</b> Warden.h:149</div></div>
+<div class="ttc" id="aa11186_html_aef445e5a6406a0bb5874c3de8f42bd88"><div class="ttname"><a href="../../d0/da4/a11186.html#aef445e5a6406a0bb5874c3de8f42bd88">Warden::_session</a></div><div class="ttdeci">WorldSession * _session</div><div class="ttdef"><b>Definition:</b> Warden.h:138</div></div>
+<div class="ttc" id="aa11186_html_afa01784ae3fa6815dd7f746f52ffb4b4"><div class="ttname"><a href="../../d0/da4/a11186.html#afa01784ae3fa6815dd7f746f52ffb4b4">Warden::_interrupted</a></div><div class="ttdeci">bool _interrupted</div><div class="ttdef"><b>Definition:</b> Warden.h:150</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00141">_inputKey</a>, <a class="el" href="../../#l00142">_outputKey</a>, and <a class="el" href="../../#l00143">_seed</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00140">_inputKey</a>, <a class="el" href="../../#l00141">_outputKey</a>, and <a class="el" href="../../#l00142">_seed</a>.</p>
 
 </div>
 </div>
@@ -283,9 +283,9 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../d0/da4/a11186.html#a76a5a99f32011ad4dd9bc004dc9bf102">_module</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><span class="lineno">   44</span>    <a class="code hl_variable" href="../../d0/da4/a11186.html#ac39706645f201fed3c8ff7c1cf3d2654">_initialized</a> = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   45</span>}</div>
-<div class="ttc" id="aa11182_html_a22e1d740e6c3094fea83eb1a44e40944"><div class="ttname"><a href="../../d6/d6c/a11182.html#a22e1d740e6c3094fea83eb1a44e40944">ClientWardenModule::CompressedData</a></div><div class="ttdeci">uint8 * CompressedData</div><div class="ttdef"><b>Definition:</b> Warden.h:98</div></div>
+<div class="ttc" id="aa11182_html_a22e1d740e6c3094fea83eb1a44e40944"><div class="ttname"><a href="../../d6/d6c/a11182.html#a22e1d740e6c3094fea83eb1a44e40944">ClientWardenModule::CompressedData</a></div><div class="ttdeci">uint8 * CompressedData</div><div class="ttdef"><b>Definition:</b> Warden.h:97</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00150">_initialized</a>, <a class="el" href="../../#l00149">_module</a>, and <a class="el" href="../../#l00098">ClientWardenModule::CompressedData</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00149">_initialized</a>, <a class="el" href="../../#l00148">_module</a>, and <a class="el" href="../../#l00097">ClientWardenModule::CompressedData</a>.</p>
 
 </div>
 </div>
@@ -416,7 +416,7 @@ Friends</h2></td></tr>
 <div class="ttc" id="aa11190_html_a0aba96ac9e7af155a1d9bdf120afae25"><div class="ttname"><a href="../../de/dee/a11190.html#a0aba96ac9e7af155a1d9bdf120afae25">WardenCheck::Action</a></div><div class="ttdeci">uint32 Action</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:53</div></div>
 <div class="ttc" id="aa11190_html_a6abdb409f49751b2f6aa8df88c349ba2"><div class="ttname"><a href="../../de/dee/a11190.html#a6abdb409f49751b2f6aa8df88c349ba2">WardenCheck::Comment</a></div><div class="ttdeci">std::string Comment</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:50</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00139">_session</a>, <a class="el" href="../../#l00053">WardenCheck::Action</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00050">WardenCheck::Comment</a>, <a class="el" href="../../#l00376">CONFIG_WARDEN_CLIENT_BAN_DURATION</a>, <a class="el" href="../../#l00375">CONFIG_WARDEN_CLIENT_FAIL_ACTION</a>, <a class="el" href="../../#l00361">WorldSession::GetAccountId()</a>, <a class="el" href="../../#l00257">AccountMgr::GetName()</a>, <a class="el" href="../../#l00362">WorldSession::GetPlayer()</a>, <a class="el" href="../../#l00181">GetWardenActionStr()</a>, <a class="el" href="../../#l00400">WorldSession::KickPlayer()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00048">sBan</a>, <a class="el" href="../../#l00034">Acore::StringFormat()</a>, <a class="el" href="../../#l00089">sWardenCheckMgr</a>, <a class="el" href="../../#l00443">sWorld</a>, <a class="el" href="../../#l00029">WARDEN_ACTION_BAN</a>, <a class="el" href="../../#l00028">WARDEN_ACTION_KICK</a>, and <a class="el" href="../../#l00027">WARDEN_ACTION_LOG</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00138">_session</a>, <a class="el" href="../../#l00053">WardenCheck::Action</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00050">WardenCheck::Comment</a>, <a class="el" href="../../#l00376">CONFIG_WARDEN_CLIENT_BAN_DURATION</a>, <a class="el" href="../../#l00375">CONFIG_WARDEN_CLIENT_FAIL_ACTION</a>, <a class="el" href="../../#l00361">WorldSession::GetAccountId()</a>, <a class="el" href="../../#l00257">AccountMgr::GetName()</a>, <a class="el" href="../../#l00362">WorldSession::GetPlayer()</a>, <a class="el" href="../../#l00181">GetWardenActionStr()</a>, <a class="el" href="../../#l00400">WorldSession::KickPlayer()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00048">sBan</a>, <a class="el" href="../../#l00034">Acore::StringFormat()</a>, <a class="el" href="../../#l00089">sWardenCheckMgr</a>, <a class="el" href="../../#l00443">sWorld</a>, <a class="el" href="../../#l00029">WARDEN_ACTION_BAN</a>, <a class="el" href="../../#l00028">WARDEN_ACTION_KICK</a>, and <a class="el" href="../../#l00027">WARDEN_ACTION_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00562">WardenWin::HandleData()</a>, <a class="el" href="../../#l00121">WardenMac::HandleHashResult()</a>, <a class="el" href="../../#l00229">WardenWin::HandleHashResult()</a>, and <a class="el" href="../../#l00276">ProcessLuaCheckResponse()</a>.</p>
 
@@ -507,9 +507,9 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  132</span>    <a class="code hl_variable" href="../../d0/da4/a11186.html#a2290a6e3a863b9a49941e7ecad9e2db7">_inputCrypto</a>.<a class="code hl_function" href="../../d8/d5f/a05046.html#a4023480221891e0d1ccd7a92aabd173c">UpdateData</a>(buffer, length);</div>
 <div class="line"><span class="lineno">  133</span>}</div>
 <div class="ttc" id="aa05046_html_a4023480221891e0d1ccd7a92aabd173c"><div class="ttname"><a href="../../d8/d5f/a05046.html#a4023480221891e0d1ccd7a92aabd173c">Acore::Crypto::ARC4::UpdateData</a></div><div class="ttdeci">void UpdateData(uint8 *data, std::size_t len)</div><div class="ttdef"><b>Definition:</b> ARC4.cpp:44</div></div>
-<div class="ttc" id="aa11186_html_a2290a6e3a863b9a49941e7ecad9e2db7"><div class="ttname"><a href="../../d0/da4/a11186.html#a2290a6e3a863b9a49941e7ecad9e2db7">Warden::_inputCrypto</a></div><div class="ttdeci">Acore::Crypto::ARC4 _inputCrypto</div><div class="ttdef"><b>Definition:</b> Warden.h:144</div></div>
+<div class="ttc" id="aa11186_html_a2290a6e3a863b9a49941e7ecad9e2db7"><div class="ttname"><a href="../../d0/da4/a11186.html#a2290a6e3a863b9a49941e7ecad9e2db7">Warden::_inputCrypto</a></div><div class="ttdeci">Acore::Crypto::ARC4 _inputCrypto</div><div class="ttdef"><b>Definition:</b> Warden.h:143</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00144">_inputCrypto</a>, and <a class="el" href="../../#l00044">Acore::Crypto::ARC4::UpdateData()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00143">_inputCrypto</a>, and <a class="el" href="../../#l00044">Acore::Crypto::ARC4::UpdateData()</a>.</p>
 
 </div>
 </div>
@@ -541,9 +541,9 @@ Friends</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  136</span>{</div>
 <div class="line"><span class="lineno">  137</span>    <a class="code hl_variable" href="../../d0/da4/a11186.html#a4e23f5a6d7fdeefed9c2511831ce0928">_outputCrypto</a>.<a class="code hl_function" href="../../d8/d5f/a05046.html#a4023480221891e0d1ccd7a92aabd173c">UpdateData</a>(buffer, length);</div>
 <div class="line"><span class="lineno">  138</span>}</div>
-<div class="ttc" id="aa11186_html_a4e23f5a6d7fdeefed9c2511831ce0928"><div class="ttname"><a href="../../d0/da4/a11186.html#a4e23f5a6d7fdeefed9c2511831ce0928">Warden::_outputCrypto</a></div><div class="ttdeci">Acore::Crypto::ARC4 _outputCrypto</div><div class="ttdef"><b>Definition:</b> Warden.h:145</div></div>
+<div class="ttc" id="aa11186_html_a4e23f5a6d7fdeefed9c2511831ce0928"><div class="ttname"><a href="../../d0/da4/a11186.html#a4e23f5a6d7fdeefed9c2511831ce0928">Warden::_outputCrypto</a></div><div class="ttdeci">Acore::Crypto::ARC4 _outputCrypto</div><div class="ttdef"><b>Definition:</b> Warden.h:144</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00145">_outputCrypto</a>, and <a class="el" href="../../#l00044">Acore::Crypto::ARC4::UpdateData()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00144">_outputCrypto</a>, and <a class="el" href="../../#l00044">Acore::Crypto::ARC4::UpdateData()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00155">WardenWin::InitializeModule()</a>, <a class="el" href="../../#l00181">WardenMac::RequestChecks()</a>, <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>, <a class="el" href="../../#l00088">WardenMac::RequestHash()</a>, <a class="el" href="../../#l00212">WardenWin::RequestHash()</a>, <a class="el" href="../../#l00073">RequestModule()</a>, and <a class="el" href="../../#l00047">SendModuleToClient()</a>.</p>
 
@@ -620,9 +620,9 @@ Friends</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  313</span>{</div>
 <div class="line"><span class="lineno">  314</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d0/da4/a11186.html#a6331604c865f2719c9d6e3960ce5c112">_payloadMgr</a>;</div>
 <div class="line"><span class="lineno">  315</span>}</div>
-<div class="ttc" id="aa11186_html_a6331604c865f2719c9d6e3960ce5c112"><div class="ttname"><a href="../../d0/da4/a11186.html#a6331604c865f2719c9d6e3960ce5c112">Warden::_payloadMgr</a></div><div class="ttdeci">WardenPayloadMgr _payloadMgr</div><div class="ttdef"><b>Definition:</b> Warden.h:140</div></div>
+<div class="ttc" id="aa11186_html_a6331604c865f2719c9d6e3960ce5c112"><div class="ttname"><a href="../../d0/da4/a11186.html#a6331604c865f2719c9d6e3960ce5c112">Warden::_payloadMgr</a></div><div class="ttdeci">WardenPayloadMgr _payloadMgr</div><div class="ttdef"><b>Definition:</b> Warden.h:139</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00140">_payloadMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00139">_payloadMgr</a>.</p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">virtual void Warden::HandleData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d97/a28314.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df4/a28178.html">ByteBuffer</a> &amp;&#160;</td>
           <td class="paramname"><em>buff</em></td><td>)</td>
           <td></td>
         </tr>
@@ -666,7 +666,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">virtual void Warden::HandleHashResult </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d97/a28314.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df4/a28178.html">ByteBuffer</a> &amp;&#160;</td>
           <td class="paramname"><em>buff</em></td><td>)</td>
           <td></td>
         </tr>
@@ -800,7 +800,7 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  158</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/da4/a11186.html#ac39706645f201fed3c8ff7c1cf3d2654">_initialized</a>;</div>
 <div class="line"><span class="lineno">  159</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00150">_initialized</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00149">_initialized</a>.</p>
 
 </div>
 </div>
@@ -916,11 +916,11 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  309</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  310</span>}</div>
 <div class="ttc" id="aa00359_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/def/a00359.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa03107_html_a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada"><div class="ttname"><a href="../../da/d4a/a03107.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a></div><div class="ttdeci">@ LUA_EVAL_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:53</div></div>
+<div class="ttc" id="aa03107_html_a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada"><div class="ttname"><a href="../../da/d4a/a03107.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a></div><div class="ttdeci">@ LUA_EVAL_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:52</div></div>
 <div class="ttc" id="aa11186_html_a3aae296cc62f62e9deef0ec2dbb774f6"><div class="ttname"><a href="../../d0/da4/a11186.html#a3aae296cc62f62e9deef0ec2dbb774f6">Warden::ApplyPenalty</a></div><div class="ttdeci">void ApplyPenalty(uint16 checkId, std::string const &amp;reason)</div><div class="ttdef"><b>Definition:</b> Warden.cpp:196</div></div>
 <div class="ttc" id="aa11190_html_aca31cdb700dca4801dfa514812639c70"><div class="ttname"><a href="../../de/dee/a11190.html#aca31cdb700dca4801dfa514812639c70">WardenCheck::Type</a></div><div class="ttdeci">uint8 Type</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:45</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00196">ApplyPenalty()</a>, <a class="el" href="../../#l00053">LUA_EVAL_CHECK</a>, <a class="el" href="../../#l00089">sWardenCheckMgr</a>, and <a class="el" href="../../#l00045">WardenCheck::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00196">ApplyPenalty()</a>, <a class="el" href="../../#l00052">LUA_EVAL_CHECK</a>, <a class="el" href="../../#l00089">sWardenCheckMgr</a>, and <a class="el" href="../../#l00045">WardenCheck::Type</a>.</p>
 
 </div>
 </div>
@@ -1015,18 +1015,18 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="../../d0/da4/a11186.html#aef445e5a6406a0bb5874c3de8f42bd88">_session</a>-&gt;<a class="code hl_function" href="../../d4/dde/a10726.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;pkt);</div>
 <div class="line"><span class="lineno">   93</span>}</div>
 <div class="ttc" id="aa00461_html_a9d20b1e463a04f0a22d79ca802902be6"><div class="ttname"><a href="../../d5/d5f/a00461.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a></div><div class="ttdeci">void EndianConvert(T &amp;val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:47</div></div>
-<div class="ttc" id="aa03107_html_a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30"><div class="ttname"><a href="../../da/d4a/a03107.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30">WARDEN_SMSG_MODULE_USE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_USE</div><div class="ttdef"><b>Definition:</b> Warden.h:39</div></div>
+<div class="ttc" id="aa03107_html_a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30"><div class="ttname"><a href="../../da/d4a/a03107.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30">WARDEN_SMSG_MODULE_USE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_USE</div><div class="ttdef"><b>Definition:</b> Warden.h:38</div></div>
 <div class="ttc" id="aa04668_html_gga1073b6abb3a749f18bf1633020879e9baeee0f388f48c1735d91912e4be941f88"><div class="ttname"><a href="../../d5/d43/a04668.html#gga1073b6abb3a749f18bf1633020879e9baeee0f388f48c1735d91912e4be941f88">SMSG_WARDEN_DATA</a></div><div class="ttdeci">@ SMSG_WARDEN_DATA</div><div class="ttdef"><b>Definition:</b> Opcodes.h:772</div></div>
 <div class="ttc" id="aa10682_html"><div class="ttname"><a href="../../d2/d10/a10682.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:26</div></div>
 <div class="ttc" id="aa10726_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d4/dde/a10726.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:213</div></div>
-<div class="ttc" id="aa11170_html"><div class="ttname"><a href="../../d5/d11/a11170.html">WardenModuleUse</a></div><div class="ttdef"><b>Definition:</b> Warden.h:67</div></div>
-<div class="ttc" id="aa11170_html_a6042a93c52d18e3a74d3cd46ac3d940f"><div class="ttname"><a href="../../d5/d11/a11170.html#a6042a93c52d18e3a74d3cd46ac3d940f">WardenModuleUse::Command</a></div><div class="ttdeci">uint8 Command</div><div class="ttdef"><b>Definition:</b> Warden.h:68</div></div>
-<div class="ttc" id="aa11182_html_ab57879b41c825623a989db13a53f2f4e"><div class="ttname"><a href="../../d6/d6c/a11182.html#ab57879b41c825623a989db13a53f2f4e">ClientWardenModule::CompressedSize</a></div><div class="ttdeci">uint32 CompressedSize</div><div class="ttdef"><b>Definition:</b> Warden.h:97</div></div>
-<div class="ttc" id="aa11182_html_ad100540b5c6722a19c938b134a985aed"><div class="ttname"><a href="../../d6/d6c/a11182.html#ad100540b5c6722a19c938b134a985aed">ClientWardenModule::Key</a></div><div class="ttdeci">std::array&lt; uint8, 16 &gt; Key</div><div class="ttdef"><b>Definition:</b> Warden.h:96</div></div>
-<div class="ttc" id="aa11182_html_af1e6a5cc01ee05432be5c41c88d84794"><div class="ttname"><a href="../../d6/d6c/a11182.html#af1e6a5cc01ee05432be5c41c88d84794">ClientWardenModule::Id</a></div><div class="ttdeci">std::array&lt; uint8, 16 &gt; Id</div><div class="ttdef"><b>Definition:</b> Warden.h:95</div></div>
+<div class="ttc" id="aa11170_html"><div class="ttname"><a href="../../d5/d11/a11170.html">WardenModuleUse</a></div><div class="ttdef"><b>Definition:</b> Warden.h:66</div></div>
+<div class="ttc" id="aa11170_html_a6042a93c52d18e3a74d3cd46ac3d940f"><div class="ttname"><a href="../../d5/d11/a11170.html#a6042a93c52d18e3a74d3cd46ac3d940f">WardenModuleUse::Command</a></div><div class="ttdeci">uint8 Command</div><div class="ttdef"><b>Definition:</b> Warden.h:67</div></div>
+<div class="ttc" id="aa11182_html_ab57879b41c825623a989db13a53f2f4e"><div class="ttname"><a href="../../d6/d6c/a11182.html#ab57879b41c825623a989db13a53f2f4e">ClientWardenModule::CompressedSize</a></div><div class="ttdeci">uint32 CompressedSize</div><div class="ttdef"><b>Definition:</b> Warden.h:96</div></div>
+<div class="ttc" id="aa11182_html_ad100540b5c6722a19c938b134a985aed"><div class="ttname"><a href="../../d6/d6c/a11182.html#ad100540b5c6722a19c938b134a985aed">ClientWardenModule::Key</a></div><div class="ttdeci">std::array&lt; uint8, 16 &gt; Key</div><div class="ttdef"><b>Definition:</b> Warden.h:95</div></div>
+<div class="ttc" id="aa11182_html_af1e6a5cc01ee05432be5c41c88d84794"><div class="ttname"><a href="../../d6/d6c/a11182.html#af1e6a5cc01ee05432be5c41c88d84794">ClientWardenModule::Id</a></div><div class="ttdeci">std::array&lt; uint8, 16 &gt; Id</div><div class="ttdef"><b>Definition:</b> Warden.h:94</div></div>
 <div class="ttc" id="aa11186_html_a1880eaaeb13cca6852cf9c51fa29d339"><div class="ttname"><a href="../../d0/da4/a11186.html#a1880eaaeb13cca6852cf9c51fa29d339">Warden::EncryptData</a></div><div class="ttdeci">void EncryptData(uint8 *buffer, uint32 length)</div><div class="ttdef"><b>Definition:</b> Warden.cpp:135</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00149">_module</a>, <a class="el" href="../../#l00139">_session</a>, <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00068">WardenModuleUse::Command</a>, <a class="el" href="../../#l00097">ClientWardenModule::CompressedSize</a>, <a class="el" href="../../#l00135">EncryptData()</a>, <a class="el" href="../../#l00047">EndianConvert()</a>, <a class="el" href="../../#l00095">ClientWardenModule::Id</a>, <a class="el" href="../../#l00096">ClientWardenModule::Key</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00213">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00772">SMSG_WARDEN_DATA</a>, and <a class="el" href="../../#l00039">WARDEN_SMSG_MODULE_USE</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00148">_module</a>, <a class="el" href="../../#l00138">_session</a>, <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00067">WardenModuleUse::Command</a>, <a class="el" href="../../#l00096">ClientWardenModule::CompressedSize</a>, <a class="el" href="../../#l00135">EncryptData()</a>, <a class="el" href="../../#l00047">EndianConvert()</a>, <a class="el" href="../../#l00094">ClientWardenModule::Id</a>, <a class="el" href="../../#l00095">ClientWardenModule::Key</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00213">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00772">SMSG_WARDEN_DATA</a>, and <a class="el" href="../../#l00038">WARDEN_SMSG_MODULE_USE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00036">WardenMac::Init()</a>, and <a class="el" href="../../#l00112">WardenWin::Init()</a>.</p>
 
@@ -1070,13 +1070,13 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">   69</span>        <a class="code hl_variable" href="../../d0/da4/a11186.html#aef445e5a6406a0bb5874c3de8f42bd88">_session</a>-&gt;<a class="code hl_function" href="../../d4/dde/a10726.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;pkt1);</div>
 <div class="line"><span class="lineno">   70</span>    }</div>
 <div class="line"><span class="lineno">   71</span>}</div>
-<div class="ttc" id="aa03107_html_a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11"><div class="ttname"><a href="../../da/d4a/a03107.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11">WARDEN_SMSG_MODULE_CACHE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_CACHE</div><div class="ttdef"><b>Definition:</b> Warden.h:40</div></div>
-<div class="ttc" id="aa11174_html"><div class="ttname"><a href="../../d7/dc2/a11174.html">WardenModuleTransfer</a></div><div class="ttdef"><b>Definition:</b> Warden.h:75</div></div>
-<div class="ttc" id="aa11174_html_a279f37acfa44c06ae14c5a544dd7baf6"><div class="ttname"><a href="../../d7/dc2/a11174.html#a279f37acfa44c06ae14c5a544dd7baf6">WardenModuleTransfer::DataSize</a></div><div class="ttdeci">uint16 DataSize</div><div class="ttdef"><b>Definition:</b> Warden.h:77</div></div>
-<div class="ttc" id="aa11174_html_a65dc9a4861ab63743146c65a0a6249f2"><div class="ttname"><a href="../../d7/dc2/a11174.html#a65dc9a4861ab63743146c65a0a6249f2">WardenModuleTransfer::Command</a></div><div class="ttdeci">uint8 Command</div><div class="ttdef"><b>Definition:</b> Warden.h:76</div></div>
-<div class="ttc" id="aa11174_html_abda0f8cc15c7fb45fa81fcf5ccad8d08"><div class="ttname"><a href="../../d7/dc2/a11174.html#abda0f8cc15c7fb45fa81fcf5ccad8d08">WardenModuleTransfer::Data</a></div><div class="ttdeci">uint8 Data[500]</div><div class="ttdef"><b>Definition:</b> Warden.h:78</div></div>
+<div class="ttc" id="aa03107_html_a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11"><div class="ttname"><a href="../../da/d4a/a03107.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11">WARDEN_SMSG_MODULE_CACHE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_CACHE</div><div class="ttdef"><b>Definition:</b> Warden.h:39</div></div>
+<div class="ttc" id="aa11174_html"><div class="ttname"><a href="../../d7/dc2/a11174.html">WardenModuleTransfer</a></div><div class="ttdef"><b>Definition:</b> Warden.h:74</div></div>
+<div class="ttc" id="aa11174_html_a279f37acfa44c06ae14c5a544dd7baf6"><div class="ttname"><a href="../../d7/dc2/a11174.html#a279f37acfa44c06ae14c5a544dd7baf6">WardenModuleTransfer::DataSize</a></div><div class="ttdeci">uint16 DataSize</div><div class="ttdef"><b>Definition:</b> Warden.h:76</div></div>
+<div class="ttc" id="aa11174_html_a65dc9a4861ab63743146c65a0a6249f2"><div class="ttname"><a href="../../d7/dc2/a11174.html#a65dc9a4861ab63743146c65a0a6249f2">WardenModuleTransfer::Command</a></div><div class="ttdeci">uint8 Command</div><div class="ttdef"><b>Definition:</b> Warden.h:75</div></div>
+<div class="ttc" id="aa11174_html_abda0f8cc15c7fb45fa81fcf5ccad8d08"><div class="ttname"><a href="../../d7/dc2/a11174.html#abda0f8cc15c7fb45fa81fcf5ccad8d08">WardenModuleTransfer::Data</a></div><div class="ttdeci">uint8 Data[500]</div><div class="ttdef"><b>Definition:</b> Warden.h:77</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00149">_module</a>, <a class="el" href="../../#l00139">_session</a>, <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00076">WardenModuleTransfer::Command</a>, <a class="el" href="../../#l00098">ClientWardenModule::CompressedData</a>, <a class="el" href="../../#l00097">ClientWardenModule::CompressedSize</a>, <a class="el" href="../../#l00078">WardenModuleTransfer::Data</a>, <a class="el" href="../../#l00077">WardenModuleTransfer::DataSize</a>, <a class="el" href="../../#l00135">EncryptData()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00213">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00772">SMSG_WARDEN_DATA</a>, and <a class="el" href="../../#l00040">WARDEN_SMSG_MODULE_CACHE</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00148">_module</a>, <a class="el" href="../../#l00138">_session</a>, <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00075">WardenModuleTransfer::Command</a>, <a class="el" href="../../#l00097">ClientWardenModule::CompressedData</a>, <a class="el" href="../../#l00096">ClientWardenModule::CompressedSize</a>, <a class="el" href="../../#l00077">WardenModuleTransfer::Data</a>, <a class="el" href="../../#l00076">WardenModuleTransfer::DataSize</a>, <a class="el" href="../../#l00135">EncryptData()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00213">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00772">SMSG_WARDEN_DATA</a>, and <a class="el" href="../../#l00039">WARDEN_SMSG_MODULE_CACHE</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1132,7 @@ Friends</h2></td></tr>
 <div class="ttc" id="aa03800_html_a17aac4c166ebe43e3b8fdccf9e012e41adcf526d0e348ba99123772b8f38ffa6f"><div class="ttname"><a href="../../dd/dbc/a03800.html#a17aac4c166ebe43e3b8fdccf9e012e41adcf526d0e348ba99123772b8f38ffa6f">CONFIG_WARDEN_CLIENT_RESPONSE_DELAY</a></div><div class="ttdeci">@ CONFIG_WARDEN_CLIENT_RESPONSE_DELAY</div><div class="ttdef"><b>Definition:</b> IWorld.h:373</div></div>
 <div class="ttc" id="aa11186_html_ae4d9116061d9e4544e5f4291fd2f7428"><div class="ttname"><a href="../../d0/da4/a11186.html#ae4d9116061d9e4544e5f4291fd2f7428">Warden::RequestChecks</a></div><div class="ttdeci">virtual void RequestChecks()=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00146">_checkTimer</a>, <a class="el" href="../../#l00147">_clientResponseTimer</a>, <a class="el" href="../../#l00148">_dataSent</a>, <a class="el" href="../../#l00150">_initialized</a>, <a class="el" href="../../#l00139">_session</a>, <a class="el" href="../../#l00373">CONFIG_WARDEN_CLIENT_RESPONSE_DELAY</a>, <a class="el" href="../../#l00053">IN_MILLISECONDS</a>, <a class="el" href="../../#l00400">WorldSession::KickPlayer()</a>, <a class="el" href="../../d0/da4/a11186.html#ae4d9116061d9e4544e5f4291fd2f7428">RequestChecks()</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00145">_checkTimer</a>, <a class="el" href="../../#l00146">_clientResponseTimer</a>, <a class="el" href="../../#l00147">_dataSent</a>, <a class="el" href="../../#l00149">_initialized</a>, <a class="el" href="../../#l00138">_session</a>, <a class="el" href="../../#l00373">CONFIG_WARDEN_CLIENT_RESPONSE_DELAY</a>, <a class="el" href="../../#l00053">IN_MILLISECONDS</a>, <a class="el" href="../../#l00400">WorldSession::KickPlayer()</a>, <a class="el" href="../../d0/da4/a11186.html#ae4d9116061d9e4544e5f4291fd2f7428">RequestChecks()</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
 
 </div>
 </div>
@@ -1548,7 +1548,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da4/a11186.html">Warden</a></li>
-    <li class="footer">Generated on Mon Oct 28 2024 20:41:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 4 2024 20:41:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

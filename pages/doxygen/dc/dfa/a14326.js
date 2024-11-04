@@ -1,6 +1,6 @@
 var a14326 =
 [
-    [ "HandleScriptEffect", "dc/dfa/a14326.html#a3d22cc828a2aa59d45e5d648161926fd", null ],
-    [ "PrepareSpellScript", "dc/dfa/a14326.html#a0ecf5662d9cc1296ebdac82233f1fe7c", null ],
-    [ "Register", "dc/dfa/a14326.html#aee5d9189b6df318b57e919511a185a99", null ]
+    [ "FilterTargets", "dc/dfa/a14326.html#ab4e32c78307df1d0ea7e0a71ace11734", null ],
+    [ "PrepareSpellScript", "dc/dfa/a14326.html#a54fb8b4b7abd1c92d7d98f3b911a7cec", null ],
+    [ "Register", "dc/dfa/a14326.html#a164b8b946dc801db878603488c978adb", null ]
 ];

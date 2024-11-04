@@ -1,7 +1,6 @@
 var a21970 =
 [
-    [ "Absorb", "d6/db9/a21970.html#a784b48553696734abac77545df2fc045", null ],
-    [ "CalculateAmount", "d6/db9/a21970.html#a456ee99a71062f6217bda7561e4e7766", null ],
-    [ "PrepareAuraScript", "d6/db9/a21970.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
-    [ "Register", "d6/db9/a21970.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
+    [ "npc_vics_flying_machineAI", "de/df7/a21974.html", "de/df7/a21974" ],
+    [ "npc_vics_flying_machine", "d6/db9/a21970.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
+    [ "GetAI", "d6/db9/a21970.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
 ];

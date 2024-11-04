@@ -1,5 +1,9 @@
 var a22054 =
 [
-    [ "go_pressure_valve", "d8/da2/a22054.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
-    [ "OnGossipHello", "d8/da2/a22054.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d8/dc9/a22058.html", "d8/dc9/a22058" ],
+    [ "NPCs", "d8/da2/a22054.html#a8f2ea95c836ba6bab370301fbf3e6822", [
+      [ "NPC_HYLDSMEET_DRAKERIDER", "d8/da2/a22054.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
+    ] ],
+    [ "npc_hyldsmeet_protodrake", "d8/da2/a22054.html#a2471f1d858d7ae8f801208e35860a95e", null ],
+    [ "GetAI", "d8/da2/a22054.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
 ];

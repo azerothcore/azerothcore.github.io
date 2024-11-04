@@ -1,6 +1,7 @@
 var a26426 =
 [
-    [ "CheckProc", "dc/d8f/a26426.html#a4e40a3472a7dde5aaa1d6d4cda54482a", null ],
-    [ "PrepareAuraScript", "dc/d8f/a26426.html#af15109e926eb717c3f3cb2f7f617428c", null ],
-    [ "Register", "dc/d8f/a26426.html#aee35ceec1ffcdebf5bd712310bdf9f1c", null ]
+    [ "HandleDummy", "dc/d8f/a26426.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
+    [ "PrepareSpellScript", "dc/d8f/a26426.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
+    [ "Register", "dc/d8f/a26426.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
+    [ "Validate", "dc/d8f/a26426.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
 ];

@@ -1,7 +1,7 @@
 var a12986 =
 [
-    [ "HandleApplyTouch", "d8/d05/a12986.html#a2d7866cda1e12ac2e3f843405d618d40", null ],
-    [ "PrepareSpellScript", "d8/d05/a12986.html#ae3fb5dbf490ef78d6990e4cd92bf3aa3", null ],
-    [ "Register", "d8/d05/a12986.html#a019ea17d4f02a69f331f9adc973a65a5", null ],
-    [ "Validate", "d8/d05/a12986.html#ae2a45916c1d5aefbe076e93c25ab23b6", null ]
+    [ "HandleScriptEffect", "d8/d05/a12986.html#a5ee63545a338e00bfcb8dcc2f3f67db3", null ],
+    [ "PrepareSpellScript", "d8/d05/a12986.html#af9deee89e837e07486a7555632008eb2", null ],
+    [ "Register", "d8/d05/a12986.html#aa4a7c699389a6e467b298cb4f9d3ed07", null ],
+    [ "Validate", "d8/d05/a12986.html#a043d135ea2c37f6e4352aa2fba2bb21c", null ]
 ];

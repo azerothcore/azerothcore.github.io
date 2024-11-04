@@ -1,9 +1,7 @@
 var a22638 =
 [
-    [ "npc_flame_of_azzinoth", "db/d4b/a22638.html#acdeb046c2214bd449257ba1b932c8a5c", null ],
-    [ "IsSummonedBy", "db/d4b/a22638.html#a5254057af0371a08ea01fe91502c2a20", null ],
-    [ "JustEngagedWith", "db/d4b/a22638.html#a24eba1a6cdea4971573a6f4b2dd34fb3", null ],
-    [ "JustSummoned", "db/d4b/a22638.html#ad2e7085fcd985a08cc2e317485a8fff1", null ],
-    [ "UpdateAI", "db/d4b/a22638.html#a7a1c9b967e6a79721dea8cbca44cbb5b", null ],
-    [ "_bladeGUID", "db/d4b/a22638.html#ae797d929b0e9c8953a4c9efd392a21f3", null ]
+    [ "SuckBackEvent", "db/d4b/a22638.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "db/d4b/a22638.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "db/d4b/a22638.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "db/d4b/a22638.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

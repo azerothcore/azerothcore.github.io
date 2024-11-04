@@ -1,7 +1,6 @@
 var a15178 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "d6/d63/a15178.html#aaed19d0c915891d8afecda7df75a8a75", null ],
-    [ "JustRespawned", "d6/d63/a15178.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
-    [ "MoveInLineOfSight", "d6/d63/a15178.html#a295d4bef97b97c7deb31a81274f0818d", null ],
-    [ "SpellHit", "d6/d63/a15178.html#a021b82aa6bd2e118fe810f18349fda42", null ]
+    [ "npc_bunthen_plainswind", "d6/d63/a15178.html#ad9b789ad3e958dee4733b142813b6302", null ],
+    [ "OnGossipHello", "d6/d63/a15178.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
+    [ "OnGossipSelect", "d6/d63/a15178.html#a117f28d513ac645b9d3d908d052d2146", null ]
 ];

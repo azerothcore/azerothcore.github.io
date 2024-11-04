@@ -1,5 +1,7 @@
 var a21610 =
 [
-    [ "go_the_pearl_of_the_depths", "d3/df0/a21610.html#a0e09ddcde0eef050400d90e9a268823a", null ],
-    [ "OnGossipHello", "d3/df0/a21610.html#a745ea14136a78759a3afd7714c6d784a", null ]
+    [ "HandleDummy", "d3/df0/a21610.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
+    [ "PrepareSpellScript", "d3/df0/a21610.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
+    [ "Register", "d3/df0/a21610.html#a45f80e0436f93a597deb4653852df6a1", null ],
+    [ "Validate", "d3/df0/a21610.html#ad13fdade1fb7455485bfd68687de53c5", null ]
 ];

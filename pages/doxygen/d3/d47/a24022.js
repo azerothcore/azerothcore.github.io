@@ -1,6 +1,6 @@
 var a24022 =
 [
-    [ "CheckCast", "d3/d47/a24022.html#ae13cc2d3da1c9911c88402d05679d447", null ],
-    [ "PrepareSpellScript", "d3/d47/a24022.html#afbed81273aa23d355c64579c71e9761d", null ],
-    [ "Register", "d3/d47/a24022.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
+    [ "npc_shattrathflaskvendors", "d3/d47/a24022.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "d3/d47/a24022.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "d3/d47/a24022.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

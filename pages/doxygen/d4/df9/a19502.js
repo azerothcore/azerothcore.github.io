@@ -1,6 +1,6 @@
 var a19502 =
 [
-    [ "boss_algalon_the_observerAI", "d3/dca/a19506.html", "d3/dca/a19506" ],
-    [ "boss_algalon_the_observer", "d4/df9/a19502.html#a0691b47a116401da58b246203ecba2cb", null ],
-    [ "GetAI", "d4/df9/a19502.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
+    [ "boss_stormcaller_brundirAI", "d3/dca/a19506.html", "d3/dca/a19506" ],
+    [ "boss_stormcaller_brundir", "d4/df9/a19502.html#aa966d1534a58e3832c46772043956533", null ],
+    [ "GetAI", "d4/df9/a19502.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
 ];

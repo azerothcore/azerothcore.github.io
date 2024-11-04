@@ -1,6 +1,10 @@
 var a23466 =
 [
-    [ "CheckProc", "d5/d55/a23466.html#add583b34b9052fbb37c43c558f0f8b96", null ],
-    [ "PrepareAuraScript", "d5/d55/a23466.html#a3d7ed0fa175daffcf11fc3ee04b189bf", null ],
-    [ "Register", "d5/d55/a23466.html#ab91f611f59e83d4f1b7c71b1595db667", null ]
+    [ "boss_harbinger_skyriss", "d5/d55/a23466.html#a245179f74d61c2671b397e8f2473b599", null ],
+    [ "EnterEvadeMode", "d5/d55/a23466.html#a873413da06569343225e6659f8277b2c", null ],
+    [ "JustDied", "d5/d55/a23466.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
+    [ "JustEngagedWith", "d5/d55/a23466.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
+    [ "JustSummoned", "d5/d55/a23466.html#a97d84139a3e970e22d7d422f2f825f12", null ],
+    [ "KilledUnit", "d5/d55/a23466.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
+    [ "Reset", "d5/d55/a23466.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
 ];

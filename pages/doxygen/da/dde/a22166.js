@@ -1,6 +1,5 @@
 var a22166 =
 [
-    [ "npc_roxi_ramrocket", "da/dde/a22166.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
-    [ "OnGossipHello", "da/dde/a22166.html#adec28f778921246c56f11d09753e566e", null ],
-    [ "OnGossipSelect", "da/dde/a22166.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
+    [ "go_finklestein_cauldron", "da/dde/a22166.html#a8aa352319c54526069588dacd75ab883", null ],
+    [ "OnGossipHello", "da/dde/a22166.html#aa04f55e8a6cc21cf4a1e4cdc35c6a1ae", null ]
 ];

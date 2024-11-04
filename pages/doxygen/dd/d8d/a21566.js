@@ -1,9 +1,12 @@
 var a21566 =
 [
-    [ "npc_archmage_landalockAI", "dd/d8d/a21566.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
-    [ "GetImageEntry", "dd/d8d/a21566.html#ae09841969253c0baf72cc235b6fa058e", null ],
-    [ "JustSummoned", "dd/d8d/a21566.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
-    [ "UpdateAI", "dd/d8d/a21566.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
-    [ "_summonGUID", "dd/d8d/a21566.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
-    [ "_switchImageTimer", "dd/d8d/a21566.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
+    [ "npc_q24545_wretched_ghoulAI", "dd/d8d/a21566.html#a0e4d9b3acd1de2cd44d0a6a22007e026", null ],
+    [ "Activate", "dd/d8d/a21566.html#a52f64cef6159a3bfe29a6ac551b5bbe2", null ],
+    [ "AttackStart", "dd/d8d/a21566.html#a9453e2fe00c656ded0bad4d9036dbd2a", null ],
+    [ "CanAIAttack", "dd/d8d/a21566.html#a9cf57308ea588cc2febb0bb2666c2afe", null ],
+    [ "Deactivate", "dd/d8d/a21566.html#af7dd65b8c0a1b5b55752d7f6b85f21cc", null ],
+    [ "DoAction", "dd/d8d/a21566.html#a77aad4a0446fac68a5d1785acbe825eb", null ],
+    [ "JustDied", "dd/d8d/a21566.html#a2fc9b40d72eea88b2245e6b01b17384a", null ],
+    [ "JustRespawned", "dd/d8d/a21566.html#ab30068f7082176c279e0667f72d750a3", null ],
+    [ "Reset", "dd/d8d/a21566.html#ad94a4789b5ba019d021682f15df13589", null ]
 ];

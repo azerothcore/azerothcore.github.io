@@ -1,13 +1,7 @@
 var a22130 =
 [
-    [ "npc_frosthoundAI", "d8/db3/a22130.html#ac8f41789568399318cdc30292abfd93b", null ],
-    [ "AttackStart", "d8/db3/a22130.html#a0278736f670f5aac069b03530f441ae1", null ],
-    [ "EnterEvadeMode", "d8/db3/a22130.html#acc1a3842ddae670e23d8c55e8768ace9", null ],
-    [ "JustDied", "d8/db3/a22130.html#a26f4657c1d373cf4a2b45f6487a9e901", null ],
-    [ "JustEngagedWith", "d8/db3/a22130.html#a80eec4a19fb53be5946b2e021b8dd332", null ],
-    [ "JustSummoned", "d8/db3/a22130.html#a8db3dbace66dabfa54800cacbfdfab9b", null ],
-    [ "OnCharmed", "d8/db3/a22130.html#ae1e2a4763e8bfc8ab04687829830c639", null ],
-    [ "PassengerBoarded", "d8/db3/a22130.html#aea512a9811ec0766b9b175ec2ca9a447", null ],
-    [ "UpdateAI", "d8/db3/a22130.html#a9a755fd6d53d124c441357472fcb73e0", null ],
-    [ "WaypointReached", "d8/db3/a22130.html#aa87f8d5bbbd105481773941a90a96cf6", null ]
+    [ "HandleScript", "d8/db3/a22130.html#a1811115f1732912bdfaeeb8272db2304", null ],
+    [ "PrepareSpellScript", "d8/db3/a22130.html#a50c24464dd88717bf78971d679715d7b", null ],
+    [ "Register", "d8/db3/a22130.html#ab48b37db40865d60d7cda3260ec15ba8", null ],
+    [ "Validate", "d8/db3/a22130.html#a0f0e4621965ea7ed7a108bca6d232ad0", null ]
 ];

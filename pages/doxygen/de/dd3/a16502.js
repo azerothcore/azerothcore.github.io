@@ -1,6 +1,5 @@
 var a16502 =
 [
-    [ "HandleScript", "de/dd3/a16502.html#a4786e0c38f03f7e671174d0641526681", null ],
-    [ "PrepareSpellScript", "de/dd3/a16502.html#a7d260468f409a7fb41a39f80db5f9d63", null ],
-    [ "Register", "de/dd3/a16502.html#a943117bfb56b846e99d04bd9a348af8d", null ]
+    [ "npc_fos_leader_secondAI", "de/dd3/a16502.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
+    [ "MovementInform", "de/dd3/a16502.html#a9cc0b500f1289dc8b764b3755468e639", null ]
 ];

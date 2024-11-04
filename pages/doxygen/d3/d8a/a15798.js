@@ -1,7 +1,7 @@
 var a15798 =
 [
-    [ "CheckDistance", "d3/d8a/a15798.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
-    [ "PrepareSpellScript", "d3/d8a/a15798.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
-    [ "Register", "d3/d8a/a15798.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
-    [ "Validate", "d3/d8a/a15798.html#aa5d7a420154b156ca24e73de2faf912a", null ]
+    [ "npc_orb_carrierAI", "d3/d8a/a15798.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "d3/d8a/a15798.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "d3/d8a/a15798.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "d3/d8a/a15798.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

@@ -1,6 +1,8 @@
 var a19430 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "d0/d67/a19434.html", "d0/d67/a19434" ],
-    [ "boss_sjonnir_iron_sludge", "de/db7/a19430.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
-    [ "GetAI", "de/db7/a19430.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
+    [ "go_celestial_planetarium_accessAI", "de/db7/a19430.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
+    [ "GossipHello", "de/db7/a19430.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
+    [ "UpdateAI", "de/db7/a19430.html#a9b2bfb74a12e3258476387fc78cde574", null ],
+    [ "_locked", "de/db7/a19430.html#a37f83dbbb05e461d613a4c38001f785c", null ],
+    [ "events", "de/db7/a19430.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
 ];

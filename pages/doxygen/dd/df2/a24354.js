@@ -1,5 +1,7 @@
 var a24354 =
 [
-    [ "npc_pet_pri_lightwell", "dd/df2/a24354.html#aebeb192e66c7d5b4201cbaa81d46703c", null ],
-    [ "InitializeAI", "dd/df2/a24354.html#a5244bcfab27ccad603f80c6f2b2fcd3a", null ]
+    [ "CheckCast", "dd/df2/a24354.html#ab215bbeea333d250ecbff0482f4f0966", null ],
+    [ "FilterTargets", "dd/df2/a24354.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
+    [ "PrepareSpellScript", "dd/df2/a24354.html#a83447d184bb2299987d0c54d5af4c910", null ],
+    [ "Register", "dd/df2/a24354.html#a6107ba00471dd346c363db80fe81b698", null ]
 ];

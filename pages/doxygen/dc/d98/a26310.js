@@ -1,9 +1,9 @@
 var a26310 =
 [
-    [ "CheckCast", "dc/d98/a26310.html#ae99a2b4b582c8a2c8921b8921400ffbe", null ],
-    [ "HandleActiveObject", "dc/d98/a26310.html#a79a51387f0a515ed07fcc1ac9e428290", null ],
-    [ "HandleDummy", "dc/d98/a26310.html#a39dd06ae92d04060ee41897318a701fd", null ],
-    [ "Load", "dc/d98/a26310.html#a76fff3a9d20f48e4814ee0f258be07b8", null ],
-    [ "PrepareSpellScript", "dc/d98/a26310.html#a016e480d7b2267c9bf824c9cb029f134", null ],
-    [ "Register", "dc/d98/a26310.html#aa05d48c35f748d93f5d8ff1defe2d3c9", null ]
+    [ "CheckCast", "dc/d98/a26310.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
+    [ "FilterTargets", "dc/d98/a26310.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
+    [ "HandleDummy", "dc/d98/a26310.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
+    [ "PrepareSpellScript", "dc/d98/a26310.html#a9c992e732b525e29f684947398d20efb", null ],
+    [ "Register", "dc/d98/a26310.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
+    [ "Validate", "dc/d98/a26310.html#abca1e5aa46e7753588c8120090775195", null ]
 ];

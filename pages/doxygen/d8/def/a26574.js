@@ -1,7 +1,7 @@
 var a26574 =
 [
-    [ "HandleProc", "d8/def/a26574.html#a7e358f231f3ee72fcb95432a4705312a", null ],
-    [ "PrepareAuraScript", "d8/def/a26574.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
-    [ "Register", "d8/def/a26574.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
-    [ "Validate", "d8/def/a26574.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
+    [ "HandleRemove", "d8/def/a26574.html#a0f5a3e4d75dbb5c699ea1acbf89db318", null ],
+    [ "PrepareAuraScript", "d8/def/a26574.html#a9e153c86e29a17b0cc20c65c635aa070", null ],
+    [ "Register", "d8/def/a26574.html#a338ee9c0eddd309ce2a791160059bad6", null ],
+    [ "Validate", "d8/def/a26574.html#ae8272b65a070fc959af003f701567c3c", null ]
 ];

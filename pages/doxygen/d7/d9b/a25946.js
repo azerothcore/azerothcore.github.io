@@ -1,8 +1,6 @@
 var a25946 =
 [
-    [ "CalculateAmount", "d7/d9b/a25946.html#a8751483423726ffa8a33c70b7e55db23", null ],
-    [ "CheckProc", "d7/d9b/a25946.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
-    [ "HandleProc", "d7/d9b/a25946.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
-    [ "PrepareAuraScript", "d7/d9b/a25946.html#a6bb54cea419145875c4086a69e1e55e8", null ],
-    [ "Register", "d7/d9b/a25946.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
+    [ "FilterTargets", "d7/d9b/a25946.html#a23c7b977f7e213322b3702367d6a28c7", null ],
+    [ "PrepareSpellScript", "d7/d9b/a25946.html#a7000b2fd940c914933c486e847932b62", null ],
+    [ "Register", "d7/d9b/a25946.html#a870ee08d0341f6640710a87c97a6b98b", null ]
 ];

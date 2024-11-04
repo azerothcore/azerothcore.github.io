@@ -1,6 +1,10 @@
 var a13718 =
 [
-    [ "OnEffect", "dc/db0/a13718.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "dc/db0/a13718.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "dc/db0/a13718.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "npc_batrider", "dc/db0/a13718.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "DamageTaken", "dc/db0/a13718.html#ad4818b1363082a91223526908c38777c", null ],
+    [ "JustEngagedWith", "dc/db0/a13718.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
+    [ "Reset", "dc/db0/a13718.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "dc/db0/a13718.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
+    [ "_mode", "dc/db0/a13718.html#acd53ec78a754219511af1ad2f11422a9", null ],
+    [ "_scheduler", "dc/db0/a13718.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

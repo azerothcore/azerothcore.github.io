@@ -1,7 +1,6 @@
 var a26838 =
 [
-    [ "HandleScript", "d6/d0d/a26838.html#ab3f88b7443eb4f32339c3b687431fda2", null ],
-    [ "PrepareSpellScript", "d6/d0d/a26838.html#ab363d596d2d1e030f0cc07126b40e921", null ],
-    [ "Register", "d6/d0d/a26838.html#ab9041b811e80e220828d5db59b724682", null ],
-    [ "Validate", "d6/d0d/a26838.html#a1b9a4c78a43cf406f1db75c518a343ea", null ]
+    [ "npc_dream_fogAI", "d3/d8e/a26842.html", "d3/d8e/a26842" ],
+    [ "npc_dream_fog", "d6/d0d/a26838.html#ae50306be88f15c9dfc4d0f12c63c68e6", null ],
+    [ "GetAI", "d6/d0d/a26838.html#a48c45fec086e3a50462deed44734ba38", null ]
 ];

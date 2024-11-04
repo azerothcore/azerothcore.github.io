@@ -465,6 +465,8 @@ var a04265 =
       [ "BG_AV_OBJECT_STORMPIKE_BANNER", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffae99f67d09861d50354dc28950f049a9e", null ],
       [ "BG_AV_OBJECT_GENERIC_MIN", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffad04a643bac2b70997b5541404f0151a8", null ],
       [ "BG_AV_OBJECT_GENERIC_MAX", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffab03af74c50368517d8601a4d9a15cc98", null ],
+      [ "BG_AV_OBJECT_HALLOWS_END_MIN", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffa25627687931f7c8dc12e1b17c1855acd", null ],
+      [ "BG_AV_OBJECT_HALLOWS_END_MAX", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffa72ae2fea80435fb9826d30fa47e65c3b", null ],
       [ "BG_AV_OBJECT_MAX", "db/d25/a04265.html#a6cf2a7c956cc3ec52c991928408dcbffa45a352b0d099907ec1f7979ab8477c97", null ]
     ] ],
     [ "BG_AV_OTHER_VALUES", "db/d25/a04265.html#a751d904d288e78e456149d82d6e019c9", [
@@ -530,6 +532,7 @@ var a04265 =
     [ "BG_AV_DoorPositons", "db/d25/a04265.html#a0684d7480d86c8a5f9a7323ec0f984ea", null ],
     [ "BG_AV_GenericObjectPos", "db/d25/a04265.html#a1af00a9ee64afd31c70973b59236917d", null ],
     [ "BG_AV_GraveyardIds", "db/d25/a04265.html#a9bc0a7431d45a85c7c4c265c870122a1", null ],
+    [ "BG_AV_HallowsEndObjectPos", "db/d25/a04265.html#ad5341b4bf4829e1f45cce695cb33dc2e", null ],
     [ "BG_AV_MineWorldStates", "db/d25/a04265.html#a552f560affc1d12b6058a73e9d765409", null ],
     [ "BG_AV_NodeWorldStates", "db/d25/a04265.html#ab4cc2631b7670ab602dcbbd1ae9a1f85", null ],
     [ "BG_AV_ObjectPos", "db/d25/a04265.html#a3917afeeab3648052e9b297e78183caa", null ],

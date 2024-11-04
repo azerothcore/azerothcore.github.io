@@ -1,6 +1,6 @@
 var a13138 =
 [
-    [ "FilterTargets", "d7/d5b/a13138.html#aa6c8db9ae3ffd14e0841c98633115a9b", null ],
-    [ "PrepareSpellScript", "d7/d5b/a13138.html#a502f57c8567bc7ed15035d89ea26f4a6", null ],
-    [ "Register", "d7/d5b/a13138.html#aa3f50e9c6d430d3a1bc83c382c08b189", null ]
+    [ "npc_singularityAI", "de/da3/a13142.html", "de/da3/a13142" ],
+    [ "npc_singularity", "d7/d5b/a13138.html#a6ae83c9ce2eff2bb9d532264b80e9da2", null ],
+    [ "GetAI", "d7/d5b/a13138.html#a1eb97c468c5d1dee2662c986d78d3233", null ]
 ];

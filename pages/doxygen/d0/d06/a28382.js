@@ -1,10 +1,9 @@
 var a28382 =
 [
-    [ "BugfixVersion", "d0/d06/a28382.html#a461f8c749a874405584dc1fd3fe1d805", null ],
-    [ "Build", "d0/d06/a28382.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
-    [ "HotfixVersion", "d0/d06/a28382.html#a0df61c036a57b8a3efde5d180dc38131", null ],
-    [ "MacHash", "d0/d06/a28382.html#ad59772e86371318fe975760e303fa7d9", null ],
-    [ "MajorVersion", "d0/d06/a28382.html#a0eb78564680f771e325536a0ab77382a", null ],
-    [ "MinorVersion", "d0/d06/a28382.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
-    [ "WindowsHash", "d0/d06/a28382.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
+    [ "MapTiles", "d0/d06/a28382.html#abc58d7154eab45ae26df27e2e82dac63", null ],
+    [ "MapTiles", "d0/d06/a28382.html#a406efc53593b5bceb0a491c0b7553350", null ],
+    [ "~MapTiles", "d0/d06/a28382.html#aec1baac21c06380ba71ff5e610152519", null ],
+    [ "operator==", "d0/d06/a28382.html#a3e7a87f421e8eb23926afe1d0978c3b4", null ],
+    [ "m_mapId", "d0/d06/a28382.html#a2fc10edf226a6f4548c2175e1013c1b9", null ],
+    [ "m_tiles", "d0/d06/a28382.html#ab80305bb73234e35a528701d775954b5", null ]
 ];

@@ -1,13 +1,10 @@
 var a14102 =
 [
-    [ "go_firework_show", "dd/d45/a14102.html#a42123490a9752f2187023f3f3ae56333", null ],
-    [ "InitShow", "dd/d45/a14102.html#a27dc501894beaeb88b2ff0d940c7d129", null ],
-    [ "SpawnNextFirework", "dd/d45/a14102.html#a6e9ce552bf040f2acce49c2e3eb70bab", null ],
-    [ "StartShow", "dd/d45/a14102.html#af637d1436655e44738b55040196533d3", null ],
-    [ "StopShow", "dd/d45/a14102.html#ad84f3dbb4692d03933d972ec7be6287d", null ],
-    [ "UpdateAI", "dd/d45/a14102.html#ad1bcb7a47652d62ed8633abdafc56881", null ],
-    [ "_curIdx", "dd/d45/a14102.html#a92613337cf2473e585b98b92bdcbce92", null ],
-    [ "_scheduler", "dd/d45/a14102.html#a6248d36087d8fae9cfa47f473613f886", null ],
-    [ "_show", "dd/d45/a14102.html#a4392d7e2cffa2342b53092cbd9ccea3f", null ],
-    [ "_showRunning", "dd/d45/a14102.html#ae7e870de692c61630d0fd2f44d487aa4", null ]
+    [ "boss_headless_horseman_pumpkin", "dd/d45/a14102.html#a62191ae523401ac57a947db96a245f7a", null ],
+    [ "AttackStart", "dd/d45/a14102.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
+    [ "MoveInLineOfSight", "dd/d45/a14102.html#a212f9803f66d297cd276ef842247776a", null ],
+    [ "Reset", "dd/d45/a14102.html#a9d5f6922a52146b61168f1c50b378294", null ],
+    [ "SpellHit", "dd/d45/a14102.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
+    [ "UpdateAI", "dd/d45/a14102.html#aca53b8839bce5e180ba8583490d694c3", null ],
+    [ "timer", "dd/d45/a14102.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
 ];

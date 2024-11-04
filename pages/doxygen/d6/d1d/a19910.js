@@ -1,6 +1,6 @@
 var a19910 =
 [
-    [ "boss_freya_healthy_sporeAI", "d6/d63/a19914.html", "d6/d63/a19914" ],
-    [ "boss_freya_healthy_spore", "d6/d1d/a19910.html#a16633136393061aa98c7a98f535d421e", null ],
-    [ "GetAI", "d6/d1d/a19910.html#ae76eb3b334f82c536f71fdcfc86e4382", null ]
+    [ "npc_ulduar_toasty_fireAI", "d6/d63/a19914.html", "d6/d63/a19914" ],
+    [ "npc_ulduar_toasty_fire", "d6/d1d/a19910.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
+    [ "GetAI", "d6/d1d/a19910.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
 ];

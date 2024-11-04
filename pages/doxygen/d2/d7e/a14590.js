@@ -1,9 +1,6 @@
 var a14590 =
 [
-    [ "boss_temporus", "d2/d7e/a14590.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
-    [ "JustDied", "d2/d7e/a14590.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
-    [ "JustEngagedWith", "d2/d7e/a14590.html#abe7f18497c1c8b31693980e98b1d1859", null ],
-    [ "KilledUnit", "d2/d7e/a14590.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
-    [ "MoveInLineOfSight", "d2/d7e/a14590.html#a18a0279036324498a9daf8c7d0296ffc", null ],
-    [ "OwnTalk", "d2/d7e/a14590.html#a99356589a048debbc308b8431259da5c", null ]
+    [ "instance_onyxias_lair_InstanceMapScript", "d6/d56/a14594.html", "d6/d56/a14594" ],
+    [ "instance_onyxias_lair", "d2/d7e/a14590.html#a1be32e45cb8af86477d300efb6e545cc", null ],
+    [ "GetInstanceScript", "d2/d7e/a14590.html#abbdc474ce17bca0cb55180661c5204a8", null ]
 ];

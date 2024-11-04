@@ -1,13 +1,13 @@
 var a20874 =
 [
-    [ "npc_ulduar_arachnopod_destroyerAI", "d1/d72/a20874.html#a52bbedf267aaa3cea68e8a5960cbc34b", null ],
-    [ "AttackStart", "d1/d72/a20874.html#aed91dafbc50a785875b8b41c5e328d73", null ],
-    [ "DamageTaken", "d1/d72/a20874.html#a4c2ec3cf0c5561b1b9f309bb8f180f8c", null ],
-    [ "EnterEvadeMode", "d1/d72/a20874.html#a671a27f00e279e0a4c0827999ce26d8b", null ],
-    [ "OnCharmed", "d1/d72/a20874.html#ae268a425326efbea1282ce116ff76e3f", null ],
-    [ "PassengerBoarded", "d1/d72/a20874.html#a83409607638100fddd229829ee2bea40", null ],
-    [ "Reset", "d1/d72/a20874.html#a2a7bda0ee585a7aa652081ce7ede3fa6", null ],
-    [ "UpdateAI", "d1/d72/a20874.html#ac10669fddd193d583ecead8ed37879b3", null ],
-    [ "_spawnedMechanic", "d1/d72/a20874.html#a2db3016e32b4e77724fea98d605eaa59", null ],
-    [ "events", "d1/d72/a20874.html#ac61064ee3e22b476a35dce4564f65882", null ]
+    [ "npc_ferocious_rhinoAI", "d1/d72/a20874.html#ad70d0aeba4b73330c5087bc84a533389", null ],
+    [ "DoAction", "d1/d72/a20874.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
+    [ "JustDied", "d1/d72/a20874.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
+    [ "JustEngagedWith", "d1/d72/a20874.html#aab35078fe4518b6647f98e316d02898a", null ],
+    [ "JustReachedHome", "d1/d72/a20874.html#ab8105d6c8c70037c208c83c13c35242d", null ],
+    [ "MoveInLineOfSight", "d1/d72/a20874.html#a97e32d32a692f223b96746f3ef1086c5", null ],
+    [ "Reset", "d1/d72/a20874.html#a6d317407c2de2f954b5dd2a6db137304", null ],
+    [ "UpdateAI", "d1/d72/a20874.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
+    [ "events", "d1/d72/a20874.html#af23061de7d8566c7435c2c64c53dff89", null ],
+    [ "m_pInstance", "d1/d72/a20874.html#a97e00db40792c559dd06327c9960abe4", null ]
 ];

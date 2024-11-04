@@ -1,8 +1,12 @@
 var a19550 =
 [
-    [ "HandlePeriodic", "d8/d38/a19550.html#a2724a85983561a14db8b06ae492ead55", null ],
-    [ "OnRemove", "d8/d38/a19550.html#a6d0f941f30d8c850e48396fffd13768d", null ],
-    [ "PrepareAuraScript", "d8/d38/a19550.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
-    [ "Register", "d8/d38/a19550.html#a85270947972be9c299a642b31969ef68", null ],
-    [ "Validate", "d8/d38/a19550.html#a91ebb4e69d02deb5129965f543c474d1", null ]
+    [ "npc_auriaya_feral_defenderAI", "d8/d38/a19550.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
+    [ "DoAction", "d8/d38/a19550.html#a2b0a176dba865e90bdc22727b2860509", null ],
+    [ "JustDied", "d8/d38/a19550.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
+    [ "Reset", "d8/d38/a19550.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
+    [ "UpdateAI", "d8/d38/a19550.html#a1edc249808e1ebdb88605c56e19c272a", null ],
+    [ "_feralEssenceStack", "d8/d38/a19550.html#aab51096b8f57528a0a27e23a306d6762", null ],
+    [ "_feralPounceTimer", "d8/d38/a19550.html#ab91df5ebee9c12d067ff83ee64effece", null ],
+    [ "_feralRushTimer", "d8/d38/a19550.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
+    [ "summons", "d8/d38/a19550.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
 ];

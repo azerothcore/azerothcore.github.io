@@ -1,7 +1,5 @@
 var a18906 =
 [
-    [ "OnPeriodic", "df/df6/a18906.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
-    [ "PrepareAuraScript", "df/df6/a18906.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
-    [ "Register", "df/df6/a18906.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
-    [ "Validate", "df/df6/a18906.html#a54cfed486827216817adb740efa6646e", null ]
+    [ "at_naxxramas_hub_portal", "df/df6/a18906.html#a946086e8a4651240b84526a1b2d54065", null ],
+    [ "OnTrigger", "df/df6/a18906.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
 ];

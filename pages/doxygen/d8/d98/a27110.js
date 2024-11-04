@@ -1,6 +1,6 @@
 var a27110 =
 [
-    [ "go_l70_etc_musicAI", "d8/d7a/a27114.html", "d8/d7a/a27114" ],
-    [ "go_l70_etc_music", "d8/d98/a27110.html#a766dccca12fc7959273ba1e3a278564f", null ],
-    [ "GetAI", "d8/d98/a27110.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
+    [ "guard_shattrath_scryerAI", "d8/d7a/a27114.html", "d8/d7a/a27114" ],
+    [ "guard_shattrath_scryer", "d8/d98/a27110.html#a2ee4d6881d7c24cd848c590b84207663", null ],
+    [ "GetAI", "d8/d98/a27110.html#ab1d937102f63c63de4c92e45eff2c21c", null ]
 ];

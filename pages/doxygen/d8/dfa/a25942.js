@@ -1,6 +1,10 @@
 var a25942 =
 [
-    [ "CheckProc", "d8/dfa/a25942.html#a0f1461140b08deac3f044142067368e7", null ],
-    [ "PrepareAuraScript", "d8/dfa/a25942.html#a04e0ebe416e94912d7f1ec529da7980d", null ],
-    [ "Register", "d8/dfa/a25942.html#a05e31c2252c9054a18b4267be84895b9", null ]
+    [ "CheckProc", "d8/dfa/a25942.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
+    [ "HandleProc", "d8/dfa/a25942.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
+    [ "Load", "d8/dfa/a25942.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
+    [ "PrepareAuraScript", "d8/dfa/a25942.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
+    [ "Register", "d8/dfa/a25942.html#a4cb08499767ab58f0e525c382b662fbd", null ],
+    [ "Validate", "d8/dfa/a25942.html#aa6165f28706d49940dd1f62065631119", null ],
+    [ "_procTarget", "d8/dfa/a25942.html#a7b9426e18b454bf631992518c2bdbde0", null ]
 ];

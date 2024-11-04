@@ -1,8 +1,8 @@
 var a21626 =
 [
-    [ "npc_future_youAI", "d3/d13/a21626.html#a7608c050dd198e3133050e222b42f62b", null ],
-    [ "EnterEvadeMode", "d3/d13/a21626.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
-    [ "MoveInLineOfSight", "d3/d13/a21626.html#a35b67f9e948f5ffbde8a423190ece603", null ],
-    [ "Reset", "d3/d13/a21626.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
-    [ "UpdateAI", "d3/d13/a21626.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
+    [ "AfterApply", "d3/d13/a21626.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "d3/d13/a21626.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "d3/d13/a21626.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "d3/d13/a21626.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "d3/d13/a21626.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

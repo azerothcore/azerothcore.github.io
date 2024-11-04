@@ -1,7 +1,6 @@
 var a17206 =
 [
-    [ "achievement_once_bitten_twice_shy", "d6/da0/a17206.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
-    [ "OnCheck", "d6/da0/a17206.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
-    [ "_spawnMode", "d6/da0/a17206.html#a6f02f5ab07143ddff553279049714902", null ],
-    [ "_wasVampire", "d6/da0/a17206.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
+    [ "npc_stinky_iccAI", "d5/d92/a17210.html", "d5/d92/a17210" ],
+    [ "npc_stinky_icc", "d6/da0/a17206.html#a8f6a3687d4b330f532a0d892dbf429a0", null ],
+    [ "GetAI", "d6/da0/a17206.html#aaf6b7b1a7469d1e353617f63f11f7781", null ]
 ];

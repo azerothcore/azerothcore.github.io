@@ -1,10 +1,10 @@
 var a28190 =
 [
-    [ "attackSpeed", "d8/dfe/a28190.html#ab5242f7367e8799a556176178c72fc88", null ],
-    [ "creatureType", "d8/dfe/a28190.html#a3dff9074b85261932ed8a8a550c5395b", null ],
-    [ "flags1", "d8/dfe/a28190.html#a026745f2ce754d754858d69ee219b518", null ],
-    [ "ID", "d8/dfe/a28190.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
-    [ "modelID_A", "d8/dfe/a28190.html#a86dfa61342583d920b7d8496bce4b49d", null ],
-    [ "modelID_H", "d8/dfe/a28190.html#a1ee597d6fd02507b682874929645e01d", null ],
-    [ "stanceSpell", "d8/dfe/a28190.html#a08f54b905e905fb5a59e449f8c613c08", null ]
+    [ "BugfixVersion", "d8/dfe/a28190.html#a461f8c749a874405584dc1fd3fe1d805", null ],
+    [ "Build", "d8/dfe/a28190.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
+    [ "HotfixVersion", "d8/dfe/a28190.html#a0df61c036a57b8a3efde5d180dc38131", null ],
+    [ "MacHash", "d8/dfe/a28190.html#ad59772e86371318fe975760e303fa7d9", null ],
+    [ "MajorVersion", "d8/dfe/a28190.html#a0eb78564680f771e325536a0ab77382a", null ],
+    [ "MinorVersion", "d8/dfe/a28190.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
+    [ "WindowsHash", "d8/dfe/a28190.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
 ];

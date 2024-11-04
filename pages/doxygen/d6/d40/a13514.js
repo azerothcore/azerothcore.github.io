@@ -1,6 +1,6 @@
 var a13514 =
 [
-    [ "npc_the_scourge_cauldronAI", "df/d4a/a13518.html", "df/d4a/a13518" ],
-    [ "npc_the_scourge_cauldron", "d6/d40/a13514.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
-    [ "GetAI", "d6/d40/a13514.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
+    [ "cooldown", "d6/d40/a13514.html#a435dff1f5801d4dda241ae37460eb9ac", null ],
+    [ "spell", "d6/d40/a13514.html#a00ee3238030686e1cc66562f7cefb27a", null ],
+    [ "target", "d6/d40/a13514.html#a16e54dbd059baac1b6e7229621339d83", null ]
 ];

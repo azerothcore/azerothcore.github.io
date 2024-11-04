@@ -1,7 +1,7 @@
 var a25046 =
 [
-    [ "HandleChargeEffect", "d2/d0c/a25046.html#ad8d2871e6277dd982653fa864010d084", null ],
-    [ "HandleScriptEffect", "d2/d0c/a25046.html#a2c0a734c9e8cc1bd7ae4baa168bda7fc", null ],
-    [ "PrepareSpellScript", "d2/d0c/a25046.html#a1f8722308e1a5bef546dcb939d73dca7", null ],
-    [ "Register", "d2/d0c/a25046.html#a2cdda449ab11438347e7dd32fd058e6d", null ]
+    [ "ModDest", "d2/d0c/a25046.html#afe0fb68de61a657ce6900e71973e4d77", null ],
+    [ "ModifyCookingSkill", "d2/d0c/a25046.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
+    [ "PrepareSpellScript", "d2/d0c/a25046.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
+    [ "Register", "d2/d0c/a25046.html#a6919079b43a816eb601a68c51ad39794", null ]
 ];

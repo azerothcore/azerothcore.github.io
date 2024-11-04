@@ -1,6 +1,6 @@
 var a18030 =
 [
-    [ "npc_shambling_horror_iccAI", "de/d09/a18034.html", "de/d09/a18034" ],
-    [ "npc_shambling_horror_icc", "de/d30/a18030.html#a68219e0c6e79f5e7bed1f353d7bb5bcb", null ],
-    [ "GetAI", "de/d30/a18030.html#a96fd525fcb34e793b1fc3fc5179e92ec", null ]
+    [ "ModDestHeight", "de/d30/a18030.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
+    [ "PrepareSpellScript", "de/d30/a18030.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
+    [ "Register", "de/d30/a18030.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
 ];

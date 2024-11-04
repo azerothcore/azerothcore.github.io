@@ -1,6 +1,8 @@
 var a21210 =
 [
-    [ "boss_ichoronAI", "db/d1e/a21214.html", "db/d1e/a21214" ],
-    [ "boss_ichoron", "de/dff/a21210.html#ad4390da77a130edaf050d0bef3926882", null ],
-    [ "GetAI", "de/dff/a21210.html#a68051088dc2d2c738b042e2df0436b28", null ]
+    [ "npc_azure_captainAI", "de/dff/a21210.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
+    [ "Reset", "de/dff/a21210.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
+    [ "UpdateAI", "de/dff/a21210.html#ae50ac21138e12be43caa93e37062051e", null ],
+    [ "uiMortalStrikeTimer", "de/dff/a21210.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
+    [ "uiWhirlwindTimer", "de/dff/a21210.html#a2e3439976a6e84a60be765cb0b929798", null ]
 ];

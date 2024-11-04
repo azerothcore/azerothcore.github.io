@@ -1,6 +1,6 @@
 var a18910 =
 [
-    [ "boss_nothAI", "d0/dcf/a18914.html", "d0/dcf/a18914" ],
-    [ "boss_noth", "df/d6f/a18910.html#a2760f1ec46a21f22de0e57527cbe9768", null ],
-    [ "GetAI", "df/d6f/a18910.html#a534f30792c051ab44c6c07c9347893e5", null ]
+    [ "boss_malygosAI", "d0/dcf/a18914.html", "d0/dcf/a18914" ],
+    [ "boss_malygos", "df/d6f/a18910.html#aeac3c63d4ccd2947a6f7e4c007dc6aa1", null ],
+    [ "GetAI", "df/d6f/a18910.html#a9e1d821311fa8b92318a99ea79ddb1e3", null ]
 ];

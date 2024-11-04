@@ -1,7 +1,9 @@
 var a18510 =
 [
-    [ "HandleScript", "d9/d9f/a18510.html#a87a2b32a9a20f032157df5ddb2cd9979", null ],
-    [ "PrepareSpellScript", "d9/d9f/a18510.html#a9aca3a2a981a0cb61569200d77ca527a", null ],
-    [ "Register", "d9/d9f/a18510.html#afb0289c9906d0383a22dfd0e848573f8", null ],
-    [ "Validate", "d9/d9f/a18510.html#a69344370af56f033e1c1ba16f4dee174", null ]
+    [ "npc_icc_severed_essenceAI", "d9/d9f/a18510.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
+    [ "CanAIAttack", "d9/d9f/a18510.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
+    [ "DoAction", "d9/d9f/a18510.html#a938af3a7de5b26432e1ad515a326a032", null ],
+    [ "UpdateAI", "d9/d9f/a18510.html#a66e3324baa87ba109dd968a517ee82a5", null ],
+    [ "Class", "d9/d9f/a18510.html#aa627713be3a2ac01336d158d96aaccc7", null ],
+    [ "events", "d9/d9f/a18510.html#a1bab216925c4123d633d9613bb80365c", null ]
 ];

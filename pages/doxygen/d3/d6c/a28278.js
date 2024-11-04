@@ -1,7 +1,6 @@
 var a28278 =
 [
-    [ "TalentSpellPos", "d3/d6c/a28278.html#a1f28fdb07c5f3bc3a417a2d50d57481c", null ],
-    [ "TalentSpellPos", "d3/d6c/a28278.html#afcdb60f43c619209f8c7d9d8d118a89d", null ],
-    [ "rank", "d3/d6c/a28278.html#a46a495cd1d17302d074037ad5ea9c89e", null ],
-    [ "talent_id", "d3/d6c/a28278.html#a06421cba633b9ea52cb4b95d4ce4527d", null ]
+    [ "OffsetAttributes", "d3/d6c/a28278.html#a072918c298b316823e784c2e5779be2a", null ],
+    [ "OffsetInstances", "d3/d6c/a28278.html#abb618c81b9ee9de03c3d4cf8689f5cd4", null ],
+    [ "used", "d3/d6c/a28278.html#a20a458e613639ea26255dd772824a642", null ]
 ];

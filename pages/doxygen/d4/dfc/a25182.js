@@ -1,11 +1,6 @@
 var a25182 =
 [
-    [ "spell_gen_apply_aura_after_expiration", "d4/dfc/a25182.html#a391e5089eb034618c5e3edde26685a00", null ],
-    [ "AfterRemove", "d4/dfc/a25182.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
-    [ "PrepareAuraScript", "d4/dfc/a25182.html#a494123635eda4c43d92a08c9c8cd5627", null ],
-    [ "Register", "d4/dfc/a25182.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
-    [ "Validate", "d4/dfc/a25182.html#ad405128104d8a6528e8db96281ad0f0b", null ],
-    [ "_aura", "d4/dfc/a25182.html#a8a79aef777e1397b031149c54ae9d81d", null ],
-    [ "_effect", "d4/dfc/a25182.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
-    [ "_spellId", "d4/dfc/a25182.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
+    [ "OnRemove", "d4/dfc/a25182.html#ac3a6d7bdc95605e3c73f8115b4a68da0", null ],
+    [ "PrepareAuraScript", "d4/dfc/a25182.html#ab1e3a55a35dbbb4bd781ac8c51608e6a", null ],
+    [ "Register", "d4/dfc/a25182.html#aecd068248e174c4b676ff9f43dd0856f", null ]
 ];

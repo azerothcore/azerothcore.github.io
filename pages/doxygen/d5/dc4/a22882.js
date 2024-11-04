@@ -1,5 +1,6 @@
 var a22882 =
 [
-    [ "npc_vengeful_spirit", "d5/dc4/a22882.html#a06bd2b08a7719ae35dd6ad844ce3b3bd", null ],
-    [ "OnCharmed", "d5/dc4/a22882.html#a8aec87a3e6a7af96253035dbd9e813ad", null ]
+    [ "OnPeriodic", "d5/dc4/a22882.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
+    [ "PrepareAuraScript", "d5/dc4/a22882.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
+    [ "Register", "d5/dc4/a22882.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
 ];

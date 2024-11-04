@@ -1,9 +1,8 @@
 var a19434 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "d0/d67/a19434.html#aac57ae32188c47ca97b7331d62986e66", null ],
-    [ "JustDied", "d0/d67/a19434.html#a6cfebecaaf673e40f97a46a09947a1f0", null ],
-    [ "JustEngagedWith", "d0/d67/a19434.html#a772d279407d724477560898559710433", null ],
-    [ "Reset", "d0/d67/a19434.html#a5b4a726aa496923d81c41b038e5f7449", null ],
-    [ "UpdateAI", "d0/d67/a19434.html#a2745ff26c165851c367e080d28652984", null ],
-    [ "events", "d0/d67/a19434.html#a468d45f9b9c2172f326068d59a74121a", null ]
+    [ "HandlePeriodic", "d0/d67/a19434.html#a2724a85983561a14db8b06ae492ead55", null ],
+    [ "OnRemove", "d0/d67/a19434.html#a6d0f941f30d8c850e48396fffd13768d", null ],
+    [ "PrepareAuraScript", "d0/d67/a19434.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
+    [ "Register", "d0/d67/a19434.html#a85270947972be9c299a642b31969ef68", null ],
+    [ "Validate", "d0/d67/a19434.html#a91ebb4e69d02deb5129965f543c474d1", null ]
 ];

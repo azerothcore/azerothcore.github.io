@@ -1,6 +1,7 @@
 var a19974 =
 [
-    [ "FilterTargets", "d9/d2e/a19974.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
-    [ "PrepareSpellScript", "d9/d2e/a19974.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
-    [ "Register", "d9/d2e/a19974.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
+    [ "HandleEffectPeriodic", "d9/d2e/a19974.html#af6c50396e9b47cd909184aea80244728", null ],
+    [ "PrepareAuraScript", "d9/d2e/a19974.html#aeb41825334049c8e3a39b48cbf271477", null ],
+    [ "Register", "d9/d2e/a19974.html#aaa44ceb54aa928c4436120f435bcdc4b", null ],
+    [ "Validate", "d9/d2e/a19974.html#a0098e4949fc75b1a2464128f4df869aa", null ]
 ];

@@ -1,6 +1,8 @@
 var a25538 =
 [
-    [ "CheckProc", "d7/d80/a25538.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
-    [ "PrepareAuraScript", "d7/d80/a25538.html#aebe1c8083ba09c21125c47843b2949da", null ],
-    [ "Register", "d7/d80/a25538.html#adde6dada6b3012c2650ba9173c6616a0", null ]
+    [ "HandleDummy", "d7/d80/a25538.html#a5a628501371e7af224ce44594459b24d", null ],
+    [ "Load", "d7/d80/a25538.html#aeeab8e1eadb83827b035e07887a59ad1", null ],
+    [ "PrepareSpellScript", "d7/d80/a25538.html#a163c9510d29cc2fb454a9d8b437f0496", null ],
+    [ "Register", "d7/d80/a25538.html#aa46a2b76153ffdbea565374899ab31a3", null ],
+    [ "Validate", "d7/d80/a25538.html#a7a15b3f6aa7ca1458895b445c90509ee", null ]
 ];

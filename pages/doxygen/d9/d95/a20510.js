@@ -1,5 +1,6 @@
 var a20510 =
 [
-    [ "go_thorim_lever", "d9/d95/a20510.html#a7641a89c3c369d26753a6e97dd435802", null ],
-    [ "OnGossipHello", "d9/d95/a20510.html#aa48cd4d5728bd2d012a91f51299827a0", null ]
+    [ "boss_yoggsaron_cloudAI", "da/db9/a20514.html", "da/db9/a20514" ],
+    [ "boss_yoggsaron_cloud", "d9/d95/a20510.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
+    [ "GetAI", "d9/d95/a20510.html#a2005f062eb9d78c7b09b045eba570b98", null ]
 ];

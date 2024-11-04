@@ -1,7 +1,7 @@
 var a01637 =
 [
-    [ "boss_noth", "df/d6f/a18910.html", "df/d6f/a18910" ],
-    [ "boss_noth::boss_nothAI", "d0/dcf/a18914.html", "d0/dcf/a18914" ],
+    [ "boss_noth", "dc/dcc/a18810.html", "dc/dcc/a18810" ],
+    [ "boss_noth::boss_nothAI", "d1/d51/a18814.html", "d1/d51/a18814" ],
     [ "Events", "db/d95/a01637.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d39/a02048.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

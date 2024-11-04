@@ -1,6 +1,6 @@
 var a26178 =
 [
-    [ "HandleScriptEffect", "d3/dd4/a26178.html#a7dc7cb2dcdd6518a253a459e2e711c89", null ],
-    [ "PrepareSpellScript", "d3/dd4/a26178.html#a9c41ae2e7ef1947c11c16d8abb48ec56", null ],
-    [ "Register", "d3/dd4/a26178.html#a5b2a218cca68177209ca42be9dfbc8ea", null ]
+    [ "OnApply", "d3/dd4/a26178.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "d3/dd4/a26178.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "d3/dd4/a26178.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

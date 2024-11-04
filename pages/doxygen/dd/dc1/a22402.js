@@ -1,9 +1,11 @@
 var a22402 =
 [
-    [ "OPvPCapturePointGH", "dd/dc1/a22402.html#a6e46100e50212310af4301c492d5773e", null ],
-    [ "ChangeState", "dd/dc1/a22402.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
-    [ "FillInitialWorldStates", "dd/dc1/a22402.html#ad1c3ece363da12750c851cf510228a06", null ],
-    [ "HandlePlayerEnter", "dd/dc1/a22402.html#afea733c44d129d9a5af78a8337d9e04a", null ],
-    [ "HandlePlayerLeave", "dd/dc1/a22402.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
-    [ "SendChangePhase", "dd/dc1/a22402.html#aec741b9102829bf77850dc06a49bb8da", null ]
+    [ "boss_talon_king_ikiss", "dd/dc1/a22402.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
+    [ "CanAIAttack", "dd/dc1/a22402.html#ab4858d845f149b6333941d8f8ab59afb", null ],
+    [ "JustDied", "dd/dc1/a22402.html#ada1d993842d04453d6afad91e186a3fe", null ],
+    [ "JustEngagedWith", "dd/dc1/a22402.html#a325312ce6695435fcca701720434c64f", null ],
+    [ "KilledUnit", "dd/dc1/a22402.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
+    [ "MoveInLineOfSight", "dd/dc1/a22402.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
+    [ "Reset", "dd/dc1/a22402.html#adcb1dca375ec548499da5a7690babc21", null ],
+    [ "_spoken", "dd/dc1/a22402.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
 ];

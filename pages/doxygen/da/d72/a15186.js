@@ -1,6 +1,6 @@
 var a15186 =
 [
-    [ "npc_tiger_matriarch_creditAI", "da/d72/a15186.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
-    [ "UpdateAI", "da/d72/a15186.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
-    [ "events", "da/d72/a15186.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
+    [ "npc_silva_filnaveth", "da/d72/a15186.html#a5998381865214a7b3af7823bd2557cb0", null ],
+    [ "OnGossipHello", "da/d72/a15186.html#a32019c17271a3f504d86cd694262fd53", null ],
+    [ "OnGossipSelect", "da/d72/a15186.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
 ];

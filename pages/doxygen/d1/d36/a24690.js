@@ -1,6 +1,6 @@
 var a24690 =
 [
-    [ "HandleKnockBack", "d1/d36/a24690.html#ae50d143953074b83183482770046e131", null ],
-    [ "PrepareSpellScript", "d1/d36/a24690.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
-    [ "Register", "d1/d36/a24690.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
+    [ "OnPeriodic", "d1/d36/a24690.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
+    [ "PrepareAuraScript", "d1/d36/a24690.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
+    [ "Register", "d1/d36/a24690.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
 ];

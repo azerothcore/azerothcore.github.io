@@ -1,5 +1,6 @@
 var a14226 =
 [
-    [ "PrepareSpellScript", "d7/d5e/a14226.html#a50ee42c11937759b6c52c2ab994481c4", null ],
-    [ "Register", "d7/d5e/a14226.html#a8dc12a723c2da948c38119e3fc34df35", null ]
+    [ "HandleScriptEffect", "d7/d5e/a14226.html#a074f54a4b022adc6ea34b3716dec745f", null ],
+    [ "PrepareSpellScript", "d7/d5e/a14226.html#a725d5bc1f76614778b140f3061aa2e03", null ],
+    [ "Register", "d7/d5e/a14226.html#a339df7ae9553fbae68ce791baef1df5e", null ]
 ];

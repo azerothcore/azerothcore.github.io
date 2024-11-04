@@ -1,6 +1,7 @@
 var a23818 =
 [
-    [ "HandleDummy", "d2/d9c/a23818.html#a4c1177fc89310598b6ba7cddf7f47cd1", null ],
-    [ "PrepareSpellScript", "d2/d9c/a23818.html#af511bcad63ff423bf04a430f56959f40", null ],
-    [ "Register", "d2/d9c/a23818.html#adaa4fc5294e2b0cb5bcb42f1a93a6f29", null ]
+    [ "npc_maghar_captiveAI", "d9/d9b/a23822.html", "d9/d9b/a23822" ],
+    [ "npc_maghar_captive", "d2/d9c/a23818.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
+    [ "GetAI", "d2/d9c/a23818.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
+    [ "OnQuestAccept", "d2/d9c/a23818.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
 ];

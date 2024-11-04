@@ -1,6 +1,6 @@
 var a24266 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d2/dad/a24270.html", "d2/dad/a24270" ],
-    [ "npc_pet_dk_army_of_the_dead", "da/d9a/a24266.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "da/d9a/a24266.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "HandleSummon", "da/d9a/a24266.html#a00e265d830ea3e8a0a1952984c438071", null ],
+    [ "PrepareSpellScript", "da/d9a/a24266.html#a96df13b19964b6e89babb312465b90bc", null ],
+    [ "Register", "da/d9a/a24266.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
 ];

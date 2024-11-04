@@ -1,7 +1,7 @@
 var a15214 =
 [
-    [ "HandleDummy", "d5/deb/a15214.html#a38dafff805471b19ca3cca4ff5273a87", null ],
-    [ "PrepareSpellScript", "d5/deb/a15214.html#a40db5a46491aa22b5347f99b0251f1b8", null ],
-    [ "Register", "d5/deb/a15214.html#a2f297ab67d5e2e990658706f7c508bd4", null ],
-    [ "Validate", "d5/deb/a15214.html#abb7946f53e6271ae69d34caacef61f47", null ]
+    [ "npc_shenthulAI", "d4/d27/a15218.html", "d4/d27/a15218" ],
+    [ "npc_shenthul", "d5/deb/a15214.html#a77815503c7d9c811fe3821232e308714", null ],
+    [ "GetAI", "d5/deb/a15214.html#a1683f8c89add6270277c59951c74027e", null ],
+    [ "OnQuestAccept", "d5/deb/a15214.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
 ];

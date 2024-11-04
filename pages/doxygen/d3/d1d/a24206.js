@@ -1,7 +1,6 @@
 var a24206 =
 [
-    [ "HandlePeriodic", "d3/d1d/a24206.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
-    [ "PrepareAuraScript", "d3/d1d/a24206.html#a58dc6668172d046cef3046649928c124", null ],
-    [ "Register", "d3/d1d/a24206.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
-    [ "Validate", "d3/d1d/a24206.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
+    [ "DeathEvent", "d3/d1d/a24206.html#a2fb9a98c077d715c4648aede6597276e", null ],
+    [ "Execute", "d3/d1d/a24206.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
+    [ "_owner", "d3/d1d/a24206.html#a099d0d5ae50126f00220b3ed90907617", null ]
 ];

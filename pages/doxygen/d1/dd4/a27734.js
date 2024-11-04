@@ -1,7 +1,9 @@
 var a27734 =
 [
-    [ "HandleDummy", "d1/dd4/a27734.html#ac3486a646322ef1b6098eeeedaec7d4b", null ],
-    [ "PrepareSpellScript", "d1/dd4/a27734.html#a455bdb8fb98431d47b3e414dc3b59b13", null ],
-    [ "Register", "d1/dd4/a27734.html#acdade97c38a75439b3da751a0c348e37", null ],
-    [ "Validate", "d1/dd4/a27734.html#a2081334e6b7a4191801bc0556e26198c", null ]
+    [ "HolidayWorldStateId", "d1/dd4/a27734.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
+    [ "id", "d1/dd4/a27734.html#a52f7840f9247d2af63062dd280b37341", null ],
+    [ "mapid", "d1/dd4/a27734.html#a11e1326eeb24b436b10db53acc323c13", null ],
+    [ "maxGroupSize", "d1/dd4/a27734.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
+    [ "name", "d1/dd4/a27734.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
+    [ "type", "d1/dd4/a27734.html#a647669b97599d7edf02b5a38dd1d5116", null ]
 ];

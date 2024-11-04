@@ -1,10 +1,6 @@
 var a21774 =
 [
-    [ "npc_emilyAI", "db/d3e/a21774.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
-    [ "JustEngagedWith", "db/d3e/a21774.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
-    [ "JustSummoned", "db/d3e/a21774.html#a4730c94b54d2ee5160011557704b35f2", null ],
-    [ "Reset", "db/d3e/a21774.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
-    [ "WaypointReached", "db/d3e/a21774.html#a0a68676a6eac8fbe2b634098268eb516", null ],
-    [ "_mrfloppyGUID", "db/d3e/a21774.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
-    [ "_RavenousworgGUID", "db/d3e/a21774.html#aa2a5e45366be9f89221453e00179e1a3", null ]
+    [ "npc_black_knight_graveyardAI", "dc/d86/a21778.html", "dc/d86/a21778" ],
+    [ "npc_black_knight_graveyard", "db/d3e/a21774.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
+    [ "GetAI", "db/d3e/a21774.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
 ];

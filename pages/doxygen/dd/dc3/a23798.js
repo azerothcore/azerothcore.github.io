@@ -1,7 +1,6 @@
 var a23798 =
 [
-    [ "boss_gatewatcher_gyrokill", "dd/dc3/a23798.html#a82335081dd79f7a0aa1dc0c26bd878fb", null ],
-    [ "JustDied", "dd/dc3/a23798.html#a4bbfb59c2a687ebb3e88bde9784af38e", null ],
-    [ "JustEngagedWith", "dd/dc3/a23798.html#a95d3ae80f87be9d972ecb056e0b85412", null ],
-    [ "KilledUnit", "dd/dc3/a23798.html#a274355d0303d9bf5761758f175826bd1", null ]
+    [ "npc_fel_guard_houndAI", "d8/d76/a23802.html", "d8/d76/a23802" ],
+    [ "npc_fel_guard_hound", "dd/dc3/a23798.html#a324179695f04a31b233b0ce94a46634c", null ],
+    [ "GetAI", "dd/dc3/a23798.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
 ];

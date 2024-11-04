@@ -1,7 +1,7 @@
 var a02105 =
 [
-    [ "boss_jarien", "dc/de4/a12894.html", "dc/de4/a12894" ],
-    [ "boss_sothos", "d4/d1e/a12898.html", "d4/d1e/a12898" ],
+    [ "boss_jarien", "df/d9a/a12854.html", "df/d9a/a12854" ],
+    [ "boss_sothos", "d2/d64/a12858.html", "d2/d64/a12858" ],
     [ "Actions", "db/d7a/a02105.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "dc/d5e/a04220.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

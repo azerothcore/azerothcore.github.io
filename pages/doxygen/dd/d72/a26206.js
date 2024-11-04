@@ -1,5 +1,6 @@
 var a26206 =
 [
-    [ "PrepareSpellScript", "dd/d72/a26206.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "dd/d72/a26206.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "HandleDummy", "dd/d72/a26206.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
+    [ "PrepareSpellScript", "dd/d72/a26206.html#a4411e4317053450a0ac5217d546952b2", null ],
+    [ "Register", "dd/d72/a26206.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
 ];

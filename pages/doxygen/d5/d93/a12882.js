@@ -1,9 +1,7 @@
 var a12882 =
 [
-    [ "HandleDummyTick", "d5/d93/a12882.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
-    [ "Load", "d5/d93/a12882.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
-    [ "OnApply", "d5/d93/a12882.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
-    [ "PrepareAuraScript", "d5/d93/a12882.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
-    [ "Register", "d5/d93/a12882.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
-    [ "_forsakenSpell", "d5/d93/a12882.html#a02c0334f5154d908ab022d4acf41ef40", null ]
+    [ "OnRemove", "d5/d93/a12882.html#a55460c6393c165e3096c967c81136032", null ],
+    [ "PrepareAuraScript", "d5/d93/a12882.html#afd4e4483f704169e6d213ced134d4c62", null ],
+    [ "Register", "d5/d93/a12882.html#a8458f77fde6eaddc273b3fe5f4e49ae0", null ],
+    [ "Validate", "d5/d93/a12882.html#af580258d287f5db6103b89d3085669bc", null ]
 ];

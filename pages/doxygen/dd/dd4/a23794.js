@@ -1,6 +1,9 @@
 var a23794 =
 [
-    [ "PrepareAuraScript", "dd/dd4/a23794.html#a14d4d1a75130a77e7e59e41720491bec", null ],
-    [ "PrepareProc", "dd/dd4/a23794.html#abea217f4bfdffc70007fbc29849e9a49", null ],
-    [ "Register", "dd/dd4/a23794.html#a9dbcd4c940f5941472bebb64829125e3", null ]
+    [ "npc_wounded_blood_elfAI", "dd/dd4/a23794.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
+    [ "JustEngagedWith", "dd/dd4/a23794.html#aba950ba77ff71508263cc54b28c7725b", null ],
+    [ "JustSummoned", "dd/dd4/a23794.html#aa97f5294981c44b530efca1411458a97", null ],
+    [ "Reset", "dd/dd4/a23794.html#a8e6be35a3079998f3bab829f5d963c71", null ],
+    [ "sQuestAccept", "dd/dd4/a23794.html#a56c157928c24daae6edacd5a126ef171", null ],
+    [ "WaypointReached", "dd/dd4/a23794.html#a5affcb00e28a582f8926ab2226001cd0", null ]
 ];

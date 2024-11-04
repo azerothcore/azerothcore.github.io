@@ -1,35 +1,8 @@
 var a19686 =
 [
-    [ "boss_flame_leviathanAI", "d3/d1f/a19686.html#a2c4c56818c9e639eff08277d80729678", null ],
-    [ "ActivateTowers", "d3/d1f/a19686.html#a926ea9f650ebe657db9f1f222b3033a2", null ],
-    [ "AttackStart", "d3/d1f/a19686.html#a099d9e7fb11dfef39d62a1324dd1a0ff", null ],
-    [ "BindPlayers", "d3/d1f/a19686.html#a15989a013395d69d3d79c1c816c5f180", null ],
-    [ "DoAction", "d3/d1f/a19686.html#aae1479651ec19c698f1ea30bc2acc04d", null ],
-    [ "GetData", "d3/d1f/a19686.html#a4764443b8f600bb27ebcec257a2ab7f0", null ],
-    [ "InitializeAI", "d3/d1f/a19686.html#a2b142410bca4c2fd91862c6f2c1c7c0d", null ],
-    [ "JustDied", "d3/d1f/a19686.html#a3f562697916b8aa7f2009d5b2bceaa04", null ],
-    [ "JustEngagedWith", "d3/d1f/a19686.html#a0f0fe2b8f2dd9c0dba856aabac7e2f0b", null ],
-    [ "JustReachedHome", "d3/d1f/a19686.html#a00a0db50533d6ee3166901f29f498be8", null ],
-    [ "JustSummoned", "d3/d1f/a19686.html#afc318e190afb9b72fcb78e132245134b", null ],
-    [ "KilledUnit", "d3/d1f/a19686.html#afcf751694d9e1d698dace11367c1656a", null ],
-    [ "MoveInLineOfSight", "d3/d1f/a19686.html#a7b6c206712223e8e1d38469ab7988892", null ],
-    [ "RadioSay", "d3/d1f/a19686.html#a3232b529f7d05ddc71a7546548aafbfc", null ],
-    [ "Reset", "d3/d1f/a19686.html#a6656dd44922227dcb61352ea179cc4ac", null ],
-    [ "ScheduleEvents", "d3/d1f/a19686.html#aae96d55e13a5c5d1d65899b4d19d9f25", null ],
-    [ "SpellHit", "d3/d1f/a19686.html#a0792a506665d5ef042a01784d548052c", null ],
-    [ "SpellHitTarget", "d3/d1f/a19686.html#a9ba81203c6c72de97054787b6a53fed1", null ],
-    [ "SummonedCreatureDespawn", "d3/d1f/a19686.html#aee5db8f68bbb150e9ca00e33e5a3c5db", null ],
-    [ "SummonTowerHelpers", "d3/d1f/a19686.html#ab2cd5e15e44771fec403ab0ca41f57a5", null ],
-    [ "TurnGates", "d3/d1f/a19686.html#a29aa8e407d1bafb888fe8a83720811ec", null ],
-    [ "TurnHealStations", "d3/d1f/a19686.html#af9f132d09e8b0052c27a26e4bf05c487", null ],
-    [ "UpdateAI", "d3/d1f/a19686.html#acec0bf1499c4ea4dda4e25070c2f693a", null ],
-    [ "_destroyedTurretCount", "d3/d1f/a19686.html#ac31a59e5ae5562374dd3eaa3d52c73fe", null ],
-    [ "_shutdown", "d3/d1f/a19686.html#aa3824f95474213c1acb07ea6e7aaaa97", null ],
-    [ "_speakTimer", "d3/d1f/a19686.html#ab013b9f573b75758becaef24d31a3d0c", null ],
-    [ "_startTimer", "d3/d1f/a19686.html#a1ee360f8d2385f7171908ae659bbf250", null ],
-    [ "_towersCount", "d3/d1f/a19686.html#a136c2c83686dd110b245555273de1153", null ],
-    [ "events", "d3/d1f/a19686.html#a31abd646e4bb88e71de562d60e4e997a", null ],
-    [ "m_pInstance", "d3/d1f/a19686.html#a03279059e12933fca192a70775f8da3e", null ],
-    [ "summons", "d3/d1f/a19686.html#a0b2be910fa414706308bdcf609f2adcd", null ],
-    [ "vehicle", "d3/d1f/a19686.html#a73cf1c46d640e8429772d592f4793b6c", null ]
+    [ "Area", "d3/d1f/a19686.html#a0b9dc74e944f13e3291184645f432477", [
+      [ "AREA_FORMATION_GROUNDS", "d3/d1f/a19686.html#a0b9dc74e944f13e3291184645f432477a92a09caedcec4a8b97c3e4601308d450", null ]
+    ] ],
+    [ "FlameLeviathanPursuedTargetSelector", "d3/d1f/a19686.html#acc855eaab1e9590e1fcfae6ed8d37815", null ],
+    [ "operator()", "d3/d1f/a19686.html#aaa2a49366fb651f7486b463ce597f364", null ]
 ];

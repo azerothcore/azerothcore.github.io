@@ -1,10 +1,7 @@
 var a16710 =
 [
-    [ "npc_hor_spiritual_reflectionAI", "d1/dbe/a16710.html#aac0a916bfa325284b354e7241fe857ab", null ],
-    [ "EnterEvadeMode", "d1/dbe/a16710.html#a49f1c93206bfff53090c138a3dbf79e5", null ],
-    [ "JustDied", "d1/dbe/a16710.html#a72073c44f881d4a78552de4119a716d7", null ],
-    [ "JustEngagedWith", "d1/dbe/a16710.html#ac35e648b93bb39ca831390bf88f6a3e7", null ],
-    [ "Reset", "d1/dbe/a16710.html#ad1f523fad45c34077e6d6ce7b9a4aefd", null ],
-    [ "UpdateAI", "d1/dbe/a16710.html#af9613e9309b85317bc6e3a84013dcf89", null ],
-    [ "events", "d1/dbe/a16710.html#a89a466917aa5634c4c86ecbce21280b7", null ]
+    [ "HandlePeriodicTick", "d1/dbe/a16710.html#ac8b3f1a826e3491d4315983a89d23d2e", null ],
+    [ "PrepareAuraScript", "d1/dbe/a16710.html#ad54c3014195c5b848ab1f9cc978f72b3", null ],
+    [ "Register", "d1/dbe/a16710.html#af8e1ee8ddf7ed8290eb71fb7697428fb", null ],
+    [ "Validate", "d1/dbe/a16710.html#a6de2140f17790b63314f653b7dd0ddd3", null ]
 ];

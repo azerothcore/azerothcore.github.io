@@ -1,5 +1,8 @@
 var a19850 =
 [
-    [ "achievement_flame_leviathan_shutout", "df/d53/a19850.html#a555e0d206b7f730665d301c7e03b23e6", null ],
-    [ "OnCheck", "df/d53/a19850.html#af548232f563fd387bc8ee25b696a2f99", null ]
+    [ "OnApply", "df/d53/a19850.html#a101aab87e9f45ebab1cbe77ecca65c5a", null ],
+    [ "OnRemove", "df/d53/a19850.html#a4709f570f9014eb36bc8c65269470373", null ],
+    [ "PrepareAuraScript", "df/d53/a19850.html#a6ac96ce73f9983915a05686eb5d411e7", null ],
+    [ "Register", "df/d53/a19850.html#a7b4f44d86df652df78a10466bf64a2cf", null ],
+    [ "Validate", "df/d53/a19850.html#a3b98409fa1ed8d4e53e526686bc25987", null ]
 ];

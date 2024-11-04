@@ -1,6 +1,6 @@
 var a23734 =
 [
-    [ "HandleScriptEffect", "dd/dfd/a23734.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
-    [ "PrepareSpellScript", "dd/dfd/a23734.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
-    [ "Register", "dd/dfd/a23734.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
+    [ "npc_daranelleAI", "d7/de5/a23738.html", "d7/de5/a23738" ],
+    [ "npc_daranelle", "dd/dfd/a23734.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "dd/dfd/a23734.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

@@ -1,6 +1,6 @@
 var a17622 =
 [
-    [ "UnboundPlagueTargetSelector", "d6/d62/a17622.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
-    [ "operator()", "d6/d62/a17622.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
-    [ "_source", "d6/d62/a17622.html#a87eb77615e443ccec373d571708a156a", null ]
+    [ "OnRemove", "d6/d62/a17622.html#a5b9f23b815b1c85ecf2e56c626ce5077", null ],
+    [ "PrepareAuraScript", "d6/d62/a17622.html#a9207d9f59026e1beb7c266ee3a1ef884", null ],
+    [ "Register", "d6/d62/a17622.html#ad9eb03a09fc13f6b2b30e9f6cc1990bc", null ]
 ];

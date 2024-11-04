@@ -1,7 +1,7 @@
 var a23206 =
 [
-    [ "PeriodicTick", "dd/d29/a23206.html#afb5cc6129423cb4f7c3da50977da01f2", null ],
-    [ "PrepareAuraScript", "dd/d29/a23206.html#aea6ca9c5d490f62ae737bfc07751da42", null ],
-    [ "Register", "dd/d29/a23206.html#ad0eb66e0bab8441e1bb3db42967df7ff", null ],
-    [ "Validate", "dd/d29/a23206.html#ae07f6e7de08ada74b4cb9ac890c70c35", null ]
+    [ "OnApply", "dd/d29/a23206.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
+    [ "PeriodicTick", "dd/d29/a23206.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
+    [ "PrepareAuraScript", "dd/d29/a23206.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
+    [ "Register", "dd/d29/a23206.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
 ];

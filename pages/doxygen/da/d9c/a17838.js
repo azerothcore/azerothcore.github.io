@@ -1,10 +1,8 @@
 var a17838 =
 [
-    [ "CountTargets", "da/d9c/a17838.html#a042c3f2ee73533b397a2d697d1da6563", null ],
-    [ "HandleDummy", "da/d9c/a17838.html#ab314680d5349c0c3e449694b92ab7311", null ],
-    [ "Load", "da/d9c/a17838.html#a534e9f5ee9aa29603cfc205c2c2d580f", null ],
-    [ "PrepareSpellScript", "da/d9c/a17838.html#a8b831c01cd9fd997279f6a81170786de", null ],
-    [ "Register", "da/d9c/a17838.html#ab0d87ba23eb252075cb0779b06813a31", null ],
-    [ "SelectDest", "da/d9c/a17838.html#a6061486d0067af51c8ef079224ea63f1", null ],
-    [ "_targetCount", "da/d9c/a17838.html#a58f839370a885c450e6742cbb3116784", null ]
+    [ "FilterTargets", "da/d9c/a17838.html#a14e392760361b95578bc95de10cdd8aa", null ],
+    [ "HandleForcedCast", "da/d9c/a17838.html#afbf6d0ee66d192a81ed12f2e28e195f1", null ],
+    [ "PrepareSpellScript", "da/d9c/a17838.html#a8bb53a933c5a2ec33966c6acd1a6da65", null ],
+    [ "Register", "da/d9c/a17838.html#ac2105e66f692c6a991ac9190b1901505", null ],
+    [ "Validate", "da/d9c/a17838.html#a1746786ad6daaac11aefd32e00c8d1ea", null ]
 ];

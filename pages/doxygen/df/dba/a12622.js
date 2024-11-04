@@ -1,6 +1,6 @@
 var a12622 =
 [
-    [ "npc_scarlet_minerAI", "da/d03/a12626.html", "da/d03/a12626" ],
-    [ "npc_scarlet_miner", "df/dba/a12622.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
-    [ "GetAI", "df/dba/a12622.html#abd2973972788ce9b39572aaa819d0690", null ]
+    [ "npc_crusade_persuadedAI", "da/d03/a12626.html", "da/d03/a12626" ],
+    [ "npc_crusade_persuaded", "df/dba/a12622.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
+    [ "GetAI", "df/dba/a12622.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
 ];

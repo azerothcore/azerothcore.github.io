@@ -1,5 +1,6 @@
 var a19786 =
 [
-    [ "go_ulduar_tower", "d7/df9/a19786.html#afc1add1a0543921f52afe1eb907f5de3", null ],
-    [ "OnDestroyed", "d7/df9/a19786.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
+    [ "boss_freya_lifebinderAI", "d0/d4b/a19790.html", "d0/d4b/a19790" ],
+    [ "boss_freya_lifebinder", "d7/df9/a19786.html#ad7a3bc09aacf35b4a6a39e65c966b824", null ],
+    [ "GetAI", "d7/df9/a19786.html#a978e4472a080f0fc53848abaa305cd77", null ]
 ];

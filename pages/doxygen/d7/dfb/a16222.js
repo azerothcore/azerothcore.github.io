@@ -1,8 +1,9 @@
 var a16222 =
 [
-    [ "npc_toc_boomkinAI", "d7/dfb/a16222.html#a12c586d57aa6dd3893889f103dbfee20", null ],
-    [ "JustSummoned", "d7/dfb/a16222.html#a0d049885773b7f1abd7e03f9200852f4", null ],
-    [ "myCanCast", "d7/dfb/a16222.html#a691a0250db77cc4def2bf67b25a1298c", null ],
-    [ "UpdateAI", "d7/dfb/a16222.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
-    [ "events", "d7/dfb/a16222.html#a0b367855092884b2ce30834e89fced87", null ]
+    [ "npc_fel_infernalAI", "d7/dfb/a16222.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
+    [ "EnterEvadeMode", "d7/dfb/a16222.html#aedec8729b9be931a74fe00d1aa649848", null ],
+    [ "JustDied", "d7/dfb/a16222.html#a599786069f98231eeb7f9ca809f8e671", null ],
+    [ "Reset", "d7/dfb/a16222.html#a09f408c9250467228b91ef9f6c9544f4", null ],
+    [ "UpdateAI", "d7/dfb/a16222.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
+    [ "events", "d7/dfb/a16222.html#acf955037c246f7b5f12cc5338b300b63", null ]
 ];

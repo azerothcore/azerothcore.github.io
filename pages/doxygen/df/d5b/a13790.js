@@ -1,9 +1,8 @@
 var a13790 =
 [
-    [ "npc_healing_ward", "df/d5b/a13790.html#a3d3c35f61502d3a83cb2581119e08903", null ],
-    [ "JustEngagedWith", "df/d5b/a13790.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
-    [ "Reset", "df/d5b/a13790.html#a756d27a43d86c7ecde859df255c6bd62", null ],
-    [ "UpdateAI", "df/d5b/a13790.html#a8b8635af33ce814602206064e0815520", null ],
-    [ "_instance", "df/d5b/a13790.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
-    [ "_scheduler", "df/d5b/a13790.html#a0c62fe945b491cab76175217a7d10c06", null ]
+    [ "npc_spawn_of_marli", "df/d5b/a13790.html#a1dcd5066de108203903f5767c4b375ea", null ],
+    [ "JustEngagedWith", "df/d5b/a13790.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
+    [ "Reset", "df/d5b/a13790.html#a79ef192d41af75e0dad0494776c75189", null ],
+    [ "UpdateAI", "df/d5b/a13790.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
+    [ "_scheduler", "df/d5b/a13790.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
 ];

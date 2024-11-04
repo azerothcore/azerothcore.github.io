@@ -1,6 +1,7 @@
 var a17590 =
 [
-    [ "npc_bone_spikeAI", "d5/db3/a17594.html", "d5/db3/a17594" ],
-    [ "npc_bone_spike", "de/d53/a17590.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
-    [ "GetAI", "de/d53/a17590.html#a887a9156f550ca55047fa501e1709d95", null ]
+    [ "HandleTriggerSpell", "de/d53/a17590.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
+    [ "OnRemove", "de/d53/a17590.html#a238adc96e80c1890934b23dd4a2685b4", null ],
+    [ "PrepareAuraScript", "de/d53/a17590.html#af9ce7433b620fdf1dea570561c514b3b", null ],
+    [ "Register", "de/d53/a17590.html#ab36a001ea8cd87703e2694e0765635c0", null ]
 ];

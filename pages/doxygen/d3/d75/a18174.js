@@ -1,9 +1,12 @@
 var a18174 =
 [
-    [ "npc_spirit_wardenAI", "d3/d75/a18174.html#a3391168478345d8b5c1fee151f6e9f04", null ],
-    [ "JustDied", "d3/d75/a18174.html#aa762c0bea6361107312e8231508dc655", null ],
-    [ "Reset", "d3/d75/a18174.html#ad6076663f65f43874feb0ecfc57718a4", null ],
-    [ "UpdateAI", "d3/d75/a18174.html#af845e3e2c38af5baa84c94f6074c0caf", null ],
-    [ "_events", "d3/d75/a18174.html#a1bc5cfdee62efdd622e0fe1aa503c260", null ],
-    [ "_instance", "d3/d75/a18174.html#a58ebb8e42e77add79fc888248013eb24", null ]
+    [ "npc_risen_archmageAI", "d3/d75/a18174.html#a4dd62e51fc75fc5e4a44859437549f29", null ],
+    [ "CanAIAttack", "d3/d75/a18174.html#a063a28cd36dbc709699e6d1d4e4ca9e3", null ],
+    [ "DoAction", "d3/d75/a18174.html#accc43068aa0a7f62d6fabfb85acb1498", null ],
+    [ "JustEngagedWith", "d3/d75/a18174.html#aef3a1631b4bb8d28d4056036981b0192", null ],
+    [ "JustSummoned", "d3/d75/a18174.html#aff6e86057086db1319bb680e52e41634", null ],
+    [ "Reset", "d3/d75/a18174.html#a522d30cb60cf6af2cd8cc943a7e2f5e3", null ],
+    [ "UpdateAI", "d3/d75/a18174.html#ae78dc64f858573b234210ca175e5bdd9", null ],
+    [ "_events", "d3/d75/a18174.html#a6dff9ff5332c0bc337840882689f47ed", null ],
+    [ "_instance", "d3/d75/a18174.html#a1b4e12b199bf3ada517c895c5f387c4a", null ]
 ];

@@ -1,8 +1,6 @@
 var a18342 =
 [
-    [ "DecayPeriodicTimer", "d8/da8/a18342.html#a314ac33692cc352c490ec3d87177d67a", null ],
-    [ "Load", "d8/da8/a18342.html#af5a498253c4c382df3b2462a30448a64", null ],
-    [ "PrepareAuraScript", "d8/da8/a18342.html#ac5d4ee199b49e04499997355ac054554", null ],
-    [ "Register", "d8/da8/a18342.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
-    [ "_decayRate", "d8/da8/a18342.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
+    [ "npc_captain_grondelAI", "d8/da8/a18342.html#afbc971fc03584b87229318309d51a2f5", null ],
+    [ "Reset", "d8/da8/a18342.html#a7d3878822e77fba66891e87e23bd3740", null ],
+    [ "UpdateAI", "d8/da8/a18342.html#a4af8548092b49653805224bd4c0ac0a2", null ]
 ];

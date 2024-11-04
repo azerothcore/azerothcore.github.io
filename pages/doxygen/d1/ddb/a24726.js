@@ -1,8 +1,6 @@
 var a24726 =
 [
-    [ "HandleSchoolDMG", "d1/ddb/a24726.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "d1/ddb/a24726.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "d1/ddb/a24726.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "d1/ddb/a24726.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "d1/ddb/a24726.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "HandleScriptEffect", "d1/ddb/a24726.html#af8f2f4c4459204aa766a41dc4003581c", null ],
+    [ "PrepareSpellScript", "d1/ddb/a24726.html#a687f10fa34894cb497a2ce3369fd83ef", null ],
+    [ "Register", "d1/ddb/a24726.html#a034e52b435b6f4586084cb831e162c40", null ]
 ];

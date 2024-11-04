@@ -1,7 +1,8 @@
 var a14750 =
 [
-    [ "go_sand_trap", "d6/d25/a14750.html#a58d45acac672cb05988ddca78185b469", null ],
-    [ "Reset", "d6/d25/a14750.html#a7071a3e420e9137ca133b471bc217bf3", null ],
-    [ "UpdateAI", "d6/d25/a14750.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
-    [ "_scheduler", "d6/d25/a14750.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
+    [ "npc_obsidian_destroyer", "d6/d25/a14750.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
+    [ "JustDied", "d6/d25/a14750.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
+    [ "JustEngagedWith", "d6/d25/a14750.html#aaf95dd2c92a5d1745311e4162aee8dbc", null ],
+    [ "Reset", "d6/d25/a14750.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
+    [ "UpdateAI", "d6/d25/a14750.html#a79ba48d421a636f99ea65c0e34d084e1", null ]
 ];

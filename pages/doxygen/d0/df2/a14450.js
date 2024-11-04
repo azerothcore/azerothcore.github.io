@@ -1,10 +1,6 @@
 var a14450 =
 [
-    [ "npc_hyjal_frost_wyrm", "d0/df2/a14450.html#a7cdc8ef87d5ccb88777fa823e199b9ce", null ],
-    [ "AttackStart", "d0/df2/a14450.html#abaaea3bcbb8806ed9d807742273eb06d", null ],
-    [ "DoAction", "d0/df2/a14450.html#adab2b42c582cee234aea37d187b66138", null ],
-    [ "JustEngagedWith", "d0/df2/a14450.html#a23dace13bb2811dea43b63f0b970a2ce", null ],
-    [ "PathEndReached", "d0/df2/a14450.html#a2ec3137dad743e4766ca402282d913c7", null ],
-    [ "Reset", "d0/df2/a14450.html#a550c20113f4ebe4015f9a8088888f99b", null ],
-    [ "UpdateAI", "d0/df2/a14450.html#a182c3b440f74a4ebe6dee64651bf701f", null ]
+    [ "npc_crate_helperAI", "db/d86/a14454.html", "db/d86/a14454" ],
+    [ "npc_crate_helper", "d0/df2/a14450.html#ae08751928234656dcda84dd5c7e4cc37", null ],
+    [ "GetAI", "d0/df2/a14450.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
 ];

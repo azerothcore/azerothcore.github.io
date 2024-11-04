@@ -1,5 +1,6 @@
 var a19990 =
 [
-    [ "achievement_shadowdodger", "d7/d31/a19990.html#a8389a4972968fcc6cd7807e96ee5e527", null ],
-    [ "OnCheck", "d7/d31/a19990.html#a3ee0baca0c9163a601cd4bcfa9ebeb04", null ]
+    [ "HandleAfterEffectApply", "d7/d31/a19990.html#af655bb31dc24a3cede08ca371f784913", null ],
+    [ "PrepareAuraScript", "d7/d31/a19990.html#a1824853d0b369deac0745fabe2df657c", null ],
+    [ "Register", "d7/d31/a19990.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
 ];

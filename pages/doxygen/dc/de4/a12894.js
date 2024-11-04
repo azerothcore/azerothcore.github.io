@@ -1,14 +1,11 @@
 var a12894 =
 [
-    [ "boss_jarien", "dc/de4/a12894.html#a19e07a3da93e487b5984a8de0c7f26c9", null ],
-    [ "DoAction", "dc/de4/a12894.html#a8b9f1f2e7e45adf8df436b5c71555272", null ],
-    [ "IsSummonedBy", "dc/de4/a12894.html#a2e54c5ae404be944eeff3a57c96aa8ca", null ],
-    [ "JustDied", "dc/de4/a12894.html#a418380b56f3432b5aec84737012f4693", null ],
-    [ "JustEngagedWith", "dc/de4/a12894.html#ab6590cf6626a12e804520b2cde84a93e", null ],
-    [ "Reset", "dc/de4/a12894.html#ac85ca96b42aa5115500bd24454f84209", null ],
-    [ "UpdateAI", "dc/de4/a12894.html#acf7157ec7af7356beddc8a2429177b95", null ],
-    [ "_phase", "dc/de4/a12894.html#aa88435f313dc2b7880bca8f4cdb7a537", null ],
-    [ "_scheduler", "dc/de4/a12894.html#abce9540798dbae1026d1c74bfeb111a6", null ],
-    [ "_sothosDied", "dc/de4/a12894.html#a06b02c7f7dff885a86609e0116f2fd96", null ],
-    [ "_talked", "dc/de4/a12894.html#ae0c943c970990b055ebc8c31d81a7198", null ]
+    [ "boss_brutallusAI", "dc/de4/a12894.html#af459f8e102817c370f63555734930477", null ],
+    [ "AttackStart", "dc/de4/a12894.html#a32695b529405d622fe61cd916f46dc65", null ],
+    [ "DamageTaken", "dc/de4/a12894.html#a0cf6c7f64b4872b72e3976e232d1cda0", null ],
+    [ "JustDied", "dc/de4/a12894.html#a6920f6ec9504245fa97119e1dceb4a52", null ],
+    [ "JustEngagedWith", "dc/de4/a12894.html#a28d35428c502d249244985b971e35ce3", null ],
+    [ "KilledUnit", "dc/de4/a12894.html#a7a0097ad95db267d227d512104bc6884", null ],
+    [ "Reset", "dc/de4/a12894.html#acf072997c47d25c7b1608664d1e0fa72", null ],
+    [ "UpdateAI", "dc/de4/a12894.html#a74214632a57228887c514340b5ba0e19", null ]
 ];

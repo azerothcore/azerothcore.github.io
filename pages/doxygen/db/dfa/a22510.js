@@ -1,8 +1,6 @@
 var a22510 =
 [
-    [ "npc_yor", "db/dfa/a22510.html#a43ed8720d06c035085d481dbe6539dca", null ],
-    [ "JustEngagedWith", "db/dfa/a22510.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
-    [ "Reset", "db/dfa/a22510.html#aa698540b646fd870b33afbaf19ddbe07", null ],
-    [ "UpdateAI", "db/dfa/a22510.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
-    [ "_scheduler", "db/dfa/a22510.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
+    [ "HandleScriptEffect", "db/dfa/a22510.html#aa60961c2609184e739dea3be8ba992d5", null ],
+    [ "PrepareSpellScript", "db/dfa/a22510.html#aacde592314399112786b024153389024", null ],
+    [ "Register", "db/dfa/a22510.html#a3a2299da6fd73d14c7771e7a2c8a4ebd", null ]
 ];

@@ -1,8 +1,8 @@
 var a25994 =
 [
-    [ "Load", "dd/de3/a25994.html#a7662d85a5469c20edf6d2eefca820db3", null ],
-    [ "PrepareAuraScript", "dd/de3/a25994.html#a252bd975a7639eab4e151249db974b7c", null ],
-    [ "Register", "dd/de3/a25994.html#a51723a22f1062f44e8eb6848e1398595", null ],
-    [ "Split", "dd/de3/a25994.html#a08e982eae6030fdc679663bfd38bca47", null ],
-    [ "remainingAmount", "dd/de3/a25994.html#afaab88988769ddc720deb44f06de3d7d", null ]
+    [ "HandleEffectApply", "dd/de3/a25994.html#aed959961fcd07649cd4914fcd38a3214", null ],
+    [ "if", "dd/de3/a25994.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
+    [ "PrepareAuraScript", "dd/de3/a25994.html#a42167bc6bf7992debea8582680251da4", null ],
+    [ "Register", "dd/de3/a25994.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
+    [ "AuraEffectHandleModes", "dd/de3/a25994.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
 ];

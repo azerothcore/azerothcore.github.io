@@ -1,7 +1,7 @@
 var a13150 =
 [
-    [ "HandleScriptEffect", "da/d57/a13150.html#ae631c634c77cc207338e3549a664969b", null ],
-    [ "PrepareSpellScript", "da/d57/a13150.html#ac9f825f10512be5849c46460e9cdbec8", null ],
-    [ "Register", "da/d57/a13150.html#ac8a4d26de8c78942efc5cfbf78c64633", null ],
-    [ "Validate", "da/d57/a13150.html#ab05236bc29c00cfc7a5dfb88a8c2ee98", null ]
+    [ "OnPeriodic", "da/d57/a13150.html#a25e7a59384f262a36c74696a1befa01d", null ],
+    [ "PrepareAuraScript", "da/d57/a13150.html#a9b82fde3e38054b686f9b2a110cfaa1e", null ],
+    [ "Register", "da/d57/a13150.html#a65e469ba04d8cd2aa23d934bf2915721", null ],
+    [ "Validate", "da/d57/a13150.html#a6843deda5be8b684c06a86920714f255", null ]
 ];

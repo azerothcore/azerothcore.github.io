@@ -1,10 +1,7 @@
 var a24990 =
 [
-    [ "Load", "d7/d8d/a24990.html#a6ae104e97dc9c0aa50e115fe1f17e161", null ],
-    [ "OnPeriodic", "d7/d8d/a24990.html#ab1dc8acb8072f70625375480742fee5e", null ],
-    [ "PrepareAuraScript", "d7/d8d/a24990.html#a2e81d03893b23aa8dc9c615683206f75", null ],
-    [ "Register", "d7/d8d/a24990.html#ac2f2c8359487ad8c619e9faf8535b927", null ],
-    [ "Validate", "d7/d8d/a24990.html#a0c88acf48d0ea7dd7ac3ac85aa3a126d", null ],
-    [ "_applyTimes", "d7/d8d/a24990.html#a1bf9f3a1eb52bb64df59b381c412552f", null ],
-    [ "stackAmount", "d7/d8d/a24990.html#ac8d762bdb40366c93602497e9aaa42eb", null ]
+    [ "CalculateAmount", "d7/d8d/a24990.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
+    [ "Load", "d7/d8d/a24990.html#a777803a61286e0eba31246d4771630df", null ],
+    [ "PrepareAuraScript", "d7/d8d/a24990.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
+    [ "Register", "d7/d8d/a24990.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
 ];

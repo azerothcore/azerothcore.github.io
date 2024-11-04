@@ -1,6 +1,6 @@
 var a16682 =
 [
-    [ "npc_spectral_footmanAI", "d1/de9/a16686.html", "d1/de9/a16686" ],
-    [ "npc_spectral_footman", "d3/d39/a16682.html#a300fb06b896d2d08f9e3671422232ad2", null ],
-    [ "GetAI", "d3/d39/a16682.html#adbc1b961aba6cefb97dfff3014248735", null ]
+    [ "boss_garfrostAI", "d1/de9/a16686.html", "d1/de9/a16686" ],
+    [ "boss_garfrost", "d3/d39/a16682.html#ac116491cf252ee476cedee55ea292827", null ],
+    [ "GetAI", "d3/d39/a16682.html#a8a67bb09249655a8706868bb26b5124d", null ]
 ];

@@ -1,9 +1,7 @@
 var a21782 =
 [
-    [ "npc_mrfloppyAI", "dc/ddd/a21782.html#a2994e5658035bb2cfe6f3cdab4c507fc", null ],
-    [ "EnterEvadeMode", "dc/ddd/a21782.html#af0f11f715cac553c772c0dca7e5e3a22", null ],
-    [ "JustEngagedWith", "dc/ddd/a21782.html#a490bf07de00cc5c59b5f0024317d8125", null ],
-    [ "MoveInLineOfSight", "dc/ddd/a21782.html#af0b376c5f10b6cb43f3bb63376012a0d", null ],
-    [ "Reset", "dc/ddd/a21782.html#ac2dc6204b0579e1aaf7e670f0fcb4ec5", null ],
-    [ "UpdateAI", "dc/ddd/a21782.html#afad6db1ccd903fd18192f832a10a32f4", null ]
+    [ "npc_battle_at_valhalasAI", "db/d2e/a21786.html", "db/d2e/a21786" ],
+    [ "npc_battle_at_valhalas", "dc/ddd/a21782.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "dc/ddd/a21782.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "dc/ddd/a21782.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

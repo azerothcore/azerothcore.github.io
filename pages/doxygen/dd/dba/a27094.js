@@ -1,6 +1,5 @@
 var a27094 =
 [
-    [ "go_heatAI", "d4/d23/a27098.html", "d4/d23/a27098" ],
-    [ "go_heat", "dd/dba/a27094.html#a6c3d6919652159e4fd265b6d63f59c16", null ],
-    [ "GetAI", "dd/dba/a27094.html#a9f19009a78c7abd349d2e2e7bf98c1a0", null ]
+    [ "go_veil_skith_cage", "dd/dba/a27094.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
+    [ "OnGossipHello", "dd/dba/a27094.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
 ];

@@ -1,8 +1,6 @@
 var a14206 =
 [
-    [ "OnApply", "d1/d81/a14206.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
-    [ "OnRemove", "d1/d81/a14206.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
-    [ "PrepareAuraScript", "d1/d81/a14206.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
-    [ "Register", "d1/d81/a14206.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
-    [ "Validate", "d1/d81/a14206.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
+    [ "HandleDummy", "d1/d81/a14206.html#a5e0797e5af760b618b1498f405766de8", null ],
+    [ "PrepareSpellScript", "d1/d81/a14206.html#a3be664b18a2474857e8a2b199ea93aaf", null ],
+    [ "Register", "d1/d81/a14206.html#a2254e486bda73e07f8327c3412c7852b", null ]
 ];

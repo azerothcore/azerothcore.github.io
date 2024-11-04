@@ -1,8 +1,6 @@
 var a15018 =
 [
-    [ "npc_ahnqiraji_critter", "d2/d16/a15018.html#a60e2dc1c52579a410d3435126bf39684", null ],
-    [ "JustDied", "d2/d16/a15018.html#a71d3d5262bde847a18932fea89cb6648", null ],
-    [ "JustEngagedWith", "d2/d16/a15018.html#aca1df706306f9181db26cd77e5b66452", null ],
-    [ "Reset", "d2/d16/a15018.html#a645e16e9da29f6579320394201d0ada7", null ],
-    [ "UpdateAI", "d2/d16/a15018.html#a68c5ded8563c2de9429a13cdb7d38f89", null ]
+    [ "npc_magwinAI", "dc/df0/a15022.html", "dc/df0/a15022" ],
+    [ "npc_magwin", "d2/d16/a15018.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
+    [ "GetAI", "d2/d16/a15018.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
 ];

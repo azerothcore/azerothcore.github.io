@@ -1,6 +1,6 @@
 var a16794 =
 [
-    [ "boss_ickAI", "d8/d8b/a16798.html", "d8/d8b/a16798" ],
-    [ "boss_ick", "d2/dc3/a16794.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "d2/dc3/a16794.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "npc_pos_freed_slaveAI", "d2/dc3/a16794.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "d2/dc3/a16794.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "d2/dc3/a16794.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

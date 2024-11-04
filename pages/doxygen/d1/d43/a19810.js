@@ -1,6 +1,6 @@
 var a19810 =
 [
-    [ "HandleScript", "d1/d43/a19810.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
-    [ "PrepareSpellScript", "d1/d43/a19810.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
-    [ "Register", "d1/d43/a19810.html#a04a5b3a4f768200d74f4641508633d35", null ]
+    [ "boss_freya_nature_bombAI", "dc/df5/a19814.html", "dc/df5/a19814" ],
+    [ "boss_freya_nature_bomb", "d1/d43/a19810.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
+    [ "GetAI", "d1/d43/a19810.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
 ];

@@ -1,11 +1,17 @@
 var a23382 =
 [
-    [ "boss_high_king_maulgar", "d6/d49/a23382.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
-    [ "DoAction", "d6/d49/a23382.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
-    [ "JustDied", "d6/d49/a23382.html#ad235febd755745313b72394c633c3723", null ],
-    [ "JustEngagedWith", "d6/d49/a23382.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
-    [ "KilledUnit", "d6/d49/a23382.html#a2059016597039929103c053d6524ebf7", null ],
-    [ "Reset", "d6/d49/a23382.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
-    [ "UpdateAI", "d6/d49/a23382.html#ae540909dbbb3cf93e37503cd755c3001", null ],
-    [ "_recentlySpoken", "d6/d49/a23382.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
+    [ "boss_grand_warlock_nethekurse", "d6/d49/a23382.html#a4eefeb639cf5f0753feb6cfd99cda187", null ],
+    [ "DoAction", "d6/d49/a23382.html#a8288f8c28b61dac574254435534b5e3f", null ],
+    [ "IntroRP", "d6/d49/a23382.html#ae071f8cc7ef44e6c6cf205295debea5f", null ],
+    [ "JustDied", "d6/d49/a23382.html#a48a2ec7beeb5c9685fc627317acea949", null ],
+    [ "JustEngagedWith", "d6/d49/a23382.html#a117d2d737433ea89b37ea1ee58e6c237", null ],
+    [ "JustReachedHome", "d6/d49/a23382.html#afe62561de66fbe7fa92c365a51f01adc", null ],
+    [ "KilledUnit", "d6/d49/a23382.html#ac29fa30bfa8377a07cbfdd1f0964ebfb", null ],
+    [ "Reset", "d6/d49/a23382.html#aceef7aace38f5246ad67a1591b7f301c", null ],
+    [ "SetData", "d6/d49/a23382.html#a6c647262ce7df78c46af6b725cbcc250", null ],
+    [ "UpdateAI", "d6/d49/a23382.html#aca0bd4c71aafd2d1c54e2ca87d538e9a", null ],
+    [ "_canAggro", "d6/d49/a23382.html#a9c577798d5bc87654e6984af02d95c34", null ],
+    [ "_introStarted", "d6/d49/a23382.html#ac7d0737aa28c51cc63d93b8774e536f0", null ],
+    [ "PeonEngagedCount", "d6/d49/a23382.html#a886a0e792cf5ac6afa9670703cb568ff", null ],
+    [ "PeonKilledCount", "d6/d49/a23382.html#a8837d810df1d8b8a505d2d6c98ac8be8", null ]
 ];

@@ -1,6 +1,6 @@
 var a23142 =
 [
-    [ "HandleEffectRemove", "d8/d70/a23142.html#ab4c215a735ead9959fd78972a6da72e4", null ],
-    [ "PrepareAuraScript", "d8/d70/a23142.html#a75be2f838d6773b619dfac80e32557b8", null ],
-    [ "Register", "d8/d70/a23142.html#a239068b4e4ad88b5be93a031043ad7ca", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d8/d70/a23142.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d8/d70/a23142.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d8/d70/a23142.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

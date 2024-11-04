@@ -1,12 +1,8 @@
 var a20474 =
 [
-    [ "boss_thorim_start_npcsAI", "df/df3/a20474.html#a9602af25cbe9d4b3fe8534093c237a20", null ],
-    [ "DamageTaken", "df/df3/a20474.html#a9a848662671380a726eb7288c6507f68", null ],
-    [ "JustDied", "df/df3/a20474.html#a3c4b8928e1e0264e88eb49d930529c41", null ],
-    [ "JustEngagedWith", "df/df3/a20474.html#ab6c0a8ae05a408cafb8ffe359d4d0d4e", null ],
-    [ "Reset", "df/df3/a20474.html#aedf26a4b5baaf464d70316ce79ec32b3", null ],
-    [ "UpdateAI", "df/df3/a20474.html#a5a84827d8d85e3a9b8e374da68d2c7ed", null ],
-    [ "_isCaster", "df/df3/a20474.html#a6b2729ab9bce244da0a7d7fe6a4280f7", null ],
-    [ "_playerAttack", "df/df3/a20474.html#adb868f1910859c79625cfb7f9a2b4101", null ],
-    [ "events", "df/df3/a20474.html#a8dc5693814c49003727204623cef29b7", null ]
+    [ "OnPeriodic", "df/df3/a20474.html#aa49d1186ca6f5cdd628728a8a30c06a0", null ],
+    [ "OnRemove", "df/df3/a20474.html#ad3a81506d71ed3d6ddffce7d8f902eb4", null ],
+    [ "PrepareAuraScript", "df/df3/a20474.html#a63b654cf540e331e4d2b4f4ece5c1fcc", null ],
+    [ "Register", "df/df3/a20474.html#a004ba2e0e83a14bef3cae208a45f222b", null ],
+    [ "Validate", "df/df3/a20474.html#aa56622a1e57c157260940023a6c70a35", null ]
 ];

@@ -1,7 +1,7 @@
 var a22582 =
 [
-    [ "HandleOnHit", "d9/d67/a22582.html#a5eee46784bfbeaad3a9af069ca7f69a7", null ],
-    [ "PrepareSpellScript", "d9/d67/a22582.html#a734b735c7e87938bff185be91f9de6e8", null ],
-    [ "Register", "d9/d67/a22582.html#a1cc140d2b5487e9dbbf107025e09e51d", null ],
-    [ "Validate", "d9/d67/a22582.html#a162f60784fdec6b748151e5c2a7ed257", null ]
+    [ "boss_veras_darkshadow", "d9/d67/a22582.html#a7b33a5c8257954951ed19a2f8ce17b95", null ],
+    [ "JustEngagedWith", "d9/d67/a22582.html#a5eec3e70a7950073eced60d680ff6298", null ],
+    [ "JustSummoned", "d9/d67/a22582.html#afd6cb716cfdebccde99d71e1eb797d33", null ],
+    [ "UpdateAI", "d9/d67/a22582.html#a21f23998e3c3ecb79cbfa3c0d778f2d5", null ]
 ];

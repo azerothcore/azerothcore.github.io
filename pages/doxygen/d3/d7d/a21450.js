@@ -1,7 +1,6 @@
 var a21450 =
 [
-    [ "npc_mootoo_the_youngerAI", "d3/d7d/a21450.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
-    [ "JustDied", "d3/d7d/a21450.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
-    [ "Reset", "d3/d7d/a21450.html#a04624b9b4d552d6b27308edc3ad44644", null ],
-    [ "WaypointReached", "d3/d7d/a21450.html#ac758a992ed0d62a272930c84d617b348", null ]
+    [ "npc_dalaran_warriorAI", "d4/d30/a21454.html", "d4/d30/a21454" ],
+    [ "npc_dalaran_warrior", "d3/d7d/a21450.html#a13d44b85173232ddedcc35184d50549c", null ],
+    [ "GetAI", "d3/d7d/a21450.html#a1e84676d2a76bac728a1f23f5f9fc25e", null ]
 ];

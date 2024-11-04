@@ -1,12 +1,11 @@
 var a22190 =
 [
-    [ "npc_icefangAI", "de/d50/a22190.html#ab74b58a77e3c1349ed308f7febef794a", null ],
-    [ "AttackStart", "de/d50/a22190.html#a56615ecdb45389aa793374d26a636d45", null ],
-    [ "EnterEvadeMode", "de/d50/a22190.html#a1465c4779ea8b080f934163c8db6c99c", null ],
-    [ "JustDied", "de/d50/a22190.html#a3140c8306a384833cca1580ad964d73a", null ],
-    [ "JustEngagedWith", "de/d50/a22190.html#a8455dd4afb5ef5a694ca9237848df907", null ],
-    [ "OnCharmed", "de/d50/a22190.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
-    [ "PassengerBoarded", "de/d50/a22190.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
-    [ "UpdateAI", "de/d50/a22190.html#ab4d752f2273062c48339b53e611e617c", null ],
-    [ "WaypointReached", "de/d50/a22190.html#ae315a1d22317edb2864e4d796f808ffb", null ]
+    [ "npc_drakuru_shacklesAI", "de/d50/a22190.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
+    [ "LockRageclaw", "de/d50/a22190.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
+    [ "Reset", "de/d50/a22190.html#a566fba51edcddab8c5b0bf5688571f80", null ],
+    [ "SpellHit", "de/d50/a22190.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
+    [ "UnlockRageclaw", "de/d50/a22190.html#a65a4b408ac09ffa3155b955dc054d971", null ],
+    [ "UpdateAI", "de/d50/a22190.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
+    [ "_rageclawGUID", "de/d50/a22190.html#a1c991305f4ef30146930747881e57de4", null ],
+    [ "timer", "de/d50/a22190.html#a2a6484216abd731ad016284a79575e1c", null ]
 ];

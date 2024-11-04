@@ -1,7 +1,7 @@
 var a15422 =
 [
-    [ "npc_lakota_windsongAI", "d2/d2b/a15426.html", "d2/d2b/a15426" ],
-    [ "npc_lakota_windsong", "d8/dfe/a15422.html#a08a585ac36189ec23354c7acb26d223d", null ],
-    [ "GetAI", "d8/dfe/a15422.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
-    [ "OnQuestAccept", "d8/dfe/a15422.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
+    [ "npc_ranshallaAI", "d2/d2b/a15426.html", "d2/d2b/a15426" ],
+    [ "npc_ranshalla", "d8/dfe/a15422.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "d8/dfe/a15422.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "d8/dfe/a15422.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

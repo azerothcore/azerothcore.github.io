@@ -1,6 +1,6 @@
 var a15182 =
 [
-    [ "npc_tiger_matriarch_creditAI", "da/d72/a15186.html", "da/d72/a15186" ],
-    [ "npc_tiger_matriarch_credit", "db/d45/a15182.html#a9d76e8e808c828da501551025eecd8ea", null ],
-    [ "GetAI", "db/d45/a15182.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
+    [ "npc_great_bear_spirit", "db/d45/a15182.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "db/d45/a15182.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "db/d45/a15182.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

@@ -1,6 +1,7 @@
 var a15150 =
 [
-    [ "npc_rabid_thistle_bearAI", "da/d67/a15154.html", "da/d67/a15154" ],
-    [ "npc_rabid_thistle_bear", "d9/d91/a15150.html#a34b20a4ea22d74352712dee105247d56", null ],
-    [ "GetAI", "d9/d91/a15150.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
+    [ "HandleDummy", "d9/d91/a15150.html#a38dafff805471b19ca3cca4ff5273a87", null ],
+    [ "PrepareSpellScript", "d9/d91/a15150.html#a40db5a46491aa22b5347f99b0251f1b8", null ],
+    [ "Register", "d9/d91/a15150.html#a2f297ab67d5e2e990658706f7c508bd4", null ],
+    [ "Validate", "d9/d91/a15150.html#abb7946f53e6271ae69d34caacef61f47", null ]
 ];

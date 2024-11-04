@@ -1,5 +1,7 @@
 var a27178 =
 [
-    [ "go_tele_to_violet_stand", "d9/d24/a27178.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "d9/d24/a27178.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "npc_prof_leather", "d9/d24/a27178.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
+    [ "HasLeatherSpecialty", "d9/d24/a27178.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
+    [ "OnGossipHello", "d9/d24/a27178.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
+    [ "OnGossipSelect", "d9/d24/a27178.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
 ];

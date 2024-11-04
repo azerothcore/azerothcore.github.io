@@ -1,9 +1,12 @@
 var a22486 =
 [
-    [ "npc_stolen_soul", "d2/dad/a22486.html#a84a0bb8320b2332545748e010d855884", null ],
-    [ "DoAction", "d2/dad/a22486.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
-    [ "Reset", "d2/dad/a22486.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
-    [ "UpdateAI", "d2/dad/a22486.html#a7bf369dd943ee36600a364d56b85db5a", null ],
-    [ "_scheduler", "d2/dad/a22486.html#ab62526916f0ccd681383d37d19d94ccc", null ],
-    [ "myClass", "d2/dad/a22486.html#ab2ad92983075320ce389aa583c341d21", null ]
+    [ "npc_maiev_illidan", "d2/dad/a22486.html#a0d19d9bb58c44662cdfb66a8fe373a60", null ],
+    [ "DamageTaken", "d2/dad/a22486.html#a780cc558c483efa3293d798cc6048a33", null ],
+    [ "DoAction", "d2/dad/a22486.html#a53607a158edf8fd772908b5d7af6edf1", null ],
+    [ "IsSummonedBy", "d2/dad/a22486.html#a1bf4f2f29132c5132e7903d089ace6e2", null ],
+    [ "JustEngagedWith", "d2/dad/a22486.html#ad1728d7d8b1b5f9db8db4d811c2ba630", null ],
+    [ "Reset", "d2/dad/a22486.html#a100db757c89634a58b9382216e2791ec", null ],
+    [ "SpellHit", "d2/dad/a22486.html#aa4d6626d6130a88519f86cfe70d9fb95", null ],
+    [ "UpdateAI", "d2/dad/a22486.html#a269e4a8f79b508e2da61cd5e2dc34664", null ],
+    [ "instance", "d2/dad/a22486.html#ad41b6deb9406232629ad60ba66cfac6b", null ]
 ];

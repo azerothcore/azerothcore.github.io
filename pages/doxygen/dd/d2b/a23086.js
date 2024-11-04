@@ -1,6 +1,6 @@
 var a23086 =
 [
-    [ "HandleDummy", "dd/d2b/a23086.html#a3347413822ce083085bcf1418fbdbae2", null ],
-    [ "PrepareSpellScript", "dd/d2b/a23086.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
-    [ "Register", "dd/d2b/a23086.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
+    [ "HandleScript", "dd/d2b/a23086.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
+    [ "PrepareSpellScript", "dd/d2b/a23086.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
+    [ "Register", "dd/d2b/a23086.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
 ];

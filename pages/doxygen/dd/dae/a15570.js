@@ -1,7 +1,6 @@
 var a15570 =
 [
-    [ "HandleDummy", "dd/dae/a15570.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
-    [ "PrepareSpellScript", "dd/dae/a15570.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
-    [ "Register", "dd/dae/a15570.html#a4359ad73b513a368509a066a039ddf53", null ],
-    [ "_targetCount", "dd/dae/a15570.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
+    [ "boss_anub_arakAI", "db/da1/a15574.html", "db/da1/a15574" ],
+    [ "boss_anub_arak", "dd/dae/a15570.html#ac2594f561b07069a312ed38c01d9c7da", null ],
+    [ "GetAI", "dd/dae/a15570.html#a8687594354d514b99e026797ee71c70d", null ]
 ];

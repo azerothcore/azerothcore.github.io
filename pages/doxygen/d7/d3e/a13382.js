@@ -1,7 +1,5 @@
 var a13382 =
 [
-    [ "npc_greengill_slaveAI", "d7/d3e/a13382.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "JustEngagedWith", "d7/d3e/a13382.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
-    [ "SpellHit", "d7/d3e/a13382.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "d7/d3e/a13382.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "npc_tyrion", "d7/d3e/a13382.html#a85b1abd4910729c17099174def6507b1", null ],
+    [ "OnQuestAccept", "d7/d3e/a13382.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
 ];

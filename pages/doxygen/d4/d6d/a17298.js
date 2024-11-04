@@ -1,7 +1,6 @@
 var a17298 =
 [
-    [ "HandleScript", "d4/d6d/a17298.html#a101e5e995dd27dcc6b6a4b475eed0989", null ],
-    [ "PrepareSpellScript", "d4/d6d/a17298.html#a8f668b88a41585cabeace574b30b4f85", null ],
-    [ "Register", "d4/d6d/a17298.html#a8fae161a91fae297b99079bde218ced8", null ],
-    [ "Validate", "d4/d6d/a17298.html#a4d1a8c28eefff22afdbf15ab57a6a7fd", null ]
+    [ "npc_gunship_mageAI", "db/d01/a17302.html", "db/d01/a17302" ],
+    [ "npc_gunship_mage", "d4/d6d/a17298.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
+    [ "GetAI", "d4/d6d/a17298.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
 ];

@@ -1,6 +1,5 @@
 var a18562 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "d2/daa/a18566.html", "d2/daa/a18566" ],
-    [ "npc_icc_skybreaker_hierophant", "d5/de7/a18562.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
-    [ "GetAI", "d5/de7/a18562.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
+    [ "at_icc_spire_frostwyrm", "d5/de7/a18562.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
+    [ "_OnTrigger", "d5/de7/a18562.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
 ];

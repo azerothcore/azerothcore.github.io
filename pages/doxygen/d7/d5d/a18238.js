@@ -1,7 +1,6 @@
 var a18238 =
 [
-    [ "AuraRemoveEvent", "d7/d5d/a18238.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "d7/d5d/a18238.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "d7/d5d/a18238.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "d7/d5d/a18238.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "PeriodicTick", "d7/d5d/a18238.html#ac0b2cf06027c2f658745d6a90dfc76a1", null ],
+    [ "PrepareAuraScript", "d7/d5d/a18238.html#a0767ac60151517b803e871a0fcb25967", null ],
+    [ "Register", "d7/d5d/a18238.html#afd1e28b224035aef5ac109f38d7e118d", null ]
 ];

@@ -1,6 +1,6 @@
 var a20926 =
 [
-    [ "boss_skarvald_the_constructorAI", "d5/d6b/a20930.html", "d5/d6b/a20930" ],
-    [ "boss_skarvald_the_constructor", "de/d94/a20926.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
-    [ "GetAI", "de/d94/a20926.html#a979e3699d9c87cf4207b70026fb49180", null ]
+    [ "npc_ritual_channelerAI", "d5/d6b/a20930.html", "d5/d6b/a20930" ],
+    [ "npc_ritual_channeler", "de/d94/a20926.html#adab372002549b009e3f937ec67e49f3f", null ],
+    [ "GetAI", "de/d94/a20926.html#aa416545438d701cbfc2567ba5ae536c8", null ]
 ];

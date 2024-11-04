@@ -1,7 +1,5 @@
 var a26762 =
 [
-    [ "HandleApplyAura", "d0/d7f/a26762.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
-    [ "PrepareSpellScript", "d0/d7f/a26762.html#adf09900347264bc341884092ea0fee40", null ],
-    [ "Register", "d0/d7f/a26762.html#ac56484d4048817a164963e519a97d137", null ],
-    [ "Validate", "d0/d7f/a26762.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d0/d7f/a26762.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d0/d7f/a26762.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

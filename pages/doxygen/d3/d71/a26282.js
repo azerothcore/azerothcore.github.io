@@ -1,7 +1,6 @@
 var a26282 =
 [
-    [ "HandleScript", "d3/d71/a26282.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "d3/d71/a26282.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "d3/d71/a26282.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "d3/d71/a26282.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "HandleSendEvent", "d3/d71/a26282.html#a8126102215aa6eedd638b89d1a6b7110", null ],
+    [ "PrepareSpellScript", "d3/d71/a26282.html#abc57ba05637e2c51bf2d1fb918a93667", null ],
+    [ "Register", "d3/d71/a26282.html#ac37abad48c398bdb22529c1a44327d34", null ]
 ];

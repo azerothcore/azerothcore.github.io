@@ -1,9 +1,7 @@
 var a26446 =
 [
-    [ "CheckCast", "d8/d44/a26446.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
-    [ "FilterTargets", "d8/d44/a26446.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
-    [ "HandleDummy", "d8/d44/a26446.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
-    [ "PrepareSpellScript", "d8/d44/a26446.html#a9c992e732b525e29f684947398d20efb", null ],
-    [ "Register", "d8/d44/a26446.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
-    [ "Validate", "d8/d44/a26446.html#abca1e5aa46e7753588c8120090775195", null ]
+    [ "HandleEffectProc", "d8/d44/a26446.html#a7f2ddbf54a4932277ad91eb0036915ab", null ],
+    [ "PrepareAuraScript", "d8/d44/a26446.html#a47d844a9700cd8add793e3f3088d1b82", null ],
+    [ "Register", "d8/d44/a26446.html#ad40dfc164ab98fc9734e1ed15ea14c17", null ],
+    [ "Validate", "d8/d44/a26446.html#a97f5239399e7135b02000722eaf837ad", null ]
 ];

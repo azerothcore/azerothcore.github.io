@@ -1,5 +1,5 @@
 var a20222 =
 [
-    [ "achievement_kologarn_rubble_and_roll", "df/d2f/a20222.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
-    [ "OnCheck", "df/d2f/a20222.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
+    [ "achievement_mimiron_firefighter", "df/d2f/a20222.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "df/d2f/a20222.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

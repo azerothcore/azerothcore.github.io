@@ -1,6 +1,8 @@
 var a18394 =
 [
-    [ "npc_frost_freeze_trapAI", "de/d0e/a18398.html", "de/d0e/a18398" ],
-    [ "npc_frost_freeze_trap", "d2/da3/a18394.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "d2/da3/a18394.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "CountTargets", "d2/da3/a18394.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
+    [ "HandleScript", "d2/da3/a18394.html#af058a0c458463bdba4a4eb73aa91c113", null ],
+    [ "PrepareSpellScript", "d2/da3/a18394.html#a83b2fad7cdc189a17129e25a015952ff", null ],
+    [ "Register", "d2/da3/a18394.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
+    [ "Validate", "d2/da3/a18394.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
 ];

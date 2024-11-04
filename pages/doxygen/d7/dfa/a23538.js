@@ -1,6 +1,7 @@
 var a23538 =
 [
-    [ "boss_porung", "d7/dfa/a23538.html#acef31010461bbf716ac9b13d950807ee", null ],
-    [ "JustDied", "d7/dfa/a23538.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
-    [ "JustEngagedWith", "d7/dfa/a23538.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
+    [ "CastQuill", "d7/dfa/a23538.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "d7/dfa/a23538.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "d7/dfa/a23538.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "d7/dfa/a23538.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

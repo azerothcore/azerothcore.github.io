@@ -1,8 +1,6 @@
 var a23262 =
 [
-    [ "boss_mekgineer_steamrigger", "dc/df8/a23262.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "dc/df8/a23262.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "dc/df8/a23262.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "dc/df8/a23262.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "dc/df8/a23262.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "d8/d23/a23266.html", "d8/d23/a23266" ],
+    [ "instance_gruuls_lair", "dc/df8/a23262.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
+    [ "GetInstanceScript", "dc/df8/a23262.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
 ];

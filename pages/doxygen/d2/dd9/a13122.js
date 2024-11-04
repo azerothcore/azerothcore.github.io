@@ -1,6 +1,6 @@
 var a13122 =
 [
-    [ "npc_kalecgos_kjAI", "d3/d1e/a13126.html", "d3/d1e/a13126" ],
-    [ "npc_kalecgos_kj", "d2/dd9/a13122.html#aa8c9e532e3980f94d316b60454799c63", null ],
-    [ "GetAI", "d2/dd9/a13122.html#af63f0d90581189f4850414ffdddd1ba4", null ]
+    [ "boss_muruAI", "d3/d1e/a13126.html", "d3/d1e/a13126" ],
+    [ "boss_muru", "d2/dd9/a13122.html#aeb09997c72ec653df211bdec5873a57a", null ],
+    [ "GetAI", "d2/dd9/a13122.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
 ];

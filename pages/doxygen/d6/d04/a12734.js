@@ -1,6 +1,6 @@
 var a12734 =
 [
-    [ "boss_high_inquisitor_whitemaneAI", "de/d6c/a12738.html", "de/d6c/a12738" ],
-    [ "boss_high_inquisitor_whitemane", "d6/d04/a12734.html#aae73cc11aa89bdc8d908feeb05c68148", null ],
-    [ "GetAI", "d6/d04/a12734.html#af98b4901fb56c3cf27a86ad80891087a", null ]
+    [ "npc_risen_guardianAI", "de/d6c/a12738.html", "de/d6c/a12738" ],
+    [ "npc_risen_guardian", "d6/d04/a12734.html#a472274c69abe912f5781c60911204eb5", null ],
+    [ "GetAI", "d6/d04/a12734.html#a568f57a442adcd64c8c3d2e4d5df729f", null ]
 ];
