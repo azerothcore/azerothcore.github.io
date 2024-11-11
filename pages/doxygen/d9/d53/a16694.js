@@ -1,6 +1,6 @@
 var a16694 =
 [
-    [ "boss_ickAI", "db/dcc/a16698.html", "db/dcc/a16698" ],
-    [ "boss_ick", "d9/d53/a16694.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "d9/d53/a16694.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "npc_pos_leader_secondAI", "db/dcc/a16698.html", "db/dcc/a16698" ],
+    [ "npc_pos_leader_second", "d9/d53/a16694.html#ac4758674cc97eae0937264fa028e6da5", null ],
+    [ "GetAI", "d9/d53/a16694.html#ac403cfc86247990d78c9cf4179df8b87", null ]
 ];

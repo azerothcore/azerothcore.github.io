@@ -1,6 +1,9 @@
 var a22526 =
 [
-    [ "FilterTargets", "dd/d67/a22526.html#a91b9fdebdffcae06da1882d7d46f5460", null ],
-    [ "PrepareSpellScript", "dd/d67/a22526.html#ae8f3906007580963bda33cd0e420299b", null ],
-    [ "Register", "dd/d67/a22526.html#a5e191d4fca7cc95ddec8730cc3fd8ffe", null ]
+    [ "FilterTargets", "dd/d67/a22526.html#aa8f0401dd004e816b8071381289116fa", null ],
+    [ "HandleTeleportUnits", "dd/d67/a22526.html#a4333f10a29ef3e5643f637899a0ab5c5", null ],
+    [ "PrepareSpellScript", "dd/d67/a22526.html#a47898c213cdd125714c80d327bf42d8c", null ],
+    [ "Register", "dd/d67/a22526.html#a6036577cd7b4fbbc55e90e9ab067f13a", null ],
+    [ "SetDest", "dd/d67/a22526.html#a4cf75d96a0d1de62bc989826204b04c9", null ],
+    [ "Validate", "dd/d67/a22526.html#a814083360970284a325621f45e109b5b", null ]
 ];

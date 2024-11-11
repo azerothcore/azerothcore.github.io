@@ -1,6 +1,6 @@
 var a20282 =
 [
-    [ "npc_ulduar_dark_rune_watcherAI", "dd/d7f/a20286.html", "dd/d7f/a20286" ],
-    [ "npc_ulduar_dark_rune_watcher", "dd/dbb/a20282.html#a0536c61d70d5c6d61496fc1720d37950", null ],
-    [ "GetAI", "dd/dbb/a20282.html#a6677d6dc0d07b508e921064f3299b302", null ]
+    [ "boss_thorim_arena_npcsAI", "dd/d7f/a20286.html", "dd/d7f/a20286" ],
+    [ "boss_thorim_arena_npcs", "dd/dbb/a20282.html#a60d22280bb1eb3c9da92deb08e887942", null ],
+    [ "GetAI", "dd/dbb/a20282.html#a3709e1c9df32755f5932398ba3535f2f", null ]
 ];

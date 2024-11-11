@@ -1,6 +1,7 @@
 var a21406 =
 [
-    [ "npc_mei_francis_mountAI", "d6/d2e/a21410.html", "d6/d2e/a21410" ],
-    [ "npc_mei_francis_mount", "d4/d7f/a21406.html#ab34facb1d4d9a542710340493488eaa8", null ],
-    [ "GetAI", "d4/d7f/a21406.html#ac1f14e0b94662432b399d6dfeb8a8107", null ]
+    [ "CheckCast", "d4/d7f/a21406.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
+    [ "HandleScript", "d4/d7f/a21406.html#a8128bb2d7588409dae73bed78d5285a7", null ],
+    [ "PrepareSpellScript", "d4/d7f/a21406.html#aee17a8a21ec5df027082c6990189dccc", null ],
+    [ "Register", "d4/d7f/a21406.html#a2a97265e102e9ce31997d99275b42973", null ]
 ];

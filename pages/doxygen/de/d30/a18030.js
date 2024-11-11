@@ -1,6 +1,9 @@
 var a18030 =
 [
-    [ "ModDestHeight", "de/d30/a18030.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
-    [ "PrepareSpellScript", "de/d30/a18030.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
-    [ "Register", "de/d30/a18030.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
+    [ "DelayedCastEvent", "de/d30/a18030.html#ae6d57612065d56ce79197aedebedf9f9", null ],
+    [ "Execute", "de/d30/a18030.html#ae2925429b3049e44d2afd2e8b990af71", null ],
+    [ "_despawnTime", "de/d30/a18030.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
+    [ "_originalCaster", "de/d30/a18030.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
+    [ "_spellId", "de/d30/a18030.html#abe28a6749101233302634ed226a289e8", null ],
+    [ "_trigger", "de/d30/a18030.html#a85471a151a3165cc906f3a41103c3f5d", null ]
 ];

@@ -1,8 +1,14 @@
 var a15686 =
 [
-    [ "npc_twilight_summonAI", "d6/de5/a15686.html#a8f5dfe54a5ac1d7a058c5efb9bead77a", null ],
-    [ "DoAction", "d6/de5/a15686.html#aac4c1e3bc635b30f1ceed8b25f2c7829", null ],
-    [ "Reset", "d6/de5/a15686.html#a1174c827aef1b05603214e4717c78f8a", null ],
-    [ "UpdateAI", "d6/de5/a15686.html#addb312c34c668b8189087de6cf89543b", null ],
-    [ "fadeArmorTimer", "d6/de5/a15686.html#ace4028c8f4d0240b4e2939481312d0d2", null ]
+    [ "npc_halion_controllerAI", "d6/de5/a15686.html#aabe03dbe5652db6687e7f2857ea33a20", null ],
+    [ "DoAction", "d6/de5/a15686.html#a8d295797e21c03e7d2c3d504c40ba128", null ],
+    [ "Reset", "d6/de5/a15686.html#a3004aecb50815287d5f832f2a8a0d250", null ],
+    [ "SetData", "d6/de5/a15686.html#a3ce9a62d3e44b3ccc279803d5ef87a47", null ],
+    [ "UpdateAI", "d6/de5/a15686.html#ac3ad9df40560ba8acfcd7fbabd303fde", null ],
+    [ "UpdateCorporeality", "d6/de5/a15686.html#ac82987f2b2b069b90c509c477004bae6", null ],
+    [ "_corporeality", "d6/de5/a15686.html#a4c23df1bb774ac724bdf537453592671", null ],
+    [ "_events", "d6/de5/a15686.html#a92e3f116260265a2d0dbeef769eee03e", null ],
+    [ "_instance", "d6/de5/a15686.html#a5cce2f56e6ef0b4baeb6f2f7dbfd2f73", null ],
+    [ "_materialDamage", "d6/de5/a15686.html#afcc510b0d4be10ed057d1a304b803b69", null ],
+    [ "_twilightDamage", "d6/de5/a15686.html#a13a9efcb11ed31725c45011508407287", null ]
 ];

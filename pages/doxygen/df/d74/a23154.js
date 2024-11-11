@@ -1,8 +1,6 @@
 var a23154 =
 [
-    [ "boss_hungarfen", "df/d74/a23154.html#a009b8d34731d2310a53195024b434935", null ],
-    [ "JustEngagedWith", "df/d74/a23154.html#a3612bb373ecdba4245587fd94257ba62", null ],
-    [ "Reset", "df/d74/a23154.html#a4b310eff8af9a33c50ae8f2035ba76ad", null ],
-    [ "UpdateAI", "df/d74/a23154.html#a1765bd54c04a3479e837b3d0e241300e", null ],
-    [ "_scheduler", "df/d74/a23154.html#a702185681abb6cfc4add7078ff5bbb52", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "de/d74/a23158.html", "de/d74/a23158" ],
+    [ "instance_gruuls_lair", "df/d74/a23154.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
+    [ "GetInstanceScript", "df/d74/a23154.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
 ];

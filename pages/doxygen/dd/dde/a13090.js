@@ -1,6 +1,6 @@
 var a13090 =
 [
-    [ "FilterTargets", "dd/dde/a13090.html#aa6c8db9ae3ffd14e0841c98633115a9b", null ],
-    [ "PrepareSpellScript", "dd/dde/a13090.html#a502f57c8567bc7ed15035d89ea26f4a6", null ],
-    [ "Register", "dd/dde/a13090.html#aa3f50e9c6d430d3a1bc83c382c08b189", null ]
+    [ "HandlePull", "dd/dde/a13090.html#a5a43bb53d3c534054498f8366d617e5a", null ],
+    [ "PrepareSpellScript", "dd/dde/a13090.html#aec00f82a35c8154e7d4c1f47c52d486f", null ],
+    [ "Register", "dd/dde/a13090.html#a6da76afd5feaa0d60be70ff8469d78bc", null ]
 ];

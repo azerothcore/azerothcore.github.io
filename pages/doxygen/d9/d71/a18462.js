@@ -1,6 +1,9 @@
 var a18462 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "d6/d89/a18466.html", "d6/d89/a18466" ],
-    [ "npc_icc_skybreaker_hierophant", "d9/d71/a18462.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
-    [ "GetAI", "d9/d71/a18462.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
+    [ "spell_trigger_spell_from_caster", "d9/d71/a18462.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
+    [ "HandleTrigger", "d9/d71/a18462.html#afc11c9408ea11cb04e476999a9bdf522", null ],
+    [ "PrepareSpellScript", "d9/d71/a18462.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
+    [ "Register", "d9/d71/a18462.html#ae44cc1a87267c1d08603d1aff2384957", null ],
+    [ "Validate", "d9/d71/a18462.html#a3aace9a309bc848b887b03c949c921bd", null ],
+    [ "_triggerId", "d9/d71/a18462.html#a29af52a9035f18936515a464889fefe5", null ]
 ];

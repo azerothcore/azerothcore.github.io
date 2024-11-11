@@ -1,17 +1,13 @@
 var a15194 =
 [
-    [ "npc_clintar_spiritAI", "dc/dbb/a15194.html#ab64c9da6af7246e1665a5264a26d75ab", null ],
-    [ "EnterEvadeMode", "dc/dbb/a15194.html#a2ccffe81e2bd7cddcab10746bc9311bf", null ],
-    [ "IsSummonedBy", "dc/dbb/a15194.html#af55bc32b17bfd45968e668c5591325ae", null ],
-    [ "JustDied", "dc/dbb/a15194.html#a4e90511d9daf0545f0fee471f3ab0d5e", null ],
-    [ "Reset", "dc/dbb/a15194.html#afd59b5e50deb65f7175138272f439740", null ],
-    [ "StartEvent", "dc/dbb/a15194.html#ae3bbfd8374bf667d4eeb26e047ee2186", null ],
-    [ "UpdateAI", "dc/dbb/a15194.html#a4b780f14cb2aa08c06e39a58501a21fe", null ],
-    [ "WaypointReached", "dc/dbb/a15194.html#a98315f3202daaac261a1e7f0222b01c5", null ],
-    [ "checkPlayerTimer", "dc/dbb/a15194.html#a10165a369bb8a7775050ae425cb94123", null ],
-    [ "CurrWP", "dc/dbb/a15194.html#ae3b4588a2dfd337ffc71456652fa136f", null ],
-    [ "EventOnWait", "dc/dbb/a15194.html#a7473dff3417d3e7510bc4fb7acbeb494", null ],
-    [ "EventTimer", "dc/dbb/a15194.html#a27b0a90757df63df276b1e26bfbaba83", null ],
-    [ "PlayerGUID", "dc/dbb/a15194.html#ad721852353215d46bc623efca358981f", null ],
-    [ "Step", "dc/dbb/a15194.html#af9b65e2de0dcce5844fbc642b32f5a3f", null ]
+    [ "npc_aquementasAI", "dc/dbb/a15194.html#aad63986cdb8a65c528af3ccd114d2041", null ],
+    [ "JustEngagedWith", "dc/dbb/a15194.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
+    [ "Reset", "dc/dbb/a15194.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
+    [ "SendItem", "dc/dbb/a15194.html#a60bafbd70783411236dcf3d0bfe244de", null ],
+    [ "UpdateAI", "dc/dbb/a15194.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
+    [ "AquaJetTimer", "dc/dbb/a15194.html#a8506acc69436af869d1404bd95109e68", null ],
+    [ "FrostShockTimer", "dc/dbb/a15194.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
+    [ "isFriendly", "dc/dbb/a15194.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
+    [ "SendItemTimer", "dc/dbb/a15194.html#a3a0883b43056b176ef2ae55673adacf3", null ],
+    [ "SwitchFactionTimer", "dc/dbb/a15194.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
 ];

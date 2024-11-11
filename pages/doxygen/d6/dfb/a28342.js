@@ -1,13 +1,7 @@
 var a28342 =
 [
-    [ "MPQArchive", "d6/dfb/a28342.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "d6/dfb/a28342.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "MPQArchive", "d6/dfb/a28342.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "d6/dfb/a28342.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "close", "d6/dfb/a28342.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "close", "d6/dfb/a28342.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "GetFileListTo", "d6/dfb/a28342.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "GetFileListTo", "d6/dfb/a28342.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "isOpened", "d6/dfb/a28342.html#a2026335b9ede29197acfaac8513456d5", null ],
-    [ "mpq_a", "d6/dfb/a28342.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
+    [ "W", "d6/dfb/a28342.html#adc2e55b935dcc2daefd60739bdb31cec", null ],
+    [ "X", "d6/dfb/a28342.html#a2676f1a5ec3a2f69ebb953e4b5741c4b", null ],
+    [ "Y", "d6/dfb/a28342.html#aa3353a9f5afdf3614e37f9681441ae05", null ],
+    [ "Z", "d6/dfb/a28342.html#a533b5e90b6333d89190828f28721e61d", null ]
 ];

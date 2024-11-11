@@ -1,6 +1,7 @@
 var a19058 =
 [
-    [ "npc_crystal_spikeAI", "d7/d3e/a19062.html", "d7/d3e/a19062" ],
-    [ "npc_crystal_spike", "da/d51/a19058.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
-    [ "GetAI", "da/d51/a19058.html#a51df30295395c807c0ade2abaf0bd78e", null ]
+    [ "CalcDamage", "da/d51/a19058.html#abb2bf75cc347597b17ed5e4ccd213132", null ],
+    [ "PrepareSpellScript", "da/d51/a19058.html#a705a6f0c9b10dc8e7e2e6c091a3ff89c", null ],
+    [ "Register", "da/d51/a19058.html#a2c2b391b223ab92b6d644b739419a1d3", null ],
+    [ "Validate", "da/d51/a19058.html#a773c608119a84cc3f02e7b4d786f2741", null ]
 ];

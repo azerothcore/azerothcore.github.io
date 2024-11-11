@@ -1,8 +1,6 @@
 var a20650 =
 [
-    [ "FilterTargets", "d0/df7/a20650.html#a3d92ca79a15efaff3c4dd28f0c7ede2c", null ],
-    [ "HandleDummyEffect", "d0/df7/a20650.html#afbf3aab6724d12426ab0197fb9459562", null ],
-    [ "PrepareSpellScript", "d0/df7/a20650.html#a7ec441904bc100c6b15ee219617489ff", null ],
-    [ "Register", "d0/df7/a20650.html#a2796cc02d7c029f3f99264162a19e1d2", null ],
-    [ "Validate", "d0/df7/a20650.html#a85388adbc15d449e687f9f463cce3833", null ]
+    [ "npc_ulduar_arachnopod_destroyerAI", "db/dd2/a20654.html", "db/dd2/a20654" ],
+    [ "npc_ulduar_arachnopod_destroyer", "d0/df7/a20650.html#aec69c3c143ec27734dd3f2d8db0da9fd", null ],
+    [ "GetAI", "d0/df7/a20650.html#ad667e7bacc181e79cb002181c71aac7c", null ]
 ];

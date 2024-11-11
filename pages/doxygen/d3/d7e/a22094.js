@@ -1,6 +1,6 @@
 var a22094 =
 [
-    [ "npc_wg_queueAI", "d3/d7e/a22094.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "d3/d7e/a22094.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "d3/d7e/a22094.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "npc_captured_rageclawAI", "d3/d7e/a22094.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "d3/d7e/a22094.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "d3/d7e/a22094.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

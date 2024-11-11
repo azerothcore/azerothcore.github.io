@@ -1,7 +1,10 @@
 var a22582 =
 [
-    [ "boss_veras_darkshadow", "d9/d67/a22582.html#a7b33a5c8257954951ed19a2f8ce17b95", null ],
-    [ "JustEngagedWith", "d9/d67/a22582.html#a5eec3e70a7950073eced60d680ff6298", null ],
-    [ "JustSummoned", "d9/d67/a22582.html#afd6cb716cfdebccde99d71e1eb797d33", null ],
-    [ "UpdateAI", "d9/d67/a22582.html#a21f23998e3c3ecb79cbfa3c0d778f2d5", null ]
+    [ "CalculateAmount", "d9/d67/a22582.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
+    [ "CheckProc", "d9/d67/a22582.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
+    [ "HandleProc", "d9/d67/a22582.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
+    [ "PrepareAuraScript", "d9/d67/a22582.html#a6e066884663276dbba82e46ca5f66e59", null ],
+    [ "Register", "d9/d67/a22582.html#ac4154f0746e77229e8d349021d5b9c30", null ],
+    [ "Update", "d9/d67/a22582.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
+    [ "Validate", "d9/d67/a22582.html#a4f10d23f63c47b408b70373623b877a8", null ]
 ];

@@ -1,6 +1,6 @@
 var a15230 =
 [
-    [ "Creature", "dc/d61/a15230.html#a77b33f8998f85808b58052079b1cab54", null ],
-    [ "TextId", "dc/d61/a15230.html#ad691f3cd40035e96547adf7528229119", null ],
-    [ "Timer", "dc/d61/a15230.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
+    [ "npc_taskmaster_fizzuleAI", "dc/d98/a15234.html", "dc/d98/a15234" ],
+    [ "npc_taskmaster_fizzule", "dc/d61/a15230.html#aa42e6cc1a3ac58ea79f5184f7bb293a9", null ],
+    [ "GetAI", "dc/d61/a15230.html#a6281de7424932fe6580ffefa199498d9", null ]
 ];

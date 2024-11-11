@@ -1,8 +1,5 @@
 var a13158 =
 [
-    [ "HandleApply", "d1/d2d/a13158.html#a717e3428afd59fa3a5e9916887d88273", null ],
-    [ "HandleRemove", "d1/d2d/a13158.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
-    [ "PrepareAuraScript", "d1/d2d/a13158.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
-    [ "Register", "d1/d2d/a13158.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
-    [ "Validate", "d1/d2d/a13158.html#a393a46618a4e1928b8149e04b4823726", null ]
+    [ "at_twilight_grove", "d1/d2d/a13158.html#a2ef32dbac0a35aa7dc6ebbafe926125f", null ],
+    [ "OnTrigger", "d1/d2d/a13158.html#a8ee7239b8429df38a237926a7252322b", null ]
 ];

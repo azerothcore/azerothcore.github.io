@@ -1,12 +1,18 @@
 var a20022 =
 [
-    [ "npc_ulduar_iron_constructAI", "df/d1d/a20022.html#ab81224d24ab1925cde97ab76c2a514d1", null ],
-    [ "DamageTaken", "df/d1d/a20022.html#a5235538b755dd83615d80a1f7d0ec1b9", null ],
-    [ "JustDied", "df/d1d/a20022.html#a5b8e1c38257fc13c59bcaf8cb251fee2", null ],
-    [ "JustReachedHome", "df/d1d/a20022.html#a12416ffe731f96a1ca2949d995eb909c", null ],
-    [ "MoveInLineOfSight", "df/d1d/a20022.html#a12b228a1edb9460ddcb2b8232bb8209e", null ],
-    [ "Reset", "df/d1d/a20022.html#ac6dba374d72247be14923aa54898b9b5", null ],
-    [ "SpellHit", "df/d1d/a20022.html#a10a5444576af84ae50ad8af930ed5970", null ],
-    [ "UpdateAI", "df/d1d/a20022.html#ac5aabd4a48b6a2f5057eb5ee8a8c99f8", null ],
-    [ "timer", "df/d1d/a20022.html#ae1996cf79f8a82df7fe02cd60e5ce3a4", null ]
+    [ "npc_ulduar_leviathan_mkiiAI", "df/d1d/a20022.html#a5502ef972b889513a3d3d9b85d256af4", null ],
+    [ "DamageTaken", "df/d1d/a20022.html#a773f86b23d373bae4e57d4d67b270b6d", null ],
+    [ "EnterEvadeMode", "df/d1d/a20022.html#ab6d02d90b4fe5f6bda0eed4f8f05c001", null ],
+    [ "GetS3", "df/d1d/a20022.html#af76019911ce9bb993ebb7c658d30188d", null ],
+    [ "KilledUnit", "df/d1d/a20022.html#a53acdf5b1703a3feca814184a018cc3d", null ],
+    [ "MoveInLineOfSight", "df/d1d/a20022.html#a0f4f1b5876d608b01376430444e472e3", null ],
+    [ "PassengerBoarded", "df/d1d/a20022.html#a55f76a830084d7aaa3df0d6bf0630121", null ],
+    [ "Reset", "df/d1d/a20022.html#a63174d9dcdf5a0d433f9694bda6d7086", null ],
+    [ "SetData", "df/d1d/a20022.html#a214491b36ca047f666d5931365649c4c", null ],
+    [ "SpellHit", "df/d1d/a20022.html#ad9c47de936a986e6698a1b8ed6caf68f", null ],
+    [ "UpdateAI", "df/d1d/a20022.html#a4267062c75d3bee348c946be6f8d5878", null ],
+    [ "bIsEvading", "df/d1d/a20022.html#ac142b9abf799b944cd5e20cc0e9979c8", null ],
+    [ "events", "df/d1d/a20022.html#a6f12f0d68459399cf85ce030cb633d4f", null ],
+    [ "Phase", "df/d1d/a20022.html#ad9e8d511cbd34ff024799f6ec61fe1ff", null ],
+    [ "pInstance", "df/d1d/a20022.html#aa991c7f1cf64ca7e0963323222ffc1dd", null ]
 ];

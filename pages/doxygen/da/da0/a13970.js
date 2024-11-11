@@ -1,8 +1,8 @@
 var a13970 =
 [
-    [ "OnApply", "da/da0/a13970.html#a6f3f05316f025ef638672a82cc855136", null ],
-    [ "PeriodicTick", "da/da0/a13970.html#a051d292f9483e6b82d773fba3ab52460", null ],
-    [ "PrepareAuraScript", "da/da0/a13970.html#ab8face95be60d7c5ba3fe15f0d05de25", null ],
-    [ "Register", "da/da0/a13970.html#a0004de73250b8523db2b9ab714c8a246", null ],
-    [ "Validate", "da/da0/a13970.html#aae1809dd5bc8baa06ee079a6d2a8b940", null ]
+    [ "CalcPeriodic", "da/da0/a13970.html#ae2ce9c161a25385c6de1f4b7607c9935", null ],
+    [ "HandleEffectApply", "da/da0/a13970.html#a4321da69ee59416bd50e621b804e5423", null ],
+    [ "HandleEffectPeriodicUpdate", "da/da0/a13970.html#a3f23e4a8fecf83ba580c904f15e1e98b", null ],
+    [ "PrepareAuraScript", "da/da0/a13970.html#a956136be8cb484efc9af2429d8779a03", null ],
+    [ "Register", "da/da0/a13970.html#a1d4b1c43305b3133e4ac7f8b6ce70727", null ]
 ];

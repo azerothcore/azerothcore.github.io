@@ -1,7 +1,6 @@
 var a22118 =
 [
-    [ "HandleScript", "d6/ddc/a22118.html#a26eb647b6c938df3aeff7981571dc475", null ],
-    [ "PrepareSpellScript", "d6/ddc/a22118.html#a10114d8fa956aabff64aa0df7708f635", null ],
-    [ "Register", "d6/ddc/a22118.html#a0c6c379f5dcbb417d94d8e6315aa49dd", null ],
-    [ "Validate", "d6/ddc/a22118.html#adb477d34d8012c6fb45c5548fc49e127", null ]
+    [ "npc_storm_cloudAI", "db/d17/a22122.html", "db/d17/a22122" ],
+    [ "npc_storm_cloud", "d6/ddc/a22118.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
+    [ "GetAI", "d6/ddc/a22118.html#a952bd1cf5406b989182d8560d8b9e665", null ]
 ];

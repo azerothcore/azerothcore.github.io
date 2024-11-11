@@ -1,5 +1,5 @@
 var a16834 =
 [
-    [ "endPosition", "de/d65/a16834.html#a8a88b0191d28ef6af8f41db627552602", null ],
-    [ "entry", "de/d65/a16834.html#ac4e55af666e269440953ced038c1a8de", null ]
+    [ "achievement_snakes_whyd_it_have_to_be_snakes", "de/d65/a16834.html#a4245e53260b83f77f9b4313e13f1f7d3", null ],
+    [ "OnCheck", "de/d65/a16834.html#a1bc62ef6dbdb98b9ca8ea3f3bfc742b0", null ]
 ];

@@ -1,12 +1,9 @@
 var a22350 =
 [
-    [ "boss_shirrak_the_dead_watcher", "d2/d87/a22350.html#aaa6826de3b6563342b89544b38386d93", null ],
-    [ "EnterEvadeMode", "d2/d87/a22350.html#a23768629c4ab48954880c3c29099f432", null ],
-    [ "getStackCount", "d2/d87/a22350.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
-    [ "JustEngagedWith", "d2/d87/a22350.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
-    [ "JustSummoned", "d2/d87/a22350.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
-    [ "Reset", "d2/d87/a22350.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
-    [ "SpellHitTarget", "d2/d87/a22350.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
-    [ "UpdateAI", "d2/d87/a22350.html#a855505f949f53f979187abcb5b2f617f", null ],
-    [ "focusGUID", "d2/d87/a22350.html#a81a7eade42ef595c173d7828ce59ef88", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "d2/d87/a22350.html#ada5f19c96bfe623b110389ede032ef53", null ],
+    [ "GetData", "d2/d87/a22350.html#ad876ebd581c470f5a3075129076bd1fb", null ],
+    [ "Initialize", "d2/d87/a22350.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
+    [ "OnCreatureCreate", "d2/d87/a22350.html#a118b4a7a7c872327ec2868c5b0417636", null ],
+    [ "OnUnitDeath", "d2/d87/a22350.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
+    [ "_ritualistsAliveCount", "d2/d87/a22350.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
 ];

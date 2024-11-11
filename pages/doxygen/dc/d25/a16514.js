@@ -1,6 +1,6 @@
 var a16514 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d6/dff/a16518.html", "d6/dff/a16518" ],
-    [ "instance_forge_of_souls", "dc/d25/a16514.html#a504896f6e191c87ce77231c4ef267b27", null ],
-    [ "GetInstanceScript", "dc/d25/a16514.html#a64982b527cfa6057315b8e628549480b", null ]
+    [ "npc_hor_lich_kingAI", "d6/dff/a16518.html", "d6/dff/a16518" ],
+    [ "npc_hor_lich_king", "dc/d25/a16514.html#aab2562a7a204699735a89e7a15b3b472", null ],
+    [ "GetAI", "dc/d25/a16514.html#ad670ae69daa742c19c06267399445a11", null ]
 ];

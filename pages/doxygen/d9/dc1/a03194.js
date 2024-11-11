@@ -1,5 +1,4 @@
 var a03194 =
 [
-    [ "WardenInitModuleRequest", "d1/d17/a11218.html", "d1/d17/a11218" ],
-    [ "WardenWin", "d0/d8f/a11222.html", "d0/d8f/a11222" ]
+    [ "ScriptRegistry< PetScript >", "d9/dc1/a03194.html#a24e9b0a598349bf70ac6cf5aa4e30043", null ]
 ];

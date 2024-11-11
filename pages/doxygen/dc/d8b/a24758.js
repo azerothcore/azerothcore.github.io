@@ -1,6 +1,7 @@
 var a24758 =
 [
-    [ "HandleScript", "dc/d8b/a24758.html#aa6104370d5700e43223c7138e941ba05", null ],
-    [ "PrepareSpellScript", "dc/d8b/a24758.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
-    [ "Register", "dc/d8b/a24758.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
+    [ "CalculateAmount", "dc/d8b/a24758.html#a40ba021accd581745f07f2586545853c", null ],
+    [ "Load", "dc/d8b/a24758.html#aa963b658637360305bb5f3d59eb9d061", null ],
+    [ "PrepareAuraScript", "dc/d8b/a24758.html#a8fedbff305709145a7c004787ee50402", null ],
+    [ "Register", "dc/d8b/a24758.html#ade9b6a408a1d5a83bdadd5bd2b0fbb2a", null ]
 ];

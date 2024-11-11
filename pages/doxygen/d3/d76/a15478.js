@@ -1,6 +1,6 @@
 var a15478 =
 [
-    [ "npc_shadowpriest_sezzizAI", "d5/d85/a15482.html", "d5/d85/a15482" ],
-    [ "npc_shadowpriest_sezziz", "d3/d76/a15478.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
-    [ "GetAI", "d3/d76/a15478.html#a1513b766f18dbc290b6682582fd33b1d", null ]
+    [ "HandleApplyAura", "d3/d76/a15478.html#aeddfd61eab5aa077ca07a924ec491285", null ],
+    [ "PrepareSpellScript", "d3/d76/a15478.html#ad53341842455d98722c03318dd80fb94", null ],
+    [ "Register", "d3/d76/a15478.html#a10cb03ba6175f48b0ccaf69ec90e8f50", null ]
 ];

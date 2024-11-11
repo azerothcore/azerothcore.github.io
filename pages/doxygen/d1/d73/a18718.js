@@ -1,7 +1,11 @@
 var a18718 =
 [
-    [ "FilterTargets", "d1/d73/a18718.html#a56ff062a6014099623466145a66284cc", null ],
-    [ "PrepareSpellScript", "d1/d73/a18718.html#aa14623bb948ff457e52979facf74ffab", null ],
-    [ "Register", "d1/d73/a18718.html#a9494bea35088161c9a520395d714fde1", null ],
-    [ "Validate", "d1/d73/a18718.html#a6a02bc1a79a5f4fefe3b1e2900eaf0b4", null ]
+    [ "boss_patchwerkAI", "d1/d73/a18718.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
+    [ "JustDied", "d1/d73/a18718.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
+    [ "JustEngagedWith", "d1/d73/a18718.html#a1317cb819d6247f62e0c6c725157db30", null ],
+    [ "KilledUnit", "d1/d73/a18718.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
+    [ "Reset", "d1/d73/a18718.html#a1d03058bf53e670f4fe9384e9f047891", null ],
+    [ "UpdateAI", "d1/d73/a18718.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
+    [ "events", "d1/d73/a18718.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
+    [ "pInstance", "d1/d73/a18718.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
 ];

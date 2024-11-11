@@ -1,6 +1,7 @@
 var a15978 =
 [
-    [ "npc_toc5_player_vehicleAI", "d9/d96/a15982.html", "d9/d96/a15982" ],
-    [ "npc_toc5_player_vehicle", "d4/d35/a15978.html#a8786627999d3d1681d9de58cd8c46744", null ],
-    [ "GetAI", "d4/d35/a15978.html#af89c559eff828130df821c0c30c61f7a", null ]
+    [ "npc_toc_druidAI", "d4/d35/a15978.html#adb456f1f93be5329174a3199c9092825", null ],
+    [ "myCanCast", "d4/d35/a15978.html#af82baa22ae49ba268f494cb07287845e", null ],
+    [ "UpdateAI", "d4/d35/a15978.html#a82a22a557db647f73690d8838a635eaf", null ],
+    [ "events", "d4/d35/a15978.html#a6bb27baf17f0286db3222287a8073bd7", null ]
 ];

@@ -1,6 +1,6 @@
 var a15766 =
 [
-    [ "SendEncounterUnit", "d5/d66/a15766.html#a5300ba7c1a8001bbf52c56fc2e5dc331", null ],
-    [ "Execute", "d5/d66/a15766.html#ae21b67f8fe8a0677778436563872495f", null ],
-    [ "_owner", "d5/d66/a15766.html#a6e1569fb7fa159fe702defbab1e123b6", null ]
+    [ "HandleHealPct", "d5/d66/a15766.html#ad13b3924815ac3da7902c8292a760943", null ],
+    [ "PrepareSpellScript", "d5/d66/a15766.html#aeea718bce7dd5aa4ac33bbd1a95a65c0", null ],
+    [ "Register", "d5/d66/a15766.html#a3016c31c072d6417bbe47c2891059718", null ]
 ];

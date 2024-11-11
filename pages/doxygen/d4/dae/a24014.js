@@ -1,6 +1,5 @@
 var a24014 =
 [
-    [ "CheckRequirement", "d4/dae/a24014.html#aa53bdc1b4b57150dbebce61ac87d2b88", null ],
-    [ "PrepareSpellScript", "d4/dae/a24014.html#a8e3d6659174d4c920e65f85afb9308b1", null ],
-    [ "Register", "d4/dae/a24014.html#aa4f62292b32347179a5534e4bc0417f8", null ]
+    [ "npc_pet_dk_risen_allyAI", "d4/dae/a24014.html#ac9f42a8f6d87ab65e78d9a3951102705", null ],
+    [ "OnCharmed", "d4/dae/a24014.html#ada01d7ab11b7bf240cad932c96978a06", null ]
 ];

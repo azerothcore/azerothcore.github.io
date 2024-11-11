@@ -1,6 +1,6 @@
 var a17258 =
 [
-    [ "npc_zafod_boomboxAI", "d7/dfc/a17262.html", "d7/dfc/a17262" ],
-    [ "npc_zafod_boombox", "d0/d37/a17258.html#a7124746ed3f25ae6d96a2fa1910d98d0", null ],
-    [ "GetAI", "d0/d37/a17258.html#af80f6913cef53d39cafdcd47b2cd07f0", null ]
+    [ "HandlePeriodicTick", "d0/d37/a17258.html#accfe8a0cea8af9c9474d25fc3e7c7e22", null ],
+    [ "PrepareAuraScript", "d0/d37/a17258.html#a9962029ce4a5223d7aa05068e8d83326", null ],
+    [ "Register", "d0/d37/a17258.html#a64cf56299c8ab5292dbc9cddcee5f841", null ]
 ];

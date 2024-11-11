@@ -1,6 +1,8 @@
 var a18274 =
 [
-    [ "CaptainSurviveTalk", "d3/d96/a18274.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
-    [ "Execute", "d3/d96/a18274.html#a871cf08e8c7fced2971cae8abbc20454", null ],
-    [ "_owner", "d3/d96/a18274.html#ac8de506afb4688560ea637918d07b01e", null ]
+    [ "npc_arthas_teleport_visualAI", "d3/d96/a18274.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
+    [ "Reset", "d3/d96/a18274.html#a27155b8880a2a86b733bcd074e977b59", null ],
+    [ "UpdateAI", "d3/d96/a18274.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
+    [ "_events", "d3/d96/a18274.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
+    [ "_instance", "d3/d96/a18274.html#a25bc023e061a0845421a652b571a6e1e", null ]
 ];

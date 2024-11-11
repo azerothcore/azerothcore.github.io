@@ -1,7 +1,7 @@
 var a16770 =
 [
-    [ "npc_pos_icicle_triggerAI", "d7/d4f/a16770.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
-    [ "UpdateAI", "d7/d4f/a16770.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
-    [ "pInstance", "d7/d4f/a16770.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
-    [ "timer", "d7/d4f/a16770.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
+    [ "HandleDummy", "d7/d4f/a16770.html#a367f4ebd296aa0fd54ff9ef6185a1c92", null ],
+    [ "PrepareSpellScript", "d7/d4f/a16770.html#ab6e33bf137a54c9cd792aefb0ecd2ef1", null ],
+    [ "Register", "d7/d4f/a16770.html#a371073fb37337719115242fc8758026f", null ],
+    [ "Validate", "d7/d4f/a16770.html#ad5df08da54defc89a7a552c39de089c3", null ]
 ];

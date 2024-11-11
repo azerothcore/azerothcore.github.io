@@ -1,41 +1,17 @@
 var a02597 =
 [
-    [ "npc_sergeant_bly", "df/d38/a15454.html", "df/d38/a15454" ],
-    [ "npc_sergeant_bly::npc_sergeant_blyAI", "d5/d33/a15458.html", "d5/d33/a15458" ],
-    [ "go_troll_cage", "d4/d39/a15462.html", "d4/d39/a15462" ],
-    [ "go_troll_cage::go_troll_cageAI", "d7/d5a/a15466.html", "d7/d5a/a15466" ],
-    [ "npc_weegli_blastfuse", "dc/dc8/a15470.html", "dc/dc8/a15470" ],
-    [ "npc_weegli_blastfuse::npc_weegli_blastfuseAI", "de/d0e/a15474.html", "de/d0e/a15474" ],
-    [ "npc_shadowpriest_sezziz", "d3/d76/a15478.html", "d3/d76/a15478" ],
-    [ "npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI", "d5/d85/a15482.html", "d5/d85/a15482" ],
-    [ "GOSSIP_BLY", "de/d94/a02597.html#acf686abbef9b59acbf66095340991aab", null ],
-    [ "GOSSIP_WEEGLI", "de/d94/a02597.html#abd5fb74b4c5971cd2993555c6ac4d1eb", null ],
-    [ "blySays", "de/d94/a02597.html#a0170bb25aee4171b17fd972a5eb000a9", [
-      [ "SAY_1", "de/d94/a02597.html#a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab", null ],
-      [ "SAY_2", "de/d94/a02597.html#a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390", null ]
+    [ "instance_zulgurub", "dd/de1/a13734.html", "dd/de1/a13734" ],
+    [ "instance_zulgurub::instance_zulgurub_InstanceMapScript", "d5/d1e/a13738.html", "d5/d1e/a13738" ],
+    [ "go_brazier_of_madness", "df/dca/a13742.html", "df/dca/a13742" ],
+    [ "EdgeOfMadnessEnum", "de/d94/a02597.html#a45822838f1310b1a812eba191cb3d416", [
+      [ "EVENT_EDGE_OF_MADNESS_GRILEK", "de/d94/a02597.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7", null ],
+      [ "EVENT_EDGE_OF_MADNESS_HAZZARAH", "de/d94/a02597.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4", null ],
+      [ "EVENT_EDGE_OF_MADNESS_RENATAKI", "de/d94/a02597.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d", null ],
+      [ "EVENT_EDGE_OF_MADNESS_WUSHOOLAY", "de/d94/a02597.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073", null ]
     ] ],
-    [ "blySpells", "de/d94/a02597.html#ac73b1b4ffaee22ad6c602a211a9bfccf", [
-      [ "SPELL_BLYS_BAND_ESCAPE", "de/d94/a02597.html#ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83", null ],
-      [ "SPELL_SHIELD_BASH", "de/d94/a02597.html#ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4", null ],
-      [ "SPELL_REVENGE", "de/d94/a02597.html#ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f", null ]
-    ] ],
-    [ "ShadowPriestSezzizEnum", "de/d94/a02597.html#a4e0ee96bd227c57408d323b236131e7d", [
-      [ "SPELL_SHADOW_BOLT", "de/d94/a02597.html#a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413", null ],
-      [ "SPELL_PSYCHIC_SCREEM", "de/d94/a02597.html#a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa", null ],
-      [ "SPELL_RENEW", "de/d94/a02597.html#a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd", null ],
-      [ "SPELL_HEAL", "de/d94/a02597.html#a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7", null ]
-    ] ],
-    [ "weegliSays", "de/d94/a02597.html#a326e8498672fa7a2db9a390d360f7391", [
-      [ "SAY_WEEGLI_OHNO", "de/d94/a02597.html#a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d", null ],
-      [ "SAY_WEEGLI_OK_I_GO", "de/d94/a02597.html#a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea", null ],
-      [ "SAY_WEEGLI_OUT_OF_HERE", "de/d94/a02597.html#a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c", null ]
-    ] ],
-    [ "weegliSpells", "de/d94/a02597.html#aa5d64b9165276a134e188d143807850c", [
-      [ "SPELL_BOMB", "de/d94/a02597.html#aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be", null ],
-      [ "SPELL_GOBLIN_LAND_MINE", "de/d94/a02597.html#aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f", null ],
-      [ "SPELL_SHOOT", "de/d94/a02597.html#aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "SPELL_WEEGLIS_BARREL", "de/d94/a02597.html#aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f", null ]
-    ] ],
-    [ "AddSC_zulfarrak", "de/d94/a02597.html#a43b63d5d69b80ee6283471aacf5c9c87", null ],
-    [ "shadowpriestSezzizAdds", "de/d94/a02597.html#ab3c6a2de23edecc492c7ca4de5c860c7", null ]
+    [ "AddSC_instance_zulgurub", "de/d94/a02597.html#a224e147b1990c0996e0ac61a1865e34c", null ],
+    [ "BrazierOfMadnessContainer", "de/d94/a02597.html#a808ff75d7f4ab6555cdc154544ef727f", null ],
+    [ "creatureData", "de/d94/a02597.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "de/d94/a02597.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "edgeOfMagnessSummonPos", "de/d94/a02597.html#a352683729da59da9923d0f67d510f73c", null ]
 ];

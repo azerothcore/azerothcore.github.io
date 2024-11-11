@@ -1,15 +1,15 @@
 var a17806 =
 [
-    [ "npc_spinestalkerAI", "de/dcb/a17806.html#ad758068ccfc12cead2e3a6b646bea374", null ],
-    [ "DoAction", "de/dcb/a17806.html#a263d897b4c94c71fe6597c0753722ce8", null ],
-    [ "InitializeAI", "de/dcb/a17806.html#ab87abc1a65e48325c31a52517477297b", null ],
-    [ "JustDied", "de/dcb/a17806.html#ada5ab1c21b13acc0aee4e7a4907d76d9", null ],
-    [ "JustReachedHome", "de/dcb/a17806.html#a56e9b760fd28219bee8a3aa604010d07", null ],
-    [ "JustRespawned", "de/dcb/a17806.html#a6ae99a71f8517055acc6e637b54c78d0", null ],
-    [ "MovementInform", "de/dcb/a17806.html#aebb6606d219bd6ee59c01718374576e9", null ],
-    [ "Reset", "de/dcb/a17806.html#a892d973ca4e04138eda70b09e16c9b2a", null ],
-    [ "UpdateAI", "de/dcb/a17806.html#a94ad98a558ed8df7c17f75a0a6c0ec26", null ],
-    [ "_events", "de/dcb/a17806.html#a45d8828fc3324d91387a26c560cf725b", null ],
-    [ "_instance", "de/dcb/a17806.html#a73dfcbf2ea0162cfb69f1ec169f659d4", null ],
-    [ "_summoned", "de/dcb/a17806.html#a324cd480e056750c61318446c97df48d", null ]
+    [ "npc_tirion_fordringAI", "de/dcb/a17806.html#aa0f94cef85e96cda4a2e280eaa7110de", null ],
+    [ "CanAIAttack", "de/dcb/a17806.html#a1bdef323e9c7364fab789abc39ef00a0", null ],
+    [ "DoAction", "de/dcb/a17806.html#a5fd5b3fde84ed04c794546d11fe946d7", null ],
+    [ "EnterEvadeMode", "de/dcb/a17806.html#a1275cee8f49c67920041ad8d50c62aa4", null ],
+    [ "JustReachedHome", "de/dcb/a17806.html#a6e6c7c2f4f8e60126fd4adc42fe3b4f4", null ],
+    [ "MovementInform", "de/dcb/a17806.html#a7284240c4eafbc80748d5e2867a64a9f", null ],
+    [ "Reset", "de/dcb/a17806.html#ac41e569535322bb5907fa4116bbac739", null ],
+    [ "sGossipSelect", "de/dcb/a17806.html#a56599a97f019121160b2f6ac43019772", null ],
+    [ "SpellHit", "de/dcb/a17806.html#ae68b900f87c646cfb3ece5518b59e687", null ],
+    [ "UpdateAI", "de/dcb/a17806.html#a3f729624820266f1cf1e5577c5047c3b", null ],
+    [ "_events", "de/dcb/a17806.html#a7bb0d243cc9b3e836dd99864f2a5e669", null ],
+    [ "_instance", "de/dcb/a17806.html#a223a7f09ae03971487bb55e770503f7e", null ]
 ];

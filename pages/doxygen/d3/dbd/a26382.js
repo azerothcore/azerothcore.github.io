@@ -1,9 +1,10 @@
 var a26382 =
 [
-    [ "Absorb", "d3/dbd/a26382.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
-    [ "CalculateAmount", "d3/dbd/a26382.html#a820c27c2161063307a10903cbbc5c0fa", null ],
-    [ "Load", "d3/dbd/a26382.html#a7b71990051faaa083110408c13b8401f", null ],
-    [ "PrepareAuraScript", "d3/dbd/a26382.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
-    [ "Register", "d3/dbd/a26382.html#aa443ab0eed74229883884fbced0426d7", null ],
-    [ "absorbPct", "d3/dbd/a26382.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
+    [ "CalcPeriodic", "d3/dbd/a26382.html#abd23b7e24d9688dd4b9cbe70cdd45d75", null ],
+    [ "CalculateAmount", "d3/dbd/a26382.html#a55aa6c6a23e4db0f407b86bcf95d3761", null ],
+    [ "HandleEffectCalcSpellMod", "d3/dbd/a26382.html#a8c888218fde2176a3c3b5cb97fdce5de", null ],
+    [ "HandlePeriodic", "d3/dbd/a26382.html#ae2c4de235fc727039a50f1b6ba729422", null ],
+    [ "Load", "d3/dbd/a26382.html#a9e1a5a07db18f6ff238276f9e1c44321", null ],
+    [ "PrepareAuraScript", "d3/dbd/a26382.html#a847c1db1bf92baeba47260ffbacbcdd9", null ],
+    [ "Register", "d3/dbd/a26382.html#a9241ab85d616f4f17c52b3730c5434e1", null ]
 ];

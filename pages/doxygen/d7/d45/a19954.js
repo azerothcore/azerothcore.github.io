@@ -1,7 +1,6 @@
 var a19954 =
 [
-    [ "HandleEffectPeriodic", "d7/d45/a19954.html#a428d1251465cc9947e7474eab83494e3", null ],
-    [ "PrepareAuraScript", "d7/d45/a19954.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
-    [ "Register", "d7/d45/a19954.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
-    [ "Validate", "d7/d45/a19954.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
+    [ "boss_kologarn_armsAI", "d9/d21/a19958.html", "d9/d21/a19958" ],
+    [ "boss_kologarn_arms", "d7/d45/a19954.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
+    [ "GetAI", "d7/d45/a19954.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
 ];

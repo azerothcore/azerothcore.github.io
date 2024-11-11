@@ -1,6 +1,6 @@
 var a26058 =
 [
-    [ "HandleScript", "d4/dfc/a26058.html#ae81570045d4984ee5682a0333b1b142d", null ],
-    [ "PrepareSpellScript", "d4/dfc/a26058.html#acb074781e07961998362349a7616fc4e", null ],
-    [ "Register", "d4/dfc/a26058.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
+    [ "HandleDummy", "d4/dfc/a26058.html#aa530b0e27c9b9ba1978a80fd4a47f68d", null ],
+    [ "PrepareSpellScript", "d4/dfc/a26058.html#a22adac71d2693d17313e506f1d12532f", null ],
+    [ "Register", "d4/dfc/a26058.html#a2680afcbe3d7e95404c614e2f0f93bf4", null ]
 ];

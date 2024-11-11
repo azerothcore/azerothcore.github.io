@@ -1,11 +1,12 @@
 var a17946 =
 [
-    [ "AddMissingStack", "db/d26/a17946.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
-    [ "CheckAura", "db/d26/a17946.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
-    [ "FilterTargets", "db/d26/a17946.html#ab6c86c3680823329d5f3aad985aa316a", null ],
-    [ "Load", "db/d26/a17946.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
-    [ "PrepareSpellScript", "db/d26/a17946.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
-    [ "Register", "db/d26/a17946.html#af0e6f1fc6687de1abcc1689116150088", null ],
-    [ "_hadInitialAura", "db/d26/a17946.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
-    [ "_hadJumpingAura", "db/d26/a17946.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
+    [ "npc_strangulate_vehicleAI", "db/d26/a17946.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
+    [ "DoAction", "db/d26/a17946.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
+    [ "IsHeroic", "db/d26/a17946.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
+    [ "IsSummonedBy", "db/d26/a17946.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
+    [ "OnCharmed", "db/d26/a17946.html#a40e5537897c452d35093920ddd3669b0", null ],
+    [ "PassengerBoarded", "db/d26/a17946.html#a819746e13af95fa964c6da3d765a7c21", null ],
+    [ "UpdateAI", "db/d26/a17946.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
+    [ "_events", "db/d26/a17946.html#a19b493e994d246128f63d9109e87737a", null ],
+    [ "_instance", "db/d26/a17946.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
 ];

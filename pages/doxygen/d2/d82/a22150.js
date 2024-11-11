@@ -1,5 +1,5 @@
 var a22150 =
 [
-    [ "achievement_wg_vehicular_gnomeslaughter", "d2/d82/a22150.html#a441b8db113ef4843f433c1ea3f3052b5", null ],
-    [ "OnCheck", "d2/d82/a22150.html#ab23a2d90e536a3a9ecbb3b64c5b0e18f", null ]
+    [ "OutdoorPvP_grizzly_hills", "d2/d82/a22150.html#aa020d8120c62874fb15b4623bbb714d9", null ],
+    [ "GetOutdoorPvP", "d2/d82/a22150.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
 ];

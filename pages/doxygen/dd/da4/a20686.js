@@ -1,7 +1,6 @@
 var a20686 =
 [
-    [ "HandleScriptEffect", "dd/da4/a20686.html#aae469190c1edc1fe45914bad1dac4e93", null ],
-    [ "PrepareSpellScript", "dd/da4/a20686.html#a1bced7e9364a1abb7b718b6786eada9f", null ],
-    [ "Register", "dd/da4/a20686.html#a97265071f226fbd17c37d432cf9e2350", null ],
-    [ "Validate", "dd/da4/a20686.html#aeec0bdd2e39db2da657247376ddcd195", null ]
+    [ "boss_kelesethAI", "d5/d2f/a20690.html", "d5/d2f/a20690" ],
+    [ "boss_keleseth", "dd/da4/a20686.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
+    [ "GetAI", "dd/da4/a20686.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
 ];

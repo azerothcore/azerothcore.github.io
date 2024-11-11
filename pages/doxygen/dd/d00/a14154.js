@@ -1,4 +1,6 @@
 var a14154 =
 [
-    [ "npc_midsummer_bonfire_despawner", "dd/d00/a14154.html#aacb82b08ec0fef0f53d7e251e010abd8", null ]
+    [ "HandleTriggerSpell", "dd/d00/a14154.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "dd/d00/a14154.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "dd/d00/a14154.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

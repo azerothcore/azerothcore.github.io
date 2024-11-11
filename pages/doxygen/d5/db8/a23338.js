@@ -1,17 +1,16 @@
 var a23338 =
 [
-    [ "boss_magtheridon", "d5/db8/a23338.html#a3d718a101047cd90448577ee520adf5e", null ],
-    [ "DoAction", "d5/db8/a23338.html#a3015fd8503a0da84e7b78c551587f8a3", null ],
-    [ "JustDied", "d5/db8/a23338.html#adca91ab2fbfe88cc79b19aaa4bff74cf", null ],
-    [ "JustEngagedWith", "d5/db8/a23338.html#a93fb4d888ebd6273bca0a128c8303996", null ],
-    [ "KilledUnit", "d5/db8/a23338.html#a42aa45e199f76f567bc7a677f3d3aedf", null ],
-    [ "Reset", "d5/db8/a23338.html#a0999e13f434699bb14c2ef6d2467a043", null ],
-    [ "ScheduleCombatEvents", "d5/db8/a23338.html#ae9b2f0929c2309e6bd57cc1241452d61", null ],
-    [ "UpdateAI", "d5/db8/a23338.html#a656e9595b30d014c54cc456d7f81f657", null ],
-    [ "_castingQuake", "d5/db8/a23338.html#ad1c95705a7018b4eb62cbee6f20fb65a", null ],
-    [ "_channelersKilled", "d5/db8/a23338.html#a305f71322dbe10e12588ebe0c45eff5f", null ],
-    [ "_currentPhase", "d5/db8/a23338.html#a2871d60efe88d3901bad9a4c5249fcfb", null ],
-    [ "_interruptScheduler", "d5/db8/a23338.html#aae56fde097d925bcf58be1d8e6bf50f4", null ],
-    [ "_magReleased", "d5/db8/a23338.html#a6dd4891771771acf5456a129113e864e", null ],
-    [ "_recentlySpoken", "d5/db8/a23338.html#af860281db4d20e3d3b9589657c921a50", null ]
+    [ "npc_millhouse_manastormAI", "d5/db8/a23338.html#ac86df4d5887c4c1b719ce47f00b32995", null ],
+    [ "AttackStart", "d5/db8/a23338.html#a032cc1ad7a07ead4ced3afe99601d94f", null ],
+    [ "DamageTaken", "d5/db8/a23338.html#a30ed336d552596211b3bfc316d223968", null ],
+    [ "InitializeAI", "d5/db8/a23338.html#a7e8f7483b7cf4ba5d87386940e632339", null ],
+    [ "JustDied", "d5/db8/a23338.html#aaa22ed7812600c1670d12d6887d316d6", null ],
+    [ "JustEngagedWith", "d5/db8/a23338.html#a5e643192572f29f954a31b7b949f6525", null ],
+    [ "KilledUnit", "d5/db8/a23338.html#ac3ba302f496d03c171d1d3f4dbf175da", null ],
+    [ "Reset", "d5/db8/a23338.html#a74076048ea382816fa9c98a0d759af46", null ],
+    [ "UpdateAI", "d5/db8/a23338.html#a7dad659c4ba1db0460c23a3dc573eff2", null ],
+    [ "_usedIceblock", "d5/db8/a23338.html#af0ce341df018dafdce89f75fcb9f0063", null ],
+    [ "events", "d5/db8/a23338.html#aa9aadd461e32cf8a65b185d77f62d838", null ],
+    [ "events2", "d5/db8/a23338.html#ac762ce5981457cbcf6ec73236bab2486", null ],
+    [ "instance", "d5/db8/a23338.html#aff28c68ed9575440f5732df855ab4372", null ]
 ];

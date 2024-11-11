@@ -1,5 +1,5 @@
 var a03263 =
 [
-    [ "BattlefieldMgr", "db/dce/a06958.html", "db/dce/a06958" ],
-    [ "sBattlefieldMgr", "dc/dc1/a03263.html#a4545b2a440043037e8dad52c0f644f48", null ]
+    [ "ScriptRegistry< AllItemScript >", "dc/dc1/a03263.html#a0f69164743e657905c670df85e97a29c", null ],
+    [ "ScriptRegistry< ItemScript >", "dc/dc1/a03263.html#a9f258d1e2f9fb6ce144923451b63f995", null ]
 ];

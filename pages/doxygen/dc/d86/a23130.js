@@ -1,6 +1,6 @@
 var a23130 =
 [
-    [ "HandleAfterRemove", "dc/d86/a23130.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "dc/d86/a23130.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "dc/d86/a23130.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "CalculateDamage", "dc/d86/a23130.html#a170fb61e3a7358d42cc6506067fb978a", null ],
+    [ "PrepareSpellScript", "dc/d86/a23130.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
+    [ "Register", "dc/d86/a23130.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
 ];

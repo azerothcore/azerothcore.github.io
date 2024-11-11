@@ -1,7 +1,7 @@
 var a15214 =
 [
-    [ "npc_shenthulAI", "d4/d27/a15218.html", "d4/d27/a15218" ],
-    [ "npc_shenthul", "d5/deb/a15214.html#a77815503c7d9c811fe3821232e308714", null ],
-    [ "GetAI", "d5/deb/a15214.html#a1683f8c89add6270277c59951c74027e", null ],
-    [ "OnQuestAccept", "d5/deb/a15214.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
+    [ "npc_toogaAI", "d4/d27/a15218.html", "d4/d27/a15218" ],
+    [ "npc_tooga", "d5/deb/a15214.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
+    [ "GetAI", "d5/deb/a15214.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
+    [ "OnQuestAccept", "d5/deb/a15214.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
 ];

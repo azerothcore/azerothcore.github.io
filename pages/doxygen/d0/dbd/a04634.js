@@ -1,6 +1,7 @@
 var a04634 =
 [
-    [ "_CRT_SECURE_NO_DEPRECATE", "d0/dbd/a04634.html#a411c46599e926f8cdf49c63957255359", null ],
-    [ "MAINMagic", "d0/dbd/a04634.html#a026039bd50ec58444fa975da328951ec", null ],
-    [ "MPHDMagic", "d0/dbd/a04634.html#aac8041bc8ca704e28f2b3054649b3752", null ]
+    [ "GetCleanAliasName", "d0/dbd/a04634.html#ae187308862c39923e2b843bc9d4c989c", null ],
+    [ "GetDefaultValue", "d0/dbd/a04634.html#a2ea1ae2c2289bdc9068ec9c886d124c8", null ],
+    [ "IsCorrectAlias", "d0/dbd/a04634.html#a56e834d391c0eb5187d3c7dd0dad88b7", null ],
+    [ "IsCorrectFieldType", "d0/dbd/a04634.html#a61bef7957f008e8cd937746ba03feb73", null ]
 ];

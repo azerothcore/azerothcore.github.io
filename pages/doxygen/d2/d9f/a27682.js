@@ -1,7 +1,5 @@
 var a27682 =
 [
-    [ "HandleDummy", "d2/d9f/a27682.html#ab9c732cc91f926331dea6b94c1021801", null ],
-    [ "PrepareSpellScript", "d2/d9f/a27682.html#a80799c42f9f31f49d20d880dd377e3b4", null ],
-    [ "Register", "d2/d9f/a27682.html#ae012e6852f079682fbafc776dec3455b", null ],
-    [ "Validate", "d2/d9f/a27682.html#afc10f1989ae4b9cff7527f2d73180cde", null ]
+    [ "BitIndex", "d2/d9f/a27682.html#a55fdf966aec0ca687cd6074683af6e7f", null ],
+    [ "ItemId", "d2/d9f/a27682.html#a998c1f6dadb823fbba56bb2154396635", null ]
 ];

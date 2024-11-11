@@ -1,6 +1,6 @@
 var a26638 =
 [
-    [ "HandleRemove", "dd/d65/a26638.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
-    [ "PrepareAuraScript", "dd/d65/a26638.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
-    [ "Register", "dd/d65/a26638.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
+    [ "achievement_arena_by_type", "dd/d65/a26638.html#a2042c808304e8ddf1849820491b9f1a3", null ],
+    [ "OnCheck", "dd/d65/a26638.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
+    [ "_arenaType", "dd/d65/a26638.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
 ];

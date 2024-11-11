@@ -1,12 +1,14 @@
 var a03059 =
 [
-    [ "Escort_Waypoint", "d8/d2f/a06122.html", "d8/d2f/a06122" ],
-    [ "npc_escortAI", "dc/d1e/a06126.html", "dc/d1e/a06126" ],
-    [ "DEFAULT_MAX_PLAYER_DISTANCE", "da/d9e/a03059.html#ad23dc39ce2da634e67360fab90e3b9e2", null ],
-    [ "eEscortState", "da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08a", [
-      [ "STATE_ESCORT_NONE", "da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5", null ],
-      [ "STATE_ESCORT_ESCORTING", "da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92", null ],
-      [ "STATE_ESCORT_RETURNING", "da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48", null ],
-      [ "STATE_ESCORT_PAUSED", "da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6", null ]
+    [ "AllMapScript", "db/d43/a09946.html", "db/d43/a09946" ],
+    [ "AllMapHook", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92", [
+      [ "ALLMAPHOOK_ON_PLAYER_ENTER_ALL", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa", null ],
+      [ "ALLMAPHOOK_ON_PLAYER_LEAVE_ALL", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae", null ],
+      [ "ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_INSTANCE", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0", null ],
+      [ "ALLMAPHOOK_ON_CREATE_MAP", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_MAP", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5", null ],
+      [ "ALLMAPHOOK_ON_MAP_UPDATE", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb", null ],
+      [ "ALLMAPHOOK_END", "da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95", null ]
     ] ]
 ];

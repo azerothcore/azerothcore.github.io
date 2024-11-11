@@ -1,5 +1,6 @@
 var a24138 =
 [
-    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/dcf/a24138.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
-    [ "InitializeAI", "d5/dcf/a24138.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
+    [ "PrepareSpellScript", "d5/dcf/a24138.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
+    [ "RecalculateDamage", "d5/dcf/a24138.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
+    [ "Register", "d5/dcf/a24138.html#a834484683d2d782b4f4c027091108172", null ]
 ];

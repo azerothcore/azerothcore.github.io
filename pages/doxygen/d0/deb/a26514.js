@@ -1,6 +1,6 @@
 var a26514 =
 [
-    [ "HandleBanish", "d0/deb/a26514.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
-    [ "PrepareSpellScript", "d0/deb/a26514.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
-    [ "Register", "d0/deb/a26514.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
+    [ "PrepareSpellScript", "d0/deb/a26514.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "d0/deb/a26514.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "d0/deb/a26514.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

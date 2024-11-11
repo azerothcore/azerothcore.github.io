@@ -1,7 +1,7 @@
 var a17398 =
 [
-    [ "DamageGunship", "de/db2/a17398.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
-    [ "PrepareSpellScript", "de/db2/a17398.html#aa698d016ae58d665c081976f20ec0385", null ],
-    [ "Register", "de/db2/a17398.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
-    [ "Validate", "de/db2/a17398.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
+    [ "HandleSpikes", "de/db2/a17398.html#a012d61aacf79b9b1f5b4b5c5c81b5ed4", null ],
+    [ "PrepareSpellScript", "de/db2/a17398.html#a6ffb6454eb4c58a1b66356814c13b659", null ],
+    [ "Register", "de/db2/a17398.html#a893345cf191d084a0f97a8464b7d381a", null ],
+    [ "Validate", "de/db2/a17398.html#aa6545760706d8695aefd4064c3c71c6b", null ]
 ];

@@ -1,6 +1,7 @@
 var a17602 =
 [
-    [ "HandleScript", "d8/dd6/a17602.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
-    [ "PrepareSpellScript", "d8/dd6/a17602.html#a50560d754709e6b9ec6863142c1ffce3", null ],
-    [ "Register", "d8/dd6/a17602.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
+    [ "FrostwyrmLandEvent", "d8/dd6/a17602.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
+    [ "Execute", "d8/dd6/a17602.html#a4da77796a223e6233ac6d908f7700623", null ],
+    [ "_dest", "d8/dd6/a17602.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
+    [ "_owner", "d8/dd6/a17602.html#a6336050092606ebb27a180abff55dfa2", null ]
 ];

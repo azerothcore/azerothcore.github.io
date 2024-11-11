@@ -1,7 +1,7 @@
 var a23082 =
 [
-    [ "HandleProc", "d1/d23/a23082.html#a03b2be5894d489a6021aff2744aee0e0", null ],
-    [ "PrepareAuraScript", "d1/d23/a23082.html#a0ff401cd6d8e32ff458b7383b76a92a1", null ],
-    [ "Register", "d1/d23/a23082.html#a804e1bc3d570d28cb2e06155054f3169", null ],
-    [ "Validate", "d1/d23/a23082.html#a8d18e9ed9fa851f1c4d36c1f0bed8fcb", null ]
+    [ "HandleScript", "d1/d23/a23082.html#a42052a416290a54d5479a402de578a73", null ],
+    [ "PrepareSpellScript", "d1/d23/a23082.html#a5f6aa972879b65c0207e47435d436a33", null ],
+    [ "Register", "d1/d23/a23082.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
+    [ "Validate", "d1/d23/a23082.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
 ];

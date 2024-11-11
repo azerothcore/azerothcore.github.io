@@ -1,9 +1,6 @@
 var a26234 =
 [
-    [ "HandleKnockBack", "d3/dd4/a26234.html#acaa8f445874270f34ea5b42a506671db", null ],
-    [ "HandleScript", "d3/dd4/a26234.html#a29e47298601cb55c5442a3fa59bb3646", null ],
-    [ "Load", "d3/dd4/a26234.html#a45700aba665b601b2c860af5a869d1af", null ],
-    [ "PrepareSpellScript", "d3/dd4/a26234.html#aad1c175a2611152278d847ac59f93090", null ],
-    [ "Register", "d3/dd4/a26234.html#ad790d435f422fabd128e601fb2dff103", null ],
-    [ "Validate", "d3/dd4/a26234.html#a889a129ddc3ea6fcd7f440fc7c163e08", null ]
+    [ "CheckCast", "d3/dd4/a26234.html#a97f479cccecc6f37c75b47122b47e333", null ],
+    [ "PrepareSpellScript", "d3/dd4/a26234.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
+    [ "Register", "d3/dd4/a26234.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
 ];

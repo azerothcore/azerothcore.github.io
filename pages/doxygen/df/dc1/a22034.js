@@ -1,9 +1,6 @@
 var a22034 =
 [
-    [ "npc_brunnhildar_prisonerAI", "df/dc1/a22034.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
-    [ "JustRespawned", "df/dc1/a22034.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
-    [ "Reset", "df/dc1/a22034.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
-    [ "SpellHit", "df/dc1/a22034.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
-    [ "UpdateAI", "df/dc1/a22034.html#a0702d4cf577ac00688a7b93bfe656952", null ],
-    [ "freed", "df/dc1/a22034.html#a46e03a19bac91a800154e3c873235800", null ]
+    [ "HandlePeriodicDummy", "df/dc1/a22034.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
+    [ "PrepareAuraScript", "df/dc1/a22034.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
+    [ "Register", "df/dc1/a22034.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
 ];

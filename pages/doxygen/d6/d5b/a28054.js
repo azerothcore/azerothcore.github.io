@@ -1,10 +1,7 @@
 var a28054 =
 [
-    [ "attackSpeed", "d6/d5b/a28054.html#ab5242f7367e8799a556176178c72fc88", null ],
-    [ "creatureType", "d6/d5b/a28054.html#a3dff9074b85261932ed8a8a550c5395b", null ],
-    [ "flags1", "d6/d5b/a28054.html#a026745f2ce754d754858d69ee219b518", null ],
-    [ "ID", "d6/d5b/a28054.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
-    [ "modelID_A", "d6/d5b/a28054.html#a86dfa61342583d920b7d8496bce4b49d", null ],
-    [ "modelID_H", "d6/d5b/a28054.html#a1ee597d6fd02507b682874929645e01d", null ],
-    [ "stanceSpell", "d6/d5b/a28054.html#a08f54b905e905fb5a59e449f8c613c08", null ]
+    [ "~ByteBufferException", "d6/d5b/a28054.html#a0ab73f9061c040127f70dbfc9a176509", null ],
+    [ "message", "d6/d5b/a28054.html#ab1a64d8fc18565a04c347de29184f68c", null ],
+    [ "what", "d6/d5b/a28054.html#a87896f7ab19f3032937f5f84e8cf440a", null ],
+    [ "msg_", "d6/d5b/a28054.html#a314bdbb7063219f8256df894602e6b02", null ]
 ];

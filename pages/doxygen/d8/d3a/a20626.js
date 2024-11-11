@@ -1,6 +1,8 @@
 var a20626 =
 [
-    [ "boss_yoggsaron_voiceAI", "d4/dbd/a20630.html", "d4/dbd/a20630" ],
-    [ "boss_yoggsaron_voice", "d8/d3a/a20626.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
-    [ "GetAI", "d8/d3a/a20626.html#a50abcde0313df06a114a2f5f44a1d481", null ]
+    [ "npc_ulduar_keeperAI", "d4/dbd/a20630.html", "d4/dbd/a20630" ],
+    [ "npc_ulduar_keeper", "d8/d3a/a20626.html#a252b781061a2e21dc961ea94f7120d59", null ],
+    [ "GetAI", "d8/d3a/a20626.html#ad0c0f5d3786e3f3b3394a599f3ee6256", null ],
+    [ "OnGossipHello", "d8/d3a/a20626.html#a4db12efd22c7d2a5f18144fd16543230", null ],
+    [ "OnGossipSelect", "d8/d3a/a20626.html#acf8681577117107d16d45705e4b8463f", null ]
 ];

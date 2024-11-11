@@ -1,6 +1,6 @@
 var a21234 =
 [
-    [ "npc_violet_hold_defense_system", "d8/df3/a21234.html#abb5eb275e803201aad3010ad77aa4b41", null ],
-    [ "Reset", "d8/df3/a21234.html#a77925ae6097f7a52d446ee20bbb3de62", null ],
-    [ "UpdateAI", "d8/df3/a21234.html#ab39bc3da2d7ce33be1e27cd48fc16e89", null ]
+    [ "npc_hidden_cultistAI", "dd/d92/a21238.html", "dd/d92/a21238" ],
+    [ "npc_hidden_cultist", "d8/df3/a21234.html#ab455b35fea966360e01fb8975adad989", null ],
+    [ "GetAI", "d8/df3/a21234.html#a4897006d9416f1177b0bc0e41df60293", null ]
 ];

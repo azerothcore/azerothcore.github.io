@@ -1,6 +1,6 @@
 var a13834 =
 [
-    [ "boss_wushoolayAI", "dd/dab/a13834.html#a2ea62154c0932e5cd34bd4b858829ffe", null ],
-    [ "JustEngagedWith", "dd/dab/a13834.html#af519da543fff63a39a6fbe48f90f2f22", null ],
-    [ "UpdateAI", "dd/dab/a13834.html#acfaacee2a97212eb15056c1552b9e06b", null ]
+    [ "npc_direbrew_antagonist", "dd/dab/a13834.html#a30fed4e6888d98af576dea8e13c510d3", null ],
+    [ "DoAction", "dd/dab/a13834.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
+    [ "JustEngagedWith", "dd/dab/a13834.html#aaf54b03d66d726901c289ff28d362787", null ]
 ];

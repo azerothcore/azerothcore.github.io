@@ -1,9 +1,12 @@
 var a19038 =
 [
-    [ "HandleApply", "d1/d00/a19038.html#a29679ed64fc288dc0e85beed2971d4be", null ],
-    [ "HandleRemove", "d1/d00/a19038.html#a1f1c3e0ea24174605a7be8fa02e30518", null ],
-    [ "Load", "d1/d00/a19038.html#a0b5d70a7a9bf27696295ccbbffd2a8b9", null ],
-    [ "PrepareAuraScript", "d1/d00/a19038.html#a2804f25643e59f3922291abcb055b641", null ],
-    [ "Register", "d1/d00/a19038.html#a711b5744770d0c9fb5aacb550f2384fa", null ],
-    [ "Validate", "d1/d00/a19038.html#aa239a693db5fa38ac260a37b25e0e6d9", null ]
+    [ "npc_oculus_drakeAI", "d1/d00/a19038.html#a214d9b77a5653f1a5f60106081eaf683", null ],
+    [ "IsSummonedBy", "d1/d00/a19038.html#a151e59f7b6032d5ed62f9f0ed2923f40", null ],
+    [ "MovementInform", "d1/d00/a19038.html#a5f6de11b9cd3c0d6593d7d249cb59555", null ],
+    [ "PassengerBoarded", "d1/d00/a19038.html#a5efc6f166b5fd77fa329b17e1e143379", null ],
+    [ "SpellHitTarget", "d1/d00/a19038.html#aebb8fb75777d7fc3ddc69dc558b08f7e", null ],
+    [ "UpdateAI", "d1/d00/a19038.html#a8ecaebfcf1c1fbe8ed263be6148ccef6", null ],
+    [ "despawnTimer", "d1/d00/a19038.html#a560dc0936a78267a4036b209c6718732", null ],
+    [ "JustSummoned", "d1/d00/a19038.html#a8b656a464525e881944e72e9486b0eb9", null ],
+    [ "m_pInstance", "d1/d00/a19038.html#a4df6c06ec857086f7a2747cab2c4703c", null ]
 ];

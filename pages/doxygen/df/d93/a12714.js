@@ -1,16 +1,6 @@
 var a12714 =
 [
-    [ "boss_high_inquisitor_whitemaneAI", "df/d93/a12714.html#a6040dc7c76f412e5ad8c5380ae7c0c45", null ],
-    [ "DamageTaken", "df/d93/a12714.html#a267f6ecde5d915f490adb10f7fbf016f", null ],
-    [ "JustEngagedWith", "df/d93/a12714.html#a10e5697a96064d39caaae0ea2bf3f802", null ],
-    [ "JustReachedHome", "df/d93/a12714.html#aaf19e27d7ae94ebeb27d653c177dedcb", null ],
-    [ "KilledUnit", "df/d93/a12714.html#a7cf5eef4aa4b2a0ed8095befd64e17d0", null ],
-    [ "Reset", "df/d93/a12714.html#abae3b2903800eeb072358f8904dc4f3f", null ],
-    [ "UpdateAI", "df/d93/a12714.html#a047bcf3557ca45eed5aea8614bebe190", null ],
-    [ "canResurrect", "df/d93/a12714.html#a9fc35ca56d2a7f0b1def6bf636dc4399", null ],
-    [ "canResurrectCheck", "df/d93/a12714.html#a12dde2e25f5deeb31bfed3c7db230962", null ],
-    [ "events", "df/d93/a12714.html#aca708990da11da33ce8b97c53c1307e1", null ],
-    [ "Heal_Timer", "df/d93/a12714.html#a0451b9ce74fb96a1a0a6935faf0171d1", null ],
-    [ "instance", "df/d93/a12714.html#aa56d60c038bef7f1b1d42b84edb256bc", null ],
-    [ "Wait_Timer", "df/d93/a12714.html#a5e120b449199bdcb7a31fe51cdb1e62f", null ]
+    [ "npc_fairbanksAI", "da/d4f/a12718.html", "da/d4f/a12718" ],
+    [ "npc_fairbanks", "df/d93/a12714.html#a7f4740bb99ce2ccc059bcb5b02057082", null ],
+    [ "GetAI", "df/d93/a12714.html#a58f4c8c8ca0a2d9696bf443aeeb00f95", null ]
 ];

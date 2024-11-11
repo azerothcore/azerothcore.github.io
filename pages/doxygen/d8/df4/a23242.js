@@ -1,11 +1,8 @@
 var a23242 =
 [
-    [ "boss_high_king_maulgar", "d8/df4/a23242.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
-    [ "DoAction", "d8/df4/a23242.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
-    [ "JustDied", "d8/df4/a23242.html#ad235febd755745313b72394c633c3723", null ],
-    [ "JustEngagedWith", "d8/df4/a23242.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
-    [ "KilledUnit", "d8/df4/a23242.html#a2059016597039929103c053d6524ebf7", null ],
-    [ "Reset", "d8/df4/a23242.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
-    [ "UpdateAI", "d8/df4/a23242.html#ae540909dbbb3cf93e37503cd755c3001", null ],
-    [ "_recentlySpoken", "d8/df4/a23242.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
+    [ "HandleDummyApply", "d8/df4/a23242.html#ae60ce9cdd5d68f3fd16af54acc3d6603", null ],
+    [ "HandleDummyRemove", "d8/df4/a23242.html#a368376fe4262815b9b9a9811178cec6d", null ],
+    [ "HandlePeriodicRemove", "d8/df4/a23242.html#a02a350060a9ce54be88c0ad62eac11d3", null ],
+    [ "PrepareAuraScript", "d8/df4/a23242.html#a30a7b07fc37d13f9b3a96e95940410c1", null ],
+    [ "Register", "d8/df4/a23242.html#afeb47a40cfea3d958fee7a410e83857f", null ]
 ];

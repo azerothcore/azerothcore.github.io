@@ -1,6 +1,6 @@
 var a21086 =
 [
-    [ "boss_lavanthorAI", "da/d80/a21090.html", "da/d80/a21090" ],
-    [ "boss_lavanthor", "d1/dc7/a21086.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "d1/dc7/a21086.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "npc_azure_stalkerAI", "da/d80/a21090.html", "da/d80/a21090" ],
+    [ "npc_azure_stalker", "d1/dc7/a21086.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
+    [ "GetAI", "d1/dc7/a21086.html#a1c067809f98a4d7845d2fb4269742274", null ]
 ];

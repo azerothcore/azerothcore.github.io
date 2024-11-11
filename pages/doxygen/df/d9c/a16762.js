@@ -1,11 +1,10 @@
 var a16762 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "df/d9c/a16762.html#a51769d22a4cb448fae90d827e2494581", null ],
-    [ "MovementInform", "df/d9c/a16762.html#ac0d1550855988fe6f562e8a0a6ada80f", null ],
-    [ "SetData", "df/d9c/a16762.html#a8f8bbb06c50215c90cf11ddbc925ba5d", null ],
-    [ "UpdateAI", "df/d9c/a16762.html#a6c4d82c46547bbb2f86dd7f9fa88c743", null ],
-    [ "deathbringerGUID", "df/d9c/a16762.html#a21ea8c66374403d0eca83e4d24c80a7a", null ],
-    [ "events", "df/d9c/a16762.html#a317d48c75a93ef5abaa3329ab10a1c8e", null ],
-    [ "killsLeft", "df/d9c/a16762.html#ac81d85e0ceb0b571373f44475baa36df", null ],
-    [ "pInstance", "df/d9c/a16762.html#a44460335986bcedf35dc295c242df6da", null ]
+    [ "npc_living_mojoAI", "df/d9c/a16762.html#ab0e6dd5db0c358ff4fefc4797a622b8c", null ],
+    [ "AttackStart", "df/d9c/a16762.html#ad3f73a040176cd804f9715141063d176", null ],
+    [ "DoAction", "df/d9c/a16762.html#a9d942e99f358a7488d473969ab461d6f", null ],
+    [ "MoveInLineOfSight", "df/d9c/a16762.html#a7981568666269e25580ae839f1f97f09", null ],
+    [ "Reset", "df/d9c/a16762.html#a139df1207438dbd3793a2fbc58c2396c", null ],
+    [ "UpdateAI", "df/d9c/a16762.html#a418d7eee72f0a8506357eee3f1fbaf6c", null ],
+    [ "events", "df/d9c/a16762.html#acc7fd42cf4ea4b0203ad7ba4f775e3f2", null ]
 ];

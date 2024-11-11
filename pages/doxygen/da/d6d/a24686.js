@@ -1,6 +1,7 @@
 var a24686 =
 [
-    [ "CheckLevel", "da/d6d/a24686.html#a9c0f4404275b274bd8af7be621eaa5b9", null ],
-    [ "PrepareSpellScript", "da/d6d/a24686.html#abc2bcce83810661ab462f56594066df3", null ],
-    [ "Register", "da/d6d/a24686.html#add6731563bd9a26d8f286bd29ffc8709", null ]
+    [ "HandleScript", "da/d6d/a24686.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
+    [ "PrepareSpellScript", "da/d6d/a24686.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
+    [ "Register", "da/d6d/a24686.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
+    [ "Validate", "da/d6d/a24686.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
 ];

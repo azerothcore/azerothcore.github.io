@@ -1,16 +1,11 @@
 var a16698 =
 [
-    [ "boss_ickAI", "db/dcc/a16698.html#a72c90af745b63202edc36b84b3f4df12", null ],
-    [ "CanAIAttack", "db/dcc/a16698.html#afa3a7ef19f014ed9c46be4a3adc83aa3", null ],
-    [ "DamageTaken", "db/dcc/a16698.html#a96d39b533a96503d59c41c9e7cdd4ac4", null ],
-    [ "GetKrick", "db/dcc/a16698.html#a2d6192f314e76886204c7248d141260a", null ],
-    [ "JustDied", "db/dcc/a16698.html#afd7752ee19dcc6be0b28181bb4485146", null ],
-    [ "JustEngagedWith", "db/dcc/a16698.html#a27598604e65417225acd41d6f05cc717", null ],
-    [ "JustSummoned", "db/dcc/a16698.html#abf700d993e1cfaa0cc64d90903bfa842", null ],
-    [ "KilledUnit", "db/dcc/a16698.html#a618c4e704d9a90d8bf4fac2d22bda6b3", null ],
-    [ "Reset", "db/dcc/a16698.html#a9ba668208cda4dd33fd4eacb04476e2e", null ],
-    [ "SpellHitTarget", "db/dcc/a16698.html#a5d90395d45509f8aeb244f4a4743d07d", null ],
-    [ "UpdateAI", "db/dcc/a16698.html#a74bd63ac9558ecec52affaa7440360a1", null ],
-    [ "events", "db/dcc/a16698.html#aab514bb5f930d9eb545a279181632796", null ],
-    [ "pInstance", "db/dcc/a16698.html#a1ad5a6809ffe750a5538dc650a437b81", null ]
+    [ "npc_pos_leader_secondAI", "db/dcc/a16698.html#a2ded8591da2548921cd016d592d1f1c8", null ],
+    [ "DoAction", "db/dcc/a16698.html#a941d3b42d6a0e58496b724af56fee44a", null ],
+    [ "MovementInform", "db/dcc/a16698.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
+    [ "SpellHitTarget", "db/dcc/a16698.html#ae630b7b225379831d15a11f66507bc6a", null ],
+    [ "UpdateAI", "db/dcc/a16698.html#a640aea9ce4a47dd13d417748e533fc33", null ],
+    [ "barrierGUID", "db/dcc/a16698.html#a452c096475581c12bf2f4ccb12448026", null ],
+    [ "events", "db/dcc/a16698.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
+    [ "pInstance", "db/dcc/a16698.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
 ];

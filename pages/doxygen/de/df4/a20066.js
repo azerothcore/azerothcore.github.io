@@ -1,6 +1,6 @@
 var a20066 =
 [
-    [ "boss_kologarn_eyebeamAI", "dc/dc1/a20070.html", "dc/dc1/a20070" ],
-    [ "boss_kologarn_eyebeam", "de/df4/a20066.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
-    [ "GetAI", "de/df4/a20066.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
+    [ "npc_ulduar_bot_summon_triggerAI", "dc/dc1/a20070.html", "dc/dc1/a20070" ],
+    [ "npc_ulduar_bot_summon_trigger", "de/df4/a20066.html#a7a369b4826c6c2a86704088f5dcf1ce7", null ],
+    [ "GetAI", "de/df4/a20066.html#a0d7f74fc910c5adcaaa46a9d2ea10ea3", null ]
 ];

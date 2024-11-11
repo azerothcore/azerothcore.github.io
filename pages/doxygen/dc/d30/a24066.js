@@ -1,7 +1,10 @@
 var a24066 =
 [
-    [ "HandlePeriodic", "dc/d30/a24066.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
-    [ "PrepareAuraScript", "dc/d30/a24066.html#a58dc6668172d046cef3046649928c124", null ],
-    [ "Register", "dc/d30/a24066.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
-    [ "Validate", "dc/d30/a24066.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
+    [ "npc_pet_gen_imp_in_a_bottle", "dc/d30/a24066.html#aa32b7770c2719d77d46fcf6d22989284", null ],
+    [ "InitializeAI", "dc/d30/a24066.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
+    [ "UpdateAI", "dc/d30/a24066.html#a453ec855bb21a30cb72b540ff8f77035", null ],
+    [ "_data", "dc/d30/a24066.html#a982ec923536c2c33353a3673aa425b6a", null ],
+    [ "_hasParty", "dc/d30/a24066.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
+    [ "_ownerGUID", "dc/d30/a24066.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
+    [ "_talkTimer", "dc/d30/a24066.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
 ];

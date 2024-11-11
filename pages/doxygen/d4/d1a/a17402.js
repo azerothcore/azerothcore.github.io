@@ -1,7 +1,6 @@
 var a17402 =
 [
-    [ "PrepareSpellScript", "d4/d1a/a17402.html#a21bd67c024c5dcfb8496778f67eb48eb", null ],
-    [ "Register", "d4/d1a/a17402.html#aff4f05a5a4742a408646000b7cece38c", null ],
-    [ "RemovePassengers", "d4/d1a/a17402.html#a77c63e85233e2ef14bf06c82ad27c4b2", null ],
-    [ "Validate", "d4/d1a/a17402.html#a2a8da9d150804f979f2313f623ad7760", null ]
+    [ "HandleScriptEffect", "d4/d1a/a17402.html#ac6017cbe86b328aef00f707051c67e5f", null ],
+    [ "PrepareSpellScript", "d4/d1a/a17402.html#a3e21794652b0ffea67571f9b294b4961", null ],
+    [ "Register", "d4/d1a/a17402.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
 ];

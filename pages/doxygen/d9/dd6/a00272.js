@@ -1,4 +1,5 @@
 var a00272 =
 [
-    [ "Acore::Crypto::ARC4", "d8/d5f/a05046.html", "d8/d5f/a05046" ]
+    [ "Acore::IteratorPair< iterator >", "dd/d9e/a05378.html", "dd/d9e/a05378" ],
+    [ "MapEqualRange", "d9/dd6/a00272.html#a8700eb31c04be5cf6c6ecc86e76cadad", null ]
 ];

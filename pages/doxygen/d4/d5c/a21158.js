@@ -1,6 +1,6 @@
 var a21158 =
 [
-    [ "npc_azure_invaderAI", "d5/d0e/a21162.html", "d5/d0e/a21162" ],
-    [ "npc_azure_invader", "d4/d5c/a21158.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
-    [ "GetAI", "d4/d5c/a21158.html#a19c000084ea74a401ece81ee0e20b65c", null ]
+    [ "npc_nerubar_victimAI", "d5/d0e/a21162.html", "d5/d0e/a21162" ],
+    [ "npc_nerubar_victim", "d4/d5c/a21158.html#a4fe80597d3e56776f0f04965fc706097", null ],
+    [ "GetAI", "d4/d5c/a21158.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
 ];

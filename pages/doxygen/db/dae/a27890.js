@@ -1,12 +1,18 @@
 var a27890 =
 [
-    [ "CalendarFilterType", "db/dae/a27890.html#a082b59a0ead8223e590cbb371f3ad122", null ],
-    [ "CalendarFlags", "db/dae/a27890.html#a6f9cf483200ac982bab7a66ff8bef33d", null ],
-    [ "Date", "db/dae/a27890.html#ac5b08b086ef0668508ea9da48642e95b", null ],
-    [ "Duration", "db/dae/a27890.html#a10cae1b1fbb91930209a714c545b129b", null ],
-    [ "Id", "db/dae/a27890.html#a1119824959b87fb312209a998a5869b1", null ],
-    [ "Looping", "db/dae/a27890.html#afa2d93998650f88e62bfa76807961274", null ],
-    [ "Priority", "db/dae/a27890.html#a6d82bc7a66d227f61c3be2260a3d03f5", null ],
-    [ "Region", "db/dae/a27890.html#a96a8e5ceae0f4b0d8cc6cf3aa59802a0", null ],
-    [ "TextureFilename", "db/dae/a27890.html#a2209ecbb78f1f467491506cc97df57e4", null ]
+    [ "getArmorMod", "db/dae/a27890.html#a0e56e757faf660cabe0ba4316ee17f12", null ],
+    [ "getDPSMod", "db/dae/a27890.html#aa0718862ebfeea92ad299e04c9c622c8", null ],
+    [ "getFeralBonus", "db/dae/a27890.html#aa54c3d1add4a1b982c05138f876fd138", null ],
+    [ "getSpellBonus", "db/dae/a27890.html#aba240e0c9f81ca7d5f17d3631410a7b3", null ],
+    [ "getssdMultiplier", "db/dae/a27890.html#ab0fbc14e59c3a387b21d3f4a825d3b36", null ],
+    [ "IsTwoHand", "db/dae/a27890.html#ac83356dba956bfb0aa0a0fb0d976b60e", null ],
+    [ "armorMod", "db/dae/a27890.html#a742f8447dca5961fb39e50de8233fa86", null ],
+    [ "armorMod2", "db/dae/a27890.html#a36dba32ea7febb8dab627fa992de878b", null ],
+    [ "dpsMod", "db/dae/a27890.html#ace956cab0056bcf0e116ac0884ad3575", null ],
+    [ "Id", "db/dae/a27890.html#aebc75b8f80cb210b6af081077bd88e85", null ],
+    [ "Level", "db/dae/a27890.html#a5758f5152401efde26edf3110c0d11e2", null ],
+    [ "spellPower", "db/dae/a27890.html#a03804cca02fd1146dffb762bcd1274f8", null ],
+    [ "ssdMultiplier", "db/dae/a27890.html#a7559b9045268d8050372153c8c976946", null ],
+    [ "ssdMultiplier2", "db/dae/a27890.html#a57cdfb5465ced673edeb8c35bd7a3535", null ],
+    [ "ssdMultiplier3", "db/dae/a27890.html#ae78f00d5ed42704a4093b5df939498d7", null ]
 ];

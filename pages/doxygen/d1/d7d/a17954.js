@@ -1,7 +1,11 @@
 var a17954 =
 [
-    [ "OnRemove", "d1/d7d/a17954.html#a106935d92ef6ba7909c57264e26b5522", null ],
-    [ "PrepareAuraScript", "d1/d7d/a17954.html#a8ce8f5d4ebd4279fdfd192ba3b01b894", null ],
-    [ "Register", "d1/d7d/a17954.html#a095e7530a0f2e7a76dc8bd3f75759089", null ],
-    [ "Validate", "d1/d7d/a17954.html#a0b4283bdb19a4ceef505aab41c99abe8", null ]
+    [ "npc_terenas_menethilAI", "d1/d7d/a17954.html#aa2e95b96928b033ef374843ad1fb9f3c", null ],
+    [ "CanAIAttack", "d1/d7d/a17954.html#a1414da7f20e0f93486eb77c9b9450fa9", null ],
+    [ "DamageTaken", "d1/d7d/a17954.html#ae62a6f965ffb11d633190f1ca4122bc9", null ],
+    [ "DoAction", "d1/d7d/a17954.html#a4f261b19a7a8676dfd6d76d428a4f1b1", null ],
+    [ "EnterEvadeMode", "d1/d7d/a17954.html#ada5313b34e8c20c82ac97396e54e27df", null ],
+    [ "UpdateAI", "d1/d7d/a17954.html#a6210ca6e5e954d5c66d2108359efc888", null ],
+    [ "_events", "d1/d7d/a17954.html#ae61e4919b99a2b9195a389992947a125", null ],
+    [ "_instance", "d1/d7d/a17954.html#a60aae54e5e54526ba12a9468a3f45c88", null ]
 ];

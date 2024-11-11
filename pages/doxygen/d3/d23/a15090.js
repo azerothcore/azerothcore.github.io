@@ -1,10 +1,17 @@
 var a15090 =
 [
-    [ "npc_rabid_thistle_bearAI", "d3/d23/a15090.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
-    [ "Initialize", "d3/d23/a15090.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
-    [ "Reset", "d3/d23/a15090.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
-    [ "SpellHit", "d3/d23/a15090.html#a62bde5a122748564cc806046bf9dcbaa", null ],
-    [ "UpdateAI", "d3/d23/a15090.html#a8f6c5b873756a58760b2861bc8b86804", null ],
-    [ "_events", "d3/d23/a15090.html#ad3852bf4588c453642e75fcdc544767b", null ],
-    [ "_playerGUID", "d3/d23/a15090.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
+    [ "npc_clintar_spiritAI", "d3/d23/a15090.html#ab64c9da6af7246e1665a5264a26d75ab", null ],
+    [ "EnterEvadeMode", "d3/d23/a15090.html#a2ccffe81e2bd7cddcab10746bc9311bf", null ],
+    [ "IsSummonedBy", "d3/d23/a15090.html#af55bc32b17bfd45968e668c5591325ae", null ],
+    [ "JustDied", "d3/d23/a15090.html#a4e90511d9daf0545f0fee471f3ab0d5e", null ],
+    [ "Reset", "d3/d23/a15090.html#afd59b5e50deb65f7175138272f439740", null ],
+    [ "StartEvent", "d3/d23/a15090.html#ae3bbfd8374bf667d4eeb26e047ee2186", null ],
+    [ "UpdateAI", "d3/d23/a15090.html#a4b780f14cb2aa08c06e39a58501a21fe", null ],
+    [ "WaypointReached", "d3/d23/a15090.html#a98315f3202daaac261a1e7f0222b01c5", null ],
+    [ "checkPlayerTimer", "d3/d23/a15090.html#a10165a369bb8a7775050ae425cb94123", null ],
+    [ "CurrWP", "d3/d23/a15090.html#ae3b4588a2dfd337ffc71456652fa136f", null ],
+    [ "EventOnWait", "d3/d23/a15090.html#a7473dff3417d3e7510bc4fb7acbeb494", null ],
+    [ "EventTimer", "d3/d23/a15090.html#a27b0a90757df63df276b1e26bfbaba83", null ],
+    [ "PlayerGUID", "d3/d23/a15090.html#ad721852353215d46bc623efca358981f", null ],
+    [ "Step", "d3/d23/a15090.html#af9b65e2de0dcce5844fbc642b32f5a3f", null ]
 ];

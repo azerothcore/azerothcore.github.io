@@ -1,7 +1,8 @@
 var a15050 =
 [
-    [ "HandleEffectRemove", "d2/d7f/a15050.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
-    [ "PrepareAuraScript", "d2/d7f/a15050.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
-    [ "Register", "d2/d7f/a15050.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
-    [ "AuraEffectHandleModes", "d2/d7f/a15050.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
+    [ "CheckRequirement", "d2/d7f/a15050.html#ae2b5e9accd0df2cc99e976eaab2d3f35", null ],
+    [ "HandleDummy", "d2/d7f/a15050.html#a6d2c75ad53f0e0f7be2df037f385d686", null ],
+    [ "PrepareSpellScript", "d2/d7f/a15050.html#a5b0a5f957a7b996cbe6b219a9803069e", null ],
+    [ "Register", "d2/d7f/a15050.html#a46f4aec6f7786d0abc8ded21ef16e6f6", null ],
+    [ "Validate", "d2/d7f/a15050.html#ab3f8d94f3b8d44e668743cb821430a92", null ]
 ];

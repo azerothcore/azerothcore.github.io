@@ -1,6 +1,6 @@
 var a19174 =
 [
-    [ "HandleEffectCalcAmount", "d0/d2e/a19174.html#afa50ce616d36dd59c7195209074d6182", null ],
-    [ "PrepareAuraScript", "d0/d2e/a19174.html#a4638b99dac7653f13d59c3928a78b3b9", null ],
-    [ "Register", "d0/d2e/a19174.html#a691d5a99eec9e367c518d0244f25bd41", null ]
+    [ "boss_krystallusAI", "d7/de0/a19178.html", "d7/de0/a19178" ],
+    [ "boss_krystallus", "d0/d2e/a19174.html#a1d7453c9d67594bfdbd650fea897666a", null ],
+    [ "GetAI", "d0/d2e/a19174.html#aba14bcfa00a5d997959abd94af647bf4", null ]
 ];

@@ -1,6 +1,6 @@
 var a19886 =
 [
-    [ "boss_hodirAI", "db/dee/a19890.html", "db/dee/a19890" ],
-    [ "boss_hodir", "d3/d0f/a19886.html#a5740f489f57380d2633a8ee5a18de339", null ],
-    [ "GetAI", "d3/d0f/a19886.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
+    [ "HandleAfterEffectApply", "d3/d0f/a19886.html#af655bb31dc24a3cede08ca371f784913", null ],
+    [ "PrepareAuraScript", "d3/d0f/a19886.html#a1824853d0b369deac0745fabe2df657c", null ],
+    [ "Register", "d3/d0f/a19886.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
 ];

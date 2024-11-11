@@ -1,6 +1,7 @@
 var a25910 =
 [
-    [ "FilterTargets", "db/d63/a25910.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
-    [ "PrepareSpellScript", "db/d63/a25910.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
-    [ "Register", "db/d63/a25910.html#a4db02c58be57a797c26b07656d1b5409", null ]
+    [ "if", "db/d63/a25910.html#aefedb14e99d2e60abfd58f7778deb39b", null ],
+    [ "PrepareAuraScript", "db/d63/a25910.html#ad61e8c804e59ca0623748acde69aeddb", null ],
+    [ "Register", "db/d63/a25910.html#af917d32bc0d7f825a52c0a916a3a2357", null ],
+    [ "AuraEffectHandleModes", "db/d63/a25910.html#accfab0bada4faf21178e3f67a79c6dfe", null ]
 ];

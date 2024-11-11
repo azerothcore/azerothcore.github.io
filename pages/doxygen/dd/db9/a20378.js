@@ -1,6 +1,6 @@
 var a20378 =
 [
-    [ "boss_thorim_ancient_rune_giantAI", "d2/db7/a20382.html", "d2/db7/a20382" ],
-    [ "boss_thorim_ancient_rune_giant", "dd/db9/a20378.html#ad87dca7c6058e4b8b1234410644523dd", null ],
-    [ "GetAI", "dd/db9/a20378.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
+    [ "PrepareSpellScript", "dd/db9/a20378.html#ac84dedbb3343c15e32ae3c57d80a4561", null ],
+    [ "Register", "dd/db9/a20378.html#a27c5665b64c50df5d9c67d5136ab7567", null ],
+    [ "SelectTarget", "dd/db9/a20378.html#a0f9c85168ad0c0fda61f4bb1e97bd518", null ]
 ];

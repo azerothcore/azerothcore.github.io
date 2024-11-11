@@ -1,6 +1,6 @@
 var a19990 =
 [
-    [ "HandleAfterEffectApply", "d7/d31/a19990.html#af655bb31dc24a3cede08ca371f784913", null ],
-    [ "PrepareAuraScript", "d7/d31/a19990.html#a1824853d0b369deac0745fabe2df657c", null ],
-    [ "Register", "d7/d31/a19990.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
+    [ "FilterTargets", "d7/d31/a19990.html#ae8d940a89be9b63286911bd55dcd3844", null ],
+    [ "PrepareSpellScript", "d7/d31/a19990.html#a8f4b4d82e53c8f820b620896478681a9", null ],
+    [ "Register", "d7/d31/a19990.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
 ];

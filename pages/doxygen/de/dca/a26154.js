@@ -1,7 +1,6 @@
 var a26154 =
 [
-    [ "HandleDummy", "de/dca/a26154.html#aef93741620dcf29179502f88891ad0b5", null ],
-    [ "Load", "de/dca/a26154.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
-    [ "PrepareSpellScript", "de/dca/a26154.html#ac92fd133395705e4cb3730bc96e1f787", null ],
-    [ "Register", "de/dca/a26154.html#a69336bea35240c0014693ae167d4124b", null ]
+    [ "HandleScript", "de/dca/a26154.html#acde0ae837d0cd3af0f38481027200291", null ],
+    [ "PrepareSpellScript", "de/dca/a26154.html#ac1237e0af7f88f75ebc551af52fc301c", null ],
+    [ "Register", "de/dca/a26154.html#a2dc2628984358628afe7d9b62ced7794", null ]
 ];

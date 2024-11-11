@@ -1,12 +1,9 @@
 var a14418 =
 [
-    [ "boss_mal_ganisAI", "dc/d6b/a14418.html#aa8b70930372cd0729686f7c6032d3152", null ],
-    [ "DamageTaken", "dc/d6b/a14418.html#a4873386266ce3b4b849377028ff746a5", null ],
-    [ "JustDied", "dc/d6b/a14418.html#a83690f4a55cfa22a979ad6897b661fcc", null ],
-    [ "JustEngagedWith", "dc/d6b/a14418.html#ad04c571e9e485a95d194946c1b3b7ffa", null ],
-    [ "KilledUnit", "dc/d6b/a14418.html#a0ec8c95f3e6ea8c243cc28d0c893c7eb", null ],
-    [ "Reset", "dc/d6b/a14418.html#abb9d38b3c26af6245bb98e131be07d4d", null ],
-    [ "UpdateAI", "dc/d6b/a14418.html#a9466254da12c3aa3c1a69e812ff1a068", null ],
-    [ "events", "dc/d6b/a14418.html#a194c002efe244b8c94a072faf72be771", null ],
-    [ "finished", "dc/d6b/a14418.html#ac4c90c814aa55781f863c958253e9df2", null ]
+    [ "boss_chrono_lord_deja", "dc/d6b/a14418.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
+    [ "JustDied", "dc/d6b/a14418.html#a68eb4941364f9fac121aa3d610d45f48", null ],
+    [ "JustEngagedWith", "dc/d6b/a14418.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
+    [ "KilledUnit", "dc/d6b/a14418.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
+    [ "MoveInLineOfSight", "dc/d6b/a14418.html#a535c0c157c60804188ad8c4413c277dd", null ],
+    [ "OwnTalk", "dc/d6b/a14418.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
 ];

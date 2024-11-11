@@ -1,6 +1,6 @@
 var a15942 =
 [
-    [ "FilterTargets", "db/d73/a15942.html#a79d34d7e517b27e44c6a91d6056dfec7", null ],
-    [ "PrepareSpellScript", "db/d73/a15942.html#a5ede43deece629a38f5482280983b59a", null ],
-    [ "Register", "db/d73/a15942.html#aec3d0ed996e9cbfed9fb78c5f16e254f", null ]
+    [ "npc_nerubian_burrowerAI", "d6/d2d/a15946.html", "d6/d2d/a15946" ],
+    [ "npc_nerubian_burrower", "db/d73/a15942.html#a02c3eb1ed867738c705af8bf38a1aae5", null ],
+    [ "GetAI", "db/d73/a15942.html#a145ebac6f95f9190429b9bfa37e23312", null ]
 ];

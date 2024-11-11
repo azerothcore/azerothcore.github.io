@@ -1,8 +1,7 @@
 var a19062 =
 [
-    [ "npc_crystal_spikeAI", "d7/d3e/a19062.html#ac30dc3941c92fa0cda6639864f803a55", null ],
-    [ "Reset", "d7/d3e/a19062.html#ad8889e7a77daba18e3e5506855988537", null ],
-    [ "UpdateAI", "d7/d3e/a19062.html#a158ca019d06e045358ba305bd6e20bc1", null ],
-    [ "_damageTimer", "d7/d3e/a19062.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
-    [ "_gameObjectGUID", "d7/d3e/a19062.html#acdeacf285b083f4c802295d8d0583ed7", null ]
+    [ "HandleProc", "d7/d3e/a19062.html#a84255cd31ebaa7c70de93d569258c709", null ],
+    [ "PrepareAuraScript", "d7/d3e/a19062.html#a8d9c8122b105b28b88c4297d3a9acf7f", null ],
+    [ "Register", "d7/d3e/a19062.html#a6bc166d2e1455537fa78c4223da17746", null ],
+    [ "Validate", "d7/d3e/a19062.html#ab38bde2ed642dcf4fda1893a131aa6fe", null ]
 ];

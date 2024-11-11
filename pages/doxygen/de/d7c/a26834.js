@@ -1,9 +1,6 @@
 var a26834 =
 [
-    [ "emerald_dragonAI", "de/d7c/a26834.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
-    [ "ExecuteEvent", "de/d7c/a26834.html#a6e60f146c7b86a119f269bf755831ac6", null ],
-    [ "JustSummoned", "de/d7c/a26834.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
-    [ "KilledUnit", "de/d7c/a26834.html#a69b24bf865ecd38822d5602314cddf11", null ],
-    [ "Reset", "de/d7c/a26834.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
-    [ "UpdateAI", "de/d7c/a26834.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
+    [ "go_tadpole_cageAI", "d6/d0d/a26838.html", "d6/d0d/a26838" ],
+    [ "go_tadpole_cage", "de/d7c/a26834.html#a1a9acacd0ebff33d402018d4205e415b", null ],
+    [ "GetAI", "de/d7c/a26834.html#a38990dc5edd725623b6c35dba7802612", null ]
 ];

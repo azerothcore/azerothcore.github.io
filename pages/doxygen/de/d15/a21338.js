@@ -1,6 +1,6 @@
 var a21338 =
 [
-    [ "npc_hidden_cultistAI", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
-    [ "npc_hidden_cultist", "de/d15/a21338.html#ab455b35fea966360e01fb8975adad989", null ],
-    [ "GetAI", "de/d15/a21338.html#a4897006d9416f1177b0bc0e41df60293", null ]
+    [ "npc_dalaran_mageAI", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
+    [ "npc_dalaran_mage", "de/d15/a21338.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
+    [ "GetAI", "de/d15/a21338.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
 ];

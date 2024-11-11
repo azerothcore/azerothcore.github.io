@@ -1,7 +1,6 @@
 var a00032 =
 [
-    [ "Model", "d8/dd0/a28430.html", "d8/dd0/a28430" ],
-    [ "Extract", "dc/d87/a00032.html#aaece844099afc9d83362feb37427d5ae", null ],
-    [ "ExtractSet", "dc/d87/a00032.html#afd641f15b5ca6e58b68f26ef17a02912", null ],
-    [ "fixCoordSystem", "dc/d87/a00032.html#a8d0afbab5641bb7d88196fbad79e4cf1", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "dc/d87/a00032.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "MAINMagic", "dc/d87/a00032.html#a026039bd50ec58444fa975da328951ec", null ],
+    [ "MPHDMagic", "dc/d87/a00032.html#aac8041bc8ca704e28f2b3054649b3752", null ]
 ];

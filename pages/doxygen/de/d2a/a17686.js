@@ -1,7 +1,6 @@
 var a17686 =
 [
-    [ "HandleCast", "de/d2a/a17686.html#aaa3262bc782e342825d4caba2954e95d", null ],
-    [ "PrepareSpellScript", "de/d2a/a17686.html#ae4d1f05b978e2a46d7dc3410def73978", null ],
-    [ "Register", "de/d2a/a17686.html#ac59fb77c6a52d7a603dbb27e933a6814", null ],
-    [ "Validate", "de/d2a/a17686.html#a6ca80316fe7bcbb4ebda095d633bb1bc", null ]
+    [ "FilterTargets", "de/d2a/a17686.html#ad5a004ddfdc888c38e95c3a0b49ca73e", null ],
+    [ "PrepareSpellScript", "de/d2a/a17686.html#a24466e7a04722cc7559b086f89d2edc8", null ],
+    [ "Register", "de/d2a/a17686.html#a9ecea534f3dffdedf7d23b3b2461509d", null ]
 ];

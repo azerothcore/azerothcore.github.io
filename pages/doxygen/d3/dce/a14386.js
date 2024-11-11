@@ -1,10 +1,12 @@
 var a14386 =
 [
-    [ "npc_hyjal_frost_wyrm", "d3/dce/a14386.html#a7cdc8ef87d5ccb88777fa823e199b9ce", null ],
-    [ "AttackStart", "d3/dce/a14386.html#abaaea3bcbb8806ed9d807742273eb06d", null ],
-    [ "DoAction", "d3/dce/a14386.html#adab2b42c582cee234aea37d187b66138", null ],
-    [ "JustEngagedWith", "d3/dce/a14386.html#a23dace13bb2811dea43b63f0b970a2ce", null ],
-    [ "PathEndReached", "d3/dce/a14386.html#a2ec3137dad743e4766ca402282d913c7", null ],
-    [ "Reset", "d3/dce/a14386.html#a550c20113f4ebe4015f9a8088888f99b", null ],
-    [ "UpdateAI", "d3/dce/a14386.html#a182c3b440f74a4ebe6dee64651bf701f", null ]
+    [ "boss_lieutenant_drake", "d3/dce/a14386.html#a67e00ef68d5b07023cc9dc7bd6a2289b", null ],
+    [ "InitializeAI", "d3/dce/a14386.html#a2b3eb857c0711b89b6e7a6f3f5f05441", null ],
+    [ "JustDied", "d3/dce/a14386.html#aca7654e30aac96fa509f99f3447121ec", null ],
+    [ "JustEngagedWith", "d3/dce/a14386.html#ae31ac13106d09b8b447aa8fd9d864e41", null ],
+    [ "KilledUnit", "d3/dce/a14386.html#a833c889c28ea35a6198fe753b604a8ed", null ],
+    [ "MovementInform", "d3/dce/a14386.html#aec6e332bc5739552cbbec27569c55759", null ],
+    [ "UpdateAI", "d3/dce/a14386.html#ad898722dfe01c2e4f814fc5af9f057b8", null ],
+    [ "pathId", "d3/dce/a14386.html#ac63f9c885296a797799c0cd83b0ade64", null ],
+    [ "runSecondPath", "d3/dce/a14386.html#a3ea53e2048224ac3bbc4dceda316d7c4", null ]
 ];

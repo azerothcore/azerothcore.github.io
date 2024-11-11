@@ -1,12 +1,16 @@
 var a16594 =
 [
-    [ "npc_tortured_riflemanAI", "d8/d9e/a16594.html#a65dc1d2ba5769aed1a0b2487322ff2b1", null ],
-    [ "AttackStart", "d8/d9e/a16594.html#aaf2b73d0b60791f887207842580d91dc", null ],
-    [ "DoAction", "d8/d9e/a16594.html#acb941c20d911a567c93bb0f92105fdfd", null ],
-    [ "EnterEvadeMode", "d8/d9e/a16594.html#aabd56fc4aaed247a9ac3ce5bcdc4cb50", null ],
-    [ "JustDied", "d8/d9e/a16594.html#a5796a96626937e1026cc1fec0eba4e0b", null ],
-    [ "JustEngagedWith", "d8/d9e/a16594.html#ac5d8f17c48269da06c14643e82c88567", null ],
-    [ "Reset", "d8/d9e/a16594.html#a04f9c7056e063d436df66f079127d1a7", null ],
-    [ "UpdateAI", "d8/d9e/a16594.html#a194a615eef3651cdc97d4e4ad57bf017", null ],
-    [ "events", "d8/d9e/a16594.html#a958f27c1f917dc1ae0a9f84549481f93", null ]
+    [ "boss_ickAI", "d8/d9e/a16594.html#a72c90af745b63202edc36b84b3f4df12", null ],
+    [ "CanAIAttack", "d8/d9e/a16594.html#afa3a7ef19f014ed9c46be4a3adc83aa3", null ],
+    [ "DamageTaken", "d8/d9e/a16594.html#a96d39b533a96503d59c41c9e7cdd4ac4", null ],
+    [ "GetKrick", "d8/d9e/a16594.html#a2d6192f314e76886204c7248d141260a", null ],
+    [ "JustDied", "d8/d9e/a16594.html#afd7752ee19dcc6be0b28181bb4485146", null ],
+    [ "JustEngagedWith", "d8/d9e/a16594.html#a27598604e65417225acd41d6f05cc717", null ],
+    [ "JustSummoned", "d8/d9e/a16594.html#abf700d993e1cfaa0cc64d90903bfa842", null ],
+    [ "KilledUnit", "d8/d9e/a16594.html#a618c4e704d9a90d8bf4fac2d22bda6b3", null ],
+    [ "Reset", "d8/d9e/a16594.html#a9ba668208cda4dd33fd4eacb04476e2e", null ],
+    [ "SpellHitTarget", "d8/d9e/a16594.html#a5d90395d45509f8aeb244f4a4743d07d", null ],
+    [ "UpdateAI", "d8/d9e/a16594.html#a74bd63ac9558ecec52affaa7440360a1", null ],
+    [ "events", "d8/d9e/a16594.html#aab514bb5f930d9eb545a279181632796", null ],
+    [ "pInstance", "d8/d9e/a16594.html#a1ad5a6809ffe750a5538dc650a437b81", null ]
 ];

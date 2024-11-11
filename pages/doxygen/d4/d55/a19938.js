@@ -1,15 +1,9 @@
 var a19938 =
 [
-    [ "npc_ulduar_hodir_shamanAI", "d4/d55/a19938.html#a4f18b06f254b57787b7ab31c9b422402", null ],
-    [ "AttackStart", "d4/d55/a19938.html#a022aabbc965872925698bd53fad2f84d", null ],
-    [ "CanAIAttack", "d4/d55/a19938.html#a21b3804fe0af15e59e9af30260552666", null ],
-    [ "EnterEvadeMode", "d4/d55/a19938.html#af9cfc1dc173e0a4d82f1dbc8eb1cbcba", null ],
-    [ "JustDied", "d4/d55/a19938.html#a5c06c412d38203bb10e9951e27d5760a", null ],
-    [ "MoveInLineOfSight", "d4/d55/a19938.html#a24d570f1c4a133c4f001032a1c915a27", null ],
-    [ "ScheduleAbilities", "d4/d55/a19938.html#ac197b53bc03fd8bdf44b8b2e2a64f568", null ],
-    [ "SpellHit", "d4/d55/a19938.html#a3c61b680a0d75a87bfaf4d8ae8072ea9", null ],
-    [ "SpellHitTarget", "d4/d55/a19938.html#ae829e62ec342c1e0d12a523506ea6b04", null ],
-    [ "UpdateAI", "d4/d55/a19938.html#af961f02169ab700716410e26114fd857", null ],
-    [ "events", "d4/d55/a19938.html#ad92f69d2a63313798e16cfbaf55301ca", null ],
-    [ "pInstance", "d4/d55/a19938.html#af4f0d720b9d9e4cbe4805cfc0c9a12c8", null ]
+    [ "HandleEffectPeriodic", "d4/d55/a19938.html#adc6e83abb52a21528c07a1d989818dcf", null ],
+    [ "OnApply", "d4/d55/a19938.html#ad52977d3bfeca6d2a7127d91eb3d30ab", null ],
+    [ "OnRemove", "d4/d55/a19938.html#a903e65cc8041f9bd289bb5c6f156fa22", null ],
+    [ "PrepareAuraScript", "d4/d55/a19938.html#aa85f79f5337edca68b3cb87073eff0d4", null ],
+    [ "Register", "d4/d55/a19938.html#a2b18c5db95842a6f8959bf9affd357b7", null ],
+    [ "Validate", "d4/d55/a19938.html#ae88b8bd3e648030df48f6b80cedc4034", null ]
 ];

@@ -1,18 +1,8 @@
 var a27622 =
 [
-    [ "DBCStorageBase", "de/d34/a27622.html#ad688053187f77a4a016274f7e46a76a3", null ],
-    [ "~DBCStorageBase", "de/d34/a27622.html#a39d4e4f05a50b952c2f952a452beb010", null ],
-    [ "GetFieldCount", "de/d34/a27622.html#a867375a50bcf7ec8c40b6ff7305a5e81", null ],
-    [ "GetFormat", "de/d34/a27622.html#ab333cdbf4cb7c6f527045902256fdf2f", null ],
-    [ "Load", "de/d34/a27622.html#a779bd666cbdc6587eab6a81e51e894d8", null ],
-    [ "Load", "de/d34/a27622.html#a14dfcde7f1c9c63a293638009b6ce16b", null ],
-    [ "LoadFromDB", "de/d34/a27622.html#abea56cf48880a3ae02d322b6283032b4", null ],
-    [ "LoadFromDB", "de/d34/a27622.html#a7156af21138d19a978b9551a2ca24708", null ],
-    [ "LoadStringsFrom", "de/d34/a27622.html#a912b4793ddc3e3ff3bc9279693373b79", null ],
-    [ "LoadStringsFrom", "de/d34/a27622.html#a0e3e3be24e2404fad11c322190e0e337", null ],
-    [ "_dataTable", "de/d34/a27622.html#ab13a1018e69345a3665f50d696bc7236", null ],
-    [ "_fieldCount", "de/d34/a27622.html#aa9bebefe18610016bef2c7d087d20abe", null ],
-    [ "_fileFormat", "de/d34/a27622.html#a3ac1c70817c9b7a351ea0e0d2e602351", null ],
-    [ "_indexTableSize", "de/d34/a27622.html#aa17bb429de3b9df9bb6ffcbc9bf9010b", null ],
-    [ "_stringPool", "de/d34/a27622.html#a8d571b107344a2dbde0b2cbcfa3c9b52", null ]
+    [ "gender", "de/d34/a27622.html#a571684c3aa6f2b0192b545d2a38ab333", null ],
+    [ "hair_id", "de/d34/a27622.html#af4646a9adb0a1dc18b34158de2116b84", null ],
+    [ "Id", "de/d34/a27622.html#a05de87081cf628e806d6518eef1424e4", null ],
+    [ "race", "de/d34/a27622.html#a458f5a1e2aca1fd34bb1afadeb5f6db2", null ],
+    [ "type", "de/d34/a27622.html#a289bb362ba13235c754647ba67be1e56", null ]
 ];

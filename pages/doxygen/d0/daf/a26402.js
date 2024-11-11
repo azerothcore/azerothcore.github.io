@@ -1,8 +1,10 @@
 var a26402 =
 [
-    [ "Apply", "d0/daf/a26402.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "d0/daf/a26402.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "d0/daf/a26402.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "d0/daf/a26402.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "d0/daf/a26402.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "CalculateAPAmount", "d0/daf/a26402.html#ae76d10c68df1f149f83d4247122b47a7", null ],
+    [ "CalculateResistanceAmount", "d0/daf/a26402.html#ab21a4b135dfd70963f75eff7bffbf476", null ],
+    [ "CalculateSPAmount", "d0/daf/a26402.html#a421996ca946d5b04c264718e6dd63fa9", null ],
+    [ "CalculateStatAmount", "d0/daf/a26402.html#ae695515c915f2452dccb71aeb018f3a3", null ],
+    [ "HandleEffectApply", "d0/daf/a26402.html#a207864c73e485e0db0fe47bde97d87a2", null ],
+    [ "PrepareAuraScript", "d0/daf/a26402.html#a4179be48195872410bda69cac3454812", null ],
+    [ "Register", "d0/daf/a26402.html#a94b34a7e4c36bf1336b5611e82e2dd58", null ]
 ];

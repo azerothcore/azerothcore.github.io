@@ -1,6 +1,7 @@
 var a22942 =
 [
-    [ "HandleScriptEffect", "d8/dfc/a22942.html#a18fb2e73a00f1de7c62049eadfcbc658", null ],
-    [ "PrepareSpellScript", "d8/dfc/a22942.html#ae80b4ca96692035c399d1621b632fe66", null ],
-    [ "Register", "d8/dfc/a22942.html#ac655157c74104a51f045e114fc63a42d", null ]
+    [ "go_ahune_ice_spear", "d8/dfc/a22942.html#a22922e47b819bc60e331cffbc7c353b3", null ],
+    [ "Reset", "d8/dfc/a22942.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
+    [ "UpdateAI", "d8/dfc/a22942.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
+    [ "_scheduler", "d8/dfc/a22942.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
 ];

@@ -1,6 +1,5 @@
 var a22178 =
 [
-    [ "npc_overlord_drakuru_betrayalAI", "d5/dd3/a22182.html", "d5/dd3/a22182" ],
-    [ "npc_overlord_drakuru_betrayal", "d9/d90/a22178.html#af4092356ea86c25d91c73af1310c2eb0", null ],
-    [ "GetAI", "d9/d90/a22178.html#a3bd893f08212dc94a321beb7a95eea08", null ]
+    [ "outdoorpvp_na_halaa_creatures", "d9/d90/a22178.html#a9656bb7620967f1c9db6ff28a1c6bfe2", null ],
+    [ "UpdateAI", "d9/d90/a22178.html#a16c8cb2d19396e6db4700a37e0d02feb", null ]
 ];

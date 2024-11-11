@@ -1,7 +1,7 @@
 var a20562 =
 [
-    [ "boss_yoggsaron_corruptor_tentacleAI", "d1/d93/a20562.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
-    [ "DoAction", "d1/d93/a20562.html#abac26b3be775eea734403be36cbed4d2", null ],
-    [ "SelectCorruptionTarget", "d1/d93/a20562.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
-    [ "UpdateAI", "d1/d93/a20562.html#a0269d1dc655af5680d7074cb093740b8", null ]
+    [ "OnPeriodic", "d1/d93/a20562.html#a529e89c1ae0074370da174defc086719", null ],
+    [ "PrepareAuraScript", "d1/d93/a20562.html#a587652095a5dfae229787a0c0ceacfbe", null ],
+    [ "Register", "d1/d93/a20562.html#acd5551b09882d720608bdec6036dee9a", null ],
+    [ "Validate", "d1/d93/a20562.html#aaed6604e39dd977f4e7c671052d718e8", null ]
 ];

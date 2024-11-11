@@ -1,7 +1,6 @@
 var a24922 =
 [
-    [ "CheckIfLanceEquipped", "da/d63/a24922.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
-    [ "PrepareSpellScript", "da/d63/a24922.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
-    [ "Register", "da/d63/a24922.html#a4421ceaedce16777f8f04b9c40855782", null ],
-    [ "Validate", "da/d63/a24922.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
+    [ "CheckRequirement", "da/d63/a24922.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
+    [ "PrepareSpellScript", "da/d63/a24922.html#aebb88f5ea803a590a099e4e6427d8276", null ],
+    [ "Register", "da/d63/a24922.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
 ];

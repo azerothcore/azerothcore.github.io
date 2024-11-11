@@ -1,6 +1,8 @@
 var a25378 =
 [
-    [ "HandleOnEffectHit", "d6/d42/a25378.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
-    [ "PrepareSpellScript", "d6/d42/a25378.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
-    [ "Register", "d6/d42/a25378.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
+    [ "CheckProc", "d6/d42/a25378.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
+    [ "HandleProc", "d6/d42/a25378.html#ae034bd626880858c9701ed963de993c9", null ],
+    [ "isException", "d6/d42/a25378.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
+    [ "PrepareAuraScript", "d6/d42/a25378.html#a50348fd27947f67df03bf4ddbec89cca", null ],
+    [ "Register", "d6/d42/a25378.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
 ];

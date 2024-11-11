@@ -1,7 +1,8 @@
 var a18138 =
 [
-    [ "AuraRemoveEvent", "da/d52/a18138.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "da/d52/a18138.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "da/d52/a18138.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "da/d52/a18138.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "DecayPeriodicTimer", "da/d52/a18138.html#a314ac33692cc352c490ec3d87177d67a", null ],
+    [ "Load", "da/d52/a18138.html#af5a498253c4c382df3b2462a30448a64", null ],
+    [ "PrepareAuraScript", "da/d52/a18138.html#ac5d4ee199b49e04499997355ac054554", null ],
+    [ "Register", "da/d52/a18138.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
+    [ "_decayRate", "da/d52/a18138.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
 ];

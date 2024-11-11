@@ -1,6 +1,6 @@
 var a27162 =
 [
-    [ "npc_innkeeper", "dc/d84/a27162.html#a006f27d898ead8827d8b98d8b93d430d", null ],
-    [ "OnGossipHello", "dc/d84/a27162.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
-    [ "OnGossipSelect", "dc/d84/a27162.html#ab6cf511f5b032050336a77d1e4598dda", null ]
+    [ "spawnedCreatureEntry", "dc/d84/a27162.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "dc/d84/a27162.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "dc/d84/a27162.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

@@ -1,6 +1,6 @@
 var a23706 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "dc/d7a/a23710.html", "dc/d7a/a23710" ],
-    [ "npc_deaths_door_fell_cannon_target_bunny", "d6/d9f/a23706.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
-    [ "GetAI", "d6/d9f/a23706.html#a250707096229da28024960beeb7725bf", null ]
+    [ "go_beaconAI", "d6/d9f/a23706.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
+    [ "OnStateChanged", "d6/d9f/a23706.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
+    [ "creatureList", "d6/d9f/a23706.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
 ];

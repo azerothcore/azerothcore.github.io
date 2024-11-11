@@ -1,9 +1,6 @@
 var a23794 =
 [
-    [ "npc_wounded_blood_elfAI", "dd/dd4/a23794.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
-    [ "JustEngagedWith", "dd/dd4/a23794.html#aba950ba77ff71508263cc54b28c7725b", null ],
-    [ "JustSummoned", "dd/dd4/a23794.html#aa97f5294981c44b530efca1411458a97", null ],
-    [ "Reset", "dd/dd4/a23794.html#a8e6be35a3079998f3bab829f5d963c71", null ],
-    [ "sQuestAccept", "dd/dd4/a23794.html#a56c157928c24daae6edacd5a126ef171", null ],
-    [ "WaypointReached", "dd/dd4/a23794.html#a5affcb00e28a582f8926ab2226001cd0", null ]
+    [ "npc_invis_infernal_casterAI", "dd/dc3/a23798.html", "dd/dc3/a23798" ],
+    [ "npc_invis_infernal_caster", "dd/dd4/a23794.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "dd/dd4/a23794.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

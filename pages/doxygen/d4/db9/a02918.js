@@ -1,12 +1,13 @@
 var a02918 =
 [
-    [ "DeleteSpellFromAllPlayers", "d4/db9/a02918.html#af0dec25ac7c118b67a71a0356eb37877", null ],
-    [ "GetDiminishingReturnsGroupForSpell", "d4/db9/a02918.html#a35697cceaf39daf069d06c53e8e3cdf7", null ],
-    [ "GetDiminishingReturnsGroupType", "d4/db9/a02918.html#ab0fdc6c7b1e9317d6f6c0480d734b4f1", null ],
-    [ "GetDiminishingReturnsLimitDuration", "d4/db9/a02918.html#a2ba27d428865ac3f87bf6f6843271d3f", null ],
-    [ "GetDiminishingReturnsMaxLevel", "d4/db9/a02918.html#ad621262d491c800fb5ddd016250dd46f", null ],
-    [ "IsDiminishingReturnsGroupDurationLimited", "d4/db9/a02918.html#a423a80c889a3456a2b55e0e9c22ad060", null ],
-    [ "IsPartOfSkillLine", "d4/db9/a02918.html#a18102741b602d3b4473f75d4f619a09b", null ],
-    [ "IsPrimaryProfessionSkill", "d4/db9/a02918.html#a09c4e23bd85fab812b67beafbbf1b7b3", null ],
-    [ "LoadPetDefaultSpells_helper", "d4/db9/a02918.html#a1c2a3145d36ac321b7f1f11a01a235f5", null ]
+    [ "Movement::TransportPathTransform", "de/d1a/a09786.html", "de/d1a/a09786" ],
+    [ "Movement::HoverMovementTransform", "da/d2b/a09790.html", "da/d2b/a09790" ],
+    [ "Movement::MoveSplineInit", "de/db8/a09794.html", "de/db8/a09794" ],
+    [ "AnimType", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fb", [
+      [ "ToGround", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba41889d3628918ee702ad48c7d2689f31", null ],
+      [ "FlyToFly", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba547b00b126d19fb188c747f076bf9d2c", null ],
+      [ "ToFly", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba3a5a6b4a2eebf34396f22e4c61c10d9b", null ],
+      [ "FlyToGround", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fbae5cd8217abf54b5ab1e67d925d5c7602", null ]
+    ] ],
+    [ "SelectSpeedType", "d4/db9/a02918.html#a1f10281929f445f6d8150dc510bf1f2f", null ]
 ];

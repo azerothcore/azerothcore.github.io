@@ -1,5 +1,4 @@
 var a04397 =
 [
-    [ "WorldPackets::LFG::LFGJoin", "d1/d4e/a10466.html", "d1/d4e/a10466" ],
-    [ "WorldPackets::LFG::LFGLeave", "da/d14/a10470.html", "da/d14/a10470" ]
+    [ "GroupRefMgr", "d3/dd0/a09202.html", "d3/dd0/a09202" ]
 ];

@@ -1,6 +1,7 @@
 var a19634 =
 [
-    [ "npc_pool_of_tarAI", "d0/dec/a19634.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
-    [ "DamageTaken", "d0/dec/a19634.html#a4ea55aa08123f724268238e0def5b595", null ],
-    [ "SpellHit", "d0/dec/a19634.html#acb63166b396c079d5b4bb9db67a1448a", null ]
+    [ "achievement_flame_leviathan_garage", "d0/dec/a19634.html#a1893b4059d7212d023c45bb828bb1905", null ],
+    [ "OnCheck", "d0/dec/a19634.html#aa5897eb1fadeda4dda9f2390053d89b6", null ],
+    [ "_entry1", "d0/dec/a19634.html#af482d6c1b2681b9fec572281620a86b7", null ],
+    [ "_entry2", "d0/dec/a19634.html#a41e83b47c411dc6a6aff310ae7059f4e", null ]
 ];

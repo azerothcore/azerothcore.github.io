@@ -1,7 +1,7 @@
 var a22522 =
 [
-    [ "OnPeriodic", "d8/d03/a22522.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
-    [ "PrepareAuraScript", "d8/d03/a22522.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
-    [ "Register", "d8/d03/a22522.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
-    [ "Validate", "d8/d03/a22522.html#a006d67e9e82cce68930b90b00d3555a4", null ]
+    [ "CheckProc", "d8/d03/a22522.html#a0968b7b32f2d2bef6035e030f544088a", null ],
+    [ "PrepareAuraScript", "d8/d03/a22522.html#ac424e41948196a6e60b790ebcf40783f", null ],
+    [ "Register", "d8/d03/a22522.html#a06bdac68e36b43ee534e937ffd974086", null ],
+    [ "Update", "d8/d03/a22522.html#af6c228840f6af96e353ba964fdd01e54", null ]
 ];

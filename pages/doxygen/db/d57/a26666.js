@@ -1,6 +1,5 @@
 var a26666 =
 [
-    [ "HandleDummy", "db/d57/a26666.html#a68a86f7f86324336dc837622e01fa6af", null ],
-    [ "PrepareSpellScript", "db/d57/a26666.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
-    [ "Register", "db/d57/a26666.html#ad168c9164d1edd23abfbf05141b96de4", null ]
+    [ "achievement_killed_exp_or_honor_target", "db/d57/a26666.html#aad432878c97af698dd1cc4019d716281", null ],
+    [ "OnCheck", "db/d57/a26666.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
 ];

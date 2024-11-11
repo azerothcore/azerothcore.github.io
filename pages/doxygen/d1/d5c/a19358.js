@@ -1,8 +1,6 @@
 var a19358 =
 [
-    [ "dark_rune_stormcallerAI", "d1/d5c/a19358.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
-    [ "JustEngagedWith", "d1/d5c/a19358.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
-    [ "Reset", "d1/d5c/a19358.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
-    [ "UpdateAI", "d1/d5c/a19358.html#adbd245fc5180dc7c78704595a9592864", null ],
-    [ "events", "d1/d5c/a19358.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
+    [ "PrepareSpellScript", "d1/d5c/a19358.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
+    [ "RecalculateDamage", "d1/d5c/a19358.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
+    [ "Register", "d1/d5c/a19358.html#aac131aa2d2e5342cf0303b918a077b45", null ]
 ];

@@ -1,6 +1,9 @@
 var a24078 =
 [
-    [ "npc_unkor_the_ruthlessAI", "d9/d49/a24082.html", "d9/d49/a24082" ],
-    [ "npc_unkor_the_ruthless", "d6/df6/a24078.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "d6/df6/a24078.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "npc_pet_gen_toxic_wasteling", "d6/df6/a24078.html#a550a1a9324f605b1a9fd715571f819b7", null ],
+    [ "EnterEvadeMode", "d6/df6/a24078.html#abe25deca7fd1c319085995657d62f22a", null ],
+    [ "MovementInform", "d6/df6/a24078.html#aec73d567c3bd178ffee3bdece83a409e", null ],
+    [ "Reset", "d6/df6/a24078.html#a06a8be653c8685aaf28aee1d1d3ae114", null ],
+    [ "UpdateAI", "d6/df6/a24078.html#a22f96d995fcc722c0e95c4f5692cc128", null ],
+    [ "checkTimer", "d6/df6/a24078.html#aafe402e0443bd39a1b7aa274d95edad6", null ]
 ];

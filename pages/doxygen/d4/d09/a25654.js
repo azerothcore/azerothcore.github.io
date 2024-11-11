@@ -1,6 +1,8 @@
 var a25654 =
 [
-    [ "HandleEffect", "d4/d09/a25654.html#a41b46d8918b59a1617f383b3eedfe343", null ],
-    [ "PrepareSpellScript", "d4/d09/a25654.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
-    [ "Register", "d4/d09/a25654.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
+    [ "CheckProc", "d4/d09/a25654.html#a801610a9f9fae5cb711850254b291268", null ],
+    [ "HandleProc", "d4/d09/a25654.html#a3f6a53421c7c4b9346d98aa51c4ccd6d", null ],
+    [ "PrepareAuraScript", "d4/d09/a25654.html#ad08915b0c7f35bef76ddd05a62add43c", null ],
+    [ "Register", "d4/d09/a25654.html#a8626318b6f9b35a8b1c116062618b3c0", null ],
+    [ "Validate", "d4/d09/a25654.html#a8a3abd528fda4aab149fb7f6e5eae00d", null ]
 ];

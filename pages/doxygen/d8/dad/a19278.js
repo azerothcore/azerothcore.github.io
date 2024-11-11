@@ -1,6 +1,6 @@
 var a19278 =
 [
-    [ "boss_krystallusAI", "d6/d68/a19282.html", "d6/d68/a19282" ],
-    [ "boss_krystallus", "d8/dad/a19278.html#a1d7453c9d67594bfdbd650fea897666a", null ],
-    [ "GetAI", "d8/dad/a19278.html#aba14bcfa00a5d997959abd94af647bf4", null ]
+    [ "CosmicSmashDamageEvent", "d8/dad/a19278.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d8/dad/a19278.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d8/dad/a19278.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

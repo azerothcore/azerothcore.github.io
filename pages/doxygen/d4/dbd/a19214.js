@@ -1,9 +1,6 @@
 var a19214 =
 [
-    [ "npc_stormforged_lieutenantAI", "d4/dbd/a19214.html#a74d84534c39e7e6f3774099fd6b28d29", null ],
-    [ "JustEngagedWith", "d4/dbd/a19214.html#a112bd4adaa290afd04d229347a96ff4a", null ],
-    [ "Reset", "d4/dbd/a19214.html#aaef10316b8f7c3e980082cab722ffe9f", null ],
-    [ "UpdateAI", "d4/dbd/a19214.html#a3944886823dad81bcd5d72e020910143", null ],
-    [ "BjarngrimGUID", "d4/dbd/a19214.html#a4003deba30ff47ed3296325112b6cb0e", null ],
-    [ "events", "d4/dbd/a19214.html#a530d16086a9e613f6f0299186f8bcc33", null ]
+    [ "boss_sjonnir_iron_sludgeAI", "d3/db9/a19218.html", "d3/db9/a19218" ],
+    [ "boss_sjonnir_iron_sludge", "d4/dbd/a19214.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
+    [ "GetAI", "d4/dbd/a19214.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
 ];

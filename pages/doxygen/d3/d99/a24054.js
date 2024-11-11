@@ -1,7 +1,8 @@
 var a24054 =
 [
-    [ "HandleEffectRemove", "d3/d99/a24054.html#a317c238b165ad331beb447ea5d0de7e1", null ],
-    [ "PrepareAuraScript", "d3/d99/a24054.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
-    [ "Register", "d3/d99/a24054.html#a13fdde1557249328306a57e159d821a7", null ],
-    [ "Validate", "d3/d99/a24054.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "d3/d99/a24054.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "d3/d99/a24054.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "d3/d99/a24054.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "d3/d99/a24054.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "d3/d99/a24054.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

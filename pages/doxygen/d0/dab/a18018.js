@@ -1,6 +1,5 @@
 var a18018 =
 [
-    [ "HandleScript", "d0/dab/a18018.html#a9489c3454830d3826cb077c95947bf2d", null ],
-    [ "PrepareSpellScript", "d0/dab/a18018.html#a19492e616ac6e69187bca4499175071e", null ],
-    [ "Register", "d0/dab/a18018.html#a3446174d3308f535c27581b63ade9e8a", null ]
+    [ "achievement_neck_deep_in_vile", "d0/dab/a18018.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "d0/dab/a18018.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

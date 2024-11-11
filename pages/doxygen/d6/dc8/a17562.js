@@ -1,6 +1,10 @@
 var a17562 =
 [
-    [ "PrepareSpellScript", "d6/dc8/a17562.html#a16eadb50b6038f16ea28464d00df3381", null ],
-    [ "Register", "d6/dc8/a17562.html#ac6e304d391011863b8eff8105fab5191", null ],
-    [ "SelectDest", "d6/dc8/a17562.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
+    [ "FilterTargets", "d6/dc8/a17562.html#aefba5226671b6217549bd34059519179", null ],
+    [ "Load", "d6/dc8/a17562.html#af8a2b651782783dc29ac7266ed02c028", null ],
+    [ "NotifyTargets", "d6/dc8/a17562.html#a618e98fbd5c6ae21047cc4f911099730", null ],
+    [ "PrepareSpellScript", "d6/dc8/a17562.html#a0cd63fa27a1ee853c5d73c766d1c4de6", null ],
+    [ "Register", "d6/dc8/a17562.html#ae72a470c87f7d90e4bd635e239d09f9b", null ],
+    [ "ReplaceTargets", "d6/dc8/a17562.html#a5d3df9715d04ea4b663b061c7c02ae03", null ],
+    [ "_target", "d6/dc8/a17562.html#a10c85fd3909e56f457d73add8021c0b7", null ]
 ];

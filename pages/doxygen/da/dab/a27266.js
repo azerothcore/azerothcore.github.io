@@ -1,9 +1,6 @@
 var a27266 =
 [
-    [ "npc_target_dummyAI", "da/dab/a27266.html#a117e45559ea721877d73df4b3c18a259", null ],
-    [ "EnterEvadeMode", "da/dab/a27266.html#a8f7f2e4decc676e378b4929516f8a147", null ],
-    [ "MoveInLineOfSight", "da/dab/a27266.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
-    [ "Reset", "da/dab/a27266.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
-    [ "UpdateAI", "da/dab/a27266.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
-    [ "deathTimer", "da/dab/a27266.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
+    [ "npc_spring_rabbitAI", "de/d4f/a27270.html", "de/d4f/a27270" ],
+    [ "npc_spring_rabbit", "da/dab/a27266.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "da/dab/a27266.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

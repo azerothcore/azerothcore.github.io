@@ -1,6 +1,6 @@
 var a18546 =
 [
-    [ "npc_icc_putricades_trapAI", "d7/d3c/a18550.html", "d7/d3c/a18550" ],
-    [ "npc_icc_putricades_trap", "d6/d32/a18546.html#ae022f2991fee4143fb965c53e4d4da5c", null ],
-    [ "GetAI", "d6/d32/a18546.html#a42ab1cb27234ebd10755dbbedce5f187", null ]
+    [ "boss_anubrekhanAI", "d7/d3c/a18550.html", "d7/d3c/a18550" ],
+    [ "boss_anubrekhan", "d6/d32/a18546.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
+    [ "GetAI", "d6/d32/a18546.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
 ];

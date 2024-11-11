@@ -1,6 +1,7 @@
 var a21710 =
 [
-    [ "npc_rocket_propelled_warheadAI", "d6/d05/a21714.html", "d6/d05/a21714" ],
-    [ "npc_rocket_propelled_warhead", "d2/d0e/a21710.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
-    [ "GetAI", "d2/d0e/a21710.html#a803702c480107d197845a0ef447a5380", null ]
+    [ "npc_tirions_gambit_tirionAI", "d6/d05/a21714.html", "d6/d05/a21714" ],
+    [ "npc_tirions_gambit_tirion", "d2/d0e/a21710.html#ad52abd46ccdd3b4409671679434c193c", null ],
+    [ "GetAI", "d2/d0e/a21710.html#a222c092c2e2136dbd7057a3f7ad7b5f4", null ],
+    [ "OnGossipSelect", "d2/d0e/a21710.html#a5af904a3394de9b3eedb52009bd6b0a9", null ]
 ];

@@ -1,7 +1,8 @@
 var a24670 =
 [
-    [ "HandleApply", "d5/dac/a24670.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
-    [ "HandlePeriodicTimer", "d5/dac/a24670.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
-    [ "PrepareAuraScript", "d5/dac/a24670.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
-    [ "Register", "d5/dac/a24670.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
+    [ "CheckProc", "d5/dac/a24670.html#a1ba43a41ca6909f2bd377290b1b0b12b", null ],
+    [ "HandleProc", "d5/dac/a24670.html#a9d0df8ec96c17661daaf620dd88cecd5", null ],
+    [ "PrepareAuraScript", "d5/dac/a24670.html#af474a768c441fb666163f4ebd5068393", null ],
+    [ "Register", "d5/dac/a24670.html#ae533e87550b1aedc67b67c217495286d", null ],
+    [ "Validate", "d5/dac/a24670.html#ab6e36f24dea949c8cedaaed0d5fa9517", null ]
 ];

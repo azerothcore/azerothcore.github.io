@@ -1,8 +1,7 @@
 var a26786 =
 [
-    [ "CharacterActionIpLogger", "d1/d91/a26786.html#a39861f7348a79031a8215b435ba81059", null ],
-    [ "CharacterIPLogAction", "d1/d91/a26786.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
-    [ "OnCreate", "d1/d91/a26786.html#ae25875eed131046444874c4109619748", null ],
-    [ "OnLogin", "d1/d91/a26786.html#af430f10fe536ac40df50bc9424a7decb", null ],
-    [ "OnLogout", "d1/d91/a26786.html#aca289740b022dcaa0ae681327785cb72", null ]
+    [ "HandlePeriodic", "d1/d91/a26786.html#a3da4cc5322f2e34244729fe3b3876482", null ],
+    [ "PrepareAuraScript", "d1/d91/a26786.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
+    [ "Register", "d1/d91/a26786.html#a53b6067f46912648413fc6d6f107b0d8", null ],
+    [ "Validate", "d1/d91/a26786.html#aa03222717b3c06316b232a6ac0270ec0", null ]
 ];

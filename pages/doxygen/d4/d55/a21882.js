@@ -1,6 +1,6 @@
 var a21882 =
 [
-    [ "npc_frostbrood_skytalonAI", "dd/d61/a21886.html", "dd/d61/a21886" ],
-    [ "npc_frostbrood_skytalon", "d4/d55/a21882.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
-    [ "GetAI", "d4/d55/a21882.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
+    [ "npc_frosthoundAI", "dd/d61/a21886.html", "dd/d61/a21886" ],
+    [ "npc_frosthound", "d4/d55/a21882.html#a3266f5186d1db0c010f586d3272725a6", null ],
+    [ "GetAI", "d4/d55/a21882.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
 ];

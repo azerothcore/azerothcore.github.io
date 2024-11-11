@@ -1,7 +1,10 @@
 var a24470 =
 [
-    [ "HandleScriptEffect", "dd/d90/a24470.html#a3a33f0ec477ff3b4b19fc98760a2dae7", null ],
-    [ "PrepareSpellScript", "dd/d90/a24470.html#ae29c4f69a34e71011192df12509e2935", null ],
-    [ "Register", "dd/d90/a24470.html#ae37da44bde25f6bdb5b4a382ab66b7be", null ],
-    [ "Validate", "dd/d90/a24470.html#af9056c179b8089cf0b304b3ce61ea92f", null ]
+    [ "FilterTargets", "dd/d90/a24470.html#a033c63470d406ad2249c5aa223c00b2f", null ],
+    [ "HandleFinish", "dd/d90/a24470.html#a3b5760ed61d0b2789ddcaef998303d38", null ],
+    [ "HandleScript", "dd/d90/a24470.html#a2c26838015f1b21715fc1438537e15d3", null ],
+    [ "Load", "dd/d90/a24470.html#a669aefa81d57358ef452f4c247b2ceff", null ],
+    [ "PrepareSpellScript", "dd/d90/a24470.html#a3b65dbff73258b45f9e345bffc7a63a8", null ],
+    [ "Register", "dd/d90/a24470.html#ac9b8d46cc77b06c427b5b3cbc1135072", null ],
+    [ "haveTarget", "dd/d90/a24470.html#a7f5a4e68fb7d948f0df35824272cbdb0", null ]
 ];

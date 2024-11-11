@@ -1,7 +1,6 @@
 var a26866 =
 [
-    [ "npc_spirit_shadeAI", "df/dfc/a26866.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
-    [ "IsSummonedBy", "df/dfc/a26866.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
-    [ "MovementInform", "df/dfc/a26866.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
-    [ "_summonerGuid", "df/dfc/a26866.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
+    [ "go_l70_etc_musicAI", "d8/d83/a26870.html", "d8/d83/a26870" ],
+    [ "go_l70_etc_music", "df/dfc/a26866.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "df/dfc/a26866.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

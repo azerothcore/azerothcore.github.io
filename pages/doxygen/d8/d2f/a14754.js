@@ -1,6 +1,7 @@
 var a14754 =
 [
-    [ "HandleScript", "d8/d2f/a14754.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
-    [ "PrepareSpellScript", "d8/d2f/a14754.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
-    [ "Register", "d8/d2f/a14754.html#a434f0aef7f32edb6990efb992e4d57af", null ]
+    [ "npc_sartura_royal_guard", "d8/d2f/a14754.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "d8/d2f/a14754.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "d8/d2f/a14754.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "d8/d2f/a14754.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

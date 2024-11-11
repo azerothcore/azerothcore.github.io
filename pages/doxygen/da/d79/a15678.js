@@ -1,9 +1,13 @@
 var a15678 =
 [
-    [ "boss_sartharion_vesperonAI", "da/d79/a15678.html#afd67bf2c7a479771976673b05b0fc29e", null ],
-    [ "ClearInstance", "da/d79/a15678.html#aad9556374e26cbea7641461510fef9ba", null ],
-    [ "ExecuteEvent", "da/d79/a15678.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
-    [ "HandleExtraEvent", "da/d79/a15678.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
-    [ "Reset", "da/d79/a15678.html#aacf26c52f77ef4eb084814934f00aab1", null ],
-    [ "SummonedCreatureDies", "da/d79/a15678.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
+    [ "boss_twilight_halionAI", "da/d79/a15678.html#aab05bab963d603c3cb70edfd62a84b49", null ],
+    [ "DamageTaken", "da/d79/a15678.html#a0c62ac244e57b1b90101e1ba89a60d27", null ],
+    [ "EnterEvadeMode", "da/d79/a15678.html#af7076251fc1fad1dc259d747934910e2", null ],
+    [ "JustDied", "da/d79/a15678.html#a2874474a1dbc9b30a4ff77d2d7bfd8fd", null ],
+    [ "JustEngagedWith", "da/d79/a15678.html#a136b51ede30d63d87228d35e8b6f2c7a", null ],
+    [ "KilledUnit", "da/d79/a15678.html#ada770d51f63c841c500ffc3197a7a89f", null ],
+    [ "Reset", "da/d79/a15678.html#a9c945841926d5b08f37c6a720dd25a14", null ],
+    [ "UpdateAI", "da/d79/a15678.html#a6ab1d215ed077883781b0c0188282c5e", null ],
+    [ "_events", "da/d79/a15678.html#a22a8a7696fb23b9eab01d42cd45644de", null ],
+    [ "_instance", "da/d79/a15678.html#a033f10bba4ba89aa0111d4cb520540e6", null ]
 ];

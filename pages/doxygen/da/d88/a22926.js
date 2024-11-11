@@ -1,6 +1,10 @@
 var a22926 =
 [
-    [ "HandleScriptEffect", "da/d88/a22926.html#a766edc5924124c869b04ec82cd2bc693", null ],
-    [ "PrepareSpellScript", "da/d88/a22926.html#a1eac10c673b8f43ae08f8bbdf949f82f", null ],
-    [ "Register", "da/d88/a22926.html#a60d4e21bf31c997ef4105ad72c8b4e85", null ]
+    [ "npc_frozen_core", "da/d88/a22926.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
+    [ "DoAction", "da/d88/a22926.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
+    [ "Initialize", "da/d88/a22926.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
+    [ "JustDied", "da/d88/a22926.html#a476e086b0379e0cef3a44d250b020d6a", null ],
+    [ "UpdateAI", "da/d88/a22926.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
+    [ "_events", "da/d88/a22926.html#a3a5efec3279644ef713722e1556a3c84", null ],
+    [ "_instance", "da/d88/a22926.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
 ];

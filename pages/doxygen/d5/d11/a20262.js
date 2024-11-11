@@ -1,6 +1,9 @@
 var a20262 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "df/de1/a20266.html", "df/de1/a20266" ],
-    [ "npc_ulduar_expedition_engineer", "d5/d11/a20262.html#a1ff99e62b9c2222d8c08e71bfda600ea", null ],
-    [ "GetAI", "d5/d11/a20262.html#a6f1beaab42e42981e152db920e516616", null ]
+    [ "boss_thorim_gauntlet_npcsAI", "d5/d11/a20262.html#aaa7e94f653a1db001cd0c962fb855098", null ],
+    [ "JustEngagedWith", "d5/d11/a20262.html#afaf0a05b1fd2fc2187b52328340b65bb", null ],
+    [ "Reset", "d5/d11/a20262.html#a9e4c25742785809d788f2e910f7840bc", null ],
+    [ "UpdateAI", "d5/d11/a20262.html#a4dd5a9cbbb10d514a0473dfd7cdd3c29", null ],
+    [ "_isCaster", "d5/d11/a20262.html#a104f447cc52c285d59653a8ebff20fef", null ],
+    [ "events", "d5/d11/a20262.html#a650508e05b6fa1af538a0b34e04c8bf5", null ]
 ];

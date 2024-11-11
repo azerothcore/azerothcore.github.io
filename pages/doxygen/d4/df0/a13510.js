@@ -1,9 +1,9 @@
 var a13510 =
 [
-    [ "npc_halazzi_lynx", "d4/df0/a13510.html#a168ee019e1c75a89f6dbc9072b722ab2", null ],
-    [ "AttackStart", "d4/df0/a13510.html#a56d53ed05b674c1ee4ba35922cb3a5df", null ],
-    [ "DamageTaken", "d4/df0/a13510.html#a8cb6a034d663f1b4e00adc2e9366b268", null ],
-    [ "JustEngagedWith", "d4/df0/a13510.html#adb3e49eed663164aede9758d9aef70d7", null ],
-    [ "Reset", "d4/df0/a13510.html#a66c022846cde0cd3573bcc3cbfd37b38", null ],
-    [ "UpdateAI", "d4/df0/a13510.html#a14254c7a9e9b7f1a09ee414eee2ff21b", null ]
+    [ "npc_zulaman_hostageAI", "d4/df0/a13510.html#a36a24241dfb0280a26c826ef9f1509dc", null ],
+    [ "JustDied", "d4/df0/a13510.html#af87bdebb039f1da5736408cf3aad6487", null ],
+    [ "JustEngagedWith", "d4/df0/a13510.html#af0aa229973da1a6230a854439658e9ed", null ],
+    [ "UpdateAI", "d4/df0/a13510.html#a2212a1f56cf151e8816d22095ebb7c9c", null ],
+    [ "IsLoot", "d4/df0/a13510.html#a86e65ee76ce382ec26a5b5bfb3fbf2b1", null ],
+    [ "PlayerGUID", "d4/df0/a13510.html#a49f15c5a94d005c56218d00ac6732b82", null ]
 ];

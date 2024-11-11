@@ -1,6 +1,6 @@
 var a19018 =
 [
-    [ "boss_keristraszaAI", "d2/d7c/a19022.html", "d2/d7c/a19022" ],
-    [ "boss_keristrasza", "d7/dfb/a19018.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
-    [ "GetAI", "d7/dfb/a19018.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
+    [ "instance_oculus_InstanceMapScript", "d2/d7c/a19022.html", "d2/d7c/a19022" ],
+    [ "instance_oculus", "d7/dfb/a19018.html#a404205ea7106531ea57307c40b9589bb", null ],
+    [ "GetInstanceScript", "d7/dfb/a19018.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
 ];

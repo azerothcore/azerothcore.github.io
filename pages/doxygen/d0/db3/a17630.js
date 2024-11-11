@@ -1,8 +1,11 @@
 var a17630 =
 [
-    [ "HandleScript", "d0/db3/a17630.html#a9f3cef57312626ae1884c36ad4bfdca6", null ],
-    [ "PrepareSpellScript", "d0/db3/a17630.html#a2ba03324afacf8da8e5fe6bc725e4d2f", null ],
-    [ "Register", "d0/db3/a17630.html#a9b0e0427b7f8abbd0e9d556ccc581aeb", null ],
-    [ "SelectTarget", "d0/db3/a17630.html#a36d575c6a63e94905bf435bc9d39e588", null ],
-    [ "Validate", "d0/db3/a17630.html#afc4a6277e3a7419b6a4aaa99f6697b91", null ]
+    [ "npc_ice_tombAI", "d0/db3/a17630.html#ab2cd26a6f50f42f2773f8a7b522289ec", null ],
+    [ "DamageTaken", "d0/db3/a17630.html#aa1451254b5eaa1332b87f2d817e1f3a7", null ],
+    [ "JustDied", "d0/db3/a17630.html#a237f27260aaa9176d81b67b11d063660", null ],
+    [ "SetGUID", "d0/db3/a17630.html#a629acf2cc7530c2b82bb37a129d4431a", null ],
+    [ "UpdateAI", "d0/db3/a17630.html#a2f613f1f4fd51dac767b97fd9b96af44", null ],
+    [ "_asphyxiationTimer", "d0/db3/a17630.html#a6790d9c852279624a549f60bf26e1eb2", null ],
+    [ "_existenceCheckTimer", "d0/db3/a17630.html#ab3dbf40235549be89e42951d93593ea2", null ],
+    [ "_trappedPlayerGUID", "d0/db3/a17630.html#a8a7666594e59bdac449f2284387b8e2c", null ]
 ];

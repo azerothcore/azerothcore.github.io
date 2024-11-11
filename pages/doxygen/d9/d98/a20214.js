@@ -1,6 +1,11 @@
 var a20214 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "da/d7e/a20218.html", "da/d7e/a20218" ],
-    [ "npc_ulduar_rocket_strike_trigger", "d9/d98/a20214.html#a41cc84b04124bb47c24b39a48c9023b1", null ],
-    [ "GetAI", "d9/d98/a20214.html#a7715ce6646efa3728c28c4e11b25c2ed", null ]
+    [ "boss_thorim_sifAI", "d9/d98/a20214.html#af63f344d3a5650baaa9b96204abc39a9", null ],
+    [ "AttackStart", "d9/d98/a20214.html#ae9354f2e97c88cd1af86fae050e810d6", null ],
+    [ "DoAction", "d9/d98/a20214.html#a8aac66a64c5ca6491595c2b3b6cbbd95", null ],
+    [ "MoveInLineOfSight", "d9/d98/a20214.html#a3e7d07ca6fc8f4619173f3fd74d63ccb", null ],
+    [ "Reset", "d9/d98/a20214.html#ab30d73613bafac5b92021677d69b3aae", null ],
+    [ "UpdateAI", "d9/d98/a20214.html#a09ee3373177e84a5e4e51ebb48c68525", null ],
+    [ "_allowCast", "d9/d98/a20214.html#ade272764f09375d8e5fda937d42aad90", null ],
+    [ "events", "d9/d98/a20214.html#a8fd3c7073a250d054e3edc73d5867fbd", null ]
 ];

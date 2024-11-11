@@ -1,6 +1,8 @@
 var a27082 =
 [
-    [ "go_amberpine_outhouse", "d2/d4a/a27082.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
-    [ "OnGossipHello", "d2/d4a/a27082.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
-    [ "OnGossipSelect", "d2/d4a/a27082.html#aa55fe049ba43dbd548ba55d982d89d51", null ]
+    [ "npc_artoriusAI", "d5/d9a/a27086.html", "d5/d9a/a27086" ],
+    [ "npc_artorius", "d2/d4a/a27082.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
+    [ "GetAI", "d2/d4a/a27082.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
+    [ "OnGossipHello", "d2/d4a/a27082.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
+    [ "OnGossipSelect", "d2/d4a/a27082.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
 ];

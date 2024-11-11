@@ -1,6 +1,6 @@
 var a16250 =
 [
-    [ "boss_gormokAI", "d0/d08/a16254.html", "d0/d08/a16254" ],
-    [ "boss_gormok", "dc/dbe/a16250.html#a86ce0681be4370198c44dde5aa98a593", null ],
-    [ "GetAI", "dc/dbe/a16250.html#a45cff2e7ee0525de37382cf09b116a32", null ]
+    [ "HandleDummy", "dc/dbe/a16250.html#a84fb6e08a523f375cd8bc43e9cc73eab", null ],
+    [ "PrepareSpellScript", "dc/dbe/a16250.html#accbf8f40b1ab123a2be81a514c94c836", null ],
+    [ "Register", "dc/dbe/a16250.html#a1805904d5e50bbf5aeccf37d2cadd09e", null ]
 ];

@@ -1,7 +1,7 @@
 var a25590 =
 [
-    [ "HandleEnergize", "d1/de8/a25590.html#a283e713252166a863aa96530d6e7608b", null ],
-    [ "Load", "d1/de8/a25590.html#a89847e0e9435a708c5722ff928f7033f", null ],
-    [ "PrepareSpellScript", "d1/de8/a25590.html#a8847e05e6eeafd801fca5423d0689432", null ],
-    [ "Register", "d1/de8/a25590.html#ae0778ffd8cf203e22510ee91b0394303", null ]
+    [ "CheckProc", "d1/de8/a25590.html#a325336c96dad74ec221c07817222fee1", null ],
+    [ "HandleProc", "d1/de8/a25590.html#a35a1ce56b84b2d8017dbaba626660d70", null ],
+    [ "PrepareAuraScript", "d1/de8/a25590.html#a30f6dd531d4316b4bbb3297af2c17e2e", null ],
+    [ "Register", "d1/de8/a25590.html#a6c86a4cf273d90086c4ebdbcaa6b6632", null ]
 ];

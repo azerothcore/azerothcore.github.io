@@ -1,6 +1,6 @@
 var a17414 =
 [
-    [ "CheckProc", "df/d3e/a17414.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "df/d3e/a17414.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "df/d3e/a17414.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "AbominationDespawner", "df/d3e/a17414.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
+    [ "operator()", "df/d3e/a17414.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
+    [ "_owner", "df/d3e/a17414.html#af9089e566905b885887a5714ad5b0741", null ]
 ];

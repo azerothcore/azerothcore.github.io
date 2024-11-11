@@ -1,7 +1,7 @@
 var a26894 =
 [
-    [ "HandlePeriodic", "de/d60/a26894.html#a3da4cc5322f2e34244729fe3b3876482", null ],
-    [ "PrepareAuraScript", "de/d60/a26894.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
-    [ "Register", "de/d60/a26894.html#a53b6067f46912648413fc6d6f107b0d8", null ],
-    [ "Validate", "de/d60/a26894.html#aa03222717b3c06316b232a6ac0270ec0", null ]
+    [ "go_darkmoon_faire_musicAI", "de/d60/a26894.html#a2ee13dd1260c1ad5b810c25665c9ec87", null ],
+    [ "UpdateAI", "de/d60/a26894.html#af3d802bd852fc0483f72781edb13b5d5", null ],
+    [ "_events", "de/d60/a26894.html#acc7e15d2b286b7df262623acf7ea7f03", null ],
+    [ "rnd", "de/d60/a26894.html#a9a4c983f11c4d912f31eaaf351afc016", null ]
 ];

@@ -1,6 +1,10 @@
 var a13194 =
 [
-    [ "HandleSendEvent", "d7/d81/a13194.html#af62c176d53589228d5e0077c9fc268a3", null ],
-    [ "PrepareSpellScript", "d7/d81/a13194.html#acea8e256f267dd496e5f573e982dba5f", null ],
-    [ "Register", "d7/d81/a13194.html#a0827e177a8268994bb4e63f07993a354", null ]
+    [ "npc_partygoer_pather", "d7/d81/a13194.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
+    [ "Initialize", "d7/d81/a13194.html#afb114b0587c550e39c41e131364da663", null ],
+    [ "PathEndReached", "d7/d81/a13194.html#a55833d306716ba411f96ecd024cc7c72", null ],
+    [ "Reset", "d7/d81/a13194.html#ade2cc36ff49001138eee5b607ec83b12", null ],
+    [ "UpdateAI", "d7/d81/a13194.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
+    [ "_events", "d7/d81/a13194.html#ac210dc0286ded980e78743237a08bb23", null ],
+    [ "_path", "d7/d81/a13194.html#a4da184c44858e99eca2b07193fd48f13", null ]
 ];

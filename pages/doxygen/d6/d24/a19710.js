@@ -1,6 +1,9 @@
 var a19710 =
 [
-    [ "CheckAreaTarget", "d6/d24/a19710.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
-    [ "PrepareAuraScript", "d6/d24/a19710.html#a921b2f67c417244310398bd93061d61c", null ],
-    [ "Register", "d6/d24/a19710.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
+    [ "boss_freya_nature_bombAI", "d6/d24/a19710.html#acbf4d330bb5bf4a032732895e8f7e35b", null ],
+    [ "Reset", "d6/d24/a19710.html#a60738702870e2cacbcdf600e9e7073b5", null ],
+    [ "UpdateAI", "d6/d24/a19710.html#a4bfa9df3e3151743485f59c4d318d7f9", null ],
+    [ "_explodeTimer", "d6/d24/a19710.html#a2af9ed2067097eec2a647f17f8b1ef71", null ],
+    [ "_goGUID", "d6/d24/a19710.html#a1a7579cc6957a52d65a1d302d5ba1da0", null ],
+    [ "Timer", "d6/d24/a19710.html#a714a582c6ec552b969624244d709d14d", null ]
 ];

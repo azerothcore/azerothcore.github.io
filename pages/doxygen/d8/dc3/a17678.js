@@ -1,7 +1,9 @@
 var a17678 =
 [
-    [ "HandleScript", "d8/dc3/a17678.html#a802f667b20bccd3395c233482aa2485b", null ],
-    [ "PrepareSpellScript", "d8/dc3/a17678.html#ad371e6387d5df422eaa05acc9efe2f46", null ],
-    [ "Register", "d8/dc3/a17678.html#a730fded490df68f501010f952ceea40b", null ],
-    [ "Validate", "d8/dc3/a17678.html#a8ec4a10d4d3c348029256fec28a19ed6", null ]
+    [ "AfterApply", "d8/dc3/a17678.html#a0ee1a701f75e9f0a70dc21528ffea683", null ],
+    [ "ExtraRemoveEffect", "d8/dc3/a17678.html#a9f427761fcca9029eb75d586e5876fcd", null ],
+    [ "PeriodicTick", "d8/dc3/a17678.html#a82430399e44001343f322b2c3b7769a5", null ],
+    [ "PrepareAuraScript", "d8/dc3/a17678.html#a9c8e0ed8fde28588e11ebf5e8abd02dc", null ],
+    [ "Register", "d8/dc3/a17678.html#a68be7f7edecd1bae8c962aaa9d556c3e", null ],
+    [ "Validate", "d8/dc3/a17678.html#ae20873e93fbace6272a793993fb45349", null ]
 ];

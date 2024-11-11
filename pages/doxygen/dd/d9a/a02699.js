@@ -1,22 +1,18 @@
 var a02699 =
 [
-    [ "npc_braug_dimspirit", "d6/d26/a15282.html", "d6/d26/a15282" ],
-    [ "npc_kaya_flathoof", "d4/d30/a15286.html", "d4/d30/a15286" ],
-    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
-    [ "GOSSIP_HBD1", "dd/d9a/a02699.html#a487e562e5e99ccd61aa7e93289874033", null ],
-    [ "GOSSIP_HBD2", "dd/d9a/a02699.html#adc43152833884ed78e5debdaaf5d500d", null ],
-    [ "GOSSIP_HBD3", "dd/d9a/a02699.html#aced35316178914dd542d4750f8bbb6cf", null ],
-    [ "GOSSIP_HBD4", "dd/d9a/a02699.html#a182f8c24fa1421c6a7c68e289491400e", null ],
-    [ "GOSSIP_HBD5", "dd/d9a/a02699.html#a34cc0e8072e5c86b2dd23a03fbc8f024", null ],
-    [ "Kaya", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15", [
-      [ "FACTION_ESCORTEE_H", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a189eaa6b201834d1bd3182efbd449c1f", null ],
-      [ "NPC_GRIMTOTEM_RUFFIAN", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a01961a91f321286d0ab25df44697f94f", null ],
-      [ "NPC_GRIMTOTEM_BRUTE", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15ac4f5df2a1f9d7cd9aba151ebfa864967", null ],
-      [ "NPC_GRIMTOTEM_SORCERER", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15ac5803d139c1801ccfdba4b115381afd6", null ],
-      [ "SAY_START", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AMBUSH", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a68cb8abe7aeb84b5de4ba23b8f814d1e", null ],
-      [ "SAY_END", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a40884932ffbbf14d6c380b9022bcfe97", null ],
-      [ "QUEST_PROTECT_KAYA", "dd/d9a/a02699.html#ab10ce9d7e7d19709d0e99ef45b935f15a4a8a823950ae7fb8722359672b427cc6", null ]
-    ] ],
-    [ "AddSC_stonetalon_mountains", "dd/d9a/a02699.html#a985f3fb3a28d1163b27b5de21b1ec6cf", null ]
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, typename >", "d4/d33/a07342.html", null ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_integral_v< T >||std::is_floating_point_v< T > > >", "df/d93/a07346.html", "df/d93/a07346" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string_view, void >", "db/d42/a07350.html", "db/d42/a07350" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string, void >", "df/d7f/a07354.html", "df/d7f/a07354" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::wstring, void >", "d7/daf/a07358.html", "d7/daf/a07358" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_enum_v< T > > >", "d4/d99/a07362.html", "d4/d99/a07362" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_base_of_v< ContainerTag, T > > >", "d2/d7a/a07366.html", "d2/d7a/a07366" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::vector< T >, void >", "d8/d4f/a07370.html", "d8/d4f/a07370" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::array< T, N >, void >", "de/d93/a07374.html", "de/d93/a07374" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Acore::ChatCommands::Variant< Ts... > >", "d1/d1e/a07378.html", "d1/d1e/a07378" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< AchievementEntry const * >", "d6/de4/a07382.html", "d6/de4/a07382" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< GameTele const * >", "db/d6b/a07386.html", "db/d6b/a07386" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< ItemTemplate const * >", "db/d0e/a07390.html", "db/d0e/a07390" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< SpellInfo const * >", "d6/d75/a07394.html", "d6/d75/a07394" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Quest const * >", "d6/d49/a07398.html", "d6/d49/a07398" ]
 ];

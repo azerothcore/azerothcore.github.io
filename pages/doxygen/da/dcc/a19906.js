@@ -1,8 +1,5 @@
 var a19906 =
 [
-    [ "npc_ulduar_flash_freezeAI", "da/dcc/a19906.html#a478e7bc76a7b7ffeb25a0df731cb5ed8", null ],
-    [ "DamageTaken", "da/dcc/a19906.html#af0c18460b4cc331f51c44a3306f516b8", null ],
-    [ "UpdateAI", "da/dcc/a19906.html#ab2efa0a8d06297bff05502c40079efe9", null ],
-    [ "pInstance", "da/dcc/a19906.html#a28be7874fee6dcaea6f205cb75f1450f", null ],
-    [ "timer", "da/dcc/a19906.html#a590117afe9e9943d8dc8a44af9386066", null ]
+    [ "achievement_staying_buffed_all_winter_10", "da/dcc/a19906.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
+    [ "OnCheck", "da/dcc/a19906.html#a67587b1659a8d026e73b42311148541a", null ]
 ];

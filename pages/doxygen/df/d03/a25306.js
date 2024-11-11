@@ -1,6 +1,8 @@
 var a25306 =
 [
-    [ "HandleDummy", "df/d03/a25306.html#ad086618ff3caadcf5126e12a1359503f", null ],
-    [ "PrepareSpellScript", "df/d03/a25306.html#a4b3a79a9ba01226038a1da886f6a2f7c", null ],
-    [ "Register", "df/d03/a25306.html#a214526ddc986ee829daf9090678e3a7b", null ]
+    [ "HandleProc", "df/d03/a25306.html#ad92c7804b26bd29d135e55c8adad9093", null ],
+    [ "OnRemove", "df/d03/a25306.html#afa8e065ed835243f3ebb95c10792adf8", null ],
+    [ "PrepareAuraScript", "df/d03/a25306.html#a5e986f77b23fd0402089ea36f0360c79", null ],
+    [ "Register", "df/d03/a25306.html#a29d66b9790e3f7dfffb5dc398f26f9fb", null ],
+    [ "Validate", "df/d03/a25306.html#a51f81afec6ff0918530208d9de9dae24", null ]
 ];

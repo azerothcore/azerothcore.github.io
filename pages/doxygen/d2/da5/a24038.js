@@ -1,5 +1,9 @@
 var a24038 =
 [
-    [ "npc_shattrath_daily_quest", "d2/da5/a24038.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
-    [ "DoAction", "d2/da5/a24038.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
+    [ "npc_pet_gen_soul_trader_beacon", "d2/da5/a24038.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
+    [ "GetOwner", "d2/da5/a24038.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
+    [ "SpellHitTarget", "d2/da5/a24038.html#a6c0d3181b913c5022325f66586f66bfa", null ],
+    [ "UpdateAI", "d2/da5/a24038.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
+    [ "events", "d2/da5/a24038.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
+    [ "ownerGUID", "d2/da5/a24038.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
 ];

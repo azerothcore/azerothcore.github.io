@@ -1,6 +1,6 @@
 var a21926 =
 [
-    [ "npc_avatar_of_freya", "df/df8/a21926.html#a3a6c4f6d8f05d606c6f545d91acdb2c1", null ],
-    [ "OnGossipHello", "df/df8/a21926.html#a020e8e41b32eb65ff906c9ca934a03fe", null ],
-    [ "OnGossipSelect", "df/df8/a21926.html#aba1b13e922873e939b2510b4bc77f49d", null ]
+    [ "npc_brunnhildar_prisonerAI", "d8/dcd/a21930.html", "d8/dcd/a21930" ],
+    [ "npc_brunnhildar_prisoner", "df/df8/a21926.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "df/df8/a21926.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

@@ -1,6 +1,6 @@
 var a17742 =
 [
-    [ "UnchainedMagicTargetSelector", "da/d27/a17742.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
-    [ "operator()", "da/d27/a17742.html#af28ce8f46154ae6152e9025775a7f84f", null ],
-    [ "_removeHealers", "da/d27/a17742.html#a35a7981ce5495cba8b3a5391e4031431", null ]
+    [ "PeriodicTick", "da/d27/a17742.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
+    [ "PrepareAuraScript", "da/d27/a17742.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
+    [ "Register", "da/d27/a17742.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
 ];

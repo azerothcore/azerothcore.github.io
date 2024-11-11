@@ -1,9 +1,7 @@
 var a21678 =
 [
-    [ "npc_wounded_skirmisher", "d7/dd5/a21678.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
-    [ "Initialize", "d7/dd5/a21678.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
-    [ "JustEngagedWith", "d7/dd5/a21678.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
-    [ "Reset", "d7/dd5/a21678.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
-    [ "SpellHit", "d7/dd5/a21678.html#a891e879af5da1f181c94e528c59a81f1", null ],
-    [ "UpdateAI", "d7/dd5/a21678.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
+    [ "npc_battle_at_valhalasAI", "d0/d09/a21682.html", "d0/d09/a21682" ],
+    [ "npc_battle_at_valhalas", "d7/dd5/a21678.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "d7/dd5/a21678.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "d7/dd5/a21678.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

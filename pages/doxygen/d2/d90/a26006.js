@@ -1,7 +1,5 @@
 var a26006 =
 [
-    [ "if", "d2/d90/a26006.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
-    [ "PrepareAuraScript", "d2/d90/a26006.html#aa31810077c241e77193e378cb297b7de", null ],
-    [ "Register", "d2/d90/a26006.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
-    [ "AuraEffectHandleModes", "d2/d90/a26006.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
+    [ "spell_q11515_fel_siphon_dummy", "d2/d90/a26006.html#a80fa790a716d1ae950f43f9a298afd66", null ],
+    [ "GetSpellScript", "d2/d90/a26006.html#a0d122972fc036d1f1e49c49acda58be3", null ]
 ];

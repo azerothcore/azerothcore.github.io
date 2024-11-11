@@ -1,7 +1,6 @@
 var a12942 =
 [
-    [ "HandleApplyTouch", "d9/d53/a12942.html#ae23887a5da647359efba9a8e31b9f728", null ],
-    [ "PrepareSpellScript", "d9/d53/a12942.html#a9ec150c3cd3369325b8fe4f882c53c59", null ],
-    [ "Register", "d9/d53/a12942.html#af6100a5e08bf9d5bddcec4471a809746", null ],
-    [ "Validate", "d9/d53/a12942.html#a8bbd50100cee0cc9a593259ad218a9a7", null ]
+    [ "npc_demonic_vapor", "d9/d53/a12942.html#aee2e1b7372b8125b49e8466a2406ff00", null ],
+    [ "Reset", "d9/d53/a12942.html#a7d2b88ab26904cedaac34f03567806bc", null ],
+    [ "UpdateAI", "d9/d53/a12942.html#ae80c50c2599e607b54349a87dda5f6f6", null ]
 ];

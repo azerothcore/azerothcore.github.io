@@ -1,6 +1,8 @@
 var a14338 =
 [
-    [ "FilterTargets", "dc/d1b/a14338.html#a45b0713b2942199bf0e19752fe765aac", null ],
-    [ "PrepareSpellScript", "dc/d1b/a14338.html#a7f7177d7754a99743202f69a0342f587", null ],
-    [ "Register", "dc/d1b/a14338.html#a27b432d8571d48c3f5fb025bbbd29271", null ]
+    [ "npc_arthasAI", "dd/d56/a14342.html", "dd/d56/a14342" ],
+    [ "npc_arthas", "dc/d1b/a14338.html#a87c280ff9861187b0a713f795e657266", null ],
+    [ "GetAI", "dc/d1b/a14338.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
+    [ "OnGossipHello", "dc/d1b/a14338.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
+    [ "OnGossipSelect", "dc/d1b/a14338.html#aeca2f4baa3c943281c676c6498393165", null ]
 ];

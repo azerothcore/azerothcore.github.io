@@ -1,7 +1,5 @@
 var a26610 =
 [
-    [ "HandleApply", "d6/dda/a26610.html#aa35fa107aee605a8583150901a75ad72", null ],
-    [ "HandleRemove", "d6/dda/a26610.html#a60b6e438ff67d9db41d160020b54da40", null ],
-    [ "PrepareAuraScript", "d6/dda/a26610.html#a1da44046f2cb9fb68b18f712111c38ea", null ],
-    [ "Register", "d6/dda/a26610.html#ac7c9e15a796e91e0ac68791d24e3d4bf", null ]
+    [ "achievement_resilient_victory", "d6/dda/a26610.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
+    [ "OnCheck", "d6/dda/a26610.html#a21445d406f67771a20608260b3f9b033", null ]
 ];

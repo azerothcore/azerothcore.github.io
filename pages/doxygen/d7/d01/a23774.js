@@ -1,6 +1,6 @@
 var a23774 =
 [
-    [ "npc_aeranasAI", "d2/d67/a23778.html", "d2/d67/a23778" ],
-    [ "npc_aeranas", "d7/d01/a23774.html#a6ea71481ef6a223a329b805081122537", null ],
-    [ "GetAI", "d7/d01/a23774.html#a81167df6665bdca81ee13468dec19643", null ]
+    [ "CheckCast", "d7/d01/a23774.html#ae13cc2d3da1c9911c88402d05679d447", null ],
+    [ "PrepareSpellScript", "d7/d01/a23774.html#afbed81273aa23d355c64579c71e9761d", null ],
+    [ "Register", "d7/d01/a23774.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
 ];

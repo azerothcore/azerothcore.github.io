@@ -1,7 +1,10 @@
 var a14586 =
 [
-    [ "npc_onyxian_lair_guard", "d0/d22/a14586.html#ae72d86cddafd8829fc9edd479a01ab1d", null ],
-    [ "JustEngagedWith", "d0/d22/a14586.html#a7b1d3bc68684202f9b4b95f6dc078be0", null ],
-    [ "UpdateAI", "d0/d22/a14586.html#ac8649636d5847813e49d2ada05f78645", null ],
-    [ "events", "d0/d22/a14586.html#a99acb2010853fcf9f7ac6f08143d06ed", null ]
+    [ "boss_moam", "d0/d22/a14586.html#a9a7a9f410efc5a05e46fd05f331e96c9", null ],
+    [ "InitializeAI", "d0/d22/a14586.html#a2c8bde24fb3811e29c91a57258a243e5", null ],
+    [ "JustDied", "d0/d22/a14586.html#a06b843bddd8f2759fa733c5169e0a5e6", null ],
+    [ "JustEngagedWith", "d0/d22/a14586.html#ad33ba2f2cf9c83f37856aa6f2212637b", null ],
+    [ "Reset", "d0/d22/a14586.html#a4112940fbe1f8be8e7adee7dbc48a9ae", null ],
+    [ "SummonedCreatureDies", "d0/d22/a14586.html#a8401c5e2bd216deee197617b78d85222", null ],
+    [ "UpdateAI", "d0/d22/a14586.html#aadd8320c6194923b113967d3d6c49a5e", null ]
 ];

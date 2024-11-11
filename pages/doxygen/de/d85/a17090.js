@@ -1,7 +1,7 @@
 var a17090 =
 [
-    [ "OnProc", "de/d85/a17090.html#a5b6e96abb900da33657cdbbd137138e3", null ],
-    [ "PrepareAuraScript", "de/d85/a17090.html#a5502476536a923e77af67c4bbcf005e3", null ],
-    [ "Register", "de/d85/a17090.html#aca08edf219504156d6157c95702bb815", null ],
-    [ "Validate", "de/d85/a17090.html#a52b1231f37e8b3d810614365659a98b6", null ]
+    [ "ExtraEffect", "de/d85/a17090.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
+    [ "PrepareAuraScript", "de/d85/a17090.html#a53d6013e5ec473854e1537969cb31988", null ],
+    [ "Register", "de/d85/a17090.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
+    [ "Validate", "de/d85/a17090.html#ab14e7410cf542d9f4043800a3b86c664", null ]
 ];

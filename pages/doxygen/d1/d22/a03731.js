@@ -1,55 +1,96 @@
 var a03731 =
 [
-    [ "AuctionSortInfo", "d7/db6/a06930.html", "d7/db6/a06930" ],
-    [ "AuctionEntry", "d9/dbb/a06934.html", "d9/dbb/a06934" ],
-    [ "AuctionHouseObject", "d6/d02/a06938.html", "d6/d02/a06938" ],
-    [ "AuctionHouseMgr", "d5/deb/a06942.html", "d5/deb/a06942" ],
-    [ "MAX_AUCTION_ITEMS", "d1/d22/a03731.html#aa87bb3f5c1101ca4c260c6bb743a846e", null ],
-    [ "MIN_AUCTION_TIME", "d1/d22/a03731.html#a65e0ff6290b1d068de3d9be0aa323d27", null ],
-    [ "sAuctionMgr", "d1/d22/a03731.html#ac3e168154709326e99ab24a7d1395906", null ],
-    [ "AuctionSortOrderVector", "d1/d22/a03731.html#afefbc3444cfffa5e2fe0ded42a20e407", null ],
-    [ "AuctionAction", "d1/d22/a03731.html#a6f0f1b824cc940197c2bc0cd6cb1dd18", [
-      [ "AUCTION_SELL_ITEM", "d1/d22/a03731.html#a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796", null ],
-      [ "AUCTION_CANCEL", "d1/d22/a03731.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e", null ],
-      [ "AUCTION_PLACE_BID", "d1/d22/a03731.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80", null ]
+    [ "CalendarInvite", "d4/d8c/a07234.html", "d4/d8c/a07234" ],
+    [ "CalendarEvent", "d1/ddc/a07238.html", "d1/ddc/a07238" ],
+    [ "CalendarMgr", "d3/d34/a07242.html", "d3/d34/a07242" ],
+    [ "sCalendarMgr", "d1/d22/a03731.html#a19ac4cd787f75380716d027d20c06b7a", null ],
+    [ "CalendarEventInviteStore", "d1/d22/a03731.html#af35b9a127e069a3aed4acad11a7cc5a6", null ],
+    [ "CalendarEventStore", "d1/d22/a03731.html#aea0466a27af69ea188d66b721b49a3d6", null ],
+    [ "CalendarInviteStore", "d1/d22/a03731.html#a6fe31a855a3ec48abb6eccd7296351ee", null ],
+    [ "CalendarError", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5", [
+      [ "CALENDAR_OK", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ac62ddd961bf35a19647e4cd6b9a7e6cd", null ],
+      [ "CALENDAR_ERROR_GUILD_EVENTS_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a7516b93b285d93c30df815a153d24167", null ],
+      [ "CALENDAR_ERROR_EVENTS_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a4ba9fa39d98f1bf085af3de98cca9dca", null ],
+      [ "CALENDAR_ERROR_SELF_INVITES_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a320b0a93d9cba18e879cd1bea5f96fbf", null ],
+      [ "CALENDAR_ERROR_OTHER_INVITES_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a2f54e4a55eac48953a9cafc4614c4fb4", null ],
+      [ "CALENDAR_ERROR_PERMISSIONS", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a48674cf3f296507a9923feccf39b1afa", null ],
+      [ "CALENDAR_ERROR_EVENT_INVALID", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ae3d987dfddd3797dc8888252cf89fc36", null ],
+      [ "CALENDAR_ERROR_NOT_INVITED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a1560dd9567ff6c5755b3aa62d3979fd8", null ],
+      [ "CALENDAR_ERROR_INTERNAL", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a000f01ad03bfb2f45c6b8e07af9dd825", null ],
+      [ "CALENDAR_ERROR_GUILD_PLAYER_NOT_IN_GUILD", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5af2be40799e55127c125ce2d143ec1ff6", null ],
+      [ "CALENDAR_ERROR_ALREADY_INVITED_TO_EVENT_S", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a8f5b36d4edb8a21f05dd2e4fac327301", null ],
+      [ "CALENDAR_ERROR_PLAYER_NOT_FOUND", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ac3e9334e8cbc95e43e53ff88b1afd20d", null ],
+      [ "CALENDAR_ERROR_NOT_ALLIED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a443a38772984e225a6590867ee37f276", null ],
+      [ "CALENDAR_ERROR_IGNORING_YOU_S", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ac12d9c0f2ef9c311d4e6de7f6388841c", null ],
+      [ "CALENDAR_ERROR_INVITES_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a93ab32bcbba393e663a662113184d128", null ],
+      [ "CALENDAR_ERROR_INVALID_DATE", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a643cb78069bcd2732f7aa59b4ddf4e5e", null ],
+      [ "CALENDAR_ERROR_INVALID_TIME", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5aab8bb0ad9960b4faecc59a4cc60a6582", null ],
+      [ "CALENDAR_ERROR_NEEDS_TITLE", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a65a54f787853a10d0ae3748aaa5777fd", null ],
+      [ "CALENDAR_ERROR_EVENT_PASSED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a0f04b6feb420a3e25db30a97a92a7203", null ],
+      [ "CALENDAR_ERROR_EVENT_LOCKED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a1c9e2cc87b2d09d205062f1309aa2a40", null ],
+      [ "CALENDAR_ERROR_DELETE_CREATOR_FAILED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a6c5119088956e0bd9aee2d6874547522", null ],
+      [ "CALENDAR_ERROR_SYSTEM_DISABLED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a0dc2264473d089c2a2dc2ae72c55bb8e", null ],
+      [ "CALENDAR_ERROR_RESTRICTED_ACCOUNT", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5abb0e98a0d33e09bd1b047bff343c74a1", null ],
+      [ "CALENDAR_ERROR_ARENA_EVENTS_EXCEEDED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a2a84b6823769761020b9b7fd6c22b3c4", null ],
+      [ "CALENDAR_ERROR_RESTRICTED_LEVEL", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a6c4475d051a74a6768efa1781caa1bd8", null ],
+      [ "CALENDAR_ERROR_USER_SQUELCHED", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ac2cf0dee47c60fff68e4d0377b1920ae", null ],
+      [ "CALENDAR_ERROR_NO_INVITE", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a0aa1c82beb1173e79c4195a69dbe57d3", null ],
+      [ "CALENDAR_ERROR_EVENT_WRONG_SERVER", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5ab44e9487ece19ecfc94b4edb564b134f", null ],
+      [ "CALENDAR_ERROR_INVITE_WRONG_SERVER", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a87fd3457b7f5866136a1872a64e0ebf9", null ],
+      [ "CALENDAR_ERROR_NO_GUILD_INVITES", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a583b338a1e449c4556cf59bde571b520", null ],
+      [ "CALENDAR_ERROR_INVALID_SIGNUP", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a02351c5872a342c5a0b8b0b498c83cc2", null ],
+      [ "CALENDAR_ERROR_NO_MODERATOR", "d1/d22/a03731.html#a2812c2f5fdbdaf8b594ea7001772a9c5a77f3aae4f5f09a6d58d64897209d67dd", null ]
     ] ],
-    [ "AuctionError", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225", [
-      [ "ERR_AUCTION_OK", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34", null ],
-      [ "ERR_AUCTION_INVENTORY", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98", null ],
-      [ "ERR_AUCTION_DATABASE_ERROR", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d", null ],
-      [ "ERR_AUCTION_NOT_ENOUGHT_MONEY", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189", null ],
-      [ "ERR_AUCTION_ITEM_NOT_FOUND", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063", null ],
-      [ "ERR_AUCTION_HIGHER_BID", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac", null ],
-      [ "ERR_AUCTION_BID_INCREMENT", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74", null ],
-      [ "ERR_AUCTION_BID_OWN", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9", null ],
-      [ "ERR_AUCTION_RESTRICTED_ACCOUNT", "d1/d22/a03731.html#acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35", null ]
+    [ "CalendarEventType", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fc", [
+      [ "CALENDAR_TYPE_RAID", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fca48aa5b1bedf68195cdd22beef9b70890", null ],
+      [ "CALENDAR_TYPE_DUNGEON", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fca8437c91cd27563e4e360e6c7121634c1", null ],
+      [ "CALENDAR_TYPE_PVP", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fca70d5fb1e15351b8947fc6d67ffe3787e", null ],
+      [ "CALENDAR_TYPE_MEETING", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fca494b5ff6684446c72830fe7b4f5c6c3f", null ],
+      [ "CALENDAR_TYPE_OTHER", "d1/d22/a03731.html#aabfde90a2fd31d4aa93fac9f496c12fca01ce2bdc9dc2ced0772ef714f873f397", null ]
     ] ],
-    [ "AuctionHouses", "d1/d22/a03731.html#a6c4ca607b9d687717cd0a419e7317fec", [
-      [ "AUCTIONHOUSE_ALLIANCE", "d1/d22/a03731.html#a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e", null ],
-      [ "AUCTIONHOUSE_HORDE", "d1/d22/a03731.html#a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e", null ],
-      [ "AUCTIONHOUSE_NEUTRAL", "d1/d22/a03731.html#a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300", null ]
+    [ "CalendarFlags", "d1/d22/a03731.html#a5fcf8a7cda848f4b07b3bfc52392bc1c", [
+      [ "CALENDAR_FLAG_ALL_ALLOWED", "d1/d22/a03731.html#a5fcf8a7cda848f4b07b3bfc52392bc1caaec6bae0b6425676a85d9ba85b0c52ce", null ],
+      [ "CALENDAR_FLAG_INVITES_LOCKED", "d1/d22/a03731.html#a5fcf8a7cda848f4b07b3bfc52392bc1ca11c0822a05ad167436a105ad7d18675e", null ],
+      [ "CALENDAR_FLAG_WITHOUT_INVITES", "d1/d22/a03731.html#a5fcf8a7cda848f4b07b3bfc52392bc1ca0c29c90b66a143ba0c0edfeb9b92d76a", null ],
+      [ "CALENDAR_FLAG_GUILD_EVENT", "d1/d22/a03731.html#a5fcf8a7cda848f4b07b3bfc52392bc1ca2846a8e774488e28e699cf1230dc3bab", null ]
     ] ],
-    [ "AuctionSortOrder", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420", [
-      [ "AUCTION_SORT_MINLEVEL", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4", null ],
-      [ "AUCTION_SORT_RARITY", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055", null ],
-      [ "AUCTION_SORT_BUYOUT", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215", null ],
-      [ "AUCTION_SORT_TIMELEFT", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595", null ],
-      [ "AUCTION_SORT_UNK4", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4", null ],
-      [ "AUCTION_SORT_ITEM", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea", null ],
-      [ "AUCTION_SORT_MINBIDBUY", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef", null ],
-      [ "AUCTION_SORT_OWNER", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e", null ],
-      [ "AUCTION_SORT_BID", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a", null ],
-      [ "AUCTION_SORT_STACK", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4", null ],
-      [ "AUCTION_SORT_BUYOUT_2", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094", null ],
-      [ "AUCTION_SORT_MAX", "d1/d22/a03731.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d", null ]
+    [ "CalendarInviteStatus", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4", [
+      [ "CALENDAR_STATUS_INVITED", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a2a057d25b8c726dc09413d9bb9c8be92", null ],
+      [ "CALENDAR_STATUS_ACCEPTED", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a2ca72ac10e931968fd01373d73b73525", null ],
+      [ "CALENDAR_STATUS_DECLINED", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4aa808b39d9c2805547d936762675ef4f6", null ],
+      [ "CALENDAR_STATUS_CONFIRMED", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4ae7cfe308334841fc33daefeee33cb1bc", null ],
+      [ "CALENDAR_STATUS_OUT", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4af8c5abe28506f07366c085908dfca1bb", null ],
+      [ "CALENDAR_STATUS_STANDBY", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a2177c40fa4e5c9e8f361a01fa10c4aad", null ],
+      [ "CALENDAR_STATUS_SIGNED_UP", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a4268e3a8406a494637e317560ab27d28", null ],
+      [ "CALENDAR_STATUS_NOT_SIGNED_UP", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a0f7719df2703c427637085ef82ec420d", null ],
+      [ "CALENDAR_STATUS_TENTATIVE", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a0f3f83d68d216ff326f5880ae5570be3", null ],
+      [ "CALENDAR_STATUS_REMOVED", "d1/d22/a03731.html#abdb1aa687194b3d8b2fc19da7b3334b4a95cc3d298d4cd178c93c42ead591604d", null ]
     ] ],
-    [ "MailAuctionAnswers", "d1/d22/a03731.html#a098b883868639271d82defd50dad764e", [
-      [ "AUCTION_OUTBIDDED", "d1/d22/a03731.html#a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0", null ],
-      [ "AUCTION_WON", "d1/d22/a03731.html#a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8", null ],
-      [ "AUCTION_SUCCESSFUL", "d1/d22/a03731.html#a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14", null ],
-      [ "AUCTION_EXPIRED", "d1/d22/a03731.html#a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc", null ],
-      [ "AUCTION_CANCELLED_TO_BIDDER", "d1/d22/a03731.html#a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c", null ],
-      [ "AUCTION_CANCELED", "d1/d22/a03731.html#a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6", null ],
-      [ "AUCTION_SALE_PENDING", "d1/d22/a03731.html#a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8", null ]
+    [ "CalendarLimits", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32", [
+      [ "CALENDAR_MAX_EVENTS", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32a49230604bd7fd600f1852ba9dd754076", null ],
+      [ "CALENDAR_MAX_GUILD_EVENTS", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32abec07e16ff5421a7ae42dc4b182958a2", null ],
+      [ "CALENDAR_MAX_INVITES", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32aa5c5d3a6c0bb88385109aa937a047e95", null ],
+      [ "CALENDAR_CREATE_EVENT_COOLDOWN", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32ae4904590b247a266816d8e71ad231b9f", null ],
+      [ "CALENDAR_OLD_EVENTS_DELETION_TIME", "d1/d22/a03731.html#adf6bf00c462990adc2b57c02f9db8c32a1abad081cf58bddddf2065698274bd48", null ]
+    ] ],
+    [ "CalendarMailAnswers", "d1/d22/a03731.html#a73b2cba8ecc0a4fcb6a2d1a63c6ad3e7", [
+      [ "CALENDAR_EVENT_REMOVED_MAIL_SUBJECT", "d1/d22/a03731.html#a73b2cba8ecc0a4fcb6a2d1a63c6ad3e7ab011dccd3e2a3f82731887cb184dacaf", null ],
+      [ "CALENDAR_INVITE_REMOVED_MAIL_SUBJECT", "d1/d22/a03731.html#a73b2cba8ecc0a4fcb6a2d1a63c6ad3e7aeaf378ba4739bc58c1b530fd39368090", null ]
+    ] ],
+    [ "CalendarModerationRank", "d1/d22/a03731.html#a5113854272ddc0db2f1b16775df15bb4", [
+      [ "CALENDAR_RANK_PLAYER", "d1/d22/a03731.html#a5113854272ddc0db2f1b16775df15bb4a9b29fdfc41a609791c42bfd6c0947b0b", null ],
+      [ "CALENDAR_RANK_MODERATOR", "d1/d22/a03731.html#a5113854272ddc0db2f1b16775df15bb4aaeb7962a8bc581af4775ec833986aa0f", null ],
+      [ "CALENDAR_RANK_OWNER", "d1/d22/a03731.html#a5113854272ddc0db2f1b16775df15bb4ae34f35ee3aea898e6537bf5ee896a74a", null ]
+    ] ],
+    [ "CalendarRepeatType", "d1/d22/a03731.html#a478517ab54461ea9b0618c173c75b792", [
+      [ "CALENDAR_REPEAT_NEVER", "d1/d22/a03731.html#a478517ab54461ea9b0618c173c75b792a29ee895d3464b3defda12c78534447fc", null ],
+      [ "CALENDAR_REPEAT_WEEKLY", "d1/d22/a03731.html#a478517ab54461ea9b0618c173c75b792a0d82835a30b2d52a0f7cafe196d80faf", null ],
+      [ "CALENDAR_REPEAT_BIWEEKLY", "d1/d22/a03731.html#a478517ab54461ea9b0618c173c75b792a087f583b5cc1ec6549a15960dd1954d9", null ],
+      [ "CALENDAR_REPEAT_MONTHLY", "d1/d22/a03731.html#a478517ab54461ea9b0618c173c75b792aa432def8a9d2b77823bd1d81b44bc731", null ]
+    ] ],
+    [ "CalendarSendEventType", "d1/d22/a03731.html#a710dc9e6940cf3a1c975690a82bbcc5d", [
+      [ "CALENDAR_SENDTYPE_GET", "d1/d22/a03731.html#a710dc9e6940cf3a1c975690a82bbcc5da8c75918def25fecebd41052d301ebd89", null ],
+      [ "CALENDAR_SENDTYPE_ADD", "d1/d22/a03731.html#a710dc9e6940cf3a1c975690a82bbcc5daddb4d28bc665b21ce707863e8f73d5c6", null ],
+      [ "CALENDAR_SENDTYPE_COPY", "d1/d22/a03731.html#a710dc9e6940cf3a1c975690a82bbcc5da9cac46904887119d94630a5554b9cb5c", null ]
     ] ]
 ];

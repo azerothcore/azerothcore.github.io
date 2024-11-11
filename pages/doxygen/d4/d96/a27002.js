@@ -1,7 +1,6 @@
 var a27002 =
 [
-    [ "go_darkmoon_faire_musicAI", "d4/d96/a27002.html#a2ee13dd1260c1ad5b810c25665c9ec87", null ],
-    [ "UpdateAI", "d4/d96/a27002.html#af3d802bd852fc0483f72781edb13b5d5", null ],
-    [ "_events", "d4/d96/a27002.html#acc7e15d2b286b7df262623acf7ea7f03", null ],
-    [ "rnd", "d4/d96/a27002.html#a9a4c983f11c4d912f31eaaf351afc016", null ]
+    [ "guard_shattrath_scryerAI", "d5/da3/a27006.html", "d5/da3/a27006" ],
+    [ "guard_shattrath_scryer", "d4/d96/a27002.html#a2ee4d6881d7c24cd848c590b84207663", null ],
+    [ "GetAI", "d4/d96/a27002.html#ab1d937102f63c63de4c92e45eff2c21c", null ]
 ];

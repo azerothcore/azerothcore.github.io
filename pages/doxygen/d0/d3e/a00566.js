@@ -1,10 +1,5 @@
 var a00566 =
 [
-    [ "VMAP::ModelSpawn", "df/d92/a04962.html", "df/d92/a04962" ],
-    [ "VMAP::ModelInstance", "d6/d5a/a04966.html", "d6/d5a/a04966" ],
-    [ "ModelFlags", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccce", [
-      [ "MOD_M2", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
-      [ "MOD_WORLDSPAWN", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
-      [ "MOD_HAS_BOUND", "d0/d3e/a00566.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
-    ] ]
+    [ "ACORE_LINKAGE_TYPE_STR", "d0/d3e/a00566.html#a498cc8d79612cf645e7afc2ceb4174f3", null ],
+    [ "AZEROTH_PLATFORM_STR", "d0/d3e/a00566.html#af7cd76a18bc19a0ec34ac7693e406971", null ]
 ];

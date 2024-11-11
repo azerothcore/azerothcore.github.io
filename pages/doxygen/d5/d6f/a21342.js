@@ -1,14 +1,14 @@
 var a21342 =
 [
-    [ "npc_hidden_cultistAI", "d5/d6f/a21342.html#a970aaa2401664337147696624cc8cac4", null ],
-    [ "AttackPlayer", "d5/d6f/a21342.html#a55e3b02d05f35d134fc605a13efe9018", null ],
-    [ "Initialize", "d5/d6f/a21342.html#ab9199126a5a19cc3c6dc612bc428d79c", null ],
-    [ "PreScript", "d5/d6f/a21342.html#a92be5361e2b28152adcca0629b286bb8", null ],
-    [ "Reset", "d5/d6f/a21342.html#afe38e448d86cdf910870d72a3890ae1f", null ],
-    [ "sGossipSelect", "d5/d6f/a21342.html#adf6d85bc5a32c8bd7c125d24f67411d9", null ],
-    [ "UpdateAI", "d5/d6f/a21342.html#a0bba4d10439d47d44ff856c7fec18595", null ],
-    [ "_emoteState", "d5/d6f/a21342.html#adb4e884787dc480358c5be22d276ec49", null ],
-    [ "_events", "d5/d6f/a21342.html#ab0494e33d16a43aa1426784d1882e41c", null ],
-    [ "_npcFlags", "d5/d6f/a21342.html#aea867d06cb737e2a44445c2c8c7d6e45", null ],
-    [ "_playerGUID", "d5/d6f/a21342.html#ac7ecf525ed8c0d2a3d00b34f7afdbf18", null ]
+    [ "npc_dalaran_mageAI", "d5/d6f/a21342.html#ae896a065d2975c5f4d0a125261796215", null ],
+    [ "Initialize", "d5/d6f/a21342.html#a8ede1e1e4599f288f5a8c20c40c11236", null ],
+    [ "JustEngagedWith", "d5/d6f/a21342.html#a05e9c672ab73029c70fa3d2605b6174d", null ],
+    [ "Reset", "d5/d6f/a21342.html#adee723525f46e5476e135e3043f5feb9", null ],
+    [ "UpdateAI", "d5/d6f/a21342.html#ab3d5812e38c1fcc1c01af3fdbd27a61e", null ],
+    [ "blink_timer", "d5/d6f/a21342.html#ae888e0e5d3302e0a47b6e3d41f166c67", null ],
+    [ "blizzard_timer", "d5/d6f/a21342.html#a5da62a7ee9abf7a94c2543076d6479a6", null ],
+    [ "CoC_Timer", "d5/d6f/a21342.html#a8a86c02e2c3759ec1f64087943d37b26", null ],
+    [ "frostfire_timer", "d5/d6f/a21342.html#ab91070d41571e0070a7c92bf0694f4cc", null ],
+    [ "frostnova_timer", "d5/d6f/a21342.html#a77e9a7686cece7ee97236ce6386f82bf", null ],
+    [ "restoremana_timer", "d5/d6f/a21342.html#a33da20a649faa6ee7e61db79846ac4a7", null ]
 ];

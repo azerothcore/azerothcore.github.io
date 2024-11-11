@@ -1,7 +1,6 @@
 var a16234 =
 [
-    [ "HandleEffectPeriodic", "de/d60/a16234.html#ae5749a43f37f0eb3f049d8804845f61e", null ],
-    [ "PrepareAuraScript", "de/d60/a16234.html#a66dcb98f38ed6b040928543015f59c9b", null ],
-    [ "Register", "de/d60/a16234.html#abbebe9c5ad44db61e80ce3707e744ab6", null ],
-    [ "Validate", "de/d60/a16234.html#a1131f0014f298b87483412d960bc0221", null ]
+    [ "npc_announcer_toc10", "de/d60/a16234.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "de/d60/a16234.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "de/d60/a16234.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

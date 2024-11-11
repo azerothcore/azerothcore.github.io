@@ -1,11 +1,8 @@
 var a14038 =
 [
-    [ "npc_winterfin_playmate", "df/dfe/a14038.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
-    [ "MoveInLineOfSight", "df/dfe/a14038.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
-    [ "Reset", "df/dfe/a14038.html#aae6b51c22dc0448608c1cf9412565e25", null ],
-    [ "UpdateAI", "df/dfe/a14038.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
-    [ "orphanGUID", "df/dfe/a14038.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
-    [ "phase", "df/dfe/a14038.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
-    [ "playerGUID", "df/dfe/a14038.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
-    [ "timer", "df/dfe/a14038.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
+    [ "OnApply", "df/dfe/a14038.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
+    [ "OnRemove", "df/dfe/a14038.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
+    [ "PrepareAuraScript", "df/dfe/a14038.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
+    [ "Register", "df/dfe/a14038.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
+    [ "Validate", "df/dfe/a14038.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
 ];

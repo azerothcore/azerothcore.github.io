@@ -1,6 +1,14 @@
 var a15302 =
 [
-    [ "npc_custodian_of_timeAI", "d4/d1c/a15306.html", "d4/d1c/a15306" ],
-    [ "npc_custodian_of_time", "da/d06/a15302.html#a6018b30119ce819853a3c662b3d5347e", null ],
-    [ "GetAI", "da/d06/a15302.html#a57217b2dab1cab110f1c59526ca13c86", null ]
+    [ "npc_ringoAI", "da/d06/a15302.html#a816dcad96afa6bec595f4b2dfe6fb11c", null ],
+    [ "ClearFaint", "da/d06/a15302.html#abd24108debcafafa601958824d44abbb", null ],
+    [ "MoveInLineOfSight", "da/d06/a15302.html#a6758ef2fe371338826dfc8582d6d03f0", null ],
+    [ "Reset", "da/d06/a15302.html#a5b2cf17642bd4a560abb54b8d42bcd25", null ],
+    [ "SetFaint", "da/d06/a15302.html#a09d3770aade34afe5a3a15e17cc64933", null ],
+    [ "SpellHit", "da/d06/a15302.html#ad30d1a9fb84cc777d48b1363cf571d72", null ],
+    [ "UpdateFollowerAI", "da/d06/a15302.html#a3b0effa8ec4d335a1d24d2238346b04a", null ],
+    [ "EndEventProgress", "da/d06/a15302.html#a4df563b83103bbd7e1f0d81a78f6401a", null ],
+    [ "EndEventTimer", "da/d06/a15302.html#a03f20114ca340c7c710bd77ee3c905ef", null ],
+    [ "FaintTimer", "da/d06/a15302.html#a37d12c7edf3100837c99e3fb572f4bf1", null ],
+    [ "SpraggleGUID", "da/d06/a15302.html#a3b58d34a1263355e7b11e22e0eef00a5", null ]
 ];

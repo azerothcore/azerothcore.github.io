@@ -1,6 +1,7 @@
 var a24246 =
 [
-    [ "PrepareSpellScript", "d1/de7/a24246.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
-    [ "RecalculateDamage", "d1/de7/a24246.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
-    [ "Register", "d1/de7/a24246.html#a834484683d2d782b4f4c027091108172", null ]
+    [ "CheckCast", "d1/de7/a24246.html#ab215bbeea333d250ecbff0482f4f0966", null ],
+    [ "FilterTargets", "d1/de7/a24246.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
+    [ "PrepareSpellScript", "d1/de7/a24246.html#a83447d184bb2299987d0c54d5af4c910", null ],
+    [ "Register", "d1/de7/a24246.html#a6107ba00471dd346c363db80fe81b698", null ]
 ];

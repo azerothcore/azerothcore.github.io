@@ -1,15 +1,15 @@
 var a16746 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "d7/d80/a16746.html#ae03f3fef42fcbcecedaf38692d1e9131", null ],
-    [ "DamageTaken", "d7/d80/a16746.html#aad000cc1310f22325a29131fad169cbc", null ],
-    [ "DoAction", "d7/d80/a16746.html#a5d7a324073cfdbd01ae267964959f15b", null ],
-    [ "InitializeAI", "d7/d80/a16746.html#ad84905d1385bce0e431c2baf1158a343", null ],
-    [ "JustEngagedWith", "d7/d80/a16746.html#ae095fa3ceb484cc289a086be8c2f2552", null ],
-    [ "MoveInLineOfSight", "d7/d80/a16746.html#a1d43b002628080d5faf2fd59347a7f79", null ],
-    [ "MovementInform", "d7/d80/a16746.html#a849b06a045de5529706e83b03febe135", null ],
-    [ "Reset", "d7/d80/a16746.html#a0e6b326b3c8102dd711c002537f2c339", null ],
-    [ "UpdateAI", "d7/d80/a16746.html#ade1c91217b6c6e33bfca60a69a51bbc0", null ],
-    [ "events", "d7/d80/a16746.html#a30d65bc3625ed22e11ed7e040451643c", null ],
-    [ "isInvincible", "d7/d80/a16746.html#a0216b301112656fb75907ff1f0d50d0f", null ],
-    [ "pInstance", "d7/d80/a16746.html#afb71e537115d36795c2568360b2d58ce", null ]
+    [ "boss_drakkari_colossusAI", "d7/d80/a16746.html#a28594cf76c5b1977a4f70ba0c3811646", null ],
+    [ "DamageTaken", "d7/d80/a16746.html#ae31f77e5b63fee3d0745919ed737b599", null ],
+    [ "DoAction", "d7/d80/a16746.html#a8e72a38f6a605cafa2667ca585cf0761", null ],
+    [ "InitializeAI", "d7/d80/a16746.html#aa268314e8be79ce2500ab7bb96204766", null ],
+    [ "JustEngagedWith", "d7/d80/a16746.html#ae88b465b2136afd4f5cf7763e0069106", null ],
+    [ "JustReachedHome", "d7/d80/a16746.html#a93f73f204d07b4805f4a7dd240a96d13", null ],
+    [ "JustSummoned", "d7/d80/a16746.html#ab58d286bb6f0ea94c2eb70e52e513ad4", null ],
+    [ "MoveInLineOfSight", "d7/d80/a16746.html#ae1151f6fc9f9ca011a7d476f7d1c6927", null ],
+    [ "Reset", "d7/d80/a16746.html#a5e9c6da15df58a206533a7c718056c3e", null ],
+    [ "SummonedCreatureDespawn", "d7/d80/a16746.html#a58658947c4fc115ea9c1d6f1edd1332e", null ],
+    [ "SummonedCreatureDies", "d7/d80/a16746.html#a59f9efbc2964eec057606d69458b4402", null ],
+    [ "UpdateAI", "d7/d80/a16746.html#afc816b7d1c2705675560ddd13ecce22d", null ]
 ];

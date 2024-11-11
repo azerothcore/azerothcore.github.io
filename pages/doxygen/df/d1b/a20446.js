@@ -1,6 +1,6 @@
 var a20446 =
 [
-    [ "BoomEvent", "df/d1b/a20446.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
-    [ "Execute", "df/d1b/a20446.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
-    [ "_me", "df/d1b/a20446.html#a30de77ee751f1c10231088cb84942342", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "d1/d73/a20450.html", "d1/d73/a20450" ],
+    [ "boss_yoggsaron_crusher_tentacle", "df/d1b/a20446.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
+    [ "GetAI", "df/d1b/a20446.html#a82b6a328197ec81223c1d00dabb79a66", null ]
 ];

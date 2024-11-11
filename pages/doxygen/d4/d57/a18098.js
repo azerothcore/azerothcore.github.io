@@ -1,6 +1,6 @@
 var a18098 =
 [
-    [ "npc_lk_spirit_bombAI", "d9/d65/a18102.html", "d9/d65/a18102" ],
-    [ "npc_lk_spirit_bomb", "d4/d57/a18098.html#acc08d41aa1761c450de782e92307ad7c", null ],
-    [ "GetAI", "d4/d57/a18098.html#ade74c00beb2da69dafb0ae93d771c430", null ]
+    [ "npc_suppresserAI", "d9/d65/a18102.html", "d9/d65/a18102" ],
+    [ "npc_suppresser", "d4/d57/a18098.html#a5db40aecba3c45281fe963c6b2bd8d1e", null ],
+    [ "GetAI", "d4/d57/a18098.html#a48869515abbac1491337a93b987231da", null ]
 ];

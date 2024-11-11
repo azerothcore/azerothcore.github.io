@@ -1,5 +1,6 @@
 var a20186 =
 [
-    [ "go_ulduar_do_not_push_this_button", "de/d0a/a20186.html#aa204af213a643c001161e0c2f173ee6b", null ],
-    [ "OnGossipHello", "de/d0a/a20186.html#ae11efa54b496ab21600a9c62e50b5fbe", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "d6/da8/a20190.html", "d6/da8/a20190" ],
+    [ "npc_ulduar_dark_rune_sentinel", "de/d0a/a20186.html#ac59aa042fd188eaf1eb6a04eb7d545a9", null ],
+    [ "GetAI", "de/d0a/a20186.html#a3884f50f894770ff94ad6977f62c45f3", null ]
 ];

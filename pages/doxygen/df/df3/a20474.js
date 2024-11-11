@@ -1,8 +1,6 @@
 var a20474 =
 [
-    [ "OnPeriodic", "df/df3/a20474.html#aa49d1186ca6f5cdd628728a8a30c06a0", null ],
-    [ "OnRemove", "df/df3/a20474.html#ad3a81506d71ed3d6ddffce7d8f902eb4", null ],
-    [ "PrepareAuraScript", "df/df3/a20474.html#a63b654cf540e331e4d2b4f4ece5c1fcc", null ],
-    [ "Register", "df/df3/a20474.html#a004ba2e0e83a14bef3cae208a45f222b", null ],
-    [ "Validate", "df/df3/a20474.html#aa56622a1e57c157260940023a6c70a35", null ]
+    [ "boss_yoggsaron_descend_portalAI", "db/de6/a20478.html", "db/de6/a20478" ],
+    [ "boss_yoggsaron_descend_portal", "df/df3/a20474.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
+    [ "GetAI", "df/df3/a20474.html#aceb50c808eed17ca468a80b823af1907", null ]
 ];

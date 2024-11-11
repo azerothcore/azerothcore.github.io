@@ -1,7 +1,8 @@
 var a15730 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "d0/d7a/a15730.html#aed531e61508d4d404827f47c6348a5e6", null ],
-    [ "JustEngagedWith", "d0/d7a/a15730.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
-    [ "UpdateAI", "d0/d7a/a15730.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
-    [ "_events", "d0/d7a/a15730.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
+    [ "Load", "d0/d7a/a15730.html#a55dc086667f0fe23e513608e951276ed", null ],
+    [ "Phase", "d0/d7a/a15730.html#af66a6bff13803e54b6ed1447d1285ad4", null ],
+    [ "PrepareSpellScript", "d0/d7a/a15730.html#ae2c7cbd68ccf893144e38581a6f86f04", null ],
+    [ "Register", "d0/d7a/a15730.html#a8ab7e05e98771abcf9bed9995875b71d", null ],
+    [ "Validate", "d0/d7a/a15730.html#a87192df547adaf3cb060155d9cf4da79", null ]
 ];

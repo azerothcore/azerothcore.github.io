@@ -1,7 +1,11 @@
 var a14894 =
 [
-    [ "boss_glob_of_viscidus", "d5/def/a14894.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
-    [ "InitializeAI", "d5/def/a14894.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
-    [ "MovementInform", "d5/def/a14894.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
-    [ "UpdateAI", "d5/def/a14894.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
+    [ "npc_depth_chargeAI", "d5/def/a14894.html#a088848c16418964973107e125c20f508", null ],
+    [ "AttackStart", "d5/def/a14894.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
+    [ "JustEngagedWith", "d5/def/a14894.html#a90cc6eab8b63588f2567f59941eafc59", null ],
+    [ "MoveInLineOfSight", "d5/def/a14894.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
+    [ "Reset", "d5/def/a14894.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
+    [ "UpdateAI", "d5/def/a14894.html#af34e55c3aee40f840edf695adc06495e", null ],
+    [ "WeMustDie", "d5/def/a14894.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
+    [ "WeMustDieTimer", "d5/def/a14894.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
 ];

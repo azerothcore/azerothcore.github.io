@@ -1,5 +1,8 @@
 var a12954 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "df/d9f/a12954.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "df/d9f/a12954.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "HandleApply", "df/d9f/a12954.html#a2e07ffc92d44757fe2b074244048dbf4", null ],
+    [ "HandleRemove", "df/d9f/a12954.html#ae0d8cb63cf62e5015daa56463524aa27", null ],
+    [ "PrepareAuraScript", "df/d9f/a12954.html#a4a59bd5c9ce7b74d29cdd6132f94c0bf", null ],
+    [ "Register", "df/d9f/a12954.html#a3b91d692ad34b7ce965887590780e146", null ],
+    [ "Validate", "df/d9f/a12954.html#aa3ee5b49e9e1009d5be34214eefd2a6d", null ]
 ];

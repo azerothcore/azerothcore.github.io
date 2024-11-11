@@ -1,4 +1,4 @@
 var a00152 =
 [
-    [ "dtQueryFilterExt", "dd/d95/a05274.html", "dd/d95/a05274" ]
+    [ "LogOperation", "d8/d44/a05258.html", "d8/d44/a05258" ]
 ];

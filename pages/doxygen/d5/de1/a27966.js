@@ -1,5 +1,5 @@
 var a27966 =
 [
-    [ "id", "d5/de1/a27966.html#a22e48015dd880199e131089e35b1ce05", null ],
-    [ "spellId", "d5/de1/a27966.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
+    [ "Price", "d5/de1/a27966.html#a9cf01cf0d41d49613b4ceaf1eeb1716b", null ],
+    [ "Slot", "d5/de1/a27966.html#aa53247914bda0ceca015b8b9ca117379", null ]
 ];

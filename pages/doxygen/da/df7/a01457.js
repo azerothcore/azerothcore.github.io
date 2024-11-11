@@ -1,9 +1,6 @@
 var a01457 =
 [
-    [ "instance_drak_tharon_keep", "d1/dfb/a16430.html", "d1/dfb/a16430" ],
-    [ "instance_drak_tharon_keep::instance_drak_tharon_keep_InstanceScript", "d9/df1/a16434.html", "d9/df1/a16434" ],
-    [ "spell_dtk_raise_dead_aura", "d0/dfb/a16438.html", "d0/dfb/a16438" ],
-    [ "spell_dtk_summon_random_drakkari", "d1/dfc/a16442.html", "d1/dfc/a16442" ],
-    [ "AddSC_instance_drak_tharon_keep", "da/df7/a01457.html#a5644ddec1299c3c3988ffb003d0c3367", null ],
-    [ "doorData", "da/df7/a01457.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "fireworkShowGameobjectTeldrassil", "da/df7/a01457.html#ade54ff9545ac94f914ea82994571e3a0", null ],
+    [ "fireworkShowScheduleTeldrassil", "da/df7/a01457.html#a5a91b29d6818da3b038fc384535233b6", null ],
+    [ "fireworkShowTeldrassil", "da/df7/a01457.html#a8999f3fc85a14b073f5037adea6f7496", null ]
 ];

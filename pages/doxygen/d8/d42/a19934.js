@@ -1,6 +1,7 @@
 var a19934 =
 [
-    [ "npc_ulduar_hodir_shamanAI", "d4/d55/a19938.html", "d4/d55/a19938" ],
-    [ "npc_ulduar_hodir_shaman", "d8/d42/a19934.html#ae73a416c72441ab531d8a5db88183d47", null ],
-    [ "GetAI", "d8/d42/a19934.html#ab06a67b72a3954c65792a478ac90672c", null ]
+    [ "HandleScript", "d8/d42/a19934.html#a760bb60198017605111d02af98c827b1", null ],
+    [ "PrepareSpellScript", "d8/d42/a19934.html#a6128956f1037b62fff2e6f10ec22d956", null ],
+    [ "Register", "d8/d42/a19934.html#ae445c98f5543df2f45b77b6cd54d58e7", null ],
+    [ "Validate", "d8/d42/a19934.html#a3bb460d50928bd1b57566dd6a50fa5cd", null ]
 ];

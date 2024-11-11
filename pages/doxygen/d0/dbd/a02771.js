@@ -1,6 +1,4 @@
 var a02771 =
 [
-    [ "fireworkShowGameobjectStormwind", "d0/dbd/a02771.html#ae843a13f6116ce380e3890397d825ae6", null ],
-    [ "fireworkShowScheduleStormwind", "d0/dbd/a02771.html#af98c86c5b3725a8753fc620996c94b7f", null ],
-    [ "fireworkShowStormwind", "d0/dbd/a02771.html#a378278257abadcd4369abd66f412d8e6", null ]
+    [ "ApplySpellFix", "d0/dbd/a02771.html#ab2692a866ddb9539875213c10f37b84e", null ]
 ];

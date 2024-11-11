@@ -1,7 +1,6 @@
 var a19790 =
 [
-    [ "boss_freya_lifebinderAI", "d0/d4b/a19790.html#ae421aa209690e4a2908995b6b7d322cd", null ],
-    [ "Reset", "d0/d4b/a19790.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
-    [ "UpdateAI", "d0/d4b/a19790.html#afb06c217c1012d6463e44689359eada9", null ],
-    [ "_healTimer", "d0/d4b/a19790.html#a7021d13dceb9af343f0e820cf086046e", null ]
+    [ "npc_ulduar_icicleAI", "de/ddd/a19794.html", "de/ddd/a19794" ],
+    [ "npc_ulduar_icicle", "d0/d4b/a19790.html#a1ab79b2fa3e64779f62b96c195222683", null ],
+    [ "GetAI", "d0/d4b/a19790.html#a71dd83d544307b11bcde58f9aeea097c", null ]
 ];

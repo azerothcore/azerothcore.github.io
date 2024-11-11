@@ -1,8 +1,5 @@
 var a26654 =
 [
-    [ "HandleDummy", "da/d91/a26654.html#ad2eec86cff225cc0bd806e31596fb127", null ],
-    [ "PrepareSpellScript", "da/d91/a26654.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
-    [ "Register", "da/d91/a26654.html#a6c72b4c813368774283ae94036a43ee2", null ],
-    [ "SendMiss", "da/d91/a26654.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
-    [ "Validate", "da/d91/a26654.html#a9a5014de08f73ad5dad29354812030ac", null ]
+    [ "achievement_sa_defense_of_the_ancients", "da/d91/a26654.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "da/d91/a26654.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

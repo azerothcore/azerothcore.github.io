@@ -1,6 +1,8 @@
 var a15566 =
 [
-    [ "HandlePeriodic", "da/d05/a15566.html#ad22b433005b2678bde3516a01eaaaa60", null ],
-    [ "PrepareAuraScript", "da/d05/a15566.html#a3711004edaef7242d9cae1f23f9b7467", null ],
-    [ "Register", "da/d05/a15566.html#ad570e51a3d2dd5d3cc4b91aebeefd9ef", null ]
+    [ "boss_sartharion_shadronAI", "da/d05/a15566.html#a02e2e657ac74ab37a4568589511de664", null ],
+    [ "ExecuteEvent", "da/d05/a15566.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
+    [ "HandleExtraEvent", "da/d05/a15566.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
+    [ "Reset", "da/d05/a15566.html#a7054cde1de2166c2b06489187115cb3f", null ],
+    [ "SummonedCreatureDies", "da/d05/a15566.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
 ];

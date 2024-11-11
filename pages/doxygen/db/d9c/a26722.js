@@ -1,5 +1,6 @@
 var a26722 =
 [
-    [ "achievement_bg_control_all_nodes", "db/d9c/a26722.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
-    [ "OnCheck", "db/d9c/a26722.html#a69609eb5488519fa5a1f43b13a80e280", null ]
+    [ "AreaTrigger_at_area_52_entrance", "db/d9c/a26722.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "db/d9c/a26722.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "db/d9c/a26722.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

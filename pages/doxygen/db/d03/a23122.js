@@ -1,8 +1,7 @@
 var a23122 =
 [
-    [ "boss_mekgineer_steamrigger", "db/d03/a23122.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "db/d03/a23122.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "db/d03/a23122.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "db/d03/a23122.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "db/d03/a23122.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "OnApply", "db/d03/a23122.html#a301e47da9be4b4a449701c59c19bc62b", null ],
+    [ "PrepareAuraScript", "db/d03/a23122.html#a623bf9442a4a2b046d1d89bc2523eb37", null ],
+    [ "Register", "db/d03/a23122.html#aaf38547f7fa233b03429734dbe374f13", null ],
+    [ "Validate", "db/d03/a23122.html#ac390e2e24d9a85635ced5eaa343b8e09", null ]
 ];

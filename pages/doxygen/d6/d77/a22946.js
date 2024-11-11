@@ -1,6 +1,6 @@
 var a22946 =
 [
-    [ "HandleDummy", "d6/d77/a22946.html#a3347413822ce083085bcf1418fbdbae2", null ],
-    [ "PrepareSpellScript", "d6/d77/a22946.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
-    [ "Register", "d6/d77/a22946.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
+    [ "go_ahune_ice_stone", "d6/d77/a22946.html#ab7b665f01da80751ea97705c5113bde7", null ],
+    [ "GossipSelect", "d6/d77/a22946.html#aadb4db41ed84922c0a2d0463b8616876", null ],
+    [ "_instance", "d6/d77/a22946.html#a43651f471ac777b59fb8ba67b830cd35", null ]
 ];

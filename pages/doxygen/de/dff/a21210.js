@@ -1,8 +1,7 @@
 var a21210 =
 [
-    [ "npc_azure_captainAI", "de/dff/a21210.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "de/dff/a21210.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "de/dff/a21210.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "de/dff/a21210.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "de/dff/a21210.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "npc_bonker_togglevoltAI", "db/d1e/a21214.html", "db/d1e/a21214" ],
+    [ "npc_bonker_togglevolt", "de/dff/a21210.html#aa37a0ebc03b884b5a2a06d652d5dede3", null ],
+    [ "GetAI", "de/dff/a21210.html#a339c331e73497d2f7e1ee11e01ba4866", null ],
+    [ "OnQuestAccept", "de/dff/a21210.html#aaf1f65a1f6788a98705bc29fecc4c3fa", null ]
 ];

@@ -1,6 +1,6 @@
 var a21482 =
 [
-    [ "npc_future_youAI", "d3/dea/a21486.html", "d3/dea/a21486" ],
-    [ "npc_future_you", "de/d30/a21482.html#a36e363156bcb32fee468989062817bd5", null ],
-    [ "GetAI", "de/d30/a21482.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
+    [ "npc_q24545_vegardAI", "d3/dea/a21486.html", "d3/dea/a21486" ],
+    [ "npc_q24545_vegard", "de/d30/a21482.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
+    [ "GetAI", "de/d30/a21482.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
 ];

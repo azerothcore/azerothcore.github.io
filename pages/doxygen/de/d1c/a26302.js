@@ -1,9 +1,6 @@
 var a26302 =
 [
-    [ "HandleAfterHit", "de/d1c/a26302.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
-    [ "HandleBeforeHit", "de/d1c/a26302.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
-    [ "Load", "de/d1c/a26302.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
-    [ "PrepareSpellScript", "de/d1c/a26302.html#a496c27472579be3b8989868765ec19ef", null ],
-    [ "Register", "de/d1c/a26302.html#a133e338413e960c442446a2a4a13b85b", null ],
-    [ "_stackAmount", "de/d1c/a26302.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
+    [ "FilterTargets", "de/d1c/a26302.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
+    [ "PrepareSpellScript", "de/d1c/a26302.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
+    [ "Register", "de/d1c/a26302.html#abe63ec69fe15fd8924fb63235489e088", null ]
 ];

@@ -1,7 +1,8 @@
 var a21310 =
 [
-    [ "npc_mootoo_the_youngerAI", "de/d4e/a21310.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
-    [ "JustDied", "de/d4e/a21310.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
-    [ "Reset", "de/d4e/a21310.html#a04624b9b4d552d6b27308edc3ad44644", null ],
-    [ "WaypointReached", "de/d4e/a21310.html#ac758a992ed0d62a272930c84d617b348", null ]
+    [ "npc_shandy_dalaranAI", "dc/ddc/a21314.html", "dc/ddc/a21314" ],
+    [ "npc_shandy_dalaran", "de/d4e/a21310.html#a7077c769a252af8ba37b5ff5d524463e", null ],
+    [ "GetAI", "de/d4e/a21310.html#a641551a2aef739e1679912ae27ddb888", null ],
+    [ "OnGossipHello", "de/d4e/a21310.html#a91287aaba09fce091c9d826e75208f84", null ],
+    [ "OnGossipSelect", "de/d4e/a21310.html#ad005a17da187e0cfd03d2faf0099c448", null ]
 ];

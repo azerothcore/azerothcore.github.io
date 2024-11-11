@@ -1,6 +1,6 @@
 var a22038 =
 [
-    [ "npc_freed_protodrakeAI", "dd/d1b/a22042.html", "dd/d1b/a22042" ],
-    [ "npc_freed_protodrake", "de/d61/a22038.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
-    [ "GetAI", "de/d61/a22038.html#a9680bf65cb97327396f58c297df1c8f5", null ]
+    [ "PrepareSpellScript", "de/d61/a22038.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
+    [ "RecalculateDamage", "de/d61/a22038.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
+    [ "Register", "de/d61/a22038.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
 ];

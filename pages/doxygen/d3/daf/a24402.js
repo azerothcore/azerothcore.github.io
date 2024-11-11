@@ -1,6 +1,7 @@
 var a24402 =
 [
-    [ "CheckTargets", "d3/daf/a24402.html#abb6ffb41731b05b868f82498b373d8b9", null ],
-    [ "PrepareSpellScript", "d3/daf/a24402.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
-    [ "Register", "d3/daf/a24402.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
+    [ "CalculateAmount", "d3/daf/a24402.html#a2ed00d02a1685bc8b66e9cdfd430d1ad", null ],
+    [ "Load", "d3/daf/a24402.html#a7ba8da2fdc3bf18cd9925b280e60affa", null ],
+    [ "PrepareAuraScript", "d3/daf/a24402.html#a93df43072a344485c389160306b1fecd", null ],
+    [ "Register", "d3/daf/a24402.html#a6766b6ebbba04bc595373145e4eaaa7a", null ]
 ];

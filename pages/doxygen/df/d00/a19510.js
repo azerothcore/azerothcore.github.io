@@ -1,7 +1,6 @@
 var a19510 =
 [
-    [ "OnRemove", "df/d00/a19510.html#a4d7ec990112b4ed602bcacf5a6de6722", null ],
-    [ "PrepareAuraScript", "df/d00/a19510.html#a7cc9f0d6882b713c7b0a2585d6008437", null ],
-    [ "Register", "df/d00/a19510.html#ad3a66fdfb2a159461bb3deeab6f71c13", null ],
-    [ "Validate", "df/d00/a19510.html#a8bd121743d1153ae3fd8eb124e475d0f", null ]
+    [ "npc_mimirons_infernoAI", "d1/d80/a19514.html", "d1/d80/a19514" ],
+    [ "npc_mimirons_inferno", "df/d00/a19510.html#a7a531a65a179b5d56c888c055b72d269", null ],
+    [ "GetAI", "df/d00/a19510.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
 ];

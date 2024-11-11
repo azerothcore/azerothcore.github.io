@@ -1,6 +1,6 @@
 var a13130 =
 [
-    [ "boss_entropiusAI", "d6/d2d/a13134.html", "d6/d2d/a13134" ],
-    [ "boss_entropius", "d9/d61/a13130.html#a100779eb6056f7447e665306c87c3f55", null ],
-    [ "GetAI", "d9/d61/a13130.html#a4a7180207cfdb3e67e87e0f879155416", null ]
+    [ "HandleSendEvent", "d9/d61/a13130.html#a1be975f4440b823c34cc3e790fcff608", null ],
+    [ "PrepareSpellScript", "d9/d61/a13130.html#a91ac4a392fcf5b6e833fb3f5103d8e06", null ],
+    [ "Register", "d9/d61/a13130.html#a217fb7cb47b08999d49ec04b345b77fe", null ]
 ];

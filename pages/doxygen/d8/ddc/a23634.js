@@ -1,6 +1,6 @@
 var a23634 =
 [
-    [ "HandleScriptEffect", "d8/ddc/a23634.html#a032b00bcd9bda0cd04f93848e4630c6a", null ],
-    [ "PrepareSpellScript", "d8/ddc/a23634.html#ad99a318c6b3ee834aa3c3591a0f8a330", null ],
-    [ "Register", "d8/ddc/a23634.html#aa96de13af039d8dfab0ae1a5d30e21a8", null ]
+    [ "npc_simon_bunnyAI", "d8/d8f/a23638.html", "d8/d8f/a23638" ],
+    [ "npc_simon_bunny", "d8/ddc/a23634.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "d8/ddc/a23634.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

@@ -1,18 +1,13 @@
 var a20778 =
 [
-    [ "boss_ingvar_the_plundererAI", "d3/d45/a20778.html#aa94ca0c2ca407119cb9bfc43d1af2aca", null ],
-    [ "DamageTaken", "d3/d45/a20778.html#a9443e9d2c03aa77e91389290f96afc19", null ],
-    [ "EnterEvadeMode", "d3/d45/a20778.html#a89e02e6527057c629104757ae1e6f404", null ],
-    [ "FeignDeath", "d3/d45/a20778.html#a44afdb271d0fe6003e7d025600ea9371", null ],
-    [ "JustDied", "d3/d45/a20778.html#af650ad54d4db87a31b413bc2fbc98d76", null ],
-    [ "JustEngagedWith", "d3/d45/a20778.html#a82d34c99d3417526f52a4819e918db2d", null ],
-    [ "JustSummoned", "d3/d45/a20778.html#aa51b4d5b05f59856de9f3b7408622d4f", null ],
-    [ "KilledUnit", "d3/d45/a20778.html#a4fb798fb5c74a2d9570b49fc394cf9d1", null ],
-    [ "Reset", "d3/d45/a20778.html#a6b8acc9a9e92586a65e543d3c1d741d6", null ],
-    [ "UpdateAI", "d3/d45/a20778.html#aee8c3f2c538921036798f48cc2edd18f", null ],
-    [ "events", "d3/d45/a20778.html#a45a81e8be3f83443886bfa8c0284a642", null ],
-    [ "pInstance", "d3/d45/a20778.html#a0b15089de9963714e2b9265fc5be008a", null ],
-    [ "summons", "d3/d45/a20778.html#adbd6cc4efd584a15987631fa8ca4b29b", null ],
-    [ "ThrowGUID", "d3/d45/a20778.html#af5ca7cc17c9da8d496052edbfe4f30f7", null ],
-    [ "ValkyrGUID", "d3/d45/a20778.html#a24b5ff7351f7ffcd201948202c371904", null ]
+    [ "npc_ravenous_furbolgAI", "d3/d45/a20778.html#a3e2a0cac8a02d2d6105b06b5c21f1628", null ],
+    [ "DoAction", "d3/d45/a20778.html#a837b442d7812b0c5708995d35c0d45f6", null ],
+    [ "JustDied", "d3/d45/a20778.html#a03e5dd969fcc2e3dcebc714247e18bf2", null ],
+    [ "JustEngagedWith", "d3/d45/a20778.html#a003eb350a11f3f5c2355a58958633f36", null ],
+    [ "JustReachedHome", "d3/d45/a20778.html#a09fc5ba4680c1e5a7a49a81c50cee540", null ],
+    [ "MoveInLineOfSight", "d3/d45/a20778.html#a0b4db9708b9b0288ddb1be2f2205e03a", null ],
+    [ "Reset", "d3/d45/a20778.html#aca5ae47050590ec22e6e929f44e09276", null ],
+    [ "UpdateAI", "d3/d45/a20778.html#ad044c04381a8d61a8fefc55129453ddf", null ],
+    [ "events", "d3/d45/a20778.html#a8bf068c63d7ae10c6edf0af3aab1a6c3", null ],
+    [ "m_pInstance", "d3/d45/a20778.html#aeb0a7644ada4d44e649b4ae45e0d2dc2", null ]
 ];

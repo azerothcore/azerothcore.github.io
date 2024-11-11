@@ -1,13 +1,10 @@
 var a23146 =
 [
-    [ "boss_ghazan", "d8/d24/a23146.html#ae730362fcf3606c67b6b85147de98fb6", null ],
-    [ "DoAction", "d8/d24/a23146.html#ac016d5e06ca4f8f0bf2fa13ce2cd89e2", null ],
-    [ "InitializeAI", "d8/d24/a23146.html#a6b8c975a109dc5eb8a3e3fba03fe806e", null ],
-    [ "JustEngagedWith", "d8/d24/a23146.html#ad4136f0f63d267284f36756793c0efa7", null ],
-    [ "JustReachedHome", "d8/d24/a23146.html#af9f2dd854036d5c8b9c6703499836199", null ],
-    [ "MovementInform", "d8/d24/a23146.html#add9b2e60fb2ffc8a3905f063a2f3d0ae", null ],
-    [ "Reset", "d8/d24/a23146.html#afc9522a26060643f2f9d25a8a98691b7", null ],
-    [ "UpdateAI", "d8/d24/a23146.html#a40a6dd5ed2954be7df4612a7552e1bc0", null ],
-    [ "_movedToPlatform", "d8/d24/a23146.html#aa6c0c391355ac0b698d67796efd63062", null ],
-    [ "_reachedPlatform", "d8/d24/a23146.html#af3476318b4721bd52facaf735eabb1f9", null ]
+    [ "boss_blindeye_the_seer", "d8/d24/a23146.html#a8b95c6f0a822adf018c5aefe59ecef5b", null ],
+    [ "JustDied", "d8/d24/a23146.html#ad70a72b18587da82d26bde8f10d63700", null ],
+    [ "JustEngagedWith", "d8/d24/a23146.html#a0cf082eefe75eac19cc09d2f714d5ff1", null ],
+    [ "Reset", "d8/d24/a23146.html#aabbda75266615f64ce88ce092e68bfa4", null ],
+    [ "UpdateAI", "d8/d24/a23146.html#a8ff8ae03cc528b9a2c71cfc2c7ff3f88", null ],
+    [ "_scheduler", "d8/d24/a23146.html#a0c5ec6cf114a289e22d890c61d4bdc93", null ],
+    [ "instance", "d8/d24/a23146.html#a74462f26d66da3ca370825858060b1c2", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/UnitScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CreatureAI.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,157 +106,269 @@ $(document).ready(function(){initNavTree('df/de2/a03410.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">UnitScript.h File Reference</div></div>
+  <div class="headertitle"><div class="title">CreatureAI.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaBoundary.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">EventMap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TaskScheduler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UnitAI.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a10102.html">UnitScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/a06062.html">CreatureAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8de08a341cdd207e19eef425c2f5f152"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a8de08a341cdd207e19eef425c2f5f152">TIME_INTERVAL_LOOK</a>&#160;&#160;&#160;5000</td></tr>
+<tr class="separator:a8de08a341cdd207e19eef425c2f5f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5548091cca58d569e4226b6915ec8cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a5548091cca58d569e4226b6915ec8cb2">VISIBILITY_RANGE</a>&#160;&#160;&#160;10000</td></tr>
+<tr class="separator:a5548091cca58d569e4226b6915ec8cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a7994a32cb10f6de9d90e32ef2d6c1f37"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d9/d6e/a09426.html">AreaBoundary</a> const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a7994a32cb10f6de9d90e32ef2d6c1f37">CreatureBoundary</a></td></tr>
+<tr class="separator:a7994a32cb10f6de9d90e32ef2d6c1f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4eaefcbbd1058569f55194299c218c26"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26">UnitHook</a> { <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a>
+<tr class="memitem:a09291ebbaa06245b9f65d046a8b67621"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621">SelectTargetType</a> { <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749">SELECT_TARGET_DONTCARE</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a">SELECT_TARGET_SELF</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261">SELECT_TARGET_SINGLE_ENEMY</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4">SELECT_TARGET_AOE_ENEMY</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508">SELECT_TARGET_ANY_ENEMY</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb">SELECT_TARGET_SINGLE_FRIEND</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38">SELECT_TARGET_AOE_FRIEND</a>
 , <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a>
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3">SELECT_TARGET_ANY_FRIEND</a>
 <br />
  }</td></tr>
-<tr class="separator:a4eaefcbbd1058569f55194299c218c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a09291ebbaa06245b9f65d046a8b67621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b21f6463e7db78be55dee9160352869"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869">SelectEffect</a> { <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9">SELECT_EFFECT_DONTCARE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae">SELECT_EFFECT_DAMAGE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404">SELECT_EFFECT_HEALING</a>
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5">SELECT_EFFECT_AURA</a>
+<br />
+ }</td></tr>
+<tr class="separator:a8b21f6463e7db78be55dee9160352869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8561d766fce1bb059293efa6256c9717"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717">SCEquip</a> { <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2">EQUIP_NO_CHANGE</a> = -1
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c">EQUIP_UNEQUIP</a> = 0
+<br />
+ }</td></tr>
+<tr class="separator:a8561d766fce1bb059293efa6256c9717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf806592547de59418c6070d69c5efb9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9">Permitions</a> : int32 { <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a> = -1
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58">PERMIT_BASE_REACTIVE</a> = 100
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a> = 200
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059">PERMIT_BASE_FACTION_SPECIFIC</a> = 400
+, <br />
+&#160;&#160;<a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a> = 800
+<br />
+ }</td></tr>
+<tr class="separator:adf806592547de59418c6070d69c5efb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4eaefcbbd1058569f55194299c218c26" name="a4eaefcbbd1058569f55194299c218c26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eaefcbbd1058569f55194299c218c26">&#9670;&#160;</a></span>UnitHook</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a8de08a341cdd207e19eef425c2f5f152" name="a8de08a341cdd207e19eef425c2f5f152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de08a341cdd207e19eef425c2f5f152">&#9670;&#160;</a></span>TIME_INTERVAL_LOOK</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26">UnitHook</a></td>
+          <td class="memname">#define TIME_INTERVAL_LOOK&#160;&#160;&#160;5000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5548091cca58d569e4226b6915ec8cb2" name="a5548091cca58d569e4226b6915ec8cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5548091cca58d569e4226b6915ec8cb2">&#9670;&#160;</a></span>VISIBILITY_RANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VISIBILITY_RANGE&#160;&#160;&#160;10000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7994a32cb10f6de9d90e32ef2d6c1f37" name="a7994a32cb10f6de9d90e32ef2d6c1f37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7994a32cb10f6de9d90e32ef2d6c1f37">&#9670;&#160;</a></span>CreatureBoundary</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d9/d6e/a09426.html">AreaBoundary</a> const*&gt; <a class="el" href="../../df/de2/a03410.html#a7994a32cb10f6de9d90e32ef2d6c1f37">CreatureBoundary</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="adf806592547de59418c6070d69c5efb9" name="adf806592547de59418c6070d69c5efb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf806592547de59418c6070d69c5efb9">&#9670;&#160;</a></span>Permitions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9">Permitions</a> : <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256" name="a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256"></a>UNITHOOK_ON_HEAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b" name="a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b"></a>UNITHOOK_ON_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde" name="a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde"></a>UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca" name="a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca"></a>UNITHOOK_MODIFY_MELEE_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e" name="a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e"></a>UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd" name="a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd"></a>UNITHOOK_MODIFY_HEAL_RECEIVED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49" name="a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49"></a>UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae" name="a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae"></a>UNITHOOK_ON_AURA_APPLY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e" name="a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e"></a>UNITHOOK_ON_AURA_REMOVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c" name="a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c"></a>UNITHOOK_IF_NORMAL_REACTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223" name="a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223"></a>UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a" name="a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a"></a>UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e" name="a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e"></a>UNITHOOK_IS_NEEDMOD_HEAL_PERCENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93" name="a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93"></a>UNITHOOK_CAN_SET_PHASE_MASK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7" name="a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7"></a>UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762" name="a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762"></a>UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82" name="a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82"></a>UNITHOOK_ON_PATCH_VALUES_UPDATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f" name="a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f"></a>UNITHOOK_ON_UNIT_UPDATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1" name="a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1"></a>UNITHOOK_ON_DISPLAYID_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e" name="a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e"></a>UNITHOOK_ON_UNIT_ENTER_EVADE_MODE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957" name="a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957"></a>UNITHOOK_ON_UNIT_ENTER_COMBAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57" name="a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57"></a>UNITHOOK_ON_UNIT_DEATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352" name="a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352"></a>UNITHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0" name="adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0"></a>PERMIT_BASE_NO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0" name="adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0"></a>PERMIT_BASE_IDLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58" name="adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58"></a>PERMIT_BASE_REACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c" name="adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c"></a>PERMIT_BASE_PROACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059" name="adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059"></a>PERMIT_BASE_FACTION_SPECIFIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415" name="adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415"></a>PERMIT_BASE_SPECIAL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a>,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a>,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a>,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a>,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a>,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a>,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a>,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a>,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a>,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a>,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a>,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a>,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a>,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a>,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a>,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a></div>
-<div class="line"><span class="lineno">   49</span>};</div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</div><div class="ttdef"><b>Definition:</b> UnitScript.h:28</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_ENTER_COMBAT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:46</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a></div><div class="ttdeci">@ UNITHOOK_CAN_SET_PHASE_MASK</div><div class="ttdef"><b>Definition:</b> UnitScript.h:39</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a></div><div class="ttdeci">@ UNITHOOK_ON_DISPLAYID_CHANGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:44</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:43</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:45</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_HEAL_RECEIVED</div><div class="ttdef"><b>Definition:</b> UnitScript.h:31</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_ON_PATCH_VALUES_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:42</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a></div><div class="ttdeci">@ UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</div><div class="ttdef"><b>Definition:</b> UnitScript.h:32</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a></div><div class="ttdeci">@ UNITHOOK_ON_DAMAGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:27</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_MELEE_DAMAGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:29</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</div><div class="ttdef"><b>Definition:</b> UnitScript.h:30</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_DEATH</div><div class="ttdef"><b>Definition:</b> UnitScript.h:47</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a></div><div class="ttdeci">@ UNITHOOK_ON_AURA_REMOVE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:34</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a></div><div class="ttdeci">@ UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</div><div class="ttdef"><b>Definition:</b> UnitScript.h:41</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:40</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a></div><div class="ttdeci">@ UNITHOOK_ON_AURA_APPLY</div><div class="ttdef"><b>Definition:</b> UnitScript.h:33</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a></div><div class="ttdeci">@ UNITHOOK_IF_NORMAL_REACTION</div><div class="ttdef"><b>Definition:</b> UnitScript.h:35</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:37</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:38</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a></div><div class="ttdeci">@ UNITHOOK_END</div><div class="ttdef"><b>Definition:</b> UnitScript.h:48</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a></div><div class="ttdeci">@ UNITHOOK_ON_HEAL</div><div class="ttdef"><b>Definition:</b> UnitScript.h:26</div></div>
-<div class="ttc" id="aa03410_html_a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223"><div class="ttname"><a href="../../df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:36</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
+<div class="line"><span class="lineno">  239</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a>                 = -1,</div>
+<div class="line"><span class="lineno">  240</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a>               = 1,</div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58">PERMIT_BASE_REACTIVE</a>           = 100,</div>
+<div class="line"><span class="lineno">  242</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a>          = 200,</div>
+<div class="line"><span class="lineno">  243</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059">PERMIT_BASE_FACTION_SPECIFIC</a>   = 400,</div>
+<div class="line"><span class="lineno">  244</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a>            = 800</div>
+<div class="line"><span class="lineno">  245</span>};</div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a></div><div class="ttdeci">@ PERMIT_BASE_SPECIAL</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:244</div></div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a></div><div class="ttdeci">@ PERMIT_BASE_PROACTIVE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:242</div></div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a></div><div class="ttdeci">@ PERMIT_BASE_NO</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:239</div></div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58">PERMIT_BASE_REACTIVE</a></div><div class="ttdeci">@ PERMIT_BASE_REACTIVE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:241</div></div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059">PERMIT_BASE_FACTION_SPECIFIC</a></div><div class="ttdeci">@ PERMIT_BASE_FACTION_SPECIFIC</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:243</div></div>
+<div class="ttc" id="aa03410_html_adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0"><div class="ttname"><a href="../../df/de2/a03410.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a></div><div class="ttdeci">@ PERMIT_BASE_IDLE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:240</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8561d766fce1bb059293efa6256c9717" name="a8561d766fce1bb059293efa6256c9717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8561d766fce1bb059293efa6256c9717">&#9670;&#160;</a></span>SCEquip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717">SCEquip</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2" name="a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2"></a>EQUIP_NO_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c" name="a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c"></a>EQUIP_UNEQUIP&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2">EQUIP_NO_CHANGE</a> = -1,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c">EQUIP_UNEQUIP</a>   = 0</div>
+<div class="line"><span class="lineno">   67</span>};</div>
+<div class="ttc" id="aa03410_html_a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c"><div class="ttname"><a href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c">EQUIP_UNEQUIP</a></div><div class="ttdeci">@ EQUIP_UNEQUIP</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:66</div></div>
+<div class="ttc" id="aa03410_html_a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2"><div class="ttname"><a href="../../df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2">EQUIP_NO_CHANGE</a></div><div class="ttdeci">@ EQUIP_NO_CHANGE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:65</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8b21f6463e7db78be55dee9160352869" name="a8b21f6463e7db78be55dee9160352869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b21f6463e7db78be55dee9160352869">&#9670;&#160;</a></span>SelectEffect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869">SelectEffect</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9" name="a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9"></a>SELECT_EFFECT_DONTCARE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae" name="a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae"></a>SELECT_EFFECT_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404" name="a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404"></a>SELECT_EFFECT_HEALING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5" name="a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5"></a>SELECT_EFFECT_AURA&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9">SELECT_EFFECT_DONTCARE</a> = 0,                             <span class="comment">//All spell effects allowed</span></div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae">SELECT_EFFECT_DAMAGE</a>,                                   <span class="comment">//Spell does damage</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404">SELECT_EFFECT_HEALING</a>,                                  <span class="comment">//Spell does healing</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5">SELECT_EFFECT_AURA</a>,                                     <span class="comment">//Spell applies an aura</span></div>
+<div class="line"><span class="lineno">   61</span>};</div>
+<div class="ttc" id="aa03410_html_a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9"><div class="ttname"><a href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9">SELECT_EFFECT_DONTCARE</a></div><div class="ttdeci">@ SELECT_EFFECT_DONTCARE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:57</div></div>
+<div class="ttc" id="aa03410_html_a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5"><div class="ttname"><a href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5">SELECT_EFFECT_AURA</a></div><div class="ttdeci">@ SELECT_EFFECT_AURA</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:60</div></div>
+<div class="ttc" id="aa03410_html_a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404"><div class="ttname"><a href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404">SELECT_EFFECT_HEALING</a></div><div class="ttdeci">@ SELECT_EFFECT_HEALING</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:59</div></div>
+<div class="ttc" id="aa03410_html_a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae"><div class="ttname"><a href="../../df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae">SELECT_EFFECT_DAMAGE</a></div><div class="ttdeci">@ SELECT_EFFECT_DAMAGE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:58</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a09291ebbaa06245b9f65d046a8b67621" name="a09291ebbaa06245b9f65d046a8b67621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09291ebbaa06245b9f65d046a8b67621">&#9670;&#160;</a></span>SelectTargetType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621">SelectTargetType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749" name="a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749"></a>SELECT_TARGET_DONTCARE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a" name="a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a"></a>SELECT_TARGET_SELF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261" name="a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261"></a>SELECT_TARGET_SINGLE_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4" name="a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4"></a>SELECT_TARGET_AOE_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508" name="a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508"></a>SELECT_TARGET_ANY_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb" name="a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb"></a>SELECT_TARGET_SINGLE_FRIEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38" name="a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38"></a>SELECT_TARGET_AOE_FRIEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3" name="a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3"></a>SELECT_TARGET_ANY_FRIEND&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749">SELECT_TARGET_DONTCARE</a> = 0,                             <span class="comment">//All target types allowed</span></div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a">SELECT_TARGET_SELF</a>,                                     <span class="comment">//Only Self casting</span></div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261">SELECT_TARGET_SINGLE_ENEMY</a>,                             <span class="comment">//Only Single Enemy</span></div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4">SELECT_TARGET_AOE_ENEMY</a>,                                <span class="comment">//Only AoE Enemy</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508">SELECT_TARGET_ANY_ENEMY</a>,                                <span class="comment">//AoE or Single Enemy</span></div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb">SELECT_TARGET_SINGLE_FRIEND</a>,                            <span class="comment">//Only Single Friend</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38">SELECT_TARGET_AOE_FRIEND</a>,                               <span class="comment">//Only AoE Friend</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3">SELECT_TARGET_ANY_FRIEND</a>,                               <span class="comment">//AoE or Single Friend</span></div>
+<div class="line"><span class="lineno">   52</span>};</div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3">SELECT_TARGET_ANY_FRIEND</a></div><div class="ttdeci">@ SELECT_TARGET_ANY_FRIEND</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:51</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38">SELECT_TARGET_AOE_FRIEND</a></div><div class="ttdeci">@ SELECT_TARGET_AOE_FRIEND</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:50</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508">SELECT_TARGET_ANY_ENEMY</a></div><div class="ttdeci">@ SELECT_TARGET_ANY_ENEMY</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:47</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb">SELECT_TARGET_SINGLE_FRIEND</a></div><div class="ttdeci">@ SELECT_TARGET_SINGLE_FRIEND</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:49</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261">SELECT_TARGET_SINGLE_ENEMY</a></div><div class="ttdeci">@ SELECT_TARGET_SINGLE_ENEMY</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:45</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749">SELECT_TARGET_DONTCARE</a></div><div class="ttdeci">@ SELECT_TARGET_DONTCARE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:41</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a">SELECT_TARGET_SELF</a></div><div class="ttdeci">@ SELECT_TARGET_SELF</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:43</div></div>
+<div class="ttc" id="aa03410_html_a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4"><div class="ttname"><a href="../../df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4">SELECT_TARGET_AOE_ENEMY</a></div><div class="ttdeci">@ SELECT_TARGET_AOE_ENEMY</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:46</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -265,8 +377,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../df/de2/a03410.html">UnitScript.h</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:39:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../df/de2/a03410.html">CreatureAI.h</a></li>
+    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

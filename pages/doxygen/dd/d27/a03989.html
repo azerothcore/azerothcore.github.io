@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Creature/TemporarySummon.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Pet/Pet.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,68 +106,114 @@ $(document).ready(function(){initNavTree('dd/d27/a03989.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">TemporarySummon.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Pet.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CharmInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PetDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8d/a07878.html">TempSummonData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores data for temp summons.  <a href="../../d3/d8d/a07878.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/a08234.html">PetSpell</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc5/a07882.html">TempSummon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da1/a07886.html">Minion</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de7/a07890.html">Guardian</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/a07894.html">Puppet</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a07898.html">ForcedUnsummonDelayEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8b/a08238.html">Pet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ac8a8d6d0515f6d559068f8aaae56e188"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188">SummonerType</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a">SUMMONER_TYPE_CREATURE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347">SUMMONER_TYPE_GAMEOBJECT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270">SUMMONER_TYPE_MAP</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:ac8a8d6d0515f6d559068f8aaae56e188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5b33058abef8c309621a9029df331c0e"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/da9/a08234.html">PetSpell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d27/a03989.html#a5b33058abef8c309621a9029df331c0e">PetSpellMap</a></td></tr>
+<tr class="separator:a5b33058abef8c309621a9029df331c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85baf40bd776b1c20b66ba7ad78e0356"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d27/a03989.html#a85baf40bd776b1c20b66ba7ad78e0356">AutoSpellList</a></td></tr>
+<tr class="separator:a85baf40bd776b1c20b66ba7ad78e0356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa23de8f28ae915637ac3f4f6429b59fb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d27/a03989.html#aa23de8f28ae915637ac3f4f6429b59fb">PET_LOSE_HAPPINES_INTERVAL</a> = 7500</td></tr>
+<tr class="separator:aa23de8f28ae915637ac3f4f6429b59fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892e58d225a828ccac38c7d241365e30"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d27/a03989.html#a892e58d225a828ccac38c7d241365e30">HAPPINESS_LEVEL_SIZE</a> = 333000</td></tr>
+<tr class="separator:a892e58d225a828ccac38c7d241365e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac8a8d6d0515f6d559068f8aaae56e188" name="ac8a8d6d0515f6d559068f8aaae56e188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8a8d6d0515f6d559068f8aaae56e188">&#9670;&#160;</a></span>SummonerType</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a85baf40bd776b1c20b66ba7ad78e0356" name="a85baf40bd776b1c20b66ba7ad78e0356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85baf40bd776b1c20b66ba7ad78e0356">&#9670;&#160;</a></span>AutoSpellList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188">SummonerType</a></td>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../dd/d27/a03989.html#a85baf40bd776b1c20b66ba7ad78e0356">AutoSpellList</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a" name="ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a"></a>SUMMONER_TYPE_CREATURE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347" name="ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347"></a>SUMMONER_TYPE_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270" name="ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270"></a>SUMMONER_TYPE_MAP&#160;</td><td class="fielddoc"></td></tr>
+
+</div>
+</div>
+<a id="a5b33058abef8c309621a9029df331c0e" name="a5b33058abef8c309621a9029df331c0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b33058abef8c309621a9029df331c0e">&#9670;&#160;</a></span>PetSpellMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/da9/a08234.html">PetSpell</a>&gt; <a class="el" href="../../dd/d27/a03989.html#a5b33058abef8c309621a9029df331c0e">PetSpellMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a892e58d225a828ccac38c7d241365e30" name="a892e58d225a828ccac38c7d241365e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892e58d225a828ccac38c7d241365e30">&#9670;&#160;</a></span>HAPPINESS_LEVEL_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto HAPPINESS_LEVEL_SIZE = 333000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a">SUMMONER_TYPE_CREATURE</a>      = 0,</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347">SUMMONER_TYPE_GAMEOBJECT</a>    = 1,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270">SUMMONER_TYPE_MAP</a>           = 2</div>
-<div class="line"><span class="lineno">   28</span>};</div>
-<div class="ttc" id="aa03989_html_ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270"><div class="ttname"><a href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270">SUMMONER_TYPE_MAP</a></div><div class="ttdeci">@ SUMMONER_TYPE_MAP</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:27</div></div>
-<div class="ttc" id="aa03989_html_ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a"><div class="ttname"><a href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a">SUMMONER_TYPE_CREATURE</a></div><div class="ttdeci">@ SUMMONER_TYPE_CREATURE</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:25</div></div>
-<div class="ttc" id="aa03989_html_ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347"><div class="ttname"><a href="../../dd/d27/a03989.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347">SUMMONER_TYPE_GAMEOBJECT</a></div><div class="ttdeci">@ SUMMONER_TYPE_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:26</div></div>
-</div><!-- fragment -->
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00874">Pet::GetHappinessState()</a>, and <a class="el" href="../../#l00631">Pet::setDeathState()</a>.</p>
+
+</div>
+</div>
+<a id="aa23de8f28ae915637ac3f4f6429b59fb" name="aa23de8f28ae915637ac3f4f6429b59fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa23de8f28ae915637ac3f4f6429b59fb">&#9670;&#160;</a></span>PET_LOSE_HAPPINES_INTERVAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto PET_LOSE_HAPPINES_INTERVAL = 7500</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00657">Pet::Update()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -175,8 +221,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_27c47d768f113c084c0b575dcbf4137a.html">Creature</a></li><li class="navelem"><a class="el" href="../../dd/d27/a03989.html">TemporarySummon.h</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:39:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_ad2e777a6187183a8e6ee76e3ed26133.html">Pet</a></li><li class="navelem"><a class="el" href="../../dd/d27/a03989.html">Pet.h</a></li>
+    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

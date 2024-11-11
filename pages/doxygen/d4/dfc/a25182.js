@@ -1,6 +1,7 @@
 var a25182 =
 [
-    [ "OnRemove", "d4/dfc/a25182.html#ac3a6d7bdc95605e3c73f8115b4a68da0", null ],
-    [ "PrepareAuraScript", "d4/dfc/a25182.html#ab1e3a55a35dbbb4bd781ac8c51608e6a", null ],
-    [ "Register", "d4/dfc/a25182.html#aecd068248e174c4b676ff9f43dd0856f", null ]
+    [ "CalculateDamageAmount", "d4/dfc/a25182.html#a2f608e8391e61434ef1b164c023854fe", null ],
+    [ "CalculateManaLeechAmount", "d4/dfc/a25182.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
+    [ "PrepareAuraScript", "d4/dfc/a25182.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
+    [ "Register", "d4/dfc/a25182.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
 ];

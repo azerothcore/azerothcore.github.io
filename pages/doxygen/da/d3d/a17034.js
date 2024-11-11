@@ -1,6 +1,8 @@
 var a17034 =
 [
-    [ "ChangeSummonPos", "da/d3d/a17034.html#a2c3d69419762c7f78688a22017a8c535", null ],
-    [ "PrepareSpellScript", "da/d3d/a17034.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
-    [ "Register", "da/d3d/a17034.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
+    [ "npc_saurfang_eventAI", "da/d3d/a17034.html#a8436a87576c92ecc0b45106683d20e93", null ],
+    [ "DoAction", "da/d3d/a17034.html#a45201c4a5b94fad948efe1d08e63e262", null ],
+    [ "SetData", "da/d3d/a17034.html#a7f012a54ebce5307940eb7957f028d52", null ],
+    [ "SpellHit", "da/d3d/a17034.html#a2ed920f949c4d8dbc6d6ff5b9149e749", null ],
+    [ "_index", "da/d3d/a17034.html#a793d72078bd68b34fcdb7cd6587295dd", null ]
 ];

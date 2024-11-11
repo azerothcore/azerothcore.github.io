@@ -1,7 +1,6 @@
 var a25526 =
 [
-    [ "Load", "da/dad/a25526.html#a8be944ae201f4f8406948aff78f982d9", null ],
-    [ "OnDummyEffect", "da/dad/a25526.html#adcb707400963e549a295e115d6f3583b", null ],
-    [ "PrepareSpellScript", "da/dad/a25526.html#a5b2175a933df10d775bc3381f515aa96", null ],
-    [ "Register", "da/dad/a25526.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
+    [ "CalculateDamage", "da/dad/a25526.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
+    [ "PrepareSpellScript", "da/dad/a25526.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
+    [ "Register", "da/dad/a25526.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
 ];

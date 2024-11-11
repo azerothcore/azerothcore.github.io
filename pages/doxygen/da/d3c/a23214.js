@@ -1,11 +1,12 @@
 var a23214 =
 [
-    [ "boss_gruul", "da/d3c/a23214.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "da/d3c/a23214.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "da/d3c/a23214.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "da/d3c/a23214.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "da/d3c/a23214.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "da/d3c/a23214.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "da/d3c/a23214.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "da/d3c/a23214.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "boss_watchkeeper_gargolmar", "da/d3c/a23214.html#acb4212c6f852f50f3edfa3880806a9d2", null ],
+    [ "JustDied", "da/d3c/a23214.html#a39be5796b39bea913105fc48dda0d186", null ],
+    [ "JustEngagedWith", "da/d3c/a23214.html#a9e3194d02d0d3b66ef38118aa32ae684", null ],
+    [ "KilledUnit", "da/d3c/a23214.html#a22736c2680f41cfd3443a76cd4de9352", null ],
+    [ "MoveInLineOfSight", "da/d3c/a23214.html#adec9837fdb2595ce57acffb279a7d011", null ],
+    [ "Reset", "da/d3c/a23214.html#a356b7fe9071b073b74b21913e35e7408", null ],
+    [ "UpdateAI", "da/d3c/a23214.html#a1453d26ccbd3e78f46cb33f054d57759", null ],
+    [ "_hasSpoken", "da/d3c/a23214.html#a3cd89b2567668b52d96b02af7eb85db8", null ],
+    [ "_taunted", "da/d3c/a23214.html#ab5623501bf92e119806ba4e2ccd0cd7a", null ]
 ];

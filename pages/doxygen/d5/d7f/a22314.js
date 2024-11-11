@@ -1,14 +1,17 @@
 var a22314 =
 [
-    [ "OPvPCapturePointTF", "d5/d7f/a22314.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
-    [ "ChangeState", "d5/d7f/a22314.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
-    [ "FillInitialWorldStates", "d5/d7f/a22314.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
-    [ "HandlePlayerEnter", "d5/d7f/a22314.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
-    [ "HandlePlayerLeave", "d5/d7f/a22314.html#ace20d19311478a136ae0b75016c36ea8", null ],
-    [ "ResetToTeamControlled", "d5/d7f/a22314.html#a7ad637f6a4005da3166601dafda52d1b", null ],
-    [ "SendChangePhase", "d5/d7f/a22314.html#a16efee78249e510e211b18694ea868f2", null ],
-    [ "Update", "d5/d7f/a22314.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
-    [ "UpdateTowerState", "d5/d7f/a22314.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
-    [ "m_TowerState", "d5/d7f/a22314.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
-    [ "m_TowerType", "d5/d7f/a22314.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
+    [ "boss_ambassador_hellmaw", "d5/d7f/a22314.html#ae774dfa4379b7321ff194a796c9eb842", null ],
+    [ "AttackStart", "d5/d7f/a22314.html#aa072ff0e9ce6e68f3ba0b4e51fb92f04", null ],
+    [ "CanAIAttack", "d5/d7f/a22314.html#a35579b31dec1d0c110b459230ee129e4", null ],
+    [ "DoAction", "d5/d7f/a22314.html#a3cbd58fb11fe8d297907bb40d69e4ccb", null ],
+    [ "DoMeleeAttackIfReady", "d5/d7f/a22314.html#a8dd75d368f0f567561db45e1c53ad785", null ],
+    [ "InitializeAI", "d5/d7f/a22314.html#a9b0170a49751def614126265240bb87c", null ],
+    [ "JustDied", "d5/d7f/a22314.html#ae0e04500073a4c02c9656b4bcd63be9c", null ],
+    [ "JustEngagedWith", "d5/d7f/a22314.html#a9ea9d60b8fa90a228951a38fc2f59325", null ],
+    [ "KilledUnit", "d5/d7f/a22314.html#a5f7564ef25a36395cddf4e2c2dbc2dfc", null ],
+    [ "MoveInLineOfSight", "d5/d7f/a22314.html#af3949b46f82863af699396729e88928b", null ],
+    [ "PathEndReached", "d5/d7f/a22314.html#a46b9b96ec5e4c121d994560e85266dfe", null ],
+    [ "Reset", "d5/d7f/a22314.html#a4881f868ac11eb66f3d15b44c94938bf", null ],
+    [ "UpdateAI", "d5/d7f/a22314.html#a44dae5d6517e22dd2be399d08fa67a71", null ],
+    [ "isBanished", "d5/d7f/a22314.html#a4805244997c42f5791400c5b1f5e6204", null ]
 ];

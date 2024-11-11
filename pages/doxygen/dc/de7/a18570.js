@@ -1,6 +1,7 @@
 var a18570 =
 [
-    [ "icecrown_citadel_teleport", "dc/de7/a18570.html#ab74d5962073dcf3b4488c33aaa935377", null ],
-    [ "OnGossipHello", "dc/de7/a18570.html#a97b0d94a5c7388a5dfce76f3bd3be24f", null ],
-    [ "OnGossipSelect", "dc/de7/a18570.html#a0b160bd86341542ddb1c80f3d4bd691f", null ]
+    [ "OnApply", "dc/de7/a18570.html#a72a01dea703436b2a220a9976da60fa6", null ],
+    [ "PrepareAuraScript", "dc/de7/a18570.html#adb17425258d4fb2c0c464236e15f32d7", null ],
+    [ "Register", "dc/de7/a18570.html#af026c126029c68ed8b7c6c1886720e4c", null ],
+    [ "Validate", "dc/de7/a18570.html#a5674396828adf4e80102ed2277f1e08a", null ]
 ];

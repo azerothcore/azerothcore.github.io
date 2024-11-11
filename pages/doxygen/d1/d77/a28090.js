@@ -1,10 +1,9 @@
 var a28090 =
 [
-    [ "ID", "d1/d77/a28090.html#a090069d13cbbcc5762ecca600c506492", null ],
-    [ "map_id", "d1/d77/a28090.html#a685931e2a361f9e0fc81c004c7467d19", null ],
-    [ "MountCreatureID", "d1/d77/a28090.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
-    [ "name", "d1/d77/a28090.html#ae00db3ea736c3a470f6f0690c178e758", null ],
-    [ "x", "d1/d77/a28090.html#a7cbd40848094fa367862d653b0f7170d", null ],
-    [ "y", "d1/d77/a28090.html#a9380befd45cab3104003b2487464bd71", null ],
-    [ "z", "d1/d77/a28090.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
+    [ "flags", "d1/d77/a28090.html#a064de2e88c563121bbb78549a7bab868", null ],
+    [ "_flags", "d1/d77/a28090.html#a16f1b30a57eb6703e8073ef55d988391", null ],
+    [ "bits", "d1/d77/a28090.html#a529f1856635132646457c57f3546f4ec", null ],
+    [ "configKey", "d1/d77/a28090.html#af14d118016b9e01612769c00f13aa2d6", null ],
+    [ "oldKey", "d1/d77/a28090.html#a29605b536523f6d022bbac0e12d1d8dc", null ],
+    [ "owner", "d1/d77/a28090.html#a24aaa1c473c3932c83dd49aad84f8361", null ]
 ];

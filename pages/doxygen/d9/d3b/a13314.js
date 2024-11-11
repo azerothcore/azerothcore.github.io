@@ -1,10 +1,7 @@
 var a13314 =
 [
-    [ "npc_grand_magister_rommathAI", "d9/d3b/a13314.html#a5e9404dd8bf4b513e05daac53c076314", null ],
-    [ "DoAction", "d9/d3b/a13314.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
-    [ "MoveInLineOfSight", "d9/d3b/a13314.html#ad35b64b37915484b133bcd185a832011", null ],
-    [ "UpdateAI", "d9/d3b/a13314.html#ac687bd20f0ae66b21ce52c21561af417", null ],
-    [ "announced", "d9/d3b/a13314.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
-    [ "events", "d9/d3b/a13314.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
-    [ "playerGUID", "d9/d3b/a13314.html#ad0ac0647feb998e837a44b0a688694e9", null ]
+    [ "npc_lady_sylvanas_windrunnerAI", "da/d9b/a13318.html", "da/d9b/a13318" ],
+    [ "npc_lady_sylvanas_windrunner", "d9/d3b/a13314.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
+    [ "GetAI", "d9/d3b/a13314.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
+    [ "OnQuestReward", "d9/d3b/a13314.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
 ];

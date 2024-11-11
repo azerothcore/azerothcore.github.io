@@ -1,7 +1,6 @@
 var a20462 =
 [
-    [ "npc_xt002_life_sparkAI", "dd/d2e/a20462.html#a763ec1834d3b71c88bfa80bc0e34966a", null ],
-    [ "Reset", "dd/d2e/a20462.html#a596e2ed45b9221915781b03bf2d18e5b", null ],
-    [ "UpdateAI", "dd/d2e/a20462.html#af0a1e717b08b2fa35dd4ff83778a87c1", null ],
-    [ "_attackTimer", "dd/d2e/a20462.html#a79bf005de95aa1fee60dfc73b8920dad", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "d5/ddd/a20466.html", "d5/ddd/a20466" ],
+    [ "boss_yoggsaron_constrictor_tentacle", "dd/d2e/a20462.html#a131809f1c691e55a33863caf6fe0c5dc", null ],
+    [ "GetAI", "dd/d2e/a20462.html#ac469d5661eb664c73bf5ab38084cb03e", null ]
 ];

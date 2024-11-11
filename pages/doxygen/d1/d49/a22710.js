@@ -1,5 +1,7 @@
 var a22710 =
 [
-    [ "npc_ashtongue_sorcerer", "d1/d49/a22710.html#a0045af5cfbfcd2f26bcde2e2dffd04a6", null ],
-    [ "MovementInform", "d1/d49/a22710.html#a56fa93f83e8a536b13667c8f780961b7", null ]
+    [ "PrepareAuraScript", "d1/d49/a22710.html#a30ec063aa1ddbc3a32066e1f868bf742", null ],
+    [ "Register", "d1/d49/a22710.html#a1e62c60bfc2b72811950b627ce1202c3", null ],
+    [ "Update", "d1/d49/a22710.html#a3f98767367564734c9877d1870aac31b", null ],
+    [ "Validate", "d1/d49/a22710.html#a450460769e0e54e06f1b64b3c63ba0de", null ]
 ];

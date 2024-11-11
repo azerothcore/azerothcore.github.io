@@ -1,13 +1,12 @@
 var a22566 =
 [
-    [ "boss_illidari_council_memberAI", "da/d20/a22566.html#ac32366dfad13cd37ced2428d041e25c9", null ],
-    [ "DamageTaken", "da/d20/a22566.html#a1006bbdb6e39b6ceb52037e1b3cdb788", null ],
-    [ "DoAction", "da/d20/a22566.html#a203310b84d71a24145b1c39e7faff182", null ],
-    [ "EnterEvadeMode", "da/d20/a22566.html#a9bf2376cd75e0dc825de3839eda857eb", null ],
-    [ "JustDied", "da/d20/a22566.html#a135c8e8f4113b1c9c05e5b26e61e639c", null ],
-    [ "JustEngagedWith", "da/d20/a22566.html#a5c43bfb6e1781a83bfad36668ac724f2", null ],
-    [ "KilledUnit", "da/d20/a22566.html#aa0cb7a373d521038e8e41e354f6bc3f7", null ],
-    [ "Reset", "da/d20/a22566.html#a8e75d47f56d14d9b66d10b74c3479839", null ],
-    [ "events", "da/d20/a22566.html#ad47a350f5ed066e04816e72961a80bd0", null ],
-    [ "instance", "da/d20/a22566.html#adb11720cd0fd87a42b9a78490a70251e", null ]
+    [ "boss_essence_of_angerAI", "da/d20/a22566.html#a25eed717395b4e1ca5504d2d473e2500", null ],
+    [ "DoAction", "da/d20/a22566.html#a81576aaf465dfc99d199aaf6a182df52", null ],
+    [ "JustDied", "da/d20/a22566.html#a997d75ad388e790f9863e1b15fa1c899", null ],
+    [ "JustEngagedWith", "da/d20/a22566.html#a16d2b13fcf3dfa513813669b44712c4c", null ],
+    [ "KilledUnit", "da/d20/a22566.html#a6a900f9a9dc5509c36e5bdaaaacc197d", null ],
+    [ "Reset", "da/d20/a22566.html#ade57a575bd84e8e095b1ab5a5c81d3f6", null ],
+    [ "UpdateAI", "da/d20/a22566.html#a67e9f5a361894aa227f2a74f9222740d", null ],
+    [ "_recentlySpoken", "da/d20/a22566.html#a056aa8fd704d832e83735cf2a1a22888", null ],
+    [ "targetGUID", "da/d20/a22566.html#adc3867a4446375f1217809299f3dd9bb", null ]
 ];

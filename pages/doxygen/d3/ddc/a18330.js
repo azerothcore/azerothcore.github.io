@@ -1,6 +1,7 @@
 var a18330 =
 [
-    [ "npc_captain_brandonAI", "d6/d73/a18334.html", "d6/d73/a18334" ],
-    [ "npc_captain_brandon", "d3/ddc/a18330.html#ad522dd280882d894b5d32e7c888f2360", null ],
-    [ "GetAI", "d3/ddc/a18330.html#a3d77951d8d9dbc14fad2fd52d84118a3", null ]
+    [ "OnRemove", "d3/ddc/a18330.html#ac71e6f5a9e3a7c96b4e4bd1a296d0d8d", null ],
+    [ "PrepareAuraScript", "d3/ddc/a18330.html#acf654e563f47df9ad033d7080f47662b", null ],
+    [ "Register", "d3/ddc/a18330.html#aad4497ba7cad48b9547e8696714d8c23", null ],
+    [ "Validate", "d3/ddc/a18330.html#ae5e187cb481849343e777b0bf0ffdf24", null ]
 ];

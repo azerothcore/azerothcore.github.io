@@ -1,7 +1,6 @@
 var a20678 =
 [
-    [ "HandleEffectCalcPeriodic", "d8/d1e/a20678.html#af01eb94174952de52615734055b17c1a", null ],
-    [ "HandleEffectPeriodic", "d8/d1e/a20678.html#a87b4517a6ad8630027ab2c3534b9fb8c", null ],
-    [ "PrepareAuraScript", "d8/d1e/a20678.html#a95bd054accb5b72c4cfb12caccf0e004", null ],
-    [ "Register", "d8/d1e/a20678.html#a2d506669ddc4c84e9ae3eb1746eadce1", null ]
+    [ "npc_frost_tombAI", "de/df0/a20682.html", "de/df0/a20682" ],
+    [ "npc_frost_tomb", "d8/d1e/a20678.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
+    [ "GetAI", "d8/d1e/a20678.html#a6d913e6cf9138de60556ec381354e614", null ]
 ];

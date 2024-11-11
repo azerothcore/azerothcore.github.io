@@ -1,6 +1,7 @@
 var a18334 =
 [
-    [ "npc_captain_brandonAI", "d6/d73/a18334.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
-    [ "Reset", "d6/d73/a18334.html#a13226b321707eee9faf5f073c81403e4", null ],
-    [ "UpdateAI", "d6/d73/a18334.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
+    [ "OnPeriodic", "d6/d73/a18334.html#a32c4b856d6248062fbdc1dea13d876ac", null ],
+    [ "PrepareAuraScript", "d6/d73/a18334.html#a87260a1cd06190f5412f3cab0f448a01", null ],
+    [ "Register", "d6/d73/a18334.html#a00827210671b959a030655f6be5edac6", null ],
+    [ "Validate", "d6/d73/a18334.html#a7163fb09fd8568a7ef5a5c37147ed5b0", null ]
 ];

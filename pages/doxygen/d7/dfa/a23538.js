@@ -1,7 +1,6 @@
 var a23538 =
 [
-    [ "CastQuill", "d7/dfa/a23538.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "d7/dfa/a23538.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "d7/dfa/a23538.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "d7/dfa/a23538.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "instance_the_eye_InstanceMapScript", "d5/d48/a23542.html", "d5/d48/a23542" ],
+    [ "instance_the_eye", "d7/dfa/a23538.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
+    [ "GetInstanceScript", "d7/dfa/a23538.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
 ];

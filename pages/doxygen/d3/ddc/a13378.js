@@ -1,9 +1,10 @@
 var a13378 =
 [
-    [ "npc_tyrion_spybotAI", "d3/ddc/a13378.html#aedad685279012266637d29069ead9063", null ],
-    [ "Reset", "d3/ddc/a13378.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
-    [ "UpdateAI", "d3/ddc/a13378.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
-    [ "WaypointReached", "d3/ddc/a13378.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
-    [ "uiPhase", "d3/ddc/a13378.html#af5dbb99fe18d96665efd04bd53294636", null ],
-    [ "uiTimer", "d3/ddc/a13378.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "d3/ddc/a13378.html#af7d495f489979690615d091bbd9d539b", null ],
+    [ "CanAIAttack", "d3/ddc/a13378.html#af332a66852c9499912d8ef4959f394f5", null ],
+    [ "InitializeAI", "d3/ddc/a13378.html#a66fcb4b5130ff03f1926eec3b4d9ff6a", null ],
+    [ "JustRespawned", "d3/ddc/a13378.html#a70b83dd31e8a8214b5d09f9a4ca7347a", null ],
+    [ "Reset", "d3/ddc/a13378.html#a2c5e519bd2a1699b74811c92bb217d20", null ],
+    [ "UpdateAI", "d3/ddc/a13378.html#ae1e9308f730ac948f96d4fceba914cdb", null ],
+    [ "_events", "d3/ddc/a13378.html#a7078f4c552f741afdc8ecbd1746e31c4", null ]
 ];

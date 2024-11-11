@@ -1,5 +1,6 @@
 var a20930 =
 [
-    [ "npc_ritual_channelerAI", "d5/d6b/a20930.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d5/d6b/a20930.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "npc_frozen_orb_stalkerAI", "d5/d6b/a20930.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
+    [ "JustSummoned", "d5/d6b/a20930.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
+    [ "Reset", "d5/d6b/a20930.html#a064ccb90afeb9b36d501850482c60bc4", null ]
 ];

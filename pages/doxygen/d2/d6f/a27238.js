@@ -1,8 +1,7 @@
 var a27238 =
 [
-    [ "npc_elder_clearwaterAI", "df/dea/a27242.html", "df/dea/a27242" ],
-    [ "npc_elder_clearwater", "d2/d6f/a27238.html#abeee1650938a71762bb0c148ea9834d1", null ],
-    [ "GetAI", "d2/d6f/a27238.html#a4ae2f507f61ee7cfc0c3b6d7dbfb7f04", null ],
-    [ "OnGossipHello", "d2/d6f/a27238.html#aae382c0a386b8bacd39c6e7a586519e4", null ],
-    [ "OnQuestReward", "d2/d6f/a27238.html#a2d316a2d2c892cecc134cea46b5bf2a8", null ]
+    [ "npc_wormholeAI", "d2/d6f/a27238.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
+    [ "GetData", "d2/d6f/a27238.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
+    [ "InitializeAI", "d2/d6f/a27238.html#aa0a903014ec7243036604ffcc67e0a36", null ],
+    [ "_showUnderground", "d2/d6f/a27238.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
 ];

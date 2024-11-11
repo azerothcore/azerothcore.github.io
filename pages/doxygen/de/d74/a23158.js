@@ -1,7 +1,8 @@
 var a23158 =
 [
-    [ "npc_underbog_mushroom", "de/d74/a23158.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
-    [ "InitializeAI", "de/d74/a23158.html#a7c192010cc63715eaa3f38b1d1372936", null ],
-    [ "UpdateAI", "de/d74/a23158.html#a9a8ed51b12809152ebe78dda69944d77", null ],
-    [ "_scheduler", "de/d74/a23158.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "de/d74/a23158.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "de/d74/a23158.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "de/d74/a23158.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "de/d74/a23158.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "de/d74/a23158.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

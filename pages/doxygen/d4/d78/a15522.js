@@ -1,8 +1,5 @@
 var a15522 =
 [
-    [ "HandleScriptEffect", "d4/d78/a15522.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "d4/d78/a15522.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "d4/d78/a15522.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "d4/d78/a15522.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "d4/d78/a15522.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "achievement_watch_him_die", "d4/d78/a15522.html#a0d885871eac61d859780e08c8518bb15", null ],
+    [ "OnCheck", "d4/d78/a15522.html#a6ca8851bdf8cae50084ca87c1958fb53", null ]
 ];

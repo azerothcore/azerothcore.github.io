@@ -1,10 +1,10 @@
 var a27170 =
 [
-    [ "npc_prof_blacksmith", "d6/d22/a27170.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "d6/d22/a27170.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "d6/d22/a27170.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "d6/d22/a27170.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "d6/d22/a27170.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "d6/d22/a27170.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "d6/d22/a27170.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "npc_air_force_botsAI", "d6/d22/a27170.html#a062eb272826d52ffd9b72054f970b761", null ],
+    [ "GetSummonedGuard", "d6/d22/a27170.html#ac4f39049ba15caf314939f12b82ccd05", null ],
+    [ "MoveInLineOfSight", "d6/d22/a27170.html#a474231c0ce93b4db0789bcc8f6767c19", null ],
+    [ "Reset", "d6/d22/a27170.html#a016911d354f3b00e2db3e4f3722cda7f", null ],
+    [ "SummonGuard", "d6/d22/a27170.html#a8da57471dfa875f55f52c3d2b068a0f3", null ],
+    [ "SpawnAssoc", "d6/d22/a27170.html#a6f2f7ffd24dd32780c441fd6ce29dfbf", null ],
+    [ "SpawnedGUID", "d6/d22/a27170.html#a3c8ae595a3b4a436c2f94aa84cb9ee56", null ]
 ];

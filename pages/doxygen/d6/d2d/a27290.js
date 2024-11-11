@@ -1,6 +1,9 @@
 var a27290 =
 [
-    [ "npc_dancing_flamesAI", "d1/d8c/a27294.html", "d1/d8c/a27294" ],
-    [ "npc_dancing_flames", "d6/d2d/a27290.html#adec0401f876ddf159f28fdda8bc4d563", null ],
-    [ "GetAI", "d6/d2d/a27290.html#a1000d0b95dab3a6e73efa0ca088ce4e6", null ]
+    [ "npc_arcanite_dragonling", "d6/d2d/a27290.html#a9b7e4cefa312a16c90018d655ad94758", null ],
+    [ "CanAIAttack", "d6/d2d/a27290.html#a374e127ef749dc72ec70137bcd13a0b9", null ],
+    [ "IsSummonedBy", "d6/d2d/a27290.html#a921b35a91c4f21258efdb41fd87413db", null ],
+    [ "JustEngagedWith", "d6/d2d/a27290.html#a65f6d779681861117f750b70154b3e0d", null ],
+    [ "Reset", "d6/d2d/a27290.html#a4468d91430add821bf7a7ab11d8063da", null ],
+    [ "UpdateAI", "d6/d2d/a27290.html#aebe430b9a3079a5ccbfd979a74e532f3", null ]
 ];

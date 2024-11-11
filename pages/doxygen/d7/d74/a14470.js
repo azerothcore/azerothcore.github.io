@@ -1,14 +1,10 @@
 var a14470 =
 [
-    [ "npc_cos_stratholme_citizienAI", "d7/d74/a14470.html#a591aaf16ef5befada12378acfbef9465", null ],
-    [ "DoAction", "d7/d74/a14470.html#af9d6fa1dfa83a75194797e99ee80ae0e", null ],
-    [ "InfectMe", "d7/d74/a14470.html#a9517132eeaf1a0ffd5cb8b5879ed5d5b", null ],
-    [ "MoveInLineOfSight", "d7/d74/a14470.html#ab7a8f6423e12ca0ea9bcb085594013a2", null ],
-    [ "Reset", "d7/d74/a14470.html#a0dbb5f295aa9061fa3457c9590ea9b10", null ],
-    [ "SpellHit", "d7/d74/a14470.html#aa8b9a05d3c7d89aa054af919672a69ec", null ],
-    [ "UpdateAI", "d7/d74/a14470.html#a81a1382493091a99cae1c2bb580a7f32", null ],
-    [ "allowTimer", "d7/d74/a14470.html#ae92384763b3cfe4a4bc4180d1c404456", null ],
-    [ "changeTimer", "d7/d74/a14470.html#aa757ab2eef813dceaaad65d84681099b", null ],
-    [ "locked", "d7/d74/a14470.html#aa644050a5fc0b3cd04573e8b3def87ee", null ],
-    [ "pInstance", "d7/d74/a14470.html#aadae06c487a7755114f856a835d48c7e", null ]
+    [ "instance_maraudon_InstanceMapScript", "d7/d74/a14470.html#a9c46508320d3973006561444feae0586", null ],
+    [ "Initialize", "d7/d74/a14470.html#a61cb2b2bf09bb997457bc01a41e092e9", null ],
+    [ "OnGameObjectCreate", "d7/d74/a14470.html#a3a287b97db58c3489815f20ee0d37977", null ],
+    [ "ReadSaveDataMore", "d7/d74/a14470.html#ac2cd336874b25ad20dac104037de1df5", null ],
+    [ "SetData", "d7/d74/a14470.html#a6e90bf60a076c164e432128f7ec62fba", null ],
+    [ "WriteSaveDataMore", "d7/d74/a14470.html#a6e4072342e66689d343912de85e66b34", null ],
+    [ "_encounters", "d7/d74/a14470.html#af2e752a791d75e50001060c4a9f18173", null ]
 ];

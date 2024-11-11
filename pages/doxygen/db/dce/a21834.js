@@ -1,7 +1,7 @@
 var a21834 =
 [
-    [ "HandleDummy", "db/dce/a21834.html#a85874062bceced2694fff725649df892", null ],
-    [ "PrepareSpellScript", "db/dce/a21834.html#a47bae4bdc488480f91517465d8e1b784", null ],
-    [ "Register", "db/dce/a21834.html#a7131340678ca685db98e2087661321a9", null ],
-    [ "Validate", "db/dce/a21834.html#af1b74ceee10fc48a0b85d4a284103950", null ]
+    [ "npc_engineer_heliceAI", "d3/d3e/a21838.html", "d3/d3e/a21838" ],
+    [ "npc_engineer_helice", "db/dce/a21834.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
+    [ "GetAI", "db/dce/a21834.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
+    [ "OnQuestAccept", "db/dce/a21834.html#ae0979d68744372d5d4669b6f014eb123", null ]
 ];

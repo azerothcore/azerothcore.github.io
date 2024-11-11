@@ -1,7 +1,8 @@
 var a26678 =
 [
-    [ "HandleEffect", "dd/de5/a26678.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
-    [ "PrepareSpellScript", "dd/de5/a26678.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
-    [ "Register", "dd/de5/a26678.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
-    [ "Validate", "dd/de5/a26678.html#ab6d78ecb650f13df3376baced8c40a63", null ]
+    [ "CharacterActionIpLogger", "dd/de5/a26678.html#a39861f7348a79031a8215b435ba81059", null ],
+    [ "CharacterIPLogAction", "dd/de5/a26678.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
+    [ "OnCreate", "dd/de5/a26678.html#ae25875eed131046444874c4109619748", null ],
+    [ "OnLogin", "dd/de5/a26678.html#af430f10fe536ac40df50bc9424a7decb", null ],
+    [ "OnLogout", "dd/de5/a26678.html#aca289740b022dcaa0ae681327785cb72", null ]
 ];

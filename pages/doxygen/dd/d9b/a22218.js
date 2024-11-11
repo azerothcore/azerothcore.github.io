@@ -1,5 +1,5 @@
 var a22218 =
 [
-    [ "go_scourge_enclosure", "dd/d9b/a22218.html#a3611232cb735f336087d4d3c90f66b8d", null ],
-    [ "OnGossipHello", "dd/d9b/a22218.html#af505dd0a5d9224cd7586878d1fbd3351", null ]
+    [ "OutdoorPvP_zangarmarsh", "dd/d9b/a22218.html#ae287d5df21bf75efab6c651f4f3d875e", null ],
+    [ "GetOutdoorPvP", "dd/d9b/a22218.html#a145ddfe383663ed3fb46960e39691f8f", null ]
 ];

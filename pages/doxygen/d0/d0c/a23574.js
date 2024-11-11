@@ -1,11 +1,10 @@
 var a23574 =
 [
-    [ "npc_capernian", "d0/d0c/a23574.html#a0acb568664c777797eeb7104f454699d", null ],
-    [ "AttackStart", "d0/d0c/a23574.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
-    [ "JustDied", "d0/d0c/a23574.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
-    [ "JustEngagedWith", "d0/d0c/a23574.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
-    [ "Reset", "d0/d0c/a23574.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
-    [ "UpdateAI", "d0/d0c/a23574.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
-    [ "_hasDied", "d0/d0c/a23574.html#a05976816642fad6c31a1ffe9066e5606", null ],
-    [ "_instance", "d0/d0c/a23574.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
+    [ "boss_nethermancer_sepethrea", "d0/d0c/a23574.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
+    [ "CanAIAttack", "d0/d0c/a23574.html#a34fbf871d99519306469c010d5fed9c7", null ],
+    [ "EnterEvadeMode", "d0/d0c/a23574.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
+    [ "JustDied", "d0/d0c/a23574.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
+    [ "JustEngagedWith", "d0/d0c/a23574.html#a89851b9f6eb94270fe22151d3a968bec", null ],
+    [ "JustSummoned", "d0/d0c/a23574.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
+    [ "KilledUnit", "d0/d0c/a23574.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
 ];

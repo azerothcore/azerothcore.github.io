@@ -1,6 +1,6 @@
 var a25006 =
 [
-    [ "PrepareSpellScript", "d0/d8c/a25006.html#abb178100d4e5fa4032118f86aa34127d", null ],
-    [ "Register", "d0/d8c/a25006.html#a50e902cc281b909259097a8bed5651f2", null ],
-    [ "RemoveVehicleAuras", "d0/d8c/a25006.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
+    [ "PrepareAuraScript", "d0/d8c/a25006.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
+    [ "Register", "d0/d8c/a25006.html#abb54f08b1932e3638537656360d3aad8", null ],
+    [ "AuraEffectHandleModes", "d0/d8c/a25006.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
 ];

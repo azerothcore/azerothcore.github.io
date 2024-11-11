@@ -1,9 +1,9 @@
 var a21334 =
 [
-    [ "npc_warmage_coldarraAI", "d4/d11/a21334.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
-    [ "AttackStart", "d4/d11/a21334.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
-    [ "JustEngagedWith", "d4/d11/a21334.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
-    [ "Reset", "d4/d11/a21334.html#adf5094ba2bee34ec793124e798d5af8f", null ],
-    [ "UpdateAI", "d4/d11/a21334.html#a14b221265cc38b4061c52b687274a398", null ],
-    [ "m_uiTimer", "d4/d11/a21334.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
+    [ "npc_minigob_manabonk", "d4/d11/a21334.html#aade5e005b68b25ede4e653629390ceb9", null ],
+    [ "Reset", "d4/d11/a21334.html#a18b3fcf1e2ada8f0178a0efd2e206a8e", null ],
+    [ "SelectTargetInDalaran", "d4/d11/a21334.html#a74a14a6e1839d7b8cc81712d57666ec5", null ],
+    [ "SendMailToPlayer", "d4/d11/a21334.html#a1973b7885c9fce15aab9843722bf112e", null ],
+    [ "UpdateAI", "d4/d11/a21334.html#abca8214a8c13d9d9c5c03f659fef53a9", null ],
+    [ "playerGUID", "d4/d11/a21334.html#ac8dccd333691f717fdbffe22126330d5", null ]
 ];

@@ -1,8 +1,7 @@
 var a20634 =
 [
-    [ "OnApply", "d8/df4/a20634.html#a3046fa845b6763c5602ca7b50aefd68f", null ],
-    [ "OnRemove", "d8/df4/a20634.html#ad3f482f9fff9798cc6e7a06183344742", null ],
-    [ "PrepareAuraScript", "d8/df4/a20634.html#ab830a7a6c5ed432f8718071345c99b57", null ],
-    [ "Register", "d8/df4/a20634.html#ac83a8d085d02feec64b6012cacb60dce", null ],
-    [ "Validate", "d8/df4/a20634.html#a69a3e0a6c06e3c4085bf0ad25e40edf9", null ]
+    [ "HandleEffectPeriodic", "d8/df4/a20634.html#a2b9426d0a2ce9251632acebb30d0e2b5", null ],
+    [ "PrepareAuraScript", "d8/df4/a20634.html#a7dca0398e78278c78dd80e9e6ca874e1", null ],
+    [ "Register", "d8/df4/a20634.html#a74052d7da1523b3c4010465510e5fe04", null ],
+    [ "Validate", "d8/df4/a20634.html#a587a469c649877f80e8fe80062e8b5d4", null ]
 ];

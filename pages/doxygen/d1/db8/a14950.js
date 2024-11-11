@@ -1,8 +1,6 @@
 var a14950 =
 [
-    [ "npc_obsidian_nullifier", "d1/db8/a14950.html#a9dbb6d681e348057564750fcd7e8050a", null ],
-    [ "JustEngagedWith", "d1/db8/a14950.html#ad3e30a214a9bcb6ea13d3a78716b5cb1", null ],
-    [ "Reset", "d1/db8/a14950.html#a9897eab3b71dd0a6a2ea598951b095cd", null ],
-    [ "UpdateAI", "d1/db8/a14950.html#a37cf1d335dd3735b262e82828c4f904a", null ],
-    [ "_targetGUIDs", "d1/db8/a14950.html#aaf125742bf9d17ec0b605b78dee39c7c", null ]
+    [ "npc_webbed_creatureAI", "d1/dce/a14954.html", "d1/dce/a14954" ],
+    [ "npc_webbed_creature", "d1/db8/a14950.html#ae52152939766c411e45e827e9ab52d4f", null ],
+    [ "GetAI", "d1/db8/a14950.html#a30fd53b81260b7fd6ca06881930b79e9", null ]
 ];

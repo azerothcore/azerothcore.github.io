@@ -1,7 +1,6 @@
 var a17618 =
 [
-    [ "HandleSummon", "dd/dad/a17618.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
-    [ "PrepareSpellScript", "dd/dad/a17618.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
-    [ "Register", "dd/dad/a17618.html#a01281869dc98a0af5027695391f1221f", null ],
-    [ "Validate", "dd/dad/a17618.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
+    [ "boss_sindragosaAI", "d6/d62/a17622.html", "d6/d62/a17622" ],
+    [ "boss_sindragosa", "dd/dad/a17618.html#af5cdf4798b8b87467fa45dbda7fcbee1", null ],
+    [ "GetAI", "dd/dad/a17618.html#a005a6da9f4f9690416a108872b3c2b36", null ]
 ];

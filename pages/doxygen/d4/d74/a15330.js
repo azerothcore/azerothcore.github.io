@@ -1,7 +1,6 @@
 var a15330 =
 [
-    [ "npc_giltharesAI", "d4/d74/a15330.html#af22e42b2180987febd964784b6d49b5e", null ],
-    [ "JustEngagedWith", "d4/d74/a15330.html#ae9ba65652db3d2d32920d1a98594727a", null ],
-    [ "Reset", "d4/d74/a15330.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
-    [ "WaypointReached", "d4/d74/a15330.html#a9308c73760e50e0f3d04031b508526d1", null ]
+    [ "creatureID", "d4/d74/a15330.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
+    [ "pos", "d4/d74/a15330.html#a9705a858cc2c3867e104514d3a0a1866", null ],
+    [ "waveID", "d4/d74/a15330.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
 ];

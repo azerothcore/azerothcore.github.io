@@ -1,6 +1,6 @@
 var a15882 =
 [
-    [ "boss_saviana_ragefireAI", "d5/d6d/a15886.html", "d5/d6d/a15886" ],
-    [ "boss_saviana_ragefire", "db/d4e/a15882.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
-    [ "GetAI", "db/d4e/a15882.html#a0a0073d8710af066d9711636f4d5b01e", null ]
+    [ "npc_toc5_grand_champion_minionAI", "d5/d6d/a15886.html", "d5/d6d/a15886" ],
+    [ "npc_toc5_grand_champion_minion", "db/d4e/a15882.html#a5761757b3cbbbce8ada4770805eb8de5", null ],
+    [ "GetAI", "db/d4e/a15882.html#a55acf397b94ba63b1db626dc1041b28e", null ]
 ];

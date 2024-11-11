@@ -1,7 +1,7 @@
 var a19974 =
 [
-    [ "HandleEffectPeriodic", "d9/d2e/a19974.html#af6c50396e9b47cd909184aea80244728", null ],
-    [ "PrepareAuraScript", "d9/d2e/a19974.html#aeb41825334049c8e3a39b48cbf271477", null ],
-    [ "Register", "d9/d2e/a19974.html#aaa44ceb54aa928c4436120f435bcdc4b", null ],
-    [ "Validate", "d9/d2e/a19974.html#a0098e4949fc75b1a2464128f4df869aa", null ]
+    [ "StoneGripTargetSelector", "d9/d2e/a19974.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "d9/d2e/a19974.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "d9/d2e/a19974.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "d9/d2e/a19974.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

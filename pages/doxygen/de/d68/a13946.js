@@ -1,7 +1,9 @@
 var a13946 =
 [
-    [ "go_direbrew_mole_machineAI", "de/d68/a13946.html#a4e667ad9e572e93c045ae01f63bea648", null ],
-    [ "Reset", "de/d68/a13946.html#a32dd801b5d898fd8634edcb6cae52bdf", null ],
-    [ "UpdateAI", "de/d68/a13946.html#a2eaa8a0ad0907e4aa497a7e1c3a31b29", null ],
-    [ "_scheduler", "de/d68/a13946.html#a5960ff83f21cf5964f422e3a7b297f22", null ]
+    [ "spell_hallows_end_put_costume", "de/d68/a13946.html#ac1fcd0a32142744f353cdc01bce740e3", null ],
+    [ "HandleScript", "de/d68/a13946.html#ac4be92e73c08c06c1c9954547bfe8013", null ],
+    [ "PrepareSpellScript", "de/d68/a13946.html#ac0e4692be1527f052a23ed52af32d042", null ],
+    [ "Register", "de/d68/a13946.html#ac38299892d02c497e3bbae3c73a095ab", null ],
+    [ "_femaleSpell", "de/d68/a13946.html#a5ccb30abd83ed1d0be104bffc91deca2", null ],
+    [ "_maleSpell", "de/d68/a13946.html#af9b285133389942bea6738e518d34e48", null ]
 ];

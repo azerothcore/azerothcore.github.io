@@ -1,6 +1,9 @@
 var a20338 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d1/dc5/a20342.html", "d1/dc5/a20342" ],
-    [ "boss_thorim_sif_blizzard", "d7/dd7/a20338.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
-    [ "GetAI", "d7/dd7/a20338.html#afbff96363951c952a195f5c2a105e279", null ]
+    [ "npc_xt002_pummellerAI", "d7/dd7/a20338.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d7/dd7/a20338.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d7/dd7/a20338.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d7/dd7/a20338.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d7/dd7/a20338.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d7/dd7/a20338.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

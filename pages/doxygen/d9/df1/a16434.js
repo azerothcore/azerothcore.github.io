@@ -1,6 +1,7 @@
 var a16434 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "d9/df1/a16434.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
-    [ "OnGameObjectCreate", "d9/df1/a16434.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
-    [ "OnGameObjectRemove", "d9/df1/a16434.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
+    [ "OnRemove", "d9/df1/a16434.html#a4b95717cb19116b81f3eec798089abad", null ],
+    [ "PrepareAuraScript", "d9/df1/a16434.html#a581645fa151531aaf7b562a8739d5616", null ],
+    [ "Register", "d9/df1/a16434.html#a01304c556d79001e290707551bee7622", null ],
+    [ "Validate", "d9/df1/a16434.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
 ];

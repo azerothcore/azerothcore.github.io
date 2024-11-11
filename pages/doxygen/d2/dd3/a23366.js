@@ -1,5 +1,7 @@
 var a23366 =
 [
-    [ "go_manticron_cube", "d2/dd3/a23366.html#a87d9571aea57f16d38067ebd9e22200d", null ],
-    [ "OnGossipHello", "d2/dd3/a23366.html#accab4a61f00f5e465fb795b4cbe672bf", null ]
+    [ "boss_zereketh_the_unbound", "d2/dd3/a23366.html#abb2fc5cbe7514142160818016fda1936", null ],
+    [ "JustDied", "d2/dd3/a23366.html#ac5d96da9a33a536f2002cce11453ded3", null ],
+    [ "JustEngagedWith", "d2/dd3/a23366.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
+    [ "KilledUnit", "d2/dd3/a23366.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
 ];

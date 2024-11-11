@@ -1,6 +1,7 @@
 var a15182 =
 [
-    [ "npc_great_bear_spirit", "db/d45/a15182.html#a141470a3623aa1152d3505661f1532c8", null ],
-    [ "OnGossipHello", "db/d45/a15182.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
-    [ "OnGossipSelect", "db/d45/a15182.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
+    [ "npc_kaya_flathoofAI", "da/d72/a15186.html", "da/d72/a15186" ],
+    [ "npc_kaya_flathoof", "db/d45/a15182.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "db/d45/a15182.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "db/d45/a15182.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

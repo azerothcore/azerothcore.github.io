@@ -1,6 +1,12 @@
 var a12910 =
 [
-    [ "HandleActivateObject", "d2/d3f/a12910.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
-    [ "PrepareSpellScript", "d2/d3f/a12910.html#afc844250ea7ba48330edfda305fa856c", null ],
-    [ "Register", "d2/d3f/a12910.html#a6d77f6848397724e61c1db7a80de7139", null ]
+    [ "boss_sacrolash", "d2/d3f/a12910.html#a6e251340b2ba8a8300611cf229b93095", null ],
+    [ "DoAction", "d2/d3f/a12910.html#adbcbd24a90549978032d31d1beeaa4e6", null ],
+    [ "EnterEvadeMode", "d2/d3f/a12910.html#a84d7f8764eb5b6816cdd095158a434b1", null ],
+    [ "JustDied", "d2/d3f/a12910.html#a17c995220572cf803c36470ca80840e2", null ],
+    [ "JustEngagedWith", "d2/d3f/a12910.html#a822576bf8588d4e45f1532e1980cc7c7", null ],
+    [ "JustSummoned", "d2/d3f/a12910.html#a94214bc45414f61ff53102d6136b7b5c", null ],
+    [ "KilledUnit", "d2/d3f/a12910.html#a4d99da498db0e5a60c7c25fcb91e5270", null ],
+    [ "Reset", "d2/d3f/a12910.html#aa3128dae87d181e7ab93cf3a13723982", null ],
+    [ "_isSisterDead", "d2/d3f/a12910.html#a248d37df91c82069321fc5ea8b1e885d", null ]
 ];

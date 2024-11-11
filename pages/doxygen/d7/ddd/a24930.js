@@ -1,7 +1,11 @@
 var a24930 =
 [
-    [ "HandleApplyEffect", "d7/ddd/a24930.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d7/ddd/a24930.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d7/ddd/a24930.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d7/ddd/a24930.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "spell_gen_consume", "d7/ddd/a24930.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
+    [ "AfterRemove", "d7/ddd/a24930.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
+    [ "HandleProc", "d7/ddd/a24930.html#af69251aa0415a2148162f32dd9113917", null ],
+    [ "PrepareAuraScript", "d7/ddd/a24930.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
+    [ "Register", "d7/ddd/a24930.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
+    [ "Validate", "d7/ddd/a24930.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
+    [ "_spellId1", "d7/ddd/a24930.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
+    [ "_spellId2", "d7/ddd/a24930.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
 ];

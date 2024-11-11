@@ -1,6 +1,7 @@
 var a17282 =
 [
-    [ "npc_gunship_boarding_leaderAI", "de/d11/a17286.html", "de/d11/a17286" ],
-    [ "npc_gunship_boarding_leader", "d7/dbc/a17282.html#a8390eadab34a89643252f573588b140a", null ],
-    [ "GetAI", "d7/dbc/a17282.html#ae422c8a1de8fb909a89d2ad2f516e3b4", null ]
+    [ "HandleDummy", "d7/dbc/a17282.html#a6e5d70c35420384305d7faf991072b38", null ],
+    [ "PrepareSpellScript", "d7/dbc/a17282.html#a64f912555853aab5693692b22eba52c4", null ],
+    [ "Register", "d7/dbc/a17282.html#a797ec701f2e3f2949680eb935a9c5c3f", null ],
+    [ "Validate", "d7/dbc/a17282.html#afda7fd86e2fc2c40870904065ffcfe50", null ]
 ];

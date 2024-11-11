@@ -1,6 +1,6 @@
 var a18170 =
 [
-    [ "npc_risen_archmageAI", "d3/d75/a18174.html", "d3/d75/a18174" ],
-    [ "npc_risen_archmage", "dc/d84/a18170.html#adf6dfe2a00325955939c84bcc1e4eb68", null ],
-    [ "GetAI", "dc/d84/a18170.html#a8e8c4913e163c5d649fa79c2eb424864", null ]
+    [ "CaptainSurviveTalk", "dc/d84/a18170.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "dc/d84/a18170.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "dc/d84/a18170.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

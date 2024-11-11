@@ -1,6 +1,8 @@
 var a23226 =
 [
-    [ "HandleScriptEffect", "db/d45/a23226.html#abba5817280db6579e3e6e0b964655c6e", null ],
-    [ "PrepareSpellScript", "db/d45/a23226.html#a846fa43c9907ddb6243c006327757a1c", null ],
-    [ "Register", "db/d45/a23226.html#a7daa26f4035912bff4811b0bfee35fee", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "db/d45/a23226.html#aebc047b45cb4560a38df89db75f8efab", null ],
+    [ "Initialize", "db/d45/a23226.html#a115a36ec26e15e23be4d78250d86d814", null ],
+    [ "OnGameObjectCreate", "db/d45/a23226.html#a0639fcd867616d1f04aacde44020bb30", null ],
+    [ "SetBossState", "db/d45/a23226.html#a7a38526ca7b9a7c7c04231f8f8efd2f7", null ],
+    [ "felIronChestGUID", "db/d45/a23226.html#a7cfcac5dbe4562268679ddceaf8ec8ea", null ]
 ];

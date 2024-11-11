@@ -1,8 +1,7 @@
 var a14554 =
 [
-    [ "Load", "d4/d2c/a14554.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
-    [ "PeriodicTick", "d4/d2c/a14554.html#ae4761ac3bce02903a7266511d80503f9", null ],
-    [ "PrepareAuraScript", "d4/d2c/a14554.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
-    [ "Register", "d4/d2c/a14554.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
-    [ "_ticks", "d4/d2c/a14554.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
+    [ "HandleScript", "d4/d2c/a14554.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
+    [ "Load", "d4/d2c/a14554.html#a2dc1edf537f58133fb4daabde9f43843", null ],
+    [ "PrepareSpellScript", "d4/d2c/a14554.html#ae856c6e70ededa95c0308596a9f980af", null ],
+    [ "Register", "d4/d2c/a14554.html#ac2e82c7e626658faa968f75c26688b43", null ]
 ];

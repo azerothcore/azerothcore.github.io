@@ -1,9 +1,10 @@
 var a23462 =
 [
-    [ "boss_dalliah_the_doomsayer", "dd/d44/a23462.html#ad6edf9623942297b28bc7420ec0cc733", null ],
-    [ "InitializeAI", "dd/d44/a23462.html#a85342ef80a64ce05f87cf7d90a8bfe79", null ],
-    [ "JustDied", "dd/d44/a23462.html#a431edc9c25fb125d7d267073eb1c1423", null ],
-    [ "JustEngagedWith", "dd/d44/a23462.html#a6d3d8d027ddb08417dd11f1606a1418f", null ],
-    [ "KilledUnit", "dd/d44/a23462.html#af28bfc1166ad45bf7bc046f5906a8b11", null ],
-    [ "Reset", "dd/d44/a23462.html#a5b4f186225a55afdf1de80b7126d10eb", null ]
+    [ "npc_lord_sanguinar", "dd/d44/a23462.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
+    [ "JustDied", "dd/d44/a23462.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
+    [ "JustEngagedWith", "dd/d44/a23462.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
+    [ "Reset", "dd/d44/a23462.html#a25d998de67f88d4618f8f8d88681e68b", null ],
+    [ "UpdateAI", "dd/d44/a23462.html#a27df1dbb76a650b8039690cab4ddad68", null ],
+    [ "_hasDied", "dd/d44/a23462.html#a6f0a66b88b95412f443998190b142eaf", null ],
+    [ "_instance", "dd/d44/a23462.html#aa610a2ca98d2fff376821dd243947096", null ]
 ];

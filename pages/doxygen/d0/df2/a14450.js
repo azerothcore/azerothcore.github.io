@@ -1,6 +1,8 @@
 var a14450 =
 [
-    [ "npc_crate_helperAI", "db/d86/a14454.html", "db/d86/a14454" ],
-    [ "npc_crate_helper", "d0/df2/a14450.html#ae08751928234656dcda84dd5c7e4cc37", null ],
-    [ "GetAI", "d0/df2/a14450.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
+    [ "Load", "d0/df2/a14450.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "d0/df2/a14450.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "d0/df2/a14450.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "d0/df2/a14450.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "d0/df2/a14450.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

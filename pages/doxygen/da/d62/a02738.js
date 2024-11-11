@@ -1,6 +1,4 @@
 var a02738 =
 [
-    [ "go_firework_show", "d0/dcb/a14022.html", "d0/dcb/a14022" ],
-    [ "AddSC_event_firework_show_scripts", "da/d62/a02738.html#af7a6296c13b6615a14e0823fe7e5b577", null ],
-    [ "FireworkShowStore", "da/d62/a02738.html#a7e7f0c2a7b605ff7a9a4fb3302ed279e", null ]
+    [ "sWorldUpdateTime", "da/d62/a02738.html#aa415d38dafe4c1c78c951de9fed8393b", null ]
 ];

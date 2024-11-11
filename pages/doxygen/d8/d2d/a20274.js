@@ -1,6 +1,6 @@
 var a20274 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "d6/d16/a20278.html", "d6/d16/a20278" ],
-    [ "npc_ulduar_dark_rune_guardian", "d8/d2d/a20274.html#a6266dd5c096402b5383af09ac361a634", null ],
-    [ "GetAI", "d8/d2d/a20274.html#a9ed188491483548658ce682bf36e6fd2", null ]
+    [ "boss_thorim_ancient_rune_giantAI", "d6/d16/a20278.html", "d6/d16/a20278" ],
+    [ "boss_thorim_ancient_rune_giant", "d8/d2d/a20274.html#ad87dca7c6058e4b8b1234410644523dd", null ],
+    [ "GetAI", "d8/d2d/a20274.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
 ];

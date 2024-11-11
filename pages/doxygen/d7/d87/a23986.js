@@ -1,5 +1,8 @@
 var a23986 =
 [
-    [ "go_crystal_prison", "d7/d87/a23986.html#a0faca8b76f9650ee5cc7825b90463365", null ],
-    [ "OnQuestAccept", "d7/d87/a23986.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
+    [ "go_skull_pile", "d7/d87/a23986.html#a9cf8dfef432c4967c60f66e645585770", null ],
+    [ "OnGossipHello", "d7/d87/a23986.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
+    [ "OnGossipSelect", "d7/d87/a23986.html#afb8e8db2705355e975fa48c98e09f20b", null ],
+    [ "SendActionMenu", "d7/d87/a23986.html#a048dd224b46ead864958ad524d76167f", null ],
+    [ "_result", "d7/d87/a23986.html#af74fcd75404c0886128401d661067394", null ]
 ];

@@ -1,6 +1,6 @@
 var a16350 =
 [
-    [ "OnPeriodic", "d7/df9/a16350.html#a6f2e191d76f894517aed395866b7e508", null ],
-    [ "PrepareAuraScript", "d7/df9/a16350.html#a571ee1c735b6095408973bfe5f91bcf7", null ],
-    [ "Register", "d7/df9/a16350.html#a6094dc303c034e49fb4e543874db080b", null ]
+    [ "npc_fos_corrupted_soul_fragmentAI", "d9/d78/a16354.html", "d9/d78/a16354" ],
+    [ "npc_fos_corrupted_soul_fragment", "d7/df9/a16350.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
+    [ "GetAI", "d7/df9/a16350.html#aed663e0a313223fcaa988b89b1b02df3", null ]
 ];

@@ -1,6 +1,8 @@
 var a27234 =
 [
-    [ "npc_taxi", "da/d05/a27234.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
-    [ "OnGossipHello", "da/d05/a27234.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
-    [ "OnGossipSelect", "da/d05/a27234.html#a5a7443abba8cf98a3073195177981edc", null ]
+    [ "npc_wormholeAI", "d2/d6f/a27238.html", "d2/d6f/a27238" ],
+    [ "npc_wormhole", "da/d05/a27234.html#aeace4cbf665409786b86140709191cb0", null ],
+    [ "GetAI", "da/d05/a27234.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
+    [ "OnGossipHello", "da/d05/a27234.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
+    [ "OnGossipSelect", "da/d05/a27234.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
 ];

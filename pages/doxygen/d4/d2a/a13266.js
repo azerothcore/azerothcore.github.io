@@ -1,10 +1,7 @@
 var a13266 =
 [
-    [ "npc_partygoer_pather", "d4/d2a/a13266.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
-    [ "Initialize", "d4/d2a/a13266.html#afb114b0587c550e39c41e131364da663", null ],
-    [ "PathEndReached", "d4/d2a/a13266.html#a55833d306716ba411f96ecd024cc7c72", null ],
-    [ "Reset", "d4/d2a/a13266.html#ade2cc36ff49001138eee5b607ec83b12", null ],
-    [ "UpdateAI", "d4/d2a/a13266.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
-    [ "_events", "d4/d2a/a13266.html#ac210dc0286ded980e78743237a08bb23", null ],
-    [ "_path", "d4/d2a/a13266.html#a4da184c44858e99eca2b07193fd48f13", null ]
+    [ "npc_deathstalker_erlandAI", "d4/d2a/a13266.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
+    [ "JustEngagedWith", "d4/d2a/a13266.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
+    [ "Reset", "d4/d2a/a13266.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
+    [ "WaypointReached", "d4/d2a/a13266.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
 ];

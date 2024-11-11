@@ -1,6 +1,7 @@
 var a25630 =
 [
-    [ "PrepareSpellScript", "d2/db2/a25630.html#a738e105a48f6c603f3d9a690f44b8745", null ],
-    [ "Register", "d2/db2/a25630.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
-    [ "SetDest", "d2/db2/a25630.html#a59641895cead08de4a4503262505ee73", null ]
+    [ "HandleKnockBack", "d2/db2/a25630.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
+    [ "PrepareSpellScript", "d2/db2/a25630.html#ab951d6403188f178f79311cead8a0a8f", null ],
+    [ "Register", "d2/db2/a25630.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
+    [ "Validate", "d2/db2/a25630.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
 ];

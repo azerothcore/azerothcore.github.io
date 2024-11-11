@@ -1,7 +1,7 @@
 var a17486 =
 [
-    [ "npc_coldflameAI", "d9/dc9/a17486.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
-    [ "IsSummonedBy", "d9/dc9/a17486.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
-    [ "UpdateAI", "d9/dc9/a17486.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
-    [ "events", "d9/dc9/a17486.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
+    [ "HandleTriggerSpell", "d9/dc9/a17486.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
+    [ "OnRemove", "d9/dc9/a17486.html#a238adc96e80c1890934b23dd4a2685b4", null ],
+    [ "PrepareAuraScript", "d9/dc9/a17486.html#af9ce7433b620fdf1dea570561c514b3b", null ],
+    [ "Register", "d9/dc9/a17486.html#ab36a001ea8cd87703e2694e0765635c0", null ]
 ];

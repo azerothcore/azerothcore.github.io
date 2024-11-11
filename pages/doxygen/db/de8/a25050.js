@@ -1,7 +1,7 @@
 var a25050 =
 [
-    [ "HandleDamage", "db/de8/a25050.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
-    [ "PrepareSpellScript", "db/de8/a25050.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
-    [ "Register", "db/de8/a25050.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
-    [ "Validate", "db/de8/a25050.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
+    [ "HandleDummy", "db/de8/a25050.html#a4b23e39151d0bced8bb729435a56352d", null ],
+    [ "Load", "db/de8/a25050.html#aaa341815d71652a13f3ca449af6ac14f", null ],
+    [ "PrepareSpellScript", "db/de8/a25050.html#ac0e7d279312a59dd62d7d91eb3ef82b7", null ],
+    [ "Register", "db/de8/a25050.html#a19a2247cebd2af38a1bd30af213ad633", null ]
 ];

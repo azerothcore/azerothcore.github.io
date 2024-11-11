@@ -1,5 +1,7 @@
 var a14114 =
 [
-    [ "go_pumpkin_shrine", "d0/d5e/a14114.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
-    [ "OnGossipSelect", "d0/d5e/a14114.html#a35763a67d39c1d68974a9602ce26b699", null ]
+    [ "GetVisualThrow", "d0/d5e/a14114.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
+    [ "HandleDummy", "d0/d5e/a14114.html#adca1aacf89dcf452f1c98cae97f09690", null ],
+    [ "PrepareSpellScript", "d0/d5e/a14114.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
+    [ "Register", "d0/d5e/a14114.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
 ];

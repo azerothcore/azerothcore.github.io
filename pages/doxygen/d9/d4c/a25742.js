@@ -1,7 +1,6 @@
 var a25742 =
 [
-    [ "HandleDummy", "d9/d4c/a25742.html#a870b9834d0860a2d017b74fbf33ae668", null ],
-    [ "Load", "d9/d4c/a25742.html#ae971bd1dccc9280620b6ea44dd552bd4", null ],
-    [ "PrepareSpellScript", "d9/d4c/a25742.html#aac68e0f75f39ab25cf490dc381414b96", null ],
-    [ "Register", "d9/d4c/a25742.html#ad2840c719abd010c629747da138e9e32", null ]
+    [ "FilterTargets", "d9/d4c/a25742.html#a9ee58cd4e7a0fa59bfb6ef1270d51f21", null ],
+    [ "PrepareSpellScript", "d9/d4c/a25742.html#a5992d94317d3da7400d5a9ab115e621e", null ],
+    [ "Register", "d9/d4c/a25742.html#a125ce6c8dfdc6419b4409c72f74fcf85", null ]
 ];

@@ -1,6 +1,9 @@
 var a19090 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d1/d49/a19094.html", "d1/d49/a19094" ],
-    [ "npc_oculus_unstable_sphere", "dc/da4/a19090.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
-    [ "GetAI", "dc/da4/a19090.html#adda2a9e7eab03444742e85729673ab2f", null ]
+    [ "HandleOnEffectApply", "dc/da4/a19090.html#a6ab047004cc901331d747641f218cf6a", null ],
+    [ "HandleOnEffectRemove", "dc/da4/a19090.html#a9f66217f4785c8240c4b074bbf04b96e", null ],
+    [ "PrepareAuraScript", "dc/da4/a19090.html#aa94b30468b2c853c0d8b86658a43dee4", null ],
+    [ "Register", "dc/da4/a19090.html#a83b0d414a6e97b434f82492fa01ac385", null ],
+    [ "Validate", "dc/da4/a19090.html#a88af7f269f56e474434d51c7ac0eb0a0", null ],
+    [ "_drakeGUID", "dc/da4/a19090.html#a2e0c7df73cc7246524f6d745ff1fbeb1", null ]
 ];

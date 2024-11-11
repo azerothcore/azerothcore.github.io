@@ -1,5 +1,5 @@
 var a28058 =
 [
-    [ "Duration", "dd/d36/a28058.html#a20417b0f394c08c779fd3851c2cde87d", null ],
-    [ "ID", "dd/d36/a28058.html#a04f9304093a15b4b7f6596993f2e86d9", null ]
+    [ "ByteBufferPositionException", "dd/d36/a28058.html#a6c2e31012a8ccf20d52c6431e024a576", null ],
+    [ "~ByteBufferPositionException", "dd/d36/a28058.html#aba8b7764a5517fa3e4a26d7ced1ad38f", null ]
 ];

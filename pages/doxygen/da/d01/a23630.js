@@ -1,6 +1,7 @@
 var a23630 =
 [
-    [ "FilterTargets", "da/d01/a23630.html#a0b0a4e033a1410a5b0def33cf87c853c", null ],
-    [ "PrepareSpellScript", "da/d01/a23630.html#afa186c0b0728e3462f8984189613f9a7", null ],
-    [ "Register", "da/d01/a23630.html#a14aafc65b554c0ada5684c46ae1f57c8", null ]
+    [ "npc_daranelleAI", "da/d01/a23630.html#a49eeff6e0aea079a0375a92074227d12", null ],
+    [ "JustEngagedWith", "da/d01/a23630.html#aeff39dfd84986186057cdaf7632eed4f", null ],
+    [ "MoveInLineOfSight", "da/d01/a23630.html#a353e27c1485b88f0751a64260898d35b", null ],
+    [ "Reset", "da/d01/a23630.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
 ];

@@ -1,5 +1,6 @@
 var a26770 =
 [
-    [ "achievement_not_even_a_scratch", "de/dbc/a26770.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "de/dbc/a26770.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "boss_taerarAI", "df/d90/a26774.html", "df/d90/a26774" ],
+    [ "boss_taerar", "de/dbc/a26770.html#a100c1b80a50faf93088db870faa21b58", null ],
+    [ "GetAI", "de/dbc/a26770.html#ae6615da6ee14c4f7cb3087b4ee5d6246", null ]
 ];

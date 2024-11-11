@@ -1,6 +1,6 @@
 var a15682 =
 [
-    [ "npc_twilight_summonAI", "d6/de5/a15686.html", "d6/de5/a15686" ],
-    [ "npc_twilight_summon", "d2/db3/a15682.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
-    [ "GetAI", "d2/db3/a15682.html#a98bf5ce96c25bc252acd46163644bf33", null ]
+    [ "npc_halion_controllerAI", "d6/de5/a15686.html", "d6/de5/a15686" ],
+    [ "npc_halion_controller", "d2/db3/a15682.html#ac88ff15ce4d89d737eb6dd6b649e1218", null ],
+    [ "GetAI", "d2/db3/a15682.html#a3c5ea3f0597c070005744ea788a05383", null ]
 ];

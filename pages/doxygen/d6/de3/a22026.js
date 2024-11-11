@@ -1,6 +1,7 @@
 var a22026 =
 [
-    [ "npc_roxi_ramrocket", "d6/de3/a22026.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
-    [ "OnGossipHello", "d6/de3/a22026.html#adec28f778921246c56f11d09753e566e", null ],
-    [ "OnGossipSelect", "d6/de3/a22026.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
+    [ "HandleScript", "d6/de3/a22026.html#a1811115f1732912bdfaeeb8272db2304", null ],
+    [ "PrepareSpellScript", "d6/de3/a22026.html#a50c24464dd88717bf78971d679715d7b", null ],
+    [ "Register", "d6/de3/a22026.html#ab48b37db40865d60d7cda3260ec15ba8", null ],
+    [ "Validate", "d6/de3/a22026.html#a0f0e4621965ea7ed7a108bca6d232ad0", null ]
 ];

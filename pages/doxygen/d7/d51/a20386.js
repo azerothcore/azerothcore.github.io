@@ -1,6 +1,5 @@
 var a20386 =
 [
-    [ "boss_thorim_arena_npcsAI", "d4/dd6/a20390.html", "d4/dd6/a20390" ],
-    [ "boss_thorim_arena_npcs", "d7/d51/a20386.html#a60d22280bb1eb3c9da92deb08e887942", null ],
-    [ "GetAI", "d7/d51/a20386.html#a3709e1c9df32755f5932398ba3535f2f", null ]
+    [ "achievement_xt002_nerf_engineering", "d7/d51/a20386.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
+    [ "OnCheck", "d7/d51/a20386.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
 ];

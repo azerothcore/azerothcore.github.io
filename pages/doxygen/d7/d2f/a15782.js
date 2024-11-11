@@ -1,13 +1,11 @@
 var a15782 =
 [
-    [ "boss_twilight_halionAI", "d7/d2f/a15782.html#aab05bab963d603c3cb70edfd62a84b49", null ],
-    [ "DamageTaken", "d7/d2f/a15782.html#a0c62ac244e57b1b90101e1ba89a60d27", null ],
-    [ "EnterEvadeMode", "d7/d2f/a15782.html#af7076251fc1fad1dc259d747934910e2", null ],
-    [ "JustDied", "d7/d2f/a15782.html#a2874474a1dbc9b30a4ff77d2d7bfd8fd", null ],
-    [ "JustEngagedWith", "d7/d2f/a15782.html#a136b51ede30d63d87228d35e8b6f2c7a", null ],
-    [ "KilledUnit", "d7/d2f/a15782.html#ada770d51f63c841c500ffc3197a7a89f", null ],
-    [ "Reset", "d7/d2f/a15782.html#a9c945841926d5b08f37c6a720dd25a14", null ],
-    [ "UpdateAI", "d7/d2f/a15782.html#a6ab1d215ed077883781b0c0188282c5e", null ],
-    [ "_events", "d7/d2f/a15782.html#a22a8a7696fb23b9eab01d42cd45644de", null ],
-    [ "_instance", "d7/d2f/a15782.html#a033f10bba4ba89aa0111d4cb520540e6", null ]
+    [ "boss_saviana_ragefireAI", "d7/d2f/a15782.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
+    [ "JustDied", "d7/d2f/a15782.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
+    [ "JustEngagedWith", "d7/d2f/a15782.html#a458eb370872c20441b5ec6ecd2c97500", null ],
+    [ "JustReachedHome", "d7/d2f/a15782.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
+    [ "KilledUnit", "d7/d2f/a15782.html#ac07513681c72d6748246cc7c349d117c", null ],
+    [ "MovementInform", "d7/d2f/a15782.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
+    [ "Reset", "d7/d2f/a15782.html#a4b7f103331c566cbf007a075161505af", null ],
+    [ "UpdateAI", "d7/d2f/a15782.html#af36ca2a359f950a10214d07aad240324", null ]
 ];

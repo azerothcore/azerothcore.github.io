@@ -1,9 +1,6 @@
 var a16690 =
 [
-    [ "FilterTargets", "da/db9/a16690.html#aefebf504286394cf3caffa566543e4a4", null ],
-    [ "FilterTargetsNext", "da/db9/a16690.html#a356b6ace97d07df22a232d2287072b5e", null ],
-    [ "PrepareSpellScript", "da/db9/a16690.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
-    [ "Register", "da/db9/a16690.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
-    [ "Unload", "da/db9/a16690.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
-    [ "targetList", "da/db9/a16690.html#a3c839185938e0b67b97f652d1d15e213", null ]
+    [ "npc_pos_freed_slaveAI", "da/db9/a16690.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "da/db9/a16690.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "da/db9/a16690.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

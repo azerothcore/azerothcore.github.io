@@ -1,7 +1,6 @@
 var a17226 =
 [
-    [ "DelayedMovementEvent", "d0/d9d/a17226.html#a21241cde30f66ae42edb311542f7405c", null ],
-    [ "Execute", "d0/d9d/a17226.html#a8287761226ee671905151891779b6efb", null ],
-    [ "_dest", "d0/d9d/a17226.html#a9a0cd9830509ffdecd98ac8231350d58", null ],
-    [ "_owner", "d0/d9d/a17226.html#a046942728282a997068de447271f3cbe", null ]
+    [ "PrepareSpellScript", "d0/d9d/a17226.html#a47df21229183b628c1d82bf34cbbe396", null ],
+    [ "Register", "d0/d9d/a17226.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
+    [ "RelocateTransportOffset", "d0/d9d/a17226.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
 ];

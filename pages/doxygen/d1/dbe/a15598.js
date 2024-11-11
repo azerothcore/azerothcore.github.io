@@ -1,6 +1,6 @@
 var a15598 =
 [
-    [ "npc_anub_ar_crusherAI", "d7/de8/a15602.html", "d7/de8/a15602" ],
-    [ "npc_anub_ar_crusher", "d1/dbe/a15598.html#a3397fab6358ce8c19aecaad734e0ef78", null ],
-    [ "GetAI", "d1/dbe/a15598.html#aeb8eb3e39612d0f7059f1910033cbbcc", null ]
+    [ "instance_obsidian_sanctum_InstanceMapScript", "d7/de8/a15602.html", "d7/de8/a15602" ],
+    [ "instance_obsidian_sanctum", "d1/dbe/a15598.html#a6cf2121c4167156f5748c144372b3c0b", null ],
+    [ "GetInstanceScript", "d1/dbe/a15598.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
 ];

@@ -1,11 +1,6 @@
 var a20266 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "df/de1/a20266.html#a48e29edad38f8ecbab54579203c93044", null ],
-    [ "Reset", "df/de1/a20266.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
-    [ "SetData", "df/de1/a20266.html#a31db1ae61777b8f1a38d381e785ce158", null ],
-    [ "UpdateAI", "df/de1/a20266.html#ab6d29aaae95038282fece78479448459", null ],
-    [ "fixingGUID", "df/de1/a20266.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
-    [ "pInstance", "df/de1/a20266.html#a6b858d46eda05493ec0cac22e174854c", null ],
-    [ "timer", "df/de1/a20266.html#a926b343da3d3953d386b18f24bc72867", null ],
-    [ "working", "df/de1/a20266.html#ab8e436472efd91f2d400c02c1b500746", null ]
+    [ "boss_thorim_runic_colossusAI", "da/d0a/a20270.html", "da/d0a/a20270" ],
+    [ "boss_thorim_runic_colossus", "df/de1/a20266.html#a2ea1c08a98b689cd6c766578e98a3191", null ],
+    [ "GetAI", "df/de1/a20266.html#a6d64427ff427a1054e10c9d987b77f53", null ]
 ];

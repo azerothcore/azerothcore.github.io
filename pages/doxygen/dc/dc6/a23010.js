@@ -1,6 +1,7 @@
 var a23010 =
 [
-    [ "HandleApplyAura", "dc/dc6/a23010.html#a4fde347d339f08cd01e2a47883d4b988", null ],
-    [ "PrepareSpellScript", "dc/dc6/a23010.html#ab22bd56638a6adc8d111250780221cb9", null ],
-    [ "Register", "dc/dc6/a23010.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
+    [ "boss_hydromancer_thespia", "dc/dc6/a23010.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
+    [ "JustDied", "dc/dc6/a23010.html#ad0662daabd636bbf544a6791187d71fa", null ],
+    [ "JustEngagedWith", "dc/dc6/a23010.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
+    [ "KilledUnit", "dc/dc6/a23010.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
 ];

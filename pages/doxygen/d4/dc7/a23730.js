@@ -1,16 +1,15 @@
 var a23730 =
 [
-    [ "npc_nether_drakeAI", "d4/dc7/a23730.html#a82f2c29b380be95303e1558776ea2d88", null ],
-    [ "JustEngagedWith", "d4/dc7/a23730.html#a5f20faa7f7007989298009b88b3ecbc8", null ],
-    [ "MoveInLineOfSight", "d4/dc7/a23730.html#a9e122d4533155c926904a13e8534d32e", null ],
-    [ "MovementInform", "d4/dc7/a23730.html#ae1f5248397b606b7872f05cfc929ac0d", null ],
-    [ "Reset", "d4/dc7/a23730.html#acb03513dd67988e0961632846021a42d", null ],
-    [ "SpellHit", "d4/dc7/a23730.html#a40f05363f38d71954c9fb8773c382444", null ],
-    [ "UpdateAI", "d4/dc7/a23730.html#aa538d9d2ead26d6e085ecf62ec7d310f", null ],
-    [ "ArcaneBlast_Timer", "d4/dc7/a23730.html#ace872917954f4978f3568d7ddecf22ad", null ],
-    [ "IntangiblePresence_Timer", "d4/dc7/a23730.html#acecff3846090fa83c8fc43537d788501", null ],
-    [ "IsNihil", "d4/dc7/a23730.html#a37c393101e0f9b07e20cc21beb80ba44", null ],
-    [ "ManaBurn_Timer", "d4/dc7/a23730.html#ae6c33df878497d29d5f61234b048009d", null ],
-    [ "NihilSpeech_Phase", "d4/dc7/a23730.html#a3e68f0fdb59ce6d8749b5d8629b7ec0b", null ],
-    [ "NihilSpeech_Timer", "d4/dc7/a23730.html#a40d7584c68f5f6516eb9a7deaaad7c86", null ]
+    [ "npc_kurenai_captiveAI", "d4/dc7/a23730.html#ab8771e4c2cefe3d5dc3e07df2eeb7b96", null ],
+    [ "JustDied", "d4/dc7/a23730.html#a0778846d7d67f5d29ed3f7ef02f912f4", null ],
+    [ "JustEngagedWith", "d4/dc7/a23730.html#a9e36749629568d7917353bee51be08b8", null ],
+    [ "JustSummoned", "d4/dc7/a23730.html#a19a5190b72f78ee698d5fa2df6ac9b4b", null ],
+    [ "Reset", "d4/dc7/a23730.html#aea5af2579f9be13620f15b82b5cc8436", null ],
+    [ "SetGUID", "d4/dc7/a23730.html#a20edaf98031d7683d07b325c0b89ff69", null ],
+    [ "SpellHitTarget", "d4/dc7/a23730.html#a1f0cb1afc62b1b29a71cc04a21c456f0", null ],
+    [ "UpdateEscortAI", "d4/dc7/a23730.html#a3d0dfb0df190fe1b32cacb039e611dc3", null ],
+    [ "WaypointReached", "d4/dc7/a23730.html#a584bfc3a62f9d856e6d918d8f8694b3e", null ],
+    [ "ChainLightningTimer", "d4/dc7/a23730.html#a9aede5daebe0cf90ca2091a052c34282", null ],
+    [ "FrostShockTimer", "d4/dc7/a23730.html#a224c2df273f8d032e4302958879ce4d5", null ],
+    [ "HealTimer", "d4/dc7/a23730.html#a5a8d15bf6d2fd7a04818ba4535195922", null ]
 ];

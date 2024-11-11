@@ -1,6 +1,6 @@
 var a23674 =
 [
-    [ "HandleAfterRemove", "df/d1c/a23674.html#ac9756a8f206c114ff6443331ca266184", null ],
-    [ "PrepareAuraScript", "df/d1c/a23674.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
-    [ "Register", "df/d1c/a23674.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
+    [ "npc_ancestral_wolfAI", "d4/d77/a23678.html", "d4/d77/a23678" ],
+    [ "npc_ancestral_wolf", "df/d1c/a23674.html#a7cadf2848a086db63792f8068ee9463d", null ],
+    [ "GetAI", "df/d1c/a23674.html#a201255a64d4e742ba8b118b4f2ec5cd5", null ]
 ];

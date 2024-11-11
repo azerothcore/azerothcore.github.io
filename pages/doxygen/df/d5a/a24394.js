@@ -1,6 +1,6 @@
 var a24394 =
 [
-    [ "RaiseDeadCheck", "df/d5a/a24394.html#abc6439e5b457f2f6e832f504167a392d", null ],
-    [ "operator()", "df/d5a/a24394.html#a9647e6afd21e7397f05349e66bea4326", null ],
-    [ "_caster", "df/d5a/a24394.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
+    [ "PrepareAuraScript", "df/d5a/a24394.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
+    [ "Register", "df/d5a/a24394.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
+    [ "UpdateAmount", "df/d5a/a24394.html#a621e73a09438f3f9cbaa232125df3b87", null ]
 ];

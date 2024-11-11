@@ -1,8 +1,6 @@
 var a19666 =
 [
-    [ "npc_mechanoliftAI", "d3/dd8/a19666.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
-    [ "Reset", "d3/dd8/a19666.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
-    [ "UpdateAI", "d3/dd8/a19666.html#a3f8634abde6b3aa00acf03c77df433be", null ],
-    [ "_evadeTimer", "d3/dd8/a19666.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
-    [ "_startTimer", "d3/dd8/a19666.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
+    [ "boss_freya_elder_ironbranchAI", "d3/db2/a19670.html", "d3/db2/a19670" ],
+    [ "boss_freya_elder_ironbranch", "d3/dd8/a19666.html#a066083e4d6fde6439f7dce80be209075", null ],
+    [ "GetAI", "d3/dd8/a19666.html#a67f483d12fe801c1d840dd0f74396564", null ]
 ];

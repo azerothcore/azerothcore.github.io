@@ -1,6 +1,7 @@
 var a23386 =
 [
-    [ "PrepareSpellScript", "d8/da5/a23386.html#a5b17110b189b7134939aea9dbf2d724b", null ],
-    [ "Register", "d8/da5/a23386.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
-    [ "SelectRandomPlayer", "d8/da5/a23386.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
+    [ "HandleCast", "d8/da5/a23386.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
+    [ "PrepareSpellScript", "d8/da5/a23386.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
+    [ "Register", "d8/da5/a23386.html#a6ae0573ea69573df64cd57ba84f99918", null ],
+    [ "Validate", "d8/da5/a23386.html#ab5794ca5c0863ce40194ed40e156279a", null ]
 ];

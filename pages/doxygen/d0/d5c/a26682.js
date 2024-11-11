@@ -1,6 +1,7 @@
 var a26682 =
 [
-    [ "FilterTargets", "d0/d5c/a26682.html#af85da0bcf8c311472e6a75667fa125d0", null ],
-    [ "PrepareSpellScript", "d0/d5c/a26682.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
-    [ "Register", "d0/d5c/a26682.html#a2fab1592d19331239b1ef63045389886", null ]
+    [ "CharacterDeleteActionIpLogger", "d0/d5c/a26682.html#a37481de65409cf375dcff45615463949", null ],
+    [ "DeleteIPLogAction", "d0/d5c/a26682.html#a73a5ddacd8892d2300be313cfc12f534", null ],
+    [ "OnDelete", "d0/d5c/a26682.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
+    [ "OnFailedDelete", "d0/d5c/a26682.html#a34efd44289746078fdcfae63641b5580", null ]
 ];

@@ -1,6 +1,6 @@
 var a19382 =
 [
-    [ "CosmicSmashDamageEvent", "d5/d41/a19382.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "d5/d41/a19382.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "d5/d41/a19382.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "boss_runemaster_molgeimAI", "d8/ded/a19386.html", "d8/ded/a19386" ],
+    [ "boss_runemaster_molgeim", "d5/d41/a19382.html#a440e4e43b941ac2b956c7c586a95f991", null ],
+    [ "GetAI", "d5/d41/a19382.html#a080e70913be1e6ad9521bab5b90a92a6", null ]
 ];

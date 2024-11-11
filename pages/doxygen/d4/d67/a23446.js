@@ -1,16 +1,11 @@
 var a23446 =
 [
-    [ "npc_millhouse_manastormAI", "d4/d67/a23446.html#ac86df4d5887c4c1b719ce47f00b32995", null ],
-    [ "AttackStart", "d4/d67/a23446.html#a032cc1ad7a07ead4ced3afe99601d94f", null ],
-    [ "DamageTaken", "d4/d67/a23446.html#a30ed336d552596211b3bfc316d223968", null ],
-    [ "InitializeAI", "d4/d67/a23446.html#a7e8f7483b7cf4ba5d87386940e632339", null ],
-    [ "JustDied", "d4/d67/a23446.html#aaa22ed7812600c1670d12d6887d316d6", null ],
-    [ "JustEngagedWith", "d4/d67/a23446.html#a5e643192572f29f954a31b7b949f6525", null ],
-    [ "KilledUnit", "d4/d67/a23446.html#ac3ba302f496d03c171d1d3f4dbf175da", null ],
-    [ "Reset", "d4/d67/a23446.html#a74076048ea382816fa9c98a0d759af46", null ],
-    [ "UpdateAI", "d4/d67/a23446.html#a7dad659c4ba1db0460c23a3dc573eff2", null ],
-    [ "_usedIceblock", "d4/d67/a23446.html#af0ce341df018dafdce89f75fcb9f0063", null ],
-    [ "events", "d4/d67/a23446.html#aa9aadd461e32cf8a65b185d77f62d838", null ],
-    [ "events2", "d4/d67/a23446.html#ac762ce5981457cbcf6ec73236bab2486", null ],
-    [ "instance", "d4/d67/a23446.html#aff28c68ed9575440f5732df855ab4372", null ]
+    [ "boss_high_astromancer_solarian", "d4/d67/a23446.html#a2db48cc179539f81b55188de08a7e180", null ],
+    [ "AttackStart", "d4/d67/a23446.html#acaf94134aef553447e766a5e431c8b83", null ],
+    [ "JustDied", "d4/d67/a23446.html#a510eb2e4f0770670d6767bc2545375b7", null ],
+    [ "JustEngagedWith", "d4/d67/a23446.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
+    [ "JustSummoned", "d4/d67/a23446.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
+    [ "KilledUnit", "d4/d67/a23446.html#a561a78193615575b7e43e0f21387f1b8", null ],
+    [ "Reset", "d4/d67/a23446.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
+    [ "UpdateAI", "d4/d67/a23446.html#a07a76c34a978c31212390cf10ed3e382", null ]
 ];

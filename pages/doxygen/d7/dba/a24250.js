@@ -1,6 +1,7 @@
 var a24250 =
 [
-    [ "HandlePeriodic", "d7/dba/a24250.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
-    [ "PrepareAuraScript", "d7/dba/a24250.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
-    [ "Register", "d7/dba/a24250.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
+    [ "HandleDummy", "d7/dba/a24250.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "d7/dba/a24250.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "d7/dba/a24250.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "d7/dba/a24250.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

@@ -1,6 +1,12 @@
 var a13318 =
 [
-    [ "npc_greengill_slaveAI", "d5/dac/a13322.html", "d5/dac/a13322" ],
-    [ "npc_greengill_slave", "da/d9b/a13318.html#a46fb36fadb5ed5fc94a563473edd8732", null ],
-    [ "GetAI", "da/d9b/a13318.html#ab2cb9adfeef75384becfbb3c5188b8d7", null ]
+    [ "npc_lady_sylvanas_windrunnerAI", "da/d9b/a13318.html#ad6eefe9a14ce64b12b65a22c3ebb4db0", null ],
+    [ "JustEngagedWith", "da/d9b/a13318.html#a36324482fb264cc3cacf11c3ed542eee", null ],
+    [ "JustSummoned", "da/d9b/a13318.html#a456ee6f4b5b8cdd79647a42185265be8", null ],
+    [ "Reset", "da/d9b/a13318.html#ad4c6cb31a8d3dc280e689d5d29e27479", null ],
+    [ "SetGUID", "da/d9b/a13318.html#aa5270e7468dcafba98d3ee72752771ce", null ],
+    [ "UpdateAI", "da/d9b/a13318.html#ab704e4f3af8aa734910efd259db31407", null ],
+    [ "_events", "da/d9b/a13318.html#a621d4db4fac3a7c3d08defa2a8ed06d0", null ],
+    [ "LamentEvent", "da/d9b/a13318.html#ace9e901a965665e0f97cb9646af308aa", null ],
+    [ "playerGUID", "da/d9b/a13318.html#aa125ab2a33dbf9f1d40f238e7d45000d", null ]
 ];

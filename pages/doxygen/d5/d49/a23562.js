@@ -1,7 +1,7 @@
 var a23562 =
 [
-    [ "OnApply", "d5/d49/a23562.html#abab02b8307b762d070ba12358f59916d", null ],
-    [ "OnRemove", "d5/d49/a23562.html#a5ac45a5cfa17689d241c44241216ff38", null ],
-    [ "PrepareAuraScript", "d5/d49/a23562.html#a54f128745c3c35d7e52e9de7bb69a39a", null ],
-    [ "Register", "d5/d49/a23562.html#ae130b3cddbe0d9ce21d888e21472d64b", null ]
+    [ "HandleDamage", "d5/d49/a23562.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
+    [ "HandleTargets", "d5/d49/a23562.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
+    [ "PrepareSpellScript", "d5/d49/a23562.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
+    [ "Register", "d5/d49/a23562.html#a8873614ae22c908cb2cf49129fc53be2", null ]
 ];

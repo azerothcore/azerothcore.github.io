@@ -1,5 +1,5 @@
 var a14010 =
 [
-    [ "npc_cw_area_triggerAI", "d7/d3f/a14010.html#aede21e01dfe762922562b6f5d57bc406", null ],
-    [ "MoveInLineOfSight", "d7/d3f/a14010.html#a1fb90760dac1ae429429d84ed033aa7a", null ]
+    [ "go_pumpkin_shrine", "d7/d3f/a14010.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
+    [ "OnGossipSelect", "d7/d3f/a14010.html#a35763a67d39c1d68974a9602ce26b699", null ]
 ];

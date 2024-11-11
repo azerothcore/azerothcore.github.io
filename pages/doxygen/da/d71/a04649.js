@@ -1,4 +1,4 @@
 var a04649 =
 [
-    [ "NetworkThread< SocketType >", "dd/d2c/a28150.html", "dd/d2c/a28150" ]
+    [ "UpdateFetcher::DirectoryEntry", "d5/db7/a05798.html", "d5/db7/a05798" ]
 ];

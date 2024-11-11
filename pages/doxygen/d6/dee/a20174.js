@@ -1,9 +1,8 @@
 var a20174 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "d6/dee/a20174.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
-    [ "DoAction", "d6/dee/a20174.html#ac5d0e28ee330741da3b287d965537f39", null ],
-    [ "Reset", "d6/dee/a20174.html#a91207c04ecee6fc0e906133e054bf51b", null ],
-    [ "UpdateAI", "d6/dee/a20174.html#aebec433e806d4f63f5593db0301612b4", null ],
-    [ "option", "d6/dee/a20174.html#a98bb19fea19a05127b4b32df039acf05", null ],
-    [ "timer", "d6/dee/a20174.html#a118d048557b0ed314180299c3cd2bcbc", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "d6/dee/a20174.html#aedb43124c923621aadecb77511204fc6", null ],
+    [ "CanAIAttack", "d6/dee/a20174.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
+    [ "Reset", "d6/dee/a20174.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
+    [ "UpdateAI", "d6/dee/a20174.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
+    [ "timer2", "d6/dee/a20174.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
 ];

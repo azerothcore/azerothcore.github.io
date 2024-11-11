@@ -1,5 +1,5 @@
 var a23394 =
 [
-    [ "at_rp_nethekurse", "dc/dfb/a23394.html#ac0a1891f90b674ad0ccbeb27f170e643", null ],
-    [ "_OnTrigger", "dc/dfb/a23394.html#a93001d6dda7b2711f1efe100ffab5879", null ]
+    [ "modelId", "dc/dfb/a23394.html#a6a7f030a6445a46fe55640356e9c5124", null ],
+    [ "spellId", "dc/dfb/a23394.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
 ];

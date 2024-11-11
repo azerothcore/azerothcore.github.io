@@ -1,5 +1,6 @@
 var a20202 =
 [
-    [ "npc_ulduar_flames_spreadAI", "df/d0d/a20202.html#a607ee542f7c6d84f4072557e44a80905", null ],
-    [ "SpellHit", "df/d0d/a20202.html#abe69df9873fc125306a4ed757665e448", null ]
+    [ "boss_thorimAI", "d9/dc4/a20206.html", "d9/dc4/a20206" ],
+    [ "boss_thorim", "df/d0d/a20202.html#a23a52a05aea5092cef8fe47be28b4bfb", null ],
+    [ "GetAI", "df/d0d/a20202.html#a70895451317569f50adc11474e653515", null ]
 ];

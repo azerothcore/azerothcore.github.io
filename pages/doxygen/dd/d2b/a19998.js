@@ -1,5 +1,5 @@
 var a19998 =
 [
-    [ "achievement_getting_cold_in_here", "dd/d2b/a19998.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
-    [ "OnCheck", "dd/d2b/a19998.html#aeafd382d378381f754da6ee04d382276", null ]
+    [ "achievement_kologarn_looks_could_kill", "dd/d2b/a19998.html#a3fcf36dabe41ff35ace233854bd0fb44", null ],
+    [ "OnCheck", "dd/d2b/a19998.html#a0e7be4fb00808fab9a231530822fc93d", null ]
 ];

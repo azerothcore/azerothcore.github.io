@@ -1,6 +1,8 @@
 var a24838 =
 [
-    [ "HandleScriptEffect", "dd/dfc/a24838.html#ab3f415ae783f2a778178cc3319b32773", null ],
-    [ "PrepareSpellScript", "dd/dfc/a24838.html#a4ba7f7935c4acda891190dc375086dee", null ],
-    [ "Register", "dd/dfc/a24838.html#ad9b1571b4faf7d0fc6df7f6a8eb05c8a", null ]
+    [ "CheckCast", "dd/dfc/a24838.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
+    [ "HandleScript", "dd/dfc/a24838.html#a2c1702398e4cbdcc106679d534a27743", null ],
+    [ "PrepareSpellScript", "dd/dfc/a24838.html#a613bdf7841744632c1e6de147e0352b9", null ],
+    [ "Register", "dd/dfc/a24838.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
+    [ "Validate", "dd/dfc/a24838.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
 ];

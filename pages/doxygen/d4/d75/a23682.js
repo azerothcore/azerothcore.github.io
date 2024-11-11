@@ -1,10 +1,6 @@
 var a23682 =
 [
-    [ "boss_nethermancer_sepethrea", "d4/d75/a23682.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
-    [ "CanAIAttack", "d4/d75/a23682.html#a34fbf871d99519306469c010d5fed9c7", null ],
-    [ "EnterEvadeMode", "d4/d75/a23682.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
-    [ "JustDied", "d4/d75/a23682.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
-    [ "JustEngagedWith", "d4/d75/a23682.html#a89851b9f6eb94270fe22151d3a968bec", null ],
-    [ "JustSummoned", "d4/d75/a23682.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
-    [ "KilledUnit", "d4/d75/a23682.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
+    [ "npc_wounded_blood_elfAI", "db/d17/a23686.html", "db/d17/a23686" ],
+    [ "npc_wounded_blood_elf", "d4/d75/a23682.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
+    [ "GetAI", "d4/d75/a23682.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
 ];

@@ -1,6 +1,6 @@
 var a21070 =
 [
-    [ "boss_ichoronAI", "d5/d82/a21074.html", "d5/d82/a21074" ],
-    [ "boss_ichoron", "d6/dfe/a21070.html#ad4390da77a130edaf050d0bef3926882", null ],
-    [ "GetAI", "d6/dfe/a21070.html#a68051088dc2d2c738b042e2df0436b28", null ]
+    [ "npc_azure_mage_slayerAI", "d5/d82/a21074.html", "d5/d82/a21074" ],
+    [ "npc_azure_mage_slayer", "d6/dfe/a21070.html#ad5e5453235c224f4fac40244516dd1ad", null ],
+    [ "GetAI", "d6/dfe/a21070.html#a9b795915100f47b11a65abdfdcbf39f4", null ]
 ];

@@ -1,8 +1,13 @@
 var a22634 =
 [
-    [ "FilterTargets", "d6/d4a/a22634.html#a0ee5b216f8e713a5c632d0f456fd2b72", null ],
-    [ "HandleDummy", "d6/d4a/a22634.html#ab89ab441f022ee017548ba49d128b92e", null ],
-    [ "PrepareSpellScript", "d6/d4a/a22634.html#aa8578390d7d9379328c02ceb209e94ed", null ],
-    [ "Register", "d6/d4a/a22634.html#a486387d707b7ad66ecb443ab2bb60778", null ],
-    [ "Validate", "d6/d4a/a22634.html#ad5d695978794d796eb7139fce1530d57", null ]
+    [ "boss_teron_gorefiend", "d6/d4a/a22634.html#a81845f22aa383cdc57912ee9655b7bf9", null ],
+    [ "JustDied", "d6/d4a/a22634.html#aa080c8d17bc51142c1cecadf7a0376a2", null ],
+    [ "JustEngagedWith", "d6/d4a/a22634.html#a9f658d42cf27a54c62a71e28b5dfadee", null ],
+    [ "JustSummoned", "d6/d4a/a22634.html#a71db567c5be7396add349e2f1b455a50", null ],
+    [ "KilledUnit", "d6/d4a/a22634.html#a70dbf2b2a08cf915866afd51f8a74018", null ],
+    [ "Reset", "d6/d4a/a22634.html#af32df2d958c618dc08d3da40b92bf3aa", null ],
+    [ "SetData", "d6/d4a/a22634.html#a139c351471a3f19c7e59cf8e40913820", null ],
+    [ "UpdateAI", "d6/d4a/a22634.html#a0bdd92c94adf066fdbf8ba9bcb1a1ba1", null ],
+    [ "_intro", "d6/d4a/a22634.html#a99c62157084373e8eddd4497360cc047", null ],
+    [ "_recentlySpoken", "d6/d4a/a22634.html#adef80b4509a6a72e7021fd3cc11de697", null ]
 ];

@@ -1,15 +1,10 @@
 var a17910 =
 [
-    [ "npc_tirion_fordringAI", "d5/d25/a17910.html#aa0f94cef85e96cda4a2e280eaa7110de", null ],
-    [ "CanAIAttack", "d5/d25/a17910.html#a1bdef323e9c7364fab789abc39ef00a0", null ],
-    [ "DoAction", "d5/d25/a17910.html#a5fd5b3fde84ed04c794546d11fe946d7", null ],
-    [ "EnterEvadeMode", "d5/d25/a17910.html#a1275cee8f49c67920041ad8d50c62aa4", null ],
-    [ "JustReachedHome", "d5/d25/a17910.html#a6e6c7c2f4f8e60126fd4adc42fe3b4f4", null ],
-    [ "MovementInform", "d5/d25/a17910.html#a7284240c4eafbc80748d5e2867a64a9f", null ],
-    [ "Reset", "d5/d25/a17910.html#ac41e569535322bb5907fa4116bbac739", null ],
-    [ "sGossipSelect", "d5/d25/a17910.html#a56599a97f019121160b2f6ac43019772", null ],
-    [ "SpellHit", "d5/d25/a17910.html#ae68b900f87c646cfb3ece5518b59e687", null ],
-    [ "UpdateAI", "d5/d25/a17910.html#a3f729624820266f1cf1e5577c5047c3b", null ],
-    [ "_events", "d5/d25/a17910.html#a7bb0d243cc9b3e836dd99864f2a5e669", null ],
-    [ "_instance", "d5/d25/a17910.html#a223a7f09ae03971487bb55e770503f7e", null ]
+    [ "HandleScript", "d5/d25/a17910.html#a18c80010b9e8803b3c225acf2dd0b605", null ],
+    [ "Load", "d5/d25/a17910.html#af31fd5b1f9cdc67650eec5e305f095bf", null ],
+    [ "PrepareSpellScript", "d5/d25/a17910.html#afcc1efc69d73086a9ab686855911e516", null ],
+    [ "Register", "d5/d25/a17910.html#a061e110b9a032a9bbd0a48f686d16a84", null ],
+    [ "ReplaceTarget", "d5/d25/a17910.html#a01cb7d25bef14a2266d81594544f6283", null ],
+    [ "SelectTarget", "d5/d25/a17910.html#aa06b7505ff483bc5e534cc37d909b28c", null ],
+    [ "_target", "d5/d25/a17910.html#a3a84a9d7109845d201b395f05f66d109", null ]
 ];

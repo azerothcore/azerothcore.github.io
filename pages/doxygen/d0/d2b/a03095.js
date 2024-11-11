@@ -1,5 +1,9 @@
 var a03095 =
 [
-    [ "Module_79C0768D657977D697E10BAD956CCED1", "de/d4c/a11162.html", "de/d4c/a11162" ],
-    [ "Module", "d0/d2b/a03095.html#a6609439bd06281755d1dd966d61cd743", null ]
+    [ "DatabaseScript", "dd/daa/a10002.html", "dd/daa/a10002" ],
+    [ "DatabaseHook", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707e", [
+      [ "DATABASEHOOK_ON_AFTER_DATABASES_LOADED", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707ea669793dd5bb736daf7bf4e7a57422171", null ],
+      [ "DATABASEHOOK_ON_AFTER_DATABASE_LOAD_CREATURETEMPLATES", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707ea5da0ac4b05308347ca9a69286153d974", null ],
+      [ "DATABASEHOOK_END", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707eaf2e5c468c0dfdec9fc3dea4359a93d04", null ]
+    ] ]
 ];

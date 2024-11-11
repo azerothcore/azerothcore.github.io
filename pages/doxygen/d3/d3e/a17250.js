@@ -1,6 +1,6 @@
 var a17250 =
 [
-    [ "npc_muradin_bronzebeard_igbAI", "d8/dcf/a17254.html", "d8/dcf/a17254" ],
-    [ "npc_muradin_bronzebeard_igb", "d3/d3e/a17250.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
-    [ "GetAI", "d3/d3e/a17250.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
+    [ "IgbTeleportOnVictoryCheck", "d3/d3e/a17250.html#a29ee8cac93b9920e598da9205406e608", null ],
+    [ "operator()", "d3/d3e/a17250.html#acf85943e238179e911434358f1593be2", null ],
+    [ "_inst", "d3/d3e/a17250.html#a015353ecb66da16c697152b7ad3c527e", null ]
 ];

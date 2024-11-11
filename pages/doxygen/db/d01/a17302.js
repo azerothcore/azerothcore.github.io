@@ -1,8 +1,9 @@
 var a17302 =
 [
-    [ "npc_gunship_mageAI", "db/d01/a17302.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
-    [ "AttackStart", "db/d01/a17302.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
-    [ "CanAIAttack", "db/d01/a17302.html#aadcb217a9df96bee02287d75a23e32c2", null ],
-    [ "MovementInform", "db/d01/a17302.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
-    [ "UpdateAI", "db/d01/a17302.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
+    [ "CheckAreaTarget", "db/d01/a17302.html#a770ca8aa441a7c5ddc3e26968d7861a4", null ],
+    [ "HandleApply", "db/d01/a17302.html#a2aaf88ee6fee8aff23f8ee99b30e369f", null ],
+    [ "Load", "db/d01/a17302.html#aac27c3377b48bc8c602fa7f12dec491a", null ],
+    [ "PrepareAuraScript", "db/d01/a17302.html#a105c93dea246a84b73e13bdf3d04f8f4", null ],
+    [ "Register", "db/d01/a17302.html#a8f476129e0678149463c4b16232f6cb6", null ],
+    [ "_teamIdInInstance", "db/d01/a17302.html#a78b8e04586e328f89a44f41eb8c478c9", null ]
 ];

@@ -1,6 +1,6 @@
 var a17510 =
 [
-    [ "PrepareSpellScript", "d5/d76/a17510.html#a9041ce6139de9a48621d6898ddcca673", null ],
-    [ "RecalculateDamage", "d5/d76/a17510.html#abfb7c002577a59864fb2aa069b713c0a", null ],
-    [ "Register", "d5/d76/a17510.html#a4308449e8cbe7ed59598a837024141cb", null ]
+    [ "OnRemove", "d5/d76/a17510.html#ab9c21998c71991ff74e6dfcf4d32f126", null ],
+    [ "PrepareAuraScript", "d5/d76/a17510.html#a8fb5803b07022f9bd3d246216bac5abb", null ],
+    [ "Register", "d5/d76/a17510.html#afa993cb14444989feac16c9fa2d7b8df", null ]
 ];

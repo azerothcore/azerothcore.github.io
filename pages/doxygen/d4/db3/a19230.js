@@ -1,11 +1,7 @@
 var a19230 =
 [
-    [ "npc_spark_of_ionarAI", "d4/db3/a19230.html#a738ceaa68f13c084fedee2add6fba99e", null ],
-    [ "AttackStart", "d4/db3/a19230.html#a7616d68c090aece19389b4c4842e30a3", null ],
-    [ "DamageTaken", "d4/db3/a19230.html#a42466b7c6af30727b8872bd2ddfddb6f", null ],
-    [ "DoAction", "d4/db3/a19230.html#a995efdb87fdd72eccfdce11d2af0201b", null ],
-    [ "MoveInLineOfSight", "d4/db3/a19230.html#ac87193fba7975147731ca3c92946c308", null ],
-    [ "Reset", "d4/db3/a19230.html#a4b4511ac7258c1182e428bddb2db6519", null ],
-    [ "UpdateAI", "d4/db3/a19230.html#ae4e881e4e66e49c124c0cf540e1d59b7", null ],
-    [ "returning", "d4/db3/a19230.html#a5f6ef34741a6d726c3fecd66d768bd67", null ]
+    [ "creature", "d4/db3/a19230.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "d4/db3/a19230.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "d4/db3/a19230.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "d4/db3/a19230.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

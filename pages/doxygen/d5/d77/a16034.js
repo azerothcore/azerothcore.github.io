@@ -1,12 +1,8 @@
 var a16034 =
 [
-    [ "npc_swarm_scarabAI", "d5/d77/a16034.html#a0d0cefd52543044773e7df772f90fd37", null ],
-    [ "CanAIAttack", "d5/d77/a16034.html#a95a27742f4f7fa1af45964b6270a9558", null ],
-    [ "DoAction", "d5/d77/a16034.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
-    [ "JustDied", "d5/d77/a16034.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
-    [ "JustEngagedWith", "d5/d77/a16034.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
-    [ "Reset", "d5/d77/a16034.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
-    [ "UpdateAI", "d5/d77/a16034.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
-    [ "despawnTimer", "d5/d77/a16034.html#a6d35e43af695ac112b972badb665f06d", null ],
-    [ "determinationTimer", "d5/d77/a16034.html#af319dbf16bc1d3939602465f0a87d30c", null ]
+    [ "npc_toc_hunterAI", "d5/d77/a16034.html#a80f80231bfe5b71bf415da3202c2e6fb", null ],
+    [ "JustSummoned", "d5/d77/a16034.html#aa270248ad9e0c319234ff0741270b465", null ],
+    [ "myCanCast", "d5/d77/a16034.html#a4e599ae2ee4e892795889bd57dd29e27", null ],
+    [ "UpdateAI", "d5/d77/a16034.html#a81f384607ab7e8c4ed7385bdcddfd7a5", null ],
+    [ "events", "d5/d77/a16034.html#a0cf5ecd9d7b3c92e2da836983323f378", null ]
 ];

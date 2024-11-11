@@ -1,6 +1,6 @@
 var a14222 =
 [
-    [ "HandleDummy", "d3/d21/a14222.html#aa75140309e66c28590a64e10676356da", null ],
-    [ "PrepareSpellScript", "d3/d21/a14222.html#a21c4872e16c18c2918dfbea366e61df3", null ],
-    [ "Register", "d3/d21/a14222.html#a841c9277224cbae878946deb288b87a1", null ]
+    [ "FilterTargets", "d3/d21/a14222.html#ab4e32c78307df1d0ea7e0a71ace11734", null ],
+    [ "PrepareSpellScript", "d3/d21/a14222.html#a54fb8b4b7abd1c92d7d98f3b911a7cec", null ],
+    [ "Register", "d3/d21/a14222.html#a164b8b946dc801db878603488c978adb", null ]
 ];

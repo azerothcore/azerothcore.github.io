@@ -1,7 +1,6 @@
 var a21394 =
 [
-    [ "npc_warmage_violetstand", "d2/d1a/a21394.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
-    [ "Reset", "d2/d1a/a21394.html#a99015610597f43f184cc686c9fab2fa9", null ],
-    [ "UpdateAI", "d2/d1a/a21394.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
-    [ "targetGUID", "d2/d1a/a21394.html#a46560aa7aa90778967a79c931a81721b", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d9/d8f/a21398.html", "d9/d8f/a21398" ],
+    [ "npc_injured_7th_legion_soldier", "d2/d1a/a21394.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
+    [ "GetAI", "d2/d1a/a21394.html#a0feca7aedcf3c07253d4d402266189cc", null ]
 ];

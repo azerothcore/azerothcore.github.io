@@ -1,8 +1,6 @@
 var a14502 =
 [
-    [ "npc_thrall_old_hillsbradAI", "d1/d89/a14506.html", "d1/d89/a14506" ],
-    [ "npc_thrall_old_hillsbrad", "d0/d1c/a14502.html#a3e6fa750b095af3beac806a619e18328", null ],
-    [ "GetAI", "d0/d1c/a14502.html#a7b7baeb3e2e33dcb4ffb0af5d1f5930c", null ],
-    [ "OnGossipHello", "d0/d1c/a14502.html#a9b3f622ab9c0dc06011cb36cd084f2e7", null ],
-    [ "OnGossipSelect", "d0/d1c/a14502.html#a17fcb00850503903f430506654e035c0", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "d1/d89/a14506.html", "d1/d89/a14506" ],
+    [ "instance_razorfen_downs", "d0/d1c/a14502.html#a317e5e4ce45fd88c657b8032b377ffb7", null ],
+    [ "GetInstanceScript", "d0/d1c/a14502.html#a5010fc2704c3c699e39bf969f6f6ce2c", null ]
 ];

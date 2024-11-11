@@ -1,6 +1,8 @@
 var a20450 =
 [
-    [ "npc_xt002_boombotAI", "dc/d1b/a20454.html", "dc/d1b/a20454" ],
-    [ "npc_xt002_boombot", "d1/d73/a20450.html#a6e2f7dd0d26d140a5b73b0f66ea434af", null ],
-    [ "GetAI", "d1/d73/a20450.html#a27237e7a60042ed7163b19d80537c1b3", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "d1/d73/a20450.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
+    [ "DamageTaken", "d1/d73/a20450.html#ac2458922b2530929ee1adbcc0da834a0", null ],
+    [ "DoAction", "d1/d73/a20450.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
+    [ "Reset", "d1/d73/a20450.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
+    [ "UpdateAI", "d1/d73/a20450.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
 ];

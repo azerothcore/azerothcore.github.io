@@ -1,8 +1,11 @@
 var a03827 =
 [
-    [ "VisibilitySettingData", "db/d36/a09606.html", "db/d36/a09606" ],
-    [ "DynamicVisibilityMgr", "d1/d2e/a09610.html", "d1/d2e/a09610" ],
-    [ "VISIBILITY_SETTINGS_MAX_INTERVAL_NUM", "d2/db0/a03827.html#ae515340ce2037b26a80e4db46e653b59", null ],
-    [ "VISIBILITY_SETTINGS_PLAYER_INTERVAL", "d2/db0/a03827.html#a2733c1a6a4018078df00a4c426661436", null ],
-    [ "VisibilitySettings", "d2/db0/a03827.html#ab01e98c3eef9241e381bb20d29d66cbd", null ]
+    [ "StableResultCode", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514", [
+      [ "STABLE_ERR_MONEY", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2", null ],
+      [ "STABLE_ERR_STABLE", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898", null ],
+      [ "STABLE_SUCCESS_STABLE", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e", null ],
+      [ "STABLE_SUCCESS_UNSTABLE", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1", null ],
+      [ "STABLE_SUCCESS_BUY_SLOT", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317", null ],
+      [ "STABLE_ERR_EXOTIC", "d2/db0/a03827.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47", null ]
+    ] ]
 ];

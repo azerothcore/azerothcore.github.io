@@ -1,6 +1,12 @@
 var a20090 =
 [
-    [ "HandleInstaKill", "da/d77/a20090.html#a593786eb89bf77e05dad4b502ffc1925", null ],
-    [ "PrepareSpellScript", "da/d77/a20090.html#aa89401a4c6b1c85e4242bda45933b0ad", null ],
-    [ "Register", "da/d77/a20090.html#a46f2c2658e6b55f091bf8894f06a787c", null ]
+    [ "npc_ulduar_flames_initialAI", "da/d77/a20090.html#a5d7202463d12fbdfcc5efdfba786ca19", null ],
+    [ "DoAction", "da/d77/a20090.html#a6169d12043e73e7991064decccf0926a", null ],
+    [ "RemoveAll", "da/d77/a20090.html#a2c39dd0d4d8040db5b18af1c1b27071a", null ],
+    [ "RemoveFlame", "da/d77/a20090.html#ab992d2df928b9ca2699ca48e64fb2606", null ],
+    [ "SpreadFlame", "da/d77/a20090.html#ae801181472a8e29208a4f305fb0307f9", null ],
+    [ "UpdateAI", "da/d77/a20090.html#a9d628d32d3519d0e7152c772e540b7ef", null ],
+    [ "CreateTime", "da/d77/a20090.html#ae50820bb38d0ed61b8687b4023aac5b9", null ],
+    [ "events", "da/d77/a20090.html#a89217e11f9930b336665969791fc84b9", null ],
+    [ "FlameList", "da/d77/a20090.html#a75b218699a42ece4959d0a1fe40713d7", null ]
 ];

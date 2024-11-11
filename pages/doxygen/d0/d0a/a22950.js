@@ -1,6 +1,6 @@
 var a22950 =
 [
-    [ "FilterTargets", "d0/d0a/a22950.html#ac20676c292d87276e444bad56d71960d", null ],
-    [ "PrepareSpellScript", "d0/d0a/a22950.html#a8622bc4d61c5c236349d4b12c2a6b10d", null ],
-    [ "Register", "d0/d0a/a22950.html#ae356b768872de3e87806c19bf8cccb08", null ]
+    [ "HandleScript", "d0/d0a/a22950.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
+    [ "PrepareSpellScript", "d0/d0a/a22950.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
+    [ "Register", "d0/d0a/a22950.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
 ];

@@ -1,10 +1,10 @@
 var a25774 =
 [
-    [ "AfterCheckProc", "d5/dfb/a25774.html#aa6f32a97ece5fc68c0b0a2cfa36e33eb", null ],
-    [ "HandleProc", "d5/dfb/a25774.html#a613182c741769d0983206bdfa89242f6", null ],
-    [ "PrepareAuraScript", "d5/dfb/a25774.html#a4f614fe81d829d8a1ceb7500f9557948", null ],
-    [ "Register", "d5/dfb/a25774.html#acd807de02a83a97a78572d672fb16027", null ],
-    [ "Validate", "d5/dfb/a25774.html#a3d2d6f1a00825ac66f507a790f468198", null ],
-    [ "_spellInfo", "d5/dfb/a25774.html#a66a5eb4caa7b43c34b2830d9a3d2f994", null ],
-    [ "_ticksModifier", "d5/dfb/a25774.html#ae23b54499fff879a096bd459e264c4f0", null ]
+    [ "CheckCast", "d5/dfb/a25774.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d5/dfb/a25774.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d5/dfb/a25774.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d5/dfb/a25774.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d5/dfb/a25774.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d5/dfb/a25774.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d5/dfb/a25774.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

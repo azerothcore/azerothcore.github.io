@@ -1,6 +1,8 @@
 var a25298 =
 [
-    [ "HandleDummy", "d5/dda/a25298.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
-    [ "PrepareSpellScript", "d5/dda/a25298.html#a80b89fbd2506191b897dcf367ff11500", null ],
-    [ "Register", "d5/dda/a25298.html#a522730e5ba844728c0b3d6f423cd123a", null ]
+    [ "CheckProc", "d5/dda/a25298.html#a06d76f258699bd4f78834ef33752a351", null ],
+    [ "HandleProc", "d5/dda/a25298.html#af22f22cbc38fabe4181b853727df83f8", null ],
+    [ "PrepareAuraScript", "d5/dda/a25298.html#adbc2bc54974837a9784cbf8b30ef2c1e", null ],
+    [ "Register", "d5/dda/a25298.html#a8db2cf628d44fa962bb3889b20f5dfb1", null ],
+    [ "Validate", "d5/dda/a25298.html#aa5604d45c0c11bef130d9242c4357163", null ]
 ];

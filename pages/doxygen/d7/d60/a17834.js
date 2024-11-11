@@ -1,6 +1,7 @@
 var a17834 =
 [
-    [ "OrderWhelpTargetSelector", "d7/d60/a17834.html#a5e433367ebbf88c6bb8fef9d43eafcfa", null ],
-    [ "operator()", "d7/d60/a17834.html#abf98b730a2b794012c28b61ab8bb6b6c", null ],
-    [ "_owner", "d7/d60/a17834.html#ae475da3cca3d6288ce7df0b84d59005e", null ]
+    [ "OnPeriodic", "d7/d60/a17834.html#accd12b06341f3168c74cb18926614f7f", null ],
+    [ "OnUpdate", "d7/d60/a17834.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
+    [ "PrepareAuraScript", "d7/d60/a17834.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
+    [ "Register", "d7/d60/a17834.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
 ];

@@ -1,8 +1,6 @@
 var a20522 =
 [
-    [ "boss_yoggsaron_guardian_of_ysAI", "dc/dc5/a20522.html#a5542a4fd68a012049a79047f47dccc68", null ],
-    [ "JustDied", "dc/dc5/a20522.html#ad75f0baeef73a79cdb9bf62463bc8e50", null ],
-    [ "Reset", "dc/dc5/a20522.html#a43d12c19425f3caa56a9732774b6f943", null ],
-    [ "UpdateAI", "dc/dc5/a20522.html#a8e1d0b14747db6ce06b882f3f9d61963", null ],
-    [ "_spellTimer", "dc/dc5/a20522.html#a45dec8609328d65413ae6c88f693ba15", null ]
+    [ "boss_yoggsaron_voiceAI", "d2/d97/a20526.html", "d2/d97/a20526" ],
+    [ "boss_yoggsaron_voice", "dc/dc5/a20522.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "dc/dc5/a20522.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

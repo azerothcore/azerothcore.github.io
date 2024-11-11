@@ -1,7 +1,5 @@
 var a02828 =
 [
-    [ "UpdateResult", "dd/dd9/a05802.html", "dd/dd9/a05802" ],
-    [ "UpdateFetcher", "dd/d3e/a05806.html", "dd/d3e/a05806" ],
-    [ "UpdateFetcher::AppliedFileEntry", "dc/d5c/a05810.html", "dc/d5c/a05810" ],
-    [ "UpdateFetcher::PathCompare", "d6/db5/a05814.html", "d6/db5/a05814" ]
+    [ "GuildMgr", "d5/d59/a09258.html", "d5/d59/a09258" ],
+    [ "sGuildMgr", "d2/d4c/a02828.html#aef171903a38e30c347ff11360f682f81", null ]
 ];

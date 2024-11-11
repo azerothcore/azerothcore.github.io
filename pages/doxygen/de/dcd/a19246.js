@@ -1,6 +1,8 @@
 var a19246 =
 [
-    [ "boss_volkhanAI", "d0/d4e/a19250.html", "d0/d4e/a19250" ],
-    [ "boss_volkhan", "de/dcd/a19246.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
-    [ "GetAI", "de/dcd/a19246.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
+    [ "dark_rune_protectorsAI", "de/dcd/a19246.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
+    [ "JustEngagedWith", "de/dcd/a19246.html#aa71514efa488ff8f9276cb2a4c166759", null ],
+    [ "Reset", "de/dcd/a19246.html#a88305b8ac016175d61a0387d1888671f", null ],
+    [ "UpdateAI", "de/dcd/a19246.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
+    [ "events", "de/dcd/a19246.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
 ];

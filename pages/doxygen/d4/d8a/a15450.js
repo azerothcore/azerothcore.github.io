@@ -1,6 +1,6 @@
 var a15450 =
 [
-    [ "HandleOpenLock", "d4/d8a/a15450.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
-    [ "PrepareSpellScript", "d4/d8a/a15450.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
-    [ "Register", "d4/d8a/a15450.html#a5dcac6f609ec93074ec3ce195101f592", null ]
+    [ "PrepareSpellScript", "d4/d8a/a15450.html#a74a2601e2c160bb4a9b18d421775e6b3", null ],
+    [ "Register", "d4/d8a/a15450.html#a17a07973a3c043683fc4fe0d1fc45156", null ],
+    [ "SetDest", "d4/d8a/a15450.html#a3751a14d6e36140ee368d8ded6df03ee", null ]
 ];

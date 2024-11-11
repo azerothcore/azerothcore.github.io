@@ -1,5 +1,5 @@
 var a27038 =
 [
-    [ "go_tele_to_dalaran_crystal", "de/dca/a27038.html#ab41268b7d568e8f189338f27cd90a62c", null ],
-    [ "OnGossipHello", "de/dca/a27038.html#a7f754a29249653ca7848494310ef1a8d", null ]
+    [ "item_captured_frog", "de/dca/a27038.html#ad41b743c98c9534453eca8cf1f367366", null ],
+    [ "OnUse", "de/dca/a27038.html#a1156467ca046a077ea494f92c488bf54", null ]
 ];

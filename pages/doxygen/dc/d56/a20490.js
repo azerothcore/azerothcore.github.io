@@ -1,5 +1,6 @@
 var a20490 =
 [
-    [ "achievement_xt002_nerf_engineering", "dc/d56/a20490.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
-    [ "OnCheck", "dc/d56/a20490.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "de/d35/a20494.html", "de/d35/a20494" ],
+    [ "boss_yoggsaron_immortal_guardian", "dc/d56/a20490.html#a4009759d284b54cb958ee0bb80c45f14", null ],
+    [ "GetAI", "dc/d56/a20490.html#ac532ca090d93ce6d11a0332329111f2b", null ]
 ];

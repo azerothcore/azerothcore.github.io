@@ -1,4 +1,4 @@
 var a00389 =
 [
-    [ "Acore::Impl::GenericBaseEncoding< Encoding >", "dc/d72/a05218.html", "dc/d72/a05218" ]
+    [ "Acore::Crypto::Argon2", "da/df4/a05050.html", "da/df4/a05050" ]
 ];

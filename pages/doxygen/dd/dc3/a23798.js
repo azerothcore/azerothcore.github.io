@@ -1,6 +1,11 @@
 var a23798 =
 [
-    [ "npc_fel_guard_houndAI", "d8/d76/a23802.html", "d8/d76/a23802" ],
-    [ "npc_fel_guard_hound", "dd/dc3/a23798.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "dd/dc3/a23798.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "npc_invis_infernal_casterAI", "dd/dc3/a23798.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
+    [ "Reset", "dd/dc3/a23798.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
+    [ "SetData", "dd/dc3/a23798.html#aee88dc141757384f96da969fcdc20671", null ],
+    [ "SummonInfernal", "dd/dc3/a23798.html#a78d53d09e5544b3fe8301da4415d297b", null ],
+    [ "UpdateAI", "dd/dc3/a23798.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
+    [ "events", "dd/dc3/a23798.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
+    [ "ground", "dd/dc3/a23798.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
+    [ "infernalGUID", "dd/dc3/a23798.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
 ];

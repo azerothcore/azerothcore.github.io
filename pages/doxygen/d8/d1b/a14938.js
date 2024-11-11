@@ -1,7 +1,11 @@
 var a14938 =
 [
-    [ "npc_vekniss_stinger", "d8/d1b/a14938.html#ad48098961715a924270cb8bbbe77e4b0", null ],
-    [ "JustEngagedWith", "d8/d1b/a14938.html#ae7c758687c81cfb223066f0a9348eab8", null ],
-    [ "Reset", "d8/d1b/a14938.html#a2a79f3775aad83410ff2670aa438e811", null ],
-    [ "UpdateAI", "d8/d1b/a14938.html#a1ff479e8f45710f6aa36473933bb87e0", null ]
+    [ "npc_stillpine_capitiveAI", "d8/d1b/a14938.html#a98560e7fc360dbfa3166805d9ab3feb4", null ],
+    [ "MovementInform", "d8/d1b/a14938.html#a1e930b49da85a64aa87ba79b5fe72391", null ],
+    [ "Reset", "d8/d1b/a14938.html#a9c884f892e64044057d477bdc0f89eed", null ],
+    [ "StartMoving", "d8/d1b/a14938.html#a2552a79cf384cca1203afa7f241c1cb9", null ],
+    [ "UpdateAI", "d8/d1b/a14938.html#a25dc06767382b5fee2a7098b58726fb2", null ],
+    [ "_events", "d8/d1b/a14938.html#a93dd55d392836d8d085e34293344b700", null ],
+    [ "_movementComplete", "d8/d1b/a14938.html#ae8e39ca782aee412e39d65a33d14014e", null ],
+    [ "_playerGUID", "d8/d1b/a14938.html#a3fe9a4f01aebb602095d60eb606ce763", null ]
 ];

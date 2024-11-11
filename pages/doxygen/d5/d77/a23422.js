@@ -1,8 +1,10 @@
 var a23422 =
 [
-    [ "npc_warchief_portal", "d5/d77/a23422.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
-    [ "JustSummoned", "d5/d77/a23422.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
-    [ "SetData", "d5/d77/a23422.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
-    [ "UpdateAI", "d5/d77/a23422.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
-    [ "_scheduler", "d5/d77/a23422.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
+    [ "CheckProc", "d5/d77/a23422.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
+    [ "Load", "d5/d77/a23422.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
+    [ "PrepareAuraScript", "d5/d77/a23422.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
+    [ "Register", "d5/d77/a23422.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
+    [ "_lastForm", "d5/d77/a23422.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
+    [ "_lastSchool", "d5/d77/a23422.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
+    [ "_swapTime", "d5/d77/a23422.html#af832dc200e928df3849ab7d7f93cb412", null ]
 ];

@@ -1,10 +1,16 @@
 var a03056 =
 [
-    [ "AddGossipItemFor", "d4/d90/a03056.html#a21e32e886a589c9093660b3c4c58f72c", null ],
-    [ "AddGossipItemFor", "d4/d90/a03056.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5", null ],
-    [ "AddGossipItemFor", "d4/d90/a03056.html#acd7e8e52a911742a99728cf9408e23b8", null ],
-    [ "ClearGossipMenuFor", "d4/d90/a03056.html#af077a82741577a63a075c7d40b3b3dc5", null ],
-    [ "CloseGossipMenuFor", "d4/d90/a03056.html#af8f7e54dac5ecc86e92d780c3918cb09", null ],
-    [ "SendGossipMenuFor", "d4/d90/a03056.html#ad893abf2b09592b57715ef4a3222a2b3", null ],
-    [ "SendGossipMenuFor", "d4/d90/a03056.html#a18599cfc6649557de0d505ed4d4a0210", null ]
+    [ "FormulaScript", "d0/dcf/a10014.html", "d0/dcf/a10014" ],
+    [ "FormulaHook", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69", [
+      [ "FORMULAHOOK_ON_HONOR_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419", null ],
+      [ "FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4", null ],
+      [ "FORMULAHOOK_ON_COLOR_CODE_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436", null ],
+      [ "FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f", null ],
+      [ "FORMULAHOOK_ON_BASE_GAIN_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86", null ],
+      [ "FORMULAHOOK_ON_GAIN_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52", null ],
+      [ "FORMULAHOOK_ON_GROUP_RATE_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf", null ],
+      [ "FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92", null ],
+      [ "FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33", null ],
+      [ "FORMULAHOOK_END", "d4/d90/a03056.html#a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f", null ]
+    ] ]
 ];

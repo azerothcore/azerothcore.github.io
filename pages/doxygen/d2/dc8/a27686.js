@@ -1,7 +1,8 @@
 var a27686 =
 [
-    [ "Load", "d2/dc8/a27686.html#a8be944ae201f4f8406948aff78f982d9", null ],
-    [ "OnDummyEffect", "d2/dc8/a27686.html#adcb707400963e549a295e115d6f3583b", null ],
-    [ "PrepareSpellScript", "d2/dc8/a27686.html#a5b2175a933df10d775bc3381f515aa96", null ],
-    [ "Register", "d2/dc8/a27686.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
+    [ "DamagedDisplayId", "d2/dc8/a27686.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
+    [ "DestroyedDisplayId", "d2/dc8/a27686.html#afc891df0c9491a34f784e8f141434be5", null ],
+    [ "Id", "d2/dc8/a27686.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
+    [ "RebuildingDisplayId", "d2/dc8/a27686.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
+    [ "SmokeDisplayId", "d2/dc8/a27686.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
 ];

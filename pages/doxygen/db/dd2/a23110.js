@@ -1,15 +1,5 @@
 var a23110 =
 [
-    [ "instance_the_slave_pens_InstanceMapScript", "db/dd2/a23110.html#a70db3eeeb55784250a13032728220005", null ],
-    [ "GetGuidData", "db/dd2/a23110.html#a77e77209e779b774608f739b258ae419", null ],
-    [ "OnCreatureCreate", "db/dd2/a23110.html#aca6b8148602b8fb95c9a467dc9400b8b", null ],
-    [ "SetGuidData", "db/dd2/a23110.html#a21a29973bcf5ef6925239213ce50bab0", null ],
-    [ "AhuneBunnyGUID", "db/dd2/a23110.html#ad57cefe116f2da6e7c85f36091fe0e94", null ],
-    [ "AhuneGUID", "db/dd2/a23110.html#a8ad4dab281db87bb2d14b925b450f09c", null ],
-    [ "BeamBunnyGUIDs", "db/dd2/a23110.html#a09e3d1ca5d040268578fa770b7153a81", null ],
-    [ "BonfireBunnyGUIDs", "db/dd2/a23110.html#a9de605ffd8092f83af8df5c1725c5d2b", null ],
-    [ "counter", "db/dd2/a23110.html#a4ea85debc35e91668723222e8ea90071", null ],
-    [ "FlameCallerGUIDs", "db/dd2/a23110.html#a50af0f1eaaa4e40d729e797212cf3ba0", null ],
-    [ "FrozenCoreGUID", "db/dd2/a23110.html#a6ac47d1f3eb4d199afdda9ad2a2cc73e", null ],
-    [ "LumaGUID", "db/dd2/a23110.html#a0e9e294b4140dc8b8a5567a54d7b0c42", null ]
+    [ "npc_invisible_tractor_beam_source", "db/dd2/a23110.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
+    [ "IsSummonedBy", "db/dd2/a23110.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
 ];

@@ -1,12 +1,37 @@
 var a02102 =
 [
-    [ "instance_stratholme", "d2/d0d/a12862.html", "d2/d0d/a12862" ],
-    [ "instance_stratholme::instance_stratholme_InstanceMapScript", "d2/dd3/a12866.html", "d2/dd3/a12866" ],
-    [ "AddSC_instance_stratholme", "d0/dfe/a02102.html#add44fd9ad05267cc5db256b112db2585", null ],
-    [ "aGateTrap", "d0/dfe/a02102.html#aa404f6799978911e2f0e4de3b4386c59", null ],
-    [ "aPlaguedCritters", "d0/dfe/a02102.html#a4108af811b2731f9784942b89f333054", null ],
-    [ "BarthilasPos", "d0/dfe/a02102.html#a3c5bc53064d7ed19146d61fbe2f25502", null ],
-    [ "BlackGuardPos", "d0/dfe/a02102.html#a8ed1ccc03c022b129aa9bb9464fedd0a", null ],
-    [ "MindlessUndeadPos", "d0/dfe/a02102.html#a1a89feed6c582c3bf3e51bf3a1027081", null ],
-    [ "SlaughterPos", "d0/dfe/a02102.html#aec64d79cbf450b10fd485f2e559e0472", null ]
+    [ "npc_ame", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
+    [ "npc_ame::npc_ameAI", "d8/d42/a15294.html", "d8/d42/a15294" ],
+    [ "npc_ringo", "d4/d38/a15298.html", "d4/d38/a15298" ],
+    [ "npc_ringo::npc_ringoAI", "da/d06/a15302.html", "da/d06/a15302" ],
+    [ "AmeData", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0", [
+      [ "SAY_READY", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0a82af2bd2787802be3ff2ee4588ea9be4", null ],
+      [ "SAY_AGGRO1", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0a17fd4d94120185f67ee94a41652285a5", null ],
+      [ "SAY_SEARCH", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0a843a1ad765b601ed599c443b66ae5d77", null ],
+      [ "SAY_AGGRO2", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0af73eb45ca3cf512147f1d25e1254c224", null ],
+      [ "SAY_AGGRO3", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0aa623912b4ba266583234ba5df070e02e", null ],
+      [ "SAY_FINISH", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0a0e5b4f2c41b1953cea52b7f41d134838", null ],
+      [ "SPELL_DEMORALIZINGSHOUT", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0a8477c04b326171f69326346981b724e1", null ],
+      [ "QUEST_CHASING_AME", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0aa73d2307a32eceb7d713d314b325b827", null ],
+      [ "ENTRY_TARLORD", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0ab6db2c46b771ac7d038f25d35308beec", null ],
+      [ "ENTRY_TARLORD1", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0ae1f81eb98b3fa0fc40666dedb0ece35f", null ],
+      [ "ENTRY_STOMPER", "d0/dfe/a02102.html#abbb0f5e31bd003a50e94cc712dbab7c0af0775f5d04bd4e00f048e939fed6e64a", null ]
+    ] ],
+    [ "Ringo", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592", [
+      [ "SAY_RIN_START", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592abd4cb0c4d5414164403e75fca667915b", null ],
+      [ "SAY_FAINT", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a39f7b5e8a7fc4ed40e62cedfa93923bd", null ],
+      [ "SAY_WAKE", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592aadb6c63e08a18de76bcc95ca2e830a6e", null ],
+      [ "SAY_RIN_END_1", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592ae8753384ff9e53b533a5a1cebd16ce64", null ],
+      [ "SAY_SPR_END_2", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a1a913192c37c18a19114eebee21e1a85", null ],
+      [ "SAY_RIN_END_3", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592ae29a03470647c5d13bcb1729160b1d8b", null ],
+      [ "EMOTE_RIN_END_4", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592aeeed58bd2d47e0450374129434bcf296", null ],
+      [ "EMOTE_RIN_END_5", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac0c11a39be96e25065c399ff7dd7c484", null ],
+      [ "SAY_RIN_END_6", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a699867c1deab61d85853622b099cd728", null ],
+      [ "SAY_SPR_END_7", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac165214832e6be5740245dd6239ef2c9", null ],
+      [ "EMOTE_RIN_END_8", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac034860ad6513469b74ad5b7cc76edc7", null ],
+      [ "SPELL_REVIVE_RINGO", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a9fc3d4c57ff3ca56f344b70df866e766", null ],
+      [ "QUEST_A_LITTLE_HELP", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a6ab7d20ae4eca495ad164638b1e68b51", null ],
+      [ "NPC_SPRAGGLE", "d0/dfe/a02102.html#a1eb7864fe2b6e6ec59692fb2f7c02592a4bc3afbb0cf9626825ffda0b610e2e64", null ]
+    ] ],
+    [ "AddSC_ungoro_crater", "d0/dfe/a02102.html#a6e2c88161cee97e0e405ef83abcc653f", null ]
 ];

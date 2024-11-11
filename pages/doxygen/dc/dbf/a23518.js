@@ -1,6 +1,6 @@
 var a23518 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d2/db4/a23522.html", "d2/db4/a23522" ],
-    [ "instance_the_botanica", "dc/dbf/a23518.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "dc/dbf/a23518.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "HandleScriptEffect", "dc/dbf/a23518.html#a724e857ad8604ef4546c8823bb7bd632", null ],
+    [ "PrepareSpellScript", "dc/dbf/a23518.html#a7a67cdf9c3c8017fd065549a499831fc", null ],
+    [ "Register", "dc/dbf/a23518.html#aadbf9ca8c4b5fa0f72b967f059ee22ab", null ]
 ];

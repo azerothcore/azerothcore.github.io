@@ -1,6 +1,7 @@
 var a17214 =
 [
-    [ "Cooldown", "d2/d39/a17214.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
-    [ "Entry", "d2/d39/a17214.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
-    [ "TargetPosition", "d2/d39/a17214.html#ac47af49622012b4ad40357cadc5214b3", null ]
+    [ "npc_gunship_rocketeerAI", "d2/d39/a17214.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "d2/d39/a17214.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "d2/d39/a17214.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "d2/d39/a17214.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

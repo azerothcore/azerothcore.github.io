@@ -1,6 +1,5 @@
 var a16734 =
 [
-    [ "npc_pos_leaderAI", "dd/d62/a16738.html", "dd/d62/a16738" ],
-    [ "npc_pos_leader", "d6/d32/a16734.html#a690956ba5c822f4cbea9c27c95d5924c", null ],
-    [ "GetAI", "d6/d32/a16734.html#a0c0b85bef0b04989dc80d861fa70f463", null ]
+    [ "entry", "d6/d32/a16734.html#a44c7a625896d6fddc15da39988e0b042", null ],
+    [ "pathId", "d6/d32/a16734.html#accd6af0ddfa248a972612d802a1e641e", null ]
 ];

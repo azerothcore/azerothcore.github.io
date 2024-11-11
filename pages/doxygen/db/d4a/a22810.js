@@ -1,6 +1,6 @@
 var a22810 =
 [
-    [ "PrepareAuraScript", "db/d4a/a22810.html#a0dca39c324a5431d4861c1f20a34355e", null ],
-    [ "Register", "db/d4a/a22810.html#a8f52092f25bdbf453d4126c56ff69f0a", null ],
-    [ "Update", "db/d4a/a22810.html#a6201eaa3b961e838a535b80679996ada", null ]
+    [ "HandleScriptEffect", "db/d4a/a22810.html#a6489e3a58421da7c448a24d6673564c5", null ],
+    [ "PrepareSpellScript", "db/d4a/a22810.html#a5afd50fdc8393a12cd39a56c342f9179", null ],
+    [ "Register", "db/d4a/a22810.html#a274d65aa393a65e19bbb67a5d07c7428", null ]
 ];

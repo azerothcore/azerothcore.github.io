@@ -1,6 +1,9 @@
 var a20190 =
 [
-    [ "npc_ulduar_flames_initialAI", "df/da1/a20194.html", "df/da1/a20194" ],
-    [ "npc_ulduar_flames_initial", "d6/da8/a20190.html#aee0c62a38e3e0958e015faef2c434273", null ],
-    [ "GetAI", "d6/da8/a20190.html#ac0db78c361324a594220ad644001f4eb", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "d6/da8/a20190.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
+    [ "CanAIAttack", "d6/da8/a20190.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
+    [ "Reset", "d6/da8/a20190.html#ada2897f48effedd5d5baa5a260497b5a", null ],
+    [ "UpdateAI", "d6/da8/a20190.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
+    [ "timer1", "d6/da8/a20190.html#a383a2ee113822b7eff52466f0cc0e137", null ],
+    [ "timer2", "d6/da8/a20190.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
 ];

@@ -1,7 +1,9 @@
 var a18406 =
 [
-    [ "Land", "d8/dfd/a18406.html#ad2fd3d7c81e3ef22cb3767914f649fd0", null ],
-    [ "PrepareSpellScript", "d8/dfd/a18406.html#a31e45adb87719c311fb5b94b2b744487", null ],
-    [ "Register", "d8/dfd/a18406.html#a652eca6ec8079b2835d911807857c8a8", null ],
-    [ "RemoveAliveTarget", "d8/dfd/a18406.html#abdb5f624b30a046eed9ca6ad7c347010", null ]
+    [ "npc_icc_severed_essenceAI", "d8/dfd/a18406.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
+    [ "CanAIAttack", "d8/dfd/a18406.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
+    [ "DoAction", "d8/dfd/a18406.html#a938af3a7de5b26432e1ad515a326a032", null ],
+    [ "UpdateAI", "d8/dfd/a18406.html#a66e3324baa87ba109dd968a517ee82a5", null ],
+    [ "Class", "d8/dfd/a18406.html#aa627713be3a2ac01336d158d96aaccc7", null ],
+    [ "events", "d8/dfd/a18406.html#a1bab216925c4123d633d9613bb80365c", null ]
 ];

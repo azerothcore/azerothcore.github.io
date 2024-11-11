@@ -1,7 +1,6 @@
 var a24034 =
 [
-    [ "npc_kservantAI", "d1/d37/a24034.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "d1/d37/a24034.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "d1/d37/a24034.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "d1/d37/a24034.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "HandleDamageCalc", "d1/d37/a24034.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "d1/d37/a24034.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "d1/d37/a24034.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

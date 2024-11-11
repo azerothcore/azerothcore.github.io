@@ -1,7 +1,6 @@
 var a25618 =
 [
-    [ "HandleScript", "d4/d04/a25618.html#aad0be226a2d294d3361c1afbf644c5e4", null ],
-    [ "PrepareSpellScript", "d4/d04/a25618.html#a85dee311aab08d796a3a0c1bc9e9390d", null ],
-    [ "Register", "d4/d04/a25618.html#a2b22be9826db241ecf3f99ff16c309c0", null ],
-    [ "Validate", "d4/d04/a25618.html#a98df659504307fc0666fe2b1001eaa00", null ]
+    [ "OnRemove", "d4/d04/a25618.html#ae1f257e43effcb396d57d42db3063afd", null ],
+    [ "PrepareAuraScript", "d4/d04/a25618.html#a5b13e46dc228ffe594ce2ce06a7d6799", null ],
+    [ "Register", "d4/d04/a25618.html#a4a94d5c8efdd7f6e0dd655ebeb8c4614", null ]
 ];

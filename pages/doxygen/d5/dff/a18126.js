@@ -1,4 +1,6 @@
 var a18126 =
 [
-    [ "operator()", "d5/dff/a18126.html#adb7207ebbfe52e2f84f9b8d3249b54d1", null ]
+    [ "HandleScript", "d5/dff/a18126.html#a930b8a515b5d156c16925dc218cf8172", null ],
+    [ "PrepareSpellScript", "d5/dff/a18126.html#a892b0ba0f6541b3557a0200be5028479", null ],
+    [ "Register", "d5/dff/a18126.html#a1eb85bc675a89ef9679e673c1fea9a08", null ]
 ];

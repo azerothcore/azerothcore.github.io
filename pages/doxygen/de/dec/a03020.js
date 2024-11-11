@@ -1,11 +1,8 @@
 var a03020 =
 [
-    [ "npc_announcer_toc10", "db/dce/a16506.html", "db/dce/a16506" ],
-    [ "MenuTexts", "de/dec/a03020.html#a5e87c460d493df2d4629af8c1a30fc5a", [
-      [ "MSG_TESTED", "de/dec/a03020.html#a5e87c460d493df2d4629af8c1a30fc5aa462de44eca88c95eb9e412dcabc36185", null ],
-      [ "MSG_NEXT_STAGE", "de/dec/a03020.html#a5e87c460d493df2d4629af8c1a30fc5aafb4b982343fbe7bdd8db85adec53db80", null ],
-      [ "MSG_CRUSADERS", "de/dec/a03020.html#a5e87c460d493df2d4629af8c1a30fc5aa0f20061fedbed395c6723105b82e091d", null ],
-      [ "MSG_ANUBARAK", "de/dec/a03020.html#a5e87c460d493df2d4629af8c1a30fc5aad43353382c7c2b60068aa5b306b62643", null ]
-    ] ],
-    [ "AddSC_trial_of_the_crusader", "de/dec/a03020.html#aae8fa1928137dde06462a753ceebcca6", null ]
+    [ "MovementHandlerScript", "df/d2c/a10070.html", "df/d2c/a10070" ],
+    [ "MovementHook", "de/dec/a03020.html#a5763e953c65ba38409a14469a1fe2842", [
+      [ "MOVEMENTHOOK_ON_PLAYER_MOVE", "de/dec/a03020.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326", null ],
+      [ "MOVEMENTHOOK_END", "de/dec/a03020.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c", null ]
+    ] ]
 ];

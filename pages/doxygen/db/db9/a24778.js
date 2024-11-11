@@ -1,8 +1,6 @@
 var a24778 =
 [
-    [ "CheckProc", "db/db9/a24778.html#a1ba43a41ca6909f2bd377290b1b0b12b", null ],
-    [ "OnProc", "db/db9/a24778.html#a6ffad33ef5c8433705c65a2c693d5527", null ],
-    [ "PrepareAuraScript", "db/db9/a24778.html#af474a768c441fb666163f4ebd5068393", null ],
-    [ "Register", "db/db9/a24778.html#ae533e87550b1aedc67b67c217495286d", null ],
-    [ "Validate", "db/db9/a24778.html#ab6e36f24dea949c8cedaaed0d5fa9517", null ]
+    [ "HandleDummy", "db/db9/a24778.html#a63bc85e32a1478d03b381c61a33d0dff", null ],
+    [ "PrepareSpellScript", "db/db9/a24778.html#adae41617f38a71ccec183f419d677cfd", null ],
+    [ "Register", "db/db9/a24778.html#a820e8b506de36a24411ae4a1c5930417", null ]
 ];

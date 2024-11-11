@@ -1,6 +1,6 @@
 var a21398 =
 [
-    [ "npc_steam_powered_auctioneerAI", "da/dd3/a21402.html", "da/dd3/a21402" ],
-    [ "npc_steam_powered_auctioneer", "d9/d8f/a21398.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
-    [ "GetAI", "d9/d8f/a21398.html#a39a2f0c187078c759bc4a391e0a81068", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d9/d8f/a21398.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
+    [ "MovementInform", "d9/d8f/a21398.html#a999bc868db485578fcc70ae7e056b778", null ],
+    [ "Reset", "d9/d8f/a21398.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
 ];

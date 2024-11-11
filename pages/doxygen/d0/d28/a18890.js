@@ -1,6 +1,6 @@
 var a18890 =
 [
-    [ "instance_naxxramas_InstanceMapScript", "d5/dc7/a18894.html", "d5/dc7/a18894" ],
-    [ "instance_naxxramas", "d0/d28/a18890.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
-    [ "GetInstanceScript", "d0/d28/a18890.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
+    [ "ChargeRifts", "d0/d28/a18890.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "d0/d28/a18890.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "d0/d28/a18890.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

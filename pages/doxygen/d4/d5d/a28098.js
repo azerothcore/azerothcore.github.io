@@ -1,13 +1,11 @@
 var a28098 =
 [
-    [ "actionFlag", "d4/d5d/a28098.html#a6257ae486eff937cf12be64f0e850ca6", null ],
-    [ "arrivalEventID", "d4/d5d/a28098.html#a1ffe17f529066091b18451a1121ce6ac", null ],
-    [ "delay", "d4/d5d/a28098.html#aef005db912b0a57ecc5d62c66d838826", null ],
-    [ "departureEventID", "d4/d5d/a28098.html#a670a033aaf0ff48676373baf9235d670", null ],
-    [ "index", "d4/d5d/a28098.html#af9f8e03c2d9c1bdf266b3d62f1174224", null ],
-    [ "mapid", "d4/d5d/a28098.html#aa2c6fb8a785e297c72384043698dd401", null ],
-    [ "path", "d4/d5d/a28098.html#aa0692acbae0d4639c89ece77265d7858", null ],
-    [ "x", "d4/d5d/a28098.html#a9acd2aad6b8820c04f6749bd2944b54f", null ],
-    [ "y", "d4/d5d/a28098.html#a08778d3ef9a9a87fd731b54d5501daab", null ],
-    [ "z", "d4/d5d/a28098.html#af48d85940d7f204091e8438427a72e2d", null ]
+    [ "IsAvailable", "d4/d5d/a28098.html#adfebd7a162ebae8396669de031c768a6", null ],
+    [ "operator bool", "d4/d5d/a28098.html#ac25d4bb270c805b8ea2a6e0b4b6b2e74", null ],
+    [ "operator*", "d4/d5d/a28098.html#a24733bf06b4a91abcf4945aa5303a275", null ],
+    [ "operator->", "d4/d5d/a28098.html#ad0ddd6fe7451f2b968db3a7d7a93b342", null ],
+    [ "SecretMgr", "d4/d5d/a28098.html#af098c138ad828545a3dfb1870ad4c2fb", null ],
+    [ "lock", "d4/d5d/a28098.html#aff5ea87e5a7dbfdf5bd38400997f2c40", null ],
+    [ "state", "d4/d5d/a28098.html#a01563e00123d442b82bd6389d838c23d", null ],
+    [ "value", "d4/d5d/a28098.html#a16b48eb9b384f6ab8c6996b38f559825", null ]
 ];

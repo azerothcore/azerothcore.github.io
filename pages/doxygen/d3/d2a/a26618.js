@@ -1,6 +1,5 @@
 var a26618 =
 [
-    [ "HandleOnHit", "d3/d2a/a26618.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
-    [ "PrepareSpellScript", "d3/d2a/a26618.html#a999b019665dec9b0690a1019be428072", null ],
-    [ "Register", "d3/d2a/a26618.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
+    [ "achievement_save_the_day", "d3/d2a/a26618.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "d3/d2a/a26618.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

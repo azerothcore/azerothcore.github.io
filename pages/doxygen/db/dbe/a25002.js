@@ -1,7 +1,6 @@
 var a25002 =
 [
-    [ "HandleEffectPeriodic", "db/dbe/a25002.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
-    [ "PrepareAuraScript", "db/dbe/a25002.html#affc698127fe0656df25bd094c02a7e50", null ],
-    [ "Register", "db/dbe/a25002.html#a4707bfaeb86b3540920a6772e1726e26", null ],
-    [ "Validate", "db/dbe/a25002.html#aef839f163d7e623a54b163e1c27542cd", null ]
+    [ "CalculateAmount", "db/dbe/a25002.html#a83bf0327aade6f6a33293a442ad10911", null ],
+    [ "PrepareAuraScript", "db/dbe/a25002.html#aa964f4eb7391dab54ff744fc94306de1", null ],
+    [ "Register", "db/dbe/a25002.html#a37d29d87bec2fe2908b7d3e47f5e1caa", null ]
 ];

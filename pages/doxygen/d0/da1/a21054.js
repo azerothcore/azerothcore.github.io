@@ -1,6 +1,6 @@
 var a21054 =
 [
-    [ "boss_erekemAI", "dd/d61/a21058.html", "dd/d61/a21058" ],
-    [ "boss_erekem", "d0/da1/a21054.html#ab618380bd8f8c199ca85f1fe8a67db4d", null ],
-    [ "GetAI", "d0/da1/a21054.html#aa472a21bf4a855ba75bc7de05cce494c", null ]
+    [ "npc_azure_invaderAI", "dd/d61/a21058.html", "dd/d61/a21058" ],
+    [ "npc_azure_invader", "d0/da1/a21054.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
+    [ "GetAI", "d0/da1/a21054.html#a19c000084ea74a401ece81ee0e20b65c", null ]
 ];

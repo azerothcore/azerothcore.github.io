@@ -1,6 +1,7 @@
 var a16794 =
 [
-    [ "npc_pos_freed_slaveAI", "d2/dc3/a16794.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
-    [ "CanAIAttack", "d2/dc3/a16794.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
-    [ "EnterEvadeMode", "d2/dc3/a16794.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
+    [ "HandleApplyAura", "d2/dc3/a16794.html#ac71784d7d135df4828ddcf5c85c4301c", null ],
+    [ "PrepareSpellScript", "d2/dc3/a16794.html#a097bf3b27e4b2d9ceddea07b9c0b8ce9", null ],
+    [ "Register", "d2/dc3/a16794.html#a80638966202cb9e27d204ea621e379ef", null ],
+    [ "Validate", "d2/dc3/a16794.html#aaa3505a74905b91f52e37b0ded0ba7fd", null ]
 ];

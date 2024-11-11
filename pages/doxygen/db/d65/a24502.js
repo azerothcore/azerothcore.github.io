@@ -1,6 +1,7 @@
 var a24502 =
 [
-    [ "PrepareAuraScript", "db/d65/a24502.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
-    [ "Register", "db/d65/a24502.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
-    [ "UpdateAmount", "db/d65/a24502.html#a621e73a09438f3f9cbaa232125df3b87", null ]
+    [ "CheckRequirement", "db/d65/a24502.html#a6be5f335a15226db87a04548490f488d", null ],
+    [ "PrepareSpellScript", "db/d65/a24502.html#a25463eda0ce51a124e8715baf305c8f6", null ],
+    [ "Register", "db/d65/a24502.html#a8db5a5597d8f6fe4064799766fb61502", null ],
+    [ "_level", "db/d65/a24502.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
 ];

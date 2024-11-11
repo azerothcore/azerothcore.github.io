@@ -1,6 +1,6 @@
 var a19302 =
 [
-    [ "boss_sjonnirAI", "de/d1b/a19306.html", "de/d1b/a19306" ],
-    [ "boss_sjonnir", "dd/d8e/a19302.html#a8bb9b10778a2dedcde3d4ced44bc13f1", null ],
-    [ "GetAI", "dd/d8e/a19302.html#a0bb79667d9d80f0c49e30fa0547c6062", null ]
+    [ "npc_collapsing_starAI", "dd/d8e/a19302.html#ac389b380a8f315ae50a8cd809393a773", null ],
+    [ "DamageTaken", "dd/d8e/a19302.html#a424fac98093eb9d02cda5027523ad06a", null ],
+    [ "JustSummoned", "dd/d8e/a19302.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
 ];

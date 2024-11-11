@@ -1,6 +1,6 @@
 var a20094 =
 [
-    [ "FilterTargets", "dd/d59/a20094.html#ae8d940a89be9b63286911bd55dcd3844", null ],
-    [ "PrepareSpellScript", "dd/d59/a20094.html#a8f4b4d82e53c8f820b620896478681a9", null ],
-    [ "Register", "dd/d59/a20094.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
+    [ "npc_ulduar_flames_spreadAI", "d8/dd1/a20098.html", "d8/dd1/a20098" ],
+    [ "npc_ulduar_flames_spread", "dd/d59/a20094.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
+    [ "GetAI", "dd/d59/a20094.html#af492a5bc9304a05f8475a39458c6abdb", null ]
 ];

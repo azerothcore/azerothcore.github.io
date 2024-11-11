@@ -1,8 +1,9 @@
 var a13198 =
 [
-    [ "HandleEffectApply", "db/ddf/a13198.html#afd47748c7db2e0a5b7da2e18dc7b53ec", null ],
-    [ "HandleEffectRemove", "db/ddf/a13198.html#a87a0061366829cbc6f856cc1f7ea1105", null ],
-    [ "Load", "db/ddf/a13198.html#a2e3b53977f188ed28d9deedbcbc03e6b", null ],
-    [ "PrepareAuraScript", "db/ddf/a13198.html#a99b97b2ed12d73e417af0b970c2a9645", null ],
-    [ "Register", "db/ddf/a13198.html#a6a90296c9903ce65913f3bba29dea176", null ]
+    [ "npc_partygoer", "db/ddf/a13198.html#af053caedfd1fa8173b875f521d279418", null ],
+    [ "Initialize", "db/ddf/a13198.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
+    [ "Reset", "db/ddf/a13198.html#ad1936099ec5696a2a593e5041b0360c6", null ],
+    [ "UpdateAI", "db/ddf/a13198.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
+    [ "_events", "db/ddf/a13198.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
+    [ "_facing", "db/ddf/a13198.html#a9e934091894987ec091b03090bf733e5", null ]
 ];

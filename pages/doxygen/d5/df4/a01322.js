@@ -1,9 +1,7 @@
 var a01322 =
 [
-    [ "instance_ahnkahet", "d8/d80/a15558.html", "d8/d80/a15558" ],
-    [ "instance_ahnkahet::instance_ahnkahet_InstanceScript", "da/d8c/a15562.html", "da/d8c/a15562" ],
-    [ "spell_shadow_sickle_periodic_damage", "da/d05/a15566.html", "da/d05/a15566" ],
-    [ "AddSC_instance_ahnkahet", "d5/df4/a01322.html#a33aed24f64879c91101f7420c4d49cc3", null ],
-    [ "creatureData", "d5/df4/a01322.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "d5/df4/a01322.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "instance_forge_of_souls", "d5/d5f/a16410.html", "d5/d5f/a16410" ],
+    [ "instance_forge_of_souls::instance_forge_of_souls_InstanceScript", "d0/d5d/a16414.html", "d0/d5d/a16414" ],
+    [ "AddSC_instance_forge_of_souls", "d5/df4/a01322.html#a1ec461fda59c652788d1a38e62cdea20", null ],
+    [ "boundaries", "d5/df4/a01322.html#aa75d7d0ffe0cef214f982966c33db1c1", null ]
 ];

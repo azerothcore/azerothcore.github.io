@@ -1,8 +1,10 @@
 var a00701 =
 [
-    [ "misc_commandscript", "d8/d58/a11382.html", "d8/d58/a11382" ],
-    [ "AddSC_misc_commandscript", "dd/d57/a00701.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
-    [ "GetLocalizeCreatureName", "dd/d57/a00701.html#aaedbdfd3cae227b11684151f41e3b977", null ],
-    [ "SPELL_FREEZE", "dd/d57/a00701.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
-    [ "SPELL_STUCK", "dd/d57/a00701.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
+    [ "ban_commandscript", "db/d2f/a11278.html", "db/d2f/a11278" ],
+    [ "BanMode", "dd/d57/a00701.html#aee9acfaac97a86a40bad738a75eb5264", [
+      [ "BAN_ACCOUNT", "dd/d57/a00701.html#aee9acfaac97a86a40bad738a75eb5264a7092b1d29da920594bf62c7abe0e9ba1", null ],
+      [ "BAN_CHARACTER", "dd/d57/a00701.html#aee9acfaac97a86a40bad738a75eb5264ab7cde4c4b1dd975c191f10ab0b18ab79", null ],
+      [ "BAN_IP", "dd/d57/a00701.html#aee9acfaac97a86a40bad738a75eb5264ab68a6a6d80749ee19c73fc9dd4f4d74b", null ]
+    ] ],
+    [ "AddSC_ban_commandscript", "dd/d57/a00701.html#aac8ae57b7b7f9ef5cb5aa2975ef444ff", null ]
 ];

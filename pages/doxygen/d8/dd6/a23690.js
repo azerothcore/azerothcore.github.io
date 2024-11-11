@@ -1,6 +1,6 @@
 var a23690 =
 [
-    [ "HandlePeriodic", "d8/dd6/a23690.html#a0838d4449351f46a1f9f485abaf35c2b", null ],
-    [ "PrepareAuraScript", "d8/dd6/a23690.html#a438425f3002028a0978e0dbab580ca03", null ],
-    [ "Register", "d8/dd6/a23690.html#af4b26607e8838b7bbbe8777f57601341", null ]
+    [ "npc_fel_guard_houndAI", "d0/d2d/a23694.html", "d0/d2d/a23694" ],
+    [ "npc_fel_guard_hound", "d8/dd6/a23690.html#a324179695f04a31b233b0ce94a46634c", null ],
+    [ "GetAI", "d8/dd6/a23690.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
 ];

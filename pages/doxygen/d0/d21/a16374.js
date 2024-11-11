@@ -1,6 +1,6 @@
 var a16374 =
 [
-    [ "HandleEffectApply", "d0/d21/a16374.html#aaea2c3733dadc19072c81774468e345a", null ],
-    [ "PrepareAuraScript", "d0/d21/a16374.html#a3848997e9f775add50d40342b6211ff0", null ],
-    [ "Register", "d0/d21/a16374.html#a775b1cf494049ed13d149ca6318142c3", null ]
+    [ "boss_devourer_of_soulsAI", "d6/d9f/a16378.html", "d6/d9f/a16378" ],
+    [ "boss_devourer_of_souls", "d0/d21/a16374.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
+    [ "GetAI", "d0/d21/a16374.html#a3de68fa630c5b74104c461f88edd1d36", null ]
 ];

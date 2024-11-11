@@ -1,6 +1,10 @@
 var a14414 =
 [
-    [ "boss_mal_ganisAI", "dc/d6b/a14418.html", "dc/d6b/a14418" ],
-    [ "boss_mal_ganis", "de/d21/a14414.html#a604becb65e766f4fb71d2ae168d1be4e", null ],
-    [ "GetAI", "de/d21/a14414.html#aa747abd11310c3535ea2ea37e4aac28b", null ]
+    [ "boss_aeonus", "de/d21/a14414.html#af823ef2187b852dc72d2f63020e1701b", null ],
+    [ "IsSummonedBy", "de/d21/a14414.html#a5f95e19dfec210d4da1f1f48145ff047", null ],
+    [ "JustDied", "de/d21/a14414.html#a649275c31e61f542a13fd791ee85277b", null ],
+    [ "JustEngagedWith", "de/d21/a14414.html#a5f193144e36a889630d5dbadb4aa665f", null ],
+    [ "JustReachedHome", "de/d21/a14414.html#a62df4db3ead6f9be5c3ead974613c8d5", null ],
+    [ "KilledUnit", "de/d21/a14414.html#a4aa2f3d82aaaf5cd3a938ad92aad059d", null ],
+    [ "MoveInLineOfSight", "de/d21/a14414.html#a3147774fa5bff34d01947fdcf254ba7b", null ]
 ];

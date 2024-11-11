@@ -1,6 +1,6 @@
 var a25802 =
 [
-    [ "HandleRemove", "de/de0/a25802.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
-    [ "PrepareAuraScript", "de/de0/a25802.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
-    [ "Register", "de/de0/a25802.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
+    [ "FilterTargets", "de/de0/a25802.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
+    [ "PrepareSpellScript", "de/de0/a25802.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
+    [ "Register", "de/de0/a25802.html#a4db02c58be57a797c26b07656d1b5409", null ]
 ];

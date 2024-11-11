@@ -1,6 +1,8 @@
 var a19802 =
 [
-    [ "boss_freya_summonsAI", "df/d43/a19806.html", "df/d43/a19806" ],
-    [ "boss_freya_summons", "d7/d42/a19802.html#a3445ed89967cc9a610472f18e862ecd4", null ],
-    [ "GetAI", "d7/d42/a19802.html#ac68f231c37c61d262d6c16bc87a0f1c7", null ]
+    [ "npc_ulduar_flash_freezeAI", "d7/d42/a19802.html#a478e7bc76a7b7ffeb25a0df731cb5ed8", null ],
+    [ "DamageTaken", "d7/d42/a19802.html#af0c18460b4cc331f51c44a3306f516b8", null ],
+    [ "UpdateAI", "d7/d42/a19802.html#ab2efa0a8d06297bff05502c40079efe9", null ],
+    [ "pInstance", "d7/d42/a19802.html#a28be7874fee6dcaea6f205cb75f1450f", null ],
+    [ "timer", "d7/d42/a19802.html#a590117afe9e9943d8dc8a44af9386066", null ]
 ];

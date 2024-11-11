@@ -1,8 +1,6 @@
 var a15154 =
 [
-    [ "CheckRequirement", "da/d67/a15154.html#ae2b5e9accd0df2cc99e976eaab2d3f35", null ],
-    [ "HandleDummy", "da/d67/a15154.html#a6d2c75ad53f0e0f7be2df037f385d686", null ],
-    [ "PrepareSpellScript", "da/d67/a15154.html#a5b0a5f957a7b996cbe6b219a9803069e", null ],
-    [ "Register", "da/d67/a15154.html#a46f4aec6f7786d0abc8ded21ef16e6f6", null ],
-    [ "Validate", "da/d67/a15154.html#ab3f8d94f3b8d44e668743cb821430a92", null ]
+    [ "npc_anachronos_quest_triggerAI", "d5/d5b/a15158.html", "d5/d5b/a15158" ],
+    [ "npc_anachronos_quest_trigger", "da/d67/a15154.html#ad39871952acd3152b51820fe360f4ebd", null ],
+    [ "GetAI", "da/d67/a15154.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
 ];

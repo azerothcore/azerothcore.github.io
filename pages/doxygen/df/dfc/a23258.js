@@ -1,11 +1,5 @@
 var a23258 =
 [
-    [ "boss_krosh_firehand", "df/dfc/a23258.html#a1ef3618844f086de7875f26e7e6190f9", null ],
-    [ "AttackStart", "df/dfc/a23258.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
-    [ "JustDied", "df/dfc/a23258.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
-    [ "JustEngagedWith", "df/dfc/a23258.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
-    [ "Reset", "df/dfc/a23258.html#a989c4b762a7cdb228b245e91881d97a2", null ],
-    [ "UpdateAI", "df/dfc/a23258.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
-    [ "_scheduler", "df/dfc/a23258.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
-    [ "instance", "df/dfc/a23258.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
+    [ "go_manticron_cube", "df/dfc/a23258.html#a87d9571aea57f16d38067ebd9e22200d", null ],
+    [ "OnGossipHello", "df/dfc/a23258.html#accab4a61f00f5e465fb795b4cbe672bf", null ]
 ];

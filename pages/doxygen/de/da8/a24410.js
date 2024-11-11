@@ -1,11 +1,6 @@
 var a24410 =
 [
-    [ "HandleAfterHit", "de/da8/a24410.html#a3cfb75da66372934ba5aaa1c9ad6c6f3", null ],
-    [ "HandleDummy", "de/da8/a24410.html#abb3f92850fa6fff94c682b990c361fe6", null ],
-    [ "Load", "de/da8/a24410.html#ae5900d64c9b9b2de48c494458d4bed8b", null ],
-    [ "PrepareSpellScript", "de/da8/a24410.html#adea0e24654cd87b3aee07ce2183b9517", null ],
-    [ "Register", "de/da8/a24410.html#a3e155e336d6a5a6a4d44eae422ef7939", null ],
-    [ "Validate", "de/da8/a24410.html#a28bb9111c8e5116a82d4e54b7eacb92b", null ],
-    [ "guid", "de/da8/a24410.html#a6e177d68e1d39dcb27e6643d267328a5", null ],
-    [ "multiplier", "de/da8/a24410.html#a04ed6aae0ea28a4f1b7c1ed5f4f73a0b", null ]
+    [ "CheckCast", "de/da8/a24410.html#a8ab8394c56201264ac4f2d859dd52092", null ],
+    [ "PrepareSpellScript", "de/da8/a24410.html#acc6d27c8d869ec80ee5794405f6c238a", null ],
+    [ "Register", "de/da8/a24410.html#a191085bc21ce6f5ce1d5b43d6d70f069", null ]
 ];

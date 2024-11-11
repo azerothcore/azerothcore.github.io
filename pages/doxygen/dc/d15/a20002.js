@@ -1,5 +1,5 @@
 var a20002 =
 [
-    [ "achievement_i_could_say_that_this_cache_was_rare", "dc/d15/a20002.html#a8ec1949d92f21fe57f967e510453da3e", null ],
-    [ "OnCheck", "dc/d15/a20002.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
+    [ "achievement_kologarn_rubble_and_roll", "dc/d15/a20002.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
+    [ "OnCheck", "dc/d15/a20002.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
 ];

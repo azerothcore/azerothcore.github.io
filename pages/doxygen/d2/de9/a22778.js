@@ -1,6 +1,6 @@
 var a22778 =
 [
-    [ "PrepareSpellScript", "d2/de9/a22778.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
-    [ "Register", "d2/de9/a22778.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
-    [ "RemoveSpines", "d2/de9/a22778.html#a076b056328ba6181a6ec907f21258f9d", null ]
+    [ "OnPeriodic", "d2/de9/a22778.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
+    [ "PrepareAuraScript", "d2/de9/a22778.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
+    [ "Register", "d2/de9/a22778.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
 ];

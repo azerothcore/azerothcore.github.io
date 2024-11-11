@@ -1,6 +1,6 @@
 var a16774 =
 [
-    [ "npc_pos_collapsing_icicleAI", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
-    [ "npc_pos_collapsing_icicle", "dc/dde/a16774.html#a42b29fe5d4e106c1e5e5b866a0074664", null ],
-    [ "GetAI", "dc/dde/a16774.html#a96969ebe749b49ceb38920c63ec6fce3", null ]
+    [ "HandleScriptEffect", "dc/dde/a16774.html#ab9c289e946cfaf2b63f2526914d79812", null ],
+    [ "PrepareSpellScript", "dc/dde/a16774.html#a832f8ab737254760fe2b91f19d119781", null ],
+    [ "Register", "dc/dde/a16774.html#a86f620a16780cef2c09f45eefb6dad9c", null ]
 ];

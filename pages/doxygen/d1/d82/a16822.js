@@ -1,7 +1,6 @@
 var a16822 =
 [
-    [ "HandleEffectPeriodic", "d1/d82/a16822.html#a4802c810efd7dd8a9954845366398e7f", null ],
-    [ "PrepareAuraScript", "d1/d82/a16822.html#a008166d25e7a278507e953325f40ccd5", null ],
-    [ "Register", "d1/d82/a16822.html#ac239d0f42eea59b63c3d31ed275846ea", null ],
-    [ "Validate", "d1/d82/a16822.html#a3fc78060f881262c59151b6eb6a943f8", null ]
+    [ "boss_slad_ranAI", "d7/dc2/a16826.html", "d7/dc2/a16826" ],
+    [ "boss_slad_ran", "d1/d82/a16822.html#a9b960242e2f186d334d7ce04b999e274", null ],
+    [ "GetAI", "d1/d82/a16822.html#a26651b7ca111bd64549283c37e34db11", null ]
 ];

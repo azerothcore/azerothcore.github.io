@@ -1,6 +1,7 @@
 var a17290 =
 [
-    [ "npc_gunship_boarding_add_realAI", "d9/d61/a17294.html", "d9/d61/a17294" ],
-    [ "npc_gunship_boarding_add", "d6/d53/a17290.html#aa80871f80bae7186d3665f73d757e108", null ],
-    [ "GetAI", "d6/d53/a17290.html#ad7e173bffccca6d852ba545427235447", null ]
+    [ "HandleScript", "d6/d53/a17290.html#ae3e8d811d3ad6561768dfff3a16ec9bd", null ],
+    [ "PrepareSpellScript", "d6/d53/a17290.html#ab69926839f72ee76eba2b225aba9690c", null ],
+    [ "Register", "d6/d53/a17290.html#aad8925e891d7537993f02f3bc2552fea", null ],
+    [ "SelectRandomTarget", "d6/d53/a17290.html#aae77f6693a3e5d01e3d05cb990fd1fe5", null ]
 ];

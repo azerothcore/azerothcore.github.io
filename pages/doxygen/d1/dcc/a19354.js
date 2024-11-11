@@ -1,6 +1,7 @@
 var a19354 =
 [
-    [ "dark_rune_stormcallerAI", "d1/d5c/a19358.html", "d1/d5c/a19358" ],
-    [ "dark_rune_stormcaller", "d1/dcc/a19354.html#ab31774011fc3e1e8ffa1a3b7c5cbfbcc", null ],
-    [ "GetAI", "d1/dcc/a19354.html#a9072aaf482106cfae0d3901507b47f60", null ]
+    [ "HandlePeriodic", "d1/dcc/a19354.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
+    [ "PrepareAuraScript", "d1/dcc/a19354.html#ad78b06733a8609dd39e885db2f23edba", null ],
+    [ "Register", "d1/dcc/a19354.html#ac9ae9be546964752869163896c4045dd", null ],
+    [ "Validate", "d1/dcc/a19354.html#afcca84d03b29ef7569c03f973a6c191b", null ]
 ];

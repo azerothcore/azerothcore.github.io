@@ -1,4 +1,6 @@
 var a00596 =
 [
-    [ "Acore::Encoding::Base64", "d0/d19/a05214.html", "d0/d19/a05214" ]
+    [ "GetDefaultNetmaskV4", "dc/d25/a00596.html#af75b2c10ca445dc89c53b7ed8d17eae0", null ],
+    [ "IsInNetwork", "dc/d25/a00596.html#af108d05a57113d16ab9c8f3b26870be2", null ],
+    [ "IsInNetwork", "dc/d25/a00596.html#a2617cb1c747a45e5af4e2c32cc29d5de", null ]
 ];

@@ -1,6 +1,6 @@
 var a22978 =
 [
-    [ "FilterTargets", "d6/dee/a22978.html#af545460920658bc8ee0444f7c0d51970", null ],
-    [ "PrepareSpellScript", "d6/dee/a22978.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
-    [ "Register", "d6/dee/a22978.html#ac12cde698f5b0bbcdf433821772c7519", null ]
+    [ "HandleScript", "d6/dee/a22978.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
+    [ "PrepareSpellScript", "d6/dee/a22978.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
+    [ "Register", "d6/dee/a22978.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
 ];

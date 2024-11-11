@@ -1,7 +1,6 @@
 var a20178 =
 [
-    [ "HandleEffectPeriodic", "dd/dc5/a20178.html#a0fc0cf6cd635249a10aefd284d9ae789", null ],
-    [ "PrepareAuraScript", "dd/dc5/a20178.html#af432e810a46e35f95bb0b3b2eaada132", null ],
-    [ "Register", "dd/dc5/a20178.html#a41c3846c03ce1e37fc6858a676f61c48", null ],
-    [ "Validate", "dd/dc5/a20178.html#ac8e9521a6b8ab9a4642361085dbe517d", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d7/df4/a20182.html", "d7/df4/a20182" ],
+    [ "npc_ulduar_dark_rune_watcher", "dd/dc5/a20178.html#a0536c61d70d5c6d61496fc1720d37950", null ],
+    [ "GetAI", "dd/dc5/a20178.html#a6677d6dc0d07b508e921064f3299b302", null ]
 ];

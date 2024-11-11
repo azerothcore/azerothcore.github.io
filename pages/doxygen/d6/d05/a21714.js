@@ -1,11 +1,14 @@
 var a21714 =
 [
-    [ "npc_rocket_propelled_warheadAI", "d6/d05/a21714.html#aab27045dff817457d5858c48c174f3a2", null ],
-    [ "DoAction", "d6/d05/a21714.html#abfd9618bd029ae56d846cac9cf5b7e80", null ],
-    [ "FinishQuest", "d6/d05/a21714.html#a1ccb00801fbfc87cbe04f19dc15e4a10", null ],
-    [ "JustReachedHome", "d6/d05/a21714.html#a680f46b5d7c88bafc5d3af669e9886ef", null ],
-    [ "PassengerBoarded", "d6/d05/a21714.html#aba8121b207be2c7be161d9ea0c903d6e", null ],
-    [ "SpellHit", "d6/d05/a21714.html#ae347c0817e145ec333bd5b1c87dd01ef", null ],
-    [ "_faction", "d6/d05/a21714.html#a423bead0525222a132e22531f640c461", null ],
-    [ "_finished", "d6/d05/a21714.html#ad676c377ea08cbb33f1ff226f864849c", null ]
+    [ "npc_tirions_gambit_tirionAI", "d6/d05/a21714.html#a38959c7a5b502b5716a5c09b0f6ae8a4", null ],
+    [ "DoAction", "d6/d05/a21714.html#a495e0762614020ef6d7b741447099326", null ],
+    [ "DoSummonAction", "d6/d05/a21714.html#a891b31661705ed4df634059e6165d499", null ],
+    [ "JustSummoned", "d6/d05/a21714.html#ac62ec499aba734d36249f8c00b36e2d4", null ],
+    [ "Reset", "d6/d05/a21714.html#afb398bda1d6ee4d35527208e6c5bffee", null ],
+    [ "SetData", "d6/d05/a21714.html#a41f24de5f824d84edb69c6b2bdca6d4e", null ],
+    [ "SummonedCreatureDespawn", "d6/d05/a21714.html#aca05fee85997dffba6ec998b144b9495", null ],
+    [ "UpdateEscortAI", "d6/d05/a21714.html#a0b681d6cc1566e6193f7eb143ab2bd5e", null ],
+    [ "WaypointReached", "d6/d05/a21714.html#af5fd69b799c6227dba901f434e30c434", null ],
+    [ "events", "d6/d05/a21714.html#a711c55c26187ae695644b770a358766e", null ],
+    [ "summons", "d6/d05/a21714.html#af574a4b136ff42c597e30c83e4d463ca", null ]
 ];

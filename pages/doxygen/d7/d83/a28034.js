@@ -1,5 +1,7 @@
 var a28034 =
 [
-    [ "ID", "d7/d83/a28034.html#a0272b3c1130508a2681035c91ee416e6", null ],
-    [ "SpellID", "d7/d83/a28034.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
+    [ "TalentSpellPos", "d7/d83/a28034.html#a1f28fdb07c5f3bc3a417a2d50d57481c", null ],
+    [ "TalentSpellPos", "d7/d83/a28034.html#afcdb60f43c619209f8c7d9d8d118a89d", null ],
+    [ "rank", "d7/d83/a28034.html#a46a495cd1d17302d074037ad5ea9c89e", null ],
+    [ "talent_id", "d7/d83/a28034.html#a06421cba633b9ea52cb4b95d4ce4527d", null ]
 ];

@@ -1,6 +1,7 @@
 var a19694 =
 [
-    [ "HandleScript", "d9/d7f/a19694.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
-    [ "PrepareSpellScript", "d9/d7f/a19694.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
-    [ "Register", "d9/d7f/a19694.html#a04a5b3a4f768200d74f4641508633d35", null ]
+    [ "boss_freya_healthy_sporeAI", "d9/d7f/a19694.html#a1f72bc2b113f3b909d44fd54fff87e31", null ],
+    [ "Reset", "d9/d7f/a19694.html#ad6d6562b5cc9f8232bdda99ec2204052", null ],
+    [ "UpdateAI", "d9/d7f/a19694.html#ace79c59d62e597ae31425b4006e1363f", null ],
+    [ "_despawnTimer", "d9/d7f/a19694.html#aaf65ef07480e5c634cc42dac0c7c734c", null ]
 ];

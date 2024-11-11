@@ -1,6 +1,7 @@
 var a03875 =
 [
-    [ "MapScript< BattlegroundMap >", "d5/d3c/a03875.html#a37068ff91511f7df359c3cf9be0e8d72", null ],
-    [ "MapScript< InstanceMap >", "d5/d3c/a03875.html#aad36f2a434a53db1767a65fa0a1dffdc", null ],
-    [ "MapScript< Map >", "d5/d3c/a03875.html#aacb4fdedfc86aea6c855e3be41e0c6e1", null ]
+    [ "GetExplicitDiscoverySpell", "d5/d3c/a03875.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
+    [ "GetSkillDiscoverySpell", "d5/d3c/a03875.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
+    [ "HasDiscoveredAllSpells", "d5/d3c/a03875.html#abdf3c2fcf65212466dfb54053e35024c", null ],
+    [ "LoadSkillDiscoveryTable", "d5/d3c/a03875.html#addd95f0a239a27ed32cd943aa1052019", null ]
 ];

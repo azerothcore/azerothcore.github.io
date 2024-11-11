@@ -1,7 +1,6 @@
 var a21294 =
 [
-    [ "HandleScriptEffect", "d6/d56/a21294.html#a23d220613a4133e01fb3d7cbacb3aa1c", null ],
-    [ "PrepareSpellScript", "d6/d56/a21294.html#a73b5af95ee4f593337c3803574d190db", null ],
-    [ "Register", "d6/d56/a21294.html#a930de2343532feb50b86304f32269e4c", null ],
-    [ "Validate", "d6/d56/a21294.html#ae9bfedf7e89487217ad927459e259c04", null ]
+    [ "npc_steam_powered_auctioneerAI", "d4/d9c/a21298.html", "d4/d9c/a21298" ],
+    [ "npc_steam_powered_auctioneer", "d6/d56/a21294.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "d6/d56/a21294.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

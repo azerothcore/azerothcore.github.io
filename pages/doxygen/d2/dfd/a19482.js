@@ -1,6 +1,11 @@
 var a19482 =
 [
-    [ "CastRunesEvent", "d2/dfd/a19482.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
-    [ "Execute", "d2/dfd/a19482.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
-    [ "_owner", "d2/dfd/a19482.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
+    [ "boss_flame_leviathan_defense_turretAI", "d2/dfd/a19482.html#aedf30f06fe89c805019f7cc254646ff1", null ],
+    [ "CanAIAttack", "d2/dfd/a19482.html#a76efa1d88ce029775809abb3ec88efb3", null ],
+    [ "DamageTaken", "d2/dfd/a19482.html#adedbbeeb01da20843bc85ac2daaed12a", null ],
+    [ "JustDied", "d2/dfd/a19482.html#af261cc1f0458984719ab1bb4518bdc64", null ],
+    [ "KilledUnit", "d2/dfd/a19482.html#aed3f2a4bac3391683989eec94697ef16", null ],
+    [ "UpdateAI", "d2/dfd/a19482.html#a575eb381d1aa31af60484271ae6e4627", null ],
+    [ "_instance", "d2/dfd/a19482.html#a8c0658a5d32355607cb16f6e1c83f83e", null ],
+    [ "_setHealth", "d2/dfd/a19482.html#aeb220ded0a6515674a428716a8be9f48", null ]
 ];

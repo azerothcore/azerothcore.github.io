@@ -1,6 +1,6 @@
 var a16406 =
 [
-    [ "boss_trollgoreAI", "d5/d5f/a16410.html", "d5/d5f/a16410" ],
-    [ "boss_trollgore", "dc/dab/a16406.html#a95102f1fae6c667e0780b8b388fc156b", null ],
-    [ "GetAI", "dc/dab/a16406.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
+    [ "entry", "dc/dab/a16406.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "dc/dab/a16406.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "dc/dab/a16406.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

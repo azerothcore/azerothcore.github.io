@@ -1,10 +1,10 @@
 var a13714 =
 [
-    [ "boss_jeklik", "de/da9/a13714.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
-    [ "EnterEvadeMode", "de/da9/a13714.html#a70dc363e0690e72846db5f779375edc1", null ],
-    [ "JustDied", "de/da9/a13714.html#ae648ba9ff49f4970612a8c3351789b66", null ],
-    [ "JustEngagedWith", "de/da9/a13714.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
-    [ "PathEndReached", "de/da9/a13714.html#a689e8f91361de45e6f885fea0dec900a", null ],
-    [ "Reset", "de/da9/a13714.html#a7959106123e60e3584b32b50a272746c", null ],
-    [ "batRidersCount", "de/da9/a13714.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
+    [ "npc_zealot_lorkhan", "de/da9/a13714.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
+    [ "JustDied", "de/da9/a13714.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
+    [ "JustEngagedWith", "de/da9/a13714.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
+    [ "Reset", "de/da9/a13714.html#abecbd4a2ea2cf3281244933fe7484239", null ],
+    [ "UpdateAI", "de/da9/a13714.html#a68c35734f8886b2c241dcbc178899206", null ],
+    [ "_scheduler", "de/da9/a13714.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
+    [ "instance", "de/da9/a13714.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
 ];

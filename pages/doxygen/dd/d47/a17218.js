@@ -1,9 +1,8 @@
 var a17218 =
 [
-    [ "BattleExperienceEvent", "dd/d47/a17218.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
-    [ "Execute", "dd/d47/a17218.html#a3971962ec90f682baeae96fe6098fa97", null ],
-    [ "_creature", "dd/d47/a17218.html#a0155536d5c2be329a1f3b57c4d852098", null ],
-    [ "_level", "dd/d47/a17218.html#a22f0d7e59f579362be4576180d0977b8", null ],
-    [ "ExperiencedSpells", "dd/d47/a17218.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
-    [ "ExperiencedTimes", "dd/d47/a17218.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
+    [ "HandlePeriodic", "dd/d47/a17218.html#a5ff571c616b69bb50c736622feb9ed96", null ],
+    [ "HandleRemove", "dd/d47/a17218.html#a624887bb5e6d8b72d6c0591661d6ba38", null ],
+    [ "PrepareAuraScript", "dd/d47/a17218.html#a1b140274e283dd95e28fcb773e30f965", null ],
+    [ "Register", "dd/d47/a17218.html#abcce83ef6ecbe539a3d8eaef83fb2d33", null ],
+    [ "Validate", "dd/d47/a17218.html#a94c644e730c51c8edb6a74d68d6228a8", null ]
 ];

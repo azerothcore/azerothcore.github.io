@@ -1,8 +1,7 @@
 var a14954 =
 [
-    [ "npc_ahnqiraji_critter", "d1/dce/a14954.html#a60e2dc1c52579a410d3435126bf39684", null ],
-    [ "JustDied", "d1/dce/a14954.html#a71d3d5262bde847a18932fea89cb6648", null ],
-    [ "JustEngagedWith", "d1/dce/a14954.html#aca1df706306f9181db26cd77e5b66452", null ],
-    [ "Reset", "d1/dce/a14954.html#a645e16e9da29f6579320394201d0ada7", null ],
-    [ "UpdateAI", "d1/dce/a14954.html#a68c5ded8563c2de9429a13cdb7d38f89", null ]
+    [ "npc_webbed_creatureAI", "d1/dce/a14954.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
+    [ "JustDied", "d1/dce/a14954.html#a153d461124ec9266ffcac147a217f6d9", null ],
+    [ "JustEngagedWith", "d1/dce/a14954.html#ac52ad6512bcaee35932f856abdac80d4", null ],
+    [ "Reset", "d1/dce/a14954.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
 ];

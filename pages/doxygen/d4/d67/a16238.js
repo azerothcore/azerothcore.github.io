@@ -1,7 +1,6 @@
 var a16238 =
 [
-    [ "FilterTargets", "d4/d67/a16238.html#a304da18e36ff67c34b80ab39583f8c96", null ],
-    [ "HandleScript", "d4/d67/a16238.html#adf99670bcf862288f513d2a26cbc256a", null ],
-    [ "PrepareSpellScript", "d4/d67/a16238.html#a976cb3c956d37fc9870494b0a6b8d9ee", null ],
-    [ "Register", "d4/d67/a16238.html#a4513de251b2f3d52fe44b7f7e715007c", null ]
+    [ "boss_dredAI", "df/d86/a16242.html", "df/d86/a16242" ],
+    [ "boss_dred", "d4/d67/a16238.html#a60a913f53c63f95680c29c72f48f9a1a", null ],
+    [ "GetAI", "d4/d67/a16238.html#ab8276b185f80a92a54327ea28b19c704", null ]
 ];

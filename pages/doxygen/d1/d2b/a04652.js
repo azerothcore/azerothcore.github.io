@@ -1,15 +1,6 @@
 var a04652 =
 [
-    [ "Socket< T >", "df/d08/a28154.html", "df/d08/a28154" ],
-    [ "READ_BLOCK_SIZE", "d1/d2b/a04652.html#a16ba013af02b9d4400b5e47d8daa022b", null ],
-    [ "ProxyHeaderAddressFamilyAndProtocol", "d1/d2b/a04652.html#a7ddce6d0420753babeb6258ada50eec1", [
-      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V4", "d1/d2b/a04652.html#a7ddce6d0420753babeb6258ada50eec1a9d87d0a8da10465b32fd9a322c2a8575", null ],
-      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V6", "d1/d2b/a04652.html#a7ddce6d0420753babeb6258ada50eec1a5b0f57dac80a77ad98bc0d371a22f699", null ]
-    ] ],
-    [ "ProxyHeaderReadingState", "d1/d2b/a04652.html#aa514bb66fa404b5b180297bb005c3272", [
-      [ "PROXY_HEADER_READING_STATE_NOT_STARTED", "d1/d2b/a04652.html#aa514bb66fa404b5b180297bb005c3272a0bd44a601a6d6745f442535a457fc67c", null ],
-      [ "PROXY_HEADER_READING_STATE_STARTED", "d1/d2b/a04652.html#aa514bb66fa404b5b180297bb005c3272a6b5e85386b6638d1a72fa2520f355c98", null ],
-      [ "PROXY_HEADER_READING_STATE_FINISHED", "d1/d2b/a04652.html#aa514bb66fa404b5b180297bb005c3272a2898c80db946e4ae677297c1954470fb", null ],
-      [ "PROXY_HEADER_READING_STATE_FAILED", "d1/d2b/a04652.html#aa514bb66fa404b5b180297bb005c3272a7a96033158689ba0590a86245f58922f", null ]
-    ] ]
+    [ "DBUpdater< CharacterDatabaseConnection >", "d1/d2b/a04652.html#a753e207671f7af3815a056247f2de3ce", null ],
+    [ "DBUpdater< LoginDatabaseConnection >", "d1/d2b/a04652.html#a16a33693c8570aff221401b100547fb7", null ],
+    [ "DBUpdater< WorldDatabaseConnection >", "d1/d2b/a04652.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
 ];

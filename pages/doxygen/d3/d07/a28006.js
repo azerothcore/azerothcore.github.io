@@ -1,8 +1,9 @@
 var a28006 =
 [
-    [ "canLink", "d3/d07/a28006.html#aff87dafee61faf5afdf6248f6f3c9a35", null ],
-    [ "categoryId", "d3/d07/a28006.html#abf285e69e8e2a90626a157cb0c50d158", null ],
-    [ "id", "d3/d07/a28006.html#a7740b26f1bde19a05b002c00eded25e3", null ],
-    [ "name", "d3/d07/a28006.html#afb5e77ab4f6faa132ca62f7664dce116", null ],
-    [ "spellIcon", "d3/d07/a28006.html#a3a20ea7c73a6739e89bd570d6f4d4b03", null ]
+    [ "TimeSeg", "d3/d07/a28006.html#a16782e722a5bada41691841fe594b7a6", null ],
+    [ "TransportEntry", "d3/d07/a28006.html#afcdb94a38d68d2ff8af225dc599db8a4", null ],
+    [ "W", "d3/d07/a28006.html#a4158a2babefbf4e148a64fe16bf113f6", null ],
+    [ "X", "d3/d07/a28006.html#a9c7cb1fd0463d1158d971db6f15431ff", null ],
+    [ "Y", "d3/d07/a28006.html#a7f0ff898e752e2e904ebee1412643df6", null ],
+    [ "Z", "d3/d07/a28006.html#a87647d71a965e80154ca36dc05421585", null ]
 ];

@@ -1,6 +1,7 @@
 var a16002 =
 [
-    [ "instance_trial_of_the_champion_InstanceMapScript", "d8/d63/a16006.html", "d8/d63/a16006" ],
-    [ "instance_trial_of_the_champion", "da/d8a/a16002.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
-    [ "GetInstanceScript", "da/d8a/a16002.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
+    [ "npc_toc_priestAI", "da/d8a/a16002.html#aa362d2136193a8738e311bba18b87c90", null ],
+    [ "myCanCast", "da/d8a/a16002.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
+    [ "UpdateAI", "da/d8a/a16002.html#ae51d2ac95320909150c673b76c9856c7", null ],
+    [ "events", "da/d8a/a16002.html#aa5be20e87351424e0e4698540fc1fef4", null ]
 ];

@@ -1,8 +1,7 @@
 var a23958 =
 [
-    [ "CreatureId", "d5/d77/a23958.html#a127341c70f8785ceb556b1c11b23f477", null ],
-    [ "SpawnCount", "d5/d77/a23958.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
-    [ "SpawnTimer", "d5/d77/a23958.html#aa57ff686c5fde12269e231333d8a8bef", null ],
-    [ "UsedSpawnPoint", "d5/d77/a23958.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
-    [ "YellTimer", "d5/d77/a23958.html#a6346259269af7f2936f959f87288dd69", null ]
+    [ "HandlePeriodic", "d5/d77/a23958.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
+    [ "PrepareAuraScript", "d5/d77/a23958.html#a58dc6668172d046cef3046649928c124", null ],
+    [ "Register", "d5/d77/a23958.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
+    [ "Validate", "d5/d77/a23958.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
 ];

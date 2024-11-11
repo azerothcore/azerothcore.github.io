@@ -1,6 +1,7 @@
 var a20746 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "dd/d7b/a20750.html", "dd/d7b/a20750" ],
-    [ "npc_ulduar_storm_tempered_keeper", "dc/d7e/a20746.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
-    [ "GetAI", "dc/d7e/a20746.html#aa0860236d2abedba1e521ee1610c89e8", null ]
+    [ "HandleOnEffectRemove", "dc/d7e/a20746.html#acccd790c53f567f93e64afa7b7d1fe6f", null ],
+    [ "PrepareAuraScript", "dc/d7e/a20746.html#a72e6468602d40eb479a80c611d60eb2e", null ],
+    [ "Register", "dc/d7e/a20746.html#a213b50ebb7ce248a36dd78167d1190bb", null ],
+    [ "Validate", "dc/d7e/a20746.html#a8f3ec40c0c2e38dc32db30ce36129684", null ]
 ];

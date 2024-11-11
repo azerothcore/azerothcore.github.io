@@ -1,10 +1,6 @@
 var a18838 =
 [
-    [ "boss_razuvious_minionAI", "d0/d1f/a18838.html#a6f9fc7dad68f35846ee76d4bff564407", null ],
-    [ "DoAction", "d0/d1f/a18838.html#a93cfa3f706ffadd94ad4dbe0585eebf1", null ],
-    [ "JustEngagedWith", "d0/d1f/a18838.html#ada2e7a5ac1f129572a0689afce49d310", null ],
-    [ "KilledUnit", "d0/d1f/a18838.html#ab1a6f582098c9d1218551af0aae1815d", null ],
-    [ "Reset", "d0/d1f/a18838.html#a170de8517a03a0e78b1e67652869fd9a", null ],
-    [ "ScheduleAttackDummy", "d0/d1f/a18838.html#abed82c71605d7c57bf29cedc21fc6b24", null ],
-    [ "UpdateAI", "d0/d1f/a18838.html#ad56fca0ae00fba6e575baefd72c7a8d0", null ]
+    [ "npc_scion_of_eternityAI", "dd/d87/a18842.html", "dd/d87/a18842" ],
+    [ "npc_scion_of_eternity", "d0/d1f/a18838.html#ac1d66d65b5d4468b908443a64dc2de1c", null ],
+    [ "GetAI", "d0/d1f/a18838.html#a7c27a55f177fb9e31f73fa1cb227fa27", null ]
 ];

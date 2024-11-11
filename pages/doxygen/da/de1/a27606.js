@@ -1,5 +1,6 @@
 var a27606 =
 [
-    [ "ServerMailReward", "da/de1/a27606.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
-    [ "OnLogin", "da/de1/a27606.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
+    [ "AreaGroupId", "da/de1/a27606.html#a2868a59574e635d5f5859cfa01811151", null ],
+    [ "AreaId", "da/de1/a27606.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
+    [ "nextGroup", "da/de1/a27606.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
 ];

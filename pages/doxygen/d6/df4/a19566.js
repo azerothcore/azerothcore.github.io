@@ -1,6 +1,5 @@
 var a19566 =
 [
-    [ "boss_flame_leviathanAI", "d8/d11/a19570.html", "d8/d11/a19570" ],
-    [ "boss_flame_leviathan", "d6/df4/a19566.html#af4fcd38fc7095701c6c31674d849aef4", null ],
-    [ "GetAI", "d6/df4/a19566.html#a3a402b002472bfe4347b512f21654c50", null ]
+    [ "go_ulduar_tower", "d6/df4/a19566.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "d6/df4/a19566.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

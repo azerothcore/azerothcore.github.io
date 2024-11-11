@@ -1,6 +1,10 @@
 var a02276 =
 [
-    [ "lfg_commandscript", "da/d75/a11370.html", "da/d75/a11370" ],
-    [ "AddSC_lfg_commandscript", "d2/d81/a02276.html#a484938015a7f5ffa8f5b1d0e259d355b", null ],
-    [ "GetPlayerInfo", "d2/d81/a02276.html#a1d2591add059e8c4daf04b9f706da765", null ]
+    [ "spell_razelikh_teleport_group", "de/da3/a13142.html", "de/da3/a13142" ],
+    [ "DeathlyUsher", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
+      [ "SPELL_TELEPORT_SINGLE", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
+      [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],
+      [ "SPELL_TELEPORT_GROUP", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3efb41f1943511af5c5c1abbced10dcc", null ]
+    ] ],
+    [ "AddSC_blasted_lands", "d2/d81/a02276.html#a8c45aaff0bee880d1bac07d32d1747f1", null ]
 ];

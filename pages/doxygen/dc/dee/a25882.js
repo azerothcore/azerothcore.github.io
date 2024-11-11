@@ -1,10 +1,6 @@
 var a25882 =
 [
-    [ "CheckCast", "dc/dee/a25882.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
-    [ "HandleScript", "dc/dee/a25882.html#a35b9d69b8147ef06527b8533ef376e72", null ],
-    [ "Load", "dc/dee/a25882.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
-    [ "PrepareSpellScript", "dc/dee/a25882.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
-    [ "Register", "dc/dee/a25882.html#afd716f555ac73287bd268c6124b15b1c", null ],
-    [ "Validate", "dc/dee/a25882.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
-    [ "_manaAmount", "dc/dee/a25882.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
+    [ "CheckCast", "dc/dee/a25882.html#ada9b1c9e159956cb2a79610dbdb3eaf9", null ],
+    [ "PrepareSpellScript", "dc/dee/a25882.html#aa9cc041f2e0dae1eb322713d4f140ce8", null ],
+    [ "Register", "dc/dee/a25882.html#a5f0b69ffebb256d5ee2c0f9d4615c4e6", null ]
 ];

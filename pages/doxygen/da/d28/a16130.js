@@ -1,7 +1,7 @@
 var a16130 =
 [
-    [ "npc_toc_mageAI", "da/d28/a16130.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "da/d28/a16130.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "da/d28/a16130.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "da/d28/a16130.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "HandleEffectPeriodic", "da/d28/a16130.html#ae5749a43f37f0eb3f049d8804845f61e", null ],
+    [ "PrepareAuraScript", "da/d28/a16130.html#a66dcb98f38ed6b040928543015f59c9b", null ],
+    [ "Register", "da/d28/a16130.html#abbebe9c5ad44db61e80ce3707e744ab6", null ],
+    [ "Validate", "da/d28/a16130.html#a1131f0014f298b87483412d960bc0221", null ]
 ];

@@ -1,7 +1,7 @@
 var a13102 =
 [
-    [ "HandleScriptEffect", "dc/d4a/a13102.html#ae631c634c77cc207338e3549a664969b", null ],
-    [ "PrepareSpellScript", "dc/d4a/a13102.html#ac9f825f10512be5849c46460e9cdbec8", null ],
-    [ "Register", "dc/d4a/a13102.html#ac8a4d26de8c78942efc5cfbf78c64633", null ],
-    [ "Validate", "dc/d4a/a13102.html#ab05236bc29c00cfc7a5dfb88a8c2ee98", null ]
+    [ "HandleAfterCast", "dc/d4a/a13102.html#a251ddadd9d26039da542c402e4ee254f", null ],
+    [ "PrepareSpellScript", "dc/d4a/a13102.html#a91114aeb4f917ec5138a0c7b20688174", null ],
+    [ "Register", "dc/d4a/a13102.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
+    [ "Validate", "dc/d4a/a13102.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
 ];

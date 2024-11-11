@@ -1,16 +1,12 @@
 var a28322 =
 [
-    [ "Iterator", "d8/dff/a28322.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "Iterator", "d8/dff/a28322.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "operator!=", "d8/dff/a28322.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator!=", "d8/dff/a28322.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator*", "d8/dff/a28322.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator*", "d8/dff/a28322.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator++", "d8/dff/a28322.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator++", "d8/dff/a28322.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator->", "d8/dff/a28322.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator->", "d8/dff/a28322.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator==", "d8/dff/a28322.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "operator==", "d8/dff/a28322.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "record", "d8/dff/a28322.html#a948512c44e53dfa177b85f82e9fd6160", null ]
+    [ "Model", "d8/dff/a28322.html#ae102b5fc584185113e89fb7b39a72bd1", null ],
+    [ "~Model", "d8/dff/a28322.html#ad6ebd2062a0b823db841a0b88baac4c0", null ],
+    [ "_unload", "d8/dff/a28322.html#a9b02ed73fa006bc057157b636029ab6f", null ],
+    [ "ConvertToVMAPModel", "d8/dff/a28322.html#ae6fd5d754d9a880359b8afaf50c5753e", null ],
+    [ "open", "d8/dff/a28322.html#a6ed3a71ff468f5acaccc61f5c2c87a0e", null ],
+    [ "filename", "d8/dff/a28322.html#a4c43746e9c460e29cabd1ba2db6ba222", null ],
+    [ "header", "d8/dff/a28322.html#a2f6e66bbf4acc662d73e8fe8e5a0e085", null ],
+    [ "indices", "d8/dff/a28322.html#a3b61d3316481e7b9c38bf50806ebded6", null ],
+    [ "vertices", "d8/dff/a28322.html#a1af9857df4d0e16ab9940846300fa8fe", null ]
 ];

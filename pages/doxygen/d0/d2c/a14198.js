@@ -1,7 +1,9 @@
 var a14198 =
 [
-    [ "HandleFinish", "d0/d2c/a14198.html#a8927aaa07145b46067d5807c2048330a", null ],
-    [ "PrepareSpellScript", "d0/d2c/a14198.html#a5a0bfef668242fc5f21ad5a4e3e714b5", null ],
-    [ "Register", "d0/d2c/a14198.html#a1ffdc199a04bd6ead1a09bc977ae964c", null ],
-    [ "Validate", "d0/d2c/a14198.html#a3fd3265e5a08f81b3e9e789f1799abd4", null ]
+    [ "npc_ancient_wisp", "d0/d2c/a14198.html#a70e45e500b3490a034b058ca2ec16d39", null ],
+    [ "DamageTaken", "d0/d2c/a14198.html#ad7d96e6b54cdc23a5101338474125e71", null ],
+    [ "JustEngagedWith", "d0/d2c/a14198.html#a755ed852b3149ada65c5750410776fc8", null ],
+    [ "Reset", "d0/d2c/a14198.html#a1c33cc47d7f60b2b3eb60852f1c36820", null ],
+    [ "UpdateAI", "d0/d2c/a14198.html#a51ca214de826d7126f32e49f6852bca3", null ],
+    [ "_instance", "d0/d2c/a14198.html#a5e5e51944d49cc52bed4ff4953513f1f", null ]
 ];

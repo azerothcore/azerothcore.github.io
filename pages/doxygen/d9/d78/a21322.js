@@ -1,6 +1,9 @@
 var a21322 =
 [
-    [ "npc_valiance_keep_cannoneerAI", "d0/d68/a21326.html", "d0/d68/a21326" ],
-    [ "npc_valiance_keep_cannoneer", "d9/d78/a21322.html#a11f6060a7c6cd7be60001f5c259c94d3", null ],
-    [ "GetAI", "d9/d78/a21322.html#a8bfc1505dedee28d1517ba6a7738ffd5", null ]
+    [ "npc_archmage_landalockAI", "d9/d78/a21322.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
+    [ "GetImageEntry", "d9/d78/a21322.html#ae09841969253c0baf72cc235b6fa058e", null ],
+    [ "JustSummoned", "d9/d78/a21322.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
+    [ "UpdateAI", "d9/d78/a21322.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
+    [ "_summonGUID", "d9/d78/a21322.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
+    [ "_switchImageTimer", "d9/d78/a21322.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
 ];

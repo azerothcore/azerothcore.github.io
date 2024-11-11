@@ -1,11 +1,13 @@
 var a22934 =
 [
-    [ "boss_leotheras_the_blind", "da/de5/a22934.html#a9229850f996812366a20508931965a87", null ],
-    [ "DemonTime", "da/de5/a22934.html#af62091f4c045b1a85ef022fdc81b6d30", null ],
-    [ "DoAction", "da/de5/a22934.html#a4f3fd791f12b3f176ce109237c516889", null ],
-    [ "ElfTime", "da/de5/a22934.html#a52f101530de8883231faa7f5fe689691", null ],
-    [ "MoveToTargetIfOutOfRange", "da/de5/a22934.html#a3481cfa1883988b8c1c3f65b9009860d", null ],
-    [ "Reset", "da/de5/a22934.html#a5d4be42da1c7ae15c98b608f39ef82db", null ],
-    [ "UpdateAI", "da/de5/a22934.html#a89deeb1888046d1f4756bcb6447d8f0d", null ],
-    [ "_recentlySpoken", "da/de5/a22934.html#ad5231f13a247247dd7095b16c381fc7c", null ]
+    [ "npc_earthen_ring_flamecaller", "da/de5/a22934.html#ab402dd321fa0df641b674324386d7591", null ],
+    [ "DoAction", "da/de5/a22934.html#af745c83529a34a89c430d6113703fff5", null ],
+    [ "LookOpening", "da/de5/a22934.html#adfc752e7700a816b66b639007a1a90fa", null ],
+    [ "MovementInform", "da/de5/a22934.html#a2e6337402c07413ed9aa39c2de58e0d9", null ],
+    [ "Reset", "da/de5/a22934.html#ac7be4763e09cb9ce1a4a0774f4c02237", null ],
+    [ "SpellHit", "da/de5/a22934.html#ab9c5ad7e56033997042031566748ee2b", null ],
+    [ "UpdateAI", "da/de5/a22934.html#aa9aaf58b67108a934a756afdfc2bc734", null ],
+    [ "_events", "da/de5/a22934.html#a79829a993048f8678b5f7c1dfe55eafb", null ],
+    [ "_instance", "da/de5/a22934.html#a79aa6e628a50ed485cc55513c28362dc", null ],
+    [ "_mySpot", "da/de5/a22934.html#a18b476dfdf65ca7e84856b31027b11f1", null ]
 ];

@@ -1,6 +1,6 @@
 var a13286 =
 [
-    [ "x", "d5/ddb/a13286.html#afeb59642abc7d5114668b2c27e315228", null ],
-    [ "y", "d5/ddb/a13286.html#a3e2454dd579de689289003a343e7f29c", null ],
-    [ "z", "d5/ddb/a13286.html#a4fbcf991d732545b4f9c19689ff9d805", null ]
+    [ "npc_lord_gregor_lescovarAI", "dd/d6c/a13290.html", "dd/d6c/a13290" ],
+    [ "npc_lord_gregor_lescovar", "d5/ddb/a13286.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "d5/ddb/a13286.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

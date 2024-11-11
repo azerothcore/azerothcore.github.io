@@ -1,7 +1,7 @@
 var a15110 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "d9/df1/a15114.html", "d9/df1/a15114" ],
-    [ "npc_aged_dying_ancient_kodo", "d0/ddd/a15110.html#a676170a319d3a8e46c9d017e61396c28", null ],
-    [ "GetAI", "d0/ddd/a15110.html#a886bc82764e4ca6d98dc94ea73415375", null ],
-    [ "OnGossipHello", "d0/ddd/a15110.html#a8489b3f23d8eca39f2750711512672e4", null ]
+    [ "npc_shenthulAI", "d9/df1/a15114.html", "d9/df1/a15114" ],
+    [ "npc_shenthul", "d0/ddd/a15110.html#a77815503c7d9c811fe3821232e308714", null ],
+    [ "GetAI", "d0/ddd/a15110.html#a1683f8c89add6270277c59951c74027e", null ],
+    [ "OnQuestAccept", "d0/ddd/a15110.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
 ];

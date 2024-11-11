@@ -1,6 +1,6 @@
 var a23718 =
 [
-    [ "npc_deaths_fel_cannonAI", "d0/d96/a23718.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
-    [ "Reset", "d0/d96/a23718.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
-    [ "UpdateAI", "d0/d96/a23718.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
+    [ "npc_creditmarker_visit_with_ancestorsAI", "de/d67/a23722.html", "de/d67/a23722" ],
+    [ "npc_creditmarker_visit_with_ancestors", "d0/d96/a23718.html#a60f7abac7198d8504d944828dceb1ffa", null ],
+    [ "GetAI", "d0/d96/a23718.html#a06eb335a757c9f48fbfa64bfc326bb8e", null ]
 ];

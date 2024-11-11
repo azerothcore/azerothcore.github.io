@@ -1,6 +1,6 @@
 var a20354 =
 [
-    [ "boss_thorim_start_npcsAI", "d2/dd7/a20358.html", "d2/dd7/a20358" ],
-    [ "boss_thorim_start_npcs", "dc/d1c/a20354.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
-    [ "GetAI", "dc/d1c/a20354.html#a6c529b19d071b4966ccc74b44279cb08", null ]
+    [ "npc_xt002_life_sparkAI", "d2/dd7/a20358.html", "d2/dd7/a20358" ],
+    [ "npc_xt002_life_spark", "dc/d1c/a20354.html#a9644718d192708e391b833468a0ff21e", null ],
+    [ "GetAI", "dc/d1c/a20354.html#a09a1ce332d55fad146947c94bb53f564", null ]
 ];

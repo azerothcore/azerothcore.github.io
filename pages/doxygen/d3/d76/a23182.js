@@ -1,7 +1,6 @@
 var a23182 =
 [
-    [ "HandleScript", "d3/d76/a23182.html#a8933535f9507b90b54032c17985cc3c6", null ],
-    [ "PrepareSpellScript", "d3/d76/a23182.html#acadb563eaeffac47b3f883f9d8c37994", null ],
-    [ "Register", "d3/d76/a23182.html#a797ae84dcb0fc13b0799934bde71809c", null ],
-    [ "Validate", "d3/d76/a23182.html#afba2983f5be230dd3b77b3b49fee8a38", null ]
+    [ "instance_blood_furnace_InstanceMapScript", "df/da6/a23186.html", "df/da6/a23186" ],
+    [ "instance_blood_furnace", "d3/d76/a23182.html#a925a045fa518e72c1eff02fe3c66202b", null ],
+    [ "GetInstanceScript", "d3/d76/a23182.html#a885ba94e1777dfd6586daca304622d3d", null ]
 ];

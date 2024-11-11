@@ -1,6 +1,6 @@
 var a16270 =
 [
-    [ "boss_dreadscaleAI", "d6/db4/a16274.html", "d6/db4/a16274" ],
-    [ "boss_dreadscale", "d0/d63/a16270.html#ab3276e515419303358b0ee59bc92c12e", null ],
-    [ "GetAI", "d0/d63/a16270.html#ab8c8cebfa6843404338ea5bc3ac8f3f7", null ]
+    [ "HandleEffectApply", "d0/d63/a16270.html#aaea2c3733dadc19072c81774468e345a", null ],
+    [ "PrepareAuraScript", "d0/d63/a16270.html#a3848997e9f775add50d40342b6211ff0", null ],
+    [ "Register", "d0/d63/a16270.html#a775b1cf494049ed13d149ca6318142c3", null ]
 ];

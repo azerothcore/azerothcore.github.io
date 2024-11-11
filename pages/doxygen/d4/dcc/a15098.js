@@ -1,13 +1,10 @@
 var a15098 =
 [
-    [ "npc_tharnarianAI", "d4/dcc/a15098.html#a8e22d45f6420aa8079f8fb7150a2a53a", null ],
-    [ "Initialize", "d4/dcc/a15098.html#ad1d89491b42a56406273a04045e7e91d", null ],
-    [ "Reset", "d4/dcc/a15098.html#a7de1f46bee4e79effc5dbb405854a7da", null ],
-    [ "SetGUID", "d4/dcc/a15098.html#a7ac84aac946afc312d8ce27f04127dfd", null ],
-    [ "sGossipSelect", "d4/dcc/a15098.html#a33b5898def48e17ba27363b98f51849b", null ],
-    [ "UpdateAI", "d4/dcc/a15098.html#a1e58a89064bdfb69e4445db72184d8b3", null ],
-    [ "_bearGUID", "d4/dcc/a15098.html#af7a116b8226ddb51e9f0f118f2d8fa22", null ],
-    [ "_events", "d4/dcc/a15098.html#aff73052a4b7407d760af3dde09fa8a07", null ],
-    [ "_facing", "d4/dcc/a15098.html#ad2120fffc0ffa93d4fca1e9e8c0a4371", null ],
-    [ "_scriptRunning", "d4/dcc/a15098.html#a5be50b02cc8ce2e7b4dd334e923a7c10", null ]
+    [ "npc_omenAI", "d4/dcc/a15098.html#a042c0854b4cc08861fabbd347acbb9d7", null ],
+    [ "JustDied", "d4/dcc/a15098.html#a5a5d61081c2c59d637739de0f2fe39d4", null ],
+    [ "JustEngagedWith", "d4/dcc/a15098.html#aa2dbe46d16d7059c57876e000fcf1bb5", null ],
+    [ "MovementInform", "d4/dcc/a15098.html#a92e59bde1f0da2ee537a836304a3c385", null ],
+    [ "SpellHit", "d4/dcc/a15098.html#a4e3960d506fd0435de055a365906a9c9", null ],
+    [ "UpdateAI", "d4/dcc/a15098.html#a6f114ab4bbe3e6e1fd6d74da93a36027", null ],
+    [ "events", "d4/dcc/a15098.html#aaaaff29ffd8f216eb3e09b51a67f7321", null ]
 ];

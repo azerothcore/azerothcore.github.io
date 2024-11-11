@@ -1,6 +1,7 @@
 var a18294 =
 [
-    [ "npc_frost_freeze_trapAI", "d3/d99/a18298.html", "d3/d99/a18298" ],
-    [ "npc_frost_freeze_trap", "da/dcf/a18294.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "da/dcf/a18294.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "HandleQuestComplete", "da/dcf/a18294.html#a5f1e6c4358df4e0910b2227f90b39d24", null ],
+    [ "HandleScript", "da/dcf/a18294.html#a309052e9b7c3d3747d15ab5e9c0d25fd", null ],
+    [ "PrepareSpellScript", "da/dcf/a18294.html#ac9b2786ba2dbb8d1c74af05153bb0a6f", null ],
+    [ "Register", "da/dcf/a18294.html#a3258d4517cfc758080691bab429624d7", null ]
 ];

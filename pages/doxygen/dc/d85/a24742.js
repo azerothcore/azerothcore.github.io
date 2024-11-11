@@ -1,8 +1,10 @@
 var a24742 =
 [
-    [ "CheckProc", "dc/d85/a24742.html#a88cdab428be20027d939fe4765afc9e0", null ],
-    [ "HandleProc", "dc/d85/a24742.html#a8e49a1bc11fdfc1b7d3f8225c890206f", null ],
-    [ "PrepareAuraScript", "dc/d85/a24742.html#a33f53dc5834a3be78e24a1a58bdfd15a", null ],
-    [ "Register", "dc/d85/a24742.html#aacb126d871c0df43f5096124b8cda376", null ],
-    [ "Validate", "dc/d85/a24742.html#aa81adc61bd1149d9c43c4670f02a91ba", null ]
+    [ "Load", "dc/d85/a24742.html#a6ae104e97dc9c0aa50e115fe1f17e161", null ],
+    [ "OnPeriodic", "dc/d85/a24742.html#ab1dc8acb8072f70625375480742fee5e", null ],
+    [ "PrepareAuraScript", "dc/d85/a24742.html#a2e81d03893b23aa8dc9c615683206f75", null ],
+    [ "Register", "dc/d85/a24742.html#ac2f2c8359487ad8c619e9faf8535b927", null ],
+    [ "Validate", "dc/d85/a24742.html#a0c88acf48d0ea7dd7ac3ac85aa3a126d", null ],
+    [ "_applyTimes", "dc/d85/a24742.html#a1bf9f3a1eb52bb64df59b381c412552f", null ],
+    [ "stackAmount", "dc/d85/a24742.html#ac8d762bdb40366c93602497e9aaa42eb", null ]
 ];

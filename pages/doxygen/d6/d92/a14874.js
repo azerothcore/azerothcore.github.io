@@ -1,6 +1,6 @@
 var a14874 =
 [
-    [ "boss_veknilash", "d6/d92/a14874.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
-    [ "IAmVeklor", "d6/d92/a14874.html#a454027d829b962ee0feebb6fd5687714", null ],
-    [ "JustEngagedWith", "d6/d92/a14874.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
+    [ "npc_muglashAI", "db/dcf/a14878.html", "db/dcf/a14878" ],
+    [ "npc_muglash", "d6/d92/a14874.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
+    [ "GetAI", "d6/d92/a14874.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
 ];

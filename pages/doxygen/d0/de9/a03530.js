@@ -1,4 +1,6 @@
 var a03530 =
 [
-    [ "validUtf8String", "d0/de9/a03530.html#a15c437e1d990c60d0d271ab1773b7d97", null ]
+    [ "lfg::LFGPlayerScript", "db/d4e/a07742.html", "db/d4e/a07742" ],
+    [ "lfg::LFGGroupScript", "d6/dac/a07746.html", "d6/dac/a07746" ],
+    [ "AddSC_LFGScripts", "d0/de9/a03530.html#a9624b9328e26a9f420a4a3f07e253763", null ]
 ];

@@ -1,6 +1,6 @@
 var a24010 =
 [
-    [ "PrepareSpellScript", "d2/d98/a24010.html#aa858fff409e5c75d865c91cb5fbef679", null ],
-    [ "Register", "d2/d98/a24010.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
-    [ "SetDest", "d2/d98/a24010.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
+    [ "npc_pet_dk_risen_allyAI", "d4/dae/a24014.html", "d4/dae/a24014" ],
+    [ "npc_pet_dk_risen_ally", "d2/d98/a24010.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
+    [ "GetAI", "d2/d98/a24010.html#a7aca5d410a1a28241943914a0d1c71df", null ]
 ];

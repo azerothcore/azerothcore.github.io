@@ -1,26 +1,10 @@
 var a27946 =
 [
-    [ "Expansion", "dd/db5/a27946.html#a39e6d2e230183f30e369c3bada111bfe", null ],
-    [ "GetEntrancePos", "dd/db5/a27946.html#a0d58d5bfdfce183f815d77e7315b77ed", null ],
-    [ "Instanceable", "dd/db5/a27946.html#af036a047dd6a68deb3dc61cff5bb6958", null ],
-    [ "IsBattleArena", "dd/db5/a27946.html#ade7b243c7089975899c78760e196c1fa", null ],
-    [ "IsBattleground", "dd/db5/a27946.html#a0c5ca5448fd4ec5d5e3a804a38dfb069", null ],
-    [ "IsBattlegroundOrArena", "dd/db5/a27946.html#a9946bfab35c05fcc85dc1c60d7614ec5", null ],
-    [ "IsContinent", "dd/db5/a27946.html#a4e9a18b9335b79bb079b5255d24dd6d7", null ],
-    [ "IsDungeon", "dd/db5/a27946.html#ad9902fc9b28ba9b555b45c0662aa0397", null ],
-    [ "IsDynamicDifficultyMap", "dd/db5/a27946.html#ae7bb16d92e0542f875162214b3743830", null ],
-    [ "IsNonRaidDungeon", "dd/db5/a27946.html#a168041f8e1fa28e6c4e8922d3e6b9005", null ],
-    [ "IsRaid", "dd/db5/a27946.html#adc49d2974929327b06a442012b0a07d1", null ],
-    [ "IsWorldMap", "dd/db5/a27946.html#a6b2df07886f44e0ed0b0442c7f392fd2", null ],
-    [ "entrance_map", "dd/db5/a27946.html#a29fb03d3306ce50afb13d4e72d735e18", null ],
-    [ "entrance_x", "dd/db5/a27946.html#ac2363d1d0f4e6647bcd1e8b8eea5b409", null ],
-    [ "entrance_y", "dd/db5/a27946.html#a05ab3182d6e38a5bf5397957cce465a2", null ],
-    [ "expansionID", "dd/db5/a27946.html#a35c7985906e9bec541c08bdc879a06cc", null ],
-    [ "Flags", "dd/db5/a27946.html#a368dda3514aeb177fb204fd73e9af2c4", null ],
-    [ "linked_zone", "dd/db5/a27946.html#a617a23fd33a5853f20a7b1cbda6f6e3a", null ],
-    [ "map_type", "dd/db5/a27946.html#adc919dc1d095da8c0f1624abfcca2cf6", null ],
-    [ "MapID", "dd/db5/a27946.html#a6bf547a0414908596a7b37db8bd36719", null ],
-    [ "maxPlayers", "dd/db5/a27946.html#ac2769d42a8963e075b7637a2ab520237", null ],
-    [ "multimap_id", "dd/db5/a27946.html#a3ffc45e361a42d043c31c7a6d94e8d46", null ],
-    [ "name", "dd/db5/a27946.html#a91e885a7b5d19824156187fb749f449b", null ]
+    [ "attackSpeed", "dd/db5/a27946.html#ab5242f7367e8799a556176178c72fc88", null ],
+    [ "creatureType", "dd/db5/a27946.html#a3dff9074b85261932ed8a8a550c5395b", null ],
+    [ "flags1", "dd/db5/a27946.html#a026745f2ce754d754858d69ee219b518", null ],
+    [ "ID", "dd/db5/a27946.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
+    [ "modelID_A", "dd/db5/a27946.html#a86dfa61342583d920b7d8496bce4b49d", null ],
+    [ "modelID_H", "dd/db5/a27946.html#a1ee597d6fd02507b682874929645e01d", null ],
+    [ "stanceSpell", "dd/db5/a27946.html#a08f54b905e905fb5a59e449f8c613c08", null ]
 ];

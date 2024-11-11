@@ -1,7 +1,6 @@
 var a20738 =
 [
-    [ "HandleEffectPeriodic", "db/de2/a20738.html#a2b9426d0a2ce9251632acebb30d0e2b5", null ],
-    [ "PrepareAuraScript", "db/de2/a20738.html#a7dca0398e78278c78dd80e9e6ca874e1", null ],
-    [ "Register", "db/de2/a20738.html#a74052d7da1523b3c4010465510e5fe04", null ],
-    [ "Validate", "db/de2/a20738.html#a587a469c649877f80e8fe80062e8b5d4", null ]
+    [ "npc_enslaved_proto_drakeAI", "d9/d49/a20742.html", "d9/d49/a20742" ],
+    [ "npc_enslaved_proto_drake", "db/de2/a20738.html#a9179481566337bd785b089fb726a255e", null ],
+    [ "GetAI", "db/de2/a20738.html#a2879ad42d2ec8c04c52d6c370c3e5bf6", null ]
 ];

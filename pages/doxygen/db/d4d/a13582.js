@@ -1,6 +1,5 @@
 var a13582 =
 [
-    [ "npc_zuljin_vortexAI", "df/dbc/a13586.html", "df/dbc/a13586" ],
-    [ "npc_zuljin_vortex", "db/d4d/a13582.html#a0f58fde79a4110f90be45190355e6161", null ],
-    [ "GetAI", "db/d4d/a13582.html#af2878b4e5f11a6d43c6cc58dffddab09", null ]
+    [ "at_zulgurub_bloodfire_pit_speech", "db/d4d/a13582.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
+    [ "_OnTrigger", "db/d4d/a13582.html#a8f1e477942ba9a5f653077632a98930f", null ]
 ];

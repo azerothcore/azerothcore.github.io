@@ -1,5 +1,8 @@
 var a13558 =
 [
-    [ "npc_janalai_egg", "dd/d9c/a13558.html#a5bcd519712b781153b2ac7c2048b3e93", null ],
-    [ "SpellHit", "dd/d9c/a13558.html#a588f49f71cfc764cf9e635152c9ed056", null ]
+    [ "boss_grilekAI", "dd/d9c/a13558.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
+    [ "JustEngagedWith", "dd/d9c/a13558.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
+    [ "Reset", "dd/d9c/a13558.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
+    [ "UpdateAI", "dd/d9c/a13558.html#a19438103c9a582a7d36d805c80131e8c", null ],
+    [ "_pursuitTargetGUID", "dd/d9c/a13558.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
 ];

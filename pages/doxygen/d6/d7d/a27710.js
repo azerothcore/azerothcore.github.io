@@ -1,14 +1,16 @@
 var a27710 =
 [
-    [ "IsFlyable", "d6/d7d/a27710.html#a2a59297a617c9d3b582ede2a028bd07e", null ],
-    [ "IsSanctuary", "d6/d7d/a27710.html#ad239b4e381b6af858a181e9c361d6cbb", null ],
-    [ "area_level", "d6/d7d/a27710.html#a23434848cf8b2eab4de1b6530b8d5f8d", null ],
-    [ "area_name", "d6/d7d/a27710.html#a87653e6b7f7368a59af7adaf77a49e10", null ],
-    [ "exploreFlag", "d6/d7d/a27710.html#a78cf3009cd0fe49dc7870c7f65c79251", null ],
-    [ "flags", "d6/d7d/a27710.html#a5854e3f565d827dbad3d9a36f99e9a25", null ],
-    [ "ID", "d6/d7d/a27710.html#ad02bb9fce21f464e38223581074a9e21", null ],
-    [ "LiquidTypeOverride", "d6/d7d/a27710.html#abe743a4b542c4356aab9d41f3fae7457", null ],
-    [ "mapid", "d6/d7d/a27710.html#a048ac249318efd9aa35bb705bfb92dc8", null ],
-    [ "team", "d6/d7d/a27710.html#ae18e0efef83e663452715f6be15ecaef", null ],
-    [ "zone", "d6/d7d/a27710.html#a3b4f9e187629db5ced9a06c601fc7f78", null ]
+    [ "CanBeSetAtWar", "d6/d7d/a27710.html#ae165dc23f25386eb086e1fa2cb820153", null ],
+    [ "CanHaveReputation", "d6/d7d/a27710.html#ab3da6918e197c1098a932418d5c51799", null ],
+    [ "BaseRepClassMask", "d6/d7d/a27710.html#ae73655de567de3766fcb3bbfb7f9eed3", null ],
+    [ "BaseRepRaceMask", "d6/d7d/a27710.html#aa8e1c08416d07882af7075fbb020ae5a", null ],
+    [ "BaseRepValue", "d6/d7d/a27710.html#a52f0753d1e1e69a4994eb6b1eab6824c", null ],
+    [ "ID", "d6/d7d/a27710.html#a1953f7a343201113dae80cdd97e1ac90", null ],
+    [ "name", "d6/d7d/a27710.html#ad9d326ed1aac5ea66825775665dfea00", null ],
+    [ "ReputationFlags", "d6/d7d/a27710.html#ae23a3c94554b2043928d6e1ea748e709", null ],
+    [ "reputationListID", "d6/d7d/a27710.html#aee99121c2d7298e16540229923391aee", null ],
+    [ "spilloverMaxRankIn", "d6/d7d/a27710.html#a14cea5365f14880850e788ba328d0c8e", null ],
+    [ "spilloverRateIn", "d6/d7d/a27710.html#a7a72bc65fb3fe76ffa1d072800c5daed", null ],
+    [ "spilloverRateOut", "d6/d7d/a27710.html#a7cea150843bf48277aa9cc917d210fcb", null ],
+    [ "team", "d6/d7d/a27710.html#a6210fabf2688f26a0a0050f6c148485d", null ]
 ];

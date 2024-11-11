@@ -1,7 +1,6 @@
 var a19198 =
 [
-    [ "HandleOnEffectApply", "d9/d8b/a19198.html#a4841f7a44f5df964c4eb9965383fd747", null ],
-    [ "PrepareAuraScript", "d9/d8b/a19198.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
-    [ "Register", "d9/d8b/a19198.html#a68fba646552678744f49d10b59704a35", null ],
-    [ "Validate", "d9/d8b/a19198.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
+    [ "boss_sjonnirAI", "d2/d40/a19202.html", "d2/d40/a19202" ],
+    [ "boss_sjonnir", "d9/d8b/a19198.html#a8bb9b10778a2dedcde3d4ced44bc13f1", null ],
+    [ "GetAI", "d9/d8b/a19198.html#a0bb79667d9d80f0c49e30fa0547c6062", null ]
 ];

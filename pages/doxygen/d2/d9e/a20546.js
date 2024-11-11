@@ -1,6 +1,8 @@
 var a20546 =
 [
-    [ "boss_yoggsaron_death_orbAI", "d2/d9e/a20546.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
-    [ "UpdateAI", "d2/d9e/a20546.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
-    [ "_startTimer", "d2/d9e/a20546.html#aebc8edef5f84219e1c50f2394d129443", null ]
+    [ "FilterTargets", "d2/d9e/a20546.html#a3d92ca79a15efaff3c4dd28f0c7ede2c", null ],
+    [ "HandleDummyEffect", "d2/d9e/a20546.html#afbf3aab6724d12426ab0197fb9459562", null ],
+    [ "PrepareSpellScript", "d2/d9e/a20546.html#a7ec441904bc100c6b15ee219617489ff", null ],
+    [ "Register", "d2/d9e/a20546.html#a2796cc02d7c029f3f99264162a19e1d2", null ],
+    [ "Validate", "d2/d9e/a20546.html#a85388adbc15d449e687f9f463cce3833", null ]
 ];

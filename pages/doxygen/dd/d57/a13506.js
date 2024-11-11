@@ -1,19 +1,8 @@
 var a13506 =
 [
-    [ "boss_halazzi", "dd/d57/a13506.html#aed961a9e12b44dfd97bd31c981184be5", null ],
-    [ "AttackStart", "dd/d57/a13506.html#a000c3b6b8a73fd8f858b87724dfcf123", null ],
-    [ "DamageTaken", "dd/d57/a13506.html#a3e0f8b3f086a60389a7ec37da19b0219", null ],
-    [ "EnterPhase", "dd/d57/a13506.html#a951a0c9fc4fc737abbaaae77dfd4e43b", null ],
-    [ "JustDied", "dd/d57/a13506.html#aa607a13fef1b8c195ba0aa09fafdaaae", null ],
-    [ "JustEngagedWith", "dd/d57/a13506.html#a1dd4992bfca0bf658bd7a385300578ae", null ],
-    [ "JustSummoned", "dd/d57/a13506.html#a152267cb31912106443ceea9488fee0a", null ],
-    [ "KilledUnit", "dd/d57/a13506.html#a4d69fa8e754f823a599c52e227361600", null ],
-    [ "Reset", "dd/d57/a13506.html#a9d9a82e5ae8dadfefcf2c929325cb60e", null ],
-    [ "SpellHit", "dd/d57/a13506.html#a36141673391a423174db874ca425ea07", null ],
-    [ "_healthCheckPercentage", "dd/d57/a13506.html#a03a8812f5dd437f6c663b53cead722aa", null ],
-    [ "_healthPortion", "dd/d57/a13506.html#a0213fbffb3543029bdcbcf470597e225", null ],
-    [ "_humanFormHealth", "dd/d57/a13506.html#a5d4f7915fbd38ad9114697ad847f17c4", null ],
-    [ "_lynxFormHealth", "dd/d57/a13506.html#ae0e2b50ce3648a2356389fc167566723", null ],
-    [ "_phase", "dd/d57/a13506.html#a1f76fd0c02eec20aa2c222b278420dd8", null ],
-    [ "_transformCount", "dd/d57/a13506.html#a9a86487f20e48d6be123bd61aaf13f7f", null ]
+    [ "npc_zulaman_hostageAI", "d4/df0/a13510.html", "d4/df0/a13510" ],
+    [ "npc_zulaman_hostage", "dd/d57/a13506.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
+    [ "GetAI", "dd/d57/a13506.html#a0ae144dc154dd028b409c9d2393f890c", null ],
+    [ "OnGossipHello", "dd/d57/a13506.html#a89d68a976f916a4de2196b57ec0026b0", null ],
+    [ "OnGossipSelect", "dd/d57/a13506.html#a114f6fbfab90944fd49babcba4b48a11", null ]
 ];

@@ -1,7 +1,6 @@
 var a16062 =
 [
-    [ "HandleEffectPeriodic", "db/db5/a16062.html#a7d6d15b8eecfcfb4c36d6504920bd119", null ],
-    [ "PrepareAuraScript", "db/db5/a16062.html#a4506f7d723b85c7555296f5ade11cd29", null ],
-    [ "Register", "db/db5/a16062.html#aeac7e6abc89209e14451439cdf1d416e", null ],
-    [ "Validate", "db/db5/a16062.html#a9d6f9cd0495de03878ed5137542ea89d", null ]
+    [ "npc_toc_rogueAI", "da/d7e/a16066.html", "da/d7e/a16066" ],
+    [ "npc_toc_rogue", "db/db5/a16062.html#a925840be9698e381358235a827c20b8a", null ],
+    [ "GetAI", "db/db5/a16062.html#a6f0246b284ffd800e3870d70e9c52aac", null ]
 ];

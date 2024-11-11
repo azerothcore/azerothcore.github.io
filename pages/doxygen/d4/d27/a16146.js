@@ -1,8 +1,6 @@
 var a16146 =
 [
-    [ "npc_toc_boomkinAI", "d4/d27/a16146.html#a12c586d57aa6dd3893889f103dbfee20", null ],
-    [ "JustSummoned", "d4/d27/a16146.html#a0d049885773b7f1abd7e03f9200852f4", null ],
-    [ "myCanCast", "d4/d27/a16146.html#a691a0250db77cc4def2bf67b25a1298c", null ],
-    [ "UpdateAI", "d4/d27/a16146.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
-    [ "events", "d4/d27/a16146.html#a0b367855092884b2ce30834e89fced87", null ]
+    [ "boss_gormokAI", "d4/d00/a16150.html", "d4/d00/a16150" ],
+    [ "boss_gormok", "d4/d27/a16146.html#a86ce0681be4370198c44dde5aa98a593", null ],
+    [ "GetAI", "d4/d27/a16146.html#a45cff2e7ee0525de37382cf09b116a32", null ]
 ];

@@ -1,5 +1,6 @@
 var a24130 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "de/dc3/a24130.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
-    [ "InitializeAI", "de/dc3/a24130.html#af3ecec126ed3d902acd4bfe979382307", null ]
+    [ "HandleEffectRemove", "de/dc3/a24130.html#a9472b79a272aff36be657b66883d822f", null ],
+    [ "PrepareAuraScript", "de/dc3/a24130.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
+    [ "Register", "de/dc3/a24130.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
 ];

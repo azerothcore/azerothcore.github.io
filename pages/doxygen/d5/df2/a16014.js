@@ -1,8 +1,6 @@
 var a16014 =
 [
-    [ "npc_announcer_toc5AI", "d5/df2/a16014.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "d5/df2/a16014.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "d5/df2/a16014.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "d5/df2/a16014.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "d5/df2/a16014.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "npc_toc_warlockAI", "d7/d76/a16018.html", "d7/d76/a16018" ],
+    [ "npc_toc_warlock", "d5/df2/a16014.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
+    [ "GetAI", "d5/df2/a16014.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
 ];

@@ -1,11 +1,7 @@
 var a17582 =
 [
-    [ "Load", "dc/d86/a17582.html#a0dab3a666abd6d8c1486a6e71ce98c20", null ],
-    [ "PrepareSpellScript", "dc/d86/a17582.html#a8338cc31a3c494c1cb24d015a11fbd64", null ],
-    [ "Register", "dc/d86/a17582.html#a9adbad7cc2185b22fb16135e78114548", null ],
-    [ "SelectTarget", "dc/d86/a17582.html#a296ec09cec9661123ea5c86f3f262f32", null ],
-    [ "SetTarget", "dc/d86/a17582.html#a15373dc2a0767e011faf504f6377e24d", null ],
-    [ "StartAttack", "dc/d86/a17582.html#a17b20a391d70ae487774d52ed0e5dbd7", null ],
-    [ "Validate", "dc/d86/a17582.html#a7619f7ec6dc0ce14293414729731ed00", null ],
-    [ "_target", "dc/d86/a17582.html#abe6d3ad0f06b2370f1a5985878d6af3d", null ]
+    [ "HandleCast", "dc/d86/a17582.html#aaa3262bc782e342825d4caba2954e95d", null ],
+    [ "PrepareSpellScript", "dc/d86/a17582.html#ae4d1f05b978e2a46d7dc3410def73978", null ],
+    [ "Register", "dc/d86/a17582.html#ac59fb77c6a52d7a603dbb27e933a6814", null ],
+    [ "Validate", "dc/d86/a17582.html#a6ca80316fe7bcbb4ebda095d633bb1bc", null ]
 ];

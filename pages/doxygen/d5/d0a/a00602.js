@@ -1,4 +1,4 @@
 var a00602 =
 [
-    [ "B32Impl", "d6/d3b/a05202.html", "d6/d3b/a05202" ]
+    [ "Acore::Asio::Resolver", "db/da6/a04782.html", "db/da6/a04782" ]
 ];

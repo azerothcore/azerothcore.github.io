@@ -1,6 +1,7 @@
 var a22730 =
 [
-    [ "npc_supremus_punch_invisible_stalker", "d0/dfa/a22730.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
-    [ "IsSummonedBy", "d0/dfa/a22730.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
-    [ "UpdateAI", "d0/dfa/a22730.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
+    [ "OnPeriodic", "d0/dfa/a22730.html#ad64b9ba13ef7d77cd778afb8e412ad04", null ],
+    [ "PrepareAuraScript", "d0/dfa/a22730.html#a40faff90cb247203d3afafad9c44bfd7", null ],
+    [ "Register", "d0/dfa/a22730.html#a8b2d4235784396b8c29b8e7de51e5708", null ],
+    [ "Validate", "d0/dfa/a22730.html#a57b481cf462f53ec76f2db326b48c9b6", null ]
 ];

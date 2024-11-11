@@ -1,7 +1,6 @@
 var a19334 =
 [
-    [ "creature", "d2/d0f/a19334.html#a55a6ee677ab51120867f542e5a5745b0", null ],
-    [ "sound", "d2/d0f/a19334.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
-    [ "text", "d2/d0f/a19334.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
-    [ "timer", "d2/d0f/a19334.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
+    [ "HandlePeriodic", "d2/d0f/a19334.html#a0a77c0b232e24e5cb8b3392ac8adbd3a", null ],
+    [ "PrepareAuraScript", "d2/d0f/a19334.html#a7c6b6839da4a93f656800c9ae174c832", null ],
+    [ "Register", "d2/d0f/a19334.html#ae28e67baa12488e248efd46ef5a7cb11", null ]
 ];

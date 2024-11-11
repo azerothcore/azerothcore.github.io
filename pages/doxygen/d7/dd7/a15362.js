@@ -1,7 +1,7 @@
 var a15362 =
 [
-    [ "npc_lakota_windsongAI", "d7/dd7/a15362.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "d7/dd7/a15362.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "d7/dd7/a15362.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "d7/dd7/a15362.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "go_troll_cageAI", "d7/dd7/a15362.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
+    [ "GossipHello", "d7/dd7/a15362.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
+    [ "initBlyCrewMember", "d7/dd7/a15362.html#a6bfb77ec97367d8704885acfef801b74", null ],
+    [ "instance", "d7/dd7/a15362.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
 ];

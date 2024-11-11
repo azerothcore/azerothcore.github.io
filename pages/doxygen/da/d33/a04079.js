@@ -1,4 +1,5 @@
 var a04079 =
 [
-    [ "ScriptRegistry< AchievementScript >", "da/d33/a04079.html#ac6173262cca5c83f03287161a75446ab", null ]
+    [ "Vehicle", "d4/d26/a08534.html", "d4/d26/a08534" ],
+    [ "VehicleDespawnEvent", "d7/d03/a08538.html", "d7/d03/a08538" ]
 ];

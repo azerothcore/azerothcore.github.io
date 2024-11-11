@@ -1,7 +1,12 @@
 var a13430 =
 [
-    [ "boss_blight_wormAI", "df/d01/a13430.html#af267e395fbd539f871e498dc6745c610", null ],
-    [ "Reset", "df/d01/a13430.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
-    [ "UpdateAI", "df/d01/a13430.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
-    [ "_events", "df/d01/a13430.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
+    [ "npc_akilzon_eagleAI", "df/d01/a13430.html#a08d79db0d679e5ee40c919cde126a15a", null ],
+    [ "JustEngagedWith", "df/d01/a13430.html#a19c4cd8b2bfcf52157971486c8d24903", null ],
+    [ "MoveInLineOfSight", "df/d01/a13430.html#a248aff56059e889eb3fd6eb1d511bb68", null ],
+    [ "MovementInform", "df/d01/a13430.html#a5372643a5014f349fc2593e42d27988b", null ],
+    [ "Reset", "df/d01/a13430.html#a9fc9924deb5be8dbc33565480f045a7a", null ],
+    [ "UpdateAI", "df/d01/a13430.html#a29049f0d5acfd96d38e1143e8e9b1a06", null ],
+    [ "arrived", "df/d01/a13430.html#abec2cfde4f5bc6147339ce89b0d2ce45", null ],
+    [ "EagleSwoop_Timer", "df/d01/a13430.html#a34c016ca0fb5f01feb48302fdb76d891", null ],
+    [ "TargetGUID", "df/d01/a13430.html#a9fa61cffe2a605ec4a7953292da16e84", null ]
 ];

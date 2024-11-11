@@ -1,10 +1,11 @@
 var a24202 =
 [
-    [ "npc_pet_hunter_snake_trap", "d8/d4d/a24202.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "d8/d4d/a24202.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "d8/d4d/a24202.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "d8/d4d/a24202.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "d8/d4d/a24202.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "d8/d4d/a24202.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "d8/d4d/a24202.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "CalcPeriodic", "d8/d4d/a24202.html#a330ab5ee4c9b16928b3fae701c80acd4", null ],
+    [ "CalculateHasteAmount", "d8/d4d/a24202.html#a75d428e0b3619d53bd9436712d2e394e", null ],
+    [ "CalculateSPAmount", "d8/d4d/a24202.html#a81805b43a47065281f83889d8be95c54", null ],
+    [ "CalculateStatAmount", "d8/d4d/a24202.html#a763276aaa00bb6953e0b52118662e7a8", null ],
+    [ "HandleEffectApply", "d8/d4d/a24202.html#ad5595d4a32336568ac143e1ee1823ab3", null ],
+    [ "HandlePeriodic", "d8/d4d/a24202.html#ab3c7d479eae88ab4a59b06610af19429", null ],
+    [ "PrepareAuraScript", "d8/d4d/a24202.html#a8dc2c51f3cccb640286fb081a34d90d2", null ],
+    [ "Register", "d8/d4d/a24202.html#a6b3e219b03f89bf20f0d394c14cfe8cd", null ]
 ];

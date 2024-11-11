@@ -1,7 +1,9 @@
 var a23178 =
 [
-    [ "HandleScript", "d2/d85/a23178.html#a7c1b4d0c8d2ad153cef62ce05fef814c", null ],
-    [ "PrepareSpellScript", "d2/d85/a23178.html#ab826f4f249679ffe87f9e6ccf6b9ecf0", null ],
-    [ "Register", "d2/d85/a23178.html#a82da72fd4eed6773c1f3a4288caa8963", null ],
-    [ "Validate", "d2/d85/a23178.html#a46aca18049e02d50f57579b3fdc705bd", null ]
+    [ "boss_the_maker", "d2/d85/a23178.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "d2/d85/a23178.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "d2/d85/a23178.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "d2/d85/a23178.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "d2/d85/a23178.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "d2/d85/a23178.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

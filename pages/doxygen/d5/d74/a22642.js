@@ -1,6 +1,7 @@
 var a22642 =
 [
-    [ "boss_reliquary_of_soulsAI", "d8/da7/a22646.html", "d8/da7/a22646" ],
-    [ "boss_reliquary_of_souls", "d5/d74/a22642.html#a0c73fc6221da0b19903e534932ca6406", null ],
-    [ "GetAI", "d5/d74/a22642.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
+    [ "Absorb", "d5/d74/a22642.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
+    [ "HandleEffectRemove", "d5/d74/a22642.html#a3d4026e5208acb948c089a4bedba0de8", null ],
+    [ "PrepareAuraScript", "d5/d74/a22642.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
+    [ "Register", "d5/d74/a22642.html#a983cf678001efcbccc4b34a9ad919881", null ]
 ];

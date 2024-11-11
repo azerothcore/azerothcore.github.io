@@ -1,13 +1,9 @@
 var a22878 =
 [
-    [ "boss_fathomguard_caribdis", "d2/d7d/a22878.html#a9172b9717e5137ddde7df38bb237478c", null ],
-    [ "EnterEvadeMode", "d2/d7d/a22878.html#aa666a491a776b12a042ee140aedc95eb", null ],
-    [ "JustDied", "d2/d7d/a22878.html#ab821365b35a48f70a11c6033fe2ca714", null ],
-    [ "JustEngagedWith", "d2/d7d/a22878.html#a5503519998f51f475420ada2210f32f0", null ],
-    [ "JustSummoned", "d2/d7d/a22878.html#a39ca45ec0de50b7d7a5ec866c4017a8a", null ],
-    [ "Reset", "d2/d7d/a22878.html#a0d2a3403d5934e86a897b3417ed2214a", null ],
-    [ "UpdateAI", "d2/d7d/a22878.html#af4a544f37d178de21d84f2544f24431e", null ],
-    [ "_instance", "d2/d7d/a22878.html#a73f567f2269aeca1435af82e1c6880e9", null ],
-    [ "_scheduler", "d2/d7d/a22878.html#a08b01e9735e421d8d5bbc2b552217762", null ],
-    [ "_summons", "d2/d7d/a22878.html#ac8b53cb81547a2423a13c997badb77e3", null ]
+    [ "FilterTargets", "d2/d7d/a22878.html#a9049c113d65b15a9a8e1143980a84b23", null ],
+    [ "HandleDummy", "d2/d7d/a22878.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
+    [ "Load", "d2/d7d/a22878.html#a8cad82701e0147e14f826243175e1c32", null ],
+    [ "PrepareSpellScript", "d2/d7d/a22878.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
+    [ "Register", "d2/d7d/a22878.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
+    [ "_targetNumber", "d2/d7d/a22878.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
 ];

@@ -1,6 +1,6 @@
 var a13782 =
 [
-    [ "LaunchHit", "d1/dc7/a13782.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
-    [ "PrepareSpellScript", "d1/dc7/a13782.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
-    [ "Register", "d1/dc7/a13782.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
+    [ "HandleEffectRemove", "d1/dc7/a13782.html#a8d5d43ae12fb6d65029008eadd56973a", null ],
+    [ "PrepareAuraScript", "d1/dc7/a13782.html#abe527a7a4fda32c833f4762e82e2bd3d", null ],
+    [ "Register", "d1/dc7/a13782.html#aa436788f638fedacb217ca508da5f426", null ]
 ];

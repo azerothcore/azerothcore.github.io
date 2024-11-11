@@ -1,10 +1,5 @@
 var a26694 =
 [
-    [ "CheckProc", "da/de0/a26694.html#a68a559c46266fc7337f7d56bb66af542", null ],
-    [ "HandleProc", "da/de0/a26694.html#a69cdd92cea54ec5bf11f6011578b2338", null ],
-    [ "Load", "da/de0/a26694.html#ad571b0d2f47cff037030d7a8184f60fd", null ],
-    [ "PrepareAuraScript", "da/de0/a26694.html#aa20e2911e60f3ae7a9dcceee8f96b6ef", null ],
-    [ "Register", "da/de0/a26694.html#a8af18925b317c717fcd6b2fae14a16e4", null ],
-    [ "Validate", "da/de0/a26694.html#ac0cf25901d70e37bb887b3baa38790b5", null ],
-    [ "_procTarget", "da/de0/a26694.html#ad48f21d3a45e97857265e6047f253910", null ]
+    [ "AreaTrigger_at_legion_teleporter", "da/de0/a26694.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "da/de0/a26694.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

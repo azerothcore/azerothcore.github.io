@@ -1,13 +1,7 @@
 var a19094 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d1/d49/a19094.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "d1/d49/a19094.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "d1/d49/a19094.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "d1/d49/a19094.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "d1/d49/a19094.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "d1/d49/a19094.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "d1/d49/a19094.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "d1/d49/a19094.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "d1/d49/a19094.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "d1/d49/a19094.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "HandleOnEffectApply", "d1/d49/a19094.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "d1/d49/a19094.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "d1/d49/a19094.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "d1/d49/a19094.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

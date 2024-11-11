@@ -1,9 +1,6 @@
 var a25838 =
 [
-    [ "CountTargets", "da/db4/a25838.html#a85a60a3ada7ea2b8c995bc156be36fe2", null ],
-    [ "HandleDummy", "da/db4/a25838.html#af51f59f6cb8e2a6d99b3c05cebfcfa89", null ],
-    [ "PrepareSpellScript", "da/db4/a25838.html#adfb7e3fbb52aa349573b95c457823900", null ],
-    [ "Register", "da/db4/a25838.html#a9180a01674a1f56c287d40bfbdf6d841", null ],
-    [ "Validate", "da/db4/a25838.html#a5dd09977efde2d3433aff4d35687d5e8", null ],
-    [ "_targetCount", "da/db4/a25838.html#aa9a0fb36eafd8535fcd2bddda56d7107", null ]
+    [ "FilterTargets", "da/db4/a25838.html#a23c7b977f7e213322b3702367d6a28c7", null ],
+    [ "PrepareSpellScript", "da/db4/a25838.html#a7000b2fd940c914933c486e847932b62", null ],
+    [ "Register", "da/db4/a25838.html#a870ee08d0341f6640710a87c97a6b98b", null ]
 ];

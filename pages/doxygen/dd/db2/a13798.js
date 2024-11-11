@@ -1,6 +1,7 @@
 var a13798 =
 [
-    [ "HandleOnHit", "dd/db2/a13798.html#a36909ef786940eb1a05539c968d78e80", null ],
-    [ "PrepareSpellScript", "dd/db2/a13798.html#a4bc6792c99b40834ec1a8a9764589e24", null ],
-    [ "Register", "dd/db2/a13798.html#ad1d60c5f747f8ec16cbf2402567cfebd", null ]
+    [ "GetEmptyEntry", "dd/db2/a13798.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
+    [ "HandleAfterHit", "dd/db2/a13798.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
+    [ "PrepareSpellScript", "dd/db2/a13798.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
+    [ "Register", "dd/db2/a13798.html#a25e1858e1f81891443f4b7de50a5d495", null ]
 ];

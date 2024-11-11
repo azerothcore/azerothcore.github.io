@@ -1,5 +1,4 @@
 var a03536 =
 [
-    [ "Acore::EmoteChatBuilder", "d9/d08/a09270.html", "d9/d08/a09270" ],
-    [ "isNasty", "d1/dfd/a03536.html#ae6092f307f09a5dcbbc5ed10c145032f", null ]
+    [ "AddSC_LFGScripts", "d1/dfd/a03536.html#a9624b9328e26a9f420a4a3f07e253763", null ]
 ];

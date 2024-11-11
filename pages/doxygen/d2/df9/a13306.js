@@ -1,6 +1,9 @@
 var a13306 =
 [
-    [ "OnEffect", "d2/df9/a13306.html#a41903586310ec274dd10537ccb8655f3", null ],
-    [ "PrepareSpellScript", "d2/df9/a13306.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
-    [ "Register", "d2/df9/a13306.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
+    [ "npc_tyrion_spybotAI", "d2/df9/a13306.html#aedad685279012266637d29069ead9063", null ],
+    [ "Reset", "d2/df9/a13306.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
+    [ "UpdateAI", "d2/df9/a13306.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
+    [ "WaypointReached", "d2/df9/a13306.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
+    [ "uiPhase", "d2/df9/a13306.html#af5dbb99fe18d96665efd04bd53294636", null ],
+    [ "uiTimer", "d2/df9/a13306.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
 ];

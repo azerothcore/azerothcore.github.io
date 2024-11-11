@@ -1,8 +1,9 @@
 var a26274 =
 [
-    [ "CheckCast", "d7/de2/a26274.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
-    [ "CheckQuest", "d7/de2/a26274.html#abc927d932c1d5e05eab1918364d68ed5", null ],
-    [ "HandleActiveObject", "d7/de2/a26274.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
-    [ "PrepareSpellScript", "d7/de2/a26274.html#a96e69476965cc2466213a5371a57093a", null ],
-    [ "Register", "d7/de2/a26274.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
+    [ "Absorb", "d7/de2/a26274.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
+    [ "CalculateAmount", "d7/de2/a26274.html#a820c27c2161063307a10903cbbc5c0fa", null ],
+    [ "Load", "d7/de2/a26274.html#a7b71990051faaa083110408c13b8401f", null ],
+    [ "PrepareAuraScript", "d7/de2/a26274.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
+    [ "Register", "d7/de2/a26274.html#aa443ab0eed74229883884fbced0426d7", null ],
+    [ "absorbPct", "d7/de2/a26274.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
 ];

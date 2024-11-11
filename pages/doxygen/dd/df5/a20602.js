@@ -1,6 +1,5 @@
 var a20602 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "d8/dbf/a20606.html", "d8/dbf/a20606" ],
-    [ "boss_yoggsaron_lich_king", "dd/df5/a20602.html#a1655d608683e90ccafd350204eed2d31", null ],
-    [ "GetAI", "dd/df5/a20602.html#aa65cd9c9eafba12ae065903868ee5319", null ]
+    [ "achievement_yogg_saron_drive_me_crazy", "dd/df5/a20602.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
+    [ "OnCheck", "dd/df5/a20602.html#a029fdd68e0643b53971efbb1056f19d8", null ]
 ];

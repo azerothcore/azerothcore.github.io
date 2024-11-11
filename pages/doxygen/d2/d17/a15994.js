@@ -1,6 +1,7 @@
 var a15994 =
 [
-    [ "boss_grand_championAI", "db/d00/a15998.html", "db/d00/a15998" ],
-    [ "boss_grand_champion", "d2/d17/a15994.html#a9577f8af5e234b3aebd7567841b867e2", null ],
-    [ "GetAI", "d2/d17/a15994.html#aa60972482ef16329d7ffc0a7ccf2d03e", null ]
+    [ "npc_toc_paladinAI", "d2/d17/a15994.html#a025d39c04e864ebd77f4f930ec20b1e5", null ],
+    [ "myCanCast", "d2/d17/a15994.html#a06130e6e440d0b25d8b5566de6190cbc", null ],
+    [ "UpdateAI", "d2/d17/a15994.html#a32943f1c3ffd0239c85ac1b81786f049", null ],
+    [ "events", "d2/d17/a15994.html#ae47a32bbb05cf2f634ae18bc672ec004", null ]
 ];

@@ -1,7 +1,7 @@
 var a23954 =
 [
-    [ "o", "d7/d64/a23954.html#a3785e9b55ea3a7140086ce1f86232109", null ],
-    [ "x", "d7/d64/a23954.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
-    [ "y", "d7/d64/a23954.html#a10fbad67977d8dd3911eb629c1797684", null ],
-    [ "z", "d7/d64/a23954.html#a69fc2438e52f6c0de3af13900ff38166", null ]
+    [ "HandleSendEvent", "d7/d64/a23954.html#a8b32db78a3b4d5a01be230968fda3a8d", null ],
+    [ "PrepareSpellScript", "d7/d64/a23954.html#a0adf10b63735dbdf1cb3d49c73f7da1d", null ],
+    [ "Register", "d7/d64/a23954.html#ad6aedfed88d4a921122fdc7a8b501f0e", null ],
+    [ "Validate", "d7/d64/a23954.html#a9b72b16ac81c53aaa7936640e5149e6c", null ]
 ];

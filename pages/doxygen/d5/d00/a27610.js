@@ -1,13 +1,11 @@
 var a27610 =
 [
-    [ "DBCDatabaseLoader", "d5/d00/a27610.html#a2efbbd3799e5f72fecaeaf9365579482", null ],
-    [ "DBCDatabaseLoader", "d5/d00/a27610.html#a7d93e6d37796f341edcf25062743c5b5", null ],
-    [ "CloneStringToPool", "d5/d00/a27610.html#a68e5ae50c980aa81b051d0622575bb2d", null ],
-    [ "Load", "d5/d00/a27610.html#a1b116dca8b01e0462a2e6c08245a49a3", null ],
-    [ "operator=", "d5/d00/a27610.html#a46f7d5670840892f7a8714ce0b6cde13", null ],
-    [ "_dbcFormat", "d5/d00/a27610.html#aa749118514d0b784ac6df295bd820d8e", null ],
-    [ "_recordSize", "d5/d00/a27610.html#a6721538ebbcfe020fb195d44b3bdbd11", null ],
-    [ "_sqlIndexPos", "d5/d00/a27610.html#ac1b5b191615d3e3121ea70965b0d495a", null ],
-    [ "_sqlTableName", "d5/d00/a27610.html#ab6590071edf5311ccf484d48e4fd125e", null ],
-    [ "_stringPool", "d5/d00/a27610.html#a52b5b86f0efb8ad0716bc0171a3aa740", null ]
+    [ "icon", "d5/d00/a27610.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
+    [ "id", "d5/d00/a27610.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
+    [ "mapId", "d5/d00/a27610.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
+    [ "worldState", "d5/d00/a27610.html#a9d745d26316726c861cc5a242f6a4f57", null ],
+    [ "x", "d5/d00/a27610.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
+    [ "y", "d5/d00/a27610.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
+    [ "z", "d5/d00/a27610.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
+    [ "zoneId", "d5/d00/a27610.html#a0cc33089981237694ca550cba6793a3e", null ]
 ];

@@ -1,6 +1,7 @@
 var a20682 =
 [
-    [ "OnEffect", "de/df0/a20682.html#aa24cfd6feec65f466e74c68484815c1e", null ],
-    [ "PrepareSpellScript", "de/df0/a20682.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
-    [ "Register", "de/df0/a20682.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
+    [ "npc_frost_tombAI", "de/df0/a20682.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "de/df0/a20682.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "de/df0/a20682.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "de/df0/a20682.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

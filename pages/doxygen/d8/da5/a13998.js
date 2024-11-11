@@ -1,12 +1,10 @@
 var a13998 =
 [
-    [ "npc_alexstraza_the_lifebinder", "d8/da5/a13998.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "d8/da5/a13998.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "d8/da5/a13998.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "d8/da5/a13998.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "d8/da5/a13998.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "d8/da5/a13998.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "d8/da5/a13998.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "d8/da5/a13998.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "d8/da5/a13998.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "boss_headless_horseman_pumpkin", "d8/da5/a13998.html#a62191ae523401ac57a947db96a245f7a", null ],
+    [ "AttackStart", "d8/da5/a13998.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
+    [ "MoveInLineOfSight", "d8/da5/a13998.html#a212f9803f66d297cd276ef842247776a", null ],
+    [ "Reset", "d8/da5/a13998.html#a9d5f6922a52146b61168f1c50b378294", null ],
+    [ "SpellHit", "d8/da5/a13998.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
+    [ "UpdateAI", "d8/da5/a13998.html#aca53b8839bce5e180ba8583490d694c3", null ],
+    [ "timer", "d8/da5/a13998.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
 ];

@@ -1,10 +1,10 @@
 var a20742 =
 [
-    [ "npc_ulduar_snow_mound", "d9/d49/a20742.html#a3f66ad92d616050bb67cb1a5e33ffa74", null ],
-    [ "MoveInLineOfSight", "d9/d49/a20742.html#ae5a09062d87aa1c0d446310df2ddd621", null ],
-    [ "UpdateAI", "d9/d49/a20742.html#a9d18fdaf83a2cfeea9b3ac6adbbd2687", null ],
-    [ "_activated", "d9/d49/a20742.html#ac48f6985d857276e0e59c2a429f5b359", null ],
-    [ "_count", "d9/d49/a20742.html#a1856c3bba24842f33720a83e1de40421", null ],
-    [ "_counter", "d9/d49/a20742.html#aca94a744c23b7f9771c728997ba4b8f3", null ],
-    [ "_scheduler", "d9/d49/a20742.html#aafe42af9ba1402cad91326eb1037e476", null ]
+    [ "npc_enslaved_proto_drakeAI", "d9/d49/a20742.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "d9/d49/a20742.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "d9/d49/a20742.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "d9/d49/a20742.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "d9/d49/a20742.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "d9/d49/a20742.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "d9/d49/a20742.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

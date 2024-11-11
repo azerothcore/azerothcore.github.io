@@ -1,6 +1,6 @@
 var a15126 =
 [
-    [ "npc_tiger_matriarchAI", "db/d6e/a15130.html", "db/d6e/a15130" ],
-    [ "npc_tiger_matriarch", "d7/de6/a15126.html#a05a08bfa64c428213a4b534a982afb71", null ],
-    [ "GetAI", "d7/de6/a15126.html#a6d5664ca125a775c2d71f322f5a57655", null ]
+    [ "Creature", "d7/de6/a15126.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "d7/de6/a15126.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "d7/de6/a15126.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

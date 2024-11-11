@@ -1,5 +1,6 @@
 var a19558 =
 [
-    [ "achievement_auriaya_crazy_cat_lady", "df/db0/a19558.html#a1eb5d931c7c520b7cd6f516bfcb819e4", null ],
-    [ "OnCheck", "df/db0/a19558.html#a905b9a4389521fde6d26d3c19a0fe21c", null ]
+    [ "npc_mechanoliftAI", "d6/db9/a19562.html", "d6/db9/a19562" ],
+    [ "npc_mechanolift", "df/db0/a19558.html#a7b753a3426213706c899745a6d0d989b", null ],
+    [ "GetAI", "df/db0/a19558.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
 ];

@@ -1,6 +1,6 @@
 var a19410 =
 [
-    [ "npc_living_constellationAI", "d6/dfb/a19414.html", "d6/dfb/a19414" ],
-    [ "npc_living_constellation", "d3/d67/a19410.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
-    [ "GetAI", "d3/d67/a19410.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
+    [ "HandleInstaKill", "d3/d67/a19410.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "d3/d67/a19410.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "d3/d67/a19410.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

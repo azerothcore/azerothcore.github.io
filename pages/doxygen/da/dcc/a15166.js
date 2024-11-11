@@ -1,6 +1,7 @@
 var a15166 =
 [
-    [ "npcs_riverbreeze_and_silversky", "da/dcc/a15166.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
-    [ "OnGossipHello", "da/dcc/a15166.html#a7de032322a37f929c316aadfdadda768", null ],
-    [ "OnGossipSelect", "da/dcc/a15166.html#a93c7b159dda733da5030de747bad30b5", null ]
+    [ "DelayedWindstoneSummonEvent", "da/dcc/a15166.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "da/dcc/a15166.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "da/dcc/a15166.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "da/dcc/a15166.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

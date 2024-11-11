@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/ScriptedAI/ScriptedEscortAI.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AllMapScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,85 +106,82 @@ $(document).ready(function(){initNavTree('da/d9e/a03059.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">ScriptedEscortAI.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AllMapScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptSystem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2f/a06122.html">Escort_Waypoint</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d43/a09946.html">AllMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1e/a06126.html">npc_escortAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ad23dc39ce2da634e67360fab90e3b9e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9e/a03059.html#ad23dc39ce2da634e67360fab90e3b9e2">DEFAULT_MAX_PLAYER_DISTANCE</a>&#160;&#160;&#160;100</td></tr>
-<tr class="separator:ad23dc39ce2da634e67360fab90e3b9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af40ca4990501264cb0359ab6d93fb08a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08a">eEscortState</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a> = 0x000
+<tr class="memitem:a78db4e64fe232d8b547270090d8e3b92"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92">AllMapHook</a> { <br />
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a> = 0x001
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a> = 0x002
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a>
 , <br />
-&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a> = 0x004
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a>
+, <br />
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a>
+, <br />
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:af40ca4990501264cb0359ab6d93fb08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a78db4e64fe232d8b547270090d8e3b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad23dc39ce2da634e67360fab90e3b9e2" name="ad23dc39ce2da634e67360fab90e3b9e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad23dc39ce2da634e67360fab90e3b9e2">&#9670;&#160;</a></span>DEFAULT_MAX_PLAYER_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_MAX_PLAYER_DISTANCE&#160;&#160;&#160;100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="af40ca4990501264cb0359ab6d93fb08a" name="af40ca4990501264cb0359ab6d93fb08a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af40ca4990501264cb0359ab6d93fb08a">&#9670;&#160;</a></span>eEscortState</h2>
+<a id="a78db4e64fe232d8b547270090d8e3b92" name="a78db4e64fe232d8b547270090d8e3b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78db4e64fe232d8b547270090d8e3b92">&#9670;&#160;</a></span>AllMapHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08a">eEscortState</a></td>
+          <td class="memname">enum <a class="el" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92">AllMapHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5" name="af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5"></a>STATE_ESCORT_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92" name="af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92"></a>STATE_ESCORT_ESCORTING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48" name="af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48"></a>STATE_ESCORT_RETURNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6" name="af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6"></a>STATE_ESCORT_PAUSED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa" name="a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa"></a>ALLMAPHOOK_ON_PLAYER_ENTER_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae" name="a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae"></a>ALLMAPHOOK_ON_PLAYER_LEAVE_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182" name="a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182"></a>ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0" name="a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0"></a>ALLMAPHOOK_ON_DESTROY_INSTANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02" name="a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02"></a>ALLMAPHOOK_ON_CREATE_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5" name="a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5"></a>ALLMAPHOOK_ON_DESTROY_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb" name="a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb"></a>ALLMAPHOOK_ON_MAP_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95" name="a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95"></a>ALLMAPHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a>       = 0x000,                        <span class="comment">//nothing in progress</span></div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a>  = 0x001,                        <span class="comment">//escort are in progress</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a>  = 0x002,                        <span class="comment">//escort is returning after being in combat</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a>     = 0x004                         <span class="comment">//will not proceed with waypoints before state is removed</span></div>
-<div class="line"><span class="lineno">   50</span>};</div>
-<div class="ttc" id="aa03059_html_af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6"><div class="ttname"><a href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a></div><div class="ttdeci">@ STATE_ESCORT_PAUSED</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:49</div></div>
-<div class="ttc" id="aa03059_html_af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92"><div class="ttname"><a href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a></div><div class="ttdeci">@ STATE_ESCORT_ESCORTING</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:47</div></div>
-<div class="ttc" id="aa03059_html_af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5"><div class="ttname"><a href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a></div><div class="ttdeci">@ STATE_ESCORT_NONE</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:46</div></div>
-<div class="ttc" id="aa03059_html_af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48"><div class="ttname"><a href="../../da/d9e/a03059.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a></div><div class="ttdeci">@ STATE_ESCORT_RETURNING</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:48</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a></div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_MAP_UPDATE</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:32</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_DESTROY_MAP</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:31</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a></div><div class="ttdeci">@ ALLMAPHOOK_END</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:33</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:28</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:27</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_CREATE_MAP</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:30</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_DESTROY_INSTANCE</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:29</div></div>
+<div class="ttc" id="aa03059_html_a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa"><div class="ttname"><a href="../../da/d9e/a03059.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_PLAYER_ENTER_ALL</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -193,8 +190,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1f3214457037742cde290c7511bc5bd6.html">ScriptedAI</a></li><li class="navelem"><a class="el" href="../../da/d9e/a03059.html">ScriptedEscortAI.h</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:39:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../da/d9e/a03059.html">AllMapScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

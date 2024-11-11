@@ -1,6 +1,9 @@
 var a17266 =
 [
-    [ "npc_igb_ship_crewAI", "d3/df0/a17270.html", "d3/df0/a17270" ],
-    [ "npc_igb_ship_crew", "d0/da8/a17266.html#a5f4380aba94766a6a75b97026998b881", null ],
-    [ "GetAI", "d0/da8/a17266.html#a48955817e21a01a726b50685b467c229", null ]
+    [ "CalculatePower", "d0/da8/a17266.html#a66acc23548f88c31e9fe45db76af2bcc", null ],
+    [ "Load", "d0/da8/a17266.html#a820032e169929fd9969ecf1ee2c7f1be", null ],
+    [ "PrepareSpellScript", "d0/da8/a17266.html#a49489a8e4e39735efa560f53236dfc2c", null ],
+    [ "PreventPowerGainOnHit", "d0/da8/a17266.html#a5eebe6f82a6d7306d6e232b755531939", null ],
+    [ "Register", "d0/da8/a17266.html#a67b59c096848adaad5566cbc2140da59", null ],
+    [ "Validate", "d0/da8/a17266.html#a355500a6f3bfed084030738041d0e3b9", null ]
 ];

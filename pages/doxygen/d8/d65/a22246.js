@@ -1,13 +1,12 @@
 var a22246 =
 [
-    [ "OPvPCapturePointEP_PWT", "d8/d65/a22246.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
-    [ "ChangeState", "d8/d65/a22246.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
-    [ "FillInitialWorldStates", "d8/d65/a22246.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
-    [ "HandlePlayerEnter", "d8/d65/a22246.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
-    [ "HandlePlayerLeave", "d8/d65/a22246.html#a5772e54263c613eee365856def5e74e6", null ],
-    [ "SendChangePhase", "d8/d65/a22246.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
-    [ "SummonFlightMaster", "d8/d65/a22246.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
-    [ "UpdateTowerState", "d8/d65/a22246.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
-    [ "m_FlightMasterSpawnedId", "d8/d65/a22246.html#afeefd804849b925e6d0a880d8efb5319", null ],
-    [ "m_TowerState", "d8/d65/a22246.html#a914dcbb37baf457750cfe9829d95d88c", null ]
+    [ "boss_shirrak_the_dead_watcher", "d8/d65/a22246.html#aaa6826de3b6563342b89544b38386d93", null ],
+    [ "EnterEvadeMode", "d8/d65/a22246.html#a23768629c4ab48954880c3c29099f432", null ],
+    [ "getStackCount", "d8/d65/a22246.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
+    [ "JustEngagedWith", "d8/d65/a22246.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
+    [ "JustSummoned", "d8/d65/a22246.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
+    [ "Reset", "d8/d65/a22246.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
+    [ "SpellHitTarget", "d8/d65/a22246.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
+    [ "UpdateAI", "d8/d65/a22246.html#a855505f949f53f979187abcb5b2f617f", null ],
+    [ "focusGUID", "d8/d65/a22246.html#a81a7eade42ef595c173d7828ce59ef88", null ]
 ];

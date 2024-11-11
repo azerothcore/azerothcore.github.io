@@ -1,6 +1,6 @@
 var a13114 =
 [
-    [ "PrepareSpellScript", "de/d72/a13114.html#a6a9436d744865971e635f23c2b331688", null ],
-    [ "Register", "de/d72/a13114.html#a5f8a755040c9972e1bd6f68ceacf3dff", null ],
-    [ "SetDest", "de/d72/a13114.html#a2d43c0d5230f7be2d9a33e8527fd8c02", null ]
+    [ "instance_uldaman_InstanceMapScript", "de/dfc/a13118.html", "de/dfc/a13118" ],
+    [ "instance_uldaman", "de/d72/a13114.html#a854807db729d15aa4a09aad051fe3bda", null ],
+    [ "GetInstanceScript", "de/d72/a13114.html#a672bb8b5a16d29d25a191ab90d8007b4", null ]
 ];

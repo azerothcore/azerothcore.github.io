@@ -1,6 +1,7 @@
 var a19794 =
 [
-    [ "boss_freya_healthy_sporeAI", "d0/d0d/a19798.html", "d0/d0d/a19798" ],
-    [ "boss_freya_healthy_spore", "de/ddd/a19794.html#a16633136393061aa98c7a98f535d421e", null ],
-    [ "GetAI", "de/ddd/a19794.html#ae76eb3b334f82c536f71fdcfc86e4382", null ]
+    [ "npc_ulduar_icicleAI", "de/ddd/a19794.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
+    [ "UpdateAI", "de/ddd/a19794.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
+    [ "timer1", "de/ddd/a19794.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
+    [ "timer2", "de/ddd/a19794.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
 ];

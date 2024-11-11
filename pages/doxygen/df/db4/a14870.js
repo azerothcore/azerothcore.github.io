@@ -1,14 +1,13 @@
 var a14870 =
 [
-    [ "boss_twinemperorsAI", "df/db4/a14870.html#ae0857b191dbbf086533062aee5885237", null ],
-    [ "DamageTaken", "df/db4/a14870.html#a118151851f36de9dfc22971a965cb047", null ],
-    [ "DoAction", "df/db4/a14870.html#a2b5e585749b7a59663813c7a9d56c223", null ],
-    [ "EnterEvadeMode", "df/db4/a14870.html#ab5a1b28405c38ece65f5ee145e472de8", null ],
-    [ "GetTwin", "df/db4/a14870.html#af23aa54bca9752c242e80331862ace4d", null ],
-    [ "IAmVeklor", "df/db4/a14870.html#acdccdde2ee573f51e1783ea493577258", null ],
-    [ "JustDied", "df/db4/a14870.html#a9cc74619908c2aa9f8deda2689616735", null ],
-    [ "JustEngagedWith", "df/db4/a14870.html#ab9a279e9ba3bb057268602be7368ffe4", null ],
-    [ "KilledUnit", "df/db4/a14870.html#aaa52e01bfeff824345f7b9c7346e8aef", null ],
-    [ "UpdateAI", "df/db4/a14870.html#a4d9e07fd3f682a24332d0aabe6c55f8f", null ],
-    [ "_introDone", "df/db4/a14870.html#a1b4689b0c403f7246ae100e4f716b138", null ]
+    [ "instance_wailing_caverns_InstanceMapScript", "df/db4/a14870.html#a47e596ca151268b9c3419ff2a2fffc1c", null ],
+    [ "GetData", "df/db4/a14870.html#a17e62e8fe06617868baf85caedc3a0fc", null ],
+    [ "Initialize", "df/db4/a14870.html#a870ab2322971767fa37986743b31d20c", null ],
+    [ "OnCreatureCreate", "df/db4/a14870.html#aed3807432711105589d0b060a21836cc", null ],
+    [ "ReadSaveDataMore", "df/db4/a14870.html#ad348102f71e070e7ef12da62238c7b0f", null ],
+    [ "SetData", "df/db4/a14870.html#a0333b4728e9288937711174743f19f60", null ],
+    [ "WriteSaveDataMore", "df/db4/a14870.html#a78bece51279e3f9e62800e4d80b00f64", null ],
+    [ "_encounters", "df/db4/a14870.html#a0f049806007e59363418d4e39f9e389b", null ],
+    [ "DiscipleOfNaralexGUID", "df/db4/a14870.html#affed3fb16f4e578fe86ae171e5b641d6", null ],
+    [ "SerpentisGUID", "df/db4/a14870.html#a7ba205e4988a20404f5e597331dd5d56", null ]
 ];

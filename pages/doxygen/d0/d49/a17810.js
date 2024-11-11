@@ -1,6 +1,8 @@
 var a17810 =
 [
-    [ "npc_rimefangAI", "db/d15/a17814.html", "db/d15/a17814" ],
-    [ "npc_rimefang", "d0/d49/a17810.html#af8ab4e318726b5250de56e3c6d09fcd2", null ],
-    [ "GetAI", "d0/d49/a17810.html#a2fce9c36b7ef1861c9dcb5db2cacf438", null ]
+    [ "FilterTargets", "d0/d49/a17810.html#a242fa53c2da9ac557623281bccf2af92", null ],
+    [ "HandleSendEvent", "d0/d49/a17810.html#a6120e057e2ee39d34eaeab79782add8d", null ],
+    [ "Load", "d0/d49/a17810.html#af48cdbf87d61cf6d8392f65ae4c9b18a", null ],
+    [ "PrepareSpellScript", "d0/d49/a17810.html#a0846e73f467d9c3a63b5e9a5d795aa37", null ],
+    [ "Register", "d0/d49/a17810.html#ae83950dfc35f7c1e64806d6ec273083c", null ]
 ];

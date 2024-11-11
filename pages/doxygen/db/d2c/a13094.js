@@ -1,7 +1,6 @@
 var a13094 =
 [
-    [ "HandleSchoolDamage", "db/d2c/a13094.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
-    [ "PrepareSpellScript", "db/d2c/a13094.html#a8063f3d669e07dc0768607feb9a2f763", null ],
-    [ "Register", "db/d2c/a13094.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
-    [ "Validate", "db/d2c/a13094.html#af90ae09274b0082bd8bd674ca43596f6", null ]
+    [ "instance_sunwell_plateau_InstanceMapScript", "d9/d25/a13098.html", "d9/d25/a13098" ],
+    [ "instance_sunwell_plateau", "db/d2c/a13094.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
+    [ "GetInstanceScript", "db/d2c/a13094.html#a5960785a845c87e2e1730cfd865b44b4", null ]
 ];

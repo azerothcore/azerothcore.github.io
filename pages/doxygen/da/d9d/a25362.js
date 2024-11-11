@@ -1,6 +1,6 @@
 var a25362 =
 [
-    [ "HandleSummon", "da/d9d/a25362.html#ad1ee0eb347454d50216610a266226d68", null ],
-    [ "PrepareSpellScript", "da/d9d/a25362.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
-    [ "Register", "da/d9d/a25362.html#aa145041af68291f107c3ff11ce15b85e", null ]
+    [ "HandleScript", "da/d9d/a25362.html#a382dd0eb5ebc2f5da70561eaaf1f8d3d", null ],
+    [ "PrepareSpellScript", "da/d9d/a25362.html#a4f0f4d29231ef1976d726b66f6277ca8", null ],
+    [ "Register", "da/d9d/a25362.html#ad75843039e582b64da28b4818f48aeb3", null ]
 ];

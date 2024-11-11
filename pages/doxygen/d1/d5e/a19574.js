@@ -1,6 +1,8 @@
 var a19574 =
 [
-    [ "boss_flame_leviathan_seatAI", "dd/df8/a19578.html", "dd/df8/a19578" ],
-    [ "boss_flame_leviathan_seat", "d1/d5e/a19574.html#a0fc90640a5142d889f1c043270582a16", null ],
-    [ "GetAI", "d1/d5e/a19574.html#a0e17225aeb93e0a5f5442c4ac2362af8", null ]
+    [ "FilterTargets", "d1/d5e/a19574.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
+    [ "HandleScript", "d1/d5e/a19574.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
+    [ "PrepareSpellScript", "d1/d5e/a19574.html#aea46762f43b31923617f740e0545fe98", null ],
+    [ "Register", "d1/d5e/a19574.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
+    [ "Validate", "d1/d5e/a19574.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
 ];

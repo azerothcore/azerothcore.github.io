@@ -1,6 +1,5 @@
 var a18942 =
 [
-    [ "npc_scion_of_eternityAI", "da/d9c/a18946.html", "da/d9c/a18946" ],
-    [ "npc_scion_of_eternity", "dd/d0d/a18942.html#ac1d66d65b5d4468b908443a64dc2de1c", null ],
-    [ "GetAI", "dd/d0d/a18942.html#a7c27a55f177fb9e31f73fa1cb227fa27", null ]
+    [ "achievement_split_personality", "dd/d0d/a18942.html#aac29ae7c321306a663e55493987af45d", null ],
+    [ "OnCheck", "dd/d0d/a18942.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
 ];

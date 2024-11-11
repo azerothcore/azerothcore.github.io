@@ -1,7 +1,8 @@
 var a26458 =
 [
-    [ "HandleDummy", "de/d10/a26458.html#abd35c974f5ebec4c8845c05ab4f6d309", null ],
-    [ "PrepareSpellScript", "de/d10/a26458.html#a99deca1c5c8631342be400cb863eefb2", null ],
-    [ "Register", "de/d10/a26458.html#aa5ecc51b030fe7280e824ade641216d3", null ],
-    [ "Validate", "de/d10/a26458.html#a731503d3769718695d109ad71160e67a", null ]
+    [ "CheckProc", "de/d10/a26458.html#a610313f5085c7c0109b5936e94de00fe", null ],
+    [ "OnProc", "de/d10/a26458.html#ad87c4cbd332dc19be3bc8ec9982a385b", null ],
+    [ "PrepareAuraScript", "de/d10/a26458.html#aae4d26e262f80681811c9b50c2a63642", null ],
+    [ "Register", "de/d10/a26458.html#a8fdcd2b4489011294d9f58d5ff0beb3f", null ],
+    [ "Validate", "de/d10/a26458.html#a00ef3cd4b2ee5739f5f7288ccbd6a1c6", null ]
 ];

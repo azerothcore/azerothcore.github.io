@@ -1,6 +1,8 @@
 var a19614 =
 [
-    [ "npc_mimirons_infernoAI", "d3/d95/a19618.html", "d3/d95/a19618" ],
-    [ "npc_mimirons_inferno", "db/dd8/a19614.html#a7a531a65a179b5d56c888c055b72d269", null ],
-    [ "GetAI", "db/dd8/a19614.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
+    [ "HandleOnEffectApply", "db/dd8/a19614.html#a83ff54727e886161c5568a60833932d1", null ],
+    [ "HandleOnEffectRemove", "db/dd8/a19614.html#a9e48d1c9dc26f882ee685a2cbf59667e", null ],
+    [ "PrepareAuraScript", "db/dd8/a19614.html#a5ec8ffeceae335423dff10f54e096e8a", null ],
+    [ "Register", "db/dd8/a19614.html#ae07af138c6f9c565799574b4f8343492", null ],
+    [ "Validate", "db/dd8/a19614.html#a3a24a25c9b9b118d20ca2b14fbfc5869", null ]
 ];

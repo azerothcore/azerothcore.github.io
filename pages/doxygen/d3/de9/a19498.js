@@ -1,12 +1,12 @@
 var a19498 =
 [
-    [ "npc_assembly_lightningAI", "d3/de9/a19498.html#a4b778b6545e7c93e66a07160db793651", null ],
-    [ "AttackStart", "d3/de9/a19498.html#afd4657e8c6a2eb39346e99cb54a7ab1a", null ],
-    [ "EnterEvadeMode", "d3/de9/a19498.html#a4c0bb838053412a3945648ed1a5a13b9", null ],
-    [ "MoveInLineOfSight", "d3/de9/a19498.html#a077f788e67cdb67683ac13f3a3d1322b", null ],
-    [ "MovementInform", "d3/de9/a19498.html#a95227f93c5ac6871bfcea603ebb2188d", null ],
-    [ "OnCharmed", "d3/de9/a19498.html#aa08e4c286723c76251bd75aa54b24f5f", null ],
-    [ "Reset", "d3/de9/a19498.html#a1f03885bfd91d9b9cdde1d90b51d2c96", null ],
-    [ "UpdateAI", "d3/de9/a19498.html#a94edd1ea5278bd5ca8d5d64619e9c8b4", null ],
-    [ "_boomed", "d3/de9/a19498.html#aa6b4a46674a7d4106a49ef308ec27b9e", null ]
+    [ "npc_freya_wardAI", "d3/de9/a19498.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
+    [ "DoAction", "d3/de9/a19498.html#a4c9418b5474eb572a76168d4a460159a", null ],
+    [ "JustSummoned", "d3/de9/a19498.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
+    [ "Reset", "d3/de9/a19498.html#a65d304edd3b00b4a45c58bf36b926900", null ],
+    [ "SummonedCreatureDespawn", "d3/de9/a19498.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
+    [ "UpdateAI", "d3/de9/a19498.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
+    [ "_castTimer", "d3/de9/a19498.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
+    [ "_summoned", "d3/de9/a19498.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
+    [ "summons", "d3/de9/a19498.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
 ];

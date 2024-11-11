@@ -1,7 +1,6 @@
 var a13322 =
 [
-    [ "npc_greengill_slaveAI", "d5/dac/a13322.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "JustEngagedWith", "d5/dac/a13322.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
-    [ "SpellHit", "d5/dac/a13322.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "d5/dac/a13322.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "npc_highborne_lamenterAI", "dd/d3d/a13326.html", "dd/d3d/a13326" ],
+    [ "npc_highborne_lamenter", "d5/dac/a13322.html#a40316cf73a688e34e95dd41feef8612a", null ],
+    [ "GetAI", "d5/dac/a13322.html#aad8ccb43b325b797f60a16e338458a1e", null ]
 ];

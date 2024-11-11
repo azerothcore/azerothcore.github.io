@@ -1,14 +1,6 @@
 var a23822 =
 [
-    [ "npc_maghar_captiveAI", "d9/d9b/a23822.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
-    [ "JustDied", "d9/d9b/a23822.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
-    [ "JustEngagedWith", "d9/d9b/a23822.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
-    [ "JustSummoned", "d9/d9b/a23822.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
-    [ "Reset", "d9/d9b/a23822.html#abebcdcb102f8d338ae0b792708940cd7", null ],
-    [ "SpellHitTarget", "d9/d9b/a23822.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
-    [ "UpdateAI", "d9/d9b/a23822.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
-    [ "WaypointReached", "d9/d9b/a23822.html#abfbba8942df57e974ab24ad693c16e70", null ],
-    [ "ChainLightningTimer", "d9/d9b/a23822.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
-    [ "FrostShockTimer", "d9/d9b/a23822.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
-    [ "HealTimer", "d9/d9b/a23822.html#a31613adba706f3b5f948f2f7c4222038", null ]
+    [ "npc_dragonmaw_peonAI", "dc/d3e/a23826.html", "dc/d3e/a23826" ],
+    [ "npc_dragonmaw_peon", "d9/d9b/a23822.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "d9/d9b/a23822.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

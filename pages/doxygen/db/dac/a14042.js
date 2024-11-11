@@ -1,11 +1,5 @@
 var a14042 =
 [
-    [ "npc_snowfall_glade_playmate", "db/dac/a14042.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
-    [ "MoveInLineOfSight", "db/dac/a14042.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
-    [ "Reset", "db/dac/a14042.html#a89040d9843852b01123e102b49509857", null ],
-    [ "UpdateAI", "db/dac/a14042.html#a6dedc1cae1e568a792341842e8a922e8", null ],
-    [ "orphanGUID", "db/dac/a14042.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
-    [ "phase", "db/dac/a14042.html#a9a5b2348313063bc389b99158fc72e3f", null ],
-    [ "playerGUID", "db/dac/a14042.html#a4ca4198fdbf3c98291255916ee53c637", null ],
-    [ "timer", "db/dac/a14042.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
+    [ "MidsummerPlayerScript", "db/dac/a14042.html#ace19c3dfaec5aa5bdfab46552a759306", null ],
+    [ "OnUpdateZone", "db/dac/a14042.html#af9b22522b5e3f9530482861f932c5489", null ]
 ];

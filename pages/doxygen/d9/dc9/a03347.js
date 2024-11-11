@@ -1,4 +1,5 @@
 var a03347 =
 [
-    [ "ScriptRegistry< GameObjectScript >", "d9/dc9/a03347.html#ae9014c60529a1387cccce404773fd736", null ]
+    [ "SmartScript", "dc/d71/a06146.html", "dc/d71/a06146" ],
+    [ "SmartScript::SmartScriptFrame", "d6/d30/a06150.html", "d6/d30/a06150" ]
 ];

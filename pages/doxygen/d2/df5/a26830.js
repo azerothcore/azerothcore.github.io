@@ -1,6 +1,5 @@
 var a26830 =
 [
-    [ "AreaTrigger_at_area_52_entrance", "d2/df5/a26830.html#a5b7e21903bca1c04bad1394c6965d032", null ],
-    [ "OnTrigger", "d2/df5/a26830.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
-    [ "_triggerTimes", "d2/df5/a26830.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
+    [ "go_resonite_cask", "d2/df5/a26830.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "d2/df5/a26830.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

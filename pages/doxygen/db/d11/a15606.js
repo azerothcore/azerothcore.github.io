@@ -1,11 +1,7 @@
 var a15606 =
 [
-    [ "spell_hadronox_summon_periodic_aura", "db/d11/a15606.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
-    [ "HandlePeriodic", "db/d11/a15606.html#a048695baf71d307e5aaa00e54586c9f7", null ],
-    [ "OnApply", "db/d11/a15606.html#a4466547bc1a5259a33354f2008d6cce7", null ],
-    [ "PrepareAuraScript", "db/d11/a15606.html#a4205560054e5baed86aecba3b98fc202", null ],
-    [ "Register", "db/d11/a15606.html#a09efdcddaed4af2833139ca20ef94376", null ],
-    [ "Validate", "db/d11/a15606.html#a20827683249c17625242e205bb51f9e8", null ],
-    [ "_delay", "db/d11/a15606.html#a191d7eec948e0753835bd41eef66f1ec", null ],
-    [ "_spellEntry", "db/d11/a15606.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
+    [ "DelayedTalk", "db/d11/a15606.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
+    [ "Execute", "db/d11/a15606.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
+    [ "_owner", "db/d11/a15606.html#a9d13769bb3fbaed32919fc919da35006", null ],
+    [ "_talkId", "db/d11/a15606.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
 ];

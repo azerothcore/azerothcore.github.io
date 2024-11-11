@@ -1,6 +1,6 @@
 var a15238 =
 [
-    [ "SpellId", "d3/d76/a15238.html#a2c430be201c1fd866ee96224f1803a20", null ],
-    [ "Timer1", "d3/d76/a15238.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
-    [ "Timer2", "d3/d76/a15238.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
+    [ "npc_twiggy_flatheadAI", "da/d64/a15242.html", "da/d64/a15242" ],
+    [ "npc_twiggy_flathead", "d3/d76/a15238.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
+    [ "GetAI", "d3/d76/a15238.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
 ];

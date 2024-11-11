@@ -1,6 +1,8 @@
 var a14066 =
 [
-    [ "HandleScript", "d9/d1d/a14066.html#a4077b809530d28bed0a9419b5a745f42", null ],
-    [ "PrepareSpellScript", "d9/d1d/a14066.html#a97eb6d1fcdcf0628433e5bec68785932", null ],
-    [ "Register", "d9/d1d/a14066.html#ac09b1c86655eef0febaccff86533b28f", null ]
+    [ "OnApply", "d9/d1d/a14066.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
+    [ "OnRemove", "d9/d1d/a14066.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
+    [ "PrepareAuraScript", "d9/d1d/a14066.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
+    [ "Register", "d9/d1d/a14066.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
+    [ "Validate", "d9/d1d/a14066.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
 ];

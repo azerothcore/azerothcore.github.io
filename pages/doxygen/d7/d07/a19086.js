@@ -1,13 +1,8 @@
 var a19086 =
 [
-    [ "boss_drakosAI", "d7/d07/a19086.html#a75d771095897081457353be898b332c3", null ],
-    [ "JustDied", "d7/d07/a19086.html#a7235760bd407f49802bc9e26e8f3f22c", null ],
-    [ "JustEngagedWith", "d7/d07/a19086.html#a4bc15075d9e9a913783da482a7a167c7", null ],
-    [ "JustSummoned", "d7/d07/a19086.html#a06e21c4e5bd1a882ada074b9595d4088", null ],
-    [ "KilledUnit", "d7/d07/a19086.html#a4bd3e45b45660311d7510f58a1850648", null ],
-    [ "MoveInLineOfSight", "d7/d07/a19086.html#a10b2ca39887e906e6e1e33df82afc1da", null ],
-    [ "Reset", "d7/d07/a19086.html#a6fd78f4f45b9f2104acc481fb0f2763f", null ],
-    [ "UpdateAI", "d7/d07/a19086.html#abf761c7cda4031c31354d8c8d42963e0", null ],
-    [ "events", "d7/d07/a19086.html#ae86ad4fcc57cc1137411c881355f2f51", null ],
-    [ "pInstance", "d7/d07/a19086.html#adc9461ae5334634a9140f338547688b4", null ]
+    [ "HandleEffectPeriodic", "d7/d07/a19086.html#abb453e3d38677be7082f2cd4e43134cc", null ],
+    [ "HandleOnEffectApply", "d7/d07/a19086.html#a3ec47d5d9fdbdcfe671e02c3b0f55980", null ],
+    [ "PrepareAuraScript", "d7/d07/a19086.html#ac00c6d9b1cccb38b5d87b3139295614c", null ],
+    [ "Register", "d7/d07/a19086.html#ae4de4f0f2f4dc4ac98706ddd898df7c5", null ],
+    [ "Validate", "d7/d07/a19086.html#a09481646f8ec90b0135d93d83cc18929", null ]
 ];

@@ -1,6 +1,6 @@
 var a22666 =
 [
-    [ "boss_essence_of_angerAI", "d7/de0/a22670.html", "d7/de0/a22670" ],
-    [ "boss_essence_of_anger", "d7/d94/a22666.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "d7/d94/a22666.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "HandleDummy", "d7/d94/a22666.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
+    [ "PrepareSpellScript", "d7/d94/a22666.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
+    [ "Register", "d7/d94/a22666.html#a972574075c86c32593982add71dc893f", null ]
 ];

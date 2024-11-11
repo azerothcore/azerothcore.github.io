@@ -1,17 +1,7 @@
 var a03710 =
 [
-    [ "Petition", "d5/de8/a09850.html", "d5/de8/a09850" ],
-    [ "Signatures", "da/d98/a09854.html", "da/d98/a09854" ],
-    [ "PetitionMgr", "d8/dfa/a09858.html", "d8/dfa/a09858" ],
-    [ "CHARTER_DISPLAY_ID", "d5/d46/a03710.html#a33856c1d078b61fa0516a63176297c49", null ],
-    [ "sPetitionMgr", "d5/d46/a03710.html#a2910b9c8b8c58925b562acf66b3e46d2", null ],
-    [ "PetitionContainer", "d5/d46/a03710.html#a223a8d1b8f865a0d4e8f100758e36bce", null ],
-    [ "SignatureContainer", "d5/d46/a03710.html#a541d3cf929662ff3a4ab97f63d54b16f", null ],
-    [ "SignatureMap", "d5/d46/a03710.html#a52c6b38c9d018efa6f8a95153a0eb2b5", null ],
-    [ "CharterItemIDs", "d5/d46/a03710.html#acec0915ab4c4246cd1eda0ddd63d47bb", [
-      [ "GUILD_CHARTER", "d5/d46/a03710.html#acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d", null ],
-      [ "ARENA_TEAM_CHARTER_2v2", "d5/d46/a03710.html#acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27", null ],
-      [ "ARENA_TEAM_CHARTER_3v3", "d5/d46/a03710.html#acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470", null ],
-      [ "ARENA_TEAM_CHARTER_5v5", "d5/d46/a03710.html#acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37", null ]
-    ] ]
+    [ "ArenaTeamMgr", "d8/d33/a07038.html", "d8/d33/a07038" ],
+    [ "sArenaTeamMgr", "d5/d46/a03710.html#a94afc7262fb2f00293dc80de8ba547df", null ],
+    [ "MAX_ARENA_TEAM_ID", "d5/d46/a03710.html#aa472ba6cfd587021965aece0e77797b7", null ],
+    [ "MAX_TEMP_ARENA_TEAM_ID", "d5/d46/a03710.html#ade4bc52db611f6481d3c8f5e6f346b4c", null ]
 ];

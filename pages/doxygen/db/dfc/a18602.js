@@ -1,9 +1,12 @@
 var a18602 =
 [
-    [ "npc_isle_of_conquest_turretAI", "db/dfc/a18602.html#a0a0f24af22e4c72e843970c0d5c1ff87", null ],
-    [ "JustDied", "db/dfc/a18602.html#a88390da94298bea9c445bb422a806d23", null ],
-    [ "SpellHit", "db/dfc/a18602.html#afc8b8a9be6b0908fcb83af57bef7a57a", null ],
-    [ "UpdateAI", "db/dfc/a18602.html#a81c039a2a230b261967842161757b6f8", null ],
-    [ "events", "db/dfc/a18602.html#aee0aa5a950b3743409fd3ae482bc94b8", null ],
-    [ "faction", "db/dfc/a18602.html#aca941c070a97278c8ec27d7e6b4edede", null ]
+    [ "npc_boss_gothik_minionAI", "db/dfc/a18602.html#aa719d87c65294fc483b424b125619a10", null ],
+    [ "IsOnSameSide", "db/dfc/a18602.html#a7d305be5e3d66c1317fa91e588223da0", null ],
+    [ "JustDied", "db/dfc/a18602.html#a752b6eab9cf1b016962c6f535586b59d", null ],
+    [ "JustEngagedWith", "db/dfc/a18602.html#ad86778d5a0e883a839b4a43425a57d7f", null ],
+    [ "KilledUnit", "db/dfc/a18602.html#a6a09440d623dcee51b7e0d4ed77d624e", null ],
+    [ "Reset", "db/dfc/a18602.html#a309401236c254cd850759a0cbb4004e0", null ],
+    [ "UpdateAI", "db/dfc/a18602.html#a43744e96be00d8bc0afc34a570e79947", null ],
+    [ "events", "db/dfc/a18602.html#ae2dde7b4fc655b1ae27410d299776c49", null ],
+    [ "livingSide", "db/dfc/a18602.html#a2545d00e04bae9ee0a1bf9f9d6162c74", null ]
 ];

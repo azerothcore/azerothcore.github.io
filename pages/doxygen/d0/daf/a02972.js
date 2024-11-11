@@ -1,5 +1,6 @@
 var a02972 =
 [
-    [ "TotemAI", "d0/da6/a06022.html", "d0/da6/a06022" ],
-    [ "KillMagnetEvent", "d0/dbe/a06026.html", "d0/dbe/a06026" ]
+    [ "PointMovementGenerator< T >", "d9/d0b/a09710.html", "d9/d0b/a09710" ],
+    [ "AssistanceMovementGenerator", "da/d38/a09714.html", "da/d38/a09714" ],
+    [ "EffectMovementGenerator", "df/d60/a09718.html", "df/d60/a09718" ]
 ];

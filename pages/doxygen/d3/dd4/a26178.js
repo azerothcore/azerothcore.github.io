@@ -1,6 +1,7 @@
 var a26178 =
 [
-    [ "OnApply", "d3/dd4/a26178.html#a50ced6d5a475ccad9429dfbb05130394", null ],
-    [ "PrepareAuraScript", "d3/dd4/a26178.html#abd02e129b1201449d473a66aea77d569", null ],
-    [ "Register", "d3/dd4/a26178.html#a8c09775f642335252c6e548900dc9d3a", null ]
+    [ "CalcPeriodic", "d3/dd4/a26178.html#af787d0c8738284e757f808e7d138bdc6", null ],
+    [ "PrepareAuraScript", "d3/dd4/a26178.html#a383db196133bbecee06fe443fdb1bc24", null ],
+    [ "Register", "d3/dd4/a26178.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
+    [ "Update", "d3/dd4/a26178.html#af3f4a7b82e099313d609df7f85f02d00", null ]
 ];

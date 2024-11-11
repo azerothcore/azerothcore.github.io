@@ -1,6 +1,7 @@
 var a26062 =
 [
-    [ "CheckRequirement", "d1/dfd/a26062.html#acaae3858de4d56028e3cb4581a57450c", null ],
-    [ "PrepareSpellScript", "d1/dfd/a26062.html#aa1013bb1b09aae7b691b6325c8e7a405", null ],
-    [ "Register", "d1/dfd/a26062.html#aa490168c69f9ba5c12db3171516dd8ac", null ]
+    [ "HandleScriptEffect", "d1/dfd/a26062.html#ae7bfcdf3306fe4c8532649ff7e892c57", null ],
+    [ "PrepareSpellScript", "d1/dfd/a26062.html#ad2bfab00a973366af32388e40b9d2566", null ],
+    [ "Register", "d1/dfd/a26062.html#acbf74d85d9d8ce8e9ce0546c90cb7efa", null ],
+    [ "Validate", "d1/dfd/a26062.html#a487fa0e6b5f2682349b22737ceeae50c", null ]
 ];

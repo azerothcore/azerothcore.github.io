@@ -1,10 +1,11 @@
 var a23466 =
 [
-    [ "boss_harbinger_skyriss", "d5/d55/a23466.html#a245179f74d61c2671b397e8f2473b599", null ],
-    [ "EnterEvadeMode", "d5/d55/a23466.html#a873413da06569343225e6659f8277b2c", null ],
-    [ "JustDied", "d5/d55/a23466.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
-    [ "JustEngagedWith", "d5/d55/a23466.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
-    [ "JustSummoned", "d5/d55/a23466.html#a97d84139a3e970e22d7d422f2f825f12", null ],
-    [ "KilledUnit", "d5/d55/a23466.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
-    [ "Reset", "d5/d55/a23466.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
+    [ "npc_capernian", "d5/d55/a23466.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "d5/d55/a23466.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "d5/d55/a23466.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "d5/d55/a23466.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "d5/d55/a23466.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "d5/d55/a23466.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "d5/d55/a23466.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "d5/d55/a23466.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

@@ -1,8 +1,7 @@
 var a26022 =
 [
-    [ "HandleDummy", "dc/ddf/a26022.html#ae396c96647e36da357bdc70e11e3145f", null ],
-    [ "Load", "dc/ddf/a26022.html#a2b4811bf7e60361e13bc382e62173cee", null ],
-    [ "PrepareSpellScript", "dc/ddf/a26022.html#ac97d07fb0d964bf3fb29d8bee57fc8e7", null ],
-    [ "Register", "dc/ddf/a26022.html#a7c6aa891b012a0e1820fbe67976d68fd", null ],
-    [ "count", "dc/ddf/a26022.html#a73358b2272ad12faef006b1ef633cac0", null ]
+    [ "HandleDummy", "dc/ddf/a26022.html#ad2367c1fd551187b6f19f795abb15ea6", null ],
+    [ "PrepareSpellScript", "dc/ddf/a26022.html#a125f7550ce826f74ac14902bc82d5021", null ],
+    [ "Register", "dc/ddf/a26022.html#a35e9132e2414383caafbde699de6061d", null ],
+    [ "Validate", "dc/ddf/a26022.html#a530489a10287a6dd281d518683b1a3f3", null ]
 ];

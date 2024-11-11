@@ -1,6 +1,7 @@
 var a25030 =
 [
-    [ "CheckRequirement", "de/d69/a25030.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "de/d69/a25030.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "de/d69/a25030.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "HandleScriptEffect", "de/d69/a25030.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "de/d69/a25030.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "de/d69/a25030.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "de/d69/a25030.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

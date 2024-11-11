@@ -1,6 +1,7 @@
 var a26214 =
 [
-    [ "PrepareSpellScript", "df/db9/a26214.html#a882d87de64d0e2c64b17c26d9e40d616", null ],
-    [ "Register", "df/db9/a26214.html#ab58938808e460e843e42f2b6fa644e8a", null ],
-    [ "SetDest", "df/db9/a26214.html#ab87932c73a2e53647bda584aeb58f789", null ]
+    [ "HandleEffectPeriodic", "df/db9/a26214.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
+    [ "PrepareAuraScript", "df/db9/a26214.html#ae151331af09510cc91b63b65a30bdcbf", null ],
+    [ "Register", "df/db9/a26214.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
+    [ "Validate", "df/db9/a26214.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
 ];

@@ -1,6 +1,8 @@
 var a14738 =
 [
-    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d6/da2/a14742.html", "d6/da2/a14742" ],
-    [ "instance_ruins_of_ahnqiraj", "d3/de6/a14738.html#adeacb1c68e4b12995a335d1bedde075a", null ],
-    [ "GetInstanceScript", "d3/de6/a14738.html#a6a661e961c2599498de0ccd41c0763b4", null ]
+    [ "npc_ouro_spawner", "d3/de6/a14738.html#acb18739e5a1734312ffdda35321e5f34", null ],
+    [ "JustSummoned", "d3/de6/a14738.html#a722dada5bf97c730462a0de2b082d5ff", null ],
+    [ "MoveInLineOfSight", "d3/de6/a14738.html#a83c0972db4435ccf1af069574e4056f4", null ],
+    [ "Reset", "d3/de6/a14738.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
+    [ "hasSummoned", "d3/de6/a14738.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
 ];

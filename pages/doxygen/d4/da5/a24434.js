@@ -1,7 +1,7 @@
 var a24434 =
 [
-    [ "AfterApply", "d4/da5/a24434.html#aee69eceead7e31cce2638ff252f6653d", null ],
-    [ "AfterRemove", "d4/da5/a24434.html#ad53d25cc04f1b6cc1f3d0a8d9fc69a89", null ],
-    [ "PrepareAuraScript", "d4/da5/a24434.html#a0ccde960cb328cd1c72b2504376e92b4", null ],
-    [ "Register", "d4/da5/a24434.html#ab5f8afbfa688ebd548a5508543498b55", null ]
+    [ "CalculateAmount", "d4/da5/a24434.html#ab705e67f7abb72a13dfd32e7a6da4561", null ],
+    [ "Load", "d4/da5/a24434.html#ac87f1c7ccb9aa9985d538c9d8611c850", null ],
+    [ "PrepareAuraScript", "d4/da5/a24434.html#ae4a75ef8bc755c8220b768d5ac87a728", null ],
+    [ "Register", "d4/da5/a24434.html#a636331452bc95a4434f1b85e85ea6e7b", null ]
 ];

@@ -1,5 +1,7 @@
 var a16922 =
 [
-    [ "achievement_less_rabi", "d8/d8a/a16922.html#aee43dd7623f7fecc20a0acb15f342a99", null ],
-    [ "OnCheck", "d8/d8a/a16922.html#a16b200bf93fa2571c8b31359ad7ca151", null ]
+    [ "HandleScript", "d8/d8a/a16922.html#a4b1e392acea30a9259e65a75667704c5", null ],
+    [ "Load", "d8/d8a/a16922.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
+    [ "PrepareSpellScript", "d8/d8a/a16922.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
+    [ "Register", "d8/d8a/a16922.html#a77632d11a172e5552c0c49de830a1639", null ]
 ];

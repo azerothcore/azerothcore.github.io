@@ -1,6 +1,6 @@
 var a20534 =
 [
-    [ "boss_yoggsaron_brainAI", "d9/d9e/a20538.html", "d9/d9e/a20538" ],
-    [ "boss_yoggsaron_brain", "d0/d57/a20534.html#a8094e2a062f06c5a954c1d3401ca18d4", null ],
-    [ "GetAI", "d0/d57/a20534.html#a02e6b07087765d75d0f49b864e2f323f", null ]
+    [ "FilterTargets", "d0/d57/a20534.html#adaeee235184ddc36e90e532091183056", null ],
+    [ "PrepareSpellScript", "d0/d57/a20534.html#a599f604e872d3a5a4ed2b155caefdc9f", null ],
+    [ "Register", "d0/d57/a20534.html#ab79041a2536878498744555475bce5c8", null ]
 ];

@@ -1,6 +1,7 @@
 var a23726 =
 [
-    [ "npc_nether_drakeAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
-    [ "npc_nether_drake", "d0/d4f/a23726.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "d0/d4f/a23726.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "npc_kurenai_captiveAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
+    [ "npc_kurenai_captive", "d0/d4f/a23726.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
+    [ "GetAI", "d0/d4f/a23726.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
+    [ "OnQuestAccept", "d0/d4f/a23726.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
 ];

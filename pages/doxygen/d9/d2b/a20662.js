@@ -1,8 +1,5 @@
 var a20662 =
 [
-    [ "Absorb", "d9/d2b/a20662.html#a36a7237d7bcd50626e7a07a32c91cfb4", null ],
-    [ "CalculateAmount", "d9/d2b/a20662.html#afe50bf22d07e68757caffb056ad55811", null ],
-    [ "PrepareAuraScript", "d9/d2b/a20662.html#afa4ef1f7faa36a521c208dde10d09437", null ],
-    [ "Register", "d9/d2b/a20662.html#aae020936d42da81c445f7d296660987b", null ],
-    [ "Validate", "d9/d2b/a20662.html#a5852135c5214ee3938603632b0f21917", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "d9/d2b/a20662.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "d9/d2b/a20662.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

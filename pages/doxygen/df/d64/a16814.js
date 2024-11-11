@@ -1,6 +1,6 @@
 var a16814 =
 [
-    [ "HandleDummy", "df/d64/a16814.html#aef592aafe931351186edf98f7aba7e22", null ],
-    [ "PrepareSpellScript", "df/d64/a16814.html#ab79a160e0d5b0c6e0ecfa842a4da2819", null ],
-    [ "Register", "df/d64/a16814.html#a7594952f23cba22b886c2c3b10f363d4", null ]
+    [ "HandlePeriodic", "df/d64/a16814.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
+    [ "PrepareAuraScript", "df/d64/a16814.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
+    [ "Register", "df/d64/a16814.html#a9753daf5cdc812e9027c1153b450686d", null ]
 ];

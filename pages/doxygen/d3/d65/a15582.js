@@ -1,6 +1,8 @@
 var a15582 =
 [
-    [ "HandleApplyAura", "d3/d65/a15582.html#aeddfd61eab5aa077ca07a924ec491285", null ],
-    [ "PrepareSpellScript", "d3/d65/a15582.html#ad53341842455d98722c03318dd80fb94", null ],
-    [ "Register", "d3/d65/a15582.html#a10cb03ba6175f48b0ccaf69ec90e8f50", null ]
+    [ "npc_twilight_summonAI", "d3/d65/a15582.html#a8f5dfe54a5ac1d7a058c5efb9bead77a", null ],
+    [ "DoAction", "d3/d65/a15582.html#aac4c1e3bc635b30f1ceed8b25f2c7829", null ],
+    [ "Reset", "d3/d65/a15582.html#a1174c827aef1b05603214e4717c78f8a", null ],
+    [ "UpdateAI", "d3/d65/a15582.html#addb312c34c668b8189087de6cf89543b", null ],
+    [ "fadeArmorTimer", "d3/d65/a15582.html#ace4028c8f4d0240b4e2939481312d0d2", null ]
 ];

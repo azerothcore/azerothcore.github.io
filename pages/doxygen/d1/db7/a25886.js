@@ -1,9 +1,8 @@
 var a25886 =
 [
-    [ "CheckCast", "d1/db7/a25886.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
-    [ "HandleTriggerSpellHit", "d1/db7/a25886.html#aca027bb2995456bfcedd33c06966eb88", null ],
-    [ "HandleTriggerSpellLaunch", "d1/db7/a25886.html#aa67bf9f81086a3837037d67306979072", null ],
-    [ "PrepareSpellScript", "d1/db7/a25886.html#a9247b5f3a376bebdcf857565b5049944", null ],
-    [ "Register", "d1/db7/a25886.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
-    [ "Validate", "d1/db7/a25886.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
+    [ "HandleEffectApply", "d1/db7/a25886.html#aed959961fcd07649cd4914fcd38a3214", null ],
+    [ "if", "d1/db7/a25886.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
+    [ "PrepareAuraScript", "d1/db7/a25886.html#a42167bc6bf7992debea8582680251da4", null ],
+    [ "Register", "d1/db7/a25886.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
+    [ "AuraEffectHandleModes", "d1/db7/a25886.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
 ];

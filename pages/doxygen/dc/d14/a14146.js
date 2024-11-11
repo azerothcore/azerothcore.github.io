@@ -1,5 +1,7 @@
 var a14146 =
 [
-    [ "MidsummerPlayerScript", "dc/d14/a14146.html#ace19c3dfaec5aa5bdfab46552a759306", null ],
-    [ "OnUpdateZone", "dc/d14/a14146.html#af9b22522b5e3f9530482861f932c5489", null ]
+    [ "HandleScript", "dc/d14/a14146.html#adc8ab610e3b816dcce57fe44b6585bdb", null ],
+    [ "PrepareSpellScript", "dc/d14/a14146.html#a05059d25127cd8d3aa51e4374963f9d9", null ],
+    [ "Register", "dc/d14/a14146.html#aabe7d4213bbafdb6d072ba50bcfd1793", null ],
+    [ "Validate", "dc/d14/a14146.html#aa1e74de390a8b71e43e43664981a36ff", null ]
 ];

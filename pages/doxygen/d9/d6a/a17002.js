@@ -1,14 +1,7 @@
 var a17002 =
 [
-    [ "npc_ball_of_flameAI", "d9/d6a/a17002.html#a90314990bc6404bf2a4005bb94213926", null ],
-    [ "AttackStart", "d9/d6a/a17002.html#a34d51c96005f620c0010948acb6c89ec", null ],
-    [ "DamageDealt", "d9/d6a/a17002.html#aa8c7917d0a62930cd0fbdf6197aac523", null ],
-    [ "DoAction", "d9/d6a/a17002.html#ac589db56562987de5bbed27a2bead49f", null ],
-    [ "MoveInLineOfSight", "d9/d6a/a17002.html#a7bb96de89b9dc6b6f97443e9aec3ad61", null ],
-    [ "MovementInform", "d9/d6a/a17002.html#ab18870c29224fc3fa5e7b76c1aa981f4", null ],
-    [ "SetGUID", "d9/d6a/a17002.html#a809a33d832264eba92bf0847222bd23a", null ],
-    [ "_chaseGUID", "d9/d6a/a17002.html#a30dc40f8922f8f34d6ad7ec3053413e4", null ],
-    [ "_exploded", "d9/d6a/a17002.html#a724de41f7b14755d704d5de335da380b", null ],
-    [ "_instance", "d9/d6a/a17002.html#af5d8717572176409eca01ae214910c7f", null ],
-    [ "_started", "d9/d6a/a17002.html#a508a5e3f0acafa98956bba6eb41f28fb", null ]
+    [ "achievement_once_bitten_twice_shy", "d9/d6a/a17002.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
+    [ "OnCheck", "d9/d6a/a17002.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
+    [ "_spawnMode", "d9/d6a/a17002.html#a6f02f5ab07143ddff553279049714902", null ],
+    [ "_wasVampire", "d9/d6a/a17002.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
 ];

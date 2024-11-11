@@ -1,6 +1,6 @@
 var a19242 =
 [
-    [ "CalculateDamage", "d5/dea/a19242.html#ae38f8cfb44de2798d7a284c942617678", null ],
-    [ "PrepareSpellScript", "d5/dea/a19242.html#a043955d56e0ae4c54d70e8fe6e417dd1", null ],
-    [ "Register", "d5/dea/a19242.html#ab4b32d2db39c8d9079a83c89d63ccd93", null ]
+    [ "dark_rune_protectorsAI", "de/dcd/a19246.html", "de/dcd/a19246" ],
+    [ "dark_rune_protectors", "d5/dea/a19242.html#a14225a2369a8deea416fc640a2d7b075", null ],
+    [ "GetAI", "d5/dea/a19242.html#a359e4049b7ec828177d9a36d23e9b4ef", null ]
 ];

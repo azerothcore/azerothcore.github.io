@@ -1,5 +1,7 @@
 var a18526 =
 [
-    [ "npc_icc_buff_switcher", "d0/d5e/a18526.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
-    [ "OnGossipSelect", "d0/d5e/a18526.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
+    [ "OnRemove", "d0/d5e/a18526.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "d0/d5e/a18526.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "d0/d5e/a18526.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "d0/d5e/a18526.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

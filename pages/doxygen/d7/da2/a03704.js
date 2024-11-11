@@ -1,12 +1,21 @@
 var a03704 =
 [
-    [ "InstancePlayerBind", "dc/d37/a09294.html", "dc/d37/a09294" ],
-    [ "BoundInstancesMapWrapper", "d8/db6/a09298.html", "d8/db6/a09298" ],
-    [ "InstanceSave", "dc/d65/a09302.html", "dc/d65/a09302" ],
-    [ "InstanceSaveMgr", "df/d6f/a09306.html", "df/d6f/a09306" ],
-    [ "InstanceSaveMgr::InstResetEvent", "d8/d60/a09310.html", "d8/d60/a09310" ],
-    [ "sInstanceSaveMgr", "d7/da2/a03704.html#ae1d3c96dbd749e40f06799fa52eeb9a2", null ],
-    [ "BoundInstancesMap", "d7/da2/a03704.html#aaa779bf09b703eb355cb51ac3481a19e", null ],
-    [ "PlayerBindStorage", "d7/da2/a03704.html#a2e2e3e31db4cc3be56b24e732c84106b", null ],
-    [ "ResetTimeByMapDifficultyMap", "d7/da2/a03704.html#aecf15b673beb714ef0acaa3bac23696a", null ]
+    [ "Arena", "d3/de9/a07014.html", "d3/de9/a07014" ],
+    [ "ArenaBroadcastTexts", "d7/da2/a03704.html#a407f2036481e3d9e2def3daa50546c71", [
+      [ "ARENA_TEXT_START_ONE_MINUTE", "d7/da2/a03704.html#a407f2036481e3d9e2def3daa50546c71a12b484d249dd320cfc39bdf39279d854", null ],
+      [ "ARENA_TEXT_START_THIRTY_SECONDS", "d7/da2/a03704.html#a407f2036481e3d9e2def3daa50546c71a49cdd0c5a035f182212d6fe53a1e2084", null ],
+      [ "ARENA_TEXT_START_FIFTEEN_SECONDS", "d7/da2/a03704.html#a407f2036481e3d9e2def3daa50546c71a96636e959a178535f5d886c81ec6a8d9", null ],
+      [ "ARENA_TEXT_START_BATTLE_HAS_BEGUN", "d7/da2/a03704.html#a407f2036481e3d9e2def3daa50546c71a60ff93f414424628c66faf8f424f1dcd", null ]
+    ] ],
+    [ "ArenaSpellIds", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9", [
+      [ "SPELL_ALLIANCE_GOLD_FLAG", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a310e16f368a3a7d80eeecbaecd5c489c", null ],
+      [ "SPELL_ALLIANCE_GREEN_FLAG", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9aeae9474d707e5496dfdf0fd49871bb9f", null ],
+      [ "SPELL_HORDE_GOLD_FLAG", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a83058f9219943bb8b4d4a3024d172af0", null ],
+      [ "SPELL_HORDE_GREEN_FLAG", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9ad76f572a30c966179ca9c2c2c26f4222", null ],
+      [ "SPELL_LAST_MAN_STANDING", "d7/da2/a03704.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a20018007a38c253b1c4d00d9b0b375bd", null ]
+    ] ],
+    [ "ArenaWorldStates", "d7/da2/a03704.html#a4e26c0d0a6eb60865e57376951c14960", [
+      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GREEN", "d7/da2/a03704.html#a4e26c0d0a6eb60865e57376951c14960aea2da1b05ab1767fc34bf78021858c3a", null ],
+      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GOLD", "d7/da2/a03704.html#a4e26c0d0a6eb60865e57376951c14960afa467140e9e2c255b8d46937c40833a1", null ]
+    ] ]
 ];

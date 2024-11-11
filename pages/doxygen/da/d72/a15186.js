@@ -1,6 +1,7 @@
 var a15186 =
 [
-    [ "npc_silva_filnaveth", "da/d72/a15186.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "da/d72/a15186.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "da/d72/a15186.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "npc_kaya_flathoofAI", "da/d72/a15186.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
+    [ "JustSummoned", "da/d72/a15186.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
+    [ "Reset", "da/d72/a15186.html#af9be00be9867622a16103bd21311327f", null ],
+    [ "WaypointReached", "da/d72/a15186.html#a8fcbb19279b925138ba96d2a450fc404", null ]
 ];

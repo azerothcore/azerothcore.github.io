@@ -1,10 +1,10 @@
 var a21066 =
 [
-    [ "npc_erekem_guardAI", "dd/d73/a21066.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
-    [ "JustEngagedWith", "dd/d73/a21066.html#a93819c5c76821b1c9559be55359d677e", null ],
-    [ "MoveInLineOfSight", "dd/d73/a21066.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
-    [ "Reset", "dd/d73/a21066.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
-    [ "UpdateAI", "dd/d73/a21066.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
-    [ "events", "dd/d73/a21066.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
-    [ "pInstance", "dd/d73/a21066.html#a81985b8522111f2aae540353cd5641fe", null ]
+    [ "npc_azure_binderAI", "dd/d73/a21066.html#ad532d350493a35804660f90a9f00f3cf", null ],
+    [ "Reset", "dd/d73/a21066.html#aa317ce32f3439286e9a4ac0928d48b3a", null ],
+    [ "UpdateAI", "dd/d73/a21066.html#a322ae0210ccb24206aee49c4fa7fe2bc", null ],
+    [ "uiArcainBarrageTimer", "dd/d73/a21066.html#a0e577611e3e11209cc175cd71cd86bc9", null ],
+    [ "uiArcaneExplosionTimer", "dd/d73/a21066.html#aa5cc777f777166e88a21e98a4ce2b8d3", null ],
+    [ "uiFrostboltTimer", "dd/d73/a21066.html#a405ec0f2d92e4a1f5f7901e725465604", null ],
+    [ "uiFrostNovaTimer", "dd/d73/a21066.html#a0f6396376e14711f87f1a046728ce386", null ]
 ];

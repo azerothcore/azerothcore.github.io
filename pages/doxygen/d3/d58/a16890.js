@@ -1,6 +1,10 @@
 var a16890 =
 [
-    [ "boss_gal_darahAI", "dd/d63/a16894.html", "dd/d63/a16894" ],
-    [ "boss_gal_darah", "d3/d58/a16890.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "d3/d58/a16890.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "npc_dark_nucleusAI", "d3/d58/a16890.html#a9558da93ec684d5c4e79e686e6bfb142", null ],
+    [ "AttackStart", "d3/d58/a16890.html#a3dec28dd13257b944df0c559d26a76e0", null ],
+    [ "DamageTaken", "d3/d58/a16890.html#adfb2ad6f6b36fa122511a6ed10e22b99", null ],
+    [ "JustDied", "d3/d58/a16890.html#a464d479ad80d55e54c7ea2c8b8c03a81", null ],
+    [ "Reset", "d3/d58/a16890.html#ac84f79f84e721ab1306c8eed8658b143", null ],
+    [ "UpdateAI", "d3/d58/a16890.html#a3a08457c34d4dd904a99a78875d6318c", null ],
+    [ "timer", "d3/d58/a16890.html#ac5f9824276987b81aef5cfee05158049", null ]
 ];

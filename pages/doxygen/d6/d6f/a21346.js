@@ -1,6 +1,6 @@
 var a21346 =
 [
-    [ "HandleEffect", "d6/d6f/a21346.html#a6732d51d5de34b3e737cc785fb2ab43e", null ],
-    [ "PrepareSpellScript", "d6/d6f/a21346.html#aec199e9f9651267fac88bd86be326bb4", null ],
-    [ "Register", "d6/d6f/a21346.html#a14bd854db86750704c8377d457dea360", null ]
+    [ "npc_dalaran_warriorAI", "da/dfc/a21350.html", "da/dfc/a21350" ],
+    [ "npc_dalaran_warrior", "d6/d6f/a21346.html#a13d44b85173232ddedcc35184d50549c", null ],
+    [ "GetAI", "d6/d6f/a21346.html#a1e84676d2a76bac728a1f23f5f9fc25e", null ]
 ];

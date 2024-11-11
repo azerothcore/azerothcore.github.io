@@ -1,4 +1,4 @@
 var a04400 =
 [
-    [ "WorldPackets::CombatLog::EnvironmentalDamageLog", "d4/dff/a10238.html", "d4/dff/a10238" ]
+    [ "GroupReference", "d8/def/a09198.html", "d8/def/a09198" ]
 ];

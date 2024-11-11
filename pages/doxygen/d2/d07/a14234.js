@@ -1,6 +1,6 @@
 var a14234 =
 [
-    [ "PrepareAuraScript", "d2/d07/a14234.html#a80660b1417ab33edaf2c4cd517e10e30", null ],
-    [ "RecalculateHook", "d2/d07/a14234.html#af3952993947dfb24381083d21a9e64cb", null ],
-    [ "Register", "d2/d07/a14234.html#ab7f0aa924dfe8043e44cd794f72e4555", null ]
+    [ "FilterTargets", "d2/d07/a14234.html#a45b0713b2942199bf0e19752fe765aac", null ],
+    [ "PrepareSpellScript", "d2/d07/a14234.html#a7f7177d7754a99743202f69a0342f587", null ],
+    [ "Register", "d2/d07/a14234.html#a27b432d8571d48c3f5fb025bbbd29271", null ]
 ];

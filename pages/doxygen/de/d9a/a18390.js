@@ -1,6 +1,6 @@
 var a18390 =
 [
-    [ "HandleEvent", "de/d9a/a18390.html#a7936a64a1142a47b2addfd746dccfcef", null ],
-    [ "PrepareSpellScript", "de/d9a/a18390.html#a00e2be07131c674558d0364df98849ab", null ],
-    [ "Register", "de/d9a/a18390.html#a89364583504d2eaa75473586850bc3d5", null ]
+    [ "npc_icc_valkyr_heraldAI", "d2/da3/a18394.html", "d2/da3/a18394" ],
+    [ "npc_icc_valkyr_herald", "de/d9a/a18390.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
+    [ "GetAI", "de/d9a/a18390.html#a7537269841d0380d2dc9e4641705acf9", null ]
 ];

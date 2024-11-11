@@ -1,5 +1,7 @@
 var a17822 =
 [
-    [ "at_sindragosa_lair", "db/d96/a17822.html#a60ce46f248e66faa1f13a8b5c088bdc6", null ],
-    [ "OnTrigger", "db/d96/a17822.html#a07074bff20272042ed05be83dd818ee9", null ]
+    [ "HandleScript", "db/d96/a17822.html#a0ddd74672b48fd7bf5d3b4d4b6467e4a", null ],
+    [ "PrepareSpellScript", "db/d96/a17822.html#a598baad08c685bba54ad5306e0d521b4", null ],
+    [ "Register", "db/d96/a17822.html#a471bac09c68708daefe6a39f283caa4c", null ],
+    [ "Validate", "db/d96/a17822.html#a162e50b7136687aae7a8df0bb93dd8fe", null ]
 ];

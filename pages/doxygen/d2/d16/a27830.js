@@ -1,11 +1,7 @@
 var a27830 =
 [
-    [ "Displayid", "d2/d16/a27830.html#a4aa3c391401f39d6f4a595f4dff0668b", null ],
-    [ "filename", "d2/d16/a27830.html#a0cee5b90a15b39e1ff49231e332cc320", null ],
-    [ "maxX", "d2/d16/a27830.html#a10563ae885d34e516825a18db95b40e7", null ],
-    [ "maxY", "d2/d16/a27830.html#a711286df6d2bd74246dee2170052c17a", null ],
-    [ "maxZ", "d2/d16/a27830.html#acb74e32790b2c60cca5faef1caa225e4", null ],
-    [ "minX", "d2/d16/a27830.html#a77466c3aabd4e7b6b7aa8b5f9f2a82da", null ],
-    [ "minY", "d2/d16/a27830.html#a7168f5b3229bd27edde78e88bf7dc20a", null ],
-    [ "minZ", "d2/d16/a27830.html#ac88aefc2530212b9dff10e018c4e9305", null ]
+    [ "ID", "d2/d16/a27830.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "d2/d16/a27830.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "d2/d16/a27830.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "d2/d16/a27830.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

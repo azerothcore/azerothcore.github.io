@@ -1,5 +1,6 @@
 var a21138 =
 [
-    [ "go_vh_activation_crystal", "d3/dfa/a21138.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "d3/dfa/a21138.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "npc_sinkhole_kill_creditAI", "d0/dfd/a21142.html", "d0/dfd/a21142" ],
+    [ "npc_sinkhole_kill_credit", "d3/dfa/a21138.html#a627d01aaaa3408986f2b4d171624e680", null ],
+    [ "GetAI", "d3/dfa/a21138.html#a4d734432f132bea2c4525d049fbcfa67", null ]
 ];

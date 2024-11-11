@@ -1,6 +1,6 @@
 var a20170 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "d6/dee/a20174.html", "d6/dee/a20174" ],
-    [ "npc_ulduar_bot_summon_trigger", "d0/d0c/a20170.html#a7a369b4826c6c2a86704088f5dcf1ce7", null ],
-    [ "GetAI", "d0/d0c/a20170.html#a0d7f74fc910c5adcaaa46a9d2ea10ea3", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "d6/dee/a20174.html", "d6/dee/a20174" ],
+    [ "npc_ulduar_dark_rune_guardian", "d0/d0c/a20170.html#a6266dd5c096402b5383af09ac361a634", null ],
+    [ "GetAI", "d0/d0c/a20170.html#a9ed188491483548658ce682bf36e6fd2", null ]
 ];

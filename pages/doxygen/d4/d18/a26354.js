@@ -1,6 +1,7 @@
 var a26354 =
 [
-    [ "HandleAfterCast", "d4/d18/a26354.html#a6f21938e84e45848fad74a16f1f52c48", null ],
-    [ "PrepareSpellScript", "d4/d18/a26354.html#ac7abeee05c117595696faf1ec55e11bd", null ],
-    [ "Register", "d4/d18/a26354.html#a9e90a6fa037627ac682f4ea050f557de", null ]
+    [ "AfterRemove", "d4/d18/a26354.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "d4/d18/a26354.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "d4/d18/a26354.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "d4/d18/a26354.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

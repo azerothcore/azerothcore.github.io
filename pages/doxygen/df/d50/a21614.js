@@ -1,6 +1,7 @@
 var a21614 =
 [
-    [ "HandleDummy", "df/d50/a21614.html#afe86744c6ab901750731fca486ff2e6c", null ],
-    [ "PrepareSpellScript", "df/d50/a21614.html#a47e8a3187fa523c61842885f1cbd041d", null ],
-    [ "Register", "df/d50/a21614.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
+    [ "HandleDummy", "df/d50/a21614.html#abb5726c8afa66a946eefc8767094ea9b", null ],
+    [ "PrepareSpellScript", "df/d50/a21614.html#ab5d9f8125c75bbd8fbb2717516d3eddd", null ],
+    [ "Register", "df/d50/a21614.html#a38efc59fcbb40469521419723a1dceb3", null ],
+    [ "Validate", "df/d50/a21614.html#a93cf1b5dbc23bb25c4fe8aa24da0fd2e", null ]
 ];

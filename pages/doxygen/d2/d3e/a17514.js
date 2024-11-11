@@ -1,9 +1,7 @@
 var a17514 =
 [
-    [ "CountTargets", "d2/d3e/a17514.html#aa72b762d802c27047d485a8a314c6c6d", null ],
-    [ "Load", "d2/d3e/a17514.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
-    [ "PrepareSpellScript", "d2/d3e/a17514.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
-    [ "Register", "d2/d3e/a17514.html#a86cad92c07fa31c730a3b560d33ed824", null ],
-    [ "SplitDamage", "d2/d3e/a17514.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
-    [ "_targetCount", "d2/d3e/a17514.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
+    [ "HandleSummon", "d2/d3e/a17514.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
+    [ "PrepareSpellScript", "d2/d3e/a17514.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
+    [ "Register", "d2/d3e/a17514.html#a01281869dc98a0af5027695391f1221f", null ],
+    [ "Validate", "d2/d3e/a17514.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
 ];

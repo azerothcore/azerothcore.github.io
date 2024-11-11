@@ -1,7 +1,9 @@
 var a26446 =
 [
-    [ "HandleEffectProc", "d8/d44/a26446.html#a7f2ddbf54a4932277ad91eb0036915ab", null ],
-    [ "PrepareAuraScript", "d8/d44/a26446.html#a47d844a9700cd8add793e3f3088d1b82", null ],
-    [ "Register", "d8/d44/a26446.html#ad40dfc164ab98fc9734e1ed15ea14c17", null ],
-    [ "Validate", "d8/d44/a26446.html#a97f5239399e7135b02000722eaf837ad", null ]
+    [ "CheckCast", "d8/d44/a26446.html#a846862b62f5750801cd804133f290d5d", null ],
+    [ "HandleDummy", "d8/d44/a26446.html#aa56609d3c75a69fb62e302622fd11c3c", null ],
+    [ "Load", "d8/d44/a26446.html#acec7437ba80e4ae491020448a36e4559", null ],
+    [ "PrepareSpellScript", "d8/d44/a26446.html#ab5e281028c009a4b317111de9a0a17e3", null ],
+    [ "Register", "d8/d44/a26446.html#a865fa526f2131703a668e113ba0d7849", null ],
+    [ "Validate", "d8/d44/a26446.html#a6c6dee3de2c54536765cfdd97f4fd0c0", null ]
 ];

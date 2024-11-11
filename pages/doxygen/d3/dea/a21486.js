@@ -1,8 +1,8 @@
 var a21486 =
 [
-    [ "npc_future_youAI", "d3/dea/a21486.html#a7608c050dd198e3133050e222b42f62b", null ],
-    [ "EnterEvadeMode", "d3/dea/a21486.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
-    [ "MoveInLineOfSight", "d3/dea/a21486.html#a35b67f9e948f5ffbde8a423190ece603", null ],
-    [ "Reset", "d3/dea/a21486.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
-    [ "UpdateAI", "d3/dea/a21486.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
+    [ "npc_q24545_vegardAI", "d3/dea/a21486.html#a6a86b56508a86bf32ab5fb2bd46248c9", null ],
+    [ "JustDied", "d3/dea/a21486.html#a1f7784242bbaf39d0fb105d2930da37c", null ],
+    [ "KilledUnit", "d3/dea/a21486.html#a2d78117a6c2a29f52f1905595425964a", null ],
+    [ "UpdateAI", "d3/dea/a21486.html#a79cc34760b58ad4b29c6a0a496971f0a", null ],
+    [ "events", "d3/dea/a21486.html#a68f48d92cc5559025e635d599c2882e3", null ]
 ];

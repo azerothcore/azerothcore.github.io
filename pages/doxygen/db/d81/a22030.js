@@ -1,6 +1,6 @@
 var a22030 =
 [
-    [ "npc_brunnhildar_prisonerAI", "df/dc1/a22034.html", "df/dc1/a22034" ],
-    [ "npc_brunnhildar_prisoner", "db/d81/a22030.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
-    [ "GetAI", "db/d81/a22030.html#aa2a1787849c74a5163a39137c9d03d57", null ]
+    [ "CheckCast", "db/d81/a22030.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
+    [ "PrepareSpellScript", "db/d81/a22030.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
+    [ "Register", "db/d81/a22030.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
 ];

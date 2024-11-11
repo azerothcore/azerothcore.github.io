@@ -1,6 +1,7 @@
 var a18154 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "d3/ddd/a18158.html", "d3/ddd/a18158" ],
-    [ "npc_green_dragon_combat_trigger", "d7/d4f/a18154.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "d7/d4f/a18154.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "OnApply", "d7/d4f/a18154.html#ac35f5d98980f54470a75a72b3578681f", null ],
+    [ "OnRemove", "d7/d4f/a18154.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
+    [ "PrepareAuraScript", "d7/d4f/a18154.html#a83c90d16fa151026a1e02927e31922ee", null ],
+    [ "Register", "d7/d4f/a18154.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
 ];

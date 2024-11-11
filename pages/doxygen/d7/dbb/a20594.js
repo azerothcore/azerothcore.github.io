@@ -1,6 +1,6 @@
 var a20594 =
 [
-    [ "boss_yoggsaron_immortal_guardianAI", "d4/d6a/a20598.html", "d4/d6a/a20598" ],
-    [ "boss_yoggsaron_immortal_guardian", "d7/dbb/a20594.html#a4009759d284b54cb958ee0bb80c45f14", null ],
-    [ "GetAI", "d7/dbb/a20594.html#ac532ca090d93ce6d11a0332329111f2b", null ]
+    [ "HandleScript", "d7/dbb/a20594.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
+    [ "PrepareSpellScript", "d7/dbb/a20594.html#ab2a4155f6029850c61e84d7c180addae", null ],
+    [ "Register", "d7/dbb/a20594.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
 ];

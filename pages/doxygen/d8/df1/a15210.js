@@ -1,7 +1,6 @@
 var a15210 =
 [
-    [ "npc_giant_spotlightAI", "d8/df1/a15210.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
-    [ "Reset", "d8/df1/a15210.html#a79f6703107eed52a3aeae30393507c0f", null ],
-    [ "UpdateAI", "d8/df1/a15210.html#a8567f936dd15933300497d5abe80a272", null ],
-    [ "events", "d8/df1/a15210.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
+    [ "npc_stone_watcher_of_norgannon", "d8/df1/a15210.html#aa838e060c8ef6d7d85981c718328d9ef", null ],
+    [ "OnGossipHello", "d8/df1/a15210.html#a00f526b1b17b68f31a86e892e0997856", null ],
+    [ "OnGossipSelect", "d8/df1/a15210.html#a5b79ebae097266ec4e1a0e3dfaa87da5", null ]
 ];

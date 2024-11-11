@@ -1,7 +1,9 @@
 var a04070 =
 [
-    [ "operator<<", "d0/d18/a04070.html#a71323635f122d24189054da615cb39e1", null ],
-    [ "operator<<", "d0/d18/a04070.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
-    [ "operator>>", "d0/d18/a04070.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
-    [ "operator>>", "d0/d18/a04070.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
+    [ "Creature", "dc/dbf/a07754.html", "dc/dbf/a07754" ],
+    [ "AssistDelayEvent", "d3/da5/a07762.html", "d3/da5/a07762" ],
+    [ "ForcedDespawnDelayEvent", "dd/d73/a07766.html", "dd/d73/a07766" ],
+    [ "TemporaryThreatModifierEvent", "d1/d66/a07770.html", "d1/d66/a07770" ],
+    [ "CREATURE_Z_ATTACK_RANGE", "d0/d18/a04070.html#a91a03a879f1b4df44968ae2f9f22fb0d", null ],
+    [ "MAX_VENDOR_ITEMS", "d0/d18/a04070.html#a44c3a813b92331e325ba5aae11ed72a3", null ]
 ];

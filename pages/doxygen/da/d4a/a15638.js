@@ -1,6 +1,10 @@
 var a15638 =
 [
-    [ "HandleScriptEffect", "da/d4a/a15638.html#aaa650972803d14e4d74be977430b04f6", null ],
-    [ "PrepareSpellScript", "da/d4a/a15638.html#a1e166c53e2051f3fae1b085a76a08c3f", null ],
-    [ "Register", "da/d4a/a15638.html#a3405c1b04f2e623662c7acaa6810278c", null ]
+    [ "npc_xerestraszaAI", "da/d4a/a15638.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
+    [ "DoAction", "da/d4a/a15638.html#af696ecee315892b2bf0233113d2f89f9", null ],
+    [ "Reset", "da/d4a/a15638.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
+    [ "UpdateAI", "da/d4a/a15638.html#a6389ab58f4b44c668590113ec75f2adf", null ],
+    [ "_events", "da/d4a/a15638.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
+    [ "_introDone", "da/d4a/a15638.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
+    [ "_isIntro", "da/d4a/a15638.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
 ];

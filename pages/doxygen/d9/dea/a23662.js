@@ -1,7 +1,7 @@
 var a23662 =
 [
-    [ "boss_gatewatcher_iron_hand", "d9/dea/a23662.html#aef70e713007af38b510f0a3b8c082b24", null ],
-    [ "JustDied", "d9/dea/a23662.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
-    [ "JustEngagedWith", "d9/dea/a23662.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
-    [ "KilledUnit", "d9/dea/a23662.html#a1973142412b4094dbd9fa51600741148", null ]
+    [ "HandleDummy", "d9/dea/a23662.html#a08f2f0aef00ce075572ff84643905a0a", null ],
+    [ "PrepareSpellScript", "d9/dea/a23662.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
+    [ "Register", "d9/dea/a23662.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
+    [ "Validate", "d9/dea/a23662.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
 ];

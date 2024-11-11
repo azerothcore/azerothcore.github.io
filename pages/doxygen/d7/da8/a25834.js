@@ -1,9 +1,10 @@
 var a25834 =
 [
-    [ "Load", "d7/da8/a25834.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
-    [ "PrepareSpellScript", "d7/da8/a25834.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
-    [ "Register", "d7/da8/a25834.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
-    [ "TriggerHeal", "d7/da8/a25834.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
-    [ "Validate", "d7/da8/a25834.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
-    [ "healPct", "d7/da8/a25834.html#a33b4d26c34903e45b7274e369f096ce1", null ]
+    [ "CheckProc", "d7/da8/a25834.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
+    [ "HandleProc", "d7/da8/a25834.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
+    [ "Load", "d7/da8/a25834.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
+    [ "PrepareAuraScript", "d7/da8/a25834.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
+    [ "Register", "d7/da8/a25834.html#a4cb08499767ab58f0e525c382b662fbd", null ],
+    [ "Validate", "d7/da8/a25834.html#aa6165f28706d49940dd1f62065631119", null ],
+    [ "_procTarget", "d7/da8/a25834.html#a7b9426e18b454bf631992518c2bdbde0", null ]
 ];

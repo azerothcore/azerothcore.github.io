@@ -1,7 +1,5 @@
 var a26634 =
 [
-    [ "FilterTargets", "d1/dd7/a26634.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
-    [ "PrepareSpellScript", "d1/dd7/a26634.html#a954f00317eab544dd57e657368aab7fb", null ],
-    [ "Register", "d1/dd7/a26634.html#a1804684c8685372faf2e88e56b48f5be", null ],
-    [ "Validate", "d1/dd7/a26634.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
+    [ "achievement_bg_sa_artillery", "d1/dd7/a26634.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
+    [ "OnCheck", "d1/dd7/a26634.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
 ];

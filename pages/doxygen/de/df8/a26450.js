@@ -1,6 +1,8 @@
 var a26450 =
 [
-    [ "HandleDummy", "de/df8/a26450.html#af5bccd5dfb9aa37215b083438b6749ea", null ],
-    [ "PrepareSpellScript", "de/df8/a26450.html#a6c2b858c893ed215d1192073b06db81d", null ],
-    [ "Register", "de/df8/a26450.html#a1b23dc4a7a04e4c910bb738d45a8df1f", null ]
+    [ "HandleDummyTick", "de/df8/a26450.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
+    [ "HandleRemove", "de/df8/a26450.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
+    [ "PrepareAuraScript", "de/df8/a26450.html#a06e45d5f63ef1395b5949482e8393098", null ],
+    [ "Register", "de/df8/a26450.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
+    [ "Validate", "de/df8/a26450.html#a9a2da4d163a96526e14f5de76798a784", null ]
 ];

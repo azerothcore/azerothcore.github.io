@@ -1,5 +1,7 @@
 var a15626 =
 [
-    [ "achievement_watch_him_die", "da/db2/a15626.html#a0d885871eac61d859780e08c8518bb15", null ],
-    [ "OnCheck", "da/db2/a15626.html#a6ca8851bdf8cae50084ca87c1958fb53", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "da/db2/a15626.html#aed531e61508d4d404827f47c6348a5e6", null ],
+    [ "JustEngagedWith", "da/db2/a15626.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
+    [ "UpdateAI", "da/db2/a15626.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
+    [ "_events", "da/db2/a15626.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
 ];

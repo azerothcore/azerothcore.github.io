@@ -1,7 +1,9 @@
 var a20078 =
 [
-    [ "StoneGripTargetSelector", "d8/da5/a20078.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
-    [ "operator()", "d8/da5/a20078.html#ae40653def55e656f2347029a97605395", null ],
-    [ "_me", "d8/da5/a20078.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
-    [ "_victim", "d8/da5/a20078.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
+    [ "HandleEffectPeriodic", "d8/da5/a20078.html#ae3cb0f7a3da5a72eaa59350d7df13ffc", null ],
+    [ "Load", "d8/da5/a20078.html#a60deabce505dd3993dca0e71402dc190", null ],
+    [ "PrepareAuraScript", "d8/da5/a20078.html#a9a2fae625718f854ec5d2587a01a2da7", null ],
+    [ "Register", "d8/da5/a20078.html#a524c071390365b7dab59bc7a79b50f15", null ],
+    [ "_lastMSTime", "d8/da5/a20078.html#a013e9e0eef93583722f7d347c2ebbc49", null ],
+    [ "_lastOrientation", "d8/da5/a20078.html#a2537b325ff57b867092f3d9a1bd0fa8b", null ]
 ];

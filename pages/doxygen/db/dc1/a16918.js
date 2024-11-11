@@ -1,6 +1,6 @@
 var a16918 =
 [
-    [ "HandlePeriodic", "db/dc1/a16918.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
-    [ "PrepareAuraScript", "db/dc1/a16918.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
-    [ "Register", "db/dc1/a16918.html#a9753daf5cdc812e9027c1153b450686d", null ]
+    [ "HandleScript", "db/dc1/a16918.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "db/dc1/a16918.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "db/dc1/a16918.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

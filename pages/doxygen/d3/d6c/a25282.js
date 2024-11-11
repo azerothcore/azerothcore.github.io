@@ -1,6 +1,7 @@
 var a25282 =
 [
-    [ "CheckProc", "d3/d6c/a25282.html#a8158e7338b29b072f0c851771d0e8eee", null ],
-    [ "PrepareAuraScript", "d3/d6c/a25282.html#a44a18144e276e7bdc80c5a19f1d442e2", null ],
-    [ "Register", "d3/d6c/a25282.html#ae24336f87db322e546bd858bc50f2351", null ]
+    [ "HandleProc", "d3/d6c/a25282.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
+    [ "PrepareAuraScript", "d3/d6c/a25282.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
+    [ "Register", "d3/d6c/a25282.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
+    [ "Validate", "d3/d6c/a25282.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
 ];

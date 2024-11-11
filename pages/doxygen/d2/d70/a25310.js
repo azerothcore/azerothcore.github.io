@@ -1,6 +1,8 @@
 var a25310 =
 [
-    [ "HandleDummy", "d2/d70/a25310.html#ade4c16273ebefaeefac3bfb51c61d19a", null ],
-    [ "PrepareSpellScript", "d2/d70/a25310.html#adfa89e065aa18b3e11998331c426151a", null ],
-    [ "Register", "d2/d70/a25310.html#ab37569c6b2362220cbce92eb184cc6db", null ]
+    [ "HandleDummy", "d2/d70/a25310.html#a0604906219798bec87624f8179292317", null ],
+    [ "Load", "d2/d70/a25310.html#a99d0d9dd5818a9252536879a3a1dab66", null ],
+    [ "PrepareSpellScript", "d2/d70/a25310.html#a51602256218ee899b7391b2b7af0ee7b", null ],
+    [ "Register", "d2/d70/a25310.html#a7b065390e95c9673a28d1c49158766ff", null ],
+    [ "Validate", "d2/d70/a25310.html#a0bf9973fae74a700623805352908aa69", null ]
 ];

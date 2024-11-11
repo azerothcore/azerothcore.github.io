@@ -1,7 +1,8 @@
 var a18398 =
 [
-    [ "HandleQuestComplete", "de/d0e/a18398.html#a5f1e6c4358df4e0910b2227f90b39d24", null ],
-    [ "HandleScript", "de/d0e/a18398.html#a309052e9b7c3d3747d15ab5e9c0d25fd", null ],
-    [ "PrepareSpellScript", "de/d0e/a18398.html#ac9b2786ba2dbb8d1c74af05153bb0a6f", null ],
-    [ "Register", "de/d0e/a18398.html#a3258d4517cfc758080691bab429624d7", null ]
+    [ "Class", "de/d0e/a18398.html#a095390e9023609f5836c4481ed79e1af", null ],
+    [ "cooldown_ms", "de/d0e/a18398.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
+    [ "id", "de/d0e/a18398.html#ae9fdf89271339b93f306c4aa0871f844", null ],
+    [ "range", "de/d0e/a18398.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
+    [ "targetType", "de/d0e/a18398.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
 ];

@@ -1,4 +1,6 @@
 var a04040 =
 [
-    [ "UpdateMask", "d6/dc8/a08226.html", "d6/dc8/a08226" ]
+    [ "GenerateEnchSuffixFactor", "db/d69/a04040.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "db/d69/a04040.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "db/d69/a04040.html#a376fabf7bba54eaf928217f860f1c33b", null ]
 ];

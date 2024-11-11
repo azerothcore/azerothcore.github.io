@@ -1,9 +1,6 @@
 var a21942 =
 [
-    [ "npc_engineer_heliceAI", "d4/d76/a21942.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
-    [ "JustDied", "d4/d76/a21942.html#aba224727b86a2bfc39a47b70b424ccef", null ],
-    [ "Reset", "d4/d76/a21942.html#ade3f7f526dd8973c155aafb939db3778", null ],
-    [ "UpdateAI", "d4/d76/a21942.html#a1c333511dd6e82cd22af111e12a701c4", null ],
-    [ "WaypointReached", "d4/d76/a21942.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
-    [ "m_uiChatTimer", "d4/d76/a21942.html#aa305bc2b5711d0745650f80275204ea8", null ]
+    [ "npc_icefangAI", "d2/db7/a21946.html", "d2/db7/a21946" ],
+    [ "npc_icefang", "d4/d76/a21942.html#a2e13be89b110abaa2509e597e4cf883a", null ],
+    [ "GetAI", "d4/d76/a21942.html#ad1a936b1eef30271912054a817e0c9f8", null ]
 ];

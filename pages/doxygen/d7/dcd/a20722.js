@@ -1,6 +1,6 @@
 var a20722 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d0/d0a/a20726.html", "d0/d0a/a20726" ],
-    [ "instance_ulduar", "d7/dcd/a20722.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "d7/dcd/a20722.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "instance_utgarde_keep_InstanceMapScript", "d0/d0a/a20726.html", "d0/d0a/a20726" ],
+    [ "instance_utgarde_keep", "d7/dcd/a20722.html#abe013e4f086f63722a6398b2b7928c80", null ],
+    [ "GetInstanceScript", "d7/dcd/a20722.html#a9a42e0dde1c7598eb2ef665f11e25e92", null ]
 ];

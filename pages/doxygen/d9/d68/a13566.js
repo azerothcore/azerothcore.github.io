@@ -1,8 +1,11 @@
 var a13566 =
 [
-    [ "entry", "d9/d68/a13566.html#ad7431eb64907aed0a03205a37c65a735", null ],
-    [ "orient", "d9/d68/a13566.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
-    [ "x", "d9/d68/a13566.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
-    [ "y", "d9/d68/a13566.html#ae726b332e6759612c76de6b9f38a3147", null ],
-    [ "z", "d9/d68/a13566.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
+    [ "boss_hakkarAI", "d9/d68/a13566.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
+    [ "ApplyHakkarPowerStacks", "d9/d68/a13566.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
+    [ "CheckInRoom", "d9/d68/a13566.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
+    [ "EnterEvadeMode", "d9/d68/a13566.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
+    [ "JustDied", "d9/d68/a13566.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
+    [ "JustEngagedWith", "d9/d68/a13566.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
+    [ "Reset", "d9/d68/a13566.html#a52db5743c09088e2e9f1aff1513960f2", null ],
+    [ "UpdateAI", "d9/d68/a13566.html#a1119212465bcf293991d7a520c6ffe42", null ]
 ];

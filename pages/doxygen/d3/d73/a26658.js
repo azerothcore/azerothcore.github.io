@@ -1,7 +1,5 @@
 var a26658 =
 [
-    [ "OnProc", "d3/d73/a26658.html#a7ab183d734c543be2866c57f1e5cc508", null ],
-    [ "PrepareAuraScript", "d3/d73/a26658.html#a31118cda9f29318f4620caf38c09522a", null ],
-    [ "Register", "d3/d73/a26658.html#ac27f99aafa92ae85a247c6f25ece8c7b", null ],
-    [ "Validate", "d3/d73/a26658.html#aa193bddd2ba9efe70343c5501d737fa4", null ]
+    [ "achievement_tilted", "d3/d73/a26658.html#a868d7b8a437434d6dc34b5000c429e66", null ],
+    [ "OnCheck", "d3/d73/a26658.html#a61d3eb78450383485699532d96f79d93", null ]
 ];

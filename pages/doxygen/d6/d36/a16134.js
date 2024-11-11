@@ -1,6 +1,7 @@
 var a16134 =
 [
-    [ "npc_toc_hunterAI", "d6/d5e/a16138.html", "d6/d5e/a16138" ],
-    [ "npc_toc_hunter", "d6/d36/a16134.html#a73d4113df71626af7b8294e08373965e", null ],
-    [ "GetAI", "d6/d36/a16134.html#a8b9d2a8186aefb3e411bd20c006207d4", null ]
+    [ "FilterTargets", "d6/d36/a16134.html#a304da18e36ff67c34b80ab39583f8c96", null ],
+    [ "HandleScript", "d6/d36/a16134.html#adf99670bcf862288f513d2a26cbc256a", null ],
+    [ "PrepareSpellScript", "d6/d36/a16134.html#a976cb3c956d37fc9870494b0a6b8d9ee", null ],
+    [ "Register", "d6/d36/a16134.html#a4513de251b2f3d52fe44b7f7e715007c", null ]
 ];

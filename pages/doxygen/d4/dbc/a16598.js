@@ -1,6 +1,6 @@
 var a16598 =
 [
-    [ "boss_frostsworn_generalAI", "da/db4/a16602.html", "da/db4/a16602" ],
-    [ "boss_frostsworn_general", "d4/dbc/a16598.html#a33023712cf056eedfed1cb38e18af5dd", null ],
-    [ "GetAI", "d4/dbc/a16598.html#a8e958e13999f23a81a7230fa9ece276b", null ]
+    [ "boss_krickAI", "da/db4/a16602.html", "da/db4/a16602" ],
+    [ "boss_krick", "d4/dbc/a16598.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
+    [ "GetAI", "d4/dbc/a16598.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
 ];

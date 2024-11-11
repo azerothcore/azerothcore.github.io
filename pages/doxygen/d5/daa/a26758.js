@@ -1,5 +1,7 @@
 var a26758 =
 [
-    [ "achievement_bg_av_perfection", "d5/daa/a26758.html#a8a0ef996bdb1244026268922b301184c", null ],
-    [ "OnCheck", "d5/daa/a26758.html#a17e700c17b5144b571f2aeed92a77749", null ]
+    [ "npc_spirit_shadeAI", "d5/daa/a26758.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
+    [ "IsSummonedBy", "d5/daa/a26758.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
+    [ "MovementInform", "d5/daa/a26758.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
+    [ "_summonerGuid", "d5/daa/a26758.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
 ];

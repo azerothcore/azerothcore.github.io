@@ -1,12 +1,15 @@
 var a04481 =
 [
-    [ "PacketHandler< PacketClass, HandlerFunction >", "d8/d1e/a10630.html", "d8/d1e/a10630" ],
-    [ "PacketHandler< WorldPacket, HandlerFunction >", "db/d64/a10634.html", "db/d64/a10634" ],
-    [ "get_packet_class< T >", "d4/dc3/a10638.html", null ],
-    [ "get_packet_class< void(WorldSession::*)(PacketClass &)>", "d7/d91/a10642.html", "d7/d91/a10642" ],
-    [ "DEFINE_HANDLER", "dd/d40/a04481.html#ab23af9582942bed23ea9ab4a8747c67c", null ],
-    [ "DEFINE_SERVER_OPCODE_HANDLER", "dd/d40/a04481.html#a4bcb2df62d580f2bb5ab3c2aa5b35f5e", null ],
-    [ "GetOpcodeNameForLogging", "d5/d43/a04668.html#ga699f5666ad5594443aa2ca21df85a1d3", null ],
-    [ "GetOpcodeNameForLoggingImpl", "dd/d40/a04481.html#a0adf4b5d8c638656581d9a62be18539e", null ],
-    [ "opcodeTable", "d5/d43/a04668.html#gaab348862a5b8f265e05e5b0ac296162a", null ]
+    [ "Socket< T >", "df/d29/a28046.html", "df/d29/a28046" ],
+    [ "READ_BLOCK_SIZE", "dd/d40/a04481.html#a16ba013af02b9d4400b5e47d8daa022b", null ],
+    [ "ProxyHeaderAddressFamilyAndProtocol", "dd/d40/a04481.html#a7ddce6d0420753babeb6258ada50eec1", [
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V4", "dd/d40/a04481.html#a7ddce6d0420753babeb6258ada50eec1a9d87d0a8da10465b32fd9a322c2a8575", null ],
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V6", "dd/d40/a04481.html#a7ddce6d0420753babeb6258ada50eec1a5b0f57dac80a77ad98bc0d371a22f699", null ]
+    ] ],
+    [ "ProxyHeaderReadingState", "dd/d40/a04481.html#aa514bb66fa404b5b180297bb005c3272", [
+      [ "PROXY_HEADER_READING_STATE_NOT_STARTED", "dd/d40/a04481.html#aa514bb66fa404b5b180297bb005c3272a0bd44a601a6d6745f442535a457fc67c", null ],
+      [ "PROXY_HEADER_READING_STATE_STARTED", "dd/d40/a04481.html#aa514bb66fa404b5b180297bb005c3272a6b5e85386b6638d1a72fa2520f355c98", null ],
+      [ "PROXY_HEADER_READING_STATE_FINISHED", "dd/d40/a04481.html#aa514bb66fa404b5b180297bb005c3272a2898c80db946e4ae677297c1954470fb", null ],
+      [ "PROXY_HEADER_READING_STATE_FAILED", "dd/d40/a04481.html#aa514bb66fa404b5b180297bb005c3272a7a96033158689ba0590a86245f58922f", null ]
+    ] ]
 ];

@@ -1,8 +1,6 @@
 var a14370 =
 [
-    [ "hyjalTyrandeAI", "d1/d38/a14370.html#ac2f5449b60cd137dbc1f6ddc8afe5309", null ],
-    [ "JustDied", "d1/d38/a14370.html#af5c7b843b8e1a7c0864b55853bc62097", null ],
-    [ "JustEngagedWith", "d1/d38/a14370.html#a158589b567d22c8f6e0be462bad8299d", null ],
-    [ "Reset", "d1/d38/a14370.html#a5ea52a1ee3730630d1efbdac4ad24c80", null ],
-    [ "UpdateAI", "d1/d38/a14370.html#a9e825f9d87df6227b73eb965488eff8a", null ]
+    [ "instance_culling_of_stratholme_InstanceMapScript", "df/d7a/a14374.html", "df/d7a/a14374" ],
+    [ "instance_culling_of_stratholme", "d1/d38/a14370.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
+    [ "GetInstanceScript", "d1/d38/a14370.html#ad8cbcb198666d44d79d6255d066c8315", null ]
 ];

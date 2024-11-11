@@ -1,19 +1,10 @@
 var a22874 =
 [
-    [ "boss_fathomguard_tidalvess", "d2/d11/a22874.html#aa4c3ac27c72e659bd87ad83bbadfb04c", null ],
-    [ "DoAction", "d2/d11/a22874.html#a909601091c25285e0a6c9773b61ff049", null ],
-    [ "EnterEvadeMode", "d2/d11/a22874.html#a8fe1a7a13b0d3d806edcfe8e9bf4ff33", null ],
-    [ "JustDied", "d2/d11/a22874.html#a7f79a16e0c186e97aeb7f16f3b7d45ea", null ],
-    [ "JustEngagedWith", "d2/d11/a22874.html#aa524d5c047b50df8d83b5faa3fd791fc", null ],
-    [ "JustSummoned", "d2/d11/a22874.html#a1dc16180610c742e98a93f87653e93e9", null ],
-    [ "Reset", "d2/d11/a22874.html#af218abccb0b61e483dcc6d7a3313d99d", null ],
-    [ "ScheduleRemoval", "d2/d11/a22874.html#a07c887552c8705b52caf9e102788a781", null ],
-    [ "SummonTotem", "d2/d11/a22874.html#adb4d877f50ba5653d699a0a123f5961c", null ],
-    [ "UpdateAI", "d2/d11/a22874.html#abce5d58fced89ecaac1d1f34989f0d9e", null ],
-    [ "_choice", "d2/d11/a22874.html#a0ced209c6f22a0bf435a0249a25b15c4", null ],
-    [ "_entryList", "d2/d11/a22874.html#a9eaeaf02dbe143d38ca857e5ae478aca", null ],
-    [ "_instance", "d2/d11/a22874.html#a958c76b6ad9d9713625b10baa0d6d992", null ],
-    [ "_scheduler", "d2/d11/a22874.html#ae1652d83938dc820255e383870b957a7", null ],
-    [ "_summons", "d2/d11/a22874.html#aea75646687854c08eaee75c55718376d", null ],
-    [ "_totemScheduler", "d2/d11/a22874.html#a1b4ace7575946c585cc63057e81a1529", null ]
+    [ "boss_morogrim_tidewalker", "d2/d11/a22874.html#a138a200da298f64697e2e47fb8004ccb", null ],
+    [ "JustDied", "d2/d11/a22874.html#a139d87e7cffe03183538eb493e063195", null ],
+    [ "JustEngagedWith", "d2/d11/a22874.html#a3244672aeb994673e1f46708699bcc2c", null ],
+    [ "JustSummoned", "d2/d11/a22874.html#a2b669007520094948138c95468b77f9f", null ],
+    [ "KilledUnit", "d2/d11/a22874.html#a2db94919e6d6f3d4eda4addc4248976e", null ],
+    [ "Reset", "d2/d11/a22874.html#a78ed1d1f8c55407497a4fb679587975d", null ],
+    [ "_recentlySpoken", "d2/d11/a22874.html#a63edb4b20baa9e1cf5238c3db5974c56", null ]
 ];

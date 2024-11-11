@@ -1,7 +1,6 @@
 var a25566 =
 [
-    [ "HandleDummy", "d0/d9a/a25566.html#a5d95d2329c750692d9a4facae9ddf781", null ],
-    [ "PrepareSpellScript", "d0/d9a/a25566.html#a2699b3bc033bdd896d0f9a4b3c067354", null ],
-    [ "Register", "d0/d9a/a25566.html#a8d83f9e52ba19f75647e99760439c380", null ],
-    [ "Validate", "d0/d9a/a25566.html#a24610d5652ef85e883b1bac9256b30f7", null ]
+    [ "OnPeriodic", "d0/d9a/a25566.html#a889285ef034aaa7eaaa8e86fb5380cf0", null ],
+    [ "PrepareAuraScript", "d0/d9a/a25566.html#a3fd2da3d7b1b8a78916515b7e3e188cf", null ],
+    [ "Register", "d0/d9a/a25566.html#a62e5ab81f9548e4d983d0c4dde14eaad", null ]
 ];

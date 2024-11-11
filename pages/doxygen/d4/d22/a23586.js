@@ -1,6 +1,11 @@
 var a23586 =
 [
-    [ "Load", "d4/d22/a23586.html#a0fa22884296d705fd28eed88351d1165", null ],
-    [ "PrepareSpellScript", "d4/d22/a23586.html#ae04539319a7bab4965f663039c991614", null ],
-    [ "Register", "d4/d22/a23586.html#a7c7abeb9bc621824173db2c727c28045", null ]
+    [ "boss_pathaleon_the_calculator", "d4/d22/a23586.html#a679dc3ccc23c6def44e0f0669822e146", null ],
+    [ "CanAIAttack", "d4/d22/a23586.html#abcbb5f1236ebfbec680241ae8c5cbb00", null ],
+    [ "DoAction", "d4/d22/a23586.html#a814cb56cc18277cb4adbd7dc8a82b06d", null ],
+    [ "JustDied", "d4/d22/a23586.html#a0224d47bc85fe54c0cfded69b55e57b3", null ],
+    [ "JustEngagedWith", "d4/d22/a23586.html#a3ba024e86ceb83ebb26afcc11a75791d", null ],
+    [ "KilledUnit", "d4/d22/a23586.html#a899fd2e1e01ac1347e43bcb290babc5b", null ],
+    [ "Reset", "d4/d22/a23586.html#adc48067c3656bf768c3013ff266565c0", null ],
+    [ "_isEnraged", "d4/d22/a23586.html#ab875fb787d71eaf008b7267c81a2a4df", null ]
 ];

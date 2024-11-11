@@ -1,5 +1,7 @@
 var a27066 =
 [
-    [ "go_table_theka", "dd/d39/a27066.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
-    [ "OnGossipHello", "dd/d39/a27066.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
+    [ "npc_engineering_tele_trinket", "dd/d39/a27066.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
+    [ "CanLearn", "dd/d39/a27066.html#a8a35f1c09a9df609561e76f4ed578647", null ],
+    [ "OnGossipHello", "dd/d39/a27066.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
+    [ "OnGossipSelect", "dd/d39/a27066.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
 ];

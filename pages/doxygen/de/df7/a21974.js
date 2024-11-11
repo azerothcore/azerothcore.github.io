@@ -1,8 +1,7 @@
 var a21974 =
 [
-    [ "npc_vics_flying_machineAI", "de/df7/a21974.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
-    [ "MovementInform", "de/df7/a21974.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
-    [ "PassengerBoarded", "de/df7/a21974.html#aa67dcbb4b43b047398fec2619ad61829", null ],
-    [ "SpellHit", "de/df7/a21974.html#aa81229a104e1521d570abec4b6f7bca7", null ],
-    [ "pointId", "de/df7/a21974.html#aa1412c23f0c3b964262e145c51aea974", null ]
+    [ "npc_wg_demolisher_engineer", "de/df7/a21974.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "de/df7/a21974.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "de/df7/a21974.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "de/df7/a21974.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

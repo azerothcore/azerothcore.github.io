@@ -1,9 +1,10 @@
 var a24466 =
 [
-    [ "HandleApply", "d2/de0/a24466.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
-    [ "HandleRemove", "d2/de0/a24466.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
-    [ "PrepareAuraScript", "d2/de0/a24466.html#af2b8e669737cd4282beb6a5035f496fc", null ],
-    [ "RecalculateBaseArmor", "d2/de0/a24466.html#a693720558c7b2b22c41a49a402522014", null ],
-    [ "Register", "d2/de0/a24466.html#aff9bc58342383afe5a08be696cddedf6", null ],
-    [ "Validate", "d2/de0/a24466.html#ad712e1e05d94372defdfa4fe67e65716", null ]
+    [ "HandleEffectApply", "d2/de0/a24466.html#ac977d07e0b054af33345538f10d80c56", null ],
+    [ "HandleEffectRemove", "d2/de0/a24466.html#acd9c460acb60eae5db8874c246014147", null ],
+    [ "PrepareAuraScript", "d2/de0/a24466.html#a1527c59b43a26db344e5a4d2900ea9b0", null ],
+    [ "Register", "d2/de0/a24466.html#ab0de0c0459d3414f69a0dde7669b6f79", null ],
+    [ "_hasFlag", "d2/de0/a24466.html#adb5058ba54ea53db9fdc9251a44619aa", null ],
+    [ "_itemId", "d2/de0/a24466.html#a28c06ecd352466e0d1076d9eb4fa8e9b", null ],
+    [ "_modelId", "d2/de0/a24466.html#ae77b9ae8a1092e0dc144e83db4c0758c", null ]
 ];

@@ -1,6 +1,7 @@
 var a21994 =
 [
-    [ "npc_iron_watcherAI", "d6/d9b/a21998.html", "d6/d9b/a21998" ],
-    [ "npc_iron_watcher", "df/dda/a21994.html#a174e19241ca6cd1619fbae074d11c8ba", null ],
-    [ "GetAI", "df/dda/a21994.html#af3b80b838e192737762ceed599b0be9a", null ]
+    [ "npc_wg_quest_giver", "df/dda/a21994.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
+    [ "GetDialogStatus", "df/dda/a21994.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
+    [ "OnGossipHello", "df/dda/a21994.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
+    [ "OnGossipSelect", "df/dda/a21994.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
 ];

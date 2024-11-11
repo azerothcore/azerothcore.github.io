@@ -1,4 +1,5 @@
 var a00200 =
 [
-    [ "GetStringWithDefaultValueFromFunction", "d3/db1/a00200.html#a659c80f8f32962119a0640bbcd2009c9", null ]
+    [ "getOutOfWater", "d3/db1/a00200.html#a92646d631d9334b64b0b487ebf87d769", null ],
+    [ "getWeight", "d3/db1/a00200.html#a44526122378fe7ee8622f1ffc822dc20", null ]
 ];

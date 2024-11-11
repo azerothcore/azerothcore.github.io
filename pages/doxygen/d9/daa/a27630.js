@@ -1,6 +1,7 @@
 var a27630 =
 [
-    [ "HandleScript", "d9/daa/a27630.html#a382dd0eb5ebc2f5da70561eaaf1f8d3d", null ],
-    [ "PrepareSpellScript", "d9/daa/a27630.html#a4f0f4d29231ef1976d726b66f6277ca8", null ],
-    [ "Register", "d9/daa/a27630.html#ad75843039e582b64da28b4818f48aeb3", null ]
+    [ "Class", "d9/daa/a27630.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "d9/daa/a27630.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "d9/daa/a27630.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "d9/daa/a27630.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

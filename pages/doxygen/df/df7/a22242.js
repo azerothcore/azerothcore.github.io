@@ -1,13 +1,9 @@
 var a22242 =
 [
-    [ "OPvPCapturePointEP_CGT", "df/df7/a22242.html#a82d8e9bff56eed1870b098dcf21f77cd", null ],
-    [ "ChangeState", "df/df7/a22242.html#ab9d32c9a60bbdca9fc54d7e0b2bf8a5d", null ],
-    [ "FillInitialWorldStates", "df/df7/a22242.html#af3fae27818d6213c2c96ce68676ede82", null ],
-    [ "HandlePlayerEnter", "df/df7/a22242.html#a48cb29473f25ed9b469c7ff54acc9d88", null ],
-    [ "HandlePlayerLeave", "df/df7/a22242.html#ad1886046ecf8c382e1fd0e01d6394614", null ],
-    [ "LinkGraveyard", "df/df7/a22242.html#ada14179a31fb6235b7882a190dc96c40", null ],
-    [ "SendChangePhase", "df/df7/a22242.html#a30d9f8701dd6a78740f7df0d2c7ceb9d", null ],
-    [ "UpdateTowerState", "df/df7/a22242.html#a764284d6143d4879b5bc003acc52048c", null ],
-    [ "m_GraveyardSide", "df/df7/a22242.html#aaf1f8440dc891ed45857bb7d15149d9a", null ],
-    [ "m_TowerState", "df/df7/a22242.html#a6f434f86ed97f88368e3194a3bc3183b", null ]
+    [ "npc_stolen_soul", "df/df7/a22242.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "df/df7/a22242.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "df/df7/a22242.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "df/df7/a22242.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "df/df7/a22242.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "df/df7/a22242.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

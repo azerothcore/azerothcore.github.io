@@ -1,8 +1,11 @@
 var a13410 =
 [
-    [ "npc_varian_wrynnAI", "d6/d38/a13414.html", "d6/d38/a13414" ],
-    [ "npc_varian_wrynn", "d2/dd5/a13410.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
-    [ "GetAI", "d2/dd5/a13410.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
-    [ "OnGossipHello", "d2/dd5/a13410.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
-    [ "OnGossipSelect", "d2/dd5/a13410.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
+    [ "npc_tapoke_slim_jahnAI", "d2/dd5/a13410.html#aeb2bca4d3233d8790b1ccfdd559f2e41", null ],
+    [ "AttackedBy", "d2/dd5/a13410.html#a25bf491c19fe0bb3116c6df46cb370e5", null ],
+    [ "DamageTaken", "d2/dd5/a13410.html#a3dbb7abb6559a6f853cc77423d7153e9", null ],
+    [ "JustEngagedWith", "d2/dd5/a13410.html#a544b8eaee365217a4a735ed39b4607b2", null ],
+    [ "JustSummoned", "d2/dd5/a13410.html#ae468305fbe930baf0a1547f2e6de9953", null ],
+    [ "Reset", "d2/dd5/a13410.html#a5aeaa5511584d1095639e7df584019c5", null ],
+    [ "WaypointReached", "d2/dd5/a13410.html#a886ba3133f77a93cfae9c4a7e9fb0609", null ],
+    [ "IsFriendSummoned", "d2/dd5/a13410.html#a1e4291187ff400e6f326ef4acbff41ee", null ]
 ];

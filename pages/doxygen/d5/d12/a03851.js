@@ -1,5 +1,5 @@
 var a03851 =
 [
-    [ "GetEnableModulesList", "d5/d12/a03851.html#a2a2aa3aabfbef586b9a1e63fbae0e0f7", null ],
-    [ "SetEnableModulesList", "d5/d12/a03851.html#ac16569c9333f642e54fa7a4ec6a948e3", null ]
+    [ "_characterCacheByNameStore", "d5/d12/a03851.html#a409431c82eb6a62b40d55a773cdb02c6", null ],
+    [ "_characterCacheStore", "d5/d12/a03851.html#a2a209686002fed926e50d55f7c7ca795", null ]
 ];

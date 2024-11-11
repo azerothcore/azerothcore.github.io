@@ -1,6 +1,6 @@
 var a23902 =
 [
-    [ "npc_invis_infernal_casterAI", "db/dbb/a23906.html", "db/dbb/a23906" ],
-    [ "npc_invis_infernal_caster", "d8/d38/a23902.html#a9aed081ef904075830428bbc76f53874", null ],
-    [ "GetAI", "d8/d38/a23902.html#aede0c5cc390ea423169b1cba66d929cd", null ]
+    [ "PrepareSpellScript", "d8/d38/a23902.html#aa858fff409e5c75d865c91cb5fbef679", null ],
+    [ "Register", "d8/d38/a23902.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
+    [ "SetDest", "d8/d38/a23902.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
 ];

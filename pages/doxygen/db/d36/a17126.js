@@ -1,8 +1,8 @@
 var a17126 =
 [
-    [ "npc_muradin_bronzebeard_iccAI", "d5/d3b/a17130.html", "d5/d3b/a17130" ],
-    [ "npc_muradin_bronzebeard_icc", "db/d36/a17126.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
-    [ "GetAI", "db/d36/a17126.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
-    [ "OnGossipHello", "db/d36/a17126.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
-    [ "OnGossipSelect", "db/d36/a17126.html#a46c4893be723a848d985ff55e28d55a2", null ]
+    [ "ResetEncounterEvent", "db/d36/a17126.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
+    [ "Execute", "db/d36/a17126.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
+    [ "_caster", "db/d36/a17126.html#abb37778222749b27791baa329e268c32", null ],
+    [ "_otherTransport", "db/d36/a17126.html#a7f2d0aaade5833381e3e7624745fc504", null ],
+    [ "_spellId", "db/d36/a17126.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
 ];

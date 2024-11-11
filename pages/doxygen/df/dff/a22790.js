@@ -1,9 +1,7 @@
 var a22790 =
 [
-    [ "HandleEffectApply", "df/dff/a22790.html#aca8ff864832d30e45bccfca12256560a", null ],
-    [ "HandleEffectRemove", "df/dff/a22790.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
-    [ "Load", "df/dff/a22790.html#a3b9838f26673ce344ca40f9f487ef878", null ],
-    [ "PrepareAuraScript", "df/dff/a22790.html#a79b93c86a01d31d08cba15436856b794", null ],
-    [ "Register", "df/dff/a22790.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
-    [ "_turtleSet", "df/dff/a22790.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
+    [ "HandleEffectApply", "df/dff/a22790.html#acc7aeb8a002db3a846cbac29053af441", null ],
+    [ "HandleEffectRemove", "df/dff/a22790.html#a11de5d496bc1265ceb01c2bb91da4a57", null ],
+    [ "PrepareAuraScript", "df/dff/a22790.html#a7203f8808f6afc5bdaf49a26ae8b0c20", null ],
+    [ "Register", "df/dff/a22790.html#a7b62d651a57e2dc9d8e461f7a5c9d500", null ]
 ];

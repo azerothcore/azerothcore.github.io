@@ -1,6 +1,11 @@
 var a18834 =
 [
-    [ "boss_razuvious_minionAI", "d0/d1f/a18838.html", "d0/d1f/a18838" ],
-    [ "boss_razuvious_minion", "d2/dc0/a18834.html#ae23d51c9ebfe31f624a749578d27252c", null ],
-    [ "GetAI", "d2/dc0/a18834.html#afab8dccbc0b098a1fa058ef8479ba865", null ]
+    [ "npc_nexus_lordAI", "d2/dc0/a18834.html#a8d26337fdcd055027a20ea91faf7e01b", null ],
+    [ "AttackStart", "d2/dc0/a18834.html#a2f56dcac815431c887b95e9c09aec361", null ],
+    [ "JustDied", "d2/dc0/a18834.html#a828007757a618affad71b955681945cf", null ],
+    [ "JustEngagedWith", "d2/dc0/a18834.html#acfcf227557b1e212eda385e22ccdb981", null ],
+    [ "UpdateAI", "d2/dc0/a18834.html#ad7ddb98d2daaed386e713e423de4cac9", null ],
+    [ "events", "d2/dc0/a18834.html#ad20a56e52b22306ca31406d8defa4aa5", null ],
+    [ "pInstance", "d2/dc0/a18834.html#a81fae70688bcd8c733ea90b06900503d", null ],
+    [ "timer", "d2/dc0/a18834.html#a8edb133f7ca01a4aa75345c572a505c7", null ]
 ];

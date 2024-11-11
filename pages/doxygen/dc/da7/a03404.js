@@ -1,4 +1,5 @@
 var a03404 =
 [
-    [ "ScriptRegistry< ModuleScript >", "dc/da7/a03404.html#a7749cbcc2b6820dc30c515ebb6cefe36", null ]
+    [ "GameObjectAI", "d5/d61/a05982.html", "d5/d61/a05982" ],
+    [ "NullGameObjectAI", "db/d3a/a05986.html", "db/d3a/a05986" ]
 ];

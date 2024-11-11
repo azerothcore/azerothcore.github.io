@@ -1,7 +1,13 @@
 var a20786 =
 [
-    [ "npc_frost_tombAI", "d7/d2e/a20786.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
-    [ "JustDied", "d7/d2e/a20786.html#aeda420de208505fa93fc548693a1ff74", null ],
-    [ "UpdateAI", "d7/d2e/a20786.html#a8f323275af4ecafd1978c465e75978e0", null ],
-    [ "PrisonerGUID", "d7/d2e/a20786.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
+    [ "npc_frenzied_worgenAI", "d7/d2e/a20786.html#a3a87e1285fb40a4fe31e7e9c2916f2a8", null ],
+    [ "DoAction", "d7/d2e/a20786.html#a7b7b34c2206cd1003c2abff3fb839c34", null ],
+    [ "JustDied", "d7/d2e/a20786.html#a33b723baef468ef79e67aaadba1b2691", null ],
+    [ "JustEngagedWith", "d7/d2e/a20786.html#a902bb6f89a2a210f2e0d18ebad7613f9", null ],
+    [ "JustReachedHome", "d7/d2e/a20786.html#a9b50182cd407811d0f0aeeba378a37ee", null ],
+    [ "MoveInLineOfSight", "d7/d2e/a20786.html#a3c2b76ccb6e00a24619f769f0d44ba2b", null ],
+    [ "Reset", "d7/d2e/a20786.html#adccac21b6eff18db096eb79dab4a27a0", null ],
+    [ "UpdateAI", "d7/d2e/a20786.html#ad83478b5946fd93e1b4fe7916342b1ee", null ],
+    [ "events", "d7/d2e/a20786.html#a8619650ae4396aafbdc1533f8b174ab8", null ],
+    [ "m_pInstance", "d7/d2e/a20786.html#a425720ce11714b145685f6d9c78a3dc1", null ]
 ];

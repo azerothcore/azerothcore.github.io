@@ -1,6 +1,7 @@
 var a24050 =
 [
-    [ "PrepareSpellScript", "d1/d98/a24050.html#aba1979c98f7d0e162cb7aee36c57f568", null ],
-    [ "Register", "d1/d98/a24050.html#a07f75e1ad374118ab0195dd1a17376ed", null ],
-    [ "SetDest", "d1/d98/a24050.html#a23afed27143ca0b8e4cdc477d47ab6e0", null ]
+    [ "npc_pet_gen_target_following_bomb", "d1/d98/a24050.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "d1/d98/a24050.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "d1/d98/a24050.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "d1/d98/a24050.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

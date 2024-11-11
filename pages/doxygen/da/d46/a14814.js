@@ -1,6 +1,6 @@
 var a14814 =
 [
-    [ "OnPeriodic", "da/d46/a14814.html#a08dce8b98afadc134166a615b4496151", null ],
-    [ "PrepareAuraScript", "da/d46/a14814.html#a9ebb34665b176e4e60f085da65183d8e", null ],
-    [ "Register", "da/d46/a14814.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
+    [ "aqsentinelAI", "df/d58/a14818.html", "df/d58/a14818" ],
+    [ "npc_anubisath_sentinel", "da/d46/a14814.html#ada1ab0d1857fe52020e798d9710a66cb", null ],
+    [ "GetAI", "da/d46/a14814.html#ae19b8ba3766ede8f715dad5ff8d4b2d2", null ]
 ];

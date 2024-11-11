@@ -1,6 +1,6 @@
 var a16454 =
 [
-    [ "npc_fos_corrupted_soul_fragmentAI", "d5/d84/a16458.html", "d5/d84/a16458" ],
-    [ "npc_fos_corrupted_soul_fragment", "d5/d4d/a16454.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
-    [ "GetAI", "d5/d4d/a16454.html#aed663e0a313223fcaa988b89b1b02df3", null ]
+    [ "npc_phantom_mageAI", "d5/d84/a16458.html", "d5/d84/a16458" ],
+    [ "npc_phantom_mage", "d5/d4d/a16454.html#ad57414231c40917bf55d6155fa9c05db", null ],
+    [ "GetAI", "d5/d4d/a16454.html#ae2134b8be3052da659390bde7c2aac2e", null ]
 ];

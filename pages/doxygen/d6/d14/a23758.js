@@ -1,6 +1,7 @@
 var a23758 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d9/d64/a23762.html", "d9/d64/a23762" ],
-    [ "npc_oscillating_frequency_scanner_master_bunny", "d6/d14/a23758.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
-    [ "GetAI", "d6/d14/a23758.html#a60d55e2eda4484ceea4e475ac8653977", null ]
+    [ "npc_bessyAI", "d9/d64/a23762.html", "d9/d64/a23762" ],
+    [ "npc_bessy", "d6/d14/a23758.html#a08278c1524445054ca158433044a0824", null ],
+    [ "GetAI", "d6/d14/a23758.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
+    [ "OnQuestAccept", "d6/d14/a23758.html#a98b8e816195b81bab12cc9906df79807", null ]
 ];

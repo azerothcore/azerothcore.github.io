@@ -1,6 +1,7 @@
 var a23614 =
 [
-    [ "lapseTeleport", "d9/df4/a23614.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "d9/df4/a23614.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "d9/df4/a23614.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "OnPeriodic", "d9/df4/a23614.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
+    [ "PrepareAuraScript", "d9/df4/a23614.html#a6f7db06cc1ace68ee0076077773b1659", null ],
+    [ "Register", "d9/df4/a23614.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
+    [ "Validate", "d9/df4/a23614.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
 ];

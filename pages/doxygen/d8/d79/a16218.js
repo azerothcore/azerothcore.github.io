@@ -1,6 +1,6 @@
 var a16218 =
 [
-    [ "npc_fel_infernalAI", "d7/dfb/a16222.html", "d7/dfb/a16222" ],
-    [ "npc_fel_infernal", "d8/d79/a16218.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
-    [ "GetAI", "d8/d79/a16218.html#a768201a7516c9972800c941cf2079a11", null ]
+    [ "HandleEffectPeriodic", "d8/d79/a16218.html#a8775f4e2cb6be96f57596413d560206c", null ],
+    [ "PrepareAuraScript", "d8/d79/a16218.html#a45118f9887d248a5eb840b945dee5b79", null ],
+    [ "Register", "d8/d79/a16218.html#ad1b2b8e1dca62c31ec2b071ae4ca2f35", null ]
 ];

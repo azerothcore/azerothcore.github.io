@@ -1,12 +1,6 @@
 var a27242 =
 [
-    [ "npc_elder_clearwaterAI", "df/dea/a27242.html#a4de89cf4a18918d577be4ac5cc55ba5a", null ],
-    [ "DoAction", "df/dea/a27242.html#ac46b0f66be3074f73f5a69cffee6d354", null ],
-    [ "GetData", "df/dea/a27242.html#a077c02bf06b16439225a5cf8d83babf2", null ],
-    [ "UpdateAI", "df/dea/a27242.html#afbec3c78d34ce4d11a11b56064f343f3", null ],
-    [ "events", "df/dea/a27242.html#a267fec22dc3d7272cae74267d0567618", null ],
-    [ "finished", "df/dea/a27242.html#af51d6abb8fc8b59d068156a4859a377e", null ],
-    [ "finishWarning", "df/dea/a27242.html#a83a2b8e6ceed45d4e6b834e13a4a4cdc", null ],
-    [ "preWarning", "df/dea/a27242.html#a64abe15565c7e97a3a0ef195d436fedc", null ],
-    [ "startWarning", "df/dea/a27242.html#a01545211dec4338ac44304ebc7f18a97", null ]
+    [ "npc_pet_trainerAI", "d4/d20/a27246.html", "d4/d20/a27246" ],
+    [ "npc_pet_trainer", "df/dea/a27242.html#ac2279bce52e911b1c339da5e68aa2501", null ],
+    [ "GetAI", "df/dea/a27242.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
 ];

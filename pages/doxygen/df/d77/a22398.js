@@ -1,8 +1,7 @@
 var a22398 =
 [
-    [ "boss_darkweaver_syth", "df/d77/a22398.html#a4f719165e07206c5a378412b3f82ff86", null ],
-    [ "JustDied", "df/d77/a22398.html#adf7e44e3fdc7241baa5f9eddafcb6d40", null ],
-    [ "JustEngagedWith", "df/d77/a22398.html#aaf6dab75e66734e930c5732749f3d69a", null ],
-    [ "KilledUnit", "df/d77/a22398.html#a1904c2596dd455f84625974beec4a2c8", null ],
-    [ "Reset", "df/d77/a22398.html#a484a6dea12ca9e5a20f0a0761461c1f5", null ]
+    [ "HandleScriptEffect", "df/d77/a22398.html#a6ec6e79849c618d009eae3551e16ff0a", null ],
+    [ "PrepareSpellScript", "df/d77/a22398.html#a4f00eca7c78a785780be4379c1a56a6b", null ],
+    [ "Register", "df/d77/a22398.html#adb676b9d6f36c30efbb8286b1e5edf6d", null ],
+    [ "Validate", "df/d77/a22398.html#a9ce122d497e72e3a46b1857d722af48d", null ]
 ];

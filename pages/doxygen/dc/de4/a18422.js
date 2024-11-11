@@ -1,5 +1,5 @@
 var a18422 =
 [
-    [ "at_icc_shutdown_traps", "dc/de4/a18422.html#aa13f5d78d3032e8114e9978f42468f64", null ],
-    [ "OnTrigger", "dc/de4/a18422.html#abb31b3f6d0b159b625d731ac47127005", null ]
+    [ "npc_icc_buff_switcher", "dc/de4/a18422.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
+    [ "OnGossipSelect", "dc/de4/a18422.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
 ];

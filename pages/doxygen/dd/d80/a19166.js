@@ -1,7 +1,6 @@
 var a19166 =
 [
-    [ "HandleProc", "dd/d80/a19166.html#a84255cd31ebaa7c70de93d569258c709", null ],
-    [ "PrepareAuraScript", "dd/d80/a19166.html#a8d9c8122b105b28b88c4297d3a9acf7f", null ],
-    [ "Register", "dd/d80/a19166.html#a6bc166d2e1455537fa78c4223da17746", null ],
-    [ "Validate", "dd/d80/a19166.html#ab38bde2ed642dcf4fda1893a131aa6fe", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "d7/d5b/a19170.html", "d7/d5b/a19170" ],
+    [ "instance_halls_of_lightning", "dd/d80/a19166.html#a24395866efe2c7d1f7727be2557a8b46", null ],
+    [ "GetInstanceScript", "dd/d80/a19166.html#a5ce157aeaf2ed78e98e864059a599b36", null ]
 ];

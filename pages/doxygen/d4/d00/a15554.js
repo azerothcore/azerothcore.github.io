@@ -1,6 +1,6 @@
 var a15554 =
 [
-    [ "PrepareSpellScript", "d4/d00/a15554.html#a74a2601e2c160bb4a9b18d421775e6b3", null ],
-    [ "Register", "d4/d00/a15554.html#a17a07973a3c043683fc4fe0d1fc45156", null ],
-    [ "SetDest", "d4/d00/a15554.html#a3751a14d6e36140ee368d8ded6df03ee", null ]
+    [ "boss_sartharion_tenebronAI", "d8/d80/a15558.html", "d8/d80/a15558" ],
+    [ "boss_sartharion_tenebron", "d4/d00/a15554.html#ada445771d2d3d01fb586f15d62e21755", null ],
+    [ "GetAI", "d4/d00/a15554.html#a2eb4555506167a4aee7b844e305d7107", null ]
 ];

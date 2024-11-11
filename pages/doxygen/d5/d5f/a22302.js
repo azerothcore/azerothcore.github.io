@@ -1,17 +1,8 @@
 var a22302 =
 [
-    [ "OutdoorPvPSI", "d5/d5f/a22302.html#a89bf2d913b7d68ee921ef4b9aeea61e1", null ],
-    [ "FillInitialWorldStates", "d5/d5f/a22302.html#a0bf1688569e00431dcb128113b35d0f5", null ],
-    [ "HandleAreaTrigger", "d5/d5f/a22302.html#a7c6d70d7a611752456c55d13420ff840", null ],
-    [ "HandleCustomSpell", "d5/d5f/a22302.html#a10853a2f5766b6fc75044a20b281a198", null ],
-    [ "HandleDropFlag", "d5/d5f/a22302.html#a9238a5007253d84d66192bd340d8311a", null ],
-    [ "HandlePlayerEnterZone", "d5/d5f/a22302.html#ad2cabd461406a61e40411850b3d31c0c", null ],
-    [ "HandlePlayerLeaveZone", "d5/d5f/a22302.html#aa06088b1d80072577e6fc7653a214512", null ],
-    [ "SendRemoveWorldStates", "d5/d5f/a22302.html#aae7deda0662b28f6fc0e16115a65304b", null ],
-    [ "SetupOutdoorPvP", "d5/d5f/a22302.html#a401da5bef2350c4eb21b249b4f8b3e40", null ],
-    [ "Update", "d5/d5f/a22302.html#a56bda08a795a4b0cd1c52ec448920fac", null ],
-    [ "UpdateWorldState", "d5/d5f/a22302.html#a81f4362ece83f37f14471926e9a85fb3", null ],
-    [ "m_Gathered_A", "d5/d5f/a22302.html#ab532337ab7e66e1489221e3189e48bac", null ],
-    [ "m_Gathered_H", "d5/d5f/a22302.html#abcd36fe918edbbea387573bd5fab89e7", null ],
-    [ "m_LastController", "d5/d5f/a22302.html#a05c33cec2d0c1a9fe31cb3d9ba3f3c1c", null ]
+    [ "FilterTargets", "d5/d5f/a22302.html#a9e0a72530a8dc764269e8df6d9d1ed3d", null ],
+    [ "HandleDummyHitTarget", "d5/d5f/a22302.html#ae892090a9bd48aa447224c9f96801d37", null ],
+    [ "PrepareSpellScript", "d5/d5f/a22302.html#af08ab4fcc3705b07e89ed222794e70e9", null ],
+    [ "Register", "d5/d5f/a22302.html#aeb1aad59b6b4767a63660c5fe0277392", null ],
+    [ "Validate", "d5/d5f/a22302.html#a5a87a7c18a55caf5288b8ca8bbd2f361", null ]
 ];

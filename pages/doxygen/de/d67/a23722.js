@@ -1,7 +1,7 @@
 var a23722 =
 [
-    [ "OnPeriodic", "de/d67/a23722.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
-    [ "PrepareAuraScript", "de/d67/a23722.html#a6f7db06cc1ace68ee0076077773b1659", null ],
-    [ "Register", "de/d67/a23722.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
-    [ "Validate", "de/d67/a23722.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
+    [ "npc_creditmarker_visit_with_ancestorsAI", "de/d67/a23722.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
+    [ "JustEngagedWith", "de/d67/a23722.html#a4038d707731f64f588e307c22c859902", null ],
+    [ "MoveInLineOfSight", "de/d67/a23722.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
+    [ "Reset", "de/d67/a23722.html#a29132346f117ba785039057619edb9e7", null ]
 ];

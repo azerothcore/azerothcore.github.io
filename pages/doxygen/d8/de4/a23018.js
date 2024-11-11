@@ -1,9 +1,10 @@
 var a23018 =
 [
-    [ "CalcPeriodic", "d8/de4/a23018.html#a4c5a034d23253b2cf08cb86f12821184", null ],
-    [ "HandleEffectApply", "d8/de4/a23018.html#af60491946062054504b20e16273ed594", null ],
-    [ "HandleEffectRemove", "d8/de4/a23018.html#abfd43cd8e9df873e6c0867779bad13c1", null ],
-    [ "HandlePeriodic", "d8/de4/a23018.html#a5137e24394fa14129c44d92c79eef117", null ],
-    [ "PrepareAuraScript", "d8/de4/a23018.html#ac1f10b9e9d9883c25e28ae313242d41e", null ],
-    [ "Register", "d8/de4/a23018.html#a69108d90f7c3fa95adfc29c14bd8c9fe", null ]
+    [ "boss_warlord_kalithresh", "d8/de4/a23018.html#afcf2288fbea2d5010c41344ce0247559", null ],
+    [ "JustDied", "d8/de4/a23018.html#a1947562aa9dafea371e2f2da824a3f65", null ],
+    [ "JustEngagedWith", "d8/de4/a23018.html#a2712f5c363c3929550b77ef2536b1385", null ],
+    [ "KilledUnit", "d8/de4/a23018.html#a06855288497f5335a236867ef681d3f8", null ],
+    [ "MoveInLineOfSight", "d8/de4/a23018.html#a544da19b6c3a6f159ed6b1639def1071", null ],
+    [ "Reset", "d8/de4/a23018.html#a89e3bac7eeb3a77e0a7a22d8de9f1024", null ],
+    [ "_introDone", "d8/de4/a23018.html#a8e07118bb6fa249178cc081e2b393d2d", null ]
 ];

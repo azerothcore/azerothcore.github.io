@@ -1,7 +1,8 @@
 var a17938 =
 [
-    [ "OnPeriodic", "db/def/a17938.html#accd12b06341f3168c74cb18926614f7f", null ],
-    [ "OnUpdate", "db/def/a17938.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
-    [ "PrepareAuraScript", "db/def/a17938.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
-    [ "Register", "db/def/a17938.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
+    [ "Load", "db/def/a17938.html#aabd997d6db5fd38b1fdd97d90b1347e9", null ],
+    [ "OnRemove", "db/def/a17938.html#a43b23e5c53cca872a26737d790f2893d", null ],
+    [ "PrepareAuraScript", "db/def/a17938.html#ae51bcb37894240c6fd064cd329698a55", null ],
+    [ "Register", "db/def/a17938.html#ad6247c7f8abf41cd6190d5252ed6834e", null ],
+    [ "Validate", "db/def/a17938.html#a45696018a8810cf1f11fbddcd853d1f4", null ]
 ];

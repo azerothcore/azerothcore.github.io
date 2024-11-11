@@ -1,6 +1,6 @@
 var a13758 =
 [
-    [ "npc_ohganAI", "de/d26/a13762.html", "de/d26/a13762" ],
-    [ "npc_ohgan", "dc/d42/a13758.html#ae391f2b36c68952ca5eaf773c29cbcad", null ],
-    [ "GetAI", "dc/d42/a13758.html#a129dc2fcd449850403e0dcb99725da90", null ]
+    [ "npc_brewfest_bark_trigger", "dc/d42/a13758.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "dc/d42/a13758.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "dc/d42/a13758.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

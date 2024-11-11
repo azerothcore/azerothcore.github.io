@@ -1,8 +1,6 @@
 var a26378 =
 [
-    [ "FilterTargets", "d7/d3d/a26378.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
-    [ "HandleDummy", "d7/d3d/a26378.html#a2214b10da042a3af2fd3311872cc5286", null ],
-    [ "PrepareSpellScript", "d7/d3d/a26378.html#a9959966856601f79a83931a7a7ecff91", null ],
-    [ "Register", "d7/d3d/a26378.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
-    [ "Validate", "d7/d3d/a26378.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
+    [ "HandleAuraApply", "d7/d3d/a26378.html#a19d8103126a6446fb5ade53d2b5d0ddb", null ],
+    [ "PrepareAuraScript", "d7/d3d/a26378.html#a7596065e5ffcacf099a5984f5d940c11", null ],
+    [ "Register", "d7/d3d/a26378.html#a8efa76b28dddad68fee132f37791f231", null ]
 ];

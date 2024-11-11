@@ -1,5 +1,6 @@
 var a14626 =
 [
-    [ "npc_idol_room_spawnerAI", "d2/d67/a14626.html#a77c4aa88d213271166158c8e75d41a69", null ],
-    [ "SetData", "d2/d67/a14626.html#aa0626c837086b4a275f4d51d1659a242", null ]
+    [ "HandleDamageCalc", "d2/d67/a14626.html#a03eb92eff300872cd5fca452a99375ab", null ],
+    [ "PrepareSpellScript", "d2/d67/a14626.html#ac07421b62bb6044dad89431839a70bd8", null ],
+    [ "Register", "d2/d67/a14626.html#a70cbf764ab475e2358fa6630798cab9d", null ]
 ];

@@ -1,5 +1,7 @@
 var a14246 =
 [
-    [ "achievement_pb_terokkar_turkey_time", "d8/dda/a14246.html#a68e536379b04e060f44819c9831766c2", null ],
-    [ "OnCheck", "d8/dda/a14246.html#a8e6b82b95974ec27fd578481a1a23ae0", null ]
+    [ "hyjalJainaAI", "d5/ddb/a14250.html", "d5/ddb/a14250" ],
+    [ "npc_hyjal_jaina", "d8/dda/a14246.html#a6616aa6c38818770610259312a392a3f", null ],
+    [ "GetAI", "d8/dda/a14246.html#ab1891f5a2aacf5d9aeb9377bd92393ed", null ],
+    [ "OnGossipSelect", "d8/dda/a14246.html#a47853fa317b1a9325fcbe555867139f6", null ]
 ];

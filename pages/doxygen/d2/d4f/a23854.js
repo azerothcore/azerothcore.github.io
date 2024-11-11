@@ -1,6 +1,6 @@
 var a23854 =
 [
-    [ "npc_commander_dawnforgeAI", "d4/d6d/a23858.html", "d4/d6d/a23858" ],
-    [ "npc_commander_dawnforge", "d2/d4f/a23854.html#ab4d430725f68f906e9c8def66b1d6646", null ],
-    [ "GetAI", "d2/d4f/a23854.html#a6089b087b7c3b18659e23c677814318b", null ]
+    [ "npc_torloth_the_magnificentAI", "d4/d6d/a23858.html", "d4/d6d/a23858" ],
+    [ "npc_torloth_the_magnificent", "d2/d4f/a23854.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
+    [ "GetAI", "d2/d4f/a23854.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
 ];

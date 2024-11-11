@@ -1,4 +1,8 @@
 var a03377 =
 [
-    [ "ScriptRegistry< InstanceMapScript >", "dd/d8e/a03377.html#a1271f70bb9300f8012216659f38edaee", null ]
+    [ "PassiveAI", "de/d1f/a05994.html", "de/d1f/a05994" ],
+    [ "PossessedAI", "dd/d5d/a05998.html", "dd/d5d/a05998" ],
+    [ "NullCreatureAI", "d1/df7/a06002.html", "d1/df7/a06002" ],
+    [ "CritterAI", "dc/dd4/a06006.html", "dc/dd4/a06006" ],
+    [ "TriggerAI", "d3/d56/a06010.html", "d3/d56/a06010" ]
 ];

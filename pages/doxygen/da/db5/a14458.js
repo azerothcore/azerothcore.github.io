@@ -1,6 +1,6 @@
 var a14458 =
 [
-    [ "npc_cos_chromie_start", "da/db5/a14458.html#ae8f810af1e593ad16958049f6ad19616", null ],
-    [ "OnGossipSelect", "da/db5/a14458.html#a35cba5a1b7865b07a4e843648cea50c8", null ],
-    [ "OnQuestAccept", "da/db5/a14458.html#aa730cb17e6cfe917bc32f7e7ae52e8ef", null ]
+    [ "instance_dire_maul_InstanceMapScript", "d7/d3b/a14462.html", "d7/d3b/a14462" ],
+    [ "instance_dire_maul", "da/db5/a14458.html#a54ac2c7095a99481c7efbe4237533fac", null ],
+    [ "GetInstanceScript", "da/db5/a14458.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
 ];

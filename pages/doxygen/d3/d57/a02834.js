@@ -1,6 +1,7 @@
 var a02834 =
 [
-    [ "DBUpdater< CharacterDatabaseConnection >", "d3/d57/a02834.html#a753e207671f7af3815a056247f2de3ce", null ],
-    [ "DBUpdater< LoginDatabaseConnection >", "d3/d57/a02834.html#a16a33693c8570aff221401b100547fb7", null ],
-    [ "DBUpdater< WorldDatabaseConnection >", "d3/d57/a02834.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
+    [ "EMBLEM_PRICE", "d3/d57/a02834.html#a6e37f394008ea3eb20a46c84e03512a5", null ],
+    [ "MAX_GUILD_BANK_TAB_TEXT_LEN", "d3/d57/a02834.html#a458eaf87a56d0ac3d92187c55b14f437", null ],
+    [ "_GetGuildBankTabPrice", "d3/d57/a02834.html#a039068bd46d84b88b1a6a2fa0ae07b80", null ],
+    [ "_GetGuildEventString", "d3/d57/a02834.html#a8e9e4c2d24b387f386cf2d9c02996b59", null ]
 ];

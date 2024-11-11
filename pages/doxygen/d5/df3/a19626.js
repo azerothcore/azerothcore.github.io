@@ -1,9 +1,6 @@
 var a19626 =
 [
-    [ "npc_thorims_hammerAI", "d5/df3/a19626.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "d5/df3/a19626.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "d5/df3/a19626.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "d5/df3/a19626.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "d5/df3/a19626.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "d5/df3/a19626.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "achievement_flame_leviathan_towers", "d5/df3/a19626.html#a491d66bdd373b6044e406126719ef910", null ],
+    [ "OnCheck", "d5/df3/a19626.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
+    [ "_towerCount", "d5/df3/a19626.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
 ];

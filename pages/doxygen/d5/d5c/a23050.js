@@ -1,7 +1,7 @@
 var a23050 =
 [
-    [ "go_ahune_ice_spear", "d5/d5c/a23050.html#a22922e47b819bc60e331cffbc7c353b3", null ],
-    [ "Reset", "d5/d5c/a23050.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
-    [ "UpdateAI", "d5/d5c/a23050.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
-    [ "_scheduler", "d5/d5c/a23050.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
+    [ "npc_underbog_mushroom", "d5/d5c/a23050.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
+    [ "InitializeAI", "d5/d5c/a23050.html#a7c192010cc63715eaa3f38b1d1372936", null ],
+    [ "UpdateAI", "d5/d5c/a23050.html#a9a8ed51b12809152ebe78dda69944d77", null ],
+    [ "_scheduler", "d5/d5c/a23050.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
 ];

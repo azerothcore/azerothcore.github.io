@@ -1,7 +1,7 @@
 var a20702 =
 [
-    [ "HandleProc", "d1/d64/a20702.html#a1b8782a4f22522cfe224073515abdf45", null ],
-    [ "PrepareAuraScript", "d1/d64/a20702.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
-    [ "Register", "d1/d64/a20702.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
-    [ "Validate", "d1/d64/a20702.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
+    [ "HandleEffectPeriodic", "d1/d64/a20702.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "d1/d64/a20702.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "d1/d64/a20702.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "d1/d64/a20702.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

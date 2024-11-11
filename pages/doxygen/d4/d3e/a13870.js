@@ -1,11 +1,11 @@
 var a13870 =
 [
-    [ "npc_dark_iron_attack_mole_machine", "d4/d3e/a13870.html#a473a8fb4905e5d1333196797d7d0f371", null ],
-    [ "AttackStart", "d4/d3e/a13870.html#a999dd932fbaf22a8275dfdba150c3291", null ],
-    [ "JustEngagedWith", "d4/d3e/a13870.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
-    [ "MoveInLineOfSight", "d4/d3e/a13870.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
-    [ "Reset", "d4/d3e/a13870.html#a0727aab751ddfbd94ae070e60e47e768", null ],
-    [ "UpdateAI", "d4/d3e/a13870.html#a1217ed510a846d011143ae0a386c6236", null ],
-    [ "goTimer", "d4/d3e/a13870.html#a8686845ebef564c9fcaa115866c99749", null ],
-    [ "summonTimer", "d4/d3e/a13870.html#a4713da02f4a86547a0f796167e24d8bb", null ]
+    [ "npc_winterfin_playmate", "d4/d3e/a13870.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
+    [ "MoveInLineOfSight", "d4/d3e/a13870.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
+    [ "Reset", "d4/d3e/a13870.html#aae6b51c22dc0448608c1cf9412565e25", null ],
+    [ "UpdateAI", "d4/d3e/a13870.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
+    [ "orphanGUID", "d4/d3e/a13870.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
+    [ "phase", "d4/d3e/a13870.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
+    [ "playerGUID", "d4/d3e/a13870.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
+    [ "timer", "d4/d3e/a13870.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
 ];

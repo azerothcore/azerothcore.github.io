@@ -1,13 +1,10 @@
 var a13622 =
 [
-    [ "npc_harrison_jonesAI", "de/d5e/a13622.html#a088e61f55a0f5005a9c4b7d1f837e361", null ],
-    [ "JustEngagedWith", "de/d5e/a13622.html#a5676d911b35ddc38be61b5bd67ce5a1b", null ],
-    [ "Reset", "de/d5e/a13622.html#a57aa269677fb06a66756151d950e7eeb", null ],
-    [ "sGossipSelect", "de/d5e/a13622.html#a222ead437d88313b7d96c916433a45a9", null ],
-    [ "SpellHit", "de/d5e/a13622.html#a58134cca72886cfee57d2f56df1765fb", null ],
-    [ "UpdateAI", "de/d5e/a13622.html#a982d73b5f7ff7f65003bb87c961fd998", null ],
-    [ "_gongEvent", "de/d5e/a13622.html#a2bc677a9e8b4736a1ef1882c77fe5e16", null ],
-    [ "_gongTimer", "de/d5e/a13622.html#ae905e486190f0f984a425c1dcf7991f7", null ],
-    [ "instance", "de/d5e/a13622.html#aca87aebdeb6db3c38ee2514d5e07432d", null ],
-    [ "uiTargetGUID", "de/d5e/a13622.html#a5696b4215ebfe2671d20ddb1c00db12f", null ]
+    [ "boss_jindo", "de/d5e/a13622.html#a9aafe0282e0b5de90ce62b3f8b3cfb14", null ],
+    [ "CanAIAttack", "de/d5e/a13622.html#a6e24b8e31cda0834563d126dc74d99de", null ],
+    [ "EnterEvadeMode", "de/d5e/a13622.html#a8b80f12d0b9b8e9c7aa7ec46fbb71500", null ],
+    [ "JustEngagedWith", "de/d5e/a13622.html#a7f612a1e5033c5097856222cee41f2af", null ],
+    [ "JustSummoned", "de/d5e/a13622.html#ac7382289d174ec70703b76dc4e451d39", null ],
+    [ "UpdateAI", "de/d5e/a13622.html#aad8885f79fc527954102fc1b78ca8ad7", null ],
+    [ "_scheduler", "de/d5e/a13622.html#a7ddbdc4d85936fd54fced20ff31e91cd", null ]
 ];

@@ -1,6 +1,9 @@
 var a22510 =
 [
-    [ "HandleScriptEffect", "db/dfa/a22510.html#aa60961c2609184e739dea3be8ba992d5", null ],
-    [ "PrepareSpellScript", "db/dfa/a22510.html#aacde592314399112786b024153389024", null ],
-    [ "Register", "db/dfa/a22510.html#a3a2299da6fd73d14c7771e7a2c8a4ebd", null ]
+    [ "boss_mother_shahraz", "db/dfa/a22510.html#adba94363f74975301472d79f24894df8", null ],
+    [ "JustDied", "db/dfa/a22510.html#ab69d81acde4e6e2a3f6adb032090b958", null ],
+    [ "JustEngagedWith", "db/dfa/a22510.html#a021c702e7eff266308fee8a4220a6ec7", null ],
+    [ "KilledUnit", "db/dfa/a22510.html#a81ed314ae9737c0989b62c27c9ce4cc9", null ],
+    [ "Reset", "db/dfa/a22510.html#ab9e4162ac92e786b84b6497c37251386", null ],
+    [ "_canTalk", "db/dfa/a22510.html#a821d91439c60a60ffcff07b6bdbbc070", null ]
 ];

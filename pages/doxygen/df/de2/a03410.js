@@ -1,29 +1,35 @@
 var a03410 =
 [
-    [ "UnitScript", "dc/d01/a10102.html", "dc/d01/a10102" ],
-    [ "UnitHook", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26", [
-      [ "UNITHOOK_ON_HEAL", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256", null ],
-      [ "UNITHOOK_ON_DAMAGE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b", null ],
-      [ "UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde", null ],
-      [ "UNITHOOK_MODIFY_MELEE_DAMAGE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca", null ],
-      [ "UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e", null ],
-      [ "UNITHOOK_MODIFY_HEAL_RECEIVED", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd", null ],
-      [ "UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49", null ],
-      [ "UNITHOOK_ON_AURA_APPLY", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae", null ],
-      [ "UNITHOOK_ON_AURA_REMOVE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e", null ],
-      [ "UNITHOOK_IF_NORMAL_REACTION", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c", null ],
-      [ "UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223", null ],
-      [ "UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a", null ],
-      [ "UNITHOOK_IS_NEEDMOD_HEAL_PERCENT", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e", null ],
-      [ "UNITHOOK_CAN_SET_PHASE_MASK", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93", null ],
-      [ "UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7", null ],
-      [ "UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762", null ],
-      [ "UNITHOOK_ON_PATCH_VALUES_UPDATE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82", null ],
-      [ "UNITHOOK_ON_UNIT_UPDATE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f", null ],
-      [ "UNITHOOK_ON_DISPLAYID_CHANGE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1", null ],
-      [ "UNITHOOK_ON_UNIT_ENTER_EVADE_MODE", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e", null ],
-      [ "UNITHOOK_ON_UNIT_ENTER_COMBAT", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957", null ],
-      [ "UNITHOOK_ON_UNIT_DEATH", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57", null ],
-      [ "UNITHOOK_END", "df/de2/a03410.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352", null ]
+    [ "CreatureAI", "d9/de2/a06062.html", "d9/de2/a06062" ],
+    [ "TIME_INTERVAL_LOOK", "df/de2/a03410.html#a8de08a341cdd207e19eef425c2f5f152", null ],
+    [ "VISIBILITY_RANGE", "df/de2/a03410.html#a5548091cca58d569e4226b6915ec8cb2", null ],
+    [ "CreatureBoundary", "df/de2/a03410.html#a7994a32cb10f6de9d90e32ef2d6c1f37", null ],
+    [ "Permitions", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9", [
+      [ "PERMIT_BASE_NO", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0", null ],
+      [ "PERMIT_BASE_IDLE", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0", null ],
+      [ "PERMIT_BASE_REACTIVE", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58", null ],
+      [ "PERMIT_BASE_PROACTIVE", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c", null ],
+      [ "PERMIT_BASE_FACTION_SPECIFIC", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059", null ],
+      [ "PERMIT_BASE_SPECIAL", "df/de2/a03410.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415", null ]
+    ] ],
+    [ "SCEquip", "df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717", [
+      [ "EQUIP_NO_CHANGE", "df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2", null ],
+      [ "EQUIP_UNEQUIP", "df/de2/a03410.html#a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c", null ]
+    ] ],
+    [ "SelectEffect", "df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869", [
+      [ "SELECT_EFFECT_DONTCARE", "df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9", null ],
+      [ "SELECT_EFFECT_DAMAGE", "df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae", null ],
+      [ "SELECT_EFFECT_HEALING", "df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404", null ],
+      [ "SELECT_EFFECT_AURA", "df/de2/a03410.html#a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5", null ]
+    ] ],
+    [ "SelectTargetType", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621", [
+      [ "SELECT_TARGET_DONTCARE", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749", null ],
+      [ "SELECT_TARGET_SELF", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a", null ],
+      [ "SELECT_TARGET_SINGLE_ENEMY", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261", null ],
+      [ "SELECT_TARGET_AOE_ENEMY", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4", null ],
+      [ "SELECT_TARGET_ANY_ENEMY", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508", null ],
+      [ "SELECT_TARGET_SINGLE_FRIEND", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb", null ],
+      [ "SELECT_TARGET_AOE_FRIEND", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38", null ],
+      [ "SELECT_TARGET_ANY_FRIEND", "df/de2/a03410.html#a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3", null ]
     ] ]
 ];

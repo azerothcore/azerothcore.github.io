@@ -1,6 +1,7 @@
 var a17690 =
 [
-    [ "CheckTarget", "d7/dd5/a17690.html#afce64ba75f8370cab6b8f1e561b10587", null ],
-    [ "PrepareSpellScript", "d7/dd5/a17690.html#a6b6eaf3e761f2c173c2e72f46b25595a", null ],
-    [ "Register", "d7/dd5/a17690.html#a6964ca668f02a8b5b1c3015503a41eef", null ]
+    [ "PeriodicTick", "d7/dd5/a17690.html#a0c365bbb4ae9b77bb9e00a1eb41b96e4", null ],
+    [ "PrepareAuraScript", "d7/dd5/a17690.html#afcadfbdd84608e827b89c64bf03c8501", null ],
+    [ "Register", "d7/dd5/a17690.html#a0e8e8685ce8c1eea2b60e8bf6aeed782", null ],
+    [ "Validate", "d7/dd5/a17690.html#a879b657d94c1faf6225fe64f907cdf82", null ]
 ];

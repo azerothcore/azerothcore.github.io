@@ -1,7 +1,6 @@
 var a17318 =
 [
-    [ "npc_gunship_rocketeerAI", "dc/d7c/a17318.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
-    [ "CanAIAttack", "dc/d7c/a17318.html#a4b4e2839e426bdb752beea09394f13dc", null ],
-    [ "MovementInform", "dc/d7c/a17318.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
-    [ "UpdateAI", "dc/d7c/a17318.html#af73d71750f116fb90be1c2acba75ca70", null ]
+    [ "boss_lady_deathwhisperAI", "d3/d2b/a17322.html", "d3/d2b/a17322" ],
+    [ "boss_lady_deathwhisper", "dc/d7c/a17318.html#a979411cb834611b1239f3bf9058d316d", null ],
+    [ "GetAI", "dc/d7c/a17318.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
 ];

@@ -1,5 +1,6 @@
 var a27126 =
 [
-    [ "item_only_for_flight", "df/d42/a27126.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
-    [ "OnUse", "df/d42/a27126.html#a88cdf17a85630aef703f93143ba41d4d", null ]
+    [ "npc_taxi", "df/d42/a27126.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "df/d42/a27126.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "df/d42/a27126.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

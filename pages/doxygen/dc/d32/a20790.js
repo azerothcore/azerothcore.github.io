@@ -1,6 +1,5 @@
 var a20790 =
 [
-    [ "boss_kelesethAI", "d5/d12/a20794.html", "d5/d12/a20794" ],
-    [ "boss_keleseth", "dc/d32/a20790.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
-    [ "GetAI", "dc/d32/a20790.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
+    [ "go_palehoof_sphere", "dc/d32/a20790.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
+    [ "OnGossipHello", "dc/d32/a20790.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
 ];

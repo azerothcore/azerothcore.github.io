@@ -1,11 +1,7 @@
 var a22402 =
 [
-    [ "boss_talon_king_ikiss", "dd/dc1/a22402.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "dd/dc1/a22402.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "dd/dc1/a22402.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "dd/dc1/a22402.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "dd/dc1/a22402.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "dd/dc1/a22402.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "dd/dc1/a22402.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "dd/dc1/a22402.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "HandleEffectRemove", "dd/dc1/a22402.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
+    [ "PrepareAuraScript", "dd/dc1/a22402.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
+    [ "Register", "dd/dc1/a22402.html#a9ee8e71020c17f593472de5a9c130753", null ],
+    [ "Validate", "dd/dc1/a22402.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
 ];

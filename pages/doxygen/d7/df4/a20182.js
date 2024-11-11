@@ -1,9 +1,9 @@
 var a20182 =
 [
-    [ "HandleEffectPeriodic", "d7/df4/a20182.html#ae3cb0f7a3da5a72eaa59350d7df13ffc", null ],
-    [ "Load", "d7/df4/a20182.html#a60deabce505dd3993dca0e71402dc190", null ],
-    [ "PrepareAuraScript", "d7/df4/a20182.html#a9a2fae625718f854ec5d2587a01a2da7", null ],
-    [ "Register", "d7/df4/a20182.html#a524c071390365b7dab59bc7a79b50f15", null ],
-    [ "_lastMSTime", "d7/df4/a20182.html#a013e9e0eef93583722f7d347c2ebbc49", null ],
-    [ "_lastOrientation", "d7/df4/a20182.html#a2537b325ff57b867092f3d9a1bd0fa8b", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d7/df4/a20182.html#a2239253c2c4760b130ace4a07ef1e8c4", null ],
+    [ "CanAIAttack", "d7/df4/a20182.html#a891e354dc27f0d53e06a0cf2eea46970", null ],
+    [ "Reset", "d7/df4/a20182.html#a79a1081a50ded7afc5f81ed4234be59d", null ],
+    [ "UpdateAI", "d7/df4/a20182.html#a58c5f53f74055b89c11ed27ffe908732", null ],
+    [ "timer1", "d7/df4/a20182.html#aab38ff79ca8fc867a3d6c6512d0376c8", null ],
+    [ "timer2", "d7/df4/a20182.html#a7b4eb188939c15f11a6b2532853ad798", null ]
 ];

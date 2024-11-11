@@ -1,5 +1,6 @@
 var a21778 =
 [
-    [ "npc_black_knight_graveyardAI", "dc/d86/a21778.html#a908ccf6763240ba0c0ebdf2dec6e1b36", null ],
-    [ "MoveInLineOfSight", "dc/d86/a21778.html#aa5c80b5759656e3865d6721161f9f005", null ]
+    [ "npc_frostbrood_skytalonAI", "dc/ddd/a21782.html", "dc/ddd/a21782" ],
+    [ "npc_frostbrood_skytalon", "dc/d86/a21778.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "dc/d86/a21778.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

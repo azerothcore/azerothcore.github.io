@@ -1,6 +1,9 @@
 var a21230 =
 [
-    [ "HandleEffectPeriodic", "de/d7a/a21230.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
-    [ "PrepareAuraScript", "de/d7a/a21230.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
-    [ "Register", "de/d7a/a21230.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
+    [ "npc_warmage_coldarraAI", "de/d7a/a21230.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
+    [ "AttackStart", "de/d7a/a21230.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
+    [ "JustEngagedWith", "de/d7a/a21230.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
+    [ "Reset", "de/d7a/a21230.html#adf5094ba2bee34ec793124e798d5af8f", null ],
+    [ "UpdateAI", "de/d7a/a21230.html#a14b221265cc38b4061c52b687274a398", null ],
+    [ "m_uiTimer", "de/d7a/a21230.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
 ];

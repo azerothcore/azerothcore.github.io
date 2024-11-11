@@ -1,7 +1,6 @@
 var a18634 =
 [
-    [ "HandleGameObjectDamage", "de/d6c/a18634.html#a811edfe01c1784664b5b4253d2305b4e", null ],
-    [ "PrepareSpellScript", "de/d6c/a18634.html#a0cfedeba2a747777de292b8f30b6752b", null ],
-    [ "Register", "de/d6c/a18634.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
-    [ "Validate", "de/d6c/a18634.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
+    [ "FilterTargets", "de/d6c/a18634.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
+    [ "PrepareSpellScript", "de/d6c/a18634.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
+    [ "Register", "de/d6c/a18634.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
 ];

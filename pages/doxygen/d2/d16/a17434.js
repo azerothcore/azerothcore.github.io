@@ -1,10 +1,14 @@
 var a17434 =
 [
-    [ "npc_cult_fanaticAI", "d2/d16/a17434.html#a766e536288b84110f88a8bd282e97932", null ],
-    [ "JustEngagedWith", "d2/d16/a17434.html#a709b75f4b1519bc7c6988985a22d076f", null ],
-    [ "Reset", "d2/d16/a17434.html#a772830df1d16d0463c8c00f14c337db0", null ],
-    [ "SpellHit", "d2/d16/a17434.html#a17c02a83b522c9717de3d89517104e42", null ],
-    [ "UpdateAI", "d2/d16/a17434.html#ac79afdab3721d78d2b7e5da360083cea", null ],
-    [ "_instance", "d2/d16/a17434.html#a7448fdf85cccfcb12509b0274205bff4", null ],
-    [ "events", "d2/d16/a17434.html#a9576978141062fa1babbbc5ed42483c4", null ]
+    [ "npc_putricide_oozeAI", "d2/d16/a17434.html#a5b3200110d6cd8ac1311220ab2ee3385", null ],
+    [ "CastMainSpell", "d2/d16/a17434.html#a62c9027b6d8a7812fcf5c0023621ef70", null ],
+    [ "IsSummonedBy", "d2/d16/a17434.html#a8e96a50b9a35f6220bf6c824c1acce58", null ],
+    [ "SelectNewTarget", "d2/d16/a17434.html#a0a4167a73249967fcf268683f936647d", null ],
+    [ "SetGUID", "d2/d16/a17434.html#a4820e07300bfd50980e42faac3327fec", null ],
+    [ "SpellHit", "d2/d16/a17434.html#ab9d288f8eded19720a0aee3bd91920d2", null ],
+    [ "SpellHitTarget", "d2/d16/a17434.html#a501e0f46abdb1bcc0d99ab9792f738fe", null ],
+    [ "UpdateAI", "d2/d16/a17434.html#a508fe1a9974f2ffa36c72575c2d4b252", null ],
+    [ "_hitTargetSpellId", "d2/d16/a17434.html#a728b62580e7a84e9947a45b460ab140c", null ],
+    [ "_newTargetSelectTimer", "d2/d16/a17434.html#a9615a0e6c73c155330c1791c2a205553", null ],
+    [ "targetGUID", "d2/d16/a17434.html#ae01b7ffe31548aa15d913cc28fa32422", null ]
 ];

@@ -1,6 +1,5 @@
 var a19894 =
 [
-    [ "npc_ulduar_icicleAI", "df/d76/a19898.html", "df/d76/a19898" ],
-    [ "npc_ulduar_icicle", "d8/d89/a19894.html#a1ab79b2fa3e64779f62b96c195222683", null ],
-    [ "GetAI", "d8/d89/a19894.html#a71dd83d544307b11bcde58f9aeea097c", null ]
+    [ "achievement_getting_cold_in_here", "d8/d89/a19894.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
+    [ "OnCheck", "d8/d89/a19894.html#aeafd382d378381f754da6ee04d382276", null ]
 ];

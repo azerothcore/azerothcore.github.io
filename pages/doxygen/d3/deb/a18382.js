@@ -1,7 +1,6 @@
 var a18382 =
 [
-    [ "OnApply", "d3/deb/a18382.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
-    [ "OnRemove", "d3/deb/a18382.html#a697a7c76f944b5df956a9de07746b7a9", null ],
-    [ "PrepareAuraScript", "d3/deb/a18382.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
-    [ "Register", "d3/deb/a18382.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
+    [ "npc_icc_skybreaker_luminaryAI", "d7/df4/a18386.html", "d7/df4/a18386" ],
+    [ "npc_icc_skybreaker_luminary", "d3/deb/a18382.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
+    [ "GetAI", "d3/deb/a18382.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
 ];

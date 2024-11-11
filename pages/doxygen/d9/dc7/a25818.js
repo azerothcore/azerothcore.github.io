@@ -1,8 +1,8 @@
 var a25818 =
 [
-    [ "HandleApply", "d9/dc7/a25818.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "d9/dc7/a25818.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "d9/dc7/a25818.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "d9/dc7/a25818.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "d9/dc7/a25818.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "CheckProc", "d9/dc7/a25818.html#ac6b3ce1ff227a140b77e177198675dbf", null ],
+    [ "HandleProc", "d9/dc7/a25818.html#ae5ed8237f49454279db6348dbde653ad", null ],
+    [ "PrepareAuraScript", "d9/dc7/a25818.html#a1ee84242579d4cd81d6313f78354729b", null ],
+    [ "Register", "d9/dc7/a25818.html#a8f16147f2dfc433458ad32529f7d25d1", null ],
+    [ "Validate", "d9/dc7/a25818.html#a787639c45505da58aeb2174148ef4f83", null ]
 ];

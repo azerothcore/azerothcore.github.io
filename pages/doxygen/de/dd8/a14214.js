@@ -1,5 +1,7 @@
 var a14214 =
 [
-    [ "npc_pilgrims_bounty_plate", "de/dd8/a14214.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
-    [ "SpellHit", "de/dd8/a14214.html#a7797b7a532336542ef37f0643df8dec0", null ]
+    [ "PeriodicTick", "de/dd8/a14214.html#aa94e4d6a31a08959a5287b863737c2e2", null ],
+    [ "PrepareAuraScript", "de/dd8/a14214.html#a59a9c4dfe06859daac5bb69fa5d20e95", null ],
+    [ "Register", "de/dd8/a14214.html#a24058b120f4fa06b89f6d582c53a365a", null ],
+    [ "Validate", "de/dd8/a14214.html#a093b09be5abde91a1487d67a7a554d30", null ]
 ];

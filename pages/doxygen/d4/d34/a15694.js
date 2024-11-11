@@ -1,7 +1,7 @@
 var a15694 =
 [
-    [ "HandleHit", "d4/d34/a15694.html#abd59d91ab50eb8945a4a00157d9d5564", null ],
-    [ "PrepareSpellScript", "d4/d34/a15694.html#a27549f3cacc1732bbc1e61209e0f4905", null ],
-    [ "Register", "d4/d34/a15694.html#af132eee38064c5123f4e01d52efb9314", null ],
-    [ "Validate", "d4/d34/a15694.html#accad8dfdf29a1475b6f272259f1ed9bf", null ]
+    [ "npc_orb_carrierAI", "d4/d34/a15694.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "d4/d34/a15694.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "d4/d34/a15694.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "d4/d34/a15694.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

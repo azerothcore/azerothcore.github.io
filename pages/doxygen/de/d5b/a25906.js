@@ -1,8 +1,7 @@
 var a25906 =
 [
-    [ "CheckProc", "de/d5b/a25906.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
-    [ "HandleProc", "de/d5b/a25906.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
-    [ "PrepareAuraScript", "de/d5b/a25906.html#a876c1bda52c99c52249444414196b1d4", null ],
-    [ "Register", "de/d5b/a25906.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
-    [ "Validate", "de/d5b/a25906.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
+    [ "HandleEffectRemove", "de/d5b/a25906.html#a814687d3938e966f8721438e1a722f77", null ],
+    [ "PrepareAuraScript", "de/d5b/a25906.html#a2144b0602501471a4001883ce9de6db3", null ],
+    [ "Register", "de/d5b/a25906.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
+    [ "AuraEffectHandleModes", "de/d5b/a25906.html#ab291f6c6f269ec7004df39a043f49efd", null ]
 ];

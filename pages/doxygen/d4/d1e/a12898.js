@@ -1,6 +1,6 @@
 var a12898 =
 [
-    [ "npc_madrigosaAI", "d3/d2f/a12902.html", "d3/d2f/a12902" ],
-    [ "npc_madrigosa", "d4/d1e/a12898.html#a173d8f6611181fe4985fab39629c06cf", null ],
-    [ "GetAI", "d4/d1e/a12898.html#a7f5fc53ca22c7ffbbbaa91d447ac6f3e", null ]
+    [ "HandleActivateObject", "d4/d1e/a12898.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
+    [ "PrepareSpellScript", "d4/d1e/a12898.html#afc844250ea7ba48330edfda305fa856c", null ],
+    [ "Register", "d4/d1e/a12898.html#a6d77f6848397724e61c1db7a80de7139", null ]
 ];

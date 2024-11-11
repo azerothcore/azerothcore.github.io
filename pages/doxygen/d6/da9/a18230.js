@@ -1,6 +1,6 @@
 var a18230 =
 [
-    [ "HandleScript", "d6/da9/a18230.html#a930b8a515b5d156c16925dc218cf8172", null ],
-    [ "PrepareSpellScript", "d6/da9/a18230.html#a892b0ba0f6541b3557a0200be5028479", null ],
-    [ "Register", "d6/da9/a18230.html#a1eb85bc675a89ef9679e673c1fea9a08", null ]
+    [ "npc_captain_brandonAI", "d6/da9/a18230.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d6/da9/a18230.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d6/da9/a18230.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

@@ -1,6 +1,6 @@
 var a19986 =
 [
-    [ "HandleAfterEffectApply", "d0/dde/a19986.html#ac8b5cddcf66c1f43c4ab0461354e97f1", null ],
-    [ "PrepareAuraScript", "d0/dde/a19986.html#a439799df0d6ca43e6a81930e3e4b5334", null ],
-    [ "Register", "d0/dde/a19986.html#adce13201dd11c6ba83883b12ad32d1f6", null ]
+    [ "HandleInstaKill", "d0/dde/a19986.html#a593786eb89bf77e05dad4b502ffc1925", null ],
+    [ "PrepareSpellScript", "d0/dde/a19986.html#aa89401a4c6b1c85e4242bda45933b0ad", null ],
+    [ "Register", "d0/dde/a19986.html#a46f2c2658e6b55f091bf8894f06a787c", null ]
 ];

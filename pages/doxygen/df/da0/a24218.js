@@ -1,6 +1,9 @@
 var a24218 =
 [
-    [ "npc_pet_pri_shadowfiend", "df/da0/a24218.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "df/da0/a24218.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "df/da0/a24218.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "HandleAfterHit", "df/da0/a24218.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
+    [ "Load", "df/da0/a24218.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
+    [ "PrepareSpellScript", "df/da0/a24218.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
+    [ "Register", "df/da0/a24218.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
+    [ "Validate", "df/da0/a24218.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
+    [ "_executed", "df/da0/a24218.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
 ];

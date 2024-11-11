@@ -1,6 +1,6 @@
 var a17350 =
 [
-    [ "PrepareSpellScript", "d5/d7a/a17350.html#a4878ffa30feb16e98d3945f8a6e3c863", null ],
-    [ "Register", "d5/d7a/a17350.html#a651f52f7d242251ff69d100fd69376e4", null ],
-    [ "SelectTarget", "d5/d7a/a17350.html#aede083ebebe38deb5898ff028564ef95", null ]
+    [ "npc_darnavanAI", "dd/df7/a17354.html", "dd/df7/a17354" ],
+    [ "npc_darnavan", "d5/d7a/a17350.html#ac358ca123155165395fa5f7ec02c9dab", null ],
+    [ "GetAI", "d5/d7a/a17350.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
 ];

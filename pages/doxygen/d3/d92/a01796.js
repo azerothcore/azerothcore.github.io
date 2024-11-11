@@ -1,13 +1,12 @@
 var a01796 =
 [
-    [ "instance_sunken_temple", "d6/dbb/a12870.html", "d6/dbb/a12870" ],
-    [ "instance_sunken_temple::instance_sunken_temple_InstanceMapScript", "d2/d6c/a12874.html", "d2/d6c/a12874" ],
-    [ "at_malfurion_stormrage", "d9/db6/a12878.html", "d9/db6/a12878" ],
-    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an_aura", "d5/d93/a12882.html", "d5/d93/a12882" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "dc/dc1/a12886.html", "dc/dc1/a12886" ],
-    [ "MalfurionMisc", "d3/d92/a01796.html#a754fcfafd80b5a6c2ea444f49cfbc7d1", [
-      [ "QUEST_ERANIKUS_TYRANT_OF_DREAMS", "d3/d92/a01796.html#a754fcfafd80b5a6c2ea444f49cfbc7d1a99089f2ff32693b053abae21941aed5d", null ],
-      [ "QUEST_THE_CHARGE_OF_DRAGONFLIGHTS", "d3/d92/a01796.html#a754fcfafd80b5a6c2ea444f49cfbc7d1aabeeb62adbb72d2616aa2e6e393f2526", null ]
+    [ "ACScriptName", "d3/d92/a01796.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
+    [ "DataHeader", "d3/d92/a01796.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "RegisterAuchenaiCryptsCreatureAI", "d3/d92/a01796.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
+    [ "ACDataTypes", "d3/d92/a01796.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
+      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "d3/d92/a01796.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
+      [ "DATA_EXARCH_MALADAAR", "d3/d92/a01796.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
     ] ],
-    [ "AddSC_instance_sunken_temple", "d3/d92/a01796.html#ab3f2a91fe096585f54078e8884cb25f7", null ]
+    [ "GetAuchenaiCryptsAI", "d3/d92/a01796.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
+    [ "EncounterCount", "d3/d92/a01796.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

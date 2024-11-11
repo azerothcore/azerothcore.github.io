@@ -1,12 +1,10 @@
 var a04037 =
 [
-    [ "AchievementScript", "dc/dfb/a09918.html", "dc/dfb/a09918" ],
-    [ "AchievementHook", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1", [
-      [ "ACHIEVEMENTHOOK_SET_REALM_COMPLETED", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782", null ],
-      [ "ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e", null ],
-      [ "ACHIEVEMENTHOOK_IS_REALM_COMPLETED", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7", null ],
-      [ "ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048", null ],
-      [ "ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1", null ],
-      [ "ACHIEVEMENTHOOK_END", "df/d11/a04037.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c", null ]
-    ] ]
+    [ "EnchStoreItem", "d1/dc3/a08086.html", "d1/dc3/a08086" ],
+    [ "EnchantmentStore", "df/d11/a04037.html#ab462bc366dd954f1c0b539c408b74c01", null ],
+    [ "EnchStoreList", "df/d11/a04037.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
+    [ "GenerateEnchSuffixFactor", "df/d11/a04037.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "df/d11/a04037.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "df/d11/a04037.html#a376fabf7bba54eaf928217f860f1c33b", null ],
+    [ "RandomItemEnch", "df/d11/a04037.html#a6aeb6f30f019ca8d9839fcf41beb1ac7", null ]
 ];

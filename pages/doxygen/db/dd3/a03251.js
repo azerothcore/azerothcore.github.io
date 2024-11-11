@@ -1,4 +1,4 @@
 var a03251 =
 [
-    [ "InstanceMapScript", "dc/d25/a10046.html", "dc/d25/a10046" ]
+    [ "ItemScript", "de/dff/a10050.html", "de/dff/a10050" ]
 ];

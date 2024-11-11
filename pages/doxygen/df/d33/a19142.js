@@ -1,12 +1,6 @@
 var a19142 =
 [
-    [ "npc_oculus_drakeAI", "df/d33/a19142.html#a214d9b77a5653f1a5f60106081eaf683", null ],
-    [ "IsSummonedBy", "df/d33/a19142.html#a151e59f7b6032d5ed62f9f0ed2923f40", null ],
-    [ "MovementInform", "df/d33/a19142.html#a5f6de11b9cd3c0d6593d7d249cb59555", null ],
-    [ "PassengerBoarded", "df/d33/a19142.html#a5efc6f166b5fd77fa329b17e1e143379", null ],
-    [ "SpellHitTarget", "df/d33/a19142.html#aebb8fb75777d7fc3ddc69dc558b08f7e", null ],
-    [ "UpdateAI", "df/d33/a19142.html#a8ecaebfcf1c1fbe8ed263be6148ccef6", null ],
-    [ "despawnTimer", "df/d33/a19142.html#a560dc0936a78267a4036b209c6718732", null ],
-    [ "JustSummoned", "df/d33/a19142.html#a8b656a464525e881944e72e9486b0eb9", null ],
-    [ "m_pInstance", "df/d33/a19142.html#a4df6c06ec857086f7a2747cab2c4703c", null ]
+    [ "boss_volkhanAI", "df/db6/a19146.html", "df/db6/a19146" ],
+    [ "boss_volkhan", "df/d33/a19142.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
+    [ "GetAI", "df/d33/a19142.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
 ];

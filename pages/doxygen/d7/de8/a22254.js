@@ -1,5 +1,6 @@
 var a22254 =
 [
-    [ "OutdoorPvP_grizzly_hills", "d7/de8/a22254.html#aa020d8120c62874fb15b4623bbb714d9", null ],
-    [ "GetOutdoorPvP", "d7/de8/a22254.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
+    [ "instance_auchenai_crypts_InstanceMapScript", "db/d16/a22258.html", "db/d16/a22258" ],
+    [ "instance_auchenai_crypts", "d7/de8/a22254.html#a8b16924167c54a9d8120bac67bc10fed", null ],
+    [ "GetInstanceScript", "d7/de8/a22254.html#a99e47df95fde07d4a6e7687634805b93", null ]
 ];

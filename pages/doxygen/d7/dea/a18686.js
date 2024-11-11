@@ -1,7 +1,6 @@
 var a18686 =
 [
-    [ "HandleScriptEffect", "d7/dea/a18686.html#afa9d5c6fd0666a7fa1a6f4d5acabe782", null ],
-    [ "PrepareSpellScript", "d7/dea/a18686.html#a21a3175346c9b12c02205f2d33da3b86", null ],
-    [ "Register", "d7/dea/a18686.html#af5f279ad20e9153f201262eaa7615978", null ],
-    [ "Validate", "d7/dea/a18686.html#a635ff34619767f657778016e1eb901aa", null ]
+    [ "boss_maexxnaAI", "d2/d02/a18690.html", "d2/d02/a18690" ],
+    [ "boss_maexxna", "d7/dea/a18686.html#ae47a789ac8abe50932b9e000c83b02b2", null ],
+    [ "GetAI", "d7/dea/a18686.html#ab438df4cb61625da35552ca7c867dc64", null ]
 ];

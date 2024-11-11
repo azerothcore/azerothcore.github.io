@@ -1,9 +1,9 @@
 var a22158 =
 [
-    [ "npc_finklesteinAI", "db/da8/a22162.html", "db/da8/a22162" ],
-    [ "npc_finklestein", "d0/d19/a22158.html#aa719b4bb95012c22ef8123e255e32edd", null ],
-    [ "GetAI", "d0/d19/a22158.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
-    [ "OnGossipHello", "d0/d19/a22158.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
-    [ "OnGossipSelect", "d0/d19/a22158.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
-    [ "OnQuestAccept", "d0/d19/a22158.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
+    [ "OPvPCapturePointGH", "d0/d19/a22158.html#a6e46100e50212310af4301c492d5773e", null ],
+    [ "ChangeState", "d0/d19/a22158.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
+    [ "FillInitialWorldStates", "d0/d19/a22158.html#ad1c3ece363da12750c851cf510228a06", null ],
+    [ "HandlePlayerEnter", "d0/d19/a22158.html#afea733c44d129d9a5af78a8337d9e04a", null ],
+    [ "HandlePlayerLeave", "d0/d19/a22158.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
+    [ "SendChangePhase", "d0/d19/a22158.html#aec741b9102829bf77850dc06a49bb8da", null ]
 ];

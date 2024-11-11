@@ -1,7 +1,7 @@
 var a15734 =
 [
-    [ "CheckDistance", "da/d84/a15734.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
-    [ "PrepareSpellScript", "da/d84/a15734.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
-    [ "Register", "da/d84/a15734.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
-    [ "Validate", "da/d84/a15734.html#aa5d7a420154b156ca24e73de2faf912a", null ]
+    [ "OnApply", "da/d84/a15734.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
+    [ "OnRemove", "da/d84/a15734.html#a781994b0be4588f4df29399fc900ec69", null ],
+    [ "PrepareAuraScript", "da/d84/a15734.html#aee648b80e7352edffb20fd60697e1d88", null ],
+    [ "Register", "da/d84/a15734.html#a53c56711e31500f827123c08f44072cb", null ]
 ];

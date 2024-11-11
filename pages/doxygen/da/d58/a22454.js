@@ -1,9 +1,7 @@
 var a22454 =
 [
-    [ "instance_shadow_labyrinth_InstanceMapScript", "da/d58/a22454.html#ada5f19c96bfe623b110389ede032ef53", null ],
-    [ "GetData", "da/d58/a22454.html#ad876ebd581c470f5a3075129076bd1fb", null ],
-    [ "Initialize", "da/d58/a22454.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
-    [ "OnCreatureCreate", "da/d58/a22454.html#a118b4a7a7c872327ec2868c5b0417636", null ],
-    [ "OnUnitDeath", "da/d58/a22454.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
-    [ "_ritualistsAliveCount", "da/d58/a22454.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
+    [ "VerasEnvenom", "da/d58/a22454.html#ac8c5f4fcb63ea5141a71b56324de0b1f", null ],
+    [ "Execute", "da/d58/a22454.html#a4b7853bb835cf28aefe2d5b955372d70", null ],
+    [ "_owner", "da/d58/a22454.html#af9cf231119ab5592be9829784f20d2e0", null ],
+    [ "_targetGUID", "da/d58/a22454.html#a90d62907c775565765fa87903adb94ea", null ]
 ];

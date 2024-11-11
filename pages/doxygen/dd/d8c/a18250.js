@@ -1,7 +1,6 @@
 var a18250 =
 [
-    [ "PeriodicTick", "dd/d8c/a18250.html#ac1bace4fc66349364c84b5784967e9bf", null ],
-    [ "PrepareAuraScript", "dd/d8c/a18250.html#a358193e3340112c04f79c043548c3de0", null ],
-    [ "Register", "dd/d8c/a18250.html#a28f52bc253899aa407e67f9a089c815c", null ],
-    [ "Validate", "dd/d8c/a18250.html#a0dde3447e38e45cea94df44449a19a01", null ]
+    [ "npc_frostwing_vrykulAI", "d4/d70/a18254.html", "d4/d70/a18254" ],
+    [ "npc_frostwing_vrykul", "dd/d8c/a18250.html#ab915aa094ddebd9201a1c626e6427409", null ],
+    [ "GetAI", "dd/d8c/a18250.html#a11678e59b6db9a41c7b6a575339995fd", null ]
 ];

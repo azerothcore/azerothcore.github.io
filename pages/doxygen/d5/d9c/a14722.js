@@ -1,6 +1,9 @@
 var a14722 =
 [
-    [ "FilterTargets", "d5/d9c/a14722.html#ab0cd088c750e9538e2087f58fdaac20e", null ],
-    [ "PrepareSpellScript", "d5/d9c/a14722.html#ae252cbce0ebc63eb4e54bedfc88640ad", null ],
-    [ "Register", "d5/d9c/a14722.html#a3168a3f97ddb38b261a0730405ba27db", null ]
+    [ "boss_fankriss", "d5/d9c/a14722.html#ab6b0ee6c1605aaf148dddd6a6f4788b9", null ],
+    [ "JustEngagedWith", "d5/d9c/a14722.html#a9eaae719a271a95f64ac8076fe807c13", null ],
+    [ "Reset", "d5/d9c/a14722.html#af84010ee103eb81c1e269b03fc640f81", null ],
+    [ "SummonHatchlingWaves", "d5/d9c/a14722.html#a91420e51be346e1b9cfa4efbdec00d76", null ],
+    [ "SummonWorms", "d5/d9c/a14722.html#ada23537921c3a11195450db89eb8fcfe", null ],
+    [ "summonWormSpells", "d5/d9c/a14722.html#a4f9722f1c6aa27be798d4bacbdb5fac6", null ]
 ];

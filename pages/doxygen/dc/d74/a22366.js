@@ -1,14 +1,6 @@
 var a22366 =
 [
-    [ "boss_nexusprince_shaffar", "dc/d74/a22366.html#a2e861fb53bca7a40e967971b5e7be533", null ],
-    [ "JustDied", "dc/d74/a22366.html#abf2fef0888bced83511883027bf4d500", null ],
-    [ "JustEngagedWith", "dc/d74/a22366.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
-    [ "JustSummoned", "dc/d74/a22366.html#a576240b46ce0988f0ef86e1460c831ef", null ],
-    [ "KilledUnit", "dc/d74/a22366.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
-    [ "MoveInLineOfSight", "dc/d74/a22366.html#a71e501225d88851210d2e0e58de27f99", null ],
-    [ "Reset", "dc/d74/a22366.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
-    [ "SummonedCreatureDespawn", "dc/d74/a22366.html#ab806564e96708ca12f444249abd3c88c", null ],
-    [ "UpdateAI", "dc/d74/a22366.html#a147500575a3821262ec718ec023b458c", null ],
-    [ "HasTaunted", "dc/d74/a22366.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
-    [ "summons", "dc/d74/a22366.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
+    [ "HandleScriptEffect", "dc/d74/a22366.html#a21740b341acce23e284a3d4ceea9b6e0", null ],
+    [ "PrepareSpellScript", "dc/d74/a22366.html#addcd30a673390ca8b76eab5ccb5f4245", null ],
+    [ "Register", "dc/d74/a22366.html#aad6959f74932db219e991efd3b3af44a", null ]
 ];

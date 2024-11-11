@@ -1,6 +1,6 @@
 var a19962 =
 [
-    [ "FilterTargets", "de/d0f/a19962.html#a4f77f654ef8bb589fbb81e8cb1ec6ce6", null ],
-    [ "PrepareSpellScript", "de/d0f/a19962.html#a52c6b32ab01a68b258d4fe89730ec32b", null ],
-    [ "Register", "de/d0f/a19962.html#a2e9ee7705a950d6a500ac472ff783b3a", null ]
+    [ "boss_kologarn_eyebeamAI", "d0/d29/a19966.html", "d0/d29/a19966" ],
+    [ "boss_kologarn_eyebeam", "de/d0f/a19962.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
+    [ "GetAI", "de/d0f/a19962.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
 ];

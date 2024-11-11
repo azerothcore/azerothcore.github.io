@@ -1,8 +1,6 @@
 var a00509 =
 [
-    [ "TaskScheduler", "d4/de2/a05442.html", "d4/de2/a05442" ],
-    [ "TaskScheduler::Task", "de/dc0/a05446.html", "de/dc0/a05446" ],
-    [ "TaskScheduler::Compare", "d1/db8/a05450.html", "d1/db8/a05450" ],
-    [ "TaskScheduler::TaskQueue", "db/d2b/a05454.html", "db/d2b/a05454" ],
-    [ "TaskContext", "de/d5f/a05458.html", "de/d5f/a05458" ]
+    [ "VMAP::MapRayCallback", "da/dd2/a04898.html", "da/dd2/a04898" ],
+    [ "VMAP::AreaInfoCallback", "d8/de5/a04902.html", "d8/de5/a04902" ],
+    [ "VMAP::LocationInfoCallback", "d0/dca/a04906.html", "d0/dca/a04906" ]
 ];

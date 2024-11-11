@@ -1,6 +1,5 @@
 var a19942 =
 [
-    [ "npc_ulduar_hodir_mageAI", "da/db1/a19946.html", "da/db1/a19946" ],
-    [ "npc_ulduar_hodir_mage", "d4/d33/a19942.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
-    [ "GetAI", "d4/d33/a19942.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
+    [ "achievement_ignis_shattered", "d4/d33/a19942.html#adbe893b0dd409eb3f10768f81f182f61", null ],
+    [ "OnCheck", "d4/d33/a19942.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
 ];

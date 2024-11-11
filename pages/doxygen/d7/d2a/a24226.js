@@ -1,9 +1,7 @@
 var a24226 =
 [
-    [ "npc_pet_shaman_fire_elemental", "d7/d2a/a24226.html#a3428642963fc9e7588ec92fd838f1af9", null ],
-    [ "InitializeAI", "d7/d2a/a24226.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
-    [ "JustEngagedWith", "d7/d2a/a24226.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
-    [ "UpdateAI", "d7/d2a/a24226.html#a2280e5cc5187a91917a1e517e80e960d", null ],
-    [ "_events", "d7/d2a/a24226.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
-    [ "_initAttack", "d7/d2a/a24226.html#a2df79acc05dd8489e9e994e044b45404", null ]
+    [ "CorpseExplosionCheck", "d7/d2a/a24226.html#aa8b7957705df1d878f5123ffa31a7fd7", null ],
+    [ "operator()", "d7/d2a/a24226.html#aeab379880a8d912d6d0f7b41639edbd4", null ],
+    [ "_allowGhoul", "d7/d2a/a24226.html#abd42a0731af969ceccdfceae722ba276", null ],
+    [ "_casterGUID", "d7/d2a/a24226.html#a497df87745f452716c652e9b1be6d46f", null ]
 ];

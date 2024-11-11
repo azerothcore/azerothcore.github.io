@@ -1,8 +1,11 @@
 var a17230 =
 [
-    [ "ResetEncounterEvent", "d2/dea/a17230.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "d2/dea/a17230.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "d2/dea/a17230.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "d2/dea/a17230.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "d2/dea/a17230.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "CountTargets", "d2/dea/a17230.html#a54f6526359fba124a988ba35c2876fd1", null ],
+    [ "Load", "d2/dea/a17230.html#a32a76ca53528bbfabfcefd2dc6aef4cc", null ],
+    [ "PrepareSpellScript", "d2/dea/a17230.html#a4991d88429ea951c55ef08a90f364d31", null ],
+    [ "Register", "d2/dea/a17230.html#a8bac27d885c8ea0c659c22599c4e97b4", null ],
+    [ "TeleportPlayer", "d2/dea/a17230.html#ac886eae598b55ed4aa9ddbf9ce3a01bd", null ],
+    [ "TriggerWipe", "d2/dea/a17230.html#a0f79722e00e6255d1ed1bf5846d5c839", null ],
+    [ "Validate", "d2/dea/a17230.html#ad2e586d688b413f9ef9a5688d203106a", null ],
+    [ "_playerCount", "d2/dea/a17230.html#a7c116e74c485ca44e5e6e710cfeb5bba", null ]
 ];

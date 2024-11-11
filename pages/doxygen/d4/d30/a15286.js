@@ -1,7 +1,12 @@
 var a15286 =
 [
-    [ "npc_kaya_flathoofAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
-    [ "npc_kaya_flathoof", "d4/d30/a15286.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
-    [ "GetAI", "d4/d30/a15286.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
-    [ "OnQuestAccept", "d4/d30/a15286.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
+    [ "npc_cairne_bloodhoofAI", "d4/d30/a15286.html#ac87f0d10b1886ffa24ae201fdb614441", null ],
+    [ "Reset", "d4/d30/a15286.html#ab58f32a6bd1659b1a54fb056526c121a", null ],
+    [ "sGossipSelect", "d4/d30/a15286.html#aa95b820eb4d3c6c5f1898a67c319b1a6", null ],
+    [ "UpdateAI", "d4/d30/a15286.html#aefcbb7b2da6d1039055c27feeb1f5f9e", null ],
+    [ "_berserkerChargeTimer", "d4/d30/a15286.html#a2efb1949abe83dadf62b5c868ae57fe2", null ],
+    [ "_cleaveTimer", "d4/d30/a15286.html#ab1ed741e998cd7ed088cab3af378b3ca", null ],
+    [ "_mortalStrikeTimer", "d4/d30/a15286.html#a9f33790662ce229669e5d1d6f2aac8b0", null ],
+    [ "_thunderclapTimer", "d4/d30/a15286.html#a6bdca667875353db2badc40fd95a1ce4", null ],
+    [ "_uppercutTimer", "d4/d30/a15286.html#a9f13acd7df900d9bdac64898b183c67d", null ]
 ];

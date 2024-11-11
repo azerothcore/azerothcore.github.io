@@ -1,7 +1,10 @@
 var a14986 =
 [
-    [ "npc_rizzle_sprysprocketAI", "d6/de2/a14990.html", "d6/de2/a14990" ],
-    [ "npc_rizzle_sprysprocket", "df/d23/a14986.html#a3bd65f716b42200cc37d2264ddedf735", null ],
-    [ "GetAI", "df/d23/a14986.html#ae445545476b4046db305117fa635e7f5", null ],
-    [ "OnGossipHello", "df/d23/a14986.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
+    [ "npc_rabid_thistle_bearAI", "df/d23/a14986.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
+    [ "Initialize", "df/d23/a14986.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
+    [ "Reset", "df/d23/a14986.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
+    [ "SpellHit", "df/d23/a14986.html#a62bde5a122748564cc806046bf9dcbaa", null ],
+    [ "UpdateAI", "df/d23/a14986.html#a8f6c5b873756a58760b2861bc8b86804", null ],
+    [ "_events", "df/d23/a14986.html#ad3852bf4588c453642e75fcdc544767b", null ],
+    [ "_playerGUID", "df/d23/a14986.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
 ];

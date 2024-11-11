@@ -1,7 +1,6 @@
 var a13538 =
 [
-    [ "HandleDispel", "d1/d68/a13538.html#a415977576283972ce4a1050c70826d7c", null ],
-    [ "PrepareAuraScript", "d1/d68/a13538.html#a95dfbfe631e8ec9213a32c6f52d3feb1", null ],
-    [ "Register", "d1/d68/a13538.html#a1bbb71eeb2273c2ecd0eb774b68735dc", null ],
-    [ "Validate", "d1/d68/a13538.html#ac496e7bef875ca46660217e74fc3bc74", null ]
+    [ "boss_gahzrankaAI", "d0/d46/a13542.html", "d0/d46/a13542" ],
+    [ "boss_gahzranka", "d1/d68/a13538.html#a9d8e4def6fc00535eef5810127c91e12", null ],
+    [ "GetAI", "d1/d68/a13538.html#a88295e62ebacccc55dc32731863cc041", null ]
 ];

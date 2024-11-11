@@ -1,6 +1,7 @@
 var a24902 =
 [
-    [ "HandleScriptEffect", "d6/df5/a24902.html#a884d0f5f8bf0f3515b4fedd54dd20ebf", null ],
-    [ "PrepareSpellScript", "d6/df5/a24902.html#a45151bb2eacdd642e8f11564d4ef0d65", null ],
-    [ "Register", "d6/df5/a24902.html#ae01695fd336fca36a7d2569ca741fba5", null ]
+    [ "EjectPassenger", "d6/df5/a24902.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
+    [ "PrepareSpellScript", "d6/df5/a24902.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
+    [ "Register", "d6/df5/a24902.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
+    [ "Validate", "d6/df5/a24902.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
 ];

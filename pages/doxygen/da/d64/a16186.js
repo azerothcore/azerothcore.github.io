@@ -1,7 +1,6 @@
 var a16186 =
 [
-    [ "npc_toc_retro_paladinAI", "da/d64/a16186.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "da/d64/a16186.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "da/d64/a16186.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "da/d64/a16186.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "boss_eydisAI", "d2/d07/a16190.html", "d2/d07/a16190" ],
+    [ "boss_eydis", "da/d64/a16186.html#aa555f80882499bc4627e622fbb48b2a4", null ],
+    [ "GetAI", "da/d64/a16186.html#ad49a673431c479fa2f5d9b6da42bbf55", null ]
 ];

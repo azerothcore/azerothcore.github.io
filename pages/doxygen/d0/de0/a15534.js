@@ -1,6 +1,6 @@
 var a15534 =
 [
-    [ "ModDestHeight", "d0/de0/a15534.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d0/de0/a15534.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d0/de0/a15534.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "HandleScriptEffect", "d0/de0/a15534.html#aaa650972803d14e4d74be977430b04f6", null ],
+    [ "PrepareSpellScript", "d0/de0/a15534.html#a1e166c53e2051f3fae1b085a76a08c3f", null ],
+    [ "Register", "d0/de0/a15534.html#a3405c1b04f2e623662c7acaa6810278c", null ]
 ];

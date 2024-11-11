@@ -1,6 +1,6 @@
 var a13178 =
 [
-    [ "instance_the_stockade_InstanceMapScript", "d6/dc0/a13182.html", "d6/dc0/a13182" ],
-    [ "instance_the_stockade", "df/d50/a13178.html#a533049c10a72da4b94f9807017f28c0d", null ],
-    [ "GetInstanceScript", "df/d50/a13178.html#a7a5a4adcd71ae5d22e6729a2d11d68d3", null ]
+    [ "npc_augustus_the_touched", "df/d50/a13178.html#abc84c884345f44cf780410569cdee10c", null ],
+    [ "OnGossipHello", "df/d50/a13178.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
+    [ "OnGossipSelect", "df/d50/a13178.html#a992da9b22693c1fac1148b4ba545b819", null ]
 ];

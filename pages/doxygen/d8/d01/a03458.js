@@ -1,4 +1,6 @@
 var a03458 =
 [
-    [ "ScriptRegistry< AllBattlegroundScript >", "d8/d01/a03458.html#a4a1c5c34c42d3aaca9edc12feb3f7575", null ]
+    [ "Acore::BroadcastTextBuilder", "d0/dd9/a11070.html", "d0/dd9/a11070" ],
+    [ "Acore::CustomChatTextBuilder", "df/d30/a11074.html", "df/d30/a11074" ],
+    [ "Acore::AcoreStringChatBuilder", "d1/d3d/a11078.html", "d1/d3d/a11078" ]
 ];

@@ -1,5 +1,6 @@
 var a26406 =
 [
-    [ "EarthenPowerTargetSelector", "d0/d5a/a26406.html#a61290afcc621c73682160a4e6a6e0f5d", null ],
-    [ "operator()", "d0/d5a/a26406.html#a9f3d7e7bdb3a3affa72da57903f28940", null ]
+    [ "HandleBanish", "d0/d5a/a26406.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
+    [ "PrepareSpellScript", "d0/d5a/a26406.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
+    [ "Register", "d0/d5a/a26406.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
 ];

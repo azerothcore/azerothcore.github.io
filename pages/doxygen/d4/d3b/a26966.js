@@ -1,6 +1,5 @@
 var a26966 =
 [
-    [ "go_bear_trapAI", "d8/da1/a26970.html", "d8/da1/a26970" ],
-    [ "go_bear_trap", "d4/d3b/a26966.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
-    [ "GetAI", "d4/d3b/a26966.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
+    [ "go_soulwellAI", "d4/d3b/a26966.html#af8c28f9d3ddf5fa3591433268d14fc98", null ],
+    [ "GossipHello", "d4/d3b/a26966.html#a3df147478af8930d9b6108a183e9478f", null ]
 ];

@@ -1,7 +1,7 @@
 var a25794 =
 [
-    [ "CheckProc", "dc/d63/a25794.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
-    [ "HandleProc", "dc/d63/a25794.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
-    [ "PrepareAuraScript", "dc/d63/a25794.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
-    [ "Register", "dc/d63/a25794.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
+    [ "FilterTargets", "dc/d63/a25794.html#ad679149423fda97ad5744318520022b1", null ],
+    [ "PrepareSpellScript", "dc/d63/a25794.html#ac57c48690c5ad1b907f56287aee949a4", null ],
+    [ "Register", "dc/d63/a25794.html#aea9b3a6cc4abae242bde76634bcbacd3", null ],
+    [ "Validate", "dc/d63/a25794.html#a2c755f4ce5c3736dd0b0dd79341a4570", null ]
 ];

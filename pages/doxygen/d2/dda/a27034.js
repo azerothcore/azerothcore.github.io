@@ -1,5 +1,5 @@
 var a27034 =
 [
-    [ "go_southfury_moonstone", "d2/dda/a27034.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
-    [ "OnGossipHello", "d2/dda/a27034.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
+    [ "item_petrov_cluster_bombs", "d2/dda/a27034.html#a1a76760f7c4617a40d96b9833e7466df", null ],
+    [ "OnUse", "d2/dda/a27034.html#a14e8a00a532b5aebc8469ff538848f53", null ]
 ];

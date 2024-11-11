@@ -1,6 +1,8 @@
 var a22070 =
 [
-    [ "npc_vehicle_d16_propelled_deliveryAI", "d4/d54/a22074.html", "d4/d54/a22074" ],
-    [ "npc_vehicle_d16_propelled_delivery", "d6/df3/a22070.html#a93bed362ae78231b21327994a3e4cafd", null ],
-    [ "GetAI", "d6/df3/a22070.html#abda3dbcb251d7f1e614d089f630d0d1c", null ]
+    [ "npc_feedin_da_goolzAI", "d6/df3/a22070.html#ada9ba6b4a0dfa5858b76986f8ebaa5d0", null ],
+    [ "UpdateAI", "d6/df3/a22070.html#a7cbe5e54620e2356601c09effbe22928", null ],
+    [ "checkTimer", "d6/df3/a22070.html#a834f91e84fc2dff6a07e46f0b677de3e", null ],
+    [ "findTimer", "d6/df3/a22070.html#a91b49f7c12fed4ddd958171187ccfb47", null ],
+    [ "ghoulFed", "d6/df3/a22070.html#adf256f6a4311f8b7cf6758259cc78f3f", null ]
 ];

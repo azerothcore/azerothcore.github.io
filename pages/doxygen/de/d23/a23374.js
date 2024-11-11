@@ -1,15 +1,10 @@
 var a23374 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "de/d23/a23374.html#a06f7e0f178d45a92f16dc06b68645fba", null ],
-    [ "Initialize", "de/d23/a23374.html#afa054fb11fe777019baa70f46bfd8212", null ],
-    [ "OnCreatureCreate", "de/d23/a23374.html#aa05f08785d9d62db41e8d29ef55db0d8", null ],
-    [ "OnCreatureRemove", "de/d23/a23374.html#a727d4d3bfc52391a088e86fef013617c", null ],
-    [ "OnGameObjectCreate", "de/d23/a23374.html#a020584d79926d170c02655c5e2841127", null ],
-    [ "OnGameObjectRemove", "de/d23/a23374.html#a9a6ac60b68e2a515e771696c5c88b93d", null ],
-    [ "SetBossState", "de/d23/a23374.html#a160269f8d4cde5297d5f70a5f8eec2b2", null ],
-    [ "SetData", "de/d23/a23374.html#a847abafb7b00e9b2cab73a90a16b959e", null ],
-    [ "_columnSet", "de/d23/a23374.html#a2593bf88b0aba019a831b3ca6a8e15b9", null ],
-    [ "_cubesSet", "de/d23/a23374.html#ad59566c515cbea3274d17e483f3b4ef1", null ],
-    [ "_magtheridonGUID", "de/d23/a23374.html#a03e70ccaf8c23d2c775051320c6c4636", null ],
-    [ "_wardersSet", "de/d23/a23374.html#a37b2621d50e8a8f0bee3f089dbce88f9", null ]
+    [ "instance_arcatraz_InstanceMapScript", "de/d23/a23374.html#a4c6594eb7fa1f7213c89ea5af6c70ae0", null ],
+    [ "GetGuidData", "de/d23/a23374.html#aa4bedf168359eaf5332476a6de99c830", null ],
+    [ "OnGameObjectCreate", "de/d23/a23374.html#ad8c84d90b85db5717b6a37fc2343e0aa", null ],
+    [ "SetBossState", "de/d23/a23374.html#a2937e4ea47af542a476bd3399ecc7233", null ],
+    [ "SetData", "de/d23/a23374.html#aca09d4856d5c3e1831ea8753a50a3b71", null ],
+    [ "StasisPodGUIDs", "de/d23/a23374.html#a1fb9824baee2d8d83e030da307f21fc3", null ],
+    [ "WardensShieldGUID", "de/d23/a23374.html#a3cbff5742e05f6cf0544807bce64b1d0", null ]
 ];

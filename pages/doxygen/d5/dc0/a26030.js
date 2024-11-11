@@ -1,9 +1,6 @@
 var a26030 =
 [
-    [ "HandleAfterCast", "d5/dc0/a26030.html#ac08e632064c407346649f525d030d335", null ],
-    [ "HandleDummy", "d5/dc0/a26030.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
-    [ "Load", "d5/dc0/a26030.html#a177525c755b036a79263c0fa6fa4082e", null ],
-    [ "PrepareSpellScript", "d5/dc0/a26030.html#aed99b07a53068b19bddb4daff3449a52", null ],
-    [ "Register", "d5/dc0/a26030.html#a946e56a325d83656d9b43af80d065e45", null ],
-    [ "_triggerSpellId", "d5/dc0/a26030.html#a6697a22b684784853cb1999d41fcaaa7", null ]
+    [ "HandleEffectApply", "d5/dc0/a26030.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
+    [ "PrepareAuraScript", "d5/dc0/a26030.html#a707504eccf42af77f6e6e927d208bc8c", null ],
+    [ "Register", "d5/dc0/a26030.html#a7aeaa28997bbe966274a738cf45323ed", null ]
 ];

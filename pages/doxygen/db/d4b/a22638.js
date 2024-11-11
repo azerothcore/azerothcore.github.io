@@ -1,7 +1,5 @@
 var a22638 =
 [
-    [ "SuckBackEvent", "db/d4b/a22638.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
-    [ "Execute", "db/d4b/a22638.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
-    [ "_action", "db/d4b/a22638.html#abc54669df2dba0238723a40ababe4c0a", null ],
-    [ "_owner", "db/d4b/a22638.html#a4d8bc09803f7786022c1836457ded488", null ]
+    [ "npc_vengeful_spirit", "db/d4b/a22638.html#a06bd2b08a7719ae35dd6ad844ce3b3bd", null ],
+    [ "OnCharmed", "db/d4b/a22638.html#a8aec87a3e6a7af96253035dbd9e813ad", null ]
 ];

@@ -1,9 +1,11 @@
 var a20286 =
 [
-    [ "npc_ulduar_dark_rune_watcherAI", "dd/d7f/a20286.html#a2239253c2c4760b130ace4a07ef1e8c4", null ],
-    [ "CanAIAttack", "dd/d7f/a20286.html#a891e354dc27f0d53e06a0cf2eea46970", null ],
-    [ "Reset", "dd/d7f/a20286.html#a79a1081a50ded7afc5f81ed4234be59d", null ],
-    [ "UpdateAI", "dd/d7f/a20286.html#a58c5f53f74055b89c11ed27ffe908732", null ],
-    [ "timer1", "dd/d7f/a20286.html#aab38ff79ca8fc867a3d6c6512d0376c8", null ],
-    [ "timer2", "dd/d7f/a20286.html#a7b4eb188939c15f11a6b2532853ad798", null ]
+    [ "boss_thorim_arena_npcsAI", "dd/d7f/a20286.html#aab66eff737c803f6680ca5f93baaa6ca", null ],
+    [ "CanAIAttack", "dd/d7f/a20286.html#ae214fabcc4db1f40a15be3369e66b030", null ],
+    [ "JustEngagedWith", "dd/d7f/a20286.html#a60530453c2cbf5f22fb0d45088f90706", null ],
+    [ "Reset", "dd/d7f/a20286.html#a83cb4bdb14a757733333f94d02fbf8db", null ],
+    [ "SelectT", "dd/d7f/a20286.html#a84f22d142aad0ed7354784192bd5df3b", null ],
+    [ "UpdateAI", "dd/d7f/a20286.html#acf09c7b12bce41c38980905457d4dbb4", null ],
+    [ "_isCaster", "dd/d7f/a20286.html#a2c55eacc7b16be459935b586a0654500", null ],
+    [ "events", "dd/d7f/a20286.html#aea5a9f9c915a7827316c48a504bc992e", null ]
 ];

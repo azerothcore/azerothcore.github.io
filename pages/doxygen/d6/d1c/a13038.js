@@ -1,8 +1,7 @@
 var a13038 =
 [
-    [ "CheckCast", "d6/d1c/a13038.html#a414c603646c1a6be9bbb7059abbb7e71", null ],
-    [ "HandleScriptEffect", "d6/d1c/a13038.html#a22f630cb9df4b435a5624f2865915753", null ],
-    [ "PrepareSpellScript", "d6/d1c/a13038.html#a6e6b27ade1cac743946a976dbf343066", null ],
-    [ "Register", "d6/d1c/a13038.html#a4afae0bafceeb6e6a9a26aea2162d4d9", null ],
-    [ "Validate", "d6/d1c/a13038.html#a85779288126b21f516f2feb0238ee65b", null ]
+    [ "HandleRemove", "d6/d1c/a13038.html#a4484cf33e423f23cad9559a6a16ed9b4", null ],
+    [ "PrepareAuraScript", "d6/d1c/a13038.html#a6fa407996b59d98d0eeef877ee89784d", null ],
+    [ "Register", "d6/d1c/a13038.html#a7dc81b47954ee8c10b99f389740de0be", null ],
+    [ "Validate", "d6/d1c/a13038.html#afd94a159c0f429f2a63ffbd0a38d32e3", null ]
 ];

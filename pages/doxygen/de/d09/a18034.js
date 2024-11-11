@@ -1,9 +1,7 @@
 var a18034 =
 [
-    [ "HandleScript", "de/d09/a18034.html#adaab7b03edc6ff147e856dc0cdfc5ad0", null ],
-    [ "Load", "de/d09/a18034.html#aa2a5488ff4706a44350bd969d57a99e1", null ],
-    [ "PrepareSpellScript", "de/d09/a18034.html#a73931c9434114749b9db648665153083", null ],
-    [ "Register", "de/d09/a18034.html#a16b01725a1b2a105df365e0b178a4f0f", null ],
-    [ "SelectTarget", "de/d09/a18034.html#a95be527c43ceeb4801f4e494753c1b59", null ],
-    [ "_target", "de/d09/a18034.html#a2e97dd4fd1fd2ea2ba8bf3d335711de8", null ]
+    [ "AuraRemoveEvent", "de/d09/a18034.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "de/d09/a18034.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "de/d09/a18034.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "de/d09/a18034.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

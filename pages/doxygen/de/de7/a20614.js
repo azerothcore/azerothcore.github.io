@@ -1,11 +1,5 @@
 var a20614 =
 [
-    [ "boss_yoggsaron_llaneAI", "de/de7/a20614.html#a8524834b7dff49844d96b7dc49fd265d", null ],
-    [ "NextStep", "de/de7/a20614.html#a6587e7873455950bda97b2a7d78e6fc5", null ],
-    [ "Reset", "de/de7/a20614.html#a86f9d594562f842d478b63de18e52455", null ],
-    [ "Say", "de/de7/a20614.html#ab619684f15f5325383a413dced7c930e", null ],
-    [ "UpdateAI", "de/de7/a20614.html#a545378189f85968ac925baa06ad608b5", null ],
-    [ "_checkTimer", "de/de7/a20614.html#aa4956f6943adce94a9ed4fec951317d6", null ],
-    [ "_running", "de/de7/a20614.html#a6d6d186febc408ecb830bf7eea3c72bd", null ],
-    [ "_step", "de/de7/a20614.html#a718c0bf307934b9ee9cbb933899c6324", null ]
+    [ "achievement_yogg_saron_kiss_and_make_up", "de/de7/a20614.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
+    [ "OnCheck", "de/de7/a20614.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
 ];

@@ -1,6 +1,7 @@
 var a13202 =
 [
-    [ "HandleSendEvent", "d1/d73/a13202.html#a1be975f4440b823c34cc3e790fcff608", null ],
-    [ "PrepareSpellScript", "d1/d73/a13202.html#a91ac4a392fcf5b6e833fb3f5103d8e06", null ],
-    [ "Register", "d1/d73/a13202.html#a217fb7cb47b08999d49ec04b345b77fe", null ]
+    [ "npc_ranger_lilatha", "d1/d73/a13202.html#abd13a89b41a289edefb9bc21588f8d29", null ],
+    [ "Reset", "d1/d73/a13202.html#a3e804e483b51961193ee1079caba40be", null ],
+    [ "sQuestAccept", "d1/d73/a13202.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
+    [ "WaypointReached", "d1/d73/a13202.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
 ];

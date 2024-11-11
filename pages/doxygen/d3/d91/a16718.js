@@ -1,6 +1,7 @@
 var a16718 =
 [
-    [ "boss_tyrannusAI", "d6/d21/a16722.html", "d6/d21/a16722" ],
-    [ "boss_tyrannus", "d3/d91/a16718.html#a81373192ffea8817cb72b80f4629da43", null ],
-    [ "GetAI", "d3/d91/a16718.html#ad107030de1427d070305f5dcef96c016", null ]
+    [ "HandleEffectPeriodic", "d3/d91/a16718.html#a4802c810efd7dd8a9954845366398e7f", null ],
+    [ "PrepareAuraScript", "d3/d91/a16718.html#a008166d25e7a278507e953325f40ccd5", null ],
+    [ "Register", "d3/d91/a16718.html#ac239d0f42eea59b63c3d31ed275846ea", null ],
+    [ "Validate", "d3/d91/a16718.html#a3fc78060f881262c59151b6eb6a943f8", null ]
 ];

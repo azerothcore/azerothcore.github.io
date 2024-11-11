@@ -1,7 +1,7 @@
 var a18038 =
 [
-    [ "CheckTargetCount", "d9/db1/a18038.html#a44f558248f944464c773105728cffbca", null ],
-    [ "PrepareSpellScript", "d9/db1/a18038.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
-    [ "Register", "d9/db1/a18038.html#aeda833ca8483d337311086b9d0a14081", null ],
-    [ "Validate", "d9/db1/a18038.html#aee84751e352dbfc12472fc15924c48fa", null ]
+    [ "ValithriaDespawner", "d9/db1/a18038.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
+    [ "Execute", "d9/db1/a18038.html#a4f8c63f52996da14078a7196cae3a00d", null ],
+    [ "operator()", "d9/db1/a18038.html#a05bae39d642f294f2ef98151d66ba382", null ],
+    [ "_creature", "d9/db1/a18038.html#a64bf6181ad867efd987edec141ca3bf0", null ]
 ];

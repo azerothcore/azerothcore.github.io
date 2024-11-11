@@ -1,7 +1,9 @@
 var a18630 =
 [
-    [ "OnRemove", "d5/d68/a18630.html#a4e6a66934a01d01c50208459f6771353", null ],
-    [ "PrepareAuraScript", "d5/d68/a18630.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
-    [ "Register", "d5/d68/a18630.html#a4890d35f2b0889156a437c95e49f528c", null ],
-    [ "Validate", "d5/d68/a18630.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d5/d68/a18630.html#ac26671336eec2d84b56a3552d50f8e0a", null ],
+    [ "KilledUnit", "d5/d68/a18630.html#a9c6ce4ace426f2e7aba5a7bf9430bbe3", null ],
+    [ "Reset", "d5/d68/a18630.html#a1715ab3f3f25b56517f6ded84acdbd9f", null ],
+    [ "UpdateAI", "d5/d68/a18630.html#af1b8dafb0aa47ba22b3601d8bf639c22", null ],
+    [ "auraVisualTimer", "d5/d68/a18630.html#a74aea4294c26414d3b60983d14d36e31", null ],
+    [ "sizeTimer", "d5/d68/a18630.html#a73f775b30ad36a595e0d8532067ba042", null ]
 ];

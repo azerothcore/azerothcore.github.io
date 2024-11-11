@@ -1,5 +1,9 @@
 var a14018 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "dd/d8f/a14018.html#a40207493c75d8a63284e08f1f75d56c4", null ],
-    [ "MoveInLineOfSight", "dd/d8f/a14018.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
+    [ "npc_love_in_air_snivel", "dd/d8f/a14018.html#ab04596fb96292f54cf2a10f662dc94a3", null ],
+    [ "AllowAction", "dd/d8f/a14018.html#af1097317f62bbb8f8456124001c73576", null ],
+    [ "MoveInLineOfSight", "dd/d8f/a14018.html#ae6537707109b95fad20e521d07867cdd", null ],
+    [ "Reset", "dd/d8f/a14018.html#a2385ea44d9f44735b193add4a0d0485b", null ],
+    [ "UpdateAI", "dd/d8f/a14018.html#a9e712994663e3442359d2f574ebc812c", null ],
+    [ "delay", "dd/d8f/a14018.html#a548db6245ef875ec47279246e437934c", null ]
 ];

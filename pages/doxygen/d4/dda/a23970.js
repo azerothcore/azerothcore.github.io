@@ -1,6 +1,6 @@
 var a23970 =
 [
-    [ "npc_lord_illidan_stormrageAI", "d1/dcb/a23974.html", "d1/dcb/a23974" ],
-    [ "npc_lord_illidan_stormrage", "d4/dda/a23970.html#ad2f213749e170ec4f9903396d132f5f3", null ],
-    [ "GetAI", "d4/dda/a23970.html#a9aaedc4326b90621965dad522f4af897", null ]
+    [ "npc_unkor_the_ruthlessAI", "d1/dcb/a23974.html", "d1/dcb/a23974" ],
+    [ "npc_unkor_the_ruthless", "d4/dda/a23970.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
+    [ "GetAI", "d4/dda/a23970.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
 ];

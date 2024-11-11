@@ -1,7 +1,5 @@
 var a18902 =
 [
-    [ "boss_naxxramas_miscAI", "d3/d13/a18902.html#affd990236c101d91b31f60eea7135cdf", null ],
-    [ "JustDied", "d3/d13/a18902.html#aae92d4b538907ef829f5f534f16feef1", null ],
-    [ "UpdateAI", "d3/d13/a18902.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
-    [ "timer", "d3/d13/a18902.html#a39af06c7bc635bf85eebf4ed40798006", null ]
+    [ "achievement_chaos_theory", "d3/d13/a18902.html#a3068009fa1fb400439a2c72f00296484", null ],
+    [ "OnCheck", "d3/d13/a18902.html#a68d9a577cb7e005d81f52077707e3555", null ]
 ];

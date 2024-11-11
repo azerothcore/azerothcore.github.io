@@ -1,9 +1,10 @@
 var a20734 =
 [
-    [ "npc_ulduar_keeperAI", "d2/d38/a20734.html#ac69d21f3820f2c01a80ff664c317d111", null ],
-    [ "DoAction", "d2/d38/a20734.html#a03011d04761926d67e43c0bea5a0901f", null ],
-    [ "Reset", "d2/d38/a20734.html#a86971339e6fcbffb3c019e4dc29972b3", null ],
-    [ "SpellHit", "d2/d38/a20734.html#a18f22ca155646a6f40e0627f9d6dc337", null ],
-    [ "UpdateAI", "d2/d38/a20734.html#a9af455266dd2a843ac1a2c4e56d50e78", null ],
-    [ "_keeper", "d2/d38/a20734.html#ad8cd47f6c75042d589fc6fae4603c9f2", null ]
+    [ "npc_dragonflayer_forge_masterAI", "d2/d38/a20734.html#a65ac1cbf9efeef35007359db1622c2f9", null ],
+    [ "JustDied", "d2/d38/a20734.html#a09f0afd788018d00025ea9576aec9748", null ],
+    [ "JustEngagedWith", "d2/d38/a20734.html#a5d9c33547d2af66221c5f8e84e4d8d33", null ],
+    [ "Reset", "d2/d38/a20734.html#a501f5a55fc395c31ffd15b2f6f69d589", null ],
+    [ "dataId", "d2/d38/a20734.html#a4e47e0d615c5004aea74e88103dcb53f", null ],
+    [ "pInstance", "d2/d38/a20734.html#aadbb4bf4ac35b3c67e7ab0a7ae26ce76", null ],
+    [ "prevDataId", "d2/d38/a20734.html#ad3c9046a2e7b8502ea3ef51ede52ab07", null ]
 ];

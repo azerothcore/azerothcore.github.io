@@ -1,8 +1,7 @@
 var a21726 =
 [
-    [ "HandleEffectApply", "d6/dde/a21726.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
-    [ "HandleEffectPeriodic", "d6/dde/a21726.html#a183976530ebf604656db12e41449427e", null ],
-    [ "PrepareAuraScript", "d6/dde/a21726.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
-    [ "Register", "d6/dde/a21726.html#a76be53d506933d4b3c758578b7c33d5f", null ],
-    [ "_posZ", "d6/dde/a21726.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
+    [ "Absorb", "d6/dde/a21726.html#a784b48553696734abac77545df2fc045", null ],
+    [ "CalculateAmount", "d6/dde/a21726.html#a456ee99a71062f6217bda7561e4e7766", null ],
+    [ "PrepareAuraScript", "d6/dde/a21726.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
+    [ "Register", "d6/dde/a21726.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
 ];

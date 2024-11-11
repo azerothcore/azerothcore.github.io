@@ -1,7 +1,6 @@
 var a24354 =
 [
-    [ "CheckCast", "dd/df2/a24354.html#ab215bbeea333d250ecbff0482f4f0966", null ],
-    [ "FilterTargets", "dd/df2/a24354.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
-    [ "PrepareSpellScript", "dd/df2/a24354.html#a83447d184bb2299987d0c54d5af4c910", null ],
-    [ "Register", "dd/df2/a24354.html#a6107ba00471dd346c363db80fe81b698", null ]
+    [ "CalculateAmount", "dd/df2/a24354.html#a8deb31d3b6244f4d8de6050c99b3192e", null ],
+    [ "PrepareAuraScript", "dd/df2/a24354.html#a4090baaee0e4330d3776b5774c5c923a", null ],
+    [ "Register", "dd/df2/a24354.html#a4db48f3a549a04caf746a9459b1c5640", null ]
 ];

@@ -1,11 +1,11 @@
 var a00545 =
 [
-    [ "VMAP::ModelPosition", "da/d8f/a04930.html", "da/d8f/a04930" ],
-    [ "VMAP::MapSpawns", "d9/d75/a04934.html", "d9/d75/a04934" ],
-    [ "VMAP::GroupModel_Raw", "d4/d47/a04938.html", "d4/d47/a04938" ],
-    [ "VMAP::WorldModel_Raw", "da/d88/a04942.html", "da/d88/a04942" ],
-    [ "VMAP::TileAssembler", "d5/d41/a04946.html", "d5/d41/a04946" ],
-    [ "MapData", "d8/deb/a00545.html#a28dc2e567f8620fed1128b6c4cf5b749", null ],
-    [ "TileMap", "d8/deb/a00545.html#abfe766a1b58bbf69ce3b17ff14d1c101", null ],
-    [ "UniqueEntryMap", "d8/deb/a00545.html#a3424b44a092b5f3d8074649ae11ee481", null ]
+    [ "AABound", "d6/d56/a04790.html", "d6/d56/a04790" ],
+    [ "BIH", "de/d4c/a04794.html", "de/d4c/a04794" ],
+    [ "BIH::buildData", "d3/d1a/a04798.html", "d3/d1a/a04798" ],
+    [ "BIH::StackNode", "dc/d6d/a04802.html", "dc/d6d/a04802" ],
+    [ "BIH::BuildStats", "d1/d77/a04806.html", "d1/d77/a04806" ],
+    [ "MAX_STACK_SIZE", "d8/deb/a00545.html#accbb358028675c83675d8b34c386268d", null ],
+    [ "floatToRawIntBits", "d8/deb/a00545.html#ad04403146f53e198de60b6c4bec4246e", null ],
+    [ "intBitsToFloat", "d8/deb/a00545.html#a3b415e235398aa84c4f976084f8e130c", null ]
 ];

@@ -1,6 +1,10 @@
 var a21530 =
 [
-    [ "HandleSendEvent", "de/dd5/a21530.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
-    [ "PrepareSpellScript", "de/dd5/a21530.html#aa632d381ac415feaf226f55fc2cd8520", null ],
-    [ "Register", "de/dd5/a21530.html#a72673f5054cf269cc8da511441f7bd66", null ]
+    [ "npc_emilyAI", "de/dd5/a21530.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
+    [ "JustEngagedWith", "de/dd5/a21530.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
+    [ "JustSummoned", "de/dd5/a21530.html#a4730c94b54d2ee5160011557704b35f2", null ],
+    [ "Reset", "de/dd5/a21530.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
+    [ "WaypointReached", "de/dd5/a21530.html#a0a68676a6eac8fbe2b634098268eb516", null ],
+    [ "_mrfloppyGUID", "de/dd5/a21530.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
+    [ "_RavenousworgGUID", "de/dd5/a21530.html#aa2a5e45366be9f89221453e00179e1a3", null ]
 ];

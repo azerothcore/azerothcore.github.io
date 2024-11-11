@@ -1,5 +1,6 @@
 var a14822 =
 [
-    [ "at_cthun_center", "d6/d1c/a14822.html#a75cf2b77215e0d50c1c89ec9b522ebc3", null ],
-    [ "OnTrigger", "d6/d1c/a14822.html#af744df9577e84ab64749076324e574c9", null ]
+    [ "OnPeriodic", "d6/d1c/a14822.html#a5945e24db52c6bacae7221b085dc877b", null ],
+    [ "PrepareAuraScript", "d6/d1c/a14822.html#acc987aa864a8333de7bd0b770eb9018d", null ],
+    [ "Register", "d6/d1c/a14822.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
 ];

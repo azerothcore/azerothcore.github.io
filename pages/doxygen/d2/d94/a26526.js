@@ -1,6 +1,7 @@
 var a26526 =
 [
-    [ "HandleScriptEffect", "d2/d94/a26526.html#a3f8988017d088d08df08ba8b696b552b", null ],
-    [ "PrepareSpellScript", "d2/d94/a26526.html#a56f5c59c7dc8d4f8117dc64d5a5a3a0b", null ],
-    [ "Register", "d2/d94/a26526.html#a4ebc3c83dd77134af2ee81a46b121d19", null ]
+    [ "FilterTargets", "d2/d94/a26526.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
+    [ "PrepareSpellScript", "d2/d94/a26526.html#a954f00317eab544dd57e657368aab7fb", null ],
+    [ "Register", "d2/d94/a26526.html#a1804684c8685372faf2e88e56b48f5be", null ],
+    [ "Validate", "d2/d94/a26526.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
 ];

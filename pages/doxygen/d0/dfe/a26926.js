@@ -1,5 +1,5 @@
 var a26926 =
 [
-    [ "go_arena_ready_marker", "d0/dfe/a26926.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
-    [ "OnGossipHello", "d0/dfe/a26926.html#a9f51ead2b56d51427ff23be9688388d8", null ]
+    [ "go_southfury_moonstone", "d0/dfe/a26926.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
+    [ "OnGossipHello", "d0/dfe/a26926.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
 ];

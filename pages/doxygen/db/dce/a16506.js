@@ -1,10 +1,10 @@
 var a16506 =
 [
-    [ "HandleAfterEffectAbsorb", "db/dce/a16506.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
-    [ "Load", "db/dce/a16506.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
-    [ "PrepareAuraScript", "db/dce/a16506.html#a0856d66c801715f16cd251ddf9b25a59", null ],
-    [ "Register", "db/dce/a16506.html#a69d8dfebb981b51592770b7b5807bc80", null ],
-    [ "Validate", "db/dce/a16506.html#a55ec42ce316978220103a3a39f3939a3", null ],
-    [ "amount", "db/dce/a16506.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
-    [ "fired", "db/dce/a16506.html#a6a7afa99044644608b16e83328bfd5fa", null ]
+    [ "npc_hor_spiritual_reflectionAI", "db/dce/a16506.html#aac0a916bfa325284b354e7241fe857ab", null ],
+    [ "EnterEvadeMode", "db/dce/a16506.html#a49f1c93206bfff53090c138a3dbf79e5", null ],
+    [ "JustDied", "db/dce/a16506.html#a72073c44f881d4a78552de4119a716d7", null ],
+    [ "JustEngagedWith", "db/dce/a16506.html#ac35e648b93bb39ca831390bf88f6a3e7", null ],
+    [ "Reset", "db/dce/a16506.html#ad1f523fad45c34077e6d6ce7b9a4aefd", null ],
+    [ "UpdateAI", "db/dce/a16506.html#af9613e9309b85317bc6e3a84013dcf89", null ],
+    [ "events", "db/dce/a16506.html#a89a466917aa5634c4c86ecbce21280b7", null ]
 ];

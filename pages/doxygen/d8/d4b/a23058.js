@@ -1,6 +1,6 @@
 var a23058 =
 [
-    [ "HandleScript", "d8/d4b/a23058.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "d8/d4b/a23058.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "d8/d4b/a23058.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "HandleScript", "d8/d4b/a23058.html#ae45f8a366c1594d3723b83ee6e006957", null ],
+    [ "PrepareSpellScript", "d8/d4b/a23058.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
+    [ "Register", "d8/d4b/a23058.html#a6b9e449a64747f0a5715424295b1c30f", null ]
 ];

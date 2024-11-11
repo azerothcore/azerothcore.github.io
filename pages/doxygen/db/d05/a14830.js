@@ -1,10 +1,10 @@
 var a14830 =
 [
-    [ "boss_huhuran", "db/d05/a14830.html#a64e0b20891992764c708cbb661c18196", null ],
-    [ "DamageTaken", "db/d05/a14830.html#adb47086f29b41f4168ad5d1b2728547d", null ],
-    [ "JustEngagedWith", "db/d05/a14830.html#a08f1d6550680d5bcf07332eade115730", null ],
-    [ "Reset", "db/d05/a14830.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
-    [ "UpdateAI", "db/d05/a14830.html#a23962e668f046b373f94ea6a2d75574a", null ],
-    [ "_berserk", "db/d05/a14830.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
-    [ "_hardEnrage", "db/d05/a14830.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
+    [ "npc_anubisath_defender", "db/d05/a14830.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
+    [ "DamageTaken", "db/d05/a14830.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
+    [ "JustDied", "db/d05/a14830.html#a225ca1b3144953bcc5890caf0d32b606", null ],
+    [ "JustEngagedWith", "db/d05/a14830.html#a6505fcae0e99cae44750f16daddc3309", null ],
+    [ "Reset", "db/d05/a14830.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
+    [ "UpdateAI", "db/d05/a14830.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
+    [ "_enraged", "db/d05/a14830.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ]
 ];

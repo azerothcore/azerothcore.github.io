@@ -1,6 +1,10 @@
 var a13446 =
 [
-    [ "npc_lady_sylvanas_windrunner_bfuAI", "d3/d9e/a13450.html", "d3/d9e/a13450" ],
-    [ "npc_lady_sylvanas_windrunner_bfu", "d4/daf/a13446.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
-    [ "GetAI", "d4/daf/a13446.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
+    [ "boss_alyson_antille", "d4/daf/a13446.html#a8b95891ced3f17f67470d1ec7b1a9a3e", null ],
+    [ "GetNearbyFriendlies", "d4/daf/a13446.html#ab99596d5c2eafac8c678378d509bf585", null ],
+    [ "JustEngagedWith", "d4/daf/a13446.html#a7a7d62c52a403ac1d8e5d275a74cad6e", null ],
+    [ "RandomReverseFriendlyList", "d4/daf/a13446.html#afef27de229ba2c3b8beb30809a313237", null ],
+    [ "Reset", "d4/daf/a13446.html#a40d901bde9f8419a1c73aa073f6fb334", null ],
+    [ "UpdateAI", "d4/daf/a13446.html#a15157be42d166a239ab658fc04292e44", null ],
+    [ "_friendlyList", "d4/daf/a13446.html#a0168c4a0f1e9862fe0d83ffac89aa634", null ]
 ];

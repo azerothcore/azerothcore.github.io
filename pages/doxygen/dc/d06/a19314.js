@@ -1,5 +1,6 @@
 var a19314 =
 [
-    [ "boss_sjonnir_dwarfAI", "dc/d06/a19314.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
-    [ "UpdateAI", "dc/d06/a19314.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
+    [ "npc_algalon_worm_holeAI", "d9/d0e/a19318.html", "d9/d0e/a19318" ],
+    [ "npc_algalon_worm_hole", "dc/d06/a19314.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "dc/d06/a19314.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

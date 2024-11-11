@@ -1,5 +1,6 @@
 var a20406 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "dd/d80/a20406.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "dd/d80/a20406.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "boss_yoggsaron_cloudAI", "d1/d89/a20410.html", "d1/d89/a20410" ],
+    [ "boss_yoggsaron_cloud", "dd/d80/a20406.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
+    [ "GetAI", "dd/d80/a20406.html#a2005f062eb9d78c7b09b045eba570b98", null ]
 ];

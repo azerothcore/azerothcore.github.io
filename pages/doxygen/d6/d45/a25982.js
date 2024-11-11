@@ -1,7 +1,7 @@
 var a25982 =
 [
-    [ "HandleApplyEffect", "d6/d45/a25982.html#af95120b26a165196e0310956c245f36f", null ],
-    [ "HandleRemoveEffect", "d6/d45/a25982.html#a59e7d23c969b03aa75ef1da3bf42f6e9", null ],
-    [ "PrepareAuraScript", "d6/d45/a25982.html#ae19e002407db1466f0655db3d14fe0d7", null ],
-    [ "Register", "d6/d45/a25982.html#ae776a5e913fcf1553b7e2a00374a1ee6", null ]
+    [ "HandleEffectPeriodic", "d6/d45/a25982.html#a9347200565cb858cf0cc9cdb897fe1dc", null ],
+    [ "PrepareAuraScript", "d6/d45/a25982.html#a5fc89b09fb226d0d9315081d64f4103e", null ],
+    [ "Register", "d6/d45/a25982.html#ac3741617faacf83a707f1359aab1886e", null ],
+    [ "Validate", "d6/d45/a25982.html#a9378252b6711cc0bec3e63efce026495", null ]
 ];

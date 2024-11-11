@@ -1,9 +1,11 @@
 var a19194 =
 [
-    [ "HandleOnEffectApply", "d5/de6/a19194.html#a6ab047004cc901331d747641f218cf6a", null ],
-    [ "HandleOnEffectRemove", "d5/de6/a19194.html#a9f66217f4785c8240c4b074bbf04b96e", null ],
-    [ "PrepareAuraScript", "d5/de6/a19194.html#aa94b30468b2c853c0d8b86658a43dee4", null ],
-    [ "Register", "d5/de6/a19194.html#a83b0d414a6e97b434f82492fa01ac385", null ],
-    [ "Validate", "d5/de6/a19194.html#a88af7f269f56e474434d51c7ac0eb0a0", null ],
-    [ "_drakeGUID", "d5/de6/a19194.html#a2e0c7df73cc7246524f6d745ff1fbeb1", null ]
+    [ "boss_maiden_of_griefAI", "d5/de6/a19194.html#a521decece7a53165349ebcfb9fb8dfb5", null ],
+    [ "JustDied", "d5/de6/a19194.html#abd3977cca1cbbf4b64c278a641514fc8", null ],
+    [ "JustEngagedWith", "d5/de6/a19194.html#acf30049b09bbaf3e30f2dcb77bf1b4e0", null ],
+    [ "KilledUnit", "d5/de6/a19194.html#a3d2173db5a852a356c187b2d2771b75f", null ],
+    [ "Reset", "d5/de6/a19194.html#a46776004549b0dcfcf73351225adaad8", null ],
+    [ "UpdateAI", "d5/de6/a19194.html#a4e26fc785b3c72982f9d98e0b120e929", null ],
+    [ "events", "d5/de6/a19194.html#aa2d2ccea219b679594d8d8b4a38d70cc", null ],
+    [ "pInstance", "d5/de6/a19194.html#abc195718a208a926f978d7f0fe0e7925", null ]
 ];

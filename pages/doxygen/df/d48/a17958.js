@@ -1,7 +1,7 @@
 var a17958 =
 [
-    [ "CheckTargetCount", "df/d48/a17958.html#a67a1cbbf74fe91a32a51d9ad5056f048", null ],
-    [ "PrepareSpellScript", "df/d48/a17958.html#abd32198867e7f01b21b7de6224a597d4", null ],
-    [ "Register", "df/d48/a17958.html#a671bede7fbc68085cd6075f412822869", null ],
-    [ "Validate", "df/d48/a17958.html#a2f64421bb71988f06a7e2cb71a097d75", null ]
+    [ "CalculateBonus", "df/d48/a17958.html#ae149a739150cb7eb9fb67f19130c0510", null ],
+    [ "OnPeriodic", "df/d48/a17958.html#a19697bd65a325870becc1c30d7deff36", null ],
+    [ "PrepareAuraScript", "df/d48/a17958.html#a77c272d4a26323c421e4b264f79d5b66", null ],
+    [ "Register", "df/d48/a17958.html#aecd8670e3a079c8460cddd5ce0b4f79b", null ]
 ];

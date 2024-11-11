@@ -1,7 +1,5 @@
 var a26650 =
 [
-    [ "HandleDummy", "dd/db7/a26650.html#a3af91500357eb127f813334bdf538dbd", null ],
-    [ "PrepareSpellScript", "dd/db7/a26650.html#ae34ff5e6027efecc34fa770690df5887", null ],
-    [ "Register", "dd/db7/a26650.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
-    [ "Validate", "dd/db7/a26650.html#a0b107442c0b76a018cc019f776c0b785", null ]
+    [ "achievement_bg_av_perfection", "dd/db7/a26650.html#a8a0ef996bdb1244026268922b301184c", null ],
+    [ "OnCheck", "dd/db7/a26650.html#a17e700c17b5144b571f2aeed92a77749", null ]
 ];

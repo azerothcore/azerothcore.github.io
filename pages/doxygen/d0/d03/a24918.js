@@ -1,7 +1,7 @@
 var a24918 =
 [
-    [ "HandleScriptEffect", "d0/d03/a24918.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "d0/d03/a24918.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "d0/d03/a24918.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "d0/d03/a24918.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "PrepareAuraScript", "d0/d03/a24918.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
+    [ "Register", "d0/d03/a24918.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
+    [ "TriggerFoodBuff", "d0/d03/a24918.html#a5d125413491dd377d61b8e30c4979fdd", null ],
+    [ "Validate", "d0/d03/a24918.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
 ];

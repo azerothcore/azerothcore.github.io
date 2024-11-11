@@ -1,8 +1,8 @@
 var a18102 =
 [
-    [ "npc_lk_spirit_bombAI", "d9/d65/a18102.html#a366fb54e68c0e603000183cd68daf6b7", null ],
-    [ "IsSummonedBy", "d9/d65/a18102.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
-    [ "MovementInform", "d9/d65/a18102.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
-    [ "UpdateAI", "d9/d65/a18102.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
-    [ "timer", "d9/d65/a18102.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
+    [ "npc_suppresserAI", "d9/d65/a18102.html#a5787ec6eadae1fc23b84129933ea14e8", null ],
+    [ "AttackStart", "d9/d65/a18102.html#ae36105de1df1dd9841332d9a8e7799be", null ],
+    [ "IsSummonedBy", "d9/d65/a18102.html#a35ec340b2d02a14707fc353428b1298d", null ],
+    [ "UpdateAI", "d9/d65/a18102.html#a1443e8311b6e2d61d6f9abd2e5f40793", null ],
+    [ "_instance", "d9/d65/a18102.html#a3e171216b2d53e00f8e504f47759d9a6", null ]
 ];

@@ -1,7 +1,6 @@
 var a22554 =
 [
-    [ "OnPeriodic", "d6/d8c/a22554.html#a165d47b116b0a53e37b05f664960e6ec", null ],
-    [ "PrepareAuraScript", "d6/d8c/a22554.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
-    [ "Register", "d6/d8c/a22554.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
-    [ "Validate", "d6/d8c/a22554.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
+    [ "boss_essence_of_desireAI", "db/d0a/a22558.html", "db/d0a/a22558" ],
+    [ "boss_essence_of_desire", "d6/d8c/a22554.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
+    [ "GetAI", "d6/d8c/a22554.html#a14b66470c508fa24e214062aeec0aae6", null ]
 ];

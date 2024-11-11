@@ -1,6 +1,7 @@
 var a20906 =
 [
-    [ "boss_skadi_graufAI", "d9/d8f/a20910.html", "d9/d8f/a20910" ],
-    [ "boss_skadi_grauf", "de/d3c/a20906.html#a571db2d2ae21f38b7051319da0f042f6", null ],
-    [ "GetAI", "de/d3c/a20906.html#a9b637a93a572d21691b81b80ec45206d", null ]
+    [ "PrepareAuraScript", "de/d3c/a20906.html#adedc1cb8b42e9cd3c2e68415bca59c6b", null ],
+    [ "Register", "de/d3c/a20906.html#a7225d1f83921e4de06516c1db5a5038a", null ],
+    [ "TriggerFists", "de/d3c/a20906.html#af5d91d679f6bed5afc675b8a5fd90210", null ],
+    [ "Validate", "de/d3c/a20906.html#a977897c569245148eb94892bb42d4ca5", null ]
 ];

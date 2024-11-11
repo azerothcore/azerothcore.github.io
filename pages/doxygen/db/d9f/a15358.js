@@ -1,7 +1,6 @@
 var a15358 =
 [
-    [ "npc_lakota_windsongAI", "d7/dd7/a15362.html", "d7/dd7/a15362" ],
-    [ "npc_lakota_windsong", "db/d9f/a15358.html#a08a585ac36189ec23354c7acb26d223d", null ],
-    [ "GetAI", "db/d9f/a15358.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
-    [ "OnQuestAccept", "db/d9f/a15358.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
+    [ "go_troll_cageAI", "d7/dd7/a15362.html", "d7/dd7/a15362" ],
+    [ "go_troll_cage", "db/d9f/a15358.html#ac571df719edabd9e9ecf5c8bb0e153c2", null ],
+    [ "GetAI", "db/d9f/a15358.html#a807f526225dc9a6b27ac64a7f4a3d9b8", null ]
 ];

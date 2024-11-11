@@ -1,8 +1,5 @@
 var a18802 =
 [
-    [ "boss_maexxna_webwrapAI", "d7/da0/a18802.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
-    [ "IsSummonedBy", "d7/da0/a18802.html#a1d434373ccc7dd54c5de7bc99487170a", null ],
-    [ "JustDied", "d7/da0/a18802.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
-    [ "UpdateAI", "d7/da0/a18802.html#a05220fcded67e15bbd94d13d0b9581a2", null ],
-    [ "victimGUID", "d7/da0/a18802.html#a54081ebfc0df639b7e18b5f079802c92", null ]
+    [ "at_naxxramas_hub_portal", "d7/da0/a18802.html#a946086e8a4651240b84526a1b2d54065", null ],
+    [ "OnTrigger", "d7/da0/a18802.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
 ];

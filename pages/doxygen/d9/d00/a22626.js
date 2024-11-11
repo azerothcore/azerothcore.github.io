@@ -1,7 +1,6 @@
 var a22626 =
 [
-    [ "CheckProc", "d9/d00/a22626.html#a0968b7b32f2d2bef6035e030f544088a", null ],
-    [ "PrepareAuraScript", "d9/d00/a22626.html#ac424e41948196a6e60b790ebcf40783f", null ],
-    [ "Register", "d9/d00/a22626.html#a06bdac68e36b43ee534e937ffd974086", null ],
-    [ "Update", "d9/d00/a22626.html#af6c228840f6af96e353ba964fdd01e54", null ]
+    [ "npc_supremus_punch_invisible_stalker", "d9/d00/a22626.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
+    [ "IsSummonedBy", "d9/d00/a22626.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
+    [ "UpdateAI", "d9/d00/a22626.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
 ];

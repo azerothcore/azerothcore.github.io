@@ -1,5 +1,7 @@
 var a14882 =
 [
-    [ "at_twin_emperors", "d3/d88/a14882.html#a343d482857fa0a45c42f593e591f7754", null ],
-    [ "_OnTrigger", "d3/d88/a14882.html#adf3120b7bf611e0246abb2970711ada3", null ]
+    [ "npc_rizzle_sprysprocketAI", "d9/dc7/a14886.html", "d9/dc7/a14886" ],
+    [ "npc_rizzle_sprysprocket", "d3/d88/a14882.html#a3bd65f716b42200cc37d2264ddedf735", null ],
+    [ "GetAI", "d3/d88/a14882.html#ae445545476b4046db305117fa635e7f5", null ],
+    [ "OnGossipHello", "d3/d88/a14882.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
 ];

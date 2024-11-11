@@ -1,8 +1,10 @@
 var a27670 =
 [
-    [ "HandleDummy", "dc/d28/a27670.html#a3db6982f1162ac6b03771a0e7e432e6d", null ],
-    [ "Load", "dc/d28/a27670.html#a9671be7920dfd3bde2033f0ae43259b0", null ],
-    [ "PrepareSpellScript", "dc/d28/a27670.html#ad50c9141d40b7089fd24a8657d496a8d", null ],
-    [ "Register", "dc/d28/a27670.html#a249a857b1cf5b0c3be6018cb233c75d1", null ],
-    [ "Validate", "dc/d28/a27670.html#ac209048bd5688417c391c2c9b8a72d8b", null ]
+    [ "HasFlag", "dc/d28/a27670.html#abe23ca5437589a38ea57bc93a6197911", null ],
+    [ "CollisionHeight", "dc/d28/a27670.html#afd7385ab3dd949ebe230e0a01cec7158", null ],
+    [ "CollisionWidth", "dc/d28/a27670.html#ab79497759cf169348b8922301fc43b2f", null ],
+    [ "Flags", "dc/d28/a27670.html#a3bb96e232124771e78f8b5db53405106", null ],
+    [ "Id", "dc/d28/a27670.html#aa19fec147703c7542be260c8ec5a0446", null ],
+    [ "MountHeight", "dc/d28/a27670.html#a5300334ce02dd5a3b9ea6796eddb7ced", null ],
+    [ "Scale", "dc/d28/a27670.html#a08d8be1d2dbc9eb67e1f631650ea74da", null ]
 ];

@@ -1,6 +1,6 @@
 var a17518 =
 [
-    [ "AbominationDespawner", "de/da3/a17518.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
-    [ "operator()", "de/da3/a17518.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
-    [ "_owner", "de/da3/a17518.html#af9089e566905b885887a5714ad5b0741", null ]
+    [ "OnRemove", "de/da3/a17518.html#a5b9f23b815b1c85ecf2e56c626ce5077", null ],
+    [ "PrepareAuraScript", "de/da3/a17518.html#a9207d9f59026e1beb7c266ee3a1ef884", null ],
+    [ "Register", "de/da3/a17518.html#ad9eb03a09fc13f6b2b30e9f6cc1990bc", null ]
 ];

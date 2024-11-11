@@ -1,5 +1,6 @@
 var a20766 =
 [
-    [ "AreaTrigger_at_celestial_planetarium_enterance", "db/d0b/a20766.html#ae1503a754a05a77991d9955a2fb74265", null ],
-    [ "OnTrigger", "db/d0b/a20766.html#aa7aa93e00170313de251af4e562c422c", null ]
+    [ "npc_ferocious_rhinoAI", "d9/d51/a20770.html", "d9/d51/a20770" ],
+    [ "npc_ferocious_rhino", "db/d0b/a20766.html#a480c1d0c24cdbe7cd3c47332ee925466", null ],
+    [ "GetAI", "db/d0b/a20766.html#aa5c3cba6b1ed6cffaac578c5449b9b4e", null ]
 ];

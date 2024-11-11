@@ -1,6 +1,9 @@
 var a19226 =
 [
-    [ "npc_spark_of_ionarAI", "d4/db3/a19230.html", "d4/db3/a19230" ],
-    [ "npc_spark_of_ionar", "d5/dd3/a19226.html#a63578a0d77331849b7a48272870af04d", null ],
-    [ "GetAI", "d5/dd3/a19226.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d5/dd3/a19226.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
+    [ "JustEngagedWith", "d5/dd3/a19226.html#a9e6527bc46d7b685d938833d18796cee", null ],
+    [ "MoveInLineOfSight", "d5/dd3/a19226.html#a7449e135f088a2d4b22a423c71118093", null ],
+    [ "MovementInform", "d5/dd3/a19226.html#ac04d90e974f85282737bb5081a123106", null ],
+    [ "UpdateAI", "d5/dd3/a19226.html#afccd77c8e90d129fb3a347205a2102db", null ],
+    [ "events", "d5/dd3/a19226.html#a73c135ec94b41a752fc203c5e20128d0", null ]
 ];

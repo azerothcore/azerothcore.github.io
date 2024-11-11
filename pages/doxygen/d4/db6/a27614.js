@@ -1,6 +1,7 @@
 var a27614 =
 [
-    [ "X", "d4/db6/a27614.html#a55bda49b2eb919415afaf780ca1977de", null ],
-    [ "Y", "d4/db6/a27614.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
-    [ "Z", "d4/db6/a27614.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
+    [ "cutPercent", "d4/db6/a27614.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "d4/db6/a27614.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "d4/db6/a27614.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "d4/db6/a27614.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

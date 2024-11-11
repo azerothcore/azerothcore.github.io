@@ -1,14 +1,10 @@
 var a21058 =
 [
-    [ "boss_erekemAI", "dd/d61/a21058.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
-    [ "EnterEvadeMode", "dd/d61/a21058.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
-    [ "GetChainHealTargetGUID", "dd/d61/a21058.html#aa346cbaded883bbb3806acf9cb32579a", null ],
-    [ "JustDied", "dd/d61/a21058.html#a12e7fb5389977dcacb4e1eadda771467", null ],
-    [ "JustEngagedWith", "dd/d61/a21058.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
-    [ "KilledUnit", "dd/d61/a21058.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
-    [ "MoveInLineOfSight", "dd/d61/a21058.html#a5905809cba20d426c4d222b1e91055bc", null ],
-    [ "Reset", "dd/d61/a21058.html#a338bbc123b1d3adef4f014c3302c4590", null ],
-    [ "UpdateAI", "dd/d61/a21058.html#a234ae447260ae30a137a53fb986e5dc4", null ],
-    [ "events", "dd/d61/a21058.html#a8d4445b6d35f534061818f7708f39f7e", null ],
-    [ "pInstance", "dd/d61/a21058.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
+    [ "npc_azure_invaderAI", "dd/d61/a21058.html#a85f164a6ba24d7a14d77264441a78f46", null ],
+    [ "Reset", "dd/d61/a21058.html#ada44600272b19d9416d957bc52bc3be4", null ],
+    [ "UpdateAI", "dd/d61/a21058.html#a7dfdcb2a88930c6b4150f7f7c825a2df", null ],
+    [ "uiBrutalStrikeTimer", "dd/d61/a21058.html#a4b88a85f3344edbdadde0104668509aa", null ],
+    [ "uiCleaveTimer", "dd/d61/a21058.html#a8b1792a8a405651d602d9ed634f52689", null ],
+    [ "uiImpaleTimer", "dd/d61/a21058.html#aa709ee8919a2d0317d563259c7630c99", null ],
+    [ "uiSunderArmorTimer", "dd/d61/a21058.html#ab2e6d01df033985ac29e963cf2895466", null ]
 ];

@@ -1,6 +1,5 @@
 var a24022 =
 [
-    [ "npc_shattrathflaskvendors", "d3/d47/a24022.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "d3/d47/a24022.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "d3/d47/a24022.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "npc_pet_dk_army_of_the_deadAI", "d3/d47/a24022.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
+    [ "InitializeAI", "d3/d47/a24022.html#af3ecec126ed3d902acd4bfe979382307", null ]
 ];

@@ -1,5 +1,6 @@
 var a16938 =
 [
-    [ "achievement_snakes_whyd_it_have_to_be_snakes", "dc/d7d/a16938.html#a4245e53260b83f77f9b4313e13f1f7d3", null ],
-    [ "OnCheck", "dc/d7d/a16938.html#a1bc62ef6dbdb98b9ca8ea3f3bfc742b0", null ]
+    [ "OnAbsorb", "dc/d7d/a16938.html#aa6582457cd0502ca263433d04b40b64f", null ],
+    [ "PrepareAuraScript", "dc/d7d/a16938.html#a0b6916dd3f6172e59edf477f203c85b1", null ],
+    [ "Register", "dc/d7d/a16938.html#a945ec4037120992e8a2986e7fd2e2c96", null ]
 ];

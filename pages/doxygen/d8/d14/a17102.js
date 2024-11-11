@@ -1,6 +1,6 @@
 var a17102 =
 [
-    [ "HandleScript", "d8/d14/a17102.html#acd11d50f398857dc2a24bd2d63e52222", null ],
-    [ "PrepareSpellScript", "d8/d14/a17102.html#a3d218b009c195b6e0fab5152a95da8ad", null ],
-    [ "Register", "d8/d14/a17102.html#ad7f12515dc21ab6b19148370fd491629", null ]
+    [ "npc_stinky_iccAI", "d4/d05/a17106.html", "d4/d05/a17106" ],
+    [ "npc_stinky_icc", "d8/d14/a17102.html#a8f6a3687d4b330f532a0d892dbf429a0", null ],
+    [ "GetAI", "d8/d14/a17102.html#aaf6b7b1a7469d1e353617f63f11f7781", null ]
 ];

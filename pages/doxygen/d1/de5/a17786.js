@@ -1,6 +1,8 @@
 var a17786 =
 [
-    [ "MysticBuffetTargetFilter", "d1/de5/a17786.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
-    [ "operator()", "d1/de5/a17786.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
-    [ "_caster", "d1/de5/a17786.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
+    [ "NecroticPlagueTargetCheck", "d1/de5/a17786.html#abf9c21cc0041e5981a91abce8fb0a58f", null ],
+    [ "operator()", "d1/de5/a17786.html#a801a176e367a9f4446fe080845477654", null ],
+    [ "_notAura1", "d1/de5/a17786.html#a4f52417f233e1ab06210726670f719f3", null ],
+    [ "_notAura2", "d1/de5/a17786.html#affa9b300cd7a7469b0bdf2a72d380dd6", null ],
+    [ "_sourceObj", "d1/de5/a17786.html#a7cf2e485e65f2396cfdbfe8e646e4d53", null ]
 ];

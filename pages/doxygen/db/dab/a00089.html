@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/IntermediateValues.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/MapBuilder.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,12 +105,21 @@ $(document).ready(function(){initNavTree('db/dab/a00089.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">IntermediateValues.cpp File Reference</div></div>
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">MapBuilder.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">IntermediateValues.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MapBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IntermediateValues.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapTree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ModelInstance.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PathCommon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
+<code>#include &lt;DetourCommon.h&gt;</code><br />
+<code>#include &lt;DetourNavMesh.h&gt;</code><br />
+<code>#include &lt;DetourNavMeshBuilder.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -118,62 +127,14 @@ $(document).ready(function(){initNavTree('db/dab/a00089.html','../../'); initRes
 Namespaces</h2></td></tr>
 <tr class="memitem:d2/db6/a04681"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html">MMAP</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4ebf72895c1d62f0bc7d45804db4bc91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dab/a00089.html#a4ebf72895c1d62f0bc7d45804db4bc91">DEBUG_WRITE</a>(fileExtension,  data)</td></tr>
-<tr class="separator:a4ebf72895c1d62f0bc7d45804db4bc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4ebf72895c1d62f0bc7d45804db4bc91" name="a4ebf72895c1d62f0bc7d45804db4bc91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ebf72895c1d62f0bc7d45804db4bc91">&#9670;&#160;</a></span>DEBUG_WRITE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEBUG_WRITE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">fileExtension, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">data&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> { \</div>
-<div class="line">    sprintf(fileName, (name + fileExtension).c_str(), mapID, tileY, tileX); \</div>
-<div class="line">    FILE* file = fopen(fileName, <span class="stringliteral">&quot;wb&quot;</span>); \</div>
-<div class="line">    if (!file) \</div>
-<div class="line">        { \</div>
-<div class="line">        <span class="keywordtype">char</span> message[1024]; \</div>
-<div class="line">        sprintf(message, <span class="stringliteral">&quot;%sFailed to open %s for writing!\n&quot;</span>,  tileString, fileName); \</div>
-<div class="line">        perror(message); \</div>
-<div class="line">        } \</div>
-<div class="line">            else \</div>
-<div class="line">            debugWrite(file, data); \</div>
-<div class="line">            if (file) fclose(file); \</div>
-<div class="line">            printf(<span class="stringliteral">&quot;%sWriting debug output...                       \r&quot;</span>, tileString); \</div>
-<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../db/dab/a00089.html">IntermediateValues.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../db/dab/a00089.html">MapBuilder.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

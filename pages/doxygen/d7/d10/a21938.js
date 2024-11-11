@@ -1,7 +1,8 @@
 var a21938 =
 [
-    [ "npc_engineer_heliceAI", "d4/d76/a21942.html", "d4/d76/a21942" ],
-    [ "npc_engineer_helice", "d7/d10/a21938.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "d7/d10/a21938.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "d7/d10/a21938.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "npc_freed_protodrakeAI", "d7/d10/a21938.html#a9e80808035be749c87a1170f37ac3daf", null ],
+    [ "MovementInform", "d7/d10/a21938.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
+    [ "Reset", "d7/d10/a21938.html#ab5781438300442bb7bcb4510aec9d233", null ],
+    [ "UpdateAI", "d7/d10/a21938.html#a9e83b133444e977c35e90b700149472c", null ],
+    [ "events", "d7/d10/a21938.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
 ];

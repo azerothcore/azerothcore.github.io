@@ -1,5 +1,6 @@
 var a03611 =
 [
-    [ "MapMgr", "d7/dc0/a09538.html", "d7/dc0/a09538" ],
-    [ "sMapMgr", "d0/d50/a03611.html#a9132749f8376c48b0ca7212eb3293905", null ]
+    [ "BG_SA_BOAT_START", "d0/d50/a03611.html#a2ec6635cf59771fcfd56b16cd670eebc", null ],
+    [ "BG_SA_ROUNDLENGTH", "d0/d50/a03611.html#a1197e8f288608511601a41e8e8ea80ce", null ],
+    [ "BG_SA_WARMUPLENGTH", "d0/d50/a03611.html#a7447506b77b9babea7568349335ea705", null ]
 ];

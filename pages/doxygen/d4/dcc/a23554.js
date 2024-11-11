@@ -1,11 +1,7 @@
 var a23554 =
 [
-    [ "boss_high_astromancer_solarian", "d4/dcc/a23554.html#a2db48cc179539f81b55188de08a7e180", null ],
-    [ "AttackStart", "d4/dcc/a23554.html#acaf94134aef553447e766a5e431c8b83", null ],
-    [ "JustDied", "d4/dcc/a23554.html#a510eb2e4f0770670d6767bc2545375b7", null ],
-    [ "JustEngagedWith", "d4/dcc/a23554.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
-    [ "JustSummoned", "d4/dcc/a23554.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
-    [ "KilledUnit", "d4/dcc/a23554.html#a561a78193615575b7e43e0f21387f1b8", null ],
-    [ "Reset", "d4/dcc/a23554.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
-    [ "UpdateAI", "d4/dcc/a23554.html#a07a76c34a978c31212390cf10ed3e382", null ]
+    [ "boss_gatewatcher_iron_hand", "d4/dcc/a23554.html#aef70e713007af38b510f0a3b8c082b24", null ],
+    [ "JustDied", "d4/dcc/a23554.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
+    [ "JustEngagedWith", "d4/dcc/a23554.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
+    [ "KilledUnit", "d4/dcc/a23554.html#a1973142412b4094dbd9fa51600741148", null ]
 ];

@@ -1,10 +1,17 @@
 var a16346 =
 [
-    [ "boss_dredAI", "da/db0/a16346.html#a4ad04fe31990a37fd6d3a23329350248", null ],
-    [ "GetData", "da/db0/a16346.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
-    [ "JustEngagedWith", "da/db0/a16346.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
-    [ "Reset", "da/db0/a16346.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
-    [ "SetData", "da/db0/a16346.html#a884f48aabc26b054dcd303a91cb88301", null ],
-    [ "UpdateAI", "da/db0/a16346.html#afc12ced9b5026fe3b297560c30e129ed", null ],
-    [ "_raptorCount", "da/db0/a16346.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
+    [ "boss_bronjahmAI", "da/db0/a16346.html#a1cf523f4d7d23187fbc44efee4ca9ea3", null ],
+    [ "DamageTaken", "da/db0/a16346.html#addd45cd8ecccaf5e0f2fd3f08282af28", null ],
+    [ "EnterEvadeMode", "da/db0/a16346.html#aafe8adec1b16ecb324f81ac954889e2a", null ],
+    [ "JustDied", "da/db0/a16346.html#aec27198e51022639fd002879d8afa40d", null ],
+    [ "JustEngagedWith", "da/db0/a16346.html#a60719369456cb55155966ccefffe49ba", null ],
+    [ "JustReachedHome", "da/db0/a16346.html#adacba5b04f9d0c273226f055a19c0b16", null ],
+    [ "JustSummoned", "da/db0/a16346.html#a97836e7dbe9670fc5c08339bee5e4608", null ],
+    [ "KilledUnit", "da/db0/a16346.html#a7d338c31c1ec906f0395f4dfbe88448a", null ],
+    [ "Reset", "da/db0/a16346.html#a553dd0d2dd6f074bc03415f81254bc2b", null ],
+    [ "SpellHitTarget", "da/db0/a16346.html#afdc24fb0a530813e1a6618f469911f89", null ],
+    [ "UpdateAI", "da/db0/a16346.html#a883e2672d391fcc3fd643f550e3a9d45", null ],
+    [ "events", "da/db0/a16346.html#a092d2b12172f7c303bc2b0b51ecc1834", null ],
+    [ "pInstance", "da/db0/a16346.html#aa9f0c2b3e420b61e922af48be84d20d7", null ],
+    [ "summons", "da/db0/a16346.html#ad8b011080db0d4829fbbde4739371d36", null ]
 ];

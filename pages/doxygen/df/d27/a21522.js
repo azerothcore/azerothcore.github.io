@@ -1,6 +1,8 @@
 var a21522 =
 [
-    [ "npc_heated_battleAI", "d6/dce/a21526.html", "d6/dce/a21526" ],
-    [ "npc_heated_battle", "df/d27/a21522.html#aceafde04a60940c1027a6e838ffdc137", null ],
-    [ "GetAI", "df/d27/a21522.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
+    [ "AfterApply", "df/d27/a21522.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "df/d27/a21522.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "df/d27/a21522.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "df/d27/a21522.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "df/d27/a21522.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

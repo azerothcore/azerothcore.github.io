@@ -1,6 +1,11 @@
 var a20978 =
 [
-    [ "boss_emalonAI", "d3/de6/a20982.html", "d3/de6/a20982" ],
-    [ "boss_emalon", "d3/dbe/a20978.html#a2dd481292e02337bebd450f5c9821886", null ],
-    [ "GetAI", "d3/dbe/a20978.html#a345b0663ba89de5e37b87a436c48e446", null ]
+    [ "npc_ichor_globuleAI", "d3/dbe/a20978.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "d3/dbe/a20978.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "d3/dbe/a20978.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "d3/dbe/a20978.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "d3/dbe/a20978.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "d3/dbe/a20978.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "d3/dbe/a20978.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "d3/dbe/a20978.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

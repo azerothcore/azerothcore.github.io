@@ -1,6 +1,6 @@
 var a23918 =
 [
-    [ "npc_mature_netherwing_drakeAI", "df/da9/a23922.html", "df/da9/a23922" ],
-    [ "npc_mature_netherwing_drake", "d8/d26/a23918.html#a3369bd143ff9e46a4ad4c44b6d8c0ec5", null ],
-    [ "GetAI", "d8/d26/a23918.html#ac5a1dad24920396156f22ab02bfab84b", null ]
+    [ "npc_zephyr", "d8/d26/a23918.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "d8/d26/a23918.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "d8/d26/a23918.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

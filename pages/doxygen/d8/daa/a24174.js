@@ -1,10 +1,6 @@
 var a24174 =
 [
-    [ "npc_pet_gen_imp_in_a_bottle", "d8/daa/a24174.html#aa32b7770c2719d77d46fcf6d22989284", null ],
-    [ "InitializeAI", "d8/daa/a24174.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
-    [ "UpdateAI", "d8/daa/a24174.html#a453ec855bb21a30cb72b540ff8f77035", null ],
-    [ "_data", "d8/daa/a24174.html#a982ec923536c2c33353a3673aa425b6a", null ],
-    [ "_hasParty", "d8/daa/a24174.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
-    [ "_ownerGUID", "d8/daa/a24174.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
-    [ "_talkTimer", "d8/daa/a24174.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
+    [ "PrepareSpellScript", "d8/daa/a24174.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
+    [ "RecalculateDamage", "d8/daa/a24174.html#ab6a781160532d7cbb3bb3304eb412514", null ],
+    [ "Register", "d8/daa/a24174.html#a82395d00066e90abc58103b18a5ef4dc", null ]
 ];

@@ -1,7 +1,7 @@
 var a13142 =
 [
-    [ "npc_singularityAI", "de/da3/a13142.html#a3385a5ff1216daed82fb8bf7bb830b21", null ],
-    [ "Reset", "de/da3/a13142.html#ac4fa5b0fe7e1bf62c7deb9197b54f939", null ],
-    [ "UpdateAI", "de/da3/a13142.html#aafa3ceeeb22492ef1ead260a33833bd3", null ],
-    [ "events", "de/da3/a13142.html#a68c7f293c67b7d014411d8f847925ef4", null ]
+    [ "HandleScriptEffect", "de/da3/a13142.html#aa537704c2066df4f5b4c60a775026a83", null ],
+    [ "PrepareSpellScript", "de/da3/a13142.html#ac500902c22102ebfc6dcf6f78f0dd8c1", null ],
+    [ "Register", "de/da3/a13142.html#a1d9cfdc65bd5ae76376e709d0ac891c0", null ],
+    [ "Validate", "de/da3/a13142.html#a9ef5a491b5a06c31cdb0249dc086e32f", null ]
 ];

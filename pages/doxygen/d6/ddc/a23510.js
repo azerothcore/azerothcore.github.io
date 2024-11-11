@@ -1,10 +1,8 @@
 var a23510 =
 [
-    [ "boss_thorngrin_the_tender", "d6/ddc/a23510.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "d6/ddc/a23510.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "d6/ddc/a23510.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "d6/ddc/a23510.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "d6/ddc/a23510.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "d6/ddc/a23510.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "d6/ddc/a23510.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "HandleScriptEffect", "d6/ddc/a23510.html#a7cde39fc0844f19604c8026a853e8216", null ],
+    [ "Load", "d6/ddc/a23510.html#a5d3eb86208c4aa9c6592349d28c5df79", null ],
+    [ "PrepareSpellScript", "d6/ddc/a23510.html#a962de50d1fa35ca16b4753f55e5cbd47", null ],
+    [ "Register", "d6/ddc/a23510.html#aee6bd90e8b39132d4b53b67c22d6c331", null ],
+    [ "_currentSpellId", "d6/ddc/a23510.html#a0ad25535ba345fe9672150af67687305", null ]
 ];

@@ -1,11 +1,25 @@
 var a13990 =
 [
-    [ "npc_elder_kekek", "d7/de6/a13990.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
-    [ "MoveInLineOfSight", "d7/de6/a13990.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
-    [ "Reset", "d7/de6/a13990.html#a97e615bdefba5baf459960fc2987cd69", null ],
-    [ "UpdateAI", "d7/de6/a13990.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
-    [ "orphanGUID", "d7/de6/a13990.html#a98c79e46e051c35819c6025828a519cb", null ],
-    [ "phase", "d7/de6/a13990.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
-    [ "playerGUID", "d7/de6/a13990.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
-    [ "timer", "d7/de6/a13990.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
+    [ "boss_headless_horseman", "d7/de6/a13990.html#a4f791099607d7861cfa193f9b5fc265b", null ],
+    [ "DamageTaken", "d7/de6/a13990.html#a76c6eddf1005774403498d0954571c19", null ],
+    [ "DoAction", "d7/de6/a13990.html#ad5d8645b879a2c97c68e815463a97b49", null ],
+    [ "GetRhymePlayer", "d7/de6/a13990.html#ad4bc4c5364d1c07c21f29747934efc01", null ],
+    [ "JustDied", "d7/de6/a13990.html#aea5a5ee1fce56cefd84ebde29bcc5a1d", null ],
+    [ "JustEngagedWith", "d7/de6/a13990.html#a149ae2b8c688c5b24d3db480b888e36e", null ],
+    [ "JustReachedHome", "d7/de6/a13990.html#a888d573450a2b09d22def41884ed2d30", null ],
+    [ "JustSummoned", "d7/de6/a13990.html#a06a654a822967c02dbab2c75f211e072", null ],
+    [ "KilledUnit", "d7/de6/a13990.html#ad98d9d303815f538e194a55578ae909a", null ],
+    [ "MoveInLineOfSight", "d7/de6/a13990.html#a57a5935e31ef5cc4df2657ddd358afdc", null ],
+    [ "MovementInform", "d7/de6/a13990.html#abccf1fc3c5475e50d45bbd596ff98ce9", null ],
+    [ "Reset", "d7/de6/a13990.html#ac52c6590f78c23149abfb062d5814ded", null ],
+    [ "SpellHit", "d7/de6/a13990.html#ace502054c0e570655be9ea1990b48f9f", null ],
+    [ "SpellHitTarget", "d7/de6/a13990.html#afa5e099de3899e41b3ee04f348c3d6a0", null ],
+    [ "UpdateAI", "d7/de6/a13990.html#aa6741999e5a9a826efb279e014ea4ab8", null ],
+    [ "events", "d7/de6/a13990.html#a2fe31482b5267bfc94d5d68062a46e0c", null ],
+    [ "health", "d7/de6/a13990.html#a076037b8bad3648551997915d97fb9b2", null ],
+    [ "inFight", "d7/de6/a13990.html#a8e33d87467086dc3eae778a579216256", null ],
+    [ "phase", "d7/de6/a13990.html#a9dde0cfcc41ec7d8b9f53e55057adab9", null ],
+    [ "playerGUID", "d7/de6/a13990.html#af0ee0c6da6398d6a84457aab942bb29c", null ],
+    [ "summons", "d7/de6/a13990.html#a5de04d5c0da7c199ec89de9ef40a59fd", null ],
+    [ "talkCount", "d7/de6/a13990.html#a091a925d7040e29efc54a4c5f123591d", null ]
 ];

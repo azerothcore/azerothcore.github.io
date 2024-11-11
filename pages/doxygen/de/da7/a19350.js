@@ -1,8 +1,9 @@
 var a19350 =
 [
-    [ "dark_rune_protectorsAI", "de/da7/a19350.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
-    [ "JustEngagedWith", "de/da7/a19350.html#aa71514efa488ff8f9276cb2a4c166759", null ],
-    [ "Reset", "de/da7/a19350.html#a88305b8ac016175d61a0387d1888671f", null ],
-    [ "UpdateAI", "de/da7/a19350.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
-    [ "events", "de/da7/a19350.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
+    [ "CheckTargets", "de/da7/a19350.html#a9340c167ef70508635092e273c23dcde", null ],
+    [ "CountTargets", "de/da7/a19350.html#a996db37b678143fbc0a392032d29fff5", null ],
+    [ "Load", "de/da7/a19350.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
+    [ "PrepareSpellScript", "de/da7/a19350.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
+    [ "Register", "de/da7/a19350.html#aed312a4408134589fd02bbcb844fd1b7", null ],
+    [ "_targetCount", "de/da7/a19350.html#ac780614674e748274081f9f99a5165fe", null ]
 ];

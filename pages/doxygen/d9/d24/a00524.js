@@ -1,12 +1,7 @@
 var a00524 =
 [
-    [ "MMAP::IMMapMgr", "d5/dab/a04850.html", "d5/dab/a04850" ],
-    [ "MMAP_LOAD_RESULT", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868", [
-      [ "MMAP_LOAD_RESULT_ERROR", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
-      [ "MMAP_LOAD_RESULT_OK", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
-      [ "MMAP_LOAD_RESULT_IGNORED", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ],
-      [ "MMAP_LOAD_RESULT_ERROR", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
-      [ "MMAP_LOAD_RESULT_OK", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
-      [ "MMAP_LOAD_RESULT_IGNORED", "d9/d24/a00524.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ]
-    ] ]
+    [ "GameobjectModelData", "df/d1b/a04950.html", "df/d1b/a04950" ],
+    [ "ModelList", "d9/d24/a00524.html#a2f908ce58f8fea2d0606bfe603d719d1", null ],
+    [ "LoadGameObjectModelList", "d9/d24/a00524.html#a5a80774080fc05f90c7d92213fda6788", null ],
+    [ "model_list", "d9/d24/a00524.html#aa0a0fd13eaa3eba090a3085d41303f12", null ]
 ];

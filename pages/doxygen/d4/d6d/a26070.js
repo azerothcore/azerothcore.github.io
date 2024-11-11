@@ -1,5 +1,6 @@
 var a26070 =
 [
-    [ "PrepareSpellScript", "d4/d6d/a26070.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "d4/d6d/a26070.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "OnApply", "d4/d6d/a26070.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "d4/d6d/a26070.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "d4/d6d/a26070.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

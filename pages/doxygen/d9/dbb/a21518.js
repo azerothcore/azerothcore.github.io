@@ -1,7 +1,11 @@
 var a21518 =
 [
-    [ "CheckRequirement", "d9/dbb/a21518.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d9/dbb/a21518.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d9/dbb/a21518.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d9/dbb/a21518.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "npc_torturer_lecraftAI", "d9/dbb/a21518.html#a0886d83c8ab8b7db728928ecf922031b", null ],
+    [ "JustEngagedWith", "d9/dbb/a21518.html#ac6fa83aa5673bd6c90e128f06e56049e", null ],
+    [ "Reset", "d9/dbb/a21518.html#a13177e318e7777ecb13ba71c4f10f425", null ],
+    [ "SpellHit", "d9/dbb/a21518.html#a837805efcb6c99de55646a232f151ae8", null ],
+    [ "UpdateAI", "d9/dbb/a21518.html#a45919da006b0e767ec38810a6fcbac5d", null ],
+    [ "_events", "d9/dbb/a21518.html#a7879e11a94c32266ed11dc352ae7e802", null ],
+    [ "_playerGUID", "d9/dbb/a21518.html#ab792ceb52fe5c04851f69b9c2922822d", null ],
+    [ "_textCounter", "d9/dbb/a21518.html#aa7560f419ca1486efb9d6c3bda3cedf1", null ]
 ];

@@ -1,6 +1,6 @@
 var a15898 =
 [
-    [ "instance_ruby_sanctum_InstanceMapScript", "dc/d8f/a15902.html", "dc/d8f/a15902" ],
-    [ "instance_ruby_sanctum", "db/d75/a15898.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
-    [ "GetInstanceScript", "db/d75/a15898.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "dc/d8f/a15902.html", "dc/d8f/a15902" ],
+    [ "instance_trial_of_the_champion", "db/d75/a15898.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "db/d75/a15898.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

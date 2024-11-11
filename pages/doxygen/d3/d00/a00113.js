@@ -1,16 +1,23 @@
 var a00113 =
 [
-    [ "DBCFileLoader", "dc/d78/a05094.html", "dc/d78/a05094" ],
-    [ "DBCFileLoader::Record", "d8/dc2/a05098.html", "d8/dc2/a05098" ],
-    [ "DbcFieldFormat", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960", [
-      [ "FT_NA", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c", null ],
-      [ "FT_NA_BYTE", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c", null ],
-      [ "FT_STRING", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29", null ],
-      [ "FT_FLOAT", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a", null ],
-      [ "FT_INT", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a", null ],
-      [ "FT_BYTE", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095", null ],
-      [ "FT_SORT", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642", null ],
-      [ "FT_IND", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036", null ],
-      [ "FT_LOGIC", "d3/d00/a00113.html#a969264ba91452f632e809db524c68960aad79cbf0ed6b926353344f5abde2e4cc", null ]
-    ] ]
+    [ "MetricData", "dd/df0/a05262.html", "dd/df0/a05262" ],
+    [ "Metric", "d7/dc7/a05266.html", "d7/dc7/a05266" ],
+    [ "MetricStopWatch< LoggerType >", "de/d4f/a05270.html", "de/d4f/a05270" ],
+    [ "METRIC_CONCAT", "d3/d00/a00113.html#ad81585df46d4cee988a1222012dbabf1", null ],
+    [ "METRIC_DETAILED_EVENT", "d3/d00/a00113.html#ac782d1c3265f7b707782545777d49d05", null ],
+    [ "METRIC_DETAILED_NO_THRESHOLD_TIMER", "d3/d00/a00113.html#a281633f6f8b252d96029ce8fd29da746", null ],
+    [ "METRIC_DETAILED_TIMER", "d3/d00/a00113.html#a22dcbf78f0d280a4b2b4e0662034efe9", null ],
+    [ "METRIC_DO_CONCAT", "d3/d00/a00113.html#aa861206b38b55c4f39f1ed649defb338", null ],
+    [ "METRIC_EVENT", "d3/d00/a00113.html#ad57573999508dbc7a2c953379996b542", null ],
+    [ "METRIC_TAG", "d3/d00/a00113.html#ab81b5769123c1e5e3870b9b05f25fe0a", null ],
+    [ "METRIC_TIMER", "d3/d00/a00113.html#ad88ae7d281622a32a700443aa3dc51f9", null ],
+    [ "METRIC_UNIQUE_NAME", "d3/d00/a00113.html#adf91483a75eca0531263536ce38d9339", null ],
+    [ "METRIC_VALUE", "d3/d00/a00113.html#a92aedc832ddfc479ecc61289f12be449", null ],
+    [ "sMetric", "d3/d00/a00113.html#a4e89926204845a9c9e315d6f0abec5ef", null ],
+    [ "MetricTag", "d3/d00/a00113.html#a8fdc9a93c03faef11e4c36679e79e3f1", null ],
+    [ "MetricDataType", "d3/d00/a00113.html#a0bb9cc086e32544cb0e43338f83d8e62", [
+      [ "METRIC_DATA_VALUE", "d3/d00/a00113.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155", null ],
+      [ "METRIC_DATA_EVENT", "d3/d00/a00113.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2", null ]
+    ] ],
+    [ "MakeMetricStopWatch", "d3/d00/a00113.html#ab339934305abce426aa1d43c99d65e9f", null ]
 ];

@@ -1,6 +1,12 @@
 var a22602 =
 [
-    [ "HandleSharedRule", "da/dce/a22602.html#a94b783490dafae872b65e0bbfed156b9", null ],
-    [ "PrepareSpellScript", "da/dce/a22602.html#af59695af3afcc51a3c29fcc4053bbfee", null ],
-    [ "Register", "da/dce/a22602.html#a31f2d90059e62da77a719a192d62328b", null ]
+    [ "npc_creature_generator_akama", "da/dce/a22602.html#a8e91cadea7f135ff692635e4d39923e0", null ],
+    [ "DoAction", "da/dce/a22602.html#a01efeecd374056da287e4a1e468472b6", null ],
+    [ "JustSummoned", "da/dce/a22602.html#af58d7b130ed3b6c209c08ae14444bfe3", null ],
+    [ "Reset", "da/dce/a22602.html#a23cf08661802f247147bb23cff30eeab", null ],
+    [ "SummonedCreatureDies", "da/dce/a22602.html#a35b7ecfa659d80a869868b9a2732d92b", null ],
+    [ "UpdateAI", "da/dce/a22602.html#a8c6e3ca67691e7625700f22c5b1c09c5", null ],
+    [ "instance", "da/dce/a22602.html#a109aea7bb0747f8572c1d46e9df2d2a5", null ],
+    [ "spawnCounter", "da/dce/a22602.html#a02d8acace195438fe6e8d4705a043078", null ],
+    [ "summons", "da/dce/a22602.html#a3d532e607c48298ca0464ee630dd27b3", null ]
 ];

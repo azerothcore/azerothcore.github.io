@@ -1,16 +1,13 @@
 var a03041 =
 [
-    [ "SummonList", "d4/dc6/a06094.html", "d4/dc6/a06094" ],
-    [ "EntryCheckPredicate", "d7/d79/a06098.html", "d7/d79/a06098" ],
-    [ "PlayerOrPetCheck", "df/d5b/a06102.html", "df/d5b/a06102" ],
-    [ "ScriptedAI", "de/de4/a06106.html", "de/de4/a06106" ],
-    [ "HealthCheckEventData", "d9/d59/a06110.html", "d9/d59/a06110" ],
-    [ "BossAI", "de/d8c/a06114.html", "de/d8c/a06114" ],
-    [ "WorldBossAI", "df/d58/a06118.html", "df/d58/a06118" ],
-    [ "ObjectList", "dc/d23/a03041.html#acc68161fe019b33e9356ea1473fba71d", null ],
-    [ "GetClosestCreatureWithEntry", "dc/d23/a03041.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
-    [ "GetClosestGameObjectWithEntry", "dc/d23/a03041.html#acaba34b4ac104e5289c265c1f8524b15", null ],
-    [ "GetCreatureListWithEntryInGrid", "dc/d23/a03041.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "dc/d23/a03041.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
-    [ "GetGameObjectListWithEntryInGrid", "dc/d23/a03041.html#ae9abb80c4e811509bca88e65cf817276", null ]
+    [ "PetScript", "d6/dd8/a10078.html", "d6/dd8/a10078" ],
+    [ "PetHook", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404", [
+      [ "PETHOOK_ON_INIT_STATS_FOR_LEVEL", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404a1aa219c404710f806516a47fb4a2c421", null ],
+      [ "PETHOOK_ON_CALCULATE_MAX_TALENT_POINTS_FOR_LEVEL", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404af4173fac4396520c8d5f664cb15cd09a", null ],
+      [ "PETHOOK_CAN_UNLEARN_SPELL_SET", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404a73a664bf8c79a8347a66639e7f4585ed", null ],
+      [ "PETHOOK_CAN_UNLEARN_SPELL_DEFAULT", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404afd7165a69bf431cabc9b485460fde1ce", null ],
+      [ "PETHOOK_CAN_RESET_TALENTS", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404a7c81bb255968b85119ef74e3124abe11", null ],
+      [ "PETHOOK_ON_PET_ADD_TO_WORLD", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404a34b989d3a1e33e5ab31d98bf4a36ee56", null ],
+      [ "PETHOOK_END", "dc/d23/a03041.html#a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911", null ]
+    ] ]
 ];

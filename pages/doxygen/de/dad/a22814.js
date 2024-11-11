@@ -1,7 +1,6 @@
 var a22814 =
 [
-    [ "PrepareAuraScript", "de/dad/a22814.html#a30ec063aa1ddbc3a32066e1f868bf742", null ],
-    [ "Register", "de/dad/a22814.html#a1e62c60bfc2b72811950b627ce1202c3", null ],
-    [ "Update", "de/dad/a22814.html#a3f98767367564734c9877d1870aac31b", null ],
-    [ "Validate", "de/dad/a22814.html#a450460769e0e54e06f1b64b3c63ba0de", null ]
+    [ "HandleScriptEffect", "de/dad/a22814.html#a62ed9bff154c5aab74e044f8f9982263", null ],
+    [ "PrepareSpellScript", "de/dad/a22814.html#a0e87265cf22ef8b4e302b8e216123395", null ],
+    [ "Register", "de/dad/a22814.html#a0d722447d91991462245e8b392d20e10", null ]
 ];

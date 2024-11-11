@@ -1,5 +1,6 @@
 var a04628 =
 [
-    [ "_characterCacheByNameStore", "d3/d6e/a04628.html#a409431c82eb6a62b40d55a773cdb02c6", null ],
-    [ "_characterCacheStore", "d3/d6e/a04628.html#a2a209686002fed926e50d55f7c7ca795", null ]
+    [ "DatabaseWorkerPool< T >", "de/dd0/a05590.html", "de/dd0/a05590" ],
+    [ "MIN_MYSQL_CLIENT_VERSION", "d3/d6e/a04628.html#abfde8cf59610848eff4ea61d09bb8ca7", null ],
+    [ "MIN_MYSQL_SERVER_VERSION", "d3/d6e/a04628.html#acd4a83e86313ca0bb35cb66497bc79b2", null ]
 ];

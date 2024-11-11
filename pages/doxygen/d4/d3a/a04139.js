@@ -1,23 +1,20 @@
 var a04139 =
 [
-    [ "PathGenerator", "d3/d3d/a09706.html", "d3/d3d/a09706" ],
-    [ "DISALLOW_TIME_AFTER_FAIL", "d4/d3a/a04139.html#ad29d27e72c40ec9a02fbdc29ee093857", null ],
-    [ "INVALID_POLYREF", "d4/d3a/a04139.html#a6ed37c24cf4f8cd0008c13f111e01092", null ],
-    [ "MAX_PATH_LENGTH", "d4/d3a/a04139.html#a9eb6992d76f02128388ae95c0415604a", null ],
-    [ "MAX_POINT_PATH_LENGTH", "d4/d3a/a04139.html#ac4c3ae34e2d3733cc39fc1c207d4b814", null ],
-    [ "SMOOTH_PATH_SLOP", "d4/d3a/a04139.html#a9439d6d260a5bf3c1bba446a935b2ce4", null ],
-    [ "SMOOTH_PATH_STEP_SIZE", "d4/d3a/a04139.html#ab1ec8eeebdd39a1cceb896f6fcb996bc", null ],
-    [ "VERTEX_SIZE", "d4/d3a/a04139.html#a14571eb5f0eee95bf614e04c59b0207a", null ],
-    [ "PathType", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3", [
-      [ "PATHFIND_BLANK", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0", null ],
-      [ "PATHFIND_NORMAL", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1", null ],
-      [ "PATHFIND_SHORTCUT", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f", null ],
-      [ "PATHFIND_INCOMPLETE", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be", null ],
-      [ "PATHFIND_NOPATH", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984", null ],
-      [ "PATHFIND_NOT_USING_PATH", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf", null ],
-      [ "PATHFIND_SHORT", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2", null ],
-      [ "PATHFIND_FARFROMPOLY_START", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab", null ],
-      [ "PATHFIND_FARFROMPOLY_END", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9", null ],
-      [ "PATHFIND_FARFROMPOLY", "d4/d3a/a04139.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c", null ]
-    ] ]
+    [ "UpdatefieldFlags", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150", [
+      [ "UF_FLAG_NONE", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a7d1b4f7f2db6116940d9d5939501821a", null ],
+      [ "UF_FLAG_PUBLIC", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da", null ],
+      [ "UF_FLAG_PRIVATE", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150ac5ff327c7c75208435488e55a3008b3c", null ],
+      [ "UF_FLAG_OWNER", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150ab1517a7b1049b7541d6de9ab69402715", null ],
+      [ "UF_FLAG_UNUSED1", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aeead926260fb10c5449766745fd71106", null ],
+      [ "UF_FLAG_ITEM_OWNER", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a590c2755c17b30efbb3bbff85036fb65", null ],
+      [ "UF_FLAG_SPECIAL_INFO", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a5715410f0568125f85e318a57c281cd8", null ],
+      [ "UF_FLAG_PARTY_MEMBER", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150adabd2ae86a3e7c701374be7847446cb7", null ],
+      [ "UF_FLAG_UNUSED2", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a6b9db4521b5b4cc023e15610eef397e1", null ],
+      [ "UF_FLAG_DYNAMIC", "d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a3b75563c8e1c2bfbe672d128cce4b1e5", null ]
+    ] ],
+    [ "CorpseUpdateFieldFlags", "d4/d3a/a04139.html#a4ba9132e74378f888b4724dbbaf147f3", null ],
+    [ "DynamicObjectUpdateFieldFlags", "d4/d3a/a04139.html#aefe3be44e608ab4935e11ea44f8e0ce6", null ],
+    [ "GameObjectUpdateFieldFlags", "d4/d3a/a04139.html#aee13b862f51557c371d3d93341128895", null ],
+    [ "ItemUpdateFieldFlags", "d4/d3a/a04139.html#ac1cca7ecf1650663132e3e220d771adf", null ],
+    [ "UnitUpdateFieldFlags", "d4/d3a/a04139.html#a310c5b2e3065e40ce04fe5ccd84fb51b", null ]
 ];

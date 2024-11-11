@@ -1,6 +1,7 @@
 var a21618 =
 [
-    [ "npc_torturer_lecraftAI", "d4/d36/a21622.html", "d4/d36/a21622" ],
-    [ "npc_torturer_lecraft", "dd/dbe/a21618.html#a789f8bdafe96d5cb01225b940a80c651", null ],
-    [ "GetAI", "dd/dbe/a21618.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
+    [ "HandleDummy", "dd/dbe/a21618.html#a98e8a4b7bbe947b00f1bc32632736d59", null ],
+    [ "PrepareSpellScript", "dd/dbe/a21618.html#a65b1ddf275eb5ee14ca32a1e25bf6e0e", null ],
+    [ "Register", "dd/dbe/a21618.html#acdfa4e1fc8e26a887e80521b1bea5150", null ],
+    [ "Validate", "dd/dbe/a21618.html#aeec15705a41ad2ac0e59d90086591d96", null ]
 ];

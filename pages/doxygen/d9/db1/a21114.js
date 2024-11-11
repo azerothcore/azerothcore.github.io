@@ -1,6 +1,9 @@
 var a21114 =
 [
-    [ "boss_zuramatAI", "d1/d2e/a21118.html", "d1/d2e/a21118" ],
-    [ "boss_zuramat", "d9/db1/a21114.html#a1d169e786dcf846026b48d9be389f9ab", null ],
-    [ "GetAI", "d9/db1/a21114.html#a1008c053a2c9ad14cf9ce994db931670", null ]
+    [ "npc_azure_sorcerorAI", "d9/db1/a21114.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d9/db1/a21114.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d9/db1/a21114.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d9/db1/a21114.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d9/db1/a21114.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d9/db1/a21114.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

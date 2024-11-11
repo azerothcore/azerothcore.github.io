@@ -1,6 +1,6 @@
 var a20618 =
 [
-    [ "boss_yoggsaron_neltharionAI", "df/d8e/a20622.html", "df/d8e/a20622" ],
-    [ "boss_yoggsaron_neltharion", "d6/d75/a20618.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "d6/d75/a20618.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "instance_ulduar_InstanceMapScript", "df/d8e/a20622.html", "df/d8e/a20622" ],
+    [ "instance_ulduar", "d6/d75/a20618.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
+    [ "GetInstanceScript", "d6/d75/a20618.html#ad15f003a90e656910fc32d661ca9baba", null ]
 ];

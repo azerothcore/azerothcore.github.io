@@ -1,7 +1,5 @@
 var a27338 =
 [
-    [ "npc_steam_tonkAI", "d3/dc5/a27338.html#a64bc74af412304d50526e5c93e01a333", null ],
-    [ "JustEngagedWith", "d3/dc5/a27338.html#a95b023adf0a2e62788e0d5646b17b319", null ],
-    [ "OnPossess", "d3/dc5/a27338.html#a954208c1a9826ae84a7402f59e1d7055", null ],
-    [ "Reset", "d3/dc5/a27338.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
+    [ "ID", "d3/dc5/a27338.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
+    [ "parentCategory", "d3/dc5/a27338.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
 ];

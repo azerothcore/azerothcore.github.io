@@ -1,6 +1,6 @@
 var a01838 =
 [
-    [ "instance_the_stockade", "df/d50/a13178.html", "df/d50/a13178" ],
-    [ "instance_the_stockade::instance_the_stockade_InstanceMapScript", "d6/dc0/a13182.html", "d6/dc0/a13182" ],
-    [ "AddSC_instance_the_stockade", "db/d09/a01838.html#a185a86af6f910845f0f833704f0101af", null ]
+    [ "instance_mana_tombs", "d8/d2d/a22278.html", "d8/d2d/a22278" ],
+    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "d5/ded/a22282.html", "d5/ded/a22282" ],
+    [ "AddSC_instance_mana_tombs", "db/d09/a01838.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
 ];

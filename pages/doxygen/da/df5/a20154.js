@@ -1,6 +1,10 @@
 var a20154 =
 [
-    [ "npc_ulduar_mimiron_rocketAI", "d5/dbf/a20158.html", "d5/dbf/a20158" ],
-    [ "npc_ulduar_mimiron_rocket", "da/df5/a20154.html#afcd90dbd893ec5e8424eb4197e7dec6d", null ],
-    [ "GetAI", "da/df5/a20154.html#ad1c6162db0f69a1a6b5016ae505e5535", null ]
+    [ "npc_ulduar_harpoonfirestateAI", "da/df5/a20154.html#acc6853671f37e35c746ffa3807ae10b2", null ],
+    [ "GetData", "da/df5/a20154.html#ac23f2c901ef8c2160ceea43a0a15e185", null ],
+    [ "GetHarpoonGunIdForThisHFS", "da/df5/a20154.html#af21c4d50febac02eb0572efe564a19b1", null ],
+    [ "Reset", "da/df5/a20154.html#af300a8271762fe1b5582384114902ee8", null ],
+    [ "SetData", "da/df5/a20154.html#abf485123f0a73aa84ad5178e23c4192e", null ],
+    [ "pInstance", "da/df5/a20154.html#af576864ded6610daad973ac420d2fdb8", null ],
+    [ "repairPoints", "da/df5/a20154.html#a5e9bcd384285b9046da93bd18804d07b", null ]
 ];

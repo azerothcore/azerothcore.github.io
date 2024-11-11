@@ -1,10 +1,9 @@
 var a22686 =
 [
-    [ "CalculateAmount", "d2/d9e/a22686.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
-    [ "CheckProc", "d2/d9e/a22686.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
-    [ "HandleProc", "d2/d9e/a22686.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
-    [ "PrepareAuraScript", "d2/d9e/a22686.html#a6e066884663276dbba82e46ca5f66e59", null ],
-    [ "Register", "d2/d9e/a22686.html#ac4154f0746e77229e8d349021d5b9c30", null ],
-    [ "Update", "d2/d9e/a22686.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
-    [ "Validate", "d2/d9e/a22686.html#a4f10d23f63c47b408b70373623b877a8", null ]
+    [ "HandleEffectApply", "d2/d9e/a22686.html#aca8ff864832d30e45bccfca12256560a", null ],
+    [ "HandleEffectRemove", "d2/d9e/a22686.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
+    [ "Load", "d2/d9e/a22686.html#a3b9838f26673ce344ca40f9f487ef878", null ],
+    [ "PrepareAuraScript", "d2/d9e/a22686.html#a79b93c86a01d31d08cba15436856b794", null ],
+    [ "Register", "d2/d9e/a22686.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
+    [ "_turtleSet", "d2/d9e/a22686.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
 ];

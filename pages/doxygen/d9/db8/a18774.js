@@ -1,7 +1,6 @@
 var a18774 =
 [
-    [ "HandleScript", "d9/db8/a18774.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
-    [ "PrepareAuraScript", "d9/db8/a18774.html#aa3053519be0101f55450d76b1291f0f7", null ],
-    [ "Register", "d9/db8/a18774.html#ada596a7f19115c7178fd07fb9e956f58", null ],
-    [ "Validate", "d9/db8/a18774.html#a768dec18bc0e879c457a64135ec27ad9", null ]
+    [ "npc_teslaAI", "db/d3c/a18778.html", "db/d3c/a18778" ],
+    [ "npc_tesla", "d9/db8/a18774.html#ae74ad52adbf4a160ef0c7cf97e4faea0", null ],
+    [ "GetAI", "d9/db8/a18774.html#a00d0e2ee0a8c20ed64dd2012f244a760", null ]
 ];

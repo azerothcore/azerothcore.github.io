@@ -1,9 +1,5 @@
 var a27018 =
 [
-    [ "go_gilded_brazierAI", "d7/d37/a27018.html#aaacf408b0f42b593a8a2897cb27886fb", null ],
-    [ "GossipHello", "d7/d37/a27018.html#afac9e217c294e72ff5f2526422e6321e", null ],
-    [ "Initialize", "d7/d37/a27018.html#a72d2dd8f7ecdf173e5a3847c94255786", null ],
-    [ "UpdateAI", "d7/d37/a27018.html#a0965f0a6f3f1c75e85f184319a1f9cef", null ],
-    [ "_events", "d7/d37/a27018.html#a35e62a272b790d6e858cc48c92e55b7b", null ],
-    [ "_playerGUID", "d7/d37/a27018.html#a506eccb2c3ebcc126d486638fb07ae3c", null ]
+    [ "item_only_for_flight", "d7/d37/a27018.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
+    [ "OnUse", "d7/d37/a27018.html#a88cdf17a85630aef703f93143ba41d4d", null ]
 ];

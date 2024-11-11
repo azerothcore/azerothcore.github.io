@@ -1,5 +1,8 @@
 var a23114 =
 [
-    [ "at_quagmirran_lair", "d7/d8e/a23114.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
-    [ "OnTrigger", "d7/d8e/a23114.html#aa0aab42516efaf842923b8a820942ac4", null ]
+    [ "ApplyStun", "d7/d8e/a23114.html#a5a5b921dc45418485919e599e80f8ca8", null ],
+    [ "HandleScriptEffect", "d7/d8e/a23114.html#a32619710179250a6a0b408856a888153", null ],
+    [ "PrepareSpellScript", "d7/d8e/a23114.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
+    [ "Register", "d7/d8e/a23114.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
+    [ "Validate", "d7/d8e/a23114.html#a66d91a87078c663903cd836344eec867", null ]
 ];

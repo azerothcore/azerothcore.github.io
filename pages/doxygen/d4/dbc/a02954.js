@@ -1,8 +1,6 @@
 var a02954 =
 [
-    [ "SelectableAI", "d3/d23/a06066.html", "d3/d23/a06066" ],
-    [ "CreatureAIFactory< REAL_AI >", "db/dd3/a06070.html", "db/dd3/a06070" ],
-    [ "sCreatureAIRegistry", "d4/dbc/a02954.html#a08e073e90e01d97b74e2331f15bf6122", null ],
-    [ "CreatureAICreator", "d4/dbc/a02954.html#a0979444cdc957651f0b4bc9e3c24934b", null ],
-    [ "CreatureAIRegistry", "d4/dbc/a02954.html#a3eebee4b886bee76d38357a472a9a5ae", null ]
+    [ "MAX_QUIET_DISTANCE", "d4/dbc/a02954.html#a9738c927d0a0b9da431824ab69a5988a", null ],
+    [ "MIN_PATH_LENGTH", "d4/dbc/a02954.html#aa1f2b73706ddb69d07dbdc87257f010f", null ],
+    [ "MIN_QUIET_DISTANCE", "d4/dbc/a02954.html#ad1ba65a06a9ac4ab2293efde8be35403", null ]
 ];

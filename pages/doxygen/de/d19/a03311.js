@@ -1,14 +1,6 @@
 var a03311 =
 [
-    [ "AllMapScript", "db/d43/a09946.html", "db/d43/a09946" ],
-    [ "AllMapHook", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92", [
-      [ "ALLMAPHOOK_ON_PLAYER_ENTER_ALL", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa", null ],
-      [ "ALLMAPHOOK_ON_PLAYER_LEAVE_ALL", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae", null ],
-      [ "ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182", null ],
-      [ "ALLMAPHOOK_ON_DESTROY_INSTANCE", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0", null ],
-      [ "ALLMAPHOOK_ON_CREATE_MAP", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02", null ],
-      [ "ALLMAPHOOK_ON_DESTROY_MAP", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5", null ],
-      [ "ALLMAPHOOK_ON_MAP_UPDATE", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb", null ],
-      [ "ALLMAPHOOK_END", "de/d19/a03311.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95", null ]
-    ] ]
+    [ "MapScript< BattlegroundMap >", "de/d19/a03311.html#a37068ff91511f7df359c3cf9be0e8d72", null ],
+    [ "MapScript< InstanceMap >", "de/d19/a03311.html#aad36f2a434a53db1767a65fa0a1dffdc", null ],
+    [ "MapScript< Map >", "de/d19/a03311.html#aacb4fdedfc86aea6c855e3be41e0c6e1", null ]
 ];

@@ -1,7 +1,6 @@
 var a19706 =
 [
-    [ "OnPeriodic", "d9/dbf/a19706.html#a9407d5477a40e36863e5fb5775dda122", null ],
-    [ "PrepareAuraScript", "d9/dbf/a19706.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
-    [ "Register", "d9/dbf/a19706.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
-    [ "Validate", "d9/dbf/a19706.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
+    [ "boss_freya_nature_bombAI", "d6/d24/a19710.html", "d6/d24/a19710" ],
+    [ "boss_freya_nature_bomb", "d9/dbf/a19706.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
+    [ "GetAI", "d9/dbf/a19706.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
 ];

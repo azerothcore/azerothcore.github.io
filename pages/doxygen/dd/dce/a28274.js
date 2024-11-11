@@ -1,8 +1,9 @@
 var a28274 =
 [
-    [ "MapDifficulty", "dd/dce/a28274.html#abf514d1105541d5c5aaf52a91330a1e2", null ],
-    [ "MapDifficulty", "dd/dce/a28274.html#a227aec55b5b774076882ea34f70d5d88", null ],
-    [ "hasErrorMessage", "dd/dce/a28274.html#a8dd5436eaec4d0e67f8b41c8dd071148", null ],
-    [ "maxPlayers", "dd/dce/a28274.html#af82ad844bc4ac9585cb9df1963697e1b", null ],
-    [ "resetTime", "dd/dce/a28274.html#a7190131620b9eee0897ac7b4dd62949e", null ]
+    [ "MapTiles", "dd/dce/a28274.html#abc58d7154eab45ae26df27e2e82dac63", null ],
+    [ "MapTiles", "dd/dce/a28274.html#a406efc53593b5bceb0a491c0b7553350", null ],
+    [ "~MapTiles", "dd/dce/a28274.html#aec1baac21c06380ba71ff5e610152519", null ],
+    [ "operator==", "dd/dce/a28274.html#a3e7a87f421e8eb23926afe1d0978c3b4", null ],
+    [ "m_mapId", "dd/dce/a28274.html#a2fc10edf226a6f4548c2175e1013c1b9", null ],
+    [ "m_tiles", "dd/dce/a28274.html#ab80305bb73234e35a528701d775954b5", null ]
 ];

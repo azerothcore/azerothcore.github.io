@@ -1,6 +1,8 @@
 var a16982 =
 [
-    [ "npc_blood_queen_lana_thelAI", "d8/d42/a16986.html", "d8/d42/a16986" ],
-    [ "npc_blood_queen_lana_thel", "db/dd3/a16982.html#a39adef3ae54efd4433805bd8ad4719be", null ],
-    [ "GetAI", "db/dd3/a16982.html#a02d928ac4ef1704cee2498ebe6533561", null ]
+    [ "OnApply", "db/dd3/a16982.html#a4741bfaaea8bc956fd1020aca13a51c2", null ],
+    [ "OnRemove", "db/dd3/a16982.html#a21aad38fe91580d3b8e0cc71dce7b1ad", null ],
+    [ "PrepareAuraScript", "db/dd3/a16982.html#a54b2ab23915e84b9c9728eb624dae47b", null ],
+    [ "Register", "db/dd3/a16982.html#a6d552ff58f7bb267cf4d20f2f5aedc7a", null ],
+    [ "Validate", "db/dd3/a16982.html#a5542dca73b5cc2ec1c724fe536e8a15f", null ]
 ];

@@ -1,15 +1,16 @@
 var a19102 =
 [
-    [ "boss_eregosAI", "de/d7f/a19102.html#a5b09dacbddd6075c2ebf4d62a387a8b6", null ],
-    [ "DamageTaken", "de/d7f/a19102.html#a7a4b4443aed576f080a56a27e15edfd4", null ],
-    [ "JustDied", "de/d7f/a19102.html#ade16be2804b857fc8e93a62d4be42380", null ],
-    [ "JustEngagedWith", "de/d7f/a19102.html#a1544782732beba5d7114c3bb70419ae1", null ],
-    [ "JustSummoned", "de/d7f/a19102.html#a33ef5a080e457f4e08e7997b467b0974", null ],
-    [ "KilledUnit", "de/d7f/a19102.html#a30ad32a4a63ae17eef4fc703a6749d38", null ],
-    [ "MoveInLineOfSight", "de/d7f/a19102.html#ac622481abb0190bdc7654b383766a9ed", null ],
-    [ "Reset", "de/d7f/a19102.html#aeec469c2c9d0ad27461478ee57c30c56", null ],
-    [ "UpdateAI", "de/d7f/a19102.html#a2a190fdb6b1c9ed4eba2b9e536c5cf36", null ],
-    [ "events", "de/d7f/a19102.html#ae6f1f2e3146525596c3dbb646283b744", null ],
-    [ "pInstance", "de/d7f/a19102.html#abf0b366d7b0931ccc30711a33736dda8", null ],
-    [ "shiftNumber", "de/d7f/a19102.html#a16c90dba1f0a7f4cc2025e294dbac455", null ]
+    [ "boss_bjarngrimAI", "de/d7f/a19102.html#ab599d5f62638d622c560f5b63e645b50", null ],
+    [ "JustDied", "de/d7f/a19102.html#adcad5667168768d8f3c8235735f357b1", null ],
+    [ "JustEngagedWith", "de/d7f/a19102.html#a2e99538fdc107bc7e91c23898c178047", null ],
+    [ "KilledUnit", "de/d7f/a19102.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
+    [ "RemoveStanceAura", "de/d7f/a19102.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
+    [ "Reset", "de/d7f/a19102.html#a138d14f9666b03dda50f6adeea609046", null ],
+    [ "RollStance", "de/d7f/a19102.html#a70791697fde5c6194226fd42c893385a", null ],
+    [ "UpdateEscortAI", "de/d7f/a19102.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
+    [ "WaypointReached", "de/d7f/a19102.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
+    [ "events", "de/d7f/a19102.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
+    [ "m_pInstance", "de/d7f/a19102.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
+    [ "m_uiStance", "de/d7f/a19102.html#abd4d058fad17b56bc29a165d74062dd0", null ],
+    [ "summons", "de/d7f/a19102.html#a02bd445d2c969ea186a48f68585e640c", null ]
 ];

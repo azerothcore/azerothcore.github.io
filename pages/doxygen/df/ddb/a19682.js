@@ -1,8 +1,6 @@
 var a19682 =
 [
-    [ "OnApply", "df/ddb/a19682.html#a5aec8606684637bbdb1e819254f5d483", null ],
-    [ "OnRemove", "df/ddb/a19682.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
-    [ "PrepareAuraScript", "df/ddb/a19682.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
-    [ "Register", "df/ddb/a19682.html#af1db6ca387cf0733ba4b9c324172d692", null ],
-    [ "Validate", "df/ddb/a19682.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
+    [ "boss_freya_lifebinderAI", "d3/d1f/a19686.html", "d3/d1f/a19686" ],
+    [ "boss_freya_lifebinder", "df/ddb/a19682.html#ad7a3bc09aacf35b4a6a39e65c966b824", null ],
+    [ "GetAI", "df/ddb/a19682.html#a978e4472a080f0fc53848abaa305cd77", null ]
 ];

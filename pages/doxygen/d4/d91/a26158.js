@@ -1,7 +1,6 @@
 var a26158 =
 [
-    [ "HandleDummy", "d4/d91/a26158.html#a1abe1e04be6b6c410e0ff273d8aa15c9", null ],
-    [ "Load", "d4/d91/a26158.html#a249e9c3c74bcc20ea2c0d5ce63fbd88c", null ],
-    [ "PrepareSpellScript", "d4/d91/a26158.html#aeffcc8db6125a35227545911fa03a850", null ],
-    [ "Register", "d4/d91/a26158.html#a1de981482ebb05b8507b308dba7a426b", null ]
+    [ "PrepareAuraScript", "d4/d91/a26158.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "d4/d91/a26158.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "d4/d91/a26158.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

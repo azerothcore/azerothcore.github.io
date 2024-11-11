@@ -1,6 +1,5 @@
 var a12906 =
 [
-    [ "HandleActivateObject", "d9/d03/a12906.html#afd73a7f5ec26c9ecb0424ee09ce638fe", null ],
-    [ "PrepareSpellScript", "d9/d03/a12906.html#ad55914fdc6771e09a508572d59ad30ed", null ],
-    [ "Register", "d9/d03/a12906.html#a6a0fe507ca7a382122d55e04d3c021d9", null ]
+    [ "at_sunwell_madrigosa", "d9/d03/a12906.html#a489ddb537ef272f22bd69ced194762e7", null ],
+    [ "_OnTrigger", "d9/d03/a12906.html#a137c231ea66d3781080a5617a2ffcc9e", null ]
 ];

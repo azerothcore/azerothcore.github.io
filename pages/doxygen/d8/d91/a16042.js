@@ -1,8 +1,8 @@
 var a16042 =
 [
-    [ "npc_frost_sphereAI", "d8/d91/a16042.html#ae697a98d23d94315768dc866852b6e07", null ],
-    [ "DamageTaken", "d8/d91/a16042.html#a3960f19b456f29a33016d799809a82a8", null ],
-    [ "SpellHit", "d8/d91/a16042.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
-    [ "UpdateAI", "d8/d91/a16042.html#a4e866332045135c867f2b9ee871db0c2", null ],
-    [ "permafrostTimer", "d8/d91/a16042.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
+    [ "npc_toc_boomkinAI", "d8/d91/a16042.html#a12c586d57aa6dd3893889f103dbfee20", null ],
+    [ "JustSummoned", "d8/d91/a16042.html#a0d049885773b7f1abd7e03f9200852f4", null ],
+    [ "myCanCast", "d8/d91/a16042.html#a691a0250db77cc4def2bf67b25a1298c", null ],
+    [ "UpdateAI", "d8/d91/a16042.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
+    [ "events", "d8/d91/a16042.html#a0b367855092884b2ce30834e89fced87", null ]
 ];

@@ -1,5 +1,6 @@
 var a19470 =
 [
-    [ "achievement_algalon_herald_of_the_titans", "d3/d82/a19470.html#a13c75b878f4669d212eeb09b55336384", null ],
-    [ "OnCheck", "d3/d82/a19470.html#a20811d7bb453b1758967c11545e630e9", null ]
+    [ "boss_flame_leviathan_seatAI", "d9/dfe/a19474.html", "d9/dfe/a19474" ],
+    [ "boss_flame_leviathan_seat", "d3/d82/a19470.html#a0fc90640a5142d889f1c043270582a16", null ],
+    [ "GetAI", "d3/d82/a19470.html#a0e17225aeb93e0a5f5442c4ac2362af8", null ]
 ];

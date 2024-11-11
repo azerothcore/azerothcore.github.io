@@ -1,6 +1,12 @@
 var a18850 =
 [
-    [ "FilterTargets", "d0/dbe/a18850.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
-    [ "PrepareSpellScript", "d0/dbe/a18850.html#a452937a4e95b40366f915213ec475a84", null ],
-    [ "Register", "d0/dbe/a18850.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
+    [ "npc_hover_diskAI", "d0/dbe/a18850.html#a1ee618b8e6393437f0e4193fc57725f3", null ],
+    [ "AttackStart", "d0/dbe/a18850.html#aec7920845132af74ecf83bbbcf221f06", null ],
+    [ "DoAction", "d0/dbe/a18850.html#a802681ba91854eec0a5d9ac1c2df761c", null ],
+    [ "MoveInLineOfSight", "d0/dbe/a18850.html#a770bbfc63a3aef7801b6ba9a542c459c", null ],
+    [ "MovementInform", "d0/dbe/a18850.html#a97c5039553d267fc3d955cb6e5eafb47", null ],
+    [ "PassengerBoarded", "d0/dbe/a18850.html#a130a40916bb42945531b02d2f3385ece", null ],
+    [ "UpdateAI", "d0/dbe/a18850.html#a5213e9b9a750e53b83621cd981741773", null ],
+    [ "events", "d0/dbe/a18850.html#adeed5599c5416f3a5d171f70b53d0023", null ],
+    [ "pInstance", "d0/dbe/a18850.html#a5141cd8297bf3dc67ce9195867a4152c", null ]
 ];

@@ -1,6 +1,7 @@
 var a16338 =
 [
-    [ "npc_announcer_toc10", "d2/d8c/a16338.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
-    [ "OnGossipHello", "d2/d8c/a16338.html#afcc5262e7c49b7456af146de14805a06", null ],
-    [ "OnGossipSelect", "d2/d8c/a16338.html#a9a2bf1d3a215332744ca473041cc0520", null ]
+    [ "HandleScriptEffect", "d2/d8c/a16338.html#a667e50b01f431dba025f692484f6e7ba", null ],
+    [ "PrepareSpellScript", "d2/d8c/a16338.html#a9a5ffd28102a519c06f3715d7f2b1039", null ],
+    [ "Register", "d2/d8c/a16338.html#a7ffa6eb498e9ec06d5cb4f81cff44389", null ],
+    [ "Validate", "d2/d8c/a16338.html#a0ab270193a95f9043afd40c9ffd2a46b", null ]
 ];

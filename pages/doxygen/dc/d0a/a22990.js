@@ -1,7 +1,5 @@
 var a22990 =
 [
-    [ "FilterTargets", "dc/d0a/a22990.html#adb8581b4b92aa49eda8f531e6d6de1ea", null ],
-    [ "HandleDummy", "dc/d0a/a22990.html#a2fe7441bd9753cb912d11f8d36632f44", null ],
-    [ "PrepareSpellScript", "dc/d0a/a22990.html#ae7714acbe0a08781e3bc297847c47870", null ],
-    [ "Register", "dc/d0a/a22990.html#ade51d4cb00b63c46582c7a5e6e031e9d", null ]
+    [ "boss_quagmirran", "dc/d0a/a22990.html#a7f6289b86216b052f434a1417023e22c", null ],
+    [ "JustEngagedWith", "dc/d0a/a22990.html#a28253b6653bd2e26e7f246c71a88b625", null ]
 ];

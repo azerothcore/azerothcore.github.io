@@ -1,6 +1,7 @@
 var a17574 =
 [
-    [ "FilterTargets", "df/d32/a17574.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "df/d32/a17574.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "df/d32/a17574.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "HandleScript", "df/d32/a17574.html#a802f667b20bccd3395c233482aa2485b", null ],
+    [ "PrepareSpellScript", "df/d32/a17574.html#ad371e6387d5df422eaa05acc9efe2f46", null ],
+    [ "Register", "df/d32/a17574.html#a730fded490df68f501010f952ceea40b", null ],
+    [ "Validate", "df/d32/a17574.html#a8ec4a10d4d3c348029256fec28a19ed6", null ]
 ];

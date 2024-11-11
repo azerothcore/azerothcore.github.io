@@ -1,11 +1,9 @@
 var a03338 =
 [
-    [ "SpellScriptLoader", "d2/dc1/a10090.html", "d2/dc1/a10090" ],
-    [ "GenericSpellAndAuraScriptLoader< Ts >", "d6/d08/a10094.html", "d6/d08/a10094" ],
-    [ "RegisterSpellAndAuraScriptPair", "db/dee/a03338.html#a69b21d1b83cecaba944f4e9379bc866c", null ],
-    [ "RegisterSpellAndAuraScriptPairWithArgs", "db/dee/a03338.html#aeffc3c8d08a35d5969c33508488e9051", null ],
-    [ "RegisterSpellScript", "db/dee/a03338.html#ae221e5976ab29ba14fec3b073a03670f", null ],
-    [ "RegisterSpellScriptWithArgs", "db/dee/a03338.html#aedecf91f4fce46852db865deae243e1f", null ],
-    [ "is_AuraScript", "db/dee/a03338.html#a08facc7292565931370e1cc514f726e1", null ],
-    [ "is_SpellScript", "db/dee/a03338.html#a2b573b538dcbf3da43ae603709d93bf2", null ]
+    [ "FactorySelector::PermissibleOrderPred< T >", "d3/d26/a06078.html", "d3/d26/a06078" ],
+    [ "GetPermitFor", "db/dee/a03338.html#aaf9c138ae6c123d03859db553a39892d", null ],
+    [ "SelectAI", "db/dee/a03338.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectFactory", "db/dee/a03338.html#ad553c2186f078e696768d40d217738f8", null ],
+    [ "SelectGameObjectAI", "db/dee/a03338.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "db/dee/a03338.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

@@ -1,15 +1,8 @@
 var a00707 =
 [
-    [ "MySQLType< T >", "d1/dc8/a05658.html", null ],
-    [ "MySQLType< uint8 >", "d7/dde/a05662.html", null ],
-    [ "MySQLType< uint16 >", "da/d64/a05666.html", null ],
-    [ "MySQLType< uint32 >", "d7/d23/a05670.html", null ],
-    [ "MySQLType< uint64 >", "de/df3/a05674.html", null ],
-    [ "MySQLType< int8 >", "d6/de4/a05678.html", null ],
-    [ "MySQLType< int16 >", "df/de9/a05682.html", null ],
-    [ "MySQLType< int32 >", "db/d63/a05686.html", null ],
-    [ "MySQLType< int64 >", "d3/d04/a05690.html", null ],
-    [ "MySQLType< float >", "d7/d70/a05694.html", null ],
-    [ "MySQLType< double >", "db/d48/a05698.html", null ],
-    [ "ParamenterIndexAssertFail", "d1/d56/a00707.html#a4c2b053ff0b94326f3c01cc7c6e61e8a", null ]
+    [ "misc_commandscript", "d4/d18/a11386.html", "d4/d18/a11386" ],
+    [ "AddSC_misc_commandscript", "d1/d56/a00707.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
+    [ "GetLocalizeCreatureName", "d1/d56/a00707.html#aaedbdfd3cae227b11684151f41e3b977", null ],
+    [ "SPELL_FREEZE", "d1/d56/a00707.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
+    [ "SPELL_STUCK", "d1/d56/a00707.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
 ];

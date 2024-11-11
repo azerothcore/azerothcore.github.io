@@ -1,6 +1,8 @@
 var a20566 =
 [
-    [ "boss_yoggsaron_constrictor_tentacleAI", "db/d9f/a20570.html", "db/d9f/a20570" ],
-    [ "boss_yoggsaron_constrictor_tentacle", "dc/d04/a20566.html#a131809f1c691e55a33863caf6fe0c5dc", null ],
-    [ "GetAI", "dc/d04/a20566.html#ac469d5661eb664c73bf5ab38084cb03e", null ]
+    [ "FilterTargets", "dc/d04/a20566.html#a45d300e8cb6fbc499345b3bb2fb0d34f", null ],
+    [ "HandleDummyEffect", "dc/d04/a20566.html#ab1f662fa107d176386067ffc6467d90f", null ],
+    [ "PrepareSpellScript", "dc/d04/a20566.html#a069cc54bf009830ad781c790b4fcedad", null ],
+    [ "Register", "dc/d04/a20566.html#ac91532151b689bde35d7120b1e9aec5b", null ],
+    [ "Validate", "dc/d04/a20566.html#ad225dcdb1325a855f1909a8c66ca577b", null ]
 ];

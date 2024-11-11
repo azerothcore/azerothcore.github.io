@@ -1,7 +1,7 @@
 var a14642 =
 [
-    [ "npc_hive_zara_larva", "dc/d70/a14642.html#a50fb5738d7b0818689216fee0915a0de", null ],
-    [ "JustSummoned", "dc/d70/a14642.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
-    [ "MovementInform", "dc/d70/a14642.html#a6890c58106450d654062f548a80cb42f", null ],
-    [ "_instance", "dc/d70/a14642.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
+    [ "npc_hivezara_stinger", "dc/d70/a14642.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
+    [ "JustEngagedWith", "dc/d70/a14642.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
+    [ "Reset", "dc/d70/a14642.html#ae8e893c90942a469628c393d5b5380cc", null ],
+    [ "UpdateAI", "dc/d70/a14642.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
 ];

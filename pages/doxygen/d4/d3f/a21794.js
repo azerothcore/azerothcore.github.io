@@ -1,8 +1,13 @@
 var a21794 =
 [
-    [ "npc_llod_genericAI", "d4/d3f/a21794.html#ac75d85ae4b59416952788102cd1db132", null ],
-    [ "Reset", "d4/d3f/a21794.html#a15bd7442fef36a551cc8797f7919f57c", null ],
-    [ "UpdateAI", "d4/d3f/a21794.html#aa7dce553fb699127f63281b2c47a2f02", null ],
-    [ "attackTimer", "d4/d3f/a21794.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
-    [ "summonTimer", "d4/d3f/a21794.html#aeeeef545aee565c14d86d8587923c677", null ]
+    [ "npc_artruis_the_hearthlessAI", "d4/d3f/a21794.html#ad64e86b038ea3c0cf119aa18493dceec", null ],
+    [ "JustDied", "d4/d3f/a21794.html#a22baa7603ffb4a7b118f2a2f5de88633", null ],
+    [ "JustEngagedWith", "d4/d3f/a21794.html#aafedd2a49c60923294a1e9de7012fb3a", null ],
+    [ "MoveInLineOfSight", "d4/d3f/a21794.html#a1a592dd9f1834cc5efe63c227dcfe372", null ],
+    [ "Reset", "d4/d3f/a21794.html#af24b77b5d154f5289105b67714f9d3a9", null ],
+    [ "SummonedCreatureDies", "d4/d3f/a21794.html#a40041d3c1557effa4173eb660ca87a09", null ],
+    [ "SummonsAction", "d4/d3f/a21794.html#aa34f581358c094d87a1c7259f4981b65", null ],
+    [ "UpdateAI", "d4/d3f/a21794.html#a4795db544ac7e9702b2ac9094b969e7f", null ],
+    [ "events", "d4/d3f/a21794.html#a151e92cb78e752e10896bd7586c539dc", null ],
+    [ "summons", "d4/d3f/a21794.html#a24fd0452b154e7e4a2615691aa810d8d", null ]
 ];

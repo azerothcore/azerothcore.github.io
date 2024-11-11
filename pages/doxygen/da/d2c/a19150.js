@@ -1,8 +1,6 @@
 var a19150 =
 [
-    [ "npc_centrifuge_constructAI", "da/d2c/a19150.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
-    [ "DamageTaken", "da/d2c/a19150.html#aa568418de267a99108698e79baa1b3f4", null ],
-    [ "JustEngagedWith", "da/d2c/a19150.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
-    [ "Reset", "da/d2c/a19150.html#a2f7750cea2f59d794c85e20b703370af", null ],
-    [ "UpdateAI", "da/d2c/a19150.html#a28316416ad6c56d83c9e878511256445", null ]
+    [ "npc_molten_golemAI", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
+    [ "npc_molten_golem", "da/d2c/a19150.html#a63e16216a59b50524632b49599bd3bd1", null ],
+    [ "GetAI", "da/d2c/a19150.html#a22a723039267cb0901b78c6064a88d0c", null ]
 ];

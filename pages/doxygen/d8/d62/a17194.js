@@ -1,7 +1,6 @@
 var a17194 =
 [
-    [ "ExtraEffect", "d8/d62/a17194.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
-    [ "PrepareAuraScript", "d8/d62/a17194.html#a53d6013e5ec473854e1537969cb31988", null ],
-    [ "Register", "d8/d62/a17194.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
-    [ "Validate", "d8/d62/a17194.html#ab14e7410cf542d9f4043800a3b86c664", null ]
+    [ "npc_gunship_mageAI", "d2/d8a/a17198.html", "d2/d8a/a17198" ],
+    [ "npc_gunship_mage", "d8/d62/a17194.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
+    [ "GetAI", "d8/d62/a17194.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
 ];

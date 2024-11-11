@@ -1,6 +1,7 @@
 var a18538 =
 [
-    [ "npc_icc_gauntlet_controllerAI", "db/de7/a18542.html", "db/de7/a18542" ],
-    [ "npc_icc_gauntlet_controller", "d4/d4f/a18538.html#a5fc4c941842e25bc3da93686e588627b", null ],
-    [ "GetAI", "d4/d4f/a18538.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
+    [ "HandleTriggerSpell", "d4/d4f/a18538.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "d4/d4f/a18538.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "d4/d4f/a18538.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "d4/d4f/a18538.html#a813bad39641956fff697580f271416d2", null ]
 ];

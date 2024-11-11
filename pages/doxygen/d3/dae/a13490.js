@@ -1,6 +1,6 @@
 var a13490 =
 [
-    [ "boss_akilzonAI", "d3/d2d/a13494.html", "d3/d2d/a13494" ],
-    [ "boss_akilzon", "d3/dae/a13490.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
-    [ "GetAI", "d3/dae/a13490.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
+    [ "go", "d3/dae/a13490.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
+    [ "npc", "d3/dae/a13490.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
+    [ "pos", "d3/dae/a13490.html#a51175880a326101b29879d7a6a62c48d", null ]
 ];

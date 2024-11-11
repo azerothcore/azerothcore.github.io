@@ -1,9 +1,5 @@
 var a21274 =
 [
-    [ "npc_lurgglbrAI", "db/dc6/a21274.html#a9239b85c65f9b405335d432f355637d5", null ],
-    [ "Reset", "db/dc6/a21274.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
-    [ "UpdateAI", "db/dc6/a21274.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
-    [ "WaypointReached", "db/dc6/a21274.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
-    [ "IntroPhase", "db/dc6/a21274.html#a57e2c42cccf91765365e0b046446637a", null ],
-    [ "IntroTimer", "db/dc6/a21274.html#ada9762806ae0132e37197e6fb1279866", null ]
+    [ "npc_leryssaAI", "db/dc6/a21274.html#ad21a1e1572880ba8cbf6625e658989eb", null ],
+    [ "MovementInform", "db/dc6/a21274.html#a36180f7351ab11a9942ec59ee24ae6ad", null ]
 ];

@@ -1,6 +1,5 @@
 var a26950 =
 [
-    [ "go_flamesAI", "d2/ddb/a26954.html", "d2/ddb/a26954" ],
-    [ "go_flames", "df/d3a/a26950.html#a75d49202eaf2078b8276e59944d1ec89", null ],
-    [ "GetAI", "df/d3a/a26950.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
+    [ "go_arcane_prison", "df/d3a/a26950.html#ad73ac33d843027de0e516de8f90c45a0", null ],
+    [ "OnGossipHello", "df/d3a/a26950.html#a0f9d414ce1f3f3e734cb79a554f7523e", null ]
 ];

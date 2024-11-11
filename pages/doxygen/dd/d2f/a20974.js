@@ -1,7 +1,6 @@
 var a20974 =
 [
-    [ "HandleScript", "dd/d2f/a20974.html#a47b991c20c523d151893fefd9d487714", null ],
-    [ "PrepareSpellScript", "dd/d2f/a20974.html#ab2db47d0a2694c0734db600e810e190d", null ],
-    [ "Register", "dd/d2f/a20974.html#a3c2e7eb24506b43730f2e971fab81c75", null ],
-    [ "Validate", "dd/d2f/a20974.html#a89d601f6036fe38238767281f3427e54", null ]
+    [ "npc_ichor_globuleAI", "d3/dbe/a20978.html", "d3/dbe/a20978" ],
+    [ "npc_ichor_globule", "dd/d2f/a20974.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
+    [ "GetAI", "dd/d2f/a20974.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
 ];

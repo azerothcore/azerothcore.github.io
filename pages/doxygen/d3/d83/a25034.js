@@ -1,6 +1,8 @@
 var a25034 =
 [
-    [ "HandleScriptEffect", "d3/d83/a25034.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "d3/d83/a25034.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "d3/d83/a25034.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "CheckProc", "d3/d83/a25034.html#a2b0ff2594877249d0bdb4656fa67b83f", null ],
+    [ "HandleProc", "d3/d83/a25034.html#ac1aebc16e7944ac3f8305d9ff27bc998", null ],
+    [ "PrepareAuraScript", "d3/d83/a25034.html#a19557020af9ca276f72c1d3e4ba8b27b", null ],
+    [ "Register", "d3/d83/a25034.html#a43f7bb634cb165fab5e2187256f50c3f", null ],
+    [ "Validate", "d3/d83/a25034.html#a7762ce25775b98dba14b4ac465cad711", null ]
 ];

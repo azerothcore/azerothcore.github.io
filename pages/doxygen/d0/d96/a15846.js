@@ -1,8 +1,7 @@
 var a15846 =
 [
-    [ "OnApply", "d0/d96/a15846.html#a7165da94ce589afcd24411a308802c18", null ],
-    [ "OnRemove", "d0/d96/a15846.html#a8a43050c44b4d3d5b48f4e2c6fcc0b49", null ],
-    [ "PrepareAuraScript", "d0/d96/a15846.html#ab8361bc1d2cc786b52f1fc2b7ff09527", null ],
-    [ "Register", "d0/d96/a15846.html#a0ff7bbd0dea458b15231ecf419b1c49c", null ],
-    [ "Validate", "d0/d96/a15846.html#acf29b80b7b74c3f409e1f046b8062994", null ]
+    [ "HandleAfterEffectAbsorb", "d0/d96/a15846.html#ab3d9f3679931b4b3b29713602d08701d", null ],
+    [ "PrepareAuraScript", "d0/d96/a15846.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
+    [ "Register", "d0/d96/a15846.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
+    [ "Validate", "d0/d96/a15846.html#a87750183d2b2d6adb67bba4a1f767029", null ]
 ];

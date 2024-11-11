@@ -1,6 +1,4 @@
 var a22258 =
 [
-    [ "OutdoorPvPGH", "db/d16/a22258.html#a619492e0a1fdf75f37554a2f19268660", null ],
-    [ "SendRemoveWorldStates", "db/d16/a22258.html#a92c7e489717072ddc34f707fbe462cb2", null ],
-    [ "SetupOutdoorPvP", "db/d16/a22258.html#a3d62cb27cfa415c9ba7fe5c18384a75d", null ]
+    [ "instance_auchenai_crypts_InstanceMapScript", "db/d16/a22258.html#af67e3aa61d9fe3ed3876b1bd2df9ff3c", null ]
 ];

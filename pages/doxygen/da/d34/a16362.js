@@ -1,6 +1,7 @@
 var a16362 =
 [
-    [ "boss_novosAI", "d6/d10/a16366.html", "d6/d10/a16366" ],
-    [ "boss_novos", "da/d34/a16362.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
-    [ "GetAI", "da/d34/a16362.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
+    [ "HandlePeriodicTick", "da/d34/a16362.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
+    [ "PrepareAuraScript", "da/d34/a16362.html#aabaef31a3c699c322e24e064f357f82f", null ],
+    [ "Register", "da/d34/a16362.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
+    [ "Validate", "da/d34/a16362.html#a18d92a82760992bc5d8503e3f774f208", null ]
 ];

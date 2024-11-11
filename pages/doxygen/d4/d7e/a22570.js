@@ -1,10 +1,8 @@
 var a22570 =
 [
-    [ "boss_gathios_the_shatterer", "d4/d7e/a22570.html#a34708f52c610e567c5acf62962e90d4e", null ],
-    [ "JustEngagedWith", "d4/d7e/a22570.html#a98ad625cf2ac9b1d8d9b41001ba4fb34", null ],
-    [ "SelectCouncilMember", "d4/d7e/a22570.html#a3d33c1a29b7ba2feb22ea9d3941b39ed", null ],
-    [ "UpdateAI", "d4/d7e/a22570.html#a1541f1efd3978a4c91b80e411aec6442", null ],
-    [ "_toggleAura", "d4/d7e/a22570.html#aa983e2d9018a9e53ee29840781f47c33", null ],
-    [ "_toggleBlessing", "d4/d7e/a22570.html#a52e9b7d3b1af46d3ecb6ca9432ee3957", null ],
-    [ "_toggleSeal", "d4/d7e/a22570.html#ad7e6f9e03968e2abac570d0c7a5de9e2", null ]
+    [ "HandleEffectApply", "d4/d7e/a22570.html#a94993441ef94f84c85aa10c693cf34fe", null ],
+    [ "HandleEffectRemove", "d4/d7e/a22570.html#a047a1dd4bab33d7d5b2631c0862ba4b0", null ],
+    [ "PrepareAuraScript", "d4/d7e/a22570.html#a0ced86fc2e108e7bba9727d26eac3ff3", null ],
+    [ "Register", "d4/d7e/a22570.html#a0dbd8b0bc1dfad8bda0e48ab57b4db3f", null ],
+    [ "Validate", "d4/d7e/a22570.html#a964637541cd64e64b4e02c00d36abf2d", null ]
 ];

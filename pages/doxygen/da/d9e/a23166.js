@@ -1,6 +1,5 @@
 var a23166 =
 [
-    [ "HandleScript", "da/d9e/a23166.html#ae45f8a366c1594d3723b83ee6e006957", null ],
-    [ "PrepareSpellScript", "da/d9e/a23166.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
-    [ "Register", "da/d9e/a23166.html#a6b9e449a64747f0a5715424295b1c30f", null ]
+    [ "go_broggok_lever", "da/d9e/a23166.html#af91c2e283c357d2f38c9932dcfb5c375", null ],
+    [ "OnGossipHello", "da/d9e/a23166.html#af00fe1da1cfa40dc3ece286cef45090c", null ]
 ];

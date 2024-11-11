@@ -1,5 +1,5 @@
 var a27042 =
 [
-    [ "go_tele_to_violet_stand", "d3/da1/a27042.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "d3/da1/a27042.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "item_generic_limit_chance_above_60", "d3/da1/a27042.html#abc18809810f0a7668020d01c482be84b", null ],
+    [ "OnCastItemCombatSpell", "d3/da1/a27042.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
 ];

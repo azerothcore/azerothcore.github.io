@@ -1,6 +1,7 @@
 var a13250 =
 [
-    [ "npc_augustus_the_touched", "d9/d27/a13250.html#abc84c884345f44cf780410569cdee10c", null ],
-    [ "OnGossipHello", "d9/d27/a13250.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
-    [ "OnGossipSelect", "d9/d27/a13250.html#a992da9b22693c1fac1148b4ba545b819", null ]
+    [ "npc_greengill_slaveAI", "d9/d27/a13250.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "d9/d27/a13250.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "d9/d27/a13250.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "d9/d27/a13250.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

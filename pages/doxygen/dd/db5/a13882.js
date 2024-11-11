@@ -1,9 +1,11 @@
 var a13882 =
 [
-    [ "HandleEffectPeriodic", "dd/db5/a13882.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "dd/db5/a13882.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "dd/db5/a13882.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "dd/db5/a13882.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "dd/db5/a13882.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "dd/db5/a13882.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "npc_high_oracle_soo_roo", "dd/db5/a13882.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
+    [ "MoveInLineOfSight", "dd/db5/a13882.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
+    [ "Reset", "dd/db5/a13882.html#a89a60a83a46e0095045b2353e50483ed", null ],
+    [ "UpdateAI", "dd/db5/a13882.html#ac22cfa519e478da643a51ae887f306fd", null ],
+    [ "orphanGUID", "dd/db5/a13882.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
+    [ "phase", "dd/db5/a13882.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
+    [ "playerGUID", "dd/db5/a13882.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
+    [ "timer", "dd/db5/a13882.html#aa5238d3ee361374681947de874391a1f", null ]
 ];

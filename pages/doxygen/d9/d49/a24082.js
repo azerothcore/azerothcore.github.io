@@ -1,12 +1,9 @@
 var a24082 =
 [
-    [ "npc_unkor_the_ruthlessAI", "d9/d49/a24082.html#a965b0f182570a54ee4c0a6a54ba8fafb", null ],
-    [ "DamageTaken", "d9/d49/a24082.html#a88b5e4b43171be8cc62d2a10f188e363", null ],
-    [ "DoNice", "d9/d49/a24082.html#aa673fc892b9c0d59b2789271140e6054", null ],
-    [ "JustEngagedWith", "d9/d49/a24082.html#a537225016bfeba51b607d250c0a09be5", null ],
-    [ "Reset", "d9/d49/a24082.html#a14ca75417c623d6d6e5fce50521963da", null ],
-    [ "UpdateAI", "d9/d49/a24082.html#a744ea41d7f9450965419085a296c8df2", null ],
-    [ "CanDoQuest", "d9/d49/a24082.html#a98d7d45b450f3464291ecbc05ab31f21", null ],
-    [ "Pulverize_Timer", "d9/d49/a24082.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd", null ],
-    [ "UnkorUnfriendly_Timer", "d9/d49/a24082.html#ae6eeb6177d655f5a0bede45183758f1f", null ]
+    [ "npc_pet_gen_fetch_ball", "d9/d49/a24082.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
+    [ "IsSummonedBy", "d9/d49/a24082.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
+    [ "SpellHitTarget", "d9/d49/a24082.html#a87bdded236f6584d9b71507a1253f7d0", null ],
+    [ "UpdateAI", "d9/d49/a24082.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
+    [ "checkTimer", "d9/d49/a24082.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
+    [ "targetGUID", "d9/d49/a24082.html#ae474374af7c2270e218ed236d90c789c", null ]
 ];

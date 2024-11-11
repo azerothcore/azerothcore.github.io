@@ -1,6 +1,6 @@
 var a26990 =
 [
-    [ "go_pirate_day_musicAI", "df/dc9/a26994.html", "df/dc9/a26994" ],
-    [ "go_pirate_day_music", "d5/dcc/a26990.html#aa8d19102357639bd160eae9e90a87505", null ],
-    [ "GetAI", "d5/dcc/a26990.html#a3bce105696415c9a31c5cbeb9607fa95", null ]
+    [ "go_bellsAI", "df/dc9/a26994.html", "df/dc9/a26994" ],
+    [ "go_bells", "d5/dcc/a26990.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "d5/dcc/a26990.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

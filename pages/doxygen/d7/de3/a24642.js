@@ -1,6 +1,6 @@
 var a24642 =
 [
-    [ "CheckAreaTarget", "d7/de3/a24642.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
-    [ "PrepareAuraScript", "d7/de3/a24642.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
-    [ "Register", "d7/de3/a24642.html#a6647a8e35009cf8559e4957a666f037a", null ]
+    [ "HandleEffectPeriodicUpdate", "d7/de3/a24642.html#a554353fede78b89bf488230254d7892b", null ],
+    [ "PrepareAuraScript", "d7/de3/a24642.html#adf20aaafff83bae614ff3c614a08a54b", null ],
+    [ "Register", "d7/de3/a24642.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
 ];

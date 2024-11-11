@@ -1,7 +1,9 @@
 var a25066 =
 [
-    [ "HandleScript", "df/d9c/a25066.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
-    [ "PrepareSpellScript", "df/d9c/a25066.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
-    [ "Register", "df/d9c/a25066.html#a984b2af5268fbf294a0292502b8ddb44", null ],
-    [ "Validate", "df/d9c/a25066.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
+    [ "CheckIfCorpseNear", "df/d9c/a25066.html#a9b512f84f1d728e24845b6aaa28bdd6b", null ],
+    [ "HandleDummy", "df/d9c/a25066.html#a913c0137d2a13c810bbae869cc6cf734", null ],
+    [ "Load", "df/d9c/a25066.html#a3f36968d10bde12c7e2eda8db4145252", null ],
+    [ "PrepareSpellScript", "df/d9c/a25066.html#acc7d6f489c34c3cc26f37bc94f8727e8", null ],
+    [ "Register", "df/d9c/a25066.html#a736c4fe39e947ad98df19b3b001bdc29", null ],
+    [ "Validate", "df/d9c/a25066.html#a51b075f95211025b2a7719a3ee70a6be", null ]
 ];

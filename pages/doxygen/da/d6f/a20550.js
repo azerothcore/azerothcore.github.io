@@ -1,6 +1,7 @@
 var a20550 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "d5/d6a/a20554.html", "d5/d6a/a20554" ],
-    [ "boss_yoggsaron_crusher_tentacle", "da/d6f/a20550.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
-    [ "GetAI", "da/d6f/a20550.html#a82b6a328197ec81223c1d00dabb79a66", null ]
+    [ "FilterTargets", "da/d6f/a20550.html#a4e27a01b87e6f003ed52da45a4bda403", null ],
+    [ "HandleDummyEffect", "da/d6f/a20550.html#abfe7ff12346d54fe3a0c1450897e58ee", null ],
+    [ "PrepareSpellScript", "da/d6f/a20550.html#a0c31912e28eaa5922edb1ca4c7689883", null ],
+    [ "Register", "da/d6f/a20550.html#a337cdb940a2001ac370768b02126d3c0", null ]
 ];

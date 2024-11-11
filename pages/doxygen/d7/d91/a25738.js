@@ -1,7 +1,7 @@
 var a25738 =
 [
-    [ "HandleKnockBack", "d7/d91/a25738.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "d7/d91/a25738.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "d7/d91/a25738.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "d7/d91/a25738.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "OnProc", "d7/d91/a25738.html#a304fd48cc79d3e7371212632d276b2ff", null ],
+    [ "PrepareAuraScript", "d7/d91/a25738.html#a239f9448d36bee4cfb46d95bf20c0148", null ],
+    [ "Register", "d7/d91/a25738.html#a28be437c5f3e8bca0f54be97cb5c5a1f", null ],
+    [ "Validate", "d7/d91/a25738.html#adc217147d7c150d66dad4d3e922cff96", null ]
 ];

@@ -1,12 +1,13 @@
 var a03428 =
 [
-    [ "AchievementScript", "d9/d45/a09922.html", "d9/d45/a09922" ],
-    [ "AchievementHook", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1", [
-      [ "ACHIEVEMENTHOOK_SET_REALM_COMPLETED", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782", null ],
-      [ "ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e", null ],
-      [ "ACHIEVEMENTHOOK_IS_REALM_COMPLETED", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7", null ],
-      [ "ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048", null ],
-      [ "ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1", null ],
-      [ "ACHIEVEMENTHOOK_END", "d5/d6b/a03428.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c", null ]
+    [ "FollowerAI", "d2/d44/a06130.html", "d2/d44/a06130" ],
+    [ "eFollowState", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138", [
+      [ "STATE_FOLLOW_NONE", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
+      [ "STATE_FOLLOW_INPROGRESS", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
+      [ "STATE_FOLLOW_RETURNING", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
+      [ "STATE_FOLLOW_PAUSED", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
+      [ "STATE_FOLLOW_COMPLETE", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
+      [ "STATE_FOLLOW_PREEVENT", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
+      [ "STATE_FOLLOW_POSTEVENT", "d5/d6b/a03428.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
     ] ]
 ];

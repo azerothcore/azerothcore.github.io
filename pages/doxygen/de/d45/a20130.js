@@ -1,6 +1,5 @@
 var a20130 =
 [
-    [ "npc_ulduar_vx001AI", "db/d2e/a20134.html", "db/d2e/a20134" ],
-    [ "npc_ulduar_vx001", "de/d45/a20130.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
-    [ "GetAI", "de/d45/a20130.html#acdab817141b851deb09861230323ee58", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_13", "de/d45/a20130.html#a74b0cafbc4be4261c8f8f2af3671cbd9", null ],
+    [ "OnCheck", "de/d45/a20130.html#ac91196d094f159932ad871ffa9c0f405", null ]
 ];

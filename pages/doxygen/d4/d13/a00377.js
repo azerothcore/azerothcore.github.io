@@ -1,4 +1,4 @@
 var a00377 =
 [
-    [ "EventEmitter< Signature >", "db/d62/a05358.html", "db/d62/a05358" ]
+    [ "Acore::Crypto::SRP6", "d3/df3/a05058.html", "d3/df3/a05058" ]
 ];

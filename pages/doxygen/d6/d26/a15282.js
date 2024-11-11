@@ -1,6 +1,6 @@
 var a15282 =
 [
-    [ "npc_braug_dimspirit", "d6/d26/a15282.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
-    [ "OnGossipHello", "d6/d26/a15282.html#aeaed026edf5a1fa82c941f667c05815b", null ],
-    [ "OnGossipSelect", "d6/d26/a15282.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
+    [ "npc_cairne_bloodhoofAI", "d4/d30/a15286.html", "d4/d30/a15286" ],
+    [ "npc_cairne_bloodhoof", "d6/d26/a15282.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
+    [ "GetAI", "d6/d26/a15282.html#a1c34470c46ae9e98684de0e786be28b7", null ]
 ];

@@ -1,10 +1,7 @@
 var a27294 =
 [
-    [ "npc_dancing_flamesAI", "d1/d8c/a27294.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
-    [ "JustEngagedWith", "d1/d8c/a27294.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
-    [ "ReceiveEmote", "d1/d8c/a27294.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
-    [ "Reset", "d1/d8c/a27294.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
-    [ "UpdateAI", "d1/d8c/a27294.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
-    [ "Active", "d1/d8c/a27294.html#aa79036bed206327847bf5ad2e768e8f6", null ],
-    [ "CanIteract", "d1/d8c/a27294.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
+    [ "npc_crashin_thrashin_robot", "d1/d8c/a27294.html#ad21336d212498b1c9ef5d46979d147ab", null ],
+    [ "IsSummonedBy", "d1/d8c/a27294.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
+    [ "UpdateAI", "d1/d8c/a27294.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
+    [ "_scheduler", "d1/d8c/a27294.html#a55778501d154d0a9e77f76054e926f85", null ]
 ];

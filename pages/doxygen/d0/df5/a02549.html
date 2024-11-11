@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/zone_bloodmyst_isle.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,98 +109,170 @@ $(document).ready(function(){initNavTree('d0/df5/a02549.html','../../'); initRes
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">zone_bloodmyst_isle.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_scholomance.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">scholomance.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d13/a15054.html">npc_webbed_creature</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/a12758.html">instance_scholomance</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dba/a15058.html">npc_webbed_creature::npc_webbed_creatureAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dba/a12762.html">instance_scholomance::instance_scholomance_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db0/a12766.html">spell_scholomance_fixate_aura</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/a12770.html">spell_scholomance_boon_of_life_aura</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/a12774.html">npc_scholomance_occultist</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d02/a12778.html">npc_scholomance_occultist::npc_scholomance_occultistAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa14073eff8de36ab4c416f5ae7bd8cd0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#aa14073eff8de36ab4c416f5ae7bd8cd0">WebbedCreature</a> { <a class="el" href="../../d0/df5/a02549.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3">NPC_EXPEDITION_RESEARCHER</a> = 17681
+<tr class="memitem:a8b43fe18f8176260ed382582db3c3818"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818">OccultistEntries</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a">CASTER_ENTRY</a> = 10472
+, <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15">DARK_SHADE_ENTRY</a> = 11284
+<br />
  }</td></tr>
-<tr class="separator:aa14073eff8de36ab4c416f5ae7bd8cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8b43fe18f8176260ed382582db3c3818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f85ef6fae02a6e177aa60a656ac2b3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3d">OccultistSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a">BONE_ARMOR_SPELL</a> = 16431
+, <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313">COUNTER_SPELL</a> = 15122
+, <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af">DRAIN_MANA_SPELL</a> = 17243
+, <br />
+&#160;&#160;<a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c">SHADOWBOLT_VOLLEY_SPELL</a> = 17228
+<br />
+ }</td></tr>
+<tr class="separator:a9f85ef6fae02a6e177aa60a656ac2b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6b9832f4bb6cfefde5bab6937fd46fae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#a6b9832f4bb6cfefde5bab6937fd46fae">AddSC_bloodmyst_isle</a> ()</td></tr>
-<tr class="separator:a6b9832f4bb6cfefde5bab6937fd46fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57729392acbf8df56faae2a7865f65b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#a57729392acbf8df56faae2a7865f65b4">AddSC_instance_scholomance</a> ()</td></tr>
+<tr class="separator:a57729392acbf8df56faae2a7865f65b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab3e43a66e02bf6f3b8cbd7c154f9d70d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#ab3e43a66e02bf6f3b8cbd7c154f9d70d">possibleSpawns</a> [32] = {17322, 17661, 17496, 17522, 17340, 17352, 17333, 17524, 17654, 17348, 17339, 17345, 17359, 17353, 17336, 17550, 17330, 17701, 17321, 17325, 17320, 17683, 17342, 17715, 17334, 17341, 17338, 17337, 17346, 17344, 17327}</td></tr>
-<tr class="separator:ab3e43a66e02bf6f3b8cbd7c154f9d70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e00a038de93e0b1fc4ac53b49bf47da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d03/a08202.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#a5e00a038de93e0b1fc4ac53b49bf47da">KirtonosSpawn</a> = <a class="el" href="../../d6/d03/a08202.html">Position</a>(315.028, 70.5385, 102.15, 0.385971)</td></tr>
+<tr class="separator:a5e00a038de93e0b1fc4ac53b49bf47da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aa14073eff8de36ab4c416f5ae7bd8cd0" name="aa14073eff8de36ab4c416f5ae7bd8cd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa14073eff8de36ab4c416f5ae7bd8cd0">&#9670;&#160;</a></span>WebbedCreature</h2>
+<a id="a8b43fe18f8176260ed382582db3c3818" name="a8b43fe18f8176260ed382582db3c3818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b43fe18f8176260ed382582db3c3818">&#9670;&#160;</a></span>OccultistEntries</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d0/df5/a02549.html#aa14073eff8de36ab4c416f5ae7bd8cd0">WebbedCreature</a></td>
+          <td class="memname">enum <a class="el" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818">OccultistEntries</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3" name="aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3"></a>NPC_EXPEDITION_RESEARCHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a" name="a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a"></a>CASTER_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15" name="a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15"></a>DARK_SHADE_ENTRY&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3">NPC_EXPEDITION_RESEARCHER</a>                     = 17681</div>
-<div class="line"><span class="lineno">   43</span>};</div>
-<div class="ttc" id="aa02549_html_aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3"><div class="ttname"><a href="../../d0/df5/a02549.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3">NPC_EXPEDITION_RESEARCHER</a></div><div class="ttdeci">@ NPC_EXPEDITION_RESEARCHER</div><div class="ttdef"><b>Definition:</b> zone_bloodmyst_isle.cpp:42</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  311</span>{</div>
+<div class="line"><span class="lineno">  312</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a">CASTER_ENTRY</a>      = 10472,</div>
+<div class="line"><span class="lineno">  313</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15">DARK_SHADE_ENTRY</a>  = 11284</div>
+<div class="line"><span class="lineno">  314</span>};</div>
+<div class="ttc" id="aa02549_html_a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15"><div class="ttname"><a href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15">DARK_SHADE_ENTRY</a></div><div class="ttdeci">@ DARK_SHADE_ENTRY</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:313</div></div>
+<div class="ttc" id="aa02549_html_a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a"><div class="ttname"><a href="../../d0/df5/a02549.html#a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a">CASTER_ENTRY</a></div><div class="ttdeci">@ CASTER_ENTRY</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:312</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a6b9832f4bb6cfefde5bab6937fd46fae" name="a6b9832f4bb6cfefde5bab6937fd46fae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b9832f4bb6cfefde5bab6937fd46fae">&#9670;&#160;</a></span>AddSC_bloodmyst_isle()</h2>
+<a id="a9f85ef6fae02a6e177aa60a656ac2b3d" name="a9f85ef6fae02a6e177aa60a656ac2b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f85ef6fae02a6e177aa60a656ac2b3d">&#9670;&#160;</a></span>OccultistSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_bloodmyst_isle </td>
+          <td class="memname">enum <a class="el" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3d">OccultistSpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a" name="a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a"></a>BONE_ARMOR_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313" name="a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313"></a>COUNTER_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af" name="a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af"></a>DRAIN_MANA_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c" name="a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c"></a>SHADOWBOLT_VOLLEY_SPELL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  317</span>{</div>
+<div class="line"><span class="lineno">  318</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a">BONE_ARMOR_SPELL</a>         = 16431,</div>
+<div class="line"><span class="lineno">  319</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313">COUNTER_SPELL</a>            = 15122,</div>
+<div class="line"><span class="lineno">  320</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af">DRAIN_MANA_SPELL</a>         = 17243,</div>
+<div class="line"><span class="lineno">  321</span>    <a class="code hl_enumvalue" href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c">SHADOWBOLT_VOLLEY_SPELL</a>  = 17228</div>
+<div class="line"><span class="lineno">  322</span>};</div>
+<div class="ttc" id="aa02549_html_a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c"><div class="ttname"><a href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da2e1fda31c0d43a826ad22b89a62cfb8c">SHADOWBOLT_VOLLEY_SPELL</a></div><div class="ttdeci">@ SHADOWBOLT_VOLLEY_SPELL</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:321</div></div>
+<div class="ttc" id="aa02549_html_a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af"><div class="ttname"><a href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da5a3228d15aeb4d8cb7c29650200766af">DRAIN_MANA_SPELL</a></div><div class="ttdeci">@ DRAIN_MANA_SPELL</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:320</div></div>
+<div class="ttc" id="aa02549_html_a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a"><div class="ttname"><a href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da89e933b806d06611ede39194aec55c1a">BONE_ARMOR_SPELL</a></div><div class="ttdeci">@ BONE_ARMOR_SPELL</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:318</div></div>
+<div class="ttc" id="aa02549_html_a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313"><div class="ttname"><a href="../../d0/df5/a02549.html#a9f85ef6fae02a6e177aa60a656ac2b3da8b221e5c5dc36e75186eb2b8bdc0e313">COUNTER_SPELL</a></div><div class="ttdeci">@ COUNTER_SPELL</div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:319</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a57729392acbf8df56faae2a7865f65b4" name="a57729392acbf8df56faae2a7865f65b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57729392acbf8df56faae2a7865f65b4">&#9670;&#160;</a></span>AddSC_instance_scholomance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_instance_scholomance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
-<div class="line"><span class="lineno">  102</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d13/a15054.html">npc_webbed_creature</a>();</div>
-<div class="line"><span class="lineno">  103</span>}</div>
-<div class="ttc" id="aa15054_html"><div class="ttname"><a href="../../d4/d13/a15054.html">npc_webbed_creature</a></div><div class="ttdef"><b>Definition:</b> zone_bloodmyst_isle.cpp:46</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  439</span>{</div>
+<div class="line"><span class="lineno">  440</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/de3/a12758.html">instance_scholomance</a>();</div>
+<div class="line"><span class="lineno">  441</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/db0/a12766.html">spell_scholomance_fixate_aura</a>);</div>
+<div class="line"><span class="lineno">  442</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../df/d3f/a12770.html">spell_scholomance_boon_of_life_aura</a>);</div>
+<div class="line"><span class="lineno">  443</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d72/a12774.html">npc_scholomance_occultist</a>();</div>
+<div class="line"><span class="lineno">  444</span>}</div>
+<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
+<div class="ttc" id="aa12758_html"><div class="ttname"><a href="../../d7/de3/a12758.html">instance_scholomance</a></div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:32</div></div>
+<div class="ttc" id="aa12766_html"><div class="ttname"><a href="../../d3/db0/a12766.html">spell_scholomance_fixate_aura</a></div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:250</div></div>
+<div class="ttc" id="aa12770_html"><div class="ttname"><a href="../../df/d3f/a12770.html">spell_scholomance_boon_of_life_aura</a></div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:275</div></div>
+<div class="ttc" id="aa12774_html"><div class="ttname"><a href="../../df/d72/a12774.html">npc_scholomance_occultist</a></div><div class="ttdef"><b>Definition:</b> instance_scholomance.cpp:325</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ab3e43a66e02bf6f3b8cbd7c154f9d70d" name="ab3e43a66e02bf6f3b8cbd7c154f9d70d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3e43a66e02bf6f3b8cbd7c154f9d70d">&#9670;&#160;</a></span>possibleSpawns</h2>
+<a id="a5e00a038de93e0b1fc4ac53b49bf47da" name="a5e00a038de93e0b1fc4ac53b49bf47da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e00a038de93e0b1fc4ac53b49bf47da">&#9670;&#160;</a></span>KirtonosSpawn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/def/a00359.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const possibleSpawns[32] = {17322, 17661, 17496, 17522, 17340, 17352, 17333, 17524, 17654, 17348, 17339, 17345, 17359, 17353, 17336, 17550, 17330, 17701, 17321, 17325, 17320, 17683, 17342, 17715, 17334, 17341, 17338, 17337, 17346, 17344, 17327}</td>
+          <td class="memname"><a class="el" href="../../d6/d03/a08202.html">Position</a> KirtonosSpawn = <a class="el" href="../../d6/d03/a08202.html">Position</a>(315.028, 70.5385, 102.15, 0.385971)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00058">npc_webbed_creature::npc_webbed_creatureAI::JustDied()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00125">instance_scholomance::instance_scholomance_InstanceMapScript::SetData()</a>.</p>
 
 </div>
 </div>
@@ -209,8 +281,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../d0/df5/a02549.html">zone_bloodmyst_isle.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:39:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_29679c4820650ebe701cec6df12f9d89.html">Scholomance</a></li><li class="navelem"><a class="el" href="../../d0/df5/a02549.html">instance_scholomance.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 11 2024 20:38:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

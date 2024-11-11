@@ -1,6 +1,5 @@
 var a26686 =
 [
-    [ "CalculateAmount", "d7/d0d/a26686.html#a94b6fab25e8cb298650f2a1e2d0b4347", null ],
-    [ "PrepareAuraScript", "d7/d0d/a26686.html#a845476e27b3751fd5aab505d41d8696d", null ],
-    [ "Register", "d7/d0d/a26686.html#aa5141f11bcd97cc501297a5309df1079", null ]
+    [ "AreaTrigger_at_voltarus_middle", "d7/d0d/a26686.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "d7/d0d/a26686.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

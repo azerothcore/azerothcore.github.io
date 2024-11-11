@@ -1,6 +1,5 @@
 var a21982 =
 [
-    [ "HandleScriptEffect", "da/d93/a21982.html#a1dac2806b74471332aec0595118005a3", null ],
-    [ "PrepareSpellScript", "da/d93/a21982.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
-    [ "Register", "da/d93/a21982.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
+    [ "npc_wg_spirit_guideAI", "da/d93/a21982.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
+    [ "UpdateAI", "da/d93/a21982.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
 ];

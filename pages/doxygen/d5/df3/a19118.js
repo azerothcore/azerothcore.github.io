@@ -1,14 +1,16 @@
 var a19118 =
 [
-    [ "boss_varosAI", "d5/df3/a19118.html#a3e6815b80a3f9f5e8c53bb762e9058f2", null ],
-    [ "EnterEvadeMode", "d5/df3/a19118.html#a0b7eeef4529b47357d729852cdeab002", null ],
-    [ "JustDied", "d5/df3/a19118.html#a2724167a66a059e1c0ca1612d8405d68", null ],
-    [ "JustEngagedWith", "d5/df3/a19118.html#a2f25555ca2884f6bffb289d209e87740", null ],
-    [ "JustSummoned", "d5/df3/a19118.html#a24b2a1e438b02c67e64b79adb0cfeafe", null ],
-    [ "MoveInLineOfSight", "d5/df3/a19118.html#a87f743f03dc19659d0e77ee23cd2c327", null ],
-    [ "Reset", "d5/df3/a19118.html#aef24d04954a26bb6381c860403e84288", null ],
-    [ "UpdateAI", "d5/df3/a19118.html#acc1ac3c2bf5cb1a7732f375285467423", null ],
-    [ "events", "d5/df3/a19118.html#a36746118770c936e7606962365e102d8", null ],
-    [ "pInstance", "d5/df3/a19118.html#a9cf7c0159753512ae7dea8a2f6a9da74", null ],
-    [ "ZapAngle", "d5/df3/a19118.html#aef225fcf580c5e500d3242ac4be24260", null ]
+    [ "boss_ionarAI", "d5/df3/a19118.html#af212102febe4e0ef406475f5e1452695", null ],
+    [ "JustDied", "d5/df3/a19118.html#a12ad910d0838b1fbb626f761b70c86c5", null ],
+    [ "JustEngagedWith", "d5/df3/a19118.html#a17bff3df427ad65453cfc440e46f76fa", null ],
+    [ "KilledUnit", "d5/df3/a19118.html#aa74b2b6cd2358b11596d34357fac194c", null ],
+    [ "Reset", "d5/df3/a19118.html#acbb2807142af2ef570aec0f12c861d36", null ],
+    [ "ScheduleEvents", "d5/df3/a19118.html#ad3f0bf773bc091cc14491cd309a4b531", null ],
+    [ "SpellHit", "d5/df3/a19118.html#a5954749594cf76a2f8db7a61874a0279", null ],
+    [ "Split", "d5/df3/a19118.html#ab10351b157e6e370d910780febdbda74", null ],
+    [ "UpdateAI", "d5/df3/a19118.html#a41767f4b491b4d59824bac8854c3090d", null ],
+    [ "events", "d5/df3/a19118.html#ae87ba5970d8d4f9fc33b94dc9abefa2f", null ],
+    [ "HealthCheck", "d5/df3/a19118.html#a05006b60fa4e7b33f589ca87b3374aa5", null ],
+    [ "m_pInstance", "d5/df3/a19118.html#a752059e06a6971d94243f283ef75be91", null ],
+    [ "summons", "d5/df3/a19118.html#ac67332dd2f94ea8bdd7c7871bc022239", null ]
 ];

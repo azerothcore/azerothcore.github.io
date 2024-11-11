@@ -1,7 +1,7 @@
 var a27810 =
 [
-    [ "EmoteType", "d0/d7f/a27810.html#a2d319652021081fdb02472c32a28e318", null ],
-    [ "Flags", "d0/d7f/a27810.html#aa1794d3ffd7f7da82f5754e1be580fe9", null ],
-    [ "Id", "d0/d7f/a27810.html#a3b3b641fbdb8dc88afc2421e358a75a1", null ],
-    [ "UnitStandState", "d0/d7f/a27810.html#ada83e548faa01917a5db19eaa15dbbec", null ]
+    [ "AllocationPct", "d0/d7f/a27810.html#a45d752dfd00a75f69d919a88573ba4fc", null ],
+    [ "Enchantment", "d0/d7f/a27810.html#a45e694082c1dbdeef5229561f617d584", null ],
+    [ "ID", "d0/d7f/a27810.html#a66d78860d81c497765b5e68b5fd2ae18", null ],
+    [ "Name", "d0/d7f/a27810.html#a3ee4d8152817e10b873de5ec36ba062b", null ]
 ];

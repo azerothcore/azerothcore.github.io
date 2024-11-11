@@ -1,46 +1,48 @@
 var a04181 =
 [
-    [ "ChaseRange", "d0/df8/a09638.html", "d0/df8/a09638" ],
-    [ "ChaseAngle", "d8/d6f/a09642.html", "d8/d6f/a09642" ],
-    [ "MotionMaster", "d6/d37/a09646.html", "d6/d37/a09646" ],
-    [ "SPEED_CHARGE", "d2/d29/a04181.html#a6386d0a4b64b17a25a60627bb55b360c", null ],
-    [ "VISUAL_WAYPOINT", "d2/d29/a04181.html#af0544189c7fc748059c3075861102b40", null ],
-    [ "MMCleanFlag", "d2/d29/a04181.html#a1a14fe34f2e738c20bcc4e3c5cc71de5", [
-      [ "MMCF_NONE", "d2/d29/a04181.html#a1a14fe34f2e738c20bcc4e3c5cc71de5a94162d33d05261960508206156596b79", null ],
-      [ "MMCF_UPDATE", "d2/d29/a04181.html#a1a14fe34f2e738c20bcc4e3c5cc71de5ab78b5bb4f06ecc2246991dc5660faca5", null ],
-      [ "MMCF_RESET", "d2/d29/a04181.html#a1a14fe34f2e738c20bcc4e3c5cc71de5a52a6ffecbabca2148ffb0ad5ac3009f2", null ],
-      [ "MMCF_INUSE", "d2/d29/a04181.html#a1a14fe34f2e738c20bcc4e3c5cc71de5ae59b5bbe7b7d76f6167d789502da8cb0", null ]
+    [ "SpellModPred", "d5/df4/a08258.html", "d5/df4/a08258" ],
+    [ "MageSpellModPred", "dd/d7d/a08262.html", "dd/d7d/a08262" ],
+    [ "CharacterCustomizeFlags", "d2/d29/a04181.html#a3a8c2696b2e9a6bf9d90ce80438aa578", [
+      [ "CHAR_CUSTOMIZE_FLAG_NONE", "d2/d29/a04181.html#a3a8c2696b2e9a6bf9d90ce80438aa578a6f6dac768618381b22f3ab44ba494533", null ],
+      [ "CHAR_CUSTOMIZE_FLAG_CUSTOMIZE", "d2/d29/a04181.html#a3a8c2696b2e9a6bf9d90ce80438aa578aadb876a16cbe9fa5facd96601b6a4626", null ],
+      [ "CHAR_CUSTOMIZE_FLAG_FACTION", "d2/d29/a04181.html#a3a8c2696b2e9a6bf9d90ce80438aa578a70c1f08c7db8077b7cf4387b15320dbd", null ],
+      [ "CHAR_CUSTOMIZE_FLAG_RACE", "d2/d29/a04181.html#a3a8c2696b2e9a6bf9d90ce80438aa578a02cee8912e6f3e69aff23e8f2603dbd5", null ]
     ] ],
-    [ "MovementGeneratorType", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9", [
-      [ "IDLE_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a35e951ebafcab180b4bd926e5760803e", null ],
-      [ "RANDOM_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2", null ],
-      [ "WAYPOINT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9", null ],
-      [ "MAX_DB_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a06257c74c322baaae86bc2bfd1dd359b", null ],
-      [ "ANIMAL_RANDOM_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9ae9aa98899960f240ae2de52288b2dbd6", null ],
-      [ "CONFUSED_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9aaf0253f8d6a3f2a5219bcf9db3494611", null ],
-      [ "CHASE_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a4a7484b1c685865cef43981b61d3a881", null ],
-      [ "HOME_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9ab50c687899070d507c7858b481807426", null ],
-      [ "FLIGHT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9ad1cbffaeac9c9f09b8aeedbaadef54f4", null ],
-      [ "POINT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467", null ],
-      [ "FLEEING_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a96bdbc5913c5eb73d6eb7b28bbe9b05e", null ],
-      [ "DISTRACT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a35aa056191b760ab18515a11f00f1759", null ],
-      [ "ASSISTANCE_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a32a9419cbc2b947d521e0ea050020a9c", null ],
-      [ "ASSISTANCE_DISTRACT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9aec81245314a6864c0e3561d3bfc04ec4", null ],
-      [ "TIMED_FLEEING_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a0358690810ecf133811aa6b73bc086fc", null ],
-      [ "FOLLOW_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9ae99e76e1e80feb6d7ff6e1df01e98e9c", null ],
-      [ "ROTATE_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a5e3cb574fe15a9c73536dab95be16c3f", null ],
-      [ "EFFECT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9af4917c7ba7d6e157bc3b8c59773cc6ac", null ],
-      [ "ESCORT_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a61498726a0e9657284d8fb8b173cf4bf", null ],
-      [ "NULL_MOTION_TYPE", "d2/d29/a04181.html#a4f12806b915efea564eae942207002f9a9e63cfaad6d8b0e2c14a8b53f6f02e0b", null ]
+    [ "CharacterFlags", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6de", [
+      [ "CHARACTER_FLAG_NONE", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dead5a7499a6c1f3eb27d35f01be67f400c", null ],
+      [ "CHARACTER_FLAG_UNK1", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea092d0044d3d9007a2b863daabc208179", null ],
+      [ "CHARACTER_FLAG_UNK2", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea40bc4e4edc46c4d502a99b8b5e39cba0", null ],
+      [ "CHARACTER_LOCKED_FOR_TRANSFER", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deac53c54ed596141ee95313054fc0ef3e6", null ],
+      [ "CHARACTER_FLAG_UNK4", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea622731fb5fcaa439a008543afe91e0ae", null ],
+      [ "CHARACTER_FLAG_UNK5", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea657ec519983809e892b66a4bbcc420f9", null ],
+      [ "CHARACTER_FLAG_UNK6", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deae7f3c8351b12fbd90cd6dd6b0070e3da", null ],
+      [ "CHARACTER_FLAG_UNK7", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dead47e923a1edb4d4671e9662a63d92994", null ],
+      [ "CHARACTER_FLAG_UNK8", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea7b52e8cea3f9c3167d92decd72098a3b", null ],
+      [ "CHARACTER_FLAG_UNK9", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deab057f340ae5124c15001b623b6a394a6", null ],
+      [ "CHARACTER_FLAG_UNK10", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea498fa883ff24092e936e5177beebb785", null ],
+      [ "CHARACTER_FLAG_HIDE_HELM", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea66535a9bc1fcff584512d527a0e445ad", null ],
+      [ "CHARACTER_FLAG_HIDE_CLOAK", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea6cc2ad36253f710d071f6ac2f4d5d989", null ],
+      [ "CHARACTER_FLAG_UNK13", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dead6058e570765e54acdb0bad2ccc37cbe", null ],
+      [ "CHARACTER_FLAG_GHOST", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea5542926bc198b33f9a2bfa3f8e85f59f", null ],
+      [ "CHARACTER_FLAG_RENAME", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deacb51a14db555ce9a87615b0aad13ea9c", null ],
+      [ "CHARACTER_FLAG_UNK16", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea8e36178c90ba01bda3e3cfb4f0acc26a", null ],
+      [ "CHARACTER_FLAG_UNK17", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dead045598a678f05d5a6e48657a2ff5454", null ],
+      [ "CHARACTER_FLAG_UNK18", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea52d3c6406ca1ca64d241da3aa0840494", null ],
+      [ "CHARACTER_FLAG_UNK19", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea20daaff29ba350494a4ac43cb371baa2", null ],
+      [ "CHARACTER_FLAG_UNK20", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea78d41c1489bfe1594e5b47b53f48dfcc", null ],
+      [ "CHARACTER_FLAG_UNK21", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deaa040a897bd55c5a2bc0cbf54fa598bc0", null ],
+      [ "CHARACTER_FLAG_UNK22", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deaefb3d9df73b012a574c9cd555df01617", null ],
+      [ "CHARACTER_FLAG_UNK23", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea93ff5e89a80da229bb8bb32c3347c1ec", null ],
+      [ "CHARACTER_FLAG_UNK24", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea493ef27dbee4dad8aa8d304ad45bff29", null ],
+      [ "CHARACTER_FLAG_LOCKED_BY_BILLING", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deab0f9ad7514233fbaa1def50233bb8bfc", null ],
+      [ "CHARACTER_FLAG_DECLINED", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea6098faf3414ed441768bb232095b4d7e", null ],
+      [ "CHARACTER_FLAG_UNK27", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea3ffb56c9015b39dfd2c565a4959847aa", null ],
+      [ "CHARACTER_FLAG_UNK28", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dead435b5efb35339b5235a8122e465ef9e", null ],
+      [ "CHARACTER_FLAG_UNK29", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deace4621701b17986236789bb2b7076e17", null ],
+      [ "CHARACTER_FLAG_UNK30", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea4403a51ec915d185419571435ae9d4ef", null ],
+      [ "CHARACTER_FLAG_UNK31", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6dea6dc33aaf3064bb368a764a60bcb4a6ba", null ],
+      [ "CHARACTER_FLAG_UNK32", "d2/d29/a04181.html#aaba5b1cb73e3834489f98e5f6f0fc6deaf4b59210a530d6a1c19fb816841c2258", null ]
     ] ],
-    [ "MovementSlot", "d2/d29/a04181.html#a42f80f4e5d95e3ba656adbee43cfc3f5", [
-      [ "MOTION_SLOT_IDLE", "d2/d29/a04181.html#a42f80f4e5d95e3ba656adbee43cfc3f5a8c7bb505a87bb49d9e66390133eed5a7", null ],
-      [ "MOTION_SLOT_ACTIVE", "d2/d29/a04181.html#a42f80f4e5d95e3ba656adbee43cfc3f5a89ae2a485a626fc8f0ba275f61cc5fcc", null ],
-      [ "MOTION_SLOT_CONTROLLED", "d2/d29/a04181.html#a42f80f4e5d95e3ba656adbee43cfc3f5a4b14f4870ac324393280d0d554f9c41e", null ],
-      [ "MAX_MOTION_SLOT", "d2/d29/a04181.html#a42f80f4e5d95e3ba656adbee43cfc3f5a99e3f1c482d8a964a3613986a34658b5", null ]
-    ] ],
-    [ "RotateDirection", "d2/d29/a04181.html#a1978c8aa3f81d04079c45fe56aa51233", [
-      [ "ROTATE_DIRECTION_LEFT", "d2/d29/a04181.html#a1978c8aa3f81d04079c45fe56aa51233af0378f46d4f9f1521d769f7c1c046d6a", null ],
-      [ "ROTATE_DIRECTION_RIGHT", "d2/d29/a04181.html#a1978c8aa3f81d04079c45fe56aa51233adb74149191eeae76464e730abe95a4c5", null ]
-    ] ]
+    [ "copseReclaimDelay", "d2/d29/a04181.html#abc12a88106c15ea8ca079d4ddcf9c620", null ],
+    [ "runeSlotTypes", "d2/d29/a04181.html#a3c9e0541a7758d9d6e543e883b89d62f", null ]
 ];

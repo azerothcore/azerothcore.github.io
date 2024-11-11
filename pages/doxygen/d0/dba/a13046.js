@@ -1,6 +1,8 @@
 var a13046 =
 [
-    [ "CastArmageddon", "d0/dba/a13046.html#a2e90929b63e6151252aa01a55dbd801f", null ],
-    [ "Execute", "d0/dba/a13046.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
-    [ "_caster", "d0/dba/a13046.html#a1e70887099a7a47b7c26517d4363ad93", null ]
+    [ "HandleApply", "d0/dba/a13046.html#a2c64240e8675fc76598600ae2632570f", null ],
+    [ "HandleRemove", "d0/dba/a13046.html#a2a6e32bbc9b722ad7e872c6a26daa6bb", null ],
+    [ "PrepareAuraScript", "d0/dba/a13046.html#a6ff74fbaf3a6ef84024d55528fd6f8e2", null ],
+    [ "Register", "d0/dba/a13046.html#aebfb4b20a9b0ebefff652a0ae1727994", null ],
+    [ "Validate", "d0/dba/a13046.html#abdad49fe5e0a72799847fdfcfe22eec0", null ]
 ];

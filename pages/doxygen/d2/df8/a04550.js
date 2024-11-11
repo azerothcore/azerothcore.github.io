@@ -1,7 +1,9 @@
 var a04550 =
 [
-    [ "ACSoapThread", "d2/df8/a04550.html#a69e574c9a3cecf7c395cd036bb672ed3", null ],
-    [ "ns1__executeCommand", "d2/df8/a04550.html#af9d30c869db1c560fead6671ff96ad82", null ],
-    [ "process_message", "d2/df8/a04550.html#abf914e30c869f88f2fafb9f656320c6a", null ],
-    [ "namespaces", "d2/df8/a04550.html#aabfac0a3b8d38498bc5e1e3bc465ead6", null ]
+    [ "SQLElementData", "d0/df9/a05758.html", "d0/df9/a05758" ],
+    [ "SQLOperation", "d7/db7/a05762.html", "d7/db7/a05762" ],
+    [ "SQLElementDataType", "d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627", [
+      [ "SQL_ELEMENT_RAW", "d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a", null ],
+      [ "SQL_ELEMENT_PREPARED", "d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d", null ]
+    ] ]
 ];

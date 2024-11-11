@@ -1,5 +1,6 @@
 var a14650 =
 [
-    [ "pathId", "d8/de4/a14650.html#aefd9fa5c6e7f45047994c7cc47e5967c", null ],
-    [ "spellId", "d8/de4/a14650.html#af495f984d5b81baeaa61ddca127a9508", null ]
+    [ "HandleScript", "d8/de4/a14650.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
+    [ "PrepareSpellScript", "d8/de4/a14650.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
+    [ "Register", "d8/de4/a14650.html#a434f0aef7f32edb6990efb992e4d57af", null ]
 ];

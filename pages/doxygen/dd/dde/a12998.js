@@ -1,6 +1,6 @@
 var a12998 =
 [
-    [ "FilterTargets", "dd/dde/a12998.html#ac7f7287b88cde82fbf8a625f002c86fa", null ],
-    [ "PrepareSpellScript", "dd/dde/a12998.html#a222e2c8e5401c132e89b29bbd22d46a6", null ],
-    [ "Register", "dd/dde/a12998.html#a1a3607dd7e3d56bde3b92cbf4bcd0e78", null ]
+    [ "CastArmageddon", "dd/dde/a12998.html#a2e90929b63e6151252aa01a55dbd801f", null ],
+    [ "Execute", "dd/dde/a12998.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
+    [ "_caster", "dd/dde/a12998.html#a1e70887099a7a47b7c26517d4363ad93", null ]
 ];

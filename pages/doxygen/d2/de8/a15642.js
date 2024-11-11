@@ -1,7 +1,5 @@
 var a15642 =
 [
-    [ "OnRemove", "d2/de8/a15642.html#afb0821bc8774e634eefdd87efe6af945", null ],
-    [ "PrepareAuraScript", "d2/de8/a15642.html#a54b1de501bdf3193cdb89125bc1ceb0e", null ],
-    [ "Register", "d2/de8/a15642.html#a985ad6d7eca06fbaf869e591136f46a3", null ],
-    [ "Validate", "d2/de8/a15642.html#aa794b76c4d9590b867dda57f02724d95", null ]
+    [ "at_baltharus_plateau", "d2/de8/a15642.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
+    [ "OnTrigger", "d2/de8/a15642.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
 ];

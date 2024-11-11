@@ -1,9 +1,8 @@
 var a23762 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d9/d64/a23762.html#a273d585416dc92d39d5ec3824c08504d", null ],
-    [ "IsSummonedBy", "d9/d64/a23762.html#a5f002d36c492ed2caf2290f4a073a7d0", null ],
-    [ "Reset", "d9/d64/a23762.html#a06fa50580efeab8d847a05f20956d175", null ],
-    [ "UpdateAI", "d9/d64/a23762.html#a8261a259cfbee0d3610ee441406fafcd", null ],
-    [ "playerGuid", "d9/d64/a23762.html#aab717dd49284c483759a6223dbd7e6ea", null ],
-    [ "timer", "d9/d64/a23762.html#afba1b71178c563a3db906057cd20de45", null ]
+    [ "npc_bessyAI", "d9/d64/a23762.html#ad1300a563888b34689bedf97c387707c", null ],
+    [ "JustDied", "d9/d64/a23762.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
+    [ "JustSummoned", "d9/d64/a23762.html#a4197fb122299fd152e5da335bb832ae5", null ],
+    [ "Reset", "d9/d64/a23762.html#aed64386629e52c3b65abadde54a63cc4", null ],
+    [ "WaypointReached", "d9/d64/a23762.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
 ];

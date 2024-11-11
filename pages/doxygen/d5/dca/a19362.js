@@ -1,6 +1,5 @@
 var a19362 =
 [
-    [ "iron_golem_custodianAI", "de/d23/a19366.html", "de/d23/a19366" ],
-    [ "iron_golem_custodian", "d5/dca/a19362.html#adc11b755e193adbad757c21e5b15e063", null ],
-    [ "GetAI", "d5/dca/a19362.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
+    [ "achievement_algalon_he_feeds_on_your_tears", "d5/dca/a19362.html#a91f4ddbce55a50e563df701eb0bcfff7", null ],
+    [ "OnCheck", "d5/dca/a19362.html#affea33614581545c65513bfe533d7246", null ]
 ];

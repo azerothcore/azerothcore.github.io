@@ -1,6 +1,7 @@
 var a15590 =
 [
-    [ "boss_hadronoxAI", "d2/d38/a15594.html", "d2/d38/a15594" ],
-    [ "boss_hadronox", "d7/d7c/a15590.html#ae3457fd6108cc350cf9eedab3178f781", null ],
-    [ "GetAI", "d7/d7c/a15590.html#a90bf0ecb218e30e61852baffeabc3dc1", null ]
+    [ "HandleHit", "d7/d7c/a15590.html#abd59d91ab50eb8945a4a00157d9d5564", null ],
+    [ "PrepareSpellScript", "d7/d7c/a15590.html#a27549f3cacc1732bbc1e61209e0f4905", null ],
+    [ "Register", "d7/d7c/a15590.html#af132eee38064c5123f4e01d52efb9314", null ],
+    [ "Validate", "d7/d7c/a15590.html#accad8dfdf29a1475b6f272259f1ed9bf", null ]
 ];

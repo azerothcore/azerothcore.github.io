@@ -1,6 +1,7 @@
 var a22658 =
 [
-    [ "boss_essence_of_desireAI", "df/df2/a22662.html", "df/df2/a22662" ],
-    [ "boss_essence_of_desire", "df/d4d/a22658.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
-    [ "GetAI", "df/d4d/a22658.html#a14b66470c508fa24e214062aeec0aae6", null ]
+    [ "HandleOnHit", "df/d4d/a22658.html#a9f368396cef39ba3bd70480f11c44700", null ],
+    [ "PrepareSpellScript", "df/d4d/a22658.html#a3240b42a9122e61b57ea91486cb3c97b", null ],
+    [ "Register", "df/d4d/a22658.html#a99f80adcebdd9726a8df51f99d415651", null ],
+    [ "Validate", "df/d4d/a22658.html#a25e3078f0b2d71ea0e6802aae0a6c7a4", null ]
 ];

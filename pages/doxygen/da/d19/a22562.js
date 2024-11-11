@@ -1,10 +1,6 @@
 var a22562 =
 [
-    [ "boss_illidari_council", "da/d19/a22562.html#a078c36be39b377f6d1cdbf061d70270d", null ],
-    [ "AttackStart", "da/d19/a22562.html#a260b15ec58164f17543aa044a89875a8", null ],
-    [ "DamageTaken", "da/d19/a22562.html#af8e88c307efaba392cc2a1d2f3862078", null ],
-    [ "DoAction", "da/d19/a22562.html#a6c3c57523ed2775ba553af1171b46463", null ],
-    [ "EnterEvadeMode", "da/d19/a22562.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
-    [ "MoveInLineOfSight", "da/d19/a22562.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
-    [ "UpdateAI", "da/d19/a22562.html#a8b30df956aa4ce1727756f1d19e151be", null ]
+    [ "boss_essence_of_angerAI", "da/d20/a22566.html", "da/d20/a22566" ],
+    [ "boss_essence_of_anger", "da/d19/a22562.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
+    [ "GetAI", "da/d19/a22562.html#a70a460f31b7f878e532b695ca822ab5d", null ]
 ];

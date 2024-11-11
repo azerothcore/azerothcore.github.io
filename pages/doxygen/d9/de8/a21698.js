@@ -1,11 +1,9 @@
 var a21698 =
 [
-    [ "npc_lake_frogAI", "d9/de8/a21698.html#ac08eeed39d046ce35d7d6aa65d53cab5", null ],
-    [ "ReceiveEmote", "d9/de8/a21698.html#abd58e65b6829c70818c578ed615a980b", null ],
-    [ "Reset", "d9/de8/a21698.html#a3773b3a21ea25db316481f1da5e6dd3c", null ],
-    [ "sGossipSelect", "d9/de8/a21698.html#a95906677ff65e004408ae65df3f49b5c", null ],
-    [ "UpdateAI", "d9/de8/a21698.html#aed8368ec27fed5cd14e4a54091aa9584", null ],
-    [ "_events", "d9/de8/a21698.html#a314d7d7891c05bda288ea0d590f0cfa4", null ],
-    [ "_following", "d9/de8/a21698.html#a0078f9134a61f0ec2465ce103523e341", null ],
-    [ "_runningScript", "d9/de8/a21698.html#af76102ba6c9ffd80baa95623b7312980", null ]
+    [ "npc_lord_areteAI", "d9/de8/a21698.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
+    [ "InitializeAI", "d9/de8/a21698.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
+    [ "UpdateAI", "d9/de8/a21698.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
+    [ "_landgrenGUID", "d9/de8/a21698.html#ac0e3753096dfe779024acc8400791171", null ],
+    [ "_landgrenSoulGUID", "d9/de8/a21698.html#aaa28c67691610136f0b418b30892f3cd", null ],
+    [ "events", "d9/de8/a21698.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
 ];

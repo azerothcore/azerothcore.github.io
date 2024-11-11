@@ -1,6 +1,6 @@
 var a17554 =
 [
-    [ "npc_gas_cloudAI", "d2/d4b/a17554.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
-    [ "CastMainSpell", "d2/d4b/a17554.html#a61681f6f9616fe33274302d4160c709b", null ],
-    [ "_newTargetSelectTimer", "d2/d4b/a17554.html#a6989b904abaa5b71362e43664f4b084d", null ]
+    [ "npc_big_oozeAI", "d3/d10/a17558.html", "d3/d10/a17558" ],
+    [ "npc_big_ooze", "d2/d4b/a17554.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
+    [ "GetAI", "d2/d4b/a17554.html#ad06308602d69b51ff3f269bda6c465b5", null ]
 ];

@@ -1,6 +1,6 @@
 var a15918 =
 [
-    [ "boss_paletressAI", "d3/d87/a15922.html", "d3/d87/a15922" ],
-    [ "boss_paletress", "d3/d6c/a15918.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
-    [ "GetAI", "d3/d6c/a15918.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
+    [ "boss_anubarak_trialAI", "d3/d87/a15922.html", "d3/d87/a15922" ],
+    [ "boss_anubarak_trial", "d3/d6c/a15918.html#a5204e33a412608b53cc155a043356d58", null ],
+    [ "GetAI", "d3/d6c/a15918.html#a9b8fe9ed3370434612cbd46e7649213d", null ]
 ];

@@ -1,7 +1,6 @@
 var a13150 =
 [
-    [ "OnPeriodic", "da/d57/a13150.html#a25e7a59384f262a36c74696a1befa01d", null ],
-    [ "PrepareAuraScript", "da/d57/a13150.html#a9b82fde3e38054b686f9b2a110cfaa1e", null ],
-    [ "Register", "da/d57/a13150.html#a65e469ba04d8cd2aa23d934bf2915721", null ],
-    [ "Validate", "da/d57/a13150.html#a6843deda5be8b684c06a86920714f255", null ]
+    [ "npc_maredis_firestarAI", "da/d57/a13150.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
+    [ "sGossipHello", "da/d57/a13150.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
+    [ "sGossipSelect", "da/d57/a13150.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
 ];

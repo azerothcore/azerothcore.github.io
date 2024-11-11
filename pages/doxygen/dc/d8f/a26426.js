@@ -1,7 +1,6 @@
 var a26426 =
 [
-    [ "HandleDummy", "dc/d8f/a26426.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
-    [ "PrepareSpellScript", "dc/d8f/a26426.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
-    [ "Register", "dc/d8f/a26426.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
-    [ "Validate", "dc/d8f/a26426.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
+    [ "FilterTargets", "dc/d8f/a26426.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
+    [ "PrepareSpellScript", "dc/d8f/a26426.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
+    [ "Register", "dc/d8f/a26426.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
 ];

@@ -1,10 +1,16 @@
 var a19134 =
 [
-    [ "npc_oculus_drakegiverAI", "d1/d65/a19134.html#a4bba380256a0ede70b8d90611249b444", null ],
-    [ "MovementInform", "d1/d65/a19134.html#adc86ecd4ed7b4b7b42968a0e09fa29a0", null ],
-    [ "UpdateAI", "d1/d65/a19134.html#a652a8c364687d51de62356964f6f33f9", null ],
-    [ "m_pInstance", "d1/d65/a19134.html#a04e43a623d16b4cf8d80552d649d90ca", null ],
-    [ "moved", "d1/d65/a19134.html#a069e202a84d99cd757862bd1a43b5562", null ],
-    [ "resetPosition", "d1/d65/a19134.html#a8ef6c480846d08d8a6225a7124320cbf", null ],
-    [ "timer", "d1/d65/a19134.html#a461b45ab959e71699cf1543ecbcbd91f", null ]
+    [ "boss_lokenAI", "d1/d65/a19134.html#abdadd98c337f97f6a1daf1657f2f3ab2", null ],
+    [ "JustDied", "d1/d65/a19134.html#a2ab2adb8c9fb2048e2c3c341d8c2ff37", null ],
+    [ "JustEngagedWith", "d1/d65/a19134.html#afd9634d8665b946991ccd777072cf70a", null ],
+    [ "KilledUnit", "d1/d65/a19134.html#af6f6ebfffa9e2719c3a18bd53d704018", null ],
+    [ "LokenSpeach", "d1/d65/a19134.html#a853a371812a856f39137c665fcc09b86", null ],
+    [ "MoveInLineOfSight", "d1/d65/a19134.html#a0855580a471661925fdf272dedb418fd", null ],
+    [ "Reset", "d1/d65/a19134.html#a51c7ca1ce5a0b4837d2fbc033c06a864", null ],
+    [ "UpdateAI", "d1/d65/a19134.html#acc5b453efca847a6cada43606b8a08ed", null ],
+    [ "events", "d1/d65/a19134.html#ac3b98aeba2741ee49d262b33d30f8b2a", null ],
+    [ "HealthCheck", "d1/d65/a19134.html#ad9f9e369ce64bab66f29899659440b62", null ],
+    [ "IntroTimer", "d1/d65/a19134.html#ae92b9ff0abd8580baf7a2fca56e0df23", null ],
+    [ "isActive", "d1/d65/a19134.html#a8f20ce4cddf7eae09ddc659b9bf75919", null ],
+    [ "m_pInstance", "d1/d65/a19134.html#aba89a46dae1d4d195c8be10d89fb72ab", null ]
 ];

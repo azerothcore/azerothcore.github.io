@@ -1,6 +1,10 @@
 var a22914 =
 [
-    [ "HandleEffectRemove", "df/d25/a22914.html#adfbbb75ace34ab5c0fec35e6aa88505a", null ],
-    [ "PrepareAuraScript", "df/d25/a22914.html#a94b91d27b9a218b5fdce91d6a6e72f62", null ],
-    [ "Register", "df/d25/a22914.html#a2b7fb2d6d0f92a970a45e0b9c409408d", null ]
+    [ "Spells", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1", [
+      [ "SPELL_GROW", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1a287a03bdb61355baf071dd8aa5802ccd", null ],
+      [ "SPELL_SPORE_CLOUD", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1afae99ec87dcd6bdf3631b9f273fecbd5", null ]
+    ] ],
+    [ "npc_rancid_mushroom", "df/d25/a22914.html#a15896957b94de57de9eda5a199a05d4c", null ],
+    [ "InitializeAI", "df/d25/a22914.html#afff169ff9d7a8411cf6d21f4f9be2545", null ],
+    [ "UpdateAI", "df/d25/a22914.html#a13bfd343bdf54c829b3fcb0a775c0852", null ]
 ];

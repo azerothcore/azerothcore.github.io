@@ -1,7 +1,8 @@
 var a18770 =
 [
-    [ "FilterTargets", "db/dc3/a18770.html#af92aec0df6c962a10ccbebb366081cfd", null ],
-    [ "PrepareSpellScript", "db/dc3/a18770.html#ad7ccb2b2024887ec0a9802454a8bfaec", null ],
-    [ "Register", "db/dc3/a18770.html#af59416debfc7685bec92541a00e1dafe", null ],
-    [ "Validate", "db/dc3/a18770.html#abbe7ae557fb510457504f72adfa0aedc", null ]
+    [ "HandleAfterCast", "db/dc3/a18770.html#ac816f81a668ac3018be8f5dc4698039b", null ],
+    [ "HandleDummy", "db/dc3/a18770.html#a3009faa525c22779a0b2534b96821cfd", null ],
+    [ "PrepareSpellScript", "db/dc3/a18770.html#aca38f23f080314ab73ec2494bf877716", null ],
+    [ "Register", "db/dc3/a18770.html#aa87e57dabec6e83029f4dd84913f22ca", null ],
+    [ "Validate", "db/dc3/a18770.html#af945e399992deb3aef5c81ad393ee50f", null ]
 ];

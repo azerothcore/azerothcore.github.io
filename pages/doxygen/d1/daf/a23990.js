@@ -1,6 +1,6 @@
 var a23990 =
 [
-    [ "npc_enraged_spiritAI", "d8/d4e/a23994.html", "d8/d4e/a23994" ],
-    [ "npc_enraged_spirit", "d1/daf/a23990.html#a17d9e2e5fb8f2795fdeff26567bbf85f", null ],
-    [ "GetAI", "d1/daf/a23990.html#aa10d5f0147cf4064a49df735ac95575e", null ]
+    [ "npc_slim", "d1/daf/a23990.html#aa227fbe22126bed821939873973e6a20", null ],
+    [ "OnGossipHello", "d1/daf/a23990.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
+    [ "OnGossipSelect", "d1/daf/a23990.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
 ];

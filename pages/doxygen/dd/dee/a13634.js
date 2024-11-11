@@ -1,6 +1,6 @@
 var a13634 =
 [
-    [ "npc_zulian_prowlerAI", "d5/def/a13638.html", "d5/def/a13638" ],
-    [ "npc_zulian_prowler", "dd/dee/a13634.html#a27ae990985976d02bb221b6d669fa849", null ],
-    [ "GetAI", "dd/dee/a13634.html#a7e7d4f8164bbb728a1b83244c1e356f9", null ]
+    [ "HandleOnHit", "dd/dee/a13634.html#a76b09288d14d399735250607e2105eb3", null ],
+    [ "PrepareSpellScript", "dd/dee/a13634.html#a2270ce546ae286ffa701d094df591aa2", null ],
+    [ "Register", "dd/dee/a13634.html#a710f2a60bf6ae00909d279b98ac6b7d6", null ]
 ];

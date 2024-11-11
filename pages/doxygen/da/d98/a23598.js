@@ -1,6 +1,6 @@
 var a23598 =
 [
-    [ "HandleBeforeCast", "da/d98/a23598.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
-    [ "PrepareSpellScript", "da/d98/a23598.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
-    [ "Register", "da/d98/a23598.html#a45ae470002052c87d5270e3556f0e706", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d6/d86/a23602.html", "d6/d86/a23602" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "da/d98/a23598.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "da/d98/a23598.html#a250707096229da28024960beeb7725bf", null ]
 ];

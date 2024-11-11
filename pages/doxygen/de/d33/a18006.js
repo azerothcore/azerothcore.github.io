@@ -1,6 +1,6 @@
 var a18006 =
 [
-    [ "ModDestHeight", "de/d33/a18006.html#acd31e130e72cd93bee3544ecd2dc38ad", null ],
-    [ "PrepareSpellScript", "de/d33/a18006.html#a288f8917d73be30234e465778b1f6544", null ],
-    [ "Register", "de/d33/a18006.html#a69f9cdbfc33ec39f629f08f20484b29e", null ]
+    [ "npc_lk_wicked_spiritAI", "de/d29/a18010.html", "de/d29/a18010" ],
+    [ "npc_lk_wicked_spirit", "de/d33/a18006.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
+    [ "GetAI", "de/d33/a18006.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
 ];

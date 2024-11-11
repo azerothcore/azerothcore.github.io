@@ -1,9 +1,21 @@
 var a21802 =
 [
-    [ "npc_lord_areteAI", "d5/deb/a21802.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "d5/deb/a21802.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "d5/deb/a21802.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "d5/deb/a21802.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "d5/deb/a21802.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "d5/deb/a21802.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "npc_still_at_it_triggerAI", "d5/deb/a21802.html#a4c8a9984ded254aac0df168e35d658e1", null ],
+    [ "CheckAction", "d5/deb/a21802.html#ae52906e508ec3ea438c0dbde31a82197", null ],
+    [ "DamageTaken", "d5/deb/a21802.html#abeae6e59731fb70848ba719dbc18727b", null ],
+    [ "GetManus", "d5/deb/a21802.html#a1208132a9844369d0e1d87910a8576a7", null ],
+    [ "Reset", "d5/deb/a21802.html#a51f7fae0fae84e12e27840c04dde65f8", null ],
+    [ "SpellHit", "d5/deb/a21802.html#a41f2ef44c6ad7b9fff8e9ee90eebc759", null ],
+    [ "Start", "d5/deb/a21802.html#ac707759eea2d1e3d538f89d013aa96c9", null ],
+    [ "UpdateAI", "d5/deb/a21802.html#af6b279fbc562bbb702ea17eb892471d4", null ],
+    [ "currentstep", "d5/deb/a21802.html#a3206f3946f1f9a3e230c39f3370642cd", null ],
+    [ "expectedaction", "d5/deb/a21802.html#a3aa9f7db1b56bb186678455026e4d193", null ],
+    [ "playeraction", "d5/deb/a21802.html#af018e010bb709b73eec229615f401966", null ],
+    [ "playerGUID", "d5/deb/a21802.html#a3385d9f57a52914378fe2c1126600af5", null ],
+    [ "running", "d5/deb/a21802.html#a81100e14bbfdd5d31d61cef76b4c0a7f", null ],
+    [ "stepcount", "d5/deb/a21802.html#abd3273fe4758b494153c91362b01a587", null ],
+    [ "success", "d5/deb/a21802.html#a4e4d83f7b8e084f5051498f47cd57448", null ],
+    [ "tensecstimer", "d5/deb/a21802.html#a8774bbe4630b518f45508996710d006a", null ],
+    [ "thunderbrewGUID", "d5/deb/a21802.html#ac55098fa6034fe3b7efabdfaf72d083a", null ],
+    [ "timer", "d5/deb/a21802.html#a818549f4fd33d6d07e874705b09416e6", null ]
 ];

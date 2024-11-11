@@ -1,5 +1,6 @@
 var a20706 =
 [
-    [ "achievement_yogg_saron_drive_me_crazy", "d1/d27/a20706.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
-    [ "OnCheck", "d1/d27/a20706.html#a029fdd68e0643b53971efbb1056f19d8", null ]
+    [ "boss_skarvald_the_constructorAI", "dd/dac/a20710.html", "dd/dac/a20710" ],
+    [ "boss_skarvald_the_constructor", "d1/d27/a20706.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
+    [ "GetAI", "d1/d27/a20706.html#a979e3699d9c87cf4207b70026fb49180", null ]
 ];

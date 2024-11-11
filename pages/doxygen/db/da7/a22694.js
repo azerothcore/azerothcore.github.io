@@ -1,7 +1,8 @@
 var a22694 =
 [
-    [ "HandleEffectRemove", "db/da7/a22694.html#a6adc572bb13dde9b83a44a1c27833019", null ],
-    [ "PrepareAuraScript", "db/da7/a22694.html#a877c26735531508d1806273117f3e8bc", null ],
-    [ "Register", "db/da7/a22694.html#a1b3e9eb2f6979ac2f17ac47eb38c8bb5", null ],
-    [ "Validate", "db/da7/a22694.html#a8c45ba806d865f7b9d56950013bdd81c", null ]
+    [ "CalcPeriodic", "db/da7/a22694.html#aad87c25b9b3255a4871bec39d9787299", null ],
+    [ "PrepareAuraScript", "db/da7/a22694.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
+    [ "Register", "db/da7/a22694.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
+    [ "Update", "db/da7/a22694.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
+    [ "Validate", "db/da7/a22694.html#ae4f7bfb1cd95666acada217173876352", null ]
 ];

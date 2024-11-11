@@ -1,7 +1,8 @@
 var a26478 =
 [
-    [ "HandleAuraApply", "de/d82/a26478.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
-    [ "HandleAuraRemove", "de/d82/a26478.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
-    [ "PrepareAuraScript", "de/d82/a26478.html#a5c7d7c0b8880128121d66d39094f1965", null ],
-    [ "Register", "de/d82/a26478.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
+    [ "ApplyEffect", "de/d82/a26478.html#a0c303c58064236969e17d1f2df3e0556", null ],
+    [ "PrepareAuraScript", "de/d82/a26478.html#a716a483282946f840ac15d73c6e21a94", null ],
+    [ "Register", "de/d82/a26478.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
+    [ "RemoveEffect", "de/d82/a26478.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
+    [ "Validate", "de/d82/a26478.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
 ];

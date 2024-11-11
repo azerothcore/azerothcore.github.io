@@ -1,7 +1,7 @@
 var a26886 =
 [
-    [ "FilterTargets", "df/d2d/a26886.html#a5ee420ce696d23d836ff6e9e1def6405", null ],
-    [ "HandleEffect", "df/d2d/a26886.html#a064fdac9158e35f290b51ecf9bf537b1", null ],
-    [ "PrepareSpellScript", "df/d2d/a26886.html#a53b5772c87574beb5b295c26fe983b76", null ],
-    [ "Register", "df/d2d/a26886.html#a5e93d0d708d2304d9166c47ad285ada5", null ]
+    [ "go_pirate_day_musicAI", "df/d2d/a26886.html#a1abe263949b7a07e5143779efcddc7eb", null ],
+    [ "UpdateAI", "df/d2d/a26886.html#a5373bb46c866df31a3827ceb8ee4ef9b", null ],
+    [ "_events", "df/d2d/a26886.html#a233ae55a05876c665455b106ef50d57e", null ],
+    [ "rnd", "df/d2d/a26886.html#ad0ced4b4f569b91b5dde4ad93a298568", null ]
 ];

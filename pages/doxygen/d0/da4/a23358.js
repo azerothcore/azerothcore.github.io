@@ -1,6 +1,10 @@
 var a23358 =
 [
-    [ "HandleHit", "d0/da4/a23358.html#ab948b958955c2413ad6e15dfa09fd3cd", null ],
-    [ "PrepareSpellScript", "d0/da4/a23358.html#a37ff09e6b82d69c85b5bd98e84968569", null ],
-    [ "Register", "d0/da4/a23358.html#acb1b681f587817614c2b3684585369db", null ]
+    [ "boss_harbinger_skyriss", "d0/da4/a23358.html#a245179f74d61c2671b397e8f2473b599", null ],
+    [ "EnterEvadeMode", "d0/da4/a23358.html#a873413da06569343225e6659f8277b2c", null ],
+    [ "JustDied", "d0/da4/a23358.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
+    [ "JustEngagedWith", "d0/da4/a23358.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
+    [ "JustSummoned", "d0/da4/a23358.html#a97d84139a3e970e22d7d422f2f825f12", null ],
+    [ "KilledUnit", "d0/da4/a23358.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
+    [ "Reset", "d0/da4/a23358.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
 ];

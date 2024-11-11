@@ -1,6 +1,7 @@
 var a17978 =
 [
-    [ "npc_raging_spiritAI", "d9/db7/a17982.html", "d9/db7/a17982" ],
-    [ "npc_raging_spirit", "d7/d3d/a17978.html#ad1a580bd394adc8c58575b600c16f9db", null ],
-    [ "GetAI", "d7/d3d/a17978.html#ab572a667f6ddd0d4051fe424c8d9e21c", null ]
+    [ "OnPeriodic", "d7/d3d/a17978.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
+    [ "PrepareAuraScript", "d7/d3d/a17978.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
+    [ "Register", "d7/d3d/a17978.html#a0fc7ca43a0d82058fc04277742231388", null ],
+    [ "Validate", "d7/d3d/a17978.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
 ];

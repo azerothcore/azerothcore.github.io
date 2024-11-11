@@ -1,7 +1,8 @@
 var a16466 =
 [
-    [ "HandlePeriodicTick", "da/dd1/a16466.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
-    [ "PrepareAuraScript", "da/dd1/a16466.html#aabaef31a3c699c322e24e064f357f82f", null ],
-    [ "Register", "da/dd1/a16466.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
-    [ "Validate", "da/dd1/a16466.html#a18d92a82760992bc5d8503e3f774f208", null ]
+    [ "npc_phantom_hallucinationAI", "da/dd1/a16466.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
+    [ "EnterEvadeMode", "da/dd1/a16466.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
+    [ "JustDied", "da/dd1/a16466.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
+    [ "UpdateAI", "da/dd1/a16466.html#ad874a741c641dbac6380aa682d582d7c", null ],
+    [ "numOfUpd", "da/dd1/a16466.html#adb78f5dcd272e8223f895079885a5461", null ]
 ];

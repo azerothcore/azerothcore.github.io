@@ -1,12 +1,7 @@
 var a13262 =
 [
-    [ "npc_eastvale_peasent", "d5/d42/a13262.html#a5282dac41228569d4431d84c1f160f05", null ],
-    [ "Initialize", "d5/d42/a13262.html#a8b73aa30b0b4a984d8644e6d9541461d", null ],
-    [ "PathEndReached", "d5/d42/a13262.html#a002ec21e0715b020aa19cd0839408033", null ],
-    [ "Reset", "d5/d42/a13262.html#a7eb6cf174a46fd31c8c5241649fcebdc", null ],
-    [ "SetData", "d5/d42/a13262.html#add14d9505880727e208e7ef9428f5acd", null ],
-    [ "UpdateAI", "d5/d42/a13262.html#a868eb38757bf7bc02d5b3ffa66feb375", null ],
-    [ "_events", "d5/d42/a13262.html#a1b310b07481366042dc45f7a27ce6408", null ],
-    [ "_path", "d5/d42/a13262.html#a907db8e6148947248b5bcfdb35023e16", null ],
-    [ "_realenGUID", "d5/d42/a13262.html#aad06364be8698b5ba69cd229e2a5085b", null ]
+    [ "npc_deathstalker_erlandAI", "d4/d2a/a13266.html", "d4/d2a/a13266" ],
+    [ "npc_deathstalker_erland", "d5/d42/a13262.html#ad49faf068e982f245f0d1e21f0700c40", null ],
+    [ "GetAI", "d5/d42/a13262.html#ab59235f212ddb985056cb8e32719b723", null ],
+    [ "OnQuestAccept", "d5/d42/a13262.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
 ];

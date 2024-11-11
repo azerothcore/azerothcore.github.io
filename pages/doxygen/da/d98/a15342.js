@@ -1,6 +1,6 @@
 var a15342 =
 [
-    [ "npc_twiggy_flatheadAI", "df/d05/a15346.html", "df/d05/a15346" ],
-    [ "npc_twiggy_flathead", "da/d98/a15342.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
-    [ "GetAI", "da/d98/a15342.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
+    [ "HandleSummon", "da/d98/a15342.html#a730e0c865f8c0c12544be951a48fe9ff", null ],
+    [ "PrepareSpellScript", "da/d98/a15342.html#a31271cd4668d3cbc4f4bdbeb693fe141", null ],
+    [ "Register", "da/d98/a15342.html#ae388ee1b08891f021ab1308ec7ffebaa", null ]
 ];

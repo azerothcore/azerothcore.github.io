@@ -1,6 +1,8 @@
 var a17998 =
 [
-    [ "npc_valkyr_shadowguardAI", "df/df1/a18002.html", "df/df1/a18002" ],
-    [ "npc_valkyr_shadowguard", "da/da5/a17998.html#a8ee90e21499eebf240c57419454c3829", null ],
-    [ "GetAI", "da/da5/a17998.html#ad84cb094a17e4fb88d3e883c98ce7f5a", null ]
+    [ "npc_lk_spirit_bombAI", "da/da5/a17998.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "da/da5/a17998.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "da/da5/a17998.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "da/da5/a17998.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "da/da5/a17998.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

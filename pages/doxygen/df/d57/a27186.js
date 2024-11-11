@@ -1,10 +1,10 @@
 var a27186 =
 [
-    [ "go_evil_book_for_dummies", "df/d57/a27186.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "df/d57/a27186.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "df/d57/a27186.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "df/d57/a27186.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "df/d57/a27186.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "df/d57/a27186.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "df/d57/a27186.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "npc_dancing_flamesAI", "df/d57/a27186.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
+    [ "JustEngagedWith", "df/d57/a27186.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
+    [ "ReceiveEmote", "df/d57/a27186.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
+    [ "Reset", "df/d57/a27186.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
+    [ "UpdateAI", "df/d57/a27186.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
+    [ "Active", "df/d57/a27186.html#aa79036bed206327847bf5ad2e768e8f6", null ],
+    [ "CanIteract", "df/d57/a27186.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
 ];

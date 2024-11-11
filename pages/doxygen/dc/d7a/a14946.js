@@ -1,7 +1,7 @@
 var a14946 =
 [
-    [ "npc_anubisath_warder", "dc/d7a/a14946.html#aebe14673e5c31000a9626e39d87c6775", null ],
-    [ "JustEngagedWith", "dc/d7a/a14946.html#a579318fa519eb669573b2cea78c2fee3", null ],
-    [ "Reset", "dc/d7a/a14946.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
-    [ "UpdateAI", "dc/d7a/a14946.html#aba428f1f1a016191aa4f168c616c3a29", null ]
+    [ "HandleEffectRemove", "dc/d7a/a14946.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
+    [ "PrepareAuraScript", "dc/d7a/a14946.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
+    [ "Register", "dc/d7a/a14946.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
+    [ "AuraEffectHandleModes", "dc/d7a/a14946.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
 ];

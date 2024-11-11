@@ -1,13 +1,12 @@
 var a15218 =
 [
-    [ "npc_shenthulAI", "d4/d27/a15218.html#ae056474022c27be5565bf018a1b56f0b", null ],
-    [ "JustEngagedWith", "d4/d27/a15218.html#acb202ef530bc11ea807f580ff5dfc621", null ],
-    [ "ReceiveEmote", "d4/d27/a15218.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
-    [ "Reset", "d4/d27/a15218.html#af077e96eb8bf89af2d6eb79907444a17", null ],
-    [ "UpdateAI", "d4/d27/a15218.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
-    [ "CanEmote", "d4/d27/a15218.html#a920209c374e611e96347d209337c044f", null ],
-    [ "CanTalk", "d4/d27/a15218.html#a82ea8d2ee50538135add120be7616f86", null ],
-    [ "PlayerGUID", "d4/d27/a15218.html#a4b262388aca789d19231426a8cb73379", null ],
-    [ "ResetTimer", "d4/d27/a15218.html#a475a141d639f0136ac943e6afb1ecd15", null ],
-    [ "SaluteTimer", "d4/d27/a15218.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
+    [ "npc_toogaAI", "d4/d27/a15218.html#a4db363c7e787f5fbbd61b418cfa87367", null ],
+    [ "MoveInLineOfSight", "d4/d27/a15218.html#aff15508b97bce5f5fad9cf9750e89ff1", null ],
+    [ "MovementInform", "d4/d27/a15218.html#a9315e8ba2688903aaf5b871a7490a700", null ],
+    [ "Reset", "d4/d27/a15218.html#acfedaf5cc989451a4259a65661685f66", null ],
+    [ "UpdateFollowerAI", "d4/d27/a15218.html#a742791e714be1ff713ab87e7d515bd9e", null ],
+    [ "CheckSpeechTimer", "d4/d27/a15218.html#a938852d834c5eb8ba4abceaf49e9a5da", null ],
+    [ "PhasePostEvent", "d4/d27/a15218.html#a4996291afa64e35f3604b2a85ea03dda", null ],
+    [ "PostEventTimer", "d4/d27/a15218.html#abea9fa4d2623dab4f14978a7f94b595f", null ],
+    [ "TortaGUID", "d4/d27/a15218.html#a4531aa0e2c7fe7f3207e56fc2ed67c25", null ]
 ];

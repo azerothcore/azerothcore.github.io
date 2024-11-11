@@ -1,6 +1,7 @@
 var a15010 =
 [
-    [ "npc_injured_draeneiAI", "d8/db2/a15014.html", "d8/db2/a15014" ],
-    [ "npc_injured_draenei", "d5/d3b/a15010.html#a660c0f0c4ed41d70ad0a50cde25c1d14", null ],
-    [ "GetAI", "d5/d3b/a15010.html#a753bd4a5bb1ddc9feb540a3bedc7d7bb", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d5/d3b/a15010.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d5/d3b/a15010.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d5/d3b/a15010.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d5/d3b/a15010.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

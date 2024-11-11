@@ -1,7 +1,12 @@
 var a18062 =
 [
-    [ "CalculateBonus", "de/d3f/a18062.html#ae149a739150cb7eb9fb67f19130c0510", null ],
-    [ "OnPeriodic", "de/d3f/a18062.html#a19697bd65a325870becc1c30d7deff36", null ],
-    [ "PrepareAuraScript", "de/d3f/a18062.html#a77c272d4a26323c421e4b264f79d5b66", null ],
-    [ "Register", "de/d3f/a18062.html#aecd8670e3a079c8460cddd5ce0b4f79b", null ]
+    [ "npc_the_lich_king_controllerAI", "de/d3f/a18062.html#a211c370e9c370e00fba3c83e51738886", null ],
+    [ "AttackStart", "de/d3f/a18062.html#a58e11746c14f6bbb1b5c56c1d0136d9f", null ],
+    [ "DoAction", "de/d3f/a18062.html#aaf940a0ca812d84dbde81fc7e41feaca", null ],
+    [ "JustSummoned", "de/d3f/a18062.html#aa610e24316505165cbb826ff5bece5c5", null ],
+    [ "MoveInLineOfSight", "de/d3f/a18062.html#a0ee33ab5733c12163e92213376e893e4", null ],
+    [ "Reset", "de/d3f/a18062.html#a2c4410cc2ad995452f742f79e8e4af8b", null ],
+    [ "UpdateAI", "de/d3f/a18062.html#a34a0295ad1a45a9bc060ff8595c22e14", null ],
+    [ "_events", "de/d3f/a18062.html#a90c3d818318004c7c21ec66d4d080615", null ],
+    [ "_instance", "de/d3f/a18062.html#a480a284881ba5f56bc6222607bd01a76", null ]
 ];

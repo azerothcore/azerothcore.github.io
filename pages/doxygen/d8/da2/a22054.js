@@ -1,9 +1,9 @@
 var a22054 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "d8/dc9/a22058.html", "d8/dc9/a22058" ],
-    [ "NPCs", "d8/da2/a22054.html#a8f2ea95c836ba6bab370301fbf3e6822", [
-      [ "NPC_HYLDSMEET_DRAKERIDER", "d8/da2/a22054.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
-    ] ],
-    [ "npc_hyldsmeet_protodrake", "d8/da2/a22054.html#a2471f1d858d7ae8f801208e35860a95e", null ],
-    [ "GetAI", "d8/da2/a22054.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
+    [ "npc_finklesteinAI", "d8/dc9/a22058.html", "d8/dc9/a22058" ],
+    [ "npc_finklestein", "d8/da2/a22054.html#aa719b4bb95012c22ef8123e255e32edd", null ],
+    [ "GetAI", "d8/da2/a22054.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
+    [ "OnGossipHello", "d8/da2/a22054.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
+    [ "OnGossipSelect", "d8/da2/a22054.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
+    [ "OnQuestAccept", "d8/da2/a22054.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
 ];

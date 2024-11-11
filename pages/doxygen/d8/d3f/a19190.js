@@ -1,8 +1,6 @@
 var a19190 =
 [
-    [ "HandleEffectPeriodic", "d8/d3f/a19190.html#abb453e3d38677be7082f2cd4e43134cc", null ],
-    [ "HandleOnEffectApply", "d8/d3f/a19190.html#a3ec47d5d9fdbdcfe671e02c3b0f55980", null ],
-    [ "PrepareAuraScript", "d8/d3f/a19190.html#ac00c6d9b1cccb38b5d87b3139295614c", null ],
-    [ "Register", "d8/d3f/a19190.html#ae4de4f0f2f4dc4ac98706ddd898df7c5", null ],
-    [ "Validate", "d8/d3f/a19190.html#a09481646f8ec90b0135d93d83cc18929", null ]
+    [ "boss_maiden_of_griefAI", "d5/de6/a19194.html", "d5/de6/a19194" ],
+    [ "boss_maiden_of_grief", "d8/d3f/a19190.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "d8/d3f/a19190.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

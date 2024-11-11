@@ -1,7 +1,6 @@
 var a21510 =
 [
-    [ "CheckCast", "d1/dee/a21510.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
-    [ "HandleScript", "d1/dee/a21510.html#a8128bb2d7588409dae73bed78d5285a7", null ],
-    [ "PrepareSpellScript", "d1/dee/a21510.html#aee17a8a21ec5df027082c6990189dccc", null ],
-    [ "Register", "d1/dee/a21510.html#a2a97265e102e9ce31997d99275b42973", null ]
+    [ "HandleDummy", "d1/dee/a21510.html#afe86744c6ab901750731fca486ff2e6c", null ],
+    [ "PrepareSpellScript", "d1/dee/a21510.html#a47e8a3187fa523c61842885f1cbd041d", null ],
+    [ "Register", "d1/dee/a21510.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
 ];

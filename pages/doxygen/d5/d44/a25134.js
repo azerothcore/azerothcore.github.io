@@ -1,10 +1,7 @@
 var a25134 =
 [
-    [ "CheckProc", "d5/d44/a25134.html#a8a7a0ac560eecc3777087622fb3f3951", null ],
-    [ "HandleProc", "d5/d44/a25134.html#a90eee01f380f97f033c82d7c6ec48d00", null ],
-    [ "OnApply", "d5/d44/a25134.html#a93818ec97cfd47da1dee454bb0a9318c", null ],
-    [ "OnRemove", "d5/d44/a25134.html#a5e978d4d46f42ba5098eaecd9473fccb", null ],
-    [ "PrepareAuraScript", "d5/d44/a25134.html#a73ae8e378b906a420955fd33d02ba6b7", null ],
-    [ "Register", "d5/d44/a25134.html#a7070f64c9c47c8c1bc26e49b2b60a110", null ],
-    [ "Validate", "d5/d44/a25134.html#a91c5a0e10c308332e18dc40033049996", null ]
+    [ "CalcPeriodic", "d5/d44/a25134.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "d5/d44/a25134.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "d5/d44/a25134.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "d5/d44/a25134.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

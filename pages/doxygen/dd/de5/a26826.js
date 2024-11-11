@@ -1,6 +1,5 @@
 var a26826 =
 [
-    [ "AreaTrigger_at_brewfest", "dd/de5/a26826.html#ad7e2916aefc6efbfb9f747a75a4a14a3", null ],
-    [ "OnTrigger", "dd/de5/a26826.html#a17e4a8d671136466c7673789e4f69a84", null ],
-    [ "_triggerTimes", "dd/de5/a26826.html#ab763765427796ad17338bcc8d63cf891", null ]
+    [ "go_ethereum_stasis", "dd/de5/a26826.html#aaa8fc5733678a17a37c60c9853f91e62", null ],
+    [ "OnGossipHello", "dd/de5/a26826.html#ac36da8dccbebcaee605a878df3904c60", null ]
 ];

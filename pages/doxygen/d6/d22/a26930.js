@@ -1,5 +1,5 @@
 var a26930 =
 [
-    [ "go_ethereum_prison", "d6/d22/a26930.html#a1872dab11a8470194ab35f87e217aa8a", null ],
-    [ "OnGossipHello", "d6/d22/a26930.html#a73479b0512ea778336fad4bd5cd9b909", null ]
+    [ "go_tele_to_dalaran_crystal", "d6/d22/a26930.html#ab41268b7d568e8f189338f27cd90a62c", null ],
+    [ "OnGossipHello", "d6/d22/a26930.html#a7f754a29249653ca7848494310ef1a8d", null ]
 ];

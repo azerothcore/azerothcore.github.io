@@ -1,9 +1,7 @@
 var a22590 =
 [
-    [ "HandleAfterCast", "df/d5f/a22590.html#ae83f0cd423597b1c1e2bc1619d24fb1e", null ],
-    [ "HandleDummy", "df/d5f/a22590.html#ae94594e337c2e0e6864f3723df8349bf", null ],
-    [ "Load", "df/d5f/a22590.html#a301008eff6b13a43070b3916925391ae", null ],
-    [ "PrepareSpellScript", "df/d5f/a22590.html#a6068412ee3d78192cc0ff735fd4e93ed", null ],
-    [ "Register", "df/d5f/a22590.html#a253f9b428351519cbd4ee5c2341ea0c4", null ],
-    [ "_targetCount", "df/d5f/a22590.html#ac16cb2696c4e72195de7ebddd072b3c4", null ]
+    [ "HandleEffectRemove", "df/d5f/a22590.html#a6adc572bb13dde9b83a44a1c27833019", null ],
+    [ "PrepareAuraScript", "df/d5f/a22590.html#a877c26735531508d1806273117f3e8bc", null ],
+    [ "Register", "df/d5f/a22590.html#a1b3e9eb2f6979ac2f17ac47eb38c8bb5", null ],
+    [ "Validate", "df/d5f/a22590.html#a8c45ba806d865f7b9d56950013bdd81c", null ]
 ];

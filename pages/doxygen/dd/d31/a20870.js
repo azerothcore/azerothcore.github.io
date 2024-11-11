@@ -1,6 +1,7 @@
 var a20870 =
 [
-    [ "npc_ferocious_rhinoAI", "d1/d72/a20874.html", "d1/d72/a20874" ],
-    [ "npc_ferocious_rhino", "dd/d31/a20870.html#a480c1d0c24cdbe7cd3c47332ee925466", null ],
-    [ "GetAI", "dd/d31/a20870.html#aa5c3cba6b1ed6cffaac578c5449b9b4e", null ]
+    [ "HandleScript", "dd/d31/a20870.html#a47b991c20c523d151893fefd9d487714", null ],
+    [ "PrepareSpellScript", "dd/d31/a20870.html#ab2db47d0a2694c0734db600e810e190d", null ],
+    [ "Register", "dd/d31/a20870.html#a3c2e7eb24506b43730f2e971fab81c75", null ],
+    [ "Validate", "dd/d31/a20870.html#a89d601f6036fe38238767281f3427e54", null ]
 ];

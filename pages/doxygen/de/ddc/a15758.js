@@ -1,6 +1,6 @@
 var a15758 =
 [
-    [ "npc_onyx_flamecallerAI", "df/d0a/a15762.html", "df/d0a/a15762" ],
-    [ "npc_onyx_flamecaller", "de/ddc/a15758.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "de/ddc/a15758.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "OnSummon", "de/ddc/a15758.html#ae2766d12fb686356b46126848f356c5a", null ],
+    [ "PrepareSpellScript", "de/ddc/a15758.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
+    [ "Register", "de/ddc/a15758.html#a717394bfbea621ae637f9e87efddda62", null ]
 ];

@@ -1,6 +1,6 @@
 var a16462 =
 [
-    [ "PrepareSpellScript", "d6/d10/a16462.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
-    [ "RecalculateDamage", "d6/d10/a16462.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
-    [ "Register", "d6/d10/a16462.html#a1a740e697fc84f5f035f2ec251872009", null ]
+    [ "npc_phantom_hallucinationAI", "da/dd1/a16466.html", "da/dd1/a16466" ],
+    [ "npc_phantom_hallucination", "d6/d10/a16462.html#a685889c090152a2562ee9adef7efbf71", null ],
+    [ "GetAI", "d6/d10/a16462.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
 ];

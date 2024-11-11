@@ -1,9 +1,8 @@
 var a26310 =
 [
-    [ "CheckCast", "dc/d98/a26310.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
-    [ "FilterTargets", "dc/d98/a26310.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
-    [ "HandleDummy", "dc/d98/a26310.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
-    [ "PrepareSpellScript", "dc/d98/a26310.html#a9c992e732b525e29f684947398d20efb", null ],
-    [ "Register", "dc/d98/a26310.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
-    [ "Validate", "dc/d98/a26310.html#abca1e5aa46e7753588c8120090775195", null ]
+    [ "CheckFireTotem", "dc/d98/a26310.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "dc/d98/a26310.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "dc/d98/a26310.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "dc/d98/a26310.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "dc/d98/a26310.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

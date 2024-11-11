@@ -1,7 +1,8 @@
 var a24950 =
 [
-    [ "HandleStun", "db/df2/a24950.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
-    [ "PrepareAuraScript", "db/df2/a24950.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
-    [ "Register", "db/df2/a24950.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
-    [ "Validate", "db/df2/a24950.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
+    [ "HandleApply", "db/df2/a24950.html#af20f30fe2bfc7a370b166a6200b44ca9", null ],
+    [ "OnPeriodic", "db/df2/a24950.html#a6b3223ef23854f22b9a3baba0d42cb11", null ],
+    [ "PrepareAuraScript", "db/df2/a24950.html#a344d1a92623865876174c0e88ce8ab4b", null ],
+    [ "Register", "db/df2/a24950.html#a352ff0e85eee6e51e9f2eea5cdd9108c", null ],
+    [ "Validate", "db/df2/a24950.html#ac4fd8fdde53f947082b23852ce149ea9", null ]
 ];

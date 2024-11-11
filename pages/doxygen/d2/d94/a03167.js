@@ -1,7 +1,12 @@
 var a03167 =
 [
-    [ "ChannelMgr", "de/d00/a07258.html", "de/d00/a07258" ],
-    [ "AllianceChannelMgr", "da/d0c/a07262.html", "da/d0c/a07262" ],
-    [ "HordeChannelMgr", "db/d55/a07266.html", "db/d55/a07266" ],
-    [ "MAX_CHANNEL_PASS_STR", "d2/d94/a03167.html#a06f16ee81d2214d67575f108b76f6333", null ]
+    [ "ArenaScript", "d2/d5e/a09962.html", "d2/d5e/a09962" ],
+    [ "ArenaHook", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214ba", [
+      [ "ARENAHOOK_CAN_ADD_MEMBER", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0", null ],
+      [ "ARENAHOOK_ON_GET_POINTS", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588", null ],
+      [ "ARENAHOOK_CAN_SAVE_TO_DB", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657", null ],
+      [ "ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e", null ],
+      [ "ARENAHOOK_ON_ARENA_START", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09", null ],
+      [ "ARENAHOOK_END", "d2/d94/a03167.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58", null ]
+    ] ]
 ];

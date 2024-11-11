@@ -1,6 +1,6 @@
 var a15666 =
 [
-    [ "boss_sartharion_shadronAI", "d0/de6/a15670.html", "d0/de6/a15670" ],
-    [ "boss_sartharion_shadron", "d6/d94/a15666.html#ac297719abff8c795af10973492fc6fbe", null ],
-    [ "GetAI", "d6/d94/a15666.html#a95c7184ee7589f01920adc57a7df963b", null ]
+    [ "boss_halionAI", "d0/de6/a15670.html", "d0/de6/a15670" ],
+    [ "boss_halion", "d6/d94/a15666.html#a94b35248cedbf08b0a1f219c4c28c269", null ],
+    [ "GetAI", "d6/d94/a15666.html#a142314efb4f45ec146ab0225271d29b1", null ]
 ];

@@ -1,6 +1,6 @@
 var a17030 =
 [
-    [ "ModAuraStack", "dc/d13/a17030.html#a7535ef148e047e32a5f7a1944585e396", null ],
-    [ "PrepareSpellScript", "dc/d13/a17030.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
-    [ "Register", "dc/d13/a17030.html#ab44b362197e74b98b3ffeb98eff52742", null ]
+    [ "npc_saurfang_eventAI", "da/d3d/a17034.html", "da/d3d/a17034" ],
+    [ "npc_saurfang_event", "dc/d13/a17030.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "dc/d13/a17030.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

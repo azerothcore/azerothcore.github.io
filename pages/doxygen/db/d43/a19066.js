@@ -1,6 +1,6 @@
 var a19066 =
 [
-    [ "instance_nexus_InstanceMapScript", "da/d75/a19070.html", "da/d75/a19070" ],
-    [ "instance_nexus", "db/d43/a19066.html#ad2d28baeef8323ae97f19ec9272c7e97", null ],
-    [ "GetInstanceScript", "db/d43/a19066.html#a156210ba08caa0572c775dbd5851b250", null ]
+    [ "HandleDamageCalc", "db/d43/a19066.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
+    [ "PrepareSpellScript", "db/d43/a19066.html#a754da297cd5801616e24bf2d802d0b38", null ],
+    [ "Register", "db/d43/a19066.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
 ];

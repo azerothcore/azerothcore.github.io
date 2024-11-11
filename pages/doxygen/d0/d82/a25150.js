@@ -1,7 +1,6 @@
 var a25150 =
 [
-    [ "HandleDummy", "d0/d82/a25150.html#a84430c269e419acd94a2d0520b9ca639", null ],
-    [ "PrepareSpellScript", "d0/d82/a25150.html#a8ec4e9cea213739825126111d038d1a5", null ],
-    [ "Register", "d0/d82/a25150.html#a1abee3e5f324875aab8dd666ac417308", null ],
-    [ "Validate", "d0/d82/a25150.html#a393043b94f50d9379a987f9b49b8abde", null ]
+    [ "HandleDummyTick", "d0/d82/a25150.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
+    [ "PrepareAuraScript", "d0/d82/a25150.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
+    [ "Register", "d0/d82/a25150.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
 ];

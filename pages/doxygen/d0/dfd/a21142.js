@@ -1,6 +1,10 @@
 var a21142 =
 [
-    [ "npc_vh_sinclari", "d0/dfd/a21142.html#ad0235f207a3031420532174c04e0c348", null ],
-    [ "OnGossipHello", "d0/dfd/a21142.html#a95f0d094d417d9d6ce99d7c8aa83496f", null ],
-    [ "OnGossipSelect", "d0/dfd/a21142.html#af0a260d7868f601ae239c226b10d4de3", null ]
+    [ "npc_sinkhole_kill_creditAI", "d0/dfd/a21142.html#af2050289be6bc1c47d1ad40fc4bfa313", null ],
+    [ "Reset", "d0/dfd/a21142.html#a677990d64d2963ff995d9d8522c5aa81", null ],
+    [ "SpellHit", "d0/dfd/a21142.html#a95eaf518fb18b67820d6195cd525b017", null ],
+    [ "UpdateAI", "d0/dfd/a21142.html#a75611004a543bece9d3f51914547f2fe", null ],
+    [ "casterGuid", "d0/dfd/a21142.html#a147921788b07f5e776e03aaf15049cf0", null ],
+    [ "phase", "d0/dfd/a21142.html#aa45455a8d540d6f942c948cf56d11f05", null ],
+    [ "phaseTimer", "d0/dfd/a21142.html#aa268004c1eedf086ae8345e0ba10e2ca", null ]
 ];

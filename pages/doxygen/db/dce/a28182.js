@@ -1,7 +1,4 @@
 var a28182 =
 [
-    [ "RealmHandle", "db/dce/a28182.html#a120fb45f2301188a843ab2e712f768e4", null ],
-    [ "RealmHandle", "db/dce/a28182.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
-    [ "operator<", "db/dce/a28182.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
-    [ "Realm", "db/dce/a28182.html#a31af0d9064a295b1579fce3c80217bfd", null ]
+    [ "coords", "db/dce/a28182.html#a6de1e0be070d552f8002bff7675bb9cf", null ]
 ];

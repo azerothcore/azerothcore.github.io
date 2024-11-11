@@ -1,9 +1,12 @@
 var a22594 =
 [
-    [ "HandleAfterCast", "d9/d4a/a22594.html#a32928b579ef42f377e911ef27197ed61", null ],
-    [ "HandleDummy", "d9/d4a/a22594.html#a2adec08f0cc42cb21e97007b5f1214bc", null ],
-    [ "Load", "d9/d4a/a22594.html#ac870bd626367bdc704e63d2f3b061b1f", null ],
-    [ "PrepareSpellScript", "d9/d4a/a22594.html#a1f51d5562d5caac8d7d0f71de0051989", null ],
-    [ "Register", "d9/d4a/a22594.html#adf8c87e9f6a3fb36bf26ed1c8dbb722f", null ],
-    [ "_targetCount", "d9/d4a/a22594.html#a84d46608f7141d68b1a67fffc3493cbb", null ]
+    [ "boss_shade_of_akama", "d9/d4a/a22594.html#a385bf995d19652254d6ae8a447c23c37", null ],
+    [ "EnterEvadeMode", "d9/d4a/a22594.html#a690f8058fb4358b98960177d76864275", null ],
+    [ "JustDied", "d9/d4a/a22594.html#aa22052befeb48c0c7ec3a3cedd91daff", null ],
+    [ "MovementInform", "d9/d4a/a22594.html#a345707efebd5027c01a25a563d1e6f43", null ],
+    [ "Reset", "d9/d4a/a22594.html#a19a1aca1a599704612ac845001895b4f", null ],
+    [ "SpellHit", "d9/d4a/a22594.html#a5a49f0dab7ce6ee81b9ed8deb5704720", null ],
+    [ "UpdateAI", "d9/d4a/a22594.html#a25ffed5526b1f25eb1cf790745e2a7c7", null ],
+    [ "channelers", "d9/d4a/a22594.html#a63372527172d3f96f533b5776221c2e7", null ],
+    [ "generators", "d9/d4a/a22594.html#a3ebaa870a9c3c9b5a0590b8cdc32d857", null ]
 ];

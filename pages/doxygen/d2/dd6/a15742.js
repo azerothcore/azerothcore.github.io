@@ -1,10 +1,8 @@
 var a15742 =
 [
-    [ "npc_xerestraszaAI", "d2/dd6/a15742.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
-    [ "DoAction", "d2/dd6/a15742.html#af696ecee315892b2bf0233113d2f89f9", null ],
-    [ "Reset", "d2/dd6/a15742.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
-    [ "UpdateAI", "d2/dd6/a15742.html#a6389ab58f4b44c668590113ec75f2adf", null ],
-    [ "_events", "d2/dd6/a15742.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
-    [ "_introDone", "d2/dd6/a15742.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
-    [ "_isIntro", "d2/dd6/a15742.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
+    [ "OnApply", "d2/dd6/a15742.html#a7165da94ce589afcd24411a308802c18", null ],
+    [ "OnRemove", "d2/dd6/a15742.html#a8a43050c44b4d3d5b48f4e2c6fcc0b49", null ],
+    [ "PrepareAuraScript", "d2/dd6/a15742.html#ab8361bc1d2cc786b52f1fc2b7ff09527", null ],
+    [ "Register", "d2/dd6/a15742.html#a0ff7bbd0dea458b15231ecf419b1c49c", null ],
+    [ "Validate", "d2/dd6/a15742.html#acf29b80b7b74c3f409e1f046b8062994", null ]
 ];

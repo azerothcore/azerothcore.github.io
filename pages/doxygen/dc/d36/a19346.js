@@ -1,6 +1,6 @@
 var a19346 =
 [
-    [ "dark_rune_protectorsAI", "de/da7/a19350.html", "de/da7/a19350" ],
-    [ "dark_rune_protectors", "dc/d36/a19346.html#a14225a2369a8deea416fc640a2d7b075", null ],
-    [ "GetAI", "dc/d36/a19346.html#a359e4049b7ec828177d9a36d23e9b4ef", null ]
+    [ "PrepareSpellScript", "dc/d36/a19346.html#af7426e99a49f8618fc38242ded7132f1", null ],
+    [ "RecalculateDamage", "dc/d36/a19346.html#a94e70b20f2139f668227dccb623c1af6", null ],
+    [ "Register", "dc/d36/a19346.html#acd911f78780e052d88f5f47574092d62", null ]
 ];

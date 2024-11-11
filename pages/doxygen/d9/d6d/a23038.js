@@ -1,13 +1,13 @@
 var a23038 =
 [
-    [ "npc_ahune_bunny", "d9/d6d/a23038.html#ae28e0d2dbaab082488d5582b75cd8482", null ],
-    [ "DoAction", "d9/d6d/a23038.html#ad071787c47254f603ba7692889733202", null ],
-    [ "JustDied", "d9/d6d/a23038.html#a8733a3e495ebf69df4f9d1213df50170", null ],
-    [ "JustSummoned", "d9/d6d/a23038.html#a2c5c97b497cd15a1453bbd21d279a29b", null ],
-    [ "ResetFlameCallers", "d9/d6d/a23038.html#a60a74aabbf42116079081134a332a100", null ],
-    [ "UpdateAI", "d9/d6d/a23038.html#aa8dff40dde7820b1ce4e06c8d27e4ecb", null ],
-    [ "_events", "d9/d6d/a23038.html#af84154fff16cbdb15586b3b07223e010", null ],
-    [ "_instance", "d9/d6d/a23038.html#a9be0d062379e5a3dfa19af1eb1a4243e", null ],
-    [ "_submerged", "d9/d6d/a23038.html#a15fdcc2fda18e118f398ccc055f52942", null ],
-    [ "_summons", "d9/d6d/a23038.html#a8f9e25f0d8a66b18e887b061592c6950", null ]
+    [ "boss_ghazan", "d9/d6d/a23038.html#ae730362fcf3606c67b6b85147de98fb6", null ],
+    [ "DoAction", "d9/d6d/a23038.html#ac016d5e06ca4f8f0bf2fa13ce2cd89e2", null ],
+    [ "InitializeAI", "d9/d6d/a23038.html#a6b8c975a109dc5eb8a3e3fba03fe806e", null ],
+    [ "JustEngagedWith", "d9/d6d/a23038.html#ad4136f0f63d267284f36756793c0efa7", null ],
+    [ "JustReachedHome", "d9/d6d/a23038.html#af9f2dd854036d5c8b9c6703499836199", null ],
+    [ "MovementInform", "d9/d6d/a23038.html#add9b2e60fb2ffc8a3905f063a2f3d0ae", null ],
+    [ "Reset", "d9/d6d/a23038.html#afc9522a26060643f2f9d25a8a98691b7", null ],
+    [ "UpdateAI", "d9/d6d/a23038.html#a40a6dd5ed2954be7df4612a7552e1bc0", null ],
+    [ "_movedToPlatform", "d9/d6d/a23038.html#aa6c0c391355ac0b698d67796efd63062", null ],
+    [ "_reachedPlatform", "d9/d6d/a23038.html#af3476318b4721bd52facaf735eabb1f9", null ]
 ];

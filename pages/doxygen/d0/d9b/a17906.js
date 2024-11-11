@@ -1,6 +1,6 @@
 var a17906 =
 [
-    [ "npc_tirion_fordringAI", "d5/d25/a17910.html", "d5/d25/a17910" ],
-    [ "npc_tirion_fordring_tft", "d0/d9b/a17906.html#a04036d958e7ac643c9ba8d9073bca404", null ],
-    [ "GetAI", "d0/d9b/a17906.html#a41dcfa415831091531cbf46e946f442d", null ]
+    [ "ModDest", "d0/d9b/a17906.html#a71638bdecb0f580dceff7858441056d8", null ],
+    [ "PrepareSpellScript", "d0/d9b/a17906.html#a741227928e07585b156ec716ae8b13da", null ],
+    [ "Register", "d0/d9b/a17906.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
 ];

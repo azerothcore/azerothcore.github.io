@@ -1,6 +1,5 @@
 var a25258 =
 [
-    [ "HandleDummyTick", "d2/d8f/a25258.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "d2/d8f/a25258.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "d2/d8f/a25258.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "PrepareSpellScript", "d2/d8f/a25258.html#a065d81d698c978bcdd234712807e9098", null ],
+    [ "Register", "d2/d8f/a25258.html#a3efcd145189b27272495110c799cf14f", null ]
 ];

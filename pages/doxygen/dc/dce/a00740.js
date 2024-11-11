@@ -1,4 +1,5 @@
 var a00740 =
 [
-    [ "BasicStatementTask", "d3/d27/a05574.html", "d3/d27/a05574" ]
+    [ "gm_commandscript", "d5/d8e/a11330.html", "d5/d8e/a11330" ],
+    [ "AddSC_gm_commandscript", "dc/dce/a00740.html#a65c7b128fdf4dd9807ef514c24918e7b", null ]
 ];

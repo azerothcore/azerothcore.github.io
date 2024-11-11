@@ -1,6 +1,6 @@
 var a16030 =
 [
-    [ "npc_swarm_scarabAI", "d5/d77/a16034.html", "d5/d77/a16034" ],
-    [ "npc_swarm_scarab", "d3/d47/a16030.html#a1d0969526e57ca50c9a499c83f978fd2", null ],
-    [ "GetAI", "d3/d47/a16030.html#ae12fe8a7c6ee09fc16bd152f59c2d936", null ]
+    [ "npc_toc_hunterAI", "d5/d77/a16034.html", "d5/d77/a16034" ],
+    [ "npc_toc_hunter", "d3/d47/a16030.html#a73d4113df71626af7b8294e08373965e", null ],
+    [ "GetAI", "d3/d47/a16030.html#a8b9d2a8186aefb3e411bd20c006207d4", null ]
 ];

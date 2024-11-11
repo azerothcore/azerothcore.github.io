@@ -1,7 +1,8 @@
 var a24234 =
 [
-    [ "CheckCast", "db/dc3/a24234.html#a0e4e62a9b1763619170b6da8487e7ee1", null ],
-    [ "HandleDummy", "db/dc3/a24234.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
-    [ "PrepareSpellScript", "db/dc3/a24234.html#a465da282630352a289d5daae7ccb1d01", null ],
-    [ "Register", "db/dc3/a24234.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
+    [ "CheckCast", "db/dc3/a24234.html#a94851a2b6a62138e28466317e9e88480", null ],
+    [ "HandleDummy", "db/dc3/a24234.html#a970684d219c99519512c437a8efd8d43", null ],
+    [ "PrepareSpellScript", "db/dc3/a24234.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
+    [ "Register", "db/dc3/a24234.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
+    [ "Validate", "db/dc3/a24234.html#a59cca008a97447e257bf24071301b366", null ]
 ];

@@ -1,6 +1,6 @@
 var a26942 =
 [
-    [ "go_tadpole_cageAI", "df/dd0/a26946.html", "df/dd0/a26946" ],
-    [ "go_tadpole_cage", "df/d71/a26942.html#a1a9acacd0ebff33d402018d4205e415b", null ],
-    [ "GetAI", "df/d71/a26942.html#a38990dc5edd725623b6c35dba7802612", null ]
+    [ "go_bashir_crystalforge", "df/d71/a26942.html#a8b68a63933e14d82198580912fddc280", null ],
+    [ "OnGossipHello", "df/d71/a26942.html#a4aa941ae78a17eecc5593d6ccd17ff63", null ],
+    [ "OnGossipSelect", "df/d71/a26942.html#ac7e1b6db4ae2bee766b95049a8b0c320", null ]
 ];

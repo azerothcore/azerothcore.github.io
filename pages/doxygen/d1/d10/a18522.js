@@ -1,14 +1,10 @@
 var a18522 =
 [
-    [ "npc_icc_vengeful_fleshreaperAI", "d1/d10/a18522.html#a4a459289a55871990abc0adc4ba8278c", null ],
-    [ "AttackStart", "d1/d10/a18522.html#a3412c5664c1c1354b615e8f798824b91", null ],
-    [ "JustReachedHome", "d1/d10/a18522.html#a161fd53eca71cb0a3b8fb8d483b7e49b", null ],
-    [ "MoveInLineOfSight", "d1/d10/a18522.html#acfbaa73491940a916f8d0a0b852bcc61", null ],
-    [ "MovementInform", "d1/d10/a18522.html#ad14a1d8cfe749d54a801a3902aa49e1d", null ],
-    [ "Reset", "d1/d10/a18522.html#aa60d5d2d534aa6e9fe7c77703bab5fce", null ],
-    [ "UpdateAI", "d1/d10/a18522.html#a8946357cad01050641bcdf51edce192f", null ],
-    [ "currPipeWP", "d1/d10/a18522.html#af8a298ccbd6f22a0a4416ed6cb082e67", null ],
-    [ "events", "d1/d10/a18522.html#aa39171910383c74583f24663d6c23f3b", null ],
-    [ "forward", "d1/d10/a18522.html#a28eb6d3f007f45b9db4eafafe71b779c", null ],
-    [ "needMove", "d1/d10/a18522.html#ae08f9c54d08b0eae5ad71d69f06a6544", null ]
+    [ "boss_isle_of_conquestAI", "d1/d10/a18522.html#a7880ea86e7a03f5b14875065a83a206a", null ],
+    [ "CheckRageBuff", "d1/d10/a18522.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
+    [ "JustEngagedWith", "d1/d10/a18522.html#a878635ef0673325943e6026ad76c2b06", null ],
+    [ "Reset", "d1/d10/a18522.html#add59669e5f6c3c882ac008c720349573", null ],
+    [ "UpdateAI", "d1/d10/a18522.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
+    [ "events", "d1/d10/a18522.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
+    [ "rage", "d1/d10/a18522.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
 ];

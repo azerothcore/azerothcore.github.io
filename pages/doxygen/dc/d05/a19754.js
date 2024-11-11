@@ -1,6 +1,6 @@
 var a19754 =
 [
-    [ "boss_freya_elder_stonebarkAI", "da/dbf/a19758.html", "da/dbf/a19758" ],
-    [ "boss_freya_elder_stonebark", "dc/d05/a19754.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "dc/d05/a19754.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "FilterTargets", "dc/d05/a19754.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
+    [ "PrepareSpellScript", "dc/d05/a19754.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
+    [ "Register", "dc/d05/a19754.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
 ];

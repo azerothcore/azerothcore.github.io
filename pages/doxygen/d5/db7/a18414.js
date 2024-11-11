@@ -1,6 +1,6 @@
 var a18414 =
 [
-    [ "PrepareSpellScript", "d5/db7/a18414.html#aac12da39c503615036120e3e0cd55622", null ],
-    [ "Register", "d5/db7/a18414.html#a808d2283be9714c14f22a2df0a52dd61", null ],
-    [ "RelocateDest", "d5/db7/a18414.html#a843c9dc403404ddd2de667e57e01f00c", null ]
+    [ "npc_icc_vengeful_fleshreaperAI", "d6/de7/a18418.html", "d6/de7/a18418" ],
+    [ "npc_icc_vengeful_fleshreaper", "d5/db7/a18414.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
+    [ "GetAI", "d5/db7/a18414.html#abf1903616dbf52718313c8b404b504a5", null ]
 ];

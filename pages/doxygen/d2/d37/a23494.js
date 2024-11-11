@@ -1,7 +1,7 @@
 var a23494 =
 [
-    [ "HandleCast", "d2/d37/a23494.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
-    [ "PrepareSpellScript", "d2/d37/a23494.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
-    [ "Register", "d2/d37/a23494.html#a6ae0573ea69573df64cd57ba84f99918", null ],
-    [ "Validate", "d2/d37/a23494.html#ab5794ca5c0863ce40194ed40e156279a", null ]
+    [ "HandleEffect", "d2/d37/a23494.html#ac0fb38f62cc9a41eb70b2ca951f9d1dc", null ],
+    [ "PrepareSpellScript", "d2/d37/a23494.html#abbbffa0a53dc2a55df5e7b17a7f4d38f", null ],
+    [ "Register", "d2/d37/a23494.html#ac406946bb793125d49006e3a877c9638", null ],
+    [ "SelectTarget", "d2/d37/a23494.html#ac36f3d88a0ef8ccaee5bac17bffcaf49", null ]
 ];

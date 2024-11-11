@@ -1,6 +1,7 @@
 var a15206 =
 [
-    [ "npc_giant_spotlightAI", "d8/df1/a15210.html", "d8/df1/a15210" ],
-    [ "npc_giant_spotlight", "d0/d53/a15206.html#a9d1c47de758c74a89c751b675d5cc4c0", null ],
-    [ "GetAI", "d0/d53/a15206.html#af002a3d0194c991c1f78c720de63cfea", null ]
+    [ "npc_steward_of_time", "d0/d53/a15206.html#ad49973464c96f44506033b73a85f6360", null ],
+    [ "OnGossipHello", "d0/d53/a15206.html#a3b61038393c3addbbfa6643438164db3", null ],
+    [ "OnGossipSelect", "d0/d53/a15206.html#af4fe13e266a98129b92e5a25188d947c", null ],
+    [ "OnQuestAccept", "d0/d53/a15206.html#a53d552282da49e8246089b2799fff9ca", null ]
 ];

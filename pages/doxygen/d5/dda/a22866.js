@@ -1,6 +1,9 @@
 var a22866 =
 [
-    [ "LeechingThrowSelector", "d5/dda/a22866.html#a4308c7be06e2e70d3a269b6dc78420cb", null ],
-    [ "operator()", "d5/dda/a22866.html#a76c7746a9b0aee52201881c4d9572bde", null ],
-    [ "_source", "d5/dda/a22866.html#a22a123333a8fbd50ccd4c37afe28d2f0", null ]
+    [ "CalcPeriodic", "d5/dda/a22866.html#a5cd39919a088cab2fd160ea6e16ee7c8", null ],
+    [ "HandleEffectApply", "d5/dda/a22866.html#adb983cc531fa666648bbdb432684ff1d", null ],
+    [ "HandleEffectRemove", "d5/dda/a22866.html#a99c1bfc5aa4b67318bb3572589a42b1a", null ],
+    [ "OnPeriodic", "d5/dda/a22866.html#aecefab535157dbe8e42aff3b23cd685b", null ],
+    [ "PrepareAuraScript", "d5/dda/a22866.html#ad9ecc1fd4bcf1a2ecb5e2d1ec2ea37f7", null ],
+    [ "Register", "d5/dda/a22866.html#a3771abcc829883ba0cbae9587adbe751", null ]
 ];

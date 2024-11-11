@@ -1,5 +1,5 @@
 var a26818 =
 [
-    [ "AreaTrigger_at_nats_landing", "dc/dc0/a26818.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
-    [ "OnTrigger", "dc/dc0/a26818.html#a67434f74300fa3463e679afb7d344467", null ]
+    [ "go_arena_ready_marker", "dc/dc0/a26818.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "dc/dc0/a26818.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

@@ -1,6 +1,6 @@
 var a24518 =
 [
-    [ "CheckCast", "dc/dff/a24518.html#a8ab8394c56201264ac4f2d859dd52092", null ],
-    [ "PrepareSpellScript", "dc/dff/a24518.html#acc6d27c8d869ec80ee5794405f6c238a", null ],
-    [ "Register", "dc/dff/a24518.html#a191085bc21ce6f5ce1d5b43d6d70f069", null ]
+    [ "PrepareSpellScript", "dc/dff/a24518.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
+    [ "Register", "dc/dff/a24518.html#a759b195d4631a371bef3e6398e128034", null ],
+    [ "SelectTarget", "dc/dff/a24518.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
 ];

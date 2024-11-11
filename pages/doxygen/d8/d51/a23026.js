@@ -1,6 +1,5 @@
 var a23026 =
 [
-    [ "HandlePeriodic", "d8/d51/a23026.html#a25c698e911ec02d9cd7f757ba87281df", null ],
-    [ "PrepareAuraScript", "d8/d51/a23026.html#a7bf79bc5e5f509b52965f03e998db399", null ],
-    [ "Register", "d8/d51/a23026.html#ab3eec9f591384c7c1c684651c38aa614", null ]
+    [ "go_main_chambers_access_panel", "d8/d51/a23026.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "d8/d51/a23026.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

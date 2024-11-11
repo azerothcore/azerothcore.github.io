@@ -1,9 +1,6 @@
 var a26850 =
 [
-    [ "boss_ysondreAI", "d7/df5/a26850.html#a7c5c6a9484aa035a5bda6a6d4a4cc0bc", null ],
-    [ "DamageTaken", "d7/df5/a26850.html#a99ee250e776001bb142815fc711ae75d", null ],
-    [ "ExecuteEvent", "d7/df5/a26850.html#a88e3caa536a71730c757590be1bd3de1", null ],
-    [ "JustEngagedWith", "d7/df5/a26850.html#af96597cf06d2ed71f85c7b4055793dcf", null ],
-    [ "Reset", "d7/df5/a26850.html#ac2ea95a5f8c032d7d9166d92bce51ba1", null ],
-    [ "_stage", "d7/df5/a26850.html#a5c96faa6b5e6cc350e9c53f34fe17eb1", null ]
+    [ "go_heatAI", "dc/d09/a26854.html", "dc/d09/a26854" ],
+    [ "go_heat", "d7/df5/a26850.html#a6c3d6919652159e4fd265b6d63f59c16", null ],
+    [ "GetAI", "d7/df5/a26850.html#a9f19009a78c7abd349d2e2e7bf98c1a0", null ]
 ];

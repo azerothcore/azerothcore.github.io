@@ -1,10 +1,9 @@
 var a20070 =
 [
-    [ "boss_kologarn_eyebeamAI", "dc/dc1/a20070.html#add083b2a9067753458de1eeb6bdca4c0", null ],
-    [ "DamageDealt", "dc/dc1/a20070.html#a94a9181da10ffe737611cb281d60a952", null ],
-    [ "UpdateAI", "dc/dc1/a20070.html#add60a709a1edf1684bd21358769590b4", null ],
-    [ "_damaged", "dc/dc1/a20070.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
-    [ "_timer", "dc/dc1/a20070.html#a766ad3e10016d97235499d1512c4da27", null ],
-    [ "justSpawned", "dc/dc1/a20070.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
-    [ "m_pInstance", "dc/dc1/a20070.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
+    [ "npc_ulduar_bot_summon_triggerAI", "dc/dc1/a20070.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
+    [ "DoAction", "dc/dc1/a20070.html#ac5d0e28ee330741da3b287d965537f39", null ],
+    [ "Reset", "dc/dc1/a20070.html#a91207c04ecee6fc0e906133e054bf51b", null ],
+    [ "UpdateAI", "dc/dc1/a20070.html#aebec433e806d4f63f5593db0301612b4", null ],
+    [ "option", "dc/dc1/a20070.html#a98bb19fea19a05127b4b32df039acf05", null ],
+    [ "timer", "dc/dc1/a20070.html#a118d048557b0ed314180299c3cd2bcbc", null ]
 ];

@@ -1,13 +1,10 @@
 var a00887 =
 [
-    [ "npc_underbat", "dd/d80/a23202.html", "dd/d80/a23202" ],
-    [ "spell_fungal_decay", "dd/d29/a23206.html", "dd/d29/a23206" ],
-    [ "spell_allergies", "d7/da6/a23210.html", "d7/da6/a23210" ],
-    [ "AllergiesEnum", "d7/d92/a00887.html#a597f861031d65ff9c7c3da68293f6847", [
-      [ "SPELL_SNEEZE", "d7/d92/a00887.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3", null ]
+    [ "spell_utgarde_pinnacle_beast_mark", "df/d98/a20858.html", "df/d98/a20858" ],
+    [ "UtgardeSpells", "d7/d92/a00887.html#ae8fa29243650c07aed99f9ee3cad321a", [
+      [ "SPELL_BEAST_MARK_NORMAL", "d7/d92/a00887.html#ae8fa29243650c07aed99f9ee3cad321aa515971380a351ffe4dc21aefd7d9a8aa", null ],
+      [ "SPELL_BEAST_MARK_DAMAGE_N", "d7/d92/a00887.html#ae8fa29243650c07aed99f9ee3cad321aa519ee30eba59f71f788bd5aaa9ea8a4f", null ],
+      [ "SPELL_BEAST_MARK_DAMAGE_H", "d7/d92/a00887.html#ae8fa29243650c07aed99f9ee3cad321aa28cc83c9c8ba75d8dd51298affc35aa7", null ]
     ] ],
-    [ "UnderbatSpells", "d7/d92/a00887.html#aba9ed07daed7ae7df6becb96f5194f52", [
-      [ "SPELL_TENTACLE_LASH", "d7/d92/a00887.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a", null ]
-    ] ],
-    [ "AddSC_underbog", "d7/d92/a00887.html#a8c9725cac978bfa0eb0405faa6588549", null ]
+    [ "AddSC_utgarde_pinnacle", "d7/d92/a00887.html#aa865b80ad4fb44b0c96fa45f08d06d71", null ]
 ];

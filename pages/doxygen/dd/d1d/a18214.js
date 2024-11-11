@@ -1,8 +1,17 @@
 var a18214 =
 [
-    [ "npc_blistering_zombieAI", "dd/d1d/a18214.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
-    [ "DamageTaken", "dd/d1d/a18214.html#adf031992078214f90d859df2b54aac91", null ],
-    [ "UpdateAI", "dd/d1d/a18214.html#ae081898b8dcaf45cd3069e79021de452", null ],
-    [ "casted", "dd/d1d/a18214.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
-    [ "timer", "dd/d1d/a18214.html#a8b865c2a87b1fc020d8250767febab0a", null ]
+    [ "npc_argent_captainAI", "dd/d1d/a18214.html#a4e9d65fa7c870c98d79ff30ae262385d", null ],
+    [ "CanAIAttack", "dd/d1d/a18214.html#a542075fcf2d487dedc6f11672e3507ba", null ],
+    [ "DoAction", "dd/d1d/a18214.html#a77f0b2d41d631f3ff7a3ea8d13716de1", null ],
+    [ "EnterEvadeMode", "dd/d1d/a18214.html#afaebff86ad9be5835c2e289625c07d16", null ],
+    [ "JustDied", "dd/d1d/a18214.html#a7f132fa843ba292cc89a64c77ce48bc4", null ],
+    [ "JustEngagedWith", "dd/d1d/a18214.html#a43818e75274cad597fd883f75119d63c", null ],
+    [ "KilledUnit", "dd/d1d/a18214.html#abc2dbc233082f9d7626759fbcccb34a2", null ],
+    [ "Reset", "dd/d1d/a18214.html#a0709350a6841b6008935c050a1db7784", null ],
+    [ "SpellHit", "dd/d1d/a18214.html#a8aee635d2739564281b5af04955e4d4a", null ],
+    [ "Events", "dd/d1d/a18214.html#a1cffce3d371bef959d76270608247def", null ],
+    [ "FollowAngle", "dd/d1d/a18214.html#a059c34261439fc80b0bff9d62b537489", null ],
+    [ "FollowDist", "dd/d1d/a18214.html#a4fde069032f7c6578f7f518b45f141d2", null ],
+    [ "instance", "dd/d1d/a18214.html#a131f11a8a67e3eb60759c699fc2cec1b", null ],
+    [ "IsUndead", "dd/d1d/a18214.html#a9eaf5d2c9e52650c28b8f7feef0e681c", null ]
 ];

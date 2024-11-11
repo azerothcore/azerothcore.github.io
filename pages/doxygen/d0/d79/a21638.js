@@ -1,6 +1,6 @@
 var a21638 =
 [
-    [ "npc_mrfloppyAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
-    [ "npc_mrfloppy", "d0/d79/a21638.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
-    [ "GetAI", "d0/d79/a21638.html#a88590566309f3fc155eb6dc26055a161", null ]
+    [ "npc_attracted_reef_bullAI", "d0/d79/a21638.html#aa8917a912fb31a5987332e53e8d268e7", null ],
+    [ "MovementInform", "d0/d79/a21638.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
+    [ "SpellHit", "d0/d79/a21638.html#ab06ee7ef84d881262ae682b69fae3135", null ]
 ];

@@ -1,8 +1,6 @@
 var a24198 =
 [
-    [ "npc_pet_darting_hatchling", "df/d6c/a24198.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "df/d6c/a24198.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "df/d6c/a24198.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "df/d6c/a24198.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "df/d6c/a24198.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "CheckProc", "df/d6c/a24198.html#ace3662e092d02de975929741c470230d", null ],
+    [ "PrepareAuraScript", "df/d6c/a24198.html#aed547ead2b8822f08eb1530f4b29e2f8", null ],
+    [ "Register", "df/d6c/a24198.html#ae6432106538261827c3eac3dde1450f2", null ]
 ];

@@ -1,6 +1,7 @@
 var a21526 =
 [
-    [ "npc_heated_battleAI", "d6/dce/a21526.html#a2b73957d7890549f4b02488c5527fcef", null ],
-    [ "DamageTaken", "d6/dce/a21526.html#a8422c157214195d7166ede35c9c05d19", null ],
-    [ "Reset", "d6/dce/a21526.html#a11a4f3270ff260e30da89017dad38433", null ]
+    [ "npc_emilyAI", "de/dd5/a21530.html", "de/dd5/a21530" ],
+    [ "npc_emily", "d6/dce/a21526.html#ab40f581fad087b3d32a7724fca97895d", null ],
+    [ "GetAI", "d6/dce/a21526.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
+    [ "OnQuestAccept", "d6/dce/a21526.html#ad434e7bf2427b3575a8459021e792152", null ]
 ];

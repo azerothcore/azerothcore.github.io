@@ -1,6 +1,6 @@
 var a22782 =
 [
-    [ "instance_black_temple_InstanceMapScript", "de/de1/a22786.html", "de/de1/a22786" ],
-    [ "instance_black_temple", "dc/d6a/a22782.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
-    [ "GetInstanceScript", "dc/d6a/a22782.html#a947a1279eabde75d9884b1ef84b295a3", null ]
+    [ "OnPeriodic", "dc/d6a/a22782.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "dc/d6a/a22782.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "dc/d6a/a22782.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

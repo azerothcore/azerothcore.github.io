@@ -1,6 +1,5 @@
 var a21366 =
 [
-    [ "npc_thassarian2AI", "d6/dc2/a21370.html", "d6/dc2/a21370" ],
-    [ "npc_thassarian2", "d7/d7e/a21366.html#a8a2f1e1595349e4fa9968e85f17d0468", null ],
-    [ "GetAI", "d7/d7e/a21366.html#adb87c99f3375f88eca55b39e1cd0bbd5", null ]
+    [ "go_the_pearl_of_the_depths", "d7/d7e/a21366.html#a0e09ddcde0eef050400d90e9a268823a", null ],
+    [ "OnGossipHello", "d7/d7e/a21366.html#a745ea14136a78759a3afd7714c6d784a", null ]
 ];

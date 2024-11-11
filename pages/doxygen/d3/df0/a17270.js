@@ -1,6 +1,9 @@
 var a17270 =
 [
-    [ "npc_igb_ship_crewAI", "d3/df0/a17270.html#a3ca741b305e3235b0521f094d7abe732", null ],
-    [ "CanAIAttack", "d3/df0/a17270.html#a2c834dc151493957fc116865699ae7f5", null ],
-    [ "_instance", "d3/df0/a17270.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
+    [ "CalculateDamage", "d3/df0/a17270.html#a6a9e90d9463825b38b69afc234b35b39", null ],
+    [ "PrepareSpellScript", "d3/df0/a17270.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
+    [ "Register", "d3/df0/a17270.html#a2722814a55469e5bae572766ed36309b", null ],
+    [ "RemoveEnergy", "d3/df0/a17270.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
+    [ "StoreEnergy", "d3/df0/a17270.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
+    [ "_energyLeft", "d3/df0/a17270.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
 ];

@@ -1,7 +1,6 @@
 var a13962 =
 [
-    [ "PeriodicTick", "dd/d75/a13962.html#ac8b584ffbb1a8787f70370d94586ed77", null ],
-    [ "PrepareAuraScript", "dd/d75/a13962.html#a4e860850bbab0f14eb8a160bb5e6799e", null ],
-    [ "Register", "dd/d75/a13962.html#a5def2685cedc4fb78c1a5c534c764ee9", null ],
-    [ "Validate", "dd/d75/a13962.html#a68247c2afa553411fac34582e83635c9", null ]
+    [ "HandleScript", "dd/d75/a13962.html#a4077b809530d28bed0a9419b5a745f42", null ],
+    [ "PrepareSpellScript", "dd/d75/a13962.html#a97eb6d1fcdcf0628433e5bec68785932", null ],
+    [ "Register", "dd/d75/a13962.html#ac09b1c86655eef0febaccff86533b28f", null ]
 ];

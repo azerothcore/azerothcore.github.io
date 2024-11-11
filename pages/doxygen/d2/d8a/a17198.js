@@ -1,7 +1,8 @@
 var a17198 =
 [
-    [ "HandleScript", "d2/d8a/a17198.html#a101e5e995dd27dcc6b6a4b475eed0989", null ],
-    [ "PrepareSpellScript", "d2/d8a/a17198.html#a8f668b88a41585cabeace574b30b4f85", null ],
-    [ "Register", "d2/d8a/a17198.html#a8fae161a91fae297b99079bde218ced8", null ],
-    [ "Validate", "d2/d8a/a17198.html#a4d1a8c28eefff22afdbf15ab57a6a7fd", null ]
+    [ "npc_gunship_mageAI", "d2/d8a/a17198.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
+    [ "AttackStart", "d2/d8a/a17198.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
+    [ "CanAIAttack", "d2/d8a/a17198.html#aadcb217a9df96bee02287d75a23e32c2", null ],
+    [ "MovementInform", "d2/d8a/a17198.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
+    [ "UpdateAI", "d2/d8a/a17198.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
 ];

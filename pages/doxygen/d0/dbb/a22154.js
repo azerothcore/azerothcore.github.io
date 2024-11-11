@@ -1,5 +1,6 @@
 var a22154 =
 [
-    [ "achievement_wg_within_our_grasp", "d0/dbb/a22154.html#a9edbd15bc6989c6948e21391a683d22d", null ],
-    [ "OnCheck", "d0/dbb/a22154.html#a10b659c4b52322536333e3d191796c27", null ]
+    [ "OutdoorPvPGH", "d0/dbb/a22154.html#a619492e0a1fdf75f37554a2f19268660", null ],
+    [ "SendRemoveWorldStates", "d0/dbb/a22154.html#a92c7e489717072ddc34f707fbe462cb2", null ],
+    [ "SetupOutdoorPvP", "d0/dbb/a22154.html#a3d62cb27cfa415c9ba7fe5c18384a75d", null ]
 ];

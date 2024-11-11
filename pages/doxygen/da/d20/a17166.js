@@ -1,7 +1,6 @@
 var a17166 =
 [
-    [ "FilterTargets", "da/d20/a17166.html#aeae290d20ade37eb839c1bf3c9ae59bf", null ],
-    [ "Load", "da/d20/a17166.html#a38bf6d96c6a78e5105d0369eb993e58c", null ],
-    [ "PrepareSpellScript", "da/d20/a17166.html#a815c99e9ef570287af5d45c32bdc5b8c", null ],
-    [ "Register", "da/d20/a17166.html#a33342cc676adaabe5e3896fa559631b7", null ]
+    [ "npc_igb_ship_crewAI", "da/d20/a17166.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "da/d20/a17166.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "da/d20/a17166.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

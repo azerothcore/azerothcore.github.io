@@ -1,5 +1,4 @@
 var a03092 =
 [
-    [ "Module_0DBBF209A27B1E279A9FEC5C168A15F7_Data", "d5/d37/a03092.html#a650e9d2ed03f4896b697097e2116298e", null ],
-    [ "Module_0DBBF209A27B1E279A9FEC5C168A15F7_Key", "d5/d37/a03092.html#aba4af9417ad91ebf078cf0ff83ecf503", null ]
+    [ "ScriptRegistry< ArenaTeamScript >", "d5/d37/a03092.html#a5d2a56a9849b1ba119fd3224685406fe", null ]
 ];

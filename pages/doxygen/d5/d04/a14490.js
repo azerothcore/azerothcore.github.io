@@ -1,12 +1,12 @@
 var a14490 =
 [
-    [ "boss_lieutenant_drake", "d5/d04/a14490.html#a67e00ef68d5b07023cc9dc7bd6a2289b", null ],
-    [ "InitializeAI", "d5/d04/a14490.html#a2b3eb857c0711b89b6e7a6f3f5f05441", null ],
-    [ "JustDied", "d5/d04/a14490.html#aca7654e30aac96fa509f99f3447121ec", null ],
-    [ "JustEngagedWith", "d5/d04/a14490.html#ae31ac13106d09b8b447aa8fd9d864e41", null ],
-    [ "KilledUnit", "d5/d04/a14490.html#a833c889c28ea35a6198fe753b604a8ed", null ],
-    [ "MovementInform", "d5/d04/a14490.html#aec6e332bc5739552cbbec27569c55759", null ],
-    [ "UpdateAI", "d5/d04/a14490.html#ad898722dfe01c2e4f814fc5af9f057b8", null ],
-    [ "pathId", "d5/d04/a14490.html#ac63f9c885296a797799c0cd83b0ade64", null ],
-    [ "runSecondPath", "d5/d04/a14490.html#a3ea53e2048224ac3bbc4dceda316d7c4", null ]
+    [ "instance_onyxias_lair_InstanceMapScript", "d5/d04/a14490.html#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64", null ],
+    [ "CheckAchievementCriteriaMeet", "d5/d04/a14490.html#a20761aa41e0f70836c4525f17faf064f", null ],
+    [ "Initialize", "d5/d04/a14490.html#a5d109b5acfa2e21e3c50e35dcdf119dd", null ],
+    [ "OnGameObjectCreate", "d5/d04/a14490.html#a1e99600992673d165382d99236e0c59f", null ],
+    [ "SetBossState", "d5/d04/a14490.html#a2a28e42ec49fce2ef47288c1ad4b6e61", null ],
+    [ "SetData", "d5/d04/a14490.html#ac5df2ecb9f88dbedbb1f59ad2bdc8b96", null ],
+    [ "bDeepBreath", "d5/d04/a14490.html#a96211e4e0e033e16d4de57b6e40f2023", null ],
+    [ "ManyWhelpsCounter", "d5/d04/a14490.html#aea148b562a4f2cd752ac73240f902993", null ],
+    [ "str_data", "d5/d04/a14490.html#ad0b65a3cfccdf07d017757751f4e15fa", null ]
 ];

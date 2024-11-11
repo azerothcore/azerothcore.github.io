@@ -1,7 +1,6 @@
 var a16114 =
 [
-    [ "npc_toc_shadow_priestAI", "d6/d78/a16114.html#af13a18be542fb314c19af52f89d216b8", null ],
-    [ "myCanCast", "d6/d78/a16114.html#a83422ff3e140b57a484d98876a9a8070", null ],
-    [ "UpdateAI", "d6/d78/a16114.html#afc23ba15d3ee925212e77b5211504c2b", null ],
-    [ "events", "d6/d78/a16114.html#a31665a22920b416d7423958a3e2928ec", null ]
+    [ "npc_fel_infernalAI", "d5/d7f/a16118.html", "d5/d7f/a16118" ],
+    [ "npc_fel_infernal", "d6/d78/a16114.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
+    [ "GetAI", "d6/d78/a16114.html#a768201a7516c9972800c941cf2079a11", null ]
 ];

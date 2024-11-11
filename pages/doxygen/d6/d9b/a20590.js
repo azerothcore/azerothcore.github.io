@@ -1,6 +1,6 @@
 var a20590 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d6/d9b/a20590.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
-    [ "DamageTaken", "d6/d9b/a20590.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
-    [ "JustDied", "d6/d9b/a20590.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
+    [ "CheckCast", "d6/d9b/a20590.html#a715a58956db4253c8adfed039833debd", null ],
+    [ "PrepareSpellScript", "d6/d9b/a20590.html#a3b03178d8ab54db36a19ba5a27444917", null ],
+    [ "Register", "d6/d9b/a20590.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
 ];

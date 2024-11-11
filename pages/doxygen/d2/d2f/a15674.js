@@ -1,6 +1,6 @@
 var a15674 =
 [
-    [ "boss_sartharion_vesperonAI", "da/d79/a15678.html", "da/d79/a15678" ],
-    [ "boss_sartharion_vesperon", "d2/d2f/a15674.html#a53af67abd9f9bff7f72ee2441e885500", null ],
-    [ "GetAI", "d2/d2f/a15674.html#ad045054b44910461e704c412a524bdc4", null ]
+    [ "boss_twilight_halionAI", "da/d79/a15678.html", "da/d79/a15678" ],
+    [ "boss_twilight_halion", "d2/d2f/a15674.html#a23ea0a61acb2cf3fd83aece3ac7d218e", null ],
+    [ "GetAI", "d2/d2f/a15674.html#a56842d74b16cbd5636649cbc643c50d8", null ]
 ];

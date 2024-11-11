@@ -1,9 +1,6 @@
 var a20442 =
 [
-    [ "npc_xt002_pummellerAI", "d8/df3/a20442.html#a2942c05c93036c2e02b9a72c784441b1", null ],
-    [ "Reset", "d8/df3/a20442.html#a6542fb3e585f100f06f6be14a1346306", null ],
-    [ "UpdateAI", "d8/df3/a20442.html#a959990310303ff2102f1c03852b4ab8e", null ],
-    [ "_arcingSmashTimer", "d8/df3/a20442.html#a830fda66756dc3f34a530939116e7556", null ],
-    [ "_trampleTimer", "d8/df3/a20442.html#ae5e450601861f83b20419405bb92ef6d", null ],
-    [ "_uppercutTimer", "d8/df3/a20442.html#a5a1bdb380438070effc091ec37db6aec", null ]
+    [ "boss_yoggsaron_death_orbAI", "d8/df3/a20442.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
+    [ "UpdateAI", "d8/df3/a20442.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
+    [ "_startTimer", "d8/df3/a20442.html#aebc8edef5f84219e1c50f2394d129443", null ]
 ];

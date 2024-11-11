@@ -1,6 +1,7 @@
 var a15698 =
 [
-    [ "HandleLeapBack", "d1/dcc/a15698.html#a71a9b9967528c1153ad1215635bc7d01", null ],
-    [ "PrepareSpellScript", "d1/dcc/a15698.html#a25a2db5c19e721b112b7bc84b3ac0968", null ],
-    [ "Register", "d1/dcc/a15698.html#a6ef11d0538616315fa7cf098748aa01f", null ]
+    [ "HandleDummy", "d1/dcc/a15698.html#ad0782bfbd977954aac6170ee9111aef6", null ],
+    [ "PrepareSpellScript", "d1/dcc/a15698.html#ac456524856c4a3c4913423693a8fd50c", null ],
+    [ "Register", "d1/dcc/a15698.html#a82d88c5dac164eb9dee9883a91edd0df", null ],
+    [ "Validate", "d1/dcc/a15698.html#a2cf4ee02293cee5e383e99efe14e0008", null ]
 ];

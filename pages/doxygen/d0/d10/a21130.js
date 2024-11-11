@@ -1,6 +1,6 @@
 var a21130 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "d9/de7/a21134.html", "d9/de7/a21134" ],
-    [ "instance_violet_hold", "d0/d10/a21130.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "d0/d10/a21130.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "npc_violet_hold_defense_system", "d0/d10/a21130.html#abb5eb275e803201aad3010ad77aa4b41", null ],
+    [ "Reset", "d0/d10/a21130.html#a77925ae6097f7a52d446ee20bbb3de62", null ],
+    [ "UpdateAI", "d0/d10/a21130.html#ab39bc3da2d7ce33be1e27cd48fc16e89", null ]
 ];

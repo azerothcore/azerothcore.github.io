@@ -1,6 +1,6 @@
 var a22722 =
 [
-    [ "PrepareSpellScript", "dd/d0b/a22722.html#ad786920d6180b8e2829f3a56ec50c488", null ],
-    [ "Register", "dd/d0b/a22722.html#a857be9f0017e0013f3e30e1d026eaf5a", null ],
-    [ "SetDest", "dd/d0b/a22722.html#a0ea9f9513ad607f639b28d5f8162e629", null ]
+    [ "HandleProc", "dd/d0b/a22722.html#a93dfb9e0dac89cb66f340c41dbc526bb", null ],
+    [ "PrepareAuraScript", "dd/d0b/a22722.html#a94b244ef26355d53c874aec6d26f3a53", null ],
+    [ "Register", "dd/d0b/a22722.html#a9499d88802213ceb877e19d1651324f2", null ]
 ];

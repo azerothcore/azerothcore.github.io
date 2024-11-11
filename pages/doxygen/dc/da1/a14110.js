@@ -1,5 +1,5 @@
 var a14110 =
 [
-    [ "go_loosely_turned_soilAI", "dc/da1/a14110.html#a603641bc52d26521d64afaaeed3abc4d", null ],
-    [ "CanBeSeen", "dc/da1/a14110.html#a424b51b08d17ceb04b015cd535256889", null ]
+    [ "npc_pilgrims_bounty_plate", "dc/da1/a14110.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
+    [ "SpellHit", "dc/da1/a14110.html#a7797b7a532336542ef37f0643df8dec0", null ]
 ];

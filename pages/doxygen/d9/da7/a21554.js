@@ -1,6 +1,7 @@
 var a21554 =
 [
-    [ "SACActivateEvent", "d9/da7/a21554.html#a7e5ba22c5500337f14ae067e2b404c5a", null ],
-    [ "Execute", "d9/da7/a21554.html#ad3e4092941e8cd8953fdc251e97c458a", null ],
-    [ "_owner", "d9/da7/a21554.html#ae930bd1f603ea296c5ccabd6fbd299f8", null ]
+    [ "HandleScriptEffect", "d9/da7/a21554.html#a2d39a073c351860db735301b4cf9c79f", null ],
+    [ "PrepareSpellScript", "d9/da7/a21554.html#a3674adaef23f1531af360a65c14efadd", null ],
+    [ "Register", "d9/da7/a21554.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
+    [ "Validate", "d9/da7/a21554.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
 ];

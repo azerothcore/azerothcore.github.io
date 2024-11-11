@@ -1,5 +1,6 @@
 var a27090 =
 [
-    [ "go_massive_seaforium_charge", "d8/d71/a27090.html#adae43b764f237932923cd18207e4d23c", null ],
-    [ "OnGossipHello", "d8/d71/a27090.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
+    [ "npc_preciousAI", "dd/dba/a27094.html", "dd/dba/a27094" ],
+    [ "npc_precious", "d8/d71/a27090.html#a3c3ad9da13de64498cabc8e252e99ab2", null ],
+    [ "GetAI", "d8/d71/a27090.html#a754ad85c8b1942b400a47c28297bad62", null ]
 ];

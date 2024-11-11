@@ -1,10 +1,6 @@
 var a18946 =
 [
-    [ "npc_scion_of_eternityAI", "da/d9c/a18946.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
-    [ "AttackStart", "da/d9c/a18946.html#a1335f9e34ff73d5501455062be025ada", null ],
-    [ "JustDied", "da/d9c/a18946.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
-    [ "MoveInLineOfSight", "da/d9c/a18946.html#a74a69fa532f0921285ef678bbd2fa761", null ],
-    [ "UpdateAI", "da/d9c/a18946.html#adb16afb6ea1583a7156b80a8d833951a", null ],
-    [ "events", "da/d9c/a18946.html#ae0e194a24a14033a499e68524da1699d", null ],
-    [ "pInstance", "da/d9c/a18946.html#aa828ca4a75696645d7aa350f1f981f40", null ]
+    [ "boss_ormorokAI", "d9/d28/a18950.html", "d9/d28/a18950" ],
+    [ "boss_ormorok", "da/d9c/a18946.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
+    [ "GetAI", "da/d9c/a18946.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
 ];

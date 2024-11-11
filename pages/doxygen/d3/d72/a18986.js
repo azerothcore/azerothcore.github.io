@@ -1,6 +1,6 @@
 var a18986 =
 [
-    [ "instance_eye_of_eternity_InstanceMapScript", "d9/d53/a18990.html", "d9/d53/a18990" ],
-    [ "instance_eye_of_eternity", "d3/d72/a18986.html#afcab4ba969d0423871a4e398627a323d", null ],
-    [ "GetInstanceScript", "d3/d72/a18986.html#af51319609d355fe87a77a87eb697f434", null ]
+    [ "npc_oculus_unstable_sphereAI", "d9/d53/a18990.html", "d9/d53/a18990" ],
+    [ "npc_oculus_unstable_sphere", "d3/d72/a18986.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
+    [ "GetAI", "d3/d72/a18986.html#adda2a9e7eab03444742e85729673ab2f", null ]
 ];

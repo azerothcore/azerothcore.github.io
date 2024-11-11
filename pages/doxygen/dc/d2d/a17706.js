@@ -1,7 +1,6 @@
 var a17706 =
 [
-    [ "FrostwyrmLandEvent", "dc/d2d/a17706.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
-    [ "Execute", "dc/d2d/a17706.html#a4da77796a223e6233ac6d908f7700623", null ],
-    [ "_dest", "dc/d2d/a17706.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
-    [ "_owner", "dc/d2d/a17706.html#a6336050092606ebb27a180abff55dfa2", null ]
+    [ "npc_rimefangAI", "da/d9b/a17710.html", "da/d9b/a17710" ],
+    [ "npc_rimefang", "dc/d2d/a17706.html#af8ab4e318726b5250de56e3c6d09fcd2", null ],
+    [ "GetAI", "dc/d2d/a17706.html#a2fce9c36b7ef1861c9dcb5db2cacf438", null ]
 ];

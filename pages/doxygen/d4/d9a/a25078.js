@@ -1,5 +1,6 @@
 var a25078 =
 [
-    [ "PrepareSpellScript", "d4/d9a/a25078.html#a5e100554f868649d4edea011fe767b8b", null ],
-    [ "Register", "d4/d9a/a25078.html#a0ffb1cb313060770227621edb16c3a0d", null ]
+    [ "CheckCast", "d4/d9a/a25078.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
+    [ "PrepareSpellScript", "d4/d9a/a25078.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
+    [ "Register", "d4/d9a/a25078.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
 ];

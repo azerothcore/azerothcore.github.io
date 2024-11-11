@@ -1,6 +1,9 @@
 var a16550 =
 [
-    [ "npc_ghostly_priestAI", "de/dec/a16554.html", "de/dec/a16554" ],
-    [ "npc_ghostly_priest", "d9/dea/a16550.html#a7c03bb327cfc65f4df515969da482ddb", null ],
-    [ "GetAI", "d9/dea/a16550.html#a0fab76345c5459efcedff02123e4fc8d", null ]
+    [ "npc_hor_lumbering_abominationAI", "d9/dea/a16550.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
+    [ "JustDied", "d9/dea/a16550.html#af243a79da3028d3d66facc8a15132f78", null ],
+    [ "JustEngagedWith", "d9/dea/a16550.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
+    [ "Reset", "d9/dea/a16550.html#a4270f405bbade0028fce4df0655a1987", null ],
+    [ "UpdateAI", "d9/dea/a16550.html#a995d0f7902cb70280d1448ac7731a816", null ],
+    [ "events", "d9/dea/a16550.html#aee9063950477b50e38ec904e91882689", null ]
 ];

@@ -1,9 +1,6 @@
 var a22346 =
 [
-    [ "npc_stolen_soul", "dd/de6/a22346.html#a84a0bb8320b2332545748e010d855884", null ],
-    [ "DoAction", "dd/de6/a22346.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
-    [ "Reset", "dd/de6/a22346.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
-    [ "UpdateAI", "dd/de6/a22346.html#a7bf369dd943ee36600a364d56b85db5a", null ],
-    [ "_scheduler", "dd/de6/a22346.html#ab62526916f0ccd681383d37d19d94ccc", null ],
-    [ "myClass", "dd/de6/a22346.html#ab2ad92983075320ce389aa583c341d21", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "d2/d87/a22350.html", "d2/d87/a22350" ],
+    [ "instance_shadow_labyrinth", "dd/de6/a22346.html#a16a3acdfd9b1053374dfa5f27e5f3c19", null ],
+    [ "GetInstanceScript", "dd/de6/a22346.html#af9edf624413593a5cdf025dd9a1c3631", null ]
 ];

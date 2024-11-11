@@ -1,6 +1,6 @@
 var a16966 =
 [
-    [ "boss_prince_taldaramAI", "d6/d1c/a16970.html", "d6/d1c/a16970" ],
-    [ "boss_prince_taldaram_icc", "d6/def/a16966.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
-    [ "GetAI", "d6/def/a16966.html#a2a8c89206ab72afc68260f41a246da3b", null ]
+    [ "FilterTargets", "d6/def/a16966.html#a7abb4397b5fcf956bf31fa4dc9960ece", null ],
+    [ "PrepareSpellScript", "d6/def/a16966.html#a8e9d81b34e05506569f4b910c1958de3", null ],
+    [ "Register", "d6/def/a16966.html#aa80980c3f68abcb0fac7a41172f70012", null ]
 ];

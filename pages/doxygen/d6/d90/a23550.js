@@ -1,6 +1,7 @@
 var a23550 =
 [
-    [ "OnApply", "d6/d90/a23550.html#a472220f22165c6d21eab5f4b5f75921e", null ],
-    [ "PrepareAuraScript", "d6/d90/a23550.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
-    [ "Register", "d6/d90/a23550.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
+    [ "boss_gatewatcher_gyrokill", "d6/d90/a23550.html#a82335081dd79f7a0aa1dc0c26bd878fb", null ],
+    [ "JustDied", "d6/d90/a23550.html#a4bbfb59c2a687ebb3e88bde9784af38e", null ],
+    [ "JustEngagedWith", "d6/d90/a23550.html#a95d3ae80f87be9d972ecb056e0b85412", null ],
+    [ "KilledUnit", "d6/d90/a23550.html#a274355d0303d9bf5761758f175826bd1", null ]
 ];

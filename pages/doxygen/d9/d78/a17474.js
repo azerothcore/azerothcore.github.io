@@ -1,6 +1,7 @@
 var a17474 =
 [
-    [ "BoneStormMoveTargetSelector", "d9/d78/a17474.html#acd13e67fbbc29137ca2b77aaf9dc0e77", null ],
-    [ "operator()", "d9/d78/a17474.html#a5b53c140d38db0df8faef3dfaf5c458d", null ],
-    [ "_source", "d9/d78/a17474.html#a03d8b1ec5f18398fe2963418bb319973", null ]
+    [ "HandleExtraEffect", "d9/d78/a17474.html#a8fbfac8e62d2534daf40194f7fe31945", null ],
+    [ "PrepareAuraScript", "d9/d78/a17474.html#a45e83b3bfa344391bb87c8088ae1c6a7", null ],
+    [ "Register", "d9/d78/a17474.html#a5ec23a02a4e617e6db8cf17d2bd36aff", null ],
+    [ "Validate", "d9/d78/a17474.html#a2e7253cfc18b66d663457c2fb7ab3302", null ]
 ];

@@ -1,6 +1,6 @@
 var a17802 =
 [
-    [ "npc_spinestalkerAI", "de/dcb/a17806.html", "de/dcb/a17806" ],
-    [ "npc_spinestalker", "d5/d9c/a17802.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
-    [ "GetAI", "d5/d9c/a17802.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
+    [ "npc_tirion_fordringAI", "de/dcb/a17806.html", "de/dcb/a17806" ],
+    [ "npc_tirion_fordring_tft", "d5/d9c/a17802.html#a04036d958e7ac643c9ba8d9073bca404", null ],
+    [ "GetAI", "d5/d9c/a17802.html#a41dcfa415831091531cbf46e946f442d", null ]
 ];

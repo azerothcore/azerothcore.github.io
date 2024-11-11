@@ -1,6 +1,6 @@
 var a26342 =
 [
-    [ "CheckCast", "d2/dac/a26342.html#a97f479cccecc6f37c75b47122b47e333", null ],
-    [ "PrepareSpellScript", "d2/dac/a26342.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
-    [ "Register", "d2/dac/a26342.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
+    [ "HandleDummy", "d2/dac/a26342.html#af5bccd5dfb9aa37215b083438b6749ea", null ],
+    [ "PrepareSpellScript", "d2/dac/a26342.html#a6c2b858c893ed215d1192073b06db81d", null ],
+    [ "Register", "d2/dac/a26342.html#a1b23dc4a7a04e4c910bb738d45a8df1f", null ]
 ];

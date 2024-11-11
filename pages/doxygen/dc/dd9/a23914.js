@@ -1,10 +1,6 @@
 var a23914 =
 [
-    [ "npc_infernal_attackerAI", "dc/dd9/a23914.html#ae04c4e026f22bd650bb33940b923df9a", null ],
-    [ "IsSummonedBy", "dc/dd9/a23914.html#a926e6cd6772784872a905de7245007ac", null ],
-    [ "JustDied", "dc/dd9/a23914.html#a1822131520f98dd5f1dd637282f20ae3", null ],
-    [ "Reset", "dc/dd9/a23914.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
-    [ "SpellHit", "dc/dd9/a23914.html#a956f3fb1e341519817599df08afc2589", null ],
-    [ "UpdateAI", "dc/dd9/a23914.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
-    [ "casterGUID", "dc/dd9/a23914.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
+    [ "npc_shattrathflaskvendors", "dc/dd9/a23914.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "dc/dd9/a23914.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "dc/dd9/a23914.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

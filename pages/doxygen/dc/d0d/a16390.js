@@ -1,10 +1,8 @@
 var a16390 =
 [
-    [ "boss_tharon_jaAI", "dc/d0d/a16390.html#a03025fa529e932f23479ff19b0cd8238", null ],
-    [ "DoAction", "dc/d0d/a16390.html#a655fd83c2d671847fea9ae393c132fb9", null ],
-    [ "JustDied", "dc/d0d/a16390.html#a7928b5db061f1073e1decc2d40601195", null ],
-    [ "JustEngagedWith", "dc/d0d/a16390.html#aab194a8f802eeb625d1a74960acbe154", null ],
-    [ "KilledUnit", "dc/d0d/a16390.html#a41e929a3768768eb06bafdee3269fd24", null ],
-    [ "Reset", "dc/d0d/a16390.html#a272e8565a9b00a27505b301d52814eee", null ],
-    [ "UpdateAI", "dc/d0d/a16390.html#a6f482cabcb0bd56711878a5ea297b950", null ]
+    [ "npc_fos_leaderAI", "dc/d0d/a16390.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
+    [ "DoAction", "dc/d0d/a16390.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
+    [ "Reset", "dc/d0d/a16390.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
+    [ "UpdateAI", "dc/d0d/a16390.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
+    [ "events", "dc/d0d/a16390.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
 ];

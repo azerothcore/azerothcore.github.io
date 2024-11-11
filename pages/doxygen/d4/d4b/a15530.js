@@ -1,12 +1,7 @@
 var a15530 =
 [
-    [ "npc_twilight_volunteer", "d4/d4b/a15530.html#a3062041fcabf972e0a3d4753363c37b3", null ],
-    [ "AttackStart", "d4/d4b/a15530.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
-    [ "DoAction", "d4/d4b/a15530.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
-    [ "EnterEvadeMode", "d4/d4b/a15530.html#abd88e6fe0565babb92ccae17df0421d6", null ],
-    [ "MovementInform", "d4/d4b/a15530.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
-    [ "UpdateAI", "d4/d4b/a15530.html#a93288a45982b172c201e2442a4c91114", null ],
-    [ "events", "d4/d4b/a15530.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
-    [ "isSacraficeTarget", "d4/d4b/a15530.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
-    [ "pInstance", "d4/d4b/a15530.html#ad58453e078520fa23238a96115e5f38f", null ]
+    [ "instance_azjol_nerub_InstanceScript", "d4/d4b/a15530.html#a886ed4c1485fdedcc176341210eee31a", null ],
+    [ "OnCreatureCreate", "d4/d4b/a15530.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
+    [ "OnGameObjectCreate", "d4/d4b/a15530.html#a1ef3dc88400345998d03f3c993b9a181", null ],
+    [ "OnGameObjectRemove", "d4/d4b/a15530.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
 ];

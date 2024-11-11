@@ -1,8 +1,12 @@
 var a16458 =
 [
-    [ "npc_fos_corrupted_soul_fragmentAI", "d5/d84/a16458.html#a61797329ecddde6da2e23e951fa92ca2", null ],
-    [ "Reset", "d5/d84/a16458.html#a5bb03371b24593ca2de995bf85857782", null ],
-    [ "UpdateAI", "d5/d84/a16458.html#ac6e651186c5edfd8e5279ddd38a15eb9", null ],
-    [ "pInstance", "d5/d84/a16458.html#a6ced23b3b4150b31020a636559d6eec6", null ],
-    [ "timer", "d5/d84/a16458.html#aa19c9928e3979bb01d89dc81b8feb4fc", null ]
+    [ "npc_phantom_mageAI", "d5/d84/a16458.html#ac919dc1ba167cc68714320f9351b99d0", null ],
+    [ "AttackStart", "d5/d84/a16458.html#ade9ba7071cff655f2c0133481cb9c2bc", null ],
+    [ "DoAction", "d5/d84/a16458.html#a6c66df8b8e59a9dc62f1f944da2afc2c", null ],
+    [ "EnterEvadeMode", "d5/d84/a16458.html#a6ca0be233e8866b6154fa6e7164b856d", null ],
+    [ "JustDied", "d5/d84/a16458.html#a3a522e4c741bc321469ed87c10cf7904", null ],
+    [ "JustEngagedWith", "d5/d84/a16458.html#a5a1bf4aaf716674a63e31d24ae4a5d7c", null ],
+    [ "Reset", "d5/d84/a16458.html#a5c29c8d54956a0917df3997118348590", null ],
+    [ "UpdateAI", "d5/d84/a16458.html#a7135acfbc36212306a68fc8b758e2881", null ],
+    [ "events", "d5/d84/a16458.html#afa0f0b5cac0759db324cea7c64463f75", null ]
 ];

@@ -1,6 +1,8 @@
 var a18010 =
 [
-    [ "ModDest", "de/d29/a18010.html#a71638bdecb0f580dceff7858441056d8", null ],
-    [ "PrepareSpellScript", "de/d29/a18010.html#a741227928e07585b156ec716ae8b13da", null ],
-    [ "Register", "de/d29/a18010.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
+    [ "npc_lk_wicked_spiritAI", "de/d29/a18010.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
+    [ "CanAIAttack", "de/d29/a18010.html#ae094420b1a6e134632baa0b086c806c6", null ],
+    [ "JustDied", "de/d29/a18010.html#adf153fab1c8639b2b5790ed418afb85d", null ],
+    [ "JustRespawned", "de/d29/a18010.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
+    [ "Reset", "de/d29/a18010.html#a8b15079251b6855679d738a342126006", null ]
 ];

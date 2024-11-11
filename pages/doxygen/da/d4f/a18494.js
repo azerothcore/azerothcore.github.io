@@ -1,6 +1,6 @@
 var a18494 =
 [
-    [ "npc_icc_valkyr_heraldAI", "d5/d0b/a18498.html", "d5/d0b/a18498" ],
-    [ "npc_icc_valkyr_herald", "da/d4f/a18494.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
-    [ "GetAI", "da/d4f/a18494.html#a7537269841d0380d2dc9e4641705acf9", null ]
+    [ "npc_isle_of_conquest_turretAI", "d5/d0b/a18498.html", "d5/d0b/a18498" ],
+    [ "npc_isle_of_conquest_turret", "da/d4f/a18494.html#ac080845203adef25e6841133b7e2f4dc", null ],
+    [ "GetAI", "da/d4f/a18494.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
 ];

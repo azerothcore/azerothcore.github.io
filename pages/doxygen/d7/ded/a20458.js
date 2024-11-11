@@ -1,6 +1,7 @@
 var a20458 =
 [
-    [ "npc_xt002_life_sparkAI", "dd/d2e/a20462.html", "dd/d2e/a20462" ],
-    [ "npc_xt002_life_spark", "d7/ded/a20458.html#a9644718d192708e391b833468a0ff21e", null ],
-    [ "GetAI", "d7/ded/a20458.html#a09a1ce332d55fad146947c94bb53f564", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "d7/ded/a20458.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
+    [ "DoAction", "d7/ded/a20458.html#abac26b3be775eea734403be36cbed4d2", null ],
+    [ "SelectCorruptionTarget", "d7/ded/a20458.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
+    [ "UpdateAI", "d7/ded/a20458.html#a0269d1dc655af5680d7074cb093740b8", null ]
 ];

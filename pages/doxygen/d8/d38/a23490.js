@@ -1,7 +1,6 @@
 var a23490 =
 [
-    [ "AfterApply", "d8/d38/a23490.html#a0ba88b8ed8cfd0afa1de500a7a8d74b5", null ],
-    [ "PrepareAuraScript", "d8/d38/a23490.html#aa98346e5f5b23fe016148426a19a719f", null ],
-    [ "Register", "d8/d38/a23490.html#ac0edcddf6c38b933c868dbe0535f143a", null ],
-    [ "Validate", "d8/d38/a23490.html#a616d1758aa257140f4941fe12ef21e87", null ]
+    [ "HandleBeforeCast", "d8/d38/a23490.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
+    [ "PrepareSpellScript", "d8/d38/a23490.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
+    [ "Register", "d8/d38/a23490.html#a45ae470002052c87d5270e3556f0e706", null ]
 ];

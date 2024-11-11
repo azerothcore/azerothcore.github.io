@@ -1,8 +1,7 @@
 var a18638 =
 [
-    [ "HandleScript", "d9/dab/a18638.html#ae0d16607f9eb3ff233513233bfb573ea", null ],
-    [ "HandleScript2", "d9/dab/a18638.html#a3ff7d46323da70df6ad11ddfcaf6cfbb", null ],
-    [ "Load", "d9/dab/a18638.html#ad41decc0a264104ca2232aef4e71cdaf", null ],
-    [ "PrepareSpellScript", "d9/dab/a18638.html#a2d1dbae570206b358878020879708000", null ],
-    [ "Register", "d9/dab/a18638.html#a7cf32445caa09f2a2b3c52f68f315ba5", null ]
+    [ "HandleRemove", "d9/dab/a18638.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
+    [ "PrepareAuraScript", "d9/dab/a18638.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
+    [ "Register", "d9/dab/a18638.html#ad7ba015a7878adad0820cf378d2632ca", null ],
+    [ "Validate", "d9/dab/a18638.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
 ];

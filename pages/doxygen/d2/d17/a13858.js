@@ -1,6 +1,7 @@
 var a13858 =
 [
-    [ "npc_brewfest_keg_reciver", "d2/d17/a13858.html#af12e7608f3f715650e6c265ac18920e4", null ],
-    [ "MoveInLineOfSight", "d2/d17/a13858.html#ae719a770598c6347d4ee6b9e77d30eae", null ],
-    [ "sGossipSelect", "d2/d17/a13858.html#ad56ba9921e94cbd4ba1d6c1ddd1efe24", null ]
+    [ "PeriodicTick", "d2/d17/a13858.html#ac8b584ffbb1a8787f70370d94586ed77", null ],
+    [ "PrepareAuraScript", "d2/d17/a13858.html#a4e860850bbab0f14eb8a160bb5e6799e", null ],
+    [ "Register", "d2/d17/a13858.html#a5def2685cedc4fb78c1a5c534c764ee9", null ],
+    [ "Validate", "d2/d17/a13858.html#a68247c2afa553411fac34582e83635c9", null ]
 ];

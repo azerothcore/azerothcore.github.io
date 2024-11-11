@@ -1,6 +1,5 @@
 var a13310 =
 [
-    [ "npc_grand_magister_rommathAI", "d9/d3b/a13314.html", "d9/d3b/a13314" ],
-    [ "npc_grand_magister_rommath", "db/d65/a13310.html#a63b9786bfbd9c7b462b0549e2f6941ea", null ],
-    [ "GetAI", "db/d65/a13310.html#abd64eff4712e8209e39e938b1813250c", null ]
+    [ "npc_tyrion", "db/d65/a13310.html#a85b1abd4910729c17099174def6507b1", null ],
+    [ "OnQuestAccept", "db/d65/a13310.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
 ];

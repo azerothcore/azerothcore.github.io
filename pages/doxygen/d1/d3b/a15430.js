@@ -1,5 +1,6 @@
 var a15430 =
 [
-    [ "go_elune_fire", "d1/d3b/a15430.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
-    [ "OnGossipHello", "d1/d3b/a15430.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
+    [ "ModDestHeight", "d1/d3b/a15430.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "d1/d3b/a15430.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "d1/d3b/a15430.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

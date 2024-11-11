@@ -1,10 +1,9 @@
 var a23686 =
 [
-    [ "npc_raging_flames", "db/d17/a23686.html#aa2cc5c8af07c202a7f0fab1af259a0db", null ],
-    [ "EnterEvadeMode", "db/d17/a23686.html#a24a878560153dcf9cf5282c6d0a8f7f0", null ],
-    [ "FixateRandomTarget", "db/d17/a23686.html#a0e015aa73efdafb1bb9683b2f3c1ba34", null ],
-    [ "InitializeAI", "db/d17/a23686.html#a96d3a8ef364dc6bc3f15ffc82b14c4c0", null ],
-    [ "IsSummonedBy", "db/d17/a23686.html#ae42c4329be355807af92c1c803e61500", null ],
-    [ "Reset", "db/d17/a23686.html#a34ac2249e507784d81c4040e87a646e0", null ],
-    [ "UpdateAI", "db/d17/a23686.html#a3e4feafe10e59ad9cb1d2275dc7954b0", null ]
+    [ "npc_wounded_blood_elfAI", "db/d17/a23686.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
+    [ "JustEngagedWith", "db/d17/a23686.html#aba950ba77ff71508263cc54b28c7725b", null ],
+    [ "JustSummoned", "db/d17/a23686.html#aa97f5294981c44b530efca1411458a97", null ],
+    [ "Reset", "db/d17/a23686.html#a8e6be35a3079998f3bab829f5d963c71", null ],
+    [ "sQuestAccept", "db/d17/a23686.html#a56c157928c24daae6edacd5a126ef171", null ],
+    [ "WaypointReached", "db/d17/a23686.html#a5affcb00e28a582f8926ab2226001cd0", null ]
 ];

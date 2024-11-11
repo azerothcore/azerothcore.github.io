@@ -1,5 +1,6 @@
 var a24618 =
 [
-    [ "PrepareSpellScript", "da/dd9/a24618.html#a41169895bb29fe136e3fb0c2dd50d9fb", null ],
-    [ "Register", "da/dd9/a24618.html#ab6a32b26cc0277f71a71b9fd1d567bf1", null ]
+    [ "HandleScriptEffect", "da/dd9/a24618.html#af8f2f4c4459204aa766a41dc4003581c", null ],
+    [ "PrepareSpellScript", "da/dd9/a24618.html#a687f10fa34894cb497a2ce3369fd83ef", null ],
+    [ "Register", "da/dd9/a24618.html#a034e52b435b6f4586084cb831e162c40", null ]
 ];

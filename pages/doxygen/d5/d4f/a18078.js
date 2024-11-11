@@ -1,7 +1,7 @@
 var a18078 =
 [
-    [ "HandleProc", "d5/d4f/a18078.html#af06730a865009127c7d3e5423afd4d44", null ],
-    [ "PrepareAuraScript", "d5/d4f/a18078.html#a71a81a19a0c543a4aa43d6bf002b7bb9", null ],
-    [ "Register", "d5/d4f/a18078.html#a6c97b787ce00491a259c575d26189f8c", null ],
-    [ "Validate", "d5/d4f/a18078.html#aed9c98e20d916359629e119d6dd2a94f", null ]
+    [ "npc_valithria_portalAI", "d5/d4f/a18078.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
+    [ "GetData", "d5/d4f/a18078.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
+    [ "OnSpellClick", "d5/d4f/a18078.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
+    [ "_used", "d5/d4f/a18078.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
 ];

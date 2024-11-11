@@ -1,7 +1,10 @@
 var a25026 =
 [
-    [ "PrepareAuraScript", "df/d39/a25026.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "df/d39/a25026.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "df/d39/a25026.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "df/d39/a25026.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "CheckProc", "df/d39/a25026.html#a8a7a0ac560eecc3777087622fb3f3951", null ],
+    [ "HandleProc", "df/d39/a25026.html#a90eee01f380f97f033c82d7c6ec48d00", null ],
+    [ "OnApply", "df/d39/a25026.html#a93818ec97cfd47da1dee454bb0a9318c", null ],
+    [ "OnRemove", "df/d39/a25026.html#a5e978d4d46f42ba5098eaecd9473fccb", null ],
+    [ "PrepareAuraScript", "df/d39/a25026.html#a73ae8e378b906a420955fd33d02ba6b7", null ],
+    [ "Register", "df/d39/a25026.html#a7070f64c9c47c8c1bc26e49b2b60a110", null ],
+    [ "Validate", "df/d39/a25026.html#a91c5a0e10c308332e18dc40033049996", null ]
 ];

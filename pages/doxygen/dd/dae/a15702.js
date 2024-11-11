@@ -1,6 +1,8 @@
 var a15702 =
 [
-    [ "instance_obsidian_sanctum_InstanceMapScript", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
-    [ "instance_obsidian_sanctum", "dd/dae/a15702.html#a6cf2121c4167156f5748c144372b3c0b", null ],
-    [ "GetInstanceScript", "dd/dae/a15702.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
+    [ "OnApply", "dd/dae/a15702.html#a96321003a002be0e4838901f03f8a5d8", null ],
+    [ "OnRemove", "dd/dae/a15702.html#af616afe7bf87eb7fdb44bf15e9ad85d4", null ],
+    [ "PrepareAuraScript", "dd/dae/a15702.html#ae5c880210cb50cf5320ee3595791eaa8", null ],
+    [ "Register", "dd/dae/a15702.html#aaa2a16cff2e9aae77cdc1bb75c38f26a", null ],
+    [ "Validate", "dd/dae/a15702.html#ad09a31813a7a03f8abf6dc9c151bb002", null ]
 ];

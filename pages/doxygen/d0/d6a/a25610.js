@@ -1,6 +1,12 @@
 var a25610 =
 [
-    [ "HandleDummy", "d0/d6a/a25610.html#af306009f2c418e898478720b9c4ad6ab", null ],
-    [ "PrepareSpellScript", "d0/d6a/a25610.html#a44cb481fe93fd1c691495cc1ead35e5e", null ],
-    [ "Register", "d0/d6a/a25610.html#af51e3b3cbfb469fa6230a36d8d5fcec7", null ]
+    [ "CalcPeriodic", "d0/d6a/a25610.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "d0/d6a/a25610.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "d0/d6a/a25610.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "d0/d6a/a25610.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "d0/d6a/a25610.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "d0/d6a/a25610.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "d0/d6a/a25610.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "d0/d6a/a25610.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "d0/d6a/a25610.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

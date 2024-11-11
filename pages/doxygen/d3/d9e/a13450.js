@@ -1,10 +1,7 @@
 var a13450 =
 [
-    [ "npc_lady_sylvanas_windrunner_bfuAI", "d3/d9e/a13450.html#af7d495f489979690615d091bbd9d539b", null ],
-    [ "CanAIAttack", "d3/d9e/a13450.html#af332a66852c9499912d8ef4959f394f5", null ],
-    [ "InitializeAI", "d3/d9e/a13450.html#a66fcb4b5130ff03f1926eec3b4d9ff6a", null ],
-    [ "JustRespawned", "d3/d9e/a13450.html#a70b83dd31e8a8214b5d09f9a4ca7347a", null ],
-    [ "Reset", "d3/d9e/a13450.html#a2c5e519bd2a1699b74811c92bb217d20", null ],
-    [ "UpdateAI", "d3/d9e/a13450.html#ae1e9308f730ac948f96d4fceba914cdb", null ],
-    [ "_events", "d3/d9e/a13450.html#a7078f4c552f741afdc8ecbd1746e31c4", null ]
+    [ "HandleDispel", "d3/d9e/a13450.html#a415977576283972ce4a1050c70826d7c", null ],
+    [ "PrepareAuraScript", "d3/d9e/a13450.html#a95dfbfe631e8ec9213a32c6f52d3feb1", null ],
+    [ "Register", "d3/d9e/a13450.html#a1bbb71eeb2273c2ecd0eb774b68735dc", null ],
+    [ "Validate", "d3/d9e/a13450.html#ac496e7bef875ca46660217e74fc3bc74", null ]
 ];

@@ -1,6 +1,7 @@
 var a25186 =
 [
-    [ "CheckCast", "d6/da6/a25186.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
-    [ "PrepareSpellScript", "d6/da6/a25186.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
-    [ "Register", "d6/da6/a25186.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
+    [ "HandleScriptEffect", "d6/da6/a25186.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf", null ],
+    [ "Load", "d6/da6/a25186.html#af89783564da25769be15e22291717f6a", null ],
+    [ "PrepareSpellScript", "d6/da6/a25186.html#a1e7e4137712fcaa378d1ac7ff1b0a6c7", null ],
+    [ "Register", "d6/da6/a25186.html#addbe722d9f3727578f817789e3010bab", null ]
 ];

@@ -1,15 +1,6 @@
 var a00362 =
 [
-    [ "frand", "de/dd7/a00362.html#a19bd31014583536af788a65b398e4406", null ],
-    [ "GetRng", "de/dd7/a00362.html#a8602a67daa881e92c3eb9204c88b7733", null ],
-    [ "irand", "de/dd7/a00362.html#a6ae07d2bb0593d8339e65c136f63ecc0", null ],
-    [ "rand32", "de/dd7/a00362.html#ac699324b85bb2266ea8978796967c541", null ],
-    [ "rand_chance", "de/dd7/a00362.html#a66621d09a8cc2aa9476391004fe2c427", null ],
-    [ "rand_norm", "de/dd7/a00362.html#af2f9363ceebb6f78067b4a146d1de9df", null ],
-    [ "randtime", "de/dd7/a00362.html#a9ecda65ea9686c86f47934d04d38ec69", null ],
-    [ "urand", "de/dd7/a00362.html#ab17def34ccbbd868dc87a16bf35acdbd", null ],
-    [ "urandms", "de/dd7/a00362.html#af901d57f29ff48f701a375e44a0f1261", null ],
-    [ "urandweighted", "de/dd7/a00362.html#a3f7e714c8fc3a6f6ccbe91d524a84f23", null ],
-    [ "engine", "de/dd7/a00362.html#a8ab11e2fa939d9f333dfa1a858e7690b", null ],
-    [ "sfmtRand", "de/dd7/a00362.html#a131ba7587aa544a7e73ff9884d6bc784", null ]
+    [ "GetRandomBytes", "de/dd7/a00362.html#ab09d7cc2f8e11fc5fe6b2323d57b7184", null ],
+    [ "GetRandomBytes", "de/dd7/a00362.html#a797cfc74306f60b5c63eecb37a2061d3", null ],
+    [ "GetRandomBytes", "de/dd7/a00362.html#a2ff283a7b883696205a91f122b194f6f", null ]
 ];

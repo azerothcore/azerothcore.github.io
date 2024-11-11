@@ -1,7 +1,7 @@
 var a15506 =
 [
-    [ "HandleDummy", "d6/d5e/a15506.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
-    [ "PrepareSpellScript", "d6/d5e/a15506.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
-    [ "Register", "d6/d5e/a15506.html#a4359ad73b513a368509a066a039ddf53", null ],
-    [ "_targetCount", "d6/d5e/a15506.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
+    [ "HandleEffectRemove", "d6/d5e/a15506.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
+    [ "PrepareAuraScript", "d6/d5e/a15506.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
+    [ "Register", "d6/d5e/a15506.html#a7c0533650e772713233ea45b0264cbff", null ],
+    [ "Validate", "d6/d5e/a15506.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
 ];

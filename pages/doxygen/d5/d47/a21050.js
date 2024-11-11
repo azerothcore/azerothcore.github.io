@@ -1,14 +1,18 @@
 var a21050 =
 [
-    [ "boss_cyanigosaAI", "d5/d47/a21050.html#a4b24132889b17b3e682a15009a1ae910", null ],
-    [ "EnterEvadeMode", "d5/d47/a21050.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
-    [ "JustDied", "d5/d47/a21050.html#a805117db567dd3d529a1c862bc24179c", null ],
-    [ "JustEngagedWith", "d5/d47/a21050.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
-    [ "KilledUnit", "d5/d47/a21050.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
-    [ "MoveInLineOfSight", "d5/d47/a21050.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
-    [ "Reset", "d5/d47/a21050.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
-    [ "SpellHitTarget", "d5/d47/a21050.html#ae8218b69e6dc7489e65d891048d84da1", null ],
-    [ "UpdateAI", "d5/d47/a21050.html#ae69afba77636c962045160b610177bd9", null ],
-    [ "events", "d5/d47/a21050.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
-    [ "pInstance", "d5/d47/a21050.html#a075f4a592202dc73d9b5d63ca5178093", null ]
+    [ "violet_hold_trashAI", "d5/d47/a21050.html#a87011739810f39291655bc835f9995bd", null ],
+    [ "AttackStart", "d5/d47/a21050.html#ab2d2157977ae2482217fa8ac344b30af", null ],
+    [ "ClearDoorSealAura", "d5/d47/a21050.html#ad0c756eb5bef8036cb47ebcc9e6915df", null ],
+    [ "CreatureStartAttackDoor", "d5/d47/a21050.html#a1e64a9f7c82275969e099b5012a32924", null ],
+    [ "EnterEvadeMode", "d5/d47/a21050.html#ab189607a468514d6c472ac40e6f3d85b", null ],
+    [ "JustDied", "d5/d47/a21050.html#acd512cd3722a2edf0ca539272ded3c79", null ],
+    [ "JustEngagedWith", "d5/d47/a21050.html#a16e7677aa9597dda938a67c51febde6c", null ],
+    [ "JustReachedHome", "d5/d47/a21050.html#ae98d0cd977d59cbfe567fa6e294cde7e", null ],
+    [ "MoveInLineOfSight", "d5/d47/a21050.html#ab0e73a03d6e36a35eb393127bce3dad3", null ],
+    [ "UpdateAI", "d5/d47/a21050.html#a8647797343650fcd4f6304bce3742883", null ],
+    [ "WaypointReached", "d5/d47/a21050.html#ac218e3761b79d4d8186ad8d12e0d0b57", null ],
+    [ "bAddedWP", "d5/d47/a21050.html#ad2e8841054cece73bdc7c2e7782c96a8", null ],
+    [ "bAlt", "d5/d47/a21050.html#ad84ecad1a57f0af44af2795a252d2214", null ],
+    [ "pInstance", "d5/d47/a21050.html#a0a5f5b86cd54c28a828db2ac3e83126b", null ],
+    [ "PLoc", "d5/d47/a21050.html#a9e9ca535b9d2fa1b246975f984c96998", null ]
 ];

@@ -1,6 +1,11 @@
 var a12554 =
 [
-    [ "npc_scarlet_ghoulAI", "df/dda/a12558.html", "df/dda/a12558" ],
-    [ "npc_scarlet_ghoul", "d5/da1/a12554.html#aa58b0d1c3fb411cac184bc1fc50f4fb3", null ],
-    [ "GetAI", "d5/da1/a12554.html#a88d2639b1a4f087d3e1b95475a094d21", null ]
+    [ "npc_scarlet_ghoulAI", "d5/da1/a12554.html#a194795143717de5aa8f0ca4c4e516136", null ],
+    [ "InitializeAI", "d5/da1/a12554.html#ad0fd204d15350332508b0c9d9decefb1", null ],
+    [ "MovementInform", "d5/da1/a12554.html#a9836c91a7dede1fabd1e0a9523ebd26a", null ],
+    [ "OwnerAttackedBy", "d5/da1/a12554.html#a5b0afc1f2ee57a1cc5e30b8e997ba218", null ],
+    [ "SetGUID", "d5/da1/a12554.html#a832602498643a03087efbc0a5a2f81c3", null ],
+    [ "UpdateAI", "d5/da1/a12554.html#adbe4d539552e7954c7bdb8e520cb9783", null ],
+    [ "events", "d5/da1/a12554.html#a105ac0982d28be590d514d2e452109c0", null ],
+    [ "gothikGUID", "d5/da1/a12554.html#ab5efaf2e030f92d7ab45de8b5d19804d", null ]
 ];

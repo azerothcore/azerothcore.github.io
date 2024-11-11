@@ -1,7 +1,7 @@
 var a13334 =
 [
-    [ "npc_deathstalker_erlandAI", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
-    [ "npc_deathstalker_erland", "df/d68/a13334.html#ad49faf068e982f245f0d1e21f0700c40", null ],
-    [ "GetAI", "df/d68/a13334.html#ab59235f212ddb985056cb8e32719b723", null ],
-    [ "OnQuestAccept", "df/d68/a13334.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
+    [ "o", "df/d68/a13334.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
+    [ "x", "df/d68/a13334.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
+    [ "y", "df/d68/a13334.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
+    [ "z", "df/d68/a13334.html#abf42d988d416ebe409100c4b860d26db", null ]
 ];

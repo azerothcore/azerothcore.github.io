@@ -1,9 +1,6 @@
 var a20802 =
 [
-    [ "npc_vrykul_skeletonAI", "d9/d04/a20802.html#a06b3f450485e9e90c91b1e9f5c41a2bd", null ],
-    [ "DamageTaken", "d9/d04/a20802.html#aeed85c443bd29c74aeb768e1f93b7006", null ],
-    [ "Reset", "d9/d04/a20802.html#a30a56c6c5e8509f692100aa02c691481", null ],
-    [ "UpdateAI", "d9/d04/a20802.html#ab8c18176fbe84f12ca5a63f99d66d394", null ],
-    [ "events", "d9/d04/a20802.html#aa797776c850ef3480f30a1551cdb878b", null ],
-    [ "pInstance", "d9/d04/a20802.html#a87c7c6a427a21c745fcfd3ff804f38d6", null ]
+    [ "boss_skadi_graufAI", "db/dff/a20806.html", "db/dff/a20806" ],
+    [ "boss_skadi_grauf", "d9/d04/a20802.html#a571db2d2ae21f38b7051319da0f042f6", null ],
+    [ "GetAI", "d9/d04/a20802.html#a9b637a93a572d21691b81b80ec45206d", null ]
 ];

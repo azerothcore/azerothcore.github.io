@@ -1,12 +1,9 @@
 var a22486 =
 [
-    [ "npc_maiev_illidan", "d2/dad/a22486.html#a0d19d9bb58c44662cdfb66a8fe373a60", null ],
-    [ "DamageTaken", "d2/dad/a22486.html#a780cc558c483efa3293d798cc6048a33", null ],
-    [ "DoAction", "d2/dad/a22486.html#a53607a158edf8fd772908b5d7af6edf1", null ],
-    [ "IsSummonedBy", "d2/dad/a22486.html#a1bf4f2f29132c5132e7903d089ace6e2", null ],
-    [ "JustEngagedWith", "d2/dad/a22486.html#ad1728d7d8b1b5f9db8db4d811c2ba630", null ],
-    [ "Reset", "d2/dad/a22486.html#a100db757c89634a58b9382216e2791ec", null ],
-    [ "SpellHit", "d2/dad/a22486.html#aa4d6626d6130a88519f86cfe70d9fb95", null ],
-    [ "UpdateAI", "d2/dad/a22486.html#a269e4a8f79b508e2da61cd5e2dc34664", null ],
-    [ "instance", "d2/dad/a22486.html#ad41b6deb9406232629ad60ba66cfac6b", null ]
+    [ "HandleAfterCast", "d2/dad/a22486.html#ae83f0cd423597b1c1e2bc1619d24fb1e", null ],
+    [ "HandleDummy", "d2/dad/a22486.html#ae94594e337c2e0e6864f3723df8349bf", null ],
+    [ "Load", "d2/dad/a22486.html#a301008eff6b13a43070b3916925391ae", null ],
+    [ "PrepareSpellScript", "d2/dad/a22486.html#a6068412ee3d78192cc0ff735fd4e93ed", null ],
+    [ "Register", "d2/dad/a22486.html#a253f9b428351519cbd4ee5c2341ea0c4", null ],
+    [ "_targetCount", "d2/dad/a22486.html#ac16cb2696c4e72195de7ebddd072b3c4", null ]
 ];

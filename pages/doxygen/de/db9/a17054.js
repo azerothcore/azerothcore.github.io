@@ -1,6 +1,6 @@
 var a17054 =
 [
-    [ "PrepareSpellScript", "de/db9/a17054.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
-    [ "Register", "de/db9/a17054.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
-    [ "SetDest", "de/db9/a17054.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
+    [ "PrepareAuraScript", "de/db9/a17054.html#abbcd0a9a63908a875bcdbc66fb5e1218", null ],
+    [ "RecalculateHook", "de/db9/a17054.html#a829e96cabbb565922f7183adb3edf13c", null ],
+    [ "Register", "de/db9/a17054.html#a7ded7cbe8c5cbffd6798bbb66d8a5d1a", null ]
 ];

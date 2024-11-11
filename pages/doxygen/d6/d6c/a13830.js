@@ -1,6 +1,7 @@
 var a13830 =
 [
-    [ "boss_wushoolayAI", "dd/dab/a13834.html", "dd/dab/a13834" ],
-    [ "boss_wushoolay", "d6/d6c/a13830.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
-    [ "GetAI", "d6/d6c/a13830.html#a70b476358956fd05d6effb75517e2b3d", null ]
+    [ "npc_direbrew_minion", "d6/d6c/a13830.html#aaac7d1b1a464ea7ff1ec18ace11d54b7", null ],
+    [ "IsSummonedBy", "d6/d6c/a13830.html#a78d40e0f2a285b0b9c257f12876eabeb", null ],
+    [ "Reset", "d6/d6c/a13830.html#a21fb7a778e9025ca4185951460a96d08", null ],
+    [ "_instance", "d6/d6c/a13830.html#aeea9f455c014afa347ce0c3f106ebdb6", null ]
 ];

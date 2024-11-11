@@ -1,11 +1,12 @@
 var a13258 =
 [
-    [ "npc_supervisor_raelen", "d7/d7b/a13258.html#a2059d41f6df3a44406ab69a0dca501a4", null ],
-    [ "CallPeasent", "d7/d7b/a13258.html#a0b8d661a86ec334adeb502d6936135ee", null ],
-    [ "Reset", "d7/d7b/a13258.html#a656029c56da84d2d3cee7380d6032e3d", null ],
-    [ "SetData", "d7/d7b/a13258.html#ab709a5a975c22556dfe71dce52a3ec2c", null ],
-    [ "UpdateAI", "d7/d7b/a13258.html#a623a95d4f3ca483d1bf3dff5e06c1958", null ],
-    [ "_events", "d7/d7b/a13258.html#a1ed36b07ff83a6a8a202f4a451d90190", null ],
-    [ "_PeasentId", "d7/d7b/a13258.html#ae3e44b8f29f05c771137c5b9afd5da56", null ],
-    [ "peasentGUIDs", "d7/d7b/a13258.html#a6e290a29c8205b22bd668f0516e8904a", null ]
+    [ "npc_corporal_keeshanAI", "d7/d7b/a13258.html#aac5b72ede6e1496f80c4c2520e886efd", null ],
+    [ "Reset", "d7/d7b/a13258.html#a311488932a3de9153490d41e3fae92fb", null ],
+    [ "sQuestAccept", "d7/d7b/a13258.html#a52dd95c74b1457ad5b496b28fd183b06", null ],
+    [ "UpdateAI", "d7/d7b/a13258.html#a973cf65978e531dc8bd7db20fc2809b6", null ],
+    [ "WaypointReached", "d7/d7b/a13258.html#a3edc9ab54068e47f955116db70454f6c", null ],
+    [ "mockingBlowTimer", "d7/d7b/a13258.html#a21cd1ca86864b8507d43e5a1c4c13e0c", null ],
+    [ "phase", "d7/d7b/a13258.html#ae79dcfdb10738d673e8c1aebc6abdee6", null ],
+    [ "shieldBashTimer", "d7/d7b/a13258.html#abb5eaa25a77dd3e6dfff7aaa0aa6c375", null ],
+    [ "timer", "d7/d7b/a13258.html#a3107368f175aa7f4e8c405248ef917df", null ]
 ];

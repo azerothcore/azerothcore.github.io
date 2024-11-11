@@ -1,6 +1,6 @@
 var a18606 =
 [
-    [ "npc_four_car_garageAI", "df/d97/a18610.html", "df/d97/a18610" ],
-    [ "npc_four_car_garage", "dd/d71/a18606.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "dd/d71/a18606.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "npc_gothik_triggerAI", "df/d97/a18610.html", "df/d97/a18610" ],
+    [ "npc_gothik_trigger", "dd/d71/a18606.html#a6975122d49b0d76fb2b33b310a7ccb71", null ],
+    [ "GetAI", "dd/d71/a18606.html#a9b3b47e95d2c41c109a9ccd3915b89ff", null ]
 ];

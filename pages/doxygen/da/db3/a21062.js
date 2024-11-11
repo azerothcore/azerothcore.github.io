@@ -1,6 +1,6 @@
 var a21062 =
 [
-    [ "npc_erekem_guardAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
-    [ "npc_erekem_guard", "da/db3/a21062.html#a78592996e90f77f81eec0325a7f11956", null ],
-    [ "GetAI", "da/db3/a21062.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
+    [ "npc_azure_binderAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
+    [ "npc_azure_binder", "da/db3/a21062.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
+    [ "GetAI", "da/db3/a21062.html#aad091206a8bd06a1064b68b81510eb56", null ]
 ];

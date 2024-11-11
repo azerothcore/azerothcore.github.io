@@ -1,4 +1,4 @@
 var a00437 =
 [
-    [ "MessageBuffer", "d3/d73/a05382.html", "d3/d73/a05382" ]
+    [ "ObjectRegistry< T, Key >", "d2/d3d/a05146.html", "d2/d3d/a05146" ]
 ];

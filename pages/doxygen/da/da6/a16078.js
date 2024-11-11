@@ -1,6 +1,6 @@
 var a16078 =
 [
-    [ "npc_toc_druidAI", "d4/db8/a16082.html", "d4/db8/a16082" ],
-    [ "npc_toc_druid", "da/da6/a16078.html#a07321d5ee164b8e47f652f9bad65216b", null ],
-    [ "GetAI", "da/da6/a16078.html#a4f33e8f3649c0b398448cd01666cf92b", null ]
+    [ "npc_toc_retro_paladinAI", "d4/db8/a16082.html", "d4/db8/a16082" ],
+    [ "npc_toc_retro_paladin", "da/da6/a16078.html#abfb15148aefe186447cfdb3a2c8749c4", null ],
+    [ "GetAI", "da/da6/a16078.html#a1213c99792aa4362275bc827aa2f037e", null ]
 ];

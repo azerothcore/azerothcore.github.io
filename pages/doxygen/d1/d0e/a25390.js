@@ -1,7 +1,8 @@
 var a25390 =
 [
-    [ "HandleProc", "d1/d0e/a25390.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
-    [ "PrepareAuraScript", "d1/d0e/a25390.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
-    [ "Register", "d1/d0e/a25390.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
-    [ "Validate", "d1/d0e/a25390.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
+    [ "OnRemove", "d1/d0e/a25390.html#a645e869079e711a87f1a957b42a35e98", null ],
+    [ "OnStackChange", "d1/d0e/a25390.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
+    [ "PrepareAuraScript", "d1/d0e/a25390.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
+    [ "Register", "d1/d0e/a25390.html#ac86068a892255e38244c487a7456cd9f", null ],
+    [ "Validate", "d1/d0e/a25390.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
 ];

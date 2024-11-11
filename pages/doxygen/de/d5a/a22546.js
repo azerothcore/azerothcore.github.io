@@ -1,7 +1,6 @@
 var a22546 =
 [
-    [ "HandleDummy", "de/d5a/a22546.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
-    [ "PrepareSpellScript", "de/d5a/a22546.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
-    [ "Register", "de/d5a/a22546.html#af5926d8570de13e66aa1870184620b94", null ],
-    [ "Validate", "de/d5a/a22546.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
+    [ "boss_essence_of_sufferingAI", "d6/d1a/a22550.html", "d6/d1a/a22550" ],
+    [ "boss_essence_of_suffering", "de/d5a/a22546.html#a1237f428657f0e9a0218695264358384", null ],
+    [ "GetAI", "de/d5a/a22546.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
 ];

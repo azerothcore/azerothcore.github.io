@@ -1,6 +1,7 @@
 var a18346 =
 [
-    [ "npc_captain_rupertAI", "dc/dcc/a18350.html", "dc/dcc/a18350" ],
-    [ "npc_captain_rupert", "d7/d9f/a18346.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
-    [ "GetAI", "d7/d9f/a18346.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
+    [ "HandleEffectPeriodic", "d7/d9f/a18346.html#a57615f1d8b891ab5a5c01de1543235cb", null ],
+    [ "PrepareAuraScript", "d7/d9f/a18346.html#ae040da0db1147652266e1f373838df37", null ],
+    [ "Register", "d7/d9f/a18346.html#ab11b84522134ee4d13504df3c19f69b8", null ],
+    [ "Validate", "d7/d9f/a18346.html#af3c3c90256913ffe188c11a21fc2dcc8", null ]
 ];

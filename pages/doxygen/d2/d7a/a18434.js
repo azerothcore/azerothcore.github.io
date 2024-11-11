@@ -1,7 +1,6 @@
 var a18434 =
 [
-    [ "OnRemove", "d2/d7a/a18434.html#ac71e6f5a9e3a7c96b4e4bd1a296d0d8d", null ],
-    [ "PrepareAuraScript", "d2/d7a/a18434.html#acf654e563f47df9ad033d7080f47662b", null ],
-    [ "Register", "d2/d7a/a18434.html#aad4497ba7cad48b9547e8696714d8c23", null ],
-    [ "Validate", "d2/d7a/a18434.html#ae5e187cb481849343e777b0bf0ffdf24", null ]
+    [ "npc_icc_gauntlet_controllerAI", "de/d03/a18438.html", "de/d03/a18438" ],
+    [ "npc_icc_gauntlet_controller", "d2/d7a/a18434.html#a5fc4c941842e25bc3da93686e588627b", null ],
+    [ "GetAI", "d2/d7a/a18434.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
 ];

@@ -1,7 +1,6 @@
 var a26258 =
 [
-    [ "HandleScript", "d5/d24/a26258.html#ad22b87be8f47886650d7bf9e98eee495", null ],
-    [ "PrepareSpellScript", "d5/d24/a26258.html#a806f934cd684039425ce3fca037b0e8c", null ],
-    [ "Register", "d5/d24/a26258.html#a9bd3ea5aa5fb16aac87f6097db31e113", null ],
-    [ "Validate", "d5/d24/a26258.html#a96d189c452a969850121323faef1d9c1", null ]
+    [ "HandlePeriodic", "d5/d24/a26258.html#af875d62dd47650c9f2e9c3a4508ed05b", null ],
+    [ "PrepareAuraScript", "d5/d24/a26258.html#a2efdcd0902e9cb5c47e285492dd93789", null ],
+    [ "Register", "d5/d24/a26258.html#ac90afe9f5d9d55faba2282a875469311", null ]
 ];

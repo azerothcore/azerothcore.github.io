@@ -1,8 +1,6 @@
 var a23222 =
 [
-    [ "ApplyStun", "d2/d9b/a23222.html#a5a5b921dc45418485919e599e80f8ca8", null ],
-    [ "HandleScriptEffect", "d2/d9b/a23222.html#a32619710179250a6a0b408856a888153", null ],
-    [ "PrepareSpellScript", "d2/d9b/a23222.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
-    [ "Register", "d2/d9b/a23222.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
-    [ "Validate", "d2/d9b/a23222.html#a66d91a87078c663903cd836344eec867", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "db/d45/a23226.html", "db/d45/a23226" ],
+    [ "instance_hellfire_ramparts", "d2/d9b/a23222.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
+    [ "GetInstanceScript", "d2/d9b/a23222.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
 ];

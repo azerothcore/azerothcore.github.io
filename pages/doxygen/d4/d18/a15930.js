@@ -1,9 +1,12 @@
 var a15930 =
 [
-    [ "npc_memoryAI", "d4/d18/a15930.html#ad927d377d60b44f43808469042f5feb9", null ],
-    [ "JustDied", "d4/d18/a15930.html#a7b0484919d671877f29dfa05ca1265d9", null ],
-    [ "Reset", "d4/d18/a15930.html#a985c51bbfa2cceeb7601432491253aaf", null ],
-    [ "UpdateAI", "d4/d18/a15930.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
-    [ "events", "d4/d18/a15930.html#a2ed2993e89728a3723456a67e13581f7", null ],
-    [ "pInstance", "d4/d18/a15930.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
+    [ "npc_swarm_scarabAI", "d4/d18/a15930.html#a0d0cefd52543044773e7df772f90fd37", null ],
+    [ "CanAIAttack", "d4/d18/a15930.html#a95a27742f4f7fa1af45964b6270a9558", null ],
+    [ "DoAction", "d4/d18/a15930.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
+    [ "JustDied", "d4/d18/a15930.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
+    [ "JustEngagedWith", "d4/d18/a15930.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
+    [ "Reset", "d4/d18/a15930.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
+    [ "UpdateAI", "d4/d18/a15930.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
+    [ "despawnTimer", "d4/d18/a15930.html#a6d35e43af695ac112b972badb665f06d", null ],
+    [ "determinationTimer", "d4/d18/a15930.html#af319dbf16bc1d3939602465f0a87d30c", null ]
 ];

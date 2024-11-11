@@ -1,6 +1,7 @@
 var a17294 =
 [
-    [ "npc_gunship_boarding_add_realAI", "d9/d61/a17294.html#a829c3690ab0d5ad3f0a888cb6701692a", null ],
-    [ "UpdateAI", "d9/d61/a17294.html#a33ac355c8f61907574a0736a24cbee82", null ],
-    [ "_events", "d9/d61/a17294.html#acaea46d9523fa9fe59415b0b0834a2ba", null ]
+    [ "DamageGunship", "d9/d61/a17294.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
+    [ "PrepareSpellScript", "d9/d61/a17294.html#aa698d016ae58d665c081976f20ec0385", null ],
+    [ "Register", "d9/d61/a17294.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
+    [ "Validate", "d9/d61/a17294.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
 ];

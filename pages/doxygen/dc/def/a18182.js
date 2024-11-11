@@ -1,7 +1,6 @@
 var a18182 =
 [
-    [ "npc_valithria_portalAI", "dc/def/a18182.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
-    [ "GetData", "dc/def/a18182.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
-    [ "OnSpellClick", "dc/def/a18182.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
-    [ "_used", "dc/def/a18182.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
+    [ "npc_rotting_frost_giantAI", "d1/db3/a18186.html", "d1/db3/a18186" ],
+    [ "npc_rotting_frost_giant", "dc/def/a18182.html#ad4440216e11a00d97af43dc5f3957e95", null ],
+    [ "GetAI", "dc/def/a18182.html#aabc388b3690f2d03e903c7f480d52842", null ]
 ];

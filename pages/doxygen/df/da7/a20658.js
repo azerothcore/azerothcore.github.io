@@ -1,6 +1,6 @@
 var a20658 =
 [
-    [ "FilterTargets", "df/da7/a20658.html#a7efa78a7991b7ca859c7d622f973265d", null ],
-    [ "PrepareSpellScript", "df/da7/a20658.html#a67da98b94fe491afa06b7a0cfa92982a", null ],
-    [ "Register", "df/da7/a20658.html#a4d2c901a32f526673e968aa5b7ca9117", null ]
+    [ "HandleEffectPeriodic", "df/da7/a20658.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
+    [ "PrepareAuraScript", "df/da7/a20658.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
+    [ "Register", "df/da7/a20658.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
 ];

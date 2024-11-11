@@ -1,9 +1,10 @@
 var a24222 =
 [
-    [ "npc_pet_shaman_earth_elemental", "da/d67/a24222.html#a07f3792cb3b5264d209f1b4726867773", null ],
-    [ "InitializeAI", "da/d67/a24222.html#a8bbca6686ae324a50cd1598125280446", null ],
-    [ "JustEngagedWith", "da/d67/a24222.html#ad9b48901b1d96e59ce60af6411a8baaf", null ],
-    [ "UpdateAI", "da/d67/a24222.html#ab28951b483cab31bf5672fc74e7323e1", null ],
-    [ "_events", "da/d67/a24222.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
-    [ "_initAttack", "da/d67/a24222.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
+    [ "CheckProc", "da/d67/a24222.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
+    [ "HandleProc", "da/d67/a24222.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
+    [ "Load", "da/d67/a24222.html#ada85014de8a3602e83912d5e1a0165c5", null ],
+    [ "PrepareAuraScript", "da/d67/a24222.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
+    [ "Register", "da/d67/a24222.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
+    [ "Validate", "da/d67/a24222.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
+    [ "_procTarget", "da/d67/a24222.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
 ];

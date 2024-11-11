@@ -1,7 +1,8 @@
 var a26434 =
 [
-    [ "HandleProc", "d8/d59/a26434.html#a3878044c77e9560bcc7d531d5c119e0f", null ],
-    [ "PrepareAuraScript", "d8/d59/a26434.html#a3a496539a6adddca91724d9cc77f81c3", null ],
-    [ "Register", "d8/d59/a26434.html#a096f4ecd857cc642ff1d1e5119933921", null ],
-    [ "Validate", "d8/d59/a26434.html#a1592084736ebe5b10a343aee4dba8050", null ]
+    [ "Detonate", "d8/d59/a26434.html#a89f46334c78fc190afd7b03706fa2513", null ],
+    [ "HandleProc", "d8/d59/a26434.html#a82ad88c757eed35f7e0f2af38ceb2273", null ],
+    [ "PrepareAuraScript", "d8/d59/a26434.html#a7268602da6dc74d7c501fb90c8167226", null ],
+    [ "Register", "d8/d59/a26434.html#ac1574e943840e5f15a808ed4d338cd5f", null ],
+    [ "Validate", "d8/d59/a26434.html#abbc5c9d069e716d9356ec366713abb84", null ]
 ];

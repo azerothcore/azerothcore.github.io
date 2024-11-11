@@ -1,15 +1,12 @@
 var a02855 =
 [
-    [ "PoolTemplateData", "df/df7/a09862.html", "df/df7/a09862" ],
-    [ "PoolObject", "dd/d94/a09866.html", "dd/d94/a09866" ],
-    [ "Pool", "d8/d99/a09870.html", null ],
-    [ "ActivePoolData", "db/d56/a09874.html", "db/d56/a09874" ],
-    [ "PoolGroup< T >", "d8/de7/a09878.html", "d8/de7/a09878" ],
-    [ "PoolMgr", "d7/dfe/a09882.html", "d7/dfe/a09882" ],
-    [ "sPoolMgr", "dc/d05/a02855.html#a9189dd9c6265b9e6d57104dd61a5fe85", null ],
-    [ "ActivePoolObjects", "dc/d05/a02855.html#a6fd2b29871e3f63cf9cc493968a0ab74", null ],
-    [ "ActivePoolPools", "dc/d05/a02855.html#ad18a3f26065fec260d0281c5354067dd", null ],
-    [ "PooledQuestRelation", "dc/d05/a02855.html#ace9e74e256f166b08f2834044ecfba43", null ],
-    [ "PooledQuestRelationBounds", "dc/d05/a02855.html#adabd05f382474650e093706cf4ea4e35", null ],
-    [ "PooledQuestRelationBoundsNC", "dc/d05/a02855.html#a54dd98ebecf13a92dd29f7d3789d5b56", null ]
+    [ "AddonInfo", "de/d4a/a05946.html", "de/d4a/a05946" ],
+    [ "SavedAddon", "d1/de1/a05950.html", "d1/de1/a05950" ],
+    [ "BannedAddon", "d9/d23/a05954.html", "d9/d23/a05954" ],
+    [ "STANDARD_ADDON_CRC", "dc/d05/a02855.html#a084249e215f787f3163d5d06ad2d256f", null ],
+    [ "BannedAddonList", "dc/d05/a02855.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
+    [ "GetAddonInfo", "dc/d05/a02855.html#a65cb6a88902972060e44c57d7d9ec738", null ],
+    [ "GetBannedAddons", "dc/d05/a02855.html#ad7d0938e7463238a86e8c811e1a58800", null ],
+    [ "LoadFromDB", "dc/d05/a02855.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
+    [ "SaveAddon", "dc/d05/a02855.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
 ];

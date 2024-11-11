@@ -1,7 +1,7 @@
 var a17850 =
 [
-    [ "HandleInfusion", "d4/d7d/a17850.html#a9f77330d81fef646dd5d5399800cba66", null ],
-    [ "PrepareSpellScript", "d4/d7d/a17850.html#ae0a272902b0a9f74058c1dbe62974358", null ],
-    [ "Register", "d4/d7d/a17850.html#ad759f6215e722f799156b4bdddcb7af1", null ],
-    [ "Validate", "d4/d7d/a17850.html#a7b7254e7c6cb0d819dd003ffd19d0731", null ]
+    [ "OnRemove", "d4/d7d/a17850.html#a106935d92ef6ba7909c57264e26b5522", null ],
+    [ "PrepareAuraScript", "d4/d7d/a17850.html#a8ce8f5d4ebd4279fdfd192ba3b01b894", null ],
+    [ "Register", "d4/d7d/a17850.html#a095e7530a0f2e7a76dc8bd3f75759089", null ],
+    [ "Validate", "d4/d7d/a17850.html#a0b4283bdb19a4ceef505aab41c99abe8", null ]
 ];

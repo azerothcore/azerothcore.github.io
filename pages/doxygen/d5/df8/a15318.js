@@ -1,7 +1,7 @@
 var a15318 =
 [
-    [ "npc_toogaAI", "d1/d79/a15322.html", "d1/d79/a15322" ],
-    [ "npc_tooga", "d5/df8/a15318.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "d5/df8/a15318.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "d5/df8/a15318.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "npc_ranshallaAI", "d1/d79/a15322.html", "d1/d79/a15322" ],
+    [ "npc_ranshalla", "d5/df8/a15318.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "d5/df8/a15318.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "d5/df8/a15318.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

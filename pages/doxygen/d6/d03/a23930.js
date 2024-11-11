@@ -1,6 +1,5 @@
 var a23930 =
 [
-    [ "npc_dragonmaw_peonAI", "d5/dc6/a23934.html", "d5/dc6/a23934" ],
-    [ "npc_dragonmaw_peon", "d6/d03/a23930.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
-    [ "GetAI", "d6/d03/a23930.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
+    [ "npc_shattrath_daily_quest", "d6/d03/a23930.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "d6/d03/a23930.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

@@ -1,6 +1,8 @@
 var a18110 =
 [
-    [ "npc_lk_wicked_spiritAI", "df/d8c/a18114.html", "df/d8c/a18114" ],
-    [ "npc_lk_wicked_spirit", "d7/dae/a18110.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
-    [ "GetAI", "d7/dae/a18110.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
+    [ "npc_blistering_zombieAI", "d7/dae/a18110.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
+    [ "DamageTaken", "d7/dae/a18110.html#adf031992078214f90d859df2b54aac91", null ],
+    [ "UpdateAI", "d7/dae/a18110.html#ae081898b8dcaf45cd3069e79021de452", null ],
+    [ "casted", "d7/dae/a18110.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
+    [ "timer", "d7/dae/a18110.html#a8b865c2a87b1fc020d8250767febab0a", null ]
 ];

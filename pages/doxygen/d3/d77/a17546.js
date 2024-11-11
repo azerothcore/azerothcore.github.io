@@ -1,5 +1,6 @@
 var a17546 =
 [
-    [ "npc_volatile_oozeAI", "d3/d77/a17546.html#af042d4c22482aabcdad6fa867dfe093f", null ],
-    [ "CastMainSpell", "d3/d77/a17546.html#a91890785174ecc60c9553a0aedf1961b", null ]
+    [ "npc_little_oozeAI", "dd/d0a/a17550.html", "dd/d0a/a17550" ],
+    [ "npc_little_ooze", "d3/d77/a17546.html#a9b0849057c1d3dd9f6507b9c80e67a66", null ],
+    [ "GetAI", "d3/d77/a17546.html#a3e56c6dbad6239485897655a4bfbbe07", null ]
 ];

@@ -1,6 +1,6 @@
 var a25114 =
 [
-    [ "PrepareAuraScript", "d8/dd2/a25114.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
-    [ "Register", "d8/dd2/a25114.html#abb54f08b1932e3638537656360d3aad8", null ],
-    [ "AuraEffectHandleModes", "d8/dd2/a25114.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
+    [ "HandleItemRemove", "d8/dd2/a25114.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
+    [ "PrepareSpellScript", "d8/dd2/a25114.html#a8b43e146724a2c8b3c495e886a79d021", null ],
+    [ "Register", "d8/dd2/a25114.html#af8b02c31b81dce516ea47d6a1235d683", null ]
 ];

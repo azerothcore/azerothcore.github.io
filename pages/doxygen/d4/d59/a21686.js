@@ -1,6 +1,6 @@
 var a21686 =
 [
-    [ "npc_venture_co_stragglerAI", "d7/d36/a21690.html", "d7/d36/a21690" ],
-    [ "npc_venture_co_straggler", "d4/d59/a21686.html#a9d928b33dfcd3a6ccb7e1f7a1964762f", null ],
-    [ "GetAI", "d4/d59/a21686.html#a5f95d20c67553ae8a27f00ebb92e3627", null ]
+    [ "npc_llod_genericAI", "d7/d36/a21690.html", "d7/d36/a21690" ],
+    [ "npc_llod_generic", "d4/d59/a21686.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
+    [ "GetAI", "d4/d59/a21686.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
 ];

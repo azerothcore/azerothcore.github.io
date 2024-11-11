@@ -1,6 +1,6 @@
 var a23646 =
 [
-    [ "instance_the_eye_InstanceMapScript", "d2/d08/a23650.html", "d2/d08/a23650" ],
-    [ "instance_the_eye", "d1/d5d/a23646.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
-    [ "GetInstanceScript", "d1/d5d/a23646.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
+    [ "go_apexis_relic", "d1/d5d/a23646.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
+    [ "OnGossipHello", "d1/d5d/a23646.html#ae8f7167ba5b973881e32d604691dc15a", null ],
+    [ "OnGossipSelect", "d1/d5d/a23646.html#a025cc7cc9c69f0eb461445170972ab52", null ]
 ];

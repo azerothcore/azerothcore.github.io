@@ -1,6 +1,7 @@
 var a16566 =
 [
-    [ "npc_phantom_hallucinationAI", "d7/dab/a16570.html", "d7/dab/a16570" ],
-    [ "npc_phantom_hallucination", "dc/d05/a16566.html#a685889c090152a2562ee9adef7efbf71", null ],
-    [ "GetAI", "dc/d05/a16566.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
+    [ "UtherBatteredHiltEvent", "dc/d05/a16566.html#a7bb34b75a3e371260a231aea72f75b40", null ],
+    [ "Execute", "dc/d05/a16566.html#ad2eb37877155b6dbc9916338e30d0306", null ],
+    [ "_eventId", "dc/d05/a16566.html#a5045e057b2c5d468aa579751d2c799b8", null ],
+    [ "_owner", "dc/d05/a16566.html#a588974708f4a48f5a7b097a63a0c0899", null ]
 ];

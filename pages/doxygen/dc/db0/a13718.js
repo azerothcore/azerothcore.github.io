@@ -1,10 +1,10 @@
 var a13718 =
 [
-    [ "npc_batrider", "dc/db0/a13718.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "DamageTaken", "dc/db0/a13718.html#ad4818b1363082a91223526908c38777c", null ],
-    [ "JustEngagedWith", "dc/db0/a13718.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
-    [ "Reset", "dc/db0/a13718.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "dc/db0/a13718.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
-    [ "_mode", "dc/db0/a13718.html#acd53ec78a754219511af1ad2f11422a9", null ],
-    [ "_scheduler", "dc/db0/a13718.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "npc_zealot_zath", "dc/db0/a13718.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "dc/db0/a13718.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "dc/db0/a13718.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "dc/db0/a13718.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "dc/db0/a13718.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "dc/db0/a13718.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "dc/db0/a13718.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

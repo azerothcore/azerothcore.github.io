@@ -1,6 +1,7 @@
 var a20586 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d6/d9b/a20590.html", "d6/d9b/a20590" ],
-    [ "boss_yoggsaron_influence_tentacle", "d1/dee/a20586.html#a44155d82364bdde7e00131be3b6edfb6", null ],
-    [ "GetAI", "d1/dee/a20586.html#afb691fae90c0add07cfc8c02b9d2b975", null ]
+    [ "HandleScriptEffect", "d1/dee/a20586.html#a173ee086127655cdfcca507fd5b15b2e", null ],
+    [ "PrepareSpellScript", "d1/dee/a20586.html#a005d47b18a820c35ec596b5539db94eb", null ],
+    [ "Register", "d1/dee/a20586.html#a20a0d554e80707c1517422cb747f38e8", null ],
+    [ "Validate", "d1/dee/a20586.html#a5ca44686e26def56adc2b98d88145235", null ]
 ];

@@ -1,6 +1,6 @@
 var a15494 =
 [
-    [ "HandleApply", "d4/dfd/a15494.html#aee4d5908035d06be2f1469a50db02e26", null ],
-    [ "PrepareAuraScript", "d4/dfd/a15494.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
-    [ "Register", "d4/dfd/a15494.html#ac83962bef84b68cef6d7937769730598", null ]
+    [ "npc_anub_ar_crusherAI", "dc/d0f/a15498.html", "dc/d0f/a15498" ],
+    [ "npc_anub_ar_crusher", "d4/dfd/a15494.html#a3397fab6358ce8c19aecaad734e0ef78", null ],
+    [ "GetAI", "d4/dfd/a15494.html#aeb8eb3e39612d0f7059f1910033cbbcc", null ]
 ];

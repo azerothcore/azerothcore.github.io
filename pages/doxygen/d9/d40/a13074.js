@@ -1,6 +1,8 @@
 var a13074 =
 [
-    [ "npc_kalecgos_kjAI", "d4/d99/a13078.html", "d4/d99/a13078" ],
-    [ "npc_kalecgos_kj", "d9/d40/a13074.html#aa8c9e532e3980f94d316b60454799c63", null ],
-    [ "GetAI", "d9/d40/a13074.html#af63f0d90581189f4850414ffdddd1ba4", null ]
+    [ "HandleApply", "d9/d40/a13074.html#a9dce02909356193476e66586aee87f1d", null ],
+    [ "OnPeriodic", "d9/d40/a13074.html#add4f000f81d5d4112719c6dd7464163c", null ],
+    [ "PrepareAuraScript", "d9/d40/a13074.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
+    [ "Register", "d9/d40/a13074.html#abc349f12f375b1f284eb78a363e8172a", null ],
+    [ "Validate", "d9/d40/a13074.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
 ];

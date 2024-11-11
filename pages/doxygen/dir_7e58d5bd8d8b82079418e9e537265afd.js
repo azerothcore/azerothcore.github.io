@@ -1,9 +1,9 @@
 var dir_7e58d5bd8d8b82079418e9e537265afd =
 [
-    [ "boss_bjarngrim.cpp", "de/d3e/a01676.html", "de/d3e/a01676" ],
-    [ "boss_ionar.cpp", "dd/d8d/a01667.html", "dd/d8d/a01667" ],
-    [ "boss_loken.cpp", "d2/d34/a01679.html", "d2/d34/a01679" ],
-    [ "boss_volkhan.cpp", "d9/df5/a01673.html", "d9/df5/a01673" ],
-    [ "halls_of_lightning.h", "dc/d71/a01664.html", "dc/d71/a01664" ],
-    [ "instance_halls_of_lightning.cpp", "de/df6/a01670.html", "de/df6/a01670" ]
+    [ "boss_bjarngrim.cpp", "dd/d9e/a01226.html", "dd/d9e/a01226" ],
+    [ "boss_ionar.cpp", "db/d42/a01220.html", "db/d42/a01220" ],
+    [ "boss_loken.cpp", "d7/ddd/a01223.html", "d7/ddd/a01223" ],
+    [ "boss_volkhan.cpp", "d1/d34/a01211.html", "d1/d34/a01211" ],
+    [ "halls_of_lightning.h", "d5/d32/a01214.html", "d5/d32/a01214" ],
+    [ "instance_halls_of_lightning.cpp", "da/d19/a01217.html", "da/d19/a01217" ]
 ];

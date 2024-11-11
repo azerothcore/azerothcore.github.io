@@ -1,6 +1,7 @@
 var a26242 =
 [
-    [ "ModDest", "dd/deb/a26242.html#ab03387aec0a02a6b3bac1014443554b6", null ],
-    [ "PrepareSpellScript", "dd/deb/a26242.html#a53f7da301759fb18686bc73281c4a321", null ],
-    [ "Register", "dd/deb/a26242.html#a266198fbc6203517f9845ef6212ddf13", null ]
+    [ "HandleEffect", "dd/deb/a26242.html#ab33c9312c9ac4096140a82f381d83235", null ],
+    [ "PrepareSpellScript", "dd/deb/a26242.html#a6117d7b2720f719d801b5f6e0e719f5f", null ],
+    [ "Register", "dd/deb/a26242.html#a1f5983124756eca5666ca6adbe5a4544", null ],
+    [ "Validate", "dd/deb/a26242.html#a08f7e508b50fc44ced0b7ff04e22b333", null ]
 ];

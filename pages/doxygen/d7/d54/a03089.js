@@ -1,13 +1,16 @@
 var a03089 =
 [
-    [ "SkillPerfectItemEntry", "d2/d7a/a10758.html", "d2/d7a/a10758" ],
-    [ "SkillExtraItemEntry", "d9/d21/a10762.html", "d9/d21/a10762" ],
-    [ "SkillExtraItemMap", "d7/d54/a03089.html#a9ba2d7d2e815aee57a701990b858db7b", null ],
-    [ "SkillPerfectItemMap", "d7/d54/a03089.html#ad732be66d93ed6e8f498077f27e2766b", null ],
-    [ "canCreateExtraItems", "d7/d54/a03089.html#a49687e255d65fa15dac5e6a428c5739d", null ],
-    [ "CanCreatePerfectItem", "d7/d54/a03089.html#a818c557864790091814604b6d2175e52", null ],
-    [ "LoadSkillExtraItemTable", "d7/d54/a03089.html#a3244d04018405bafe21acc8bc96cc743", null ],
-    [ "LoadSkillPerfectItemTable", "d7/d54/a03089.html#a121df170a82be5ab5b05999a6be27b69", null ],
-    [ "SkillExtraItemStore", "d7/d54/a03089.html#acc52416c05fbae29bcbfa9f0683485cd", null ],
-    [ "SkillPerfectItemStore", "d7/d54/a03089.html#ac676f0acbf782fa2d31bd66b8eaa8260", null ]
+    [ "AccountScript", "d1/d39/a09914.html", "d1/d39/a09914" ],
+    [ "AccountHook", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3f", [
+      [ "ACCOUNTHOOK_ON_ACCOUNT_LOGIN", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520", null ],
+      [ "ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb", null ],
+      [ "ACCOUNTHOOK_ON_LAST_IP_UPDATE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744", null ],
+      [ "ACCOUNTHOOK_ON_EMAIL_CHANGE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf", null ],
+      [ "ACCOUNTHOOK_ON_PASSWORD_CHANGE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283", null ],
+      [ "ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3", null ],
+      [ "ACCOUNTHOOK_END", "d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f", null ]
+    ] ]
 ];

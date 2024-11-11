@@ -1,12 +1,6 @@
 var a13226 =
 [
-    [ "boss_twilight_corrupter", "d1/d15/a13226.html#afe140d6231d9ad8543e17c4a8a8230c0", null ],
-    [ "InitializeAI", "d1/d15/a13226.html#afe06461e9f3e1549da6631d2f89406c4", null ],
-    [ "JustEngagedWith", "d1/d15/a13226.html#a84803153e7e7d5d7efe0106139214b1f", null ],
-    [ "KilledUnit", "d1/d15/a13226.html#aa18d2fc90e1ccd322ec9d3128ba206d2", null ],
-    [ "MoveInLineOfSight", "d1/d15/a13226.html#a637cdd43f2f9a4f773b4b8e8f3c88730", null ],
-    [ "Reset", "d1/d15/a13226.html#a27720f58056206c09bce41ae50018a83", null ],
-    [ "UpdateAI", "d1/d15/a13226.html#a580fbaa55a5c0193c1ef2c6b281d8d9e", null ],
-    [ "_introSpoken", "d1/d15/a13226.html#a1924750c9d41ed588a29aace3c40742d", null ],
-    [ "_scheduler", "d1/d15/a13226.html#a6c49eee2be24199418096cc48c50d384", null ]
+    [ "npc_bh_thalorien_dawnseekerAI", "d6/d6b/a13230.html", "d6/d6b/a13230" ],
+    [ "npc_bh_thalorien_dawnseeker", "d1/d15/a13226.html#a1fbee838cbbf1ada476f3dd7a82fc6e6", null ],
+    [ "GetAI", "d1/d15/a13226.html#ac5d551d5d4d05ee1006d074908599a3a", null ]
 ];

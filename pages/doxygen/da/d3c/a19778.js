@@ -1,6 +1,6 @@
 var a19778 =
 [
-    [ "boss_freya_iron_rootAI", "d2/d7f/a19782.html", "d2/d7f/a19782" ],
-    [ "boss_freya_iron_root", "da/d3c/a19778.html#a9478144d6cb72d08698cbfc50893935b", null ],
-    [ "GetAI", "da/d3c/a19778.html#acdda736e9259d59a30a40d989e70f95c", null ]
+    [ "id", "da/d3c/a19778.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "da/d3c/a19778.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "da/d3c/a19778.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

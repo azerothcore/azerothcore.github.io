@@ -1,15 +1,13 @@
 var a16526 =
 [
-    [ "boss_falricAI", "d1/d9e/a16526.html#a8b333fe1571f98b4e9f44152d130a22d", null ],
-    [ "DoAction", "d1/d9e/a16526.html#a2a7de8f939cd3cdc113c841da36e28c8", null ],
-    [ "EnterEvadeMode", "d1/d9e/a16526.html#aacb6a3b13fe5ea08ab2ff0e77ff841a4", null ],
-    [ "JustDied", "d1/d9e/a16526.html#a4ee3163afcda23102d639740fd628f39", null ],
-    [ "JustEngagedWith", "d1/d9e/a16526.html#ae5a8b14e1984dbd2866af7c442c02df2", null ],
-    [ "KilledUnit", "d1/d9e/a16526.html#a4a8b45eb85c1328af6beec69f2db1842", null ],
-    [ "Reset", "d1/d9e/a16526.html#a0af8ef161bc2a37a5c7f7fa880194251", null ],
-    [ "UpdateAI", "d1/d9e/a16526.html#a640036111dcd14e40016342ffdef7d63", null ],
-    [ "events", "d1/d9e/a16526.html#aa94ca00db157378071b78142b213de23", null ],
-    [ "pInstance", "d1/d9e/a16526.html#aebeae3541bbbf392c44fd52516bb2d98", null ],
-    [ "startFightTimer", "d1/d9e/a16526.html#addd560074b840aed36f41883f893340e", null ],
-    [ "uiHopelessnessCount", "d1/d9e/a16526.html#a0ad83fb57263116a59976834c6667ea9", null ]
+    [ "npc_hor_leader_secondAI", "d1/d9e/a16526.html#a54a5094dc533755efc249ebc96663b62", null ],
+    [ "DamageTaken", "d1/d9e/a16526.html#ae534779315b04b3dde495b13a1cb28e4", null ],
+    [ "DoAction", "d1/d9e/a16526.html#a4185259006017e85fade721796851dd0", null ],
+    [ "MovementInform", "d1/d9e/a16526.html#afe93165a3e96496b52a2be8de5022164", null ],
+    [ "MoveToNextStopPoint", "d1/d9e/a16526.html#a6d9f65386d6f40a5cf96b09ecaf54871", null ],
+    [ "Reset", "d1/d9e/a16526.html#ae5d125deab31e6425e94b4523d8251eb", null ],
+    [ "UpdateAI", "d1/d9e/a16526.html#ae991e18a6729a1b088c60060802c01c2", null ],
+    [ "currentStopPoint", "d1/d9e/a16526.html#ae4bf31530e701f9e0aa4f253452f9881", null ],
+    [ "events", "d1/d9e/a16526.html#a3510e246908f4e5b758e05ca06a29e47", null ],
+    [ "pInstance", "d1/d9e/a16526.html#a32cebea12e13c87b45dd2a4c6cf495e5", null ]
 ];

@@ -1,6 +1,9 @@
 var a15274 =
 [
-    [ "go_wind_stoneAI", "d6/d65/a15278.html", "d6/d65/a15278" ],
-    [ "go_wind_stone", "d0/ddc/a15274.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
-    [ "GetAI", "d0/ddc/a15274.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
+    [ "npc_pluckyAI", "d0/ddc/a15274.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
+    [ "ReceiveEmote", "d0/ddc/a15274.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
+    [ "Reset", "d0/ddc/a15274.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
+    [ "UpdateAI", "d0/ddc/a15274.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
+    [ "NormFaction", "d0/ddc/a15274.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
+    [ "ResetTimer", "d0/ddc/a15274.html#ac9808c21666cd17b0603e7e67a61d015", null ]
 ];

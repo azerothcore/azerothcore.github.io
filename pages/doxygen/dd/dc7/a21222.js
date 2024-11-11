@@ -1,6 +1,7 @@
 var a21222 =
 [
-    [ "npc_azure_saboteurAI", "df/d91/a21226.html", "df/d91/a21226" ],
-    [ "npc_azure_saboteur", "dd/dc7/a21222.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
-    [ "GetAI", "dd/dc7/a21222.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
+    [ "npc_valiance_keep_cannoneerAI", "dd/dc7/a21222.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "dd/dc7/a21222.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "dd/dc7/a21222.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "dd/dc7/a21222.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

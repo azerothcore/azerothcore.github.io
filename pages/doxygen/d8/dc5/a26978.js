@@ -1,6 +1,5 @@
 var a26978 =
 [
-    [ "go_l70_etc_musicAI", "d8/dc5/a26978.html#a1709414fc40d48ac7c13eb8251dfbb26", null ],
-    [ "UpdateAI", "d8/dc5/a26978.html#a182a5a9bbe53ced25740de9a4a368469", null ],
-    [ "_events", "d8/dc5/a26978.html#aa0cda672b4491b3cfc75214038aa2132", null ]
+    [ "go_hive_pod", "d8/dc5/a26978.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
+    [ "OnGossipHello", "d8/dc5/a26978.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
 ];

@@ -1,6 +1,6 @@
 var a21738 =
 [
-    [ "npc_attracted_reef_bullAI", "d8/d89/a21742.html", "d8/d89/a21742" ],
-    [ "npc_attracted_reef_bull", "de/ded/a21738.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
-    [ "GetAI", "de/ded/a21738.html#af705e2768cd41c955af7f944c670ac85", null ]
+    [ "npc_infra_green_bomber_genericAI", "d8/d89/a21742.html", "d8/d89/a21742" ],
+    [ "npc_infra_green_bomber_generic", "de/ded/a21738.html#a39134a09376c35f15e99377cd28ac6ff", null ],
+    [ "GetAI", "de/ded/a21738.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
 ];

@@ -1,11 +1,14 @@
 var a03083 =
 [
-    [ "SkillDiscoveryEntry", "d1/d5e/a10754.html", "d1/d5e/a10754" ],
-    [ "SkillDiscoveryList", "d5/dd8/a03083.html#a0c80a6b86b3b7bd5e9c238efa802919b", null ],
-    [ "SkillDiscoveryMap", "d5/dd8/a03083.html#ab7ec6a8662e4edd3167deb3c917d2eab", null ],
-    [ "GetExplicitDiscoverySpell", "d5/dd8/a03083.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
-    [ "GetSkillDiscoverySpell", "d5/dd8/a03083.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
-    [ "HasDiscoveredAllSpells", "d5/dd8/a03083.html#abdf3c2fcf65212466dfb54053e35024c", null ],
-    [ "LoadSkillDiscoveryTable", "d5/dd8/a03083.html#addd95f0a239a27ed32cd943aa1052019", null ],
-    [ "SkillDiscoveryStore", "d5/dd8/a03083.html#a1d624484e07efeeabc8a73a10c75ca4d", null ]
+    [ "GroupScript", "da/d8a/a10038.html", "da/d8a/a10038" ],
+    [ "GroupHook", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5d", [
+      [ "GROUPHOOK_ON_ADD_MEMBER", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681", null ],
+      [ "GROUPHOOK_ON_INVITE_MEMBER", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe", null ],
+      [ "GROUPHOOK_ON_REMOVE_MEMBER", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3", null ],
+      [ "GROUPHOOK_ON_CHANGE_LEADER", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23", null ],
+      [ "GROUPHOOK_ON_DISBAND", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353", null ],
+      [ "GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c", null ],
+      [ "GROUPHOOK_ON_CREATE", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c", null ],
+      [ "GROUPHOOK_END", "d5/dd8/a03083.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2", null ]
+    ] ]
 ];

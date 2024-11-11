@@ -1,6 +1,8 @@
 var a26270 =
 [
-    [ "HandleFinish", "db/d7e/a26270.html#ac4c50220d86f809644e339fc578d9b4a", null ],
-    [ "PrepareSpellScript", "db/d7e/a26270.html#a5a14594ed93150e34626a7e0edb8171b", null ],
-    [ "Register", "db/d7e/a26270.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
+    [ "FilterTargets", "db/d7e/a26270.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
+    [ "HandleDummy", "db/d7e/a26270.html#a2214b10da042a3af2fd3311872cc5286", null ],
+    [ "PrepareSpellScript", "db/d7e/a26270.html#a9959966856601f79a83931a7a7ecff91", null ],
+    [ "Register", "db/d7e/a26270.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
+    [ "Validate", "db/d7e/a26270.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
 ];

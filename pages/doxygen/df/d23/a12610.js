@@ -1,12 +1,5 @@
 var a12610 =
 [
-    [ "npc_scarlet_minerAI", "df/d23/a12610.html#a7f5ca173103eb4498ce41912bda5da66", null ],
-    [ "InitCartQuest", "df/d23/a12610.html#a5d3ece8f2f02a2bae4550a41f55348b0", null ],
-    [ "InitWaypoint", "df/d23/a12610.html#a7fe048368b6e0a43b5be501a24773b8c", null ],
-    [ "Reset", "df/d23/a12610.html#a2a8660173dc32c38de917049eb33fff8", null ],
-    [ "UpdateAI", "df/d23/a12610.html#a48d2c92a4d45d5e59252f9455b82cbbd", null ],
-    [ "WaypointReached", "df/d23/a12610.html#a31f4363e269b51d3a002a132b5516dd0", null ],
-    [ "carGUID", "df/d23/a12610.html#a963f9c0ca58ce160b43f36f5a9f7dee7", null ],
-    [ "IntroPhase", "df/d23/a12610.html#a094c2ee20d13c88805c3de7f9f94b86e", null ],
-    [ "IntroTimer", "df/d23/a12610.html#adae2103753dd62699359ff01ac3ba865", null ]
+    [ "go_inconspicuous_mine_car", "df/d23/a12610.html#a34e941a813079b55f66bea15cffe8f42", null ],
+    [ "OnGossipHello", "df/d23/a12610.html#a256a8f766dd045613c0c7159db9f74e0", null ]
 ];

@@ -1,6 +1,6 @@
 var a13058 =
 [
-    [ "boss_kiljaedenAI", "d2/deb/a13062.html", "d2/deb/a13062" ],
-    [ "boss_kiljaeden", "d8/d8b/a13058.html#a39d7df3ec03957037cf506561ba01edf", null ],
-    [ "GetAI", "d8/d8b/a13058.html#ada2fb5c89ef8d27b07f131a828aae276", null ]
+    [ "FilterTargets", "d8/d8b/a13058.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
+    [ "PrepareSpellScript", "d8/d8b/a13058.html#a905e1f979284a368463ad4829891b6ee", null ],
+    [ "Register", "d8/d8b/a13058.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
 ];

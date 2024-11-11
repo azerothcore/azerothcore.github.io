@@ -1,7 +1,7 @@
 var a15290 =
 [
-    [ "npc_kaya_flathoofAI", "d9/d5a/a15290.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
-    [ "JustSummoned", "d9/d5a/a15290.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
-    [ "Reset", "d9/d5a/a15290.html#af9be00be9867622a16103bd21311327f", null ],
-    [ "WaypointReached", "d9/d5a/a15290.html#a8fcbb19279b925138ba96d2a450fc404", null ]
+    [ "npc_ameAI", "d8/d42/a15294.html", "d8/d42/a15294" ],
+    [ "npc_ame", "d9/d5a/a15290.html#a6b4a20b06bc88393dd08b4eae83c1d50", null ],
+    [ "GetAI", "d9/d5a/a15290.html#a09f7688c38d56319791f7543eb32f317", null ],
+    [ "OnQuestAccept", "d9/d5a/a15290.html#a69b8ec6558e70e34f7e405b397b09f43", null ]
 ];

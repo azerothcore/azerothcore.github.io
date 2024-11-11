@@ -1,6 +1,6 @@
 var a15134 =
 [
-    [ "npc_troll_volunteerAI", "d7/d02/a15138.html", "d7/d02/a15138" ],
-    [ "npc_troll_volunteer", "df/d2f/a15134.html#a3c5eb7108dc0480e07b77eceb01cd18a", null ],
-    [ "GetAI", "df/d2f/a15134.html#aba0208b0910ace75686941c462ecca56", null ]
+    [ "SpellId", "df/d2f/a15134.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "df/d2f/a15134.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "df/d2f/a15134.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

@@ -1,6 +1,13 @@
 var a22142 =
 [
-    [ "PrepareSpellScript", "d8/d2b/a22142.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
-    [ "RecalculateDamage", "d8/d2b/a22142.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
-    [ "Register", "d8/d2b/a22142.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
+    [ "OPvPCapturePointEP_PWT", "d8/d2b/a22142.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
+    [ "ChangeState", "d8/d2b/a22142.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
+    [ "FillInitialWorldStates", "d8/d2b/a22142.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
+    [ "HandlePlayerEnter", "d8/d2b/a22142.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
+    [ "HandlePlayerLeave", "d8/d2b/a22142.html#a5772e54263c613eee365856def5e74e6", null ],
+    [ "SendChangePhase", "d8/d2b/a22142.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
+    [ "SummonFlightMaster", "d8/d2b/a22142.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
+    [ "UpdateTowerState", "d8/d2b/a22142.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
+    [ "m_FlightMasterSpawnedId", "d8/d2b/a22142.html#afeefd804849b925e6d0a880d8efb5319", null ],
+    [ "m_TowerState", "d8/d2b/a22142.html#a914dcbb37baf457750cfe9829d95d88c", null ]
 ];

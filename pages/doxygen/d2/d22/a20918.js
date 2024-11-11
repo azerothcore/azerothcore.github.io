@@ -1,6 +1,6 @@
 var a20918 =
 [
-    [ "boss_svalaAI", "d9/d33/a20922.html", "d9/d33/a20922" ],
-    [ "boss_svala", "d2/d22/a20918.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "d2/d22/a20918.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "npc_frozen_orbAI", "d9/d33/a20922.html", "d9/d33/a20922" ],
+    [ "npc_frozen_orb", "d2/d22/a20918.html#ac14966722e39b2b6b3a907756701ed98", null ],
+    [ "GetAI", "d2/d22/a20918.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
 ];

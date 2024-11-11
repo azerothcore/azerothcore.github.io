@@ -1,7 +1,9 @@
 var a14218 =
 [
-    [ "GetVisualThrow", "d4/dbc/a14218.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
-    [ "HandleDummy", "d4/dbc/a14218.html#adca1aacf89dcf452f1c98cae97f09690", null ],
-    [ "PrepareSpellScript", "d4/dbc/a14218.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
-    [ "Register", "d4/dbc/a14218.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
+    [ "boss_azgalor", "d4/dbc/a14218.html#ac794e0eacc2d543fa62e4b521089f080", null ],
+    [ "DoAction", "d4/dbc/a14218.html#a43d7afa9da1375f431df871e2a1dfff2", null ],
+    [ "JustDied", "d4/dbc/a14218.html#a49cc8abf458f82ad7d46c9c1563f0e98", null ],
+    [ "JustEngagedWith", "d4/dbc/a14218.html#a4b067c3bccbd5f9c96c50d009250d3d0", null ],
+    [ "KilledUnit", "d4/dbc/a14218.html#a04df1058e89ccc6e7ef2d1dff38d47e7", null ],
+    [ "_recentlySpoken", "d4/dbc/a14218.html#abea34396ddde0aa02a073b2f3119fec9", null ]
 ];

@@ -1,9 +1,6 @@
 var a21438 =
 [
-    [ "npc_minigob_manabonk", "d8/d4b/a21438.html#aade5e005b68b25ede4e653629390ceb9", null ],
-    [ "Reset", "d8/d4b/a21438.html#a18b3fcf1e2ada8f0178a0efd2e206a8e", null ],
-    [ "SelectTargetInDalaran", "d8/d4b/a21438.html#a74a14a6e1839d7b8cc81712d57666ec5", null ],
-    [ "SendMailToPlayer", "d8/d4b/a21438.html#a1973b7885c9fce15aab9843722bf112e", null ],
-    [ "UpdateAI", "d8/d4b/a21438.html#abca8214a8c13d9d9c5c03f659fef53a9", null ],
-    [ "playerGUID", "d8/d4b/a21438.html#ac8dccd333691f717fdbffe22126330d5", null ]
+    [ "npc_q24545_lich_kingAI", "d4/dfe/a21442.html", "d4/dfe/a21442" ],
+    [ "npc_q24545_lich_king", "d8/d4b/a21438.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
+    [ "GetAI", "d8/d4b/a21438.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
 ];

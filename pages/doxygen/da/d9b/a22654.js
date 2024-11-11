@@ -1,12 +1,7 @@
 var a22654 =
 [
-    [ "boss_essence_of_sufferingAI", "da/d9b/a22654.html#a98de7f0b7d12d0981854129cbeab0d0d", null ],
-    [ "DamageTaken", "da/d9b/a22654.html#a347ef26e4ecdc83ca80c9fd9a93bd97d", null ],
-    [ "DoAction", "da/d9b/a22654.html#a08724d74523866969b12d13846eb4c1e", null ],
-    [ "JustEngagedWith", "da/d9b/a22654.html#aa2fce36768ad6e23a955cd215ca759db", null ],
-    [ "KilledUnit", "da/d9b/a22654.html#a3699b19f23cf15115ff8c92691a6d334", null ],
-    [ "MovementInform", "da/d9b/a22654.html#a4ff66e57277bc3bc6e8d2fb8bc585cd7", null ],
-    [ "Reset", "da/d9b/a22654.html#affa55b69784d8f881598189c361c986e", null ],
-    [ "UpdateAI", "da/d9b/a22654.html#abb60432720b3720832ccc83d454a3808", null ],
-    [ "_recentlySpoken", "da/d9b/a22654.html#a71a28a61e97f6278836649411493484f", null ]
+    [ "HandleEffectApply", "da/d9b/a22654.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "da/d9b/a22654.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "da/d9b/a22654.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "da/d9b/a22654.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

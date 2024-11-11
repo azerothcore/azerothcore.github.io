@@ -1,6 +1,6 @@
 var a17522 =
 [
-    [ "UnboundPlagueTargetSelector", "d2/deb/a17522.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
-    [ "operator()", "d2/deb/a17522.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
-    [ "_source", "d2/deb/a17522.html#a87eb77615e443ccec373d571708a156a", null ]
+    [ "FilterTargetsInitial", "d2/deb/a17522.html#a92cc71f268793c616bed66d9a489a145", null ],
+    [ "PrepareSpellScript", "d2/deb/a17522.html#ae27e6ceab6b92e59c97307ed10f24ab2", null ],
+    [ "Register", "d2/deb/a17522.html#a91b96940a9e72e632989b49f7e475dba", null ]
 ];

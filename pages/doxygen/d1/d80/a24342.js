@@ -1,8 +1,7 @@
 var a24342 =
 [
-    [ "CheckCast", "d1/d80/a24342.html#a94851a2b6a62138e28466317e9e88480", null ],
-    [ "HandleDummy", "d1/d80/a24342.html#a970684d219c99519512c437a8efd8d43", null ],
-    [ "PrepareSpellScript", "d1/d80/a24342.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
-    [ "Register", "d1/d80/a24342.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
-    [ "Validate", "d1/d80/a24342.html#a59cca008a97447e257bf24071301b366", null ]
+    [ "AfterApply", "d1/d80/a24342.html#a1849f49a9682627753b8bd39b3ff827e", null ],
+    [ "AfterRemove", "d1/d80/a24342.html#a7c08bea735cd36840463aa942e7529b4", null ],
+    [ "PrepareAuraScript", "d1/d80/a24342.html#ad27880f797137cae09381e860727e2f7", null ],
+    [ "Register", "d1/d80/a24342.html#a6c105609c1ee61a8f845018550b2e3ba", null ]
 ];

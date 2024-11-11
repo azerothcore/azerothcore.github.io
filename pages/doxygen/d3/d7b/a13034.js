@@ -1,8 +1,7 @@
 var a13034 =
 [
-    [ "OnPeriodic", "d3/d7b/a13034.html#acd400b0a061d1814591e33d16bf4180a", null ],
-    [ "OnRemove", "d3/d7b/a13034.html#a3da85c726007690220e9b4f81d30f185", null ],
-    [ "PrepareAuraScript", "d3/d7b/a13034.html#a216d723f309ffa46df4bba7af79752c8", null ],
-    [ "Register", "d3/d7b/a13034.html#a43fe84c2717d73e20a2562f596a84f36", null ],
-    [ "Validate", "d3/d7b/a13034.html#a4ab8e285bae57560eee85d3a837ac2f5", null ]
+    [ "HandleSchoolDamage", "d3/d7b/a13034.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
+    [ "PrepareSpellScript", "d3/d7b/a13034.html#a8063f3d669e07dc0768607feb9a2f763", null ],
+    [ "Register", "d3/d7b/a13034.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
+    [ "Validate", "d3/d7b/a13034.html#af90ae09274b0082bd8bd674ca43596f6", null ]
 ];
