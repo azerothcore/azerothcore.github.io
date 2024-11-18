@@ -1,4 +1,4 @@
 var a04445 =
 [
-    [ "CliThread", "da/d19/a04667.html#ga2a2e263e5224262317a4728b5a4c18ac", null ]
+    [ "ScriptRegistry< WeatherScript >", "d6/d70/a04445.html#aa691cee39a36861af34c3315e7aa582b", null ]
 ];

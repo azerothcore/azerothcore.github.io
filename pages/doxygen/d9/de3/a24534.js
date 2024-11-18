@@ -1,6 +1,6 @@
 var a24534 =
 [
-    [ "CheckAreaTarget", "d9/de3/a24534.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
-    [ "PrepareAuraScript", "d9/de3/a24534.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
-    [ "Register", "d9/de3/a24534.html#a6647a8e35009cf8559e4957a666f037a", null ]
+    [ "CheckProc", "d9/de3/a24534.html#afa477049b9a4fa18594b203a6066d205", null ],
+    [ "PrepareAuraScript", "d9/de3/a24534.html#a9fff895957dfedb5d975e4a8e9588aa9", null ],
+    [ "Register", "d9/de3/a24534.html#ab0746e7fa614f09708f89ed3ef93fca9", null ]
 ];

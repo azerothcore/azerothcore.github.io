@@ -1,15 +1,14 @@
 var a09546 =
 [
-    [ "const_iterator", "d4/d08/a09546.html#a78bdb53e78488faa65effb2706140558", null ],
-    [ "iterator", "d4/d08/a09546.html#aff8f555370355b24f386c86d2f900bc3", null ],
-    [ "begin", "d4/d08/a09546.html#a6774b551f0d64628e33594c7b486a872", null ],
-    [ "begin", "d4/d08/a09546.html#a3ba9493437881e83c07f07cc992c274a", null ],
-    [ "end", "d4/d08/a09546.html#af488c0096775085791b5fbc89e5851a0", null ],
-    [ "end", "d4/d08/a09546.html#acb8ebd37d1458773b65311060e844e4b", null ],
-    [ "getFirst", "d4/d08/a09546.html#a2981143744c8e08a42104a5d08659be4", null ],
-    [ "getFirst", "d4/d08/a09546.html#a4d5eb2b65f0a586a3e809acb2c26f6cb", null ],
-    [ "getLast", "d4/d08/a09546.html#ab9c66d320815602126292a14cae69872", null ],
-    [ "getLast", "d4/d08/a09546.html#a6f7379252f5907d9240e3d364d3a8c02", null ],
-    [ "rbegin", "d4/d08/a09546.html#a147b3fe09037c1b80bb122c627000b0a", null ],
-    [ "rend", "d4/d08/a09546.html#afb985b9c750f3ff01cb1adaa6f86c78f", null ]
+    [ "BattlegroundMap", "d4/d08/a09546.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
+    [ "~BattlegroundMap", "d4/d08/a09546.html#a327d241fd7930e9b3a98ba50014d5131", null ],
+    [ "AddPlayerToMap", "d4/d08/a09546.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
+    [ "CannotEnter", "d4/d08/a09546.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
+    [ "GetBG", "d4/d08/a09546.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
+    [ "InitVisibilityDistance", "d4/d08/a09546.html#af2d6847765d10fab527d77b26dd770ad", null ],
+    [ "RemoveAllPlayers", "d4/d08/a09546.html#a5093cbf8005d06452eeb202513323c1e", null ],
+    [ "RemovePlayerFromMap", "d4/d08/a09546.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
+    [ "SetBG", "d4/d08/a09546.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
+    [ "SetUnload", "d4/d08/a09546.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
+    [ "m_bg", "d4/d08/a09546.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
 ];

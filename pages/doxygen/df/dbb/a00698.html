@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_npc.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/botanica/instance_the_botanica.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,271 +106,64 @@ $(document).ready(function(){initNavTree('df/dbb/a00698.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">cs_npc.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">instance_the_botanica.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TargetedMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">the_botanica.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0f/a11398.html">NpcFlagText</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d77/a23422.html">instance_the_botanica</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1a/a11402.html">MechanicImmune</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d70/a23426.html">instance_the_botanica::instance_the_botanica_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dab/a11406.html">SpellSchoolImmune</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5b/a23430.html">spell_botanica_call_of_the_falcon_aura</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8f/a11410.html">npc_commandscript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/a23434.html">spell_botanica_shift_form_aura</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:afc1ed6083684621f30fbabb23d2986c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#afc1ed6083684621f30fbabb23d2986c0">NPCFLAG_COUNT</a>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:afc1ed6083684621f30fbabb23d2986c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a5e5fd5f7a85fd4ad7fe92f2125f17acc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a5e5fd5f7a85fd4ad7fe92f2125f17acc">CreatureSpawnId</a> = <a class="el" href="../../d8/dd6/a07470.html">Variant</a>&lt; <a class="el" href="../../d4/d36/a07462.html">Hyperlink</a>&lt; creature &gt;, <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> &gt;</td></tr>
-<tr class="separator:a5e5fd5f7a85fd4ad7fe92f2125f17acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220449830f7fe293c9d82dcd3b84acd9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a220449830f7fe293c9d82dcd3b84acd9">CreatureEntry</a> = <a class="el" href="../../d8/dd6/a07470.html">Variant</a>&lt; <a class="el" href="../../d4/d36/a07462.html">Hyperlink</a>&lt; creature_entry &gt;, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;</td></tr>
-<tr class="separator:a220449830f7fe293c9d82dcd3b84acd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae99689f5e8e57f75adfcf54370ed979d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#ae99689f5e8e57f75adfcf54370ed979d">AddSC_npc_commandscript</a> ()</td></tr>
-<tr class="separator:ae99689f5e8e57f75adfcf54370ed979d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a048bdd249b6deeed66fba6bad126b30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d0f/a11398.html">NpcFlagText</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a048bdd249b6deeed66fba6bad126b30b">npcFlagTexts</a> [<a class="el" href="../../df/dbb/a00698.html#afc1ed6083684621f30fbabb23d2986c0">NPCFLAG_COUNT</a>]</td></tr>
-<tr class="separator:a048bdd249b6deeed66fba6bad126b30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e8359f68aec0f69f42fe7aee7934859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1a/a11402.html">MechanicImmune</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a9e8359f68aec0f69f42fe7aee7934859">mechanicImmunes</a> [<a class="el" href="../../df/dfb/a04472.html#a8fe6a763d72d84ded23cec01c772f7adaaee270cf1a99c6c99a0953cf91f72c6c">MAX_MECHANIC</a>]</td></tr>
-<tr class="separator:a9e8359f68aec0f69f42fe7aee7934859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8708a11856730666b04e749bc0952c8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dab/a11406.html">SpellSchoolImmune</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a8708a11856730666b04e749bc0952c8f">spellSchoolImmunes</a> [<a class="el" href="../../df/dfb/a04472.html#a3d2e33bfddb1e3c28157eb6d136bfd28">MAX_SPELL_SCHOOL</a>]</td></tr>
-<tr class="separator:a8708a11856730666b04e749bc0952c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bac8d93a9aac296390fec4cb6b94cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a42bac8d93a9aac296390fec4cb6b94cb">AddSC_instance_the_botanica</a> ()</td></tr>
+<tr class="separator:a42bac8d93a9aac296390fec4cb6b94cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="afc1ed6083684621f30fbabb23d2986c0" name="afc1ed6083684621f30fbabb23d2986c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc1ed6083684621f30fbabb23d2986c0">&#9670;&#160;</a></span>NPCFLAG_COUNT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NPCFLAG_COUNT&#160;&#160;&#160;24</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a220449830f7fe293c9d82dcd3b84acd9" name="a220449830f7fe293c9d82dcd3b84acd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220449830f7fe293c9d82dcd3b84acd9">&#9670;&#160;</a></span>CreatureEntry</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../df/dbb/a00698.html#a220449830f7fe293c9d82dcd3b84acd9">CreatureEntry</a> =  <a class="el" href="../../d8/dd6/a07470.html">Variant</a>&lt;<a class="el" href="../../d4/d36/a07462.html">Hyperlink</a>&lt;creature_entry&gt;, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e5fd5f7a85fd4ad7fe92f2125f17acc" name="a5e5fd5f7a85fd4ad7fe92f2125f17acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e5fd5f7a85fd4ad7fe92f2125f17acc">&#9670;&#160;</a></span>CreatureSpawnId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../df/dbb/a00698.html#a5e5fd5f7a85fd4ad7fe92f2125f17acc">CreatureSpawnId</a> =  <a class="el" href="../../d8/dd6/a07470.html">Variant</a>&lt;<a class="el" href="../../d4/d36/a07462.html">Hyperlink</a>&lt;creature&gt;, <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae99689f5e8e57f75adfcf54370ed979d" name="ae99689f5e8e57f75adfcf54370ed979d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae99689f5e8e57f75adfcf54370ed979d">&#9670;&#160;</a></span>AddSC_npc_commandscript()</h2>
+<a id="a42bac8d93a9aac296390fec4cb6b94cb" name="a42bac8d93a9aac296390fec4cb6b94cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bac8d93a9aac296390fec4cb6b94cb">&#9670;&#160;</a></span>AddSC_instance_the_botanica()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_npc_commandscript </td>
+          <td class="memname">void AddSC_instance_the_botanica </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1272</span>{</div>
-<div class="line"><span class="lineno"> 1273</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d8f/a11410.html">npc_commandscript</a>();</div>
-<div class="line"><span class="lineno"> 1274</span>}</div>
-<div class="ttc" id="aa11410_html"><div class="ttname"><a href="../../db/d8f/a11410.html">npc_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_npc.cpp:132</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  151</span>{</div>
+<div class="line"><span class="lineno">  152</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d77/a23422.html">instance_the_botanica</a>();</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_define" href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d5b/a23430.html">spell_botanica_call_of_the_falcon_aura</a>);</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_define" href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/dff/a23434.html">spell_botanica_shift_form_aura</a>);</div>
+<div class="line"><span class="lineno">  155</span>}</div>
+<div class="ttc" id="aa04388_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
+<div class="ttc" id="aa23422_html"><div class="ttname"><a href="../../d5/d77/a23422.html">instance_the_botanica</a></div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:27</div></div>
+<div class="ttc" id="aa23430_html"><div class="ttname"><a href="../../dc/d5b/a23430.html">spell_botanica_call_of_the_falcon_aura</a></div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:47</div></div>
+<div class="ttc" id="aa23434_html"><div class="ttname"><a href="../../d2/dff/a23434.html">spell_botanica_shift_form_aura</a></div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:89</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
 
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a9e8359f68aec0f69f42fe7aee7934859" name="a9e8359f68aec0f69f42fe7aee7934859"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e8359f68aec0f69f42fe7aee7934859">&#9670;&#160;</a></span>mechanicImmunes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1a/a11402.html">MechanicImmune</a> const mechanicImmunes[<a class="el" href="../../df/dfb/a04472.html#a8fe6a763d72d84ded23cec01c772f7adaaee270cf1a99c6c99a0953cf91f72c6c">MAX_MECHANIC</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00557">npc_commandscript::HandleNpcInfoCommand()</a>.</p>
-
-</div>
-</div>
-<a id="a048bdd249b6deeed66fba6bad126b30b" name="a048bdd249b6deeed66fba6bad126b30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a048bdd249b6deeed66fba6bad126b30b">&#9670;&#160;</a></span>npcFlagTexts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/d0f/a11398.html">NpcFlagText</a> const npcFlagTexts[<a class="el" href="../../df/dbb/a00698.html#afc1ed6083684621f30fbabb23d2986c0">NPCFLAG_COUNT</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a">UNIT_NPC_FLAG_AUCTIONEER</a>,         <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9a66a009c4980b3d24be0ab8a37e3088">LANG_NPCINFO_AUCTIONEER</a>         },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a29b833bdfa06ddcecd79767dfd521f8f">UNIT_NPC_FLAG_BANKER</a>,             <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9c7274b11b4e6b803e5af27d777fe923">LANG_NPCINFO_BANKER</a>             },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a8934e8d4b86f03e5d578b153eeb63758">UNIT_NPC_FLAG_BATTLEMASTER</a>,       <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9eefc9b036565fd2d045f991a8ce7dde">LANG_NPCINFO_BATTLEMASTER</a>       },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2acf8ee0729f52b2faf0dbdb070b0d80d5">UNIT_NPC_FLAG_FLIGHTMASTER</a>,       <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa63ce68f70fa5fe0973d3d7818f395475">LANG_NPCINFO_FLIGHTMASTER</a>       },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>,             <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa16f123129c6e6a400295922698ecec7d">LANG_NPCINFO_GOSSIP</a>             },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a6382420cab5f5cfb854bed6c5cb54804">UNIT_NPC_FLAG_GUILD_BANKER</a>,       <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa329a376f6b8e740436d7f58282a9226d">LANG_NPCINFO_GUILD_BANKER</a>       },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ab04ef9ae98b1939d4cb013d00ef53e2b">UNIT_NPC_FLAG_INNKEEPER</a>,          <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0d0d783cd006fe8e22c26a7dc24528ff">LANG_NPCINFO_INNKEEPER</a>          },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aef868440d7c3da43fe9cde0cea10385f">UNIT_NPC_FLAG_PETITIONER</a>,         <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9d6955ce989d0798094ee1718f535595">LANG_NPCINFO_PETITIONER</a>         },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2acbb1c65d42b14ed4fe750fe86e1ff46c">UNIT_NPC_FLAG_PLAYER_VEHICLE</a>,     <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aabcfcf2a38d30bebce87a52dad7cd4bba">LANG_NPCINFO_PLAYER_VEHICLE</a>     },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>,         <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa2abbc94cc32bf6c8b90e24b9a3563031">LANG_NPCINFO_QUESTGIVER</a>         },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ae1bb7b9e3ed002517b2a8756d473f2e6">UNIT_NPC_FLAG_REPAIR</a>,             <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf96beb88a37b80a6973d53abb0663af2">LANG_NPCINFO_REPAIR</a>             },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>,         <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa0cc40586d77af2500ab5b76fd5be486">LANG_NPCINFO_SPELLCLICK</a>         },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2af5789ff5df78d3483e816ce1933ea4e3">UNIT_NPC_FLAG_SPIRITGUIDE</a>,        <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa70d492d795698a0a36c001b8ecd08728">LANG_NPCINFO_SPIRITGUIDE</a>        },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2af7e06b8b4d7b6d6bb16accfa1c48409d">UNIT_NPC_FLAG_SPIRITHEALER</a>,       <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf11e6adfdc2f09d7539bf1bfecc785d9">LANG_NPCINFO_SPIRITHEALER</a>       },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7914b3a07153a9c06a9475030f9e12c2">UNIT_NPC_FLAG_STABLEMASTER</a>,       <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaae270f97aba9d0fb476304f5cc65972d">LANG_NPCINFO_STABLEMASTER</a>       },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a1f8c0adcb3099c2e5cc6b69757fc37f0">UNIT_NPC_FLAG_TABARDDESIGNER</a>,     <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa5ee7af0047636957b1e0a963d48aa057">LANG_NPCINFO_TABARDDESIGNER</a>     },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aee8ff901aca85eef5e74e278c4e7c083">UNIT_NPC_FLAG_TRAINER</a>,            <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa24da973aee656cd0841fc374dd82dc88">LANG_NPCINFO_TRAINER</a>            },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ad78130becc220b0cbf9036e1a74fa960">UNIT_NPC_FLAG_TRAINER_CLASS</a>,      <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa7b73353c164d2109386159c8f84c4d81">LANG_NPCINFO_TRAINER_CLASS</a>      },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ae122f3cacfbbd7b91297fd427fdfa602">UNIT_NPC_FLAG_TRAINER_PROFESSION</a>, <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa12a380c263a6b3fe2b8ed57ce40b4a6c">LANG_NPCINFO_TRAINER_PROFESSION</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a712ae9993604b84baac0e4e833d73cd0">UNIT_NPC_FLAG_VENDOR</a>,             <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa3945da9e15f39d6caeb0b2be5dea0c4c">LANG_NPCINFO_VENDOR</a>             },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a1a30e0bc88915dbd96e58ef959cbb8b3">UNIT_NPC_FLAG_VENDOR_AMMO</a>,        <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa2c5eeee16b167d987579af28b67afc4d">LANG_NPCINFO_VENDOR_AMMO</a>        },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a96718491f9fa88e0a6cb75b9580a69e5">UNIT_NPC_FLAG_VENDOR_FOOD</a>,        <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9b63c94f13041f67597585a4c6e6a717">LANG_NPCINFO_VENDOR_FOOD</a>        },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a57001bfcef756447892ad19109b29ce8">UNIT_NPC_FLAG_VENDOR_POISON</a>,      <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa74649b29c37a30cb36d115a2e8b8f56e">LANG_NPCINFO_VENDOR_POISON</a>      },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7958764283985359d7e0560dae79920c">UNIT_NPC_FLAG_VENDOR_REAGENT</a>,     <a class="code hl_enumvalue" href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0d7501519bbff0da7080add429c54d4c">LANG_NPCINFO_VENDOR_REAGENT</a>     }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa0d0d783cd006fe8e22c26a7dc24528ff"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0d0d783cd006fe8e22c26a7dc24528ff">LANG_NPCINFO_INNKEEPER</a></div><div class="ttdeci">@ LANG_NPCINFO_INNKEEPER</div><div class="ttdef"><b>Definition:</b> Language.h:772</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa0d7501519bbff0da7080add429c54d4c"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0d7501519bbff0da7080add429c54d4c">LANG_NPCINFO_VENDOR_REAGENT</a></div><div class="ttdeci">@ LANG_NPCINFO_VENDOR_REAGENT</div><div class="ttdef"><b>Definition:</b> Language.h:767</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa12a380c263a6b3fe2b8ed57ce40b4a6c"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa12a380c263a6b3fe2b8ed57ce40b4a6c">LANG_NPCINFO_TRAINER_PROFESSION</a></div><div class="ttdeci">@ LANG_NPCINFO_TRAINER_PROFESSION</div><div class="ttdef"><b>Definition:</b> Language.h:763</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa16f123129c6e6a400295922698ecec7d"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa16f123129c6e6a400295922698ecec7d">LANG_NPCINFO_GOSSIP</a></div><div class="ttdeci">@ LANG_NPCINFO_GOSSIP</div><div class="ttdef"><b>Definition:</b> Language.h:760</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa24da973aee656cd0841fc374dd82dc88"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa24da973aee656cd0841fc374dd82dc88">LANG_NPCINFO_TRAINER</a></div><div class="ttdeci">@ LANG_NPCINFO_TRAINER</div><div class="ttdef"><b>Definition:</b> Language.h:593</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa2abbc94cc32bf6c8b90e24b9a3563031"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa2abbc94cc32bf6c8b90e24b9a3563031">LANG_NPCINFO_QUESTGIVER</a></div><div class="ttdeci">@ LANG_NPCINFO_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> Language.h:761</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa2c5eeee16b167d987579af28b67afc4d"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa2c5eeee16b167d987579af28b67afc4d">LANG_NPCINFO_VENDOR_AMMO</a></div><div class="ttdeci">@ LANG_NPCINFO_VENDOR_AMMO</div><div class="ttdef"><b>Definition:</b> Language.h:764</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa329a376f6b8e740436d7f58282a9226d"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa329a376f6b8e740436d7f58282a9226d">LANG_NPCINFO_GUILD_BANKER</a></div><div class="ttdeci">@ LANG_NPCINFO_GUILD_BANKER</div><div class="ttdef"><b>Definition:</b> Language.h:779</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa3945da9e15f39d6caeb0b2be5dea0c4c"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa3945da9e15f39d6caeb0b2be5dea0c4c">LANG_NPCINFO_VENDOR</a></div><div class="ttdeci">@ LANG_NPCINFO_VENDOR</div><div class="ttdef"><b>Definition:</b> Language.h:592</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa5ee7af0047636957b1e0a963d48aa057"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa5ee7af0047636957b1e0a963d48aa057">LANG_NPCINFO_TABARDDESIGNER</a></div><div class="ttdeci">@ LANG_NPCINFO_TABARDDESIGNER</div><div class="ttdef"><b>Definition:</b> Language.h:775</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa63ce68f70fa5fe0973d3d7818f395475"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa63ce68f70fa5fe0973d3d7818f395475">LANG_NPCINFO_FLIGHTMASTER</a></div><div class="ttdeci">@ LANG_NPCINFO_FLIGHTMASTER</div><div class="ttdef"><b>Definition:</b> Language.h:769</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa70d492d795698a0a36c001b8ecd08728"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa70d492d795698a0a36c001b8ecd08728">LANG_NPCINFO_SPIRITGUIDE</a></div><div class="ttdeci">@ LANG_NPCINFO_SPIRITGUIDE</div><div class="ttdef"><b>Definition:</b> Language.h:771</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa74649b29c37a30cb36d115a2e8b8f56e"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa74649b29c37a30cb36d115a2e8b8f56e">LANG_NPCINFO_VENDOR_POISON</a></div><div class="ttdeci">@ LANG_NPCINFO_VENDOR_POISON</div><div class="ttdef"><b>Definition:</b> Language.h:766</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa7b73353c164d2109386159c8f84c4d81"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa7b73353c164d2109386159c8f84c4d81">LANG_NPCINFO_TRAINER_CLASS</a></div><div class="ttdeci">@ LANG_NPCINFO_TRAINER_CLASS</div><div class="ttdef"><b>Definition:</b> Language.h:762</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9a66a009c4980b3d24be0ab8a37e3088"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9a66a009c4980b3d24be0ab8a37e3088">LANG_NPCINFO_AUCTIONEER</a></div><div class="ttdeci">@ LANG_NPCINFO_AUCTIONEER</div><div class="ttdef"><b>Definition:</b> Language.h:777</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9b63c94f13041f67597585a4c6e6a717"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9b63c94f13041f67597585a4c6e6a717">LANG_NPCINFO_VENDOR_FOOD</a></div><div class="ttdeci">@ LANG_NPCINFO_VENDOR_FOOD</div><div class="ttdef"><b>Definition:</b> Language.h:765</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9c7274b11b4e6b803e5af27d777fe923"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9c7274b11b4e6b803e5af27d777fe923">LANG_NPCINFO_BANKER</a></div><div class="ttdeci">@ LANG_NPCINFO_BANKER</div><div class="ttdef"><b>Definition:</b> Language.h:773</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9d6955ce989d0798094ee1718f535595"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9d6955ce989d0798094ee1718f535595">LANG_NPCINFO_PETITIONER</a></div><div class="ttdeci">@ LANG_NPCINFO_PETITIONER</div><div class="ttdef"><b>Definition:</b> Language.h:774</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9eefc9b036565fd2d045f991a8ce7dde"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9eefc9b036565fd2d045f991a8ce7dde">LANG_NPCINFO_BATTLEMASTER</a></div><div class="ttdeci">@ LANG_NPCINFO_BATTLEMASTER</div><div class="ttdef"><b>Definition:</b> Language.h:776</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aaa0cc40586d77af2500ab5b76fd5be486"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa0cc40586d77af2500ab5b76fd5be486">LANG_NPCINFO_SPELLCLICK</a></div><div class="ttdeci">@ LANG_NPCINFO_SPELLCLICK</div><div class="ttdef"><b>Definition:</b> Language.h:780</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aaae270f97aba9d0fb476304f5cc65972d"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaae270f97aba9d0fb476304f5cc65972d">LANG_NPCINFO_STABLEMASTER</a></div><div class="ttdeci">@ LANG_NPCINFO_STABLEMASTER</div><div class="ttdef"><b>Definition:</b> Language.h:778</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aabcfcf2a38d30bebce87a52dad7cd4bba"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aabcfcf2a38d30bebce87a52dad7cd4bba">LANG_NPCINFO_PLAYER_VEHICLE</a></div><div class="ttdeci">@ LANG_NPCINFO_PLAYER_VEHICLE</div><div class="ttdef"><b>Definition:</b> Language.h:782</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aaf11e6adfdc2f09d7539bf1bfecc785d9"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf11e6adfdc2f09d7539bf1bfecc785d9">LANG_NPCINFO_SPIRITHEALER</a></div><div class="ttdeci">@ LANG_NPCINFO_SPIRITHEALER</div><div class="ttdef"><b>Definition:</b> Language.h:770</div></div>
-<div class="ttc" id="aa02729_html_af9ee42b1cf006ecb2d2e74fe71c0761aaf96beb88a37b80a6973d53abb0663af2"><div class="ttname"><a href="../../dd/d01/a02729.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf96beb88a37b80a6973d53abb0663af2">LANG_NPCINFO_REPAIR</a></div><div class="ttdeci">@ LANG_NPCINFO_REPAIR</div><div class="ttdef"><b>Definition:</b> Language.h:768</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a1a30e0bc88915dbd96e58ef959cbb8b3"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a1a30e0bc88915dbd96e58ef959cbb8b3">UNIT_NPC_FLAG_VENDOR_AMMO</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_VENDOR_AMMO</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:302</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a1f8c0adcb3099c2e5cc6b69757fc37f0"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a1f8c0adcb3099c2e5cc6b69757fc37f0">UNIT_NPC_FLAG_TABARDDESIGNER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_TABARDDESIGNER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:313</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a29b833bdfa06ddcecd79767dfd521f8f"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a29b833bdfa06ddcecd79767dfd521f8f">UNIT_NPC_FLAG_BANKER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_BANKER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:311</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a">UNIT_NPC_FLAG_AUCTIONEER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_AUCTIONEER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:315</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a57001bfcef756447892ad19109b29ce8"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a57001bfcef756447892ad19109b29ce8">UNIT_NPC_FLAG_VENDOR_POISON</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_VENDOR_POISON</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:304</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a6382420cab5f5cfb854bed6c5cb54804"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a6382420cab5f5cfb854bed6c5cb54804">UNIT_NPC_FLAG_GUILD_BANKER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GUILD_BANKER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:317</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a712ae9993604b84baac0e4e833d73cd0"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a712ae9993604b84baac0e4e833d73cd0">UNIT_NPC_FLAG_VENDOR</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_VENDOR</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:301</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a7914b3a07153a9c06a9475030f9e12c2"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7914b3a07153a9c06a9475030f9e12c2">UNIT_NPC_FLAG_STABLEMASTER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_STABLEMASTER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:316</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a7958764283985359d7e0560dae79920c"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7958764283985359d7e0560dae79920c">UNIT_NPC_FLAG_VENDOR_REAGENT</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_VENDOR_REAGENT</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:305</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:294</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a8934e8d4b86f03e5d578b153eeb63758"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a8934e8d4b86f03e5d578b153eeb63758">UNIT_NPC_FLAG_BATTLEMASTER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_BATTLEMASTER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:314</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2a96718491f9fa88e0a6cb75b9580a69e5"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2a96718491f9fa88e0a6cb75b9580a69e5">UNIT_NPC_FLAG_VENDOR_FOOD</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_VENDOR_FOOD</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:303</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:295</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2ab04ef9ae98b1939d4cb013d00ef53e2b"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ab04ef9ae98b1939d4cb013d00ef53e2b">UNIT_NPC_FLAG_INNKEEPER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_INNKEEPER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:310</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_SPELLCLICK</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:318</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2acbb1c65d42b14ed4fe750fe86e1ff46c"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2acbb1c65d42b14ed4fe750fe86e1ff46c">UNIT_NPC_FLAG_PLAYER_VEHICLE</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_PLAYER_VEHICLE</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:319</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2acf8ee0729f52b2faf0dbdb070b0d80d5"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2acf8ee0729f52b2faf0dbdb070b0d80d5">UNIT_NPC_FLAG_FLIGHTMASTER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_FLIGHTMASTER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:307</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2ad78130becc220b0cbf9036e1a74fa960"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ad78130becc220b0cbf9036e1a74fa960">UNIT_NPC_FLAG_TRAINER_CLASS</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_TRAINER_CLASS</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:299</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2ae122f3cacfbbd7b91297fd427fdfa602"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ae122f3cacfbbd7b91297fd427fdfa602">UNIT_NPC_FLAG_TRAINER_PROFESSION</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_TRAINER_PROFESSION</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:300</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2ae1bb7b9e3ed002517b2a8756d473f2e6"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2ae1bb7b9e3ed002517b2a8756d473f2e6">UNIT_NPC_FLAG_REPAIR</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_REPAIR</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:306</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2aee8ff901aca85eef5e74e278c4e7c083"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aee8ff901aca85eef5e74e278c4e7c083">UNIT_NPC_FLAG_TRAINER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_TRAINER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:298</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2aef868440d7c3da43fe9cde0cea10385f"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2aef868440d7c3da43fe9cde0cea10385f">UNIT_NPC_FLAG_PETITIONER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_PETITIONER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:312</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2af5789ff5df78d3483e816ce1933ea4e3"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2af5789ff5df78d3483e816ce1933ea4e3">UNIT_NPC_FLAG_SPIRITGUIDE</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_SPIRITGUIDE</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:309</div></div>
-<div class="ttc" id="aa04097_html_ab054baf099d873bce22a0e84ae1090e2af7e06b8b4d7b6d6bb16accfa1c48409d"><div class="ttname"><a href="../../dd/d44/a04097.html#ab054baf099d873bce22a0e84ae1090e2af7e06b8b4d7b6d6bb16accfa1c48409d">UNIT_NPC_FLAG_SPIRITHEALER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_SPIRITHEALER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:308</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00557">npc_commandscript::HandleNpcInfoCommand()</a>.</p>
-
-</div>
-</div>
-<a id="a8708a11856730666b04e749bc0952c8f" name="a8708a11856730666b04e749bc0952c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8708a11856730666b04e749bc0952c8f">&#9670;&#160;</a></span>spellSchoolImmunes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/dab/a11406.html">SpellSchoolImmune</a> const spellSchoolImmunes[<a class="el" href="../../df/dfb/a04472.html#a3d2e33bfddb1e3c28157eb6d136bfd28">MAX_SPELL_SCHOOL</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af">SPELL_SCHOOL_NORMAL</a>, <span class="stringliteral">&quot;SPELL_SCHOOL_NORMAL&quot;</span> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62">SPELL_SCHOOL_HOLY</a>,   <span class="stringliteral">&quot;SPELL_SCHOOL_HOLY&quot;</span>   },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a>,   <span class="stringliteral">&quot;SPELL_SCHOOL_FIRE&quot;</span>   },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572">SPELL_SCHOOL_NATURE</a>, <span class="stringliteral">&quot;SPELL_SCHOOL_NATURE&quot;</span> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a>,  <span class="stringliteral">&quot;SPELL_SCHOOL_FROST&quot;</span>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a>, <span class="stringliteral">&quot;SPELL_SCHOOL_SHADOW&quot;</span> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a>, <span class="stringliteral">&quot;SPELL_SCHOOL_ARCANE&quot;</span> },</div>
-<div class="line">}</div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a></div><div class="ttdeci">@ SPELL_SCHOOL_SHADOW</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:288</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af">SPELL_SCHOOL_NORMAL</a></div><div class="ttdeci">@ SPELL_SCHOOL_NORMAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:283</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572">SPELL_SCHOOL_NATURE</a></div><div class="ttdeci">@ SPELL_SCHOOL_NATURE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:286</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a></div><div class="ttdeci">@ SPELL_SCHOOL_FROST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:287</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a></div><div class="ttdeci">@ SPELL_SCHOOL_ARCANE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:289</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a></div><div class="ttdeci">@ SPELL_SCHOOL_FIRE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:285</div></div>
-<div class="ttc" id="aa04472_html_a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62"><div class="ttname"><a href="../../df/dfb/a04472.html#a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62">SPELL_SCHOOL_HOLY</a></div><div class="ttdeci">@ SPELL_SCHOOL_HOLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:284</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00557">npc_commandscript::HandleNpcInfoCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
 
 </div>
 </div>
@@ -379,8 +172,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../df/dbb/a00698.html">cs_npc.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_a6196a4e0c27f9c5f415985d4d3c16ae.html">TempestKeep</a></li><li class="navelem"><a class="el" href="../../dir_4779894407d544470b3cc26007097924.html">botanica</a></li><li class="navelem"><a class="el" href="../../df/dbb/a00698.html">instance_the_botanica.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

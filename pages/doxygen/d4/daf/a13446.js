@@ -1,10 +1,7 @@
 var a13446 =
 [
-    [ "boss_alyson_antille", "d4/daf/a13446.html#a8b95891ced3f17f67470d1ec7b1a9a3e", null ],
-    [ "GetNearbyFriendlies", "d4/daf/a13446.html#ab99596d5c2eafac8c678378d509bf585", null ],
-    [ "JustEngagedWith", "d4/daf/a13446.html#a7a7d62c52a403ac1d8e5d275a74cad6e", null ],
-    [ "RandomReverseFriendlyList", "d4/daf/a13446.html#afef27de229ba2c3b8beb30809a313237", null ],
-    [ "Reset", "d4/daf/a13446.html#a40d901bde9f8419a1c73aa073f6fb334", null ],
-    [ "UpdateAI", "d4/daf/a13446.html#a15157be42d166a239ab658fc04292e44", null ],
-    [ "_friendlyList", "d4/daf/a13446.html#a0168c4a0f1e9862fe0d83ffac89aa634", null ]
+    [ "Load", "d4/daf/a13446.html#a9888c598c4d6cf77c49e15f68c3db225", null ],
+    [ "OnPeriodic", "d4/daf/a13446.html#adbaa8d2cfd21cae1dd8fb964479bad83", null ],
+    [ "PrepareAuraScript", "d4/daf/a13446.html#a07abb27367cc0a59bdf60a30dfb7cfb0", null ],
+    [ "Register", "d4/daf/a13446.html#ac2db8f8d9b778a0a36081c897f4149cb", null ]
 ];

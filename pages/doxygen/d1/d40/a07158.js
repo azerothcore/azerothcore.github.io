@@ -1,12 +1,9 @@
 var a07158 =
 [
-    [ "CapturePointInfo", "d1/d40/a07158.html#a8bd80d9a019a5579d32051c6c3f91c0b", null ],
-    [ "IsUncontrolled", "d1/d40/a07158.html#a4a4dbb61dd3ae83084ee518830fb7db0", null ],
-    [ "IsUnderControl", "d1/d40/a07158.html#a3f33897525f5104e2e7733dd6247c090", null ],
-    [ "IsUnderControl", "d1/d40/a07158.html#af6b021020b120b87c300981b8bb60992", null ],
-    [ "_areaTrigger", "d1/d40/a07158.html#aca64138e11e9e29a55bfedeee5b7e7ea", null ],
-    [ "_barStatus", "d1/d40/a07158.html#a02da5cc40ac6e97e63380d6f66e10d7e", null ],
-    [ "_ownerTeamId", "d1/d40/a07158.html#a5f0019635c5d05489f1ef97a95a7f01d", null ],
-    [ "_playersCount", "d1/d40/a07158.html#a7316d0eccaa25b9f30a39c48635e4c16", null ],
-    [ "player", "d1/d40/a07158.html#a97c5da6401e8423c1314ad1186e1dfeb", null ]
+    [ "BattlegroundEYLosingPointStruct", "d1/d40/a07158.html#ae3f19e55206e1a8097fe173a8a37aa12", null ],
+    [ "DespawnObjectTypeAlliance", "d1/d40/a07158.html#a210828d05ea9948484631b7408a3bb4b", null ],
+    [ "DespawnObjectTypeHorde", "d1/d40/a07158.html#a335205cb71b7055db4c01a5e562001b6", null ],
+    [ "MessageIdAlliance", "d1/d40/a07158.html#afe89eccc8c21351edb4ce943d937e521", null ],
+    [ "MessageIdHorde", "d1/d40/a07158.html#a8295974ee1f663dd0d22bcc4f0e0fa92", null ],
+    [ "SpawnNeutralObjectType", "d1/d40/a07158.html#a57c1a6f485ea6617b5218da411cae38f", null ]
 ];

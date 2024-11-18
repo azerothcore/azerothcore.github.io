@@ -1,7 +1,6 @@
 var a18878 =
 [
-    [ "EoEDrakeEnterVehicleEvent", "d2/d86/a18878.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
-    [ "Execute", "d2/d86/a18878.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
-    [ "_owner", "d2/d86/a18878.html#ab48302fdff800afddfeec2c0d756873c", null ],
-    [ "_playerGUID", "d2/d86/a18878.html#add56bff0695453e01f300e0434a39ec8", null ]
+    [ "npc_eoe_wyrmrest_skytalonAI", "d2/d86/a18878.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
+    [ "JustDied", "d2/d86/a18878.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
+    [ "PassengerBoarded", "d2/d86/a18878.html#aa3352276e87d805cc8722eb97d10ca46", null ]
 ];

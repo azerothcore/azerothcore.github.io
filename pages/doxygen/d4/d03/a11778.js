@@ -1,11 +1,11 @@
 var a11778 =
 [
-    [ "npc_rookery_hatcherAI", "d4/d03/a11778.html#a3154429437a108edf77de7ec1f0b2cda", null ],
-    [ "InitializeAI", "d4/d03/a11778.html#af144dc2cbe632038057f931fd71da29d", null ],
-    [ "JustEngagedWith", "d4/d03/a11778.html#a7b7ecaa42bdd35f4ee9fe7fad4cd25a9", null ],
-    [ "UpdateAI", "d4/d03/a11778.html#a0f867aa346a2f829067466fbfe6c5335", null ],
-    [ "events", "d4/d03/a11778.html#a220e6f9869d0ea53a593a6ac8e0e28bd", null ],
-    [ "nearbyEggs", "d4/d03/a11778.html#a2cf183745cdf699af7bd273e0ee4d697", null ],
-    [ "targetEgg", "d4/d03/a11778.html#a877af9948503688944e49503a6293574", null ],
-    [ "targetPosition", "d4/d03/a11778.html#a2e94b3d12ef3d8f80546db6c9a9e9e95", null ]
+    [ "npc_blackhand_incarceratorAI", "d4/d03/a11778.html#adecfd5bcc6bf5fee0688459ebac03e18", null ],
+    [ "DamageTaken", "d4/d03/a11778.html#a3bc090518cba2bc64fb5c454bbb47b72", null ],
+    [ "JustEngagedWith", "d4/d03/a11778.html#a2026328f428c4e5c15551773255da21f", null ],
+    [ "Reset", "d4/d03/a11778.html#a3a98f2d5fd764c852a1d9418315cd56b", null ],
+    [ "SetData", "d4/d03/a11778.html#ae9d92237c6327abd78ada9a306ee8a09", null ],
+    [ "UpdateAI", "d4/d03/a11778.html#a1bc6aa88d7bc5163e2cc4e2cc1779076", null ],
+    [ "_events", "d4/d03/a11778.html#abcd817233c0cb85656856c4107d86793", null ],
+    [ "_fleedForAssistance", "d4/d03/a11778.html#ab4e59b91b47dffc19db6b49ecd4c9fd8", null ]
 ];

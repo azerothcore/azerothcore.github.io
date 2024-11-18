@@ -1,6 +1,6 @@
 var a20862 =
 [
-    [ "boss_archavonAI", "da/d1f/a20866.html", "da/d1f/a20866" ],
-    [ "boss_archavon", "dd/d3f/a20862.html#a44e20480f8d86cf763afe67de49c6c33", null ],
-    [ "GetAI", "dd/d3f/a20862.html#a5eb62d54fe1559ef9df51c2bd01f7de4", null ]
+    [ "instance_utgarde_pinnacle_InstanceMapScript", "da/d1f/a20866.html", "da/d1f/a20866" ],
+    [ "instance_utgarde_pinnacle", "dd/d3f/a20862.html#a70c1528c9c1b0d830cc7af7debd5721b", null ],
+    [ "GetInstanceScript", "dd/d3f/a20862.html#a41bd06d5f42b09193c5f1b2bbb2323ac", null ]
 ];

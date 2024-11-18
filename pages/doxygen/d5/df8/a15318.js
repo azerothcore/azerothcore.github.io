@@ -1,7 +1,6 @@
 var a15318 =
 [
-    [ "npc_ranshallaAI", "d1/d79/a15322.html", "d1/d79/a15322" ],
-    [ "npc_ranshalla", "d5/df8/a15318.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
-    [ "GetAI", "d5/df8/a15318.html#a1a81651366cc05d3ad6e9929160fe059", null ],
-    [ "OnQuestAccept", "d5/df8/a15318.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
+    [ "npc_rivern_frostwind", "d5/df8/a15318.html#a0675c120fc28b26c7ea3c35f8d3f2a64", null ],
+    [ "OnGossipHello", "d5/df8/a15318.html#a90a6582633336de422c9f98973562b32", null ],
+    [ "OnGossipSelect", "d5/df8/a15318.html#a067ff91179f551633594d488eda269ed", null ]
 ];

@@ -1,4 +1,4 @@
 var a04412 =
 [
-    [ "CanRollOnItem", "db/daf/a04412.html#afbaf3417177da71d9f3c8be9eab09c2b", null ]
+    [ "ScriptRegistry< WorldMapScript >", "db/daf/a04412.html#a729e333e6d0c4e5e353dd22c9612f446", null ]
 ];

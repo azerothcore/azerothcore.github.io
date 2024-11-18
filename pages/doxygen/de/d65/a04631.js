@@ -1,6 +1,7 @@
 var a04631 =
 [
-    [ "RealmBuildInfo", "d8/dfe/a28190.html", "d8/dfe/a28190" ],
-    [ "RealmList", "d7/dca/a28194.html", "d7/dca/a28194" ],
-    [ "sRealmList", "de/d65/a04631.html#a639c880efde6e31a4bf6be6b5bcc3cd3", null ]
+    [ "SQLQueryHolderBase", "d3/d16/a05746.html", "d3/d16/a05746" ],
+    [ "SQLQueryHolder< T >", "dd/d82/a05598.html", "dd/d82/a05598" ],
+    [ "SQLQueryHolderTask", "d7/d55/a05750.html", "d7/d55/a05750" ],
+    [ "SQLQueryHolderCallback", "d7/d3f/a05754.html", "d7/d3f/a05754" ]
 ];

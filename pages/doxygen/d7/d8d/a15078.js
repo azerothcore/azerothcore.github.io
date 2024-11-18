@@ -1,6 +1,5 @@
 var a15078 =
 [
-    [ "npc_great_bear_spirit", "d7/d8d/a15078.html#a141470a3623aa1152d3505661f1532c8", null ],
-    [ "OnGossipHello", "d7/d8d/a15078.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
-    [ "OnGossipSelect", "d7/d8d/a15078.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
+    [ "at_ancient_leaf", "d7/d8d/a15078.html#a7c1913b5ac00659697d0b361f1a7a2fd", null ],
+    [ "OnTrigger", "d7/d8d/a15078.html#a6d3a2775216cb0c864dc21f5bb5dbc79", null ]
 ];

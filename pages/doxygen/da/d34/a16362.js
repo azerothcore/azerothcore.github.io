@@ -1,7 +1,6 @@
 var a16362 =
 [
-    [ "HandlePeriodicTick", "da/d34/a16362.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
-    [ "PrepareAuraScript", "da/d34/a16362.html#aabaef31a3c699c322e24e064f357f82f", null ],
-    [ "Register", "da/d34/a16362.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
-    [ "Validate", "da/d34/a16362.html#a18d92a82760992bc5d8503e3f774f208", null ]
+    [ "npc_fos_corrupted_soul_fragmentAI", "d6/d10/a16366.html", "d6/d10/a16366" ],
+    [ "npc_fos_corrupted_soul_fragment", "da/d34/a16362.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
+    [ "GetAI", "da/d34/a16362.html#aed663e0a313223fcaa988b89b1b02df3", null ]
 ];

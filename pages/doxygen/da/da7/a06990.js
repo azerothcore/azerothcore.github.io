@@ -1,8 +1,8 @@
 var a06990 =
 [
-    [ "entry", "da/da7/a06990.html#ab47ef3b15c887f46fb1bf9c88f5cc5d8", null ],
-    [ "o", "da/da7/a06990.html#af2bf42b7d1a18e7ee1125a305ee7bc79", null ],
-    [ "x", "da/da7/a06990.html#a4fb658cf54f9534e0686a8fa5b2328c7", null ],
-    [ "y", "da/da7/a06990.html#aa761c9076be145dab6d2cac773bb6e7a", null ],
-    [ "z", "da/da7/a06990.html#ac9ff501bbf00d80f5b9350a78ffbb6fb", null ]
+    [ "WintergraspCapturePoint", "da/da7/a06990.html#a36090feb3626e204e0029ea45f1d8136", null ],
+    [ "ChangeTeam", "da/da7/a06990.html#a66564dd3237538b256ebeb76d236001f", null ],
+    [ "GetTeam", "da/da7/a06990.html#a7ff4106591a5aac1ea8820016b8164bb", null ],
+    [ "LinkToWorkshop", "da/da7/a06990.html#a32d378eba7f0eea0f011b8ea8c7e6eee", null ],
+    [ "m_Workshop", "da/da7/a06990.html#a1e780ccd3759538fe4c9d7e3fc5447ed", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Crypto::SRP6 Class Reference</title>
+<title>AzerothCore: Acore::Crypto::ARC4 Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,514 +105,144 @@ $(document).ready(function(){initNavTree('d3/df3/a05058.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../dc/d7e/a05055.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Crypto::SRP6 Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Crypto::ARC4 Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SRP6.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ARC4.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a757f8fd19ebecda921e4e42f65586f9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> = std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a> &gt;</td></tr>
-<tr class="separator:a757f8fd19ebecda921e4e42f65586f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab771d05cb201bbdc3c20a5cb087a023e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> = std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a> &gt;</td></tr>
-<tr class="separator:ab771d05cb201bbdc3c20a5cb087a023e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae4839b42283dc258817a0d300b4bca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> = std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> &gt;</td></tr>
-<tr class="separator:afae4839b42283dc258817a0d300b4bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a75a70b4828e40146e59263a18527a77c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a75a70b4828e40146e59263a18527a77c">SRP6</a> (std::string const &amp;username, <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt, <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;verifier)</td></tr>
-<tr class="separator:a75a70b4828e40146e59263a18527a77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2270520850359c1e401ba883ef19bc66"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a2270520850359c1e401ba883ef19bc66">VerifyChallengeResponse</a> (<a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;A, <a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;clientM)</td></tr>
-<tr class="separator:a2270520850359c1e401ba883ef19bc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b6fd9e89b01f65dcc8ff4a2bef189f5"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a>, <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a7b6fd9e89b01f65dcc8ff4a2bef189f5">MakeRegistrationData</a> (std::string const &amp;username, std::string const &amp;password)</td></tr>
-<tr class="separator:a7b6fd9e89b01f65dcc8ff4a2bef189f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790d7883ae0685bf2135d83edeb29121"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a790d7883ae0685bf2135d83edeb29121">CheckLogin</a> (std::string const &amp;username, std::string const &amp;password, <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt, <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;verifier)</td></tr>
-<tr class="separator:a790d7883ae0685bf2135d83edeb29121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44e4e9c88fcfff3fb6f8c4b24c10ab6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#aa44e4e9c88fcfff3fb6f8c4b24c10ab6">GetSessionVerifier</a> (<a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;A, <a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;clientM, <a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;K)</td></tr>
-<tr class="separator:aa44e4e9c88fcfff3fb6f8c4b24c10ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:adddd53dfcb2d933c6fa7fd7956f6c7c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a></td></tr>
-<tr class="separator:adddd53dfcb2d933c6fa7fd7956f6c7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a508a8478810de9c7515ecd9311053010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a508a8478810de9c7515ecd9311053010">B</a></td></tr>
-<tr class="separator:a508a8478810de9c7515ecd9311053010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:add5273640d1504c69395c71d495a3deb"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a> = 32</td></tr>
-<tr class="separator:add5273640d1504c69395c71d495a3deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7f44395bcbc849665897c3d7db59d5"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a> = 32</td></tr>
-<tr class="separator:a3a7f44395bcbc849665897c3d7db59d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa40dc69a75bfd7c16f3d884c400aebb"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> = 32</td></tr>
-<tr class="separator:afa40dc69a75bfd7c16f3d884c400aebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e0339e5372c12d0a68e13c892d2b8b"><td class="memItemLeft" align="right" valign="top">static std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 1 &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a99e0339e5372c12d0a68e13c892d2b8b">g</a> = { 7 }</td></tr>
-<tr class="separator:a99e0339e5372c12d0a68e13c892d2b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1619df2fd1dd9fa5ebba195c7adf2a"><td class="memItemLeft" align="right" valign="top">static std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 32 &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a> = <a class="el" href="../../d3/de5/a00209.html#a0a709bcf2ca40e60217ee113150a1ad8">HexStrToByteArray</a>&lt;32&gt;(&quot;894B645E89E1535BBDAD5B8B290650530801B18EBFBF5E8FAB3C82872A3E9BB7&quot;, true)</td></tr>
-<tr class="separator:a5e1619df2fd1dd9fa5ebba195c7adf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a1d61f6a3ef4605658a6f01b2f2b9a733"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a> (std::string const &amp;username, std::string const &amp;password, <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt)</td></tr>
-<tr class="separator:a1d61f6a3ef4605658a6f01b2f2b9a733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bea2cb781fcda13809e79165f5c9821"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a4bea2cb781fcda13809e79165f5c9821">SHA1Interleave</a> (<a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;S)</td></tr>
-<tr class="separator:a4bea2cb781fcda13809e79165f5c9821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55fb807e4eeb5b2d0262618901125ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ac55fb807e4eeb5b2d0262618901125ad">_B</a> (<a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;b, <a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;v)</td></tr>
-<tr class="separator:ac55fb807e4eeb5b2d0262618901125ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac05d4f85233abfc5cbcb87cd2a87bc5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ac05d4f85233abfc5cbcb87cd2a87bc5a">ARC4</a> ()</td></tr>
+<tr class="separator:ac05d4f85233abfc5cbcb87cd2a87bc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a8b63c2073120026c262a685eef8f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#af3a8b63c2073120026c262a685eef8f2">~ARC4</a> ()</td></tr>
+<tr class="separator:af3a8b63c2073120026c262a685eef8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa9c89da159b57a897898bc31e10ecd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#aaa9c89da159b57a897898bc31e10ecd4">Init</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *seed, std::size_t len)</td></tr>
+<tr class="separator:aaa9c89da159b57a897898bc31e10ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68993c30cafb864abd5ae0c49ee8296e"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
+<tr class="memitem:a68993c30cafb864abd5ae0c49ee8296e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a68993c30cafb864abd5ae0c49ee8296e">Init</a> (<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;c)</td></tr>
+<tr class="separator:a68993c30cafb864abd5ae0c49ee8296e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4023480221891e0d1ccd7a92aabd173c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a4023480221891e0d1ccd7a92aabd173c">UpdateData</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *data, std::size_t len)</td></tr>
+<tr class="separator:a4023480221891e0d1ccd7a92aabd173c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae350945f2713305e977e4a3e4fc3d5b5"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
+<tr class="memitem:ae350945f2713305e977e4a3e4fc3d5b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ae350945f2713305e977e4a3e4fc3d5b5">UpdateData</a> (<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;c)</td></tr>
+<tr class="separator:ae350945f2713305e977e4a3e4fc3d5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a440a76a05a5847a081fbe35e582ee643"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a440a76a05a5847a081fbe35e582ee643">_used</a> = false</td></tr>
-<tr class="separator:a440a76a05a5847a081fbe35e582ee643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf160be38247f3335e2790c13011e8eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#adf160be38247f3335e2790c13011e8eb">_I</a></td></tr>
-<tr class="separator:adf160be38247f3335e2790c13011e8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10b48d44b72d117fdc0a8ad7b4d026f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a></td></tr>
-<tr class="separator:ae10b48d44b72d117fdc0a8ad7b4d026f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8df898648a196d62d0d7c2f7f9769d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a></td></tr>
-<tr class="separator:aca8df898648a196d62d0d7c2f7f9769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ad2e325ecdd9cad99008b2663600e6180"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ad2e325ecdd9cad99008b2663600e6180">_g</a></td></tr>
-<tr class="separator:ad2e325ecdd9cad99008b2663600e6180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6467d93d9b2c57d6676c2351eb5a4e0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a></td></tr>
-<tr class="separator:a6467d93d9b2c57d6676c2351eb5a4e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab017c87cd73a9b5fade745799724c333"><td class="memItemLeft" align="right" valign="top">EVP_CIPHER *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#ab017c87cd73a9b5fade745799724c333">_cipher</a></td></tr>
+<tr class="separator:ab017c87cd73a9b5fade745799724c333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8539413b1e0344abe9545f742cc8e6df"><td class="memItemLeft" align="right" valign="top">EVP_CIPHER_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a></td></tr>
+<tr class="separator:a8539413b1e0344abe9545f742cc8e6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="afae4839b42283dc258817a0d300b4bca" name="afae4839b42283dc258817a0d300b4bca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afae4839b42283dc258817a0d300b4bca">&#9670;&#160;</a></span>EphemeralKey</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac05d4f85233abfc5cbcb87cd2a87bc5a" name="ac05d4f85233abfc5cbcb87cd2a87bc5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac05d4f85233abfc5cbcb87cd2a87bc5a">&#9670;&#160;</a></span>ARC4()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">Acore::Crypto::SRP6::EphemeralKey</a> =  std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a757f8fd19ebecda921e4e42f65586f9f" name="a757f8fd19ebecda921e4e42f65586f9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a757f8fd19ebecda921e4e42f65586f9f">&#9670;&#160;</a></span>Salt</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Acore::Crypto::SRP6::Salt</a> =  std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab771d05cb201bbdc3c20a5cb087a023e" name="ab771d05cb201bbdc3c20a5cb087a023e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab771d05cb201bbdc3c20a5cb087a023e">&#9670;&#160;</a></span>Verifier</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Acore::Crypto::SRP6::Verifier</a> =  std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d3/df3/a05058.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a75a70b4828e40146e59263a18527a77c" name="a75a70b4828e40146e59263a18527a77c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75a70b4828e40146e59263a18527a77c">&#9670;&#160;</a></span>SRP6()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SRP6::SRP6 </td>
+          <td class="memname">Acore::Crypto::ARC4::ARC4 </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;&#160;</td>
-          <td class="paramname"><em>verifier</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>    : <a class="code hl_variable" href="../../d3/df3/a05058.html#adf160be38247f3335e2790c13011e8eb">_I</a>(<a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(username)), <a class="code hl_variable" href="../../d3/df3/a05058.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>(Crypto::GetRandomBytes&lt;32&gt;()), <a class="code hl_variable" href="../../d3/df3/a05058.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>(verifier), <a class="code hl_variable" href="../../d3/df3/a05058.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a>(salt), <a class="code hl_variable" href="../../d3/df3/a05058.html#a508a8478810de9c7515ecd9311053010">B</a>(<a class="code hl_function" href="../../d3/df3/a05058.html#ac55fb807e4eeb5b2d0262618901125ad">_B</a>(<a class="code hl_variable" href="../../d3/df3/a05058.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>, <a class="code hl_variable" href="../../d3/df3/a05058.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>)) {}</div>
-<div class="ttc" id="aa05058_html_a508a8478810de9c7515ecd9311053010"><div class="ttname"><a href="../../d3/df3/a05058.html#a508a8478810de9c7515ecd9311053010">Acore::Crypto::SRP6::B</a></div><div class="ttdeci">EphemeralKey const B</div><div class="ttdef"><b>Definition:</b> SRP6.h:79</div></div>
-<div class="ttc" id="aa05058_html_ac55fb807e4eeb5b2d0262618901125ad"><div class="ttname"><a href="../../d3/df3/a05058.html#ac55fb807e4eeb5b2d0262618901125ad">Acore::Crypto::SRP6::_B</a></div><div class="ttdeci">static EphemeralKey _B(BigNumber const &amp;b, BigNumber const &amp;v)</div><div class="ttdef"><b>Definition:</b> SRP6.h:70</div></div>
-<div class="ttc" id="aa05058_html_aca8df898648a196d62d0d7c2f7f9769d"><div class="ttname"><a href="../../d3/df3/a05058.html#aca8df898648a196d62d0d7c2f7f9769d">Acore::Crypto::SRP6::_v</a></div><div class="ttdeci">BigNumber const _v</div><div class="ttdef"><b>Definition:</b> SRP6.h:75</div></div>
-<div class="ttc" id="aa05058_html_adddd53dfcb2d933c6fa7fd7956f6c7c3"><div class="ttname"><a href="../../d3/df3/a05058.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">Acore::Crypto::SRP6::s</a></div><div class="ttdeci">Salt const s</div><div class="ttdef"><b>Definition:</b> SRP6.h:78</div></div>
-<div class="ttc" id="aa05058_html_adf160be38247f3335e2790c13011e8eb"><div class="ttname"><a href="../../d3/df3/a05058.html#adf160be38247f3335e2790c13011e8eb">Acore::Crypto::SRP6::_I</a></div><div class="ttdeci">SHA1::Digest const _I</div><div class="ttdef"><b>Definition:</b> SRP6.h:73</div></div>
-<div class="ttc" id="aa05058_html_ae10b48d44b72d117fdc0a8ad7b4d026f"><div class="ttname"><a href="../../d3/df3/a05058.html#ae10b48d44b72d117fdc0a8ad7b4d026f">Acore::Crypto::SRP6::_b</a></div><div class="ttdeci">BigNumber const _b</div><div class="ttdef"><b>Definition:</b> SRP6.h:74</div></div>
-<div class="ttc" id="aa05078_html_a42db9cd1a68778340bfdb7c7a8a049de"><div class="ttname"><a href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">Acore::Impl::GenericHash::GetDigestOf</a></div><div class="ttdeci">static Digest GetDigestOf(uint8 const *data, std::size_t len)</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:48</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   21</span>                      : <a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>(EVP_CIPHER_CTX_new())</div>
+<div class="line"><span class="lineno">   22</span>{</div>
+<div class="line"><span class="lineno">   23</span>    <a class="code hl_variable" href="../../d3/df3/a05058.html#ab017c87cd73a9b5fade745799724c333">_cipher</a> = EVP_CIPHER_fetch(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;RC4&quot;</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   24</span> </div>
+<div class="line"><span class="lineno">   25</span>    EVP_CIPHER_CTX_init(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>);</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordtype">int</span> result = EVP_EncryptInit_ex(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, <a class="code hl_variable" href="../../d3/df3/a05058.html#ab017c87cd73a9b5fade745799724c333">_cipher</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa05058_html_a8539413b1e0344abe9545f742cc8e6df"><div class="ttname"><a href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">Acore::Crypto::ARC4::_ctx</a></div><div class="ttdeci">EVP_CIPHER_CTX * _ctx</div><div class="ttdef"><b>Definition:</b> ARC4.h:44</div></div>
+<div class="ttc" id="aa05058_html_ab017c87cd73a9b5fade745799724c333"><div class="ttname"><a href="../../d3/df3/a05058.html#ab017c87cd73a9b5fade745799724c333">Acore::Crypto::ARC4::_cipher</a></div><div class="ttdeci">EVP_CIPHER * _cipher</div><div class="ttdef"><b>Definition:</b> ARC4.h:43</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00043">_cipher</a>, <a class="el" href="../../#l00044">_ctx</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="af3a8b63c2073120026c262a685eef8f2" name="af3a8b63c2073120026c262a685eef8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a8b63c2073120026c262a685eef8f2">&#9670;&#160;</a></span>~ARC4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acore::Crypto::ARC4::~ARC4 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    EVP_CIPHER_CTX_free(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>);</div>
+<div class="line"><span class="lineno">   33</span>    EVP_CIPHER_free(<a class="code hl_variable" href="../../d3/df3/a05058.html#ab017c87cd73a9b5fade745799724c333">_cipher</a>);</div>
+<div class="line"><span class="lineno">   34</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac55fb807e4eeb5b2d0262618901125ad" name="ac55fb807e4eeb5b2d0262618901125ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac55fb807e4eeb5b2d0262618901125ad">&#9670;&#160;</a></span>_B()</h2>
+<a id="a68993c30cafb864abd5ae0c49ee8296e" name="a68993c30cafb864abd5ae0c49ee8296e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68993c30cafb864abd5ae0c49ee8296e">&#9670;&#160;</a></span>Init() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> Acore::Crypto::SRP6::_B </td>
+          <td class="memname">void Acore::Crypto::ARC4::Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> ((<a class="code hl_variable" href="../../d3/df3/a05058.html#ad2e325ecdd9cad99008b2663600e6180">_g</a>.<a class="code hl_function" href="../../d8/d59/a05062.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(b, <a class="code hl_variable" href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>) + (v * 3)) % <a class="code hl_variable" href="../../d3/df3/a05058.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>).ToByteArray&lt;<a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a>&gt;(); }</div>
-<div class="ttc" id="aa05058_html_a5e1619df2fd1dd9fa5ebba195c7adf2a"><div class="ttname"><a href="../../d3/df3/a05058.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">Acore::Crypto::SRP6::N</a></div><div class="ttdeci">static std::array&lt; uint8, 32 &gt; const N</div><div class="ttdef"><b>Definition:</b> SRP6.h:41</div></div>
-<div class="ttc" id="aa05058_html_a6467d93d9b2c57d6676c2351eb5a4e0a"><div class="ttname"><a href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">Acore::Crypto::SRP6::_N</a></div><div class="ttdeci">static BigNumber const _N</div><div class="ttdef"><b>Definition:</b> SRP6.h:68</div></div>
-<div class="ttc" id="aa05058_html_ad2e325ecdd9cad99008b2663600e6180"><div class="ttname"><a href="../../d3/df3/a05058.html#ad2e325ecdd9cad99008b2663600e6180">Acore::Crypto::SRP6::_g</a></div><div class="ttdeci">static BigNumber const _g</div><div class="ttdef"><b>Definition:</b> SRP6.h:67</div></div>
-<div class="ttc" id="aa05058_html_afa40dc69a75bfd7c16f3d884c400aebb"><div class="ttname"><a href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">Acore::Crypto::SRP6::EPHEMERAL_KEY_LENGTH</a></div><div class="ttdeci">static constexpr std::size_t EPHEMERAL_KEY_LENGTH</div><div class="ttdef"><b>Definition:</b> SRP6.h:37</div></div>
-<div class="ttc" id="aa05062_html_a20156698f9ba2361dd37c8239355d2da"><div class="ttname"><a href="../../d8/d59/a05062.html#a20156698f9ba2361dd37c8239355d2da">BigNumber::ModExp</a></div><div class="ttdeci">BigNumber ModExp(BigNumber const &amp;bn1, BigNumber const &amp;bn2) const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:153</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00153">BigNumber::ModExp()</a>.</p>
-
-</div>
-</div>
-<a id="a1d61f6a3ef4605658a6f01b2f2b9a733" name="a1d61f6a3ef4605658a6f01b2f2b9a733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d61f6a3ef4605658a6f01b2f2b9a733">&#9670;&#160;</a></span>CalculateVerifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">SRP6::Verifier</a> SRP6::CalculateVerifier </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">SRP6::Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <span class="comment">// v = g ^ H(s || H(u || &#39;:&#39; || p)) mod N</span></div>
-<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/df3/a05058.html#ad2e325ecdd9cad99008b2663600e6180">_g</a>.<a class="code hl_function" href="../../d8/d59/a05062.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(</div>
-<div class="line"><span class="lineno">   43</span>        <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(</div>
-<div class="line"><span class="lineno">   44</span>            salt,</div>
-<div class="line"><span class="lineno">   45</span>            <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(username, <span class="stringliteral">&quot;:&quot;</span>, password)</div>
-<div class="line"><span class="lineno">   46</span>        )</div>
-<div class="line"><span class="lineno">   47</span>    ,<a class="code hl_variable" href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>).<a class="code hl_function" href="../../d8/d59/a05062.html#a2d8f945d5e123c4f81c10d3202b8d462">ToByteArray</a>&lt;32&gt;();</div>
-<div class="line"><span class="lineno">   48</span>}</div>
-<div class="ttc" id="aa05062_html_a2d8f945d5e123c4f81c10d3202b8d462"><div class="ttname"><a href="../../d8/d59/a05062.html#a2d8f945d5e123c4f81c10d3202b8d462">BigNumber::ToByteArray</a></div><div class="ttdeci">std::array&lt; uint8, Size &gt; ToByteArray(bool littleEndian=true) const</div><div class="ttdef"><b>Definition:</b> BigNumber.h:123</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00067">_g</a>, <a class="el" href="../../#l00068">_N</a>, <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00153">BigNumber::ModExp()</a>, and <a class="el" href="../../#l00123">BigNumber::ToByteArray()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00031">MakeRegistrationData()</a>.</p>
-
-</div>
-</div>
-<a id="a790d7883ae0685bf2135d83edeb29121" name="a790d7883ae0685bf2135d83edeb29121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a790d7883ae0685bf2135d83edeb29121">&#9670;&#160;</a></span>CheckLogin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool Acore::Crypto::SRP6::CheckLogin </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;&#160;</td>
-          <td class="paramname"><em>verifier</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
-<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">return</span> (verifier == <a class="code hl_function" href="../../d3/df3/a05058.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a>(username, password, salt));</div>
-<div class="line"><span class="lineno">   50</span>        }</div>
-<div class="ttc" id="aa05058_html_a1d61f6a3ef4605658a6f01b2f2b9a733"><div class="ttname"><a href="../../d3/df3/a05058.html#a1d61f6a3ef4605658a6f01b2f2b9a733">Acore::Crypto::SRP6::CalculateVerifier</a></div><div class="ttdeci">static Verifier CalculateVerifier(std::string const &amp;username, std::string const &amp;password, Salt const &amp;salt)</div><div class="ttdef"><b>Definition:</b> SRP6.cpp:39</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00154">RASession::CheckPassword()</a>, and <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>.</p>
-
-</div>
-</div>
-<a id="aa44e4e9c88fcfff3fb6f8c4b24c10ab6" name="aa44e4e9c88fcfff3fb6f8c4b24c10ab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa44e4e9c88fcfff3fb6f8c4b24c10ab6">&#9670;&#160;</a></span>GetSessionVerifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> Acore::Crypto::SRP6::GetSessionVerifier </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;&#160;</td>
-          <td class="paramname"><em>clientM</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>K</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   53</span>        {</div>
-<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(A, clientM, K);</div>
-<div class="line"><span class="lineno">   55</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>.</p>
-
-</div>
-</div>
-<a id="a7b6fd9e89b01f65dcc8ff4a2bef189f5" name="a7b6fd9e89b01f65dcc8ff4a2bef189f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6fd9e89b01f65dcc8ff4a2bef189f5">&#9670;&#160;</a></span>MakeRegistrationData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">SRP6::Salt</a>, <a class="el" href="../../d3/df3/a05058.html#ab771d05cb201bbdc3c20a5cb087a023e">SRP6::Verifier</a> &gt; SRP6::MakeRegistrationData </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    std::pair&lt;SRP6::Salt, SRP6::Verifier&gt; res;</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_function" href="../../d4/d70/a04684.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Crypto::GetRandomBytes</a>(res.first); <span class="comment">// random salt</span></div>
-<div class="line"><span class="lineno">   35</span>    res.second = <a class="code hl_function" href="../../d3/df3/a05058.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a>(username, password, res.first);</div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa04684_html_ab09d7cc2f8e11fc5fe6b2323d57b7184"><div class="ttname"><a href="../../d4/d70/a04684.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a></div><div class="ttdeci">std::array&lt; uint8, S &gt; GetRandomBytes()</div><div class="ttdef"><b>Definition:</b> CryptoRandom.h:35</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">CalculateVerifier()</a>, and <a class="el" href="../../#l00035">Acore::Crypto::GetRandomBytes()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00198">AccountMgr::ChangePassword()</a>, <a class="el" href="../../#l00164">AccountMgr::ChangeUsername()</a>, and <a class="el" href="../../#l00030">AccountMgr::CreateAccount()</a>.</p>
-
-</div>
-</div>
-<a id="a4bea2cb781fcda13809e79165f5c9821" name="a4bea2cb781fcda13809e79165f5c9821"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bea2cb781fcda13809e79165f5c9821">&#9670;&#160;</a></span>SHA1Interleave()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> SRP6::SHA1Interleave </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">SRP6::EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>S</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <span class="comment">// split S into two buffers</span></div>
-<div class="line"><span class="lineno">   53</span>    std::array&lt;<a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2&gt; buf0{}, buf1{};</div>
-<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; <a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2; ++i)</div>
-<div class="line"><span class="lineno">   55</span>    {</div>
-<div class="line"><span class="lineno">   56</span>        buf0[i] = S[2 * i + 0];</div>
-<div class="line"><span class="lineno">   57</span>        buf1[i] = S[2 * i + 1];</div>
-<div class="line"><span class="lineno">   58</span>    }</div>
-<div class="line"><span class="lineno">   59</span> </div>
-<div class="line"><span class="lineno">   60</span>    <span class="comment">// find position of first nonzero byte</span></div>
-<div class="line"><span class="lineno">   61</span>    std::size_t p = 0;</div>
-<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">while</span> (p &lt; <a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> &amp;&amp; !S[p])</div>
-<div class="line"><span class="lineno">   63</span>        ++p;</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">if</span> (p &amp; 1)</div>
-<div class="line"><span class="lineno">   66</span>        ++p; <span class="comment">// skip one extra byte if p is odd</span></div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>    p /= 2; <span class="comment">// offset into buffers</span></div>
-<div class="line"><span class="lineno">   69</span> </div>
-<div class="line"><span class="lineno">   70</span>    <span class="comment">// hash each of the halves, starting at the first nonzero byte</span></div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> hash0 = <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(buf0.data() + p, <a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2 - p);</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> hash1 = <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(buf1.data() + p, <a class="code hl_variable" href="../../d3/df3/a05058.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2 - p);</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>    <span class="comment">// stick the two hashes back together</span></div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_typedef" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> K;</div>
-<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; <a class="code hl_variable" href="../../d1/d1f/a05078.html#af6e4303fbffe4f52dec13026532f0a87">SHA1::DIGEST_LENGTH</a>; ++i)</div>
-<div class="line"><span class="lineno">   77</span>    {</div>
-<div class="line"><span class="lineno">   78</span>        K[2 * i + 0] = hash0[i];</div>
-<div class="line"><span class="lineno">   79</span>        K[2 * i + 1] = hash1[i];</div>
-<div class="line"><span class="lineno">   80</span>    }</div>
-<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">return</span> K;</div>
-<div class="line"><span class="lineno">   82</span>}</div>
-<div class="ttc" id="aa00179_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa00383_html_a7cbcb71452529a2addaab3b112dba4d7"><div class="ttname"><a href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a></div><div class="ttdeci">std::array&lt; uint8, SESSION_KEY_LENGTH &gt; SessionKey</div><div class="ttdef"><b>Definition:</b> AuthDefines.h:25</div></div>
-<div class="ttc" id="aa05078_html_abf69027dd4096b1bda0e5d78fbceba05"><div class="ttname"><a href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Impl::GenericHash::Digest</a></div><div class="ttdeci">std::array&lt; uint8, DIGEST_LENGTH &gt; Digest</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:46</div></div>
-<div class="ttc" id="aa05078_html_af6e4303fbffe4f52dec13026532f0a87"><div class="ttname"><a href="../../d1/d1f/a05078.html#af6e4303fbffe4f52dec13026532f0a87">Acore::Impl::GenericHash::DIGEST_LENGTH</a></div><div class="ttdeci">static constexpr std::size_t DIGEST_LENGTH</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:45</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{ <a class="code hl_function" href="../../d3/df3/a05058.html#aaa9c89da159b57a897898bc31e10ecd4">Init</a>(std::data(c), std::size(c)); }</div>
+<div class="ttc" id="aa05058_html_aaa9c89da159b57a897898bc31e10ecd4"><div class="ttname"><a href="../../d3/df3/a05058.html#aaa9c89da159b57a897898bc31e10ecd4">Acore::Crypto::ARC4::Init</a></div><div class="ttdeci">void Init(uint8 const *seed, std::size_t len)</div><div class="ttdef"><b>Definition:</b> ARC4.cpp:36</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00045">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::DIGEST_LENGTH</a>, <a class="el" href="../../#l00037">EPHEMERAL_KEY_LENGTH</a>, and <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00036">Init()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00036">Init()</a>.</p>
 
 </div>
 </div>
-<a id="a2270520850359c1e401ba883ef19bc66" name="a2270520850359c1e401ba883ef19bc66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2270520850359c1e401ba883ef19bc66">&#9670;&#160;</a></span>VerifyChallengeResponse()</h2>
+<a id="aaa9c89da159b57a897898bc31e10ecd4" name="aaa9c89da159b57a897898bc31e10ecd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa9c89da159b57a897898bc31e10ecd4">&#9670;&#160;</a></span>Init() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> &gt; SRP6::VerifyChallengeResponse </td>
+          <td class="memname">void Acore::Crypto::ARC4::Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *&#160;</td>
+          <td class="paramname"><em>seed</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;&#160;</td>
-          <td class="paramname"><em>clientM</em>&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -621,45 +251,95 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d3/df3/a05058.html#a440a76a05a5847a081fbe35e582ee643">_used</a>, <span class="stringliteral">&quot;A single SRP6 object must only ever be used to verify ONCE!&quot;</span>);</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_variable" href="../../d3/df3/a05058.html#a440a76a05a5847a081fbe35e582ee643">_used</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_class" href="../../d8/d59/a05062.html">BigNumber</a> <span class="keyword">const</span> _A(A);</div>
-<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">if</span> ((_A % <a class="code hl_variable" href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>).IsZero())</div>
-<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">   95</span> </div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_class" href="../../d8/d59/a05062.html">BigNumber</a> <span class="keyword">const</span> u(<a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(A, <a class="code hl_variable" href="../../d3/df3/a05058.html#a508a8478810de9c7515ecd9311053010">B</a>));</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_typedef" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> <span class="keyword">const</span> S = (_A * (<a class="code hl_variable" href="../../d3/df3/a05058.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>.<a class="code hl_function" href="../../d8/d59/a05062.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(u, <a class="code hl_variable" href="../../d3/df3/a05058.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>))).ModExp(<a class="code hl_variable" href="../../d3/df3/a05058.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>, <a class="code hl_variable" href="../../d3/df3/a05058.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>).ToByteArray&lt;32&gt;();</div>
-<div class="line"><span class="lineno">   98</span> </div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_typedef" href="../../da/dee/a00383.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> K = <a class="code hl_function" href="../../d3/df3/a05058.html#a4bea2cb781fcda13809e79165f5c9821">SHA1Interleave</a>(S);</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>    <span class="comment">// NgHash = H(N) xor H(g)</span></div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> NHash = <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(<a class="code hl_variable" href="../../d3/df3/a05058.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>);</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> gHash = <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(<a class="code hl_variable" href="../../d3/df3/a05058.html#a99e0339e5372c12d0a68e13c892d2b8b">g</a>);</div>
-<div class="line"><span class="lineno">  104</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> NgHash;</div>
-<div class="line"><span class="lineno">  105</span>    std::transform(NHash.begin(), NHash.end(), gHash.begin(), NgHash.begin(), std::bit_xor&lt;&gt;());</div>
-<div class="line"><span class="lineno">  106</span> </div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_typedef" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> ourM = <a class="code hl_function" href="../../d1/d1f/a05078.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(NgHash, <a class="code hl_variable" href="../../d3/df3/a05058.html#adf160be38247f3335e2790c13011e8eb">_I</a>, <a class="code hl_variable" href="../../d3/df3/a05058.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a>, A, <a class="code hl_variable" href="../../d3/df3/a05058.html#a508a8478810de9c7515ecd9311053010">B</a>, K);</div>
-<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (ourM == clientM)</div>
-<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> K;</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">  112</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa05058_html_a440a76a05a5847a081fbe35e582ee643"><div class="ttname"><a href="../../d3/df3/a05058.html#a440a76a05a5847a081fbe35e582ee643">Acore::Crypto::SRP6::_used</a></div><div class="ttdeci">bool _used</div><div class="ttdef"><b>Definition:</b> SRP6.h:61</div></div>
-<div class="ttc" id="aa05058_html_a4bea2cb781fcda13809e79165f5c9821"><div class="ttname"><a href="../../d3/df3/a05058.html#a4bea2cb781fcda13809e79165f5c9821">Acore::Crypto::SRP6::SHA1Interleave</a></div><div class="ttdeci">static SessionKey SHA1Interleave(EphemeralKey const &amp;S)</div><div class="ttdef"><b>Definition:</b> SRP6.cpp:50</div></div>
-<div class="ttc" id="aa05058_html_a99e0339e5372c12d0a68e13c892d2b8b"><div class="ttname"><a href="../../d3/df3/a05058.html#a99e0339e5372c12d0a68e13c892d2b8b">Acore::Crypto::SRP6::g</a></div><div class="ttdeci">static std::array&lt; uint8, 1 &gt; const g</div><div class="ttdef"><b>Definition:</b> SRP6.h:40</div></div>
-<div class="ttc" id="aa05058_html_afae4839b42283dc258817a0d300b4bca"><div class="ttname"><a href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">Acore::Crypto::SRP6::EphemeralKey</a></div><div class="ttdeci">std::array&lt; uint8, EPHEMERAL_KEY_LENGTH &gt; EphemeralKey</div><div class="ttdef"><b>Definition:</b> SRP6.h:38</div></div>
-<div class="ttc" id="aa05062_html"><div class="ttname"><a href="../../d8/d59/a05062.html">BigNumber</a></div><div class="ttdef"><b>Definition:</b> BigNumber.h:29</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordtype">int</span> result1 = EVP_CIPHER_CTX_set_key_length(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, len);</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result1 == 1);</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordtype">int</span> result2 = EVP_EncryptInit_ex(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, seed, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result2 == 1);</div>
+<div class="line"><span class="lineno">   42</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00074">_b</a>, <a class="el" href="../../#l00073">_I</a>, <a class="el" href="../../#l00068">_N</a>, <a class="el" href="../../#l00061">_used</a>, <a class="el" href="../../#l00075">_v</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00079">B</a>, <a class="el" href="../../#l00040">g</a>, <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00153">BigNumber::ModExp()</a>, <a class="el" href="../../#l00041">N</a>, <a class="el" href="../../#l00078">s</a>, and <a class="el" href="../../#l00050">SHA1Interleave()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00121">WardenMac::HandleHashResult()</a>, <a class="el" href="../../#l00229">WardenWin::HandleHashResult()</a>, <a class="el" href="../../#l00022">AuthCrypt::Init()</a>, <a class="el" href="../../#l00036">WardenMac::Init()</a>, and <a class="el" href="../../#l00112">WardenWin::Init()</a>.</p>
+
+</div>
+</div>
+<a id="ae350945f2713305e977e4a3e4fc3d5b5" name="ae350945f2713305e977e4a3e4fc3d5b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae350945f2713305e977e4a3e4fc3d5b5">&#9670;&#160;</a></span>UpdateData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acore::Crypto::ARC4::UpdateData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <a class="code hl_class" href="../../de/d8b/a08238.html">UpdateData</a>(std::data(c), std::size(c)); }</div>
+<div class="ttc" id="aa08238_html"><div class="ttname"><a href="../../de/d8b/a08238.html">UpdateData</a></div><div class="ttdef"><b>Definition:</b> UpdateData.h:52</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00041">UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00041">UpdateData()</a>.</p>
+
+</div>
+</div>
+<a id="a4023480221891e0d1ccd7a92aabd173c" name="a4023480221891e0d1ccd7a92aabd173c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4023480221891e0d1ccd7a92aabd173c">&#9670;&#160;</a></span>UpdateData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acore::Crypto::ARC4::UpdateData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordtype">int</span> outlen = 0;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordtype">int</span> result1 = EVP_EncryptUpdate(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, data, &amp;outlen, data, len);</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result1 == 1);</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordtype">int</span> result2 = EVP_EncryptFinal_ex(<a class="code hl_variable" href="../../d3/df3/a05058.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, data, &amp;outlen);</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result2 == 1);</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00130">Warden::DecryptData()</a>, <a class="el" href="../../#l00038">AuthCrypt::DecryptRecv()</a>, <a class="el" href="../../#l00135">Warden::EncryptData()</a>, <a class="el" href="../../#l00044">AuthCrypt::EncryptSend()</a>, and <a class="el" href="../../#l00022">AuthCrypt::Init()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae10b48d44b72d117fdc0a8ad7b4d026f" name="ae10b48d44b72d117fdc0a8ad7b4d026f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae10b48d44b72d117fdc0a8ad7b4d026f">&#9670;&#160;</a></span>_b</h2>
+<a id="ab017c87cd73a9b5fade745799724c333" name="ab017c87cd73a9b5fade745799724c333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab017c87cd73a9b5fade745799724c333">&#9670;&#160;</a></span>_cipher</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -668,7 +348,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const Acore::Crypto::SRP6::_b</td>
+          <td class="memname">EVP_CIPHER* Acore::Crypto::ARC4::_cipher</td>
         </tr>
       </table>
   </td>
@@ -678,12 +358,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00021">ARC4()</a>.</p>
 
 </div>
 </div>
-<a id="ad2e325ecdd9cad99008b2663600e6180" name="ad2e325ecdd9cad99008b2663600e6180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2e325ecdd9cad99008b2663600e6180">&#9670;&#160;</a></span>_g</h2>
+<a id="a8539413b1e0344abe9545f742cc8e6df" name="a8539413b1e0344abe9545f742cc8e6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8539413b1e0344abe9545f742cc8e6df">&#9670;&#160;</a></span>_ctx</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,31 +372,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const SRP6::_g</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00039">CalculateVerifier()</a>.</p>
-
-</div>
-</div>
-<a id="adf160be38247f3335e2790c13011e8eb" name="adf160be38247f3335e2790c13011e8eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf160be38247f3335e2790c13011e8eb">&#9670;&#160;</a></span>_I</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d1f/a05078.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const Acore::Crypto::SRP6::_I</td>
+          <td class="memname">EVP_CIPHER_CTX* Acore::Crypto::ARC4::_ctx</td>
         </tr>
       </table>
   </td>
@@ -726,231 +382,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a6467d93d9b2c57d6676c2351eb5a4e0a" name="a6467d93d9b2c57d6676c2351eb5a4e0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6467d93d9b2c57d6676c2351eb5a4e0a">&#9670;&#160;</a></span>_N</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const SRP6::_N</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00039">CalculateVerifier()</a>, and <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a440a76a05a5847a081fbe35e582ee643" name="a440a76a05a5847a081fbe35e582ee643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a440a76a05a5847a081fbe35e582ee643">&#9670;&#160;</a></span>_used</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acore::Crypto::SRP6::_used = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="aca8df898648a196d62d0d7c2f7f9769d" name="aca8df898648a196d62d0d7c2f7f9769d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8df898648a196d62d0d7c2f7f9769d">&#9670;&#160;</a></span>_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const Acore::Crypto::SRP6::_v</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a508a8478810de9c7515ecd9311053010" name="a508a8478810de9c7515ecd9311053010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a508a8478810de9c7515ecd9311053010">&#9670;&#160;</a></span>B</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/df3/a05058.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const Acore::Crypto::SRP6::B</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="afa40dc69a75bfd7c16f3d884c400aebb" name="afa40dc69a75bfd7c16f3d884c400aebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa40dc69a75bfd7c16f3d884c400aebb">&#9670;&#160;</a></span>EPHEMERAL_KEY_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::EPHEMERAL_KEY_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00050">SHA1Interleave()</a>.</p>
-
-</div>
-</div>
-<a id="a99e0339e5372c12d0a68e13c892d2b8b" name="a99e0339e5372c12d0a68e13c892d2b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99e0339e5372c12d0a68e13c892d2b8b">&#9670;&#160;</a></span>g</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 1 &gt; const SRP6::g = { 7 }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a5e1619df2fd1dd9fa5ebba195c7adf2a" name="a5e1619df2fd1dd9fa5ebba195c7adf2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e1619df2fd1dd9fa5ebba195c7adf2a">&#9670;&#160;</a></span>N</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 32 &gt; const SRP6::N = <a class="el" href="../../d3/de5/a00209.html#a0a709bcf2ca40e60217ee113150a1ad8">HexStrToByteArray</a>&lt;32&gt;(&quot;894B645E89E1535BBDAD5B8B290650530801B18EBFBF5E8FAB3C82872A3E9BB7&quot;, true)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="adddd53dfcb2d933c6fa7fd7956f6c7c3" name="adddd53dfcb2d933c6fa7fd7956f6c7c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adddd53dfcb2d933c6fa7fd7956f6c7c3">&#9670;&#160;</a></span>s</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/df3/a05058.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const Acore::Crypto::SRP6::s</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="add5273640d1504c69395c71d495a3deb" name="add5273640d1504c69395c71d495a3deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add5273640d1504c69395c71d495a3deb">&#9670;&#160;</a></span>SALT_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::SALT_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">RASession::CheckPassword()</a>, <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
-
-</div>
-</div>
-<a id="a3a7f44395bcbc849665897c3d7db59d5" name="a3a7f44395bcbc849665897c3d7db59d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a7f44395bcbc849665897c3d7db59d5">&#9670;&#160;</a></span>VERIFIER_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::VERIFIER_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">RASession::CheckPassword()</a>, <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00021">ARC4()</a>.</p>
 
 </div>
 </div>
@@ -959,8 +391,8 @@ Static Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d70/a04684.html">Crypto</a></li><li class="navelem"><a class="el" href="../../d3/df3/a05058.html">SRP6</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d11/a04696.html">Crypto</a></li><li class="navelem"><a class="el" href="../../d3/df3/a05058.html">ARC4</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

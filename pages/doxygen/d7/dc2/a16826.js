@@ -1,13 +1,6 @@
 var a16826 =
 [
-    [ "boss_slad_ranAI", "d7/dc2/a16826.html#ad85e2fd51d67739026a96bc757bc7801", null ],
-    [ "GetData", "d7/dc2/a16826.html#a58e1188a418acdc1f327e7df90c5c122", null ],
-    [ "JustDied", "d7/dc2/a16826.html#a636ca76497c33a5175986e80bbcda44a", null ],
-    [ "JustEngagedWith", "d7/dc2/a16826.html#ac30b38805d0421b1be509c7d5609c648", null ],
-    [ "JustSummoned", "d7/dc2/a16826.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
-    [ "KilledUnit", "d7/dc2/a16826.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
-    [ "Reset", "d7/dc2/a16826.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
-    [ "SetData", "d7/dc2/a16826.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
-    [ "UpdateAI", "d7/dc2/a16826.html#a9eeb3281456779edd9570119ba8a2105", null ],
-    [ "_achievement", "d7/dc2/a16826.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
+    [ "HandlePeriodic", "d7/dc2/a16826.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
+    [ "PrepareAuraScript", "d7/dc2/a16826.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
+    [ "Register", "d7/dc2/a16826.html#a9753daf5cdc812e9027c1153b450686d", null ]
 ];

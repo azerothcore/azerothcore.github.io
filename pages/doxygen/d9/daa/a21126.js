@@ -1,6 +1,9 @@
 var a21126 =
 [
-    [ "HandleEffectPeriodic", "d9/daa/a21126.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
-    [ "PrepareAuraScript", "d9/daa/a21126.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
-    [ "Register", "d9/daa/a21126.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
+    [ "npc_azure_sorcerorAI", "d9/daa/a21126.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d9/daa/a21126.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d9/daa/a21126.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d9/daa/a21126.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d9/daa/a21126.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d9/daa/a21126.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

@@ -1,12 +1,5 @@
 var a10414 =
 [
-    [ "Charges", "dd/d33/a10414.html#ada45d7e00efb3bf27afcf9db1ad4d813", null ],
-    [ "Count", "dd/d33/a10414.html#a6f31a3d750d5c5f1b316f05e7ad9dbe9", null ],
-    [ "EnchantmentID", "dd/d33/a10414.html#a249a204f5d72d42f562c989b1cb92fc9", null ],
-    [ "Flags", "dd/d33/a10414.html#a3ca816132a756d3dc939877c57f6045d", null ],
-    [ "ItemID", "dd/d33/a10414.html#a5dc7e8b40834dba07c63322d80ed73ae", null ],
-    [ "RandomPropertiesID", "dd/d33/a10414.html#ad98a20548478fe99f9d6d345c5a3b732", null ],
-    [ "RandomPropertiesSeed", "dd/d33/a10414.html#ae5d493dd4798e11f02d8f02a57ba4274", null ],
-    [ "Slot", "dd/d33/a10414.html#afcc0a78c2f9a3061830679fece476a64", null ],
-    [ "SocketEnchant", "dd/d33/a10414.html#a55545d4d1b752e4f08bd05350b22892c", null ]
+    [ "GuildBankRemainingWithdrawMoneyQuery", "dd/d33/a10414.html#afb45f29d4a280c4cc02ee2ab3c055824", null ],
+    [ "Read", "dd/d33/a10414.html#a3e03f6f23a989d6f105c397f8ecfeb87", null ]
 ];

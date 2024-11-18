@@ -1,5 +1,6 @@
 var a23930 =
 [
-    [ "npc_shattrath_daily_quest", "d6/d03/a23930.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
-    [ "DoAction", "d6/d03/a23930.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
+    [ "npc_zephyr", "d6/d03/a23930.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "d6/d03/a23930.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "d6/d03/a23930.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

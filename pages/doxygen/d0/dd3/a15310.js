@@ -1,6 +1,7 @@
 var a15310 =
 [
-    [ "SayerEntry", "d0/dd3/a15310.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "d0/dd3/a15310.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "d0/dd3/a15310.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "npc_ringoAI", "d7/d1b/a15314.html", "d7/d1b/a15314" ],
+    [ "npc_ringo", "d0/dd3/a15310.html#aabccd10a446986487bbb09fc2d33cfd9", null ],
+    [ "GetAI", "d0/dd3/a15310.html#aee6c9988f0c038c74b0deb3d44617ef1", null ],
+    [ "OnQuestAccept", "d0/dd3/a15310.html#abdf4e5e1b26c1b1a288047e24188ad10", null ]
 ];

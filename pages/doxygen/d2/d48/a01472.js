@@ -1,6 +1,6 @@
 var a01472 =
 [
-    [ "fireworkShowBootyBay", "d2/d48/a01472.html#ade8881c3a797a7937c46526f8c8adf99", null ],
-    [ "FireworkShowGameobjectBootyBay", "d2/d48/a01472.html#aeff31f29bacaf8ca10d5caee61627422", null ],
-    [ "fireworkShowScheduleBootyBay", "d2/d48/a01472.html#aed5048221cf1d35ad3d4989da8786617", null ]
+    [ "fireworkShowGameobjectOrgrimmar", "d2/d48/a01472.html#aa00988212bcd8875445e2b120c00025c", null ],
+    [ "fireworkShowOrgrimmar", "d2/d48/a01472.html#a20e15c8e61c734af478a4849bd54c9d3", null ],
+    [ "fireworkShowScheduleOrgrimmar", "d2/d48/a01472.html#a2e2ca4fa893601a2122f94a72c18401f", null ]
 ];

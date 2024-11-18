@@ -1,21 +1,14 @@
 var a11334 =
 [
-    [ "go_commandscript", "de/d98/a11334.html#a03cfe4efbd8ed05680308c08b40c8f1b", null ],
-    [ "DoTeleport", "de/d98/a11334.html#a7c89031f2df751d1699627c901abd80a", null ],
-    [ "GetCommands", "de/d98/a11334.html#a672e84a91c30f7378adce918608a6a94", null ],
-    [ "GetCreatureData", "de/d98/a11334.html#a4ddbfdfa0f8bc74b956dd881c55065c0", null ],
-    [ "GetGameObjectData", "de/d98/a11334.html#a4cc325ee1ecbb3dc9997d522fa15ebaa", null ],
-    [ "HandleGoCreatureCIdCommand", "de/d98/a11334.html#af5f60591fb6576161878270f4f967a08", null ],
-    [ "HandleGoCreatureNameCommand", "de/d98/a11334.html#a8ba4cf43263d267e29efa76d6b92149d", null ],
-    [ "HandleGoCreatureSpawnIdCommand", "de/d98/a11334.html#ab7fbdfbfdd9b1f94966044f4873e18a7", null ],
-    [ "HandleGoGameObjectGOIdCommand", "de/d98/a11334.html#a1b47eda64c4c33da4b973a1e6a5d651b", null ],
-    [ "HandleGoGameObjectSpawnIdCommand", "de/d98/a11334.html#ae8ee37da2d5a4cbf5e6ee64a635b804b", null ],
-    [ "HandleGoGraveyardCommand", "de/d98/a11334.html#a4138d8299e150a55ae38613cac8e4c8b", null ],
-    [ "HandleGoGridCommand", "de/d98/a11334.html#a88a8a00453f822322720476dfe91e866", null ],
-    [ "HandleGoQuestCommand", "de/d98/a11334.html#a4d48d4a889033f7eac9a8473fb6cf3aa", null ],
-    [ "HandleGoTaxinodeCommand", "de/d98/a11334.html#a7ac0084020d81c574193668aad6e3d95", null ],
-    [ "HandleGoTicketCommand", "de/d98/a11334.html#ab74a387cae5095d9ea26bf70158d6a14", null ],
-    [ "HandleGoTriggerCommand", "de/d98/a11334.html#a98149f3632dbbce523926229ebd9c15a", null ],
-    [ "HandleGoXYZCommand", "de/d98/a11334.html#a9aee7c1cbfe76d988ad28cd64840222b", null ],
-    [ "HandleGoZoneXYCommand", "de/d98/a11334.html#ae01287fc270a629b5b81117e71ac4ee8", null ]
+    [ "deserter_commandscript", "de/d98/a11334.html#aebaaf99b9c5959f3f3418e13e252fb95", null ],
+    [ "GetCommands", "de/d98/a11334.html#ab5b48b9dde89c9215c51560f26324649", null ],
+    [ "HandleDeserterAdd", "de/d98/a11334.html#abe8c428ec09d341bb9f49882b7c071e2", null ],
+    [ "HandleDeserterBGAdd", "de/d98/a11334.html#a11fba09d369e7244244887947a91369e", null ],
+    [ "HandleDeserterBGRemove", "de/d98/a11334.html#a9bf4e146ef0f4f0cb2508c4953f8a647", null ],
+    [ "HandleDeserterBGRemoveAll", "de/d98/a11334.html#a419d404315e91b6cac1bfd3ac225a8fd", null ],
+    [ "HandleDeserterInstanceAdd", "de/d98/a11334.html#aabd2b23e2dc61fac10890077b41d8179", null ],
+    [ "HandleDeserterInstanceRemove", "de/d98/a11334.html#a3197e5228284ba50da7f3a31b3e76060", null ],
+    [ "HandleDeserterInstanceRemoveAll", "de/d98/a11334.html#adc6ad2f406fcb58ba64d2b6fd47281e2", null ],
+    [ "HandleDeserterRemove", "de/d98/a11334.html#a210dc9a7eddede6fe976157d6b22b683", null ],
+    [ "HandleDeserterRemoveAll", "de/d98/a11334.html#a6274f79b9884586069f94137b44d89e9", null ]
 ];

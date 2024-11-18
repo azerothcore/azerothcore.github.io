@@ -1,7 +1,6 @@
 var a13746 =
 [
-    [ "FilterTargets", "d9/dc7/a13746.html#a00adeba9ac3e631109308b1e4bf8f529", null ],
-    [ "HandleEffect", "d9/dc7/a13746.html#ab6dd7934cc6f10d327e80cd0b6bdfac9", null ],
-    [ "PrepareSpellScript", "d9/dc7/a13746.html#a08127992c96fb02e87e9ade65a5375d5", null ],
-    [ "Register", "d9/dc7/a13746.html#aeaf1955aece958a8e7d7773a33177e5d", null ]
+    [ "instance_zulgurub_InstanceMapScript", "da/d61/a13750.html", "da/d61/a13750" ],
+    [ "instance_zulgurub", "d9/dc7/a13746.html#aedc8c70e880ed9ccaf58b7154f9ba341", null ],
+    [ "GetInstanceScript", "d9/dc7/a13746.html#a51f17d1135c7e97ff082d0d95ec3ffa4", null ]
 ];

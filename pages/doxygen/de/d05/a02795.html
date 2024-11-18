@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Maps/TransportMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,87 +106,195 @@ $(document).ready(function(){initNavTree('de/d05/a02795.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">SpellAuraEffects.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">TransportMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spline.h</a>&quot;</code><br />
+<code>#include &lt;G3D/Quat.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/a10766.html">AuraEffect</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df3/a09586.html">KeyFrame</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d60/a10770.html">Acore::AbsorbAuraOrderPred</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d13/a09590.html">TransportTemplate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html">TransportAnimation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d53/a09598.html">TransportMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8490de0c5d2ca76c3c17a5f9241ad635"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a8490de0c5d2ca76c3c17a5f9241ad635">sTransportMgr</a>&#160;&#160;&#160;<a class="el" href="../../de/d53/a09598.html#a843726202931931587280fefd703cff8">TransportMgr::instance</a>()</td></tr>
+<tr class="separator:a8490de0c5d2ca76c3c17a5f9241ad635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a9e98d9a1c1cc41922f386b184fd7ce67"><td class="memItemLeft" align="right" valign="top">typedef void(AuraEffect::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a9e98d9a1c1cc41922f386b184fd7ce67">pAuraEffectHandler</a>) (<a class="el" href="../../d3/d6f/a10774.html">AuraApplication</a> const *aurApp, <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> mode, bool apply) const</td></tr>
-<tr class="separator:a9e98d9a1c1cc41922f386b184fd7ce67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a4ee83f582e4ebba3a5aea9ab1a5c9354"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354">BrewfestEntries</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a> = 30507
-, <br />
-&#160;&#160;<a class="el" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a> = 27707
-, <br />
-&#160;&#160;<a class="el" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a> = 66052
-<br />
- }</td></tr>
-<tr class="separator:a4ee83f582e4ebba3a5aea9ab1a5c9354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05990a03a3ab902d6d79e9f33385b605"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d95/a09830.html">Movement::Spline</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a05990a03a3ab902d6d79e9f33385b605">TransportSpline</a></td></tr>
+<tr class="separator:a05990a03a3ab902d6d79e9f33385b605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933345ef2cba8f20007b633f8bce737c"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dc/df3/a09586.html">KeyFrame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a933345ef2cba8f20007b633f8bce737c">KeyFrameVec</a></td></tr>
+<tr class="separator:a933345ef2cba8f20007b633f8bce737c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95da4f79fff198b8042b47657f7ccb66"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/d13/a09590.html">TransportTemplate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a95da4f79fff198b8042b47657f7ccb66">TransportTemplates</a></td></tr>
+<tr class="separator:a95da4f79fff198b8042b47657f7ccb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd9e6bc913517c5ebd7f5e99f699e1e"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; <a class="el" href="../../d4/dea/a08430.html">MotionTransport</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#abdd9e6bc913517c5ebd7f5e99f699e1e">TransportSet</a></td></tr>
+<tr class="separator:abdd9e6bc913517c5ebd7f5e99f699e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b04a0a994912eda6d213e37d97a0a9"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../de/d05/a02795.html#abdd9e6bc913517c5ebd7f5e99f699e1e">TransportSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a41b04a0a994912eda6d213e37d97a0a9">TransportMap</a></td></tr>
+<tr class="separator:a41b04a0a994912eda6d213e37d97a0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d0b038ae19d95dc969ce0306e61df37"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, std::set&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a5d0b038ae19d95dc969ce0306e61df37">TransportInstanceMap</a></td></tr>
+<tr class="separator:a5d0b038ae19d95dc969ce0306e61df37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7905b31432c2140de30ffc9363c3e9b9"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d55/a28026.html">TransportAnimationEntry</a> const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a7905b31432c2140de30ffc9363c3e9b9">TransportPathContainer</a></td></tr>
+<tr class="separator:a7905b31432c2140de30ffc9363c3e9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58adfcebbe67029f647a3db4897a6558"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d6/d28/a28030.html">TransportRotationEntry</a> const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a58adfcebbe67029f647a3db4897a6558">TransportPathRotationContainer</a></td></tr>
+<tr class="separator:a58adfcebbe67029f647a3db4897a6558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66190b362b4aab515b7cf6974acdc3ee"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d51/a09594.html">TransportAnimation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d05/a02795.html#a66190b362b4aab515b7cf6974acdc3ee">TransportAnimationContainer</a></td></tr>
+<tr class="separator:a66190b362b4aab515b7cf6974acdc3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a8490de0c5d2ca76c3c17a5f9241ad635" name="a8490de0c5d2ca76c3c17a5f9241ad635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8490de0c5d2ca76c3c17a5f9241ad635">&#9670;&#160;</a></span>sTransportMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sTransportMgr&#160;&#160;&#160;<a class="el" href="../../de/d53/a09598.html#a843726202931931587280fefd703cff8">TransportMgr::instance</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a9e98d9a1c1cc41922f386b184fd7ce67" name="a9e98d9a1c1cc41922f386b184fd7ce67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e98d9a1c1cc41922f386b184fd7ce67">&#9670;&#160;</a></span>pAuraEffectHandler</h2>
+<a id="a933345ef2cba8f20007b633f8bce737c" name="a933345ef2cba8f20007b633f8bce737c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a933345ef2cba8f20007b633f8bce737c">&#9670;&#160;</a></span>KeyFrameVec</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(AuraEffect::* pAuraEffectHandler) (<a class="el" href="../../d3/d6f/a10774.html">AuraApplication</a> const  *aurApp, <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> mode, bool apply) const</td>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../dc/df3/a09586.html">KeyFrame</a>&gt; <a class="el" href="../../de/d05/a02795.html#a933345ef2cba8f20007b633f8bce737c">KeyFrameVec</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4ee83f582e4ebba3a5aea9ab1a5c9354" name="a4ee83f582e4ebba3a5aea9ab1a5c9354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee83f582e4ebba3a5aea9ab1a5c9354">&#9670;&#160;</a></span>BrewfestEntries</h2>
+<a id="a66190b362b4aab515b7cf6974acdc3ee" name="a66190b362b4aab515b7cf6974acdc3ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66190b362b4aab515b7cf6974acdc3ee">&#9670;&#160;</a></span>TransportAnimationContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354">BrewfestEntries</a></td>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d51/a09594.html">TransportAnimation</a>&gt; <a class="el" href="../../de/d05/a02795.html#a66190b362b4aab515b7cf6974acdc3ee">TransportAnimationContainer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5" name="a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5"></a>BREWFEST_KODO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa" name="a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa"></a>GREAT_BREWFEST_KODO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf" name="a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf"></a>FRESH_BREWFEST_HOPS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a> = 30507,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a> = 27707,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a> = 66052</div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa02795_html_a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf"><div class="ttname"><a href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a></div><div class="ttdeci">@ FRESH_BREWFEST_HOPS</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:35</div></div>
-<div class="ttc" id="aa02795_html_a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa"><div class="ttname"><a href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a></div><div class="ttdeci">@ GREAT_BREWFEST_KODO</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:34</div></div>
-<div class="ttc" id="aa02795_html_a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5"><div class="ttname"><a href="../../de/d05/a02795.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a></div><div class="ttdeci">@ BREWFEST_KODO</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:33</div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a5d0b038ae19d95dc969ce0306e61df37" name="a5d0b038ae19d95dc969ce0306e61df37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0b038ae19d95dc969ce0306e61df37">&#9670;&#160;</a></span>TransportInstanceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, std::set&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; &gt; <a class="el" href="../../de/d05/a02795.html#a5d0b038ae19d95dc969ce0306e61df37">TransportInstanceMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41b04a0a994912eda6d213e37d97a0a9" name="a41b04a0a994912eda6d213e37d97a0a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b04a0a994912eda6d213e37d97a0a9">&#9670;&#160;</a></span>TransportMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../de/d05/a02795.html#abdd9e6bc913517c5ebd7f5e99f699e1e">TransportSet</a>&gt; <a class="el" href="../../de/d05/a02795.html#a41b04a0a994912eda6d213e37d97a0a9">TransportMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7905b31432c2140de30ffc9363c3e9b9" name="a7905b31432c2140de30ffc9363c3e9b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7905b31432c2140de30ffc9363c3e9b9">&#9670;&#160;</a></span>TransportPathContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d55/a28026.html">TransportAnimationEntry</a> const*&gt; <a class="el" href="../../de/d05/a02795.html#a7905b31432c2140de30ffc9363c3e9b9">TransportPathContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58adfcebbe67029f647a3db4897a6558" name="a58adfcebbe67029f647a3db4897a6558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58adfcebbe67029f647a3db4897a6558">&#9670;&#160;</a></span>TransportPathRotationContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d6/d28/a28030.html">TransportRotationEntry</a> const*&gt; <a class="el" href="../../de/d05/a02795.html#a58adfcebbe67029f647a3db4897a6558">TransportPathRotationContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdd9e6bc913517c5ebd7f5e99f699e1e" name="abdd9e6bc913517c5ebd7f5e99f699e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd9e6bc913517c5ebd7f5e99f699e1e">&#9670;&#160;</a></span>TransportSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;<a class="el" href="../../d4/dea/a08430.html">MotionTransport</a>*&gt; <a class="el" href="../../de/d05/a02795.html#abdd9e6bc913517c5ebd7f5e99f699e1e">TransportSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05990a03a3ab902d6d79e9f33385b605" name="a05990a03a3ab902d6d79e9f33385b605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05990a03a3ab902d6d79e9f33385b605">&#9670;&#160;</a></span>TransportSpline</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d3/d95/a09830.html">Movement::Spline</a>&lt;double&gt; <a class="el" href="../../de/d05/a02795.html#a05990a03a3ab902d6d79e9f33385b605">TransportSpline</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95da4f79fff198b8042b47657f7ccb66" name="a95da4f79fff198b8042b47657f7ccb66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95da4f79fff198b8042b47657f7ccb66">&#9670;&#160;</a></span>TransportTemplates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/d13/a09590.html">TransportTemplate</a>&gt; <a class="el" href="../../de/d05/a02795.html#a95da4f79fff198b8042b47657f7ccb66">TransportTemplates</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->
@@ -194,8 +302,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../dir_8af33554ddafa3432455437cc558c9c8.html">Auras</a></li><li class="navelem"><a class="el" href="../../de/d05/a02795.html">SpellAuraEffects.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4ee90c1a7d0130816a1febdd934a8090.html">Maps</a></li><li class="navelem"><a class="el" href="../../de/d05/a02795.html">TransportMgr.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,8 @@
 var a05222 =
 [
-    [ "IpLocationRecord", "d5/d9b/a05222.html#a1dba2f8a7697c7e6fd427089d556c19a", null ],
-    [ "IpLocationRecord", "d5/d9b/a05222.html#a10ffefef6ba7d81a23d5d29bc2ee599d", null ],
-    [ "CountryCode", "d5/d9b/a05222.html#a9b54a497801e9da396955893473eb7da", null ],
-    [ "CountryName", "d5/d9b/a05222.html#acbc8ea139970e7acbad06302d5666eb9", null ],
-    [ "IpFrom", "d5/d9b/a05222.html#a97d36332086a339e07b73955f23acd57", null ],
-    [ "IpTo", "d5/d9b/a05222.html#a844dfff114f6ce64b79c459527965bfb", null ]
+    [ "Decode", "d5/d9b/a05222.html#aba5ab7c59ce77414bca38bfcde32d1c0", null ],
+    [ "Encode", "d5/d9b/a05222.html#ad6cde2310ca52940df1bbf93deff6b91", null ],
+    [ "BITS_PER_CHAR", "d5/d9b/a05222.html#a5efb6c842ab7733dc26fd67f1a00ccdf", null ],
+    [ "DECODE_ERROR", "d5/d9b/a05222.html#a8fccf3d4b22e835fc4dca6b942771a2a", null ],
+    [ "PADDING", "d5/d9b/a05222.html#a2e5699431f24ca6b745294b935b99240", null ]
 ];

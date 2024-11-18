@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/Spline/MovementPacketBuilder.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/SmartScripts/SmartAI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,59 +105,69 @@ $(document).ready(function(){initNavTree('dc/d86/a02909.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MovementPacketBuilder.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">SmartAI.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">MovementPacketBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">SmartAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AreaTriggerScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d0/dae/a04721"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html">Movement</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d71/a06146.html">SmartTrigger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:afd3f02560404659d901713e1228d9339"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339">Movement::MonsterMoveType</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339aba693dab24bf78b0173914ecf339c558">Movement::MonsterMoveNormal</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339a6520302858321c3083951d598e05a167">Movement::MonsterMoveStop</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339a395aabd5641c37343d08506cfc4e4323">Movement::MonsterMoveFacingSpot</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339a61f5156f5db570fd9f5db194179ea7f9">Movement::MonsterMoveFacingTarget</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dae/a04721.html#afd3f02560404659d901713e1228d9339ac65e2c863bd6cadc1dc72c4720e61642">Movement::MonsterMoveFacingAngle</a> = 4
-<br />
- }</td></tr>
-<tr class="separator:afd3f02560404659d901713e1228d9339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac2e9418dfdb25149170911f2cd0dd948"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#ac2e9418dfdb25149170911f2cd0dd948">Movement::operator&lt;&lt;</a> (<a class="el" href="../../db/d24/a28070.html">ByteBuffer</a> &amp;b, const Vector3 &amp;v)</td></tr>
-<tr class="separator:ac2e9418dfdb25149170911f2cd0dd948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae394b26156a3fa0d1d828d30cee475b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#ae394b26156a3fa0d1d828d30cee475b1">Movement::operator&gt;&gt;</a> (<a class="el" href="../../db/d24/a28070.html">ByteBuffer</a> &amp;b, Vector3 &amp;v)</td></tr>
-<tr class="separator:ae394b26156a3fa0d1d828d30cee475b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0db2c4fd496c84301b43d46fbffb460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#ad0db2c4fd496c84301b43d46fbffb460">Movement::WriteLinearPath</a> (const Spline&lt; <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &gt; &amp;spline, <a class="el" href="../../db/d24/a28070.html">ByteBuffer</a> &amp;data)</td></tr>
-<tr class="separator:ad0db2c4fd496c84301b43d46fbffb460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92efeab3fe080f348fa91cb9bc5a1b05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a92efeab3fe080f348fa91cb9bc5a1b05">Movement::WriteCatmullRomPath</a> (const Spline&lt; <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &gt; &amp;spline, <a class="el" href="../../db/d24/a28070.html">ByteBuffer</a> &amp;data)</td></tr>
-<tr class="separator:a92efeab3fe080f348fa91cb9bc5a1b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae740cc738fed507e64b3243ce62c5952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#ae740cc738fed507e64b3243ce62c5952">Movement::WriteCatmullRomCyclicPath</a> (const Spline&lt; <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &gt; &amp;spline, <a class="el" href="../../db/d24/a28070.html">ByteBuffer</a> &amp;data, bool flying)</td></tr>
-<tr class="separator:ae740cc738fed507e64b3243ce62c5952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6012619ba76775b314475ec60f8c7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/a02909.html#ab6012619ba76775b314475ec60f8c7d7">AddSC_SmartScripts</a> ()</td></tr>
+<tr class="memdesc:ab6012619ba76775b314475ec60f8c7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers scripts required by the SAI scripting system.  <a href="../../dc/d86/a02909.html#ab6012619ba76775b314475ec60f8c7d7">More...</a><br /></td></tr>
+<tr class="separator:ab6012619ba76775b314475ec60f8c7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab6012619ba76775b314475ec60f8c7d7" name="ab6012619ba76775b314475ec60f8c7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6012619ba76775b314475ec60f8c7d7">&#9670;&#160;</a></span>AddSC_SmartScripts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_SmartScripts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers scripts required by the SAI scripting system. </p>
+<div class="fragment"><div class="line"><span class="lineno"> 1319</span>{</div>
+<div class="line"><span class="lineno"> 1320</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d71/a06146.html">SmartTrigger</a>();</div>
+<div class="line"><span class="lineno"> 1321</span>}</div>
+<div class="ttc" id="aa06146_html"><div class="ttname"><a href="../../dc/d71/a06146.html">SmartTrigger</a></div><div class="ttdef"><b>Definition:</b> SmartAI.cpp:1301</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00061">ScriptMgr::Initialize()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_cd5f8786a04521b4a96eac0f95f95a85.html">Spline</a></li><li class="navelem"><a class="el" href="../../dc/d86/a02909.html">MovementPacketBuilder.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1c21bdf82e19ee3628235ac53838e383.html">SmartScripts</a></li><li class="navelem"><a class="el" href="../../dc/d86/a02909.html">SmartAI.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

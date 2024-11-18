@@ -1,6 +1,8 @@
 var a13094 =
 [
-    [ "instance_sunwell_plateau_InstanceMapScript", "d9/d25/a13098.html", "d9/d25/a13098" ],
-    [ "instance_sunwell_plateau", "db/d2c/a13094.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
-    [ "GetInstanceScript", "db/d2c/a13094.html#a5960785a845c87e2e1730cfd865b44b4", null ]
+    [ "HandleApply", "db/d2c/a13094.html#a9dce02909356193476e66586aee87f1d", null ],
+    [ "OnPeriodic", "db/d2c/a13094.html#add4f000f81d5d4112719c6dd7464163c", null ],
+    [ "PrepareAuraScript", "db/d2c/a13094.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
+    [ "Register", "db/d2c/a13094.html#abc349f12f375b1f284eb78a363e8172a", null ],
+    [ "Validate", "db/d2c/a13094.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
 ];

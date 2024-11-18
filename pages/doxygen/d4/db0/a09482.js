@@ -1,6 +1,5 @@
 var a09482 =
 [
-    [ "flags", "d4/db0/a09482.html#a953acfd67349f028a839390ebe7fc398", null ],
-    [ "fourcc", "d4/db0/a09482.html#a14d0e9cf761aae3ef914f3bff86ef216", null ],
-    [ "gridArea", "d4/db0/a09482.html#a4ee571320d5d346bbf74709677bbee05", null ]
+    [ "asChar", "d4/db0/a09482.html#a3c1546425a9287498d23753f51e27de2", null ],
+    [ "asUInt", "d4/db0/a09482.html#a87b4e38a5c10dba382bd0761b70c2234", null ]
 ];

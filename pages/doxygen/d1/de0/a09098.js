@@ -1,6 +1,10 @@
 var a09098 =
 [
-    [ "AllFriendlyCreaturesInGrid", "d1/de0/a09098.html#a6ad66997d093ffa52e2d80337dcb5460", null ],
-    [ "operator()", "d1/de0/a09098.html#aca2b8ed7de69c57bb270e0c663781f97", null ],
-    [ "unit", "d1/de0/a09098.html#a3842fa1eceabaa2d40b2bab4393cb431", null ]
+    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d1/de0/a09098.html#aa9f15d071efe7ca7bb975489fec2afbd", null ],
+    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d1/de0/a09098.html#a1e25384d08beeee84d83e401f5a5a565", null ],
+    [ "operator()", "d1/de0/a09098.html#abc2ab6f33a6a58a6e692cc32e8139839", null ],
+    [ "i_alive", "d1/de0/a09098.html#a7a01388f86d25fa0728d94c6e1a7f752", null ],
+    [ "i_entry", "d1/de0/a09098.html#ae2bf2c0a0f431f5de445fbee26b60a57", null ],
+    [ "i_obj", "d1/de0/a09098.html#aa0340c79c37f3494b01c52f034705aa4", null ],
+    [ "i_range", "d1/de0/a09098.html#a695af00612b17e0182ad76a5c3be2356", null ]
 ];

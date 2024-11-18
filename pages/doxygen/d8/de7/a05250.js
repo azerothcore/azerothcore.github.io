@@ -1,13 +1,12 @@
 var a05250 =
 [
-    [ "Logger", "d8/de7/a05250.html#a79033d763c69dbfb95b1c591f1cc680b", null ],
-    [ "addAppender", "d8/de7/a05250.html#aabacae0a84994e5567f9c87829909fdd", null ],
-    [ "delAppender", "d8/de7/a05250.html#a1fb8747bf7b652b9dfbf9ee830a82c8b", null ],
-    [ "getLogLevel", "d8/de7/a05250.html#aba945b0f037b7de27976d3a6e1a0fbbd", null ],
-    [ "getName", "d8/de7/a05250.html#ae95167d7bb330ecc0a49779a5635d1e2", null ],
-    [ "setLogLevel", "d8/de7/a05250.html#a00fdcdbeb39a2d5d4fb27cc36c35c101", null ],
-    [ "write", "d8/de7/a05250.html#a3627f98e8676ee7b68a34a4d9439082e", null ],
-    [ "appenders", "d8/de7/a05250.html#aa93931f2386ebc6dbf2464f536ed54f9", null ],
-    [ "level", "d8/de7/a05250.html#a3b1d9dd7bd391ac7bed560918f82a03b", null ],
-    [ "name", "d8/de7/a05250.html#ada299a7dd268085371557213e36695a9", null ]
+    [ "AppenderConsole", "d8/de7/a05250.html#aaf770a87f2151a7e6f92087751528c68", null ],
+    [ "_write", "d8/de7/a05250.html#a94e529229bd707fa2bad0a0206a386d5", null ],
+    [ "getType", "d8/de7/a05250.html#a4ae7f47c76b19eb269b26fdf13f14e48", null ],
+    [ "InitColors", "d8/de7/a05250.html#a1a4deceeafc9a111a519ea55dc646266", null ],
+    [ "ResetColor", "d8/de7/a05250.html#a4a3e55c9229947a25d4191bbfa348bf5", null ],
+    [ "SetColor", "d8/de7/a05250.html#a9303f9408e1cbfc086fba15bf9a4ce59", null ],
+    [ "_colored", "d8/de7/a05250.html#a172563f34a7277f7afb05354c8fbeb1f", null ],
+    [ "_colors", "d8/de7/a05250.html#acdf277241cd25715e48500a15ab6bd30", null ],
+    [ "type", "d8/de7/a05250.html#ab5cbc074f7d9306838974863913c8a5b", null ]
 ];

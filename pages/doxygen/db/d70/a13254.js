@@ -1,6 +1,6 @@
 var a13254 =
 [
-    [ "npc_corporal_keeshanAI", "d7/d7b/a13258.html", "d7/d7b/a13258" ],
-    [ "npc_corporal_keeshan", "db/d70/a13254.html#a0ca9459a7f283e040f14e0052762f587", null ],
-    [ "GetAI", "db/d70/a13254.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
+    [ "OnEffect", "db/d70/a13254.html#a41903586310ec274dd10537ccb8655f3", null ],
+    [ "PrepareSpellScript", "db/d70/a13254.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
+    [ "Register", "db/d70/a13254.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
 ];

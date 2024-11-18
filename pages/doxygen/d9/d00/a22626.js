@@ -1,6 +1,7 @@
 var a22626 =
 [
-    [ "npc_supremus_punch_invisible_stalker", "d9/d00/a22626.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
-    [ "IsSummonedBy", "d9/d00/a22626.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
-    [ "UpdateAI", "d9/d00/a22626.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
+    [ "HandleEffectApply", "d9/d00/a22626.html#a5857dbdb088de67cc15717dca0c5f7b5", null ],
+    [ "HandleEffectRemove", "d9/d00/a22626.html#aab0536f7f73d9e354a526f56f587fff0", null ],
+    [ "PrepareAuraScript", "d9/d00/a22626.html#a80a6b51bc6c1457edc0fb8a0089513d1", null ],
+    [ "Register", "d9/d00/a22626.html#a194ff31e6168bca23881f3804154d479", null ]
 ];

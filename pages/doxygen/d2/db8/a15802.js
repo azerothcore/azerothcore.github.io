@@ -1,7 +1,6 @@
 var a15802 =
 [
-    [ "CountAllies", "d2/db8/a15802.html#a207c1fd89fd726054a881e342391d2a0", null ],
-    [ "PrepareSpellScript", "d2/db8/a15802.html#ae1e230ad204a280a261ebe0f21c7f8a5", null ],
-    [ "Register", "d2/db8/a15802.html#a47574795b2a262625c65ab23a4179684", null ],
-    [ "Validate", "d2/db8/a15802.html#a0178e7c4f5509a4bb2c6ed3811fc9685", null ]
+    [ "HandleScript", "d2/db8/a15802.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d2/db8/a15802.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d2/db8/a15802.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

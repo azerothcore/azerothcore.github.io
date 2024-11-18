@@ -1,18 +1,8 @@
 var a14462 =
 [
-    [ "instance_dire_maul_InstanceMapScript", "d7/d3b/a14462.html#aacdc6a4029fceddfa56155b296012aa3", null ],
-    [ "GetData", "d7/d3b/a14462.html#ad3eaa065114b6a0d2a38844df9289dc7", null ],
-    [ "Initialize", "d7/d3b/a14462.html#a5b0977c0b20d6302ce6c5f8a14e78e90", null ],
-    [ "OnCreatureCreate", "d7/d3b/a14462.html#aa903356acce9401a139e30fb6839f4df", null ],
-    [ "OnGameObjectCreate", "d7/d3b/a14462.html#aad49d9f3f3c974e5c2f3a42b22759b9a", null ],
-    [ "ReadSaveDataMore", "d7/d3b/a14462.html#ae8c49e7531b89074cc07ac0555650f05", null ],
-    [ "SetData", "d7/d3b/a14462.html#a93e7b63eae8d1e21b7e5c57fa370e801", null ],
-    [ "WriteSaveDataMore", "d7/d3b/a14462.html#ad6f52ef932cc09e377325e83482a3b5c", null ],
-    [ "_eastWingProgress", "d7/d3b/a14462.html#a7f9d7f14c3223fa7bf7b7999d1f41105", null ],
-    [ "_immoltharGUID", "d7/d3b/a14462.html#a4b63e6062765fc1df53c6a95b366e9f1", null ],
-    [ "_northWingBosses", "d7/d3b/a14462.html#ab7130c806073258f4efae9e9177587be", null ],
-    [ "_northWingProgress", "d7/d3b/a14462.html#a55e78ac91cf6073192594758e447cb19", null ],
-    [ "_pylonsState", "d7/d3b/a14462.html#a5a16e7c47b42d1f8da9dde7b14f5c513", null ],
-    [ "_westWingProgress", "d7/d3b/a14462.html#ab4d27deece6b8274300904571fb62e90", null ],
-    [ "HighborneSummoners", "d7/d3b/a14462.html#af0e2c615ca136f4fffd1ed41e471f492", null ]
+    [ "Load", "d7/d3b/a14462.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "d7/d3b/a14462.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "d7/d3b/a14462.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "d7/d3b/a14462.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "d7/d3b/a14462.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

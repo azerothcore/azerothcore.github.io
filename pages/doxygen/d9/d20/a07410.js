@@ -1,4 +1,4 @@
 var a07410 =
 [
-    [ "value", "d9/d20/a07410.html#ab8bf92ecae8a3a118570d31adcb08db7", null ]
+    [ "TryConsume", "d9/d20/a07410.html#a6fe249c25aabf5f7eb70612982ac2b82", null ]
 ];

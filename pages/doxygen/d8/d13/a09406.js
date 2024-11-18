@@ -1,10 +1,10 @@
 var a09406 =
 [
-    [ "MailReceiver", "d8/d13/a09406.html#a6fba3ff0ab3167197f569631d766ce14", null ],
-    [ "MailReceiver", "d8/d13/a09406.html#af0b094a704463ed76b1c08bc3cab0380", null ],
-    [ "MailReceiver", "d8/d13/a09406.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
-    [ "GetPlayer", "d8/d13/a09406.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
-    [ "GetPlayerGUIDLow", "d8/d13/a09406.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
-    [ "m_receiver", "d8/d13/a09406.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
-    [ "m_receiver_lowguid", "d8/d13/a09406.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
+    [ "iterator", "d8/d13/a09406.html#a9fada63aa17222fc5e216f3904affafd", null ],
+    [ "begin", "d8/d13/a09406.html#aee3a4701c5bc51f4028fe53f18675989", null ],
+    [ "end", "d8/d13/a09406.html#ad61defd77296790a6c5d0a43bacbbe4b", null ],
+    [ "getFirst", "d8/d13/a09406.html#ae47bba95a17db31a42231da948245387", null ],
+    [ "getLast", "d8/d13/a09406.html#ac03e93ac8ad6fc91ec9d2961b8904217", null ],
+    [ "rbegin", "d8/d13/a09406.html#af68f1d93a80e13976798dfed0063a1e4", null ],
+    [ "rend", "d8/d13/a09406.html#a92c30fb269bc99820b6964a99ee86d98", null ]
 ];

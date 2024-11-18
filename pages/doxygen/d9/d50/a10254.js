@@ -1,7 +1,10 @@
 var a10254 =
 [
-    [ "QueryGuildInfoResponse", "d9/d50/a10254.html#ae1f7b9f33e36821477a19439a3d4065d", null ],
-    [ "Write", "d9/d50/a10254.html#abda9452eba38e76c460f910eb3aad5fa", null ],
-    [ "GuildId", "d9/d50/a10254.html#a04eec0531238fa55a91afa11c394fbce", null ],
-    [ "Info", "d9/d50/a10254.html#a749e992a19264b259f62d403b4925abe", null ]
+    [ "EnvironmentalDamageLog", "d9/d50/a10254.html#ab4311f6516d9b7491abf5cb2ba9a0ee0", null ],
+    [ "Write", "d9/d50/a10254.html#af7d49b8d57100cf2c3048d5415a4edc7", null ],
+    [ "Absorbed", "d9/d50/a10254.html#a443df04be3afe2021532716140ffb099", null ],
+    [ "Amount", "d9/d50/a10254.html#a073e22176d44f5806313c2a4bd3e263a", null ],
+    [ "Resisted", "d9/d50/a10254.html#ad20a9730af3088d93ac56d89b6f66b12", null ],
+    [ "Type", "d9/d50/a10254.html#a51df177d9ce6a8459bc8fa41f80cdb7a", null ],
+    [ "Victim", "d9/d50/a10254.html#a020fffe9517d30e965a4d6f6602dd05f", null ]
 ];

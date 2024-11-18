@@ -1,7 +1,6 @@
 var a25370 =
 [
-    [ "HandleScript", "d3/d41/a25370.html#a5b35bbac405dc2b03f195cb29786d5a6", null ],
-    [ "Load", "d3/d41/a25370.html#a61f1a4514e9900e4e14fded3c0b05593", null ],
-    [ "PrepareSpellScript", "d3/d41/a25370.html#abfac1629b7724a3b17b94480c31867af", null ],
-    [ "Register", "d3/d41/a25370.html#a62b9c194106e261245496441176c8d53", null ]
+    [ "HandleScript", "d3/d41/a25370.html#a382dd0eb5ebc2f5da70561eaaf1f8d3d", null ],
+    [ "PrepareSpellScript", "d3/d41/a25370.html#a4f0f4d29231ef1976d726b66f6277ca8", null ],
+    [ "Register", "d3/d41/a25370.html#ad75843039e582b64da28b4818f48aeb3", null ]
 ];

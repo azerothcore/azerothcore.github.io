@@ -1,6 +1,7 @@
 var a19278 =
 [
-    [ "CosmicSmashDamageEvent", "d8/dad/a19278.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "d8/dad/a19278.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "d8/dad/a19278.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "HandleEffectRemove", "d8/dad/a19278.html#ae380a5bb6f17fa476e6c1ca9ca9b96fe", null ],
+    [ "PrepareAuraScript", "d8/dad/a19278.html#ad9b9d6e2c98fa6943e65e5d239f81948", null ],
+    [ "Register", "d8/dad/a19278.html#ae8d6057df54728e063c13cc45e3d7664", null ],
+    [ "Validate", "d8/dad/a19278.html#af3d738aad41fe7022f60180f8c2cd1be", null ]
 ];

@@ -1,7 +1,10 @@
 var a07702 =
 [
-    [ "LfgProposalPlayer", "dd/def/a07702.html#a80f7d0f3597201dc7fca4d08dd3b7a38", null ],
-    [ "accept", "dd/def/a07702.html#acbf0ce1e12307569487096dc5ca544a6", null ],
-    [ "group", "dd/def/a07702.html#a900f24e9caaa1569eeea93b4284139a1", null ],
-    [ "role", "dd/def/a07702.html#a54ab4a0f32cc3abc7489fc9c3655fe99", null ]
+    [ "LfgUpdateData", "dd/def/a07702.html#a01326fafaa2ce562b5710d1d7ca75330", null ],
+    [ "LfgUpdateData", "dd/def/a07702.html#a656873ea6ef9b3f23791827617a000c6", null ],
+    [ "LfgUpdateData", "dd/def/a07702.html#a248682a712dd43b8c4601830aae4ddec", null ],
+    [ "comment", "dd/def/a07702.html#a398f1b9ce0737d833fe4566ecea20e31", null ],
+    [ "dungeons", "dd/def/a07702.html#a0e9b49693248b438dbc508e230a870db", null ],
+    [ "state", "dd/def/a07702.html#ad9c270e37acaa105b9e12ec73158c7e3", null ],
+    [ "updateType", "dd/def/a07702.html#a146e43854f66bf57f703d7089a24481e", null ]
 ];

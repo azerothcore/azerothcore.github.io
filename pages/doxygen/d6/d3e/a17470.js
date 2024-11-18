@@ -1,6 +1,6 @@
 var a17470 =
 [
-    [ "FilterTargets", "d6/d3e/a17470.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "d6/d3e/a17470.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "d6/d3e/a17470.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "PrepareSpellScript", "d6/d3e/a17470.html#a16eadb50b6038f16ea28464d00df3381", null ],
+    [ "Register", "d6/d3e/a17470.html#ac6e304d391011863b8eff8105fab5191", null ],
+    [ "SelectDest", "d6/d3e/a17470.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
 ];

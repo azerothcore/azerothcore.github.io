@@ -1,10 +1,8 @@
 var a24066 =
 [
-    [ "npc_pet_gen_imp_in_a_bottle", "dc/d30/a24066.html#aa32b7770c2719d77d46fcf6d22989284", null ],
-    [ "InitializeAI", "dc/d30/a24066.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
-    [ "UpdateAI", "dc/d30/a24066.html#a453ec855bb21a30cb72b540ff8f77035", null ],
-    [ "_data", "dc/d30/a24066.html#a982ec923536c2c33353a3673aa425b6a", null ],
-    [ "_hasParty", "dc/d30/a24066.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
-    [ "_ownerGUID", "dc/d30/a24066.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
-    [ "_talkTimer", "dc/d30/a24066.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "dc/d30/a24066.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "dc/d30/a24066.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "dc/d30/a24066.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "dc/d30/a24066.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "dc/d30/a24066.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

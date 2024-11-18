@@ -1,4 +1,4 @@
 var a04454 =
 [
-    [ "WorldPackets::Combat::SetSheathed", "de/db2/a10242.html", "de/db2/a10242" ]
+    [ "ScriptRegistry< TransportScript >", "de/d70/a04454.html#ac3a26b1245888c6c41ca2359008afe20", null ]
 ];

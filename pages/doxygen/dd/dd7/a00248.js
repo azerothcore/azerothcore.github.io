@@ -1,8 +1,5 @@
 var a00248 =
 [
-    [ "Acore::find_type_if< Check >", "d6/dca/a05498.html", "d6/dca/a05498" ],
-    [ "Acore::find_type_if< Check, T1, Ts... >", "d3/dc0/a05502.html", null ],
-    [ "Acore::dependant_false< T >", "d0/dac/a05506.html", "d0/dac/a05506" ],
-    [ "find_type_if_t", "dd/dd7/a00248.html#a7d2aaeefa69dc846a6b27937f8213fab", null ],
-    [ "dependant_false_v", "dd/dd7/a00248.html#a63263799191a40005e2214b3faf336d0", null ]
+    [ "FactoryHolder< T, O, Key >", "d5/d8c/a05130.html", "d5/d8c/a05130" ],
+    [ "Permissible< T >", "d2/dc4/a05134.html", "d2/dc4/a05134" ]
 ];

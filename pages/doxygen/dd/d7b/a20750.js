@@ -1,6 +1,6 @@
 var a20750 =
 [
-    [ "boss_palehoofAI", "d0/dd6/a20754.html", "d0/dd6/a20754" ],
-    [ "boss_palehoof", "dd/d7b/a20750.html#ac0e541befaad7e1e6e318d64ca4a1d94", null ],
-    [ "GetAI", "dd/d7b/a20750.html#ae33ca6e71b251214be50168a5940d058", null ]
+    [ "npc_enslaved_proto_drakeAI", "d0/dd6/a20754.html", "d0/dd6/a20754" ],
+    [ "npc_enslaved_proto_drake", "dd/d7b/a20750.html#a9179481566337bd785b089fb726a255e", null ],
+    [ "GetAI", "dd/d7b/a20750.html#a2879ad42d2ec8c04c52d6c370c3e5bf6", null ]
 ];

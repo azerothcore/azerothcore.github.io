@@ -1,5 +1,5 @@
 var a14678 =
 [
-    [ "NotInStomachSelector", "dc/dcc/a14678.html#a766a75e73261ac8bb76c90e8befd21ad", null ],
-    [ "operator()", "dc/dcc/a14678.html#a189c90e585ecef8ffbcbe9227c588946", null ]
+    [ "boss_yauj", "dc/dcc/a14678.html#a15ab7b6b35d29fb1552b11586163320e", null ],
+    [ "JustEngagedWith", "dc/dcc/a14678.html#a94a2fa960e6924bde9ba6934a56ed684", null ]
 ];

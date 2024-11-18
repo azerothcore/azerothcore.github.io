@@ -1,6 +1,6 @@
 var a10302 =
 [
-    [ "GuildInviteByName", "d7/daa/a10302.html#a5e0bab98d87000ad796ebb2753cd566b", null ],
-    [ "Read", "d7/daa/a10302.html#a91f3fba33e265cbb119f1d3e69d4a8ca", null ],
-    [ "Name", "d7/daa/a10302.html#a048c7ed9de19bcb57c0cdb10e2cf3bef", null ]
+    [ "GuildUpdateMotdText", "d7/daa/a10302.html#ab3b248450b0dcdde6b51e381e910b15d", null ],
+    [ "Read", "d7/daa/a10302.html#a55cfd6f4797e61ca01ee7aa5c65d9a69", null ],
+    [ "MotdText", "d7/daa/a10302.html#a5b2ee458a919be7f912d49cf984490ac", null ]
 ];

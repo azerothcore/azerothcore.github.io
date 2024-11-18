@@ -1,6 +1,9 @@
 var a10114 =
 [
-    [ "WorldMapScript", "d4/d79/a10114.html#a49300e796ceb6ab1a40ed9cbb89a9e4d", null ],
-    [ "checkValidity", "d4/d79/a10114.html#aa212e582764d2cfbc5e7e600a54f2cb4", null ],
-    [ "isAfterLoadScript", "d4/d79/a10114.html#a6aeda6e4c8328d7334527cbe69311ddc", null ]
+    [ "TransportScript", "d4/d79/a10114.html#a4b83123b122fa98831d304670a3de50a", null ],
+    [ "IsDatabaseBound", "d4/d79/a10114.html#a956f0d757e5d974566fa8fac0df731e5", null ],
+    [ "OnAddCreaturePassenger", "d4/d79/a10114.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
+    [ "OnAddPassenger", "d4/d79/a10114.html#a806f4829b47429900271f6dde7eaa625", null ],
+    [ "OnRelocate", "d4/d79/a10114.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
+    [ "OnRemovePassenger", "d4/d79/a10114.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
 ];

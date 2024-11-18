@@ -1,5 +1,7 @@
 var a14110 =
 [
-    [ "npc_pilgrims_bounty_plate", "dc/da1/a14110.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
-    [ "SpellHit", "dc/da1/a14110.html#a7797b7a532336542ef37f0643df8dec0", null ]
+    [ "HandleDummy", "dc/da1/a14110.html#a05c3589ee04eed87449f652db065f0e9", null ],
+    [ "PrepareSpellScript", "dc/da1/a14110.html#afb79a2cf5359e7ec69746cd89d8cd727", null ],
+    [ "Register", "dc/da1/a14110.html#a51207fcd4f272e120fe1af2ac78c1f80", null ],
+    [ "Validate", "dc/da1/a14110.html#a5fc6dae87ffb634cc0de389196751b22", null ]
 ];

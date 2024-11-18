@@ -1,5 +1,4 @@
 var a00452 =
 [
-    [ "FactoryHolder< T, O, Key >", "d5/d87/a05118.html", "d5/d87/a05118" ],
-    [ "Permissible< T >", "dc/d0c/a05122.html", "dc/d0c/a05122" ]
+    [ "Acore::Crypto::AES", "d1/d09/a05054.html", "d1/d09/a05054" ]
 ];

@@ -1,11 +1,10 @@
 var a08390 =
 [
-    [ "FriendInfo", "db/dff/a08390.html#a31272eeef0d6b9c98821f8ee7f379977", null ],
-    [ "FriendInfo", "db/dff/a08390.html#a04f34a681d62e3dc1013f840ac04f3ec", null ],
-    [ "Area", "db/dff/a08390.html#adf16884b55545ed9302dbb54d653867b", null ],
-    [ "Class", "db/dff/a08390.html#a8b797fcfda05d52d4297f32e458be519", null ],
-    [ "Flags", "db/dff/a08390.html#ab74652d747c8baa8df7fdbcfd5c68636", null ],
-    [ "Level", "db/dff/a08390.html#a70d9a74f4587f648db5bf49b61091213", null ],
-    [ "Note", "db/dff/a08390.html#aa9aea70eba08de460ff9cc5c622ca75f", null ],
-    [ "Status", "db/dff/a08390.html#a380f11d65b34e1e598b7861987cecfe6", null ]
+    [ "Index", "db/dff/a08390.html#a28b25d822326a1b7d5ec7f95ce084bac", [
+      [ "REGULAR", "db/dff/a08390.html#a28b25d822326a1b7d5ec7f95ce084bacaff2524a88b92db0ec25cc1f17b28cf68", null ],
+      [ "ADDON", "db/dff/a08390.html#a28b25d822326a1b7d5ec7f95ce084baca0d74e752005cb5fe12644048433ea5cb", null ],
+      [ "MAX", "db/dff/a08390.html#a28b25d822326a1b7d5ec7f95ce084baca6ca77c7f76d3ccd18db1d4c0f4e070a5", null ]
+    ] ],
+    [ "Count", "db/dff/a08390.html#a0dc1d4dc63d5289fde92bbb2c28a7e2e", null ],
+    [ "Time", "db/dff/a08390.html#a20b83dcc96256f2ab16326b2b8ec925e", null ]
 ];

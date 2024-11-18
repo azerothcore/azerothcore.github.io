@@ -1,6 +1,6 @@
 var a24650 =
 [
-    [ "HandleScript", "d6/d58/a24650.html#aa6104370d5700e43223c7138e941ba05", null ],
-    [ "PrepareSpellScript", "d6/d58/a24650.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
-    [ "Register", "d6/d58/a24650.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
+    [ "HandleEffectPeriodicUpdate", "d6/d58/a24650.html#a554353fede78b89bf488230254d7892b", null ],
+    [ "PrepareAuraScript", "d6/d58/a24650.html#adf20aaafff83bae614ff3c614a08a54b", null ],
+    [ "Register", "d6/d58/a24650.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
 ];

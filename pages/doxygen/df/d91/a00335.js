@@ -1,6 +1,7 @@
 var a00335 =
 [
-    [ "CleanStringForMysqlQuery", "df/d91/a00335.html#a4750695bf6f728da1b0356af3ddaabc9", null ],
-    [ "GetLocaleByName", "df/d91/a00335.html#a8051d28826d995169bd4ce60310d5d65", null ],
-    [ "localeNames", "df/d91/a00335.html#a32b3de4eb98b686cc6472385a449e4e9", null ]
+    [ "Acore::AsyncProcessResult", "d9/da5/a05434.html", "d9/da5/a05434" ],
+    [ "SearchExecutableInPath", "df/d91/a00335.html#a9de098dac5e38f8c2cdbeb1d4d706881", null ],
+    [ "StartAsyncProcess", "df/d91/a00335.html#a021f51138f5726e712f00bdddf9be729", null ],
+    [ "StartProcess", "df/d91/a00335.html#acfaf2f89a55d299aa04c494719dfedc8", null ]
 ];

@@ -1,13 +1,12 @@
 var a11086 =
 [
-    [ "PlayerTextBuilder", "d2/df7/a11086.html#a0740c581636009448fe2c29084db41ae", null ],
-    [ "operator()", "d2/df7/a11086.html#a64d2905971ecd645e364a774f320a721", null ],
-    [ "_gender", "d2/df7/a11086.html#aece205d3d523dcf6fefbdd9914943723", null ],
-    [ "_language", "d2/df7/a11086.html#a934d4a519c2c7b4017805b3bc24a4714", null ],
-    [ "_msgType", "d2/df7/a11086.html#af546f2788870b8b10b3405695ef81171", null ],
-    [ "_source", "d2/df7/a11086.html#a9fe9f865b0ba84b5497e63947893533e", null ],
-    [ "_talker", "d2/df7/a11086.html#a8a8cd00cc76e048500800938a773aa06", null ],
-    [ "_target", "d2/df7/a11086.html#ac97cf187d079c5162e47bebb7024faa5", null ],
-    [ "_textGroup", "d2/df7/a11086.html#ab44fe12e73da36acb1199987e8573467", null ],
-    [ "_textId", "d2/df7/a11086.html#a17b33a9a05a77722219a85a71f3bbc5e", null ]
+    [ "BroadcastTextBuilder", "d2/df7/a11086.html#adafc60b68bed31fdd87f5c71244c96f2", null ],
+    [ "operator()", "d2/df7/a11086.html#a16f9719278e00013c25902846fa1be5b", null ],
+    [ "operator()", "d2/df7/a11086.html#ac87701626dddffb6b09bf504b97c4d55", null ],
+    [ "_achievementId", "d2/df7/a11086.html#a82de25331657b17ce0de33f2b374abda", null ],
+    [ "_gender", "d2/df7/a11086.html#a71032b0749dd75f552107503528e8166", null ],
+    [ "_msgType", "d2/df7/a11086.html#a232325cefa217843da5cc6db7e5d80fe", null ],
+    [ "_source", "d2/df7/a11086.html#ab73315225b3aa36a309f45596f7089f4", null ],
+    [ "_target", "d2/df7/a11086.html#a958b154f3c82188e9684be0f0b7dae56", null ],
+    [ "_textId", "d2/df7/a11086.html#a0bbe45b38a92967f145fb1d608d647b1", null ]
 ];

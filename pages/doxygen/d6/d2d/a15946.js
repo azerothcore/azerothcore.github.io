@@ -1,10 +1,6 @@
 var a15946 =
 [
-    [ "npc_nerubian_burrowerAI", "d6/d2d/a15946.html#a7673709e7b16a6573d9c7392ba556313", null ],
-    [ "CanAIAttack", "d6/d2d/a15946.html#a82e4a5ca23ae2a94212b214aad1c69df", null ],
-    [ "JustDied", "d6/d2d/a15946.html#ab5182ad65187c472b306e2177530d7b6", null ],
-    [ "Reset", "d6/d2d/a15946.html#a4491965d9c08ed1d888cad6f7b06352d", null ],
-    [ "SpellHitTarget", "d6/d2d/a15946.html#a64fa2c8276f7418542190e833dd72c51", null ],
-    [ "UpdateAI", "d6/d2d/a15946.html#abd2c7333625ded502a00848b09ee9a40", null ],
-    [ "events", "d6/d2d/a15946.html#ab45e8c6dd9ea3552fed4b926136f80e6", null ]
+    [ "npc_frost_sphereAI", "d1/d6f/a15950.html", "d1/d6f/a15950" ],
+    [ "npc_frost_sphere", "d6/d2d/a15946.html#a0256ba1c53853307f8b66e22b10bef24", null ],
+    [ "GetAI", "d6/d2d/a15946.html#a3e6de3551306fb4c35aabbd4fc656ee6", null ]
 ];

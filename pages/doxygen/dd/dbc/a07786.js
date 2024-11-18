@@ -1,14 +1,8 @@
 var a07786 =
 [
-    [ "GenerateArmor", "dd/dbc/a07786.html#ad197fff9ab9cd6b45ca703d656d1d930", null ],
-    [ "GenerateBaseDamage", "dd/dbc/a07786.html#aa11e229aed1ba159219e6d1a291b1c80", null ],
-    [ "GenerateHealth", "dd/dbc/a07786.html#ac8ec122f7d16f89b50301a636ebade6e", null ],
-    [ "GenerateMana", "dd/dbc/a07786.html#aa6f523ebb8ef75db99db555547fd55d7", null ],
-    [ "GetBaseStats", "dd/dbc/a07786.html#a72249bb49bbcf08708bd30fc61e2cdea", null ],
-    [ "AttackPower", "dd/dbc/a07786.html#a8108d924e4de3ba741749e9386085e4f", null ],
-    [ "BaseArmor", "dd/dbc/a07786.html#a9fed8e3227aa2ad7b40579b0be615030", null ],
-    [ "BaseDamage", "dd/dbc/a07786.html#a40f54b64689ca8c3d2b0de81384dbea9", null ],
-    [ "BaseHealth", "dd/dbc/a07786.html#a83cee007ec623b19bb2b002d16180d2d", null ],
-    [ "BaseMana", "dd/dbc/a07786.html#a204af635372cb4a2c6ede1f79579385c", null ],
-    [ "RangedAttackPower", "dd/dbc/a07786.html#a684901a59108e94987c23ad5085e306a", null ]
+    [ "TemporaryThreatModifierEvent", "dd/dbc/a07786.html#afd58a1128ac6629d7541ba1bfd4ef886", null ],
+    [ "Execute", "dd/dbc/a07786.html#a2bbd75ad5e293e78e4bffe880f371d1e", null ],
+    [ "m_owner", "dd/dbc/a07786.html#ab786c99d73f0048a993ce7cee8c3b875", null ],
+    [ "m_threatValue", "dd/dbc/a07786.html#aacb0f6e66d22a93ff074b4cbcf12b788", null ],
+    [ "m_threatVictimGUID", "dd/dbc/a07786.html#aeae82bd80c9b8b08573c6e3baf359f55", null ]
 ];

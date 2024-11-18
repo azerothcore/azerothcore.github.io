@@ -1,9 +1,11 @@
 var a13778 =
 [
-    [ "HandleEffectPeriodic", "db/db6/a13778.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "db/db6/a13778.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "db/db6/a13778.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "db/db6/a13778.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "db/db6/a13778.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "db/db6/a13778.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "npc_dark_iron_attack_mole_machine", "db/db6/a13778.html#a473a8fb4905e5d1333196797d7d0f371", null ],
+    [ "AttackStart", "db/db6/a13778.html#a999dd932fbaf22a8275dfdba150c3291", null ],
+    [ "JustEngagedWith", "db/db6/a13778.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
+    [ "MoveInLineOfSight", "db/db6/a13778.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
+    [ "Reset", "db/db6/a13778.html#a0727aab751ddfbd94ae070e60e47e768", null ],
+    [ "UpdateAI", "db/db6/a13778.html#a1217ed510a846d011143ae0a386c6236", null ],
+    [ "goTimer", "db/db6/a13778.html#a8686845ebef564c9fcaa115866c99749", null ],
+    [ "summonTimer", "db/db6/a13778.html#a4713da02f4a86547a0f796167e24d8bb", null ]
 ];

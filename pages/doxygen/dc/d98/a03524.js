@@ -1,11 +1,9 @@
 var a03524 =
 [
-    [ "StableResultCode", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514", [
-      [ "STABLE_ERR_MONEY", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2", null ],
-      [ "STABLE_ERR_STABLE", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898", null ],
-      [ "STABLE_SUCCESS_STABLE", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e", null ],
-      [ "STABLE_SUCCESS_UNSTABLE", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1", null ],
-      [ "STABLE_SUCCESS_BUY_SLOT", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317", null ],
-      [ "STABLE_ERR_EXOTIC", "dc/d98/a03524.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47", null ]
-    ] ]
+    [ "PetSpell", "de/d0d/a08250.html", "de/d0d/a08250" ],
+    [ "Pet", "d0/d0b/a08254.html", "d0/d0b/a08254" ],
+    [ "AutoSpellList", "dc/d98/a03524.html#a85baf40bd776b1c20b66ba7ad78e0356", null ],
+    [ "PetSpellMap", "dc/d98/a03524.html#a5b33058abef8c309621a9029df331c0e", null ],
+    [ "HAPPINESS_LEVEL_SIZE", "dc/d98/a03524.html#a892e58d225a828ccac38c7d241365e30", null ],
+    [ "PET_LOSE_HAPPINES_INTERVAL", "dc/d98/a03524.html#aa23de8f28ae915637ac3f4f6429b59fb", null ]
 ];

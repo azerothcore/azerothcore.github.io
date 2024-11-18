@@ -1,10 +1,6 @@
 var a22914 =
 [
-    [ "Spells", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1", [
-      [ "SPELL_GROW", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1a287a03bdb61355baf071dd8aa5802ccd", null ],
-      [ "SPELL_SPORE_CLOUD", "df/d25/a22914.html#a70ca1841fb1db54e6f76b96331e05cf1afae99ec87dcd6bdf3631b9f273fecbd5", null ]
-    ] ],
-    [ "npc_rancid_mushroom", "df/d25/a22914.html#a15896957b94de57de9eda5a199a05d4c", null ],
-    [ "InitializeAI", "df/d25/a22914.html#afff169ff9d7a8411cf6d21f4f9be2545", null ],
-    [ "UpdateAI", "df/d25/a22914.html#a13bfd343bdf54c829b3fcb0a775c0852", null ]
+    [ "HandleApplyAura", "df/d25/a22914.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "df/d25/a22914.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "df/d25/a22914.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

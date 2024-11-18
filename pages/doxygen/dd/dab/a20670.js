@@ -1,6 +1,6 @@
 var a20670 =
 [
-    [ "boss_ingvar_the_plundererAI", "dd/d35/a20674.html", "dd/d35/a20674" ],
-    [ "boss_ingvar_the_plunderer", "dd/dab/a20670.html#a9e3612be4a81159dee2b883d434d811d", null ],
-    [ "GetAI", "dd/dab/a20670.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
+    [ "HandleEffectPeriodic", "dd/dab/a20670.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
+    [ "PrepareAuraScript", "dd/dab/a20670.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
+    [ "Register", "dd/dab/a20670.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
 ];

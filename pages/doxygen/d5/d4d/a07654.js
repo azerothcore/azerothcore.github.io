@@ -1,5 +1,5 @@
 var a07654 =
 [
-    [ "number", "d5/d4d/a07654.html#af111e542d7a276e27d2b14757293bc42", null ],
-    [ "offset_elements", "d5/d4d/a07654.html#ad633b2e9afc82762c6b43675844f8fea", null ]
+    [ "flags", "d5/d4d/a07654.html#a46952a53c6b35d5aca1bf3c3ba0734d6", null ],
+    [ "params", "d5/d4d/a07654.html#a9c9c82abe27dcecb41999c583699c378", null ]
 ];

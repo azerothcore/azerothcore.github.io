@@ -1,5 +1,5 @@
 var a23270 =
 [
-    [ "spellId", "d2/d26/a23270.html#acc63d01d5095adef28b9746c520be973", null ],
-    [ "textId", "d2/d26/a23270.html#a5b366c702c1cda6ea10ad0b58935f97c", null ]
+    [ "go_manticron_cube", "d2/d26/a23270.html#a87d9571aea57f16d38067ebd9e22200d", null ],
+    [ "OnGossipHello", "d2/d26/a23270.html#accab4a61f00f5e465fb795b4cbe672bf", null ]
 ];

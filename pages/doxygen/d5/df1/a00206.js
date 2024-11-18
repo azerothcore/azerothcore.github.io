@@ -1,5 +1,4 @@
 var a00206 =
 [
-    [ "DataMap", "d5/d30/a05346.html", "d5/d30/a05346" ],
-    [ "DataMap::Base", "d7/d24/a05350.html", "d7/d24/a05350" ]
+    [ "GUARD_RETURN", "d5/df1/a00206.html#a545bfab3f5e5f49c7d68774189728da8", null ]
 ];

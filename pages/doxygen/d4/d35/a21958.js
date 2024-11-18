@@ -1,9 +1,12 @@
 var a21958 =
 [
-    [ "HandlePeriodic", "d4/d35/a21958.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
-    [ "Load", "d4/d35/a21958.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
-    [ "PrepareAuraScript", "d4/d35/a21958.html#a1057e5262d413149a023bc904a3c3751", null ],
-    [ "Register", "d4/d35/a21958.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
-    [ "Validate", "d4/d35/a21958.html#a85d7ac258d50f690574ad7656256cd05", null ],
-    [ "_counter", "d4/d35/a21958.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
+    [ "npc_icefangAI", "d4/d35/a21958.html#ab74b58a77e3c1349ed308f7febef794a", null ],
+    [ "AttackStart", "d4/d35/a21958.html#a56615ecdb45389aa793374d26a636d45", null ],
+    [ "EnterEvadeMode", "d4/d35/a21958.html#a1465c4779ea8b080f934163c8db6c99c", null ],
+    [ "JustDied", "d4/d35/a21958.html#a3140c8306a384833cca1580ad964d73a", null ],
+    [ "JustEngagedWith", "d4/d35/a21958.html#a8455dd4afb5ef5a694ca9237848df907", null ],
+    [ "OnCharmed", "d4/d35/a21958.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
+    [ "PassengerBoarded", "d4/d35/a21958.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
+    [ "UpdateAI", "d4/d35/a21958.html#ab4d752f2273062c48339b53e611e617c", null ],
+    [ "WaypointReached", "d4/d35/a21958.html#ae315a1d22317edb2864e4d796f808ffb", null ]
 ];

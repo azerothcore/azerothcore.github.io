@@ -1,7 +1,6 @@
 var a19974 =
 [
-    [ "StoneGripTargetSelector", "d9/d2e/a19974.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
-    [ "operator()", "d9/d2e/a19974.html#ae40653def55e656f2347029a97605395", null ],
-    [ "_me", "d9/d2e/a19974.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
-    [ "_victim", "d9/d2e/a19974.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
+    [ "boss_kologarn_eyebeamAI", "de/d10/a19978.html", "de/d10/a19978" ],
+    [ "boss_kologarn_eyebeam", "d9/d2e/a19974.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
+    [ "GetAI", "d9/d2e/a19974.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
 ];

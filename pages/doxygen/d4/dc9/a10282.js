@@ -1,9 +1,9 @@
 var a10282 =
 [
-    [ "GuildRoster", "d4/dc9/a10282.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
-    [ "Write", "d4/dc9/a10282.html#a544a539999827d4eb8923cbbcdf42bac", null ],
-    [ "InfoText", "d4/dc9/a10282.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
-    [ "MemberData", "d4/dc9/a10282.html#a964fc72bf3ada77c171fd1f691449241", null ],
-    [ "RankData", "d4/dc9/a10282.html#a67b0a12fae93c5807030c1062f328abb", null ],
-    [ "WelcomeText", "d4/dc9/a10282.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
+    [ "GuildInfoResponse", "d4/dc9/a10282.html#a256cb81ad2e08050be99c9e1061c2009", null ],
+    [ "Write", "d4/dc9/a10282.html#a3222d0018c9593400d3d01258b82371e", null ],
+    [ "CreateDate", "d4/dc9/a10282.html#a1a0acf334d88751e94257ff76c9e3fd8", null ],
+    [ "GuildName", "d4/dc9/a10282.html#ad8efc926197e955ed0cf8df6a74b41e8", null ],
+    [ "NumAccounts", "d4/dc9/a10282.html#a21b42f1654aa10f7872d87635fea66ac", null ],
+    [ "NumMembers", "d4/dc9/a10282.html#a7e748a70029e867ba8c90eaba85bf8c9", null ]
 ];

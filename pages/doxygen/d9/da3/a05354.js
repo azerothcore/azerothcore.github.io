@@ -1,15 +1,16 @@
 var a05354 =
 [
-    [ "EnumFlag", "d9/da3/a05354.html#a877aa23dfde6aa91cff6d8c0eb9a4732", null ],
-    [ "AsUnderlyingType", "d9/da3/a05354.html#af9468dd952e12d2da9c0120d0ce9feb4", null ],
-    [ "HasAllFlags", "d9/da3/a05354.html#adb5b65ab4a3d827882634d94774a912b", null ],
-    [ "HasFlag", "d9/da3/a05354.html#a311985d41e79365bf9fd5bcb7c8fbf0c", null ],
-    [ "operator T", "d9/da3/a05354.html#a13022712c9634c84907b906e55aebe28", null ],
-    [ "operator&=", "d9/da3/a05354.html#afb2c7428dd07e4f427b0b0ca5ac0f7c3", null ],
-    [ "operator|=", "d9/da3/a05354.html#ab49498ed668ee324702c4beadf4de999", null ],
-    [ "operator~", "d9/da3/a05354.html#a3001eac7546c03530d1e51d5c1e6abfd", null ],
-    [ "RemoveFlag", "d9/da3/a05354.html#a106a00ee4112382aa0120489551bf50a", null ],
-    [ "operator&", "d9/da3/a05354.html#aa91d02e5d8b6d9ef507f47720ac6d9e6", null ],
-    [ "operator|", "d9/da3/a05354.html#add07cc2598afc632e84ffdc0bf60cd81", null ],
-    [ "_value", "d9/da3/a05354.html#a55353d720942d68d0dea86837aaca7c5", null ]
+    [ "difference_type", "d9/da3/a05354.html#aeb2086c6034a734b92b3cb8d0382a293", null ],
+    [ "iterator_category", "d9/da3/a05354.html#a60f6936503d386c555d012e8763611ca", null ],
+    [ "pointer", "d9/da3/a05354.html#aa25ef6456bed8f4e599a48c7c1448363", null ],
+    [ "reference", "d9/da3/a05354.html#a95fa5b0dac0017e43bc5683fb040836d", null ],
+    [ "value_type", "d9/da3/a05354.html#ab19bfdfea57f6de2bbef93aff14481ec", null ],
+    [ "CheckedBufferOutputIterator", "d9/da3/a05354.html#a49de38fe9f4e296bcd229d486864c65e", null ],
+    [ "check", "d9/da3/a05354.html#ab8414d5a971d77718de7f610bb000443", null ],
+    [ "operator*", "d9/da3/a05354.html#a2d4635aa952b03df738046667197b6f9", null ],
+    [ "operator++", "d9/da3/a05354.html#a1bdbf99823ee46a88094480b5040211b", null ],
+    [ "operator++", "d9/da3/a05354.html#a8a72bd229fb92e389ec311142ca2a139", null ],
+    [ "remaining", "d9/da3/a05354.html#ae804b558c6912a00405070e170572407", null ],
+    [ "_buf", "d9/da3/a05354.html#abee1c6def8872acea5f34f0ae22aa467", null ],
+    [ "_end", "d9/da3/a05354.html#a83a86f648edeeaf34b01581b972b2f1d", null ]
 ];

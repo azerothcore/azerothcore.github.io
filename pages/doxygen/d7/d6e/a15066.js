@@ -1,5 +1,7 @@
 var a15066 =
 [
-    [ "at_ancient_leaf", "d7/d6e/a15066.html#a7c1913b5ac00659697d0b361f1a7a2fd", null ],
-    [ "OnTrigger", "d7/d6e/a15066.html#a6d3a2775216cb0c864dc21f5bb5dbc79", null ]
+    [ "HandleDummy", "d7/d6e/a15066.html#a30a87266b89021caf7d05c45397f70d1", null ],
+    [ "PrepareSpellScript", "d7/d6e/a15066.html#a43a92b346088d710719722e8feed9634", null ],
+    [ "Register", "d7/d6e/a15066.html#ad7a53cc6a24197c050ed8577f6c6cc12", null ],
+    [ "Validate", "d7/d6e/a15066.html#a8b5097b623adbc1d8a10d7b1c4c248ab", null ]
 ];

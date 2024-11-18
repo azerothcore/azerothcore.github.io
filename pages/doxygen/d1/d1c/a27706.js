@@ -1,5 +1,5 @@
 var a27706 =
 [
-    [ "Id", "d1/d1c/a27706.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
-    [ "textid", "d1/d1c/a27706.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
+    [ "BitIndex", "d1/d1c/a27706.html#a55fdf966aec0ca687cd6074683af6e7f", null ],
+    [ "ItemId", "d1/d1c/a27706.html#a998c1f6dadb823fbba56bb2154396635", null ]
 ];

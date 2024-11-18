@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Item/Container/Bag.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Protocol/PacketLog.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,24 +104,86 @@ $(document).ready(function(){initNavTree('dc/d86/a04022.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Bag.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">PacketLog.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Bag.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &lt;boost/asio/ip/address.hpp&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc2/a10690.html">PacketLog</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a14b702138c7f0a62a900dfc8eecc1f6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/a04022.html#a14b702138c7f0a62a900dfc8eecc1f6f">sPacketLog</a>&#160;&#160;&#160;<a class="el" href="../../d6/dc2/a10690.html#a484418a51ca0bf150d17b23d97979bf4">PacketLog::instance</a>()</td></tr>
+<tr class="separator:a14b702138c7f0a62a900dfc8eecc1f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a>
+<br />
+ }</td></tr>
+<tr class="separator:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a14b702138c7f0a62a900dfc8eecc1f6f" name="a14b702138c7f0a62a900dfc8eecc1f6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b702138c7f0a62a900dfc8eecc1f6f">&#9670;&#160;</a></span>sPacketLog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sPacketLog&#160;&#160;&#160;<a class="el" href="../../d6/dc2/a10690.html#a484418a51ca0bf150d17b23d97979bf4">PacketLog::instance</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a224b9163917ac32fc95a60d8c1eec3aa" name="a224b9163917ac32fc95a60d8c1eec3aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224b9163917ac32fc95a60d8c1eec3aa">&#9670;&#160;</a></span>Direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476" name="a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476"></a>CLIENT_TO_SERVER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3" name="a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3"></a>SERVER_TO_CLIENT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a></div>
+<div class="line"><span class="lineno">   29</span>};</div>
+<div class="ttc" id="aa04022_html_a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3"><div class="ttname"><a href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a></div><div class="ttdeci">@ SERVER_TO_CLIENT</div><div class="ttdef"><b>Definition:</b> PacketLog.h:28</div></div>
+<div class="ttc" id="aa04022_html_a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476"><div class="ttname"><a href="../../dc/d86/a04022.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a></div><div class="ttdeci">@ CLIENT_TO_SERVER</div><div class="ttdef"><b>Definition:</b> PacketLog.h:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_4b91de77c0d3c1b17ed3a22a8949a24f.html">Item</a></li><li class="navelem"><a class="el" href="../../dir_1d0cd413e006ec6494118012b4dd808f.html">Container</a></li><li class="navelem"><a class="el" href="../../dc/d86/a04022.html">Bag.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_1fd92d9a30d0fdf42a981ea00259f736.html">Protocol</a></li><li class="navelem"><a class="el" href="../../dc/d86/a04022.html">PacketLog.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

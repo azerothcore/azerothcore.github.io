@@ -1,8 +1,6 @@
 var a25406 =
 [
-    [ "CheckRequirement", "da/d07/a25406.html#a3ed8450641baeee915fc5a129f9c7434", null ],
-    [ "HandleScript", "da/d07/a25406.html#a92e3137bb92545876ca67028bcc86a4f", null ],
-    [ "Load", "da/d07/a25406.html#a56326701447b3a88d9022ca1f1c184a6", null ],
-    [ "PrepareSpellScript", "da/d07/a25406.html#a94d4155e98a4ac5764d8bfd705b05602", null ],
-    [ "Register", "da/d07/a25406.html#a9b440dd8bf21b70d068021d05832a3fc", null ]
+    [ "CalculateAmount", "da/d07/a25406.html#a6faee23ed5947a904e58bfb38cf01d05", null ],
+    [ "PrepareAuraScript", "da/d07/a25406.html#a5e7d089dd117b6b3a605ea2e8aea0b04", null ],
+    [ "Register", "da/d07/a25406.html#a37e277143b2ae6cd88260776941b59bf", null ]
 ];

@@ -1,8 +1,10 @@
 var a26278 =
 [
-    [ "ApplyDebuff", "d4/d02/a26278.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
-    [ "PrepareSpellScript", "d4/d02/a26278.html#aa37525d089348f58e3d871830caa3417", null ],
-    [ "Register", "d4/d02/a26278.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
-    [ "RemoveInvalidTargets", "d4/d02/a26278.html#a0451b75aa962065a01a5806992e01b16", null ],
-    [ "Validate", "d4/d02/a26278.html#ac69d777fdf7a2d3c527621dee256690c", null ]
+    [ "CalculateAPAmount", "d4/d02/a26278.html#abba0772c18bf98696dc1f236da79401e", null ],
+    [ "CalculateResistanceAmount", "d4/d02/a26278.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
+    [ "CalculateSPAmount", "d4/d02/a26278.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
+    [ "CalculateStatAmount", "d4/d02/a26278.html#a9269eee5ef676c466e662305389988f0", null ],
+    [ "HandleEffectApply", "d4/d02/a26278.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
+    [ "PrepareAuraScript", "d4/d02/a26278.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
+    [ "Register", "d4/d02/a26278.html#a9bf7cd6309b4724462b03c1080324f83", null ]
 ];

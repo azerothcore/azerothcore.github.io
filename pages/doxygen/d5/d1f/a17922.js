@@ -1,8 +1,10 @@
 var a17922 =
 [
-    [ "Load", "d5/d1f/a17922.html#add67e02f44e3658bff98faf7a9466ba3", null ],
-    [ "OnPeriodic", "d5/d1f/a17922.html#a3e523e0bb23e4aba279ba6704206bfc4", null ],
-    [ "PrepareAuraScript", "d5/d1f/a17922.html#a399fc30c23c03d3c4964ec23faed7c18", null ],
-    [ "Register", "d5/d1f/a17922.html#a4ee6fe23e45481eea16f77d8de72742e", null ],
-    [ "_is25Man", "d5/d1f/a17922.html#ab7776e2d8eff0de1176d5d5efa853c6d", null ]
+    [ "HandleScript", "d5/d1f/a17922.html#a18c80010b9e8803b3c225acf2dd0b605", null ],
+    [ "Load", "d5/d1f/a17922.html#af31fd5b1f9cdc67650eec5e305f095bf", null ],
+    [ "PrepareSpellScript", "d5/d1f/a17922.html#afcc1efc69d73086a9ab686855911e516", null ],
+    [ "Register", "d5/d1f/a17922.html#a061e110b9a032a9bbd0a48f686d16a84", null ],
+    [ "ReplaceTarget", "d5/d1f/a17922.html#a01cb7d25bef14a2266d81594544f6283", null ],
+    [ "SelectTarget", "d5/d1f/a17922.html#aa06b7505ff483bc5e534cc37d909b28c", null ],
+    [ "_target", "d5/d1f/a17922.html#a3a84a9d7109845d201b395f05f66d109", null ]
 ];

@@ -1,9 +1,14 @@
 var a09494 =
 [
-    [ "LiquidData", "df/d01/a09494.html#ac2435178323f480d2dae449b49b39146", null ],
-    [ "DepthLevel", "df/d01/a09494.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
-    [ "Entry", "df/d01/a09494.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
-    [ "Flags", "df/d01/a09494.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
-    [ "Level", "df/d01/a09494.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
-    [ "Status", "df/d01/a09494.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
+    [ "areaMapOffset", "df/d01/a09494.html#a70f82337112bb8cbff0b3344666885a1", null ],
+    [ "areaMapSize", "df/d01/a09494.html#adfbbb622974b7942f47dd16d2300246f", null ],
+    [ "buildMagic", "df/d01/a09494.html#a82d0f500f9e84cf6c8bf917a98f92115", null ],
+    [ "heightMapOffset", "df/d01/a09494.html#a7623bee6b8cf7d6e39b8716aa72f8514", null ],
+    [ "heightMapSize", "df/d01/a09494.html#a71c9cd42801697a927543e3acd4c3daf", null ],
+    [ "holesOffset", "df/d01/a09494.html#a876d70dcd6ccec9ad09de77718c02150", null ],
+    [ "holesSize", "df/d01/a09494.html#a3c3cc1895a47dc69265f4b58166c3f6b", null ],
+    [ "liquidMapOffset", "df/d01/a09494.html#ac62deafcc7b435caf4a0f6aafd3d85be", null ],
+    [ "liquidMapSize", "df/d01/a09494.html#a5aa18af3a8e029e8842ddf72fc5d5267", null ],
+    [ "mapMagic", "df/d01/a09494.html#a2691fbc981b2ed5e1d748cd9c0859548", null ],
+    [ "versionMagic", "df/d01/a09494.html#abe722f653ba057fbba84401acbaffbfa", null ]
 ];

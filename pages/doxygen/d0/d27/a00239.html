@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/EnumFlag.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Dynamic/LinkedReference/Reference.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,311 +105,27 @@ $(document).ready(function(){initNavTree('d0/d27/a00239.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">EnumFlag.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">Reference.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;type_traits&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Dynamic/LinkedList.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da3/a05354.html">EnumFlag&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d48/a05150.html">Reference&lt; TO, FROM &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d8/d12/a04694"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d12/a04694.html">EnumTraits</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9f556f9c539f21ae6fd639abe4c39c75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#a9f556f9c539f21ae6fd639abe4c39c75">DEFINE_ENUM_FLAG</a>(enumType)&#160;&#160;&#160;constexpr bool <a class="el" href="../../d0/d27/a00239.html#ae0992e010612850442fc56bcf2d44b47">IsEnumFlag</a>(enumType) { return true; }</td></tr>
-<tr class="separator:a9f556f9c539f21ae6fd639abe4c39c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a7294b75cb336d554d5ce2b75b05c37d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7294b75cb336d554d5ce2b75b05c37d6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a> = std::integral_constant&lt; bool, <a class="el" href="../../d0/d27/a00239.html#ae0992e010612850442fc56bcf2d44b47">IsEnumFlag</a>(T{})&gt;</td></tr>
-<tr class="separator:a7294b75cb336d554d5ce2b75b05c37d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae0992e010612850442fc56bcf2d44b47"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae0992e010612850442fc56bcf2d44b47"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#ae0992e010612850442fc56bcf2d44b47">IsEnumFlag</a> (T)</td></tr>
-<tr class="separator:ae0992e010612850442fc56bcf2d44b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ef39aed098304d7387af8257f7cee3"><td class="memTemplParams" colspan="2">template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:a27ef39aed098304d7387af8257f7cee3"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#a27ef39aed098304d7387af8257f7cee3">operator&amp;</a> (T left, T right)</td></tr>
-<tr class="separator:a27ef39aed098304d7387af8257f7cee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a78ca9e9dcd1b92829560e580c3134"><td class="memTemplParams" colspan="2">template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:a24a78ca9e9dcd1b92829560e580c3134"><td class="memTemplItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#a24a78ca9e9dcd1b92829560e580c3134">operator&amp;=</a> (T &amp;left, T right)</td></tr>
-<tr class="separator:a24a78ca9e9dcd1b92829560e580c3134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8aaa198de31cb5a3b217d0968f30a3b"><td class="memTemplParams" colspan="2">template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:ac8aaa198de31cb5a3b217d0968f30a3b"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#ac8aaa198de31cb5a3b217d0968f30a3b">operator|</a> (T left, T right)</td></tr>
-<tr class="separator:ac8aaa198de31cb5a3b217d0968f30a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7808a2b72bed2b70553d802ed11e27c4"><td class="memTemplParams" colspan="2">template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:a7808a2b72bed2b70553d802ed11e27c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#a7808a2b72bed2b70553d802ed11e27c4">operator|=</a> (T &amp;left, T right)</td></tr>
-<tr class="separator:a7808a2b72bed2b70553d802ed11e27c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe3f4d2eafbceebe9ec46ffcd15cfa76"><td class="memTemplParams" colspan="2">template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:abe3f4d2eafbceebe9ec46ffcd15cfa76"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d27/a00239.html#abe3f4d2eafbceebe9ec46ffcd15cfa76">operator~</a> (T value)</td></tr>
-<tr class="separator:abe3f4d2eafbceebe9ec46ffcd15cfa76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9f556f9c539f21ae6fd639abe4c39c75" name="a9f556f9c539f21ae6fd639abe4c39c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f556f9c539f21ae6fd639abe4c39c75">&#9670;&#160;</a></span>DEFINE_ENUM_FLAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFINE_ENUM_FLAG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">enumType</td><td>)</td>
-          <td>&#160;&#160;&#160;constexpr bool <a class="el" href="../../d0/d27/a00239.html#ae0992e010612850442fc56bcf2d44b47">IsEnumFlag</a>(enumType) { return true; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae0992e010612850442fc56bcf2d44b47" name="ae0992e010612850442fc56bcf2d44b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0992e010612850442fc56bcf2d44b47">&#9670;&#160;</a></span>IsEnumFlag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool IsEnumFlag </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a27ef39aed098304d7387af8257f7cee3" name="a27ef39aed098304d7387af8257f7cee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27ef39aed098304d7387af8257f7cee3">&#9670;&#160;</a></span>operator&amp;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>right</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span>std::underlying_type_t&lt;T&gt;<span class="keyword">&gt;</span>(left) &amp; <span class="keyword">static_cast&lt;</span>std::underlying_type_t&lt;T&gt;<span class="keyword">&gt;</span>(right));</div>
-<div class="line"><span class="lineno">   38</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a24a78ca9e9dcd1b92829560e580c3134" name="a24a78ca9e9dcd1b92829560e580c3134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24a78ca9e9dcd1b92829560e580c3134">&#9670;&#160;</a></span>operator&amp;=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T &amp; operator&amp;= </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>right</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">return</span> left = left &amp; right;</div>
-<div class="line"><span class="lineno">   44</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac8aaa198de31cb5a3b217d0968f30a3b" name="ac8aaa198de31cb5a3b217d0968f30a3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8aaa198de31cb5a3b217d0968f30a3b">&#9670;&#160;</a></span>operator|()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T operator| </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>right</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
-<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span>std::underlying_type_t&lt;T&gt;<span class="keyword">&gt;</span>(left) | <span class="keyword">static_cast&lt;</span>std::underlying_type_t&lt;T&gt;<span class="keyword">&gt;</span>(right));</div>
-<div class="line"><span class="lineno">   50</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7808a2b72bed2b70553d802ed11e27c4" name="a7808a2b72bed2b70553d802ed11e27c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7808a2b72bed2b70553d802ed11e27c4">&#9670;&#160;</a></span>operator|=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T &amp; operator|= </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>right</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
-<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">return</span> left = left | right;</div>
-<div class="line"><span class="lineno">   56</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="abe3f4d2eafbceebe9ec46ffcd15cfa76" name="abe3f4d2eafbceebe9ec46ffcd15cfa76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3f4d2eafbceebe9ec46ffcd15cfa76">&#9670;&#160;</a></span>operator~()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::enable_if_t&lt; <a class="el" href="../../d8/d12/a04694.html#a7294b75cb336d554d5ce2b75b05c37d6">EnumTraits::IsFlag</a>&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T operator~ </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(~static_cast&lt;std::underlying_type_t&lt;T&gt;&gt;(value));</div>
-<div class="line"><span class="lineno">   62</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d0/d27/a00239.html">EnumFlag.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5e90094e25781d2f0c122fad038cf6ce.html">Dynamic</a></li><li class="navelem"><a class="el" href="../../dir_ad428c5db30caa68b61b40c59271b2a9.html">LinkedReference</a></li><li class="navelem"><a class="el" href="../../d0/d27/a00239.html">Reference.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,23 +1,11 @@
 var a23458 =
 [
-    [ "boss_kaelthas", "d5/d4d/a23458.html#a345f77793c34abb61f6bf29eed7d22fd", null ],
-    [ "AttackStart", "d5/d4d/a23458.html#a861636c35e70116ddea722519bd08831", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d5/d4d/a23458.html#a8974fcc10874e2dab89f7bc9f71afe6d", null ],
-    [ "DoAction", "d5/d4d/a23458.html#ab5dbc3f3adaf7567d48dc11838e3b938", null ],
-    [ "ExecuteMiddleEvent", "d5/d4d/a23458.html#a42b6d919db655b50c2bd0214b9663fc9", null ],
-    [ "IntroduceNewAdvisor", "d5/d4d/a23458.html#a20b4a5967fdb39ee634dc3cf468dc657", null ],
-    [ "JustDied", "d5/d4d/a23458.html#af749ddef90aa3175879ed586d5defa01", null ],
-    [ "JustSummoned", "d5/d4d/a23458.html#a5e5f8d605a87019c9d9e4d613464de81", null ],
-    [ "KilledUnit", "d5/d4d/a23458.html#a3d489512c3a5abc69a6359e174863893", null ],
-    [ "MoveInLineOfSight", "d5/d4d/a23458.html#a52ab6dafc6c62de034131a7d62a09354", null ],
-    [ "MovementInform", "d5/d4d/a23458.html#a826678b15763782107f218e1031c149b", null ],
-    [ "PhaseAllAdvisorsExecute", "d5/d4d/a23458.html#adcad835ea5eedc1a8f4fe7a7bb9dfdc2", null ],
-    [ "PhaseKaelExecute", "d5/d4d/a23458.html#afdf4470092452498dfcb27a4bc4c319f", null ],
-    [ "PrepareAdvisors", "d5/d4d/a23458.html#a336e5b81146fe19f36b1d39fd3802aac", null ],
-    [ "Reset", "d5/d4d/a23458.html#a7331287c076a765815ddca3a445dbe73", null ],
-    [ "SetData", "d5/d4d/a23458.html#a71cb08d6ec4e2631ecaf4d25b1cf872b", null ],
-    [ "SetRoomState", "d5/d4d/a23458.html#a1eb86aaca814d5464e76af7464db91fb", null ],
-    [ "UpdateAI", "d5/d4d/a23458.html#a5f10fded416168d772109ecbf8b09e77", null ],
-    [ "_phase", "d5/d4d/a23458.html#a95845de084e261ca6c6d815f4e150223", null ],
-    [ "_transitionSceneReached", "d5/d4d/a23458.html#a989b1df477c6946ed4e4366bb82a5dd2", null ]
+    [ "boss_high_astromancer_solarian", "d5/d4d/a23458.html#a2db48cc179539f81b55188de08a7e180", null ],
+    [ "AttackStart", "d5/d4d/a23458.html#acaf94134aef553447e766a5e431c8b83", null ],
+    [ "JustDied", "d5/d4d/a23458.html#a510eb2e4f0770670d6767bc2545375b7", null ],
+    [ "JustEngagedWith", "d5/d4d/a23458.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
+    [ "JustSummoned", "d5/d4d/a23458.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
+    [ "KilledUnit", "d5/d4d/a23458.html#a561a78193615575b7e43e0f21387f1b8", null ],
+    [ "Reset", "d5/d4d/a23458.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
+    [ "UpdateAI", "d5/d4d/a23458.html#a07a76c34a978c31212390cf10ed3e382", null ]
 ];

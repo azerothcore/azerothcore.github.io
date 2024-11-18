@@ -1,6 +1,6 @@
 var a26854 =
 [
-    [ "go_heatAI", "dc/d09/a26854.html#a40e4ec3294126aaf3fc6875aa8b39f0a", null ],
-    [ "UpdateAI", "dc/d09/a26854.html#a2332206ee47b2cea9e4707d16ea79325", null ],
-    [ "timer", "dc/d09/a26854.html#a4f01692c9f39e2a40d2d5f9c22e0ac43", null ]
+    [ "go_flamesAI", "d1/d68/a26858.html", "d1/d68/a26858" ],
+    [ "go_flames", "dc/d09/a26854.html#a75d49202eaf2078b8276e59944d1ec89", null ],
+    [ "GetAI", "dc/d09/a26854.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
 ];

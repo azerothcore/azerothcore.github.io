@@ -1,12 +1,6 @@
 var a21462 =
 [
-    [ "npc_q24545_wretched_ghoulAI", "d2/d42/a21462.html#a0e4d9b3acd1de2cd44d0a6a22007e026", null ],
-    [ "Activate", "d2/d42/a21462.html#a52f64cef6159a3bfe29a6ac551b5bbe2", null ],
-    [ "AttackStart", "d2/d42/a21462.html#a9453e2fe00c656ded0bad4d9036dbd2a", null ],
-    [ "CanAIAttack", "d2/d42/a21462.html#a9cf57308ea588cc2febb0bb2666c2afe", null ],
-    [ "Deactivate", "d2/d42/a21462.html#af7dd65b8c0a1b5b55752d7f6b85f21cc", null ],
-    [ "DoAction", "d2/d42/a21462.html#a77aad4a0446fac68a5d1785acbe825eb", null ],
-    [ "JustDied", "d2/d42/a21462.html#a2fc9b40d72eea88b2245e6b01b17384a", null ],
-    [ "JustRespawned", "d2/d42/a21462.html#ab30068f7082176c279e0667f72d750a3", null ],
-    [ "Reset", "d2/d42/a21462.html#ad94a4789b5ba019d021682f15df13589", null ]
+    [ "SACActivateEvent", "d2/d42/a21462.html#a7e5ba22c5500337f14ae067e2b404c5a", null ],
+    [ "Execute", "d2/d42/a21462.html#ad3e4092941e8cd8953fdc251e97c458a", null ],
+    [ "_owner", "d2/d42/a21462.html#ae930bd1f603ea296c5ccabd6fbd299f8", null ]
 ];

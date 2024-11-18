@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WeatherData Struct Reference</title>
+<title>AzerothCore: WardenPayloadMgr Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,29 +105,650 @@ $(document).ready(function(){initNavTree('d8/de4/a11234.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d0/dd6/a11231.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WeatherData Struct Reference<div class="ingroups"><a class="el" href="../../db/d7c/a04669.html">The World</a></div></div></div>
+  <div class="headertitle"><div class="title">WardenPayloadMgr Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code></p>
+<p>The <a class="el" href="../../d8/de4/a11234.html" title="The WardenPayloadMgr is responsible for maintaining custom payloads used by modules.">WardenPayloadMgr</a> is responsible for maintaining custom payloads used by modules.  
+ <a href="../../d8/de4/a11234.html#details">More...</a></p>
+
+<p><code>#include &quot;<a class="el" href="../../">WardenPayloadMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0a90c3e8ab6d5b5698f330b997efed27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a0a90c3e8ab6d5b5698f330b997efed27">WardenPayloadMgr</a> ()</td></tr>
+<tr class="separator:a0a90c3e8ab6d5b5698f330b997efed27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698b2ab4709a495f299be18b053e4014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a698b2ab4709a495f299be18b053e4014">GetFreePayloadId</a> ()</td></tr>
+<tr class="memdesc:a698b2ab4709a495f299be18b053e4014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a free payload id in <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>.  <a href="../../d8/de4/a11234.html#a698b2ab4709a495f299be18b053e4014">More...</a><br /></td></tr>
+<tr class="separator:a698b2ab4709a495f299be18b053e4014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b7d9cbbb94eab430a0caff00448a4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#ab3b7d9cbbb94eab430a0caff00448a4a">RegisterPayload</a> (const std::string &amp;payload)</td></tr>
+<tr class="memdesc:ab3b7d9cbbb94eab430a0caff00448a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a payload into cache and returns its payload id.  <a href="../../d8/de4/a11234.html#ab3b7d9cbbb94eab430a0caff00448a4a">More...</a><br /></td></tr>
+<tr class="separator:ab3b7d9cbbb94eab430a0caff00448a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e7a14fe433ed45e94d3e74ba43f579"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#ae2e7a14fe433ed45e94d3e74ba43f579">RegisterPayload</a> (std::string const &amp;payload, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId, bool replace=false)</td></tr>
+<tr class="memdesc:ae2e7a14fe433ed45e94d3e74ba43f579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a payload into cache with a custom id and returns the result.  <a href="../../d8/de4/a11234.html#ae2e7a14fe433ed45e94d3e74ba43f579">More...</a><br /></td></tr>
+<tr class="separator:ae2e7a14fe433ed45e94d3e74ba43f579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d5b53d0e1fd42663ad673b31fe4fab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a97d5b53d0e1fd42663ad673b31fe4fab">UnregisterPayload</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId)</td></tr>
+<tr class="memdesc:a97d5b53d0e1fd42663ad673b31fe4fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister a payload from cache and return if successful.  <a href="../../d8/de4/a11234.html#a97d5b53d0e1fd42663ad673b31fe4fab">More...</a><br /></td></tr>
+<tr class="separator:a97d5b53d0e1fd42663ad673b31fe4fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7d7ab2c529b74b67fb363a063ffa27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d23/a11206.html">WardenCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a9f7d7ab2c529b74b67fb363a063ffa27">GetPayloadById</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId)</td></tr>
+<tr class="memdesc:a9f7d7ab2c529b74b67fb363a063ffa27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a payload by id from the <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>.  <a href="../../d8/de4/a11234.html#a9f7d7ab2c529b74b67fb363a063ffa27">More...</a><br /></td></tr>
+<tr class="separator:a9f7d7ab2c529b74b67fb363a063ffa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f9cf58fa5c9d34fdac860c3ae692d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a36f9cf58fa5c9d34fdac860c3ae692d1">QueuePayload</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId, bool pushToFront=false)</td></tr>
+<tr class="memdesc:a36f9cf58fa5c9d34fdac860c3ae692d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue the payload into the normal warden checks.  <a href="../../d8/de4/a11234.html#a36f9cf58fa5c9d34fdac860c3ae692d1">More...</a><br /></td></tr>
+<tr class="separator:a36f9cf58fa5c9d34fdac860c3ae692d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb196873e89729eb5c3ad3238e75a6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a0fb196873e89729eb5c3ad3238e75a6a">DequeuePayload</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId)</td></tr>
+<tr class="memdesc:a0fb196873e89729eb5c3ad3238e75a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dequeue the payload from the <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a> queue.  <a href="../../d8/de4/a11234.html#a0fb196873e89729eb5c3ad3238e75a6a">More...</a><br /></td></tr>
+<tr class="separator:a0fb196873e89729eb5c3ad3238e75a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade67b783b6e6c7421b0d86a9143d60d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#ade67b783b6e6c7421b0d86a9143d60d9">ClearQueuedPayloads</a> ()</td></tr>
+<tr class="memdesc:ade67b783b6e6c7421b0d86a9143d60d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the payloads from the <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a> queue.  <a href="../../d8/de4/a11234.html#ade67b783b6e6c7421b0d86a9143d60d9">More...</a><br /></td></tr>
+<tr class="separator:ade67b783b6e6c7421b0d86a9143d60d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3878c7264337d646f7a5d503907d7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#ae3878c7264337d646f7a5d503907d7aa">GetPayloadCountInQueue</a> ()</td></tr>
+<tr class="memdesc:ae3878c7264337d646f7a5d503907d7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the amount of payloads waiting in <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a>.  <a href="../../d8/de4/a11234.html#ae3878c7264337d646f7a5d503907d7aa">More...</a><br /></td></tr>
+<tr class="separator:ae3878c7264337d646f7a5d503907d7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8ed858cc20f8acc0266edbe84b3dfd"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a6b8ed858cc20f8acc0266edbe84b3dfd">GetPayloadsInQueue</a> ()</td></tr>
+<tr class="memdesc:a6b8ed858cc20f8acc0266edbe84b3dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get payloads waiting in <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a>.  <a href="../../d8/de4/a11234.html#a6b8ed858cc20f8acc0266edbe84b3dfd">More...</a><br /></td></tr>
+<tr class="separator:a6b8ed858cc20f8acc0266edbe84b3dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ga4e97bd1d129d33b86a11c79c8cfa437b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de4/a11230.html">WeatherSeasonChances</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga4e97bd1d129d33b86a11c79c8cfa437b">data</a> [<a class="el" href="../../db/d7c/a04669.html#ga5ee30d2da0d958800dd3ad582c49d487">WEATHER_SEASONS</a>]</td></tr>
-<tr class="separator:ga4e97bd1d129d33b86a11c79c8cfa437b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa452a9be01e00154512cb55980737ae6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#gaa452a9be01e00154512cb55980737ae6">ScriptId</a></td></tr>
-<tr class="separator:gaa452a9be01e00154512cb55980737ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d473fcc12806a29a6cf191ebd1ec9ff"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a></td></tr>
+<tr class="memdesc:a0d473fcc12806a29a6cf191ebd1ec9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of currently queued payload ids to be sent through <a class="el" href="../../da/d3e/a11202.html">Warden</a>.  <a href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">More...</a><br /></td></tr>
+<tr class="separator:a0d473fcc12806a29a6cf191ebd1ec9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c6878274bc49b921714278d77eed56"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>, <a class="el" href="../../da/d23/a11206.html">WardenCheck</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a></td></tr>
+<tr class="memdesc:a65c6878274bc49b921714278d77eed56"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cached payloads that are accessed by payload id.  <a href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">More...</a><br /></td></tr>
+<tr class="separator:a65c6878274bc49b921714278d77eed56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a9f7e5a100c56a6ee9a6bd39a792b9e44"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadOffsetMin</a> = 5000</td></tr>
+<tr class="memdesc:a9f7e5a100c56a6ee9a6bd39a792b9e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum id available for custom payloads.  <a href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">More...</a><br /></td></tr>
+<tr class="separator:a9f7e5a100c56a6ee9a6bd39a792b9e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6537e719e9f8f4c371340d0d1b4db7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a0a6537e719e9f8f4c371340d0d1b4db7">WardenPayloadOffsetMax</a> = 9999</td></tr>
+<tr class="memdesc:a0a6537e719e9f8f4c371340d0d1b4db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum id available for custom payloads.  <a href="../../d8/de4/a11234.html#a0a6537e719e9f8f4c371340d0d1b4db7">More...</a><br /></td></tr>
+<tr class="separator:a0a6537e719e9f8f4c371340d0d1b4db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6853734e30d11fce42dfeeb3a06c22"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html#a5d6853734e30d11fce42dfeeb3a06c22">WardenPayloadCheckType</a> = 139</td></tr>
+<tr class="memdesc:a5d6853734e30d11fce42dfeeb3a06c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The checktype used for warden payloads.  <a href="../../d8/de4/a11234.html#a5d6853734e30d11fce42dfeeb3a06c22">More...</a><br /></td></tr>
+<tr class="separator:a5d6853734e30d11fce42dfeeb3a06c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><p >The <a class="el" href="../../d8/de4/a11234.html" title="The WardenPayloadMgr is responsible for maintaining custom payloads used by modules.">WardenPayloadMgr</a> is responsible for maintaining custom payloads used by modules. </p>
+<p >This allows users to send custom lua payloads up to a size of 512 bytes to the game client. Some of the things you can achieve with this is:</p><ul>
+<li>Interaction with the client interface (add custom frames)</li>
+<li>Access to client CVars</li>
+<li>Access to protected lua functions.</li>
+</ul>
+<p >Opening up many possiblilties for a patch-less custom server. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0a90c3e8ab6d5b5698f330b997efed27" name="a0a90c3e8ab6d5b5698f330b997efed27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a90c3e8ab6d5b5698f330b997efed27">&#9670;&#160;</a></span>WardenPayloadMgr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WardenPayloadMgr::WardenPayloadMgr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ade67b783b6e6c7421b0d86a9143d60d9" name="ade67b783b6e6c7421b0d86a9143d60d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade67b783b6e6c7421b0d86a9143d60d9">&#9670;&#160;</a></span>ClearQueuedPayloads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WardenPayloadMgr::ClearQueuedPayloads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the payloads from the <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a> queue. </p>
+<div class="fragment"><div class="line"><span class="lineno">  138</span>{</div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.clear();</div>
+<div class="line"><span class="lineno">  140</span>}</div>
+<div class="ttc" id="aa11234_html_a0d473fcc12806a29a6cf191ebd1ec9ff"><div class="ttname"><a href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">WardenPayloadMgr::QueuedPayloads</a></div><div class="ttdeci">std::list&lt; uint16 &gt; QueuedPayloads</div><div class="ttdoc">The list of currently queued payload ids to be sent through Warden.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:130</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00130">QueuedPayloads</a>.</p>
+
+</div>
+</div>
+<a id="a0fb196873e89729eb5c3ad3238e75a6a" name="a0fb196873e89729eb5c3ad3238e75a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb196873e89729eb5c3ad3238e75a6a">&#9670;&#160;</a></span>DequeuePayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WardenPayloadMgr::DequeuePayload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>payloadId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dequeue the payload from the <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a> queue. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payloadId</td><td>The payloadId to be dequeued. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool If the payload was removed. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  130</span>{</div>
+<div class="line"><span class="lineno">  131</span>    std::size_t <span class="keyword">const</span> queueSize = <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.size();</div>
+<div class="line"><span class="lineno">  132</span>    <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.remove(payloadId);</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>    <span class="keywordflow">return</span> queueSize != <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.size();</div>
+<div class="line"><span class="lineno">  135</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00130">QueuedPayloads</a>.</p>
+
+</div>
+</div>
+<a id="a698b2ab4709a495f299be18b053e4014" name="a698b2ab4709a495f299be18b053e4014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698b2ab4709a495f299be18b053e4014">&#9670;&#160;</a></span>GetFreePayloadId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> WardenPayloadMgr::GetFreePayloadId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds a free payload id in <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint16 The free payload id. Returns 0 if there is no free id. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId = <a class="code hl_variable" href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadOffsetMin</a>;</div>
+<div class="line"><span class="lineno">   28</span> </div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.find(payloadId) != <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.end())</div>
+<div class="line"><span class="lineno">   30</span>    {</div>
+<div class="line"><span class="lineno">   31</span>        payloadId++;</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">if</span> (payloadId &gt; <a class="code hl_variable" href="../../d8/de4/a11234.html#a0a6537e719e9f8f4c371340d0d1b4db7">WardenPayloadMgr::WardenPayloadOffsetMax</a>)</div>
+<div class="line"><span class="lineno">   34</span>        {</div>
+<div class="line"><span class="lineno">   35</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;warden&quot;</span>, <span class="stringliteral">&quot;Max warden payload id of &#39;{}&#39; passed!&quot;</span>, <a class="code hl_variable" href="../../d8/de4/a11234.html#a0a6537e719e9f8f4c371340d0d1b4db7">WardenPayloadMgr::WardenPayloadOffsetMax</a>);</div>
+<div class="line"><span class="lineno">   36</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   37</span>        }</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> payloadId;</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa11234_html_a0a6537e719e9f8f4c371340d0d1b4db7"><div class="ttname"><a href="../../d8/de4/a11234.html#a0a6537e719e9f8f4c371340d0d1b4db7">WardenPayloadMgr::WardenPayloadOffsetMax</a></div><div class="ttdeci">static uint16 constexpr WardenPayloadOffsetMax</div><div class="ttdoc">The maximum id available for custom payloads.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:120</div></div>
+<div class="ttc" id="aa11234_html_a65c6878274bc49b921714278d77eed56"><div class="ttname"><a href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">WardenPayloadMgr::CachedChecks</a></div><div class="ttdeci">std::map&lt; uint16, WardenCheck &gt; CachedChecks</div><div class="ttdoc">The cached payloads that are accessed by payload id.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:135</div></div>
+<div class="ttc" id="aa11234_html_a9f7e5a100c56a6ee9a6bd39a792b9e44"><div class="ttname"><a href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a></div><div class="ttdeci">static uint16 constexpr WardenPayloadOffsetMin</div><div class="ttdoc">The minimum id available for custom payloads.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:115</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00135">CachedChecks</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00120">WardenPayloadOffsetMax</a>, and <a class="el" href="../../#l00115">WardenPayloadOffsetMin</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00043">RegisterPayload()</a>.</p>
+
+</div>
+</div>
+<a id="a9f7d7ab2c529b74b67fb363a063ffa27" name="a9f7d7ab2c529b74b67fb363a063ffa27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f7d7ab2c529b74b67fb363a063ffa27">&#9670;&#160;</a></span>GetPayloadById()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d23/a11206.html">WardenCheck</a> * WardenPayloadMgr::GetPayloadById </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>payloadId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a payload by id from the <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payloadId</td><td>The payload to fetched from <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WardenCheck* A pointer to the <a class="el" href="../../da/d23/a11206.html">WardenCheck</a> payload. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.find(payloadId);</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.end())</div>
+<div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">return</span> &amp;it-&gt;second;</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  106</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00135">CachedChecks</a>.</p>
+
+</div>
+</div>
+<a id="ae3878c7264337d646f7a5d503907d7aa" name="ae3878c7264337d646f7a5d503907d7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3878c7264337d646f7a5d503907d7aa">&#9670;&#160;</a></span>GetPayloadCountInQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> WardenPayloadMgr::GetPayloadCountInQueue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the amount of payloads waiting in <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The amount of payloads in queue. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
+<div class="line"><span class="lineno">  144</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.size();</div>
+<div class="line"><span class="lineno">  145</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00130">QueuedPayloads</a>.</p>
+
+</div>
+</div>
+<a id="a6b8ed858cc20f8acc0266edbe84b3dfd" name="a6b8ed858cc20f8acc0266edbe84b3dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8ed858cc20f8acc0266edbe84b3dfd">&#9670;&#160;</a></span>GetPayloadsInQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; * WardenPayloadMgr::GetPayloadsInQueue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get payloads waiting in <a class="el" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff" title="The list of currently queued payload ids to be sent through Warden.">WardenPayloadMgr::QueuedPayloads</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The payloads in queue. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
+<div class="line"><span class="lineno">  149</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>;</div>
+<div class="line"><span class="lineno">  150</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00130">QueuedPayloads</a>.</p>
+
+</div>
+</div>
+<a id="a36f9cf58fa5c9d34fdac860c3ae692d1" name="a36f9cf58fa5c9d34fdac860c3ae692d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f9cf58fa5c9d34fdac860c3ae692d1">&#9670;&#160;</a></span>QueuePayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WardenPayloadMgr::QueuePayload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>payloadId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pushToFront</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Queue the payload into the normal warden checks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payloadId</td><td>The payloadId to be queued. </td></tr>
+    <tr><td class="paramname">pushToFront</td><td>If payload should be pushed to the front queue. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.find(payloadId);</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <span class="comment">//Do not queue a payload if there is no payload matching the payloadId.</span></div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.end())</div>
+<div class="line"><span class="lineno">  114</span>    {</div>
+<div class="line"><span class="lineno">  115</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;warden&quot;</span>, <span class="stringliteral">&quot;Failed to queue payload id &#39;{}&#39; as it does not exist in CachedChecks.&quot;</span>, payloadId);</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  117</span>    }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">if</span> (pushToFront)</div>
+<div class="line"><span class="lineno">  120</span>    {</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.push_front(payloadId);</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
+<div class="line"><span class="lineno">  123</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  124</span>    {</div>
+<div class="line"><span class="lineno">  125</span>        <a class="code hl_variable" href="../../d8/de4/a11234.html#a0d473fcc12806a29a6cf191ebd1ec9ff">QueuedPayloads</a>.push_back(payloadId);</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+<div class="line"><span class="lineno">  127</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00135">CachedChecks</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00130">QueuedPayloads</a>.</p>
+
+</div>
+</div>
+<a id="ab3b7d9cbbb94eab430a0caff00448a4a" name="ab3b7d9cbbb94eab430a0caff00448a4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b7d9cbbb94eab430a0caff00448a4a">&#9670;&#160;</a></span>RegisterPayload() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> WardenPayloadMgr::RegisterPayload </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>payload</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a payload into cache and returns its payload id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payload</td><td>The payload to be stored in <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint16 The payload id for use with <a class="el" href="../../d8/de4/a11234.html#a36f9cf58fa5c9d34fdac860c3ae692d1" title="Queue the payload into the normal warden checks.">WardenPayloadMgr::QueuePayload</a>. Returns 0 if it failed to register. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>Payloads are truncated to 512 bytes on the client, you may have to register your payloads in chunks if they are larger than this. </li>
+</ul>
+</dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> payloadId = <a class="code hl_function" href="../../d8/de4/a11234.html#a698b2ab4709a495f299be18b053e4014">GetFreePayloadId</a>();</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (!payloadId || !<a class="code hl_function" href="../../d8/de4/a11234.html#ab3b7d9cbbb94eab430a0caff00448a4a">RegisterPayload</a>(payload, payloadId, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;warden&quot;</span>, <span class="stringliteral">&quot;Failed to register payload.&quot;</span>);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">return</span> payloadId;</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="aa11234_html_a698b2ab4709a495f299be18b053e4014"><div class="ttname"><a href="../../d8/de4/a11234.html#a698b2ab4709a495f299be18b053e4014">WardenPayloadMgr::GetFreePayloadId</a></div><div class="ttdeci">uint16 GetFreePayloadId()</div><div class="ttdoc">Finds a free payload id in WardenPayloadMgr::CachedChecks.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.cpp:25</div></div>
+<div class="ttc" id="aa11234_html_ab3b7d9cbbb94eab430a0caff00448a4a"><div class="ttname"><a href="../../d8/de4/a11234.html#ab3b7d9cbbb94eab430a0caff00448a4a">WardenPayloadMgr::RegisterPayload</a></div><div class="ttdeci">uint16 RegisterPayload(const std::string &amp;payload)</div><div class="ttdoc">Register a payload into cache and returns its payload id.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.cpp:43</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00025">GetFreePayloadId()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00043">RegisterPayload()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00043">RegisterPayload()</a>.</p>
+
+</div>
+</div>
+<a id="ae2e7a14fe433ed45e94d3e74ba43f579" name="ae2e7a14fe433ed45e94d3e74ba43f579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e7a14fe433ed45e94d3e74ba43f579">&#9670;&#160;</a></span>RegisterPayload() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WardenPayloadMgr::RegisterPayload </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>payloadId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>replace</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a payload into cache with a custom id and returns the result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payload</td><td>The payload to be stored in <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </td></tr>
+    <tr><td class="paramname">payloadId</td><td>The payload id to be stored as the key in <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </td></tr>
+    <tr><td class="paramname">replace</td><td>Whether the key should replace an existing entry value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool The payload insertion result. If exists it will return false, otherwise true. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>Payloads are truncated to 512 bytes on the client, you may have to register your payloads in chunks if they are larger than this.</li>
+<li>It's a good idea to keep the value for payloadId between 9000-9999 for self defined payloads as they're the least likely occupied ids. </li>
+</ul>
+</dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">//Payload id should be over or equal to the offset to prevent conflicts.</span></div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">if</span> (payloadId &lt; <a class="code hl_variable" href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a>)</div>
+<div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;warden&quot;</span>, <span class="stringliteral">&quot;Tried to register payloadId lower than &#39;{}&#39;.&quot;</span>, <a class="code hl_variable" href="../../d8/de4/a11234.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a>);</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.find(payloadId);</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.end() &amp;&amp; !replace)</div>
+<div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;warden&quot;</span>, <span class="stringliteral">&quot;Payload Id &#39;{}&#39; already exists in CachedChecks.&quot;</span>, payloadId);</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_struct" href="../../da/d23/a11206.html">WardenCheck</a> wCheck;</div>
+<div class="line"><span class="lineno">   73</span>    wCheck.<a class="code hl_variable" href="../../da/d23/a11206.html#aca31cdb700dca4801dfa514812639c70">Type</a> = <a class="code hl_variable" href="../../d8/de4/a11234.html#a5d6853734e30d11fce42dfeeb3a06c22">WardenPayloadMgr::WardenPayloadCheckType</a>;</div>
+<div class="line"><span class="lineno">   74</span>    wCheck.<a class="code hl_variable" href="../../da/d23/a11206.html#a1fc1eba87b344d4681498aafcaa496cb">Str</a> = payload;</div>
+<div class="line"><span class="lineno">   75</span>    wCheck.<a class="code hl_variable" href="../../da/d23/a11206.html#a51a0cea0381f2b64e9d240ac39591172">CheckId</a> = payloadId;</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    std::string idStr = <a class="code hl_function" href="../../d8/d20/a04686.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;{:04}&quot;</span>, payloadId);</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(idStr.size() == 4);</div>
+<div class="line"><span class="lineno">   79</span>    std::copy(idStr.begin(), idStr.end(), wCheck.<a class="code hl_variable" href="../../da/d23/a11206.html#a15ecbc1a6582666a14423fa157d2fb84">IdStr</a>.begin());</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">if</span> (replace)</div>
+<div class="line"><span class="lineno">   82</span>    {</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.erase(payloadId);</div>
+<div class="line"><span class="lineno">   84</span>    }</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.emplace(payloadId, wCheck);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   89</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa04686_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d8/d20/a04686.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
+<div class="ttc" id="aa11206_html"><div class="ttname"><a href="../../da/d23/a11206.html">WardenCheck</a></div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:44</div></div>
+<div class="ttc" id="aa11206_html_a15ecbc1a6582666a14423fa157d2fb84"><div class="ttname"><a href="../../da/d23/a11206.html#a15ecbc1a6582666a14423fa157d2fb84">WardenCheck::IdStr</a></div><div class="ttdeci">std::array&lt; char, 4 &gt; IdStr</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:52</div></div>
+<div class="ttc" id="aa11206_html_a1fc1eba87b344d4681498aafcaa496cb"><div class="ttname"><a href="../../da/d23/a11206.html#a1fc1eba87b344d4681498aafcaa496cb">WardenCheck::Str</a></div><div class="ttdeci">std::string Str</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:49</div></div>
+<div class="ttc" id="aa11206_html_a51a0cea0381f2b64e9d240ac39591172"><div class="ttname"><a href="../../da/d23/a11206.html#a51a0cea0381f2b64e9d240ac39591172">WardenCheck::CheckId</a></div><div class="ttdeci">uint16 CheckId</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:51</div></div>
+<div class="ttc" id="aa11206_html_aca31cdb700dca4801dfa514812639c70"><div class="ttname"><a href="../../da/d23/a11206.html#aca31cdb700dca4801dfa514812639c70">WardenCheck::Type</a></div><div class="ttdeci">uint8 Type</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:45</div></div>
+<div class="ttc" id="aa11234_html_a5d6853734e30d11fce42dfeeb3a06c22"><div class="ttname"><a href="../../d8/de4/a11234.html#a5d6853734e30d11fce42dfeeb3a06c22">WardenPayloadMgr::WardenPayloadCheckType</a></div><div class="ttdeci">static uint32 constexpr WardenPayloadCheckType</div><div class="ttdoc">The checktype used for warden payloads.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:125</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00135">CachedChecks</a>, <a class="el" href="../../#l00051">WardenCheck::CheckId</a>, <a class="el" href="../../#l00052">WardenCheck::IdStr</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00049">WardenCheck::Str</a>, <a class="el" href="../../#l00034">Acore::StringFormat()</a>, <a class="el" href="../../#l00045">WardenCheck::Type</a>, <a class="el" href="../../#l00125">WardenPayloadCheckType</a>, and <a class="el" href="../../#l00115">WardenPayloadOffsetMin</a>.</p>
+
+</div>
+</div>
+<a id="a97d5b53d0e1fd42663ad673b31fe4fab" name="a97d5b53d0e1fd42663ad673b31fe4fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d5b53d0e1fd42663ad673b31fe4fab">&#9670;&#160;</a></span>UnregisterPayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WardenPayloadMgr::UnregisterPayload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>payloadId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unregister a payload from cache and return if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payloadId</td><td>The payload to removed from <a class="el" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56" title="The cached payloads that are accessed by payload id.">WardenPayloadMgr::CachedChecks</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool If the payloadId was present. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/de4/a11234.html#a65c6878274bc49b921714278d77eed56">CachedChecks</a>.erase(payloadId);</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00135">CachedChecks</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a65c6878274bc49b921714278d77eed56" name="a65c6878274bc49b921714278d77eed56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c6878274bc49b921714278d77eed56">&#9670;&#160;</a></span>CachedChecks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>, <a class="el" href="../../da/d23/a11206.html">WardenCheck</a>&gt; WardenPayloadMgr::CachedChecks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The cached payloads that are accessed by payload id. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00025">GetFreePayloadId()</a>, <a class="el" href="../../#l00096">GetPayloadById()</a>, <a class="el" href="../../#l00562">WardenWin::HandleData()</a>, <a class="el" href="../../#l00108">QueuePayload()</a>, <a class="el" href="../../#l00056">RegisterPayload()</a>, <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>, and <a class="el" href="../../#l00091">UnregisterPayload()</a>.</p>
+
+</div>
+</div>
+<a id="a0d473fcc12806a29a6cf191ebd1ec9ff" name="a0d473fcc12806a29a6cf191ebd1ec9ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d473fcc12806a29a6cf191ebd1ec9ff">&#9670;&#160;</a></span>QueuedPayloads</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt; WardenPayloadMgr::QueuedPayloads</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The list of currently queued payload ids to be sent through <a class="el" href="../../da/d3e/a11202.html">Warden</a>. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00137">ClearQueuedPayloads()</a>, <a class="el" href="../../#l00129">DequeuePayload()</a>, <a class="el" href="../../#l00142">GetPayloadCountInQueue()</a>, <a class="el" href="../../#l00147">GetPayloadsInQueue()</a>, <a class="el" href="../../#l00108">QueuePayload()</a>, and <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>.</p>
+
+</div>
+</div>
+<a id="a5d6853734e30d11fce42dfeeb3a06c22" name="a5d6853734e30d11fce42dfeeb3a06c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6853734e30d11fce42dfeeb3a06c22">&#9670;&#160;</a></span>WardenPayloadCheckType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> constexpr WardenPayloadMgr::WardenPayloadCheckType = 139</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The checktype used for warden payloads. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00056">RegisterPayload()</a>.</p>
+
+</div>
+</div>
+<a id="a0a6537e719e9f8f4c371340d0d1b4db7" name="a0a6537e719e9f8f4c371340d0d1b4db7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6537e719e9f8f4c371340d0d1b4db7">&#9670;&#160;</a></span>WardenPayloadOffsetMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> constexpr WardenPayloadMgr::WardenPayloadOffsetMax = 9999</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum id available for custom payloads. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00025">GetFreePayloadId()</a>.</p>
+
+</div>
+</div>
+<a id="a9f7e5a100c56a6ee9a6bd39a792b9e44" name="a9f7e5a100c56a6ee9a6bd39a792b9e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f7e5a100c56a6ee9a6bd39a792b9e44">&#9670;&#160;</a></span>WardenPayloadOffsetMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> constexpr WardenPayloadMgr::WardenPayloadOffsetMin = 5000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The minimum id available for custom payloads. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00057">GetCheckPacketSize()</a>, <a class="el" href="../../#l00025">GetFreePayloadId()</a>, <a class="el" href="../../#l00562">WardenWin::HandleData()</a>, <a class="el" href="../../#l00056">RegisterPayload()</a>, and <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/de4/a11234.html">WeatherData</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/de4/a11234.html">WardenPayloadMgr</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

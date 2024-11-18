@@ -1,14 +1,8 @@
 var a22262 =
 [
-    [ "boss_nexusprince_shaffar", "df/d55/a22262.html#a2e861fb53bca7a40e967971b5e7be533", null ],
-    [ "JustDied", "df/d55/a22262.html#abf2fef0888bced83511883027bf4d500", null ],
-    [ "JustEngagedWith", "df/d55/a22262.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
-    [ "JustSummoned", "df/d55/a22262.html#a576240b46ce0988f0ef86e1460c831ef", null ],
-    [ "KilledUnit", "df/d55/a22262.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
-    [ "MoveInLineOfSight", "df/d55/a22262.html#a71e501225d88851210d2e0e58de27f99", null ],
-    [ "Reset", "df/d55/a22262.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
-    [ "SummonedCreatureDespawn", "df/d55/a22262.html#ab806564e96708ca12f444249abd3c88c", null ],
-    [ "UpdateAI", "df/d55/a22262.html#a147500575a3821262ec718ec023b458c", null ],
-    [ "HasTaunted", "df/d55/a22262.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
-    [ "summons", "df/d55/a22262.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
+    [ "CalcPeriodic", "df/d55/a22262.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
+    [ "OnRemove", "df/d55/a22262.html#af120bb9d6a0c3d338706613540849412", null ],
+    [ "PrepareAuraScript", "df/d55/a22262.html#ad413f14193013058e1775f80b457a81d", null ],
+    [ "Register", "df/d55/a22262.html#aa35fc5865f108712e450661e67c384ce", null ],
+    [ "Update", "df/d55/a22262.html#aebc61b57ed8038488ec06c14483b2099", null ]
 ];

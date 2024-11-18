@@ -1,11 +1,6 @@
 var a12778 =
 [
-    [ "npc_scholomance_occultistAI", "d8/d02/a12778.html#af78103d07aef427130d26b4aed5e5ae3", null ],
-    [ "JustEngagedWith", "d8/d02/a12778.html#a03f0f6d015065c5afcf025dc44dc6aa8", null ],
-    [ "JustReachedHome", "d8/d02/a12778.html#ac4bb0aa4009191a36dd4cebb45fd2ad5", null ],
-    [ "SelectUnitCasting", "d8/d02/a12778.html#adde187b89a74a57aac823e4eb19bfeed", null ],
-    [ "UpdateAI", "d8/d02/a12778.html#ab02edf780adb553b2314045d8effa277", null ],
-    [ "events", "d8/d02/a12778.html#a1ee55a572462a1e832a5b89c8906bd87", null ],
-    [ "instance", "d8/d02/a12778.html#a195fe4d681580c17086a5390fd4f82ba", null ],
-    [ "originalDisplayId", "d8/d02/a12778.html#a4dcc895fef36cd1e9ca8cf38bdc2f6c4", null ]
+    [ "instance_scholomance_InstanceMapScript", "de/d9b/a12782.html", "de/d9b/a12782" ],
+    [ "instance_scholomance", "d8/d02/a12778.html#ace7a781c45623419daad6143480d8fe2", null ],
+    [ "GetInstanceScript", "d8/d02/a12778.html#a9e2030e41154c92dbe45d7895ddf37b8", null ]
 ];

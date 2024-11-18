@@ -1,10 +1,7 @@
 var a10802 =
 [
-    [ "SpellValue", "d3/d9a/a10802.html#a2aebedc86822634a0a80de7a4c16dd7f", null ],
-    [ "AuraDuration", "d3/d9a/a10802.html#af44c190ba8a8636d78f8d271656bdd02", null ],
-    [ "AuraStackAmount", "d3/d9a/a10802.html#af9d7a902bd7d6a24f2ef9480e725d8e8", null ],
-    [ "EffectBasePoints", "d3/d9a/a10802.html#a4de44adea4dc620f0871215e4d4f611d", null ],
-    [ "ForcedCritResult", "d3/d9a/a10802.html#a14f0fd1b3351297e5c71e34e0c9a44fb", null ],
-    [ "MaxAffectedTargets", "d3/d9a/a10802.html#a69ea555bb8ae6642a0c9c85b3f9b373c", null ],
-    [ "RadiusMod", "d3/d9a/a10802.html#a135bbce8300101411e87a70467dbbd57", null ]
+    [ "DynObjAura", "d3/d9a/a10802.html#aef75bb5d60c10ac63821b0e9baf6eb7a", null ],
+    [ "FillTargetMap", "d3/d9a/a10802.html#af8e36643ed675ff5652e4665bee9b0c3", null ],
+    [ "Remove", "d3/d9a/a10802.html#ada3f65b4a817e2337da43da437b93a3b", null ],
+    [ "Aura::Create", "d3/d9a/a10802.html#ae2c0fdfb409846fec5e861de60797112", null ]
 ];

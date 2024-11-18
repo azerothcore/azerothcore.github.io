@@ -1,11 +1,13 @@
 var a10150 =
 [
-    [ "PointMoveMap", "d8/d61/a10150.html#a777e97ebcf367638578d1c189480ad99", null ],
-    [ "SystemMgr", "d8/d61/a10150.html#ac7fd54676b46afcbc520e4c58fcdce75", null ],
-    [ "~SystemMgr", "d8/d61/a10150.html#ab192b30aa7ff1edd27bb23e87a7ac4c5", null ],
-    [ "GetPointMoveList", "d8/d61/a10150.html#af9f998f9778cebce3edb39b7296994d5", null ],
-    [ "instance", "d8/d61/a10150.html#a71b78a44a3656802d55211d68fb19e12", null ],
-    [ "LoadScriptWaypoints", "d8/d61/a10150.html#af8097171a2ffc49600397c6a519dddc3", null ],
-    [ "_empty", "d8/d61/a10150.html#a4c90cb038afeb09c107979348bd3ca01", null ],
-    [ "m_mPointMoveMap", "d8/d61/a10150.html#a3603d019adf647df9f314a7ca61a25dd", null ]
+    [ "ScriptObject", "d8/d61/a10150.html#ae4ca97cf587379c94354e4889ff8c0c2", null ],
+    [ "~ScriptObject", "d8/d61/a10150.html#a80c704c939f54eee6655d68509598c42", null ],
+    [ "checkValidity", "d8/d61/a10150.html#a585e75e34aed7aa32205daad85f8fe08", null ],
+    [ "GetName", "d8/d61/a10150.html#a79588d839860d2f5caab60c5f1368f10", null ],
+    [ "GetTotalAvailableHooks", "d8/d61/a10150.html#a69ee35ec7d54226264efef558022c1c0", null ],
+    [ "isAfterLoadScript", "d8/d61/a10150.html#a2f66339b1cdf1fde795c61cd24c8b0a2", null ],
+    [ "IsDatabaseBound", "d8/d61/a10150.html#a37da453729d5c8fbe2d06f905563f47c", null ],
+    [ "ScriptMgr", "d8/d61/a10150.html#a7a753f61d57353451e90f3f23fec4851", null ],
+    [ "_name", "d8/d61/a10150.html#a90b63e382cac17922ae57fe22b84718c", null ],
+    [ "_totalAvailableHooks", "d8/d61/a10150.html#ab9ecac7620b4319c634d7e5f30c30f49", null ]
 ];

@@ -1,9 +1,9 @@
 var a11458 =
 [
-    [ "titles_commandscript", "d7/d97/a11458.html#ac088fd907013150a0508b79c99f6c2f3", null ],
-    [ "GetCommands", "d7/d97/a11458.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
-    [ "HandleTitlesAddCommand", "d7/d97/a11458.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
-    [ "HandleTitlesCurrentCommand", "d7/d97/a11458.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
-    [ "HandleTitlesRemoveCommand", "d7/d97/a11458.html#a2001bcc2eddc5688d57154f9906218e4", null ],
-    [ "HandleTitlesSetMaskCommand", "d7/d97/a11458.html#a9517b10295b856779cdd067234f640c8", null ]
+    [ "send_commandscript", "d7/d97/a11458.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
+    [ "GetCommands", "d7/d97/a11458.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
+    [ "HandleSendItemsCommand", "d7/d97/a11458.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
+    [ "HandleSendMailCommand", "d7/d97/a11458.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
+    [ "HandleSendMessageCommand", "d7/d97/a11458.html#a91017e6171ac9e4dfff6c2036228de47", null ],
+    [ "HandleSendMoneyCommand", "d7/d97/a11458.html#a26938bb54bb3cb678c49737a92cadb56", null ]
 ];

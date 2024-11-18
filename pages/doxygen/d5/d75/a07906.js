@@ -1,12 +1,15 @@
 var a07906 =
 [
-    [ "GameObjectModelOwnerImpl", "d5/d75/a07906.html#adb8b3b555ad6cd75c1ee7a1f71a08af7", null ],
-    [ "DebugVisualizeCorner", "d5/d75/a07906.html#af8553967b9788d69da9fcb8cdb647f9c", null ],
-    [ "GetDisplayId", "d5/d75/a07906.html#a4a694456955c19e76d8c84befc02c920", null ],
-    [ "GetOrientation", "d5/d75/a07906.html#acb968e3bd921aac111a2e06f2604b040", null ],
-    [ "GetPhaseMask", "d5/d75/a07906.html#ad0b9a01502c49f16a47e35694d3e6c10", null ],
-    [ "GetPosition", "d5/d75/a07906.html#a9ba2b29d30b38895effe97637e050988", null ],
-    [ "GetScale", "d5/d75/a07906.html#a3d72c1810a41e2baa7e87ab26f4674f9", null ],
-    [ "IsSpawned", "d5/d75/a07906.html#ae47eb25d16de37122042402443db6f3d", null ],
-    [ "_owner", "d5/d75/a07906.html#a7909f7095341dde39bf47fc12a0c15b0", null ]
+    [ "Guardian", "d5/d75/a07906.html#a731dfcf7d834a97ba253ad36e4006745", null ],
+    [ "GetDebugInfo", "d5/d75/a07906.html#ace47e7d3fb3162786329cbcf1c6cab46", null ],
+    [ "InitStats", "d5/d75/a07906.html#a698ac009e39a2e8461b40135b75609ef", null ],
+    [ "InitStatsForLevel", "d5/d75/a07906.html#a7d0ae55d55f4c3ea35de601c2c6c6e6b", null ],
+    [ "InitSummon", "d5/d75/a07906.html#a1d5ebfa5ac5754293172041dc3a2c47d", null ],
+    [ "UpdateAllStats", "d5/d75/a07906.html#ae2f3d68429afb154f790d65dae6406b3", null ],
+    [ "UpdateArmor", "d5/d75/a07906.html#adc8ed8497f8450ccad92f79322d9f452", null ],
+    [ "UpdateAttackPowerAndDamage", "d5/d75/a07906.html#af40269c3c63fc12b21f18c67ef067a0f", null ],
+    [ "UpdateDamagePhysical", "d5/d75/a07906.html#aa45ffb532a2a8075d8e4acb818c08d70", null ],
+    [ "UpdateMaxHealth", "d5/d75/a07906.html#a62c41f7922bc1c2e1697a1eea65cdb72", null ],
+    [ "UpdateMaxPower", "d5/d75/a07906.html#a620010832de5fc7d6d1a8545321f9dea", null ],
+    [ "UpdateStats", "d5/d75/a07906.html#a6b615ed2f01623991fa45907a09cc642", null ]
 ];

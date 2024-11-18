@@ -1,6 +1,6 @@
 var a17994 =
 [
-    [ "npc_lk_spirit_bombAI", "da/da5/a17998.html", "da/da5/a17998" ],
-    [ "npc_lk_spirit_bomb", "df/dcf/a17994.html#acc08d41aa1761c450de782e92307ad7c", null ],
-    [ "GetAI", "df/dcf/a17994.html#ade74c00beb2da69dafb0ae93d771c430", null ]
+    [ "npc_icc_lk_checktargetAI", "da/da5/a17998.html", "da/da5/a17998" ],
+    [ "npc_icc_lk_checktarget", "df/dcf/a17994.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "df/dcf/a17994.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

@@ -1,9 +1,5 @@
 var a17678 =
 [
-    [ "AfterApply", "d8/dc3/a17678.html#a0ee1a701f75e9f0a70dc21528ffea683", null ],
-    [ "ExtraRemoveEffect", "d8/dc3/a17678.html#a9f427761fcca9029eb75d586e5876fcd", null ],
-    [ "PeriodicTick", "d8/dc3/a17678.html#a82430399e44001343f322b2c3b7769a5", null ],
-    [ "PrepareAuraScript", "d8/dc3/a17678.html#a9c8e0ed8fde28588e11ebf5e8abd02dc", null ],
-    [ "Register", "d8/dc3/a17678.html#a68be7f7edecd1bae8c962aaa9d556c3e", null ],
-    [ "Validate", "d8/dc3/a17678.html#ae20873e93fbace6272a793993fb45349", null ]
+    [ "operator()", "d8/dc3/a17678.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
+    [ "operator()", "d8/dc3/a17678.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
 ];

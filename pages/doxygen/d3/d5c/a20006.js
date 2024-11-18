@@ -1,5 +1,6 @@
 var a20006 =
 [
-    [ "achievement_kologarn_with_open_arms", "d3/d5c/a20006.html#a94af961be5bbdf7783925148731ce7e4", null ],
-    [ "OnCheck", "d3/d5c/a20006.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
+    [ "OnPeriodic", "d3/d5c/a20006.html#a8a12342f694499043e8ed4446fd92d36", null ],
+    [ "PrepareAuraScript", "d3/d5c/a20006.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
+    [ "Register", "d3/d5c/a20006.html#a381709d53101832de6b2161c4a33a0d4", null ]
 ];

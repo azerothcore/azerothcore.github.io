@@ -1,6 +1,6 @@
 var a08438 =
 [
-    [ "SplineHandler", "d6/ded/a08438.html#a7c5aac2d12e13bad1c38c4e8860ed27f", null ],
-    [ "operator()", "d6/ded/a08438.html#aa5d1bddc2435eee76f493229740ecf9e", null ],
-    [ "_unit", "d6/ded/a08438.html#aaafb07271736d8bc89d07aafbbae7f25", null ]
+    [ "GlobalCooldown", "d6/ded/a08438.html#a5859ccec9d1fdf0a8f11f5ab77c135a9", null ],
+    [ "cast_time", "d6/ded/a08438.html#a7e2fe46367bad59669b0f2fd33736b30", null ],
+    [ "duration", "d6/ded/a08438.html#a7fbf3127e4a2cc93171934148275ae1d", null ]
 ];

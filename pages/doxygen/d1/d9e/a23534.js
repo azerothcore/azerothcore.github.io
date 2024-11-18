@@ -1,9 +1,6 @@
 var a23534 =
 [
-    [ "boss_void_reaver", "d1/d9e/a23534.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
-    [ "JustDied", "d1/d9e/a23534.html#a49e6f52b11177bdac07adff92c2675f5", null ],
-    [ "JustEngagedWith", "d1/d9e/a23534.html#a9260d05e11f4dec6fc25432a0524706b", null ],
-    [ "KilledUnit", "d1/d9e/a23534.html#adc234fc43308771a42d99049876cad1b", null ],
-    [ "Reset", "d1/d9e/a23534.html#a02c36ea960de24991f879943991a93c6", null ],
-    [ "_recentlySpoken", "d1/d9e/a23534.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
+    [ "HandleScriptEffect", "d1/d9e/a23534.html#a032b00bcd9bda0cd04f93848e4630c6a", null ],
+    [ "PrepareSpellScript", "d1/d9e/a23534.html#ad99a318c6b3ee834aa3c3591a0f8a330", null ],
+    [ "Register", "d1/d9e/a23534.html#aa96de13af039d8dfab0ae1a5d30e21a8", null ]
 ];

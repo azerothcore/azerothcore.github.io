@@ -1,7 +1,6 @@
 var a11606 =
 [
-    [ "boss_gorosh_the_dervishAI", "d4/d0f/a11606.html#adac003c51a2d1d0a8daa6ba552114c25", null ],
-    [ "JustEngagedWith", "d4/d0f/a11606.html#a52bc5f76baff626b8834aa604fdd8e6a", null ],
-    [ "UpdateAI", "d4/d0f/a11606.html#aa17e26419a8e3f7cd99c5e9b44be8ed8", null ],
-    [ "nextWhirlwindTime", "d4/d0f/a11606.html#a07f1af63bc54d1b4c8d8e1cd87a787a1", null ]
+    [ "boss_evisceratorAI", "d2/d96/a11610.html", "d2/d96/a11610" ],
+    [ "boss_eviscerator", "d4/d0f/a11606.html#aca65400afa5ca9ca81043687d79cdad0", null ],
+    [ "GetAI", "d4/d0f/a11606.html#a21203f69267ec93c46d9ff56321b8169", null ]
 ];

@@ -1,8 +1,16 @@
 var a14066 =
 [
-    [ "OnApply", "d9/d1d/a14066.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
-    [ "OnRemove", "d9/d1d/a14066.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
-    [ "PrepareAuraScript", "d9/d1d/a14066.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
-    [ "Register", "d9/d1d/a14066.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
-    [ "Validate", "d9/d1d/a14066.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
+    [ "npc_midsummer_torch_target", "d9/d1d/a14066.html#a2abb5371f151c8d3c4f7247c411635a0", null ],
+    [ "CanBeSeen", "d9/d1d/a14066.html#afd53ae2c07091553025f5af7c170a046", null ],
+    [ "FillPositions", "d9/d1d/a14066.html#ae5717304f44407fb34713990d15279d4", null ],
+    [ "SelectPosition", "d9/d1d/a14066.html#a4d35d972cafccf892bfd3adb255e1c5b", null ],
+    [ "SetPlayerGUID", "d9/d1d/a14066.html#ab4b115eb02ce96996e06cafd8a1cd867", null ],
+    [ "SpellHit", "d9/d1d/a14066.html#a93a6b9ebbda5685a5d2caa1bc9e06941", null ],
+    [ "UpdateAI", "d9/d1d/a14066.html#a2c3431cab03347f3f64c95742b2f5a35", null ],
+    [ "counter", "d9/d1d/a14066.html#a165c1c1a406256f5651fb01ef6843531", null ],
+    [ "maxCount", "d9/d1d/a14066.html#aaf046d64175bcd1382e475843128a139", null ],
+    [ "playerGUID", "d9/d1d/a14066.html#ad25b68318dc06ad9c835e81b73d4a766", null ],
+    [ "posVec", "d9/d1d/a14066.html#a72a71ea9db5c4f3aeb3edca285f94935", null ],
+    [ "startTimer", "d9/d1d/a14066.html#a7bbd7251f3cf0ad46c8584b42b41ea6d", null ],
+    [ "teleTimer", "d9/d1d/a14066.html#a22190728dc2b82db70eeb0caa8531647", null ]
 ];

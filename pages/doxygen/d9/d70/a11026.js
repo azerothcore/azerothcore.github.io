@@ -1,6 +1,6 @@
 var a11026 =
 [
-    [ "EffectCalcPeriodicHandler", "d9/d70/a11026.html#a17288ee3b2951f1f2a8dc36a598b9a27", null ],
-    [ "Call", "d9/d70/a11026.html#a6a7eeb9599a10aa4ab918a2c2456a186", null ],
-    [ "pEffectHandlerScript", "d9/d70/a11026.html#a57673f457c08edfbf7fc1877aa071721", null ]
+    [ "EffectBase", "d9/d70/a11026.html#ab02f9f344e2f32ad59b35993d5c8f819", null ],
+    [ "CheckEffect", "d9/d70/a11026.html#a8c300ca68c3ff6f74b230835c566fd60", null ],
+    [ "ToString", "d9/d70/a11026.html#ab6f5b2a7ec1183206110eac9a21a7de5", null ]
 ];

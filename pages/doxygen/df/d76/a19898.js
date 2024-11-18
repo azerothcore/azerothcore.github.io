@@ -1,5 +1,6 @@
 var a19898 =
 [
-    [ "achievement_i_could_say_that_this_cache_was_rare", "df/d76/a19898.html#a8ec1949d92f21fe57f967e510453da3e", null ],
-    [ "OnCheck", "df/d76/a19898.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
+    [ "HandleAfterEffectApply", "df/d76/a19898.html#af655bb31dc24a3cede08ca371f784913", null ],
+    [ "PrepareAuraScript", "df/d76/a19898.html#a1824853d0b369deac0745fabe2df657c", null ],
+    [ "Register", "df/d76/a19898.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
 ];

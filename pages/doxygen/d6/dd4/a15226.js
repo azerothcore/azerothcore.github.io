@@ -1,7 +1,7 @@
 var a15226 =
 [
-    [ "npc_giltharesAI", "d6/dd4/a15226.html#af22e42b2180987febd964784b6d49b5e", null ],
-    [ "JustEngagedWith", "d6/dd4/a15226.html#ae9ba65652db3d2d32920d1a98594727a", null ],
-    [ "Reset", "d6/dd4/a15226.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
-    [ "WaypointReached", "d6/dd4/a15226.html#a9308c73760e50e0f3d04031b508526d1", null ]
+    [ "npc_toogaAI", "dc/d61/a15230.html", "dc/d61/a15230" ],
+    [ "npc_tooga", "d6/dd4/a15226.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
+    [ "GetAI", "d6/dd4/a15226.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
+    [ "OnQuestAccept", "d6/dd4/a15226.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
 ];

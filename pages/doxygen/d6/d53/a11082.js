@@ -1,12 +1,7 @@
 var a11082 =
 [
-    [ "CreatureTextBuilder", "d6/d53/a11082.html#a582eed3ab284675e72261a1db9808925", null ],
-    [ "operator()", "d6/d53/a11082.html#a851cc84cc7faebfffe3267ecb0d3b3fb", null ],
-    [ "_gender", "d6/d53/a11082.html#a615c3046f749bf44b036958fb1a50128", null ],
-    [ "_language", "d6/d53/a11082.html#ac6e3bea125cd2b44a56f899c4aa35e1b", null ],
-    [ "_msgType", "d6/d53/a11082.html#ac4b4f75821f4ff5855cafca91523cbca", null ],
-    [ "_source", "d6/d53/a11082.html#ab87c45c49aa07b4434e42b6d7948e8b3", null ],
-    [ "_target", "d6/d53/a11082.html#a5a5fd218c7162ba634455e0db6ee35a1", null ],
-    [ "_textGroup", "d6/d53/a11082.html#afcd842c1482980c6232f3f19d21a1481", null ],
-    [ "_textId", "d6/d53/a11082.html#a3f40b8dd1da052a372afbbc5f06700ac", null ]
+    [ "ScriptStateStore", "d6/d53/a11082.html#a51baffee5c9dbf255591db8ea13ee516", null ],
+    [ "_auraApplication", "d6/d53/a11082.html#af5098bcedac048808e11bf2f82d705a7", null ],
+    [ "_currentScriptState", "d6/d53/a11082.html#adddf594d9468b16455da6e2aef683d44", null ],
+    [ "_defaultActionPrevented", "d6/d53/a11082.html#a63cf373d469af72bc96a3e72351e3256", null ]
 ];

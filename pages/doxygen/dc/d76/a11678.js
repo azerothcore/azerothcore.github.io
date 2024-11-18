@@ -1,6 +1,6 @@
 var a11678 =
 [
-    [ "RestoreAttack", "dc/d76/a11678.html#a8c5b3b0cbe7f5bfebb1c09987c4066e3", null ],
-    [ "Execute", "dc/d76/a11678.html#a633e5abe4a3a9353df63d3778b8d71bc", null ],
-    [ "_boss", "dc/d76/a11678.html#a493ef909da834b0befd90f57f54fb10c", null ]
+    [ "boss_okthorAI", "dc/d36/a11682.html", "dc/d36/a11682" ],
+    [ "boss_okthor", "dc/d76/a11678.html#a9e75c1da85a6db6692dfabfbb3ee3e87", null ],
+    [ "GetAI", "dc/d76/a11678.html#a15d13a6c879ae260c0676fd4a4aff645", null ]
 ];

@@ -1,7 +1,7 @@
 var a20562 =
 [
-    [ "OnPeriodic", "d1/d93/a20562.html#a529e89c1ae0074370da174defc086719", null ],
-    [ "PrepareAuraScript", "d1/d93/a20562.html#a587652095a5dfae229787a0c0ceacfbe", null ],
-    [ "Register", "d1/d93/a20562.html#acd5551b09882d720608bdec6036dee9a", null ],
-    [ "Validate", "d1/d93/a20562.html#aaed6604e39dd977f4e7c671052d718e8", null ]
+    [ "FilterTargets", "d1/d93/a20562.html#a4e27a01b87e6f003ed52da45a4bda403", null ],
+    [ "HandleDummyEffect", "d1/d93/a20562.html#abfe7ff12346d54fe3a0c1450897e58ee", null ],
+    [ "PrepareSpellScript", "d1/d93/a20562.html#a0c31912e28eaa5922edb1ca4c7689883", null ],
+    [ "Register", "d1/d93/a20562.html#a337cdb940a2001ac370768b02126d3c0", null ]
 ];

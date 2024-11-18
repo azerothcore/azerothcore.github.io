@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_server.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/CoilfangReservoir/SteamVault/steam_vault.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,63 +105,982 @@ $(document).ready(function(){initNavTree('d3/d2c/a00764.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">cs_server.cpp File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">steam_vault.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ModuleMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MotdMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MySQLThreading.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
-<code>#include &lt;boost/version.hpp&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;numeric&gt;</code><br />
-<code>#include &lt;openssl/crypto.h&gt;</code><br />
-<code>#include &lt;openssl/opensslv.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/a11442.html">server_commandscript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a5b5ca0ae07e92e9cad54568049f06fce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a5b5ca0ae07e92e9cad54568049f06fce">DataHeaders</a>&#160;&#160;&#160;&quot;SV&quot;</td></tr>
+<tr class="separator:a5b5ca0ae07e92e9cad54568049f06fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082e6f5a53791ec96ecefdf86d59dc00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a082e6f5a53791ec96ecefdf86d59dc00">SteamVaultScriptName</a>&#160;&#160;&#160;&quot;instance_steam_vault&quot;</td></tr>
+<tr class="separator:a082e6f5a53791ec96ecefdf86d59dc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503807dfd03f05e95a9435b32165c0af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a503807dfd03f05e95a9435b32165c0af">RegisterSteamvaultCreatureAI</a>(ai_name)&#160;&#160;&#160;<a class="el" href="../../d3/dea/a04352.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../d3/d2c/a00764.html#ad79516eee3b91946c25c59331935e1ab">GetSteamVaultAI</a>)</td></tr>
+<tr class="separator:a503807dfd03f05e95a9435b32165c0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a4c1a879f002628919b28fdb323896e06"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06">steamVault</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320">DATA_HYDROMANCER_THESPIA</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c">DATA_MEKGINEER_STEAMRIGGER</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6">DATA_WARLORD_KALITHRESH</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404">DATA_ACCESS_PANEL_HYDROMANCER</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2">DATA_ACCESS_PANEL_MEKGINEER</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f">DATA_MAIN_CHAMBERS_DOOR</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de">DATA_DOOR_CONTROLLER</a> = 7
+<br />
+ }</td></tr>
+<tr class="separator:a4c1a879f002628919b28fdb323896e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1d2eaeba2f5b18237dce73ae578a1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1c">steamVaultNPCGO</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d">GO_MAIN_CHAMBERS_DOOR</a> = 183049
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56">GO_ACCESS_PANEL_HYDRO</a> = 184125
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214">GO_ACCESS_PANEL_MEK</a> = 184126
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1">NPC_MEKGINEER_STEAMRIGGER</a> = 17796
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b">NPC_WARLORD_KALITHRESH</a> = 17798
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123">NPC_DOOR_CONTROLLER</a> = 20926
+<br />
+ }</td></tr>
+<tr class="separator:a6a1d2eaeba2f5b18237dce73ae578a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a619e6b66096a4f05d048e4a96df08"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08">Creatures</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e">NPC_NORTH_MARSHAL</a> = 14762
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e">NPC_SOUTH_MARSHAL</a> = 14763
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a5433f3223c51265d88db74cf6120297b">NPC_ICEWING_MARSHAL</a> = 14764
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08ad420cc37df2ea61506fb0fff461cfc3d">NPC_STONEHEARTH_MARSHAL</a> = 14765
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a12884f87f1db7a7d4a769f6ccd19025c">NPC_EAST_FROSTWOLF_WARMASTER</a> = 14772
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a649bbf67f4787cc427c42c7f8587df07">NPC_ICEBLOOD_WARMASTER</a> = 14773
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a3820313036f8bbbe8fe3ca86faeae3d6">NPC_TOWER_POINT_WARMASTER</a> = 14776
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08aca92646ce5bf81e73952b4c07020d818">NPC_WEST_FROSTWOLF_WARMASTER</a> = 14777
+, <br />
+&#160;&#160;<a class="el" href="../../d4/dc0/a02225.html#a25a619e6b66096a4f05d048e4a96df08a192438ec5d0934ed1bec419036328553">NPC_WATER_ELEMENTAL</a> = 25040
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a0457636e3c241d693230c910cbcf59a2">NPC_EMPEROR</a> = 9019
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ab1495713a6e4ec455d6f1ce236e5f345">NPC_PHALANX</a> = 9502
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a4f91d0e6048cc929f518f54464a0c735">NPC_ANGERREL</a> = 9035
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08aab03fceddc14d7a2e01e7d39dc0c34e1">NPC_DOPEREL</a> = 9040
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a7a1f6ea2e74eb57eb0f0cd16fab2adae">NPC_HATEREL</a> = 9034
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a3e21968d52df0e895e9ec41fe757e868">NPC_VILEREL</a> = 9036
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08aef90501940b6f6dd507f0efb636ea89d">NPC_SEETHREL</a> = 9038
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ac6425b5169a576b9d0d0434838762839">NPC_GLOOMREL</a> = 9037
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a3d8e0e38aa4a063429df3da1ce62f6fe">NPC_DOOMREL</a> = 9039
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08af384d6f5e893e1d7a4da267d02fd0399">NPC_MOIRA</a> = 8929
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08aea178aed3138df8108bc9df0e34c26de">NPC_PRIESTESS</a> = 10076
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a69f48d505f527133f5278bbeea86a08f">NPC_WATCHMAN_DOOMGRIP</a> = 9476
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a5a8d75aa9b1ad564ff05d9329d86b403">NPC_WEAPON_TECHNICIAN</a> = 8920
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a65e3e1d6a07403366b933717e58ba007">NPC_DOOMFORGE_ARCANASMITH</a> = 8900
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a3ee86cac9df08dcaa8ccab7abf35b3a3">NPC_RAGEREAVER_GOLEM</a> = 8906
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08aa300d2904e580a2b62d3bbd97ed6b762">NPC_WRATH_HAMMER_CONSTRUCT</a> = 8907
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a826a36794e050b5e28524bd893f19265">NPC_GOLEM_LORD_ARGELMACH</a> = 8983
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a283bc2fe696da85674ec2e76057dd1e7">NPC_COREN_DIREBREW</a> = 23872
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a2cbe16f2e03b2e1754bf1232bd95c4e7">NPC_IRONHAND_GUARDIAN</a> = 8982
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ae5c4d7e2e07d85e3db91a9d95c6f22e5">NPC_ARENA_SPECTATOR</a> = 8916
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a8930aa74516f34bbede8a82ef7e7f570">NPC_SHADOWFORGE_PEASANT</a> = 8896
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a6fde37edd0d819d3794686575b68f63e">NPC_SHADOWFORCE_CITIZEN</a> = 8902
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a35be18207549900134a942a8682ea07d">NPC_SHADOWFORGE_SENATOR</a> = 8904
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a7d39badd86318209108b1e92e0ee5c6a">NPC_MAGMUS</a> = 9938
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a0ebaae5543e8d47ce74463ea0491dd14">NPC_DREDGE_WORM</a> = 8925
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ac8b9b94735dc0130d205bd14974e380a">NPC_DEEP_STINGER</a> = 8926
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ae2f9846d50f6614697b9eb7d37b2b99b">NPC_DARK_SCREECHER</a> = 8927
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ada865b0d9efbba68e24f886dac67b558">NPC_THUNDERSNOUT</a> = 8928
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ad7f954fc5baacdecae409b5aa8035453">NPC_BORER_BEETLE</a> = 8932
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a6c3ac6f8e1daafc8147a2aa3c2cbb602">NPC_CAVE_CREEPER</a> = 8933
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a9ef7bc633b4bdbcfd3fb9da261e528c5">NPC_GOROSH</a> = 9027
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a18c29370e470901201e4fa71e800c935">NPC_GRIZZLE</a> = 9028
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a9be9647ffc16ae8dbcb7d5eb9b53947c">NPC_EVISCERATOR</a> = 9029
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a9997e0e7d4cb2c036e9b32d064e69b3e">NPC_OKTHOR</a> = 9030
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08a413e0b5ac112b7ac13778d9e1ad98add">NPC_ANUBSHIAH</a> = 9031
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2d/a02408.html#a25a619e6b66096a4f05d048e4a96df08ab372a0c3b27834bf5d3896e51f8af366">NPC_HEDRUM</a> = 9032
+, <br />
+&#160;&#160;<a class="el" href="../../d1/ded/a02471.html#a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373">NPC_TOTEM_C_FIRE_NOVA</a> = 14662
+, <br />
+&#160;&#160;<a class="el" href="../../d1/ded/a02471.html#a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42">NPC_TOTEM_C_STONESKIN</a> = 14663
+, <br />
+&#160;&#160;<a class="el" href="../../d1/ded/a02471.html#a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4">NPC_TOTEM_C_HEALING</a> = 14664
+, <br />
+&#160;&#160;<a class="el" href="../../d1/ded/a02471.html#a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40">NPC_TOTEM_C_WINDFURY</a> = 14666
+, <br />
+&#160;&#160;<a class="el" href="../../d1/ded/a02471.html#a25a619e6b66096a4f05d048e4a96df08ac6f023117b06956b89d5321f6a92fd43">NPC_GYTH</a> = 10339
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d12/a02354.html#a25a619e6b66096a4f05d048e4a96df08a99f2b240a6b58b322590e59f86488ae3">NPC_SON_OF_FLAME</a> = 12143
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d12/a02354.html#a25a619e6b66096a4f05d048e4a96df08ad490d47604e8b70a73ccfe41de5fc384">NPC_FLAME_OF_RAGNAROS</a> = 13148
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dd4/a02498.html#a25a619e6b66096a4f05d048e4a96df08a20029c58282cf9c3559c32a2aed1b1bd">NPC_SHADOW_OF_ARAN</a> = 18254
+, <br />
+&#160;&#160;<a class="el" href="../../d7/da8/a02522.html#a25a619e6b66096a4f05d048e4a96df08ac3d96e55b9cafcfdb2460bac7cd3fae1">NPC_DEMONCHAINS</a> = 17248
+, <br />
+&#160;&#160;<a class="el" href="../../d7/da8/a02522.html#a25a619e6b66096a4f05d048e4a96df08ad99be33e79d1e3520e5565766389dd29">NPC_PORTAL</a> = 17265
+, <br />
+&#160;&#160;<a class="el" href="../../d3/df4/a02504.html#a25a619e6b66096a4f05d048e4a96df08a43d5fc97b01105620d0dc9b0b9e9ebff">CREATURE_TITO</a> = 17548
+, <br />
+&#160;&#160;<a class="el" href="../../d3/df4/a02504.html#a25a619e6b66096a4f05d048e4a96df08ad1be7184ca8ae9abac722e434cb5faa0">CREATURE_CYCLONE</a> = 18412
+, <br />
+&#160;&#160;<a class="el" href="../../d3/df4/a02504.html#a25a619e6b66096a4f05d048e4a96df08a93bbe63cad126d05011ba14194c8436c">CREATURE_CRONE</a> = 18168
+, <br />
+&#160;&#160;<a class="el" href="../../d2/dab/a02516.html#a25a619e6b66096a4f05d048e4a96df08a490c3b6b1ca9532aca62faa3ef2ebabe">NPC_ARCANAGOS</a> = 17652
+, <br />
+&#160;&#160;<a class="el" href="../../d2/dab/a02516.html#a25a619e6b66096a4f05d048e4a96df08acded8211c601c5b237d60a58f65b56ac">NPC_SPOTLIGHT</a> = 19525
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a72a1b110048bef8e11035aa06d25035d">NPC_TEMP_TRIGGER</a> = 23920
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a9ef9f186f763eb87aceebd469e624f64">NPC_ALYSON_ANTILLE</a> = 24240
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a79ebcd02986b41c178f567487032fa3a">NPC_THURG</a> = 24241
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a5afe2b6feaf1dc8f0fb363a295a1bde8">NPC_GAZAKROTH</a> = 24244
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08abaea72f32d91c4c2b198760d28abc317">NPC_LORD_RADAAN</a> = 24243
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08aba0093f918c447c2f45a81f92def2d48">NPC_DARKHEART</a> = 24246
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a1e6b93e2c42a314d3da316775f176f4c">NPC_SLITHER</a> = 24242
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a3d462ffd6bed2c8a165c18704e1f0e9a">NPC_FENSTALKER</a> = 24245
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d1e/a02171.html#a25a619e6b66096a4f05d048e4a96df08a117f9258b6f0649e85b39e4793b26fb5">NPC_KORAGG</a> = 24247
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d4d/a02186.html#a25a619e6b66096a4f05d048e4a96df08abb1b0d048c012ee227241b4d7a567edb">NPC_AMANI_HATCHER</a> = 23818
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d4d/a02186.html#a25a619e6b66096a4f05d048e4a96df08a13fbfeb47a6085679bd44bcf4db10da4">NPC_EGG</a> = 23817
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d4d/a02186.html#a25a619e6b66096a4f05d048e4a96df08ac8c746f010ffb9dba052834764b5ec74">NPC_FIRE_BOMB</a> = 23920
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08ac82f01f98078607db27168dd506902fc">NPC_MEATHOOK</a> = 26529
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08ac6e387c2cfa0577bbc28c45de88c8aac">NPC_SALRAMM</a> = 26530
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a255f18ab548db62f3a5c38d4e988cf2b">NPC_EPOCH</a> = 26532
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08ac7a17d9800dd3b014b4c3c2bb238c019">NPC_MAL_GANIS</a> = 26533
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08adb700652ffdd74731f6cf685991c2e32">NPC_INFINITE</a> = 32273
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a773ab2d711b2cf2061e2a722b70aa23b">NPC_ARTHAS</a> = 26499
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08aa34e63fb01c6c84f8efab30926afa448">NPC_JAINA</a> = 26497
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006">NPC_UTHER</a> = 26528
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08aa868494572465a3ec87991e495212729">NPC_GUARDIAN_OF_TIME</a> = 32281
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a> = 28409
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a7787a9ab7279aff7bdce167a5e0991a0">NPC_CHROMIE_MIDDLE</a> = 27915
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a69b6a637e2c091b035826805d4d70dcf">NPC_GRAIN_CREATE_TRIGGER</a> = 30996
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#a25a619e6b66096a4f05d048e4a96df08a034822df28ca1993b13d9828dcce52be">NPC_HOURGLASS</a> = 28656
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a6657df6bf0b40151c47e53b5072b694a">NPC_KURINNAXX</a> = 15348
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a65c4a78ee2040a28274be362d53688d5">NPC_RAJAXX</a> = 15341
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a313700741dd6e70ead2a31aa1b2a0e9c">NPC_MOAM</a> = 15340
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08af262bbc216ca3997b9da5f4c74601c87">NPC_BURU</a> = 15370
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08aa485b242412b0caeec051bcd83e95447">NPC_AYAMISS</a> = 15369
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08aa81cc61bad504ffd85c5810bb7c48b4c">NPC_OSSIRIAN</a> = 15339
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a7e0f282e2e915015778ad6a0becbd682">NPC_HIVEZARA_HORNET</a> = 15934
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08ac50bbd008b0c71b40a0eccdae3e85f75">NPC_HIVEZARA_SWARMER</a> = 15546
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a8f5204f730fe41c708b8ee02cd2ee4b9">NPC_HIVEZARA_LARVA</a> = 15555
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a7c725d68e9f2892f6f64eaafdf419ffa">NPC_SAND_VORTEX</a> = 15428
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a28ff3b2846fc0547b04583c30b1358df">NPC_OSSIRIAN_TRIGGER</a> = 15590
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08ad434e3472eb44a537781204bd1aa1fd7">NPC_HATCHLING</a> = 15521
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a095efc9b2b66f93918d9134c8ad0228e">NPC_BURU_EGG</a> = 15514
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a857e4155d59f6b1e7cab15dc61d87bc5">NPC_QUUEZ</a> = 15391
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a5321d761cd64d83798e74886850b1d93">NPC_TUUBID</a> = 15392
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08ac27500ed9cc27587a7e1497b282774b4">NPC_DRENN</a> = 15389
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08aed59ff91b0c95896612545fc7f5c9183">NPC_XURREM</a> = 15390
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a9af73240cc49dc0d2683fa291241acca">NPC_YEGGETH</a> = 15386
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a7a25daf2e8e504acde83c9c96fe74d59">NPC_PAKKON</a> = 15388
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08ae0b3d6e26311c5bdbd21f0f2091177b1">NPC_ZERRAN</a> = 15385
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a793b3e66be68c512cf99360248a9ce2d">NPC_ANDOROV</a> = 15471
+, <br />
+&#160;&#160;<a class="el" href="../../d7/ddd/a01223.html#a25a619e6b66096a4f05d048e4a96df08a3868bfc94a3666dccb38668342e77a98">NPC_KALDOREI_ELITE</a> = 15473
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08af860fa13d82d33153a5616cf6a9f8033">NPC_MASTERS_EYE</a> = 15963
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a5c36e8deb21a5901151ada2652ec4134">NPC_CTHUN</a> = 15727
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a55247298759f5bf1a5a53f9dd140cdc1">NPC_EYE_OF_CTHUN</a> = 15589
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08ab9bddd8d6f75c7de9d2b7d15bbf3a00f">NPC_CTHUN_PORTAL</a> = 15896
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08afadc4bf950cad92f2c69f690bfd8dacb">NPC_CLAW_TENTACLE</a> = 15725
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a75dec1855e66192baeb04ef25c62f526">NPC_EYE_TENTACLE</a> = 15726
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a7d7c01ee678622ab3ec66ca99df82723">NPC_SMALL_PORTAL</a> = 15904
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a002d271313369c413f9a72b87ef9230f">NPC_BODY_OF_CTHUN</a> = 15809
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a5b99826c24f0d4262092899bf5782380">NPC_GIANT_CLAW_TENTACLE</a> = 15728
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a5cb6103bab9c94af9837aa8806bd25c3">NPC_GIANT_EYE_TENTACLE</a> = 15334
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a3dd162a4fd6063841805e9b222b3ac0d">NPC_FLESH_TENTACLE</a> = 15802
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a4de35d9ac7ac409a9fca0e69976c2d57">NPC_GIANT_PORTAL</a> = 15910
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08af30baec32375292d7a56c2aafab80746">NPC_SARTURA_ROYAL_GUARD</a> = 15984
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08ad76e4891c675c8ca2b27e9ab6a4a95e1">NPC_VISCIDUS</a> = 15299
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a2abe1c06cd3a07465c441d42f327dbbf">NPC_GLOB_OF_VISCIDUS</a> = 15667
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a7144e3f570a917e6af020e74f0cf4f5e">NPC_SKERAM</a> = 15263
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08aa9ea9e3de931e139c150d204d10ef85d">NPC_VEM</a> = 15544
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a8ffeced78a3767cf2cdefb23d8cebd1d">NPC_KRI</a> = 15511
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a0ec96df2f912c209006bc5173a100407">NPC_YAUJ</a> = 15543
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a29bc78b913e04218e13790b796213484">NPC_HUHURAN</a> = 15509
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a8834ac47ba871b2a58765da6fb9fc855">NPC_VEKLOR</a> = 15276
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08af07029b357e30eeb424c1eeb747354f5">NPC_VEKNILASH</a> = 15275
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08af4d77f18ef0a5070f64016fee553275e">NPC_OURO</a> = 15517
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a6a89d6290e5d73e0ef220031e3b39f05">NPC_OURO_SPAWNER</a> = 15957
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08aa502ac378e14503b242a17450d6e7266">NPC_SARTURA</a> = 15516
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08ab7eb4f911abf16dd9993ef9d2c7b8b3f">NPC_QIRAJI_SLAYER</a> = 15250
+, <br />
+&#160;&#160;<a class="el" href="../../db/d08/a01028.html#a25a619e6b66096a4f05d048e4a96df08a248a0a7fdae4c31abe782d885e67e154">NPC_QIRAJI_MINDSLAYER</a> = 15246
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a25286082628aa1ab23e1389ce56a8c07">NPC_TIGER_VEHICLE</a> = 40305
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a78a02822583550ffbeb0028d103e970a">NPC_URUZIN</a> = 40253
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a6cd86740f73f4fa4236438bbb41b8d6e">NPC_VOLUNTEER_1</a> = 40264
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a316c57f3672830683528cbaa5f314256">NPC_VOLUNTEER_2</a> = 40260
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a06ca2e1dcb7269bba19f2e6c15d854b2">NPC_CITIZEN_1</a> = 40256
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d49/a01067.html#a25a619e6b66096a4f05d048e4a96df08a9c3456b33c02bd56328f4f11f61a234b">NPC_CITIZEN_2</a> = 40257
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d20/a01790.html#a25a619e6b66096a4f05d048e4a96df08a739fce663be8b13f09f9590c508ee188">NPC_HEALTHY_MUSHROOM</a> = 30391
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d20/a01790.html#a25a619e6b66096a4f05d048e4a96df08ae5abbd9e7d682c77a56749f83994e4ff">NPC_POISONOUS_MUSHROOM</a> = 30435
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d92/a01796.html#a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41">NPC_AHNKAHAR_SWARMER</a> = 30178
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d92/a01796.html#a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578">NPC_AHNKAHAR_GUARDIAN</a> = 30176
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d92/a01796.html#a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc">NPC_AHNKAHAR_SWARM_EGG</a> = 30172
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d92/a01796.html#a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c">NPC_AHNKAHAR_GUARDIAN_EGG</a> = 30173
+, <br />
+&#160;&#160;<a class="el" href="../../d4/dc6/a01793.html#a25a619e6b66096a4f05d048e4a96df08aa919b5df7000f3bbef9caa54db4dd415">NPC_TWILIGHT_INITIATE</a> = 30114
+, <br />
+&#160;&#160;<a class="el" href="../../d4/dc6/a01793.html#a25a619e6b66096a4f05d048e4a96df08a9726cee49be59cdfb274d0b93a9c64fe">NPC_TWILIGHT_VOLUNTEER</a> = 30385
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#a25a619e6b66096a4f05d048e4a96df08a22d66bc624082cb121a29f26aec07465">NPC_KURZEL</a> = 26664
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#a25a619e6b66096a4f05d048e4a96df08ac8874bda0b81ee0c77596d066d6c04d1">NPC_DRAKKARI_GUARDIAN</a> = 26620
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#a25a619e6b66096a4f05d048e4a96df08a134872c6167fea34d52690f6b40e7429">NPC_RISEN_DRAKKARI_WARRIOR</a> = 26635
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a8123c635a5ab5db37954d58117f9d044">NPC_BRONJAHM</a> = 36497
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a11aef36e86ef916bc76cd8910dff17e0">NPC_DEVOURER</a> = 36502
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560">NPC_SYLVANAS_PART1</a> = 37596
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147">NPC_SYLVANAS_PART2</a> = 38161
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a> = 37597
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea">NPC_JAINA_PART2</a> = 38160
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a34fc0c7d782672f9ff826bfb6eaf58b1">NPC_KALIRA</a> = 37583
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a96ef45a65b59f4aa5420bd3c53bd1ffe">NPC_ELANDRA</a> = 37774
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a8845fefb53599e42b7c88a9f416f5d18">NPC_LORALEN</a> = 37779
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a4e949a1824d25f0029cde2a51776c792">NPC_KORELN</a> = 37582
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a5cb735e4a8f08c6ccf45bd8ccd1516ef">NPC_CHAMPION_1_HORDE</a> = 37584
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08ab59791380fdc35c10d6b5e3558214e5b">NPC_CHAMPION_2_HORDE</a> = 37587
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08aab6ed41a6659914644c87548396c4d9b">NPC_CHAMPION_3_HORDE</a> = 37588
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a160667151deccdd9871b9d5df3e29ea9">NPC_CHAMPION_1_ALLIANCE</a> = 37496
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#a25a619e6b66096a4f05d048e4a96df08a6b34045602bdf002ce1b3d30d7fcdac4">NPC_CHAMPION_2_ALLIANCE</a> = 37497
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08ab836982141b048abbf9ee55bffb5807a">NPC_FALRIC</a> = 38112
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08af5a0440a5ae1174779baf4cd1fc5d28d">NPC_MARWYN</a> = 38113
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a2da6ef4d69e5bd387625b986b8039850">NPC_LICH_KING_EVENT</a> = 37226
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d">NPC_LICH_KING_BOSS</a> = 36954
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006">NPC_UTHER</a> = 37225
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a> = 37221
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea">NPC_JAINA_PART2</a> = 36955
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560">NPC_SYLVANAS_PART1</a> = 37223
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147">NPC_SYLVANAS_PART2</a> = 37554
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a1f9749ce092b04a7e81b0417a83dbbd9">NPC_DARK_RANGER_LORALEN</a> = 37779
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a9da3155baa845491c4e3cab5c90e1b04">NPC_ARCHMAGE_KORELN</a> = 37582
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a9ca72c9d172cc9c06de257da4f7979db">NPC_WAVE_PRIEST</a> = 38175
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08ac15da6fd98ac72d29a0cbce5ff5e5ce9">NPC_WAVE_MAGE</a> = 38172
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08aff5d2d7cd5fe929e31cf7dca76804efa">NPC_PHANTOM_HALLUCINATION</a> = 38567
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08ac6e8608d8528a6c9c9212a1a23b3fe4f">NPC_WAVE_MERCENARY</a> = 38177
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a95d886bd3ffec816bcad3291dfd57911">NPC_WAVE_FOOTMAN</a> = 38173
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08af02d4ca453ab5e0b11f139a7ca161209">NPC_WAVE_RIFLEMAN</a> = 38176
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08af6e1a4ae1c8e89ac56000034b92e2624">NPC_FROSTSWORN_GENERAL</a> = 36723
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a9669b002a2431802d97a4d1279ab2b76">NPC_SPIRITUAL_REFLECTION</a> = 37068
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08aefcda6650329a8b944b0f572d59f83c1">NPC_ICE_WALL_TARGET</a> = 37014
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a3ba2ddb44205ed8f33890f12960c800b">NPC_WRATH_OF_THE_LICH_KING_CREDIT</a> = 38211
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a209992f40cdaed7ac1002b4cdf42eded">NPC_HIGH_CAPTAIN_JUSTIN_BARLETT</a> = 30344
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a4eb9519977379a55a0fce7d1d96af797">NPC_SKY_REAVER_KORM_BLACKSKAR</a> = 30824
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08a58aa6348137fad9a6844b7985d762a88">NPC_ALTAR_BUNNY</a> = 37704
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#a25a619e6b66096a4f05d048e4a96df08ac2a9de5cbe0a4bb50fb69193facaf051">NPC_QUEL_DELAR</a> = 37158
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#a25a619e6b66096a4f05d048e4a96df08a4611480f360f1dd703a22b1547d7d501">NPC_ECK_THE_FEROCIOUS</a> = 29932
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e">CREATURE_ARCHAVON</a> = 31125
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1">CREATURE_EMALON</a> = 33993
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d">CREATURE_KORALON</a> = 35013
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6">CREATURE_TORAVON</a> = 38433
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08ae3a118d7269afc21b3398e745a6eaad2">NPC_TELEPORTATION_PORTAL</a> = 31011
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a9132dbb7e224c1b476917674cae5dd28">NPC_DEFENSE_SYSTEM</a> = 30837
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a13a3c71269462465269120eb901fed35">NPC_PRISON_DOOR_SEAL</a> = 30896
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08ae574f06e115eeb0ad9aadd7f9e7ffc6f">NPC_DEFENSE_DUMMY_TARGET</a> = 30857
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a8f7444b04596b5af383d74be70d97c13">NPC_SINCLARI</a> = 30658
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a75d9a118fd53851181659a07edb75d35">NPC_VIOLET_HOLD_GUARD</a> = 30659
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a3803083cea94934b848b3023dd91e1a0">NPC_SABOTEOUR</a> = 31079
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a986d0b33665e5b760f9007f28dc3d382">NPC_XEVOZZ</a> = 29266
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a496b42f58e0553ff3583bd8f8efe59e6">NPC_LAVANTHOR</a> = 29312
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a833709b6f0f4420b7a0b7b059513e694">NPC_ICHORON</a> = 29313
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a87083a9f428ec24ea432fb05745279b9">NPC_ZURAMAT</a> = 29314
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a6b11507e7663b4faf60ca94a4a3a95a2">NPC_EREKEM</a> = 29315
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a0cc4acf3fec9fdc88632063f505cc7ca">NPC_EREKEM_GUARD</a> = 29395
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a6e4d926384ba52fc896c65b81c19b18c">NPC_MORAGG</a> = 29316
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a7747b0a8a3bed4ad48b3579eedb5cb1f">NPC_CYANIGOSA</a> = 31134
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08ae092e4fa982331f6b3c2feda0fa11cff">NPC_PORTAL_GUARDIAN</a> = 30660
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08ad0f5788e477d3ad967430ade5a078278">NPC_PORTAL_KEEPER</a> = 30695
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08af20a3af8d218ff280bb0188c62a29672">NPC_AZURE_INVADER_1</a> = 30661
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a9fa07bf0069a05b4fd6dec3d83681b42">NPC_AZURE_INVADER_2</a> = 30961
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08aa75252b46a683eccfaaad37f1a843781">NPC_AZURE_SPELLBREAKER_1</a> = 30662
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a113fc6b3ce53913ebf02a9899637fe1d">NPC_AZURE_SPELLBREAKER_2</a> = 30962
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a37098081d18f200d0e58fee5f2375735">NPC_AZURE_BINDER_1</a> = 30663
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a2e2b10f482a1411ba0903af45bca542d">NPC_AZURE_BINDER_2</a> = 30918
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a7c6bd12ae52986083ef52674b9faa0a9">NPC_AZURE_MAGE_SLAYER_1</a> = 30664
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a40d85fe945ae4821199dd432d391e5fe">NPC_AZURE_MAGE_SLAYER_2</a> = 30963
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08acf739e85d59c06eec4902f13bc565fe1">NPC_AZURE_CAPTAIN</a> = 30666
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08a5915a0993a6885ea78af43a4a71ed158">NPC_AZURE_SORCEROR</a> = 30667
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08acdf52ce130a3859a52c6aab654d7290f">NPC_AZURE_RAIDER</a> = 30668
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#a25a619e6b66096a4f05d048e4a96df08aae2978e3479a298d86d8c5c57b0c734c">NPC_AZURE_STALKER</a> = 32191
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f">NPC_ASHTONGUE_SORCERER</a> = 23215
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08abdeb14d630a2ce2681144c82178f9e88">NPC_ASHTONGUE_DEFENDER</a> = 23216
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08a1cb37dd656baede293654d3027937fdb">NPC_ASHTONGUE_ELEMENTAL</a> = 23523
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08ab75097109c8d542c7da83f321f0f2b91">NPC_ASHTONGUE_ROGUE</a> = 23318
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08ada349f994875f7ea5bfabf3d4f58d561">NPC_ASHTONGUE_SPIRITBIND</a> = 23524
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d94/a00716.html#a25a619e6b66096a4f05d048e4a96df08a45e5b0cd0ff002b4e0155b49d8ca1e6e">NPC_ASHTONGUE_BROKEN</a> = 23319
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38">NPC_NAGA_DISTILLER</a> = 17954
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602">NPC_THESPIA_WATER_ELEMENTAL</a> = 17917
+, <br />
+&#160;&#160;<a class="el" href="../../db/d40/a00959.html#a25a619e6b66096a4f05d048e4a96df08ab3cd9071bb3966cc55b43e46cb146dc7">NPC_PEON</a> = 17083
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a25a619e6b66096a4f05d048e4a96df08a7a9475ef1149b7050dbbd320b5a21b4d">NPC_SHATTERED_ASSASSIN</a> = 17695
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a25a619e6b66096a4f05d048e4a96df08a114e6b5a54a7f21dcf3480b59fa6e9ef">NPC_BLADE_DANCE_TARGET</a> = 20709
+<br />
+ }</td></tr>
+<tr class="separator:a25a619e6b66096a4f05d048e4a96df08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaa97392c09b5045a6040d75b224bdf22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#aaa97392c09b5045a6040d75b224bdf22">AddSC_server_commandscript</a> ()</td></tr>
-<tr class="separator:aaa97392c09b5045a6040d75b224bdf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79516eee3b91946c25c59331935e1ab"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:ad79516eee3b91946c25c59331935e1ab"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#ad79516eee3b91946c25c59331935e1ab">GetSteamVaultAI</a> (T *obj)</td></tr>
+<tr class="separator:ad79516eee3b91946c25c59331935e1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a31d630c40753c29f94ceac2db5e451a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2c/a00764.html#a31d630c40753c29f94ceac2db5e451a8">EncounterCount</a> = 3</td></tr>
+<tr class="separator:a31d630c40753c29f94ceac2db5e451a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aaa97392c09b5045a6040d75b224bdf22" name="aaa97392c09b5045a6040d75b224bdf22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa97392c09b5045a6040d75b224bdf22">&#9670;&#160;</a></span>AddSC_server_commandscript()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a5b5ca0ae07e92e9cad54568049f06fce" name="a5b5ca0ae07e92e9cad54568049f06fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5ca0ae07e92e9cad54568049f06fce">&#9670;&#160;</a></span>DataHeaders</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_server_commandscript </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">#define DataHeaders&#160;&#160;&#160;&quot;SV&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  581</span>{</div>
-<div class="line"><span class="lineno">  582</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dbe/a11442.html">server_commandscript</a>();</div>
-<div class="line"><span class="lineno">  583</span>}</div>
-<div class="ttc" id="aa11442_html"><div class="ttname"><a href="../../d1/dbe/a11442.html">server_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_server.cpp:47</div></div>
+
+</div>
+</div>
+<a id="a503807dfd03f05e95a9435b32165c0af" name="a503807dfd03f05e95a9435b32165c0af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a503807dfd03f05e95a9435b32165c0af">&#9670;&#160;</a></span>RegisterSteamvaultCreatureAI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSteamvaultCreatureAI</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dea/a04352.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../d3/d2c/a00764.html#ad79516eee3b91946c25c59331935e1ab">GetSteamVaultAI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a082e6f5a53791ec96ecefdf86d59dc00" name="a082e6f5a53791ec96ecefdf86d59dc00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082e6f5a53791ec96ecefdf86d59dc00">&#9670;&#160;</a></span>SteamVaultScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SteamVaultScriptName&#160;&#160;&#160;&quot;instance_steam_vault&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a25a619e6b66096a4f05d048e4a96df08" name="a25a619e6b66096a4f05d048e4a96df08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a619e6b66096a4f05d048e4a96df08">&#9670;&#160;</a></span>Creatures</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08">Creatures</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e" name="a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e"></a>NPC_NORTH_MARSHAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e" name="a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e"></a>NPC_SOUTH_MARSHAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5433f3223c51265d88db74cf6120297b" name="a25a619e6b66096a4f05d048e4a96df08a5433f3223c51265d88db74cf6120297b"></a>NPC_ICEWING_MARSHAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad420cc37df2ea61506fb0fff461cfc3d" name="a25a619e6b66096a4f05d048e4a96df08ad420cc37df2ea61506fb0fff461cfc3d"></a>NPC_STONEHEARTH_MARSHAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a12884f87f1db7a7d4a769f6ccd19025c" name="a25a619e6b66096a4f05d048e4a96df08a12884f87f1db7a7d4a769f6ccd19025c"></a>NPC_EAST_FROSTWOLF_WARMASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a649bbf67f4787cc427c42c7f8587df07" name="a25a619e6b66096a4f05d048e4a96df08a649bbf67f4787cc427c42c7f8587df07"></a>NPC_ICEBLOOD_WARMASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3820313036f8bbbe8fe3ca86faeae3d6" name="a25a619e6b66096a4f05d048e4a96df08a3820313036f8bbbe8fe3ca86faeae3d6"></a>NPC_TOWER_POINT_WARMASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aca92646ce5bf81e73952b4c07020d818" name="a25a619e6b66096a4f05d048e4a96df08aca92646ce5bf81e73952b4c07020d818"></a>NPC_WEST_FROSTWOLF_WARMASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a192438ec5d0934ed1bec419036328553" name="a25a619e6b66096a4f05d048e4a96df08a192438ec5d0934ed1bec419036328553"></a>NPC_WATER_ELEMENTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a0457636e3c241d693230c910cbcf59a2" name="a25a619e6b66096a4f05d048e4a96df08a0457636e3c241d693230c910cbcf59a2"></a>NPC_EMPEROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab1495713a6e4ec455d6f1ce236e5f345" name="a25a619e6b66096a4f05d048e4a96df08ab1495713a6e4ec455d6f1ce236e5f345"></a>NPC_PHALANX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4f91d0e6048cc929f518f54464a0c735" name="a25a619e6b66096a4f05d048e4a96df08a4f91d0e6048cc929f518f54464a0c735"></a>NPC_ANGERREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aab03fceddc14d7a2e01e7d39dc0c34e1" name="a25a619e6b66096a4f05d048e4a96df08aab03fceddc14d7a2e01e7d39dc0c34e1"></a>NPC_DOPEREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7a1f6ea2e74eb57eb0f0cd16fab2adae" name="a25a619e6b66096a4f05d048e4a96df08a7a1f6ea2e74eb57eb0f0cd16fab2adae"></a>NPC_HATEREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3e21968d52df0e895e9ec41fe757e868" name="a25a619e6b66096a4f05d048e4a96df08a3e21968d52df0e895e9ec41fe757e868"></a>NPC_VILEREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aef90501940b6f6dd507f0efb636ea89d" name="a25a619e6b66096a4f05d048e4a96df08aef90501940b6f6dd507f0efb636ea89d"></a>NPC_SEETHREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac6425b5169a576b9d0d0434838762839" name="a25a619e6b66096a4f05d048e4a96df08ac6425b5169a576b9d0d0434838762839"></a>NPC_GLOOMREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3d8e0e38aa4a063429df3da1ce62f6fe" name="a25a619e6b66096a4f05d048e4a96df08a3d8e0e38aa4a063429df3da1ce62f6fe"></a>NPC_DOOMREL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af384d6f5e893e1d7a4da267d02fd0399" name="a25a619e6b66096a4f05d048e4a96df08af384d6f5e893e1d7a4da267d02fd0399"></a>NPC_MOIRA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aea178aed3138df8108bc9df0e34c26de" name="a25a619e6b66096a4f05d048e4a96df08aea178aed3138df8108bc9df0e34c26de"></a>NPC_PRIESTESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a69f48d505f527133f5278bbeea86a08f" name="a25a619e6b66096a4f05d048e4a96df08a69f48d505f527133f5278bbeea86a08f"></a>NPC_WATCHMAN_DOOMGRIP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5a8d75aa9b1ad564ff05d9329d86b403" name="a25a619e6b66096a4f05d048e4a96df08a5a8d75aa9b1ad564ff05d9329d86b403"></a>NPC_WEAPON_TECHNICIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a65e3e1d6a07403366b933717e58ba007" name="a25a619e6b66096a4f05d048e4a96df08a65e3e1d6a07403366b933717e58ba007"></a>NPC_DOOMFORGE_ARCANASMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3ee86cac9df08dcaa8ccab7abf35b3a3" name="a25a619e6b66096a4f05d048e4a96df08a3ee86cac9df08dcaa8ccab7abf35b3a3"></a>NPC_RAGEREAVER_GOLEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa300d2904e580a2b62d3bbd97ed6b762" name="a25a619e6b66096a4f05d048e4a96df08aa300d2904e580a2b62d3bbd97ed6b762"></a>NPC_WRATH_HAMMER_CONSTRUCT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a826a36794e050b5e28524bd893f19265" name="a25a619e6b66096a4f05d048e4a96df08a826a36794e050b5e28524bd893f19265"></a>NPC_GOLEM_LORD_ARGELMACH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a283bc2fe696da85674ec2e76057dd1e7" name="a25a619e6b66096a4f05d048e4a96df08a283bc2fe696da85674ec2e76057dd1e7"></a>NPC_COREN_DIREBREW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a2cbe16f2e03b2e1754bf1232bd95c4e7" name="a25a619e6b66096a4f05d048e4a96df08a2cbe16f2e03b2e1754bf1232bd95c4e7"></a>NPC_IRONHAND_GUARDIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae5c4d7e2e07d85e3db91a9d95c6f22e5" name="a25a619e6b66096a4f05d048e4a96df08ae5c4d7e2e07d85e3db91a9d95c6f22e5"></a>NPC_ARENA_SPECTATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8930aa74516f34bbede8a82ef7e7f570" name="a25a619e6b66096a4f05d048e4a96df08a8930aa74516f34bbede8a82ef7e7f570"></a>NPC_SHADOWFORGE_PEASANT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6fde37edd0d819d3794686575b68f63e" name="a25a619e6b66096a4f05d048e4a96df08a6fde37edd0d819d3794686575b68f63e"></a>NPC_SHADOWFORCE_CITIZEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a35be18207549900134a942a8682ea07d" name="a25a619e6b66096a4f05d048e4a96df08a35be18207549900134a942a8682ea07d"></a>NPC_SHADOWFORGE_SENATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7d39badd86318209108b1e92e0ee5c6a" name="a25a619e6b66096a4f05d048e4a96df08a7d39badd86318209108b1e92e0ee5c6a"></a>NPC_MAGMUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a0ebaae5543e8d47ce74463ea0491dd14" name="a25a619e6b66096a4f05d048e4a96df08a0ebaae5543e8d47ce74463ea0491dd14"></a>NPC_DREDGE_WORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac8b9b94735dc0130d205bd14974e380a" name="a25a619e6b66096a4f05d048e4a96df08ac8b9b94735dc0130d205bd14974e380a"></a>NPC_DEEP_STINGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae2f9846d50f6614697b9eb7d37b2b99b" name="a25a619e6b66096a4f05d048e4a96df08ae2f9846d50f6614697b9eb7d37b2b99b"></a>NPC_DARK_SCREECHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ada865b0d9efbba68e24f886dac67b558" name="a25a619e6b66096a4f05d048e4a96df08ada865b0d9efbba68e24f886dac67b558"></a>NPC_THUNDERSNOUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad7f954fc5baacdecae409b5aa8035453" name="a25a619e6b66096a4f05d048e4a96df08ad7f954fc5baacdecae409b5aa8035453"></a>NPC_BORER_BEETLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6c3ac6f8e1daafc8147a2aa3c2cbb602" name="a25a619e6b66096a4f05d048e4a96df08a6c3ac6f8e1daafc8147a2aa3c2cbb602"></a>NPC_CAVE_CREEPER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9ef7bc633b4bdbcfd3fb9da261e528c5" name="a25a619e6b66096a4f05d048e4a96df08a9ef7bc633b4bdbcfd3fb9da261e528c5"></a>NPC_GOROSH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a18c29370e470901201e4fa71e800c935" name="a25a619e6b66096a4f05d048e4a96df08a18c29370e470901201e4fa71e800c935"></a>NPC_GRIZZLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9be9647ffc16ae8dbcb7d5eb9b53947c" name="a25a619e6b66096a4f05d048e4a96df08a9be9647ffc16ae8dbcb7d5eb9b53947c"></a>NPC_EVISCERATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9997e0e7d4cb2c036e9b32d064e69b3e" name="a25a619e6b66096a4f05d048e4a96df08a9997e0e7d4cb2c036e9b32d064e69b3e"></a>NPC_OKTHOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a413e0b5ac112b7ac13778d9e1ad98add" name="a25a619e6b66096a4f05d048e4a96df08a413e0b5ac112b7ac13778d9e1ad98add"></a>NPC_ANUBSHIAH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab372a0c3b27834bf5d3896e51f8af366" name="a25a619e6b66096a4f05d048e4a96df08ab372a0c3b27834bf5d3896e51f8af366"></a>NPC_HEDRUM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373" name="a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373"></a>NPC_TOTEM_C_FIRE_NOVA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42" name="a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42"></a>NPC_TOTEM_C_STONESKIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4" name="a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4"></a>NPC_TOTEM_C_HEALING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40" name="a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40"></a>NPC_TOTEM_C_WINDFURY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac6f023117b06956b89d5321f6a92fd43" name="a25a619e6b66096a4f05d048e4a96df08ac6f023117b06956b89d5321f6a92fd43"></a>NPC_GYTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a99f2b240a6b58b322590e59f86488ae3" name="a25a619e6b66096a4f05d048e4a96df08a99f2b240a6b58b322590e59f86488ae3"></a>NPC_SON_OF_FLAME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad490d47604e8b70a73ccfe41de5fc384" name="a25a619e6b66096a4f05d048e4a96df08ad490d47604e8b70a73ccfe41de5fc384"></a>NPC_FLAME_OF_RAGNAROS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a20029c58282cf9c3559c32a2aed1b1bd" name="a25a619e6b66096a4f05d048e4a96df08a20029c58282cf9c3559c32a2aed1b1bd"></a>NPC_SHADOW_OF_ARAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac3d96e55b9cafcfdb2460bac7cd3fae1" name="a25a619e6b66096a4f05d048e4a96df08ac3d96e55b9cafcfdb2460bac7cd3fae1"></a>NPC_DEMONCHAINS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad99be33e79d1e3520e5565766389dd29" name="a25a619e6b66096a4f05d048e4a96df08ad99be33e79d1e3520e5565766389dd29"></a>NPC_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a43d5fc97b01105620d0dc9b0b9e9ebff" name="a25a619e6b66096a4f05d048e4a96df08a43d5fc97b01105620d0dc9b0b9e9ebff"></a>CREATURE_TITO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad1be7184ca8ae9abac722e434cb5faa0" name="a25a619e6b66096a4f05d048e4a96df08ad1be7184ca8ae9abac722e434cb5faa0"></a>CREATURE_CYCLONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a93bbe63cad126d05011ba14194c8436c" name="a25a619e6b66096a4f05d048e4a96df08a93bbe63cad126d05011ba14194c8436c"></a>CREATURE_CRONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a490c3b6b1ca9532aca62faa3ef2ebabe" name="a25a619e6b66096a4f05d048e4a96df08a490c3b6b1ca9532aca62faa3ef2ebabe"></a>NPC_ARCANAGOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08acded8211c601c5b237d60a58f65b56ac" name="a25a619e6b66096a4f05d048e4a96df08acded8211c601c5b237d60a58f65b56ac"></a>NPC_SPOTLIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a72a1b110048bef8e11035aa06d25035d" name="a25a619e6b66096a4f05d048e4a96df08a72a1b110048bef8e11035aa06d25035d"></a>NPC_TEMP_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9ef9f186f763eb87aceebd469e624f64" name="a25a619e6b66096a4f05d048e4a96df08a9ef9f186f763eb87aceebd469e624f64"></a>NPC_ALYSON_ANTILLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a79ebcd02986b41c178f567487032fa3a" name="a25a619e6b66096a4f05d048e4a96df08a79ebcd02986b41c178f567487032fa3a"></a>NPC_THURG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5afe2b6feaf1dc8f0fb363a295a1bde8" name="a25a619e6b66096a4f05d048e4a96df08a5afe2b6feaf1dc8f0fb363a295a1bde8"></a>NPC_GAZAKROTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08abaea72f32d91c4c2b198760d28abc317" name="a25a619e6b66096a4f05d048e4a96df08abaea72f32d91c4c2b198760d28abc317"></a>NPC_LORD_RADAAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aba0093f918c447c2f45a81f92def2d48" name="a25a619e6b66096a4f05d048e4a96df08aba0093f918c447c2f45a81f92def2d48"></a>NPC_DARKHEART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a1e6b93e2c42a314d3da316775f176f4c" name="a25a619e6b66096a4f05d048e4a96df08a1e6b93e2c42a314d3da316775f176f4c"></a>NPC_SLITHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3d462ffd6bed2c8a165c18704e1f0e9a" name="a25a619e6b66096a4f05d048e4a96df08a3d462ffd6bed2c8a165c18704e1f0e9a"></a>NPC_FENSTALKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a117f9258b6f0649e85b39e4793b26fb5" name="a25a619e6b66096a4f05d048e4a96df08a117f9258b6f0649e85b39e4793b26fb5"></a>NPC_KORAGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08abb1b0d048c012ee227241b4d7a567edb" name="a25a619e6b66096a4f05d048e4a96df08abb1b0d048c012ee227241b4d7a567edb"></a>NPC_AMANI_HATCHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a13fbfeb47a6085679bd44bcf4db10da4" name="a25a619e6b66096a4f05d048e4a96df08a13fbfeb47a6085679bd44bcf4db10da4"></a>NPC_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac8c746f010ffb9dba052834764b5ec74" name="a25a619e6b66096a4f05d048e4a96df08ac8c746f010ffb9dba052834764b5ec74"></a>NPC_FIRE_BOMB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac82f01f98078607db27168dd506902fc" name="a25a619e6b66096a4f05d048e4a96df08ac82f01f98078607db27168dd506902fc"></a>NPC_MEATHOOK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac6e387c2cfa0577bbc28c45de88c8aac" name="a25a619e6b66096a4f05d048e4a96df08ac6e387c2cfa0577bbc28c45de88c8aac"></a>NPC_SALRAMM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a255f18ab548db62f3a5c38d4e988cf2b" name="a25a619e6b66096a4f05d048e4a96df08a255f18ab548db62f3a5c38d4e988cf2b"></a>NPC_EPOCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac7a17d9800dd3b014b4c3c2bb238c019" name="a25a619e6b66096a4f05d048e4a96df08ac7a17d9800dd3b014b4c3c2bb238c019"></a>NPC_MAL_GANIS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08adb700652ffdd74731f6cf685991c2e32" name="a25a619e6b66096a4f05d048e4a96df08adb700652ffdd74731f6cf685991c2e32"></a>NPC_INFINITE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a773ab2d711b2cf2061e2a722b70aa23b" name="a25a619e6b66096a4f05d048e4a96df08a773ab2d711b2cf2061e2a722b70aa23b"></a>NPC_ARTHAS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa34e63fb01c6c84f8efab30926afa448" name="a25a619e6b66096a4f05d048e4a96df08aa34e63fb01c6c84f8efab30926afa448"></a>NPC_JAINA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006" name="a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006"></a>NPC_UTHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa868494572465a3ec87991e495212729" name="a25a619e6b66096a4f05d048e4a96df08aa868494572465a3ec87991e495212729"></a>NPC_GUARDIAN_OF_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e" name="a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e"></a>NPC_TIME_RIFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7787a9ab7279aff7bdce167a5e0991a0" name="a25a619e6b66096a4f05d048e4a96df08a7787a9ab7279aff7bdce167a5e0991a0"></a>NPC_CHROMIE_MIDDLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a69b6a637e2c091b035826805d4d70dcf" name="a25a619e6b66096a4f05d048e4a96df08a69b6a637e2c091b035826805d4d70dcf"></a>NPC_GRAIN_CREATE_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a034822df28ca1993b13d9828dcce52be" name="a25a619e6b66096a4f05d048e4a96df08a034822df28ca1993b13d9828dcce52be"></a>NPC_HOURGLASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6657df6bf0b40151c47e53b5072b694a" name="a25a619e6b66096a4f05d048e4a96df08a6657df6bf0b40151c47e53b5072b694a"></a>NPC_KURINNAXX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a65c4a78ee2040a28274be362d53688d5" name="a25a619e6b66096a4f05d048e4a96df08a65c4a78ee2040a28274be362d53688d5"></a>NPC_RAJAXX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a313700741dd6e70ead2a31aa1b2a0e9c" name="a25a619e6b66096a4f05d048e4a96df08a313700741dd6e70ead2a31aa1b2a0e9c"></a>NPC_MOAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af262bbc216ca3997b9da5f4c74601c87" name="a25a619e6b66096a4f05d048e4a96df08af262bbc216ca3997b9da5f4c74601c87"></a>NPC_BURU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa485b242412b0caeec051bcd83e95447" name="a25a619e6b66096a4f05d048e4a96df08aa485b242412b0caeec051bcd83e95447"></a>NPC_AYAMISS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa81cc61bad504ffd85c5810bb7c48b4c" name="a25a619e6b66096a4f05d048e4a96df08aa81cc61bad504ffd85c5810bb7c48b4c"></a>NPC_OSSIRIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7e0f282e2e915015778ad6a0becbd682" name="a25a619e6b66096a4f05d048e4a96df08a7e0f282e2e915015778ad6a0becbd682"></a>NPC_HIVEZARA_HORNET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac50bbd008b0c71b40a0eccdae3e85f75" name="a25a619e6b66096a4f05d048e4a96df08ac50bbd008b0c71b40a0eccdae3e85f75"></a>NPC_HIVEZARA_SWARMER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8f5204f730fe41c708b8ee02cd2ee4b9" name="a25a619e6b66096a4f05d048e4a96df08a8f5204f730fe41c708b8ee02cd2ee4b9"></a>NPC_HIVEZARA_LARVA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7c725d68e9f2892f6f64eaafdf419ffa" name="a25a619e6b66096a4f05d048e4a96df08a7c725d68e9f2892f6f64eaafdf419ffa"></a>NPC_SAND_VORTEX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a28ff3b2846fc0547b04583c30b1358df" name="a25a619e6b66096a4f05d048e4a96df08a28ff3b2846fc0547b04583c30b1358df"></a>NPC_OSSIRIAN_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad434e3472eb44a537781204bd1aa1fd7" name="a25a619e6b66096a4f05d048e4a96df08ad434e3472eb44a537781204bd1aa1fd7"></a>NPC_HATCHLING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a095efc9b2b66f93918d9134c8ad0228e" name="a25a619e6b66096a4f05d048e4a96df08a095efc9b2b66f93918d9134c8ad0228e"></a>NPC_BURU_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a857e4155d59f6b1e7cab15dc61d87bc5" name="a25a619e6b66096a4f05d048e4a96df08a857e4155d59f6b1e7cab15dc61d87bc5"></a>NPC_QUUEZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5321d761cd64d83798e74886850b1d93" name="a25a619e6b66096a4f05d048e4a96df08a5321d761cd64d83798e74886850b1d93"></a>NPC_TUUBID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac27500ed9cc27587a7e1497b282774b4" name="a25a619e6b66096a4f05d048e4a96df08ac27500ed9cc27587a7e1497b282774b4"></a>NPC_DRENN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aed59ff91b0c95896612545fc7f5c9183" name="a25a619e6b66096a4f05d048e4a96df08aed59ff91b0c95896612545fc7f5c9183"></a>NPC_XURREM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9af73240cc49dc0d2683fa291241acca" name="a25a619e6b66096a4f05d048e4a96df08a9af73240cc49dc0d2683fa291241acca"></a>NPC_YEGGETH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7a25daf2e8e504acde83c9c96fe74d59" name="a25a619e6b66096a4f05d048e4a96df08a7a25daf2e8e504acde83c9c96fe74d59"></a>NPC_PAKKON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae0b3d6e26311c5bdbd21f0f2091177b1" name="a25a619e6b66096a4f05d048e4a96df08ae0b3d6e26311c5bdbd21f0f2091177b1"></a>NPC_ZERRAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a793b3e66be68c512cf99360248a9ce2d" name="a25a619e6b66096a4f05d048e4a96df08a793b3e66be68c512cf99360248a9ce2d"></a>NPC_ANDOROV&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3868bfc94a3666dccb38668342e77a98" name="a25a619e6b66096a4f05d048e4a96df08a3868bfc94a3666dccb38668342e77a98"></a>NPC_KALDOREI_ELITE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af860fa13d82d33153a5616cf6a9f8033" name="a25a619e6b66096a4f05d048e4a96df08af860fa13d82d33153a5616cf6a9f8033"></a>NPC_MASTERS_EYE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5c36e8deb21a5901151ada2652ec4134" name="a25a619e6b66096a4f05d048e4a96df08a5c36e8deb21a5901151ada2652ec4134"></a>NPC_CTHUN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a55247298759f5bf1a5a53f9dd140cdc1" name="a25a619e6b66096a4f05d048e4a96df08a55247298759f5bf1a5a53f9dd140cdc1"></a>NPC_EYE_OF_CTHUN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab9bddd8d6f75c7de9d2b7d15bbf3a00f" name="a25a619e6b66096a4f05d048e4a96df08ab9bddd8d6f75c7de9d2b7d15bbf3a00f"></a>NPC_CTHUN_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08afadc4bf950cad92f2c69f690bfd8dacb" name="a25a619e6b66096a4f05d048e4a96df08afadc4bf950cad92f2c69f690bfd8dacb"></a>NPC_CLAW_TENTACLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a75dec1855e66192baeb04ef25c62f526" name="a25a619e6b66096a4f05d048e4a96df08a75dec1855e66192baeb04ef25c62f526"></a>NPC_EYE_TENTACLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7d7c01ee678622ab3ec66ca99df82723" name="a25a619e6b66096a4f05d048e4a96df08a7d7c01ee678622ab3ec66ca99df82723"></a>NPC_SMALL_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a002d271313369c413f9a72b87ef9230f" name="a25a619e6b66096a4f05d048e4a96df08a002d271313369c413f9a72b87ef9230f"></a>NPC_BODY_OF_CTHUN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5b99826c24f0d4262092899bf5782380" name="a25a619e6b66096a4f05d048e4a96df08a5b99826c24f0d4262092899bf5782380"></a>NPC_GIANT_CLAW_TENTACLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5cb6103bab9c94af9837aa8806bd25c3" name="a25a619e6b66096a4f05d048e4a96df08a5cb6103bab9c94af9837aa8806bd25c3"></a>NPC_GIANT_EYE_TENTACLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3dd162a4fd6063841805e9b222b3ac0d" name="a25a619e6b66096a4f05d048e4a96df08a3dd162a4fd6063841805e9b222b3ac0d"></a>NPC_FLESH_TENTACLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4de35d9ac7ac409a9fca0e69976c2d57" name="a25a619e6b66096a4f05d048e4a96df08a4de35d9ac7ac409a9fca0e69976c2d57"></a>NPC_GIANT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af30baec32375292d7a56c2aafab80746" name="a25a619e6b66096a4f05d048e4a96df08af30baec32375292d7a56c2aafab80746"></a>NPC_SARTURA_ROYAL_GUARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad76e4891c675c8ca2b27e9ab6a4a95e1" name="a25a619e6b66096a4f05d048e4a96df08ad76e4891c675c8ca2b27e9ab6a4a95e1"></a>NPC_VISCIDUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a2abe1c06cd3a07465c441d42f327dbbf" name="a25a619e6b66096a4f05d048e4a96df08a2abe1c06cd3a07465c441d42f327dbbf"></a>NPC_GLOB_OF_VISCIDUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7144e3f570a917e6af020e74f0cf4f5e" name="a25a619e6b66096a4f05d048e4a96df08a7144e3f570a917e6af020e74f0cf4f5e"></a>NPC_SKERAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa9ea9e3de931e139c150d204d10ef85d" name="a25a619e6b66096a4f05d048e4a96df08aa9ea9e3de931e139c150d204d10ef85d"></a>NPC_VEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8ffeced78a3767cf2cdefb23d8cebd1d" name="a25a619e6b66096a4f05d048e4a96df08a8ffeced78a3767cf2cdefb23d8cebd1d"></a>NPC_KRI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a0ec96df2f912c209006bc5173a100407" name="a25a619e6b66096a4f05d048e4a96df08a0ec96df2f912c209006bc5173a100407"></a>NPC_YAUJ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a29bc78b913e04218e13790b796213484" name="a25a619e6b66096a4f05d048e4a96df08a29bc78b913e04218e13790b796213484"></a>NPC_HUHURAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8834ac47ba871b2a58765da6fb9fc855" name="a25a619e6b66096a4f05d048e4a96df08a8834ac47ba871b2a58765da6fb9fc855"></a>NPC_VEKLOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af07029b357e30eeb424c1eeb747354f5" name="a25a619e6b66096a4f05d048e4a96df08af07029b357e30eeb424c1eeb747354f5"></a>NPC_VEKNILASH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af4d77f18ef0a5070f64016fee553275e" name="a25a619e6b66096a4f05d048e4a96df08af4d77f18ef0a5070f64016fee553275e"></a>NPC_OURO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6a89d6290e5d73e0ef220031e3b39f05" name="a25a619e6b66096a4f05d048e4a96df08a6a89d6290e5d73e0ef220031e3b39f05"></a>NPC_OURO_SPAWNER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa502ac378e14503b242a17450d6e7266" name="a25a619e6b66096a4f05d048e4a96df08aa502ac378e14503b242a17450d6e7266"></a>NPC_SARTURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab7eb4f911abf16dd9993ef9d2c7b8b3f" name="a25a619e6b66096a4f05d048e4a96df08ab7eb4f911abf16dd9993ef9d2c7b8b3f"></a>NPC_QIRAJI_SLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a248a0a7fdae4c31abe782d885e67e154" name="a25a619e6b66096a4f05d048e4a96df08a248a0a7fdae4c31abe782d885e67e154"></a>NPC_QIRAJI_MINDSLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a25286082628aa1ab23e1389ce56a8c07" name="a25a619e6b66096a4f05d048e4a96df08a25286082628aa1ab23e1389ce56a8c07"></a>NPC_TIGER_VEHICLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a78a02822583550ffbeb0028d103e970a" name="a25a619e6b66096a4f05d048e4a96df08a78a02822583550ffbeb0028d103e970a"></a>NPC_URUZIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6cd86740f73f4fa4236438bbb41b8d6e" name="a25a619e6b66096a4f05d048e4a96df08a6cd86740f73f4fa4236438bbb41b8d6e"></a>NPC_VOLUNTEER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a316c57f3672830683528cbaa5f314256" name="a25a619e6b66096a4f05d048e4a96df08a316c57f3672830683528cbaa5f314256"></a>NPC_VOLUNTEER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a06ca2e1dcb7269bba19f2e6c15d854b2" name="a25a619e6b66096a4f05d048e4a96df08a06ca2e1dcb7269bba19f2e6c15d854b2"></a>NPC_CITIZEN_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9c3456b33c02bd56328f4f11f61a234b" name="a25a619e6b66096a4f05d048e4a96df08a9c3456b33c02bd56328f4f11f61a234b"></a>NPC_CITIZEN_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a739fce663be8b13f09f9590c508ee188" name="a25a619e6b66096a4f05d048e4a96df08a739fce663be8b13f09f9590c508ee188"></a>NPC_HEALTHY_MUSHROOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae5abbd9e7d682c77a56749f83994e4ff" name="a25a619e6b66096a4f05d048e4a96df08ae5abbd9e7d682c77a56749f83994e4ff"></a>NPC_POISONOUS_MUSHROOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41" name="a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41"></a>NPC_AHNKAHAR_SWARMER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578" name="a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578"></a>NPC_AHNKAHAR_GUARDIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc" name="a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc"></a>NPC_AHNKAHAR_SWARM_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c" name="a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c"></a>NPC_AHNKAHAR_GUARDIAN_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa919b5df7000f3bbef9caa54db4dd415" name="a25a619e6b66096a4f05d048e4a96df08aa919b5df7000f3bbef9caa54db4dd415"></a>NPC_TWILIGHT_INITIATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9726cee49be59cdfb274d0b93a9c64fe" name="a25a619e6b66096a4f05d048e4a96df08a9726cee49be59cdfb274d0b93a9c64fe"></a>NPC_TWILIGHT_VOLUNTEER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a22d66bc624082cb121a29f26aec07465" name="a25a619e6b66096a4f05d048e4a96df08a22d66bc624082cb121a29f26aec07465"></a>NPC_KURZEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac8874bda0b81ee0c77596d066d6c04d1" name="a25a619e6b66096a4f05d048e4a96df08ac8874bda0b81ee0c77596d066d6c04d1"></a>NPC_DRAKKARI_GUARDIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a134872c6167fea34d52690f6b40e7429" name="a25a619e6b66096a4f05d048e4a96df08a134872c6167fea34d52690f6b40e7429"></a>NPC_RISEN_DRAKKARI_WARRIOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8123c635a5ab5db37954d58117f9d044" name="a25a619e6b66096a4f05d048e4a96df08a8123c635a5ab5db37954d58117f9d044"></a>NPC_BRONJAHM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a11aef36e86ef916bc76cd8910dff17e0" name="a25a619e6b66096a4f05d048e4a96df08a11aef36e86ef916bc76cd8910dff17e0"></a>NPC_DEVOURER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560" name="a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560"></a>NPC_SYLVANAS_PART1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147" name="a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147"></a>NPC_SYLVANAS_PART2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2" name="a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2"></a>NPC_JAINA_PART1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea" name="a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea"></a>NPC_JAINA_PART2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a34fc0c7d782672f9ff826bfb6eaf58b1" name="a25a619e6b66096a4f05d048e4a96df08a34fc0c7d782672f9ff826bfb6eaf58b1"></a>NPC_KALIRA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a96ef45a65b59f4aa5420bd3c53bd1ffe" name="a25a619e6b66096a4f05d048e4a96df08a96ef45a65b59f4aa5420bd3c53bd1ffe"></a>NPC_ELANDRA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8845fefb53599e42b7c88a9f416f5d18" name="a25a619e6b66096a4f05d048e4a96df08a8845fefb53599e42b7c88a9f416f5d18"></a>NPC_LORALEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4e949a1824d25f0029cde2a51776c792" name="a25a619e6b66096a4f05d048e4a96df08a4e949a1824d25f0029cde2a51776c792"></a>NPC_KORELN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5cb735e4a8f08c6ccf45bd8ccd1516ef" name="a25a619e6b66096a4f05d048e4a96df08a5cb735e4a8f08c6ccf45bd8ccd1516ef"></a>NPC_CHAMPION_1_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab59791380fdc35c10d6b5e3558214e5b" name="a25a619e6b66096a4f05d048e4a96df08ab59791380fdc35c10d6b5e3558214e5b"></a>NPC_CHAMPION_2_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aab6ed41a6659914644c87548396c4d9b" name="a25a619e6b66096a4f05d048e4a96df08aab6ed41a6659914644c87548396c4d9b"></a>NPC_CHAMPION_3_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a160667151deccdd9871b9d5df3e29ea9" name="a25a619e6b66096a4f05d048e4a96df08a160667151deccdd9871b9d5df3e29ea9"></a>NPC_CHAMPION_1_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6b34045602bdf002ce1b3d30d7fcdac4" name="a25a619e6b66096a4f05d048e4a96df08a6b34045602bdf002ce1b3d30d7fcdac4"></a>NPC_CHAMPION_2_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab836982141b048abbf9ee55bffb5807a" name="a25a619e6b66096a4f05d048e4a96df08ab836982141b048abbf9ee55bffb5807a"></a>NPC_FALRIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af5a0440a5ae1174779baf4cd1fc5d28d" name="a25a619e6b66096a4f05d048e4a96df08af5a0440a5ae1174779baf4cd1fc5d28d"></a>NPC_MARWYN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a2da6ef4d69e5bd387625b986b8039850" name="a25a619e6b66096a4f05d048e4a96df08a2da6ef4d69e5bd387625b986b8039850"></a>NPC_LICH_KING_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d" name="a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d"></a>NPC_LICH_KING_BOSS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006" name="a25a619e6b66096a4f05d048e4a96df08a3ecdbeb9c3ad1c0b48df2bdf1bc6a006"></a>NPC_UTHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2" name="a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2"></a>NPC_JAINA_PART1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea" name="a25a619e6b66096a4f05d048e4a96df08a1a28c61fa7784fd68f360c2c5f40b7ea"></a>NPC_JAINA_PART2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560" name="a25a619e6b66096a4f05d048e4a96df08ad7b5f6d9b213f87c99f931b456390560"></a>NPC_SYLVANAS_PART1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147" name="a25a619e6b66096a4f05d048e4a96df08a8693f2333bc4b39058e7977b4b765147"></a>NPC_SYLVANAS_PART2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a1f9749ce092b04a7e81b0417a83dbbd9" name="a25a619e6b66096a4f05d048e4a96df08a1f9749ce092b04a7e81b0417a83dbbd9"></a>NPC_DARK_RANGER_LORALEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9da3155baa845491c4e3cab5c90e1b04" name="a25a619e6b66096a4f05d048e4a96df08a9da3155baa845491c4e3cab5c90e1b04"></a>NPC_ARCHMAGE_KORELN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9ca72c9d172cc9c06de257da4f7979db" name="a25a619e6b66096a4f05d048e4a96df08a9ca72c9d172cc9c06de257da4f7979db"></a>NPC_WAVE_PRIEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac15da6fd98ac72d29a0cbce5ff5e5ce9" name="a25a619e6b66096a4f05d048e4a96df08ac15da6fd98ac72d29a0cbce5ff5e5ce9"></a>NPC_WAVE_MAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aff5d2d7cd5fe929e31cf7dca76804efa" name="a25a619e6b66096a4f05d048e4a96df08aff5d2d7cd5fe929e31cf7dca76804efa"></a>NPC_PHANTOM_HALLUCINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac6e8608d8528a6c9c9212a1a23b3fe4f" name="a25a619e6b66096a4f05d048e4a96df08ac6e8608d8528a6c9c9212a1a23b3fe4f"></a>NPC_WAVE_MERCENARY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a95d886bd3ffec816bcad3291dfd57911" name="a25a619e6b66096a4f05d048e4a96df08a95d886bd3ffec816bcad3291dfd57911"></a>NPC_WAVE_FOOTMAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af02d4ca453ab5e0b11f139a7ca161209" name="a25a619e6b66096a4f05d048e4a96df08af02d4ca453ab5e0b11f139a7ca161209"></a>NPC_WAVE_RIFLEMAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af6e1a4ae1c8e89ac56000034b92e2624" name="a25a619e6b66096a4f05d048e4a96df08af6e1a4ae1c8e89ac56000034b92e2624"></a>NPC_FROSTSWORN_GENERAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9669b002a2431802d97a4d1279ab2b76" name="a25a619e6b66096a4f05d048e4a96df08a9669b002a2431802d97a4d1279ab2b76"></a>NPC_SPIRITUAL_REFLECTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aefcda6650329a8b944b0f572d59f83c1" name="a25a619e6b66096a4f05d048e4a96df08aefcda6650329a8b944b0f572d59f83c1"></a>NPC_ICE_WALL_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3ba2ddb44205ed8f33890f12960c800b" name="a25a619e6b66096a4f05d048e4a96df08a3ba2ddb44205ed8f33890f12960c800b"></a>NPC_WRATH_OF_THE_LICH_KING_CREDIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a209992f40cdaed7ac1002b4cdf42eded" name="a25a619e6b66096a4f05d048e4a96df08a209992f40cdaed7ac1002b4cdf42eded"></a>NPC_HIGH_CAPTAIN_JUSTIN_BARLETT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4eb9519977379a55a0fce7d1d96af797" name="a25a619e6b66096a4f05d048e4a96df08a4eb9519977379a55a0fce7d1d96af797"></a>NPC_SKY_REAVER_KORM_BLACKSKAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a58aa6348137fad9a6844b7985d762a88" name="a25a619e6b66096a4f05d048e4a96df08a58aa6348137fad9a6844b7985d762a88"></a>NPC_ALTAR_BUNNY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ac2a9de5cbe0a4bb50fb69193facaf051" name="a25a619e6b66096a4f05d048e4a96df08ac2a9de5cbe0a4bb50fb69193facaf051"></a>NPC_QUEL_DELAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a4611480f360f1dd703a22b1547d7d501" name="a25a619e6b66096a4f05d048e4a96df08a4611480f360f1dd703a22b1547d7d501"></a>NPC_ECK_THE_FEROCIOUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e" name="a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e"></a>CREATURE_ARCHAVON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1" name="a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1"></a>CREATURE_EMALON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d" name="a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d"></a>CREATURE_KORALON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6" name="a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6"></a>CREATURE_TORAVON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae3a118d7269afc21b3398e745a6eaad2" name="a25a619e6b66096a4f05d048e4a96df08ae3a118d7269afc21b3398e745a6eaad2"></a>NPC_TELEPORTATION_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9132dbb7e224c1b476917674cae5dd28" name="a25a619e6b66096a4f05d048e4a96df08a9132dbb7e224c1b476917674cae5dd28"></a>NPC_DEFENSE_SYSTEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a13a3c71269462465269120eb901fed35" name="a25a619e6b66096a4f05d048e4a96df08a13a3c71269462465269120eb901fed35"></a>NPC_PRISON_DOOR_SEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae574f06e115eeb0ad9aadd7f9e7ffc6f" name="a25a619e6b66096a4f05d048e4a96df08ae574f06e115eeb0ad9aadd7f9e7ffc6f"></a>NPC_DEFENSE_DUMMY_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a8f7444b04596b5af383d74be70d97c13" name="a25a619e6b66096a4f05d048e4a96df08a8f7444b04596b5af383d74be70d97c13"></a>NPC_SINCLARI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a75d9a118fd53851181659a07edb75d35" name="a25a619e6b66096a4f05d048e4a96df08a75d9a118fd53851181659a07edb75d35"></a>NPC_VIOLET_HOLD_GUARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a3803083cea94934b848b3023dd91e1a0" name="a25a619e6b66096a4f05d048e4a96df08a3803083cea94934b848b3023dd91e1a0"></a>NPC_SABOTEOUR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a986d0b33665e5b760f9007f28dc3d382" name="a25a619e6b66096a4f05d048e4a96df08a986d0b33665e5b760f9007f28dc3d382"></a>NPC_XEVOZZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a496b42f58e0553ff3583bd8f8efe59e6" name="a25a619e6b66096a4f05d048e4a96df08a496b42f58e0553ff3583bd8f8efe59e6"></a>NPC_LAVANTHOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a833709b6f0f4420b7a0b7b059513e694" name="a25a619e6b66096a4f05d048e4a96df08a833709b6f0f4420b7a0b7b059513e694"></a>NPC_ICHORON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a87083a9f428ec24ea432fb05745279b9" name="a25a619e6b66096a4f05d048e4a96df08a87083a9f428ec24ea432fb05745279b9"></a>NPC_ZURAMAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6b11507e7663b4faf60ca94a4a3a95a2" name="a25a619e6b66096a4f05d048e4a96df08a6b11507e7663b4faf60ca94a4a3a95a2"></a>NPC_EREKEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a0cc4acf3fec9fdc88632063f505cc7ca" name="a25a619e6b66096a4f05d048e4a96df08a0cc4acf3fec9fdc88632063f505cc7ca"></a>NPC_EREKEM_GUARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a6e4d926384ba52fc896c65b81c19b18c" name="a25a619e6b66096a4f05d048e4a96df08a6e4d926384ba52fc896c65b81c19b18c"></a>NPC_MORAGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7747b0a8a3bed4ad48b3579eedb5cb1f" name="a25a619e6b66096a4f05d048e4a96df08a7747b0a8a3bed4ad48b3579eedb5cb1f"></a>NPC_CYANIGOSA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ae092e4fa982331f6b3c2feda0fa11cff" name="a25a619e6b66096a4f05d048e4a96df08ae092e4fa982331f6b3c2feda0fa11cff"></a>NPC_PORTAL_GUARDIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ad0f5788e477d3ad967430ade5a078278" name="a25a619e6b66096a4f05d048e4a96df08ad0f5788e477d3ad967430ade5a078278"></a>NPC_PORTAL_KEEPER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08af20a3af8d218ff280bb0188c62a29672" name="a25a619e6b66096a4f05d048e4a96df08af20a3af8d218ff280bb0188c62a29672"></a>NPC_AZURE_INVADER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a9fa07bf0069a05b4fd6dec3d83681b42" name="a25a619e6b66096a4f05d048e4a96df08a9fa07bf0069a05b4fd6dec3d83681b42"></a>NPC_AZURE_INVADER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aa75252b46a683eccfaaad37f1a843781" name="a25a619e6b66096a4f05d048e4a96df08aa75252b46a683eccfaaad37f1a843781"></a>NPC_AZURE_SPELLBREAKER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a113fc6b3ce53913ebf02a9899637fe1d" name="a25a619e6b66096a4f05d048e4a96df08a113fc6b3ce53913ebf02a9899637fe1d"></a>NPC_AZURE_SPELLBREAKER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a37098081d18f200d0e58fee5f2375735" name="a25a619e6b66096a4f05d048e4a96df08a37098081d18f200d0e58fee5f2375735"></a>NPC_AZURE_BINDER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a2e2b10f482a1411ba0903af45bca542d" name="a25a619e6b66096a4f05d048e4a96df08a2e2b10f482a1411ba0903af45bca542d"></a>NPC_AZURE_BINDER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7c6bd12ae52986083ef52674b9faa0a9" name="a25a619e6b66096a4f05d048e4a96df08a7c6bd12ae52986083ef52674b9faa0a9"></a>NPC_AZURE_MAGE_SLAYER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a40d85fe945ae4821199dd432d391e5fe" name="a25a619e6b66096a4f05d048e4a96df08a40d85fe945ae4821199dd432d391e5fe"></a>NPC_AZURE_MAGE_SLAYER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08acf739e85d59c06eec4902f13bc565fe1" name="a25a619e6b66096a4f05d048e4a96df08acf739e85d59c06eec4902f13bc565fe1"></a>NPC_AZURE_CAPTAIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a5915a0993a6885ea78af43a4a71ed158" name="a25a619e6b66096a4f05d048e4a96df08a5915a0993a6885ea78af43a4a71ed158"></a>NPC_AZURE_SORCEROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08acdf52ce130a3859a52c6aab654d7290f" name="a25a619e6b66096a4f05d048e4a96df08acdf52ce130a3859a52c6aab654d7290f"></a>NPC_AZURE_RAIDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08aae2978e3479a298d86d8c5c57b0c734c" name="a25a619e6b66096a4f05d048e4a96df08aae2978e3479a298d86d8c5c57b0c734c"></a>NPC_AZURE_STALKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f" name="a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f"></a>NPC_ASHTONGUE_SORCERER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08abdeb14d630a2ce2681144c82178f9e88" name="a25a619e6b66096a4f05d048e4a96df08abdeb14d630a2ce2681144c82178f9e88"></a>NPC_ASHTONGUE_DEFENDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a1cb37dd656baede293654d3027937fdb" name="a25a619e6b66096a4f05d048e4a96df08a1cb37dd656baede293654d3027937fdb"></a>NPC_ASHTONGUE_ELEMENTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab75097109c8d542c7da83f321f0f2b91" name="a25a619e6b66096a4f05d048e4a96df08ab75097109c8d542c7da83f321f0f2b91"></a>NPC_ASHTONGUE_ROGUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ada349f994875f7ea5bfabf3d4f58d561" name="a25a619e6b66096a4f05d048e4a96df08ada349f994875f7ea5bfabf3d4f58d561"></a>NPC_ASHTONGUE_SPIRITBIND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a45e5b0cd0ff002b4e0155b49d8ca1e6e" name="a25a619e6b66096a4f05d048e4a96df08a45e5b0cd0ff002b4e0155b49d8ca1e6e"></a>NPC_ASHTONGUE_BROKEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38" name="a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38"></a>NPC_NAGA_DISTILLER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602" name="a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602"></a>NPC_THESPIA_WATER_ELEMENTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08ab3cd9071bb3966cc55b43e46cb146dc7" name="a25a619e6b66096a4f05d048e4a96df08ab3cd9071bb3966cc55b43e46cb146dc7"></a>NPC_PEON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a7a9475ef1149b7050dbbd320b5a21b4d" name="a25a619e6b66096a4f05d048e4a96df08a7a9475ef1149b7050dbbd320b5a21b4d"></a>NPC_SHATTERED_ASSASSIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a25a619e6b66096a4f05d048e4a96df08a114e6b5a54a7f21dcf3480b59fa6e9ef" name="a25a619e6b66096a4f05d048e4a96df08a114e6b5a54a7f21dcf3480b59fa6e9ef"></a>NPC_BLADE_DANCE_TARGET&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38">NPC_NAGA_DISTILLER</a>                  = 17954,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602">NPC_THESPIA_WATER_ELEMENTAL</a>         = 17917</div>
+<div class="line"><span class="lineno">   57</span>};</div>
+<div class="ttc" id="aa00764_html_a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602"><div class="ttname"><a href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a0cb8f43195a3711e8de7b95d6977f602">NPC_THESPIA_WATER_ELEMENTAL</a></div><div class="ttdeci">@ NPC_THESPIA_WATER_ELEMENTAL</div><div class="ttdef"><b>Definition:</b> steam_vault.h:56</div></div>
+<div class="ttc" id="aa00764_html_a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38"><div class="ttname"><a href="../../d3/d2c/a00764.html#a25a619e6b66096a4f05d048e4a96df08a23fe7bbcacd48b943c5bb78627a13a38">NPC_NAGA_DISTILLER</a></div><div class="ttdeci">@ NPC_NAGA_DISTILLER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:55</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
+</div>
+</div>
+<a id="a4c1a879f002628919b28fdb323896e06" name="a4c1a879f002628919b28fdb323896e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1a879f002628919b28fdb323896e06">&#9670;&#160;</a></span>steamVault</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06">steamVault</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320" name="a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320"></a>DATA_HYDROMANCER_THESPIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c" name="a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c"></a>DATA_MEKGINEER_STEAMRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6" name="a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6"></a>DATA_WARLORD_KALITHRESH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d" name="a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404" name="a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404"></a>DATA_ACCESS_PANEL_HYDROMANCER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2" name="a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2"></a>DATA_ACCESS_PANEL_MEKGINEER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f" name="a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f"></a>DATA_MAIN_CHAMBERS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de" name="a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de"></a>DATA_DOOR_CONTROLLER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320">DATA_HYDROMANCER_THESPIA</a>            = 0,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c">DATA_MEKGINEER_STEAMRIGGER</a>          = 1,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6">DATA_WARLORD_KALITHRESH</a>             = 2,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>                       = 3,</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404">DATA_ACCESS_PANEL_HYDROMANCER</a>       = 4,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2">DATA_ACCESS_PANEL_MEKGINEER</a>         = 5,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f">DATA_MAIN_CHAMBERS_DOOR</a>             = 6,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de">DATA_DOOR_CONTROLLER</a>                = 7</div>
+<div class="line"><span class="lineno">   40</span>};</div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3dc237ebb82d98c7926ae6cd47febe3f">DATA_MAIN_CHAMBERS_DOOR</a></div><div class="ttdeci">@ DATA_MAIN_CHAMBERS_DOOR</div><div class="ttdef"><b>Definition:</b> steam_vault.h:38</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a3f3609008a13f42668d415742f596fe2">DATA_ACCESS_PANEL_MEKGINEER</a></div><div class="ttdeci">@ DATA_ACCESS_PANEL_MEKGINEER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:37</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a5f5dd6535ee9b4eac78d413703478320">DATA_HYDROMANCER_THESPIA</a></div><div class="ttdeci">@ DATA_HYDROMANCER_THESPIA</div><div class="ttdef"><b>Definition:</b> steam_vault.h:31</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:34</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06a9bdb86fe0af94f957787e6a74ff62404">DATA_ACCESS_PANEL_HYDROMANCER</a></div><div class="ttdeci">@ DATA_ACCESS_PANEL_HYDROMANCER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:36</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ab8ee5fb16c29e6d3d7a8e4f42e1f14de">DATA_DOOR_CONTROLLER</a></div><div class="ttdeci">@ DATA_DOOR_CONTROLLER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:39</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06ad734973ee3e79047d5fcadb7c6d6428c">DATA_MEKGINEER_STEAMRIGGER</a></div><div class="ttdeci">@ DATA_MEKGINEER_STEAMRIGGER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:32</div></div>
+<div class="ttc" id="aa00764_html_a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6"><div class="ttname"><a href="../../d3/d2c/a00764.html#a4c1a879f002628919b28fdb323896e06afe2fb20f4fb31e316e0f9425ae4b64e6">DATA_WARLORD_KALITHRESH</a></div><div class="ttdeci">@ DATA_WARLORD_KALITHRESH</div><div class="ttdef"><b>Definition:</b> steam_vault.h:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6a1d2eaeba2f5b18237dce73ae578a1c" name="a6a1d2eaeba2f5b18237dce73ae578a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1d2eaeba2f5b18237dce73ae578a1c">&#9670;&#160;</a></span>steamVaultNPCGO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1c">steamVaultNPCGO</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d" name="a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d"></a>GO_MAIN_CHAMBERS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56" name="a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56"></a>GO_ACCESS_PANEL_HYDRO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214" name="a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214"></a>GO_ACCESS_PANEL_MEK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1" name="a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1"></a>NPC_MEKGINEER_STEAMRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b" name="a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b"></a>NPC_WARLORD_KALITHRESH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123" name="a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123"></a>NPC_DOOR_CONTROLLER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d">GO_MAIN_CHAMBERS_DOOR</a>               = 183049,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56">GO_ACCESS_PANEL_HYDRO</a>               = 184125,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214">GO_ACCESS_PANEL_MEK</a>                 = 184126,</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1">NPC_MEKGINEER_STEAMRIGGER</a>           = 17796,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b">NPC_WARLORD_KALITHRESH</a>              = 17798,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123">NPC_DOOR_CONTROLLER</a>                 = 20926</div>
+<div class="line"><span class="lineno">   51</span>};</div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca4f8a620894011d53e53d042e6176123b">NPC_WARLORD_KALITHRESH</a></div><div class="ttdeci">@ NPC_WARLORD_KALITHRESH</div><div class="ttdef"><b>Definition:</b> steam_vault.h:49</div></div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca7819c607ecb4a70f4dec21fd5b8b2ea1">NPC_MEKGINEER_STEAMRIGGER</a></div><div class="ttdeci">@ NPC_MEKGINEER_STEAMRIGGER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:48</div></div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1ca87719f96e6fffd172652f7272ce0dc56">GO_ACCESS_PANEL_HYDRO</a></div><div class="ttdeci">@ GO_ACCESS_PANEL_HYDRO</div><div class="ttdef"><b>Definition:</b> steam_vault.h:45</div></div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cab4f4b17cb60bc97d1adbe1a4a9321123">NPC_DOOR_CONTROLLER</a></div><div class="ttdeci">@ NPC_DOOR_CONTROLLER</div><div class="ttdef"><b>Definition:</b> steam_vault.h:50</div></div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cac005dbd1ce453e73fcaccc2947bf971d">GO_MAIN_CHAMBERS_DOOR</a></div><div class="ttdeci">@ GO_MAIN_CHAMBERS_DOOR</div><div class="ttdef"><b>Definition:</b> steam_vault.h:44</div></div>
+<div class="ttc" id="aa00764_html_a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214"><div class="ttname"><a href="../../d3/d2c/a00764.html#a6a1d2eaeba2f5b18237dce73ae578a1cae473549b8b6a55e4c7ffdb0c2cc0f214">GO_ACCESS_PANEL_MEK</a></div><div class="ttdeci">@ GO_ACCESS_PANEL_MEK</div><div class="ttdef"><b>Definition:</b> steam_vault.h:46</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad79516eee3b91946c25c59331935e1ab" name="ad79516eee3b91946c25c59331935e1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79516eee3b91946c25c59331935e1ab">&#9670;&#160;</a></span>GetSteamVaultAI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AI * GetSteamVaultAI </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d3/d2c/a00764.html#a082e6f5a53791ec96ecefdf86d59dc00">SteamVaultScriptName</a>);</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="aa00764_html_a082e6f5a53791ec96ecefdf86d59dc00"><div class="ttname"><a href="../../d3/d2c/a00764.html#a082e6f5a53791ec96ecefdf86d59dc00">SteamVaultScriptName</a></div><div class="ttdeci">#define SteamVaultScriptName</div><div class="ttdef"><b>Definition:</b> steam_vault.h:27</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00027">SteamVaultScriptName</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a31d630c40753c29f94ceac2db5e451a8" name="a31d630c40753c29f94ceac2db5e451a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d630c40753c29f94ceac2db5e451a8">&#9670;&#160;</a></span>EncounterCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const EncounterCount = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -170,8 +1089,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d3/d2c/a00764.html">cs_server.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_22de0d38c781b430619603c756a2179f.html">CoilfangReservoir</a></li><li class="navelem"><a class="el" href="../../dir_c804a11c5cb2ec92995074d92081ceb0.html">SteamVault</a></li><li class="navelem"><a class="el" href="../../d3/d2c/a00764.html">steam_vault.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,8 +1,6 @@
 var a27174 =
 [
-    [ "npc_chicken_cluckAI", "d9/d24/a27178.html", "d9/d24/a27178" ],
-    [ "npc_chicken_cluck", "dd/d6d/a27174.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
-    [ "GetAI", "dd/d6d/a27174.html#abf986f555672823477c3c17e0f59bdbe", null ],
-    [ "OnQuestAccept", "dd/d6d/a27174.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
-    [ "OnQuestComplete", "dd/d6d/a27174.html#a8f22520166a557e066502eb16bdae774", null ]
+    [ "spawnedCreatureEntry", "dd/d6d/a27174.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "dd/d6d/a27174.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "dd/d6d/a27174.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

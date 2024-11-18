@@ -1,8 +1,9 @@
 var a18398 =
 [
-    [ "Class", "de/d0e/a18398.html#a095390e9023609f5836c4481ed79e1af", null ],
-    [ "cooldown_ms", "de/d0e/a18398.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
-    [ "id", "de/d0e/a18398.html#ae9fdf89271339b93f306c4aa0871f844", null ],
-    [ "range", "de/d0e/a18398.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
-    [ "targetType", "de/d0e/a18398.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
+    [ "npc_icc_skybreaker_luminaryAI", "de/d0e/a18398.html#a91868021309239f5582bb7ee89baec13", null ],
+    [ "AttackStart", "de/d0e/a18398.html#acf8d1eaebdc68cb53866155d8aad6e48", null ],
+    [ "JustEngagedWith", "de/d0e/a18398.html#a12927240144022174e3d190be6b34976", null ],
+    [ "Reset", "de/d0e/a18398.html#ac925b84b81ec1d1e118f3e62edfbdd15", null ],
+    [ "UpdateAI", "de/d0e/a18398.html#a969a36e147006971a93711349f90c193", null ],
+    [ "events", "de/d0e/a18398.html#a8521aef674b9a295c27f7e5725af4ffe", null ]
 ];

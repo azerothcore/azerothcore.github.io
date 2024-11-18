@@ -1,5 +1,6 @@
 var a11518 =
 [
-    [ "amount", "d9/db3/a11518.html#a35b1ecbfecae77f1cb7a0a52eafc5f7b", null ],
-    [ "entry", "d9/db3/a11518.html#ac3d4d211ebb927b1b9a376ee956e1b26", null ]
+    [ "boss_vanndarAI", "d6/d79/a11522.html", "d6/d79/a11522" ],
+    [ "boss_vanndar", "d9/db3/a11518.html#a66d190d1b48fd2259a95d88235ffb7d2", null ],
+    [ "GetAI", "d9/db3/a11518.html#ad1879cc6123a323ada04c49a2c691349", null ]
 ];

@@ -1,11 +1,8 @@
 var a12554 =
 [
-    [ "npc_scarlet_ghoulAI", "d5/da1/a12554.html#a194795143717de5aa8f0ca4c4e516136", null ],
-    [ "InitializeAI", "d5/da1/a12554.html#ad0fd204d15350332508b0c9d9decefb1", null ],
-    [ "MovementInform", "d5/da1/a12554.html#a9836c91a7dede1fabd1e0a9523ebd26a", null ],
-    [ "OwnerAttackedBy", "d5/da1/a12554.html#a5b0afc1f2ee57a1cc5e30b8e997ba218", null ],
-    [ "SetGUID", "d5/da1/a12554.html#a832602498643a03087efbc0a5a2f81c3", null ],
-    [ "UpdateAI", "d5/da1/a12554.html#adbe4d539552e7954c7bdb8e520cb9783", null ],
-    [ "events", "d5/da1/a12554.html#a105ac0982d28be590d514d2e452109c0", null ],
-    [ "gothikGUID", "d5/da1/a12554.html#ab5efaf2e030f92d7ab45de8b5d19804d", null ]
+    [ "npc_death_knight_initiateAI", "df/dda/a12558.html", "df/dda/a12558" ],
+    [ "npc_death_knight_initiate", "d5/da1/a12554.html#a0c1b552035bed7be9af1fbdf8205b4b6", null ],
+    [ "GetAI", "d5/da1/a12554.html#ac38e0ed0ea1eac8e0de6f08664cb095a", null ],
+    [ "OnGossipHello", "d5/da1/a12554.html#a24f1b91ad0a69e4468e812747225d303", null ],
+    [ "OnGossipSelect", "d5/da1/a12554.html#ab0712bc84003b5eb72f11b49ef6e57a7", null ]
 ];

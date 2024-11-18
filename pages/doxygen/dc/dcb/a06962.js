@@ -1,23 +1,13 @@
 var a06962 =
 [
-    [ "BattlefieldMap", "dc/dcb/a06962.html#aea781a60967fbc877bd1593628cdf32d", null ],
-    [ "BattlefieldSet", "dc/dcb/a06962.html#a440a0f37414815a060e23ac6b79ca3c5", null ],
-    [ "BattlefieldMgr", "dc/dcb/a06962.html#afaa79f63a91c6b585b4bf10dfdf60af6", null ],
-    [ "~BattlefieldMgr", "dc/dcb/a06962.html#a0d5b198add5190e99a1763a168ce2895", null ],
-    [ "AddZone", "dc/dcb/a06962.html#a03b1d0ef9c969283fbf9ce80842ad33c", null ],
-    [ "CanTalkTo", "dc/dcb/a06962.html#a18fdd3c81b5641e296318f1113acf73f", null ],
-    [ "GetBattlefieldByBattleId", "dc/dcb/a06962.html#ab99d360162cf61dfc8d53df42127fb07", null ],
-    [ "GetBattlefieldToZoneId", "dc/dcb/a06962.html#aad6dcd56b45aeb2095c0c9033ae9f691", null ],
-    [ "GetZoneScript", "dc/dcb/a06962.html#accd1dc8e86bc9ab5618483e609b9314d", null ],
-    [ "HandleDropFlag", "dc/dcb/a06962.html#a19b23ca8dc68ceaaca9078a33b62b70e", null ],
-    [ "HandleGossipOption", "dc/dcb/a06962.html#aa54e25c2f1ad982f0a9a57e99fd994f9", null ],
-    [ "HandlePlayerEnterZone", "dc/dcb/a06962.html#a733f42fdc343d070220e8c56f24fe4ac", null ],
-    [ "HandlePlayerLeaveZone", "dc/dcb/a06962.html#a89aa3d5d27fe61a13e381f13c599de90", null ],
-    [ "HandlePlayerResurrects", "dc/dcb/a06962.html#a458fb8b4943de82f0574ddd63ba466a9", null ],
-    [ "InitBattlefield", "dc/dcb/a06962.html#a244ce1743c237e95c08dc8861f3ce4b3", null ],
-    [ "instance", "dc/dcb/a06962.html#af96d6d44aa8936f94c20d1bd92af2fb3", null ],
-    [ "Update", "dc/dcb/a06962.html#a15548a7b124741e2fa9f36f1bf087458", null ],
-    [ "m_BattlefieldMap", "dc/dcb/a06962.html#a364a78eb7a4b44bbd24188647d3a4f4e", null ],
-    [ "m_BattlefieldSet", "dc/dcb/a06962.html#a0ca3259d6262b725ee46c5d29f375585", null ],
-    [ "m_UpdateTimer", "dc/dcb/a06962.html#a4818f48ea741ae5b6b588eed9719d0ec", null ]
+    [ "AutobroadcastsMap", "dc/dcb/a06962.html#a8abeae830f5692c45bd0b880ba62e743", null ],
+    [ "AutobroadcastsWeightMap", "dc/dcb/a06962.html#a75e5b978794a7010c8d9d3390d8690f9", null ],
+    [ "instance", "dc/dcb/a06962.html#aead196df7f590d43c89f179ca0bd4a68", null ],
+    [ "LoadAutobroadcasts", "dc/dcb/a06962.html#a48748969b122aee47d03697b6e9a2ee1", null ],
+    [ "SendAutobroadcasts", "dc/dcb/a06962.html#a225907be4944713af11c312185c8aea7", null ],
+    [ "SendNotificationAnnouncement", "dc/dcb/a06962.html#a942de8b823a0c8d67b6193def73d4416", null ],
+    [ "SendWorldAnnouncement", "dc/dcb/a06962.html#a64a9c246fe4b57463ecdd63d016c208b", null ],
+    [ "_announceType", "dc/dcb/a06962.html#a3889edc4001e26519d9df042a8b477fc", null ],
+    [ "_autobroadcasts", "dc/dcb/a06962.html#a06d42010fea307a03aac0ca4e6886f1d", null ],
+    [ "_autobroadcastsWeights", "dc/dcb/a06962.html#aadbd8ca926a64be4fbbe832fd633ee88", null ]
 ];

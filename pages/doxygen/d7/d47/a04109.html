@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Unit/Unit.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/WorldSession.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,142 +106,86 @@ $(document).ready(function(){initNavTree('d7/d47/a04109.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Unit.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">WorldSession.cpp File Reference<div class="ingroups"><a class="el" href="../../d5/dfd/a04680.html">User to World Communication</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Battlefield.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CharmInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ChatPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ChatTextBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CharacterPackets.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DynamicVisibility.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Hyperlinks.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Metric.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PacketUtilities.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PetAI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QueryHolder.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TargetedMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Totem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TotemAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WardenWin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSocket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldState.h</a>&quot;</code><br />
+<code>#include &lt;zlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">BanMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ded/a08438.html">SplineHandler</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db3/a08442.html">spellIdImmunityPredicate</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dae/a08446.html">ProcTriggeredData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc7/a08450.html">AuraMunchingQueue</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d32/a10702.html">AccountInfoQueryHolderPerRealm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:af5ec5d5b1ba4d4454c1bdcbc139de758"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../d8/dae/a08446.html">ProcTriggeredData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#af5ec5d5b1ba4d4454c1bdcbc139de758">ProcTriggeredList</a></td></tr>
-<tr class="separator:af5ec5d5b1ba4d4454c1bdcbc139de758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/dc8/a04757"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/a04757.html">anonymous_namespace{WorldSession.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a70fb722e03fe637ce7c9979a00725a3c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a70fb722e03fe637ce7c9979a00725a3c">InitTriggerAuraData</a> ()</td></tr>
-<tr class="separator:a70fb722e03fe637ce7c9979a00725a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d920511c20f084098c0f68a75006159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a7d920511c20f084098c0f68a75006159">createProcFlags</a> (<a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a> attackType, bool positive, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;procAttacker, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;procVictim)</td></tr>
-<tr class="separator:a7d920511c20f084098c0f68a75006159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb539370dad036ff97905efdbb4270c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#afb539370dad036ff97905efdbb4270c0">createProcExtendMask</a> (<a class="el" href="../../d4/de6/a08486.html">SpellNonMeleeDamage</a> *damageInfo, <a class="el" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65a">SpellMissInfo</a> missCondition)</td></tr>
-<tr class="separator:afb539370dad036ff97905efdbb4270c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9d7c4eaedbb2a06f275a5f59222bc747"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a9d7c4eaedbb2a06f275a5f59222bc747">REMOVE_VIOLATING_FLAGS</a>(check,  maskToRemove)</td></tr>
+<tr class="separator:a9d7c4eaedbb2a06f275a5f59222bc747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2ede1cce0416c74db2d4599bab36eb57"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a2ede1cce0416c74db2d4599bab36eb57">baseMoveSpeed</a> [<a class="el" href="../../dd/d44/a04097.html#a7a47517140439714c5cf548d456720e7">MAX_MOVE_TYPE</a>]</td></tr>
-<tr class="separator:a2ede1cce0416c74db2d4599bab36eb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afef08589b9944f10d66bdc1de74d0270"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#afef08589b9944f10d66bdc1de74d0270">playerBaseMoveSpeed</a> [<a class="el" href="../../dd/d44/a04097.html#a7a47517140439714c5cf548d456720e7">MAX_MOVE_TYPE</a>]</td></tr>
-<tr class="separator:afef08589b9944f10d66bdc1de74d0270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad51bed43268eefcceebdda05d85c6a61"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a> [<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td></tr>
-<tr class="separator:ad51bed43268eefcceebdda05d85c6a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993ff0928a2b90204efd437a0726e787"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a993ff0928a2b90204efd437a0726e787">isNonTriggerAura</a> [<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td></tr>
-<tr class="separator:a993ff0928a2b90204efd437a0726e787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59735a3ed46ce3add4f949e4c9e041f8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a> [<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td></tr>
-<tr class="separator:a59735a3ed46ce3add4f949e4c9e041f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11410c456e972de7cfb44bbe17709cc4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04109.html#a11410c456e972de7cfb44bbe17709cc4">procPrepared</a> = <a class="el" href="../../d7/d47/a04109.html#a70fb722e03fe637ce7c9979a00725a3c">InitTriggerAuraData</a>()</td></tr>
-<tr class="separator:a11410c456e972de7cfb44bbe17709cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586e06ca0d339349e13d81197056bb5f"><td class="memItemLeft" align="right" valign="top">std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/a04757.html#a586e06ca0d339349e13d81197056bb5f">anonymous_namespace{WorldSession.cpp}::DefaultPlayerName</a> = &quot;&lt;none&gt;&quot;</td></tr>
+<tr class="separator:a586e06ca0d339349e13d81197056bb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="af5ec5d5b1ba4d4454c1bdcbc139de758" name="af5ec5d5b1ba4d4454c1bdcbc139de758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ec5d5b1ba4d4454c1bdcbc139de758">&#9670;&#160;</a></span>ProcTriggeredList</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a9d7c4eaedbb2a06f275a5f59222bc747" name="a9d7c4eaedbb2a06f275a5f59222bc747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7c4eaedbb2a06f275a5f59222bc747">&#9670;&#160;</a></span>REMOVE_VIOLATING_FLAGS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::list&lt; <a class="el" href="../../d8/dae/a08446.html">ProcTriggeredData</a> &gt; <a class="el" href="../../d7/d47/a04109.html#af5ec5d5b1ba4d4454c1bdcbc139de758">ProcTriggeredList</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="afb539370dad036ff97905efdbb4270c0" name="afb539370dad036ff97905efdbb4270c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb539370dad036ff97905efdbb4270c0">&#9670;&#160;</a></span>createProcExtendMask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> createProcExtendMask </td>
+          <td class="memname">#define REMOVE_VIOLATING_FLAGS</td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de6/a08486.html">SpellNonMeleeDamage</a> *&#160;</td>
-          <td class="paramname"><em>damageInfo</em>, </td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">check, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65a">SpellMissInfo</a>&#160;</td>
-          <td class="paramname"><em>missCondition</em>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">maskToRemove&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -250,527 +194,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15991</span>{</div>
-<div class="line"><span class="lineno">15992</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> procEx = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a07b2f1753e6047dcfef05d8ec0de5b87">PROC_EX_NONE</a>;</div>
-<div class="line"><span class="lineno">15993</span>    <span class="comment">// Check victim state</span></div>
-<div class="line"><span class="lineno">15994</span>    <span class="keywordflow">if</span> (missCondition != <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa893d017f010f243616e70394c7fec096">SPELL_MISS_NONE</a>)</div>
-<div class="line"><span class="lineno">15995</span>        <span class="keywordflow">switch</span> (missCondition)</div>
-<div class="line"><span class="lineno">15996</span>        {</div>
-<div class="line"><span class="lineno">15997</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa92c5d2d6d9802d16764163ddfc01c364">SPELL_MISS_MISS</a>:</div>
-<div class="line"><span class="lineno">15998</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ab6bcbd6b1f2b6e6f5ad36b83930db9d8">PROC_EX_MISS</a>;</div>
-<div class="line"><span class="lineno">15999</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16000</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa8ccbb0208849d542de83f9b638e877ea">SPELL_MISS_RESIST</a>:</div>
-<div class="line"><span class="lineno">16001</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46abe491f8f623ecee03ca01610fa2b16cf">PROC_EX_RESIST</a>;</div>
-<div class="line"><span class="lineno">16002</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16003</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa3d25ac2e6bf2195d7f10f70d1c07c809">SPELL_MISS_DODGE</a>:</div>
-<div class="line"><span class="lineno">16004</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a0a7fffc99eb89439618f5e2680a62d1a">PROC_EX_DODGE</a>;</div>
-<div class="line"><span class="lineno">16005</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16006</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa1c71c106427627a9403f8a338e929d27">SPELL_MISS_PARRY</a>:</div>
-<div class="line"><span class="lineno">16007</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46adfe7bab9ca045d43f12562cdf6b82466">PROC_EX_PARRY</a>;</div>
-<div class="line"><span class="lineno">16008</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16009</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aae9b64e1f50163dfed6a54a7342842306">SPELL_MISS_BLOCK</a>:</div>
-<div class="line"><span class="lineno">16010</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a3ab6ef392a42ff92930e029af8070983">PROC_EX_BLOCK</a>;</div>
-<div class="line"><span class="lineno">16011</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16012</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aab385a91257c762e8ab30ee5ec4a619c7">SPELL_MISS_EVADE</a>:</div>
-<div class="line"><span class="lineno">16013</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46af92071b68f90d0fc28f7941d6b9f30a5">PROC_EX_EVADE</a>;</div>
-<div class="line"><span class="lineno">16014</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16015</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa2d810d137e753f560f2a4fe71841899f">SPELL_MISS_IMMUNE</a>:</div>
-<div class="line"><span class="lineno">16016</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ab68139e4e6c4de1ec554ce13cc339d6d">PROC_EX_IMMUNE</a>;</div>
-<div class="line"><span class="lineno">16017</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16018</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa4f14819249f6154bab64ccae4c0bf0c5">SPELL_MISS_IMMUNE2</a>:</div>
-<div class="line"><span class="lineno">16019</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ab68139e4e6c4de1ec554ce13cc339d6d">PROC_EX_IMMUNE</a>;</div>
-<div class="line"><span class="lineno">16020</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16021</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aafcddc76d7d93f87266de9113d8402150">SPELL_MISS_DEFLECT</a>:</div>
-<div class="line"><span class="lineno">16022</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a117311409fa1e6f10bbd1c95d834ea29">PROC_EX_DEFLECT</a>;</div>
-<div class="line"><span class="lineno">16023</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16024</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa37a4954062c0d40ace07c3743207ac04">SPELL_MISS_ABSORB</a>:</div>
-<div class="line"><span class="lineno">16025</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ad0f376666fe646253e445dedfae7753f">PROC_EX_ABSORB</a>;</div>
-<div class="line"><span class="lineno">16026</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16027</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aae656c2c9239cd191f25c0c3c626744d4">SPELL_MISS_REFLECT</a>:</div>
-<div class="line"><span class="lineno">16028</span>                procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a">PROC_EX_REFLECT</a>;</div>
-<div class="line"><span class="lineno">16029</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16030</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">16031</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">16032</span>        }</div>
-<div class="line"><span class="lineno">16033</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">16034</span>    {</div>
-<div class="line"><span class="lineno">16035</span>        <span class="comment">// On block</span></div>
-<div class="line"><span class="lineno">16036</span>        <span class="keywordflow">if</span> (damageInfo-&gt;<a class="code hl_variable" href="../../d4/de6/a08486.html#af0cb3d2801e51d9236a6ff5185a43790">blocked</a>)</div>
-<div class="line"><span class="lineno">16037</span>            procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a3ab6ef392a42ff92930e029af8070983">PROC_EX_BLOCK</a>;</div>
-<div class="line"><span class="lineno">16038</span>        <span class="comment">// On absorb</span></div>
-<div class="line"><span class="lineno">16039</span>        <span class="keywordflow">if</span> (damageInfo-&gt;<a class="code hl_variable" href="../../d4/de6/a08486.html#a485ee28c6a8cf32a22578e02633df75b">absorb</a>)</div>
-<div class="line"><span class="lineno">16040</span>            procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ad0f376666fe646253e445dedfae7753f">PROC_EX_ABSORB</a>;</div>
-<div class="line"><span class="lineno">16041</span>        <span class="comment">// On crit</span></div>
-<div class="line"><span class="lineno">16042</span>        <span class="keywordflow">if</span> (damageInfo-&gt;<a class="code hl_variable" href="../../d4/de6/a08486.html#a3f99854d163cd672f881f721d5bc8a39">HitInfo</a> &amp; <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#ab804ff2a65c41112bfa1774811d79b26a3d355edb9318b2055f84fdb987832c41">SPELL_HIT_TYPE_CRIT</a>)</div>
-<div class="line"><span class="lineno">16043</span>            procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310">PROC_EX_CRITICAL_HIT</a>;</div>
-<div class="line"><span class="lineno">16044</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">16045</span>            procEx |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46aa0c2a4e7377d6217e94cc8fc7c77b5b2">PROC_EX_NORMAL_HIT</a>;</div>
-<div class="line"><span class="lineno">16046</span>    }</div>
-<div class="line"><span class="lineno">16047</span>    <span class="keywordflow">return</span> procEx;</div>
-<div class="line"><span class="lineno">16048</span>}</div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46a07b2f1753e6047dcfef05d8ec0de5b87"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a07b2f1753e6047dcfef05d8ec0de5b87">PROC_EX_NONE</a></div><div class="ttdeci">@ PROC_EX_NONE</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:193</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46a0a7fffc99eb89439618f5e2680a62d1a"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a0a7fffc99eb89439618f5e2680a62d1a">PROC_EX_DODGE</a></div><div class="ttdeci">@ PROC_EX_DODGE</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:198</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46a117311409fa1e6f10bbd1c95d834ea29"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a117311409fa1e6f10bbd1c95d834ea29">PROC_EX_DEFLECT</a></div><div class="ttdeci">@ PROC_EX_DEFLECT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:203</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46a3ab6ef392a42ff92930e029af8070983"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a3ab6ef392a42ff92930e029af8070983">PROC_EX_BLOCK</a></div><div class="ttdeci">@ PROC_EX_BLOCK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:200</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310">PROC_EX_CRITICAL_HIT</a></div><div class="ttdeci">@ PROC_EX_CRITICAL_HIT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:195</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46aa0c2a4e7377d6217e94cc8fc7c77b5b2"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46aa0c2a4e7377d6217e94cc8fc7c77b5b2">PROC_EX_NORMAL_HIT</a></div><div class="ttdeci">@ PROC_EX_NORMAL_HIT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:194</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46ab68139e4e6c4de1ec554ce13cc339d6d"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ab68139e4e6c4de1ec554ce13cc339d6d">PROC_EX_IMMUNE</a></div><div class="ttdeci">@ PROC_EX_IMMUNE</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:202</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46ab6bcbd6b1f2b6e6f5ad36b83930db9d8"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ab6bcbd6b1f2b6e6f5ad36b83930db9d8">PROC_EX_MISS</a></div><div class="ttdeci">@ PROC_EX_MISS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:196</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46abe491f8f623ecee03ca01610fa2b16cf"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46abe491f8f623ecee03ca01610fa2b16cf">PROC_EX_RESIST</a></div><div class="ttdeci">@ PROC_EX_RESIST</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:197</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a">PROC_EX_REFLECT</a></div><div class="ttdeci">@ PROC_EX_REFLECT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:205</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46ad0f376666fe646253e445dedfae7753f"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46ad0f376666fe646253e445dedfae7753f">PROC_EX_ABSORB</a></div><div class="ttdeci">@ PROC_EX_ABSORB</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:204</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46adfe7bab9ca045d43f12562cdf6b82466"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46adfe7bab9ca045d43f12562cdf6b82466">PROC_EX_PARRY</a></div><div class="ttdeci">@ PROC_EX_PARRY</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:199</div></div>
-<div class="ttc" id="aa02774_html_ac9aaef596a1061b6b944e1dc0e679b46af92071b68f90d0fc28f7941d6b9f30a5"><div class="ttname"><a href="../../df/d91/a02774.html#ac9aaef596a1061b6b944e1dc0e679b46af92071b68f90d0fc28f7941d6b9f30a5">PROC_EX_EVADE</a></div><div class="ttdeci">@ PROC_EX_EVADE</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:201</div></div>
-<div class="ttc" id="aa04472_html_ab804ff2a65c41112bfa1774811d79b26a3d355edb9318b2055f84fdb987832c41"><div class="ttname"><a href="../../df/dfb/a04472.html#ab804ff2a65c41112bfa1774811d79b26a3d355edb9318b2055f84fdb987832c41">SPELL_HIT_TYPE_CRIT</a></div><div class="ttdeci">@ SPELL_HIT_TYPE_CRIT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1536</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa1c71c106427627a9403f8a338e929d27"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa1c71c106427627a9403f8a338e929d27">SPELL_MISS_PARRY</a></div><div class="ttdeci">@ SPELL_MISS_PARRY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1523</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa2d810d137e753f560f2a4fe71841899f"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa2d810d137e753f560f2a4fe71841899f">SPELL_MISS_IMMUNE</a></div><div class="ttdeci">@ SPELL_MISS_IMMUNE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1526</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa37a4954062c0d40ace07c3743207ac04"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa37a4954062c0d40ace07c3743207ac04">SPELL_MISS_ABSORB</a></div><div class="ttdeci">@ SPELL_MISS_ABSORB</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1529</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa3d25ac2e6bf2195d7f10f70d1c07c809"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa3d25ac2e6bf2195d7f10f70d1c07c809">SPELL_MISS_DODGE</a></div><div class="ttdeci">@ SPELL_MISS_DODGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1522</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa4f14819249f6154bab64ccae4c0bf0c5"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa4f14819249f6154bab64ccae4c0bf0c5">SPELL_MISS_IMMUNE2</a></div><div class="ttdeci">@ SPELL_MISS_IMMUNE2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1527</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa893d017f010f243616e70394c7fec096"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa893d017f010f243616e70394c7fec096">SPELL_MISS_NONE</a></div><div class="ttdeci">@ SPELL_MISS_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1519</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa8ccbb0208849d542de83f9b638e877ea"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa8ccbb0208849d542de83f9b638e877ea">SPELL_MISS_RESIST</a></div><div class="ttdeci">@ SPELL_MISS_RESIST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1521</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aa92c5d2d6d9802d16764163ddfc01c364"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aa92c5d2d6d9802d16764163ddfc01c364">SPELL_MISS_MISS</a></div><div class="ttdeci">@ SPELL_MISS_MISS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1520</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aab385a91257c762e8ab30ee5ec4a619c7"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aab385a91257c762e8ab30ee5ec4a619c7">SPELL_MISS_EVADE</a></div><div class="ttdeci">@ SPELL_MISS_EVADE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1525</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aae656c2c9239cd191f25c0c3c626744d4"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aae656c2c9239cd191f25c0c3c626744d4">SPELL_MISS_REFLECT</a></div><div class="ttdeci">@ SPELL_MISS_REFLECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1530</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aae9b64e1f50163dfed6a54a7342842306"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aae9b64e1f50163dfed6a54a7342842306">SPELL_MISS_BLOCK</a></div><div class="ttdeci">@ SPELL_MISS_BLOCK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1524</div></div>
-<div class="ttc" id="aa04472_html_ac42174a036914cd9ca25c52e98bef65aafcddc76d7d93f87266de9113d8402150"><div class="ttname"><a href="../../df/dfb/a04472.html#ac42174a036914cd9ca25c52e98bef65aafcddc76d7d93f87266de9113d8402150">SPELL_MISS_DEFLECT</a></div><div class="ttdeci">@ SPELL_MISS_DEFLECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1528</div></div>
-<div class="ttc" id="aa08486_html_a3f99854d163cd672f881f721d5bc8a39"><div class="ttname"><a href="../../d4/de6/a08486.html#a3f99854d163cd672f881f721d5bc8a39">SpellNonMeleeDamage::HitInfo</a></div><div class="ttdeci">uint32 HitInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:506</div></div>
-<div class="ttc" id="aa08486_html_a485ee28c6a8cf32a22578e02633df75b"><div class="ttname"><a href="../../d4/de6/a08486.html#a485ee28c6a8cf32a22578e02633df75b">SpellNonMeleeDamage::absorb</a></div><div class="ttdeci">uint32 absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:501</div></div>
-<div class="ttc" id="aa08486_html_af0cb3d2801e51d9236a6ff5185a43790"><div class="ttname"><a href="../../d4/de6/a08486.html#af0cb3d2801e51d9236a6ff5185a43790">SpellNonMeleeDamage::blocked</a></div><div class="ttdeci">uint32 blocked</div><div class="ttdef"><b>Definition:</b> Unit.h:505</div></div>
+<b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">if</span> (check) \</div>
+<div class="line">            mi-&gt;RemoveMovementFlag((maskToRemove));</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00501">SpellNonMeleeDamage::absorb</a>, <a class="el" href="../../#l00505">SpellNonMeleeDamage::blocked</a>, <a class="el" href="../../#l00506">SpellNonMeleeDamage::HitInfo</a>, <a class="el" href="../../#l00204">PROC_EX_ABSORB</a>, <a class="el" href="../../#l00200">PROC_EX_BLOCK</a>, <a class="el" href="../../#l00195">PROC_EX_CRITICAL_HIT</a>, <a class="el" href="../../#l00203">PROC_EX_DEFLECT</a>, <a class="el" href="../../#l00198">PROC_EX_DODGE</a>, <a class="el" href="../../#l00201">PROC_EX_EVADE</a>, <a class="el" href="../../#l00202">PROC_EX_IMMUNE</a>, <a class="el" href="../../#l00196">PROC_EX_MISS</a>, <a class="el" href="../../#l00193">PROC_EX_NONE</a>, <a class="el" href="../../#l00194">PROC_EX_NORMAL_HIT</a>, <a class="el" href="../../#l00199">PROC_EX_PARRY</a>, <a class="el" href="../../#l00205">PROC_EX_REFLECT</a>, <a class="el" href="../../#l00197">PROC_EX_RESIST</a>, <a class="el" href="../../#l01536">SPELL_HIT_TYPE_CRIT</a>, <a class="el" href="../../#l01529">SPELL_MISS_ABSORB</a>, <a class="el" href="../../#l01524">SPELL_MISS_BLOCK</a>, <a class="el" href="../../#l01528">SPELL_MISS_DEFLECT</a>, <a class="el" href="../../#l01522">SPELL_MISS_DODGE</a>, <a class="el" href="../../#l01525">SPELL_MISS_EVADE</a>, <a class="el" href="../../#l01526">SPELL_MISS_IMMUNE</a>, <a class="el" href="../../#l01527">SPELL_MISS_IMMUNE2</a>, <a class="el" href="../../#l01520">SPELL_MISS_MISS</a>, <a class="el" href="../../#l01519">SPELL_MISS_NONE</a>, <a class="el" href="../../#l01523">SPELL_MISS_PARRY</a>, <a class="el" href="../../#l01530">SPELL_MISS_REFLECT</a>, and <a class="el" href="../../#l01521">SPELL_MISS_RESIST</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02609">Spell::DoAllEffectOnTarget()</a>, and <a class="el" href="../../#l07167">AuraEffect::HandlePeriodicPowerBurnAuraTick()</a>.</p>
-
-</div>
-</div>
-<a id="a7d920511c20f084098c0f68a75006159" name="a7d920511c20f084098c0f68a75006159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d920511c20f084098c0f68a75006159">&#9670;&#160;</a></span>createProcFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void createProcFlags </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const *&#160;</td>
-          <td class="paramname"><em>spellInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a>&#160;</td>
-          <td class="paramname"><em>attackType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>positive</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
-          <td class="paramname"><em>procAttacker</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
-          <td class="paramname"><em>procVictim</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15917</span>{</div>
-<div class="line"><span class="lineno">15918</span>    <span class="keywordflow">if</span> (spellInfo)</div>
-<div class="line"><span class="lineno">15919</span>    {</div>
-<div class="line"><span class="lineno">15920</span>        <span class="keywordflow">switch</span> (spellInfo-&gt;DmgClass)</div>
-<div class="line"><span class="lineno">15921</span>        {</div>
-<div class="line"><span class="lineno">15922</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a44c25232e532dcd5a47b225f2e531093">SPELL_DAMAGE_CLASS_MAGIC</a>:</div>
-<div class="line"><span class="lineno">15923</span>                <span class="keywordflow">if</span> (positive)</div>
-<div class="line"><span class="lineno">15924</span>                {</div>
-<div class="line"><span class="lineno">15925</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a3224fff7fa83c444aa33906a7a00a87b">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS</a>;</div>
-<div class="line"><span class="lineno">15926</span>                    procVictim   |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6abb4ec446733b29f5eaa67b5b5a6c8d73">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS</a>;</div>
-<div class="line"><span class="lineno">15927</span>                }</div>
-<div class="line"><span class="lineno">15928</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15929</span>                {</div>
-<div class="line"><span class="lineno">15930</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</a>;</div>
-<div class="line"><span class="lineno">15931</span>                    procVictim   |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a>;</div>
-<div class="line"><span class="lineno">15932</span>                }</div>
-<div class="line"><span class="lineno">15933</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15934</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a5aee25f13be5fe04f98537e1da06a615">SPELL_DAMAGE_CLASS_NONE</a>:</div>
-<div class="line"><span class="lineno">15935</span>                <span class="keywordflow">if</span> (positive)</div>
-<div class="line"><span class="lineno">15936</span>                {</div>
-<div class="line"><span class="lineno">15937</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</a>;</div>
-<div class="line"><span class="lineno">15938</span>                    procVictim   |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6acf742e65ebea270b541f0f374f54ece4">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS</a>;</div>
-<div class="line"><span class="lineno">15939</span>                }</div>
-<div class="line"><span class="lineno">15940</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15941</span>                {</div>
-<div class="line"><span class="lineno">15942</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</a>;</div>
-<div class="line"><span class="lineno">15943</span>                    procVictim   |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aaf9170997f464e7fb1c87b84bb38651a">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG</a>;</div>
-<div class="line"><span class="lineno">15944</span>                }</div>
-<div class="line"><span class="lineno">15945</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15946</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4ad6e0146bc0d96e2ff12e902b53a29fe3">SPELL_DAMAGE_CLASS_MELEE</a>:</div>
-<div class="line"><span class="lineno">15947</span>                procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a7986f32b9f36b5a364fda01d94accb26">PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS</a>;</div>
-<div class="line"><span class="lineno">15948</span>                <span class="keywordflow">if</span> (attackType == <a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a052681ec165e5b5e3edcf2089607ae67">OFF_ATTACK</a>)</div>
-<div class="line"><span class="lineno">15949</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6af35f6e787a7269cd40370e1d4b8d48d6">PROC_FLAG_DONE_OFFHAND_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15950</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15951</span>                    procAttacker |= <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae5fc43a8846ce78d4f02d7fe2ca5ee8">PROC_FLAG_DONE_MAINHAND_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15952</span>                procVictim = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ad10b509b0f942337bade4b6e78aafa7c">PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS</a>;</div>
-<div class="line"><span class="lineno">15953</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15954</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a26638bd2ee5365a4b278420b7dc66956">SPELL_DAMAGE_CLASS_RANGED</a>:</div>
-<div class="line"><span class="lineno">15955</span>                <span class="comment">// Auto attack</span></div>
-<div class="line"><span class="lineno">15956</span>                <span class="keywordflow">if</span> (spellInfo-&gt;HasAttribute(<a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a583cc1b9a8909370e4d51a890d897668a060a09d1c3e79f4d89e98c53d4a5aed6">SPELL_ATTR2_AUTO_REPEAT</a>))</div>
-<div class="line"><span class="lineno">15957</span>                {</div>
-<div class="line"><span class="lineno">15958</span>                    procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae60b02b6affab70347479b44a5a1c6a">PROC_FLAG_DONE_RANGED_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15959</span>                    procVictim   = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a3893c541596a829d5bc2dcbe9af2ecb7">PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15960</span>                }</div>
-<div class="line"><span class="lineno">15961</span>                <span class="keywordflow">else</span> <span class="comment">// Ranged spell attack</span></div>
-<div class="line"><span class="lineno">15962</span>                {</div>
-<div class="line"><span class="lineno">15963</span>                    procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a2104a6deae3549ac25a6859286168d28">PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS</a>;</div>
-<div class="line"><span class="lineno">15964</span>                    procVictim   = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a92ea6e4f95430b1579ae29b233f1e1ed">PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS</a>;</div>
-<div class="line"><span class="lineno">15965</span>                }</div>
-<div class="line"><span class="lineno">15966</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15967</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">15968</span>                <span class="keywordflow">if</span> (spellInfo-&gt;EquippedItemClass == <a class="code hl_enumvalue" href="../../d9/d85/a04034.html#ab76605e05d3b13f61472b9a89cd22a68aeaefdfc527a31c7c733104c01368ac2a">ITEM_CLASS_WEAPON</a> &amp;&amp;</div>
-<div class="line"><span class="lineno">15969</span>                        spellInfo-&gt;EquippedItemSubClassMask &amp; (1 &lt;&lt; <a class="code hl_enumvalue" href="../../d9/d85/a04034.html#a10e11b09bccd6b87211d851310d1e556acfba60aacffd401146e4b0eefcb3dc48">ITEM_SUBCLASS_WEAPON_WAND</a>)</div>
-<div class="line"><span class="lineno">15970</span>                        &amp;&amp; spellInfo-&gt;HasAttribute(<a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a583cc1b9a8909370e4d51a890d897668a060a09d1c3e79f4d89e98c53d4a5aed6">SPELL_ATTR2_AUTO_REPEAT</a>)) <span class="comment">// Wands auto attack</span></div>
-<div class="line"><span class="lineno">15971</span>                {</div>
-<div class="line"><span class="lineno">15972</span>                    procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae60b02b6affab70347479b44a5a1c6a">PROC_FLAG_DONE_RANGED_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15973</span>                    procVictim   = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a3893c541596a829d5bc2dcbe9af2ecb7">PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15974</span>                }</div>
-<div class="line"><span class="lineno">15975</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15976</span>        }</div>
-<div class="line"><span class="lineno">15977</span>    }</div>
-<div class="line"><span class="lineno">15978</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attackType == <a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>)</div>
-<div class="line"><span class="lineno">15979</span>    {</div>
-<div class="line"><span class="lineno">15980</span>        procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a62b453b99197db2931efaae9c3f7efbc">PROC_FLAG_DONE_MELEE_AUTO_ATTACK</a> | <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae5fc43a8846ce78d4f02d7fe2ca5ee8">PROC_FLAG_DONE_MAINHAND_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15981</span>        procVictim   = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ac2692301ed7f56d167b080fd19942c12">PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15982</span>    }</div>
-<div class="line"><span class="lineno">15983</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attackType == <a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a052681ec165e5b5e3edcf2089607ae67">OFF_ATTACK</a>)</div>
-<div class="line"><span class="lineno">15984</span>    {</div>
-<div class="line"><span class="lineno">15985</span>        procAttacker = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a62b453b99197db2931efaae9c3f7efbc">PROC_FLAG_DONE_MELEE_AUTO_ATTACK</a> | <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6af35f6e787a7269cd40370e1d4b8d48d6">PROC_FLAG_DONE_OFFHAND_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15986</span>        procVictim   = <a class="code hl_enumvalue" href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ac2692301ed7f56d167b080fd19942c12">PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK</a>;</div>
-<div class="line"><span class="lineno">15987</span>    }</div>
-<div class="line"><span class="lineno">15988</span>}</div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a2104a6deae3549ac25a6859286168d28"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a2104a6deae3549ac25a6859286168d28">PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:119</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a3224fff7fa83c444aa33906a7a00a87b"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a3224fff7fa83c444aa33906a7a00a87b">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:128</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a3893c541596a829d5bc2dcbe9af2ecb7"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a3893c541596a829d5bc2dcbe9af2ecb7">PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:117</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a62b453b99197db2931efaae9c3f7efbc"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a62b453b99197db2931efaae9c3f7efbc">PROC_FLAG_DONE_MELEE_AUTO_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_DONE_MELEE_AUTO_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:110</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:122</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a7986f32b9f36b5a364fda01d94accb26"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a7986f32b9f36b5a364fda01d94accb26">PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:113</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:132</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a92ea6e4f95430b1579ae29b233f1e1ed"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a92ea6e4f95430b1579ae29b233f1e1ed">PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:120</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6aae5fc43a8846ce78d4f02d7fe2ca5ee8"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae5fc43a8846ce78d4f02d7fe2ca5ee8">PROC_FLAG_DONE_MAINHAND_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_DONE_MAINHAND_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:140</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6aae60b02b6affab70347479b44a5a1c6a"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aae60b02b6affab70347479b44a5a1c6a">PROC_FLAG_DONE_RANGED_AUTO_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_DONE_RANGED_AUTO_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:116</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6aaf9170997f464e7fb1c87b84bb38651a"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6aaf9170997f464e7fb1c87b84bb38651a">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:126</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:125</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6abb4ec446733b29f5eaa67b5b5a6c8d73"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6abb4ec446733b29f5eaa67b5b5a6c8d73">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:129</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6ac2692301ed7f56d167b080fd19942c12"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ac2692301ed7f56d167b080fd19942c12">PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:111</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6acf742e65ebea270b541f0f374f54ece4"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6acf742e65ebea270b541f0f374f54ece4">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:123</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6ad10b509b0f942337bade4b6e78aafa7c"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ad10b509b0f942337bade4b6e78aafa7c">PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:114</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6af35f6e787a7269cd40370e1d4b8d48d6"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6af35f6e787a7269cd40370e1d4b8d48d6">PROC_FLAG_DONE_OFFHAND_ATTACK</a></div><div class="ttdeci">@ PROC_FLAG_DONE_OFFHAND_ATTACK</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:141</div></div>
-<div class="ttc" id="aa02774_html_ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67"><div class="ttname"><a href="../../df/d91/a02774.html#ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:131</div></div>
-<div class="ttc" id="aa04034_html_a10e11b09bccd6b87211d851310d1e556acfba60aacffd401146e4b0eefcb3dc48"><div class="ttname"><a href="../../d9/d85/a04034.html#a10e11b09bccd6b87211d851310d1e556acfba60aacffd401146e4b0eefcb3dc48">ITEM_SUBCLASS_WEAPON_WAND</a></div><div class="ttdeci">@ ITEM_SUBCLASS_WEAPON_WAND</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:363</div></div>
-<div class="ttc" id="aa04034_html_ab76605e05d3b13f61472b9a89cd22a68aeaefdfc527a31c7c733104c01368ac2a"><div class="ttname"><a href="../../d9/d85/a04034.html#ab76605e05d3b13f61472b9a89cd22a68aeaefdfc527a31c7c733104c01368ac2a">ITEM_CLASS_WEAPON</a></div><div class="ttdeci">@ ITEM_CLASS_WEAPON</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:293</div></div>
-<div class="ttc" id="aa04094_html_a85524ab4e1fb005ed500bd190f79c352a052681ec165e5b5e3edcf2089607ae67"><div class="ttname"><a href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a052681ec165e5b5e3edcf2089607ae67">OFF_ATTACK</a></div><div class="ttdeci">@ OFF_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:210</div></div>
-<div class="ttc" id="aa04094_html_a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:209</div></div>
-<div class="ttc" id="aa04472_html_a583cc1b9a8909370e4d51a890d897668a060a09d1c3e79f4d89e98c53d4a5aed6"><div class="ttname"><a href="../../df/dfb/a04472.html#a583cc1b9a8909370e4d51a890d897668a060a09d1c3e79f4d89e98c53d4a5aed6">SPELL_ATTR2_AUTO_REPEAT</a></div><div class="ttdeci">@ SPELL_ATTR2_AUTO_REPEAT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:461</div></div>
-<div class="ttc" id="aa04472_html_a7443b708d5bd7312fc0a420679ae10a4a26638bd2ee5365a4b278420b7dc66956"><div class="ttname"><a href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a26638bd2ee5365a4b278420b7dc66956">SPELL_DAMAGE_CLASS_RANGED</a></div><div class="ttdeci">@ SPELL_DAMAGE_CLASS_RANGED</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1548</div></div>
-<div class="ttc" id="aa04472_html_a7443b708d5bd7312fc0a420679ae10a4a44c25232e532dcd5a47b225f2e531093"><div class="ttname"><a href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a44c25232e532dcd5a47b225f2e531093">SPELL_DAMAGE_CLASS_MAGIC</a></div><div class="ttdeci">@ SPELL_DAMAGE_CLASS_MAGIC</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1546</div></div>
-<div class="ttc" id="aa04472_html_a7443b708d5bd7312fc0a420679ae10a4a5aee25f13be5fe04f98537e1da06a615"><div class="ttname"><a href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4a5aee25f13be5fe04f98537e1da06a615">SPELL_DAMAGE_CLASS_NONE</a></div><div class="ttdeci">@ SPELL_DAMAGE_CLASS_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1545</div></div>
-<div class="ttc" id="aa04472_html_a7443b708d5bd7312fc0a420679ae10a4ad6e0146bc0d96e2ff12e902b53a29fe3"><div class="ttname"><a href="../../df/dfb/a04472.html#a7443b708d5bd7312fc0a420679ae10a4ad6e0146bc0d96e2ff12e902b53a29fe3">SPELL_DAMAGE_CLASS_MELEE</a></div><div class="ttdeci">@ SPELL_DAMAGE_CLASS_MELEE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1547</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00209">BASE_ATTACK</a>, <a class="el" href="../../#l00389">SpellInfo::DmgClass</a>, <a class="el" href="../../#l00375">SpellInfo::EquippedItemClass</a>, <a class="el" href="../../#l00376">SpellInfo::EquippedItemSubClassMask</a>, <a class="el" href="../../#l00415">SpellInfo::HasAttribute()</a>, <a class="el" href="../../#l00293">ITEM_CLASS_WEAPON</a>, <a class="el" href="../../#l00363">ITEM_SUBCLASS_WEAPON_WAND</a>, <a class="el" href="../../#l00210">OFF_ATTACK</a>, <a class="el" href="../../#l00140">PROC_FLAG_DONE_MAINHAND_ATTACK</a>, <a class="el" href="../../#l00110">PROC_FLAG_DONE_MELEE_AUTO_ATTACK</a>, <a class="el" href="../../#l00141">PROC_FLAG_DONE_OFFHAND_ATTACK</a>, <a class="el" href="../../#l00116">PROC_FLAG_DONE_RANGED_AUTO_ATTACK</a>, <a class="el" href="../../#l00131">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</a>, <a class="el" href="../../#l00128">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS</a>, <a class="el" href="../../#l00113">PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS</a>, <a class="el" href="../../#l00125">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</a>, <a class="el" href="../../#l00122">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</a>, <a class="el" href="../../#l00119">PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS</a>, <a class="el" href="../../#l00111">PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK</a>, <a class="el" href="../../#l00117">PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK</a>, <a class="el" href="../../#l00132">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a>, <a class="el" href="../../#l00129">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS</a>, <a class="el" href="../../#l00114">PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS</a>, <a class="el" href="../../#l00126">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG</a>, <a class="el" href="../../#l00123">PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS</a>, <a class="el" href="../../#l00120">PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS</a>, <a class="el" href="../../#l00461">SPELL_ATTR2_AUTO_REPEAT</a>, <a class="el" href="../../#l01546">SPELL_DAMAGE_CLASS_MAGIC</a>, <a class="el" href="../../#l01547">SPELL_DAMAGE_CLASS_MELEE</a>, <a class="el" href="../../#l01545">SPELL_DAMAGE_CLASS_NONE</a>, and <a class="el" href="../../#l01548">SPELL_DAMAGE_CLASS_RANGED</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
-
-</div>
-</div>
-<a id="a70fb722e03fe637ce7c9979a00725a3c" name="a70fb722e03fe637ce7c9979a00725a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70fb722e03fe637ce7c9979a00725a3c">&#9670;&#160;</a></span>InitTriggerAuraData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool InitTriggerAuraData </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15857</span>{</div>
-<div class="line"><span class="lineno">15858</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>; ++i)</div>
-<div class="line"><span class="lineno">15859</span>    {</div>
-<div class="line"><span class="lineno">15860</span>        <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[i] = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">15861</span>        <a class="code hl_variable" href="../../d7/d47/a04109.html#a993ff0928a2b90204efd437a0726e787">isNonTriggerAura</a>[i] = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">15862</span>        <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[i] = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">15863</span>    }</div>
-<div class="line"><span class="lineno">15864</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15865</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799adaa58e2c604243da285d64f4a95b42f7">SPELL_AURA_MOD_CONFUSE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15866</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2a641a00b3a67cda4040622eaf46212e">SPELL_AURA_MOD_THREAT</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15867</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799afdf00dd634aaa25017ad329f58bd6cfd">SPELL_AURA_MOD_STUN</a>] = <span class="keyword">true</span>; <span class="comment">// Aura does not have charges but needs to be removed on trigger</span></div>
-<div class="line"><span class="lineno">15868</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ad86b6755a6a877f94073e7d3767e055b">SPELL_AURA_MOD_DAMAGE_DONE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15869</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a98a69d30e24480a8740bcc624ad03c31">SPELL_AURA_MOD_DAMAGE_TAKEN</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15870</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a380519e0dab9b5840dee150fe66287c0">SPELL_AURA_MOD_RESISTANCE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15871</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aeb8f5c79c441187541514b36a00918a1">SPELL_AURA_MOD_STEALTH</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15872</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a44cf043145f5a78c5a4e36ecff8a034d">SPELL_AURA_MOD_FEAR</a>] = <span class="keyword">true</span>; <span class="comment">// Aura does not have charges but needs to be removed on trigger</span></div>
-<div class="line"><span class="lineno">15873</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a833a8773139c4fdffb24499f28e98c63">SPELL_AURA_MOD_ROOT</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15874</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa">SPELL_AURA_TRANSFORM</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15875</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a579f6853986101dab8f4852793b3fffd">SPELL_AURA_REFLECT_SPELLS</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15876</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ad055ae2fe8ad49af533e4e0424158b93">SPELL_AURA_DAMAGE_IMMUNITY</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15877</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b">SPELL_AURA_PROC_TRIGGER_SPELL</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15878</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799acc5994eedad39ba63e84f1279bfd5e2f">SPELL_AURA_PROC_TRIGGER_DAMAGE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15879</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799af034ae8de320204d3de55be2f4eb6919">SPELL_AURA_MOD_CASTING_SPEED_NOT_STACK</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15880</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab7b51e8dff5aaafa4617c9fdde043b08">SPELL_AURA_SCHOOL_ABSORB</a>] = <span class="keyword">true</span>; <span class="comment">// Savage Defense untested</span></div>
-<div class="line"><span class="lineno">15881</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a6ce8ab254d7a5e7caa05e4c53549a117">SPELL_AURA_MOD_POWER_COST_SCHOOL_PCT</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15882</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a92d89cbc45113015bd5256590e466e80">SPELL_AURA_MOD_POWER_COST_SCHOOL</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15883</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799adc67ff244902b3217c447ada79c45ea8">SPELL_AURA_REFLECT_SPELLS_SCHOOL</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15884</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a9357fb759d2046a3ff76aab126823c7b">SPELL_AURA_MECHANIC_IMMUNITY</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15885</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e">SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15886</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799abf8eba241ed858a5a96b414e595c3933">SPELL_AURA_SPELL_MAGNET</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15887</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a0c41f2fc3404559e29c5260e093d2230">SPELL_AURA_MOD_ATTACK_POWER</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15888</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a50250ab3c5532270f84adf9b8c9cc798">SPELL_AURA_ADD_CASTER_HIT_TRIGGER</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15889</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aee9829857fab1a5438db7a7fdf8806fa">SPELL_AURA_OVERRIDE_CLASS_SCRIPTS</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15890</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ade2ef3855381fe6afce94e126f34d2c0">SPELL_AURA_MOD_MECHANIC_RESISTANCE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15891</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a38d26a7bb616c3ee2b31ff72e98ffd71">SPELL_AURA_RANGED_ATTACK_POWER_ATTACKER_BONUS</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15892</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b">SPELL_AURA_MOD_MELEE_HASTE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15893</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a0c9f59e3df4e08caa44f5a23181e0e27">SPELL_AURA_MOD_ATTACKER_MELEE_HIT_CHANCE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15894</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a97e43d4f89788b97090ee8df08682157">SPELL_AURA_RAID_PROC_FROM_CHARGE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15895</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2223f78228bf66cb54c15fea685c809c">SPELL_AURA_RAID_PROC_FROM_CHARGE_WITH_VALUE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15896</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a651bba5033934ceb87de2329c845808a">SPELL_AURA_PROC_TRIGGER_SPELL_WITH_VALUE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15897</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799acedef978b5be165f59345e89890c257e">SPELL_AURA_MOD_DAMAGE_FROM_CASTER</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15898</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a5f9221ad5292d1442ce0d4a748c820f3">SPELL_AURA_MOD_SPELL_CRIT_CHANCE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15899</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a1a0187ab21626c9032d7398c0b98941d">SPELL_AURA_ABILITY_IGNORE_AURASTATE</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15900</span> </div>
-<div class="line"><span class="lineno">15901</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a993ff0928a2b90204efd437a0726e787">isNonTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a46b15fd937d6f84e680507c7dd110c2c">SPELL_AURA_MOD_POWER_REGEN</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15902</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a993ff0928a2b90204efd437a0726e787">isNonTriggerAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab7eb197a8bd93b47521695875517c14e">SPELL_AURA_REDUCE_PUSHBACK</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15903</span> </div>
-<div class="line"><span class="lineno">15904</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aee9829857fab1a5438db7a7fdf8806fa">SPELL_AURA_OVERRIDE_CLASS_SCRIPTS</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15905</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a44cf043145f5a78c5a4e36ecff8a034d">SPELL_AURA_MOD_FEAR</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15906</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a833a8773139c4fdffb24499f28e98c63">SPELL_AURA_MOD_ROOT</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15907</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799afdf00dd634aaa25017ad329f58bd6cfd">SPELL_AURA_MOD_STUN</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15908</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa">SPELL_AURA_TRANSFORM</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15909</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799abf8eba241ed858a5a96b414e595c3933">SPELL_AURA_SPELL_MAGNET</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15910</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab7b51e8dff5aaafa4617c9fdde043b08">SPELL_AURA_SCHOOL_ABSORB</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15911</span>    <a class="code hl_variable" href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a>[<a class="code hl_enumvalue" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aeb8f5c79c441187541514b36a00918a1">SPELL_AURA_MOD_STEALTH</a>] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15912</span> </div>
-<div class="line"><span class="lineno">15913</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15914</span>}</div>
-<div class="ttc" id="aa00179_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a0c41f2fc3404559e29c5260e093d2230"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a0c41f2fc3404559e29c5260e093d2230">SPELL_AURA_MOD_ATTACK_POWER</a></div><div class="ttdeci">@ SPELL_AURA_MOD_ATTACK_POWER</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:162</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a0c9f59e3df4e08caa44f5a23181e0e27"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a0c9f59e3df4e08caa44f5a23181e0e27">SPELL_AURA_MOD_ATTACKER_MELEE_HIT_CHANCE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_ATTACKER_MELEE_HIT_CHANCE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:247</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a1a0187ab21626c9032d7398c0b98941d"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a1a0187ab21626c9032d7398c0b98941d">SPELL_AURA_ABILITY_IGNORE_AURASTATE</a></div><div class="ttdeci">@ SPELL_AURA_ABILITY_IGNORE_AURASTATE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:325</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a2223f78228bf66cb54c15fea685c809c"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2223f78228bf66cb54c15fea685c809c">SPELL_AURA_RAID_PROC_FROM_CHARGE_WITH_VALUE</a></div><div class="ttdeci">@ SPELL_AURA_RAID_PROC_FROM_CHARGE_WITH_VALUE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:288</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a2a641a00b3a67cda4040622eaf46212e"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2a641a00b3a67cda4040622eaf46212e">SPELL_AURA_MOD_THREAT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_THREAT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:73</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a></div><div class="ttdeci">@ TOTAL_AURAS</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:380</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a380519e0dab9b5840dee150fe66287c0"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a380519e0dab9b5840dee150fe66287c0">SPELL_AURA_MOD_RESISTANCE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_RESISTANCE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:85</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a38d26a7bb616c3ee2b31ff72e98ffd71"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a38d26a7bb616c3ee2b31ff72e98ffd71">SPELL_AURA_RANGED_ATTACK_POWER_ATTACKER_BONUS</a></div><div class="ttdeci">@ SPELL_AURA_RANGED_ATTACK_POWER_ATTACKER_BONUS</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:190</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b">SPELL_AURA_PROC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PROC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:105</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a44cf043145f5a78c5a4e36ecff8a034d"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a44cf043145f5a78c5a4e36ecff8a034d">SPELL_AURA_MOD_FEAR</a></div><div class="ttdeci">@ SPELL_AURA_MOD_FEAR</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:70</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a46b15fd937d6f84e680507c7dd110c2c"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a46b15fd937d6f84e680507c7dd110c2c">SPELL_AURA_MOD_POWER_REGEN</a></div><div class="ttdeci">@ SPELL_AURA_MOD_POWER_REGEN</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:148</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a50250ab3c5532270f84adf9b8c9cc798"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a50250ab3c5532270f84adf9b8c9cc798">SPELL_AURA_ADD_CASTER_HIT_TRIGGER</a></div><div class="ttdeci">@ SPELL_AURA_ADD_CASTER_HIT_TRIGGER</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:174</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a579f6853986101dab8f4852793b3fffd"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a579f6853986101dab8f4852793b3fffd">SPELL_AURA_REFLECT_SPELLS</a></div><div class="ttdeci">@ SPELL_AURA_REFLECT_SPELLS</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:91</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b">SPELL_AURA_MOD_MELEE_HASTE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_MELEE_HASTE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:201</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a5f9221ad5292d1442ce0d4a748c820f3"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a5f9221ad5292d1442ce0d4a748c820f3">SPELL_AURA_MOD_SPELL_CRIT_CHANCE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_SPELL_CRIT_CHANCE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:120</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a651bba5033934ceb87de2329c845808a"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a651bba5033934ceb87de2329c845808a">SPELL_AURA_PROC_TRIGGER_SPELL_WITH_VALUE</a></div><div class="ttdeci">@ SPELL_AURA_PROC_TRIGGER_SPELL_WITH_VALUE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:294</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e">SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:150</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a6ce8ab254d7a5e7caa05e4c53549a117"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a6ce8ab254d7a5e7caa05e4c53549a117">SPELL_AURA_MOD_POWER_COST_SCHOOL_PCT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_POWER_COST_SCHOOL_PCT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:135</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a833a8773139c4fdffb24499f28e98c63"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a833a8773139c4fdffb24499f28e98c63">SPELL_AURA_MOD_ROOT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_ROOT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:89</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a92d89cbc45113015bd5256590e466e80"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a92d89cbc45113015bd5256590e466e80">SPELL_AURA_MOD_POWER_COST_SCHOOL</a></div><div class="ttdeci">@ SPELL_AURA_MOD_POWER_COST_SCHOOL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:136</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a9357fb759d2046a3ff76aab126823c7b"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a9357fb759d2046a3ff76aab126823c7b">SPELL_AURA_MECHANIC_IMMUNITY</a></div><div class="ttdeci">@ SPELL_AURA_MECHANIC_IMMUNITY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:140</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a97e43d4f89788b97090ee8df08682157"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a97e43d4f89788b97090ee8df08682157">SPELL_AURA_RAID_PROC_FROM_CHARGE</a></div><div class="ttdeci">@ SPELL_AURA_RAID_PROC_FROM_CHARGE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:286</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799a98a69d30e24480a8740bcc624ad03c31"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a98a69d30e24480a8740bcc624ad03c31">SPELL_AURA_MOD_DAMAGE_TAKEN</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DAMAGE_TAKEN</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:77</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa">SPELL_AURA_TRANSFORM</a></div><div class="ttdeci">@ SPELL_AURA_TRANSFORM</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:119</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ab7b51e8dff5aaafa4617c9fdde043b08"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab7b51e8dff5aaafa4617c9fdde043b08">SPELL_AURA_SCHOOL_ABSORB</a></div><div class="ttdeci">@ SPELL_AURA_SCHOOL_ABSORB</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:132</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ab7eb197a8bd93b47521695875517c14e"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ab7eb197a8bd93b47521695875517c14e">SPELL_AURA_REDUCE_PUSHBACK</a></div><div class="ttdeci">@ SPELL_AURA_REDUCE_PUSHBACK</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:212</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799abf8eba241ed858a5a96b414e595c3933"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799abf8eba241ed858a5a96b414e595c3933">SPELL_AURA_SPELL_MAGNET</a></div><div class="ttdeci">@ SPELL_AURA_SPELL_MAGNET</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:159</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799acc5994eedad39ba63e84f1279bfd5e2f"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799acc5994eedad39ba63e84f1279bfd5e2f">SPELL_AURA_PROC_TRIGGER_DAMAGE</a></div><div class="ttdeci">@ SPELL_AURA_PROC_TRIGGER_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:106</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799acedef978b5be165f59345e89890c257e"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799acedef978b5be165f59345e89890c257e">SPELL_AURA_MOD_DAMAGE_FROM_CASTER</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DAMAGE_FROM_CASTER</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:334</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ad055ae2fe8ad49af533e4e0424158b93"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ad055ae2fe8ad49af533e4e0424158b93">SPELL_AURA_DAMAGE_IMMUNITY</a></div><div class="ttdeci">@ SPELL_AURA_DAMAGE_IMMUNITY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:103</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ad86b6755a6a877f94073e7d3767e055b"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ad86b6755a6a877f94073e7d3767e055b">SPELL_AURA_MOD_DAMAGE_DONE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DAMAGE_DONE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:76</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799adaa58e2c604243da285d64f4a95b42f7"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799adaa58e2c604243da285d64f4a95b42f7">SPELL_AURA_MOD_CONFUSE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_CONFUSE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:68</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799adc67ff244902b3217c447ada79c45ea8"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799adc67ff244902b3217c447ada79c45ea8">SPELL_AURA_REFLECT_SPELLS_SCHOOL</a></div><div class="ttdeci">@ SPELL_AURA_REFLECT_SPELLS_SCHOOL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:137</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799ade2ef3855381fe6afce94e126f34d2c0"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799ade2ef3855381fe6afce94e126f34d2c0">SPELL_AURA_MOD_MECHANIC_RESISTANCE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_MECHANIC_RESISTANCE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:180</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799aeb8f5c79c441187541514b36a00918a1"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aeb8f5c79c441187541514b36a00918a1">SPELL_AURA_MOD_STEALTH</a></div><div class="ttdeci">@ SPELL_AURA_MOD_STEALTH</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:79</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799aee9829857fab1a5438db7a7fdf8806fa"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799aee9829857fab1a5438db7a7fdf8806fa">SPELL_AURA_OVERRIDE_CLASS_SCRIPTS</a></div><div class="ttdeci">@ SPELL_AURA_OVERRIDE_CLASS_SCRIPTS</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:175</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799af034ae8de320204d3de55be2f4eb6919"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799af034ae8de320204d3de55be2f4eb6919">SPELL_AURA_MOD_CASTING_SPEED_NOT_STACK</a></div><div class="ttdeci">@ SPELL_AURA_MOD_CASTING_SPEED_NOT_STACK</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:128</div></div>
-<div class="ttc" id="aa02792_html_a538cdc259460b365f406fe0b3a981799afdf00dd634aaa25017ad329f58bd6cfd"><div class="ttname"><a href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799afdf00dd634aaa25017ad329f58bd6cfd">SPELL_AURA_MOD_STUN</a></div><div class="ttdeci">@ SPELL_AURA_MOD_STUN</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:75</div></div>
-<div class="ttc" id="aa04109_html_a59735a3ed46ce3add4f949e4c9e041f8"><div class="ttname"><a href="../../d7/d47/a04109.html#a59735a3ed46ce3add4f949e4c9e041f8">isAlwaysTriggeredAura</a></div><div class="ttdeci">static bool isAlwaysTriggeredAura[TOTAL_AURAS]</div><div class="ttdef"><b>Definition:</b> Unit.cpp:106</div></div>
-<div class="ttc" id="aa04109_html_a993ff0928a2b90204efd437a0726e787"><div class="ttname"><a href="../../d7/d47/a04109.html#a993ff0928a2b90204efd437a0726e787">isNonTriggerAura</a></div><div class="ttdeci">static bool isNonTriggerAura[TOTAL_AURAS]</div><div class="ttdef"><b>Definition:</b> Unit.cpp:104</div></div>
-<div class="ttc" id="aa04109_html_ad51bed43268eefcceebdda05d85c6a61"><div class="ttname"><a href="../../d7/d47/a04109.html#ad51bed43268eefcceebdda05d85c6a61">isTriggerAura</a></div><div class="ttdeci">static bool isTriggerAura[TOTAL_AURAS]</div><div class="ttdef"><b>Definition:</b> Unit.cpp:102</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">isAlwaysTriggeredAura</a>, <a class="el" href="../../#l00104">isNonTriggerAura</a>, <a class="el" href="../../#l00102">isTriggerAura</a>, <a class="el" href="../../#l00325">SPELL_AURA_ABILITY_IGNORE_AURASTATE</a>, <a class="el" href="../../#l00174">SPELL_AURA_ADD_CASTER_HIT_TRIGGER</a>, <a class="el" href="../../#l00103">SPELL_AURA_DAMAGE_IMMUNITY</a>, <a class="el" href="../../#l00067">SPELL_AURA_DUMMY</a>, <a class="el" href="../../#l00140">SPELL_AURA_MECHANIC_IMMUNITY</a>, <a class="el" href="../../#l00162">SPELL_AURA_MOD_ATTACK_POWER</a>, <a class="el" href="../../#l00247">SPELL_AURA_MOD_ATTACKER_MELEE_HIT_CHANCE</a>, <a class="el" href="../../#l00128">SPELL_AURA_MOD_CASTING_SPEED_NOT_STACK</a>, <a class="el" href="../../#l00068">SPELL_AURA_MOD_CONFUSE</a>, <a class="el" href="../../#l00076">SPELL_AURA_MOD_DAMAGE_DONE</a>, <a class="el" href="../../#l00334">SPELL_AURA_MOD_DAMAGE_FROM_CASTER</a>, <a class="el" href="../../#l00150">SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</a>, <a class="el" href="../../#l00077">SPELL_AURA_MOD_DAMAGE_TAKEN</a>, <a class="el" href="../../#l00070">SPELL_AURA_MOD_FEAR</a>, <a class="el" href="../../#l00180">SPELL_AURA_MOD_MECHANIC_RESISTANCE</a>, <a class="el" href="../../#l00201">SPELL_AURA_MOD_MELEE_HASTE</a>, <a class="el" href="../../#l00136">SPELL_AURA_MOD_POWER_COST_SCHOOL</a>, <a class="el" href="../../#l00135">SPELL_AURA_MOD_POWER_COST_SCHOOL_PCT</a>, <a class="el" href="../../#l00148">SPELL_AURA_MOD_POWER_REGEN</a>, <a class="el" href="../../#l00085">SPELL_AURA_MOD_RESISTANCE</a>, <a class="el" href="../../#l00089">SPELL_AURA_MOD_ROOT</a>, <a class="el" href="../../#l00120">SPELL_AURA_MOD_SPELL_CRIT_CHANCE</a>, <a class="el" href="../../#l00079">SPELL_AURA_MOD_STEALTH</a>, <a class="el" href="../../#l00075">SPELL_AURA_MOD_STUN</a>, <a class="el" href="../../#l00073">SPELL_AURA_MOD_THREAT</a>, <a class="el" href="../../#l00175">SPELL_AURA_OVERRIDE_CLASS_SCRIPTS</a>, <a class="el" href="../../#l00106">SPELL_AURA_PROC_TRIGGER_DAMAGE</a>, <a class="el" href="../../#l00105">SPELL_AURA_PROC_TRIGGER_SPELL</a>, <a class="el" href="../../#l00294">SPELL_AURA_PROC_TRIGGER_SPELL_WITH_VALUE</a>, <a class="el" href="../../#l00286">SPELL_AURA_RAID_PROC_FROM_CHARGE</a>, <a class="el" href="../../#l00288">SPELL_AURA_RAID_PROC_FROM_CHARGE_WITH_VALUE</a>, <a class="el" href="../../#l00190">SPELL_AURA_RANGED_ATTACK_POWER_ATTACKER_BONUS</a>, <a class="el" href="../../#l00212">SPELL_AURA_REDUCE_PUSHBACK</a>, <a class="el" href="../../#l00091">SPELL_AURA_REFLECT_SPELLS</a>, <a class="el" href="../../#l00137">SPELL_AURA_REFLECT_SPELLS_SCHOOL</a>, <a class="el" href="../../#l00132">SPELL_AURA_SCHOOL_ABSORB</a>, <a class="el" href="../../#l00159">SPELL_AURA_SPELL_MAGNET</a>, <a class="el" href="../../#l00119">SPELL_AURA_TRANSFORM</a>, and <a class="el" href="../../#l00380">TOTAL_AURAS</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a2ede1cce0416c74db2d4599bab36eb57" name="a2ede1cce0416c74db2d4599bab36eb57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ede1cce0416c74db2d4599bab36eb57">&#9670;&#160;</a></span>baseMoveSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float baseMoveSpeed[<a class="el" href="../../dd/d44/a04097.html#a7a47517140439714c5cf548d456720e7">MAX_MOVE_TYPE</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    2.5f,                  </div>
-<div class="line">    7.0f,                  </div>
-<div class="line">    4.5f,                  </div>
-<div class="line">    4.722222f,             </div>
-<div class="line">    2.5f,                  </div>
-<div class="line">    3.141594f,             </div>
-<div class="line">    7.0f,                  </div>
-<div class="line">    4.5f,                  </div>
-<div class="line">    3.14f                  </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l14419">Unit::GetSpeed()</a>, <a class="el" href="../../#l00414">World::LoadConfigSettings()</a>, and <a class="el" href="../../#l14245">Unit::UpdateSpeed()</a>.</p>
-
-</div>
-</div>
-<a id="a59735a3ed46ce3add4f949e4c9e041f8" name="a59735a3ed46ce3add4f949e4c9e041f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59735a3ed46ce3add4f949e4c9e041f8">&#9670;&#160;</a></span>isAlwaysTriggeredAura</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isAlwaysTriggeredAura[<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l15856">InitTriggerAuraData()</a>.</p>
-
-</div>
-</div>
-<a id="a993ff0928a2b90204efd437a0726e787" name="a993ff0928a2b90204efd437a0726e787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a993ff0928a2b90204efd437a0726e787">&#9670;&#160;</a></span>isNonTriggerAura</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isNonTriggerAura[<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l15856">InitTriggerAuraData()</a>, and <a class="el" href="../../#l16050">Unit::ProcDamageAndSpellFor()</a>.</p>
-
-</div>
-</div>
-<a id="ad51bed43268eefcceebdda05d85c6a61" name="ad51bed43268eefcceebdda05d85c6a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad51bed43268eefcceebdda05d85c6a61">&#9670;&#160;</a></span>isTriggerAura</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isTriggerAura[<a class="el" href="../../de/db6/a02792.html#a538cdc259460b365f406fe0b3a981799a2c54cb231c2a5249712731d819736186">TOTAL_AURAS</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l15856">InitTriggerAuraData()</a>, and <a class="el" href="../../#l16050">Unit::ProcDamageAndSpellFor()</a>.</p>
-
-</div>
-</div>
-<a id="afef08589b9944f10d66bdc1de74d0270" name="afef08589b9944f10d66bdc1de74d0270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afef08589b9944f10d66bdc1de74d0270">&#9670;&#160;</a></span>playerBaseMoveSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float playerBaseMoveSpeed[<a class="el" href="../../dd/d44/a04097.html#a7a47517140439714c5cf548d456720e7">MAX_MOVE_TYPE</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    2.5f,                  </div>
-<div class="line">    7.0f,                  </div>
-<div class="line">    4.5f,                  </div>
-<div class="line">    4.722222f,             </div>
-<div class="line">    2.5f,                  </div>
-<div class="line">    3.141594f,             </div>
-<div class="line">    7.0f,                  </div>
-<div class="line">    4.5f,                  </div>
-<div class="line">    3.14f                  </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l14419">Unit::GetSpeed()</a>, <a class="el" href="../../#l00414">World::LoadConfigSettings()</a>, and <a class="el" href="../../#l14245">Unit::UpdateSpeed()</a>.</p>
-
-</div>
-</div>
-<a id="a11410c456e972de7cfb44bbe17709cc4" name="a11410c456e972de7cfb44bbe17709cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11410c456e972de7cfb44bbe17709cc4">&#9670;&#160;</a></span>procPrepared</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool procPrepared = <a class="el" href="../../d7/d47/a04109.html#a70fb722e03fe637ce7c9979a00725a3c">InitTriggerAuraData</a>()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
@@ -778,8 +204,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_ac8643af82ea53313fd6af4324ac5b57.html">Unit</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04109.html">Unit.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04109.html">WorldSession.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

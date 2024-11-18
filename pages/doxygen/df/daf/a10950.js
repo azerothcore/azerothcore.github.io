@@ -1,7 +1,7 @@
 var a10950 =
 [
-    [ "EffectNameCheck", "df/daf/a10950.html#aa82307388bdda7864bb085a349b63f29", null ],
-    [ "Check", "df/daf/a10950.html#a729d7f07669dedec50f009a87b8f32a4", null ],
-    [ "ToString", "df/daf/a10950.html#a31e545b0ae22cad4be815ea9e3b44377", null ],
-    [ "effName", "df/daf/a10950.html#a905224fb028ea0eab350773b7230f871", null ]
+    [ "CategoryRecoveryTime", "df/daf/a10950.html#a5a089aa55b5db1f3e3d3fa0ff61bbfdd", null ],
+    [ "RecoveryTime", "df/daf/a10950.html#ac0e514cfe760baf23f4f05d871e6779a", null ],
+    [ "StartRecoveryCategory", "df/daf/a10950.html#abb7ca704f04612ddcec3e2e52470ca77", null ],
+    [ "StartRecoveryTime", "df/daf/a10950.html#a3155069a4ef8d87d4c952f92df2ec42d", null ]
 ];

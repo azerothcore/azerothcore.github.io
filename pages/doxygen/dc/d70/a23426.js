@@ -1,31 +1,4 @@
 var a23426 =
 [
-    [ "boss_alar", "dc/d70/a23426.html#a3a0c52aaa44815c0b4c78141e1d7be5f", null ],
-    [ "CanAIAttack", "dc/d70/a23426.html#adfa5dd06261cff2201a99043be95baa2", null ],
-    [ "ConstructWaypointsAndMove", "dc/d70/a23426.html#a396c1d242c48aa4dd087bb70a70c2067", null ],
-    [ "DamageTaken", "dc/d70/a23426.html#a375461b652bac7901f9a7bbb3dfb79a9", null ],
-    [ "DeterminePhoenixPosition", "dc/d70/a23426.html#a9216a80c34fddef60d5c8756e2b5b102", null ],
-    [ "DoDiveBomb", "dc/d70/a23426.html#ab9ab68c028fa59bfe044edd4ec171dc8", null ],
-    [ "EnterEvadeMode", "dc/d70/a23426.html#a1710a571622d1a6cbdb58f3ba72082c5", null ],
-    [ "JustDied", "dc/d70/a23426.html#ae27503b326dedc84c098530c333c5dc2", null ],
-    [ "JustEngagedWith", "dc/d70/a23426.html#affbdaf839eeaa4d64da8846021a43251", null ],
-    [ "JustReachedHome", "dc/d70/a23426.html#ab4b872bc9d4625fdaf7633a9c1f2bfa6", null ],
-    [ "MoveInLineOfSight", "dc/d70/a23426.html#a35ebd55fb16705ba48d9e070c3f7fd2a", null ],
-    [ "MovementInform", "dc/d70/a23426.html#aa53951ef1e41fc7009c5bc53470095de", null ],
-    [ "PretendToDie", "dc/d70/a23426.html#afe7aaa89391c07332b65f2194b70b911", null ],
-    [ "Reset", "dc/d70/a23426.html#a87eb5de70e5cc72f68f11be07fc3b8b3", null ],
-    [ "ScheduleAbilities", "dc/d70/a23426.html#ad4f2f3adfc6a5e2d6cda55026578a43f", null ],
-    [ "ScheduleMainSpellAttack", "dc/d70/a23426.html#aa769636777d2fbaef9b0ffdc057fa3d4", null ],
-    [ "SpawnPhoenixes", "dc/d70/a23426.html#aa2e0377eb03bb5bdcc773ea6639625b6", null ],
-    [ "UpdateAI", "dc/d70/a23426.html#ab98174e8a60a6a5cf530da7337580236", null ],
-    [ "_baseAttackOverride", "dc/d70/a23426.html#aa6d22f66e285a61fb4f1f945674aef53", null ],
-    [ "_canAttackCooldown", "dc/d70/a23426.html#a27139d6b972461f65e36b4de8ebb2bb5", null ],
-    [ "_hasPretendedToDie", "dc/d70/a23426.html#a5572ff0dd993688567928aef1658025f", null ],
-    [ "_noMelee", "dc/d70/a23426.html#a3df7bd5529d8aa7a5225d40a6ad54808", null ],
-    [ "_noQuillTimes", "dc/d70/a23426.html#aad585c013fd3a9a87ddb0ae94ca41d45", null ],
-    [ "_platform", "dc/d70/a23426.html#ad1fc822893a83e1553d997f9eefbd06c", null ],
-    [ "_platformMoveRepeatTimer", "dc/d70/a23426.html#aea4384c38ec37ffd5b3353b35248ed41", null ],
-    [ "_platformRoll", "dc/d70/a23426.html#aad92b4171c7e76781a72bac1ca7b257b", null ],
-    [ "_spawnPhoenixes", "dc/d70/a23426.html#ab3e2e227822dd11e2530cd900c065b18", null ],
-    [ "_transitionScheduler", "dc/d70/a23426.html#a6528ce377b6a3d1b89ae2d85646305e9", null ]
+    [ "instance_the_botanica_InstanceMapScript", "dc/d70/a23426.html#a86c5e55fe8f7e40d041abbcdb2d23797", null ]
 ];

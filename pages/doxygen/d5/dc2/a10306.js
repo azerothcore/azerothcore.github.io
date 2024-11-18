@@ -1,7 +1,8 @@
 var a10306 =
 [
-    [ "GuildInvite", "d5/dc2/a10306.html#a7b5ef96e9a9d4c6665b280bb844b6d54", null ],
-    [ "Write", "d5/dc2/a10306.html#a4ed1c240a53fa6268eb07b3c77d68757", null ],
-    [ "GuildName", "d5/dc2/a10306.html#ac3ae572bb65d5ea156151e5fc7abf5b8", null ],
-    [ "InviterName", "d5/dc2/a10306.html#a8a91b3f9a94776da4b23c38220c6fc3d", null ]
+    [ "GuildCommandResult", "d5/dc2/a10306.html#a9b82d7f9fe8f9b42fb4ed74c14cba03d", null ],
+    [ "Write", "d5/dc2/a10306.html#a621e211342b3bf9b5de01a9a3b66291b", null ],
+    [ "Command", "d5/dc2/a10306.html#a099cf9f39c403f76971d006245b03f29", null ],
+    [ "Name", "d5/dc2/a10306.html#a122ee78cb5fc38aa7ecd7a2cad8a33cc", null ],
+    [ "Result", "d5/dc2/a10306.html#a8b6b2127aa39807a61bf0cc3cce15921", null ]
 ];

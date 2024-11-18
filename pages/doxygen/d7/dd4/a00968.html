@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/instance_ruby_sanctum.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,139 +106,48 @@ $(document).ready(function(){initNavTree('d7/dd4/a00968.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_ruby_sanctum.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">instance_ragefire_chasm.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ruby_sanctum.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d09/a15794.html">instance_ruby_sanctum</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d89/a14506.html">instance_ragefire_chasm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/a15798.html">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db8/a15802.html">spell_ruby_sanctum_rallying_shout</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d56/a14510.html">instance_ragefire_chasm::instance_ragefire_chasm_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a93f8126d2e36ad7caab980f1c3f83a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00968.html#a93f8126d2e36ad7caab980f1c3f83a14">AddSC_instance_ruby_sanctum</a> ()</td></tr>
-<tr class="separator:a93f8126d2e36ad7caab980f1c3f83a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00968.html#aa75d7d0ffe0cef214f982966c33db1c1">boundaries</a></td></tr>
-<tr class="separator:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00968.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
-<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0e54ffe3a81b932d5ce1977698f5ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00968.html#ace0e54ffe3a81b932d5ce1977698f5ac">AddSC_instance_ragefire_chasm</a> ()</td></tr>
+<tr class="separator:ace0e54ffe3a81b932d5ce1977698f5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a93f8126d2e36ad7caab980f1c3f83a14" name="a93f8126d2e36ad7caab980f1c3f83a14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93f8126d2e36ad7caab980f1c3f83a14">&#9670;&#160;</a></span>AddSC_instance_ruby_sanctum()</h2>
+<a id="ace0e54ffe3a81b932d5ce1977698f5ac" name="ace0e54ffe3a81b932d5ce1977698f5ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0e54ffe3a81b932d5ce1977698f5ac">&#9670;&#160;</a></span>AddSC_instance_ragefire_chasm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_ruby_sanctum </td>
+          <td class="memname">void AddSC_instance_ragefire_chasm </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  275</span>{</div>
-<div class="line"><span class="lineno">  276</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d09/a15794.html">instance_ruby_sanctum</a>();</div>
-<div class="line"><span class="lineno">  277</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/db8/a15802.html">spell_ruby_sanctum_rallying_shout</a>);</div>
-<div class="line"><span class="lineno">  278</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa15794_html"><div class="ttname"><a href="../../d6/d09/a15794.html">instance_ruby_sanctum</a></div><div class="ttdef"><b>Definition:</b> instance_ruby_sanctum.cpp:49</div></div>
-<div class="ttc" id="aa15802_html"><div class="ttname"><a href="../../d2/db8/a15802.html">spell_ruby_sanctum_rallying_shout</a></div><div class="ttdef"><b>Definition:</b> instance_ruby_sanctum.cpp:249</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d89/a14506.html">instance_ragefire_chasm</a>();</div>
+<div class="line"><span class="lineno">   40</span>}</div>
+<div class="ttc" id="aa14506_html"><div class="ttname"><a href="../../d1/d89/a14506.html">instance_ragefire_chasm</a></div><div class="ttdef"><b>Definition:</b> instance_ragefire_chasm.cpp:22</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aa75d7d0ffe0cef214f982966c33db1c1" name="aa75d7d0ffe0cef214f982966c33db1c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75d7d0ffe0cef214f982966c33db1c1">&#9670;&#160;</a></span>boundaries</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const boundaries</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../de/d4c/a09442.html">EllipseBoundary</a>(<a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(3013.409f, 529.492f), 45.0, 100.0) },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../da/dc5/a09438.html">CircleBoundary</a>(<a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(3156.037f, 533.2656f), 48.5) }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a></div><div class="ttdeci">@ DATA_GENERAL_ZARITHRIAN</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:31</div></div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a></div><div class="ttdeci">@ DATA_HALION</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:36</div></div>
-<div class="ttc" id="aa08202_html"><div class="ttname"><a href="../../d6/d03/a08202.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:27</div></div>
-<div class="ttc" id="aa09438_html"><div class="ttname"><a href="../../da/dc5/a09438.html">CircleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:89</div></div>
-<div class="ttc" id="aa09442_html"><div class="ttname"><a href="../../de/d4c/a09442.html">EllipseBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:103</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00055">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript::instance_ruby_sanctum_InstanceMapScript()</a>.</p>
-
-</div>
-</div>
-<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const doorData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9">GO_FIRE_FIELD</a>,     <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1">DATA_SAVIANA_RAGEFIRE</a>,      <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a>,    <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a3a9885821005f6d88e3db97307bf2546">DATA_GENERAL_ZARITHRIAN</a>,    <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>,   },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d">GO_BURNING_TREE_4</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a>,         <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1">GO_BURNING_TREE_3</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a>,         <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f">GO_BURNING_TREE_2</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a>,         <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1">GO_BURNING_TREE_1</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a>,         <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    {<a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8">GO_TWILIGHT_FLAME_RING</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22ae3739de22f2f6a162925d331b0ee2cda">DATA_HALION</a>,           <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
-<div class="line">    {0,                 0,                          <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
-<div class="line">}</div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea41b5772c7489cd9f745e7cdac5035bc9">GO_FIRE_FIELD</a></div><div class="ttdeci">@ GO_FIRE_FIELD</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:88</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea427400c1c8099ae1e2bf8022dbf0a19f">GO_BURNING_TREE_2</a></div><div class="ttdeci">@ GO_BURNING_TREE_2</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:93</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea43d94d174a0f277385bd547e8699bcd8">GO_TWILIGHT_FLAME_RING</a></div><div class="ttdeci">@ GO_TWILIGHT_FLAME_RING</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:91</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ea850d75427f6f9a02a4dabaa4008782b1">GO_BURNING_TREE_1</a></div><div class="ttdeci">@ GO_BURNING_TREE_1</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:92</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eaa7ba6d8894a1a818799937d6862a46c1">GO_BURNING_TREE_3</a></div><div class="ttdeci">@ GO_BURNING_TREE_3</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:94</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909ead8059fa6f75c76d0f2d7bfc31ce0047d">GO_BURNING_TREE_4</a></div><div class="ttdeci">@ GO_BURNING_TREE_4</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:95</div></div>
-<div class="ttc" id="aa00965_html_af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5"><div class="ttname"><a href="../../d3/dcd/a00965.html#af7a9ac7973846c078e2e9f7c9e3e909eae916a2187053d174552a7767836952d5">GO_FLAME_WALLS</a></div><div class="ttdeci">@ GO_FLAME_WALLS</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:89</div></div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a6257cbf35366317ba330456035924b1b">DATA_HALION_INTRO1</a></div><div class="ttdeci">@ DATA_HALION_INTRO1</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:33</div></div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a73af65aac870648e8d98bf75fbb83ca1">DATA_SAVIANA_RAGEFIRE</a></div><div class="ttdeci">@ DATA_SAVIANA_RAGEFIRE</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:32</div></div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22a9cbc16b4e0cff5f25ff8d689ad5c8e0a">DATA_HALION_INTRO2</a></div><div class="ttdeci">@ DATA_HALION_INTRO2</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:34</div></div>
-<div class="ttc" id="aa00965_html_afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862"><div class="ttname"><a href="../../d3/dcd/a00965.html#afb6eb4f28419b652027fad41104a6d22aedb8581c8f2aa3050d286e10e402f862">DATA_BALTHARUS_THE_WARBORN</a></div><div class="ttdeci">@ DATA_BALTHARUS_THE_WARBORN</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:30</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00055">instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript::instance_ruby_sanctum_InstanceMapScript()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
 
 </div>
 </div>
@@ -247,8 +156,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_719d04167aa7ea3db3432ca0946ea1bc.html">ChamberOfAspects</a></li><li class="navelem"><a class="el" href="../../dir_23d74cf01fe3f1f57e5987f77f0efe4c.html">RubySanctum</a></li><li class="navelem"><a class="el" href="../../d7/dd4/a00968.html">instance_ruby_sanctum.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_21848b791f33e40a23e6d092548069d2.html">RagefireChasm</a></li><li class="navelem"><a class="el" href="../../d7/dd4/a00968.html">instance_ragefire_chasm.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:59 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

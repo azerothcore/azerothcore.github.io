@@ -1,10 +1,7 @@
 var a12086 =
 [
-    [ "boss_golemaggAI", "dc/d83/a12086.html#a79e2416a55a1531316d891ebff4e5575", null ],
-    [ "DamageTaken", "dc/d83/a12086.html#a5f9191609c7ff0715ba186f8ae28262b", null ],
-    [ "Reset", "dc/d83/a12086.html#aeed4cda9fae3e0b46832ec1bfecb97b0", null ],
-    [ "UpdateAI", "dc/d83/a12086.html#af7b322731241dbb08041a92cd355f273", null ],
-    [ "earthquakeTimer", "dc/d83/a12086.html#a6bfd75b1d57d8002cab075bbd5a12612", null ],
-    [ "enraged", "dc/d83/a12086.html#a52e6d8bcf979d216aff536e8fae3bf01", null ],
-    [ "pyroblastTimer", "dc/d83/a12086.html#a142ededff85d517c08744bdafd644c34", null ]
+    [ "HandlePeriodic", "dc/d83/a12086.html#a758b588fb02e9cdf2544dd52ceee1055", null ],
+    [ "PrepareAuraScript", "dc/d83/a12086.html#aae9d31049889eea5c5f09dd5437de950", null ],
+    [ "Register", "dc/d83/a12086.html#a5de6428e3359c4498f5630f85ae3fcc8", null ],
+    [ "Validate", "dc/d83/a12086.html#a462b882e41932f99e3501f32368cf4de", null ]
 ];

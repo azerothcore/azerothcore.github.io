@@ -1,8 +1,8 @@
 var a22694 =
 [
-    [ "CalcPeriodic", "db/da7/a22694.html#aad87c25b9b3255a4871bec39d9787299", null ],
-    [ "PrepareAuraScript", "db/da7/a22694.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
-    [ "Register", "db/da7/a22694.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
-    [ "Update", "db/da7/a22694.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
-    [ "Validate", "db/da7/a22694.html#ae4f7bfb1cd95666acada217173876352", null ]
+    [ "instance_black_temple_InstanceMapScript", "db/da7/a22694.html#aa59f4d11ca1418bb3df3a7d5b11795b9", null ],
+    [ "OnCreatureCreate", "db/da7/a22694.html#a814ac33238558b4e2a2ff57e6039d4fc", null ],
+    [ "OnGameObjectCreate", "db/da7/a22694.html#a564a49814ceb3b3161a6476335ab653a", null ],
+    [ "SetBossState", "db/da7/a22694.html#aadcbe48888eba0d0ed50eb9811ce40b0", null ],
+    [ "ashtongueGUIDs", "db/da7/a22694.html#a85fa9c5231f13529a0741b0f92266c90", null ]
 ];

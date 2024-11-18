@@ -1,10 +1,18 @@
 var a09966 =
 [
-    [ "ArenaTeamScript", "df/d5b/a09966.html#ab86543c6ce76ff21e4306c799b99c896", null ],
-    [ "IsDatabaseBound", "df/d5b/a09966.html#a4d30f94084ae63eadd952c05b13f3ff4", null ],
-    [ "OnGetArenaPoints", "df/d5b/a09966.html#aa4b2d40921443cefee2775da6ca31b3e", null ],
-    [ "OnGetSlotByType", "df/d5b/a09966.html#a1ff67b327073bb8ebf10e7fddce92835", null ],
-    [ "OnQueueIdToArenaType", "df/d5b/a09966.html#a2a26e8c87c5fa7e85eb2f0517ced29e8", null ],
-    [ "OnSetArenaMaxPlayersPerTeam", "df/d5b/a09966.html#a776548946a09dcb3e76bd97f3c425e7f", null ],
-    [ "OnTypeIDToQueueID", "df/d5b/a09966.html#abcdd905b695f926e503db610d80ada3c", null ]
+    [ "AllSpellScript", "df/d5b/a09966.html#a95e37ac5e1e253fb6d759103ec55ac7a", null ],
+    [ "CanModAuraEffectDamageDone", "df/d5b/a09966.html#a95cc4310fb4bc275c7f467a4d71d790c", null ],
+    [ "CanModAuraEffectModDamagePercentDone", "df/d5b/a09966.html#a05230c0a96e7096b64f1bb03acedb337", null ],
+    [ "CanPrepare", "df/d5b/a09966.html#aeb2d438fdd7ca823ce670a94941bafff", null ],
+    [ "CanScalingEverything", "df/d5b/a09966.html#a026842dcd2d8c0e0c3f99718b04e86b0", null ],
+    [ "CanSelectSpecTalent", "df/d5b/a09966.html#a3cf7b45d8e9f5b23e2753d1624c4af78", null ],
+    [ "IsDatabaseBound", "df/d5b/a09966.html#a0854a57b62e310575a3e5cd8d35e8532", null ],
+    [ "OnBeforeAuraRankForLevel", "df/d5b/a09966.html#ae5a4590e4fb49d4cfe73c5ce307773ca", null ],
+    [ "OnCalcMaxDuration", "df/d5b/a09966.html#a5d02de785a4e1cf5103110828fac5e75", null ],
+    [ "OnDummyEffect", "df/d5b/a09966.html#a54e0b823c538c41507c541db025d5295", null ],
+    [ "OnDummyEffect", "df/d5b/a09966.html#a36061e5bcec2ef4dea35d1b5c9e703b4", null ],
+    [ "OnDummyEffect", "df/d5b/a09966.html#afe06aa2578b89fbc5ed5784aed38912a", null ],
+    [ "OnRemoveAuraScaleTargets", "df/d5b/a09966.html#aa055f00fe76ba2768f97e23ecf379a18", null ],
+    [ "OnScaleAuraUnitAdd", "df/d5b/a09966.html#abf3758ff33e5be1492ed4e45979a7a8d", null ],
+    [ "OnSpellCheckCast", "df/d5b/a09966.html#aae718678bb7d9a7ed1e0cbbc59db3049", null ]
 ];

@@ -1,7 +1,6 @@
 var a18194 =
 [
-    [ "npc_frost_freeze_trapAI", "d9/d4b/a18194.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d9/d4b/a18194.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d9/d4b/a18194.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d9/d4b/a18194.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "npc_rotting_frost_giantAI", "dc/d56/a18198.html", "dc/d56/a18198" ],
+    [ "npc_rotting_frost_giant", "d9/d4b/a18194.html#ad4440216e11a00d97af43dc5f3957e95", null ],
+    [ "GetAI", "d9/d4b/a18194.html#aabc388b3690f2d03e903c7f480d52842", null ]
 ];

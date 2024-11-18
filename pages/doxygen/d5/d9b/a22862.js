@@ -1,5 +1,6 @@
 var a22862 =
 [
-    [ "go_strange_pool", "d5/d9b/a22862.html#aa44feb353ad1cb440e5b6707112af680", null ],
-    [ "OnGossipHello", "d5/d9b/a22862.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
+    [ "OnPeriodic", "d5/d9b/a22862.html#adfd5a3a6d9c16cd6acdb1f24e7874f20", null ],
+    [ "PrepareAuraScript", "d5/d9b/a22862.html#a8444053fa146a4163ea905634be78dfc", null ],
+    [ "Register", "d5/d9b/a22862.html#aad8868dc3d00fd3ea648abe7b536970d", null ]
 ];

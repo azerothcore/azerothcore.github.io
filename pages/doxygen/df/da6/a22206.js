@@ -1,6 +1,5 @@
 var a22206 =
 [
-    [ "a", "df/da6/a22206.html#af01321c0fa24acf26086f7dccb326640", null ],
-    [ "h", "df/da6/a22206.html#a0b9b712fc851286077ee5bbd8136a413", null ],
-    [ "n", "df/da6/a22206.html#aad82b0a6ff47c6997a6b8d5492748b63", null ]
+    [ "OutdoorPvP_silithus", "df/da6/a22206.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
+    [ "GetOutdoorPvP", "df/da6/a22206.html#a126d6acc77218addd10072199ccd2470", null ]
 ];

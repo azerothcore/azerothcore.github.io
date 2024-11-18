@@ -1,16 +1,7 @@
 var a23310 =
 [
-    [ "boss_warchief_kargath_bladefist", "de/d5b/a23310.html#a0957dbfd6c085575fa862f38c87b6b3d", null ],
-    [ "InitializeAI", "de/d5b/a23310.html#a86d9b5b1500960235e76ae71337a6c90", null ],
-    [ "IsInRoom", "de/d5b/a23310.html#af9d4bd9d94115a1040e1e4a4dbf8df83", null ],
-    [ "JustDied", "de/d5b/a23310.html#a436b90336c90f6662f3ce704a62f0d90", null ],
-    [ "JustEngagedWith", "de/d5b/a23310.html#ab3d7b0ebca4f8134e5c2f31422ff006b", null ],
-    [ "JustSummoned", "de/d5b/a23310.html#aaa69f064d7eb3a0d107c835c806fa1de", null ],
-    [ "KilledUnit", "de/d5b/a23310.html#a730bbd2f95a2919fba1a7300b4307b84", null ],
-    [ "MovementInform", "de/d5b/a23310.html#a716eab9bda2b697252dde90aa513d7df", null ],
-    [ "Reset", "de/d5b/a23310.html#a50fa7a5aed8d3f4916f0449c4fb075ac", null ],
-    [ "RespawnAssassins", "de/d5b/a23310.html#a1397317259589ea69f77f52f60852043", null ],
-    [ "SummonedCreatureDies", "de/d5b/a23310.html#a325da34f78d202708a58c1a543ecb8ca", null ],
-    [ "UpdateAI", "de/d5b/a23310.html#acd463cac8e2fa8289ecb5567709db678", null ],
-    [ "_danceCount", "de/d5b/a23310.html#af4a60caaef6388caff973295e3397a7d", null ]
+    [ "FilterTargets", "de/d5b/a23310.html#a834163302ff10875227806d7d4945988", null ],
+    [ "HandleScriptEffect", "de/d5b/a23310.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
+    [ "PrepareSpellScript", "de/d5b/a23310.html#a079e72d57550e03956088b4be1d11422", null ],
+    [ "Register", "de/d5b/a23310.html#abd4e0f268652652d3828ba8d350de849", null ]
 ];

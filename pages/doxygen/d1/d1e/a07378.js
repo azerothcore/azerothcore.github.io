@@ -1,7 +1,8 @@
 var a07378 =
 [
-    [ "V", "d1/d1e/a07378.html#aab662b1ba92ab8eb76558f97191142cc", null ],
-    [ "TryAtIndex", "d1/d1e/a07378.html#aeff1865d7499b0b112cc39c44fd07112", null ],
-    [ "TryConsume", "d1/d1e/a07378.html#ae2a889829917ed0dd76194194efc9b13", null ],
-    [ "N", "d1/d1e/a07378.html#aa2c2048ce2e64b2398eeea3f0d789245", null ]
+    [ "SearchMap", "d1/d1e/a07378.html#a21bc680abec11928000923003bbad93f", null ],
+    [ "MakeSearchMap", "d1/d1e/a07378.html#a8dc3337ff2ed1427fa9efdf35e458d7d", null ],
+    [ "Match", "d1/d1e/a07378.html#a9f447ee626e80d616c304a4d07f25987", null ],
+    [ "TryConsume", "d1/d1e/a07378.html#ac5bc3cde0205d8a1b200989cf6eb09cb", null ],
+    [ "_map", "d1/d1e/a07378.html#a97e69e0044967ebb5369bfa0f46bd7bf", null ]
 ];

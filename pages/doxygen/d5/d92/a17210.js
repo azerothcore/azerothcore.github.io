@@ -1,6 +1,8 @@
 var a17210 =
 [
-    [ "npc_gunship_rocketeerAI", "d2/d39/a17214.html", "d2/d39/a17214" ],
-    [ "npc_gunship_rocketeer", "d5/d92/a17210.html#a7ed2cf258269f239bb73f2f06411db07", null ],
-    [ "GetAI", "d5/d92/a17210.html#a4f9c1b09e9e5b9dd337fe9210ab7038c", null ]
+    [ "npc_gunship_mageAI", "d5/d92/a17210.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
+    [ "AttackStart", "d5/d92/a17210.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
+    [ "CanAIAttack", "d5/d92/a17210.html#aadcb217a9df96bee02287d75a23e32c2", null ],
+    [ "MovementInform", "d5/d92/a17210.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
+    [ "UpdateAI", "d5/d92/a17210.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
 ];

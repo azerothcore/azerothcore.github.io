@@ -1,8 +1,6 @@
 var a16090 =
 [
-    [ "npc_toc_pet_warlockAI", "d0/d0c/a16090.html#a0f4128d5fd7a855f1fb2870465bc1ce7", null ],
-    [ "EnterEvadeMode", "d0/d0c/a16090.html#a62219f63e82fc67f63db2cbd713647a0", null ],
-    [ "myCanCast", "d0/d0c/a16090.html#a81607ebd90d8f511bb18b03ff497d9eb", null ],
-    [ "UpdateAI", "d0/d0c/a16090.html#a05a150e01f519675ac7b69d3c2a97ed4", null ],
-    [ "events", "d0/d0c/a16090.html#a8edadebd7e6660041233a24fb07173bf", null ]
+    [ "npc_toc_retro_paladinAI", "dc/ded/a16094.html", "dc/ded/a16094" ],
+    [ "npc_toc_retro_paladin", "d0/d0c/a16090.html#abfb15148aefe186447cfdb3a2c8749c4", null ],
+    [ "GetAI", "d0/d0c/a16090.html#a1213c99792aa4362275bc827aa2f037e", null ]
 ];

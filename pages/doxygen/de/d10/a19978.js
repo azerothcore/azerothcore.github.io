@@ -1,7 +1,10 @@
 var a19978 =
 [
-    [ "FilterTargetsInitial", "de/d10/a19978.html#a2477349cffb8da02936545ba0bd03d0f", null ],
-    [ "Load", "de/d10/a19978.html#a4606d10a2699e3fb5290cefdc0876505", null ],
-    [ "PrepareSpellScript", "de/d10/a19978.html#aa28f3565bddf70b98c945be7a7a37bad", null ],
-    [ "Register", "de/d10/a19978.html#ae9bbe2d4ce5413f040b8b5f73f985822", null ]
+    [ "boss_kologarn_eyebeamAI", "de/d10/a19978.html#add083b2a9067753458de1eeb6bdca4c0", null ],
+    [ "DamageDealt", "de/d10/a19978.html#a94a9181da10ffe737611cb281d60a952", null ],
+    [ "UpdateAI", "de/d10/a19978.html#add60a709a1edf1684bd21358769590b4", null ],
+    [ "_damaged", "de/d10/a19978.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
+    [ "_timer", "de/d10/a19978.html#a766ad3e10016d97235499d1512c4da27", null ],
+    [ "justSpawned", "de/d10/a19978.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
+    [ "m_pInstance", "de/d10/a19978.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
 ];

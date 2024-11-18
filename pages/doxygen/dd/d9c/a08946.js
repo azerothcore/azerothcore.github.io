@@ -1,10 +1,8 @@
 var a08946 =
 [
-    [ "PlayerListSearcherWithSharedVision", "dd/d9c/a08946.html#aace01efe09c3190b81651d237e2e9a8a", null ],
-    [ "Visit", "dd/d9c/a08946.html#a5348d9887ebfd9c0a0016b31d3db8ffb", null ],
-    [ "Visit", "dd/d9c/a08946.html#a34c24d8e219b8dbbdf27c1d36489f3fa", null ],
-    [ "Visit", "dd/d9c/a08946.html#ac45ae498dc7f74426b66344d9367046a", null ],
-    [ "i_check", "dd/d9c/a08946.html#a7261e79c2980cfb61686c01254d70c8b", null ],
-    [ "i_objects", "dd/d9c/a08946.html#ac8e5495912121d8d3baac9d02e947815", null ],
-    [ "i_phaseMask", "dd/d9c/a08946.html#a9bd8d6c842ac2f4cf1f10441216f906c", null ]
+    [ "CreatureListSearcher", "dd/d9c/a08946.html#a7b16bf9b7a847a08fa6582b81b607e20", null ],
+    [ "Visit", "dd/d9c/a08946.html#a48c084b8fbcbf7db7c051d1aa2aff523", null ],
+    [ "Visit", "dd/d9c/a08946.html#a91fcbdcfb08964ebaacec8acae13476b", null ],
+    [ "i_check", "dd/d9c/a08946.html#a985d622243d5c7c6c91eb01377b0f91b", null ],
+    [ "i_phaseMask", "dd/d9c/a08946.html#a10e4e1fb5749d2b1065dd6a1245783d0", null ]
 ];

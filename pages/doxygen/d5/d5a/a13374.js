@@ -1,6 +1,6 @@
 var a13374 =
 [
-    [ "npc_lady_sylvanas_windrunner_bfuAI", "d3/ddc/a13378.html", "d3/ddc/a13378" ],
-    [ "npc_lady_sylvanas_windrunner_bfu", "d5/d5a/a13374.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
-    [ "GetAI", "d5/d5a/a13374.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
+    [ "boss_blight_wormAI", "d3/ddc/a13378.html", "d3/ddc/a13378" ],
+    [ "boss_blight_worm", "d5/d5a/a13374.html#a6dea51baebc6b44ef94342565136e56d", null ],
+    [ "GetAI", "d5/d5a/a13374.html#a1cb9043482e9b3c3eff3fd75057a2fb2", null ]
 ];

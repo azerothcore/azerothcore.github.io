@@ -1,4 +1,5 @@
 var a03935 =
 [
-    [ "ZoneScript", "dc/df3/a09586.html", "dc/df3/a09586" ]
+    [ "FleeingMovementGenerator< T >", "d3/d01/a09690.html", "d3/d01/a09690" ],
+    [ "TimedFleeingMovementGenerator", "d5/d81/a09694.html", "d5/d81/a09694" ]
 ];

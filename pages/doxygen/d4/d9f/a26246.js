@@ -1,6 +1,6 @@
 var a26246 =
 [
-    [ "HandleAfterCast", "d4/d9f/a26246.html#a6f21938e84e45848fad74a16f1f52c48", null ],
-    [ "PrepareSpellScript", "d4/d9f/a26246.html#ac7abeee05c117595696faf1ec55e11bd", null ],
-    [ "Register", "d4/d9f/a26246.html#a9e90a6fa037627ac682f4ea050f557de", null ]
+    [ "CheckCast", "d4/d9f/a26246.html#a97f479cccecc6f37c75b47122b47e333", null ],
+    [ "PrepareSpellScript", "d4/d9f/a26246.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
+    [ "Register", "d4/d9f/a26246.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
 ];

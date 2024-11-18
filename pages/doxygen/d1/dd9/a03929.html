@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Maps/MapReference.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/RandomMovementGenerator.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,27 +105,113 @@ $(document).ready(function(){initNavTree('d1/dd9/a03929.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">MapReference.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">RandomMovementGenerator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Reference.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PathGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d53/a09542.html">MapReference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d85/a09738.html">RandomMovementGenerator&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac0f6eaac315a81192c2307dcbac20f70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a03929.html#ac0f6eaac315a81192c2307dcbac20f70">RANDOM_POINTS_NUMBER</a>&#160;&#160;&#160;12</td></tr>
+<tr class="separator:ac0f6eaac315a81192c2307dcbac20f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af447061c654f18b25537973f2739dad3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a03929.html#af447061c654f18b25537973f2739dad3">RANDOM_LINKS_COUNT</a>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:af447061c654f18b25537973f2739dad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e56933db548199999e1edb8e96836d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a03929.html#a85e56933db548199999e1edb8e96836d">MIN_WANDER_DISTANCE_GROUND</a>&#160;&#160;&#160;1.0f</td></tr>
+<tr class="separator:a85e56933db548199999e1edb8e96836d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b46c6e5a328cf46ead22b160a8a576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a03929.html#a81b46c6e5a328cf46ead22b160a8a576">MIN_WANDER_DISTANCE_AIR</a>&#160;&#160;&#160;10.0f</td></tr>
+<tr class="separator:a81b46c6e5a328cf46ead22b160a8a576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a03929.html#a6e563601030e3152f7023ecd4fa3f3c7">MAX_PATH_LENGHT_FACTOR</a>&#160;&#160;&#160;1.85f</td></tr>
+<tr class="separator:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a6e563601030e3152f7023ecd4fa3f3c7" name="a6e563601030e3152f7023ecd4fa3f3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e563601030e3152f7023ecd4fa3f3c7">&#9670;&#160;</a></span>MAX_PATH_LENGHT_FACTOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_PATH_LENGHT_FACTOR&#160;&#160;&#160;1.85f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81b46c6e5a328cf46ead22b160a8a576" name="a81b46c6e5a328cf46ead22b160a8a576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b46c6e5a328cf46ead22b160a8a576">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_AIR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN_WANDER_DISTANCE_AIR&#160;&#160;&#160;10.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85e56933db548199999e1edb8e96836d" name="a85e56933db548199999e1edb8e96836d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e56933db548199999e1edb8e96836d">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_GROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN_WANDER_DISTANCE_GROUND&#160;&#160;&#160;1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af447061c654f18b25537973f2739dad3" name="af447061c654f18b25537973f2739dad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af447061c654f18b25537973f2739dad3">&#9670;&#160;</a></span>RANDOM_LINKS_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RANDOM_LINKS_COUNT&#160;&#160;&#160;7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0f6eaac315a81192c2307dcbac20f70" name="ac0f6eaac315a81192c2307dcbac20f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f6eaac315a81192c2307dcbac20f70">&#9670;&#160;</a></span>RANDOM_POINTS_NUMBER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RANDOM_POINTS_NUMBER&#160;&#160;&#160;12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4ee90c1a7d0130816a1febdd934a8090.html">Maps</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a03929.html">MapReference.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a03929.html">RandomMovementGenerator.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

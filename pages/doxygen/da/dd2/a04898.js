@@ -1,9 +1,9 @@
 var a04898 =
 [
-    [ "MapRayCallback", "da/dd2/a04898.html#a1a4a654bc929dab5b5a2804c4b88389d", null ],
-    [ "didHit", "da/dd2/a04898.html#a9d9abb0a5ffff131d2c19e88c3c8b836", null ],
-    [ "operator()", "da/dd2/a04898.html#a0f218465b321da5f8289dfa815acbfd4", null ],
-    [ "flags", "da/dd2/a04898.html#a88d1e6d6fa43608bcee21a822488f061", null ],
-    [ "hit", "da/dd2/a04898.html#a6fc14ac7ae20effec9d2657a46b838fc", null ],
-    [ "prims", "da/dd2/a04898.html#a389d8ee31e0cb665bfd9084d786750c5", null ]
+    [ "ManagedModel", "da/dd2/a04898.html#ab641724be7e7791c2c95982acc13f3b0", null ],
+    [ "decRefCount", "da/dd2/a04898.html#a5a104acbc0661b19ba2a662dc669b73d", null ],
+    [ "getModel", "da/dd2/a04898.html#a053fc6647a16746fba19a0795610fea2", null ],
+    [ "setModel", "da/dd2/a04898.html#aa450ae6be22d507c36a746850629831d", null ],
+    [ "iModel", "da/dd2/a04898.html#a5e20d0157691bd6036247a83eea8d19b", null ],
+    [ "iRefCount", "da/dd2/a04898.html#afb30ad900a5979f98276324a1ab1c328", null ]
 ];

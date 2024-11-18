@@ -1,14 +1,17 @@
 var a22210 =
 [
-    [ "OPvPCapturePointTF", "d3/d7e/a22210.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
-    [ "ChangeState", "d3/d7e/a22210.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
-    [ "FillInitialWorldStates", "d3/d7e/a22210.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
-    [ "HandlePlayerEnter", "d3/d7e/a22210.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
-    [ "HandlePlayerLeave", "d3/d7e/a22210.html#ace20d19311478a136ae0b75016c36ea8", null ],
-    [ "ResetToTeamControlled", "d3/d7e/a22210.html#a7ad637f6a4005da3166601dafda52d1b", null ],
-    [ "SendChangePhase", "d3/d7e/a22210.html#a16efee78249e510e211b18694ea868f2", null ],
-    [ "Update", "d3/d7e/a22210.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
-    [ "UpdateTowerState", "d3/d7e/a22210.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
-    [ "m_TowerState", "d3/d7e/a22210.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
-    [ "m_TowerType", "d3/d7e/a22210.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
+    [ "OutdoorPvPSI", "d3/d7e/a22210.html#a89bf2d913b7d68ee921ef4b9aeea61e1", null ],
+    [ "FillInitialWorldStates", "d3/d7e/a22210.html#a0bf1688569e00431dcb128113b35d0f5", null ],
+    [ "HandleAreaTrigger", "d3/d7e/a22210.html#a7c6d70d7a611752456c55d13420ff840", null ],
+    [ "HandleCustomSpell", "d3/d7e/a22210.html#a10853a2f5766b6fc75044a20b281a198", null ],
+    [ "HandleDropFlag", "d3/d7e/a22210.html#a9238a5007253d84d66192bd340d8311a", null ],
+    [ "HandlePlayerEnterZone", "d3/d7e/a22210.html#ad2cabd461406a61e40411850b3d31c0c", null ],
+    [ "HandlePlayerLeaveZone", "d3/d7e/a22210.html#aa06088b1d80072577e6fc7653a214512", null ],
+    [ "SendRemoveWorldStates", "d3/d7e/a22210.html#aae7deda0662b28f6fc0e16115a65304b", null ],
+    [ "SetupOutdoorPvP", "d3/d7e/a22210.html#a401da5bef2350c4eb21b249b4f8b3e40", null ],
+    [ "Update", "d3/d7e/a22210.html#a56bda08a795a4b0cd1c52ec448920fac", null ],
+    [ "UpdateWorldState", "d3/d7e/a22210.html#a81f4362ece83f37f14471926e9a85fb3", null ],
+    [ "m_Gathered_A", "d3/d7e/a22210.html#ab532337ab7e66e1489221e3189e48bac", null ],
+    [ "m_Gathered_H", "d3/d7e/a22210.html#abcd36fe918edbbea387573bd5fab89e7", null ],
+    [ "m_LastController", "d3/d7e/a22210.html#a05c33cec2d0c1a9fe31cb3d9ba3f3c1c", null ]
 ];

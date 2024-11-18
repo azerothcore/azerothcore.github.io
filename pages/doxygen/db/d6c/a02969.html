@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/RandomMovementGenerator.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CreatureAI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,102 +105,129 @@ $(document).ready(function(){initNavTree('db/d6c/a02969.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">RandomMovementGenerator.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">CreatureAI.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PathGenerator.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AreaBoundary.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapReference.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ZoneScript.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0e/a09722.html">RandomMovementGenerator&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac0f6eaac315a81192c2307dcbac20f70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#ac0f6eaac315a81192c2307dcbac20f70">RANDOM_POINTS_NUMBER</a>&#160;&#160;&#160;12</td></tr>
-<tr class="separator:ac0f6eaac315a81192c2307dcbac20f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af447061c654f18b25537973f2739dad3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#af447061c654f18b25537973f2739dad3">RANDOM_LINKS_COUNT</a>&#160;&#160;&#160;7</td></tr>
-<tr class="separator:af447061c654f18b25537973f2739dad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e56933db548199999e1edb8e96836d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a85e56933db548199999e1edb8e96836d">MIN_WANDER_DISTANCE_GROUND</a>&#160;&#160;&#160;1.0f</td></tr>
-<tr class="separator:a85e56933db548199999e1edb8e96836d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81b46c6e5a328cf46ead22b160a8a576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a81b46c6e5a328cf46ead22b160a8a576">MIN_WANDER_DISTANCE_AIR</a>&#160;&#160;&#160;10.0f</td></tr>
-<tr class="separator:a81b46c6e5a328cf46ead22b160a8a576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a6e563601030e3152f7023ecd4fa3f3c7">MAX_PATH_LENGHT_FACTOR</a>&#160;&#160;&#160;1.85f</td></tr>
-<tr class="separator:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d6d/a06086.html">AISpellInfoType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a1ed41ad074263f6c0c63f38b7f51414b">GetAISpellInfo</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i)</td></tr>
+<tr class="separator:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a981f03ba3b8c59eb1fa9d22df158ba19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a981f03ba3b8c59eb1fa9d22df158ba19">IsValidCombatTarget</a> (<a class="el" href="../../d1/d66/a07770.html">Creature</a> *source, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *target)</td></tr>
+<tr class="separator:a981f03ba3b8c59eb1fa9d22df158ba19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6e563601030e3152f7023ecd4fa3f3c7" name="a6e563601030e3152f7023ecd4fa3f3c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e563601030e3152f7023ecd4fa3f3c7">&#9670;&#160;</a></span>MAX_PATH_LENGHT_FACTOR</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1ed41ad074263f6c0c63f38b7f51414b" name="a1ed41ad074263f6c0c63f38b7f51414b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed41ad074263f6c0c63f38b7f51414b">&#9670;&#160;</a></span>GetAISpellInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_PATH_LENGHT_FACTOR&#160;&#160;&#160;1.85f</td>
+          <td class="memname"><a class="el" href="../../d2/d6d/a06086.html">AISpellInfoType</a> * GetAISpellInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d9/de2/a06062.html#adaf99f0a5a2d4993e5408eec175f5e24">CreatureAI::AISpellInfo</a>[i]; }</div>
+<div class="ttc" id="aa06062_html_adaf99f0a5a2d4993e5408eec175f5e24"><div class="ttname"><a href="../../d9/de2/a06062.html#adaf99f0a5a2d4993e5408eec175f5e24">UnitAI::AISpellInfo</a></div><div class="ttdeci">static AISpellInfoType * AISpellInfo</div><div class="ttdef"><b>Definition:</b> UnitAI.h:407</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00407">UnitAI::AISpellInfo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00110">CasterAI::InitializeAI()</a>, <a class="el" href="../../#l00127">CasterAI::JustEngagedWith()</a>, and <a class="el" href="../../#l00151">CasterAI::UpdateAI()</a>.</p>
 
 </div>
 </div>
-<a id="a81b46c6e5a328cf46ead22b160a8a576" name="a81b46c6e5a328cf46ead22b160a8a576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81b46c6e5a328cf46ead22b160a8a576">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_AIR</h2>
+<a id="a981f03ba3b8c59eb1fa9d22df158ba19" name="a981f03ba3b8c59eb1fa9d22df158ba19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981f03ba3b8c59eb1fa9d22df158ba19">&#9670;&#160;</a></span>IsValidCombatTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">#define MIN_WANDER_DISTANCE_AIR&#160;&#160;&#160;10.0f</td>
+          <td class="memname">bool IsValidCombatTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d66/a07770.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a85e56933db548199999e1edb8e96836d" name="a85e56933db548199999e1edb8e96836d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e56933db548199999e1edb8e96836d">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_GROUND</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">#define MIN_WANDER_DISTANCE_GROUND&#160;&#160;&#160;1.0f</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af447061c654f18b25537973f2739dad3" name="af447061c654f18b25537973f2739dad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af447061c654f18b25537973f2739dad3">&#9670;&#160;</a></span>RANDOM_LINKS_COUNT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">#define RANDOM_LINKS_COUNT&#160;&#160;&#160;7</td>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d0/dc6/a08386.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
+<div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">if</span> (!source-&gt;<a class="code hl_function" href="../../df/d2d/a08142.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>() || !target-&gt;<a class="code hl_function" href="../../df/d2d/a08142.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">if</span> (!source-&gt;<a class="code hl_function" href="../../db/df9/a08518.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !target-&gt;<a class="code hl_function" href="../../db/df9/a08518.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (!source-&gt;<a class="code hl_function" href="../../d3/d4c/a08174.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(target))</div>
+<div class="line"><span class="lineno">   83</span>    {</div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   85</span>    }</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <span class="keywordflow">if</span> (source-&gt;<a class="code hl_function" href="../../db/df9/a08518.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>) || target-&gt;<a class="code hl_function" href="../../db/df9/a08518.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>))</div>
+<div class="line"><span class="lineno">   88</span>    {</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   93</span>}</div>
+<div class="ttc" id="aa03521_html_ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc"><div class="ttname"><a href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a></div><div class="ttdeci">@ UNIT_STATE_IN_FLIGHT</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:157</div></div>
+<div class="ttc" id="aa08142_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../df/d2d/a08142.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:104</div></div>
+<div class="ttc" id="aa08174_html_a9194d2edf982e08c6a17e2893d9969f9"><div class="ttname"><a href="../../d3/d4c/a08174.html#a9194d2edf982e08c6a17e2893d9969f9">WorldObject::InSamePhase</a></div><div class="ttdeci">bool InSamePhase(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.h:447</div></div>
+<div class="ttc" id="aa08386_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../d0/dc6/a08386.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1158</div></div>
+<div class="ttc" id="aa08518_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../db/df9/a08518.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1658</div></div>
+<div class="ttc" id="aa08518_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../db/df9/a08518.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:701</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00701">Unit::HasUnitState()</a>, <a class="el" href="../../#l00447">WorldObject::InSamePhase()</a>, <a class="el" href="../../#l01658">Unit::IsAlive()</a>, <a class="el" href="../../#l01158">Player::IsGameMaster()</a>, <a class="el" href="../../#l00104">Object::IsInWorld()</a>, and <a class="el" href="../../#l00157">UNIT_STATE_IN_FLIGHT</a>.</p>
 
-</div>
-</div>
-<a id="ac0f6eaac315a81192c2307dcbac20f70" name="ac0f6eaac315a81192c2307dcbac20f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0f6eaac315a81192c2307dcbac20f70">&#9670;&#160;</a></span>RANDOM_POINTS_NUMBER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RANDOM_POINTS_NUMBER&#160;&#160;&#160;12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00095">CreatureAI::DoZoneInCombat()</a>.</p>
 
 </div>
 </div>
@@ -209,8 +236,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../db/d6c/a02969.html">RandomMovementGenerator.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../db/d6c/a02969.html">CreatureAI.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

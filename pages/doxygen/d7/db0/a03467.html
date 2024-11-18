@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/World/World.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/ObjectGuid.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,223 +106,605 @@ $(document).ready(function(){initNavTree('d7/db0/a03467.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">World.h File Reference<div class="ingroups"><a class="el" href="../../db/d7c/a04669.html">The World</a></div></div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">ObjectGuid.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">IWorld.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LockedQueue.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
-<code>#include &lt;atomic&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;deque&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;list&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;unordered_set&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d17/a11254.html">PetitionData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a08182.html">ObjectGuidTraits&lt; high &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11258.html">World</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../d7/d4e/a11258.html" title="The World.">World</a>.  <a href="../../d7/d4e/a11258.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d41/a08186.html">PackedGuidReader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5b/a08194.html">PackedGuid</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d08/a08198.html">ObjectGuidGeneratorBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d03/a08202.html">ObjectGuidGenerator&lt; high &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de1/a08206.html">std::hash&lt; ObjectGuid &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d7/deb/a04732"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a04732.html">std</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga05dfb35c344e5b947a19e4284e7f5fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>&#160;&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ga6bf640d0ef6703c32d9fa1618826319b">getWorldInstance</a>()</td></tr>
-<tr class="separator:ga05dfb35c344e5b947a19e4284e7f5fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae616985e1e68f294e055e2bced156ada"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#ae616985e1e68f294e055e2bced156ada">NUM_CLIENT_OBJECT_TYPES</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:ae616985e1e68f294e055e2bced156ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3dbad84884c4977ba2be1ac82cc142"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a4d3dbad84884c4977ba2be1ac82cc142">GUID_TRAIT_GLOBAL</a>(highguid)</td></tr>
+<tr class="separator:a4d3dbad84884c4977ba2be1ac82cc142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd3815893762a2491365b8fd25c7283"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#acdd3815893762a2491365b8fd25c7283">GUID_TRAIT_MAP_SPECIFIC</a>(highguid)</td></tr>
+<tr class="separator:acdd3815893762a2491365b8fd25c7283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c846a04172e6d96c6096780b5d05b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#ac7c846a04172e6d96c6096780b5d05b0">PACKED_GUID_MIN_BUFFER_SIZE</a>&#160;&#160;&#160;9</td></tr>
+<tr class="separator:ac7c846a04172e6d96c6096780b5d05b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a62874da4f73709809fa3c7609d3e30af"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a></td></tr>
+<tr class="separator:a62874da4f73709809fa3c7609d3e30af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5951d383f157ff0ed6d23ecef2213a4b"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a5951d383f157ff0ed6d23ecef2213a4b">GuidList</a></td></tr>
+<tr class="separator:a5951d383f157ff0ed6d23ecef2213a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393d9824dfb17afe3b82652e89eccc68"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a393d9824dfb17afe3b82652e89eccc68">GuidDeque</a></td></tr>
+<tr class="separator:a393d9824dfb17afe3b82652e89eccc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173958393e55b3150391dfb3a6d387ed"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a173958393e55b3150391dfb3a6d387ed">GuidVector</a></td></tr>
+<tr class="separator:a173958393e55b3150391dfb3a6d387ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407d39fdbc20e1e06960539245ee6a25"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_set&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a></td></tr>
+<tr class="separator:a407d39fdbc20e1e06960539245ee6a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga11501f5782bd40fa2c7b56d7b12221e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga11501f5782bd40fa2c7b56d7b12221e2">ShutdownMask</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga11501f5782bd40fa2c7b56d7b12221e2a8198be8f6c6a5b3e7588ffd64a95312f">SHUTDOWN_MASK_RESTART</a> = 1
+<tr class="memitem:a183c40b2ba67065929d70b3987da4cc2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2">TypeID</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f">TYPEID_OBJECT</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga11501f5782bd40fa2c7b56d7b12221e2aecfb61fe30dad8b80bb93881cafe105d">SHUTDOWN_MASK_IDLE</a> = 2
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28">TYPEID_ITEM</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107">TYPEID_CONTAINER</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68">TYPEID_DYNAMICOBJECT</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f">TYPEID_CORPSE</a> = 7
 <br />
  }</td></tr>
-<tr class="separator:ga11501f5782bd40fa2c7b56d7b12221e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06d1e4f345fc9b7a45e5b1b9f1919efc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga06d1e4f345fc9b7a45e5b1b9f1919efc">ShutdownExitCode</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf18aae50edbb1083eb3b45656b52f999">SHUTDOWN_EXIT_CODE</a> = 0
+<tr class="separator:a183c40b2ba67065929d70b3987da4cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfe503ba26d8a881f16958aaafd431e1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1">TypeMask</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2">TYPEMASK_OBJECT</a> = 0x0001
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a> = 1
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d">TYPEMASK_ITEM</a> = 0x0002
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcabfbc19d06d002a2b3e03ff2e13c3fb61">RESTART_EXIT_CODE</a> = 2
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd">TYPEMASK_CONTAINER</a> = 0x0006
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de">TYPEMASK_UNIT</a> = 0x0008
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739">TYPEMASK_PLAYER</a> = 0x0010
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4">TYPEMASK_GAMEOBJECT</a> = 0x0020
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a> = 0x0040
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9">TYPEMASK_CORPSE</a> = 0x0080
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96">TYPEMASK_SEER</a> = TYPEMASK_PLAYER | TYPEMASK_UNIT | TYPEMASK_DYNAMICOBJECT
 <br />
  }</td></tr>
-<tr class="separator:ga06d1e4f345fc9b7a45e5b1b9f1919efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4dcd824b4592ac27595e16471efe0520"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga4dcd824b4592ac27595e16471efe0520">WorldTimers</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520ad4d5ef315ed70163b8c1603bbd422dcf">WUPDATE_AUCTIONS</a>
+<tr class="separator:acfe503ba26d8a881f16958aaafd431e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe8666ac87665ba963053cdd2b014750"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a7d74f3b92b19da5e606d737d339a9679">Item</a> = 0x4000
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520abb4b6bdb4b5ae3799d4f0ca456733cce">WUPDATE_WEATHERS</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> = 0x4000
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520aa7880547231a7f7d8798a527cf0aad9c">WUPDATE_UPTIME</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a636da1d35e805b00eae0fcd8333f9234">Player</a> = 0x0000
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a333f639c939c9e723150abb74ebcd206">WUPDATE_CORPSES</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a3d164a4fbbdd103bddb596268f741bae">GameObject</a> = 0xF110
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520ad21d0e0cae7555877c5805ce446e2628">WUPDATE_EVENTS</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750af5f0c488ed56cf789d19a13ffba8abe3">Transport</a> = 0xF120
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a26e7cf66fbcba5c52d1716b77262981f">WUPDATE_CLEANDB</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a19c562a36aeb455d09534f93b4f5236f">Unit</a> = 0xF130
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a8ed1fe2bb98e8e56fe8604d549af261d">WUPDATE_AUTOBROADCAST</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a7c986af4cf8f6e55a1f846dc498ce91d">Pet</a> = 0xF140
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a24504584cc49b4459dc084dd0af67e69">WUPDATE_MAILBOXQUEUE</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a> = 0xF150
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a4561c29a80e9042cfd1fb7c5ccde1c4a">WUPDATE_PINGDB</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a8e9e2acf3f592fab793f32c92fbf7bee">DynamicObject</a> = 0xF100
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a81759ebc68e35638c5d56ee97fb7afc0">WUPDATE_5_SECS</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a417799dc63b3ebb2852970ae4b5c0f4a">Corpse</a> = 0xF101
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520aa227ebddbdbccda039ebb8e732dcdb56">WUPDATE_WHO_LIST</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a">Mo_Transport</a> = 0x1FC0
 , <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga4dcd824b4592ac27595e16471efe0520a1c180839188a9324a906a5602833f604">WUPDATE_COUNT</a>
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2">Instance</a> = 0x1F40
+, <br />
+&#160;&#160;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a03937134cedab9078be39a77ee3a48a0">Group</a> = 0x1F50
 <br />
  }</td></tr>
-<tr class="memdesc:ga4dcd824b4592ac27595e16471efe0520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timers for different object refresh rates.  <a href="../../db/d7c/a04669.html#ga4dcd824b4592ac27595e16471efe0520">More...</a><br /></td></tr>
-<tr class="separator:ga4dcd824b4592ac27595e16471efe0520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac11f34aad352a3782f299b3978607d16"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#gac11f34aad352a3782f299b3978607d16">BillingPlanFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a0868dba320a07a5c9d31e968134dcfe6">SESSION_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a7c01173015d547564263c9c0cbbda246">SESSION_UNUSED</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a31aebb0359dbce580fa28fe86fbd67ae">SESSION_RECURRING_BILL</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a8cec6c9d7436da0c2f14369c954f1e5f">SESSION_FREE_TRIAL</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16ab5bf7f117aa8390fe1605e95192bbc6e">SESSION_IGR</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a2f71e12af483f593df7e23a3232fd3a8">SESSION_USAGE</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a19fb811c6132abdc3968a13c63eef2c1">SESSION_TIME_MIXTURE</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a63c4b8495ee7a07c4672f7ae0a4539cf">SESSION_RESTRICTED</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#ggac11f34aad352a3782f299b3978607d16a60b5937926d1517dc374a756f0e3eb13">SESSION_ENABLE_CAIS</a> = 0x80
-<br />
- }</td></tr>
-<tr class="memdesc:gac11f34aad352a3782f299b3978607d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used in SMSG_AUTH_RESPONSE packet.  <a href="../../db/d7c/a04669.html#gac11f34aad352a3782f299b3978607d16">More...</a><br /></td></tr>
-<tr class="separator:gac11f34aad352a3782f299b3978607d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga26aa1cb8ae0de12da27fef70a5b9c7ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga26aa1cb8ae0de12da27fef70a5b9c7ab">RealmZone</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba507b40d8e1860051d9bd9d2fcada3053">REALM_ZONE_UNKNOWN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae7a19f9c62c04561c69306240938c64e">REALM_ZONE_DEVELOPMENT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6832d41458638376fa102ad339beafd2">REALM_ZONE_UNITED_STATES</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4ac5df4b9eff2cf69d2312d1cf3174db">REALM_ZONE_OCEANIC</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba3b6507bcbebedb32e913002e218ff156">REALM_ZONE_LATIN_AMERICA</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba2f2f733f59cd3f944091a5ecbefba3a5">REALM_ZONE_TOURNAMENT_5</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4f8f0506d09c5079326b000d5d074611">REALM_ZONE_KOREA</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba177e3d98ca0a68108d04800fec4c5d86">REALM_ZONE_TOURNAMENT_7</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba81e54f655d7352ad0fb5f74b7a7af326">REALM_ZONE_ENGLISH</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafea27caf1483a582a7377c67b122334b">REALM_ZONE_GERMAN</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba86bbc26ecd3cbf3bb1d2337033394ed8">REALM_ZONE_FRENCH</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4a3d3718b458559db2843274259e9caf">REALM_ZONE_SPANISH</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae5bd48e696a93fdab8960b7a2880dd61">REALM_ZONE_RUSSIAN</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba835b38db59060e7ff994029348d14f52">REALM_ZONE_TOURNAMENT_13</a> = 13
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafcdb39c5842623895a4019df95d6dad8">REALM_ZONE_TAIWAN</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba600d0faad5b165a2d50d8a857c1caed7">REALM_ZONE_TOURNAMENT_15</a> = 15
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abac109484ffee5df2c967a65b4104d22e5">REALM_ZONE_CHINA</a> = 16
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaf10182037fac98effa36883691f4fc0e">REALM_ZONE_CN1</a> = 17
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba03d0c4dd430afeb66acc56c0a9c104aa">REALM_ZONE_CN2</a> = 18
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba9b933190ce59532ec60b42454d0fca87">REALM_ZONE_CN3</a> = 19
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba44c3162fd70316c504cd4e8068559a4e">REALM_ZONE_CN4</a> = 20
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaccb2f60b67efa38a5d8454df249db838">REALM_ZONE_CN5</a> = 21
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae4f84dfc27fee4e4426b8f35f010823f">REALM_ZONE_CN6</a> = 22
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abacd29849c85298b0eae1a1b38a9a80c51">REALM_ZONE_CN7</a> = 23
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba7a38c263a84023b9308f12797e3ff255">REALM_ZONE_CN8</a> = 24
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba47aaebf38c22faea919f15103ca564f8">REALM_ZONE_TOURNAMENT_25</a> = 25
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba09e6d6b40910f762c092171266a042cc">REALM_ZONE_TEST_SERVER</a> = 26
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abad36f14004bd6c21e49d12726e8c36f97">REALM_ZONE_TOURNAMENT_27</a> = 27
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba984d95c5dabcb241fc9e4888e6544417">REALM_ZONE_QA_SERVER</a> = 28
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba97fbf4c193a6fb9bf944a77365937a45">REALM_ZONE_CN9</a> = 29
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abab5eb75439f5e692fce74a91cec2c5692">REALM_ZONE_TEST_SERVER_2</a> = 30
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba9ca30377545fe1b8c0ba84485094f9c2">REALM_ZONE_CN10</a> = 31
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abad9087749f4814ca8998c10b585a6a64f">REALM_ZONE_CTC</a> = 32
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba614f2939bc31c0a396c2017c8baac109">REALM_ZONE_CNC</a> = 33
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba75686e8652a360819672f11c1497d588">REALM_ZONE_CN1_4</a> = 34
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6be2d3d4688a94934460fbfd97606f6b">REALM_ZONE_CN2_6_9</a> = 35
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaa870d541b02010203bcdaac275013fb8">REALM_ZONE_CN3_7</a> = 36
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba695f1e2830267d3aaf0ba4131608e5cd">REALM_ZONE_CN5_8</a> = 37
-<br />
- }</td></tr>
-<tr class="separator:ga26aa1cb8ae0de12da27fef70a5b9c7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0deead4ad87fa303c91e30781af1cd93"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga0deead4ad87fa303c91e30781af1cd93">WorldStates</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93a583c7e9ae718d5aebb9db1e682fc02bc">WS_ARENA_DISTRIBUTION_TIME</a> = 20001
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93a4bfd0eaff24d1c7f1247d9fc761b4e8a">WS_WEEKLY_QUEST_RESET_TIME</a> = 20002
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93a789d14f11911d399c3e2e2d123a98289">WS_BG_DAILY_RESET_TIME</a> = 20003
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4">WS_CLEANING_FLAGS</a> = 20004
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93ae9cb78cf537999744d260627dc4d98cf">WS_DAILY_QUEST_RESET_TIME</a> = 20005
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93a1e2bf09f0a410ad45952c8eb7efbea6f">WS_GUILD_DAILY_RESET_TIME</a> = 20006
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93ac975616eb2d458be13ff30130dab0b99">WS_MONTHLY_QUEST_RESET_TIME</a> = 20007
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga0deead4ad87fa303c91e30781af1cd93acd2bc0620e575fa7094a43d45a7cc708">WS_DAILY_CALENDAR_DELETION_OLD_EVENTS_TIME</a> = 20008
-<br />
- }</td></tr>
-<tr class="separator:ga0deead4ad87fa303c91e30781af1cd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:abe8666ac87665ba963053cdd2b014750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6bf640d0ef6703c32d9fa1618826319b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d8/df3/a11246.html">IWorld</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga6bf640d0ef6703c32d9fa1618826319b">getWorldInstance</a> ()</td></tr>
-<tr class="separator:ga6bf640d0ef6703c32d9fa1618826319b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:gab842e78f86995775c494437356620779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../db/d50/a28078.html">Realm</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#gab842e78f86995775c494437356620779">realm</a></td></tr>
-<tr class="separator:gab842e78f86995775c494437356620779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039758f4b57c94c411a4c3882334ada8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a039758f4b57c94c411a4c3882334ada8">operator&lt;&lt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid)</td></tr>
+<tr class="separator:a039758f4b57c94c411a4c3882334ada8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30aef535f2839648f0ae4648c746d3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a30aef535f2839648f0ae4648c746d3e2">operator&gt;&gt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &amp;guid)</td></tr>
+<tr class="separator:a30aef535f2839648f0ae4648c746d3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ab551ce00fd82dea1532d47ad908bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a94ab551ce00fd82dea1532d47ad908bc">operator&lt;&lt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d7/d5b/a08194.html">PackedGuid</a> const &amp;guid)</td></tr>
+<tr class="separator:a94ab551ce00fd82dea1532d47ad908bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f3a6eef334b9fcdcaca879532c25d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a03467.html#a95f3a6eef334b9fcdcaca879532c25d4">operator&gt;&gt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d1/d41/a08186.html">PackedGuidReader</a> const &amp;guid)</td></tr>
+<tr class="separator:a95f3a6eef334b9fcdcaca879532c25d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a4d3dbad84884c4977ba2be1ac82cc142" name="a4d3dbad84884c4977ba2be1ac82cc142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3dbad84884c4977ba2be1ac82cc142">&#9670;&#160;</a></span>GUID_TRAIT_GLOBAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GUID_TRAIT_GLOBAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">highguid</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span>&lt;&gt; <span class="keyword">struct </span><a class="code hl_struct" href="../../db/df3/a08182.html">ObjectGuidTraits</a>&lt;highguid&gt; \</div>
+<div class="line">    { \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">bool</span> <span class="keyword">const</span> <a class="code hl_variable" href="../../db/df3/a08182.html#a77d72711ba9384384f9fd789f778e8c8">Global</a> = <span class="keyword">true</span>; \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">bool</span> <span class="keyword">const</span> <a class="code hl_variable" href="../../db/df3/a08182.html#a42e5a0249b84d4e8175a4cb65480bbcf">MapSpecific</a> = <span class="keyword">false</span>; \</div>
+<div class="line">    };</div>
+<div class="ttc" id="aa08182_html"><div class="ttname"><a href="../../db/df3/a08182.html">ObjectGuidTraits</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:76</div></div>
+<div class="ttc" id="aa08182_html_a42e5a0249b84d4e8175a4cb65480bbcf"><div class="ttname"><a href="../../db/df3/a08182.html#a42e5a0249b84d4e8175a4cb65480bbcf">ObjectGuidTraits::MapSpecific</a></div><div class="ttdeci">static bool const MapSpecific</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:78</div></div>
+<div class="ttc" id="aa08182_html_a77d72711ba9384384f9fd789f778e8c8"><div class="ttname"><a href="../../db/df3/a08182.html#a77d72711ba9384384f9fd789f778e8c8">ObjectGuidTraits::Global</a></div><div class="ttdeci">static bool const Global</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:77</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acdd3815893762a2491365b8fd25c7283" name="acdd3815893762a2491365b8fd25c7283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd3815893762a2491365b8fd25c7283">&#9670;&#160;</a></span>GUID_TRAIT_MAP_SPECIFIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GUID_TRAIT_MAP_SPECIFIC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">highguid</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span>&lt;&gt; <span class="keyword">struct </span><a class="code hl_struct" href="../../db/df3/a08182.html">ObjectGuidTraits</a>&lt;highguid&gt; \</div>
+<div class="line">    { \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">bool</span> <span class="keyword">const</span> <a class="code hl_variable" href="../../db/df3/a08182.html#a77d72711ba9384384f9fd789f778e8c8">Global</a> = <span class="keyword">false</span>; \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">bool</span> <span class="keyword">const</span> <a class="code hl_variable" href="../../db/df3/a08182.html#a42e5a0249b84d4e8175a4cb65480bbcf">MapSpecific</a> = <span class="keyword">true</span>; \</div>
+<div class="line">    };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae616985e1e68f294e055e2bced156ada" name="ae616985e1e68f294e055e2bced156ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae616985e1e68f294e055e2bced156ada">&#9670;&#160;</a></span>NUM_CLIENT_OBJECT_TYPES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NUM_CLIENT_OBJECT_TYPES&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7c846a04172e6d96c6096780b5d05b0" name="ac7c846a04172e6d96c6096780b5d05b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c846a04172e6d96c6096780b5d05b0">&#9670;&#160;</a></span>PACKED_GUID_MIN_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PACKED_GUID_MIN_BUFFER_SIZE&#160;&#160;&#160;9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a393d9824dfb17afe3b82652e89eccc68" name="a393d9824dfb17afe3b82652e89eccc68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a393d9824dfb17afe3b82652e89eccc68">&#9670;&#160;</a></span>GuidDeque</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::deque&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&gt; <a class="el" href="../../d7/db0/a03467.html#a393d9824dfb17afe3b82652e89eccc68">GuidDeque</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5951d383f157ff0ed6d23ecef2213a4b" name="a5951d383f157ff0ed6d23ecef2213a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5951d383f157ff0ed6d23ecef2213a4b">&#9670;&#160;</a></span>GuidList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::list&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&gt; <a class="el" href="../../d7/db0/a03467.html#a5951d383f157ff0ed6d23ecef2213a4b">GuidList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62874da4f73709809fa3c7609d3e30af" name="a62874da4f73709809fa3c7609d3e30af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62874da4f73709809fa3c7609d3e30af">&#9670;&#160;</a></span>GuidSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&gt; <a class="el" href="../../d7/db0/a03467.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407d39fdbc20e1e06960539245ee6a25" name="a407d39fdbc20e1e06960539245ee6a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407d39fdbc20e1e06960539245ee6a25">&#9670;&#160;</a></span>GuidUnorderedSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_set&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&gt; <a class="el" href="../../d7/db0/a03467.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a173958393e55b3150391dfb3a6d387ed" name="a173958393e55b3150391dfb3a6d387ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173958393e55b3150391dfb3a6d387ed">&#9670;&#160;</a></span>GuidVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&gt; <a class="el" href="../../d7/db0/a03467.html#a173958393e55b3150391dfb3a6d387ed">GuidVector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="abe8666ac87665ba963053cdd2b014750" name="abe8666ac87665ba963053cdd2b014750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe8666ac87665ba963053cdd2b014750">&#9670;&#160;</a></span>HighGuid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a7d74f3b92b19da5e606d737d339a9679" name="abe8666ac87665ba963053cdd2b014750a7d74f3b92b19da5e606d737d339a9679"></a>Item&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2" name="abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2"></a>Container&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a636da1d35e805b00eae0fcd8333f9234" name="abe8666ac87665ba963053cdd2b014750a636da1d35e805b00eae0fcd8333f9234"></a>Player&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a3d164a4fbbdd103bddb596268f741bae" name="abe8666ac87665ba963053cdd2b014750a3d164a4fbbdd103bddb596268f741bae"></a>GameObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750af5f0c488ed56cf789d19a13ffba8abe3" name="abe8666ac87665ba963053cdd2b014750af5f0c488ed56cf789d19a13ffba8abe3"></a>Transport&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a19c562a36aeb455d09534f93b4f5236f" name="abe8666ac87665ba963053cdd2b014750a19c562a36aeb455d09534f93b4f5236f"></a>Unit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a7c986af4cf8f6e55a1f846dc498ce91d" name="abe8666ac87665ba963053cdd2b014750a7c986af4cf8f6e55a1f846dc498ce91d"></a>Pet&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750ad6af9c1eaff2a89ebd3f8d0c542be12b" name="abe8666ac87665ba963053cdd2b014750ad6af9c1eaff2a89ebd3f8d0c542be12b"></a>Vehicle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a8e9e2acf3f592fab793f32c92fbf7bee" name="abe8666ac87665ba963053cdd2b014750a8e9e2acf3f592fab793f32c92fbf7bee"></a>DynamicObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a417799dc63b3ebb2852970ae4b5c0f4a" name="abe8666ac87665ba963053cdd2b014750a417799dc63b3ebb2852970ae4b5c0f4a"></a>Corpse&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a" name="abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a"></a>Mo_Transport&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2" name="abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2"></a>Instance&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe8666ac87665ba963053cdd2b014750a03937134cedab9078be39a77ee3a48a0" name="abe8666ac87665ba963053cdd2b014750a03937134cedab9078be39a77ee3a48a0"></a>Group&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_class" href="../../db/d24/a08098.html">Item</a>           = 0x4000,                      <span class="comment">// blizz 4000</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a>      = 0x4000,                      <span class="comment">// blizz 4000</span></div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_class" href="../../d0/dc6/a08386.html">Player</a>         = 0x0000,                      <span class="comment">// blizz 0000</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_class" href="../../dd/db3/a07946.html">GameObject</a>     = 0xF110,                      <span class="comment">// blizz F110</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_class" href="../../d3/d29/a08426.html">Transport</a>      = 0xF120,                      <span class="comment">// blizz F120 (for GAMEOBJECT_TYPE_TRANSPORT)</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_class" href="../../db/df9/a08518.html">Unit</a>           = 0xF130,                      <span class="comment">// blizz F130</span></div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_class" href="../../d0/d0b/a08254.html">Pet</a>            = 0xF140,                      <span class="comment">// blizz F140</span></div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_class" href="../../df/d7b/a08550.html">Vehicle</a>        = 0xF150,                      <span class="comment">// blizz F550</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_class" href="../../d0/d92/a07918.html">DynamicObject</a>  = 0xF100,                      <span class="comment">// blizz F100</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_class" href="../../dd/d73/a07766.html">Corpse</a>         = 0xF101,                      <span class="comment">// blizz F100</span></div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a">Mo_Transport</a>   = 0x1FC0,                      <span class="comment">// blizz 1FC0 (for GAMEOBJECT_TYPE_MO_TRANSPORT)</span></div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2">Instance</a>       = 0x1F40,                      <span class="comment">// blizz 1F40</span></div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_class" href="../../d3/dd0/a09202.html">Group</a>          = 0x1F50,</div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="ttc" id="aa03467_html_abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2"><div class="ttname"><a href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">HighGuid::Container</a></div><div class="ttdeci">@ Container</div></div>
+<div class="ttc" id="aa03467_html_abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a"><div class="ttname"><a href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a">HighGuid::Mo_Transport</a></div><div class="ttdeci">@ Mo_Transport</div></div>
+<div class="ttc" id="aa03467_html_abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2"><div class="ttname"><a href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2">HighGuid::Instance</a></div><div class="ttdeci">@ Instance</div></div>
+<div class="ttc" id="aa07766_html"><div class="ttname"><a href="../../dd/d73/a07766.html">Corpse</a></div><div class="ttdef"><b>Definition:</b> Corpse.h:49</div></div>
+<div class="ttc" id="aa07918_html"><div class="ttname"><a href="../../d0/d92/a07918.html">DynamicObject</a></div><div class="ttdef"><b>Definition:</b> DynamicObject.h:35</div></div>
+<div class="ttc" id="aa07946_html"><div class="ttname"><a href="../../dd/db3/a07946.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:120</div></div>
+<div class="ttc" id="aa08098_html"><div class="ttname"><a href="../../db/d24/a08098.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:220</div></div>
+<div class="ttc" id="aa08254_html"><div class="ttname"><a href="../../d0/d0b/a08254.html">Pet</a></div><div class="ttdef"><b>Definition:</b> Pet.h:41</div></div>
+<div class="ttc" id="aa08386_html"><div class="ttname"><a href="../../d0/dc6/a08386.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa08426_html"><div class="ttname"><a href="../../d3/d29/a08426.html">Transport</a></div><div class="ttdef"><b>Definition:</b> Transport.h:29</div></div>
+<div class="ttc" id="aa08518_html"><div class="ttname"><a href="../../db/df9/a08518.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:630</div></div>
+<div class="ttc" id="aa08550_html"><div class="ttname"><a href="../../df/d7b/a08550.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:28</div></div>
+<div class="ttc" id="aa09202_html"><div class="ttname"><a href="../../d3/dd0/a09202.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:169</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a183c40b2ba67065929d70b3987da4cc2" name="a183c40b2ba67065929d70b3987da4cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183c40b2ba67065929d70b3987da4cc2">&#9670;&#160;</a></span>TypeID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2">TypeID</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f" name="a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f"></a>TYPEID_OBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28" name="a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28"></a>TYPEID_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107" name="a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107"></a>TYPEID_CONTAINER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9" name="a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"></a>TYPEID_UNIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c" name="a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"></a>TYPEID_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d" name="a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d"></a>TYPEID_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68" name="a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68"></a>TYPEID_DYNAMICOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f" name="a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f"></a>TYPEID_CORPSE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f">TYPEID_OBJECT</a>        = 0,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28">TYPEID_ITEM</a>          = 1,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107">TYPEID_CONTAINER</a>     = 2,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>          = 3,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>        = 4,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a>    = 5,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68">TYPEID_DYNAMICOBJECT</a> = 6,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f">TYPEID_CORPSE</a>        = 7</div>
+<div class="line"><span class="lineno">   40</span>};</div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f">TYPEID_OBJECT</a></div><div class="ttdeci">@ TYPEID_OBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:32</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68">TYPEID_DYNAMICOBJECT</a></div><div class="ttdeci">@ TYPEID_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a></div><div class="ttdeci">@ TYPEID_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:35</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f">TYPEID_CORPSE</a></div><div class="ttdeci">@ TYPEID_CORPSE</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:39</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28">TYPEID_ITEM</a></div><div class="ttdeci">@ TYPEID_ITEM</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:33</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:36</div></div>
+<div class="ttc" id="aa03467_html_a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107"><div class="ttname"><a href="../../d7/db0/a03467.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107">TYPEID_CONTAINER</a></div><div class="ttdeci">@ TYPEID_CONTAINER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acfe503ba26d8a881f16958aaafd431e1" name="acfe503ba26d8a881f16958aaafd431e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe503ba26d8a881f16958aaafd431e1">&#9670;&#160;</a></span>TypeMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1">TypeMask</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2" name="acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2"></a>TYPEMASK_OBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d" name="acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d"></a>TYPEMASK_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd" name="acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd"></a>TYPEMASK_CONTAINER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de" name="acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de"></a>TYPEMASK_UNIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739" name="acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739"></a>TYPEMASK_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4" name="acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4"></a>TYPEMASK_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108" name="acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108"></a>TYPEMASK_DYNAMICOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9" name="acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9"></a>TYPEMASK_CORPSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96" name="acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96"></a>TYPEMASK_SEER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2">TYPEMASK_OBJECT</a>         = 0x0001,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d">TYPEMASK_ITEM</a>           = 0x0002,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd">TYPEMASK_CONTAINER</a>      = 0x0006,             <span class="comment">// TYPEMASK_ITEM | 0x0004</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de">TYPEMASK_UNIT</a>           = 0x0008,             <span class="comment">// creature</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739">TYPEMASK_PLAYER</a>         = 0x0010,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4">TYPEMASK_GAMEOBJECT</a>     = 0x0020,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a>  = 0x0040,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9">TYPEMASK_CORPSE</a>         = 0x0080,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96">TYPEMASK_SEER</a>           = <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739">TYPEMASK_PLAYER</a> | <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de">TYPEMASK_UNIT</a> | <a class="code hl_enumvalue" href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a></div>
+<div class="line"><span class="lineno">   55</span>};</div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2">TYPEMASK_OBJECT</a></div><div class="ttdeci">@ TYPEMASK_OBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:46</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d">TYPEMASK_ITEM</a></div><div class="ttdeci">@ TYPEMASK_ITEM</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:47</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a></div><div class="ttdeci">@ TYPEMASK_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:52</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96">TYPEMASK_SEER</a></div><div class="ttdeci">@ TYPEMASK_SEER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:54</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de">TYPEMASK_UNIT</a></div><div class="ttdeci">@ TYPEMASK_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:49</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd">TYPEMASK_CONTAINER</a></div><div class="ttdeci">@ TYPEMASK_CONTAINER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:48</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9">TYPEMASK_CORPSE</a></div><div class="ttdeci">@ TYPEMASK_CORPSE</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:53</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4">TYPEMASK_GAMEOBJECT</a></div><div class="ttdeci">@ TYPEMASK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:51</div></div>
+<div class="ttc" id="aa03467_html_acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739"><div class="ttname"><a href="../../d7/db0/a03467.html#acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739">TYPEMASK_PLAYER</a></div><div class="ttdeci">@ TYPEMASK_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:50</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a039758f4b57c94c411a4c3882334ada8" name="a039758f4b57c94c411a4c3882334ada8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039758f4b57c94c411a4c3882334ada8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>guid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    buf &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>(guid.GetRawValue());</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="aa00497_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00142">ObjectGuid::GetRawValue()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00223">ByteBuffer::operator&lt;&lt;()</a>.</p>
+
+</div>
+</div>
+<a id="a94ab551ce00fd82dea1532d47ad908bc" name="a94ab551ce00fd82dea1532d47ad908bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ab551ce00fd82dea1532d47ad908bc">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">PackedGuid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>guid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
+<div class="line"><span class="lineno">   83</span>    buf.<a class="code hl_function" href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(guid._packedGuid);</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   85</span>}</div>
+<div class="ttc" id="aa28094_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a30aef535f2839648f0ae4648c746d3e2" name="a30aef535f2839648f0ae4648c746d3e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30aef535f2839648f0ae4648c746d3e2">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> &amp;&#160;</td>
+          <td class="paramname"><em>guid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    guid.<a class="code hl_function" href="../../db/d40/a08190.html#adfd90f25996d5e85a14e25f1af152c94">Set</a>(buf.<a class="code hl_function" href="../../d5/d2c/a28094.html#afab3484e1af821859f16b7bdacf2af9c">read</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt;());</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+<div class="ttc" id="aa08190_html_adfd90f25996d5e85a14e25f1af152c94"><div class="ttname"><a href="../../db/d40/a08190.html#adfd90f25996d5e85a14e25f1af152c94">ObjectGuid::Set</a></div><div class="ttdeci">void Set(uint64 guid)</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:137</div></div>
+<div class="ttc" id="aa28094_html_afab3484e1af821859f16b7bdacf2af9c"><div class="ttname"><a href="../../d5/d2c/a28094.html#afab3484e1af821859f16b7bdacf2af9c">ByteBuffer::read</a></div><div class="ttdeci">T read()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:351</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00351">ByteBuffer::read()</a>, and <a class="el" href="../../#l00137">ObjectGuid::Set()</a>.</p>
+
+</div>
+</div>
+<a id="a95f3a6eef334b9fcdcaca879532c25d4" name="a95f3a6eef334b9fcdcaca879532c25d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f3a6eef334b9fcdcaca879532c25d4">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d41/a08186.html">PackedGuidReader</a> const &amp;&#160;</td>
+          <td class="paramname"><em>guid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
+<div class="line"><span class="lineno">   89</span>    buf.<a class="code hl_function" href="../../d5/d2c/a28094.html#ad04535f80c6d32211f3b377ca8c32e68">readPackGUID</a>(<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&amp;<span class="keyword">&gt;</span>(guid.Guid));</div>
+<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   91</span>}</div>
+<div class="ttc" id="aa28094_html_ad04535f80c6d32211f3b377ca8c32e68"><div class="ttname"><a href="../../d5/d2c/a28094.html#ad04535f80c6d32211f3b377ca8c32e68">ByteBuffer::readPackGUID</a></div><div class="ttdeci">void readPackGUID(uint64 &amp;guid)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:387</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00114">PackedGuidReader::Guid</a>, and <a class="el" href="../../#l00387">ByteBuffer::readPackGUID()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_6f2d0651f8bb60d9295230d3c0a9398e.html">World</a></li><li class="navelem"><a class="el" href="../../d7/db0/a03467.html">World.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d7/db0/a03467.html">ObjectGuid.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

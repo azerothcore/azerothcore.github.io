@@ -1,7 +1,10 @@
 var a15734 =
 [
-    [ "OnApply", "da/d84/a15734.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
-    [ "OnRemove", "da/d84/a15734.html#a781994b0be4588f4df29399fc900ec69", null ],
-    [ "PrepareAuraScript", "da/d84/a15734.html#aee648b80e7352edffb20fd60697e1d88", null ],
-    [ "Register", "da/d84/a15734.html#a53c56711e31500f827123c08f44072cb", null ]
+    [ "spell_halion_damage_aoe_summon", "da/d84/a15734.html#a6152e7a0515076af2c7c2155506257b0", null ],
+    [ "HandleSummon", "da/d84/a15734.html#a47a810b94c515b7e48c9cc5f99c6bc23", null ],
+    [ "PrepareSpellScript", "da/d84/a15734.html#ae05be3eca26724f57f3f4b37b723aa63", null ],
+    [ "Register", "da/d84/a15734.html#aa1f9239a2910d53c85539abba6333893", null ],
+    [ "Validate", "da/d84/a15734.html#acb359257b29354b5962d9865e06137e7", null ],
+    [ "_auraSpell", "da/d84/a15734.html#a497a74eca703470964157639a6f372e2", null ],
+    [ "_explosionSpell", "da/d84/a15734.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
 ];

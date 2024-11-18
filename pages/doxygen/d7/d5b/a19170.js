@@ -1,26 +1,6 @@
 var a19170 =
 [
-    [ "instance_halls_of_lightning_InstanceMapScript", "d7/d5b/a19170.html#a9c82cd25354abaf7707c1dabd62c9fe3", null ],
-    [ "CheckAchievementCriteriaMeet", "d7/d5b/a19170.html#ad6db51b0ae7de338264d07a61daf21cc", null ],
-    [ "GetData", "d7/d5b/a19170.html#ac5ffe94c706af44c1989359d398c9a74", null ],
-    [ "GetGuidData", "d7/d5b/a19170.html#a71da39aef6924f1d25743acb396fe38d", null ],
-    [ "Initialize", "d7/d5b/a19170.html#a11aa5cfa5c6e5a3d76f00ef2b29562f3", null ],
-    [ "IsEncounterInProgress", "d7/d5b/a19170.html#ae110bf89612d9e2c6a3cf2b207d4ce6d", null ],
-    [ "OnCreatureCreate", "d7/d5b/a19170.html#a870fe2a7a47c53e4846794577397b722", null ],
-    [ "OnGameObjectCreate", "d7/d5b/a19170.html#a51f358749e3056e4a25eced558ac814a", null ],
-    [ "ReadSaveDataMore", "d7/d5b/a19170.html#aaa57bfd43cd20fafbd66f6cabbb2128c", null ],
-    [ "SetData", "d7/d5b/a19170.html#a26bd9da74d0d29e50b61df62b205f5e6", null ],
-    [ "WriteSaveDataMore", "d7/d5b/a19170.html#a98e2944f3199f4820cd52231880aba3b", null ],
-    [ "bjarngrimAchievement", "d7/d5b/a19170.html#a20572cd7722a65253bfd8a294476ab6f", null ],
-    [ "m_auiEncounter", "d7/d5b/a19170.html#a1c14cdda037a2ff43b246542c5aba621", null ],
-    [ "m_uiBjarngrimDoorGUID", "d7/d5b/a19170.html#ae6f84f7a7ae0af6349f1879b2178f36e", null ],
-    [ "m_uiGeneralBjarngrimGUID", "d7/d5b/a19170.html#a7bad151c19b5d728d7f81562577509cd", null ],
-    [ "m_uiIonarDoorGUID", "d7/d5b/a19170.html#a1e9fb8dd805dfdf8efd9ccca1948bc49", null ],
-    [ "m_uiIonarGUID", "d7/d5b/a19170.html#a249d161cbf3b8caa1a3c6c25f95a883c", null ],
-    [ "m_uiLokenDoorGUID", "d7/d5b/a19170.html#abe74e5b5247f779d75fb8f6542393b19", null ],
-    [ "m_uiLokenGlobeGUID", "d7/d5b/a19170.html#a6e741bd531a91760605f407c1529973a", null ],
-    [ "m_uiLokenGUID", "d7/d5b/a19170.html#a70ce7a51edff97f5095f79e5ff2b6b6a", null ],
-    [ "m_uiVolkhanDoorGUID", "d7/d5b/a19170.html#ade089fe04440ea936550130f7e98ba29", null ],
-    [ "m_uiVolkhanGUID", "d7/d5b/a19170.html#a0c0e420ed790c9f845aae42ea9b738f5", null ],
-    [ "volkhanAchievement", "d7/d5b/a19170.html#abf142b92d4db3fefd0088f7473d2c3c7", null ]
+    [ "npc_hol_monumentAI", "d0/d2e/a19174.html", "d0/d2e/a19174" ],
+    [ "npc_hol_monument", "d7/d5b/a19170.html#ae70329e600ba869891e04b31d7452fc0", null ],
+    [ "GetAI", "d7/d5b/a19170.html#a8e025a4c67d3a04a231f4effe0ef3746", null ]
 ];

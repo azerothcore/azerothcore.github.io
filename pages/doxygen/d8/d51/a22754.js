@@ -1,11 +1,6 @@
 var a22754 =
 [
-    [ "boss_doomwalker", "d8/d51/a22754.html#a47811086ff98b1a09af5300af94b6c0e", null ],
-    [ "JustDied", "d8/d51/a22754.html#aeefc6b3fdff4375c421318484e0b18a6", null ],
-    [ "JustEngagedWith", "d8/d51/a22754.html#a01aa1cc0e5feaf9d2f49b54daaf7b13f", null ],
-    [ "KilledUnit", "d8/d51/a22754.html#a2335eb642940397f73ee2a8051624e8e", null ],
-    [ "MoveInLineOfSight", "d8/d51/a22754.html#ac0ffd491ac9a4923e3977e09e8ba310e", null ],
-    [ "Reset", "d8/d51/a22754.html#aba08b227d629c9f35e59f465e29c267b", null ],
-    [ "UpdateAI", "d8/d51/a22754.html#a3105c50e512c6f709985cece619b131f", null ],
-    [ "_inEnrage", "d8/d51/a22754.html#a0004e96e25d8f5ad9393e3cdb3a4ce70", null ]
+    [ "boss_doomlordkazzakAI", "d4/d19/a22758.html", "d4/d19/a22758" ],
+    [ "boss_doomlord_kazzak", "d8/d51/a22754.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
+    [ "GetAI", "d8/d51/a22754.html#a460a32ce37aae852b48f1990406da9a4", null ]
 ];

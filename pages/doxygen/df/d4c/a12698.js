@@ -1,6 +1,6 @@
 var a12698 =
 [
-    [ "npc_mograineAI", "d8/d4a/a12702.html", "d8/d4a/a12702" ],
-    [ "npc_mograine", "df/d4c/a12698.html#a0e840923de338abd46f962fb55253bf5", null ],
-    [ "GetAI", "df/d4c/a12698.html#a6880708a0e4575ff48e0bade859857bf", null ]
+    [ "HandleLeapBack", "df/d4c/a12698.html#a0f0b30da1c094281375230a6cf411c5e", null ],
+    [ "PrepareSpellScript", "df/d4c/a12698.html#a431fa0b4f479be912507e64fd906d516", null ],
+    [ "Register", "df/d4c/a12698.html#ac3b7bcfe48c1fe807d2c4deab6be91a8", null ]
 ];

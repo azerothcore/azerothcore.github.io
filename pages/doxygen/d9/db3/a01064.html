@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_lord_jaraxxus.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/BlackfathomDeeps/instance_blackfathom_deeps.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,404 +106,49 @@ $(document).ready(function(){initNavTree('d9/db3/a01064.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">boss_lord_jaraxxus.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_blackfathom_deeps.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">trial_of_the_crusader.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">blackfathom_deeps.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a16106.html">boss_jaraxxus</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a14178.html">instance_blackfathom_deeps</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1f/a16110.html">boss_jaraxxus::boss_jaraxxusAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfe/a14182.html">instance_blackfathom_deeps::instance_blackfathom_deeps_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d78/a16114.html">npc_fel_infernal</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7f/a16118.html">npc_fel_infernal::npc_fel_infernalAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcc/a16122.html">npc_mistress_of_pain</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d57/a16126.html">npc_mistress_of_pain::npc_mistress_of_painAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a16130.html">spell_toc25_mistress_kiss_aura</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/a16134.html">spell_mistress_kiss_area</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a0de5ed4733cf2c29f4248c9eddb9360e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360e">JaraxxusTexts</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637">SAY_INTRO</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f">EMOTE_LEGION_FLAME</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994">EMOTE_NETHER_PORTAL</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e">SAY_MISTRESS_OF_PAIN</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f">EMOTE_INCINERATE</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247">SAY_INCINERATE</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db">EMOTE_INFERNAL_ERUPTION</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7">SAY_INFERNAL_ERUPTION</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4">SAY_KILL_PLAYER</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b">SAY_BERSERK</a> = 11
-<br />
- }</td></tr>
-<tr class="separator:a0de5ed4733cf2c29f4248c9eddb9360e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0d2ebcbbcebeb9d5c667bf982efe32"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32">JaraxxusNPCs</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76">NPC_LEGION_FLAME</a> = 34784
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11">NPC_INFERNAL_VOLCANO</a> = 34813
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34">NPC_FEL_INFERNAL</a> = 34815
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79">NPC_NETHER_PORTAL</a> = 34825
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc">NPC_MISTRESS_OF_PAIN</a> = 34826
-<br />
- }</td></tr>
-<tr class="separator:afe0d2ebcbbcebeb9d5c667bf982efe32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bdea2820b7a1fb8a7c14d71a00e6469"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469">JaraxxusSpells</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d">SPELL_NETHER_POWER</a> = 66228
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00">SPELL_INCINERATE_FLESH</a> = 66237
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a> = 66532
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e">SPELL_FEL_LIGHTNING</a> = 66528
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f">SPELL_TOUCH_OF_JARAXXUS</a> = 66209
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70">SPELL_LEGION_FLAME</a> = 66197
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f">SPELL_LEGION_FLAME_NPC_AURA</a> = 66201
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c">SPELL_SUMMON_VOLCANO</a> = 66258
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7">SPELL_SUMMON_NETHER_PORTAL</a> = 66269
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c">SPELL_FEL_STEAK</a> = 66494
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f">SPELL_FEL_STEAK_MORPH</a> = 66493
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1">SPELL_SHIVAN_SLASH</a> = 66378
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec">SPELL_SPINNING_PAIN_SPIKE</a> = 66283
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c">SPELL_MISTRESS_KISS</a> = 66336
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6">SPELL_MISTRESS_KISS_PERIODIC_DUMMY</a> = 66334
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111">SPELL_MISTRESS_KISS_INTERRUPT</a> = 66359
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6">SPELL_CHAINS</a> = 67924
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a> = 64238
-<br />
- }</td></tr>
-<tr class="separator:a0bdea2820b7a1fb8a7c14d71a00e6469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8720becd3353ce4c1eaf4b10f65c3bf3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3">JaraxxusEvents</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508">EVENT_SPELL_FEL_FIREBALL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005">EVENT_SPELL_FEL_LIGHTNING</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a">EVENT_SPELL_INCINERATE_FLESH</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e">EVENT_SPELL_NETHER_POWER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19">EVENT_SPELL_LEGION_FLAME</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda">EVENT_SPELL_TOUCH_OF_JARAXXUS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4">EVENT_SUMMON_VOLCANO</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74">EVENT_SUMMON_NETHER_PORTAL</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64">EVENT_SPELL_FEL_STEAK</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6">EVENT_SPELL_SHIVAN_SLASH</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e">EVENT_SPELL_SPINNING_PAIN_SPIKE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15">EVENT_SPELL_MISTRESS_KISS</a>
-<br />
- }</td></tr>
-<tr class="separator:a8720becd3353ce4c1eaf4b10f65c3bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae05057811020071be5480076d0ffe62b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#ae05057811020071be5480076d0ffe62b">AddSC_boss_jaraxxus</a> ()</td></tr>
-<tr class="separator:ae05057811020071be5480076d0ffe62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df6617d1b66a2f3d1f610218af85c18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a01064.html#a6df6617d1b66a2f3d1f610218af85c18">AddSC_instance_blackfathom_deeps</a> ()</td></tr>
+<tr class="separator:a6df6617d1b66a2f3d1f610218af85c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a8720becd3353ce4c1eaf4b10f65c3bf3" name="a8720becd3353ce4c1eaf4b10f65c3bf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8720becd3353ce4c1eaf4b10f65c3bf3">&#9670;&#160;</a></span>JaraxxusEvents</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3">JaraxxusEvents</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508" name="a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508"></a>EVENT_SPELL_FEL_FIREBALL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005" name="a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005"></a>EVENT_SPELL_FEL_LIGHTNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a" name="a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a"></a>EVENT_SPELL_INCINERATE_FLESH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e" name="a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e"></a>EVENT_SPELL_NETHER_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19" name="a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19"></a>EVENT_SPELL_LEGION_FLAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda" name="a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda"></a>EVENT_SPELL_TOUCH_OF_JARAXXUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4" name="a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4"></a>EVENT_SUMMON_VOLCANO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74" name="a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74"></a>EVENT_SUMMON_NETHER_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64" name="a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64"></a>EVENT_SPELL_FEL_STEAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6" name="a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6"></a>EVENT_SPELL_SHIVAN_SLASH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e" name="a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e"></a>EVENT_SPELL_SPINNING_PAIN_SPIKE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15" name="a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15"></a>EVENT_SPELL_MISTRESS_KISS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508">EVENT_SPELL_FEL_FIREBALL</a> = 1,</div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005">EVENT_SPELL_FEL_LIGHTNING</a>,</div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a">EVENT_SPELL_INCINERATE_FLESH</a>,</div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e">EVENT_SPELL_NETHER_POWER</a>,</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19">EVENT_SPELL_LEGION_FLAME</a>,</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda">EVENT_SPELL_TOUCH_OF_JARAXXUS</a>,</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4">EVENT_SUMMON_VOLCANO</a>,</div>
-<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74">EVENT_SUMMON_NETHER_PORTAL</a>,</div>
-<div class="line"><span class="lineno">   85</span> </div>
-<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64">EVENT_SPELL_FEL_STEAK</a>,</div>
-<div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6">EVENT_SPELL_SHIVAN_SLASH</a>,</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e">EVENT_SPELL_SPINNING_PAIN_SPIKE</a>,</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15">EVENT_SPELL_MISTRESS_KISS</a>,</div>
-<div class="line"><span class="lineno">   91</span>};</div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6">EVENT_SPELL_SHIVAN_SLASH</a></div><div class="ttdeci">@ EVENT_SPELL_SHIVAN_SLASH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:88</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005">EVENT_SPELL_FEL_LIGHTNING</a></div><div class="ttdeci">@ EVENT_SPELL_FEL_LIGHTNING</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:78</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e">EVENT_SPELL_SPINNING_PAIN_SPIKE</a></div><div class="ttdeci">@ EVENT_SPELL_SPINNING_PAIN_SPIKE</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:89</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15">EVENT_SPELL_MISTRESS_KISS</a></div><div class="ttdeci">@ EVENT_SPELL_MISTRESS_KISS</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:90</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda">EVENT_SPELL_TOUCH_OF_JARAXXUS</a></div><div class="ttdeci">@ EVENT_SPELL_TOUCH_OF_JARAXXUS</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:82</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a">EVENT_SPELL_INCINERATE_FLESH</a></div><div class="ttdeci">@ EVENT_SPELL_INCINERATE_FLESH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:79</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508">EVENT_SPELL_FEL_FIREBALL</a></div><div class="ttdeci">@ EVENT_SPELL_FEL_FIREBALL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:77</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64">EVENT_SPELL_FEL_STEAK</a></div><div class="ttdeci">@ EVENT_SPELL_FEL_STEAK</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:86</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74">EVENT_SUMMON_NETHER_PORTAL</a></div><div class="ttdeci">@ EVENT_SUMMON_NETHER_PORTAL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:84</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e">EVENT_SPELL_NETHER_POWER</a></div><div class="ttdeci">@ EVENT_SPELL_NETHER_POWER</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:80</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19">EVENT_SPELL_LEGION_FLAME</a></div><div class="ttdeci">@ EVENT_SPELL_LEGION_FLAME</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:81</div></div>
-<div class="ttc" id="aa01064_html_a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4"><div class="ttname"><a href="../../d9/db3/a01064.html#a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4">EVENT_SUMMON_VOLCANO</a></div><div class="ttdeci">@ EVENT_SUMMON_VOLCANO</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:83</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afe0d2ebcbbcebeb9d5c667bf982efe32" name="afe0d2ebcbbcebeb9d5c667bf982efe32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0d2ebcbbcebeb9d5c667bf982efe32">&#9670;&#160;</a></span>JaraxxusNPCs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32">JaraxxusNPCs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76" name="afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76"></a>NPC_LEGION_FLAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11" name="afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11"></a>NPC_INFERNAL_VOLCANO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34" name="afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34"></a>NPC_FEL_INFERNAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79" name="afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79"></a>NPC_NETHER_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc" name="afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc"></a>NPC_MISTRESS_OF_PAIN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76">NPC_LEGION_FLAME</a>                    = 34784,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11">NPC_INFERNAL_VOLCANO</a>                = 34813,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34">NPC_FEL_INFERNAL</a>                    = 34815,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79">NPC_NETHER_PORTAL</a>                   = 34825,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc">NPC_MISTRESS_OF_PAIN</a>                = 34826,</div>
-<div class="line"><span class="lineno">   48</span>};</div>
-<div class="ttc" id="aa01064_html_afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79"><div class="ttname"><a href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79">NPC_NETHER_PORTAL</a></div><div class="ttdeci">@ NPC_NETHER_PORTAL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:46</div></div>
-<div class="ttc" id="aa01064_html_afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc"><div class="ttname"><a href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc">NPC_MISTRESS_OF_PAIN</a></div><div class="ttdeci">@ NPC_MISTRESS_OF_PAIN</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:47</div></div>
-<div class="ttc" id="aa01064_html_afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11"><div class="ttname"><a href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11">NPC_INFERNAL_VOLCANO</a></div><div class="ttdeci">@ NPC_INFERNAL_VOLCANO</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:44</div></div>
-<div class="ttc" id="aa01064_html_afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76"><div class="ttname"><a href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76">NPC_LEGION_FLAME</a></div><div class="ttdeci">@ NPC_LEGION_FLAME</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:43</div></div>
-<div class="ttc" id="aa01064_html_afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34"><div class="ttname"><a href="../../d9/db3/a01064.html#afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34">NPC_FEL_INFERNAL</a></div><div class="ttdeci">@ NPC_FEL_INFERNAL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:45</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0bdea2820b7a1fb8a7c14d71a00e6469" name="a0bdea2820b7a1fb8a7c14d71a00e6469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bdea2820b7a1fb8a7c14d71a00e6469">&#9670;&#160;</a></span>JaraxxusSpells</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469">JaraxxusSpells</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d" name="a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d"></a>SPELL_NETHER_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00" name="a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00"></a>SPELL_INCINERATE_FLESH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19" name="a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19"></a>SPELL_FEL_FIREBALL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e" name="a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e"></a>SPELL_FEL_LIGHTNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f" name="a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f"></a>SPELL_TOUCH_OF_JARAXXUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70" name="a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70"></a>SPELL_LEGION_FLAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f" name="a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f"></a>SPELL_LEGION_FLAME_NPC_AURA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c" name="a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c"></a>SPELL_SUMMON_VOLCANO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7" name="a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7"></a>SPELL_SUMMON_NETHER_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c" name="a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c"></a>SPELL_FEL_STEAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f" name="a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f"></a>SPELL_FEL_STEAK_MORPH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1" name="a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1"></a>SPELL_SHIVAN_SLASH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec" name="a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec"></a>SPELL_SPINNING_PAIN_SPIKE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c" name="a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c"></a>SPELL_MISTRESS_KISS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6" name="a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6"></a>SPELL_MISTRESS_KISS_PERIODIC_DUMMY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111" name="a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111"></a>SPELL_MISTRESS_KISS_INTERRUPT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6" name="a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6"></a>SPELL_CHAINS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f" name="a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f"></a>SPELL_BERSERK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d">SPELL_NETHER_POWER</a>                  = 66228,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00">SPELL_INCINERATE_FLESH</a>              = 66237,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a>                  = 66532,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e">SPELL_FEL_LIGHTNING</a>                 = 66528,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f">SPELL_TOUCH_OF_JARAXXUS</a>             = 66209,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70">SPELL_LEGION_FLAME</a>                  = 66197,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f">SPELL_LEGION_FLAME_NPC_AURA</a>         = 66201,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c">SPELL_SUMMON_VOLCANO</a>                = 66258,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7">SPELL_SUMMON_NETHER_PORTAL</a>          = 66269,</div>
-<div class="line"><span class="lineno">   61</span> </div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c">SPELL_FEL_STEAK</a>                     = 66494,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f">SPELL_FEL_STEAK_MORPH</a>               = 66493,</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1">SPELL_SHIVAN_SLASH</a>                  = 66378,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec">SPELL_SPINNING_PAIN_SPIKE</a>           = 66283,</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c">SPELL_MISTRESS_KISS</a>                 = 66336,</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6">SPELL_MISTRESS_KISS_PERIODIC_DUMMY</a>  = 66334, <span class="comment">// also 67905, 67906, 67907</span></div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111">SPELL_MISTRESS_KISS_INTERRUPT</a>       = 66359,</div>
-<div class="line"><span class="lineno">   70</span> </div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6">SPELL_CHAINS</a>                        = 67924,</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a>                       = 64238,</div>
-<div class="line"><span class="lineno">   73</span>};</div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c">SPELL_FEL_STEAK</a></div><div class="ttdeci">@ SPELL_FEL_STEAK</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:62</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f">SPELL_TOUCH_OF_JARAXXUS</a></div><div class="ttdeci">@ SPELL_TOUCH_OF_JARAXXUS</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:56</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00">SPELL_INCINERATE_FLESH</a></div><div class="ttdeci">@ SPELL_INCINERATE_FLESH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:53</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec">SPELL_SPINNING_PAIN_SPIKE</a></div><div class="ttdeci">@ SPELL_SPINNING_PAIN_SPIKE</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:66</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c">SPELL_SUMMON_VOLCANO</a></div><div class="ttdeci">@ SPELL_SUMMON_VOLCANO</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:59</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6">SPELL_CHAINS</a></div><div class="ttdeci">@ SPELL_CHAINS</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:71</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d">SPELL_NETHER_POWER</a></div><div class="ttdeci">@ SPELL_NETHER_POWER</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:52</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e">SPELL_FEL_LIGHTNING</a></div><div class="ttdeci">@ SPELL_FEL_LIGHTNING</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:55</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f">SPELL_FEL_STEAK_MORPH</a></div><div class="ttdeci">@ SPELL_FEL_STEAK_MORPH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:63</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a></div><div class="ttdeci">@ SPELL_FEL_FIREBALL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:54</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70">SPELL_LEGION_FLAME</a></div><div class="ttdeci">@ SPELL_LEGION_FLAME</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:57</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c">SPELL_MISTRESS_KISS</a></div><div class="ttdeci">@ SPELL_MISTRESS_KISS</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:67</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f">SPELL_LEGION_FLAME_NPC_AURA</a></div><div class="ttdeci">@ SPELL_LEGION_FLAME_NPC_AURA</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:58</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1">SPELL_SHIVAN_SLASH</a></div><div class="ttdeci">@ SPELL_SHIVAN_SLASH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:65</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111">SPELL_MISTRESS_KISS_INTERRUPT</a></div><div class="ttdeci">@ SPELL_MISTRESS_KISS_INTERRUPT</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:69</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7">SPELL_SUMMON_NETHER_PORTAL</a></div><div class="ttdeci">@ SPELL_SUMMON_NETHER_PORTAL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:60</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a></div><div class="ttdeci">@ SPELL_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:72</div></div>
-<div class="ttc" id="aa01064_html_a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6"><div class="ttname"><a href="../../d9/db3/a01064.html#a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6">SPELL_MISTRESS_KISS_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_MISTRESS_KISS_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:68</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0de5ed4733cf2c29f4248c9eddb9360e" name="a0de5ed4733cf2c29f4248c9eddb9360e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0de5ed4733cf2c29f4248c9eddb9360e">&#9670;&#160;</a></span>JaraxxusTexts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360e">JaraxxusTexts</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637" name="a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637"></a>SAY_INTRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe" name="a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe"></a>SAY_AGGRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f" name="a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f"></a>EMOTE_LEGION_FLAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994" name="a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994"></a>EMOTE_NETHER_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e" name="a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e"></a>SAY_MISTRESS_OF_PAIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f" name="a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f"></a>EMOTE_INCINERATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247" name="a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247"></a>SAY_INCINERATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db" name="a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db"></a>EMOTE_INFERNAL_ERUPTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7" name="a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7"></a>SAY_INFERNAL_ERUPTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4" name="a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4"></a>SAY_KILL_PLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e" name="a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e"></a>SAY_DEATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b" name="a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b"></a>SAY_BERSERK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637">SAY_INTRO</a>               = 0,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>               = 1,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f">EMOTE_LEGION_FLAME</a>      = 2,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994">EMOTE_NETHER_PORTAL</a>     = 3,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e">SAY_MISTRESS_OF_PAIN</a>    = 4,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f">EMOTE_INCINERATE</a>        = 5,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247">SAY_INCINERATE</a>          = 6,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db">EMOTE_INFERNAL_ERUPTION</a> = 7,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7">SAY_INFERNAL_ERUPTION</a>   = 8,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4">SAY_KILL_PLAYER</a>         = 9,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>               = 10,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b">SAY_BERSERK</a>             = 11,</div>
-<div class="line"><span class="lineno">   39</span>};</div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:37</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e">SAY_MISTRESS_OF_PAIN</a></div><div class="ttdeci">@ SAY_MISTRESS_OF_PAIN</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:31</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:28</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994">EMOTE_NETHER_PORTAL</a></div><div class="ttdeci">@ EMOTE_NETHER_PORTAL</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:30</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247">SAY_INCINERATE</a></div><div class="ttdeci">@ SAY_INCINERATE</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:33</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7">SAY_INFERNAL_ERUPTION</a></div><div class="ttdeci">@ SAY_INFERNAL_ERUPTION</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:35</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f">EMOTE_LEGION_FLAME</a></div><div class="ttdeci">@ EMOTE_LEGION_FLAME</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:29</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f">EMOTE_INCINERATE</a></div><div class="ttdeci">@ EMOTE_INCINERATE</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:32</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db">EMOTE_INFERNAL_ERUPTION</a></div><div class="ttdeci">@ EMOTE_INFERNAL_ERUPTION</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:34</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4">SAY_KILL_PLAYER</a></div><div class="ttdeci">@ SAY_KILL_PLAYER</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:36</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b">SAY_BERSERK</a></div><div class="ttdeci">@ SAY_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:38</div></div>
-<div class="ttc" id="aa01064_html_a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637"><div class="ttname"><a href="../../d9/db3/a01064.html#a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637">SAY_INTRO</a></div><div class="ttdeci">@ SAY_INTRO</div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:27</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae05057811020071be5480076d0ffe62b" name="ae05057811020071be5480076d0ffe62b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05057811020071be5480076d0ffe62b">&#9670;&#160;</a></span>AddSC_boss_jaraxxus()</h2>
+<a id="a6df6617d1b66a2f3d1f610218af85c18" name="a6df6617d1b66a2f3d1f610218af85c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df6617d1b66a2f3d1f610218af85c18">&#9670;&#160;</a></span>AddSC_instance_blackfathom_deeps()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_boss_jaraxxus </td>
+          <td class="memname">void AddSC_instance_blackfathom_deeps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  503</span>{</div>
-<div class="line"><span class="lineno">  504</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d94/a16106.html">boss_jaraxxus</a>();</div>
-<div class="line"><span class="lineno">  505</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d78/a16114.html">npc_fel_infernal</a>();</div>
-<div class="line"><span class="lineno">  506</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/dcc/a16122.html">npc_mistress_of_pain</a>();</div>
-<div class="line"><span class="lineno">  507</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/d28/a16130.html">spell_toc25_mistress_kiss_aura</a>);</div>
-<div class="line"><span class="lineno">  508</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/d36/a16134.html">spell_mistress_kiss_area</a>);</div>
-<div class="line"><span class="lineno">  509</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa16106_html"><div class="ttname"><a href="../../d3/d94/a16106.html">boss_jaraxxus</a></div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:94</div></div>
-<div class="ttc" id="aa16114_html"><div class="ttname"><a href="../../d6/d78/a16114.html">npc_fel_infernal</a></div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:297</div></div>
-<div class="ttc" id="aa16122_html"><div class="ttname"><a href="../../de/dcc/a16122.html">npc_mistress_of_pain</a></div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:367</div></div>
-<div class="ttc" id="aa16130_html"><div class="ttname"><a href="../../da/d28/a16130.html">spell_toc25_mistress_kiss_aura</a></div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:448</div></div>
-<div class="ttc" id="aa16134_html"><div class="ttname"><a href="../../d6/d36/a16134.html">spell_mistress_kiss_area</a></div><div class="ttdef"><b>Definition:</b> boss_lord_jaraxxus.cpp:474</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
+<div class="line"><span class="lineno">  149</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d1e/a14178.html">instance_blackfathom_deeps</a>();</div>
+<div class="line"><span class="lineno">  150</span>}</div>
+<div class="ttc" id="aa14178_html"><div class="ttname"><a href="../../d7/d1e/a14178.html">instance_blackfathom_deeps</a></div><div class="ttdef"><b>Definition:</b> instance_blackfathom_deeps.cpp:23</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
 
 </div>
 </div>
@@ -512,8 +157,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_9c4af5b2a272d4974379e18639c0292f.html">CrusadersColiseum</a></li><li class="navelem"><a class="el" href="../../dir_5fdc2693698a18fac3a7c6f976e80e80.html">TrialOfTheCrusader</a></li><li class="navelem"><a class="el" href="../../d9/db3/a01064.html">boss_lord_jaraxxus.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_b9ce73ca8ddd879a6b939545d1713742.html">BlackfathomDeeps</a></li><li class="navelem"><a class="el" href="../../d9/db3/a01064.html">instance_blackfathom_deeps.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

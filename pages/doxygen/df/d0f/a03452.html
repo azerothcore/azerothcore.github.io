@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Texts/CreatureTextMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Corpse/Corpse.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,36 +105,163 @@ $(document).ready(function(){initNavTree('df/d0f/a03452.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">CreatureTextMgr.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Corpse.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d53/a11082.html">CreatureTextBuilder</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d73/a07766.html">Corpse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df7/a11086.html">PlayerTextBuilder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aec0512ffe7d6a8f7dd8330c334bb4fc3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a03452.html#aec0512ffe7d6a8f7dd8330c334bb4fc3">MAX_CORPSE_TYPE</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:aec0512ffe7d6a8f7dd8330c334bb4fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cebf109f41dcdac8a90086696642782"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a03452.html#a1cebf109f41dcdac8a90086696642782">CORPSE_RECLAIM_RADIUS</a>&#160;&#160;&#160;39</td></tr>
+<tr class="separator:a1cebf109f41dcdac8a90086696642782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a43260eb47484e62a16a868f79646c683"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683">CorpseType</a> { <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356">CORPSE_BONES</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78">CORPSE_RESURRECTABLE_PVE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba">CORPSE_RESURRECTABLE_PVP</a> = 2
+<br />
+ }</td></tr>
+<tr class="separator:a43260eb47484e62a16a868f79646c683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7edfbd0ad6d8a44c4ac0fe7af8f537c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c">CorpseFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2">CORPSE_FLAG_NONE</a> = 0x00
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b">CORPSE_FLAG_BONES</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c">CORPSE_FLAG_UNK1</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e">CORPSE_FLAG_UNK2</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79">CORPSE_FLAG_HIDE_HELM</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a">CORPSE_FLAG_HIDE_CLOAK</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80">CORPSE_FLAG_LOOTABLE</a> = 0x20
+<br />
+ }</td></tr>
+<tr class="separator:ac7edfbd0ad6d8a44c4ac0fe7af8f537c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a1cebf109f41dcdac8a90086696642782" name="a1cebf109f41dcdac8a90086696642782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cebf109f41dcdac8a90086696642782">&#9670;&#160;</a></span>CORPSE_RECLAIM_RADIUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CORPSE_RECLAIM_RADIUS&#160;&#160;&#160;39</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec0512ffe7d6a8f7dd8330c334bb4fc3" name="aec0512ffe7d6a8f7dd8330c334bb4fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0512ffe7d6a8f7dd8330c334bb4fc3">&#9670;&#160;</a></span>MAX_CORPSE_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_CORPSE_TYPE&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537c" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7edfbd0ad6d8a44c4ac0fe7af8f537c">&#9670;&#160;</a></span>CorpseFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c">CorpseFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2"></a>CORPSE_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b"></a>CORPSE_FLAG_BONES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c"></a>CORPSE_FLAG_UNK1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e"></a>CORPSE_FLAG_UNK2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79"></a>CORPSE_FLAG_HIDE_HELM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a"></a>CORPSE_FLAG_HIDE_CLOAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80" name="ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80"></a>CORPSE_FLAG_LOOTABLE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2">CORPSE_FLAG_NONE</a>        = 0x00,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b">CORPSE_FLAG_BONES</a>       = 0x01,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c">CORPSE_FLAG_UNK1</a>        = 0x02,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e">CORPSE_FLAG_UNK2</a>        = 0x04,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79">CORPSE_FLAG_HIDE_HELM</a>   = 0x08,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a">CORPSE_FLAG_HIDE_CLOAK</a>  = 0x10,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80">CORPSE_FLAG_LOOTABLE</a>    = 0x20</div>
+<div class="line"><span class="lineno">   46</span>};</div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c">CORPSE_FLAG_UNK1</a></div><div class="ttdeci">@ CORPSE_FLAG_UNK1</div><div class="ttdef"><b>Definition:</b> Corpse.h:41</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a">CORPSE_FLAG_HIDE_CLOAK</a></div><div class="ttdeci">@ CORPSE_FLAG_HIDE_CLOAK</div><div class="ttdef"><b>Definition:</b> Corpse.h:44</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2">CORPSE_FLAG_NONE</a></div><div class="ttdeci">@ CORPSE_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Corpse.h:39</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b">CORPSE_FLAG_BONES</a></div><div class="ttdeci">@ CORPSE_FLAG_BONES</div><div class="ttdef"><b>Definition:</b> Corpse.h:40</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e">CORPSE_FLAG_UNK2</a></div><div class="ttdeci">@ CORPSE_FLAG_UNK2</div><div class="ttdef"><b>Definition:</b> Corpse.h:42</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79">CORPSE_FLAG_HIDE_HELM</a></div><div class="ttdeci">@ CORPSE_FLAG_HIDE_HELM</div><div class="ttdef"><b>Definition:</b> Corpse.h:43</div></div>
+<div class="ttc" id="aa03452_html_ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80"><div class="ttname"><a href="../../df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80">CORPSE_FLAG_LOOTABLE</a></div><div class="ttdeci">@ CORPSE_FLAG_LOOTABLE</div><div class="ttdef"><b>Definition:</b> Corpse.h:45</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a43260eb47484e62a16a868f79646c683" name="a43260eb47484e62a16a868f79646c683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43260eb47484e62a16a868f79646c683">&#9670;&#160;</a></span>CorpseType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683">CorpseType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356" name="a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356"></a>CORPSE_BONES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78" name="a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78"></a>CORPSE_RESURRECTABLE_PVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba" name="a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba"></a>CORPSE_RESURRECTABLE_PVP&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356">CORPSE_BONES</a>             = 0,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78">CORPSE_RESURRECTABLE_PVE</a> = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba">CORPSE_RESURRECTABLE_PVP</a> = 2</div>
+<div class="line"><span class="lineno">   31</span>};</div>
+<div class="ttc" id="aa03452_html_a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78"><div class="ttname"><a href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78">CORPSE_RESURRECTABLE_PVE</a></div><div class="ttdeci">@ CORPSE_RESURRECTABLE_PVE</div><div class="ttdef"><b>Definition:</b> Corpse.h:29</div></div>
+<div class="ttc" id="aa03452_html_a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba"><div class="ttname"><a href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba">CORPSE_RESURRECTABLE_PVP</a></div><div class="ttdeci">@ CORPSE_RESURRECTABLE_PVP</div><div class="ttdef"><b>Definition:</b> Corpse.h:30</div></div>
+<div class="ttc" id="aa03452_html_a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356"><div class="ttname"><a href="../../df/d0f/a03452.html#a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356">CORPSE_BONES</a></div><div class="ttdeci">@ CORPSE_BONES</div><div class="ttdef"><b>Definition:</b> Corpse.h:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_78d3189edd7177725305f224bf2d8753.html">Texts</a></li><li class="navelem"><a class="el" href="../../df/d0f/a03452.html">CreatureTextMgr.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_1030cafe24ff22cf50f89adc924924e3.html">Corpse</a></li><li class="navelem"><a class="el" href="../../df/d0f/a03452.html">Corpse.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,11 +1,8 @@
 var a09946 =
 [
-    [ "AllMapScript", "db/d43/a09946.html#aea5284ac6b227dd44b83dc944e220f00", null ],
-    [ "OnBeforeCreateInstanceScript", "db/d43/a09946.html#a1a4b75a1845923bcf68481ecc0d6b77c", null ],
-    [ "OnCreateMap", "db/d43/a09946.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
-    [ "OnDestroyInstance", "db/d43/a09946.html#a990130b4cd594c1cd04368aea300a49e", null ],
-    [ "OnDestroyMap", "db/d43/a09946.html#a6bebd1e6e36b5714598439a6c6dfaad6", null ],
-    [ "OnMapUpdate", "db/d43/a09946.html#a6edbb719d998c57caba09eef7ad559e0", null ],
-    [ "OnPlayerEnterAll", "db/d43/a09946.html#a42e4af596effb07a00b353164f32cec9", null ],
-    [ "OnPlayerLeaveAll", "db/d43/a09946.html#adcfd501bee055317bff2a63ef28c3eab", null ]
+    [ "AllCommandScript", "db/d43/a09946.html#a7ff235b904eecdd4d02d2025c4078980", null ],
+    [ "IsDatabaseBound", "db/d43/a09946.html#a89430678d5c88c562f1b0ac2b294fea4", null ],
+    [ "OnBeforeIsInvokerVisible", "db/d43/a09946.html#a6f85dc271c1b61244978aa4474e708b0", null ],
+    [ "OnHandleDevCommand", "db/d43/a09946.html#aba983f0e052ece230617573f04a35c92", null ],
+    [ "OnTryExecuteCommand", "db/d43/a09946.html#a3a116836453073e77bbd8ab974f36f47", null ]
 ];

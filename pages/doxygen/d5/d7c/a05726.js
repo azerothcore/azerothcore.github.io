@@ -1,24 +1,10 @@
 var a05726 =
 [
-    [ "QueryCallbackData", "dd/d08/a05718.html", "dd/d08/a05718" ],
-    [ "QueryCallback", "d5/d7c/a05726.html#a66ee303783486beec802351027c466e0", null ],
-    [ "QueryCallback", "d5/d7c/a05726.html#ac3ff3ce98767a2df178586b28f753b1e", null ],
-    [ "QueryCallback", "d5/d7c/a05726.html#a6dd1e7c0b80f6420d820629b1d4c7f83", null ],
-    [ "~QueryCallback", "d5/d7c/a05726.html#a85c9655f50b29e696adc0498615498fe", null ],
-    [ "QueryCallback", "d5/d7c/a05726.html#a18c36fe01e5bc1ffa92b1ddf9a1873e8", null ],
-    [ "InvokeIfReady", "d5/d7c/a05726.html#a4fa575b3a905906cde2fe1c24362639e", null ],
-    [ "operator=", "d5/d7c/a05726.html#a825e0907ca606c764e967696dd4397a8", null ],
-    [ "operator=", "d5/d7c/a05726.html#aecac362ce15206aef0f544e9485a5bcd", null ],
-    [ "SetNextQuery", "d5/d7c/a05726.html#a88ad1ca3946b0db8db4f7befca1d1b9e", null ],
-    [ "WithCallback", "d5/d7c/a05726.html#a5e53829af90b6661ffcf0eefdb5c8f25", null ],
-    [ "WithChainingCallback", "d5/d7c/a05726.html#ab96af2084492fb64756ab1d751da2283", null ],
-    [ "WithChainingPreparedCallback", "d5/d7c/a05726.html#a9c098ed933e0fcd1f639c23dae546f8a", null ],
-    [ "WithPreparedCallback", "d5/d7c/a05726.html#af881e4cbb2742817a4075d9d6deef26c", null ],
-    [ "ConstructActiveMember", "d5/d7c/a05726.html#a63276ee687270e668e7c51876ced5fb1", null ],
-    [ "DestroyActiveMember", "d5/d7c/a05726.html#aac0ba6a0017441eb25c4b294fde99186", null ],
-    [ "MoveFrom", "d5/d7c/a05726.html#a4ef783bc4f06f2cbaec3f4b6ca2c49aa", null ],
-    [ "_callbacks", "d5/d7c/a05726.html#a0c1c3dbbe82846340770760cf9c11aa4", null ],
-    [ "_isPrepared", "d5/d7c/a05726.html#a4421543960dfbf550988ba4e7aa71a1f", null ],
-    [ "_prepared", "d5/d7c/a05726.html#a2de8fa0d761f5e412b95209db02ceb11", null ],
-    [ "_string", "d5/d7c/a05726.html#a127cf43567892ef69ac864862165308a", null ]
+    [ "PreparedStatementTask", "d5/d7c/a05726.html#a332f6ddad1ee338da3fa4bd2461a9c29", null ],
+    [ "~PreparedStatementTask", "d5/d7c/a05726.html#a4ca96ab46d5015b2c673164652146886", null ],
+    [ "Execute", "d5/d7c/a05726.html#ad4058410f5eba4f0f935696d38ba85ab", null ],
+    [ "GetFuture", "d5/d7c/a05726.html#a07031e5cff28553e33d98140847b9e0d", null ],
+    [ "m_has_result", "d5/d7c/a05726.html#a7c2841b7638c42caa4e8c1116110f8a3", null ],
+    [ "m_result", "d5/d7c/a05726.html#a841a7aefd9ea58a76cead1da65a786b2", null ],
+    [ "m_stmt", "d5/d7c/a05726.html#aba9082a717729915a4e4d640220a49d2", null ]
 ];

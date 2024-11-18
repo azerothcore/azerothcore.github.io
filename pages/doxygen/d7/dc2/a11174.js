@@ -1,6 +1,7 @@
 var a11174 =
 [
-    [ "Command", "d7/dc2/a11174.html#a65dc9a4861ab63743146c65a0a6249f2", null ],
-    [ "Data", "d7/dc2/a11174.html#abda0f8cc15c7fb45fa81fcf5ccad8d08", null ],
-    [ "DataSize", "d7/dc2/a11174.html#a279f37acfa44c06ae14c5a544dd7baf6", null ]
+    [ "PlayerDumpReader", "d7/dc2/a11174.html#ad630b61e298fb1ddf165481c9a14e077", null ],
+    [ "LoadDump", "d7/dc2/a11174.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
+    [ "LoadDumpFromFile", "d7/dc2/a11174.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
+    [ "LoadDumpFromString", "d7/dc2/a11174.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
 ];

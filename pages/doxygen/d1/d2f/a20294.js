@@ -1,6 +1,6 @@
 var a20294 =
 [
-    [ "OnPeriodic", "d1/d2f/a20294.html#a418b37f00a8a48d0a4362fd5381797bf", null ],
-    [ "PrepareAuraScript", "d1/d2f/a20294.html#a60c0d5d67de6e3224cba34599acc3e69", null ],
-    [ "Register", "d1/d2f/a20294.html#a92fb0160f7a16e6cb6b9c928b744f5e0", null ]
+    [ "boss_thorim_arena_npcsAI", "d7/dff/a20298.html", "d7/dff/a20298" ],
+    [ "boss_thorim_arena_npcs", "d1/d2f/a20294.html#a60d22280bb1eb3c9da92deb08e887942", null ],
+    [ "GetAI", "d1/d2f/a20294.html#a3709e1c9df32755f5932398ba3535f2f", null ]
 ];

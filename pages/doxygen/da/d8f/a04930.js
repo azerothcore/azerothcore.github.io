@@ -1,11 +1,10 @@
 var a04930 =
 [
-    [ "ModelPosition", "da/d8f/a04930.html#ac611d964ae36e4ccd5a3bf385457a0ac", null ],
-    [ "init", "da/d8f/a04930.html#a5b7df306c28a7985fd3ab17d48350a27", null ],
-    [ "moveToBasePos", "da/d8f/a04930.html#a2fe1b48319a056f110ef700877257731", null ],
-    [ "transform", "da/d8f/a04930.html#add4c2efec70be75d8ffcd1009b6c2699", null ],
-    [ "iDir", "da/d8f/a04930.html#a24ba62281166e60036ac8a57b26c6abd", null ],
-    [ "iPos", "da/d8f/a04930.html#a36a3bd930273e0313e3b09c1289e9317", null ],
-    [ "iRotation", "da/d8f/a04930.html#ae53c5b044021f5ef04ecb5d8898fd8b3", null ],
-    [ "iScale", "da/d8f/a04930.html#a81bb029dce2aadec2f147a1329ee285e", null ]
+    [ "AreaInfo", "da/d8f/a04930.html#a1f45e5e030aaf5b16fb6c58097fa8b14", null ],
+    [ "adtId", "da/d8f/a04930.html#a95c1c986b14dfeba867fa55e77553499", null ],
+    [ "flags", "da/d8f/a04930.html#a780bdbb606fe694941d2105e14a29d70", null ],
+    [ "ground_Z", "da/d8f/a04930.html#aca4fada3b2062f74cf66cd34a63c0c86", null ],
+    [ "groupId", "da/d8f/a04930.html#a76ac6ccec6ff67f16689a6735e644e07", null ],
+    [ "result", "da/d8f/a04930.html#ab9e9a7658d5fb76be208835f786036b0", null ],
+    [ "rootId", "da/d8f/a04930.html#a6f60501d22be8c1d374a46e598d0f2e3", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/test/mocks/WorldMock.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Debugging/Errors.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,47 +105,116 @@ $(document).ready(function(){initNavTree('d4/dee/a00008.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">WorldMock.h File Reference</div></div>
+  <div class="headertitle"><div class="title">Errors.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+
+<p>This file contains definitions of functions used for reporting critical application errors.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">IWorld.h</a>&quot;</code><br />
-<code>#include &quot;gmock/gmock.h&quot;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;Windows.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de9/a28110.html">WorldMock</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:df/d5e/a04699"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5e/a04699.html">anonymous_namespace{Errors.cpp}</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a510bae7d9948cf497418ec913452009f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.html#a510bae7d9948cf497418ec913452009f">Crash</a>(message)</td></tr>
+<tr class="separator:a510bae7d9948cf497418ec913452009f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb65cb085124c346fd32ac4b92f0baa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.html#abb65cb085124c346fd32ac4b92f0baa9">AddScripts</a> ()</td></tr>
-<tr class="separator:abb65cb085124c346fd32ac4b92f0baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29601d3ea684d75bac9c331eb4866951"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.html#a29601d3ea684d75bac9c331eb4866951">GetDebugInfo</a> ()</td></tr>
+<tr class="separator:a29601d3ea684d75bac9c331eb4866951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">MakeMessage</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p >Make message for display erros</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">messageType</td><td>Message type (ASSERTION FAILED, FATAL ERROR, ERROR) end etc </td></tr>
+    <tr><td class="paramname">file</td><td>Path to file </td></tr>
+    <tr><td class="paramname">line</td><td>Line number in file </td></tr>
+    <tr><td class="paramname">function</td><td>Functionn name </td></tr>
+    <tr><td class="paramname">message</td><td><a class="el" href="../../dc/ddb/a07646.html">Condition</a> to string format </td></tr>
+    <tr><td class="paramname">fmtMessage</td><td>[optional] Display format message after condition </td></tr>
+    <tr><td class="paramname">debugInfo</td><td>[optional] Display debug info </td></tr>
+  </table>
+  </dd>
+</dl>
+</div></td></tr>
+<tr class="memitem:a31219fe016a9b170fc6ae111157ba552"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5e/a04699.html#a31219fe016a9b170fc6ae111157ba552">anonymous_namespace{Errors.cpp}::MakeMessage</a> (std::string_view messageType, std::string_view file, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> line, std::string_view function, std::string_view message, std::string_view fmtMessage={}, std::string_view debugInfo={})</td></tr>
+<tr class="separator:a31219fe016a9b170fc6ae111157ba552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">MakeAbortMessage</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p >Make message for display erros</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>Path to file </td></tr>
+    <tr><td class="paramname">line</td><td>Line number in file </td></tr>
+    <tr><td class="paramname">function</td><td>Functionn name </td></tr>
+    <tr><td class="paramname">fmtMessage</td><td>[optional] Display format message after condition </td></tr>
+  </table>
+  </dd>
+</dl>
+</div></td></tr>
+<tr class="memitem:a52b8a43ee2424672ac8de45dcc283eda"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5e/a04699.html#a52b8a43ee2424672ac8de45dcc283eda">anonymous_namespace{Errors.cpp}::MakeAbortMessage</a> (std::string_view file, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> line, std::string_view function, std::string_view fmtMessage={})</td></tr>
+<tr class="separator:a52b8a43ee2424672ac8de45dcc283eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="abb65cb085124c346fd32ac4b92f0baa9" name="abb65cb085124c346fd32ac4b92f0baa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb65cb085124c346fd32ac4b92f0baa9">&#9670;&#160;</a></span>AddScripts()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >This file contains definitions of functions used for reporting critical application errors. </p>
+<p >It is very important that (std::)abort is NEVER called in place of *((volatile int*)nullptr) = 0; Calling abort() on Windows does not invoke unhandled exception filters - a mechanism used by <a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a> to log crashes. exit(1) calls here are for static analysis tools to indicate that calling functions defined in this file terminates the application. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../">Errors.cpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a510bae7d9948cf497418ec913452009f" name="a510bae7d9948cf497418ec913452009f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510bae7d9948cf497418ec913452009f">&#9670;&#160;</a></span>Crash</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddScripts </td>
+          <td class="memname">#define Crash</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">message</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    ULONG_PTR execeptionArgs[] = { <span class="keyword">reinterpret_cast&lt;</span>ULONG_PTR<span class="keyword">&gt;</span>(strdup(message)), <span class="keyword">reinterpret_cast&lt;</span>ULONG_PTR<span class="keyword">&gt;</span>(_ReturnAddress()) }; \</div>
+<div class="line">    RaiseException(<a class="code hl_define" href="../../da/d45/a00011.html#adb1e581c0b1db74338cf2892218ff23f">EXCEPTION_ASSERTION_FAILURE</a>, 0, 2, execeptionArgs);</div>
+<div class="ttc" id="aa00011_html_adb1e581c0b1db74338cf2892218ff23f"><div class="ttname"><a href="../../da/d45/a00011.html#adb1e581c0b1db74338cf2892218ff23f">EXCEPTION_ASSERTION_FAILURE</a></div><div class="ttdeci">#define EXCEPTION_ASSERTION_FAILURE</div><div class="ttdef"><b>Definition:</b> Errors.h:73</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a29601d3ea684d75bac9c331eb4866951" name="a29601d3ea684d75bac9c331eb4866951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29601d3ea684d75bac9c331eb4866951">&#9670;&#160;</a></span>GetDebugInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GetDebugInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{}</div>
+<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
+<div class="line"><span class="lineno">  159</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  160</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00120">main()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -153,8 +222,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1e2b35566ac0cf24ea791bcb2545ed2e.html">test</a></li><li class="navelem"><a class="el" href="../../dir_d35b7636bdd4a8db0bf316c0b0a1358d.html">mocks</a></li><li class="navelem"><a class="el" href="../../d4/dee/a00008.html">WorldMock.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../d4/dee/a00008.html">Errors.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

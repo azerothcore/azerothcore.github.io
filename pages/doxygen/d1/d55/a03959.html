@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Maps/Map.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/PathGenerator.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,229 +106,215 @@ $(document).ready(function(){initNavTree('d1/d55/a03959.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Map.cpp File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">PathGenerator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DynamicTree.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Geometry.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">IVMapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapInstanced.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Metric.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGridLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;DetourNavMesh.h&quot;</code><br />
+<code>#include &quot;DetourNavMeshQuery.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MMapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSplineInitArgs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &lt;G3D/Vector3.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5c/a09470.html">ResetNotifier</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0e/a09722.html">PathGenerator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad41458075af3abab316f89b325f54b7e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ad41458075af3abab316f89b325f54b7e">IsInWMOInterior</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mogpFlags)</td></tr>
-<tr class="separator:ad41458075af3abab316f89b325f54b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9eb6992d76f02128388ae95c0415604a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a9eb6992d76f02128388ae95c0415604a">MAX_PATH_LENGTH</a>&#160;&#160;&#160;74</td></tr>
+<tr class="separator:a9eb6992d76f02128388ae95c0415604a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c3ae34e2d3733cc39fc1c207d4b814"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ac4c3ae34e2d3733cc39fc1c207d4b814">MAX_POINT_PATH_LENGTH</a>&#160;&#160;&#160;74</td></tr>
+<tr class="separator:ac4c3ae34e2d3733cc39fc1c207d4b814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ec8eeebdd39a1cceb896f6fcb996bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ab1ec8eeebdd39a1cceb896f6fcb996bc">SMOOTH_PATH_STEP_SIZE</a>&#160;&#160;&#160;4.0f</td></tr>
+<tr class="separator:ab1ec8eeebdd39a1cceb896f6fcb996bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9439d6d260a5bf3c1bba446a935b2ce4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a9439d6d260a5bf3c1bba446a935b2ce4">SMOOTH_PATH_SLOP</a>&#160;&#160;&#160;0.3f</td></tr>
+<tr class="separator:a9439d6d260a5bf3c1bba446a935b2ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29d27e72c40ec9a02fbdc29ee093857"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ad29d27e72c40ec9a02fbdc29ee093857">DISALLOW_TIME_AFTER_FAIL</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ad29d27e72c40ec9a02fbdc29ee093857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14571eb5f0eee95bf614e04c59b0207a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a14571eb5f0eee95bf614e04c59b0207a">VERTEX_SIZE</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a14571eb5f0eee95bf614e04c59b0207a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed37c24cf4f8cd0008c13f111e01092"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a6ed37c24cf4f8cd0008c13f111e01092">INVALID_POLYREF</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a6ed37c24cf4f8cd0008c13f111e01092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aae87d2a805abae1536d560092ab589f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#aae87d2a805abae1536d560092ab589f8">MapMagic</a> = { {'M', 'A', 'P', 'S'} }</td></tr>
-<tr class="separator:aae87d2a805abae1536d560092ab589f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f87af2b784af0df560d9dce7651c859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a3f87af2b784af0df560d9dce7651c859">MapVersionMagic</a> = 9</td></tr>
-<tr class="separator:a3f87af2b784af0df560d9dce7651c859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb7bc0ea8073198e3cb70d0ee7f2aa44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#aeb7bc0ea8073198e3cb70d0ee7f2aa44">MapAreaMagic</a> = { {'A', 'R', 'E', 'A'} }</td></tr>
-<tr class="separator:aeb7bc0ea8073198e3cb70d0ee7f2aa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53a23e88747c5795afb99cccd6b4c6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ae53a23e88747c5795afb99cccd6b4c6a">MapHeightMagic</a> = { {'M', 'H', 'G', 'T'} }</td></tr>
-<tr class="separator:ae53a23e88747c5795afb99cccd6b4c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4bf520080f57455b531f7c9bcea49f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#aaf4bf520080f57455b531f7c9bcea49f">MapLiquidMagic</a> = { {'M', 'L', 'I', 'Q'} }</td></tr>
-<tr class="separator:aaf4bf520080f57455b531f7c9bcea49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10e90ca95e60d3244de3e68d7882433b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a10e90ca95e60d3244de3e68d7882433b">holetab_h</a> [4] = { 0x1111, 0x2222, 0x4444, 0x8888 }</td></tr>
-<tr class="separator:a10e90ca95e60d3244de3e68d7882433b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54b408dce116992610ba9c141426d821"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#a54b408dce116992610ba9c141426d821">holetab_v</a> [4] = { 0x000F, 0x00F0, 0x0F00, 0xF000 }</td></tr>
-<tr class="separator:a54b408dce116992610ba9c141426d821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae093c9a96eda0463cdd2501ba83f10c3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a> = 0x00
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a> = 0x20
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a> = 0x80
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a> = PATHFIND_FARFROMPOLY_START | PATHFIND_FARFROMPOLY_END
+<br />
+ }</td></tr>
+<tr class="separator:ae093c9a96eda0463cdd2501ba83f10c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ad41458075af3abab316f89b325f54b7e" name="ad41458075af3abab316f89b325f54b7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad41458075af3abab316f89b325f54b7e">&#9670;&#160;</a></span>IsInWMOInterior()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad29d27e72c40ec9a02fbdc29ee093857" name="ad29d27e72c40ec9a02fbdc29ee093857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29d27e72c40ec9a02fbdc29ee093857">&#9670;&#160;</a></span>DISALLOW_TIME_AFTER_FAIL</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool IsInWMOInterior </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>mogpFlags</em></td><td>)</td>
-          <td></td>
+          <td class="memname">#define DISALLOW_TIME_AFTER_FAIL&#160;&#160;&#160;3</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2096</span>{</div>
-<div class="line"><span class="lineno"> 2097</span>    <span class="keywordflow">return</span> (mogpFlags &amp; 0x2000) != 0;</div>
-<div class="line"><span class="lineno"> 2098</span>}</div>
+
+</div>
+</div>
+<a id="a6ed37c24cf4f8cd0008c13f111e01092" name="a6ed37c24cf4f8cd0008c13f111e01092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed37c24cf4f8cd0008c13f111e01092">&#9670;&#160;</a></span>INVALID_POLYREF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INVALID_POLYREF&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eb6992d76f02128388ae95c0415604a" name="a9eb6992d76f02128388ae95c0415604a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb6992d76f02128388ae95c0415604a">&#9670;&#160;</a></span>MAX_PATH_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_PATH_LENGTH&#160;&#160;&#160;74</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4c3ae34e2d3733cc39fc1c207d4b814" name="ac4c3ae34e2d3733cc39fc1c207d4b814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c3ae34e2d3733cc39fc1c207d4b814">&#9670;&#160;</a></span>MAX_POINT_PATH_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_POINT_PATH_LENGTH&#160;&#160;&#160;74</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9439d6d260a5bf3c1bba446a935b2ce4" name="a9439d6d260a5bf3c1bba446a935b2ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9439d6d260a5bf3c1bba446a935b2ce4">&#9670;&#160;</a></span>SMOOTH_PATH_SLOP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SMOOTH_PATH_SLOP&#160;&#160;&#160;0.3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1ec8eeebdd39a1cceb896f6fcb996bc" name="ab1ec8eeebdd39a1cceb896f6fcb996bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ec8eeebdd39a1cceb896f6fcb996bc">&#9670;&#160;</a></span>SMOOTH_PATH_STEP_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SMOOTH_PATH_STEP_SIZE&#160;&#160;&#160;4.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14571eb5f0eee95bf614e04c59b0207a" name="a14571eb5f0eee95bf614e04c59b0207a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14571eb5f0eee95bf614e04c59b0207a">&#9670;&#160;</a></span>VERTEX_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERTEX_SIZE&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae093c9a96eda0463cdd2501ba83f10c3" name="ae093c9a96eda0463cdd2501ba83f10c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae093c9a96eda0463cdd2501ba83f10c3">&#9670;&#160;</a></span>PathType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0" name="ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0"></a>PATHFIND_BLANK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1" name="ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1"></a>PATHFIND_NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f" name="ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f"></a>PATHFIND_SHORTCUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be" name="ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be"></a>PATHFIND_INCOMPLETE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984" name="ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984"></a>PATHFIND_NOPATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf" name="ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf"></a>PATHFIND_NOT_USING_PATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2" name="ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2"></a>PATHFIND_SHORT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab" name="ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab"></a>PATHFIND_FARFROMPOLY_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9" name="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"></a>PATHFIND_FARFROMPOLY_END&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c" name="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"></a>PATHFIND_FARFROMPOLY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a>             = 0x00,   <span class="comment">// path not built yet</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a>            = 0x01,   <span class="comment">// normal path</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a>          = 0x02,   <span class="comment">// travel through obstacles, terrain, air, etc (old behavior)</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a>        = 0x04,   <span class="comment">// we have partial path to follow - getting closer to target</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a>            = 0x08,   <span class="comment">// no valid path at all or error in generating one</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a>    = 0x10,   <span class="comment">// used when we are either flying/swiming or on map w/o mmaps</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a>             = 0x20,   <span class="comment">// path is longer or equal to its limited path length</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> = 0x40,   <span class="comment">// start position is far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>   = 0x80,   <span class="comment">// end positions is far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a>       = <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> | <a class="code hl_enumvalue" href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>, <span class="comment">// start or end positions are far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   56</span>};</div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_END</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:54</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a></div><div class="ttdeci">@ PATHFIND_NOT_USING_PATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:51</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a></div><div class="ttdeci">@ PATHFIND_NORMAL</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:47</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a></div><div class="ttdeci">@ PATHFIND_NOPATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:50</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_START</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:53</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:55</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a></div><div class="ttdeci">@ PATHFIND_SHORT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:52</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a></div><div class="ttdeci">@ PATHFIND_SHORTCUT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:48</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a></div><div class="ttdeci">@ PATHFIND_BLANK</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:46</div></div>
+<div class="ttc" id="aa03959_html_ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be"><div class="ttname"><a href="../../d1/d55/a03959.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a></div><div class="ttdeci">@ PATHFIND_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:49</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02289">Map::GetFullTerrainStatusForPosition()</a>, and <a class="el" href="../../#l02203">Map::GetLiquidData()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a10e90ca95e60d3244de3e68d7882433b" name="a10e90ca95e60d3244de3e68d7882433b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10e90ca95e60d3244de3e68d7882433b">&#9670;&#160;</a></span>holetab_h</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> const holetab_h[4] = { 0x1111, 0x2222, 0x4444, 0x8888 }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l01797">GridMap::isHole()</a>.</p>
-
-</div>
-</div>
-<a id="a54b408dce116992610ba9c141426d821" name="a54b408dce116992610ba9c141426d821"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b408dce116992610ba9c141426d821">&#9670;&#160;</a></span>holetab_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> const holetab_v[4] = { 0x000F, 0x00F0, 0x0F00, 0xF000 }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l01797">GridMap::isHole()</a>.</p>
-
-</div>
-</div>
-<a id="aeb7bc0ea8073198e3cb70d0ee7f2aa44" name="aeb7bc0ea8073198e3cb70d0ee7f2aa44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb7bc0ea8073198e3cb70d0ee7f2aa44">&#9670;&#160;</a></span>MapAreaMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a> MapAreaMagic = { {'A', 'R', 'E', 'A'} }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l01434">GridMap::loadAreaData()</a>.</p>
-
-</div>
-</div>
-<a id="ae53a23e88747c5795afb99cccd6b4c6a" name="ae53a23e88747c5795afb99cccd6b4c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae53a23e88747c5795afb99cccd6b4c6a">&#9670;&#160;</a></span>MapHeightMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a> MapHeightMagic = { {'M', 'H', 'G', 'T'} }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l01452">GridMap::loadHeightData()</a>.</p>
-
-</div>
-</div>
-<a id="aaf4bf520080f57455b531f7c9bcea49f" name="aaf4bf520080f57455b531f7c9bcea49f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf4bf520080f57455b531f7c9bcea49f">&#9670;&#160;</a></span>MapLiquidMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a> MapLiquidMagic = { {'M', 'L', 'I', 'Q'} }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l01508">GridMap::loadLiquidData()</a>.</p>
-
-</div>
-</div>
-<a id="aae87d2a805abae1536d560092ab589f8" name="aae87d2a805abae1536d560092ab589f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae87d2a805abae1536d560092ab589f8">&#9670;&#160;</a></span>MapMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d73/a09466.html">u_map_magic</a> MapMagic = { {'M', 'A', 'P', 'S'} }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">Map::ExistMap()</a>, and <a class="el" href="../../#l01356">GridMap::loadData()</a>.</p>
-
-</div>
-</div>
-<a id="a3f87af2b784af0df560d9dce7651c859" name="a3f87af2b784af0df560d9dce7651c859"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f87af2b784af0df560d9dce7651c859">&#9670;&#160;</a></span>MapVersionMagic</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MapVersionMagic = 9</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">Map::ExistMap()</a>, and <a class="el" href="../../#l01356">GridMap::loadData()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -336,8 +322,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4ee90c1a7d0130816a1febdd934a8090.html">Maps</a></li><li class="navelem"><a class="el" href="../../d1/d55/a03959.html">Map.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d1/d55/a03959.html">PathGenerator.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

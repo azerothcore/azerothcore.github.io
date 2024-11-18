@@ -1,10 +1,7 @@
 var a05830 =
 [
-    [ "DefaultTargetSelector", "dd/d81/a05830.html#a4ec61d03309c7d8a977afb2060b549a3", null ],
-    [ "operator()", "dd/d81/a05830.html#aa028e0b06c45bc1eaaa8ca0bb2208a35", null ],
-    [ "except", "dd/d81/a05830.html#ad7b04bc5bd7c5cd139d0d56fbb6f9f4e", null ],
-    [ "m_aura", "dd/d81/a05830.html#a93cae8f794de101a6a0a821961c312b8", null ],
-    [ "m_dist", "dd/d81/a05830.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f", null ],
-    [ "m_playerOnly", "dd/d81/a05830.html#aa7d50214f6fcb051279373e3373a6f68", null ],
-    [ "me", "dd/d81/a05830.html#a4e468ce5a085ef402659db46f71d6262", null ]
+    [ "arg1", "dd/d81/a05830.html#aa2018e5823bcf013847605847231e3c2", null ],
+    [ "arg2", "dd/d81/a05830.html#a4c8721b050e72556a901be1a4a49c2b6", null ],
+    [ "arg3", "dd/d81/a05830.html#acadf2c3d1d60f8f49fde62b9172980e5", null ],
+    [ "updateType", "dd/d81/a05830.html#a84cace2469c54d57b33abe5ca93588ca", null ]
 ];

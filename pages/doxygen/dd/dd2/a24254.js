@@ -1,8 +1,9 @@
 var a24254 =
 [
-    [ "HandleDamage", "dd/dd2/a24254.html#a2c5149eb0b6698240c25b63e71af0854", null ],
-    [ "PrepareSpellScript", "dd/dd2/a24254.html#a8a19b594de9ba23a59e22db7d05eb60d", null ],
-    [ "Register", "dd/dd2/a24254.html#ad29179d9159700b52b0c21a779cd060b", null ],
-    [ "Suicide", "dd/dd2/a24254.html#a981f8547eae9b317111bf9a7016510ab", null ],
-    [ "Validate", "dd/dd2/a24254.html#aa2c3399146b15f754e073e4fa08f3d5a", null ]
+    [ "CheckCast", "dd/dd2/a24254.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
+    [ "EntryCheck", "dd/dd2/a24254.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
+    [ "HandleBaseDummy", "dd/dd2/a24254.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
+    [ "HandleDummy", "dd/dd2/a24254.html#a34d9f5699f306b27830ced2129be506c", null ],
+    [ "PrepareSpellScript", "dd/dd2/a24254.html#af7aff878540dd34138aa479f532611b6", null ],
+    [ "Register", "dd/dd2/a24254.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
 ];

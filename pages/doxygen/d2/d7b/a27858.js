@@ -1,5 +1,5 @@
 var a27858 =
 [
-    [ "id", "d2/d7b/a27858.html#a22e48015dd880199e131089e35b1ce05", null ],
-    [ "spellId", "d2/d7b/a27858.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
+    [ "content", "d2/d7b/a27858.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
+    [ "ID", "d2/d7b/a27858.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
 ];

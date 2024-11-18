@@ -1,13 +1,16 @@
 var a02918 =
 [
-    [ "Movement::TransportPathTransform", "de/d1a/a09786.html", "de/d1a/a09786" ],
-    [ "Movement::HoverMovementTransform", "da/d2b/a09790.html", "da/d2b/a09790" ],
-    [ "Movement::MoveSplineInit", "de/db8/a09794.html", "de/db8/a09794" ],
-    [ "AnimType", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fb", [
-      [ "ToGround", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba41889d3628918ee702ad48c7d2689f31", null ],
-      [ "FlyToFly", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba547b00b126d19fb188c747f076bf9d2c", null ],
-      [ "ToFly", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fba3a5a6b4a2eebf34396f22e4c61c10d9b", null ],
-      [ "FlyToGround", "d4/db9/a02918.html#ab518009ca4123b1c5dce0ffe108b78fbae5cd8217abf54b5ab1e67d925d5c7602", null ]
+    [ "SmartAI", "d6/d30/a06150.html", "d6/d30/a06150" ],
+    [ "SmartGameObjectAI", "de/d33/a06154.html", "de/d33/a06154" ],
+    [ "SmartEscortState", "d4/db9/a02918.html#a0911043eb49fd7958a828a60e0537d54", [
+      [ "SMART_ESCORT_NONE", "d4/db9/a02918.html#a0911043eb49fd7958a828a60e0537d54ad51ea013b009290e4eba7f3591d0e889", null ],
+      [ "SMART_ESCORT_ESCORTING", "d4/db9/a02918.html#a0911043eb49fd7958a828a60e0537d54a0756668fef1eacc6101e9113e974cc19", null ],
+      [ "SMART_ESCORT_RETURNING", "d4/db9/a02918.html#a0911043eb49fd7958a828a60e0537d54a404e4c2ac36fc3f87779560b58af7fe8", null ],
+      [ "SMART_ESCORT_PAUSED", "d4/db9/a02918.html#a0911043eb49fd7958a828a60e0537d54a35650bf0f6f9a142acfb5b6e5cd194f7", null ]
     ] ],
-    [ "SelectSpeedType", "d4/db9/a02918.html#a1f10281929f445f6d8150dc510bf1f2f", null ]
+    [ "SmartEscortVars", "d4/db9/a02918.html#a598eb331d977fa893d589fe3e6cebfbf", [
+      [ "SMART_ESCORT_MAX_PLAYER_DIST", "d4/db9/a02918.html#a598eb331d977fa893d589fe3e6cebfbfa43349fe96bf29348a87944e39bacfdba", null ],
+      [ "SMART_MAX_AID_DIST", "d4/db9/a02918.html#a598eb331d977fa893d589fe3e6cebfbfa74a5b65862962dfdb4c72589d5191c3f", null ]
+    ] ],
+    [ "AddSC_SmartScripts", "d4/db9/a02918.html#ab6012619ba76775b314475ec60f8c7d7", null ]
 ];

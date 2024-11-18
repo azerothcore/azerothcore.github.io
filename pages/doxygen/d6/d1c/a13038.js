@@ -1,7 +1,11 @@
 var a13038 =
 [
-    [ "HandleRemove", "d6/d1c/a13038.html#a4484cf33e423f23cad9559a6a16ed9b4", null ],
-    [ "PrepareAuraScript", "d6/d1c/a13038.html#a6fa407996b59d98d0eeef877ee89784d", null ],
-    [ "Register", "d6/d1c/a13038.html#a7dc81b47954ee8c10b99f389740de0be", null ],
-    [ "Validate", "d6/d1c/a13038.html#afd94a159c0f429f2a63ffbd0a38d32e3", null ]
+    [ "npc_kalecgos_kj", "d6/d1c/a13038.html#aae30bdf82ff333ef02a1981717c54ea4", null ],
+    [ "DoAction", "d6/d1c/a13038.html#a6b2743b9b6bfb4d687e54412fe66c17f", null ],
+    [ "JustSummoned", "d6/d1c/a13038.html#acf92559a2b06b8c9cce5c4887dd1316b", null ],
+    [ "Reset", "d6/d1c/a13038.html#ab3cd4229999bddc16fe8152acb187111", null ],
+    [ "UpdateAI", "d6/d1c/a13038.html#a8a029eb2cf7fd96ed324d93f4d66a30d", null ],
+    [ "events", "d6/d1c/a13038.html#ab5cc58e293e20172558e15fa28670633", null ],
+    [ "instance", "d6/d1c/a13038.html#a5a6f22c34578ccb7a5c1696d8ed342d6", null ],
+    [ "summons", "d6/d1c/a13038.html#a57af12b97c6e250a50283b224bc5cb6f", null ]
 ];

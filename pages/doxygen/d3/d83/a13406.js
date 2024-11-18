@@ -1,6 +1,8 @@
 var a13406 =
 [
-    [ "npc_tapoke_slim_jahnAI", "d2/dd5/a13410.html", "d2/dd5/a13410" ],
-    [ "npc_tapoke_slim_jahn", "d3/d83/a13406.html#a61e36b57f8ba78c371d454efb1512579", null ],
-    [ "GetAI", "d3/d83/a13406.html#a397629742eace1b96dfd9d4a2e55cc32", null ]
+    [ "npc_the_scourge_cauldronAI", "d3/d83/a13406.html#aa8b221cfe49b09efbfe5943489c844b8", null ],
+    [ "DoDie", "d3/d83/a13406.html#a9f720a27db2943a66b11ad6355690bf5", null ],
+    [ "JustEngagedWith", "d3/d83/a13406.html#a89954dec2f7d57d933c18822333243ac", null ],
+    [ "MoveInLineOfSight", "d3/d83/a13406.html#a256195dbe75859d72afcd0defb9ff76e", null ],
+    [ "Reset", "d3/d83/a13406.html#ab18bb2eb344f45827685786c665b1750", null ]
 ];

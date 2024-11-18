@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Crypto::AES Class Reference</title>
+<title>AzerothCore: Acore::unary_function&lt; ArgumentType, ResultType &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,364 +106,52 @@ $(document).ready(function(){initNavTree('de/dda/a05042.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d4/d6b/a05039.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Crypto::AES Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::unary_function&lt; ArgumentType, ResultType &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">AES.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3ab3c73ca75661d53842f924f9914656"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a3ab3c73ca75661d53842f924f9914656">IV</a> = std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../de/dda/a05042.html#a5c62e48e8791379cdcdb5d20c018f0ea">IV_SIZE_BYTES</a> &gt;</td></tr>
-<tr class="separator:a3ab3c73ca75661d53842f924f9914656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad479930aa60f991335d4cf68251958bb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ad479930aa60f991335d4cf68251958bb">Key</a> = std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../de/dda/a05042.html#a03df6b128e9d2553c44e71680ca79cb5">KEY_SIZE_BYTES</a> &gt;</td></tr>
-<tr class="separator:ad479930aa60f991335d4cf68251958bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6abd9fd7a9b7bafc4c300ebca415a1e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ad6abd9fd7a9b7bafc4c300ebca415a1e">Tag</a> = <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>[<a class="el" href="../../de/dda/a05042.html#a0a7619278214bbe6b2bd5ad003828ef0">TAG_SIZE_BYTES</a>]</td></tr>
-<tr class="separator:ad6abd9fd7a9b7bafc4c300ebca415a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a75c197cecf7cd7230a1a9f64e8ec9f00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a75c197cecf7cd7230a1a9f64e8ec9f00">AES</a> (bool encrypting)</td></tr>
-<tr class="separator:a75c197cecf7cd7230a1a9f64e8ec9f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcdb72bef5a57586630650372c339410"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#abcdb72bef5a57586630650372c339410">~AES</a> ()</td></tr>
-<tr class="separator:abcdb72bef5a57586630650372c339410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910f4dcbbd2868264d4b11f3041c833d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a910f4dcbbd2868264d4b11f3041c833d">Init</a> (<a class="el" href="../../de/dda/a05042.html#ad479930aa60f991335d4cf68251958bb">Key</a> const &amp;key)</td></tr>
-<tr class="separator:a910f4dcbbd2868264d4b11f3041c833d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9933ca01e34684d466bc364dda11a30a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a9933ca01e34684d466bc364dda11a30a">Process</a> (<a class="el" href="../../de/dda/a05042.html#a3ab3c73ca75661d53842f924f9914656">IV</a> const &amp;iv, <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *data, std::size_t length, <a class="el" href="../../de/dda/a05042.html#ad6abd9fd7a9b7bafc4c300ebca415a1e">Tag</a> &amp;tag)</td></tr>
-<tr class="separator:a9933ca01e34684d466bc364dda11a30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5c62e48e8791379cdcdb5d20c018f0ea"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a5c62e48e8791379cdcdb5d20c018f0ea">IV_SIZE_BYTES</a> = 12</td></tr>
-<tr class="separator:a5c62e48e8791379cdcdb5d20c018f0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03df6b128e9d2553c44e71680ca79cb5"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a03df6b128e9d2553c44e71680ca79cb5">KEY_SIZE_BYTES</a> = 16</td></tr>
-<tr class="separator:a03df6b128e9d2553c44e71680ca79cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a7619278214bbe6b2bd5ad003828ef0"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a0a7619278214bbe6b2bd5ad003828ef0">TAG_SIZE_BYTES</a> = 12</td></tr>
-<tr class="separator:a0a7619278214bbe6b2bd5ad003828ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ae461a0a028ca8d02af56496252e6322d"><td class="memItemLeft" align="right" valign="top">EVP_CIPHER_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a></td></tr>
-<tr class="separator:ae461a0a028ca8d02af56496252e6322d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5e1bc89ac1c21f97994db7c76ae4e4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">_encrypting</a></td></tr>
-<tr class="separator:ac5e1bc89ac1c21f97994db7c76ae4e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0011a133ce27e947c35917314e60693"><td class="memItemLeft" align="right" valign="top">typedef ArgumentType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ad0011a133ce27e947c35917314e60693">argument_type</a></td></tr>
+<tr class="separator:ad0011a133ce27e947c35917314e60693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9"><td class="memItemLeft" align="right" valign="top">typedef ResultType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
+<tr class="separator:a6dcbf6789c1565b95f16de3d580118a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a3ab3c73ca75661d53842f924f9914656" name="a3ab3c73ca75661d53842f924f9914656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ab3c73ca75661d53842f924f9914656">&#9670;&#160;</a></span>IV</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class ArgumentType, class ResultType&gt;<br />
+struct Acore::unary_function&lt; ArgumentType, ResultType &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ad0011a133ce27e947c35917314e60693" name="ad0011a133ce27e947c35917314e60693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0011a133ce27e947c35917314e60693">&#9670;&#160;</a></span>argument_type</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class ArgumentType , class ResultType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../de/dda/a05042.html#a3ab3c73ca75661d53842f924f9914656">Acore::Crypto::AES::IV</a> =  std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../de/dda/a05042.html#a5c62e48e8791379cdcdb5d20c018f0ea">IV_SIZE_BYTES</a>&gt;</td>
+          <td class="memname">typedef ArgumentType <a class="el" href="../../de/dda/a05042.html">Acore::unary_function</a>&lt; ArgumentType, ResultType &gt;::argument_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad479930aa60f991335d4cf68251958bb" name="ad479930aa60f991335d4cf68251958bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad479930aa60f991335d4cf68251958bb">&#9670;&#160;</a></span>Key</h2>
+<a id="a6dcbf6789c1565b95f16de3d580118a9" name="a6dcbf6789c1565b95f16de3d580118a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcbf6789c1565b95f16de3d580118a9">&#9670;&#160;</a></span>result_type</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class ArgumentType , class ResultType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../de/dda/a05042.html#ad479930aa60f991335d4cf68251958bb">Acore::Crypto::AES::Key</a> =  std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../de/dda/a05042.html#a03df6b128e9d2553c44e71680ca79cb5">KEY_SIZE_BYTES</a>&gt;</td>
+          <td class="memname">typedef ResultType <a class="el" href="../../de/dda/a05042.html">Acore::unary_function</a>&lt; ArgumentType, ResultType &gt;::result_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad6abd9fd7a9b7bafc4c300ebca415a1e" name="ad6abd9fd7a9b7bafc4c300ebca415a1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6abd9fd7a9b7bafc4c300ebca415a1e">&#9670;&#160;</a></span>Tag</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../de/dda/a05042.html#ad6abd9fd7a9b7bafc4c300ebca415a1e">Acore::Crypto::AES::Tag</a> =  <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>[<a class="el" href="../../de/dda/a05042.html#a0a7619278214bbe6b2bd5ad003828ef0">TAG_SIZE_BYTES</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a75c197cecf7cd7230a1a9f64e8ec9f00" name="a75c197cecf7cd7230a1a9f64e8ec9f00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75c197cecf7cd7230a1a9f64e8ec9f00">&#9670;&#160;</a></span>AES()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acore::Crypto::AES::AES </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>encrypting</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   22</span>                                   : <a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>(EVP_CIPHER_CTX_new()), <a class="code hl_variable" href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">_encrypting</a>(encrypting)</div>
-<div class="line"><span class="lineno">   23</span>{</div>
-<div class="line"><span class="lineno">   24</span>    EVP_CIPHER_CTX_init(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>);</div>
-<div class="line"><span class="lineno">   25</span>    <span class="keywordtype">int</span> status = EVP_CipherInit_ex(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, EVP_aes_128_gcm(), <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">_encrypting</a> ? 1 : 0);</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(status);</div>
-<div class="line"><span class="lineno">   27</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa05042_html_ac5e1bc89ac1c21f97994db7c76ae4e4e"><div class="ttname"><a href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">Acore::Crypto::AES::_encrypting</a></div><div class="ttdeci">bool _encrypting</div><div class="ttdef"><b>Definition:</b> AES.h:47</div></div>
-<div class="ttc" id="aa05042_html_ae461a0a028ca8d02af56496252e6322d"><div class="ttname"><a href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">Acore::Crypto::AES::_ctx</a></div><div class="ttdeci">EVP_CIPHER_CTX * _ctx</div><div class="ttdef"><b>Definition:</b> AES.h:46</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">_ctx</a>, <a class="el" href="../../#l00047">_encrypting</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-</div>
-</div>
-<a id="abcdb72bef5a57586630650372c339410" name="abcdb72bef5a57586630650372c339410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcdb72bef5a57586630650372c339410">&#9670;&#160;</a></span>~AES()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acore::Crypto::AES::~AES </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    EVP_CIPHER_CTX_free(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>);</div>
-<div class="line"><span class="lineno">   32</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a910f4dcbbd2868264d4b11f3041c833d" name="a910f4dcbbd2868264d4b11f3041c833d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a910f4dcbbd2868264d4b11f3041c833d">&#9670;&#160;</a></span>Init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Crypto::AES::Init </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/dda/a05042.html#ad479930aa60f991335d4cf68251958bb">Key</a> const &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">int</span> status = EVP_CipherInit_ex(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, key.data(), <span class="keyword">nullptr</span>, -1);</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(status);</div>
-<div class="line"><span class="lineno">   38</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-</div>
-</div>
-<a id="a9933ca01e34684d466bc364dda11a30a" name="a9933ca01e34684d466bc364dda11a30a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9933ca01e34684d466bc364dda11a30a">&#9670;&#160;</a></span>Process()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acore::Crypto::AES::Process </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/dda/a05042.html#a3ab3c73ca75661d53842f924f9914656">IV</a> const &amp;&#160;</td>
-          <td class="paramname"><em>iv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/dda/a05042.html#ad6abd9fd7a9b7bafc4c300ebca415a1e">Tag</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(length &lt;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(std::numeric_limits&lt;int&gt;::max()));</div>
-<div class="line"><span class="lineno">   43</span>    <span class="keywordtype">int</span> len = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(length);</div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (!EVP_CipherInit_ex(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, iv.data(), -1))</div>
-<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   46</span> </div>
-<div class="line"><span class="lineno">   47</span>    <span class="keywordtype">int</span> outLen;</div>
-<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">if</span> (!EVP_CipherUpdate(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, data, &amp;outLen, data, len))</div>
-<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   50</span> </div>
-<div class="line"><span class="lineno">   51</span>    len -= outLen;</div>
-<div class="line"><span class="lineno">   52</span> </div>
-<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">_encrypting</a> &amp;&amp; !EVP_CIPHER_CTX_ctrl(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, EVP_CTRL_GCM_SET_TAG, <span class="keyword">sizeof</span>(tag), tag))</div>
-<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (!EVP_CipherFinal_ex(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, data + outLen, &amp;outLen))</div>
-<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   58</span> </div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(len == outLen);</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dda/a05042.html#ac5e1bc89ac1c21f97994db7c76ae4e4e">_encrypting</a> &amp;&amp; !EVP_CIPHER_CTX_ctrl(<a class="code hl_variable" href="../../de/dda/a05042.html#ae461a0a028ca8d02af56496252e6322d">_ctx</a>, EVP_CTRL_GCM_GET_TAG, <span class="keyword">sizeof</span>(tag), tag))</div>
-<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   63</span> </div>
-<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   65</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae461a0a028ca8d02af56496252e6322d" name="ae461a0a028ca8d02af56496252e6322d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae461a0a028ca8d02af56496252e6322d">&#9670;&#160;</a></span>_ctx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">EVP_CIPHER_CTX* Acore::Crypto::AES::_ctx</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">AES()</a>.</p>
-
-</div>
-</div>
-<a id="ac5e1bc89ac1c21f97994db7c76ae4e4e" name="ac5e1bc89ac1c21f97994db7c76ae4e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5e1bc89ac1c21f97994db7c76ae4e4e">&#9670;&#160;</a></span>_encrypting</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acore::Crypto::AES::_encrypting</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">AES()</a>.</p>
-
-</div>
-</div>
-<a id="a5c62e48e8791379cdcdb5d20c018f0ea" name="a5c62e48e8791379cdcdb5d20c018f0ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c62e48e8791379cdcdb5d20c018f0ea">&#9670;&#160;</a></span>IV_SIZE_BYTES</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::AES::IV_SIZE_BYTES = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00581">account_commandscript::HandleAccountSet2FACommand()</a>.</p>
-
-</div>
-</div>
-<a id="a03df6b128e9d2553c44e71680ca79cb5" name="a03df6b128e9d2553c44e71680ca79cb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03df6b128e9d2553c44e71680ca79cb5">&#9670;&#160;</a></span>KEY_SIZE_BYTES</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::AES::KEY_SIZE_BYTES = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">SecretMgr::AttemptTransition()</a>.</p>
-
-</div>
-</div>
-<a id="a0a7619278214bbe6b2bd5ad003828ef0" name="a0a7619278214bbe6b2bd5ad003828ef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a7619278214bbe6b2bd5ad003828ef0">&#9670;&#160;</a></span>TAG_SIZE_BYTES</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::AES::TAG_SIZE_BYTES = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00581">account_commandscript::HandleAccountSet2FACommand()</a>.</p>
 
 </div>
 </div>
@@ -472,8 +160,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d70/a04684.html">Crypto</a></li><li class="navelem"><a class="el" href="../../de/dda/a05042.html">AES</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/dda/a05042.html">unary_function</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,11 +1,6 @@
 var a13922 =
 [
-    [ "o", "d2/d0f/a13922.html#af0a1551e7a1ced5413b6096ba15db8b2", null ],
-    [ "rot0", "d2/d0f/a13922.html#a1cc2b7787c803a4e126e06ab5b5c0ee6", null ],
-    [ "rot1", "d2/d0f/a13922.html#a71696fa3f95eb20d950b6ba2ada153f4", null ],
-    [ "rot2", "d2/d0f/a13922.html#ac2e4113330ebc9d9db379fb87eb55c03", null ],
-    [ "rot3", "d2/d0f/a13922.html#a3fc28475914b0ed4afe46fd4f4ff66b1", null ],
-    [ "x", "d2/d0f/a13922.html#a6e527854cf0959995d6b0133dedc94c9", null ],
-    [ "y", "d2/d0f/a13922.html#a7536047696bd4883237369976b503131", null ],
-    [ "z", "d2/d0f/a13922.html#a33ba4ca8ce5f406aaa5f571ba7236eb5", null ]
+    [ "npc_grizzlemaw_cw_triggerAI", "dc/d13/a13926.html", "dc/d13/a13926" ],
+    [ "npc_grizzlemaw_cw_trigger", "d2/d0f/a13922.html#a4514796784d974ba6de09b5a5d4e5f3b", null ],
+    [ "GetAI", "d2/d0f/a13922.html#a1a834bda866033a3cca4fc4ece447313", null ]
 ];

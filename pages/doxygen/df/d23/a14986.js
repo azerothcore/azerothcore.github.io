@@ -1,10 +1,7 @@
 var a14986 =
 [
-    [ "npc_rabid_thistle_bearAI", "df/d23/a14986.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
-    [ "Initialize", "df/d23/a14986.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
-    [ "Reset", "df/d23/a14986.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
-    [ "SpellHit", "df/d23/a14986.html#a62bde5a122748564cc806046bf9dcbaa", null ],
-    [ "UpdateAI", "df/d23/a14986.html#a8f6c5b873756a58760b2861bc8b86804", null ],
-    [ "_events", "df/d23/a14986.html#ad3852bf4588c453642e75fcdc544767b", null ],
-    [ "_playerGUID", "df/d23/a14986.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
+    [ "npc_prospector_remtravelAI", "d6/de2/a14990.html", "d6/de2/a14990" ],
+    [ "npc_prospector_remtravel", "df/d23/a14986.html#aa213161fc60e615682252125f6c58f7f", null ],
+    [ "GetAI", "df/d23/a14986.html#aa8e1bb551036684b05c1b3bea4c66b1d", null ],
+    [ "OnQuestAccept", "df/d23/a14986.html#a5e11149b6359927a71c98242d979e65b", null ]
 ];

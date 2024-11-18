@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::CreatureRelocationNotifier Struct Reference</title>
+<title>AzerothCore: NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,77 +105,372 @@ $(document).ready(function(){initNavTree('de/d62/a08854.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d5/d1d/a08851.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::CreatureRelocationNotifier Struct Reference</div></div>
+  <div class="headertitle"><div class="title">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">NGrid.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ab0a1340c0a1ce99ef8654117ac2a162f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/d78/a08838.html">Grid</a>&lt; ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a></td></tr>
+<tr class="separator:ab0a1340c0a1ce99ef8654117ac2a162f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa144cd2c5b69351afd312084c0e97f0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#aa144cd2c5b69351afd312084c0e97f0d">CreatureRelocationNotifier</a> (<a class="el" href="../../dc/dbf/a07754.html">Creature</a> &amp;c)</td></tr>
-<tr class="separator:aa144cd2c5b69351afd312084c0e97f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa69e9bd551895ca3497d1bfbe5fa79ba"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa69e9bd551895ca3497d1bfbe5fa79ba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#aa69e9bd551895ca3497d1bfbe5fa79ba">Visit</a> (<a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; T &gt; &amp;)</td></tr>
-<tr class="separator:aa69e9bd551895ca3497d1bfbe5fa79ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b346c55d80a8ed92afa2e1f591f5807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a8b346c55d80a8ed92afa2e1f591f5807">Visit</a> (<a class="el" href="../../d2/d98/a04244.html#ae35a7f6754cf9950d0027369ada820e7">PlayerMapType</a> &amp;)</td></tr>
-<tr class="separator:a8b346c55d80a8ed92afa2e1f591f5807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a999002f6ec7e7dbf2e8c2dc255d0af62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a999002f6ec7e7dbf2e8c2dc255d0af62">NGrid</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> x, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> y)</td></tr>
+<tr class="separator:a999002f6ec7e7dbf2e8c2dc255d0af62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4d5e00697dab2fe7b1a6fe7007076a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a7c4d5e00697dab2fe7b1a6fe7007076a">GetGridType</a> (const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x, const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y)</td></tr>
+<tr class="separator:a7c4d5e00697dab2fe7b1a6fe7007076a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add7b9ed347781a4ecf70454d998e49c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#add7b9ed347781a4ecf70454d998e49c8">GetGridType</a> (const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x, const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y) const</td></tr>
+<tr class="separator:add7b9ed347781a4ecf70454d998e49c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dffef11eb9d0f62b9c041b732ed697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a81dffef11eb9d0f62b9c041b732ed697">GetGridId</a> () const</td></tr>
+<tr class="separator:a81dffef11eb9d0f62b9c041b732ed697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203052accd192465ea77751c959b692d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a203052accd192465ea77751c959b692d">getX</a> () const</td></tr>
+<tr class="separator:a203052accd192465ea77751c959b692d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73787c40fa65141f26543c5b27275c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#ab73787c40fa65141f26543c5b27275c9">getY</a> () const</td></tr>
+<tr class="separator:ab73787c40fa65141f26543c5b27275c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06a72bd62796b385c87178d0991d8e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#ab06a72bd62796b385c87178d0991d8e4">link</a> (<a class="el" href="../../da/d0a/a08846.html">GridRefMgr</a>&lt; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt; *pTo)</td></tr>
+<tr class="separator:ab06a72bd62796b385c87178d0991d8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051e7a030bf18b35d7bbef13735f128b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a051e7a030bf18b35d7bbef13735f128b">isGridObjectDataLoaded</a> () const</td></tr>
+<tr class="separator:a051e7a030bf18b35d7bbef13735f128b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f821272204e44ba24afefc7a8e0195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a36f821272204e44ba24afefc7a8e0195">setGridObjectDataLoaded</a> (bool pLoaded)</td></tr>
+<tr class="separator:a36f821272204e44ba24afefc7a8e0195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33978784c3bdff490f6e40c18e9e712"><td class="memTemplParams" colspan="2">template&lt;class T , class TT &gt; </td></tr>
+<tr class="memitem:af33978784c3bdff490f6e40c18e9e712"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#af33978784c3bdff490f6e40c18e9e712">VisitAllGrids</a> (<a class="el" href="../../d4/d56/a05206.html">TypeContainerVisitor</a>&lt; T, <a class="el" href="../../da/dac/a05198.html">TypeMapContainer</a>&lt; TT &gt; &gt; &amp;visitor)</td></tr>
+<tr class="separator:af33978784c3bdff490f6e40c18e9e712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabcd6c2d4edaaf016fb9905752fdfccd"><td class="memTemplParams" colspan="2">template&lt;class T , class TT &gt; </td></tr>
+<tr class="memitem:aabcd6c2d4edaaf016fb9905752fdfccd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#aabcd6c2d4edaaf016fb9905752fdfccd">VisitGrid</a> (const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x, const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y, <a class="el" href="../../d4/d56/a05206.html">TypeContainerVisitor</a>&lt; T, <a class="el" href="../../da/dac/a05198.html">TypeMapContainer</a>&lt; TT &gt; &gt; &amp;visitor)</td></tr>
+<tr class="separator:aabcd6c2d4edaaf016fb9905752fdfccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a3116f6245816ba8fb9edb5995faa9927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dbf/a07754.html">Creature</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">i_creature</a></td></tr>
-<tr class="separator:a3116f6245816ba8fb9edb5995faa9927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aaadf4847c4da61dd2fe722584c65e164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#aaadf4847c4da61dd2fe722584c65e164">i_gridId</a></td></tr>
+<tr class="separator:aaadf4847c4da61dd2fe722584c65e164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af2fa2ddc39e932b013f3f07c13ddc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d67/a08850.html">GridReference</a>&lt; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a1af2fa2ddc39e932b013f3f07c13ddc8">i_Reference</a></td></tr>
+<tr class="separator:a1af2fa2ddc39e932b013f3f07c13ddc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9e3f5f9ffaab894bfa11cacaf76370"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#add9e3f5f9ffaab894bfa11cacaf76370">i_x</a></td></tr>
+<tr class="separator:add9e3f5f9ffaab894bfa11cacaf76370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3407a6554a941d2496db0987384f70e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a3407a6554a941d2496db0987384f70e7">i_y</a></td></tr>
+<tr class="separator:a3407a6554a941d2496db0987384f70e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44eb852ebf5fec4406070f354f5e5b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#aa44eb852ebf5fec4406070f354f5e5b7">i_cells</a> [N][N]</td></tr>
+<tr class="separator:aa44eb852ebf5fec4406070f354f5e5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716e98131c07b0b695b04ddaa02c4eeb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb">i_GridObjectDataLoaded</a></td></tr>
+<tr class="separator:a716e98131c07b0b695b04ddaa02c4eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa144cd2c5b69351afd312084c0e97f0d" name="aa144cd2c5b69351afd312084c0e97f0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa144cd2c5b69351afd312084c0e97f0d">&#9670;&#160;</a></span>CreatureRelocationNotifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acore::CreatureRelocationNotifier::CreatureRelocationNotifier </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/dbf/a07754.html">Creature</a> &amp;&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>: <a class="code hl_variable" href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">i_creature</a>(c) {}</div>
-<div class="ttc" id="aa08854_html_a3116f6245816ba8fb9edb5995faa9927"><div class="ttname"><a href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">Acore::CreatureRelocationNotifier::i_creature</a></div><div class="ttdeci">Creature &amp; i_creature</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:84</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa69e9bd551895ca3497d1bfbe5fa79ba" name="aa69e9bd551895ca3497d1bfbe5fa79ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa69e9bd551895ca3497d1bfbe5fa79ba">&#9670;&#160;</a></span>Visit() <span class="overload">[1/2]</span></h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT, class WORLD_OBJECT_TYPES, class GRID_OBJECT_TYPES&gt;<br />
+class NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;</div><p ><a class="el" href="../../de/d62/a08854.html">NGrid</a> is nothing more than a wrapper of the <a class="el" href="../../d6/d78/a08838.html">Grid</a> with an NxN cells </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ab0a1340c0a1ce99ef8654117ac2a162f" name="ab0a1340c0a1ce99ef8654117ac2a162f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a1340c0a1ce99ef8654117ac2a162f">&#9670;&#160;</a></span>GridType</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d6/d78/a08838.html">Grid</a>&lt;ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES&gt; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;<a class="el" href="../../d3/d8b/a02996.html#af94ee905a9f75da72c1dc3fbaff2c130">::GridType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a999002f6ec7e7dbf2e8c2dc255d0af62" name="a999002f6ec7e7dbf2e8c2dc255d0af62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a999002f6ec7e7dbf2e8c2dc255d0af62">&#9670;&#160;</a></span>NGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Acore::CreatureRelocationNotifier::Visit </td>
+          <td class="memname"><a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;<a class="el" href="../../de/d62/a08854.html">::NGrid</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   40</span>        : <a class="code hl_variable" href="../../de/d62/a08854.html#aaadf4847c4da61dd2fe722584c65e164">i_gridId</a>(<span class="keywordtype">id</span>), <a class="code hl_variable" href="../../de/d62/a08854.html#add9e3f5f9ffaab894bfa11cacaf76370">i_x</a>(x), <a class="code hl_variable" href="../../de/d62/a08854.html#a3407a6554a941d2496db0987384f70e7">i_y</a>(y), <a class="code hl_variable" href="../../de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb">i_GridObjectDataLoaded</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>    }</div>
+<div class="ttc" id="aa08854_html_a3407a6554a941d2496db0987384f70e7"><div class="ttname"><a href="../../de/d62/a08854.html#a3407a6554a941d2496db0987384f70e7">NGrid::i_y</a></div><div class="ttdeci">int32 i_y</div><div class="ttdef"><b>Definition:</b> NGrid.h:109</div></div>
+<div class="ttc" id="aa08854_html_a716e98131c07b0b695b04ddaa02c4eeb"><div class="ttname"><a href="../../de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb">NGrid::i_GridObjectDataLoaded</a></div><div class="ttdeci">bool i_GridObjectDataLoaded</div><div class="ttdef"><b>Definition:</b> NGrid.h:111</div></div>
+<div class="ttc" id="aa08854_html_aaadf4847c4da61dd2fe722584c65e164"><div class="ttname"><a href="../../de/d62/a08854.html#aaadf4847c4da61dd2fe722584c65e164">NGrid::i_gridId</a></div><div class="ttdeci">uint32 i_gridId</div><div class="ttdef"><b>Definition:</b> NGrid.h:106</div></div>
+<div class="ttc" id="aa08854_html_add9e3f5f9ffaab894bfa11cacaf76370"><div class="ttname"><a href="../../de/d62/a08854.html#add9e3f5f9ffaab894bfa11cacaf76370">NGrid::i_x</a></div><div class="ttdeci">int32 i_x</div><div class="ttdef"><b>Definition:</b> NGrid.h:108</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a81dffef11eb9d0f62b9c041b732ed697" name="a81dffef11eb9d0f62b9c041b732ed697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81dffef11eb9d0f62b9c041b732ed697">&#9670;&#160;</a></span>GetGridId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridId </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#aaadf4847c4da61dd2fe722584c65e164">i_gridId</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00106">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_gridId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00182">ObjectGridLoader::LoadN()</a>.</p>
+
+</div>
+</div>
+<a id="a7c4d5e00697dab2fe7b1a6fe7007076a" name="a7c4d5e00697dab2fe7b1a6fe7007076a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4d5e00697dab2fe7b1a6fe7007076a">&#9670;&#160;</a></span>GetGridType() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a> &amp; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(x &lt; N &amp;&amp; y &lt; N);</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#aa44eb852ebf5fec4406070f354f5e5b7">i_cells</a>[x][y];</div>
+<div class="line"><span class="lineno">   48</span>    }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa08854_html_aa44eb852ebf5fec4406070f354f5e5b7"><div class="ttname"><a href="../../de/d62/a08854.html#aa44eb852ebf5fec4406070f354f5e5b7">NGrid::i_cells</a></div><div class="ttdeci">GridType i_cells[N][N]</div><div class="ttdef"><b>Definition:</b> NGrid.h:110</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00110">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_cells</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00279">Map::AddToGrid()</a>, <a class="el" href="../../#l00346">Map::SwitchGridContainers()</a>, <a class="el" href="../../#l00163">ObjectWorldLoader::Visit()</a>, <a class="el" href="../../#l00091">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::VisitAllGrids()</a>, and <a class="el" href="../../#l00100">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::VisitGrid()</a>.</p>
+
+</div>
+</div>
+<a id="add7b9ed347781a4ecf70454d998e49c8" name="add7b9ed347781a4ecf70454d998e49c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7b9ed347781a4ecf70454d998e49c8">&#9670;&#160;</a></span>GetGridType() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a> const  &amp; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(x &lt; N &amp;&amp; y &lt; N);</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#aa44eb852ebf5fec4406070f354f5e5b7">i_cells</a>[x][y];</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00110">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_cells</a>.</p>
+
+</div>
+</div>
+<a id="a203052accd192465ea77751c959b692d" name="a203052accd192465ea77751c959b692d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203052accd192465ea77751c959b692d">&#9670;&#160;</a></span>getX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::getX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#add9e3f5f9ffaab894bfa11cacaf76370">i_x</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00108">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_x</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01214">Map::UnloadGrid()</a>.</p>
+
+</div>
+</div>
+<a id="ab73787c40fa65141f26543c5b27275c9" name="ab73787c40fa65141f26543c5b27275c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73787c40fa65141f26543c5b27275c9">&#9670;&#160;</a></span>getY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::getY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#a3407a6554a941d2496db0987384f70e7">i_y</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00109">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_y</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01214">Map::UnloadGrid()</a>.</p>
+
+</div>
+</div>
+<a id="a051e7a030bf18b35d7bbef13735f128b" name="a051e7a030bf18b35d7bbef13735f128b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051e7a030bf18b35d7bbef13735f128b">&#9670;&#160;</a></span>isGridObjectDataLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::isGridObjectDataLoaded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb">i_GridObjectDataLoaded</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00111">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_GridObjectDataLoaded</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00322">Map::AddToGrid()</a>, and <a class="el" href="../../#l00691">Map::isGridObjectDataLoaded()</a>.</p>
+
+</div>
+</div>
+<a id="ab06a72bd62796b385c87178d0991d8e4" name="ab06a72bd62796b385c87178d0991d8e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06a72bd62796b385c87178d0991d8e4">&#9670;&#160;</a></span>link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::link </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d0a/a08846.html">GridRefMgr</a>&lt; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt; *&#160;</td>
+          <td class="paramname"><em>pTo</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -185,69 +480,300 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   86</span>{}</div>
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <a class="code hl_variable" href="../../de/d62/a08854.html#a1af2fa2ddc39e932b013f3f07c13ddc8">i_Reference</a>.<a class="code hl_function" href="../../dd/d48/a05150.html#a6c7a8395a8f77e33772959f068296aaf">link</a>(pTo, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="ttc" id="aa05150_html_a6c7a8395a8f77e33772959f068296aaf"><div class="ttname"><a href="../../dd/d48/a05150.html#a6c7a8395a8f77e33772959f068296aaf">Reference::link</a></div><div class="ttdeci">void link(TO *toObj, FROM *fromObj)</div><div class="ttdef"><b>Definition:</b> Reference.h:45</div></div>
+<div class="ttc" id="aa08854_html_a1af2fa2ddc39e932b013f3f07c13ddc8"><div class="ttname"><a href="../../de/d62/a08854.html#a1af2fa2ddc39e932b013f3f07c13ddc8">NGrid::i_Reference</a></div><div class="ttdeci">GridReference&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt; i_Reference</div><div class="ttdef"><b>Definition:</b> NGrid.h:107</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00107">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_Reference</a>, and <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00682">Map::buildNGridLinkage()</a>.</p>
+
 </div>
 </div>
-<a id="a8b346c55d80a8ed92afa2e1f591f5807" name="a8b346c55d80a8ed92afa2e1f591f5807"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b346c55d80a8ed92afa2e1f591f5807">&#9670;&#160;</a></span>Visit() <span class="overload">[2/2]</span></h2>
+<a id="a36f821272204e44ba24afefc7a8e0195" name="a36f821272204e44ba24afefc7a8e0195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f821272204e44ba24afefc7a8e0195">&#9670;&#160;</a></span>setGridObjectDataLoaded()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CreatureRelocationNotifier::Visit </td>
+          <td class="memname">void <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::setGridObjectDataLoaded </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d98/a04244.html#ae35a7f6754cf9950d0027369ada820e7">PlayerMapType</a> &amp;&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pLoaded</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  180</span>{</div>
-<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">PlayerMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d7/d70/a08830.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d7/d70/a08830.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">  182</span>    {</div>
-<div class="line"><span class="lineno">  183</span>        <a class="code hl_class" href="../../d5/d68/a08370.html">Player</a>* player = iter-&gt;GetSource();</div>
-<div class="line"><span class="lineno">  184</span> </div>
-<div class="line"><span class="lineno">  185</span>        <span class="comment">// NOTIFY_VISIBILITY_CHANGED does not guarantee that player will do it himself (because distance is also checked), but screw it, it&#39;s not that important</span></div>
-<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_variable" href="../../d5/d68/a08370.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a>-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#a266350f5eebd01138f89f659d1eb7505">isNeedNotify</a>(<a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a>))</div>
-<div class="line"><span class="lineno">  187</span>            player-&gt;<a class="code hl_function" href="../../d5/d68/a08370.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(&amp;<a class="code hl_variable" href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">i_creature</a>);</div>
-<div class="line"><span class="lineno">  188</span> </div>
-<div class="line"><span class="lineno">  189</span>        <span class="comment">// NOTIFY_AI_RELOCATION does not guarantee that player will do it himself (because distance is also checked), but screw it, it&#39;s not that important</span></div>
-<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_variable" href="../../d5/d68/a08370.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a>-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#a266350f5eebd01138f89f659d1eb7505">isNeedNotify</a>(<a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a>) &amp;&amp; !<a class="code hl_variable" href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">i_creature</a>.<a class="code hl_function" href="../../dc/dbf/a07754.html#a311d114dbf2ff185f20a636d3e4c61d0">IsMoveInLineOfSightStrictlyDisabled</a>())</div>
-<div class="line"><span class="lineno">  191</span>            <a class="code hl_function" href="../../d0/dd6/a04238.html#a6dd107031f342074ca560b711fe188d7">CreatureUnitRelocationWorker</a>(&amp;<a class="code hl_variable" href="../../de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927">i_creature</a>, player);</div>
-<div class="line"><span class="lineno">  192</span>    }</div>
-<div class="line"><span class="lineno">  193</span>}</div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a></div><div class="ttdeci">@ NOTIFY_AI_RELOCATION</div><div class="ttdef"><b>Definition:</b> Object.h:66</div></div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a></div><div class="ttdeci">@ NOTIFY_VISIBILITY_CHANGED</div><div class="ttdef"><b>Definition:</b> Object.h:67</div></div>
-<div class="ttc" id="aa04238_html_a6dd107031f342074ca560b711fe188d7"><div class="ttname"><a href="../../d0/dd6/a04238.html#a6dd107031f342074ca560b711fe188d7">CreatureUnitRelocationWorker</a></div><div class="ttdeci">void CreatureUnitRelocationWorker(Creature *c, Unit *u)</div><div class="ttdef"><b>Definition:</b> GridNotifiers.cpp:148</div></div>
-<div class="ttc" id="aa05134_html"><div class="ttname"><a href="../../d2/dc4/a05134.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
-<div class="ttc" id="aa07754_html_a311d114dbf2ff185f20a636d3e4c61d0"><div class="ttname"><a href="../../dc/dbf/a07754.html#a311d114dbf2ff185f20a636d3e4c61d0">Creature::IsMoveInLineOfSightStrictlyDisabled</a></div><div class="ttdeci">bool IsMoveInLineOfSightStrictlyDisabled()</div><div class="ttdef"><b>Definition:</b> Creature.h:279</div></div>
-<div class="ttc" id="aa08158_html_a266350f5eebd01138f89f659d1eb7505"><div class="ttname"><a href="../../da/d63/a08158.html#a266350f5eebd01138f89f659d1eb7505">WorldObject::isNeedNotify</a></div><div class="ttdeci">bool isNeedNotify(uint16 f) const</div><div class="ttdef"><b>Definition:</b> Object.h:568</div></div>
-<div class="ttc" id="aa08370_html"><div class="ttname"><a href="../../d5/d68/a08370.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
-<div class="ttc" id="aa08370_html_a561292db1465ce3928026072248c66b2"><div class="ttname"><a href="../../d5/d68/a08370.html#a561292db1465ce3928026072248c66b2">Player::UpdateVisibilityOf</a></div><div class="ttdeci">void UpdateVisibilityOf(WorldObject *target)</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:1667</div></div>
-<div class="ttc" id="aa08370_html_a627213e5abefc63f5e430cd8ecfbb06e"><div class="ttname"><a href="../../d5/d68/a08370.html#a627213e5abefc63f5e430cd8ecfbb06e">Player::m_seer</a></div><div class="ttdeci">WorldObject * m_seer</div><div class="ttdef"><b>Definition:</b> Player.h:2316</div></div>
-<div class="ttc" id="aa08830_html_a1e4e67ba11ac8da077942a6581647bf3"><div class="ttname"><a href="../../d7/d70/a08830.html#a1e4e67ba11ac8da077942a6581647bf3">GridRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:35</div></div>
-<div class="ttc" id="aa08830_html_a266acb421cfc6ccc56dc2acff3202971"><div class="ttname"><a href="../../d7/d70/a08830.html#a266acb421cfc6ccc56dc2acff3202971">GridRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:36</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <a class="code hl_variable" href="../../de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb">i_GridObjectDataLoaded</a> = pLoaded; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00035">GridRefMgr&lt; OBJECT &gt;::begin()</a>, <a class="el" href="../../#l00148">CreatureUnitRelocationWorker()</a>, <a class="el" href="../../#l00036">GridRefMgr&lt; OBJECT &gt;::end()</a>, <a class="el" href="../../#l00084">i_creature</a>, <a class="el" href="../../#l00279">Creature::IsMoveInLineOfSightStrictlyDisabled()</a>, <a class="el" href="../../#l00568">WorldObject::isNeedNotify()</a>, <a class="el" href="../../#l02316">Player::m_seer</a>, <a class="el" href="../../#l00066">NOTIFY_AI_RELOCATION</a>, <a class="el" href="../../#l00067">NOTIFY_VISIBILITY_CHANGED</a>, and <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00111">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_GridObjectDataLoaded</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00692">Map::setGridObjectDataLoaded()</a>.</p>
+
+</div>
+</div>
+<a id="af33978784c3bdff490f6e40c18e9e712" name="af33978784c3bdff490f6e40c18e9e712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33978784c3bdff490f6e40c18e9e712">&#9670;&#160;</a></span>VisitAllGrids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<div class="memtemplate">
+template&lt;class T , class TT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::VisitAllGrids </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d56/a05206.html">TypeContainerVisitor</a>&lt; T, <a class="el" href="../../da/dac/a05198.html">TypeMapContainer</a>&lt; TT &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; N; ++x)</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y = 0; y &lt; N; ++y)</div>
+<div class="line"><span class="lineno">   95</span>                <a class="code hl_function" href="../../de/d62/a08854.html#a7c4d5e00697dab2fe7b1a6fe7007076a">GetGridType</a>(x, y).<a class="code hl_function" href="../../d6/d78/a08838.html#aa69a55ee52da73b9ec3c62406cb4a595">Visit</a>(visitor);</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa08838_html_aa69a55ee52da73b9ec3c62406cb4a595"><div class="ttname"><a href="../../d6/d78/a08838.html#aa69a55ee52da73b9ec3c62406cb4a595">Grid::Visit</a></div><div class="ttdeci">void Visit(TypeContainerVisitor&lt; T, TypeMapContainer&lt; GRID_OBJECT_TYPES &gt; &gt; &amp;visitor)</div><div class="ttdef"><b>Definition:</b> Grid.h:87</div></div>
+<div class="ttc" id="aa08854_html_a7c4d5e00697dab2fe7b1a6fe7007076a"><div class="ttname"><a href="../../de/d62/a08854.html#a7c4d5e00697dab2fe7b1a6fe7007076a">NGrid::GetGridType</a></div><div class="ttdeci">GridType &amp; GetGridType(const uint32 x, const uint32 y)</div><div class="ttdef"><b>Definition:</b> NGrid.h:44</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridType()</a>, and <a class="el" href="../../#l00087">Grid&lt; ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::Visit()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01214">Map::UnloadGrid()</a>.</p>
+
+</div>
+</div>
+<a id="aabcd6c2d4edaaf016fb9905752fdfccd" name="aabcd6c2d4edaaf016fb9905752fdfccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabcd6c2d4edaaf016fb9905752fdfccd">&#9670;&#160;</a></span>VisitGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<div class="memtemplate">
+template&lt;class T , class TT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::VisitGrid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d56/a05206.html">TypeContainerVisitor</a>&lt; T, <a class="el" href="../../da/dac/a05198.html">TypeMapContainer</a>&lt; TT &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>visitor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        <a class="code hl_function" href="../../de/d62/a08854.html#a7c4d5e00697dab2fe7b1a6fe7007076a">GetGridType</a>(x, y).<a class="code hl_function" href="../../d6/d78/a08838.html#aa69a55ee52da73b9ec3c62406cb4a595">Visit</a>(visitor);</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridType()</a>, and <a class="el" href="../../#l00087">Grid&lt; ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::Visit()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00182">ObjectGridLoader::LoadN()</a>, and <a class="el" href="../../#l00871">Map::Visit()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3116f6245816ba8fb9edb5995faa9927" name="a3116f6245816ba8fb9edb5995faa9927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3116f6245816ba8fb9edb5995faa9927">&#9670;&#160;</a></span>i_creature</h2>
+<a id="aa44eb852ebf5fec4406070f354f5e5b7" name="aa44eb852ebf5fec4406070f354f5e5b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44eb852ebf5fec4406070f354f5e5b7">&#9670;&#160;</a></span>i_cells</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dbf/a07754.html">Creature</a>&amp; Acore::CreatureRelocationNotifier::i_creature</td>
+          <td class="memname"><a class="el" href="../../de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f">GridType</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_cells[N][N]</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00179">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00044">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridType()</a>.</p>
+
+</div>
+</div>
+<a id="aaadf4847c4da61dd2fe722584c65e164" name="aaadf4847c4da61dd2fe722584c65e164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadf4847c4da61dd2fe722584c65e164">&#9670;&#160;</a></span>i_gridId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_gridId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00056">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::GetGridId()</a>.</p>
+
+</div>
+</div>
+<a id="a716e98131c07b0b695b04ddaa02c4eeb" name="a716e98131c07b0b695b04ddaa02c4eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716e98131c07b0b695b04ddaa02c4eeb">&#9670;&#160;</a></span>i_GridObjectDataLoaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_GridObjectDataLoaded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00064">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::isGridObjectDataLoaded()</a>, and <a class="el" href="../../#l00065">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::setGridObjectDataLoaded()</a>.</p>
+
+</div>
+</div>
+<a id="a1af2fa2ddc39e932b013f3f07c13ddc8" name="a1af2fa2ddc39e932b013f3f07c13ddc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af2fa2ddc39e932b013f3f07c13ddc8">&#9670;&#160;</a></span>i_Reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d67/a08850.html">GridReference</a>&lt;<a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt;N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES&gt; &gt; <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_Reference</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00060">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::link()</a>.</p>
+
+</div>
+</div>
+<a id="add9e3f5f9ffaab894bfa11cacaf76370" name="add9e3f5f9ffaab894bfa11cacaf76370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9e3f5f9ffaab894bfa11cacaf76370">&#9670;&#160;</a></span>i_x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_x</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00057">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::getX()</a>.</p>
+
+</div>
+</div>
+<a id="a3407a6554a941d2496db0987384f70e7" name="a3407a6554a941d2496db0987384f70e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3407a6554a941d2496db0987384f70e7">&#9670;&#160;</a></span>i_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> N, class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_TYPES &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="el" href="../../de/d62/a08854.html">NGrid</a>&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::i_y</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00058">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::getY()</a>.</p>
 
 </div>
 </div>
@@ -256,8 +782,8 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/d62/a08854.html">CreatureRelocationNotifier</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/d62/a08854.html">NGrid</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

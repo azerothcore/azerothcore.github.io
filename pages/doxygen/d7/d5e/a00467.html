@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Collision/Management/IVMapMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/Authentication/AuthCrypt.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,100 +105,27 @@ $(document).ready(function(){initNavTree('d7/d5e/a00467.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">IVMapMgr.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">AuthCrypt.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ModelIgnoreFlags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ARC4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AuthDefines.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de3/a04854.html">VMAP::AreaAndLiquidData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc7/a05066.html">AuthCrypt</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d14/a04858.html">VMAP::AreaAndLiquidData::AreaInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/daa/a04862.html">VMAP::AreaAndLiquidData::LiquidInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd3/a04866.html">VMAP::IVMapMgr</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d5/dfd/a04680"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/a04680.html">VMAP</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aa3e862468079e7d1ca850fab429fb316"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/a00467.html#aa3e862468079e7d1ca850fab429fb316">VMAP_INVALID_HEIGHT</a>&#160;&#160;&#160;-100000.0f</td></tr>
-<tr class="separator:aa3e862468079e7d1ca850fab429fb316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d0d846568e1fbb60e05aacfa9c1c73c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/a00467.html#a6d0d846568e1fbb60e05aacfa9c1c73c">VMAP_INVALID_HEIGHT_VALUE</a>&#160;&#160;&#160;-200000.0f</td></tr>
-<tr class="separator:a6d0d846568e1fbb60e05aacfa9c1c73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a70f18a0d29fcdc21e145ab8306987b18"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/a04680.html#a70f18a0d29fcdc21e145ab8306987b18">VMAP::VMAP_LOAD_RESULT</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a70f18a0d29fcdc21e145ab8306987b18a514fc6255627123117d881d4968bf663">VMAP::VMAP_LOAD_RESULT_ERROR</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a70f18a0d29fcdc21e145ab8306987b18a942b44b8a6db80f6d4ab19ebad17192b">VMAP::VMAP_LOAD_RESULT_OK</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a70f18a0d29fcdc21e145ab8306987b18addac30ca7168c74f716b6923498e0165">VMAP::VMAP_LOAD_RESULT_IGNORED</a>
-<br />
- }</td></tr>
-<tr class="separator:a70f18a0d29fcdc21e145ab8306987b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca4e45c9be5012fb1af06ea12b759c2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/a04680.html#a3ca4e45c9be5012fb1af06ea12b759c2">VMAP::LoadResult</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a3ca4e45c9be5012fb1af06ea12b759c2a505a83f220c02df2f85c3810cd9ceb38">VMAP::Success</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a3ca4e45c9be5012fb1af06ea12b759c2a2767828026039e8ba7b38973cbb701f2">VMAP::FileNotFound</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#a3ca4e45c9be5012fb1af06ea12b759c2a2d50084f04994afa70d78b604a22dd31">VMAP::VersionMismatch</a>
-<br />
- }</td></tr>
-<tr class="separator:a3ca4e45c9be5012fb1af06ea12b759c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa3e862468079e7d1ca850fab429fb316" name="aa3e862468079e7d1ca850fab429fb316"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3e862468079e7d1ca850fab429fb316">&#9670;&#160;</a></span>VMAP_INVALID_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VMAP_INVALID_HEIGHT&#160;&#160;&#160;-100000.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d0d846568e1fbb60e05aacfa9c1c73c" name="a6d0d846568e1fbb60e05aacfa9c1c73c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d0d846568e1fbb60e05aacfa9c1c73c">&#9670;&#160;</a></span>VMAP_INVALID_HEIGHT_VALUE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VMAP_INVALID_HEIGHT_VALUE&#160;&#160;&#160;-200000.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_34825b659a55315b272dfcc55a7a0f6a.html">Collision</a></li><li class="navelem"><a class="el" href="../../dir_d80fbdfc32bca936ccce0e66a1573f7f.html">Management</a></li><li class="navelem"><a class="el" href="../../d7/d5e/a00467.html">IVMapMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../dir_6f898d49591bfe46f28764f3b869758a.html">Authentication</a></li><li class="navelem"><a class="el" href="../../d7/d5e/a00467.html">AuthCrypt.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

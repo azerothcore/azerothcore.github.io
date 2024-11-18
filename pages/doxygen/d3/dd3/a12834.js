@@ -1,8 +1,7 @@
 var a12834 =
 [
-    [ "CalcPeriodic", "d3/dd3/a12834.html#a9aaca3bb1d762c9bddf3b91205f48d00", null ],
-    [ "HandleDummyTick", "d3/dd3/a12834.html#acd3616df94f888ad5fb1c5b0607f6f25", null ],
-    [ "HandleUpdatePeriodic", "d3/dd3/a12834.html#a70ef86fd58eec1422bac6b61a4123842", null ],
-    [ "PrepareAuraScript", "d3/dd3/a12834.html#a9a97a6ab249728dbad4d3603640a7963", null ],
-    [ "Register", "d3/dd3/a12834.html#ab6b223ed68a521ea9a3cbc2a6e21ac49", null ]
+    [ "HandleScript", "d3/dd3/a12834.html#ab705220b48be16090107135f9e2272cf", null ],
+    [ "PrepareSpellScript", "d3/dd3/a12834.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
+    [ "Register", "d3/dd3/a12834.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
+    [ "Validate", "d3/dd3/a12834.html#ad1d90693a427a52fa728e5ae455932a3", null ]
 ];

@@ -1,6 +1,4 @@
 var a04289 =
 [
-    [ "WorldPackets::Packet", "df/d8b/a10154.html", "df/d8b/a10154" ],
-    [ "WorldPackets::ServerPacket", "d7/d7a/a10158.html", "d7/d7a/a10158" ],
-    [ "WorldPackets::ClientPacket", "d0/d93/a10162.html", "d0/d93/a10162" ]
+    [ "ScriptRegistry< AllGameObjectScript >", "db/d49/a04289.html#a60896f2f8318a9eeba3e23357a17292f", null ]
 ];

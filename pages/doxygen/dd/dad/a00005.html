@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/test/server/game/Miscellaneous/FormulasTest.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Debugging/WheatyExceptionReport.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,49 +105,194 @@ $(document).ready(function(){initNavTree('dd/dad/a00005.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">FormulasTest.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">WheatyExceptionReport.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldMock.h</a>&quot;</code><br />
-<code>#include &quot;gtest/gtest.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CompilerDefs.h</a>&quot;</code><br />
+<code>#include &lt;windows.h&gt;</code><br />
+<code>#include &lt;tlhelp32.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;tchar.h&gt;</code><br />
+<code>#include &lt;dbghelp.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">WheatyExceptionReport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a05114.html">CSymbolInfoPackage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#ac7bef5d85e3dcd73eef56ad39ffc84a9">WIN32_LEAN_AND_MEAN</a></td></tr>
+<tr class="separator:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8660cbefcf140a8992e862e401bc473"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#af8660cbefcf140a8992e862e401bc473">_NO_CVCONST_H</a></td></tr>
+<tr class="separator:af8660cbefcf140a8992e862e401bc473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b3d8676a4478f058eeb12d4e8b35b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a55b3d8676a4478f058eeb12d4e8b35b2">CrashFolder</a>&#160;&#160;&#160;_T(&quot;Crashes&quot;)</td></tr>
+<tr class="separator:a55b3d8676a4478f058eeb12d4e8b35b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a8ef8e5d1a39a04fed031f53ffa2db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a04a8ef8e5d1a39a04fed031f53ffa2db">EXCEPTION</a>(x)&#160;&#160;&#160;case EXCEPTION_##x: return LPTSTR(_T(#x));</td></tr>
+<tr class="separator:a04a8ef8e5d1a39a04fed031f53ffa2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9b7a926251db0fa2bd2678cee360e161"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a9b7a926251db0fa2bd2678cee360e161">TEST</a> (FormulasTest, hk_honor_at_level)</td></tr>
-<tr class="separator:a9b7a926251db0fa2bd2678cee360e161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ffadf8c8dbffb858cf2a925473d6bff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a8ffadf8c8dbffb858cf2a925473d6bff">TEST</a> (FormulasTest, GetGrayLevel)</td></tr>
-<tr class="separator:a8ffadf8c8dbffb858cf2a925473d6bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fcf85473a490662471938a1f773d6e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a5fcf85473a490662471938a1f773d6e2">TEST</a> (FormulasTest, GetColorCode)</td></tr>
-<tr class="separator:a5fcf85473a490662471938a1f773d6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ac78cb09ef0a7b924b271ffefbc6a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a23ac78cb09ef0a7b924b271ffefbc6a9">TEST</a> (FormulasTest, GetZeroDifference)</td></tr>
-<tr class="separator:a23ac78cb09ef0a7b924b271ffefbc6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a11632378897367b979b12423a3f5dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a7a11632378897367b979b12423a3f5dd">TEST</a> (FormulasTest, BaseGain)</td></tr>
-<tr class="separator:a7a11632378897367b979b12423a3f5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac23831b7258f696b9e9a4972c42b5a4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#ac23831b7258f696b9e9a4972c42b5a4c">TEST</a> (FormulasTest, Gain)</td></tr>
-<tr class="separator:ac23831b7258f696b9e9a4972c42b5a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b4eb6a99991d301f7d44683ce13c9e"><td class="memItemLeft" align="right" valign="top">LPTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a75b4eb6a99991d301f7d44683ce13c9e">ErrorMessage</a> (DWORD dw)</td></tr>
+<tr class="separator:a75b4eb6a99991d301f7d44683ce13c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d70382aec7501d6df3dcb969b85902"><td class="memTemplParams" colspan="2">template&lt;std::size_t size&gt; </td></tr>
+<tr class="memitem:a74d70382aec7501d6df3dcb969b85902"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a74d70382aec7501d6df3dcb969b85902">ToTchar</a> (wchar_t const *src, TCHAR(&amp;dst)[size], std::true_type)</td></tr>
+<tr class="separator:a74d70382aec7501d6df3dcb969b85902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2ce59205c508258855d0568854e367"><td class="memTemplParams" colspan="2">template&lt;std::size_t size&gt; </td></tr>
+<tr class="memitem:a9f2ce59205c508258855d0568854e367"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a9f2ce59205c508258855d0568854e367">ToTchar</a> (wchar_t const *src, TCHAR(&amp;dst)[size], std::false_type)</td></tr>
+<tr class="separator:a9f2ce59205c508258855d0568854e367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9fff8ce906026fe3179e50e97182d90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.html#a9fff8ce906026fe3179e50e97182d90d">g_WheatyExceptionReport</a></td></tr>
+<tr class="separator:a9fff8ce906026fe3179e50e97182d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af8660cbefcf140a8992e862e401bc473" name="af8660cbefcf140a8992e862e401bc473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8660cbefcf140a8992e862e401bc473">&#9670;&#160;</a></span>_NO_CVCONST_H</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _NO_CVCONST_H</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55b3d8676a4478f058eeb12d4e8b35b2" name="a55b3d8676a4478f058eeb12d4e8b35b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b3d8676a4478f058eeb12d4e8b35b2">&#9670;&#160;</a></span>CrashFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CrashFolder&#160;&#160;&#160;_T(&quot;Crashes&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04a8ef8e5d1a39a04fed031f53ffa2db" name="a04a8ef8e5d1a39a04fed031f53ffa2db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a8ef8e5d1a39a04fed031f53ffa2db">&#9670;&#160;</a></span>EXCEPTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXCEPTION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;case EXCEPTION_##x: return LPTSTR(_T(#x));</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7bef5d85e3dcd73eef56ad39ffc84a9" name="ac7bef5d85e3dcd73eef56ad39ffc84a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bef5d85e3dcd73eef56ad39ffc84a9">&#9670;&#160;</a></span>WIN32_LEAN_AND_MEAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WIN32_LEAN_AND_MEAN</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7a11632378897367b979b12423a3f5dd" name="a7a11632378897367b979b12423a3f5dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a11632378897367b979b12423a3f5dd">&#9670;&#160;</a></span>TEST() <span class="overload">[1/6]</span></h2>
+<a id="a75b4eb6a99991d301f7d44683ce13c9e" name="a75b4eb6a99991d301f7d44683ce13c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75b4eb6a99991d301f7d44683ce13c9e">&#9670;&#160;</a></span>ErrorMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TEST </td>
+          <td class="memname">LPTSTR ErrorMessage </td>
           <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname"><em>dw</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    LPVOID lpMsgBuf;</div>
+<div class="line"><span class="lineno">   35</span>    DWORD formatResult = FormatMessage(</div>
+<div class="line"><span class="lineno">   36</span>                             FORMAT_MESSAGE_ALLOCATE_BUFFER |</div>
+<div class="line"><span class="lineno">   37</span>                             FORMAT_MESSAGE_FROM_SYSTEM,</div>
+<div class="line"><span class="lineno">   38</span>                             <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">   39</span>                             dw,</div>
+<div class="line"><span class="lineno">   40</span>                             MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),</div>
+<div class="line"><span class="lineno">   41</span>                             (LPTSTR) &amp;lpMsgBuf,</div>
+<div class="line"><span class="lineno">   42</span>                             0, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (formatResult != 0)</div>
+<div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> (LPTSTR)lpMsgBuf;</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        LPTSTR msgBuf = (LPTSTR)LocalAlloc(LPTR, 30);</div>
+<div class="line"><span class="lineno">   50</span>        sprintf(msgBuf, <span class="stringliteral">&quot;Unknown error: %u&quot;</span>, dw);</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> msgBuf;</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00595">WheatyExceptionReport::GenerateExceptionReport()</a>.</p>
+
+</div>
+</div>
+<a id="a9f2ce59205c508258855d0568854e367" name="a9f2ce59205c508258855d0568854e367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2ce59205c508258855d0568854e367">&#9670;&#160;</a></span>ToTchar() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t size&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ToTchar </td>
+          <td>(</td>
+          <td class="paramtype">wchar_t const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">BaseGain&#160;</td>
+          <td class="paramtype">TCHAR(&amp;)&#160;</td>
+          <td class="paramname"><em>dst</em>[size], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::false_type&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -157,42 +302,36 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
-<div class="line"><span class="lineno">   93</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(60, 40, <a class="code hl_enumvalue" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a68ea4d4597b255338cf2456581dd3a44">CONTENT_1_60</a>), 0);</div>
-<div class="line"><span class="lineno">   94</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(60, 60, <a class="code hl_enumvalue" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a68ea4d4597b255338cf2456581dd3a44">CONTENT_1_60</a>), 345);</div>
-<div class="line"><span class="lineno">   95</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(50, 60, <a class="code hl_enumvalue" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a68ea4d4597b255338cf2456581dd3a44">CONTENT_1_60</a>), 354);</div>
-<div class="line"><span class="lineno">   96</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(65, 66, <a class="code hl_enumvalue" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a0bd1720e4f1744924485f32a2425e314">CONTENT_61_70</a>), 588);</div>
-<div class="line"><span class="lineno">   97</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(79, 78, <a class="code hl_enumvalue" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a4f68b502900171ba379179f367a2d6e5">CONTENT_71_80</a>), 917);</div>
-<div class="line"><span class="lineno">   98</span> </div>
-<div class="line"><span class="lineno">   99</span>    <span class="comment">// check outError() has been called after passing an invalid ContentLevels content</span></div>
-<div class="line"><span class="lineno">  100</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">BaseGain</a>(79, 1, <a class="code hl_enumeration" href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3">ContentLevels</a>(999)), 0);</div>
-<div class="line"><span class="lineno">  101</span>}</div>
-<div class="ttc" id="aa03980_html_adb4039320bbc363da97cee8d73c6cae3"><div class="ttname"><a href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3">ContentLevels</a></div><div class="ttdeci">ContentLevels</div><div class="ttdef"><b>Definition:</b> DBCStores.h:41</div></div>
-<div class="ttc" id="aa03980_html_adb4039320bbc363da97cee8d73c6cae3a0bd1720e4f1744924485f32a2425e314"><div class="ttname"><a href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a0bd1720e4f1744924485f32a2425e314">CONTENT_61_70</a></div><div class="ttdeci">@ CONTENT_61_70</div><div class="ttdef"><b>Definition:</b> DBCStores.h:43</div></div>
-<div class="ttc" id="aa03980_html_adb4039320bbc363da97cee8d73c6cae3a4f68b502900171ba379179f367a2d6e5"><div class="ttname"><a href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a4f68b502900171ba379179f367a2d6e5">CONTENT_71_80</a></div><div class="ttdeci">@ CONTENT_71_80</div><div class="ttdef"><b>Definition:</b> DBCStores.h:44</div></div>
-<div class="ttc" id="aa03980_html_adb4039320bbc363da97cee8d73c6cae3a68ea4d4597b255338cf2456581dd3a44"><div class="ttname"><a href="../../dd/d78/a03980.html#adb4039320bbc363da97cee8d73c6cae3a68ea4d4597b255338cf2456581dd3a44">CONTENT_1_60</a></div><div class="ttdeci">@ CONTENT_1_60</div><div class="ttdef"><b>Definition:</b> DBCStores.h:42</div></div>
-<div class="ttc" id="aa04727_html_ada8e56c81ab672d85f2ff274d109e477"><div class="ttname"><a href="../../dc/d43/a04727.html#ada8e56c81ab672d85f2ff274d109e477">Acore::XP::BaseGain</a></div><div class="ttdeci">uint32 BaseGain(uint8 pl_level, uint8 mob_level, ContentLevels content)</div><div class="ttdef"><b>Definition:</b> Formulas.cpp:25</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    wcscpy_s(dst, src);</div>
+<div class="line"><span class="lineno">  273</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00025">Acore::XP::BaseGain()</a>, <a class="el" href="../../#l00042">CONTENT_1_60</a>, <a class="el" href="../../#l00043">CONTENT_61_70</a>, and <a class="el" href="../../#l00044">CONTENT_71_80</a>.</p>
-
 </div>
 </div>
-<a id="ac23831b7258f696b9e9a4972c42b5a4c" name="ac23831b7258f696b9e9a4972c42b5a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac23831b7258f696b9e9a4972c42b5a4c">&#9670;&#160;</a></span>TEST() <span class="overload">[2/6]</span></h2>
+<a id="a74d70382aec7501d6df3dcb969b85902" name="a74d70382aec7501d6df3dcb969b85902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d70382aec7501d6df3dcb969b85902">&#9670;&#160;</a></span>ToTchar() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t size&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">TEST </td>
+          <td class="memname">void ToTchar </td>
           <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">wchar_t const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Gain&#160;</td>
+          <td class="paramtype">TCHAR(&amp;)&#160;</td>
+          <td class="paramname"><em>dst</em>[size], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::true_type&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -202,202 +341,26 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000261">Todo:</a></b></dt><dd>: create mocks of <a class="el" href="../../d5/d68/a08370.html">Player</a> and <a class="el" href="../../dc/dbf/a07754.html">Creature</a> </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  104</span>{</div>
-<div class="line"><span class="lineno">  105</span>    <span class="keyword">auto</span> worldMock = <span class="keyword">new</span> <a class="code hl_class" href="../../de/de9/a28110.html">WorldMock</a>();</div>
-<div class="line"><span class="lineno">  106</span>    <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>.reset((worldMock));</div>
-<div class="line"><span class="lineno">  108</span>    <span class="comment">// Gain(nullptr, nullptr);</span></div>
-<div class="line"><span class="lineno">  109</span>}</div>
-<div class="ttc" id="aa04669_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-<div class="ttc" id="aa28110_html"><div class="ttname"><a href="../../de/de9/a28110.html">WorldMock</a></div><div class="ttdef"><b>Definition:</b> WorldMock.h:32</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  265</span>{</div>
+<div class="line"><span class="lineno">  266</span>    wcstombs_s(<span class="keyword">nullptr</span>, dst, src, size);</div>
+<div class="line"><span class="lineno">  267</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00443">sWorld</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00275">WheatyExceptionReport::_GetWindowsVersion()</a>.</p>
 
 </div>
 </div>
-<a id="a5fcf85473a490662471938a1f773d6e2" name="a5fcf85473a490662471938a1f773d6e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fcf85473a490662471938a1f773d6e2">&#9670;&#160;</a></span>TEST() <span class="overload">[3/6]</span></h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a9fff8ce906026fe3179e50e97182d90d" name="a9fff8ce906026fe3179e50e97182d90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fff8ce906026fe3179e50e97182d90d">&#9670;&#160;</a></span>g_WheatyExceptionReport</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TEST </td>
-          <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GetColorCode&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a> g_WheatyExceptionReport</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 80), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a8b9de8b212e8c6817d46ade5e1cddb2c">XP_RED</a>);</div>
-<div class="line"><span class="lineno">   52</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 65), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a8b9de8b212e8c6817d46ade5e1cddb2c">XP_RED</a>);</div>
-<div class="line"><span class="lineno">   53</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 64), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458aaf9065b4a6308f6fec4f2a74aeea4db7">XP_ORANGE</a>);</div>
-<div class="line"><span class="lineno">   54</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 63), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458aaf9065b4a6308f6fec4f2a74aeea4db7">XP_ORANGE</a>);</div>
-<div class="line"><span class="lineno">   55</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 62), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a4b0d250ed5a161fc04a68c3ffe34873a">XP_YELLOW</a>);</div>
-<div class="line"><span class="lineno">   56</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 58), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a4b0d250ed5a161fc04a68c3ffe34873a">XP_YELLOW</a>);</div>
-<div class="line"><span class="lineno">   57</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 57), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a31efade814abd9f4cdcf258bbbe94b6e">XP_GREEN</a>);</div>
-<div class="line"><span class="lineno">   58</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 52), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a31efade814abd9f4cdcf258bbbe94b6e">XP_GREEN</a>);</div>
-<div class="line"><span class="lineno">   59</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 51), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a36cf0227da3b3aa6cbc972f5df549e92">XP_GRAY</a>);</div>
-<div class="line"><span class="lineno">   60</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">GetColorCode</a>(60, 1), <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a36cf0227da3b3aa6cbc972f5df549e92">XP_GRAY</a>);</div>
-<div class="line"><span class="lineno">   61</span>}</div>
-<div class="ttc" id="aa04472_html_a4730a8cb3b5ba4caf0c78c978dcf4458a31efade814abd9f4cdcf258bbbe94b6e"><div class="ttname"><a href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a31efade814abd9f4cdcf258bbbe94b6e">XP_GREEN</a></div><div class="ttdeci">@ XP_GREEN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3581</div></div>
-<div class="ttc" id="aa04472_html_a4730a8cb3b5ba4caf0c78c978dcf4458a36cf0227da3b3aa6cbc972f5df549e92"><div class="ttname"><a href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a36cf0227da3b3aa6cbc972f5df549e92">XP_GRAY</a></div><div class="ttdeci">@ XP_GRAY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3582</div></div>
-<div class="ttc" id="aa04472_html_a4730a8cb3b5ba4caf0c78c978dcf4458a4b0d250ed5a161fc04a68c3ffe34873a"><div class="ttname"><a href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a4b0d250ed5a161fc04a68c3ffe34873a">XP_YELLOW</a></div><div class="ttdeci">@ XP_YELLOW</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3580</div></div>
-<div class="ttc" id="aa04472_html_a4730a8cb3b5ba4caf0c78c978dcf4458a8b9de8b212e8c6817d46ade5e1cddb2c"><div class="ttname"><a href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458a8b9de8b212e8c6817d46ade5e1cddb2c">XP_RED</a></div><div class="ttdeci">@ XP_RED</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3578</div></div>
-<div class="ttc" id="aa04472_html_a4730a8cb3b5ba4caf0c78c978dcf4458aaf9065b4a6308f6fec4f2a74aeea4db7"><div class="ttname"><a href="../../df/dfb/a04472.html#a4730a8cb3b5ba4caf0c78c978dcf4458aaf9065b4a6308f6fec4f2a74aeea4db7">XP_ORANGE</a></div><div class="ttdeci">@ XP_ORANGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3579</div></div>
-<div class="ttc" id="aa04727_html_a812c722ab7eb34807d8cad9659d34245"><div class="ttname"><a href="../../dc/d43/a04727.html#a812c722ab7eb34807d8cad9659d34245">Acore::XP::GetColorCode</a></div><div class="ttdeci">XPColorChar GetColorCode(uint8 pl_level, uint8 mob_level)</div><div class="ttdef"><b>Definition:</b> Formulas.h:63</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00063">Acore::XP::GetColorCode()</a>, <a class="el" href="../../#l03582">XP_GRAY</a>, <a class="el" href="../../#l03581">XP_GREEN</a>, <a class="el" href="../../#l03579">XP_ORANGE</a>, <a class="el" href="../../#l03578">XP_RED</a>, and <a class="el" href="../../#l03580">XP_YELLOW</a>.</p>
-
-</div>
-</div>
-<a id="a8ffadf8c8dbffb858cf2a925473d6bff" name="a8ffadf8c8dbffb858cf2a925473d6bff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ffadf8c8dbffb858cf2a925473d6bff">&#9670;&#160;</a></span>TEST() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TEST </td>
-          <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GetGrayLevel&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
-<div class="line"><span class="lineno">   39</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(0), 0);</div>
-<div class="line"><span class="lineno">   40</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(5), 0);</div>
-<div class="line"><span class="lineno">   41</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(6), 1);</div>
-<div class="line"><span class="lineno">   42</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(39), 31);</div>
-<div class="line"><span class="lineno">   43</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(40), 31);</div>
-<div class="line"><span class="lineno">   44</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(59), 47);</div>
-<div class="line"><span class="lineno">   45</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(60), 51);</div>
-<div class="line"><span class="lineno">   46</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">GetGrayLevel</a>(80), 71);</div>
-<div class="line"><span class="lineno">   47</span>}</div>
-<div class="ttc" id="aa04727_html_a9c310a4423fd5ada14fac549e4b1a6fd"><div class="ttname"><a href="../../dc/d43/a04727.html#a9c310a4423fd5ada14fac549e4b1a6fd">Acore::XP::GetGrayLevel</a></div><div class="ttdeci">uint8 GetGrayLevel(uint8 pl_level)</div><div class="ttdef"><b>Definition:</b> Formulas.h:46</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">Acore::XP::GetGrayLevel()</a>.</p>
-
-</div>
-</div>
-<a id="a23ac78cb09ef0a7b924b271ffefbc6a9" name="a23ac78cb09ef0a7b924b271ffefbc6a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ac78cb09ef0a7b924b271ffefbc6a9">&#9670;&#160;</a></span>TEST() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TEST </td>
-          <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GetZeroDifference&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
-<div class="line"><span class="lineno">   65</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(1), 5);</div>
-<div class="line"><span class="lineno">   66</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(7), 5);</div>
-<div class="line"><span class="lineno">   67</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(8), 6);</div>
-<div class="line"><span class="lineno">   68</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(9), 6);</div>
-<div class="line"><span class="lineno">   69</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(10), 7);</div>
-<div class="line"><span class="lineno">   70</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(11), 7);</div>
-<div class="line"><span class="lineno">   71</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(12), 8);</div>
-<div class="line"><span class="lineno">   72</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(15), 8);</div>
-<div class="line"><span class="lineno">   73</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(16), 9);</div>
-<div class="line"><span class="lineno">   74</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(19), 9);</div>
-<div class="line"><span class="lineno">   75</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(20), 11);</div>
-<div class="line"><span class="lineno">   76</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(29), 11);</div>
-<div class="line"><span class="lineno">   77</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(30), 12);</div>
-<div class="line"><span class="lineno">   78</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(39), 12);</div>
-<div class="line"><span class="lineno">   79</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(40), 13);</div>
-<div class="line"><span class="lineno">   80</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(44), 13);</div>
-<div class="line"><span class="lineno">   81</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(45), 14);</div>
-<div class="line"><span class="lineno">   82</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(49), 14);</div>
-<div class="line"><span class="lineno">   83</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(50), 15);</div>
-<div class="line"><span class="lineno">   84</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(54), 15);</div>
-<div class="line"><span class="lineno">   85</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(55), 16);</div>
-<div class="line"><span class="lineno">   86</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(59), 16);</div>
-<div class="line"><span class="lineno">   87</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(60), 17);</div>
-<div class="line"><span class="lineno">   88</span>    EXPECT_EQ(<a class="code hl_function" href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">GetZeroDifference</a>(80), 17);</div>
-<div class="line"><span class="lineno">   89</span>}</div>
-<div class="ttc" id="aa04727_html_a4152e9ef9972f6a20cbc990dce953c36"><div class="ttname"><a href="../../dc/d43/a04727.html#a4152e9ef9972f6a20cbc990dce953c36">Acore::XP::GetZeroDifference</a></div><div class="ttdeci">uint8 GetZeroDifference(uint8 pl_level)</div><div class="ttdef"><b>Definition:</b> Formulas.h:82</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00082">Acore::XP::GetZeroDifference()</a>.</p>
-
-</div>
-</div>
-<a id="a9b7a926251db0fa2bd2678cee360e161" name="a9b7a926251db0fa2bd2678cee360e161"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b7a926251db0fa2bd2678cee360e161">&#9670;&#160;</a></span>TEST() <span class="overload">[6/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TEST </td>
-          <td>(</td>
-          <td class="paramtype">FormulasTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">hk_honor_at_level&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(80), 124);</div>
-<div class="line"><span class="lineno">   29</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(80, 2), 248);</div>
-<div class="line"><span class="lineno">   30</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(80, 0.5), 62);</div>
-<div class="line"><span class="lineno">   31</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(1), 2);</div>
-<div class="line"><span class="lineno">   32</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(1, 10), 16);</div>
-<div class="line"><span class="lineno">   33</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(2), 4);</div>
-<div class="line"><span class="lineno">   34</span>    EXPECT_EQ(<a class="code hl_function" href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">hk_honor_at_level</a>(3), 5);</div>
-<div class="line"><span class="lineno">   35</span>}</div>
-<div class="ttc" id="aa04726_html_ad25519337dcc6370a39a072c53386f55"><div class="ttname"><a href="../../d4/dea/a04726.html#ad25519337dcc6370a39a072c53386f55">Acore::Honor::hk_honor_at_level</a></div><div class="ttdeci">uint32 hk_honor_at_level(uint8 level, float multiplier=1.0f)</div><div class="ttdef"><b>Definition:</b> Formulas.h:38</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00038">Acore::Honor::hk_honor_at_level()</a>.</p>
 
 </div>
 </div>
@@ -406,8 +369,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1e2b35566ac0cf24ea791bcb2545ed2e.html">test</a></li><li class="navelem"><a class="el" href="../../dir_337bdd013191c9d548b6f28390c35d04.html">server</a></li><li class="navelem"><a class="el" href="../../dir_432bda28dad7986d3a1dc3010dcbb57c.html">game</a></li><li class="navelem"><a class="el" href="../../dir_8303d6c15c2da3f083d7d0da7d55e7c8.html">Miscellaneous</a></li><li class="navelem"><a class="el" href="../../dd/dad/a00005.html">FormulasTest.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../dd/dad/a00005.html">WheatyExceptionReport.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

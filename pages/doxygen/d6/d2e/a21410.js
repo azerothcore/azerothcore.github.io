@@ -1,6 +1,6 @@
 var a21410 =
 [
-    [ "CheckCast", "d6/d2e/a21410.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
-    [ "PrepareSpellScript", "d6/d2e/a21410.html#abff433d61c798d17882292b6b0956a58", null ],
-    [ "Register", "d6/d2e/a21410.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d6/d2e/a21410.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
+    [ "MovementInform", "d6/d2e/a21410.html#a999bc868db485578fcc70ae7e056b778", null ],
+    [ "Reset", "d6/d2e/a21410.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
 ];

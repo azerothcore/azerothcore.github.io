@@ -1,6 +1,6 @@
 var a11710 =
 [
-    [ "boss_halyconAI", "d9/dc8/a11714.html", "d9/dc8/a11714" ],
-    [ "boss_halycon", "d0/d20/a11710.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
-    [ "GetAI", "d0/d20/a11710.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
+    [ "boss_drakkisathAI", "d9/dc8/a11714.html", "d9/dc8/a11714" ],
+    [ "boss_drakkisath", "d0/d20/a11710.html#a73f21cbd7b81fc045ae129d7d650b455", null ],
+    [ "GetAI", "d0/d20/a11710.html#ad27999ba129b2e3617c1aba1c4b9772b", null ]
 ];

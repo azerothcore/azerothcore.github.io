@@ -1,6 +1,6 @@
 var a16342 =
 [
-    [ "boss_bronjahmAI", "da/db0/a16346.html", "da/db0/a16346" ],
-    [ "boss_bronjahm", "d9/dc6/a16342.html#a699e1be5273979c76cd5d06b60f0ee05", null ],
-    [ "GetAI", "d9/dc6/a16342.html#a04676028f1f324b6eecea625122794ed", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "d9/dc6/a16342.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
+    [ "OnGameObjectCreate", "d9/dc6/a16342.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
+    [ "OnGameObjectRemove", "d9/dc6/a16342.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
 ];

@@ -1,6 +1,8 @@
 var a25314 =
 [
-    [ "PartyTimeEmoteEvent", "d0/d74/a25314.html#a525efd58fc8465658208058e6dc5d31c", null ],
-    [ "Execute", "d0/d74/a25314.html#a65a796ff4efece46c519f7bdf1524bb8", null ],
-    [ "_player", "d0/d74/a25314.html#a61ecb44828c6e4c868def8899791feb3", null ]
+    [ "HandleProc", "d0/d74/a25314.html#ad92c7804b26bd29d135e55c8adad9093", null ],
+    [ "OnRemove", "d0/d74/a25314.html#afa8e065ed835243f3ebb95c10792adf8", null ],
+    [ "PrepareAuraScript", "d0/d74/a25314.html#a5e986f77b23fd0402089ea36f0360c79", null ],
+    [ "Register", "d0/d74/a25314.html#a29d66b9790e3f7dfffb5dc398f26f9fb", null ],
+    [ "Validate", "d0/d74/a25314.html#a51f81afec6ff0918530208d9de9dae24", null ]
 ];

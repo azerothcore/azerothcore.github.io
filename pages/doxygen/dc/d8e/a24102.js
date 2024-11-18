@@ -1,13 +1,8 @@
 var a24102 =
 [
-    [ "npc_pet_mage_mirror_image", "dc/d8e/a24102.html#a2761cc9bf3a8bb7908d3db6d929721ba", null ],
-    [ "EnterEvadeMode", "dc/d8e/a24102.html#a858b070fb53112dc78554f0b20cd876a", null ],
-    [ "InitializeAI", "dc/d8e/a24102.html#a66d513908aa88504d0cbe4ce9bf222be", null ],
-    [ "MySelectNextTarget", "dc/d8e/a24102.html#a49d57ba93cd88816f68c16d56d3b8cd2", null ],
-    [ "Reset", "dc/d8e/a24102.html#a79a8c153ab61c619d928ec5535e67077", null ],
-    [ "UpdateAI", "dc/d8e/a24102.html#aa219b3adc38b625c6885089895b941b4", null ],
-    [ "_ebonGargoyleGUID", "dc/d8e/a24102.html#a8be57d06114f108e74b850ce66722bf3", null ],
-    [ "checktarget", "dc/d8e/a24102.html#a074611355768dc2072da69ed9d72242b", null ],
-    [ "dist", "dc/d8e/a24102.html#a7fcde453faf05a64e4c7099d840c0e2b", null ],
-    [ "selectionTimer", "dc/d8e/a24102.html#a7d7a6ebd88afecd7ae7aaeda0cee6cf7", null ]
+    [ "npc_pet_darting_hatchling", "dc/d8e/a24102.html#a7ae5973061068396bf382dc21e88cd44", null ],
+    [ "SpellHit", "dc/d8e/a24102.html#a29ea5438bab7e606175c02165a607f9b", null ],
+    [ "UpdateAI", "dc/d8e/a24102.html#a23196d05aebe5fa4a65455c55368820a", null ],
+    [ "checkTimer", "dc/d8e/a24102.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
+    [ "goFast", "dc/d8e/a24102.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
 ];

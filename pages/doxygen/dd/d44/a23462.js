@@ -1,10 +1,6 @@
 var a23462 =
 [
-    [ "npc_lord_sanguinar", "dd/d44/a23462.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
-    [ "JustDied", "dd/d44/a23462.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
-    [ "JustEngagedWith", "dd/d44/a23462.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
-    [ "Reset", "dd/d44/a23462.html#a25d998de67f88d4618f8f8d88681e68b", null ],
-    [ "UpdateAI", "dd/d44/a23462.html#a27df1dbb76a650b8039690cab4ddad68", null ],
-    [ "_hasDied", "dd/d44/a23462.html#a6f0a66b88b95412f443998190b142eaf", null ],
-    [ "_instance", "dd/d44/a23462.html#aa610a2ca98d2fff376821dd243947096", null ]
+    [ "AfterRemove", "dd/d44/a23462.html#a1794dcf8ebca0bd0c4fce5acb8b45de0", null ],
+    [ "PrepareAuraScript", "dd/d44/a23462.html#ad5871ce865820456177362c6b790778f", null ],
+    [ "Register", "dd/d44/a23462.html#a41e19fb2509051bbd2d9e43c59f16486", null ]
 ];

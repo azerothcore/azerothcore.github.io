@@ -1,10 +1,11 @@
 var a24314 =
 [
-    [ "Absorb", "d7/dc1/a24314.html#a5ab2041dcc342b087d8c6fd9b8d2635f", null ],
-    [ "CalculateAmount", "d7/dc1/a24314.html#aed6e525b71f18dafb6f458bc255a6495", null ],
-    [ "Load", "d7/dc1/a24314.html#af73fcf4a73ba60e214c045471569f7b0", null ],
-    [ "PrepareAuraScript", "d7/dc1/a24314.html#a884927612b8ab2712a057da72f8180c6", null ],
-    [ "Register", "d7/dc1/a24314.html#a380b63aec7c567c8db60f4c69a4e6043", null ],
-    [ "Validate", "d7/dc1/a24314.html#af58ba552be9c91e8885ef1ccd567c96a", null ],
-    [ "absorbPct", "d7/dc1/a24314.html#a64e8bcde6ee27dd00e77d7bfa0864e81", null ]
+    [ "HandleAfterHit", "d7/dc1/a24314.html#a3cfb75da66372934ba5aaa1c9ad6c6f3", null ],
+    [ "HandleDummy", "d7/dc1/a24314.html#abb3f92850fa6fff94c682b990c361fe6", null ],
+    [ "Load", "d7/dc1/a24314.html#ae5900d64c9b9b2de48c494458d4bed8b", null ],
+    [ "PrepareSpellScript", "d7/dc1/a24314.html#adea0e24654cd87b3aee07ce2183b9517", null ],
+    [ "Register", "d7/dc1/a24314.html#a3e155e336d6a5a6a4d44eae422ef7939", null ],
+    [ "Validate", "d7/dc1/a24314.html#a28bb9111c8e5116a82d4e54b7eacb92b", null ],
+    [ "guid", "d7/dc1/a24314.html#a6e177d68e1d39dcb27e6643d267328a5", null ],
+    [ "multiplier", "d7/dc1/a24314.html#a04ed6aae0ea28a4f1b7c1ed5f4f73a0b", null ]
 ];

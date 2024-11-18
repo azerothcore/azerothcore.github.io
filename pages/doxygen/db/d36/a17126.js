@@ -1,8 +1,9 @@
 var a17126 =
 [
-    [ "ResetEncounterEvent", "db/d36/a17126.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "db/d36/a17126.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "db/d36/a17126.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "db/d36/a17126.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "db/d36/a17126.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "BattleExperienceEvent", "db/d36/a17126.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "db/d36/a17126.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "db/d36/a17126.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "db/d36/a17126.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "db/d36/a17126.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "db/d36/a17126.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

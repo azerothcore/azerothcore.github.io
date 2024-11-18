@@ -1,7 +1,6 @@
 var a20146 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "d2/dc7/a20146.html#a100678bddd6a0e859c72035d4642d8e2", null ],
-    [ "MoveInLineOfSight", "d2/dc7/a20146.html#a870bdc842d8d7078302a36a20ef661e4", null ],
-    [ "_instance", "d2/dc7/a20146.html#a64d925b08f3f0ae59f5053121dbc495c", null ],
-    [ "_introSpoken", "d2/dc7/a20146.html#ac6784a66111406f917ae4d07dbeb60a4", null ]
+    [ "boss_razorscaleAI", "d4/dfb/a20150.html", "d4/dfb/a20150" ],
+    [ "boss_razorscale", "d2/dc7/a20146.html#ad8fe81f1b553414df3fa07c646029065", null ],
+    [ "GetAI", "d2/dc7/a20146.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
 ];

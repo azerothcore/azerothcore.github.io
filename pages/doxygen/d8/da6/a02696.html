@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommand.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/apps/worldserver/ACSoap/ACSoap.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,109 +106,127 @@ $(document).ready(function(){initNavTree('d8/da6/a02696.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ChatCommand.h File Reference</div></div>
+  <div class="headertitle"><div class="title">ACSoap.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ChatCommandTags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;cstddef&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &lt;variant&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;future&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/a07286.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/a05574.html">SOAPCommand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/a07290.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcd/a07294.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a07298.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; bool(ChatHandler *, Ts...)&gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1a/a07302.html">Acore::Impl::ChatCommands::CommandInvoker</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d35/a07306.html">Acore::Impl::ChatCommands::CommandPermissions</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d09/a07310.html">Acore::Impl::ChatCommands::ChatCommandNode</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de5/a07314.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d19/a07318.html">Acore::ChatCommands::ChatCommandBuilder::InvokerEntry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/d13/a04714"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html">Acore::ChatCommands</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">Acore::Impl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/d6d/a04713"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html">Acore::Impl::ChatCommands</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a> = std::vector&lt; ChatCommandBuilder &gt;</td></tr>
-<tr class="separator:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html#a7dd784bc8e3d7db1d11c46886088ad76">Acore::Impl::ChatCommands::TupleType</a> = typename HandlerToTuple&lt; T &gt;::type</td></tr>
-<tr class="separator:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a399dbe5721f7277a9066752a84065ee4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da6/a02696.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> = <a class="el" href="../../d2/de5/a07314.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
-<tr class="separator:a399dbe5721f7277a9066752a84065ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a6f2659123367a36f37046e5604215d6b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#a6f2659123367a36f37046e5604215d6b">Acore::ChatCommands::Console</a> : bool { <br />
-&#160;&#160;<a class="el" href="../../d1/d13/a04714.html#a6f2659123367a36f37046e5604215d6babafd7322c6e97d25b6299b5d6fe8920b">Acore::ChatCommands::No</a> = false
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d13/a04714.html#a6f2659123367a36f37046e5604215d6ba93cba07454f06a4a960172bbd6e2a435">Acore::ChatCommands::Yes</a> = true
-<br />
- }</td></tr>
-<tr class="separator:a6f2659123367a36f37046e5604215d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplParams" colspan="2">template&lt;typename Tuple , std::size_t offset&gt; </td></tr>
-<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d25/a02687.html#ad9c9d483b96ed400318aed8441ebe7f1">ChatCommandResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html#a3cb927687da0e8c0bae77a78fe45d942">Acore::Impl::ChatCommands::ConsumeFromOffset</a> (Tuple &amp;, <a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
-<tr class="separator:a3cb927687da0e8c0bae77a78fe45d942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#a2c6cb6c985ac8fd7bb2f8b2bab1be30d">Acore::ChatCommands::LoadCommandMap</a> ()</td></tr>
-<tr class="separator:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade19080af583292883b932d83992c6fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#ade19080af583292883b932d83992c6fe">Acore::ChatCommands::InvalidateCommandMap</a> ()</td></tr>
-<tr class="separator:ade19080af583292883b932d83992c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#aca39508e7753f6ca5d9aa21a854c0a77">Acore::ChatCommands::TryExecuteCommand</a> (<a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
-<tr class="separator:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#a81e8830ce306f6cfbcd04c92d3e0cc7f">Acore::ChatCommands::SendCommandHelpFor</a> (<a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
-<tr class="separator:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html#a9a1f396a96afbd90b5c426315c8ba37d">Acore::ChatCommands::GetAutoCompletionsFor</a> (<a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> const &amp;handler, std::string_view cmd)</td></tr>
-<tr class="separator:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf914e30c869f88f2fafb9f656320c6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da6/a02696.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a> (struct soap *soap_message)</td></tr>
+<tr class="separator:abf914e30c869f88f2fafb9f656320c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e574c9a3cecf7c395cd036bb672ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da6/a02696.html#a69e574c9a3cecf7c395cd036bb672ed3">ACSoapThread</a> (const std::string &amp;host, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> port)</td></tr>
+<tr class="separator:a69e574c9a3cecf7c395cd036bb672ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a399dbe5721f7277a9066752a84065ee4" name="a399dbe5721f7277a9066752a84065ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a399dbe5721f7277a9066752a84065ee4">&#9670;&#160;</a></span>ChatCommand</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a69e574c9a3cecf7c395cd036bb672ed3" name="a69e574c9a3cecf7c395cd036bb672ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e574c9a3cecf7c395cd036bb672ed3">&#9670;&#160;</a></span>ACSoapThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d8/da6/a02696.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> =  <a class="el" href="../../d2/de5/a07314.html">Acore::ChatCommands::ChatCommandBuilder</a></td>
+          <td class="memname">void ACSoapThread </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keyword">struct </span>soap soap;</div>
+<div class="line"><span class="lineno">   27</span>    soap_init(&amp;soap);</div>
+<div class="line"><span class="lineno">   28</span>    soap_set_imode(&amp;soap, SOAP_C_UTFSTRING);</div>
+<div class="line"><span class="lineno">   29</span>    soap_set_omode(&amp;soap, SOAP_C_UTFSTRING);</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">// check every 3 seconds if world ended</span></div>
+<div class="line"><span class="lineno">   32</span>    soap.accept_timeout = 3;</div>
+<div class="line"><span class="lineno">   33</span>    soap.recv_timeout = 5;</div>
+<div class="line"><span class="lineno">   34</span>    soap.send_timeout = 5;</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (!soap_valid_socket(soap_bind(&amp;soap, host.c_str(), port, 100)))</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: couldn&#39;t bind to {}:{}&quot;</span>, host, port);</div>
+<div class="line"><span class="lineno">   39</span>        exit(-1);</div>
+<div class="line"><span class="lineno">   40</span>    }</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: bound to http://{}:{}&quot;</span>, host, port);</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d8/dc5/a11274.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
+<div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!soap_valid_socket(soap_accept(&amp;soap)))</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">continue</span>;   <span class="comment">// ran into an accept timeout</span></div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: accepted connection from IP={}.{}.{}.{}&quot;</span>, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 24) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 16) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 8) &amp; 0xFF, (<span class="keywordtype">int</span>)soap.ip &amp; 0xFF);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keyword">struct </span>soap* thread_soap = soap_copy(&amp;soap);<span class="comment">// make a safe copy</span></div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_function" href="../../d6/da8/a02693.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a>(thread_soap);</div>
+<div class="line"><span class="lineno">   53</span>    }</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    soap_destroy(&amp;soap);</div>
+<div class="line"><span class="lineno">   56</span>    soap_end(&amp;soap);</div>
+<div class="line"><span class="lineno">   57</span>    soap_done(&amp;soap);</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
+<div class="ttc" id="aa02693_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../d6/da8/a02693.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> ACSoap.cpp:60</div></div>
+<div class="ttc" id="aa11274_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d8/dc5/a11274.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:254</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00254">World::IsStopped()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, and <a class="el" href="../../#l00060">process_message()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00120">main()</a>.</p>
+
+</div>
+</div>
+<a id="abf914e30c869f88f2fafb9f656320c6a" name="abf914e30c869f88f2fafb9f656320c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf914e30c869f88f2fafb9f656320c6a">&#9670;&#160;</a></span>process_message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void process_message </td>
+          <td>(</td>
+          <td class="paramtype">struct soap *&#160;</td>
+          <td class="paramname"><em>soap_message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;SOAPWorkingThread::process_message&quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    soap_serve(soap_message);</div>
+<div class="line"><span class="lineno">   65</span>    soap_destroy(soap_message); <span class="comment">// dealloc C++ data</span></div>
+<div class="line"><span class="lineno">   66</span>    soap_end(soap_message); <span class="comment">// dealloc data and clean up</span></div>
+<div class="line"><span class="lineno">   67</span>    soap_free(soap_message); <span class="comment">// detach soap struct and fre up the memory</span></div>
+<div class="line"><span class="lineno">   68</span>}</div>
+<div class="ttc" id="aa00035_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../d4/d8c/a00035.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:173</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00173">LOG_TRACE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00024">ACSoapThread()</a>.</p>
 
 </div>
 </div>
@@ -217,8 +235,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d8/da6/a02696.html">ChatCommand.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../dir_d5546cd048ce0388ac9df91d37210e56.html">ACSoap</a></li><li class="navelem"><a class="el" href="../../d8/da6/a02696.html">ACSoap.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

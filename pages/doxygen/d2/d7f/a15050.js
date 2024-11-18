@@ -1,8 +1,7 @@
 var a15050 =
 [
-    [ "CheckRequirement", "d2/d7f/a15050.html#ae2b5e9accd0df2cc99e976eaab2d3f35", null ],
-    [ "HandleDummy", "d2/d7f/a15050.html#a6d2c75ad53f0e0f7be2df037f385d686", null ],
-    [ "PrepareSpellScript", "d2/d7f/a15050.html#a5b0a5f957a7b996cbe6b219a9803069e", null ],
-    [ "Register", "d2/d7f/a15050.html#a46f4aec6f7786d0abc8ded21ef16e6f6", null ],
-    [ "Validate", "d2/d7f/a15050.html#ab3f8d94f3b8d44e668743cb821430a92", null ]
+    [ "HandleEffectPeriodic", "d2/d7f/a15050.html#ac47c157dbd193bc131d281666ae2097f", null ],
+    [ "PrepareAuraScript", "d2/d7f/a15050.html#ac650ece6e2d9e9e7ff9b863d77f84975", null ],
+    [ "Register", "d2/d7f/a15050.html#ac3c158fdddd007d1d7986470032bfc25", null ],
+    [ "Validate", "d2/d7f/a15050.html#a26b117dc8a3b104dec9de27597fbe55d", null ]
 ];

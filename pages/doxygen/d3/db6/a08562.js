@@ -1,9 +1,11 @@
 var a08562 =
 [
-    [ "GameEventAIHookWorker", "d3/db6/a08562.html#ad72640a18d2d32a9201c965089ee49cf", null ],
-    [ "Visit", "d3/db6/a08562.html#a23d979ee43838e7d58e9123e36474a5a", null ],
-    [ "Visit", "d3/db6/a08562.html#a79106ec550d072d690bbf3496d76cb0a", null ],
-    [ "Visit", "d3/db6/a08562.html#a165476edd8b252bbb90b8b78fae963a6", null ],
-    [ "_activate", "d3/db6/a08562.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
-    [ "_eventId", "d3/db6/a08562.html#ab1ee68bb7134e84780772eba2cfac766", null ]
+    [ "VehicleSeatAddon", "d3/db6/a08562.html#a307b278917998116156e41f9189a582c", null ],
+    [ "VehicleSeatAddon", "d3/db6/a08562.html#adaec12df869a9ffc81174f5ef1f65606", null ],
+    [ "ExitParameter", "d3/db6/a08562.html#afbb8de193522f1182efff50064e5f83d", null ],
+    [ "ExitParameterO", "d3/db6/a08562.html#a06e385ea5cf0441721432925251a5a63", null ],
+    [ "ExitParameterX", "d3/db6/a08562.html#a521d7a5eda620d0ced0b1309f3c96e17", null ],
+    [ "ExitParameterY", "d3/db6/a08562.html#ad343c7149b12cffe3a3de48ad73685a2", null ],
+    [ "ExitParameterZ", "d3/db6/a08562.html#add1ea5a9e605a49d0ddbcea0f804bd3b", null ],
+    [ "SeatOrientationOffset", "d3/db6/a08562.html#a374c73b40f6e6dad103b172d1829a31d", null ]
 ];

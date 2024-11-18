@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::unary_function&lt; ArgumentType, ResultType &gt; Struct Template Reference</title>
+<title>AzerothCore: RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,53 +105,186 @@ $(document).ready(function(){initNavTree('db/d35/a05030.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/d82/a05027.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::unary_function&lt; ArgumentType, ResultType &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">RegularGrid.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ad0011a133ce27e947c35917314e60693"><td class="memItemLeft" align="right" valign="top">typedef ArgumentType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#ad0011a133ce27e947c35917314e60693">argument_type</a></td></tr>
-<tr class="separator:ad0011a133ce27e947c35917314e60693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9"><td class="memItemLeft" align="right" valign="top">typedef ResultType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
-<tr class="separator:a6dcbf6789c1565b95f16de3d580118a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a13e8b2fcda561f185777e4d8b48da3f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a13e8b2fcda561f185777e4d8b48da3f5">operator==</a> (const <a class="el" href="../../db/d35/a05030.html">Cell</a> &amp;c2) const</td></tr>
+<tr class="separator:a13e8b2fcda561f185777e4d8b48da3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe64d87e738675f1c8cb0fa6d440029c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#afe64d87e738675f1c8cb0fa6d440029c">isValid</a> () const</td></tr>
+<tr class="separator:afe64d87e738675f1c8cb0fa6d440029c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a32a8b5ab15a28fb06672fcf62ac63d1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d35/a05030.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a32a8b5ab15a28fb06672fcf62ac63d1e">ComputeCell</a> (float fx, float fy)</td></tr>
+<tr class="separator:a32a8b5ab15a28fb06672fcf62ac63d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8435f7d7b8f529dfe397ada59e3405a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a></td></tr>
+<tr class="separator:a8435f7d7b8f529dfe397ada59e3405a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d5ae020727d58286ef7725958063a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a></td></tr>
+<tr class="separator:af3d5ae020727d58286ef7725958063a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class ArgumentType, class ResultType&gt;<br />
-struct Acore::unary_function&lt; ArgumentType, ResultType &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ad0011a133ce27e947c35917314e60693" name="ad0011a133ce27e947c35917314e60693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0011a133ce27e947c35917314e60693">&#9670;&#160;</a></span>argument_type</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class Node, class NodeCreatorFunc = NodeCreator&lt;Node&gt;, class PositionFunc = PositionTrait&lt;T&gt;&gt;<br />
+struct RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a32a8b5ab15a28fb06672fcf62ac63d1e" name="a32a8b5ab15a28fb06672fcf62ac63d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a8b5ab15a28fb06672fcf62ac63d1e">&#9670;&#160;</a></span>ComputeCell()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ArgumentType , class ResultType &gt; </div>
+template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef ArgumentType <a class="el" href="../../db/d35/a05030.html">Acore::unary_function</a>&lt; ArgumentType, ResultType &gt;::argument_type</td>
+          <td class="memname">static <a class="el" href="../../db/d35/a05030.html">Cell</a> <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::ComputeCell </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  151</span>        {</div>
+<div class="line"><span class="lineno">  152</span>            <a class="code hl_struct" href="../../d9/db0/a08822.html">Cell</a> c = { int(fx * (1.f / <a class="code hl_define" href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)), int(fy * (1.f / <a class="code hl_define" href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)) };</div>
+<div class="line"><span class="lineno">  153</span>            <span class="keywordflow">return</span> c;</div>
+<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="ttc" id="aa00116_html_a7a4127f14f16563da90eb3c836bc404f"><div class="ttname"><a href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a></div><div class="ttdeci">#define CELL_SIZE</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:52</div></div>
+<div class="ttc" id="aa05026_html_a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60"><div class="ttname"><a href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">RegularGrid2D::CELL_NUMBER</a></div><div class="ttdeci">@ CELL_NUMBER</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:48</div></div>
+<div class="ttc" id="aa08822_html"><div class="ttname"><a href="../../d9/db0/a08822.html">Cell</a></div><div class="ttdef"><b>Definition:</b> Cell.h:45</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::CELL_NUMBER</a>, and <a class="el" href="../../#l00052">CELL_SIZE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00073">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::insert()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, and <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>.</p>
 
 </div>
 </div>
-<a id="a6dcbf6789c1565b95f16de3d580118a9" name="a6dcbf6789c1565b95f16de3d580118a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dcbf6789c1565b95f16de3d580118a9">&#9670;&#160;</a></span>result_type</h2>
+<a id="afe64d87e738675f1c8cb0fa6d440029c" name="afe64d87e738675f1c8cb0fa6d440029c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe64d87e738675f1c8cb0fa6d440029c">&#9670;&#160;</a></span>isValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ArgumentType , class ResultType &gt; </div>
+template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef ResultType <a class="el" href="../../db/d35/a05030.html">Acore::unary_function</a>&lt; ArgumentType, ResultType &gt;::result_type</td>
+          <td class="memname">bool <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  156</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> &gt;= 0 &amp;&amp; x &lt; CELL_NUMBER &amp;&amp; y &gt;= 0 &amp;&amp; <a class="code hl_variable" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a> &lt; <a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a>;}</div>
+<div class="ttc" id="aa05030_html_a8435f7d7b8f529dfe397ada59e3405a1"><div class="ttname"><a href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">RegularGrid2D::Cell::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:147</div></div>
+<div class="ttc" id="aa05030_html_af3d5ae020727d58286ef7725958063a9"><div class="ttname"><a href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">RegularGrid2D::Cell::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:147</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::CELL_NUMBER</a>, <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</a>, and <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00073">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::insert()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, and <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>.</p>
+
+</div>
+</div>
+<a id="a13e8b2fcda561f185777e4d8b48da3f5" name="a13e8b2fcda561f185777e4d8b48da3f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e8b2fcda561f185777e4d8b48da3f5">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d35/a05030.html">Cell</a> &amp;&#160;</td>
+          <td class="paramname"><em>c2</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> == c2.x &amp;&amp; <a class="code hl_variable" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a> == c2.y;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</a>, and <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8435f7d7b8f529dfe397ada59e3405a1" name="a8435f7d7b8f529dfe397ada59e3405a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8435f7d7b8f529dfe397ada59e3405a1">&#9670;&#160;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>, <a class="el" href="../../#l00156">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid()</a>, and <a class="el" href="../../#l00148">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator==()</a>.</p>
+
+</div>
+</div>
+<a id="af3d5ae020727d58286ef7725958063a9" name="af3d5ae020727d58286ef7725958063a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d5ae020727d58286ef7725958063a9">&#9670;&#160;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>, <a class="el" href="../../#l00156">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid()</a>, and <a class="el" href="../../#l00148">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator==()</a>.</p>
 
 </div>
 </div>
@@ -160,8 +293,8 @@ template&lt;class ArgumentType , class ResultType &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../db/d35/a05030.html">unary_function</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a></li><li class="navelem"><a class="el" href="../../db/d35/a05030.html">Cell</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

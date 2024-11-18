@@ -1,7 +1,8 @@
 var a23170 =
 [
-    [ "PeriodicTick", "d8/d44/a23170.html#a53541105e40202e4a73ecc38d84e9eca", null ],
-    [ "PrepareAuraScript", "d8/d44/a23170.html#a79c8829a86db535e254db009d5286430", null ],
-    [ "Register", "d8/d44/a23170.html#a58cd762eb10d224bb188aaf167c816b9", null ],
-    [ "Validate", "d8/d44/a23170.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "d8/d44/a23170.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "d8/d44/a23170.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "d8/d44/a23170.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "d8/d44/a23170.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "d8/d44/a23170.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

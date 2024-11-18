@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/instance_shattered_halls.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/server_mail.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,126 +106,49 @@ $(document).ready(function(){initNavTree('d6/d83/a01544.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_shattered_halls.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">server_mail.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaTriggerScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">shattered_halls.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PlayerScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da0/a23322.html">instance_shattered_halls</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d28/a23326.html">instance_shattered_halls::instance_shattered_halls_InstanceMapScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddf/a23330.html">at_shattered_halls_execution</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df7/a27318.html">ServerMailReward</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a206458c4d90391b7cb2b182c06ad6360"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d83/a01544.html#a206458c4d90391b7cb2b182c06ad6360">AddSC_instance_shattered_halls</a> ()</td></tr>
-<tr class="separator:a206458c4d90391b7cb2b182c06ad6360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d83/a01544.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
-<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d83/a01544.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
-<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c20fa2f42eb423e39f2aaafe8fadafc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d83/a01544.html#a8c20fa2f42eb423e39f2aaafe8fadafc">AddSC_server_mail</a> ()</td></tr>
+<tr class="separator:a8c20fa2f42eb423e39f2aaafe8fadafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a206458c4d90391b7cb2b182c06ad6360" name="a206458c4d90391b7cb2b182c06ad6360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a206458c4d90391b7cb2b182c06ad6360">&#9670;&#160;</a></span>AddSC_instance_shattered_halls()</h2>
+<a id="a8c20fa2f42eb423e39f2aaafe8fadafc" name="a8c20fa2f42eb423e39f2aaafe8fadafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c20fa2f42eb423e39f2aaafe8fadafc">&#9670;&#160;</a></span>AddSC_server_mail()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_shattered_halls </td>
+          <td class="memname">void AddSC_server_mail </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
-<div class="line"><span class="lineno">  207</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/da0/a23322.html">instance_shattered_halls</a>();</div>
-<div class="line"><span class="lineno">  208</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/ddf/a23330.html">at_shattered_halls_execution</a>();</div>
-<div class="line"><span class="lineno">  209</span>}</div>
-<div class="ttc" id="aa23322_html"><div class="ttname"><a href="../../d9/da0/a23322.html">instance_shattered_halls</a></div><div class="ttdef"><b>Definition:</b> instance_shattered_halls.cpp:43</div></div>
-<div class="ttc" id="aa23330_html"><div class="ttname"><a href="../../d4/ddf/a23330.html">at_shattered_halls_execution</a></div><div class="ttdef"><b>Definition:</b> instance_shattered_halls.cpp:187</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/df7/a27318.html">ServerMailReward</a>();</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+<div class="ttc" id="aa27318_html"><div class="ttname"><a href="../../da/df7/a27318.html">ServerMailReward</a></div><div class="ttdef"><b>Definition:</b> server_mail.cpp:25</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const creatureData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eaae3b230661d1ce2817df65021744b28b">NPC_GRAND_WARLOCK_NETHEKURSE</a>  , <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22abf6aceeb13c42866b5cd82d397a3f3eb">DATA_NETHEKURSE</a>     },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eaed7587fc7a79d17f3cc304728e4f9a82">NPC_WARCHIEF_KARGATH</a>          , <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a48cd245ca33338ebeffd89b1ff82e494">DATA_KARGATH</a>        },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eab8c2d615cf7a50b5182e7b65a452872c">NPC_OMROGG_LEFT_HEAD</a>          , <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a95c3bca8e95896b690f3503e3ef31875">DATA_OMROGG_LEFT_HEAD</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963ea63b6a39aa642f2e0d8c55829cf8e7205">NPC_OMROGG_RIGHT_HEAD</a>         , <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a040e4b2e1bdad27be5dcca9a39a4e3cc">DATA_OMROGG_RIGHT_HEAD</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963ea468f0aea97332fed71283ff1f48e9600">NPC_WARCHIEF_PORTAL</a>           , <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a67e96decde08b7bea19fc87ad8656e3e">DATA_WARCHIEF_PORTAL</a> },</div>
-<div class="line">    { 0                             , 0                   }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa01529_html_a92f6fd626e1834a4cc509efc1186963ea468f0aea97332fed71283ff1f48e9600"><div class="ttname"><a href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963ea468f0aea97332fed71283ff1f48e9600">NPC_WARCHIEF_PORTAL</a></div><div class="ttdeci">@ NPC_WARCHIEF_PORTAL</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:55</div></div>
-<div class="ttc" id="aa01529_html_a92f6fd626e1834a4cc509efc1186963ea63b6a39aa642f2e0d8c55829cf8e7205"><div class="ttname"><a href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963ea63b6a39aa642f2e0d8c55829cf8e7205">NPC_OMROGG_RIGHT_HEAD</a></div><div class="ttdeci">@ NPC_OMROGG_RIGHT_HEAD</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:59</div></div>
-<div class="ttc" id="aa01529_html_a92f6fd626e1834a4cc509efc1186963eaae3b230661d1ce2817df65021744b28b"><div class="ttname"><a href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eaae3b230661d1ce2817df65021744b28b">NPC_GRAND_WARLOCK_NETHEKURSE</a></div><div class="ttdeci">@ NPC_GRAND_WARLOCK_NETHEKURSE</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:45</div></div>
-<div class="ttc" id="aa01529_html_a92f6fd626e1834a4cc509efc1186963eab8c2d615cf7a50b5182e7b65a452872c"><div class="ttname"><a href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eab8c2d615cf7a50b5182e7b65a452872c">NPC_OMROGG_LEFT_HEAD</a></div><div class="ttdeci">@ NPC_OMROGG_LEFT_HEAD</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:58</div></div>
-<div class="ttc" id="aa01529_html_a92f6fd626e1834a4cc509efc1186963eaed7587fc7a79d17f3cc304728e4f9a82"><div class="ttname"><a href="../../db/dce/a01529.html#a92f6fd626e1834a4cc509efc1186963eaed7587fc7a79d17f3cc304728e4f9a82">NPC_WARCHIEF_KARGATH</a></div><div class="ttdeci">@ NPC_WARCHIEF_KARGATH</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:54</div></div>
-<div class="ttc" id="aa01529_html_afb6eb4f28419b652027fad41104a6d22a040e4b2e1bdad27be5dcca9a39a4e3cc"><div class="ttname"><a href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a040e4b2e1bdad27be5dcca9a39a4e3cc">DATA_OMROGG_RIGHT_HEAD</a></div><div class="ttdeci">@ DATA_OMROGG_RIGHT_HEAD</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:39</div></div>
-<div class="ttc" id="aa01529_html_afb6eb4f28419b652027fad41104a6d22a48cd245ca33338ebeffd89b1ff82e494"><div class="ttname"><a href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a48cd245ca33338ebeffd89b1ff82e494">DATA_KARGATH</a></div><div class="ttdeci">@ DATA_KARGATH</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:29</div></div>
-<div class="ttc" id="aa01529_html_afb6eb4f28419b652027fad41104a6d22a67e96decde08b7bea19fc87ad8656e3e"><div class="ttname"><a href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a67e96decde08b7bea19fc87ad8656e3e">DATA_WARCHIEF_PORTAL</a></div><div class="ttdeci">@ DATA_WARCHIEF_PORTAL</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:40</div></div>
-<div class="ttc" id="aa01529_html_afb6eb4f28419b652027fad41104a6d22a95c3bca8e95896b690f3503e3ef31875"><div class="ttname"><a href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22a95c3bca8e95896b690f3503e3ef31875">DATA_OMROGG_LEFT_HEAD</a></div><div class="ttdeci">@ DATA_OMROGG_LEFT_HEAD</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:38</div></div>
-<div class="ttc" id="aa01529_html_afb6eb4f28419b652027fad41104a6d22abf6aceeb13c42866b5cd82d397a3f3eb"><div class="ttname"><a href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22abf6aceeb13c42866b5cd82d397a3f3eb">DATA_NETHEKURSE</a></div><div class="ttdeci">@ DATA_NETHEKURSE</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:27</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00056">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const doorData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#acd8b54d8672687df8df94cb3d9a2a744a52f42ac688a13a610458ddb34ca3c4d9">GO_GRAND_WARLOCK_CHAMBER_DOOR_1</a>, <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22abf6aceeb13c42866b5cd82d397a3f3eb">DATA_NETHEKURSE</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../db/dce/a01529.html#acd8b54d8672687df8df94cb3d9a2a744aee69234beaca015950f4daf5556bd092">GO_GRAND_WARLOCK_CHAMBER_DOOR_2</a>, <a class="code hl_enumvalue" href="../../db/dce/a01529.html#afb6eb4f28419b652027fad41104a6d22abf6aceeb13c42866b5cd82d397a3f3eb">DATA_NETHEKURSE</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { 0,                                             0, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    } </div>
-<div class="line">}</div>
-<div class="ttc" id="aa01529_html_acd8b54d8672687df8df94cb3d9a2a744a52f42ac688a13a610458ddb34ca3c4d9"><div class="ttname"><a href="../../db/dce/a01529.html#acd8b54d8672687df8df94cb3d9a2a744a52f42ac688a13a610458ddb34ca3c4d9">GO_GRAND_WARLOCK_CHAMBER_DOOR_1</a></div><div class="ttdeci">@ GO_GRAND_WARLOCK_CHAMBER_DOOR_1</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:73</div></div>
-<div class="ttc" id="aa01529_html_acd8b54d8672687df8df94cb3d9a2a744aee69234beaca015950f4daf5556bd092"><div class="ttname"><a href="../../db/dce/a01529.html#acd8b54d8672687df8df94cb3d9a2a744aee69234beaca015950f4daf5556bd092">GO_GRAND_WARLOCK_CHAMBER_DOOR_2</a></div><div class="ttdeci">@ GO_GRAND_WARLOCK_CHAMBER_DOOR_2</div><div class="ttdef"><b>Definition:</b> shattered_halls.h:74</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00056">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00039">AddWorldScripts()</a>.</p>
 
 </div>
 </div>
@@ -234,8 +157,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_035874e76bcc0de7e09cf1c5f0f17641.html">HellfireCitadel</a></li><li class="navelem"><a class="el" href="../../dir_2a68453fc96dee56602d816c58a5409d.html">ShatteredHalls</a></li><li class="navelem"><a class="el" href="../../d6/d83/a01544.html">instance_shattered_halls.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d6/d83/a01544.html">server_mail.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var a27834 =
 [
-    [ "content", "d9/db5/a27834.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
-    [ "ID", "d9/db5/a27834.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
+    [ "AllocationPct", "d9/db5/a27834.html#a45d752dfd00a75f69d919a88573ba4fc", null ],
+    [ "Enchantment", "d9/db5/a27834.html#a45e694082c1dbdeef5229561f617d584", null ],
+    [ "ID", "d9/db5/a27834.html#a66d78860d81c497765b5e68b5fd2ae18", null ],
+    [ "Name", "d9/db5/a27834.html#a3ee4d8152817e10b873de5ec36ba062b", null ]
 ];

@@ -1,6 +1,6 @@
 var a10990 =
 [
-    [ "ObjectTargetSelectHandler", "d2/dc7/a10990.html#abe96c3e266375ab64f8dec54a047a5b8", null ],
-    [ "Call", "d2/dc7/a10990.html#a7e18103fb5c68b2cf85f54bf7caf4b3b", null ],
-    [ "pObjectTargetSelectHandlerScript", "d2/dc7/a10990.html#a6982985537c0ddb8dd79647766c9ae70", null ]
+    [ "BeforeHitHandler", "d2/dc7/a10990.html#a0c2f048fc10f408a299a8b537ad7551d", null ],
+    [ "Call", "d2/dc7/a10990.html#a393057cca72c41e193508bf150ed0b1f", null ],
+    [ "_pBeforeHitHandlerScript", "d2/dc7/a10990.html#acecb7a8844155ff6eeb3f09582d7a475", null ]
 ];

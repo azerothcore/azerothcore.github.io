@@ -1,10 +1,10 @@
 var a07334 =
 [
-    [ "value_type", "d7/d82/a07334.html#a821f7b556a5e7dd88e406eb856a5b635", null ],
-    [ "operator()", "d7/d82/a07334.html#a51db58c653c279b30d19e9188894adec", null ],
-    [ "operator()", "d7/d82/a07334.html#a6225e55f229eca06eef7e6c27531bbe9", null ],
-    [ "operator()", "d7/d82/a07334.html#ab516399a6965a67daed318a1058c87ef", null ],
-    [ "operator()", "d7/d82/a07334.html#abeeef774a78ec84f0020686aab425a5c", null ],
-    [ "operator()", "d7/d82/a07334.html#a0d4e9cb0ae75752363793d29599afbdc", null ],
-    [ "operator()", "d7/d82/a07334.html#a4a277a9ad5764e42c53746999e004b88", null ]
+    [ "InvokerEntry", "d7/d82/a07334.html#aa195cc806a02e56a8125bfc039b83c37", null ],
+    [ "InvokerEntry", "d7/d82/a07334.html#ab0ae915bcd0b6cb738f66398ba06bd63", null ],
+    [ "InvokerEntry", "d7/d82/a07334.html#ae0b19dcb745635a783d52bae6f237b47", null ],
+    [ "operator*", "d7/d82/a07334.html#ae42d24aad13fe622f6d5ec35d72c1c96", null ],
+    [ "_help", "d7/d82/a07334.html#a107ccda1e3b21600fd133a243a8d2c9c", null ],
+    [ "_invoker", "d7/d82/a07334.html#a1f9da7b4e2a968b1cf51b227c79f0d1d", null ],
+    [ "_permissions", "d7/d82/a07334.html#a9567278ccb4896bcb2e8293df0ab909f", null ]
 ];

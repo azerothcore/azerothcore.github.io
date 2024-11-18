@@ -1,11 +1,5 @@
 var a11674 =
 [
-    [ "boss_doomrelAI", "dd/dce/a11674.html#a231cc3989d1c575af941a5462ad94cbd", null ],
-    [ "EnterEvadeMode", "dd/dce/a11674.html#ae633f4cc1747f291a3911ca50ee39370", null ],
-    [ "JustEngagedWith", "dd/dce/a11674.html#a622f673548b0a6f1db2a59ef69f31ac7", null ],
-    [ "Reset", "dd/dce/a11674.html#aec30616ad3c84ee4b6dd92f6ac8b4fbc", null ],
-    [ "UpdateAI", "dd/dce/a11674.html#a3d851f7bd5a78858fd228cac78c05f27", null ],
-    [ "_events", "dd/dce/a11674.html#aaf800dd1d20dc8288cad5aa21cd602b0", null ],
-    [ "instance", "dd/dce/a11674.html#aa0fc44bb955e83c2ef7b7373751fc2c2", null ],
-    [ "Voidwalkers", "dd/dce/a11674.html#af29d871a370a534f508f225d49c3dc9f", null ]
+    [ "boss_high_priestess_thaurissan", "dd/dce/a11674.html#a53d3fd78f6a1a3b5028c6fc2940dfbd0", null ],
+    [ "GetAI", "dd/dce/a11674.html#a7d2bb83a766b8eaa9bdbbb0f45a4fe62", null ]
 ];

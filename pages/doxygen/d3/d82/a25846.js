@@ -1,9 +1,10 @@
 var a25846 =
 [
-    [ "CheckCast", "d3/d82/a25846.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
-    [ "HandleDummy", "d3/d82/a25846.html#a7f79495525687fba6229f48935b2558a", null ],
-    [ "Load", "d3/d82/a25846.html#a0c73457e44a3d64bdccee78d28893672", null ],
-    [ "PrepareSpellScript", "d3/d82/a25846.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
-    [ "Register", "d3/d82/a25846.html#ab9f09394ab301350a2abaefde90632fe", null ],
-    [ "Validate", "d3/d82/a25846.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
+    [ "CheckProc", "d3/d82/a25846.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
+    [ "HandleProc", "d3/d82/a25846.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
+    [ "Load", "d3/d82/a25846.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
+    [ "PrepareAuraScript", "d3/d82/a25846.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
+    [ "Register", "d3/d82/a25846.html#a4cb08499767ab58f0e525c382b662fbd", null ],
+    [ "Validate", "d3/d82/a25846.html#aa6165f28706d49940dd1f62065631119", null ],
+    [ "_procTarget", "d3/d82/a25846.html#a7b9426e18b454bf631992518c2bdbde0", null ]
 ];

@@ -1,6 +1,10 @@
 var a05578 =
 [
-    [ "PreparedStatement", "d4/de2/a05578.html#a4f689d37a5d174ade76e590379edc46a", null ],
-    [ "PreparedStatement", "d4/de2/a05578.html#a8b0dccfd3e274bf55d8b161b1390b0d9", null ],
-    [ "operator=", "d4/de2/a05578.html#a9ed475a188f208344cffd74058b749e2", null ]
+    [ "FreezeDetector", "de/d69/a04679.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
+    [ "Handler", "de/d69/a04679.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],
+    [ "Start", "de/d69/a04679.html#ga6a90ff702a8d363bd23334c81e2e5770", null ],
+    [ "_lastChangeMsTime", "de/d69/a04679.html#ga0a2b971b7ea733d846be71abf7b5dc1d", null ],
+    [ "_maxCoreStuckTimeInMs", "de/d69/a04679.html#ga54077eab38ea5d0db27f08c50fd0652e", null ],
+    [ "_timer", "de/d69/a04679.html#ga3869080cb36ab9d4f244b9f10280550a", null ],
+    [ "_worldLoopCounter", "de/d69/a04679.html#ga0ea988a0e070d056c16d7c9f3b1035f4", null ]
 ];

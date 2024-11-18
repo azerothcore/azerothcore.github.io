@@ -1,6 +1,5 @@
 var a12894 =
 [
-    [ "HandleActivateObject", "dc/de4/a12894.html#afd73a7f5ec26c9ecb0424ee09ce638fe", null ],
-    [ "PrepareSpellScript", "dc/de4/a12894.html#ad55914fdc6771e09a508572d59ad30ed", null ],
-    [ "Register", "dc/de4/a12894.html#a6a0fe507ca7a382122d55e04d3c021d9", null ]
+    [ "at_malfurion_stormrage", "dc/de4/a12894.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
+    [ "OnTrigger", "dc/de4/a12894.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
 ];

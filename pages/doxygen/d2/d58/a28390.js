@@ -1,8 +1,11 @@
 var a28390 =
 [
-    [ "TileConfig", "d2/d58/a28390.html#a67b10c747fb0d2bc2a263e5009d42e1b", null ],
-    [ "BASE_UNIT_DIM", "d2/d58/a28390.html#a5a882b0595456ab3fcca85c80af3b6f8", null ],
-    [ "TILES_PER_MAP", "d2/d58/a28390.html#ae3443f89a8a698823c91096abe51a6a9", null ],
-    [ "VERTEX_PER_MAP", "d2/d58/a28390.html#a46640a80428b1ab93d65d593c03d13ed", null ],
-    [ "VERTEX_PER_TILE", "d2/d58/a28390.html#ae0331739074e5546818e13527a76524a", null ]
+    [ "material", "d2/d58/a28390.html#a7079e8817a9684602084eb224f2540fc", null ],
+    [ "pos_x", "d2/d58/a28390.html#ac4d971cc46506be14716124afbb5ad9c", null ],
+    [ "pos_y", "d2/d58/a28390.html#a6cd85f2a674d732e88371ffce5e46077", null ],
+    [ "pos_z", "d2/d58/a28390.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
+    [ "xtiles", "d2/d58/a28390.html#aca34dfa64624cfe04c314c13bbed0062", null ],
+    [ "xverts", "d2/d58/a28390.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
+    [ "ytiles", "d2/d58/a28390.html#a9901a7e9828ac840bc290b0768831d66", null ],
+    [ "yverts", "d2/d58/a28390.html#abf24042b85692cd0df05d65d734dd99e", null ]
 ];

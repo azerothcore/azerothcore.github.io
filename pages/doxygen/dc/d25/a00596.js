@@ -1,6 +1,5 @@
 var a00596 =
 [
-    [ "GetDefaultNetmaskV4", "dc/d25/a00596.html#af75b2c10ca445dc89c53b7ed8d17eae0", null ],
-    [ "IsInNetwork", "dc/d25/a00596.html#af108d05a57113d16ab9c8f3b26870be2", null ],
-    [ "IsInNetwork", "dc/d25/a00596.html#a2617cb1c747a45e5af4e2c32cc29d5de", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "dc/d25/a00596.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "MverMagic", "dc/d25/a00596.html#a076cdc3e61f69e52913492840fc864cf", null ]
 ];

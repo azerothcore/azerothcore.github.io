@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/apps/authserver/Server/AuthSession.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/ModuleScript.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,294 +105,32 @@ $(document).ready(function(){initNavTree('d9/d36/a04430.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">AuthSession.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">ModuleScript.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuthSession.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">AES.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">AuthCodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CryptoGenerics.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CryptoRandom.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">IPLocation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">RealmList.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SecretMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TOTP.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;boost/lexical_cast.hpp&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ModuleScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d22/a05526.html">AUTH_LOGON_CHALLENGE_C</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/a05530.html">AUTH_LOGON_PROOF_C</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d66/a05534.html">AUTH_LOGON_PROOF_S</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/a05538.html">AUTH_LOGON_PROOF_S_OLD</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/a05542.html">AUTH_RECONNECT_PROOF_C</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a2507a44fb848704cf4f3624207c18ebe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a2507a44fb848704cf4f3624207c18ebe">MAX_ACCEPTED_CHALLENGE_SIZE</a>&#160;&#160;&#160;(sizeof(<a class="el" href="../../d0/d22/a05526.html">AUTH_LOGON_CHALLENGE_C</a>) + 16)</td></tr>
-<tr class="separator:a2507a44fb848704cf4f3624207c18ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c5f396c839f5f22ec0ec7a5b2a5019"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a38c5f396c839f5f22ec0ec7a5b2a5019">AUTH_LOGON_CHALLENGE_INITIAL_SIZE</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a38c5f396c839f5f22ec0ec7a5b2a5019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af848fed368789960f3d9e059f8002e11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#af848fed368789960f3d9e059f8002e11">REALM_LIST_PACKET_SIZE</a>&#160;&#160;&#160;5</td></tr>
-<tr class="separator:af848fed368789960f3d9e059f8002e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:af2b75a713ab063d15c0f303555dab7c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d0/d22/a05526.html">AUTH_LOGON_CHALLENGE_C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#af2b75a713ab063d15c0f303555dab7c2">sAuthLogonChallenge_C</a></td></tr>
-<tr class="separator:af2b75a713ab063d15c0f303555dab7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab50c6b56b4c56513ab11e4bee50a0116"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../dd/d9c/a05530.html">AUTH_LOGON_PROOF_C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#ab50c6b56b4c56513ab11e4bee50a0116">sAuthLogonProof_C</a></td></tr>
-<tr class="separator:ab50c6b56b4c56513ab11e4bee50a0116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1241a754e900fac64f49cadc4e806321"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../dd/d66/a05534.html">AUTH_LOGON_PROOF_S</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a1241a754e900fac64f49cadc4e806321">sAuthLogonProof_S</a></td></tr>
-<tr class="separator:a1241a754e900fac64f49cadc4e806321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad153c4ef5e20c186dfe08ed557a4100c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../df/de9/a05538.html">AUTH_LOGON_PROOF_S_OLD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#ad153c4ef5e20c186dfe08ed557a4100c">sAuthLogonProof_S_Old</a></td></tr>
-<tr class="separator:ad153c4ef5e20c186dfe08ed557a4100c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef6ea8864e443cf0d192820bb670a8d8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../dc/df9/a05542.html">AUTH_RECONNECT_PROOF_C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#aef6ea8864e443cf0d192820bb670a8d8">sAuthReconnectProof_C</a></td></tr>
-<tr class="separator:aef6ea8864e443cf0d192820bb670a8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a345cff35e97e1d164879db077b96607b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607b">eAuthCmd</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48">AUTH_LOGON_CHALLENGE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e">AUTH_LOGON_PROOF</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4">AUTH_RECONNECT_CHALLENGE</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3">AUTH_RECONNECT_PROOF</a> = 0x03
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc">REALM_LIST</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5">XFER_INITIATE</a> = 0x30
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7">XFER_DATA</a> = 0x31
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01">XFER_ACCEPT</a> = 0x32
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5">XFER_RESUME</a> = 0x33
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1">XFER_CANCEL</a> = 0x34
-<br />
- }</td></tr>
-<tr class="separator:a345cff35e97e1d164879db077b96607b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a242dcc388ff0edb5d5eca57953e61317"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a242dcc388ff0edb5d5eca57953e61317">VersionChallenge</a> = { { 0xBA, 0xA3, 0x1E, 0x99, 0xA0, 0x0B, 0x21, 0x57, 0xFC, 0x37, 0x3F, 0xB3, 0x69, 0xCD, 0xD2, 0xF1 } }</td></tr>
-<tr class="separator:a242dcc388ff0edb5d5eca57953e61317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887a26fd84a0bf97f1016de6aeba4d4e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d4/d74/a05554.html">AuthHandler</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a887a26fd84a0bf97f1016de6aeba4d4e">Handlers</a> = <a class="el" href="../../da/d41/a05550.html#a45e41d4d4ff52d386cf3363313d5e9e8">AuthSession::InitHandlers</a>()</td></tr>
-<tr class="separator:a887a26fd84a0bf97f1016de6aeba4d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7749cbcc2b6820dc30c515ebb6cefe36"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a04430.html#a7749cbcc2b6820dc30c515ebb6cefe36">ScriptRegistry&lt; ModuleScript &gt;</a></td></tr>
+<tr class="separator:a7749cbcc2b6820dc30c515ebb6cefe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a38c5f396c839f5f22ec0ec7a5b2a5019" name="a38c5f396c839f5f22ec0ec7a5b2a5019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38c5f396c839f5f22ec0ec7a5b2a5019">&#9670;&#160;</a></span>AUTH_LOGON_CHALLENGE_INITIAL_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define AUTH_LOGON_CHALLENGE_INITIAL_SIZE&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2507a44fb848704cf4f3624207c18ebe" name="a2507a44fb848704cf4f3624207c18ebe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2507a44fb848704cf4f3624207c18ebe">&#9670;&#160;</a></span>MAX_ACCEPTED_CHALLENGE_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_ACCEPTED_CHALLENGE_SIZE&#160;&#160;&#160;(sizeof(<a class="el" href="../../d0/d22/a05526.html">AUTH_LOGON_CHALLENGE_C</a>) + 16)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af848fed368789960f3d9e059f8002e11" name="af848fed368789960f3d9e059f8002e11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af848fed368789960f3d9e059f8002e11">&#9670;&#160;</a></span>REALM_LIST_PACKET_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REALM_LIST_PACKET_SIZE&#160;&#160;&#160;5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="af2b75a713ab063d15c0f303555dab7c2" name="af2b75a713ab063d15c0f303555dab7c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b75a713ab063d15c0f303555dab7c2">&#9670;&#160;</a></span>sAuthLogonChallenge_C</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../d0/d22/a05526.html">AUTH_LOGON_CHALLENGE_C</a> <a class="el" href="../../d9/d36/a04430.html#af2b75a713ab063d15c0f303555dab7c2">sAuthLogonChallenge_C</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab50c6b56b4c56513ab11e4bee50a0116" name="ab50c6b56b4c56513ab11e4bee50a0116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab50c6b56b4c56513ab11e4bee50a0116">&#9670;&#160;</a></span>sAuthLogonProof_C</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../dd/d9c/a05530.html">AUTH_LOGON_PROOF_C</a> <a class="el" href="../../d9/d36/a04430.html#ab50c6b56b4c56513ab11e4bee50a0116">sAuthLogonProof_C</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1241a754e900fac64f49cadc4e806321" name="a1241a754e900fac64f49cadc4e806321"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1241a754e900fac64f49cadc4e806321">&#9670;&#160;</a></span>sAuthLogonProof_S</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../dd/d66/a05534.html">AUTH_LOGON_PROOF_S</a> <a class="el" href="../../d9/d36/a04430.html#a1241a754e900fac64f49cadc4e806321">sAuthLogonProof_S</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad153c4ef5e20c186dfe08ed557a4100c" name="ad153c4ef5e20c186dfe08ed557a4100c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad153c4ef5e20c186dfe08ed557a4100c">&#9670;&#160;</a></span>sAuthLogonProof_S_Old</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../df/de9/a05538.html">AUTH_LOGON_PROOF_S_OLD</a> <a class="el" href="../../d9/d36/a04430.html#ad153c4ef5e20c186dfe08ed557a4100c">sAuthLogonProof_S_Old</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aef6ea8864e443cf0d192820bb670a8d8" name="aef6ea8864e443cf0d192820bb670a8d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef6ea8864e443cf0d192820bb670a8d8">&#9670;&#160;</a></span>sAuthReconnectProof_C</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../dc/df9/a05542.html">AUTH_RECONNECT_PROOF_C</a> <a class="el" href="../../d9/d36/a04430.html#aef6ea8864e443cf0d192820bb670a8d8">sAuthReconnectProof_C</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a345cff35e97e1d164879db077b96607b" name="a345cff35e97e1d164879db077b96607b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a345cff35e97e1d164879db077b96607b">&#9670;&#160;</a></span>eAuthCmd</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607b">eAuthCmd</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48" name="a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48"></a>AUTH_LOGON_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e" name="a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e"></a>AUTH_LOGON_PROOF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4" name="a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4"></a>AUTH_RECONNECT_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3" name="a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3"></a>AUTH_RECONNECT_PROOF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc" name="a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc"></a>REALM_LIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5" name="a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5"></a>XFER_INITIATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7" name="a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7"></a>XFER_DATA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01" name="a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01"></a>XFER_ACCEPT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5" name="a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5"></a>XFER_RESUME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1" name="a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1"></a>XFER_CANCEL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48">AUTH_LOGON_CHALLENGE</a> = 0x00,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e">AUTH_LOGON_PROOF</a> = 0x01,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4">AUTH_RECONNECT_CHALLENGE</a> = 0x02,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3">AUTH_RECONNECT_PROOF</a> = 0x03,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc">REALM_LIST</a> = 0x10,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5">XFER_INITIATE</a> = 0x30,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7">XFER_DATA</a> = 0x31,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01">XFER_ACCEPT</a> = 0x32,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5">XFER_RESUME</a> = 0x33,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1">XFER_CANCEL</a> = 0x34</div>
-<div class="line"><span class="lineno">   49</span>};</div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5">XFER_INITIATE</a></div><div class="ttdeci">@ XFER_INITIATE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:44</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01">XFER_ACCEPT</a></div><div class="ttdeci">@ XFER_ACCEPT</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:46</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1">XFER_CANCEL</a></div><div class="ttdeci">@ XFER_CANCEL</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:48</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48">AUTH_LOGON_CHALLENGE</a></div><div class="ttdeci">@ AUTH_LOGON_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:39</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc">REALM_LIST</a></div><div class="ttdeci">@ REALM_LIST</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:43</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3">AUTH_RECONNECT_PROOF</a></div><div class="ttdeci">@ AUTH_RECONNECT_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:42</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4">AUTH_RECONNECT_CHALLENGE</a></div><div class="ttdeci">@ AUTH_RECONNECT_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:41</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7">XFER_DATA</a></div><div class="ttdeci">@ XFER_DATA</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:45</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5">XFER_RESUME</a></div><div class="ttdeci">@ XFER_RESUME</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:47</div></div>
-<div class="ttc" id="aa04430_html_a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e"><div class="ttname"><a href="../../d9/d36/a04430.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e">AUTH_LOGON_PROOF</a></div><div class="ttdeci">@ AUTH_LOGON_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:40</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a887a26fd84a0bf97f1016de6aeba4d4e" name="a887a26fd84a0bf97f1016de6aeba4d4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a887a26fd84a0bf97f1016de6aeba4d4e">&#9670;&#160;</a></span>Handlers</h2>
+<a id="a7749cbcc2b6820dc30c515ebb6cefe36" name="a7749cbcc2b6820dc30c515ebb6cefe36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7749cbcc2b6820dc30c515ebb6cefe36">&#9670;&#160;</a></span>ScriptRegistry&lt; ModuleScript &gt;</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d4/d74/a05554.html">AuthHandler</a>&gt; const Handlers = <a class="el" href="../../da/d41/a05550.html#a45e41d4d4ff52d386cf3363313d5e9e8">AuthSession::InitHandlers</a>()</td>
+          <td class="memname">template class <a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../db/d3e/a10146.html">ScriptRegistry</a>&lt; <a class="el" href="../../d2/d7a/a10082.html">ModuleScript</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00219">AuthSession::ReadHandler()</a>.</p>
-
-</div>
-</div>
-<a id="a242dcc388ff0edb5d5eca57953e61317" name="a242dcc388ff0edb5d5eca57953e61317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242dcc388ff0edb5d5eca57953e61317">&#9670;&#160;</a></span>VersionChallenge</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 16&gt; VersionChallenge = { { 0xBA, 0xA3, 0x1E, 0x99, 0xA0, 0x0B, 0x21, 0x57, 0xFC, 0x37, 0x3F, 0xB3, 0x69, 0xCD, 0xD2, 0xF1 } }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>, and <a class="el" href="../../#l00655">AuthSession::ReconnectChallengeCallback()</a>.</p>
 
 </div>
 </div>
@@ -401,8 +139,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_5048a8ff141d56662c703e95f88ef858.html">authserver</a></li><li class="navelem"><a class="el" href="../../dir_7be2eb097abf40d728561c0a9bef8726.html">Server</a></li><li class="navelem"><a class="el" href="../../d9/d36/a04430.html">AuthSession.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d9/d36/a04430.html">ModuleScript.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

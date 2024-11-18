@@ -1,6 +1,6 @@
 var a21010 =
 [
-    [ "boss_zuramatAI", "d4/da0/a21014.html", "d4/da0/a21014" ],
-    [ "boss_zuramat", "db/de9/a21010.html#a1d169e786dcf846026b48d9be389f9ab", null ],
-    [ "GetAI", "db/de9/a21010.html#a1008c053a2c9ad14cf9ce994db931670", null ]
+    [ "HandleEffectPeriodic", "db/de9/a21010.html#a508ff9e362d586497839aa29ceae1227", null ],
+    [ "PrepareAuraScript", "db/de9/a21010.html#a4e7d5317d28207136b1fd3477a51ae06", null ],
+    [ "Register", "db/de9/a21010.html#a4b08cefe7d334635b70d389cc9df4901", null ]
 ];

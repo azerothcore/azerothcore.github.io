@@ -1,9 +1,11 @@
 var a10266 =
 [
-    [ "GuildInfoResponse", "de/d4e/a10266.html#a256cb81ad2e08050be99c9e1061c2009", null ],
-    [ "Write", "de/d4e/a10266.html#a3222d0018c9593400d3d01258b82371e", null ],
-    [ "CreateDate", "de/d4e/a10266.html#a1a0acf334d88751e94257ff76c9e3fd8", null ],
-    [ "GuildName", "de/d4e/a10266.html#ad8efc926197e955ed0cf8df6a74b41e8", null ],
-    [ "NumAccounts", "de/d4e/a10266.html#a21b42f1654aa10f7872d87635fea66ac", null ],
-    [ "NumMembers", "de/d4e/a10266.html#a7e748a70029e867ba8c90eaba85bf8c9", null ]
+    [ "BackgroundColor", "de/d4e/a10266.html#abab86dd497de86088873178bf1d54b5b", null ],
+    [ "BorderColor", "de/d4e/a10266.html#abb2489b9be8a0d4a20d209d6293d7d46", null ],
+    [ "BorderStyle", "de/d4e/a10266.html#acd5105c31e0f56e680f3384e86186872", null ],
+    [ "EmblemColor", "de/d4e/a10266.html#a2e8a4768292d3566bb61009056a8a230", null ],
+    [ "EmblemStyle", "de/d4e/a10266.html#aa6309467f9f09725a8698de864b4e63c", null ],
+    [ "GuildName", "de/d4e/a10266.html#a74d4e1690c07a647c97ca2225e8488dd", null ],
+    [ "RankCount", "de/d4e/a10266.html#acddb77850a86348df197afc724c4eaa0", null ],
+    [ "Ranks", "de/d4e/a10266.html#aec9fd9a1a3bfa040375193027b32cf24", null ]
 ];

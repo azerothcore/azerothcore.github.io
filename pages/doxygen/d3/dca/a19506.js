@@ -1,9 +1,6 @@
 var a19506 =
 [
-    [ "npc_hodirs_furyAI", "d3/dca/a19506.html#ae08a68a79a3fef952f6dfa50b4eaabca", null ],
-    [ "MovementInform", "d3/dca/a19506.html#a37b07ddee5403ee2de8f69904412ed42", null ],
-    [ "Reset", "d3/dca/a19506.html#a389f0f17fbc7860c5531f4859be561d3", null ],
-    [ "UpdateAI", "d3/dca/a19506.html#a5417d68891ad0f93c8130c9a14d57513", null ],
-    [ "_switchTargetTimer", "d3/dca/a19506.html#a8d15c1e290438c8a4aa50887cfffccba", null ],
-    [ "_timeToHit", "d3/dca/a19506.html#a594356602bd0068fba82bea64e284837", null ]
+    [ "npc_freya_wardAI", "df/d00/a19510.html", "df/d00/a19510" ],
+    [ "npc_freya_ward", "d3/dca/a19506.html#aebaadcc001922c78e8ec43084a827ac9", null ],
+    [ "GetAI", "d3/dca/a19506.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
 ];

@@ -1,9 +1,17 @@
 var a22242 =
 [
-    [ "npc_stolen_soul", "df/df7/a22242.html#a84a0bb8320b2332545748e010d855884", null ],
-    [ "DoAction", "df/df7/a22242.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
-    [ "Reset", "df/df7/a22242.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
-    [ "UpdateAI", "df/df7/a22242.html#a7bf369dd943ee36600a364d56b85db5a", null ],
-    [ "_scheduler", "df/df7/a22242.html#ab62526916f0ccd681383d37d19d94ccc", null ],
-    [ "myClass", "df/df7/a22242.html#ab2ad92983075320ce389aa583c341d21", null ]
+    [ "OPvPCapturePointZM_GraveYard", "df/df7/a22242.html#a4996bc1787009cc204047f574fc55aa3", null ],
+    [ "CanTalkTo", "df/df7/a22242.html#aabcde0e8e3e089dccea0ae6a439e7c4a", null ],
+    [ "ChangeState", "df/df7/a22242.html#a95394b3e6863c367e4a6257c9b9864df", null ],
+    [ "FillInitialWorldStates", "df/df7/a22242.html#a745acfba4972d64dca84287d8db292fc", null ],
+    [ "GetGraveYardState", "df/df7/a22242.html#a8c01f60011d967344df5895f05e1f80e", null ],
+    [ "HandleDropFlag", "df/df7/a22242.html#a2962a45d4c4145f6ba135477ef362ec8", null ],
+    [ "HandleGossipOption", "df/df7/a22242.html#a28ce2dba96ff5784c4758bd3d0d4e640", null ],
+    [ "HandleOpenGo", "df/df7/a22242.html#af72356107675ab5ad6c74fda1c3b69fa", null ],
+    [ "SetBeaconState", "df/df7/a22242.html#a8ed94a0433eab7ae25ea2686fd8e4e9a", null ],
+    [ "Update", "df/df7/a22242.html#a5210c40f88803137e4a8fe3ea69eda14", null ],
+    [ "UpdateTowerState", "df/df7/a22242.html#abee798494628344c9f8c1052ec248501", null ],
+    [ "m_BothControllingFactionId", "df/df7/a22242.html#acac201bebe2ec8e214e5632a21aa8331", null ],
+    [ "m_FlagCarrierGUID", "df/df7/a22242.html#a103cb36247799a5826c47978d451d2b7", null ],
+    [ "m_GraveYardState", "df/df7/a22242.html#af281f3b638d2af3d3e8378614a23457f", null ]
 ];

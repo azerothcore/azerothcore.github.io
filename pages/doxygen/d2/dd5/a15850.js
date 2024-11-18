@@ -1,6 +1,6 @@
 var a15850 =
 [
-    [ "boss_black_knightAI", "dc/d45/a15854.html", "dc/d45/a15854" ],
-    [ "boss_black_knight", "d2/dd5/a15850.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "d2/dd5/a15850.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "FilterTargets", "d2/dd5/a15850.html#a79d34d7e517b27e44c6a91d6056dfec7", null ],
+    [ "PrepareSpellScript", "d2/dd5/a15850.html#a5ede43deece629a38f5482280983b59a", null ],
+    [ "Register", "d2/dd5/a15850.html#aec3d0ed996e9cbfed9fb78c5f16e254f", null ]
 ];

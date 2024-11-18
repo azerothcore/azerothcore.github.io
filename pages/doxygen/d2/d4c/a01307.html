@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/AzjolNerub/AzjolNerub/instance_azjol_nerub.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_misc.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,156 +108,189 @@ $(document).ready(function(){initNavTree('d2/d4c/a01307.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_azjol_nerub.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">cs_misc.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaBoundary.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">azjol_nerub.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IPLocation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceSaveMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFG.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MMapFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TargetedMovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WeatherMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2b/a15526.html">instance_azjol_nerub</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a15530.html">instance_azjol_nerub::instance_azjol_nerub_InstanceScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a15534.html">spell_azjol_nerub_fixate</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0b/a15538.html">spell_azjol_nerub_web_wrap_aura</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dab/a11406.html">misc_commandscript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a58deb67f6fb8962cfe1dfd044fdaabdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#a58deb67f6fb8962cfe1dfd044fdaabdb">AddSC_instance_azjol_nerub</a> ()</td></tr>
-<tr class="separator:a58deb67f6fb8962cfe1dfd044fdaabdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedbdfd3cae227b11684151f41e3b977"><td class="memItemLeft" align="right" valign="top">std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#aaedbdfd3cae227b11684151f41e3b977">GetLocalizeCreatureName</a> (<a class="el" href="../../d1/d66/a07770.html">Creature</a> *creature, <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale)</td></tr>
+<tr class="separator:aaedbdfd3cae227b11684151f41e3b977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac722d20c86b9502b7c4c8ae711cc3917"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#ac722d20c86b9502b7c4c8ae711cc3917">AddSC_misc_commandscript</a> ()</td></tr>
+<tr class="separator:ac722d20c86b9502b7c4c8ae711cc3917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
-<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
-<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#aa75d7d0ffe0cef214f982966c33db1c1">boundaries</a></td></tr>
-<tr class="separator:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1706df7feb0ef4f693c388033ace5fb7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#a1706df7feb0ef4f693c388033ace5fb7">SPELL_STUCK</a> = 7355</td></tr>
+<tr class="separator:a1706df7feb0ef4f693c388033ace5fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181bdc61e4eb1d21db975ca0227cb086"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a01307.html#a181bdc61e4eb1d21db975ca0227cb086">SPELL_FREEZE</a> = 9454</td></tr>
+<tr class="separator:a181bdc61e4eb1d21db975ca0227cb086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a58deb67f6fb8962cfe1dfd044fdaabdb" name="a58deb67f6fb8962cfe1dfd044fdaabdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58deb67f6fb8962cfe1dfd044fdaabdb">&#9670;&#160;</a></span>AddSC_instance_azjol_nerub()</h2>
+<a id="ac722d20c86b9502b7c4c8ae711cc3917" name="ac722d20c86b9502b7c4c8ae711cc3917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac722d20c86b9502b7c4c8ae711cc3917">&#9670;&#160;</a></span>AddSC_misc_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_azjol_nerub </td>
+          <td class="memname">void AddSC_misc_commandscript </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
-<div class="line"><span class="lineno">  159</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d2b/a15526.html">instance_azjol_nerub</a>();</div>
-<div class="line"><span class="lineno">  160</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d0/de0/a15534.html">spell_azjol_nerub_fixate</a>);</div>
-<div class="line"><span class="lineno">  161</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d0b/a15538.html">spell_azjol_nerub_web_wrap_aura</a>);</div>
-<div class="line"><span class="lineno">  162</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa15526_html"><div class="ttname"><a href="../../d5/d2b/a15526.html">instance_azjol_nerub</a></div><div class="ttdef"><b>Definition:</b> instance_azjol_nerub.cpp:50</div></div>
-<div class="ttc" id="aa15534_html"><div class="ttname"><a href="../../d0/de0/a15534.html">spell_azjol_nerub_fixate</a></div><div class="ttdef"><b>Definition:</b> instance_azjol_nerub.cpp:119</div></div>
-<div class="ttc" id="aa15538_html"><div class="ttname"><a href="../../d4/d0b/a15538.html">spell_azjol_nerub_web_wrap_aura</a></div><div class="ttdef"><b>Definition:</b> instance_azjol_nerub.cpp:136</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 3040</span>{</div>
+<div class="line"><span class="lineno"> 3041</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/dab/a11406.html">misc_commandscript</a>();</div>
+<div class="line"><span class="lineno"> 3042</span>}</div>
+<div class="ttc" id="aa11406_html"><div class="ttname"><a href="../../da/dab/a11406.html">misc_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_misc.cpp:85</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
+</div>
+</div>
+<a id="aaedbdfd3cae227b11684151f41e3b977" name="aaedbdfd3cae227b11684151f41e3b977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedbdfd3cae227b11684151f41e3b977">&#9670;&#160;</a></span>GetLocalizeCreatureName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const GetLocalizeCreatureName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d66/a07770.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>creature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td>
+          <td class="paramname"><em>locale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keyword">auto</span> creatureTemplate = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureTemplate(creature-&gt;<a class="code hl_function" href="../../df/d2d/a08142.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keyword">auto</span> cretureLocale = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureLocale(creature-&gt;<a class="code hl_function" href="../../df/d2d/a08142.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">   62</span>    std::string name;</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">if</span> (cretureLocale)</div>
+<div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        name = cretureLocale-&gt;Name[locale];</div>
+<div class="line"><span class="lineno">   67</span>    }</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">if</span> (name.empty() &amp;&amp; creatureTemplate)</div>
+<div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>        name = creatureTemplate-&gt;Name;</div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">if</span> (name.empty())</div>
+<div class="line"><span class="lineno">   75</span>    {</div>
+<div class="line"><span class="lineno">   76</span>        name = <span class="stringliteral">&quot;Unknown creature&quot;</span>;</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> name;</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1634</div></div>
+<div class="ttc" id="aa08142_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../df/d2d/a08142.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00112">Object::GetEntry()</a>, and <a class="el" href="../../#l01634">sObjectMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02861">misc_commandscript::HandleFreezeCommand()</a>, and <a class="el" href="../../#l02904">misc_commandscript::HandleUnFreezeCommand()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aa75d7d0ffe0cef214f982966c33db1c1" name="aa75d7d0ffe0cef214f982966c33db1c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75d7d0ffe0cef214f982966c33db1c1">&#9670;&#160;</a></span>boundaries</h2>
+<a id="a181bdc61e4eb1d21db975ca0227cb086" name="a181bdc61e4eb1d21db975ca0227cb086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181bdc61e4eb1d21db975ca0227cb086">&#9670;&#160;</a></span>SPELL_FREEZE</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const boundaries</td>
+          <td class="memname">constexpr auto SPELL_FREEZE = 9454</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eafe7f087c1e8262a80b7f072fba6ae671">DATA_KRIKTHIR_THE_GATEWATCHER_EVENT</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../db/d55/a09434.html">RectangleBoundary</a>(400.0f, 580.0f, 623.5f, 810.0f) },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eae18e711c44710c678c33ec4816ecbcdf">DATA_HADRONOX_EVENT</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d2d/a09454.html">ZRangeBoundary</a>(666.0f, 776.0f) },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3">DATA_ANUBARAK_EVENT</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../da/dc5/a09438.html">CircleBoundary</a>(<a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(550.6178f, 253.5917f), 26.0f) }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa01313_html_a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3"><div class="ttname"><a href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3">DATA_ANUBARAK_EVENT</a></div><div class="ttdeci">@ DATA_ANUBARAK_EVENT</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:31</div></div>
-<div class="ttc" id="aa01313_html_a38e14ca59c29a20c7d83feecae87365eae18e711c44710c678c33ec4816ecbcdf"><div class="ttname"><a href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eae18e711c44710c678c33ec4816ecbcdf">DATA_HADRONOX_EVENT</a></div><div class="ttdeci">@ DATA_HADRONOX_EVENT</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:30</div></div>
-<div class="ttc" id="aa01313_html_a38e14ca59c29a20c7d83feecae87365eafe7f087c1e8262a80b7f072fba6ae671"><div class="ttname"><a href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eafe7f087c1e8262a80b7f072fba6ae671">DATA_KRIKTHIR_THE_GATEWATCHER_EVENT</a></div><div class="ttdeci">@ DATA_KRIKTHIR_THE_GATEWATCHER_EVENT</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:29</div></div>
-<div class="ttc" id="aa08202_html"><div class="ttname"><a href="../../d6/d03/a08202.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:27</div></div>
-<div class="ttc" id="aa09434_html"><div class="ttname"><a href="../../db/d55/a09434.html">RectangleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:76</div></div>
-<div class="ttc" id="aa09438_html"><div class="ttname"><a href="../../da/dc5/a09438.html">CircleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:89</div></div>
-<div class="ttc" id="aa09454_html"><div class="ttname"><a href="../../d1/d2d/a09454.html">ZRangeBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:143</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00056">instance_azjol_nerub::instance_azjol_nerub_InstanceScript::instance_azjol_nerub_InstanceScript()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02861">misc_commandscript::HandleFreezeCommand()</a>, and <a class="el" href="../../#l02904">misc_commandscript::HandleUnFreezeCommand()</a>.</p>
 
 </div>
 </div>
-<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
+<a id="a1706df7feb0ef4f693c388033ace5fb7" name="a1706df7feb0ef4f693c388033ace5fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1706df7feb0ef4f693c388033ace5fb7">&#9670;&#160;</a></span>SPELL_STUCK</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const creatureData[]</td>
+          <td class="memname">constexpr auto SPELL_STUCK = 7355</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080eba9a8e964886187a715fc6d9e12652b582">NPC_KRIKTHIR_THE_GATEWATCHER</a>, <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eafe7f087c1e8262a80b7f072fba6ae671">DATA_KRIKTHIR_THE_GATEWATCHER_EVENT</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebadb575f56f42e4d47c262ab2dfd220c8a">NPC_HADRONOX</a>,                 <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eae18e711c44710c678c33ec4816ecbcdf">DATA_HADRONOX_EVENT</a>                 },</div>
-<div class="line">    { 0,                            0                                   }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080eba9a8e964886187a715fc6d9e12652b582"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080eba9a8e964886187a715fc6d9e12652b582">NPC_KRIKTHIR_THE_GATEWATCHER</a></div><div class="ttdeci">@ NPC_KRIKTHIR_THE_GATEWATCHER</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:39</div></div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080ebadb575f56f42e4d47c262ab2dfd220c8a"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebadb575f56f42e4d47c262ab2dfd220c8a">NPC_HADRONOX</a></div><div class="ttdeci">@ NPC_HADRONOX</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:40</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00056">instance_azjol_nerub::instance_azjol_nerub_InstanceScript::instance_azjol_nerub_InstanceScript()</a>.</p>
+<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000170">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
 
-</div>
-</div>
-<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const doorData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080eba9c746a2553132cc145054c043a2fe64b">GO_KRIKTHIR_DOORS</a>,    <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365eafe7f087c1e8262a80b7f072fba6ae671">DATA_KRIKTHIR_THE_GATEWATCHER_EVENT</a>,    <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebadf4da3d7a3b1a8ab02f2e587fd9a2316">GO_ANUBARAK_DOORS1</a>,   <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3">DATA_ANUBARAK_EVENT</a>,    <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebaf614c816cc31f5a04d07c0c8a30274dc">GO_ANUBARAK_DOORS2</a>,   <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3">DATA_ANUBARAK_EVENT</a>,    <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebaf1d64fad51ac6f98962bbdac3b4a47e0">GO_ANUBARAK_DOORS3</a>,   <a class="code hl_enumvalue" href="../../de/d90/a01313.html#a38e14ca59c29a20c7d83feecae87365ea64e72a1a7491f71dc45c3ee0e6aba1a3">DATA_ANUBARAK_EVENT</a>,    <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> },</div>
-<div class="line">    { 0,                    0,                      <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080eba9c746a2553132cc145054c043a2fe64b"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080eba9c746a2553132cc145054c043a2fe64b">GO_KRIKTHIR_DOORS</a></div><div class="ttdeci">@ GO_KRIKTHIR_DOORS</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:45</div></div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080ebadf4da3d7a3b1a8ab02f2e587fd9a2316"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebadf4da3d7a3b1a8ab02f2e587fd9a2316">GO_ANUBARAK_DOORS1</a></div><div class="ttdeci">@ GO_ANUBARAK_DOORS1</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:46</div></div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080ebaf1d64fad51ac6f98962bbdac3b4a47e0"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebaf1d64fad51ac6f98962bbdac3b4a47e0">GO_ANUBARAK_DOORS3</a></div><div class="ttdeci">@ GO_ANUBARAK_DOORS3</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:48</div></div>
-<div class="ttc" id="aa01313_html_a13c2be6ee4ddd01bcdde2acfa66080ebaf614c816cc31f5a04d07c0c8a30274dc"><div class="ttname"><a href="../../de/d90/a01313.html#a13c2be6ee4ddd01bcdde2acfa66080ebaf614c816cc31f5a04d07c0c8a30274dc">GO_ANUBARAK_DOORS2</a></div><div class="ttdeci">@ GO_ANUBARAK_DOORS2</div><div class="ttdef"><b>Definition:</b> azjol_nerub.h:47</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00056">instance_azjol_nerub::instance_azjol_nerub_InstanceScript::instance_azjol_nerub_InstanceScript()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01413">misc_commandscript::HandleUnstuckCommand()</a>.</p>
 
 </div>
 </div>
@@ -266,8 +299,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_5cfbf185b44f2e5d76772a862d6b80b6.html">AzjolNerub</a></li><li class="navelem"><a class="el" href="../../dir_0b75308b148efd21a65d1041b5f64421.html">AzjolNerub</a></li><li class="navelem"><a class="el" href="../../d2/d4c/a01307.html">instance_azjol_nerub.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d2/d4c/a01307.html">cs_misc.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

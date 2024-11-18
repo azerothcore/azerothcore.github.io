@@ -1,6 +1,7 @@
 var a18234 =
 [
-    [ "npc_captain_grondelAI", "d7/d5d/a18238.html", "d7/d5d/a18238" ],
-    [ "npc_captain_grondel", "df/d1a/a18234.html#a54a53f8e3cde87405219c815a56d523c", null ],
-    [ "GetAI", "df/d1a/a18234.html#a2a7725e81294e80701b7742d2605ec00", null ]
+    [ "npc_captain_arnathAI", "df/d1a/a18234.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "df/d1a/a18234.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "df/d1a/a18234.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "df/d1a/a18234.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

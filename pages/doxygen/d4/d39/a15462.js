@@ -1,6 +1,6 @@
 var a15462 =
 [
-    [ "HandlePeriodic", "d4/d39/a15462.html#ad22b433005b2678bde3516a01eaaaa60", null ],
-    [ "PrepareAuraScript", "d4/d39/a15462.html#a3711004edaef7242d9cae1f23f9b7467", null ],
-    [ "Register", "d4/d39/a15462.html#ad570e51a3d2dd5d3cc4b91aebeefd9ef", null ]
+    [ "PrepareSpellScript", "d4/d39/a15462.html#a74a2601e2c160bb4a9b18d421775e6b3", null ],
+    [ "Register", "d4/d39/a15462.html#a17a07973a3c043683fc4fe0d1fc45156", null ],
+    [ "SetDest", "d4/d39/a15462.html#a3751a14d6e36140ee368d8ded6df03ee", null ]
 ];

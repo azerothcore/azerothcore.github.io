@@ -1,5 +1,5 @@
 var a26706 =
 [
-    [ "AreaTrigger_at_last_rites", "d5/dc8/a26706.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "d5/dc8/a26706.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "AreaTrigger_at_legion_teleporter", "d5/dc8/a26706.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "d5/dc8/a26706.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

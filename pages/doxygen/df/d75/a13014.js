@@ -1,6 +1,7 @@
 var a13014 =
 [
-    [ "FixOrientation", "df/d75/a13014.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
-    [ "Execute", "df/d75/a13014.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
-    [ "_owner", "df/d75/a13014.html#a5f12db3774bdeef25a300780c00db1fb", null ]
+    [ "OnRemove", "df/d75/a13014.html#a2438d8c85ff2a446572286b0d058ecf1", null ],
+    [ "PrepareAuraScript", "df/d75/a13014.html#ade353aafb960cabdb615718f41f485e8", null ],
+    [ "Register", "df/d75/a13014.html#af1c312778a13f7fe8d174247f69258ac", null ],
+    [ "Validate", "df/d75/a13014.html#afd75cdeb9430833fa6a59d7913c86a97", null ]
 ];

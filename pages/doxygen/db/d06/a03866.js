@@ -1,7 +1,7 @@
 var a03866 =
 [
-    [ "canCreateExtraItems", "db/d06/a03866.html#a49687e255d65fa15dac5e6a428c5739d", null ],
-    [ "CanCreatePerfectItem", "db/d06/a03866.html#a818c557864790091814604b6d2175e52", null ],
-    [ "LoadSkillExtraItemTable", "db/d06/a03866.html#a3244d04018405bafe21acc8bc96cc743", null ],
-    [ "LoadSkillPerfectItemTable", "db/d06/a03866.html#a121df170a82be5ab5b05999a6be27b69", null ]
+    [ "Movement::FallInitializer", "d2/db9/a09782.html", "d2/db9/a09782" ],
+    [ "Movement::CommonInitializer", "de/d1a/a09786.html", "de/d1a/a09786" ],
+    [ "CHECK", "db/d06/a03866.html#a4005b3acaa5011bfc2cc027562c04dfb", null ],
+    [ "computeDuration", "db/d06/a03866.html#a0f9e26b66bd86bb9701c366e4f9529c3", null ]
 ];

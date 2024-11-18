@@ -1,6 +1,6 @@
 var a10994 =
 [
-    [ "DestinationTargetSelectHandler", "db/df0/a10994.html#ab5ffcc89b7232afddd6bc47e7c347b79", null ],
-    [ "Call", "db/df0/a10994.html#a81ae2eb856507ee22308ae2739854382", null ],
-    [ "DestinationTargetSelectHandlerScript", "db/df0/a10994.html#a95e882b892a79b464a521a8367b2e9b7", null ]
+    [ "HitHandler", "db/df0/a10994.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
+    [ "Call", "db/df0/a10994.html#a157baaa3ceba62a9910cba5377bd7699", null ],
+    [ "pHitHandlerScript", "db/df0/a10994.html#ac24144e49930a01a3049740a4072f626", null ]
 ];

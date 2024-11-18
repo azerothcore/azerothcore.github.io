@@ -1,7 +1,5 @@
 var a23102 =
 [
-    [ "CalcPeriodic", "df/d33/a23102.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
-    [ "PrepareAuraScript", "df/d33/a23102.html#a290913502dfe3dfb42b44a964468b97c", null ],
-    [ "Register", "df/d33/a23102.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
-    [ "Update", "df/d33/a23102.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
+    [ "instance_the_underbog_InstanceMapScript", "df/d33/a23102.html#ae7668c7c4432b74caa3ea46a7c7364e3", null ],
+    [ "Initialize", "df/d33/a23102.html#a9c7c10020eef3db4794283c0f946d086", null ]
 ];

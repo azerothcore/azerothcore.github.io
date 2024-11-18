@@ -1,8 +1,8 @@
 var a13046 =
 [
-    [ "HandleApply", "d0/dba/a13046.html#a2c64240e8675fc76598600ae2632570f", null ],
-    [ "HandleRemove", "d0/dba/a13046.html#a2a6e32bbc9b722ad7e872c6a26daa6bb", null ],
-    [ "PrepareAuraScript", "d0/dba/a13046.html#a6ff74fbaf3a6ef84024d55528fd6f8e2", null ],
-    [ "Register", "d0/dba/a13046.html#aebfb4b20a9b0ebefff652a0ae1727994", null ],
-    [ "Validate", "d0/dba/a13046.html#abdad49fe5e0a72799847fdfcfe22eec0", null ]
+    [ "FilterTargets", "d0/dba/a13046.html#a3282eb4c27b4256705bba47f4934c9b8", null ],
+    [ "HandleScriptEffect", "d0/dba/a13046.html#a8622351d9984d2de69ccd67d37fd52b9", null ],
+    [ "PrepareSpellScript", "d0/dba/a13046.html#a6083e35b4289b8a960dd6b223e1d02b5", null ],
+    [ "Register", "d0/dba/a13046.html#a57b42bf7b94ef5b23092ed097ce016e8", null ],
+    [ "Validate", "d0/dba/a13046.html#a5493864b068de82015bc157f3d0899b3", null ]
 ];

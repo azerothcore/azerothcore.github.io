@@ -1,10 +1,8 @@
 var a27186 =
 [
-    [ "npc_dancing_flamesAI", "df/d57/a27186.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
-    [ "JustEngagedWith", "df/d57/a27186.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
-    [ "ReceiveEmote", "df/d57/a27186.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
-    [ "Reset", "df/d57/a27186.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
-    [ "UpdateAI", "df/d57/a27186.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
-    [ "Active", "df/d57/a27186.html#aa79036bed206327847bf5ad2e768e8f6", null ],
-    [ "CanIteract", "df/d57/a27186.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
+    [ "npc_chicken_cluckAI", "df/d04/a27190.html", "df/d04/a27190" ],
+    [ "npc_chicken_cluck", "df/d57/a27186.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "df/d57/a27186.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "df/d57/a27186.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "df/d57/a27186.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

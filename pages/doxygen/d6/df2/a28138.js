@@ -1,8 +1,8 @@
 var a28138 =
 [
-    [ "MapDifficulty", "d6/df2/a28138.html#abf514d1105541d5c5aaf52a91330a1e2", null ],
-    [ "MapDifficulty", "d6/df2/a28138.html#a227aec55b5b774076882ea34f70d5d88", null ],
-    [ "hasErrorMessage", "d6/df2/a28138.html#a8dd5436eaec4d0e67f8b41c8dd071148", null ],
-    [ "maxPlayers", "d6/df2/a28138.html#af82ad844bc4ac9585cb9df1963697e1b", null ],
-    [ "resetTime", "d6/df2/a28138.html#a7190131620b9eee0897ac7b4dd62949e", null ]
+    [ "prepareLoadedData", "d6/df2/a28138.html#a696cfebd8fe66840b316919519e9b319", null ],
+    [ "fcc", "d6/df2/a28138.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
+    [ "fcc_txt", "d6/df2/a28138.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
+    [ "height_map", "d6/df2/a28138.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
+    [ "size", "d6/df2/a28138.html#add2809c6e520cf4aa43807d61f973f0e", null ]
 ];

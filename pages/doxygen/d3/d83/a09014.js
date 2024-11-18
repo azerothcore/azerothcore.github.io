@@ -1,8 +1,10 @@
 var a09014 =
 [
-    [ "AnyUnfriendlyNoTotemUnitInObjectRangeCheck", "d3/d83/a09014.html#ac4378cfa8fedb3453c0e810d497cb99c", null ],
-    [ "operator()", "d3/d83/a09014.html#ad9e3486316cf297ba79a588c60b4ce15", null ],
-    [ "i_funit", "d3/d83/a09014.html#ace766830b26d8aae3ec673d2102a9969", null ],
-    [ "i_obj", "d3/d83/a09014.html#ae12f4176e49438cfa248345cfe7c9947", null ],
-    [ "i_range", "d3/d83/a09014.html#a8335ef8fd7376e7c920dfbca2318d646", null ]
+    [ "MostHPPercentMissingInRange", "d3/d83/a09014.html#aaef0deb21e2470b45cafc22a8c4d18a5", null ],
+    [ "operator()", "d3/d83/a09014.html#ab1734490a3db95ad715756e85ecfaf77", null ],
+    [ "i_hpPct", "d3/d83/a09014.html#a41a3b1c4d1f27a2d727e7a18e2e30a7d", null ],
+    [ "i_maxHpPct", "d3/d83/a09014.html#afd12795ef0cd99e05e4e21f869582416", null ],
+    [ "i_minHpPct", "d3/d83/a09014.html#a11c197d3eea1a8ded0b20f707e6ed5d0", null ],
+    [ "i_obj", "d3/d83/a09014.html#a724cf058a6bcf02864a49bb288e32ce6", null ],
+    [ "i_range", "d3/d83/a09014.html#a021acff6bdb6aef9ab24c19d8798884f", null ]
 ];

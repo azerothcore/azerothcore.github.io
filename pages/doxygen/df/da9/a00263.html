@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/StringConvert.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/GitRevision.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,60 +105,58 @@ $(document).ready(function(){initNavTree('df/da9/a00263.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">StringConvert.h File Reference</div></div>
+  <div class="headertitle"><div class="title">GitRevision.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;charconv&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;string_view&gt;</code><br />
-<code>#include &lt;type_traits&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a05426.html">Acore::Impl::StringConvertImpl::For&lt; T, typename &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a05430.html">Acore::Impl::StringConvertImpl::For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a05434.html">Acore::Impl::StringConvertImpl::For&lt; bool, void &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/a05438.html">Acore::Impl::StringConvertImpl::For&lt; T, std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt; &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">Acore::Impl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/db5/a04695"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html">Acore::Impl::StringConvertImpl</a></td></tr>
+<tr class="memitem:df/d8c/a04701"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html">GitRevision</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a71739ada07c2f1b12bcd0aa811eea903"><td class="memTemplParams" colspan="2">template&lt;typename Result , typename... Params&gt; </td></tr>
-<tr class="memitem:a71739ada07c2f1b12bcd0aa811eea903"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; Result &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a71739ada07c2f1b12bcd0aa811eea903">Acore::StringTo</a> (std::string_view str, Params &amp;&amp;... params)</td></tr>
-<tr class="separator:a71739ada07c2f1b12bcd0aa811eea903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2cb308fb001c35fbaa90489ea6cf478"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename... Params&gt; </td></tr>
-<tr class="memitem:ac2cb308fb001c35fbaa90489ea6cf478"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a> (Type &amp;&amp;val, Params &amp;&amp;... params)</td></tr>
-<tr class="separator:ac2cb308fb001c35fbaa90489ea6cf478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcf1401768f04ea13a6e868d9580605"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#addcf1401768f04ea13a6e868d9580605">GitRevision::GetHash</a> ()</td></tr>
+<tr class="separator:addcf1401768f04ea13a6e868d9580605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10817e6a26ea352c0f79233d2ef552a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a10817e6a26ea352c0f79233d2ef552a8">GitRevision::GetDate</a> ()</td></tr>
+<tr class="separator:a10817e6a26ea352c0f79233d2ef552a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0353e7a37f6f7102283a92975eb1f56f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a0353e7a37f6f7102283a92975eb1f56f">GitRevision::GetBranch</a> ()</td></tr>
+<tr class="separator:a0353e7a37f6f7102283a92975eb1f56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2cbfd79c6c215859ddad44996a8a8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a9d2cbfd79c6c215859ddad44996a8a8c">GitRevision::GetCMakeCommand</a> ()</td></tr>
+<tr class="separator:a9d2cbfd79c6c215859ddad44996a8a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b62eaf53be851b0bd82c3a00b934d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a83b62eaf53be851b0bd82c3a00b934d1">GitRevision::GetCMakeVersion</a> ()</td></tr>
+<tr class="separator:a83b62eaf53be851b0bd82c3a00b934d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63ab422bd364927fa88a394e82fc2a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#ad63ab422bd364927fa88a394e82fc2a7">GitRevision::GetHostOSVersion</a> ()</td></tr>
+<tr class="separator:ad63ab422bd364927fa88a394e82fc2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51523316de8184739b710e472a8ce843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a51523316de8184739b710e472a8ce843">GitRevision::GetBuildDirectory</a> ()</td></tr>
+<tr class="separator:a51523316de8184739b710e472a8ce843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1062fcec3676f562803f4775d95a9594"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a1062fcec3676f562803f4775d95a9594">GitRevision::GetSourceDirectory</a> ()</td></tr>
+<tr class="separator:a1062fcec3676f562803f4775d95a9594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f3b200d2427f6546ebddd3b54b7fcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a13f3b200d2427f6546ebddd3b54b7fcf">GitRevision::GetMySQLExecutable</a> ()</td></tr>
+<tr class="separator:a13f3b200d2427f6546ebddd3b54b7fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68b75fc60314941c3cbade8eafcda23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#ad68b75fc60314941c3cbade8eafcda23">GitRevision::GetFullVersion</a> ()</td></tr>
+<tr class="separator:ad68b75fc60314941c3cbade8eafcda23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b700a0bbbdb2829e283fe892f1ba51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a72b700a0bbbdb2829e283fe892f1ba51">GitRevision::GetCompanyNameStr</a> ()</td></tr>
+<tr class="separator:a72b700a0bbbdb2829e283fe892f1ba51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1a810f85a1f404d88e3f7e61cc85cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#abd1a810f85a1f404d88e3f7e61cc85cc">GitRevision::GetLegalCopyrightStr</a> ()</td></tr>
+<tr class="separator:abd1a810f85a1f404d88e3f7e61cc85cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631c2811f3f8b72a16dfa2ceb7c4cb42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#a631c2811f3f8b72a16dfa2ceb7c4cb42">GitRevision::GetFileVersionStr</a> ()</td></tr>
+<tr class="separator:a631c2811f3f8b72a16dfa2ceb7c4cb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbfa02a4b9aba10f263252be4d3f48fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8c/a04701.html#abbfa02a4b9aba10f263252be4d3f48fc">GitRevision::GetProductVersionStr</a> ()</td></tr>
+<tr class="separator:abbfa02a4b9aba10f263252be4d3f48fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../df/da9/a00263.html">StringConvert.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../df/da9/a00263.html">GitRevision.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

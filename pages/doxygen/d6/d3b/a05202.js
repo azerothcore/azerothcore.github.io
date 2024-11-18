@@ -1,8 +1,10 @@
 var a05202 =
 [
-    [ "Decode", "d6/d3b/a05202.html#aacf2a55e180aa5ee475ac76c6af4d47a", null ],
-    [ "Encode", "d6/d3b/a05202.html#a51c8847dc9b75161f4d2d366324dc50f", null ],
-    [ "BITS_PER_CHAR", "d6/d3b/a05202.html#a10f3736ee2ed8e79e1236798e2b1d2be", null ],
-    [ "DECODE_ERROR", "d6/d3b/a05202.html#ace6b211be8a36043942f0a1aaee063b1", null ],
-    [ "PADDING", "d6/d3b/a05202.html#af099d69cc636a7ad298ec9e38b2f20d2", null ]
+    [ "Find", "d6/d3b/a05202.html#a1d6a7cd1596aa03a8e53609c7d7b6e33", null ],
+    [ "GetElements", "d6/d3b/a05202.html#a653b00a9d570ae9d9276a061beda3f35", null ],
+    [ "GetElements", "d6/d3b/a05202.html#a209cbb9e5ba70b9f5f66e64e2c36411d", null ],
+    [ "Insert", "d6/d3b/a05202.html#ad61d9aa314133d8eba934fe56cff48e0", null ],
+    [ "Remove", "d6/d3b/a05202.html#a5a9666fc5f0136a778d8c542a386d4bf", null ],
+    [ "Size", "d6/d3b/a05202.html#a289258c9015016a70d2867df7e113def", null ],
+    [ "_elements", "d6/d3b/a05202.html#adda6657e9a0fd08b105cd4d6b2baa9d3", null ]
 ];

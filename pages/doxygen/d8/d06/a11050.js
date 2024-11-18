@@ -1,6 +1,7 @@
 var a11050 =
 [
-    [ "CheckProcHandler", "d8/d06/a11050.html#a1b5bfc85cb9a81a64ebd4b769e3d3651", null ],
-    [ "Call", "d8/d06/a11050.html#a977558dc8838a05259effc268235696a", null ],
-    [ "_HandlerScript", "d8/d06/a11050.html#abcb28d1a2f32402511c1e659b2f3b443", null ]
+    [ "EffectApplyHandler", "d8/d06/a11050.html#a7ab5f0786000c217e2fc71201a8990b6", null ],
+    [ "Call", "d8/d06/a11050.html#a4c02a1b42d7b3a02633dc9600b0e09bb", null ],
+    [ "mode", "d8/d06/a11050.html#ac776375c5a5de321edc572c87e983193", null ],
+    [ "pEffectHandlerScript", "d8/d06/a11050.html#acd715556a7661f688ce0de9afe62250a", null ]
 ];

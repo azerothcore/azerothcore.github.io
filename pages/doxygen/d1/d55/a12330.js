@@ -1,7 +1,5 @@
 var a12330 =
 [
-    [ "npc_malchezaar_axe", "d1/d55/a12330.html#a1a5615f2def10add30e7917b770ebc74", null ],
-    [ "Initialize", "d1/d55/a12330.html#a078e7f0997c026b73a4e0ab8a1c209b8", null ],
-    [ "JustEngagedWith", "d1/d55/a12330.html#a4a9f90e66359b304622d4f79653f9fd0", null ],
-    [ "UpdateAI", "d1/d55/a12330.html#a202ba6922a426f87909eefbccd070175", null ]
+    [ "go_blackened_urn", "d1/d55/a12330.html#aaa311353e693a0dd7fd9a6f8e617e0ab", null ],
+    [ "OnGossipHello", "d1/d55/a12330.html#ab091bd54734acc65532303a391441ee2", null ]
 ];

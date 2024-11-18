@@ -1,4 +1,4 @@
 var a04256 =
 [
-    [ "Grid< ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES >", "d9/db0/a08822.html", "d9/db0/a08822" ]
+    [ "AllGameObjectScript", "da/d73/a09954.html", "da/d73/a09954" ]
 ];

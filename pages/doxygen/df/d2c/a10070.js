@@ -1,5 +1,6 @@
 var a10070 =
 [
-    [ "MovementHandlerScript", "df/d2c/a10070.html#aeeeb5fe81eebc04fc317e726782be3ab", null ],
-    [ "OnPlayerMove", "df/d2c/a10070.html#ac1604e58c8ecab26ce4159fb43a86a68", null ]
+    [ "LootScript", "df/d2c/a10070.html#a57fd5dffc97f62a595f0ff4c2856dbd4", null ],
+    [ "IsDatabaseBound", "df/d2c/a10070.html#ad60b605eac89be48efd339127e9cb9cd", null ],
+    [ "OnLootMoney", "df/d2c/a10070.html#a56a57baead49f6815a9979b181a55375", null ]
 ];

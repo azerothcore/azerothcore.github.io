@@ -1,14 +1,11 @@
 var a13458 =
 [
-    [ "npc_janalai_hatcher", "d0/db9/a13458.html#a337e21f5a014d0f9d7a1f614b7245f36", null ],
-    [ "AttackStart", "d0/db9/a13458.html#a5a7826964349ed9adbbdeb7c733dd915", null ],
-    [ "JustEngagedWith", "d0/db9/a13458.html#a54c251278dcfa22052b6c6e49a4abd89", null ],
-    [ "MoveInLineOfSight", "d0/db9/a13458.html#a4ae2157e37bb93b7465e029e526a6ce4", null ],
-    [ "MovementInform", "d0/db9/a13458.html#a3a0170bc53f9f8f96090e34097b90c2c", null ],
-    [ "MoveToNewWaypoint", "d0/db9/a13458.html#ab775a888ae1002eed3ed548ab89ca2e4", null ],
-    [ "Reset", "d0/db9/a13458.html#ab1c3945160c55b2b2d63763eacced473", null ],
-    [ "UpdateAI", "d0/db9/a13458.html#ab5cc0c5f73593128b6d6e023aa4ce609", null ],
-    [ "_isHatching", "d0/db9/a13458.html#aae712db69c870d00d07a37b8611ecaf4", null ],
-    [ "_side", "d0/db9/a13458.html#a177ddd5ff96902363ab708f0c737fc20", null ],
-    [ "_waypoint", "d0/db9/a13458.html#ab39ab27d8057b52b77637faefd48e8e6", null ]
+    [ "boss_hexlord_malacrass", "d0/db9/a13458.html#aaf3fdf0b34904d1c5798ebcc291cdcde", null ],
+    [ "JustEngagedWith", "d0/db9/a13458.html#ac5af0a5ec11ab8529e74a1ea7f0b4b66", null ],
+    [ "KilledUnit", "d0/db9/a13458.html#a69e7a3aa2cb068706651bad34363099f", null ],
+    [ "Reset", "d0/db9/a13458.html#af00159c9e2c54033f52f46d60881f22e", null ],
+    [ "SpawnAdds", "d0/db9/a13458.html#a8ffb01ebe267b4eb935e373bd0d99eed", null ],
+    [ "UseAbility", "d0/db9/a13458.html#afdad8cc36235f11dc5c4b4f579f5b46b", null ],
+    [ "_classAbilityTimer", "d0/db9/a13458.html#a40ccd2e586895ab1cde3c51bcd56c11b", null ],
+    [ "_currentClass", "d0/db9/a13458.html#ab7e531fccbb486b7b429d77d804841c2", null ]
 ];

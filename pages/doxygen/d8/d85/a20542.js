@@ -1,7 +1,8 @@
 var a20542 =
 [
-    [ "OnApply", "d8/d85/a20542.html#a7dd5b6217db77373dfba5958a2376ff1", null ],
-    [ "OnRemove", "d8/d85/a20542.html#a39510971a0e1dbd800efc37c2e09c74f", null ],
-    [ "PrepareAuraScript", "d8/d85/a20542.html#a35c1e8f81229565e5d333ec42aa2e92c", null ],
-    [ "Register", "d8/d85/a20542.html#a27fdfe00e5201b6472a282f4589a66cc", null ]
+    [ "OnApply", "d8/d85/a20542.html#a3046fa845b6763c5602ca7b50aefd68f", null ],
+    [ "OnRemove", "d8/d85/a20542.html#ad3f482f9fff9798cc6e7a06183344742", null ],
+    [ "PrepareAuraScript", "d8/d85/a20542.html#ab830a7a6c5ed432f8718071345c99b57", null ],
+    [ "Register", "d8/d85/a20542.html#ac83a8d085d02feec64b6012cacb60dce", null ],
+    [ "Validate", "d8/d85/a20542.html#a69a3e0a6c06e3c4085bf0ad25e40edf9", null ]
 ];

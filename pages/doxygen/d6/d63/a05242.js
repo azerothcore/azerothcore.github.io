@@ -1,17 +1,19 @@
 var a05242 =
 [
-    [ "AppenderFile", "d6/d63/a05242.html#a0437ef5c3d0106e52747ab57ccbf97a3", null ],
-    [ "~AppenderFile", "d6/d63/a05242.html#ae61ef8a7dbc41612f94513ee0da156e1", null ],
-    [ "_write", "d6/d63/a05242.html#a4c20fc9c6519eb63ca3bf74fd1d1f5b5", null ],
-    [ "CloseFile", "d6/d63/a05242.html#a039659a1e8e340c9522ff99f119ff5c8", null ],
-    [ "getType", "d6/d63/a05242.html#ad978ed158e068f5fa84f9f93aaf99b46", null ],
-    [ "OpenFile", "d6/d63/a05242.html#af4ee583cbcd00d8d564189b0d62a1bb8", null ],
-    [ "_backup", "d6/d63/a05242.html#a4e1f6ab329fa3dadf4e63584b92c456f", null ],
-    [ "_dynamicName", "d6/d63/a05242.html#a13cffedf98f8554f5a947dcc065caf65", null ],
-    [ "_fileName", "d6/d63/a05242.html#a53fcfcc6bf29a0e493d2ea9fdb1344fc", null ],
-    [ "_fileSize", "d6/d63/a05242.html#a03a7e6402f58136a0cc34eff3985d3fb", null ],
-    [ "_logDir", "d6/d63/a05242.html#a99f47e0f33b5d5f810470f45a4c885b7", null ],
-    [ "_maxFileSize", "d6/d63/a05242.html#a271930a4cb21d7efdc2243b6d33d177f", null ],
-    [ "logfile", "d6/d63/a05242.html#a8ce79405a7e19ae23fc4a93f70ad28b6", null ],
-    [ "type", "d6/d63/a05242.html#a6ec33bdb38ab0359620e008cf4793f8c", null ]
+    [ "Appender", "d6/d63/a05242.html#aed555d5a182fefce9bb570201e9f005f", null ],
+    [ "~Appender", "d6/d63/a05242.html#a7194b4ff5130399352c356852023004d", null ],
+    [ "_write", "d6/d63/a05242.html#a04e6bf8aca909a3fbadcd053dda85b83", null ],
+    [ "getFlags", "d6/d63/a05242.html#a57fad2f7bd4da733633051f47efd6555", null ],
+    [ "getId", "d6/d63/a05242.html#a643046505390b3988572c53051d7d4c1", null ],
+    [ "getLogLevel", "d6/d63/a05242.html#a0013fabdf34579153a2d145fdbd8009b", null ],
+    [ "getLogLevelString", "d6/d63/a05242.html#aa0ec99ab59463bfe249b64e5f9a7645d", null ],
+    [ "getName", "d6/d63/a05242.html#a8414d7de4187a3deb55024278734836f", null ],
+    [ "getType", "d6/d63/a05242.html#a0efa3e131b7c130a9ece375135682ea4", null ],
+    [ "setLogLevel", "d6/d63/a05242.html#ae6c4e7120a54b7069e157fe9a397d455", null ],
+    [ "setRealmId", "d6/d63/a05242.html#ae13f18ba2b26260f64aedc1ce1806fef", null ],
+    [ "write", "d6/d63/a05242.html#a33d9f53e1853633d15c78f4edc33e5d3", null ],
+    [ "flags", "d6/d63/a05242.html#aa8bf6d0a30b1b7ec7acd95e73234e5bd", null ],
+    [ "id", "d6/d63/a05242.html#a2cf4849307b65727645d3caf4205064f", null ],
+    [ "level", "d6/d63/a05242.html#a2dd9209b754c6676ef86f1a6f7f2295f", null ],
+    [ "name", "d6/d63/a05242.html#a0d47660ee41c8816342001825f626a8b", null ]
 ];

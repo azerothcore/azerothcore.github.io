@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AuthHandler Struct Reference</title>
+<title>AzerothCore: AUTH_RECONNECT_PROOF_C Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,62 +107,98 @@ $(document).ready(function(){initNavTree('d4/d74/a05554.html','../../'); initRes
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../de/ddf/a05551.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AuthHandler Struct Reference</div></div>
+  <div class="headertitle"><div class="title">AUTH_RECONNECT_PROOF_C Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">AuthSession.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aaf1066ba6414c519c889e3e8e52d38f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd3/a04427.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#aaf1066ba6414c519c889e3e8e52d38f2">status</a></td></tr>
-<tr class="separator:aaf1066ba6414c519c889e3e8e52d38f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952f7f7ff3017efa4c3d127baa848785"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a952f7f7ff3017efa4c3d127baa848785">packetSize</a></td></tr>
-<tr class="separator:a952f7f7ff3017efa4c3d127baa848785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8074991652af9e5c8752dd4ff5e6e6cc"><td class="memItemLeft" align="right" valign="top">bool(AuthSession::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a8074991652af9e5c8752dd4ff5e6e6cc">handler</a> )()</td></tr>
-<tr class="separator:a8074991652af9e5c8752dd4ff5e6e6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14df856ae931474a7c58d0e35caf6ad0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a14df856ae931474a7c58d0e35caf6ad0">cmd</a></td></tr>
+<tr class="separator:a14df856ae931474a7c58d0e35caf6ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054648a96d1c66bae6fdb9a174e7b1e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a054648a96d1c66bae6fdb9a174e7b1e6">R1</a> [16]</td></tr>
+<tr class="separator:a054648a96d1c66bae6fdb9a174e7b1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fa4a4d0b6098fdf8e5c8f9a33f08ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Crypto::SHA1::Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad">R2</a></td></tr>
+<tr class="separator:a72fa4a4d0b6098fdf8e5c8f9a33f08ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819a5ba3a19583fd0cfd0558cf218e54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Crypto::SHA1::Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#a819a5ba3a19583fd0cfd0558cf218e54">R3</a></td></tr>
+<tr class="separator:a819a5ba3a19583fd0cfd0558cf218e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa44734bb96b91894c038b3f34b4db0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d74/a05554.html#aaa44734bb96b91894c038b3f34b4db0d">number_of_keys</a></td></tr>
+<tr class="separator:aaa44734bb96b91894c038b3f34b4db0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8074991652af9e5c8752dd4ff5e6e6cc" name="a8074991652af9e5c8752dd4ff5e6e6cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8074991652af9e5c8752dd4ff5e6e6cc">&#9670;&#160;</a></span>handler</h2>
+<a id="a14df856ae931474a7c58d0e35caf6ad0" name="a14df856ae931474a7c58d0e35caf6ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14df856ae931474a7c58d0e35caf6ad0">&#9670;&#160;</a></span>cmd</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool(AuthSession::* AuthHandler::handler) ()</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AUTH_RECONNECT_PROOF_C::cmd</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a952f7f7ff3017efa4c3d127baa848785" name="a952f7f7ff3017efa4c3d127baa848785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a952f7f7ff3017efa4c3d127baa848785">&#9670;&#160;</a></span>packetSize</h2>
+<a id="aaa44734bb96b91894c038b3f34b4db0d" name="aaa44734bb96b91894c038b3f34b4db0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa44734bb96b91894c038b3f34b4db0d">&#9670;&#160;</a></span>number_of_keys</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t AuthHandler::packetSize</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AUTH_RECONNECT_PROOF_C::number_of_keys</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aaf1066ba6414c519c889e3e8e52d38f2" name="aaf1066ba6414c519c889e3e8e52d38f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf1066ba6414c519c889e3e8e52d38f2">&#9670;&#160;</a></span>status</h2>
+<a id="a054648a96d1c66bae6fdb9a174e7b1e6" name="a054648a96d1c66bae6fdb9a174e7b1e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054648a96d1c66bae6fdb9a174e7b1e6">&#9670;&#160;</a></span>R1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd3/a04427.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a> AuthHandler::status</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AUTH_RECONNECT_PROOF_C::R1[16]</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>.</p>
+
+</div>
+</div>
+<a id="a72fa4a4d0b6098fdf8e5c8f9a33f08ad" name="a72fa4a4d0b6098fdf8e5c8f9a33f08ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fa4a4d0b6098fdf8e5c8f9a33f08ad">&#9670;&#160;</a></span>R2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Crypto::SHA1::Digest</a> AUTH_RECONNECT_PROOF_C::R2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>.</p>
+
+</div>
+</div>
+<a id="a819a5ba3a19583fd0cfd0558cf218e54" name="a819a5ba3a19583fd0cfd0558cf218e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819a5ba3a19583fd0cfd0558cf218e54">&#9670;&#160;</a></span>R3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Crypto::SHA1::Digest</a> AUTH_RECONNECT_PROOF_C::R3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>.</p>
 
 </div>
 </div>
@@ -171,8 +207,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d74/a05554.html">AuthHandler</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/d74/a05554.html">AUTH_RECONNECT_PROOF_C</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var a03815 =
 [
-    [ "LoginQueryHolder", "de/d2b/a09266.html", "de/d2b/a09266" ]
+    [ "GetMinPlayersPerTeam", "d7/dab/a03815.html#ab22bdb52b0357434faced9df19db9d81", null ]
 ];

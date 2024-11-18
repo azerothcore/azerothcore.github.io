@@ -1,12 +1,8 @@
 var a07014 =
 [
-    [ "Arena", "d3/de9/a07014.html#a74f105bc709d4728fb07f1984abfd345", null ],
-    [ "AddPlayer", "d3/de9/a07014.html#ae24fe304d35c0c09379203135e936450", null ],
-    [ "CheckWinConditions", "d3/de9/a07014.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
-    [ "EndBattleground", "d3/de9/a07014.html#a2be61602189b530a16a9ca954d180914", null ],
-    [ "FillInitialWorldStates", "d3/de9/a07014.html#a41e53f03488058fb635e42b525db5068", null ],
-    [ "HandleKillPlayer", "d3/de9/a07014.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
-    [ "RemovePlayer", "d3/de9/a07014.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
-    [ "RemovePlayerAtLeave", "d3/de9/a07014.html#acae21233e11b21b612e5c051bfa7720e", null ],
-    [ "UpdateArenaWorldState", "d3/de9/a07014.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
+    [ "nbTowerCannonBottom", "d3/de9/a07014.html#a06e8dcf63efd928b72f3ec7d433ccb89", null ],
+    [ "nbTurretTop", "d3/de9/a07014.html#a5a728dccad89da190131cd93b62390b7", null ],
+    [ "TowerCannonBottom", "d3/de9/a07014.html#a21fa09356b3349bf45865aa3f0920268", null ],
+    [ "towerEntry", "d3/de9/a07014.html#a37e171a06a6e7bf5c0832417c597c2e1", null ],
+    [ "TurretTop", "d3/de9/a07014.html#a6849ba6967fa275950da9fec16df9bec", null ]
 ];

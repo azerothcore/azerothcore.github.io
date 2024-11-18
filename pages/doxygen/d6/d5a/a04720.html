@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: std Namespace Reference</title>
+<title>AzerothCore: AIRegistry Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,23 +105,75 @@ $(document).ready(function(){initNavTree('d6/d5a/a04720.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">std Namespace Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">AIRegistry Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d40/a08190.html">hash&lt; ObjectGuid &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9ddfbc9345acf19d3b4bcb7ce7804c94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04720.html#a9ddfbc9345acf19d3b4bcb7ce7804c94">Initialize</a> ()</td></tr>
+<tr class="separator:a9ddfbc9345acf19d3b4bcb7ce7804c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9ddfbc9345acf19d3b4bcb7ce7804c94" name="a9ddfbc9345acf19d3b4bcb7ce7804c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ddfbc9345acf19d3b4bcb7ce7804c94">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AIRegistry::Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;NullCreatureAI&gt;</a>(<span class="stringliteral">&quot;NullCreatureAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   37</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TriggerAI&gt;</a>(<span class="stringliteral">&quot;TriggerAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   38</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;AggressorAI&gt;</a>(<span class="stringliteral">&quot;AggressorAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   39</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;ReactorAI&gt;</a>(<span class="stringliteral">&quot;ReactorAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   40</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;PassiveAI&gt;</a>(<span class="stringliteral">&quot;PassiveAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   41</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;CritterAI&gt;</a>(<span class="stringliteral">&quot;CritterAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   42</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;GuardAI&gt;</a>(<span class="stringliteral">&quot;GuardAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   43</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;PetAI&gt;</a>(<span class="stringliteral">&quot;PetAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   44</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TotemAI&gt;</a>(<span class="stringliteral">&quot;TotemAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   45</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;CombatAI&gt;</a>(<span class="stringliteral">&quot;CombatAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   46</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;ArcherAI&gt;</a>(<span class="stringliteral">&quot;ArcherAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   47</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TurretAI&gt;</a>(<span class="stringliteral">&quot;TurretAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   48</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;VehicleAI&gt;</a>(<span class="stringliteral">&quot;VehicleAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   49</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;SmartAI&gt;</a>(<span class="stringliteral">&quot;SmartAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;NullGameObjectAI&gt;</a>(<span class="stringliteral">&quot;NullGameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   52</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;GameObjectAI&gt;</a>(<span class="stringliteral">&quot;GameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   53</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;SmartGameObjectAI&gt;</a>(<span class="stringliteral">&quot;SmartGameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../dd/d2e/a09678.html">IdleMovementFactory</a>())-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   56</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../da/df6/a09674.html">MovementGeneratorFactory&lt;RandomMovementGenerator&lt;Creature&gt;</a>&gt;(<a class="code hl_enumvalue" href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2">RANDOM_MOTION_TYPE</a>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   57</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../da/df6/a09674.html">MovementGeneratorFactory&lt;WaypointMovementGenerator&lt;Creature&gt;</a>&gt;(<a class="code hl_enumvalue" href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9">WAYPOINT_MOTION_TYPE</a>))-&gt;RegisterSelf();</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="ttc" id="aa03890_html_a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9"><div class="ttname"><a href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9">WAYPOINT_MOTION_TYPE</a></div><div class="ttdeci">@ WAYPOINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:41</div></div>
+<div class="ttc" id="aa03890_html_a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2"><div class="ttname"><a href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2">RANDOM_MOTION_TYPE</a></div><div class="ttdeci">@ RANDOM_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:40</div></div>
+<div class="ttc" id="aa06082_html"><div class="ttname"><a href="../../d6/d02/a06082.html">CreatureAIFactory</a></div><div class="ttdef"><b>Definition:</b> CreatureAIFactory.h:33</div></div>
+<div class="ttc" id="aa06098_html"><div class="ttname"><a href="../../d7/d79/a06098.html">GameObjectAIFactory</a></div><div class="ttdef"><b>Definition:</b> GameObjectAIFactory.h:33</div></div>
+<div class="ttc" id="aa09674_html"><div class="ttname"><a href="../../da/df6/a09674.html">MovementGeneratorFactory</a></div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:87</div></div>
+<div class="ttc" id="aa09678_html"><div class="ttname"><a href="../../dd/d2e/a09678.html">IdleMovementFactory</a></div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:97</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00040">RANDOM_MOTION_TYPE</a>, and <a class="el" href="../../#l00041">WAYPOINT_MOTION_TYPE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01495">World::SetInitialWorldSettings()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d5a/a04720.html">std</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/d5a/a04720.html">AIRegistry</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

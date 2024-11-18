@@ -1,6 +1,6 @@
 var a21054 =
 [
-    [ "npc_azure_invaderAI", "dd/d61/a21058.html", "dd/d61/a21058" ],
-    [ "npc_azure_invader", "d0/da1/a21054.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
-    [ "GetAI", "d0/da1/a21054.html#a19c000084ea74a401ece81ee0e20b65c", null ]
+    [ "npc_vh_teleportation_portalAI", "dd/d61/a21058.html", "dd/d61/a21058" ],
+    [ "npc_vh_teleportation_portal", "d0/da1/a21054.html#a9a554058f594f992a17dbb3887117a6f", null ],
+    [ "GetAI", "d0/da1/a21054.html#a0721c64c01ae69bd78dfc15637c97f49", null ]
 ];

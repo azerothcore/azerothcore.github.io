@@ -1,7 +1,6 @@
 var a18038 =
 [
-    [ "ValithriaDespawner", "d9/db1/a18038.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
-    [ "Execute", "d9/db1/a18038.html#a4f8c63f52996da14078a7196cae3a00d", null ],
-    [ "operator()", "d9/db1/a18038.html#a05bae39d642f294f2ef98151d66ba382", null ],
-    [ "_creature", "d9/db1/a18038.html#a64bf6181ad867efd987edec141ca3bf0", null ]
+    [ "ManaVoidSelector", "d9/db1/a18038.html#aa57a0960e7ce90b8de23f01ae72a1fff", null ],
+    [ "operator()", "d9/db1/a18038.html#a464d63f2cf8cfe7d0c6bb5293e788a28", null ],
+    [ "_source", "d9/db1/a18038.html#ae45c999db51bc153bba7f2fdfb99f6ba", null ]
 ];

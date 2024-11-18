@@ -1,5 +1,5 @@
 var a26982 =
 [
-    [ "go_massive_seaforium_charge", "d1/d4f/a26982.html#adae43b764f237932923cd18207e4d23c", null ],
-    [ "OnGossipHello", "d1/d4f/a26982.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
+    [ "go_dragonflayer_cage", "d1/d4f/a26982.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
+    [ "OnGossipHello", "d1/d4f/a26982.html#a542530a0b84879b21a4b9982cf4300d0", null ]
 ];

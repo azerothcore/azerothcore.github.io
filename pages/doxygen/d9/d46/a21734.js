@@ -1,6 +1,7 @@
 var a21734 =
 [
-    [ "HandleDummy", "d9/d46/a21734.html#a05a38c1b8e3b674f3c6e79c59c7caddd", null ],
-    [ "PrepareSpellScript", "d9/d46/a21734.html#a0bfebaf099ef573b51bec0a511ceeb39", null ],
-    [ "Register", "d9/d46/a21734.html#a9c71b084ce6b86ccaeb9a94d1f8de2b1", null ]
+    [ "HandleDummy", "d9/d46/a21734.html#abfb58e49821e6a563940e8ba518db850", null ],
+    [ "PrepareSpellScript", "d9/d46/a21734.html#a61ca2f71b0fa323a54f716415b25b75e", null ],
+    [ "Register", "d9/d46/a21734.html#a7a2cc833ae8d079b821caabf55b6f0e5", null ],
+    [ "Validate", "d9/d46/a21734.html#a21daeadffbfd28621d897dfe67dd11a8", null ]
 ];

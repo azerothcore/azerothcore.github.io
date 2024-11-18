@@ -1,12 +1,10 @@
 var a07870 =
 [
-    [ "QuestMenu", "d0/dd3/a07870.html#a60ba5b35499c6a9ed510300d3300421e", null ],
-    [ "~QuestMenu", "d0/dd3/a07870.html#a14df9b6699c327853121ae032704db8d", null ],
-    [ "AddMenuItem", "d0/dd3/a07870.html#ac8735756bbf9f2fa799c505bd740e070", null ],
-    [ "ClearMenu", "d0/dd3/a07870.html#ab3d3881aabe000694acab37a3774507e", null ],
-    [ "Empty", "d0/dd3/a07870.html#a1a850cb70956f299ea91cb0d732ad202", null ],
-    [ "GetItem", "d0/dd3/a07870.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
-    [ "GetMenuItemCount", "d0/dd3/a07870.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
-    [ "HasItem", "d0/dd3/a07870.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
-    [ "_questMenuItems", "d0/dd3/a07870.html#a49279a3943009f2d1475d792c2c3d21a", null ]
+    [ "BoxMessage", "d0/dd3/a07870.html#a450f6063a89db2d152370bc997c844a3", null ],
+    [ "BoxMoney", "d0/dd3/a07870.html#a52a12645b55f5757cc61e9a014a71f32", null ],
+    [ "IsCoded", "d0/dd3/a07870.html#accca334730f578bd28c0e9a7fe7ec0ab", null ],
+    [ "MenuItemIcon", "d0/dd3/a07870.html#a987724c4673be20f5386f44245267bc9", null ],
+    [ "Message", "d0/dd3/a07870.html#af130b33294cd49261b3c093cf6f9542c", null ],
+    [ "OptionType", "d0/dd3/a07870.html#a3df0c5fedb028b4fcce8ad5884cc0e6f", null ],
+    [ "Sender", "d0/dd3/a07870.html#aacc07cb5c755d698fe4cb2e228185e34", null ]
 ];

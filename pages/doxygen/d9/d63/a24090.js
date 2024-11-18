@@ -1,8 +1,9 @@
 var a24090 =
 [
-    [ "npc_pet_darting_hatchling", "d9/d63/a24090.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "d9/d63/a24090.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "d9/d63/a24090.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "d9/d63/a24090.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "d9/d63/a24090.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "npc_pet_gen_toxic_wasteling", "d9/d63/a24090.html#a550a1a9324f605b1a9fd715571f819b7", null ],
+    [ "EnterEvadeMode", "d9/d63/a24090.html#abe25deca7fd1c319085995657d62f22a", null ],
+    [ "MovementInform", "d9/d63/a24090.html#aec73d567c3bd178ffee3bdece83a409e", null ],
+    [ "Reset", "d9/d63/a24090.html#a06a8be653c8685aaf28aee1d1d3ae114", null ],
+    [ "UpdateAI", "d9/d63/a24090.html#a22f96d995fcc722c0e95c4f5692cc128", null ],
+    [ "checkTimer", "d9/d63/a24090.html#aafe402e0443bd39a1b7aa274d95edad6", null ]
 ];

@@ -1,9 +1,15 @@
 var a11106 =
 [
-    [ "CreatureTextLocalizer", "dd/dec/a11106.html#a799f1007b9977224d71da1451c3454e1", null ],
-    [ "~CreatureTextLocalizer", "dd/dec/a11106.html#a1a03d45dfd3c6c5f6f4995d5efe238a5", null ],
-    [ "operator()", "dd/dec/a11106.html#ab2c364aa9d45ca2267db2641b26821f7", null ],
-    [ "_builder", "dd/dec/a11106.html#a1d8d97d3e423810d044a8155b182899d", null ],
-    [ "_msgType", "dd/dec/a11106.html#adf9260955b0141e85ff47c66350244e2", null ],
-    [ "_packetCache", "dd/dec/a11106.html#a660b352a1c1855f4b10a8aebef88133f", null ]
+    [ "BroadcastTextId", "dd/dec/a11106.html#a12ff00d59ce642d3c27978e919f6ca17", null ],
+    [ "duration", "dd/dec/a11106.html#a00b6d7cbf9ff377d30cd9e6cfab084b7", null ],
+    [ "emote", "dd/dec/a11106.html#aad433a0bc12717103936e6f89b5b31ea", null ],
+    [ "entry", "dd/dec/a11106.html#a3d1c888b73edee2474004de9d8714903", null ],
+    [ "group", "dd/dec/a11106.html#ae2161d1dc874efacd0131baa74b4e44a", null ],
+    [ "id", "dd/dec/a11106.html#ab80181d53770a2f64bd6898498b3e76e", null ],
+    [ "lang", "dd/dec/a11106.html#a8405ab49781ba0cbcd8680ff6715b675", null ],
+    [ "probability", "dd/dec/a11106.html#a9bec9c2053f2efbac076831d4e928045", null ],
+    [ "sound", "dd/dec/a11106.html#af312efff61026445caeb4be4b52c4e66", null ],
+    [ "text", "dd/dec/a11106.html#a82b3db36b60a343d340677e8df6c7925", null ],
+    [ "TextRange", "dd/dec/a11106.html#a2bb58a07abc9eb7ffeb4db131de03924", null ],
+    [ "type", "dd/dec/a11106.html#a5675f6bcf159e1da503029771557e2a6", null ]
 ];

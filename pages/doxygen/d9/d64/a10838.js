@@ -1,7 +1,7 @@
 var a10838 =
 [
-    [ "WorldObjectSpellNearbyTargetCheck", "d9/d64/a10838.html#afda548f6394c5d11a7ca229fe6b3d402", null ],
-    [ "operator()", "d9/d64/a10838.html#a731ee07d028a5ee63ecd14321c83664d", null ],
-    [ "_position", "d9/d64/a10838.html#a7b19899dd015a73bd1ae4c71fa9ae79d", null ],
-    [ "_range", "d9/d64/a10838.html#abfec0df490876b2b83dcdee4da75a77f", null ]
+    [ "effectMask", "d9/d64/a10838.html#a07d70f3c2425f07a36db90e9fd5b3c97", null ],
+    [ "processed", "d9/d64/a10838.html#aedfa36678be863a558ecd0ecc07cc544", null ],
+    [ "targetGUID", "d9/d64/a10838.html#a619f98bf094d2667048204f733d64d0c", null ],
+    [ "timeDelay", "d9/d64/a10838.html#ab552326c0780fe62ff95b02249458492", null ]
 ];

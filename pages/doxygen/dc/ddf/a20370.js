@@ -1,8 +1,7 @@
 var a20370 =
 [
-    [ "OnPeriodic", "dc/ddf/a20370.html#aa49d1186ca6f5cdd628728a8a30c06a0", null ],
-    [ "OnRemove", "dc/ddf/a20370.html#ad3a81506d71ed3d6ddffce7d8f902eb4", null ],
-    [ "PrepareAuraScript", "dc/ddf/a20370.html#a63b654cf540e331e4d2b4f4ece5c1fcc", null ],
-    [ "Register", "dc/ddf/a20370.html#a004ba2e0e83a14bef3cae208a45f222b", null ],
-    [ "Validate", "dc/ddf/a20370.html#aa56622a1e57c157260940023a6c70a35", null ]
+    [ "npc_xt002_life_sparkAI", "dc/ddf/a20370.html#a763ec1834d3b71c88bfa80bc0e34966a", null ],
+    [ "Reset", "dc/ddf/a20370.html#a596e2ed45b9221915781b03bf2d18e5b", null ],
+    [ "UpdateAI", "dc/ddf/a20370.html#af0a1e717b08b2fa35dd4ff83778a87c1", null ],
+    [ "_attackTimer", "dc/ddf/a20370.html#a79bf005de95aa1fee60dfc73b8920dad", null ]
 ];

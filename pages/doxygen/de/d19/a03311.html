@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptObject.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/World/WorldState.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,66 +105,260 @@ $(document).ready(function(){initNavTree('de/d19/a03311.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">ScriptObject.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">WorldState.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aacb4fdedfc86aea6c855e3be41e0c6e1"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#aacb4fdedfc86aea6c855e3be41e0c6e1">MapScript&lt; Map &gt;</a></td></tr>
-<tr class="separator:aacb4fdedfc86aea6c855e3be41e0c6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad36f2a434a53db1767a65fa0a1dffdc"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#aad36f2a434a53db1767a65fa0a1dffdc">MapScript&lt; InstanceMap &gt;</a></td></tr>
-<tr class="separator:aad36f2a434a53db1767a65fa0a1dffdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37068ff91511f7df359c3cf9be0e8d72"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#a37068ff91511f7df359c3cf9be0e8d72">MapScript&lt; BattlegroundMap &gt;</a></td></tr>
-<tr class="separator:a37068ff91511f7df359c3cf9be0e8d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2f/a11278.html">WorldState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3a4f495a024c9f1774c913dd8ac4929f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#a3a4f495a024c9f1774c913dd8ac4929f">sWorldState</a>&#160;&#160;&#160;<a class="el" href="../../db/d2f/a11278.html#ab82b11875771d0efc209c452e4bc0ffd">WorldState::instance</a>()</td></tr>
+<tr class="separator:a3a4f495a024c9f1774c913dd8ac4929f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afa57b7026eb6e127e388f149e349ccb6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6">WorldStateCondition</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb">WORLD_STATE_CONDITION_TROLLBANES_COMMAND</a> = 39911
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e">WORLD_STATE_CONDITION_NAZGRELS_FAVOR</a> = 39913
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f">WORLD_STATE_CONDITION_THE_THUNDERCALLER</a> = 164871
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f">WORLD_STATE_CONDITION_THE_IRON_EAGLE</a> = 175080
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff">WORLD_STATE_CONDITION_THE_PURPLE_PRINCESS</a> = 176495
+<br />
+ }</td></tr>
+<tr class="separator:afa57b7026eb6e127e388f149e349ccb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ecea2a2bb4e9623ef98bf8c32d546a4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#a4ecea2a2bb4e9623ef98bf8c32d546a4">WorldStateConditionState</a> { <a class="el" href="../../de/d19/a03311.html#a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de">WORLD_STATE_CONDITION_STATE_NONE</a> = 0
+ }</td></tr>
+<tr class="separator:a4ecea2a2bb4e9623ef98bf8c32d546a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7b7b38a655f2354624ac5335163266"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266">WorldStateEvent</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8">WORLD_STATE_CUSTOM_EVENT_ON_ADALS_SONG_OF_BATTLE</a> = 39953
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_SPAWN</a> = 184640
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_DESPAWN</a> = 184641
+<br />
+ }</td></tr>
+<tr class="separator:adc7b7b38a655f2354624ac5335163266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197cd5cc51b3b82a9de8c48b47bf71ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ad">WorldStateZoneId</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8">ZONEID_SHATTRATH</a> = 3703
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3">ZONEID_BOTANICA</a> = 3847
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21">ZONEID_ARCATRAZ</a> = 3848
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7">ZONEID_MECHANAR</a> = 3849
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26">ZONEID_HELLFIRE_PENINSULA</a> = 3483
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f">ZONEID_HELLFIRE_RAMPARTS</a> = 3562
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158">ZONEID_HELLFIRE_CITADEL</a> = 3563
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4">ZONEID_BLOOD_FURNACE</a> = 3713
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8">ZONEID_SHATTERED_HALLS</a> = 3714
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19">ZONEID_MAGTHERIDON_LAIR</a> = 3836
+<br />
+ }</td></tr>
+<tr class="separator:a197cd5cc51b3b82a9de8c48b47bf71ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882a758e503627632aa1d2a878086d91"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91">WorldStateSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8">SPELL_ADAL_SONG_OF_BATTLE</a> = 39953
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d">SPELL_TROLLBANES_COMMAND</a> = 39911
+, <br />
+&#160;&#160;<a class="el" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60">SPELL_NAZGRELS_FAVOR</a> = 39913
+<br />
+ }</td></tr>
+<tr class="separator:a882a758e503627632aa1d2a878086d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a37068ff91511f7df359c3cf9be0e8d72" name="a37068ff91511f7df359c3cf9be0e8d72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37068ff91511f7df359c3cf9be0e8d72">&#9670;&#160;</a></span>MapScript&lt; BattlegroundMap &gt;</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a3a4f495a024c9f1774c913dd8ac4929f" name="a3a4f495a024c9f1774c913dd8ac4929f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4f495a024c9f1774c913dd8ac4929f">&#9670;&#160;</a></span>sWorldState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d6/dd4/a10142.html">MapScript</a>&lt; <a class="el" href="../../d4/d86/a09530.html">BattlegroundMap</a> &gt;</td>
+          <td class="memname">#define sWorldState&#160;&#160;&#160;<a class="el" href="../../db/d2f/a11278.html#ab82b11875771d0efc209c452e4bc0ffd">WorldState::instance</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aad36f2a434a53db1767a65fa0a1dffdc" name="aad36f2a434a53db1767a65fa0a1dffdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad36f2a434a53db1767a65fa0a1dffdc">&#9670;&#160;</a></span>MapScript&lt; InstanceMap &gt;</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="afa57b7026eb6e127e388f149e349ccb6" name="afa57b7026eb6e127e388f149e349ccb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa57b7026eb6e127e388f149e349ccb6">&#9670;&#160;</a></span>WorldStateCondition</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d6/dd4/a10142.html">MapScript</a>&lt; <a class="el" href="../../d5/d47/a09526.html">InstanceMap</a> &gt;</td>
+          <td class="memname">enum <a class="el" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6">WorldStateCondition</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb" name="afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb"></a>WORLD_STATE_CONDITION_TROLLBANES_COMMAND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e" name="afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e"></a>WORLD_STATE_CONDITION_NAZGRELS_FAVOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f" name="afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f"></a>WORLD_STATE_CONDITION_THE_THUNDERCALLER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f" name="afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f"></a>WORLD_STATE_CONDITION_THE_IRON_EAGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff" name="afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff"></a>WORLD_STATE_CONDITION_THE_PURPLE_PRINCESS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb">WORLD_STATE_CONDITION_TROLLBANES_COMMAND</a>  = 39911,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e">WORLD_STATE_CONDITION_NAZGRELS_FAVOR</a>      = 39913,</div>
+<div class="line"><span class="lineno">   28</span>    <span class="comment">// Zeppelins</span></div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f">WORLD_STATE_CONDITION_THE_THUNDERCALLER</a>   = 164871,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f">WORLD_STATE_CONDITION_THE_IRON_EAGLE</a>      = 175080,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff">WORLD_STATE_CONDITION_THE_PURPLE_PRINCESS</a> = 176495,</div>
+<div class="line"><span class="lineno">   32</span>};</div>
+<div class="ttc" id="aa03311_html_afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f"><div class="ttname"><a href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a5d0ef449051867fa252bdaaecb6f7e1f">WORLD_STATE_CONDITION_THE_THUNDERCALLER</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_THE_THUNDERCALLER</div><div class="ttdef"><b>Definition:</b> WorldState.h:29</div></div>
+<div class="ttc" id="aa03311_html_afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f"><div class="ttname"><a href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6a9665ded148821c41501866620a5ba50f">WORLD_STATE_CONDITION_THE_IRON_EAGLE</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_THE_IRON_EAGLE</div><div class="ttdef"><b>Definition:</b> WorldState.h:30</div></div>
+<div class="ttc" id="aa03311_html_afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e"><div class="ttname"><a href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6ab8441229f6aecd4dc9dd1e3f3f835f8e">WORLD_STATE_CONDITION_NAZGRELS_FAVOR</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_NAZGRELS_FAVOR</div><div class="ttdef"><b>Definition:</b> WorldState.h:27</div></div>
+<div class="ttc" id="aa03311_html_afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff"><div class="ttname"><a href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af4db95d45b322084d64483ad02f862ff">WORLD_STATE_CONDITION_THE_PURPLE_PRINCESS</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_THE_PURPLE_PRINCESS</div><div class="ttdef"><b>Definition:</b> WorldState.h:31</div></div>
+<div class="ttc" id="aa03311_html_afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb"><div class="ttname"><a href="../../de/d19/a03311.html#afa57b7026eb6e127e388f149e349ccb6af5369c5be7548a1e9ec08b006e73feeb">WORLD_STATE_CONDITION_TROLLBANES_COMMAND</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_TROLLBANES_COMMAND</div><div class="ttdef"><b>Definition:</b> WorldState.h:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="aacb4fdedfc86aea6c855e3be41e0c6e1" name="aacb4fdedfc86aea6c855e3be41e0c6e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb4fdedfc86aea6c855e3be41e0c6e1">&#9670;&#160;</a></span>MapScript&lt; Map &gt;</h2>
+<a id="a4ecea2a2bb4e9623ef98bf8c32d546a4" name="a4ecea2a2bb4e9623ef98bf8c32d546a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ecea2a2bb4e9623ef98bf8c32d546a4">&#9670;&#160;</a></span>WorldStateConditionState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d6/dd4/a10142.html">MapScript</a>&lt; <a class="el" href="../../d7/d60/a09522.html">Map</a> &gt;</td>
+          <td class="memname">enum <a class="el" href="../../de/d19/a03311.html#a4ecea2a2bb4e9623ef98bf8c32d546a4">WorldStateConditionState</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de" name="a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de"></a>WORLD_STATE_CONDITION_STATE_NONE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de">WORLD_STATE_CONDITION_STATE_NONE</a> = 0,</div>
+<div class="line"><span class="lineno">   37</span>};</div>
+<div class="ttc" id="aa03311_html_a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de"><div class="ttname"><a href="../../de/d19/a03311.html#a4ecea2a2bb4e9623ef98bf8c32d546a4a0ecc6b01d71dceaffaf31c7620bea0de">WORLD_STATE_CONDITION_STATE_NONE</a></div><div class="ttdeci">@ WORLD_STATE_CONDITION_STATE_NONE</div><div class="ttdef"><b>Definition:</b> WorldState.h:36</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adc7b7b38a655f2354624ac5335163266" name="adc7b7b38a655f2354624ac5335163266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7b7b38a655f2354624ac5335163266">&#9670;&#160;</a></span>WorldStateEvent</h2>
 
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266">WorldStateEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8" name="adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8"></a>WORLD_STATE_CUSTOM_EVENT_ON_ADALS_SONG_OF_BATTLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e" name="adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e"></a>WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_SPAWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b" name="adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b"></a>WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8">WORLD_STATE_CUSTOM_EVENT_ON_ADALS_SONG_OF_BATTLE</a>     = 39953,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_SPAWN</a>   = 184640,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_DESPAWN</a> = 184641,</div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aa03311_html_adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b"><div class="ttname"><a href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266a4c5ce93e17daa3d8df5b892b3d76af2b">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_DESPAWN</a></div><div class="ttdeci">@ WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> WorldState.h:43</div></div>
+<div class="ttc" id="aa03311_html_adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8"><div class="ttname"><a href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266aa2c3350c135eec4653e10f9a416d4ae8">WORLD_STATE_CUSTOM_EVENT_ON_ADALS_SONG_OF_BATTLE</a></div><div class="ttdeci">@ WORLD_STATE_CUSTOM_EVENT_ON_ADALS_SONG_OF_BATTLE</div><div class="ttdef"><b>Definition:</b> WorldState.h:41</div></div>
+<div class="ttc" id="aa03311_html_adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e"><div class="ttname"><a href="../../de/d19/a03311.html#adc7b7b38a655f2354624ac5335163266ae87a6f363d942d1928ba2b052ab2f88e">WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_SPAWN</a></div><div class="ttdeci">@ WORLD_STATE_CUSTOM_EVENT_ON_MAGTHERIDON_HEAD_SPAWN</div><div class="ttdef"><b>Definition:</b> WorldState.h:42</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a882a758e503627632aa1d2a878086d91" name="a882a758e503627632aa1d2a878086d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a882a758e503627632aa1d2a878086d91">&#9670;&#160;</a></span>WorldStateSpells</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91">WorldStateSpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8" name="a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8"></a>SPELL_ADAL_SONG_OF_BATTLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d" name="a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d"></a>SPELL_TROLLBANES_COMMAND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60" name="a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60"></a>SPELL_NAZGRELS_FAVOR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8">SPELL_ADAL_SONG_OF_BATTLE</a>   = 39953,</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d">SPELL_TROLLBANES_COMMAND</a>    = 39911,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60">SPELL_NAZGRELS_FAVOR</a>        = 39913,</div>
+<div class="line"><span class="lineno">   67</span>};</div>
+<div class="ttc" id="aa03311_html_a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60"><div class="ttname"><a href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a02b7508a9e44658cb4bf28d1bb487d60">SPELL_NAZGRELS_FAVOR</a></div><div class="ttdeci">@ SPELL_NAZGRELS_FAVOR</div><div class="ttdef"><b>Definition:</b> WorldState.h:66</div></div>
+<div class="ttc" id="aa03311_html_a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d"><div class="ttname"><a href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91a73c7be494acfdbd7532eaf802ab4598d">SPELL_TROLLBANES_COMMAND</a></div><div class="ttdeci">@ SPELL_TROLLBANES_COMMAND</div><div class="ttdef"><b>Definition:</b> WorldState.h:65</div></div>
+<div class="ttc" id="aa03311_html_a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8"><div class="ttname"><a href="../../de/d19/a03311.html#a882a758e503627632aa1d2a878086d91aee000da68d862de5291b513ea52734f8">SPELL_ADAL_SONG_OF_BATTLE</a></div><div class="ttdeci">@ SPELL_ADAL_SONG_OF_BATTLE</div><div class="ttdef"><b>Definition:</b> WorldState.h:63</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a197cd5cc51b3b82a9de8c48b47bf71ad" name="a197cd5cc51b3b82a9de8c48b47bf71ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a197cd5cc51b3b82a9de8c48b47bf71ad">&#9670;&#160;</a></span>WorldStateZoneId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ad">WorldStateZoneId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8" name="a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8"></a>ZONEID_SHATTRATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3" name="a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3"></a>ZONEID_BOTANICA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21" name="a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21"></a>ZONEID_ARCATRAZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7" name="a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7"></a>ZONEID_MECHANAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26" name="a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26"></a>ZONEID_HELLFIRE_PENINSULA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f" name="a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f"></a>ZONEID_HELLFIRE_RAMPARTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158" name="a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158"></a>ZONEID_HELLFIRE_CITADEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4" name="a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4"></a>ZONEID_BLOOD_FURNACE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8" name="a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8"></a>ZONEID_SHATTERED_HALLS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19" name="a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19"></a>ZONEID_MAGTHERIDON_LAIR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8">ZONEID_SHATTRATH</a>    = 3703,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3">ZONEID_BOTANICA</a>     = 3847,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21">ZONEID_ARCATRAZ</a>     = 3848,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7">ZONEID_MECHANAR</a>     = 3849,</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26">ZONEID_HELLFIRE_PENINSULA</a>   = 3483,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f">ZONEID_HELLFIRE_RAMPARTS</a>    = 3562,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158">ZONEID_HELLFIRE_CITADEL</a>     = 3563,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4">ZONEID_BLOOD_FURNACE</a>        = 3713,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8">ZONEID_SHATTERED_HALLS</a>      = 3714,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19">ZONEID_MAGTHERIDON_LAIR</a>     = 3836,</div>
+<div class="line"><span class="lineno">   59</span>};</div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada01e9f07a5ed524b5d62ee36a3fbc66b8">ZONEID_SHATTRATH</a></div><div class="ttdeci">@ ZONEID_SHATTRATH</div><div class="ttdef"><b>Definition:</b> WorldState.h:48</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada33650e228e22c29316b54577070e7c9f">ZONEID_HELLFIRE_RAMPARTS</a></div><div class="ttdeci">@ ZONEID_HELLFIRE_RAMPARTS</div><div class="ttdef"><b>Definition:</b> WorldState.h:54</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4c0e9b67db472610b0e508b4074d56c3">ZONEID_BOTANICA</a></div><div class="ttdeci">@ ZONEID_BOTANICA</div><div class="ttdef"><b>Definition:</b> WorldState.h:49</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada4e9c94b3e7923f0c38a58de29b1a0b26">ZONEID_HELLFIRE_PENINSULA</a></div><div class="ttdeci">@ ZONEID_HELLFIRE_PENINSULA</div><div class="ttdef"><b>Definition:</b> WorldState.h:53</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada5262fcfc9a86c14b3f0bdb672e73fc19">ZONEID_MAGTHERIDON_LAIR</a></div><div class="ttdeci">@ ZONEID_MAGTHERIDON_LAIR</div><div class="ttdef"><b>Definition:</b> WorldState.h:58</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada6a46bd27a0d4bdb0f6c26535835d3eb4">ZONEID_BLOOD_FURNACE</a></div><div class="ttdeci">@ ZONEID_BLOOD_FURNACE</div><div class="ttdef"><b>Definition:</b> WorldState.h:56</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71ada9b930d2c1fc821a6829d2ed0490dd3c8">ZONEID_SHATTERED_HALLS</a></div><div class="ttdeci">@ ZONEID_SHATTERED_HALLS</div><div class="ttdef"><b>Definition:</b> WorldState.h:57</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab7c50fd72d746d6cd4c512c503677de7">ZONEID_MECHANAR</a></div><div class="ttdeci">@ ZONEID_MECHANAR</div><div class="ttdef"><b>Definition:</b> WorldState.h:51</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adab978fffc00c9d4a7284fe22aa3891158">ZONEID_HELLFIRE_CITADEL</a></div><div class="ttdeci">@ ZONEID_HELLFIRE_CITADEL</div><div class="ttdef"><b>Definition:</b> WorldState.h:55</div></div>
+<div class="ttc" id="aa03311_html_a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21"><div class="ttname"><a href="../../de/d19/a03311.html#a197cd5cc51b3b82a9de8c48b47bf71adae2ad7ebb4dd29458b1d88da599722d21">ZONEID_ARCATRAZ</a></div><div class="ttdeci">@ ZONEID_ARCATRAZ</div><div class="ttdef"><b>Definition:</b> WorldState.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -172,8 +366,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../de/d19/a03311.html">ScriptObject.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_6f2d0651f8bb60d9295230d3c0a9398e.html">World</a></li><li class="navelem"><a class="el" href="../../de/d19/a03311.html">WorldState.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

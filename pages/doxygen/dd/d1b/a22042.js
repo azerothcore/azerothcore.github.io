@@ -1,5 +1,6 @@
 var a22042 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "dd/d1b/a22042.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "dd/d1b/a22042.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "CheckCast", "dd/d1b/a22042.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
+    [ "PrepareSpellScript", "dd/d1b/a22042.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
+    [ "Register", "dd/d1b/a22042.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
 ];

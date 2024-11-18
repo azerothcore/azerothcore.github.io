@@ -1,9 +1,6 @@
 var a12734 =
 [
-    [ "npc_risen_guardianAI", "d6/d04/a12734.html#a50eb3de52205fc1bbc6936f0708c68a6", null ],
-    [ "IsSummonedBy", "d6/d04/a12734.html#ad9f45b9007c1ff74d0f725fbf7f00abe", null ],
-    [ "KilledUnit", "d6/d04/a12734.html#abc7afaa685a436b34ff76edcc6c25e54", null ],
-    [ "Gandling", "d6/d04/a12734.html#a93013b905260aa51341b22d1627cc986", null ],
-    [ "instance", "d6/d04/a12734.html#a96f1835989f646c708b8ef0cc9999e63", null ],
-    [ "room", "d6/d04/a12734.html#a5862a184b6daa92da133cc6c360a993d", null ]
+    [ "npc_fairbanksAI", "de/d6c/a12738.html", "de/d6c/a12738" ],
+    [ "npc_fairbanks", "d6/d04/a12734.html#a7f4740bb99ce2ccc059bcb5b02057082", null ],
+    [ "GetAI", "d6/d04/a12734.html#a58f4c8c8ca0a2d9696bf443aeeb00f95", null ]
 ];

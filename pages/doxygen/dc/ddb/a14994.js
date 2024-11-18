@@ -1,13 +1,6 @@
 var a14994 =
 [
-    [ "npc_tharnarianAI", "dc/ddb/a14994.html#a8e22d45f6420aa8079f8fb7150a2a53a", null ],
-    [ "Initialize", "dc/ddb/a14994.html#ad1d89491b42a56406273a04045e7e91d", null ],
-    [ "Reset", "dc/ddb/a14994.html#a7de1f46bee4e79effc5dbb405854a7da", null ],
-    [ "SetGUID", "dc/ddb/a14994.html#a7ac84aac946afc312d8ce27f04127dfd", null ],
-    [ "sGossipSelect", "dc/ddb/a14994.html#a33b5898def48e17ba27363b98f51849b", null ],
-    [ "UpdateAI", "dc/ddb/a14994.html#a1e58a89064bdfb69e4445db72184d8b3", null ],
-    [ "_bearGUID", "dc/ddb/a14994.html#af7a116b8226ddb51e9f0f118f2d8fa22", null ],
-    [ "_events", "dc/ddb/a14994.html#aff73052a4b7407d760af3dde09fa8a07", null ],
-    [ "_facing", "dc/ddb/a14994.html#ad2120fffc0ffa93d4fca1e9e8c0a4371", null ],
-    [ "_scriptRunning", "dc/ddb/a14994.html#a5be50b02cc8ce2e7b4dd334e923a7c10", null ]
+    [ "npc_rabid_thistle_bearAI", "dc/d77/a14998.html", "dc/d77/a14998" ],
+    [ "npc_rabid_thistle_bear", "dc/ddb/a14994.html#a34b20a4ea22d74352712dee105247d56", null ],
+    [ "GetAI", "dc/ddb/a14994.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
 ];

@@ -1,12 +1,10 @@
 var a22594 =
 [
-    [ "boss_shade_of_akama", "d9/d4a/a22594.html#a385bf995d19652254d6ae8a447c23c37", null ],
-    [ "EnterEvadeMode", "d9/d4a/a22594.html#a690f8058fb4358b98960177d76864275", null ],
-    [ "JustDied", "d9/d4a/a22594.html#aa22052befeb48c0c7ec3a3cedd91daff", null ],
-    [ "MovementInform", "d9/d4a/a22594.html#a345707efebd5027c01a25a563d1e6f43", null ],
-    [ "Reset", "d9/d4a/a22594.html#a19a1aca1a599704612ac845001895b4f", null ],
-    [ "SpellHit", "d9/d4a/a22594.html#a5a49f0dab7ce6ee81b9ed8deb5704720", null ],
-    [ "UpdateAI", "d9/d4a/a22594.html#a25ffed5526b1f25eb1cf790745e2a7c7", null ],
-    [ "channelers", "d9/d4a/a22594.html#a63372527172d3f96f533b5776221c2e7", null ],
-    [ "generators", "d9/d4a/a22594.html#a3ebaa870a9c3c9b5a0590b8cdc32d857", null ]
+    [ "CalculateAmount", "d9/d4a/a22594.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
+    [ "CheckProc", "d9/d4a/a22594.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
+    [ "HandleProc", "d9/d4a/a22594.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
+    [ "PrepareAuraScript", "d9/d4a/a22594.html#a6e066884663276dbba82e46ca5f66e59", null ],
+    [ "Register", "d9/d4a/a22594.html#ac4154f0746e77229e8d349021d5b9c30", null ],
+    [ "Update", "d9/d4a/a22594.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
+    [ "Validate", "d9/d4a/a22594.html#a4f10d23f63c47b408b70373623b877a8", null ]
 ];

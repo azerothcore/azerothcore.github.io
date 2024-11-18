@@ -1,6 +1,6 @@
 var a19142 =
 [
-    [ "boss_volkhanAI", "df/db6/a19146.html", "df/db6/a19146" ],
-    [ "boss_volkhan", "df/d33/a19142.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
-    [ "GetAI", "df/d33/a19142.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
+    [ "boss_lokenAI", "df/db6/a19146.html", "df/db6/a19146" ],
+    [ "boss_loken", "df/d33/a19142.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
+    [ "GetAI", "df/d33/a19142.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
 ];

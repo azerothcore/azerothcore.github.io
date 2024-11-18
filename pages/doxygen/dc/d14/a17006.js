@@ -1,6 +1,6 @@
 var a17006 =
 [
-    [ "boss_deathbringer_saurfangAI", "d0/d7c/a17010.html", "d0/d7c/a17010" ],
-    [ "boss_deathbringer_saurfang", "dc/d14/a17006.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "dc/d14/a17006.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "FilterTargets", "dc/d14/a17006.html#a59255a2cee0f9d8a75ca183647851779", null ],
+    [ "PrepareSpellScript", "dc/d14/a17006.html#af8d1cc9c709aeb3a68d1f452bb605c71", null ],
+    [ "Register", "dc/d14/a17006.html#a6b6dbeaa8feb8eac4441a87cdf371a36", null ]
 ];

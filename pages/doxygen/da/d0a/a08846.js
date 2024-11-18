@@ -1,9 +1,10 @@
 var a08846 =
 [
-    [ "VisibleChangesNotifier", "da/d0a/a08846.html#aacb0239ed44c9705eeeebf5ab198f7e0", null ],
-    [ "Visit", "da/d0a/a08846.html#abfc60c91aaa823cb99cdfc17a287e23e", null ],
-    [ "Visit", "da/d0a/a08846.html#aaf1dab341f34f75e56da63370af0ecd3", null ],
-    [ "Visit", "da/d0a/a08846.html#a103a8ef30ce4c0753913b6ecb6cf4e92", null ],
-    [ "Visit", "da/d0a/a08846.html#a6e856249a08d0a90b9d19f2449f30fba", null ],
-    [ "i_object", "da/d0a/a08846.html#a496b982d081957cfc288f29b99b8739d", null ]
+    [ "iterator", "da/d0a/a08846.html#a6bf9d06cfe6cb2e7df465ebf2acc099f", null ],
+    [ "begin", "da/d0a/a08846.html#a1e4e67ba11ac8da077942a6581647bf3", null ],
+    [ "end", "da/d0a/a08846.html#a266acb421cfc6ccc56dc2acff3202971", null ],
+    [ "getFirst", "da/d0a/a08846.html#aa0156c2ad3ec5ca0df6f6a4c55d71a05", null ],
+    [ "getLast", "da/d0a/a08846.html#a46a36813eaf752815a3f8c739db88a5d", null ],
+    [ "rbegin", "da/d0a/a08846.html#ae69734978b5eec009a696861b7b7152b", null ],
+    [ "rend", "da/d0a/a08846.html#a3f7b88b333f1da3a6ffdfc8ec31d8f52", null ]
 ];

@@ -1,5 +1,7 @@
 var a03878 =
 [
-    [ "Module_0DBBF209A27B1E279A9FEC5C168A15F7_Data", "d0/d60/a03878.html#a650e9d2ed03f4896b697097e2116298e", null ],
-    [ "Module_0DBBF209A27B1E279A9FEC5C168A15F7_Key", "d0/d60/a03878.html#aba4af9417ad91ebf078cf0ff83ecf503", null ]
+    [ "C_Evaluate", "d0/d60/a03878.html#a409e47c24c7802840315c6e4c75725cc", null ],
+    [ "C_Evaluate_Derivative", "d0/d60/a03878.html#a318f60ef13751f5cf60cdb79cf353faa", null ],
+    [ "s_Bezier3Coeffs", "d0/d60/a03878.html#a508e01047096fea2dbd9e0fedf6d75cb", null ],
+    [ "s_catmullRomCoeffs", "d0/d60/a03878.html#aff10e913762216c0735a8a3530ee25d2", null ]
 ];

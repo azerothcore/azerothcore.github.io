@@ -1,6 +1,7 @@
 var a11990 =
 [
-    [ "boss_razorgoreAI", "dd/d2f/a11994.html", "dd/d2f/a11994" ],
-    [ "boss_razorgore", "df/dc0/a11990.html#aee534a04797c5938e6da00f2ab119943", null ],
-    [ "GetAI", "df/dc0/a11990.html#a4683a5deefdb9d3219638189e9a99c2a", null ]
+    [ "HandlePeriodic", "df/dc0/a11990.html#ac2196cc9de34e286581d44d147fe9d04", null ],
+    [ "PrepareAuraScript", "df/dc0/a11990.html#a149c974371f23268d2d929b483637b14", null ],
+    [ "Register", "df/dc0/a11990.html#a6a2f42867a7082d2b8406c651d5dc484", null ],
+    [ "Validate", "df/dc0/a11990.html#ab77b8a7dca3dc9bbd20cdb498d1d317e", null ]
 ];

@@ -1,10 +1,7 @@
 var a09086 =
 [
-    [ "AnyPlayerInObjectRangeCheck", "d7/d5c/a09086.html#ae636bd72045687920ec1d460508bc74b", null ],
-    [ "operator()", "d7/d5c/a09086.html#ac1eda8f85259230fb382a3b6e58b6798", null ],
-    [ "operator()", "d7/d5c/a09086.html#a70c477213c8b271d3402857edd87ef8b", null ],
-    [ "_disallowGM", "d7/d5c/a09086.html#a9c43efd575de2edfdaa0b84def91c727", null ],
-    [ "_obj", "d7/d5c/a09086.html#a07a346225f675433792d2298673acd1f", null ],
-    [ "_range", "d7/d5c/a09086.html#ae372500b3a21cb65a11045dcc6f094a8", null ],
-    [ "_reqAlive", "d7/d5c/a09086.html#af1e397c5033711e65d9ac5b35311e893", null ]
+    [ "NearestVisibleDetectableContestedGuardUnitCheck", "d7/d5c/a09086.html#a470ab1e22a90a00752717d76b45a7aab", null ],
+    [ "NearestVisibleDetectableContestedGuardUnitCheck", "d7/d5c/a09086.html#a042697dbc7622f5ff96bd1ade1afe5eb", null ],
+    [ "operator()", "d7/d5c/a09086.html#a031abed7dd2e5523991bf72d47e8e050", null ],
+    [ "me", "d7/d5c/a09086.html#a6cb490747146e1861006654deea366eb", null ]
 ];

@@ -1,8 +1,12 @@
 var a11098 =
 [
-    [ "CreatureTextId", "dc/da6/a11098.html#ae8058e922bafc69b718ca4be1be39688", null ],
-    [ "operator<", "dc/da6/a11098.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
-    [ "entry", "dc/da6/a11098.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
-    [ "textGroup", "dc/da6/a11098.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
-    [ "textId", "dc/da6/a11098.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
+    [ "CreatureTextBuilder", "dc/da6/a11098.html#a582eed3ab284675e72261a1db9808925", null ],
+    [ "operator()", "dc/da6/a11098.html#a851cc84cc7faebfffe3267ecb0d3b3fb", null ],
+    [ "_gender", "dc/da6/a11098.html#a615c3046f749bf44b036958fb1a50128", null ],
+    [ "_language", "dc/da6/a11098.html#ac6e3bea125cd2b44a56f899c4aa35e1b", null ],
+    [ "_msgType", "dc/da6/a11098.html#ac4b4f75821f4ff5855cafca91523cbca", null ],
+    [ "_source", "dc/da6/a11098.html#ab87c45c49aa07b4434e42b6d7948e8b3", null ],
+    [ "_target", "dc/da6/a11098.html#a5a5fd218c7162ba634455e0db6ee35a1", null ],
+    [ "_textGroup", "dc/da6/a11098.html#afcd842c1482980c6232f3f19d21a1481", null ],
+    [ "_textId", "dc/da6/a11098.html#a3f40b8dd1da052a372afbbc5f06700ac", null ]
 ];

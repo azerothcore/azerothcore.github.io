@@ -1,12 +1,12 @@
 var a11206 =
 [
-    [ "WardenMac", "da/d23/a11206.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "da/d23/a11206.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "da/d23/a11206.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "da/d23/a11206.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "da/d23/a11206.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "da/d23/a11206.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "da/d23/a11206.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "da/d23/a11206.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "da/d23/a11206.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "Action", "da/d23/a11206.html#a0aba96ac9e7af155a1d9bdf120afae25", null ],
+    [ "Address", "da/d23/a11206.html#aaae2d4fd576f3eeb40c1413d54802345", null ],
+    [ "CheckId", "da/d23/a11206.html#a51a0cea0381f2b64e9d240ac39591172", null ],
+    [ "Comment", "da/d23/a11206.html#a6abdb409f49751b2f6aa8df88c349ba2", null ],
+    [ "Data", "da/d23/a11206.html#a962795028d40645fe67e4290ea64b10b", null ],
+    [ "IdStr", "da/d23/a11206.html#a15ecbc1a6582666a14423fa157d2fb84", null ],
+    [ "Length", "da/d23/a11206.html#abe0249d9550042e696eb74edf06aaec8", null ],
+    [ "Str", "da/d23/a11206.html#a1fc1eba87b344d4681498aafcaa496cb", null ],
+    [ "Type", "da/d23/a11206.html#aca31cdb700dca4801dfa514812639c70", null ]
 ];

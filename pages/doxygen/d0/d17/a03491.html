@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Misc/BanMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/Position.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,85 +107,262 @@ $(document).ready(function(){initNavTree('d0/d17/a03491.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">BanMgr.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Position.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;G3D/Vector3.h&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/a09602.html">BanMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a08218.html">Position</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/a08222.html">Position::PositionXYStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc8/a08226.html">Position::PositionXYZStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a08230.html">Position::PositionXYZOStreamer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/a08234.html">WorldLocation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7d5e9b6aab3c8157bcf25fa0f070bb17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a7d5e9b6aab3c8157bcf25fa0f070bb17">sBan</a>&#160;&#160;&#160;<a class="el" href="../../dd/d5f/a09602.html#aa495dfaab6af98c43f645acf516a5630">BanMgr::instance</a>()</td></tr>
-<tr class="separator:a7d5e9b6aab3c8157bcf25fa0f070bb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69a1d112a89b89894dafd5da53e7490"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#af69a1d112a89b89894dafd5da53e7490">MAPID_INVALID</a>&#160;&#160;&#160;0xFFFFFFFF</td></tr>
+<tr class="separator:af69a1d112a89b89894dafd5da53e7490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a4dd4670ead55e2780d09a66ab39943a7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7">BanReturn</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a>
-<br />
- }</td></tr>
-<tr class="memdesc:a4dd4670ead55e2780d09a66ab39943a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ban function return codes.  <a href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7">More...</a><br /></td></tr>
-<tr class="separator:a4dd4670ead55e2780d09a66ab39943a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a09519787a0405fc17b028180b2da4cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a09519787a0405fc17b028180b2da4cdd">operator&lt;&lt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d1/dea/a08222.html">Position::PositionXYStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a09519787a0405fc17b028180b2da4cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188cc2956d39298323a99c4aa5ceede6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a188cc2956d39298323a99c4aa5ceede6">operator&gt;&gt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d1/dea/a08222.html">Position::PositionXYStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a188cc2956d39298323a99c4aa5ceede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab63323f8a9ade40ddd90338538b5c9b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#ab63323f8a9ade40ddd90338538b5c9b5">operator&lt;&lt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d6/dc8/a08226.html">Position::PositionXYZStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:ab63323f8a9ade40ddd90338538b5c9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af223d782e9dcf0f80ed4009360aa0d80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#af223d782e9dcf0f80ed4009360aa0d80">operator&gt;&gt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d6/dc8/a08226.html">Position::PositionXYZStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:af223d782e9dcf0f80ed4009360aa0d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71323635f122d24189054da615cb39e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a71323635f122d24189054da615cb39e1">operator&lt;&lt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d3/d07/a08230.html">Position::PositionXYZOStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a71323635f122d24189054da615cb39e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e22c3226b5f361848aef2c75a6d3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/a03491.html#a72e22c3226b5f361848aef2c75a6d3fb">operator&gt;&gt;</a> (<a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d3/d07/a08230.html">Position::PositionXYZOStreamer</a> const &amp;streamer)</td></tr>
+<tr class="separator:a72e22c3226b5f361848aef2c75a6d3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a7d5e9b6aab3c8157bcf25fa0f070bb17" name="a7d5e9b6aab3c8157bcf25fa0f070bb17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d5e9b6aab3c8157bcf25fa0f070bb17">&#9670;&#160;</a></span>sBan</h2>
+<a id="af69a1d112a89b89894dafd5da53e7490" name="af69a1d112a89b89894dafd5da53e7490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af69a1d112a89b89894dafd5da53e7490">&#9670;&#160;</a></span>MAPID_INVALID</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sBan&#160;&#160;&#160;<a class="el" href="../../dd/d5f/a09602.html#aa495dfaab6af98c43f645acf516a5630">BanMgr::instance</a>()</td>
+          <td class="memname">#define MAPID_INVALID&#160;&#160;&#160;0xFFFFFFFF</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4dd4670ead55e2780d09a66ab39943a7" name="a4dd4670ead55e2780d09a66ab39943a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dd4670ead55e2780d09a66ab39943a7">&#9670;&#160;</a></span>BanReturn</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a09519787a0405fc17b028180b2da4cdd" name="a09519787a0405fc17b028180b2da4cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09519787a0405fc17b028180b2da4cdd">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7">BanReturn</a></td>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dea/a08222.html">Position::PositionXYStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Ban function return codes. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28" name="a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28"></a>BAN_SUCCESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8" name="a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8"></a>BAN_SYNTAX_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad" name="a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad"></a>BAN_NOTFOUND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c" name="a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c"></a>BAN_LONGER_EXISTS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a></div>
-<div class="line"><span class="lineno">   30</span>};</div>
-<div class="ttc" id="aa03491_html_a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8"><div class="ttname"><a href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a></div><div class="ttdeci">@ BAN_SYNTAX_ERROR</div><div class="ttdef"><b>Definition:</b> BanMgr.h:27</div></div>
-<div class="ttc" id="aa03491_html_a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad"><div class="ttname"><a href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a></div><div class="ttdeci">@ BAN_NOTFOUND</div><div class="ttdef"><b>Definition:</b> BanMgr.h:28</div></div>
-<div class="ttc" id="aa03491_html_a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28"><div class="ttname"><a href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a></div><div class="ttdeci">@ BAN_SUCCESS</div><div class="ttdef"><b>Definition:</b> BanMgr.h:26</div></div>
-<div class="ttc" id="aa03491_html_a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c"><div class="ttname"><a href="../../d0/d17/a03491.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a></div><div class="ttdeci">@ BAN_LONGER_EXISTS</div><div class="ttdef"><b>Definition:</b> BanMgr.h:29</div></div>
+</div>
+</div>
+<a id="a71323635f122d24189054da615cb39e1" name="a71323635f122d24189054da615cb39e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71323635f122d24189054da615cb39e1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d07/a08230.html">Position::PositionXYZOStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
+<div class="line"><span class="lineno">  207</span>    <span class="keywordtype">float</span> x, y, z, o;</div>
+<div class="line"><span class="lineno">  208</span>    streamer.m_pos-&gt;GetPosition(x, y, z, o);</div>
+<div class="line"><span class="lineno">  209</span>    buf &lt;&lt; x &lt;&lt; y &lt;&lt; z &lt;&lt; o;</div>
+<div class="line"><span class="lineno">  210</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  211</span>}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">Position::GetPosition()</a>, and <a class="el" href="../../#l00052">Position::PositionXYZOStreamer::m_pos</a>.</p>
+
+</div>
+</div>
+<a id="ab63323f8a9ade40ddd90338538b5c9b5" name="ab63323f8a9ade40ddd90338538b5c9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab63323f8a9ade40ddd90338538b5c9b5">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/dc8/a08226.html">Position::PositionXYZStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
+<div class="line"><span class="lineno">  191</span>    <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  192</span>    streamer.m_pos-&gt;GetPosition(x, y, z);</div>
+<div class="line"><span class="lineno">  193</span>    buf &lt;&lt; x &lt;&lt; y &lt;&lt; z;</div>
+<div class="line"><span class="lineno">  194</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  195</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">Position::GetPosition()</a>, and <a class="el" href="../../#l00046">Position::PositionXYZStreamer::m_pos</a>.</p>
+
+</div>
+</div>
+<a id="a188cc2956d39298323a99c4aa5ceede6" name="a188cc2956d39298323a99c4aa5ceede6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188cc2956d39298323a99c4aa5ceede6">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dea/a08222.html">Position::PositionXYStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72e22c3226b5f361848aef2c75a6d3fb" name="a72e22c3226b5f361848aef2c75a6d3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e22c3226b5f361848aef2c75a6d3fb">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d07/a08230.html">Position::PositionXYZOStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  182</span>{</div>
+<div class="line"><span class="lineno">  183</span>    <span class="keywordtype">float</span> x, y, z, o;</div>
+<div class="line"><span class="lineno">  184</span>    buf &gt;&gt; x &gt;&gt; y &gt;&gt; z &gt;&gt; o;</div>
+<div class="line"><span class="lineno">  185</span>    streamer.m_pos-&gt;Relocate(x, y, z, o);</div>
+<div class="line"><span class="lineno">  186</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  187</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">Position::PositionXYZOStreamer::m_pos</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
+
+</div>
+</div>
+<a id="af223d782e9dcf0f80ed4009360aa0d80" name="af223d782e9dcf0f80ed4009360aa0d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af223d782e9dcf0f80ed4009360aa0d80">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/dc8/a08226.html">Position::PositionXYZStreamer</a> const &amp;&#160;</td>
+          <td class="paramname"><em>streamer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  198</span>{</div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  200</span>    buf &gt;&gt; x &gt;&gt; y &gt;&gt; z;</div>
+<div class="line"><span class="lineno">  201</span>    streamer.m_pos-&gt;Relocate(x, y, z);</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  203</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00046">Position::PositionXYZStreamer::m_pos</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -193,8 +370,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_73d54540a2ac2e818b8b1d8263043ad5.html">Misc</a></li><li class="navelem"><a class="el" href="../../d0/d17/a03491.html">BanMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d0/d17/a03491.html">Position.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

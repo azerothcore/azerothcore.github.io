@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/action_ip_logger.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_lfg.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,148 +106,107 @@ $(document).ready(function(){initNavTree('dc/d25/a01406.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">action_ip_logger.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">cs_lfg.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AccountScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Channel.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PlayerScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a26674.html">AccountActionIpLogger</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/a11390.html">lfg_commandscript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de5/a26678.html">CharacterActionIpLogger</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5c/a26682.html">CharacterDeleteActionIpLogger</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a3b67d8dbf539fa5519b3e33da9d0137b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137b">IPLoggingTypes</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8">ACCOUNT_LOGIN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f">ACCOUNT_FAIL_LOGIN</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059">ACCOUNT_CHANGE_PW</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53">ACCOUNT_CHANGE_PW_FAIL</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c">ACCOUNT_CHANGE_EMAIL</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30">ACCOUNT_CHANGE_EMAIL_FAIL</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85">CHARACTER_CREATE</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363">CHARACTER_LOGIN</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607">CHARACTER_LOGOUT</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162">CHARACTER_DELETE</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7">CHARACTER_FAILED_DELETE</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8">UNKNOWN_ACTION</a> = 12
-<br />
- }</td></tr>
-<tr class="separator:a3b67d8dbf539fa5519b3e33da9d0137b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a530be5efb251d5ca58e97804e48ad953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d25/a01406.html#a530be5efb251d5ca58e97804e48ad953">AddSC_action_ip_logger</a> ()</td></tr>
-<tr class="separator:a530be5efb251d5ca58e97804e48ad953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2591add059e8c4daf04b9f706da765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d25/a01406.html#a1d2591add059e8c4daf04b9f706da765">GetPlayerInfo</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> *handler, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *player)</td></tr>
+<tr class="separator:a1d2591add059e8c4daf04b9f706da765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484938015a7f5ffa8f5b1d0e259d355b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d25/a01406.html#a484938015a7f5ffa8f5b1d0e259d355b">AddSC_lfg_commandscript</a> ()</td></tr>
+<tr class="separator:a484938015a7f5ffa8f5b1d0e259d355b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a3b67d8dbf539fa5519b3e33da9d0137b" name="a3b67d8dbf539fa5519b3e33da9d0137b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b67d8dbf539fa5519b3e33da9d0137b">&#9670;&#160;</a></span>IPLoggingTypes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137b">IPLoggingTypes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8" name="a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8"></a>ACCOUNT_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f" name="a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f"></a>ACCOUNT_FAIL_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059" name="a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059"></a>ACCOUNT_CHANGE_PW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53" name="a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53"></a>ACCOUNT_CHANGE_PW_FAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c" name="a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c"></a>ACCOUNT_CHANGE_EMAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30" name="a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30"></a>ACCOUNT_CHANGE_EMAIL_FAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85" name="a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85"></a>CHARACTER_CREATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363" name="a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363"></a>CHARACTER_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607" name="a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607"></a>CHARACTER_LOGOUT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162" name="a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162"></a>CHARACTER_DELETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7" name="a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7"></a>CHARACTER_FAILED_DELETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8" name="a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8"></a>UNKNOWN_ACTION&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <span class="comment">// AccountActionIpLogger();</span></div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8">ACCOUNT_LOGIN</a> = 0,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f">ACCOUNT_FAIL_LOGIN</a> = 1,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059">ACCOUNT_CHANGE_PW</a> = 2,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53">ACCOUNT_CHANGE_PW_FAIL</a> = 3, <span class="comment">// Only two types of account changes exist...</span></div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c">ACCOUNT_CHANGE_EMAIL</a> = 4,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30">ACCOUNT_CHANGE_EMAIL_FAIL</a> = 5, <span class="comment">// ...so we log them individually</span></div>
-<div class="line"><span class="lineno">   33</span>    <span class="comment">// OBSOLETE - ACCOUNT_LOGOUT = 6, /* Can not be logged. We still keep the type however */</span></div>
-<div class="line"><span class="lineno">   34</span>    <span class="comment">// CharacterActionIpLogger();</span></div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85">CHARACTER_CREATE</a> = 7,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363">CHARACTER_LOGIN</a> = 8,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607">CHARACTER_LOGOUT</a> = 9,</div>
-<div class="line"><span class="lineno">   38</span>    <span class="comment">// CharacterDeleteActionIpLogger();</span></div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162">CHARACTER_DELETE</a> = 10,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7">CHARACTER_FAILED_DELETE</a> = 11,</div>
-<div class="line"><span class="lineno">   41</span>    <span class="comment">// AccountActionIpLogger(), CharacterActionIpLogger(), CharacterActionIpLogger();</span></div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8">UNKNOWN_ACTION</a> = 12</div>
-<div class="line"><span class="lineno">   43</span>};</div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162">CHARACTER_DELETE</a></div><div class="ttdeci">@ CHARACTER_DELETE</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:39</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059">ACCOUNT_CHANGE_PW</a></div><div class="ttdeci">@ ACCOUNT_CHANGE_PW</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:29</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30">ACCOUNT_CHANGE_EMAIL_FAIL</a></div><div class="ttdeci">@ ACCOUNT_CHANGE_EMAIL_FAIL</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:32</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85">CHARACTER_CREATE</a></div><div class="ttdeci">@ CHARACTER_CREATE</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:35</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363">CHARACTER_LOGIN</a></div><div class="ttdeci">@ CHARACTER_LOGIN</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:36</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607">CHARACTER_LOGOUT</a></div><div class="ttdeci">@ CHARACTER_LOGOUT</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:37</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8">ACCOUNT_LOGIN</a></div><div class="ttdeci">@ ACCOUNT_LOGIN</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:27</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53">ACCOUNT_CHANGE_PW_FAIL</a></div><div class="ttdeci">@ ACCOUNT_CHANGE_PW_FAIL</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:30</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8">UNKNOWN_ACTION</a></div><div class="ttdeci">@ UNKNOWN_ACTION</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:42</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c">ACCOUNT_CHANGE_EMAIL</a></div><div class="ttdeci">@ ACCOUNT_CHANGE_EMAIL</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:31</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f">ACCOUNT_FAIL_LOGIN</a></div><div class="ttdeci">@ ACCOUNT_FAIL_LOGIN</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:28</div></div>
-<div class="ttc" id="aa01406_html_a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7"><div class="ttname"><a href="../../dc/d25/a01406.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7">CHARACTER_FAILED_DELETE</a></div><div class="ttdeci">@ CHARACTER_FAILED_DELETE</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:40</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a530be5efb251d5ca58e97804e48ad953" name="a530be5efb251d5ca58e97804e48ad953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530be5efb251d5ca58e97804e48ad953">&#9670;&#160;</a></span>AddSC_action_ip_logger()</h2>
+<a id="a484938015a7f5ffa8f5b1d0e259d355b" name="a484938015a7f5ffa8f5b1d0e259d355b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484938015a7f5ffa8f5b1d0e259d355b">&#9670;&#160;</a></span>AddSC_lfg_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_action_ip_logger </td>
+          <td class="memname">void AddSC_lfg_commandscript </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  333</span>{</div>
-<div class="line"><span class="lineno">  334</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d84/a26674.html">AccountActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  335</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/de5/a26678.html">CharacterActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  336</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d5c/a26682.html">CharacterDeleteActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  337</span>}</div>
-<div class="ttc" id="aa26674_html"><div class="ttname"><a href="../../d8/d84/a26674.html">AccountActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:46</div></div>
-<div class="ttc" id="aa26678_html"><div class="ttname"><a href="../../dd/de5/a26678.html">CharacterActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:169</div></div>
-<div class="ttc" id="aa26682_html"><div class="ttname"><a href="../../d0/d5c/a26682.html">CharacterDeleteActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:264</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
+<div class="line"><span class="lineno">  133</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d4f/a11390.html">lfg_commandscript</a>();</div>
+<div class="line"><span class="lineno">  134</span>}</div>
+<div class="ttc" id="aa11390_html"><div class="ttname"><a href="../../d9/d4f/a11390.html">lfg_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_lfg.cpp:42</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a1d2591add059e8c4daf04b9f706da765" name="a1d2591add059e8c4daf04b9f706da765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2591add059e8c4daf04b9f706da765">&#9670;&#160;</a></span>GetPlayerInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GetPlayerInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_class" href="../../db/d40/a08190.html">ObjectGuid</a> guid = player-&gt;<a class="code hl_function" href="../../df/d2d/a08142.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_typedef" href="../../dc/d6b/a04731.html#a7f47ec56c1412d2da0ff629b760e7f5f">lfg::LfgDungeonSet</a> dungeons = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetSelectedDungeons(guid);</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    std::string <span class="keyword">const</span>&amp; state = <a class="code hl_function" href="../../dc/d6b/a04731.html#a9d097d73fe8f096de2098ac74022b643">lfg::GetStateString</a>(<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(guid));</div>
+<div class="line"><span class="lineno">   34</span>    handler-&gt;<a class="code hl_function" href="../../da/d6c/a07286.html#a54305506d6194dfdd1c1a3f30c8d1d62">PSendSysMessage</a>(<a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa7c627f255c49c871cacb33f9a7ff70b1">LANG_LFG_PLAYER_INFO</a>, player-&gt;<a class="code hl_function" href="../../d3/d4c/a08174.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(),</div>
+<div class="line"><span class="lineno">   35</span>                             state, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(dungeons.size()), <a class="code hl_function" href="../../dc/d6b/a04731.html#aeaebe53b818ad905c96d2cc56c18b7ca">lfg::ConcatenateDungeons</a>(dungeons),</div>
+<div class="line"><span class="lineno">   36</span>                             <a class="code hl_function" href="../../dc/d6b/a04731.html#adc336ffd636b51b0052448739671d46b">lfg::GetRolesString</a>(<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetRoles(guid)), <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetComment(guid));</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa7c627f255c49c871cacb33f9a7ff70b1"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa7c627f255c49c871cacb33f9a7ff70b1">LANG_LFG_PLAYER_INFO</a></div><div class="ttdeci">@ LANG_LFG_PLAYER_INFO</div><div class="ttdef"><b>Definition:</b> Language.h:1174</div></div>
+<div class="ttc" id="aa03200_html_a9876016115774ddaf27fca5cc9adb96e"><div class="ttname"><a href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a></div><div class="ttdeci">#define sLFGMgr</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:641</div></div>
+<div class="ttc" id="aa04731_html_a7f47ec56c1412d2da0ff629b760e7f5f"><div class="ttname"><a href="../../dc/d6b/a04731.html#a7f47ec56c1412d2da0ff629b760e7f5f">lfg::LfgDungeonSet</a></div><div class="ttdeci">std::set&lt; uint32 &gt; LfgDungeonSet</div><div class="ttdef"><b>Definition:</b> LFG.h:106</div></div>
+<div class="ttc" id="aa04731_html_a9d097d73fe8f096de2098ac74022b643"><div class="ttname"><a href="../../dc/d6b/a04731.html#a9d097d73fe8f096de2098ac74022b643">lfg::GetStateString</a></div><div class="ttdeci">std::string GetStateString(LfgState state)</div><div class="ttdef"><b>Definition:</b> LFG.cpp:73</div></div>
+<div class="ttc" id="aa04731_html_adc336ffd636b51b0052448739671d46b"><div class="ttname"><a href="../../dc/d6b/a04731.html#adc336ffd636b51b0052448739671d46b">lfg::GetRolesString</a></div><div class="ttdeci">std::string GetRolesString(uint8 roles)</div><div class="ttdef"><b>Definition:</b> LFG.cpp:39</div></div>
+<div class="ttc" id="aa04731_html_aeaebe53b818ad905c96d2cc56c18b7ca"><div class="ttname"><a href="../../dc/d6b/a04731.html#aeaebe53b818ad905c96d2cc56c18b7ca">lfg::ConcatenateDungeons</a></div><div class="ttdeci">std::string ConcatenateDungeons(LfgDungeonSet const &amp;dungeons)</div><div class="ttdef"><b>Definition:</b> LFG.cpp:24</div></div>
+<div class="ttc" id="aa07286_html_a54305506d6194dfdd1c1a3f30c8d1d62"><div class="ttname"><a href="../../da/d6c/a07286.html#a54305506d6194dfdd1c1a3f30c8d1d62">ChatHandler::PSendSysMessage</a></div><div class="ttdeci">void PSendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:210</div></div>
+<div class="ttc" id="aa08142_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../df/d2d/a08142.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08174_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../d3/d4c/a08174.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:458</div></div>
+<div class="ttc" id="aa08190_html"><div class="ttname"><a href="../../db/d40/a08190.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:118</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00024">lfg::ConcatenateDungeons()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l00458">WorldObject::GetName()</a>, <a class="el" href="../../#l00039">lfg::GetRolesString()</a>, <a class="el" href="../../#l00073">lfg::GetStateString()</a>, <a class="el" href="../../#l01174">LANG_LFG_PLAYER_INFO</a>, <a class="el" href="../../#l00210">ChatHandler::PSendSysMessage()</a>, and <a class="el" href="../../#l00641">sLFGMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00080">lfg_commandscript::HandleLfgGroupInfoCommand()</a>, and <a class="el" href="../../#l00064">lfg_commandscript::HandleLfgPlayerInfoCommand()</a>.</p>
 
 </div>
 </div>
@@ -256,8 +215,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../dc/d25/a01406.html">action_ip_logger.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../dc/d25/a01406.html">cs_lfg.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,14 @@
 var a23726 =
 [
-    [ "npc_kurenai_captiveAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
-    [ "npc_kurenai_captive", "d0/d4f/a23726.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "d0/d4f/a23726.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "d0/d4f/a23726.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "npc_maghar_captiveAI", "d0/d4f/a23726.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
+    [ "JustDied", "d0/d4f/a23726.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
+    [ "JustEngagedWith", "d0/d4f/a23726.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
+    [ "JustSummoned", "d0/d4f/a23726.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
+    [ "Reset", "d0/d4f/a23726.html#abebcdcb102f8d338ae0b792708940cd7", null ],
+    [ "SpellHitTarget", "d0/d4f/a23726.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
+    [ "UpdateAI", "d0/d4f/a23726.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
+    [ "WaypointReached", "d0/d4f/a23726.html#abfbba8942df57e974ab24ad693c16e70", null ],
+    [ "ChainLightningTimer", "d0/d4f/a23726.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
+    [ "FrostShockTimer", "d0/d4f/a23726.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
+    [ "HealTimer", "d0/d4f/a23726.html#a31613adba706f3b5f948f2f7c4222038", null ]
 ];

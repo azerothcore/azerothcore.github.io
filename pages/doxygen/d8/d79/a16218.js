@@ -1,6 +1,6 @@
 var a16218 =
 [
-    [ "HandleEffectPeriodic", "d8/d79/a16218.html#a8775f4e2cb6be96f57596413d560206c", null ],
-    [ "PrepareAuraScript", "d8/d79/a16218.html#a45118f9887d248a5eb840b945dee5b79", null ],
-    [ "Register", "d8/d79/a16218.html#ad1b2b8e1dca62c31ec2b071ae4ca2f35", null ]
+    [ "npc_concentrated_ballAI", "d7/dfb/a16222.html", "d7/dfb/a16222" ],
+    [ "npc_concentrated_ball", "d8/d79/a16218.html#a1f3a873baf61157e704bcb7e524b1d46", null ],
+    [ "GetAI", "d8/d79/a16218.html#add43f8cb27a699ba732d62fedd9d2f02", null ]
 ];

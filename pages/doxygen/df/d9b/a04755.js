@@ -1,5 +1,5 @@
 var a04755 =
 [
-    [ "MODD", "dc/d71/a28354.html", "dc/d71/a28354" ],
-    [ "MODS", "dc/df0/a28350.html", "dc/df0/a28350" ]
+    [ "TotemCreated", "d8/d1e/a10630.html", "d8/d1e/a10630" ],
+    [ "TotemDestroyed", "da/da2/a10626.html", "da/da2/a10626" ]
 ];

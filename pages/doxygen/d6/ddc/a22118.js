@@ -1,6 +1,6 @@
 var a22118 =
 [
-    [ "npc_storm_cloudAI", "db/d17/a22122.html", "db/d17/a22122" ],
-    [ "npc_storm_cloud", "d6/ddc/a22118.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "d6/ddc/a22118.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "npc_crusade_recruitAI", "db/d17/a22122.html", "db/d17/a22122" ],
+    [ "npc_crusade_recruit", "d6/ddc/a22118.html#a6e130f153c506255ef5ece1baf006028", null ],
+    [ "GetAI", "d6/ddc/a22118.html#a412f0d153676758fda8c1f7f1e9dda44", null ]
 ];

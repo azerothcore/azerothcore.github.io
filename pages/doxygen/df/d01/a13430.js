@@ -1,12 +1,11 @@
 var a13430 =
 [
-    [ "npc_akilzon_eagleAI", "df/d01/a13430.html#a08d79db0d679e5ee40c919cde126a15a", null ],
-    [ "JustEngagedWith", "df/d01/a13430.html#a19c4cd8b2bfcf52157971486c8d24903", null ],
-    [ "MoveInLineOfSight", "df/d01/a13430.html#a248aff56059e889eb3fd6eb1d511bb68", null ],
-    [ "MovementInform", "df/d01/a13430.html#a5372643a5014f349fc2593e42d27988b", null ],
-    [ "Reset", "df/d01/a13430.html#a9fc9924deb5be8dbc33565480f045a7a", null ],
-    [ "UpdateAI", "df/d01/a13430.html#a29049f0d5acfd96d38e1143e8e9b1a06", null ],
-    [ "arrived", "df/d01/a13430.html#abec2cfde4f5bc6147339ce89b0d2ce45", null ],
-    [ "EagleSwoop_Timer", "df/d01/a13430.html#a34c016ca0fb5f01feb48302fdb76d891", null ],
-    [ "TargetGUID", "df/d01/a13430.html#a9fa61cffe2a605ec4a7953292da16e84", null ]
+    [ "npc_tapoke_slim_jahnAI", "df/d01/a13430.html#aeb2bca4d3233d8790b1ccfdd559f2e41", null ],
+    [ "AttackedBy", "df/d01/a13430.html#a25bf491c19fe0bb3116c6df46cb370e5", null ],
+    [ "DamageTaken", "df/d01/a13430.html#a3dbb7abb6559a6f853cc77423d7153e9", null ],
+    [ "JustEngagedWith", "df/d01/a13430.html#a544b8eaee365217a4a735ed39b4607b2", null ],
+    [ "JustSummoned", "df/d01/a13430.html#ae468305fbe930baf0a1547f2e6de9953", null ],
+    [ "Reset", "df/d01/a13430.html#a5aeaa5511584d1095639e7df584019c5", null ],
+    [ "WaypointReached", "df/d01/a13430.html#a886ba3133f77a93cfae9c4a7e9fb0609", null ],
+    [ "IsFriendSummoned", "df/d01/a13430.html#a1e4291187ff400e6f326ef4acbff41ee", null ]
 ];

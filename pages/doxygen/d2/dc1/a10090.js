@@ -1,7 +1,6 @@
 var a10090 =
 [
-    [ "SpellScriptLoader", "d2/dc1/a10090.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
-    [ "GetAuraScript", "d2/dc1/a10090.html#a9c60850e39ffe3d151a128b12777859d", null ],
-    [ "GetSpellScript", "d2/dc1/a10090.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
-    [ "IsDatabaseBound", "d2/dc1/a10090.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
+    [ "OutdoorPvPScript", "d2/dc1/a10090.html#ad7882db48419888c7968007e30c2f3f7", null ],
+    [ "GetOutdoorPvP", "d2/dc1/a10090.html#aa213974f384c88ab65f7b7308dadb026", null ],
+    [ "IsDatabaseBound", "d2/dc1/a10090.html#ac22c6a9945738270452848f997d2818f", null ]
 ];

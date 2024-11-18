@@ -1,7 +1,7 @@
 var a24990 =
 [
-    [ "OnRemove", "d7/d8d/a24990.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
-    [ "PrepareAuraScript", "d7/d8d/a24990.html#ac2b1a2311f97ab427439b45fb0770063", null ],
-    [ "Register", "d7/d8d/a24990.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
-    [ "Validate", "d7/d8d/a24990.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
+    [ "OnApply", "d7/d8d/a24990.html#a455a885611978a390cd4bfa76b05f82b", null ],
+    [ "PrepareAuraScript", "d7/d8d/a24990.html#ac8f269db5d77cf38bdfcbcfef75a62ff", null ],
+    [ "Register", "d7/d8d/a24990.html#a4b1a28052f11b47646dafbcd60b9dad8", null ],
+    [ "Validate", "d7/d8d/a24990.html#af1174bbbaab1d170a0dcd030d2f1e990", null ]
 ];

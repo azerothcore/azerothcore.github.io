@@ -1,6 +1,6 @@
 var a08774 =
 [
-    [ "Conditions", "d2/d46/a08774.html#a93edc2f0d71164b683c844b713befa85", null ],
-    [ "MenuID", "d2/d46/a08774.html#a732aa82f621c312745ddbd6fe2e3e906", null ],
-    [ "TextID", "d2/d46/a08774.html#a6ec8df5fcc5126bdee656ca08c0a5edc", null ]
+    [ "faction", "d2/d46/a08774.html#aaad6e04ef66264f040ddd91ae7f4e04b", null ],
+    [ "faction_rank", "d2/d46/a08774.html#a1ffb9cddf950edfb17e9779691b09f07", null ],
+    [ "faction_rate", "d2/d46/a08774.html#ab86cdfcd03a47f0c48e0661c5e9c8fd4", null ]
 ];

@@ -1,7 +1,8 @@
 var a05270 =
 [
-    [ "MetricStopWatch", "de/d4f/a05270.html#a2007207e0985949f478fdeee300ea0d5", null ],
-    [ "~MetricStopWatch", "de/d4f/a05270.html#a712b660e090531e69455096afeb60c4c", null ],
-    [ "_logger", "de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c", null ],
-    [ "_startTime", "de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2", null ]
+    [ "LogOperation", "de/d4f/a05270.html#a19e5e4731bd71697876110348f86d737", null ],
+    [ "~LogOperation", "de/d4f/a05270.html#aae305e293044badac1a628edd501ed35", null ],
+    [ "call", "de/d4f/a05270.html#a966a4bfb45430860fa5be56fe8b48f79", null ],
+    [ "logger", "de/d4f/a05270.html#af1d8611d116a3575e59a99e8cba5fc84", null ],
+    [ "msg", "de/d4f/a05270.html#a665effc48367f396f3e714f5d3d56d75", null ]
 ];

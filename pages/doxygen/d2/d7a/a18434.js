@@ -1,6 +1,5 @@
 var a18434 =
 [
-    [ "npc_icc_gauntlet_controllerAI", "de/d03/a18438.html", "de/d03/a18438" ],
-    [ "npc_icc_gauntlet_controller", "d2/d7a/a18434.html#a5fc4c941842e25bc3da93686e588627b", null ],
-    [ "GetAI", "d2/d7a/a18434.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
+    [ "npc_icc_buff_switcher", "d2/d7a/a18434.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
+    [ "OnGossipSelect", "d2/d7a/a18434.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
 ];

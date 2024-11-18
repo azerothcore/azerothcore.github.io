@@ -1,7 +1,6 @@
 var a18514 =
 [
-    [ "npc_ioc_gunship_captainAI", "de/d76/a18514.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
-    [ "DoAction", "de/d76/a18514.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
-    [ "UpdateAI", "de/d76/a18514.html#a222b304633143bba47d3edde67ea093b", null ],
-    [ "_events", "de/d76/a18514.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
+    [ "npc_four_car_garageAI", "df/d9f/a18518.html", "df/d9f/a18518" ],
+    [ "npc_four_car_garage", "de/d76/a18514.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
+    [ "GetAI", "de/d76/a18514.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
 ];

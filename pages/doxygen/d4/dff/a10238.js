@@ -1,10 +1,8 @@
 var a10238 =
 [
-    [ "EnvironmentalDamageLog", "d4/dff/a10238.html#ab4311f6516d9b7491abf5cb2ba9a0ee0", null ],
-    [ "Write", "d4/dff/a10238.html#af7d49b8d57100cf2c3048d5415a4edc7", null ],
-    [ "Absorbed", "d4/dff/a10238.html#a443df04be3afe2021532716140ffb099", null ],
-    [ "Amount", "d4/dff/a10238.html#a073e22176d44f5806313c2a4bd3e263a", null ],
-    [ "Resisted", "d4/dff/a10238.html#ad20a9730af3088d93ac56d89b6f66b12", null ],
-    [ "Type", "d4/dff/a10238.html#a51df177d9ce6a8459bc8fa41f80cdb7a", null ],
-    [ "Victim", "d4/dff/a10238.html#a020fffe9517d30e965a4d6f6602dd05f", null ]
+    [ "PlayedTime", "d4/dff/a10238.html#abc477d90a27dc41a7c643448302464cf", null ],
+    [ "Write", "d4/dff/a10238.html#a147071f2545cd91213d6c92dab7438c7", null ],
+    [ "LevelTime", "d4/dff/a10238.html#a2bf832827f9497a59bbfac714799b4b5", null ],
+    [ "TotalTime", "d4/dff/a10238.html#ae762fe00339a8f4ca6f9e14bb8515251", null ],
+    [ "TriggerScriptEvent", "d4/dff/a10238.html#a434b33c61ba5e2d91f084cbfe425c964", null ]
 ];

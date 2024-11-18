@@ -1,6 +1,5 @@
 var a13330 =
 [
-    [ "npc_parqual_fintallas", "dd/d99/a13330.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
-    [ "OnGossipHello", "dd/d99/a13330.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
-    [ "OnGossipSelect", "dd/d99/a13330.html#a39276ef82ec5214a1727ebd60235a506", null ]
+    [ "npc_tyrion", "dd/d99/a13330.html#a85b1abd4910729c17099174def6507b1", null ],
+    [ "OnQuestAccept", "dd/d99/a13330.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
 ];

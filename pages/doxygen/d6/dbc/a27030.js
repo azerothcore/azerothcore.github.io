@@ -1,5 +1,5 @@
 var a27030 =
 [
-    [ "item_disgusting_jar", "d6/dbc/a27030.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
-    [ "OnExpire", "d6/dbc/a27030.html#a4f6967035a4d247914a6034fcebac5c5", null ]
+    [ "item_only_for_flight", "d6/dbc/a27030.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
+    [ "OnUse", "d6/dbc/a27030.html#a88cdf17a85630aef703f93143ba41d4d", null ]
 ];

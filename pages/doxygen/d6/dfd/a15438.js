@@ -1,14 +1,12 @@
 var a15438 =
 [
-    [ "npc_taldaram_flamesphere", "d6/dfd/a15438.html#aad7d6696b54e39c6abd27a7252353360", null ],
-    [ "DoAction", "d6/dfd/a15438.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
-    [ "IsSummonedBy", "d6/dfd/a15438.html#acb232931bc181eedf4b39d5519dd45e2", null ],
-    [ "JustDied", "d6/dfd/a15438.html#ae6dfff3df39257c55495707934d5d38b", null ],
-    [ "MovementInform", "d6/dfd/a15438.html#a785c491b7144420cd4975e62c9a8a711", null ],
-    [ "SetVictimPos", "d6/dfd/a15438.html#a51f1683806095c760d4accff9e23f8b6", null ],
-    [ "UpdateAI", "d6/dfd/a15438.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
-    [ "instance", "d6/dfd/a15438.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
-    [ "moveTimer", "d6/dfd/a15438.html#afe50ac59ec441ab11745ca9461158a00", null ],
-    [ "uiDespawnTimer", "d6/dfd/a15438.html#a883b4c6429e8a8bf02878caa14e02537", null ],
-    [ "victimPos", "d6/dfd/a15438.html#ae681d84f2324faf22296dcb6e08484b0", null ]
+    [ "npc_twilight_volunteer", "d6/dfd/a15438.html#a3062041fcabf972e0a3d4753363c37b3", null ],
+    [ "AttackStart", "d6/dfd/a15438.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
+    [ "DoAction", "d6/dfd/a15438.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
+    [ "EnterEvadeMode", "d6/dfd/a15438.html#abd88e6fe0565babb92ccae17df0421d6", null ],
+    [ "MovementInform", "d6/dfd/a15438.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
+    [ "UpdateAI", "d6/dfd/a15438.html#a93288a45982b172c201e2442a4c91114", null ],
+    [ "events", "d6/dfd/a15438.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
+    [ "isSacraficeTarget", "d6/dfd/a15438.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
+    [ "pInstance", "d6/dfd/a15438.html#ad58453e078520fa23238a96115e5f38f", null ]
 ];

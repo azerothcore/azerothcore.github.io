@@ -1,8 +1,9 @@
 var a08462 =
 [
-    [ "CleanDamage", "d8/dea/a08462.html#ad25ab816a679e323c07873efbc1c2f20", null ],
-    [ "absorbed_damage", "d8/dea/a08462.html#a7ba8e32e564b43915889a23ecb9d5297", null ],
-    [ "attackType", "d8/dea/a08462.html#ad9b56ae5faabe67a8fdec8cd5a7988b1", null ],
-    [ "hitOutCome", "d8/dea/a08462.html#a040977b1579b62695b4cbcf0c2ffeaa8", null ],
-    [ "mitigated_damage", "d8/dea/a08462.html#a6aeffc94560ac510c0b89e4384a2f41a", null ]
+    [ "ProcTriggeredData", "d8/dea/a08462.html#a37c5cbfd0b916b950a0e638223394de4", null ],
+    [ "operator==", "d8/dea/a08462.html#a787760cbd8a6ee5192975bc514886159", null ],
+    [ "aura", "d8/dea/a08462.html#a5138144d49900690bb15a5f66b763eac", null ],
+    [ "effMask", "d8/dea/a08462.html#a1c2bfb3e0016ba823e12b3defe373790", null ],
+    [ "spellProcEvent", "d8/dea/a08462.html#ac6e491a7ef478d271d3c74d7b9df577e", null ],
+    [ "triggerSpelId", "d8/dea/a08462.html#abfd99a1e3beb871a3cbf83d7578ec98a", null ]
 ];

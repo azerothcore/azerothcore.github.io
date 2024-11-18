@@ -1,13 +1,10 @@
 var a11302 =
 [
-    [ "cheat_commandscript", "d2/da2/a11302.html#a7449cfba3578956a09b67e569e7e6083", null ],
-    [ "GetCommands", "d2/da2/a11302.html#a7cc6ca0c216a4ff497b60dc7622623fd", null ],
-    [ "HandleCasttimeCheatCommand", "d2/da2/a11302.html#a119ad06c5b8be235853bb13c7cff724b", null ],
-    [ "HandleCheatStatusCommand", "d2/da2/a11302.html#acdf487c7a96d1757d3254e3f17e728cb", null ],
-    [ "HandleCoolDownCheatCommand", "d2/da2/a11302.html#ab31a1cfe2567b0f597c689f44ab9fd6d", null ],
-    [ "HandleExploreCheatCommand", "d2/da2/a11302.html#a25ea712f2fb249e49f5f0b8244f743c5", null ],
-    [ "HandleGodModeCheatCommand", "d2/da2/a11302.html#ac398dbacf025830dc871bc77938d47d6", null ],
-    [ "HandlePowerCheatCommand", "d2/da2/a11302.html#ae406c5d444b10ba65b79f8ff9d949c24", null ],
-    [ "HandleTaxiCheatCommand", "d2/da2/a11302.html#ab9bd840c9622d173e710058eeb763388", null ],
-    [ "HandleWaterWalkCheatCommand", "d2/da2/a11302.html#a9162d89c049f14f29bc5ba257964df34", null ]
+    [ "bf_commandscript", "d2/da2/a11302.html#a806ca440ae1b51fffefee9d298dab3df", null ],
+    [ "GetCommands", "d2/da2/a11302.html#a97f0192d7ccd3532cfceaebff9f242be", null ],
+    [ "HandleBattlefieldEnable", "d2/da2/a11302.html#a08dd3bdd279c760fe0f126200a01619e", null ],
+    [ "HandleBattlefieldEnd", "d2/da2/a11302.html#af7100032ad26a66fbc9d9b37d1da98e1", null ],
+    [ "HandleBattlefieldStart", "d2/da2/a11302.html#a55102cc3b29a3ded0832ec82be1e3a5e", null ],
+    [ "HandleBattlefieldSwitch", "d2/da2/a11302.html#ac12cac377007d90b25b9797f2b2cc8de", null ],
+    [ "HandleBattlefieldTimer", "d2/da2/a11302.html#a7168b3db9435d70e2c5ca5eb41fc8ef2", null ]
 ];

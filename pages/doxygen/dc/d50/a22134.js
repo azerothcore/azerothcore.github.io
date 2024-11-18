@@ -1,13 +1,7 @@
 var a22134 =
 [
-    [ "OPvPCapturePointEP_NPT", "dc/d50/a22134.html#a2cb0929c3acb81530a0bd7ea57bcc298", null ],
-    [ "ChangeState", "dc/d50/a22134.html#a9e046ace6129ce67568ed7c15130b617", null ],
-    [ "FillInitialWorldStates", "dc/d50/a22134.html#a92ab3651e036895f664c33d79a6ec747", null ],
-    [ "HandlePlayerEnter", "dc/d50/a22134.html#ace643b7f7bc793934972c61c618045eb", null ],
-    [ "HandlePlayerLeave", "dc/d50/a22134.html#a950cd355c808f40ca95c0e5a46bac0a2", null ],
-    [ "SendChangePhase", "dc/d50/a22134.html#aef84a9917d5f40cfff48acb45ffdf0aa", null ],
-    [ "SummonGO", "dc/d50/a22134.html#a08a54abf3668074b5878c165bd2f8ddd", null ],
-    [ "UpdateTowerState", "dc/d50/a22134.html#ad8cfefcc567346273914e8039b039835", null ],
-    [ "m_SummonedGOSideId", "dc/d50/a22134.html#aa034240d169c9ab7276786bb188abc70", null ],
-    [ "m_TowerState", "dc/d50/a22134.html#a703b68024362d13ceaf9012202b72e7d", null ]
+    [ "npc_storm_cloudAI", "dc/d50/a22134.html#aa4dd9409cd74f3c2c878974715e43394", null ],
+    [ "JustRespawned", "dc/d50/a22134.html#ad0f99362f7ab506b322b6d75890881c1", null ],
+    [ "Reset", "dc/d50/a22134.html#a99654ac86502e3ac2f899082269ccb01", null ],
+    [ "SpellHit", "dc/d50/a22134.html#ac51313cec4d76216f3c716d988fc4857", null ]
 ];

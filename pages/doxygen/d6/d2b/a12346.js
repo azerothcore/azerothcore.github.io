@@ -1,9 +1,10 @@
 var a12346 =
 [
-    [ "FilterTargets", "d6/d2b/a12346.html#a88b91e40b330d39bd04a7873128fb858", null ],
-    [ "HandleFinish", "d6/d2b/a12346.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
-    [ "PrepareSpellScript", "d6/d2b/a12346.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
-    [ "Register", "d6/d2b/a12346.html#ab2008e585589cbf313170064d37c4aa9", null ],
-    [ "Validate", "d6/d2b/a12346.html#af4963be6c544a1706a6dc30dcbf18309", null ],
-    [ "_targets", "d6/d2b/a12346.html#a2f75199a90e52cff770f46bce76d5149", null ]
+    [ "npc_netherspite_infernal", "d6/d2b/a12346.html#af9837d7a671533523ce323c083c4e847", null ],
+    [ "DamageTaken", "d6/d2b/a12346.html#aee9b38f3590e08b16de1789576986a09", null ],
+    [ "JustEngagedWith", "d6/d2b/a12346.html#a76d8944ca2d9b2f1aa5b635ce94bacfb", null ],
+    [ "KilledUnit", "d6/d2b/a12346.html#a49c37fbebed2951c493962c1a3bd0339", null ],
+    [ "MoveInLineOfSight", "d6/d2b/a12346.html#a7ecce97cef0adda03910e87d9fd82f71", null ],
+    [ "SpellHit", "d6/d2b/a12346.html#abb6c7d0b5e231e460b069198b16106b7", null ],
+    [ "UpdateAI", "d6/d2b/a12346.html#a575040456c0eb4d343e7c0c5f75159b4", null ]
 ];

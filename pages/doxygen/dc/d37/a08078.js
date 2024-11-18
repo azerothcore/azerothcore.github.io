@@ -1,6 +1,5 @@
 var a08078 =
 [
-    [ "item_count", "dc/d37/a08078.html#a437fe00f34ad414e3c9f81d01a153d13", null ],
-    [ "setid", "dc/d37/a08078.html#ab8c24b76b1c0eb92c0fe52ca9baf293a", null ],
-    [ "spells", "dc/d37/a08078.html#af8156bad9771ed816fd861d3eb992aaa", null ]
+    [ "CastBarCaption", "dc/d37/a08078.html#ae78195bdc8edd6f4996c617e7a541e12", null ],
+    [ "Name", "dc/d37/a08078.html#a462917eda1e095c99054495abf70cd67", null ]
 ];

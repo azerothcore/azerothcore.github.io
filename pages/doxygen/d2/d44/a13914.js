@@ -1,5 +1,6 @@
 var a13914 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "d2/d44/a13914.html#a40207493c75d8a63284e08f1f75d56c4", null ],
-    [ "MoveInLineOfSight", "d2/d44/a13914.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
+    [ "npc_cw_area_triggerAI", "d2/d8d/a13918.html", "d2/d8d/a13918" ],
+    [ "npc_cw_area_trigger", "d2/d44/a13914.html#a11af64ac4ab078566bf8f68a36781939", null ],
+    [ "GetAI", "d2/d44/a13914.html#a66c55b2984bab71be89ad7b6b96e3784", null ]
 ];

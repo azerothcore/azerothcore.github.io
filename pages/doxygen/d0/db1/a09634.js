@@ -1,10 +1,6 @@
 var a09634 =
 [
-    [ "ChaseRange", "d0/db1/a09634.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
-    [ "ChaseRange", "d0/db1/a09634.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
-    [ "ChaseRange", "d0/db1/a09634.html#a397b3789449b1c178f11f64313498c4d", null ],
-    [ "MaxRange", "d0/db1/a09634.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
-    [ "MaxTolerance", "d0/db1/a09634.html#a7909b18028d43c84eca5feee3e41469c", null ],
-    [ "MinRange", "d0/db1/a09634.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
-    [ "MinTolerance", "d0/db1/a09634.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
+    [ "IsNeutralOrFriendlyToTeam", "d0/db1/a09634.html#aeeea8efaff8fe3f5044a7d5627a89cb6", null ],
+    [ "safeLocId", "d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad", null ],
+    [ "teamId", "d0/db1/a09634.html#a287b04900d70f8ff8c6f6542edbd40a6", null ]
 ];

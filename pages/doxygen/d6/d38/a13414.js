@@ -1,5 +1,5 @@
 var a13414 =
 [
-    [ "npc_mikhail", "d6/d38/a13414.html#ab63d49e91b0d4b6ca0f00ff0992f5bad", null ],
-    [ "OnQuestAccept", "d6/d38/a13414.html#a3e1d81aa9e610b73c3d856b355338d3b", null ]
+    [ "npc_andorhal_towerAI", "d6/d38/a13414.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
+    [ "MoveInLineOfSight", "d6/d38/a13414.html#a1165ee0e066dcaeb300096e55758389b", null ]
 ];

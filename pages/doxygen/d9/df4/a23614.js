@@ -1,7 +1,6 @@
 var a23614 =
 [
-    [ "OnPeriodic", "d9/df4/a23614.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
-    [ "PrepareAuraScript", "d9/df4/a23614.html#a6f7db06cc1ace68ee0076077773b1659", null ],
-    [ "Register", "d9/df4/a23614.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
-    [ "Validate", "d9/df4/a23614.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
+    [ "npc_deaths_fel_cannonAI", "da/d73/a23618.html", "da/d73/a23618" ],
+    [ "npc_deaths_fel_cannon", "d9/df4/a23614.html#a87ecaca75061928600b5114d3913dd26", null ],
+    [ "GetAI", "d9/df4/a23614.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
 ];

@@ -1,14 +1,11 @@
 var a11290 =
 [
-    [ "cast_commandscript", "de/dab/a11290.html#a9c657d2c5404149a45a2db748d23fc2f", null ],
-    [ "CheckSpellCastResult", "de/dab/a11290.html#a244b2d11a07fdcbb72f3207ab1e46ea5", null ],
-    [ "CheckSpellExistsAndIsValid", "de/dab/a11290.html#a14da4e4674b065c8e8f3d1946a037bda", null ],
-    [ "GetCommands", "de/dab/a11290.html#ab0890c036a8d301b382fdd1b6371f671", null ],
-    [ "GetTriggerFlags", "de/dab/a11290.html#a26e6986c45a99e6a94d7ba2d9a810aa3", null ],
-    [ "HandleCastBackCommand", "de/dab/a11290.html#a964a40278f609a5c5a0bae651484c726", null ],
-    [ "HandleCastCommand", "de/dab/a11290.html#ac28430cc0623209b891bacbb4845509b", null ],
-    [ "HandleCastDestCommand", "de/dab/a11290.html#a156ca81fba7155205dae106aa4c221d6", null ],
-    [ "HandleCastDistCommand", "de/dab/a11290.html#aabbcac8e85c6a64a647d71bb22bebede", null ],
-    [ "HandleCastSelfCommand", "de/dab/a11290.html#a69e88bb174c2518584a9ae622e2850bf", null ],
-    [ "HandleCastTargetCommad", "de/dab/a11290.html#aa72bd317a3498ef07007c1a9e81e2796", null ]
+    [ "arena_commandscript", "de/dab/a11290.html#ad433113f5a3cf7f2cb43ff4fd3f0d49d", null ],
+    [ "GetCommands", "de/dab/a11290.html#a3a5e95fca957fd1898d6a7acea98931e", null ],
+    [ "HandleArenaCaptainCommand", "de/dab/a11290.html#a7b7123c837bbecb1a4d3d2e8aa934d4c", null ],
+    [ "HandleArenaCreateCommand", "de/dab/a11290.html#a10eab39042cb718d839fbdf7236b1a31", null ],
+    [ "HandleArenaDisbandCommand", "de/dab/a11290.html#a012626d4c101a63d9a70c530c9e98354", null ],
+    [ "HandleArenaInfoCommand", "de/dab/a11290.html#a90fc70aae7b3e0fec179a0a1a7482c11", null ],
+    [ "HandleArenaLookupCommand", "de/dab/a11290.html#a7356c0a45dcf32809a32fe6053b94de0", null ],
+    [ "HandleArenaRenameCommand", "de/dab/a11290.html#a4095683ee7b5a2236dac8aa36a607d7c", null ]
 ];

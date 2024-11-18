@@ -1,7 +1,6 @@
 var a11614 =
 [
-    [ "boss_grizzleAI", "de/dff/a11614.html#a3310892cafc2a8e022105f77258b25af", null ],
-    [ "JustEngagedWith", "de/dff/a11614.html#a598e7e7d6bdd847bf01968116988a935", null ],
-    [ "UpdateAI", "de/dff/a11614.html#a2dc5c27cd4eaf2aa1484a370a68e3314", null ],
-    [ "nextTremorTime", "de/dff/a11614.html#aa392b5a5db08d8676614923ae4838d05", null ]
+    [ "boss_general_angerforgeAI", "d1/dfd/a11618.html", "d1/dfd/a11618" ],
+    [ "boss_general_angerforge", "de/dff/a11614.html#a00c94097831dc52d31505f312a04f562", null ],
+    [ "GetAI", "de/dff/a11614.html#ac3f3b26bf2c6745bb9ab23c7ff1484ae", null ]
 ];

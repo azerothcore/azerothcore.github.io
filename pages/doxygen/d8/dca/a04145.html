@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/Updates/UpdateFieldFlags.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Weather/WeatherMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,154 +105,71 @@ $(document).ready(function(){initNavTree('d8/dca/a04145.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">UpdateFieldFlags.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">WeatherMgr.cpp File Reference<div class="ingroups"><a class="el" href="../../d2/db6/a04681.html">The World</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">WeatherMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:db/dc8/a04760"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/a04760.html">WeatherMgr</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:db/d75/a04761"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afdd64650acc01e75684c5ae2b269d5c1"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, std::unique_ptr&lt; <a class="el" href="../../d1/d17/a11254.html">Weather</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html#afdd64650acc01e75684c5ae2b269d5c1">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}::WeatherMap</a></td></tr>
+<tr class="separator:afdd64650acc01e75684c5ae2b269d5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b1d830c50ce06ef7bb67f75cbd48b6"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d4d/a11250.html">WeatherData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html#a77b1d830c50ce06ef7bb67f75cbd48b6">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}::WeatherZoneMap</a></td></tr>
+<tr class="separator:a77b1d830c50ce06ef7bb67f75cbd48b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8d453fe2bfb19b170807fe92e393bc51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d4d/a11250.html">WeatherData</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html#a8d453fe2bfb19b170807fe92e393bc51">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}::GetWeatherData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone_id)</td></tr>
+<tr class="separator:a8d453fe2bfb19b170807fe92e393bc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd11deec2098fed61adf7910b8f09cc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d17/a11254.html">Weather</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#gadd11deec2098fed61adf7910b8f09cc6">WeatherMgr::FindWeather</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id)</td></tr>
+<tr class="memdesc:gadd11deec2098fed61adf7910b8f09cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a <a class="el" href="../../d1/d17/a11254.html" title="Weather for one zone.">Weather</a> object by the given zoneid.  <a href="../../d2/db6/a04681.html#gadd11deec2098fed61adf7910b8f09cc6">More...</a><br /></td></tr>
+<tr class="separator:gadd11deec2098fed61adf7910b8f09cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga296a3324a3a38984149fae3e5d62435f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga296a3324a3a38984149fae3e5d62435f">WeatherMgr::RemoveWeather</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id)</td></tr>
+<tr class="memdesc:ga296a3324a3a38984149fae3e5d62435f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a <a class="el" href="../../d1/d17/a11254.html" title="Weather for one zone.">Weather</a> object for the given zoneid.  <a href="../../d2/db6/a04681.html#ga296a3324a3a38984149fae3e5d62435f">More...</a><br /></td></tr>
+<tr class="separator:ga296a3324a3a38984149fae3e5d62435f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f76350b68494335d48ae206b87e190c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d17/a11254.html">Weather</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga1f76350b68494335d48ae206b87e190c">WeatherMgr::AddWeather</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone_id)</td></tr>
+<tr class="memdesc:ga1f76350b68494335d48ae206b87e190c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a <a class="el" href="../../d1/d17/a11254.html" title="Weather for one zone.">Weather</a> object to the list.  <a href="../../d2/db6/a04681.html#ga1f76350b68494335d48ae206b87e190c">More...</a><br /></td></tr>
+<tr class="separator:ga1f76350b68494335d48ae206b87e190c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c7d8a9fc5dfce0880220f4b5b8cd623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623">WeatherMgr::LoadWeatherData</a> ()</td></tr>
+<tr class="separator:ga6c7d8a9fc5dfce0880220f4b5b8cd623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac86b4e254146468a7412d8fc7b0c27f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#gac86b4e254146468a7412d8fc7b0c27f2">WeatherMgr::SendFineWeatherUpdateToPlayer</a> (<a class="el" href="../../d0/dc6/a08386.html">Player</a> *player)</td></tr>
+<tr class="separator:gac86b4e254146468a7412d8fc7b0c27f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45f0da6cf9e14a99380b4b9be2890801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga45f0da6cf9e14a99380b4b9be2890801">WeatherMgr::Update</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff)</td></tr>
+<tr class="separator:ga45f0da6cf9e14a99380b4b9be2890801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac1cca7ecf1650663132e3e220d771adf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04145.html#ac1cca7ecf1650663132e3e220d771adf">ItemUpdateFieldFlags</a> [<a class="el" href="../../dc/d9e/a04148.html#a2e55ed49514b6fd17b1ad512520530d6a5158b6530610a49af557fdd00c66118e">CONTAINER_END</a>]</td></tr>
-<tr class="separator:ac1cca7ecf1650663132e3e220d771adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310c5b2e3065e40ce04fe5ccd84fb51b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04145.html#a310c5b2e3065e40ce04fe5ccd84fb51b">UnitUpdateFieldFlags</a> [<a class="el" href="../../dc/d9e/a04148.html#a0e42dc606678c9df7884e1aad621e881ae545ba052a6fa30be07df12cfc0ecb23">PLAYER_END</a>]</td></tr>
-<tr class="separator:a310c5b2e3065e40ce04fe5ccd84fb51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee13b862f51557c371d3d93341128895"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04145.html#aee13b862f51557c371d3d93341128895">GameObjectUpdateFieldFlags</a> [<a class="el" href="../../dc/d9e/a04148.html#aee9d327a38d3cfe074ba81a44817491fa8594535ea562d7a6fba063e44cd1767c">GAMEOBJECT_END</a>]</td></tr>
-<tr class="separator:aee13b862f51557c371d3d93341128895"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe3be44e608ab4935e11ea44f8e0ce6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04145.html#aefe3be44e608ab4935e11ea44f8e0ce6">DynamicObjectUpdateFieldFlags</a> [<a class="el" href="../../dc/d9e/a04148.html#ae2cf7880bbc4b76e73c4928370c0b030aae9c28d0118d9d15b37c6190829a6abb">DYNAMICOBJECT_END</a>]</td></tr>
-<tr class="separator:aefe3be44e608ab4935e11ea44f8e0ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba9132e74378f888b4724dbbaf147f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04145.html#a4ba9132e74378f888b4724dbbaf147f3">CorpseUpdateFieldFlags</a> [<a class="el" href="../../dc/d9e/a04148.html#a071ca2160f6a51b052044dd7103bc253a352c2e6dbe66c7324c0333fbb2a745fb">CORPSE_END</a>]</td></tr>
-<tr class="separator:a4ba9132e74378f888b4724dbbaf147f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2bde7e8b2ecff6ab9b2705d01ce8b2c"><td class="memItemLeft" align="right" valign="top">WeatherMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html#ac2bde7e8b2ecff6ab9b2705d01ce8b2c">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}::m_weathers</a></td></tr>
+<tr class="separator:ac2bde7e8b2ecff6ab9b2705d01ce8b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977110fadc5eac5e2efa26106382d408"><td class="memItemLeft" align="right" valign="top">WeatherZoneMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a04761.html#a977110fadc5eac5e2efa26106382d408">WeatherMgr::anonymous_namespace{WeatherMgr.cpp}::mWeatherZoneMap</a></td></tr>
+<tr class="separator:a977110fadc5eac5e2efa26106382d408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a4ba9132e74378f888b4724dbbaf147f3" name="a4ba9132e74378f888b4724dbbaf147f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba9132e74378f888b4724dbbaf147f3">&#9670;&#160;</a></span>CorpseUpdateFieldFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CorpseUpdateFieldFlags[<a class="el" href="../../dc/d9e/a04148.html#a071ca2160f6a51b052044dd7103bc253a352c2e6dbe66c7324c0333fbb2a745fb">CORPSE_END</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00559">Object::GetUpdateFieldData()</a>.</p>
-
-</div>
-</div>
-<a id="aefe3be44e608ab4935e11ea44f8e0ce6" name="aefe3be44e608ab4935e11ea44f8e0ce6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe3be44e608ab4935e11ea44f8e0ce6">&#9670;&#160;</a></span>DynamicObjectUpdateFieldFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DynamicObjectUpdateFieldFlags[<a class="el" href="../../dc/d9e/a04148.html#ae2cf7880bbc4b76e73c4928370c0b030aae9c28d0118d9d15b37c6190829a6abb">DYNAMICOBJECT_END</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a7d1b4f7f2db6116940d9d5939501821a">UF_FLAG_NONE</a>,                                           </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">}</div>
-<div class="ttc" id="aa04139_html_a811fc272bf3df65a461d871556356150a7d1b4f7f2db6116940d9d5939501821a"><div class="ttname"><a href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a7d1b4f7f2db6116940d9d5939501821a">UF_FLAG_NONE</a></div><div class="ttdeci">@ UF_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> UpdateFieldFlags.h:26</div></div>
-<div class="ttc" id="aa04139_html_a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da"><div class="ttname"><a href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a></div><div class="ttdeci">@ UF_FLAG_PUBLIC</div><div class="ttdef"><b>Definition:</b> UpdateFieldFlags.h:27</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00559">Object::GetUpdateFieldData()</a>.</p>
-
-</div>
-</div>
-<a id="aee13b862f51557c371d3d93341128895" name="aee13b862f51557c371d3d93341128895"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee13b862f51557c371d3d93341128895">&#9670;&#160;</a></span>GameObjectUpdateFieldFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameObjectUpdateFieldFlags[<a class="el" href="../../dc/d9e/a04148.html#aee9d327a38d3cfe074ba81a44817491fa8594535ea562d7a6fba063e44cd1767c">GAMEOBJECT_END</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a7d1b4f7f2db6116940d9d5939501821a">UF_FLAG_NONE</a>,                                           </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a3b75563c8e1c2bfbe672d128cce4b1e5">UF_FLAG_DYNAMIC</a>,                                        </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">    <a class="code hl_enumvalue" href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150aa23748720df562a04ac4e80d7bd222da">UF_FLAG_PUBLIC</a>,                                         </div>
-<div class="line">}</div>
-<div class="ttc" id="aa04139_html_a811fc272bf3df65a461d871556356150a3b75563c8e1c2bfbe672d128cce4b1e5"><div class="ttname"><a href="../../d4/d3a/a04139.html#a811fc272bf3df65a461d871556356150a3b75563c8e1c2bfbe672d128cce4b1e5">UF_FLAG_DYNAMIC</a></div><div class="ttdeci">@ UF_FLAG_DYNAMIC</div><div class="ttdef"><b>Definition:</b> UpdateFieldFlags.h:35</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02740">GameObject::BuildValuesUpdate()</a>, and <a class="el" href="../../#l00559">Object::GetUpdateFieldData()</a>.</p>
-
-</div>
-</div>
-<a id="ac1cca7ecf1650663132e3e220d771adf" name="ac1cca7ecf1650663132e3e220d771adf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1cca7ecf1650663132e3e220d771adf">&#9670;&#160;</a></span>ItemUpdateFieldFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ItemUpdateFieldFlags[<a class="el" href="../../dc/d9e/a04148.html#a2e55ed49514b6fd17b1ad512520530d6a5158b6530610a49af557fdd00c66118e">CONTAINER_END</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00559">Object::GetUpdateFieldData()</a>.</p>
-
-</div>
-</div>
-<a id="a310c5b2e3065e40ce04fe5ccd84fb51b" name="a310c5b2e3065e40ce04fe5ccd84fb51b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a310c5b2e3065e40ce04fe5ccd84fb51b">&#9670;&#160;</a></span>UnitUpdateFieldFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UnitUpdateFieldFlags[<a class="el" href="../../dc/d9e/a04148.html#a0e42dc606678c9df7884e1aad621e881ae545ba052a6fa30be07df12cfc0ecb23">PLAYER_END</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l20706">Unit::BuildValuesUpdate()</a>, and <a class="el" href="../../#l00559">Object::GetUpdateFieldData()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../dir_bd6eb97edc7b31fb689fc59ea27199a0.html">Updates</a></li><li class="navelem"><a class="el" href="../../d8/dca/a04145.html">UpdateFieldFlags.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_adf5e23d7fbd2f278fda5650b14114ac.html">Weather</a></li><li class="navelem"><a class="el" href="../../d8/dca/a04145.html">WeatherMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

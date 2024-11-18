@@ -1,21 +1,10 @@
 var a03392 =
 [
-    [ "DefaultTargetSelector", "d4/d80/a06030.html", "d4/d80/a06030" ],
-    [ "SpellTargetSelector", "df/d0f/a06034.html", "df/d0f/a06034" ],
-    [ "NonTankTargetSelector", "dd/d4e/a06038.html", "dd/d4e/a06038" ],
-    [ "PowerUsersSelector", "d5/de8/a06042.html", "d5/de8/a06042" ],
-    [ "FarthestTargetSelector", "d3/d33/a06046.html", "d3/d33/a06046" ],
-    [ "UnitAI", "db/da6/a06050.html", "db/da6/a06050" ],
-    [ "PlayerAI", "d8/d89/a06054.html", "d8/d89/a06054" ],
-    [ "SimpleCharmedAI", "d4/db5/a06058.html", "d4/db5/a06058" ],
-    [ "CAST_AI", "d2/d21/a03392.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
-    [ "ENSURE_AI", "d2/d21/a03392.html#afbd9552e4d9ae2fb45fe846c8e9775cf", null ],
-    [ "SelectTargetMethod", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3d", [
-      [ "Random", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3da64663f4646781c9c0110838b905daa23", null ],
-      [ "MaxThreat", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3da8a65bf968cbf5bef0f097c4f6cc842c0", null ],
-      [ "MinThreat", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3da01cd0e3f1d186cc67cb2235ac1e02fa4", null ],
-      [ "MaxDistance", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3da26566fa367c162fcc3c6639f66c6b611", null ],
-      [ "MinDistance", "d2/d21/a03392.html#a482ee472018cb5f0e11addaabad35c3da334b6577674b84a8854d5281a52e48b1", null ]
-    ] ],
-    [ "EnsureAI", "d2/d21/a03392.html#a1c66b73f1d3e1e8031c25ae739f094e6", null ]
+    [ "EnchStoreItem", "d1/d6d/a08102.html", "d1/d6d/a08102" ],
+    [ "EnchantmentStore", "d2/d21/a03392.html#ab462bc366dd954f1c0b539c408b74c01", null ],
+    [ "EnchStoreList", "d2/d21/a03392.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
+    [ "GenerateEnchSuffixFactor", "d2/d21/a03392.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "d2/d21/a03392.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "d2/d21/a03392.html#a376fabf7bba54eaf928217f860f1c33b", null ],
+    [ "RandomItemEnch", "d2/d21/a03392.html#a6aeb6f30f019ca8d9839fcf41beb1ac7", null ]
 ];

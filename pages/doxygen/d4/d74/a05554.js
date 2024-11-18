@@ -1,6 +1,8 @@
 var a05554 =
 [
-    [ "handler", "d4/d74/a05554.html#a8074991652af9e5c8752dd4ff5e6e6cc", null ],
-    [ "packetSize", "d4/d74/a05554.html#a952f7f7ff3017efa4c3d127baa848785", null ],
-    [ "status", "d4/d74/a05554.html#aaf1066ba6414c519c889e3e8e52d38f2", null ]
+    [ "cmd", "d4/d74/a05554.html#a14df856ae931474a7c58d0e35caf6ad0", null ],
+    [ "number_of_keys", "d4/d74/a05554.html#aaa44734bb96b91894c038b3f34b4db0d", null ],
+    [ "R1", "d4/d74/a05554.html#a054648a96d1c66bae6fdb9a174e7b1e6", null ],
+    [ "R2", "d4/d74/a05554.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad", null ],
+    [ "R3", "d4/d74/a05554.html#a819a5ba3a19583fd0cfd0558cf218e54", null ]
 ];

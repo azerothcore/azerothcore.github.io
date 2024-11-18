@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: PlayerDumpWriter Class Reference</title>
+<title>AzerothCore: StringTransaction Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,66 +106,30 @@ $(document).ready(function(){initNavTree('df/d70/a11154.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d1/dfb/a11151.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PlayerDumpWriter Class Reference</div></div>
+  <div class="headertitle"><div class="title">StringTransaction Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">PlayerDump.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for PlayerDumpWriter:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../df/d70/a11154.png" usemap="#PlayerDumpWriter_map" alt=""/>
-  <map id="PlayerDumpWriter_map" name="PlayerDumpWriter_map">
-<area href="../../d3/dfc/a11150.html" alt="PlayerDump" shape="rect" coords="0,0,115,24"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a060152c060b37c4bf1208a99edc4a840"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a060152c060b37c4bf1208a99edc4a840">PlayerDumpWriter</a> ()</td></tr>
-<tr class="separator:a060152c060b37c4bf1208a99edc4a840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17457008e1262c0aed284469e55841c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a17457008e1262c0aed284469e55841c6">GetDump</a> (<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid, std::string &amp;dump)</td></tr>
-<tr class="separator:a17457008e1262c0aed284469e55841c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81612bfc0d161595f4de1a6133d5c46d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a81612bfc0d161595f4de1a6133d5c46d">WriteDumpToFile</a> (std::string const &amp;file, <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid)</td></tr>
-<tr class="separator:a81612bfc0d161595f4de1a6133d5c46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43d30815c9b3b2608e0fecad7bba7254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a43d30815c9b3b2608e0fecad7bba7254">WriteDumpToString</a> (std::string &amp;dump, <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid)</td></tr>
-<tr class="separator:a43d30815c9b3b2608e0fecad7bba7254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a7f285fddf6d33dd1664b5af801f110e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a7f285fddf6d33dd1664b5af801f110e9">AppendTable</a> (<a class="el" href="../../dd/dfb/a11138.html">StringTransaction</a> &amp;trans, <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid, <a class="el" href="../../d2/d4b/a11146.html">TableStruct</a> const &amp;tableStruct, <a class="el" href="../../d3/d4b/a11134.html">DumpTable</a> const &amp;dumpTable)</td></tr>
-<tr class="separator:a7f285fddf6d33dd1664b5af801f110e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab122c84eefe801ac23211ec5a41e888"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#aab122c84eefe801ac23211ec5a41e888">PopulateGuids</a> (<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid)</td></tr>
-<tr class="separator:aab122c84eefe801ac23211ec5a41e888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef82d603733e7cb0636d95abea9e6cdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#aef82d603733e7cb0636d95abea9e6cdc">StringTransaction</a> ()</td></tr>
+<tr class="separator:aef82d603733e7cb0636d95abea9e6cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1d9db61a1b3658c3d0fde37e2a4c5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a0d1d9db61a1b3658c3d0fde37e2a4c5e">Append</a> (char const *sql)</td></tr>
+<tr class="separator:a0d1d9db61a1b3658c3d0fde37e2a4c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb52c3e029cdb971dfbb4048ade25a0"><td class="memItemLeft" align="right" valign="top">char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a7cb52c3e029cdb971dfbb4048ade25a0">GetBuffer</a> () const</td></tr>
+<tr class="separator:a7cb52c3e029cdb971dfbb4048ade25a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a33325b0514324020bba98364a7f59de5"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a33325b0514324020bba98364a7f59de5">_pets</a></td></tr>
-<tr class="separator:a33325b0514324020bba98364a7f59de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2863e88ee13debe77e4b1d3d0960d18a"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a">_mails</a></td></tr>
-<tr class="separator:a2863e88ee13debe77e4b1d3d0960d18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5da825b82a09809ded2ce2c88458cc26"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26">_items</a></td></tr>
-<tr class="separator:a5da825b82a09809ded2ce2c88458cc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ff3a269064d883eff84ec83c394e92"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92">_itemSets</a></td></tr>
-<tr class="separator:a33ff3a269064d883eff84ec83c394e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a11150"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a11150')"><img src="../../closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="../../d3/dfc/a11150.html">PlayerDump</a></td></tr>
-<tr class="memitem:a69c8e6c412ac09099752a3ad388f5467 inherit pub_static_methods_a11150"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfc/a11150.html#a69c8e6c412ac09099752a3ad388f5467">InitializeTables</a> ()</td></tr>
-<tr class="separator:a69c8e6c412ac09099752a3ad388f5467 inherit pub_static_methods_a11150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a11150"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a11150')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d3/dfc/a11150.html">PlayerDump</a></td></tr>
-<tr class="memitem:a457c89834631206d39453721e41af28e inherit pro_methods_a11150"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfc/a11150.html#a457c89834631206d39453721e41af28e">PlayerDump</a> ()</td></tr>
-<tr class="separator:a457c89834631206d39453721e41af28e inherit pro_methods_a11150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec7dd27d7a2321cd1cead11ca78c1ef"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d70/a11154.html#a4ec7dd27d7a2321cd1cead11ca78c1ef">_buf</a></td></tr>
+<tr class="separator:a4ec7dd27d7a2321cd1cead11ca78c1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a060152c060b37c4bf1208a99edc4a840" name="a060152c060b37c4bf1208a99edc4a840"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060152c060b37c4bf1208a99edc4a840">&#9670;&#160;</a></span>PlayerDumpWriter()</h2>
+<a id="aef82d603733e7cb0636d95abea9e6cdc" name="aef82d603733e7cb0636d95abea9e6cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef82d603733e7cb0636d95abea9e6cdc">&#9670;&#160;</a></span>StringTransaction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -174,7 +138,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PlayerDumpWriter::PlayerDumpWriter </td>
+          <td class="memname">StringTransaction::StringTransaction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,13 +150,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   78</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">  129</span>: <a class="code hl_variable" href="../../df/d70/a11154.html#a4ec7dd27d7a2321cd1cead11ca78c1ef">_buf</a>() { }</div>
+<div class="ttc" id="aa11154_html_a4ec7dd27d7a2321cd1cead11ca78c1ef"><div class="ttname"><a href="../../df/d70/a11154.html#a4ec7dd27d7a2321cd1cead11ca78c1ef">StringTransaction::_buf</a></div><div class="ttdeci">std::string _buf</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:144</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7f285fddf6d33dd1664b5af801f110e9" name="a7f285fddf6d33dd1664b5af801f110e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f285fddf6d33dd1664b5af801f110e9">&#9670;&#160;</a></span>AppendTable()</h2>
+<a id="a0d1d9db61a1b3658c3d0fde37e2a4c5e" name="a0d1d9db61a1b3658c3d0fde37e2a4c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1d9db61a1b3658c3d0fde37e2a4c5e">&#9670;&#160;</a></span>Append()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,183 +166,33 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool PlayerDumpWriter::AppendTable </td>
+          <td class="memname">void StringTransaction::Append </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dfb/a11138.html">StringTransaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>trans</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>sql</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d4b/a11146.html">TableStruct</a> const &amp;&#160;</td>
-          <td class="paramname"><em>tableStruct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d4b/a11134.html">DumpTable</a> const &amp;&#160;</td>
-          <td class="paramname"><em>dumpTable</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  640</span>{</div>
-<div class="line"><span class="lineno">  641</span>    std::string whereStr;</div>
-<div class="line"><span class="lineno">  642</span>    <span class="keywordflow">switch</span> (dumpTable.Type)</div>
-<div class="line"><span class="lineno">  643</span>    {</div>
-<div class="line"><span class="lineno">  644</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d">DTT_ITEM</a>:</div>
-<div class="line"><span class="lineno">  645</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847">DTT_ITEM_GIFT</a>:</div>
-<div class="line"><span class="lineno">  646</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26">_items</a>.empty())</div>
-<div class="line"><span class="lineno">  647</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  648</span> </div>
-<div class="line"><span class="lineno">  649</span>        whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(tableStruct.WhereFieldName, <a class="code hl_variable" href="../../df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26">_items</a>);</div>
-<div class="line"><span class="lineno">  650</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  651</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4">DTT_PET_TABLE</a>:</div>
-<div class="line"><span class="lineno">  652</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d70/a11154.html#a33325b0514324020bba98364a7f59de5">_pets</a>.empty())</div>
-<div class="line"><span class="lineno">  653</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  654</span> </div>
-<div class="line"><span class="lineno">  655</span>        whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(tableStruct.WhereFieldName, <a class="code hl_variable" href="../../df/d70/a11154.html#a33325b0514324020bba98364a7f59de5">_pets</a>);</div>
-<div class="line"><span class="lineno">  656</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  657</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b">DTT_MAIL_ITEM</a>:</div>
-<div class="line"><span class="lineno">  658</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a">_mails</a>.empty())</div>
-<div class="line"><span class="lineno">  659</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  660</span> </div>
-<div class="line"><span class="lineno">  661</span>        whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(tableStruct.WhereFieldName, <a class="code hl_variable" href="../../df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a">_mails</a>);</div>
-<div class="line"><span class="lineno">  662</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  663</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de">DTT_EQSET_TABLE</a>:</div>
-<div class="line"><span class="lineno">  664</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92">_itemSets</a>.empty())</div>
-<div class="line"><span class="lineno">  665</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  666</span> </div>
-<div class="line"><span class="lineno">  667</span>        whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(tableStruct.WhereFieldName, <a class="code hl_variable" href="../../df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92">_itemSets</a>);</div>
-<div class="line"><span class="lineno">  668</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  669</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  670</span>        <span class="comment">// not set case, get single guid string</span></div>
-<div class="line"><span class="lineno">  671</span>        whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(tableStruct.WhereFieldName, guid);</div>
-<div class="line"><span class="lineno">  672</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  673</span>    }</div>
-<div class="line"><span class="lineno">  674</span> </div>
-<div class="line"><span class="lineno">  675</span>    <a class="code hl_typedef" href="../../dd/db6/a04580.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d0/dff/a04571.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT * FROM {} WHERE {}&quot;</span>, dumpTable.Name, whereStr);</div>
-<div class="line"><span class="lineno">  676</span>    <span class="keywordflow">switch</span> (dumpTable.Type)</div>
-<div class="line"><span class="lineno">  677</span>    {</div>
-<div class="line"><span class="lineno">  678</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323">DTT_CHARACTER</a>:</div>
-<div class="line"><span class="lineno">  679</span>        <span class="keywordflow">if</span> (result)</div>
-<div class="line"><span class="lineno">  680</span>        {</div>
-<div class="line"><span class="lineno">  681</span>            <span class="comment">// characters.deleteInfos_Account - if filled error</span></div>
-<div class="line"><span class="lineno">  682</span>            <a class="code hl_typedef" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> index = <a class="code hl_function" href="../../d5/d74/a03596.html#a995022112291c980706933e2de6accf5">GetColumnIndexByName</a>(tableStruct, <span class="stringliteral">&quot;deleteInfos_Account&quot;</span>);</div>
-<div class="line"><span class="lineno">  683</span>            <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index != -1); <span class="comment">// checked at startup</span></div>
-<div class="line"><span class="lineno">  684</span> </div>
-<div class="line"><span class="lineno">  685</span>            <span class="keywordflow">if</span> ((*result)[index].Get&lt;uint32&gt;())</div>
-<div class="line"><span class="lineno">  686</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  687</span>        }</div>
-<div class="line"><span class="lineno">  688</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  689</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  690</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  691</span>    }</div>
-<div class="line"><span class="lineno">  692</span> </div>
-<div class="line"><span class="lineno">  693</span>    <a class="code hl_function" href="../../d5/d74/a03596.html#a372c4190050b1bd62a350242bd1ebeca">AppendTableDump</a>(trans, tableStruct, result);</div>
-<div class="line"><span class="lineno">  694</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  695</span>}</div>
-<div class="ttc" id="aa00179_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de">DTT_EQSET_TABLE</a></div><div class="ttdeci">@ DTT_EQSET_TABLE</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:34</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4">DTT_PET_TABLE</a></div><div class="ttdeci">@ DTT_PET_TABLE</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:50</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b">DTT_MAIL_ITEM</a></div><div class="ttdeci">@ DTT_MAIL_ITEM</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:41</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d">DTT_ITEM</a></div><div class="ttdeci">@ DTT_ITEM</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:44</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847">DTT_ITEM_GIFT</a></div><div class="ttdeci">@ DTT_ITEM_GIFT</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:47</div></div>
-<div class="ttc" id="aa03587_html_ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323"><div class="ttname"><a href="../../df/d38/a03587.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323">DTT_CHARACTER</a></div><div class="ttdeci">@ DTT_CHARACTER</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:27</div></div>
-<div class="ttc" id="aa03596_html_a372c4190050b1bd62a350242bd1ebeca"><div class="ttname"><a href="../../d5/d74/a03596.html#a372c4190050b1bd62a350242bd1ebeca">AppendTableDump</a></div><div class="ttdeci">void AppendTableDump(StringTransaction &amp;trans, TableStruct const &amp;tableStruct, QueryResult result)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:518</div></div>
-<div class="ttc" id="aa03596_html_a995022112291c980706933e2de6accf5"><div class="ttname"><a href="../../d5/d74/a03596.html#a995022112291c980706933e2de6accf5">GetColumnIndexByName</a></div><div class="ttdeci">int32 GetColumnIndexByName(TableStruct const &amp;tableStruct, std::string const &amp;columnName)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:189</div></div>
-<div class="ttc" id="aa03596_html_af5ecd510e3a4c642ed2250c17649f925"><div class="ttname"><a href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a></div><div class="ttdeci">std::string GenerateWhereStr(std::string const &amp;field, ObjectGuid::LowType guid)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:564</div></div>
-<div class="ttc" id="aa04571_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d0/dff/a04571.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
-<div class="ttc" id="aa04580_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../dd/db6/a04580.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
-<div class="ttc" id="aa11154_html_a2863e88ee13debe77e4b1d3d0960d18a"><div class="ttname"><a href="../../df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a">PlayerDumpWriter::_mails</a></div><div class="ttdeci">std::set&lt; ObjectGuid::LowType &gt; _mails</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:89</div></div>
-<div class="ttc" id="aa11154_html_a33325b0514324020bba98364a7f59de5"><div class="ttname"><a href="../../df/d70/a11154.html#a33325b0514324020bba98364a7f59de5">PlayerDumpWriter::_pets</a></div><div class="ttdeci">std::set&lt; ObjectGuid::LowType &gt; _pets</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:88</div></div>
-<div class="ttc" id="aa11154_html_a33ff3a269064d883eff84ec83c394e92"><div class="ttname"><a href="../../df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92">PlayerDumpWriter::_itemSets</a></div><div class="ttdeci">std::set&lt; uint64 &gt; _itemSets</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:92</div></div>
-<div class="ttc" id="aa11154_html_a5da825b82a09809ded2ce2c88458cc26"><div class="ttname"><a href="../../df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26">PlayerDumpWriter::_items</a></div><div class="ttdeci">std::set&lt; ObjectGuid::LowType &gt; _items</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:90</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>    {</div>
+<div class="line"><span class="lineno">  133</span>        std::ostringstream oss;</div>
+<div class="line"><span class="lineno">  134</span>        oss &lt;&lt; sql &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
+<div class="line"><span class="lineno">  135</span>        <a class="code hl_variable" href="../../df/d70/a11154.html#a4ec7dd27d7a2321cd1cead11ca78c1ef">_buf</a> += oss.str();</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00090">_items</a>, <a class="el" href="../../#l00092">_itemSets</a>, <a class="el" href="../../#l00089">_mails</a>, <a class="el" href="../../#l00088">_pets</a>, <a class="el" href="../../#l00518">AppendTableDump()</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00027">DTT_CHARACTER</a>, <a class="el" href="../../#l00034">DTT_EQSET_TABLE</a>, <a class="el" href="../../#l00044">DTT_ITEM</a>, <a class="el" href="../../#l00047">DTT_ITEM_GIFT</a>, <a class="el" href="../../#l00041">DTT_MAIL_ITEM</a>, <a class="el" href="../../#l00050">DTT_PET_TABLE</a>, <a class="el" href="../../#l00564">GenerateWhereStr()</a>, <a class="el" href="../../#l00189">GetColumnIndexByName()</a>, <a class="el" href="../../#l00084">DumpTable::Name</a>, <a class="el" href="../../#l00085">DumpTable::Type</a>, and <a class="el" href="../../#l00159">TableStruct::WhereFieldName</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00144">_buf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00697">GetDump()</a>.</p>
-
-</div>
-</div>
-<a id="a17457008e1262c0aed284469e55841c6" name="a17457008e1262c0aed284469e55841c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17457008e1262c0aed284469e55841c6">&#9670;&#160;</a></span>GetDump()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool PlayerDumpWriter::GetDump </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>dump</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000161">Todo:</a></b></dt><dd>Add instance/group.. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000162">Todo:</a></b></dt><dd></dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000163">Todo:</a></b></dt><dd>Add a dump level option to skip some non-important tables </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  698</span>{</div>
-<div class="line"><span class="lineno">  699</span>    dump = <span class="stringliteral">&quot;IMPORTANT NOTE: THIS DUMPFILE IS MADE FOR USE WITH THE &#39;PDUMP&#39; COMMAND ONLY - EITHER THROUGH INGAME CHAT OR ON CONSOLE!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  700</span>    dump += <span class="stringliteral">&quot;IMPORTANT NOTE: DO NOT apply it directly - it will irreversibly DAMAGE and CORRUPT your database! You have been warned!\n\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  701</span> </div>
-<div class="line"><span class="lineno">  702</span>    <a class="code hl_class" href="../../dd/dfb/a11138.html">StringTransaction</a> trans;</div>
-<div class="line"><span class="lineno">  703</span> </div>
-<div class="line"><span class="lineno">  704</span>    <span class="comment">// collect guids</span></div>
-<div class="line"><span class="lineno">  705</span>    <a class="code hl_function" href="../../df/d70/a11154.html#aab122c84eefe801ac23211ec5a41e888">PopulateGuids</a>(guid);</div>
-<div class="line"><span class="lineno">  706</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d5/d74/a03596.html#a4d61020c5d40e9d3093656551dcc00f0">DUMP_TABLE_COUNT</a>; ++i)</div>
-<div class="line"><span class="lineno">  707</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d70/a11154.html#a7f285fddf6d33dd1664b5af801f110e9">AppendTable</a>(trans, guid, <a class="code hl_variable" href="../../d5/d74/a03596.html#ae8849d3a4dc3838acedf5f6f84242c08">CharacterTables</a>[i], <a class="code hl_variable" href="../../d5/d74/a03596.html#a846234dc3d2969c8ef6f67687a3a4049">DumpTables</a>[i]))</div>
-<div class="line"><span class="lineno">  708</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  709</span> </div>
-<div class="line"><span class="lineno">  710</span>    dump += trans.<a class="code hl_function" href="../../dd/dfb/a11138.html#a7cb52c3e029cdb971dfbb4048ade25a0">GetBuffer</a>();</div>
-<div class="line"><span class="lineno">  711</span> </div>
-<div class="line"><span class="lineno">  714</span> </div>
-<div class="line"><span class="lineno">  715</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  716</span>}</div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa03596_html_a4d61020c5d40e9d3093656551dcc00f0"><div class="ttname"><a href="../../d5/d74/a03596.html#a4d61020c5d40e9d3093656551dcc00f0">DUMP_TABLE_COUNT</a></div><div class="ttdeci">uint32 const DUMP_TABLE_COUNT</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:123</div></div>
-<div class="ttc" id="aa03596_html_a846234dc3d2969c8ef6f67687a3a4049"><div class="ttname"><a href="../../d5/d74/a03596.html#a846234dc3d2969c8ef6f67687a3a4049">DumpTables</a></div><div class="ttdeci">DumpTable const DumpTables[]</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:88</div></div>
-<div class="ttc" id="aa03596_html_ae8849d3a4dc3838acedf5f6f84242c08"><div class="ttname"><a href="../../d5/d74/a03596.html#ae8849d3a4dc3838acedf5f6f84242c08">CharacterTables</a></div><div class="ttdeci">std::vector&lt; TableStruct &gt; CharacterTables</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:166</div></div>
-<div class="ttc" id="aa11138_html"><div class="ttname"><a href="../../dd/dfb/a11138.html">StringTransaction</a></div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:127</div></div>
-<div class="ttc" id="aa11138_html_a7cb52c3e029cdb971dfbb4048ade25a0"><div class="ttname"><a href="../../dd/dfb/a11138.html#a7cb52c3e029cdb971dfbb4048ade25a0">StringTransaction::GetBuffer</a></div><div class="ttdeci">char const * GetBuffer() const</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:138</div></div>
-<div class="ttc" id="aa11154_html_a7f285fddf6d33dd1664b5af801f110e9"><div class="ttname"><a href="../../df/d70/a11154.html#a7f285fddf6d33dd1664b5af801f110e9">PlayerDumpWriter::AppendTable</a></div><div class="ttdeci">bool AppendTable(StringTransaction &amp;trans, ObjectGuid::LowType guid, TableStruct const &amp;tableStruct, DumpTable const &amp;dumpTable)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:639</div></div>
-<div class="ttc" id="aa11154_html_aab122c84eefe801ac23211ec5a41e888"><div class="ttname"><a href="../../df/d70/a11154.html#aab122c84eefe801ac23211ec5a41e888">PlayerDumpWriter::PopulateGuids</a></div><div class="ttdeci">void PopulateGuids(ObjectGuid::LowType guid)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:592</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00639">AppendTable()</a>, <a class="el" href="../../#l00166">CharacterTables</a>, <a class="el" href="../../#l00123">DUMP_TABLE_COUNT</a>, <a class="el" href="../../#l00088">DumpTables</a>, <a class="el" href="../../#l00138">StringTransaction::GetBuffer()</a>, and <a class="el" href="../../#l00592">PopulateGuids()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00718">WriteDumpToFile()</a>, and <a class="el" href="../../#l00744">WriteDumpToString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00518">AppendTableDump()</a>.</p>
 
 </div>
 </div>
-<a id="aab122c84eefe801ac23211ec5a41e888" name="aab122c84eefe801ac23211ec5a41e888"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab122c84eefe801ac23211ec5a41e888">&#9670;&#160;</a></span>PopulateGuids()</h2>
+<a id="a7cb52c3e029cdb971dfbb4048ade25a0" name="a7cb52c3e029cdb971dfbb4048ade25a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb52c3e029cdb971dfbb4048ade25a0">&#9670;&#160;</a></span>GetBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,182 +201,31 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PlayerDumpWriter::PopulateGuids </td>
+          <td class="memname">char const  * StringTransaction::GetBuffer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  593</span>{</div>
-<div class="line"><span class="lineno">  594</span>    <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../d4/db0/a11130.html">BaseTable</a> <span class="keyword">const</span>&amp; baseTable : <a class="code hl_variable" href="../../d5/d74/a03596.html#a9a85cce136a6d1ebc3195903ee719aec">BaseTables</a>)</div>
-<div class="line"><span class="lineno">  595</span>    {</div>
-<div class="line"><span class="lineno">  596</span>        <span class="keywordflow">switch</span> (baseTable.StoredType)</div>
-<div class="line"><span class="lineno">  597</span>        {</div>
-<div class="line"><span class="lineno">  598</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073ad1a7c19c45454ebb3d4fbaa8e7c23e02">GUID_TYPE_ITEM</a>:</div>
-<div class="line"><span class="lineno">  599</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a53f4408b25dfeb8012a6ff280c5abf34">GUID_TYPE_MAIL</a>:</div>
-<div class="line"><span class="lineno">  600</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a69c016bd84f08697ac13b16609866466">GUID_TYPE_PET</a>:</div>
-<div class="line"><span class="lineno">  601</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a7e486a867408d382ecfe7bfe1a79a157">GUID_TYPE_EQUIPMENT_SET</a>:</div>
-<div class="line"><span class="lineno">  602</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  603</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  604</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  605</span>        }</div>
-<div class="line"><span class="lineno">  606</span> </div>
-<div class="line"><span class="lineno">  607</span>        std::string whereStr = <a class="code hl_function" href="../../d5/d74/a03596.html#af5ecd510e3a4c642ed2250c17649f925">GenerateWhereStr</a>(baseTable.PlayerGuid, guid);</div>
-<div class="line"><span class="lineno">  608</span>        <a class="code hl_typedef" href="../../dd/db6/a04580.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d0/dff/a04571.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT {} FROM {} WHERE {}&quot;</span>, baseTable.PrimaryKey, baseTable.TableName, whereStr);</div>
-<div class="line"><span class="lineno">  609</span>        <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">  610</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  611</span> </div>
-<div class="line"><span class="lineno">  612</span>        <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  613</span>        {</div>
-<div class="line"><span class="lineno">  614</span>            <span class="keywordflow">switch</span> (baseTable.StoredType)</div>
-<div class="line"><span class="lineno">  615</span>            {</div>
-<div class="line"><span class="lineno">  616</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073ad1a7c19c45454ebb3d4fbaa8e7c23e02">GUID_TYPE_ITEM</a>:</div>
-<div class="line"><span class="lineno">  617</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> itemLowGuid = (*result)[0].Get&lt;uint32&gt;())</div>
-<div class="line"><span class="lineno">  618</span>                    <a class="code hl_variable" href="../../df/d70/a11154.html#a5da825b82a09809ded2ce2c88458cc26">_items</a>.insert(itemLowGuid);</div>
-<div class="line"><span class="lineno">  619</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  620</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a53f4408b25dfeb8012a6ff280c5abf34">GUID_TYPE_MAIL</a>:</div>
-<div class="line"><span class="lineno">  621</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> mailLowGuid = (*result)[0].Get&lt;uint32&gt;())</div>
-<div class="line"><span class="lineno">  622</span>                    <a class="code hl_variable" href="../../df/d70/a11154.html#a2863e88ee13debe77e4b1d3d0960d18a">_mails</a>.insert(mailLowGuid);</div>
-<div class="line"><span class="lineno">  623</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  624</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a69c016bd84f08697ac13b16609866466">GUID_TYPE_PET</a>:</div>
-<div class="line"><span class="lineno">  625</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> petLowGuid = (*result)[0].Get&lt;uint32&gt;())</div>
-<div class="line"><span class="lineno">  626</span>                    <a class="code hl_variable" href="../../df/d70/a11154.html#a33325b0514324020bba98364a7f59de5">_pets</a>.insert(petLowGuid);</div>
-<div class="line"><span class="lineno">  627</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  628</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a7e486a867408d382ecfe7bfe1a79a157">GUID_TYPE_EQUIPMENT_SET</a>:</div>
-<div class="line"><span class="lineno">  629</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> eqSetId = (*result)[0].Get&lt;uint64&gt;())</div>
-<div class="line"><span class="lineno">  630</span>                    <a class="code hl_variable" href="../../df/d70/a11154.html#a33ff3a269064d883eff84ec83c394e92">_itemSets</a>.insert(eqSetId);</div>
-<div class="line"><span class="lineno">  631</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  632</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  633</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  634</span>            }</div>
-<div class="line"><span class="lineno">  635</span>        } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
-<div class="line"><span class="lineno">  636</span>    }</div>
-<div class="line"><span class="lineno">  637</span>}</div>
-<div class="ttc" id="aa00179_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
-<div class="ttc" id="aa03596_html_a786729c2a29db8efe3400a170aeb9073a53f4408b25dfeb8012a6ff280c5abf34"><div class="ttname"><a href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a53f4408b25dfeb8012a6ff280c5abf34">GUID_TYPE_MAIL</a></div><div class="ttdeci">@ GUID_TYPE_MAIL</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:38</div></div>
-<div class="ttc" id="aa03596_html_a786729c2a29db8efe3400a170aeb9073a69c016bd84f08697ac13b16609866466"><div class="ttname"><a href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a69c016bd84f08697ac13b16609866466">GUID_TYPE_PET</a></div><div class="ttdeci">@ GUID_TYPE_PET</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:37</div></div>
-<div class="ttc" id="aa03596_html_a786729c2a29db8efe3400a170aeb9073a7e486a867408d382ecfe7bfe1a79a157"><div class="ttname"><a href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073a7e486a867408d382ecfe7bfe1a79a157">GUID_TYPE_EQUIPMENT_SET</a></div><div class="ttdeci">@ GUID_TYPE_EQUIPMENT_SET</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:42</div></div>
-<div class="ttc" id="aa03596_html_a786729c2a29db8efe3400a170aeb9073ad1a7c19c45454ebb3d4fbaa8e7c23e02"><div class="ttname"><a href="../../d5/d74/a03596.html#a786729c2a29db8efe3400a170aeb9073ad1a7c19c45454ebb3d4fbaa8e7c23e02">GUID_TYPE_ITEM</a></div><div class="ttdeci">@ GUID_TYPE_ITEM</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:39</div></div>
-<div class="ttc" id="aa03596_html_a9a85cce136a6d1ebc3195903ee719aec"><div class="ttname"><a href="../../d5/d74/a03596.html#a9a85cce136a6d1ebc3195903ee719aec">BaseTables</a></div><div class="ttdeci">BaseTable const BaseTables[]</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:73</div></div>
-<div class="ttc" id="aa08174_html_aa278d50613c05dc1333df5185a6993eb"><div class="ttname"><a href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a></div><div class="ttdeci">uint32 LowType</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
-<div class="ttc" id="aa11130_html"><div class="ttname"><a href="../../d4/db0/a11130.html">BaseTable</a></div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:65</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  139</span>    {</div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d70/a11154.html#a4ec7dd27d7a2321cd1cead11ca78c1ef">_buf</a>.c_str();</div>
+<div class="line"><span class="lineno">  141</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00090">_items</a>, <a class="el" href="../../#l00092">_itemSets</a>, <a class="el" href="../../#l00089">_mails</a>, <a class="el" href="../../#l00088">_pets</a>, <a class="el" href="../../#l00073">BaseTables</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00564">GenerateWhereStr()</a>, <a class="el" href="../../#l00042">GUID_TYPE_EQUIPMENT_SET</a>, <a class="el" href="../../#l00039">GUID_TYPE_ITEM</a>, <a class="el" href="../../#l00038">GUID_TYPE_MAIL</a>, and <a class="el" href="../../#l00037">GUID_TYPE_PET</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00144">_buf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00697">GetDump()</a>.</p>
-
-</div>
-</div>
-<a id="a81612bfc0d161595f4de1a6133d5c46d" name="a81612bfc0d161595f4de1a6133d5c46d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81612bfc0d161595f4de1a6133d5c46d">&#9670;&#160;</a></span>WriteDumpToFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a> PlayerDumpWriter::WriteDumpToFile </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  719</span>{</div>
-<div class="line"><span class="lineno">  720</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1b4b88c03b7d0124998b4c22e957baf0abf8d68780f13c449a6fa7114d871a631">CONFIG_PDUMP_NO_PATHS</a>))</div>
-<div class="line"><span class="lineno">  721</span>        <span class="keywordflow">if</span> (strchr(file.c_str(), <span class="charliteral">&#39;\\&#39;</span>) || strchr(file.c_str(), <span class="charliteral">&#39;/&#39;</span>))</div>
-<div class="line"><span class="lineno">  722</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a>;</div>
-<div class="line"><span class="lineno">  723</span> </div>
-<div class="line"><span class="lineno">  724</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1b4b88c03b7d0124998b4c22e957baf0a2270e96a0d3edc3ab4c540985a788d4e">CONFIG_PDUMP_NO_OVERWRITE</a>))</div>
-<div class="line"><span class="lineno">  725</span>    {</div>
-<div class="line"><span class="lineno">  726</span>        <span class="comment">// check if file exists already</span></div>
-<div class="line"><span class="lineno">  727</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d74/a03596.html#a4b7f4eca1fd3d5d501b08819b8949edb">GetFileHandle</a>(file.c_str(), <span class="stringliteral">&quot;r&quot;</span>))</div>
-<div class="line"><span class="lineno">  728</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a>;</div>
-<div class="line"><span class="lineno">  729</span>    }</div>
-<div class="line"><span class="lineno">  730</span> </div>
-<div class="line"><span class="lineno">  731</span>    <a class="code hl_typedef" href="../../d5/d74/a03596.html#ad7de4fbad2e55215496223bdf2a32cd9">FileHandle</a> fout = <a class="code hl_function" href="../../d5/d74/a03596.html#a4b7f4eca1fd3d5d501b08819b8949edb">GetFileHandle</a>(file.c_str(), <span class="stringliteral">&quot;w&quot;</span>);</div>
-<div class="line"><span class="lineno">  732</span>    <span class="keywordflow">if</span> (!fout)</div>
-<div class="line"><span class="lineno">  733</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a>;</div>
-<div class="line"><span class="lineno">  734</span> </div>
-<div class="line"><span class="lineno">  735</span>    <a class="code hl_enumeration" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a> ret = <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a>;</div>
-<div class="line"><span class="lineno">  736</span>    std::string dump;</div>
-<div class="line"><span class="lineno">  737</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d70/a11154.html#a17457008e1262c0aed284469e55841c6">GetDump</a>(guid, dump))</div>
-<div class="line"><span class="lineno">  738</span>        ret = <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a>;</div>
-<div class="line"><span class="lineno">  739</span> </div>
-<div class="line"><span class="lineno">  740</span>    fprintf(fout.get(), <span class="stringliteral">&quot;%s&quot;</span>, dump.c_str());</div>
-<div class="line"><span class="lineno">  741</span>    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><span class="lineno">  742</span>}</div>
-<div class="ttc" id="aa03464_html_a1b4b88c03b7d0124998b4c22e957baf0a2270e96a0d3edc3ab4c540985a788d4e"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1b4b88c03b7d0124998b4c22e957baf0a2270e96a0d3edc3ab4c540985a788d4e">CONFIG_PDUMP_NO_OVERWRITE</a></div><div class="ttdeci">@ CONFIG_PDUMP_NO_OVERWRITE</div><div class="ttdef"><b>Definition:</b> IWorld.h:141</div></div>
-<div class="ttc" id="aa03464_html_a1b4b88c03b7d0124998b4c22e957baf0abf8d68780f13c449a6fa7114d871a631"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1b4b88c03b7d0124998b4c22e957baf0abf8d68780f13c449a6fa7114d871a631">CONFIG_PDUMP_NO_PATHS</a></div><div class="ttdeci">@ CONFIG_PDUMP_NO_PATHS</div><div class="ttdef"><b>Definition:</b> IWorld.h:140</div></div>
-<div class="ttc" id="aa03587_html_a4471667403db9bc7532f371d28743866"><div class="ttname"><a href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a></div><div class="ttdeci">DumpReturn</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:54</div></div>
-<div class="ttc" id="aa03587_html_a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656"><div class="ttname"><a href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a></div><div class="ttdeci">@ DUMP_FILE_OPEN_ERROR</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:56</div></div>
-<div class="ttc" id="aa03587_html_a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47"><div class="ttname"><a href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a></div><div class="ttdeci">@ DUMP_CHARACTER_DELETED</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:59</div></div>
-<div class="ttc" id="aa03587_html_a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e"><div class="ttname"><a href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a></div><div class="ttdeci">@ DUMP_SUCCESS</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:55</div></div>
-<div class="ttc" id="aa03596_html_a4b7f4eca1fd3d5d501b08819b8949edb"><div class="ttname"><a href="../../d5/d74/a03596.html#a4b7f4eca1fd3d5d501b08819b8949edb">GetFileHandle</a></div><div class="ttdeci">FileHandle GetFileHandle(char const *path, char const *mode)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:59</div></div>
-<div class="ttc" id="aa03596_html_ad7de4fbad2e55215496223bdf2a32cd9"><div class="ttname"><a href="../../d5/d74/a03596.html#ad7de4fbad2e55215496223bdf2a32cd9">FileHandle</a></div><div class="ttdeci">std::unique_ptr&lt; FILE, FileCloser &gt; FileHandle</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:57</div></div>
-<div class="ttc" id="aa04669_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-<div class="ttc" id="aa11154_html_a17457008e1262c0aed284469e55841c6"><div class="ttname"><a href="../../df/d70/a11154.html#a17457008e1262c0aed284469e55841c6">PlayerDumpWriter::GetDump</a></div><div class="ttdeci">bool GetDump(ObjectGuid::LowType guid, std::string &amp;dump)</div><div class="ttdef"><b>Definition:</b> PlayerDump.cpp:697</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00141">CONFIG_PDUMP_NO_OVERWRITE</a>, <a class="el" href="../../#l00140">CONFIG_PDUMP_NO_PATHS</a>, <a class="el" href="../../#l00059">DUMP_CHARACTER_DELETED</a>, <a class="el" href="../../#l00056">DUMP_FILE_OPEN_ERROR</a>, <a class="el" href="../../#l00055">DUMP_SUCCESS</a>, <a class="el" href="../../#l00697">GetDump()</a>, <a class="el" href="../../#l00059">GetFileHandle()</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
-
-</div>
-</div>
-<a id="a43d30815c9b3b2608e0fecad7bba7254" name="a43d30815c9b3b2608e0fecad7bba7254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43d30815c9b3b2608e0fecad7bba7254">&#9670;&#160;</a></span>WriteDumpToString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a> PlayerDumpWriter::WriteDumpToString </td>
-          <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>dump</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  745</span>{</div>
-<div class="line"><span class="lineno">  746</span>    <a class="code hl_enumeration" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866">DumpReturn</a> ret = <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a>;</div>
-<div class="line"><span class="lineno">  747</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d70/a11154.html#a17457008e1262c0aed284469e55841c6">GetDump</a>(guid, dump))</div>
-<div class="line"><span class="lineno">  748</span>        ret = <a class="code hl_enumvalue" href="../../df/d38/a03587.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a>;</div>
-<div class="line"><span class="lineno">  749</span>    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><span class="lineno">  750</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00059">DUMP_CHARACTER_DELETED</a>, <a class="el" href="../../#l00055">DUMP_SUCCESS</a>, and <a class="el" href="../../#l00697">GetDump()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00697">PlayerDumpWriter::GetDump()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5da825b82a09809ded2ce2c88458cc26" name="a5da825b82a09809ded2ce2c88458cc26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5da825b82a09809ded2ce2c88458cc26">&#9670;&#160;</a></span>_items</h2>
+<a id="a4ec7dd27d7a2321cd1cead11ca78c1ef" name="a4ec7dd27d7a2321cd1cead11ca78c1ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec7dd27d7a2321cd1cead11ca78c1ef">&#9670;&#160;</a></span>_buf</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,7 +234,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&gt; PlayerDumpWriter::_items</td>
+          <td class="memname">std::string StringTransaction::_buf</td>
         </tr>
       </table>
   </td>
@@ -580,79 +244,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00639">AppendTable()</a>, and <a class="el" href="../../#l00592">PopulateGuids()</a>.</p>
-
-</div>
-</div>
-<a id="a33ff3a269064d883eff84ec83c394e92" name="a33ff3a269064d883eff84ec83c394e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ff3a269064d883eff84ec83c394e92">&#9670;&#160;</a></span>_itemSets</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt; PlayerDumpWriter::_itemSets</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00639">AppendTable()</a>, and <a class="el" href="../../#l00592">PopulateGuids()</a>.</p>
-
-</div>
-</div>
-<a id="a2863e88ee13debe77e4b1d3d0960d18a" name="a2863e88ee13debe77e4b1d3d0960d18a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2863e88ee13debe77e4b1d3d0960d18a">&#9670;&#160;</a></span>_mails</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&gt; PlayerDumpWriter::_mails</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00639">AppendTable()</a>, and <a class="el" href="../../#l00592">PopulateGuids()</a>.</p>
-
-</div>
-</div>
-<a id="a33325b0514324020bba98364a7f59de5" name="a33325b0514324020bba98364a7f59de5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33325b0514324020bba98364a7f59de5">&#9670;&#160;</a></span>_pets</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&gt; PlayerDumpWriter::_pets</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00639">AppendTable()</a>, and <a class="el" href="../../#l00592">PopulateGuids()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00131">Append()</a>, and <a class="el" href="../../#l00138">GetBuffer()</a>.</p>
 
 </div>
 </div>
@@ -661,8 +253,8 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d70/a11154.html">PlayerDumpWriter</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d70/a11154.html">StringTransaction</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,8 @@
 var a22978 =
 [
-    [ "HandleScript", "d6/dee/a22978.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
-    [ "PrepareSpellScript", "d6/dee/a22978.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
-    [ "Register", "d6/dee/a22978.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
+    [ "FilterTargets", "d6/dee/a22978.html#a8687ba9c22299e62e5911a3729fa4a0a", null ],
+    [ "HandleDummy", "d6/dee/a22978.html#addb3580259be74126b7de36d1b0a8a97", null ],
+    [ "PrepareSpellScript", "d6/dee/a22978.html#aba82de0886d03037de4564f9908b8c89", null ],
+    [ "Register", "d6/dee/a22978.html#a1650962493d48f5553a9e2771e594f1f", null ],
+    [ "Validate", "d6/dee/a22978.html#a0a29926e43bd5ff58ca7ad79df6f8cc1", null ]
 ];

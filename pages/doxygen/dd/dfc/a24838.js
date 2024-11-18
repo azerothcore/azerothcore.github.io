@@ -1,8 +1,7 @@
 var a24838 =
 [
-    [ "CheckCast", "dd/dfc/a24838.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
-    [ "HandleScript", "dd/dfc/a24838.html#a2c1702398e4cbdcc106679d534a27743", null ],
-    [ "PrepareSpellScript", "dd/dfc/a24838.html#a613bdf7841744632c1e6de147e0352b9", null ],
-    [ "Register", "dd/dfc/a24838.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
-    [ "Validate", "dd/dfc/a24838.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
+    [ "PrepareSpellScript", "dd/dfc/a24838.html#aad8061898087fbf5eb6527cbaa70927d", null ],
+    [ "RecalculateDamage", "dd/dfc/a24838.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
+    [ "Register", "dd/dfc/a24838.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
+    [ "_damagePct", "dd/dfc/a24838.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
 ];

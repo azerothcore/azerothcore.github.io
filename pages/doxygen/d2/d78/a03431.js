@@ -1,10 +1,9 @@
 var a03431 =
 [
-    [ "AddGossipItemFor", "d2/d78/a03431.html#a21e32e886a589c9093660b3c4c58f72c", null ],
-    [ "AddGossipItemFor", "d2/d78/a03431.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5", null ],
-    [ "AddGossipItemFor", "d2/d78/a03431.html#acd7e8e52a911742a99728cf9408e23b8", null ],
-    [ "ClearGossipMenuFor", "d2/d78/a03431.html#af077a82741577a63a075c7d40b3b3dc5", null ],
-    [ "CloseGossipMenuFor", "d2/d78/a03431.html#af8f7e54dac5ecc86e92d780c3918cb09", null ],
-    [ "SendGossipMenuFor", "d2/d78/a03431.html#ad893abf2b09592b57715ef4a3222a2b3", null ],
-    [ "SendGossipMenuFor", "d2/d78/a03431.html#a18599cfc6649557de0d505ed4d4a0210", null ]
+    [ "DynamicObject", "d0/d92/a07918.html", "d0/d92/a07918" ],
+    [ "DynamicObjectType", "d2/d78/a03431.html#aee85c2f840289bcf773609333ee91131", [
+      [ "DYNAMIC_OBJECT_PORTAL", "d2/d78/a03431.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b", null ],
+      [ "DYNAMIC_OBJECT_AREA_SPELL", "d2/d78/a03431.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546", null ],
+      [ "DYNAMIC_OBJECT_FARSIGHT_FOCUS", "d2/d78/a03431.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d", null ]
+    ] ]
 ];

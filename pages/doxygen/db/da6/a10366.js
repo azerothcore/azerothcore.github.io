@@ -1,6 +1,6 @@
 var a10366 =
 [
-    [ "GuildPromoteMember", "db/da6/a10366.html#af623a381aa80e827c2c29987501626ae", null ],
-    [ "Read", "db/da6/a10366.html#a3350c1a8c81aa1368a254288849b462b", null ],
-    [ "Promotee", "db/da6/a10366.html#af8addf6e9bc45364f595582e8f285cde", null ]
+    [ "GuildUpdateInfoText", "db/da6/a10366.html#a82afd6cb3240da6870990d6f80f69cd6", null ],
+    [ "Read", "db/da6/a10366.html#a7019344fef99c5479602d7bc1176e9ee", null ],
+    [ "InfoText", "db/da6/a10366.html#a786802ce427465d66a4cea1365743975", null ]
 ];

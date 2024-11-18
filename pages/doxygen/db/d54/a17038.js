@@ -1,9 +1,12 @@
 var a17038 =
 [
-    [ "CheckProc", "db/d54/a17038.html#a13426f7a45e9434f980b42f174b22da8", null ],
-    [ "HandlePeriodicTick", "db/d54/a17038.html#a6380b4d03e4c48cd1a1f89227a1ebae8", null ],
-    [ "HandleProc", "db/d54/a17038.html#abf744d64dae5835bff3877eeaa919af3", null ],
-    [ "PrepareAuraScript", "db/d54/a17038.html#a5836fb240ae612d36a9e80c88bebdc48", null ],
-    [ "Register", "db/d54/a17038.html#a1b72c10256365de71b8f9fadf5886338", null ],
-    [ "Validate", "db/d54/a17038.html#acc3a0e0ae60291646514c1ae6f41f421", null ]
+    [ "npc_muradin_bronzebeard_iccAI", "db/d54/a17038.html#a4313164857ebd174fe33a9a16340b332", null ],
+    [ "DoAction", "db/d54/a17038.html#a16eeb7d0ed6c943c088285462131cd51", null ],
+    [ "MovementInform", "db/d54/a17038.html#a9a2e367f30ee16ca55e634de8e22551e", null ],
+    [ "Reset", "db/d54/a17038.html#ad5d5a9de05e472d24fe399b4de79a3d0", null ],
+    [ "SpellHit", "db/d54/a17038.html#a19b42ca678e7bf93c86891b4ea0a2dce", null ],
+    [ "UpdateAI", "db/d54/a17038.html#a1ae2393871e0f4ebeb86521f06959a7a", null ],
+    [ "_events", "db/d54/a17038.html#ae7079b335373cc06a040756328e7f714", null ],
+    [ "_guardList", "db/d54/a17038.html#a1cbd87af34584979b37dfff8b29f9623", null ],
+    [ "_instance", "db/d54/a17038.html#af1d8694678b10e5393c658ba0b20f47a", null ]
 ];

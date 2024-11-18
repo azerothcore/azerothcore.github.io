@@ -1,6 +1,5 @@
 var a12506 =
 [
-    [ "boss_zelfan", "d9/d86/a12506.html#a169e72dfe50c5199bf0053828888095b", null ],
-    [ "JustEngagedWith", "d9/d86/a12506.html#a4e83c11ad95ea4dbea893a08671f17af", null ],
-    [ "UpdateAI", "d9/d86/a12506.html#aa3f6175b0ac234ee990f476ebbf2ab67", null ]
+    [ "boss_eramas_brightblaze", "d9/d86/a12506.html#a14d1528750036f27948f5de8a2b44bd3", null ],
+    [ "JustEngagedWith", "d9/d86/a12506.html#ad34613d2795f7371a43891488044392a", null ]
 ];

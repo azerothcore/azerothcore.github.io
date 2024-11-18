@@ -1,15 +1,11 @@
 var a07026 =
 [
-    [ "ModifyMatchmakerRating", "dc/dfc/a07026.html#aaa6de888c3f85ef8cbe9baa2f997aba1", null ],
-    [ "ModifyPersonalRating", "dc/dfc/a07026.html#a34401ea82507df97e540c698fa549b5f", null ],
-    [ "Class", "dc/dfc/a07026.html#a5f6519e8ad3281a09608f8740927fbd3", null ],
-    [ "Guid", "dc/dfc/a07026.html#ac0dc6765247a0f36b3d3ff527a678010", null ],
-    [ "MatchMakerRating", "dc/dfc/a07026.html#ac91a344c7aecb72d17841413f5d935da", null ],
-    [ "MaxMMR", "dc/dfc/a07026.html#afc86e111a1c699254c5ea761d0dda088", null ],
-    [ "Name", "dc/dfc/a07026.html#a7917e705d8c15bbe2731c32375c34d16", null ],
-    [ "PersonalRating", "dc/dfc/a07026.html#a03168b1bdc8e6dac30d3b63e692ce854", null ],
-    [ "SeasonGames", "dc/dfc/a07026.html#ae3724b7268c161d5553b8cc1fae2cf75", null ],
-    [ "SeasonWins", "dc/dfc/a07026.html#a7239187cef3a02839fe27577ad022ec9", null ],
-    [ "WeekGames", "dc/dfc/a07026.html#a97906127f7eb1babe2bf2ebcda7c0a88", null ],
-    [ "WeekWins", "dc/dfc/a07026.html#a5b9e5e02d59569080d34abd9b9728693", null ]
+    [ "WGWorkshop", "dc/dfc/a07026.html#a2d2d7b24ec77275f24efa54d31e98bbb", null ],
+    [ "GiveControlTo", "dc/dfc/a07026.html#a6b69312f4ffa562b0e8fdcf5da3568d3", null ],
+    [ "Save", "dc/dfc/a07026.html#adede1c780178f20dc8339320a021e4b6", null ],
+    [ "UpdateGraveyardAndWorkshop", "dc/dfc/a07026.html#a2ff11801fb50cd3a463c44fafbddaed4", null ],
+    [ "bf", "dc/dfc/a07026.html#ae2b7e050289ad5922ddcd73c6da9f5a5", null ],
+    [ "state", "dc/dfc/a07026.html#a279d47c85843e884edef1f82b9654cd8", null ],
+    [ "teamControl", "dc/dfc/a07026.html#a196c8d0094a34c18835840e046fd39ef", null ],
+    [ "workshopId", "dc/dfc/a07026.html#a42d7337c67e4f19886b0ec86f0e60596", null ]
 ];

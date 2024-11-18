@@ -1,6 +1,6 @@
 var a23334 =
 [
-    [ "npc_millhouse_manastormAI", "d5/db8/a23338.html", "d5/db8/a23338" ],
-    [ "npc_millhouse_manastorm", "d8/dbc/a23334.html#aebc8efc48d207ad7f1105fa636b9c104", null ],
-    [ "GetAI", "d8/dbc/a23334.html#ac4516785f7daf544718fc201197ba977", null ]
+    [ "instance_shattered_halls_InstanceMapScript", "d5/db8/a23338.html", "d5/db8/a23338" ],
+    [ "instance_shattered_halls", "d8/dbc/a23334.html#a9d0d3b6baec34c679151791610cff3a7", null ],
+    [ "GetInstanceScript", "d8/dbc/a23334.html#a82388466811b022a725ba721845cadf3", null ]
 ];

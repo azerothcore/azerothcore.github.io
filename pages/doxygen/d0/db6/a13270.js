@@ -1,7 +1,7 @@
 var a13270 =
 [
-    [ "pyrewood_ambushAI", "d1/d4e/a13274.html", "d1/d4e/a13274" ],
-    [ "pyrewood_ambush", "d0/db6/a13270.html#a07dfe00bcc86320c4968ca10e9480322", null ],
-    [ "GetAI", "d0/db6/a13270.html#a4067c8aca15fe1f783eadd277b635fa8", null ],
-    [ "OnQuestAccept", "d0/db6/a13270.html#add2804a9a76559dc5f051102f067e0bf", null ]
+    [ "npc_greengill_slaveAI", "d0/db6/a13270.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "d0/db6/a13270.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "d0/db6/a13270.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "d0/db6/a13270.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

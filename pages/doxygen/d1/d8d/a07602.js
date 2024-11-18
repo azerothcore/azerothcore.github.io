@@ -1,10 +1,5 @@
 var a07602 =
 [
-    [ "RedirectThreatInfo", "d1/d8d/a07602.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
-    [ "GetTargetGUID", "d1/d8d/a07602.html#ae206110e4d7155bb87079ebd58800e3d", null ],
-    [ "GetThreatPct", "d1/d8d/a07602.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
-    [ "ModifyThreatPct", "d1/d8d/a07602.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
-    [ "Set", "d1/d8d/a07602.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
-    [ "_targetGUID", "d1/d8d/a07602.html#a98f9efc5209ef7200e71ff39310520dd", null ],
-    [ "_threatPct", "d1/d8d/a07602.html#a95d6d366d664888f532d40afd1cc57d2", null ]
+    [ "calcThreat", "d1/d8d/a07602.html#a0f3da2af1c68a535ac2396dd600ee00b", null ],
+    [ "isValidProcess", "d1/d8d/a07602.html#a86dca4bc12138bef3dd53d4b3356f5d2", null ]
 ];

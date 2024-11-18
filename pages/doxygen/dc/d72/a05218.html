@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::GenericBaseEncoding&lt; Encoding &gt; Struct Template Reference</title>
+<title>AzerothCore: Acore::Encoding::Base32 Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,52 +106,33 @@ $(document).ready(function(){initNavTree('dc/d72/a05218.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d3/dd2/a05215.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Encoding::Base32 Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">BaseEncoding.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Base32.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab6808fd4c674e10ce28153394189abf5"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#ab6808fd4c674e10ce28153394189abf5">EncodedSize</a> (std::size_t size)</td></tr>
-<tr class="separator:ab6808fd4c674e10ce28153394189abf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f09527200686c22611e59e995a17ef"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#ae7f09527200686c22611e59e995a17ef">DecodedSize</a> (std::size_t size)</td></tr>
-<tr class="separator:ae7f09527200686c22611e59e995a17ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9132df0434948b03df8f79b6cc48252c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a9132df0434948b03df8f79b6cc48252c">Encode</a> (std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; const &amp;data)</td></tr>
-<tr class="separator:a9132df0434948b03df8f79b6cc48252c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1017c0ca9db8f38832271dbe04a6c22c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a1017c0ca9db8f38832271dbe04a6c22c">Decode</a> (std::string const &amp;data)</td></tr>
-<tr class="separator:a1017c0ca9db8f38832271dbe04a6c22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a04facbd14c7d876af5154cb200d74e6b"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a> = Encoding::BITS_PER_CHAR</td></tr>
-<tr class="separator:a04facbd14c7d876af5154cb200d74e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cec4e14ca170842d1eadf8b7b42b12b"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a> = std::lcm(8u, <a class="el" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</td></tr>
-<tr class="separator:a8cec4e14ca170842d1eadf8b7b42b12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52b675a0956909cdac9413443551086"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#ab52b675a0956909cdac9413443551086">DECODE_ERROR</a> = Encoding::DECODE_ERROR</td></tr>
-<tr class="separator:ab52b675a0956909cdac9413443551086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a328b2cd9dc377fb8d5b6740cde162b92"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a328b2cd9dc377fb8d5b6740cde162b92">PADDING</a> = Encoding::PADDING</td></tr>
-<tr class="separator:a328b2cd9dc377fb8d5b6740cde162b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c439d87d1532c68023e2d612d874e5f"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a5c439d87d1532c68023e2d612d874e5f">Encode</a> (std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; const &amp;data)</td></tr>
+<tr class="separator:a5c439d87d1532c68023e2d612d874e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16eb5c0306f404a3be454430abd01610"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d72/a05218.html#a16eb5c0306f404a3be454430abd01610">Decode</a> (std::string const &amp;data)</td></tr>
+<tr class="separator:a16eb5c0306f404a3be454430abd01610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename Encoding&gt;<br />
-struct Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1017c0ca9db8f38832271dbe04a6c22c" name="a1017c0ca9db8f38832271dbe04a6c22c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1017c0ca9db8f38832271dbe04a6c22c">&#9670;&#160;</a></span>Decode()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a16eb5c0306f404a3be454430abd01610" name="a16eb5c0306f404a3be454430abd01610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16eb5c0306f404a3be454430abd01610">&#9670;&#160;</a></span>Decode()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &gt; <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::Decode </td>
+          <td class="memname"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &gt; Acore::Encoding::Base32::Decode </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
@@ -160,349 +141,52 @@ template&lt;typename Encoding &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  114</span>        {</div>
-<div class="line"><span class="lineno">  115</span>            <span class="keyword">auto</span> it = data.begin(), end = data.end();</div>
-<div class="line"><span class="lineno">  116</span>            <span class="keywordflow">if</span> (it == end)</div>
-<div class="line"><span class="lineno">  117</span>            {</div>
-<div class="line"><span class="lineno">  118</span>                <span class="keywordflow">return</span> std::vector&lt;uint8&gt;();</div>
-<div class="line"><span class="lineno">  119</span>            }</div>
-<div class="line"><span class="lineno">  120</span> </div>
-<div class="line"><span class="lineno">  121</span>            std::vector&lt;uint8&gt; v;</div>
-<div class="line"><span class="lineno">  122</span>            v.reserve(<a class="code hl_function" href="../../dc/d72/a05218.html#ae7f09527200686c22611e59e995a17ef">DecodedSize</a>(data.size()));</div>
-<div class="line"><span class="lineno">  123</span> </div>
-<div class="line"><span class="lineno">  124</span>            <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> currentByte = 0;</div>
-<div class="line"><span class="lineno">  125</span>            <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> bitsLeft = 8; <span class="comment">// in current byte</span></div>
-<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">while</span> ((it != end) &amp;&amp; (*it != <a class="code hl_variable" href="../../dc/d72/a05218.html#a328b2cd9dc377fb8d5b6740cde162b92">PADDING</a>))</div>
-<div class="line"><span class="lineno">  127</span>            {</div>
-<div class="line"><span class="lineno">  128</span>                <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> cur = Encoding::Decode(*(it++));</div>
-<div class="line"><span class="lineno">  129</span>                <span class="keywordflow">if</span> (cur == <a class="code hl_variable" href="../../dc/d72/a05218.html#ab52b675a0956909cdac9413443551086">DECODE_ERROR</a>)</div>
-<div class="line"><span class="lineno">  130</span>                    <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">  131</span> </div>
-<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">if</span> (bitsLeft &gt; <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</div>
-<div class="line"><span class="lineno">  133</span>                {</div>
-<div class="line"><span class="lineno">  134</span>                    bitsLeft -= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>;</div>
-<div class="line"><span class="lineno">  135</span>                    currentByte |= (cur &lt;&lt; bitsLeft);</div>
-<div class="line"><span class="lineno">  136</span>                }</div>
-<div class="line"><span class="lineno">  137</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  138</span>                {</div>
-<div class="line"><span class="lineno">  139</span>                    bitsLeft = <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a> - bitsLeft; <span class="comment">// in encoded char</span></div>
-<div class="line"><span class="lineno">  140</span>                    currentByte |= (cur &gt;&gt; bitsLeft);</div>
-<div class="line"><span class="lineno">  141</span>                    v.push_back(currentByte);</div>
-<div class="line"><span class="lineno">  142</span>                    currentByte = (cur &amp; ((1 &lt;&lt; bitsLeft) - 1));</div>
-<div class="line"><span class="lineno">  143</span>                    bitsLeft = 8 - bitsLeft; <span class="comment">// in byte again</span></div>
-<div class="line"><span class="lineno">  144</span>                    currentByte &lt;&lt;= bitsLeft;</div>
-<div class="line"><span class="lineno">  145</span>                }</div>
-<div class="line"><span class="lineno">  146</span>            }</div>
-<div class="line"><span class="lineno">  147</span> </div>
-<div class="line"><span class="lineno">  148</span>            <span class="keywordflow">if</span> (currentByte)</div>
-<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">return</span> {}; <span class="comment">// decode error, trailing non-zero bits</span></div>
-<div class="line"><span class="lineno">  150</span> </div>
-<div class="line"><span class="lineno">  151</span>            <span class="comment">// process padding</span></div>
-<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">while</span> ((it != end) &amp;&amp; (*it == <a class="code hl_variable" href="../../dc/d72/a05218.html#a328b2cd9dc377fb8d5b6740cde162b92">PADDING</a>) &amp;&amp; (bitsLeft != 8))</div>
-<div class="line"><span class="lineno">  153</span>            {</div>
-<div class="line"><span class="lineno">  154</span>                <span class="keywordflow">if</span> (bitsLeft &gt; <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</div>
-<div class="line"><span class="lineno">  155</span>                {</div>
-<div class="line"><span class="lineno">  156</span>                    bitsLeft -= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>;</div>
-<div class="line"><span class="lineno">  157</span>                }</div>
-<div class="line"><span class="lineno">  158</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  159</span>                {</div>
-<div class="line"><span class="lineno">  160</span>                    bitsLeft += (8 - <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>);</div>
-<div class="line"><span class="lineno">  161</span>                }</div>
-<div class="line"><span class="lineno">  162</span>                ++it;</div>
-<div class="line"><span class="lineno">  163</span>            }</div>
-<div class="line"><span class="lineno">  164</span> </div>
-<div class="line"><span class="lineno">  165</span>            <span class="comment">// ok, all padding should be consumed, and we should be at end of string</span></div>
-<div class="line"><span class="lineno">  166</span>            <span class="keywordflow">if</span> (it == end)</div>
-<div class="line"><span class="lineno">  167</span>            {</div>
-<div class="line"><span class="lineno">  168</span>                <span class="keywordflow">return</span> v;</div>
-<div class="line"><span class="lineno">  169</span>            }</div>
-<div class="line"><span class="lineno">  170</span> </div>
-<div class="line"><span class="lineno">  171</span>            <span class="comment">// anything else is an error</span></div>
-<div class="line"><span class="lineno">  172</span>            <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">  173</span>        }</div>
-<div class="ttc" id="aa00179_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa05218_html_a04facbd14c7d876af5154cb200d74e6b"><div class="ttname"><a href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">Acore::Impl::GenericBaseEncoding::BITS_PER_CHAR</a></div><div class="ttdeci">static constexpr std::size_t BITS_PER_CHAR</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:32</div></div>
-<div class="ttc" id="aa05218_html_a328b2cd9dc377fb8d5b6740cde162b92"><div class="ttname"><a href="../../dc/d72/a05218.html#a328b2cd9dc377fb8d5b6740cde162b92">Acore::Impl::GenericBaseEncoding::PADDING</a></div><div class="ttdeci">static constexpr char PADDING</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:38</div></div>
-<div class="ttc" id="aa05218_html_ab52b675a0956909cdac9413443551086"><div class="ttname"><a href="../../dc/d72/a05218.html#ab52b675a0956909cdac9413443551086">Acore::Impl::GenericBaseEncoding::DECODE_ERROR</a></div><div class="ttdeci">static constexpr uint8 DECODE_ERROR</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:37</div></div>
-<div class="ttc" id="aa05218_html_ae7f09527200686c22611e59e995a17ef"><div class="ttname"><a href="../../dc/d72/a05218.html#ae7f09527200686c22611e59e995a17ef">Acore::Impl::GenericBaseEncoding::DecodedSize</a></div><div class="ttdeci">static constexpr std::size_t DecodedSize(std::size_t size)</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:50</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d03/a05230.html#a1017c0ca9db8f38832271dbe04a6c22c">Acore::Impl::GenericBaseEncoding&lt;B32Impl&gt;::Decode</a>(data);</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aa05230_html_a1017c0ca9db8f38832271dbe04a6c22c"><div class="ttname"><a href="../../d7/d03/a05230.html#a1017c0ca9db8f38832271dbe04a6c22c">Acore::Impl::GenericBaseEncoding::Decode</a></div><div class="ttdeci">static Optional&lt; std::vector&lt; uint8 &gt; &gt; Decode(std::string const &amp;data)</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:113</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00032">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::BITS_PER_CHAR</a>, <a class="el" href="../../#l00037">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::DECODE_ERROR</a>, <a class="el" href="../../#l00050">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::DecodedSize()</a>, and <a class="el" href="../../#l00038">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::PADDING</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00113">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Decode()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00052">Acore::Encoding::Base32::Decode()</a>, and <a class="el" href="../../#l00054">Acore::Encoding::Base64::Decode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00581">account_commandscript::HandleAccountSet2FACommand()</a>.</p>
 
 </div>
 </div>
-<a id="ae7f09527200686c22611e59e995a17ef" name="ae7f09527200686c22611e59e995a17ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f09527200686c22611e59e995a17ef">&#9670;&#160;</a></span>DecodedSize()</h2>
+<a id="a5c439d87d1532c68023e2d612d874e5f" name="a5c439d87d1532c68023e2d612d874e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c439d87d1532c68023e2d612d874e5f">&#9670;&#160;</a></span>Encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr std::size_t <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::DecodedSize </td>
+          <td class="memname">std::string Acore::Encoding::Base32::Encode </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   51</span>        {</div>
-<div class="line"><span class="lineno">   52</span>            size *= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>; <span class="comment">// bits in input</span></div>
-<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">if</span> (size % <a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a>) <span class="comment">// pad to boundary</span></div>
-<div class="line"><span class="lineno">   54</span>            {</div>
-<div class="line"><span class="lineno">   55</span>                size += (<a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a> - (size % <a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a>));</div>
-<div class="line"><span class="lineno">   56</span>            }</div>
-<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">return</span> (size / 8);</div>
-<div class="line"><span class="lineno">   58</span>        }</div>
-<div class="ttc" id="aa05218_html_a8cec4e14ca170842d1eadf8b7b42b12b"><div class="ttname"><a href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">Acore::Impl::GenericBaseEncoding::PAD_TO</a></div><div class="ttdeci">static constexpr std::size_t PAD_TO</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:33</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00032">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::BITS_PER_CHAR</a>, and <a class="el" href="../../#l00033">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::PAD_TO</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00113">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Decode()</a>.</p>
-
-</div>
-</div>
-<a id="a9132df0434948b03df8f79b6cc48252c" name="a9132df0434948b03df8f79b6cc48252c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9132df0434948b03df8f79b6cc48252c">&#9670;&#160;</a></span>Encode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::string <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::Encode </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; const &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; const &amp;&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>        {</div>
-<div class="line"><span class="lineno">   62</span>            <span class="keyword">auto</span> it = data.begin(), end = data.end();</div>
-<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">if</span> (it == end)</div>
-<div class="line"><span class="lineno">   64</span>            {</div>
-<div class="line"><span class="lineno">   65</span>                <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   66</span>            }</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>            std::string s;</div>
-<div class="line"><span class="lineno">   69</span>            s.reserve(<a class="code hl_function" href="../../dc/d72/a05218.html#ab6808fd4c674e10ce28153394189abf5">EncodedSize</a>(data.size()));</div>
-<div class="line"><span class="lineno">   70</span> </div>
-<div class="line"><span class="lineno">   71</span>            <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> bitsLeft = 8; <span class="comment">// in current byte</span></div>
-<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">   73</span>            {</div>
-<div class="line"><span class="lineno">   74</span>                <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> thisC = 0;</div>
-<div class="line"><span class="lineno">   75</span>                <span class="keywordflow">if</span> (bitsLeft &gt;= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</div>
-<div class="line"><span class="lineno">   76</span>                {</div>
-<div class="line"><span class="lineno">   77</span>                    bitsLeft -= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>;</div>
-<div class="line"><span class="lineno">   78</span>                    thisC = ((*it &gt;&gt; bitsLeft) &amp; ((1 &lt;&lt; <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>) - 1));</div>
-<div class="line"><span class="lineno">   79</span>                    <span class="keywordflow">if</span> (!bitsLeft)</div>
-<div class="line"><span class="lineno">   80</span>                    {</div>
-<div class="line"><span class="lineno">   81</span>                        ++it;</div>
-<div class="line"><span class="lineno">   82</span>                        bitsLeft = 8;</div>
-<div class="line"><span class="lineno">   83</span>                    }</div>
-<div class="line"><span class="lineno">   84</span>                }</div>
-<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   86</span>                {</div>
-<div class="line"><span class="lineno">   87</span>                    thisC = (*it &amp; ((1 &lt;&lt; bitsLeft) - 1)) &lt;&lt; (<a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a> - bitsLeft);</div>
-<div class="line"><span class="lineno">   88</span>                    bitsLeft += (8 - <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>);</div>
-<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">if</span> ((++it) != end)</div>
-<div class="line"><span class="lineno">   90</span>                    {</div>
-<div class="line"><span class="lineno">   91</span>                        thisC |= (*it &gt;&gt; bitsLeft);</div>
-<div class="line"><span class="lineno">   92</span>                    }</div>
-<div class="line"><span class="lineno">   93</span>                }</div>
-<div class="line"><span class="lineno">   94</span>                s.append(1, Encoding::Encode(thisC));</div>
-<div class="line"><span class="lineno">   95</span>            } <span class="keywordflow">while</span> (it != end);</div>
-<div class="line"><span class="lineno">   96</span> </div>
-<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">while</span> (bitsLeft != 8)</div>
-<div class="line"><span class="lineno">   98</span>            {</div>
-<div class="line"><span class="lineno">   99</span>                <span class="keywordflow">if</span> (bitsLeft &gt; <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</div>
-<div class="line"><span class="lineno">  100</span>                {</div>
-<div class="line"><span class="lineno">  101</span>                    bitsLeft -= <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>;</div>
-<div class="line"><span class="lineno">  102</span>                }</div>
-<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  104</span>                {</div>
-<div class="line"><span class="lineno">  105</span>                    bitsLeft += (8 - <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>);</div>
-<div class="line"><span class="lineno">  106</span>                }</div>
-<div class="line"><span class="lineno">  107</span>                s.append(1, <a class="code hl_variable" href="../../dc/d72/a05218.html#a328b2cd9dc377fb8d5b6740cde162b92">PADDING</a>);</div>
-<div class="line"><span class="lineno">  108</span>            }</div>
-<div class="line"><span class="lineno">  109</span> </div>
-<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  111</span>        }</div>
-<div class="ttc" id="aa05218_html_ab6808fd4c674e10ce28153394189abf5"><div class="ttname"><a href="../../dc/d72/a05218.html#ab6808fd4c674e10ce28153394189abf5">Acore::Impl::GenericBaseEncoding::EncodedSize</a></div><div class="ttdeci">static constexpr std::size_t EncodedSize(std::size_t size)</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:40</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d03/a05230.html#a9132df0434948b03df8f79b6cc48252c">Acore::Impl::GenericBaseEncoding&lt;B32Impl&gt;::Encode</a>(data);</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+<div class="ttc" id="aa05230_html_a9132df0434948b03df8f79b6cc48252c"><div class="ttname"><a href="../../d7/d03/a05230.html#a9132df0434948b03df8f79b6cc48252c">Acore::Impl::GenericBaseEncoding::Encode</a></div><div class="ttdeci">static std::string Encode(std::vector&lt; uint8 &gt; const &amp;data)</div><div class="ttdef"><b>Definition:</b> BaseEncoding.h:60</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00032">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::BITS_PER_CHAR</a>, <a class="el" href="../../#l00040">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::EncodedSize()</a>, and <a class="el" href="../../#l00038">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::PADDING</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00060">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Encode()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00047">Acore::Encoding::Base32::Encode()</a>, and <a class="el" href="../../#l00049">Acore::Encoding::Base64::Encode()</a>.</p>
-
-</div>
-</div>
-<a id="ab6808fd4c674e10ce28153394189abf5" name="ab6808fd4c674e10ce28153394189abf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6808fd4c674e10ce28153394189abf5">&#9670;&#160;</a></span>EncodedSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr std::size_t <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::EncodedSize </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>        {</div>
-<div class="line"><span class="lineno">   42</span>            size *= 8; <span class="comment">// bits in input</span></div>
-<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">if</span> (size % <a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a>) <span class="comment">// pad to boundary</span></div>
-<div class="line"><span class="lineno">   44</span>            {</div>
-<div class="line"><span class="lineno">   45</span>                size += (<a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a> - (size % <a class="code hl_variable" href="../../dc/d72/a05218.html#a8cec4e14ca170842d1eadf8b7b42b12b">PAD_TO</a>));</div>
-<div class="line"><span class="lineno">   46</span>            }</div>
-<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">return</span> (size / <a class="code hl_variable" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>);</div>
-<div class="line"><span class="lineno">   48</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00032">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::BITS_PER_CHAR</a>, and <a class="el" href="../../#l00033">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::PAD_TO</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00060">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Encode()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a04facbd14c7d876af5154cb200d74e6b" name="a04facbd14c7d876af5154cb200d74e6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04facbd14c7d876af5154cb200d74e6b">&#9670;&#160;</a></span>BITS_PER_CHAR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::BITS_PER_CHAR = Encoding::BITS_PER_CHAR</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00113">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Decode()</a>, <a class="el" href="../../#l00050">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::DecodedSize()</a>, <a class="el" href="../../#l00060">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Encode()</a>, and <a class="el" href="../../#l00040">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::EncodedSize()</a>.</p>
-
-</div>
-</div>
-<a id="ab52b675a0956909cdac9413443551086" name="ab52b675a0956909cdac9413443551086"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52b675a0956909cdac9413443551086">&#9670;&#160;</a></span>DECODE_ERROR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::DECODE_ERROR = Encoding::DECODE_ERROR</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00113">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Decode()</a>.</p>
-
-</div>
-</div>
-<a id="a8cec4e14ca170842d1eadf8b7b42b12b" name="a8cec4e14ca170842d1eadf8b7b42b12b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cec4e14ca170842d1eadf8b7b42b12b">&#9670;&#160;</a></span>PAD_TO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::PAD_TO = std::lcm(8u, <a class="el" href="../../dc/d72/a05218.html#a04facbd14c7d876af5154cb200d74e6b">BITS_PER_CHAR</a>)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00050">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::DecodedSize()</a>, and <a class="el" href="../../#l00040">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::EncodedSize()</a>.</p>
-
-</div>
-</div>
-<a id="a328b2cd9dc377fb8d5b6740cde162b92" name="a328b2cd9dc377fb8d5b6740cde162b92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a328b2cd9dc377fb8d5b6740cde162b92">&#9670;&#160;</a></span>PADDING</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Encoding &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char <a class="el" href="../../dc/d72/a05218.html">Acore::Impl::GenericBaseEncoding</a>&lt; Encoding &gt;::PADDING = Encoding::PADDING</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00113">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Decode()</a>, and <a class="el" href="../../#l00060">Acore::Impl::GenericBaseEncoding&lt; Encoding &gt;::Encode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00101">account_commandscript::HandleAccount2FASetupCommand()</a>.</p>
 
 </div>
 </div>
@@ -511,8 +195,8 @@ template&lt;typename Encoding &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04685.html">Impl</a></li><li class="navelem"><a class="el" href="../../dc/d72/a05218.html">GenericBaseEncoding</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/d4b/a04700.html">Encoding</a></li><li class="navelem"><a class="el" href="../../dc/d72/a05218.html">Base32</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

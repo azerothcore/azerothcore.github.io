@@ -1,7 +1,8 @@
 var a09090 =
 [
-    [ "AnyPlayerExactPositionInGameObjectRangeCheck", "d7/d3f/a09090.html#a51100c20d5b7f795f062dfaa5aa65017", null ],
-    [ "operator()", "d7/d3f/a09090.html#a0dd7216a026b7f90b293b2adf20a0191", null ],
-    [ "_go", "d7/d3f/a09090.html#a70e0b15948cf34a7c759885949560dcd", null ],
-    [ "_range", "d7/d3f/a09090.html#ad91342e50833e3b9d75c5e548248941f", null ]
+    [ "AnyAssistCreatureInRangeCheck", "d7/d3f/a09090.html#a2e9cbff4e627fe8ccf67997123afe0a6", null ],
+    [ "operator()", "d7/d3f/a09090.html#a314a4800047f7e661cd011010b3f148e", null ],
+    [ "i_enemy", "d7/d3f/a09090.html#a37318ae783e6cf4a658063aab149e8a3", null ],
+    [ "i_funit", "d7/d3f/a09090.html#add1071091d1696c3f537483810dcb6f1", null ],
+    [ "i_range", "d7/d3f/a09090.html#a4bcf67be5bae4649d82586349d30be04", null ]
 ];

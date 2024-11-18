@@ -1,12 +1,7 @@
 var a12606 =
 [
-    [ "npc_scarlet_minerAI", "d8/df3/a12606.html#a7f5ca173103eb4498ce41912bda5da66", null ],
-    [ "InitCartQuest", "d8/df3/a12606.html#a5d3ece8f2f02a2bae4550a41f55348b0", null ],
-    [ "InitWaypoint", "d8/df3/a12606.html#a7fe048368b6e0a43b5be501a24773b8c", null ],
-    [ "Reset", "d8/df3/a12606.html#a2a8660173dc32c38de917049eb33fff8", null ],
-    [ "UpdateAI", "d8/df3/a12606.html#a48d2c92a4d45d5e59252f9455b82cbbd", null ],
-    [ "WaypointReached", "d8/df3/a12606.html#a31f4363e269b51d3a002a132b5516dd0", null ],
-    [ "carGUID", "d8/df3/a12606.html#a963f9c0ca58ce160b43f36f5a9f7dee7", null ],
-    [ "IntroPhase", "d8/df3/a12606.html#a094c2ee20d13c88805c3de7f9f94b86e", null ],
-    [ "IntroTimer", "d8/df3/a12606.html#adae2103753dd62699359ff01ac3ba865", null ]
+    [ "npc_unworthy_initiate_anchorAI", "d8/df3/a12606.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
+    [ "GetGUID", "d8/df3/a12606.html#a83cca82e7d75231a6aa586f67dad766e", null ],
+    [ "SetGUID", "d8/df3/a12606.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
+    [ "prisonerGUID", "d8/df3/a12606.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
 ];

@@ -1,6 +1,7 @@
 var a22546 =
 [
-    [ "boss_essence_of_sufferingAI", "d6/d1a/a22550.html", "d6/d1a/a22550" ],
-    [ "boss_essence_of_suffering", "de/d5a/a22546.html#a1237f428657f0e9a0218695264358384", null ],
-    [ "GetAI", "de/d5a/a22546.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
+    [ "SuckBackEvent", "de/d5a/a22546.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "de/d5a/a22546.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "de/d5a/a22546.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "de/d5a/a22546.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

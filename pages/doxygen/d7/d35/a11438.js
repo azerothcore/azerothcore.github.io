@@ -1,9 +1,7 @@
 var a11438 =
 [
-    [ "send_commandscript", "d7/d35/a11438.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
-    [ "GetCommands", "d7/d35/a11438.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
-    [ "HandleSendItemsCommand", "d7/d35/a11438.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
-    [ "HandleSendMailCommand", "d7/d35/a11438.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
-    [ "HandleSendMessageCommand", "d7/d35/a11438.html#a91017e6171ac9e4dfff6c2036228de47", null ],
-    [ "HandleSendMoneyCommand", "d7/d35/a11438.html#a26938bb54bb3cb678c49737a92cadb56", null ]
+    [ "player_commandscript", "d7/d35/a11438.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
+    [ "GetCommands", "d7/d35/a11438.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
+    [ "HandlePlayerLearnCommand", "d7/d35/a11438.html#a6ca511bcecf73049665772cb80dbcf40", null ],
+    [ "HandlePlayerUnLearnCommand", "d7/d35/a11438.html#a22fddb5da1278fe794a78a899c423bfd", null ]
 ];

@@ -1,6 +1,6 @@
 var a13562 =
 [
-    [ "boss_hakkarAI", "d9/d68/a13566.html", "d9/d68/a13566" ],
-    [ "boss_hakkar", "d5/d41/a13562.html#a834bd1f223154fbf1be94bf43136da28", null ],
-    [ "GetAI", "d5/d41/a13562.html#aff3a089e30dcddfde4db372104153723", null ]
+    [ "OnEffect", "d5/d41/a13562.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
+    [ "PrepareSpellScript", "d5/d41/a13562.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
+    [ "Register", "d5/d41/a13562.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
 ];

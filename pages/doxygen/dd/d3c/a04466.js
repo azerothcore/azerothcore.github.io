@@ -1,4 +1,4 @@
 var a04466 =
 [
-    [ "sWorldSocketMgr", "d5/d43/a04668.html#ga43ae464e29649083953e305b20b3e27f", null ]
+    [ "InstanceMapScript", "d0/d65/a10062.html", "d0/d65/a10062" ]
 ];

@@ -1,6 +1,6 @@
 var a12998 =
 [
-    [ "CastArmageddon", "dd/dde/a12998.html#a2e90929b63e6151252aa01a55dbd801f", null ],
-    [ "Execute", "dd/dde/a12998.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
-    [ "_caster", "dd/dde/a12998.html#a1e70887099a7a47b7c26517d4363ad93", null ]
+    [ "SpectralBlastCheck", "dd/dde/a12998.html#ada2eda8781891a4049ee30c5ecb81c3c", null ],
+    [ "operator()", "dd/dde/a12998.html#afbe13a5f90a5b95832e14fe9d7affc9f", null ],
+    [ "_victim", "dd/dde/a12998.html#ab96456159d61e781aa8d691dd0b1fec1", null ]
 ];

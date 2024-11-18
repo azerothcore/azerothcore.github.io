@@ -1,9 +1,6 @@
 var a17270 =
 [
-    [ "CalculateDamage", "d3/df0/a17270.html#a6a9e90d9463825b38b69afc234b35b39", null ],
-    [ "PrepareSpellScript", "d3/df0/a17270.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
-    [ "Register", "d3/df0/a17270.html#a2722814a55469e5bae572766ed36309b", null ],
-    [ "RemoveEnergy", "d3/df0/a17270.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
-    [ "StoreEnergy", "d3/df0/a17270.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
-    [ "_energyLeft", "d3/df0/a17270.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
+    [ "HandlePeriodicTick", "d3/df0/a17270.html#accfe8a0cea8af9c9474d25fc3e7c7e22", null ],
+    [ "PrepareAuraScript", "d3/df0/a17270.html#a9962029ce4a5223d7aa05068e8d83326", null ],
+    [ "Register", "d3/df0/a17270.html#a64cf56299c8ab5292dbc9cddcee5f841", null ]
 ];

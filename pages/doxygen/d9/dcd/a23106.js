@@ -1,11 +1,8 @@
 var a23106 =
 [
-    [ "boss_gruul", "d9/dcd/a23106.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "d9/dcd/a23106.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "d9/dcd/a23106.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "d9/dcd/a23106.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "d9/dcd/a23106.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "d9/dcd/a23106.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "d9/dcd/a23106.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "d9/dcd/a23106.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "npc_underbat", "d9/dcd/a23106.html#a710a010d3425b7171ee45d8465fd6b2b", null ],
+    [ "JustEngagedWith", "d9/dcd/a23106.html#ae137b6b763b3df6096c3bfd4dd7ee676", null ],
+    [ "Reset", "d9/dcd/a23106.html#aae771ad526e8f72a90fe70ebbd91b472", null ],
+    [ "UpdateAI", "d9/dcd/a23106.html#ab3a9b97543aee3fdf22c17e94f768c0e", null ],
+    [ "_scheduler", "d9/dcd/a23106.html#a7644a73c2a5bcbbe0a3db5c782169752", null ]
 ];

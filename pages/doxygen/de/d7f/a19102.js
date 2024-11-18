@@ -1,16 +1,9 @@
 var a19102 =
 [
-    [ "boss_bjarngrimAI", "de/d7f/a19102.html#ab599d5f62638d622c560f5b63e645b50", null ],
-    [ "JustDied", "de/d7f/a19102.html#adcad5667168768d8f3c8235735f357b1", null ],
-    [ "JustEngagedWith", "de/d7f/a19102.html#a2e99538fdc107bc7e91c23898c178047", null ],
-    [ "KilledUnit", "de/d7f/a19102.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
-    [ "RemoveStanceAura", "de/d7f/a19102.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
-    [ "Reset", "de/d7f/a19102.html#a138d14f9666b03dda50f6adeea609046", null ],
-    [ "RollStance", "de/d7f/a19102.html#a70791697fde5c6194226fd42c893385a", null ],
-    [ "UpdateEscortAI", "de/d7f/a19102.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
-    [ "WaypointReached", "de/d7f/a19102.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
-    [ "events", "de/d7f/a19102.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
-    [ "m_pInstance", "de/d7f/a19102.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
-    [ "m_uiStance", "de/d7f/a19102.html#abd4d058fad17b56bc29a165d74062dd0", null ],
-    [ "summons", "de/d7f/a19102.html#a02bd445d2c969ea186a48f68585e640c", null ]
+    [ "HandleOnEffectApply", "de/d7f/a19102.html#a6ab047004cc901331d747641f218cf6a", null ],
+    [ "HandleOnEffectRemove", "de/d7f/a19102.html#a9f66217f4785c8240c4b074bbf04b96e", null ],
+    [ "PrepareAuraScript", "de/d7f/a19102.html#aa94b30468b2c853c0d8b86658a43dee4", null ],
+    [ "Register", "de/d7f/a19102.html#a83b0d414a6e97b434f82492fa01ac385", null ],
+    [ "Validate", "de/d7f/a19102.html#a88af7f269f56e474434d51c7ac0eb0a0", null ],
+    [ "_drakeGUID", "de/d7f/a19102.html#a2e0c7df73cc7246524f6d745ff1fbeb1", null ]
 ];

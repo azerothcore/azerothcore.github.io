@@ -1,12 +1,16 @@
 var a11214 =
 [
-    [ "WardenMac", "d6/d53/a11214.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "d6/d53/a11214.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "d6/d53/a11214.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "d6/d53/a11214.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "d6/d53/a11214.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "d6/d53/a11214.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "d6/d53/a11214.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "d6/d53/a11214.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "d6/d53/a11214.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "CheckContainer", "d6/d53/a11214.html#a08e083224760d2bca1996da9cd9cb014", null ],
+    [ "CheckResultContainer", "d6/d53/a11214.html#a6ce6feb03f6e0250bc03fea4612098df", null ],
+    [ "WardenCheckMgr", "d6/d53/a11214.html#a2de08c0613dd688f4bbbb4cc572f3d72", null ],
+    [ "~WardenCheckMgr", "d6/d53/a11214.html#a0d89190f580435337c328da4bf2497b8", null ],
+    [ "GetMaxValidCheckId", "d6/d53/a11214.html#a79926d8228c3252fc0eabe295f6e78a8", null ],
+    [ "GetWardenDataById", "d6/d53/a11214.html#a290e74857c1b1a50ced0a46b7477fa4c", null ],
+    [ "GetWardenResultById", "d6/d53/a11214.html#a8c06b4f57a84a8229ad1674a5048ced9", null ],
+    [ "instance", "d6/d53/a11214.html#aba9de1e123070338dc0049db8d8f0663", null ],
+    [ "LoadWardenChecks", "d6/d53/a11214.html#ad02847547a06d98c582d09992dce9d11", null ],
+    [ "LoadWardenOverrides", "d6/d53/a11214.html#a0a82e118a8f8236fecf1b00de0e2071c", null ],
+    [ "CheckIdPool", "d6/d53/a11214.html#ac1d20dec3028cdff0f475c4aff8af928", null ],
+    [ "CheckResultStore", "d6/d53/a11214.html#a4f0224b8377827aced304b28fdefbda7", null ],
+    [ "CheckStore", "d6/d53/a11214.html#aac59e154d81b838f27c577af87b86bd1", null ]
 ];

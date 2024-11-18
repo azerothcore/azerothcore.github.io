@@ -1,6 +1,6 @@
 var a11922 =
 [
-    [ "boss_firemawAI", "d7/d40/a11926.html", "d7/d40/a11926" ],
-    [ "boss_firemaw", "d8/de7/a11922.html#a71174eb128356802be0029fd9e24fe1f", null ],
-    [ "GetAI", "d8/de7/a11922.html#a3a20bcefa86a21daaecaef14396dadc4", null ]
+    [ "go_chromaggus_leverAI", "d8/de7/a11922.html#a51406a7e313702282cebfbf067c9ce4e", null ],
+    [ "GossipHello", "d8/de7/a11922.html#a44ece597fcfcf290234cc1ef073fbf18", null ],
+    [ "_instance", "d8/de7/a11922.html#a364f66c7cf0a7bc4a3ea97b87ebe9f90", null ]
 ];

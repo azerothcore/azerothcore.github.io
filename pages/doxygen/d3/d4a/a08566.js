@@ -1,7 +1,8 @@
 var a08566 =
 [
-    [ "done", "d3/d4a/a08566.html#a498ebc454773a2c4c8d9452ed5bd3015", null ],
-    [ "done_world_state", "d3/d4a/a08566.html#a679379a2b44542e74d103ba851811b52", null ],
-    [ "max_world_state", "d3/d4a/a08566.html#a819dcff56a5795a63146aca64b46811b", null ],
-    [ "reqNum", "d3/d4a/a08566.html#ae74eb755e1a6f5d8800790351f662d21", null ]
+    [ "VehicleSeat", "d3/d4a/a08566.html#ad2d19e3fc73c06cd7c8e339bd2b45a0c", null ],
+    [ "IsEmpty", "d3/d4a/a08566.html#a9f68076857cb85ee7679f04043acdedc", null ],
+    [ "Passenger", "d3/d4a/a08566.html#ac334f2f573bf52f164d570f8b83fc197", null ],
+    [ "SeatAddon", "d3/d4a/a08566.html#a3c46401aa5859287e4bcb24141c848cc", null ],
+    [ "SeatInfo", "d3/d4a/a08566.html#add0cf92d445f6ea0cf910b0bc0d80b62", null ]
 ];

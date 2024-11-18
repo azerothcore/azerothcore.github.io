@@ -1,6 +1,4 @@
 var a14062 =
 [
-    [ "OnApply", "df/d01/a14062.html#a30d33268b58507c228a4628031bffca0", null ],
-    [ "PrepareAuraScript", "df/d01/a14062.html#a16dc3f52152d63b5512690c761f9915a", null ],
-    [ "Register", "df/d01/a14062.html#a6494e4d7277e910ffa3b30c333117f00", null ]
+    [ "npc_midsummer_bonfire_despawner", "df/d01/a14062.html#aacb82b08ec0fef0f53d7e251e010abd8", null ]
 ];

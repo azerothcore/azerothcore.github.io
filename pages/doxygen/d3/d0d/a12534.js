@@ -1,8 +1,9 @@
 var a12534 =
 [
-    [ "npc_death_knight_initiateAI", "d5/dcb/a12538.html", "d5/dcb/a12538" ],
-    [ "npc_death_knight_initiate", "d3/d0d/a12534.html#a0c1b552035bed7be9af1fbdf8205b4b6", null ],
-    [ "GetAI", "d3/d0d/a12534.html#ac38e0ed0ea1eac8e0de6f08664cb095a", null ],
-    [ "OnGossipHello", "d3/d0d/a12534.html#a24f1b91ad0a69e4468e812747225d303", null ],
-    [ "OnGossipSelect", "d3/d0d/a12534.html#ab0712bc84003b5eb72f11b49ef6e57a7", null ]
+    [ "boss_vexallus", "d3/d0d/a12534.html#a68c32ed70274e9f135b7a9107f888c91", null ],
+    [ "JustEngagedWith", "d3/d0d/a12534.html#aa9d37e8132c715552e2ce0102ac9a59b", null ],
+    [ "JustSummoned", "d3/d0d/a12534.html#a9bc7808889da754bae9c935418975f90", null ],
+    [ "KilledUnit", "d3/d0d/a12534.html#a48d44cc3ed6f0e7f97f76cd325e5c48e", null ],
+    [ "Reset", "d3/d0d/a12534.html#a6ecf0817f6b1811fe9c62ac83d4b3dcc", null ],
+    [ "SummonedCreatureDies", "d3/d0d/a12534.html#a4bd88222143d8db098312cff8a2fc969", null ]
 ];

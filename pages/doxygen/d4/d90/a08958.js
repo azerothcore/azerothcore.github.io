@@ -1,9 +1,8 @@
 var a08958 =
 [
-    [ "PlayerDistWorker", "d4/d90/a08958.html#a53c207607485724ba7c3aa5e9fd02b51", null ],
-    [ "Visit", "d4/d90/a08958.html#a6cb5d9bdf26bc96a24e5660ca3b3758b", null ],
-    [ "Visit", "d4/d90/a08958.html#a2658f12f90953f1057a9377b21824879", null ],
-    [ "i_dist", "d4/d90/a08958.html#aad16511b6a9aaa3eb561f636475ffe97", null ],
-    [ "i_do", "d4/d90/a08958.html#a0e1738a71d7feda9f607ee964ff1fff2", null ],
-    [ "i_searcher", "d4/d90/a08958.html#a3a3bf9b1a4bd06c54c99ceb7ba39941f", null ]
+    [ "PlayerListSearcher", "d4/d90/a08958.html#a82520531c26a6c9645956739538cd286", null ],
+    [ "Visit", "d4/d90/a08958.html#a5cec285c685fce6ac215ac0cde740168", null ],
+    [ "Visit", "d4/d90/a08958.html#a87980d05e12069a42baea27ee0e937d3", null ],
+    [ "i_check", "d4/d90/a08958.html#ad49658237a1e6bf54852d4fc127ea660", null ],
+    [ "i_phaseMask", "d4/d90/a08958.html#ae61e586baa621b0dbd15d453d1320091", null ]
 ];

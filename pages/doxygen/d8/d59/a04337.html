@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Packets/PacketUtilities.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/FormulaScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,23 +104,104 @@ $(document).ready(function(){initNavTree('d8/d59/a04337.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">PacketUtilities.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">FormulaScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">PacketUtilities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Hyperlinks.h</a>&quot;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;utf8.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html">FormulaScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a201bafc9783763d9953381d3aa09bf69"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69">FormulaHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419">FORMULAHOOK_ON_HONOR_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4">FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436">FORMULAHOOK_ON_COLOR_CODE_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f">FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86">FORMULAHOOK_ON_BASE_GAIN_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52">FORMULAHOOK_ON_GAIN_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf">FORMULAHOOK_ON_GROUP_RATE_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92">FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33">FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f">FORMULAHOOK_END</a>
+<br />
+ }</td></tr>
+<tr class="separator:a201bafc9783763d9953381d3aa09bf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a201bafc9783763d9953381d3aa09bf69" name="a201bafc9783763d9953381d3aa09bf69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a201bafc9783763d9953381d3aa09bf69">&#9670;&#160;</a></span>FormulaHook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69">FormulaHook</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419" name="a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419"></a>FORMULAHOOK_ON_HONOR_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4" name="a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4"></a>FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436" name="a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436"></a>FORMULAHOOK_ON_COLOR_CODE_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f" name="a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f"></a>FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86" name="a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86"></a>FORMULAHOOK_ON_BASE_GAIN_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52" name="a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52"></a>FORMULAHOOK_ON_GAIN_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf" name="a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf"></a>FORMULAHOOK_ON_GROUP_RATE_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92" name="a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92"></a>FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33" name="a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33"></a>FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f" name="a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f"></a>FORMULAHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419">FORMULAHOOK_ON_HONOR_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4">FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436">FORMULAHOOK_ON_COLOR_CODE_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f">FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86">FORMULAHOOK_ON_BASE_GAIN_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52">FORMULAHOOK_ON_GAIN_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf">FORMULAHOOK_ON_GROUP_RATE_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92">FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION</a>,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33">FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING</a>,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f">FORMULAHOOK_END</a></div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf">FORMULAHOOK_ON_GROUP_RATE_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_GROUP_RATE_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:32</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419">FORMULAHOOK_ON_HONOR_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_HONOR_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:26</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f">FORMULAHOOK_END</a></div><div class="ttdeci">@ FORMULAHOOK_END</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:35</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f">FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:29</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52">FORMULAHOOK_ON_GAIN_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_GAIN_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:31</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33">FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING</a></div><div class="ttdeci">@ FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:34</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436">FORMULAHOOK_ON_COLOR_CODE_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_COLOR_CODE_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:28</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4">FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:27</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92">FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:33</div></div>
+<div class="ttc" id="aa04337_html_a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86"><div class="ttname"><a href="../../d8/d59/a04337.html#a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86">FORMULAHOOK_ON_BASE_GAIN_CALCULATION</a></div><div class="ttdeci">@ FORMULAHOOK_ON_BASE_GAIN_CALCULATION</div><div class="ttdef"><b>Definition:</b> FormulaScript.h:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_07fbe19a361de996bef604f9408f4a7b.html">Packets</a></li><li class="navelem"><a class="el" href="../../d8/d59/a04337.html">PacketUtilities.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d8/d59/a04337.html">FormulaScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

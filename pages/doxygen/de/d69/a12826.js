@@ -1,6 +1,8 @@
 var a12826 =
 [
-    [ "instance_shadowfang_keep_InstanceMapScript", "d2/def/a12830.html", "d2/def/a12830" ],
-    [ "instance_shadowfang_keep", "de/d69/a12826.html#aa6817df7270fbf9397c6b66b28d0f6f8", null ],
-    [ "GetInstanceScript", "de/d69/a12826.html#a5c076ed86470247de5b4e3733b70fa25", null ]
+    [ "FilterTargets", "de/d69/a12826.html#a4c7627dc20c4dafcee4d6faf97d3914e", null ],
+    [ "HandleScript", "de/d69/a12826.html#aecb62c147905d0a4fe60086b8028df0b", null ],
+    [ "PrepareSpellScript", "de/d69/a12826.html#a84ed93d5235781d9d53a47fff39d3ad2", null ],
+    [ "Register", "de/d69/a12826.html#a2832f131d99608923ade8070e17da86d", null ],
+    [ "Validate", "de/d69/a12826.html#a1a510f9cf49df69c5904cb79c8cdc860", null ]
 ];

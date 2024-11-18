@@ -1,21 +1,10 @@
 var a04307 =
 [
-    [ "Arena", "d3/de9/a07014.html", "d3/de9/a07014" ],
-    [ "ArenaBroadcastTexts", "d9/d4e/a04307.html#a407f2036481e3d9e2def3daa50546c71", [
-      [ "ARENA_TEXT_START_ONE_MINUTE", "d9/d4e/a04307.html#a407f2036481e3d9e2def3daa50546c71a12b484d249dd320cfc39bdf39279d854", null ],
-      [ "ARENA_TEXT_START_THIRTY_SECONDS", "d9/d4e/a04307.html#a407f2036481e3d9e2def3daa50546c71a49cdd0c5a035f182212d6fe53a1e2084", null ],
-      [ "ARENA_TEXT_START_FIFTEEN_SECONDS", "d9/d4e/a04307.html#a407f2036481e3d9e2def3daa50546c71a96636e959a178535f5d886c81ec6a8d9", null ],
-      [ "ARENA_TEXT_START_BATTLE_HAS_BEGUN", "d9/d4e/a04307.html#a407f2036481e3d9e2def3daa50546c71a60ff93f414424628c66faf8f424f1dcd", null ]
-    ] ],
-    [ "ArenaSpellIds", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9", [
-      [ "SPELL_ALLIANCE_GOLD_FLAG", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a310e16f368a3a7d80eeecbaecd5c489c", null ],
-      [ "SPELL_ALLIANCE_GREEN_FLAG", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9aeae9474d707e5496dfdf0fd49871bb9f", null ],
-      [ "SPELL_HORDE_GOLD_FLAG", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a83058f9219943bb8b4d4a3024d172af0", null ],
-      [ "SPELL_HORDE_GREEN_FLAG", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9ad76f572a30c966179ca9c2c2c26f4222", null ],
-      [ "SPELL_LAST_MAN_STANDING", "d9/d4e/a04307.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a20018007a38c253b1c4d00d9b0b375bd", null ]
-    ] ],
-    [ "ArenaWorldStates", "d9/d4e/a04307.html#a4e26c0d0a6eb60865e57376951c14960", [
-      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GREEN", "d9/d4e/a04307.html#a4e26c0d0a6eb60865e57376951c14960aea2da1b05ab1767fc34bf78021858c3a", null ],
-      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GOLD", "d9/d4e/a04307.html#a4e26c0d0a6eb60865e57376951c14960afa467140e9e2c255b8d46937c40833a1", null ]
+    [ "GameEventScript", "de/d67/a10034.html", "de/d67/a10034" ],
+    [ "GameEventHook", "d9/d4e/a04307.html#a6f634b591917b5ff2ab57f9739afa44b", [
+      [ "GAMEEVENTHOOK_ON_START", "d9/d4e/a04307.html#a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6", null ],
+      [ "GAMEEVENTHOOK_ON_STOP", "d9/d4e/a04307.html#a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d", null ],
+      [ "GAMEEVENTHOOK_ON_EVENT_CHECK", "d9/d4e/a04307.html#a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f", null ],
+      [ "GAMEEVENTHOOK_END", "d9/d4e/a04307.html#a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395", null ]
     ] ]
 ];

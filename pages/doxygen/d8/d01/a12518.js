@@ -1,6 +1,6 @@
 var a12518 =
 [
-    [ "instance_magisters_terrace_InstanceMapScript", "da/de7/a12522.html", "da/de7/a12522" ],
-    [ "instance_magisters_terrace", "d8/d01/a12518.html#a81e23ce04c4d765193d2d2763ef78987", null ],
-    [ "GetInstanceScript", "d8/d01/a12518.html#a465cbaebb13535cdb7f6a2108e026fc5", null ]
+    [ "boss_garaxxas", "d8/d01/a12518.html#af34e3ef5dac400fb7c217f46345ee9bb", null ],
+    [ "JustEngagedWith", "d8/d01/a12518.html#aebfd7b63d714468ed69e920fb89c345d", null ],
+    [ "Reset", "d8/d01/a12518.html#a56e6489ce49971cb066444888355626e", null ]
 ];

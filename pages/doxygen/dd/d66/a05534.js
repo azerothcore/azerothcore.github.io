@@ -1,9 +1,25 @@
 var a05534 =
 [
-    [ "AccountFlags", "dd/d66/a05534.html#aa8e111f748d165f854b2deff5a81577f", null ],
-    [ "cmd", "dd/d66/a05534.html#a5846630b9df94b9f4784e59e7f320257", null ],
-    [ "error", "dd/d66/a05534.html#a5cbbda99be5cd0549dd43fc0e546007e", null ],
-    [ "LoginFlags", "dd/d66/a05534.html#adb807963195c0abbb840aca64499f630", null ],
-    [ "M2", "dd/d66/a05534.html#a2199b33bc93fb6a8add5ba36eab0514e", null ],
-    [ "SurveyId", "dd/d66/a05534.html#ad05c428ccd8fbdce40dc4f337de19fb8", null ]
+    [ "flag96", "dd/d66/a05534.html#a489bcb41948c71aaee236389ffe54a42", null ],
+    [ "flag96", "dd/d66/a05534.html#aba036b2e11561fd76165054e06dbf6b4", null ],
+    [ "flag96", "dd/d66/a05534.html#a29ce17d3901e06cbc1c76393016078f9", null ],
+    [ "HasFlag", "dd/d66/a05534.html#a2c9141d8a8ecb0d83097a3a3a53de579", null ],
+    [ "IsEqual", "dd/d66/a05534.html#a4423feea3f91d51a14f2d10da5c5b4c3", null ],
+    [ "operator bool", "dd/d66/a05534.html#a40e750e2388884ee7990c65611c0cd24", null ],
+    [ "operator!", "dd/d66/a05534.html#ac460f571a26d61462c2cda4b3388752c", null ],
+    [ "operator!=", "dd/d66/a05534.html#a22edbe398da7be1d2b161bbf16206d92", null ],
+    [ "operator&", "dd/d66/a05534.html#a8a64335d82e361162fdade6288b7ae1f", null ],
+    [ "operator&=", "dd/d66/a05534.html#a150b74daf2add767d194b3fdc93f8330", null ],
+    [ "operator<", "dd/d66/a05534.html#ac335aaf38f9dcd9afdde58b7412c5082", null ],
+    [ "operator=", "dd/d66/a05534.html#a45349b70206ea9db7c3fdc5527b0aa72", null ],
+    [ "operator==", "dd/d66/a05534.html#a70a14c8509096c0e2fdb54643addbdbf", null ],
+    [ "operator[]", "dd/d66/a05534.html#ad9b2afb9b2de6cd8a8779d1646efd2ab", null ],
+    [ "operator[]", "dd/d66/a05534.html#a0bea67076b611eadc8fa12403d647238", null ],
+    [ "operator^", "dd/d66/a05534.html#a37890c5a65a8183d804949df939fd5a1", null ],
+    [ "operator^=", "dd/d66/a05534.html#afed5a26552cc3d614fe7caec06d74170", null ],
+    [ "operator|", "dd/d66/a05534.html#ad7dd7bba12e955d0ec70e2df24d23ef9", null ],
+    [ "operator|=", "dd/d66/a05534.html#a6cbe6b24389cb3a9bbbf976bebdbca35", null ],
+    [ "operator~", "dd/d66/a05534.html#a2e3422a147488c96576591e87033b67b", null ],
+    [ "Set", "dd/d66/a05534.html#ac7fcf4d74fa4d6b580e3b204c97964dd", null ],
+    [ "part", "dd/d66/a05534.html#a8ba92013e7c9863ed1f23fcf2c677268", null ]
 ];

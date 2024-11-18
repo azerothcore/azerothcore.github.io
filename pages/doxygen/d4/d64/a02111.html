@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/zone_azuremyst_isle.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Pet/pet_mage.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,364 +108,181 @@ $(document).ready(function(){initNavTree('d4/d64/a02111.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_azuremyst_isle.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">pet_mage.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CombatAI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/a14898.html">npc_draenei_survivor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d25/a24110.html">DeathEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d79/a14902.html">npc_draenei_survivor::npc_draenei_survivorAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/a14906.html">npc_injured_draenei</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a14910.html">npc_injured_draenei::npc_injured_draeneiAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4d/a14914.html">npc_magwin</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a14918.html">npc_magwin::npc_magwinAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dee/a14922.html">go_ravager_cage</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d32/a14926.html">npc_death_ravager</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5a/a14930.html">npc_death_ravager::npc_death_ravagerAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d19/a14934.html">npc_stillpine_capitive</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1b/a14938.html">npc_stillpine_capitive::npc_stillpine_capitiveAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/a14942.html">go_bristlelimb_cage</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7a/a14946.html">spell_inoculate_nestlewood_owlkin</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/a24114.html">npc_pet_mage_mirror_image</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4312325b44ff42e455a1955a0a0d0ce0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0">draeneiSurvivor</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6">SAY_HEAL</a> = 0
+<tr class="memitem:ab25cd6fd3bfda5736fd43f449c1b5124"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124">MageSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635">SPELL_MAGE_CLONE_ME</a> = 45204
 , <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293">SAY_HELP</a> = 1
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f">SPELL_MAGE_MASTERS_THREAT_LIST</a> = 58838
 , <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a> = 35046
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8">SPELL_PET_HIT_SCALING</a> = 61013
 , <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1">SPELL_STUNNED</a> = 28630
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f">SPELL_SUMMON_MIRROR_IMAGE1</a> = 58831
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426">SPELL_SUMMON_MIRROR_IMAGE2</a> = 58833
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75">SPELL_SUMMON_MIRROR_IMAGE3</a> = 58834
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763">SPELL_SUMMON_MIRROR_IMAGE_GLYPH</a> = 65047
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a6581435e60a8ed6d2ef11fa4ec9de9da">SPELL_MAGE_BURNOUT_TRIGGER</a> = 44450
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a220f2bbe2ba928299f8e9cd759af68fc">SPELL_MAGE_IMPROVED_BLIZZARD_CHILLED</a> = 12486
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a599ac9067a5b4cbe42ea7557e831fc3f">SPELL_MAGE_COMBUSTION</a> = 11129
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a61b3456ff5a5cdb94c57c0be96c56f33">SPELL_MAGE_COLD_SNAP</a> = 11958
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a75e05026759d9b14b7d5cdbf1ce6a234">SPELL_MAGE_FOCUS_MAGIC_PROC</a> = 54648
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a0c5b2cb0579c478b7f36a5aee1a45b6e">SPELL_MAGE_FROST_WARDING_R1</a> = 11189
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124af5e1b0ad1e4f78d3b102c8061155459e">SPELL_MAGE_FROST_WARDING_TRIGGERED</a> = 57776
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a422f167d55affa065359ac04e732b816">SPELL_MAGE_INCANTERS_ABSORBTION_R1</a> = 44394
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124acec4a9ecc4023e9709049e07f502ba83">SPELL_MAGE_INCANTERS_ABSORBTION_TRIGGERED</a> = 44413
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a744a819410a70bdedcaa68aeeead2d04">SPELL_MAGE_IGNITE</a> = 12654
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a886a48f0a08f0ae2d45d535ce542dab8">SPELL_MAGE_MASTER_OF_ELEMENTS_ENERGIZE</a> = 29077
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124ab185e7b3efc927ff579a848f59a4dec6">SPELL_MAGE_SQUIRREL_FORM</a> = 32813
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a7f4029f76569babf96dae83a4d33f32b">SPELL_MAGE_GIRAFFE_FORM</a> = 32816
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124ad5a7db4b9c62c2e4531cc589ea6b050f">SPELL_MAGE_SERPENT_FORM</a> = 32817
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124aa36c6d835be3d18c0a9a146f309de5dc">SPELL_MAGE_DRAGONHAWK_FORM</a> = 32818
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a1d25c71ce529713654e90eede8da5dd2">SPELL_MAGE_WORGEN_FORM</a> = 32819
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124af6ea5812f5a9177e7bbc22f292e13983">SPELL_MAGE_SHEEP_FORM</a> = 32820
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124adf14fd7122c8f6ab97c65e5ff8b45ba3">SPELL_MAGE_GLYPH_OF_ETERNAL_WATER</a> = 70937
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124abbf4a8698fe7379264db5729ce10440f">SPELL_MAGE_SUMMON_WATER_ELEMENTAL_PERMANENT</a> = 70908
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a031b2cacce733305e8bbba4ec69cc276">SPELL_MAGE_SUMMON_WATER_ELEMENTAL_TEMPORARY</a> = 70907
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474">SPELL_MAGE_GLYPH_OF_BLAST_WAVE</a> = 62126
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d0b/a01253.html#ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad">SPELL_MAGE_FINGERS_OF_FROST</a> = 44543
 <br />
  }</td></tr>
-<tr class="separator:a4312325b44ff42e455a1955a0a0d0ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f680a89d6b189116cd0885d3f8e0232"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232">Magwin</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239">SAY_START</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5">SAY_PROGRESS</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca">SAY_END1</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba">SAY_END2</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d">EMOTE_HUG</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a">NPC_COWLEN</a> = 17311
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead">SAY_COWLEN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d">EVENT_ACCEPT_QUEST</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01">EVENT_START_ESCORT</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026">EVENT_STAND</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00">EVENT_TALK_END</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7">EVENT_COWLEN_TALK</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8">QUEST_A_CRY_FOR_HELP</a> = 9528
-<br />
- }</td></tr>
-<tr class="separator:a8f680a89d6b189116cd0885d3f8e0232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe1872b98459d496587a276f39f6172"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172">RavegerCage</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb">NPC_DEATH_RAVAGER</a> = 17556
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6">SPELL_REND</a> = 13443
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888">SPELL_ENRAGING_BITE</a> = 30736
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449">QUEST_STRENGTH_ONE</a> = 9582
-<br />
- }</td></tr>
-<tr class="separator:afbe1872b98459d496587a276f39f6172"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69bb59145b8e4a3ee5c269d141090a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0">BristlelimbCage</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5">QUEST_THE_PROPHECY_OF_AKIDA</a> = 9544
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf">NPC_STILLPINE_CAPITIVE</a> = 17375
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8">GO_BRISTELIMB_CAGE</a> = 181714
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4">CAPITIVE_SAY</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175">POINT_INIT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:ab69bb59145b8e4a3ee5c269d141090a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8399336a8832e4ae3f893a082e3f6a23"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23">NestlewoodOwlkin</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4">NPC_NESTLEWOOD_OWLKIN_ENTRY</a> = 16518
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783">NPC_INOCULATED_OWLKIN_ENTRY</a> = 16534
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7">TALK_OWLKIN</a> = 0
-<br />
- }</td></tr>
-<tr class="separator:a8399336a8832e4ae3f893a082e3f6a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab25cd6fd3bfda5736fd43f449c1b5124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a92fc206251c5ac3ca89e584f0e69e0cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#a92fc206251c5ac3ca89e584f0e69e0cb">AddSC_azuremyst_isle</a> ()</td></tr>
-<tr class="separator:a92fc206251c5ac3ca89e584f0e69e0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a689a4efb7777f4164aee994745a0e2d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d64/a02111.html#a689a4efb7777f4164aee994745a0e2d2">AddSC_mage_pet_scripts</a> ()</td></tr>
+<tr class="separator:a689a4efb7777f4164aee994745a0e2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ab69bb59145b8e4a3ee5c269d141090a0" name="ab69bb59145b8e4a3ee5c269d141090a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab69bb59145b8e4a3ee5c269d141090a0">&#9670;&#160;</a></span>BristlelimbCage</h2>
+<a id="ab25cd6fd3bfda5736fd43f449c1b5124" name="ab25cd6fd3bfda5736fd43f449c1b5124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25cd6fd3bfda5736fd43f449c1b5124">&#9670;&#160;</a></span>MageSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0">BristlelimbCage</a></td>
+          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124">MageSpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5" name="ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5"></a>QUEST_THE_PROPHECY_OF_AKIDA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf" name="ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf"></a>NPC_STILLPINE_CAPITIVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8" name="ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8"></a>GO_BRISTELIMB_CAGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4" name="ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4"></a>CAPITIVE_SAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175" name="ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175"></a>POINT_INIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15" name="ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15"></a>EVENT_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635" name="ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635"></a>SPELL_MAGE_CLONE_ME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f" name="ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f"></a>SPELL_MAGE_MASTERS_THREAT_LIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8" name="ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8"></a>SPELL_PET_HIT_SCALING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f" name="ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f"></a>SPELL_SUMMON_MIRROR_IMAGE1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426" name="ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426"></a>SPELL_SUMMON_MIRROR_IMAGE2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75" name="ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75"></a>SPELL_SUMMON_MIRROR_IMAGE3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763" name="ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763"></a>SPELL_SUMMON_MIRROR_IMAGE_GLYPH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a6581435e60a8ed6d2ef11fa4ec9de9da" name="ab25cd6fd3bfda5736fd43f449c1b5124a6581435e60a8ed6d2ef11fa4ec9de9da"></a>SPELL_MAGE_BURNOUT_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a220f2bbe2ba928299f8e9cd759af68fc" name="ab25cd6fd3bfda5736fd43f449c1b5124a220f2bbe2ba928299f8e9cd759af68fc"></a>SPELL_MAGE_IMPROVED_BLIZZARD_CHILLED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a599ac9067a5b4cbe42ea7557e831fc3f" name="ab25cd6fd3bfda5736fd43f449c1b5124a599ac9067a5b4cbe42ea7557e831fc3f"></a>SPELL_MAGE_COMBUSTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a61b3456ff5a5cdb94c57c0be96c56f33" name="ab25cd6fd3bfda5736fd43f449c1b5124a61b3456ff5a5cdb94c57c0be96c56f33"></a>SPELL_MAGE_COLD_SNAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a75e05026759d9b14b7d5cdbf1ce6a234" name="ab25cd6fd3bfda5736fd43f449c1b5124a75e05026759d9b14b7d5cdbf1ce6a234"></a>SPELL_MAGE_FOCUS_MAGIC_PROC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a0c5b2cb0579c478b7f36a5aee1a45b6e" name="ab25cd6fd3bfda5736fd43f449c1b5124a0c5b2cb0579c478b7f36a5aee1a45b6e"></a>SPELL_MAGE_FROST_WARDING_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124af5e1b0ad1e4f78d3b102c8061155459e" name="ab25cd6fd3bfda5736fd43f449c1b5124af5e1b0ad1e4f78d3b102c8061155459e"></a>SPELL_MAGE_FROST_WARDING_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a422f167d55affa065359ac04e732b816" name="ab25cd6fd3bfda5736fd43f449c1b5124a422f167d55affa065359ac04e732b816"></a>SPELL_MAGE_INCANTERS_ABSORBTION_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124acec4a9ecc4023e9709049e07f502ba83" name="ab25cd6fd3bfda5736fd43f449c1b5124acec4a9ecc4023e9709049e07f502ba83"></a>SPELL_MAGE_INCANTERS_ABSORBTION_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a744a819410a70bdedcaa68aeeead2d04" name="ab25cd6fd3bfda5736fd43f449c1b5124a744a819410a70bdedcaa68aeeead2d04"></a>SPELL_MAGE_IGNITE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a886a48f0a08f0ae2d45d535ce542dab8" name="ab25cd6fd3bfda5736fd43f449c1b5124a886a48f0a08f0ae2d45d535ce542dab8"></a>SPELL_MAGE_MASTER_OF_ELEMENTS_ENERGIZE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ab185e7b3efc927ff579a848f59a4dec6" name="ab25cd6fd3bfda5736fd43f449c1b5124ab185e7b3efc927ff579a848f59a4dec6"></a>SPELL_MAGE_SQUIRREL_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a7f4029f76569babf96dae83a4d33f32b" name="ab25cd6fd3bfda5736fd43f449c1b5124a7f4029f76569babf96dae83a4d33f32b"></a>SPELL_MAGE_GIRAFFE_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ad5a7db4b9c62c2e4531cc589ea6b050f" name="ab25cd6fd3bfda5736fd43f449c1b5124ad5a7db4b9c62c2e4531cc589ea6b050f"></a>SPELL_MAGE_SERPENT_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124aa36c6d835be3d18c0a9a146f309de5dc" name="ab25cd6fd3bfda5736fd43f449c1b5124aa36c6d835be3d18c0a9a146f309de5dc"></a>SPELL_MAGE_DRAGONHAWK_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a1d25c71ce529713654e90eede8da5dd2" name="ab25cd6fd3bfda5736fd43f449c1b5124a1d25c71ce529713654e90eede8da5dd2"></a>SPELL_MAGE_WORGEN_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124af6ea5812f5a9177e7bbc22f292e13983" name="ab25cd6fd3bfda5736fd43f449c1b5124af6ea5812f5a9177e7bbc22f292e13983"></a>SPELL_MAGE_SHEEP_FORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124adf14fd7122c8f6ab97c65e5ff8b45ba3" name="ab25cd6fd3bfda5736fd43f449c1b5124adf14fd7122c8f6ab97c65e5ff8b45ba3"></a>SPELL_MAGE_GLYPH_OF_ETERNAL_WATER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124abbf4a8698fe7379264db5729ce10440f" name="ab25cd6fd3bfda5736fd43f449c1b5124abbf4a8698fe7379264db5729ce10440f"></a>SPELL_MAGE_SUMMON_WATER_ELEMENTAL_PERMANENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a031b2cacce733305e8bbba4ec69cc276" name="ab25cd6fd3bfda5736fd43f449c1b5124a031b2cacce733305e8bbba4ec69cc276"></a>SPELL_MAGE_SUMMON_WATER_ELEMENTAL_TEMPORARY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474" name="ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474"></a>SPELL_MAGE_GLYPH_OF_BLAST_WAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad" name="ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad"></a>SPELL_MAGE_FINGERS_OF_FROST&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  413</span>{</div>
-<div class="line"><span class="lineno">  414</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5">QUEST_THE_PROPHECY_OF_AKIDA</a>         = 9544,</div>
-<div class="line"><span class="lineno">  415</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf">NPC_STILLPINE_CAPITIVE</a>              = 17375,</div>
-<div class="line"><span class="lineno">  416</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8">GO_BRISTELIMB_CAGE</a>                  = 181714,</div>
-<div class="line"><span class="lineno">  417</span> </div>
-<div class="line"><span class="lineno">  418</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4">CAPITIVE_SAY</a>                        = 0,</div>
-<div class="line"><span class="lineno">  419</span> </div>
-<div class="line"><span class="lineno">  420</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175">POINT_INIT</a>                          = 1,</div>
-<div class="line"><span class="lineno">  421</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a>                       = 1,</div>
-<div class="line"><span class="lineno">  422</span>};</div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a></div><div class="ttdeci">@ EVENT_DESPAWN</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:421</div></div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175">POINT_INIT</a></div><div class="ttdeci">@ POINT_INIT</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:420</div></div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4">CAPITIVE_SAY</a></div><div class="ttdeci">@ CAPITIVE_SAY</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:418</div></div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5">QUEST_THE_PROPHECY_OF_AKIDA</a></div><div class="ttdeci">@ QUEST_THE_PROPHECY_OF_AKIDA</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:414</div></div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8">GO_BRISTELIMB_CAGE</a></div><div class="ttdeci">@ GO_BRISTELIMB_CAGE</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:416</div></div>
-<div class="ttc" id="aa02111_html_ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf"><div class="ttname"><a href="../../d4/d64/a02111.html#ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf">NPC_STILLPINE_CAPITIVE</a></div><div class="ttdeci">@ NPC_STILLPINE_CAPITIVE</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:415</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4312325b44ff42e455a1955a0a0d0ce0" name="a4312325b44ff42e455a1955a0a0d0ce0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4312325b44ff42e455a1955a0a0d0ce0">&#9670;&#160;</a></span>draeneiSurvivor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0">draeneiSurvivor</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6" name="a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6"></a>SAY_HEAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293" name="a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293"></a>SAY_HELP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef" name="a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef"></a>SPELL_IRRIDATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1" name="a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1"></a>SPELL_STUNNED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6">SAY_HEAL</a>            = 0,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293">SAY_HELP</a>            = 1,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a>    = 35046,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1">SPELL_STUNNED</a>       = 28630</div>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635">SPELL_MAGE_CLONE_ME</a>                 = 45204,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f">SPELL_MAGE_MASTERS_THREAT_LIST</a>      = 58838,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8">SPELL_PET_HIT_SCALING</a>               = 61013,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f">SPELL_SUMMON_MIRROR_IMAGE1</a>          = 58831,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426">SPELL_SUMMON_MIRROR_IMAGE2</a>          = 58833,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75">SPELL_SUMMON_MIRROR_IMAGE3</a>          = 58834,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763">SPELL_SUMMON_MIRROR_IMAGE_GLYPH</a>     = 65047</div>
 <div class="line"><span class="lineno">   40</span>};</div>
-<div class="ttc" id="aa02111_html_a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293"><div class="ttname"><a href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293">SAY_HELP</a></div><div class="ttdeci">@ SAY_HELP</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:37</div></div>
-<div class="ttc" id="aa02111_html_a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6"><div class="ttname"><a href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6">SAY_HEAL</a></div><div class="ttdeci">@ SAY_HEAL</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:36</div></div>
-<div class="ttc" id="aa02111_html_a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef"><div class="ttname"><a href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a></div><div class="ttdeci">@ SPELL_IRRIDATION</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:38</div></div>
-<div class="ttc" id="aa02111_html_a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1"><div class="ttname"><a href="../../d4/d64/a02111.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1">SPELL_STUNNED</a></div><div class="ttdeci">@ SPELL_STUNNED</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:39</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8f680a89d6b189116cd0885d3f8e0232" name="a8f680a89d6b189116cd0885d3f8e0232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f680a89d6b189116cd0885d3f8e0232">&#9670;&#160;</a></span>Magwin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232">Magwin</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239" name="a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239"></a>SAY_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe" name="a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe"></a>SAY_AGGRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5" name="a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5"></a>SAY_PROGRESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca" name="a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca"></a>SAY_END1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba" name="a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba"></a>SAY_END2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d" name="a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d"></a>EMOTE_HUG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a" name="a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a"></a>NPC_COWLEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead" name="a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead"></a>SAY_COWLEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d" name="a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d"></a>EVENT_ACCEPT_QUEST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01" name="a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01"></a>EVENT_START_ESCORT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026" name="a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026"></a>EVENT_STAND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00" name="a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00"></a>EVENT_TALK_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7" name="a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7"></a>EVENT_COWLEN_TALK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8" name="a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8"></a>QUEST_A_CRY_FOR_HELP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  204</span>{</div>
-<div class="line"><span class="lineno">  205</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239">SAY_START</a>                   = 0,</div>
-<div class="line"><span class="lineno">  206</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                   = 1,</div>
-<div class="line"><span class="lineno">  207</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5">SAY_PROGRESS</a>                = 2,</div>
-<div class="line"><span class="lineno">  208</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca">SAY_END1</a>                    = 3,</div>
-<div class="line"><span class="lineno">  209</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba">SAY_END2</a>                    = 4,</div>
-<div class="line"><span class="lineno">  210</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d">EMOTE_HUG</a>                   = 5,</div>
-<div class="line"><span class="lineno">  211</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a">NPC_COWLEN</a>                  = 17311,</div>
-<div class="line"><span class="lineno">  212</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead">SAY_COWLEN</a>                  = 0,</div>
-<div class="line"><span class="lineno">  213</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d">EVENT_ACCEPT_QUEST</a>          = 1,</div>
-<div class="line"><span class="lineno">  214</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01">EVENT_START_ESCORT</a>          = 2,</div>
-<div class="line"><span class="lineno">  215</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026">EVENT_STAND</a>                 = 3,</div>
-<div class="line"><span class="lineno">  216</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00">EVENT_TALK_END</a>              = 4,</div>
-<div class="line"><span class="lineno">  217</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7">EVENT_COWLEN_TALK</a>           = 5,</div>
-<div class="line"><span class="lineno">  218</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8">QUEST_A_CRY_FOR_HELP</a>        = 9528</div>
-<div class="line"><span class="lineno">  219</span>};</div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5">SAY_PROGRESS</a></div><div class="ttdeci">@ SAY_PROGRESS</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:207</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239">SAY_START</a></div><div class="ttdeci">@ SAY_START</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:205</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026">EVENT_STAND</a></div><div class="ttdeci">@ EVENT_STAND</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:215</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d">EMOTE_HUG</a></div><div class="ttdeci">@ EMOTE_HUG</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:210</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead">SAY_COWLEN</a></div><div class="ttdeci">@ SAY_COWLEN</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:212</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:206</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8">QUEST_A_CRY_FOR_HELP</a></div><div class="ttdeci">@ QUEST_A_CRY_FOR_HELP</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:218</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a">NPC_COWLEN</a></div><div class="ttdeci">@ NPC_COWLEN</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:211</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7">EVENT_COWLEN_TALK</a></div><div class="ttdeci">@ EVENT_COWLEN_TALK</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:217</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca">SAY_END1</a></div><div class="ttdeci">@ SAY_END1</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:208</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba">SAY_END2</a></div><div class="ttdeci">@ SAY_END2</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:209</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01">EVENT_START_ESCORT</a></div><div class="ttdeci">@ EVENT_START_ESCORT</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:214</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d">EVENT_ACCEPT_QUEST</a></div><div class="ttdeci">@ EVENT_ACCEPT_QUEST</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:213</div></div>
-<div class="ttc" id="aa02111_html_a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00"><div class="ttname"><a href="../../d4/d64/a02111.html#a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00">EVENT_TALK_END</a></div><div class="ttdeci">@ EVENT_TALK_END</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:216</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8399336a8832e4ae3f893a082e3f6a23" name="a8399336a8832e4ae3f893a082e3f6a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8399336a8832e4ae3f893a082e3f6a23">&#9670;&#160;</a></span>NestlewoodOwlkin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23">NestlewoodOwlkin</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4" name="a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4"></a>NPC_NESTLEWOOD_OWLKIN_ENTRY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783" name="a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783"></a>NPC_INOCULATED_OWLKIN_ENTRY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7" name="a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7"></a>TALK_OWLKIN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  513</span>{</div>
-<div class="line"><span class="lineno">  514</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4">NPC_NESTLEWOOD_OWLKIN_ENTRY</a>   = 16518,</div>
-<div class="line"><span class="lineno">  515</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783">NPC_INOCULATED_OWLKIN_ENTRY</a>   = 16534,</div>
-<div class="line"><span class="lineno">  516</span> </div>
-<div class="line"><span class="lineno">  517</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7">TALK_OWLKIN</a>                   = 0</div>
-<div class="line"><span class="lineno">  518</span>};</div>
-<div class="ttc" id="aa02111_html_a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7"><div class="ttname"><a href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7">TALK_OWLKIN</a></div><div class="ttdeci">@ TALK_OWLKIN</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:517</div></div>
-<div class="ttc" id="aa02111_html_a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4"><div class="ttname"><a href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4">NPC_NESTLEWOOD_OWLKIN_ENTRY</a></div><div class="ttdeci">@ NPC_NESTLEWOOD_OWLKIN_ENTRY</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:514</div></div>
-<div class="ttc" id="aa02111_html_a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783"><div class="ttname"><a href="../../d4/d64/a02111.html#a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783">NPC_INOCULATED_OWLKIN_ENTRY</a></div><div class="ttdeci">@ NPC_INOCULATED_OWLKIN_ENTRY</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:515</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afbe1872b98459d496587a276f39f6172" name="afbe1872b98459d496587a276f39f6172"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbe1872b98459d496587a276f39f6172">&#9670;&#160;</a></span>RavegerCage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172">RavegerCage</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb" name="afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb"></a>NPC_DEATH_RAVAGER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6" name="afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6"></a>SPELL_REND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888" name="afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888"></a>SPELL_ENRAGING_BITE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449" name="afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449"></a>QUEST_STRENGTH_ONE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  328</span>{</div>
-<div class="line"><span class="lineno">  329</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb">NPC_DEATH_RAVAGER</a>       = 17556,</div>
-<div class="line"><span class="lineno">  330</span> </div>
-<div class="line"><span class="lineno">  331</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6">SPELL_REND</a>              = 13443,</div>
-<div class="line"><span class="lineno">  332</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888">SPELL_ENRAGING_BITE</a>     = 30736,</div>
-<div class="line"><span class="lineno">  333</span> </div>
-<div class="line"><span class="lineno">  334</span>    <a class="code hl_enumvalue" href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449">QUEST_STRENGTH_ONE</a>      = 9582</div>
-<div class="line"><span class="lineno">  335</span>};</div>
-<div class="ttc" id="aa02111_html_afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449"><div class="ttname"><a href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449">QUEST_STRENGTH_ONE</a></div><div class="ttdeci">@ QUEST_STRENGTH_ONE</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:334</div></div>
-<div class="ttc" id="aa02111_html_afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb"><div class="ttname"><a href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb">NPC_DEATH_RAVAGER</a></div><div class="ttdeci">@ NPC_DEATH_RAVAGER</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:329</div></div>
-<div class="ttc" id="aa02111_html_afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888"><div class="ttname"><a href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888">SPELL_ENRAGING_BITE</a></div><div class="ttdeci">@ SPELL_ENRAGING_BITE</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:332</div></div>
-<div class="ttc" id="aa02111_html_afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6"><div class="ttname"><a href="../../d4/d64/a02111.html#afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6">SPELL_REND</a></div><div class="ttdeci">@ SPELL_REND</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:331</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8">SPELL_PET_HIT_SCALING</a></div><div class="ttdeci">@ SPELL_PET_HIT_SCALING</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:35</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635">SPELL_MAGE_CLONE_ME</a></div><div class="ttdeci">@ SPELL_MAGE_CLONE_ME</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:33</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f">SPELL_MAGE_MASTERS_THREAT_LIST</a></div><div class="ttdeci">@ SPELL_MAGE_MASTERS_THREAT_LIST</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:34</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f">SPELL_SUMMON_MIRROR_IMAGE1</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE1</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:36</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75">SPELL_SUMMON_MIRROR_IMAGE3</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE3</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:38</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763">SPELL_SUMMON_MIRROR_IMAGE_GLYPH</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE_GLYPH</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:39</div></div>
+<div class="ttc" id="aa02111_html_ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426"><div class="ttname"><a href="../../d4/d64/a02111.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426">SPELL_SUMMON_MIRROR_IMAGE2</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE2</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a92fc206251c5ac3ca89e584f0e69e0cb" name="a92fc206251c5ac3ca89e584f0e69e0cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92fc206251c5ac3ca89e584f0e69e0cb">&#9670;&#160;</a></span>AddSC_azuremyst_isle()</h2>
+<a id="a689a4efb7777f4164aee994745a0e2d2" name="a689a4efb7777f4164aee994745a0e2d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a689a4efb7777f4164aee994745a0e2d2">&#9670;&#160;</a></span>AddSC_mage_pet_scripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_azuremyst_isle </td>
+          <td class="memname">void AddSC_mage_pet_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  562</span>{</div>
-<div class="line"><span class="lineno">  563</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d26/a14898.html">npc_draenei_survivor</a>();</div>
-<div class="line"><span class="lineno">  564</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d75/a14906.html">npc_injured_draenei</a>();</div>
-<div class="line"><span class="lineno">  565</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d4d/a14914.html">npc_magwin</a>();</div>
-<div class="line"><span class="lineno">  566</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d32/a14926.html">npc_death_ravager</a>();</div>
-<div class="line"><span class="lineno">  567</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dee/a14922.html">go_ravager_cage</a>();</div>
-<div class="line"><span class="lineno">  568</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d19/a14934.html">npc_stillpine_capitive</a>();</div>
-<div class="line"><span class="lineno">  569</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d73/a14942.html">go_bristlelimb_cage</a>();</div>
-<div class="line"><span class="lineno">  570</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d7a/a14946.html">spell_inoculate_nestlewood_owlkin</a>);</div>
-<div class="line"><span class="lineno">  571</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa14898_html"><div class="ttname"><a href="../../dd/d26/a14898.html">npc_draenei_survivor</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:43</div></div>
-<div class="ttc" id="aa14906_html"><div class="ttname"><a href="../../da/d75/a14906.html">npc_injured_draenei</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:162</div></div>
-<div class="ttc" id="aa14914_html"><div class="ttname"><a href="../../d7/d4d/a14914.html">npc_magwin</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:222</div></div>
-<div class="ttc" id="aa14922_html"><div class="ttname"><a href="../../d5/dee/a14922.html">go_ravager_cage</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:338</div></div>
-<div class="ttc" id="aa14926_html"><div class="ttname"><a href="../../d1/d32/a14926.html">npc_death_ravager</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:359</div></div>
-<div class="ttc" id="aa14934_html"><div class="ttname"><a href="../../d8/d19/a14934.html">npc_stillpine_capitive</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:425</div></div>
-<div class="ttc" id="aa14942_html"><div class="ttname"><a href="../../dc/d73/a14942.html">go_bristlelimb_cage</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:492</div></div>
-<div class="ttc" id="aa14946_html"><div class="ttname"><a href="../../dc/d7a/a14946.html">spell_inoculate_nestlewood_owlkin</a></div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:521</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  222</span>{</div>
+<div class="line"><span class="lineno">  223</span>    <a class="code hl_define" href="../../d3/dea/a04352.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d3/d03/a24114.html">npc_pet_mage_mirror_image</a>);</div>
+<div class="line"><span class="lineno">  224</span>}</div>
+<div class="ttc" id="aa04352_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d3/dea/a04352.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
+<div class="ttc" id="aa24114_html"><div class="ttname"><a href="../../d3/d03/a24114.html">npc_pet_mage_mirror_image</a></div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:58</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
 
 </div>
 </div>
@@ -474,8 +291,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../d4/d64/a02111.html">zone_azuremyst_isle.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d4/d64/a02111.html">pet_mage.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:28 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

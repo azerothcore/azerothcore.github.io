@@ -1,7 +1,8 @@
 var a24846 =
 [
-    [ "HandleEffectApply", "de/da7/a24846.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
-    [ "OnRemove", "de/da7/a24846.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
-    [ "PrepareAuraScript", "de/da7/a24846.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
-    [ "Register", "de/da7/a24846.html#a473189971d0a03e7305b7b9e41dc5207", null ]
+    [ "CheckCast", "de/da7/a24846.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
+    [ "HandleScript", "de/da7/a24846.html#a2c1702398e4cbdcc106679d534a27743", null ],
+    [ "PrepareSpellScript", "de/da7/a24846.html#a613bdf7841744632c1e6de147e0352b9", null ],
+    [ "Register", "de/da7/a24846.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
+    [ "Validate", "de/da7/a24846.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
 ];

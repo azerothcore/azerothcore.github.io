@@ -1,6 +1,7 @@
 var a17310 =
 [
-    [ "CheckProc", "d6/dff/a17310.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "d6/dff/a17310.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "d6/dff/a17310.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "PrepareSpellScript", "d6/dff/a17310.html#a21bd67c024c5dcfb8496778f67eb48eb", null ],
+    [ "Register", "d6/dff/a17310.html#aff4f05a5a4742a408646000b7cece38c", null ],
+    [ "RemovePassengers", "d6/dff/a17310.html#a77c63e85233e2ef14bf06c82ad27c4b2", null ],
+    [ "Validate", "d6/dff/a17310.html#a2a8da9d150804f979f2313f623ad7760", null ]
 ];

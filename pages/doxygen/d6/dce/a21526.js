@@ -1,7 +1,6 @@
 var a21526 =
 [
-    [ "npc_emilyAI", "de/dd5/a21530.html", "de/dd5/a21530" ],
-    [ "npc_emily", "d6/dce/a21526.html#ab40f581fad087b3d32a7724fca97895d", null ],
-    [ "GetAI", "d6/dce/a21526.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
-    [ "OnQuestAccept", "d6/dce/a21526.html#ad434e7bf2427b3575a8459021e792152", null ]
+    [ "npc_torturer_lecraftAI", "de/dd5/a21530.html", "de/dd5/a21530" ],
+    [ "npc_torturer_lecraft", "d6/dce/a21526.html#a789f8bdafe96d5cb01225b940a80c651", null ],
+    [ "GetAI", "d6/dce/a21526.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
 ];

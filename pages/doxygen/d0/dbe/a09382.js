@@ -1,21 +1,15 @@
 var a09382 =
 [
-    [ "LootGroup", "de/d4e/a09362.html", "de/d4e/a09362" ],
-    [ "LootGroups", "d0/dbe/a09382.html#ae9845401121ac8712dc8dfac9c58c72e", null ],
-    [ "LootTemplate", "d0/dbe/a09382.html#a533d3acacc8086a6f8f75013dd790a94", null ],
-    [ "~LootTemplate", "d0/dbe/a09382.html#a90b641a69173129d7114c303cd5a31b5", null ],
-    [ "LootTemplate", "d0/dbe/a09382.html#a73cc21e48ec8e63b2664a4ece9a3ab21", null ],
-    [ "addConditionItem", "d0/dbe/a09382.html#afb33c896a89f0fe14e2b565bb746119e", null ],
-    [ "AddEntry", "d0/dbe/a09382.html#a6efe32c6f83184ae0bf0423a7f23118a", null ],
-    [ "CheckLootRefs", "d0/dbe/a09382.html#a49a96146746c83fb8905425093bd48ff", null ],
-    [ "CopyConditions", "d0/dbe/a09382.html#a5935f936e90ecc860c49d256127d9726", null ],
-    [ "CopyConditions", "d0/dbe/a09382.html#a477c848bcf79153cc430c8d03bbea054", null ],
-    [ "HasQuestDrop", "d0/dbe/a09382.html#aedf8e446cdf391d14858994532d9b5c1", null ],
-    [ "HasQuestDropForPlayer", "d0/dbe/a09382.html#aa59f5061e805cc732baecaba1175c7e9", null ],
-    [ "isReference", "d0/dbe/a09382.html#acdf75466d9f29ff8a4532c4b6e15bd03", null ],
-    [ "operator=", "d0/dbe/a09382.html#a92de3d68e0ec2ab31b1dd17279a3f832", null ],
-    [ "Process", "d0/dbe/a09382.html#ae3f86961858f299f8e7ca683733bb127", null ],
-    [ "Verify", "d0/dbe/a09382.html#adedb1f03278aaeac63deb3dd32e07329", null ],
-    [ "Entries", "d0/dbe/a09382.html#aba1fdfb69c34a9d4a09428114d385621", null ],
-    [ "Groups", "d0/dbe/a09382.html#aec4552a98c1e27935da8ef29c9449f87", null ]
+    [ "LootStoreItem", "d0/dbe/a09382.html#a10250dce57b2b8103c6ac11aa1ac2f0f", null ],
+    [ "IsValid", "d0/dbe/a09382.html#ae5fc113c31d96bc7ca31a5bc36ab2fcf", null ],
+    [ "Roll", "d0/dbe/a09382.html#a87cc7956b131a16aee7bd5d4808193df", null ],
+    [ "chance", "d0/dbe/a09382.html#a20411103b449a9176b3bc665f909f06f", null ],
+    [ "conditions", "d0/dbe/a09382.html#a88812a51fb467a189f2824ad8b3198e8", null ],
+    [ "groupid", "d0/dbe/a09382.html#abc6df381782d25490dff0e54bec63b3a", null ],
+    [ "itemid", "d0/dbe/a09382.html#a5df1d4fde5f3358470bd16f7ad9154c1", null ],
+    [ "lootmode", "d0/dbe/a09382.html#ab5f7b258bd5cfe4263acd9e0b253b166", null ],
+    [ "maxcount", "d0/dbe/a09382.html#a96012059cc6affa8120ef544682781d2", null ],
+    [ "mincount", "d0/dbe/a09382.html#ada6a4d427187361c6bc33bdde789e809", null ],
+    [ "needs_quest", "d0/dbe/a09382.html#a5a2fe7ae48508b88bbdfc70fc4035f31", null ],
+    [ "reference", "d0/dbe/a09382.html#a374a94e34095a1beb38abca43069d0b6", null ]
 ];

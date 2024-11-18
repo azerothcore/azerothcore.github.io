@@ -1,5 +1,6 @@
 var a20114 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "d5/d32/a20114.html#a6308129d11989dadf0a5948c4a268e4b", null ],
-    [ "SpellHitTarget", "d5/d32/a20114.html#a3c254e16f62e7d2414d81062c91c2468", null ]
+    [ "npc_ulduar_emergency_fire_botAI", "df/de9/a20118.html", "df/de9/a20118" ],
+    [ "npc_ulduar_emergency_fire_bot", "d5/d32/a20114.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
+    [ "GetAI", "d5/d32/a20114.html#afb3ab952495175c5f571d4e39a5acea4", null ]
 ];

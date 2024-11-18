@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/ArenaSpectator/ArenaSpectator.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/LFGHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,27 +104,120 @@ $(document).ready(function(){initNavTree('de/dc5/a03602.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">ArenaSpectator.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">LFGHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aded010efcdae2fc43acfab5ff8fbf4ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc5/a03602.html#aded010efcdae2fc43acfab5ff8fbf4ad">BuildPlayerLockDungeonBlock</a> (<a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;data, <a class="el" href="../../dc/d6b/a04731.html#a7ad66b24daa968c5b9615224ddc10659">lfg::LfgLockMap</a> const &amp;lock)</td></tr>
+<tr class="separator:aded010efcdae2fc43acfab5ff8fbf4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66b117794d47e10cfd7ba8bd40d4291"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc5/a03602.html#ad66b117794d47e10cfd7ba8bd40d4291">BuildPartyLockDungeonBlock</a> (<a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;data, const <a class="el" href="../../dc/d6b/a04731.html#ad2856c4b4e624c3f15d89ccae35370c9">lfg::LfgLockPartyMap</a> &amp;lockMap)</td></tr>
+<tr class="separator:ad66b117794d47e10cfd7ba8bd40d4291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad66b117794d47e10cfd7ba8bd40d4291" name="ad66b117794d47e10cfd7ba8bd40d4291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66b117794d47e10cfd7ba8bd40d4291">&#9670;&#160;</a></span>BuildPartyLockDungeonBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BuildPartyLockDungeonBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d6b/a04731.html#ad2856c4b4e624c3f15d89ccae35370c9">lfg::LfgLockPartyMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>lockMap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(lockMap.size());</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">for</span> (lfg::LfgLockPartyMap::const_iterator it = lockMap.begin(); it != lockMap.end(); ++it)</div>
+<div class="line"><span class="lineno">   43</span>    {</div>
+<div class="line"><span class="lineno">   44</span>        data &lt;&lt; it-&gt;first;                                 <span class="comment">// Player guid</span></div>
+<div class="line"><span class="lineno">   45</span>        <a class="code hl_function" href="../../de/dc5/a03602.html#aded010efcdae2fc43acfab5ff8fbf4ad">BuildPlayerLockDungeonBlock</a>(data, it-&gt;second);</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa03602_html_aded010efcdae2fc43acfab5ff8fbf4ad"><div class="ttname"><a href="../../de/dc5/a03602.html#aded010efcdae2fc43acfab5ff8fbf4ad">BuildPlayerLockDungeonBlock</a></div><div class="ttdeci">void BuildPlayerLockDungeonBlock(WorldPacket &amp;data, lfg::LfgLockMap const &amp;lock)</div><div class="ttdef"><b>Definition:</b> LFGHandler.cpp:29</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00029">BuildPlayerLockDungeonBlock()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00224">WorldSession::HandleLfgPartyLockInfoRequestOpcode()</a>, and <a class="el" href="../../#l00435">WorldSession::SendLfgJoinResult()</a>.</p>
+
+</div>
+</div>
+<a id="aded010efcdae2fc43acfab5ff8fbf4ad" name="aded010efcdae2fc43acfab5ff8fbf4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded010efcdae2fc43acfab5ff8fbf4ad">&#9670;&#160;</a></span>BuildPlayerLockDungeonBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BuildPlayerLockDungeonBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d6b/a04731.html#a7ad66b24daa968c5b9615224ddc10659">lfg::LfgLockMap</a> const &amp;&#160;</td>
+          <td class="paramname"><em>lock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(lock.size());                           <span class="comment">// Size of lock dungeons</span></div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">for</span> (lfg::LfgLockMap::const_iterator it = lock.begin(); it != lock.end(); ++it)</div>
+<div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(it-&gt;first);                         <span class="comment">// Dungeon entry (id + type)</span></div>
+<div class="line"><span class="lineno">   35</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(it-&gt;second);                        <span class="comment">// Lock status</span></div>
+<div class="line"><span class="lineno">   36</span>    }</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00039">BuildPartyLockDungeonBlock()</a>, and <a class="el" href="../../#l00149">WorldSession::HandleLfgPlayerLockInfoRequestOpcode()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ac0cbeb0a5f89d2c9966c7d739794b5c.html">ArenaSpectator</a></li><li class="navelem"><a class="el" href="../../de/dc5/a03602.html">ArenaSpectator.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../de/dc5/a03602.html">LFGHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

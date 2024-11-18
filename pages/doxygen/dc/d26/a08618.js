@@ -1,14 +1,10 @@
 var a08618 =
 [
-    [ "WorldObjectLastSearcher", "dc/d26/a08618.html#af8baf5ff23a3167a963ade43faec09fc", null ],
-    [ "Visit", "dc/d26/a08618.html#ac011f150695eb1f3a83536175fd2a016", null ],
-    [ "Visit", "dc/d26/a08618.html#af5c5a533084c436e0d7de828e1ef82ad", null ],
-    [ "Visit", "dc/d26/a08618.html#a962a050f568dab037a9a48879eae0f86", null ],
-    [ "Visit", "dc/d26/a08618.html#a98967233e04c6223361897c02bc0edc5", null ],
-    [ "Visit", "dc/d26/a08618.html#a94d30e81eb509ff4fd3dac7c207c819b", null ],
-    [ "Visit", "dc/d26/a08618.html#a39a9d66014df641c0cb08f619f9d8434", null ],
-    [ "i_check", "dc/d26/a08618.html#a66afc21dd0fd740c2723516b8c33a319", null ],
-    [ "i_mapTypeMask", "dc/d26/a08618.html#a5689c8aa9120bc545c98ec0916d78d56", null ],
-    [ "i_object", "dc/d26/a08618.html#a765d65a90639b34a8cf9f42fdd6ae653", null ],
-    [ "i_phaseMask", "dc/d26/a08618.html#a966213d495a613f33aebaa8ebda7c380", null ]
+    [ "mapId", "dc/d26/a08618.html#a828d8b93918ea8ba695e0c5e597c855d", null ],
+    [ "name", "dc/d26/a08618.html#a9dd0dacb5825cf3afd117c22ac5ebf21", null ],
+    [ "orientation", "dc/d26/a08618.html#a49b4a83290dbe39ab0be79a8ae2f03a6", null ],
+    [ "position_x", "dc/d26/a08618.html#a65e7390a1dbb615a155c4f163b830e11", null ],
+    [ "position_y", "dc/d26/a08618.html#a3d3f398cd23566dce721fefeae7af33c", null ],
+    [ "position_z", "dc/d26/a08618.html#a9ff9a74b00016df6df7c27ebce8ff3fb", null ],
+    [ "wnameLow", "dc/d26/a08618.html#ac63cbb609eadc584fe61d33fb709c4d6", null ]
 ];

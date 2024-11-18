@@ -1,6 +1,6 @@
 var a11594 =
 [
-    [ "boss_general_angerforgeAI", "d5/da2/a11598.html", "d5/da2/a11598" ],
-    [ "boss_general_angerforge", "de/d53/a11594.html#a00c94097831dc52d31505f312a04f562", null ],
-    [ "GetAI", "de/d53/a11594.html#ac3f3b26bf2c6745bb9ab23c7ff1484ae", null ]
+    [ "boss_anubshiahAI", "de/d53/a11594.html#ae5bdb5509aad0d386bf73e5aad728744", null ],
+    [ "JustEngagedWith", "de/d53/a11594.html#ae83c1def323828814b5db6b032002438", null ],
+    [ "UpdateAI", "de/d53/a11594.html#a3acd88f97e2f1e3386c9b5dfa4f15d15", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Tools/CharacterDatabaseCleaner.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/ArenaTeamHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,70 +104,28 @@ $(document).ready(function(){initNavTree('dd/de9/a03590.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">CharacterDatabaseCleaner.h File Reference</div></div>
+  <div class="headertitle"><div class="title">ArenaTeamHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/d1c/a04747"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html">CharacterDatabaseCleaner</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad8ba5c50a4cd2d5193e35ccc83798c67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67">CharacterDatabaseCleaner::CleaningFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748">CharacterDatabaseCleaner::CLEANING_FLAG_ACHIEVEMENT_PROGRESS</a> = 0x1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714">CharacterDatabaseCleaner::CLEANING_FLAG_SKILLS</a> = 0x2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564">CharacterDatabaseCleaner::CLEANING_FLAG_SPELLS</a> = 0x4
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550">CharacterDatabaseCleaner::CLEANING_FLAG_TALENTS</a> = 0x8
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1c/a04747.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c">CharacterDatabaseCleaner::CLEANING_FLAG_QUESTSTATUS</a> = 0x10
-<br />
- }</td></tr>
-<tr class="separator:ad8ba5c50a4cd2d5193e35ccc83798c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a357c8a07f912c6efb55a13cc9bc089b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#a357c8a07f912c6efb55a13cc9bc089b9">CharacterDatabaseCleaner::CleanDatabase</a> ()</td></tr>
-<tr class="separator:a357c8a07f912c6efb55a13cc9bc089b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98182e5f92f72090600314cc41f0d39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#ab98182e5f92f72090600314cc41f0d39">CharacterDatabaseCleaner::CheckUnique</a> (const char *column, const char *table, bool(*check)(<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>))</td></tr>
-<tr class="separator:ab98182e5f92f72090600314cc41f0d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5cf638b3ba626c9dc18258d4c528fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#afe5cf638b3ba626c9dc18258d4c528fa">CharacterDatabaseCleaner::AchievementProgressCheck</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> criteria)</td></tr>
-<tr class="separator:afe5cf638b3ba626c9dc18258d4c528fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f72cf24646d1ece0eb793890840992d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#a0f72cf24646d1ece0eb793890840992d">CharacterDatabaseCleaner::SkillCheck</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> skill)</td></tr>
-<tr class="separator:a0f72cf24646d1ece0eb793890840992d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02688f57778d28a7bcc4ca6cee2074ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#a02688f57778d28a7bcc4ca6cee2074ad">CharacterDatabaseCleaner::SpellCheck</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spell_id)</td></tr>
-<tr class="separator:a02688f57778d28a7bcc4ca6cee2074ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac707369555aa95807c11b1578ae80d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#aac707369555aa95807c11b1578ae80d2">CharacterDatabaseCleaner::TalentCheck</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> talent_id)</td></tr>
-<tr class="separator:aac707369555aa95807c11b1578ae80d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5939466cf9b4fbb63eb136baf62767f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#ae5939466cf9b4fbb63eb136baf62767f">CharacterDatabaseCleaner::CleanCharacterAchievementProgress</a> ()</td></tr>
-<tr class="separator:ae5939466cf9b4fbb63eb136baf62767f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c5d4dc123b8a900254bcbc82c1ffbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#ae8c5d4dc123b8a900254bcbc82c1ffbe">CharacterDatabaseCleaner::CleanCharacterSkills</a> ()</td></tr>
-<tr class="separator:ae8c5d4dc123b8a900254bcbc82c1ffbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca5826d283031348e5d6ae6eb75ad605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#aca5826d283031348e5d6ae6eb75ad605">CharacterDatabaseCleaner::CleanCharacterSpell</a> ()</td></tr>
-<tr class="separator:aca5826d283031348e5d6ae6eb75ad605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a344f61fb209b507b775a0bbfb1315fac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#a344f61fb209b507b775a0bbfb1315fac">CharacterDatabaseCleaner::CleanCharacterTalent</a> ()</td></tr>
-<tr class="separator:a344f61fb209b507b775a0bbfb1315fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f512823f852120bf4c3ec78eb4bbeaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html#a9f512823f852120bf4c3ec78eb4bbeaa">CharacterDatabaseCleaner::CleanCharacterQuestStatus</a> ()</td></tr>
-<tr class="separator:a9f512823f852120bf4c3ec78eb4bbeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_f49ad253a5d89b6cfd4cfde27040fa87.html">Tools</a></li><li class="navelem"><a class="el" href="../../dd/de9/a03590.html">CharacterDatabaseCleaner.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../dd/de9/a03590.html">ArenaTeamHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

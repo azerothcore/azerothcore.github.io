@@ -1,8 +1,6 @@
 var a12562 =
 [
-    [ "npc_dkc1_gothikAI", "d7/d2b/a12562.html#a35e65bd943f86ba3a1d6841569289df6", null ],
-    [ "DoAction", "d7/d2b/a12562.html#a3193c562973bbf995ab5e0173a93d01f", null ],
-    [ "MoveInLineOfSight", "d7/d2b/a12562.html#ac2ee224af001a78aa00013f6c8c9ad3d", null ],
-    [ "UpdateAI", "d7/d2b/a12562.html#a346d32c9831babe6fb5f675b70b7a897", null ],
-    [ "spoken", "d7/d2b/a12562.html#ac6f32e953a66f9e96ddc99b663014b0c", null ]
+    [ "CheckRequirement", "d7/d2b/a12562.html#a31d69034f463d552afa4063bf89271da", null ],
+    [ "PrepareSpellScript", "d7/d2b/a12562.html#adc2176d25d25167b8a1fa9517e2ab945", null ],
+    [ "Register", "d7/d2b/a12562.html#a5bb1eff829db1f7ecd3dbf61b821c328", null ]
 ];

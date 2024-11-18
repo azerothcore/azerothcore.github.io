@@ -1,7 +1,7 @@
 var a09486 =
 [
-    [ "flags", "d7/d8c/a09486.html#a2faab5766bd3cbc09ed4e541be7e7f94", null ],
-    [ "fourcc", "d7/d8c/a09486.html#a93b48dd741d13ff036eac8a77df9f916", null ],
-    [ "gridHeight", "d7/d8c/a09486.html#a3fbdc02ff4769b6f2eacbdc02ba4d370", null ],
-    [ "gridMaxHeight", "d7/d8c/a09486.html#a1146dfae7dc4f89dddc94cda5deb7a4c", null ]
+    [ "resetNotify", "d7/d8c/a09486.html#a1472e21d9af04662f3574bc2c7d3890c", null ],
+    [ "Visit", "d7/d8c/a09486.html#adfcdcf148b002c641638ddc70d577b14", null ],
+    [ "Visit", "d7/d8c/a09486.html#adf95512d4304962a5740b38c32ea28a7", null ],
+    [ "Visit", "d7/d8c/a09486.html#a725fc2c2504eecaa15841c27b367cd55", null ]
 ];

@@ -1,12 +1,9 @@
 var a11478 =
 [
-    [ "boss_balinda", "d6/d8c/a11478.html#a2f3ce696dbc66843cddc13196800866b", null ],
-    [ "DamageTaken", "d6/d8c/a11478.html#a826ad90ac15b3421e16fc3faa96784e7", null ],
-    [ "JustDied", "d6/d8c/a11478.html#aeb10053198b9b4c43e963d23957ba9ba", null ],
-    [ "JustEngagedWith", "d6/d8c/a11478.html#aa0b78302a92bf39ffee51ce3a71fb534", null ],
-    [ "JustSummoned", "d6/d8c/a11478.html#a3c2306326d2f85fbb6766352117a1f91", null ],
-    [ "Reset", "d6/d8c/a11478.html#a1ecfa5d743682997076a47cce44b19f5", null ],
-    [ "UpdateAI", "d6/d8c/a11478.html#af3506dd75baef12fd0328aed21636978", null ],
-    [ "_hasCastIceBlock", "d6/d8c/a11478.html#a05c24746060d7c9a3712d9f269b4af8e", null ],
-    [ "summons", "d6/d8c/a11478.html#a83df5856391f0ba62dcb0538b7f44e2d", null ]
+    [ "titles_commandscript", "d6/d8c/a11478.html#ac088fd907013150a0508b79c99f6c2f3", null ],
+    [ "GetCommands", "d6/d8c/a11478.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
+    [ "HandleTitlesAddCommand", "d6/d8c/a11478.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
+    [ "HandleTitlesCurrentCommand", "d6/d8c/a11478.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
+    [ "HandleTitlesRemoveCommand", "d6/d8c/a11478.html#a2001bcc2eddc5688d57154f9906218e4", null ],
+    [ "HandleTitlesSetMaskCommand", "d6/d8c/a11478.html#a9517b10295b856779cdd067234f640c8", null ]
 ];

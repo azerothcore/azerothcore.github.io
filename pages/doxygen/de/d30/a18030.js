@@ -1,9 +1,5 @@
 var a18030 =
 [
-    [ "DelayedCastEvent", "de/d30/a18030.html#ae6d57612065d56ce79197aedebedf9f9", null ],
-    [ "Execute", "de/d30/a18030.html#ae2925429b3049e44d2afd2e8b990af71", null ],
-    [ "_despawnTime", "de/d30/a18030.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
-    [ "_originalCaster", "de/d30/a18030.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
-    [ "_spellId", "de/d30/a18030.html#abe28a6749101233302634ed226a289e8", null ],
-    [ "_trigger", "de/d30/a18030.html#a85471a151a3165cc906f3a41103c3f5d", null ]
+    [ "achievement_neck_deep_in_vile", "de/d30/a18030.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "de/d30/a18030.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

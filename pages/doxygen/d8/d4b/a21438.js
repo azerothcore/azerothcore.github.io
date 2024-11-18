@@ -1,6 +1,6 @@
 var a21438 =
 [
-    [ "npc_q24545_lich_kingAI", "d4/dfe/a21442.html", "d4/dfe/a21442" ],
-    [ "npc_q24545_lich_king", "d8/d4b/a21438.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
-    [ "GetAI", "d8/d4b/a21438.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
+    [ "HandleSendEvent", "d8/d4b/a21438.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
+    [ "PrepareSpellScript", "d8/d4b/a21438.html#aa632d381ac415feaf226f55fc2cd8520", null ],
+    [ "Register", "d8/d4b/a21438.html#a72673f5054cf269cc8da511441f7bd66", null ]
 ];

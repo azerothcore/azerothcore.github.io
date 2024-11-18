@@ -1,6 +1,7 @@
 var a16374 =
 [
-    [ "boss_devourer_of_soulsAI", "d6/d9f/a16378.html", "d6/d9f/a16378" ],
-    [ "boss_devourer_of_souls", "d0/d21/a16374.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
-    [ "GetAI", "d0/d21/a16374.html#a3de68fa630c5b74104c461f88edd1d36", null ]
+    [ "HandlePeriodicTick", "d0/d21/a16374.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
+    [ "PrepareAuraScript", "d0/d21/a16374.html#aabaef31a3c699c322e24e064f357f82f", null ],
+    [ "Register", "d0/d21/a16374.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
+    [ "Validate", "d0/d21/a16374.html#a18d92a82760992bc5d8503e3f774f208", null ]
 ];

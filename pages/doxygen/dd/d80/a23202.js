@@ -1,14 +1,12 @@
 var a23202 =
 [
-    [ "boss_vazruden", "dd/d80/a23202.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "dd/d80/a23202.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "dd/d80/a23202.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "dd/d80/a23202.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "dd/d80/a23202.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "dd/d80/a23202.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "dd/d80/a23202.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "dd/d80/a23202.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "dd/d80/a23202.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "dd/d80/a23202.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "dd/d80/a23202.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "boss_omor_the_unscarred", "dd/d80/a23202.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
+    [ "JustDied", "dd/d80/a23202.html#a9ddae483a0f8cefd8a19975b60002660", null ],
+    [ "JustEngagedWith", "dd/d80/a23202.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
+    [ "JustSummoned", "dd/d80/a23202.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
+    [ "KilledUnit", "dd/d80/a23202.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
+    [ "Reset", "dd/d80/a23202.html#a0ec22c50cd096677a20299ab45a3c344", null ],
+    [ "UpdateAI", "dd/d80/a23202.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
+    [ "_hasSpoken", "dd/d80/a23202.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
+    [ "_targetGUID", "dd/d80/a23202.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
 ];

@@ -1,8 +1,7 @@
 var a10394 =
 [
-    [ "GuildBankQueryTab", "dc/dc1/a10394.html#a29fc27016b597f051898db7bb30214c8", null ],
-    [ "Read", "dc/dc1/a10394.html#ab4e17c592b05ce041f5f52f2bc711d41", null ],
-    [ "Banker", "dc/dc1/a10394.html#af21ec3aa4cf912fd5b82e6ae16459e06", null ],
-    [ "FullUpdate", "dc/dc1/a10394.html#a4f9758c10f7c7294dffaa01b8e0b723f", null ],
-    [ "Tab", "dc/dc1/a10394.html#a949488c1696f92cb0a081cf28bffb48f", null ]
+    [ "GuildBankActivate", "dc/dc1/a10394.html#a5b27541a26ada694d9635f6d6873ef20", null ],
+    [ "Read", "dc/dc1/a10394.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
+    [ "Banker", "dc/dc1/a10394.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
+    [ "FullUpdate", "dc/dc1/a10394.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
 ];

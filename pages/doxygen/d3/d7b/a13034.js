@@ -1,7 +1,6 @@
 var a13034 =
 [
-    [ "HandleSchoolDamage", "d3/d7b/a13034.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
-    [ "PrepareSpellScript", "d3/d7b/a13034.html#a8063f3d669e07dc0768607feb9a2f763", null ],
-    [ "Register", "d3/d7b/a13034.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
-    [ "Validate", "d3/d7b/a13034.html#af90ae09274b0082bd8bd674ca43596f6", null ]
+    [ "FixOrientation", "d3/d7b/a13034.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
+    [ "Execute", "d3/d7b/a13034.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
+    [ "_owner", "d3/d7b/a13034.html#a5f12db3774bdeef25a300780c00db1fb", null ]
 ];

@@ -1,5 +1,6 @@
 var a10026 =
 [
-    [ "GenericGameObjectScript", "da/d24/a10026.html#a7d1d46c8d325619637aef9b9dc5419f7", null ],
-    [ "GetAI", "da/d24/a10026.html#a7e3ba0f4a88489de522ae714d628c9ab", null ]
+    [ "ElunaScript", "da/d24/a10026.html#a1b4a815f484b4048f7e1fa7ec5282eef", null ],
+    [ "CanAreaTrigger", "da/d24/a10026.html#a47f8793586dd27dd4eb42eb5379828b0", null ],
+    [ "OnWeatherChange", "da/d24/a10026.html#af09f40df2d02a57c92d7e05d19f35549", null ]
 ];

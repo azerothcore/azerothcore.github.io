@@ -1,16 +1,10 @@
 var a15142 =
 [
-    [ "npc_anachronos_the_ancientAI", "d4/d3c/a15142.html#aad6fbdc3cf33f2deb6dd3cc741e4aec4", null ],
-    [ "HandleAnimation", "d4/d3c/a15142.html#a0bd43e2482a12cda79566f761d448109", null ],
-    [ "Reset", "d4/d3c/a15142.html#a3bd2380cfd18b14aae1ae72a452299bb", null ],
-    [ "UpdateAI", "d4/d3c/a15142.html#a5a55cfec1d204b6657779938e93b6be5", null ],
-    [ "AnachronosQuestTriggerGUID", "d4/d3c/a15142.html#aa51b7cdfb2a37310196c81a01f89a7dd", null ],
-    [ "AnimationCount", "d4/d3c/a15142.html#a504038880b7e837f63f99d477c8a0bba", null ],
-    [ "AnimationTimer", "d4/d3c/a15142.html#a4ca3807429ffa2caca6199ecd66c4015", null ],
-    [ "ArygosGUID", "d4/d3c/a15142.html#a4f2917c85d41d3b5015d6eed56fe9e12", null ],
-    [ "CaelestraszGUID", "d4/d3c/a15142.html#adceafa1ad19ecb7df59f87b501d4622c", null ],
-    [ "eventEnd", "d4/d3c/a15142.html#ad125b9eb7052449a6b75eebde7a192e0", null ],
-    [ "FandralGUID", "d4/d3c/a15142.html#a157af7db82bf943c298b63d8294067ce", null ],
-    [ "MerithraGUID", "d4/d3c/a15142.html#af7088f79687a4109f5701488e9019aeb", null ],
-    [ "PlayerGUID", "d4/d3c/a15142.html#a7e1777ca319e4f6dafc1a035d05dabc0", null ]
+    [ "CreatureId", "d4/d3c/a15142.html#a09f696e37f96e7da259fc026a7c4fd83", null ],
+    [ "DespTimer", "d4/d3c/a15142.html#a0dfec745982b346ac1cd0af672be31fb", null ],
+    [ "SpawnCount", "d4/d3c/a15142.html#ad5347ee83eaa00fe0721279099c48433", null ],
+    [ "SpawnTimer", "d4/d3c/a15142.html#ab1720ffe0aeeb5669ab49fc32cb24750", null ],
+    [ "UsedSpawnPoint", "d4/d3c/a15142.html#a7db57df5da62ebb3b52ecd70ec3d45f2", null ],
+    [ "WaveTextId", "d4/d3c/a15142.html#a0a9807e31c2d5c769bc0a020941b234c", null ],
+    [ "YellTimer", "d4/d3c/a15142.html#ac3f9997775f34babc79d4321fd1a6d6d", null ]
 ];

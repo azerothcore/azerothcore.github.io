@@ -1,5 +1,6 @@
 var a24014 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d4/dae/a24014.html#ac9f42a8f6d87ab65e78d9a3951102705", null ],
-    [ "OnCharmed", "d4/dae/a24014.html#ada01d7ab11b7bf240cad932c96978a06", null ]
+    [ "npc_pet_dk_ghoulAI", "d0/d03/a24018.html", "d0/d03/a24018" ],
+    [ "npc_pet_dk_ghoul", "d4/dae/a24014.html#ac8af6ae753151a08e80d434a04ef58db", null ],
+    [ "GetAI", "d4/dae/a24014.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
 ];

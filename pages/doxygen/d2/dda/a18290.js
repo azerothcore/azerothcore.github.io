@@ -1,8 +1,7 @@
 var a18290 =
 [
-    [ "CountTargets", "d2/dda/a18290.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
-    [ "HandleScript", "d2/dda/a18290.html#af058a0c458463bdba4a4eb73aa91c113", null ],
-    [ "PrepareSpellScript", "d2/dda/a18290.html#a83b2fad7cdc189a17129e25a015952ff", null ],
-    [ "Register", "d2/dda/a18290.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
-    [ "Validate", "d2/dda/a18290.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
+    [ "OnApply", "d2/dda/a18290.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
+    [ "OnRemove", "d2/dda/a18290.html#a697a7c76f944b5df956a9de07746b7a9", null ],
+    [ "PrepareAuraScript", "d2/dda/a18290.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
+    [ "Register", "d2/dda/a18290.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
 ];

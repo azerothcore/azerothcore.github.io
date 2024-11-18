@@ -1,7 +1,7 @@
 var a11146 =
 [
-    [ "FieldIndices", "d2/d4b/a11146.html#a06a366c804088e6fbb170881004a5cff", null ],
-    [ "TableFields", "d2/d4b/a11146.html#ad5d909c6b4b062f3c4aac3f559c5eaec", null ],
-    [ "TableName", "d2/d4b/a11146.html#ab00ee028c72660db98e8108583701471", null ],
-    [ "WhereFieldName", "d2/d4b/a11146.html#af1be82a21f6172504e310ae27b899e5b", null ]
+    [ "PlayerGuid", "d2/d4b/a11146.html#a629a600c48376d04293c225390f747ff", null ],
+    [ "PrimaryKey", "d2/d4b/a11146.html#a7c1ef4d19fb49e5813868ff2ccfe12fc", null ],
+    [ "StoredType", "d2/d4b/a11146.html#a9bea7cf549813010b55c23417d65edc6", null ],
+    [ "TableName", "d2/d4b/a11146.html#a0f308af88812c110c490c94368bda482", null ]
 ];

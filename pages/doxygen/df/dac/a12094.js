@@ -1,10 +1,6 @@
 var a12094 =
 [
-    [ "npc_core_ragerAI", "df/dac/a12094.html#a3c5125e0a10043f6181c10ba749fa579", null ],
-    [ "DamageTaken", "df/dac/a12094.html#a758eb158eb9d232d74514281028efcb3", null ],
-    [ "Reset", "df/dac/a12094.html#acf83e469d3d8108276227a942fda28b3", null ],
-    [ "UpdateAI", "df/dac/a12094.html#a2183cf5ab22b737413b86a657fde6d3c", null ],
-    [ "instance", "df/dac/a12094.html#a7cfddba62f737214b8cfc7fbffa8c2e2", null ],
-    [ "mangleTimer", "df/dac/a12094.html#a081333b967abb3812b9ddae2f933a324", null ],
-    [ "rangeCheckTimer", "df/dac/a12094.html#ade427bdd9ec99807b6f190c890136414", null ]
+    [ "boss_gehennasAI", "d3/d2d/a12098.html", "d3/d2d/a12098" ],
+    [ "boss_gehennas", "df/dac/a12094.html#a380a24cbaad4e247c6c76fd63ac34f59", null ],
+    [ "GetAI", "df/dac/a12094.html#a92f9ff0e957da5331b4a3ecc48be0ffa", null ]
 ];

@@ -1,6 +1,8 @@
 var a17538 =
 [
-    [ "boss_rotfaceAI", "de/dd5/a17542.html", "de/dd5/a17542" ],
-    [ "boss_rotface", "da/d7d/a17538.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
-    [ "GetAI", "da/d7d/a17538.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
+    [ "HandleScript", "da/d7d/a17538.html#a9f3cef57312626ae1884c36ad4bfdca6", null ],
+    [ "PrepareSpellScript", "da/d7d/a17538.html#a2ba03324afacf8da8e5fe6bc725e4d2f", null ],
+    [ "Register", "da/d7d/a17538.html#a9b0e0427b7f8abbd0e9d556ccc581aeb", null ],
+    [ "SelectTarget", "da/d7d/a17538.html#a36d575c6a63e94905bf435bc9d39e588", null ],
+    [ "Validate", "da/d7d/a17538.html#afc4a6277e3a7419b6a4aaa99f6697b91", null ]
 ];

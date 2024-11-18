@@ -1,6 +1,6 @@
 var a19270 =
 [
-    [ "instance_halls_of_stone_InstanceMapScript", "da/db4/a19274.html", "da/db4/a19274" ],
-    [ "instance_halls_of_stone", "da/da3/a19270.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
-    [ "GetInstanceScript", "da/da3/a19270.html#a784906c7710a216016101cf7a6a915f3", null ]
+    [ "iron_golem_custodianAI", "da/db4/a19274.html", "da/db4/a19274" ],
+    [ "iron_golem_custodian", "da/da3/a19270.html#adc11b755e193adbad757c21e5b15e063", null ],
+    [ "GetAI", "da/da3/a19270.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
 ];

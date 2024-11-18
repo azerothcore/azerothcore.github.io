@@ -1,7 +1,6 @@
 var a26526 =
 [
-    [ "FilterTargets", "d2/d94/a26526.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
-    [ "PrepareSpellScript", "d2/d94/a26526.html#a954f00317eab544dd57e657368aab7fb", null ],
-    [ "Register", "d2/d94/a26526.html#a1804684c8685372faf2e88e56b48f5be", null ],
-    [ "Validate", "d2/d94/a26526.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
+    [ "PrepareSpellScript", "d2/d94/a26526.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "d2/d94/a26526.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "d2/d94/a26526.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Protocol/PacketLog.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AchievementScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,74 +106,74 @@ $(document).ready(function(){initNavTree('d3/d45/a04280.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">PacketLog.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AchievementScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &lt;boost/asio/ip/address.hpp&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;list&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d40/a10674.html">PacketLog</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html">AchievementScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a14b702138c7f0a62a900dfc8eecc1f6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a04280.html#a14b702138c7f0a62a900dfc8eecc1f6f">sPacketLog</a>&#160;&#160;&#160;<a class="el" href="../../d6/d40/a10674.html#a484418a51ca0bf150d17b23d97979bf4">PacketLog::instance</a>()</td></tr>
-<tr class="separator:a14b702138c7f0a62a900dfc8eecc1f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a>
+<tr class="memitem:a62b7eadebfd59858b2e2f1a8713a3ae1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1">AchievementHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782">ACHIEVEMENTHOOK_SET_REALM_COMPLETED</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a>
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e">ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7">ACHIEVEMENTHOOK_IS_REALM_COMPLETED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048">ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1">ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c">ACHIEVEMENTHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a62b7eadebfd59858b2e2f1a8713a3ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a14b702138c7f0a62a900dfc8eecc1f6f" name="a14b702138c7f0a62a900dfc8eecc1f6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14b702138c7f0a62a900dfc8eecc1f6f">&#9670;&#160;</a></span>sPacketLog</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sPacketLog&#160;&#160;&#160;<a class="el" href="../../d6/d40/a10674.html#a484418a51ca0bf150d17b23d97979bf4">PacketLog::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a224b9163917ac32fc95a60d8c1eec3aa" name="a224b9163917ac32fc95a60d8c1eec3aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a224b9163917ac32fc95a60d8c1eec3aa">&#9670;&#160;</a></span>Direction</h2>
+<a id="a62b7eadebfd59858b2e2f1a8713a3ae1" name="a62b7eadebfd59858b2e2f1a8713a3ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b7eadebfd59858b2e2f1a8713a3ae1">&#9670;&#160;</a></span>AchievementHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1">AchievementHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476" name="a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476"></a>CLIENT_TO_SERVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3" name="a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3"></a>SERVER_TO_CLIENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782" name="a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782"></a>ACHIEVEMENTHOOK_SET_REALM_COMPLETED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e" name="a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e"></a>ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7" name="a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7"></a>ACHIEVEMENTHOOK_IS_REALM_COMPLETED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048" name="a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048"></a>ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1" name="a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1"></a>ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c" name="a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c"></a>ACHIEVEMENTHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a></div>
-<div class="line"><span class="lineno">   29</span>};</div>
-<div class="ttc" id="aa04280_html_a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3"><div class="ttname"><a href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3">SERVER_TO_CLIENT</a></div><div class="ttdeci">@ SERVER_TO_CLIENT</div><div class="ttdef"><b>Definition:</b> PacketLog.h:28</div></div>
-<div class="ttc" id="aa04280_html_a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476"><div class="ttname"><a href="../../d3/d45/a04280.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a></div><div class="ttdeci">@ CLIENT_TO_SERVER</div><div class="ttdef"><b>Definition:</b> PacketLog.h:27</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782">ACHIEVEMENTHOOK_SET_REALM_COMPLETED</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e">ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7">ACHIEVEMENTHOOK_IS_REALM_COMPLETED</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048">ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1">ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c">ACHIEVEMENTHOOK_END</a></div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7">ACHIEVEMENTHOOK_IS_REALM_COMPLETED</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_IS_REALM_COMPLETED</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:30</div></div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e">ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:29</div></div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c">ACHIEVEMENTHOOK_END</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_END</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:33</div></div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048">ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:31</div></div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1">ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:32</div></div>
+<div class="ttc" id="aa04280_html_a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782"><div class="ttname"><a href="../../d3/d45/a04280.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782">ACHIEVEMENTHOOK_SET_REALM_COMPLETED</a></div><div class="ttdeci">@ ACHIEVEMENTHOOK_SET_REALM_COMPLETED</div><div class="ttdef"><b>Definition:</b> AchievementScript.h:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -182,8 +182,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_1fd92d9a30d0fdf42a981ea00259f736.html">Protocol</a></li><li class="navelem"><a class="el" href="../../d3/d45/a04280.html">PacketLog.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d3/d45/a04280.html">AchievementScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

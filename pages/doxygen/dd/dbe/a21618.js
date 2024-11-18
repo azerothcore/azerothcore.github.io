@@ -1,7 +1,6 @@
 var a21618 =
 [
-    [ "HandleDummy", "dd/dbe/a21618.html#a98e8a4b7bbe947b00f1bc32632736d59", null ],
-    [ "PrepareSpellScript", "dd/dbe/a21618.html#a65b1ddf275eb5ee14ca32a1e25bf6e0e", null ],
-    [ "Register", "dd/dbe/a21618.html#acdfa4e1fc8e26a887e80521b1bea5150", null ],
-    [ "Validate", "dd/dbe/a21618.html#aeec15705a41ad2ac0e59d90086591d96", null ]
+    [ "npc_rocket_propelled_warheadAI", "d4/d36/a21622.html", "d4/d36/a21622" ],
+    [ "npc_rocket_propelled_warhead", "dd/dbe/a21618.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
+    [ "GetAI", "dd/dbe/a21618.html#a803702c480107d197845a0ef447a5380", null ]
 ];

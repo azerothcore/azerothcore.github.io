@@ -1,18 +1,9 @@
 var a08574 =
 [
-    [ "GameEventData", "d4/d3a/a08574.html#ab7963b01d9e138d79f06274ea57b9590", null ],
-    [ "isValid", "d4/d3a/a08574.html#a7a91c9c9cc68593812b13f6efd2ea4ff", null ],
-    [ "announce", "d4/d3a/a08574.html#a7271996d66a36e41b21502fa4d5305fe", null ],
-    [ "conditions", "d4/d3a/a08574.html#adca87b4b2205273a29dd2a547be90da6", null ],
-    [ "description", "d4/d3a/a08574.html#aebdadbaadbba367601674146a27a283f", null ],
-    [ "end", "d4/d3a/a08574.html#a1bf3980d02cd0dc304b2ffbd5afb7b9f", null ],
-    [ "eventId", "d4/d3a/a08574.html#a858501847212a8771f676641ad61aacd", null ],
-    [ "holiday_id", "d4/d3a/a08574.html#aa13c2c2eacb9475e18c1d1370566e988", null ],
-    [ "holidayStage", "d4/d3a/a08574.html#a23a3f6d7f036f6c5b47b84ef1242d056", null ],
-    [ "length", "d4/d3a/a08574.html#ac45297bad99ddb339b3aa18ec5912c1c", null ],
-    [ "nextstart", "d4/d3a/a08574.html#ae0259f021337b3ad47dfbbc1f361965f", null ],
-    [ "occurence", "d4/d3a/a08574.html#a04c813525fef572000608f32650565ff", null ],
-    [ "prerequisite_events", "d4/d3a/a08574.html#acd7a8d00e76cd09cbbbd345987b8644f", null ],
-    [ "start", "d4/d3a/a08574.html#ac4da43ddbb3b95f00589f49ed250092d", null ],
-    [ "state", "d4/d3a/a08574.html#a54a6e90fd4b68093a99e32b198eab2fb", null ]
+    [ "TransportBase", "d4/d3a/a08574.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
+    [ "~TransportBase", "d4/d3a/a08574.html#a81dca3435a1a1666a90acd8e154e3287", null ],
+    [ "CalculatePassengerOffset", "d4/d3a/a08574.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
+    [ "CalculatePassengerOffset", "d4/d3a/a08574.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
+    [ "CalculatePassengerPosition", "d4/d3a/a08574.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
+    [ "CalculatePassengerPosition", "d4/d3a/a08574.html#a328fbc464c56eca89138380182a0108c", null ]
 ];

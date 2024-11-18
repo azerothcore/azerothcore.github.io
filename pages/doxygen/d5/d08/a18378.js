@@ -1,9 +1,6 @@
 var a18378 =
 [
-    [ "npc_icc_skybreaker_vicarAI", "d5/d08/a18378.html#ae74a306850b328f536b55e5c24c040ab", null ],
-    [ "AttackStart", "d5/d08/a18378.html#a52b753e1f599eb02385d980a78cd3c78", null ],
-    [ "JustEngagedWith", "d5/d08/a18378.html#afdb4215cd0578de7342b152783666ed6", null ],
-    [ "Reset", "d5/d08/a18378.html#aeb11687534fa7c1e76ea22cc07deb73d", null ],
-    [ "UpdateAI", "d5/d08/a18378.html#af1726169fe63eb3ff1ed95eb0e10d2f0", null ],
-    [ "events", "d5/d08/a18378.html#a711d9571b4edb87f77eeebbd12e248b3", null ]
+    [ "npc_icc_skybreaker_marksmanAI", "d3/deb/a18382.html", "d3/deb/a18382" ],
+    [ "npc_icc_skybreaker_marksman", "d5/d08/a18378.html#a1d870b78e1acf2d17782265e28698d1c", null ],
+    [ "GetAI", "d5/d08/a18378.html#a374017d37da15705d51ab8edc75683ff", null ]
 ];

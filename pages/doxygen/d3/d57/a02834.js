@@ -1,7 +1,13 @@
 var a02834 =
 [
-    [ "EMBLEM_PRICE", "d3/d57/a02834.html#a6e37f394008ea3eb20a46c84e03512a5", null ],
-    [ "MAX_GUILD_BANK_TAB_TEXT_LEN", "d3/d57/a02834.html#a458eaf87a56d0ac3d92187c55b14f437", null ],
-    [ "_GetGuildBankTabPrice", "d3/d57/a02834.html#a039068bd46d84b88b1a6a2fa0ae07b80", null ],
-    [ "_GetGuildEventString", "d3/d57/a02834.html#a8e9e4c2d24b387f386cf2d9c02996b59", null ]
+    [ "u_map_magic", "d4/db0/a09482.html", "d4/db0/a09482" ],
+    [ "ResetNotifier", "d7/d8c/a09486.html", "d7/d8c/a09486" ],
+    [ "IsInWMOInterior", "d3/d57/a02834.html#ad41458075af3abab316f89b325f54b7e", null ],
+    [ "holetab_h", "d3/d57/a02834.html#a10e90ca95e60d3244de3e68d7882433b", null ],
+    [ "holetab_v", "d3/d57/a02834.html#a54b408dce116992610ba9c141426d821", null ],
+    [ "MapAreaMagic", "d3/d57/a02834.html#aeb7bc0ea8073198e3cb70d0ee7f2aa44", null ],
+    [ "MapHeightMagic", "d3/d57/a02834.html#ae53a23e88747c5795afb99cccd6b4c6a", null ],
+    [ "MapLiquidMagic", "d3/d57/a02834.html#aaf4bf520080f57455b531f7c9bcea49f", null ],
+    [ "MapMagic", "d3/d57/a02834.html#aae87d2a805abae1536d560092ab589f8", null ],
+    [ "MapVersionMagic", "d3/d57/a02834.html#a3f87af2b784af0df560d9dce7651c859", null ]
 ];

@@ -1,4 +1,5 @@
 var a01385 =
 [
-    [ "AddCustomScripts", "df/d68/a01385.html#a068af514420f658f0c087bbb77628173", null ]
+    [ "spectator_commandscript", "d5/db4/a11466.html", "d5/db4/a11466" ],
+    [ "AddSC_spectator_commandscript", "df/d68/a01385.html#a223cb7b19bd79c486919c41509ea6ddf", null ]
 ];

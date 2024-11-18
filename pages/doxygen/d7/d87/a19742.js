@@ -1,8 +1,6 @@
 var a19742 =
 [
-    [ "npc_ulduar_saronite_animusAI", "d7/d87/a19742.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "d7/d87/a19742.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "d7/d87/a19742.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "d7/d87/a19742.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "d7/d87/a19742.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "npc_ulduar_saronite_vaporsAI", "d0/dec/a19746.html", "d0/dec/a19746" ],
+    [ "npc_ulduar_saronite_vapors", "d7/d87/a19742.html#a567c3aca8c381167ca278c2c3562e6f6", null ],
+    [ "GetAI", "d7/d87/a19742.html#a3c2e7b6263f8935da9291c736b14d139", null ]
 ];

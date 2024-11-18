@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/CryptoGenerics.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/SFMTRand.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,57 +105,28 @@ $(document).ready(function(){initNavTree('dd/df5/a00386.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">CryptoGenerics.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">SFMTRand.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CryptoRandom.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;SFMT.h&gt;</code><br />
+<code>#include &lt;new&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html">Acore::Impl::CryptoGenericsImpl</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/a05402.html">SFMTRand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">Acore::Impl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d70/a04684"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html">Acore::Crypto</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a42045f5644391c1c876f0ae1bc180f7c"><td class="memTemplParams" colspan="2">template&lt;typename Cipher &gt; </td></tr>
-<tr class="memitem:a42045f5644391c1c876f0ae1bc180f7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a42045f5644391c1c876f0ae1bc180f7c">Acore::Crypto::AEEncryptWithRandomIV</a> (std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, typename Cipher::Key const &amp;key)</td></tr>
-<tr class="separator:a42045f5644391c1c876f0ae1bc180f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0057c59e47839100792e392e2d73783a"><td class="memTemplParams" colspan="2">template&lt;typename Cipher &gt; </td></tr>
-<tr class="memitem:a0057c59e47839100792e392e2d73783a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a0057c59e47839100792e392e2d73783a">Acore::Crypto::AEEncryptWithRandomIV</a> (std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, <a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;key)</td></tr>
-<tr class="separator:a0057c59e47839100792e392e2d73783a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb3d22d5d1d2ceeb4a752b7dccc143b0"><td class="memTemplParams" colspan="2">template&lt;typename Cipher &gt; </td></tr>
-<tr class="memitem:aeb3d22d5d1d2ceeb4a752b7dccc143b0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#aeb3d22d5d1d2ceeb4a752b7dccc143b0">Acore::Crypto::AEDecrypt</a> (std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, typename Cipher::Key const &amp;key)</td></tr>
-<tr class="separator:aeb3d22d5d1d2ceeb4a752b7dccc143b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1173a93d3f38af692d24411d34829de0"><td class="memTemplParams" colspan="2">template&lt;typename Cipher &gt; </td></tr>
-<tr class="memitem:a1173a93d3f38af692d24411d34829de0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a1173a93d3f38af692d24411d34829de0">Acore::Crypto::AEDecrypt</a> (std::vector&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, <a class="el" href="../../d8/d59/a05062.html">BigNumber</a> const &amp;key)</td></tr>
-<tr class="separator:a1173a93d3f38af692d24411d34829de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../dd/df5/a00386.html">CryptoGenerics.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../dd/df5/a00386.html">SFMTRand.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

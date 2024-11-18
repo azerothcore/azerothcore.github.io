@@ -1,6 +1,5 @@
 var a19922 =
 [
-    [ "boss_ignisAI", "d0/d03/a19926.html", "d0/d03/a19926" ],
-    [ "boss_ignis", "d9/d18/a19922.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
-    [ "GetAI", "d9/d18/a19922.html#ac11ff148e9cbc985875f859268a3de01", null ]
+    [ "achievement_staying_buffed_all_winter_25", "d9/d18/a19922.html#a91f0ab3bada837cff6414350b98a27a3", null ],
+    [ "OnCheck", "d9/d18/a19922.html#a36591082184bc8466e124bad9a910545", null ]
 ];

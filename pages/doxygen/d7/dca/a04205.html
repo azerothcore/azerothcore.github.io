@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/CinematicMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptSystem.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,74 +106,166 @@ $(document).ready(function(){initNavTree('d7/dca/a04205.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">CinematicMgr.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">ScriptSystem.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0d/a08250.html">CinematicMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html">ScriptPointMove</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/a10166.html">SystemMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:afdc341ad7f2f8cdfcf101e128dd7bbbb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#afdc341ad7f2f8cdfcf101e128dd7bbbb">CINEMATIC_UPDATEDIFF</a> = 500</td></tr>
-<tr class="separator:afdc341ad7f2f8cdfcf101e128dd7bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1b03a0a84708dbd9b5487f49762b4a9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#ae1b03a0a84708dbd9b5487f49762b4a9">CINEMATIC_LOOKAHEAD</a> = 2000</td></tr>
-<tr class="separator:ae1b03a0a84708dbd9b5487f49762b4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a55d384db121a9bd513042ebdeb40e602"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#a55d384db121a9bd513042ebdeb40e602">TEXT_SOURCE_RANGE</a>&#160;&#160;&#160;-1000000</td></tr>
+<tr class="separator:a55d384db121a9bd513042ebdeb40e602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95cfdf568913b08b669f19b401f888a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#a95cfdf568913b08b669f19b401f888a7">sScriptSystemMgr</a>&#160;&#160;&#160;<a class="el" href="../../d0/d2b/a10166.html#a71b78a44a3656802d55211d68fb19e12">SystemMgr::instance</a>()</td></tr>
+<tr class="separator:a95cfdf568913b08b669f19b401f888a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aab50bb2bd1f4c2c015d1ed573408733a"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d0/d93/a10162.html">ScriptPointMove</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a></td></tr>
+<tr class="separator:aab50bb2bd1f4c2c015d1ed573408733a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a3c2424ea523bc5d5e44a7fa49a67f476"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476">eEscortFaction</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9">FACTION_ESCORT_A_NEUTRAL_PASSIVE</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea">FACTION_ESCORT_H_NEUTRAL_PASSIVE</a> = 33
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54">FACTION_ESCORT_N_NEUTRAL_PASSIVE</a> = 113
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1">FACTION_ESCORT_A_NEUTRAL_ACTIVE</a> = 231
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04">FACTION_ESCORT_H_NEUTRAL_ACTIVE</a> = 232
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a> = 250
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b">FACTION_ESCORT_N_FRIEND_PASSIVE</a> = 290
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470">FACTION_ESCORT_N_FRIEND_ACTIVE</a> = 495
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013">FACTION_ESCORT_A_PASSIVE</a> = 774
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73">FACTION_ESCORT_H_PASSIVE</a> = 775
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb">FACTION_ESCORT_N_ACTIVE</a> = 1986
+, <br />
+&#160;&#160;<a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb">FACTION_ESCORT_H_ACTIVE</a> = 2046
+<br />
+ }</td></tr>
+<tr class="separator:a3c2424ea523bc5d5e44a7fa49a67f476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ae1b03a0a84708dbd9b5487f49762b4a9" name="ae1b03a0a84708dbd9b5487f49762b4a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1b03a0a84708dbd9b5487f49762b4a9">&#9670;&#160;</a></span>CINEMATIC_LOOKAHEAD</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a95cfdf568913b08b669f19b401f888a7" name="a95cfdf568913b08b669f19b401f888a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95cfdf568913b08b669f19b401f888a7">&#9670;&#160;</a></span>sScriptSystemMgr</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto CINEMATIC_LOOKAHEAD = 2000</td>
+          <td class="memname">#define sScriptSystemMgr&#160;&#160;&#160;<a class="el" href="../../d0/d2b/a10166.html#a71b78a44a3656802d55211d68fb19e12">SystemMgr::instance</a>()</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00092">CinematicMgr::UpdateCinematicLocation()</a>.</p>
-
 </div>
 </div>
-<a id="afdc341ad7f2f8cdfcf101e128dd7bbbb" name="afdc341ad7f2f8cdfcf101e128dd7bbbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdc341ad7f2f8cdfcf101e128dd7bbbb">&#9670;&#160;</a></span>CINEMATIC_UPDATEDIFF</h2>
+<a id="a55d384db121a9bd513042ebdeb40e602" name="a55d384db121a9bd513042ebdeb40e602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d384db121a9bd513042ebdeb40e602">&#9670;&#160;</a></span>TEXT_SOURCE_RANGE</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto CINEMATIC_UPDATEDIFF = 500</td>
+          <td class="memname">#define TEXT_SOURCE_RANGE&#160;&#160;&#160;-1000000</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00052">Player::Update()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aab50bb2bd1f4c2c015d1ed573408733a" name="aab50bb2bd1f4c2c015d1ed573408733a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab50bb2bd1f4c2c015d1ed573408733a">&#9670;&#160;</a></span>ScriptPointVector</h2>
 
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d0/d93/a10162.html">ScriptPointMove</a>&gt; <a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a3c2424ea523bc5d5e44a7fa49a67f476" name="a3c2424ea523bc5d5e44a7fa49a67f476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2424ea523bc5d5e44a7fa49a67f476">&#9670;&#160;</a></span>eEscortFaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476">eEscortFaction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9" name="a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9"></a>FACTION_ESCORT_A_NEUTRAL_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea" name="a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea"></a>FACTION_ESCORT_H_NEUTRAL_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54" name="a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54"></a>FACTION_ESCORT_N_NEUTRAL_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1" name="a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1"></a>FACTION_ESCORT_A_NEUTRAL_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04" name="a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04"></a>FACTION_ESCORT_H_NEUTRAL_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae" name="a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae"></a>FACTION_ESCORT_N_NEUTRAL_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b" name="a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b"></a>FACTION_ESCORT_N_FRIEND_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470" name="a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470"></a>FACTION_ESCORT_N_FRIEND_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013" name="a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013"></a>FACTION_ESCORT_A_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73" name="a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73"></a>FACTION_ESCORT_H_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb" name="a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb"></a>FACTION_ESCORT_N_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb" name="a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb"></a>FACTION_ESCORT_H_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9">FACTION_ESCORT_A_NEUTRAL_PASSIVE</a>    = 10,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea">FACTION_ESCORT_H_NEUTRAL_PASSIVE</a>    = 33,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54">FACTION_ESCORT_N_NEUTRAL_PASSIVE</a>    = 113,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1">FACTION_ESCORT_A_NEUTRAL_ACTIVE</a>     = 231,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04">FACTION_ESCORT_H_NEUTRAL_ACTIVE</a>     = 232,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a>     = 250,</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b">FACTION_ESCORT_N_FRIEND_PASSIVE</a>     = 290,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470">FACTION_ESCORT_N_FRIEND_ACTIVE</a>      = 495,</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013">FACTION_ESCORT_A_PASSIVE</a>            = 774,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73">FACTION_ESCORT_H_PASSIVE</a>            = 775,</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb">FACTION_ESCORT_N_ACTIVE</a>             = 1986,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb">FACTION_ESCORT_H_ACTIVE</a>             = 2046</div>
+<div class="line"><span class="lineno">   47</span>};</div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb">FACTION_ESCORT_N_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:45</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54">FACTION_ESCORT_N_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:33</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1">FACTION_ESCORT_A_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:35</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013">FACTION_ESCORT_A_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:42</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea">FACTION_ESCORT_H_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:32</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04">FACTION_ESCORT_H_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:36</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb">FACTION_ESCORT_H_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:46</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b">FACTION_ESCORT_N_FRIEND_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_FRIEND_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:39</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73">FACTION_ESCORT_H_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:43</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9">FACTION_ESCORT_A_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:31</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:37</div></div>
+<div class="ttc" id="aa04205_html_a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470"><div class="ttname"><a href="../../d7/dca/a04205.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470">FACTION_ESCORT_N_FRIEND_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_FRIEND_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -181,8 +273,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d7/dca/a04205.html">CinematicMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../d7/dca/a04205.html">ScriptSystem.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,7 @@
 var a19558 =
 [
-    [ "npc_mechanoliftAI", "d6/db9/a19562.html", "d6/db9/a19562" ],
-    [ "npc_mechanolift", "df/db0/a19558.html#a7b753a3426213706c899745a6d0d989b", null ],
-    [ "GetAI", "df/db0/a19558.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
+    [ "npc_storm_beacon_spawnAI", "df/db0/a19558.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "df/db0/a19558.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "df/db0/a19558.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "df/db0/a19558.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

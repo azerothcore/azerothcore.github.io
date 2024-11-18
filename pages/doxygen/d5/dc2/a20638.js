@@ -1,10 +1,8 @@
 var a20638 =
 [
-    [ "npc_ulduar_snow_mound", "d5/dc2/a20638.html#a3f66ad92d616050bb67cb1a5e33ffa74", null ],
-    [ "MoveInLineOfSight", "d5/dc2/a20638.html#ae5a09062d87aa1c0d446310df2ddd621", null ],
-    [ "UpdateAI", "d5/dc2/a20638.html#a9d18fdaf83a2cfeea9b3ac6adbbd2687", null ],
-    [ "_activated", "d5/dc2/a20638.html#ac48f6985d857276e0e59c2a429f5b359", null ],
-    [ "_count", "d5/dc2/a20638.html#a1856c3bba24842f33720a83e1de40421", null ],
-    [ "_counter", "d5/dc2/a20638.html#aca94a744c23b7f9771c728997ba4b8f3", null ],
-    [ "_scheduler", "d5/dc2/a20638.html#aafe42af9ba1402cad91326eb1037e476", null ]
+    [ "npc_ulduar_keeperAI", "d4/deb/a20642.html", "d4/deb/a20642" ],
+    [ "npc_ulduar_keeper", "d5/dc2/a20638.html#a252b781061a2e21dc961ea94f7120d59", null ],
+    [ "GetAI", "d5/dc2/a20638.html#ad0c0f5d3786e3f3b3394a599f3ee6256", null ],
+    [ "OnGossipHello", "d5/dc2/a20638.html#a4db12efd22c7d2a5f18144fd16543230", null ],
+    [ "OnGossipSelect", "d5/dc2/a20638.html#acf8681577117107d16d45705e4b8463f", null ]
 ];

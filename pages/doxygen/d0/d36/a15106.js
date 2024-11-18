@@ -1,7 +1,6 @@
 var a15106 =
 [
-    [ "npc_giant_spotlightAI", "d0/d36/a15106.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
-    [ "Reset", "d0/d36/a15106.html#a79f6703107eed52a3aeae30393507c0f", null ],
-    [ "UpdateAI", "d0/d36/a15106.html#a8567f936dd15933300497d5abe80a272", null ],
-    [ "events", "d0/d36/a15106.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
+    [ "npc_omenAI", "d0/ddd/a15110.html", "d0/ddd/a15110" ],
+    [ "npc_omen", "d0/d36/a15106.html#aff955303a8b9741838779a59dd496f62", null ],
+    [ "GetAI", "d0/d36/a15106.html#a8023ad3298000d9819c46f46a93166d4", null ]
 ];

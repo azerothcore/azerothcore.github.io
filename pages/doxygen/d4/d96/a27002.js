@@ -1,6 +1,6 @@
 var a27002 =
 [
-    [ "guard_shattrath_scryerAI", "d5/da3/a27006.html", "d5/da3/a27006" ],
-    [ "guard_shattrath_scryer", "d4/d96/a27002.html#a2ee4d6881d7c24cd848c590b84207663", null ],
-    [ "GetAI", "d4/d96/a27002.html#ab1d937102f63c63de4c92e45eff2c21c", null ]
+    [ "go_bellsAI", "d5/da3/a27006.html", "d5/da3/a27006" ],
+    [ "go_bells", "d4/d96/a27002.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "d4/d96/a27002.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

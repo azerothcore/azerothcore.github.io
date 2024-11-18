@@ -1,6 +1,8 @@
 var a17502 =
 [
-    [ "HandleScript", "d7/d6a/a17502.html#abd766c298f8aa363d28198b6a5d7e374", null ],
-    [ "PrepareSpellScript", "d7/d6a/a17502.html#a5a4e7d674c09ebbbc9d918cf877418a3", null ],
-    [ "Register", "d7/d6a/a17502.html#ae9bd26c97b3dc9c1af96304e3c67d532", null ]
+    [ "FilterTargets", "d7/d6a/a17502.html#a1b125c887db7d2030838d0ac8e38c4e3", null ],
+    [ "HandleScript", "d7/d6a/a17502.html#a4c7be5a65b1fb7e8db62691f5ef6b38d", null ],
+    [ "PrepareSpellScript", "d7/d6a/a17502.html#ae6b30b8da52141c385f985435cac99a1", null ],
+    [ "Register", "d7/d6a/a17502.html#a17dc25670b0f21525a01f6e7aa7eb572", null ],
+    [ "Validate", "d7/d6a/a17502.html#accff1f03fb7c0d56cb197bb18348635c", null ]
 ];

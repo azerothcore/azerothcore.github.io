@@ -1,7 +1,6 @@
 var a13078 =
 [
-    [ "OnPeriodic", "d4/d99/a13078.html#a25e7a59384f262a36c74696a1befa01d", null ],
-    [ "PrepareAuraScript", "d4/d99/a13078.html#a9b82fde3e38054b686f9b2a110cfaa1e", null ],
-    [ "Register", "d4/d99/a13078.html#a65e469ba04d8cd2aa23d934bf2915721", null ],
-    [ "Validate", "d4/d99/a13078.html#a6843deda5be8b684c06a86920714f255", null ]
+    [ "FilterTargets", "d4/d99/a13078.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
+    [ "PrepareSpellScript", "d4/d99/a13078.html#a905e1f979284a368463ad4829891b6ee", null ],
+    [ "Register", "d4/d99/a13078.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
 ];

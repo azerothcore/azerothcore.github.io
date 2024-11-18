@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/Channels/Channel.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/shared/Network/AsyncAcceptor.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,519 +106,51 @@ $(document).ready(function(){initNavTree('da/d28/a02705.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Channel.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">AsyncAcceptor.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">IpAddress.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;boost/asio/ip/tcp.hpp&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d22/a07246.html">ChannelRights</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html">Channel</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d01/a07254.html">Channel::PlayerInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d65/a28062.html">AsyncAcceptor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9efdee99211ebdba225b71037f1e95e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#a9efdee99211ebdba225b71037f1e95e1">CHANNEL_BAN_DURATION</a>&#160;&#160;&#160;<a class="el" href="../../d7/d3f/a00173.html#a219e927a5d306db9cd363487d1f94366">DAY</a>*60</td></tr>
-<tr class="separator:a9efdee99211ebdba225b71037f1e95e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aef3616afd739965415bc2de73ae61048"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048">ChatNotify</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb">CHAT_JOINED_NOTICE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba">CHAT_LEFT_NOTICE</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c">CHAT_YOU_JOINED_NOTICE</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b">CHAT_YOU_LEFT_NOTICE</a> = 0x03
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3">CHAT_WRONG_PASSWORD_NOTICE</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f">CHAT_NOT_MEMBER_NOTICE</a> = 0x05
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21">CHAT_NOT_MODERATOR_NOTICE</a> = 0x06
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f">CHAT_PASSWORD_CHANGED_NOTICE</a> = 0x07
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0">CHAT_OWNER_CHANGED_NOTICE</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b">CHAT_PLAYER_NOT_FOUND_NOTICE</a> = 0x09
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1">CHAT_NOT_OWNER_NOTICE</a> = 0x0A
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d">CHAT_CHANNEL_OWNER_NOTICE</a> = 0x0B
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2">CHAT_MODE_CHANGE_NOTICE</a> = 0x0C
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf">CHAT_ANNOUNCEMENTS_ON_NOTICE</a> = 0x0D
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392">CHAT_ANNOUNCEMENTS_OFF_NOTICE</a> = 0x0E
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2">CHAT_MODERATION_ON_NOTICE</a> = 0x0F
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112">CHAT_MODERATION_OFF_NOTICE</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82">CHAT_MUTED_NOTICE</a> = 0x11
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4">CHAT_PLAYER_KICKED_NOTICE</a> = 0x12
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f">CHAT_BANNED_NOTICE</a> = 0x13
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063">CHAT_PLAYER_BANNED_NOTICE</a> = 0x14
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07">CHAT_PLAYER_UNBANNED_NOTICE</a> = 0x15
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef">CHAT_PLAYER_NOT_BANNED_NOTICE</a> = 0x16
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3">CHAT_PLAYER_ALREADY_MEMBER_NOTICE</a> = 0x17
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022">CHAT_INVITE_NOTICE</a> = 0x18
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a">CHAT_INVITE_WRONG_FACTION_NOTICE</a> = 0x19
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a">CHAT_WRONG_FACTION_NOTICE</a> = 0x1A
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8">CHAT_INVALID_NAME_NOTICE</a> = 0x1B
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b">CHAT_NOT_MODERATED_NOTICE</a> = 0x1C
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd">CHAT_PLAYER_INVITED_NOTICE</a> = 0x1D
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0">CHAT_PLAYER_INVITE_BANNED_NOTICE</a> = 0x1E
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff">CHAT_THROTTLED_NOTICE</a> = 0x1F
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d">CHAT_NOT_IN_AREA_NOTICE</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18">CHAT_NOT_IN_LFG_NOTICE</a> = 0x21
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913">CHAT_VOICE_ON_NOTICE</a> = 0x22
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6">CHAT_VOICE_OFF_NOTICE</a> = 0x23
-<br />
- }</td></tr>
-<tr class="separator:aef3616afd739965415bc2de73ae61048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22db5479a3c9cd5559a483e29146af57"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57">ChannelFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd">CHANNEL_FLAG_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17">CHANNEL_FLAG_CUSTOM</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17">CHANNEL_FLAG_TRADE</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e">CHANNEL_FLAG_NOT_LFG</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d">CHANNEL_FLAG_GENERAL</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c">CHANNEL_FLAG_CITY</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77">CHANNEL_FLAG_LFG</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa">CHANNEL_FLAG_VOICE</a> = 0x80
-<br />
- }</td></tr>
-<tr class="separator:a22db5479a3c9cd5559a483e29146af57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4acfab10728f2904523abb9c3761a256"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256">ChannelDBCFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173">CHANNEL_DBC_FLAG_NONE</a> = 0x00000
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320">CHANNEL_DBC_FLAG_INITIAL</a> = 0x00001
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2">CHANNEL_DBC_FLAG_ZONE_DEP</a> = 0x00002
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed">CHANNEL_DBC_FLAG_GLOBAL</a> = 0x00004
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed">CHANNEL_DBC_FLAG_TRADE</a> = 0x00008
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f">CHANNEL_DBC_FLAG_CITY_ONLY</a> = 0x00010
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8">CHANNEL_DBC_FLAG_CITY_ONLY2</a> = 0x00020
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19">CHANNEL_DBC_FLAG_DEFENSE</a> = 0x10000
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f">CHANNEL_DBC_FLAG_GUILD_REQ</a> = 0x20000
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985">CHANNEL_DBC_FLAG_LFG</a> = 0x40000
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d">CHANNEL_DBC_FLAG_UNK1</a> = 0x80000
-<br />
- }</td></tr>
-<tr class="separator:a4acfab10728f2904523abb9c3761a256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32e7211cd1262883c225f32863018c39"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39">ChannelMemberFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf">MEMBER_FLAG_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8">MEMBER_FLAG_OWNER</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d">MEMBER_FLAG_MODERATOR</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004">MEMBER_FLAG_VOICED</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7">MEMBER_FLAG_MUTED</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e">MEMBER_FLAG_CUSTOM</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1">MEMBER_FLAG_MIC_MUTED</a> = 0x20
-<br />
- }</td></tr>
-<tr class="separator:a32e7211cd1262883c225f32863018c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7fa3de55051b4b64ff92a8d7eef417a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417a">eChannelRights</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981">CHANNEL_RIGHT_FORCE_NO_ANNOUNCEMENTS</a> = 0x001
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2">CHANNEL_RIGHT_FORCE_ANNOUNCEMENTS</a> = 0x002
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918">CHANNEL_RIGHT_NO_OWNERSHIP</a> = 0x004
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01">CHANNEL_RIGHT_CANT_SPEAK</a> = 0x008
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b">CHANNEL_RIGHT_CANT_BAN</a> = 0x010
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10">CHANNEL_RIGHT_CANT_KICK</a> = 0x020
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744">CHANNEL_RIGHT_CANT_MUTE</a> = 0x040
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361">CHANNEL_RIGHT_CANT_CHANGE_PASSWORD</a> = 0x080
-, <br />
-&#160;&#160;<a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f">CHANNEL_RIGHT_DONT_PRESERVE</a> = 0x100
-<br />
- }</td></tr>
-<tr class="separator:ab7fa3de55051b4b64ff92a8d7eef417a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af747a74d5d7546f9c862f3516a0c028f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/a02705.html#af747a74d5d7546f9c862f3516a0c028f">ACORE_MAX_LISTEN_CONNECTIONS</a> = boost::asio::socket_base::max_listen_connections</td></tr>
+<tr class="separator:af747a74d5d7546f9c862f3516a0c028f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9efdee99211ebdba225b71037f1e95e1" name="a9efdee99211ebdba225b71037f1e95e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9efdee99211ebdba225b71037f1e95e1">&#9670;&#160;</a></span>CHANNEL_BAN_DURATION</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af747a74d5d7546f9c862f3516a0c028f" name="af747a74d5d7546f9c862f3516a0c028f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af747a74d5d7546f9c862f3516a0c028f">&#9670;&#160;</a></span>ACORE_MAX_LISTEN_CONNECTIONS</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHANNEL_BAN_DURATION&#160;&#160;&#160;<a class="el" href="../../d7/d3f/a00173.html#a219e927a5d306db9cd363487d1f94366">DAY</a>*60</td>
+          <td class="memname">constexpr auto ACORE_MAX_LISTEN_CONNECTIONS = boost::asio::socket_base::max_listen_connections</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4acfab10728f2904523abb9c3761a256" name="a4acfab10728f2904523abb9c3761a256"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4acfab10728f2904523abb9c3761a256">&#9670;&#160;</a></span>ChannelDBCFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256">ChannelDBCFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173" name="a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173"></a>CHANNEL_DBC_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320" name="a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320"></a>CHANNEL_DBC_FLAG_INITIAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2" name="a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2"></a>CHANNEL_DBC_FLAG_ZONE_DEP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed" name="a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed"></a>CHANNEL_DBC_FLAG_GLOBAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed" name="a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed"></a>CHANNEL_DBC_FLAG_TRADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f" name="a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f"></a>CHANNEL_DBC_FLAG_CITY_ONLY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8" name="a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8"></a>CHANNEL_DBC_FLAG_CITY_ONLY2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19" name="a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19"></a>CHANNEL_DBC_FLAG_DEFENSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f" name="a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f"></a>CHANNEL_DBC_FLAG_GUILD_REQ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985" name="a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985"></a>CHANNEL_DBC_FLAG_LFG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d" name="a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d"></a>CHANNEL_DBC_FLAG_UNK1&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
-<div class="line"><span class="lineno">   93</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173">CHANNEL_DBC_FLAG_NONE</a>       = 0x00000,</div>
-<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320">CHANNEL_DBC_FLAG_INITIAL</a>    = 0x00001,              <span class="comment">// General, Trade, LocalDefense, LFG</span></div>
-<div class="line"><span class="lineno">   95</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2">CHANNEL_DBC_FLAG_ZONE_DEP</a>   = 0x00002,              <span class="comment">// General, Trade, LocalDefense, GuildRecruitment</span></div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed">CHANNEL_DBC_FLAG_GLOBAL</a>     = 0x00004,              <span class="comment">// WorldDefense</span></div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed">CHANNEL_DBC_FLAG_TRADE</a>      = 0x00008,              <span class="comment">// Trade, LFG</span></div>
-<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f">CHANNEL_DBC_FLAG_CITY_ONLY</a>  = 0x00010,              <span class="comment">// Trade, GuildRecruitment, LFG</span></div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8">CHANNEL_DBC_FLAG_CITY_ONLY2</a> = 0x00020,              <span class="comment">// Trade, GuildRecruitment, LFG</span></div>
-<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19">CHANNEL_DBC_FLAG_DEFENSE</a>    = 0x10000,              <span class="comment">// LocalDefense, WorldDefense</span></div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f">CHANNEL_DBC_FLAG_GUILD_REQ</a>  = 0x20000,              <span class="comment">// GuildRecruitment</span></div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985">CHANNEL_DBC_FLAG_LFG</a>        = 0x40000,              <span class="comment">// LFG</span></div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d">CHANNEL_DBC_FLAG_UNK1</a>       = 0x80000               <span class="comment">// General</span></div>
-<div class="line"><span class="lineno">  104</span>};</div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04457fac201837a9272f06f25a538173">CHANNEL_DBC_FLAG_NONE</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Channel.h:93</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a04787ba250e727c5fb18191b497fb1ed">CHANNEL_DBC_FLAG_TRADE</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_TRADE</div><div class="ttdef"><b>Definition:</b> Channel.h:97</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a172ae031e7adae711eb0e4bf79c78f7f">CHANNEL_DBC_FLAG_CITY_ONLY</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_CITY_ONLY</div><div class="ttdef"><b>Definition:</b> Channel.h:98</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256a94c7d5e831af500620a531d5c3bcc48f">CHANNEL_DBC_FLAG_GUILD_REQ</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_GUILD_REQ</div><div class="ttdef"><b>Definition:</b> Channel.h:101</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa0a13507166e8091c3a6f0039da972f2">CHANNEL_DBC_FLAG_ZONE_DEP</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_ZONE_DEP</div><div class="ttdef"><b>Definition:</b> Channel.h:95</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa12f33a7f3262f52d13644b8f46a26ed">CHANNEL_DBC_FLAG_GLOBAL</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_GLOBAL</div><div class="ttdef"><b>Definition:</b> Channel.h:96</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aa6484d00248c0c7a368ba68117de790d">CHANNEL_DBC_FLAG_UNK1</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_UNK1</div><div class="ttdef"><b>Definition:</b> Channel.h:103</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256aab49a703bfbf344358828ac4907ff4b8">CHANNEL_DBC_FLAG_CITY_ONLY2</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_CITY_ONLY2</div><div class="ttdef"><b>Definition:</b> Channel.h:99</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256adfc562c00507a8e2b92f20824c791985">CHANNEL_DBC_FLAG_LFG</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_LFG</div><div class="ttdef"><b>Definition:</b> Channel.h:102</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256ae8bd4a28f2fb6dc288f37173cf7f9c19">CHANNEL_DBC_FLAG_DEFENSE</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_DEFENSE</div><div class="ttdef"><b>Definition:</b> Channel.h:100</div></div>
-<div class="ttc" id="aa02705_html_a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320"><div class="ttname"><a href="../../da/d28/a02705.html#a4acfab10728f2904523abb9c3761a256af5eedc890f6f50cf045a07a477aa7320">CHANNEL_DBC_FLAG_INITIAL</a></div><div class="ttdeci">@ CHANNEL_DBC_FLAG_INITIAL</div><div class="ttdef"><b>Definition:</b> Channel.h:94</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a22db5479a3c9cd5559a483e29146af57" name="a22db5479a3c9cd5559a483e29146af57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22db5479a3c9cd5559a483e29146af57">&#9670;&#160;</a></span>ChannelFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57">ChannelFlags</a></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd" name="a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd"></a>CHANNEL_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17" name="a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17"></a>CHANNEL_FLAG_CUSTOM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17" name="a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17"></a>CHANNEL_FLAG_TRADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e" name="a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e"></a>CHANNEL_FLAG_NOT_LFG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d" name="a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d"></a>CHANNEL_FLAG_GENERAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c" name="a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c"></a>CHANNEL_FLAG_CITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77" name="a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77"></a>CHANNEL_FLAG_LFG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa" name="a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa"></a>CHANNEL_FLAG_VOICE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd">CHANNEL_FLAG_NONE</a>       = 0x00,</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17">CHANNEL_FLAG_CUSTOM</a>     = 0x01,</div>
-<div class="line"><span class="lineno">   77</span>    <span class="comment">// 0x02</span></div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17">CHANNEL_FLAG_TRADE</a>      = 0x04,</div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e">CHANNEL_FLAG_NOT_LFG</a>    = 0x08,</div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d">CHANNEL_FLAG_GENERAL</a>    = 0x10,</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c">CHANNEL_FLAG_CITY</a>       = 0x20,</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77">CHANNEL_FLAG_LFG</a>        = 0x40,</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa">CHANNEL_FLAG_VOICE</a>      = 0x80</div>
-<div class="line"><span class="lineno">   84</span>                              <span class="comment">// General                  0x18 = 0x10 | 0x08</span></div>
-<div class="line"><span class="lineno">   85</span>                              <span class="comment">// Trade                    0x3C = 0x20 | 0x10 | 0x08 | 0x04</span></div>
-<div class="line"><span class="lineno">   86</span>                              <span class="comment">// LocalDefence             0x18 = 0x10 | 0x08</span></div>
-<div class="line"><span class="lineno">   87</span>                              <span class="comment">// GuildRecruitment         0x38 = 0x20 | 0x10 | 0x08</span></div>
-<div class="line"><span class="lineno">   88</span>                              <span class="comment">// LookingForGroup          0x50 = 0x40 | 0x10</span></div>
-<div class="line"><span class="lineno">   89</span>};</div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a0d9aedc07bc4b05ccfed73ca0ed454fa">CHANNEL_FLAG_VOICE</a></div><div class="ttdeci">@ CHANNEL_FLAG_VOICE</div><div class="ttdef"><b>Definition:</b> Channel.h:83</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a30bc2c7278406d0f3c3cced94ad55cbd">CHANNEL_FLAG_NONE</a></div><div class="ttdeci">@ CHANNEL_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Channel.h:75</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17">CHANNEL_FLAG_TRADE</a></div><div class="ttdeci">@ CHANNEL_FLAG_TRADE</div><div class="ttdef"><b>Definition:</b> Channel.h:78</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a59da6157282e35583f592c811a82f39e">CHANNEL_FLAG_NOT_LFG</a></div><div class="ttdeci">@ CHANNEL_FLAG_NOT_LFG</div><div class="ttdef"><b>Definition:</b> Channel.h:79</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d">CHANNEL_FLAG_GENERAL</a></div><div class="ttdeci">@ CHANNEL_FLAG_GENERAL</div><div class="ttdef"><b>Definition:</b> Channel.h:80</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa465233a9664a77c34a78d83c2667d17">CHANNEL_FLAG_CUSTOM</a></div><div class="ttdeci">@ CHANNEL_FLAG_CUSTOM</div><div class="ttdef"><b>Definition:</b> Channel.h:76</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77">CHANNEL_FLAG_LFG</a></div><div class="ttdeci">@ CHANNEL_FLAG_LFG</div><div class="ttdef"><b>Definition:</b> Channel.h:82</div></div>
-<div class="ttc" id="aa02705_html_a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c"><div class="ttname"><a href="../../da/d28/a02705.html#a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c">CHANNEL_FLAG_CITY</a></div><div class="ttdeci">@ CHANNEL_FLAG_CITY</div><div class="ttdef"><b>Definition:</b> Channel.h:81</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a32e7211cd1262883c225f32863018c39" name="a32e7211cd1262883c225f32863018c39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32e7211cd1262883c225f32863018c39">&#9670;&#160;</a></span>ChannelMemberFlags</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39">ChannelMemberFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf" name="a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf"></a>MEMBER_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8" name="a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8"></a>MEMBER_FLAG_OWNER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d" name="a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d"></a>MEMBER_FLAG_MODERATOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004" name="a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004"></a>MEMBER_FLAG_VOICED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7" name="a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7"></a>MEMBER_FLAG_MUTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e" name="a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e"></a>MEMBER_FLAG_CUSTOM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1" name="a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1"></a>MEMBER_FLAG_MIC_MUTED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  107</span>{</div>
-<div class="line"><span class="lineno">  108</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf">MEMBER_FLAG_NONE</a>        = 0x00,</div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8">MEMBER_FLAG_OWNER</a>       = 0x01,</div>
-<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d">MEMBER_FLAG_MODERATOR</a>   = 0x02,</div>
-<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004">MEMBER_FLAG_VOICED</a>      = 0x04,</div>
-<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7">MEMBER_FLAG_MUTED</a>       = 0x08,</div>
-<div class="line"><span class="lineno">  113</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e">MEMBER_FLAG_CUSTOM</a>      = 0x10,</div>
-<div class="line"><span class="lineno">  114</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1">MEMBER_FLAG_MIC_MUTED</a>   = 0x20</div>
-<div class="line"><span class="lineno">  115</span>                              <span class="comment">// 0x40</span></div>
-<div class="line"><span class="lineno">  116</span>                              <span class="comment">// 0x80</span></div>
-<div class="line"><span class="lineno">  117</span>};</div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a0496041bd982b10f5b9a0bc1eab996b7">MEMBER_FLAG_MUTED</a></div><div class="ttdeci">@ MEMBER_FLAG_MUTED</div><div class="ttdef"><b>Definition:</b> Channel.h:112</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a3b99639d03c6dd588793fa2d17dd8b7e">MEMBER_FLAG_CUSTOM</a></div><div class="ttdeci">@ MEMBER_FLAG_CUSTOM</div><div class="ttdef"><b>Definition:</b> Channel.h:113</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39a51c058769ba3692b6016b5ed2e2034c1">MEMBER_FLAG_MIC_MUTED</a></div><div class="ttdeci">@ MEMBER_FLAG_MIC_MUTED</div><div class="ttdef"><b>Definition:</b> Channel.h:114</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ab94e40361a3a7aff32d247e44fd90004">MEMBER_FLAG_VOICED</a></div><div class="ttdeci">@ MEMBER_FLAG_VOICED</div><div class="ttdef"><b>Definition:</b> Channel.h:111</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39ae71d16110c2240e872296c53f0d1c26d">MEMBER_FLAG_MODERATOR</a></div><div class="ttdeci">@ MEMBER_FLAG_MODERATOR</div><div class="ttdef"><b>Definition:</b> Channel.h:110</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af0d5b67840f36117e2f76108784d8ecf">MEMBER_FLAG_NONE</a></div><div class="ttdeci">@ MEMBER_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Channel.h:108</div></div>
-<div class="ttc" id="aa02705_html_a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8"><div class="ttname"><a href="../../da/d28/a02705.html#a32e7211cd1262883c225f32863018c39af519a341c01b83853d70e1b038596df8">MEMBER_FLAG_OWNER</a></div><div class="ttdeci">@ MEMBER_FLAG_OWNER</div><div class="ttdef"><b>Definition:</b> Channel.h:109</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aef3616afd739965415bc2de73ae61048" name="aef3616afd739965415bc2de73ae61048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3616afd739965415bc2de73ae61048">&#9670;&#160;</a></span>ChatNotify</h2>
+<p class="reference">Referenced by <a class="el" href="../../#l00072">AsyncAcceptor::Bind()</a>, and <a class="el" href="../../#l00051">WorldSocketMgr::StartWorldNetwork()</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048">ChatNotify</a> : <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb" name="aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb"></a>CHAT_JOINED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba" name="aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba"></a>CHAT_LEFT_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c" name="aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c"></a>CHAT_YOU_JOINED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b" name="aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b"></a>CHAT_YOU_LEFT_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3" name="aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3"></a>CHAT_WRONG_PASSWORD_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f" name="aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f"></a>CHAT_NOT_MEMBER_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21" name="aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21"></a>CHAT_NOT_MODERATOR_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f" name="aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f"></a>CHAT_PASSWORD_CHANGED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0" name="aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0"></a>CHAT_OWNER_CHANGED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b" name="aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b"></a>CHAT_PLAYER_NOT_FOUND_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1" name="aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1"></a>CHAT_NOT_OWNER_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d" name="aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d"></a>CHAT_CHANNEL_OWNER_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2" name="aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2"></a>CHAT_MODE_CHANGE_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf" name="aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf"></a>CHAT_ANNOUNCEMENTS_ON_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392" name="aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392"></a>CHAT_ANNOUNCEMENTS_OFF_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2" name="aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2"></a>CHAT_MODERATION_ON_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112" name="aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112"></a>CHAT_MODERATION_OFF_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82" name="aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82"></a>CHAT_MUTED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4" name="aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4"></a>CHAT_PLAYER_KICKED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f" name="aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f"></a>CHAT_BANNED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063" name="aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063"></a>CHAT_PLAYER_BANNED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07" name="aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07"></a>CHAT_PLAYER_UNBANNED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef" name="aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef"></a>CHAT_PLAYER_NOT_BANNED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3" name="aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3"></a>CHAT_PLAYER_ALREADY_MEMBER_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022" name="aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022"></a>CHAT_INVITE_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a" name="aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a"></a>CHAT_INVITE_WRONG_FACTION_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a" name="aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a"></a>CHAT_WRONG_FACTION_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8" name="aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8"></a>CHAT_INVALID_NAME_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b" name="aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b"></a>CHAT_NOT_MODERATED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd" name="aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd"></a>CHAT_PLAYER_INVITED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0" name="aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0"></a>CHAT_PLAYER_INVITE_BANNED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff" name="aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff"></a>CHAT_THROTTLED_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d" name="aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d"></a>CHAT_NOT_IN_AREA_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18" name="aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18"></a>CHAT_NOT_IN_LFG_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913" name="aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913"></a>CHAT_VOICE_ON_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6" name="aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6"></a>CHAT_VOICE_OFF_NOTICE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb">CHAT_JOINED_NOTICE</a>                = 0x00,           <span class="comment">//+ &quot;%s joined channel.&quot;;</span></div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba">CHAT_LEFT_NOTICE</a>                  = 0x01,           <span class="comment">//+ &quot;%s left channel.&quot;;</span></div>
-<div class="line"><span class="lineno">   35</span>    <span class="comment">//CHAT_SUSPENDED_NOTICE             = 0x01,           // &quot;%s left channel.&quot;;</span></div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c">CHAT_YOU_JOINED_NOTICE</a>            = 0x02,           <span class="comment">//+ &quot;Joined Channel: [%s]&quot;; -- You joined</span></div>
-<div class="line"><span class="lineno">   37</span>    <span class="comment">//CHAT_YOU_CHANGED_NOTICE           = 0x02,           // &quot;Changed Channel: [%s]&quot;;</span></div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b">CHAT_YOU_LEFT_NOTICE</a>              = 0x03,           <span class="comment">//+ &quot;Left Channel: [%s]&quot;; -- You left</span></div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3">CHAT_WRONG_PASSWORD_NOTICE</a>        = 0x04,           <span class="comment">//+ &quot;Wrong password for %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f">CHAT_NOT_MEMBER_NOTICE</a>            = 0x05,           <span class="comment">//+ &quot;Not on channel %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21">CHAT_NOT_MODERATOR_NOTICE</a>         = 0x06,           <span class="comment">//+ &quot;Not a moderator of %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f">CHAT_PASSWORD_CHANGED_NOTICE</a>      = 0x07,           <span class="comment">//+ &quot;[%s] Password changed by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0">CHAT_OWNER_CHANGED_NOTICE</a>         = 0x08,           <span class="comment">//+ &quot;[%s] Owner changed to %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b">CHAT_PLAYER_NOT_FOUND_NOTICE</a>      = 0x09,           <span class="comment">//+ &quot;[%s] Player %s was not found.&quot;;</span></div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1">CHAT_NOT_OWNER_NOTICE</a>             = 0x0A,           <span class="comment">//+ &quot;[%s] You are not the channel owner.&quot;;</span></div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d">CHAT_CHANNEL_OWNER_NOTICE</a>         = 0x0B,           <span class="comment">//+ &quot;[%s] Channel owner is %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2">CHAT_MODE_CHANGE_NOTICE</a>           = 0x0C,           <span class="comment">//?</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf">CHAT_ANNOUNCEMENTS_ON_NOTICE</a>      = 0x0D,           <span class="comment">//+ &quot;[%s] Channel announcements enabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392">CHAT_ANNOUNCEMENTS_OFF_NOTICE</a>     = 0x0E,           <span class="comment">//+ &quot;[%s] Channel announcements disabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2">CHAT_MODERATION_ON_NOTICE</a>         = 0x0F,           <span class="comment">//+ &quot;[%s] Channel moderation enabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112">CHAT_MODERATION_OFF_NOTICE</a>        = 0x10,           <span class="comment">//+ &quot;[%s] Channel moderation disabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82">CHAT_MUTED_NOTICE</a>                 = 0x11,           <span class="comment">//+ &quot;[%s] You do not have permission to speak.&quot;;</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4">CHAT_PLAYER_KICKED_NOTICE</a>         = 0x12,           <span class="comment">//? &quot;[%s] Player %s kicked by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f">CHAT_BANNED_NOTICE</a>                = 0x13,           <span class="comment">//+ &quot;[%s] You are bannedStore from that channel.&quot;;</span></div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063">CHAT_PLAYER_BANNED_NOTICE</a>         = 0x14,           <span class="comment">//? &quot;[%s] Player %s bannedStore by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07">CHAT_PLAYER_UNBANNED_NOTICE</a>       = 0x15,           <span class="comment">//? &quot;[%s] Player %s unbanned by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef">CHAT_PLAYER_NOT_BANNED_NOTICE</a>     = 0x16,           <span class="comment">//+ &quot;[%s] Player %s is not bannedStore.&quot;;</span></div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3">CHAT_PLAYER_ALREADY_MEMBER_NOTICE</a> = 0x17,           <span class="comment">//+ &quot;[%s] Player %s is already on the channel.&quot;;</span></div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022">CHAT_INVITE_NOTICE</a>                = 0x18,           <span class="comment">//+ &quot;%2$s has invited you to join the channel &#39;%1$s&#39;.&quot;;</span></div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a">CHAT_INVITE_WRONG_FACTION_NOTICE</a>  = 0x19,           <span class="comment">//+ &quot;Target is in the wrong alliance for %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a">CHAT_WRONG_FACTION_NOTICE</a>         = 0x1A,           <span class="comment">//+ &quot;Wrong alliance for %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8">CHAT_INVALID_NAME_NOTICE</a>          = 0x1B,           <span class="comment">//+ &quot;Invalid channel name&quot;;</span></div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b">CHAT_NOT_MODERATED_NOTICE</a>         = 0x1C,           <span class="comment">//+ &quot;%s is not moderated&quot;;</span></div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd">CHAT_PLAYER_INVITED_NOTICE</a>        = 0x1D,           <span class="comment">//+ &quot;[%s] You invited %s to join the channel&quot;;</span></div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0">CHAT_PLAYER_INVITE_BANNED_NOTICE</a>  = 0x1E,           <span class="comment">//+ &quot;[%s] %s has been bannedStore.&quot;;</span></div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff">CHAT_THROTTLED_NOTICE</a>             = 0x1F,           <span class="comment">//+ &quot;[%s] The number of messages that can be sent to this channel is limited, please wait to send another message.&quot;;</span></div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d">CHAT_NOT_IN_AREA_NOTICE</a>           = 0x20,           <span class="comment">//+ &quot;[%s] You are not in the correct area for this channel.&quot;; -- The user is trying to send a chat to a zone specific channel, and they&#39;re not physically in that zone.</span></div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18">CHAT_NOT_IN_LFG_NOTICE</a>            = 0x21,           <span class="comment">//+ &quot;[%s] You must be queued in looking for group before joining this channel.&quot;; -- The user must be in the looking for group system to join LFG chat channels.</span></div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913">CHAT_VOICE_ON_NOTICE</a>              = 0x22,           <span class="comment">//+ &quot;[%s] Channel voice enabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6">CHAT_VOICE_OFF_NOTICE</a>             = 0x23            <span class="comment">//+ &quot;[%s] Channel voice disabled by %s.&quot;;</span></div>
-<div class="line"><span class="lineno">   71</span>};</div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a08eb7d01b66e718aa04b280cff1dec5c">CHAT_YOU_JOINED_NOTICE</a></div><div class="ttdeci">@ CHAT_YOU_JOINED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:36</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a12d80dca010acd73db1ed840a0706112">CHAT_MODERATION_OFF_NOTICE</a></div><div class="ttdeci">@ CHAT_MODERATION_OFF_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:51</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a17beb1ae371ca6af5637bf642d60427a">CHAT_WRONG_FACTION_NOTICE</a></div><div class="ttdeci">@ CHAT_WRONG_FACTION_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:61</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a1dc46070129211517c6bbfcc2d077e21">CHAT_NOT_MODERATOR_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_MODERATOR_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:41</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a20ed658bdd91e1d8bc1301cd94153c07">CHAT_PLAYER_UNBANNED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_UNBANNED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:56</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a4195ff09eea51413a2bf076468d6a44b">CHAT_PLAYER_NOT_FOUND_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_NOT_FOUND_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:44</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a41ade999f7e617f1784b31c1af119a82">CHAT_MUTED_NOTICE</a></div><div class="ttdeci">@ CHAT_MUTED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:52</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a51fa7aaf742720fb0dc5a3f368afe6ef">CHAT_PLAYER_NOT_BANNED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_NOT_BANNED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:57</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5451f0976709abd1de28aa1eacaf14fd">CHAT_PLAYER_INVITED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_INVITED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:64</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a546358154bc35fe7de905d10d201bea4">CHAT_PLAYER_KICKED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_KICKED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:53</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5629f3b7f9add78e3a20fa369dc805f6">CHAT_VOICE_OFF_NOTICE</a></div><div class="ttdeci">@ CHAT_VOICE_OFF_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:70</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a5ef5e7cfad0f6fc4d4b3c6ce1813fff2">CHAT_MODE_CHANGE_NOTICE</a></div><div class="ttdeci">@ CHAT_MODE_CHANGE_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:47</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a61eae59a7ae2fcb92bc168b16762375f">CHAT_NOT_MEMBER_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_MEMBER_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:40</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a645e57c81111d5139f6aae5a8bade3cf">CHAT_ANNOUNCEMENTS_ON_NOTICE</a></div><div class="ttdeci">@ CHAT_ANNOUNCEMENTS_ON_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:48</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a675d855ab96edaeda8c845616aa669bb">CHAT_JOINED_NOTICE</a></div><div class="ttdeci">@ CHAT_JOINED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:33</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a71f4acbc488ac1fe511fd120774e43ba">CHAT_LEFT_NOTICE</a></div><div class="ttdeci">@ CHAT_LEFT_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:34</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a74a7e864042190c701feff61642bbb3a">CHAT_INVITE_WRONG_FACTION_NOTICE</a></div><div class="ttdeci">@ CHAT_INVITE_WRONG_FACTION_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:60</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a7c5c7c167bdd9012187d329526b1118f">CHAT_BANNED_NOTICE</a></div><div class="ttdeci">@ CHAT_BANNED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:54</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a8299e101dc47bf90c1670d91263a8063">CHAT_PLAYER_BANNED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_BANNED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:55</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a830f39c070170392e5741128235579c3">CHAT_PLAYER_ALREADY_MEMBER_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_ALREADY_MEMBER_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:58</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a94a188be8ca288704f5868e545aefba0">CHAT_OWNER_CHANGED_NOTICE</a></div><div class="ttdeci">@ CHAT_OWNER_CHANGED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:43</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a96cea03776fdcf8187b4783c79bb8392">CHAT_ANNOUNCEMENTS_OFF_NOTICE</a></div><div class="ttdeci">@ CHAT_ANNOUNCEMENTS_OFF_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:49</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a97e7243c154cd1938b2b102f72613913">CHAT_VOICE_ON_NOTICE</a></div><div class="ttdeci">@ CHAT_VOICE_ON_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:69</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048a9c5a8ab7890cfce75d44523cdf18fb18">CHAT_NOT_IN_LFG_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_IN_LFG_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:68</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048aaf6e043f05b289a1dfc1593f990e6b6d">CHAT_NOT_IN_AREA_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_IN_AREA_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:67</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab68398900eddade6be5071bb1e7c737b">CHAT_NOT_MODERATED_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_MODERATED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:63</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab8d4b78ccbfc6fbb1cce547ba7e8828b">CHAT_YOU_LEFT_NOTICE</a></div><div class="ttdeci">@ CHAT_YOU_LEFT_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:38</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ab9c95586cbb43b0f655ecc1f0ddf120d">CHAT_CHANNEL_OWNER_NOTICE</a></div><div class="ttdeci">@ CHAT_CHANNEL_OWNER_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:46</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048abcbbf2d62e027e518b17f7b9c5a3c1f3">CHAT_WRONG_PASSWORD_NOTICE</a></div><div class="ttdeci">@ CHAT_WRONG_PASSWORD_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:39</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ac0b6e263c6ca28ddd89b99321d2dcfff">CHAT_THROTTLED_NOTICE</a></div><div class="ttdeci">@ CHAT_THROTTLED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:66</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad39a9f2406daee0b0499e900036a44f0">CHAT_PLAYER_INVITE_BANNED_NOTICE</a></div><div class="ttdeci">@ CHAT_PLAYER_INVITE_BANNED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:65</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad56f92621e02f1bf37404807a2442022">CHAT_INVITE_NOTICE</a></div><div class="ttdeci">@ CHAT_INVITE_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:59</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad77b2ff9f0d4cae9838b40ddaf5a1fc1">CHAT_NOT_OWNER_NOTICE</a></div><div class="ttdeci">@ CHAT_NOT_OWNER_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:45</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ad9263e507aaad0f49427c8b445eb689f">CHAT_PASSWORD_CHANGED_NOTICE</a></div><div class="ttdeci">@ CHAT_PASSWORD_CHANGED_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:42</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae1d4ca2da0297cb297d0a49e8181c7b8">CHAT_INVALID_NAME_NOTICE</a></div><div class="ttdeci">@ CHAT_INVALID_NAME_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:62</div></div>
-<div class="ttc" id="aa02705_html_aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2"><div class="ttname"><a href="../../da/d28/a02705.html#aef3616afd739965415bc2de73ae61048ae4bd0fb80760dc76ed7aacb9224235f2">CHAT_MODERATION_ON_NOTICE</a></div><div class="ttdeci">@ CHAT_MODERATION_ON_NOTICE</div><div class="ttdef"><b>Definition:</b> Channel.h:50</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab7fa3de55051b4b64ff92a8d7eef417a" name="ab7fa3de55051b4b64ff92a8d7eef417a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7fa3de55051b4b64ff92a8d7eef417a">&#9670;&#160;</a></span>eChannelRights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417a">eChannelRights</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981" name="ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981"></a>CHANNEL_RIGHT_FORCE_NO_ANNOUNCEMENTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2" name="ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2"></a>CHANNEL_RIGHT_FORCE_ANNOUNCEMENTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918" name="ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918"></a>CHANNEL_RIGHT_NO_OWNERSHIP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01" name="ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01"></a>CHANNEL_RIGHT_CANT_SPEAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b" name="ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b"></a>CHANNEL_RIGHT_CANT_BAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10" name="ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10"></a>CHANNEL_RIGHT_CANT_KICK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744" name="ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744"></a>CHANNEL_RIGHT_CANT_MUTE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361" name="ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361"></a>CHANNEL_RIGHT_CANT_CHANGE_PASSWORD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f" name="ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f"></a>CHANNEL_RIGHT_DONT_PRESERVE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
-<div class="line"><span class="lineno">  133</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981">CHANNEL_RIGHT_FORCE_NO_ANNOUNCEMENTS</a>    = 0x001,</div>
-<div class="line"><span class="lineno">  134</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2">CHANNEL_RIGHT_FORCE_ANNOUNCEMENTS</a>       = 0x002,</div>
-<div class="line"><span class="lineno">  135</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918">CHANNEL_RIGHT_NO_OWNERSHIP</a>              = 0x004,</div>
-<div class="line"><span class="lineno">  136</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01">CHANNEL_RIGHT_CANT_SPEAK</a>                = 0x008,</div>
-<div class="line"><span class="lineno">  137</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b">CHANNEL_RIGHT_CANT_BAN</a>                  = 0x010,</div>
-<div class="line"><span class="lineno">  138</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10">CHANNEL_RIGHT_CANT_KICK</a>                 = 0x020,</div>
-<div class="line"><span class="lineno">  139</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744">CHANNEL_RIGHT_CANT_MUTE</a>                 = 0x040,</div>
-<div class="line"><span class="lineno">  140</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361">CHANNEL_RIGHT_CANT_CHANGE_PASSWORD</a>      = 0x080,</div>
-<div class="line"><span class="lineno">  141</span>    <a class="code hl_enumvalue" href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f">CHANNEL_RIGHT_DONT_PRESERVE</a>             = 0x100,</div>
-<div class="line"><span class="lineno">  142</span>};</div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa5fbb3a648477030ea54ca3c715938d0b">CHANNEL_RIGHT_CANT_BAN</a></div><div class="ttdeci">@ CHANNEL_RIGHT_CANT_BAN</div><div class="ttdef"><b>Definition:</b> Channel.h:137</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa67b202bda6094f739919492eba525981">CHANNEL_RIGHT_FORCE_NO_ANNOUNCEMENTS</a></div><div class="ttdeci">@ CHANNEL_RIGHT_FORCE_NO_ANNOUNCEMENTS</div><div class="ttdef"><b>Definition:</b> Channel.h:133</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa6fbb26729efc9fd907286ff76ef07e10">CHANNEL_RIGHT_CANT_KICK</a></div><div class="ttdeci">@ CHANNEL_RIGHT_CANT_KICK</div><div class="ttdef"><b>Definition:</b> Channel.h:138</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7b8f17d59929603121d8537ca683eb2f">CHANNEL_RIGHT_DONT_PRESERVE</a></div><div class="ttdeci">@ CHANNEL_RIGHT_DONT_PRESERVE</div><div class="ttdef"><b>Definition:</b> Channel.h:141</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa7ee9f05e0db3aad528e2df7ecf4aa8c2">CHANNEL_RIGHT_FORCE_ANNOUNCEMENTS</a></div><div class="ttdeci">@ CHANNEL_RIGHT_FORCE_ANNOUNCEMENTS</div><div class="ttdef"><b>Definition:</b> Channel.h:134</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aa86af292b301961e50f6f8bc9c960af01">CHANNEL_RIGHT_CANT_SPEAK</a></div><div class="ttdeci">@ CHANNEL_RIGHT_CANT_SPEAK</div><div class="ttdef"><b>Definition:</b> Channel.h:136</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aaaff5050f1084a527faab0139d392e361">CHANNEL_RIGHT_CANT_CHANGE_PASSWORD</a></div><div class="ttdeci">@ CHANNEL_RIGHT_CANT_CHANGE_PASSWORD</div><div class="ttdef"><b>Definition:</b> Channel.h:140</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aac5101c589a4b8cc24a8e7684e3c23744">CHANNEL_RIGHT_CANT_MUTE</a></div><div class="ttdeci">@ CHANNEL_RIGHT_CANT_MUTE</div><div class="ttdef"><b>Definition:</b> Channel.h:139</div></div>
-<div class="ttc" id="aa02705_html_ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918"><div class="ttname"><a href="../../da/d28/a02705.html#ab7fa3de55051b4b64ff92a8d7eef417aae429eae4c346c3af4c8d68251556a918">CHANNEL_RIGHT_NO_OWNERSHIP</a></div><div class="ttdeci">@ CHANNEL_RIGHT_NO_OWNERSHIP</div><div class="ttdef"><b>Definition:</b> Channel.h:135</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -626,8 +158,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_d4871a286f89f7ca564743d0cdf0b956.html">Channels</a></li><li class="navelem"><a class="el" href="../../da/d28/a02705.html">Channel.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_a4d376dc24851cd2a191f06c51e076cb.html">Network</a></li><li class="navelem"><a class="el" href="../../da/d28/a02705.html">AsyncAcceptor.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

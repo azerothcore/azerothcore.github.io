@@ -1,4 +1,6 @@
 var a03170 =
 [
-    [ "ScriptRegistry< ArenaScript >", "da/de5/a03170.html#a0e29d9894321e9d406e8b7c8709f0eba", null ]
+    [ "Acore::BroadcastTextBuilder", "d2/df7/a11086.html", "d2/df7/a11086" ],
+    [ "Acore::CustomChatTextBuilder", "da/d96/a11090.html", "da/d96/a11090" ],
+    [ "Acore::AcoreStringChatBuilder", "d9/d27/a11094.html", "d9/d27/a11094" ]
 ];

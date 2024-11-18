@@ -1,6 +1,5 @@
 var a21822 =
 [
-    [ "npc_avatar_of_freya", "d5/d77/a21822.html#a3a6c4f6d8f05d606c6f545d91acdb2c1", null ],
-    [ "OnGossipHello", "d5/d77/a21822.html#a020e8e41b32eb65ff906c9ca934a03fe", null ],
-    [ "OnGossipSelect", "d5/d77/a21822.html#aba1b13e922873e939b2510b4bc77f49d", null ]
+    [ "go_pressure_valve", "d5/d77/a21822.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "d5/d77/a21822.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

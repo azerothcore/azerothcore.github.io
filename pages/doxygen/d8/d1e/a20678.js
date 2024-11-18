@@ -1,6 +1,5 @@
 var a20678 =
 [
-    [ "npc_frost_tombAI", "de/df0/a20682.html", "de/df0/a20682" ],
-    [ "npc_frost_tomb", "d8/d1e/a20678.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
-    [ "GetAI", "d8/d1e/a20678.html#a6d913e6cf9138de60556ec381354e614", null ]
+    [ "npc_salvaged_siege_engine", "d8/d1e/a20678.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
+    [ "BeforeSpellClick", "d8/d1e/a20678.html#aed2500b2315b5e508ea3d06a2355d023", null ]
 ];

@@ -1,8 +1,9 @@
 var a21850 =
 [
-    [ "npc_adventurous_dwarfAI", "dd/d4c/a21854.html", "dd/d4c/a21854" ],
-    [ "npc_adventurous_dwarf", "d4/d85/a21850.html#a15c39e217907189db9be7799e696f310", null ],
-    [ "GetAI", "d4/d85/a21850.html#ac3f124fab8520a16ccd73e058a0383b1", null ],
-    [ "OnGossipHello", "d4/d85/a21850.html#ab69e3e249f7075d5344ad79bf9c79b79", null ],
-    [ "OnGossipSelect", "d4/d85/a21850.html#aebb2cd209f71d8ab56a29e5bfd668def", null ]
+    [ "npc_engineer_heliceAI", "d4/d85/a21850.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
+    [ "JustDied", "d4/d85/a21850.html#aba224727b86a2bfc39a47b70b424ccef", null ],
+    [ "Reset", "d4/d85/a21850.html#ade3f7f526dd8973c155aafb939db3778", null ],
+    [ "UpdateAI", "d4/d85/a21850.html#a1c333511dd6e82cd22af111e12a701c4", null ],
+    [ "WaypointReached", "d4/d85/a21850.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
+    [ "m_uiChatTimer", "d4/d85/a21850.html#aa305bc2b5711d0745650f80275204ea8", null ]
 ];

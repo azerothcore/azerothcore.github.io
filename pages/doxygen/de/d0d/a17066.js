@@ -1,5 +1,6 @@
 var a17066 =
 [
-    [ "achievement_ive_gone_and_made_a_mess", "de/d0d/a17066.html#a0e71ea3afae02176f81231e51155c038", null ],
-    [ "OnCheck", "de/d0d/a17066.html#a638cead986783523c7c35ecb9d885b11", null ]
+    [ "PrepareAuraScript", "de/d0d/a17066.html#abbcd0a9a63908a875bcdbc66fb5e1218", null ],
+    [ "RecalculateHook", "de/d0d/a17066.html#a829e96cabbb565922f7183adb3edf13c", null ],
+    [ "Register", "de/d0d/a17066.html#a7ded7cbe8c5cbffd6798bbb66d8a5d1a", null ]
 ];

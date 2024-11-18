@@ -1,7 +1,10 @@
 var a22938 =
 [
-    [ "npc_ahune_ice_spear_bunny", "de/ddc/a22938.html#aecc30efddcf4ae9bd93504e1d727ee87", null ],
-    [ "InitializeAI", "de/ddc/a22938.html#a5e7eb38f6bf4a947bd1e09ee198eb45d", null ],
-    [ "UpdateAI", "de/ddc/a22938.html#ac7fd9b174f2ee1b1adf9d20d59c67bc2", null ],
-    [ "_scheduler", "de/ddc/a22938.html#a1a1a8b066a3cab9e15710fa97a8c83e6", null ]
+    [ "npc_frozen_core", "de/ddc/a22938.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
+    [ "DoAction", "de/ddc/a22938.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
+    [ "Initialize", "de/ddc/a22938.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
+    [ "JustDied", "de/ddc/a22938.html#a476e086b0379e0cef3a44d250b020d6a", null ],
+    [ "UpdateAI", "de/ddc/a22938.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
+    [ "_events", "de/ddc/a22938.html#a3a5efec3279644ef713722e1556a3c84", null ],
+    [ "_instance", "de/ddc/a22938.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
 ];

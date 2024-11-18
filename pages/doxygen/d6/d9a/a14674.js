@@ -1,6 +1,5 @@
 var a14674 =
 [
-    [ "FilterTargets", "d6/d9a/a14674.html#a8fa6932a6cf291d8ab40140b171e1c17", null ],
-    [ "PrepareSpellScript", "d6/d9a/a14674.html#a5e93e2cb92db31be03703ab2e5d082cd", null ],
-    [ "Register", "d6/d9a/a14674.html#a0e3a6fd6f3de3d81f535d67451568c45", null ]
+    [ "boss_vem", "d6/d9a/a14674.html#a8e303ece8ba209c6dea0ed6c888077d3", null ],
+    [ "JustEngagedWith", "d6/d9a/a14674.html#ae4b7fa599d31155bdee566b31c60b237", null ]
 ];

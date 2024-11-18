@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Grids/Notifiers/GridNotifiers.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/MovementHandlerScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,92 +105,55 @@ $(document).ready(function(){initNavTree('d0/dd6/a04238.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">GridNotifiers.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">MovementHandlerScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a6dd107031f342074ca560b711fe188d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd6/a04238.html#a6dd107031f342074ca560b711fe188d7">CreatureUnitRelocationWorker</a> (<a class="el" href="../../dc/dbf/a07754.html">Creature</a> *c, <a class="el" href="../../de/df3/a08502.html">Unit</a> *u)</td></tr>
-<tr class="separator:a6dd107031f342074ca560b711fe188d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de1/a10086.html">MovementHandlerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5763e953c65ba38409a14469a1fe2842"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842">MovementHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326">MOVEMENTHOOK_ON_PLAYER_MOVE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c">MOVEMENTHOOK_END</a>
+<br />
+ }</td></tr>
+<tr class="separator:a5763e953c65ba38409a14469a1fe2842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a6dd107031f342074ca560b711fe188d7" name="a6dd107031f342074ca560b711fe188d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dd107031f342074ca560b711fe188d7">&#9670;&#160;</a></span>CreatureUnitRelocationWorker()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5763e953c65ba38409a14469a1fe2842" name="a5763e953c65ba38409a14469a1fe2842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5763e953c65ba38409a14469a1fe2842">&#9670;&#160;</a></span>MovementHook</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CreatureUnitRelocationWorker </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/dbf/a07754.html">Creature</a> *&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/df3/a08502.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>u</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842">MovementHook</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  149</span>{</div>
-<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../de/df3/a08502.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !c-&gt;<a class="code hl_function" href="../../de/df3/a08502.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || c == u || u-&gt;<a class="code hl_function" href="../../de/df3/a08502.html#a85b547eedd208db5f9dddc5f75a1a211">IsInFlight</a>())</div>
-<div class="line"><span class="lineno">  151</span>    {</div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  153</span>    }</div>
-<div class="line"><span class="lineno">  154</span> </div>
-<div class="line"><span class="lineno">  155</span>    <span class="keywordflow">if</span> (!c-&gt;<a class="code hl_function" href="../../de/df3/a08502.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../dd/d44/a04097.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a>))</div>
-<div class="line"><span class="lineno">  156</span>    {</div>
-<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (c-&gt;<a class="code hl_variable" href="../../de/df3/a08502.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  158</span>        {</div>
-<div class="line"><span class="lineno">  159</span>            c-&gt;<a class="code hl_function" href="../../dc/dbf/a07754.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#afd0302ecfe6e2381dc2bc5f89f2c2152">MoveInLineOfSight_Safe</a>(u);</div>
-<div class="line"><span class="lineno">  160</span>        }</div>
-<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../df/d48/a08126.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; u-&gt;<a class="code hl_function" href="../../de/df3/a08502.html#a671aa59743c8e3919295551a5f113ce1">HasStealthAura</a>() &amp;&amp; c-&gt;<a class="code hl_variable" href="../../de/df3/a08502.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  162</span>        {</div>
-<div class="line"><span class="lineno">  163</span>            c-&gt;<a class="code hl_function" href="../../dc/dbf/a07754.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#a3a8fee035f2cd3ed05f46f6ab042cd50">TriggerAlert</a>(u);</div>
-<div class="line"><span class="lineno">  164</span>        }</div>
-<div class="line"><span class="lineno">  165</span>    }</div>
-<div class="line"><span class="lineno">  166</span>}</div>
-<div class="ttc" id="aa04097_html_ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558"><div class="ttname"><a href="../../dd/d44/a04097.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a></div><div class="ttdeci">@ UNIT_STATE_SIGHTLESS</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:192</div></div>
-<div class="ttc" id="aa06062_html_a3a8fee035f2cd3ed05f46f6ab042cd50"><div class="ttname"><a href="../../d9/de2/a06062.html#a3a8fee035f2cd3ed05f46f6ab042cd50">CreatureAI::TriggerAlert</a></div><div class="ttdeci">void TriggerAlert(Unit const *who) const</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:175</div></div>
-<div class="ttc" id="aa06062_html_afd0302ecfe6e2381dc2bc5f89f2c2152"><div class="ttname"><a href="../../d9/de2/a06062.html#afd0302ecfe6e2381dc2bc5f89f2c2152">CreatureAI::MoveInLineOfSight_Safe</a></div><div class="ttdeci">void MoveInLineOfSight_Safe(Unit *who)</div><div class="ttdoc">== Reactions At =================================</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:147</div></div>
-<div class="ttc" id="aa07754_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../dc/dbf/a07754.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:142</div></div>
-<div class="ttc" id="aa08126_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../df/d48/a08126.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
-<div class="ttc" id="aa08158_html_addeafb9ef860ca79c7a6570ae75a4bd0"><div class="ttname"><a href="../../da/d63/a08158.html#addeafb9ef860ca79c7a6570ae75a4bd0">WorldObject::CanSeeOrDetect</a></div><div class="ttdeci">bool CanSeeOrDetect(WorldObject const *obj, bool ignoreStealth=false, bool distanceCheck=false, bool checkAlert=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1726</div></div>
-<div class="ttc" id="aa08502_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../de/df3/a08502.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1658</div></div>
-<div class="ttc" id="aa08502_html_a671aa59743c8e3919295551a5f113ce1"><div class="ttname"><a href="../../de/df3/a08502.html#a671aa59743c8e3919295551a5f113ce1">Unit::HasStealthAura</a></div><div class="ttdeci">bool HasStealthAura() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1642</div></div>
-<div class="ttc" id="aa08502_html_a85b547eedd208db5f9dddc5f75a1a211"><div class="ttname"><a href="../../de/df3/a08502.html#a85b547eedd208db5f9dddc5f75a1a211">Unit::IsInFlight</a></div><div class="ttdeci">bool IsInFlight() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1574</div></div>
-<div class="ttc" id="aa08502_html_ab395fef0b407c0af40ba6274c32730a6"><div class="ttname"><a href="../../de/df3/a08502.html#ab395fef0b407c0af40ba6274c32730a6">Unit::IsAIEnabled</a></div><div class="ttdeci">bool IsAIEnabled</div><div class="ttdef"><b>Definition:</b> Unit.h:1919</div></div>
-<div class="ttc" id="aa08502_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../de/df3/a08502.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:701</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326" name="a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326"></a>MOVEMENTHOOK_ON_PLAYER_MOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c" name="a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c"></a>MOVEMENTHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326">MOVEMENTHOOK_ON_PLAYER_MOVE</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c">MOVEMENTHOOK_END</a></div>
+<div class="line"><span class="lineno">   29</span>};</div>
+<div class="ttc" id="aa04238_html_a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326"><div class="ttname"><a href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326">MOVEMENTHOOK_ON_PLAYER_MOVE</a></div><div class="ttdeci">@ MOVEMENTHOOK_ON_PLAYER_MOVE</div><div class="ttdef"><b>Definition:</b> MovementHandlerScript.h:27</div></div>
+<div class="ttc" id="aa04238_html_a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c"><div class="ttname"><a href="../../d0/dd6/a04238.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c">MOVEMENTHOOK_END</a></div><div class="ttdeci">@ MOVEMENTHOOK_END</div><div class="ttdef"><b>Definition:</b> MovementHandlerScript.h:28</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00142">Creature::AI()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, <a class="el" href="../../#l01642">Unit::HasStealthAura()</a>, <a class="el" href="../../#l00701">Unit::HasUnitState()</a>, <a class="el" href="../../#l01919">Unit::IsAIEnabled</a>, <a class="el" href="../../#l01658">Unit::IsAlive()</a>, <a class="el" href="../../#l01574">Unit::IsInFlight()</a>, <a class="el" href="../../#l00197">Object::IsPlayer()</a>, <a class="el" href="../../#l00147">CreatureAI::MoveInLineOfSight_Safe()</a>, <a class="el" href="../../#l00175">CreatureAI::TriggerAlert()</a>, and <a class="el" href="../../#l00192">UNIT_STATE_SIGHTLESS</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00195">Acore::AIRelocationNotifier::Visit()</a>, and <a class="el" href="../../#l00179">Acore::CreatureRelocationNotifier::Visit()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -198,8 +161,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_444e7ca7970920cb061ebbb02397ba46.html">Grids</a></li><li class="navelem"><a class="el" href="../../dir_286feac6c5a6e67bcd5741cf96c61741.html">Notifiers</a></li><li class="navelem"><a class="el" href="../../d0/dd6/a04238.html">GridNotifiers.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d0/dd6/a04238.html">MovementHandlerScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

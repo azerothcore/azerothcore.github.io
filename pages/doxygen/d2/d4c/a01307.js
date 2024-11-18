@@ -1,11 +1,8 @@
 var a01307 =
 [
-    [ "instance_azjol_nerub", "d5/d2b/a15526.html", "d5/d2b/a15526" ],
-    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "d4/d4b/a15530.html", "d4/d4b/a15530" ],
-    [ "spell_azjol_nerub_fixate", "d0/de0/a15534.html", "d0/de0/a15534" ],
-    [ "spell_azjol_nerub_web_wrap_aura", "d4/d0b/a15538.html", "d4/d0b/a15538" ],
-    [ "AddSC_instance_azjol_nerub", "d2/d4c/a01307.html#a58deb67f6fb8962cfe1dfd044fdaabdb", null ],
-    [ "boundaries", "d2/d4c/a01307.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
-    [ "creatureData", "d2/d4c/a01307.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "d2/d4c/a01307.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "misc_commandscript", "da/dab/a11406.html", "da/dab/a11406" ],
+    [ "AddSC_misc_commandscript", "d2/d4c/a01307.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
+    [ "GetLocalizeCreatureName", "d2/d4c/a01307.html#aaedbdfd3cae227b11684151f41e3b977", null ],
+    [ "SPELL_FREEZE", "d2/d4c/a01307.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
+    [ "SPELL_STUCK", "d2/d4c/a01307.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
 ];

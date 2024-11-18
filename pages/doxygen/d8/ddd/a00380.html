@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/Authentication/AuthCrypt.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/StartProcess.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,21 +104,59 @@ $(document).ready(function(){initNavTree('d8/ddd/a00380.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">AuthCrypt.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">StartProcess.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuthCrypt.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">StartProcess.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">HMAC.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &lt;boost/algorithm/string/join.hpp&gt;</code><br />
+<code>#include &lt;boost/iostreams/copy.hpp&gt;</code><br />
+<code>#include &quot;boost/process.hpp&quot;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7a/a05426.html">Acore::ACLogSink&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a05430.html">Acore::AsyncProcessResultImplementation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adcee37690522709ab4bd0b6f6e757dc5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:adcee37690522709ab4bd0b6f6e757dc5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#adcee37690522709ab4bd0b6f6e757dc5">Acore::MakeACLogSink</a> (T &amp;&amp;callback) -&gt; ACLogSink&lt; typename std::decay&lt; T &gt;::type &gt;</td></tr>
+<tr class="separator:adcee37690522709ab4bd0b6f6e757dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bbd8a6717e647e963654123259a033"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a18bbd8a6717e647e963654123259a033"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a18bbd8a6717e647e963654123259a033">Acore::CreateChildProcess</a> (T waiter, std::string const &amp;executable, std::vector&lt; std::string &gt; const &amp;argsVector, std::string const &amp;logger, std::string const &amp;input, bool secure)</td></tr>
+<tr class="separator:a18bbd8a6717e647e963654123259a033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfaf2f89a55d299aa04c494719dfedc8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#acfaf2f89a55d299aa04c494719dfedc8">Acore::StartProcess</a> (std::string const &amp;executable, std::vector&lt; std::string &gt; const &amp;args, std::string const &amp;logger, std::string input_file, bool secure)</td></tr>
+<tr class="separator:acfaf2f89a55d299aa04c494719dfedc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021f51138f5726e712f00bdddf9be729"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; AsyncProcessResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a021f51138f5726e712f00bdddf9be729">Acore::StartAsyncProcess</a> (std::string executable, std::vector&lt; std::string &gt; args, std::string logger, std::string input_file, bool secure)</td></tr>
+<tr class="separator:a021f51138f5726e712f00bdddf9be729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de098dac5e38f8c2cdbeb1d4d706881"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a9de098dac5e38f8c2cdbeb1d4d706881">Acore::SearchExecutableInPath</a> (std::string const &amp;filename)</td></tr>
+<tr class="separator:a9de098dac5e38f8c2cdbeb1d4d706881"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../dir_6f898d49591bfe46f28764f3b869758a.html">Authentication</a></li><li class="navelem"><a class="el" href="../../d8/ddd/a00380.html">AuthCrypt.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d8/ddd/a00380.html">StartProcess.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

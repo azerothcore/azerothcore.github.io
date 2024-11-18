@@ -1,6 +1,8 @@
 var a10610 =
 [
-    [ "TotemDestroyed", "d6/d02/a10610.html#a3bcaa030b2c15d54617564cf0f5e4c36", null ],
-    [ "Read", "d6/d02/a10610.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2", null ],
-    [ "Slot", "d6/d02/a10610.html#a41eebde65aa696c2dec812da0aeab633", null ]
+    [ "PetSpellAutocast", "d6/d02/a10610.html#ab858647d14031a2a6109d1e923402d08", null ],
+    [ "Read", "d6/d02/a10610.html#a5c94e7acc04efbb2a50695ed4fdf7036", null ],
+    [ "AutocastEnabled", "d6/d02/a10610.html#a3c04543dcd5382682654b3860b84c6a3", null ],
+    [ "PetGUID", "d6/d02/a10610.html#aeed828abebf683078ee61204c91e28c9", null ],
+    [ "SpellID", "d6/d02/a10610.html#a9afcd8b8bbd2e2fd07bc59219b1a80da", null ]
 ];

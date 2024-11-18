@@ -1,19 +1,16 @@
 var a00536 =
 [
-    [ "MmapTileHeader", "d8/dd4/a04894.html", "d8/dd4/a04894" ],
-    [ "MAX_NUMBER_OF_GRIDS", "d4/d33/a00536.html#a857252154f120575d940ffbdf63bace6", null ],
-    [ "MMAP_MAGIC", "d4/d33/a00536.html#af7a9a5e840ab3ad1c160e832500016d1", null ],
-    [ "MMAP_VERSION", "d4/d33/a00536.html#aea71555fdd0af33ccc21c76c67574421", null ],
-    [ "SIZE_OF_GRIDS", "d4/d33/a00536.html#a55c9adba46c0c14cd4ac80ab51228816", null ],
-    [ "NavTerrain", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5db", [
-      [ "NAV_EMPTY", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5", null ],
-      [ "NAV_GROUND", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98", null ],
-      [ "NAV_MAGMA", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670", null ],
-      [ "NAV_SLIME", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75", null ],
-      [ "NAV_WATER", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1", null ],
-      [ "NAV_UNUSED1", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03", null ],
-      [ "NAV_UNUSED2", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb", null ],
-      [ "NAV_UNUSED3", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530", null ],
-      [ "NAV_UNUSED4", "d4/d33/a00536.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56", null ]
-    ] ]
+    [ "ModelFlags", "d4/d33/a00536.html#a829dc978e29d88ada1059ea4ca6c4cd3", [
+      [ "MOD_M2", "d4/d33/a00536.html#a829dc978e29d88ada1059ea4ca6c4cd3a36c4baaa0c832deca9bc0f05addf1168", null ],
+      [ "MOD_WORLDSPAWN", "d4/d33/a00536.html#a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4", null ],
+      [ "MOD_HAS_BOUND", "d4/d33/a00536.html#a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851", null ]
+    ] ],
+    [ "ExtractGameobjectModels", "d4/d33/a00536.html#a7b3d0cbf404ed32359e354ccf6e34392", null ],
+    [ "ExtractSingleModel", "d4/d33/a00536.html#a6a96194f748b715f0400249583336ae5", null ],
+    [ "ExtractSingleWmo", "d4/d33/a00536.html#afc9839262206eb10094c1769141ae146", null ],
+    [ "FileExists", "d4/d33/a00536.html#aab524156a5705c5cd09f96106eaac92d", null ],
+    [ "GenerateUniqueObjectId", "d4/d33/a00536.html#a6a3d179f34597554b17a122f27cd6be5", null ],
+    [ "strToLower", "d4/d33/a00536.html#ac9e88429cc2168db83793cb7074bc69f", null ],
+    [ "szWorkDirWmo", "d4/d33/a00536.html#ac706bf73d4ee9783a3b882fad9c3cbea", null ],
+    [ "WmoDoodads", "d4/d33/a00536.html#a17b22c7645963c9e5c277b72605a4966", null ]
 ];

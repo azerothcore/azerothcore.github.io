@@ -1,11 +1,22 @@
 var a04726 =
 [
-    [ "material", "d4/dea/a04726.html#a29addcb613bc63a100633e612d1dc2d2", null ],
-    [ "pos_x", "d4/dea/a04726.html#a02e9d8789336d77e34bffa19adbab394", null ],
-    [ "pos_y", "d4/dea/a04726.html#ac3162ce321a1f21e4e6fe35041e49a6a", null ],
-    [ "pos_z", "d4/dea/a04726.html#a6e2a2d5d9151d5c6d70fd0d47e6c18e3", null ],
-    [ "xtiles", "d4/dea/a04726.html#a94789843c68d705184e6332ac46bd69d", null ],
-    [ "xverts", "d4/dea/a04726.html#a0548c3fdb216c115a7d3843e4fbc6de3", null ],
-    [ "ytiles", "d4/dea/a04726.html#ac50224cdce231460c78c3e0f077b555d", null ],
-    [ "yverts", "d4/dea/a04726.html#aa9ecb62b53af527b3bd855b8e93ba604", null ]
+    [ "AccountIdentifier", "d8/dd6/a07470.html", "d8/dd6/a07470" ],
+    [ "ChatCommandBuilder", "d5/df3/a07330.html", "d5/df3/a07330" ],
+    [ "ExactSequence", "d2/d64/a07454.html", "d2/d64/a07454" ],
+    [ "Hyperlink", "dd/d74/a07478.html", "dd/d74/a07478" ],
+    [ "PlayerIdentifier", "d4/d7b/a07474.html", "d4/d7b/a07474" ],
+    [ "QuotedString", "db/d86/a07466.html", "db/d86/a07466" ],
+    [ "Tail", "d2/d57/a07458.html", "d2/d57/a07458" ],
+    [ "Variant", "d4/dd9/a07486.html", "d4/dd9/a07486" ],
+    [ "WTail", "d4/d36/a07462.html", "d4/d36/a07462" ],
+    [ "ChatCommandTable", "d4/dea/a04726.html#a7aa1549a95f760a19b9b7ffd8e669626", null ],
+    [ "Console", "d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6b", [
+      [ "No", "d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6babafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "Yes", "d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6ba93cba07454f06a4a960172bbd6e2a435", null ]
+    ] ],
+    [ "GetAutoCompletionsFor", "d4/dea/a04726.html#a9a1f396a96afbd90b5c426315c8ba37d", null ],
+    [ "InvalidateCommandMap", "d4/dea/a04726.html#ade19080af583292883b932d83992c6fe", null ],
+    [ "LoadCommandMap", "d4/dea/a04726.html#a2c6cb6c985ac8fd7bb2f8b2bab1be30d", null ],
+    [ "SendCommandHelpFor", "d4/dea/a04726.html#a81e8830ce306f6cfbcd04c92d3e0cc7f", null ],
+    [ "TryExecuteCommand", "d4/dea/a04726.html#aca39508e7753f6ca5d9aa21a854c0a77", null ]
 ];

@@ -1,6 +1,6 @@
 var a13322 =
 [
-    [ "npc_highborne_lamenterAI", "dd/d3d/a13326.html", "dd/d3d/a13326" ],
-    [ "npc_highborne_lamenter", "d5/dac/a13322.html#a40316cf73a688e34e95dd41feef8612a", null ],
-    [ "GetAI", "d5/dac/a13322.html#aad8ccb43b325b797f60a16e338458a1e", null ]
+    [ "npc_tyrion_spybotAI", "dd/d3d/a13326.html", "dd/d3d/a13326" ],
+    [ "npc_tyrion_spybot", "d5/dac/a13322.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
+    [ "GetAI", "d5/dac/a13322.html#af81b70437703edc8d99fe24249891dd6", null ]
 ];

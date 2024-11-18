@@ -1,8 +1,6 @@
 var a19538 =
 [
-    [ "npc_brann_radioAI", "d2/d36/a19538.html#a329ca0310efe109f7fb364045f6eccbb", null ],
-    [ "MoveInLineOfSight", "d2/d36/a19538.html#ad119431edd6f632b4c44fc4e8708d375", null ],
-    [ "Reset", "d2/d36/a19538.html#a89183942dcb38f48de1867bfbce15721", null ],
-    [ "_helpLock", "d2/d36/a19538.html#ae927b6c8143cfb029ab6574d10dde60e", null ],
-    [ "_lock", "d2/d36/a19538.html#a421cfd2b8b149a0f3ea5bc2262ba6bac", null ]
+    [ "npc_pool_of_tarAI", "d5/d8c/a19542.html", "d5/d8c/a19542" ],
+    [ "npc_pool_of_tar", "d2/d36/a19538.html#a9c585318b4507babe77b3ba758b06a87", null ],
+    [ "GetAI", "d2/d36/a19538.html#ae77bf48a72ce49f821085f32127e91dc", null ]
 ];

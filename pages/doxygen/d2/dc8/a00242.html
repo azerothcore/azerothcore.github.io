@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/Containers.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Dynamic/TypeContainerFunctions.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,78 +105,105 @@ $(document).ready(function(){initNavTree('d2/dc8/a00242.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Containers.h File Reference</div></div>
+  <div class="headertitle"><div class="title">TypeContainerFunctions.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Random.h</a>&quot;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;stdexcept&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Dynamic/TypeList.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d45/a04693"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html">Acore::Containers</a></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa676a34e943f3ea366194be6f31da865"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa676a34e943f3ea366194be6f31da865"><td class="memTemplItemLeft" align="right" valign="top">constexpr T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#aa676a34e943f3ea366194be6f31da865">Acore::AddressOrSelf</a> (T *ptr)</td></tr>
-<tr class="separator:aa676a34e943f3ea366194be6f31da865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memTemplItemLeft" align="right" valign="top">constexpr T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a31c35cb4c5901c4bdb56be356d5ab9b3">Acore::AddressOrSelf</a> (T &amp;not_ptr)</td></tr>
-<tr class="separator:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a> (C &amp;container, std::size_t requestedSize)</td></tr>
-<tr class="separator:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
-<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a356dc36492769fc1473e5f5214bd6a11">Acore::Containers::RandomResize</a> (C &amp;container, Predicate &amp;&amp;predicate, std::size_t requestedSize)</td></tr>
-<tr class="separator:a356dc36492769fc1473e5f5214bd6a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a> (C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
-<tr class="separator:a8ca673d18562735d4ed20a11519b3d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
-<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a51f93a1269545c4116969ba141a79738">Acore::Containers::SelectRandomContainerElementIf</a> (C const &amp;container, Predicate &amp;&amp;predicate) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
-<tr class="separator:a51f93a1269545c4116969ba141a79738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a220cb6c43559036273f478f15d047eb9">Acore::Containers::SelectRandomWeightedContainerElement</a> (C const &amp;container, std::vector&lt; double &gt; weights) -&gt; decltype(std::begin(container))</td></tr>
-<tr class="separator:a220cb6c43559036273f478f15d047eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplParams" colspan="2">template&lt;class C , class Fn &gt; </td></tr>
-<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a4e1de71c76e525a6fdf4c76b0d09c94b">Acore::Containers::SelectRandomWeightedContainerElement</a> (C const &amp;container, Fn weightExtractor) -&gt; decltype(std::begin(container))</td></tr>
-<tr class="separator:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplParams" colspan="2">template&lt;class M &gt; </td></tr>
-<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a> (M &amp;map, typename M::key_type const &amp;key) -&gt; decltype(AddressOrSelf(map.find(key) -&gt;second))</td></tr>
-<tr class="separator:a288324cfca487d8ecc2eab8a6014c513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a4585a27b1f592547062d7bc039cff3b4">Acore::Containers::RandomShuffle</a> (C &amp;container)</td></tr>
-<tr class="separator:a4585a27b1f592547062d7bc039cff3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplParams" colspan="2">template&lt;class K , class V , template&lt; class, class, class... &gt; class M, class... Rest&gt; </td></tr>
-<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a965e5e257e71e0d1a8c708fbd00867a7">Acore::Containers::MultimapErasePair</a> (M&lt; K, V, Rest... &gt; &amp;multimap, K const &amp;key, V const &amp;value)</td></tr>
-<tr class="separator:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7821713bb3723db62da8a4d0e3711407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d45/a04693.html#a7821713bb3723db62da8a4d0e3711407">Acore::Containers::EraseIf</a> (<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;c, Predicate p)</td></tr>
-<tr class="separator:a7821713bb3723db62da8a4d0e3711407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25dd64d4a28b7d93e2c8bf4cf93d888"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:aa25dd64d4a28b7d93e2c8bf4cf93d888"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#aa25dd64d4a28b7d93e2c8bf4cf93d888">Acore::Insert</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; SPECIFIC_TYPE, KEY_TYPE &gt; &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *obj)</td></tr>
+<tr class="separator:aa25dd64d4a28b7d93e2c8bf4cf93d888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc541838e8b1ccc593ef03b3a8be6b20"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:adc541838e8b1ccc593ef03b3a8be6b20"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#adc541838e8b1ccc593ef03b3a8be6b20">Acore::Insert</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:adc541838e8b1ccc593ef03b3a8be6b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826d2d5fc544299a171fc4d192b13b70"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a826d2d5fc544299a171fc4d192b13b70"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a826d2d5fc544299a171fc4d192b13b70">Acore::Insert</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a826d2d5fc544299a171fc4d192b13b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affed0a39c687fd0d71e1838f7d91d106"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:affed0a39c687fd0d71e1838f7d91d106"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#affed0a39c687fd0d71e1838f7d91d106">Acore::Insert</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *obj)</td></tr>
+<tr class="separator:affed0a39c687fd0d71e1838f7d91d106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54306147e78491102a30b754f9add91"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:ab54306147e78491102a30b754f9add91"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#ab54306147e78491102a30b754f9add91">Acore::Find</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; SPECIFIC_TYPE, KEY_TYPE &gt; const &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:ab54306147e78491102a30b754f9add91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339e193b2696d368e3fd5ba8ac348ba9"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:a339e193b2696d368e3fd5ba8ac348ba9"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a339e193b2696d368e3fd5ba8ac348ba9">Acore::Find</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; const &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a339e193b2696d368e3fd5ba8ac348ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c90455877023c17b2305a358a1e8e05"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a3c90455877023c17b2305a358a1e8e05"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a3c90455877023c17b2305a358a1e8e05">Acore::Find</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; const &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a3c90455877023c17b2305a358a1e8e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c4691a788e1b4403de11caa6a13222d"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a6c4691a788e1b4403de11caa6a13222d"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a6c4691a788e1b4403de11caa6a13222d">Acore::Find</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; const &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a6c4691a788e1b4403de11caa6a13222d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6cb156df4b425a40366655daf1ba776"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:ac6cb156df4b425a40366655daf1ba776"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#ac6cb156df4b425a40366655daf1ba776">Acore::Remove</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; SPECIFIC_TYPE, KEY_TYPE &gt; &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:ac6cb156df4b425a40366655daf1ba776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2858d11acb15c35a59d35c9bb163d7c6"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:a2858d11acb15c35a59d35c9bb163d7c6"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a2858d11acb15c35a59d35c9bb163d7c6">Acore::Remove</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a2858d11acb15c35a59d35c9bb163d7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe44e70d4fae1d3c112291bd985e82b1"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class T &gt; </td></tr>
+<tr class="memitem:afe44e70d4fae1d3c112291bd985e82b1"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#afe44e70d4fae1d3c112291bd985e82b1">Acore::Remove</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; &amp;, KEY_TYPE const &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:afe44e70d4fae1d3c112291bd985e82b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab412b2504203d71c6f46869b32a4a5ef"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:ab412b2504203d71c6f46869b32a4a5ef"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#ab412b2504203d71c6f46869b32a4a5ef">Acore::Remove</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:ab412b2504203d71c6f46869b32a4a5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5161a06285195a661d1f827f51265471"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:a5161a06285195a661d1f827f51265471"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a5161a06285195a661d1f827f51265471">Acore::Size</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; SPECIFIC_TYPE, KEY_TYPE &gt; const &amp;elements, std::size_t *size, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a5161a06285195a661d1f827f51265471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb6517212935878abc51faf4bcca654"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE &gt; </td></tr>
+<tr class="memitem:a7eb6517212935878abc51faf4bcca654"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a7eb6517212935878abc51faf4bcca654">Acore::Size</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; const &amp;, std::size_t *, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a7eb6517212935878abc51faf4bcca654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fbdf0f576bf824c7502b6254a7e6f5"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class T &gt; </td></tr>
+<tr class="memitem:aa0fbdf0f576bf824c7502b6254a7e6f5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#aa0fbdf0f576bf824c7502b6254a7e6f5">Acore::Size</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; const &amp;, std::size_t *, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:aa0fbdf0f576bf824c7502b6254a7e6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33dad9e8e49e78c8486f2a91b49c0984"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class KEY_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a33dad9e8e49e78c8486f2a91b49c0984"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a33dad9e8e49e78c8486f2a91b49c0984">Acore::Size</a> (<a class="el" href="../../d3/d14/a05174.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; const &amp;elements, std::size_t *size, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a33dad9e8e49e78c8486f2a91b49c0984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d87541d6d2eceb7467b09f7fa5bd51b"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a2d87541d6d2eceb7467b09f7fa5bd51b"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a2d87541d6d2eceb7467b09f7fa5bd51b">Acore::Count</a> (const <a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a2d87541d6d2eceb7467b09f7fa5bd51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fef0ae214e75ee3251ee75539b5933"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a31fef0ae214e75ee3251ee75539b5933"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a31fef0ae214e75ee3251ee75539b5933">Acore::Count</a> (const <a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a31fef0ae214e75ee3251ee75539b5933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0eb3f176889f6cc837d75915f5d668"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:aca0eb3f176889f6cc837d75915f5d668"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#aca0eb3f176889f6cc837d75915f5d668">Acore::Count</a> (const <a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; T &gt; &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:aca0eb3f176889f6cc837d75915f5d668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce75cbdcbf4a58be36bf161fe79f9c0"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:abce75cbdcbf4a58be36bf161fe79f9c0"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#abce75cbdcbf4a58be36bf161fe79f9c0">Acore::Count</a> (const <a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; SPECIFIC_TYPE, T &gt; &gt; &amp;elements, SPECIFIC_TYPE *fake)</td></tr>
+<tr class="separator:abce75cbdcbf4a58be36bf161fe79f9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e588c84ac0874cf6273cffcc353bd8c"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a9e588c84ac0874cf6273cffcc353bd8c"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a9e588c84ac0874cf6273cffcc353bd8c">Acore::Count</a> (const <a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, SPECIFIC_TYPE *fake)</td></tr>
+<tr class="separator:a9e588c84ac0874cf6273cffcc353bd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6cfb84d3b9010f1cccee55575aeb8f"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a5f6cfb84d3b9010f1cccee55575aeb8f"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a5f6cfb84d3b9010f1cccee55575aeb8f">Acore::Insert</a> (<a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, SPECIFIC_TYPE *obj)</td></tr>
+<tr class="separator:a5f6cfb84d3b9010f1cccee55575aeb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808ff1ee05e1b5c2775ccb20325a5b2e"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a808ff1ee05e1b5c2775ccb20325a5b2e"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a808ff1ee05e1b5c2775ccb20325a5b2e">Acore::Insert</a> (<a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a808ff1ee05e1b5c2775ccb20325a5b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef193f0c3493fdaeeaa5b0816714d1c"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a9ef193f0c3493fdaeeaa5b0816714d1c"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a9ef193f0c3493fdaeeaa5b0816714d1c">Acore::Insert</a> (<a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; T &gt; &amp;, SPECIFIC_TYPE *)</td></tr>
+<tr class="separator:a9ef193f0c3493fdaeeaa5b0816714d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace2fb0f6527ad522bb0604bfd39afaf"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:aace2fb0f6527ad522bb0604bfd39afaf"><td class="memTemplItemLeft" align="right" valign="top">SPECIFIC_TYPE *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#aace2fb0f6527ad522bb0604bfd39afaf">Acore::Insert</a> (<a class="el" href="../../d1/dab/a05162.html">ContainerMapList</a>&lt; <a class="el" href="../../d5/dfc/a05210.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, SPECIFIC_TYPE *obj)</td></tr>
+<tr class="separator:aace2fb0f6527ad522bb0604bfd39afaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d2/dc8/a00242.html">Containers.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5e90094e25781d2f0c122fad038cf6ce.html">Dynamic</a></li><li class="navelem"><a class="el" href="../../d2/dc8/a00242.html">TypeContainerFunctions.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

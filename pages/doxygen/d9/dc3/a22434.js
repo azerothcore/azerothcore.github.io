@@ -1,8 +1,6 @@
 var a22434 =
 [
-    [ "Load", "d9/dc3/a22434.html#a038301fbb547469574efff88455be663", null ],
-    [ "OnPeriodic", "d9/dc3/a22434.html#a8df384cc329cf20ddc5ac0d7bed0345f", null ],
-    [ "PrepareAuraScript", "d9/dc3/a22434.html#a386df1300e6a99b02efd13ef4968e99a", null ],
-    [ "Register", "d9/dc3/a22434.html#a1b7b9bff5b3d906fa491846a4d5c6743", null ],
-    [ "Validate", "d9/dc3/a22434.html#ad64a3fc1a66b9e8914099e501992f2aa", null ]
+    [ "FilterTargets", "d9/dc3/a22434.html#a91b9fdebdffcae06da1882d7d46f5460", null ],
+    [ "PrepareSpellScript", "d9/dc3/a22434.html#ae8f3906007580963bda33cd0e420299b", null ],
+    [ "Register", "d9/dc3/a22434.html#a5e191d4fca7cc95ddec8730cc3fd8ffe", null ]
 ];

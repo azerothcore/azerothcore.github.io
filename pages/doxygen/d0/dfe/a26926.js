@@ -1,5 +1,5 @@
 var a26926 =
 [
-    [ "go_southfury_moonstone", "d0/dfe/a26926.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
-    [ "OnGossipHello", "d0/dfe/a26926.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
+    [ "go_tablet_of_the_seven", "d0/dfe/a26926.html#aa5bcd36c6d0250571f6721f71864ab59", null ],
+    [ "OnGossipHello", "d0/dfe/a26926.html#a54d27dc2a52d69d8fd9605c358a855fc", null ]
 ];

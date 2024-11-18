@@ -1,9 +1,18 @@
 var a03983 =
 [
-    [ "FlyByCameraCollection", "d1/de2/a03983.html#a058e5fb250bd785cecc9a6913132dfe4", null ],
-    [ "GetFlyByCameras", "d1/de2/a03983.html#af4a9ba9da1a2f4075cc36b95cce62f6f", null ],
-    [ "LoadM2Cameras", "d1/de2/a03983.html#a036ca5e535b8e25b87a67c20c2ad2d4c", null ],
-    [ "readCamera", "d1/de2/a03983.html#ad7c17022a3ffed42c9d4995f5f6bb7ac", null ],
-    [ "TranslateLocation", "d1/de2/a03983.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9", null ],
-    [ "sFlyByCameraStore", "d1/de2/a03983.html#a4acfeb7e23e1d3a74b66a1c54084e7bc", null ]
+    [ "UnitBaseEvent", "d7/d8d/a07626.html", "d7/d8d/a07626" ],
+    [ "ThreatRefStatusChangeEvent", "d2/d8c/a07630.html", "d2/d8c/a07630" ],
+    [ "ThreatMgrEvent", "db/d7b/a07638.html", "db/d7b/a07638" ],
+    [ "UEV_ALL_EVENT_MASK", "d1/de2/a03983.html#a99af7f8805c877a694d51ab4feb1e58b", null ],
+    [ "UEV_THREAT_MANAGER_EVENT_MASK", "d1/de2/a03983.html#a28d3aa8f148208fa65f5ef1af46913cc", null ],
+    [ "UEV_THREAT_REF_EVENT_MASK", "d1/de2/a03983.html#aca3c8db6dd274b113d9c3c7755ff5d7a", null ],
+    [ "UNIT_EVENT_TYPE", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97", [
+      [ "UEV_THREAT_REF_ONLINE_STATUS", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9", null ],
+      [ "UEV_THREAT_REF_THREAT_CHANGE", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0", null ],
+      [ "UEV_THREAT_REF_REMOVE_FROM_LIST", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0", null ],
+      [ "UEV_THREAT_REF_ASSECCIBLE_STATUS", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db", null ],
+      [ "UEV_THREAT_SORT_LIST", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865", null ],
+      [ "UEV_THREAT_SET_NEXT_TARGET", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9", null ],
+      [ "UEV_THREAT_VICTIM_CHANGED", "d1/de2/a03983.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669", null ]
+    ] ]
 ];

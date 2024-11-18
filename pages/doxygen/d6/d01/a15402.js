@@ -1,7 +1,6 @@
 var a15402 =
 [
-    [ "HandleDummy", "d6/d01/a15402.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
-    [ "PrepareSpellScript", "d6/d01/a15402.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
-    [ "Register", "d6/d01/a15402.html#a4359ad73b513a368509a066a039ddf53", null ],
-    [ "_targetCount", "d6/d01/a15402.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
+    [ "HandleApply", "d6/d01/a15402.html#aee4d5908035d06be2f1469a50db02e26", null ],
+    [ "PrepareAuraScript", "d6/d01/a15402.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
+    [ "Register", "d6/d01/a15402.html#ac83962bef84b68cef6d7937769730598", null ]
 ];

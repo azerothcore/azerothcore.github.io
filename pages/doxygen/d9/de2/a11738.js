@@ -1,6 +1,6 @@
 var a11738 =
 [
-    [ "boss_overlordwyrmthalakAI", "d3/d44/a11742.html", "d3/d44/a11742" ],
-    [ "boss_overlord_wyrmthalak", "d9/de2/a11738.html#a2af6edf776c189d43cb82cc35bb838fe", null ],
-    [ "GetAI", "d9/de2/a11738.html#a56de538f25cbabc9346b987dbfe680a1", null ]
+    [ "boss_highlordomokkAI", "d3/d44/a11742.html", "d3/d44/a11742" ],
+    [ "boss_highlord_omokk", "d9/de2/a11738.html#af5174587ed3cd1c46f604183a75de99e", null ],
+    [ "GetAI", "d9/de2/a11738.html#afb8efb012791c6a2fc18975a1ec7f984", null ]
 ];

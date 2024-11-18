@@ -1,6 +1,7 @@
 var a15178 =
 [
-    [ "npc_braug_dimspirit", "d6/d63/a15178.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
-    [ "OnGossipHello", "d6/d63/a15178.html#aeaed026edf5a1fa82c941f667c05815b", null ],
-    [ "OnGossipSelect", "d6/d63/a15178.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
+    [ "DelayedWindstoneSummonEvent", "d6/d63/a15178.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "d6/d63/a15178.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "d6/d63/a15178.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "d6/d63/a15178.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

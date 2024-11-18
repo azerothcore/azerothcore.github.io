@@ -1,30 +1,35 @@
 var a02114 =
 [
-    [ "npc_shenthul", "d0/ddd/a15110.html", "d0/ddd/a15110" ],
-    [ "npc_shenthul::npc_shenthulAI", "d9/df1/a15114.html", "d9/df1/a15114" ],
-    [ "npc_thrall_warchief", "de/d1a/a15118.html", "de/d1a/a15118" ],
-    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
-    [ "Shenthul", "da/d4a/a02114.html#a032512bb2693fda342f4d77dba794fbe", [
-      [ "QUEST_SHATTERED_SALUTE", "da/d4a/a02114.html#a032512bb2693fda342f4d77dba794fbea38993f500c01e7bc0ae8dd3a83848ff0", null ]
+    [ "npc_pet_pri_lightwell", "de/d7c/a24118.html", "de/d7c/a24118" ],
+    [ "npc_pet_pri_shadowfiend", "d6/d10/a24122.html", "d6/d10/a24122" ],
+    [ "PriestSpells", "da/d4a/a02114.html#a8aaecfe4214ff7bd567980dd904b110f", [
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "da/d4a/a02114.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "da/d4a/a02114.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
+      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "da/d4a/a02114.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
+      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "da/d4a/a02114.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
+      [ "SPELL_PRIEST_DIVINE_AEGIS", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1", null ],
+      [ "SPELL_PRIEST_EMPOWERED_RENEW", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_LIGHTWELL", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e", null ],
+      [ "SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4", null ],
+      [ "SPELL_PRIEST_ITEM_EFFICIENCY", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d", null ],
+      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
+      [ "SPELL_PRIEST_MANA_LEECH_PROC", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366", null ],
+      [ "SPELL_PRIEST_PENANCE_R1", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099", null ],
+      [ "SPELL_PRIEST_PENANCE_R1_DAMAGE", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d", null ],
+      [ "SPELL_PRIEST_PENANCE_R1_HEAL", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68", null ],
+      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4", null ],
+      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_R1", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb", null ],
+      [ "SPELL_PRIEST_SHADOW_WORD_DEATH", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f", null ],
+      [ "SPELL_PRIEST_T9_HEALING_2P", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87", null ],
+      [ "SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03", null ],
+      [ "SPELL_PRIEST_T4_4P_FLEXIBILITY", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c", null ],
+      [ "SPELL_GENERIC_ARENA_DAMPENING", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0", null ],
+      [ "SPELL_GENERIC_BATTLEGROUND_DAMPENING", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4", null ],
+      [ "SPELL_PRIEST_TWIN_DISCIPLINE_R1", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690", null ],
+      [ "SPELL_PRIEST_SPIRITUAL_HEALING_R1", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af", null ],
+      [ "SPELL_PRIEST_DIVINE_PROVIDENCE_R1", "dd/d42/a01259.html#a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae", null ]
     ] ],
-    [ "ThrallWarchief", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9", [
-      [ "SPELL_CHAIN_LIGHTNING", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_SHOCK", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a30aa4cac2f70a310466b3fb0f2d10eab", null ],
-      [ "QUEST_FOR_THE_HORDE", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9aed442141280385194a0a8b73d7e489af", null ],
-      [ "SPELL_WARCHIEF_BLESSING", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a567e6044eaae260d8ab29c346613b225", null ],
-      [ "NPC_HERALD_OF_THRALL", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a3533aba0519168d4cfb3446a1bbde5bc", null ],
-      [ "ACTION_START_TALKING", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a322b9b49cd88bc70c039be2aa4e0c7fd", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_0", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a64ac3588375f611524513fd4d4293a1b", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_1", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a3a6a88801e0a276bd78e5299ffb76302", null ],
-      [ "AREA_ORGRIMMAR", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9ad2dc06a1b56bb07677ef211cafd8a835", null ],
-      [ "AREA_RAZOR_HILL", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9ae88321c626be966eda1d5aca34feda6e", null ],
-      [ "AREA_CAMP_TAURAJO", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a709f6c4a2cd059fc6e7da390a36546b9", null ],
-      [ "AREA_CROSSROADS", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9ac472b1d2152c18bfc58b3ca21b3b64ec", null ],
-      [ "GO_UNADORNED_SPIKE", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a544ea295d906cebdf38aecb93e7ac153", null ],
-      [ "QUEST_WHAT_THE_WIND_CARRIES", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a5bc18876e7da8ddfc493ea155bb75287", null ],
-      [ "GOSSIP_MENU_THRALL", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a502d5aed1ed2917d36573a355656ce86", null ],
-      [ "GOSSIP_RESPONSE_THRALL_FIRST", "da/d4a/a02114.html#a1cdad3bda3b93500c342a64dce6d15d9a710a8ed7a2d8ddb38e5e0f7db188132d", null ]
-    ] ],
-    [ "AddSC_orgrimmar", "da/d4a/a02114.html#aec4388ea6d2e4bbc1d279b3a4687c4c6", null ],
-    [ "heraldOfThrallPos", "da/d4a/a02114.html#a016aeee1d0eac9c78c522520663670f0", null ]
+    [ "AddSC_priest_pet_scripts", "da/d4a/a02114.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ]
 ];

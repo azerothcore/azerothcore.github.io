@@ -1,6 +1,5 @@
 var a18914 =
 [
-    [ "boss_keristraszaAI", "dd/d6e/a18918.html", "dd/d6e/a18918" ],
-    [ "boss_keristrasza", "d0/dcf/a18914.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
-    [ "GetAI", "d0/dcf/a18914.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
+    [ "achievement_chaos_theory", "d0/dcf/a18914.html#a3068009fa1fb400439a2c72f00296484", null ],
+    [ "OnCheck", "d0/dcf/a18914.html#a68d9a577cb7e005d81f52077707e3555", null ]
 ];

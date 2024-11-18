@@ -1,7 +1,6 @@
 var a21750 =
 [
-    [ "HandleScriptEffect", "d8/d83/a21750.html#ad20cf97a7dd442d5670a22095b487a01", null ],
-    [ "PrepareSpellScript", "d8/d83/a21750.html#ab0f6da0cb3115e54dbb59f0e6f823d02", null ],
-    [ "Register", "d8/d83/a21750.html#a996ea344ea2a3312cb8886565b80972d", null ],
-    [ "Validate", "d8/d83/a21750.html#a29bf5a9615e02281f426bf521a045567", null ]
+    [ "npc_infra_green_bomber_genericAI", "d1/d70/a21754.html", "d1/d70/a21754" ],
+    [ "npc_infra_green_bomber_generic", "d8/d83/a21750.html#a39134a09376c35f15e99377cd28ac6ff", null ],
+    [ "GetAI", "d8/d83/a21750.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
 ];

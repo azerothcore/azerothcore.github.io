@@ -1,8 +1,6 @@
 var a23046 =
 [
-    [ "boss_hungarfen", "de/dd6/a23046.html#a009b8d34731d2310a53195024b434935", null ],
-    [ "JustEngagedWith", "de/dd6/a23046.html#a3612bb373ecdba4245587fd94257ba62", null ],
-    [ "Reset", "de/dd6/a23046.html#a4b310eff8af9a33c50ae8f2035ba76ad", null ],
-    [ "UpdateAI", "de/dd6/a23046.html#a1765bd54c04a3479e837b3d0e241300e", null ],
-    [ "_scheduler", "de/dd6/a23046.html#a702185681abb6cfc4add7078ff5bbb52", null ]
+    [ "instance_steam_vault_InstanceMapScript", "de/dd6/a23046.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "de/dd6/a23046.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "de/dd6/a23046.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

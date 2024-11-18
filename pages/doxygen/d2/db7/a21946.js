@@ -1,12 +1,6 @@
 var a21946 =
 [
-    [ "npc_icefangAI", "d2/db7/a21946.html#ab74b58a77e3c1349ed308f7febef794a", null ],
-    [ "AttackStart", "d2/db7/a21946.html#a56615ecdb45389aa793374d26a636d45", null ],
-    [ "EnterEvadeMode", "d2/db7/a21946.html#a1465c4779ea8b080f934163c8db6c99c", null ],
-    [ "JustDied", "d2/db7/a21946.html#a3140c8306a384833cca1580ad964d73a", null ],
-    [ "JustEngagedWith", "d2/db7/a21946.html#a8455dd4afb5ef5a694ca9237848df907", null ],
-    [ "OnCharmed", "d2/db7/a21946.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
-    [ "PassengerBoarded", "d2/db7/a21946.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
-    [ "UpdateAI", "d2/db7/a21946.html#ab4d752f2273062c48339b53e611e617c", null ],
-    [ "WaypointReached", "d2/db7/a21946.html#ae315a1d22317edb2864e4d796f808ffb", null ]
+    [ "npc_freed_protodrakeAI", "d2/db7/a21950.html", "d2/db7/a21950" ],
+    [ "npc_freed_protodrake", "d2/db7/a21946.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
+    [ "GetAI", "d2/db7/a21946.html#a9680bf65cb97327396f58c297df1c8f5", null ]
 ];

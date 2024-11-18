@@ -1,12 +1,6 @@
 var a11190 =
 [
-    [ "Action", "de/dee/a11190.html#a0aba96ac9e7af155a1d9bdf120afae25", null ],
-    [ "Address", "de/dee/a11190.html#aaae2d4fd576f3eeb40c1413d54802345", null ],
-    [ "CheckId", "de/dee/a11190.html#a51a0cea0381f2b64e9d240ac39591172", null ],
-    [ "Comment", "de/dee/a11190.html#a6abdb409f49751b2f6aa8df88c349ba2", null ],
-    [ "Data", "de/dee/a11190.html#a962795028d40645fe67e4290ea64b10b", null ],
-    [ "IdStr", "de/dee/a11190.html#a15ecbc1a6582666a14423fa157d2fb84", null ],
-    [ "Length", "de/dee/a11190.html#abe0249d9550042e696eb74edf06aaec8", null ],
-    [ "Str", "de/dee/a11190.html#a1fc1eba87b344d4681498aafcaa496cb", null ],
-    [ "Type", "de/dee/a11190.html#aca31cdb700dca4801dfa514812639c70", null ]
+    [ "Command", "de/dee/a11190.html#a65dc9a4861ab63743146c65a0a6249f2", null ],
+    [ "Data", "de/dee/a11190.html#abda0f8cc15c7fb45fa81fcf5ccad8d08", null ],
+    [ "DataSize", "de/dee/a11190.html#a279f37acfa44c06ae14c5a544dd7baf6", null ]
 ];

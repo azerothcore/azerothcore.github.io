@@ -1,6 +1,7 @@
 var a11634 =
 [
-    [ "boss_magmusAI", "d3/d73/a11638.html", "d3/d73/a11638" ],
-    [ "boss_magmus", "d5/def/a11634.html#a97747c0d7e1fd33204033d6061d6d570", null ],
-    [ "GetAI", "d5/def/a11634.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
+    [ "boss_grizzleAI", "d5/def/a11634.html#a3310892cafc2a8e022105f77258b25af", null ],
+    [ "JustEngagedWith", "d5/def/a11634.html#a598e7e7d6bdd847bf01968116988a935", null ],
+    [ "UpdateAI", "d5/def/a11634.html#a2dc5c27cd4eaf2aa1484a370a68e3314", null ],
+    [ "nextTremorTime", "d5/def/a11634.html#aa392b5a5db08d8676614923ae4838d05", null ]
 ];

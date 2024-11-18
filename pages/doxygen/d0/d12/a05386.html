@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: RandomEngine Class Reference</title>
+<title>AzerothCore: EventProcessor Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,87 +105,171 @@ $(document).ready(function(){initNavTree('d0/d12/a05386.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../db/d18/a05383.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RandomEngine Class Reference</div></div>
+  <div class="headertitle"><div class="title">EventProcessor Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Random.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">EventProcessor.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a20f96383bade76c6185d8f20f458784e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a></td></tr>
-<tr class="separator:a20f96383bade76c6185d8f20f458784e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afe5f6dd94cbc6add3fd13fa3fe37b60d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#afe5f6dd94cbc6add3fd13fa3fe37b60d">operator()</a> () const</td></tr>
-<tr class="separator:afe5f6dd94cbc6add3fd13fa3fe37b60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c430ef08365f5eeca0f3321991bfaac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a5c430ef08365f5eeca0f3321991bfaac">EventProcessor</a> ()=default</td></tr>
+<tr class="separator:a5c430ef08365f5eeca0f3321991bfaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30a066c911c3841d35854c900743b9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#af30a066c911c3841d35854c900743b9e">~EventProcessor</a> ()</td></tr>
+<tr class="separator:af30a066c911c3841d35854c900743b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fe67593c7684a55d27fb225ea51d05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a72fe67593c7684a55d27fb225ea51d05">Update</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> p_time)</td></tr>
+<tr class="separator:a72fe67593c7684a55d27fb225ea51d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a65ecc2391f505266176cfc7f29c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a15a65ecc2391f505266176cfc7f29c39">KillAllEvents</a> (bool force)</td></tr>
+<tr class="separator:a15a65ecc2391f505266176cfc7f29c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ecdf822624a632b7b3fad1e66228cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a> (<a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *<a class="el" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> e_time, bool set_addtime=true)</td></tr>
+<tr class="separator:a0ecdf822624a632b7b3fad1e66228cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cac613c3aaea0f576619a352f2727c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a6cac613c3aaea0f576619a352f2727c4">AddEvent</a> (<a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *<a class="el" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> e_time, bool set_addtime, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> eventGroup)</td></tr>
+<tr class="separator:a6cac613c3aaea0f576619a352f2727c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3cadedc39eb9bb27625869ae79f818"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7c3cadedc39eb9bb27625869ae79f818"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a7c3cadedc39eb9bb27625869ae79f818">AddEvent</a> (T &amp;&amp;event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> e_time, bool set_addtime=true)</td></tr>
+<tr class="separator:a7c3cadedc39eb9bb27625869ae79f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cfbe963d7e9335f6404666a6b95bad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a> (<a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset)</td></tr>
+<tr class="separator:ac4cfbe963d7e9335f6404666a6b95bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1693df9f9c199ab94975c3b03217c02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#af1693df9f9c199ab94975c3b03217c02">AddEventAtOffset</a> (<a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset2)</td></tr>
+<tr class="separator:af1693df9f9c199ab94975c3b03217c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ae3b0f73b1db3e905661644dce88b9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a33ae3b0f73b1db3e905661644dce88b9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a33ae3b0f73b1db3e905661644dce88b9">AddEventAtOffset</a> (T &amp;&amp;event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> eventGroup)</td></tr>
+<tr class="separator:a33ae3b0f73b1db3e905661644dce88b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d1cf008ce199778e30d518050b8161"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a62d1cf008ce199778e30d518050b8161"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a62d1cf008ce199778e30d518050b8161">AddEventAtOffset</a> (T &amp;&amp;event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset2, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> eventGroup)</td></tr>
+<tr class="separator:a62d1cf008ce199778e30d518050b8161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13c627f0ecfc4a1443f8e2a1ee1b4c7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac13c627f0ecfc4a1443f8e2a1ee1b4c7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#ac13c627f0ecfc4a1443f8e2a1ee1b4c7">AddEventAtOffset</a> (T &amp;&amp;event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset)</td></tr>
+<tr class="separator:ac13c627f0ecfc4a1443f8e2a1ee1b4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f9f20522e1087c52d0dbb3ac4b076b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af2f9f20522e1087c52d0dbb3ac4b076b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#af2f9f20522e1087c52d0dbb3ac4b076b">AddEventAtOffset</a> (T &amp;&amp;event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> offset2)</td></tr>
+<tr class="separator:af2f9f20522e1087c52d0dbb3ac4b076b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad54487e1753d8ce12bdddb1358ddb0cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#ad54487e1753d8ce12bdddb1358ddb0cc">ModifyEventTime</a> (<a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *event, <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> newTime)</td></tr>
+<tr class="separator:ad54487e1753d8ce12bdddb1358ddb0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a92f983f1dd415146c2875f80cba433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> t_offset) const</td></tr>
+<tr class="separator:a1a92f983f1dd415146c2875f80cba433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db97870b30361980b2d72ef806de951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a2db97870b30361980b2d72ef806de951">CalculateQueueTime</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> delay) const</td></tr>
+<tr class="separator:a2db97870b30361980b2d72ef806de951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29651ba6704e7908820af60ec37a2478"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a29651ba6704e7908820af60ec37a2478">CancelEventGroup</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> group)</td></tr>
+<tr class="separator:a29651ba6704e7908820af60ec37a2478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab153ffca65139db4084745302dd4db7f"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#ab153ffca65139db4084745302dd4db7f">min</a> ()</td></tr>
-<tr class="separator:ab153ffca65139db4084745302dd4db7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5dcf280f768ebd79210caf6ecff4290"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#ad5dcf280f768ebd79210caf6ecff4290">max</a> ()</td></tr>
-<tr class="separator:ad5dcf280f768ebd79210caf6ecff4290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ff7fcb1f8d34861b0c210eddc450681"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d12/a05386.html">RandomEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a5ff7fcb1f8d34861b0c210eddc450681">Instance</a> ()</td></tr>
-<tr class="separator:a5ff7fcb1f8d34861b0c210eddc450681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a829eb8c07982b66e98c0ca118b54aaef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a> {0}</td></tr>
+<tr class="separator:a829eb8c07982b66e98c0ca118b54aaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168a435c77de52a151c735d3f004dbb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d0f/a00308.html#a393840b719db78b29da806c1237fceb0">EventList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a></td></tr>
+<tr class="separator:a168a435c77de52a151c735d3f004dbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a1beec186648c90c112ead3cc5df064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d12/a05386.html#a7a1beec186648c90c112ead3cc5df064">m_aborting</a></td></tr>
+<tr class="separator:a7a1beec186648c90c112ead3cc5df064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a20f96383bade76c6185d8f20f458784e" name="a20f96383bade76c6185d8f20f458784e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20f96383bade76c6185d8f20f458784e">&#9670;&#160;</a></span>result_type</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5c430ef08365f5eeca0f3321991bfaac" name="a5c430ef08365f5eeca0f3321991bfaac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c430ef08365f5eeca0f3321991bfaac">&#9670;&#160;</a></span>EventProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EventProcessor::EventProcessor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af30a066c911c3841d35854c900743b9e" name="af30a066c911c3841d35854c900743b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af30a066c911c3841d35854c900743b9e">&#9670;&#160;</a></span>~EventProcessor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">RandomEngine::result_type</a></td>
+          <td class="memname">EventProcessor::~EventProcessor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_function" href="../../d0/d12/a05386.html#a15a65ecc2391f505266176cfc7f29c39">KillAllEvents</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="aa05386_html_a15a65ecc2391f505266176cfc7f29c39"><div class="ttname"><a href="../../d0/d12/a05386.html#a15a65ecc2391f505266176cfc7f29c39">EventProcessor::KillAllEvents</a></div><div class="ttdeci">void KillAllEvents(bool force)</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:82</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00082">KillAllEvents()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5ff7fcb1f8d34861b0c210eddc450681" name="a5ff7fcb1f8d34861b0c210eddc450681"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ff7fcb1f8d34861b0c210eddc450681">&#9670;&#160;</a></span>Instance()</h2>
+<a id="a6cac613c3aaea0f576619a352f2727c4" name="a6cac613c3aaea0f576619a352f2727c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cac613c3aaea0f576619a352f2727c4">&#9670;&#160;</a></span>AddEvent() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d12/a05386.html">RandomEngine</a> &amp; RandomEngine::Instance </td>
+          <td class="memname">void EventProcessor::AddEvent </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *&#160;</td>
+          <td class="paramname"><em>Event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>e_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>set_addtime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>eventGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   96</span>{</div>
-<div class="line"><span class="lineno">   97</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/dd5/a00215.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>;</div>
-<div class="line"><span class="lineno">   98</span>}</div>
-<div class="ttc" id="aa00215_html_a8ab11e2fa939d9f333dfa1a858e7690b"><div class="ttname"><a href="../../d3/dd5/a00215.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a></div><div class="ttdeci">static RandomEngine engine</div><div class="ttdef"><b>Definition:</b> Random.cpp:25</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  137</span>{</div>
+<div class="line"><span class="lineno">  138</span>    <span class="keywordflow">if</span> (set_addtime)</div>
+<div class="line"><span class="lineno">  139</span>        <a class="code hl_enumeration" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>-&gt;m_addTime = <a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>;</div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_enumeration" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>-&gt;m_execTime = e_time;</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_enumeration" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>-&gt;m_eventGroup = eventGroup;</div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.insert(std::pair&lt;uint64, BasicEvent*&gt;(e_time, <a class="code hl_enumeration" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>));</div>
+<div class="line"><span class="lineno">  143</span>}</div>
+<div class="ttc" id="aa01787_html_a5667b805d857c6d28f83f6038a0272d3"><div class="ttname"><a href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a></div><div class="ttdeci">Event</div><div class="ttdef"><b>Definition:</b> boss_prince_taldaram.cpp:68</div></div>
+<div class="ttc" id="aa05386_html_a168a435c77de52a151c735d3f004dbb9"><div class="ttname"><a href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">EventProcessor::m_events</a></div><div class="ttdeci">EventList m_events</div><div class="ttdef"><b>Definition:</b> EventProcessor.h:127</div></div>
+<div class="ttc" id="aa05386_html_a829eb8c07982b66e98c0ca118b54aaef"><div class="ttname"><a href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">EventProcessor::m_time</a></div><div class="ttdeci">uint64 m_time</div><div class="ttdef"><b>Definition:</b> EventProcessor.h:126</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00025">engine</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00220">Acore::Containers::RandomShuffle()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00127">m_events</a>, and <a class="el" href="../../#l00126">m_time</a>.</p>
 
 </div>
 </div>
-<a id="ad5dcf280f768ebd79210caf6ecff4290" name="ad5dcf280f768ebd79210caf6ecff4290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5dcf280f768ebd79210caf6ecff4290">&#9670;&#160;</a></span>max()</h2>
+<a id="a0ecdf822624a632b7b3fad1e66228cfb" name="a0ecdf822624a632b7b3fad1e66228cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ecdf822624a632b7b3fad1e66228cfb">&#9670;&#160;</a></span>AddEvent() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,62 +278,27 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a> RandomEngine::max </td>
+          <td class="memname">void EventProcessor::AddEvent </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *&#160;</td>
+          <td class="paramname"><em>Event</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   73</span>{ <span class="keywordflow">return</span> std::numeric_limits&lt;result_type&gt;::max(); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab153ffca65139db4084745302dd4db7f" name="ab153ffca65139db4084745302dd4db7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab153ffca65139db4084745302dd4db7f">&#9670;&#160;</a></span>min()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a> RandomEngine::min </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>e_time</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   72</span>{ <span class="keywordflow">return</span> std::numeric_limits&lt;result_type&gt;::min(); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afe5f6dd94cbc6add3fd13fa3fe37b60d" name="afe5f6dd94cbc6add3fd13fa3fe37b60d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe5f6dd94cbc6add3fd13fa3fe37b60d">&#9670;&#160;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e">result_type</a> RandomEngine::operator() </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>set_addtime</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -258,10 +307,665 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d52/a00221.html#ab91ed86274e1e52eb314784862b61696">rand32</a>(); }</div>
-<div class="ttc" id="aa00221_html_ab91ed86274e1e52eb314784862b61696"><div class="ttname"><a href="../../dd/d52/a00221.html#ab91ed86274e1e52eb314784862b61696">rand32</a></div><div class="ttdeci">AC_COMMON_API uint32 rand32()</div><div class="ttdef"><b>Definition:</b> Random.cpp:72</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<a class="code hl_enumeration" href="../../de/dc3/a01787.html#a5667b805d857c6d28f83f6038a0272d3">Event</a>, e_time, set_addtime, 0); };</div>
+<div class="ttc" id="aa05386_html_a0ecdf822624a632b7b3fad1e66228cfb"><div class="ttname"><a href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">EventProcessor::AddEvent</a></div><div class="ttdeci">void AddEvent(BasicEvent *Event, uint64 e_time, bool set_addtime=true)</div><div class="ttdef"><b>Definition:</b> EventProcessor.h:103</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00072">rand32()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l19768">Unit::_ExitVehicle()</a>, <a class="el" href="../../#l01439">npc_q24545_wretched_ghoul::npc_q24545_wretched_ghoulAI::Activate()</a>, <a class="el" href="../../#l00367">BattlegroundQueue::AddEvent()</a>, <a class="el" href="../../#l00103">AddEvent()</a>, <a class="el" href="../../#l00107">AddEventAtOffset()</a>, <a class="el" href="../../#l02380">Spell::AddUnitTarget()</a>, <a class="el" href="../../#l01081">spell_sindragosa_ice_tomb_trap_aura::AfterApply()</a>, <a class="el" href="../../#l02431">Creature::CallAssistance()</a>, <a class="el" href="../../#l20302">Unit::CastDelayedSpellWithPeriodicAmount()</a>, <a class="el" href="../../#l00769">boss_the_lich_king::boss_the_lich_kingAI::DamageTaken()</a>, <a class="el" href="../../#l00150">boss_baltharus_the_warborn::boss_baltharus_the_warbornAI::DoAction()</a>, <a class="el" href="../../#l00366">boss_prince_keleseth_icc::boss_prince_kelesethAI::DoAction()</a>, <a class="el" href="../../#l00636">boss_prince_taldaram_icc::boss_prince_taldaramAI::DoAction()</a>, <a class="el" href="../../#l00930">boss_prince_valanar_icc::boss_prince_valanarAI::DoAction()</a>, <a class="el" href="../../#l00370">boss_sindragosa::boss_sindragosaAI::DoAction()</a>, <a class="el" href="../../#l01237">npc_spinestalker::npc_spinestalkerAI::DoAction()</a>, <a class="el" href="../../#l01368">npc_rimefang::npc_rimefangAI::DoAction()</a>, <a class="el" href="../../#l00579">npc_green_dragon_combat_trigger::npc_green_dragon_combat_triggerAI::DoAction()</a>, <a class="el" href="../../#l08141">SpellEvent::Execute()</a>, <a class="el" href="../../#l00379">BattleExperienceEvent::Execute()</a>, <a class="el" href="../../#l00029">UtherBatteredHiltEvent::Execute()</a>, <a class="el" href="../../#l00548">TriggerWickedSpirit::Execute()</a>, <a class="el" href="../../#l01032">lapseTeleport::Execute()</a>, <a class="el" href="../../#l01615">PartyTimeEmoteEvent::Execute()</a>, <a class="el" href="../../#l00752">npc_xt002_boombot::npc_xt002_boombotAI::Explode()</a>, <a class="el" href="../../#l02152">Creature::ForcedDespawn()</a>, <a class="el" href="../../#l00650">WorldSession::HandleAuctionListOwnerItems()</a>, <a class="el" href="../../#l01644">spell_item_party_time::HandleEffectApply()</a>, <a class="el" href="../../#l00449">spell_alar_flame_quills::HandlePeriodic()</a>, <a class="el" href="../../#l00066">npc_pet_mage_mirror_image::InitializeAI()</a>, <a class="el" href="../../#l00502">npc_swarm_scarab::npc_swarm_scarabAI::JustDied()</a>, <a class="el" href="../../#l00711">npc_nerubian_burrower::npc_nerubian_burrowerAI::JustDied()</a>, <a class="el" href="../../#l00581">npc_gunship::npc_gunshipAI::JustDied()</a>, <a class="el" href="../../#l00775">npc_xt002_boombot::npc_xt002_boombotAI::JustDied()</a>, <a class="el" href="../../#l01453">npc_q24545_wretched_ghoul::npc_q24545_wretched_ghoulAI::JustDied()</a>, <a class="el" href="../../#l00513">boss_kiljaeden::JustSummoned()</a>, <a class="el" href="../../#l00201">boss_baltharus_the_warborn::boss_baltharus_the_warbornAI::JustSummoned()</a>, <a class="el" href="../../#l00153">boss_drakkari_colossus::boss_drakkari_colossusAI::JustSummoned()</a>, <a class="el" href="../../#l00882">boss_prince_valanar_icc::boss_prince_valanarAI::JustSummoned()</a>, <a class="el" href="../../#l00477">boss_sindragosa::boss_sindragosaAI::JustSummoned()</a>, <a class="el" href="../../#l00849">boss_the_lich_king::boss_the_lich_kingAI::JustSummoned()</a>, <a class="el" href="../../#l00416">boss_valithria_dreamwalker::boss_valithria_dreamwalkerAI::JustSummoned()</a>, <a class="el" href="../../#l00750">npc_risen_archmage::npc_risen_archmageAI::JustSummoned()</a>, <a class="el" href="../../#l00546">boss_algalon_the_observer::boss_algalon_the_observerAI::JustSummoned()</a>, <a class="el" href="../../#l03783">Creature::ModifyThreatPercentTemp()</a>, <a class="el" href="../../#l00282">boss_essence_of_suffering::boss_essence_of_sufferingAI::MovementInform()</a>, <a class="el" href="../../#l00390">boss_essence_of_desire::boss_essence_of_desireAI::MovementInform()</a>, <a class="el" href="../../#l01541">gunship_npc_AI::MovementInform()</a>, <a class="el" href="../../#l01605">npc_gunship_boarding_addAI::MovementInform()</a>, <a class="el" href="../../#l01112">spell_halion_twilight_realm_aura::OnApply()</a>, <a class="el" href="../../#l00296">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l01148">spell_halion_leave_twilight_realm_aura::OnRemove()</a>, <a class="el" href="../../#l00626">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnUnitDeath()</a>, <a class="el" href="../../#l00954">npc_hyldsmeet_protodrake::npc_hyldsmeet_protodrakeAI::PassengerBoarded()</a>, <a class="el" href="../../#l03476">Spell::prepare()</a>, <a class="el" href="../../#l00409">boss_runemaster_molgeim::boss_runemaster_molgeimAI::Reset()</a>, <a class="el" href="../../#l00271">boss_felmyst::ScheduleFlightAbilities()</a>, <a class="el" href="../../#l01575">npc_gunship_boarding_addAI::SetData()</a>, <a class="el" href="../../#l00475">npc_highlord_darion_mograine::npc_highlord_darion_mograineAI::SummonedCreatureDies()</a>, <a class="el" href="../../#l00282">TempSummon::UnSummon()</a>, <a class="el" href="../../#l00122">Totem::UnSummon()</a>, <a class="el" href="../../#l00767">spell_illidari_council_deadly_strike_aura::Update()</a>, <a class="el" href="../../#l00040">Update()</a>, and <a class="el" href="../../#l00144">boss_anomalus::boss_anomalusAI::UpdateAI()</a>.</p>
+
+</div>
+</div>
+<a id="a7c3cadedc39eb9bb27625869ae79f818" name="a7c3cadedc39eb9bb27625869ae79f818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3cadedc39eb9bb27625869ae79f818">&#9670;&#160;</a></span>AddEvent() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt; EventProcessor::AddEvent </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>e_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>set_addtime</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d3/d73/a05382.html">LambdaBasicEvent&lt;T&gt;</a>(std::move(event)), e_time, set_addtime); }</div>
+<div class="ttc" id="aa05382_html"><div class="ttname"><a href="../../d3/d73/a05382.html">LambdaBasicEvent</a></div><div class="ttdef"><b>Definition:</b> EventProcessor.h:75</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00106">AddEvent()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00106">AddEvent()</a>.</p>
+
+</div>
+</div>
+<a id="ac4cfbe963d7e9335f6404666a6b95bad" name="ac4cfbe963d7e9335f6404666a6b95bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4cfbe963d7e9335f6404666a6b95bad">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(event, <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(offset.count()), <span class="keyword">true</span>, 0); }</div>
+<div class="ttc" id="aa05386_html_a1a92f983f1dd415146c2875f80cba433"><div class="ttname"><a href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">EventProcessor::CalculateTime</a></div><div class="ttdeci">uint64 CalculateTime(uint64 t_offset) const</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:159</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>, and <a class="el" href="../../#l00159">CalculateTime()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00145">CharmInfo::AddSpellToActionBar()</a>, <a class="el" href="../../#l00452">boss_high_nethermancer_zerevor::CastDampenMagicIfPossible()</a>, <a class="el" href="../../#l00076">boss_murmur::CastSuppressionOOC()</a>, <a class="el" href="../../#l01164">boss_romulo::DamageTaken()</a>, <a class="el" href="../../#l00086">boss_muru::DamageTaken()</a>, <a class="el" href="../../#l00942">boss_julianne::DoAction()</a>, <a class="el" href="../../#l00373">boss_cthun::DoAction()</a>, <a class="el" href="../../#l00145">boss_kalecgos::DoAction()</a>, <a class="el" href="../../#l00242">boss_illidan_stormrage::DoAction()</a>, <a class="el" href="../../#l00806">npc_akama_illidan::DoAction()</a>, <a class="el" href="../../#l01109">npc_maiev_illidan::DoAction()</a>, <a class="el" href="../../#l01301">npc_blade_of_azzinoth::DoAction()</a>, <a class="el" href="../../#l00201">boss_ouro::Emerge()</a>, <a class="el" href="../../#l00334">boss_zuljin::EnterPhase()</a>, <a class="el" href="../../#l00980">BattlegroundAV::EventPlayerAssaultsPoint()</a>, <a class="el" href="../../#l00551">BattlegroundIC::EventPlayerClickedOnFlag()</a>, <a class="el" href="../../#l00447">BattlegroundEY::EventTeamLostPoint()</a>, <a class="el" href="../../#l00793">WorldSession::HandlePlayerLoginFromDB()</a>, <a class="el" href="../../#l00276">spell_ayamiss_swarmer_teleport_trigger::HandleScript()</a>, <a class="el" href="../../#l00184">boss_akilzon::HandleStormSequence()</a>, <a class="el" href="../../#l00228">boss_kiljaeden::InitializeAI()</a>, <a class="el" href="../../#l00053">boss_ambassador_hellmaw::InitializeAI()</a>, <a class="el" href="../../#l00080">Totem::InitSummon()</a>, <a class="el" href="../../#l01285">npc_blade_of_azzinoth::IsSummonedBy()</a>, <a class="el" href="../../#l01333">npc_flame_of_azzinoth::IsSummonedBy()</a>, <a class="el" href="../../#l01150">npc_maiev_illidan::IsSummonedBy()</a>, <a class="el" href="../../#l00080">boss_akilzon::JustEngagedWith()</a>, <a class="el" href="../../#l00155">boss_zuljin::JustEngagedWith()</a>, <a class="el" href="../../#l01357">npc_flame_of_azzinoth::JustEngagedWith()</a>, <a class="el" href="../../#l00321">boss_essence_of_suffering::boss_essence_of_sufferingAI::JustEngagedWith()</a>, <a class="el" href="../../#l00099">boss_swamplord_muselek::JustEngagedWith()</a>, <a class="el" href="../../#l00077">boss_brutallus::JustEngagedWith()</a>, <a class="el" href="../../#l00120">boss_sacrolash::JustEngagedWith()</a>, <a class="el" href="../../#l00232">boss_alythess::JustEngagedWith()</a>, <a class="el" href="../../#l00230">boss_kalecgos::JustEngagedWith()</a>, <a class="el" href="../../#l00070">boss_muru::JustEngagedWith()</a>, <a class="el" href="../../#l00177">boss_janalai::JustEngagedWith()</a>, <a class="el" href="../../#l00124">boss_anubrekhan::boss_anubrekhanAI::JustEngagedWith()</a>, <a class="el" href="../../#l00078">boss_gurtogg_bloodboil::JustEngagedWith()</a>, <a class="el" href="../../#l00613">boss_illidan_stormrage::JustEngagedWith()</a>, <a class="el" href="../../#l00080">boss_mother_shahraz::JustEngagedWith()</a>, <a class="el" href="../../#l00069">boss_najentus::JustEngagedWith()</a>, <a class="el" href="../../#l01000">npc_akama_illidan::JustReachedHome()</a>, <a class="el" href="../../#l00046">boss_hazzarah::JustSummoned()</a>, <a class="el" href="../../#l00208">boss_reliquary_of_souls::boss_reliquary_of_soulsAI::JustSummoned()</a>, <a class="el" href="../../#l00142">boss_gurtogg_bloodboil::KilledUnit()</a>, <a class="el" href="../../#l00653">boss_illidan_stormrage::KilledUnit()</a>, <a class="el" href="../../#l00310">boss_essence_of_suffering::boss_essence_of_sufferingAI::KilledUnit()</a>, <a class="el" href="../../#l00417">boss_essence_of_desire::boss_essence_of_desireAI::KilledUnit()</a>, <a class="el" href="../../#l00506">boss_essence_of_anger::boss_essence_of_angerAI::KilledUnit()</a>, <a class="el" href="../../#l00045">boss_ebonroc::boss_ebonrocAI::MovementInform()</a>, <a class="el" href="../../#l00286">boss_zuljin::MovementInform()</a>, <a class="el" href="../../#l00108">boss_captain_skarloc::MovementInform()</a>, <a class="el" href="../../#l00119">boss_ayamiss::MovementInform()</a>, <a class="el" href="../../#l00411">boss_illidan_stormrage::MovementInform()</a>, <a class="el" href="../../#l00855">npc_akama_illidan::MovementInform()</a>, <a class="el" href="../../#l00156">boss_felmyst::MovementInform()</a>, <a class="el" href="../../#l00093">boss_ghazan::MovementInform()</a>, <a class="el" href="../../#l00289">BattlegroundAB::NodeDeoccupied()</a>, <a class="el" href="../../#l00041">go_main_chambers_access_panel::OnGossipHello()</a>, <a class="el" href="../../#l00870">at_cthun_stomach_exit::OnTrigger()</a>, <a class="el" href="../../#l00103">boss_anetheron::PathEndReached()</a>, <a class="el" href="../../#l00107">boss_rage_winterchill::PathEndReached()</a>, <a class="el" href="../../#l00509">npc_hyjal_ground_trash::PathEndReached()</a>, <a class="el" href="../../#l00699">npc_hyjal_frost_wyrm::PathEndReached()</a>, <a class="el" href="../../#l00139">boss_ambassador_hellmaw::PathEndReached()</a>, <a class="el" href="../../#l00912">npc_akama_illidan::PathEndReached()</a>, <a class="el" href="../../#l00628">npc_hyjal_gargoyle::PathEndReached()</a>, <a class="el" href="../../#l00245">npc_hive_zara_swarmer::PathEndReached()</a>, <a class="el" href="../../#l00183">boss_reliquary_of_souls::boss_reliquary_of_soulsAI::PhaseTransitionSpawns()</a>, <a class="el" href="../../#l00163">SmartScript::ProcessAction()</a>, <a class="el" href="../../#l00290">boss_kalec::Reset()</a>, <a class="el" href="../../#l00246">boss_kiljaeden::Reset()</a>, <a class="el" href="../../#l00115">boss_entropius::Reset()</a>, <a class="el" href="../../#l00172">npc_singularity::Reset()</a>, <a class="el" href="../../#l00242">boss_alar::ScheduleAbilities()</a>, <a class="el" href="../../#l00470">boss_illidan_stormrage::ScheduleAbilities()</a>, <a class="el" href="../../#l00271">boss_felmyst::ScheduleFlightAbilities()</a>, <a class="el" href="../../#l00234">boss_felmyst::ScheduleFlightSequence()</a>, <a class="el" href="../../#l00299">boss_felmyst::StartIntro()</a>, <a class="el" href="../../#l00116">boss_hydross_the_unstable::SummonMovementInform()</a>, <a class="el" href="../../#l00099">boss_hydross_the_unstable::SummonTaintedElementalOOC()</a>, and <a class="el" href="../../#l00050">CreatureAI::Talk()</a>.</p>
+
+</div>
+</div>
+<a id="af1693df9f9c199ab94975c3b03217c02" name="af1693df9f9c199ab94975c3b03217c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1693df9f9c199ab94975c3b03217c02">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(event, <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(<a class="code hl_function" href="../../d4/def/a00359.html#a9ecda65ea9686c86f47934d04d38ec69">randtime</a>(offset, offset2).count()), <span class="keyword">true</span>, <span class="keyword">false</span>); }</div>
+<div class="ttc" id="aa00359_html_a9ecda65ea9686c86f47934d04d38ec69"><div class="ttname"><a href="../../d4/def/a00359.html#a9ecda65ea9686c86f47934d04d38ec69">randtime</a></div><div class="ttdeci">Milliseconds randtime(Milliseconds min, Milliseconds max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:64</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>, <a class="el" href="../../#l00159">CalculateTime()</a>, and <a class="el" href="../../#l00064">randtime()</a>.</p>
+
+</div>
+</div>
+<a id="ac13c627f0ecfc4a1443f8e2a1ee1b4c7" name="ac13c627f0ecfc4a1443f8e2a1ee1b4c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13c627f0ecfc4a1443f8e2a1ee1b4c7">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt; EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  114</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d3/d73/a05382.html">LambdaBasicEvent&lt;T&gt;</a>(std::move(event)), offset); }</div>
+<div class="ttc" id="aa05386_html_ac4cfbe963d7e9335f6404666a6b95bad"><div class="ttname"><a href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">EventProcessor::AddEventAtOffset</a></div><div class="ttdeci">void AddEventAtOffset(BasicEvent *event, Milliseconds offset)</div><div class="ttdef"><b>Definition:</b> EventProcessor.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00114">AddEventAtOffset()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00114">AddEventAtOffset()</a>.</p>
+
+</div>
+</div>
+<a id="af2f9f20522e1087c52d0dbb3ac4b076b" name="af2f9f20522e1087c52d0dbb3ac4b076b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f9f20522e1087c52d0dbb3ac4b076b">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt; EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d3/d73/a05382.html">LambdaBasicEvent&lt;T&gt;</a>(std::move(event)), offset, offset2); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00116">AddEventAtOffset()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00116">AddEventAtOffset()</a>.</p>
+
+</div>
+</div>
+<a id="a62d1cf008ce199778e30d518050b8161" name="a62d1cf008ce199778e30d518050b8161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d1cf008ce199778e30d518050b8161">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt; EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>eventGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d3/d73/a05382.html">LambdaBasicEvent&lt;T&gt;</a>(std::move(event)), <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(<a class="code hl_function" href="../../d4/def/a00359.html#a9ecda65ea9686c86f47934d04d38ec69">randtime</a>(offset, offset2).count()), <span class="keyword">true</span>, eventGroup); };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>, <a class="el" href="../../#l00159">CalculateTime()</a>, and <a class="el" href="../../#l00064">randtime()</a>.</p>
+
+</div>
+</div>
+<a id="a33ae3b0f73b1db3e905661644dce88b9" name="a33ae3b0f73b1db3e905661644dce88b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ae3b0f73b1db3e905661644dce88b9">&#9670;&#160;</a></span>AddEventAtOffset() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a62fdca14f042b8645ab0d19029b80d9b">is_lambda_event</a>&lt; T &gt; EventProcessor::AddEventAtOffset </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>eventGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  110</span>{ <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d3/d73/a05382.html">LambdaBasicEvent&lt;T&gt;</a>(std::move(event)), <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(offset.count()), <span class="keyword">true</span>, eventGroup); };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>, and <a class="el" href="../../#l00159">CalculateTime()</a>.</p>
+
+</div>
+</div>
+<a id="a2db97870b30361980b2d72ef806de951" name="a2db97870b30361980b2d72ef806de951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db97870b30361980b2d72ef806de951">&#9670;&#160;</a></span>CalculateQueueTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> EventProcessor::CalculateQueueTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>delay</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  165</span>{</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(delay - (<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a> % delay));</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00159">CalculateTime()</a>, and <a class="el" href="../../#l00126">m_time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l20302">Unit::CastDelayedSpellWithPeriodicAmount()</a>.</p>
+
+</div>
+</div>
+<a id="a1a92f983f1dd415146c2875f80cba433" name="a1a92f983f1dd415146c2875f80cba433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a92f983f1dd415146c2875f80cba433">&#9670;&#160;</a></span>CalculateTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> EventProcessor::CalculateTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>t_offset</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  160</span>{</div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a> + t_offset);</div>
+<div class="line"><span class="lineno">  162</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00126">m_time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l19768">Unit::_ExitVehicle()</a>, <a class="el" href="../../#l01439">npc_q24545_wretched_ghoul::npc_q24545_wretched_ghoulAI::Activate()</a>, <a class="el" href="../../#l00367">BattlegroundQueue::AddEvent()</a>, <a class="el" href="../../#l00107">AddEventAtOffset()</a>, <a class="el" href="../../#l02380">Spell::AddUnitTarget()</a>, <a class="el" href="../../#l00164">CalculateQueueTime()</a>, <a class="el" href="../../#l02431">Creature::CallAssistance()</a>, <a class="el" href="../../#l00769">boss_the_lich_king::boss_the_lich_kingAI::DamageTaken()</a>, <a class="el" href="../../#l00150">boss_baltharus_the_warborn::boss_baltharus_the_warbornAI::DoAction()</a>, <a class="el" href="../../#l00366">boss_prince_keleseth_icc::boss_prince_kelesethAI::DoAction()</a>, <a class="el" href="../../#l00636">boss_prince_taldaram_icc::boss_prince_taldaramAI::DoAction()</a>, <a class="el" href="../../#l00930">boss_prince_valanar_icc::boss_prince_valanarAI::DoAction()</a>, <a class="el" href="../../#l00370">boss_sindragosa::boss_sindragosaAI::DoAction()</a>, <a class="el" href="../../#l01237">npc_spinestalker::npc_spinestalkerAI::DoAction()</a>, <a class="el" href="../../#l01368">npc_rimefang::npc_rimefangAI::DoAction()</a>, <a class="el" href="../../#l00579">npc_green_dragon_combat_trigger::npc_green_dragon_combat_triggerAI::DoAction()</a>, <a class="el" href="../../#l00029">UtherBatteredHiltEvent::Execute()</a>, <a class="el" href="../../#l00548">TriggerWickedSpirit::Execute()</a>, <a class="el" href="../../#l01032">lapseTeleport::Execute()</a>, <a class="el" href="../../#l01615">PartyTimeEmoteEvent::Execute()</a>, <a class="el" href="../../#l00752">npc_xt002_boombot::npc_xt002_boombotAI::Explode()</a>, <a class="el" href="../../#l02152">Creature::ForcedDespawn()</a>, <a class="el" href="../../#l00650">WorldSession::HandleAuctionListOwnerItems()</a>, <a class="el" href="../../#l01644">spell_item_party_time::HandleEffectApply()</a>, <a class="el" href="../../#l00066">npc_pet_mage_mirror_image::InitializeAI()</a>, <a class="el" href="../../#l00502">npc_swarm_scarab::npc_swarm_scarabAI::JustDied()</a>, <a class="el" href="../../#l00711">npc_nerubian_burrower::npc_nerubian_burrowerAI::JustDied()</a>, <a class="el" href="../../#l00581">npc_gunship::npc_gunshipAI::JustDied()</a>, <a class="el" href="../../#l00775">npc_xt002_boombot::npc_xt002_boombotAI::JustDied()</a>, <a class="el" href="../../#l01453">npc_q24545_wretched_ghoul::npc_q24545_wretched_ghoulAI::JustDied()</a>, <a class="el" href="../../#l00513">boss_kiljaeden::JustSummoned()</a>, <a class="el" href="../../#l00201">boss_baltharus_the_warborn::boss_baltharus_the_warbornAI::JustSummoned()</a>, <a class="el" href="../../#l00153">boss_drakkari_colossus::boss_drakkari_colossusAI::JustSummoned()</a>, <a class="el" href="../../#l00882">boss_prince_valanar_icc::boss_prince_valanarAI::JustSummoned()</a>, <a class="el" href="../../#l00477">boss_sindragosa::boss_sindragosaAI::JustSummoned()</a>, <a class="el" href="../../#l00849">boss_the_lich_king::boss_the_lich_kingAI::JustSummoned()</a>, <a class="el" href="../../#l00416">boss_valithria_dreamwalker::boss_valithria_dreamwalkerAI::JustSummoned()</a>, <a class="el" href="../../#l00750">npc_risen_archmage::npc_risen_archmageAI::JustSummoned()</a>, <a class="el" href="../../#l00546">boss_algalon_the_observer::boss_algalon_the_observerAI::JustSummoned()</a>, <a class="el" href="../../#l03783">Creature::ModifyThreatPercentTemp()</a>, <a class="el" href="../../#l00282">boss_essence_of_suffering::boss_essence_of_sufferingAI::MovementInform()</a>, <a class="el" href="../../#l00390">boss_essence_of_desire::boss_essence_of_desireAI::MovementInform()</a>, <a class="el" href="../../#l01541">gunship_npc_AI::MovementInform()</a>, <a class="el" href="../../#l01605">npc_gunship_boarding_addAI::MovementInform()</a>, <a class="el" href="../../#l00296">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00626">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnUnitDeath()</a>, <a class="el" href="../../#l00954">npc_hyldsmeet_protodrake::npc_hyldsmeet_protodrakeAI::PassengerBoarded()</a>, <a class="el" href="../../#l03476">Spell::prepare()</a>, <a class="el" href="../../#l00409">boss_runemaster_molgeim::boss_runemaster_molgeimAI::Reset()</a>, <a class="el" href="../../#l00271">boss_felmyst::ScheduleFlightAbilities()</a>, <a class="el" href="../../#l01575">npc_gunship_boarding_addAI::SetData()</a>, <a class="el" href="../../#l00128">boss_the_beast::boss_thebeastAI::SetData()</a>, <a class="el" href="../../#l00475">npc_highlord_darion_mograine::npc_highlord_darion_mograineAI::SummonedCreatureDies()</a>, <a class="el" href="../../#l00282">TempSummon::UnSummon()</a>, <a class="el" href="../../#l00122">Totem::UnSummon()</a>, <a class="el" href="../../#l00040">Update()</a>, and <a class="el" href="../../#l00144">boss_anomalus::boss_anomalusAI::UpdateAI()</a>.</p>
+
+</div>
+</div>
+<a id="a29651ba6704e7908820af60ec37a2478" name="a29651ba6704e7908820af60ec37a2478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29651ba6704e7908820af60ec37a2478">&#9670;&#160;</a></span>CancelEventGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::CancelEventGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{</div>
+<div class="line"><span class="lineno">  116</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.begin(); itr != <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.end();)</div>
+<div class="line"><span class="lineno">  117</span>    {</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">if</span> (itr-&gt;second-&gt;m_eventGroup != group)</div>
+<div class="line"><span class="lineno">  119</span>        {</div>
+<div class="line"><span class="lineno">  120</span>            ++itr;</div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  122</span>        }</div>
+<div class="line"><span class="lineno">  123</span> </div>
+<div class="line"><span class="lineno">  124</span>        <span class="comment">// Abort events which weren&#39;t aborted already</span></div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">if</span> (!itr-&gt;second-&gt;IsAborted())</div>
+<div class="line"><span class="lineno">  126</span>        {</div>
+<div class="line"><span class="lineno">  127</span>            itr-&gt;second-&gt;SetAborted();</div>
+<div class="line"><span class="lineno">  128</span>            itr-&gt;second-&gt;Abort(<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>);</div>
+<div class="line"><span class="lineno">  129</span>        }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>        <span class="keyword">delete</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">  132</span>        itr = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  133</span>    }</div>
+<div class="line"><span class="lineno">  134</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00127">m_events</a>, and <a class="el" href="../../#l00126">m_time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00076">boss_murmur::CastSuppressionOOC()</a>, <a class="el" href="../../#l00242">boss_illidan_stormrage::DoAction()</a>, <a class="el" href="../../#l00625">boss_illidan_stormrage::EnterEvadeMode()</a>, <a class="el" href="../../#l00127">boss_mother_shahraz::JustDied()</a>, <a class="el" href="../../#l00122">boss_najentus::JustDied()</a>, <a class="el" href="../../#l00155">boss_zuljin::JustEngagedWith()</a>, <a class="el" href="../../#l00128">boss_murmur::JustEngagedWith()</a>, <a class="el" href="../../#l00230">boss_hydross_the_unstable::JustEngagedWith()</a>, <a class="el" href="../../#l00201">boss_illidan_stormrage::Reset()</a>, <a class="el" href="../../#l00069">boss_mother_shahraz::Reset()</a>, <a class="el" href="../../#l00062">boss_najentus::Reset()</a>, and <a class="el" href="../../#l00470">boss_illidan_stormrage::ScheduleAbilities()</a>.</p>
+
+</div>
+</div>
+<a id="a15a65ecc2391f505266176cfc7f29c39" name="a15a65ecc2391f505266176cfc7f29c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a65ecc2391f505266176cfc7f29c39">&#9670;&#160;</a></span>KillAllEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::KillAllEvents </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    <span class="comment">// first, abort all existing events</span></div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.begin(); itr != <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.end();)</div>
+<div class="line"><span class="lineno">   86</span>    {</div>
+<div class="line"><span class="lineno">   87</span>        <span class="comment">// Abort events which weren&#39;t aborted already</span></div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (!itr-&gt;second-&gt;IsAborted())</div>
+<div class="line"><span class="lineno">   89</span>        {</div>
+<div class="line"><span class="lineno">   90</span>            itr-&gt;second-&gt;SetAborted();</div>
+<div class="line"><span class="lineno">   91</span>            itr-&gt;second-&gt;Abort(<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>);</div>
+<div class="line"><span class="lineno">   92</span>        }</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>        <span class="comment">// Skip non-deletable events when we are</span></div>
+<div class="line"><span class="lineno">   95</span>        <span class="comment">// not forcing the event cancellation.</span></div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">if</span> (!force &amp;&amp; !itr-&gt;second-&gt;IsDeletable())</div>
+<div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            ++itr;</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  100</span>        }</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>        <span class="keyword">delete</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">if</span> (force)</div>
+<div class="line"><span class="lineno">  105</span>            ++itr; <span class="comment">// Clear the whole container when forcing</span></div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  107</span>            itr = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">if</span> (force)</div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.clear();</div>
+<div class="line"><span class="lineno">  112</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00127">m_events</a>, and <a class="el" href="../../#l00126">m_time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l15737">Unit::CleanupBeforeRemoveFromMap()</a>, <a class="el" href="../../#l01411">npc_q24545_wretched_ghoul::npc_q24545_wretched_ghoulAI::DoAction()</a>, <a class="el" href="../../#l00166">boss_akilzon::JustDied()</a>, <a class="el" href="../../#l00870">at_cthun_stomach_exit::OnTrigger()</a>, <a class="el" href="../../#l00070">boss_brutallus::Reset()</a>, <a class="el" href="../../#l00080">boss_sacrolash::Reset()</a>, <a class="el" href="../../#l00192">boss_alythess::Reset()</a>, <a class="el" href="../../#l00121">boss_felmyst::Reset()</a>, <a class="el" href="../../#l00061">boss_muru::Reset()</a>, <a class="el" href="../../#l00064">boss_akilzon::Reset()</a>, <a class="el" href="../../#l00126">boss_janalai::Reset()</a>, <a class="el" href="../../#l00146">boss_zuljin::Reset()</a>, <a class="el" href="../../#l00081">boss_anubrekhan::boss_anubrekhanAI::Reset()</a>, <a class="el" href="../../#l00774">npc_akama_illidan::Reset()</a>, <a class="el" href="../../#l01103">npc_maiev_illidan::Reset()</a>, <a class="el" href="../../#l00107">boss_alar::Reset()</a>, <a class="el" href="../../#l00227">NPCStaveQuestAI::ResetState()</a>, <a class="el" href="../../#l00208">Battleground::~Battleground()</a>, <a class="el" href="../../#l00056">BattlegroundQueue::~BattlegroundQueue()</a>, and <a class="el" href="../../#l00035">~EventProcessor()</a>.</p>
+
+</div>
+</div>
+<a id="ad54487e1753d8ce12bdddb1358ddb0cc" name="ad54487e1753d8ce12bdddb1358ddb0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54487e1753d8ce12bdddb1358ddb0cc">&#9670;&#160;</a></span>ModifyEventTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::ModifyEventTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
+          <td class="paramname"><em>newTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  146</span>{</div>
+<div class="line"><span class="lineno">  147</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.begin(); itr != <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (itr-&gt;second != event)</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        <span class="keyword">event</span>-&gt;m_execTime = newTime.count();</div>
+<div class="line"><span class="lineno">  153</span>        <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  154</span>        <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.insert(std::pair&lt;uint64, BasicEvent*&gt;(newTime.count(), event));</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  156</span>    }</div>
+<div class="line"><span class="lineno">  157</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00127">m_events</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00916">Spell::RecalculateDelayMomentForDst()</a>.</p>
+
+</div>
+</div>
+<a id="a72fe67593c7684a55d27fb225ea51d05" name="a72fe67593c7684a55d27fb225ea51d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fe67593c7684a55d27fb225ea51d05">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventProcessor::Update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>p_time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// update time</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a> += p_time;</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="comment">// main event loop</span></div>
+<div class="line"><span class="lineno">   46</span>    EventList::iterator i;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">while</span> (((i = <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.begin()) != <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.end()) &amp;&amp; i-&gt;first &lt;= <a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>)</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <span class="comment">// get and remove event from queue</span></div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_class" href="../../dd/d9e/a05378.html">BasicEvent</a>* <span class="keyword">event</span> = i-&gt;second;</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_variable" href="../../d0/d12/a05386.html#a168a435c77de52a151c735d3f004dbb9">m_events</a>.erase(i);</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">if</span> (event-&gt;IsRunning())</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">if</span> (event-&gt;Execute(<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>, p_time))</div>
+<div class="line"><span class="lineno">   56</span>            {</div>
+<div class="line"><span class="lineno">   57</span>                <span class="comment">// completely destroy event if it is not re-added</span></div>
+<div class="line"><span class="lineno">   58</span>                <span class="keyword">delete</span> event;</div>
+<div class="line"><span class="lineno">   59</span>            }</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">if</span> (event-&gt;IsAbortScheduled())</div>
+<div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <span class="keyword">event</span>-&gt;Abort(<a class="code hl_variable" href="../../d0/d12/a05386.html#a829eb8c07982b66e98c0ca118b54aaef">m_time</a>);</div>
+<div class="line"><span class="lineno">   66</span>            <span class="comment">// Mark the event as aborted</span></div>
+<div class="line"><span class="lineno">   67</span>            <span class="keyword">event</span>-&gt;SetAborted();</div>
+<div class="line"><span class="lineno">   68</span>        }</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (event-&gt;IsDeletable())</div>
+<div class="line"><span class="lineno">   71</span>        {</div>
+<div class="line"><span class="lineno">   72</span>            <span class="keyword">delete</span> event;</div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="comment">// Reschedule non deletable events to be checked at</span></div>
+<div class="line"><span class="lineno">   77</span>        <span class="comment">// the next update tick</span></div>
+<div class="line"><span class="lineno">   78</span>        <a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(event, <a class="code hl_function" href="../../d0/d12/a05386.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(1), <span class="keyword">false</span>, 0);</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aa05378_html"><div class="ttname"><a href="../../dd/d9e/a05378.html">BasicEvent</a></div><div class="ttdef"><b>Definition:</b> EventProcessor.h:30</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">AddEvent()</a>, <a class="el" href="../../#l00159">CalculateTime()</a>, <a class="el" href="../../#l00127">m_events</a>, and <a class="el" href="../../#l00126">m_time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00345">Battleground::_ProcessResurrect()</a>, <a class="el" href="../../#l00382">Unit::Update()</a>, and <a class="el" href="../../#l00702">BattlegroundQueue::UpdateEvents()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a1beec186648c90c112ead3cc5df064" name="a7a1beec186648c90c112ead3cc5df064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1beec186648c90c112ead3cc5df064">&#9670;&#160;</a></span>m_aborting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EventProcessor::m_aborting</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a168a435c77de52a151c735d3f004dbb9" name="a168a435c77de52a151c735d3f004dbb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168a435c77de52a151c735d3f004dbb9">&#9670;&#160;</a></span>m_events</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d0f/a00308.html#a393840b719db78b29da806c1237fceb0">EventList</a> EventProcessor::m_events</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00136">AddEvent()</a>, <a class="el" href="../../#l00114">CancelEventGroup()</a>, <a class="el" href="../../#l00082">KillAllEvents()</a>, <a class="el" href="../../#l00145">ModifyEventTime()</a>, and <a class="el" href="../../#l00040">Update()</a>.</p>
+
+</div>
+</div>
+<a id="a829eb8c07982b66e98c0ca118b54aaef" name="a829eb8c07982b66e98c0ca118b54aaef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829eb8c07982b66e98c0ca118b54aaef">&#9670;&#160;</a></span>m_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> EventProcessor::m_time {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00136">AddEvent()</a>, <a class="el" href="../../#l00164">CalculateQueueTime()</a>, <a class="el" href="../../#l00159">CalculateTime()</a>, <a class="el" href="../../#l00114">CancelEventGroup()</a>, <a class="el" href="../../#l00082">KillAllEvents()</a>, and <a class="el" href="../../#l00040">Update()</a>.</p>
 
 </div>
 </div>
@@ -270,8 +974,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d12/a05386.html">RandomEngine</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d0/d12/a05386.html">EventProcessor</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

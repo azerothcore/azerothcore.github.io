@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Runnable Class Reference</title>
+<title>AzerothCore: Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Node Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,43 +106,42 @@ $(document).ready(function(){initNavTree('de/dd6/a05298.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/df2/a05295.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Runnable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Node Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">Threading.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:add1dc9a377ee89c32cc40c42907e5bd8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#add1dc9a377ee89c32cc40c42907e5bd8">~Runnable</a> ()=default</td></tr>
-<tr class="separator:add1dc9a377ee89c32cc40c42907e5bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad92d9c0459fbcc59d2b0d8fe2ed620c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#ad92d9c0459fbcc59d2b0d8fe2ed620c9">run</a> ()=0</td></tr>
-<tr class="separator:ad92d9c0459fbcc59d2b0d8fe2ed620c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a062323e141fa33ae094adbef16caf3d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#a062323e141fa33ae094adbef16caf3d6">incReference</a> ()</td></tr>
-<tr class="separator:a062323e141fa33ae094adbef16caf3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69bf63c7f684de6e278de0468ed8fa06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#a69bf63c7f684de6e278de0468ed8fa06">decReference</a> ()</td></tr>
-<tr class="separator:a69bf63c7f684de6e278de0468ed8fa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4dcacffb32f3e739604ab6ef39b5031"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#aa4dcacffb32f3e739604ab6ef39b5031">Node</a> ()=default</td></tr>
+<tr class="separator:aa4dcacffb32f3e739604ab6ef39b5031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f116e3d84286f313ee8730bde7b936"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#aa5f116e3d84286f313ee8730bde7b936">Node</a> (T *data)</td></tr>
+<tr class="separator:aa5f116e3d84286f313ee8730bde7b936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ae047c0949843835f0b240484df01b7f8"><td class="memItemLeft" align="right" valign="top">std::atomic_long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#ae047c0949843835f0b240484df01b7f8">m_refs</a></td></tr>
-<tr class="separator:ae047c0949843835f0b240484df01b7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa7cdbff9817871b548fe639e0956f1f4"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#aa7cdbff9817871b548fe639e0956f1f4">Data</a></td></tr>
+<tr class="separator:aa7cdbff9817871b548fe639e0956f1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7508e249dd3ff2b3ac291d67ddf87a71"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; <a class="el" href="../../de/dd6/a05298.html">Node</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd6/a05298.html#a7508e249dd3ff2b3ac291d67ddf87a71">Next</a></td></tr>
+<tr class="separator:a7508e249dd3ff2b3ac291d67ddf87a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="add1dc9a377ee89c32cc40c42907e5bd8" name="add1dc9a377ee89c32cc40c42907e5bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add1dc9a377ee89c32cc40c42907e5bd8">&#9670;&#160;</a></span>~Runnable()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Node</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa4dcacffb32f3e739604ab6ef39b5031" name="aa4dcacffb32f3e739604ab6ef39b5031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4dcacffb32f3e739604ab6ef39b5031">&#9670;&#160;</a></span>Node() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Acore::Runnable::~Runnable </td>
+          <td class="memname"><a class="el" href="../../d6/df3/a05294.html">Acore::Impl::MPSCQueueNonIntrusive</a>&lt; T &gt;::Node::Node </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -150,129 +149,83 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a69bf63c7f684de6e278de0468ed8fa06" name="a69bf63c7f684de6e278de0468ed8fa06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69bf63c7f684de6e278de0468ed8fa06">&#9670;&#160;</a></span>decReference()</h2>
+<a id="aa5f116e3d84286f313ee8730bde7b936" name="aa5f116e3d84286f313ee8730bde7b936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f116e3d84286f313ee8730bde7b936">&#9670;&#160;</a></span>Node() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Acore::Runnable::decReference </td>
+          <td class="memname"><a class="el" href="../../d6/df3/a05294.html">Acore::Impl::MPSCQueueNonIntrusive</a>&lt; T &gt;::Node::Node </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>        {</div>
-<div class="line"><span class="lineno">   35</span>            <span class="keywordflow">if</span> (!--<a class="code hl_variable" href="../../de/dd6/a05298.html#ae047c0949843835f0b240484df01b7f8">m_refs</a>)</div>
-<div class="line"><span class="lineno">   36</span>            {</div>
-<div class="line"><span class="lineno">   37</span>                <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">   38</span>            }</div>
-<div class="line"><span class="lineno">   39</span>        }</div>
-<div class="ttc" id="aa05298_html_ae047c0949843835f0b240484df01b7f8"><div class="ttname"><a href="../../de/dd6/a05298.html#ae047c0949843835f0b240484df01b7f8">Acore::Runnable::m_refs</a></div><div class="ttdeci">std::atomic_long m_refs</div><div class="ttdef"><b>Definition:</b> Threading.h:41</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   71</span>                                   : <a class="code hl_variable" href="../../de/dd6/a05298.html#aa7cdbff9817871b548fe639e0956f1f4">Data</a>(data)</div>
+<div class="line"><span class="lineno">   72</span>            {</div>
+<div class="line"><span class="lineno">   73</span>                <a class="code hl_variable" href="../../de/dd6/a05298.html#a7508e249dd3ff2b3ac291d67ddf87a71">Next</a>.store(<span class="keyword">nullptr</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+<div class="ttc" id="aa05298_html_a7508e249dd3ff2b3ac291d67ddf87a71"><div class="ttname"><a href="../../de/dd6/a05298.html#a7508e249dd3ff2b3ac291d67ddf87a71">Acore::Impl::MPSCQueueNonIntrusive::Node::Next</a></div><div class="ttdeci">std::atomic&lt; Node * &gt; Next</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:77</div></div>
+<div class="ttc" id="aa05298_html_aa7cdbff9817871b548fe639e0956f1f4"><div class="ttname"><a href="../../de/dd6/a05298.html#aa7cdbff9817871b548fe639e0956f1f4">Acore::Impl::MPSCQueueNonIntrusive::Node::Data</a></div><div class="ttdeci">T * Data</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:76</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00041">m_refs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00044">Acore::Thread::~Thread()</a>.</p>
-
-</div>
-</div>
-<a id="a062323e141fa33ae094adbef16caf3d6" name="a062323e141fa33ae094adbef16caf3d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a062323e141fa33ae094adbef16caf3d6">&#9670;&#160;</a></span>incReference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Runnable::incReference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{ ++<a class="code hl_variable" href="../../de/dd6/a05298.html#ae047c0949843835f0b240484df01b7f8">m_refs</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00041">m_refs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00033">Acore::Thread::Thread()</a>.</p>
-
-</div>
-</div>
-<a id="ad92d9c0459fbcc59d2b0d8fe2ed620c9" name="ad92d9c0459fbcc59d2b0d8fe2ed620c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad92d9c0459fbcc59d2b0d8fe2ed620c9">&#9670;&#160;</a></span>run()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Acore::Runnable::run </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00091">Acore::Thread::ThreadTask()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00077">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Node::Next</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae047c0949843835f0b240484df01b7f8" name="ae047c0949843835f0b240484df01b7f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae047c0949843835f0b240484df01b7f8">&#9670;&#160;</a></span>m_refs</h2>
+<a id="aa7cdbff9817871b548fe639e0956f1f4" name="aa7cdbff9817871b548fe639e0956f1f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7cdbff9817871b548fe639e0956f1f4">&#9670;&#160;</a></span>Data</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic_long Acore::Runnable::m_refs</td>
+          <td class="memname">T* <a class="el" href="../../d6/df3/a05294.html">Acore::Impl::MPSCQueueNonIntrusive</a>&lt; T &gt;::Node::Data</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00033">decReference()</a>, and <a class="el" href="../../#l00032">incReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00054">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Dequeue()</a>.</p>
+
+</div>
+</div>
+<a id="a7508e249dd3ff2b3ac291d67ddf87a71" name="a7508e249dd3ff2b3ac291d67ddf87a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7508e249dd3ff2b3ac291d67ddf87a71">&#9670;&#160;</a></span>Next</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;<a class="el" href="../../de/dd6/a05298.html">Node</a>*&gt; <a class="el" href="../../d6/df3/a05294.html">Acore::Impl::MPSCQueueNonIntrusive</a>&lt; T &gt;::Node::Next</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00054">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Dequeue()</a>, <a class="el" href="../../#l00047">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Enqueue()</a>, <a class="el" href="../../#l00031">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::MPSCQueueNonIntrusive()</a>, and <a class="el" href="../../#l00071">Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;::Node::Node()</a>.</p>
 
 </div>
 </div>
@@ -281,8 +234,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/dd6/a05298.html">Runnable</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../d6/df3/a05294.html">MPSCQueueNonIntrusive</a></li><li class="navelem"><a class="el" href="../../de/dd6/a05298.html">Node</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

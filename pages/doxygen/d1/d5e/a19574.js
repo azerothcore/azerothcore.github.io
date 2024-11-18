@@ -1,8 +1,8 @@
 var a19574 =
 [
-    [ "FilterTargets", "d1/d5e/a19574.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
-    [ "HandleScript", "d1/d5e/a19574.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
-    [ "PrepareSpellScript", "d1/d5e/a19574.html#aea46762f43b31923617f740e0545fe98", null ],
-    [ "Register", "d1/d5e/a19574.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
-    [ "Validate", "d1/d5e/a19574.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
+    [ "npc_mechanoliftAI", "d1/d5e/a19574.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "d1/d5e/a19574.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "d1/d5e/a19574.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "d1/d5e/a19574.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "d1/d5e/a19574.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

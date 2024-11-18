@@ -1,9 +1,6 @@
 var a19522 =
 [
-    [ "npc_thorims_hammerAI", "d4/d74/a19522.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "d4/d74/a19522.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "d4/d74/a19522.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "d4/d74/a19522.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "d4/d74/a19522.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "d4/d74/a19522.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "npc_mimirons_infernoAI", "dd/db6/a19526.html", "dd/db6/a19526" ],
+    [ "npc_mimirons_inferno", "d4/d74/a19522.html#a7a531a65a179b5d56c888c055b72d269", null ],
+    [ "GetAI", "d4/d74/a19522.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
 ];

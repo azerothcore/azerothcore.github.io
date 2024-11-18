@@ -1,9 +1,11 @@
 var a03095 =
 [
-    [ "DatabaseScript", "dd/daa/a10002.html", "dd/daa/a10002" ],
-    [ "DatabaseHook", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707e", [
-      [ "DATABASEHOOK_ON_AFTER_DATABASES_LOADED", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707ea669793dd5bb736daf7bf4e7a57422171", null ],
-      [ "DATABASEHOOK_ON_AFTER_DATABASE_LOAD_CREATURETEMPLATES", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707ea5da0ac4b05308347ca9a69286153d974", null ],
-      [ "DATABASEHOOK_END", "d0/d2b/a03095.html#a5f7dd71299279ad5a845d4d4030e707eaf2e5c468c0dfdec9fc3dea4359a93d04", null ]
+    [ "AuraEffect", "d6/d2f/a10782.html", "d6/d2f/a10782" ],
+    [ "Acore::AbsorbAuraOrderPred", "d4/da3/a10786.html", "d4/da3/a10786" ],
+    [ "pAuraEffectHandler", "d0/d2b/a03095.html#a9e98d9a1c1cc41922f386b184fd7ce67", null ],
+    [ "BrewfestEntries", "d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354", [
+      [ "BREWFEST_KODO", "d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5", null ],
+      [ "GREAT_BREWFEST_KODO", "d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa", null ],
+      [ "FRESH_BREWFEST_HOPS", "d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf", null ]
     ] ]
 ];

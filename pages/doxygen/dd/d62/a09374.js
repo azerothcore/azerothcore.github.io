@@ -1,7 +1,7 @@
 var a09374 =
 [
-    [ "QuestItem", "dd/d62/a09374.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
-    [ "QuestItem", "dd/d62/a09374.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
-    [ "index", "dd/d62/a09374.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
-    [ "is_looted", "dd/d62/a09374.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
+    [ "LootGroupInvalidSelector", "dd/d62/a09374.html#abea815e8ee0d31cc64b3fd7f46033cca", null ],
+    [ "operator()", "dd/d62/a09374.html#a2ea426fdeced03324c4a63184c2c1fc4", null ],
+    [ "_loot", "dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d", null ],
+    [ "_lootMode", "dd/d62/a09374.html#a10e307846a0731aa812388c29c0d4bc8", null ]
 ];

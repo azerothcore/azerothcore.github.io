@@ -1,14 +1,10 @@
 var a07134 =
 [
-    [ "BattlegroundDS", "d7/d57/a07134.html#a041cd3c81d341ff12e2e103da44c19b8", null ],
-    [ "FillInitialWorldStates", "d7/d57/a07134.html#a5fab4d2e772aba65211f1636deaf4220", null ],
-    [ "HandleAreaTrigger", "d7/d57/a07134.html#a91e0be32f0169b9ac8749003ae3cdae7", null ],
-    [ "HandlePlayerUnderMap", "d7/d57/a07134.html#a97ed6f531b1de3eaf93c585e205e7f54", null ],
-    [ "PostUpdateImpl", "d7/d57/a07134.html#a57cfca32a361d43f19163dc6e7408e96", null ],
-    [ "SetupBattleground", "d7/d57/a07134.html#ae008bf979e6984856237938dfe743ec7", null ],
-    [ "StartingEventCloseDoors", "d7/d57/a07134.html#ae215043c2c10df9f9339e2a6dbcb185e", null ],
-    [ "StartingEventOpenDoors", "d7/d57/a07134.html#ab9ab60253daa5318dcdb6675c8919cd5", null ],
-    [ "_events", "d7/d57/a07134.html#a79112a1631ec6541cf19ecef712bb66f", null ],
-    [ "_pipeKnockBackCount", "d7/d57/a07134.html#a32490dab9fd8ea9ae9afd8cf66feb087", null ],
-    [ "_pipeKnockBackTimer", "d7/d57/a07134.html#aaef0cac1f3283c56117efcc484a0abfc", null ]
+    [ "OwnerId", "d7/d57/a07134.html#ae6203d7a867838b279825925841a99df", null ],
+    [ "PrevOwnerId", "d7/d57/a07134.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
+    [ "PrevState", "d7/d57/a07134.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
+    [ "State", "d7/d57/a07134.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
+    [ "Timer", "d7/d57/a07134.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
+    [ "TotalOwnerId", "d7/d57/a07134.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
+    [ "Tower", "d7/d57/a07134.html#a222db96ad937e31986c0c39a5a371dd7", null ]
 ];

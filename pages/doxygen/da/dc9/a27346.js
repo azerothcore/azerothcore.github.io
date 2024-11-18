@@ -1,7 +1,18 @@
 var a27346 =
 [
-    [ "npc_wormholeAI", "da/dc9/a27346.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
-    [ "GetData", "da/dc9/a27346.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
-    [ "InitializeAI", "da/dc9/a27346.html#aa0a903014ec7243036604ffcc67e0a36", null ],
-    [ "_showUnderground", "da/dc9/a27346.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
+    [ "DBCStorageBase", "da/dc9/a27346.html#ad688053187f77a4a016274f7e46a76a3", null ],
+    [ "~DBCStorageBase", "da/dc9/a27346.html#a39d4e4f05a50b952c2f952a452beb010", null ],
+    [ "GetFieldCount", "da/dc9/a27346.html#a867375a50bcf7ec8c40b6ff7305a5e81", null ],
+    [ "GetFormat", "da/dc9/a27346.html#ab333cdbf4cb7c6f527045902256fdf2f", null ],
+    [ "Load", "da/dc9/a27346.html#a779bd666cbdc6587eab6a81e51e894d8", null ],
+    [ "Load", "da/dc9/a27346.html#a14dfcde7f1c9c63a293638009b6ce16b", null ],
+    [ "LoadFromDB", "da/dc9/a27346.html#abea56cf48880a3ae02d322b6283032b4", null ],
+    [ "LoadFromDB", "da/dc9/a27346.html#a7156af21138d19a978b9551a2ca24708", null ],
+    [ "LoadStringsFrom", "da/dc9/a27346.html#a912b4793ddc3e3ff3bc9279693373b79", null ],
+    [ "LoadStringsFrom", "da/dc9/a27346.html#a0e3e3be24e2404fad11c322190e0e337", null ],
+    [ "_dataTable", "da/dc9/a27346.html#ab13a1018e69345a3665f50d696bc7236", null ],
+    [ "_fieldCount", "da/dc9/a27346.html#aa9bebefe18610016bef2c7d087d20abe", null ],
+    [ "_fileFormat", "da/dc9/a27346.html#a3ac1c70817c9b7a351ea0e0d2e602351", null ],
+    [ "_indexTableSize", "da/dc9/a27346.html#aa17bb429de3b9df9bb6ffcbc9bf9010b", null ],
+    [ "_stringPool", "da/dc9/a27346.html#a8d571b107344a2dbde0b2cbcfa3c9b52", null ]
 ];

@@ -1,10 +1,13 @@
 var a07246 =
 [
-    [ "ChannelRights", "d7/d22/a07246.html#a7fbfd84470bf1b4bf564eec0315f6c8d", null ],
-    [ "ChannelRights", "d7/d22/a07246.html#ac689ce079b171bbbdbc062ad7521f21c", null ],
-    [ "flags", "d7/d22/a07246.html#ad7fdc943a5a97c3c812108243192f6ae", null ],
-    [ "joinMessage", "d7/d22/a07246.html#af8797ef8c642f3a954b1581fb54ed545", null ],
-    [ "moderators", "d7/d22/a07246.html#ac80f92b9e633bf309970179b32e29cee", null ],
-    [ "speakDelay", "d7/d22/a07246.html#a9883582d36b8cc67ab5d649670441000", null ],
-    [ "speakMessage", "d7/d22/a07246.html#a4b7dc06e8839da5a6d50b5d4dae76c1b", null ]
+    [ "WhoListCacheMgr", "d7/d22/a07246.html#a2190c113c3d38bd316b17a4400c113e6", null ],
+    [ "~WhoListCacheMgr", "d7/d22/a07246.html#ae32706d7786014e142dc1cb9ccd29d70", null ],
+    [ "WhoListCacheMgr", "d7/d22/a07246.html#a366e452317179d647042c24c56faafa1", null ],
+    [ "WhoListCacheMgr", "d7/d22/a07246.html#ae0358ae9260f929410f6518f89135161", null ],
+    [ "GetWhoList", "d7/d22/a07246.html#a4dec6544342fdc5052b69dcc61148453", null ],
+    [ "instance", "d7/d22/a07246.html#a1e8ce970e3213cd0361af303df98b387", null ],
+    [ "operator=", "d7/d22/a07246.html#a80615aa0a66ac29765f27598e605c712", null ],
+    [ "operator=", "d7/d22/a07246.html#ab8aff37f9e66aef40ccb794928bc001c", null ],
+    [ "Update", "d7/d22/a07246.html#a3db2ef832cf1413fb2e565ca0d922a80", null ],
+    [ "_whoListStorage", "d7/d22/a07246.html#a75495cb910c6de65d60a5080248e1e25", null ]
 ];

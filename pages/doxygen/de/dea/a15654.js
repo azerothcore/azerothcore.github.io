@@ -1,6 +1,5 @@
 var a15654 =
 [
-    [ "npc_onyx_flamecallerAI", "de/d57/a15658.html", "de/d57/a15658" ],
-    [ "npc_onyx_flamecaller", "de/dea/a15654.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "de/dea/a15654.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "at_baltharus_plateau", "de/dea/a15654.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
+    [ "OnTrigger", "de/dea/a15654.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
 ];

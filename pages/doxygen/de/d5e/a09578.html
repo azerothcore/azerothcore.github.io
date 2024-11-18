@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: TransportAnimation Struct Reference</title>
+<title>AzerothCore: MapUpdater Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,36 +106,81 @@ $(document).ready(function(){initNavTree('de/d5e/a09578.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/d02/a09575.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TransportAnimation Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MapUpdater Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">TransportMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">MapUpdater.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a775b84b54deefd38af40222afd82d572"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a775b84b54deefd38af40222afd82d572">TransportAnimation</a> ()</td></tr>
-<tr class="separator:a775b84b54deefd38af40222afd82d572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73b56750c90afce38dbf57793bae16f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a73b56750c90afce38dbf57793bae16f3">GetAnimNode</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> time, <a class="el" href="../../d0/da7/a28002.html">TransportAnimationEntry</a> const *&amp;curr, <a class="el" href="../../d0/da7/a28002.html">TransportAnimationEntry</a> const *&amp;next, float &amp;percPos) const</td></tr>
-<tr class="separator:a73b56750c90afce38dbf57793bae16f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2c892f14712828acaa85fa6e6d919bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#aa2c892f14712828acaa85fa6e6d919bb">GetAnimRotation</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> time, G3D::Quat &amp;curr, G3D::Quat &amp;next, float &amp;percRot) const</td></tr>
-<tr class="separator:aa2c892f14712828acaa85fa6e6d919bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96424fd90677e0f2d0908f9c25b58d04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a96424fd90677e0f2d0908f9c25b58d04">MapUpdater</a> ()</td></tr>
+<tr class="separator:a96424fd90677e0f2d0908f9c25b58d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb5781f6ab6ffd1410486399ccaa0ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#aadb5781f6ab6ffd1410486399ccaa0ee">~MapUpdater</a> ()=default</td></tr>
+<tr class="separator:aadb5781f6ab6ffd1410486399ccaa0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafda5775622dcce2e4869cf5d015fefc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#aafda5775622dcce2e4869cf5d015fefc">schedule_update</a> (<a class="el" href="../../d7/dc0/a09538.html">Map</a> &amp;map, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> s_diff)</td></tr>
+<tr class="separator:aafda5775622dcce2e4869cf5d015fefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4141350af5d8a86481a8e5f29f0ad7e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a4141350af5d8a86481a8e5f29f0ad7e2">schedule_lfg_update</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff)</td></tr>
+<tr class="separator:a4141350af5d8a86481a8e5f29f0ad7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608eb61de2bacf082422562b049e8652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a608eb61de2bacf082422562b049e8652">wait</a> ()</td></tr>
+<tr class="separator:a608eb61de2bacf082422562b049e8652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a1362a9b916a0919f0fa6fcbf82ff22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a7a1362a9b916a0919f0fa6fcbf82ff22">activate</a> (std::size_t num_threads)</td></tr>
+<tr class="separator:a7a1362a9b916a0919f0fa6fcbf82ff22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab579ca346d4d19e16bd552ce84bd95b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#ab579ca346d4d19e16bd552ce84bd95b7">deactivate</a> ()</td></tr>
+<tr class="separator:ab579ca346d4d19e16bd552ce84bd95b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd15656fd974278fa1d4ba30d6fcea8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a9cd15656fd974278fa1d4ba30d6fcea8">activated</a> ()</td></tr>
+<tr class="separator:a9cd15656fd974278fa1d4ba30d6fcea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab874c53de215037c8fae77f9dac6601c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#ab874c53de215037c8fae77f9dac6601c">update_finished</a> ()</td></tr>
+<tr class="separator:ab874c53de215037c8fae77f9dac6601c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a7c45df781dda8058d281a2cf7e5fe5fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d9d/a03917.html#a7905b31432c2140de30ffc9363c3e9b9">TransportPathContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">Path</a></td></tr>
-<tr class="separator:a7c45df781dda8058d281a2cf7e5fe5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fa771fb487c437d7d6229eadf7d90c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d9d/a03917.html#a58adfcebbe67029f647a3db4897a6558">TransportPathRotationContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a></td></tr>
-<tr class="separator:a5fa771fb487c437d7d6229eadf7d90c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a31ffc2e642a3950b0509130a76ad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a59a31ffc2e642a3950b0509130a76ad4">TotalTime</a></td></tr>
-<tr class="separator:a59a31ffc2e642a3950b0509130a76ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3cce7e3bbab4e3e875dad9a549c142e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a3cce7e3bbab4e3e875dad9a549c142e8">WorkerThread</a> ()</td></tr>
+<tr class="separator:a3cce7e3bbab4e3e875dad9a549c142e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afba30ac2a8ce0540b73f034b73ce5956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../dc/db7/a09566.html">UpdateRequest</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">_queue</a></td></tr>
+<tr class="separator:afba30ac2a8ce0540b73f034b73ce5956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a1943fe78ea8a5da2d4b0453748d90"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">_workerThreads</a></td></tr>
+<tr class="separator:a06a1943fe78ea8a5da2d4b0453748d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96c38c13ce5a71ce63ee0b83e83d5cfd"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a96c38c13ce5a71ce63ee0b83e83d5cfd">_cancelationToken</a></td></tr>
+<tr class="separator:a96c38c13ce5a71ce63ee0b83e83d5cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed1652ffa76199e1e7d659b5c451549"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">_lock</a></td></tr>
+<tr class="separator:a0ed1652ffa76199e1e7d659b5c451549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5b180bd52ae9244e0eda41bcc7573a"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#acf5b180bd52ae9244e0eda41bcc7573a">_condition</a></td></tr>
+<tr class="separator:acf5b180bd52ae9244e0eda41bcc7573a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347219257a74d7b24a9dfee7658fa6f0"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a></td></tr>
+<tr class="separator:a347219257a74d7b24a9dfee7658fa6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a775b84b54deefd38af40222afd82d572" name="a775b84b54deefd38af40222afd82d572"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775b84b54deefd38af40222afd82d572">&#9670;&#160;</a></span>TransportAnimation()</h2>
+<a id="a96424fd90677e0f2d0908f9c25b58d04" name="a96424fd90677e0f2d0908f9c25b58d04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96424fd90677e0f2d0908f9c25b58d04">&#9670;&#160;</a></span>MapUpdater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MapUpdater::MapUpdater </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   70</span>                      : <a class="code hl_variable" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a>(0)</div>
+<div class="line"><span class="lineno">   71</span>{</div>
+<div class="line"><span class="lineno">   72</span>}</div>
+<div class="ttc" id="aa09578_html_a347219257a74d7b24a9dfee7658fa6f0"><div class="ttname"><a href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">MapUpdater::pending_requests</a></div><div class="ttdeci">std::size_t pending_requests</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:53</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aadb5781f6ab6ffd1410486399ccaa0ee" name="aadb5781f6ab6ffd1410486399ccaa0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb5781f6ab6ffd1410486399ccaa0ee">&#9670;&#160;</a></span>~MapUpdater()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +189,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TransportAnimation::TransportAnimation </td>
+          <td class="memname">MapUpdater::~MapUpdater </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -152,204 +197,440 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   89</span>: <a class="code hl_variable" href="../../de/d5e/a09578.html#a59a31ffc2e642a3950b0509130a76ad4">TotalTime</a>(0) { }</div>
-<div class="ttc" id="aa09578_html_a59a31ffc2e642a3950b0509130a76ad4"><div class="ttname"><a href="../../de/d5e/a09578.html#a59a31ffc2e642a3950b0509130a76ad4">TransportAnimation::TotalTime</a></div><div class="ttdeci">uint32 TotalTime</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:93</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a73b56750c90afce38dbf57793bae16f3" name="a73b56750c90afce38dbf57793bae16f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73b56750c90afce38dbf57793bae16f3">&#9670;&#160;</a></span>GetAnimNode()</h2>
+<a id="a7a1362a9b916a0919f0fa6fcbf82ff22" name="a7a1362a9b916a0919f0fa6fcbf82ff22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1362a9b916a0919f0fa6fcbf82ff22">&#9670;&#160;</a></span>activate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool TransportAnimation::GetAnimNode </td>
+          <td class="memname">void MapUpdater::activate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/da7/a28002.html">TransportAnimationEntry</a> const *&amp;&#160;</td>
-          <td class="paramname"><em>curr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/da7/a28002.html">TransportAnimationEntry</a> const *&amp;&#160;</td>
-          <td class="paramname"><em>next</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>percPos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  494</span>{</div>
-<div class="line"><span class="lineno">  495</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">Path</a>.empty())</div>
-<div class="line"><span class="lineno">  496</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  497</span> </div>
-<div class="line"><span class="lineno">  498</span>    <span class="keywordflow">for</span> (TransportPathContainer::const_reverse_iterator itr = <a class="code hl_variable" href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">Path</a>.rbegin(); itr != <a class="code hl_variable" href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">Path</a>.rend(); ++itr)</div>
-<div class="line"><span class="lineno">  499</span>        <span class="keywordflow">if</span> (time &gt;= itr-&gt;first)</div>
-<div class="line"><span class="lineno">  500</span>        {</div>
-<div class="line"><span class="lineno">  501</span>            curr = itr-&gt;second;</div>
-<div class="line"><span class="lineno">  502</span>            <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(itr != <a class="code hl_variable" href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">Path</a>.rbegin());</div>
-<div class="line"><span class="lineno">  503</span>            --itr;</div>
-<div class="line"><span class="lineno">  504</span>            next = itr-&gt;second;</div>
-<div class="line"><span class="lineno">  505</span>            percPos = float(time - curr-&gt;TimeSeg) / float(next-&gt;TimeSeg - curr-&gt;TimeSeg);</div>
-<div class="line"><span class="lineno">  506</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  507</span>        }</div>
-<div class="line"><span class="lineno">  508</span> </div>
-<div class="line"><span class="lineno">  509</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  510</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa09578_html_a7c45df781dda8058d281a2cf7e5fe5fb"><div class="ttname"><a href="../../de/d5e/a09578.html#a7c45df781dda8058d281a2cf7e5fe5fb">TransportAnimation::Path</a></div><div class="ttdeci">TransportPathContainer Path</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:91</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">_workerThreads</a>.reserve(num_threads);</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; num_threads; ++i)</div>
+<div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <a class="code hl_variable" href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">_workerThreads</a>.push_back(std::thread(&amp;<a class="code hl_function" href="../../de/d5e/a09578.html#a3cce7e3bbab4e3e875dad9a549c142e8">MapUpdater::WorkerThread</a>, <span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+<div class="ttc" id="aa09578_html_a06a1943fe78ea8a5da2d4b0453748d90"><div class="ttname"><a href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">MapUpdater::_workerThreads</a></div><div class="ttdeci">std::vector&lt; std::thread &gt; _workerThreads</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:48</div></div>
+<div class="ttc" id="aa09578_html_a3cce7e3bbab4e3e875dad9a549c142e8"><div class="ttname"><a href="../../de/d5e/a09578.html#a3cce7e3bbab4e3e875dad9a549c142e8">MapUpdater::WorkerThread</a></div><div class="ttdeci">void WorkerThread()</div><div class="ttdef"><b>Definition:</b> MapUpdater.cpp:142</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00091">Path</a>, and <a class="el" href="../../#l02005">TransportAnimationEntry::TimeSeg</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00048">_workerThreads</a>, and <a class="el" href="../../#l00142">WorkerThread()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00865">StaticTransport::RelocateToProgress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00054">MapMgr::Initialize()</a>.</p>
 
 </div>
 </div>
-<a id="aa2c892f14712828acaa85fa6e6d919bb" name="aa2c892f14712828acaa85fa6e6d919bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2c892f14712828acaa85fa6e6d919bb">&#9670;&#160;</a></span>GetAnimRotation()</h2>
+<a id="a9cd15656fd974278fa1d4ba30d6fcea8" name="a9cd15656fd974278fa1d4ba30d6fcea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd15656fd974278fa1d4ba30d6fcea8">&#9670;&#160;</a></span>activated()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TransportAnimation::GetAnimRotation </td>
+          <td class="memname">bool MapUpdater::activated </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  129</span>{</div>
+<div class="line"><span class="lineno">  130</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">_workerThreads</a>.size() &gt; 0;</div>
+<div class="line"><span class="lineno">  131</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">_workerThreads</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00325">MapMgr::UnloadAll()</a>, and <a class="el" href="../../#l00244">MapMgr::Update()</a>.</p>
+
+</div>
+</div>
+<a id="ab579ca346d4d19e16bd552ce84bd95b7" name="ab579ca346d4d19e16bd552ce84bd95b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab579ca346d4d19e16bd552ce84bd95b7">&#9670;&#160;</a></span>deactivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::deactivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#a96c38c13ce5a71ce63ee0b83e83d5cfd">_cancelationToken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_function" href="../../de/d5e/a09578.html#a608eb61de2bacf082422562b049e8652">wait</a>();</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">_queue</a>.<a class="code hl_function" href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">Cancel</a>();</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; thread : <a class="code hl_variable" href="../../de/d5e/a09578.html#a06a1943fe78ea8a5da2d4b0453748d90">_workerThreads</a>)</div>
+<div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">if</span> (thread.joinable())</div>
+<div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            thread.join();</div>
+<div class="line"><span class="lineno">   96</span>        }</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="line"><span class="lineno">   98</span>}</div>
+<div class="ttc" id="aa05306_html_a7e9de516e77945411ad4f8bfa161489d"><div class="ttname"><a href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">ProducerConsumerQueue::Cancel</a></div><div class="ttdeci">void Cancel()</div><div class="ttdef"><b>Definition:</b> PCQueue.h:93</div></div>
+<div class="ttc" id="aa09578_html_a608eb61de2bacf082422562b049e8652"><div class="ttname"><a href="../../de/d5e/a09578.html#a608eb61de2bacf082422562b049e8652">MapUpdater::wait</a></div><div class="ttdeci">void wait()</div><div class="ttdef"><b>Definition:</b> MapUpdater.cpp:100</div></div>
+<div class="ttc" id="aa09578_html_a96c38c13ce5a71ce63ee0b83e83d5cfd"><div class="ttname"><a href="../../de/d5e/a09578.html#a96c38c13ce5a71ce63ee0b83e83d5cfd">MapUpdater::_cancelationToken</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _cancelationToken</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:49</div></div>
+<div class="ttc" id="aa09578_html_afba30ac2a8ce0540b73f034b73ce5956"><div class="ttname"><a href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">MapUpdater::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; UpdateRequest * &gt; _queue</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:46</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">_cancelationToken</a>, <a class="el" href="../../#l00046">_queue</a>, <a class="el" href="../../#l00048">_workerThreads</a>, <a class="el" href="../../#l00093">ProducerConsumerQueue&lt; T &gt;::Cancel()</a>, and <a class="el" href="../../#l00100">wait()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00325">MapMgr::UnloadAll()</a>.</p>
+
+</div>
+</div>
+<a id="a4141350af5d8a86481a8e5f29f0ad7e2" name="a4141350af5d8a86481a8e5f29f0ad7e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4141350af5d8a86481a8e5f29f0ad7e2">&#9670;&#160;</a></span>schedule_lfg_update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::schedule_lfg_update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>diff</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{</div>
+<div class="line"><span class="lineno">  121</span>    std::lock_guard&lt;std::mutex&gt; guard(<a class="code hl_variable" href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">_lock</a>);</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    ++<a class="code hl_variable" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a>;</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">_queue</a>.<a class="code hl_function" href="../../d2/d63/a05306.html#abd3bd3c88fbd7d8edb721fc5f89da5ed">Push</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../da/de5/a09574.html">LFGUpdateRequest</a>(*<span class="keyword">this</span>, diff));</div>
+<div class="line"><span class="lineno">  126</span>}</div>
+<div class="ttc" id="aa05306_html_abd3bd3c88fbd7d8edb721fc5f89da5ed"><div class="ttname"><a href="../../d2/d63/a05306.html#abd3bd3c88fbd7d8edb721fc5f89da5ed">ProducerConsumerQueue::Push</a></div><div class="ttdeci">void Push(const T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:36</div></div>
+<div class="ttc" id="aa09574_html"><div class="ttname"><a href="../../da/de5/a09574.html">LFGUpdateRequest</a></div><div class="ttdef"><b>Definition:</b> MapUpdater.cpp:56</div></div>
+<div class="ttc" id="aa09578_html_a0ed1652ffa76199e1e7d659b5c451549"><div class="ttname"><a href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">MapUpdater::_lock</a></div><div class="ttdeci">std::mutex _lock</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:51</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00051">_lock</a>, <a class="el" href="../../#l00046">_queue</a>, <a class="el" href="../../#l00053">pending_requests</a>, and <a class="el" href="../../#l00036">ProducerConsumerQueue&lt; T &gt;::Push()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00244">MapMgr::Update()</a>.</p>
+
+</div>
+</div>
+<a id="aafda5775622dcce2e4869cf5d015fefc" name="aafda5775622dcce2e4869cf5d015fefc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafda5775622dcce2e4869cf5d015fefc">&#9670;&#160;</a></span>schedule_update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::schedule_update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dc0/a09538.html">Map</a> &amp;&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">G3D::Quat &amp;&#160;</td>
-          <td class="paramname"><em>curr</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>diff</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">G3D::Quat &amp;&#160;</td>
-          <td class="paramname"><em>next</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>percRot</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>s_diff</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  513</span>{</div>
-<div class="line"><span class="lineno">  514</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.empty())</div>
-<div class="line"><span class="lineno">  515</span>    {</div>
-<div class="line"><span class="lineno">  516</span>        curr = G3D::Quat(0.0f, 0.0f, 0.0f, 1.0f);</div>
-<div class="line"><span class="lineno">  517</span>        next = G3D::Quat(0.0f, 0.0f, 0.0f, 1.0f);</div>
-<div class="line"><span class="lineno">  518</span>        percRot = 0.0f;</div>
-<div class="line"><span class="lineno">  519</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  520</span>    }</div>
-<div class="line"><span class="lineno">  521</span> </div>
-<div class="line"><span class="lineno">  522</span>    <span class="keywordflow">for</span> (TransportPathRotationContainer::const_reverse_iterator itr = <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.rbegin(); itr != <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.rend(); ++itr)</div>
-<div class="line"><span class="lineno">  523</span>        <span class="keywordflow">if</span> (time &gt;= itr-&gt;first)</div>
-<div class="line"><span class="lineno">  524</span>        {</div>
-<div class="line"><span class="lineno">  525</span>            <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currSeg = itr-&gt;second-&gt;TimeSeg, nextSeg;</div>
-<div class="line"><span class="lineno">  526</span>            curr = G3D::Quat(itr-&gt;second-&gt;X, itr-&gt;second-&gt;Y, itr-&gt;second-&gt;Z, itr-&gt;second-&gt;W);</div>
-<div class="line"><span class="lineno">  527</span>            <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.rbegin())</div>
-<div class="line"><span class="lineno">  528</span>            {</div>
-<div class="line"><span class="lineno">  529</span>                --itr;</div>
-<div class="line"><span class="lineno">  530</span>                next = G3D::Quat(itr-&gt;second-&gt;X, itr-&gt;second-&gt;Y, itr-&gt;second-&gt;Z, itr-&gt;second-&gt;W);</div>
-<div class="line"><span class="lineno">  531</span>                nextSeg = itr-&gt;second-&gt;TimeSeg;</div>
-<div class="line"><span class="lineno">  532</span>            }</div>
-<div class="line"><span class="lineno">  533</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  534</span>            {</div>
-<div class="line"><span class="lineno">  535</span>                next = G3D::Quat(<a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.begin()-&gt;second-&gt;X, <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.begin()-&gt;second-&gt;Y, <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.begin()-&gt;second-&gt;Z, <a class="code hl_variable" href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">Rotations</a>.begin()-&gt;second-&gt;W);</div>
-<div class="line"><span class="lineno">  536</span>                nextSeg = this-&gt;<a class="code hl_variable" href="../../de/d5e/a09578.html#a59a31ffc2e642a3950b0509130a76ad4">TotalTime</a>;</div>
-<div class="line"><span class="lineno">  537</span>            }</div>
-<div class="line"><span class="lineno">  538</span>            percRot = float(time - currSeg) / float(nextSeg - currSeg);</div>
-<div class="line"><span class="lineno">  539</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  540</span>        }</div>
-<div class="line"><span class="lineno">  541</span> </div>
-<div class="line"><span class="lineno">  542</span>    curr = G3D::Quat(0.0f, 0.0f, 0.0f, 1.0f);</div>
-<div class="line"><span class="lineno">  543</span>    next = G3D::Quat(0.0f, 0.0f, 0.0f, 1.0f);</div>
-<div class="line"><span class="lineno">  544</span>    percRot = 0.0f;</div>
-<div class="line"><span class="lineno">  545</span>}</div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa09578_html_a5fa771fb487c437d7d6229eadf7d90c3"><div class="ttname"><a href="../../de/d5e/a09578.html#a5fa771fb487c437d7d6229eadf7d90c3">TransportAnimation::Rotations</a></div><div class="ttdeci">TransportPathRotationContainer Rotations</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:92</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{</div>
+<div class="line"><span class="lineno">  112</span>    std::lock_guard&lt;std::mutex&gt; guard(<a class="code hl_variable" href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">_lock</a>);</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>    ++<a class="code hl_variable" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a>;</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">_queue</a>.<a class="code hl_function" href="../../d2/d63/a05306.html#abd3bd3c88fbd7d8edb721fc5f89da5ed">Push</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../de/df7/a09570.html">MapUpdateRequest</a>(map, *<span class="keyword">this</span>, diff, s_diff));</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+<div class="ttc" id="aa09570_html"><div class="ttname"><a href="../../de/df7/a09570.html">MapUpdateRequest</a></div><div class="ttdef"><b>Definition:</b> MapUpdater.cpp:34</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00092">Rotations</a>, and <a class="el" href="../../#l00093">TotalTime</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00051">_lock</a>, <a class="el" href="../../#l00046">_queue</a>, <a class="el" href="../../#l00053">pending_requests</a>, and <a class="el" href="../../#l00036">ProducerConsumerQueue&lt; T &gt;::Push()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00865">StaticTransport::RelocateToProgress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00244">MapMgr::Update()</a>.</p>
+
+</div>
+</div>
+<a id="ab874c53de215037c8fae77f9dac6601c" name="ab874c53de215037c8fae77f9dac6601c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab874c53de215037c8fae77f9dac6601c">&#9670;&#160;</a></span>update_finished()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::update_finished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  134</span>{</div>
+<div class="line"><span class="lineno">  135</span>    std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">_lock</a>);</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>    --<a class="code hl_variable" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a>;</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_variable" href="../../de/d5e/a09578.html#acf5b180bd52ae9244e0eda41bcc7573a">_condition</a>.notify_all();</div>
+<div class="line"><span class="lineno">  140</span>}</div>
+<div class="ttc" id="aa09578_html_acf5b180bd52ae9244e0eda41bcc7573a"><div class="ttname"><a href="../../de/d5e/a09578.html#acf5b180bd52ae9244e0eda41bcc7573a">MapUpdater::_condition</a></div><div class="ttdeci">std::condition_variable _condition</div><div class="ttdef"><b>Definition:</b> MapUpdater.h:52</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">_condition</a>, <a class="el" href="../../#l00051">_lock</a>, and <a class="el" href="../../#l00053">pending_requests</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00041">MapUpdateRequest::call()</a>, and <a class="el" href="../../#l00060">LFGUpdateRequest::call()</a>.</p>
+
+</div>
+</div>
+<a id="a608eb61de2bacf082422562b049e8652" name="a608eb61de2bacf082422562b049e8652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608eb61de2bacf082422562b049e8652">&#9670;&#160;</a></span>wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::wait </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
+<div class="line"><span class="lineno">  102</span>    std::unique_lock&lt;std::mutex&gt; guard(<a class="code hl_variable" href="../../de/d5e/a09578.html#a0ed1652ffa76199e1e7d659b5c451549">_lock</a>);</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>    <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../de/d5e/a09578.html#a347219257a74d7b24a9dfee7658fa6f0">pending_requests</a> &gt; 0)</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../de/d5e/a09578.html#acf5b180bd52ae9244e0eda41bcc7573a">_condition</a>.wait(guard);</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>    guard.unlock();</div>
+<div class="line"><span class="lineno">  108</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">_condition</a>, <a class="el" href="../../#l00051">_lock</a>, and <a class="el" href="../../#l00053">pending_requests</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00083">deactivate()</a>, and <a class="el" href="../../#l00244">MapMgr::Update()</a>.</p>
+
+</div>
+</div>
+<a id="a3cce7e3bbab4e3e875dad9a549c142e8" name="a3cce7e3bbab4e3e875dad9a549c142e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cce7e3bbab4e3e875dad9a549c142e8">&#9670;&#160;</a></span>WorkerThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapUpdater::WorkerThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.WarnAboutSyncQueries(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.WarnAboutSyncQueries(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.WarnAboutSyncQueries(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><span class="lineno">  149</span>    {</div>
+<div class="line"><span class="lineno">  150</span>        <a class="code hl_class" href="../../dc/db7/a09566.html">UpdateRequest</a>* request = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        <a class="code hl_variable" href="../../de/d5e/a09578.html#afba30ac2a8ce0540b73f034b73ce5956">_queue</a>.<a class="code hl_function" href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">WaitAndPop</a>(request);</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d5e/a09578.html#a96c38c13ce5a71ce63ee0b83e83d5cfd">_cancelationToken</a>)</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>        request-&gt;<a class="code hl_function" href="../../dc/db7/a09566.html#a8221fa415f828a4866f85f3983f7dab9">call</a>();</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>        <span class="keyword">delete</span> request;</div>
+<div class="line"><span class="lineno">  159</span>    }</div>
+<div class="line"><span class="lineno">  160</span>}</div>
+<div class="ttc" id="aa04601_html_a2cf25eafe7f2f73b61ccde11d55daf0c"><div class="ttname"><a href="../../d8/d7c/a04601.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; LoginDatabaseConnection &gt; LoginDatabase</div><div class="ttdoc">Accessor to the realm/login database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:22</div></div>
+<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa04601_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa05306_html_a172ef4211bcb237478ec57531c8dcc4d"><div class="ttname"><a href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">ProducerConsumerQueue::WaitAndPop</a></div><div class="ttdeci">void WaitAndPop(T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:72</div></div>
+<div class="ttc" id="aa09566_html"><div class="ttname"><a href="../../dc/db7/a09566.html">UpdateRequest</a></div><div class="ttdef"><b>Definition:</b> MapUpdater.cpp:25</div></div>
+<div class="ttc" id="aa09566_html_a8221fa415f828a4866f85f3983f7dab9"><div class="ttname"><a href="../../dc/db7/a09566.html#a8221fa415f828a4866f85f3983f7dab9">UpdateRequest::call</a></div><div class="ttdeci">virtual void call()=0</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">_cancelationToken</a>, <a class="el" href="../../#l00046">_queue</a>, <a class="el" href="../../dc/db7/a09566.html#a8221fa415f828a4866f85f3983f7dab9">UpdateRequest::call()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00022">LoginDatabase</a>, <a class="el" href="../../#l00072">ProducerConsumerQueue&lt; T &gt;::WaitAndPop()</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00074">activate()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7c45df781dda8058d281a2cf7e5fe5fb" name="a7c45df781dda8058d281a2cf7e5fe5fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c45df781dda8058d281a2cf7e5fe5fb">&#9670;&#160;</a></span>Path</h2>
+<a id="a96c38c13ce5a71ce63ee0b83e83d5cfd" name="a96c38c13ce5a71ce63ee0b83e83d5cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96c38c13ce5a71ce63ee0b83e83d5cfd">&#9670;&#160;</a></span>_cancelationToken</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d9d/a03917.html#a7905b31432c2140de30ffc9363c3e9b9">TransportPathContainer</a> TransportAnimation::Path</td>
+          <td class="memname">std::atomic&lt;bool&gt; MapUpdater::_cancelationToken</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00349">TransportMgr::AddPathNodeToTransport()</a>, and <a class="el" href="../../#l00493">GetAnimNode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00083">deactivate()</a>, and <a class="el" href="../../#l00142">WorkerThread()</a>.</p>
 
 </div>
 </div>
-<a id="a5fa771fb487c437d7d6229eadf7d90c3" name="a5fa771fb487c437d7d6229eadf7d90c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fa771fb487c437d7d6229eadf7d90c3">&#9670;&#160;</a></span>Rotations</h2>
+<a id="acf5b180bd52ae9244e0eda41bcc7573a" name="acf5b180bd52ae9244e0eda41bcc7573a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5b180bd52ae9244e0eda41bcc7573a">&#9670;&#160;</a></span>_condition</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d9d/a03917.html#a58adfcebbe67029f647a3db4897a6558">TransportPathRotationContainer</a> TransportAnimation::Rotations</td>
+          <td class="memname">std::condition_variable MapUpdater::_condition</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00512">GetAnimRotation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00133">update_finished()</a>, and <a class="el" href="../../#l00100">wait()</a>.</p>
 
 </div>
 </div>
-<a id="a59a31ffc2e642a3950b0509130a76ad4" name="a59a31ffc2e642a3950b0509130a76ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a31ffc2e642a3950b0509130a76ad4">&#9670;&#160;</a></span>TotalTime</h2>
+<a id="a0ed1652ffa76199e1e7d659b5c451549" name="a0ed1652ffa76199e1e7d659b5c451549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ed1652ffa76199e1e7d659b5c451549">&#9670;&#160;</a></span>_lock</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TransportAnimation::TotalTime</td>
+          <td class="memname">std::mutex MapUpdater::_lock</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00349">TransportMgr::AddPathNodeToTransport()</a>, <a class="el" href="../../#l00678">StaticTransport::Create()</a>, <a class="el" href="../../#l00512">GetAnimRotation()</a>, and <a class="el" href="../../#l00131">StaticTransport::GetPeriod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00119">schedule_lfg_update()</a>, <a class="el" href="../../#l00110">schedule_update()</a>, <a class="el" href="../../#l00133">update_finished()</a>, and <a class="el" href="../../#l00100">wait()</a>.</p>
+
+</div>
+</div>
+<a id="afba30ac2a8ce0540b73f034b73ce5956" name="afba30ac2a8ce0540b73f034b73ce5956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afba30ac2a8ce0540b73f034b73ce5956">&#9670;&#160;</a></span>_queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt;<a class="el" href="../../dc/db7/a09566.html">UpdateRequest</a>*&gt; MapUpdater::_queue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00083">deactivate()</a>, <a class="el" href="../../#l00119">schedule_lfg_update()</a>, <a class="el" href="../../#l00110">schedule_update()</a>, and <a class="el" href="../../#l00142">WorkerThread()</a>.</p>
+
+</div>
+</div>
+<a id="a06a1943fe78ea8a5da2d4b0453748d90" name="a06a1943fe78ea8a5da2d4b0453748d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06a1943fe78ea8a5da2d4b0453748d90">&#9670;&#160;</a></span>_workerThreads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::thread&gt; MapUpdater::_workerThreads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00074">activate()</a>, <a class="el" href="../../#l00128">activated()</a>, and <a class="el" href="../../#l00083">deactivate()</a>.</p>
+
+</div>
+</div>
+<a id="a347219257a74d7b24a9dfee7658fa6f0" name="a347219257a74d7b24a9dfee7658fa6f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347219257a74d7b24a9dfee7658fa6f0">&#9670;&#160;</a></span>pending_requests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MapUpdater::pending_requests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00119">schedule_lfg_update()</a>, <a class="el" href="../../#l00110">schedule_update()</a>, <a class="el" href="../../#l00133">update_finished()</a>, and <a class="el" href="../../#l00100">wait()</a>.</p>
 
 </div>
 </div>
@@ -358,8 +639,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d5e/a09578.html">TransportAnimation</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/d5e/a09578.html">MapUpdater</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:59 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,9 @@
 var a21666 =
 [
-    [ "npc_razael_and_lyana", "d0/de0/a21666.html#aec7257a1136a3580e2b4542e032429d6", null ],
-    [ "OnGossipHello", "d0/de0/a21666.html#a9c9085db92853d5275c12e804a68b0fc", null ],
-    [ "OnGossipSelect", "d0/de0/a21666.html#a407d8344280e8e38efb3991fda1d52cd", null ]
+    [ "npc_Apothecary_HanesAI", "d0/de0/a21666.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "d0/de0/a21666.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "d0/de0/a21666.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "d0/de0/a21666.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "d0/de0/a21666.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "d0/de0/a21666.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

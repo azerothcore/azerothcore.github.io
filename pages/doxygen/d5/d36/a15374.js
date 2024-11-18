@@ -1,6 +1,7 @@
 var a15374 =
 [
-    [ "npc_shadowpriest_sezzizAI", "d4/ddf/a15378.html", "d4/ddf/a15378" ],
-    [ "npc_shadowpriest_sezziz", "d5/d36/a15374.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
-    [ "GetAI", "d5/d36/a15374.html#a1513b766f18dbc290b6682582fd33b1d", null ]
+    [ "go_troll_cageAI", "d5/d36/a15374.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
+    [ "GossipHello", "d5/d36/a15374.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
+    [ "initBlyCrewMember", "d5/d36/a15374.html#a6bfb77ec97367d8704885acfef801b74", null ],
+    [ "instance", "d5/d36/a15374.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
 ];

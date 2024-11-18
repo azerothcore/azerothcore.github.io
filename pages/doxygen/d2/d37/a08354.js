@@ -1,8 +1,6 @@
 var a08354 =
 [
-    [ "checkLeaderOnly", "d2/d37/a08354.html#ade8f2e22abe69a9a32085e4d901bc83b", null ],
-    [ "faction", "d2/d37/a08354.html#a23c649e494795b27856b67225370a820", null ],
-    [ "id", "d2/d37/a08354.html#a5d5b8f6fe0bfc5ae98c2fb10e3a18360", null ],
-    [ "note", "d2/d37/a08354.html#a0e800dd8869fedbe71e5b14aa3c79d8a", null ],
-    [ "priority", "d2/d37/a08354.html#a3a66018ae4e7a7e755962f1edae58d29", null ]
+    [ "SkillStatusData", "d2/d37/a08354.html#a7594ceb20110da34f3aa68ac69996b94", null ],
+    [ "pos", "d2/d37/a08354.html#a51ccb328b807f2c7fd275d843218f466", null ],
+    [ "uState", "d2/d37/a08354.html#a232801ad25897a82739916d5be4fdc22", null ]
 ];

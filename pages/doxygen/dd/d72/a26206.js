@@ -1,9 +1,9 @@
 var a26206 =
 [
-    [ "Absorb", "dd/d72/a26206.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
-    [ "CalculateAmount", "dd/d72/a26206.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
-    [ "Load", "dd/d72/a26206.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
-    [ "PrepareAuraScript", "dd/d72/a26206.html#ac273b669dc396561d9ec8b523659363f", null ],
-    [ "Register", "dd/d72/a26206.html#a656f4770b0f7099f5926a8063f7d740c", null ],
-    [ "absorbPct", "dd/d72/a26206.html#a31d7ca52ace4e22652403292969baf55", null ]
+    [ "HandleAfterHit", "dd/d72/a26206.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
+    [ "HandleBeforeHit", "dd/d72/a26206.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
+    [ "Load", "dd/d72/a26206.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
+    [ "PrepareSpellScript", "dd/d72/a26206.html#a496c27472579be3b8989868765ec19ef", null ],
+    [ "Register", "dd/d72/a26206.html#a133e338413e960c442446a2a4a13b85b", null ],
+    [ "_stackAmount", "dd/d72/a26206.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
 ];

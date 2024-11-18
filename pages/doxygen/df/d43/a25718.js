@@ -1,10 +1,16 @@
 var a25718 =
 [
-    [ "CheckProc", "df/d43/a25718.html#a23dfb39522f7a5437af439ef567d6ec6", null ],
-    [ "HandleEffectApply", "df/d43/a25718.html#ab83f17b45edc5dba8f4b3f3fbc88c626", null ],
-    [ "HandleEffectRemove", "df/d43/a25718.html#a7bab07fde0fb18e89388e1bc4c72c165", null ],
-    [ "HandleProc", "df/d43/a25718.html#a8352d7d9376f149fa227f7ca983e2660", null ],
-    [ "PrepareAuraScript", "df/d43/a25718.html#a309dabfa452d3279e7fb47a8e4784779", null ],
-    [ "Register", "df/d43/a25718.html#a3d020d3025f0ad086c43b4239205cd94", null ],
-    [ "Validate", "df/d43/a25718.html#ac3a5505808b3a7e718071f1202805ac5", null ]
+    [ "Spell", "df/d43/a25718.html#ae62bcfdf7168a58818ffc8b302cffcb7", [
+      [ "PAL_SPELL_ARDENT_DEFENDER_DEBUFF", "df/d43/a25718.html#ae62bcfdf7168a58818ffc8b302cffcb7a85895054b57340dab995dc14f826314b", null ],
+      [ "PAL_SPELL_ARDENT_DEFENDER_HEAL", "df/d43/a25718.html#ae62bcfdf7168a58818ffc8b302cffcb7a717b484434bc8fda128b67bd90a123fe", null ]
+    ] ],
+    [ "spell_pal_ardent_defender", "df/d43/a25718.html#a9bc7f72089287dbac352b308489c7781", null ],
+    [ "Absorb", "df/d43/a25718.html#aee6b0b00078a880dc5ed6684991ee8c8", null ],
+    [ "CalculateAmount", "df/d43/a25718.html#a749742ceb8be20f5d327becbea7c64d5", null ],
+    [ "Load", "df/d43/a25718.html#a3718265890fad2a6c6d53b5f401d16dd", null ],
+    [ "PrepareAuraScript", "df/d43/a25718.html#a33dd57579e724aee0c6f2a8d767fc3c8", null ],
+    [ "Register", "df/d43/a25718.html#af405994d4be5f11ce63028d0dba1e1da", null ],
+    [ "Validate", "df/d43/a25718.html#a74fafd4bde88c2e581cac555a131b39d", null ],
+    [ "absorbPct", "df/d43/a25718.html#a408fe2ab57ae0adcf803c71b5f6cd724", null ],
+    [ "healPct", "df/d43/a25718.html#a325024973959856c000f380b0bfc3bda", null ]
 ];

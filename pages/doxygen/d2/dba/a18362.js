@@ -1,9 +1,7 @@
 var a18362 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "d2/dba/a18362.html#a18330d49e510f83af7ee0120df14e633", null ],
-    [ "AttackStart", "d2/dba/a18362.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
-    [ "JustEngagedWith", "d2/dba/a18362.html#adddd56260b41738d69fcdfe31b677c51", null ],
-    [ "Reset", "d2/dba/a18362.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
-    [ "UpdateAI", "d2/dba/a18362.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
-    [ "events", "d2/dba/a18362.html#a1c8a527d217f9b810f87da0fc020528a", null ]
+    [ "HandleDummyLaunch", "d2/dba/a18362.html#a4991dab04ed9cb8cfd846588a8ef01bf", null ],
+    [ "PrepareSpellScript", "d2/dba/a18362.html#a8926bc8e228eaaa4a7d554643b50e48d", null ],
+    [ "Register", "d2/dba/a18362.html#add5dc6c0a3b618fba3d3a73b6c76235b", null ],
+    [ "Validate", "d2/dba/a18362.html#a577166695c1479e3730a70637bc18cf1", null ]
 ];

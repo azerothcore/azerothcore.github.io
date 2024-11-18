@@ -1,7 +1,6 @@
 var a10378 =
 [
-    [ "GuildBankActivate", "d8/d3d/a10378.html#a5b27541a26ada694d9635f6d6873ef20", null ],
-    [ "Read", "d8/d3d/a10378.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
-    [ "Banker", "d8/d3d/a10378.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
-    [ "FullUpdate", "d8/d3d/a10378.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
+    [ "GuildDemoteMember", "d8/d3d/a10378.html#aa3d68021828c516d7b1995811e8df7d7", null ],
+    [ "Read", "d8/d3d/a10378.html#aca46670c89e3d15df6a3f6694ab3dcb6", null ],
+    [ "Demotee", "d8/d3d/a10378.html#a60c7e56c201d794fb473a62fccc160bb", null ]
 ];

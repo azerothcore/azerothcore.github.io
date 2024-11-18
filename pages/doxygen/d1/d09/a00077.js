@@ -1,4 +1,4 @@
 var a00077 =
 [
-    [ "wdtGetPlainName", "d1/d09/a00077.html#aec756087655d9d993d4475947742ba56", null ]
+    [ "Acore::Asio::Strand", "d3/d1a/a04798.html", "d3/d1a/a04798" ]
 ];

@@ -1,16 +1,15 @@
 var a03440 =
 [
-    [ "SummonList", "d4/dc6/a06094.html", "d4/dc6/a06094" ],
-    [ "EntryCheckPredicate", "d7/d79/a06098.html", "d7/d79/a06098" ],
-    [ "PlayerOrPetCheck", "df/d5b/a06102.html", "df/d5b/a06102" ],
-    [ "ScriptedAI", "de/de4/a06106.html", "de/de4/a06106" ],
-    [ "HealthCheckEventData", "d9/d59/a06110.html", "d9/d59/a06110" ],
-    [ "BossAI", "de/d8c/a06114.html", "de/d8c/a06114" ],
-    [ "WorldBossAI", "df/d58/a06118.html", "df/d58/a06118" ],
-    [ "ObjectList", "df/d89/a03440.html#acc68161fe019b33e9356ea1473fba71d", null ],
-    [ "GetClosestCreatureWithEntry", "df/d89/a03440.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
-    [ "GetClosestGameObjectWithEntry", "df/d89/a03440.html#acaba34b4ac104e5289c265c1f8524b15", null ],
-    [ "GetCreatureListWithEntryInGrid", "df/d89/a03440.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "df/d89/a03440.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
-    [ "GetGameObjectListWithEntryInGrid", "df/d89/a03440.html#ae9abb80c4e811509bca88e65cf817276", null ]
+    [ "GameObjectTemplate", "da/dc8/a07950.html", "da/dc8/a07950" ],
+    [ "GameObjectTemplateAddon", "d4/d98/a08074.html", "d4/d98/a08074" ],
+    [ "GameObjectLocale", "dc/d37/a08078.html", "dc/d37/a08078" ],
+    [ "GameObjectAddon", "de/de3/a08082.html", "de/de3/a08082" ],
+    [ "GameObjectData", "d1/dc3/a08086.html", "d1/dc3/a08086" ],
+    [ "MAX_GAMEOBJECT_QUEST_ITEMS", "df/d89/a03440.html#a7698721f2eb4f87abac1a64a64ecf676", null ],
+    [ "MAX_GO_STATE", "df/d89/a03440.html#ac148792c2982ecdddc593bf3871aa520", null ],
+    [ "GOState", "df/d89/a03440.html#ac17cd142af80da019367bb796b15e5ab", [
+      [ "GO_STATE_ACTIVE", "df/d89/a03440.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e", null ],
+      [ "GO_STATE_READY", "df/d89/a03440.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650", null ],
+      [ "GO_STATE_ACTIVE_ALTERNATIVE", "df/d89/a03440.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e", null ]
+    ] ]
 ];

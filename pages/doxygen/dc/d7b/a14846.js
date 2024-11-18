@@ -1,8 +1,7 @@
 var a14846 =
 [
-    [ "npc_obsidian_nullifier", "dc/d7b/a14846.html#a9dbb6d681e348057564750fcd7e8050a", null ],
-    [ "JustEngagedWith", "dc/d7b/a14846.html#ad3e30a214a9bcb6ea13d3a78716b5cb1", null ],
-    [ "Reset", "dc/d7b/a14846.html#a9897eab3b71dd0a6a2ea598951b095cd", null ],
-    [ "UpdateAI", "dc/d7b/a14846.html#a37cf1d335dd3735b262e82828c4f904a", null ],
-    [ "_targetGUIDs", "dc/d7b/a14846.html#aaf125742bf9d17ec0b605b78dee39c7c", null ]
+    [ "npc_vekniss_stinger", "dc/d7b/a14846.html#ad48098961715a924270cb8bbbe77e4b0", null ],
+    [ "JustEngagedWith", "dc/d7b/a14846.html#ae7c758687c81cfb223066f0a9348eab8", null ],
+    [ "Reset", "dc/d7b/a14846.html#a2a79f3775aad83410ff2670aa438e811", null ],
+    [ "UpdateAI", "dc/d7b/a14846.html#a1ff479e8f45710f6aa36473933bb87e0", null ]
 ];

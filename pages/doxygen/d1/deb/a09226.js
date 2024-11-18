@@ -1,12 +1,16 @@
 var a09226 =
 [
-    [ "EventLogEntry", "d1/deb/a09226.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
-    [ "EventLogEntry", "d1/deb/a09226.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
-    [ "~EventLogEntry", "d1/deb/a09226.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
-    [ "SaveToDB", "d1/deb/a09226.html#a2ca71e291a44f95bb42d51083aa84985", null ],
-    [ "WritePacket", "d1/deb/a09226.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
-    [ "m_eventType", "d1/deb/a09226.html#a00216643e6856591402c21df490c1fec", null ],
-    [ "m_newRank", "d1/deb/a09226.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
-    [ "m_playerGuid1", "d1/deb/a09226.html#a06a2b45d16860c711829f49f97624272", null ],
-    [ "m_playerGuid2", "d1/deb/a09226.html#a1f66e71f9536e484663e437bbcbcefca", null ]
+    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#ae00a8b8f227d7afdcf08847e3787ee0d", null ],
+    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#af5f0087090a7145a22baa1396822318b", null ],
+    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#a4bdf40d99704211b9e80b554ebade54f", null ],
+    [ "GetRights", "d1/deb/a09226.html#a19b76bebdb62434191189ba789c2810f", null ],
+    [ "GetSlots", "d1/deb/a09226.html#a51780060b5699bed6b78cc9ba4e95371", null ],
+    [ "GetTabId", "d1/deb/a09226.html#a6ba7c49480a1c5325d3702fb61d397cc", null ],
+    [ "SetGuildMasterValues", "d1/deb/a09226.html#a1399f191b3b0a44dc1e76fc49adc1412", null ],
+    [ "SetRights", "d1/deb/a09226.html#abf4e1f1556554e7f756dc566fbdd7f40", null ],
+    [ "SetSlots", "d1/deb/a09226.html#a8ed33a4e1d2a957d61c5f7556533f225", null ],
+    [ "SetTabId", "d1/deb/a09226.html#abe84f6bcdfd48d70b894470d025f3aae", null ],
+    [ "rights", "d1/deb/a09226.html#a2a8f5acf21828bfa15d0b3dd6874b5cb", null ],
+    [ "slots", "d1/deb/a09226.html#a5a327399d94704bc290199baa21ff8d7", null ],
+    [ "tabId", "d1/deb/a09226.html#ab09825a02a7a21a4915595230d2a5839", null ]
 ];

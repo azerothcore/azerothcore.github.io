@@ -1,11 +1,9 @@
 var a11446 =
 [
-    [ "spectator_commandscript", "d0/db0/a11446.html#a1bf79d739a6af02405bc268c9bb50c26", null ],
-    [ "GetCommands", "d0/db0/a11446.html#a3451bcda07b51a33fd8368cf00ac190f", null ],
-    [ "HandleSpectatorCommand", "d0/db0/a11446.html#aaf331e54c3c19b5d16d9d5f5c9d28721", null ],
-    [ "HandleSpectatorLeaveCommand", "d0/db0/a11446.html#a15e661891f4e08c3efa0bd844c3954aa", null ],
-    [ "HandleSpectatorResetCommand", "d0/db0/a11446.html#a23a1a3740609a6d0caa6e0f10c7e8653", null ],
-    [ "HandleSpectatorSpectateCommand", "d0/db0/a11446.html#ad1f117a77c0154fc25e937dfe21870a2", null ],
-    [ "HandleSpectatorVersionCommand", "d0/db0/a11446.html#aaf7c57603d263f7ab919f12d9680f058", null ],
-    [ "HandleSpectatorWatchCommand", "d0/db0/a11446.html#a1ee822e332374b375962d1ae87adbc61", null ]
+    [ "quest_commandscript", "d0/db0/a11446.html#a98804583ded14bc50d252475289dda4f", null ],
+    [ "GetCommands", "d0/db0/a11446.html#afaf8c4b169a2bc7457b8ab97d13a367c", null ],
+    [ "HandleQuestAdd", "d0/db0/a11446.html#acd1410f224a1d69bba1321999ebf25bc", null ],
+    [ "HandleQuestComplete", "d0/db0/a11446.html#a044c30fdaedd07060284bd37fd2e226c", null ],
+    [ "HandleQuestRemove", "d0/db0/a11446.html#ac0a87854f99c510c8309e9e337d1e71f", null ],
+    [ "HandleQuestReward", "d0/db0/a11446.html#ab8d38057b3630b75cf21c8e88c1ebaf0", null ]
 ];

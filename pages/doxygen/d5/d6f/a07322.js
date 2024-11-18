@@ -1,6 +1,7 @@
 var a07322 =
 [
-    [ "value_type", "d5/d6f/a07322.html#ac51f8d3476c4a938e81dfae8656ac70b", null ],
-    [ "operator()", "d5/d6f/a07322.html#af40bcad820dec0ab0cf2758281f8a604", null ],
-    [ "operator()", "d5/d6f/a07322.html#a4d601f73c9ab190a46438f34db4e04e6", null ]
+    [ "CommandPermissions", "d5/d6f/a07322.html#ad1242d9067778298c44501b5d5a962f8", null ],
+    [ "CommandPermissions", "d5/d6f/a07322.html#a47f284c63f10b6c3479624845b696aa6", null ],
+    [ "AllowConsole", "d5/d6f/a07322.html#a8b419033e8dff0307a22a32bc57a1dc8", null ],
+    [ "RequiredLevel", "d5/d6f/a07322.html#a4918f2c3b1913eb76d09d859479ebbae", null ]
 ];

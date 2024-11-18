@@ -1,5 +1,6 @@
 var a12434 =
 [
-    [ "textid", "d0/d73/a12434.html#a7dac5c31d7df501f28eee3e1dec0523a", null ],
-    [ "timer", "d0/d73/a12434.html#ab7851f383e7221c6ff2700ee345d9504", null ]
+    [ "instance_karazhan_InstanceMapScript", "de/daf/a12438.html", "de/daf/a12438" ],
+    [ "instance_karazhan", "d0/d73/a12434.html#a219fa0f5d691c2ae06a45d167c89d419", null ],
+    [ "GetInstanceScript", "d0/d73/a12434.html#a4ce148ba13d0541ad2aaecdd1ed2f3a5", null ]
 ];

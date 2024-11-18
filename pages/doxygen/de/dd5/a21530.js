@@ -1,10 +1,11 @@
 var a21530 =
 [
-    [ "npc_emilyAI", "de/dd5/a21530.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
-    [ "JustEngagedWith", "de/dd5/a21530.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
-    [ "JustSummoned", "de/dd5/a21530.html#a4730c94b54d2ee5160011557704b35f2", null ],
-    [ "Reset", "de/dd5/a21530.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
-    [ "WaypointReached", "de/dd5/a21530.html#a0a68676a6eac8fbe2b634098268eb516", null ],
-    [ "_mrfloppyGUID", "de/dd5/a21530.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
-    [ "_RavenousworgGUID", "de/dd5/a21530.html#aa2a5e45366be9f89221453e00179e1a3", null ]
+    [ "npc_torturer_lecraftAI", "de/dd5/a21530.html#a0886d83c8ab8b7db728928ecf922031b", null ],
+    [ "JustEngagedWith", "de/dd5/a21530.html#ac6fa83aa5673bd6c90e128f06e56049e", null ],
+    [ "Reset", "de/dd5/a21530.html#a13177e318e7777ecb13ba71c4f10f425", null ],
+    [ "SpellHit", "de/dd5/a21530.html#a837805efcb6c99de55646a232f151ae8", null ],
+    [ "UpdateAI", "de/dd5/a21530.html#a45919da006b0e767ec38810a6fcbac5d", null ],
+    [ "_events", "de/dd5/a21530.html#a7879e11a94c32266ed11dc352ae7e802", null ],
+    [ "_playerGUID", "de/dd5/a21530.html#ab792ceb52fe5c04851f69b9c2922822d", null ],
+    [ "_textCounter", "de/dd5/a21530.html#aa7560f419ca1486efb9d6c3bda3cedf1", null ]
 ];

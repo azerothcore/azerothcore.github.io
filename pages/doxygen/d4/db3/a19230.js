@@ -1,7 +1,9 @@
 var a19230 =
 [
-    [ "creature", "d4/db3/a19230.html#a55a6ee677ab51120867f542e5a5745b0", null ],
-    [ "sound", "d4/db3/a19230.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
-    [ "text", "d4/db3/a19230.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
-    [ "timer", "d4/db3/a19230.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
+    [ "boss_sjonnir_iron_sludgeAI", "d4/db3/a19230.html#aac57ae32188c47ca97b7331d62986e66", null ],
+    [ "JustDied", "d4/db3/a19230.html#a6cfebecaaf673e40f97a46a09947a1f0", null ],
+    [ "JustEngagedWith", "d4/db3/a19230.html#a772d279407d724477560898559710433", null ],
+    [ "Reset", "d4/db3/a19230.html#a5b4a726aa496923d81c41b038e5f7449", null ],
+    [ "UpdateAI", "d4/db3/a19230.html#a2745ff26c165851c367e080d28652984", null ],
+    [ "events", "d4/db3/a19230.html#a468d45f9b9c2172f326068d59a74121a", null ]
 ];

@@ -1,7 +1,9 @@
 var a10490 =
 [
-    [ "Playsound", "d6/df4/a10490.html#a955f91d0d65c64f154f99b3b9472e273", null ],
-    [ "Playsound", "d6/df4/a10490.html#aa242d4ca729d67d7fd58dc81985f22f9", null ],
-    [ "Write", "d6/df4/a10490.html#acb4bdd9a1613a158832115e4c18bfcd9", null ],
-    [ "SoundKitID", "d6/df4/a10490.html#a922cb6d06285bdf9f3d89ff990c40b0a", null ]
+    [ "Weather", "d6/df4/a10490.html#aa404c94fec05b825454a7309827767c6", null ],
+    [ "Weather", "d6/df4/a10490.html#a28f45d81441d2dde6917380978dfb4d0", null ],
+    [ "Write", "d6/df4/a10490.html#a641c7de3e527dcdff07b3f602880b5c8", null ],
+    [ "Abrupt", "d6/df4/a10490.html#a0abe1fcb36d21ac246174cdc98c0e261", null ],
+    [ "Intensity", "d6/df4/a10490.html#ac37cee2364921a50e2b1ec1b19ed69b7", null ],
+    [ "WeatherID", "d6/df4/a10490.html#a32e56458b1e562c124cfc0288a578134", null ]
 ];

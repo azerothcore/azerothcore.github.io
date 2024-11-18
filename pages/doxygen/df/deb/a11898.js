@@ -1,6 +1,7 @@
 var a11898 =
 [
-    [ "go_chromaggus_leverAI", "dd/d8e/a11902.html", "dd/d8e/a11902" ],
-    [ "go_chromaggus_lever", "df/deb/a11898.html#a88f8078cd5aa1863ca20c9b02a0e52d2", null ],
-    [ "GetAI", "df/deb/a11898.html#ae307b36029147b8385b3c40878d1a3e4", null ]
+    [ "go_suppression_deviceAI", "dd/d8e/a11902.html", "dd/d8e/a11902" ],
+    [ "go_suppression_device", "df/deb/a11898.html#a900713d6b029015f8868a96e5e1b9018", null ],
+    [ "GetAI", "df/deb/a11898.html#aa51bb6f9616022c1f4e1e711ca1130e8", null ],
+    [ "OnLootStateChanged", "df/deb/a11898.html#a684546c3ce0c0785d52a87eb011ef313", null ]
 ];

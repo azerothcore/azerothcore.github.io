@@ -1,6 +1,6 @@
 var a19542 =
 [
-    [ "npc_storm_beacon_spawnAI", "d4/d52/a19546.html", "d4/d52/a19546" ],
-    [ "npc_storm_beacon_spawn", "d5/d8c/a19542.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
-    [ "GetAI", "d5/d8c/a19542.html#a780dd823962e259dbeda7089224aa23e", null ]
+    [ "npc_pool_of_tarAI", "d5/d8c/a19542.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
+    [ "DamageTaken", "d5/d8c/a19542.html#a4ea55aa08123f724268238e0def5b595", null ],
+    [ "SpellHit", "d5/d8c/a19542.html#acb63166b396c079d5b4bb9db67a1448a", null ]
 ];

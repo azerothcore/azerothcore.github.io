@@ -1,9 +1,7 @@
 var a11958 =
 [
-    [ "npc_drakonid_spawner", "dc/d3f/a11958.html#a2b657e800dc5cc30c618391413ded116", null ],
-    [ "DoAction", "dc/d3f/a11958.html#ab013cff0430c09fe1045fdc735e45182", null ],
-    [ "IsSummonedBy", "dc/d3f/a11958.html#a6a2170e0f20736d69006ce6d6c769476", null ],
-    [ "SummonedCreatureDies", "dc/d3f/a11958.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
-    [ "UpdateAI", "dc/d3f/a11958.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
-    [ "_owner", "dc/d3f/a11958.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ]
+    [ "ClassCallSelector", "dc/d3f/a11958.html#a223895c97121b0727aac258c12c89e0b", null ],
+    [ "operator()", "dc/d3f/a11958.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
+    [ "_me", "dc/d3f/a11958.html#a5347a24609a21ae0a342682104b1dc14", null ],
+    [ "_targetClass", "dc/d3f/a11958.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
 ];

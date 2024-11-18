@@ -1,7 +1,8 @@
 var a14078 =
 [
-    [ "HandleEffectApply", "db/de9/a14078.html#a404f2134734e1d21201033b3f26e611e", null ],
-    [ "HandleEffectPeriodic", "db/de9/a14078.html#a8ce6799e01cf8b7849386fbdd2edddb8", null ],
-    [ "PrepareAuraScript", "db/de9/a14078.html#a1707f92d77a3ed7beefd499adc7f4a95", null ],
-    [ "Register", "db/de9/a14078.html#ad239472c15ca0c73b053d112f538ecff", null ]
+    [ "OnApply", "db/de9/a14078.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
+    [ "OnRemove", "db/de9/a14078.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
+    [ "PrepareAuraScript", "db/de9/a14078.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
+    [ "Register", "db/de9/a14078.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
+    [ "Validate", "db/de9/a14078.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
 ];

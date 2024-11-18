@@ -1,8 +1,8 @@
 var a03476 =
 [
-    [ "VisibilitySettingData", "db/d36/a09606.html", "db/d36/a09606" ],
-    [ "DynamicVisibilityMgr", "d1/d2e/a09610.html", "d1/d2e/a09610" ],
-    [ "VISIBILITY_SETTINGS_MAX_INTERVAL_NUM", "dd/d74/a03476.html#ae515340ce2037b26a80e4db46e653b59", null ],
-    [ "VISIBILITY_SETTINGS_PLAYER_INTERVAL", "dd/d74/a03476.html#a2733c1a6a4018078df00a4c426661436", null ],
-    [ "VisibilitySettings", "dd/d74/a03476.html#ab01e98c3eef9241e381bb20d29d66cbd", null ]
+    [ "CorpseUpdateFieldFlags", "dd/d74/a03476.html#a4ba9132e74378f888b4724dbbaf147f3", null ],
+    [ "DynamicObjectUpdateFieldFlags", "dd/d74/a03476.html#aefe3be44e608ab4935e11ea44f8e0ce6", null ],
+    [ "GameObjectUpdateFieldFlags", "dd/d74/a03476.html#aee13b862f51557c371d3d93341128895", null ],
+    [ "ItemUpdateFieldFlags", "dd/d74/a03476.html#ac1cca7ecf1650663132e3e220d771adf", null ],
+    [ "UnitUpdateFieldFlags", "dd/d74/a03476.html#a310c5b2e3065e40ce04fe5ccd84fb51b", null ]
 ];

@@ -1,6 +1,6 @@
 var a20490 =
 [
-    [ "boss_yoggsaron_immortal_guardianAI", "de/d35/a20494.html", "de/d35/a20494" ],
-    [ "boss_yoggsaron_immortal_guardian", "dc/d56/a20490.html#a4009759d284b54cb958ee0bb80c45f14", null ],
-    [ "GetAI", "dc/d56/a20490.html#ac532ca090d93ce6d11a0332329111f2b", null ]
+    [ "boss_yoggsaron_descend_portalAI", "dc/d56/a20490.html#a50ddd1d7b1d4a2e729657e53dfee43f2", null ],
+    [ "OnSpellClick", "dc/d56/a20490.html#aba032a7347230db028d1e939944d3f46", null ],
+    [ "_instance", "dc/d56/a20490.html#a477abf19a0b5bf9865550541877a29d7", null ]
 ];

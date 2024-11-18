@@ -1,11 +1,6 @@
 var a12654 =
 [
-    [ "npc_a_special_surpriseAI", "de/dd5/a12654.html#acf062337317d98e491e40cf6ae9bb3ea", null ],
-    [ "MeetQuestCondition", "de/dd5/a12654.html#a35f4db17e0301ceaaab49727d1ca8289", null ],
-    [ "MoveInLineOfSight", "de/dd5/a12654.html#af0b183b951f1eba8114da1f7a1284d09", null ],
-    [ "Reset", "de/dd5/a12654.html#a9526f6b257eade275b828d2b30328533", null ],
-    [ "UpdateAI", "de/dd5/a12654.html#a8572ec4b4fdcaab93666f581edf1c852", null ],
-    [ "ExecuteSpeech_Counter", "de/dd5/a12654.html#ae1ff67fb743b4125b015c1ecce4bc9db", null ],
-    [ "ExecuteSpeech_Timer", "de/dd5/a12654.html#a8761840d6abdc0b195b5860b95f59b1c", null ],
-    [ "PlayerGUID", "de/dd5/a12654.html#a683cdbd0ef9d0562842aace5b440594f", null ]
+    [ "npc_scarlet_courierAI", "dd/d89/a12658.html", "dd/d89/a12658" ],
+    [ "npc_scarlet_courier", "de/dd5/a12654.html#ac9bb46ff40bdf5c83d55c14e52243004", null ],
+    [ "GetAI", "de/dd5/a12654.html#a4b6b5a14ec6ce13a9ce7089f08bce9f5", null ]
 ];

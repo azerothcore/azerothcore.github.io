@@ -1,7 +1,8 @@
 var a10926 =
 [
-    [ "maxvalue", "d8/d6e/a10926.html#a1dd2289b0d3505cb50e8613595ad8c8e", null ],
-    [ "skill", "d8/d6e/a10926.html#a8bcbe05ff6a3220f9f05f52b16925f5d", null ],
-    [ "step", "d8/d6e/a10926.html#a1c882f7d43c65954cb99566225660312", null ],
-    [ "value", "d8/d6e/a10926.html#a064fece53cdaf07b072510b14200a968", null ]
+    [ "target_mapId", "d8/d6e/a10926.html#a6dbbb558810388e0d051d84a0279a444", null ],
+    [ "target_Orientation", "d8/d6e/a10926.html#a7e30264eff9ece771dfaa421ef987b2a", null ],
+    [ "target_X", "d8/d6e/a10926.html#aa78b3d4cfb4277bcb1bf6a31ffc87546", null ],
+    [ "target_Y", "d8/d6e/a10926.html#a6f432d8770adebf513346713b7890b5c", null ],
+    [ "target_Z", "d8/d6e/a10926.html#a3af706b81f8fbef12277c518964f717a", null ]
 ];

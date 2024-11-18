@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ConditionSourceInfo Struct Reference</title>
+<title>AzerothCore: UnitBaseEvent Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,30 +106,44 @@ $(document).ready(function(){initNavTree('d7/d8d/a07626.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d4/d4f/a07623.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ConditionSourceInfo Struct Reference</div></div>
+  <div class="headertitle"><div class="title">UnitBaseEvent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">UnitEvents.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for UnitBaseEvent:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d7/d8d/a07626.png" usemap="#UnitBaseEvent_map" alt=""/>
+  <map id="UnitBaseEvent_map" name="UnitBaseEvent_map">
+<area href="../../d2/d8c/a07630.html" alt="ThreatRefStatusChangeEvent" shape="rect" coords="0,56,177,80"/>
+<area href="../../db/d7b/a07638.html" alt="ThreatMgrEvent" shape="rect" coords="0,112,177,136"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adc6441ec52fab3ab8d2b58a146a3fef3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#adc6441ec52fab3ab8d2b58a146a3fef3">ConditionSourceInfo</a> (<a class="el" href="../../da/d63/a08158.html">WorldObject</a> *target0, <a class="el" href="../../da/d63/a08158.html">WorldObject</a> *target1=nullptr, <a class="el" href="../../da/d63/a08158.html">WorldObject</a> *target2=nullptr)</td></tr>
-<tr class="separator:adc6441ec52fab3ab8d2b58a146a3fef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4586c59a7595374d427a15924c34fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a2d4586c59a7595374d427a15924c34fd">UnitBaseEvent</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pType)</td></tr>
+<tr class="separator:a2d4586c59a7595374d427a15924c34fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7619b09043a8a729df77502786216aff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a7619b09043a8a729df77502786216aff">getType</a> () const</td></tr>
+<tr class="separator:a7619b09043a8a729df77502786216aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05103aacf99310a6c9e602296d56f168"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a05103aacf99310a6c9e602296d56f168">matchesTypeMask</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pMask) const</td></tr>
+<tr class="separator:a05103aacf99310a6c9e602296d56f168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3ae3042df9ca91d17a1c3320579867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a1a3ae3042df9ca91d17a1c3320579867">setType</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pType)</td></tr>
+<tr class="separator:a1a3ae3042df9ca91d17a1c3320579867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:acb67deba44021698a447e8288bca0bd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#acb67deba44021698a447e8288bca0bd4">mConditionTargets</a> [<a class="el" href="../../dc/d8f/a03497.html#aff3701dfcc246bf08b07f25a2cfd9e6da153d6f442357998ef78b878dacace376">MAX_CONDITION_TARGETS</a>]</td></tr>
-<tr class="separator:acb67deba44021698a447e8288bca0bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a099d3457a0a15d8feeacc0dc8c32d439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d8c/a07630.html">Condition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a099d3457a0a15d8feeacc0dc8c32d439">mLastFailedCondition</a></td></tr>
-<tr class="separator:a099d3457a0a15d8feeacc0dc8c32d439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a528a4023be375f43f4ac33b55f5c95d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">iType</a></td></tr>
+<tr class="separator:a528a4023be375f43f4ac33b55f5c95d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adc6441ec52fab3ab8d2b58a146a3fef3" name="adc6441ec52fab3ab8d2b58a146a3fef3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc6441ec52fab3ab8d2b58a146a3fef3">&#9670;&#160;</a></span>ConditionSourceInfo()</h2>
+<a id="a2d4586c59a7595374d427a15924c34fd" name="a2d4586c59a7595374d427a15924c34fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4586c59a7595374d427a15924c34fd">&#9670;&#160;</a></span>UnitBaseEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,27 +152,11 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ConditionSourceInfo::ConditionSourceInfo </td>
+          <td class="memname">UnitBaseEvent::UnitBaseEvent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> *&#160;</td>
-          <td class="paramname"><em>target0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pType</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> *&#160;</td>
-          <td class="paramname"><em>target1</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> *&#160;</td>
-          <td class="paramname"><em>target2</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -167,49 +165,124 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  184</span>    {</div>
-<div class="line"><span class="lineno">  185</span>        <a class="code hl_variable" href="../../d7/d8d/a07626.html#acb67deba44021698a447e8288bca0bd4">mConditionTargets</a>[0] = target0;</div>
-<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="../../d7/d8d/a07626.html#acb67deba44021698a447e8288bca0bd4">mConditionTargets</a>[1] = target1;</div>
-<div class="line"><span class="lineno">  187</span>        <a class="code hl_variable" href="../../d7/d8d/a07626.html#acb67deba44021698a447e8288bca0bd4">mConditionTargets</a>[2] = target2;</div>
-<div class="line"><span class="lineno">  188</span>        <a class="code hl_variable" href="../../d7/d8d/a07626.html#a099d3457a0a15d8feeacc0dc8c32d439">mLastFailedCondition</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  189</span>    }</div>
-<div class="ttc" id="aa07626_html_a099d3457a0a15d8feeacc0dc8c32d439"><div class="ttname"><a href="../../d7/d8d/a07626.html#a099d3457a0a15d8feeacc0dc8c32d439">ConditionSourceInfo::mLastFailedCondition</a></div><div class="ttdeci">Condition * mLastFailedCondition</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:182</div></div>
-<div class="ttc" id="aa07626_html_acb67deba44021698a447e8288bca0bd4"><div class="ttname"><a href="../../d7/d8d/a07626.html#acb67deba44021698a447e8288bca0bd4">ConditionSourceInfo::mConditionTargets</a></div><div class="ttdeci">WorldObject * mConditionTargets[MAX_CONDITION_TARGETS]</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:181</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <a class="code hl_variable" href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">iType</a> = pType; }</div>
+<div class="ttc" id="aa07626_html_a528a4023be375f43f4ac33b55f5c95d9"><div class="ttname"><a href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">UnitBaseEvent::iType</a></div><div class="ttdeci">uint32 iType</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:72</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00181">mConditionTargets</a>, and <a class="el" href="../../#l00182">mLastFailedCondition</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00072">iType</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7619b09043a8a729df77502786216aff" name="a7619b09043a8a729df77502786216aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7619b09043a8a729df77502786216aff">&#9670;&#160;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UnitBaseEvent::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">iType</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00072">iType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00585">ThreatMgr::processThreatEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a05103aacf99310a6c9e602296d56f168" name="a05103aacf99310a6c9e602296d56f168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05103aacf99310a6c9e602296d56f168">&#9670;&#160;</a></span>matchesTypeMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UnitBaseEvent::matchesTypeMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pMask</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">iType</a> &amp; pMask; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00072">iType</a>.</p>
+
+</div>
+</div>
+<a id="a1a3ae3042df9ca91d17a1c3320579867" name="a1a3ae3042df9ca91d17a1c3320579867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3ae3042df9ca91d17a1c3320579867">&#9670;&#160;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnitBaseEvent::setType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{ <a class="code hl_variable" href="../../d7/d8d/a07626.html#a528a4023be375f43f4ac33b55f5c95d9">iType</a> = pType; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00072">iType</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="acb67deba44021698a447e8288bca0bd4" name="acb67deba44021698a447e8288bca0bd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb67deba44021698a447e8288bca0bd4">&#9670;&#160;</a></span>mConditionTargets</h2>
+<a id="a528a4023be375f43f4ac33b55f5c95d9" name="a528a4023be375f43f4ac33b55f5c95d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528a4023be375f43f4ac33b55f5c95d9">&#9670;&#160;</a></span>iType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d63/a08158.html">WorldObject</a>* ConditionSourceInfo::mConditionTargets[<a class="el" href="../../dc/d8f/a03497.html#aff3701dfcc246bf08b07f25a2cfd9e6da153d6f442357998ef78b878dacace376">MAX_CONDITION_TARGETS</a>]</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UnitBaseEvent::iType</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l05654">Spell::CheckCast()</a>, <a class="el" href="../../#l00183">ConditionSourceInfo()</a>, <a class="el" href="../../#l00034">Condition::Meets()</a>, and <a class="el" href="../../#l08960">Acore::WorldObjectSpellTargetCheck::operator()()</a>.</p>
-
-</div>
-</div>
-<a id="a099d3457a0a15d8feeacc0dc8c32d439" name="a099d3457a0a15d8feeacc0dc8c32d439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099d3457a0a15d8feeacc0dc8c32d439">&#9670;&#160;</a></span>mLastFailedCondition</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d8c/a07630.html">Condition</a>* ConditionSourceInfo::mLastFailedCondition</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l05654">Spell::CheckCast()</a>, <a class="el" href="../../#l00183">ConditionSourceInfo()</a>, and <a class="el" href="../../#l00034">Condition::Meets()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00075">getType()</a>, <a class="el" href="../../#l00076">matchesTypeMask()</a>, <a class="el" href="../../#l00078">setType()</a>, and <a class="el" href="../../#l00074">UnitBaseEvent()</a>.</p>
 
 </div>
 </div>
@@ -218,8 +291,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d8d/a07626.html">ConditionSourceInfo</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/d8d/a07626.html">UnitBaseEvent</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

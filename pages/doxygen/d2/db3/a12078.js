@@ -1,6 +1,6 @@
 var a12078 =
 [
-    [ "boss_gehennasAI", "d2/db3/a12078.html#aaefd1f10d03957477863df95143a95a9", null ],
-    [ "ExecuteEvent", "d2/db3/a12078.html#a1568cecdacc6afee23b4661c3dc0ae2b", null ],
-    [ "JustEngagedWith", "d2/db3/a12078.html#ad932bb3d7079f53cf1bb2b7ad143b15d", null ]
+    [ "npc_garr_fireswornAI", "dc/d30/a12082.html", "dc/d30/a12082" ],
+    [ "npc_garr_firesworn", "d2/db3/a12078.html#a54c8f5daab9b8c4e1e7ff5d7777fcddf", null ],
+    [ "GetAI", "d2/db3/a12078.html#a07e47767a44d3613f8cba2c3dfb1d14e", null ]
 ];

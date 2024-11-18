@@ -1,9 +1,10 @@
 var a05346 =
 [
-    [ "Base", "d7/d24/a05350.html", "d7/d24/a05350" ],
-    [ "Erase", "d5/d30/a05346.html#a2c7b450c8781824135765e5d82b0272e", null ],
-    [ "Get", "d5/d30/a05346.html#aa8f56bb08a6245792a75305ba2fcce82", null ],
-    [ "GetDefault", "d5/d30/a05346.html#ad53ddbe486c994277adbb96e1c644112", null ],
-    [ "Set", "d5/d30/a05346.html#a93bf2535b14236df9703e485ef816b36", null ],
-    [ "Container", "d5/d30/a05346.html#a3a559027ba0a64e4af2f02218ce1c910", null ]
+    [ "AsyncCallbackProcessor", "d5/d30/a05346.html#aee6f273ab86fad749de85cd12ea32a98", null ],
+    [ "~AsyncCallbackProcessor", "d5/d30/a05346.html#a0a1b8fb7112485c9461387b6effcd56b", null ],
+    [ "AsyncCallbackProcessor", "d5/d30/a05346.html#af575ef04d5b2440ad3a787348e5baf9a", null ],
+    [ "AddCallback", "d5/d30/a05346.html#a47ef165fe4c31f46998f69e8e16625f1", null ],
+    [ "operator=", "d5/d30/a05346.html#ae95508c8bd67d6246279f37cbe6ca8d3", null ],
+    [ "ProcessReadyCallbacks", "d5/d30/a05346.html#a4fce127f587a9da913a9e9061ba538e7", null ],
+    [ "_callbacks", "d5/d30/a05346.html#a372d9496b9a1b3e3f718cefe50164209", null ]
 ];

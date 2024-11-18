@@ -1,7 +1,6 @@
 var a17814 =
 [
-    [ "HandleScript", "db/d15/a17814.html#aef02c7f9ee2a5dda9f6b18d8aa386759", null ],
-    [ "PrepareSpellScript", "db/d15/a17814.html#acbfd8657da20f2e91a9ef43cab7c4113", null ],
-    [ "Register", "db/d15/a17814.html#ad83d563da98ad189f2198a061b1cd50f", null ],
-    [ "Validate", "db/d15/a17814.html#a8f371bdbc57624c295efb14e2ca067c5", null ]
+    [ "npc_tirion_fordringAI", "d7/d7f/a17818.html", "d7/d7f/a17818" ],
+    [ "npc_tirion_fordring_tft", "db/d15/a17814.html#a04036d958e7ac643c9ba8d9073bca404", null ],
+    [ "GetAI", "db/d15/a17814.html#a41dcfa415831091531cbf46e946f442d", null ]
 ];

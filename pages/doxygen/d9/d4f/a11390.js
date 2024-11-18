@@ -1,10 +1,10 @@
 var a11390 =
 [
-    [ "mmaps_commandscript", "d9/d4f/a11390.html#a1dbdfd26bdb685315a3012453080a56f", null ],
-    [ "GetCommands", "d9/d4f/a11390.html#aec91072f9e651c9136bf1a405a9bb95a", null ],
-    [ "HandleMmapLoadedTilesCommand", "d9/d4f/a11390.html#a40d5b7e733298210c686fe89490b6f61", null ],
-    [ "HandleMmapLocCommand", "d9/d4f/a11390.html#aa3dc699456256d8b2ab9fdd97891bd96", null ],
-    [ "HandleMmapPathCommand", "d9/d4f/a11390.html#a2c876439ad6d9ff7523f140d97743dea", null ],
-    [ "HandleMmapStatsCommand", "d9/d4f/a11390.html#a823b56cdbb0c97176990bb01af9af9fc", null ],
-    [ "HandleMmapTestArea", "d9/d4f/a11390.html#aaae2e5548a6bd9c670db0721ea7508bd", null ]
+    [ "lfg_commandscript", "d9/d4f/a11390.html#a90faaca821e4162e0aea40a4d98af62c", null ],
+    [ "GetCommands", "d9/d4f/a11390.html#a324310f9b04675c277ceae44ea09fbaf", null ],
+    [ "HandleLfgCleanCommand", "d9/d4f/a11390.html#a93db689dbdb97a0318d62409a863767e", null ],
+    [ "HandleLfgGroupInfoCommand", "d9/d4f/a11390.html#a2376288a2ef82d8a19602cd66ff880f2", null ],
+    [ "HandleLfgOptionsCommand", "d9/d4f/a11390.html#a73187a97c883d8d1bb3765943dd98c39", null ],
+    [ "HandleLfgPlayerInfoCommand", "d9/d4f/a11390.html#acdf12aff45f16904df5724ab158e3b97", null ],
+    [ "HandleLfgQueueInfoCommand", "d9/d4f/a11390.html#a54dcdf133cc5b22961c34eda62a4f2fc", null ]
 ];

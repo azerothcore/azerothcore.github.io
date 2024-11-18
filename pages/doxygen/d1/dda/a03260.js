@@ -1,12 +1,16 @@
 var a03260 =
 [
-    [ "ArenaTeamScript", "df/d5b/a09966.html", "df/d5b/a09966" ],
-    [ "ArenaTeamHook", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218", [
-      [ "ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc", null ],
-      [ "ARENATEAMHOOK_ON_GET_ARENA_POINTS", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9", null ],
-      [ "ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7", null ],
-      [ "ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b", null ],
-      [ "ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6", null ],
-      [ "ARENATEAMHOOK_END", "d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7", null ]
-    ] ]
+    [ "LinkValidator< T >", "d2/d32/a07490.html", "d2/d32/a07490" ],
+    [ "LinkValidator< LinkTags::achievement >", "df/dbf/a07494.html", "df/dbf/a07494" ],
+    [ "LinkValidator< LinkTags::item >", "d1/dd7/a07498.html", "d1/dd7/a07498" ],
+    [ "LinkValidator< LinkTags::quest >", "d4/d15/a07502.html", "d4/d15/a07502" ],
+    [ "LinkValidator< LinkTags::spell >", "dd/d73/a07506.html", "dd/d73/a07506" ],
+    [ "LinkValidator< LinkTags::enchant >", "db/d12/a07510.html", "db/d12/a07510" ],
+    [ "LinkValidator< LinkTags::glyph >", "d6/d83/a07514.html", "d6/d83/a07514" ],
+    [ "LinkValidator< LinkTags::talent >", "d0/d13/a07518.html", "d0/d13/a07518" ],
+    [ "LinkValidator< LinkTags::trade >", "d1/d15/a07522.html", "d1/d15/a07522" ],
+    [ "TryValidateAs", "d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af", null ],
+    [ "toHex", "d1/dda/a03260.html#a0b5e4d40ad5549ddc48c127306499b6c", null ],
+    [ "ValidateAs", "d1/dda/a03260.html#a1021653ddd2d2e78df34d8c4a2a7ed93", null ],
+    [ "ValidateLinkInfo", "d1/dda/a03260.html#a7de61dd7d7c595063ae73f415e961cc9", null ]
 ];

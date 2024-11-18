@@ -1,4 +1,4 @@
 var a04478 =
 [
-    [ "NetworkThread< SocketType >", "d8/d21/a28042.html", "d8/d21/a28042" ]
+    [ "ScriptRegistry< CreatureScript >", "d1/d6c/a04478.html#adb066a45d02e899835d90ecde5d40ccd", null ]
 ];

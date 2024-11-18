@@ -1,5 +1,6 @@
 var a10470 =
 [
-    [ "LFGLeave", "da/d14/a10470.html#aba31f53e0e13c13fd96f1b6ea1d42310", null ],
-    [ "Read", "da/d14/a10470.html#abae9c55efce73edf5edf1940cb8b61eb", null ]
+    [ "GuildSetGuildMaster", "da/d14/a10470.html#ae6ca07252de719cc506042c8d3e8285e", null ],
+    [ "Read", "da/d14/a10470.html#a94f16e55a840c7cba991a119af5d8263", null ],
+    [ "NewMasterName", "da/d14/a10470.html#a02f37610492c75373266bb93000adcbf", null ]
 ];

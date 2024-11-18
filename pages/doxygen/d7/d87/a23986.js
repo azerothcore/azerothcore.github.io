@@ -1,8 +1,12 @@
 var a23986 =
 [
-    [ "go_skull_pile", "d7/d87/a23986.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "d7/d87/a23986.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "d7/d87/a23986.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "d7/d87/a23986.html#a048dd224b46ead864958ad524d76167f", null ],
-    [ "_result", "d7/d87/a23986.html#af74fcd75404c0886128401d661067394", null ]
+    [ "npc_unkor_the_ruthlessAI", "d7/d87/a23986.html#a965b0f182570a54ee4c0a6a54ba8fafb", null ],
+    [ "DamageTaken", "d7/d87/a23986.html#a88b5e4b43171be8cc62d2a10f188e363", null ],
+    [ "DoNice", "d7/d87/a23986.html#aa673fc892b9c0d59b2789271140e6054", null ],
+    [ "JustEngagedWith", "d7/d87/a23986.html#a537225016bfeba51b607d250c0a09be5", null ],
+    [ "Reset", "d7/d87/a23986.html#a14ca75417c623d6d6e5fce50521963da", null ],
+    [ "UpdateAI", "d7/d87/a23986.html#a744ea41d7f9450965419085a296c8df2", null ],
+    [ "CanDoQuest", "d7/d87/a23986.html#a98d7d45b450f3464291ecbc05ab31f21", null ],
+    [ "Pulverize_Timer", "d7/d87/a23986.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd", null ],
+    [ "UnkorUnfriendly_Timer", "d7/d87/a23986.html#ae6eeb6177d655f5a0bede45183758f1f", null ]
 ];

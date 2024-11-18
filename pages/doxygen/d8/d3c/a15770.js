@@ -1,6 +1,6 @@
 var a15770 =
 [
-    [ "npc_living_infernoAI", "d5/d81/a15774.html", "d5/d81/a15774" ],
-    [ "npc_living_inferno", "d8/d3c/a15770.html#a7df2bb522e67b6f1864604c7b0182078", null ],
-    [ "GetAI", "d8/d3c/a15770.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
+    [ "OnSummon", "d8/d3c/a15770.html#ae2766d12fb686356b46126848f356c5a", null ],
+    [ "PrepareSpellScript", "d8/d3c/a15770.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
+    [ "Register", "d8/d3c/a15770.html#a717394bfbea621ae637f9e87efddda62", null ]
 ];

@@ -1,8 +1,11 @@
 var a08506 =
 [
-    [ "PowerPctOrderPred", "d6/d22/a08506.html#a4e765952cfbc1c83413a8f1c148b1fe4", null ],
-    [ "operator()", "d6/d22/a08506.html#a215b641a9364c7fcb82778c98f214271", null ],
-    [ "operator()", "d6/d22/a08506.html#a42cec64c5eaf01f8b6b7e334f57b1d4a", null ],
-    [ "_ascending", "d6/d22/a08506.html#aed7be288f876fdd35c1cdba53626b03c", null ],
-    [ "_power", "d6/d22/a08506.html#ad3d61a7c5c84d91bc26c99e778105b7c", null ]
+    [ "SpellPeriodicAuraLogInfo", "d6/d22/a08506.html#a3c3c5908556cf765c5cbba3ca7034ae9", null ],
+    [ "absorb", "d6/d22/a08506.html#af69ed83578024b979dc9d65ff5ddc83b", null ],
+    [ "auraEff", "d6/d22/a08506.html#ae69913fad91a8e5b140c206d2c5733e0", null ],
+    [ "critical", "d6/d22/a08506.html#a51041b901727b4f595d2a886520626ff", null ],
+    [ "damage", "d6/d22/a08506.html#aa3839fed2e3de0f7a01ad209eec2bdcd", null ],
+    [ "multiplier", "d6/d22/a08506.html#a26b18592b0aebbdc6a00e8f91fd2a75a", null ],
+    [ "overDamage", "d6/d22/a08506.html#a51904be3790c99bded697b2cf7c8db23", null ],
+    [ "resist", "d6/d22/a08506.html#a5cb7dbeeb9d28037771a2f235a95e0fe", null ]
 ];

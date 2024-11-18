@@ -1,12 +1,9 @@
 var a20350 =
 [
-    [ "npc_xt002_boombotAI", "d6/d95/a20350.html#a9be3f9270a828946e2934aea24aa5549", null ],
-    [ "DamageTaken", "d6/d95/a20350.html#ad581fd228701d851c8d3bf0f3a1f854c", null ],
-    [ "Explode", "d6/d95/a20350.html#afe8c0408887b8cd0cb533475c221035b", null ],
-    [ "JustDied", "d6/d95/a20350.html#ad6d240b16aa8f7f297b1ad0982a8827e", null ],
-    [ "MovementInform", "d6/d95/a20350.html#a2cb53c683de44347b0448d8a1611300e", null ],
-    [ "Reset", "d6/d95/a20350.html#a5d4f4a4c6c098f440064caa37438a7ed", null ],
-    [ "UpdateAI", "d6/d95/a20350.html#a2bebdd97339b3b545331a494a51246eb", null ],
-    [ "_boomed", "d6/d95/a20350.html#acd75eb57db0043fbae633a2f63924c05", null ],
-    [ "_locked", "d6/d95/a20350.html#ada468c62b133ec1a9c043eec1c52c0d1", null ]
+    [ "npc_xt002_pummellerAI", "d6/d95/a20350.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d6/d95/a20350.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d6/d95/a20350.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d6/d95/a20350.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d6/d95/a20350.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d6/d95/a20350.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

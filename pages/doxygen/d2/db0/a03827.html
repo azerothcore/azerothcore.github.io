@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/NPCHandler.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/ArenaTeam.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,82 +105,389 @@ $(document).ready(function(){initNavTree('d2/db0/a03827.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">NPCHandler.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">ArenaTeam.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
+<code>#include &lt;list&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d43/a07042.html">ArenaTeamMember</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0a/a07046.html">ArenaTeamStats</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de3/a07050.html">ArenaTeam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3ed680b9b5f263a9c57435bf412b89f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a3ed680b9b5f263a9c57435bf412b89f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:abee8740a43e35bc796d1287225999514"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514">StableResultCode</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a> = 0x01
+<tr class="memitem:a1fcb206499884c4432a2fb3f1bc2e9f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8">ArenaTeamCommandTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c">ERR_ARENA_TEAM_CREATE_S</a> = 0x00
 , <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a> = 0x06
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8">ERR_ARENA_TEAM_INVITE_SS</a> = 0x01
 , <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a> = 0x08
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c">ERR_ARENA_TEAM_QUIT_S</a> = 0x03
 , <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a> = 0x09
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a> = 0x0A
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a> = 0x0C
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1">ERR_ARENA_TEAM_FOUNDER_S</a> = 0x0E
 <br />
  }</td></tr>
-<tr class="separator:abee8740a43e35bc796d1287225999514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1fcb206499884c4432a2fb3f1bc2e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef5689eecf34c2bfc684e272a576b3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3c">ArenaTeamCommandErrors</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070">ERR_ARENA_TEAM_INTERNAL</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0">ERR_ALREADY_IN_ARENA_TEAM</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6">ERR_ALREADY_IN_ARENA_TEAM_S</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a">ERR_INVITED_TO_ARENA_TEAM</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2">ERR_ALREADY_INVITED_TO_ARENA_TEAM_S</a> = 0x05
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b">ERR_ARENA_TEAM_NAME_INVALID</a> = 0x06
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a">ERR_ARENA_TEAM_NAME_EXISTS_S</a> = 0x07
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d">ERR_ARENA_TEAM_LEADER_LEAVE_S</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd">ERR_ARENA_TEAM_PERMISSIONS</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM</a> = 0x09
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM_SS</a> = 0x0A
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872">ERR_ARENA_TEAM_PLAYER_NOT_FOUND_S</a> = 0x0B
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b">ERR_ARENA_TEAM_NOT_ALLIED</a> = 0x0C
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d">ERR_ARENA_TEAM_IGNORING_YOU_S</a> = 0x13
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9">ERR_ARENA_TEAM_TARGET_TOO_LOW_S</a> = 0x15
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478">ERR_ARENA_TEAM_TARGET_TOO_HIGH_S</a> = 0x16
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713">ERR_ARENA_TEAM_TOO_MANY_MEMBERS_S</a> = 0x17
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc">ERR_ARENA_TEAM_NOT_FOUND</a> = 0x1B
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af">ERR_ARENA_TEAMS_LOCKED</a> = 0x1E
+<br />
+ }</td></tr>
+<tr class="separator:aaef5689eecf34c2bfc684e272a576b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a8573a87f770ea7c10df9b77e51c8a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8a">ArenaTeamEvents</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9">ERR_ARENA_TEAM_JOIN_SS</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da">ERR_ARENA_TEAM_LEAVE_SS</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae">ERR_ARENA_TEAM_REMOVE_SSS</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c">ERR_ARENA_TEAM_LEADER_IS_SS</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612">ERR_ARENA_TEAM_LEADER_CHANGED_SSS</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97">ERR_ARENA_TEAM_DISBANDED_S</a> = 8
+<br />
+ }</td></tr>
+<tr class="separator:ac0a8573a87f770ea7c10df9b77e51c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70db3aa0de523db72170532f1968f53a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53a">ArenaTeamInfoType</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d">ARENA_TEAM_ID</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599">ARENA_TEAM_TYPE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5">ARENA_TEAM_MEMBER</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af">ARENA_TEAM_GAMES_WEEK</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a">ARENA_TEAM_GAMES_SEASON</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3">ARENA_TEAM_WINS_SEASON</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e">ARENA_TEAM_PERSONAL_RATING</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f">ARENA_TEAM_END</a> = 7
+<br />
+ }</td></tr>
+<tr class="separator:a70db3aa0de523db72170532f1968f53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcf5153b4e15b706a3ff2dada112cae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112cae">ArenaTeamTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614">ARENA_TEAM_2v2</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd">ARENA_TEAM_3v3</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc">ARENA_TEAM_5v5</a> = 5
+<br />
+ }</td></tr>
+<tr class="separator:a4bcf5153b4e15b706a3ff2dada112cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e171357dbfd0fedfa2da950cf6abbf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbf">ArenaSlot</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e">ARENA_SLOT_2v2</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240">ARENA_SLOT_3v3</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990">ARENA_SLOT_5v5</a>
+<br />
+ }</td></tr>
+<tr class="separator:af7e171357dbfd0fedfa2da950cf6abbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="abee8740a43e35bc796d1287225999514" name="abee8740a43e35bc796d1287225999514"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abee8740a43e35bc796d1287225999514">&#9670;&#160;</a></span>StableResultCode</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a3ed680b9b5f263a9c57435bf412b89f6" name="a3ed680b9b5f263a9c57435bf412b89f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed680b9b5f263a9c57435bf412b89f6">&#9670;&#160;</a></span>MAX_ARENA_SLOT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514">StableResultCode</a></td>
+          <td class="memname">#define MAX_ARENA_SLOT&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="af7e171357dbfd0fedfa2da950cf6abbf" name="af7e171357dbfd0fedfa2da950cf6abbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e171357dbfd0fedfa2da950cf6abbf">&#9670;&#160;</a></span>ArenaSlot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbf">ArenaSlot</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2" name="abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2"></a>STABLE_ERR_MONEY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898" name="abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898"></a>STABLE_ERR_STABLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e" name="abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e"></a>STABLE_SUCCESS_STABLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1" name="abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1"></a>STABLE_SUCCESS_UNSTABLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317" name="abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317"></a>STABLE_SUCCESS_BUY_SLOT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47" name="abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47"></a>STABLE_ERR_EXOTIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e" name="af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e"></a>ARENA_SLOT_2v2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240" name="af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240"></a>ARENA_SLOT_3v3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990" name="af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990"></a>ARENA_SLOT_5v5&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a>        = 0x01,                         <span class="comment">// &quot;you don&#39;t have enough money&quot;</span></div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a>       = 0x06,                         <span class="comment">// currently used in most fail cases</span></div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a>   = 0x08,                         <span class="comment">// stable success</span></div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a> = 0x09,                         <span class="comment">// unstable/swap success</span></div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a> = 0x0A,                         <span class="comment">// buy slot success</span></div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a>       = 0x0C,                         <span class="comment">// &quot;you are unable to control exotic creatures&quot;</span></div>
-<div class="line"><span class="lineno">   44</span>};</div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a></div><div class="ttdeci">@ STABLE_ERR_MONEY</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:38</div></div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a></div><div class="ttdeci">@ STABLE_SUCCESS_STABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:40</div></div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a></div><div class="ttdeci">@ STABLE_SUCCESS_BUY_SLOT</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:42</div></div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a></div><div class="ttdeci">@ STABLE_ERR_EXOTIC</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:43</div></div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a></div><div class="ttdeci">@ STABLE_ERR_STABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:39</div></div>
-<div class="ttc" id="aa03827_html_abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1"><div class="ttname"><a href="../../d2/db0/a03827.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a></div><div class="ttdeci">@ STABLE_SUCCESS_UNSTABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:41</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e">ARENA_SLOT_2v2</a>,</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240">ARENA_SLOT_3v3</a>,</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990">ARENA_SLOT_5v5</a></div>
+<div class="line"><span class="lineno">  105</span>};</div>
+<div class="ttc" id="aa03827_html_af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e"><div class="ttname"><a href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e">ARENA_SLOT_2v2</a></div><div class="ttdeci">@ ARENA_SLOT_2v2</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:102</div></div>
+<div class="ttc" id="aa03827_html_af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990"><div class="ttname"><a href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfaa750824f1390167b2db96f7a04288990">ARENA_SLOT_5v5</a></div><div class="ttdeci">@ ARENA_SLOT_5v5</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:104</div></div>
+<div class="ttc" id="aa03827_html_af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240"><div class="ttname"><a href="../../d2/db0/a03827.html#af7e171357dbfd0fedfa2da950cf6abbfab5c77731583aa5a2ef36073e297be240">ARENA_SLOT_3v3</a></div><div class="ttdeci">@ ARENA_SLOT_3v3</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:103</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaef5689eecf34c2bfc684e272a576b3c" name="aaef5689eecf34c2bfc684e272a576b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef5689eecf34c2bfc684e272a576b3c">&#9670;&#160;</a></span>ArenaTeamCommandErrors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3c">ArenaTeamCommandErrors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070" name="aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070"></a>ERR_ARENA_TEAM_INTERNAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0" name="aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0"></a>ERR_ALREADY_IN_ARENA_TEAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6" name="aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6"></a>ERR_ALREADY_IN_ARENA_TEAM_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a" name="aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a"></a>ERR_INVITED_TO_ARENA_TEAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2" name="aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2"></a>ERR_ALREADY_INVITED_TO_ARENA_TEAM_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b" name="aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b"></a>ERR_ARENA_TEAM_NAME_INVALID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a" name="aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a"></a>ERR_ARENA_TEAM_NAME_EXISTS_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d" name="aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d"></a>ERR_ARENA_TEAM_LEADER_LEAVE_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd" name="aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd"></a>ERR_ARENA_TEAM_PERMISSIONS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a" name="aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a"></a>ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc" name="aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc"></a>ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM_SS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872" name="aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872"></a>ERR_ARENA_TEAM_PLAYER_NOT_FOUND_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b" name="aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b"></a>ERR_ARENA_TEAM_NOT_ALLIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d" name="aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d"></a>ERR_ARENA_TEAM_IGNORING_YOU_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9" name="aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9"></a>ERR_ARENA_TEAM_TARGET_TOO_LOW_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478" name="aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478"></a>ERR_ARENA_TEAM_TARGET_TOO_HIGH_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713" name="aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713"></a>ERR_ARENA_TEAM_TOO_MANY_MEMBERS_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc" name="aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc"></a>ERR_ARENA_TEAM_NOT_FOUND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af" name="aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af"></a>ERR_ARENA_TEAMS_LOCKED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070">ERR_ARENA_TEAM_INTERNAL</a>                 = 0x01,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0">ERR_ALREADY_IN_ARENA_TEAM</a>               = 0x02,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6">ERR_ALREADY_IN_ARENA_TEAM_S</a>             = 0x03,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a">ERR_INVITED_TO_ARENA_TEAM</a>               = 0x04,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2">ERR_ALREADY_INVITED_TO_ARENA_TEAM_S</a>     = 0x05,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b">ERR_ARENA_TEAM_NAME_INVALID</a>             = 0x06,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a">ERR_ARENA_TEAM_NAME_EXISTS_S</a>            = 0x07,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d">ERR_ARENA_TEAM_LEADER_LEAVE_S</a>           = 0x08,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd">ERR_ARENA_TEAM_PERMISSIONS</a>              = 0x08,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM</a>       = 0x09,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM_SS</a>    = 0x0A,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872">ERR_ARENA_TEAM_PLAYER_NOT_FOUND_S</a>       = 0x0B,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b">ERR_ARENA_TEAM_NOT_ALLIED</a>               = 0x0C,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d">ERR_ARENA_TEAM_IGNORING_YOU_S</a>           = 0x13,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9">ERR_ARENA_TEAM_TARGET_TOO_LOW_S</a>         = 0x15,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478">ERR_ARENA_TEAM_TARGET_TOO_HIGH_S</a>        = 0x16,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713">ERR_ARENA_TEAM_TOO_MANY_MEMBERS_S</a>       = 0x17,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc">ERR_ARENA_TEAM_NOT_FOUND</a>                = 0x1B,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af">ERR_ARENA_TEAMS_LOCKED</a>                  = 0x1E</div>
+<div class="line"><span class="lineno">   59</span>};</div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca00fe0fff5f647873a102d0ff5aafa713">ERR_ARENA_TEAM_TOO_MANY_MEMBERS_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_TOO_MANY_MEMBERS_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:56</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca17bc7cae6e897ba316ede8d045e1e478">ERR_ARENA_TEAM_TARGET_TOO_HIGH_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_TARGET_TOO_HIGH_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:55</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca1b9f5d1c1c937e0303c5e3704e20101b">ERR_ARENA_TEAM_NAME_INVALID</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_NAME_INVALID</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:45</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca2129fd8e1a3016d3f24f87345a5904a6">ERR_ALREADY_IN_ARENA_TEAM_S</a></div><div class="ttdeci">@ ERR_ALREADY_IN_ARENA_TEAM_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:42</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca41e9ff94d6d37e25de05fa381e169070">ERR_ARENA_TEAM_INTERNAL</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_INTERNAL</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:40</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca4d75a01959fade0df3db076bd7c5690a">ERR_INVITED_TO_ARENA_TEAM</a></div><div class="ttdeci">@ ERR_INVITED_TO_ARENA_TEAM</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:43</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca604ef0adfa5d8d26e1cd06c96443d7c0">ERR_ALREADY_IN_ARENA_TEAM</a></div><div class="ttdeci">@ ERR_ALREADY_IN_ARENA_TEAM</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:41</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6c97f9288f5c74a49df5fd3beda71f7d">ERR_ARENA_TEAM_IGNORING_YOU_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_IGNORING_YOU_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:53</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6f8d79650a20ea97beef68557013afbc">ERR_ARENA_TEAM_NOT_FOUND</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:57</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca6ffa2803290c499255e02a15ac6056af">ERR_ARENA_TEAMS_LOCKED</a></div><div class="ttdeci">@ ERR_ARENA_TEAMS_LOCKED</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:58</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca906a0bd0de6f0ccbd36238309675f75a">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:49</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3ca99b876d236d6a86261af0113b161657d">ERR_ARENA_TEAM_LEADER_LEAVE_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_LEADER_LEAVE_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:47</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caa30839ed27dd1a23b9d26bd4cefb58bd">ERR_ARENA_TEAM_PERMISSIONS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_PERMISSIONS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:48</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cab073d31d5c2050eb02fa4c8bcbde744b">ERR_ARENA_TEAM_NOT_ALLIED</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_NOT_ALLIED</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:52</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cac8c7b33482e44350c2bd5e8dec713ad9">ERR_ARENA_TEAM_TARGET_TOO_LOW_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_TARGET_TOO_LOW_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:54</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caca502d97b4ce3a42b0c4c4b097ea5872">ERR_ARENA_TEAM_PLAYER_NOT_FOUND_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_PLAYER_NOT_FOUND_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:51</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3cad93a3c8f9993d960fbd8235dc752d6f2">ERR_ALREADY_INVITED_TO_ARENA_TEAM_S</a></div><div class="ttdeci">@ ERR_ALREADY_INVITED_TO_ARENA_TEAM_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:44</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caedbaa3d036cb3b5652762b91df5f908a">ERR_ARENA_TEAM_NAME_EXISTS_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_NAME_EXISTS_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:46</div></div>
+<div class="ttc" id="aa03827_html_aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc"><div class="ttname"><a href="../../d2/db0/a03827.html#aaef5689eecf34c2bfc684e272a576b3caf6d4ab0d0f708627e4661270079cf5bc">ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM_SS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM_SS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:50</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1fcb206499884c4432a2fb3f1bc2e9f8" name="a1fcb206499884c4432a2fb3f1bc2e9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fcb206499884c4432a2fb3f1bc2e9f8">&#9670;&#160;</a></span>ArenaTeamCommandTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8">ArenaTeamCommandTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c" name="a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c"></a>ERR_ARENA_TEAM_CREATE_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8" name="a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8"></a>ERR_ARENA_TEAM_INVITE_SS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c" name="a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c"></a>ERR_ARENA_TEAM_QUIT_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1" name="a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1"></a>ERR_ARENA_TEAM_FOUNDER_S&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c">ERR_ARENA_TEAM_CREATE_S</a>                 = 0x00,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8">ERR_ARENA_TEAM_INVITE_SS</a>                = 0x01,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c">ERR_ARENA_TEAM_QUIT_S</a>                   = 0x03,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1">ERR_ARENA_TEAM_FOUNDER_S</a>                = 0x0E</div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aa03827_html_a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1"><div class="ttname"><a href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a37f9df0d4f22190b5310924b6ac930f1">ERR_ARENA_TEAM_FOUNDER_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_FOUNDER_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:35</div></div>
+<div class="ttc" id="aa03827_html_a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8"><div class="ttname"><a href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a6db086a93e3a2cef750fa4611d0599c8">ERR_ARENA_TEAM_INVITE_SS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_INVITE_SS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:33</div></div>
+<div class="ttc" id="aa03827_html_a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c"><div class="ttname"><a href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8a94c61be43bc38d745d50cb849e7c677c">ERR_ARENA_TEAM_QUIT_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_QUIT_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:34</div></div>
+<div class="ttc" id="aa03827_html_a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c"><div class="ttname"><a href="../../d2/db0/a03827.html#a1fcb206499884c4432a2fb3f1bc2e9f8acf8f425d01f57269e321e56e23327c6c">ERR_ARENA_TEAM_CREATE_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_CREATE_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac0a8573a87f770ea7c10df9b77e51c8a" name="ac0a8573a87f770ea7c10df9b77e51c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a8573a87f770ea7c10df9b77e51c8a">&#9670;&#160;</a></span>ArenaTeamEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8a">ArenaTeamEvents</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9" name="ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9"></a>ERR_ARENA_TEAM_JOIN_SS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da" name="ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da"></a>ERR_ARENA_TEAM_LEAVE_SS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae" name="ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae"></a>ERR_ARENA_TEAM_REMOVE_SSS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c" name="ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c"></a>ERR_ARENA_TEAM_LEADER_IS_SS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612" name="ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612"></a>ERR_ARENA_TEAM_LEADER_CHANGED_SSS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97" name="ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97"></a>ERR_ARENA_TEAM_DISBANDED_S&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9">ERR_ARENA_TEAM_JOIN_SS</a>                  = 3,            <span class="comment">// player name + arena team name</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da">ERR_ARENA_TEAM_LEAVE_SS</a>                 = 4,            <span class="comment">// player name + arena team name</span></div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae">ERR_ARENA_TEAM_REMOVE_SSS</a>               = 5,            <span class="comment">// player name + arena team name + captain name</span></div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c">ERR_ARENA_TEAM_LEADER_IS_SS</a>             = 6,            <span class="comment">// player name + arena team name</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612">ERR_ARENA_TEAM_LEADER_CHANGED_SSS</a>       = 7,            <span class="comment">// old captain + new captain + arena team name</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97">ERR_ARENA_TEAM_DISBANDED_S</a>              = 8             <span class="comment">// captain name + arena team name</span></div>
+<div class="line"><span class="lineno">   69</span>};</div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa1e0474620fe85d5a5073c37c645ff612">ERR_ARENA_TEAM_LEADER_CHANGED_SSS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_LEADER_CHANGED_SSS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:67</div></div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa44614d25e1c22b45bd4c11f09f69b6ae">ERR_ARENA_TEAM_REMOVE_SSS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_REMOVE_SSS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:65</div></div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa483c8031ec08a7c47b67b55b8dd949da">ERR_ARENA_TEAM_LEAVE_SS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_LEAVE_SS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:64</div></div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa80c970a7a9b0d59fc7dd0435bbd13c97">ERR_ARENA_TEAM_DISBANDED_S</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_DISBANDED_S</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:68</div></div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aa87a592f39d8b998672029e2ede3bc7d9">ERR_ARENA_TEAM_JOIN_SS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_JOIN_SS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:63</div></div>
+<div class="ttc" id="aa03827_html_ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c"><div class="ttname"><a href="../../d2/db0/a03827.html#ac0a8573a87f770ea7c10df9b77e51c8aac6e559df2f09cd936ce6ff89d53ce87c">ERR_ARENA_TEAM_LEADER_IS_SS</a></div><div class="ttdeci">@ ERR_ARENA_TEAM_LEADER_IS_SS</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:66</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a70db3aa0de523db72170532f1968f53a" name="a70db3aa0de523db72170532f1968f53a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70db3aa0de523db72170532f1968f53a">&#9670;&#160;</a></span>ArenaTeamInfoType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53a">ArenaTeamInfoType</a> : <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d" name="a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d"></a>ARENA_TEAM_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599" name="a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599"></a>ARENA_TEAM_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5" name="a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5"></a>ARENA_TEAM_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af" name="a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af"></a>ARENA_TEAM_GAMES_WEEK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a" name="a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a"></a>ARENA_TEAM_GAMES_SEASON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3" name="a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3"></a>ARENA_TEAM_WINS_SEASON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e" name="a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e"></a>ARENA_TEAM_PERSONAL_RATING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f" name="a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f"></a>ARENA_TEAM_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d">ARENA_TEAM_ID</a>                = 0,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599">ARENA_TEAM_TYPE</a>              = 1,                       <span class="comment">// new in 3.2 - team type?</span></div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5">ARENA_TEAM_MEMBER</a>            = 2,                       <span class="comment">// 0 - captain, 1 - member</span></div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af">ARENA_TEAM_GAMES_WEEK</a>        = 3,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a">ARENA_TEAM_GAMES_SEASON</a>      = 4,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3">ARENA_TEAM_WINS_SEASON</a>       = 5,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e">ARENA_TEAM_PERSONAL_RATING</a>   = 6,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f">ARENA_TEAM_END</a>               = 7</div>
+<div class="line"><span class="lineno">   82</span>};</div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa0381830df98ba279e8144613469980af">ARENA_TEAM_GAMES_WEEK</a></div><div class="ttdeci">@ ARENA_TEAM_GAMES_WEEK</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:77</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa4405261c9e2ef19502e7e683f5d50599">ARENA_TEAM_TYPE</a></div><div class="ttdeci">@ ARENA_TEAM_TYPE</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:75</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa7417fe6be6e65f6c6624065d21d8a67d">ARENA_TEAM_ID</a></div><div class="ttdeci">@ ARENA_TEAM_ID</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:74</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa79d6199c026b36a46345fd73dd98211f">ARENA_TEAM_END</a></div><div class="ttdeci">@ ARENA_TEAM_END</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:81</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aa8f3ee63b5df0172896a6f69385928d9e">ARENA_TEAM_PERSONAL_RATING</a></div><div class="ttdeci">@ ARENA_TEAM_PERSONAL_RATING</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:80</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa0f054a6e3ee861880e5b5d5456534d5">ARENA_TEAM_MEMBER</a></div><div class="ttdeci">@ ARENA_TEAM_MEMBER</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:76</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aaa218bd11a0df7666bff40edceccdc7e3">ARENA_TEAM_WINS_SEASON</a></div><div class="ttdeci">@ ARENA_TEAM_WINS_SEASON</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:79</div></div>
+<div class="ttc" id="aa03827_html_a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a"><div class="ttname"><a href="../../d2/db0/a03827.html#a70db3aa0de523db72170532f1968f53aabdca49c47f5919deea0cbc99e949e39a">ARENA_TEAM_GAMES_SEASON</a></div><div class="ttdeci">@ ARENA_TEAM_GAMES_SEASON</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:78</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4bcf5153b4e15b706a3ff2dada112cae" name="a4bcf5153b4e15b706a3ff2dada112cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bcf5153b4e15b706a3ff2dada112cae">&#9670;&#160;</a></span>ArenaTeamTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112cae">ArenaTeamTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614" name="a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614"></a>ARENA_TEAM_2v2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd" name="a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd"></a>ARENA_TEAM_3v3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc" name="a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc"></a>ARENA_TEAM_5v5&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614">ARENA_TEAM_2v2</a>      = 2,</div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd">ARENA_TEAM_3v3</a>      = 3,</div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc">ARENA_TEAM_5v5</a>      = 5</div>
+<div class="line"><span class="lineno">   98</span>};</div>
+<div class="ttc" id="aa03827_html_a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc"><div class="ttname"><a href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea2ccfa6a14f64fde9ef92b9fc7e0417cc">ARENA_TEAM_5v5</a></div><div class="ttdeci">@ ARENA_TEAM_5v5</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:97</div></div>
+<div class="ttc" id="aa03827_html_a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614"><div class="ttname"><a href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea6f737fce1aaa0bd705adbd47d6797614">ARENA_TEAM_2v2</a></div><div class="ttdeci">@ ARENA_TEAM_2v2</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:95</div></div>
+<div class="ttc" id="aa03827_html_a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd"><div class="ttname"><a href="../../d2/db0/a03827.html#a4bcf5153b4e15b706a3ff2dada112caea76932d9f9aa71ed9e8f709d14e8512bd">ARENA_TEAM_3v3</a></div><div class="ttdeci">@ ARENA_TEAM_3v3</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:96</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -189,8 +496,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d2/db0/a03827.html">NPCHandler.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d2/db0/a03827.html">ArenaTeam.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

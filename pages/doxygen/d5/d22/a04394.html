@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Groups/GroupMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/UnitScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,37 +106,158 @@ $(document).ready(function(){initNavTree('d5/d22/a04394.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">GroupMgr.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">UnitScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5d/a09194.html">GroupMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d82/a10118.html">UnitScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9b001b22670103435cf11551af9fa71e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d22/a04394.html#a9b001b22670103435cf11551af9fa71e">sGroupMgr</a>&#160;&#160;&#160;<a class="el" href="../../de/d5d/a09194.html#a1b7275cfd70d46216df8c353e70d64c8">GroupMgr::instance</a>()</td></tr>
-<tr class="separator:a9b001b22670103435cf11551af9fa71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a4eaefcbbd1058569f55194299c218c26"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26">UnitHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a>
+<br />
+ }</td></tr>
+<tr class="separator:a4eaefcbbd1058569f55194299c218c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9b001b22670103435cf11551af9fa71e" name="a9b001b22670103435cf11551af9fa71e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b001b22670103435cf11551af9fa71e">&#9670;&#160;</a></span>sGroupMgr</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a4eaefcbbd1058569f55194299c218c26" name="a4eaefcbbd1058569f55194299c218c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eaefcbbd1058569f55194299c218c26">&#9670;&#160;</a></span>UnitHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sGroupMgr&#160;&#160;&#160;<a class="el" href="../../de/d5d/a09194.html#a1b7275cfd70d46216df8c353e70d64c8">GroupMgr::instance</a>()</td>
+          <td class="memname">enum <a class="el" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26">UnitHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256" name="a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256"></a>UNITHOOK_ON_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b" name="a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b"></a>UNITHOOK_ON_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde" name="a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde"></a>UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca" name="a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca"></a>UNITHOOK_MODIFY_MELEE_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e" name="a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e"></a>UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd" name="a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd"></a>UNITHOOK_MODIFY_HEAL_RECEIVED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49" name="a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49"></a>UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae" name="a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae"></a>UNITHOOK_ON_AURA_APPLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e" name="a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e"></a>UNITHOOK_ON_AURA_REMOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c" name="a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c"></a>UNITHOOK_IF_NORMAL_REACTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223" name="a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223"></a>UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a" name="a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a"></a>UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e" name="a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e"></a>UNITHOOK_IS_NEEDMOD_HEAL_PERCENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93" name="a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93"></a>UNITHOOK_CAN_SET_PHASE_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7" name="a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7"></a>UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762" name="a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762"></a>UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82" name="a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82"></a>UNITHOOK_ON_PATCH_VALUES_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f" name="a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f"></a>UNITHOOK_ON_UNIT_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1" name="a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1"></a>UNITHOOK_ON_DISPLAYID_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e" name="a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e"></a>UNITHOOK_ON_UNIT_ENTER_EVADE_MODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957" name="a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957"></a>UNITHOOK_ON_UNIT_ENTER_COMBAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57" name="a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57"></a>UNITHOOK_ON_UNIT_DEATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352" name="a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352"></a>UNITHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a>,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a>,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a>,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a>,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a>,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a>,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a>,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a>,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a>,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a>,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a>,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a>,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a></div>
+<div class="line"><span class="lineno">   49</span>};</div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde">UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK</div><div class="ttdef"><b>Definition:</b> UnitScript.h:28</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957">UNITHOOK_ON_UNIT_ENTER_COMBAT</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_ENTER_COMBAT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:46</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93">UNITHOOK_CAN_SET_PHASE_MASK</a></div><div class="ttdeci">@ UNITHOOK_CAN_SET_PHASE_MASK</div><div class="ttdef"><b>Definition:</b> UnitScript.h:39</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1">UNITHOOK_ON_DISPLAYID_CHANGE</a></div><div class="ttdeci">@ UNITHOOK_ON_DISPLAYID_CHANGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:44</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f">UNITHOOK_ON_UNIT_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:43</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e">UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_ENTER_EVADE_MODE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:45</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd">UNITHOOK_MODIFY_HEAL_RECEIVED</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_HEAL_RECEIVED</div><div class="ttdef"><b>Definition:</b> UnitScript.h:31</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82">UNITHOOK_ON_PATCH_VALUES_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_ON_PATCH_VALUES_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:42</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49">UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</a></div><div class="ttdeci">@ UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST</div><div class="ttdef"><b>Definition:</b> UnitScript.h:32</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b">UNITHOOK_ON_DAMAGE</a></div><div class="ttdeci">@ UNITHOOK_ON_DAMAGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:27</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca">UNITHOOK_MODIFY_MELEE_DAMAGE</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_MELEE_DAMAGE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:29</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e">UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</a></div><div class="ttdeci">@ UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN</div><div class="ttdef"><b>Definition:</b> UnitScript.h:30</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57">UNITHOOK_ON_UNIT_DEATH</a></div><div class="ttdeci">@ UNITHOOK_ON_UNIT_DEATH</div><div class="ttdef"><b>Definition:</b> UnitScript.h:47</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e">UNITHOOK_ON_AURA_REMOVE</a></div><div class="ttdeci">@ UNITHOOK_ON_AURA_REMOVE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:34</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762">UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</a></div><div class="ttdeci">@ UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX</div><div class="ttdef"><b>Definition:</b> UnitScript.h:41</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7">UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</a></div><div class="ttdeci">@ UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE</div><div class="ttdef"><b>Definition:</b> UnitScript.h:40</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae">UNITHOOK_ON_AURA_APPLY</a></div><div class="ttdeci">@ UNITHOOK_ON_AURA_APPLY</div><div class="ttdef"><b>Definition:</b> UnitScript.h:33</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c">UNITHOOK_IF_NORMAL_REACTION</a></div><div class="ttdeci">@ UNITHOOK_IF_NORMAL_REACTION</div><div class="ttdef"><b>Definition:</b> UnitScript.h:35</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a">UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:37</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e">UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_HEAL_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:38</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352">UNITHOOK_END</a></div><div class="ttdeci">@ UNITHOOK_END</div><div class="ttdef"><b>Definition:</b> UnitScript.h:48</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256">UNITHOOK_ON_HEAL</a></div><div class="ttdeci">@ UNITHOOK_ON_HEAL</div><div class="ttdef"><b>Definition:</b> UnitScript.h:26</div></div>
+<div class="ttc" id="aa04394_html_a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223"><div class="ttname"><a href="../../d5/d22/a04394.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223">UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</a></div><div class="ttdeci">@ UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT</div><div class="ttdef"><b>Definition:</b> UnitScript.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -144,8 +265,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e130f032a9c2fe76630794320043c894.html">Groups</a></li><li class="navelem"><a class="el" href="../../d5/d22/a04394.html">GroupMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d5/d22/a04394.html">UnitScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

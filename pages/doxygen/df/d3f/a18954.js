@@ -1,6 +1,5 @@
 var a18954 =
 [
-    [ "npc_crystal_spikeAI", "de/d27/a18958.html", "de/d27/a18958" ],
-    [ "npc_crystal_spike", "df/d3f/a18954.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
-    [ "GetAI", "df/d3f/a18954.html#a51df30295395c807c0ade2abaf0bd78e", null ]
+    [ "achievement_split_personality", "df/d3f/a18954.html#aac29ae7c321306a663e55493987af45d", null ],
+    [ "OnCheck", "df/d3f/a18954.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
 ];

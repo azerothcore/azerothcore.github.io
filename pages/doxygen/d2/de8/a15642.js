@@ -1,5 +1,7 @@
 var a15642 =
 [
-    [ "at_baltharus_plateau", "d2/de8/a15642.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
-    [ "OnTrigger", "d2/de8/a15642.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
+    [ "CheckDistance", "d2/de8/a15642.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "d2/de8/a15642.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "d2/de8/a15642.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "d2/de8/a15642.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

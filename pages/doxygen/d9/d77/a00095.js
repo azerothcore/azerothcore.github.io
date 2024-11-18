@@ -1,20 +1,11 @@
 var a00095 =
 [
-    [ "map_fileheader", "d4/da8/a09478.html", "d4/da8/a09478" ],
-    [ "map_heightHeader", "d7/d8c/a09486.html", "d7/d8c/a09486" ],
-    [ "map_liquidHeader", "dd/d60/a09490.html", "dd/d60/a09490" ],
-    [ "MAP_HEIGHT_AS_INT16", "d9/d77/a00095.html#aefa74fa33f3eba2d39b407c2fd2e8aba", null ],
-    [ "MAP_HEIGHT_AS_INT8", "d9/d77/a00095.html#a15a9245a53c00f1a8a89dd2d798cea9d", null ],
-    [ "MAP_HEIGHT_NO_HEIGHT", "d9/d77/a00095.html#aa5c2437972b2be5c5ff23a7ac04e2680", null ],
-    [ "MAP_LIQUID_NO_HEIGHT", "d9/d77/a00095.html#a59daadc7c96729526e05982ec6600bb1", null ],
-    [ "MAP_LIQUID_NO_TYPE", "d9/d77/a00095.html#a42b8b790a3d284e7116bcad1c391b8f9", null ],
-    [ "MAP_LIQUID_TYPE_DARK_WATER", "d9/d77/a00095.html#a661f965d11d7da56890b64484d871441", null ],
-    [ "MAP_LIQUID_TYPE_MAGMA", "d9/d77/a00095.html#a14e2a0a2291347b0ef877bc9d70f7384", null ],
-    [ "MAP_LIQUID_TYPE_NO_WATER", "d9/d77/a00095.html#a17d4c5ea32412f0fbe04a27f63d50e13", null ],
-    [ "MAP_LIQUID_TYPE_OCEAN", "d9/d77/a00095.html#a6d257e0effb928fba7534eeee5de602d", null ],
-    [ "MAP_LIQUID_TYPE_SLIME", "d9/d77/a00095.html#aa56f76510545ed9c706b8fee3061b6cb", null ],
-    [ "MAP_LIQUID_TYPE_WATER", "d9/d77/a00095.html#a5ec110bd30ec47fcd087aaf5d572de28", null ],
-    [ "holetab_h", "d9/d77/a00095.html#abeb39e913287295598939165f99abe3b", null ],
-    [ "holetab_v", "d9/d77/a00095.html#a8c5ddef856ef804076860bb176c6d9e1", null ],
-    [ "MAP_VERSION_MAGIC", "d9/d77/a00095.html#aee23c8e21c084824373ce587f8fe1f04", null ]
+    [ "VMAP::ModelPosition", "da/d88/a04942.html", "da/d88/a04942" ],
+    [ "VMAP::MapSpawns", "d5/d41/a04946.html", "d5/d41/a04946" ],
+    [ "VMAP::GroupModel_Raw", "df/d1b/a04950.html", "df/d1b/a04950" ],
+    [ "VMAP::WorldModel_Raw", "d2/d68/a04954.html", "d2/d68/a04954" ],
+    [ "VMAP::TileAssembler", "d1/dd4/a04958.html", "d1/dd4/a04958" ],
+    [ "MapData", "d9/d77/a00095.html#a28dc2e567f8620fed1128b6c4cf5b749", null ],
+    [ "TileMap", "d9/d77/a00095.html#abfe766a1b58bbf69ce3b17ff14d1c101", null ],
+    [ "UniqueEntryMap", "d9/d77/a00095.html#a3424b44a092b5f3d8074649ae11ee481", null ]
 ];

@@ -1,6 +1,6 @@
 var a11666 =
 [
-    [ "boss_gloomrel", "d4/db2/a11666.html#ad655acba7b2d88779f849a685bb9fbb7", null ],
-    [ "OnGossipHello", "d4/db2/a11666.html#a6ce6898142d767a130ec09769f2be488", null ],
-    [ "OnGossipSelect", "d4/db2/a11666.html#ab7c623cdd2301f3a0a74d6b1e187a8c5", null ]
+    [ "boss_high_priestess_thaurissanAI", "d4/db2/a11666.html#acbc89b59865a5fda5a4143dd8c690b37", null ],
+    [ "JustEngagedWith", "d4/db2/a11666.html#a6602682950aab4e9932bf6cdfac9886b", null ],
+    [ "UpdateAI", "d4/db2/a11666.html#a216a5bc7a38aa5e13f9d025f44e04779", null ]
 ];

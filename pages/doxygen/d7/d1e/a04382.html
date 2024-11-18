@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/OutdoorPvP/OutdoorPvP.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AuctionHouseScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,182 +106,102 @@ $(document).ready(function(){initNavTree('d7/d1e/a04382.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvP.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AuctionHouseScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ZoneScript.h</a>&quot;</code><br />
-<code>#include &lt;array&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da0/a09826.html">go_type</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/a09986.html">AuctionHouseScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d95/a09830.html">creature_type</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df9/a09834.html">OPvPCapturePoint</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d38/a09838.html">OutdoorPvP</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a61d2d26058751cc92ed3744e7216a061"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a61d2d26058751cc92ed3744e7216a061">MAX_OUTDOORPVP_TYPES</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a61d2d26058751cc92ed3744e7216a061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a080aeb08f4e15904e94076846a03e927"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d95/a04160.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a></td></tr>
-<tr class="separator:a080aeb08f4e15904e94076846a03e927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a56e7764289940901c2a230103f78adee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adee">OutdoorPvPTypes</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780">OUTDOOR_PVP_HP</a> = 1
+<tr class="memitem:a12159e90d998de411ceb193c223f26c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9">AuctionHouseHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0">AUCTIONHOUSEHOOK_ON_AUCTION_ADD</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811">OUTDOOR_PVP_NA</a> = 2
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2">AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab">OUTDOOR_PVP_TF</a> = 3
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff">AUCTIONHOUSEHOOK_ON_AUCTION_SUCCESSFUL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc">OUTDOOR_PVP_ZM</a> = 4
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25">AUCTIONHOUSEHOOK_ON_AUCTION_EXPIRE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e">OUTDOOR_PVP_SI</a> = 5
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_WON_MAIL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125">OUTDOOR_PVP_EP</a> = 6
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SALE_PENDING_MAIL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6">OUTDOOR_PVP_GH</a> = 7
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SUCCESSFUL_MAIL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_EXPIRED_MAIL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_OUTBIDDED_MAIL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_CANCELLED_TO_BIDDER_MAIL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc">AUCTIONHOUSEHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:a56e7764289940901c2a230103f78adee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7908847b61cb33598912d94a2c0d153a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153a">ObjectiveStates</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6">OBJECTIVESTATE_NEUTRAL</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01">OBJECTIVESTATE_ALLIANCE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545">OBJECTIVESTATE_HORDE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683">OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143">OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b">OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a">OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a>
-<br />
- }</td></tr>
-<tr class="separator:a7908847b61cb33598912d94a2c0d153a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a12159e90d998de411ceb193c223f26c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a61d2d26058751cc92ed3744e7216a061" name="a61d2d26058751cc92ed3744e7216a061"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61d2d26058751cc92ed3744e7216a061">&#9670;&#160;</a></span>MAX_OUTDOORPVP_TYPES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_OUTDOORPVP_TYPES&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a080aeb08f4e15904e94076846a03e927" name="a080aeb08f4e15904e94076846a03e927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a080aeb08f4e15904e94076846a03e927">&#9670;&#160;</a></span>PlayerSet</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../dc/d95/a04160.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a> <a class="el" href="../../d7/d1e/a04382.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7908847b61cb33598912d94a2c0d153a" name="a7908847b61cb33598912d94a2c0d153a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7908847b61cb33598912d94a2c0d153a">&#9670;&#160;</a></span>ObjectiveStates</h2>
+<a id="a12159e90d998de411ceb193c223f26c9" name="a12159e90d998de411ceb193c223f26c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12159e90d998de411ceb193c223f26c9">&#9670;&#160;</a></span>AuctionHouseHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153a">ObjectiveStates</a></td>
+          <td class="memname">enum <a class="el" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9">AuctionHouseHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6" name="a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6"></a>OBJECTIVESTATE_NEUTRAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01" name="a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01"></a>OBJECTIVESTATE_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545" name="a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545"></a>OBJECTIVESTATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683" name="a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683"></a>OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143" name="a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143"></a>OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b" name="a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b"></a>OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a" name="a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a"></a>OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0" name="a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0"></a>AUCTIONHOUSEHOOK_ON_AUCTION_ADD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2" name="a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2"></a>AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff" name="a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff"></a>AUCTIONHOUSEHOOK_ON_AUCTION_SUCCESSFUL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25" name="a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25"></a>AUCTIONHOUSEHOOK_ON_AUCTION_EXPIRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f" name="a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_WON_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223" name="a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SALE_PENDING_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112" name="a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SUCCESSFUL_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff" name="a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_EXPIRED_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f" name="a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_OUTBIDDED_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e" name="a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_CANCELLED_TO_BIDDER_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9" name="a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9"></a>AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc" name="a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc"></a>AUCTIONHOUSEHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6">OBJECTIVESTATE_NEUTRAL</a> = 0,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01">OBJECTIVESTATE_ALLIANCE</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545">OBJECTIVESTATE_HORDE</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683">OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a>,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143">OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a>,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b">OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a>,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a">OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a>,</div>
-<div class="line"><span class="lineno">   49</span>};</div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545">OBJECTIVESTATE_HORDE</a></div><div class="ttdeci">@ OBJECTIVESTATE_HORDE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:44</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa2b3829ced9f7338c806056bcbaf4f143">OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a></div><div class="ttdeci">@ OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:46</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01">OBJECTIVESTATE_ALLIANCE</a></div><div class="ttdeci">@ OBJECTIVESTATE_ALLIANCE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:43</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa8a761b613f1cc1791a30f2dd6c09a683">OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a></div><div class="ttdeci">@ OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:45</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aa9361cd97baf1e11b2ed70f50c26cdb4a">OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a></div><div class="ttdeci">@ OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:48</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aacdbca77e3430d64e7744a243553169b6">OBJECTIVESTATE_NEUTRAL</a></div><div class="ttdeci">@ OBJECTIVESTATE_NEUTRAL</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:42</div></div>
-<div class="ttc" id="aa04382_html_a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b"><div class="ttname"><a href="../../d7/d1e/a04382.html#a7908847b61cb33598912d94a2c0d153aafec9bd2a292f2ef3dba964bdcbff182b">OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a></div><div class="ttdeci">@ OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:47</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a56e7764289940901c2a230103f78adee" name="a56e7764289940901c2a230103f78adee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56e7764289940901c2a230103f78adee">&#9670;&#160;</a></span>OutdoorPvPTypes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adee">OutdoorPvPTypes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780" name="a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780"></a>OUTDOOR_PVP_HP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811" name="a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811"></a>OUTDOOR_PVP_NA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab" name="a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab"></a>OUTDOOR_PVP_TF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc" name="a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc"></a>OUTDOOR_PVP_ZM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e" name="a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e"></a>OUTDOOR_PVP_SI&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125" name="a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125"></a>OUTDOOR_PVP_EP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6" name="a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6"></a>OUTDOOR_PVP_GH&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780">OUTDOOR_PVP_HP</a> = 1,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811">OUTDOOR_PVP_NA</a> = 2,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab">OUTDOOR_PVP_TF</a> = 3,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc">OUTDOOR_PVP_ZM</a> = 4,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e">OUTDOOR_PVP_SI</a> = 5,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125">OUTDOOR_PVP_EP</a> = 6,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6">OUTDOOR_PVP_GH</a> = 7,</div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea30dd8f698b5a13bb149d2aefbb8d8b3e">OUTDOOR_PVP_SI</a></div><div class="ttdeci">@ OUTDOOR_PVP_SI</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:33</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab">OUTDOOR_PVP_TF</a></div><div class="ttdeci">@ OUTDOOR_PVP_TF</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:31</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeea835e4d954507eb3cb658b3b0f9d59dfc">OUTDOOR_PVP_ZM</a></div><div class="ttdeci">@ OUTDOOR_PVP_ZM</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:32</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeead76b70163971bf73abcdc457607a60c6">OUTDOOR_PVP_GH</a></div><div class="ttdeci">@ OUTDOOR_PVP_GH</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:35</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeadb5d1cbc5e091b87603c561df5fb6125">OUTDOOR_PVP_EP</a></div><div class="ttdeci">@ OUTDOOR_PVP_EP</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:34</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeade464dddf74821e2cae470176a593811">OUTDOOR_PVP_NA</a></div><div class="ttdeci">@ OUTDOOR_PVP_NA</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:30</div></div>
-<div class="ttc" id="aa04382_html_a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780"><div class="ttname"><a href="../../d7/d1e/a04382.html#a56e7764289940901c2a230103f78adeeaec0ceb2120bb05c7b67c96acb5f5c780">OUTDOOR_PVP_HP</a></div><div class="ttdeci">@ OUTDOOR_PVP_HP</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:29</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0">AUCTIONHOUSEHOOK_ON_AUCTION_ADD</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2">AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff">AUCTIONHOUSEHOOK_ON_AUCTION_SUCCESSFUL</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25">AUCTIONHOUSEHOOK_ON_AUCTION_EXPIRE</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_WON_MAIL</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SALE_PENDING_MAIL</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SUCCESSFUL_MAIL</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_EXPIRED_MAIL</a>,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_OUTBIDDED_MAIL</a>,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_CANCELLED_TO_BIDDER_MAIL</a>,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc">AUCTIONHOUSEHOOK_END</a></div>
+<div class="line"><span class="lineno">   38</span>};</div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a295a1203b4a90662e8073a6261f3ef3e">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_CANCELLED_TO_BIDDER_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_CANCELLED_TO_BIDDER_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:35</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a35dc9893c9907c4dcc2e82d4c76d676f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_WON_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_WON_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:30</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a362d6596f9e6e244770e45e6a370c4ff">AUCTIONHOUSEHOOK_ON_AUCTION_SUCCESSFUL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_AUCTION_SUCCESSFUL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:28</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a421df825a260ea03c56931355ddf1ab0">AUCTIONHOUSEHOOK_ON_AUCTION_ADD</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_AUCTION_ADD</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:26</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a44327f4a6ffbc4e61c13b3464ed692a9">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_UPDATE</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_UPDATE</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:36</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a734ce8ea184a341e1f4f2cb623ca92f2">AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_AUCTION_REMOVE</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:27</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a7e23595d7f6e6e1395197011e8f9a223">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SALE_PENDING_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SALE_PENDING_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:31</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8134031bb2abf85f09fdb58f05e2beff">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_EXPIRED_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_EXPIRED_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:33</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9a8dfad4f6d84ae3e60da1bda679769112">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SUCCESSFUL_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_SUCCESSFUL_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:32</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ab8f41919bd7182973e7f7a170e9d2d2f">AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_OUTBIDDED_MAIL</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_BEFORE_AUCTIONHOUSEMGR_SEND_AUCTION_OUTBIDDED_MAIL</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:34</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9ad05ff999bda4877b0113b2e6eca79a25">AUCTIONHOUSEHOOK_ON_AUCTION_EXPIRE</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_ON_AUCTION_EXPIRE</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:29</div></div>
+<div class="ttc" id="aa04382_html_a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc"><div class="ttname"><a href="../../d7/d1e/a04382.html#a12159e90d998de411ceb193c223f26c9af4325d8b8ea36fcf62bcf309a84918fc">AUCTIONHOUSEHOOK_END</a></div><div class="ttdeci">@ AUCTIONHOUSEHOOK_END</div><div class="ttdef"><b>Definition:</b> AuctionHouseScript.h:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -290,8 +210,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_25d8f4185a27c7d78867bf9666699c3c.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d7/d1e/a04382.html">OutdoorPvP.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d7/d1e/a04382.html">AuctionHouseScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

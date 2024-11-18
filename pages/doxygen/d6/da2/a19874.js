@@ -1,7 +1,5 @@
 var a19874 =
 [
-    [ "HandleAfterEffectApply", "d6/da2/a19874.html#adab765d78094eec673abce5140145267", null ],
-    [ "OnApply", "d6/da2/a19874.html#aab4331a7a55dc6f713db02726ec22e3a", null ],
-    [ "PrepareAuraScript", "d6/da2/a19874.html#acb827ae4299ae482d9b7f3fb09bbcc52", null ],
-    [ "Register", "d6/da2/a19874.html#ac1007ce2ee5e046639829558855f0188", null ]
+    [ "FlashFreezeCheck", "d6/da2/a19874.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
+    [ "operator()", "d6/da2/a19874.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
 ];

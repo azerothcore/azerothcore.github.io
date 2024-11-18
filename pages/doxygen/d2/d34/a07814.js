@@ -1,10 +1,4 @@
 var a07814 =
 [
-    [ "auras", "d2/d34/a07814.html#a20695ff7997e1ebd6fe898a8b41aeddb", null ],
-    [ "bytes1", "d2/d34/a07814.html#ae337bd59e1e1eb7f4c9cdee4e8c6a7b9", null ],
-    [ "bytes2", "d2/d34/a07814.html#aedf06568867bbb5db5ca8017727dab9d", null ],
-    [ "emote", "d2/d34/a07814.html#a82f7be10807af7b25dd41c643be066fc", null ],
-    [ "mount", "d2/d34/a07814.html#a4d84276a45de1b62e507ac5c763dce3a", null ],
-    [ "path_id", "d2/d34/a07814.html#aa86bac734e0e652b6bb4ea273cf62571", null ],
-    [ "visibilityDistanceType", "d2/d34/a07814.html#ad3ae39b8c5be151e15ab6f1494943bc3", null ]
+    [ "Name", "d2/d34/a07814.html#a624a1c1204cbc15acfc810a7720b8ea0", null ]
 ];

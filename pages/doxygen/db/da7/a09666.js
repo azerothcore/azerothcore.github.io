@@ -1,17 +1,14 @@
 var a09666 =
 [
-    [ "ConfusedMovementGenerator", "db/da7/a09666.html#a694dd083a1c01378e4877939f78309b8", null ],
-    [ "_InitSpecific", "db/da7/a09666.html#aea922e45838ab8a9cfe1787f0f7c169c", null ],
-    [ "_InitSpecific", "db/da7/a09666.html#a212665e4306ca335181c255573d30a06", null ],
-    [ "_InitSpecific", "db/da7/a09666.html#af597e5c544e56c255b179a08290f4ccb", null ],
-    [ "DoFinalize", "db/da7/a09666.html#a9e2a3f0e1a99436b33a883a1ac797f43", null ],
-    [ "DoFinalize", "db/da7/a09666.html#a82c2458b43334f06cae1a91224753fd3", null ],
-    [ "DoFinalize", "db/da7/a09666.html#ab18018803d8e194e9d2220eb8c6450ac", null ],
-    [ "DoInitialize", "db/da7/a09666.html#a8f1e9d0e00517b0d7f88b4213fd25104", null ],
-    [ "DoReset", "db/da7/a09666.html#a734a73ffa4008898a170b913aafce899", null ],
-    [ "DoUpdate", "db/da7/a09666.html#a8703ba139d90194a481388a543a14de6", null ],
-    [ "GetMovementGeneratorType", "db/da7/a09666.html#a3f0760b38745b9e065e069d6ad984d51", null ],
-    [ "i_nextMove", "db/da7/a09666.html#ad36fe1fd2d07af01691a319c425dc92c", null ],
-    [ "i_nextMoveTime", "db/da7/a09666.html#ad7b5bb65d55f6149e8df8cb4e2cdda50", null ],
-    [ "i_waypoints", "db/da7/a09666.html#a02b83b879cc31fb1a0e2f90e97556ba1", null ]
+    [ "~MovementGenerator", "db/da7/a09666.html#a13c3c432ac2a91dd4d07b090ec06b903", null ],
+    [ "Finalize", "db/da7/a09666.html#aef4cf800aa06dddac4efd36e3c058d2b", null ],
+    [ "GetMovementGeneratorType", "db/da7/a09666.html#a60bac341b438ea7258986f234a952324", null ],
+    [ "GetResetPosition", "db/da7/a09666.html#a60ac9e99f41d1f5c320441cf78b4b46a", null ],
+    [ "GetSplineId", "db/da7/a09666.html#a99865a1b7cf84b02784bfa8df958585f", null ],
+    [ "Initialize", "db/da7/a09666.html#a0040e427ac4a09273641a96a13fd4c1f", null ],
+    [ "Pause", "db/da7/a09666.html#a37530e5cd743faecabd21eba08dce939", null ],
+    [ "Reset", "db/da7/a09666.html#aa6641fa1182551421fc8572afad8e083", null ],
+    [ "Resume", "db/da7/a09666.html#a51988a8b0a45459242467e38ca46303c", null ],
+    [ "unitSpeedChanged", "db/da7/a09666.html#a0f9c4fd52947688dcda1161924e829bb", null ],
+    [ "Update", "db/da7/a09666.html#ae3014d8c6e728799c86134ef64737ed5", null ]
 ];

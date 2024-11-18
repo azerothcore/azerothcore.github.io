@@ -1,6 +1,7 @@
 var a27638 =
 [
-    [ "ChannelID", "de/d7c/a27638.html#a51753c36711e100fd8dca1cd5b1e7e94", null ],
-    [ "flags", "de/d7c/a27638.html#aa77db644555e336ccbb8dd138c192425", null ],
-    [ "pattern", "de/d7c/a27638.html#ad8b550cf444d66eede00abcf2cefec22", null ]
+    [ "cutPercent", "de/d7c/a27638.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "de/d7c/a27638.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "de/d7c/a27638.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "de/d7c/a27638.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

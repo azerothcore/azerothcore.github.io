@@ -1,11 +1,10 @@
 var a15650 =
 [
-    [ "boss_general_zarithrianAI", "d8/dd5/a15650.html#a4168a5883052810d137f59d3b104bc24", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d8/dd5/a15650.html#a22f6ff041e61c94df73a938162fa26f5", null ],
-    [ "JustDied", "d8/dd5/a15650.html#a49be533142c82a95a136dc2dcbf4843c", null ],
-    [ "JustEngagedWith", "d8/dd5/a15650.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
-    [ "JustSummoned", "d8/dd5/a15650.html#acb694d20b35d57a315aa4662562af210", null ],
-    [ "KilledUnit", "d8/dd5/a15650.html#ad385477740b728e63acff7c184df3c09", null ],
-    [ "Reset", "d8/dd5/a15650.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
-    [ "UpdateAI", "d8/dd5/a15650.html#a3a7e578d64a760cd38712c725eecc97d", null ]
+    [ "npc_xerestraszaAI", "d8/dd5/a15650.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
+    [ "DoAction", "d8/dd5/a15650.html#af696ecee315892b2bf0233113d2f89f9", null ],
+    [ "Reset", "d8/dd5/a15650.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
+    [ "UpdateAI", "d8/dd5/a15650.html#a6389ab58f4b44c668590113ec75f2adf", null ],
+    [ "_events", "d8/dd5/a15650.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
+    [ "_introDone", "d8/dd5/a15650.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
+    [ "_isIntro", "d8/dd5/a15650.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
 ];

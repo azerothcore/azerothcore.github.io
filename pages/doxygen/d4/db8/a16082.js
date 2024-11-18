@@ -1,7 +1,6 @@
 var a16082 =
 [
-    [ "npc_toc_retro_paladinAI", "d4/db8/a16082.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "d4/db8/a16082.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "d4/db8/a16082.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "d4/db8/a16082.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "npc_toc_enh_shamanAI", "de/db7/a16086.html", "de/db7/a16086" ],
+    [ "npc_toc_enh_shaman", "d4/db8/a16082.html#ac328b63a988d2cd8640237b250c338a8", null ],
+    [ "GetAI", "d4/db8/a16082.html#a4501c9289a06750d8f153f89565b12f3", null ]
 ];

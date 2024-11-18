@@ -1,6 +1,6 @@
 var a16750 =
 [
-    [ "boss_drakkari_elementalAI", "d1/dd8/a16754.html", "d1/dd8/a16754" ],
-    [ "boss_drakkari_elemental", "d8/d7e/a16750.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
-    [ "GetAI", "d8/d7e/a16750.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
+    [ "entry", "d8/d7e/a16750.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "d8/d7e/a16750.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "d8/d7e/a16750.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

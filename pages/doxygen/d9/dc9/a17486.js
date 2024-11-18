@@ -1,7 +1,7 @@
 var a17486 =
 [
-    [ "HandleTriggerSpell", "d9/dc9/a17486.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
-    [ "OnRemove", "d9/dc9/a17486.html#a238adc96e80c1890934b23dd4a2685b4", null ],
-    [ "PrepareAuraScript", "d9/dc9/a17486.html#af9ce7433b620fdf1dea570561c514b3b", null ],
-    [ "Register", "d9/dc9/a17486.html#ab36a001ea8cd87703e2694e0765635c0", null ]
+    [ "HandleExtraEffect", "d9/dc9/a17486.html#a8fbfac8e62d2534daf40194f7fe31945", null ],
+    [ "PrepareAuraScript", "d9/dc9/a17486.html#a45e83b3bfa344391bb87c8088ae1c6a7", null ],
+    [ "Register", "d9/dc9/a17486.html#a5ec23a02a4e617e6db8cf17d2bd36aff", null ],
+    [ "Validate", "d9/dc9/a17486.html#a2e7253cfc18b66d663457c2fb7ab3302", null ]
 ];

@@ -1,6 +1,6 @@
 var a18270 =
 [
-    [ "npc_arthas_teleport_visualAI", "d3/d96/a18274.html", "d3/d96/a18274" ],
-    [ "npc_arthas_teleport_visual", "d9/dbe/a18270.html#a62d2caed6b12355f6d7aeceabba2ddaf", null ],
-    [ "GetAI", "d9/dbe/a18270.html#a393d5ef960b9ee0cf8feeeeb5d81045d", null ]
+    [ "npc_impaling_spearAI", "d3/d96/a18274.html", "d3/d96/a18274" ],
+    [ "npc_impaling_spear", "d9/dbe/a18270.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
+    [ "GetAI", "d9/dbe/a18270.html#aad49164a3e7541b755c1c622b996bb9a", null ]
 ];

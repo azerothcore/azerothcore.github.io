@@ -1,7 +1,10 @@
 var a25786 =
 [
-    [ "HandleScriptEffect", "d6/d48/a25786.html#a8c7ede10a8f7d0c1ea04c21166807995", null ],
-    [ "PrepareSpellScript", "d6/d48/a25786.html#af52663b01774372d3e6f695d2f395cb5", null ],
-    [ "Register", "d6/d48/a25786.html#abcefab06ff481fad88be4d7ad9289808", null ],
-    [ "Validate", "d6/d48/a25786.html#af269a7085412b5a889dfb802d1dc7fbe", null ]
+    [ "CheckCast", "d6/d48/a25786.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d6/d48/a25786.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d6/d48/a25786.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d6/d48/a25786.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d6/d48/a25786.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d6/d48/a25786.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d6/d48/a25786.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

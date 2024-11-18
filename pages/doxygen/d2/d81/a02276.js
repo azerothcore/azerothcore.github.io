@@ -1,10 +1,6 @@
 var a02276 =
 [
-    [ "spell_razelikh_teleport_group", "de/da3/a13142.html", "de/da3/a13142" ],
-    [ "DeathlyUsher", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
-      [ "SPELL_TELEPORT_SINGLE", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
-      [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],
-      [ "SPELL_TELEPORT_GROUP", "d2/d81/a02276.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3efb41f1943511af5c5c1abbced10dcc", null ]
-    ] ],
-    [ "AddSC_blasted_lands", "d2/d81/a02276.html#a8c45aaff0bee880d1bac07d32d1747f1", null ]
+    [ "instance_the_stockade", "d3/d1e/a13126.html", "d3/d1e/a13126" ],
+    [ "instance_the_stockade::instance_the_stockade_InstanceMapScript", "d9/d61/a13130.html", "d9/d61/a13130" ],
+    [ "AddSC_instance_the_stockade", "d2/d81/a02276.html#a185a86af6f910845f0f833704f0101af", null ]
 ];

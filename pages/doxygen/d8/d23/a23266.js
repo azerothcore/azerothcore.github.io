@@ -1,15 +1,7 @@
 var a23266 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "d8/d23/a23266.html#a06f7e0f178d45a92f16dc06b68645fba", null ],
-    [ "Initialize", "d8/d23/a23266.html#afa054fb11fe777019baa70f46bfd8212", null ],
-    [ "OnCreatureCreate", "d8/d23/a23266.html#aa05f08785d9d62db41e8d29ef55db0d8", null ],
-    [ "OnCreatureRemove", "d8/d23/a23266.html#a727d4d3bfc52391a088e86fef013617c", null ],
-    [ "OnGameObjectCreate", "d8/d23/a23266.html#a020584d79926d170c02655c5e2841127", null ],
-    [ "OnGameObjectRemove", "d8/d23/a23266.html#a9a6ac60b68e2a515e771696c5c88b93d", null ],
-    [ "SetBossState", "d8/d23/a23266.html#a160269f8d4cde5297d5f70a5f8eec2b2", null ],
-    [ "SetData", "d8/d23/a23266.html#a847abafb7b00e9b2cab73a90a16b959e", null ],
-    [ "_columnSet", "d8/d23/a23266.html#a2593bf88b0aba019a831b3ca6a8e15b9", null ],
-    [ "_cubesSet", "d8/d23/a23266.html#ad59566c515cbea3274d17e483f3b4ef1", null ],
-    [ "_magtheridonGUID", "d8/d23/a23266.html#a03e70ccaf8c23d2c775051320c6c4636", null ],
-    [ "_wardersSet", "d8/d23/a23266.html#a37b2621d50e8a8f0bee3f089dbce88f9", null ]
+    [ "FilterTargets", "d8/d23/a23266.html#a921450a09e51585beb9dd2ce9b00bac9", null ],
+    [ "HandleHit", "d8/d23/a23266.html#adb30857a5a320bb24b8cc0bcb9d60040", null ],
+    [ "PrepareSpellScript", "d8/d23/a23266.html#a376618b9811b2e1ec18697431094e22f", null ],
+    [ "Register", "d8/d23/a23266.html#ae7f4f54446d5a1ebb20d49ab9deaed81", null ]
 ];

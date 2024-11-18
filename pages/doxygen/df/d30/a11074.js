@@ -1,10 +1,6 @@
 var a11074 =
 [
-    [ "CustomChatTextBuilder", "df/d30/a11074.html#a47b3e24f7100d13180ad1946647999ae", null ],
-    [ "operator()", "df/d30/a11074.html#ad80555f063e7de15df3c434bc90d2ca9", null ],
-    [ "_language", "df/d30/a11074.html#a92d1c58d76d5d450892338d0e1856dc0", null ],
-    [ "_msgType", "df/d30/a11074.html#a0db1501da33fde77ab3c50943666b1fd", null ],
-    [ "_source", "df/d30/a11074.html#ad75f22d7eb6a62d59730918f4336768c", null ],
-    [ "_target", "df/d30/a11074.html#aa45be322836be588d8df2b253a22ee5c", null ],
-    [ "_text", "df/d30/a11074.html#ab59c9b938b564329483e38466169a92c", null ]
+    [ "AuraProcHandler", "df/d30/a11074.html#a1c0ad4a28c98d89a0afc2f8eeda9a421", null ],
+    [ "Call", "df/d30/a11074.html#abc0c3be9dee08e995c282f20900f3c46", null ],
+    [ "_HandlerScript", "df/d30/a11074.html#ada8d7a5659598b0092739a91ba2653bd", null ]
 ];

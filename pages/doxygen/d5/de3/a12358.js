@@ -1,11 +1,10 @@
 var a12358 =
 [
-    [ "npc_kilrek", "d5/de3/a12358.html#a853aa53d3e03aebe07c939eaf1b1c9c2", null ],
-    [ "JustDied", "d5/de3/a12358.html#a314ed9f73c6a9c991c7eb2690e0f7c1c", null ],
-    [ "JustEngagedWith", "d5/de3/a12358.html#a3a60a3bdb5a2876e325a26964bab21ac", null ],
-    [ "Reset", "d5/de3/a12358.html#ae0b375abe5ec909cfaff96c257da0325", null ],
-    [ "UpdateAI", "d5/de3/a12358.html#acf402b43e91b1f488ef8b9e3ed5092c4", null ],
-    [ "_scheduler", "d5/de3/a12358.html#a93663ee806385f617e81a03062dd94d6", null ],
-    [ "instance", "d5/de3/a12358.html#a13b969fa86ef57f9508117a73252a36b", null ],
-    [ "TerestianGUID", "d5/de3/a12358.html#a411476da379bf687cd007e25ba11280e", null ]
+    [ "boss_servant_quarters", "d5/de3/a12358.html#aedf2869e3fbc1ebd13caedffa60bbf5f", null ],
+    [ "JustDied", "d5/de3/a12358.html#a3b9df7ab573f22a9e15761cb662db404", null ],
+    [ "JustEngagedWith", "d5/de3/a12358.html#afe4a4a78824851f63ce560a60d55cee3", null ],
+    [ "MovementInform", "d5/de3/a12358.html#a00d31d9421903b6a92c03a3bd0382328", null ],
+    [ "Reset", "d5/de3/a12358.html#a273a09b1242968a5dd45ab9866fbe481", null ],
+    [ "UpdateAI", "d5/de3/a12358.html#a6a41cfd67310077803733190645050e4", null ],
+    [ "_scheduler", "d5/de3/a12358.html#a520142de5e8d2911684b18c85a3f37e2", null ]
 ];

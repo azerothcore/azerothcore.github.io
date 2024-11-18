@@ -1,8 +1,7 @@
 var a09142 =
 [
-    [ "AllWorldObjectsInExactRange", "d3/d8c/a09142.html#a0281d22587b9b1bdbfbdd8dccc625186", null ],
-    [ "operator()", "d3/d8c/a09142.html#afe0bea69ddd5e275363361bf37284840", null ],
-    [ "_equals", "d3/d8c/a09142.html#aebb4cb9e84cf91cca235fe663dba8d60", null ],
-    [ "_object", "d3/d8c/a09142.html#a5fba0e3c7cde76bfe56f8e9e9716412b", null ],
-    [ "_range", "d3/d8c/a09142.html#ae40de8ce49bb429243e5059b6d14398f", null ]
+    [ "AllWorldObjectsInRange", "d3/d8c/a09142.html#a63f46d510df0fa3153d4b3325676a468", null ],
+    [ "operator()", "d3/d8c/a09142.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
+    [ "m_fRange", "d3/d8c/a09142.html#a6afe3ef05369dce8ee205db219f97846", null ],
+    [ "m_pObject", "d3/d8c/a09142.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
 ];

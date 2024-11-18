@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Weather/Weather.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/shared/DataStores/DBCStore.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,73 +105,33 @@ $(document).ready(function(){initNavTree('d9/d93/a02753.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Weather.h File Reference<div class="ingroups"><a class="el" href="../../db/d7c/a04669.html">The World</a></div></div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">DBCStore.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStorageIterator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de4/a11230.html">WeatherSeasonChances</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc9/a27346.html">DBCStorageBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface class for common access.  <a href="../../da/dc9/a27346.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de4/a11234.html">WeatherData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7c/a27350.html">DBCStorage&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d62/a11238.html">Weather</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d62/a11238.html" title="Weather for one zone.">Weather</a> for one zone.  <a href="../../d9/d62/a11238.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ga5ee30d2da0d958800dd3ad582c49d487"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga5ee30d2da0d958800dd3ad582c49d487">WEATHER_SEASONS</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:ga5ee30d2da0d958800dd3ad582c49d487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ga32b7b9e733438755c99c2abd6cb8c94d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html#ga32b7b9e733438755c99c2abd6cb8c94d">WeatherState</a> : uint32 { <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da5d4c47a117d36afee4195bd260951366">WEATHER_STATE_FINE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daf088b1890d40b05c4022d90d931e8717">WEATHER_STATE_FOG</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94dafe59189ae98629ed11fbd343da10e97d">WEATHER_STATE_LIGHT_RAIN</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da33ce6050f5c9a8dbbfc2556756f960c3">WEATHER_STATE_MEDIUM_RAIN</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da13bf6f46f69defe7fbea2c659e6d3873">WEATHER_STATE_HEAVY_RAIN</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da8a760bcf8d764d8749a800905111ab05">WEATHER_STATE_LIGHT_SNOW</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da2a382668c4c73bc864079b0cf1602da6">WEATHER_STATE_MEDIUM_SNOW</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daaad9131eee7d0dce651a4142705871a3">WEATHER_STATE_HEAVY_SNOW</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94dabe53f9722c1f5ee37a0ce46a356402eb">WEATHER_STATE_LIGHT_SANDSTORM</a> = 22
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da35248c6d29502ee854f2a9c92a1c9204">WEATHER_STATE_MEDIUM_SANDSTORM</a> = 41
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da185c2513fb0f271a64db1feb5691def0">WEATHER_STATE_HEAVY_SANDSTORM</a> = 42
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da0a333865e8ae65ce8f5bb03f905dee29">WEATHER_STATE_THUNDERS</a> = 86
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94daa69a93da31c84906e5b64469cda9f27f">WEATHER_STATE_BLACKRAIN</a> = 90
-, <br />
-&#160;&#160;<a class="el" href="../../db/d7c/a04669.html#gga32b7b9e733438755c99c2abd6cb8c94da3aea8b6958d36e83f025fc7a489d1357">WEATHER_STATE_BLACKSNOW</a> = 106
-<br />
- }</td></tr>
-<tr class="separator:ga32b7b9e733438755c99c2abd6cb8c94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_adf5e23d7fbd2f278fda5650b14114ac.html">Weather</a></li><li class="navelem"><a class="el" href="../../d9/d93/a02753.html">Weather.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_df159a8f325d88d9d469ac728430a4fa.html">DataStores</a></li><li class="navelem"><a class="el" href="../../d9/d93/a02753.html">DBCStore.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

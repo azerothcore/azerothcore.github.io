@@ -1,9 +1,10 @@
 var a09138 =
 [
-    [ "UnitAuraCheck", "d4/ddb/a09138.html#acbc0c969db8b768720ab3b8235c28352", null ],
-    [ "operator()", "d4/ddb/a09138.html#abc385cad226ac51c09a908864d360fd3", null ],
-    [ "operator()", "d4/ddb/a09138.html#a1c85e9d5d517a852cf4c92063e6f3ed1", null ],
-    [ "_casterGUID", "d4/ddb/a09138.html#ab2bdf4c05792dd83e4e9542fc3083cc3", null ],
-    [ "_present", "d4/ddb/a09138.html#af553a0c4db5b11ec69ae7fbe9ce5ff78", null ],
-    [ "_spellId", "d4/ddb/a09138.html#a0dd71c851f803fb70a4543c77b672889", null ]
+    [ "GameObjectInRangeCheck", "d4/ddb/a09138.html#a62075fc1b342fe6e40998dad928da71a", null ],
+    [ "operator()", "d4/ddb/a09138.html#aa49818fa638dbd3909e5f563383346f2", null ],
+    [ "entry", "d4/ddb/a09138.html#a9223c931b791ad689451f7f0c874b6a9", null ],
+    [ "range", "d4/ddb/a09138.html#addf45c48385df26aa544957d7d24f1ec", null ],
+    [ "x", "d4/ddb/a09138.html#af52ee33b2324eb80f4ad47f2eee1dbb5", null ],
+    [ "y", "d4/ddb/a09138.html#a98acab0031dbf8b0a3943c3a6522c9d3", null ],
+    [ "z", "d4/ddb/a09138.html#a814909bb047b8b0e0dd4f7ba0c479c64", null ]
 ];

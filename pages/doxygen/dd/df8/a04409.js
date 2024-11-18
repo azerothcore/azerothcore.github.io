@@ -1,4 +1,4 @@
 var a04409 =
 [
-    [ "WorldPackets::CombatLog::EnvironmentalDamageLog", "d4/df3/a10234.html", "d4/df3/a10234" ]
+    [ "TransportScript", "d4/d79/a10114.html", "d4/d79/a10114" ]
 ];

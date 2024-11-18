@@ -1,5 +1,10 @@
 var a00122 =
 [
-    [ "Appender", "d7/d03/a05230.html", "d7/d03/a05230" ],
-    [ "InvalidAppenderArgsException", "d6/de6/a05234.html", "d6/de6/a05234" ]
+    [ "VMAP::ModelSpawn", "d3/d64/a04974.html", "d3/d64/a04974" ],
+    [ "VMAP::ModelInstance", "d5/df8/a04978.html", "d5/df8/a04978" ],
+    [ "ModelFlags", "df/dc8/a00122.html#ac540ff16efadcc07eeb9d8511b94ccce", [
+      [ "MOD_M2", "df/dc8/a00122.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
+      [ "MOD_WORLDSPAWN", "df/dc8/a00122.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
+      [ "MOD_HAS_BOUND", "df/dc8/a00122.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
+    ] ]
 ];

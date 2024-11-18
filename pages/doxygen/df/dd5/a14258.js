@@ -1,8 +1,7 @@
 var a14258 =
 [
-    [ "hyjalThrallAI", "df/dd5/a14258.html#a5bc01b52edeaac62e3a9c3e48f90feb2", null ],
-    [ "JustDied", "df/dd5/a14258.html#aa13cb18c91802ad402e5fd97ec78572a", null ],
-    [ "JustEngagedWith", "df/dd5/a14258.html#a96706138634275ae7639c14f53cdd842", null ],
-    [ "Reset", "df/dd5/a14258.html#a6a341bfcc9d697dde64584a5a0231d73", null ],
-    [ "UpdateAI", "df/dd5/a14258.html#a57046716d7c45a5fa4e203d73c4a7b87", null ]
+    [ "hyjalJainaAI", "d5/d44/a14262.html", "d5/d44/a14262" ],
+    [ "npc_hyjal_jaina", "df/dd5/a14258.html#a6616aa6c38818770610259312a392a3f", null ],
+    [ "GetAI", "df/dd5/a14258.html#ab1891f5a2aacf5d9aeb9377bd92393ed", null ],
+    [ "OnGossipSelect", "df/dd5/a14258.html#a47853fa317b1a9325fcbe555867139f6", null ]
 ];

@@ -1,8 +1,7 @@
 var a09310 =
 [
-    [ "InstResetEvent", "d8/d60/a09310.html#aefa8f2b1b2cf29ad3472712278741fa4", null ],
-    [ "InstResetEvent", "d8/d60/a09310.html#af6f80b924e52cd5296d21f4a5d1374c2", null ],
-    [ "difficulty", "d8/d60/a09310.html#a67afe513dd42370ac4bb385a7128a324", null ],
-    [ "mapid", "d8/d60/a09310.html#ad02e00b2782304fbd75973fe58eefd33", null ],
-    [ "type", "d8/d60/a09310.html#ad211513c7ed39269d464190398dabaed", null ]
+    [ "InstancePlayerBind", "d8/d60/a09310.html#abc20bba094d04eb724d03b8290102981", null ],
+    [ "extended", "d8/d60/a09310.html#a9327f62b74eea3a1a525b2fec6d90b69", null ],
+    [ "perm", "d8/d60/a09310.html#ab35249eb791941b484ecc321b1102b24", null ],
+    [ "save", "d8/d60/a09310.html#a24ef1e0e0a38033a16b697c32e3d8234", null ]
 ];

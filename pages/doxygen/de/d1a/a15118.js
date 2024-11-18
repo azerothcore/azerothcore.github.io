@@ -1,9 +1,7 @@
 var a15118 =
 [
-    [ "npc_thrall_warchiefAI", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
-    [ "npc_thrall_warchief", "de/d1a/a15118.html#a3958f0b444537ac8a5ebf55de44e3590", null ],
-    [ "GetAI", "de/d1a/a15118.html#a4fc3d5410b959b4289f1ced17d412c03", null ],
-    [ "OnGossipHello", "de/d1a/a15118.html#a5cd40c062fb07d2ddfffdc159f2935d3", null ],
-    [ "OnGossipSelect", "de/d1a/a15118.html#a63367ca0b252c148f625b305575fd768", null ],
-    [ "OnQuestReward", "de/d1a/a15118.html#aea53462e94121ad44e366d2743807c3c", null ]
+    [ "npc_giant_spotlightAI", "de/d1a/a15118.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
+    [ "Reset", "de/d1a/a15118.html#a79f6703107eed52a3aeae30393507c0f", null ],
+    [ "UpdateAI", "de/d1a/a15118.html#a8567f936dd15933300497d5abe80a272", null ],
+    [ "events", "de/d1a/a15118.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
 ];

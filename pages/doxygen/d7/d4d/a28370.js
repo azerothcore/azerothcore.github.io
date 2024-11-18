@@ -1,6 +1,10 @@
 var a28370 =
 [
-    [ "height", "d7/d4d/a28370.html#a7638f586a055c48a46e36471543ff72f", null ],
-    [ "unk1", "d7/d4d/a28370.html#a6c08b6fa33e12a9900218d0d0b8b78d5", null ],
-    [ "unk2", "d7/d4d/a28370.html#a394a04f6e985824aa259a42b11b97136", null ]
+    [ "WDTFile", "d7/d4d/a28370.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
+    [ "~WDTFile", "d7/d4d/a28370.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
+    [ "GetMap", "d7/d4d/a28370.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
+    [ "init", "d7/d4d/a28370.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
+    [ "_file", "d7/d4d/a28370.html#a54ab64288144b9cf4904e67bb359e524", null ],
+    [ "_wmoNames", "d7/d4d/a28370.html#a6ec4f95ff866585403670b620a42a857", null ],
+    [ "filename", "d7/d4d/a28370.html#ab3dac8623598bac1152a514a00126bf6", null ]
 ];

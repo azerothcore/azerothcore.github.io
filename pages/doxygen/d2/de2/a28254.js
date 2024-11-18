@@ -1,9 +1,20 @@
 var a28254 =
 [
-    [ "adtData", "de/d4a/a28262.html", "de/d4a/a28262" ],
-    [ "prepareLoadedData", "d2/de2/a28254.html#a6b755c9e341918d05105d993391429c6", null ],
-    [ "adt_list", "d2/de2/a28254.html#abe28c39e8856412c4fb182baab3218f0", null ],
-    [ "fcc", "d2/de2/a28254.html#ac8ee92a1747e31385cbfadaea16c267f", null ],
-    [ "fcc_txt", "d2/de2/a28254.html#a0657c323732de8d83b9c360c1dd03b61", null ],
-    [ "size", "d2/de2/a28254.html#a797c02773dd470a318474c7ef033ba7c", null ]
+    [ "FileLoader", "d2/de2/a28254.html#a51313b536560d1d89d8350475d2bc749", null ],
+    [ "~FileLoader", "d2/de2/a28254.html#a0954776182dd01364bdb216539ce398b", null ],
+    [ "FileLoader", "d2/de2/a28254.html#a51313b536560d1d89d8350475d2bc749", null ],
+    [ "~FileLoader", "d2/de2/a28254.html#a0954776182dd01364bdb216539ce398b", null ],
+    [ "free", "d2/de2/a28254.html#a738aeb2ebe751c9fc75013dbce30dcc4", null ],
+    [ "free", "d2/de2/a28254.html#aef98564821c8e63b6d484179cda0b380", null ],
+    [ "GetData", "d2/de2/a28254.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
+    [ "GetData", "d2/de2/a28254.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
+    [ "GetDataSize", "d2/de2/a28254.html#a2a07adb0692a51af06ccd31d449ae444", null ],
+    [ "GetDataSize", "d2/de2/a28254.html#a2a07adb0692a51af06ccd31d449ae444", null ],
+    [ "loadFile", "d2/de2/a28254.html#a11908109042f93ddde393e7a874683c9", null ],
+    [ "loadFile", "d2/de2/a28254.html#a11908109042f93ddde393e7a874683c9", null ],
+    [ "prepareLoadedData", "d2/de2/a28254.html#ab66347098d7c9ac470339c232f9b7588", null ],
+    [ "prepareLoadedData", "d2/de2/a28254.html#a498a33d80768843b4ab1ff2d5ffe68d9", null ],
+    [ "data", "d2/de2/a28254.html#aff1880ac2038f17f4d1f63bc9f7d9afd", null ],
+    [ "data_size", "d2/de2/a28254.html#a355891fc980538e74080b9b83a95dec8", null ],
+    [ "version", "d2/de2/a28254.html#a41cedec185e5909d83c8a185d1476dee", null ]
 ];

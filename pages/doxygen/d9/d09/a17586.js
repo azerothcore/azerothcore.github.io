@@ -1,6 +1,7 @@
 var a17586 =
 [
-    [ "CheckTarget", "d9/d09/a17586.html#afce64ba75f8370cab6b8f1e561b10587", null ],
-    [ "PrepareSpellScript", "d9/d09/a17586.html#a6b6eaf3e761f2c173c2e72f46b25595a", null ],
-    [ "Register", "d9/d09/a17586.html#a6964ca668f02a8b5b1c3015503a41eef", null ]
+    [ "HandleScript", "d9/d09/a17586.html#a802f667b20bccd3395c233482aa2485b", null ],
+    [ "PrepareSpellScript", "d9/d09/a17586.html#ad371e6387d5df422eaa05acc9efe2f46", null ],
+    [ "Register", "d9/d09/a17586.html#a730fded490df68f501010f952ceea40b", null ],
+    [ "Validate", "d9/d09/a17586.html#a8ec4a10d4d3c348029256fec28a19ed6", null ]
 ];

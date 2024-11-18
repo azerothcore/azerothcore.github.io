@@ -1,8 +1,14 @@
 var a22274 =
 [
-    [ "boss_tavarok", "d0/d8f/a22274.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
-    [ "JustDied", "d0/d8f/a22274.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
-    [ "JustEngagedWith", "d0/d8f/a22274.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
-    [ "KilledUnit", "d0/d8f/a22274.html#a2c99df9457c548ee562fde920592ea88", null ],
-    [ "Reset", "d0/d8f/a22274.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
+    [ "boss_nexusprince_shaffar", "d0/d8f/a22274.html#a2e861fb53bca7a40e967971b5e7be533", null ],
+    [ "JustDied", "d0/d8f/a22274.html#abf2fef0888bced83511883027bf4d500", null ],
+    [ "JustEngagedWith", "d0/d8f/a22274.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
+    [ "JustSummoned", "d0/d8f/a22274.html#a576240b46ce0988f0ef86e1460c831ef", null ],
+    [ "KilledUnit", "d0/d8f/a22274.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
+    [ "MoveInLineOfSight", "d0/d8f/a22274.html#a71e501225d88851210d2e0e58de27f99", null ],
+    [ "Reset", "d0/d8f/a22274.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
+    [ "SummonedCreatureDespawn", "d0/d8f/a22274.html#ab806564e96708ca12f444249abd3c88c", null ],
+    [ "UpdateAI", "d0/d8f/a22274.html#a147500575a3821262ec718ec023b458c", null ],
+    [ "HasTaunted", "d0/d8f/a22274.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
+    [ "summons", "d0/d8f/a22274.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
 ];

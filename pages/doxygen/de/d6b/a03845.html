@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Cache/CharacterCache.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Petitions/PetitionMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,43 +106,157 @@ $(document).ready(function(){initNavTree('de/d6b/a03845.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">CharacterCache.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">PetitionMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &lt;map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d40/a07218.html">CharacterCacheEntry</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d94/a09866.html">Petition</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/a07222.html">CharacterCache</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d99/a09870.html">Signatures</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d56/a09874.html">PetitionMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7a32c898b33d6163d83a32f46d58517c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>&#160;&#160;&#160;<a class="el" href="../../d5/d05/a07222.html#a4d7b41878ea4085e99b1445f27c0cdf3">CharacterCache::instance</a>()</td></tr>
-<tr class="separator:a7a32c898b33d6163d83a32f46d58517c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33856c1d078b61fa0516a63176297c49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a33856c1d078b61fa0516a63176297c49">CHARTER_DISPLAY_ID</a>&#160;&#160;&#160;16161</td></tr>
+<tr class="separator:a33856c1d078b61fa0516a63176297c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2910b9c8b8c58925b562acf66b3e46d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a2910b9c8b8c58925b562acf66b3e46d2">sPetitionMgr</a>&#160;&#160;&#160;<a class="el" href="../../db/d56/a09874.html#a3bda5778fbc38fefedd463b0b12893cd">PetitionMgr::instance</a>()</td></tr>
+<tr class="separator:a2910b9c8b8c58925b562acf66b3e46d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a52c6b38c9d018efa6f8a95153a0eb2b5"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a52c6b38c9d018efa6f8a95153a0eb2b5">SignatureMap</a></td></tr>
+<tr class="separator:a52c6b38c9d018efa6f8a95153a0eb2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541d3cf929662ff3a4ab97f63d54b16f"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../d8/d99/a09870.html">Signatures</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a541d3cf929662ff3a4ab97f63d54b16f">SignatureContainer</a></td></tr>
+<tr class="separator:a541d3cf929662ff3a4ab97f63d54b16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a223a8d1b8f865a0d4e8f100758e36bce"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../dd/d94/a09866.html">Petition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#a223a8d1b8f865a0d4e8f100758e36bce">PetitionContainer</a></td></tr>
+<tr class="separator:a223a8d1b8f865a0d4e8f100758e36bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:acec0915ab4c4246cd1eda0ddd63d47bb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bb">CharterItemIDs</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d">GUILD_CHARTER</a> = 5863
+, <br />
+&#160;&#160;<a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27">ARENA_TEAM_CHARTER_2v2</a> = 23560
+, <br />
+&#160;&#160;<a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470">ARENA_TEAM_CHARTER_3v3</a> = 23561
+, <br />
+&#160;&#160;<a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37">ARENA_TEAM_CHARTER_5v5</a> = 23562
+<br />
+ }</td></tr>
+<tr class="separator:acec0915ab4c4246cd1eda0ddd63d47bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a7a32c898b33d6163d83a32f46d58517c" name="a7a32c898b33d6163d83a32f46d58517c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a32c898b33d6163d83a32f46d58517c">&#9670;&#160;</a></span>sCharacterCache</h2>
+<a id="a33856c1d078b61fa0516a63176297c49" name="a33856c1d078b61fa0516a63176297c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33856c1d078b61fa0516a63176297c49">&#9670;&#160;</a></span>CHARTER_DISPLAY_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sCharacterCache&#160;&#160;&#160;<a class="el" href="../../d5/d05/a07222.html#a4d7b41878ea4085e99b1445f27c0cdf3">CharacterCache::instance</a>()</td>
+          <td class="memname">#define CHARTER_DISPLAY_ID&#160;&#160;&#160;16161</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a2910b9c8b8c58925b562acf66b3e46d2" name="a2910b9c8b8c58925b562acf66b3e46d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2910b9c8b8c58925b562acf66b3e46d2">&#9670;&#160;</a></span>sPetitionMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sPetitionMgr&#160;&#160;&#160;<a class="el" href="../../db/d56/a09874.html#a3bda5778fbc38fefedd463b0b12893cd">PetitionMgr::instance</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a223a8d1b8f865a0d4e8f100758e36bce" name="a223a8d1b8f865a0d4e8f100758e36bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a223a8d1b8f865a0d4e8f100758e36bce">&#9670;&#160;</a></span>PetitionContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../dd/d94/a09866.html">Petition</a>&gt; <a class="el" href="../../de/d6b/a03845.html#a223a8d1b8f865a0d4e8f100758e36bce">PetitionContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a541d3cf929662ff3a4ab97f63d54b16f" name="a541d3cf929662ff3a4ab97f63d54b16f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a541d3cf929662ff3a4ab97f63d54b16f">&#9670;&#160;</a></span>SignatureContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../d8/d99/a09870.html">Signatures</a>&gt; <a class="el" href="../../de/d6b/a03845.html#a541d3cf929662ff3a4ab97f63d54b16f">SignatureContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52c6b38c9d018efa6f8a95153a0eb2b5" name="a52c6b38c9d018efa6f8a95153a0eb2b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c6b38c9d018efa6f8a95153a0eb2b5">&#9670;&#160;</a></span>SignatureMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../de/d6b/a03845.html#a52c6b38c9d018efa6f8a95153a0eb2b5">SignatureMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="acec0915ab4c4246cd1eda0ddd63d47bb" name="acec0915ab4c4246cd1eda0ddd63d47bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec0915ab4c4246cd1eda0ddd63d47bb">&#9670;&#160;</a></span>CharterItemIDs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bb">CharterItemIDs</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d" name="acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d"></a>GUILD_CHARTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27" name="acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27"></a>ARENA_TEAM_CHARTER_2v2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470" name="acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470"></a>ARENA_TEAM_CHARTER_3v3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37" name="acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37"></a>ARENA_TEAM_CHARTER_5v5&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d">GUILD_CHARTER</a>           = 5863,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27">ARENA_TEAM_CHARTER_2v2</a>  = 23560,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470">ARENA_TEAM_CHARTER_3v3</a>  = 23561,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37">ARENA_TEAM_CHARTER_5v5</a>  = 23562</div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa03845_html_acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d"><div class="ttname"><a href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d">GUILD_CHARTER</a></div><div class="ttdeci">@ GUILD_CHARTER</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:30</div></div>
+<div class="ttc" id="aa03845_html_acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27"><div class="ttname"><a href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27">ARENA_TEAM_CHARTER_2v2</a></div><div class="ttdeci">@ ARENA_TEAM_CHARTER_2v2</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:31</div></div>
+<div class="ttc" id="aa03845_html_acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37"><div class="ttname"><a href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37">ARENA_TEAM_CHARTER_5v5</a></div><div class="ttdeci">@ ARENA_TEAM_CHARTER_5v5</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:33</div></div>
+<div class="ttc" id="aa03845_html_acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470"><div class="ttname"><a href="../../de/d6b/a03845.html#acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470">ARENA_TEAM_CHARTER_3v3</a></div><div class="ttdeci">@ ARENA_TEAM_CHARTER_3v3</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -150,8 +264,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_10e0fdc55825859b4f92970a0e407994.html">Cache</a></li><li class="navelem"><a class="el" href="../../de/d6b/a03845.html">CharacterCache.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4f49320aff9677cb5f0b8db126645f54.html">Petitions</a></li><li class="navelem"><a class="el" href="../../de/d6b/a03845.html">PetitionMgr.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

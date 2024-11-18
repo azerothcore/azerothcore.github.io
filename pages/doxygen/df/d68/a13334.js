@@ -1,7 +1,7 @@
 var a13334 =
 [
-    [ "o", "df/d68/a13334.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
-    [ "x", "df/d68/a13334.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
-    [ "y", "df/d68/a13334.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
-    [ "z", "df/d68/a13334.html#abf42d988d416ebe409100c4b860d26db", null ]
+    [ "npc_lady_sylvanas_windrunnerAI", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
+    [ "npc_lady_sylvanas_windrunner", "df/d68/a13334.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
+    [ "GetAI", "df/d68/a13334.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
+    [ "OnQuestReward", "df/d68/a13334.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
 ];

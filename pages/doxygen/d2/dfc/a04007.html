@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/GameObject/GameObjectData.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/WorldSocketMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,115 +105,31 @@ $(document).ready(function(){initNavTree('d2/dfc/a04007.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">GameObjectData.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">WorldSocketMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">WorldSocketMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">NetworkThread.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSocket.h</a>&quot;</code><br />
+<code>#include &lt;boost/system/error_code.hpp&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/a07934.html">GameObjectTemplate</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d21/a10762.html">WorldSocketThread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d07/a08058.html">GameObjectTemplateAddon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d21/a08062.html">GameObjectLocale</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5b/a08066.html">GameObjectAddon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/a08070.html">GameObjectData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a7698721f2eb4f87abac1a64a64ecf676"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfc/a04007.html#a7698721f2eb4f87abac1a64a64ecf676">MAX_GAMEOBJECT_QUEST_ITEMS</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:a7698721f2eb4f87abac1a64a64ecf676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac148792c2982ecdddc593bf3871aa520"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfc/a04007.html#ac148792c2982ecdddc593bf3871aa520">MAX_GO_STATE</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:ac148792c2982ecdddc593bf3871aa520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ac17cd142af80da019367bb796b15e5ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5ab">GOState</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:ac17cd142af80da019367bb796b15e5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a7698721f2eb4f87abac1a64a64ecf676" name="a7698721f2eb4f87abac1a64a64ecf676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7698721f2eb4f87abac1a64a64ecf676">&#9670;&#160;</a></span>MAX_GAMEOBJECT_QUEST_ITEMS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_GAMEOBJECT_QUEST_ITEMS&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac148792c2982ecdddc593bf3871aa520" name="ac148792c2982ecdddc593bf3871aa520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac148792c2982ecdddc593bf3871aa520">&#9670;&#160;</a></span>MAX_GO_STATE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_GO_STATE&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac17cd142af80da019367bb796b15e5ab" name="ac17cd142af80da019367bb796b15e5ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac17cd142af80da019367bb796b15e5ab">&#9670;&#160;</a></span>GOState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5ab">GOState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e" name="ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"></a>GO_STATE_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650" name="ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"></a>GO_STATE_READY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e" name="ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e"></a>GO_STATE_ACTIVE_ALTERNATIVE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  688</span>{</div>
-<div class="line"><span class="lineno">  689</span>    <a class="code hl_enumvalue" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> = 0,                        <span class="comment">// show in world as used and not reset (closed door open)</span></div>
-<div class="line"><span class="lineno">  690</span>    <a class="code hl_enumvalue" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a> = 1,                        <span class="comment">// show in world as ready (closed door close)</span></div>
-<div class="line"><span class="lineno">  691</span>    <a class="code hl_enumvalue" href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a> = 2                         <span class="comment">// show in world as used in alt way and not reset (closed door open by cannon fire)</span></div>
-<div class="line"><span class="lineno">  692</span>};</div>
-<div class="ttc" id="aa04007_html_ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"><div class="ttname"><a href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a></div><div class="ttdeci">@ GO_STATE_READY</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:690</div></div>
-<div class="ttc" id="aa04007_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:689</div></div>
-<div class="ttc" id="aa04007_html_ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e"><div class="ttname"><a href="../../d2/dfc/a04007.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE_ALTERNATIVE</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:691</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_8a86f46c68fd9f4cbeaa550d3ee2afc5.html">GameObject</a></li><li class="navelem"><a class="el" href="../../d2/dfc/a04007.html">GameObjectData.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../d2/dfc/a04007.html">WorldSocketMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

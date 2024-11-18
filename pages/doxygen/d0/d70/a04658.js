@@ -1,10 +1,6 @@
 var a04658 =
 [
-    [ "UpdateException", "d5/d95/a05786.html", "d5/d95/a05786" ],
-    [ "DBUpdaterUtil", "d3/d09/a05790.html", "d3/d09/a05790" ],
-    [ "DBUpdater< T >", "d4/dc2/a05794.html", "d4/dc2/a05794" ],
-    [ "BaseLocation", "d0/d70/a04658.html#a0c382fe144b0dc101a8b2b9d4ef51010", [
-      [ "LOCATION_REPOSITORY", "d0/d70/a04658.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550", null ],
-      [ "LOCATION_DOWNLOAD", "d0/d70/a04658.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c", null ]
-    ] ]
+    [ "DBUpdater< CharacterDatabaseConnection >", "d0/d70/a04658.html#a753e207671f7af3815a056247f2de3ce", null ],
+    [ "DBUpdater< LoginDatabaseConnection >", "d0/d70/a04658.html#a16a33693c8570aff221401b100547fb7", null ],
+    [ "DBUpdater< WorldDatabaseConnection >", "d0/d70/a04658.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
 ];

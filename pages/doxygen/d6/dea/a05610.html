@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Field Class Reference</title>
+<title>AzerothCore: DatabaseWorker Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,175 +106,114 @@ $(document).ready(function(){initNavTree('d6/dea/a05610.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="../../db/de6/a05607.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Field Class Reference</div></div>
+  <div class="headertitle"><div class="title">DatabaseWorker Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class used to access individual fields of database query result.  
- <a href="../../d6/dea/a05610.html#details">More...</a></p>
-
-<p><code>#include &quot;<a class="el" href="../../">Field.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">DatabaseWorker.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3e804c92273d9159f413f227b535c672"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a3e804c92273d9159f413f227b535c672">Field</a> ()</td></tr>
-<tr class="separator:a3e804c92273d9159f413f227b535c672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ffe1fcb3acbd7806c9e1f28fa2f358"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#af5ffe1fcb3acbd7806c9e1f28fa2f358">~Field</a> ()=default</td></tr>
-<tr class="separator:af5ffe1fcb3acbd7806c9e1f28fa2f358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cacc39f320e5743b9d82656927066f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a5cacc39f320e5743b9d82656927066f5">IsNull</a> () const</td></tr>
-<tr class="separator:a5cacc39f320e5743b9d82656927066f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae507d21d3570ffdaf1643ba02946f01"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aae507d21d3570ffdaf1643ba02946f01"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get</a> () const</td></tr>
-<tr class="separator:aae507d21d3570ffdaf1643ba02946f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec4e1c469a66233443c1c0dad4a85f62"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aec4e1c469a66233443c1c0dad4a85f62"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; std::string, T &gt;, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#aec4e1c469a66233443c1c0dad4a85f62">Get</a> () const</td></tr>
-<tr class="separator:aec4e1c469a66233443c1c0dad4a85f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaad6adda209a81213038c90c432e6014"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aaad6adda209a81213038c90c432e6014"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; std::string_view, T &gt;, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#aaad6adda209a81213038c90c432e6014">Get</a> () const</td></tr>
-<tr class="separator:aaad6adda209a81213038c90c432e6014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9fc2f62daabd64b4ccc1b32f20aff43"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab9fc2f62daabd64b4ccc1b32f20aff43"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a>, T &gt;, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ab9fc2f62daabd64b4ccc1b32f20aff43">Get</a> () const</td></tr>
-<tr class="separator:ab9fc2f62daabd64b4ccc1b32f20aff43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0483b2a6cf29ba12429f816d9a7f22c8"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t S&gt; </td></tr>
-<tr class="memitem:a0483b2a6cf29ba12429f816d9a7f22c8"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a>, T &gt;, std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, S &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a0483b2a6cf29ba12429f816d9a7f22c8">Get</a> () const</td></tr>
-<tr class="separator:a0483b2a6cf29ba12429f816d9a7f22c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ae7a9f092b41ad4f559f9acf3fb9ea6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a8ae7a9f092b41ad4f559f9acf3fb9ea6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../df/d8c/a04701.html#aa6a7b1e80be2ae7ec2efb76185ee7b44">Acore::Types::is_chrono_v</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a8ae7a9f092b41ad4f559f9acf3fb9ea6">Get</a> (bool convertToUin32=true) const</td></tr>
-<tr class="separator:a8ae7a9f092b41ad4f559f9acf3fb9ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2a8b27b89a4c255e23200a41eba872"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d76/a04607.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a6c2a8b27b89a4c255e23200a41eba872">GetType</a> ()</td></tr>
-<tr class="separator:a6c2a8b27b89a4c255e23200a41eba872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:afbdbd4f90407c728afb0f815c1e0a44a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#afbdbd4f90407c728afb0f815c1e0a44a">SetByteValue</a> (char const *newValue, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>)</td></tr>
-<tr class="separator:afbdbd4f90407c728afb0f815c1e0a44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6fa4dc59b02e3417833a8dbae2a70f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#af6fa4dc59b02e3417833a8dbae2a70f0">SetStructuredValue</a> (char const *newValue, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>)</td></tr>
-<tr class="separator:af6fa4dc59b02e3417833a8dbae2a70f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d85b2984a3621a77dd07a6c6822e2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a07d85b2984a3621a77dd07a6c6822e2b">IsType</a> (<a class="el" href="../../de/d76/a04607.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a> type) const</td></tr>
-<tr class="separator:a07d85b2984a3621a77dd07a6c6822e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac962189d3ee2d621f39e00996c41767c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ac962189d3ee2d621f39e00996c41767c">IsNumeric</a> () const</td></tr>
-<tr class="separator:ac962189d3ee2d621f39e00996c41767c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ae27cb9240b8dbc0a7f6c31fcf99dd9f9"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:aae11700d18f4ded39878eb0131c5f976"><td class="memItemLeft" >&#160;&#160;&#160;char const  *&#160;&#160;&#160;<a class="el" href="../../d6/dea/a05610.html#a1195f5f3d6278a7609a56661d128cb05">value</a></td></tr>
-<tr class="separator:aae11700d18f4ded39878eb0131c5f976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdce01ced6e05c1d35aaf88757967ace"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;&#160;&#160;<a class="el" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a></td></tr>
-<tr class="separator:afdce01ced6e05c1d35aaf88757967ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ef5a82a6a48abfce851fcb80ddb0ce"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="../../d6/dea/a05610.html#a6d5dc641cf0bcd43b08f17b8ada99e3c">raw</a></td></tr>
-<tr class="separator:a25ef5a82a6a48abfce851fcb80ddb0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae27cb9240b8dbc0a7f6c31fcf99dd9f9"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a></td></tr>
-<tr class="separator:ae27cb9240b8dbc0a7f6c31fcf99dd9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64450680e7b6e31bb42ce4f79788eb27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a64450680e7b6e31bb42ce4f79788eb27">DatabaseWorker</a> (<a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *newQueue, <a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *connection)</td></tr>
+<tr class="separator:a64450680e7b6e31bb42ce4f79788eb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170c873cbc917ece6a87591450dbe5a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a170c873cbc917ece6a87591450dbe5a9">~DatabaseWorker</a> ()</td></tr>
+<tr class="separator:a170c873cbc917ece6a87591450dbe5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a2bea76920c1b5c5122913feaa14d7e93"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2bea76920c1b5c5122913feaa14d7e93"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a2bea76920c1b5c5122913feaa14d7e93">GetData</a> () const</td></tr>
-<tr class="separator:a2bea76920c1b5c5122913feaa14d7e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a0d35922e873ba5e799ccf0d3373bd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a90a0d35922e873ba5e799ccf0d3373bd">GetDataString</a> () const</td></tr>
-<tr class="separator:a90a0d35922e873ba5e799ccf0d3373bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37bc9e080e1f1ccbb1048cee593cffea"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a37bc9e080e1f1ccbb1048cee593cffea">GetDataStringView</a> () const</td></tr>
-<tr class="separator:a37bc9e080e1f1ccbb1048cee593cffea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d858b57db608163c4a9b53d3f5862ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a2d858b57db608163c4a9b53d3f5862ef">GetDataBinary</a> () const</td></tr>
-<tr class="separator:a2d858b57db608163c4a9b53d3f5862ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf63d3bbb863e85abe0d6f03eaf34b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a> (std::string_view getter, std::string_view typeName) const</td></tr>
-<tr class="separator:adf63d3bbb863e85abe0d6f03eaf34b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a322f2550a5d565d447f93aa855fd0a56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a322f2550a5d565d447f93aa855fd0a56">SetMetadata</a> (<a class="el" href="../../d9/dc0/a05606.html">QueryResultFieldMetadata</a> const *fieldMeta)</td></tr>
-<tr class="separator:a322f2550a5d565d447f93aa855fd0a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a7fb387edbaa0589f8cf0d7c6ba099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a23a7fb387edbaa0589f8cf0d7c6ba099">GetBinarySizeChecked</a> (<a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *buf, std::size_t size) const</td></tr>
-<tr class="separator:a23a7fb387edbaa0589f8cf0d7c6ba099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74cbccbb68bfbbab58550eced982d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">WorkerThread</a> ()</td></tr>
+<tr class="separator:ab74cbccbb68bfbbab58550eced982d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43f1d875400b0ba6c031e0811397ed3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#aa43f1d875400b0ba6c031e0811397ed3">DatabaseWorker</a> (<a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
+<tr class="separator:aa43f1d875400b0ba6c031e0811397ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e753c757da609b55a66380f526091a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a15e753c757da609b55a66380f526091a">operator=</a> (<a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
+<tr class="separator:a15e753c757da609b55a66380f526091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae9e7f3101fa24f1b0e8d11a26a8e6fd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc0/a05606.html">QueryResultFieldMetadata</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a></td></tr>
-<tr class="separator:ae9e7f3101fa24f1b0e8d11a26a8e6fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a409719f61e9439051d21243690a5e416"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a409719f61e9439051d21243690a5e416">ResultSet</a></td></tr>
-<tr class="separator:a409719f61e9439051d21243690a5e416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a7840e8504a7b2a668b09cc8236843"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a44a7840e8504a7b2a668b09cc8236843">PreparedResultSet</a></td></tr>
-<tr class="separator:a44a7840e8504a7b2a668b09cc8236843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a></td></tr>
+<tr class="separator:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a></td></tr>
+<tr class="separator:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a90f600f1996c053f36e186edf292"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a></td></tr>
+<tr class="separator:ad02a90f600f1996c053f36e186edf292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448c50212f5d532cb4c35619b993041a"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a></td></tr>
+<tr class="separator:a448c50212f5d532cb4c35619b993041a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Class used to access individual fields of database query result. </p>
-<p >Guideline on field type matching:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone"><a class="el" href="../../df/dd9/a04702.html">MySQL</a> type   </th><th class="markdownTableHeadNone">method to use    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TINYINT   </td><td class="markdownTableBodyNone">Get&lt;bool&gt;, Get&lt;int8&gt;, Get&lt;uint8&gt;    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SMALLINT   </td><td class="markdownTableBodyNone">Get&lt;int16&gt;, Get&lt;uint16&gt;    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">MEDIUMINT, INT   </td><td class="markdownTableBodyNone">Get&lt;int32&gt;, Get&lt;uint32&gt;    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">BIGINT   </td><td class="markdownTableBodyNone">Get&lt;int64&gt;, Get&lt;uint64&gt;    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">FLOAT   </td><td class="markdownTableBodyNone">Get&lt;float&gt;    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">DOUBLE, DECIMAL   </td><td class="markdownTableBodyNone">Get&lt;double&gt;    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">CHAR, VARCHAR,   </td><td class="markdownTableBodyNone"><a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string&gt;</a>, <a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string_view&gt;</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TINYTEXT, MEDIUMTEXT,   </td><td class="markdownTableBodyNone"><a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string&gt;</a>, <a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string_view&gt;</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TEXT, LONGTEXT   </td><td class="markdownTableBodyNone"><a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string&gt;</a>, <a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string_view&gt;</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TINYBLOB, MEDIUMBLOB,   </td><td class="markdownTableBodyNone">Get&lt;Binary&gt;, <a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string&gt;</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">BLOB, LONGBLOB   </td><td class="markdownTableBodyNone">Get&lt;Binary&gt;, <a class="el" href="../../d6/dea/a05610.html#aae507d21d3570ffdaf1643ba02946f01">Get&lt;std::string&gt;</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">BINARY, VARBINARY   </td><td class="markdownTableBodyNone">Get&lt;Binary&gt;   </td></tr>
-</table>
-<p >Return types of aggregate functions:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Function   </th><th class="markdownTableHeadNone">Type    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">MIN, MAX   </td><td class="markdownTableBodyNone">Same as the field    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SUM, AVG   </td><td class="markdownTableBodyNone">DECIMAL    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">COUNT   </td><td class="markdownTableBodyNone">BIGINT   </td></tr>
-</table>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3e804c92273d9159f413f227b535c672" name="a3e804c92273d9159f413f227b535c672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e804c92273d9159f413f227b535c672">&#9670;&#160;</a></span>Field()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a64450680e7b6e31bb42ce4f79788eb27" name="a64450680e7b6e31bb42ce4f79788eb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64450680e7b6e31bb42ce4f79788eb27">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Field::Field </td>
+          <td class="memname">DatabaseWorker::DatabaseWorker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *&#160;</td>
+          <td class="paramname"><em>newQueue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *&#160;</td>
+          <td class="paramname"><em>connection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a> = connection;</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a> = newQueue;</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a> = std::thread(&amp;<a class="code hl_function" href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aa05610_html_a2f21d73b584d9e5f17afc7a0ac78f129"><div class="ttname"><a href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">DatabaseWorker::_connection</a></div><div class="ttdeci">MySQLConnection * _connection</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:39</div></div>
+<div class="ttc" id="aa05610_html_a448c50212f5d532cb4c35619b993041a"><div class="ttname"><a href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">DatabaseWorker::_cancelationToken</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _cancelationToken</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:44</div></div>
+<div class="ttc" id="aa05610_html_a9c47ad6c0d4dca85a63be45c4e678a70"><div class="ttname"><a href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">DatabaseWorker::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; SQLOperation * &gt; * _queue</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:38</div></div>
+<div class="ttc" id="aa05610_html_ab74cbccbb68bfbbab58550eced982d1a"><div class="ttname"><a href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a></div><div class="ttdeci">void WorkerThread()</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.cpp:39</div></div>
+<div class="ttc" id="aa05610_html_ad02a90f600f1996c053f36e186edf292"><div class="ttname"><a href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">DatabaseWorker::_workerThread</a></div><div class="ttdeci">std::thread _workerThread</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:42</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00042">_workerThread</a>, and <a class="el" href="../../#l00039">WorkerThread()</a>.</p>
+
+</div>
+</div>
+<a id="a170c873cbc917ece6a87591450dbe5a9" name="a170c873cbc917ece6a87591450dbe5a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170c873cbc917ece6a87591450dbe5a9">&#9670;&#160;</a></span>~DatabaseWorker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DatabaseWorker::~DatabaseWorker </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length = 0;</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   30</span>}</div>
-<div class="ttc" id="aa05610_html_ae27cb9240b8dbc0a7f6c31fcf99dd9f9"><div class="ttname"><a href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">Field::data</a></div><div class="ttdeci">struct Field::@1 data</div></div>
-<div class="ttc" id="aa05610_html_ae9e7f3101fa24f1b0e8d11a26a8e6fd0"><div class="ttname"><a href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">Field::meta</a></div><div class="ttdeci">QueryResultFieldMetadata const  * meta</div><div class="ttdef"><b>Definition:</b> Field.h:172</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">Cancel</a>();</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a>.join();</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aa05306_html_a7e9de516e77945411ad4f8bfa161489d"><div class="ttname"><a href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">ProducerConsumerQueue::Cancel</a></div><div class="ttdeci">void Cancel()</div><div class="ttdef"><b>Definition:</b> PCQueue.h:93</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, and <a class="el" href="../../#l00172">meta</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00042">_workerThread</a>, and <a class="el" href="../../#l00093">ProducerConsumerQueue&lt; T &gt;::Cancel()</a>.</p>
 
 </div>
 </div>
-<a id="af5ffe1fcb3acbd7806c9e1f28fa2f358" name="af5ffe1fcb3acbd7806c9e1f28fa2f358"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ffe1fcb3acbd7806c9e1f28fa2f358">&#9670;&#160;</a></span>~Field()</h2>
+<a id="aa43f1d875400b0ba6c031e0811397ed3" name="aa43f1d875400b0ba6c031e0811397ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43f1d875400b0ba6c031e0811397ed3">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,15 +222,16 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Field::~Field </td>
+          <td class="memname">DatabaseWorker::DatabaseWorker </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -299,199 +239,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aae507d21d3570ffdaf1643ba02946f01" name="aae507d21d3570ffdaf1643ba02946f01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae507d21d3570ffdaf1643ba02946f01">&#9670;&#160;</a></span>Get() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  113</span>    {</div>
-<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">return</span> GetData&lt;T&gt;();</div>
-<div class="line"><span class="lineno">  115</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l05673">Player::_LoadActions()</a>, <a class="el" href="../../#l01613">Pet::_LoadAuras()</a>, <a class="el" href="../../#l05699">Player::_LoadAuras()</a>, <a class="el" href="../../#l15784">Player::_LoadBrewOfTheMonth()</a>, <a class="el" href="../../#l00026">Player::_LoadCharacterSettings()</a>, <a class="el" href="../../#l06349">Player::_LoadDailyQuestStatus()</a>, <a class="el" href="../../#l04858">Player::_LoadEntryPointData()</a>, <a class="el" href="../../#l04827">Player::_LoadEquipmentSets()</a>, <a class="el" href="../../#l00066">lfg::LFGMgr::_LoadFromDB()</a>, <a class="el" href="../../#l14957">Player::_LoadGlyphs()</a>, <a class="el" href="../../#l06987">Player::_LoadHomeBind()</a>, <a class="el" href="../../#l05834">Player::_LoadInventory()</a>, <a class="el" href="../../#l05966">Player::_LoadItem()</a>, <a class="el" href="../../#l06154">Player::_LoadMail()</a>, <a class="el" href="../../#l06102">Player::_LoadMailedItem()</a>, <a class="el" href="../../#l06445">Player::_LoadMonthlyQuestStatus()</a>, <a class="el" href="../../#l15821">Player::_LoadPetStable()</a>, <a class="el" href="../../#l06227">Player::_LoadQuestStatus()</a>, <a class="el" href="../../#l06314">Player::_LoadQuestStatusRewarded()</a>, <a class="el" href="../../#l06422">Player::_LoadSeasonalQuestStatus()</a>, <a class="el" href="../../#l13672">Player::_LoadSkills()</a>, <a class="el" href="../../#l01473">Pet::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l03567">Player::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l06400">Player::_LoadWeeklyQuestStatus()</a>, <a class="el" href="../../#l02895">World::_UpdateRealmCharCount()</a>, <a class="el" href="../../#l00363">AccountInfo::AccountInfo()</a>, <a class="el" href="../../#l02175">Guild::AddMember()</a>, <a class="el" href="../../#l00518">AppendTableDump()</a>, <a class="el" href="../../#l00171">SecretMgr::AttemptTransition()</a>, <a class="el" href="../../#l00165">BanMgr::BanIP()</a>, <a class="el" href="../../#l01086">Player::BuildEnumData()</a>, <a class="el" href="../../#l00069">CharacterDatabaseCleaner::CheckUnique()</a>, <a class="el" href="../../#l03955">Player::DeleteFromDB()</a>, <a class="el" href="../../#l04352">Player::DeleteOldRecoveryItems()</a>, <a class="el" href="../../#l00300">npc_shattrath_daily_quest::DoAction()</a>, <a class="el" href="../../#l00787">Battleground::EndBattleground()</a>, <a class="el" href="../../#l00114">character_commandscript::GetDeletedCharacterInfoList()</a>, <a class="el" href="../../#l06317">Player::GetZoneIdFromDB()</a>, <a class="el" href="../../#l00171">account_commandscript::HandleAccount2FARemoveCommand()</a>, <a class="el" href="../../#l00369">account_commandscript::HandleAccountOnlineListCommand()</a>, <a class="el" href="../../#l00314">ban_commandscript::HandleBanInfoCharacterCommand()</a>, <a class="el" href="../../#l00287">ban_commandscript::HandleBanInfoHelper()</a>, <a class="el" href="../../#l00362">ban_commandscript::HandleBanInfoIPCommand()</a>, <a class="el" href="../../#l00505">ban_commandscript::HandleBanListCharacterCommand()</a>, <a class="el" href="../../#l00431">ban_commandscript::HandleBanListHelper()</a>, <a class="el" href="../../#l00588">ban_commandscript::HandleBanListIPCommand()</a>, <a class="el" href="../../#l00592">WorldSession::HandleCharacterAuraFrozen()</a>, <a class="el" href="../../#l01653">WorldSession::HandleCharCustomizeCallback()</a>, <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>, <a class="el" href="../../#l01370">WorldSession::HandleCharRenameCallBack()</a>, <a class="el" href="../../#l00098">deserter_commandscript::HandleDeserterAdd()</a>, <a class="el" href="../../#l00240">deserter_commandscript::HandleDeserterRemove()</a>, <a class="el" href="../../#l00434">gobject_commandscript::HandleGameObjectNearCommand()</a>, <a class="el" href="../../#l00172">gobject_commandscript::HandleGameObjectTargetCommand()</a>, <a class="el" href="../../#l00080">gear_commandscript::HandleGearStatsCommand()</a>, <a class="el" href="../../#l00155">gm_commandscript::HandleGMListFullCommand()</a>, <a class="el" href="../../#l00183">item_commandscript::HandleItemRefundCommand()</a>, <a class="el" href="../../#l00121">item_commandscript::HandleItemRestoreListCommand()</a>, <a class="el" href="../../#l00068">list_commandscript::HandleListCreatureCommand()</a>, <a class="el" href="../../#l00152">list_commandscript::HandleListItemCommand()</a>, <a class="el" href="../../#l00353">list_commandscript::HandleListObjectCommand()</a>, <a class="el" href="../../#l00662">npc_commandscript::HandleNpcNearCommand()</a>, <a class="el" href="../../#l00251">WorldSession::HandleOpenWrappedItemCallback()</a>, <a class="el" href="../../#l01935">misc_commandscript::HandlePInfoCommand()</a>, <a class="el" href="../../#l00224">quest_commandscript::HandleQuestComplete()</a>, <a class="el" href="../../#l00113">server_commandscript::HandleServerDebugCommand()</a>, <a class="el" href="../../#l00169">tele_commandscript::HandleTeleNameCommand()</a>, <a class="el" href="../../#l00355">tele_commandscript::HandleTeleNameNpcNameCommand()</a>, <a class="el" href="../../#l01412">misc_commandscript::HandleUnstuckCommand()</a>, <a class="el" href="../../#l01125">WorldSession::HandleWhoisOpcode()</a>, <a class="el" href="../../#l00278">wp_commandscript::HandleWpEventCommand()</a>, <a class="el" href="../../#l00550">wp_commandscript::HandleWpModifyCommand()</a>, <a class="el" href="../../#l00746">wp_commandscript::HandleWpShowCommand()</a>, <a class="el" href="../../#l01069">GameEventMgr::Initialize()</a>, <a class="el" href="../../#l10176">Player::LeaveAllArenaTeams()</a>, <a class="el" href="../../#l00047">WaypointMgr::Load()</a>, <a class="el" href="../../#l00038">DBCDatabaseLoader::Load()</a>, <a class="el" href="../../#l06755">ObjectMgr::LoadAccessRequirements()</a>, <a class="el" href="../../#l00844">WorldSession::LoadAccountData()</a>, <a class="el" href="../../#l02792">AchievementGlobalMgr::LoadAchievementCriteriaData()</a>, <a class="el" href="../../#l08704">ObjectMgr::LoadAcoreStrings()</a>, <a class="el" href="../../#l06644">ObjectMgr::LoadAreaTriggers()</a>, <a class="el" href="../../#l06502">ObjectMgr::LoadAreaTriggerScripts()</a>, <a class="el" href="../../#l06694">ObjectMgr::LoadAreaTriggerTeleports()</a>, <a class="el" href="../../#l00196">ArenaTeam::LoadArenaTeamFromDB()</a>, <a class="el" href="../../#l00483">AuctionHouseMgr::LoadAuctionItems()</a>, <a class="el" href="../../#l00030">AutobroadcastMgr::LoadAutobroadcasts()</a>, <a class="el" href="../../#l01980">Guild::LoadBankEventLogFromDB()</a>, <a class="el" href="../../#l02029">Guild::LoadBankItemFromDB()</a>, <a class="el" href="../../#l02020">Guild::LoadBankTabFromDB()</a>, <a class="el" href="../../#l00448">BattlegroundMgr::LoadBattlegroundTemplates()</a>, <a class="el" href="../../#l00790">BattlegroundMgr::LoadBattleMastersEntry()</a>, <a class="el" href="../../#l09699">ObjectMgr::LoadBroadcastTextLocales()</a>, <a class="el" href="../../#l09614">ObjectMgr::LoadBroadcastTexts()</a>, <a class="el" href="../../#l00166">ChannelMgr::LoadChannelRights()</a>, <a class="el" href="../../#l00050">ChannelMgr::LoadChannels()</a>, <a class="el" href="../../#l00404">InstanceSaveMgr::LoadCharacterBinds()</a>, <a class="el" href="../../#l00081">Acore::Impl::ChatCommands::ChatCommandNode::LoadCommandMap()</a>, <a class="el" href="../../#l02928">AchievementGlobalMgr::LoadCompletedAchievements()</a>, <a class="el" href="../../#l01033">ConditionMgr::LoadConditions()</a>, <a class="el" href="../../#l04016">Map::LoadCorpseData()</a>, <a class="el" href="../../#l00131">Corpse::LoadCorpseFromDB()</a>, <a class="el" href="../../#l01272">ObjectMgr::LoadCreatureAddons()</a>, <a class="el" href="../../#l09766">ObjectMgr::LoadCreatureClassLevelStats()</a>, <a class="el" href="../../#l00081">FormationMgr::LoadCreatureFormations()</a>, <a class="el" href="../../#l00393">ObjectMgr::LoadCreatureLocales()</a>, <a class="el" href="../../#l01713">ObjectMgr::LoadCreatureModelInfo()</a>, <a class="el" href="../../#l01561">ObjectMgr::LoadCreatureMovementOverrides()</a>, <a class="el" href="../../#l10167">ObjectMgr::LoadCreatureQuestItems()</a>, <a class="el" href="../../#l02106">ObjectMgr::LoadCreatures()</a>, <a class="el" href="../../#l00584">ObjectMgr::LoadCreatureTemplate()</a>, <a class="el" href="../../#l00853">ObjectMgr::LoadCreatureTemplateAddons()</a>, <a class="el" href="../../#l00709">ObjectMgr::LoadCreatureTemplateModels()</a>, <a class="el" href="../../#l00761">ObjectMgr::LoadCreatureTemplateResistances()</a>, <a class="el" href="../../#l00807">ObjectMgr::LoadCreatureTemplateSpells()</a>, <a class="el" href="../../#l00168">CreatureTextMgr::LoadCreatureTextLocales()</a>, <a class="el" href="../../#l00081">CreatureTextMgr::LoadCreatureTexts()</a>, <a class="el" href="../../#l03098">World::LoadDBVersion()</a>, <a class="el" href="../../#l00051">DisableMgr::LoadDisables()</a>, <a class="el" href="../../#l01483">ObjectMgr::LoadEquipmentTemplates()</a>, <a class="el" href="../../#l07431">ObjectMgr::LoadExplorationBaseXP()</a>, <a class="el" href="../../#l09849">ObjectMgr::LoadFactionChangeAchievements()</a>, <a class="el" href="../../#l09885">ObjectMgr::LoadFactionChangeItems()</a>, <a class="el" href="../../#l09921">ObjectMgr::LoadFactionChangeQuests()</a>, <a class="el" href="../../#l09957">ObjectMgr::LoadFactionChangeReputations()</a>, <a class="el" href="../../#l09993">ObjectMgr::LoadFactionChangeSpells()</a>, <a class="el" href="../../#l10029">ObjectMgr::LoadFactionChangeTitles()</a>, <a class="el" href="../../#l08752">ObjectMgr::LoadFishingBaseSkillLevel()</a>, <a class="el" href="../../#l00039">AddonMgr::LoadFromDB()</a>, <a class="el" href="../../#l00046">SmartWaypointMgr::LoadFromDB()</a>, <a class="el" href="../../#l00061">CalendarMgr::LoadFromDB()</a>, <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, <a class="el" href="../../#l00576">PoolMgr::LoadFromDB()</a>, <a class="el" href="../../#l01008">AuctionEntry::LoadFromDB()</a>, <a class="el" href="../../#l00692">EmblemInfo::LoadFromDB()</a>, <a class="el" href="../../#l00601">Guild::Member::LoadFromDB()</a>, <a class="el" href="../../#l00265">Guild::RankInfo::LoadFromDB()</a>, <a class="el" href="../../#l00380">Guild::BankTab::LoadFromDB()</a>, <a class="el" href="../../#l01900">Guild::LoadFromDB()</a>, <a class="el" href="../../#l00049">GmTicket::LoadFromDB()</a>, <a class="el" href="../../#l04918">Player::LoadFromDB()</a>, <a class="el" href="../../#l00419">Item::LoadFromDB()</a>, <a class="el" href="../../#l00617">AchievementMgr::LoadFromDB()</a>, <a class="el" href="../../#l00561">ReputationMgr::LoadFromDB()</a>, <a class="el" href="../../#l00319">SocialMgr::LoadFromDB()</a>, <a class="el" href="../../#l01373">ObjectMgr::LoadGameObjectAddons()</a>, <a class="el" href="../../#l07075">ObjectMgr::LoadGameObjectLocales()</a>, <a class="el" href="../../#l10122">ObjectMgr::LoadGameObjectQuestItems()</a>, <a class="el" href="../../#l02435">ObjectMgr::LoadGameobjects()</a>, <a class="el" href="../../#l07163">ObjectMgr::LoadGameObjectTemplate()</a>, <a class="el" href="../../#l07352">ObjectMgr::LoadGameObjectTemplateAddons()</a>, <a class="el" href="../../#l08892">ObjectMgr::LoadGameTele()</a>, <a class="el" href="../../#l09308">ObjectMgr::LoadGossipMenu()</a>, <a class="el" href="../../#l09345">ObjectMgr::LoadGossipMenuItems()</a>, <a class="el" href="../../#l00422">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l05978">ObjectMgr::LoadGossipText()</a>, <a class="el" href="../../#l00031">Graveyard::LoadGraveyardFromDB()</a>, <a class="el" href="../../#l00362">Graveyard::LoadGraveyardZones()</a>, <a class="el" href="../../#l00172">Group::LoadGroupFromDB()</a>, <a class="el" href="../../#l00092">GuildMgr::LoadGuilds()</a>, <a class="el" href="../../#l01005">GameEventMgr::LoadHolidayDates()</a>, <a class="el" href="../../#l05885">ObjectMgr::LoadInstanceEncounters()</a>, <a class="el" href="../../#l00373">InstanceSaveMgr::LoadInstanceSaves()</a>, <a class="el" href="../../#l05834">ObjectMgr::LoadInstanceTemplate()</a>, <a class="el" href="../../#l00387">Guild::BankTab::LoadItemFromDB()</a>, <a class="el" href="../../#l02632">ObjectMgr::LoadItemLocales()</a>, <a class="el" href="../../#l03276">ObjectMgr::LoadItemSetNameLocales()</a>, <a class="el" href="../../#l03304">ObjectMgr::LoadItemSetNames()</a>, <a class="el" href="../../#l02660">ObjectMgr::LoadItemTemplates()</a>, <a class="el" href="../../#l00177">lfg::LFGMgr::LoadLFGDungeons()</a>, <a class="el" href="../../#l01788">ObjectMgr::LoadLinkedRespawn()</a>, <a class="el" href="../../#l00143">LootStore::LoadLootTable()</a>, <a class="el" href="../../#l09032">ObjectMgr::LoadMailLevelRewards()</a>, <a class="el" href="../../#l10294">ObjectMgr::LoadMailServerTemplates()</a>, <a class="el" href="../../#l01931">Guild::LoadMemberFromDB()</a>, <a class="el" href="../../#l00222">ArenaTeam::LoadMembersFromDB()</a>, <a class="el" href="../../#l08612">ObjectMgr::LoadModuleStrings()</a>, <a class="el" href="../../#l08644">ObjectMgr::LoadModuleStringsLocale()</a>, <a class="el" href="../../#l00064">MotdMgr::LoadMotd()</a>, <a class="el" href="../../#l07965">ObjectMgr::LoadNPCSpellClickSpells()</a>, <a class="el" href="../../#l06054">ObjectMgr::LoadNpcTextLocales()</a>, <a class="el" href="../../#l05805">ObjectMgr::LoadPageTextLocales()</a>, <a class="el" href="../../#l05755">ObjectMgr::LoadPageTexts()</a>, <a class="el" href="../../#l00215">Pet::LoadPetFromDB()</a>, <a class="el" href="../../#l03544">ObjectMgr::LoadPetLevelInfo()</a>, <a class="el" href="../../#l07471">ObjectMgr::LoadPetNames()</a>, <a class="el" href="../../#l00453">ObjectMgr::LoadPetNamesLocales()</a>, <a class="el" href="../../#l07503">ObjectMgr::LoadPetNumber()</a>, <a class="el" href="../../#l03683">ObjectMgr::LoadPlayerInfo()</a>, <a class="el" href="../../#l00493">ObjectMgr::LoadPointOfInterestLocales()</a>, <a class="el" href="../../#l07834">ObjectMgr::LoadPointsOfInterest()</a>, <a class="el" href="../../#l04875">Player::LoadPositionFromDB()</a>, <a class="el" href="../../#l08256">ObjectMgr::LoadProfanityNamesFromDB()</a>, <a class="el" href="../../#l06212">ObjectMgr::LoadQuestAreaTriggers()</a>, <a class="el" href="../../#l06288">ObjectMgr::LoadQuestGreetings()</a>, <a class="el" href="../../#l06342">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l05176">ObjectMgr::LoadQuestLocales()</a>, <a class="el" href="../../#l10212">ObjectMgr::LoadQuestMoneyRewards()</a>, <a class="el" href="../../#l00161">Quest::LoadQuestOfferReward()</a>, <a class="el" href="../../#l06403">ObjectMgr::LoadQuestOfferRewardLocale()</a>, <a class="el" href="../../#l07882">ObjectMgr::LoadQuestPOI()</a>, <a class="el" href="../../#l00154">Quest::LoadQuestRequestItems()</a>, <a class="el" href="../../#l06432">ObjectMgr::LoadQuestRequestItemsLocale()</a>, <a class="el" href="../../#l04408">ObjectMgr::LoadQuests()</a>, <a class="el" href="../../#l00172">Quest::LoadQuestTemplateAddon()</a>, <a class="el" href="../../#l00045">LoadRandomEnchantmentsTable()</a>, <a class="el" href="../../#l00665">LoadRealmInfo()</a>, <a class="el" href="../../#l09218">ObjectMgr::LoadReferenceVendor()</a>, <a class="el" href="../../#l07643">ObjectMgr::LoadReputationOnKill()</a>, <a class="el" href="../../#l07555">ObjectMgr::LoadReputationRewardRate()</a>, <a class="el" href="../../#l07717">ObjectMgr::LoadReputationSpilloverTemplate()</a>, <a class="el" href="../../#l08153">ObjectMgr::LoadReservedPlayerNamesDB()</a>, <a class="el" href="../../#l00298">InstanceSaveMgr::LoadResetTimes()</a>, <a class="el" href="../../#l03419">Map::LoadRespawnTimes()</a>, <a class="el" href="../../#l00137">AccountInfo::LoadResult()</a>, <a class="el" href="../../#l03096">AchievementGlobalMgr::LoadRewardLocales()</a>, <a class="el" href="../../#l02975">AchievementGlobalMgr::LoadRewards()</a>, <a class="el" href="../../#l00108">lfg::LFGMgr::LoadRewards()</a>, <a class="el" href="../../#l05212">ObjectMgr::LoadScripts()</a>, <a class="el" href="../../#l00030">SystemMgr::LoadScriptWaypoints()</a>, <a class="el" href="../../#l00046">LoadSkillDiscoveryTable()</a>, <a class="el" href="../../#l00138">LoadSkillExtraItemTable()</a>, <a class="el" href="../../#l00052">LoadSkillPerfectItemTable()</a>, <a class="el" href="../../#l00126">SmartAIMgr::LoadSmartAIFromDB()</a>, <a class="el" href="../../#l02479">SpellMgr::LoadSpellAreas()</a>, <a class="el" href="../../#l01963">SpellMgr::LoadSpellBonuses()</a>, <a class="el" href="../../#l02719">SpellMgr::LoadSpellCooldownOverrides()</a>, <a class="el" href="../../#l02207">SpellMgr::LoadSpellEnchantProcData()</a>, <a class="el" href="../../#l01626">SpellMgr::LoadSpellGroups()</a>, <a class="el" href="../../#l01686">SpellMgr::LoadSpellGroupStackRules()</a>, <a class="el" href="../../#l02796">SpellMgr::LoadSpellInfoCustomAttributes()</a>, <a class="el" href="../../#l02252">SpellMgr::LoadSpellLinked()</a>, <a class="el" href="../../#l02045">SpellMgr::LoadSpellMixology()</a>, <a class="el" href="../../#l02103">SpellMgr::LoadSpellPetAuras()</a>, <a class="el" href="../../#l01737">SpellMgr::LoadSpellProcEvents()</a>, <a class="el" href="../../#l01831">SpellMgr::LoadSpellProcs()</a>, <a class="el" href="../../#l01292">SpellMgr::LoadSpellRanks()</a>, <a class="el" href="../../#l01403">SpellMgr::LoadSpellRequired()</a>, <a class="el" href="../../#l05625">ObjectMgr::LoadSpellScriptNames()</a>, <a class="el" href="../../#l01521">SpellMgr::LoadSpellTargetPositions()</a>, <a class="el" href="../../#l02004">SpellMgr::LoadSpellThreats()</a>, <a class="el" href="../../#l06461">ObjectMgr::LoadTavernAreaTriggers()</a>, <a class="el" href="../../#l02020">ObjectMgr::LoadTempSummons()</a>, <a class="el" href="../../#l09177">ObjectMgr::LoadTrainerSpell()</a>, <a class="el" href="../../#l00050">TransportMgr::LoadTransportTemplates()</a>, <a class="el" href="../../#l03444">ObjectMgr::LoadVehicleAccessories()</a>, <a class="el" href="../../#l03488">ObjectMgr::LoadVehicleSeatAddon()</a>, <a class="el" href="../../#l03388">ObjectMgr::LoadVehicleTemplateAccessories()</a>, <a class="el" href="../../#l09257">ObjectMgr::LoadVendors()</a>, <a class="el" href="../../#l00039">WardenCheckMgr::LoadWardenChecks()</a>, <a class="el" href="../../#l00164">WardenCheckMgr::LoadWardenOverrides()</a>, <a class="el" href="../../#l05598">ObjectMgr::LoadWaypointScripts()</a>, <a class="el" href="../../#l00083">WeatherMgr::LoadWeatherData()</a>, <a class="el" href="../../#l03126">World::LoadWorldStates()</a>, <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>, <a class="el" href="../../#l01652">lookup_commandscript::LookupPlayerSearchCommand()</a>, <a class="el" href="../../#l00024">Quest::Quest()</a>, <a class="el" href="../../#l00738">AuthSession::RealmListCallback()</a>, <a class="el" href="../../#l00185">UpdateFetcher::ReceiveAppliedFiles()</a>, <a class="el" href="../../#l00107">UpdateFetcher::ReceiveIncludedDirectories()</a>, <a class="el" href="../../#l00655">AuthSession::ReconnectChallengeCallback()</a>, <a class="el" href="../../#l00107">WaypointMgr::ReloadPath()</a>, <a class="el" href="../../#l06089">ObjectMgr::ReturnOrDeleteOldMails()</a>, <a class="el" href="../../#l00421">TransportMgr::SpawnContinentTransports()</a>, and <a class="el" href="../../#l01102">GameEventMgr::StartArenaSeason()</a>.</p>
-
-</div>
-</div>
-<a id="aec4e1c469a66233443c1c0dad4a85f62" name="aec4e1c469a66233443c1c0dad4a85f62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec4e1c469a66233443c1c0dad4a85f62">&#9670;&#160;</a></span>Get() <span class="overload">[2/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; std::string, T &gt;, T &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  119</span>    {</div>
-<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d6/dea/a05610.html#a90a0d35922e873ba5e799ccf0d3373bd">GetDataString</a>();</div>
-<div class="line"><span class="lineno">  121</span>    }</div>
-<div class="ttc" id="aa05610_html_a90a0d35922e873ba5e799ccf0d3373bd"><div class="ttname"><a href="../../d6/dea/a05610.html#a90a0d35922e873ba5e799ccf0d3373bd">Field::GetDataString</a></div><div class="ttdeci">std::string GetDataString() const</div><div class="ttdef"><b>Definition:</b> Field.cpp:289</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aaad6adda209a81213038c90c432e6014" name="aaad6adda209a81213038c90c432e6014"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad6adda209a81213038c90c432e6014">&#9670;&#160;</a></span>Get() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; std::string_view, T &gt;, T &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  125</span>    {</div>
-<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d6/dea/a05610.html#a37bc9e080e1f1ccbb1048cee593cffea">GetDataStringView</a>();</div>
-<div class="line"><span class="lineno">  127</span>    }</div>
-<div class="ttc" id="aa05610_html_a37bc9e080e1f1ccbb1048cee593cffea"><div class="ttname"><a href="../../d6/dea/a05610.html#a37bc9e080e1f1ccbb1048cee593cffea">Field::GetDataStringView</a></div><div class="ttdeci">std::string_view GetDataStringView() const</div><div class="ttdef"><b>Definition:</b> Field.cpp:305</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab9fc2f62daabd64b4ccc1b32f20aff43" name="ab9fc2f62daabd64b4ccc1b32f20aff43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9fc2f62daabd64b4ccc1b32f20aff43">&#9670;&#160;</a></span>Get() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a>, T &gt;, T &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  131</span>    {</div>
-<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d6/dea/a05610.html#a2d858b57db608163c4a9b53d3f5862ef">GetDataBinary</a>();</div>
-<div class="line"><span class="lineno">  133</span>    }</div>
-<div class="ttc" id="aa05610_html_a2d858b57db608163c4a9b53d3f5862ef"><div class="ttname"><a href="../../d6/dea/a05610.html#a2d858b57db608163c4a9b53d3f5862ef">Field::GetDataBinary</a></div><div class="ttdeci">Binary GetDataBinary() const</div><div class="ttdef"><b>Definition:</b> Field.cpp:321</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0483b2a6cf29ba12429f816d9a7f22c8" name="a0483b2a6cf29ba12429f816d9a7f22c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0483b2a6cf29ba12429f816d9a7f22c8">&#9670;&#160;</a></span>Get() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , std::size_t S&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a>, T &gt;, std::array&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, S &gt; &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  137</span>    {</div>
-<div class="line"><span class="lineno">  138</span>        std::array&lt;uint8, S&gt; buf = {};</div>
-<div class="line"><span class="lineno">  139</span>        <a class="code hl_function" href="../../d6/dea/a05610.html#a23a7fb387edbaa0589f8cf0d7c6ba099">GetBinarySizeChecked</a>(buf.data(), S);</div>
-<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">  141</span>    }</div>
-<div class="ttc" id="aa05610_html_a23a7fb387edbaa0589f8cf0d7c6ba099"><div class="ttname"><a href="../../d6/dea/a05610.html#a23a7fb387edbaa0589f8cf0d7c6ba099">Field::GetBinarySizeChecked</a></div><div class="ttdeci">void GetBinarySizeChecked(uint8 *buf, std::size_t size) const</div><div class="ttdef"><b>Definition:</b> Field.cpp:146</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8ae7a9f092b41ad4f559f9acf3fb9ea6" name="a8ae7a9f092b41ad4f559f9acf3fb9ea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ae7a9f092b41ad4f559f9acf3fb9ea6">&#9670;&#160;</a></span>Get() <span class="overload">[6/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d8c/a04701.html#aa6a7b1e80be2ae7ec2efb76185ee7b44">Acore::Types::is_chrono_v</a>&lt; T &gt; Field::Get </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>convertToUin32</em> = <code>true</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  145</span>    {</div>
-<div class="line"><span class="lineno">  146</span>        <span class="keywordflow">return</span> convertToUin32 ? T(GetData&lt;uint32&gt;()) : T(<a class="code hl_function" href="../../d6/dea/a05610.html#a2bea76920c1b5c5122913feaa14d7e93">GetData</a>&lt;<a class="code hl_typedef" href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt;());</div>
-<div class="line"><span class="lineno">  147</span>    }</div>
-<div class="ttc" id="aa00179_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/dd9/a00179.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
-<div class="ttc" id="aa05610_html_a2bea76920c1b5c5122913feaa14d7e93"><div class="ttname"><a href="../../d6/dea/a05610.html#a2bea76920c1b5c5122913feaa14d7e93">Field::GetData</a></div><div class="ttdeci">T GetData() const</div><div class="ttdef"><b>Definition:</b> Field.cpp:195</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a23a7fb387edbaa0589f8cf0d7c6ba099" name="a23a7fb387edbaa0589f8cf0d7c6ba099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23a7fb387edbaa0589f8cf0d7c6ba099">&#9670;&#160;</a></span>GetBinarySizeChecked()</h2>
+<a id="a15e753c757da609b55a66380f526091a" name="a15e753c757da609b55a66380f526091a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e753c757da609b55a66380f526091a">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,317 +249,24 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Field::GetBinarySizeChecked </td>
+          <td class="memname"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> &amp; DatabaseWorker::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  147</span>{</div>
-<div class="line"><span class="lineno">  148</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value &amp;&amp; (<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length == <a class="code hl_variable" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>), <span class="stringliteral">&quot;Expected {}-byte binary blob, got {}data ({} bytes) instead&quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;no &quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length);</div>
-<div class="line"><span class="lineno">  149</span>    memcpy(buf, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <a class="code hl_variable" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>);</div>
-<div class="line"><span class="lineno">  150</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa05610_html_a39db65d812741a2999a484ce5348b6ed"><div class="ttname"><a href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">Field::length</a></div><div class="ttdeci">uint32 length</div><div class="ttdef"><b>Definition:</b> Field.h:155</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, and <a class="el" href="../../#l00155">length</a>.</p>
-
-</div>
-</div>
-<a id="a2bea76920c1b5c5122913feaa14d7e93" name="a2bea76920c1b5c5122913feaa14d7e93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bea76920c1b5c5122913feaa14d7e93">&#9670;&#160;</a></span>GetData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">template double Field::GetData </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
-<div class="line"><span class="lineno">  197</span>    <span class="keyword">static_assert</span>(std::is_arithmetic_v&lt;T&gt;, <span class="stringliteral">&quot;Unsurropt type for Field::GetData()&quot;</span>);</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value)</div>
-<div class="line"><span class="lineno">  200</span>        <span class="keywordflow">return</span> GetDefaultValue&lt;T&gt;();</div>
-<div class="line"><span class="lineno">  201</span> </div>
-<div class="line"><span class="lineno">  202</span><span class="preprocessor">#ifdef ACORE_STRICT_DATABASE_TYPE_CHECKS</span></div>
-<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">if</span> (!IsCorrectFieldType&lt;T&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>))</div>
-<div class="line"><span class="lineno">  204</span>    {</div>
-<div class="line"><span class="lineno">  205</span>        <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="keyword">typeid</span>(T).name());</div>
-<div class="line"><span class="lineno">  206</span>        <span class="comment">//return GetDefaultValue&lt;T&gt;();</span></div>
-<div class="line"><span class="lineno">  207</span>    }</div>
-<div class="line"><span class="lineno">  208</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  209</span> </div>
-<div class="line"><span class="lineno">  210</span>    <a class="code hl_typedef" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;T&gt;</a> result = {};</div>
-<div class="line"><span class="lineno">  211</span> </div>
-<div class="line"><span class="lineno">  212</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw)</div>
-<div class="line"><span class="lineno">  213</span>        result = *<span class="keyword">reinterpret_cast&lt;</span>T const*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value);</div>
-<div class="line"><span class="lineno">  214</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  215</span>        result = Acore::StringTo&lt;T&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value);</div>
-<div class="line"><span class="lineno">  216</span> </div>
-<div class="line"><span class="lineno">  217</span>    <span class="comment">// Correct double fields... this undefined behavior :/</span></div>
-<div class="line"><span class="lineno">  218</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (std::is_same_v&lt;T, double&gt;)</div>
-<div class="line"><span class="lineno">  219</span>    {</div>
-<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw &amp;&amp; !<a class="code hl_function" href="../../d6/dea/a05610.html#a07d85b2984a3621a77dd07a6c6822e2b">IsType</a>(DatabaseFieldTypes::Decimal))</div>
-<div class="line"><span class="lineno">  221</span>            result = *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">double</span> const*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value);</div>
-<div class="line"><span class="lineno">  222</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  223</span>            result = Acore::StringTo&lt;float&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value);</div>
-<div class="line"><span class="lineno">  224</span>    }</div>
-<div class="line"><span class="lineno">  225</span> </div>
-<div class="line"><span class="lineno">  226</span>    <span class="comment">// Check -1 for *_dbc db tables</span></div>
-<div class="line"><span class="lineno">  227</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (std::is_same_v&lt;T, uint32&gt;)</div>
-<div class="line"><span class="lineno">  228</span>    {</div>
-<div class="line"><span class="lineno">  229</span>        std::string_view tableName{ <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ada6594cc2aa67c8d34bdb45e757fda8c">TableName</a> };</div>
-<div class="line"><span class="lineno">  230</span> </div>
-<div class="line"><span class="lineno">  231</span>        <span class="keywordflow">if</span> (!tableName.empty() &amp;&amp; tableName.size() &gt; 4)</div>
-<div class="line"><span class="lineno">  232</span>        {</div>
-<div class="line"><span class="lineno">  233</span>            <span class="keyword">auto</span> signedResult = Acore::StringTo&lt;int32&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value);</div>
-<div class="line"><span class="lineno">  234</span> </div>
-<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">if</span> (signedResult &amp;&amp; !result &amp;&amp; tableName.substr(tableName.length() - 4) == <span class="stringliteral">&quot;_dbc&quot;</span>)</div>
-<div class="line"><span class="lineno">  236</span>            {</div>
-<div class="line"><span class="lineno">  237</span>                <a class="code hl_define" href="../../dc/dfe/a00125.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Found incorrect value &#39;{}&#39; for type &#39;{}&#39; in _dbc table.&quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <span class="keyword">typeid</span>(T).name());</div>
-<div class="line"><span class="lineno">  238</span>                <a class="code hl_define" href="../../dc/dfe/a00125.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Table name &#39;{}&#39;. Field name &#39;{}&#39;. Try return int32 value&quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ada6594cc2aa67c8d34bdb45e757fda8c">TableName</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#af8b9f87733157401cff6b0846a545fa4">Name</a>);</div>
-<div class="line"><span class="lineno">  239</span>                <span class="keywordflow">return</span> GetData&lt;int32&gt;();</div>
-<div class="line"><span class="lineno">  240</span>            }</div>
-<div class="line"><span class="lineno">  241</span>        }</div>
-<div class="line"><span class="lineno">  242</span>    }</div>
-<div class="line"><span class="lineno">  243</span> </div>
-<div class="line"><span class="lineno">  244</span>    <span class="keywordflow">if</span> (<span class="keyword">auto</span> alias = <a class="code hl_function" href="../../d8/d4b/a04700.html#ae187308862c39923e2b843bc9d4c989c">GetCleanAliasName</a>(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ac885c365760ade7b0c74e5fead82a210">Alias</a>))</div>
-<div class="line"><span class="lineno">  245</span>    {</div>
-<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> ((<a class="code hl_function" href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(*alias, <span class="stringliteral">&quot;min&quot;</span>) || <a class="code hl_function" href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(*alias, <span class="stringliteral">&quot;max&quot;</span>)) &amp;&amp; !IsCorrectAlias&lt;T&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>, *alias))</div>
-<div class="line"><span class="lineno">  247</span>        {</div>
-<div class="line"><span class="lineno">  248</span>            <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="keyword">typeid</span>(T).name());</div>
-<div class="line"><span class="lineno">  249</span>        }</div>
-<div class="line"><span class="lineno">  250</span> </div>
-<div class="line"><span class="lineno">  251</span>        <span class="keywordflow">if</span> ((<a class="code hl_function" href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(*alias, <span class="stringliteral">&quot;sum&quot;</span>) || <a class="code hl_function" href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(*alias, <span class="stringliteral">&quot;avg&quot;</span>)) &amp;&amp; !IsCorrectAlias&lt;T&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>, *alias))</div>
-<div class="line"><span class="lineno">  252</span>        {</div>
-<div class="line"><span class="lineno">  253</span>            <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="keyword">typeid</span>(T).name());</div>
-<div class="line"><span class="lineno">  254</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Please use GetData&lt;double&gt;()&quot;</span>);</div>
-<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">return</span> GetData&lt;double&gt;();</div>
-<div class="line"><span class="lineno">  256</span>        }</div>
-<div class="line"><span class="lineno">  257</span> </div>
-<div class="line"><span class="lineno">  258</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(*alias, <span class="stringliteral">&quot;count&quot;</span>) &amp;&amp; !IsCorrectAlias&lt;T&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>, *alias))</div>
-<div class="line"><span class="lineno">  259</span>        {</div>
-<div class="line"><span class="lineno">  260</span>            <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="keyword">typeid</span>(T).name());</div>
-<div class="line"><span class="lineno">  261</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Please use GetData&lt;uint64&gt;()&quot;</span>);</div>
-<div class="line"><span class="lineno">  262</span>            <span class="keywordflow">return</span> GetData&lt;uint64&gt;();</div>
-<div class="line"><span class="lineno">  263</span>        }</div>
-<div class="line"><span class="lineno">  264</span>    }</div>
-<div class="line"><span class="lineno">  265</span> </div>
-<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">  267</span>    {</div>
-<div class="line"><span class="lineno">  268</span>        <a class="code hl_define" href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Incorrect value &#39;{}&#39; for type &#39;{}&#39;. Value is raw ? &#39;{}&#39;&quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <span class="keyword">typeid</span>(T).name(), <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw);</div>
-<div class="line"><span class="lineno">  269</span>        <a class="code hl_define" href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; Table name &#39;{}&#39;. Field name &#39;{}&#39;&quot;</span>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ada6594cc2aa67c8d34bdb45e757fda8c">TableName</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#af8b9f87733157401cff6b0846a545fa4">Name</a>);</div>
-<div class="line"><span class="lineno">  270</span>        <span class="comment">//ABORT();</span></div>
-<div class="line"><span class="lineno">  271</span>        <span class="keywordflow">return</span> GetDefaultValue&lt;T&gt;();</div>
-<div class="line"><span class="lineno">  272</span>    }</div>
-<div class="line"><span class="lineno">  273</span> </div>
-<div class="line"><span class="lineno">  274</span>    <span class="keywordflow">return</span> *result;</div>
-<div class="line"><span class="lineno">  275</span>}</div>
-<div class="ttc" id="aa00125_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:153</div></div>
-<div class="ttc" id="aa00125_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../dc/dfe/a00125.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
-<div class="ttc" id="aa00125_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../dc/dfe/a00125.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
-<div class="ttc" id="aa00197_html_a131b997858d0d4c6825222d64948db73"><div class="ttname"><a href="../../de/db1/a00197.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a></div><div class="ttdeci">bool StringEqualI(std::string_view a, std::string_view b)</div><div class="ttdef"><b>Definition:</b> Util.cpp:592</div></div>
-<div class="ttc" id="aa00203_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa04700_html_ae187308862c39923e2b843bc9d4c989c"><div class="ttname"><a href="../../d8/d4b/a04700.html#ae187308862c39923e2b843bc9d4c989c">anonymous_namespace{Field.cpp}::GetCleanAliasName</a></div><div class="ttdeci">Optional&lt; std::string_view &gt; GetCleanAliasName(std::string_view alias)</div><div class="ttdef"><b>Definition:</b> Field.cpp:104</div></div>
-<div class="ttc" id="aa05606_html_a76dec8aee42dce6698e4fda0ee1e3eba"><div class="ttname"><a href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">QueryResultFieldMetadata::Type</a></div><div class="ttdeci">DatabaseFieldTypes Type</div><div class="ttdef"><b>Definition:</b> Field.h:64</div></div>
-<div class="ttc" id="aa05606_html_ac885c365760ade7b0c74e5fead82a210"><div class="ttname"><a href="../../d9/dc0/a05606.html#ac885c365760ade7b0c74e5fead82a210">QueryResultFieldMetadata::Alias</a></div><div class="ttdeci">std::string Alias</div><div class="ttdef"><b>Definition:</b> Field.h:61</div></div>
-<div class="ttc" id="aa05606_html_ada6594cc2aa67c8d34bdb45e757fda8c"><div class="ttname"><a href="../../d9/dc0/a05606.html#ada6594cc2aa67c8d34bdb45e757fda8c">QueryResultFieldMetadata::TableName</a></div><div class="ttdeci">std::string TableName</div><div class="ttdef"><b>Definition:</b> Field.h:58</div></div>
-<div class="ttc" id="aa05606_html_af8b9f87733157401cff6b0846a545fa4"><div class="ttname"><a href="../../d9/dc0/a05606.html#af8b9f87733157401cff6b0846a545fa4">QueryResultFieldMetadata::Name</a></div><div class="ttdeci">std::string Name</div><div class="ttdef"><b>Definition:</b> Field.h:60</div></div>
-<div class="ttc" id="aa05610_html_a07d85b2984a3621a77dd07a6c6822e2b"><div class="ttname"><a href="../../d6/dea/a05610.html#a07d85b2984a3621a77dd07a6c6822e2b">Field::IsType</a></div><div class="ttdeci">bool IsType(DatabaseFieldTypes type) const</div><div class="ttdef"><b>Definition:</b> Field.cpp:168</div></div>
-<div class="ttc" id="aa05610_html_adf63d3bbb863e85abe0d6f03eaf34b50"><div class="ttname"><a href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">Field::LogWrongType</a></div><div class="ttdeci">void LogWrongType(std::string_view getter, std::string_view typeName) const</div><div class="ttdef"><b>Definition:</b> Field.cpp:183</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">QueryResultFieldMetadata::Alias</a>, <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, <a class="el" href="../../#l00168">IsType()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00153">LOG_FATAL</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00183">LogWrongType()</a>, <a class="el" href="../../#l00172">meta</a>, <a class="el" href="../../#l00060">QueryResultFieldMetadata::Name</a>, <a class="el" href="../../#l00592">StringEqualI()</a>, <a class="el" href="../../#l00058">QueryResultFieldMetadata::TableName</a>, and <a class="el" href="../../#l00064">QueryResultFieldMetadata::Type</a>.</p>
-
-</div>
-</div>
-<a id="a2d858b57db608163c4a9b53d3f5862ef" name="a2d858b57db608163c4a9b53d3f5862ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d858b57db608163c4a9b53d3f5862ef">&#9670;&#160;</a></span>GetDataBinary()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a> Field::GetDataBinary </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  322</span>{</div>
-<div class="line"><span class="lineno">  323</span>    <a class="code hl_typedef" href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a> result = {};</div>
-<div class="line"><span class="lineno">  324</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value || !<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length)</div>
-<div class="line"><span class="lineno">  325</span>        <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  326</span> </div>
-<div class="line"><span class="lineno">  327</span><span class="preprocessor">#ifdef ACORE_STRICT_DATABASE_TYPE_CHECKS</span></div>
-<div class="line"><span class="lineno">  328</span>    <span class="keywordflow">if</span> (!IsCorrectFieldType&lt;Binary&gt;(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>))</div>
-<div class="line"><span class="lineno">  329</span>    {</div>
-<div class="line"><span class="lineno">  330</span>        <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="stringliteral">&quot;Binary&quot;</span>);</div>
-<div class="line"><span class="lineno">  331</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">  332</span>    }</div>
-<div class="line"><span class="lineno">  333</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  334</span> </div>
-<div class="line"><span class="lineno">  335</span>    result.resize(<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length);</div>
-<div class="line"><span class="lineno">  336</span>    memcpy(result.data(), <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length);</div>
-<div class="line"><span class="lineno">  337</span>    <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  338</span>}</div>
-<div class="ttc" id="aa04607_html_a45c2b15f675e85c1f4462be09f27c59e"><div class="ttname"><a href="../../de/d76/a04607.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; Binary</div><div class="ttdef"><b>Definition:</b> Field.h:40</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, <a class="el" href="../../#l00183">LogWrongType()</a>, <a class="el" href="../../#l00172">meta</a>, and <a class="el" href="../../#l00064">QueryResultFieldMetadata::Type</a>.</p>
-
-</div>
-</div>
-<a id="a90a0d35922e873ba5e799ccf0d3373bd" name="a90a0d35922e873ba5e799ccf0d3373bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90a0d35922e873ba5e799ccf0d3373bd">&#9670;&#160;</a></span>GetDataString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string Field::GetDataString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  290</span>{</div>
-<div class="line"><span class="lineno">  291</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value)</div>
-<div class="line"><span class="lineno">  292</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  293</span> </div>
-<div class="line"><span class="lineno">  294</span><span class="preprocessor">#ifdef ACORE_STRICT_DATABASE_TYPE_CHECKS</span></div>
-<div class="line"><span class="lineno">  295</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d6/dea/a05610.html#ac962189d3ee2d621f39e00996c41767c">IsNumeric</a>() &amp;&amp; <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw)</div>
-<div class="line"><span class="lineno">  296</span>    {</div>
-<div class="line"><span class="lineno">  297</span>        <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="stringliteral">&quot;std::string&quot;</span>);</div>
-<div class="line"><span class="lineno">  298</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  299</span>    }</div>
-<div class="line"><span class="lineno">  300</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  301</span> </div>
-<div class="line"><span class="lineno">  302</span>    <span class="keywordflow">return</span> { <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length };</div>
-<div class="line"><span class="lineno">  303</span>}</div>
-<div class="ttc" id="aa05610_html_ac962189d3ee2d621f39e00996c41767c"><div class="ttname"><a href="../../d6/dea/a05610.html#ac962189d3ee2d621f39e00996c41767c">Field::IsNumeric</a></div><div class="ttdeci">bool IsNumeric() const</div><div class="ttdef"><b>Definition:</b> Field.cpp:173</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, <a class="el" href="../../#l00173">IsNumeric()</a>, and <a class="el" href="../../#l00183">LogWrongType()</a>.</p>
-
-</div>
-</div>
-<a id="a37bc9e080e1f1ccbb1048cee593cffea" name="a37bc9e080e1f1ccbb1048cee593cffea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37bc9e080e1f1ccbb1048cee593cffea">&#9670;&#160;</a></span>GetDataStringView()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string_view Field::GetDataStringView </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  306</span>{</div>
-<div class="line"><span class="lineno">  307</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value)</div>
-<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">  309</span> </div>
-<div class="line"><span class="lineno">  310</span><span class="preprocessor">#ifdef ACORE_STRICT_DATABASE_TYPE_CHECKS</span></div>
-<div class="line"><span class="lineno">  311</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d6/dea/a05610.html#ac962189d3ee2d621f39e00996c41767c">IsNumeric</a>() &amp;&amp; <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw)</div>
-<div class="line"><span class="lineno">  312</span>    {</div>
-<div class="line"><span class="lineno">  313</span>        <a class="code hl_function" href="../../d6/dea/a05610.html#adf63d3bbb863e85abe0d6f03eaf34b50">LogWrongType</a>(__FUNCTION__, <span class="stringliteral">&quot;std::string_view&quot;</span>);</div>
-<div class="line"><span class="lineno">  314</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">  315</span>    }</div>
-<div class="line"><span class="lineno">  316</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  317</span> </div>
-<div class="line"><span class="lineno">  318</span>    <span class="keywordflow">return</span> { <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length };</div>
-<div class="line"><span class="lineno">  319</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, <a class="el" href="../../#l00173">IsNumeric()</a>, and <a class="el" href="../../#l00183">LogWrongType()</a>.</p>
-
-</div>
-</div>
-<a id="a6c2a8b27b89a4c255e23200a41eba872" name="a6c2a8b27b89a4c255e23200a41eba872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c2a8b27b89a4c255e23200a41eba872">&#9670;&#160;</a></span>GetType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d76/a04607.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a> Field::GetType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  149</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a>; }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a5cacc39f320e5743b9d82656927066f5" name="a5cacc39f320e5743b9d82656927066f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cacc39f320e5743b9d82656927066f5">&#9670;&#160;</a></span>IsNull()</h2>
+<a id="ab74cbccbb68bfbbab58550eced982d1a" name="ab74cbccbb68bfbbab58550eced982d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74cbccbb68bfbbab58550eced982d1a">&#9670;&#160;</a></span>WorkerThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -819,201 +275,9 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Field::IsNull </td>
+          <td class="memname">void DatabaseWorker::WorkerThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  107</span>    {</div>
-<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value == <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  109</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00171">account_commandscript::HandleAccount2FARemoveCommand()</a>, and <a class="el" href="../../#l06755">ObjectMgr::LoadAccessRequirements()</a>.</p>
-
-</div>
-</div>
-<a id="ac962189d3ee2d621f39e00996c41767c" name="ac962189d3ee2d621f39e00996c41767c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac962189d3ee2d621f39e00996c41767c">&#9670;&#160;</a></span>IsNumeric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Field::IsNumeric </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  174</span>{</div>
-<div class="line"><span class="lineno">  175</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Int8 ||</div>
-<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Int16 ||</div>
-<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Int32 ||</div>
-<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Int64 ||</div>
-<div class="line"><span class="lineno">  179</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Float ||</div>
-<div class="line"><span class="lineno">  180</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == DatabaseFieldTypes::Double);</div>
-<div class="line"><span class="lineno">  181</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00172">meta</a>, and <a class="el" href="../../#l00064">QueryResultFieldMetadata::Type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00289">GetDataString()</a>, and <a class="el" href="../../#l00305">GetDataStringView()</a>.</p>
-
-</div>
-</div>
-<a id="a07d85b2984a3621a77dd07a6c6822e2b" name="a07d85b2984a3621a77dd07a6c6822e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07d85b2984a3621a77dd07a6c6822e2b">&#9670;&#160;</a></span>IsType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Field::IsType </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d76/a04607.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  169</span>{</div>
-<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> == type;</div>
-<div class="line"><span class="lineno">  171</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00172">meta</a>, and <a class="el" href="../../#l00064">QueryResultFieldMetadata::Type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00195">GetData()</a>.</p>
-
-</div>
-</div>
-<a id="adf63d3bbb863e85abe0d6f03eaf34b50" name="adf63d3bbb863e85abe0d6f03eaf34b50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf63d3bbb863e85abe0d6f03eaf34b50">&#9670;&#160;</a></span>LogWrongType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Field::LogWrongType </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>getter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>typeName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  184</span>{</div>
-<div class="line"><span class="lineno">  185</span>    <a class="code hl_define" href="../../dc/dfe/a00125.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Warning: {}&lt;{}&gt; on {} field {}.{} ({}.{}) at index {}.&quot;</span>,</div>
-<div class="line"><span class="lineno">  186</span>        getter, typeName, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#aba1b90e43c4f4c545f76568cae86ad43">TypeName</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#aa9ca2448829defe395b479a9a4ca3c3e">TableAlias</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ac885c365760ade7b0c74e5fead82a210">Alias</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ada6594cc2aa67c8d34bdb45e757fda8c">TableName</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#af8b9f87733157401cff6b0846a545fa4">Name</a>, <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a>-&gt;<a class="code hl_variable" href="../../d9/dc0/a05606.html#ad841e71a9394fc114a35f0234ef581b6">Index</a>);</div>
-<div class="line"><span class="lineno">  187</span>}</div>
-<div class="ttc" id="aa05606_html_aa9ca2448829defe395b479a9a4ca3c3e"><div class="ttname"><a href="../../d9/dc0/a05606.html#aa9ca2448829defe395b479a9a4ca3c3e">QueryResultFieldMetadata::TableAlias</a></div><div class="ttdeci">std::string TableAlias</div><div class="ttdef"><b>Definition:</b> Field.h:59</div></div>
-<div class="ttc" id="aa05606_html_aba1b90e43c4f4c545f76568cae86ad43"><div class="ttname"><a href="../../d9/dc0/a05606.html#aba1b90e43c4f4c545f76568cae86ad43">QueryResultFieldMetadata::TypeName</a></div><div class="ttdeci">std::string TypeName</div><div class="ttdef"><b>Definition:</b> Field.h:62</div></div>
-<div class="ttc" id="aa05606_html_ad841e71a9394fc114a35f0234ef581b6"><div class="ttname"><a href="../../d9/dc0/a05606.html#ad841e71a9394fc114a35f0234ef581b6">QueryResultFieldMetadata::Index</a></div><div class="ttdeci">uint32 Index</div><div class="ttdef"><b>Definition:</b> Field.h:63</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">QueryResultFieldMetadata::Alias</a>, <a class="el" href="../../#l00063">QueryResultFieldMetadata::Index</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00172">meta</a>, <a class="el" href="../../#l00060">QueryResultFieldMetadata::Name</a>, <a class="el" href="../../#l00059">QueryResultFieldMetadata::TableAlias</a>, <a class="el" href="../../#l00058">QueryResultFieldMetadata::TableName</a>, and <a class="el" href="../../#l00062">QueryResultFieldMetadata::TypeName</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00195">GetData()</a>, <a class="el" href="../../#l00321">GetDataBinary()</a>, <a class="el" href="../../#l00289">GetDataString()</a>, and <a class="el" href="../../#l00305">GetDataStringView()</a>.</p>
-
-</div>
-</div>
-<a id="afbdbd4f90407c728afb0f815c1e0a44a" name="afbdbd4f90407c728afb0f815c1e0a44a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbdbd4f90407c728afb0f815c1e0a44a">&#9670;&#160;</a></span>SetByteValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Field::SetByteValue </td>
-          <td>(</td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>newValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  153</span>{</div>
-<div class="line"><span class="lineno">  154</span>    <span class="comment">// This value stores raw bytes that have to be explicitly cast later</span></div>
-<div class="line"><span class="lineno">  155</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value = newValue;</div>
-<div class="line"><span class="lineno">  156</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length = <a class="code hl_variable" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>;</div>
-<div class="line"><span class="lineno">  157</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  158</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, and <a class="el" href="../../#l00155">length</a>.</p>
-
-</div>
-</div>
-<a id="a322f2550a5d565d447f93aa855fd0a56" name="a322f2550a5d565d447f93aa855fd0a56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a322f2550a5d565d447f93aa855fd0a56">&#9670;&#160;</a></span>SetMetadata()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Field::SetMetadata </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/dc0/a05606.html">QueryResultFieldMetadata</a> const *&#160;</td>
-          <td class="paramname"><em>fieldMeta</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1023,140 +287,39 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
-<div class="line"><span class="lineno">  191</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">meta</a> = fieldMeta;</div>
-<div class="line"><span class="lineno">  192</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>)</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_class" href="../../d9/dc9/a05774.html">SQLOperation</a>* operation = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">WaitAndPop</a>(operation);</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> || !operation)</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        operation-&gt;<a class="code hl_function" href="../../d9/dc9/a05774.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a>(<a class="code hl_variable" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a>);</div>
+<div class="line"><span class="lineno">   54</span>        operation-&gt;<a class="code hl_function" href="../../d9/dc9/a05774.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a>();</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>        <span class="keyword">delete</span> operation;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aa05306_html_a172ef4211bcb237478ec57531c8dcc4d"><div class="ttname"><a href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">ProducerConsumerQueue::WaitAndPop</a></div><div class="ttdeci">void WaitAndPop(T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:72</div></div>
+<div class="ttc" id="aa05774_html"><div class="ttname"><a href="../../d9/dc9/a05774.html">SQLOperation</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:42</div></div>
+<div class="ttc" id="aa05774_html_a52cbd1d9b8a298ab3eade0010b5e3166"><div class="ttname"><a href="../../d9/dc9/a05774.html#a52cbd1d9b8a298ab3eade0010b5e3166">SQLOperation::SetConnection</a></div><div class="ttdeci">virtual void SetConnection(MySQLConnection *con)</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:54</div></div>
+<div class="ttc" id="aa05774_html_ae56c06a313c4be5d0e45f5481996f1d1"><div class="ttname"><a href="../../d9/dc9/a05774.html#ae56c06a313c4be5d0e45f5481996f1d1">SQLOperation::call</a></div><div class="ttdeci">virtual int call()</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:47</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00172">meta</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00047">SQLOperation::call()</a>, <a class="el" href="../../#l00054">SQLOperation::SetConnection()</a>, and <a class="el" href="../../#l00072">ProducerConsumerQueue&lt; T &gt;::WaitAndPop()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00167">ResultSet::ResultSet()</a>.</p>
-
-</div>
-</div>
-<a id="af6fa4dc59b02e3417833a8dbae2a70f0" name="af6fa4dc59b02e3417833a8dbae2a70f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6fa4dc59b02e3417833a8dbae2a70f0">&#9670;&#160;</a></span>SetStructuredValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Field::SetStructuredValue </td>
-          <td>(</td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>newValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  161</span>{</div>
-<div class="line"><span class="lineno">  162</span>    <span class="comment">// This value stores somewhat structured data that needs function style casting</span></div>
-<div class="line"><span class="lineno">  163</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.value = newValue;</div>
-<div class="line"><span class="lineno">  164</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.length = <a class="code hl_variable" href="../../d6/dea/a05610.html#a39db65d812741a2999a484ce5348b6ed">length</a>;</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>.raw = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  166</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/a05610.html#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">data</a>, and <a class="el" href="../../#l00155">length</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a44a7840e8504a7b2a668b09cc8236843" name="a44a7840e8504a7b2a668b09cc8236843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a7840e8504a7b2a668b09cc8236843">&#9670;&#160;</a></span>PreparedResultSet</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../d7/d3f/a05754.html">PreparedResultSet</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a409719f61e9439051d21243690a5e416" name="a409719f61e9439051d21243690a5e416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a409719f61e9439051d21243690a5e416">&#9670;&#160;</a></span>ResultSet</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../d7/d55/a05750.html">ResultSet</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae27cb9240b8dbc0a7f6c31fcf99dd9f9" name="ae27cb9240b8dbc0a7f6c31fcf99dd9f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae27cb9240b8dbc0a7f6c31fcf99dd9f9">&#9670;&#160;</a></span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct  { ... }  Field::data</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00024">Field()</a>, <a class="el" href="../../#l00146">GetBinarySizeChecked()</a>, <a class="el" href="../../#l00195">GetData()</a>, <a class="el" href="../../#l00321">GetDataBinary()</a>, <a class="el" href="../../#l00289">GetDataString()</a>, <a class="el" href="../../#l00305">GetDataStringView()</a>, <a class="el" href="../../#l00152">SetByteValue()</a>, and <a class="el" href="../../#l00160">SetStructuredValue()</a>.</p>
-
-</div>
-</div>
-<a id="a39db65d812741a2999a484ce5348b6ed" name="a39db65d812741a2999a484ce5348b6ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39db65d812741a2999a484ce5348b6ed">&#9670;&#160;</a></span>length</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Field::length</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00146">GetBinarySizeChecked()</a>, <a class="el" href="../../#l00152">SetByteValue()</a>, and <a class="el" href="../../#l00160">SetStructuredValue()</a>.</p>
-
-</div>
-</div>
-<a id="ae9e7f3101fa24f1b0e8d11a26a8e6fd0" name="ae9e7f3101fa24f1b0e8d11a26a8e6fd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e7f3101fa24f1b0e8d11a26a8e6fd0">&#9670;&#160;</a></span>meta</h2>
+<a id="a448c50212f5d532cb4c35619b993041a" name="a448c50212f5d532cb4c35619b993041a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448c50212f5d532cb4c35619b993041a">&#9670;&#160;</a></span>_cancelationToken</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1165,7 +328,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/dc0/a05606.html">QueryResultFieldMetadata</a> const* Field::meta</td>
+          <td class="memname">std::atomic&lt;bool&gt; DatabaseWorker::_cancelationToken</td>
         </tr>
       </table>
   </td>
@@ -1175,35 +338,79 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00024">Field()</a>, <a class="el" href="../../#l00195">GetData()</a>, <a class="el" href="../../#l00321">GetDataBinary()</a>, <a class="el" href="../../#l00173">IsNumeric()</a>, <a class="el" href="../../#l00168">IsType()</a>, <a class="el" href="../../#l00183">LogWrongType()</a>, and <a class="el" href="../../#l00189">SetMetadata()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, <a class="el" href="../../#l00039">WorkerThread()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
 
 </div>
 </div>
-<a id="a6d5dc641cf0bcd43b08f17b8ada99e3c" name="a6d5dc641cf0bcd43b08f17b8ada99e3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d5dc641cf0bcd43b08f17b8ada99e3c">&#9670;&#160;</a></span>raw</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Field::raw</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1195f5f3d6278a7609a56661d128cb05" name="a1195f5f3d6278a7609a56661d128cb05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1195f5f3d6278a7609a56661d128cb05">&#9670;&#160;</a></span>value</h2>
+<a id="a2f21d73b584d9e5f17afc7a0ac78f129" name="a2f21d73b584d9e5f17afc7a0ac78f129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f21d73b584d9e5f17afc7a0ac78f129">&#9670;&#160;</a></span>_connection</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char const* Field::value</td>
+          <td class="memname"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a>* DatabaseWorker::_connection</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00039">WorkerThread()</a>.</p>
+
+</div>
+</div>
+<a id="a9c47ad6c0d4dca85a63be45c4e678a70" name="a9c47ad6c0d4dca85a63be45c4e678a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c47ad6c0d4dca85a63be45c4e678a70">&#9670;&#160;</a></span>_queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt;<a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a>*&gt;* DatabaseWorker::_queue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, <a class="el" href="../../#l00039">WorkerThread()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
+
+</div>
+</div>
+<a id="ad02a90f600f1996c053f36e186edf292" name="ad02a90f600f1996c053f36e186edf292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02a90f600f1996c053f36e186edf292">&#9670;&#160;</a></span>_workerThread</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::thread DatabaseWorker::_workerThread</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
 
 </div>
 </div>
@@ -1212,8 +419,8 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/dea/a05610.html">Field</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,5 @@
 var a27258 =
 [
-    [ "npc_fireworkAI", "d1/da0/a27262.html", "d1/da0/a27262" ],
-    [ "npc_firework", "d1/dfe/a27258.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
-    [ "GetAI", "d1/dfe/a27258.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
+    [ "npc_pet_trainerAI", "d1/dfe/a27258.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
+    [ "sGossipSelect", "d1/dfe/a27258.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
 ];

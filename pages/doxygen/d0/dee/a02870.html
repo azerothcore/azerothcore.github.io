@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/Waypoints/WaypointMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CoreAI/CombatAI.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,62 +107,67 @@ $(document).ready(function(){initNavTree('d0/dee/a02870.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">WaypointMgr.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">CombatAI.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &lt;optional&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">EventMap.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da1/a09818.html">WaypointData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d73/a05970.html">AggressorAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da0/a09822.html">WaypointMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/a05974.html">CombatAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4d/a05978.html">CasterAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d61/a05982.html">ArcherAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a05986.html">TurretAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7a/a05990.html">VehicleAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a8e3218ae672aeeb8c1d9dc23a3a1a627"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#a8e3218ae672aeeb8c1d9dc23a3a1a627">sWaypointMgr</a>&#160;&#160;&#160;<a class="el" href="../../d6/da0/a09822.html#aacd2ed943503288057b3fb9a935a56e9">WaypointMgr::instance</a>()</td></tr>
-<tr class="separator:a8e3218ae672aeeb8c1d9dc23a3a1a627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2842973ff947088648cd327dc9e1d379"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#a2842973ff947088648cd327dc9e1d379">VEHICLE_CONDITION_CHECK_TIME</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="separator:a2842973ff947088648cd327dc9e1d379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b232fec810abbe5eaf5536e608b6e38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#a9b232fec810abbe5eaf5536e608b6e38">VEHICLE_DISMISS_TIME</a>&#160;&#160;&#160;5000</td></tr>
+<tr class="separator:a9b232fec810abbe5eaf5536e608b6e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3884c0cb3f926b9869757242cf112630"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d1/da1/a09818.html">WaypointData</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a></td></tr>
-<tr class="separator:a3884c0cb3f926b9869757242cf112630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4022be9e8c89b6ab197c2564c77b52c5"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/dee/a02870.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#a4022be9e8c89b6ab197c2564c77b52c5">WaypointPathContainer</a></td></tr>
-<tr class="separator:a4022be9e8c89b6ab197c2564c77b52c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ac26115060a1cd0169937b206edddd863"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863">WaypointMoveType</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff">WAYPOINT_MOVE_TYPE_WALK</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55">WAYPOINT_MOVE_TYPE_RUN</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa">WAYPOINT_MOVE_TYPE_LAND</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843">WAYPOINT_MOVE_TYPE_TAKEOFF</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188">WAYPOINT_MOVE_TYPE_MAX</a>
-<br />
- }</td></tr>
-<tr class="separator:ac26115060a1cd0169937b206edddd863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8ccdd14344d9c395d613c21bafd91e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dee/a02870.html#aef8ccdd14344d9c395d613c21bafd91e">SpellVct</a></td></tr>
+<tr class="separator:aef8ccdd14344d9c395d613c21bafd91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8e3218ae672aeeb8c1d9dc23a3a1a627" name="a8e3218ae672aeeb8c1d9dc23a3a1a627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3218ae672aeeb8c1d9dc23a3a1a627">&#9670;&#160;</a></span>sWaypointMgr</h2>
+<a id="a2842973ff947088648cd327dc9e1d379" name="a2842973ff947088648cd327dc9e1d379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2842973ff947088648cd327dc9e1d379">&#9670;&#160;</a></span>VEHICLE_CONDITION_CHECK_TIME</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sWaypointMgr&#160;&#160;&#160;<a class="el" href="../../d6/da0/a09822.html#aacd2ed943503288057b3fb9a935a56e9">WaypointMgr::instance</a>()</td>
+          <td class="memname">#define VEHICLE_CONDITION_CHECK_TIME&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b232fec810abbe5eaf5536e608b6e38" name="a9b232fec810abbe5eaf5536e608b6e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b232fec810abbe5eaf5536e608b6e38">&#9670;&#160;</a></span>VEHICLE_DISMISS_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VEHICLE_DISMISS_TIME&#160;&#160;&#160;5000</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -170,67 +175,18 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a3884c0cb3f926b9869757242cf112630" name="a3884c0cb3f926b9869757242cf112630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3884c0cb3f926b9869757242cf112630">&#9670;&#160;</a></span>WaypointPath</h2>
+<a id="aef8ccdd14344d9c395d613c21bafd91e" name="aef8ccdd14344d9c395d613c21bafd91e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8ccdd14344d9c395d613c21bafd91e">&#9670;&#160;</a></span>SpellVct</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d1/da1/a09818.html">WaypointData</a>*&gt; <a class="el" href="../../d0/dee/a02870.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a></td>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../d0/dee/a02870.html#aef8ccdd14344d9c395d613c21bafd91e">SpellVct</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a4022be9e8c89b6ab197c2564c77b52c5" name="a4022be9e8c89b6ab197c2564c77b52c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4022be9e8c89b6ab197c2564c77b52c5">&#9670;&#160;</a></span>WaypointPathContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/dee/a02870.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a>&gt; <a class="el" href="../../d0/dee/a02870.html#a4022be9e8c89b6ab197c2564c77b52c5">WaypointPathContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac26115060a1cd0169937b206edddd863" name="ac26115060a1cd0169937b206edddd863"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac26115060a1cd0169937b206edddd863">&#9670;&#160;</a></span>WaypointMoveType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863">WaypointMoveType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff" name="ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff"></a>WAYPOINT_MOVE_TYPE_WALK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55" name="ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55"></a>WAYPOINT_MOVE_TYPE_RUN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa" name="ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa"></a>WAYPOINT_MOVE_TYPE_LAND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843" name="ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843"></a>WAYPOINT_MOVE_TYPE_TAKEOFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188" name="ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188"></a>WAYPOINT_MOVE_TYPE_MAX&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff">WAYPOINT_MOVE_TYPE_WALK</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55">WAYPOINT_MOVE_TYPE_RUN</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa">WAYPOINT_MOVE_TYPE_LAND</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843">WAYPOINT_MOVE_TYPE_TAKEOFF</a>,</div>
-<div class="line"><span class="lineno">   32</span> </div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188">WAYPOINT_MOVE_TYPE_MAX</a></div>
-<div class="line"><span class="lineno">   34</span>};</div>
-<div class="ttc" id="aa02870_html_ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55"><div class="ttname"><a href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55">WAYPOINT_MOVE_TYPE_RUN</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_RUN</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:29</div></div>
-<div class="ttc" id="aa02870_html_ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa"><div class="ttname"><a href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa">WAYPOINT_MOVE_TYPE_LAND</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_LAND</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:30</div></div>
-<div class="ttc" id="aa02870_html_ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188"><div class="ttname"><a href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188">WAYPOINT_MOVE_TYPE_MAX</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_MAX</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:33</div></div>
-<div class="ttc" id="aa02870_html_ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843"><div class="ttname"><a href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843">WAYPOINT_MOVE_TYPE_TAKEOFF</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_TAKEOFF</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:31</div></div>
-<div class="ttc" id="aa02870_html_ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff"><div class="ttname"><a href="../../d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff">WAYPOINT_MOVE_TYPE_WALK</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_WALK</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:28</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -238,8 +194,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_10cc9e05dd2639963b68719a523d1ea8.html">Waypoints</a></li><li class="navelem"><a class="el" href="../../d0/dee/a02870.html">WaypointMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_89e5b46313b1092bbe526cf6db8e9dcb.html">CoreAI</a></li><li class="navelem"><a class="el" href="../../d0/dee/a02870.html">CombatAI.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

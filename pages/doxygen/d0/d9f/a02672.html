@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/Chat.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/apps/authserver/Server/AuthSession.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,186 +105,86 @@ $(document).ready(function(){initNavTree('d0/d9f/a02672.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Chat.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">AuthSession.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AsyncCallbackProcessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
-<code>#include &lt;boost/algorithm/string/replace.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SRP6.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Socket.h</a>&quot;</code><br />
+<code>#include &lt;boost/asio/ip/tcp.hpp&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7e/a05558.html">AccountInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/a05562.html">AuthSession</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d89/a05566.html">AuthHandler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a39157073e48b2e925e7227a28d1f09f9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9">SpellLinkType</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a> = 0
+<tr class="memitem:a9bc15a6035dd7c4983d87a5ccb3d5834"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a> = 1
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a> = 2
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a> = 3
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a> = 4
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a>
 <br />
  }</td></tr>
-<tr class="separator:a39157073e48b2e925e7227a28d1f09f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c58fae67eb0c9a1b6f18b403121b2f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5">GuidLinkType</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:a7c58fae67eb0c9a1b6f18b403121b2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a493fba30c4b66be28baeb971844ea593"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a02672.html#a493fba30c4b66be28baeb971844ea593">spellKeys</a> []</td></tr>
-<tr class="separator:a493fba30c4b66be28baeb971844ea593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae39447b85bcee503ddb354d2950d638a"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a02672.html#ae39447b85bcee503ddb354d2950d638a">guidKeys</a> []</td></tr>
-<tr class="separator:ae39447b85bcee503ddb354d2950d638a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9bc15a6035dd7c4983d87a5ccb3d5834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7c58fae67eb0c9a1b6f18b403121b2f5" name="a7c58fae67eb0c9a1b6f18b403121b2f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c58fae67eb0c9a1b6f18b403121b2f5">&#9670;&#160;</a></span>GuidLinkType</h2>
+<a id="a9bc15a6035dd7c4983d87a5ccb3d5834" name="a9bc15a6035dd7c4983d87a5ccb3d5834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc15a6035dd7c4983d87a5ccb3d5834">&#9670;&#160;</a></span>AuthStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5">GuidLinkType</a></td>
+          <td class="memname">enum <a class="el" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028" name="a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028"></a>SPELL_LINK_PLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8" name="a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"></a>SPELL_LINK_CREATURE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7" name="a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"></a>SPELL_LINK_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4" name="a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4"></a>STATUS_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16" name="a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16"></a>STATUS_LOGON_PROOF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734" name="a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734"></a>STATUS_RECONNECT_PROOF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b" name="a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b"></a>STATUS_AUTHED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0" name="a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0"></a>STATUS_WAITING_FOR_REALM_LIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94" name="a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94"></a>STATUS_CLOSED&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  682</span>{</div>
-<div class="line"><span class="lineno">  683</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a>     = 0,                              <span class="comment">// must be first for selection in not link case</span></div>
-<div class="line"><span class="lineno">  684</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a>   = 1,</div>
-<div class="line"><span class="lineno">  685</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a> = 2</div>
-<div class="line"><span class="lineno">  686</span>};</div>
-<div class="ttc" id="aa02672_html_a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028"><div class="ttname"><a href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a></div><div class="ttdeci">@ SPELL_LINK_PLAYER</div><div class="ttdef"><b>Definition:</b> Chat.cpp:683</div></div>
-<div class="ttc" id="aa02672_html_a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"><div class="ttname"><a href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a></div><div class="ttdeci">@ SPELL_LINK_CREATURE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:684</div></div>
-<div class="ttc" id="aa02672_html_a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"><div class="ttname"><a href="../../d0/d9f/a02672.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a></div><div class="ttdeci">@ SPELL_LINK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:685</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a> = 0,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a>,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a>,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a>,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a>,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a></div>
+<div class="line"><span class="lineno">   45</span>};</div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a></div><div class="ttdeci">@ STATUS_RECONNECT_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.h:41</div></div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a></div><div class="ttdeci">@ STATUS_WAITING_FOR_REALM_LIST</div><div class="ttdef"><b>Definition:</b> AuthSession.h:43</div></div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a></div><div class="ttdeci">@ STATUS_CLOSED</div><div class="ttdef"><b>Definition:</b> AuthSession.h:44</div></div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a></div><div class="ttdeci">@ STATUS_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.h:39</div></div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a></div><div class="ttdeci">@ STATUS_LOGON_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.h:40</div></div>
+<div class="ttc" id="aa02672_html_a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b"><div class="ttname"><a href="../../d0/d9f/a02672.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a></div><div class="ttdeci">@ STATUS_AUTHED</div><div class="ttdef"><b>Definition:</b> AuthSession.h:42</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a39157073e48b2e925e7227a28d1f09f9" name="a39157073e48b2e925e7227a28d1f09f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39157073e48b2e925e7227a28d1f09f9">&#9670;&#160;</a></span>SpellLinkType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9">SpellLinkType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd" name="a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd"></a>SPELL_LINK_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56" name="a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56"></a>SPELL_LINK_TALENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654" name="a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654"></a>SPELL_LINK_ENCHANT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919" name="a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"></a>SPELL_LINK_TRADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e" name="a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"></a>SPELL_LINK_GLYPH&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  609</span>{</div>
-<div class="line"><span class="lineno">  610</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a>   = 0,</div>
-<div class="line"><span class="lineno">  611</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a>  = 1,</div>
-<div class="line"><span class="lineno">  612</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a> = 2,</div>
-<div class="line"><span class="lineno">  613</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a>   = 3,</div>
-<div class="line"><span class="lineno">  614</span>    <a class="code hl_enumvalue" href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a>   = 4</div>
-<div class="line"><span class="lineno">  615</span>};</div>
-<div class="ttc" id="aa02672_html_a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd"><div class="ttname"><a href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a></div><div class="ttdeci">@ SPELL_LINK_SPELL</div><div class="ttdef"><b>Definition:</b> Chat.cpp:610</div></div>
-<div class="ttc" id="aa02672_html_a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"><div class="ttname"><a href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a></div><div class="ttdeci">@ SPELL_LINK_GLYPH</div><div class="ttdef"><b>Definition:</b> Chat.cpp:614</div></div>
-<div class="ttc" id="aa02672_html_a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56"><div class="ttname"><a href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a></div><div class="ttdeci">@ SPELL_LINK_TALENT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:611</div></div>
-<div class="ttc" id="aa02672_html_a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654"><div class="ttname"><a href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a></div><div class="ttdeci">@ SPELL_LINK_ENCHANT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:612</div></div>
-<div class="ttc" id="aa02672_html_a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"><div class="ttname"><a href="../../d0/d9f/a02672.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a></div><div class="ttdeci">@ SPELL_LINK_TRADE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:613</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ae39447b85bcee503ddb354d2950d638a" name="ae39447b85bcee503ddb354d2950d638a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae39447b85bcee503ddb354d2950d638a">&#9670;&#160;</a></span>guidKeys</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char const* const guidKeys[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <span class="stringliteral">&quot;Hplayer&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;Hcreature&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;Hgameobject&quot;</span>,</div>
-<div class="line">    0</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00696">ChatHandler::extractLowGuidFromLink()</a>.</p>
-
-</div>
-</div>
-<a id="a493fba30c4b66be28baeb971844ea593" name="a493fba30c4b66be28baeb971844ea593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a493fba30c4b66be28baeb971844ea593">&#9670;&#160;</a></span>spellKeys</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char const* const spellKeys[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <span class="stringliteral">&quot;Hspell&quot;</span>,                                               </div>
-<div class="line">    <span class="stringliteral">&quot;Htalent&quot;</span>,                                              </div>
-<div class="line">    <span class="stringliteral">&quot;Henchant&quot;</span>,                                             </div>
-<div class="line">    <span class="stringliteral">&quot;Htrade&quot;</span>,                                               </div>
-<div class="line">    <span class="stringliteral">&quot;Hglyph&quot;</span>,                                               </div>
-<div class="line">    0</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00627">ChatHandler::extractSpellIdFromLink()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -292,8 +192,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../d0/d9f/a02672.html">Chat.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_5048a8ff141d56662c703e95f88ef858.html">authserver</a></li><li class="navelem"><a class="el" href="../../dir_7be2eb097abf40d728561c0a9bef8726.html">Server</a></li><li class="navelem"><a class="el" href="../../d0/d9f/a02672.html">AuthSession.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

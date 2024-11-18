@@ -1,7 +1,21 @@
 var a08854 =
 [
-    [ "CreatureRelocationNotifier", "de/d62/a08854.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
-    [ "Visit", "de/d62/a08854.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
-    [ "Visit", "de/d62/a08854.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
-    [ "i_creature", "de/d62/a08854.html#a3116f6245816ba8fb9edb5995faa9927", null ]
+    [ "GridType", "de/d62/a08854.html#ab0a1340c0a1ce99ef8654117ac2a162f", null ],
+    [ "NGrid", "de/d62/a08854.html#a999002f6ec7e7dbf2e8c2dc255d0af62", null ],
+    [ "GetGridId", "de/d62/a08854.html#a81dffef11eb9d0f62b9c041b732ed697", null ],
+    [ "GetGridType", "de/d62/a08854.html#a7c4d5e00697dab2fe7b1a6fe7007076a", null ],
+    [ "GetGridType", "de/d62/a08854.html#add7b9ed347781a4ecf70454d998e49c8", null ],
+    [ "getX", "de/d62/a08854.html#a203052accd192465ea77751c959b692d", null ],
+    [ "getY", "de/d62/a08854.html#ab73787c40fa65141f26543c5b27275c9", null ],
+    [ "isGridObjectDataLoaded", "de/d62/a08854.html#a051e7a030bf18b35d7bbef13735f128b", null ],
+    [ "link", "de/d62/a08854.html#ab06a72bd62796b385c87178d0991d8e4", null ],
+    [ "setGridObjectDataLoaded", "de/d62/a08854.html#a36f821272204e44ba24afefc7a8e0195", null ],
+    [ "VisitAllGrids", "de/d62/a08854.html#af33978784c3bdff490f6e40c18e9e712", null ],
+    [ "VisitGrid", "de/d62/a08854.html#aabcd6c2d4edaaf016fb9905752fdfccd", null ],
+    [ "i_cells", "de/d62/a08854.html#aa44eb852ebf5fec4406070f354f5e5b7", null ],
+    [ "i_gridId", "de/d62/a08854.html#aaadf4847c4da61dd2fe722584c65e164", null ],
+    [ "i_GridObjectDataLoaded", "de/d62/a08854.html#a716e98131c07b0b695b04ddaa02c4eeb", null ],
+    [ "i_Reference", "de/d62/a08854.html#a1af2fa2ddc39e932b013f3f07c13ddc8", null ],
+    [ "i_x", "de/d62/a08854.html#add9e3f5f9ffaab894bfa11cacaf76370", null ],
+    [ "i_y", "de/d62/a08854.html#a3407a6554a941d2496db0987384f70e7", null ]
 ];

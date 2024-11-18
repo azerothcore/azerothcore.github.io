@@ -1,9 +1,5 @@
 var a08278 =
 [
-    [ "category", "d7/dac/a08278.html#af3cd722cf59d844dcaba2d20f20d2933", null ],
-    [ "end", "d7/dac/a08278.html#a8cc857ef51745900398765164a450a50", null ],
-    [ "itemid", "d7/dac/a08278.html#a42ef844fdd55e8bf67eb5cd90c627817", null ],
-    [ "maxduration", "d7/dac/a08278.html#a94b98afb7651e2c6b99ee79f85702259", null ],
-    [ "needSendToClient", "d7/dac/a08278.html#a678f56b6723567f984a0188b85a6f9df", null ],
-    [ "sendToSpectator", "d7/dac/a08278.html#a4b5bc2c63587dd8ce5d4971ad51895cd", null ]
+    [ "MageSpellModPred", "d7/dac/a08278.html#af97aacdd47bd4427bb7dc1093ea1f63c", null ],
+    [ "operator()", "d7/dac/a08278.html#a09ba840692b7fd50f7f6a537de1b240e", null ]
 ];

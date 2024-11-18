@@ -1,7 +1,6 @@
 var a18938 =
 [
-    [ "HandlePull", "de/db7/a18938.html#a05e6155abeb2720923ddf0d8cae54feb", null ],
-    [ "PrepareSpellScript", "de/db7/a18938.html#ac192245513e162a2842e47f5b0d64338", null ],
-    [ "Register", "de/db7/a18938.html#af6c7a881c2fcf07461006fef63074e5e", null ],
-    [ "SelectTarget", "de/db7/a18938.html#aabee5b6b8f3ba7e2cf91bcb05ce7929d", null ]
+    [ "boss_magus_telestraAI", "dd/d0d/a18942.html", "dd/d0d/a18942" ],
+    [ "boss_magus_telestra", "de/db7/a18938.html#a0e1adaf685c4d03cd0f688cb2b131525", null ],
+    [ "GetAI", "de/db7/a18938.html#acb56031f892034adfff7889982fb063e", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Maps/MapMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/WaypointMovementGenerator.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,37 +107,58 @@ $(document).ready(function(){initNavTree('d8/d7b/a03941.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">MapMgr.h File Reference</div></div>
+  <div class="headertitle"><div class="title">WaypointMovementGenerator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapInstanced.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapUpdater.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WaypointMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc0/a09538.html">MapMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df4/a09754.html">PathMovementBase&lt; T, P &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d57/a09762.html">WaypointMovementGenerator&lt; Creature &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6a/a09766.html">FlightPathMovementGenerator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df7/a09770.html">FlightPathMovementGenerator::TaxiNodeChangeInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">node index where preloading starts  <a href="../../d3/df7/a09770.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9132749f8376c48b0ca7212eb3293905"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7b/a03941.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a>&#160;&#160;&#160;<a class="el" href="../../d7/dc0/a09538.html#a9e3a78ccb1c0c0b7048216de36233a9f">MapMgr::instance</a>()</td></tr>
-<tr class="separator:a9132749f8376c48b0ca7212eb3293905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d292bdefbb6db76ff3201ac0c0cdd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7b/a03941.html#af2d292bdefbb6db76ff3201ac0c0cdd6">FLIGHT_TRAVEL_UPDATE</a>&#160;&#160;&#160;100</td></tr>
+<tr class="separator:af2d292bdefbb6db76ff3201ac0c0cdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcff81f45a877feac68bf5bcae913560"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7b/a03941.html#afcff81f45a877feac68bf5bcae913560">TIMEDIFF_NEXT_WP</a>&#160;&#160;&#160;250</td></tr>
+<tr class="separator:afcff81f45a877feac68bf5bcae913560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9132749f8376c48b0ca7212eb3293905" name="a9132749f8376c48b0ca7212eb3293905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9132749f8376c48b0ca7212eb3293905">&#9670;&#160;</a></span>sMapMgr</h2>
+<a id="af2d292bdefbb6db76ff3201ac0c0cdd6" name="af2d292bdefbb6db76ff3201ac0c0cdd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d292bdefbb6db76ff3201ac0c0cdd6">&#9670;&#160;</a></span>FLIGHT_TRAVEL_UPDATE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sMapMgr&#160;&#160;&#160;<a class="el" href="../../d7/dc0/a09538.html#a9e3a78ccb1c0c0b7048216de36233a9f">MapMgr::instance</a>()</td>
+          <td class="memname">#define FLIGHT_TRAVEL_UPDATE&#160;&#160;&#160;100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >PathMovementGenerator is used to generate movements of waypoints and flight paths. Each serves the purpose of generate activities so that it generates updated packets for the players. </p>
+
+</div>
+</div>
+<a id="afcff81f45a877feac68bf5bcae913560" name="afcff81f45a877feac68bf5bcae913560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcff81f45a877feac68bf5bcae913560">&#9670;&#160;</a></span>TIMEDIFF_NEXT_WP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIMEDIFF_NEXT_WP&#160;&#160;&#160;250</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -149,8 +170,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4ee90c1a7d0130816a1febdd934a8090.html">Maps</a></li><li class="navelem"><a class="el" href="../../d8/d7b/a03941.html">MapMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d8/d7b/a03941.html">WaypointMovementGenerator.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

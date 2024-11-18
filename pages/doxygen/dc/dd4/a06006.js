@@ -1,9 +1,8 @@
 var a06006 =
 [
-    [ "CritterAI", "dc/dd4/a06006.html#aa211359ea8b80ac0ed27e9b337e333f1", null ],
-    [ "EnterEvadeMode", "dc/dd4/a06006.html#a989d1fc00af900320dcf27cce7f247dc", null ],
-    [ "JustEngagedWith", "dc/dd4/a06006.html#a2f52eb5c527895168f18ed5ddcc560a9", null ],
-    [ "MovementInform", "dc/dd4/a06006.html#a54c44d28e4b2b3231afeb8de343dee43", null ],
-    [ "Permissible", "dc/dd4/a06006.html#ae43183a24398fe3af1cb8275b9b4c6c6", null ],
-    [ "UpdateAI", "dc/dd4/a06006.html#af860be127a671f5448cb731aa2f701b0", null ]
+    [ "PassiveAI", "dc/dd4/a06006.html#ad1ae1c9e8a101dabd89aeed5c71eb453", null ],
+    [ "AttackStart", "dc/dd4/a06006.html#ac2aeba8cb148659de1ef97733fbb0651", null ],
+    [ "MoveInLineOfSight", "dc/dd4/a06006.html#a3a54c7d7268b8c2f4e081a99b4b0cd11", null ],
+    [ "Permissible", "dc/dd4/a06006.html#a2960223799a5b3baedbdd7e664604865", null ],
+    [ "UpdateAI", "dc/dd4/a06006.html#ae8aa0cf612d23e5b9438e3f2b443f3d9", null ]
 ];

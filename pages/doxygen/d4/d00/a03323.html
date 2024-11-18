@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Loot/LootItemStorage.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/World/World.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,86 +107,222 @@ $(document).ready(function(){initNavTree('d4/d00/a03323.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">LootItemStorage.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">World.h File Reference<div class="ingroups"><a class="el" href="../../d2/db6/a04681.html">The World</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IWorld.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LockedQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;list&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a09350.html">StoredLootItem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/a11270.html">PetitionData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d32/a09354.html">LootItemStorage</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc5/a11274.html">World</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../d8/dc5/a11274.html" title="The World.">World</a>.  <a href="../../d8/dc5/a11274.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a06515a8a4bd76cd02aa0ab99d3d7c64e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d00/a03323.html#a06515a8a4bd76cd02aa0ab99d3d7c64e">sLootItemStorage</a>&#160;&#160;&#160;<a class="el" href="../../d6/d32/a09354.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">LootItemStorage::instance</a>()</td></tr>
-<tr class="separator:a06515a8a4bd76cd02aa0ab99d3d7c64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05dfb35c344e5b947a19e4284e7f5fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>&#160;&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ga6bf640d0ef6703c32d9fa1618826319b">getWorldInstance</a>()</td></tr>
+<tr class="separator:ga05dfb35c344e5b947a19e4284e7f5fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aa16defe92374d7db2d28958ee8fce21d"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../d4/ddb/a09350.html">StoredLootItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d00/a03323.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a></td></tr>
-<tr class="separator:aa16defe92374d7db2d28958ee8fce21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06cc23df363d1d767959d7ab5ec29ad5"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, <a class="el" href="../../d4/d00/a03323.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d00/a03323.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a></td></tr>
-<tr class="separator:a06cc23df363d1d767959d7ab5ec29ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga11501f5782bd40fa2c7b56d7b12221e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga11501f5782bd40fa2c7b56d7b12221e2">ShutdownMask</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga11501f5782bd40fa2c7b56d7b12221e2a8198be8f6c6a5b3e7588ffd64a95312f">SHUTDOWN_MASK_RESTART</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga11501f5782bd40fa2c7b56d7b12221e2aecfb61fe30dad8b80bb93881cafe105d">SHUTDOWN_MASK_IDLE</a> = 2
+<br />
+ }</td></tr>
+<tr class="separator:ga11501f5782bd40fa2c7b56d7b12221e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06d1e4f345fc9b7a45e5b1b9f1919efc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga06d1e4f345fc9b7a45e5b1b9f1919efc">ShutdownExitCode</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf18aae50edbb1083eb3b45656b52f999">SHUTDOWN_EXIT_CODE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcabfbc19d06d002a2b3e03ff2e13c3fb61">RESTART_EXIT_CODE</a> = 2
+<br />
+ }</td></tr>
+<tr class="separator:ga06d1e4f345fc9b7a45e5b1b9f1919efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4dcd824b4592ac27595e16471efe0520"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga4dcd824b4592ac27595e16471efe0520">WorldTimers</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520ad4d5ef315ed70163b8c1603bbd422dcf">WUPDATE_AUCTIONS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520abb4b6bdb4b5ae3799d4f0ca456733cce">WUPDATE_WEATHERS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520aa7880547231a7f7d8798a527cf0aad9c">WUPDATE_UPTIME</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a333f639c939c9e723150abb74ebcd206">WUPDATE_CORPSES</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520ad21d0e0cae7555877c5805ce446e2628">WUPDATE_EVENTS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a26e7cf66fbcba5c52d1716b77262981f">WUPDATE_CLEANDB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a8ed1fe2bb98e8e56fe8604d549af261d">WUPDATE_AUTOBROADCAST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a24504584cc49b4459dc084dd0af67e69">WUPDATE_MAILBOXQUEUE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a4561c29a80e9042cfd1fb7c5ccde1c4a">WUPDATE_PINGDB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a81759ebc68e35638c5d56ee97fb7afc0">WUPDATE_5_SECS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520aa227ebddbdbccda039ebb8e732dcdb56">WUPDATE_WHO_LIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a1c180839188a9324a906a5602833f604">WUPDATE_COUNT</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga4dcd824b4592ac27595e16471efe0520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timers for different object refresh rates.  <a href="../../d2/db6/a04681.html#ga4dcd824b4592ac27595e16471efe0520">More...</a><br /></td></tr>
+<tr class="separator:ga4dcd824b4592ac27595e16471efe0520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac11f34aad352a3782f299b3978607d16"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#gac11f34aad352a3782f299b3978607d16">BillingPlanFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a0868dba320a07a5c9d31e968134dcfe6">SESSION_NONE</a> = 0x00
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a7c01173015d547564263c9c0cbbda246">SESSION_UNUSED</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a31aebb0359dbce580fa28fe86fbd67ae">SESSION_RECURRING_BILL</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a8cec6c9d7436da0c2f14369c954f1e5f">SESSION_FREE_TRIAL</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16ab5bf7f117aa8390fe1605e95192bbc6e">SESSION_IGR</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a2f71e12af483f593df7e23a3232fd3a8">SESSION_USAGE</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a19fb811c6132abdc3968a13c63eef2c1">SESSION_TIME_MIXTURE</a> = 0x20
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a63c4b8495ee7a07c4672f7ae0a4539cf">SESSION_RESTRICTED</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#ggac11f34aad352a3782f299b3978607d16a60b5937926d1517dc374a756f0e3eb13">SESSION_ENABLE_CAIS</a> = 0x80
+<br />
+ }</td></tr>
+<tr class="memdesc:gac11f34aad352a3782f299b3978607d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used in SMSG_AUTH_RESPONSE packet.  <a href="../../d2/db6/a04681.html#gac11f34aad352a3782f299b3978607d16">More...</a><br /></td></tr>
+<tr class="separator:gac11f34aad352a3782f299b3978607d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26aa1cb8ae0de12da27fef70a5b9c7ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga26aa1cb8ae0de12da27fef70a5b9c7ab">RealmZone</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba507b40d8e1860051d9bd9d2fcada3053">REALM_ZONE_UNKNOWN</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae7a19f9c62c04561c69306240938c64e">REALM_ZONE_DEVELOPMENT</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6832d41458638376fa102ad339beafd2">REALM_ZONE_UNITED_STATES</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4ac5df4b9eff2cf69d2312d1cf3174db">REALM_ZONE_OCEANIC</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba3b6507bcbebedb32e913002e218ff156">REALM_ZONE_LATIN_AMERICA</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba2f2f733f59cd3f944091a5ecbefba3a5">REALM_ZONE_TOURNAMENT_5</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4f8f0506d09c5079326b000d5d074611">REALM_ZONE_KOREA</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba177e3d98ca0a68108d04800fec4c5d86">REALM_ZONE_TOURNAMENT_7</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba81e54f655d7352ad0fb5f74b7a7af326">REALM_ZONE_ENGLISH</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafea27caf1483a582a7377c67b122334b">REALM_ZONE_GERMAN</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba86bbc26ecd3cbf3bb1d2337033394ed8">REALM_ZONE_FRENCH</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4a3d3718b458559db2843274259e9caf">REALM_ZONE_SPANISH</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae5bd48e696a93fdab8960b7a2880dd61">REALM_ZONE_RUSSIAN</a> = 12
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba835b38db59060e7ff994029348d14f52">REALM_ZONE_TOURNAMENT_13</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafcdb39c5842623895a4019df95d6dad8">REALM_ZONE_TAIWAN</a> = 14
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba600d0faad5b165a2d50d8a857c1caed7">REALM_ZONE_TOURNAMENT_15</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abac109484ffee5df2c967a65b4104d22e5">REALM_ZONE_CHINA</a> = 16
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaf10182037fac98effa36883691f4fc0e">REALM_ZONE_CN1</a> = 17
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba03d0c4dd430afeb66acc56c0a9c104aa">REALM_ZONE_CN2</a> = 18
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba9b933190ce59532ec60b42454d0fca87">REALM_ZONE_CN3</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba44c3162fd70316c504cd4e8068559a4e">REALM_ZONE_CN4</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaccb2f60b67efa38a5d8454df249db838">REALM_ZONE_CN5</a> = 21
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae4f84dfc27fee4e4426b8f35f010823f">REALM_ZONE_CN6</a> = 22
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abacd29849c85298b0eae1a1b38a9a80c51">REALM_ZONE_CN7</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba7a38c263a84023b9308f12797e3ff255">REALM_ZONE_CN8</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba47aaebf38c22faea919f15103ca564f8">REALM_ZONE_TOURNAMENT_25</a> = 25
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba09e6d6b40910f762c092171266a042cc">REALM_ZONE_TEST_SERVER</a> = 26
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abad36f14004bd6c21e49d12726e8c36f97">REALM_ZONE_TOURNAMENT_27</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba984d95c5dabcb241fc9e4888e6544417">REALM_ZONE_QA_SERVER</a> = 28
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba97fbf4c193a6fb9bf944a77365937a45">REALM_ZONE_CN9</a> = 29
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abab5eb75439f5e692fce74a91cec2c5692">REALM_ZONE_TEST_SERVER_2</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba9ca30377545fe1b8c0ba84485094f9c2">REALM_ZONE_CN10</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abad9087749f4814ca8998c10b585a6a64f">REALM_ZONE_CTC</a> = 32
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba614f2939bc31c0a396c2017c8baac109">REALM_ZONE_CNC</a> = 33
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba75686e8652a360819672f11c1497d588">REALM_ZONE_CN1_4</a> = 34
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6be2d3d4688a94934460fbfd97606f6b">REALM_ZONE_CN2_6_9</a> = 35
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7abaa870d541b02010203bcdaac275013fb8">REALM_ZONE_CN3_7</a> = 36
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba695f1e2830267d3aaf0ba4131608e5cd">REALM_ZONE_CN5_8</a> = 37
+<br />
+ }</td></tr>
+<tr class="separator:ga26aa1cb8ae0de12da27fef70a5b9c7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0deead4ad87fa303c91e30781af1cd93"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga0deead4ad87fa303c91e30781af1cd93">WorldStates</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93a583c7e9ae718d5aebb9db1e682fc02bc">WS_ARENA_DISTRIBUTION_TIME</a> = 20001
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93a4bfd0eaff24d1c7f1247d9fc761b4e8a">WS_WEEKLY_QUEST_RESET_TIME</a> = 20002
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93a789d14f11911d399c3e2e2d123a98289">WS_BG_DAILY_RESET_TIME</a> = 20003
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4">WS_CLEANING_FLAGS</a> = 20004
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93ae9cb78cf537999744d260627dc4d98cf">WS_DAILY_QUEST_RESET_TIME</a> = 20005
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93a1e2bf09f0a410ad45952c8eb7efbea6f">WS_GUILD_DAILY_RESET_TIME</a> = 20006
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93ac975616eb2d458be13ff30130dab0b99">WS_MONTHLY_QUEST_RESET_TIME</a> = 20007
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93acd2bc0620e575fa7094a43d45a7cc708">WS_DAILY_CALENDAR_DELETION_OLD_EVENTS_TIME</a> = 20008
+<br />
+ }</td></tr>
+<tr class="separator:ga0deead4ad87fa303c91e30781af1cd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga6bf640d0ef6703c32d9fa1618826319b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../dd/d1f/a11262.html">IWorld</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#ga6bf640d0ef6703c32d9fa1618826319b">getWorldInstance</a> ()</td></tr>
+<tr class="separator:ga6bf640d0ef6703c32d9fa1618826319b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gab842e78f86995775c494437356620779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d0/db7/a28102.html">Realm</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a04681.html#gab842e78f86995775c494437356620779">realm</a></td></tr>
+<tr class="separator:gab842e78f86995775c494437356620779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a06515a8a4bd76cd02aa0ab99d3d7c64e" name="a06515a8a4bd76cd02aa0ab99d3d7c64e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06515a8a4bd76cd02aa0ab99d3d7c64e">&#9670;&#160;</a></span>sLootItemStorage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sLootItemStorage&#160;&#160;&#160;<a class="el" href="../../d6/d32/a09354.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">LootItemStorage::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a06cc23df363d1d767959d7ab5ec29ad5" name="a06cc23df363d1d767959d7ab5ec29ad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06cc23df363d1d767959d7ab5ec29ad5">&#9670;&#160;</a></span>LootItemContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, <a class="el" href="../../d4/d00/a03323.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&gt; <a class="el" href="../../d4/d00/a03323.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa16defe92374d7db2d28958ee8fce21d" name="aa16defe92374d7db2d28958ee8fce21d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa16defe92374d7db2d28958ee8fce21d">&#9670;&#160;</a></span>StoredLootItemList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::list&lt;<a class="el" href="../../d4/ddb/a09350.html">StoredLootItem</a>&gt; <a class="el" href="../../d4/d00/a03323.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_10297b48ba7ced035a247ae7b230d081.html">Loot</a></li><li class="navelem"><a class="el" href="../../d4/d00/a03323.html">LootItemStorage.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_6f2d0651f8bb60d9295230d3c0a9398e.html">World</a></li><li class="navelem"><a class="el" href="../../d4/d00/a03323.html">World.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

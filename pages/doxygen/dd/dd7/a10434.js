@@ -1,10 +1,5 @@
 var a10434 =
 [
-    [ "Count", "dd/dd7/a10434.html#a97b56650a40ff3d39c6281d43261f06f", null ],
-    [ "EntryType", "dd/dd7/a10434.html#a7c4db5da5d5e501172b8581e4e7bb865", null ],
-    [ "ItemID", "dd/dd7/a10434.html#a1daad03864355f94d90315fea68892d4", null ],
-    [ "Money", "dd/dd7/a10434.html#a856d32f52e85b2b7329f85b8e04ad0ee", null ],
-    [ "OtherTab", "dd/dd7/a10434.html#a359c633cc0034dc8ae8b7db69d3dd739", null ],
-    [ "PlayerGUID", "dd/dd7/a10434.html#a90e01e455d373204617b2747ca95fe04", null ],
-    [ "TimeOffset", "dd/dd7/a10434.html#a11cf13b65aafbd4dc70399362f4f87fe", null ]
+    [ "Icon", "dd/dd7/a10434.html#ae47c09144b18e42aa48499de3e3fe276", null ],
+    [ "Name", "dd/dd7/a10434.html#a19c79529bbfe25701c9f8253f3e0f9d8", null ]
 ];

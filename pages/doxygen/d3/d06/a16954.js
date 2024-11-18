@@ -1,6 +1,6 @@
 var a16954 =
 [
-    [ "boss_blood_queen_lana_thelAI", "dc/d71/a16958.html", "dc/d71/a16958" ],
-    [ "boss_blood_queen_lana_thel", "d3/d06/a16954.html#a9f8fa906f01082caacd106abc2707b07", null ],
-    [ "GetAI", "d3/d06/a16954.html#a7873efd945bdb24228866f639e32879b", null ]
+    [ "KnockIntoAir", "d3/d06/a16954.html#a1f9fb1f258613ca6657abba26969961f", null ],
+    [ "PrepareSpellScript", "d3/d06/a16954.html#acf66a4b14ffce76b6c8dc7cc5906f229", null ],
+    [ "Register", "d3/d06/a16954.html#a35a7758630c1769228fedff84ad929e8", null ]
 ];

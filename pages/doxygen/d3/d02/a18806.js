@@ -1,6 +1,6 @@
 var a18806 =
 [
-    [ "boss_malygosAI", "dc/dcc/a18810.html", "dc/dcc/a18810" ],
-    [ "boss_malygos", "d3/d02/a18806.html#aeac3c63d4ccd2947a6f7e4c007dc6aa1", null ],
-    [ "GetAI", "d3/d02/a18806.html#a9e1d821311fa8b92318a99ea79ddb1e3", null ]
+    [ "boss_naxxramas_miscAI", "dc/dcc/a18810.html", "dc/dcc/a18810" ],
+    [ "boss_naxxramas_misc", "d3/d02/a18806.html#a9cbca6381ba430739918064d5556b8fb", null ],
+    [ "GetAI", "d3/d02/a18806.html#a2972b551be161560b6df00e2105f2ce4", null ]
 ];

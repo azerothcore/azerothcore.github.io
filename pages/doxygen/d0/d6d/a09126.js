@@ -1,7 +1,8 @@
 var a09126 =
 [
-    [ "AllWorldObjectsInRange", "d0/d6d/a09126.html#a63f46d510df0fa3153d4b3325676a468", null ],
-    [ "operator()", "d0/d6d/a09126.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
-    [ "m_fRange", "d0/d6d/a09126.html#a6afe3ef05369dce8ee205db219f97846", null ],
-    [ "m_pObject", "d0/d6d/a09126.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
+    [ "MostHPMissingGroupInRange", "d0/d6d/a09126.html#ab7cd80daa30d8a39289c704cc0a2064f", null ],
+    [ "operator()", "d0/d6d/a09126.html#ad1b4a4894dd652237a7a789ef5619f4b", null ],
+    [ "i_hp", "d0/d6d/a09126.html#ae61cafc52cb6d33cd78422c41bd3bb08", null ],
+    [ "i_obj", "d0/d6d/a09126.html#ae0d85f9738301b40c3e950b02ee20026", null ],
+    [ "i_range", "d0/d6d/a09126.html#a712e9b1ff341ccde4a6d6962ba6002a4", null ]
 ];

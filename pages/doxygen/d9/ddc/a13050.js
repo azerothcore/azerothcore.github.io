@@ -1,6 +1,6 @@
 var a13050 =
 [
-    [ "HandlePeriodic", "d9/ddc/a13050.html#ae090fc1fc8eab18cf6f744d9385fb713", null ],
-    [ "PrepareAuraScript", "d9/ddc/a13050.html#a2722b97e12e9371745d7f38504d9efdf", null ],
-    [ "Register", "d9/ddc/a13050.html#acb892b1e0281da08af07b2dd2a04ca03", null ]
+    [ "FilterTargets", "d9/ddc/a13050.html#aa6c8db9ae3ffd14e0841c98633115a9b", null ],
+    [ "PrepareSpellScript", "d9/ddc/a13050.html#a502f57c8567bc7ed15035d89ea26f4a6", null ],
+    [ "Register", "d9/ddc/a13050.html#aa3f50e9c6d430d3a1bc83c382c08b189", null ]
 ];

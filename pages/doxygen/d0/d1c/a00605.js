@@ -1,4 +1,4 @@
 var a00605 =
 [
-    [ "Acore::Asio::Strand", "dd/dec/a04786.html", "dd/dec/a04786" ]
+    [ "main", "d0/d1c/a00605.html#a0ddf1224851353fc92bfbff6f499fa97", null ]
 ];

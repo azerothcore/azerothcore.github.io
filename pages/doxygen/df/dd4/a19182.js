@@ -1,7 +1,26 @@
 var a19182 =
 [
-    [ "HandleScript", "df/dd4/a19182.html#a5d778f906e1ee820cc97b0b32839cc78", null ],
-    [ "PrepareSpellScript", "df/dd4/a19182.html#a34337690029eedb60a17572dbbf1e1f9", null ],
-    [ "Register", "df/dd4/a19182.html#ad554d79e1a98490085b22f5038d058da", null ],
-    [ "Validate", "df/dd4/a19182.html#a0932ccc5652bc4901aacbe2cf8d6c7d8", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "df/dd4/a19182.html#a9c82cd25354abaf7707c1dabd62c9fe3", null ],
+    [ "CheckAchievementCriteriaMeet", "df/dd4/a19182.html#ad6db51b0ae7de338264d07a61daf21cc", null ],
+    [ "GetData", "df/dd4/a19182.html#ac5ffe94c706af44c1989359d398c9a74", null ],
+    [ "GetGuidData", "df/dd4/a19182.html#a71da39aef6924f1d25743acb396fe38d", null ],
+    [ "Initialize", "df/dd4/a19182.html#a11aa5cfa5c6e5a3d76f00ef2b29562f3", null ],
+    [ "IsEncounterInProgress", "df/dd4/a19182.html#ae110bf89612d9e2c6a3cf2b207d4ce6d", null ],
+    [ "OnCreatureCreate", "df/dd4/a19182.html#a870fe2a7a47c53e4846794577397b722", null ],
+    [ "OnGameObjectCreate", "df/dd4/a19182.html#a51f358749e3056e4a25eced558ac814a", null ],
+    [ "ReadSaveDataMore", "df/dd4/a19182.html#aaa57bfd43cd20fafbd66f6cabbb2128c", null ],
+    [ "SetData", "df/dd4/a19182.html#a26bd9da74d0d29e50b61df62b205f5e6", null ],
+    [ "WriteSaveDataMore", "df/dd4/a19182.html#a98e2944f3199f4820cd52231880aba3b", null ],
+    [ "bjarngrimAchievement", "df/dd4/a19182.html#a20572cd7722a65253bfd8a294476ab6f", null ],
+    [ "m_auiEncounter", "df/dd4/a19182.html#a1c14cdda037a2ff43b246542c5aba621", null ],
+    [ "m_uiBjarngrimDoorGUID", "df/dd4/a19182.html#ae6f84f7a7ae0af6349f1879b2178f36e", null ],
+    [ "m_uiGeneralBjarngrimGUID", "df/dd4/a19182.html#a7bad151c19b5d728d7f81562577509cd", null ],
+    [ "m_uiIonarDoorGUID", "df/dd4/a19182.html#a1e9fb8dd805dfdf8efd9ccca1948bc49", null ],
+    [ "m_uiIonarGUID", "df/dd4/a19182.html#a249d161cbf3b8caa1a3c6c25f95a883c", null ],
+    [ "m_uiLokenDoorGUID", "df/dd4/a19182.html#abe74e5b5247f779d75fb8f6542393b19", null ],
+    [ "m_uiLokenGlobeGUID", "df/dd4/a19182.html#a6e741bd531a91760605f407c1529973a", null ],
+    [ "m_uiLokenGUID", "df/dd4/a19182.html#a70ce7a51edff97f5095f79e5ff2b6b6a", null ],
+    [ "m_uiVolkhanDoorGUID", "df/dd4/a19182.html#ade089fe04440ea936550130f7e98ba29", null ],
+    [ "m_uiVolkhanGUID", "df/dd4/a19182.html#a0c0e420ed790c9f845aae42ea9b738f5", null ],
+    [ "volkhanAchievement", "df/dd4/a19182.html#abf142b92d4db3fefd0088f7473d2c3c7", null ]
 ];

@@ -1,14 +1,8 @@
 var a15470 =
 [
-    [ "boss_anub_arakAI", "dc/dc8/a15470.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
-    [ "EnterEvadeMode", "dc/dc8/a15470.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
-    [ "JustDied", "dc/dc8/a15470.html#abc93931e7698ffd717199a598e16c917", null ],
-    [ "JustEngagedWith", "dc/dc8/a15470.html#a589c252516b738a8f38f9d89da11912c", null ],
-    [ "JustSummoned", "dc/dc8/a15470.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
-    [ "KilledUnit", "dc/dc8/a15470.html#a33e26ae3907e84ecc02514e4133e3002", null ],
-    [ "MoveInLineOfSight", "dc/dc8/a15470.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
-    [ "Reset", "dc/dc8/a15470.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
-    [ "SummonHelpers", "dc/dc8/a15470.html#a709ef4602ace41c9b9ccebe8795badec", null ],
-    [ "UpdateAI", "dc/dc8/a15470.html#acf3ddec273ded62c768631be2b3299fa", null ],
-    [ "intro", "dc/dc8/a15470.html#a4916d6a1ed06330e94698a13c404ee52", null ]
+    [ "instance_ahnkahet_InstanceScript", "dc/dc8/a15470.html#aa9a72f2f757d0b3065a6e4e25b14e86d", null ],
+    [ "IsAllSpheresActivated", "dc/dc8/a15470.html#a048a2b16ae9917c7edc9bf7023986ac3", null ],
+    [ "OnGameObjectCreate", "dc/dc8/a15470.html#ad00fdc90a61e1c927323daa2149f8466", null ],
+    [ "SetData", "dc/dc8/a15470.html#a8986038a2f25b16b9ab8ba4d41b5221a", null ],
+    [ "taldaramPlatform_GUID", "dc/dc8/a15470.html#a840ce69595c384be321c1167513d151e", null ]
 ];

@@ -1,8 +1,7 @@
 var a18274 =
 [
-    [ "npc_arthas_teleport_visualAI", "d3/d96/a18274.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
-    [ "Reset", "d3/d96/a18274.html#a27155b8880a2a86b733bcd074e977b59", null ],
-    [ "UpdateAI", "d3/d96/a18274.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
-    [ "_events", "d3/d96/a18274.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
-    [ "_instance", "d3/d96/a18274.html#a25bc023e061a0845421a652b571a6e1e", null ]
+    [ "npc_impaling_spearAI", "d3/d96/a18274.html#ae8fbc36a15324b210a24a0e98357adc3", null ],
+    [ "Reset", "d3/d96/a18274.html#a43fa8bf8f22f0635261decd8b15ed6f5", null ],
+    [ "UpdateAI", "d3/d96/a18274.html#acb187a58b0ba256b4e003655ac36db34", null ],
+    [ "_vehicleCheckTimer", "d3/d96/a18274.html#a264874b9f6f0609792d4b3a325e54f59", null ]
 ];

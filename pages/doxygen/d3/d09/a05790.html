@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: DBUpdaterUtil Class Reference</title>
+<title>AzerothCore: TransactionCallback Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,31 +105,39 @@ $(document).ready(function(){initNavTree('d3/d09/a05790.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d0/d25/a05787.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DBUpdaterUtil Class Reference</div></div>
+  <div class="headertitle"><div class="title">TransactionCallback Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">DBUpdater.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Transaction.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8ab8efffe5408f97f438e06766f65ec9"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a8ab8efffe5408f97f438e06766f65ec9">GetCorrectedMySQLExecutable</a> ()</td></tr>
-<tr class="separator:a8ab8efffe5408f97f438e06766f65ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65cf44a18a72ba92f91a667e41f9da80"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a65cf44a18a72ba92f91a667e41f9da80">CheckExecutable</a> ()</td></tr>
-<tr class="separator:a65cf44a18a72ba92f91a667e41f9da80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a89e9ebf06ffbad9dcf77a78f9f989450"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a89e9ebf06ffbad9dcf77a78f9f989450">TransactionCallback</a> (<a class="el" href="../../d3/d24/a04589.html#ad8826e834522c9cacfd021d4529b4f87">TransactionFuture</a> &amp;&amp;future)</td></tr>
+<tr class="separator:a89e9ebf06ffbad9dcf77a78f9f989450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeff62976c11d9d90169e4650640118b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#adeff62976c11d9d90169e4650640118b">TransactionCallback</a> (<a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:adeff62976c11d9d90169e4650640118b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73d1741c21ea9fd86f65a647768e972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#ab73d1741c21ea9fd86f65a647768e972">operator=</a> (<a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ab73d1741c21ea9fd86f65a647768e972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ec892bbca8d2cc694b36fb931fc1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#af2ec892bbca8d2cc694b36fb931fc1e8">AfterComplete</a> (std::function&lt; void(bool)&gt; callback) &amp;</td></tr>
+<tr class="separator:af2ec892bbca8d2cc694b36fb931fc1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7937d93dbd22617a2fd3893a6fe8c23c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a7937d93dbd22617a2fd3893a6fe8c23c">InvokeIfReady</a> ()</td></tr>
+<tr class="separator:a7937d93dbd22617a2fd3893a6fe8c23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a31499b458f0ff0ec518980f51d6a242a"><td class="memItemLeft" align="right" valign="top">static std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a> ()</td></tr>
-<tr class="separator:a31499b458f0ff0ec518980f51d6a242a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a381e889074bc5ca48574d37fe6eea00f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d24/a04589.html#ad8826e834522c9cacfd021d4529b4f87">TransactionFuture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a></td></tr>
+<tr class="separator:a381e889074bc5ca48574d37fe6eea00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0dbcebb22ea716025ed6aca99f6afb"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(bool)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d09/a05790.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a></td></tr>
+<tr class="separator:abb0dbcebb22ea716025ed6aca99f6afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a65cf44a18a72ba92f91a667e41f9da80" name="a65cf44a18a72ba92f91a667e41f9da80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65cf44a18a72ba92f91a667e41f9da80">&#9670;&#160;</a></span>CheckExecutable()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a89e9ebf06ffbad9dcf77a78f9f989450" name="a89e9ebf06ffbad9dcf77a78f9f989450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e9ebf06ffbad9dcf77a78f9f989450">&#9670;&#160;</a></span>TransactionCallback() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,50 +146,26 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DBUpdaterUtil::CheckExecutable </td>
+          <td class="memname">TransactionCallback::TransactionCallback </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#ad8826e834522c9cacfd021d4529b4f87">TransactionFuture</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>future</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    std::filesystem::path exe(<a class="code hl_function" href="../../d3/d09/a05790.html#a8ab8efffe5408f97f438e06766f65ec9">GetCorrectedMySQLExecutable</a>());</div>
-<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">if</span> (!is_regular_file(exe))</div>
-<div class="line"><span class="lineno">   43</span>    {</div>
-<div class="line"><span class="lineno">   44</span>        exe = <a class="code hl_function" href="../../d7/de4/a04674.html#a9de098dac5e38f8c2cdbeb1d4d706881">Acore::SearchExecutableInPath</a>(<span class="stringliteral">&quot;mysql&quot;</span>);</div>
-<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (!exe.empty() &amp;&amp; is_regular_file(exe))</div>
-<div class="line"><span class="lineno">   46</span>        {</div>
-<div class="line"><span class="lineno">   47</span>            <span class="comment">// Correct the path to the cli</span></div>
-<div class="line"><span class="lineno">   48</span>            <a class="code hl_function" href="../../d3/d09/a05790.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>() = absolute(exe).generic_string();</div>
-<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   50</span>        }</div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>        <a class="code hl_define" href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.updates&quot;</span>, <span class="stringliteral">&quot;Didn&#39;t find any executable MySQL binary at \&#39;{}\&#39; or in path, correct the path in the *.conf (\&quot;MySQLExecutable\&quot;).&quot;</span>,</div>
-<div class="line"><span class="lineno">   53</span>            absolute(exe).generic_string());</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   56</span>    }</div>
-<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   58</span>}</div>
-<div class="ttc" id="aa00125_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:153</div></div>
-<div class="ttc" id="aa04674_html_a9de098dac5e38f8c2cdbeb1d4d706881"><div class="ttname"><a href="../../d7/de4/a04674.html#a9de098dac5e38f8c2cdbeb1d4d706881">Acore::SearchExecutableInPath</a></div><div class="ttdeci">std::string SearchExecutableInPath(std::string const &amp;filename)</div><div class="ttdef"><b>Definition:</b> StartProcess.cpp:265</div></div>
-<div class="ttc" id="aa05790_html_a31499b458f0ff0ec518980f51d6a242a"><div class="ttname"><a href="../../d3/d09/a05790.html#a31499b458f0ff0ec518980f51d6a242a">DBUpdaterUtil::corrected_path</a></div><div class="ttdeci">static std::string &amp; corrected_path()</div><div class="ttdef"><b>Definition:</b> DBUpdater.cpp:60</div></div>
-<div class="ttc" id="aa05790_html_a8ab8efffe5408f97f438e06766f65ec9"><div class="ttname"><a href="../../d3/d09/a05790.html#a8ab8efffe5408f97f438e06766f65ec9">DBUpdaterUtil::GetCorrectedMySQLExecutable</a></div><div class="ttdeci">static std::string GetCorrectedMySQLExecutable()</div><div class="ttdef"><b>Definition:</b> DBUpdater.cpp:31</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>: <a class="code hl_variable" href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>(std::move(future)) { }</div>
+<div class="ttc" id="aa05790_html_a381e889074bc5ca48574d37fe6eea00f"><div class="ttname"><a href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">TransactionCallback::m_future</a></div><div class="ttdeci">TransactionFuture m_future</div><div class="ttdef"><b>Definition:</b> Transaction.h:123</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00060">corrected_path()</a>, <a class="el" href="../../#l00031">GetCorrectedMySQLExecutable()</a>, <a class="el" href="../../#l00153">LOG_FATAL</a>, and <a class="el" href="../../#l00265">Acore::SearchExecutableInPath()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00356">DBUpdater&lt; T &gt;::Populate()</a>, and <a class="el" href="../../#l00220">DBUpdater&lt; T &gt;::Update()</a>.</p>
-
 </div>
 </div>
-<a id="a31499b458f0ff0ec518980f51d6a242a" name="a31499b458f0ff0ec518980f51d6a242a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31499b458f0ff0ec518980f51d6a242a">&#9670;&#160;</a></span>corrected_path()</h2>
+<a id="adeff62976c11d9d90169e4650640118b" name="adeff62976c11d9d90169e4650640118b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeff62976c11d9d90169e4650640118b">&#9670;&#160;</a></span>TransactionCallback() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,29 +174,25 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string &amp; DBUpdaterUtil::corrected_path </td>
+          <td class="memname">TransactionCallback::TransactionCallback </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
-<div class="line"><span class="lineno">   62</span>    <span class="keyword">static</span> std::string path;</div>
-<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">return</span> path;</div>
-<div class="line"><span class="lineno">   64</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00039">CheckExecutable()</a>, and <a class="el" href="../../#l00031">GetCorrectedMySQLExecutable()</a>.</p>
 
 </div>
 </div>
-<a id="a8ab8efffe5408f97f438e06766f65ec9" name="a8ab8efffe5408f97f438e06766f65ec9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab8efffe5408f97f438e06766f65ec9">&#9670;&#160;</a></span>GetCorrectedMySQLExecutable()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af2ec892bbca8d2cc694b36fb931fc1e8" name="af2ec892bbca8d2cc694b36fb931fc1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ec892bbca8d2cc694b36fb931fc1e8">&#9670;&#160;</a></span>AfterComplete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,29 +201,110 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string DBUpdaterUtil::GetCorrectedMySQLExecutable </td>
+          <td class="memname">void TransactionCallback::AfterComplete </td>
           <td>(</td>
+          <td class="paramtype">std::function&lt; void(bool)&gt;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  117</span>    {</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="../../d3/d09/a05790.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a> = std::move(callback);</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="ttc" id="aa05790_html_abb0dbcebb22ea716025ed6aca99f6afb"><div class="ttname"><a href="../../d3/d09/a05790.html#abb0dbcebb22ea716025ed6aca99f6afb">TransactionCallback::m_callback</a></div><div class="ttdeci">std::function&lt; void(bool)&gt; m_callback</div><div class="ttdef"><b>Definition:</b> Transaction.h:124</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7937d93dbd22617a2fd3893a6fe8c23c" name="a7937d93dbd22617a2fd3893a6fe8c23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7937d93dbd22617a2fd3893a6fe8c23c">&#9670;&#160;</a></span>InvokeIfReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TransactionCallback::InvokeIfReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  183</span>{</div>
+<div class="line"><span class="lineno">  184</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.valid() &amp;&amp; <a class="code hl_variable" href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.wait_for(0s) == std::future_status::ready)</div>
+<div class="line"><span class="lineno">  185</span>    {</div>
+<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="../../d3/d09/a05790.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a>(<a class="code hl_variable" href="../../d3/d09/a05790.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.get());</div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  188</span>    }</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  191</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00124">m_callback</a>, and <a class="el" href="../../#l00123">m_future</a>.</p>
+
+</div>
+</div>
+<a id="ab73d1741c21ea9fd86f65a647768e972" name="ab73d1741c21ea9fd86f65a647768e972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73d1741c21ea9fd86f65a647768e972">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp; TransactionCallback::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a> &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/d09/a05790.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>().empty())</div>
-<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/d09/a05790.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>();</div>
-<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/d49/a04682.html#abdfee61576e0a7c64d7bb6a516ab69b7">BuiltInConfig::GetMySQLExecutable</a>();</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa04682_html_abdfee61576e0a7c64d7bb6a516ab69b7"><div class="ttname"><a href="../../d3/d49/a04682.html#abdfee61576e0a7c64d7bb6a516ab69b7">BuiltInConfig::GetMySQLExecutable</a></div><div class="ttdeci">AC_COMMON_API std::string GetMySQLExecutable()</div><div class="ttdef"><b>Definition:</b> BuiltInConfig.cpp:48</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00060">corrected_path()</a>, and <a class="el" href="../../#l00048">BuiltInConfig::GetMySQLExecutable()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00441">DBUpdater&lt; T &gt;::ApplyFile()</a>, and <a class="el" href="../../#l00039">CheckExecutable()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abb0dbcebb22ea716025ed6aca99f6afb" name="abb0dbcebb22ea716025ed6aca99f6afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0dbcebb22ea716025ed6aca99f6afb">&#9670;&#160;</a></span>m_callback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(bool)&gt; TransactionCallback::m_callback</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00182">InvokeIfReady()</a>.</p>
+
+</div>
+</div>
+<a id="a381e889074bc5ca48574d37fe6eea00f" name="a381e889074bc5ca48574d37fe6eea00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a381e889074bc5ca48574d37fe6eea00f">&#9670;&#160;</a></span>m_future</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d24/a04589.html#ad8826e834522c9cacfd021d4529b4f87">TransactionFuture</a> TransactionCallback::m_future</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00182">InvokeIfReady()</a>.</p>
 
 </div>
 </div>
@@ -252,8 +313,8 @@ Static Private Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/d09/a05790.html">DBUpdaterUtil</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d3/d09/a05790.html">TransactionCallback</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

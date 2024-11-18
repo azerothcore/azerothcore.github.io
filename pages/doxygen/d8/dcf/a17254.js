@@ -1,7 +1,6 @@
 var a17254 =
 [
-    [ "FilterTargets", "d8/dcf/a17254.html#a32b2fa87fb2eaca3db0801fbfe4b8aaa", null ],
-    [ "Load", "d8/dcf/a17254.html#a39e8ec4726a1f6c2911c165c7187f291", null ],
-    [ "PrepareSpellScript", "d8/dcf/a17254.html#a7526a6df4c25136f4be78e753c6abf62", null ],
-    [ "Register", "d8/dcf/a17254.html#a0d01b8292c1c071a5c828a5a88617bd5", null ]
+    [ "IgbExplosionCheck", "d8/dcf/a17254.html#ae67cca111f26a275614810cbe053bcd8", null ],
+    [ "operator()", "d8/dcf/a17254.html#a28ce6685366e99db2aa1e4022012f943", null ],
+    [ "_source", "d8/dcf/a17254.html#a413ee8f2218621d274d118aea967dc9b", null ]
 ];

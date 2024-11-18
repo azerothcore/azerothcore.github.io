@@ -1,10 +1,11 @@
 var a13194 =
 [
-    [ "npc_partygoer_pather", "d7/d81/a13194.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
-    [ "Initialize", "d7/d81/a13194.html#afb114b0587c550e39c41e131364da663", null ],
-    [ "PathEndReached", "d7/d81/a13194.html#a55833d306716ba411f96ecd024cc7c72", null ],
-    [ "Reset", "d7/d81/a13194.html#ade2cc36ff49001138eee5b607ec83b12", null ],
-    [ "UpdateAI", "d7/d81/a13194.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
-    [ "_events", "d7/d81/a13194.html#ac210dc0286ded980e78743237a08bb23", null ],
-    [ "_path", "d7/d81/a13194.html#a4da184c44858e99eca2b07193fd48f13", null ]
+    [ "npc_balance_of_light_and_shadowAI", "d7/d81/a13194.html#a00cc1f78fa8fe26bf472d99a490d05ad", null ],
+    [ "CanBeSeen", "d7/d81/a13194.html#af336c2afbf6c2850679fd7d8d1f0d5e9", null ],
+    [ "JustDied", "d7/d81/a13194.html#ae862f8763614a98dae6b982414caf30a", null ],
+    [ "MovementInform", "d7/d81/a13194.html#ad426816ae3c4d5a95587787d28f57ed8", null ],
+    [ "SpellHit", "d7/d81/a13194.html#abfddfff72b63fd05673584915d647958", null ],
+    [ "UpdateAI", "d7/d81/a13194.html#a540e3c28cc36917cde0153dd372d0287", null ],
+    [ "_targetGUID", "d7/d81/a13194.html#adaf2340aa5fe7b96c8f5cacc1c8d5545", null ],
+    [ "timer", "d7/d81/a13194.html#a204e0a809e9c392f20ec900e9a90a075", null ]
 ];

@@ -1,20 +1,15 @@
 var a12406 =
 [
-    [ "boss_julianne", "dd/d3d/a12406.html#a6433d08be0d5562e876e00225ebf7398", null ],
-    [ "DamageTaken", "dd/d3d/a12406.html#a8ff7675405322c2d55bd01cec340f6b8", null ],
-    [ "DoAction", "dd/d3d/a12406.html#a985c9c1f77b2769461bf42ddaab302d3", null ],
-    [ "EnterEvadeMode", "dd/d3d/a12406.html#af2499ba9d9c25555c82d8d7ae95c7249", null ],
-    [ "JustDied", "dd/d3d/a12406.html#abdfaf6fa147c6b35bed28bb2e3ed3c14", null ],
-    [ "JustEngagedWith", "dd/d3d/a12406.html#a6c5bd97ad402cc5f5dcda421c5d2bad1", null ],
-    [ "JustReachedHome", "dd/d3d/a12406.html#a6bda02d5534b9087741ee7146ec314b5", null ],
-    [ "KilledUnit", "dd/d3d/a12406.html#a7430fb4f315ee5dcf5f9c49b2daa66b0", null ],
-    [ "Reset", "dd/d3d/a12406.html#a1047e28950098b35bd8a8fc5bec4ed26", null ],
-    [ "ScheduleCombat", "dd/d3d/a12406.html#ab0939f8fe0fc34cafbe2dab4ef449895", null ],
-    [ "SpellHit", "dd/d3d/a12406.html#a1e142c56a514640dab0d5d7711085f9d", null ],
-    [ "UpdateAI", "dd/d3d/a12406.html#ad1e1d5bb27fed12a203c8b10f6ea92a6", null ],
-    [ "_scheduler", "dd/d3d/a12406.html#aae4be9b1035626ecc9ad2f3e5b918cbe", null ],
-    [ "instance", "dd/d3d/a12406.html#acdc787ba6908e716517683a8536ecf3e", null ],
-    [ "isFakingDeath", "dd/d3d/a12406.html#a7a1b3b2ead47a49e80f9ba2b49144a91", null ],
-    [ "phase", "dd/d3d/a12406.html#a5b0b680916cd38b2e20a6a1b1a530362", null ],
-    [ "summonedRomulo", "dd/d3d/a12406.html#a6938adccd5c781df04dabe6d860f9357", null ]
+    [ "boss_tinhead", "dd/d3d/a12406.html#aa56375e9b031db15bee833375b7a4405", null ],
+    [ "DoAction", "dd/d3d/a12406.html#ab27d93fd2b58e3f1c9e14d5bc6c788ff", null ],
+    [ "EnterEvadeMode", "dd/d3d/a12406.html#ae83464d571103a67980b413325988921", null ],
+    [ "JustDied", "dd/d3d/a12406.html#a5a641c0e96f271540e4642b5bb4e4c9e", null ],
+    [ "JustEngagedWith", "dd/d3d/a12406.html#a74f51f155fdfb9ecc70245380b740d9c", null ],
+    [ "JustReachedHome", "dd/d3d/a12406.html#a6c930c6cb2116cf16f3e4002e333f585", null ],
+    [ "KilledUnit", "dd/d3d/a12406.html#ac0f281f1e4b985174f4c5c9b7fcf278d", null ],
+    [ "Reset", "dd/d3d/a12406.html#ac22d86f58d59c81429e45fba9393fd37", null ],
+    [ "UpdateAI", "dd/d3d/a12406.html#aec0d558cf82eb6bbf0d5626126b10233", null ],
+    [ "_rustCount", "dd/d3d/a12406.html#a48901503085fd3d4ee5624626a526ce2", null ],
+    [ "_scheduler", "dd/d3d/a12406.html#ababc9f32611a9ea35ef41725bce22df5", null ],
+    [ "instance", "dd/d3d/a12406.html#a00b2ebbb009c700e38bbffbb035b4bfa", null ]
 ];

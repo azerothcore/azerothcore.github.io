@@ -1,6 +1,7 @@
 var a18366 =
 [
-    [ "npc_icc_skybreaker_marksmanAI", "de/d81/a18370.html", "de/d81/a18370" ],
-    [ "npc_icc_skybreaker_marksman", "da/d0e/a18366.html#a1d870b78e1acf2d17782265e28698d1c", null ],
-    [ "GetAI", "da/d0e/a18366.html#a374017d37da15705d51ab8edc75683ff", null ]
+    [ "HandleDummy", "da/d0e/a18366.html#a4bfc155129bd80c94b4b59474f30d748", null ],
+    [ "PrepareSpellScript", "da/d0e/a18366.html#a9c72772f9d17b34562bd11418d67872d", null ],
+    [ "Register", "da/d0e/a18366.html#a10c9f511da4eb366117d356c118408c6", null ],
+    [ "Validate", "da/d0e/a18366.html#a655f2081d17c06c155641efc45efc1f8", null ]
 ];

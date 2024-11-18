@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AccountScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuras.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,94 +105,62 @@ $(document).ready(function(){initNavTree('d7/d54/a03089.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">AccountScript.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">SpellAuras.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d39/a09914.html">AccountScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a4b5c567266fc875ca26b1f3c273a0e3f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3f">AccountHook</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520">ACCOUNTHOOK_ON_ACCOUNT_LOGIN</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb">ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993">ACCOUNTHOOK_ON_LAST_IP_UPDATE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744">ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982">ACCOUNTHOOK_ON_EMAIL_CHANGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf">ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5">ACCOUNTHOOK_ON_PASSWORD_CHANGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283">ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3">ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f">ACCOUNTHOOK_END</a>
-<br />
- }</td></tr>
-<tr class="separator:a4b5c567266fc875ca26b1f3c273a0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a49c1eff45f8eb67e523f8593923a5df0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d54/a03089.html#a49c1eff45f8eb67e523f8593923a5df0">UPDATE_TARGET_MAP_INTERVAL</a> = 500</td></tr>
+<tr class="separator:a49c1eff45f8eb67e523f8593923a5df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4b5c567266fc875ca26b1f3c273a0e3f" name="a4b5c567266fc875ca26b1f3c273a0e3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b5c567266fc875ca26b1f3c273a0e3f">&#9670;&#160;</a></span>AccountHook</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a49c1eff45f8eb67e523f8593923a5df0" name="a49c1eff45f8eb67e523f8593923a5df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c1eff45f8eb67e523f8593923a5df0">&#9670;&#160;</a></span>UPDATE_TARGET_MAP_INTERVAL</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3f">AccountHook</a></td>
+          <td class="memname">constexpr <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> UPDATE_TARGET_MAP_INTERVAL = 500</td>
         </tr>
       </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520" name="a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520"></a>ACCOUNTHOOK_ON_ACCOUNT_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb" name="a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb"></a>ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993" name="a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993"></a>ACCOUNTHOOK_ON_LAST_IP_UPDATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744" name="a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744"></a>ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982" name="a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982"></a>ACCOUNTHOOK_ON_EMAIL_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf" name="a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf"></a>ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5" name="a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5"></a>ACCOUNTHOOK_ON_PASSWORD_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283" name="a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283"></a>ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3" name="a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3"></a>ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f" name="a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f"></a>ACCOUNTHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520">ACCOUNTHOOK_ON_ACCOUNT_LOGIN</a>,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb">ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993">ACCOUNTHOOK_ON_LAST_IP_UPDATE</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744">ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982">ACCOUNTHOOK_ON_EMAIL_CHANGE</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf">ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE</a>,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5">ACCOUNTHOOK_ON_PASSWORD_CHANGE</a>,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283">ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE</a>,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3">ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER</a>,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f">ACCOUNTHOOK_END</a></div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5">ACCOUNTHOOK_ON_PASSWORD_CHANGE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_PASSWORD_CHANGE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:32</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982">ACCOUNTHOOK_ON_EMAIL_CHANGE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_EMAIL_CHANGE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:30</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb">ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:27</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf">ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:31</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520">ACCOUNTHOOK_ON_ACCOUNT_LOGIN</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_ACCOUNT_LOGIN</div><div class="ttdef"><b>Definition:</b> AccountScript.h:26</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283">ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:33</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3">ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER</a></div><div class="ttdeci">@ ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER</div><div class="ttdef"><b>Definition:</b> AccountScript.h:34</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744">ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN</div><div class="ttdef"><b>Definition:</b> AccountScript.h:29</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993">ACCOUNTHOOK_ON_LAST_IP_UPDATE</a></div><div class="ttdeci">@ ACCOUNTHOOK_ON_LAST_IP_UPDATE</div><div class="ttdef"><b>Definition:</b> AccountScript.h:28</div></div>
-<div class="ttc" id="aa03089_html_a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f"><div class="ttname"><a href="../../d7/d54/a03089.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f">ACCOUNTHOOK_END</a></div><div class="ttdeci">@ ACCOUNTHOOK_END</div><div class="ttdef"><b>Definition:</b> AccountScript.h:35</div></div>
-</div><!-- fragment -->
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000116">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00588">Aura::UpdateTargetMap()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -200,8 +168,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d7/d54/a03089.html">AccountScript.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../dir_8af33554ddafa3432455437cc558c9c8.html">Auras</a></li><li class="navelem"><a class="el" href="../../d7/d54/a03089.html">SpellAuras.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

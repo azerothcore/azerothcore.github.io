@@ -1,7 +1,9 @@
 var a12546 =
 [
-    [ "HandleScriptEffect", "df/ddb/a12546.html#a2ac898d186e755fbf3b3ae8812e8e579", null ],
-    [ "PrepareSpellScript", "df/ddb/a12546.html#ac3ee8d5d585eea8cbcd5e61c34c71fa5", null ],
-    [ "Register", "df/ddb/a12546.html#a99b753e49d18109e8c9c3ac7e616ce2c", null ],
-    [ "Validate", "df/ddb/a12546.html#a20f7416465ba1cc04426f24037e8074e", null ]
+    [ "npc_eye_of_acherus", "df/ddb/a12546.html#a1e0ed0eb0e32cb2e8a5d86869359db6c", null ],
+    [ "InitializeAI", "df/ddb/a12546.html#aea655b94bcd590835882793d916d7865", null ],
+    [ "MovementInform", "df/ddb/a12546.html#a5e0a360015fdfb1c6a277ba13583a584", null ],
+    [ "OnCharmed", "df/ddb/a12546.html#a9a9d274a503ebe06fa503f433f53b0e6", null ],
+    [ "UpdateAI", "df/ddb/a12546.html#a092592d0c9ec0f5a95fe550bed559f0e", null ],
+    [ "_events", "df/ddb/a12546.html#a08b2eb3aff837408decaa5fa087f5054", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Zones/BattlegroundRV.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/LootHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,309 +104,32 @@ $(document).ready(function(){initNavTree('d9/d9a/a03668.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">BattlegroundRV.h File Reference</div></div>
+  <div class="headertitle"><div class="title">LootHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Arena.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Corpse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootItemStorage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d53/a07194.html">BattlegroundRV</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aa10f056e2c45506006341a5c3f0f7436"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436">BattlegroundRVObjectTypes</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f">BG_RV_OBJECT_BUFF_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0">BG_RV_OBJECT_BUFF_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500">BG_RV_OBJECT_FIRE_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47">BG_RV_OBJECT_FIRE_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8">BG_RV_OBJECT_FIREDOOR_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18">BG_RV_OBJECT_FIREDOOR_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4">BG_RV_OBJECT_PILAR_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09">BG_RV_OBJECT_PILAR_3</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a">BG_RV_OBJECT_GEAR_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626">BG_RV_OBJECT_GEAR_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613">BG_RV_OBJECT_PILAR_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58">BG_RV_OBJECT_PILAR_4</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086">BG_RV_OBJECT_PULLEY_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15">BG_RV_OBJECT_PULLEY_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895">BG_RV_OBJECT_ELEVATOR_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673">BG_RV_OBJECT_ELEVATOR_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229">BG_RV_OBJECT_READY_MARKER_1</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80">BG_RV_OBJECT_READY_MARKER_2</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0">BG_RV_OBJECT_MAX</a>
-<br />
- }</td></tr>
-<tr class="separator:aa10f056e2c45506006341a5c3f0f7436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfa3c262a87e3676b902ea7d76e7f6c2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2">BattlegroundRVGameObjects</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249">BG_RV_OBJECT_TYPE_BUFF_1</a> = 184663
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad">BG_RV_OBJECT_TYPE_BUFF_2</a> = 184664
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef">BG_RV_OBJECT_TYPE_FIRE_1</a> = 192704
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023">BG_RV_OBJECT_TYPE_FIRE_2</a> = 192705
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6">BG_RV_OBJECT_TYPE_FIREDOOR_2</a> = 192387
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec">BG_RV_OBJECT_TYPE_FIREDOOR_1</a> = 192388
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b">BG_RV_OBJECT_TYPE_PULLEY_1</a> = 192389
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550">BG_RV_OBJECT_TYPE_PULLEY_2</a> = 192390
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091">BG_RV_OBJECT_TYPE_GEAR_1</a> = 192393
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd">BG_RV_OBJECT_TYPE_GEAR_2</a> = 192394
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a">BG_RV_OBJECT_TYPE_ELEVATOR_1</a> = 194582
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8">BG_RV_OBJECT_TYPE_ELEVATOR_2</a> = 194586
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d">BG_RV_OBJECT_TYPE_PILAR_1</a> = 194583
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a">BG_RV_OBJECT_TYPE_PILAR_2</a> = 194584
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8">BG_RV_OBJECT_TYPE_PILAR_3</a> = 194585
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9">BG_RV_OBJECT_TYPE_PILAR_4</a> = 194587
-<br />
- }</td></tr>
-<tr class="separator:abfa3c262a87e3676b902ea7d76e7f6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa778416d2a81f8fea9a8c211baf34c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34c">BattlegroundRVData</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5">BG_RV_STATE_OPEN_FENCES</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15">BG_RV_STATE_SWITCH_PILLARS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733">BG_RV_STATE_CLOSE_FIRE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0">BG_RV_WORLD_STATE_A</a> = 0xe11
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd">BG_RV_WORLD_STATE_H</a> = 0xe10
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539">BG_RV_WORLD_STATE</a> = 0xe1a
-<br />
- }</td></tr>
-<tr class="separator:adfa778416d2a81f8fea9a8c211baf34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="adfa778416d2a81f8fea9a8c211baf34c" name="adfa778416d2a81f8fea9a8c211baf34c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa778416d2a81f8fea9a8c211baf34c">&#9670;&#160;</a></span>BattlegroundRVData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34c">BattlegroundRVData</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5" name="adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5"></a>BG_RV_STATE_OPEN_FENCES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15" name="adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15"></a>BG_RV_STATE_SWITCH_PILLARS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733" name="adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733"></a>BG_RV_STATE_CLOSE_FIRE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0" name="adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0"></a>BG_RV_WORLD_STATE_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd" name="adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd"></a>BG_RV_WORLD_STATE_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539" name="adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539"></a>BG_RV_WORLD_STATE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5">BG_RV_STATE_OPEN_FENCES</a>,</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15">BG_RV_STATE_SWITCH_PILLARS</a>,</div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733">BG_RV_STATE_CLOSE_FIRE</a>,</div>
-<div class="line"><span class="lineno">   79</span> </div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0">BG_RV_WORLD_STATE_A</a>                          = 0xe11,</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd">BG_RV_WORLD_STATE_H</a>                          = 0xe10,</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539">BG_RV_WORLD_STATE</a>                            = 0xe1a,</div>
-<div class="line"><span class="lineno">   83</span>};</div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca5fc95407a4f093466bd83133b1b185fd">BG_RV_WORLD_STATE_H</a></div><div class="ttdeci">@ BG_RV_WORLD_STATE_H</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:81</div></div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34ca90f1ce9eb7e79af7a348559d2d731a15">BG_RV_STATE_SWITCH_PILLARS</a></div><div class="ttdeci">@ BG_RV_STATE_SWITCH_PILLARS</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:77</div></div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabd4e313e8dca8e6cd60540a49cab8733">BG_RV_STATE_CLOSE_FIRE</a></div><div class="ttdeci">@ BG_RV_STATE_CLOSE_FIRE</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:78</div></div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cabf6ade699db48814ec5e2d1af2c894a0">BG_RV_WORLD_STATE_A</a></div><div class="ttdeci">@ BG_RV_WORLD_STATE_A</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:80</div></div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34cac36c50ef6b045de14f4ac901aa9cb539">BG_RV_WORLD_STATE</a></div><div class="ttdeci">@ BG_RV_WORLD_STATE</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:82</div></div>
-<div class="ttc" id="aa03668_html_adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5"><div class="ttname"><a href="../../d9/d9a/a03668.html#adfa778416d2a81f8fea9a8c211baf34caecbfbc0c2c667f1549323a8f96e601b5">BG_RV_STATE_OPEN_FENCES</a></div><div class="ttdeci">@ BG_RV_STATE_OPEN_FENCES</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:76</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="abfa3c262a87e3676b902ea7d76e7f6c2" name="abfa3c262a87e3676b902ea7d76e7f6c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfa3c262a87e3676b902ea7d76e7f6c2">&#9670;&#160;</a></span>BattlegroundRVGameObjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2">BattlegroundRVGameObjects</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249" name="abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249"></a>BG_RV_OBJECT_TYPE_BUFF_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad" name="abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad"></a>BG_RV_OBJECT_TYPE_BUFF_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef" name="abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef"></a>BG_RV_OBJECT_TYPE_FIRE_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023" name="abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023"></a>BG_RV_OBJECT_TYPE_FIRE_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6" name="abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6"></a>BG_RV_OBJECT_TYPE_FIREDOOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec" name="abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec"></a>BG_RV_OBJECT_TYPE_FIREDOOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b" name="abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b"></a>BG_RV_OBJECT_TYPE_PULLEY_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550" name="abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550"></a>BG_RV_OBJECT_TYPE_PULLEY_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091" name="abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091"></a>BG_RV_OBJECT_TYPE_GEAR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd" name="abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd"></a>BG_RV_OBJECT_TYPE_GEAR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a" name="abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a"></a>BG_RV_OBJECT_TYPE_ELEVATOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8" name="abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8"></a>BG_RV_OBJECT_TYPE_ELEVATOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d" name="abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d"></a>BG_RV_OBJECT_TYPE_PILAR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a" name="abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a"></a>BG_RV_OBJECT_TYPE_PILAR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8" name="abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8"></a>BG_RV_OBJECT_TYPE_PILAR_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9" name="abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9"></a>BG_RV_OBJECT_TYPE_PILAR_4&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249">BG_RV_OBJECT_TYPE_BUFF_1</a>                     = 184663,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad">BG_RV_OBJECT_TYPE_BUFF_2</a>                     = 184664,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef">BG_RV_OBJECT_TYPE_FIRE_1</a>                     = 192704,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023">BG_RV_OBJECT_TYPE_FIRE_2</a>                     = 192705,</div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6">BG_RV_OBJECT_TYPE_FIREDOOR_2</a>                 = 192387,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec">BG_RV_OBJECT_TYPE_FIREDOOR_1</a>                 = 192388,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b">BG_RV_OBJECT_TYPE_PULLEY_1</a>                   = 192389,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550">BG_RV_OBJECT_TYPE_PULLEY_2</a>                   = 192390,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091">BG_RV_OBJECT_TYPE_GEAR_1</a>                     = 192393,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd">BG_RV_OBJECT_TYPE_GEAR_2</a>                     = 192394,</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a">BG_RV_OBJECT_TYPE_ELEVATOR_1</a>                 = 194582,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8">BG_RV_OBJECT_TYPE_ELEVATOR_2</a>                 = 194586,</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d">BG_RV_OBJECT_TYPE_PILAR_1</a>                    = 194583, <span class="comment">// axe</span></div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a">BG_RV_OBJECT_TYPE_PILAR_2</a>                    = 194584, <span class="comment">// arena</span></div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8">BG_RV_OBJECT_TYPE_PILAR_3</a>                    = 194585, <span class="comment">// lightning</span></div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9">BG_RV_OBJECT_TYPE_PILAR_4</a>                    = 194587, <span class="comment">// ivory</span></div>
-<div class="line"><span class="lineno">   72</span>};</div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a01b0c6ae5461b29ad7585b439183b87a">BG_RV_OBJECT_TYPE_PILAR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PILAR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:69</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a04671e27271971362e7886597af3216d">BG_RV_OBJECT_TYPE_PILAR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PILAR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:68</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a15ad8c525a7388423a06003f3532dbc9">BG_RV_OBJECT_TYPE_PILAR_4</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PILAR_4</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:71</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a4192c5a1b304231c3beee84d99c7370a">BG_RV_OBJECT_TYPE_ELEVATOR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_ELEVATOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:65</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a5865634853f43c8785d0594b724e6249">BG_RV_OBJECT_TYPE_BUFF_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_BUFF_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:53</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a68e4544e30ed3e20580c34b6612f1dad">BG_RV_OBJECT_TYPE_BUFF_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_BUFF_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:54</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a86c5e95cbdec6f6c3316fe3323c20550">BG_RV_OBJECT_TYPE_PULLEY_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PULLEY_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:61</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a92ccd53243be0cd3397a2fb9682513bd">BG_RV_OBJECT_TYPE_GEAR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_GEAR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:63</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2a98df70144dbec8cfb3011f3ea61505e6">BG_RV_OBJECT_TYPE_FIREDOOR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_FIREDOOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:58</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac28d8f00d4677f79bb888126d4308de8">BG_RV_OBJECT_TYPE_PILAR_3</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PILAR_3</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:70</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ac353596628738da778ec84b8bb9a1cec">BG_RV_OBJECT_TYPE_FIREDOOR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_FIREDOOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:59</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad38bf62ae2758fe80b97128e48663023">BG_RV_OBJECT_TYPE_FIRE_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_FIRE_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:56</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ad98e0b5f80cb6ab1337f85970d94c6e8">BG_RV_OBJECT_TYPE_ELEVATOR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_ELEVATOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:66</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2ae6d1aa03e079f6181152c11db0461091">BG_RV_OBJECT_TYPE_GEAR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_GEAR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:62</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afb27d4c0b58b9e09a9f8800d06aea83b">BG_RV_OBJECT_TYPE_PULLEY_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_PULLEY_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:60</div></div>
-<div class="ttc" id="aa03668_html_abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef"><div class="ttname"><a href="../../d9/d9a/a03668.html#abfa3c262a87e3676b902ea7d76e7f6c2afd39bfaa9b3aafc5af644dcf29ee25ef">BG_RV_OBJECT_TYPE_FIRE_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_TYPE_FIRE_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:55</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa10f056e2c45506006341a5c3f0f7436" name="aa10f056e2c45506006341a5c3f0f7436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa10f056e2c45506006341a5c3f0f7436">&#9670;&#160;</a></span>BattlegroundRVObjectTypes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436">BattlegroundRVObjectTypes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f" name="aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f"></a>BG_RV_OBJECT_BUFF_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0" name="aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0"></a>BG_RV_OBJECT_BUFF_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500" name="aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500"></a>BG_RV_OBJECT_FIRE_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47" name="aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47"></a>BG_RV_OBJECT_FIRE_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8" name="aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8"></a>BG_RV_OBJECT_FIREDOOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18" name="aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18"></a>BG_RV_OBJECT_FIREDOOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4" name="aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4"></a>BG_RV_OBJECT_PILAR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09" name="aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09"></a>BG_RV_OBJECT_PILAR_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a" name="aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a"></a>BG_RV_OBJECT_GEAR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626" name="aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626"></a>BG_RV_OBJECT_GEAR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613" name="aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613"></a>BG_RV_OBJECT_PILAR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58" name="aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58"></a>BG_RV_OBJECT_PILAR_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086" name="aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086"></a>BG_RV_OBJECT_PULLEY_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15" name="aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15"></a>BG_RV_OBJECT_PULLEY_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895" name="aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895"></a>BG_RV_OBJECT_ELEVATOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673" name="aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673"></a>BG_RV_OBJECT_ELEVATOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229" name="aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229"></a>BG_RV_OBJECT_READY_MARKER_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80" name="aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80"></a>BG_RV_OBJECT_READY_MARKER_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0" name="aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0"></a>BG_RV_OBJECT_MAX&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f">BG_RV_OBJECT_BUFF_1</a>,</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0">BG_RV_OBJECT_BUFF_2</a>,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500">BG_RV_OBJECT_FIRE_1</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47">BG_RV_OBJECT_FIRE_2</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8">BG_RV_OBJECT_FIREDOOR_1</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18">BG_RV_OBJECT_FIREDOOR_2</a>,</div>
-<div class="line"><span class="lineno">   31</span> </div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4">BG_RV_OBJECT_PILAR_1</a>,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09">BG_RV_OBJECT_PILAR_3</a>,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a">BG_RV_OBJECT_GEAR_1</a>,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626">BG_RV_OBJECT_GEAR_2</a>,</div>
-<div class="line"><span class="lineno">   36</span> </div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613">BG_RV_OBJECT_PILAR_2</a>,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58">BG_RV_OBJECT_PILAR_4</a>,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086">BG_RV_OBJECT_PULLEY_1</a>,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15">BG_RV_OBJECT_PULLEY_2</a>,</div>
-<div class="line"><span class="lineno">   41</span> </div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895">BG_RV_OBJECT_ELEVATOR_1</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673">BG_RV_OBJECT_ELEVATOR_2</a>,</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229">BG_RV_OBJECT_READY_MARKER_1</a>,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80">BG_RV_OBJECT_READY_MARKER_2</a>,</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0">BG_RV_OBJECT_MAX</a>,</div>
-<div class="line"><span class="lineno">   49</span>};</div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a006b8663347971e76a7ecf693c33ead4">BG_RV_OBJECT_PILAR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_PILAR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:32</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a04808f08eb598192b617907fd51e0a15">BG_RV_OBJECT_PULLEY_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_PULLEY_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:40</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25271eab61123d9887adb758a9f79b58">BG_RV_OBJECT_PILAR_4</a></div><div class="ttdeci">@ BG_RV_OBJECT_PILAR_4</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:38</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a258356e82cf4da9b5e751765bf518895">BG_RV_OBJECT_ELEVATOR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_ELEVATOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:42</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a25d784ddd4f2eaeb962ab84de9fb23d0">BG_RV_OBJECT_MAX</a></div><div class="ttdeci">@ BG_RV_OBJECT_MAX</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:48</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a3810356845120e6dae0fdd79cee11a47">BG_RV_OBJECT_FIRE_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_FIRE_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:28</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a46acd9a6aca7218ab030d97ac5e43a4a">BG_RV_OBJECT_GEAR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_GEAR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:34</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a51eab52cbe9e830c225687812f461673">BG_RV_OBJECT_ELEVATOR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_ELEVATOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:43</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a5811c26c50bd9b7c7254e4904b243c18">BG_RV_OBJECT_FIREDOOR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_FIREDOOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:30</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a7a62cf4dea814047abe9c4976c5332d8">BG_RV_OBJECT_FIREDOOR_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_FIREDOOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:29</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436a8f6b8a2367f6ac3a20072f3ba8c9a086">BG_RV_OBJECT_PULLEY_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_PULLEY_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:39</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abb499da8fbad32b04f1e4f58c41c3626">BG_RV_OBJECT_GEAR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_GEAR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:35</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436abc7c897e3b2b98567ca3bb2fb6479613">BG_RV_OBJECT_PILAR_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_PILAR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:37</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436acd2d36c88c323a70c215211b46817c2f">BG_RV_OBJECT_BUFF_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_BUFF_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:25</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436ad57f0a28806c289aafbe47a03ad72ac0">BG_RV_OBJECT_BUFF_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_BUFF_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:26</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436adcb0fadd3de3f4a6220d7e1d43fb6500">BG_RV_OBJECT_FIRE_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_FIRE_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:27</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af02dcb28ed9e331cfdd94544657c0e80">BG_RV_OBJECT_READY_MARKER_2</a></div><div class="ttdeci">@ BG_RV_OBJECT_READY_MARKER_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:46</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af5056f50e32c033571b6c7a416c9d229">BG_RV_OBJECT_READY_MARKER_1</a></div><div class="ttdeci">@ BG_RV_OBJECT_READY_MARKER_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:45</div></div>
-<div class="ttc" id="aa03668_html_aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09"><div class="ttname"><a href="../../d9/d9a/a03668.html#aa10f056e2c45506006341a5c3f0f7436af8dd233f8daf0b8dfbc66606197ead09">BG_RV_OBJECT_PILAR_3</a></div><div class="ttdeci">@ BG_RV_OBJECT_PILAR_3</div><div class="ttdef"><b>Definition:</b> BattlegroundRV.h:33</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../dir_d9de844c1d859dc2cc6a65181dd33644.html">Zones</a></li><li class="navelem"><a class="el" href="../../d9/d9a/a03668.html">BattlegroundRV.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d9/d9a/a03668.html">LootHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

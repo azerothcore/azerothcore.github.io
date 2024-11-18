@@ -1,10 +1,8 @@
 var a05630 =
 [
-    [ "MySQLConnectionInfo", "d6/df7/a05630.html#ae60c54053d71eb9325df10701b1f42d3", null ],
-    [ "database", "d6/df7/a05630.html#a7e65a418ad668772e4ce1b298d92f10a", null ],
-    [ "host", "d6/df7/a05630.html#a2659372561aae5feb8da121984354ef3", null ],
-    [ "password", "d6/df7/a05630.html#af5a51bd38ce1d58f65444d69b0283966", null ],
-    [ "port_or_socket", "d6/df7/a05630.html#a37b89660afb3ee085e817836e9d1d01f", null ],
-    [ "ssl", "d6/df7/a05630.html#a90e5a934b4ec46e5783248a1a80a4830", null ],
-    [ "user", "d6/df7/a05630.html#a6bf4166ebb99ea30a3894e3d8833bde6", null ]
+    [ "Statements", "d6/df7/a05630.html#a7527387a1261a4307515ed0c56dd6520", null ],
+    [ "CharacterDatabaseConnection", "d6/df7/a05630.html#aa7308d6978756861043c1c0c861bfffc", null ],
+    [ "CharacterDatabaseConnection", "d6/df7/a05630.html#af7c6148029613ce06159b5867bba9cad", null ],
+    [ "~CharacterDatabaseConnection", "d6/df7/a05630.html#a01224074cff69c86792d0b77e804d7f4", null ],
+    [ "DoPrepareStatements", "d6/df7/a05630.html#afbbb8d2bb335119e5bc8b37764301db5", null ]
 ];

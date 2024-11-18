@@ -1,6 +1,7 @@
 var a20374 =
 [
-    [ "HandleScript", "de/d29/a20374.html#a8ebd18095bd826d4bf843961e4e8dc81", null ],
-    [ "PrepareSpellScript", "de/d29/a20374.html#a4fd05478a145157dbd8377532033ab95", null ],
-    [ "Register", "de/d29/a20374.html#a9b30f89493d5b8c8d1097dde5d017a93", null ]
+    [ "FilterTargets", "de/d29/a20374.html#a582691eca81b6db6d78ca925ad8fb084", null ],
+    [ "PrepareSpellScript", "de/d29/a20374.html#a28ce9d2750c79b2b0061b00df5ae9e8b", null ],
+    [ "RecalculateDamage", "de/d29/a20374.html#a02c1af0414de344056b2375488f23c01", null ],
+    [ "Register", "de/d29/a20374.html#a1e030067944878000b731edf456d6bc8", null ]
 ];

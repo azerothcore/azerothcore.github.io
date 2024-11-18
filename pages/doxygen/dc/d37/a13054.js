@@ -1,6 +1,7 @@
 var a13054 =
 [
-    [ "PrepareSpellScript", "dc/d37/a13054.html#a6a9436d744865971e635f23c2b331688", null ],
-    [ "Register", "dc/d37/a13054.html#a5f8a755040c9972e1bd6f68ceacf3dff", null ],
-    [ "SetDest", "dc/d37/a13054.html#a2d43c0d5230f7be2d9a33e8527fd8c02", null ]
+    [ "HandleSchoolDamage", "dc/d37/a13054.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
+    [ "PrepareSpellScript", "dc/d37/a13054.html#a8063f3d669e07dc0768607feb9a2f763", null ],
+    [ "Register", "dc/d37/a13054.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
+    [ "Validate", "dc/d37/a13054.html#af90ae09274b0082bd8bd674ca43596f6", null ]
 ];

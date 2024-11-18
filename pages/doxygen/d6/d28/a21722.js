@@ -1,7 +1,7 @@
 var a21722 =
 [
-    [ "HandleDummy", "d6/d28/a21722.html#abfb58e49821e6a563940e8ba518db850", null ],
-    [ "PrepareSpellScript", "d6/d28/a21722.html#a61ca2f71b0fa323a54f716415b25b75e", null ],
-    [ "Register", "d6/d28/a21722.html#a7a2cc833ae8d079b821caabf55b6f0e5", null ],
-    [ "Validate", "d6/d28/a21722.html#a21daeadffbfd28621d897dfe67dd11a8", null ]
+    [ "npc_tirions_gambit_tirionAI", "d6/dde/a21726.html", "d6/dde/a21726" ],
+    [ "npc_tirions_gambit_tirion", "d6/d28/a21722.html#ad52abd46ccdd3b4409671679434c193c", null ],
+    [ "GetAI", "d6/d28/a21722.html#a222c092c2e2136dbd7057a3f7ad7b5f4", null ],
+    [ "OnGossipSelect", "d6/d28/a21722.html#a5af904a3394de9b3eedb52009bd6b0a9", null ]
 ];

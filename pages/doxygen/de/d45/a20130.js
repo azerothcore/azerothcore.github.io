@@ -1,5 +1,5 @@
 var a20130 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_13", "de/d45/a20130.html#a74b0cafbc4be4261c8f8f2af3671cbd9", null ],
-    [ "OnCheck", "de/d45/a20130.html#ac91196d094f159932ad871ffa9c0f405", null ]
+    [ "achievement_mimiron_firefighter", "de/d45/a20130.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "de/d45/a20130.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

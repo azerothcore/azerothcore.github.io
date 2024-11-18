@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/ObsidianSanctum/instance_obsidian_sanctum.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,81 +106,339 @@ $(document).ready(function(){initNavTree('d7/d98/a00983.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_obsidian_sanctum.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">zulfarrak.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaBoundary.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">zulfarrak.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptSystem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">obsidian_sanctum.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/a15598.html">instance_obsidian_sanctum</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd7/a15362.html">npc_sergeant_bly</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de8/a15602.html">instance_obsidian_sanctum::instance_obsidian_sanctum_InstanceMapScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dab/a15366.html">npc_sergeant_bly::npc_sergeant_blyAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a15370.html">go_troll_cage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d36/a15374.html">go_troll_cage::go_troll_cageAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddf/a15378.html">npc_weegli_blastfuse</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbb/a15382.html">npc_weegli_blastfuse::npc_weegli_blastfuseAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/a15386.html">npc_shadowpriest_sezziz</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d49/a15390.html">npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acf686abbef9b59acbf66095340991aab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#acf686abbef9b59acbf66095340991aab">GOSSIP_BLY</a>&#160;&#160;&#160;&quot;That's it!  I'm tired of helping you out.  It's time we settled things on the battlefield!&quot;</td></tr>
+<tr class="separator:acf686abbef9b59acbf66095340991aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd5fb74b4c5971cd2993555c6ac4d1eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#abd5fb74b4c5971cd2993555c6ac4d1eb">GOSSIP_WEEGLI</a>&#160;&#160;&#160;&quot;Will you blow up that door now?&quot;</td></tr>
+<tr class="separator:abd5fb74b4c5971cd2993555c6ac4d1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0170bb25aee4171b17fd972a5eb000a9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9">blySays</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab">SAY_1</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390">SAY_2</a> = 1
+<br />
+ }</td></tr>
+<tr class="separator:a0170bb25aee4171b17fd972a5eb000a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73b1b4ffaee22ad6c602a211a9bfccf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccf">blySpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83">SPELL_BLYS_BAND_ESCAPE</a> = 11365
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4">SPELL_SHIELD_BASH</a> = 11972
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f">SPELL_REVENGE</a> = 12170
+<br />
+ }</td></tr>
+<tr class="separator:ac73b1b4ffaee22ad6c602a211a9bfccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d64b9165276a134e188d143807850c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850c">weegliSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be">SPELL_BOMB</a> = 8858
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f">SPELL_GOBLIN_LAND_MINE</a> = 21688
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a> = 6660
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f">SPELL_WEEGLIS_BARREL</a> = 10772
+<br />
+ }</td></tr>
+<tr class="separator:aa5d64b9165276a134e188d143807850c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326e8498672fa7a2db9a390d360f7391"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391">weegliSays</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d">SAY_WEEGLI_OHNO</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea">SAY_WEEGLI_OK_I_GO</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c">SAY_WEEGLI_OUT_OF_HERE</a> = 2
+<br />
+ }</td></tr>
+<tr class="separator:a326e8498672fa7a2db9a390d360f7391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0ee96bd227c57408d323b236131e7d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7d">ShadowPriestSezzizEnum</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a> = 15537
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa">SPELL_PSYCHIC_SCREEM</a> = 13704
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd">SPELL_RENEW</a> = 8362
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a> = 12039
+<br />
+ }</td></tr>
+<tr class="separator:a4e0ee96bd227c57408d323b236131e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac4abea2a912b12612a4c884df63abe00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#ac4abea2a912b12612a4c884df63abe00">AddSC_instance_obsidian_sanctum</a> ()</td></tr>
-<tr class="separator:ac4abea2a912b12612a4c884df63abe00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b63d5d69b80ee6283471aacf5c9c87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#a43b63d5d69b80ee6283471aacf5c9c87">AddSC_zulfarrak</a> ()</td></tr>
+<tr class="separator:a43b63d5d69b80ee6283471aacf5c9c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#aa75d7d0ffe0cef214f982966c33db1c1">boundaries</a></td></tr>
-<tr class="separator:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c6a2de23edecc492c7ca4de5c860c7"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::vector&lt; std::pair&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../de/d68/a08218.html">Position</a> &gt; &gt;, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d98/a00983.html#ab3c6a2de23edecc492c7ca4de5c860c7">shadowpriestSezzizAdds</a></td></tr>
+<tr class="separator:ab3c6a2de23edecc492c7ca4de5c860c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ac4abea2a912b12612a4c884df63abe00" name="ac4abea2a912b12612a4c884df63abe00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4abea2a912b12612a4c884df63abe00">&#9670;&#160;</a></span>AddSC_instance_obsidian_sanctum()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="acf686abbef9b59acbf66095340991aab" name="acf686abbef9b59acbf66095340991aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf686abbef9b59acbf66095340991aab">&#9670;&#160;</a></span>GOSSIP_BLY</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_obsidian_sanctum </td>
+          <td class="memname">#define GOSSIP_BLY&#160;&#160;&#160;&quot;That's it!  I'm tired of helping you out.  It's time we settled things on the battlefield!&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd5fb74b4c5971cd2993555c6ac4d1eb" name="abd5fb74b4c5971cd2993555c6ac4d1eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd5fb74b4c5971cd2993555c6ac4d1eb">&#9670;&#160;</a></span>GOSSIP_WEEGLI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GOSSIP_WEEGLI&#160;&#160;&#160;&quot;Will you blow up that door now?&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0170bb25aee4171b17fd972a5eb000a9" name="a0170bb25aee4171b17fd972a5eb000a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0170bb25aee4171b17fd972a5eb000a9">&#9670;&#160;</a></span>blySays</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9">blySays</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000178">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab" name="a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab"></a>SAY_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390" name="a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390"></a>SAY_2&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab">SAY_1</a> = 0,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390">SAY_2</a> = 1</div>
+<div class="line"><span class="lineno">   59</span>};</div>
+<div class="ttc" id="aa00983_html_a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab"><div class="ttname"><a href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab">SAY_1</a></div><div class="ttdeci">@ SAY_1</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:57</div></div>
+<div class="ttc" id="aa00983_html_a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390"><div class="ttname"><a href="../../d7/d98/a00983.html#a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390">SAY_2</a></div><div class="ttdeci">@ SAY_2</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:58</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac73b1b4ffaee22ad6c602a211a9bfccf" name="ac73b1b4ffaee22ad6c602a211a9bfccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73b1b4ffaee22ad6c602a211a9bfccf">&#9670;&#160;</a></span>blySpells</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccf">blySpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83" name="ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83"></a>SPELL_BLYS_BAND_ESCAPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4" name="ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4"></a>SPELL_SHIELD_BASH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f" name="ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f"></a>SPELL_REVENGE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83">SPELL_BLYS_BAND_ESCAPE</a>     = 11365,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4">SPELL_SHIELD_BASH</a>          = 11972,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f">SPELL_REVENGE</a>              = 12170</div>
+<div class="line"><span class="lineno">   66</span>};</div>
+<div class="ttc" id="aa00983_html_ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4"><div class="ttname"><a href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4">SPELL_SHIELD_BASH</a></div><div class="ttdeci">@ SPELL_SHIELD_BASH</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:64</div></div>
+<div class="ttc" id="aa00983_html_ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f"><div class="ttname"><a href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f">SPELL_REVENGE</a></div><div class="ttdeci">@ SPELL_REVENGE</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:65</div></div>
+<div class="ttc" id="aa00983_html_ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83"><div class="ttname"><a href="../../d7/d98/a00983.html#ac73b1b4ffaee22ad6c602a211a9bfccfaa9a43afdd35ceaa8e5947c583cda6c83">SPELL_BLYS_BAND_ESCAPE</a></div><div class="ttdeci">@ SPELL_BLYS_BAND_ESCAPE</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:63</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4e0ee96bd227c57408d323b236131e7d" name="a4e0ee96bd227c57408d323b236131e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0ee96bd227c57408d323b236131e7d">&#9670;&#160;</a></span>ShadowPriestSezzizEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7d">ShadowPriestSezzizEnum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413" name="a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413"></a>SPELL_SHADOW_BOLT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa" name="a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa"></a>SPELL_PSYCHIC_SCREEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd" name="a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd"></a>SPELL_RENEW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7" name="a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7"></a>SPELL_HEAL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  590</span>{</div>
+<div class="line"><span class="lineno">  591</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a>       = 15537,</div>
+<div class="line"><span class="lineno">  592</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa">SPELL_PSYCHIC_SCREEM</a>    = 13704,</div>
+<div class="line"><span class="lineno">  593</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd">SPELL_RENEW</a>             = 8362,</div>
+<div class="line"><span class="lineno">  594</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a>              = 12039</div>
+<div class="line"><span class="lineno">  595</span>};</div>
+<div class="ttc" id="aa00983_html_a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7"><div class="ttname"><a href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a></div><div class="ttdeci">@ SPELL_HEAL</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:594</div></div>
+<div class="ttc" id="aa00983_html_a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa"><div class="ttname"><a href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa">SPELL_PSYCHIC_SCREEM</a></div><div class="ttdeci">@ SPELL_PSYCHIC_SCREEM</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:592</div></div>
+<div class="ttc" id="aa00983_html_a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413"><div class="ttname"><a href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:591</div></div>
+<div class="ttc" id="aa00983_html_a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd"><div class="ttname"><a href="../../d7/d98/a00983.html#a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd">SPELL_RENEW</a></div><div class="ttdeci">@ SPELL_RENEW</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:593</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a326e8498672fa7a2db9a390d360f7391" name="a326e8498672fa7a2db9a390d360f7391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326e8498672fa7a2db9a390d360f7391">&#9670;&#160;</a></span>weegliSays</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391">weegliSays</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d" name="a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d"></a>SAY_WEEGLI_OHNO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea" name="a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea"></a>SAY_WEEGLI_OK_I_GO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c" name="a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c"></a>SAY_WEEGLI_OUT_OF_HERE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  386</span>{</div>
+<div class="line"><span class="lineno">  387</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d">SAY_WEEGLI_OHNO</a>             = 0,</div>
+<div class="line"><span class="lineno">  388</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea">SAY_WEEGLI_OK_I_GO</a>          = 1,</div>
+<div class="line"><span class="lineno">  389</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c">SAY_WEEGLI_OUT_OF_HERE</a>      = 2</div>
+<div class="line"><span class="lineno">  390</span>};</div>
+<div class="ttc" id="aa00983_html_a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d"><div class="ttname"><a href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d">SAY_WEEGLI_OHNO</a></div><div class="ttdeci">@ SAY_WEEGLI_OHNO</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:387</div></div>
+<div class="ttc" id="aa00983_html_a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea"><div class="ttname"><a href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea">SAY_WEEGLI_OK_I_GO</a></div><div class="ttdeci">@ SAY_WEEGLI_OK_I_GO</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:388</div></div>
+<div class="ttc" id="aa00983_html_a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c"><div class="ttname"><a href="../../d7/d98/a00983.html#a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c">SAY_WEEGLI_OUT_OF_HERE</a></div><div class="ttdeci">@ SAY_WEEGLI_OUT_OF_HERE</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:389</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa5d64b9165276a134e188d143807850c" name="aa5d64b9165276a134e188d143807850c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d64b9165276a134e188d143807850c">&#9670;&#160;</a></span>weegliSpells</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850c">weegliSpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be" name="aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be"></a>SPELL_BOMB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f" name="aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f"></a>SPELL_GOBLIN_LAND_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c" name="aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c"></a>SPELL_SHOOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f" name="aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f"></a>SPELL_WEEGLIS_BARREL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  378</span>{</div>
+<div class="line"><span class="lineno">  379</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be">SPELL_BOMB</a>                  = 8858,</div>
+<div class="line"><span class="lineno">  380</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f">SPELL_GOBLIN_LAND_MINE</a>      = 21688,</div>
+<div class="line"><span class="lineno">  381</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a>                 = 6660,</div>
+<div class="line"><span class="lineno">  382</span>    <a class="code hl_enumvalue" href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f">SPELL_WEEGLIS_BARREL</a>        = 10772</div>
+<div class="line"><span class="lineno">  383</span>};</div>
+<div class="ttc" id="aa00983_html_aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f"><div class="ttname"><a href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f">SPELL_GOBLIN_LAND_MINE</a></div><div class="ttdeci">@ SPELL_GOBLIN_LAND_MINE</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:380</div></div>
+<div class="ttc" id="aa00983_html_aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c"><div class="ttname"><a href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a></div><div class="ttdeci">@ SPELL_SHOOT</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:381</div></div>
+<div class="ttc" id="aa00983_html_aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f"><div class="ttname"><a href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f">SPELL_WEEGLIS_BARREL</a></div><div class="ttdeci">@ SPELL_WEEGLIS_BARREL</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:382</div></div>
+<div class="ttc" id="aa00983_html_aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be"><div class="ttname"><a href="../../d7/d98/a00983.html#aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be">SPELL_BOMB</a></div><div class="ttdeci">@ SPELL_BOMB</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:379</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a43b63d5d69b80ee6283471aacf5c9c87" name="a43b63d5d69b80ee6283471aacf5c9c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b63d5d69b80ee6283471aacf5c9c87">&#9670;&#160;</a></span>AddSC_zulfarrak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_zulfarrak </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  194</span>{</div>
-<div class="line"><span class="lineno">  195</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dbe/a15598.html">instance_obsidian_sanctum</a>();</div>
-<div class="line"><span class="lineno">  196</span>}</div>
-<div class="ttc" id="aa15598_html"><div class="ttname"><a href="../../d1/dbe/a15598.html">instance_obsidian_sanctum</a></div><div class="ttdef"><b>Definition:</b> instance_obsidian_sanctum.cpp:31</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  736</span>{</div>
+<div class="line"><span class="lineno">  737</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/dd7/a15362.html">npc_sergeant_bly</a>();</div>
+<div class="line"><span class="lineno">  738</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/ddf/a15378.html">npc_weegli_blastfuse</a>();</div>
+<div class="line"><span class="lineno">  739</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/da8/a15386.html">npc_shadowpriest_sezziz</a>();</div>
+<div class="line"><span class="lineno">  740</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d4b/a15370.html">go_troll_cage</a>();</div>
+<div class="line"><span class="lineno">  741</span>}</div>
+<div class="ttc" id="aa15362_html"><div class="ttname"><a href="../../d7/dd7/a15362.html">npc_sergeant_bly</a></div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:71</div></div>
+<div class="ttc" id="aa15370_html"><div class="ttname"><a href="../../d4/d4b/a15370.html">go_troll_cage</a></div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:313</div></div>
+<div class="ttc" id="aa15378_html"><div class="ttname"><a href="../../d4/ddf/a15378.html">npc_weegli_blastfuse</a></div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:395</div></div>
+<div class="ttc" id="aa15386_html"><div class="ttname"><a href="../../da/da8/a15386.html">npc_shadowpriest_sezziz</a></div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:606</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aa75d7d0ffe0cef214f982966c33db1c1" name="aa75d7d0ffe0cef214f982966c33db1c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75d7d0ffe0cef214f982966c33db1c1">&#9670;&#160;</a></span>boundaries</h2>
+<a id="ab3c6a2de23edecc492c7ca4de5c860c7" name="ab3c6a2de23edecc492c7ca4de5c860c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c6a2de23edecc492c7ca4de5c860c7">&#9670;&#160;</a></span>shadowpriestSezzizAdds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const boundaries</td>
+          <td class="memname">std::array&lt;std::vector&lt;std::pair&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../de/d68/a08218.html">Position</a>&gt; &gt;, 4&gt; shadowpriestSezzizAdds</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d3/d7b/a00986.html#af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c">DATA_SARTHARION</a>, <span class="keyword">new</span> <a class="code hl_class" href="../../db/d55/a09434.html">RectangleBoundary</a>(3218.86f, 3275.69f, 484.68f, 572.4f) }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa00986_html_af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c"><div class="ttname"><a href="../../d3/d7b/a00986.html#af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c">DATA_SARTHARION</a></div><div class="ttdeci">@ DATA_SARTHARION</div><div class="ttdef"><b>Definition:</b> obsidian_sanctum.h:30</div></div>
-<div class="ttc" id="aa09434_html"><div class="ttname"><a href="../../db/d55/a09434.html">RectangleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:76</div></div>
+<div class="line">{ {</div>
+<div class="line">    { { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d">NPC_SANDFURY_ZEALOT</a>, { 1874.12f, 1198.90f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 1874.12f, 1198.90f, 8.87f } } },</div>
+<div class="line">    { { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 895.26f, 1199.09f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 895.26f, 1199.088f, 8.87f } } },</div>
+<div class="line">    { { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d">NPC_SANDFURY_ZEALOT</a>, { 1874.12f, 1198.90f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 895.26f, 1199.09f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 895.26f, 1199.09f, 8.87f } } },</div>
+<div class="line">    { { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d">NPC_SANDFURY_ZEALOT</a>, { 895.26f, 1199.09f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d">NPC_SANDFURY_ZEALOT</a>, { 1874.12f, 1198.90f, 8.87f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 1874.12f, 1198.90f } }, { <a class="code hl_enumvalue" href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a>, { 895.26f, 1199.09f, 8.87f } } }</div>
+<div class="line">} }</div>
+<div class="ttc" id="aa00980_html_ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8"><div class="ttname"><a href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8">NPC_SANDFURY_ACOLYTE</a></div><div class="ttdeci">@ NPC_SANDFURY_ACOLYTE</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:31</div></div>
+<div class="ttc" id="aa00980_html_ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d"><div class="ttname"><a href="../../db/d20/a00980.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d">NPC_SANDFURY_ZEALOT</a></div><div class="ttdeci">@ NPC_SANDFURY_ZEALOT</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:33</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00042">instance_obsidian_sanctum::instance_obsidian_sanctum_InstanceMapScript::instance_obsidian_sanctum_InstanceMapScript()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00629">npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI::UpdateAI()</a>.</p>
 
 </div>
 </div>
@@ -189,8 +447,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_719d04167aa7ea3db3432ca0946ea1bc.html">ChamberOfAspects</a></li><li class="navelem"><a class="el" href="../../dir_6113d9d9930adc0ab9dd36cb7d5aa748.html">ObsidianSanctum</a></li><li class="navelem"><a class="el" href="../../d7/d98/a00983.html">instance_obsidian_sanctum.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_60ed2afa8a19128e40edbea865b237a1.html">ZulFarrak</a></li><li class="navelem"><a class="el" href="../../d7/d98/a00983.html">zulfarrak.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

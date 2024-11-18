@@ -1,8 +1,6 @@
 var a08302 =
 [
-    [ "PlayerCreateInfoAction", "da/d2d/a08302.html#a50d56595c71374e132dfe9f988144e75", null ],
-    [ "PlayerCreateInfoAction", "da/d2d/a08302.html#a1e1d33b18074031e408da10f44a9a9c4", null ],
-    [ "action", "da/d2d/a08302.html#a957d05ae25fd1ca801e097f03f9cc43e", null ],
-    [ "button", "da/d2d/a08302.html#ac0c4658cfb1fc01cbb55116dd6dbe899", null ],
-    [ "type", "da/d2d/a08302.html#a41e4a38f2c12f9e68b835fe17e56bc7e", null ]
+    [ "PlayerCreateInfoItem", "da/d2d/a08302.html#aba5495af3d4c463f7f65fa1851879d3b", null ],
+    [ "item_amount", "da/d2d/a08302.html#a2cc481d54ec0c8a58477803364f40b2a", null ],
+    [ "item_id", "da/d2d/a08302.html#a54e5593fe1a1e06b16963c96f1840a2a", null ]
 ];

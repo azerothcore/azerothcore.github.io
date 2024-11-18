@@ -1,5 +1,6 @@
 var a13742 =
 [
-    [ "go_brazier_of_madness", "df/dca/a13742.html#aeb900e575be02244e62c6e5e4153c855", null ],
-    [ "GossipHello", "df/dca/a13742.html#aba3af326b01cd045523434aec189fd47", null ]
+    [ "boss_wushoolayAI", "df/dca/a13742.html#a2ea62154c0932e5cd34bd4b858829ffe", null ],
+    [ "JustEngagedWith", "df/dca/a13742.html#af519da543fff63a39a6fbe48f90f2f22", null ],
+    [ "UpdateAI", "df/dca/a13742.html#acfaacee2a97212eb15056c1552b9e06b", null ]
 ];

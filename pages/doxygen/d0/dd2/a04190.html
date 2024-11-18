@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/PlayerTaxi.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Warden/Warden.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,26 +105,193 @@ $(document).ready(function(){initNavTree('d0/dd2/a04190.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">PlayerTaxi.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Warden.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCStructure.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ARC4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AuthDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WardenPayloadMgr.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc6/a08386.html">PlayerTaxi</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/a11186.html">WardenModuleUse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/a11190.html">WardenModuleTransfer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/a11194.html">WardenHashRequest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de4/a11198.html">ClientWardenModule</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/a11202.html">Warden</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8d0de714c4a4cf7a125c6187a7d19e51"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51">WardenOpcodes</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4">WARDEN_CMSG_MODULE_MISSING</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c">WARDEN_CMSG_MODULE_OK</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5">WARDEN_CMSG_CHEAT_CHECKS_RESULT</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f">WARDEN_CMSG_MEM_CHECKS_RESULT</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed">WARDEN_CMSG_HASH_RESULT</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc">WARDEN_CMSG_MODULE_FAILED</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30">WARDEN_SMSG_MODULE_USE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11">WARDEN_SMSG_MODULE_CACHE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709">WARDEN_SMSG_CHEAT_CHECKS_REQUEST</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8">WARDEN_SMSG_MODULE_INITIALIZE</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82">WARDEN_SMSG_MEM_CHECKS_REQUEST</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451">WARDEN_SMSG_HASH_REQUEST</a> = 5
+<br />
+ }</td></tr>
+<tr class="separator:a8d0de714c4a4cf7a125c6187a7d19e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7598131f87414a66259189a0518ca6f2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2">WardenCheckType</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074">MEM_CHECK</a> = 0xF3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f">PAGE_CHECK_A</a> = 0xB2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87">PAGE_CHECK_B</a> = 0xBF
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b">MPQ_CHECK</a> = 0x98
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a> = 139
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93">DRIVER_CHECK</a> = 0x71
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018">TIMING_CHECK</a> = 0x57
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d">PROC_CHECK</a> = 0x7E
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77">MODULE_CHECK</a> = 0xD9
+<br />
+ }</td></tr>
+<tr class="separator:a7598131f87414a66259189a0518ca6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a7598131f87414a66259189a0518ca6f2" name="a7598131f87414a66259189a0518ca6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7598131f87414a66259189a0518ca6f2">&#9670;&#160;</a></span>WardenCheckType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2">WardenCheckType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074" name="a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074"></a>MEM_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f" name="a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f"></a>PAGE_CHECK_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87" name="a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87"></a>PAGE_CHECK_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b" name="a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b"></a>MPQ_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada" name="a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada"></a>LUA_EVAL_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93" name="a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93"></a>DRIVER_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018" name="a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018"></a>TIMING_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d" name="a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d"></a>PROC_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77" name="a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77"></a>MODULE_CHECK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074">MEM_CHECK</a>               = 0xF3, <span class="comment">// 243: byte moduleNameIndex + uint Offset + byte Len (check to ensure memory isn&#39;t modified)</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f">PAGE_CHECK_A</a>            = 0xB2, <span class="comment">// 178: uint Seed + byte[20] SHA1 + uint Addr + byte Len (scans all pages for specified hash)</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87">PAGE_CHECK_B</a>            = 0xBF, <span class="comment">// 191: uint Seed + byte[20] SHA1 + uint Addr + byte Len (scans only pages starts with MZ+PE headers for specified hash)</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b">MPQ_CHECK</a>               = 0x98, <span class="comment">// 152: byte fileNameIndex (check to ensure MPQ file isn&#39;t modified)</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a>          = 139,  <span class="comment">// evaluate arbitrary Lua check</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93">DRIVER_CHECK</a>            = 0x71, <span class="comment">// 113: uint Seed + byte[20] SHA1 + byte driverNameIndex (check to ensure driver isn&#39;t loaded)</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018">TIMING_CHECK</a>            = 0x57, <span class="comment">//  87: empty (check to ensure GetTickCount() isn&#39;t detoured)</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d">PROC_CHECK</a>              = 0x7E, <span class="comment">// 126: uint Seed + byte[20] SHA1 + byte moluleNameIndex + byte procNameIndex + uint Offset + byte Len (check to ensure proc isn&#39;t detoured)</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77">MODULE_CHECK</a>            = 0xD9, <span class="comment">// 217: uint Seed + byte[20] SHA1 (check to ensure module isn&#39;t injected)</span></div>
+<div class="line"><span class="lineno">   57</span>};</div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d">PROC_CHECK</a></div><div class="ttdeci">@ PROC_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:55</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93">DRIVER_CHECK</a></div><div class="ttdeci">@ DRIVER_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:53</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f">PAGE_CHECK_A</a></div><div class="ttdeci">@ PAGE_CHECK_A</div><div class="ttdef"><b>Definition:</b> Warden.h:49</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87">PAGE_CHECK_B</a></div><div class="ttdeci">@ PAGE_CHECK_B</div><div class="ttdef"><b>Definition:</b> Warden.h:50</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a></div><div class="ttdeci">@ LUA_EVAL_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:52</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b">MPQ_CHECK</a></div><div class="ttdeci">@ MPQ_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:51</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074">MEM_CHECK</a></div><div class="ttdeci">@ MEM_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:48</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018">TIMING_CHECK</a></div><div class="ttdeci">@ TIMING_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:54</div></div>
+<div class="ttc" id="aa04190_html_a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77"><div class="ttname"><a href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77">MODULE_CHECK</a></div><div class="ttdeci">@ MODULE_CHECK</div><div class="ttdef"><b>Definition:</b> Warden.h:56</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8d0de714c4a4cf7a125c6187a7d19e51" name="a8d0de714c4a4cf7a125c6187a7d19e51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d0de714c4a4cf7a125c6187a7d19e51">&#9670;&#160;</a></span>WardenOpcodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51">WardenOpcodes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4" name="a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4"></a>WARDEN_CMSG_MODULE_MISSING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c" name="a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c"></a>WARDEN_CMSG_MODULE_OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5" name="a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5"></a>WARDEN_CMSG_CHEAT_CHECKS_RESULT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f" name="a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f"></a>WARDEN_CMSG_MEM_CHECKS_RESULT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed" name="a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed"></a>WARDEN_CMSG_HASH_RESULT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc" name="a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc"></a>WARDEN_CMSG_MODULE_FAILED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30" name="a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30"></a>WARDEN_SMSG_MODULE_USE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11" name="a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11"></a>WARDEN_SMSG_MODULE_CACHE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709" name="a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709"></a>WARDEN_SMSG_CHEAT_CHECKS_REQUEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8" name="a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8"></a>WARDEN_SMSG_MODULE_INITIALIZE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82" name="a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82"></a>WARDEN_SMSG_MEM_CHECKS_REQUEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451" name="a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451"></a>WARDEN_SMSG_HASH_REQUEST&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <span class="comment">// Client-&gt;Server</span></div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4">WARDEN_CMSG_MODULE_MISSING</a>                  = 0,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c">WARDEN_CMSG_MODULE_OK</a>                       = 1,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5">WARDEN_CMSG_CHEAT_CHECKS_RESULT</a>             = 2,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f">WARDEN_CMSG_MEM_CHECKS_RESULT</a>               = 3,        <span class="comment">// only sent if MEM_CHECK bytes doesn&#39;t match</span></div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed">WARDEN_CMSG_HASH_RESULT</a>                     = 4,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc">WARDEN_CMSG_MODULE_FAILED</a>                   = 5,        <span class="comment">// this is sent when client failed to load uploaded module due to cache fail</span></div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="comment">// Server-&gt;Client</span></div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30">WARDEN_SMSG_MODULE_USE</a>                      = 0,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11">WARDEN_SMSG_MODULE_CACHE</a>                    = 1,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709">WARDEN_SMSG_CHEAT_CHECKS_REQUEST</a>            = 2,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8">WARDEN_SMSG_MODULE_INITIALIZE</a>               = 3,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82">WARDEN_SMSG_MEM_CHECKS_REQUEST</a>              = 4,        <span class="comment">// byte len; while(!EOF) { byte unk(1); byte index(++); string module(can be 0); int offset; byte len; byte[] bytes_to_compare[len]; }</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451">WARDEN_SMSG_HASH_REQUEST</a>                    = 5</div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4">WARDEN_CMSG_MODULE_MISSING</a></div><div class="ttdeci">@ WARDEN_CMSG_MODULE_MISSING</div><div class="ttdef"><b>Definition:</b> Warden.h:30</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82">WARDEN_SMSG_MEM_CHECKS_REQUEST</a></div><div class="ttdeci">@ WARDEN_SMSG_MEM_CHECKS_REQUEST</div><div class="ttdef"><b>Definition:</b> Warden.h:42</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed">WARDEN_CMSG_HASH_RESULT</a></div><div class="ttdeci">@ WARDEN_CMSG_HASH_RESULT</div><div class="ttdef"><b>Definition:</b> Warden.h:34</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc">WARDEN_CMSG_MODULE_FAILED</a></div><div class="ttdeci">@ WARDEN_CMSG_MODULE_FAILED</div><div class="ttdef"><b>Definition:</b> Warden.h:35</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451">WARDEN_SMSG_HASH_REQUEST</a></div><div class="ttdeci">@ WARDEN_SMSG_HASH_REQUEST</div><div class="ttdef"><b>Definition:</b> Warden.h:43</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5">WARDEN_CMSG_CHEAT_CHECKS_RESULT</a></div><div class="ttdeci">@ WARDEN_CMSG_CHEAT_CHECKS_RESULT</div><div class="ttdef"><b>Definition:</b> Warden.h:32</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c">WARDEN_CMSG_MODULE_OK</a></div><div class="ttdeci">@ WARDEN_CMSG_MODULE_OK</div><div class="ttdef"><b>Definition:</b> Warden.h:31</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11">WARDEN_SMSG_MODULE_CACHE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_CACHE</div><div class="ttdef"><b>Definition:</b> Warden.h:39</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8">WARDEN_SMSG_MODULE_INITIALIZE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_INITIALIZE</div><div class="ttdef"><b>Definition:</b> Warden.h:41</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30">WARDEN_SMSG_MODULE_USE</a></div><div class="ttdeci">@ WARDEN_SMSG_MODULE_USE</div><div class="ttdef"><b>Definition:</b> Warden.h:38</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f">WARDEN_CMSG_MEM_CHECKS_RESULT</a></div><div class="ttdeci">@ WARDEN_CMSG_MEM_CHECKS_RESULT</div><div class="ttdef"><b>Definition:</b> Warden.h:33</div></div>
+<div class="ttc" id="aa04190_html_a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709"><div class="ttname"><a href="../../d0/dd2/a04190.html#a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709">WARDEN_SMSG_CHEAT_CHECKS_REQUEST</a></div><div class="ttdeci">@ WARDEN_SMSG_CHEAT_CHECKS_REQUEST</div><div class="ttdef"><b>Definition:</b> Warden.h:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d0/dd2/a04190.html">PlayerTaxi.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4b21bdf52d2a98b0776a5d7d01fdcc43.html">Warden</a></li><li class="navelem"><a class="el" href="../../d0/dd2/a04190.html">Warden.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

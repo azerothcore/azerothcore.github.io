@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Battleground.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/DataStores/M2Stores.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,65 +105,456 @@ $(document).ready(function(){initNavTree('d1/d00/a03707.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">Battleground.cpp File Reference</div></div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">M2Stores.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundBE.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundDS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundNA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundRL.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundRV.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ChatTextBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GroupMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">M2Stores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Containers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">M2Structure.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldStatePackets.h</a>&quot;</code><br />
+<code>#include &lt;boost/filesystem/path.hpp&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d43/a07042.html">Acore::BattlegroundChatBuilder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0a/a07046.html">Acore::Battleground2ChatBuilder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a058e5fb250bd785cecc9a6913132dfe4"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a></td></tr>
+<tr class="separator:a058e5fb250bd785cecc9a6913132dfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5274eb8fcc7646fe4fc3ea77ab6de2d9"><td class="memItemLeft" align="right" valign="top">G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9">TranslateLocation</a> (G3D::Vector4 const *DBCPosition, G3D::Vector3 const *basePosition, G3D::Vector3 const *splineVector)</td></tr>
+<tr class="separator:a5274eb8fcc7646fe4fc3ea77ab6de2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c17022a3ffed42c9d4995f5f6bb7ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#ad7c17022a3ffed42c9d4995f5f6bb7ac">readCamera</a> (<a class="el" href="../../db/def/a07678.html">M2Camera</a> const *cam, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> buffSize, <a class="el" href="../../df/d9b/a07666.html">M2Header</a> const *header, <a class="el" href="../../d4/d2f/a27674.html">CinematicCameraEntry</a> const *dbcentry)</td></tr>
+<tr class="separator:ad7c17022a3ffed42c9d4995f5f6bb7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036ca5e535b8e25b87a67c20c2ad2d4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#a036ca5e535b8e25b87a67c20c2ad2d4c">LoadM2Cameras</a> (std::string const &amp;dataPath)</td></tr>
+<tr class="separator:a036ca5e535b8e25b87a67c20c2ad2d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a9ba9da1a2f4075cc36b95cce62f6f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a> &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#af4a9ba9da1a2f4075cc36b95cce62f6f">GetFlyByCameras</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cinematicCameraId)</td></tr>
+<tr class="separator:af4a9ba9da1a2f4075cc36b95cce62f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4acfeb7e23e1d3a74b66a1c54084e7bc"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a></td></tr>
+<tr class="separator:a4acfeb7e23e1d3a74b66a1c54084e7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a058e5fb250bd785cecc9a6913132dfe4" name="a058e5fb250bd785cecc9a6913132dfe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a058e5fb250bd785cecc9a6913132dfe4">&#9670;&#160;</a></span>FlyByCameraCollection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a>&gt; <a class="el" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af4a9ba9da1a2f4075cc36b95cce62f6f" name="af4a9ba9da1a2f4075cc36b95cce62f6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4a9ba9da1a2f4075cc36b95cce62f6f">&#9670;&#160;</a></span>GetFlyByCameras()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a> &gt; const  * GetFlyByCameras </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>cinematicCameraId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
+<div class="line"><span class="lineno">  256</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d3a/a04705.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a>(<a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>, cinematicCameraId);</div>
+<div class="line"><span class="lineno">  257</span>}</div>
+<div class="ttc" id="aa03707_html_a4acfeb7e23e1d3a74b66a1c54084e7bc"><div class="ttname"><a href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a></div><div class="ttdeci">std::unordered_map&lt; uint32, FlyByCameraCollection &gt; sFlyByCameraStore</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:28</div></div>
+<div class="ttc" id="aa04705_html_a288324cfca487d8ecc2eab8a6014c513"><div class="ttname"><a href="../../d7/d3a/a04705.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a></div><div class="ttdeci">auto MapGetValuePtr(M &amp;map, typename M::key_type const &amp;key) -&gt; decltype(AddressOrSelf(map.find(key) -&gt;second))</div><div class="ttdef"><b>Definition:</b> Containers.h:206</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00206">Acore::Containers::MapGetValuePtr()</a>, and <a class="el" href="../../#l00028">sFlyByCameraStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00041">CinematicMgr::BeginCinematic()</a>, and <a class="el" href="../../#l00118">debug_commandscript::HandleDebugPlayCinematicCommand()</a>.</p>
+
+</div>
+</div>
+<a id="a036ca5e535b8e25b87a67c20c2ad2d4c" name="a036ca5e535b8e25b87a67c20c2ad2d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036ca5e535b8e25b87a67c20c2ad2d4c">&#9670;&#160;</a></span>LoadM2Cameras()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LoadM2Cameras </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>dataPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  174</span>{</div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>.clear();</div>
+<div class="line"><span class="lineno">  176</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loading Cinematic Camera files&quot;</span>);</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../d4/d2f/a27674.html">CinematicCameraEntry</a> <span class="keyword">const</span>* dbcentry : <a class="code hl_variable" href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a>)</div>
+<div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>        std::string filenameWork = dataPath;</div>
+<div class="line"><span class="lineno">  182</span>        filenameWork.append(dbcentry-&gt;Model);</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>        <span class="comment">// Replace slashes (always to forward slash, because boost!)</span></div>
+<div class="line"><span class="lineno">  185</span>        std::replace(filenameWork.begin(), filenameWork.end(), <span class="charliteral">&#39;\\&#39;</span>, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        boost::filesystem::path filename = filenameWork;</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>        <span class="comment">// Convert to native format</span></div>
+<div class="line"><span class="lineno">  190</span>        filename.make_preferred();</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        <span class="comment">// Replace mdx to .m2</span></div>
+<div class="line"><span class="lineno">  193</span>        filename.replace_extension(<span class="stringliteral">&quot;m2&quot;</span>);</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>        std::ifstream m2file(filename.string().c_str(), std::ios::in | std::ios::binary);</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">if</span> (!m2file.is_open())</div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>        <span class="comment">// Get file size</span></div>
+<div class="line"><span class="lineno">  200</span>        m2file.seekg(0, std::ios::end);</div>
+<div class="line"><span class="lineno">  201</span>        std::streamoff fileSize = m2file.tellg();</div>
+<div class="line"><span class="lineno">  202</span> </div>
+<div class="line"><span class="lineno">  203</span>        <span class="comment">// Reject if not at least the size of the header</span></div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">if</span> (<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(fileSize) &lt; <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a>))</div>
+<div class="line"><span class="lineno">  205</span>        {</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. File is smaller than header size&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  207</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  208</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  209</span>        }</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="comment">// Read 4 bytes (signature)</span></div>
+<div class="line"><span class="lineno">  212</span>        m2file.seekg(0, std::ios::beg);</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordtype">char</span> fileCheck[5];</div>
+<div class="line"><span class="lineno">  214</span>        m2file.read(fileCheck, 4);</div>
+<div class="line"><span class="lineno">  215</span>        fileCheck[4] = 0;</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>        <span class="comment">// Check file has correct magic (MD20)</span></div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (strcmp(fileCheck, <span class="stringliteral">&quot;MD20&quot;</span>))</div>
+<div class="line"><span class="lineno">  219</span>        {</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. File identifier not found&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  221</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  222</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>        <span class="comment">// Now we have a good file, read it all into a vector of char&#39;s, then close the file.</span></div>
+<div class="line"><span class="lineno">  226</span>        std::vector&lt;char&gt; buffer(fileSize);</div>
+<div class="line"><span class="lineno">  227</span>        m2file.seekg(0, std::ios::beg);</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">if</span> (!m2file.read(buffer.data(), fileSize))</div>
+<div class="line"><span class="lineno">  229</span>        {</div>
+<div class="line"><span class="lineno">  230</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  232</span>        }</div>
+<div class="line"><span class="lineno">  233</span>        m2file.close();</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>        <span class="comment">// Read header</span></div>
+<div class="line"><span class="lineno">  236</span>        <a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a> <span class="keyword">const</span>* header = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a> const*<span class="keyword">&gt;</span>(buffer.data());</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (header-&gt;<a class="code hl_variable" href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">ofsCameras</a> + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a>) &gt; <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(fileSize))</div>
+<div class="line"><span class="lineno">  239</span>        {</div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. Camera references position beyond file end&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>        <span class="comment">// Get camera(s) - Main header, then dump them.</span></div>
+<div class="line"><span class="lineno">  245</span>        <a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a> <span class="keyword">const</span>* cam = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a> const*<span class="keyword">&gt;</span>(buffer.data() + header-&gt;<a class="code hl_variable" href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">ofsCameras</a>);</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d1/d00/a03707.html#ad7c17022a3ffed42c9d4995f5f6bb7ac">readCamera</a>(cam, fileSize, header, dbcentry))</div>
+<div class="line"><span class="lineno">  247</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. Camera references position beyond file end&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Cinematic Waypoint Sets in {} ms&quot;</span>, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>.size(), <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  251</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  252</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03704_html_ae519249aa03c4d660b48646b11695c3a"><div class="ttname"><a href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a></div><div class="ttdeci">DBCStorage&lt; CinematicCameraEntry &gt; sCinematicCameraStore(CinematicCameraEntryfmt)</div></div>
+<div class="ttc" id="aa03707_html_ad7c17022a3ffed42c9d4995f5f6bb7ac"><div class="ttname"><a href="../../d1/d00/a03707.html#ad7c17022a3ffed42c9d4995f5f6bb7ac">readCamera</a></div><div class="ttdeci">bool readCamera(M2Camera const *cam, uint32 buffSize, M2Header const *header, CinematicCameraEntry const *dbcentry)</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:50</div></div>
+<div class="ttc" id="aa07666_html"><div class="ttname"><a href="../../df/d9b/a07666.html">M2Header</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:35</div></div>
+<div class="ttc" id="aa07666_html_aba0c84ae340e0c10b57c28f1f213b1f1"><div class="ttname"><a href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">M2Header::ofsCameras</a></div><div class="ttdeci">uint32 ofsCameras</div><div class="ttdef"><b>Definition:</b> M2Structure.h:95</div></div>
+<div class="ttc" id="aa07678_html"><div class="ttname"><a href="../../db/def/a07678.html">M2Camera</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:120</div></div>
+<div class="ttc" id="aa27674_html"><div class="ttname"><a href="../../d4/d2f/a27674.html">CinematicCameraEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:703</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00095">M2Header::ofsCameras</a>, <a class="el" href="../../#l00050">readCamera()</a>, <a class="el" href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a>, and <a class="el" href="../../#l00028">sFlyByCameraStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01495">World::SetInitialWorldSettings()</a>.</p>
+
+</div>
+</div>
+<a id="ad7c17022a3ffed42c9d4995f5f6bb7ac" name="ad7c17022a3ffed42c9d4995f5f6bb7ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c17022a3ffed42c9d4995f5f6bb7ac">&#9670;&#160;</a></span>readCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool readCamera </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/def/a07678.html">M2Camera</a> const *&#160;</td>
+          <td class="paramname"><em>cam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>buffSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/a07666.html">M2Header</a> const *&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d2f/a27674.html">CinematicCameraEntry</a> const *&#160;</td>
+          <td class="paramname"><em>dbcentry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordtype">char</span> <span class="keyword">const</span>* buffer = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span> const*<span class="keyword">&gt;</span>(header);</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_typedef" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a> cameras;</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_typedef" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a> targetcam;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    G3D::Vector4 DBCData;</div>
+<div class="line"><span class="lineno">   58</span>    DBCData.x = dbcentry-&gt;Origin.X;</div>
+<div class="line"><span class="lineno">   59</span>    DBCData.y = dbcentry-&gt;Origin.Y;</div>
+<div class="line"><span class="lineno">   60</span>    DBCData.z = dbcentry-&gt;Origin.Z;</div>
+<div class="line"><span class="lineno">   61</span>    DBCData.w = dbcentry-&gt;OriginFacing;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="comment">// Read target locations, only so that we can calculate orientation</span></div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> k = 0; k &lt; cam-&gt;target_positions.timestamps.number; ++k)</div>
+<div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        <span class="comment">// Extract Target positions</span></div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (cam-&gt;target_positions.timestamps.offset_elements + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> <span class="keyword">const</span>* targTsArray = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> const*<span class="keyword">&gt;</span>(buffer + cam-&gt;target_positions.timestamps.offset_elements);</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (targTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a> + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) &gt; buffSize || cam-&gt;target_positions.values.offset_elements + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span>* targTimestamps = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const*<span class="keyword">&gt;</span>(buffer + targTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>);</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> <span class="keyword">const</span>* targArray = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> const*<span class="keyword">&gt;</span>(buffer + cam-&gt;target_positions.values.offset_elements);</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">if</span> (targArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a> + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   77</span>        <a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a> <span class="keyword">const</span>* targPositions = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a> const*<span class="keyword">&gt;</span>(buffer + targArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>);</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>        <span class="comment">// Read the data for this set</span></div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currPos = targArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>;</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; targTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#af111e542d7a276e27d2b14757293bc42">number</a>; ++i)</div>
+<div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">if</span> (currPos + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">   84</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   85</span>            <span class="comment">// Translate co-ordinates</span></div>
+<div class="line"><span class="lineno">   86</span>            G3D::Vector3 newPos = <a class="code hl_function" href="../../d1/d00/a03707.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9">TranslateLocation</a>(&amp;DBCData, &amp;cam-&gt;target_position_base, &amp;targPositions-&gt;<a class="code hl_variable" href="../../d2/deb/a07662.html#aaf1df5d479ef12c6bfa9b02c8d9a54ad">p0</a>);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>            <span class="comment">// Add to vector</span></div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_struct" href="../../d7/df8/a07658.html">FlyByCamera</a> thisCam;</div>
+<div class="line"><span class="lineno">   90</span>            thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a> = targTimestamps[i];</div>
+<div class="line"><span class="lineno">   91</span>            thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(newPos.x, newPos.y, newPos.z, 0.0f);</div>
+<div class="line"><span class="lineno">   92</span>            targetcam.push_back(thisCam);</div>
+<div class="line"><span class="lineno">   93</span>            targPositions++;</div>
+<div class="line"><span class="lineno">   94</span>            currPos += <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>);</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>    <span class="comment">// Read camera positions and timestamps (translating first position of 3 only, we don&#39;t need to translate the whole spline)</span></div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> k = 0; k &lt; cam-&gt;positions.timestamps.number; ++k)</div>
+<div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        <span class="comment">// Extract Camera positions for this set</span></div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">if</span> (cam-&gt;positions.timestamps.offset_elements + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> <span class="keyword">const</span>* posTsArray = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> const*<span class="keyword">&gt;</span>(buffer + cam-&gt;positions.timestamps.offset_elements);</div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">if</span> (posTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a> + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) &gt; buffSize || cam-&gt;positions.values.offset_elements + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span>* posTimestamps = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const*<span class="keyword">&gt;</span>(buffer + posTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>);</div>
+<div class="line"><span class="lineno">  108</span>        <a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> <span class="keyword">const</span>* posArray = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d5/d6a/a07670.html">M2Array</a> const*<span class="keyword">&gt;</span>(buffer + cam-&gt;positions.values.offset_elements);</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">if</span> (posArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a> + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a> <span class="keyword">const</span>* <a class="code hl_variable" href="../../dc/dce/a00740.html#a55e6b22a71b5c615b82389bdf1717718">positions</a> = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a> const*<span class="keyword">&gt;</span>(buffer + posArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>);</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        <span class="comment">// Read the data for this set</span></div>
+<div class="line"><span class="lineno">  114</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currPos = posArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a>;</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; posTsArray-&gt;<a class="code hl_variable" href="../../d5/d6a/a07670.html#af111e542d7a276e27d2b14757293bc42">number</a>; ++i)</div>
+<div class="line"><span class="lineno">  116</span>        {</div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">if</span> (currPos + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>) &gt; buffSize)</div>
+<div class="line"><span class="lineno">  118</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  119</span>            <span class="comment">// Translate co-ordinates</span></div>
+<div class="line"><span class="lineno">  120</span>            G3D::Vector3 newPos = <a class="code hl_function" href="../../d1/d00/a03707.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9">TranslateLocation</a>(&amp;DBCData, &amp;cam-&gt;position_base, &amp;<a class="code hl_variable" href="../../dc/dce/a00740.html#a55e6b22a71b5c615b82389bdf1717718">positions</a>-&gt;p0);</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>            <span class="comment">// Add to vector</span></div>
+<div class="line"><span class="lineno">  123</span>            <a class="code hl_struct" href="../../d7/df8/a07658.html">FlyByCamera</a> thisCam;</div>
+<div class="line"><span class="lineno">  124</span>            thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a> = posTimestamps[i];</div>
+<div class="line"><span class="lineno">  125</span>            thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(newPos.x, newPos.y, newPos.z);</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">if</span> (targetcam.size() &gt; 0)</div>
+<div class="line"><span class="lineno">  128</span>            {</div>
+<div class="line"><span class="lineno">  129</span>                <span class="comment">// Find the target camera before and after this camera</span></div>
+<div class="line"><span class="lineno">  130</span>                <a class="code hl_struct" href="../../d7/df8/a07658.html">FlyByCamera</a> lastTarget;</div>
+<div class="line"><span class="lineno">  131</span>                <a class="code hl_struct" href="../../d7/df8/a07658.html">FlyByCamera</a> nextTarget;</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>                <span class="comment">// Pre-load first item</span></div>
+<div class="line"><span class="lineno">  134</span>                lastTarget = targetcam[0];</div>
+<div class="line"><span class="lineno">  135</span>                nextTarget = targetcam[0];</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = 0; j &lt; targetcam.size(); ++j)</div>
+<div class="line"><span class="lineno">  137</span>                {</div>
+<div class="line"><span class="lineno">  138</span>                    nextTarget = targetcam[j];</div>
+<div class="line"><span class="lineno">  139</span>                    <span class="keywordflow">if</span> (targetcam[j].timeStamp &gt; posTimestamps[i])</div>
+<div class="line"><span class="lineno">  140</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>                    lastTarget = targetcam[j];</div>
+<div class="line"><span class="lineno">  143</span>                }</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>                <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  146</span>                lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(x, y, z);</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>                <span class="comment">// Now, the timestamps for target cam and position can be different. So, if they differ we interpolate</span></div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">if</span> (lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a> != posTimestamps[i])</div>
+<div class="line"><span class="lineno">  150</span>                {</div>
+<div class="line"><span class="lineno">  151</span>                    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timeDiffTarget = nextTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a> - lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a>;</div>
+<div class="line"><span class="lineno">  152</span>                    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timeDiffThis = posTimestamps[i] - lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">timeStamp</a>;</div>
+<div class="line"><span class="lineno">  153</span>                    <span class="keywordtype">float</span> xDiff = nextTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() - lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>();</div>
+<div class="line"><span class="lineno">  154</span>                    <span class="keywordtype">float</span> yDiff = nextTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() - lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>();</div>
+<div class="line"><span class="lineno">  155</span>                    x = lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + (xDiff * (float(timeDiffThis) / float(timeDiffTarget)));</div>
+<div class="line"><span class="lineno">  156</span>                    y = lastTarget.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + (yDiff * (float(timeDiffThis) / float(timeDiffTarget)));</div>
+<div class="line"><span class="lineno">  157</span>                }</div>
+<div class="line"><span class="lineno">  158</span>                <span class="keywordtype">float</span> xDiff = x - thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>();</div>
+<div class="line"><span class="lineno">  159</span>                <span class="keywordtype">float</span> yDiff = y - thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>();</div>
+<div class="line"><span class="lineno">  160</span>                thisCam.<a class="code hl_variable" href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">locations</a>.<a class="code hl_function" href="../../de/d68/a08218.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(std::atan2(yDiff, xDiff));</div>
+<div class="line"><span class="lineno">  161</span>            }</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>            cameras.push_back(thisCam);</div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_variable" href="../../dc/dce/a00740.html#a55e6b22a71b5c615b82389bdf1717718">positions</a>++;</div>
+<div class="line"><span class="lineno">  165</span>            currPos += <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d2/deb/a07662.html">M2SplineKey&lt;G3D::Vector3&gt;</a>);</div>
+<div class="line"><span class="lineno">  166</span>        }</div>
+<div class="line"><span class="lineno">  167</span>    }</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>    <a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>[dbcentry-&gt;ID] = cameras;</div>
+<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  171</span>}</div>
+<div class="ttc" id="aa00740_html_a55e6b22a71b5c615b82389bdf1717718"><div class="ttname"><a href="../../dc/dce/a00740.html#a55e6b22a71b5c615b82389bdf1717718">positions</a></div><div class="ttdeci">const Position positions[MAX_SUMMONS]</div><div class="ttdef"><b>Definition:</b> boss_lurker_below.cpp:57</div></div>
+<div class="ttc" id="aa03707_html_a058e5fb250bd785cecc9a6913132dfe4"><div class="ttname"><a href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a></div><div class="ttdeci">std::vector&lt; FlyByCamera &gt; FlyByCameraCollection</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:27</div></div>
+<div class="ttc" id="aa03707_html_a5274eb8fcc7646fe4fc3ea77ab6de2d9"><div class="ttname"><a href="../../d1/d00/a03707.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9">TranslateLocation</a></div><div class="ttdeci">G3D::Vector3 TranslateLocation(G3D::Vector4 const *DBCPosition, G3D::Vector3 const *basePosition, G3D::Vector3 const *splineVector)</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:31</div></div>
+<div class="ttc" id="aa07658_html"><div class="ttname"><a href="../../d7/df8/a07658.html">FlyByCamera</a></div><div class="ttdef"><b>Definition:</b> M2Stores.h:26</div></div>
+<div class="ttc" id="aa07658_html_a5fed6b0484c1553a17b5303facaeb61b"><div class="ttname"><a href="../../d7/df8/a07658.html#a5fed6b0484c1553a17b5303facaeb61b">FlyByCamera::timeStamp</a></div><div class="ttdeci">uint32 timeStamp</div><div class="ttdef"><b>Definition:</b> M2Stores.h:27</div></div>
+<div class="ttc" id="aa07658_html_a6470ea69a14e24337aa6b0c05093b6d2"><div class="ttname"><a href="../../d7/df8/a07658.html#a6470ea69a14e24337aa6b0c05093b6d2">FlyByCamera::locations</a></div><div class="ttdeci">Position locations</div><div class="ttdef"><b>Definition:</b> M2Stores.h:28</div></div>
+<div class="ttc" id="aa07662_html"><div class="ttname"><a href="../../d2/deb/a07662.html">M2SplineKey</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:28</div></div>
+<div class="ttc" id="aa07662_html_aaf1df5d479ef12c6bfa9b02c8d9a54ad"><div class="ttname"><a href="../../d2/deb/a07662.html#aaf1df5d479ef12c6bfa9b02c8d9a54ad">M2SplineKey::p0</a></div><div class="ttdeci">T p0</div><div class="ttdef"><b>Definition:</b> M2Structure.h:29</div></div>
+<div class="ttc" id="aa07670_html"><div class="ttname"><a href="../../d5/d6a/a07670.html">M2Array</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:107</div></div>
+<div class="ttc" id="aa07670_html_ad633b2e9afc82762c6b43675844f8fea"><div class="ttname"><a href="../../d5/d6a/a07670.html#ad633b2e9afc82762c6b43675844f8fea">M2Array::offset_elements</a></div><div class="ttdeci">uint32 offset_elements</div><div class="ttdef"><b>Definition:</b> M2Structure.h:109</div></div>
+<div class="ttc" id="aa07670_html_af111e542d7a276e27d2b14757293bc42"><div class="ttname"><a href="../../d5/d6a/a07670.html#af111e542d7a276e27d2b14757293bc42">M2Array::number</a></div><div class="ttdeci">uint32_t number</div><div class="ttdef"><b>Definition:</b> M2Structure.h:108</div></div>
+<div class="ttc" id="aa08218_html_aa547307fa2e6acedbcebda20a98a0fcf"><div class="ttname"><a href="../../de/d68/a08218.html#aa547307fa2e6acedbcebda20a98a0fcf">Position::SetOrientation</a></div><div class="ttdeci">void SetOrientation(float orientation)</div><div class="ttdef"><b>Definition:</b> Position.h:111</div></div>
+<div class="ttc" id="aa08218_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:116</div></div>
+<div class="ttc" id="aa08218_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../de/d68/a08218.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:121</div></div>
+<div class="ttc" id="aa08218_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="aa08218_html_afdbf0a257fcd7a48066fd92c4eacae3b"><div class="ttname"><a href="../../de/d68/a08218.html#afdbf0a257fcd7a48066fd92c4eacae3b">Position::Relocate</a></div><div class="ttdeci">void Relocate(float x, float y)</div><div class="ttdef"><b>Definition:</b> Position.h:72</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">Position::GetPosition()</a>, <a class="el" href="../../#l00116">Position::GetPositionX()</a>, <a class="el" href="../../#l00117">Position::GetPositionY()</a>, <a class="el" href="../../#l00704">CinematicCameraEntry::ID</a>, <a class="el" href="../../#l00028">FlyByCamera::locations</a>, <a class="el" href="../../#l00108">M2Array::number</a>, <a class="el" href="../../#l00109">M2Array::offset_elements</a>, <a class="el" href="../../#l00707">CinematicCameraEntry::Origin</a>, <a class="el" href="../../#l00708">CinematicCameraEntry::OriginFacing</a>, <a class="el" href="../../#l00029">M2SplineKey&lt; T &gt;::p0</a>, <a class="el" href="../../#l00126">M2Camera::position_base</a>, <a class="el" href="../../#l00125">M2Camera::positions</a>, <a class="el" href="../../#l00057">positions</a>, <a class="el" href="../../#l00072">Position::Relocate()</a>, <a class="el" href="../../#l00111">Position::SetOrientation()</a>, <a class="el" href="../../#l00028">sFlyByCameraStore</a>, <a class="el" href="../../#l00128">M2Camera::target_position_base</a>, <a class="el" href="../../#l00127">M2Camera::target_positions</a>, <a class="el" href="../../#l00027">FlyByCamera::timeStamp</a>, <a class="el" href="../../#l00115">M2Track::timestamps</a>, <a class="el" href="../../#l00031">TranslateLocation()</a>, <a class="el" href="../../#l00116">M2Track::values</a>, <a class="el" href="../../#l00026">DBCPosition3D::X</a>, <a class="el" href="../../#l00027">DBCPosition3D::Y</a>, and <a class="el" href="../../#l00028">DBCPosition3D::Z</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00173">LoadM2Cameras()</a>.</p>
+
+</div>
+</div>
+<a id="a5274eb8fcc7646fe4fc3ea77ab6de2d9" name="a5274eb8fcc7646fe4fc3ea77ab6de2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5274eb8fcc7646fe4fc3ea77ab6de2d9">&#9670;&#160;</a></span>TranslateLocation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">G3D::Vector3 TranslateLocation </td>
+          <td>(</td>
+          <td class="paramtype">G3D::Vector4 const *&#160;</td>
+          <td class="paramname"><em>DBCPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">G3D::Vector3 const *&#160;</td>
+          <td class="paramname"><em>basePosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">G3D::Vector3 const *&#160;</td>
+          <td class="paramname"><em>splineVector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    G3D::Vector3 work;</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordtype">float</span> x = basePosition-&gt;x + splineVector-&gt;x;</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordtype">float</span> y = basePosition-&gt;y + splineVector-&gt;y;</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">float</span> z = basePosition-&gt;z + splineVector-&gt;z;</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">float</span> <span class="keyword">const</span> distance = std::sqrt((x * x) + (y * y));</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordtype">float</span> angle = std::atan2(x, y) - DBCPosition-&gt;w;</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (angle &lt; 0)</div>
+<div class="line"><span class="lineno">   41</span>        angle += 2 * float(M_PI);</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    work.x = DBCPosition-&gt;x + (distance * sin(angle));</div>
+<div class="line"><span class="lineno">   44</span>    work.y = DBCPosition-&gt;y + (distance * cos(angle));</div>
+<div class="line"><span class="lineno">   45</span>    work.z = DBCPosition-&gt;z + z;</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">return</span> work;</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00050">readCamera()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a4acfeb7e23e1d3a74b66a1c54084e7bc" name="a4acfeb7e23e1d3a74b66a1c54084e7bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4acfeb7e23e1d3a74b66a1c54084e7bc">&#9670;&#160;</a></span>sFlyByCameraStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d1/d00/a03707.html#a058e5fb250bd785cecc9a6913132dfe4">FlyByCameraCollection</a>&gt; sFlyByCameraStore</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00254">GetFlyByCameras()</a>, <a class="el" href="../../#l00173">LoadM2Cameras()</a>, and <a class="el" href="../../#l00050">readCamera()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d1/d00/a03707.html">Battleground.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_cf66c9a7c0140de46c47cc8282fbae4a.html">DataStores</a></li><li class="navelem"><a class="el" href="../../d1/d00/a03707.html">M2Stores.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

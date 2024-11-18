@@ -1,7 +1,7 @@
 var a10018 =
 [
-    [ "GameEventScript", "d3/d77/a10018.html#ac43a9c70638ad56b69b5841ee8410374", null ],
-    [ "OnEventCheck", "d3/d77/a10018.html#aadab9593da561e9b19202d09b53cba36", null ],
-    [ "OnStart", "d3/d77/a10018.html#a0e61a9e1379aef55af93a593af84a3cc", null ],
-    [ "OnStop", "d3/d77/a10018.html#a4813f26f03e5ba79a740bf30558e604c", null ]
+    [ "DatabaseScript", "d3/d77/a10018.html#aab34b85df1a5ccdf17fede64baca4994", null ],
+    [ "IsDatabaseBound", "d3/d77/a10018.html#af4321bb95ed9bb3bb0e5a8a93c89c235", null ],
+    [ "OnAfterDatabaseLoadCreatureTemplates", "d3/d77/a10018.html#a2f4e91e2b1192c0ceb399cd93eb33ee3", null ],
+    [ "OnAfterDatabasesLoaded", "d3/d77/a10018.html#ab52afc833cb462693f5e0d79cff6bb3f", null ]
 ];

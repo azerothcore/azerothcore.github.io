@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ClientPktHeader Struct Reference</title>
+<title>AzerothCore: PacketCounter Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,124 +105,52 @@ $(document).ready(function(){initNavTree('d0/d24/a10738.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d2/d53/a10735.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ClientPktHeader Struct Reference</div></div>
+  <div class="headertitle"><div class="title">PacketCounter Struct Reference<div class="ingroups"><a class="el" href="../../d5/dfd/a04680.html">User to World Communication</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">WorldSocket.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aec5192f7f57a16c9dfa244ff3874e693"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#aec5192f7f57a16c9dfa244ff3874e693">IsValidSize</a> () const</td></tr>
-<tr class="separator:aec5192f7f57a16c9dfa244ff3874e693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdba55f89a1c7ffb9e7c302f2269687f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#afdba55f89a1c7ffb9e7c302f2269687f">IsValidOpcode</a> () const</td></tr>
-<tr class="separator:afdba55f89a1c7ffb9e7c302f2269687f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac1d551036381db4f85b8dc92ea55d4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#ac1d551036381db4f85b8dc92ea55d4ee">size</a></td></tr>
-<tr class="separator:ac1d551036381db4f85b8dc92ea55d4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0a112cb2a8a71e6e8c20e320af63f49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#ad0a112cb2a8a71e6e8c20e320af63f49">cmd</a></td></tr>
-<tr class="separator:ad0a112cb2a8a71e6e8c20e320af63f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f3f2a90a24b48d239e3df3525f8fdc"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#ae0f3f2a90a24b48d239e3df3525f8fdc">lastReceiveTime</a></td></tr>
+<tr class="separator:ae0f3f2a90a24b48d239e3df3525f8fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de1f899f55a371b77ae007c1f9a981c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d24/a10738.html#a8de1f899f55a371b77ae007c1f9a981c">amountCounter</a></td></tr>
+<tr class="separator:a8de1f899f55a371b77ae007c1f9a981c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="afdba55f89a1c7ffb9e7c302f2269687f" name="afdba55f89a1c7ffb9e7c302f2269687f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdba55f89a1c7ffb9e7c302f2269687f">&#9670;&#160;</a></span>IsValidOpcode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ClientPktHeader::IsValidOpcode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d24/a10738.html#ad0a112cb2a8a71e6e8c20e320af63f49">cmd</a> &lt; <a class="code hl_enumvalue" href="../../d5/d43/a04668.html#ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611">NUM_OPCODE_HANDLERS</a>; }</div>
-<div class="ttc" id="aa04668_html_ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611"><div class="ttname"><a href="../../d5/d43/a04668.html#ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611">NUM_OPCODE_HANDLERS</a></div><div class="ttdeci">@ NUM_OPCODE_HANDLERS</div><div class="ttdef"><b>Definition:</b> Opcodes.h:1346</div></div>
-<div class="ttc" id="aa10738_html_ad0a112cb2a8a71e6e8c20e320af63f49"><div class="ttname"><a href="../../d0/d24/a10738.html#ad0a112cb2a8a71e6e8c20e320af63f49">ClientPktHeader::cmd</a></div><div class="ttdeci">uint32 cmd</div><div class="ttdef"><b>Definition:</b> WorldSocket.h:61</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">cmd</a>, and <a class="el" href="../../#l01346">NUM_OPCODE_HANDLERS</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00304">WorldSocket::ReadHeaderHandler()</a>.</p>
-
-</div>
-</div>
-<a id="aec5192f7f57a16c9dfa244ff3874e693" name="aec5192f7f57a16c9dfa244ff3874e693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec5192f7f57a16c9dfa244ff3874e693">&#9670;&#160;</a></span>IsValidSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ClientPktHeader::IsValidSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d24/a10738.html#ac1d551036381db4f85b8dc92ea55d4ee">size</a> &gt;= 4 &amp;&amp; <a class="code hl_variable" href="../../d0/d24/a10738.html#ac1d551036381db4f85b8dc92ea55d4ee">size</a> &lt; 10240; }</div>
-<div class="ttc" id="aa10738_html_ac1d551036381db4f85b8dc92ea55d4ee"><div class="ttname"><a href="../../d0/d24/a10738.html#ac1d551036381db4f85b8dc92ea55d4ee">ClientPktHeader::size</a></div><div class="ttdeci">uint16 size</div><div class="ttdef"><b>Definition:</b> WorldSocket.h:60</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00060">size</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00304">WorldSocket::ReadHeaderHandler()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad0a112cb2a8a71e6e8c20e320af63f49" name="ad0a112cb2a8a71e6e8c20e320af63f49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0a112cb2a8a71e6e8c20e320af63f49">&#9670;&#160;</a></span>cmd</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8de1f899f55a371b77ae007c1f9a981c" name="a8de1f899f55a371b77ae007c1f9a981c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de1f899f55a371b77ae007c1f9a981c">&#9670;&#160;</a></span>amountCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ClientPktHeader::cmd</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PacketCounter::amountCounter</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00064">IsValidOpcode()</a>, <a class="el" href="../../#l00398">WorldSocket::ReadDataHandler()</a>, and <a class="el" href="../../#l00304">WorldSocket::ReadHeaderHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01308">WorldSession::DosProtection::EvaluateOpcode()</a>.</p>
 
 </div>
 </div>
-<a id="ac1d551036381db4f85b8dc92ea55d4ee" name="ac1d551036381db4f85b8dc92ea55d4ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1d551036381db4f85b8dc92ea55d4ee">&#9670;&#160;</a></span>size</h2>
+<a id="ae0f3f2a90a24b48d239e3df3525f8fdc" name="ae0f3f2a90a24b48d239e3df3525f8fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f3f2a90a24b48d239e3df3525f8fdc">&#9670;&#160;</a></span>lastReceiveTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> ClientPktHeader::size</td>
+          <td class="memname">time_t PacketCounter::lastReceiveTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00063">IsValidSize()</a>, and <a class="el" href="../../#l00304">WorldSocket::ReadHeaderHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01308">WorldSession::DosProtection::EvaluateOpcode()</a>.</p>
 
 </div>
 </div>
@@ -231,8 +159,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d24/a10738.html">ClientPktHeader</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d0/d24/a10738.html">PacketCounter</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

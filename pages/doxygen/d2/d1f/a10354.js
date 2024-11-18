@@ -1,7 +1,11 @@
 var a10354 =
 [
-    [ "GuildSetMemberNote", "d2/d1f/a10354.html#a4747c3d015cb1b0d0056928fd75e4d18", null ],
-    [ "Read", "d2/d1f/a10354.html#a3d90b6ce26d55a55bac1d953dd39b049", null ],
-    [ "Note", "d2/d1f/a10354.html#a33b7b73bd5d26c2a0ac99d6dc0131c41", null ],
-    [ "NoteeName", "d2/d1f/a10354.html#acf6beb0a5b122a04162e9d2c027203af", null ]
+    [ "GuildSetRankPermissions", "d2/d1f/a10354.html#a8b3fd3e4da77c6fb70db28721ec46714", null ],
+    [ "Read", "d2/d1f/a10354.html#a534550862a3c634697e8277f31ad4c25", null ],
+    [ "Flags", "d2/d1f/a10354.html#adea48131efa7c05b84c4de596933bfbe", null ],
+    [ "RankID", "d2/d1f/a10354.html#a0c4a8b29918d69580c749e3b48485515", null ],
+    [ "RankName", "d2/d1f/a10354.html#a24dde2aa8dd0ae1b9e8b37317334e0d4", null ],
+    [ "TabFlags", "d2/d1f/a10354.html#af19e6fd8ddfe980f8c1f1110e9332bad", null ],
+    [ "TabWithdrawItemLimit", "d2/d1f/a10354.html#a9f5ddb30858ae9eca7fcd2ad9fa8ea0c", null ],
+    [ "WithdrawGoldLimit", "d2/d1f/a10354.html#a1c02002facce05010028ac8dcae7fa3f", null ]
 ];

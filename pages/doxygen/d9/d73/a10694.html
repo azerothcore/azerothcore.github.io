@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: PacketFilter Class Reference</title>
+<title>AzerothCore: ServerPktHeader Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,44 +106,34 @@ $(document).ready(function(){initNavTree('d9/d73/a10694.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../df/d47/a10691.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PacketFilter Class Reference<div class="ingroups"><a class="el" href="../../d5/d43/a04668.html">User to World Communication</a></div></div></div>
+  <div class="headertitle"><div class="title">ServerPktHeader Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for PacketFilter:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d9/d73/a10694.png" usemap="#PacketFilter_map" alt=""/>
-  <map id="PacketFilter_map" name="PacketFilter_map">
-<area href="../../d0/d90/a10698.html" alt="MapSessionFilter" shape="rect" coords="0,56,118,80"/>
-<area href="../../d3/d32/a10702.html" alt="WorldSessionFilter" shape="rect" coords="128,56,246,80"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">ServerPktHeader.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:accfa43359c62d2e9d6c38086c77374bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#accfa43359c62d2e9d6c38086c77374bd">PacketFilter</a> (<a class="el" href="../../d4/dde/a10726.html">WorldSession</a> *pSession)</td></tr>
-<tr class="separator:accfa43359c62d2e9d6c38086c77374bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a669531cfd9c06d5cf525986069117687"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a669531cfd9c06d5cf525986069117687">~PacketFilter</a> ()=default</td></tr>
-<tr class="separator:a669531cfd9c06d5cf525986069117687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03679e3c241a535757608c63ca933ac9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a03679e3c241a535757608c63ca933ac9">Process</a> (<a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> *)</td></tr>
-<tr class="separator:a03679e3c241a535757608c63ca933ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e2bdc6d15cfd5cac1b9c130937599e3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a3e2bdc6d15cfd5cac1b9c130937599e3">ProcessUnsafe</a> () const</td></tr>
-<tr class="separator:a3e2bdc6d15cfd5cac1b9c130937599e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761e294fccc02055a46bfc46656da706"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a761e294fccc02055a46bfc46656da706">ServerPktHeader</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a>, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> cmd)</td></tr>
+<tr class="separator:a761e294fccc02055a46bfc46656da706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ff3550b7794fed0e69bfc4d1418dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a75ff3550b7794fed0e69bfc4d1418dee">getHeaderLength</a> ()</td></tr>
+<tr class="separator:a75ff3550b7794fed0e69bfc4d1418dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4e13fc8e2a6ec6de70f4432f25ffe2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2">isLargePacket</a> () const</td></tr>
+<tr class="separator:a4f4e13fc8e2a6ec6de70f4432f25ffe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ad3723289ea93f1095cf82584268335d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dde/a10726.html">WorldSession</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#ad3723289ea93f1095cf82584268335d9">m_pSession</a></td></tr>
-<tr class="separator:ad3723289ea93f1095cf82584268335d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5d5cf573cebe47a10e3f17b840c7a4e1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a></td></tr>
+<tr class="separator:a5d5cf573cebe47a10e3f17b840c7a4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc69128832b16124c284c584e7540b11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a> [5]</td></tr>
+<tr class="separator:adc69128832b16124c284c584e7540b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="accfa43359c62d2e9d6c38086c77374bd" name="accfa43359c62d2e9d6c38086c77374bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accfa43359c62d2e9d6c38086c77374bd">&#9670;&#160;</a></span>PacketFilter()</h2>
+<a id="a761e294fccc02055a46bfc46656da706" name="a761e294fccc02055a46bfc46656da706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a761e294fccc02055a46bfc46656da706">&#9670;&#160;</a></span>ServerPktHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,52 +142,57 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PacketFilter::PacketFilter </td>
+          <td class="memname">ServerPktHeader::ServerPktHeader </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dde/a10726.html">WorldSession</a> *&#160;</td>
-          <td class="paramname"><em>pSession</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  233</span>: <a class="code hl_variable" href="../../d9/d73/a10694.html#ad3723289ea93f1095cf82584268335d9">m_pSession</a>(pSession) {}</div>
-<div class="ttc" id="aa10694_html_ad3723289ea93f1095cf82584268335d9"><div class="ttname"><a href="../../d9/d73/a10694.html#ad3723289ea93f1095cf82584268335d9">PacketFilter::m_pSession</a></div><div class="ttdeci">WorldSession *const m_pSession</div><div class="ttdef"><b>Definition:</b> WorldSession.h:240</div></div>
+<p >size is the length of the payload <em>plus</em> the length of the opcode </p>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>                                             : <a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a>(<a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a>)</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> headerIndex=0;</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d73/a10694.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2">isLargePacket</a>())</div>
+<div class="line"><span class="lineno">   34</span>        {</div>
+<div class="line"><span class="lineno">   35</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;initializing large server to client packet. Size: {}, cmd: {}&quot;</span>, <a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a>, cmd);</div>
+<div class="line"><span class="lineno">   36</span>            <a class="code hl_variable" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a>[headerIndex++] = 0x80 | (0xFF &amp; (<a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a> &gt;&gt; 16));</div>
+<div class="line"><span class="lineno">   37</span>        }</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a>[headerIndex++] = 0xFF &amp;(<a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a> &gt;&gt; 8);</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a>[headerIndex++] = 0xFF &amp; <a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a>;</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a>[headerIndex++] = 0xFF &amp; cmd;</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">header</a>[headerIndex++] = 0xFF &amp; (cmd &gt;&gt; 8);</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa10694_html_a4f4e13fc8e2a6ec6de70f4432f25ffe2"><div class="ttname"><a href="../../d9/d73/a10694.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2">ServerPktHeader::isLargePacket</a></div><div class="ttdeci">bool isLargePacket() const</div><div class="ttdef"><b>Definition:</b> ServerPktHeader.h:51</div></div>
+<div class="ttc" id="aa10694_html_a5d5cf573cebe47a10e3f17b840c7a4e1"><div class="ttname"><a href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">ServerPktHeader::size</a></div><div class="ttdeci">const uint32 size</div><div class="ttdef"><b>Definition:</b> ServerPktHeader.h:56</div></div>
+<div class="ttc" id="aa10694_html_adc69128832b16124c284c584e7540b11"><div class="ttname"><a href="../../d9/d73/a10694.html#adc69128832b16124c284c584e7540b11">ServerPktHeader::header</a></div><div class="ttdeci">uint8 header[5]</div><div class="ttdef"><b>Definition:</b> ServerPktHeader.h:57</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a669531cfd9c06d5cf525986069117687" name="a669531cfd9c06d5cf525986069117687"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a669531cfd9c06d5cf525986069117687">&#9670;&#160;</a></span>~PacketFilter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual PacketFilter::~PacketFilter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">References <a class="el" href="../../#l00057">header</a>, <a class="el" href="../../#l00051">isLargePacket()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, and <a class="el" href="../../#l00056">size</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a03679e3c241a535757608c63ca933ac9" name="a03679e3c241a535757608c63ca933ac9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03679e3c241a535757608c63ca933ac9">&#9670;&#160;</a></span>Process()</h2>
+<a id="a75ff3550b7794fed0e69bfc4d1418dee" name="a75ff3550b7794fed0e69bfc4d1418dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ff3550b7794fed0e69bfc4d1418dee">&#9670;&#160;</a></span>getHeaderLength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,27 +201,31 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool PacketFilter::Process </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ServerPktHeader::getHeaderLength </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d0/d90/a10698.html#a54483596fe2a5a0d30fab9a13506b375">MapSessionFilter</a>, and <a class="el" href="../../d3/d32/a10702.html#a0f0acf4ed9e61bf8aeb77ee7fb310660">WorldSessionFilter</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  236</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <span class="comment">// cmd = 2 bytes, size= 2||3bytes</span></div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> 2 + (<a class="code hl_function" href="../../d9/d73/a10694.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2">isLargePacket</a>() ? 3 : 2);</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00051">isLargePacket()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00163">WorldSocket::Update()</a>.</p>
+
 </div>
 </div>
-<a id="a3e2bdc6d15cfd5cac1b9c130937599e3" name="a3e2bdc6d15cfd5cac1b9c130937599e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2bdc6d15cfd5cac1b9c130937599e3">&#9670;&#160;</a></span>ProcessUnsafe()</h2>
+<a id="a4f4e13fc8e2a6ec6de70f4432f25ffe2" name="a4f4e13fc8e2a6ec6de70f4432f25ffe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4e13fc8e2a6ec6de70f4432f25ffe2">&#9670;&#160;</a></span>isLargePacket()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +234,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool PacketFilter::ProcessUnsafe </td>
+          <td class="memname">bool ServerPktHeader::isLargePacket </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -243,40 +242,50 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d0/d90/a10698.html#a8e3a7dd5affb24305435aea2c57718fa">MapSessionFilter</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  237</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d73/a10694.html#a5d5cf573cebe47a10e3f17b840c7a4e1">size</a> &gt; 0x7FFF;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00288">WorldSession::Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00056">size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00045">getHeaderLength()</a>, and <a class="el" href="../../#l00030">ServerPktHeader()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad3723289ea93f1095cf82584268335d9" name="ad3723289ea93f1095cf82584268335d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3723289ea93f1095cf82584268335d9">&#9670;&#160;</a></span>m_pSession</h2>
+<a id="adc69128832b16124c284c584e7540b11" name="adc69128832b16124c284c584e7540b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc69128832b16124c284c584e7540b11">&#9670;&#160;</a></span>header</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/dde/a10726.html">WorldSession</a>* const PacketFilter::m_pSession</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ServerPktHeader::header[5]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00061">MapSessionFilter::Process()</a>, and <a class="el" href="../../#l00083">WorldSessionFilter::Process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00030">ServerPktHeader()</a>, and <a class="el" href="../../#l00163">WorldSocket::Update()</a>.</p>
+
+</div>
+</div>
+<a id="a5d5cf573cebe47a10e3f17b840c7a4e1" name="a5d5cf573cebe47a10e3f17b840c7a4e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5cf573cebe47a10e3f17b840c7a4e1">&#9670;&#160;</a></span>size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ServerPktHeader::size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00051">isLargePacket()</a>, and <a class="el" href="../../#l00030">ServerPktHeader()</a>.</p>
 
 </div>
 </div>
@@ -285,8 +294,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d73/a10694.html">PacketFilter</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:43 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d9/d73/a10694.html">ServerPktHeader</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,14 @@
 var a20958 =
 [
-    [ "npc_erekem_guardAI", "d0/d0f/a20962.html", "d0/d0f/a20962" ],
-    [ "npc_erekem_guard", "df/d9a/a20958.html#a78592996e90f77f81eec0325a7f11956", null ],
-    [ "GetAI", "df/d9a/a20958.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
+    [ "boss_cyanigosaAI", "df/d9a/a20958.html#a4b24132889b17b3e682a15009a1ae910", null ],
+    [ "EnterEvadeMode", "df/d9a/a20958.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
+    [ "JustDied", "df/d9a/a20958.html#a805117db567dd3d529a1c862bc24179c", null ],
+    [ "JustEngagedWith", "df/d9a/a20958.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
+    [ "KilledUnit", "df/d9a/a20958.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
+    [ "MoveInLineOfSight", "df/d9a/a20958.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
+    [ "Reset", "df/d9a/a20958.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
+    [ "SpellHitTarget", "df/d9a/a20958.html#ae8218b69e6dc7489e65d891048d84da1", null ],
+    [ "UpdateAI", "df/d9a/a20958.html#ae69afba77636c962045160b610177bd9", null ],
+    [ "events", "df/d9a/a20958.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
+    [ "pInstance", "df/d9a/a20958.html#a075f4a592202dc73d9b5d63ca5178093", null ]
 ];

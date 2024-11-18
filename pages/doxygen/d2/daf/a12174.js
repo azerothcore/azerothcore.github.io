@@ -1,6 +1,7 @@
 var a12174 =
 [
-    [ "boss_sulfuronAI", "d2/daf/a12174.html#a63c76fb94131830924e2bf77477261ba", null ],
-    [ "ExecuteEvent", "d2/daf/a12174.html#ae038aa8140f5b4128c39c592966321f1", null ],
-    [ "JustEngagedWith", "d2/daf/a12174.html#a35394690b8d25529c91c147025f6ad92", null ]
+    [ "HandleScript", "d2/daf/a12174.html#aa6a02fd6ac2fe27588cb17377e63125f", null ],
+    [ "PrepareSpellScript", "d2/daf/a12174.html#a8d200122bafb943ccb6aa1bd86a1d227", null ],
+    [ "Register", "d2/daf/a12174.html#ab1ee3baa1bd7341660bcc7a10978aff3", null ],
+    [ "Validate", "d2/daf/a12174.html#a931be0e5aa4b54e646a3ed3ade135423", null ]
 ];

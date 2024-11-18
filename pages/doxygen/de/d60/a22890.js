@@ -1,12 +1,9 @@
 var a22890 =
 [
-    [ "instance_serpentshrine_cavern_InstanceMapScript", "de/d60/a22890.html#a3e83985648f2951ee33d440c9c98bf72", null ],
-    [ "GetData", "de/d60/a22890.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
-    [ "Initialize", "de/d60/a22890.html#a8a2214e169acace8578c1863daf0a04c", null ],
-    [ "OnCreatureCreate", "de/d60/a22890.html#ae5f77169c337420852962fe7ddba3006", null ],
-    [ "OnGameObjectCreate", "de/d60/a22890.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
-    [ "SetBossState", "de/d60/a22890.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
-    [ "SetData", "de/d60/a22890.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
-    [ "_aliveKeepersCount", "de/d60/a22890.html#a85b7cbeab4149b0a379f27bdb459cfd7", null ],
-    [ "_shieldGeneratorGUID", "de/d60/a22890.html#a570b73c8ecd0e1ab6ac2889405be6ef0", null ]
+    [ "FilterTargets", "de/d60/a22890.html#a9049c113d65b15a9a8e1143980a84b23", null ],
+    [ "HandleDummy", "de/d60/a22890.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
+    [ "Load", "de/d60/a22890.html#a8cad82701e0147e14f826243175e1c32", null ],
+    [ "PrepareSpellScript", "de/d60/a22890.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
+    [ "Register", "de/d60/a22890.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
+    [ "_targetNumber", "de/d60/a22890.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
 ];

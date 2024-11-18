@@ -1,6 +1,6 @@
 var a23034 =
 [
-    [ "instance_steam_vault_InstanceMapScript", "dc/d6b/a23034.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
-    [ "OnGameObjectCreate", "dc/d6b/a23034.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
-    [ "SetBossState", "dc/d6b/a23034.html#ab1e344fbf169ee40f28741217f3dca14", null ]
+    [ "HandleAfterRemove", "dc/d6b/a23034.html#a74610b06095572aa2c898cd84e0fb229", null ],
+    [ "PrepareAuraScript", "dc/d6b/a23034.html#ac0d686490ff37810e0116dea4d0b6077", null ],
+    [ "Register", "dc/d6b/a23034.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
 ];

@@ -1,6 +1,7 @@
 var a13418 =
 [
-    [ "boss_akilzonAI", "d6/da6/a13422.html", "d6/da6/a13422" ],
-    [ "boss_akilzon", "d2/dd1/a13418.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
-    [ "GetAI", "d2/dd1/a13418.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
+    [ "npc_daphne_stilwellAI", "d6/da6/a13422.html", "d6/da6/a13422" ],
+    [ "npc_daphne_stilwell", "d2/dd1/a13418.html#ad844c5f0409936d7068ee55271506041", null ],
+    [ "GetAI", "d2/dd1/a13418.html#af1872100f3eeb14e894277cfc8e1a74b", null ],
+    [ "OnQuestAccept", "d2/dd1/a13418.html#ad7b293efc802506a825f202e34cb0f4d", null ]
 ];

@@ -1,7 +1,7 @@
 var a05786 =
 [
-    [ "UpdateException", "d5/d95/a05786.html#ace39ae1801ac7dcd055bcdce2411866e", null ],
-    [ "~UpdateException", "d5/d95/a05786.html#a38e016e210bf287d2adc21811497c95c", null ],
-    [ "what", "d5/d95/a05786.html#ab7bc552819bf9620dd670fb5a627b2dd", null ],
-    [ "_msg", "d5/d95/a05786.html#a7b4ba1e0d2829249afb2922f385016b3", null ]
+    [ "TransactionWithResultTask", "d5/d95/a05786.html#a98dfb255e7be9d5cf9ed9215b0d5e0e4", null ],
+    [ "Execute", "d5/d95/a05786.html#a2a05fb2aa69032797f2065cb46fe7dc4", null ],
+    [ "GetFuture", "d5/d95/a05786.html#a5bc976207b1d695c8e8c052b0eacc7a6", null ],
+    [ "m_result", "d5/d95/a05786.html#aaf4d587b83977e65089bdbf92fa09ae1", null ]
 ];

@@ -1,6 +1,6 @@
 var a16302 =
 [
-    [ "boss_trollgoreAI", "d7/dfc/a16306.html", "d7/dfc/a16306" ],
-    [ "boss_trollgore", "dd/da6/a16302.html#a95102f1fae6c667e0780b8b388fc156b", null ],
-    [ "GetAI", "dd/da6/a16302.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
+    [ "OnPeriodic", "dd/da6/a16302.html#ab71faf6fb2900e176aac245317113758", null ],
+    [ "PrepareAuraScript", "dd/da6/a16302.html#a5b4bf1fe2987cdebedaa2e7d048742d6", null ],
+    [ "Register", "dd/da6/a16302.html#a8b90810bfc5416cdfeac2f6a72c55d3e", null ]
 ];

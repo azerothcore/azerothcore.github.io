@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ObjectGuidTraits&lt; high &gt; Struct Template Reference</title>
+<title>AzerothCore: FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,69 +105,380 @@ $(document).ready(function(){initNavTree('dc/d06/a08166.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dd/d21/a08163.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ObjectGuidTraits&lt; high &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a77d72711ba9384384f9fd789f778e8c8"><td class="memItemLeft" align="right" valign="top">static bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a77d72711ba9384384f9fd789f778e8c8">Global</a> = false</td></tr>
-<tr class="separator:a77d72711ba9384384f9fd789f778e8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e5a0249b84d4e8175a4cb65480bbcf"><td class="memItemLeft" align="right" valign="top">static bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a42e5a0249b84d4e8175a4cb65480bbcf">MapSpecific</a> = false</td></tr>
-<tr class="separator:a42e5a0249b84d4e8175a4cb65480bbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0680f7b67001783f20d89989a49cbead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a0680f7b67001783f20d89989a49cbead">FlaggedValuesArray32</a> ()</td></tr>
+<tr class="separator:a0680f7b67001783f20d89989a49cbead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314a315eb1c1a76116fe3a31f7be9c68"><td class="memItemLeft" align="right" valign="top">T_FLAGS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a314a315eb1c1a76116fe3a31f7be9c68">GetFlags</a> () const</td></tr>
+<tr class="separator:a314a315eb1c1a76116fe3a31f7be9c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea5d977caef5152c71c515259a91f06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a0ea5d977caef5152c71c515259a91f06">HasFlag</a> (FLAG_TYPE flag) const</td></tr>
+<tr class="separator:a0ea5d977caef5152c71c515259a91f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a273ab3607b23881628eb0c5d6a4da288"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a273ab3607b23881628eb0c5d6a4da288">AddFlag</a> (FLAG_TYPE flag)</td></tr>
+<tr class="separator:a273ab3607b23881628eb0c5d6a4da288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a674b2a7b8d5874f7210372b3e92123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a3a674b2a7b8d5874f7210372b3e92123">DelFlag</a> (FLAG_TYPE flag)</td></tr>
+<tr class="separator:a3a674b2a7b8d5874f7210372b3e92123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e5949bc041f15449331aceb277e8c4"><td class="memItemLeft" align="right" valign="top">T_VALUES&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#a87e5949bc041f15449331aceb277e8c4">GetValue</a> (FLAG_TYPE flag) const</td></tr>
+<tr class="separator:a87e5949bc041f15449331aceb277e8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d385589befe52103f077723fa2463c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#ad0d385589befe52103f077723fa2463c">SetValue</a> (FLAG_TYPE flag, T_VALUES value)</td></tr>
+<tr class="separator:ad0d385589befe52103f077723fa2463c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacca1261b2a22525e5fd40e5f479aa06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#aacca1261b2a22525e5fd40e5f479aa06">AddValue</a> (FLAG_TYPE flag, T_VALUES value)</td></tr>
+<tr class="separator:aacca1261b2a22525e5fd40e5f479aa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aabd025f47ad522e574f603eb559500f0"><td class="memItemLeft" align="right" valign="top">T_VALUES&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">m_values</a> [ARRAY_SIZE]</td></tr>
+<tr class="separator:aabd025f47ad522e574f603eb559500f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab31b77efb46fa796275c36964eab91"><td class="memItemLeft" align="right" valign="top">T_FLAGS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a></td></tr>
+<tr class="separator:abab31b77efb46fa796275c36964eab91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> high&gt;<br />
-struct ObjectGuidTraits&lt; high &gt;</div></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a77d72711ba9384384f9fd789f778e8c8" name="a77d72711ba9384384f9fd789f778e8c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d72711ba9384384f9fd789f778e8c8">&#9670;&#160;</a></span>Global</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T_VALUES, class T_FLAGS, class FLAG_TYPE, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt;<br />
+class FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0680f7b67001783f20d89989a49cbead" name="a0680f7b67001783f20d89989a49cbead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0680f7b67001783f20d89989a49cbead">&#9670;&#160;</a></span>FlaggedValuesArray32()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> high&gt; </div>
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool const <a class="el" href="../../dc/d06/a08166.html">ObjectGuidTraits</a>&lt; high &gt;::Global = false</td>
+          <td class="memname"><a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;<a class="el" href="../../dc/d06/a08166.html">::FlaggedValuesArray32</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  361</span>    {</div>
+<div class="line"><span class="lineno">  362</span>        memset(&amp;<a class="code hl_variable" href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">m_values</a>, 0x00, <span class="keyword">sizeof</span>(T_VALUES) * ARRAY_SIZE);</div>
+<div class="line"><span class="lineno">  363</span>        <a class="code hl_variable" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a> = 0;</div>
+<div class="line"><span class="lineno">  364</span>    }</div>
+<div class="ttc" id="aa08166_html_aabd025f47ad522e574f603eb559500f0"><div class="ttname"><a href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">FlaggedValuesArray32::m_values</a></div><div class="ttdeci">T_VALUES m_values[ARRAY_SIZE]</div><div class="ttdef"><b>Definition:</b> Object.h:376</div></div>
+<div class="ttc" id="aa08166_html_abab31b77efb46fa796275c36964eab91"><div class="ttname"><a href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">FlaggedValuesArray32::m_flags</a></div><div class="ttdeci">T_FLAGS m_flags</div><div class="ttdef"><b>Definition:</b> Object.h:377</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</a>, and <a class="el" href="../../#l00376">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_values</a>.</p>
 
 </div>
 </div>
-<a id="a42e5a0249b84d4e8175a4cb65480bbcf" name="a42e5a0249b84d4e8175a4cb65480bbcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e5a0249b84d4e8175a4cb65480bbcf">&#9670;&#160;</a></span>MapSpecific</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a273ab3607b23881628eb0c5d6a4da288" name="a273ab3607b23881628eb0c5d6a4da288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a273ab3607b23881628eb0c5d6a4da288">&#9670;&#160;</a></span>AddFlag()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> high&gt; </div>
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool const <a class="el" href="../../dc/d06/a08166.html">ObjectGuidTraits</a>&lt; high &gt;::MapSpecific = false</td>
+          <td class="memname">void <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::AddFlag </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  368</span>{ <a class="code hl_variable" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a> |= (1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00254">GameObject::Create()</a>, <a class="el" href="../../#l00678">StaticTransport::Create()</a>, <a class="el" href="../../#l01549">AuraEffect::HandleModInvisibility()</a>, <a class="el" href="../../#l01524">AuraEffect::HandleModInvisibilityDetect()</a>, <a class="el" href="../../#l01641">AuraEffect::HandleModStealth()</a>, <a class="el" href="../../#l01616">AuraEffect::HandleModStealthDetect()</a>, and <a class="el" href="../../#l00997">Player::UpdateInvisibilityDrunkDetect()</a>.</p>
+
+</div>
+</div>
+<a id="aacca1261b2a22525e5fd40e5f479aa06" name="aacca1261b2a22525e5fd40e5f479aa06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacca1261b2a22525e5fd40e5f479aa06">&#9670;&#160;</a></span>AddValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::AddValue </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T_VALUES&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  373</span>{ <a class="code hl_variable" href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag] += value; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00376">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_values</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00254">GameObject::Create()</a>, <a class="el" href="../../#l00678">StaticTransport::Create()</a>, <a class="el" href="../../#l01549">AuraEffect::HandleModInvisibility()</a>, <a class="el" href="../../#l01524">AuraEffect::HandleModInvisibilityDetect()</a>, <a class="el" href="../../#l01641">AuraEffect::HandleModStealth()</a>, <a class="el" href="../../#l01616">AuraEffect::HandleModStealthDetect()</a>, and <a class="el" href="../../#l01690">AuraEffect::HandleModStealthLevel()</a>.</p>
+
+</div>
+</div>
+<a id="a3a674b2a7b8d5874f7210372b3e92123" name="a3a674b2a7b8d5874f7210372b3e92123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a674b2a7b8d5874f7210372b3e92123">&#9670;&#160;</a></span>DelFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::DelFlag </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  369</span>{ <a class="code hl_variable" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a> &amp;= ~(1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01549">AuraEffect::HandleModInvisibility()</a>, <a class="el" href="../../#l01524">AuraEffect::HandleModInvisibilityDetect()</a>, <a class="el" href="../../#l01641">AuraEffect::HandleModStealth()</a>, <a class="el" href="../../#l01616">AuraEffect::HandleModStealthDetect()</a>, and <a class="el" href="../../#l00997">Player::UpdateInvisibilityDrunkDetect()</a>.</p>
+
+</div>
+</div>
+<a id="a314a315eb1c1a76116fe3a31f7be9c68" name="a314a315eb1c1a76116fe3a31f7be9c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314a315eb1c1a76116fe3a31f7be9c68">&#9670;&#160;</a></span>GetFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T_FLAGS <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::GetFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  366</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01915">WorldObject::CanDetectInvisibilityOf()</a>, <a class="el" href="../../#l01978">WorldObject::CanDetectStealthOf()</a>, and <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>.</p>
+
+</div>
+</div>
+<a id="a87e5949bc041f15449331aceb277e8c4" name="a87e5949bc041f15449331aceb277e8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e5949bc041f15449331aceb277e8c4">&#9670;&#160;</a></span>GetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T_VALUES <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::GetValue </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  371</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag]; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00376">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_values</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01915">WorldObject::CanDetectInvisibilityOf()</a>, <a class="el" href="../../#l01978">WorldObject::CanDetectStealthOf()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, and <a class="el" href="../../#l01830">Unit::IsVisible()</a>.</p>
+
+</div>
+</div>
+<a id="a0ea5d977caef5152c71c515259a91f06" name="a0ea5d977caef5152c71c515259a91f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea5d977caef5152c71c515259a91f06">&#9670;&#160;</a></span>HasFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::HasFlag </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  367</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08166.html#abab31b77efb46fa796275c36964eab91">m_flags</a> &amp; (1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01549">AuraEffect::HandleModInvisibility()</a>.</p>
+
+</div>
+</div>
+<a id="ad0d385589befe52103f077723fa2463c" name="ad0d385589befe52103f077723fa2463c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d385589befe52103f077723fa2463c">&#9670;&#160;</a></span>SetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::SetValue </td>
+          <td>(</td>
+          <td class="paramtype">FLAG_TYPE&#160;</td>
+          <td class="paramname"><em>flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T_VALUES&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  372</span>{ <a class="code hl_variable" href="../../dc/d06/a08166.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag] = value; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00376">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_values</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01126">Creature::Create()</a>, <a class="el" href="../../#l01775">AuraEffect::HandleAuraGhost()</a>, <a class="el" href="../../#l02207">Player::SetGameMaster()</a>, <a class="el" href="../../#l02276">Player::SetGMVisible()</a>, <a class="el" href="../../#l16262">Player::SetServerSideVisibility()</a>, <a class="el" href="../../#l16269">Player::SetServerSideVisibilityDetect()</a>, <a class="el" href="../../#l14227">Unit::SetVisible()</a>, <a class="el" href="../../#l00203">Unit::Unit()</a>, <a class="el" href="../../#l00997">Player::UpdateInvisibilityDrunkDetect()</a>, and <a class="el" href="../../#l01050">WorldObject::WorldObject()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abab31b77efb46fa796275c36964eab91" name="abab31b77efb46fa796275c36964eab91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab31b77efb46fa796275c36964eab91">&#9670;&#160;</a></span>m_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T_FLAGS <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00368">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::AddFlag()</a>, <a class="el" href="../../#l00369">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::DelFlag()</a>, <a class="el" href="../../#l00360">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::FlaggedValuesArray32()</a>, <a class="el" href="../../#l00366">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::GetFlags()</a>, and <a class="el" href="../../#l00367">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::HasFlag()</a>.</p>
+
+</div>
+</div>
+<a id="aabd025f47ad522e574f603eb559500f0" name="aabd025f47ad522e574f603eb559500f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd025f47ad522e574f603eb559500f0">&#9670;&#160;</a></span>m_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T_VALUES <a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a>&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::m_values[ARRAY_SIZE]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00373">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::AddValue()</a>, <a class="el" href="../../#l00360">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::FlaggedValuesArray32()</a>, <a class="el" href="../../#l00371">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::GetValue()</a>, and <a class="el" href="../../#l00372">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;::SetValue()</a>.</p>
 
 </div>
 </div>
@@ -176,8 +487,8 @@ template&lt;<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053c
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d06/a08166.html">ObjectGuidTraits</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dc/d06/a08166.html">FlaggedValuesArray32</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

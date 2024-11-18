@@ -1,16 +1,10 @@
 var a09422 =
 [
-    [ "ServerMail", "d6/d42/a09422.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
-    [ "active", "d6/d42/a09422.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
-    [ "body", "d6/d42/a09422.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
-    [ "id", "d6/d42/a09422.html#a6b47994eff9201a6a75f8c621b64716c", null ],
-    [ "itemA", "d6/d42/a09422.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
-    [ "itemCountA", "d6/d42/a09422.html#abb24673f0b21f715f3e112e232cec35b", null ],
-    [ "itemCountH", "d6/d42/a09422.html#ac9b6e655136616b040788c55d80706da", null ],
-    [ "itemH", "d6/d42/a09422.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
-    [ "moneyA", "d6/d42/a09422.html#a6a84ca583beef891422f67bef7919c47", null ],
-    [ "moneyH", "d6/d42/a09422.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
-    [ "reqLevel", "d6/d42/a09422.html#a494ce9c800d1545b023b9ff526f8b994", null ],
-    [ "reqPlayTime", "d6/d42/a09422.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
-    [ "subject", "d6/d42/a09422.html#a246e499c69c57a436aac4c039ea37d31", null ]
+    [ "MailReceiver", "d6/d42/a09422.html#a6fba3ff0ab3167197f569631d766ce14", null ],
+    [ "MailReceiver", "d6/d42/a09422.html#af0b094a704463ed76b1c08bc3cab0380", null ],
+    [ "MailReceiver", "d6/d42/a09422.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
+    [ "GetPlayer", "d6/d42/a09422.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
+    [ "GetPlayerGUIDLow", "d6/d42/a09422.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
+    [ "m_receiver", "d6/d42/a09422.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
+    [ "m_receiver_lowguid", "d6/d42/a09422.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
 ];

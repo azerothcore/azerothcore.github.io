@@ -1,6 +1,7 @@
 var a21642 =
 [
-    [ "npc_your_inner_turmoilAI", "df/df0/a21646.html", "df/df0/a21646" ],
-    [ "npc_your_inner_turmoil", "d5/d2b/a21642.html#a72856ef469bb8f6ff4a89a16159479af", null ],
-    [ "GetAI", "d5/d2b/a21642.html#a29c8f76b072e891face1225770688ca6", null ]
+    [ "HandleScript", "d5/d2b/a21642.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "d5/d2b/a21642.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "d5/d2b/a21642.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "d5/d2b/a21642.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

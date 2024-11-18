@@ -1,6 +1,7 @@
 var a19066 =
 [
-    [ "HandleDamageCalc", "db/d43/a19066.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
-    [ "PrepareSpellScript", "db/d43/a19066.html#a754da297cd5801616e24bf2d802d0b38", null ],
-    [ "Register", "db/d43/a19066.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
+    [ "HandleProc", "db/d43/a19066.html#adb7714eca4c317ab76db0ecbc813669e", null ],
+    [ "PrepareAuraScript", "db/d43/a19066.html#a70f2c5c4656abb4798ad39b015fc2a9a", null ],
+    [ "Register", "db/d43/a19066.html#a445ce7331c36e507aa24466ff9a67781", null ],
+    [ "Validate", "db/d43/a19066.html#ad0e44f34d7bd1671ef7dcc2165abaa66", null ]
 ];

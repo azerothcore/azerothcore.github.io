@@ -1,9 +1,6 @@
 var a18386 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "d7/df4/a18386.html#a91868021309239f5582bb7ee89baec13", null ],
-    [ "AttackStart", "d7/df4/a18386.html#acf8d1eaebdc68cb53866155d8aad6e48", null ],
-    [ "JustEngagedWith", "d7/df4/a18386.html#a12927240144022174e3d190be6b34976", null ],
-    [ "Reset", "d7/df4/a18386.html#ac925b84b81ec1d1e118f3e62edfbdd15", null ],
-    [ "UpdateAI", "d7/df4/a18386.html#a969a36e147006971a93711349f90c193", null ],
-    [ "events", "d7/df4/a18386.html#a8521aef674b9a295c27f7e5725af4ffe", null ]
+    [ "npc_icc_skybreaker_vicarAI", "de/d9a/a18390.html", "de/d9a/a18390" ],
+    [ "npc_icc_skybreaker_vicar", "d7/df4/a18386.html#a40451cc6fba0cae59e47fa38e4fb79d3", null ],
+    [ "GetAI", "d7/df4/a18386.html#a6884bb7e54b78abee0cc995c4fbb501d", null ]
 ];

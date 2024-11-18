@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/BattlegroundScore.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/DataStores/M2Stores.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,138 +106,166 @@ $(document).ready(function(){initNavTree('d4/df9/a03701.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">BattlegroundScore.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">M2Stores.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Position.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2f/a07094.html">BattlegroundScore</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aa5c51730b458b3ddc7b23ce42f320f18"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18">ScoreType</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046">SCORE_KILLING_BLOWS</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412">SCORE_DEATHS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7">SCORE_HONORABLE_KILLS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f">SCORE_BONUS_HONOR</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527">SCORE_DAMAGE_DONE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2">SCORE_HEALING_DONE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b">SCORE_FLAG_CAPTURES</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a">SCORE_FLAG_RETURNS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1">SCORE_BASES_ASSAULTED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408">SCORE_BASES_DEFENDED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b">SCORE_GRAVEYARDS_ASSAULTED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a">SCORE_GRAVEYARDS_DEFENDED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027">SCORE_TOWERS_ASSAULTED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a">SCORE_TOWERS_DEFENDED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015">SCORE_MINES_CAPTURED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e">SCORE_DESTROYED_DEMOLISHER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80">SCORE_DESTROYED_WALL</a>
-<br />
- }</td></tr>
-<tr class="separator:aa5c51730b458b3ddc7b23ce42f320f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9971ebb80eba223b5767bcfa8f713267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df9/a03701.html#a9971ebb80eba223b5767bcfa8f713267">LoadM2Cameras</a> (std::string const &amp;dataPath)</td></tr>
+<tr class="separator:a9971ebb80eba223b5767bcfa8f713267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8079cfd87f117ce26e31f3da14e63cf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> std::vector&lt; <a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a> &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df9/a03701.html#a8079cfd87f117ce26e31f3da14e63cf9">GetFlyByCameras</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cinematicCameraId)</td></tr>
+<tr class="separator:a8079cfd87f117ce26e31f3da14e63cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aa5c51730b458b3ddc7b23ce42f320f18" name="aa5c51730b458b3ddc7b23ce42f320f18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5c51730b458b3ddc7b23ce42f320f18">&#9670;&#160;</a></span>ScoreType</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8079cfd87f117ce26e31f3da14e63cf9" name="a8079cfd87f117ce26e31f3da14e63cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8079cfd87f117ce26e31f3da14e63cf9">&#9670;&#160;</a></span>GetFlyByCameras()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18">ScoreType</a></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> std::vector&lt; <a class="el" href="../../d7/df8/a07658.html">FlyByCamera</a> &gt; const  * GetFlyByCameras </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>cinematicCameraId</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046" name="aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046"></a>SCORE_KILLING_BLOWS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412" name="aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412"></a>SCORE_DEATHS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7" name="aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7"></a>SCORE_HONORABLE_KILLS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f" name="aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f"></a>SCORE_BONUS_HONOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527" name="aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527"></a>SCORE_DAMAGE_DONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2" name="aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2"></a>SCORE_HEALING_DONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b" name="aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b"></a>SCORE_FLAG_CAPTURES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a" name="aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a"></a>SCORE_FLAG_RETURNS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1" name="aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1"></a>SCORE_BASES_ASSAULTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408" name="aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408"></a>SCORE_BASES_DEFENDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b" name="aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b"></a>SCORE_GRAVEYARDS_ASSAULTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a" name="aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a"></a>SCORE_GRAVEYARDS_DEFENDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027" name="aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027"></a>SCORE_TOWERS_ASSAULTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a" name="aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a"></a>SCORE_TOWERS_DEFENDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015" name="aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015"></a>SCORE_MINES_CAPTURED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e" name="aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e"></a>SCORE_DESTROYED_DEMOLISHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80" name="aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80"></a>SCORE_DESTROYED_WALL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046">SCORE_KILLING_BLOWS</a> = 1,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412">SCORE_DEATHS</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7">SCORE_HONORABLE_KILLS</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f">SCORE_BONUS_HONOR</a>,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527">SCORE_DAMAGE_DONE</a>,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2">SCORE_HEALING_DONE</a>,</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="comment">// WS and EY</span></div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b">SCORE_FLAG_CAPTURES</a>,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a">SCORE_FLAG_RETURNS</a>,</div>
-<div class="line"><span class="lineno">   38</span> </div>
-<div class="line"><span class="lineno">   39</span>    <span class="comment">// AB and IC</span></div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1">SCORE_BASES_ASSAULTED</a>,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408">SCORE_BASES_DEFENDED</a>,</div>
-<div class="line"><span class="lineno">   42</span> </div>
-<div class="line"><span class="lineno">   43</span>    <span class="comment">// AV</span></div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b">SCORE_GRAVEYARDS_ASSAULTED</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a">SCORE_GRAVEYARDS_DEFENDED</a>,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027">SCORE_TOWERS_ASSAULTED</a>,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a">SCORE_TOWERS_DEFENDED</a>,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015">SCORE_MINES_CAPTURED</a>,</div>
-<div class="line"><span class="lineno">   49</span>    <span class="comment">//SCORE_LEADERS_KILLED,</span></div>
-<div class="line"><span class="lineno">   50</span>    <span class="comment">//SCORE_SECONDARY_OBJECTIVES,</span></div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>    <span class="comment">// SOTA</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e">SCORE_DESTROYED_DEMOLISHER</a>,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80">SCORE_DESTROYED_WALL</a></div>
-<div class="line"><span class="lineno">   55</span>};</div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1">SCORE_BASES_ASSAULTED</a></div><div class="ttdeci">@ SCORE_BASES_ASSAULTED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:40</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b">SCORE_GRAVEYARDS_ASSAULTED</a></div><div class="ttdeci">@ SCORE_GRAVEYARDS_ASSAULTED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:44</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046">SCORE_KILLING_BLOWS</a></div><div class="ttdeci">@ SCORE_KILLING_BLOWS</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:28</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a">SCORE_TOWERS_DEFENDED</a></div><div class="ttdeci">@ SCORE_TOWERS_DEFENDED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:47</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f">SCORE_BONUS_HONOR</a></div><div class="ttdeci">@ SCORE_BONUS_HONOR</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:31</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b">SCORE_FLAG_CAPTURES</a></div><div class="ttdeci">@ SCORE_FLAG_CAPTURES</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:36</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412">SCORE_DEATHS</a></div><div class="ttdeci">@ SCORE_DEATHS</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:29</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027">SCORE_TOWERS_ASSAULTED</a></div><div class="ttdeci">@ SCORE_TOWERS_ASSAULTED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:46</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015">SCORE_MINES_CAPTURED</a></div><div class="ttdeci">@ SCORE_MINES_CAPTURED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:48</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527">SCORE_DAMAGE_DONE</a></div><div class="ttdeci">@ SCORE_DAMAGE_DONE</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:32</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80">SCORE_DESTROYED_WALL</a></div><div class="ttdeci">@ SCORE_DESTROYED_WALL</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:54</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e">SCORE_DESTROYED_DEMOLISHER</a></div><div class="ttdeci">@ SCORE_DESTROYED_DEMOLISHER</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:53</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408">SCORE_BASES_DEFENDED</a></div><div class="ttdeci">@ SCORE_BASES_DEFENDED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:41</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2">SCORE_HEALING_DONE</a></div><div class="ttdeci">@ SCORE_HEALING_DONE</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:33</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a">SCORE_GRAVEYARDS_DEFENDED</a></div><div class="ttdeci">@ SCORE_GRAVEYARDS_DEFENDED</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:45</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7">SCORE_HONORABLE_KILLS</a></div><div class="ttdeci">@ SCORE_HONORABLE_KILLS</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:30</div></div>
-<div class="ttc" id="aa03701_html_aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a"><div class="ttname"><a href="../../d4/df9/a03701.html#aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a">SCORE_FLAG_RETURNS</a></div><div class="ttdeci">@ SCORE_FLAG_RETURNS</div><div class="ttdef"><b>Definition:</b> BattlegroundScore.h:37</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
+<div class="line"><span class="lineno">  256</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d3a/a04705.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a>(<a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>, cinematicCameraId);</div>
+<div class="line"><span class="lineno">  257</span>}</div>
+<div class="ttc" id="aa03707_html_a4acfeb7e23e1d3a74b66a1c54084e7bc"><div class="ttname"><a href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a></div><div class="ttdeci">std::unordered_map&lt; uint32, FlyByCameraCollection &gt; sFlyByCameraStore</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:28</div></div>
+<div class="ttc" id="aa04705_html_a288324cfca487d8ecc2eab8a6014c513"><div class="ttname"><a href="../../d7/d3a/a04705.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a></div><div class="ttdeci">auto MapGetValuePtr(M &amp;map, typename M::key_type const &amp;key) -&gt; decltype(AddressOrSelf(map.find(key) -&gt;second))</div><div class="ttdef"><b>Definition:</b> Containers.h:206</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00206">Acore::Containers::MapGetValuePtr()</a>, and <a class="el" href="../../#l00028">sFlyByCameraStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00041">CinematicMgr::BeginCinematic()</a>, and <a class="el" href="../../#l00118">debug_commandscript::HandleDebugPlayCinematicCommand()</a>.</p>
+
+</div>
+</div>
+<a id="a9971ebb80eba223b5767bcfa8f713267" name="a9971ebb80eba223b5767bcfa8f713267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9971ebb80eba223b5767bcfa8f713267">&#9670;&#160;</a></span>LoadM2Cameras()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void LoadM2Cameras </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>dataPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  174</span>{</div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>.clear();</div>
+<div class="line"><span class="lineno">  176</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loading Cinematic Camera files&quot;</span>);</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../d4/d2f/a27674.html">CinematicCameraEntry</a> <span class="keyword">const</span>* dbcentry : <a class="code hl_variable" href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a>)</div>
+<div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>        std::string filenameWork = dataPath;</div>
+<div class="line"><span class="lineno">  182</span>        filenameWork.append(dbcentry-&gt;Model);</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>        <span class="comment">// Replace slashes (always to forward slash, because boost!)</span></div>
+<div class="line"><span class="lineno">  185</span>        std::replace(filenameWork.begin(), filenameWork.end(), <span class="charliteral">&#39;\\&#39;</span>, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        boost::filesystem::path filename = filenameWork;</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>        <span class="comment">// Convert to native format</span></div>
+<div class="line"><span class="lineno">  190</span>        filename.make_preferred();</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        <span class="comment">// Replace mdx to .m2</span></div>
+<div class="line"><span class="lineno">  193</span>        filename.replace_extension(<span class="stringliteral">&quot;m2&quot;</span>);</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>        std::ifstream m2file(filename.string().c_str(), std::ios::in | std::ios::binary);</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">if</span> (!m2file.is_open())</div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>        <span class="comment">// Get file size</span></div>
+<div class="line"><span class="lineno">  200</span>        m2file.seekg(0, std::ios::end);</div>
+<div class="line"><span class="lineno">  201</span>        std::streamoff fileSize = m2file.tellg();</div>
+<div class="line"><span class="lineno">  202</span> </div>
+<div class="line"><span class="lineno">  203</span>        <span class="comment">// Reject if not at least the size of the header</span></div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">if</span> (<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(fileSize) &lt; <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a>))</div>
+<div class="line"><span class="lineno">  205</span>        {</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. File is smaller than header size&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  207</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  208</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  209</span>        }</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="comment">// Read 4 bytes (signature)</span></div>
+<div class="line"><span class="lineno">  212</span>        m2file.seekg(0, std::ios::beg);</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordtype">char</span> fileCheck[5];</div>
+<div class="line"><span class="lineno">  214</span>        m2file.read(fileCheck, 4);</div>
+<div class="line"><span class="lineno">  215</span>        fileCheck[4] = 0;</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>        <span class="comment">// Check file has correct magic (MD20)</span></div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (strcmp(fileCheck, <span class="stringliteral">&quot;MD20&quot;</span>))</div>
+<div class="line"><span class="lineno">  219</span>        {</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. File identifier not found&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  221</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  222</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>        <span class="comment">// Now we have a good file, read it all into a vector of char&#39;s, then close the file.</span></div>
+<div class="line"><span class="lineno">  226</span>        std::vector&lt;char&gt; buffer(fileSize);</div>
+<div class="line"><span class="lineno">  227</span>        m2file.seekg(0, std::ios::beg);</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">if</span> (!m2file.read(buffer.data(), fileSize))</div>
+<div class="line"><span class="lineno">  229</span>        {</div>
+<div class="line"><span class="lineno">  230</span>            m2file.close();</div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  232</span>        }</div>
+<div class="line"><span class="lineno">  233</span>        m2file.close();</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>        <span class="comment">// Read header</span></div>
+<div class="line"><span class="lineno">  236</span>        <a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a> <span class="keyword">const</span>* header = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../df/d9b/a07666.html">M2Header</a> const*<span class="keyword">&gt;</span>(buffer.data());</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (header-&gt;<a class="code hl_variable" href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">ofsCameras</a> + <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a>) &gt; <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(fileSize))</div>
+<div class="line"><span class="lineno">  239</span>        {</div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. Camera references position beyond file end&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>        <span class="comment">// Get camera(s) - Main header, then dump them.</span></div>
+<div class="line"><span class="lineno">  245</span>        <a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a> <span class="keyword">const</span>* cam = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../db/def/a07678.html">M2Camera</a> const*<span class="keyword">&gt;</span>(buffer.data() + header-&gt;<a class="code hl_variable" href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">ofsCameras</a>);</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d1/d00/a03707.html#ad7c17022a3ffed42c9d4995f5f6bb7ac">readCamera</a>(cam, fileSize, header, dbcentry))</div>
+<div class="line"><span class="lineno">  247</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Camera file {} is damaged. Camera references position beyond file end&quot;</span>, filename.string());</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Cinematic Waypoint Sets in {} ms&quot;</span>, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_variable" href="../../d1/d00/a03707.html#a4acfeb7e23e1d3a74b66a1c54084e7bc">sFlyByCameraStore</a>.size(), <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  251</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  252</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03704_html_ae519249aa03c4d660b48646b11695c3a"><div class="ttname"><a href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a></div><div class="ttdeci">DBCStorage&lt; CinematicCameraEntry &gt; sCinematicCameraStore(CinematicCameraEntryfmt)</div></div>
+<div class="ttc" id="aa03707_html_ad7c17022a3ffed42c9d4995f5f6bb7ac"><div class="ttname"><a href="../../d1/d00/a03707.html#ad7c17022a3ffed42c9d4995f5f6bb7ac">readCamera</a></div><div class="ttdeci">bool readCamera(M2Camera const *cam, uint32 buffSize, M2Header const *header, CinematicCameraEntry const *dbcentry)</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:50</div></div>
+<div class="ttc" id="aa07666_html"><div class="ttname"><a href="../../df/d9b/a07666.html">M2Header</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:35</div></div>
+<div class="ttc" id="aa07666_html_aba0c84ae340e0c10b57c28f1f213b1f1"><div class="ttname"><a href="../../df/d9b/a07666.html#aba0c84ae340e0c10b57c28f1f213b1f1">M2Header::ofsCameras</a></div><div class="ttdeci">uint32 ofsCameras</div><div class="ttdef"><b>Definition:</b> M2Structure.h:95</div></div>
+<div class="ttc" id="aa07678_html"><div class="ttname"><a href="../../db/def/a07678.html">M2Camera</a></div><div class="ttdef"><b>Definition:</b> M2Structure.h:120</div></div>
+<div class="ttc" id="aa27674_html"><div class="ttname"><a href="../../d4/d2f/a27674.html">CinematicCameraEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:703</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00095">M2Header::ofsCameras</a>, <a class="el" href="../../#l00050">readCamera()</a>, <a class="el" href="../../d7/da2/a03704.html#ae519249aa03c4d660b48646b11695c3a">sCinematicCameraStore</a>, and <a class="el" href="../../#l00028">sFlyByCameraStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01495">World::SetInitialWorldSettings()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -245,8 +273,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d4/df9/a03701.html">BattlegroundScore.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_cf66c9a7c0140de46c47cc8282fbae4a.html">DataStores</a></li><li class="navelem"><a class="el" href="../../d4/df9/a03701.html">M2Stores.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

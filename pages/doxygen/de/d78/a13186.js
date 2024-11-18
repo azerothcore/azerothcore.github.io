@@ -1,11 +1,21 @@
 var a13186 =
 [
-    [ "npc_supervisor_raelen", "de/d78/a13186.html#a2059d41f6df3a44406ab69a0dca501a4", null ],
-    [ "CallPeasent", "de/d78/a13186.html#a0b8d661a86ec334adeb502d6936135ee", null ],
-    [ "Reset", "de/d78/a13186.html#a656029c56da84d2d3cee7380d6032e3d", null ],
-    [ "SetData", "de/d78/a13186.html#ab709a5a975c22556dfe71dce52a3ec2c", null ],
-    [ "UpdateAI", "de/d78/a13186.html#a623a95d4f3ca483d1bf3dff5e06c1958", null ],
-    [ "_events", "de/d78/a13186.html#a1ed36b07ff83a6a8a202f4a451d90190", null ],
-    [ "_PeasentId", "de/d78/a13186.html#ae3e44b8f29f05c771137c5b9afd5da56", null ],
-    [ "peasentGUIDs", "de/d78/a13186.html#a6e290a29c8205b22bd668f0516e8904a", null ]
+    [ "npc_eris_hevenfireAI", "de/d78/a13186.html#a07d91015d64f5d6ac5b78a6082e0280d", null ],
+    [ "CanBeSeen", "de/d78/a13186.html#a16293cab0ff15d13675dcadc3050365f", null ],
+    [ "DoAction", "de/d78/a13186.html#a982f2efef39ac47d2df6579676b25862", null ],
+    [ "JustSummoned", "de/d78/a13186.html#a21f91de064bec6943aae5d710e6ec485", null ],
+    [ "Reset", "de/d78/a13186.html#a0b328182914ca26786808b6fd2491619", null ],
+    [ "SetData", "de/d78/a13186.html#a8c012a9c083921770980fb8c037d6ccc", null ],
+    [ "SetGUID", "de/d78/a13186.html#ac637ff6ea69427f8120be1cf5bf353e3", null ],
+    [ "SummonArchers", "de/d78/a13186.html#aa415baa9bff7c93c57f327b661689ac3", null ],
+    [ "SummonPeasants", "de/d78/a13186.html#ab5a69679bad85ed42b2f408231781da9", null ],
+    [ "UpdateAI", "de/d78/a13186.html#a3f3da888c1076f4f728157f7ba9edf1c", null ],
+    [ "_counter", "de/d78/a13186.html#aa5f1374bbf98a613db266994b6640031", null ],
+    [ "_deathCount", "de/d78/a13186.html#a258d870137c02dd74ff23b94cb3f90d1", null ],
+    [ "_faction", "de/d78/a13186.html#a2b11d54ff39f568cf26845251a38a612", null ],
+    [ "_playerGUID", "de/d78/a13186.html#a8ba92ce2b32b70e1275f551871d640fe", null ],
+    [ "_savedCount", "de/d78/a13186.html#aef83dfb3c6c737af77b63b650fdf5749", null ],
+    [ "_spoken", "de/d78/a13186.html#abe9dbd5111b73ac6c7bf336da98d06d1", null ],
+    [ "events", "de/d78/a13186.html#a62dee89eca10f43af3051800e4a69c74", null ],
+    [ "summons", "de/d78/a13186.html#a8d30f6f513ee7e195dbef56071f136fc", null ]
 ];

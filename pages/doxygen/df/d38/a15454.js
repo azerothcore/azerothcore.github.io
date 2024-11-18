@@ -1,6 +1,19 @@
 var a15454 =
 [
-    [ "instance_ahnkahet_InstanceScript", "d5/d33/a15458.html", "d5/d33/a15458" ],
-    [ "instance_ahnkahet", "df/d38/a15454.html#afbe11bc040019231878cf31cc357830b", null ],
-    [ "GetInstanceScript", "df/d38/a15454.html#a8847099c88f11de363c45e27998f10b7", null ]
+    [ "boss_taldaram", "df/d38/a15454.html#a6438d3534aca5e4a92afb3e6c6e24f73", null ],
+    [ "DamageTaken", "df/d38/a15454.html#a44d94f39e23720810acb40550f1c178a", null ],
+    [ "DoAction", "df/d38/a15454.html#aee1cf0553e8c7ebebea4a83f2d7e6d5d", null ],
+    [ "InitializeAI", "df/d38/a15454.html#a3d5b4628d6fb2db91ed073b042eefdc4", null ],
+    [ "JustDied", "df/d38/a15454.html#a4b6c0f51fd3a2a8c00ef095eeeea785d", null ],
+    [ "JustEngagedWith", "df/d38/a15454.html#a07e1cb5b53906f92a1f485340aa004e5", null ],
+    [ "JustSummoned", "df/d38/a15454.html#a5ae9201a71fa665908f924647b262825", null ],
+    [ "KilledUnit", "df/d38/a15454.html#a8fe516a08547ec03e8114b07e9c87d1f", null ],
+    [ "MovementInform", "df/d38/a15454.html#a17ca98f742a06b1496b2216e984811d8", null ],
+    [ "Reset", "df/d38/a15454.html#ae26fec572206d2f1f9acc229ee797496", null ],
+    [ "ScheduleCombatEvents", "df/d38/a15454.html#a247e5357fcdf8da8e00bef09f3568ca3", null ],
+    [ "SpellHitTarget", "df/d38/a15454.html#a0f228ea10a538a9ecf70b9f54d399150", null ],
+    [ "UpdateAI", "df/d38/a15454.html#a8ae18c5fd1c5df67edaf1921b5504ce1", null ],
+    [ "vanishDamage", "df/d38/a15454.html#a85d8c95320e6f1f486a39043218f0350", null ],
+    [ "vanishTarget_GUID", "df/d38/a15454.html#a211707b3e9476a22be011567882f018a", null ],
+    [ "victimSperePos", "df/d38/a15454.html#a06efb376b0d08207a0efce74770f21dc", null ]
 ];

@@ -1,7 +1,6 @@
 var a19602 =
 [
-    [ "OnPeriodic", "dd/dad/a19602.html#a9407d5477a40e36863e5fb5775dda122", null ],
-    [ "PrepareAuraScript", "dd/dad/a19602.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
-    [ "Register", "dd/dad/a19602.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
-    [ "Validate", "dd/dad/a19602.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
+    [ "HandleScript", "dd/dad/a19602.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
+    [ "PrepareSpellScript", "dd/dad/a19602.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
+    [ "Register", "dd/dad/a19602.html#a04a5b3a4f768200d74f4641508633d35", null ]
 ];

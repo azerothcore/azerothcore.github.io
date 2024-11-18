@@ -1,6 +1,5 @@
 var a21378 =
 [
-    [ "npc_future_youAI", "d1/de0/a21382.html", "d1/de0/a21382" ],
-    [ "npc_future_you", "d2/d3b/a21378.html#a36e363156bcb32fee468989062817bd5", null ],
-    [ "GetAI", "d2/d3b/a21378.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
+    [ "go_the_pearl_of_the_depths", "d2/d3b/a21378.html#a0e09ddcde0eef050400d90e9a268823a", null ],
+    [ "OnGossipHello", "d2/d3b/a21378.html#a745ea14136a78759a3afd7714c6d784a", null ]
 ];

@@ -1,6 +1,8 @@
 var a08530 =
 [
-    [ "BuildValuesCachedBuffer", "de/d71/a08530.html#a87a3167ae060c8556700e4a137294053", null ],
-    [ "buffer", "de/d71/a08530.html#add7150533a48434b0e606add9cff04d2", null ],
-    [ "posPointers", "de/d71/a08530.html#affa098684782f15383a7df063b178cf1", null ]
+    [ "RedirectSpellEvent", "de/d71/a08530.html#a77d243d64c2fc651d71c42e10a315161", null ],
+    [ "Execute", "de/d71/a08530.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
+    [ "_auraEffect", "de/d71/a08530.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
+    [ "_auraOwnerGUID", "de/d71/a08530.html#a1b3fb598748362379fef15b3172d8e2b", null ],
+    [ "_self", "de/d71/a08530.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
 ];

@@ -1,4 +1,4 @@
 var a00236 =
 [
-    [ "Acore::SignalHandler", "d5/d84/a05394.html", "d5/d84/a05394" ]
+    [ "RefMgr< TO, FROM >", "d9/dcb/a05154.html", "d9/dcb/a05154" ]
 ];

@@ -1,7 +1,8 @@
 var a19342 =
 [
-    [ "HandleDummyEffect", "df/d41/a19342.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
-    [ "PrepareSpellScript", "df/d41/a19342.html#a84a4f52928873e58b1fc49e783c5083a", null ],
-    [ "Register", "df/d41/a19342.html#a90c00bcb1768d696addab407425e406a", null ],
-    [ "SelectTarget", "df/d41/a19342.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
+    [ "HandlePeriodic", "df/d41/a19342.html#a2724a85983561a14db8b06ae492ead55", null ],
+    [ "OnRemove", "df/d41/a19342.html#a6d0f941f30d8c850e48396fffd13768d", null ],
+    [ "PrepareAuraScript", "df/d41/a19342.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
+    [ "Register", "df/d41/a19342.html#a85270947972be9c299a642b31969ef68", null ],
+    [ "Validate", "df/d41/a19342.html#a91ebb4e69d02deb5129965f543c474d1", null ]
 ];

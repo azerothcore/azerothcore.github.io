@@ -1,5 +1,6 @@
 var a10358 =
 [
-    [ "GuildDelete", "d5/d3b/a10358.html#a86733335c7b60d5b9eb8616692da3a7f", null ],
-    [ "Read", "d5/d3b/a10358.html#ae5ca379b187902323638f4c10be0a4d0", null ]
+    [ "GuildAddRank", "d5/d3b/a10358.html#a59c75f3e40e57b5e64f6fa9753a7e0b9", null ],
+    [ "Read", "d5/d3b/a10358.html#a23636e4b8bd37ea85a282fb1630a969e", null ],
+    [ "Name", "d5/d3b/a10358.html#a25969282befa638dfb08cf12f14bce53", null ]
 ];

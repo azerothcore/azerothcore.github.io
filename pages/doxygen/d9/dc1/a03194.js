@@ -1,4 +1,4 @@
 var a03194 =
 [
-    [ "ScriptRegistry< PetScript >", "d9/dc1/a03194.html#a24e9b0a598349bf70ac6cf5aa4e30043", null ]
+    [ "AddSC_LFGScripts", "d9/dc1/a03194.html#a9624b9328e26a9f420a4a3f07e253763", null ]
 ];

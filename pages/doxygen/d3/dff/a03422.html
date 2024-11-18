@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/ScriptedAI/ScriptedEscortAI.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Vehicle/Vehicle.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,97 +104,28 @@ $(document).ready(function(){initNavTree('d3/dff/a03422.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">ScriptedEscortAI.h File Reference</div></div>
+  <div class="headertitle"><div class="title">Vehicle.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptSystem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlefieldWG.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2f/a06122.html">Escort_Waypoint</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1e/a06126.html">npc_escortAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ad23dc39ce2da634e67360fab90e3b9e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dff/a03422.html#ad23dc39ce2da634e67360fab90e3b9e2">DEFAULT_MAX_PLAYER_DISTANCE</a>&#160;&#160;&#160;100</td></tr>
-<tr class="separator:ad23dc39ce2da634e67360fab90e3b9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:af40ca4990501264cb0359ab6d93fb08a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08a">eEscortState</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a> = 0x000
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a> = 0x001
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a> = 0x002
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a> = 0x004
-<br />
- }</td></tr>
-<tr class="separator:af40ca4990501264cb0359ab6d93fb08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad23dc39ce2da634e67360fab90e3b9e2" name="ad23dc39ce2da634e67360fab90e3b9e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad23dc39ce2da634e67360fab90e3b9e2">&#9670;&#160;</a></span>DEFAULT_MAX_PLAYER_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_MAX_PLAYER_DISTANCE&#160;&#160;&#160;100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="af40ca4990501264cb0359ab6d93fb08a" name="af40ca4990501264cb0359ab6d93fb08a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af40ca4990501264cb0359ab6d93fb08a">&#9670;&#160;</a></span>eEscortState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08a">eEscortState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5" name="af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5"></a>STATE_ESCORT_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92" name="af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92"></a>STATE_ESCORT_ESCORTING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48" name="af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48"></a>STATE_ESCORT_RETURNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6" name="af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6"></a>STATE_ESCORT_PAUSED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a>       = 0x000,                        <span class="comment">//nothing in progress</span></div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a>  = 0x001,                        <span class="comment">//escort are in progress</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a>  = 0x002,                        <span class="comment">//escort is returning after being in combat</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a>     = 0x004                         <span class="comment">//will not proceed with waypoints before state is removed</span></div>
-<div class="line"><span class="lineno">   50</span>};</div>
-<div class="ttc" id="aa03422_html_af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6"><div class="ttname"><a href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6">STATE_ESCORT_PAUSED</a></div><div class="ttdeci">@ STATE_ESCORT_PAUSED</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:49</div></div>
-<div class="ttc" id="aa03422_html_af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92"><div class="ttname"><a href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92">STATE_ESCORT_ESCORTING</a></div><div class="ttdeci">@ STATE_ESCORT_ESCORTING</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:47</div></div>
-<div class="ttc" id="aa03422_html_af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5"><div class="ttname"><a href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5">STATE_ESCORT_NONE</a></div><div class="ttdeci">@ STATE_ESCORT_NONE</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:46</div></div>
-<div class="ttc" id="aa03422_html_af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48"><div class="ttname"><a href="../../d3/dff/a03422.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48">STATE_ESCORT_RETURNING</a></div><div class="ttdeci">@ STATE_ESCORT_RETURNING</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:48</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1f3214457037742cde290c7511bc5bd6.html">ScriptedAI</a></li><li class="navelem"><a class="el" href="../../d3/dff/a03422.html">ScriptedEscortAI.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7668c9a7a4fe0af4092e9bdba7b199c4.html">Vehicle</a></li><li class="navelem"><a class="el" href="../../d3/dff/a03422.html">Vehicle.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var a00314 =
 [
-    [ "Acore::Encoding::Base32", "d4/d56/a05206.html", "d4/d56/a05206" ]
+    [ "Optional", "d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82", null ]
 ];

@@ -1,6 +1,6 @@
 var a13234 =
 [
-    [ "OnEffect", "d5/d8c/a13234.html#a41903586310ec274dd10537ccb8655f3", null ],
-    [ "PrepareSpellScript", "d5/d8c/a13234.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
-    [ "Register", "d5/d8c/a13234.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
+    [ "x", "d5/d8c/a13234.html#afeb59642abc7d5114668b2c27e315228", null ],
+    [ "y", "d5/d8c/a13234.html#a3e2454dd579de689289003a343e7f29c", null ],
+    [ "z", "d5/d8c/a13234.html#a4fbcf991d732545b4f9c19689ff9d805", null ]
 ];

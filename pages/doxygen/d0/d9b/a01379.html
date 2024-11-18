@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Pet/pets_script_loader.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_cast.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,251 +105,52 @@ $(document).ready(function(){initNavTree('d0/d9b/a01379.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">pets_script_loader.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">cs_cast.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+</div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d02/a11310.html">cast_commandscript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac6a5b089240cd6b996928b3e7f9137b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#ac6a5b089240cd6b996928b3e7f9137b3">AddSC_deathknight_pet_scripts</a> ()</td></tr>
-<tr class="separator:ac6a5b089240cd6b996928b3e7f9137b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9852812a043673e45884dca938eff157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#a9852812a043673e45884dca938eff157">AddSC_generic_pet_scripts</a> ()</td></tr>
-<tr class="separator:a9852812a043673e45884dca938eff157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab89117a79c55f003f82b06a1878e6534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#ab89117a79c55f003f82b06a1878e6534">AddSC_hunter_pet_scripts</a> ()</td></tr>
-<tr class="separator:ab89117a79c55f003f82b06a1878e6534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a689a4efb7777f4164aee994745a0e2d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#a689a4efb7777f4164aee994745a0e2d2">AddSC_mage_pet_scripts</a> ()</td></tr>
-<tr class="separator:a689a4efb7777f4164aee994745a0e2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0eaa77dc1cb9a092b318e3bc3f6d5b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">AddSC_priest_pet_scripts</a> ()</td></tr>
-<tr class="separator:ac0eaa77dc1cb9a092b318e3bc3f6d5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07e634ed761985e07d5c0e10f329231"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#ab07e634ed761985e07d5c0e10f329231">AddSC_shaman_pet_scripts</a> ()</td></tr>
-<tr class="separator:ab07e634ed761985e07d5c0e10f329231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb6a149e6495db19023f37a4f8bd882"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#aaeb6a149e6495db19023f37a4f8bd882">AddPetScripts</a> ()</td></tr>
-<tr class="separator:aaeb6a149e6495db19023f37a4f8bd882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b374923a29bdbff68b6e78d2ef4a3e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9b/a01379.html#a7b374923a29bdbff68b6e78d2ef4a3e0">AddSC_cast_commandscript</a> ()</td></tr>
+<tr class="separator:a7b374923a29bdbff68b6e78d2ef4a3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aaeb6a149e6495db19023f37a4f8bd882" name="aaeb6a149e6495db19023f37a4f8bd882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb6a149e6495db19023f37a4f8bd882">&#9670;&#160;</a></span>AddPetScripts()</h2>
+<a id="a7b374923a29bdbff68b6e78d2ef4a3e0" name="a7b374923a29bdbff68b6e78d2ef4a3e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b374923a29bdbff68b6e78d2ef4a3e0">&#9670;&#160;</a></span>AddSC_cast_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddPetScripts </td>
+          <td class="memname">void AddSC_cast_commandscript </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#ac6a5b089240cd6b996928b3e7f9137b3">AddSC_deathknight_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#a9852812a043673e45884dca938eff157">AddSC_generic_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#ab89117a79c55f003f82b06a1878e6534">AddSC_hunter_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#a689a4efb7777f4164aee994745a0e2d2">AddSC_mage_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">AddSC_priest_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_function" href="../../d0/d9b/a01379.html#ab07e634ed761985e07d5c0e10f329231">AddSC_shaman_pet_scripts</a>();</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa01379_html_a689a4efb7777f4164aee994745a0e2d2"><div class="ttname"><a href="../../d0/d9b/a01379.html#a689a4efb7777f4164aee994745a0e2d2">AddSC_mage_pet_scripts</a></div><div class="ttdeci">void AddSC_mage_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:221</div></div>
-<div class="ttc" id="aa01379_html_a9852812a043673e45884dca938eff157"><div class="ttname"><a href="../../d0/d9b/a01379.html#a9852812a043673e45884dca938eff157">AddSC_generic_pet_scripts</a></div><div class="ttdeci">void AddSC_generic_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:824</div></div>
-<div class="ttc" id="aa01379_html_ab07e634ed761985e07d5c0e10f329231"><div class="ttname"><a href="../../d0/d9b/a01379.html#ab07e634ed761985e07d5c0e10f329231">AddSC_shaman_pet_scripts</a></div><div class="ttdeci">void AddSC_shaman_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_shaman.cpp:146</div></div>
-<div class="ttc" id="aa01379_html_ab89117a79c55f003f82b06a1878e6534"><div class="ttname"><a href="../../d0/d9b/a01379.html#ab89117a79c55f003f82b06a1878e6534">AddSC_hunter_pet_scripts</a></div><div class="ttdeci">void AddSC_hunter_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:135</div></div>
-<div class="ttc" id="aa01379_html_ac0eaa77dc1cb9a092b318e3bc3f6d5b8"><div class="ttname"><a href="../../d0/d9b/a01379.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">AddSC_priest_pet_scripts</a></div><div class="ttdeci">void AddSC_priest_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:81</div></div>
-<div class="ttc" id="aa01379_html_ac6a5b089240cd6b996928b3e7f9137b3"><div class="ttname"><a href="../../d0/d9b/a01379.html#ac6a5b089240cd6b996928b3e7f9137b3">AddSC_deathknight_pet_scripts</a></div><div class="ttdeci">void AddSC_deathknight_pet_scripts()</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:369</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  251</span>{</div>
+<div class="line"><span class="lineno">  252</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d02/a11310.html">cast_commandscript</a>();</div>
+<div class="line"><span class="lineno">  253</span>}</div>
+<div class="ttc" id="aa11310_html"><div class="ttname"><a href="../../d0/d02/a11310.html">cast_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_cast.cpp:36</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00369">AddSC_deathknight_pet_scripts()</a>, <a class="el" href="../../#l00824">AddSC_generic_pet_scripts()</a>, <a class="el" href="../../#l00135">AddSC_hunter_pet_scripts()</a>, <a class="el" href="../../#l00221">AddSC_mage_pet_scripts()</a>, <a class="el" href="../../#l00081">AddSC_priest_pet_scripts()</a>, and <a class="el" href="../../#l00146">AddSC_shaman_pet_scripts()</a>.</p>
-
-</div>
-</div>
-<a id="ac6a5b089240cd6b996928b3e7f9137b3" name="ac6a5b089240cd6b996928b3e7f9137b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6a5b089240cd6b996928b3e7f9137b3">&#9670;&#160;</a></span>AddSC_deathknight_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_deathknight_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  370</span>{</div>
-<div class="line"><span class="lineno">  371</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d4e/a23994.html">npc_pet_dk_ebon_gargoyle</a>();</div>
-<div class="line"><span class="lineno">  372</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d2a/a24002.html">npc_pet_dk_ghoul</a>();</div>
-<div class="line"><span class="lineno">  373</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d98/a24010.html">npc_pet_dk_risen_ally</a>();</div>
-<div class="line"><span class="lineno">  374</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d03/a24018.html">npc_pet_dk_army_of_the_dead</a>();</div>
-<div class="line"><span class="lineno">  375</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d05/a24026.html">npc_pet_dk_dancing_rune_weapon</a>();</div>
-<div class="line"><span class="lineno">  376</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d37/a24034.html">spell_pet_dk_gargoyle_strike</a>);</div>
-<div class="line"><span class="lineno">  377</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa23994_html"><div class="ttname"><a href="../../d8/d4e/a23994.html">npc_pet_dk_ebon_gargoyle</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:53</div></div>
-<div class="ttc" id="aa24002_html"><div class="ttname"><a href="../../d9/d2a/a24002.html">npc_pet_dk_ghoul</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:240</div></div>
-<div class="ttc" id="aa24010_html"><div class="ttname"><a href="../../d2/d98/a24010.html">npc_pet_dk_risen_ally</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:262</div></div>
-<div class="ttc" id="aa24018_html"><div class="ttname"><a href="../../d0/d03/a24018.html">npc_pet_dk_army_of_the_dead</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:294</div></div>
-<div class="ttc" id="aa24026_html"><div class="ttname"><a href="../../d4/d05/a24026.html">npc_pet_dk_dancing_rune_weapon</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:320</div></div>
-<div class="ttc" id="aa24034_html"><div class="ttname"><a href="../../d1/d37/a24034.html">spell_pet_dk_gargoyle_strike</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:346</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a9852812a043673e45884dca938eff157" name="a9852812a043673e45884dca938eff157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9852812a043673e45884dca938eff157">&#9670;&#160;</a></span>AddSC_generic_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_generic_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  825</span>{</div>
-<div class="line"><span class="lineno">  826</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/da5/a24038.html">npc_pet_gen_soul_trader_beacon</a>);</div>
-<div class="line"><span class="lineno">  827</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dd/d25/a24046.html">npc_pet_gen_argent_pony_bridle</a>);</div>
-<div class="line"><span class="lineno">  828</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d1/d98/a24050.html">npc_pet_gen_target_following_bomb</a>);</div>
-<div class="line"><span class="lineno">  829</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d3/d99/a24054.html">npc_pet_gen_gnomish_flame_turret</a>);</div>
-<div class="line"><span class="lineno">  830</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d4/d49/a24058.html">npc_pet_gen_valkyr_guardian</a>);</div>
-<div class="line"><span class="lineno">  831</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d78/a24062.html">spell_pet_gen_valkyr_guardian_smite</a>);</div>
-<div class="line"><span class="lineno">  832</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/d30/a24066.html">npc_pet_gen_imp_in_a_bottle</a>);</div>
-<div class="line"><span class="lineno">  833</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../da/dc3/a24070.html">npc_pet_gen_wind_rider_cub</a>);</div>
-<div class="line"><span class="lineno">  834</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/d8d/a24074.html">npc_pet_gen_plump_turkey</a>);</div>
-<div class="line"><span class="lineno">  835</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d6/df6/a24078.html">npc_pet_gen_toxic_wasteling</a>);</div>
-<div class="line"><span class="lineno">  836</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/d49/a24082.html">npc_pet_gen_fetch_ball</a>);</div>
-<div class="line"><span class="lineno">  837</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/d2e/a24086.html">npc_pet_gen_moth</a>);</div>
-<div class="line"><span class="lineno">  838</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/d63/a24090.html">npc_pet_darting_hatchling</a>);</div>
-<div class="line"><span class="lineno">  839</span>}</div>
-<div class="ttc" id="aa03245_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa24038_html"><div class="ttname"><a href="../../d2/da5/a24038.html">npc_pet_gen_soul_trader_beacon</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:46</div></div>
-<div class="ttc" id="aa24046_html"><div class="ttname"><a href="../../dd/d25/a24046.html">npc_pet_gen_argent_pony_bridle</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:148</div></div>
-<div class="ttc" id="aa24050_html"><div class="ttname"><a href="../../d1/d98/a24050.html">npc_pet_gen_target_following_bomb</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:356</div></div>
-<div class="ttc" id="aa24054_html"><div class="ttname"><a href="../../d3/d99/a24054.html">npc_pet_gen_gnomish_flame_turret</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:406</div></div>
-<div class="ttc" id="aa24058_html"><div class="ttname"><a href="../../d4/d49/a24058.html">npc_pet_gen_valkyr_guardian</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:442</div></div>
-<div class="ttc" id="aa24062_html"><div class="ttname"><a href="../../d1/d78/a24062.html">spell_pet_gen_valkyr_guardian_smite</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:491</div></div>
-<div class="ttc" id="aa24066_html"><div class="ttname"><a href="../../dc/d30/a24066.html">npc_pet_gen_imp_in_a_bottle</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:512</div></div>
-<div class="ttc" id="aa24070_html"><div class="ttname"><a href="../../da/dc3/a24070.html">npc_pet_gen_wind_rider_cub</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:579</div></div>
-<div class="ttc" id="aa24074_html"><div class="ttname"><a href="../../db/d8d/a24074.html">npc_pet_gen_plump_turkey</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:625</div></div>
-<div class="ttc" id="aa24078_html"><div class="ttname"><a href="../../d6/df6/a24078.html">npc_pet_gen_toxic_wasteling</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:683</div></div>
-<div class="ttc" id="aa24082_html"><div class="ttname"><a href="../../d9/d49/a24082.html">npc_pet_gen_fetch_ball</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:728</div></div>
-<div class="ttc" id="aa24086_html"><div class="ttname"><a href="../../db/d2e/a24086.html">npc_pet_gen_moth</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:772</div></div>
-<div class="ttc" id="aa24090_html"><div class="ttname"><a href="../../d9/d63/a24090.html">npc_pet_darting_hatchling</a></div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:789</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
-
-</div>
-</div>
-<a id="ab89117a79c55f003f82b06a1878e6534" name="ab89117a79c55f003f82b06a1878e6534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab89117a79c55f003f82b06a1878e6534">&#9670;&#160;</a></span>AddSC_hunter_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_hunter_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  136</span>{</div>
-<div class="line"><span class="lineno">  137</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/d51/a24094.html">npc_pet_hunter_snake_trap</a>);</div>
-<div class="line"><span class="lineno">  138</span>}</div>
-<div class="ttc" id="aa24094_html"><div class="ttname"><a href="../../d2/d51/a24094.html">npc_pet_hunter_snake_trap</a></div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:37</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a689a4efb7777f4164aee994745a0e2d2" name="a689a4efb7777f4164aee994745a0e2d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a689a4efb7777f4164aee994745a0e2d2">&#9670;&#160;</a></span>AddSC_mage_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_mage_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  222</span>{</div>
-<div class="line"><span class="lineno">  223</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/d8e/a24102.html">npc_pet_mage_mirror_image</a>);</div>
-<div class="line"><span class="lineno">  224</span>}</div>
-<div class="ttc" id="aa24102_html"><div class="ttname"><a href="../../dc/d8e/a24102.html">npc_pet_mage_mirror_image</a></div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:58</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
-
-</div>
-</div>
-<a id="ac0eaa77dc1cb9a092b318e3bc3f6d5b8" name="ac0eaa77dc1cb9a092b318e3bc3f6d5b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">&#9670;&#160;</a></span>AddSC_priest_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_priest_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/d80/a24106.html">npc_pet_pri_lightwell</a>);</div>
-<div class="line"><span class="lineno">   84</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d3/d25/a24110.html">npc_pet_pri_shadowfiend</a>);</div>
-<div class="line"><span class="lineno">   85</span>}</div>
-<div class="ttc" id="aa24106_html"><div class="ttname"><a href="../../de/d80/a24106.html">npc_pet_pri_lightwell</a></div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:37</div></div>
-<div class="ttc" id="aa24110_html"><div class="ttname"><a href="../../d3/d25/a24110.html">npc_pet_pri_shadowfiend</a></div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:59</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
-
-</div>
-</div>
-<a id="ab07e634ed761985e07d5c0e10f329231" name="ab07e634ed761985e07d5c0e10f329231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07e634ed761985e07d5c0e10f329231">&#9670;&#160;</a></span>AddSC_shaman_pet_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_shaman_pet_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  147</span>{</div>
-<div class="line"><span class="lineno">  148</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d3/d03/a24114.html">npc_pet_shaman_earth_elemental</a>);</div>
-<div class="line"><span class="lineno">  149</span>    <a class="code hl_define" href="../../d2/daf/a03245.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/d7c/a24118.html">npc_pet_shaman_fire_elemental</a>);</div>
-<div class="line"><span class="lineno">  150</span>}</div>
-<div class="ttc" id="aa24114_html"><div class="ttname"><a href="../../d3/d03/a24114.html">npc_pet_shaman_earth_elemental</a></div><div class="ttdef"><b>Definition:</b> pet_shaman.cpp:46</div></div>
-<div class="ttc" id="aa24118_html"><div class="ttname"><a href="../../de/d7c/a24118.html">npc_pet_shaman_fire_elemental</a></div><div class="ttdef"><b>Definition:</b> pet_shaman.cpp:89</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
 
 </div>
 </div>
@@ -358,8 +159,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d0/d9b/a01379.html">pets_script_loader.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d0/d9b/a01379.html">cs_cast.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,6 @@
 var a14114 =
 [
-    [ "GetVisualThrow", "d0/d5e/a14114.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
-    [ "HandleDummy", "d0/d5e/a14114.html#adca1aacf89dcf452f1c98cae97f09690", null ],
-    [ "PrepareSpellScript", "d0/d5e/a14114.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
-    [ "Register", "d0/d5e/a14114.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
+    [ "HandleDummy", "d0/d5e/a14114.html#a5e0797e5af760b618b1498f405766de8", null ],
+    [ "PrepareSpellScript", "d0/d5e/a14114.html#a3be664b18a2474857e8a2b199ea93aaf", null ],
+    [ "Register", "d0/d5e/a14114.html#a2254e486bda73e07f8327c3412c7852b", null ]
 ];

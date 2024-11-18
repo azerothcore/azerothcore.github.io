@@ -1,11 +1,20 @@
 var a12362 =
 [
-    [ "npc_demon_chain", "db/d6b/a12362.html#ac234e729422925bd773bcdbc45f9e1b5", null ],
-    [ "AttackStart", "db/d6b/a12362.html#a745fa194ca5ad30c96e85b3f9daad2ad", null ],
-    [ "IsSummonedBy", "db/d6b/a12362.html#a27007fdff0d685b0a38a0b98820b95fb", null ],
-    [ "JustDied", "db/d6b/a12362.html#a35d1b7de8612f11cdf61b9d663990686", null ],
-    [ "JustEngagedWith", "db/d6b/a12362.html#a9743ebc31c5159a03889bfd40b09d749", null ],
-    [ "MoveInLineOfSight", "db/d6b/a12362.html#a9ffa6ed6faa21c9596f7a0c2ceb1cc05", null ],
-    [ "Reset", "db/d6b/a12362.html#ad531f82511e5156d3b9891dd4095b0d5", null ],
-    [ "sacrificeGUID", "db/d6b/a12362.html#a5572e39fcf3d807ef462f5c16ff703f1", null ]
+    [ "boss_shade_of_aran", "db/d6b/a12362.html#a581351036c7e09de447f065a4ef82e03", null ],
+    [ "AttackStart", "db/d6b/a12362.html#a140ec9e0f968c42f9f003d9a52693884", null ],
+    [ "CheckAranInRoom", "db/d6b/a12362.html#a64779949875ab0d812746adb78123f7a", null ],
+    [ "DamageTaken", "db/d6b/a12362.html#a837e9284a2e2b3fe5467cca4fd09c60f", null ],
+    [ "JustDied", "db/d6b/a12362.html#ac79c249652f1de37b0c7d31a86dd0e51", null ],
+    [ "JustEngagedWith", "db/d6b/a12362.html#a11a9b1a8a24b9bc9965d655a6f856ef0", null ],
+    [ "KilledUnit", "db/d6b/a12362.html#ad7470576e9dd08d5fc47259d8de943b2", null ],
+    [ "OnPowerUpdate", "db/d6b/a12362.html#a3ac487d431bc444cd8c39bb813260737", null ],
+    [ "Reset", "db/d6b/a12362.html#a03def93f3e3f33d4f760e9f7c7c85d86", null ],
+    [ "SetGUID", "db/d6b/a12362.html#a92e6d82da2a865220432c919d8593d00", null ],
+    [ "UpdateAI", "db/d6b/a12362.html#ae80c5bc869136e2ce2c5b4f6cfdc6ea4", null ],
+    [ "_atieshReaction", "db/d6b/a12362.html#a88c6677edc8a37ac1e36fe6f1688d847", null ],
+    [ "_currentNormalSpell", "db/d6b/a12362.html#a4384769fb6eb868c612ed34cbb6b2409", null ],
+    [ "_drinking", "db/d6b/a12362.html#a84a6941826c6c2f1f70965e8909f796e", null ],
+    [ "_drinkScheduler", "db/d6b/a12362.html#a47e88dcf0027bd197350df7f80bc42d3", null ],
+    [ "_hasDrunk", "db/d6b/a12362.html#a93bec133a8a1ba41aa9eb86ff19e5eca", null ],
+    [ "_lastSuperSpell", "db/d6b/a12362.html#afe99b96811ff1e61ea6bbdce42fe8d7d", null ]
 ];

@@ -1,25 +1,14 @@
 var a04463 =
 [
-    [ "RealmHandle", "d1/d09/a28074.html", "d1/d09/a28074" ],
-    [ "Realm", "db/d50/a28078.html", "db/d50/a28078" ],
-    [ "RealmFlags", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2", [
-      [ "REALM_FLAG_NONE", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2", null ],
-      [ "REALM_FLAG_VERSION_MISMATCH", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056", null ],
-      [ "REALM_FLAG_OFFLINE", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68", null ],
-      [ "REALM_FLAG_SPECIFYBUILD", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903", null ],
-      [ "REALM_FLAG_UNK1", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304", null ],
-      [ "REALM_FLAG_UNK2", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81", null ],
-      [ "REALM_FLAG_RECOMMENDED", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29", null ],
-      [ "REALM_FLAG_NEW", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b", null ],
-      [ "REALM_FLAG_FULL", "d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952", null ]
-    ] ],
-    [ "RealmType", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59", [
-      [ "REALM_TYPE_NORMAL", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb", null ],
-      [ "REALM_TYPE_PVP", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c", null ],
-      [ "REALM_TYPE_NORMAL2", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19", null ],
-      [ "REALM_TYPE_RP", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f", null ],
-      [ "REALM_TYPE_RPPVP", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae", null ],
-      [ "MAX_CLIENT_REALM_TYPE", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be", null ],
-      [ "REALM_TYPE_FFA_PVP", "d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457", null ]
+    [ "AllMapScript", "d2/d5e/a09962.html", "d2/d5e/a09962" ],
+    [ "AllMapHook", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92", [
+      [ "ALLMAPHOOK_ON_PLAYER_ENTER_ALL", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa", null ],
+      [ "ALLMAPHOOK_ON_PLAYER_LEAVE_ALL", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae", null ],
+      [ "ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_INSTANCE", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0", null ],
+      [ "ALLMAPHOOK_ON_CREATE_MAP", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_MAP", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5", null ],
+      [ "ALLMAPHOOK_ON_MAP_UPDATE", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb", null ],
+      [ "ALLMAPHOOK_END", "d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95", null ]
     ] ]
 ];

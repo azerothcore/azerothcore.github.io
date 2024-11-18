@@ -1,9 +1,7 @@
 var a15274 =
 [
-    [ "npc_pluckyAI", "d0/ddc/a15274.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
-    [ "ReceiveEmote", "d0/ddc/a15274.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
-    [ "Reset", "d0/ddc/a15274.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
-    [ "UpdateAI", "d0/ddc/a15274.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
-    [ "NormFaction", "d0/ddc/a15274.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
-    [ "ResetTimer", "d0/ddc/a15274.html#ac9808c21666cd17b0603e7e67a61d015", null ]
+    [ "npc_paoka_swiftmountainAI", "d6/d65/a15278.html", "d6/d65/a15278" ],
+    [ "npc_paoka_swiftmountain", "d0/ddc/a15274.html#abb3f6fab7cca158c2e139159430f880a", null ],
+    [ "GetAI", "d0/ddc/a15274.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
+    [ "OnQuestAccept", "d0/ddc/a15274.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: DamageInfo Class Reference</title>
+<title>AzerothCore: AuraMunchingQueue Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,90 +106,60 @@ $(document).ready(function(){initNavTree('dc/d06/a08466.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d9/da0/a08463.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DamageInfo Class Reference</div></div>
+  <div class="headertitle"><div class="title">AuraMunchingQueue Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for AuraMunchingQueue:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../dc/d06/a08466.png" usemap="#AuraMunchingQueue_map" alt=""/>
+  <map id="AuraMunchingQueue_map" name="AuraMunchingQueue_map">
+<area href="../../dd/d9e/a05378.html" alt="BasicEvent" shape="rect" coords="0,0,134,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a522ba9b5e16d05ec7c2363ec06458e72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a522ba9b5e16d05ec7c2363ec06458e72">DamageInfo</a> (<a class="el" href="../../de/df3/a08502.html">Unit</a> *_attacker, <a class="el" href="../../de/df3/a08502.html">Unit</a> *_victim, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> _damage, <a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const *_spellInfo, <a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> _schoolMask, <a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> _damageType, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cleanDamage=0)</td></tr>
-<tr class="separator:a522ba9b5e16d05ec7c2363ec06458e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa241087126e9dd972944dee7225783a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#aa241087126e9dd972944dee7225783a8">DamageInfo</a> (<a class="el" href="../../df/d29/a08478.html">CalcDamageInfo</a> const &amp;dmgInfo)</td></tr>
-<tr class="separator:aa241087126e9dd972944dee7225783a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4a230a99dcf5c039db683c842c5bf58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#ac4a230a99dcf5c039db683c842c5bf58">DamageInfo</a> (<a class="el" href="../../df/d29/a08478.html">CalcDamageInfo</a> const &amp;dmgInfo, <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> damageIndex)</td></tr>
-<tr class="separator:ac4a230a99dcf5c039db683c842c5bf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97add6c88a68afe5488eb2f450fb5e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#ab97add6c88a68afe5488eb2f450fb5e4">DamageInfo</a> (<a class="el" href="../../d4/de6/a08486.html">SpellNonMeleeDamage</a> const &amp;spellNonMeleeDamage, <a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> damageType)</td></tr>
-<tr class="separator:ab97add6c88a68afe5488eb2f450fb5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a68533422f69965d383fdb716387237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a2a68533422f69965d383fdb716387237">ModifyDamage</a> (<a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> amount)</td></tr>
-<tr class="separator:a2a68533422f69965d383fdb716387237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034eff0cc85283ccefe73918ade4d98a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a034eff0cc85283ccefe73918ade4d98a">AbsorbDamage</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:a034eff0cc85283ccefe73918ade4d98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02e857277fbc00370143180b4fb3daac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a02e857277fbc00370143180b4fb3daac">ResistDamage</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:a02e857277fbc00370143180b4fb3daac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8388efed79477de77d78f3a3fff04b0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8388efed79477de77d78f3a3fff04b0b">BlockDamage</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:a8388efed79477de77d78f3a3fff04b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a469a97425ae528b5f8580957035d0561"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df3/a08502.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a469a97425ae528b5f8580957035d0561">GetAttacker</a> () const</td></tr>
-<tr class="separator:a469a97425ae528b5f8580957035d0561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a6f0e46fe0098a3b67dc5ea43733b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df3/a08502.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a33a6f0e46fe0098a3b67dc5ea43733b5">GetVictim</a> () const</td></tr>
-<tr class="separator:a33a6f0e46fe0098a3b67dc5ea43733b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aaa8ac7e857b1d2a68cb6befaf9881a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a7aaa8ac7e857b1d2a68cb6befaf9881a">GetSpellInfo</a> () const</td></tr>
-<tr class="separator:a7aaa8ac7e857b1d2a68cb6befaf9881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e8b4c4ca4ef62b353c5868d5954bfcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8e8b4c4ca4ef62b353c5868d5954bfcd">GetSchoolMask</a> () const</td></tr>
-<tr class="separator:a8e8b4c4ca4ef62b353c5868d5954bfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887202d1319dd2b13ff18cba470067cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a887202d1319dd2b13ff18cba470067cb">GetDamageType</a> () const</td></tr>
-<tr class="separator:a887202d1319dd2b13ff18cba470067cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf9edb2df92b0164ffc21a00c8925d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8bf9edb2df92b0164ffc21a00c8925d6">GetAttackType</a> () const</td></tr>
-<tr class="separator:a8bf9edb2df92b0164ffc21a00c8925d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcf0ecbcfa77654529e66df53ae828d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a> () const</td></tr>
-<tr class="separator:adcf0ecbcfa77654529e66df53ae828d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af79a29980863abeecc47118a18e70f6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#af79a29980863abeecc47118a18e70f6b">GetAbsorb</a> () const</td></tr>
-<tr class="separator:af79a29980863abeecc47118a18e70f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d301dc3e6d21d7c1d73b6eaea38421b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8d301dc3e6d21d7c1d73b6eaea38421b">GetResist</a> () const</td></tr>
-<tr class="separator:a8d301dc3e6d21d7c1d73b6eaea38421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa739f7998796bd333ee95a8394b0cea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#aaa739f7998796bd333ee95a8394b0cea">GetBlock</a> () const</td></tr>
-<tr class="separator:aaa739f7998796bd333ee95a8394b0cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a702f9a22aa05865c95e5eaf9640545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a4a702f9a22aa05865c95e5eaf9640545">GetUnmitigatedDamage</a> () const</td></tr>
-<tr class="separator:a4a702f9a22aa05865c95e5eaf9640545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ad4ffdc052cbfc80ae5bfab749d995062"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#ad4ffdc052cbfc80ae5bfab749d995062">DamageInfo</a> (<a class="el" href="../../dc/d06/a08466.html">DamageInfo</a> const &amp;dmg1, <a class="el" href="../../dc/d06/a08466.html">DamageInfo</a> const &amp;dmg2)</td></tr>
-<tr class="separator:ad4ffdc052cbfc80ae5bfab749d995062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9787bcfa9393619ffebe2ad7b5cd46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#abf9787bcfa9393619ffebe2ad7b5cd46">AuraMunchingQueue</a> (<a class="el" href="../../db/df9/a08518.html">Unit</a> &amp;owner, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> targetGUID, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> basePoints, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId, <a class="el" href="../../d6/d2f/a10782.html">AuraEffect</a> *aurEff, <a class="el" href="../../d5/d37/a03092.html#a538cdc259460b365f406fe0b3a981799">AuraType</a> auraType)</td></tr>
+<tr class="separator:abf9787bcfa9393619ffebe2ad7b5cd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f025a0ea1db81fb283db563402d1c40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8f025a0ea1db81fb283db563402d1c40">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) override</td></tr>
+<tr class="separator:a8f025a0ea1db81fb283db563402d1c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a05378"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05378')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a></td></tr>
+<tr class="memitem:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a0c3860e1c8854c2db20a225944792afd">~BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a62c0483af9fd1885e779cf088a50eb02">IsDeletable</a> () const</td></tr>
+<tr class="separator:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a5584968148a48bd7ba072515bd489963">Abort</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>)</td></tr>
+<tr class="separator:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#afafade0729f08b8f1193a66f50c18348">ScheduleAbort</a> ()</td></tr>
+<tr class="separator:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1c199612aaff8c5b1b831cb2c681340d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df3/a08502.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a></td></tr>
-<tr class="separator:a1c199612aaff8c5b1b831cb2c681340d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae54a74b71d6ef3f9452b20d2e4aec4dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/df3/a08502.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a></td></tr>
-<tr class="separator:ae54a74b71d6ef3f9452b20d2e4aec4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b39c211a157092dbd0111ac46bef8a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a></td></tr>
-<tr class="separator:a9b39c211a157092dbd0111ac46bef8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a8ec67f5c136d0ae8822a6fa7766187"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a></td></tr>
-<tr class="separator:a5a8ec67f5c136d0ae8822a6fa7766187"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acda50525cdc0689191b74741331b6069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a></td></tr>
-<tr class="separator:acda50525cdc0689191b74741331b6069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae302e0157ce87497f71293c8687bc7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a></td></tr>
-<tr class="separator:ae302e0157ce87497f71293c8687bc7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31a2baa1c0e0f9bea6000375a5bbec48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a></td></tr>
-<tr class="separator:a31a2baa1c0e0f9bea6000375a5bbec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90be517686a8d78e0c585e1535e39567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a></td></tr>
-<tr class="separator:a90be517686a8d78e0c585e1535e39567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1289951cae687d55bab2f12a8b37d8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a></td></tr>
-<tr class="separator:a1289951cae687d55bab2f12a8b37d8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c7d428dcbe124d6204d1520a4f205c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a></td></tr>
-<tr class="separator:a6c7d428dcbe124d6204d1520a4f205c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d500e09cf80873f1c9751841dede58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a></td></tr>
-<tr class="separator:a92d500e09cf80873f1c9751841dede58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472aaf46c2f167a10ce38267ace0b8bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df9/a08518.html">Unit</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a></td></tr>
+<tr class="separator:a472aaf46c2f167a10ce38267ace0b8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441b328296f0b7a75bdaee06d2cb94f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a441b328296f0b7a75bdaee06d2cb94f1">_targetGUID</a></td></tr>
+<tr class="separator:a441b328296f0b7a75bdaee06d2cb94f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf03046c9595e81bf119b7aacb1a81a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a9cf03046c9595e81bf119b7aacb1a81a">_basePoints</a></td></tr>
+<tr class="separator:a9cf03046c9595e81bf119b7aacb1a81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6674c43b906e45e2ad29100a7ff06f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a6674c43b906e45e2ad29100a7ff06f44">_spellId</a></td></tr>
+<tr class="separator:a6674c43b906e45e2ad29100a7ff06f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac00964608170d5375242c1b19c4be3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d2f/a10782.html">AuraEffect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">_aurEff</a></td></tr>
+<tr class="separator:a8ac00964608170d5375242c1b19c4be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add694e24c38d585784f236acf9118b76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d37/a03092.html#a538cdc259460b365f406fe0b3a981799">AuraType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d06/a08466.html#add694e24c38d585784f236acf9118b76">_auraType</a></td></tr>
+<tr class="separator:add694e24c38d585784f236acf9118b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad4ffdc052cbfc80ae5bfab749d995062" name="ad4ffdc052cbfc80ae5bfab749d995062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4ffdc052cbfc80ae5bfab749d995062">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[1/5]</span></h2>
+<a id="abf9787bcfa9393619ffebe2ad7b5cd46" name="abf9787bcfa9393619ffebe2ad7b5cd46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9787bcfa9393619ffebe2ad7b5cd46">&#9670;&#160;</a></span>AuraMunchingQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,16 +168,40 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">DamageInfo::DamageInfo </td>
+          <td class="memname">AuraMunchingQueue::AuraMunchingQueue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">DamageInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>dmg1</em>, </td>
+          <td class="paramtype"><a class="el" href="../../db/df9/a08518.html">Unit</a> &amp;&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">DamageInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>dmg2</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>targetGUID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>basePoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d2f/a10782.html">AuraEffect</a> *&#160;</td>
+          <td class="paramname"><em>aurEff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d37/a03092.html#a538cdc259460b365f406fe0b3a981799">AuraType</a>&#160;</td>
+          <td class="paramname"><em>auraType</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -217,639 +211,93 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  124</span>    : <a class="code hl_variable" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmg1.m_attacker), <a class="code hl_variable" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmg1.m_victim), <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmg1.m_damage + dmg2.m_damage), <a class="code hl_variable" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(dmg1.m_spellInfo), <a class="code hl_variable" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmg1.m_schoolMask | dmg2.m_schoolMask)),</div>
-<div class="line"><span class="lineno">  125</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(dmg1.m_damageType), <a class="code hl_variable" href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmg1.m_attackType), <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmg1.m_absorb + dmg2.m_absorb), <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmg1.m_resist + dmg2.m_resist), <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmg1.m_block),</div>
-<div class="line"><span class="lineno">  126</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmg1.m_cleanDamage + dmg1.m_cleanDamage)</div>
-<div class="line"><span class="lineno">  127</span>{</div>
-<div class="line"><span class="lineno">  128</span>}</div>
-<div class="ttc" id="aa04472_html_aff6913cfd69489c107a071be9ec2ec8f"><div class="ttname"><a href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a></div><div class="ttdeci">SpellSchoolMask</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:295</div></div>
-<div class="ttc" id="aa08466_html_a1289951cae687d55bab2f12a8b37d8c3"><div class="ttname"><a href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">DamageInfo::m_resist</a></div><div class="ttdeci">uint32 m_resist</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
-<div class="ttc" id="aa08466_html_a1c199612aaff8c5b1b831cb2c681340d"><div class="ttname"><a href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">DamageInfo::m_attacker</a></div><div class="ttdeci">Unit *const m_attacker</div><div class="ttdef"><b>Definition:</b> Unit.h:332</div></div>
-<div class="ttc" id="aa08466_html_a31a2baa1c0e0f9bea6000375a5bbec48"><div class="ttname"><a href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">DamageInfo::m_attackType</a></div><div class="ttdeci">WeaponAttackType m_attackType</div><div class="ttdef"><b>Definition:</b> Unit.h:338</div></div>
-<div class="ttc" id="aa08466_html_a5a8ec67f5c136d0ae8822a6fa7766187"><div class="ttname"><a href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">DamageInfo::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
-<div class="ttc" id="aa08466_html_a6c7d428dcbe124d6204d1520a4f205c2"><div class="ttname"><a href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">DamageInfo::m_block</a></div><div class="ttdeci">uint32 m_block</div><div class="ttdef"><b>Definition:</b> Unit.h:341</div></div>
-<div class="ttc" id="aa08466_html_a90be517686a8d78e0c585e1535e39567"><div class="ttname"><a href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">DamageInfo::m_absorb</a></div><div class="ttdeci">uint32 m_absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:339</div></div>
-<div class="ttc" id="aa08466_html_a92d500e09cf80873f1c9751841dede58"><div class="ttname"><a href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">DamageInfo::m_cleanDamage</a></div><div class="ttdeci">uint32 m_cleanDamage</div><div class="ttdef"><b>Definition:</b> Unit.h:342</div></div>
-<div class="ttc" id="aa08466_html_a9b39c211a157092dbd0111ac46bef8a4"><div class="ttname"><a href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">DamageInfo::m_damage</a></div><div class="ttdeci">uint32 m_damage</div><div class="ttdef"><b>Definition:</b> Unit.h:334</div></div>
-<div class="ttc" id="aa08466_html_acda50525cdc0689191b74741331b6069"><div class="ttname"><a href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">DamageInfo::m_schoolMask</a></div><div class="ttdeci">SpellSchoolMask const m_schoolMask</div><div class="ttdef"><b>Definition:</b> Unit.h:336</div></div>
-<div class="ttc" id="aa08466_html_ae302e0157ce87497f71293c8687bc7aa"><div class="ttname"><a href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">DamageInfo::m_damageType</a></div><div class="ttdeci">DamageEffectType const m_damageType</div><div class="ttdef"><b>Definition:</b> Unit.h:337</div></div>
-<div class="ttc" id="aa08466_html_ae54a74b71d6ef3f9452b20d2e4aec4dc"><div class="ttname"><a href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">DamageInfo::m_victim</a></div><div class="ttdeci">Unit *const m_victim</div><div class="ttdef"><b>Definition:</b> Unit.h:333</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a522ba9b5e16d05ec7c2363ec06458e72" name="a522ba9b5e16d05ec7c2363ec06458e72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a522ba9b5e16d05ec7c2363ec06458e72">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">DamageInfo::DamageInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/df3/a08502.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>_attacker</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/df3/a08502.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>_victim</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>_damage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const *&#160;</td>
-          <td class="paramname"><em>_spellInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td>
-          <td class="paramname"><em>_schoolMask</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td>
-          <td class="paramname"><em>_damageType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>cleanDamage</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  111</span>    : <a class="code hl_variable" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(_attacker), <a class="code hl_variable" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(_victim), <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(_damage), <a class="code hl_variable" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(_spellInfo), <a class="code hl_variable" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(_schoolMask),</div>
-<div class="line"><span class="lineno">  112</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(_damageType), <a class="code hl_variable" href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>), <a class="code hl_variable" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(cleanDamage)</div>
-<div class="line"><span class="lineno">  113</span>{</div>
-<div class="line"><span class="lineno">  114</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> = 0;</div>
-<div class="line"><span class="lineno">  115</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> = 0;</div>
-<div class="line"><span class="lineno">  116</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> = 0;</div>
-<div class="line"><span class="lineno">  117</span>}</div>
-<div class="ttc" id="aa04094_html_a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:209</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>, <a class="el" href="../../#l00341">m_block</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
-
-</div>
-</div>
-<a id="aa241087126e9dd972944dee7225783a8" name="aa241087126e9dd972944dee7225783a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa241087126e9dd972944dee7225783a8">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">DamageInfo::DamageInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d29/a08478.html">CalcDamageInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>dmgInfo</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  119</span>                                                    : <a class="code hl_class" href="../../dc/d06/a08466.html">DamageInfo</a>(<a class="code hl_class" href="../../dc/d06/a08466.html">DamageInfo</a>(dmgInfo, 0), <a class="code hl_class" href="../../dc/d06/a08466.html">DamageInfo</a>(dmgInfo, 1))</div>
-<div class="line"><span class="lineno">  120</span>{</div>
-<div class="line"><span class="lineno">  121</span>}</div>
-<div class="ttc" id="aa08466_html"><div class="ttname"><a href="../../dc/d06/a08466.html">DamageInfo</a></div><div class="ttdef"><b>Definition:</b> Unit.h:330</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac4a230a99dcf5c039db683c842c5bf58" name="ac4a230a99dcf5c039db683c842c5bf58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4a230a99dcf5c039db683c842c5bf58">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DamageInfo::DamageInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d29/a08478.html">CalcDamageInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>dmgInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>damageIndex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  131</span>    : <a class="code hl_variable" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmgInfo.attacker), <a class="code hl_variable" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmgInfo.target), <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmgInfo.damages[damageIndex].damage), <a class="code hl_variable" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmgInfo.damages[damageIndex].damageSchoolMask)),</div>
-<div class="line"><span class="lineno">  132</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a>), <a class="code hl_variable" href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmgInfo.attackType), <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmgInfo.damages[damageIndex].absorb), <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmgInfo.damages[damageIndex].resist), <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmgInfo.blocked_amount),</div>
-<div class="line"><span class="lineno">  133</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmgInfo.cleanDamage)</div>
-<div class="line"><span class="lineno">  134</span>{</div>
-<div class="line"><span class="lineno">  135</span>}</div>
-<div class="ttc" id="aa04094_html_ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336"><div class="ttname"><a href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a></div><div class="ttdeci">@ DIRECT_DAMAGE</div><div class="ttdef"><b>Definition:</b> Unit.h:248</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab97add6c88a68afe5488eb2f450fb5e4" name="ab97add6c88a68afe5488eb2f450fb5e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab97add6c88a68afe5488eb2f450fb5e4">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DamageInfo::DamageInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de6/a08486.html">SpellNonMeleeDamage</a> const &amp;&#160;</td>
-          <td class="paramname"><em>spellNonMeleeDamage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td>
-          <td class="paramname"><em>damageType</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  138</span>    : <a class="code hl_variable" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(spellNonMeleeDamage.attacker), <a class="code hl_variable" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(spellNonMeleeDamage.target), <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(spellNonMeleeDamage.damage),</div>
-<div class="line"><span class="lineno">  139</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(spellNonMeleeDamage.spellInfo), <a class="code hl_variable" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(spellNonMeleeDamage.schoolMask)), <a class="code hl_variable" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(damageType),</div>
-<div class="line"><span class="lineno">  140</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(spellNonMeleeDamage.absorb), <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(spellNonMeleeDamage.resist), <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(spellNonMeleeDamage.blocked),</div>
-<div class="line"><span class="lineno">  141</span>      <a class="code hl_variable" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(spellNonMeleeDamage.cleanDamage)</div>
-<div class="line"><span class="lineno">  142</span>{</div>
-<div class="line"><span class="lineno">  143</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">20271</span>: <a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>(owner), <a class="code hl_variable" href="../../dc/d06/a08466.html#a441b328296f0b7a75bdaee06d2cb94f1">_targetGUID</a>(targetGUID), <a class="code hl_variable" href="../../dc/d06/a08466.html#a9cf03046c9595e81bf119b7aacb1a81a">_basePoints</a>(basePoints), <a class="code hl_variable" href="../../dc/d06/a08466.html#a6674c43b906e45e2ad29100a7ff06f44">_spellId</a>(spellId), <a class="code hl_variable" href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">_aurEff</a>(aurEff), <a class="code hl_variable" href="../../dc/d06/a08466.html#add694e24c38d585784f236acf9118b76">_auraType</a>(auraType) { }</div>
+<div class="ttc" id="aa08466_html_a441b328296f0b7a75bdaee06d2cb94f1"><div class="ttname"><a href="../../dc/d06/a08466.html#a441b328296f0b7a75bdaee06d2cb94f1">AuraMunchingQueue::_targetGUID</a></div><div class="ttdeci">ObjectGuid _targetGUID</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20295</div></div>
+<div class="ttc" id="aa08466_html_a472aaf46c2f167a10ce38267ace0b8bb"><div class="ttname"><a href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">AuraMunchingQueue::_owner</a></div><div class="ttdeci">Unit &amp; _owner</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20294</div></div>
+<div class="ttc" id="aa08466_html_a6674c43b906e45e2ad29100a7ff06f44"><div class="ttname"><a href="../../dc/d06/a08466.html#a6674c43b906e45e2ad29100a7ff06f44">AuraMunchingQueue::_spellId</a></div><div class="ttdeci">uint32 _spellId</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20297</div></div>
+<div class="ttc" id="aa08466_html_a8ac00964608170d5375242c1b19c4be3"><div class="ttname"><a href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">AuraMunchingQueue::_aurEff</a></div><div class="ttdeci">AuraEffect * _aurEff</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20298</div></div>
+<div class="ttc" id="aa08466_html_a9cf03046c9595e81bf119b7aacb1a81a"><div class="ttname"><a href="../../dc/d06/a08466.html#a9cf03046c9595e81bf119b7aacb1a81a">AuraMunchingQueue::_basePoints</a></div><div class="ttdeci">int32 _basePoints</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20296</div></div>
+<div class="ttc" id="aa08466_html_add694e24c38d585784f236acf9118b76"><div class="ttname"><a href="../../dc/d06/a08466.html#add694e24c38d585784f236acf9118b76">AuraMunchingQueue::_auraType</a></div><div class="ttdeci">AuraType _auraType</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20299</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a034eff0cc85283ccefe73918ade4d98a" name="a034eff0cc85283ccefe73918ade4d98a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a034eff0cc85283ccefe73918ade4d98a">&#9670;&#160;</a></span>AbsorbDamage()</h2>
+<a id="a8f025a0ea1db81fb283db563402d1c40" name="a8f025a0ea1db81fb283db563402d1c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f025a0ea1db81fb283db563402d1c40">&#9670;&#160;</a></span>Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DamageInfo::AbsorbDamage </td>
+          <td class="memname">bool AuraMunchingQueue::Execute </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  152</span>{</div>
-<div class="line"><span class="lineno">  153</span>    amount = std::min(amount, <a class="code hl_function" href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
-<div class="line"><span class="lineno">  154</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> += amount;</div>
-<div class="line"><span class="lineno">  155</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
-<div class="line"><span class="lineno">  156</span>}</div>
-<div class="ttc" id="aa08466_html_adcf0ecbcfa77654529e66df53ae828d4"><div class="ttname"><a href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">DamageInfo::GetDamage</a></div><div class="ttdeci">uint32 GetDamage() const</div><div class="ttdef"><b>Definition:</b> Unit.h:364</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00339">m_absorb</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, and <a class="el" href="../../#l01599">spell_valanar_kinetic_bomb_absorb_aura::OnAbsorb()</a>.</p>
-
-</div>
-</div>
-<a id="a8388efed79477de77d78f3a3fff04b0b" name="a8388efed79477de77d78f3a3fff04b0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8388efed79477de77d78f3a3fff04b0b">&#9670;&#160;</a></span>BlockDamage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void DamageInfo::BlockDamage </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  166</span>{</div>
-<div class="line"><span class="lineno">  167</span>    amount = std::min(amount, <a class="code hl_function" href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> += amount;</div>
-<div class="line"><span class="lineno">  169</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
-<div class="line"><span class="lineno">  170</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00341">m_block</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
-
-</div>
-</div>
-<a id="af79a29980863abeecc47118a18e70f6b" name="af79a29980863abeecc47118a18e70f6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af79a29980863abeecc47118a18e70f6b">&#9670;&#160;</a></span>GetAbsorb()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetAbsorb </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  365</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>; };</div>
+
+<p>Reimplemented from <a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">20274</span>    {</div>
+<div class="line"><span class="lineno">20275</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>.<a class="code hl_function" href="../../df/d2d/a08142.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>() &amp;&amp; <a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>.<a class="code hl_function" href="../../d3/d4c/a08174.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>())</div>
+<div class="line"><span class="lineno">20276</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df9/a08518.html">Unit</a>* target = <a class="code hl_function" href="../../d9/d06/a04735.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(<a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>, <a class="code hl_variable" href="../../dc/d06/a08466.html#a441b328296f0b7a75bdaee06d2cb94f1">_targetGUID</a>))</div>
+<div class="line"><span class="lineno">20277</span>            {</div>
+<div class="line"><span class="lineno">20278</span>                <span class="keywordtype">bool</span> auraFound = <span class="keyword">false</span>; <span class="comment">// Used to ensure _aurEff exists to avoid wild pointer access/crash</span></div>
+<div class="line"><span class="lineno">20279</span>                <a class="code hl_typedef" href="../../db/df9/a08518.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a> <span class="keyword">const</span>&amp; auraEffects = target-&gt;GetAuraEffectsByType(<a class="code hl_variable" href="../../dc/d06/a08466.html#add694e24c38d585784f236acf9118b76">_auraType</a>);</div>
+<div class="line"><span class="lineno">20280</span>                <span class="keywordflow">for</span> (Unit::AuraEffectList::const_iterator j = auraEffects.begin(); j != auraEffects.end(); ++j)</div>
+<div class="line"><span class="lineno">20281</span>                    <span class="keywordflow">if</span> ((*j) == <a class="code hl_variable" href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">_aurEff</a>)</div>
+<div class="line"><span class="lineno">20282</span>                        auraFound = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">20283</span> </div>
+<div class="line"><span class="lineno">20284</span>                <span class="keywordflow">if</span> (!auraFound)</div>
+<div class="line"><span class="lineno">20285</span>                    <a class="code hl_variable" href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">_aurEff</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">20286</span> </div>
+<div class="line"><span class="lineno">20287</span>                <a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>.<a class="code hl_function" href="../../db/df9/a08518.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_variable" href="../../dc/d06/a08466.html#a6674c43b906e45e2ad29100a7ff06f44">_spellId</a>, <a class="code hl_enumvalue" href="../../d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a>, <a class="code hl_variable" href="../../dc/d06/a08466.html#a9cf03046c9595e81bf119b7aacb1a81a">_basePoints</a>, target, <a class="code hl_enumeration" href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967">TriggerCastFlags</a>(<a class="code hl_enumvalue" href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a> &amp; ~<a class="code hl_enumvalue" href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967a1e22e2a008987f157bb07b148ad32b80">TRIGGERED_NO_PERIODIC_RESET</a>), <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../dc/d06/a08466.html#a8ac00964608170d5375242c1b19c4be3">_aurEff</a>, <a class="code hl_variable" href="../../dc/d06/a08466.html#a472aaf46c2f167a10ce38267ace0b8bb">_owner</a>.<a class="code hl_function" href="../../df/d2d/a08142.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">20288</span>            }</div>
+<div class="line"><span class="lineno">20289</span> </div>
+<div class="line"><span class="lineno">20290</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">20291</span>    }</div>
+<div class="ttc" id="aa03080_html_a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a"><div class="ttname"><a href="../../d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT0</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:113</div></div>
+<div class="ttc" id="aa03080_html_a9f3c49d8db7e142b86eba36bc8951967"><div class="ttname"><a href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967">TriggerCastFlags</a></div><div class="ttdeci">TriggerCastFlags</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:129</div></div>
+<div class="ttc" id="aa03080_html_a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a"><div class="ttname"><a href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a></div><div class="ttdeci">@ TRIGGERED_FULL_MASK</div><div class="ttdoc">Will return SPELL_FAILED_DONT_REPORT in CheckCast functions.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:147</div></div>
+<div class="ttc" id="aa03080_html_a9f3c49d8db7e142b86eba36bc8951967a1e22e2a008987f157bb07b148ad32b80"><div class="ttname"><a href="../../d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967a1e22e2a008987f157bb07b148ad32b80">TRIGGERED_NO_PERIODIC_RESET</a></div><div class="ttdeci">@ TRIGGERED_NO_PERIODIC_RESET</div><div class="ttdoc">Will ignore equipped item requirements.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:149</div></div>
+<div class="ttc" id="aa04735_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d9/d06/a04735.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:199</div></div>
+<div class="ttc" id="aa08142_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../df/d2d/a08142.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:104</div></div>
+<div class="ttc" id="aa08142_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../df/d2d/a08142.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08174_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../d3/d4c/a08174.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:532</div></div>
+<div class="ttc" id="aa08518_html"><div class="ttname"><a href="../../db/df9/a08518.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:630</div></div>
+<div class="ttc" id="aa08518_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../db/df9/a08518.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1224</div></div>
+<div class="ttc" id="aa08518_html_adcdd87d0c137619dfc869536c1315dd7"><div class="ttname"><a href="../../db/df9/a08518.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a></div><div class="ttdeci">std::list&lt; AuraEffect * &gt; AuraEffectList</div><div class="ttdef"><b>Definition:</b> Unit.h:646</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l01829">Unit::DealMeleeDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00754">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, and <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
-
-</div>
-</div>
-<a id="a469a97425ae528b5f8580957035d0561" name="a469a97425ae528b5f8580957035d0561"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a469a97425ae528b5f8580957035d0561">&#9670;&#160;</a></span>GetAttacker()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/df3/a08502.html">Unit</a> * DamageInfo::GetAttacker </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  358</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00332">m_attacker</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l00799">spell_reflective_shield_aura::HandleAfterEffectAbsorb()</a>, <a class="el" href="../../#l02859">spell_yogg_saron_grim_reprisal_aura::HandleProc()</a>, <a class="el" href="../../#l00697">spell_illidari_council_reflective_shield_aura::ReflectDamage()</a>, and <a class="el" href="../../#l00677">spell_pri_power_word_shield_aura::ReflectDamage()</a>.</p>
-
-</div>
-</div>
-<a id="a8bf9edb2df92b0164ffc21a00c8925d6" name="a8bf9edb2df92b0164ffc21a00c8925d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf9edb2df92b0164ffc21a00c8925d6">&#9670;&#160;</a></span>GetAttackType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a> DamageInfo::GetAttackType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  363</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00338">m_attackType</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02311">Aura::CalcProcChance()</a>, and <a class="el" href="../../#l00639">spell_dk_dancing_rune_weapon::HandleProc()</a>.</p>
-
-</div>
-</div>
-<a id="aaa739f7998796bd333ee95a8394b0cea" name="aaa739f7998796bd333ee95a8394b0cea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa739f7998796bd333ee95a8394b0cea">&#9670;&#160;</a></span>GetBlock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetBlock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  367</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00341">m_block</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>.</p>
-
-</div>
-</div>
-<a id="adcf0ecbcfa77654529e66df53ae828d4" name="adcf0ecbcfa77654529e66df53ae828d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcf0ecbcfa77654529e66df53ae828d4">&#9670;&#160;</a></span>GetDamage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetDamage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  364</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00334">m_damage</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l01909">spell_shield_generator_aura::Absorb()</a>, <a class="el" href="../../#l02529">spell_yogg_saron_protective_gaze_aura::Absorb()</a>, <a class="el" href="../../#l01148">spell_charge_shield_bomber_aura::Absorb()</a>, <a class="el" href="../../#l00384">spell_black_temple_spell_absorption_aura::Absorb()</a>, <a class="el" href="../../#l00886">spell_dk_anti_magic_shell_raid::Absorb()</a>, <a class="el" href="../../#l00921">spell_dk_anti_magic_shell_self::Absorb()</a>, <a class="el" href="../../#l00992">spell_dk_anti_magic_zone::Absorb()</a>, <a class="el" href="../../#l02115">spell_dk_spell_deflection::Absorb()</a>, <a class="el" href="../../#l02185">spell_dk_will_of_the_necropolis::Absorb()</a>, <a class="el" href="../../#l00705">spell_dru_moonkin_form_passive::Absorb()</a>, <a class="el" href="../../#l00772">spell_dru_primal_tenacity::Absorb()</a>, <a class="el" href="../../#l00298">spell_pri_guardian_spirit::Absorb()</a>, <a class="el" href="../../#l00168">spell_rog_cheat_death::Absorb()</a>, <a class="el" href="../../#l00420">spell_rog_nerves_of_steel::Absorb()</a>, <a class="el" href="../../#l00414">spell_sha_astral_shift::Absorb()</a>, <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l00341">spell_pal_ardent_defender::Absorb()</a>, <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l01063">spell_deathbringer_blood_link_aura::CheckProc()</a>, <a class="el" href="../../#l01111">spell_deathbringer_blood_link_blood_beast_aura::CheckProc()</a>, <a class="el" href="../../#l00464">spell_dk_improved_blood_presence_proc::CheckProc()</a>, <a class="el" href="../../#l00715">spell_dk_scent_of_blood_trigger::CheckProc()</a>, <a class="el" href="../../#l02375">spell_item_shadowmourne::CheckProc()</a>, <a class="el" href="../../#l00235">spell_pal_sacred_shield_base::CheckProc()</a>, <a class="el" href="../../#l01072">spell_pal_seal_of_righteousness::CheckProc()</a>, <a class="el" href="../../#l00864">spell_warl_siphon_life::CheckProc()</a>, <a class="el" href="../../#l01039">spell_warl_fel_synergy::CheckProc()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l01829">Unit::DealMeleeDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00754">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>, <a class="el" href="../../#l00646">spell_reliquary_of_souls_aura_of_desire_aura::HandleProc()</a>, <a class="el" href="../../#l00429">spell_black_temple_consuming_strikes_aura::HandleProc()</a>, <a class="el" href="../../#l01029">spell_item_blood_draining_enchant::HandleProc()</a>, <a class="el" href="../../#l00704">spell_mage_ignite::HandleProc()</a>, <a class="el" href="../../#l03328">spell_the_lich_king_dark_hunger_aura::HandleProc()</a>, <a class="el" href="../../#l00624">spell_oculus_temporal_rift_aura::HandleProc()</a>, <a class="el" href="../../#l02859">spell_yogg_saron_grim_reprisal_aura::HandleProc()</a>, <a class="el" href="../../#l00493">spell_dk_wandering_plague_aura::HandleProc()</a>, <a class="el" href="../../#l01059">spell_dk_blood_gorged::HandleProc()</a>, <a class="el" href="../../#l00120">spell_dru_t10_balance_4p_bonus::HandleProc()</a>, <a class="el" href="../../#l01955">spell_item_necrotic_touch::HandleProc()</a>, <a class="el" href="../../#l01118">spell_sha_t8_electrified::HandleProc()</a>, <a class="el" href="../../#l00744">spell_warl_seed_of_corruption_aura::HandleProc()</a>, <a class="el" href="../../#l00803">spell_warl_seed_of_corruption_generic_aura::HandleProc()</a>, <a class="el" href="../../#l00550">spell_dk_hungering_cold::HandleProc()</a>, <a class="el" href="../../#l00145">ModifyDamage()</a>, <a class="el" href="../../#l01599">spell_valanar_kinetic_bomb_absorb_aura::OnAbsorb()</a>, <a class="el" href="../../#l00768">spell_blood_queen_essence_of_the_blood_queen_aura::OnProc()</a>, <a class="el" href="../../#l00653">spell_pal_eye_for_an_eye::OnProc()</a>, <a class="el" href="../../#l00877">spell_warl_siphon_life::OnProc()</a>, <a class="el" href="../../#l01053">spell_warl_fel_synergy::OnProc()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
-
-</div>
-</div>
-<a id="a887202d1319dd2b13ff18cba470067cb" name="a887202d1319dd2b13ff18cba470067cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a887202d1319dd2b13ff18cba470067cb">&#9670;&#160;</a></span>GetDamageType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> DamageInfo::GetDamageType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  362</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00337">m_damageType</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02115">spell_dk_spell_deflection::Absorb()</a>, and <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
-
-</div>
-</div>
-<a id="a8d301dc3e6d21d7c1d73b6eaea38421b" name="a8d301dc3e6d21d7c1d73b6eaea38421b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d301dc3e6d21d7c1d73b6eaea38421b">&#9670;&#160;</a></span>GetResist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetResist </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  366</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00340">m_resist</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00754">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, and <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
-
-</div>
-</div>
-<a id="a8e8b4c4ca4ef62b353c5868d5954bfcd" name="a8e8b4c4ca4ef62b353c5868d5954bfcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e8b4c4ca4ef62b353c5868d5954bfcd">&#9670;&#160;</a></span>GetSchoolMask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> DamageInfo::GetSchoolMask </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  361</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00336">m_schoolMask</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
-
-</div>
-</div>
-<a id="a7aaa8ac7e857b1d2a68cb6befaf9881a" name="a7aaa8ac7e857b1d2a68cb6befaf9881a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aaa8ac7e857b1d2a68cb6befaf9881a">&#9670;&#160;</a></span>GetSpellInfo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const  * DamageInfo::GetSpellInfo </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  360</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00335">m_spellInfo</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l00680">spell_mage_ignite::CheckProc()</a>, <a class="el" href="../../#l00184">ProcEventInfo::GetSpellInfo()</a>, and <a class="el" href="../../#l00677">spell_pri_power_word_shield_aura::ReflectDamage()</a>.</p>
-
-</div>
-</div>
-<a id="a4a702f9a22aa05865c95e5eaf9640545" name="a4a702f9a22aa05865c95e5eaf9640545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a702f9a22aa05865c95e5eaf9640545">&#9670;&#160;</a></span>GetUnmitigatedDamage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetUnmitigatedDamage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  173</span>{</div>
-<div class="line"><span class="lineno">  174</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> + <a class="code hl_variable" href="../../dc/d06/a08466.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a> + <a class="code hl_variable" href="../../dc/d06/a08466.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> + <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>;</div>
-<div class="line"><span class="lineno">  175</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>, <a class="el" href="../../#l00342">m_cleanDamage</a>, <a class="el" href="../../#l00334">m_damage</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00116">spell_rog_blade_flurry::HandleProc()</a>.</p>
-
-</div>
-</div>
-<a id="a33a6f0e46fe0098a3b67dc5ea43733b5" name="a33a6f0e46fe0098a3b67dc5ea43733b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33a6f0e46fe0098a3b67dc5ea43733b5">&#9670;&#160;</a></span>GetVictim()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/df3/a08502.html">Unit</a> * DamageInfo::GetVictim </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  359</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d06/a08466.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00333">m_victim</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
-
-</div>
-</div>
-<a id="a2a68533422f69965d383fdb716387237" name="a2a68533422f69965d383fdb716387237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a68533422f69965d383fdb716387237">&#9670;&#160;</a></span>ModifyDamage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DamageInfo::ModifyDamage </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  146</span>{</div>
-<div class="line"><span class="lineno">  147</span>    amount = std::min(amount, <a class="code hl_typedef" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_function" href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>()));</div>
-<div class="line"><span class="lineno">  148</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> += amount;</div>
-<div class="line"><span class="lineno">  149</span>}</div>
-<div class="ttc" id="aa00179_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
-
-</div>
-</div>
-<a id="a02e857277fbc00370143180b4fb3daac" name="a02e857277fbc00370143180b4fb3daac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02e857277fbc00370143180b4fb3daac">&#9670;&#160;</a></span>ResistDamage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DamageInfo::ResistDamage </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  159</span>{</div>
-<div class="line"><span class="lineno">  160</span>    amount = std::min(amount, <a class="code hl_function" href="../../dc/d06/a08466.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
-<div class="line"><span class="lineno">  161</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> += amount;</div>
-<div class="line"><span class="lineno">  162</span>    <a class="code hl_variable" href="../../dc/d06/a08466.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
-<div class="line"><span class="lineno">  163</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00334">m_damage</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l20299">_auraType</a>, <a class="el" href="../../#l20298">_aurEff</a>, <a class="el" href="../../#l20296">_basePoints</a>, <a class="el" href="../../#l20294">_owner</a>, <a class="el" href="../../#l20297">_spellId</a>, <a class="el" href="../../#l20295">_targetGUID</a>, <a class="el" href="../../#l01224">Unit::CastCustomSpell()</a>, <a class="el" href="../../#l00532">WorldObject::FindMap()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l00199">ObjectAccessor::GetUnit()</a>, <a class="el" href="../../#l00104">Object::IsInWorld()</a>, <a class="el" href="../../#l00113">SPELLVALUE_BASE_POINT0</a>, <a class="el" href="../../#l00147">TRIGGERED_FULL_MASK</a>, and <a class="el" href="../../#l00149">TRIGGERED_NO_PERIODIC_RESET</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a90be517686a8d78e0c585e1535e39567" name="a90be517686a8d78e0c585e1535e39567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90be517686a8d78e0c585e1535e39567">&#9670;&#160;</a></span>m_absorb</h2>
+<a id="add694e24c38d585784f236acf9118b76" name="add694e24c38d585784f236acf9118b76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add694e24c38d585784f236acf9118b76">&#9670;&#160;</a></span>_auraType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,7 +306,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_absorb</td>
+          <td class="memname"><a class="el" href="../../d5/d37/a03092.html#a538cdc259460b365f406fe0b3a981799">AuraType</a> AuraMunchingQueue::_auraType</td>
         </tr>
       </table>
   </td>
@@ -868,12 +316,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l00110">DamageInfo()</a>, <a class="el" href="../../#l00365">GetAbsorb()</a>, and <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a1c199612aaff8c5b1b831cb2c681340d" name="a1c199612aaff8c5b1b831cb2c681340d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c199612aaff8c5b1b831cb2c681340d">&#9670;&#160;</a></span>m_attacker</h2>
+<a id="a8ac00964608170d5375242c1b19c4be3" name="a8ac00964608170d5375242c1b19c4be3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac00964608170d5375242c1b19c4be3">&#9670;&#160;</a></span>_aurEff</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -882,7 +330,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/df3/a08502.html">Unit</a>* const DamageInfo::m_attacker</td>
+          <td class="memname"><a class="el" href="../../d6/d2f/a10782.html">AuraEffect</a>* AuraMunchingQueue::_aurEff</td>
         </tr>
       </table>
   </td>
@@ -892,12 +340,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00358">GetAttacker()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a31a2baa1c0e0f9bea6000375a5bbec48" name="a31a2baa1c0e0f9bea6000375a5bbec48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31a2baa1c0e0f9bea6000375a5bbec48">&#9670;&#160;</a></span>m_attackType</h2>
+<a id="a9cf03046c9595e81bf119b7aacb1a81a" name="a9cf03046c9595e81bf119b7aacb1a81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf03046c9595e81bf119b7aacb1a81a">&#9670;&#160;</a></span>_basePoints</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -906,7 +354,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d4e/a04094.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a> DamageInfo::m_attackType</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> AuraMunchingQueue::_basePoints</td>
         </tr>
       </table>
   </td>
@@ -916,12 +364,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00363">GetAttackType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a6c7d428dcbe124d6204d1520a4f205c2" name="a6c7d428dcbe124d6204d1520a4f205c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c7d428dcbe124d6204d1520a4f205c2">&#9670;&#160;</a></span>m_block</h2>
+<a id="a472aaf46c2f167a10ce38267ace0b8bb" name="a472aaf46c2f167a10ce38267ace0b8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472aaf46c2f167a10ce38267ace0b8bb">&#9670;&#160;</a></span>_owner</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -930,7 +378,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_block</td>
+          <td class="memname"><a class="el" href="../../db/df9/a08518.html">Unit</a>&amp; AuraMunchingQueue::_owner</td>
         </tr>
       </table>
   </td>
@@ -940,12 +388,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l00110">DamageInfo()</a>, and <a class="el" href="../../#l00367">GetBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a92d500e09cf80873f1c9751841dede58" name="a92d500e09cf80873f1c9751841dede58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d500e09cf80873f1c9751841dede58">&#9670;&#160;</a></span>m_cleanDamage</h2>
+<a id="a6674c43b906e45e2ad29100a7ff06f44" name="a6674c43b906e45e2ad29100a7ff06f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6674c43b906e45e2ad29100a7ff06f44">&#9670;&#160;</a></span>_spellId</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -954,7 +402,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_cleanDamage</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuraMunchingQueue::_spellId</td>
         </tr>
       </table>
   </td>
@@ -964,12 +412,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a9b39c211a157092dbd0111ac46bef8a4" name="a9b39c211a157092dbd0111ac46bef8a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b39c211a157092dbd0111ac46bef8a4">&#9670;&#160;</a></span>m_damage</h2>
+<a id="a441b328296f0b7a75bdaee06d2cb94f1" name="a441b328296f0b7a75bdaee06d2cb94f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441b328296f0b7a75bdaee06d2cb94f1">&#9670;&#160;</a></span>_targetGUID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -978,7 +426,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_damage</td>
+          <td class="memname"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> AuraMunchingQueue::_targetGUID</td>
         </tr>
       </table>
   </td>
@@ -988,127 +436,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>, <a class="el" href="../../#l00145">ModifyDamage()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
-
-</div>
-</div>
-<a id="ae302e0157ce87497f71293c8687bc7aa" name="ae302e0157ce87497f71293c8687bc7aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae302e0157ce87497f71293c8687bc7aa">&#9670;&#160;</a></span>m_damageType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d4e/a04094.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> const DamageInfo::m_damageType</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00362">GetDamageType()</a>.</p>
-
-</div>
-</div>
-<a id="a1289951cae687d55bab2f12a8b37d8c3" name="a1289951cae687d55bab2f12a8b37d8c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1289951cae687d55bab2f12a8b37d8c3">&#9670;&#160;</a></span>m_resist</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_resist</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00110">DamageInfo()</a>, <a class="el" href="../../#l00366">GetResist()</a>, <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
-
-</div>
-</div>
-<a id="acda50525cdc0689191b74741331b6069" name="acda50525cdc0689191b74741331b6069"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acda50525cdc0689191b74741331b6069">&#9670;&#160;</a></span>m_schoolMask</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/dfb/a04472.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const DamageInfo::m_schoolMask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00361">GetSchoolMask()</a>.</p>
-
-</div>
-</div>
-<a id="a5a8ec67f5c136d0ae8822a6fa7766187" name="a5a8ec67f5c136d0ae8822a6fa7766187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a8ec67f5c136d0ae8822a6fa7766187">&#9670;&#160;</a></span>m_spellInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/df9/a10882.html">SpellInfo</a> const* const DamageInfo::m_spellInfo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00360">GetSpellInfo()</a>.</p>
-
-</div>
-</div>
-<a id="ae54a74b71d6ef3f9452b20d2e4aec4dc" name="ae54a74b71d6ef3f9452b20d2e4aec4dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae54a74b71d6ef3f9452b20d2e4aec4dc">&#9670;&#160;</a></span>m_victim</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/df3/a08502.html">Unit</a>* const DamageInfo::m_victim</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00359">GetVictim()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20273">Execute()</a>.</p>
 
 </div>
 </div>
@@ -1117,8 +445,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d06/a08466.html">DamageInfo</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dc/d06/a08466.html">AuraMunchingQueue</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

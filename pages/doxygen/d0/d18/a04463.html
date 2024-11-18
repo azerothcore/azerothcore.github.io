@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/shared/Realms/Realm.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AllMapScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,151 +107,81 @@ $(document).ready(function(){initNavTree('d0/d18/a04463.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Realm.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AllMapScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AsioHacksFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d09/a28074.html">RealmHandle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d50/a28078.html">Realm</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a09962.html">AllMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ace3f717ac43bef67791faeb2a0b2c1e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2">RealmFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a> = 0x00
+<tr class="memitem:a78db4e64fe232d8b547270090d8e3b92"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92">AllMapHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a> = 0x01
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a> = 0x02
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a> = 0x04
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a> = 0x08
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a> = 0x10
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a> = 0x20
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a> = 0x80
+&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:ace3f717ac43bef67791faeb2a0b2c1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8ff852caf6f88797c9c3716d1acbe59"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59">RealmType</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a> = 16
-<br />
- }</td></tr>
-<tr class="memdesc:ae8ff852caf6f88797c9c3716d1acbe59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of server, this is values from second column of Cfg_Configs.dbc.  <a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59">More...</a><br /></td></tr>
-<tr class="separator:ae8ff852caf6f88797c9c3716d1acbe59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a78db4e64fe232d8b547270090d8e3b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ace3f717ac43bef67791faeb2a0b2c1e2" name="ace3f717ac43bef67791faeb2a0b2c1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace3f717ac43bef67791faeb2a0b2c1e2">&#9670;&#160;</a></span>RealmFlags</h2>
+<a id="a78db4e64fe232d8b547270090d8e3b92" name="a78db4e64fe232d8b547270090d8e3b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78db4e64fe232d8b547270090d8e3b92">&#9670;&#160;</a></span>AllMapHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2">RealmFlags</a></td>
+          <td class="memname">enum <a class="el" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92">AllMapHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2" name="ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2"></a>REALM_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056" name="ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056"></a>REALM_FLAG_VERSION_MISMATCH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68" name="ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68"></a>REALM_FLAG_OFFLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903" name="ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903"></a>REALM_FLAG_SPECIFYBUILD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304" name="ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304"></a>REALM_FLAG_UNK1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81" name="ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81"></a>REALM_FLAG_UNK2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29" name="ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29"></a>REALM_FLAG_RECOMMENDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b" name="ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b"></a>REALM_FLAG_NEW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952" name="ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952"></a>REALM_FLAG_FULL&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa" name="a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa"></a>ALLMAPHOOK_ON_PLAYER_ENTER_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae" name="a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae"></a>ALLMAPHOOK_ON_PLAYER_LEAVE_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182" name="a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182"></a>ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0" name="a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0"></a>ALLMAPHOOK_ON_DESTROY_INSTANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02" name="a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02"></a>ALLMAPHOOK_ON_CREATE_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5" name="a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5"></a>ALLMAPHOOK_ON_DESTROY_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb" name="a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb"></a>ALLMAPHOOK_ON_MAP_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95" name="a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95"></a>ALLMAPHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a>             = 0x00,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a> = 0x01,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a>          = 0x02,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a>     = 0x04,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a>             = 0x08,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a>             = 0x10,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a>      = 0x20,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a>              = 0x40,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a>             = 0x80</div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a></div><div class="ttdeci">@ REALM_FLAG_NEW</div><div class="ttdef"><b>Definition:</b> Realm.h:34</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a></div><div class="ttdeci">@ REALM_FLAG_OFFLINE</div><div class="ttdef"><b>Definition:</b> Realm.h:29</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a></div><div class="ttdeci">@ REALM_FLAG_UNK1</div><div class="ttdef"><b>Definition:</b> Realm.h:31</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a></div><div class="ttdeci">@ REALM_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Realm.h:27</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a></div><div class="ttdeci">@ REALM_FLAG_UNK2</div><div class="ttdef"><b>Definition:</b> Realm.h:32</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a></div><div class="ttdeci">@ REALM_FLAG_VERSION_MISMATCH</div><div class="ttdef"><b>Definition:</b> Realm.h:28</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a></div><div class="ttdeci">@ REALM_FLAG_RECOMMENDED</div><div class="ttdef"><b>Definition:</b> Realm.h:33</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a></div><div class="ttdeci">@ REALM_FLAG_FULL</div><div class="ttdef"><b>Definition:</b> Realm.h:35</div></div>
-<div class="ttc" id="aa04463_html_ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903"><div class="ttname"><a href="../../d0/d18/a04463.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a></div><div class="ttdeci">@ REALM_FLAG_SPECIFYBUILD</div><div class="ttdef"><b>Definition:</b> Realm.h:30</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae8ff852caf6f88797c9c3716d1acbe59" name="ae8ff852caf6f88797c9c3716d1acbe59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8ff852caf6f88797c9c3716d1acbe59">&#9670;&#160;</a></span>RealmType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59">RealmType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type of server, this is values from second column of Cfg_Configs.dbc. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb" name="ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb"></a>REALM_TYPE_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c" name="ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c"></a>REALM_TYPE_PVP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19" name="ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19"></a>REALM_TYPE_NORMAL2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f" name="ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f"></a>REALM_TYPE_RP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae" name="ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae"></a>REALM_TYPE_RPPVP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be" name="ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be"></a>MAX_CLIENT_REALM_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457" name="ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457"></a>REALM_TYPE_FFA_PVP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a>       = 0,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a>          = 1,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a>      = 4,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a>           = 6,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a>        = 8,</div>
-<div class="line"><span class="lineno">   59</span> </div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a>   = 14,</div>
-<div class="line"><span class="lineno">   61</span> </div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a>      = 16 <span class="comment">// custom, free for all pvp mode like arena PvP in all zones except rest activated places and sanctuaries</span></div>
-<div class="line"><span class="lineno">   63</span>                                 <span class="comment">// replaced by REALM_PVP in realm list</span></div>
-<div class="line"><span class="lineno">   64</span>};</div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a></div><div class="ttdeci">@ REALM_TYPE_FFA_PVP</div><div class="ttdef"><b>Definition:</b> Realm.h:62</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a></div><div class="ttdeci">@ MAX_CLIENT_REALM_TYPE</div><div class="ttdef"><b>Definition:</b> Realm.h:60</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a></div><div class="ttdeci">@ REALM_TYPE_RPPVP</div><div class="ttdef"><b>Definition:</b> Realm.h:58</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a></div><div class="ttdeci">@ REALM_TYPE_PVP</div><div class="ttdef"><b>Definition:</b> Realm.h:55</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a></div><div class="ttdeci">@ REALM_TYPE_RP</div><div class="ttdef"><b>Definition:</b> Realm.h:57</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a></div><div class="ttdeci">@ REALM_TYPE_NORMAL2</div><div class="ttdef"><b>Definition:</b> Realm.h:56</div></div>
-<div class="ttc" id="aa04463_html_ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb"><div class="ttname"><a href="../../d0/d18/a04463.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a></div><div class="ttdeci">@ REALM_TYPE_NORMAL</div><div class="ttdef"><b>Definition:</b> Realm.h:54</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a></div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb">ALLMAPHOOK_ON_MAP_UPDATE</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_MAP_UPDATE</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:32</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5">ALLMAPHOOK_ON_DESTROY_MAP</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_DESTROY_MAP</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:31</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95">ALLMAPHOOK_END</a></div><div class="ttdeci">@ ALLMAPHOOK_END</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:33</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182">ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:28</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae">ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_PLAYER_LEAVE_ALL</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:27</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02">ALLMAPHOOK_ON_CREATE_MAP</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_CREATE_MAP</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:30</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0">ALLMAPHOOK_ON_DESTROY_INSTANCE</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_DESTROY_INSTANCE</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:29</div></div>
+<div class="ttc" id="aa04463_html_a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa"><div class="ttname"><a href="../../d0/d18/a04463.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa">ALLMAPHOOK_ON_PLAYER_ENTER_ALL</a></div><div class="ttdeci">@ ALLMAPHOOK_ON_PLAYER_ENTER_ALL</div><div class="ttdef"><b>Definition:</b> AllMapScript.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -260,8 +190,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_104b7121e64315d1b2361279804102a4.html">Realms</a></li><li class="navelem"><a class="el" href="../../d0/d18/a04463.html">Realm.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d0/d18/a04463.html">AllMapScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

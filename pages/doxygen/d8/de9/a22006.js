@@ -1,6 +1,7 @@
 var a22006 =
 [
-    [ "go_wg_vehicle_teleporterAI", "d5/dd0/a22010.html", "d5/dd0/a22010" ],
-    [ "go_wg_vehicle_teleporter", "d8/de9/a22006.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
-    [ "GetAI", "d8/de9/a22006.html#a113aaf42c095000c1a016bfe60df11e7", null ]
+    [ "npc_wg_quest_giver", "d8/de9/a22006.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
+    [ "GetDialogStatus", "d8/de9/a22006.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
+    [ "OnGossipHello", "d8/de9/a22006.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
+    [ "OnGossipSelect", "d8/de9/a22006.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
 ];

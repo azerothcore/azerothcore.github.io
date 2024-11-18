@@ -1,6 +1,6 @@
 var a11006 =
 [
-    [ "AuraDispelHandler", "d7/d4e/a11006.html#ab6e675b4db931c601b3d6aef65ae0ff6", null ],
-    [ "Call", "d7/d4e/a11006.html#a147d8a6d95f011f27600d052ef7b4000", null ],
-    [ "pHandlerScript", "d7/d4e/a11006.html#ab7dd73a36aa517354a023deb7db0cf19", null ]
+    [ "ObjectTargetSelectHandler", "d7/d4e/a11006.html#abe96c3e266375ab64f8dec54a047a5b8", null ],
+    [ "Call", "d7/d4e/a11006.html#a7e18103fb5c68b2cf85f54bf7caf4b3b", null ],
+    [ "pObjectTargetSelectHandlerScript", "d7/d4e/a11006.html#a6982985537c0ddb8dd79647766c9ae70", null ]
 ];

@@ -1,6 +1,6 @@
 var a23914 =
 [
-    [ "npc_shattrathflaskvendors", "dc/dd9/a23914.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "dc/dd9/a23914.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "dc/dd9/a23914.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "PrepareSpellScript", "dc/dd9/a23914.html#aa858fff409e5c75d865c91cb5fbef679", null ],
+    [ "Register", "dc/dd9/a23914.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
+    [ "SetDest", "dc/dd9/a23914.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
 ];

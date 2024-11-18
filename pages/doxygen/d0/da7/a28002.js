@@ -1,8 +1,7 @@
 var a28002 =
 [
-    [ "TimeSeg", "d0/da7/a28002.html#ab94639ba8e26b215ebd31163967574d3", null ],
-    [ "TransportEntry", "d0/da7/a28002.html#a859d25b3c11839ad7e37facd40dc79df", null ],
-    [ "X", "d0/da7/a28002.html#a8fbd166503396e33a4ad77448bf307ea", null ],
-    [ "Y", "d0/da7/a28002.html#a67c279b26cebd8e5c81c36576b145af6", null ],
-    [ "Z", "d0/da7/a28002.html#a680689c57479a2cc1ec72ab97204d3e7", null ]
+    [ "ClassMask", "d0/da7/a28002.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "d0/da7/a28002.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "d0/da7/a28002.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "d0/da7/a28002.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

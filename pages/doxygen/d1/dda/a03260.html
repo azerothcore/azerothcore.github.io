@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/ArenaTeamScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/Hyperlinks.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,74 +106,215 @@ $(document).ready(function(){initNavTree('d1/dda/a03260.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">ArenaTeamScript.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Hyperlinks.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Hyperlinks.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QuestDef.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5b/a09966.html">ArenaTeamScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d32/a07490.html">LinkValidator&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbf/a07494.html">LinkValidator&lt; LinkTags::achievement &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd7/a07498.html">LinkValidator&lt; LinkTags::item &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d15/a07502.html">LinkValidator&lt; LinkTags::quest &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d73/a07506.html">LinkValidator&lt; LinkTags::spell &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d12/a07510.html">LinkValidator&lt; LinkTags::enchant &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d83/a07514.html">LinkValidator&lt; LinkTags::glyph &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d13/a07518.html">LinkValidator&lt; LinkTags::talent &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d15/a07522.html">LinkValidator&lt; LinkTags::trade &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:adfb7077026efd17516d6b85637c2b218"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218">ArenaTeamHook</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc">ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9">ARENATEAMHOOK_ON_GET_ARENA_POINTS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7">ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b">ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6">ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7">ARENATEAMHOOK_END</a>
-<br />
- }</td></tr>
-<tr class="separator:adfb7077026efd17516d6b85637c2b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:af1c86bff85f30ff113d5f78421c280af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(T)&#160;&#160;&#160;do { if (info.tag == T::tag()) return <a class="el" href="../../d1/dda/a03260.html#a1021653ddd2d2e78df34d8c4a2a7ed93">ValidateAs</a>&lt;T&gt;(info); } while (0);</td></tr>
+<tr class="separator:af1c86bff85f30ff113d5f78421c280af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0b5e4d40ad5549ddc48c127306499b6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dda/a03260.html#a0b5e4d40ad5549ddc48c127306499b6c">toHex</a> (char c)</td></tr>
+<tr class="separator:a0b5e4d40ad5549ddc48c127306499b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1021653ddd2d2e78df34d8c4a2a7ed93"><td class="memTemplParams" colspan="2">template&lt;typename TAG &gt; </td></tr>
+<tr class="memitem:a1021653ddd2d2e78df34d8c4a2a7ed93"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/dda/a03260.html#a1021653ddd2d2e78df34d8c4a2a7ed93">ValidateAs</a> (<a class="el" href="../../d7/da3/a07590.html">HyperlinkInfo</a> const &amp;info)</td></tr>
+<tr class="separator:a1021653ddd2d2e78df34d8c4a2a7ed93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de61dd7d7c595063ae73f415e961cc9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dda/a03260.html#a7de61dd7d7c595063ae73f415e961cc9">ValidateLinkInfo</a> (<a class="el" href="../../d7/da3/a07590.html">HyperlinkInfo</a> const &amp;info)</td></tr>
+<tr class="separator:a7de61dd7d7c595063ae73f415e961cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="adfb7077026efd17516d6b85637c2b218" name="adfb7077026efd17516d6b85637c2b218"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfb7077026efd17516d6b85637c2b218">&#9670;&#160;</a></span>ArenaTeamHook</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af1c86bff85f30ff113d5f78421c280af" name="af1c86bff85f30ff113d5f78421c280af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c86bff85f30ff113d5f78421c280af">&#9670;&#160;</a></span>TryValidateAs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218">ArenaTeamHook</a></td>
+          <td class="memname">#define TryValidateAs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td>&#160;&#160;&#160;do { if (info.tag == T::tag()) return <a class="el" href="../../d1/dda/a03260.html#a1021653ddd2d2e78df34d8c4a2a7ed93">ValidateAs</a>&lt;T&gt;(info); } while (0);</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc" name="adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc"></a>ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9" name="adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9"></a>ARENATEAMHOOK_ON_GET_ARENA_POINTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7" name="adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7"></a>ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b" name="adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b"></a>ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6" name="adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6"></a>ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7" name="adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7"></a>ARENATEAMHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0b5e4d40ad5549ddc48c127306499b6c" name="a0b5e4d40ad5549ddc48c127306499b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5e4d40ad5549ddc48c127306499b6c">&#9670;&#160;</a></span>toHex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> toHex </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc">ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9">ARENATEAMHOOK_ON_GET_ARENA_POINTS</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7">ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b">ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6">ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM</a>,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7">ARENATEAMHOOK_END</a></div>
-<div class="line"><span class="lineno">   33</span>};</div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc">ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE</a></div><div class="ttdeci">@ ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:27</div></div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9">ARENATEAMHOOK_ON_GET_ARENA_POINTS</a></div><div class="ttdeci">@ ARENATEAMHOOK_ON_GET_ARENA_POINTS</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:28</div></div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7">ARENATEAMHOOK_END</a></div><div class="ttdeci">@ ARENATEAMHOOK_END</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:32</div></div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b">ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE</a></div><div class="ttdeci">@ ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:30</div></div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6">ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM</a></div><div class="ttdeci">@ ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:31</div></div>
-<div class="ttc" id="aa03260_html_adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7"><div class="ttname"><a href="../../d1/dda/a03260.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7">ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID</a></div><div class="ttdeci">@ ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID</div><div class="ttdef"><b>Definition:</b> ArenaTeamScript.h:29</div></div>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{ <span class="keywordflow">return</span> (c &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;9&#39;</span>) ? c - <span class="charliteral">&#39;0&#39;</span> + 0x10 : (c &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;f&#39;</span>) ? c - <span class="charliteral">&#39;a&#39;</span> + 0x1a : 0x00; }</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00033">Acore::Hyperlinks::ParseSingleHyperlink()</a>.</p>
+
+</div>
+</div>
+<a id="a1021653ddd2d2e78df34d8c4a2a7ed93" name="a1021653ddd2d2e78df34d8c4a2a7ed93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1021653ddd2d2e78df34d8c4a2a7ed93">&#9670;&#160;</a></span>ValidateAs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAG &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ValidateAs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/da3/a07590.html">HyperlinkInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  328</span>{</div>
+<div class="line"><span class="lineno">  329</span>    std::decay_t&lt;typename TAG::value_type&gt; t;</div>
+<div class="line"><span class="lineno">  330</span>    <span class="keywordflow">if</span> (!TAG::StoreTo(t, info.data))</div>
+<div class="line"><span class="lineno">  331</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <span class="keyword">const</span> severity = <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a><span class="keyword">&gt;</span>(<a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41ada984dfcac8d4e8bf4f4f9d1409857e4">CONFIG_CHAT_STRICT_LINK_CHECKING_SEVERITY</a>));</div>
+<div class="line"><span class="lineno">  334</span>    <span class="keywordflow">if</span> (severity &gt;= 0)</div>
+<div class="line"><span class="lineno">  335</span>    {</div>
+<div class="line"><span class="lineno">  336</span>        <span class="keywordflow">if</span> (!<a class="code hl_struct" href="../../d2/d32/a07490.html">LinkValidator&lt;TAG&gt;::IsColorValid</a>(t, info.color))</div>
+<div class="line"><span class="lineno">  337</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>        <span class="keywordflow">if</span> (severity &gt;= 1)</div>
+<div class="line"><span class="lineno">  340</span>        {</div>
+<div class="line"><span class="lineno">  341</span>            <span class="keywordflow">if</span> (!<a class="code hl_struct" href="../../d2/d32/a07490.html">LinkValidator&lt;TAG&gt;::IsTextValid</a>(t, info.text))</div>
+<div class="line"><span class="lineno">  342</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  343</span>        }</div>
+<div class="line"><span class="lineno">  344</span>    }</div>
+<div class="line"><span class="lineno">  345</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  346</span>}</div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41ada984dfcac8d4e8bf4f4f9d1409857e4"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41ada984dfcac8d4e8bf4f4f9d1409857e4">CONFIG_CHAT_STRICT_LINK_CHECKING_SEVERITY</a></div><div class="ttdeci">@ CONFIG_CHAT_STRICT_LINK_CHECKING_SEVERITY</div><div class="ttdef"><b>Definition:</b> IWorld.h:288</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
+<div class="ttc" id="aa07490_html"><div class="ttname"><a href="../../d2/d32/a07490.html">LinkValidator</a></div><div class="ttdef"><b>Definition:</b> Hyperlinks.cpp:106</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00243">Acore::Hyperlinks::HyperlinkInfo::color</a>, <a class="el" href="../../#l00288">CONFIG_CHAT_STRICT_LINK_CHECKING_SEVERITY</a>, <a class="el" href="../../#l00245">Acore::Hyperlinks::HyperlinkInfo::data</a>, <a class="el" href="../../#l00443">sWorld</a>, and <a class="el" href="../../#l00246">Acore::Hyperlinks::HyperlinkInfo::text</a>.</p>
+
+</div>
+</div>
+<a id="a7de61dd7d7c595063ae73f415e961cc9" name="a7de61dd7d7c595063ae73f415e961cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de61dd7d7c595063ae73f415e961cc9">&#9670;&#160;</a></span>ValidateLinkInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ValidateLinkInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/da3/a07590.html">HyperlinkInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  351</span>{</div>
+<div class="line"><span class="lineno">  352</span>    <span class="keyword">using namespace </span>LinkTags;</div>
+<div class="line"><span class="lineno">  353</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(achievement);</div>
+<div class="line"><span class="lineno">  354</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(area);</div>
+<div class="line"><span class="lineno">  355</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(areatrigger);</div>
+<div class="line"><span class="lineno">  356</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(creature);</div>
+<div class="line"><span class="lineno">  357</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(creature_entry);</div>
+<div class="line"><span class="lineno">  358</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(enchant);</div>
+<div class="line"><span class="lineno">  359</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(gameevent);</div>
+<div class="line"><span class="lineno">  360</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(gameobject);</div>
+<div class="line"><span class="lineno">  361</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(gameobject_entry);</div>
+<div class="line"><span class="lineno">  362</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(glyph);</div>
+<div class="line"><span class="lineno">  363</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(item);</div>
+<div class="line"><span class="lineno">  364</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(itemset);</div>
+<div class="line"><span class="lineno">  365</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(player);</div>
+<div class="line"><span class="lineno">  366</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(quest);</div>
+<div class="line"><span class="lineno">  367</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(skill);</div>
+<div class="line"><span class="lineno">  368</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(spell);</div>
+<div class="line"><span class="lineno">  369</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(talent);</div>
+<div class="line"><span class="lineno">  370</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(taxinode);</div>
+<div class="line"><span class="lineno">  371</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(tele);</div>
+<div class="line"><span class="lineno">  372</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(title);</div>
+<div class="line"><span class="lineno">  373</span>    <a class="code hl_define" href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a>(trade);</div>
+<div class="line"><span class="lineno">  374</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  375</span>}</div>
+<div class="ttc" id="aa03260_html_af1c86bff85f30ff113d5f78421c280af"><div class="ttname"><a href="../../d1/dda/a03260.html#af1c86bff85f30ff113d5f78421c280af">TryValidateAs</a></div><div class="ttdeci">#define TryValidateAs(T)</div><div class="ttdef"><b>Definition:</b> Hyperlinks.cpp:348</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00348">TryValidateAs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00378">Acore::Hyperlinks::CheckAllLinks()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -181,8 +322,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d1/dda/a03260.html">ArenaTeamScript.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../d1/dda/a03260.html">Hyperlinks.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

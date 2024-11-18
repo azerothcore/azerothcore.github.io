@@ -1,17 +1,13 @@
 var a05302 =
 [
-    [ "Thread", "db/dd7/a05302.html#a95c703fb8f2f27cb64f475a8c940864a", null ],
-    [ "Thread", "db/dd7/a05302.html#a72d9240b0f28a378bf0e05e97918e25a", null ],
-    [ "~Thread", "db/dd7/a05302.html#a37d9edd3a1a776cbc27dedff949c9726", null ],
-    [ "Thread", "db/dd7/a05302.html#ae65c99228766cc135c8dad74af50120e", null ],
-    [ "currentId", "db/dd7/a05302.html#a65c7edbd9a1a3ed492485013d1baaf8d", null ],
-    [ "destroy", "db/dd7/a05302.html#a4ee8270c681c7faf3d3a6b8271f31796", null ],
-    [ "operator=", "db/dd7/a05302.html#a79ab3cf5b994c65dc196e2c154fabe7a", null ],
-    [ "setPriority", "db/dd7/a05302.html#a4dcbafab5741b819852d6702e5b09369", null ],
-    [ "Sleep", "db/dd7/a05302.html#addc70b7462f6fe4e51e136176f05a6b8", null ],
-    [ "ThreadTask", "db/dd7/a05302.html#a3e9a687df7ed593abc33f5e5897125e5", null ],
-    [ "wait", "db/dd7/a05302.html#a29758de9c29e1437e234ab8d2a3e07d0", null ],
-    [ "m_iThreadId", "db/dd7/a05302.html#a997822ac4937e995c085c0554ca48d53", null ],
-    [ "m_task", "db/dd7/a05302.html#afa81b66db9223412b20be34f2ee1651f", null ],
-    [ "m_ThreadImp", "db/dd7/a05302.html#ac2b69bbcfc8f20ac6aa2e517311b2861", null ]
+    [ "MPSCQueueIntrusive", "db/dd7/a05302.html#a8e05361abed759932c49b0fc71ed09c1", null ],
+    [ "~MPSCQueueIntrusive", "db/dd7/a05302.html#a8155857825ceb1b7154ea82a63dbce08", null ],
+    [ "MPSCQueueIntrusive", "db/dd7/a05302.html#afaee06af7734e53ce50674e4ef7277b2", null ],
+    [ "Dequeue", "db/dd7/a05302.html#a798e36f41ef34c226690f76e9dc03fd6", null ],
+    [ "Enqueue", "db/dd7/a05302.html#a233004b906cfa66cdd285233105dddf7", null ],
+    [ "operator=", "db/dd7/a05302.html#a93cdd07d00b7dff8a7da5bf4846b26c7", null ],
+    [ "_dummy", "db/dd7/a05302.html#ad4d3a9cebe46fc524e474b7854a20b03", null ],
+    [ "_dummyPtr", "db/dd7/a05302.html#a115e9affe6159ae8aa08c6fc358e400c", null ],
+    [ "_head", "db/dd7/a05302.html#a7fb32fbb507e82f9e8a6c1691e281fcd", null ],
+    [ "_tail", "db/dd7/a05302.html#ac7e333db415e6301a02052c53779d1d4", null ]
 ];

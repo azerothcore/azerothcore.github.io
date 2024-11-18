@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Cache/WhoListCacheMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Conditions/ConditionMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,42 +107,273 @@ $(document).ready(function(){initNavTree('dd/d51/a03842.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">WhoListCacheMgr.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">ConditionMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;list&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd4/a07226.html">WhoListPlayerInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da6/a07642.html">ConditionSourceInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da4/a07230.html">WhoListCacheMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddb/a07646.html">Condition</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d69/a07650.html">ConditionMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aae5ef4cf031d5523b7d5fda6d83af41a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#aae5ef4cf031d5523b7d5fda6d83af41a">sWhoListCacheMgr</a>&#160;&#160;&#160;<a class="el" href="../../d2/da4/a07230.html#a1e8ce970e3213cd0361af303df98b387">WhoListCacheMgr::instance</a>()</td></tr>
-<tr class="separator:aae5ef4cf031d5523b7d5fda6d83af41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab0412c3dc24dbd690ba6d7f01657f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a5ab0412c3dc24dbd690ba6d7f01657f8">sConditionMgr</a>&#160;&#160;&#160;<a class="el" href="../../dd/d69/a07650.html#a45c35988ebac603c3832989ae9ab430e">ConditionMgr::instance</a>()</td></tr>
+<tr class="separator:a5ab0412c3dc24dbd690ba6d7f01657f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a88bd249c0903724edb2c2d5416962534"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a> = std::vector&lt; <a class="el" href="../../d8/dd4/a07226.html">WhoListPlayerInfo</a> &gt;</td></tr>
-<tr class="separator:a88bd249c0903724edb2c2d5416962534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae942a8e25dc24ce42e62625bb583c0dd"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../dc/ddb/a07646.html">Condition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a></td></tr>
+<tr class="separator:ae942a8e25dc24ce42e62625bb583c0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfef73cf0a88e6988a11fe7bb7fc304"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a></td></tr>
+<tr class="separator:aedfef73cf0a88e6988a11fe7bb7fc304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7de5903549b8835c25b25ec3a5733c9"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7f">ConditionSourceType</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#ad7de5903549b8835c25b25ec3a5733c9">ConditionContainer</a></td></tr>
+<tr class="separator:ad7de5903549b8835c25b25ec3a5733c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a317eb8f1d57e5785c50fa5daae5e4ae0"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a317eb8f1d57e5785c50fa5daae5e4ae0">CreatureSpellConditionContainer</a></td></tr>
+<tr class="separator:a317eb8f1d57e5785c50fa5daae5e4ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203c8d1beea6adbb85a8d09146f78093"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a203c8d1beea6adbb85a8d09146f78093">NpcVendorConditionContainer</a></td></tr>
+<tr class="separator:a203c8d1beea6adbb85a8d09146f78093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfa94c93c90adfe4347841af180cbec"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::pair&lt; <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#abdfa94c93c90adfe4347841af180cbec">SmartEventConditionContainer</a></td></tr>
+<tr class="separator:abdfa94c93c90adfe4347841af180cbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c1f0e761de822234ec4585acaf1d999"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a4c1f0e761de822234ec4585acaf1d999">ConditionReferenceContainer</a></td></tr>
+<tr class="separator:a4c1f0e761de822234ec4585acaf1d999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aab5835ceff4b64ce6db4148256e0a0f0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0">ConditionTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12">CONDITION_NONE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a">CONDITION_AURA</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36">CONDITION_ITEM</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a">CONDITION_ITEM_EQUIPPED</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3">CONDITION_ZONEID</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb">CONDITION_REPUTATION_RANK</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642">CONDITION_TEAM</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696">CONDITION_SKILL</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be">CONDITION_QUESTREWARDED</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635">CONDITION_QUESTTAKEN</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016">CONDITION_DRUNKENSTATE</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8">CONDITION_WORLD_STATE</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8">CONDITION_ACTIVE_EVENT</a> = 12
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa">CONDITION_INSTANCE_INFO</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26">CONDITION_QUEST_NONE</a> = 14
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1">CONDITION_CLASS</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee">CONDITION_RACE</a> = 16
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755">CONDITION_ACHIEVEMENT</a> = 17
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40">CONDITION_TITLE</a> = 18
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b">CONDITION_SPAWNMASK</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc">CONDITION_GENDER</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6">CONDITION_UNIT_STATE</a> = 21
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c">CONDITION_MAPID</a> = 22
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc">CONDITION_AREAID</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6">CONDITION_CREATURE_TYPE</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04">CONDITION_SPELL</a> = 25
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200">CONDITION_PHASEMASK</a> = 26
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a">CONDITION_LEVEL</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c">CONDITION_QUEST_COMPLETE</a> = 28
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a">CONDITION_NEAR_CREATURE</a> = 29
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8">CONDITION_NEAR_GAMEOBJECT</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a">CONDITION_OBJECT_ENTRY_GUID</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a">CONDITION_TYPE_MASK</a> = 32
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf">CONDITION_RELATION_TO</a> = 33
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26">CONDITION_REACTION_TO</a> = 34
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd">CONDITION_DISTANCE_TO</a> = 35
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5">CONDITION_ALIVE</a> = 36
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d">CONDITION_HP_VAL</a> = 37
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f">CONDITION_HP_PCT</a> = 38
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8">CONDITION_REALM_ACHIEVEMENT</a> = 39
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428">CONDITION_IN_WATER</a> = 40
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625">CONDITION_TERRAIN_SWAP</a> = 41
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d">CONDITION_STAND_STATE</a> = 42
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29">CONDITION_DAILY_QUEST_DONE</a> = 43
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c">CONDITION_CHARMED</a> = 44
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9">CONDITION_PET_TYPE</a> = 45
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974">CONDITION_TAXI</a> = 46
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3">CONDITION_QUESTSTATE</a> = 47
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a">CONDITION_QUEST_OBJECTIVE_PROGRESS</a> = 48
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990">CONDITION_DIFFICULTY_ID</a> = 49
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9">CONDITION_TC_END</a> = 50
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65">CONDITION_AC_START</a> = 100
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8">CONDITION_QUEST_SATISFY_EXCLUSIVE</a> = 101
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76">CONDITION_HAS_AURA_TYPE</a> = 102
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d">CONDITION_WORLD_SCRIPT</a> = 103
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9">CONDITION_AC_END</a> = 104
+<br />
+ }</td></tr>
+<tr class="separator:aab5835ceff4b64ce6db4148256e0a0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba040e3c1f6efbefb512efb9bd69a7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7f">ConditionSourceType</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53">CONDITION_SOURCE_TYPE_NONE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb">CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966">CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094">CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824">CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf">CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191">CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed">CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e">CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7">CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d">CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f">CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968">CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE</a> = 12
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba">CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234">CONDITION_SOURCE_TYPE_GOSSIP_MENU</a> = 14
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a">CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624">CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</a> = 16
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975">CONDITION_SOURCE_TYPE_SPELL</a> = 17
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003">CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT</a> = 18
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb">CONDITION_SOURCE_TYPE_QUEST_AVAILABLE</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85">CONDITION_SOURCE_TYPE_UNUSED_20</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a">CONDITION_SOURCE_TYPE_VEHICLE_SPELL</a> = 21
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597">CONDITION_SOURCE_TYPE_SMART_EVENT</a> = 22
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588">CONDITION_SOURCE_TYPE_NPC_VENDOR</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843">CONDITION_SOURCE_TYPE_SPELL_PROC</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af">CONDITION_SOURCE_TYPE_TERRAIN_SWAP</a> = 25
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6">CONDITION_SOURCE_TYPE_PHASE</a> = 26
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5">CONDITION_SOURCE_TYPE_GRAVEYARD</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1">CONDITION_SOURCE_TYPE_PLAYER_LOOT_TEMPLATE</a> = 28
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b">CONDITION_SOURCE_TYPE_CREATURE_RESPAWN</a> = 29
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252">CONDITION_SOURCE_TYPE_CREATURE_VISIBILITY</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf">CONDITION_SOURCE_TYPE_MAX</a> = 31
+<br />
+ }</td></tr>
+<tr class="separator:a5ba040e3c1f6efbefb512efb9bd69a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9640666d0d789fef4ba0b6a02f6b4a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4a">RelationType</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680">RELATION_SELF</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7">RELATION_IN_PARTY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9">RELATION_IN_RAID_OR_PARTY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55">RELATION_OWNED_BY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482">RELATION_PASSENGER_OF</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493">RELATION_CREATED_BY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676">RELATION_MAX</a>
+<br />
+ }</td></tr>
+<tr class="separator:afe9640666d0d789fef4ba0b6a02f6b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c9edff7d630e15fff711b8eb0a130c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130c">InstanceInfo</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479">INSTANCE_INFO_DATA</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea">INSTANCE_INFO_GUID_DATA</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e">INSTANCE_INFO_BOSS_STATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c">INSTANCE_INFO_DATA64</a>
+<br />
+ }</td></tr>
+<tr class="separator:a71c9edff7d630e15fff711b8eb0a130c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c1893697b201be6423e3534d866636"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../dd/d51/a03842.html#a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376">MAX_CONDITION_TARGETS</a> = 3
+ }</td></tr>
+<tr class="separator:a85c1893697b201be6423e3534d866636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aae5ef4cf031d5523b7d5fda6d83af41a" name="aae5ef4cf031d5523b7d5fda6d83af41a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae5ef4cf031d5523b7d5fda6d83af41a">&#9670;&#160;</a></span>sWhoListCacheMgr</h2>
+<a id="a5ab0412c3dc24dbd690ba6d7f01657f8" name="a5ab0412c3dc24dbd690ba6d7f01657f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ab0412c3dc24dbd690ba6d7f01657f8">&#9670;&#160;</a></span>sConditionMgr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sWhoListCacheMgr&#160;&#160;&#160;<a class="el" href="../../d2/da4/a07230.html#a1e8ce970e3213cd0361af303df98b387">WhoListCacheMgr::instance</a>()</td>
+          <td class="memname">#define sConditionMgr&#160;&#160;&#160;<a class="el" href="../../dd/d69/a07650.html#a45c35988ebac603c3832989ae9ab430e">ConditionMgr::instance</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -150,18 +381,506 @@ Typedefs</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a88bd249c0903724edb2c2d5416962534" name="a88bd249c0903724edb2c2d5416962534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88bd249c0903724edb2c2d5416962534">&#9670;&#160;</a></span>WhoListInfoVector</h2>
+<a id="ad7de5903549b8835c25b25ec3a5733c9" name="ad7de5903549b8835c25b25ec3a5733c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7de5903549b8835c25b25ec3a5733c9">&#9670;&#160;</a></span>ConditionContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/d51/a03842.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a> =  std::vector&lt;<a class="el" href="../../d8/dd4/a07226.html">WhoListPlayerInfo</a>&gt;</td>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7f">ConditionSourceType</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a>&gt; <a class="el" href="../../dd/d51/a03842.html#ad7de5903549b8835c25b25ec3a5733c9">ConditionContainer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ae942a8e25dc24ce42e62625bb583c0dd" name="ae942a8e25dc24ce42e62625bb583c0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae942a8e25dc24ce42e62625bb583c0dd">&#9670;&#160;</a></span>ConditionList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::list&lt;<a class="el" href="../../dc/ddb/a07646.html">Condition</a>*&gt; <a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c1f0e761de822234ec4585acaf1d999" name="a4c1f0e761de822234ec4585acaf1d999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1f0e761de822234ec4585acaf1d999">&#9670;&#160;</a></span>ConditionReferenceContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a>&gt; <a class="el" href="../../dd/d51/a03842.html#a4c1f0e761de822234ec4585acaf1d999">ConditionReferenceContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedfef73cf0a88e6988a11fe7bb7fc304" name="aedfef73cf0a88e6988a11fe7bb7fc304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfef73cf0a88e6988a11fe7bb7fc304">&#9670;&#160;</a></span>ConditionTypeContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a>&gt; <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a317eb8f1d57e5785c50fa5daae5e4ae0" name="a317eb8f1d57e5785c50fa5daae5e4ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a317eb8f1d57e5785c50fa5daae5e4ae0">&#9670;&#160;</a></span>CreatureSpellConditionContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a>&gt; <a class="el" href="../../dd/d51/a03842.html#a317eb8f1d57e5785c50fa5daae5e4ae0">CreatureSpellConditionContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a203c8d1beea6adbb85a8d09146f78093" name="a203c8d1beea6adbb85a8d09146f78093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203c8d1beea6adbb85a8d09146f78093">&#9670;&#160;</a></span>NpcVendorConditionContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a>&gt; <a class="el" href="../../dd/d51/a03842.html#a203c8d1beea6adbb85a8d09146f78093">NpcVendorConditionContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdfa94c93c90adfe4347841af180cbec" name="abdfa94c93c90adfe4347841af180cbec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfa94c93c90adfe4347841af180cbec">&#9670;&#160;</a></span>SmartEventConditionContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;std::pair&lt;<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;, <a class="el" href="../../dd/d51/a03842.html#aedfef73cf0a88e6988a11fe7bb7fc304">ConditionTypeContainer</a>&gt; <a class="el" href="../../dd/d51/a03842.html#abdfa94c93c90adfe4347841af180cbec">SmartEventConditionContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a85c1893697b201be6423e3534d866636" name="a85c1893697b201be6423e3534d866636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85c1893697b201be6423e3534d866636">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376" name="a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376"></a>MAX_CONDITION_TARGETS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  177</span>{</div>
+<div class="line"><span class="lineno">  178</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376">MAX_CONDITION_TARGETS</a> = 3,</div>
+<div class="line"><span class="lineno">  179</span>};</div>
+<div class="ttc" id="aa03842_html_a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376"><div class="ttname"><a href="../../dd/d51/a03842.html#a85c1893697b201be6423e3534d866636a153d6f442357998ef78b878dacace376">MAX_CONDITION_TARGETS</a></div><div class="ttdeci">@ MAX_CONDITION_TARGETS</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:178</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5ba040e3c1f6efbefb512efb9bd69a7f" name="a5ba040e3c1f6efbefb512efb9bd69a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba040e3c1f6efbefb512efb9bd69a7f">&#9670;&#160;</a></span>ConditionSourceType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7f">ConditionSourceType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Documentation on implementing a new ConditionSourceType: Step 1: Check for the lowest free ID. Look for CONDITION_SOURCE_TYPE_UNUSED_XX in the enum. Then define the new source type.</p>
+<p >Step 2: Determine and map the parameters for the new condition source type.</p>
+<p >Step 3: Add a case block to <a class="el" href="../../dd/d69/a07650.html#a99dad9182b2e88287f8e11b34ad66dd4">ConditionMgr::isSourceTypeValid</a> with the new condition type and validate the parameters.</p>
+<p >Step 4: If your condition can be grouped (determined in step 2), add a rule for it in <a class="el" href="../../dd/d69/a07650.html#a211b7abd42fadc98fecabf9535a44503">ConditionMgr::CanHaveSourceGroupSet</a>, following the example of the existing types.</p>
+<p >Step 5: Define the maximum available condition targets in ConditionMgr::GetMaxAvailableConditionTargets.</p>
+<p >The following steps only apply if your condition can be grouped:</p>
+<p >Step 6: Determine how you are going to store your conditions. You need to add a new storage container for it in <a class="el" href="../../dd/d69/a07650.html">ConditionMgr</a> class, along with a function like: ConditionList GetConditionsForXXXYourNewSourceTypeXXX(parameters...)</p>
+<p >The above function should be placed in upper level (practical) code that actually checks the conditions.</p>
+<p >Step 7: Implement loading for your source type in <a class="el" href="../../dd/d69/a07650.html#afef825ca94a043d238af8cd4ae2acda4">ConditionMgr::LoadConditions</a>.</p>
+<p >Step 8: Implement memory cleaning for your source type in <a class="el" href="../../dd/d69/a07650.html#af0b22cd7f4714bb1329bceb9486f5d2e">ConditionMgr::Clean</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53" name="a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53"></a>CONDITION_SOURCE_TYPE_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb" name="a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb"></a>CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966" name="a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966"></a>CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094" name="a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094"></a>CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824" name="a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824"></a>CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf" name="a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf"></a>CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191" name="a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191"></a>CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed" name="a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed"></a>CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e" name="a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e"></a>CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7" name="a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7"></a>CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d" name="a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d"></a>CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f" name="a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f"></a>CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968" name="a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968"></a>CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba" name="a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba"></a>CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234" name="a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234"></a>CONDITION_SOURCE_TYPE_GOSSIP_MENU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a" name="a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a"></a>CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624" name="a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624"></a>CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975" name="a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975"></a>CONDITION_SOURCE_TYPE_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003" name="a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003"></a>CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb" name="a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb"></a>CONDITION_SOURCE_TYPE_QUEST_AVAILABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85" name="a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85"></a>CONDITION_SOURCE_TYPE_UNUSED_20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a" name="a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a"></a>CONDITION_SOURCE_TYPE_VEHICLE_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597" name="a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597"></a>CONDITION_SOURCE_TYPE_SMART_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588" name="a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588"></a>CONDITION_SOURCE_TYPE_NPC_VENDOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843" name="a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843"></a>CONDITION_SOURCE_TYPE_SPELL_PROC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af" name="a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af"></a>CONDITION_SOURCE_TYPE_TERRAIN_SWAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6" name="a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6"></a>CONDITION_SOURCE_TYPE_PHASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5" name="a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5"></a>CONDITION_SOURCE_TYPE_GRAVEYARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1" name="a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1"></a>CONDITION_SOURCE_TYPE_PLAYER_LOOT_TEMPLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b" name="a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b"></a>CONDITION_SOURCE_TYPE_CREATURE_RESPAWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252" name="a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252"></a>CONDITION_SOURCE_TYPE_CREATURE_VISIBILITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf" name="a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf"></a>CONDITION_SOURCE_TYPE_MAX&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  122</span>{</div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53">CONDITION_SOURCE_TYPE_NONE</a>                           = 0,</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb">CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</a>         = 1,</div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966">CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE</a>       = 2,</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094">CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE</a>          = 3,</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824">CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE</a>       = 4,</div>
+<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf">CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE</a>             = 5,</div>
+<div class="line"><span class="lineno">  129</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191">CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE</a>             = 6,</div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed">CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE</a>          = 7,</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e">CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE</a>    = 8,</div>
+<div class="line"><span class="lineno">  132</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7">CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE</a>      = 9,</div>
+<div class="line"><span class="lineno">  133</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d">CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE</a>        = 10,</div>
+<div class="line"><span class="lineno">  134</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f">CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE</a>         = 11,</div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968">CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE</a>            = 12,</div>
+<div class="line"><span class="lineno">  136</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba">CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</a>          = 13,</div>
+<div class="line"><span class="lineno">  137</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234">CONDITION_SOURCE_TYPE_GOSSIP_MENU</a>                    = 14,</div>
+<div class="line"><span class="lineno">  138</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a">CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</a>             = 15,</div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624">CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</a>      = 16,</div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975">CONDITION_SOURCE_TYPE_SPELL</a>                          = 17,</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003">CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT</a>              = 18,</div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb">CONDITION_SOURCE_TYPE_QUEST_AVAILABLE</a>                = 19,</div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85">CONDITION_SOURCE_TYPE_UNUSED_20</a>                      = 20, <span class="comment">// placeholder</span></div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a">CONDITION_SOURCE_TYPE_VEHICLE_SPELL</a>                  = 21,</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597">CONDITION_SOURCE_TYPE_SMART_EVENT</a>                    = 22,</div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588">CONDITION_SOURCE_TYPE_NPC_VENDOR</a>                     = 23,</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843">CONDITION_SOURCE_TYPE_SPELL_PROC</a>                     = 24,</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af">CONDITION_SOURCE_TYPE_TERRAIN_SWAP</a>                   = 25, <span class="comment">// don&#39;t use on 3.3.5a</span></div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6">CONDITION_SOURCE_TYPE_PHASE</a>                          = 26, <span class="comment">// don&#39;t use on 3.3.5a</span></div>
+<div class="line"><span class="lineno">  150</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5">CONDITION_SOURCE_TYPE_GRAVEYARD</a>                      = 27, <span class="comment">// don&#39;t use on 3.3.5a</span></div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1">CONDITION_SOURCE_TYPE_PLAYER_LOOT_TEMPLATE</a>           = 28,</div>
+<div class="line"><span class="lineno">  152</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b">CONDITION_SOURCE_TYPE_CREATURE_RESPAWN</a>               = 29,</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252">CONDITION_SOURCE_TYPE_CREATURE_VISIBILITY</a>            = 30,</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf">CONDITION_SOURCE_TYPE_MAX</a>                            = 31 <span class="comment">// placeholder</span></div>
+<div class="line"><span class="lineno">  155</span>};</div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa03112fd4a7d26eee1c19d0bed88a1252">CONDITION_SOURCE_TYPE_CREATURE_VISIBILITY</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_CREATURE_VISIBILITY</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:153</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa09928ae648990e92c2e2c4636dcf20cf">CONDITION_SOURCE_TYPE_MAX</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_MAX</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:154</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa0c1e8f75b594d570e01c08ee7904941a">CONDITION_SOURCE_TYPE_VEHICLE_SPELL</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_VEHICLE_SPELL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:144</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa1f5a0a3e4029ccc99fb1c064f7bb2966">CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:125</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa256256334e7248e629f7e9b3e46b7a1d">CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:133</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa37866f2117a07a9d45dab441f33647af">CONDITION_SOURCE_TYPE_TERRAIN_SWAP</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_TERRAIN_SWAP</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:148</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39890b6018a36386cee820c5c5d4b588">CONDITION_SOURCE_TYPE_NPC_VENDOR</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_NPC_VENDOR</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:146</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa39dcf73133a04df4cd96f4e71b4f034a">CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:138</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa3a2a275e4c42e0e1191b9196b141f003">CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:141</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa489db50a1a11e038d8c169a43469d191">CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:129</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5034e6817eb9667302601ea6a24c6ec6">CONDITION_SOURCE_TYPE_PHASE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_PHASE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:149</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa52afa855ce9210293720109f9e5e3968">CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:135</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa5bf0865be8b0cc0ee949e4ea3b6f4597">CONDITION_SOURCE_TYPE_SMART_EVENT</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SMART_EVENT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:145</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6b2a53c31569f588860df2126814887e">CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:131</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fa6e1f4448ed7bb110a2722d38018b4cc7">CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:132</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab433bd63ced2d7b9d1794d868aaf0975">CONDITION_SOURCE_TYPE_SPELL</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SPELL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:140</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fab4f5fa92bb2538f4b1256930dcdf6094">CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:126</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1059d4a0e02ed68ac1bbf39c408f234">CONDITION_SOURCE_TYPE_GOSSIP_MENU</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_GOSSIP_MENU</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:137</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624">CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:139</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fac5d298d7b12c8cf54f4d9874d3a752bf">CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:128</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad2bc080e784236b0b3b50c12a9770cba">CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:136</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fad7fd8228a27e43e397b582900da23be5">CONDITION_SOURCE_TYPE_GRAVEYARD</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_GRAVEYARD</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:150</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae05bf66f17b0ae12099dd06fd8fe663b">CONDITION_SOURCE_TYPE_CREATURE_RESPAWN</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_CREATURE_RESPAWN</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:152</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fae06b8a3a1af708856bb1caa1c84afe8f">CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:134</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec4ffb3080e8e29725c2061a190b7cdb">CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:124</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faec5ec463cb39f566d571c9d4d4083824">CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:127</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faed815ad33055c47851099c82c07932f1">CONDITION_SOURCE_TYPE_PLAYER_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_PLAYER_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:151</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf2071663de62aaee1a92f9cf84f578ed">CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:130</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faf346b42db2a33729fa82322e5b422843">CONDITION_SOURCE_TYPE_SPELL_PROC</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_SPELL_PROC</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:147</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7fafb0ed10b5ee9fbab98e1cf21c0656d85">CONDITION_SOURCE_TYPE_UNUSED_20</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_UNUSED_20</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:143</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff018c19627d2a3c3767b8c3665cd1eb">CONDITION_SOURCE_TYPE_QUEST_AVAILABLE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_QUEST_AVAILABLE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:142</div></div>
+<div class="ttc" id="aa03842_html_a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53"><div class="ttname"><a href="../../dd/d51/a03842.html#a5ba040e3c1f6efbefb512efb9bd69a7faff449b5123285287f62d0c80459a9f53">CONDITION_SOURCE_TYPE_NONE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_NONE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:123</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aab5835ceff4b64ce6db4148256e0a0f0" name="aab5835ceff4b64ce6db4148256e0a0f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5835ceff4b64ce6db4148256e0a0f0">&#9670;&#160;</a></span>ConditionTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0">ConditionTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12" name="aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12"></a>CONDITION_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a" name="aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a"></a>CONDITION_AURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36" name="aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36"></a>CONDITION_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a" name="aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a"></a>CONDITION_ITEM_EQUIPPED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3" name="aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3"></a>CONDITION_ZONEID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb" name="aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb"></a>CONDITION_REPUTATION_RANK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642" name="aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642"></a>CONDITION_TEAM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696" name="aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696"></a>CONDITION_SKILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be" name="aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be"></a>CONDITION_QUESTREWARDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635" name="aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635"></a>CONDITION_QUESTTAKEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016" name="aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016"></a>CONDITION_DRUNKENSTATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8" name="aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8"></a>CONDITION_WORLD_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8" name="aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8"></a>CONDITION_ACTIVE_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa" name="aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa"></a>CONDITION_INSTANCE_INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26" name="aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26"></a>CONDITION_QUEST_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1" name="aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1"></a>CONDITION_CLASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee" name="aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee"></a>CONDITION_RACE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755" name="aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755"></a>CONDITION_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40" name="aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40"></a>CONDITION_TITLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b" name="aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b"></a>CONDITION_SPAWNMASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc" name="aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc"></a>CONDITION_GENDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6" name="aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6"></a>CONDITION_UNIT_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c" name="aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c"></a>CONDITION_MAPID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc" name="aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc"></a>CONDITION_AREAID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6" name="aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6"></a>CONDITION_CREATURE_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04" name="aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04"></a>CONDITION_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200" name="aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200"></a>CONDITION_PHASEMASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a" name="aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a"></a>CONDITION_LEVEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c" name="aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c"></a>CONDITION_QUEST_COMPLETE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a" name="aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a"></a>CONDITION_NEAR_CREATURE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8" name="aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8"></a>CONDITION_NEAR_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a" name="aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a"></a>CONDITION_OBJECT_ENTRY_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a" name="aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a"></a>CONDITION_TYPE_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf" name="aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf"></a>CONDITION_RELATION_TO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26" name="aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26"></a>CONDITION_REACTION_TO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd" name="aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd"></a>CONDITION_DISTANCE_TO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5" name="aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5"></a>CONDITION_ALIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d" name="aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d"></a>CONDITION_HP_VAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f" name="aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f"></a>CONDITION_HP_PCT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8" name="aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8"></a>CONDITION_REALM_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428" name="aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428"></a>CONDITION_IN_WATER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625" name="aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625"></a>CONDITION_TERRAIN_SWAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d" name="aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d"></a>CONDITION_STAND_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29" name="aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29"></a>CONDITION_DAILY_QUEST_DONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c" name="aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c"></a>CONDITION_CHARMED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9" name="aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9"></a>CONDITION_PET_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974" name="aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974"></a>CONDITION_TAXI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3" name="aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3"></a>CONDITION_QUESTSTATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a" name="aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a"></a>CONDITION_QUEST_OBJECTIVE_PROGRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990" name="aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990"></a>CONDITION_DIFFICULTY_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9" name="aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9"></a>CONDITION_TC_END&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65" name="aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65"></a>CONDITION_AC_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8" name="aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8"></a>CONDITION_QUEST_SATISFY_EXCLUSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76" name="aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76"></a>CONDITION_HAS_AURA_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d" name="aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d"></a>CONDITION_WORLD_SCRIPT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9" name="aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9"></a>CONDITION_AC_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <span class="comment">// value1                           value2          value3</span></div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12">CONDITION_NONE</a>                      = 0,            <span class="comment">// 0                0              0                  always true</span></div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a">CONDITION_AURA</a>                      = 1,            <span class="comment">// spell_id         effindex       use target?        true if player (or target, if value3) has aura of spell_id with effect effindex</span></div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36">CONDITION_ITEM</a>                      = 2,            <span class="comment">// item_id          count          bank               true if has #count of item_ids (if &#39;bank&#39; is set it searches in bank slots too)</span></div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a">CONDITION_ITEM_EQUIPPED</a>             = 3,            <span class="comment">// item_id          0              0                  true if has item_id equipped</span></div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3">CONDITION_ZONEID</a>                    = 4,            <span class="comment">// zone_id          0              0                  true if in zone_id</span></div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb">CONDITION_REPUTATION_RANK</a>           = 5,            <span class="comment">// faction_id       rankMask       0                  true if has min_rank for faction_id</span></div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642">CONDITION_TEAM</a>                      = 6,            <span class="comment">// player_team      0,             0                  469 - Alliance, 67 - Horde)</span></div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696">CONDITION_SKILL</a>                     = 7,            <span class="comment">// skill_id         skill_value    0                  true if has skill_value for skill_id</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be">CONDITION_QUESTREWARDED</a>             = 8,            <span class="comment">// quest_id         0              0                  true if quest_id was rewarded before</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635">CONDITION_QUESTTAKEN</a>                = 9,            <span class="comment">// quest_id         0,             0                  true while quest active</span></div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016">CONDITION_DRUNKENSTATE</a>              = 10,           <span class="comment">// DrunkenState     0,             0                  true if player is drunk enough</span></div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8">CONDITION_WORLD_STATE</a>               = 11,           <span class="comment">// index            value          0                  true if world has the value for the index</span></div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8">CONDITION_ACTIVE_EVENT</a>              = 12,           <span class="comment">// event_id         0              0                  true if event is active</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa">CONDITION_INSTANCE_INFO</a>             = 13,           <span class="comment">// entry            data           type               true if the instance info defined by type (enum InstanceInfo) equals data.</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26">CONDITION_QUEST_NONE</a>                = 14,           <span class="comment">// quest_id         0              0                  true if doesn&#39;t have quest saved</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1">CONDITION_CLASS</a>                     = 15,           <span class="comment">// class            0              0                  true if player&#39;s class is equal to class</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee">CONDITION_RACE</a>                      = 16,           <span class="comment">// race             0              0                  true if player&#39;s race is equal to race</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755">CONDITION_ACHIEVEMENT</a>               = 17,           <span class="comment">// achievement_id   0              0                  true if achievement is complete</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40">CONDITION_TITLE</a>                     = 18,           <span class="comment">// title id         0              0                  true if player has title</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b">CONDITION_SPAWNMASK</a>                 = 19,           <span class="comment">// spawnMask        0              0                  true if in spawnMask</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc">CONDITION_GENDER</a>                    = 20,           <span class="comment">// gender           0              0                  true if player&#39;s gender is equal to gender</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6">CONDITION_UNIT_STATE</a>                = 21,           <span class="comment">// unitState        0              0                  true if unit has unitState</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c">CONDITION_MAPID</a>                     = 22,           <span class="comment">// map_id           0              0                  true if in map_id</span></div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc">CONDITION_AREAID</a>                    = 23,           <span class="comment">// area_id          0              0                  true if in area_id</span></div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6">CONDITION_CREATURE_TYPE</a>             = 24,           <span class="comment">// cinfo.type       0              0                  true if creature_template.type = value1</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04">CONDITION_SPELL</a>                     = 25,           <span class="comment">// spell_id         0              0                  true if player has learned spell</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200">CONDITION_PHASEMASK</a>                 = 26,           <span class="comment">// phasemask        0              0                  true if object is in phasemask</span></div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a">CONDITION_LEVEL</a>                     = 27,           <span class="comment">// level            ComparisonType 0                  true if unit&#39;s level is equal to param1 (param2 can modify the statement)</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c">CONDITION_QUEST_COMPLETE</a>            = 28,           <span class="comment">// quest_id         0              0                  true if player has quest_id with all objectives complete, but not yet rewarded</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a">CONDITION_NEAR_CREATURE</a>             = 29,           <span class="comment">// creature entry   distance       dead               true if there is a creature of entry in range</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8">CONDITION_NEAR_GAMEOBJECT</a>           = 30,           <span class="comment">// gameobject entry distance       GoState            true if there is a gameobject of entry in range (param3 can check for GoState, 0 = dont&#39;t check, 1 = Ready , 2 = Not Ready)</span></div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a">CONDITION_OBJECT_ENTRY_GUID</a>         = 31,           <span class="comment">// TypeID           entry          guid/Attackable    true if object is type TypeID and the entry is 0 or matches entry of the object or matches guid of the object</span></div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a">CONDITION_TYPE_MASK</a>                 = 32,           <span class="comment">// TypeMask         0              0                  true if object is type object&#39;s TypeMask matches provided TypeMask</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf">CONDITION_RELATION_TO</a>               = 33,           <span class="comment">// ConditionTarget  RelationType   0                  true if object is in given relation with object specified by ConditionTarget</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26">CONDITION_REACTION_TO</a>               = 34,           <span class="comment">// ConditionTarget  rankMask       0                  true if object&#39;s reaction matches rankMask object specified by ConditionTarget</span></div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd">CONDITION_DISTANCE_TO</a>               = 35,           <span class="comment">// ConditionTarget  distance       ComparisonType     true if object and ConditionTarget are within distance given by parameters</span></div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5">CONDITION_ALIVE</a>                     = 36,           <span class="comment">// 0                0              0                  true if unit is alive</span></div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d">CONDITION_HP_VAL</a>                    = 37,           <span class="comment">// hpVal            ComparisonType 0                  true if unit&#39;s hp matches given value</span></div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f">CONDITION_HP_PCT</a>                    = 38,           <span class="comment">// hpPct            ComparisonType 0                  true if unit&#39;s hp matches given pct</span></div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8">CONDITION_REALM_ACHIEVEMENT</a>         = 39,           <span class="comment">// achievement_id   0              0                  true if realm achievement is complete</span></div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428">CONDITION_IN_WATER</a>                  = 40,           <span class="comment">// 0                0              0                  true if unit in water</span></div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625">CONDITION_TERRAIN_SWAP</a>              = 41,           <span class="comment">// don&#39;t use on 3.3.5a</span></div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d">CONDITION_STAND_STATE</a>               = 42,           <span class="comment">// stateType        state          0                  true if unit matches specified sitstate (0,x: has exactly state x; 1,0: any standing state; 1,1: any sitting state;)</span></div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29">CONDITION_DAILY_QUEST_DONE</a>          = 43,           <span class="comment">// quest id         0              0                  true if daily quest has been completed for the day</span></div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c">CONDITION_CHARMED</a>                   = 44,           <span class="comment">// 0                0              0                  true if unit is currently charmed</span></div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9">CONDITION_PET_TYPE</a>                  = 45,           <span class="comment">// mask             0              0                  true if player has a pet of given type(s)</span></div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974">CONDITION_TAXI</a>                      = 46,           <span class="comment">// 0                0              0                  true if player is on taxi</span></div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3">CONDITION_QUESTSTATE</a>                = 47,           <span class="comment">// quest_id         state_mask     0                  true if player is in any of the provided quest states for the quest (1 = not taken, 2 = completed, 8 = in progress, 32 = failed, 64 = rewarded)</span></div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a">CONDITION_QUEST_OBJECTIVE_PROGRESS</a> = 48,            <span class="comment">// quest_id         objectiveIndex objectiveCount     true if player has reached the specified objectiveCount quest progress for the objectiveIndex for the specified quest</span></div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990">CONDITION_DIFFICULTY_ID</a>            = 49,            <span class="comment">// Difficulty       0              0                  true is map has difficulty id</span></div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9">CONDITION_TC_END</a>                   = 50,            <span class="comment">// placeholder</span></div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65">CONDITION_AC_START</a>                 = 100,</div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8">CONDITION_QUEST_SATISFY_EXCLUSIVE</a>  = 101,           <span class="comment">// quest_id         0              0                  true if satisfied exclusive group</span></div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76">CONDITION_HAS_AURA_TYPE</a>            = 102,           <span class="comment">// aura_type        0              0                  true if has aura type</span></div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d">CONDITION_WORLD_SCRIPT</a>             = 103,           <span class="comment">// conditionId      state          0                  true if WorldState::IsConditionFulfilled returns true</span></div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9">CONDITION_AC_END</a>                   = 104            <span class="comment">// placeholder</span></div>
+<div class="line"><span class="lineno">   92</span>};</div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a01b7b91ea994f8e304d9402772d4c74d">CONDITION_WORLD_SCRIPT</a></div><div class="ttdeci">@ CONDITION_WORLD_SCRIPT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:89</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a048336ee4c8a2540b67eb5d4e4e4f974">CONDITION_TAXI</a></div><div class="ttdeci">@ CONDITION_TAXI</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:80</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0c68d7254772ce4f3c49ca5420d7772c">CONDITION_MAPID</a></div><div class="ttdeci">@ CONDITION_MAPID</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:56</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0d222f84a37a9885ff944a79b24ca696">CONDITION_SKILL</a></div><div class="ttdeci">@ CONDITION_SKILL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:41</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a0e0f201757b72038c48a7cd2eda82eee">CONDITION_RACE</a></div><div class="ttdeci">@ CONDITION_RACE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:50</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1036ebf67ca70211b5f075db8dcb6e26">CONDITION_REACTION_TO</a></div><div class="ttdeci">@ CONDITION_REACTION_TO</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:68</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a13fbd2cfb3582f523b57839065633ad8">CONDITION_NEAR_GAMEOBJECT</a></div><div class="ttdeci">@ CONDITION_NEAR_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:64</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1592fa13c077f82c43ca59a158f272be">CONDITION_QUESTREWARDED</a></div><div class="ttdeci">@ CONDITION_QUESTREWARDED</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:42</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a15ca9b400e4a3baf1954bd20880b6bd8">CONDITION_REALM_ACHIEVEMENT</a></div><div class="ttdeci">@ CONDITION_REALM_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:73</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a1d8ee8916d1dd3f760c81cdaaaf3c200">CONDITION_PHASEMASK</a></div><div class="ttdeci">@ CONDITION_PHASEMASK</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:60</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a218fc8f3a5a6b5cd18fbc9ddd1332e9a">CONDITION_QUEST_OBJECTIVE_PROGRESS</a></div><div class="ttdeci">@ CONDITION_QUEST_OBJECTIVE_PROGRESS</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:82</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a242c4448dc81e7f48fc7c2b718f23a29">CONDITION_DAILY_QUEST_DONE</a></div><div class="ttdeci">@ CONDITION_DAILY_QUEST_DONE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:77</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a2a9f60bed085dfbf1323b9e1f53f29f8">CONDITION_ACTIVE_EVENT</a></div><div class="ttdeci">@ CONDITION_ACTIVE_EVENT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:46</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3e6458076ac664599214a4473beb01aa">CONDITION_INSTANCE_INFO</a></div><div class="ttdeci">@ CONDITION_INSTANCE_INFO</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:47</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a3f5e5eb40fec599949a73c40f3c2b4bf">CONDITION_RELATION_TO</a></div><div class="ttdeci">@ CONDITION_RELATION_TO</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:67</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a466dee0562c7153897e5b5fe1d64cb7d">CONDITION_STAND_STATE</a></div><div class="ttdeci">@ CONDITION_STAND_STATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:76</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a537876fe5bd49ba9ce7e200c24144016">CONDITION_DRUNKENSTATE</a></div><div class="ttdeci">@ CONDITION_DRUNKENSTATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:44</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6088e0642e7f67b39e6eb80fb56e339a">CONDITION_AURA</a></div><div class="ttdeci">@ CONDITION_AURA</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:35</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a63515c75c54fffb17ed42f903c12f755">CONDITION_ACHIEVEMENT</a></div><div class="ttdeci">@ CONDITION_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:51</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65d58d98e9fc79e2c86580ad0043a3d9">CONDITION_TC_END</a></div><div class="ttdeci">@ CONDITION_TC_END</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:84</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a65e7c6505f1a25dd1c6c84fa8dbaab7a">CONDITION_OBJECT_ENTRY_GUID</a></div><div class="ttdeci">@ CONDITION_OBJECT_ENTRY_GUID</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:65</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6cca3fd2e257213071b4b831c9eb46f9">CONDITION_PET_TYPE</a></div><div class="ttdeci">@ CONDITION_PET_TYPE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:79</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e2bbb969ee0c578cd46a351a5784990">CONDITION_DIFFICULTY_ID</a></div><div class="ttdeci">@ CONDITION_DIFFICULTY_ID</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:83</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a6e4154f1915ac6cd3b68f62330cb26dd">CONDITION_DISTANCE_TO</a></div><div class="ttdeci">@ CONDITION_DISTANCE_TO</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:69</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a72734516ae6f99892f909ca0c97f5a3d">CONDITION_HP_VAL</a></div><div class="ttdeci">@ CONDITION_HP_VAL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:71</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a783ad3e8c79c91b856e6597f383accfc">CONDITION_GENDER</a></div><div class="ttdeci">@ CONDITION_GENDER</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:54</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a7e067a21958aea437376e1602774f625">CONDITION_TERRAIN_SWAP</a></div><div class="ttdeci">@ CONDITION_TERRAIN_SWAP</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:75</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a84d8bd9c7b479bfb1d76317024936dbb">CONDITION_REPUTATION_RANK</a></div><div class="ttdeci">@ CONDITION_REPUTATION_RANK</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:39</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a85afb5334c6dccc84e8a88ca71a21b2f">CONDITION_HP_PCT</a></div><div class="ttdeci">@ CONDITION_HP_PCT</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:72</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8644356b55834449b042c99fca9c121c">CONDITION_QUEST_COMPLETE</a></div><div class="ttdeci">@ CONDITION_QUEST_COMPLETE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:62</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a8a49593011ff5ae9c30fcea2cd01bf04">CONDITION_SPELL</a></div><div class="ttdeci">@ CONDITION_SPELL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:59</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a96d73299936abaeb0e203fa14d82f4f3">CONDITION_ZONEID</a></div><div class="ttdeci">@ CONDITION_ZONEID</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:38</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a99e92550f5255c2923aa40144aea907c">CONDITION_CHARMED</a></div><div class="ttdeci">@ CONDITION_CHARMED</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:78</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9cd665aa18fade9f250d6a1223e66d65">CONDITION_AC_START</a></div><div class="ttdeci">@ CONDITION_AC_START</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:86</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9de02bff59cbd99d029094fc18b0df7a">CONDITION_TYPE_MASK</a></div><div class="ttdeci">@ CONDITION_TYPE_MASK</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:66</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0a9e70f937f1d09bb9fd1743f42c0688dc">CONDITION_AREAID</a></div><div class="ttdeci">@ CONDITION_AREAID</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:57</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa0d1e275c23862d547ad19c1c0ba4428">CONDITION_IN_WATER</a></div><div class="ttdeci">@ CONDITION_IN_WATER</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:74</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa2c03d44deb6984b4199adeacbc56c36">CONDITION_ITEM</a></div><div class="ttdeci">@ CONDITION_ITEM</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:36</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa482d02aa5a5d082cb2aacba44b12cb8">CONDITION_WORLD_STATE</a></div><div class="ttdeci">@ CONDITION_WORLD_STATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:45</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa513d6a62c8d1feb80d91315155e493b">CONDITION_SPAWNMASK</a></div><div class="ttdeci">@ CONDITION_SPAWNMASK</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:53</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aa73d11519baf343a2b142794244de0c1">CONDITION_CLASS</a></div><div class="ttdeci">@ CONDITION_CLASS</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:49</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab040f7d9094a649975dbd0bbd29ac642">CONDITION_TEAM</a></div><div class="ttdeci">@ CONDITION_TEAM</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:40</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ab9b2b5d777dbd393786f9108f9a31c12">CONDITION_NONE</a></div><div class="ttdeci">@ CONDITION_NONE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:34</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac27bd6c52ec5b2e650e17379c18dbf26">CONDITION_QUEST_NONE</a></div><div class="ttdeci">@ CONDITION_QUEST_NONE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:48</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac363c9690d991f2e57c96c5694ad99a3">CONDITION_QUESTSTATE</a></div><div class="ttdeci">@ CONDITION_QUESTSTATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:81</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac409b70e42305ebf7502f9bfb9aa635a">CONDITION_ITEM_EQUIPPED</a></div><div class="ttdeci">@ CONDITION_ITEM_EQUIPPED</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:37</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ac9f53043e4eb0c7444027d755fbc8de8">CONDITION_QUEST_SATISFY_EXCLUSIVE</a></div><div class="ttdeci">@ CONDITION_QUEST_SATISFY_EXCLUSIVE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:87</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0accd73cda70b620ab42098788de47817a">CONDITION_LEVEL</a></div><div class="ttdeci">@ CONDITION_LEVEL</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:61</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ad36116acdb19b54b01e4392ba58f7635">CONDITION_QUESTTAKEN</a></div><div class="ttdeci">@ CONDITION_QUESTTAKEN</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:43</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada371142bfaa5bc7793731822ce8c76a">CONDITION_NEAR_CREATURE</a></div><div class="ttdeci">@ CONDITION_NEAR_CREATURE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:63</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0ada702a41f028d5d341f22027b935ff40">CONDITION_TITLE</a></div><div class="ttdeci">@ CONDITION_TITLE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:52</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0add0ddf7c2278950223ec24a30a0a6ed9">CONDITION_AC_END</a></div><div class="ttdeci">@ CONDITION_AC_END</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:91</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0adf44fb74f8b692087b886d9dd5d1f7b5">CONDITION_ALIVE</a></div><div class="ttdeci">@ CONDITION_ALIVE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:70</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aed3a23d74e23d5ae336d9346724f2db6">CONDITION_CREATURE_TYPE</a></div><div class="ttdeci">@ CONDITION_CREATURE_TYPE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:58</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0aeec898de612e1713a549fa1d8f23a4d6">CONDITION_UNIT_STATE</a></div><div class="ttdeci">@ CONDITION_UNIT_STATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:55</div></div>
+<div class="ttc" id="aa03842_html_aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76"><div class="ttname"><a href="../../dd/d51/a03842.html#aab5835ceff4b64ce6db4148256e0a0f0afb548f8d3d725806dddda6728b1fde76">CONDITION_HAS_AURA_TYPE</a></div><div class="ttdeci">@ CONDITION_HAS_AURA_TYPE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:88</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a71c9edff7d630e15fff711b8eb0a130c" name="a71c9edff7d630e15fff711b8eb0a130c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71c9edff7d630e15fff711b8eb0a130c">&#9670;&#160;</a></span>InstanceInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130c">InstanceInfo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479" name="a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479"></a>INSTANCE_INFO_DATA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea" name="a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea"></a>INSTANCE_INFO_GUID_DATA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e" name="a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e"></a>INSTANCE_INFO_BOSS_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c" name="a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c"></a>INSTANCE_INFO_DATA64&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  169</span>{</div>
+<div class="line"><span class="lineno">  170</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479">INSTANCE_INFO_DATA</a> = 0,</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea">INSTANCE_INFO_GUID_DATA</a>,</div>
+<div class="line"><span class="lineno">  172</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e">INSTANCE_INFO_BOSS_STATE</a>,</div>
+<div class="line"><span class="lineno">  173</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c">INSTANCE_INFO_DATA64</a></div>
+<div class="line"><span class="lineno">  174</span>};</div>
+<div class="ttc" id="aa03842_html_a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c"><div class="ttname"><a href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca16e6b230456dd107d885b134aeffce9c">INSTANCE_INFO_DATA64</a></div><div class="ttdeci">@ INSTANCE_INFO_DATA64</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:173</div></div>
+<div class="ttc" id="aa03842_html_a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479"><div class="ttname"><a href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130ca88cb9f816708ae33f7de954d41f59479">INSTANCE_INFO_DATA</a></div><div class="ttdeci">@ INSTANCE_INFO_DATA</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:170</div></div>
+<div class="ttc" id="aa03842_html_a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e"><div class="ttname"><a href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cab4cc0bcddba1153b89a678c402562b1e">INSTANCE_INFO_BOSS_STATE</a></div><div class="ttdeci">@ INSTANCE_INFO_BOSS_STATE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:172</div></div>
+<div class="ttc" id="aa03842_html_a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea"><div class="ttname"><a href="../../dd/d51/a03842.html#a71c9edff7d630e15fff711b8eb0a130cacb9164a9b62f8feb668161d90daa98ea">INSTANCE_INFO_GUID_DATA</a></div><div class="ttdeci">@ INSTANCE_INFO_GUID_DATA</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:171</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afe9640666d0d789fef4ba0b6a02f6b4a" name="afe9640666d0d789fef4ba0b6a02f6b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9640666d0d789fef4ba0b6a02f6b4a">&#9670;&#160;</a></span>RelationType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4a">RelationType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680" name="afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680"></a>RELATION_SELF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7" name="afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7"></a>RELATION_IN_PARTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9" name="afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9"></a>RELATION_IN_RAID_OR_PARTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55" name="afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55"></a>RELATION_OWNED_BY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482" name="afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482"></a>RELATION_PASSENGER_OF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493" name="afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493"></a>RELATION_CREATED_BY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676" name="afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676"></a>RELATION_MAX&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
+<div class="line"><span class="lineno">  159</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680">RELATION_SELF</a> = 0,</div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7">RELATION_IN_PARTY</a>,</div>
+<div class="line"><span class="lineno">  161</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9">RELATION_IN_RAID_OR_PARTY</a>,</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55">RELATION_OWNED_BY</a>,</div>
+<div class="line"><span class="lineno">  163</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482">RELATION_PASSENGER_OF</a>,</div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493">RELATION_CREATED_BY</a>,</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_enumvalue" href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676">RELATION_MAX</a></div>
+<div class="line"><span class="lineno">  166</span>};</div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa3fee89b7c515c7d50ee9414e40d19ee7">RELATION_IN_PARTY</a></div><div class="ttdeci">@ RELATION_IN_PARTY</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:160</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa687be4a0e23aeb973846a075865659f9">RELATION_IN_RAID_OR_PARTY</a></div><div class="ttdeci">@ RELATION_IN_RAID_OR_PARTY</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:161</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa80635500ed4f1e1d137c16b2f4753493">RELATION_CREATED_BY</a></div><div class="ttdeci">@ RELATION_CREATED_BY</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:164</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa8294665fa0a054c9eefc24367442c676">RELATION_MAX</a></div><div class="ttdeci">@ RELATION_MAX</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:165</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aa9692d0dfadfe2a20b0938679d6b3e680">RELATION_SELF</a></div><div class="ttdeci">@ RELATION_SELF</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:159</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aac76dbddc898a727b3dfb61974ca9c482">RELATION_PASSENGER_OF</a></div><div class="ttdeci">@ RELATION_PASSENGER_OF</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:163</div></div>
+<div class="ttc" id="aa03842_html_afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55"><div class="ttname"><a href="../../dd/d51/a03842.html#afe9640666d0d789fef4ba0b6a02f6b4aaf852dd8d82a21bec059ebfd779549f55">RELATION_OWNED_BY</a></div><div class="ttdeci">@ RELATION_OWNED_BY</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:162</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -169,8 +888,8 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_10e0fdc55825859b4f92970a0e407994.html">Cache</a></li><li class="navelem"><a class="el" href="../../dd/d51/a03842.html">WhoListCacheMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c0da28c740234fa28d1fcf99be699b09.html">Conditions</a></li><li class="navelem"><a class="el" href="../../dd/d51/a03842.html">ConditionMgr.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

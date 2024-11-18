@@ -1,6 +1,10 @@
 var a12858 =
 [
-    [ "instance_stratholme_InstanceMapScript", "d2/d0d/a12862.html", "d2/d0d/a12862" ],
-    [ "instance_stratholme", "d2/d64/a12858.html#a42ac504b2790af8c37a44e87fbd9c6c1", null ],
-    [ "GetInstanceScript", "d2/d64/a12858.html#a3d3d2e773029dd1c4bc1a59a94c4e015", null ]
+    [ "HandleDummyTick", "d2/d64/a12858.html#a036291aee8b08212ecead4afce01adf4", null ],
+    [ "Load", "d2/d64/a12858.html#aaecea41af42790dfe9aeba3c56480668", null ],
+    [ "OnApply", "d2/d64/a12858.html#a37b425f877e7415b245c119c29521c4b", null ],
+    [ "PrepareAuraScript", "d2/d64/a12858.html#ade7bfbc3400fb620956d1e8dff7d4a8a", null ],
+    [ "Register", "d2/d64/a12858.html#a9b32995b6e324a6c779bbd742de6cce2", null ],
+    [ "Validate", "d2/d64/a12858.html#a72595ee3cd995d7bed2bcf8c9f5199fb", null ],
+    [ "_forsakenSpell", "d2/d64/a12858.html#ae2aee05482e4854120fc581ecec41f95", null ]
 ];

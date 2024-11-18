@@ -1,9 +1,7 @@
 var a08870 =
 [
-    [ "ObjectUpdater", "d5/d23/a08870.html#ad907a266bcf4c059a49195eae4758541", null ],
-    [ "Visit", "d5/d23/a08870.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
-    [ "Visit", "d5/d23/a08870.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
-    [ "Visit", "d5/d23/a08870.html#a283b656ac784e64b98929eca83326027", null ],
-    [ "i_largeOnly", "d5/d23/a08870.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
-    [ "i_timeDiff", "d5/d23/a08870.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
+    [ "CreatureRelocationNotifier", "d5/d23/a08870.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
+    [ "Visit", "d5/d23/a08870.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
+    [ "Visit", "d5/d23/a08870.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
+    [ "i_creature", "d5/d23/a08870.html#a3116f6245816ba8fb9edb5995faa9927", null ]
 ];

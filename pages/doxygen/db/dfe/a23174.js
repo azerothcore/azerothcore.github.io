@@ -1,10 +1,8 @@
 var a23174 =
 [
-    [ "boss_kelidan_the_breaker", "db/dfe/a23174.html#a6774e4a0315b30266f6c55da608cd193", null ],
-    [ "ApplyImmunities", "db/dfe/a23174.html#adc84fae23d68c0c75ac21c3f3b32973a", null ],
-    [ "DoAction", "db/dfe/a23174.html#a3fa0117ce1079f651025116684f5e2f4", null ],
-    [ "JustDied", "db/dfe/a23174.html#a4d3f0171b7889a96f19999b28e549866", null ],
-    [ "JustEngagedWith", "db/dfe/a23174.html#a12eb8fb73353042e4bb4ea31cbdc1c3c", null ],
-    [ "KilledUnit", "db/dfe/a23174.html#a1c1613b165c25025a2a11bf3c38d6747", null ],
-    [ "Reset", "db/dfe/a23174.html#a46c592f6c46ea568ad368702e1640e06", null ]
+    [ "boss_broggok", "db/dfe/a23174.html#ae20c04793116d3e8eab62d2ee27010df", null ],
+    [ "DoAction", "db/dfe/a23174.html#af5de5a1747c502f72af015c09d050354", null ],
+    [ "JustEngagedWith", "db/dfe/a23174.html#a084e3c37a0218d47c8e39b196fc6746a", null ],
+    [ "JustSummoned", "db/dfe/a23174.html#a0bf2d75f7889542a9e48689b8d080a1e", null ],
+    [ "Reset", "db/dfe/a23174.html#af11b4dc2aee8064a1eaad334d93e6de0", null ]
 ];

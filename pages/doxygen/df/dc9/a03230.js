@@ -1,4 +1,5 @@
 var a03230 =
 [
-    [ "ModuleScript", "d8/d5b/a10066.html", "d8/d5b/a10066" ]
+    [ "MotdMgr", "d8/d6f/a09642.html", "d8/d6f/a09642" ],
+    [ "sMotdMgr", "df/dc9/a03230.html#a0ad6ba4db6e433e72e172e659af2cada", null ]
 ];

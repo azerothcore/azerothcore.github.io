@@ -1,6 +1,7 @@
 var a11682 =
 [
-    [ "instance_blackrock_depths_InstanceMapScript", "d5/d0e/a11686.html", "d5/d0e/a11686" ],
-    [ "instance_blackrock_depths", "dc/d36/a11682.html#a8d906bdb520b2c7907b94b0e22b5cdf4", null ],
-    [ "GetInstanceScript", "dc/d36/a11682.html#af8f8c9929cae50c098efc5a0dbdd727a", null ]
+    [ "boss_okthorAI", "dc/d36/a11682.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
+    [ "JustEngagedWith", "dc/d36/a11682.html#a466a618e52f40e04e873dd50f3728755", null ],
+    [ "UpdateAI", "dc/d36/a11682.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
+    [ "nextArcaneExplosionTime", "dc/d36/a11682.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
 ];

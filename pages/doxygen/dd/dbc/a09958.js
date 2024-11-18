@@ -1,8 +1,10 @@
 var a09958 =
 [
-    [ "_OnTrigger", "dd/dbc/a09958.html#a6da93a21c84345bd77e467377810e756", null ],
-    [ "AreaTriggerScript", "dd/dbc/a09958.html#a478e4dee0f4211af9be6ea448d4e6c89", null ],
-    [ "OnTrigger", "dd/dbc/a09958.html#a4ac7e4963d36c8163a560dc8401b5f34", null ],
-    [ "ResetAreaTriggerDone", "dd/dbc/a09958.html#a3b44c1892c1100028b387d15bfbdae60", null ],
-    [ "ResetAreaTriggerDone", "dd/dbc/a09958.html#a3917da4a6f605077720172cda25322ee", null ]
+    [ "AllItemScript", "dd/dbc/a09958.html#a7c0e310c69966e0eab6f2951dedcda63", null ],
+    [ "CanItemExpire", "dd/dbc/a09958.html#aa2a9c691b4ba5d06f65555a7092fffc3", null ],
+    [ "CanItemQuestAccept", "dd/dbc/a09958.html#a545e2bc7436a064146025954eaf5ae92", null ],
+    [ "CanItemRemove", "dd/dbc/a09958.html#ad29a7f5d07d56127bc00846e1a7fb067", null ],
+    [ "CanItemUse", "dd/dbc/a09958.html#a89d237f426840658e4423fb9cc7428db", null ],
+    [ "OnItemGossipSelect", "dd/dbc/a09958.html#a7157f72c6d09988b60480d1671892cde", null ],
+    [ "OnItemGossipSelectCode", "dd/dbc/a09958.html#a9e13f025e5cf10bf51c87a4dc1e7968d", null ]
 ];

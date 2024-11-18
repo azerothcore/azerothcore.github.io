@@ -1,10 +1,6 @@
 var a23806 =
 [
-    [ "npc_infernal_attackerAI", "de/d93/a23806.html#ae04c4e026f22bd650bb33940b923df9a", null ],
-    [ "IsSummonedBy", "de/d93/a23806.html#a926e6cd6772784872a905de7245007ac", null ],
-    [ "JustDied", "de/d93/a23806.html#a1822131520f98dd5f1dd637282f20ae3", null ],
-    [ "Reset", "de/d93/a23806.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
-    [ "SpellHit", "de/d93/a23806.html#a956f3fb1e341519817599df08afc2589", null ],
-    [ "UpdateAI", "de/d93/a23806.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
-    [ "casterGUID", "de/d93/a23806.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
+    [ "npc_invis_infernal_casterAI", "d2/ddf/a23810.html", "d2/ddf/a23810" ],
+    [ "npc_invis_infernal_caster", "de/d93/a23806.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "de/d93/a23806.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

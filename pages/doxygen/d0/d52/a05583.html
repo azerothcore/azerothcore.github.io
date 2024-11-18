@@ -104,26 +104,32 @@ $(document).ready(function(){initNavTree('d4/d20/a05586.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">SQLQueryHolder&lt; T &gt; Member List</div></div>
+  <div class="headertitle"><div class="title">BasicStatementTask Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d20/a05586.html">SQLQueryHolder&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a402f961642eaa239ff8726ad66e78640">GetPreparedResult</a>(std::size_t index) const</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a432a52e6f9dc7f51cbc8f2877d0894e1">m_queries</a></td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a1cbb8be93d83bc3ed6295c6b13f6ce69">SetPreparedQuery</a>(std::size_t index, PreparedStatement&lt; T &gt; *stmt)</td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">SQLQueryHolder&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a6657bb34fab696a26af9751ded41f1d7">SetPreparedQueryImpl</a>(std::size_t index, PreparedStatementBase *stmt)</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a34bcdec6591ce40a58667197f240fbe0">SetPreparedResult</a>(std::size_t index, PreparedResultSet *result)</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a9e62f0171bd39a13348d097ee99cb17c">SetSize</a>(std::size_t size)</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#a05946ea4a26798e5567f632cf9f66eff">SQLQueryHolderBase</a>()=default</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d52/a05734.html#aa9e2407821d0c40a728337f174571fc5">~SQLQueryHolderBase</a>()</td><td class="entry"><a class="el" href="../../d1/d52/a05734.html">SQLQueryHolderBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a11c6f1259d1d6d9c50211784636e45c4">BasicStatementTask</a>(std::string_view sql, bool async=false)</td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a>()</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a7f500736cc0ec4cddf94510927989d4d">Execute</a>() override</td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#aa574f8cc00ac956d23f93c7e96864fc9">GetFuture</a>() const</td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#adf322db48064fcf4528f713f857f1b40">m_conn</a></td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a8bfae5e5695a6bf6bf796d95efa21e7e">m_has_result</a></td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a></td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a9320235413d1c4736301070e1faeb161">m_sql</a></td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#ac31349ed45ea051540ac345bd4b814d5">operator=</a>(SQLOperation const &amp;right)=delete</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a>(MySQLConnection *con)</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#a0f69657715b7d24458227b22a3b40b1a">SQLOperation</a>()=default</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#a91b34b81ed99ca0da54d825fec98ab6e">SQLOperation</a>(SQLOperation const &amp;right)=delete</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d20/a05586.html#a0db608b5bae77e5f83b0e1bf5850719f">~BasicStatementTask</a>()</td><td class="entry"><a class="el" href="../../d4/d20/a05586.html">BasicStatementTask</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dc9/a05774.html#afa21cafba57dd35ed2b132ef3d18c71b">~SQLOperation</a>()=default</td><td class="entry"><a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

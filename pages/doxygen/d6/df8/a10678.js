@@ -1,8 +1,12 @@
 var a10678 =
 [
-    [ "ServerPktHeader", "d6/df8/a10678.html#a761e294fccc02055a46bfc46656da706", null ],
-    [ "getHeaderLength", "d6/df8/a10678.html#a75ff3550b7794fed0e69bfc4d1418dee", null ],
-    [ "isLargePacket", "d6/df8/a10678.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2", null ],
-    [ "header", "d6/df8/a10678.html#adc69128832b16124c284c584e7540b11", null ],
-    [ "size", "d6/df8/a10678.html#a5d5cf573cebe47a10e3f17b840c7a4e1", null ]
+    [ "Build", "d6/df8/a10678.html#aa5ed2806342a36723f1317105ebc13fa", null ],
+    [ "FormatVersion", "d6/df8/a10678.html#abf0c90aa56c9f74e4139b4a1ead3115e", null ],
+    [ "Locale", "d6/df8/a10678.html#acdcbe4c10ad6143b756638349c185ae5", null ],
+    [ "OptionalDataSize", "d6/df8/a10678.html#a88c79f6e69197e23ce191bcef187c0fe", null ],
+    [ "SessionKey", "d6/df8/a10678.html#aff4e4f46725d72923bac3e197ae7d2e3", null ],
+    [ "Signature", "d6/df8/a10678.html#a34b88d6d83daeee7827176993c152de4", null ],
+    [ "SnifferId", "d6/df8/a10678.html#a95d3f116ef30a096970ee4f3dd10e2ed", null ],
+    [ "SniffStartTicks", "d6/df8/a10678.html#a1884076ea4fe5af08964471d0058fd4d", null ],
+    [ "SniffStartUnixtime", "d6/df8/a10678.html#a8923983e21b7a7f1dd3ee4f21b7df592", null ]
 ];

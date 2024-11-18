@@ -1,6 +1,7 @@
 var a17902 =
 [
-    [ "ModDestHeight", "d8/dea/a17902.html#acd31e130e72cd93bee3544ecd2dc38ad", null ],
-    [ "PrepareSpellScript", "d8/dea/a17902.html#a288f8917d73be30234e465778b1f6544", null ],
-    [ "Register", "d8/dea/a17902.html#a69f9cdbfc33ec39f629f08f20484b29e", null ]
+    [ "OnPeriodic", "d8/dea/a17902.html#a9635bf496ee3098e412ba7de633250b3", null ],
+    [ "PrepareAuraScript", "d8/dea/a17902.html#accb775d3a9c4ae40f5d8644c366ec39e", null ],
+    [ "Register", "d8/dea/a17902.html#aa44bb97a0d3af32b90a133582f064b0e", null ],
+    [ "Validate", "d8/dea/a17902.html#a5675fef373315edd34d096bb91c733b0", null ]
 ];

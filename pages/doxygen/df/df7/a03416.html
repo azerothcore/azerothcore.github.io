@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CreatureAIImpl.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Totem/Totem.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,75 +107,79 @@ $(document).ready(function(){initNavTree('df/df7/a03416.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">CreatureAIImpl.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Totem.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a06074.html">AISpellInfoType</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc6/a08422.html">Totem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a41c947edd84b4f2bb45133dc7aa00cad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a41c947edd84b4f2bb45133dc7aa00cad">AI_DEFAULT_COOLDOWN</a>&#160;&#160;&#160;5000</td></tr>
-<tr class="separator:a41c947edd84b4f2bb45133dc7aa00cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd46e1df17fdee45cd35896306092fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a2bd46e1df17fdee45cd35896306092fb">SENTRY_TOTEM_ENTRY</a>&#160;&#160;&#160;3968</td></tr>
+<tr class="separator:a2bd46e1df17fdee45cd35896306092fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cae59b1369b7371cefb92be8fc73fa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a6cae59b1369b7371cefb92be8fc73fa5">EARTHBIND_TOTEM_ENTRY</a>&#160;&#160;&#160;2630</td></tr>
+<tr class="separator:a6cae59b1369b7371cefb92be8fc73fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a0160eb61118b5e41325297a2e1691805"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805">AITarget</a> { <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2">AITARGET_SELF</a>
+<tr class="memitem:a65151889ab4b03cf02268cc7a7ff0ba3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3">TotemType</a> { <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069">TOTEM_PASSIVE</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452">AITARGET_VICTIM</a>
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0">TOTEM_ACTIVE</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439">AITARGET_ENEMY</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56">AITARGET_ALLY</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed">AITARGET_BUFF</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654">AITARGET_DEBUFF</a>
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300">TOTEM_STATUE</a> = 2
 <br />
  }</td></tr>
-<tr class="separator:a0160eb61118b5e41325297a2e1691805"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac43b18581ae7a7b66984b1003502d5af"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5af">AICondition</a> { <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8">AICOND_AGGRO</a>
+<tr class="separator:a65151889ab4b03cf02268cc7a7ff0ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7092ec93c941969cd2cdd2291c6de0be"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0be">TotemSpellIds</a> : uint32 { <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3">SentryTotemSpell</a> = 6495
 , <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642">AICOND_COMBAT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e">AICOND_DIE</a>
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7">FireTotemSpell</a> = 32062
 <br />
  }</td></tr>
-<tr class="separator:ac43b18581ae7a7b66984b1003502d5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a95d9a0c5ba0d54645670ba51c16ed33c"><td class="memTemplParams" colspan="2">template&lt;typename First , typename Second , typename... Rest&gt; </td></tr>
-<tr class="memitem:a95d9a0c5ba0d54645670ba51c16ed33c"><td class="memTemplItemLeft" align="right" valign="top">static First const &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a> (First const &amp;first, Second const &amp;second, Rest const &amp;... rest)</td></tr>
-<tr class="separator:a95d9a0c5ba0d54645670ba51c16ed33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d36/a06074.html">AISpellInfoType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a1ed41ad074263f6c0c63f38b7f51414b">GetAISpellInfo</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i)</td></tr>
-<tr class="separator:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad76768c8aee9ce3ac24657437adb0de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#aad76768c8aee9ce3ac24657437adb0de">InstanceHasScript</a> (<a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *obj, char const *scriptName)</td></tr>
-<tr class="separator:aad76768c8aee9ce3ac24657437adb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6650ccba23715eea545340cd3e712233"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
-<tr class="memitem:a6650ccba23715eea545340cd3e712233"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a6650ccba23715eea545340cd3e712233">GetInstanceAI</a> (T *obj, char const *scriptName)</td></tr>
-<tr class="separator:a6650ccba23715eea545340cd3e712233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7092ec93c941969cd2cdd2291c6de0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526213bf692d4f8d189a61617f4a59c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9">TotemImmunitySpells</a> { <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58">SPELL_CYCLONE</a> = 33786
+, <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649">SPELL_STONECLAW</a> = 55277
+, <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a">SPELL_BIND_SIGHT</a> = 6277
+, <br />
+&#160;&#160;<a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c">SPELL_INTERVENE</a> = 3411
+<br />
+ }</td></tr>
+<tr class="separator:a526213bf692d4f8d189a61617f4a59c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a41c947edd84b4f2bb45133dc7aa00cad" name="a41c947edd84b4f2bb45133dc7aa00cad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c947edd84b4f2bb45133dc7aa00cad">&#9670;&#160;</a></span>AI_DEFAULT_COOLDOWN</h2>
+<a id="a6cae59b1369b7371cefb92be8fc73fa5" name="a6cae59b1369b7371cefb92be8fc73fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cae59b1369b7371cefb92be8fc73fa5">&#9670;&#160;</a></span>EARTHBIND_TOTEM_ENTRY</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AI_DEFAULT_COOLDOWN&#160;&#160;&#160;5000</td>
+          <td class="memname">#define EARTHBIND_TOTEM_ENTRY&#160;&#160;&#160;2630</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bd46e1df17fdee45cd35896306092fb" name="a2bd46e1df17fdee45cd35896306092fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bd46e1df17fdee45cd35896306092fb">&#9670;&#160;</a></span>SENTRY_TOTEM_ENTRY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SENTRY_TOTEM_ENTRY&#160;&#160;&#160;3968</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -183,231 +187,95 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac43b18581ae7a7b66984b1003502d5af" name="ac43b18581ae7a7b66984b1003502d5af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac43b18581ae7a7b66984b1003502d5af">&#9670;&#160;</a></span>AICondition</h2>
+<a id="a526213bf692d4f8d189a61617f4a59c9" name="a526213bf692d4f8d189a61617f4a59c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526213bf692d4f8d189a61617f4a59c9">&#9670;&#160;</a></span>TotemImmunitySpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5af">AICondition</a></td>
+          <td class="memname">enum <a class="el" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9">TotemImmunitySpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8" name="ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8"></a>AICOND_AGGRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642" name="ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642"></a>AICOND_COMBAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e" name="ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e"></a>AICOND_DIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58" name="a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58"></a>SPELL_CYCLONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649" name="a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649"></a>SPELL_STONECLAW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a" name="a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a"></a>SPELL_BIND_SIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c" name="a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c"></a>SPELL_INTERVENE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8">AICOND_AGGRO</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642">AICOND_COMBAT</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e">AICOND_DIE</a>,</div>
-<div class="line"><span class="lineno">   46</span>};</div>
-<div class="ttc" id="aa03416_html_ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642"><div class="ttname"><a href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642">AICOND_COMBAT</a></div><div class="ttdeci">@ AICOND_COMBAT</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:44</div></div>
-<div class="ttc" id="aa03416_html_ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8"><div class="ttname"><a href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8">AICOND_AGGRO</a></div><div class="ttdeci">@ AICOND_AGGRO</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:43</div></div>
-<div class="ttc" id="aa03416_html_ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e"><div class="ttname"><a href="../../df/df7/a03416.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e">AICOND_DIE</a></div><div class="ttdeci">@ AICOND_DIE</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:45</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// Immune</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58">SPELL_CYCLONE</a>    = 33786,</div>
+<div class="line"><span class="lineno">   44</span>    <span class="comment">// Not Immune</span></div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649">SPELL_STONECLAW</a>  = 55277,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a">SPELL_BIND_SIGHT</a> = 6277,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c">SPELL_INTERVENE</a>  = 3411</div>
+<div class="line"><span class="lineno">   48</span>};</div>
+<div class="ttc" id="aa03416_html_a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a"><div class="ttname"><a href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a">SPELL_BIND_SIGHT</a></div><div class="ttdeci">@ SPELL_BIND_SIGHT</div><div class="ttdef"><b>Definition:</b> Totem.h:46</div></div>
+<div class="ttc" id="aa03416_html_a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58"><div class="ttname"><a href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58">SPELL_CYCLONE</a></div><div class="ttdeci">@ SPELL_CYCLONE</div><div class="ttdef"><b>Definition:</b> Totem.h:43</div></div>
+<div class="ttc" id="aa03416_html_a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c"><div class="ttname"><a href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c">SPELL_INTERVENE</a></div><div class="ttdeci">@ SPELL_INTERVENE</div><div class="ttdef"><b>Definition:</b> Totem.h:47</div></div>
+<div class="ttc" id="aa03416_html_a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649"><div class="ttname"><a href="../../df/df7/a03416.html#a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649">SPELL_STONECLAW</a></div><div class="ttdeci">@ SPELL_STONECLAW</div><div class="ttdef"><b>Definition:</b> Totem.h:45</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a0160eb61118b5e41325297a2e1691805" name="a0160eb61118b5e41325297a2e1691805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0160eb61118b5e41325297a2e1691805">&#9670;&#160;</a></span>AITarget</h2>
+<a id="a7092ec93c941969cd2cdd2291c6de0be" name="a7092ec93c941969cd2cdd2291c6de0be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7092ec93c941969cd2cdd2291c6de0be">&#9670;&#160;</a></span>TotemSpellIds</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805">AITarget</a></td>
+          <td class="memname">enum class <a class="el" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0be">TotemSpellIds</a> : <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2" name="a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2"></a>AITARGET_SELF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452" name="a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452"></a>AITARGET_VICTIM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439" name="a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439"></a>AITARGET_ENEMY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56" name="a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56"></a>AITARGET_ALLY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed" name="a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed"></a>AITARGET_BUFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654" name="a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654"></a>AITARGET_DEBUFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3" name="a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3"></a>SentryTotemSpell&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7" name="a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7"></a>FireTotemSpell&#160;</td><td class="fielddoc"></td></tr>
 </table>
 <div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2">AITARGET_SELF</a>,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452">AITARGET_VICTIM</a>,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439">AITARGET_ENEMY</a>,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56">AITARGET_ALLY</a>,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed">AITARGET_BUFF</a>,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654">AITARGET_DEBUFF</a>,</div>
-<div class="line"><span class="lineno">   39</span>};</div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56">AITARGET_ALLY</a></div><div class="ttdeci">@ AITARGET_ALLY</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:36</div></div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed">AITARGET_BUFF</a></div><div class="ttdeci">@ AITARGET_BUFF</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:37</div></div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2">AITARGET_SELF</a></div><div class="ttdeci">@ AITARGET_SELF</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:33</div></div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452">AITARGET_VICTIM</a></div><div class="ttdeci">@ AITARGET_VICTIM</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:34</div></div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439">AITARGET_ENEMY</a></div><div class="ttdeci">@ AITARGET_ENEMY</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:35</div></div>
-<div class="ttc" id="aa03416_html_a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654"><div class="ttname"><a href="../../df/df7/a03416.html#a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654">AITARGET_DEBUFF</a></div><div class="ttdeci">@ AITARGET_DEBUFF</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:38</div></div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3">SentryTotemSpell</a> = 6495,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7">FireTotemSpell</a>   = 32062</div>
+<div class="line"><span class="lineno">   35</span>};</div>
+<div class="ttc" id="aa03416_html_a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3"><div class="ttname"><a href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3">TotemSpellIds::SentryTotemSpell</a></div><div class="ttdeci">@ SentryTotemSpell</div></div>
+<div class="ttc" id="aa03416_html_a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7"><div class="ttname"><a href="../../df/df7/a03416.html#a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7">TotemSpellIds::FireTotemSpell</a></div><div class="ttdeci">@ FireTotemSpell</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a1ed41ad074263f6c0c63f38b7f51414b" name="a1ed41ad074263f6c0c63f38b7f51414b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ed41ad074263f6c0c63f38b7f51414b">&#9670;&#160;</a></span>GetAISpellInfo()</h2>
+<a id="a65151889ab4b03cf02268cc7a7ff0ba3" name="a65151889ab4b03cf02268cc7a7ff0ba3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65151889ab4b03cf02268cc7a7ff0ba3">&#9670;&#160;</a></span>TotemType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d36/a06074.html">AISpellInfoType</a> * GetAISpellInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3">TotemType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../db/da6/a06050.html#adaf99f0a5a2d4993e5408eec175f5e24">CreatureAI::AISpellInfo</a>[i]; }</div>
-<div class="ttc" id="aa06050_html_adaf99f0a5a2d4993e5408eec175f5e24"><div class="ttname"><a href="../../db/da6/a06050.html#adaf99f0a5a2d4993e5408eec175f5e24">UnitAI::AISpellInfo</a></div><div class="ttdeci">static AISpellInfoType * AISpellInfo</div><div class="ttdef"><b>Definition:</b> UnitAI.h:407</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00407">UnitAI::AISpellInfo</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00110">CasterAI::InitializeAI()</a>, <a class="el" href="../../#l00127">CasterAI::JustEngagedWith()</a>, and <a class="el" href="../../#l00151">CasterAI::UpdateAI()</a>.</p>
-
-</div>
-</div>
-<a id="a6650ccba23715eea545340cd3e712233" name="a6650ccba23715eea545340cd3e712233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6650ccba23715eea545340cd3e712233">&#9670;&#160;</a></span>GetInstanceAI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class AI , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AI * GetInstanceAI </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>scriptName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069" name="a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069"></a>TOTEM_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0" name="a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0"></a>TOTEM_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300" name="a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300"></a>TOTEM_STATUE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
-<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/df7/a03416.html#aad76768c8aee9ce3ac24657437adb0de">InstanceHasScript</a>(obj, scriptName) ? <span class="keyword">new</span> AI(obj) : nullptr;</div>
-<div class="line"><span class="lineno">   69</span>}</div>
-<div class="ttc" id="aa03416_html_aad76768c8aee9ce3ac24657437adb0de"><div class="ttname"><a href="../../df/df7/a03416.html#aad76768c8aee9ce3ac24657437adb0de">InstanceHasScript</a></div><div class="ttdeci">bool InstanceHasScript(WorldObject const *obj, char const *scriptName)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:816</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069">TOTEM_PASSIVE</a>    = 0,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0">TOTEM_ACTIVE</a>     = 1,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300">TOTEM_STATUE</a>     = 2 <span class="comment">// copied straight from moongose, may need more implementation to work</span></div>
+<div class="line"><span class="lineno">   28</span>};</div>
+<div class="ttc" id="aa03416_html_a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0"><div class="ttname"><a href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0">TOTEM_ACTIVE</a></div><div class="ttdeci">@ TOTEM_ACTIVE</div><div class="ttdef"><b>Definition:</b> Totem.h:26</div></div>
+<div class="ttc" id="aa03416_html_a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069"><div class="ttname"><a href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069">TOTEM_PASSIVE</a></div><div class="ttdeci">@ TOTEM_PASSIVE</div><div class="ttdef"><b>Definition:</b> Totem.h:25</div></div>
+<div class="ttc" id="aa03416_html_a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300"><div class="ttname"><a href="../../df/df7/a03416.html#a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300">TOTEM_STATUE</a></div><div class="ttdeci">@ TOTEM_STATUE</div><div class="ttdef"><b>Definition:</b> Totem.h:27</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00816">InstanceHasScript()</a>.</p>
-
-</div>
-</div>
-<a id="aad76768c8aee9ce3ac24657437adb0de" name="aad76768c8aee9ce3ac24657437adb0de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad76768c8aee9ce3ac24657437adb0de">&#9670;&#160;</a></span>InstanceHasScript()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool InstanceHasScript </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>scriptName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  817</span>{</div>
-<div class="line"><span class="lineno">  818</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d5/d47/a09526.html">InstanceMap</a>* instance = obj-&gt;GetMap()-&gt;<a class="code hl_function" href="../../d7/d60/a09522.html#aca5af60e4ebade05b3673dd341eafd4f">ToInstanceMap</a>())</div>
-<div class="line"><span class="lineno">  819</span>    {</div>
-<div class="line"><span class="lineno">  820</span>        <span class="keywordflow">return</span> instance-&gt;GetScriptName() == scriptName;</div>
-<div class="line"><span class="lineno">  821</span>    }</div>
-<div class="line"><span class="lineno">  822</span> </div>
-<div class="line"><span class="lineno">  823</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  824</span>}</div>
-<div class="ttc" id="aa09522_html_aca5af60e4ebade05b3673dd341eafd4f"><div class="ttname"><a href="../../d7/d60/a09522.html#aca5af60e4ebade05b3673dd341eafd4f">Map::ToInstanceMap</a></div><div class="ttdeci">InstanceMap * ToInstanceMap()</div><div class="ttdef"><b>Definition:</b> Map.h:544</div></div>
-<div class="ttc" id="aa09526_html"><div class="ttname"><a href="../../d5/d47/a09526.html">InstanceMap</a></div><div class="ttdef"><b>Definition:</b> Map.h:817</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00531">WorldObject::GetMap()</a>, and <a class="el" href="../../#l00544">Map::ToInstanceMap()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00066">GetInstanceAI()</a>.</p>
-
-</div>
-</div>
-<a id="a95d9a0c5ba0d54645670ba51c16ed33c" name="a95d9a0c5ba0d54645670ba51c16ed33c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95d9a0c5ba0d54645670ba51c16ed33c">&#9670;&#160;</a></span>RAND()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename First , typename Second , typename... Rest&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static First const  &amp; RAND </td>
-          <td>(</td>
-          <td class="paramtype">First const &amp;&#160;</td>
-          <td class="paramname"><em>first</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Second const &amp;&#160;</td>
-          <td class="paramname"><em>second</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rest const &amp;...&#160;</td>
-          <td class="paramname"><em>rest</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    std::reference_wrapper&lt;typename std::add_const&lt;First&gt;::type&gt; <span class="keyword">const</span> pack[] = { first, second, rest... };</div>
-<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">return</span> pack[<a class="code hl_function" href="../../d3/dd5/a00215.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, <span class="keyword">sizeof</span>...(rest) + 1)].get();</div>
-<div class="line"><span class="lineno">   29</span>}</div>
-<div class="ttc" id="aa00215_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d3/dd5/a00215.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">urand()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00285">boss_gathios_the_shatterer::boss_gathios_the_shatterer()</a>, <a class="el" href="../../#l00427">npc_anubisath_guardian::DamageTaken()</a>, <a class="el" href="../../#l00620">boss_lady_deathwhisper::boss_lady_deathwhisperAI::EmpowerCultist()</a>, <a class="el" href="../../#l01615">PartyTimeEmoteEvent::Execute()</a>, <a class="el" href="../../#l00819">npc_simon_bunny::npc_simon_bunnyAI::GenerateColorSequence()</a>, <a class="el" href="../../#l01077">go_wind_stone::go_wind_stoneAI::GossipSelect()</a>, <a class="el" href="../../#l00260">spell_cataclysm_breath::HandleAfterCast()</a>, <a class="el" href="../../#l00459">spell_voodoo::HandleDummy()</a>, <a class="el" href="../../#l00182">spell_dred_raptor_call::HandleDummy()</a>, <a class="el" href="../../#l01597">spell_item_deviate_fish::HandleDummy()</a>, <a class="el" href="../../#l02704">spell_item_vanquished_clutches::HandleDummy()</a>, <a class="el" href="../../#l06589">Unit::HandleDummyAuraProc()</a>, <a class="el" href="../../#l01644">spell_item_party_time::HandleEffectApply()</a>, <a class="el" href="../../#l00064">spell_q10930_big_bone_worm_aura::HandleEffectRemove()</a>, <a class="el" href="../../#l00103">spell_q10929_fumping_aura::HandleEffectRemove()</a>, <a class="el" href="../../#l00866">spell_halion_meteor_strike_spread_aura::HandlePeriodic()</a>, <a class="el" href="../../#l00177">spell_q10923_evil_draws_near_periodic_aura::HandlePeriodic()</a>, <a class="el" href="../../#l00342">spell_gen_brood_power::HandleScript()</a>, <a class="el" href="../../#l00425">spell_apothecary_validate_area::HandleScript()</a>, <a class="el" href="../../#l00052">spell_winter_veil_mistletoe::HandleScript()</a>, <a class="el" href="../../#l00338">spell_ayamiss_swarmer_start_loop::HandleScript()</a>, <a class="el" href="../../#l02024">spell_q13011_bear_flank_master::HandleScript()</a>, <a class="el" href="../../#l00308">spell_lady_vashj_summon_sporebat::HandleScriptEffect()</a>, <a class="el" href="../../#l00111">spell_dtk_summon_random_drakkari::HandleScriptEffect()</a>, <a class="el" href="../../#l01590">spell_q14112_14145_chum_the_water::HandleScriptEffect()</a>, <a class="el" href="../../#l00096">boss_moroes::InitializeGuests()</a>, <a class="el" href="../../#l00407">npc_anubisath_guardian::JustEngagedWith()</a>, <a class="el" href="../../#l00087">boss_nexusprince_shaffar::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_mekgineer_steamrigger::JustEngagedWith()</a>, <a class="el" href="../../#l00052">boss_high_botanist_freywinn::JustEngagedWith()</a>, <a class="el" href="../../#l00054">boss_mechano_lord_capacitus::JustEngagedWith()</a>, <a class="el" href="../../#l00084">boss_curator::JustEngagedWith()</a>, <a class="el" href="../../#l00784">boss_prince_valanar_icc::boss_prince_valanarAI::JustEngagedWith()</a>, <a class="el" href="../../#l00080">boss_mother_shahraz::JustEngagedWith()</a>, <a class="el" href="../../#l00135">boss_alar::JustEngagedWith()</a>, <a class="el" href="../../#l00453">npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI::JustRespawned()</a>, <a class="el" href="../../#l00108">npc_medivh_bm::JustSummoned()</a>, <a class="el" href="../../#l00391">npc_anubisath_guardian::npc_anubisath_guardian()</a>, <a class="el" href="../../#l00138">npc_vh_teleportation_portal::npc_vh_teleportation_portalAI::npc_vh_teleportation_portalAI()</a>, <a class="el" href="../../#l02742">spell_item_ashbringer::OnDummyEffect()</a>, <a class="el" href="../../#l00387">spell_love_is_in_the_air_romantic_picnic::OnPeriodic()</a>, <a class="el" href="../../#l00082">boss_thekal::Reset()</a>, <a class="el" href="../../#l00331">npc_zealot_lorkhan::Reset()</a>, <a class="el" href="../../#l00432">npc_zealot_zath::Reset()</a>, <a class="el" href="../../#l00243">npc_anub_ar_crusher::npc_anub_ar_crusherAI::Reset()</a>, <a class="el" href="../../#l01182">npc_violet_hold_defense_system::Reset()</a>, <a class="el" href="../../#l00143">boss_the_lurker_below::SchedulerPhaseOne()</a>, <a class="el" href="../../#l00146">boss_ayamiss::ScheduleTasks()</a>, <a class="el" href="../../#l00292">boss_gathios_the_shatterer::SelectCouncilMember()</a>, <a class="el" href="../../#l01088">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::SetBossState()</a>, <a class="el" href="../../#l00077">npc_cameron::SoundPicker()</a>, <a class="el" href="../../#l00231">pyrewood_ambush::pyrewood_ambushAI::SummonCreatureWithRandomTarget()</a>, <a class="el" href="../../#l00147">spell_mother_shahraz_random_periodic_aura::Update()</a>, <a class="el" href="../../#l00139">boss_chromaggus::boss_chromaggusAI::UpdateAI()</a>, <a class="el" href="../../#l00231">boss_kalecgos::UpdateAI()</a>, <a class="el" href="../../#l00362">npc_time_rift::UpdateAI()</a>, <a class="el" href="../../#l02058">npc_toc_enh_shaman::npc_toc_enh_shamanAI::UpdateAI()</a>, <a class="el" href="../../#l00186">boss_novos::boss_novosAI::UpdateAI()</a>, <a class="el" href="../../#l00342">boss_kelthuzad::boss_kelthuzadAI::UpdateAI()</a>, <a class="el" href="../../#l00397">boss_mimiron::boss_mimironAI::UpdateAI()</a>, <a class="el" href="../../#l01712">npc_ulduar_aerial_command_unit::npc_ulduar_aerial_command_unitAI::UpdateAI()</a>, <a class="el" href="../../#l00734">boss_yoggsaron_sara::boss_yoggsaron_saraAI::UpdateAI()</a>, <a class="el" href="../../#l00097">boss_xevozz::boss_xevozzAI::UpdateAI()</a>, <a class="el" href="../../#l00168">npc_vh_teleportation_portal::npc_vh_teleportation_portalAI::UpdateAI()</a>, <a class="el" href="../../#l01190">npc_violet_hold_defense_system::UpdateAI()</a>, <a class="el" href="../../#l00143">npc_millhouse_manastorm::npc_millhouse_manastormAI::UpdateAI()</a>, <a class="el" href="../../#l00424">npc_warden_mellichar::npc_warden_mellicharAI::UpdateAI()</a>, <a class="el" href="../../#l00085">npc_pet_hunter_snake_trap::UpdateAI()</a>, and <a class="el" href="../../#l01634">boss_yoggsaron_corruptor_tentacle::boss_yoggsaron_corruptor_tentacleAI::UpdateAI()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -415,8 +283,8 @@ template&lt;typename First , typename Second , typename... Rest&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../df/df7/a03416.html">CreatureAIImpl.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_2b33e2640b4790028fefa7ce3e766c20.html">Totem</a></li><li class="navelem"><a class="el" href="../../df/df7/a03416.html">Totem.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

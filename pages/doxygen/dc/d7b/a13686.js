@@ -1,8 +1,6 @@
 var a13686 =
 [
-    [ "npc_spawn_of_marli", "dc/d7b/a13686.html#a1dcd5066de108203903f5767c4b375ea", null ],
-    [ "JustEngagedWith", "dc/d7b/a13686.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
-    [ "Reset", "dc/d7b/a13686.html#a79ef192d41af75e0dad0494776c75189", null ],
-    [ "UpdateAI", "dc/d7b/a13686.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
-    [ "_scheduler", "dc/d7b/a13686.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
+    [ "LaunchHit", "dc/d7b/a13686.html#a715c86c4057fe8c60abf02d895ac3c5a", null ],
+    [ "PrepareSpellScript", "dc/d7b/a13686.html#a4ad316b68d84921255577aedabb5ad3f", null ],
+    [ "Register", "dc/d7b/a13686.html#a50fa3ede9bebb2b54c4ec10091017c07", null ]
 ];

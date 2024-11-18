@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Dynamic/TypeContainerVisitor.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/Authentication/SRP6.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,375 +106,36 @@ $(document).ready(function(){initNavTree('dd/d63/a00455.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">TypeContainerVisitor.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">SRP6.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Dynamic/TypeContainer.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuthDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d32/a05194.html">TypeContainerVisitor&lt; VISITOR, TYPE_CONTAINER &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html">Acore::Crypto::SRP6</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3a47e8382377ca85476452be8786e00f"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class TYPE_CONTAINER &gt; </td></tr>
-<tr class="memitem:a3a47e8382377ca85476452be8786e00f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a> (VISITOR &amp;v, TYPE_CONTAINER &amp;c)</td></tr>
-<tr class="separator:a3a47e8382377ca85476452be8786e00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb97c1925d9afe2b9cb0f316b722b286"><td class="memTemplParams" colspan="2">template&lt;class VISITOR &gt; </td></tr>
-<tr class="memitem:afb97c1925d9afe2b9cb0f316b722b286"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#afb97c1925d9afe2b9cb0f316b722b286">VisitorHelper</a> (VISITOR &amp;, <a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;)</td></tr>
-<tr class="separator:afb97c1925d9afe2b9cb0f316b722b286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bba031b226b147ad62a069694924b83"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class T &gt; </td></tr>
-<tr class="memitem:a2bba031b226b147ad62a069694924b83"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#a2bba031b226b147ad62a069694924b83">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; T &gt; &amp;c)</td></tr>
-<tr class="separator:a2bba031b226b147ad62a069694924b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a521e8e3b3a45439e572e9769ad39b512"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class H , class T &gt; </td></tr>
-<tr class="memitem:a521e8e3b3a45439e572e9769ad39b512"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#a521e8e3b3a45439e572e9769ad39b512">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; <a class="el" href="../../da/dac/a05198.html">TypeList</a>&lt; H, T &gt; &gt; &amp;c)</td></tr>
-<tr class="separator:a521e8e3b3a45439e572e9769ad39b512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85da15ab4908f58ef09fcf703f3c01a6"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class OBJECT_TYPES &gt; </td></tr>
-<tr class="memitem:a85da15ab4908f58ef09fcf703f3c01a6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#a85da15ab4908f58ef09fcf703f3c01a6">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt; OBJECT_TYPES &gt; &amp;c)</td></tr>
-<tr class="separator:a85da15ab4908f58ef09fcf703f3c01a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c05d024f0dd548fe51e8d8657cdb9b8"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class KEY_TYPE &gt; </td></tr>
-<tr class="memitem:a3c05d024f0dd548fe51e8d8657cdb9b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#a3c05d024f0dd548fe51e8d8657cdb9b8">VisitorHelper</a> (VISITOR &amp;, <a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; &amp;)</td></tr>
-<tr class="separator:a3c05d024f0dd548fe51e8d8657cdb9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace6180e67fbb6a46929af65480632388"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class KEY_TYPE , class T &gt; </td></tr>
-<tr class="memitem:ace6180e67fbb6a46929af65480632388"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#ace6180e67fbb6a46929af65480632388">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; &amp;c)</td></tr>
-<tr class="separator:ace6180e67fbb6a46929af65480632388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2220e2e1174a525d43b8449fd25a2e3"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class KEY_TYPE , class H , class T &gt; </td></tr>
-<tr class="memitem:ac2220e2e1174a525d43b8449fd25a2e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#ac2220e2e1174a525d43b8449fd25a2e3">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../da/dac/a05198.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; &amp;c)</td></tr>
-<tr class="separator:ac2220e2e1174a525d43b8449fd25a2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af508b246df1e278d5ebf32da50f4e2f9"><td class="memTemplParams" colspan="2">template&lt;class VISITOR , class OBJECT_TYPES , class KEY_TYPE &gt; </td></tr>
-<tr class="memitem:af508b246df1e278d5ebf32da50f4e2f9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d63/a00455.html#af508b246df1e278d5ebf32da50f4e2f9">VisitorHelper</a> (VISITOR &amp;v, <a class="el" href="../../d2/d72/a05190.html">TypeUnorderedMapContainer</a>&lt; OBJECT_TYPES, KEY_TYPE &gt; &amp;c)</td></tr>
-<tr class="separator:af508b246df1e278d5ebf32da50f4e2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d11/a04696"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d11/a04696.html">Acore::Crypto</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="afb97c1925d9afe2b9cb0f316b722b286" name="afb97c1925d9afe2b9cb0f316b722b286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb97c1925d9afe2b9cb0f316b722b286">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[1/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3c05d024f0dd548fe51e8d8657cdb9b8" name="a3c05d024f0dd548fe51e8d8657cdb9b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c05d024f0dd548fe51e8d8657cdb9b8">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[2/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class KEY_TYPE &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; TypeNull, KEY_TYPE &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2bba031b226b147ad62a069694924b83" name="a2bba031b226b147ad62a069694924b83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bba031b226b147ad62a069694924b83">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[3/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    v.Visit(c.<a class="code hl_variable" href="../../dd/d48/a05150.html#a9130a796cd6534c1da2c82f02568348c">_element</a>);</div>
-<div class="line"><span class="lineno">   44</span>}</div>
-<div class="ttc" id="aa05150_html_a9130a796cd6534c1da2c82f02568348c"><div class="ttname"><a href="../../dd/d48/a05150.html#a9130a796cd6534c1da2c82f02568348c">ContainerMapList::_element</a></div><div class="ttdeci">GridRefMgr&lt; OBJECT &gt; _element</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:39</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">ContainerMapList&lt; OBJECT &gt;::_element</a>.</p>
-
-</div>
-</div>
-<a id="a521e8e3b3a45439e572e9769ad39b512" name="a521e8e3b3a45439e572e9769ad39b512"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a521e8e3b3a45439e572e9769ad39b512">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[4/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class H , class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d48/a05150.html">ContainerMapList</a>&lt; <a class="el" href="../../da/dac/a05198.html">TypeList</a>&lt; H, T &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_variable" href="../../da/dee/a05158.html#acf30d76638f2906421de881ced591fbd">_elements</a>);</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_variable" href="../../da/dee/a05158.html#afbb7352f16ec774a372d2cbf699e3e0e">_TailElements</a>);</div>
-<div class="line"><span class="lineno">   51</span>}</div>
-<div class="ttc" id="aa00455_html_a3a47e8382377ca85476452be8786e00f"><div class="ttname"><a href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a></div><div class="ttdeci">void VisitorHelper(VISITOR &amp;v, TYPE_CONTAINER &amp;c)</div><div class="ttdef"><b>Definition:</b> TypeContainerVisitor.h:33</div></div>
-<div class="ttc" id="aa05158_html_acf30d76638f2906421de881ced591fbd"><div class="ttname"><a href="../../da/dee/a05158.html#acf30d76638f2906421de881ced591fbd">ContainerMapList&lt; TypeList&lt; H, T &gt; &gt;::_elements</a></div><div class="ttdeci">ContainerMapList&lt; H &gt; _elements</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:50</div></div>
-<div class="ttc" id="aa05158_html_afbb7352f16ec774a372d2cbf699e3e0e"><div class="ttname"><a href="../../da/dee/a05158.html#afbb7352f16ec774a372d2cbf699e3e0e">ContainerMapList&lt; TypeList&lt; H, T &gt; &gt;::_TailElements</a></div><div class="ttdeci">ContainerMapList&lt; T &gt; _TailElements</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:51</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00033">VisitorHelper()</a>.</p>
-
-</div>
-</div>
-<a id="ace6180e67fbb6a46929af65480632388" name="ace6180e67fbb6a46929af65480632388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace6180e67fbb6a46929af65480632388">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[5/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class KEY_TYPE , class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; T, KEY_TYPE &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
-<div class="line"><span class="lineno">   66</span>    v.Visit(c.<a class="code hl_variable" href="../../d1/dab/a05162.html#ab18c6fa467deee7af0db888ab94d0ba7">_element</a>);</div>
-<div class="line"><span class="lineno">   67</span>}</div>
-<div class="ttc" id="aa05162_html_ab18c6fa467deee7af0db888ab94d0ba7"><div class="ttname"><a href="../../d1/dab/a05162.html#ab18c6fa467deee7af0db888ab94d0ba7">ContainerUnorderedMap::_element</a></div><div class="ttdeci">std::unordered_map&lt; KEY_TYPE, OBJECT * &gt; _element</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:57</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00057">ContainerUnorderedMap&lt; OBJECT, KEY_TYPE &gt;::_element</a>.</p>
-
-</div>
-</div>
-<a id="ac2220e2e1174a525d43b8449fd25a2e3" name="ac2220e2e1174a525d43b8449fd25a2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2220e2e1174a525d43b8449fd25a2e3">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[6/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class KEY_TYPE , class H , class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/dab/a05162.html">ContainerUnorderedMap</a>&lt; <a class="el" href="../../da/dac/a05198.html">TypeList</a>&lt; H, T &gt;, KEY_TYPE &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_variable" href="../../dc/ddd/a05170.html#adca71d306b9b5ee6b1dc0dc75cec1f2c">_elements</a>);</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_variable" href="../../dc/ddd/a05170.html#a7d3b640a8d68089436c3792b3db088f1">_TailElements</a>);</div>
-<div class="line"><span class="lineno">   74</span>}</div>
-<div class="ttc" id="aa05170_html_a7d3b640a8d68089436c3792b3db088f1"><div class="ttname"><a href="../../dc/ddd/a05170.html#a7d3b640a8d68089436c3792b3db088f1">ContainerUnorderedMap&lt; TypeList&lt; H, T &gt;, KEY_TYPE &gt;::_TailElements</a></div><div class="ttdeci">ContainerUnorderedMap&lt; T, KEY_TYPE &gt; _TailElements</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:69</div></div>
-<div class="ttc" id="aa05170_html_adca71d306b9b5ee6b1dc0dc75cec1f2c"><div class="ttname"><a href="../../dc/ddd/a05170.html#adca71d306b9b5ee6b1dc0dc75cec1f2c">ContainerUnorderedMap&lt; TypeList&lt; H, T &gt;, KEY_TYPE &gt;::_elements</a></div><div class="ttdeci">ContainerUnorderedMap&lt; H, KEY_TYPE &gt; _elements</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00033">VisitorHelper()</a>.</p>
-
-</div>
-</div>
-<a id="a3a47e8382377ca85476452be8786e00f" name="a3a47e8382377ca85476452be8786e00f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a47e8382377ca85476452be8786e00f">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[7/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class TYPE_CONTAINER &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TYPE_CONTAINER &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    v.Visit(c);</div>
-<div class="line"><span class="lineno">   36</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00088">TypeContainerVisitor&lt; VISITOR, TYPE_CONTAINER &gt;::Visit()</a>, and <a class="el" href="../../#l00047">VisitorHelper()</a>.</p>
-
-</div>
-</div>
-<a id="a85da15ab4908f58ef09fcf703f3c01a6" name="a85da15ab4908f58ef09fcf703f3c01a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85da15ab4908f58ef09fcf703f3c01a6">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[8/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class OBJECT_TYPES &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt; OBJECT_TYPES &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_function" href="../../db/d21/a05186.html#af75467b56830b1447bebbf974b2747b6">GetElements</a>());</div>
-<div class="line"><span class="lineno">   57</span>}</div>
-<div class="ttc" id="aa05186_html_af75467b56830b1447bebbf974b2747b6"><div class="ttname"><a href="../../db/d21/a05186.html#af75467b56830b1447bebbf974b2747b6">TypeMapContainer::GetElements</a></div><div class="ttdeci">ContainerMapList&lt; OBJECT_TYPES &gt; &amp; GetElements()</div><div class="ttdoc">Removes the object from the container, and returns the removed object.</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:120</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00120">TypeMapContainer&lt; OBJECT_TYPES &gt;::GetElements()</a>, and <a class="el" href="../../#l00033">VisitorHelper()</a>.</p>
-
-</div>
-</div>
-<a id="af508b246df1e278d5ebf32da50f4e2f9" name="af508b246df1e278d5ebf32da50f4e2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af508b246df1e278d5ebf32da50f4e2f9">&#9670;&#160;</a></span>VisitorHelper() <span class="overload">[9/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class VISITOR , class OBJECT_TYPES , class KEY_TYPE &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisitorHelper </td>
-          <td>(</td>
-          <td class="paramtype">VISITOR &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d72/a05190.html">TypeUnorderedMapContainer</a>&lt; OBJECT_TYPES, KEY_TYPE &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_function" href="../../dd/d63/a00455.html#a3a47e8382377ca85476452be8786e00f">VisitorHelper</a>(v, c.<a class="code hl_function" href="../../d2/d72/a05190.html#a653b00a9d570ae9d9276a061beda3f35">GetElements</a>());</div>
-<div class="line"><span class="lineno">   80</span>}</div>
-<div class="ttc" id="aa05190_html_a653b00a9d570ae9d9276a061beda3f35"><div class="ttname"><a href="../../d2/d72/a05190.html#a653b00a9d570ae9d9276a061beda3f35">TypeUnorderedMapContainer::GetElements</a></div><div class="ttdeci">ContainerUnorderedMap&lt; OBJECT_TYPES, KEY_TYPE &gt; &amp; GetElements()</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:157</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00157">TypeUnorderedMapContainer&lt; OBJECT_TYPES, KEY_TYPE &gt;::GetElements()</a>, and <a class="el" href="../../#l00033">VisitorHelper()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5e90094e25781d2f0c122fad038cf6ce.html">Dynamic</a></li><li class="navelem"><a class="el" href="../../dd/d63/a00455.html">TypeContainerVisitor.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../dir_6f898d49591bfe46f28764f3b869758a.html">Authentication</a></li><li class="navelem"><a class="el" href="../../dd/d63/a00455.html">SRP6.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

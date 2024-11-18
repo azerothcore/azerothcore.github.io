@@ -1,9 +1,25 @@
 var a09762 =
 [
-    [ "counter", "d4/d57/a09762.html#a0efb94229f4a9370dc5b256ba623385b", null ],
-    [ "getCurrent", "d4/d57/a09762.html#afff6411c2b7f1c07d72ad26dc77d4780", null ],
-    [ "Increase", "d4/d57/a09762.html#a463e0ba077c8398a6125e715afcd8860", null ],
-    [ "init", "d4/d57/a09762.html#a0369662be009b781174021a2eb6b3202", null ],
-    [ "NewId", "d4/d57/a09762.html#a06d5bc4ea248173316ed4d1ce96d6281", null ],
-    [ "m_counter", "d4/d57/a09762.html#a297f1ba5e072e4c90b62c7242ee1b01c", null ]
+    [ "WaypointMovementGenerator", "d4/d57/a09762.html#a983db845eec7ad285c6aa4be3806ca96", null ],
+    [ "~WaypointMovementGenerator", "d4/d57/a09762.html#a593c784ebcca7f8c431df4573fa874c6", null ],
+    [ "CanMove", "d4/d57/a09762.html#aa012ce83f1c517c2276a4087bfa1fa2a", null ],
+    [ "DoFinalize", "d4/d57/a09762.html#a2433bd1daa89ffe7db890a980e08f7c0", null ],
+    [ "DoInitialize", "d4/d57/a09762.html#a85431b77d71e57adc675884cb60265bf", null ],
+    [ "DoReset", "d4/d57/a09762.html#a8df87d19f7f37b71061e0122d2047e7b", null ],
+    [ "DoUpdate", "d4/d57/a09762.html#ae2bfe9bb6e1b36a1b29d195539dc21b5", null ],
+    [ "GetMovementGeneratorType", "d4/d57/a09762.html#a20c8c2373bb55d32dd9c3a17a9c01c34", null ],
+    [ "LoadPath", "d4/d57/a09762.html#ad94d8d26f05098ed1b79ccf8a990fa05", null ],
+    [ "MovementInform", "d4/d57/a09762.html#a3556f9f93f2e32d8b2bb8549a2086ad8", null ],
+    [ "OnArrived", "d4/d57/a09762.html#a7bd5e0f9f66b3caf5a90cdc0dbd014d9", null ],
+    [ "Pause", "d4/d57/a09762.html#ae0779edb04fea22d96767249ccbf06b6", null ],
+    [ "Resume", "d4/d57/a09762.html#ae3f50b0fedbe0da23f806ef89dcd39f6", null ],
+    [ "StartMove", "d4/d57/a09762.html#af1ca7bcddaea3c8182bf0ceaffaae2f6", null ],
+    [ "StartMoveNow", "d4/d57/a09762.html#a112d6e56dd472edd4cf28514bba4f336", null ],
+    [ "Stop", "d4/d57/a09762.html#a93e5972abae07effc7ce3c85e66f5606", null ],
+    [ "Stopped", "d4/d57/a09762.html#a0facace1f103db218ea01d80f8bca3da", null ],
+    [ "i_nextMoveTime", "d4/d57/a09762.html#a93ba19dcd1102f2ac7d55270018230aa", null ],
+    [ "m_isArrivalDone", "d4/d57/a09762.html#a5853c2ab68a3b65dae668eeb243daba9", null ],
+    [ "path_id", "d4/d57/a09762.html#a9cfc901b4a804d65c72ee40398973650", null ],
+    [ "repeating", "d4/d57/a09762.html#a88c18e329a06d89a1207e14d1b7b77dd", null ],
+    [ "stalled", "d4/d57/a09762.html#aa2a134cfb38b80fb1f1764af61c6538e", null ]
 ];

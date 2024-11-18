@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/zone_darkshore.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/utgarde_pinnacle.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,435 +105,669 @@ $(document).ready(function(){initNavTree('d7/deb/a02090.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_darkshore.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">utgarde_pinnacle.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedFollowerAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dac/a14958.html">npc_murkdeep</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcc/a14962.html">npc_murkdeep::npc_murkdeepAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d55/a14966.html">npc_kerlonian</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/a14970.html">npc_kerlonian::npc_kerlonianAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd6/a14974.html">npc_prospector_remtravel</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6e/a14978.html">npc_prospector_remtravel::npc_prospector_remtravelAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd1/a14982.html">npc_rabid_thistle_bear</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d23/a14986.html">npc_rabid_thistle_bear::npc_rabid_thistle_bearAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de2/a14990.html">npc_tharnarian</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddb/a14994.html">npc_tharnarian::npc_tharnarianAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;UP&quot;</td></tr>
+<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab473f94c945d852ec2a8a0ff3ec66566"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#ab473f94c945d852ec2a8a0ff3ec66566">UtgardePinnacleScriptName</a>&#160;&#160;&#160;&quot;instance_utgarde_pinnacle&quot;</td></tr>
+<tr class="separator:ab473f94c945d852ec2a8a0ff3ec66566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a28d336f7a4c4779d0ac960ac128faf22"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22">murkdeep</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839">NPC_GREYMIST_HUNTER</a> = 2206
+<tr class="memitem:af5baa506e65b4caa6be6d1c6661dfe63"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63">Data</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63aba8a7ffa7c59b363812d39c2f84cfb06">TYPE_GELIHAST</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449">NPC_GREYMIST_WARRIOR</a> = 2205
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63ab51c33641138640c72e3196ce6fb27fe">TYPE_FIRE1</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac">NPC_GREYMIST_COASTRUNNER</a> = 2202
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63a9e9de62e02991ecca224def0cbdc12b6">TYPE_FIRE2</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb">SPELL_SUNDER_ARMOR</a> = 11971
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63aac3abf4b2386096b5c8ffd1157e0f4e5">TYPE_FIRE3</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf">SPELL_NET</a> = 6533
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63a4f42b03438989f88459efb5c4a84e4d5">TYPE_FIRE4</a> = 4
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a">EVENT_SPELL_SUNDER_ARMOR</a> = 2
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63abcae9a686a3fb104589eda4fc2962bdd">TYPE_AKU_MAI_EVENT</a> = 5
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d">EVENT_SPELL_NET</a> = 3
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63a4842090ac3ea8e0e3f79e41bd8540a80">TYPE_AKU_MAI</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a94f8ba6b598eb764528d7e2559246c3a">DATA_ARTHAS_EVENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a23ee66c0bee61794c9d246533c855c10">DATA_GUARDIANTIME_EVENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63aa9cf3fd29541b5b1abc71e7664cfef26">DATA_SHOW_CRATES</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a5d5fac3bf1b4c09ec46c4039855a081f">DATA_CRATE_COUNT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a4d067c8498081a870a958ac9f552e509">DATA_START_WAVES</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a2e80a277bcb0e797ac5e65a2e9ae26b1">DATA_SHOW_INFINITE_TIMER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/dea/a01094.html#af5baa506e65b4caa6be6d1c6661dfe63a0a8922410dd29b7c826468f06fc15fc9">DATA_ARTHAS_REPOSITION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c">DATA_SARTHARION</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a2e7a9e77fa184759574ad6e526197ca2">DATA_TENEBRON</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a1050764ffa9f3d036267d687927c01b4">DATA_VESPERON</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63aa2f0a4a8de58142833d1f54cbfc0d4d4">DATA_SHADRON</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a4024404fa704cb14c65e50d568369e56">DATA_ACHIEVEMENT_DRAGONS_COUNT</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a752fbe50413af455094f0578f791476b">DATA_VOLCANO_BLOWS</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63ac5fc96320a852557e13f1d4a95c8ff10">NPC_SARTHARION</a> = 28860
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a8ca4815f4c37140fa10966428c74a623">NPC_TENEBRON</a> = 30452
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a72509ccde0f82c1f684baf715e8983ac">NPC_SHADRON</a> = 30451
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a43836753d3e84b4f37b41a99a4a3245e">NPC_VESPERON</a> = 30449
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63acb8059762a7d2d7d8c1f657d7feb3522">NPC_FIRE_CYCLONE</a> = 30648
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a4ff0b6ba3331bbaa303dbea17ef3ee35">GO_TWILIGHT_PORTAL</a> = 193988
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a088b5df5c62fed6bc8b598e78b56f709">GO_NORMAL_PORTAL</a> = 193989
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63a6b2de4b70298d53d1e8c042da94b7c87">SPELL_TWILIGHT_SHIFT</a> = 57620
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d99/a01901.html#af5baa506e65b4caa6be6d1c6661dfe63aee30cc95ba8069cd1a17a37908e38ae5">SPELL_TWILIGHT_TORMENT_SARTHARION</a> = 58835
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63ac89c8939089d5a7d9d0755052bb9b0c2">DATA_TROLLGORE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63acd2dca089c2c0629c9041488efbed69d">DATA_NOVOS</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63adac02ec13f85b1d974817fa65e50ef75">DATA_NOVOS_CRYSTALS</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63a69368db5115aeaff78242fee1538ccc1">DATA_DRED</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63ad3a70035e86ba8617840ffb195a0a16b">DATA_THARON_JA</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../de/d96/a01685.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c">DATA_BRONJAHM</a>
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9">DATA_DEVOURER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../db/d95/a01637.html#af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ae95dd70549003ebe67b19649e0c731a7">DATA_INTRO</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ab35e94d3f1c375ac318099e383e21d21">DATA_FALRIC</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63aab96ba8bed84beb930d0d88de6d091cd">DATA_MARWYN</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a2434bd858b0ee01e0097bd60fa936f41">DATA_FROSTSWORN_GENERAL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63adb683ca05b5dc26b9eeba5bc23b4a9fb">DATA_LK_INTRO</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a7d1be3a006196888b236f5ba5e2f19dd">DATA_LICH_KING</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ab25b2f2755f49b04581b62a7e1fad748">DATA_BATTERED_HILT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a41d7c840aa31adaa4aa84a6d7b3e0e5e">ACTION_SHOW_TRASH</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ae3dcdaa982379d53e39039263ddb95a1">ACTION_SPIRITUAL_REFLECTIONS_COPY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a7c17895efac016c0e522d6ec34b7be22">ACTION_SPIRITUAL_REFLECTIONS_ACTIVATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a45a21d3443390c4987c7270c92ecb6b5">ACTION_SPIRITUAL_REFLECTIONS_HIDE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a10f5f3d19996ce23277cfee5fe5f9120">ACTION_START_LK_FIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a6d0545e70a620ef4e1b900fcb622ab57">ACTION_STOP_LK_FIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63a4beba7db429c52083d439baa4da667ca">ACTION_DELETE_ICE_WALL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ac1747b726f5dc8f3d9fc3578da1a6bb4">DATA_WAVE_NUMBER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/deb/a01628.html#af5baa506e65b4caa6be6d1c6661dfe63ab8e10ca903fb36c37526a471beb5119c">DATA_LK_BATTLE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a0afc5e23fa1345ffc7cda0020d520e84">DATA_SLAD_RAN</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a4d6384c29b6e14d0308fc0240c2afabe">DATA_MOORABI</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a32975304248dc504bd8206a2e3a33d14">DATA_DRAKKARI_COLOSSUS</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a6c2628ab4e3a8aa192d2ff8685f8066d">DATA_GAL_DARAH</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a3683686008191891e5e1c027669afca4">DATA_ECK_THE_FEROCIOUS_INIT</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63ac039a49a9b97fc453a4e5f873d5e1288">DATA_ECK_THE_FEROCIOUS</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d9/df5/a01673.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#af5baa506e65b4caa6be6d1c6661dfe63aed48a27d536509f11ee2da8c3366176f">DATA_IRIS_ACTIVATED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4">DATA_ENCOUNTER_STATUS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#af5baa506e65b4caa6be6d1c6661dfe63a1dcf1f64522995a4635c77b607d1824c">DATA_SET_IRIS_INACTIVE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#af5baa506e65b4caa6be6d1c6661dfe63ad662dc3f68f39db6a908f7cebee9604d">DATA_HIDE_IRIS_AND_PORTAL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#af5baa506e65b4caa6be6d1c6661dfe63a32904c6059a5b12e98c818f97ec1b14c">DATA_MALYGOS_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a">DATA_CC_COUNT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815">DATA_AMBER_VOID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed">DATA_EMERALD_VOID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b">DATA_RUBY_VOID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1">DATA_DCD_1</a> = 100
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988">DATA_DCD_2</a> = 101
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a01859.html#af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca">DATA_DCD_3</a> = 102
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883">DATA_SVALA_SORROWGRAVE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677">DATA_GORTOK_PALEHOOF</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b">DATA_SKADI_THE_RUTHLESS</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b">DATA_KING_YMIRON</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6">DATA_GRAUF</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba">DATA_NPC_FRENZIED_WORGEN</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099">DATA_NPC_RAVENOUS_FURBOLG</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b">DATA_NPC_MASSIVE_JORMUNGAR</a> = 12
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f">DATA_NPC_FEROCIOUS_RHINO</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745">YMIRON_DOOR</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2">STATIS_GENERATOR</a> = 21
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207">SKADI_DOOR</a> = 32
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e">DATA_SVALA_ACHIEVEMENT</a> = 50
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2">DATA_SKADI_ACHIEVEMENT</a> = 51
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61">DATA_YMIRON_ACHIEVEMENT</a> = 52
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029">EVENT_ARCHAVON</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f">EVENT_EMALON</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf">EVENT_KORALON</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989">EVENT_TORAVON</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d9/dd5/a01886.html#af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2">DATA_STONED</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a6dcad9a09de5053c1914e774b668fc20">DATA_ACTIVATE_DEFENSE_SYSTEM</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4">DATA_ENCOUNTER_STATUS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a2b6f8be8dffb30ef8c0a86651557d9f1">DATA_START_INSTANCE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e">DATA_ADD_TRASH_MOB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779">DATA_DELETE_TRASH_MOB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a63df89a4eaf308dfa103588e8dda4603">DATA_PORTAL_DEFEATED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a862f0c9134c86e397112353ef49530a7">DATA_WAVE_COUNT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a9a478c99cb73b1b3495c4320ecdefce7">DATA_PORTAL_LOCATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a2822392ecab7cdd3d31c8ec2295ae87f">DATA_TELEPORTATION_PORTAL_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a282d62a3482a356f9c5b5f0643804931">DATA_DOOR_SEAL_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a1f7df1c7eb8cbc866207ce44d27f6b02">DATA_FIRST_BOSS_NUMBER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a90f4c3aba2a4b767354aab7b2b9ab5d4">DATA_SECOND_BOSS_NUMBER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63aa5e8f5d9ad5cff86839264caf30581bc">DATA_RELEASE_BOSS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a66c025f1e4ec666e6afb702cb2cd834d">DATA_DECRASE_DOOR_HEALTH</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836">DATA_BOSS_DIED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0">DATA_FAILED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63aae3e82abb4808dabff2fad80170e5194">DATA_EREKEM_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64">DATA_EREKEM_GUARD_1_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8">DATA_EREKEM_GUARD_2_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113">DATA_ICHORON_GUID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d2e/a01949.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933">DATA_ACHIEV</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323">DATA_HUNGARFEN</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e">DATA_GHAZAN</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d">DATA_MUSELEK</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3">DATA_BLACK_STALKER</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../db/d40/a00959.html#af5baa506e65b4caa6be6d1c6661dfe63a7af1afa803e2e65c7ad4816425846f0f">SETDATA_DATA</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../db/d40/a00959.html#af5baa506e65b4caa6be6d1c6661dfe63ac459bf0c49192437cef2dd734f71240c">SETDATA_PEON_AGGRO</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../db/d40/a00959.html#af5baa506e65b4caa6be6d1c6661dfe63aab321877541215b6f3f9fe6f083703bd">SETDATA_PEON_DEATH</a> = 2
 <br />
  }</td></tr>
-<tr class="separator:a28d336f7a4c4779d0ac960ac128faf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3338171c123af20526d919ca7eaed39b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39b">Kerlonian</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b">SAY_KER_START</a> = 0
+<tr class="separator:af5baa506e65b4caa6be6d1c6661dfe63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6095c54a56c4e904d4f4c3c8bb1456fd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fd">Objects</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77">GO_NEXUS_PLATFORM</a> = 193070
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e">EMOTE_KER_SLEEP</a> = 1
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#a6095c54a56c4e904d4f4c3c8bb1456fda0e67e4f671df0cb7690f9fb9b98b9b69">GO_IRIS_N</a> = 193958
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad">SAY_KER_SLEEP</a> = 2
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#a6095c54a56c4e904d4f4c3c8bb1456fda7f6db0c8e1be8ece4bd50291c9ddc8c7">GO_IRIS_H</a> = 193960
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af">SAY_KER_ALERT_1</a> = 3
+&#160;&#160;<a class="el" href="../../dd/de7/a01868.html#a6095c54a56c4e904d4f4c3c8bb1456fdab3f90752db7a22e6994b0594d89df12f">GO_EXIT_PORTAL</a> = 193908
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3">SAY_KER_END</a> = 4
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131">GO_SKADI_THE_RUTHLESS_DOOR</a> = 192173
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f">EMOTE_KER_AWAKEN</a> = 5
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b">GO_KING_YMIRON_DOOR</a> = 192174
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a">SPELL_SLEEP_VISUAL</a> = 25148
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea">GO_GORK_PALEHOOF_SPHERE</a> = 188593
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799">SPELL_AWAKEN</a> = 17536
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97">GO_SVALA_MIRROR</a> = 191745
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf">SPELL_BEAR_FORM</a> = 18309
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa">NPC_SCOURGE_HULK</a> = 26555
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436">QUEST_SLEEPER_AWAKENED</a> = 5321
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1">NPC_DRAGONFLAYER_SPECTATOR</a> = 26667
 , <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358">NPC_LILADRIS</a> = 11219
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74">NPC_SVALA_SORROWGRAVE</a> = 26668
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9">NPC_GORTOK_PALEHOOF</a> = 26687
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7">NPC_SKADI_THE_RUTHLESS</a> = 26693
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9">NPC_KING_YMIRON</a> = 26861
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a">NPC_FRENZIED_WORGEN</a> = 26683
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed">NPC_RAVENOUS_FURBOLG</a> = 26684
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7">NPC_MASSIVE_JORMUNGAR</a> = 26685
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95">NPC_FEROCIOUS_RHINO</a> = 26686
+, <br />
+&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95">NPC_GARUF</a> = 26893
 <br />
  }</td></tr>
-<tr class="separator:a3338171c123af20526d919ca7eaed39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a231f21241510908fe1bab1745bec56"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56">Remtravel</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d">SAY_REM_START</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4">SAY_REM_AGGRO</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b">SAY_REM_RAMP1_1</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745">SAY_REM_RAMP1_2</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0">SAY_REM_BOOK</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79">SAY_REM_TENT1_1</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc">SAY_REM_TENT1_2</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb">SAY_REM_MOSS</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4">EMOTE_REM_MOSS</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae">SAY_REM_MOSS_PROGRESS</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808">SAY_REM_PROGRESS</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac">SAY_REM_REMEMBER</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef">EMOTE_REM_END</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185">QUEST_ABSENT_MINDED_PT2</a> = 731
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35">NPC_GRAVEL_SCOUT</a> = 2158
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307">NPC_GRAVEL_BONE</a> = 2159
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3">NPC_GRAVEL_GEO</a> = 2160
-<br />
- }</td></tr>
-<tr class="separator:a4a231f21241510908fe1bab1745bec56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41f52498613aa16c9300932cba880113"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113">eRabidThistleBear</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773">EVENT_CHECK_FOLLOWING</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29">NPC_RABID_THISTLE_BEAR</a> = 2164
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd">NPC_CAPTURED_RABID_THISTLE_BEAR</a> = 11836
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec">OBJECT_BEAR_TRAP</a> = 111148
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced">QUEST_PLAGUED_LANDS</a> = 2118
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973">SPELL_BEAR_CAPTURED_IN_TRAP</a> = 9439
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60">SPELL_THARNARIUMS_HEAL</a> = 9457
-<br />
- }</td></tr>
-<tr class="separator:a41f52498613aa16c9300932cba880113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed292ffd1cc9307544572174ebb1c8d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8d">eTharnarian</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e">EVENT_POST_QUEST_ONE</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa">EVENT_POST_QUEST_TWO</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe">EVENT_POST_QUEST_THREE</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25">ITEM_THARNARIUMS_HOPE</a> = 7586
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0">GUID_SCRIPT_INVOKER</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00">SAY_BE_CLEANSED</a> = 0
-<br />
- }</td></tr>
-<tr class="separator:a0ed292ffd1cc9307544572174ebb1c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a6095c54a56c4e904d4f4c3c8bb1456fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aea2746bdf2fc046053c962d9025651d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#aea2746bdf2fc046053c962d9025651d1">AddSC_darkshore</a> ()</td></tr>
-<tr class="separator:aea2746bdf2fc046053c962d9025651d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4262fffde6719c3b158860a0a1b52319"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:a4262fffde6719c3b158860a0a1b52319"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/deb/a02090.html#a4262fffde6719c3b158860a0a1b52319">GetUtgardePinnacleAI</a> (T *obj)</td></tr>
+<tr class="separator:a4262fffde6719c3b158860a0a1b52319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;UP&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab473f94c945d852ec2a8a0ff3ec66566" name="ab473f94c945d852ec2a8a0ff3ec66566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab473f94c945d852ec2a8a0ff3ec66566">&#9670;&#160;</a></span>UtgardePinnacleScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UtgardePinnacleScriptName&#160;&#160;&#160;&quot;instance_utgarde_pinnacle&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a41f52498613aa16c9300932cba880113" name="a41f52498613aa16c9300932cba880113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41f52498613aa16c9300932cba880113">&#9670;&#160;</a></span>eRabidThistleBear</h2>
+<a id="af5baa506e65b4caa6be6d1c6661dfe63" name="af5baa506e65b4caa6be6d1c6661dfe63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5baa506e65b4caa6be6d1c6661dfe63">&#9670;&#160;</a></span>Data</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113">eRabidThistleBear</a></td>
+          <td class="memname">enum <a class="el" href="../../de/d9e/a01061.html#af5baa506e65b4caa6be6d1c6661dfe63">Data</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773" name="a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773"></a>EVENT_CHECK_FOLLOWING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29" name="a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29"></a>NPC_RABID_THISTLE_BEAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd" name="a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd"></a>NPC_CAPTURED_RABID_THISTLE_BEAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec" name="a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec"></a>OBJECT_BEAR_TRAP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced" name="a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced"></a>QUEST_PLAGUED_LANDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973" name="a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973"></a>SPELL_BEAR_CAPTURED_IN_TRAP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60" name="a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60"></a>SPELL_THARNARIUMS_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aba8a7ffa7c59b363812d39c2f84cfb06" name="af5baa506e65b4caa6be6d1c6661dfe63aba8a7ffa7c59b363812d39c2f84cfb06"></a>TYPE_GELIHAST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ab51c33641138640c72e3196ce6fb27fe" name="af5baa506e65b4caa6be6d1c6661dfe63ab51c33641138640c72e3196ce6fb27fe"></a>TYPE_FIRE1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9e9de62e02991ecca224def0cbdc12b6" name="af5baa506e65b4caa6be6d1c6661dfe63a9e9de62e02991ecca224def0cbdc12b6"></a>TYPE_FIRE2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aac3abf4b2386096b5c8ffd1157e0f4e5" name="af5baa506e65b4caa6be6d1c6661dfe63aac3abf4b2386096b5c8ffd1157e0f4e5"></a>TYPE_FIRE3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4f42b03438989f88459efb5c4a84e4d5" name="af5baa506e65b4caa6be6d1c6661dfe63a4f42b03438989f88459efb5c4a84e4d5"></a>TYPE_FIRE4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63abcae9a686a3fb104589eda4fc2962bdd" name="af5baa506e65b4caa6be6d1c6661dfe63abcae9a686a3fb104589eda4fc2962bdd"></a>TYPE_AKU_MAI_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4842090ac3ea8e0e3f79e41bd8540a80" name="af5baa506e65b4caa6be6d1c6661dfe63a4842090ac3ea8e0e3f79e41bd8540a80"></a>TYPE_AKU_MAI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a94f8ba6b598eb764528d7e2559246c3a" name="af5baa506e65b4caa6be6d1c6661dfe63a94f8ba6b598eb764528d7e2559246c3a"></a>DATA_ARTHAS_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a23ee66c0bee61794c9d246533c855c10" name="af5baa506e65b4caa6be6d1c6661dfe63a23ee66c0bee61794c9d246533c855c10"></a>DATA_GUARDIANTIME_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aa9cf3fd29541b5b1abc71e7664cfef26" name="af5baa506e65b4caa6be6d1c6661dfe63aa9cf3fd29541b5b1abc71e7664cfef26"></a>DATA_SHOW_CRATES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a5d5fac3bf1b4c09ec46c4039855a081f" name="af5baa506e65b4caa6be6d1c6661dfe63a5d5fac3bf1b4c09ec46c4039855a081f"></a>DATA_CRATE_COUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4d067c8498081a870a958ac9f552e509" name="af5baa506e65b4caa6be6d1c6661dfe63a4d067c8498081a870a958ac9f552e509"></a>DATA_START_WAVES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2e80a277bcb0e797ac5e65a2e9ae26b1" name="af5baa506e65b4caa6be6d1c6661dfe63a2e80a277bcb0e797ac5e65a2e9ae26b1"></a>DATA_SHOW_INFINITE_TIMER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a0a8922410dd29b7c826468f06fc15fc9" name="af5baa506e65b4caa6be6d1c6661dfe63a0a8922410dd29b7c826468f06fc15fc9"></a>DATA_ARTHAS_REPOSITION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c" name="af5baa506e65b4caa6be6d1c6661dfe63a666020ca779618394caa87eab7d82c3c"></a>DATA_SARTHARION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2e7a9e77fa184759574ad6e526197ca2" name="af5baa506e65b4caa6be6d1c6661dfe63a2e7a9e77fa184759574ad6e526197ca2"></a>DATA_TENEBRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a1050764ffa9f3d036267d687927c01b4" name="af5baa506e65b4caa6be6d1c6661dfe63a1050764ffa9f3d036267d687927c01b4"></a>DATA_VESPERON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aa2f0a4a8de58142833d1f54cbfc0d4d4" name="af5baa506e65b4caa6be6d1c6661dfe63aa2f0a4a8de58142833d1f54cbfc0d4d4"></a>DATA_SHADRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4024404fa704cb14c65e50d568369e56" name="af5baa506e65b4caa6be6d1c6661dfe63a4024404fa704cb14c65e50d568369e56"></a>DATA_ACHIEVEMENT_DRAGONS_COUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a752fbe50413af455094f0578f791476b" name="af5baa506e65b4caa6be6d1c6661dfe63a752fbe50413af455094f0578f791476b"></a>DATA_VOLCANO_BLOWS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac5fc96320a852557e13f1d4a95c8ff10" name="af5baa506e65b4caa6be6d1c6661dfe63ac5fc96320a852557e13f1d4a95c8ff10"></a>NPC_SARTHARION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a8ca4815f4c37140fa10966428c74a623" name="af5baa506e65b4caa6be6d1c6661dfe63a8ca4815f4c37140fa10966428c74a623"></a>NPC_TENEBRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a72509ccde0f82c1f684baf715e8983ac" name="af5baa506e65b4caa6be6d1c6661dfe63a72509ccde0f82c1f684baf715e8983ac"></a>NPC_SHADRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a43836753d3e84b4f37b41a99a4a3245e" name="af5baa506e65b4caa6be6d1c6661dfe63a43836753d3e84b4f37b41a99a4a3245e"></a>NPC_VESPERON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63acb8059762a7d2d7d8c1f657d7feb3522" name="af5baa506e65b4caa6be6d1c6661dfe63acb8059762a7d2d7d8c1f657d7feb3522"></a>NPC_FIRE_CYCLONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4ff0b6ba3331bbaa303dbea17ef3ee35" name="af5baa506e65b4caa6be6d1c6661dfe63a4ff0b6ba3331bbaa303dbea17ef3ee35"></a>GO_TWILIGHT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a088b5df5c62fed6bc8b598e78b56f709" name="af5baa506e65b4caa6be6d1c6661dfe63a088b5df5c62fed6bc8b598e78b56f709"></a>GO_NORMAL_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6b2de4b70298d53d1e8c042da94b7c87" name="af5baa506e65b4caa6be6d1c6661dfe63a6b2de4b70298d53d1e8c042da94b7c87"></a>SPELL_TWILIGHT_SHIFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aee30cc95ba8069cd1a17a37908e38ae5" name="af5baa506e65b4caa6be6d1c6661dfe63aee30cc95ba8069cd1a17a37908e38ae5"></a>SPELL_TWILIGHT_TORMENT_SARTHARION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac89c8939089d5a7d9d0755052bb9b0c2" name="af5baa506e65b4caa6be6d1c6661dfe63ac89c8939089d5a7d9d0755052bb9b0c2"></a>DATA_TROLLGORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63acd2dca089c2c0629c9041488efbed69d" name="af5baa506e65b4caa6be6d1c6661dfe63acd2dca089c2c0629c9041488efbed69d"></a>DATA_NOVOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63adac02ec13f85b1d974817fa65e50ef75" name="af5baa506e65b4caa6be6d1c6661dfe63adac02ec13f85b1d974817fa65e50ef75"></a>DATA_NOVOS_CRYSTALS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a69368db5115aeaff78242fee1538ccc1" name="af5baa506e65b4caa6be6d1c6661dfe63a69368db5115aeaff78242fee1538ccc1"></a>DATA_DRED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ad3a70035e86ba8617840ffb195a0a16b" name="af5baa506e65b4caa6be6d1c6661dfe63ad3a70035e86ba8617840ffb195a0a16b"></a>DATA_THARON_JA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c" name="af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c"></a>DATA_BRONJAHM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9" name="af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9"></a>DATA_DEVOURER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d" name="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ae95dd70549003ebe67b19649e0c731a7" name="af5baa506e65b4caa6be6d1c6661dfe63ae95dd70549003ebe67b19649e0c731a7"></a>DATA_INTRO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ab35e94d3f1c375ac318099e383e21d21" name="af5baa506e65b4caa6be6d1c6661dfe63ab35e94d3f1c375ac318099e383e21d21"></a>DATA_FALRIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aab96ba8bed84beb930d0d88de6d091cd" name="af5baa506e65b4caa6be6d1c6661dfe63aab96ba8bed84beb930d0d88de6d091cd"></a>DATA_MARWYN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2434bd858b0ee01e0097bd60fa936f41" name="af5baa506e65b4caa6be6d1c6661dfe63a2434bd858b0ee01e0097bd60fa936f41"></a>DATA_FROSTSWORN_GENERAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63adb683ca05b5dc26b9eeba5bc23b4a9fb" name="af5baa506e65b4caa6be6d1c6661dfe63adb683ca05b5dc26b9eeba5bc23b4a9fb"></a>DATA_LK_INTRO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7d1be3a006196888b236f5ba5e2f19dd" name="af5baa506e65b4caa6be6d1c6661dfe63a7d1be3a006196888b236f5ba5e2f19dd"></a>DATA_LICH_KING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ab25b2f2755f49b04581b62a7e1fad748" name="af5baa506e65b4caa6be6d1c6661dfe63ab25b2f2755f49b04581b62a7e1fad748"></a>DATA_BATTERED_HILT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d" name="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a41d7c840aa31adaa4aa84a6d7b3e0e5e" name="af5baa506e65b4caa6be6d1c6661dfe63a41d7c840aa31adaa4aa84a6d7b3e0e5e"></a>ACTION_SHOW_TRASH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ae3dcdaa982379d53e39039263ddb95a1" name="af5baa506e65b4caa6be6d1c6661dfe63ae3dcdaa982379d53e39039263ddb95a1"></a>ACTION_SPIRITUAL_REFLECTIONS_COPY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7c17895efac016c0e522d6ec34b7be22" name="af5baa506e65b4caa6be6d1c6661dfe63a7c17895efac016c0e522d6ec34b7be22"></a>ACTION_SPIRITUAL_REFLECTIONS_ACTIVATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a45a21d3443390c4987c7270c92ecb6b5" name="af5baa506e65b4caa6be6d1c6661dfe63a45a21d3443390c4987c7270c92ecb6b5"></a>ACTION_SPIRITUAL_REFLECTIONS_HIDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a10f5f3d19996ce23277cfee5fe5f9120" name="af5baa506e65b4caa6be6d1c6661dfe63a10f5f3d19996ce23277cfee5fe5f9120"></a>ACTION_START_LK_FIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6d0545e70a620ef4e1b900fcb622ab57" name="af5baa506e65b4caa6be6d1c6661dfe63a6d0545e70a620ef4e1b900fcb622ab57"></a>ACTION_STOP_LK_FIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4beba7db429c52083d439baa4da667ca" name="af5baa506e65b4caa6be6d1c6661dfe63a4beba7db429c52083d439baa4da667ca"></a>ACTION_DELETE_ICE_WALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac1747b726f5dc8f3d9fc3578da1a6bb4" name="af5baa506e65b4caa6be6d1c6661dfe63ac1747b726f5dc8f3d9fc3578da1a6bb4"></a>DATA_WAVE_NUMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ab8e10ca903fb36c37526a471beb5119c" name="af5baa506e65b4caa6be6d1c6661dfe63ab8e10ca903fb36c37526a471beb5119c"></a>DATA_LK_BATTLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a0afc5e23fa1345ffc7cda0020d520e84" name="af5baa506e65b4caa6be6d1c6661dfe63a0afc5e23fa1345ffc7cda0020d520e84"></a>DATA_SLAD_RAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a4d6384c29b6e14d0308fc0240c2afabe" name="af5baa506e65b4caa6be6d1c6661dfe63a4d6384c29b6e14d0308fc0240c2afabe"></a>DATA_MOORABI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a32975304248dc504bd8206a2e3a33d14" name="af5baa506e65b4caa6be6d1c6661dfe63a32975304248dc504bd8206a2e3a33d14"></a>DATA_DRAKKARI_COLOSSUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6c2628ab4e3a8aa192d2ff8685f8066d" name="af5baa506e65b4caa6be6d1c6661dfe63a6c2628ab4e3a8aa192d2ff8685f8066d"></a>DATA_GAL_DARAH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a3683686008191891e5e1c027669afca4" name="af5baa506e65b4caa6be6d1c6661dfe63a3683686008191891e5e1c027669afca4"></a>DATA_ECK_THE_FEROCIOUS_INIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac039a49a9b97fc453a4e5f873d5e1288" name="af5baa506e65b4caa6be6d1c6661dfe63ac039a49a9b97fc453a4e5f873d5e1288"></a>DATA_ECK_THE_FEROCIOUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aed48a27d536509f11ee2da8c3366176f" name="af5baa506e65b4caa6be6d1c6661dfe63aed48a27d536509f11ee2da8c3366176f"></a>DATA_IRIS_ACTIVATED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4" name="af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4"></a>DATA_ENCOUNTER_STATUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a1dcf1f64522995a4635c77b607d1824c" name="af5baa506e65b4caa6be6d1c6661dfe63a1dcf1f64522995a4635c77b607d1824c"></a>DATA_SET_IRIS_INACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ad662dc3f68f39db6a908f7cebee9604d" name="af5baa506e65b4caa6be6d1c6661dfe63ad662dc3f68f39db6a908f7cebee9604d"></a>DATA_HIDE_IRIS_AND_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a32904c6059a5b12e98c818f97ec1b14c" name="af5baa506e65b4caa6be6d1c6661dfe63a32904c6059a5b12e98c818f97ec1b14c"></a>DATA_MALYGOS_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b" name="af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b"></a>DATA_DRAKOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794" name="af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794"></a>DATA_VAROS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1" name="af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1"></a>DATA_UROM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c" name="af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c"></a>DATA_EREGOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d" name="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a" name="af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a"></a>DATA_CC_COUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815" name="af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815"></a>DATA_AMBER_VOID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed" name="af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed"></a>DATA_EMERALD_VOID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b" name="af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b"></a>DATA_RUBY_VOID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1" name="af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1"></a>DATA_DCD_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988" name="af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988"></a>DATA_DCD_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca" name="af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca"></a>DATA_DCD_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883" name="af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883"></a>DATA_SVALA_SORROWGRAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677" name="af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677"></a>DATA_GORTOK_PALEHOOF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b" name="af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b"></a>DATA_SKADI_THE_RUTHLESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b" name="af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b"></a>DATA_KING_YMIRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6" name="af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6"></a>DATA_GRAUF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba" name="af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba"></a>DATA_NPC_FRENZIED_WORGEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099" name="af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099"></a>DATA_NPC_RAVENOUS_FURBOLG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b" name="af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b"></a>DATA_NPC_MASSIVE_JORMUNGAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f" name="af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f"></a>DATA_NPC_FEROCIOUS_RHINO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745" name="af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745"></a>YMIRON_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2" name="af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2"></a>STATIS_GENERATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5" name="af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5"></a>SKADI_HITS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1" name="af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1"></a>SKADI_IN_RANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207" name="af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207"></a>SKADI_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e" name="af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e"></a>DATA_SVALA_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2" name="af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2"></a>DATA_SKADI_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61" name="af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61"></a>DATA_YMIRON_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029" name="af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029"></a>EVENT_ARCHAVON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f" name="af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f"></a>EVENT_EMALON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf" name="af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf"></a>EVENT_KORALON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989" name="af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989"></a>EVENT_TORAVON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d" name="af5baa506e65b4caa6be6d1c6661dfe63a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2" name="af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2"></a>DATA_STONED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6dcad9a09de5053c1914e774b668fc20" name="af5baa506e65b4caa6be6d1c6661dfe63a6dcad9a09de5053c1914e774b668fc20"></a>DATA_ACTIVATE_DEFENSE_SYSTEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4" name="af5baa506e65b4caa6be6d1c6661dfe63a06e771c0d2e0da47d4fd955db056b0c4"></a>DATA_ENCOUNTER_STATUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2b6f8be8dffb30ef8c0a86651557d9f1" name="af5baa506e65b4caa6be6d1c6661dfe63a2b6f8be8dffb30ef8c0a86651557d9f1"></a>DATA_START_INSTANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e" name="af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e"></a>DATA_ADD_TRASH_MOB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779" name="af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779"></a>DATA_DELETE_TRASH_MOB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a63df89a4eaf308dfa103588e8dda4603" name="af5baa506e65b4caa6be6d1c6661dfe63a63df89a4eaf308dfa103588e8dda4603"></a>DATA_PORTAL_DEFEATED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a862f0c9134c86e397112353ef49530a7" name="af5baa506e65b4caa6be6d1c6661dfe63a862f0c9134c86e397112353ef49530a7"></a>DATA_WAVE_COUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9a478c99cb73b1b3495c4320ecdefce7" name="af5baa506e65b4caa6be6d1c6661dfe63a9a478c99cb73b1b3495c4320ecdefce7"></a>DATA_PORTAL_LOCATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a2822392ecab7cdd3d31c8ec2295ae87f" name="af5baa506e65b4caa6be6d1c6661dfe63a2822392ecab7cdd3d31c8ec2295ae87f"></a>DATA_TELEPORTATION_PORTAL_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a282d62a3482a356f9c5b5f0643804931" name="af5baa506e65b4caa6be6d1c6661dfe63a282d62a3482a356f9c5b5f0643804931"></a>DATA_DOOR_SEAL_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a1f7df1c7eb8cbc866207ce44d27f6b02" name="af5baa506e65b4caa6be6d1c6661dfe63a1f7df1c7eb8cbc866207ce44d27f6b02"></a>DATA_FIRST_BOSS_NUMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a90f4c3aba2a4b767354aab7b2b9ab5d4" name="af5baa506e65b4caa6be6d1c6661dfe63a90f4c3aba2a4b767354aab7b2b9ab5d4"></a>DATA_SECOND_BOSS_NUMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aa5e8f5d9ad5cff86839264caf30581bc" name="af5baa506e65b4caa6be6d1c6661dfe63aa5e8f5d9ad5cff86839264caf30581bc"></a>DATA_RELEASE_BOSS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a66c025f1e4ec666e6afb702cb2cd834d" name="af5baa506e65b4caa6be6d1c6661dfe63a66c025f1e4ec666e6afb702cb2cd834d"></a>DATA_DECRASE_DOOR_HEALTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836" name="af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836"></a>DATA_BOSS_DIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0" name="af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0"></a>DATA_FAILED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aae3e82abb4808dabff2fad80170e5194" name="af5baa506e65b4caa6be6d1c6661dfe63aae3e82abb4808dabff2fad80170e5194"></a>DATA_EREKEM_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64" name="af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64"></a>DATA_EREKEM_GUARD_1_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8" name="af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8"></a>DATA_EREKEM_GUARD_2_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113" name="af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113"></a>DATA_ICHORON_GUID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933" name="af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933"></a>DATA_ACHIEV&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323" name="af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323"></a>DATA_HUNGARFEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e" name="af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e"></a>DATA_GHAZAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d" name="af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d"></a>DATA_MUSELEK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3" name="af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3"></a>DATA_BLACK_STALKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25" name="af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63a7af1afa803e2e65c7ad4816425846f0f" name="af5baa506e65b4caa6be6d1c6661dfe63a7af1afa803e2e65c7ad4816425846f0f"></a>SETDATA_DATA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63ac459bf0c49192437cef2dd734f71240c" name="af5baa506e65b4caa6be6d1c6661dfe63ac459bf0c49192437cef2dd734f71240c"></a>SETDATA_PEON_AGGRO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5baa506e65b4caa6be6d1c6661dfe63aab321877541215b6f3f9fe6f083703bd" name="af5baa506e65b4caa6be6d1c6661dfe63aab321877541215b6f3f9fe6f083703bd"></a>SETDATA_PEON_DEATH&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  429</span>{</div>
-<div class="line"><span class="lineno">  430</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773">EVENT_CHECK_FOLLOWING</a>           = 1,</div>
-<div class="line"><span class="lineno">  431</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29">NPC_RABID_THISTLE_BEAR</a>          = 2164,</div>
-<div class="line"><span class="lineno">  432</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd">NPC_CAPTURED_RABID_THISTLE_BEAR</a> = 11836,</div>
-<div class="line"><span class="lineno">  433</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec">OBJECT_BEAR_TRAP</a>                = 111148,</div>
-<div class="line"><span class="lineno">  434</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced">QUEST_PLAGUED_LANDS</a>             = 2118,</div>
-<div class="line"><span class="lineno">  435</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973">SPELL_BEAR_CAPTURED_IN_TRAP</a>     = 9439,</div>
-<div class="line"><span class="lineno">  436</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60">SPELL_THARNARIUMS_HEAL</a>          = 9457</div>
-<div class="line"><span class="lineno">  437</span>};</div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a582cc04fae035c7d569841f59fc2e7ec">OBJECT_BEAR_TRAP</a></div><div class="ttdeci">@ OBJECT_BEAR_TRAP</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:433</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a7e08bbd5183ab9db7b82183b0e522ced">QUEST_PLAGUED_LANDS</a></div><div class="ttdeci">@ QUEST_PLAGUED_LANDS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:434</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a82376446e39e8a31814c9a9bdbb072cd">NPC_CAPTURED_RABID_THISTLE_BEAR</a></div><div class="ttdeci">@ NPC_CAPTURED_RABID_THISTLE_BEAR</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:432</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113a985068da63d152b57387158a48c3fb60">SPELL_THARNARIUMS_HEAL</a></div><div class="ttdeci">@ SPELL_THARNARIUMS_HEAL</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:436</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113aabd6de46cc001c141b9bb935b6d6e973">SPELL_BEAR_CAPTURED_IN_TRAP</a></div><div class="ttdeci">@ SPELL_BEAR_CAPTURED_IN_TRAP</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:435</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113abcc4c74b391ab174a8afb399448b9d29">NPC_RABID_THISTLE_BEAR</a></div><div class="ttdeci">@ NPC_RABID_THISTLE_BEAR</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:431</div></div>
-<div class="ttc" id="aa02090_html_a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773"><div class="ttname"><a href="../../d7/deb/a02090.html#a41f52498613aa16c9300932cba880113afc9a5167ea507996052a95d856dfd773">EVENT_CHECK_FOLLOWING</a></div><div class="ttdeci">@ EVENT_CHECK_FOLLOWING</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:430</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883">DATA_SVALA_SORROWGRAVE</a>              = 0,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677">DATA_GORTOK_PALEHOOF</a>                = 1,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b">DATA_SKADI_THE_RUTHLESS</a>             = 2,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b">DATA_KING_YMIRON</a>                    = 3,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6">DATA_GRAUF</a>                          = 4,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba">DATA_NPC_FRENZIED_WORGEN</a>            = 10,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099">DATA_NPC_RAVENOUS_FURBOLG</a>           = 11,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b">DATA_NPC_MASSIVE_JORMUNGAR</a>          = 12,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f">DATA_NPC_FEROCIOUS_RHINO</a>            = 13,</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745">YMIRON_DOOR</a>                         = 20,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2">STATIS_GENERATOR</a>                    = 21,</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a>                          = 30,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a>                      = 31,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207">SKADI_DOOR</a>                          = 32,</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a>                      = 4,</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e">DATA_SVALA_ACHIEVEMENT</a>              = 50,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2">DATA_SKADI_ACHIEVEMENT</a>              = 51,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61">DATA_YMIRON_ACHIEVEMENT</a>             = 52,</div>
+<div class="line"><span class="lineno">   52</span>};</div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b">DATA_SKADI_THE_RUTHLESS</a></div><div class="ttdeci">@ DATA_SKADI_THE_RUTHLESS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:31</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a11a8be67f165278f64ab033b6eee63c2">DATA_SKADI_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_SKADI_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:50</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a228460ddd0b2b54061ff9323c7658745">YMIRON_DOOR</a></div><div class="ttdeci">@ YMIRON_DOOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:40</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a3d709a559414e22ab4a0465bada54b61">DATA_YMIRON_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_YMIRON_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:51</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a5abffb759a04674d6a4038a976698207">SKADI_DOOR</a></div><div class="ttdeci">@ SKADI_DOOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:45</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6">DATA_GRAUF</a></div><div class="ttdeci">@ DATA_GRAUF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:33</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6adef69d8382b3e236bd756ce73be00b">DATA_KING_YMIRON</a></div><div class="ttdeci">@ DATA_KING_YMIRON</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:32</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a6ae385f1b5cf0c41db3393c9038a4099">DATA_NPC_RAVENOUS_FURBOLG</a></div><div class="ttdeci">@ DATA_NPC_RAVENOUS_FURBOLG</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:36</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a751e961d7f54eb46a010a4cb9fd9cfba">DATA_NPC_FRENZIED_WORGEN</a></div><div class="ttdeci">@ DATA_NPC_FRENZIED_WORGEN</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:35</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a></div><div class="ttdeci">@ MAX_ENCOUNTERS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:47</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63a9e1acffd1dabd37331c892008becf883">DATA_SVALA_SORROWGRAVE</a></div><div class="ttdeci">@ DATA_SVALA_SORROWGRAVE</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:29</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a></div><div class="ttdeci">@ SKADI_HITS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:43</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ac06fb77f0ecd530537d63b6c5104440b">DATA_NPC_MASSIVE_JORMUNGAR</a></div><div class="ttdeci">@ DATA_NPC_MASSIVE_JORMUNGAR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:37</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63acfeb42528cff1cb4071b6de9c302d51e">DATA_SVALA_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_SVALA_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:49</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a></div><div class="ttdeci">@ SKADI_IN_RANGE</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:44</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae15c008b2a35216cb0ad9551894dfd3f">DATA_NPC_FEROCIOUS_RHINO</a></div><div class="ttdeci">@ DATA_NPC_FEROCIOUS_RHINO</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:38</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63ae7e91ea718aa7b9c33376b971834bda2">STATIS_GENERATOR</a></div><div class="ttdeci">@ STATIS_GENERATOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:41</div></div>
+<div class="ttc" id="aa02090_html_af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677"><div class="ttname"><a href="../../d7/deb/a02090.html#af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677">DATA_GORTOK_PALEHOOF</a></div><div class="ttdeci">@ DATA_GORTOK_PALEHOOF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:30</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a0ed292ffd1cc9307544572174ebb1c8d" name="a0ed292ffd1cc9307544572174ebb1c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ed292ffd1cc9307544572174ebb1c8d">&#9670;&#160;</a></span>eTharnarian</h2>
+<a id="a6095c54a56c4e904d4f4c3c8bb1456fd" name="a6095c54a56c4e904d4f4c3c8bb1456fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6095c54a56c4e904d4f4c3c8bb1456fd">&#9670;&#160;</a></span>Objects</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8d">eTharnarian</a></td>
+          <td class="memname">enum <a class="el" href="../../dd/de7/a01868.html#a6095c54a56c4e904d4f4c3c8bb1456fd">Objects</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e" name="a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e"></a>EVENT_POST_QUEST_ONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa" name="a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa"></a>EVENT_POST_QUEST_TWO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe" name="a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe"></a>EVENT_POST_QUEST_THREE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25" name="a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25"></a>ITEM_THARNARIUMS_HOPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0" name="a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0"></a>GUID_SCRIPT_INVOKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00" name="a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00"></a>SAY_BE_CLEANSED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77" name="a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77"></a>GO_NEXUS_PLATFORM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda0e67e4f671df0cb7690f9fb9b98b9b69" name="a6095c54a56c4e904d4f4c3c8bb1456fda0e67e4f671df0cb7690f9fb9b98b9b69"></a>GO_IRIS_N&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda7f6db0c8e1be8ece4bd50291c9ddc8c7" name="a6095c54a56c4e904d4f4c3c8bb1456fda7f6db0c8e1be8ece4bd50291c9ddc8c7"></a>GO_IRIS_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdab3f90752db7a22e6994b0594d89df12f" name="a6095c54a56c4e904d4f4c3c8bb1456fdab3f90752db7a22e6994b0594d89df12f"></a>GO_EXIT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131" name="a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131"></a>GO_SKADI_THE_RUTHLESS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b" name="a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b"></a>GO_KING_YMIRON_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea" name="a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea"></a>GO_GORK_PALEHOOF_SPHERE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97" name="a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97"></a>GO_SVALA_MIRROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa" name="a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa"></a>NPC_SCOURGE_HULK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1" name="a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1"></a>NPC_DRAGONFLAYER_SPECTATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74" name="a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74"></a>NPC_SVALA_SORROWGRAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9" name="a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9"></a>NPC_GORTOK_PALEHOOF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7" name="a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7"></a>NPC_SKADI_THE_RUTHLESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9" name="a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9"></a>NPC_KING_YMIRON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a" name="a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a"></a>NPC_FRENZIED_WORGEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed" name="a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed"></a>NPC_RAVENOUS_FURBOLG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7" name="a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7"></a>NPC_MASSIVE_JORMUNGAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95" name="a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95"></a>NPC_FEROCIOUS_RHINO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95" name="a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95"></a>NPC_GARUF&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  528</span>{</div>
-<div class="line"><span class="lineno">  529</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e">EVENT_POST_QUEST_ONE</a>            = 1,</div>
-<div class="line"><span class="lineno">  530</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa">EVENT_POST_QUEST_TWO</a>            = 2,</div>
-<div class="line"><span class="lineno">  531</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe">EVENT_POST_QUEST_THREE</a>          = 3,</div>
-<div class="line"><span class="lineno">  532</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25">ITEM_THARNARIUMS_HOPE</a>           = 7586,</div>
-<div class="line"><span class="lineno">  533</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0">GUID_SCRIPT_INVOKER</a>             = 1,</div>
-<div class="line"><span class="lineno">  534</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00">SAY_BE_CLEANSED</a>                 = 0</div>
-<div class="line"><span class="lineno">  535</span>};</div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da3d14f447258cd817fac5103e8c4f74f0">GUID_SCRIPT_INVOKER</a></div><div class="ttdeci">@ GUID_SCRIPT_INVOKER</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:533</div></div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8a18edfe68309d79d2422870dfeb24fa">EVENT_POST_QUEST_TWO</a></div><div class="ttdeci">@ EVENT_POST_QUEST_TWO</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:530</div></div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8da8f0c38f6926a9d2ea4c92a385b85576e">EVENT_POST_QUEST_ONE</a></div><div class="ttdeci">@ EVENT_POST_QUEST_ONE</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:529</div></div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daa0a2f7760b9fc9df9d7b4255b3976abe">EVENT_POST_QUEST_THREE</a></div><div class="ttdeci">@ EVENT_POST_QUEST_THREE</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:531</div></div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8dac5c8eb102b15e74d556b069cac6ddc25">ITEM_THARNARIUMS_HOPE</a></div><div class="ttdeci">@ ITEM_THARNARIUMS_HOPE</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:532</div></div>
-<div class="ttc" id="aa02090_html_a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00"><div class="ttname"><a href="../../d7/deb/a02090.html#a0ed292ffd1cc9307544572174ebb1c8daffaa4db0aeaf6f79c1138ddb1c41ba00">SAY_BE_CLEANSED</a></div><div class="ttdeci">@ SAY_BE_CLEANSED</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:534</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3338171c123af20526d919ca7eaed39b" name="a3338171c123af20526d919ca7eaed39b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3338171c123af20526d919ca7eaed39b">&#9670;&#160;</a></span>Kerlonian</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39b">Kerlonian</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b" name="a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b"></a>SAY_KER_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e" name="a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e"></a>EMOTE_KER_SLEEP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad" name="a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad"></a>SAY_KER_SLEEP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af" name="a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af"></a>SAY_KER_ALERT_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3" name="a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3"></a>SAY_KER_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f" name="a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f"></a>EMOTE_KER_AWAKEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a" name="a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a"></a>SPELL_SLEEP_VISUAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799" name="a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799"></a>SPELL_AWAKEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf" name="a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf"></a>SPELL_BEAR_FORM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436" name="a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436"></a>QUEST_SLEEPER_AWAKENED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358" name="a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358"></a>NPC_LILADRIS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  168</span>{</div>
-<div class="line"><span class="lineno">  169</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b">SAY_KER_START</a>               = 0,</div>
-<div class="line"><span class="lineno">  170</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e">EMOTE_KER_SLEEP</a>             = 1,</div>
-<div class="line"><span class="lineno">  171</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad">SAY_KER_SLEEP</a>               = 2,</div>
-<div class="line"><span class="lineno">  172</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af">SAY_KER_ALERT_1</a>             = 3,</div>
-<div class="line"><span class="lineno">  173</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3">SAY_KER_END</a>                 = 4,</div>
-<div class="line"><span class="lineno">  174</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f">EMOTE_KER_AWAKEN</a>            = 5,</div>
-<div class="line"><span class="lineno">  175</span> </div>
-<div class="line"><span class="lineno">  176</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a">SPELL_SLEEP_VISUAL</a>          = 25148,</div>
-<div class="line"><span class="lineno">  177</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799">SPELL_AWAKEN</a>                = 17536,</div>
-<div class="line"><span class="lineno">  178</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf">SPELL_BEAR_FORM</a>             = 18309,</div>
-<div class="line"><span class="lineno">  179</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436">QUEST_SLEEPER_AWAKENED</a>      = 5321,</div>
-<div class="line"><span class="lineno">  180</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358">NPC_LILADRIS</a>                = 11219                    <span class="comment">//attackers entries unknown</span></div>
-<div class="line"><span class="lineno">  181</span>};</div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba1f4283bc035f04b15b35f91f5bdbea9a">SPELL_SLEEP_VISUAL</a></div><div class="ttdeci">@ SPELL_SLEEP_VISUAL</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:176</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba3061724d7785d585b14cfc45699157cf">SPELL_BEAR_FORM</a></div><div class="ttdeci">@ SPELL_BEAR_FORM</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:178</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba36911462093829fe884e4cb6a2e127af">SAY_KER_ALERT_1</a></div><div class="ttdeci">@ SAY_KER_ALERT_1</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:172</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba702550ccecae90a75919e9f9b665d436">QUEST_SLEEPER_AWAKENED</a></div><div class="ttdeci">@ QUEST_SLEEPER_AWAKENED</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:179</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39ba76e1fd225869c359917096a4030f4799">SPELL_AWAKEN</a></div><div class="ttdeci">@ SPELL_AWAKEN</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:177</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab51082ac5d4aacd1d44e0406af8e5358">NPC_LILADRIS</a></div><div class="ttdeci">@ NPC_LILADRIS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:180</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bab9c834eabdfaafbe7767d905507ca5ad">SAY_KER_SLEEP</a></div><div class="ttdeci">@ SAY_KER_SLEEP</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:171</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39babc3ac66a100caa89874b07646256039b">SAY_KER_START</a></div><div class="ttdeci">@ SAY_KER_START</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:169</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39bac2881d53a673452d7258ee2bef83a84f">EMOTE_KER_AWAKEN</a></div><div class="ttdeci">@ EMOTE_KER_AWAKEN</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:174</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baded26e804078d12b45f712b505fbf25e">EMOTE_KER_SLEEP</a></div><div class="ttdeci">@ EMOTE_KER_SLEEP</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:170</div></div>
-<div class="ttc" id="aa02090_html_a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3"><div class="ttname"><a href="../../d7/deb/a02090.html#a3338171c123af20526d919ca7eaed39baf7e03539ce3753f881a9dd3e893b7ba3">SAY_KER_END</a></div><div class="ttdeci">@ SAY_KER_END</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:173</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a28d336f7a4c4779d0ac960ac128faf22" name="a28d336f7a4c4779d0ac960ac128faf22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d336f7a4c4779d0ac960ac128faf22">&#9670;&#160;</a></span>murkdeep</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22">murkdeep</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839" name="a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839"></a>NPC_GREYMIST_HUNTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449" name="a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449"></a>NPC_GREYMIST_WARRIOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac" name="a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac"></a>NPC_GREYMIST_COASTRUNNER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb" name="a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb"></a>SPELL_SUNDER_ARMOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf" name="a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf"></a>SPELL_NET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a" name="a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a"></a>EVENT_SPELL_SUNDER_ARMOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d" name="a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d"></a>EVENT_SPELL_NET&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839">NPC_GREYMIST_HUNTER</a>      = 2206,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449">NPC_GREYMIST_WARRIOR</a>     = 2205,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac">NPC_GREYMIST_COASTRUNNER</a> = 2202,</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb">SPELL_SUNDER_ARMOR</a> = 11971,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf">SPELL_NET</a>          = 6533,</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a">EVENT_SPELL_SUNDER_ARMOR</a> = 2,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d">EVENT_SPELL_NET</a>          = 3,</div>
-<div class="line"><span class="lineno">   50</span>};</div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a3390cb09d109972288a2c865f7ce297d">EVENT_SPELL_NET</a></div><div class="ttdeci">@ EVENT_SPELL_NET</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:49</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7baf0aab301c57d676de1ce0f3a36839">NPC_GREYMIST_HUNTER</a></div><div class="ttdeci">@ NPC_GREYMIST_HUNTER</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:41</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a7ca2c4b7931eee3f66055780c5e0ebac">NPC_GREYMIST_COASTRUNNER</a></div><div class="ttdeci">@ NPC_GREYMIST_COASTRUNNER</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:43</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22a99eaf912c120c7fa6d85748ebf96aebb">SPELL_SUNDER_ARMOR</a></div><div class="ttdeci">@ SPELL_SUNDER_ARMOR</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:45</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ab68a89ef67b8c9488015e04f7631d449">NPC_GREYMIST_WARRIOR</a></div><div class="ttdeci">@ NPC_GREYMIST_WARRIOR</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:42</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22acda9c7ee6bb48504f6800c78f59f881a">EVENT_SPELL_SUNDER_ARMOR</a></div><div class="ttdeci">@ EVENT_SPELL_SUNDER_ARMOR</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:48</div></div>
-<div class="ttc" id="aa02090_html_a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf"><div class="ttname"><a href="../../d7/deb/a02090.html#a28d336f7a4c4779d0ac960ac128faf22ad629b7c9e5a74890e7d6a77a13a38bcf">SPELL_NET</a></div><div class="ttdeci">@ SPELL_NET</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:46</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4a231f21241510908fe1bab1745bec56" name="a4a231f21241510908fe1bab1745bec56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a231f21241510908fe1bab1745bec56">&#9670;&#160;</a></span>Remtravel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56">Remtravel</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d" name="a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d"></a>SAY_REM_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4" name="a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4"></a>SAY_REM_AGGRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b" name="a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b"></a>SAY_REM_RAMP1_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745" name="a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745"></a>SAY_REM_RAMP1_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0" name="a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0"></a>SAY_REM_BOOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79" name="a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79"></a>SAY_REM_TENT1_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc" name="a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc"></a>SAY_REM_TENT1_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb" name="a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb"></a>SAY_REM_MOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4" name="a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4"></a>EMOTE_REM_MOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae" name="a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae"></a>SAY_REM_MOSS_PROGRESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808" name="a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808"></a>SAY_REM_PROGRESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac" name="a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac"></a>SAY_REM_REMEMBER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef" name="a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef"></a>EMOTE_REM_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185" name="a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185"></a>QUEST_ABSENT_MINDED_PT2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35" name="a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35"></a>NPC_GRAVEL_SCOUT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307" name="a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307"></a>NPC_GRAVEL_BONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3" name="a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3"></a>NPC_GRAVEL_GEO&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  303</span>{</div>
-<div class="line"><span class="lineno">  304</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d">SAY_REM_START</a>               = 0,</div>
-<div class="line"><span class="lineno">  305</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4">SAY_REM_AGGRO</a>               = 1,</div>
-<div class="line"><span class="lineno">  306</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b">SAY_REM_RAMP1_1</a>             = 2,</div>
-<div class="line"><span class="lineno">  307</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745">SAY_REM_RAMP1_2</a>             = 3,</div>
-<div class="line"><span class="lineno">  308</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0">SAY_REM_BOOK</a>                = 4,</div>
-<div class="line"><span class="lineno">  309</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79">SAY_REM_TENT1_1</a>             = 5,</div>
-<div class="line"><span class="lineno">  310</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc">SAY_REM_TENT1_2</a>             = 6,</div>
-<div class="line"><span class="lineno">  311</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb">SAY_REM_MOSS</a>                = 7,</div>
-<div class="line"><span class="lineno">  312</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4">EMOTE_REM_MOSS</a>              = 8,</div>
-<div class="line"><span class="lineno">  313</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae">SAY_REM_MOSS_PROGRESS</a>       = 9,</div>
-<div class="line"><span class="lineno">  314</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808">SAY_REM_PROGRESS</a>            = 10,</div>
-<div class="line"><span class="lineno">  315</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac">SAY_REM_REMEMBER</a>            = 11,</div>
-<div class="line"><span class="lineno">  316</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef">EMOTE_REM_END</a>               = 12,</div>
-<div class="line"><span class="lineno">  317</span> </div>
-<div class="line"><span class="lineno">  318</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185">QUEST_ABSENT_MINDED_PT2</a>     = 731,</div>
-<div class="line"><span class="lineno">  319</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35">NPC_GRAVEL_SCOUT</a>            = 2158,</div>
-<div class="line"><span class="lineno">  320</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307">NPC_GRAVEL_BONE</a>             = 2159,</div>
-<div class="line"><span class="lineno">  321</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3">NPC_GRAVEL_GEO</a>              = 2160</div>
-<div class="line"><span class="lineno">  322</span>};</div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a1275f169479aee3e508a7c8cc63528ae">SAY_REM_MOSS_PROGRESS</a></div><div class="ttdeci">@ SAY_REM_MOSS_PROGRESS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:313</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33b775990c585ad8d13c71081dc3b1c4">EMOTE_REM_MOSS</a></div><div class="ttdeci">@ EMOTE_REM_MOSS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:312</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a33fbb8b046204271ed26d265cbf6c9d3">NPC_GRAVEL_GEO</a></div><div class="ttdeci">@ NPC_GRAVEL_GEO</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:321</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a3d07e1988da097fde7e1fb3b569be5ef">EMOTE_REM_END</a></div><div class="ttdeci">@ EMOTE_REM_END</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:316</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a4e8e2f5b39b89c40c050971d3767a745">SAY_REM_RAMP1_2</a></div><div class="ttdeci">@ SAY_REM_RAMP1_2</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:307</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a538e937677e0f34b53fd87d21dede8bb">SAY_REM_MOSS</a></div><div class="ttdeci">@ SAY_REM_MOSS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:311</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a563fab7afb0590de4521bbd73728998b">SAY_REM_RAMP1_1</a></div><div class="ttdeci">@ SAY_REM_RAMP1_1</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:306</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a62a229671a25cfaddf81e1a1cc12742d">SAY_REM_START</a></div><div class="ttdeci">@ SAY_REM_START</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:304</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a720b19c0296bc27aa09d85fc7c020307">NPC_GRAVEL_BONE</a></div><div class="ttdeci">@ NPC_GRAVEL_BONE</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:320</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56a965facd3db5184c90115e1a829b99cf0">SAY_REM_BOOK</a></div><div class="ttdeci">@ SAY_REM_BOOK</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:308</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aa157db4b86b4d1de81e174d18934d2dc">SAY_REM_TENT1_2</a></div><div class="ttdeci">@ SAY_REM_TENT1_2</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:310</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ac35ea1e7f866d747cbdee9f0d5bb6bac">SAY_REM_REMEMBER</a></div><div class="ttdeci">@ SAY_REM_REMEMBER</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:315</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56ad3345c1e7f8e714d0e9118c1c1ccdb79">SAY_REM_TENT1_1</a></div><div class="ttdeci">@ SAY_REM_TENT1_1</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:309</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed18934bce8f8e8f07d934c5ade27be4">SAY_REM_AGGRO</a></div><div class="ttdeci">@ SAY_REM_AGGRO</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:305</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aed815d857586fe880614e6b84a935d35">NPC_GRAVEL_SCOUT</a></div><div class="ttdeci">@ NPC_GRAVEL_SCOUT</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:319</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56aef8f51392044131efa5c56c2e87b1185">QUEST_ABSENT_MINDED_PT2</a></div><div class="ttdeci">@ QUEST_ABSENT_MINDED_PT2</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:318</div></div>
-<div class="ttc" id="aa02090_html_a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808"><div class="ttname"><a href="../../d7/deb/a02090.html#a4a231f21241510908fe1bab1745bec56afe4a0e889c848aa951c477b92846a808">SAY_REM_PROGRESS</a></div><div class="ttdeci">@ SAY_REM_PROGRESS</div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:314</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
+<div class="line"><span class="lineno">   56</span>    <span class="comment">// GOs</span></div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131">GO_SKADI_THE_RUTHLESS_DOOR</a>          = 192173,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b">GO_KING_YMIRON_DOOR</a>                 = 192174,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea">GO_GORK_PALEHOOF_SPHERE</a>             = 188593,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97">GO_SVALA_MIRROR</a>                     = 191745,</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="comment">// NPCs</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa">NPC_SCOURGE_HULK</a>                    = 26555,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1">NPC_DRAGONFLAYER_SPECTATOR</a>          = 26667,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74">NPC_SVALA_SORROWGRAVE</a>               = 26668,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9">NPC_GORTOK_PALEHOOF</a>                 = 26687,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7">NPC_SKADI_THE_RUTHLESS</a>              = 26693,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9">NPC_KING_YMIRON</a>                     = 26861,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a">NPC_FRENZIED_WORGEN</a>                 = 26683,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed">NPC_RAVENOUS_FURBOLG</a>                = 26684,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7">NPC_MASSIVE_JORMUNGAR</a>               = 26685,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95">NPC_FEROCIOUS_RHINO</a>                 = 26686,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95">NPC_GARUF</a>                           = 26893,</div>
+<div class="line"><span class="lineno">   74</span>};</div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda00e3e051d999e7c46d6591c355108eed">NPC_RAVENOUS_FURBOLG</a></div><div class="ttdeci">@ NPC_RAVENOUS_FURBOLG</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:70</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda0260c9875dbbddb05fe41fa73b1b71c9">NPC_KING_YMIRON</a></div><div class="ttdeci">@ NPC_KING_YMIRON</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:68</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda1c9dccc8ecb9970fcc204210b3697b2a">NPC_FRENZIED_WORGEN</a></div><div class="ttdeci">@ NPC_FRENZIED_WORGEN</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:69</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda3ac553035e288bc52d1a94176b971f74">NPC_SVALA_SORROWGRAVE</a></div><div class="ttdeci">@ NPC_SVALA_SORROWGRAVE</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:65</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda44e57afda1bcc80c47d9f7f7d7e7ceea">GO_GORK_PALEHOOF_SPHERE</a></div><div class="ttdeci">@ GO_GORK_PALEHOOF_SPHERE</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:59</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda726e5e5e22433cd1225ae73b2280beb9">NPC_GORTOK_PALEHOOF</a></div><div class="ttdeci">@ NPC_GORTOK_PALEHOOF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:66</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda741d23fa125208f8ff51e795b58fdcfa">NPC_SCOURGE_HULK</a></div><div class="ttdeci">@ NPC_SCOURGE_HULK</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:63</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fda76e17443677d1aeab859b324de9945a7">NPC_SKADI_THE_RUTHLESS</a></div><div class="ttdeci">@ NPC_SKADI_THE_RUTHLESS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:67</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab3c13e4d298a055ed91162396501eba1">NPC_DRAGONFLAYER_SPECTATOR</a></div><div class="ttdeci">@ NPC_DRAGONFLAYER_SPECTATOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:64</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab44f6a2f2c532eb045eb8199477ae0b7">NPC_MASSIVE_JORMUNGAR</a></div><div class="ttdeci">@ NPC_MASSIVE_JORMUNGAR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:71</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdab5b9caf0d3be11e45be0fce1a640ff97">GO_SVALA_MIRROR</a></div><div class="ttdeci">@ GO_SVALA_MIRROR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:60</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdac4b9bf1a8d8677460809619a40989d2b">GO_KING_YMIRON_DOOR</a></div><div class="ttdeci">@ GO_KING_YMIRON_DOOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:58</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdaca585740c72caaf99da4153a098aee95">NPC_GARUF</a></div><div class="ttdeci">@ NPC_GARUF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:73</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafa55eeb7ed59860eb27262c92b511b95">NPC_FEROCIOUS_RHINO</a></div><div class="ttdeci">@ NPC_FEROCIOUS_RHINO</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:72</div></div>
+<div class="ttc" id="aa02090_html_a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131"><div class="ttname"><a href="../../d7/deb/a02090.html#a6095c54a56c4e904d4f4c3c8bb1456fdafcf1e456541a7ba8bfa808845d710131">GO_SKADI_THE_RUTHLESS_DOOR</a></div><div class="ttdeci">@ GO_SKADI_THE_RUTHLESS_DOOR</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:57</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aea2746bdf2fc046053c962d9025651d1" name="aea2746bdf2fc046053c962d9025651d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea2746bdf2fc046053c962d9025651d1">&#9670;&#160;</a></span>AddSC_darkshore()</h2>
+<a id="a4262fffde6719c3b158860a0a1b52319" name="a4262fffde6719c3b158860a0a1b52319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4262fffde6719c3b158860a0a1b52319">&#9670;&#160;</a></span>GetUtgardePinnacleAI()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_darkshore </td>
+          <td class="memname">AI * GetUtgardePinnacleAI </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  645</span>{</div>
-<div class="line"><span class="lineno">  646</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno">  647</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dac/a14958.html">npc_murkdeep</a>();</div>
-<div class="line"><span class="lineno">  648</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dd1/a14982.html">npc_rabid_thistle_bear</a>();</div>
-<div class="line"><span class="lineno">  649</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/de2/a14990.html">npc_tharnarian</a>();</div>
-<div class="line"><span class="lineno">  650</span> </div>
-<div class="line"><span class="lineno">  651</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno">  652</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d55/a14966.html">npc_kerlonian</a>();</div>
-<div class="line"><span class="lineno">  653</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dd6/a14974.html">npc_prospector_remtravel</a>();</div>
-<div class="line"><span class="lineno">  654</span>}</div>
-<div class="ttc" id="aa14958_html"><div class="ttname"><a href="../../d5/dac/a14958.html">npc_murkdeep</a></div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:53</div></div>
-<div class="ttc" id="aa14966_html"><div class="ttname"><a href="../../df/d55/a14966.html">npc_kerlonian</a></div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:185</div></div>
-<div class="ttc" id="aa14974_html"><div class="ttname"><a href="../../d1/dd6/a14974.html">npc_prospector_remtravel</a></div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:325</div></div>
-<div class="ttc" id="aa14982_html"><div class="ttname"><a href="../../dd/dd1/a14982.html">npc_rabid_thistle_bear</a></div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:440</div></div>
-<div class="ttc" id="aa14990_html"><div class="ttname"><a href="../../d6/de2/a14990.html">npc_tharnarian</a></div><div class="ttdef"><b>Definition:</b> zone_darkshore.cpp:538</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d7/deb/a02090.html#ab473f94c945d852ec2a8a0ff3ec66566">UtgardePinnacleScriptName</a>);</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aa02090_html_ab473f94c945d852ec2a8a0ff3ec66566"><div class="ttname"><a href="../../d7/deb/a02090.html#ab473f94c945d852ec2a8a0ff3ec66566">UtgardePinnacleScriptName</a></div><div class="ttdeci">#define UtgardePinnacleScriptName</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:25</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00025">UtgardePinnacleScriptName</a>.</p>
 
 </div>
 </div>
@@ -542,8 +776,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../d7/deb/a02090.html">zone_darkshore.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d1549822ab15c727c75ddc2dceea56dd.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../dir_c6c1ef729e7487551f9ee2947f9e6a75.html">UtgardePinnacle</a></li><li class="navelem"><a class="el" href="../../d7/deb/a02090.html">utgarde_pinnacle.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

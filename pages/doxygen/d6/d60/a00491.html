@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Collision/BoundingIntervalHierarchy.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Common.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,31 +105,116 @@ $(document).ready(function(){initNavTree('d6/d60/a00491.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">BoundingIntervalHierarchy.cpp File Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Common.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BoundingIntervalHierarchy.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a075c8459d7e501109174c1a2fdc5cd7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a075c8459d7e501109174c1a2fdc5cd7e">isnan</a>&#160;&#160;&#160;std::isnan</td></tr>
-<tr class="separator:a075c8459d7e501109174c1a2fdc5cd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8051d28826d995169bd4ce60310d5d65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a8051d28826d995169bd4ce60310d5d65">GetLocaleByName</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a8051d28826d995169bd4ce60310d5d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4750695bf6f728da1b0356af3ddaabc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a4750695bf6f728da1b0356af3ddaabc9">CleanStringForMysqlQuery</a> (std::string &amp;str)</td></tr>
+<tr class="separator:a4750695bf6f728da1b0356af3ddaabc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a32b3de4eb98b686cc6472385a449e4e9"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a> [<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>]</td></tr>
+<tr class="separator:a32b3de4eb98b686cc6472385a449e4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a075c8459d7e501109174c1a2fdc5cd7e" name="a075c8459d7e501109174c1a2fdc5cd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a075c8459d7e501109174c1a2fdc5cd7e">&#9670;&#160;</a></span>isnan</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4750695bf6f728da1b0356af3ddaabc9" name="a4750695bf6f728da1b0356af3ddaabc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4750695bf6f728da1b0356af3ddaabc9">&#9670;&#160;</a></span>CleanStringForMysqlQuery()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define isnan&#160;&#160;&#160;std::isnan</td>
+          <td class="memname">void CleanStringForMysqlQuery </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    std::string::size_type n = 0;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\\&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;&quot;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\&#39;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00482">WorldSession::HandleMailTakeItem()</a>, <a class="el" href="../../#l00063">WorldSession::HandleSendMail()</a>, and <a class="el" href="../../#l03539">Map::LogEncounterFinished()</a>.</p>
+
+</div>
+</div>
+<a id="a8051d28826d995169bd4ce60310d5d65" name="a8051d28826d995169bd4ce60310d5d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8051d28826d995169bd4ce60310d5d65">&#9670;&#160;</a></span>GetLocaleByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> GetLocaleByName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>; ++i)</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">if</span> (name == <a class="code hl_variable" href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a>[i])</div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <a class="code hl_enumeration" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>(i);</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>;                                     <span class="comment">// including enGB case</span></div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="aa00491_html_a32b3de4eb98b686cc6472385a449e4e9"><div class="ttname"><a href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a></div><div class="ttdeci">char const  * localeNames[TOTAL_LOCALES]</div><div class="ttdef"><b>Definition:</b> Common.cpp:20</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00020">localeNames</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>, <a class="el" href="../../#l09699">ObjectMgr::LoadBroadcastTextLocales()</a>, <a class="el" href="../../#l00393">ObjectMgr::LoadCreatureLocales()</a>, <a class="el" href="../../#l00168">CreatureTextMgr::LoadCreatureTextLocales()</a>, <a class="el" href="../../#l07075">ObjectMgr::LoadGameObjectLocales()</a>, <a class="el" href="../../#l00422">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l02632">ObjectMgr::LoadItemLocales()</a>, <a class="el" href="../../#l03276">ObjectMgr::LoadItemSetNameLocales()</a>, <a class="el" href="../../#l08644">ObjectMgr::LoadModuleStringsLocale()</a>, <a class="el" href="../../#l06054">ObjectMgr::LoadNpcTextLocales()</a>, <a class="el" href="../../#l05805">ObjectMgr::LoadPageTextLocales()</a>, <a class="el" href="../../#l00453">ObjectMgr::LoadPetNamesLocales()</a>, <a class="el" href="../../#l00493">ObjectMgr::LoadPointOfInterestLocales()</a>, <a class="el" href="../../#l06342">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l05176">ObjectMgr::LoadQuestLocales()</a>, <a class="el" href="../../#l06403">ObjectMgr::LoadQuestOfferRewardLocale()</a>, <a class="el" href="../../#l06432">ObjectMgr::LoadQuestRequestItemsLocale()</a>, <a class="el" href="../../#l03096">AchievementGlobalMgr::LoadRewardLocales()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a32b3de4eb98b686cc6472385a449e4e9" name="a32b3de4eb98b686cc6472385a449e4e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b3de4eb98b686cc6472385a449e4e9">&#9670;&#160;</a></span>localeNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const* localeNames[<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    <span class="stringliteral">&quot;enUS&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;koKR&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;frFR&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;deDE&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;zhCN&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;zhTW&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;esES&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;esMX&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ruRU&quot;</span></div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l02213">World::DetectDBCLang()</a>, <a class="el" href="../../#l00033">GetLocaleByName()</a>, <a class="el" href="../../#l00533">character_commandscript::HandleCharacterReputationCommand()</a>, <a class="el" href="../../#l00281">character_commandscript::HandleCharacterTitlesCommand()</a>, <a class="el" href="../../#l00082">lookup_commandscript::HandleLookupAreaCommand()</a>, <a class="el" href="../../#l00337">lookup_commandscript::HandleLookupFactionCommand()</a>, <a class="el" href="../../#l00579">lookup_commandscript::HandleLookupItemSetCommand()</a>, <a class="el" href="../../#l00911">lookup_commandscript::HandleLookupSkillCommand()</a>, <a class="el" href="../../#l01016">lookup_commandscript::HandleLookupSpellCommand()</a>, <a class="el" href="../../#l01168">lookup_commandscript::HandleLookupSpellIdCommand()</a>, <a class="el" href="../../#l01281">lookup_commandscript::HandleLookupTaxiNodeCommand()</a>, <a class="el" href="../../#l01434">lookup_commandscript::HandleLookupTitleCommand()</a>, <a class="el" href="../../#l00113">server_commandscript::HandleServerDebugCommand()</a>, and <a class="el" href="../../#l00213">LoadDBC()</a>.</p>
 
 </div>
 </div>
@@ -138,8 +223,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_34825b659a55315b272dfcc55a7a0f6a.html">Collision</a></li><li class="navelem"><a class="el" href="../../d6/d60/a00491.html">BoundingIntervalHierarchy.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../d6/d60/a00491.html">Common.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

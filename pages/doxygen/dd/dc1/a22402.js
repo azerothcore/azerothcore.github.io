@@ -1,7 +1,7 @@
 var a22402 =
 [
-    [ "HandleEffectRemove", "dd/dc1/a22402.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
-    [ "PrepareAuraScript", "dd/dc1/a22402.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
-    [ "Register", "dd/dc1/a22402.html#a9ee8e71020c17f593472de5a9c130753", null ],
-    [ "Validate", "dd/dc1/a22402.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
+    [ "npc_blade_of_azzinoth", "dd/dc1/a22402.html#a55afe56313c237afe8080662b2ed2dba", null ],
+    [ "DoAction", "dd/dc1/a22402.html#a8e746da7672c0177c4b6c91b1e9d2eb5", null ],
+    [ "IsSummonedBy", "dd/dc1/a22402.html#af2925da1235b809ee81469fe32ab0f92", null ],
+    [ "JustSummoned", "dd/dc1/a22402.html#a501e2d1ae9af813fd9c30395e7774983", null ]
 ];

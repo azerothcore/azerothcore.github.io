@@ -1,8 +1,6 @@
 var a11590 =
 [
-    [ "boss_evisceratorAI", "dc/ddc/a11590.html#a26bfcd3390e987a9fe13dd1a2bc2a7a4", null ],
-    [ "DamageTaken", "dc/ddc/a11590.html#aab3e8290963ca6c312715f18727d3e82", null ],
-    [ "JustEngagedWith", "dc/ddc/a11590.html#a60f3942b352206888569f60776041a28", null ],
-    [ "UpdateAI", "dc/ddc/a11590.html#aa201d35455f2e6eb41df27e264c2c03c", null ],
-    [ "SpellShieldReady", "dc/ddc/a11590.html#a3e5d8a40bfca16cc811f35b1293c19aa", null ]
+    [ "boss_anubshiahAI", "de/d53/a11594.html", "de/d53/a11594" ],
+    [ "boss_anubshiah", "dc/ddc/a11590.html#a7176d98f966dac62f7ac1a10d3f2afa1", null ],
+    [ "GetAI", "dc/ddc/a11590.html#a157420b5f0c4c05e7dc2ee327ef81cb9", null ]
 ];

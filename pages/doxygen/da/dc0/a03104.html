@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AccountScript.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/SpellInfo.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,33 +105,96 @@ $(document).ready(function(){initNavTree('da/dc0/a03104.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">AccountScript.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">SpellInfo.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AccountScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Corpse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgrMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a737db11e5096ba1c596f469d64c2cc97"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc0/a03104.html#a737db11e5096ba1c596f469d64c2cc97">ScriptRegistry&lt; AccountScript &gt;</a></td></tr>
-<tr class="separator:a737db11e5096ba1c596f469d64c2cc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adc898dfddc20010c41bb771b6d6f274e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc0/a03104.html#adc898dfddc20010c41bb771b6d6f274e">GetTargetFlagMask</a> (<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a> objType)</td></tr>
+<tr class="separator:adc898dfddc20010c41bb771b6d6f274e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a737db11e5096ba1c596f469d64c2cc97" name="a737db11e5096ba1c596f469d64c2cc97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a737db11e5096ba1c596f469d64c2cc97">&#9670;&#160;</a></span>ScriptRegistry&lt; AccountScript &gt;</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="adc898dfddc20010c41bb771b6d6f274e" name="adc898dfddc20010c41bb771b6d6f274e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc898dfddc20010c41bb771b6d6f274e">&#9670;&#160;</a></span>GetTargetFlagMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d8/d8e/a10130.html">ScriptRegistry</a>&lt; <a class="el" href="../../d1/d39/a09914.html">AccountScript</a> &gt;</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GetTargetFlagMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a>&#160;</td>
+          <td class="paramname"><em>objType</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">switch</span> (objType)</div>
+<div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>:</div>
+<div class="line"><span class="lineno">   36</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a>;</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>:</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a>;</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>:</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a>;</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>:</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>;</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a>:</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>;</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a>:</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a>;</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a>:</div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a>;</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>:</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a>;</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a>:</div>
+<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a>;</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>:</div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a>;</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a>;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a></div><div class="ttdeci">@ TARGET_FLAG_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:57</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a></div><div class="ttdeci">@ TARGET_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:45</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a></div><div class="ttdeci">@ TARGET_FLAG_CORPSE_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:61</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a></div><div class="ttdeci">@ TARGET_FLAG_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:50</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a></div><div class="ttdeci">@ TARGET_FLAG_GAMEOBJECT_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:60</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a></div><div class="ttdeci">@ TARGET_FLAG_DEST_LOCATION</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:52</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a></div><div class="ttdeci">@ TARGET_FLAG_SOURCE_LOCATION</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:51</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:47</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a></div><div class="ttdeci">@ TARGET_FLAG_CORPSE_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:55</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_UNIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:101</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:105</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:106</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_UNIT_AND_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:102</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:100</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_GOBJ</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:103</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:109</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:108</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_GOBJ_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:104</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_SRC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:99</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">TARGET_FLAG_CORPSE_ALLY</a>, <a class="el" href="../../#l00055">TARGET_FLAG_CORPSE_ENEMY</a>, <a class="el" href="../../#l00052">TARGET_FLAG_DEST_LOCATION</a>, <a class="el" href="../../#l00057">TARGET_FLAG_GAMEOBJECT</a>, <a class="el" href="../../#l00060">TARGET_FLAG_GAMEOBJECT_ITEM</a>, <a class="el" href="../../#l00050">TARGET_FLAG_ITEM</a>, <a class="el" href="../../#l00045">TARGET_FLAG_NONE</a>, <a class="el" href="../../#l00051">TARGET_FLAG_SOURCE_LOCATION</a>, <a class="el" href="../../#l00047">TARGET_FLAG_UNIT</a>, <a class="el" href="../../#l00106">TARGET_OBJECT_TYPE_CORPSE</a>, <a class="el" href="../../#l00109">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>, <a class="el" href="../../#l00108">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>, <a class="el" href="../../#l00100">TARGET_OBJECT_TYPE_DEST</a>, <a class="el" href="../../#l00103">TARGET_OBJECT_TYPE_GOBJ</a>, <a class="el" href="../../#l00104">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>, <a class="el" href="../../#l00105">TARGET_OBJECT_TYPE_ITEM</a>, <a class="el" href="../../#l00099">TARGET_OBJECT_TYPE_SRC</a>, <a class="el" href="../../#l00101">TARGET_OBJECT_TYPE_UNIT</a>, and <a class="el" href="../../#l00102">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00574">SpellEffectInfo::GetMissingTargetMask()</a>, <a class="el" href="../../#l00569">SpellEffectInfo::GetProvidedTargetMask()</a>, and <a class="el" href="../../#l00815">Spell::SelectSpellTargets()</a>.</p>
 
 </div>
 </div>
@@ -140,8 +203,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../da/dc0/a03104.html">AccountScript.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../da/dc0/a03104.html">SpellInfo.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

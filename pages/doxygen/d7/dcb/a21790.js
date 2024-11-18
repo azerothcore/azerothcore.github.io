@@ -1,6 +1,6 @@
 var a21790 =
 [
-    [ "npc_artruis_the_hearthlessAI", "d4/d3f/a21794.html", "d4/d3f/a21794" ],
-    [ "npc_artruis_the_hearthless", "d7/dcb/a21790.html#abeed70f4306113bd5df242eae91bfdb0", null ],
-    [ "GetAI", "d7/dcb/a21790.html#a1a7674c5e3e9e0de848bfb0d906ac06c", null ]
+    [ "npc_frostbrood_skytalonAI", "d4/d3f/a21794.html", "d4/d3f/a21794" ],
+    [ "npc_frostbrood_skytalon", "d7/dcb/a21790.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "d7/dcb/a21790.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

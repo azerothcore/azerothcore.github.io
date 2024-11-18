@@ -1,9 +1,12 @@
 var a07030 =
 [
-    [ "Rank", "d9/d92/a07030.html#a9bcd8dc00437bcf015565eeb43263578", null ],
-    [ "Rating", "d9/d92/a07030.html#ab43875cc3ae58eb636a490c2c0f5c1f6", null ],
-    [ "SeasonGames", "d9/d92/a07030.html#a124c6d64f22c13707764eedd79fe1912", null ],
-    [ "SeasonWins", "d9/d92/a07030.html#ad274601b85ea634524b1c00979e09465", null ],
-    [ "WeekGames", "d9/d92/a07030.html#a1d0092200b2c9428e821473949cfda77", null ],
-    [ "WeekWins", "d9/d92/a07030.html#a313afef901bd5a9347f2074a7ca1bfe0", null ]
+    [ "Arena", "d9/d92/a07030.html#a74f105bc709d4728fb07f1984abfd345", null ],
+    [ "AddPlayer", "d9/d92/a07030.html#ae24fe304d35c0c09379203135e936450", null ],
+    [ "CheckWinConditions", "d9/d92/a07030.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
+    [ "EndBattleground", "d9/d92/a07030.html#a2be61602189b530a16a9ca954d180914", null ],
+    [ "FillInitialWorldStates", "d9/d92/a07030.html#a41e53f03488058fb635e42b525db5068", null ],
+    [ "HandleKillPlayer", "d9/d92/a07030.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
+    [ "RemovePlayer", "d9/d92/a07030.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
+    [ "RemovePlayerAtLeave", "d9/d92/a07030.html#acae21233e11b21b612e5c051bfa7720e", null ],
+    [ "UpdateArenaWorldState", "d9/d92/a07030.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
 ];

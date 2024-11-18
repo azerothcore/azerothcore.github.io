@@ -1,6 +1,5 @@
 var a26638 =
 [
-    [ "achievement_arena_by_type", "dd/d65/a26638.html#a2042c808304e8ddf1849820491b9f1a3", null ],
-    [ "OnCheck", "dd/d65/a26638.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
-    [ "_arenaType", "dd/d65/a26638.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
+    [ "achievement_bg_ic_glaive_grave", "dd/d65/a26638.html#a97e1cead0102a120b3bd14592ea26034", null ],
+    [ "OnCheck", "dd/d65/a26638.html#a0eacab5595969cfe5e3d083c984dfd77", null ]
 ];

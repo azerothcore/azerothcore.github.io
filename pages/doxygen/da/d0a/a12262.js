@@ -1,5 +1,8 @@
 var a12262 =
 [
-    [ "npc_chess_move_trigger", "da/d0a/a12262.html#a6c0c37677db45ee11ebe158893d99632", null ],
-    [ "DamageTaken", "da/d0a/a12262.html#af413c7af2254c1cc06462b2a62ac88db", null ]
+    [ "npc_kernobeeAI", "da/d0a/a12262.html#a9dfc478b7da1bf33463e3653aea3c4da", null ],
+    [ "SetGUID", "da/d0a/a12262.html#a34999b470697ba0a27701facd63625f8", null ],
+    [ "UpdateAI", "da/d0a/a12262.html#ae99836a836234ad441d6ac97c60d7fc6", null ],
+    [ "checkTimer", "da/d0a/a12262.html#ae4731b5dd7b92d6989b0960d88e1dc35", null ],
+    [ "playerGUID", "da/d0a/a12262.html#aca1009b03ee24200f5dbad788ec5c5c8", null ]
 ];

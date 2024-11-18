@@ -1,6 +1,8 @@
 var a24442 =
 [
-    [ "HandleKnockBack", "df/dce/a24442.html#ae50d143953074b83183482770046e131", null ],
-    [ "PrepareSpellScript", "df/dce/a24442.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
-    [ "Register", "df/dce/a24442.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
+    [ "AfterApply", "df/dce/a24442.html#a9c2591beacd941893338109719c03e3f", null ],
+    [ "AfterRemove", "df/dce/a24442.html#a0be2a66b615dd926de7073392a8e5062", null ],
+    [ "PrepareAuraScript", "df/dce/a24442.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
+    [ "Register", "df/dce/a24442.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
+    [ "Validate", "df/dce/a24442.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
 ];

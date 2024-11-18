@@ -1,6 +1,6 @@
 var a10978 =
 [
-    [ "HitHandler", "df/d17/a10978.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
-    [ "Call", "df/d17/a10978.html#a157baaa3ceba62a9910cba5377bd7699", null ],
-    [ "pHitHandlerScript", "df/d17/a10978.html#ac24144e49930a01a3049740a4072f626", null ]
+    [ "CastHandler", "df/d17/a10978.html#aad22cf4791a20b9cb6704712ec3d9339", null ],
+    [ "Call", "df/d17/a10978.html#afdbd455bd010bd93e84c334fe3987bf1", null ],
+    [ "pCastHandlerScript", "df/d17/a10978.html#a091c494c18bc81968a386bc5f2565905", null ]
 ];

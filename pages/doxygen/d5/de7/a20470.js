@@ -1,9 +1,7 @@
 var a20470 =
 [
-    [ "boss_yoggsaron_keeper", "d5/de7/a20470.html#ad2098933656371b1bf80ec3ea859c418", null ],
-    [ "DoAction", "d5/de7/a20470.html#a9e3d251810b55072458003356213ae15", null ],
-    [ "JustEngagedWith", "d5/de7/a20470.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
-    [ "JustSummoned", "d5/de7/a20470.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
-    [ "UpdateAI", "d5/de7/a20470.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
-    [ "_summons", "d5/de7/a20470.html#aa840eff5f3d8b24225046113737936b4", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "d5/de7/a20470.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
+    [ "DoAction", "d5/de7/a20470.html#abac26b3be775eea734403be36cbed4d2", null ],
+    [ "SelectCorruptionTarget", "d5/de7/a20470.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
+    [ "UpdateAI", "d5/de7/a20470.html#a0269d1dc655af5680d7074cb093740b8", null ]
 ];

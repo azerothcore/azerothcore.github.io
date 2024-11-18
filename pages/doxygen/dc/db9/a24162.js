@@ -1,6 +1,6 @@
 var a24162 =
 [
-    [ "PrepareSpellScript", "dc/db9/a24162.html#ad6190cf9ab80ebfd982c1b166d950656", null ],
-    [ "Register", "dc/db9/a24162.html#a4b349a325759517c35d04202e5df9cec", null ],
-    [ "SetDest", "dc/db9/a24162.html#a951f733ab2452655a3b579f8ed190fb0", null ]
+    [ "HandleAfterCast", "dc/db9/a24162.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "dc/db9/a24162.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "dc/db9/a24162.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

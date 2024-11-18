@@ -1,11 +1,8 @@
 var a10330 =
 [
-    [ "GuildRankTabPermissions", "d9/d14/a10334.html", "d9/d14/a10334" ],
-    [ "GuildPermissionsQueryResults", "d3/da9/a10330.html#aa643af51780fc550f3947936266d54f5", null ],
-    [ "Write", "d3/da9/a10330.html#a4a5937a8daab44b5000a5308ed0be06a", null ],
-    [ "Flags", "d3/da9/a10330.html#a368162426ab526adafc7ecb223fdf865", null ],
-    [ "NumTabs", "d3/da9/a10330.html#ab797ef0f0081c4520a6333afbe6cd5b4", null ],
-    [ "RankID", "d3/da9/a10330.html#a795ba45650991bd5c1aa03c17886d86b", null ],
-    [ "Tab", "d3/da9/a10330.html#ae54eeb1a76f5eeaf4a63bcb58bab3460", null ],
-    [ "WithdrawGoldLimit", "d3/da9/a10330.html#a9d175a8de69f15c3f8eadf237f68e84a", null ]
+    [ "OtherGUID", "d3/da9/a10330.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
+    [ "PlayerGUID", "d3/da9/a10330.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
+    [ "RankID", "d3/da9/a10330.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
+    [ "TransactionDate", "d3/da9/a10330.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
+    [ "TransactionType", "d3/da9/a10330.html#aa48b69aa9078fb150470d66201b34786", null ]
 ];

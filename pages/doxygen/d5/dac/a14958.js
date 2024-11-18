@@ -1,6 +1,7 @@
 var a14958 =
 [
-    [ "npc_murkdeepAI", "d4/dcc/a14962.html", "d4/dcc/a14962" ],
-    [ "npc_murkdeep", "d5/dac/a14958.html#a72d44d786bcba4dea5ccedd33e7dbd3c", null ],
-    [ "GetAI", "d5/dac/a14958.html#ab9f8faa3adaf1f251e1248fbe0f46468", null ]
+    [ "HandleEffectRemove", "d5/dac/a14958.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
+    [ "PrepareAuraScript", "d5/dac/a14958.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
+    [ "Register", "d5/dac/a14958.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
+    [ "AuraEffectHandleModes", "d5/dac/a14958.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
 ];

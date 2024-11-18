@@ -1,7 +1,9 @@
 var a09294 =
 [
-    [ "InstancePlayerBind", "dc/d37/a09294.html#abc20bba094d04eb724d03b8290102981", null ],
-    [ "extended", "dc/d37/a09294.html#a9327f62b74eea3a1a525b2fec6d90b69", null ],
-    [ "perm", "dc/d37/a09294.html#ab35249eb791941b484ecc321b1102b24", null ],
-    [ "save", "dc/d37/a09294.html#a24ef1e0e0a38033a16b697c32e3d8234", null ]
+    [ "BroadcastTextID", "dc/d37/a09294.html#a756f24dbee852a7fbe152c0cb082c412", null ],
+    [ "Emotes", "dc/d37/a09294.html#a0f67a651fdb3f3217279015c9e3fb292", null ],
+    [ "Language", "dc/d37/a09294.html#a33bc5a0c156918b00380710aeb275d3d", null ],
+    [ "Probability", "dc/d37/a09294.html#a5c743df7a7ad634c5b3f3376547fda00", null ],
+    [ "Text_0", "dc/d37/a09294.html#a046d637b91807db067c6e7050184322d", null ],
+    [ "Text_1", "dc/d37/a09294.html#a8d64d7b8fcdbd995cc11e22adde8c0de", null ]
 ];

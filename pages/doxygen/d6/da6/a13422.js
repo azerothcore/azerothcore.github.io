@@ -1,17 +1,12 @@
 var a13422 =
 [
-    [ "boss_akilzonAI", "d6/da6/a13422.html#a3548e2eccc8a30522ae700b4df6fa9a2", null ],
-    [ "HandleStormSequence", "d6/da6/a13422.html#ad59bad65f311f4e6b64ca756a60dbd36", null ],
-    [ "JustDied", "d6/da6/a13422.html#a934b5f161179b050e7d2775ea9b520ff", null ],
-    [ "JustEngagedWith", "d6/da6/a13422.html#a762b8a3f020706c5ed33895e623fe4a5", null ],
-    [ "KilledUnit", "d6/da6/a13422.html#a380423da857f383482417c0cf5d7a329", null ],
-    [ "Reset", "d6/da6/a13422.html#a8cc950cb17891eb282bf0f6328083748", null ],
-    [ "SetWeather", "d6/da6/a13422.html#a2fd60017785230b57ab8c4d1475f96fa", null ],
-    [ "SummonEagles", "d6/da6/a13422.html#ae3f360fd9a2350396a8eda8e353335d5", null ],
-    [ "BirdGUIDs", "d6/da6/a13422.html#ab23f3af0c8469ae159e43bd60affee17", null ],
-    [ "CloudGUID", "d6/da6/a13422.html#a722a436dc91c3365eeae0aa7eb0c9d1f", null ],
-    [ "CycloneGUID", "d6/da6/a13422.html#a394e54dabc4c41fd8cab52f4089fe0c9", null ],
-    [ "isRaining", "d6/da6/a13422.html#a288182035c44fe8072fd3a23aa68fda0", null ],
-    [ "StormCount", "d6/da6/a13422.html#a871e9aa934e8e86539068a29c69ac923", null ],
-    [ "TargetGUID", "d6/da6/a13422.html#a1af95d73b3006f2968031d9c1588a8a4", null ]
+    [ "npc_daphne_stilwellAI", "d6/da6/a13422.html#ac2e9f940bc64a70ff8a386e4f483a65e", null ],
+    [ "AttackStart", "d6/da6/a13422.html#a30056a45adb91a12cf7bcc4e9f0b2d54", null ],
+    [ "JustSummoned", "d6/da6/a13422.html#ae56554d30e9de7644efab891555c57e0", null ],
+    [ "Reset", "d6/da6/a13422.html#ae6f0b271478aecf7fd1f3e1c733d77f0", null ],
+    [ "SummonedCreatureDies", "d6/da6/a13422.html#aa6fdcf9e09031522d342b603b4c70aed", null ],
+    [ "Update", "d6/da6/a13422.html#a4099d75c4a6bca1525781a5753ef9972", null ],
+    [ "WaypointReached", "d6/da6/a13422.html#a1035eb0a1696730d8304593b5fb079e4", null ],
+    [ "summons", "d6/da6/a13422.html#a0cbf5aaf1cb2f234e725074de0acc7e6", null ],
+    [ "textCounter", "d6/da6/a13422.html#a62ab24169c1b7c3028ab33303b217f63", null ]
 ];

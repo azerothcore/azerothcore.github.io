@@ -1,7 +1,12 @@
 var a23074 =
 [
-    [ "HandleScript", "d8/d79/a23074.html#a8933535f9507b90b54032c17985cc3c6", null ],
-    [ "PrepareSpellScript", "d8/d79/a23074.html#acadb563eaeffac47b3f883f9d8c37994", null ],
-    [ "Register", "d8/d79/a23074.html#a797ae84dcb0fc13b0799934bde71809c", null ],
-    [ "Validate", "d8/d79/a23074.html#afba2983f5be230dd3b77b3b49fee8a38", null ]
+    [ "boss_swamplord_muselek", "d8/d79/a23074.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
+    [ "AttackStart", "d8/d79/a23074.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
+    [ "CanShootVictim", "d8/d79/a23074.html#af84af5e4b344fc5f5da9f2047519710a", null ],
+    [ "JustDied", "d8/d79/a23074.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
+    [ "JustEngagedWith", "d8/d79/a23074.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
+    [ "KilledUnit", "d8/d79/a23074.html#a9f2afd6aacb9befa956079a42fbace37", null ],
+    [ "Reset", "d8/d79/a23074.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
+    [ "_canChase", "d8/d79/a23074.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
+    [ "_markTarget", "d8/d79/a23074.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
 ];

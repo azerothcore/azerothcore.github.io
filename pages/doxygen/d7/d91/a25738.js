@@ -1,7 +1,9 @@
 var a25738 =
 [
-    [ "OnProc", "d7/d91/a25738.html#a304fd48cc79d3e7371212632d276b2ff", null ],
-    [ "PrepareAuraScript", "d7/d91/a25738.html#a239f9448d36bee4cfb46d95bf20c0148", null ],
-    [ "Register", "d7/d91/a25738.html#a28be437c5f3e8bca0f54be97cb5c5a1f", null ],
-    [ "Validate", "d7/d91/a25738.html#adc217147d7c150d66dad4d3e922cff96", null ]
+    [ "Load", "d7/d91/a25738.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
+    [ "PrepareSpellScript", "d7/d91/a25738.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
+    [ "Register", "d7/d91/a25738.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
+    [ "TriggerHeal", "d7/d91/a25738.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
+    [ "Validate", "d7/d91/a25738.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
+    [ "healPct", "d7/d91/a25738.html#a33b4d26c34903e45b7274e369f096ce1", null ]
 ];

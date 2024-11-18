@@ -1,7 +1,6 @@
 var a15182 =
 [
-    [ "npc_kaya_flathoofAI", "da/d72/a15186.html", "da/d72/a15186" ],
-    [ "npc_kaya_flathoof", "db/d45/a15182.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
-    [ "GetAI", "db/d45/a15182.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
-    [ "OnQuestAccept", "db/d45/a15182.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
+    [ "go_wind_stoneAI", "da/d72/a15186.html", "da/d72/a15186" ],
+    [ "go_wind_stone", "db/d45/a15182.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
+    [ "GetAI", "db/d45/a15182.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
 ];

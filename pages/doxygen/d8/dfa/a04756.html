@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: MapObject Namespace Reference</title>
+<title>AzerothCore: WorldPackets::WorldState Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,154 +105,25 @@ $(document).ready(function(){initNavTree('d8/dfa/a04756.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MapObject Namespace Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">WorldPackets::WorldState Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9148b3ef5b412564a285737b0bd104dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a04756.html#a9148b3ef5b412564a285737b0bd104dd">Extract</a> (<a class="el" href="../../db/d59/a28310.html">ADT::MODF</a> const &amp;mapObjDef, char const *WmoInstName, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapID, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileX, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileY, FILE *pDirfile)</td></tr>
-<tr class="separator:a9148b3ef5b412564a285737b0bd104dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d64/a10634.html">InitWorldStates</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d91/a10642.html">UpdateWorldState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a9148b3ef5b412564a285737b0bd104dd" name="a9148b3ef5b412564a285737b0bd104dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9148b3ef5b412564a285737b0bd104dd">&#9670;&#160;</a></span>Extract()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MapObject::Extract </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d59/a28310.html">ADT::MODF</a> const &amp;&#160;</td>
-          <td class="paramname"><em>mapObjDef</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>WmoInstName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>mapID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>tileX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>tileY</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FILE *&#160;</td>
-          <td class="paramname"><em>pDirfile</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  510</span>{</div>
-<div class="line"><span class="lineno">  511</span>    <span class="comment">// destructible wmo, do not dump. we can handle the vmap for these</span></div>
-<div class="line"><span class="lineno">  512</span>    <span class="comment">// in dynamic tree (gameobject vmaps)</span></div>
-<div class="line"><span class="lineno">  513</span>    <span class="keywordflow">if</span> ((mapObjDef.Flags &amp; 0x1) != 0)</div>
-<div class="line"><span class="lineno">  514</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  515</span> </div>
-<div class="line"><span class="lineno">  516</span>    <span class="comment">//-----------add_in _dir_file----------------</span></div>
-<div class="line"><span class="lineno">  517</span> </div>
-<div class="line"><span class="lineno">  518</span>    <span class="keywordtype">char</span> tempname[1036];</div>
-<div class="line"><span class="lineno">  519</span>    sprintf(tempname, <span class="stringliteral">&quot;%s/%s&quot;</span>, <a class="code hl_variable" href="../../d3/d8b/a00059.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a>, WmoInstName);</div>
-<div class="line"><span class="lineno">  520</span>    FILE* input;</div>
-<div class="line"><span class="lineno">  521</span>    input = fopen(tempname, <span class="stringliteral">&quot;r+b&quot;</span>);</div>
-<div class="line"><span class="lineno">  522</span> </div>
-<div class="line"><span class="lineno">  523</span>    <span class="keywordflow">if</span> (!input)</div>
-<div class="line"><span class="lineno">  524</span>    {</div>
-<div class="line"><span class="lineno">  525</span>        printf(<span class="stringliteral">&quot;WMOInstance::WMOInstance: couldn&#39;t open %s\n&quot;</span>, tempname);</div>
-<div class="line"><span class="lineno">  526</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  527</span>    }</div>
-<div class="line"><span class="lineno">  528</span> </div>
-<div class="line"><span class="lineno">  529</span>    fseek(input, 8, SEEK_SET); <span class="comment">// get the correct no of vertices</span></div>
-<div class="line"><span class="lineno">  530</span>    <span class="keywordtype">int</span> nVertices;</div>
-<div class="line"><span class="lineno">  531</span>    <span class="keywordtype">int</span> count = fread(&amp;nVertices, <span class="keyword">sizeof</span> (<span class="keywordtype">int</span>), 1, input);</div>
-<div class="line"><span class="lineno">  532</span>    fclose(input);</div>
-<div class="line"><span class="lineno">  533</span> </div>
-<div class="line"><span class="lineno">  534</span>    <span class="keywordflow">if</span> (count != 1 || nVertices == 0)</div>
-<div class="line"><span class="lineno">  535</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  536</span> </div>
-<div class="line"><span class="lineno">  537</span>    <a class="code hl_class" href="../../de/d08/a28330.html">Vec3D</a> position = mapObjDef.Position;</div>
-<div class="line"><span class="lineno">  538</span> </div>
-<div class="line"><span class="lineno">  539</span>    <span class="keywordtype">float</span> x, z;</div>
-<div class="line"><span class="lineno">  540</span>    x = position.<a class="code hl_variable" href="../../de/d08/a28330.html#a0f061b9d5ea2a680f64bed8b5be9116d">x</a>;</div>
-<div class="line"><span class="lineno">  541</span>    z = position.<a class="code hl_variable" href="../../de/d08/a28330.html#a5a619f14529e714231bff4cc6fd36614">z</a>;</div>
-<div class="line"><span class="lineno">  542</span>    <span class="keywordflow">if</span> (x == 0 &amp;&amp; z == 0)</div>
-<div class="line"><span class="lineno">  543</span>    {</div>
-<div class="line"><span class="lineno">  544</span>        position.<a class="code hl_variable" href="../../de/d08/a28330.html#a0f061b9d5ea2a680f64bed8b5be9116d">x</a> = 533.33333f * 32;</div>
-<div class="line"><span class="lineno">  545</span>        position.<a class="code hl_variable" href="../../de/d08/a28330.html#a5a619f14529e714231bff4cc6fd36614">z</a> = 533.33333f * 32;</div>
-<div class="line"><span class="lineno">  546</span>    }</div>
-<div class="line"><span class="lineno">  547</span>    position = <a class="code hl_function" href="../../da/d24/a00068.html#ab265837fe64577975f97318431c69e9c">fixCoords</a>(position);</div>
-<div class="line"><span class="lineno">  548</span>    <a class="code hl_class" href="../../d1/dfc/a28334.html">AaBox3D</a> bounds;</div>
-<div class="line"><span class="lineno">  549</span>    bounds.<a class="code hl_variable" href="../../d1/dfc/a28334.html#a7277258d8bdc471a007814fadf91780a">min</a> = <a class="code hl_function" href="../../da/d24/a00068.html#ab265837fe64577975f97318431c69e9c">fixCoords</a>(mapObjDef.Bounds.min);</div>
-<div class="line"><span class="lineno">  550</span>    bounds.<a class="code hl_variable" href="../../d1/dfc/a28334.html#a3d87d5fa5e887282fa76a4a4b77eb097">max</a> = <a class="code hl_function" href="../../da/d24/a00068.html#ab265837fe64577975f97318431c69e9c">fixCoords</a>(mapObjDef.Bounds.max);</div>
-<div class="line"><span class="lineno">  551</span> </div>
-<div class="line"><span class="lineno">  552</span>    <span class="keywordtype">float</span> scale = 1.0f;</div>
-<div class="line"><span class="lineno">  553</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> uniqueId = <a class="code hl_function" href="../../d3/d8b/a00059.html#a6a3d179f34597554b17a122f27cd6be5">GenerateUniqueObjectId</a>(mapObjDef.UniqueId, 0);</div>
-<div class="line"><span class="lineno">  554</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> flags = <a class="code hl_enumvalue" href="../../da/d2a/a00086.html#a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851">MOD_HAS_BOUND</a>;</div>
-<div class="line"><span class="lineno">  555</span>    <span class="keywordflow">if</span> (tileX == 65 &amp;&amp; tileY == 65) flags |= <a class="code hl_enumvalue" href="../../da/d2a/a00086.html#a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4">MOD_WORLDSPAWN</a>;</div>
-<div class="line"><span class="lineno">  556</span>    <span class="comment">//write mapID, tileX, tileY, Flags, NameSet, UniqueId, Pos, Rot, Scale, Bound_lo, Bound_hi, name</span></div>
-<div class="line"><span class="lineno">  557</span>    fwrite(&amp;mapID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  558</span>    fwrite(&amp;tileX, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  559</span>    fwrite(&amp;tileY, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  560</span>    fwrite(&amp;flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  561</span>    fwrite(&amp;mapObjDef.NameSet, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  562</span>    fwrite(&amp;uniqueId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  563</span>    fwrite(&amp;position, <span class="keyword">sizeof</span>(<a class="code hl_class" href="../../de/d08/a28330.html">Vec3D</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  564</span>    fwrite(&amp;mapObjDef.Rotation, <span class="keyword">sizeof</span>(<a class="code hl_class" href="../../de/d08/a28330.html">Vec3D</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  565</span>    fwrite(&amp;scale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  566</span>    fwrite(&amp;bounds, <span class="keyword">sizeof</span>(<a class="code hl_class" href="../../d1/dfc/a28334.html">AaBox3D</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  567</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nlen = strlen(WmoInstName);</div>
-<div class="line"><span class="lineno">  568</span>    fwrite(&amp;nlen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, pDirfile);</div>
-<div class="line"><span class="lineno">  569</span>    fwrite(WmoInstName, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nlen, pDirfile);</div>
-<div class="line"><span class="lineno">  570</span>}</div>
-<div class="ttc" id="aa00059_html_a6a3d179f34597554b17a122f27cd6be5"><div class="ttname"><a href="../../d3/d8b/a00059.html#a6a3d179f34597554b17a122f27cd6be5">GenerateUniqueObjectId</a></div><div class="ttdeci">uint32 GenerateUniqueObjectId(uint32 clientId, uint16 clientDoodadId)</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:72</div></div>
-<div class="ttc" id="aa00059_html_ae79cb6c3493a63f0e1058be3bd5ba328"><div class="ttname"><a href="../../d3/d8b/a00059.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a></div><div class="ttdeci">char const  * szWorkDirWmo</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:68</div></div>
-<div class="ttc" id="aa00068_html_ab265837fe64577975f97318431c69e9c"><div class="ttname"><a href="../../da/d24/a00068.html#ab265837fe64577975f97318431c69e9c">fixCoords</a></div><div class="ttdeci">static Vec3D fixCoords(const Vec3D &amp;v)</div><div class="ttdef"><b>Definition:</b> wmo.h:68</div></div>
-<div class="ttc" id="aa00086_html_a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4"><div class="ttname"><a href="../../da/d2a/a00086.html#a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4">MOD_WORLDSPAWN</a></div><div class="ttdeci">@ MOD_WORLDSPAWN</div><div class="ttdef"><b>Definition:</b> vmapexport.h:34</div></div>
-<div class="ttc" id="aa00086_html_a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851"><div class="ttname"><a href="../../da/d2a/a00086.html#a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851">MOD_HAS_BOUND</a></div><div class="ttdeci">@ MOD_HAS_BOUND</div><div class="ttdef"><b>Definition:</b> vmapexport.h:35</div></div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa00179_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa28330_html"><div class="ttname"><a href="../../de/d08/a28330.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
-<div class="ttc" id="aa28330_html_a0f061b9d5ea2a680f64bed8b5be9116d"><div class="ttname"><a href="../../de/d08/a28330.html#a0f061b9d5ea2a680f64bed8b5be9116d">Vec3D::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
-<div class="ttc" id="aa28330_html_a5a619f14529e714231bff4cc6fd36614"><div class="ttname"><a href="../../de/d08/a28330.html#a5a619f14529e714231bff4cc6fd36614">Vec3D::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
-<div class="ttc" id="aa28334_html"><div class="ttname"><a href="../../d1/dfc/a28334.html">AaBox3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:141</div></div>
-<div class="ttc" id="aa28334_html_a3d87d5fa5e887282fa76a4a4b77eb097"><div class="ttname"><a href="../../d1/dfc/a28334.html#a3d87d5fa5e887282fa76a4a4b77eb097">AaBox3D::max</a></div><div class="ttdeci">Vec3D max</div><div class="ttdef"><b>Definition:</b> vec3d.h:144</div></div>
-<div class="ttc" id="aa28334_html_a7277258d8bdc471a007814fadf91780a"><div class="ttname"><a href="../../d1/dfc/a28334.html#a7277258d8bdc471a007814fadf91780a">AaBox3D::min</a></div><div class="ttdeci">Vec3D min</div><div class="ttdef"><b>Definition:</b> vec3d.h:143</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">ADT::MODF::Bounds</a>, <a class="el" href="../../#l00068">fixCoords()</a>, <a class="el" href="../../#l00045">ADT::MODF::Flags</a>, <a class="el" href="../../#l00072">GenerateUniqueObjectId()</a>, <a class="el" href="../../#l00144">AaBox3D::max</a>, <a class="el" href="../../#l00143">AaBox3D::min</a>, <a class="el" href="../../#l00035">MOD_HAS_BOUND</a>, <a class="el" href="../../#l00034">MOD_WORLDSPAWN</a>, <a class="el" href="../../#l00047">ADT::MODF::NameSet</a>, <a class="el" href="../../#l00042">ADT::MODF::Position</a>, <a class="el" href="../../#l00043">ADT::MODF::Rotation</a>, <a class="el" href="../../#l00068">szWorkDirWmo</a>, <a class="el" href="../../#l00041">ADT::MODF::UniqueId</a>, <a class="el" href="../../#l00027">Vec3D::x</a>, and <a class="el" href="../../#l00027">Vec3D::z</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00084">ADTFile::init()</a>, and <a class="el" href="../../#l00038">WDTFile::init()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/dfa/a04756.html">MapObject</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d8/dfa/a04756.html">WorldState</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

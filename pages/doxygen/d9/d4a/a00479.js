@@ -1,5 +1,6 @@
 var a00479 =
 [
-    [ "MAP_FILE_NAME_FORMAT", "d9/d4a/a00479.html#a1d57d156046bda88886b7488ab0b83bc", null ],
-    [ "TILE_FILE_NAME_FORMAT", "d9/d4a/a00479.html#a27e34ce3b8808f2aa889e5c4e623059a", null ]
+    [ "ConfigMgr", "d8/d5f/a05046.html", "d8/d5f/a05046" ],
+    [ "ConfigException", "da/df4/a05050.html", "da/df4/a05050" ],
+    [ "sConfigMgr", "d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f", null ]
 ];

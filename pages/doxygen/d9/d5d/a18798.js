@@ -1,7 +1,6 @@
 var a18798 =
 [
-    [ "boss_naxxramas_miscAI", "d9/d5d/a18798.html#affd990236c101d91b31f60eea7135cdf", null ],
-    [ "JustDied", "d9/d5d/a18798.html#aae92d4b538907ef829f5f534f16feef1", null ],
-    [ "UpdateAI", "d9/d5d/a18798.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
-    [ "timer", "d9/d5d/a18798.html#a39af06c7bc635bf85eebf4ed40798006", null ]
+    [ "instance_naxxramas_InstanceMapScript", "d7/da0/a18802.html", "d7/da0/a18802" ],
+    [ "instance_naxxramas", "d9/d5d/a18798.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
+    [ "GetInstanceScript", "d9/d5d/a18798.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
 ];

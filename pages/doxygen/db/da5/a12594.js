@@ -1,6 +1,6 @@
 var a12594 =
 [
-    [ "npc_scarlet_miner_cartAI", "d2/dc4/a12598.html", "d2/dc4/a12598" ],
-    [ "npc_scarlet_miner_cart", "db/da5/a12594.html#a987247939c6fd576d4b8d541175ecb6b", null ],
-    [ "GetAI", "db/da5/a12594.html#a0f1436f0f6784af5ab62bf91df355731", null ]
+    [ "npc_unworthy_initiateAI", "d2/dc4/a12598.html", "d2/dc4/a12598" ],
+    [ "npc_unworthy_initiate", "db/da5/a12594.html#aaa04626b783eadc0b14bd89aa715e694", null ],
+    [ "GetAI", "db/da5/a12594.html#a0912cc56cb2082b2de086cbd9b914b4a", null ]
 ];

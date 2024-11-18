@@ -1,11 +1,7 @@
 var a19194 =
 [
-    [ "boss_maiden_of_griefAI", "d5/de6/a19194.html#a521decece7a53165349ebcfb9fb8dfb5", null ],
-    [ "JustDied", "d5/de6/a19194.html#abd3977cca1cbbf4b64c278a641514fc8", null ],
-    [ "JustEngagedWith", "d5/de6/a19194.html#acf30049b09bbaf3e30f2dcb77bf1b4e0", null ],
-    [ "KilledUnit", "d5/de6/a19194.html#a3d2173db5a852a356c187b2d2771b75f", null ],
-    [ "Reset", "d5/de6/a19194.html#a46776004549b0dcfcf73351225adaad8", null ],
-    [ "UpdateAI", "d5/de6/a19194.html#a4e26fc785b3c72982f9d98e0b120e929", null ],
-    [ "events", "d5/de6/a19194.html#aa2d2ccea219b679594d8d8b4a38d70cc", null ],
-    [ "pInstance", "d5/de6/a19194.html#abc195718a208a926f978d7f0fe0e7925", null ]
+    [ "HandleScript", "d5/de6/a19194.html#a5d778f906e1ee820cc97b0b32839cc78", null ],
+    [ "PrepareSpellScript", "d5/de6/a19194.html#a34337690029eedb60a17572dbbf1e1f9", null ],
+    [ "Register", "d5/de6/a19194.html#ad554d79e1a98490085b22f5038d058da", null ],
+    [ "Validate", "d5/de6/a19194.html#a0932ccc5652bc4901aacbe2cf8d6c7d8", null ]
 ];

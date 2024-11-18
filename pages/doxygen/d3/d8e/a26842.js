@@ -1,6 +1,5 @@
 var a26842 =
 [
-    [ "go_flamesAI", "d0/d4c/a26846.html", "d0/d4c/a26846" ],
-    [ "go_flames", "d3/d8e/a26842.html#a75d49202eaf2078b8276e59944d1ec89", null ],
-    [ "GetAI", "d3/d8e/a26842.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
+    [ "go_resonite_cask", "d3/d8e/a26842.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "d3/d8e/a26842.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

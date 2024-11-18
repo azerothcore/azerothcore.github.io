@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/vmap4_extractor/modelheaders.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Common.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,25 +105,576 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">modelheaders.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Common.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;netdb.h&gt;</code><br />
+<code>#include &lt;netinet/in.h&gt;</code><br />
+<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;sys/socket.h&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+</div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dfe/a28582.html">ModelHeader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html">Acore::unary_function&lt; ArgumentType, ResultType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aa2ec973aa55e3816c2ca393e8ce204ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#aa2ec973aa55e3816c2ca393e8ce204ac">STRINGIZE</a>(a)&#160;&#160;&#160;#a</td></tr>
+<tr class="separator:aa2ec973aa55e3816c2ca393e8ce204ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7485324c284eb57b36d226c49ba3ecc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a7485324c284eb57b36d226c49ba3ecc6">MAX_NETCLIENT_PACKET_SIZE</a>&#160;&#160;&#160;(32767 - 1)</td></tr>
+<tr class="separator:a7485324c284eb57b36d226c49ba3ecc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a900ed91bceba26c1e05048bd3a9ec4fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a>&#160;&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></td></tr>
+<tr class="separator:a900ed91bceba26c1e05048bd3a9ec4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ae9c82be025ecc48dd4a5f19b641be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#aa0ae9c82be025ecc48dd4a5f19b641be">MAX_LOCALES</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:aa0ae9c82be025ecc48dd4a5f19b641be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4958d609f89151a2aed8c6e375ed40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#aeb4958d609f89151a2aed8c6e375ed40">MAX_ACCOUNT_TUTORIAL_VALUES</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:aeb4958d609f89151a2aed8c6e375ed40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5799c8932ad35c57edbd997ef75f8fce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a5799c8932ad35c57edbd997ef75f8fce">MAX_QUERY_LEN</a>&#160;&#160;&#160;32*1024</td></tr>
+<tr class="separator:a5799c8932ad35c57edbd997ef75f8fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:adaa1cabfe05f8df3c272bdcfd89cdac7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0">SEC_MODERATOR</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399">SEC_CONSOLE</a> = 4
+<br />
+ }</td></tr>
+<tr class="separator:adaa1cabfe05f8df3c272bdcfd89cdac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c9b637be7283ba1a04fb5215594332"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef">LOCALE_koKR</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44">LOCALE_frFR</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782">LOCALE_deDE</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7">LOCALE_zhCN</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c">LOCALE_zhTW</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b">LOCALE_esES</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7">LOCALE_esMX</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9">LOCALE_ruRU</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>
+<br />
+ }</td></tr>
+<tr class="separator:a54c9b637be7283ba1a04fb5215594332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a81800cc16f876fcd41a0b7736b5a321d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a81800cc16f876fcd41a0b7736b5a321d">GetLocaleByName</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a81800cc16f876fcd41a0b7736b5a321d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3de291e93c6c35b96ebb4fe810183863"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a3de291e93c6c35b96ebb4fe810183863">CleanStringForMysqlQuery</a> (std::string &amp;str)</td></tr>
+<tr class="separator:a3de291e93c6c35b96ebb4fe810183863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3efd60ac9eda5a15658a415b17773a59"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a3efd60ac9eda5a15658a415b17773a59">SECOND</a> = 1</td></tr>
+<tr class="separator:a3efd60ac9eda5a15658a415b17773a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacf27522adfacf698390ddafc53fa30"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> = <a class="el" href="../../d4/d51/a00017.html#a3efd60ac9eda5a15658a415b17773a59">SECOND</a> * 60</td></tr>
+<tr class="separator:afacf27522adfacf698390ddafc53fa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78ba8a81d12635c129fe2f92ca46c6f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a> = <a class="el" href="../../d4/d51/a00017.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * 60</td></tr>
+<tr class="separator:ac78ba8a81d12635c129fe2f92ca46c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219e927a5d306db9cd363487d1f94366"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a> = <a class="el" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a> * 24</td></tr>
+<tr class="separator:a219e927a5d306db9cd363487d1f94366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688431b3f57feed4c5408d11114cdf1a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a688431b3f57feed4c5408d11114cdf1a">WEEK</a> = <a class="el" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a> * 7</td></tr>
+<tr class="separator:a688431b3f57feed4c5408d11114cdf1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add49e81cdd2c0bb5eb745bed627d5022"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#add49e81cdd2c0bb5eb745bed627d5022">MONTH</a> = <a class="el" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a> * 30</td></tr>
+<tr class="separator:add49e81cdd2c0bb5eb745bed627d5022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0552dd357fedab8892f8550548357a55"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a0552dd357fedab8892f8550548357a55">YEAR</a> = <a class="el" href="../../d4/d51/a00017.html#add49e81cdd2c0bb5eb745bed627d5022">MONTH</a> * 12</td></tr>
+<tr class="separator:a0552dd357fedab8892f8550548357a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84190f79c8167211609f67284e066c58"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a> = 1000</td></tr>
+<tr class="separator:a84190f79c8167211609f67284e066c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada00613111bb83c03f962083970ca2a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.html#ada00613111bb83c03f962083970ca2a0">localeNames</a> [<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>]</td></tr>
+<tr class="separator:ada00613111bb83c03f962083970ca2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a900ed91bceba26c1e05048bd3a9ec4fd" name="a900ed91bceba26c1e05048bd3a9ec4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a900ed91bceba26c1e05048bd3a9ec4fd">&#9670;&#160;</a></span>DEFAULT_LOCALE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_LOCALE&#160;&#160;&#160;<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb4958d609f89151a2aed8c6e375ed40" name="aeb4958d609f89151a2aed8c6e375ed40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4958d609f89151a2aed8c6e375ed40">&#9670;&#160;</a></span>MAX_ACCOUNT_TUTORIAL_VALUES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_ACCOUNT_TUTORIAL_VALUES&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0ae9c82be025ecc48dd4a5f19b641be" name="aa0ae9c82be025ecc48dd4a5f19b641be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0ae9c82be025ecc48dd4a5f19b641be">&#9670;&#160;</a></span>MAX_LOCALES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_LOCALES&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7485324c284eb57b36d226c49ba3ecc6" name="a7485324c284eb57b36d226c49ba3ecc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7485324c284eb57b36d226c49ba3ecc6">&#9670;&#160;</a></span>MAX_NETCLIENT_PACKET_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_NETCLIENT_PACKET_SIZE&#160;&#160;&#160;(32767 - 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5799c8932ad35c57edbd997ef75f8fce" name="a5799c8932ad35c57edbd997ef75f8fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5799c8932ad35c57edbd997ef75f8fce">&#9670;&#160;</a></span>MAX_QUERY_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_QUERY_LEN&#160;&#160;&#160;32*1024</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2ec973aa55e3816c2ca393e8ce204ac" name="aa2ec973aa55e3816c2ca393e8ce204ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ec973aa55e3816c2ca393e8ce204ac">&#9670;&#160;</a></span>STRINGIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STRINGIZE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a</td><td>)</td>
+          <td>&#160;&#160;&#160;#a</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="adaa1cabfe05f8df3c272bdcfd89cdac7" name="adaa1cabfe05f8df3c272bdcfd89cdac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa1cabfe05f8df3c272bdcfd89cdac7">&#9670;&#160;</a></span>AccountTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0" name="adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0"></a>SEC_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0" name="adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0"></a>SEC_MODERATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1" name="adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"></a>SEC_GAMEMASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102" name="adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102"></a>SEC_ADMINISTRATOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399" name="adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399"></a>SEC_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>         = 0,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0">SEC_MODERATOR</a>      = 1,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>     = 2,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>  = 3,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399">SEC_CONSOLE</a>        = 4                                  <span class="comment">// must be always last in list, accounts must have less security level always also</span></div>
+<div class="line"><span class="lineno">   62</span>};</div>
+<div class="ttc" id="aa00017_html_adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0"><div class="ttname"><a href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a></div><div class="ttdeci">@ SEC_PLAYER</div><div class="ttdef"><b>Definition:</b> Common.h:57</div></div>
+<div class="ttc" id="aa00017_html_adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102"><div class="ttname"><a href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a></div><div class="ttdeci">@ SEC_ADMINISTRATOR</div><div class="ttdef"><b>Definition:</b> Common.h:60</div></div>
+<div class="ttc" id="aa00017_html_adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"><div class="ttname"><a href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a></div><div class="ttdeci">@ SEC_GAMEMASTER</div><div class="ttdef"><b>Definition:</b> Common.h:59</div></div>
+<div class="ttc" id="aa00017_html_adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0"><div class="ttname"><a href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0">SEC_MODERATOR</a></div><div class="ttdeci">@ SEC_MODERATOR</div><div class="ttdef"><b>Definition:</b> Common.h:58</div></div>
+<div class="ttc" id="aa00017_html_adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399"><div class="ttname"><a href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399">SEC_CONSOLE</a></div><div class="ttdeci">@ SEC_CONSOLE</div><div class="ttdef"><b>Definition:</b> Common.h:61</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a54c9b637be7283ba1a04fb5215594332" name="a54c9b637be7283ba1a04fb5215594332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c9b637be7283ba1a04fb5215594332">&#9670;&#160;</a></span>LocaleConstant</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3" name="a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"></a>LOCALE_enUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef" name="a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef"></a>LOCALE_koKR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44" name="a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44"></a>LOCALE_frFR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782" name="a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782"></a>LOCALE_deDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7" name="a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7"></a>LOCALE_zhCN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c" name="a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c"></a>LOCALE_zhTW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b" name="a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b"></a>LOCALE_esES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7" name="a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7"></a>LOCALE_esMX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9" name="a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9"></a>LOCALE_ruRU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8" name="a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"></a>TOTAL_LOCALES&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a> = 0,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef">LOCALE_koKR</a> = 1,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44">LOCALE_frFR</a> = 2,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782">LOCALE_deDE</a> = 3,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7">LOCALE_zhCN</a> = 4,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c">LOCALE_zhTW</a> = 5,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b">LOCALE_esES</a> = 6,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7">LOCALE_esMX</a> = 7,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9">LOCALE_ruRU</a> = 8,</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div>
+<div class="line"><span class="lineno">   77</span>};</div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7">LOCALE_zhCN</a></div><div class="ttdeci">@ LOCALE_zhCN</div><div class="ttdef"><b>Definition:</b> Common.h:70</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782">LOCALE_deDE</a></div><div class="ttdeci">@ LOCALE_deDE</div><div class="ttdef"><b>Definition:</b> Common.h:69</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c">LOCALE_zhTW</a></div><div class="ttdeci">@ LOCALE_zhTW</div><div class="ttdef"><b>Definition:</b> Common.h:71</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b">LOCALE_esES</a></div><div class="ttdeci">@ LOCALE_esES</div><div class="ttdef"><b>Definition:</b> Common.h:72</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9">LOCALE_ruRU</a></div><div class="ttdeci">@ LOCALE_ruRU</div><div class="ttdef"><b>Definition:</b> Common.h:74</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44">LOCALE_frFR</a></div><div class="ttdeci">@ LOCALE_frFR</div><div class="ttdef"><b>Definition:</b> Common.h:68</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef">LOCALE_koKR</a></div><div class="ttdeci">@ LOCALE_koKR</div><div class="ttdef"><b>Definition:</b> Common.h:67</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7">LOCALE_esMX</a></div><div class="ttdeci">@ LOCALE_esMX</div><div class="ttdef"><b>Definition:</b> Common.h:73</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3de291e93c6c35b96ebb4fe810183863" name="a3de291e93c6c35b96ebb4fe810183863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3de291e93c6c35b96ebb4fe810183863">&#9670;&#160;</a></span>CleanStringForMysqlQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void CleanStringForMysqlQuery </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    std::string::size_type n = 0;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\\&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;&quot;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\&#39;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00482">WorldSession::HandleMailTakeItem()</a>, <a class="el" href="../../#l00063">WorldSession::HandleSendMail()</a>, and <a class="el" href="../../#l03539">Map::LogEncounterFinished()</a>.</p>
+
+</div>
+</div>
+<a id="a81800cc16f876fcd41a0b7736b5a321d" name="a81800cc16f876fcd41a0b7736b5a321d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81800cc16f876fcd41a0b7736b5a321d">&#9670;&#160;</a></span>GetLocaleByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> GetLocaleByName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>; ++i)</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">if</span> (name == <a class="code hl_variable" href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a>[i])</div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <a class="code hl_enumeration" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>(i);</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>;                                     <span class="comment">// including enGB case</span></div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="aa00491_html_a32b3de4eb98b686cc6472385a449e4e9"><div class="ttname"><a href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a></div><div class="ttdeci">char const  * localeNames[TOTAL_LOCALES]</div><div class="ttdef"><b>Definition:</b> Common.cpp:20</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00020">localeNames</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>, <a class="el" href="../../#l09699">ObjectMgr::LoadBroadcastTextLocales()</a>, <a class="el" href="../../#l00393">ObjectMgr::LoadCreatureLocales()</a>, <a class="el" href="../../#l00168">CreatureTextMgr::LoadCreatureTextLocales()</a>, <a class="el" href="../../#l07075">ObjectMgr::LoadGameObjectLocales()</a>, <a class="el" href="../../#l00422">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l02632">ObjectMgr::LoadItemLocales()</a>, <a class="el" href="../../#l03276">ObjectMgr::LoadItemSetNameLocales()</a>, <a class="el" href="../../#l08644">ObjectMgr::LoadModuleStringsLocale()</a>, <a class="el" href="../../#l06054">ObjectMgr::LoadNpcTextLocales()</a>, <a class="el" href="../../#l05805">ObjectMgr::LoadPageTextLocales()</a>, <a class="el" href="../../#l00453">ObjectMgr::LoadPetNamesLocales()</a>, <a class="el" href="../../#l00493">ObjectMgr::LoadPointOfInterestLocales()</a>, <a class="el" href="../../#l06342">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l05176">ObjectMgr::LoadQuestLocales()</a>, <a class="el" href="../../#l06403">ObjectMgr::LoadQuestOfferRewardLocale()</a>, <a class="el" href="../../#l06432">ObjectMgr::LoadQuestRequestItemsLocale()</a>, <a class="el" href="../../#l03096">AchievementGlobalMgr::LoadRewardLocales()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a219e927a5d306db9cd363487d1f94366" name="a219e927a5d306db9cd363487d1f94366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219e927a5d306db9cd363487d1f94366">&#9670;&#160;</a></span>DAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto DAY = <a class="el" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a> * 24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00558">InstanceSaveMgr::_ResetOrWarnAll()</a>, <a class="el" href="../../#l00065">InstanceSaveMgr::AddInstanceSave()</a>, <a class="el" href="../../#l00140">Channel::CleanOldChannelsInDB()</a>, <a class="el" href="../../#l04325">Player::DeleteOldCharacters()</a>, <a class="el" href="../../#l04360">Player::DeleteOldRecoveryItems()</a>, <a class="el" href="../../#l00032">GetAge()</a>, <a class="el" href="../../#l00254">Acore::Time::GetLocalHourTimestamp()</a>, <a class="el" href="../../#l00302">Acore::Time::GetNextTimeWithDayAndHour()</a>, <a class="el" href="../../#l00629">WorldSession::HandleGetMailList()</a>, <a class="el" href="../../#l00485">npc_echo_of_medivh::HandlePieceJustDied()</a>, <a class="el" href="../../#l00824">WorldSession::HandleQueryNextMailTime()</a>, <a class="el" href="../../#l01203">Guild::HandleRoster()</a>, <a class="el" href="../../#l00183">Corpse::IsExpired()</a>, <a class="el" href="../../#l00126">boss_azuregos::boss_azuregosAI::JustDied()</a>, <a class="el" href="../../#l00164">npc_medivh_bm::JustDied()</a>, <a class="el" href="../../#l00535">npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI::JustDied()</a>, <a class="el" href="../../#l02106">ObjectMgr::LoadCreatures()</a>, <a class="el" href="../../#l00298">InstanceSaveMgr::LoadResetTimes()</a>, <a class="el" href="../../#l00222">npc_riggle_bassbait::npc_riggle_bassbaitAI::npc_riggle_bassbaitAI()</a>, <a class="el" href="../../#l00441">instance_ulduar::instance_ulduar_InstanceMapScript::OnGameObjectCreate()</a>, <a class="el" href="../../#l00699">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnGameObjectCreate()</a>, <a class="el" href="../../#l00245">go_strange_pool::OnGossipHello()</a>, <a class="el" href="../../#l01096">instance_ulduar::instance_ulduar_InstanceMapScript::OnUnitDeath()</a>, <a class="el" href="../../#l01197">npc_argent_captainAI::Reset()</a>, <a class="el" href="../../#l02033">Creature::Respawn()</a>, <a class="el" href="../../#l06089">ObjectMgr::ReturnOrDeleteOldMails()</a>, <a class="el" href="../../#l00073">secsToTimeString()</a>, <a class="el" href="../../#l00185">MailDraft::SendMailTo()</a>, <a class="el" href="../../#l00245">instance_molten_core::instance_molten_core_InstanceMapScript::SetBossState()</a>, <a class="el" href="../../#l01088">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::SetBossState()</a>, <a class="el" href="../../#l00451">instance_blackrock_depths::instance_blackrock_depths_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00207">instance_karazhan::instance_karazhan_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00130">instance_oculus::instance_oculus_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l01379">npc_crate_helper::npc_crate_helperAI::SpellHit()</a>, <a class="el" href="../../#l00163">TimeStringToSecs()</a>, <a class="el" href="../../#l00098">BattlegroundMgr::Update()</a>, <a class="el" href="../../#l00447">GameObject::Update()</a>, and <a class="el" href="../../#l01138">Player::UpdateHonorFields()</a>.</p>
+
+</div>
+</div>
+<a id="ac78ba8a81d12635c129fe2f92ca46c6f" name="ac78ba8a81d12635c129fe2f92ca46c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78ba8a81d12635c129fe2f92ca46c6f">&#9670;&#160;</a></span>HOUR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto HOUR = <a class="el" href="../../d4/d51/a00017.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * 60</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l05966">Player::_LoadItem()</a>, <a class="el" href="../../#l00558">InstanceSaveMgr::_ResetOrWarnAll()</a>, <a class="el" href="../../#l02433">Player::AddInstanceEnterTime()</a>, <a class="el" href="../../#l01277">Item::CheckSoulboundTradeExpire()</a>, <a class="el" href="../../#l00254">Acore::Time::GetLocalHourTimestamp()</a>, <a class="el" href="../../#l00218">go_brazier_of_madness::GossipHello()</a>, <a class="el" href="../../#l00052">WorldSession::HandleCalendarGetCalendar()</a>, <a class="el" href="../../#l00641">spell_summon_ragnaros::HandleHit()</a>, <a class="el" href="../../#l00028">ArenaSpectator::HandleSpectatorSpectateCommand()</a>, <a class="el" href="../../#l01253">Item::IsRefundExpired()</a>, <a class="el" href="../../#l00415">World::LoadConfigSettings()</a>, <a class="el" href="../../#l00298">InstanceSaveMgr::LoadResetTimes()</a>, <a class="el" href="../../#l00091">npc_brewfest_keg_reciver::MoveInLineOfSight()</a>, <a class="el" href="../../#l01627">npc_sayge::OnGossipSelect()</a>, <a class="el" href="../../#l00290">npc_pet_gen_argent_pony_bridle::OnGossipSelect()</a>, <a class="el" href="../../#l00708">npc_grandmother::OnGossipSelect()</a>, <a class="el" href="../../#l00247">npc_barnes::npc_barnesAI::PrepareEncounter()</a>, <a class="el" href="../../#l00073">secsToTimeString()</a>, <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>, <a class="el" href="../../#l00120">npc_brewfest_keg_reciver::sGossipSelect()</a>, <a class="el" href="../../#l02741">World::ShutdownMsg()</a>, <a class="el" href="../../#l01020">boss_julianne::SpellHit()</a>, <a class="el" href="../../#l00105">SummonCroneIfReady()</a>, <a class="el" href="../../#l00163">TimeStringToSecs()</a>, <a class="el" href="../../#l01218">Item::UpdatePlayedTime()</a>, and <a class="el" href="../../#l00469">lfg::LFGQueue::UpdateQueueTimers()</a>.</p>
+
+</div>
+</div>
+<a id="a84190f79c8167211609f67284e066c58" name="a84190f79c8167211609f67284e066c58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84190f79c8167211609f67284e066c58">&#9670;&#160;</a></span>IN_MILLISECONDS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto IN_MILLISECONDS = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l11073">Player::_AddSpellCooldown()</a>, <a class="el" href="../../#l01613">Pet::_LoadAuras()</a>, <a class="el" href="../../#l05699">Player::_LoadAuras()</a>, <a class="el" href="../../#l06227">Player::_LoadQuestStatus()</a>, <a class="el" href="../../#l01473">Pet::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l03575">Player::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l00460">Battleground::_ProcessJoin()</a>, <a class="el" href="../../#l00418">Battleground::_ProcessProgress()</a>, <a class="el" href="../../#l01693">Pet::_SaveAuras()</a>, <a class="el" href="../../#l07182">Player::_SaveAuras()</a>, <a class="el" href="../../#l07453">Player::_SaveQuestStatus()</a>, <a class="el" href="../../#l01517">Pet::_SaveSpellCooldowns()</a>, <a class="el" href="../../#l03611">Player::_SaveSpellCooldowns()</a>, <a class="el" href="../../#l00168">spell_rog_cheat_death::Absorb()</a>, <a class="el" href="../../#l00506">Player::AddQuest()</a>, <a class="el" href="../../#l10917">Player::AddSpellAndCategoryCooldowns()</a>, <a class="el" href="../../#l03068">GameObject::AddToSkillupList()</a>, <a class="el" href="../../#l11778">Player::ApplyEquipCooldown()</a>, <a class="el" href="../../#l00266">npc_mograine::npc_mograineAI::AshbringerEvent()</a>, <a class="el" href="../../#l00409">Aura::Aura()</a>, <a class="el" href="../../#l00938">AuctionEntry::BuildAuctionInfo()</a>, <a class="el" href="../../#l00144">spell_shadowfang_keep_haunting_spirits_aura::CalcPeriodic()</a>, <a class="el" href="../../#l00288">spell_serpentshrine_cavern_coilfang_water::CalcPeriodic()</a>, <a class="el" href="../../#l00099">spell_allergies::CalcPeriodic()</a>, <a class="el" href="../../#l00814">spell_dk_pet_scaling::CalcPeriodic()</a>, <a class="el" href="../../#l00486">spell_pet_hit_expertise_scalling::CalcPeriodic()</a>, <a class="el" href="../../#l00239">spell_hun_generic_scaling::CalcPeriodic()</a>, <a class="el" href="../../#l00205">spell_item_goblin_gumbo_kettle::CalcPeriodic()</a>, <a class="el" href="../../#l00287">spell_mage_pet_scaling::CalcPeriodic()</a>, <a class="el" href="../../#l00232">spell_sha_feral_spirit_scaling::CalcPeriodic()</a>, <a class="el" href="../../#l00177">spell_warl_improved_demonic_tactics::CalcPeriodic()</a>, <a class="el" href="../../#l00268">spell_warl_demonic_knowledge::CalcPeriodic()</a>, <a class="el" href="../../#l00347">spell_warl_generic_scaling::CalcPeriodic()</a>, <a class="el" href="../../#l12946">Player::CalculateCorpseReclaimDelay()</a>, <a class="el" href="../../#l00593">AuraEffect::CalculatePeriodic()</a>, <a class="el" href="../../#l00475">MotionTransport::CalculateSegmentPos()</a>, <a class="el" href="../../#l00535">instance_naxxramas::instance_naxxramas_InstanceMapScript::CheckAchievementCriteriaMeet()</a>, <a class="el" href="../../#l05654">Spell::CheckCast()</a>, <a class="el" href="../../#l00117">boss_lord_valthalak::boss_lord_valthalakAI::DamageTaken()</a>, <a class="el" href="../../#l00244">npc_thrall_warchief::npc_thrall_warchiefAI::DoAction()</a>, <a class="el" href="../../#l00822">npc_high_overlord_saurfang_igb::npc_high_overlord_saurfang_igbAI::DoAction()</a>, <a class="el" href="../../#l01158">npc_muradin_bronzebeard_igb::npc_muradin_bronzebeard_igbAI::DoAction()</a>, <a class="el" href="../../#l01622">npc_chesspiece::DoAction()</a>, <a class="el" href="../../#l01394">boss_yoggsaron_brain::boss_yoggsaron_brainAI::DoAction()</a>, <a class="el" href="../../#l00212">WaypointMovementGenerator&lt; Creature &gt;::DoUpdate()</a>, <a class="el" href="../../#l02685">Spell::EffectDistract()</a>, <a class="el" href="../../#l04107">Spell::EffectDuel()</a>, <a class="el" href="../../#l04417">Spell::EffectEnchantHeldItem()</a>, <a class="el" href="../../#l02081">Spell::EffectOpenLock()</a>, <a class="el" href="../../#l00323">Spell::EffectSchoolDMG()</a>, <a class="el" href="../../#l04570">Spell::EffectSummonObject()</a>, <a class="el" href="../../#l03740">Spell::EffectSummonObjectWild()</a>, <a class="el" href="../../#l04223">Spell::EffectSummonPlayer()</a>, <a class="el" href="../../#l06324">Spell::EffectSummonRaFFriend()</a>, <a class="el" href="../../#l05363">Spell::EffectTransmitted()</a>, <a class="el" href="../../#l00538">boss_kiljaeden::EmpowerOrb()</a>, <a class="el" href="../../#l00095">boss_warmaster_voone::boss_warmastervooneAI::ExecuteEvent()</a>, <a class="el" href="../../#l00752">npc_xt002_boombot::npc_xt002_boombotAI::Explode()</a>, <a class="el" href="../../#l00115">TransportMgr::GeneratePath()</a>, <a class="el" href="../../#l00275">GetDiminishingReturnsLimitDuration()</a>, <a class="el" href="../../#l00261">BattlegroundWS::GetMatchTime()</a>, <a class="el" href="../../#l00808">Player::getMaxTimer()</a>, <a class="el" href="../../#l00218">go_brazier_of_madness::GossipHello()</a>, <a class="el" href="../../#l01265">Aura::HandleAuraSpecificMods()</a>, <a class="el" href="../../#l02161">AuraEffect::HandleAuraTransform()</a>, <a class="el" href="../../#l00120">bf_commandscript::HandleBattlefieldTimer()</a>, <a class="el" href="../../#l00562">WardenWin::HandleData()</a>, <a class="el" href="../../#l00098">deserter_commandscript::HandleDeserterAdd()</a>, <a class="el" href="../../#l00240">deserter_commandscript::HandleDeserterRemove()</a>, <a class="el" href="../../#l00315">deserter_commandscript::HandleDeserterRemoveAll()</a>, <a class="el" href="../../#l00835">Player::HandleDrowning()</a>, <a class="el" href="../../#l01249">spell_midsummer_summon_ahune_lieutenant::HandleDummy()</a>, <a class="el" href="../../#l06589">Unit::HandleDummyAuraProc()</a>, <a class="el" href="../../#l02642">spell_yogg_saron_sanity_well_aura::HandleEffectCalcPeriodic()</a>, <a class="el" href="../../#l01131">spell_gen_haunted_aura::HandleEffectCalcPeriodic()</a>, <a class="el" href="../../#l00887">spell_midsummer_ribbon_pole::HandleEffectPeriodic()</a>, <a class="el" href="../../#l01137">spell_gen_haunted_aura::HandleEffectPeriodic()</a>, <a class="el" href="../../#l00051">spell_q11919_q11940_drake_hunt_aura::HandleEffectRemove()</a>, <a class="el" href="../../#l01936">spell_icc_sprit_alarm::HandleEvent()</a>, <a class="el" href="../../#l01988">spell_icc_geist_alarm::HandleEvent()</a>, <a class="el" href="../../#l00063">WorldState::HandleExternalEvent()</a>, <a class="el" href="../../#l02349">spell_q5056_summon_shy_rotam::HandleFinish()</a>, <a class="el" href="../../#l00641">spell_summon_ragnaros::HandleHit()</a>, <a class="el" href="../../#l00266">WorldSession::HandleMoveTeleportAck()</a>, <a class="el" href="../../#l01106">spell_gen_haunted::HandleOnEffectHit()</a>, <a class="el" href="../../#l00242">spell_pal_sacred_shield_base::HandleProc()</a>, <a class="el" href="../../#l00226">ArenaSpectator::HandleResetCommand()</a>, <a class="el" href="../../#l01328">misc_commandscript::HandleSaveCommand()</a>, <a class="el" href="../../#l02111">spell_q12690_burst_at_the_seams::HandleScript()</a>, <a class="el" href="../../#l01441">spell_deliver_gryphon::HandleScriptEffect()</a>, <a class="el" href="../../#l02439">spell_q9847_a_spirit_ally::HandleSendEvent()</a>, <a class="el" href="../../#l00028">ArenaSpectator::HandleSpectatorSpectateCommand()</a>, <a class="el" href="../../#l00056">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Initialize()</a>, <a class="el" href="../../#l00192">npc_general_andorov::InitializeAI()</a>, <a class="el" href="../../#l01846">npc_chesspiece::InitializeCombatSpellsByEntry()</a>, <a class="el" href="../../#l00205">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::instance_icecrown_citadel_InstanceMapScript()</a>, <a class="el" href="../../#l00084">instance_naxxramas::instance_naxxramas_InstanceMapScript::instance_naxxramas_InstanceMapScript()</a>, <a class="el" href="../../#l00130">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::IsEncounterInProgress()</a>, <a class="el" href="../../#l03679">Creature::IsNotReachableAndNeedRegen()</a>, <a class="el" href="../../#l00072">boss_lord_valthalak::boss_lord_valthalakAI::IsSummonedBy()</a>, <a class="el" href="../../#l01649">npc_spiritual_insight::npc_spiritual_insightAI::IsSummonedBy()</a>, <a class="el" href="../../#l00473">npc_ahnqiraji_critter::JustDied()</a>, <a class="el" href="../../#l00775">npc_xt002_boombot::npc_xt002_boombotAI::JustDied()</a>, <a class="el" href="../../#l00339">boss_mimiron::boss_mimironAI::JustEngagedWith()</a>, <a class="el" href="../../#l00078">boss_blackheart_the_inciter::JustEngagedWith()</a>, <a class="el" href="../../#l00392">boss_high_nethermancer_zerevor::JustEngagedWith()</a>, <a class="el" href="../../#l04544">Player::KillPlayer()</a>, <a class="el" href="../../#l00415">World::LoadConfigSettings()</a>, <a class="el" href="../../#l00617">AchievementMgr::LoadFromDB()</a>, <a class="el" href="../../#l00039">SpellMgr::LoadSpellInfoCorrections()</a>, <a class="el" href="../../#l14868">Unit::ModSpellDuration()</a>, <a class="el" href="../../#l00091">npc_brewfest_keg_reciver::MoveInLineOfSight()</a>, <a class="el" href="../../#l01466">npc_chesspiece::MovementInform()</a>, <a class="el" href="../../#l00320">npc_archmage_landalock::npc_archmage_landalockAI::npc_archmage_landalockAI()</a>, <a class="el" href="../../#l01422">npc_chesspiece::npc_chesspiece()</a>, <a class="el" href="../../#l01156">achievement_wg_within_our_grasp::OnCheck()</a>, <a class="el" href="../../#l00072">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00863">spell_blackrock_spire_call_of_vaelastrasz::OnEffect()</a>, <a class="el" href="../../#l00101">spell_pagles_point_cast::OnEffect()</a>, <a class="el" href="../../#l00141">instance_molten_core::instance_molten_core_InstanceMapScript::OnGameObjectCreate()</a>, <a class="el" href="../../#l01627">npc_sayge::OnGossipSelect()</a>, <a class="el" href="../../#l00290">npc_pet_gen_argent_pony_bridle::OnGossipSelect()</a>, <a class="el" href="../../#l00708">npc_grandmother::OnGossipSelect()</a>, <a class="el" href="../../#l00087">instance_stratholme::instance_stratholme_InstanceMapScript::OnPlayerEnter()</a>, <a class="el" href="../../#l04537">spell_silithyst::OnRemove()</a>, <a class="el" href="../../#l00954">npc_hyldsmeet_protodrake::npc_hyldsmeet_protodrakeAI::PassengerBoarded()</a>, <a class="el" href="../../#l00056">BattlegroundWS::PostUpdateImpl()</a>, <a class="el" href="../../#l00247">npc_barnes::npc_barnesAI::PrepareEncounter()</a>, <a class="el" href="../../#l00880">Aura::RefreshDuration()</a>, <a class="el" href="../../#l00949">Creature::Regenerate()</a>, <a class="el" href="../../#l01837">Player::Regenerate()</a>, <a class="el" href="../../#l01018">Creature::RegenerateHealth()</a>, <a class="el" href="../../#l01984">Player::RegenerateHealth()</a>, <a class="el" href="../../#l03527">Player::RemoveArenaSpellCooldowns()</a>, <a class="el" href="../../#l05006">Unit::RemoveAurasDueToSpellBySteal()</a>, <a class="el" href="../../#l01909">lfg::LFGMgr::RemoveProposal()</a>, <a class="el" href="../../#l11385">Player::ReportedAfkBy()</a>, <a class="el" href="../../#l00059">boss_drekthar::boss_drektharAI::Reset()</a>, <a class="el" href="../../#l00052">boss_galvangar::boss_galvangarAI::Reset()</a>, <a class="el" href="../../#l00055">boss_vanndar::boss_vanndarAI::Reset()</a>, <a class="el" href="../../#l00198">npc_echo_of_medivh::Reset()</a>, <a class="el" href="../../#l00614">npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI::Reset()</a>, <a class="el" href="../../#l00072">boss_archavon::boss_archavonAI::Reset()</a>, <a class="el" href="../../#l00091">boss_emalon::boss_emalonAI::Reset()</a>, <a class="el" href="../../#l00063">boss_koralon::boss_koralonAI::Reset()</a>, <a class="el" href="../../#l00070">boss_toravon::boss_toravonAI::Reset()</a>, <a class="el" href="../../#l00167">npc_pet_gen_argent_pony_bridle::Reset()</a>, <a class="el" href="../../#l04467">Player::ResurrectPlayer()</a>, <a class="el" href="../../#l00110">OutdoorPvPTF::SaveRequiredWorldStates()</a>, <a class="el" href="../../#l00242">boss_alar::ScheduleAbilities()</a>, <a class="el" href="../../#l00245">instance_molten_core::instance_molten_core_InstanceMapScript::SetBossState()</a>, <a class="el" href="../../#l02099">AchievementMgr::SetCriteriaProgress()</a>, <a class="el" href="../../#l00110">instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00108">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00128">boss_the_beast::boss_thebeastAI::SetData()</a>, <a class="el" href="../../#l01495">World::SetInitialWorldSettings()</a>, <a class="el" href="../../#l00042">BattlefieldWG::SetupBattlefield()</a>, <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00120">npc_brewfest_keg_reciver::sGossipSelect()</a>, <a class="el" href="../../#l02565">npc_thrall_bfu::npc_thrall_bfuAI::SpawnWave()</a>, <a class="el" href="../../#l01020">boss_julianne::SpellHit()</a>, <a class="el" href="../../#l00718">npc_gothik_trigger::npc_gothik_triggerAI::SpellHit()</a>, <a class="el" href="../../#l01883">npc_chesspiece::SpellHitTarget()</a>, <a class="el" href="../../#l00122">BattlegroundWS::StartingEventOpenDoors()</a>, <a class="el" href="../../#l00089">go_firework_show::StartShow()</a>, <a class="el" href="../../#l02226">AchievementMgr::StartTimedAchievement()</a>, <a class="el" href="../../#l00105">SummonCroneIfReady()</a>, <a class="el" href="../../#l00145">npc_eris_hevenfire::npc_eris_hevenfireAI::SummonPeasants()</a>, <a class="el" href="../../#l00182">boss_ambassador_flamelash::boss_ambassador_flamelashAI::SummonSpirits()</a>, <a class="el" href="../../#l00175">CreatureAI::TriggerAlert()</a>, <a class="el" href="../../#l01127">GameEventMgr::Update()</a>, <a class="el" href="../../#l00211">spell_item_goblin_gumbo_kettle::Update()</a>, <a class="el" href="../../#l00095">Warden::Update()</a>, <a class="el" href="../../#l00243">Battleground::Update()</a>, <a class="el" href="../../#l00098">BattlegroundMgr::Update()</a>, <a class="el" href="../../#l00190">BattlefieldWG::Update()</a>, <a class="el" href="../../#l00425">instance_stratholme::instance_stratholme_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00209">instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00260">instance_zulfarrak::instance_zulfarrak_InstanceMapScript::Update()</a>, <a class="el" href="../../#l01696">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00973">instance_naxxramas::instance_naxxramas_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00070">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00137">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00447">GameObject::Update()</a>, <a class="el" href="../../#l00659">Creature::Update()</a>, <a class="el" href="../../#l00053">Player::Update()</a>, <a class="el" href="../../#l00137">boss_drekthar::boss_drektharAI::UpdateAI()</a>, <a class="el" href="../../#l00072">boss_galvangar::boss_galvangarAI::UpdateAI()</a>, <a class="el" href="../../#l00126">boss_vanndar::boss_vanndarAI::UpdateAI()</a>, <a class="el" href="../../#l00085">boss_overlord_wyrmthalak::boss_overlordwyrmthalakAI::UpdateAI()</a>, <a class="el" href="../../#l00184">boss_the_beast::boss_thebeastAI::UpdateAI()</a>, <a class="el" href="../../#l01665">npc_chesspiece::UpdateAI()</a>, <a class="el" href="../../#l00213">npc_eris_hevenfire::npc_eris_hevenfireAI::UpdateAI()</a>, <a class="el" href="../../#l01526">npc_varian_wrynn::npc_varian_wrynnAI::UpdateAI()</a>, <a class="el" href="../../#l02938">npc_thrall_bfu::npc_thrall_bfuAI::UpdateAI()</a>, <a class="el" href="../../#l00081">npc_forest_frog::UpdateAI()</a>, <a class="el" href="../../#l01671">npc_coren_direbrew::UpdateAI()</a>, <a class="el" href="../../#l00437">npc_costumed_orphan_matron::UpdateAI()</a>, <a class="el" href="../../#l01163">boss_headless_horseman::UpdateAI()</a>, <a class="el" href="../../#l00550">npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI::UpdateAI()</a>, <a class="el" href="../../#l00362">npc_time_rift::UpdateAI()</a>, <a class="el" href="../../#l00629">npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI::UpdateAI()</a>, <a class="el" href="../../#l00142">boss_slad_ran::boss_slad_ranAI::UpdateAI()</a>, <a class="el" href="../../#l00230">boss_sapphiron::boss_sapphironAI::UpdateAI()</a>, <a class="el" href="../../#l00233">npc_crystalline_frayer::npc_crystalline_frayerAI::UpdateAI()</a>, <a class="el" href="../../#l00939">npc_freya_ward::npc_freya_wardAI::UpdateAI()</a>, <a class="el" href="../../#l01147">npc_thorims_hammer::npc_thorims_hammerAI::UpdateAI()</a>, <a class="el" href="../../#l00365">npc_archmage_landalock::npc_archmage_landalockAI::UpdateAI()</a>, <a class="el" href="../../#l00353">PetAI::UpdateAllies()</a>, <a class="el" href="../../#l00092">CinematicMgr::UpdateCinematicLocation()</a>, <a class="el" href="../../#l00814">npc_tirions_gambit_tirion::npc_tirions_gambit_tirionAI::UpdateEscortAI()</a>, <a class="el" href="../../#l01806">lfg::LFGMgr::UpdateProposal()</a>, <a class="el" href="../../#l00958">Player::UpdateRuneRegen()</a>, <a class="el" href="../../#l01479">GameObject::Use()</a>, <a class="el" href="../../#l00753">npc_tirions_gambit_tirion::npc_tirions_gambit_tirionAI::WaypointReached()</a>, <a class="el" href="../../#l00306">npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI::WaypointReached()</a>, <a class="el" href="../../#l00272">npc_cork_gizelton::npc_cork_gizeltonAI::WaypointReached()</a>, and <a class="el" href="../../#l00030">Weather::Weather()</a>.</p>
+
+</div>
+</div>
+<a id="ada00613111bb83c03f962083970ca2a0" name="ada00613111bb83c03f962083970ca2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada00613111bb83c03f962083970ca2a0">&#9670;&#160;</a></span>localeNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> char const* localeNames[<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02213">World::DetectDBCLang()</a>, <a class="el" href="../../#l00033">GetLocaleByName()</a>, <a class="el" href="../../#l00533">character_commandscript::HandleCharacterReputationCommand()</a>, <a class="el" href="../../#l00281">character_commandscript::HandleCharacterTitlesCommand()</a>, <a class="el" href="../../#l00082">lookup_commandscript::HandleLookupAreaCommand()</a>, <a class="el" href="../../#l00337">lookup_commandscript::HandleLookupFactionCommand()</a>, <a class="el" href="../../#l00579">lookup_commandscript::HandleLookupItemSetCommand()</a>, <a class="el" href="../../#l00911">lookup_commandscript::HandleLookupSkillCommand()</a>, <a class="el" href="../../#l01016">lookup_commandscript::HandleLookupSpellCommand()</a>, <a class="el" href="../../#l01168">lookup_commandscript::HandleLookupSpellIdCommand()</a>, <a class="el" href="../../#l01281">lookup_commandscript::HandleLookupTaxiNodeCommand()</a>, <a class="el" href="../../#l01434">lookup_commandscript::HandleLookupTitleCommand()</a>, <a class="el" href="../../#l00113">server_commandscript::HandleServerDebugCommand()</a>, and <a class="el" href="../../#l00213">LoadDBC()</a>.</p>
+
+</div>
+</div>
+<a id="afacf27522adfacf698390ddafc53fa30" name="afacf27522adfacf698390ddafc53fa30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacf27522adfacf698390ddafc53fa30">&#9670;&#160;</a></span>MINUTE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto MINUTE = <a class="el" href="../../d4/d51/a00017.html#a3efd60ac9eda5a15658a415b17773a59">SECOND</a> * 60</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l05966">Player::_LoadItem()</a>, <a class="el" href="../../#l00418">Battleground::_ProcessProgress()</a>, <a class="el" href="../../#l00558">InstanceSaveMgr::_ResetOrWarnAll()</a>, <a class="el" href="../../#l03611">Player::_SaveSpellCooldowns()</a>, <a class="el" href="../../#l00168">spell_rog_cheat_death::Absorb()</a>, <a class="el" href="../../#l03068">GameObject::AddToSkillupList()</a>, <a class="el" href="../../#l00212">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::CheckAchievementCriteriaMeet()</a>, <a class="el" href="../../#l05654">Spell::CheckCast()</a>, <a class="el" href="../../#l00043">GameEventMgr::CheckOneGameEvent()</a>, <a class="el" href="../../#l01394">boss_yoggsaron_brain::boss_yoggsaron_brainAI::DoAction()</a>, <a class="el" href="../../#l04417">Spell::EffectEnchantHeldItem()</a>, <a class="el" href="../../#l00538">boss_kiljaeden::EmpowerOrb()</a>, <a class="el" href="../../#l00261">BattlegroundWS::GetMatchTime()</a>, <a class="el" href="../../#l00808">Player::getMaxTimer()</a>, <a class="el" href="../../#l01640">spell_q9452_cast_net::HandleActiveObject()</a>, <a class="el" href="../../#l00116">WorldSession::HandleAuctionSellItem()</a>, <a class="el" href="../../#l00751">BattlegroundIC::HandleCapturedNodes()</a>, <a class="el" href="../../#l01249">spell_midsummer_summon_ahune_lieutenant::HandleDummy()</a>, <a class="el" href="../../#l00887">spell_midsummer_ribbon_pole::HandleEffectPeriodic()</a>, <a class="el" href="../../#l00051">spell_q11919_q11940_drake_hunt_aura::HandleEffectRemove()</a>, <a class="el" href="../../#l01988">spell_icc_geist_alarm::HandleEvent()</a>, <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00063">WorldState::HandleExternalEvent()</a>, <a class="el" href="../../#l02349">spell_q5056_summon_shy_rotam::HandleFinish()</a>, <a class="el" href="../../#l00059">WorldSession::HandleMessagechatOpcode()</a>, <a class="el" href="../../#l02423">misc_commandscript::HandleMuteCommand()</a>, <a class="el" href="../../#l00081">Battlefield::HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00226">ArenaSpectator::HandleResetCommand()</a>, <a class="el" href="../../#l01441">spell_deliver_gryphon::HandleScriptEffect()</a>, <a class="el" href="../../#l02439">spell_q9847_a_spirit_ally::HandleSendEvent()</a>, <a class="el" href="../../#l00056">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Initialize()</a>, <a class="el" href="../../#l00084">instance_naxxramas::instance_naxxramas_InstanceMapScript::instance_naxxramas_InstanceMapScript()</a>, <a class="el" href="../../#l00130">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::IsEncounterInProgress()</a>, <a class="el" href="../../#l00183">Corpse::IsExpired()</a>, <a class="el" href="../../#l01649">npc_spiritual_insight::npc_spiritual_insightAI::IsSummonedBy()</a>, <a class="el" href="../../#l00339">boss_mimiron::boss_mimironAI::JustEngagedWith()</a>, <a class="el" href="../../#l00392">boss_high_nethermancer_zerevor::JustEngagedWith()</a>, <a class="el" href="../../#l04544">Player::KillPlayer()</a>, <a class="el" href="../../#l00415">World::LoadConfigSettings()</a>, <a class="el" href="../../#l14868">Unit::ModSpellDuration()</a>, <a class="el" href="../../#l00081">GameEventMgr::NextCheck()</a>, <a class="el" href="../../#l00320">npc_archmage_landalock::npc_archmage_landalockAI::npc_archmage_landalockAI()</a>, <a class="el" href="../../#l01156">achievement_wg_within_our_grasp::OnCheck()</a>, <a class="el" href="../../#l00072">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00290">npc_wg_queue::OnGossipHello()</a>, <a class="el" href="../../#l00322">npc_wg_queue::OnGossipSelect()</a>, <a class="el" href="../../#l00290">npc_pet_gen_argent_pony_bridle::OnGossipSelect()</a>, <a class="el" href="../../#l00061">boss_gloomrel::OnGossipSelect()</a>, <a class="el" href="../../#l00087">instance_stratholme::instance_stratholme_InstanceMapScript::OnPlayerEnter()</a>, <a class="el" href="../../#l04537">spell_silithyst::OnRemove()</a>, <a class="el" href="../../#l00954">npc_hyldsmeet_protodrake::npc_hyldsmeet_protodrakeAI::PassengerBoarded()</a>, <a class="el" href="../../#l00056">BattlegroundWS::PostUpdateImpl()</a>, <a class="el" href="../../#l03527">Player::RemoveArenaSpellCooldowns()</a>, <a class="el" href="../../#l05006">Unit::RemoveAurasDueToSpellBySteal()</a>, <a class="el" href="../../#l11385">Player::ReportedAfkBy()</a>, <a class="el" href="../../#l00311">npc_dark_iron_attack_generator::Reset()</a>, <a class="el" href="../../#l00072">boss_archavon::boss_archavonAI::Reset()</a>, <a class="el" href="../../#l00091">boss_emalon::boss_emalonAI::Reset()</a>, <a class="el" href="../../#l00063">boss_koralon::boss_koralonAI::Reset()</a>, <a class="el" href="../../#l00070">boss_toravon::boss_toravonAI::Reset()</a>, <a class="el" href="../../#l02033">Creature::Respawn()</a>, <a class="el" href="../../#l04467">Player::ResurrectPlayer()</a>, <a class="el" href="../../#l00242">boss_alar::ScheduleAbilities()</a>, <a class="el" href="../../#l00073">secsToTimeString()</a>, <a class="el" href="../../#l00110">instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00108">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l02533">Group::SetDifficultyChangePrevention()</a>, <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>, <a class="el" href="../../#l01495">World::SetInitialWorldSettings()</a>, <a class="el" href="../../#l03763">Creature::SetPickPocketLootTime()</a>, <a class="el" href="../../#l00042">BattlefieldWG::SetupBattlefield()</a>, <a class="el" href="../../#l02741">World::ShutdownMsg()</a>, <a class="el" href="../../#l00467">BattlegroundAV::StartingEventOpenDoors()</a>, <a class="el" href="../../#l00122">BattlegroundWS::StartingEventOpenDoors()</a>, <a class="el" href="../../#l00089">go_firework_show::StartShow()</a>, <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>, <a class="el" href="../../#l01176">go_wind_stone::go_wind_stoneAI::SummonNPC()</a>, <a class="el" href="../../#l00145">npc_eris_hevenfire::npc_eris_hevenfireAI::SummonPeasants()</a>, <a class="el" href="../../#l00163">TimeStringToSecs()</a>, <a class="el" href="../../#l00243">Battleground::Update()</a>, <a class="el" href="../../#l00425">instance_stratholme::instance_stratholme_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00209">instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00260">instance_zulfarrak::instance_zulfarrak_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00973">instance_naxxramas::instance_naxxramas_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00070">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00137">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00447">GameObject::Update()</a>, <a class="el" href="../../#l00351">Player::UpdateAfkReport()</a>, <a class="el" href="../../#l00081">npc_forest_frog::UpdateAI()</a>, <a class="el" href="../../#l00362">npc_time_rift::UpdateAI()</a>, <a class="el" href="../../#l00365">npc_archmage_landalock::npc_archmage_landalockAI::UpdateAI()</a>, <a class="el" href="../../#l00355">npc_wg_queue::npc_wg_queueAI::UpdateAI()</a>, <a class="el" href="../../#l00814">npc_tirions_gambit_tirion::npc_tirions_gambit_tirionAI::UpdateEscortAI()</a>, <a class="el" href="../../#l00753">npc_tirions_gambit_tirion::npc_tirions_gambit_tirionAI::WaypointReached()</a>, <a class="el" href="../../#l00306">npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI::WaypointReached()</a>, and <a class="el" href="../../#l00030">Weather::Weather()</a>.</p>
+
+</div>
+</div>
+<a id="add49e81cdd2c0bb5eb745bed627d5022" name="add49e81cdd2c0bb5eb745bed627d5022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add49e81cdd2c0bb5eb745bed627d5022">&#9670;&#160;</a></span>MONTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto MONTH = <a class="el" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a> * 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00052">boss_urok_doomhowl::boss_urok_doomhowlAI::InitializeAI()</a>, <a class="el" href="../../#l00464">npc_dark_iron_attack_generator::PrepareEvent()</a>, and <a class="el" href="../../#l03659">Player::resetTalentsCost()</a>.</p>
+
+</div>
+</div>
+<a id="a3efd60ac9eda5a15658a415b17773a59" name="a3efd60ac9eda5a15658a415b17773a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3efd60ac9eda5a15658a415b17773a59">&#9670;&#160;</a></span>SECOND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto SECOND = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00617">AchievementMgr::LoadFromDB()</a>.</p>
+
+</div>
+</div>
+<a id="a688431b3f57feed4c5408d11114cdf1a" name="a688431b3f57feed4c5408d11114cdf1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688431b3f57feed4c5408d11114cdf1a">&#9670;&#160;</a></span>WEEK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto WEEK = <a class="el" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a> * 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00806">npc_akama_illidan::DoAction()</a>, <a class="el" href="../../#l00310">spell_egg_event::HandleOnHit()</a>, <a class="el" href="../../#l00141">instance_molten_core::instance_molten_core_InstanceMapScript::OnGameObjectCreate()</a>, <a class="el" href="../../#l00245">instance_molten_core::instance_molten_core_InstanceMapScript::SetBossState()</a>, and <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>.</p>
+
+</div>
+</div>
+<a id="a0552dd357fedab8892f8550548357a55" name="a0552dd357fedab8892f8550548357a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0552dd357fedab8892f8550548357a55">&#9670;&#160;</a></span>YEAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto YEAR = <a class="el" href="../../d4/d51/a00017.html#add49e81cdd2c0bb5eb745bed627d5022">MONTH</a> * 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l03352">Map::SaveCreatureRespawnTime()</a>, <a class="el" href="../../#l03386">Map::SaveGORespawnTime()</a>, and <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d4/d51/a00017.html">modelheaders.h</a></li>
-    <li class="footer">Generated on Mon Oct 14 2024 20:41:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../d4/d51/a00017.html">Common.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

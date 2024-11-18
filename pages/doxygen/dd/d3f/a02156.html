@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPHP.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/zone_the_scarlet_enclave.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,380 +106,103 @@ $(document).ready(function(){initNavTree('dd/d3f/a02156.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPHP.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">zone_the_scarlet_enclave.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dde/a22166.html">OPvPCapturePointHP</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4a/a12702.html">npc_valkyr_battle_maiden</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d99/a22170.html">OutdoorPvPHP</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d92/a12706.html">npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a01aada98c8079ea71a361cba06e10640"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a01aada98c8079ea71a361cba06e10640">OutdoorPvPHPBuffZonesNum</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:a01aada98c8079ea71a361cba06e10640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a09664100577cc20866b21589f3c1eb4a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4a">OutdoorPvPHPSpells</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc">AlliancePlayerKillReward</a> = 32155
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45">HordePlayerKillReward</a> = 32158
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a">AllianceBuff</a> = 32071
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2">HordeBuff</a> = 32049
-<br />
+<tr class="memitem:a97df4b07a8686c29a9700c8d11af35e3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a97df4b07a8686c29a9700c8d11af35e3">Spells_VBM</a> { <a class="el" href="../../dd/d3f/a02156.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38">SPELL_REVIVE</a> = 51918
  }</td></tr>
-<tr class="separator:a09664100577cc20866b21589f3c1eb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad618152baad1f5a1d7f70f40941e8f33"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33">OutdoorPvPHPTowerType</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9">HP_TOWER_BROKEN_HILL</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447">HP_TOWER_OVERLOOK</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84">HP_TOWER_STADIUM</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a> = 3
-<br />
+<tr class="separator:a97df4b07a8686c29a9700c8d11af35e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8eb132ddeee98b584395e0a134c9e4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4">Says_VBM</a> { <a class="el" href="../../dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833">WHISPER_REVIVE</a> = 0
  }</td></tr>
-<tr class="separator:ad618152baad1f5a1d7f70f40941e8f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b09ba25777a9f24adfea3db52e9e95"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95">OutdoorPvPHPWorldStates</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5">HP_UI_TOWER_DISPLAY_A</a> = 0x9ba
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224">HP_UI_TOWER_DISPLAY_H</a> = 0x9b9
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd">HP_UI_TOWER_COUNT_H</a> = 0x9ae
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720">HP_UI_TOWER_COUNT_A</a> = 0x9ac
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc">HP_UI_TOWER_SLIDER_N</a> = 2475
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50">HP_UI_TOWER_SLIDER_POS</a> = 2474
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad">HP_UI_TOWER_SLIDER_DISPLAY</a> = 2473
-<br />
- }</td></tr>
-<tr class="separator:a38b09ba25777a9f24adfea3db52e9e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1e8eb132ddeee98b584395e0a134c9e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a876ea3aeffde8ab2532706d13ae6e2ce"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a876ea3aeffde8ab2532706d13ae6e2ce">OutdoorPvPHPBuffZones</a> [<a class="el" href="../../dd/d3f/a02156.html#a01aada98c8079ea71a361cba06e10640">OutdoorPvPHPBuffZonesNum</a>] = { 3483, 3563, 3562, 3713, 3714, 3836 }</td></tr>
-<tr class="separator:a876ea3aeffde8ab2532706d13ae6e2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be5b978c2160f84a013071d76c121aa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a3be5b978c2160f84a013071d76c121aa">HP_CREDITMARKER</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {19032, 19028, 19029}</td></tr>
-<tr class="separator:a3be5b978c2160f84a013071d76c121aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a39817e7479fa79181e8c99bb83ca5c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a8a39817e7479fa79181e8c99bb83ca5c">HP_MAP_N</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b5, 0x9b2, 0x9a8}</td></tr>
-<tr class="separator:a8a39817e7479fa79181e8c99bb83ca5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab540dae1c3c44e27c4441e9d56e10d1d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ab540dae1c3c44e27c4441e9d56e10d1d">HP_MAP_A</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b3, 0x9b0, 0x9a7}</td></tr>
-<tr class="separator:ab540dae1c3c44e27c4441e9d56e10d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab15c51d80dc177784041dedc55e39c56"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ab15c51d80dc177784041dedc55e39c56">HP_MAP_H</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b4, 0x9b1, 0x9a6}</td></tr>
-<tr class="separator:ab15c51d80dc177784041dedc55e39c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9c6e470e4a4759ce2e77f88661521bb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ab9c6e470e4a4759ce2e77f88661521bb">HP_TowerArtKit_A</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {65, 62, 67}</td></tr>
-<tr class="separator:ab9c6e470e4a4759ce2e77f88661521bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6791490624d9d1c2995c6a13659f8692"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a6791490624d9d1c2995c6a13659f8692">HP_TowerArtKit_H</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {64, 61, 68}</td></tr>
-<tr class="separator:a6791490624d9d1c2995c6a13659f8692"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae64775fc45fae501937d72c9d55c8dc1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ae64775fc45fae501937d72c9d55c8dc1">HP_TowerArtKit_N</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {66, 63, 69}</td></tr>
-<tr class="separator:ae64775fc45fae501937d72c9d55c8dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23f671f25a8a3e3db11f4a0953b34773"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d1/da0/a09826.html">go_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a23f671f25a8a3e3db11f4a0953b34773">HPCapturePoints</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>]</td></tr>
-<tr class="separator:a23f671f25a8a3e3db11f4a0953b34773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6571d986fbbf7b469cf495033f46516"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d1/da0/a09826.html">go_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#ae6571d986fbbf7b469cf495033f46516">HPTowerFlags</a> [<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>]</td></tr>
-<tr class="separator:ae6571d986fbbf7b469cf495033f46516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a86bbb652876f394aaca15b4ed6e2bfa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3f/a02156.html#a86bbb652876f394aaca15b4ed6e2bfa7">AddSC_the_scarlet_enclave</a> ()</td></tr>
+<tr class="separator:a86bbb652876f394aaca15b4ed6e2bfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a01aada98c8079ea71a361cba06e10640" name="a01aada98c8079ea71a361cba06e10640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01aada98c8079ea71a361cba06e10640">&#9670;&#160;</a></span>OutdoorPvPHPBuffZonesNum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OutdoorPvPHPBuffZonesNum&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a09664100577cc20866b21589f3c1eb4a" name="a09664100577cc20866b21589f3c1eb4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09664100577cc20866b21589f3c1eb4a">&#9670;&#160;</a></span>OutdoorPvPHPSpells</h2>
+<a id="a1e8eb132ddeee98b584395e0a134c9e4" name="a1e8eb132ddeee98b584395e0a134c9e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e8eb132ddeee98b584395e0a134c9e4">&#9670;&#160;</a></span>Says_VBM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4a">OutdoorPvPHPSpells</a></td>
+          <td class="memname">enum <a class="el" href="../../dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4">Says_VBM</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc" name="a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc"></a>AlliancePlayerKillReward&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45" name="a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45"></a>HordePlayerKillReward&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a" name="a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a"></a>AllianceBuff&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2" name="a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2"></a>HordeBuff&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833" name="a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833"></a>WHISPER_REVIVE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833">WHISPER_REVIVE</a>              = 0</div>
+<div class="line"><span class="lineno">   35</span>};</div>
+<div class="ttc" id="aa02156_html_a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833"><div class="ttname"><a href="../../dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833">WHISPER_REVIVE</a></div><div class="ttdeci">@ WHISPER_REVIVE</div><div class="ttdef"><b>Definition:</b> zone_the_scarlet_enclave.cpp:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a97df4b07a8686c29a9700c8d11af35e3" name="a97df4b07a8686c29a9700c8d11af35e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97df4b07a8686c29a9700c8d11af35e3">&#9670;&#160;</a></span>Spells_VBM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d3f/a02156.html#a97df4b07a8686c29a9700c8d11af35e3">Spells_VBM</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38" name="a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38"></a>SPELL_REVIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 <div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc">AlliancePlayerKillReward</a> = 32155,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45">HordePlayerKillReward</a> = 32158,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a">AllianceBuff</a> = 32071,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2">HordeBuff</a> = 32049</div>
-<div class="line"><span class="lineno">   33</span>};</div>
-<div class="ttc" id="aa02156_html_a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a"><div class="ttname"><a href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a">AllianceBuff</a></div><div class="ttdeci">@ AllianceBuff</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:31</div></div>
-<div class="ttc" id="aa02156_html_a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45"><div class="ttname"><a href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45">HordePlayerKillReward</a></div><div class="ttdeci">@ HordePlayerKillReward</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:30</div></div>
-<div class="ttc" id="aa02156_html_a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2"><div class="ttname"><a href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2">HordeBuff</a></div><div class="ttdeci">@ HordeBuff</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:32</div></div>
-<div class="ttc" id="aa02156_html_a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc"><div class="ttname"><a href="../../dd/d3f/a02156.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc">AlliancePlayerKillReward</a></div><div class="ttdeci">@ AlliancePlayerKillReward</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:29</div></div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38">SPELL_REVIVE</a>                = 51918</div>
+<div class="line"><span class="lineno">   30</span>};</div>
+<div class="ttc" id="aa02156_html_a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38"><div class="ttname"><a href="../../dd/d3f/a02156.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38">SPELL_REVIVE</a></div><div class="ttdeci">@ SPELL_REVIVE</div><div class="ttdef"><b>Definition:</b> zone_the_scarlet_enclave.cpp:29</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad618152baad1f5a1d7f70f40941e8f33" name="ad618152baad1f5a1d7f70f40941e8f33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad618152baad1f5a1d7f70f40941e8f33">&#9670;&#160;</a></span>OutdoorPvPHPTowerType</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a86bbb652876f394aaca15b4ed6e2bfa7" name="a86bbb652876f394aaca15b4ed6e2bfa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86bbb652876f394aaca15b4ed6e2bfa7">&#9670;&#160;</a></span>AddSC_the_scarlet_enclave()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33">OutdoorPvPHPTowerType</a></td>
+          <td class="memname">void AddSC_the_scarlet_enclave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9" name="ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9"></a>HP_TOWER_BROKEN_HILL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447" name="ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447"></a>HP_TOWER_OVERLOOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84" name="ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84"></a>HP_TOWER_STADIUM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355" name="ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355"></a>HP_TOWER_NUM&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9">HP_TOWER_BROKEN_HILL</a> = 0,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447">HP_TOWER_OVERLOOK</a> = 1,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84">HP_TOWER_STADIUM</a> = 2,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a> = 3</div>
-<div class="line"><span class="lineno">   41</span>};</div>
-<div class="ttc" id="aa02156_html_ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84"><div class="ttname"><a href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84">HP_TOWER_STADIUM</a></div><div class="ttdeci">@ HP_TOWER_STADIUM</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:39</div></div>
-<div class="ttc" id="aa02156_html_ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355"><div class="ttname"><a href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a></div><div class="ttdeci">@ HP_TOWER_NUM</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:40</div></div>
-<div class="ttc" id="aa02156_html_ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447"><div class="ttname"><a href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447">HP_TOWER_OVERLOOK</a></div><div class="ttdeci">@ HP_TOWER_OVERLOOK</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:38</div></div>
-<div class="ttc" id="aa02156_html_ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9"><div class="ttname"><a href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9">HP_TOWER_BROKEN_HILL</a></div><div class="ttdeci">@ HP_TOWER_BROKEN_HILL</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:37</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  141</span>{</div>
+<div class="line"><span class="lineno">  142</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d4a/a12702.html">npc_valkyr_battle_maiden</a>();</div>
+<div class="line"><span class="lineno">  143</span>}</div>
+<div class="ttc" id="aa12702_html"><div class="ttname"><a href="../../d8/d4a/a12702.html">npc_valkyr_battle_maiden</a></div><div class="ttdef"><b>Definition:</b> zone_the_scarlet_enclave.cpp:38</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a38b09ba25777a9f24adfea3db52e9e95" name="a38b09ba25777a9f24adfea3db52e9e95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b09ba25777a9f24adfea3db52e9e95">&#9670;&#160;</a></span>OutdoorPvPHPWorldStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95">OutdoorPvPHPWorldStates</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5" name="a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5"></a>HP_UI_TOWER_DISPLAY_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224" name="a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224"></a>HP_UI_TOWER_DISPLAY_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd" name="a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd"></a>HP_UI_TOWER_COUNT_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720" name="a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720"></a>HP_UI_TOWER_COUNT_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc" name="a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc"></a>HP_UI_TOWER_SLIDER_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50" name="a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50"></a>HP_UI_TOWER_SLIDER_POS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad" name="a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad"></a>HP_UI_TOWER_SLIDER_DISPLAY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5">HP_UI_TOWER_DISPLAY_A</a> = 0x9ba,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224">HP_UI_TOWER_DISPLAY_H</a> = 0x9b9,</div>
-<div class="line"><span class="lineno">   53</span> </div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd">HP_UI_TOWER_COUNT_H</a> = 0x9ae,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720">HP_UI_TOWER_COUNT_A</a> = 0x9ac,</div>
-<div class="line"><span class="lineno">   56</span> </div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc">HP_UI_TOWER_SLIDER_N</a> = 2475,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50">HP_UI_TOWER_SLIDER_POS</a> = 2474,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad">HP_UI_TOWER_SLIDER_DISPLAY</a> = 2473</div>
-<div class="line"><span class="lineno">   60</span>};</div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720">HP_UI_TOWER_COUNT_A</a></div><div class="ttdeci">@ HP_UI_TOWER_COUNT_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:55</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50">HP_UI_TOWER_SLIDER_POS</a></div><div class="ttdeci">@ HP_UI_TOWER_SLIDER_POS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:58</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5">HP_UI_TOWER_DISPLAY_A</a></div><div class="ttdeci">@ HP_UI_TOWER_DISPLAY_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:51</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224">HP_UI_TOWER_DISPLAY_H</a></div><div class="ttdeci">@ HP_UI_TOWER_DISPLAY_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:52</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd">HP_UI_TOWER_COUNT_H</a></div><div class="ttdeci">@ HP_UI_TOWER_COUNT_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:54</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc">HP_UI_TOWER_SLIDER_N</a></div><div class="ttdeci">@ HP_UI_TOWER_SLIDER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:57</div></div>
-<div class="ttc" id="aa02156_html_a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad"><div class="ttname"><a href="../../dd/d3f/a02156.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad">HP_UI_TOWER_SLIDER_DISPLAY</a></div><div class="ttdeci">@ HP_UI_TOWER_SLIDER_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.h:59</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a3be5b978c2160f84a013071d76c121aa" name="a3be5b978c2160f84a013071d76c121aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be5b978c2160f84a013071d76c121aa">&#9670;&#160;</a></span>HP_CREDITMARKER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_CREDITMARKER[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {19032, 19028, 19029}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>.</p>
-
-</div>
-</div>
-<a id="ab540dae1c3c44e27c4441e9d56e10d1d" name="ab540dae1c3c44e27c4441e9d56e10d1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab540dae1c3c44e27c4441e9d56e10d1d">&#9670;&#160;</a></span>HP_MAP_A</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_MAP_A[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b3, 0x9b0, 0x9a7}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>, <a class="el" href="../../#l00276">OPvPCapturePointHP::FillInitialWorldStates()</a>, and <a class="el" href="../../#l00139">OutdoorPvPHP::SendRemoveWorldStates()</a>.</p>
-
-</div>
-</div>
-<a id="ab15c51d80dc177784041dedc55e39c56" name="ab15c51d80dc177784041dedc55e39c56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15c51d80dc177784041dedc55e39c56">&#9670;&#160;</a></span>HP_MAP_H</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_MAP_H[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b4, 0x9b1, 0x9a6}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>, <a class="el" href="../../#l00276">OPvPCapturePointHP::FillInitialWorldStates()</a>, and <a class="el" href="../../#l00139">OutdoorPvPHP::SendRemoveWorldStates()</a>.</p>
-
-</div>
-</div>
-<a id="a8a39817e7479fa79181e8c99bb83ca5c" name="a8a39817e7479fa79181e8c99bb83ca5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a39817e7479fa79181e8c99bb83ca5c">&#9670;&#160;</a></span>HP_MAP_N</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_MAP_N[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {0x9b5, 0x9b2, 0x9a8}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>, <a class="el" href="../../#l00276">OPvPCapturePointHP::FillInitialWorldStates()</a>, and <a class="el" href="../../#l00139">OutdoorPvPHP::SendRemoveWorldStates()</a>.</p>
-
-</div>
-</div>
-<a id="ab9c6e470e4a4759ce2e77f88661521bb" name="ab9c6e470e4a4759ce2e77f88661521bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9c6e470e4a4759ce2e77f88661521bb">&#9670;&#160;</a></span>HP_TowerArtKit_A</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_TowerArtKit_A[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {65, 62, 67}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>.</p>
-
-</div>
-</div>
-<a id="a6791490624d9d1c2995c6a13659f8692" name="a6791490624d9d1c2995c6a13659f8692"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6791490624d9d1c2995c6a13659f8692">&#9670;&#160;</a></span>HP_TowerArtKit_H</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_TowerArtKit_H[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {64, 61, 68}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>.</p>
-
-</div>
-</div>
-<a id="ae64775fc45fae501937d72c9d55c8dc1" name="ae64775fc45fae501937d72c9d55c8dc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae64775fc45fae501937d72c9d55c8dc1">&#9670;&#160;</a></span>HP_TowerArtKit_N</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HP_TowerArtKit_N[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>] = {66, 63, 69}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>.</p>
-
-</div>
-</div>
-<a id="a23f671f25a8a3e3db11f4a0953b34773" name="a23f671f25a8a3e3db11f4a0953b34773"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23f671f25a8a3e3db11f4a0953b34773">&#9670;&#160;</a></span>HPCapturePoints</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d1/da0/a09826.html">go_type</a> HPCapturePoints[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {182175, 530, -471.462f, 3451.09f, 34.6432f, 0.174533f, 0.0f, 0.0f, 0.087156f, 0.996195f},      </div>
-<div class="line">    {182174, 530, -184.889f, 3476.93f, 38.205f, -0.017453f, 0.0f, 0.0f, 0.008727f, -0.999962f},     </div>
-<div class="line">    {182173, 530, -290.016f, 3702.42f, 56.6729f, 0.034907f, 0.0f, 0.0f, 0.017452f, 0.999848f}     </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00037">OPvPCapturePointHP::OPvPCapturePointHP()</a>.</p>
-
-</div>
-</div>
-<a id="ae6571d986fbbf7b469cf495033f46516" name="ae6571d986fbbf7b469cf495033f46516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6571d986fbbf7b469cf495033f46516">&#9670;&#160;</a></span>HPTowerFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d1/da0/a09826.html">go_type</a> HPTowerFlags[<a class="el" href="../../dd/d3f/a02156.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355">HP_TOWER_NUM</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {183514, 530, -467.078f, 3528.17f, 64.7121f, 3.14159f, 0.0f, 0.0f, 1.0f, 0.0f},  </div>
-<div class="line">    {182525, 530, -187.887f, 3459.38f, 60.0403f, -3.12414f, 0.0f, 0.0f, 0.999962f, -0.008727f}, </div>
-<div class="line">    {183515, 530, -289.610f, 3696.83f, 75.9447f, 3.12414f, 0.0f, 0.0f, 0.999962f, 0.008727f} </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00037">OPvPCapturePointHP::OPvPCapturePointHP()</a>.</p>
-
-</div>
-</div>
-<a id="a876ea3aeffde8ab2532706d13ae6e2ce" name="a876ea3aeffde8ab2532706d13ae6e2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a876ea3aeffde8ab2532706d13ae6e2ce">&#9670;&#160;</a></span>OutdoorPvPHPBuffZones</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvPHPBuffZones[<a class="el" href="../../dd/d3f/a02156.html#a01aada98c8079ea71a361cba06e10640">OutdoorPvPHPBuffZonesNum</a>] = { 3483, 3563, 3562, 3713, 3714, 3836 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>, and <a class="el" href="../../#l00070">OutdoorPvPHP::SetupOutdoorPvP()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
 
 </div>
 </div>
@@ -488,8 +211,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../dd/d3f/a02156.html">OutdoorPvPHP.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_eac4a77c7e1bc9a8e4dbb016e4f56c0e.html">ScarletEnclave</a></li><li class="navelem"><a class="el" href="../../dd/d3f/a02156.html">zone_the_scarlet_enclave.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

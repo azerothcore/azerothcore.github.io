@@ -1,11 +1,7 @@
 var a22746 =
 [
-    [ "boss_doomlordkazzakAI", "dd/d30/a22746.html#a86a942b48bf1146fb3ab445dc386cab9", null ],
-    [ "JustDied", "dd/d30/a22746.html#a33d0bc150c3c2701f4c0c4d8f39fce29", null ],
-    [ "JustEngagedWith", "dd/d30/a22746.html#a8086a5f8f6edd94525b9aedd083b7b00", null ],
-    [ "JustRespawned", "dd/d30/a22746.html#a174912c149657f4d88446f4ac0631598", null ],
-    [ "KilledUnit", "dd/d30/a22746.html#adb91f475b0e8cb73821860c3c5cc226b", null ],
-    [ "Reset", "dd/d30/a22746.html#a51b19c8e7c5f85c41b3168165bb8b40b", null ],
-    [ "UpdateAI", "dd/d30/a22746.html#a28a0a8345fcd5411491409854acef729", null ],
-    [ "_inBerserk", "dd/d30/a22746.html#a996d17128aca96c00c8416957ebc24d0", null ]
+    [ "HandleScriptEffect", "dd/d30/a22746.html#a0038e566bc5054e4208fd727fcc266fa", null ],
+    [ "PrepareSpellScript", "dd/d30/a22746.html#abb661bacf4cec1f2e15f4aeda2ab991e", null ],
+    [ "Register", "dd/d30/a22746.html#a416b811c2676c598df0ac0e5906a94d3", null ],
+    [ "Validate", "dd/d30/a22746.html#a11e82a2b40dbbd9949a1dda3bd715679", null ]
 ];

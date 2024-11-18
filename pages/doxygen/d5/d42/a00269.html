@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/MathUtil.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Navigation/DetourExtended.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,194 +105,26 @@ $(document).ready(function(){initNavTree('d5/d42/a00269.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MathUtil.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">DetourExtended.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;numeric&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;DetourNavMeshQuery.h&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a60ce9c7718ec2901f037e2368f93026d"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> , typename T  = typename std::decay&lt;decltype(*std::begin(std::declval&lt;Container&gt;()))&gt;::type&gt; </td></tr>
-<tr class="memitem:a60ce9c7718ec2901f037e2368f93026d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.html#a60ce9c7718ec2901f037e2368f93026d">standard_deviation</a> (<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&amp;c)</td></tr>
-<tr class="separator:a60ce9c7718ec2901f037e2368f93026d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64ba279a3d3edca415239118167c0206"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> , typename T  = typename std::decay&lt;decltype(*std::begin(std::declval&lt;Container&gt;()))&gt;::type&gt; </td></tr>
-<tr class="memitem:a64ba279a3d3edca415239118167c0206"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.html#a64ba279a3d3edca415239118167c0206">mean</a> (<a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&amp;c)</td></tr>
-<tr class="separator:a64ba279a3d3edca415239118167c0206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4840fd449eb626bea901860e4c1be22a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4840fd449eb626bea901860e4c1be22a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.html#a4840fd449eb626bea901860e4c1be22a">median</a> (std::vector&lt; T &gt; a)</td></tr>
-<tr class="separator:a4840fd449eb626bea901860e4c1be22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d14/a05286.html">dtQueryFilterExt</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a64ba279a3d3edca415239118167c0206" name="a64ba279a3d3edca415239118167c0206"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64ba279a3d3edca415239118167c0206">&#9670;&#160;</a></span>mean()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> , typename T  = typename std::decay&lt;decltype(*std::begin(std::declval&lt;Container&gt;()))&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T mean </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    <span class="keyword">auto</span> b = std::begin(c), e = std::end(c);</div>
-<div class="line"><span class="lineno">   52</span>    <span class="keyword">auto</span> size = std::distance(b, e);</div>
-<div class="line"><span class="lineno">   53</span>    <span class="keyword">auto</span> sum = std::accumulate(b, e, T());</div>
-<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> sum / size;</div>
-<div class="line"><span class="lineno">   55</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00918">WorldSession::ComputeNewClockDelta()</a>, and <a class="el" href="../../#l00028">standard_deviation()</a>.</p>
-
-</div>
-</div>
-<a id="a4840fd449eb626bea901860e4c1be22a" name="a4840fd449eb626bea901860e4c1be22a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4840fd449eb626bea901860e4c1be22a">&#9670;&#160;</a></span>median()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T median </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
-<div class="line"><span class="lineno">   61</span>    std::size_t n = a.size();</div>
-<div class="line"><span class="lineno">   62</span>    <span class="comment">// If size of the arr[] is even</span></div>
-<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (n % 2 == 0)</div>
-<div class="line"><span class="lineno">   64</span>    {</div>
-<div class="line"><span class="lineno">   65</span> </div>
-<div class="line"><span class="lineno">   66</span>        <span class="comment">// Applying nth_element</span></div>
-<div class="line"><span class="lineno">   67</span>        <span class="comment">// on n/2th index</span></div>
-<div class="line"><span class="lineno">   68</span>        std::nth_element(a.begin(),</div>
-<div class="line"><span class="lineno">   69</span>            a.begin() + n / 2,</div>
-<div class="line"><span class="lineno">   70</span>            a.end());</div>
-<div class="line"><span class="lineno">   71</span> </div>
-<div class="line"><span class="lineno">   72</span>        <span class="comment">// Applying nth_element</span></div>
-<div class="line"><span class="lineno">   73</span>        <span class="comment">// on (n-1)/2 th index</span></div>
-<div class="line"><span class="lineno">   74</span>        std::nth_element(a.begin(),</div>
-<div class="line"><span class="lineno">   75</span>            a.begin() + (n - 1) / 2,</div>
-<div class="line"><span class="lineno">   76</span>            a.end());</div>
-<div class="line"><span class="lineno">   77</span> </div>
-<div class="line"><span class="lineno">   78</span>        <span class="comment">// Find the average of value at</span></div>
-<div class="line"><span class="lineno">   79</span>        <span class="comment">// index N/2 and (N-1)/2</span></div>
-<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> (T)(a[(n - 1) / 2]</div>
-<div class="line"><span class="lineno">   81</span>            + a[n / 2])</div>
-<div class="line"><span class="lineno">   82</span>            / 2.0;</div>
-<div class="line"><span class="lineno">   83</span>    }</div>
-<div class="line"><span class="lineno">   84</span> </div>
-<div class="line"><span class="lineno">   85</span>    <span class="comment">// If size of the arr[] is odd</span></div>
-<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   87</span>    {</div>
-<div class="line"><span class="lineno">   88</span> </div>
-<div class="line"><span class="lineno">   89</span>        <span class="comment">// Applying nth_element</span></div>
-<div class="line"><span class="lineno">   90</span>        <span class="comment">// on n/2</span></div>
-<div class="line"><span class="lineno">   91</span>        std::nth_element(a.begin(),</div>
-<div class="line"><span class="lineno">   92</span>            a.begin() + n / 2,</div>
-<div class="line"><span class="lineno">   93</span>            a.end());</div>
-<div class="line"><span class="lineno">   94</span> </div>
-<div class="line"><span class="lineno">   95</span>        <span class="comment">// Value at index (N/2)th</span></div>
-<div class="line"><span class="lineno">   96</span>        <span class="comment">// is the median</span></div>
-<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">return</span> (T)a[n / 2];</div>
-<div class="line"><span class="lineno">   98</span>    }</div>
-<div class="line"><span class="lineno">   99</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00918">WorldSession::ComputeNewClockDelta()</a>.</p>
-
-</div>
-</div>
-<a id="a60ce9c7718ec2901f037e2368f93026d" name="a60ce9c7718ec2901f037e2368f93026d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60ce9c7718ec2901f037e2368f93026d">&#9670;&#160;</a></span>standard_deviation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> , typename T  = typename std::decay&lt;decltype(*std::begin(std::declval&lt;Container&gt;()))&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T standard_deviation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d95/a04160.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
-<div class="line"><span class="lineno">   30</span>    <span class="keyword">auto</span> b = std::begin(c), e = std::end(c);</div>
-<div class="line"><span class="lineno">   31</span>    <span class="keyword">auto</span> size = std::distance(b, e);</div>
-<div class="line"><span class="lineno">   32</span>    <span class="keyword">auto</span> sum = std::accumulate(b, e, T());</div>
-<div class="line"><span class="lineno">   33</span>    <span class="keyword">auto</span> <a class="code hl_function" href="../../d5/d42/a00269.html#a64ba279a3d3edca415239118167c0206">mean</a> = sum / size;</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">if</span> (size == 1)</div>
-<div class="line"><span class="lineno">   36</span>    {</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span> (T) 0;</div>
-<div class="line"><span class="lineno">   38</span>    }</div>
-<div class="line"><span class="lineno">   39</span> </div>
-<div class="line"><span class="lineno">   40</span>    T accum = T();</div>
-<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> d : c)</div>
-<div class="line"><span class="lineno">   42</span>    {</div>
-<div class="line"><span class="lineno">   43</span>        accum += (d - <a class="code hl_function" href="../../d5/d42/a00269.html#a64ba279a3d3edca415239118167c0206">mean</a>) * (d - <a class="code hl_function" href="../../d5/d42/a00269.html#a64ba279a3d3edca415239118167c0206">mean</a>);</div>
-<div class="line"><span class="lineno">   44</span>    }</div>
-<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">return</span> std::sqrt(accum / (size - 1));</div>
-<div class="line"><span class="lineno">   46</span>}</div>
-<div class="ttc" id="aa00269_html_a64ba279a3d3edca415239118167c0206"><div class="ttname"><a href="../../d5/d42/a00269.html#a64ba279a3d3edca415239118167c0206">mean</a></div><div class="ttdeci">T mean(Container &amp;&amp;c)</div><div class="ttdef"><b>Definition:</b> MathUtil.h:49</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00049">mean()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00918">WorldSession::ComputeNewClockDelta()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.html">MathUtil.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_d8666fd2ba86beec6989660fbdf6542b.html">Navigation</a></li><li class="navelem"><a class="el" href="../../d5/d42/a00269.html">DetourExtended.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

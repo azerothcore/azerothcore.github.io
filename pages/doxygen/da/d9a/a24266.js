@@ -1,8 +1,8 @@
 var a24266 =
 [
-    [ "HandleEffectApply", "da/d9a/a24266.html#a88e98bcb11fb16696f789878f79c665c", null ],
-    [ "HandleEffectRemove", "da/d9a/a24266.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2", null ],
-    [ "PrepareAuraScript", "da/d9a/a24266.html#a64f9e0f3d0376342767b912e32642c6c", null ],
-    [ "Register", "da/d9a/a24266.html#a72d6639589588282ea15cfe83c9e9b76", null ],
-    [ "Validate", "da/d9a/a24266.html#ac936c92c3a24fba95505243cd3e79c21", null ]
+    [ "HandleDamage", "da/d9a/a24266.html#a2c5149eb0b6698240c25b63e71af0854", null ],
+    [ "PrepareSpellScript", "da/d9a/a24266.html#a8a19b594de9ba23a59e22db7d05eb60d", null ],
+    [ "Register", "da/d9a/a24266.html#ad29179d9159700b52b0c21a779cd060b", null ],
+    [ "Suicide", "da/d9a/a24266.html#a981f8547eae9b317111bf9a7016510ab", null ],
+    [ "Validate", "da/d9a/a24266.html#aa2c3399146b15f754e073e4fa08f3d5a", null ]
 ];

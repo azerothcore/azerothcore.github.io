@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/Spline/MovementTypedefs.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CoreAI/PetAI.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,59 +106,123 @@ $(document).ready(function(){initNavTree('dc/d38/a02894.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">MovementTypedefs.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">PetAI.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d57/a09762.html">Movement::counter&lt; T, limit &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbe/a06026.html">PetAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:de/d69/a04679"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d69/a04679.html">G3D</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/dae/a04721"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html">Movement</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:adebd21803156b193f9b8a733b6cbd3c7"><td class="memItemLeft" align="right" valign="top">typedef counter&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, 0xFFFFFFFF &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#adebd21803156b193f9b8a733b6cbd3c7">Movement::UInt32Counter</a></td></tr>
-<tr class="separator:adebd21803156b193f9b8a733b6cbd3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a418fff34f8aed72d6d80876be5a33c58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a418fff34f8aed72d6d80876be5a33c58">Movement::SecToMS</a> (float sec)</td></tr>
-<tr class="separator:a418fff34f8aed72d6d80876be5a33c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefc83834e7badc5f8450322da9567bd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#aefc83834e7badc5f8450322da9567bd6">Movement::MSToSec</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ms)</td></tr>
-<tr class="separator:aefc83834e7badc5f8450322da9567bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40f989c23fe19e12628da3cd9e64edf4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a40f989c23fe19e12628da3cd9e64edf4">Movement::computeFallTime</a> (float path_length, bool isSafeFall)</td></tr>
-<tr class="separator:a40f989c23fe19e12628da3cd9e64edf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87260372150c8322b45e75bfaa445f14"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a87260372150c8322b45e75bfaa445f14">Movement::computeFallElevation</a> (float t_passed, bool isSafeFall, float start_velocity=0.0f)</td></tr>
-<tr class="separator:a87260372150c8322b45e75bfaa445f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a15b376933a666c7f7c4600e62d7afe91"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a15b376933a666c7f7c4600e62d7afe91">Movement::gravity</a> = 19.29110527038574</td></tr>
-<tr class="separator:a15b376933a666c7f7c4600e62d7afe91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5149db3325f467381006d8d5df24a2a8"><td class="memItemLeft" align="right" valign="top">UInt32Counter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/a04721.html#a5149db3325f467381006d8d5df24a2a8">Movement::splineIdGen</a></td></tr>
-<tr class="separator:a5149db3325f467381006d8d5df24a2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a22fe79e956db2d74e141a56fef6d1cff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cff">SpecialPets</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896">ENTRY_IMP</a> = 416
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5">ENTRY_WATER_ELEMENTAL</a> = 510
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99">ENTRY_WATER_ELEMENTAL_PERM</a> = 37994
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c">IMP_FIREBOLT_RANK_1</a> = 3110
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406">IMP_FIREBOLT_RANK_2</a> = 7799
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6">IMP_FIREBOLT_RANK_3</a> = 7800
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7">IMP_FIREBOLT_RANK_4</a> = 7801
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac">IMP_FIREBOLT_RANK_5</a> = 7802
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5">IMP_FIREBOLT_RANK_6</a> = 11762
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a">IMP_FIREBOLT_RANK_7</a> = 11763
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25">IMP_FIREBOLT_RANK_8</a> = 27267
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948">IMP_FIREBOLT_RANK_9</a> = 47964
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d">WATER_ELEMENTAL_WATERBOLT_1</a> = 31707
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1">WATER_ELEMENTAL_WATERBOLT_2</a> = 72898
+<br />
+ }</td></tr>
+<tr class="separator:a22fe79e956db2d74e141a56fef6d1cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a22fe79e956db2d74e141a56fef6d1cff" name="a22fe79e956db2d74e141a56fef6d1cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22fe79e956db2d74e141a56fef6d1cff">&#9670;&#160;</a></span>SpecialPets</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cff">SpecialPets</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896" name="a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896"></a>ENTRY_IMP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5" name="a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5"></a>ENTRY_WATER_ELEMENTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99" name="a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99"></a>ENTRY_WATER_ELEMENTAL_PERM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c" name="a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c"></a>IMP_FIREBOLT_RANK_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406" name="a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406"></a>IMP_FIREBOLT_RANK_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6" name="a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6"></a>IMP_FIREBOLT_RANK_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7" name="a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7"></a>IMP_FIREBOLT_RANK_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac" name="a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac"></a>IMP_FIREBOLT_RANK_5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5" name="a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5"></a>IMP_FIREBOLT_RANK_6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a" name="a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a"></a>IMP_FIREBOLT_RANK_7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25" name="a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25"></a>IMP_FIREBOLT_RANK_8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948" name="a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948"></a>IMP_FIREBOLT_RANK_9&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d" name="a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d"></a>WATER_ELEMENTAL_WATERBOLT_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1" name="a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1"></a>WATER_ELEMENTAL_WATERBOLT_2&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896">ENTRY_IMP</a>                   =   416,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5">ENTRY_WATER_ELEMENTAL</a>       =   510,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99">ENTRY_WATER_ELEMENTAL_PERM</a>  = 37994,</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c">IMP_FIREBOLT_RANK_1</a>         =  3110,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406">IMP_FIREBOLT_RANK_2</a>         =  7799,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6">IMP_FIREBOLT_RANK_3</a>         =  7800,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7">IMP_FIREBOLT_RANK_4</a>         =  7801,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac">IMP_FIREBOLT_RANK_5</a>         =  7802,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5">IMP_FIREBOLT_RANK_6</a>         = 11762,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a">IMP_FIREBOLT_RANK_7</a>         = 11763,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25">IMP_FIREBOLT_RANK_8</a>         = 27267,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948">IMP_FIREBOLT_RANK_9</a>         = 47964,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d">WATER_ELEMENTAL_WATERBOLT_1</a> = 31707,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1">WATER_ELEMENTAL_WATERBOLT_2</a> = 72898</div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa1afbd4a095d65be61fa03e05a1c49e1d">WATER_ELEMENTAL_WATERBOLT_1</a></div><div class="ttdeci">@ WATER_ELEMENTAL_WATERBOLT_1</div><div class="ttdef"><b>Definition:</b> PetAI.h:42</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa2cec2788a794b1b4d9559fb23d4a5a99">ENTRY_WATER_ELEMENTAL_PERM</a></div><div class="ttdeci">@ ENTRY_WATER_ELEMENTAL_PERM</div><div class="ttdef"><b>Definition:</b> PetAI.h:31</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa5d7df8261631aa8076f63045a79896e1">WATER_ELEMENTAL_WATERBOLT_2</a></div><div class="ttdeci">@ WATER_ELEMENTAL_WATERBOLT_2</div><div class="ttdef"><b>Definition:</b> PetAI.h:43</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa641520548259a83c82be403219e71406">IMP_FIREBOLT_RANK_2</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_2</div><div class="ttdef"><b>Definition:</b> PetAI.h:34</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa6741051a9b4416d85efce89c68ebd2c5">IMP_FIREBOLT_RANK_6</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_6</div><div class="ttdef"><b>Definition:</b> PetAI.h:38</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa789304c4db65564436821950d063de7a">IMP_FIREBOLT_RANK_7</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_7</div><div class="ttdef"><b>Definition:</b> PetAI.h:39</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa7eccd511642f2e5d0537d5059511aba7">IMP_FIREBOLT_RANK_4</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_4</div><div class="ttdef"><b>Definition:</b> PetAI.h:36</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffa8ef9e2169f6035568dc57b89cb823cd5">ENTRY_WATER_ELEMENTAL</a></div><div class="ttdeci">@ ENTRY_WATER_ELEMENTAL</div><div class="ttdef"><b>Definition:</b> PetAI.h:30</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaa00bd8f04ba86fd6ec18af50421dcf1c">IMP_FIREBOLT_RANK_1</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_1</div><div class="ttdef"><b>Definition:</b> PetAI.h:33</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab0b0d7d2597750db196c82204e5fa948">IMP_FIREBOLT_RANK_9</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_9</div><div class="ttdef"><b>Definition:</b> PetAI.h:41</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffab9abb8f92c8fdad08f49606aafda6896">ENTRY_IMP</a></div><div class="ttdeci">@ ENTRY_IMP</div><div class="ttdef"><b>Definition:</b> PetAI.h:29</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffad5d762472639e0c0e4c4e12facf8cab6">IMP_FIREBOLT_RANK_3</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_3</div><div class="ttdef"><b>Definition:</b> PetAI.h:35</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaeda3e66d9782a330597fe42f0babfb25">IMP_FIREBOLT_RANK_8</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_8</div><div class="ttdef"><b>Definition:</b> PetAI.h:40</div></div>
+<div class="ttc" id="aa02894_html_a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac"><div class="ttname"><a href="../../dc/d38/a02894.html#a22fe79e956db2d74e141a56fef6d1cffaf3a0d7d7c4554f335bec7b31ac1821ac">IMP_FIREBOLT_RANK_5</a></div><div class="ttdeci">@ IMP_FIREBOLT_RANK_5</div><div class="ttdef"><b>Definition:</b> PetAI.h:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_cd5f8786a04521b4a96eac0f95f95a85.html">Spline</a></li><li class="navelem"><a class="el" href="../../dc/d38/a02894.html">MovementTypedefs.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_89e5b46313b1092bbe526cf6db8e9dcb.html">CoreAI</a></li><li class="navelem"><a class="el" href="../../dc/d38/a02894.html">PetAI.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

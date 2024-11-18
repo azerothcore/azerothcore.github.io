@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::CheckedBufferOutputIterator&lt; T &gt; Class Template Reference</title>
+<title>AzerothCore: Acore::ClassLevelLockable&lt; T, MUTEX &gt;::Lock Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,166 +105,45 @@ $(document).ready(function(){initNavTree('dc/dbc/a05342.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/d54/a05339.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::CheckedBufferOutputIterator&lt; T &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::ClassLevelLockable&lt; T, MUTEX &gt;::Lock Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Containers.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ThreadingModel.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a60f6936503d386c555d012e8763611ca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a60f6936503d386c555d012e8763611ca">iterator_category</a> = std::output_iterator_tag</td></tr>
-<tr class="separator:a60f6936503d386c555d012e8763611ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab19bfdfea57f6de2bbef93aff14481ec"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#ab19bfdfea57f6de2bbef93aff14481ec">value_type</a> = void</td></tr>
-<tr class="separator:ab19bfdfea57f6de2bbef93aff14481ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa25ef6456bed8f4e599a48c7c1448363"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#aa25ef6456bed8f4e599a48c7c1448363">pointer</a> = T *</td></tr>
-<tr class="separator:aa25ef6456bed8f4e599a48c7c1448363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95fa5b0dac0017e43bc5683fb040836d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a95fa5b0dac0017e43bc5683fb040836d">reference</a> = T &amp;</td></tr>
-<tr class="separator:a95fa5b0dac0017e43bc5683fb040836d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb2086c6034a734b92b3cb8d0382a293"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#aeb2086c6034a734b92b3cb8d0382a293">difference_type</a> = std::ptrdiff_t</td></tr>
-<tr class="separator:aeb2086c6034a734b92b3cb8d0382a293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a49de38fe9f4e296bcd229d486864c65e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a49de38fe9f4e296bcd229d486864c65e">CheckedBufferOutputIterator</a> (T *buf, std::size_t n)</td></tr>
-<tr class="separator:a49de38fe9f4e296bcd229d486864c65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4635aa952b03df738046667197b6f9"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a2d4635aa952b03df738046667197b6f9">operator*</a> () const</td></tr>
-<tr class="separator:a2d4635aa952b03df738046667197b6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bdbf99823ee46a88094480b5040211b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dbc/a05342.html">CheckedBufferOutputIterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a1bdbf99823ee46a88094480b5040211b">operator++</a> ()</td></tr>
-<tr class="separator:a1bdbf99823ee46a88094480b5040211b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a72bd229fb92e389ec311142ca2a139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dbc/a05342.html">CheckedBufferOutputIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a8a72bd229fb92e389ec311142ca2a139">operator++</a> (int)</td></tr>
-<tr class="separator:a8a72bd229fb92e389ec311142ca2a139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae804b558c6912a00405070e170572407"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#ae804b558c6912a00405070e170572407">remaining</a> () const</td></tr>
-<tr class="separator:ae804b558c6912a00405070e170572407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ab8414d5a971d77718de7f610bb000443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#ab8414d5a971d77718de7f610bb000443">check</a> () const</td></tr>
-<tr class="separator:ab8414d5a971d77718de7f610bb000443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:abee1c6def8872acea5f34f0ae22aa467"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a></td></tr>
-<tr class="separator:abee1c6def8872acea5f34f0ae22aa467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a86f648edeeaf34b01581b972b2f1d"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a83a86f648edeeaf34b01581b972b2f1d">_end</a></td></tr>
-<tr class="separator:a83a86f648edeeaf34b01581b972b2f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6bc6f64cebaec1a4b7d4657bff5c4c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#aa6bc6f64cebaec1a4b7d4657bff5c4c6">Lock</a> (const T &amp;)</td></tr>
+<tr class="separator:aa6bc6f64cebaec1a4b7d4657bff5c4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231cacf52a05959e927bc8514bfa1cf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a231cacf52a05959e927bc8514bfa1cf3">Lock</a> (const <a class="el" href="../../da/da3/a05338.html">ClassLevelLockable</a>&lt; T, MUTEX &gt; &amp;)</td></tr>
+<tr class="separator:a231cacf52a05959e927bc8514bfa1cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342f976604dd6d072e781f27dc511030"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a342f976604dd6d072e781f27dc511030">Lock</a> ()</td></tr>
+<tr class="separator:a342f976604dd6d072e781f27dc511030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08c6dbf00950b05d493e28ec95906c4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbc/a05342.html#a08c6dbf00950b05d493e28ec95906c4e">~Lock</a> ()</td></tr>
+<tr class="separator:a08c6dbf00950b05d493e28ec95906c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
-class Acore::CheckedBufferOutputIterator&lt; T &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aeb2086c6034a734b92b3cb8d0382a293" name="aeb2086c6034a734b92b3cb8d0382a293"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb2086c6034a734b92b3cb8d0382a293">&#9670;&#160;</a></span>difference_type</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class MUTEX&gt;<br />
+class Acore::ClassLevelLockable&lt; T, MUTEX &gt;::Lock</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa6bc6f64cebaec1a4b7d4657bff5c4c6" name="aa6bc6f64cebaec1a4b7d4657bff5c4c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6bc6f64cebaec1a4b7d4657bff5c4c6">&#9670;&#160;</a></span>Lock() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::difference_type =  std::ptrdiff_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a60f6936503d386c555d012e8763611ca" name="a60f6936503d386c555d012e8763611ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60f6936503d386c555d012e8763611ca">&#9670;&#160;</a></span>iterator_category</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::iterator_category =  std::output_iterator_tag</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa25ef6456bed8f4e599a48c7c1448363" name="aa25ef6456bed8f4e599a48c7c1448363"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa25ef6456bed8f4e599a48c7c1448363">&#9670;&#160;</a></span>pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::pointer =  T*</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a95fa5b0dac0017e43bc5683fb040836d" name="a95fa5b0dac0017e43bc5683fb040836d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95fa5b0dac0017e43bc5683fb040836d">&#9670;&#160;</a></span>reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::reference =  T&amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab19bfdfea57f6de2bbef93aff14481ec" name="ab19bfdfea57f6de2bbef93aff14481ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab19bfdfea57f6de2bbef93aff14481ec">&#9670;&#160;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::value_type =  void</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a49de38fe9f4e296bcd229d486864c65e" name="a49de38fe9f4e296bcd229d486864c65e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49de38fe9f4e296bcd229d486864c65e">&#9670;&#160;</a></span>CheckedBufferOutputIterator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class MUTEX &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::CheckedBufferOutputIterator </td>
+          <td class="memname"><a class="el" href="../../da/da3/a05338.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::Lock::Lock </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -273,66 +152,30 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   52</span>: <a class="code hl_variable" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a>(buf), <a class="code hl_variable" href="../../dc/dbc/a05342.html#a83a86f648edeeaf34b01581b972b2f1d">_end</a>(buf + n) {}</div>
-<div class="ttc" id="aa05342_html_a83a86f648edeeaf34b01581b972b2f1d"><div class="ttname"><a href="../../dc/dbc/a05342.html#a83a86f648edeeaf34b01581b972b2f1d">Acore::CheckedBufferOutputIterator::_end</a></div><div class="ttdeci">T * _end</div><div class="ttdef"><b>Definition:</b> Containers.h:62</div></div>
-<div class="ttc" id="aa05342_html_abee1c6def8872acea5f34f0ae22aa467"><div class="ttname"><a href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">Acore::CheckedBufferOutputIterator::_buf</a></div><div class="ttdeci">T * _buf</div><div class="ttdef"><b>Definition:</b> Containers.h:61</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>            {</div>
+<div class="line"><span class="lineno">  114</span>                <a class="code hl_variable" href="../../da/da3/a05338.html#a2bcba35930178d1cd094ed1c34320997">ClassLevelLockable&lt;T, MUTEX&gt;::si_mtx</a>.lock();</div>
+<div class="line"><span class="lineno">  115</span>            }</div>
+<div class="ttc" id="aa05338_html_a2bcba35930178d1cd094ed1c34320997"><div class="ttname"><a href="../../da/da3/a05338.html#a2bcba35930178d1cd094ed1c34320997">Acore::ClassLevelLockable::si_mtx</a></div><div class="ttdeci">static MUTEX si_mtx</div><div class="ttdef"><b>Definition:</b> ThreadingModel.h:134</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab8414d5a971d77718de7f610bb000443" name="ab8414d5a971d77718de7f610bb000443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8414d5a971d77718de7f610bb000443">&#9670;&#160;</a></span>check()</h2>
+<a id="a231cacf52a05959e927bc8514bfa1cf3" name="a231cacf52a05959e927bc8514bfa1cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a231cacf52a05959e927bc8514bfa1cf3">&#9670;&#160;</a></span>Lock() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class MUTEX &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::check </td>
+          <td class="memname"><a class="el" href="../../da/da3/a05338.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::Lock::Lock </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/da3/a05338.html">ClassLevelLockable</a>&lt; T, MUTEX &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   65</span>        {</div>
-<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a> &lt; <a class="code hl_variable" href="../../dc/dbc/a05342.html#a83a86f648edeeaf34b01581b972b2f1d">_end</a>))</div>
-<div class="line"><span class="lineno">   67</span>            {</div>
-<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">throw</span> std::out_of_range(<span class="stringliteral">&quot;index&quot;</span>);</div>
-<div class="line"><span class="lineno">   69</span>            }</div>
-<div class="line"><span class="lineno">   70</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">Acore::CheckedBufferOutputIterator&lt; T &gt;::_buf</a>, and <a class="el" href="../../#l00062">Acore::CheckedBufferOutputIterator&lt; T &gt;::_end</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00054">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator*()</a>, and <a class="el" href="../../#l00055">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator++()</a>.</p>
-
-</div>
-</div>
-<a id="a2d4635aa952b03df738046667197b6f9" name="a2d4635aa952b03df738046667197b6f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4635aa952b03df738046667197b6f9">&#9670;&#160;</a></span>operator*()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T &amp; <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -341,26 +184,25 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <a class="code hl_function" href="../../dc/dbc/a05342.html#ab8414d5a971d77718de7f610bb000443">check</a>(); <span class="keywordflow">return</span> *<a class="code hl_variable" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a>; }</div>
-<div class="ttc" id="aa05342_html_ab8414d5a971d77718de7f610bb000443"><div class="ttname"><a href="../../dc/dbc/a05342.html#ab8414d5a971d77718de7f610bb000443">Acore::CheckedBufferOutputIterator::check</a></div><div class="ttdeci">void check() const</div><div class="ttdef"><b>Definition:</b> Containers.h:64</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  118</span>            {</div>
+<div class="line"><span class="lineno">  119</span>                <a class="code hl_variable" href="../../da/da3/a05338.html#a2bcba35930178d1cd094ed1c34320997">ClassLevelLockable&lt;T, MUTEX&gt;::si_mtx</a>.lock();</div>
+<div class="line"><span class="lineno">  120</span>            }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">Acore::CheckedBufferOutputIterator&lt; T &gt;::_buf</a>, and <a class="el" href="../../#l00064">Acore::CheckedBufferOutputIterator&lt; T &gt;::check()</a>.</p>
-
 </div>
 </div>
-<a id="a1bdbf99823ee46a88094480b5040211b" name="a1bdbf99823ee46a88094480b5040211b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bdbf99823ee46a88094480b5040211b">&#9670;&#160;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+<a id="a342f976604dd6d072e781f27dc511030" name="a342f976604dd6d072e781f27dc511030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342f976604dd6d072e781f27dc511030">&#9670;&#160;</a></span>Lock() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class MUTEX &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dbc/a05342.html">CheckedBufferOutputIterator</a> &amp; <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::operator++ </td>
+          <td class="memname"><a class="el" href="../../da/da3/a05338.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::Lock::Lock </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -372,27 +214,26 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <a class="code hl_function" href="../../dc/dbc/a05342.html#ab8414d5a971d77718de7f610bb000443">check</a>(); ++<a class="code hl_variable" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a>; <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  123</span>            {</div>
+<div class="line"><span class="lineno">  124</span>                <a class="code hl_variable" href="../../da/da3/a05338.html#a2bcba35930178d1cd094ed1c34320997">ClassLevelLockable&lt;T, MUTEX&gt;::si_mtx</a>.lock();</div>
+<div class="line"><span class="lineno">  125</span>            }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">Acore::CheckedBufferOutputIterator&lt; T &gt;::_buf</a>, and <a class="el" href="../../#l00064">Acore::CheckedBufferOutputIterator&lt; T &gt;::check()</a>.</p>
-
 </div>
 </div>
-<a id="a8a72bd229fb92e389ec311142ca2a139" name="a8a72bd229fb92e389ec311142ca2a139"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a72bd229fb92e389ec311142ca2a139">&#9670;&#160;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+<a id="a08c6dbf00950b05d493e28ec95906c4e" name="a08c6dbf00950b05d493e28ec95906c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c6dbf00950b05d493e28ec95906c4e">&#9670;&#160;</a></span>~Lock()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class MUTEX &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dbc/a05342.html">CheckedBufferOutputIterator</a> <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::operator++ </td>
+          <td class="memname"><a class="el" href="../../da/da3/a05338.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::Lock::~Lock </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -403,99 +244,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <a class="code hl_function" href="../../dc/dbc/a05342.html#a49de38fe9f4e296bcd229d486864c65e">CheckedBufferOutputIterator</a> v = *<span class="keyword">this</span>; <a class="code hl_function" href="../../dc/dbc/a05342.html#a1bdbf99823ee46a88094480b5040211b">operator++</a>(); <span class="keywordflow">return</span> v; }</div>
-<div class="ttc" id="aa05342_html_a1bdbf99823ee46a88094480b5040211b"><div class="ttname"><a href="../../dc/dbc/a05342.html#a1bdbf99823ee46a88094480b5040211b">Acore::CheckedBufferOutputIterator::operator++</a></div><div class="ttdeci">CheckedBufferOutputIterator &amp; operator++()</div><div class="ttdef"><b>Definition:</b> Containers.h:55</div></div>
-<div class="ttc" id="aa05342_html_a49de38fe9f4e296bcd229d486864c65e"><div class="ttname"><a href="../../dc/dbc/a05342.html#a49de38fe9f4e296bcd229d486864c65e">Acore::CheckedBufferOutputIterator::CheckedBufferOutputIterator</a></div><div class="ttdeci">CheckedBufferOutputIterator(T *buf, std::size_t n)</div><div class="ttdef"><b>Definition:</b> Containers.h:52</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  128</span>            {</div>
+<div class="line"><span class="lineno">  129</span>                <a class="code hl_variable" href="../../da/da3/a05338.html#a2bcba35930178d1cd094ed1c34320997">ClassLevelLockable&lt;T, MUTEX&gt;::si_mtx</a>.unlock();</div>
+<div class="line"><span class="lineno">  130</span>            }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00056">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator++()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00056">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator++()</a>.</p>
-
-</div>
-</div>
-<a id="ae804b558c6912a00405070e170572407" name="ae804b558c6912a00405070e170572407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae804b558c6912a00405070e170572407">&#9670;&#160;</a></span>remaining()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::remaining </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../dc/dbc/a05342.html#a83a86f648edeeaf34b01581b972b2f1d">_end</a> - <a class="code hl_variable" href="../../dc/dbc/a05342.html#abee1c6def8872acea5f34f0ae22aa467">_buf</a>); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">Acore::CheckedBufferOutputIterator&lt; T &gt;::_buf</a>, and <a class="el" href="../../#l00062">Acore::CheckedBufferOutputIterator&lt; T &gt;::_end</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00281">Utf8toWStr()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="abee1c6def8872acea5f34f0ae22aa467" name="abee1c6def8872acea5f34f0ae22aa467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abee1c6def8872acea5f34f0ae22aa467">&#9670;&#160;</a></span>_buf</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::_buf</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00064">Acore::CheckedBufferOutputIterator&lt; T &gt;::check()</a>, <a class="el" href="../../#l00054">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator*()</a>, <a class="el" href="../../#l00055">Acore::CheckedBufferOutputIterator&lt; T &gt;::operator++()</a>, and <a class="el" href="../../#l00058">Acore::CheckedBufferOutputIterator&lt; T &gt;::remaining()</a>.</p>
-
-</div>
-</div>
-<a id="a83a86f648edeeaf34b01581b972b2f1d" name="a83a86f648edeeaf34b01581b972b2f1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a86f648edeeaf34b01581b972b2f1d">&#9670;&#160;</a></span>_end</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="../../dc/dbc/a05342.html">Acore::CheckedBufferOutputIterator</a>&lt; T &gt;::_end</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00064">Acore::CheckedBufferOutputIterator&lt; T &gt;::check()</a>, and <a class="el" href="../../#l00058">Acore::CheckedBufferOutputIterator&lt; T &gt;::remaining()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -503,8 +255,8 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/dbc/a05342.html">CheckedBufferOutputIterator</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../da/da3/a05338.html">ClassLevelLockable</a></li><li class="navelem"><a class="el" href="../../dc/dbc/a05342.html">Lock</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

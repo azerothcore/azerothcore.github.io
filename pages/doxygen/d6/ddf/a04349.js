@@ -1,20 +1,16 @@
 var a04349 =
 [
-    [ "WorldPackets::InvalidStringValueException", "d5/d6f/a10526.html", "d5/d6f/a10526" ],
-    [ "WorldPackets::InvalidUtf8ValueException", "da/d61/a10530.html", "da/d61/a10530" ],
-    [ "WorldPackets::InvalidHyperlinkException", "d3/db2/a10534.html", "d3/db2/a10534" ],
-    [ "WorldPackets::IllegalHyperlinkException", "d5/d4e/a10538.html", "d5/d4e/a10538" ],
-    [ "WorldPackets::Strings::RawBytes", "da/d5d/a10542.html", "da/d5d/a10542" ],
-    [ "WorldPackets::Strings::ByteSize< MaxBytesWithoutNullTerminator >", "d0/d62/a10546.html", "d0/d62/a10546" ],
-    [ "WorldPackets::Strings::Utf8", "d6/d34/a10550.html", "d6/d34/a10550" ],
-    [ "WorldPackets::Strings::Hyperlinks", "d6/de1/a10554.html", "d6/de1/a10554" ],
-    [ "WorldPackets::Strings::NoHyperlinks", "de/deb/a10558.html", "de/deb/a10558" ],
-    [ "WorldPackets::String< MaxBytesWithoutNullTerminator, Validators >", "d0/dad/a10562.html", "d0/dad/a10562" ],
-    [ "WorldPackets::PacketArrayMaxCapacityException", "df/dd4/a10566.html", "df/dd4/a10566" ],
-    [ "WorldPackets::Array< T, N >", "d5/df1/a10570.html", "d5/df1/a10570" ],
-    [ "WorldPackets::CompactArray< T >", "d4/d44/a10574.html", "d4/d44/a10574" ],
-    [ "fmt::formatter< WorldPackets::String< MaxBytesWithoutNullTerminator, Validators... > >", "de/dfd/a10578.html", "de/dfd/a10578" ],
-    [ "CheckCompactArrayMaskOverflow", "d6/ddf/a04349.html#afb4909c8c4c13b14c8eceda2e9b4246d", null ],
-    [ "operator<<", "d6/ddf/a04349.html#a82e35db0d6b671a4f4a581aac05828dc", null ],
-    [ "operator>>", "d6/ddf/a04349.html#ab21e8e534a45a2a33d69cd11562a45c6", null ]
+    [ "AccountScript", "d3/d6f/a09930.html", "d3/d6f/a09930" ],
+    [ "AccountHook", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3f", [
+      [ "ACCOUNTHOOK_ON_ACCOUNT_LOGIN", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520", null ],
+      [ "ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb", null ],
+      [ "ACCOUNTHOOK_ON_LAST_IP_UPDATE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744", null ],
+      [ "ACCOUNTHOOK_ON_EMAIL_CHANGE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf", null ],
+      [ "ACCOUNTHOOK_ON_PASSWORD_CHANGE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5", null ],
+      [ "ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283", null ],
+      [ "ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3", null ],
+      [ "ACCOUNTHOOK_END", "d6/ddf/a04349.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f", null ]
+    ] ]
 ];

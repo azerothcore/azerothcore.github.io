@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: TaskContext Class Reference</title>
+<title>AzerothCore: TaskScheduler::Task Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,141 +106,60 @@ $(document).ready(function(){initNavTree('de/d5f/a05458.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../d3/dd4/a05455.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TaskContext Class Reference</div></div>
+  <div class="headertitle"><div class="title">TaskScheduler::Task Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">TaskScheduler.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac844b54773254e162987f61f6c37450d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ac844b54773254e162987f61f6c37450d">TaskContext</a> ()</td></tr>
-<tr class="separator:ac844b54773254e162987f61f6c37450d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adca01e15214852dd23d3e404ee3e1f21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#adca01e15214852dd23d3e404ee3e1f21">TaskContext</a> (<a class="el" href="../../d4/de2/a05442.html#a0c6c7a95026322208866b6b829e0b598">TaskScheduler::TaskContainer</a> &amp;&amp;task, std::weak_ptr&lt; <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &gt; &amp;&amp;owner)</td></tr>
-<tr class="separator:adca01e15214852dd23d3e404ee3e1f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e2db1e5a72a066f1eb6f9efc59cc26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ad3e2db1e5a72a066f1eb6f9efc59cc26">TaskContext</a> (<a class="el" href="../../de/d5f/a05458.html">TaskContext</a> const &amp;right)</td></tr>
-<tr class="separator:ad3e2db1e5a72a066f1eb6f9efc59cc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dbb5d52d6e3d4a0f173fa23ccb80b25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a6dbb5d52d6e3d4a0f173fa23ccb80b25">TaskContext</a> (<a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&amp;right) noexcept</td></tr>
-<tr class="separator:a6dbb5d52d6e3d4a0f173fa23ccb80b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db1ba366d6b9fcc7a054e2d213cec55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a8db1ba366d6b9fcc7a054e2d213cec55">operator=</a> (<a class="el" href="../../de/d5f/a05458.html">TaskContext</a> const &amp;right) noexcept</td></tr>
-<tr class="separator:a8db1ba366d6b9fcc7a054e2d213cec55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8b54efb0dca1b279ba5a042e8e953f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a0a8b54efb0dca1b279ba5a042e8e953f">operator=</a> (<a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&amp;right) noexcept</td></tr>
-<tr class="separator:a0a8b54efb0dca1b279ba5a042e8e953f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1d32693e6df24d76a82b1a367eacbe5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#af1d32693e6df24d76a82b1a367eacbe5">IsExpired</a> () const</td></tr>
-<tr class="memdesc:af1d32693e6df24d76a82b1a367eacbe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the owner was deallocated and this context has expired.  <a href="../../de/d5f/a05458.html#af1d32693e6df24d76a82b1a367eacbe5">More...</a><br /></td></tr>
-<tr class="separator:af1d32693e6df24d76a82b1a367eacbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7bd61567707321cad553befb28c1c6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ad7bd61567707321cad553befb28c1c6a">IsInGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group) const</td></tr>
-<tr class="memdesc:ad7bd61567707321cad553befb28c1c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the event is in the given group.  <a href="../../de/d5f/a05458.html#ad7bd61567707321cad553befb28c1c6a">More...</a><br /></td></tr>
-<tr class="separator:ad7bd61567707321cad553befb28c1c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a93eec2b41f8456a0e939303b3ab085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a7a93eec2b41f8456a0e939303b3ab085">SetGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group)</td></tr>
-<tr class="memdesc:a7a93eec2b41f8456a0e939303b3ab085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the event in the given group.  <a href="../../de/d5f/a05458.html#a7a93eec2b41f8456a0e939303b3ab085">More...</a><br /></td></tr>
-<tr class="separator:a7a93eec2b41f8456a0e939303b3ab085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d6d215d8c605a1f724af35136bafe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ac3d6d215d8c605a1f724af35136bafe6">ClearGroup</a> ()</td></tr>
-<tr class="memdesc:ac3d6d215d8c605a1f724af35136bafe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the group from the event.  <a href="../../de/d5f/a05458.html#ac3d6d215d8c605a1f724af35136bafe6">More...</a><br /></td></tr>
-<tr class="separator:ac3d6d215d8c605a1f724af35136bafe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab7910aa171d409afa3f074858eacd0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de2/a05442.html#af3067f67a46b296be44fca007a2d3690">TaskScheduler::repeated_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#aab7910aa171d409afa3f074858eacd0e">GetRepeatCounter</a> () const</td></tr>
-<tr class="memdesc:aab7910aa171d409afa3f074858eacd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the repeat counter which increases every time the task is repeated.  <a href="../../de/d5f/a05458.html#aab7910aa171d409afa3f074858eacd0e">More...</a><br /></td></tr>
-<tr class="separator:aab7910aa171d409afa3f074858eacd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a380c596857dd0030414db5e8d28a3dda"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:a380c596857dd0030414db5e8d28a3dda"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a> (std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</td></tr>
-<tr class="separator:a380c596857dd0030414db5e8d28a3dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1347e5fcff0bb21e45805b1cfd2809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#adc1347e5fcff0bb21e45805b1cfd2809">Repeat</a> ()</td></tr>
-<tr class="separator:adc1347e5fcff0bb21e45805b1cfd2809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686aee457802bc71b6560549c13239c9"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:a686aee457802bc71b6560549c13239c9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a686aee457802bc71b6560549c13239c9">Repeat</a> (std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</td></tr>
-<tr class="separator:a686aee457802bc71b6560549c13239c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e152545e08d9a73522bf03b631148a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a8e152545e08d9a73522bf03b631148a2">Async</a> (std::function&lt; void()&gt; const &amp;callable)</td></tr>
-<tr class="separator:a8e152545e08d9a73522bf03b631148a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada6565daabe9a55c0ca2379ed7b23741"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:ada6565daabe9a55c0ca2379ed7b23741"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ada6565daabe9a55c0ca2379ed7b23741">Schedule</a> (std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, <a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;task)</td></tr>
-<tr class="separator:ada6565daabe9a55c0ca2379ed7b23741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaba68c85b949416169136485130c6f8"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:aaaba68c85b949416169136485130c6f8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#aaaba68c85b949416169136485130c6f8">Schedule</a> (std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, <a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, <a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;task)</td></tr>
-<tr class="separator:aaaba68c85b949416169136485130c6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7530c5f763cc34d0cdc83fcbaaafe37"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:aa7530c5f763cc34d0cdc83fcbaaafe37"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#aa7530c5f763cc34d0cdc83fcbaaafe37">Schedule</a> (std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max, <a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;task)</td></tr>
-<tr class="separator:aa7530c5f763cc34d0cdc83fcbaaafe37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c856d7c07fe8058ff53d35ccfb9b677"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:a5c856d7c07fe8058ff53d35ccfb9b677"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a5c856d7c07fe8058ff53d35ccfb9b677">Schedule</a> (std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max, <a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, <a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;task)</td></tr>
-<tr class="separator:a5c856d7c07fe8058ff53d35ccfb9b677"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa85817c2bf7c7f2f868d4a0a9fdf98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a6aa85817c2bf7c7f2f868d4a0a9fdf98">CancelAll</a> ()</td></tr>
-<tr class="memdesc:a6aa85817c2bf7c7f2f868d4a0a9fdf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels all tasks from within the context.  <a href="../../de/d5f/a05458.html#a6aa85817c2bf7c7f2f868d4a0a9fdf98">More...</a><br /></td></tr>
-<tr class="separator:a6aa85817c2bf7c7f2f868d4a0a9fdf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95dca8900ebf6709d9c5535f39c7277f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a95dca8900ebf6709d9c5535f39c7277f">CancelGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group)</td></tr>
-<tr class="memdesc:a95dca8900ebf6709d9c5535f39c7277f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel all tasks of a single group from within the context.  <a href="../../de/d5f/a05458.html#a95dca8900ebf6709d9c5535f39c7277f">More...</a><br /></td></tr>
-<tr class="separator:a95dca8900ebf6709d9c5535f39c7277f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac22c5c7e5ceac123c72918d77edb25b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ac22c5c7e5ceac123c72918d77edb25b9">CancelGroupsOf</a> (std::vector&lt; <a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> &gt; const &amp;groups)</td></tr>
-<tr class="separator:ac22c5c7e5ceac123c72918d77edb25b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad967f626ce88f95bb7e0610f92f83bb"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:aad967f626ce88f95bb7e0610f92f83bb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#aad967f626ce88f95bb7e0610f92f83bb">DelayAll</a> (std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</td></tr>
-<tr class="memdesc:aad967f626ce88f95bb7e0610f92f83bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays all tasks with the given duration from within the context.  <a href="../../de/d5f/a05458.html#aad967f626ce88f95bb7e0610f92f83bb">More...</a><br /></td></tr>
-<tr class="separator:aad967f626ce88f95bb7e0610f92f83bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde6f85254b960e69355583af88123f1"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:abde6f85254b960e69355583af88123f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#abde6f85254b960e69355583af88123f1">DelayAll</a> (std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</td></tr>
-<tr class="memdesc:abde6f85254b960e69355583af88123f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays all tasks with a random duration between min and max from within the context.  <a href="../../de/d5f/a05458.html#abde6f85254b960e69355583af88123f1">More...</a><br /></td></tr>
-<tr class="separator:abde6f85254b960e69355583af88123f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab51c9108135f18eda88250cbdc1d4c9e"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:ab51c9108135f18eda88250cbdc1d4c9e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ab51c9108135f18eda88250cbdc1d4c9e">DelayGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</td></tr>
-<tr class="memdesc:ab51c9108135f18eda88250cbdc1d4c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays all tasks of a group with the given duration from within the context.  <a href="../../de/d5f/a05458.html#ab51c9108135f18eda88250cbdc1d4c9e">More...</a><br /></td></tr>
-<tr class="separator:ab51c9108135f18eda88250cbdc1d4c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a701e13bfc09a6c1fc6e372c5310e2d80"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:a701e13bfc09a6c1fc6e372c5310e2d80"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a701e13bfc09a6c1fc6e372c5310e2d80">DelayGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</td></tr>
-<tr class="memdesc:a701e13bfc09a6c1fc6e372c5310e2d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays all tasks of a group with a random duration between min and max from within the context.  <a href="../../de/d5f/a05458.html#a701e13bfc09a6c1fc6e372c5310e2d80">More...</a><br /></td></tr>
-<tr class="separator:a701e13bfc09a6c1fc6e372c5310e2d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae60b6c797e99c416b84c5b9ae715b215"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:ae60b6c797e99c416b84c5b9ae715b215"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ae60b6c797e99c416b84c5b9ae715b215">RescheduleAll</a> (std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</td></tr>
-<tr class="memdesc:ae60b6c797e99c416b84c5b9ae715b215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule all tasks with the given duration.  <a href="../../de/d5f/a05458.html#ae60b6c797e99c416b84c5b9ae715b215">More...</a><br /></td></tr>
-<tr class="separator:ae60b6c797e99c416b84c5b9ae715b215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac35c49969cef74262137fce851a3a30d"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:ac35c49969cef74262137fce851a3a30d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ac35c49969cef74262137fce851a3a30d">RescheduleAll</a> (std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</td></tr>
-<tr class="memdesc:ac35c49969cef74262137fce851a3a30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule all tasks with a random duration between min and max.  <a href="../../de/d5f/a05458.html#ac35c49969cef74262137fce851a3a30d">More...</a><br /></td></tr>
-<tr class="separator:ac35c49969cef74262137fce851a3a30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add5a7d1e76bd0d0766c17920dadd5b61"><td class="memTemplParams" colspan="2">template&lt;class _Rep , class _Period &gt; </td></tr>
-<tr class="memitem:add5a7d1e76bd0d0766c17920dadd5b61"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#add5a7d1e76bd0d0766c17920dadd5b61">RescheduleGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</td></tr>
-<tr class="memdesc:add5a7d1e76bd0d0766c17920dadd5b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule all tasks of a group with the given duration.  <a href="../../de/d5f/a05458.html#add5a7d1e76bd0d0766c17920dadd5b61">More...</a><br /></td></tr>
-<tr class="separator:add5a7d1e76bd0d0766c17920dadd5b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cac55da6d10d0a74c9f83689d028174"><td class="memTemplParams" colspan="2">template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </td></tr>
-<tr class="memitem:a0cac55da6d10d0a74c9f83689d028174"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a0cac55da6d10d0a74c9f83689d028174">RescheduleGroup</a> (<a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const group, std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</td></tr>
-<tr class="memdesc:a0cac55da6d10d0a74c9f83689d028174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule all tasks of a group with a random duration between min and max.  <a href="../../de/d5f/a05458.html#a0cac55da6d10d0a74c9f83689d028174">More...</a><br /></td></tr>
-<tr class="separator:a0cac55da6d10d0a74c9f83689d028174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a5c5bc5a317527f3dbc496e6e5a873505"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a> (std::function&lt; <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;(<a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;)&gt; const &amp;apply)</td></tr>
-<tr class="memdesc:a5c5bc5a317527f3dbc496e6e5a873505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatches an action safe on the <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a>.  <a href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">More...</a><br /></td></tr>
-<tr class="separator:a5c5bc5a317527f3dbc496e6e5a873505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40aa7f8f29b300c5252ffd23c7e1632f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a40aa7f8f29b300c5252ffd23c7e1632f">AssertOnConsumed</a> () const</td></tr>
-<tr class="memdesc:a40aa7f8f29b300c5252ffd23c7e1632f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asserts if the task was consumed already.  <a href="../../de/d5f/a05458.html#a40aa7f8f29b300c5252ffd23c7e1632f">More...</a><br /></td></tr>
-<tr class="separator:a40aa7f8f29b300c5252ffd23c7e1632f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b03e1428d2b3df88a0664b93b0debc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a47b03e1428d2b3df88a0664b93b0debc">Invoke</a> ()</td></tr>
-<tr class="memdesc:a47b03e1428d2b3df88a0664b93b0debc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes the associated hook of the task.  <a href="../../de/d5f/a05458.html#a47b03e1428d2b3df88a0664b93b0debc">More...</a><br /></td></tr>
-<tr class="separator:a47b03e1428d2b3df88a0664b93b0debc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15fd2d39bf79bd4d8ea432b5543f5efc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a15fd2d39bf79bd4d8ea432b5543f5efc">Task</a> (<a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a> const &amp;end, <a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a> const &amp;duration, std::optional&lt; <a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a> &gt; const &amp;group, <a class="el" href="../../db/d2b/a05454.html#af3067f67a46b296be44fca007a2d3690">repeated_t</a> const repeated, <a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a> const &amp;task)</td></tr>
+<tr class="separator:a15fd2d39bf79bd4d8ea432b5543f5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b788727c5e8dfa5c424970f882b1dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ad9b788727c5e8dfa5c424970f882b1dc">Task</a> (<a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a> const &amp;end, <a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a> const &amp;duration, <a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a> const &amp;task)</td></tr>
+<tr class="separator:ad9b788727c5e8dfa5c424970f882b1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eec23707deabeb93b600ad1b17812d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a7eec23707deabeb93b600ad1b17812d6">Task</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;)=delete</td></tr>
+<tr class="separator:a7eec23707deabeb93b600ad1b17812d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9acec30a90c44ffcff66c256a9caf01a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a9acec30a90c44ffcff66c256a9caf01a">Task</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a9acec30a90c44ffcff66c256a9caf01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97319b03103a3013d96f7abe094ab6a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a97319b03103a3013d96f7abe094ab6a5">operator=</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;)=default</td></tr>
+<tr class="separator:a97319b03103a3013d96f7abe094ab6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f962055b0324a6fedcdd91d9d375dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#af7f962055b0324a6fedcdd91d9d375dd">operator=</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&amp;right)=delete</td></tr>
+<tr class="separator:af7f962055b0324a6fedcdd91d9d375dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53b9d06447478218858aaff7634daab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#aa53b9d06447478218858aaff7634daab">operator&lt;</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;other) const</td></tr>
+<tr class="separator:aa53b9d06447478218858aaff7634daab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45990c164939b2c5a4fafc541103f70f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a45990c164939b2c5a4fafc541103f70f">operator&gt;</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;other) const</td></tr>
+<tr class="separator:a45990c164939b2c5a4fafc541103f70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac245f8900a292b6ad6ece4c44da85e11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ac245f8900a292b6ad6ece4c44da85e11">operator==</a> (<a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;other)</td></tr>
+<tr class="separator:ac245f8900a292b6ad6ece4c44da85e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bbb86f1ed4357c9af9813e551fc41d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a0bbb86f1ed4357c9af9813e551fc41d7">IsInGroup</a> (<a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a> const group) const</td></tr>
+<tr class="separator:a0bbb86f1ed4357c9af9813e551fc41d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7902aa9c3a0bd7684ced17235a87c390"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de2/a05442.html#a0c6c7a95026322208866b6b829e0b598">TaskScheduler::TaskContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a></td></tr>
-<tr class="memdesc:a7902aa9c3a0bd7684ced17235a87c390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associated task.  <a href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">More...</a><br /></td></tr>
-<tr class="separator:a7902aa9c3a0bd7684ced17235a87c390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e4032346c8ece5be5594571fe2e092"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a></td></tr>
-<tr class="memdesc:a79e4032346c8ece5be5594571fe2e092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Owner.  <a href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">More...</a><br /></td></tr>
-<tr class="separator:a79e4032346c8ece5be5594571fe2e092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c31492372b8c1971651782a17985071"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a></td></tr>
-<tr class="memdesc:a7c31492372b8c1971651782a17985071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the task as consumed.  <a href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">More...</a><br /></td></tr>
-<tr class="separator:a7c31492372b8c1971651782a17985071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a7b8fbb3878aef1cc5f76367e4d43b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a></td></tr>
+<tr class="separator:a09a7b8fbb3878aef1cc5f76367e4d43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2dd72f389df2168012eb70160f6eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#add2dd72f389df2168012eb70160f6eb3">_duration</a></td></tr>
+<tr class="separator:add2dd72f389df2168012eb70160f6eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e890cbd7ed9ff7b8829e132605d432"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ad9e890cbd7ed9ff7b8829e132605d432">_group</a></td></tr>
+<tr class="separator:ad9e890cbd7ed9ff7b8829e132605d432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e8a2803a79f877e94162cc824fabbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/a05454.html#af3067f67a46b296be44fca007a2d3690">repeated_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a85e8a2803a79f877e94162cc824fabbe">_repeated</a></td></tr>
+<tr class="separator:a85e8a2803a79f877e94162cc824fabbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d846eeae80d54906771ba41281fbdc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a0d846eeae80d54906771ba41281fbdc0">_task</a></td></tr>
+<tr class="separator:a0d846eeae80d54906771ba41281fbdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:ab75a9caf07880e5ba2bb9f75068bbe7e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#ab75a9caf07880e5ba2bb9f75068bbe7e">TaskContext</a></td></tr>
+<tr class="separator:ab75a9caf07880e5ba2bb9f75068bbe7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0573c5408a663c3874787eeb7d599e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a05458.html#a9f0573c5408a663c3874787eeb7d599e">TaskScheduler</a></td></tr>
 <tr class="separator:a9f0573c5408a663c3874787eeb7d599e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac844b54773254e162987f61f6c37450d" name="ac844b54773254e162987f61f6c37450d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac844b54773254e162987f61f6c37450d">&#9670;&#160;</a></span>TaskContext() <span class="overload">[1/4]</span></h2>
+<a id="a15fd2d39bf79bd4d8ea432b5543f5efc" name="a15fd2d39bf79bd4d8ea432b5543f5efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15fd2d39bf79bd4d8ea432b5543f5efc">&#9670;&#160;</a></span>Task() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,45 +168,34 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TaskContext::TaskContext </td>
+          <td class="memname">TaskScheduler::Task::Task </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  433</span>        : <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>(), <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>(), <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>(std::make_shared&lt;bool&gt;(<span class="keyword">true</span>)) { }</div>
-<div class="ttc" id="aa05458_html_a7902aa9c3a0bd7684ced17235a87c390"><div class="ttname"><a href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">TaskContext::_task</a></div><div class="ttdeci">TaskScheduler::TaskContainer _task</div><div class="ttdoc">Associated task.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:419</div></div>
-<div class="ttc" id="aa05458_html_a79e4032346c8ece5be5594571fe2e092"><div class="ttname"><a href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">TaskContext::_owner</a></div><div class="ttdeci">std::weak_ptr&lt; TaskScheduler &gt; _owner</div><div class="ttdoc">Owner.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:422</div></div>
-<div class="ttc" id="aa05458_html_a7c31492372b8c1971651782a17985071"><div class="ttname"><a href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">TaskContext::_consumed</a></div><div class="ttdeci">std::shared_ptr&lt; bool &gt; _consumed</div><div class="ttdoc">Marks the task as consumed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:425</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adca01e15214852dd23d3e404ee3e1f21" name="adca01e15214852dd23d3e404ee3e1f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adca01e15214852dd23d3e404ee3e1f21">&#9670;&#160;</a></span>TaskContext() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TaskContext::TaskContext </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a0c6c7a95026322208866b6b829e0b598">TaskScheduler::TaskContainer</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>task</em>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>owner</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#af3067f67a46b296be44fca007a2d3690">repeated_t</a> const&#160;</td>
+          <td class="paramname"><em>repeated</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>task</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -297,16 +205,21 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  437</span>        : <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>(task), <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>(owner), <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>(std::make_shared&lt;bool&gt;(<span class="keyword">false</span>)) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">   79</span>            : <a class="code hl_variable" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a>(end), <a class="code hl_variable" href="../../de/d5f/a05458.html#add2dd72f389df2168012eb70160f6eb3">_duration</a>(duration), <a class="code hl_variable" href="../../de/d5f/a05458.html#ad9e890cbd7ed9ff7b8829e132605d432">_group</a>(group), <a class="code hl_variable" href="../../de/d5f/a05458.html#a85e8a2803a79f877e94162cc824fabbe">_repeated</a>(repeated), <a class="code hl_variable" href="../../de/d5f/a05458.html#a0d846eeae80d54906771ba41281fbdc0">_task</a>(task) { }</div>
+<div class="ttc" id="aa05458_html_a09a7b8fbb3878aef1cc5f76367e4d43b"><div class="ttname"><a href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">TaskScheduler::Task::_end</a></div><div class="ttdeci">timepoint_t _end</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:69</div></div>
+<div class="ttc" id="aa05458_html_a0d846eeae80d54906771ba41281fbdc0"><div class="ttname"><a href="../../de/d5f/a05458.html#a0d846eeae80d54906771ba41281fbdc0">TaskScheduler::Task::_task</a></div><div class="ttdeci">task_handler_t _task</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:73</div></div>
+<div class="ttc" id="aa05458_html_a85e8a2803a79f877e94162cc824fabbe"><div class="ttname"><a href="../../de/d5f/a05458.html#a85e8a2803a79f877e94162cc824fabbe">TaskScheduler::Task::_repeated</a></div><div class="ttdeci">repeated_t _repeated</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:72</div></div>
+<div class="ttc" id="aa05458_html_ad9e890cbd7ed9ff7b8829e132605d432"><div class="ttname"><a href="../../de/d5f/a05458.html#ad9e890cbd7ed9ff7b8829e132605d432">TaskScheduler::Task::_group</a></div><div class="ttdeci">std::optional&lt; group_t &gt; _group</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:71</div></div>
+<div class="ttc" id="aa05458_html_add2dd72f389df2168012eb70160f6eb3"><div class="ttname"><a href="../../de/d5f/a05458.html#add2dd72f389df2168012eb70160f6eb3">TaskScheduler::Task::_duration</a></div><div class="ttdeci">duration_t _duration</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:70</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad3e2db1e5a72a066f1eb6f9efc59cc26" name="ad3e2db1e5a72a066f1eb6f9efc59cc26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e2db1e5a72a066f1eb6f9efc59cc26">&#9670;&#160;</a></span>TaskContext() <span class="overload">[3/4]</span></h2>
+<a id="ad9b788727c5e8dfa5c424970f882b1dc" name="ad9b788727c5e8dfa5c424970f882b1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b788727c5e8dfa5c424970f882b1dc">&#9670;&#160;</a></span>Task() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,11 +228,27 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TaskContext::TaskContext </td>
+          <td class="memname">TaskScheduler::Task::Task </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a> const &amp;&#160;</td>
+          <td class="paramname"><em>task</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -328,12 +257,12 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  441</span>        : <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>(right._task), <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>(right._owner), <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>(right._consumed) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">   83</span>            : <a class="code hl_variable" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a>(end), <a class="code hl_variable" href="../../de/d5f/a05458.html#add2dd72f389df2168012eb70160f6eb3">_duration</a>(duration), <a class="code hl_variable" href="../../de/d5f/a05458.html#ad9e890cbd7ed9ff7b8829e132605d432">_group</a>(std::nullopt), <a class="code hl_variable" href="../../de/d5f/a05458.html#a85e8a2803a79f877e94162cc824fabbe">_repeated</a>(0), <a class="code hl_variable" href="../../de/d5f/a05458.html#a0d846eeae80d54906771ba41281fbdc0">_task</a>(task) { }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a6dbb5d52d6e3d4a0f173fa23ccb80b25" name="a6dbb5d52d6e3d4a0f173fa23ccb80b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dbb5d52d6e3d4a0f173fa23ccb80b25">&#9670;&#160;</a></span>TaskContext() <span class="overload">[4/4]</span></h2>
+<a id="a7eec23707deabeb93b600ad1b17812d6" name="a7eec23707deabeb93b600ad1b17812d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eec23707deabeb93b600ad1b17812d6">&#9670;&#160;</a></span>Task() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,26 +271,51 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TaskContext::TaskContext </td>
+          <td class="memname">TaskScheduler::Task::Task </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  445</span>        : <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>(std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>)), <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>(std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>)), <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>(std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>)) { }</div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a9acec30a90c44ffcff66c256a9caf01a" name="a9acec30a90c44ffcff66c256a9caf01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9acec30a90c44ffcff66c256a9caf01a">&#9670;&#160;</a></span>Task() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TaskScheduler::Task::Task </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a40aa7f8f29b300c5252ffd23c7e1632f" name="a40aa7f8f29b300c5252ffd23c7e1632f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40aa7f8f29b300c5252ffd23c7e1632f">&#9670;&#160;</a></span>AssertOnConsumed()</h2>
+<a id="a0bbb86f1ed4357c9af9813e551fc41d7" name="a0bbb86f1ed4357c9af9813e551fc41d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bbb86f1ed4357c9af9813e551fc41d7">&#9670;&#160;</a></span>IsInGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,485 +324,29 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TaskContext::AssertOnConsumed </td>
+          <td class="memname">bool TaskScheduler::Task::IsInGroup </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Asserts if the task was consumed already. </p>
-<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
-<div class="line"><span class="lineno">  256</span>    <span class="comment">// This was adapted to TC to prevent static analysis tools from complaining.</span></div>
-<div class="line"><span class="lineno">  257</span>    <span class="comment">// If you encounter this assertion check if you repeat a TaskContext more then 1 time!</span></div>
-<div class="line"><span class="lineno">  258</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!(*<a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>) &amp;&amp; <span class="stringliteral">&quot;Bad task logic, task context was consumed already!&quot;</span>);</div>
-<div class="line"><span class="lineno">  259</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00485">Repeat()</a>.</p>
-
-</div>
-</div>
-<a id="a8e152545e08d9a73522bf03b631148a2" name="a8e152545e08d9a73522bf03b631148a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e152545e08d9a73522bf03b631148a2">&#9670;&#160;</a></span>Async()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Async </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; void()&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>callable</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Schedule a callable function that is executed at the next update tick from within the context. Its safe to modify the <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> from within the callable. </p>
-<div class="fragment"><div class="line"><span class="lineno">  235</span>{</div>
-<div class="line"><span class="lineno">  236</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a>, std::placeholders::_1, callable));</div>
-<div class="line"><span class="lineno">  237</span>}</div>
-<div class="ttc" id="aa05442_html_a0e4b7eea4d37cf6d9ae66330d6349626"><div class="ttname"><a href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a></div><div class="ttdeci">TaskScheduler &amp; Async(std::function&lt; void()&gt; const &amp;callable)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:39</div></div>
-<div class="ttc" id="aa05458_html_a5c5bc5a317527f3dbc496e6e5a873505"><div class="ttname"><a href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">TaskContext::Dispatch</a></div><div class="ttdeci">TaskContext &amp; Dispatch(std::function&lt; TaskScheduler &amp;(TaskScheduler &amp;)&gt; const &amp;apply)</div><div class="ttdoc">Dispatches an action safe on the TaskScheduler.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:197</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">TaskScheduler::Async()</a>, and <a class="el" href="../../#l00076">TaskScheduler::Dispatch()</a>.</p>
-
-</div>
-</div>
-<a id="a6aa85817c2bf7c7f2f868d4a0a9fdf98" name="a6aa85817c2bf7c7f2f868d4a0a9fdf98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aa85817c2bf7c7f2f868d4a0a9fdf98">&#9670;&#160;</a></span>CancelAll()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::CancelAll </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cancels all tasks from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  240</span>{</div>
-<div class="line"><span class="lineno">  241</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::mem_fn(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a>));</div>
-<div class="line"><span class="lineno">  242</span>}</div>
-<div class="ttc" id="aa05442_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d4/de2/a05442.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:45</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00045">TaskScheduler::CancelAll()</a>, and <a class="el" href="../../#l00076">TaskScheduler::Dispatch()</a>.</p>
-
-</div>
-</div>
-<a id="a95dca8900ebf6709d9c5535f39c7277f" name="a95dca8900ebf6709d9c5535f39c7277f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95dca8900ebf6709d9c5535f39c7277f">&#9670;&#160;</a></span>CancelGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::CancelGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cancel all tasks of a single group from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  245</span>{</div>
-<div class="line"><span class="lineno">  246</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#aa4076cb693d644584f7475dd4f5f4b5d">TaskScheduler::CancelGroup</a>, std::placeholders::_1, group));</div>
-<div class="line"><span class="lineno">  247</span>}</div>
-<div class="ttc" id="aa05442_html_aa4076cb693d644584f7475dd4f5f4b5d"><div class="ttname"><a href="../../d4/de2/a05442.html#aa4076cb693d644584f7475dd4f5f4b5d">TaskScheduler::CancelGroup</a></div><div class="ttdeci">TaskScheduler &amp; CancelGroup(group_t const group)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:53</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00053">TaskScheduler::CancelGroup()</a>, and <a class="el" href="../../#l00076">TaskScheduler::Dispatch()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00184">boss_warbringer_omrogg::ScheduleBurningPhase()</a>.</p>
-
-</div>
-</div>
-<a id="ac22c5c7e5ceac123c72918d77edb25b9" name="ac22c5c7e5ceac123c72918d77edb25b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac22c5c7e5ceac123c72918d77edb25b9">&#9670;&#160;</a></span>CancelGroupsOf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::CancelGroupsOf </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>groups</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Cancels all groups in the given std::vector from within the context. Hint: Use std::initializer_list for this: "{1, 2, 3, 4}" </p>
-<div class="fragment"><div class="line"><span class="lineno">  250</span>{</div>
-<div class="line"><span class="lineno">  251</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#a16b63643c58023c8e22f75e5782af4bf">TaskScheduler::CancelGroupsOf</a>, std::placeholders::_1, std::cref(groups)));</div>
-<div class="line"><span class="lineno">  252</span>}</div>
-<div class="ttc" id="aa05442_html_a16b63643c58023c8e22f75e5782af4bf"><div class="ttname"><a href="../../d4/de2/a05442.html#a16b63643c58023c8e22f75e5782af4bf">TaskScheduler::CancelGroupsOf</a></div><div class="ttdeci">TaskScheduler &amp; CancelGroupsOf(std::vector&lt; group_t &gt; const &amp;groups)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:62</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00062">TaskScheduler::CancelGroupsOf()</a>, and <a class="el" href="../../#l00076">TaskScheduler::Dispatch()</a>.</p>
-
-</div>
-</div>
-<a id="ac3d6d215d8c605a1f724af35136bafe6" name="ac3d6d215d8c605a1f724af35136bafe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d6d215d8c605a1f724af35136bafe6">&#9670;&#160;</a></span>ClearGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::ClearGroup </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Removes the group from the event. </p>
-<div class="fragment"><div class="line"><span class="lineno">  224</span>{</div>
-<div class="line"><span class="lineno">  225</span>    <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_group = std::nullopt;</div>
-<div class="line"><span class="lineno">  226</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  227</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aad967f626ce88f95bb7e0610f92f83bb" name="aad967f626ce88f95bb7e0610f92f83bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad967f626ce88f95bb7e0610f92f83bb">&#9670;&#160;</a></span>DelayAll() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::DelayAll </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delays all tasks with the given duration from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  586</span>    {</div>
-<div class="line"><span class="lineno">  587</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;TaskScheduler::DelayAll&lt;_Rep, _Period&gt;, std::placeholders::_1, duration));</div>
-<div class="line"><span class="lineno">  588</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00197">Dispatch()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00592">DelayAll()</a>.</p>
-
-</div>
-</div>
-<a id="abde6f85254b960e69355583af88123f1" name="abde6f85254b960e69355583af88123f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde6f85254b960e69355583af88123f1">&#9670;&#160;</a></span>DelayAll() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::DelayAll </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delays all tasks with a random duration between min and max from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  594</span>    {</div>
-<div class="line"><span class="lineno">  595</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#aad967f626ce88f95bb7e0610f92f83bb">DelayAll</a>(<a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max));</div>
-<div class="line"><span class="lineno">  596</span>    }</div>
-<div class="ttc" id="aa05442_html_aef5466d24be443ceaacd982b960eefd6"><div class="ttname"><a href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a></div><div class="ttdeci">static std::chrono::milliseconds RandomDurationBetween(std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
-<div class="ttc" id="aa05458_html_aad967f626ce88f95bb7e0610f92f83bb"><div class="ttname"><a href="../../de/d5f/a05458.html#aad967f626ce88f95bb7e0610f92f83bb">TaskContext::DelayAll</a></div><div class="ttdeci">TaskContext &amp; DelayAll(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Delays all tasks with the given duration from within the context.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:585</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00585">DelayAll()</a>, and <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>.</p>
-
-</div>
-</div>
-<a id="ab51c9108135f18eda88250cbdc1d4c9e" name="ab51c9108135f18eda88250cbdc1d4c9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab51c9108135f18eda88250cbdc1d4c9e">&#9670;&#160;</a></span>DelayGroup() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::DelayGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delays all tasks of a group with the given duration from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  601</span>    {</div>
-<div class="line"><span class="lineno">  602</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;TaskScheduler::DelayGroup&lt;_Rep, _Period&gt;, std::placeholders::_1, group, duration));</div>
-<div class="line"><span class="lineno">  603</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00197">Dispatch()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00607">DelayGroup()</a>, <a class="el" href="../../#l00059">boss_rage_winterchill::JustEngagedWith()</a>, and <a class="el" href="../../#l00065">boss_pandemonius::JustEngagedWith()</a>.</p>
-
-</div>
-</div>
-<a id="a701e13bfc09a6c1fc6e372c5310e2d80" name="a701e13bfc09a6c1fc6e372c5310e2d80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a701e13bfc09a6c1fc6e372c5310e2d80">&#9670;&#160;</a></span>DelayGroup() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::DelayGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delays all tasks of a group with a random duration between min and max from within the context. </p>
-<div class="fragment"><div class="line"><span class="lineno">  610</span>    {</div>
-<div class="line"><span class="lineno">  611</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#ab51c9108135f18eda88250cbdc1d4c9e">DelayGroup</a>(group, <a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max));</div>
-<div class="line"><span class="lineno">  612</span>    }</div>
-<div class="ttc" id="aa05458_html_ab51c9108135f18eda88250cbdc1d4c9e"><div class="ttname"><a href="../../de/d5f/a05458.html#ab51c9108135f18eda88250cbdc1d4c9e">TaskContext::DelayGroup</a></div><div class="ttdeci">TaskContext &amp; DelayGroup(TaskScheduler::group_t const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Delays all tasks of a group with the given duration from within the context.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:600</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00600">DelayGroup()</a>, and <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>.</p>
-
-</div>
-</div>
-<a id="a5c5bc5a317527f3dbc496e6e5a873505" name="a5c5bc5a317527f3dbc496e6e5a873505"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5bc5a317527f3dbc496e6e5a873505">&#9670;&#160;</a></span>Dispatch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Dispatch </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;(<a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>apply</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Dispatches an action safe on the <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a>. </p>
-<div class="fragment"><div class="line"><span class="lineno">  198</span>{</div>
-<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">if</span> (<span class="keyword">auto</span> <span class="keyword">const</span> owner = <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>.lock())</div>
-<div class="line"><span class="lineno">  200</span>    {</div>
-<div class="line"><span class="lineno">  201</span>        <a class="code hl_function" href="../../d9/dcf/a04692.html#a6177d7ac84a4ea6819c57a124345540e">apply</a>(*owner);</div>
-<div class="line"><span class="lineno">  202</span>    }</div>
-<div class="line"><span class="lineno">  203</span> </div>
-<div class="line"><span class="lineno">  204</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  205</span>}</div>
-<div class="ttc" id="aa04692_html_a6177d7ac84a4ea6819c57a124345540e"><div class="ttname"><a href="../../d9/dcf/a04692.html#a6177d7ac84a4ea6819c57a124345540e">ByteConverter::apply</a></div><div class="ttdeci">void apply(T *val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:40</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00585">DelayAll()</a>, <a class="el" href="../../#l00600">DelayGroup()</a>, <a class="el" href="../../#l00485">Repeat()</a>, <a class="el" href="../../#l00616">RescheduleAll()</a>, <a class="el" href="../../#l00631">RescheduleGroup()</a>, and <a class="el" href="../../#l00525">Schedule()</a>.</p>
-
-</div>
-</div>
-<a id="aab7910aa171d409afa3f074858eacd0e" name="aab7910aa171d409afa3f074858eacd0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab7910aa171d409afa3f074858eacd0e">&#9670;&#160;</a></span>GetRepeatCounter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/de2/a05442.html#af3067f67a46b296be44fca007a2d3690">TaskScheduler::repeated_t</a> TaskContext::GetRepeatCounter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the repeat counter which increases every time the task is repeated. </p>
-<div class="fragment"><div class="line"><span class="lineno">  230</span>{</div>
-<div class="line"><span class="lineno">  231</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_repeated;</div>
-<div class="line"><span class="lineno">  232</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00146">boss_mor_grayhoof::DamageTaken()</a>, <a class="el" href="../../#l00111">npc_underbog_mushroom::InitializeAI()</a>, <a class="el" href="../../#l00245">npc_spawn_of_marli::JustEngagedWith()</a>, <a class="el" href="../../#l00148">boss_grandmaster_vorpil::JustEngagedWith()</a>, <a class="el" href="../../#l00109">boss_wrath_scryer_soccothrates::JustEngagedWith()</a>, <a class="el" href="../../#l00054">boss_mechano_lord_capacitus::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_pandemonius::JustEngagedWith()</a>, <a class="el" href="../../#l00345">npc_janalai_hatcher::MovementInform()</a>, <a class="el" href="../../#l00204">boss_eye_of_cthun::ScheduleTask()</a>, and <a class="el" href="../../#l00230">npc_warchief_portal::SetData()</a>.</p>
-
-</div>
-</div>
-<a id="a47b03e1428d2b3df88a0664b93b0debc" name="a47b03e1428d2b3df88a0664b93b0debc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47b03e1428d2b3df88a0664b93b0debc">&#9670;&#160;</a></span>Invoke()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TaskContext::Invoke </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Invokes the associated hook of the task. </p>
-<div class="fragment"><div class="line"><span class="lineno">  262</span>{</div>
-<div class="line"><span class="lineno">  263</span>    <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_task(*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  264</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00076">TaskScheduler::Dispatch()</a>.</p>
-
-</div>
-</div>
-<a id="af1d32693e6df24d76a82b1a367eacbe5" name="af1d32693e6df24d76a82b1a367eacbe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1d32693e6df24d76a82b1a367eacbe5">&#9670;&#160;</a></span>IsExpired()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool TaskContext::IsExpired </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true if the owner was deallocated and this context has expired. </p>
-<div class="fragment"><div class="line"><span class="lineno">  208</span>{</div>
-<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>.expired();</div>
-<div class="line"><span class="lineno">  210</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad7bd61567707321cad553befb28c1c6a" name="ad7bd61567707321cad553befb28c1c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7bd61567707321cad553befb28c1c6a">&#9670;&#160;</a></span>IsInGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool TaskContext::IsInGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a> const&#160;</td>
           <td class="paramname"><em>group</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Returns true if the event is in the given group. </p>
-<div class="fragment"><div class="line"><span class="lineno">  213</span>{</div>
-<div class="line"><span class="lineno">  214</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;IsInGroup(group);</div>
-<div class="line"><span class="lineno">  215</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>        {</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#ad9e890cbd7ed9ff7b8829e132605d432">_group</a> == group;</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">_group</a>.</p>
+
 </div>
 </div>
-<a id="a0a8b54efb0dca1b279ba5a042e8e953f" name="a0a8b54efb0dca1b279ba5a042e8e953f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a8b54efb0dca1b279ba5a042e8e953f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="aa53b9d06447478218858aaff7634daab" name="aa53b9d06447478218858aaff7634daab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53b9d06447478218858aaff7634daab">&#9670;&#160;</a></span>operator&lt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -857,32 +355,55 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::operator= </td>
+          <td class="memname">bool TaskScheduler::Task::operator&lt; </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   96</span>        {</div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a> &lt; other._end;</div>
+<div class="line"><span class="lineno">   98</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00069">_end</a>.</p>
+
+</div>
+</div>
+<a id="af7f962055b0324a6fedcdd91d9d375dd" name="af7f962055b0324a6fedcdd91d9d375dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f962055b0324a6fedcdd91d9d375dd">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp; TaskScheduler::Task::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>right</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  458</span>    {</div>
-<div class="line"><span class="lineno">  459</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a> = std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>);</div>
-<div class="line"><span class="lineno">  460</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a> = std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a>);</div>
-<div class="line"><span class="lineno">  461</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a> = std::move(right.<a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a>);</div>
-<div class="line"><span class="lineno">  462</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  463</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00425">_consumed</a>, <a class="el" href="../../#l00422">_owner</a>, and <a class="el" href="../../#l00419">_task</a>.</p>
 
 </div>
 </div>
-<a id="a8db1ba366d6b9fcc7a054e2d213cec55" name="a8db1ba366d6b9fcc7a054e2d213cec55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db1ba366d6b9fcc7a054e2d213cec55">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="a97319b03103a3013d96f7abe094ab6a5" name="a97319b03103a3013d96f7abe094ab6a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97319b03103a3013d96f7abe094ab6a5">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -891,80 +412,36 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::operator= </td>
+          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">Task</a> &amp; TaskScheduler::Task::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  449</span>    {</div>
-<div class="line"><span class="lineno">  450</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a> = right._task;</div>
-<div class="line"><span class="lineno">  451</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a79e4032346c8ece5be5594571fe2e092">_owner</a> = right._owner;</div>
-<div class="line"><span class="lineno">  452</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7c31492372b8c1971651782a17985071">_consumed</a> = right._consumed;</div>
-<div class="line"><span class="lineno">  453</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  454</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00425">_consumed</a>, <a class="el" href="../../#l00422">_owner</a>, and <a class="el" href="../../#l00419">_task</a>.</p>
-
-</div>
-</div>
-<a id="adc1347e5fcff0bb21e45805b1cfd2809" name="adc1347e5fcff0bb21e45805b1cfd2809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc1347e5fcff0bb21e45805b1cfd2809">&#9670;&#160;</a></span>Repeat() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Repeat </td>
-          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Repeats the event with the same duration. This will consume the task context, its not possible to repeat the task again from the same task context! </p>
-<div class="fragment"><div class="line"><span class="lineno">  501</span>    {</div>
-<div class="line"><span class="lineno">  502</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#adc1347e5fcff0bb21e45805b1cfd2809">Repeat</a>(<a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_duration);</div>
-<div class="line"><span class="lineno">  503</span>    }</div>
-<div class="ttc" id="aa05458_html_adc1347e5fcff0bb21e45805b1cfd2809"><div class="ttname"><a href="../../de/d5f/a05458.html#adc1347e5fcff0bb21e45805b1cfd2809">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:500</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00419">_task</a>, and <a class="el" href="../../#l00500">Repeat()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00500">Repeat()</a>.</p>
 
 </div>
 </div>
-<a id="a380c596857dd0030414db5e8d28a3dda" name="a380c596857dd0030414db5e8d28a3dda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a380c596857dd0030414db5e8d28a3dda">&#9670;&#160;</a></span>Repeat() <span class="overload">[2/3]</span></h2>
+<a id="ac245f8900a292b6ad6ece4c44da85e11" name="ac245f8900a292b6ad6ece4c44da85e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac245f8900a292b6ad6ece4c44da85e11">&#9670;&#160;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Repeat </td>
+          <td class="memname">bool TaskScheduler::Task::operator== </td>
           <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -974,53 +451,29 @@ template&lt;class _Rep , class _Period &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Repeats the event and sets a new duration. std::chrono::seconds(5) for example. This will consume the task context, its not possible to repeat the task again from the same task context! </p>
-<div class="fragment"><div class="line"><span class="lineno">  486</span>    {</div>
-<div class="line"><span class="lineno">  487</span>        <a class="code hl_function" href="../../de/d5f/a05458.html#a40aa7f8f29b300c5252ffd23c7e1632f">AssertOnConsumed</a>();</div>
-<div class="line"><span class="lineno">  488</span> </div>
-<div class="line"><span class="lineno">  489</span>        <span class="comment">// Set new duration, in-context timing and increment repeat counter</span></div>
-<div class="line"><span class="lineno">  490</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_duration = duration;</div>
-<div class="line"><span class="lineno">  491</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_end += duration;</div>
-<div class="line"><span class="lineno">  492</span>        <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_repeated += 1;</div>
-<div class="line"><span class="lineno">  493</span>        (*_consumed) = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  494</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#ab507424a3a38170bb67f1a44d52d5e04">TaskScheduler::InsertTask</a>, std::placeholders::_1, <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>));</div>
-<div class="line"><span class="lineno">  495</span>    }</div>
-<div class="ttc" id="aa05442_html_ab507424a3a38170bb67f1a44d52d5e04"><div class="ttname"><a href="../../d4/de2/a05442.html#ab507424a3a38170bb67f1a44d52d5e04">TaskScheduler::InsertTask</a></div><div class="ttdeci">TaskScheduler &amp; InsertTask(TaskContainer task)</div><div class="ttdoc">Insert a new task to the enqueued tasks.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:70</div></div>
-<div class="ttc" id="aa05458_html_a40aa7f8f29b300c5252ffd23c7e1632f"><div class="ttname"><a href="../../de/d5f/a05458.html#a40aa7f8f29b300c5252ffd23c7e1632f">TaskContext::AssertOnConsumed</a></div><div class="ttdeci">void AssertOnConsumed() const</div><div class="ttdoc">Asserts if the task was consumed already.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:254</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  107</span>        {</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a> == other._end;</div>
+<div class="line"><span class="lineno">  109</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00419">_task</a>, <a class="el" href="../../#l00254">AssertOnConsumed()</a>, <a class="el" href="../../#l00197">Dispatch()</a>, and <a class="el" href="../../#l00070">TaskScheduler::InsertTask()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00182">boss_marli::_schedulePhaseSpider()</a>, <a class="el" href="../../#l00138">boss_marli::_schedulePhaseTroll()</a>, <a class="el" href="../../#l00249">boss_thekal::CheckPhaseTransition()</a>, <a class="el" href="../../#l00146">boss_mor_grayhoof::DamageTaken()</a>, <a class="el" href="../../#l00065">boss_isalien::DamageTaken()</a>, <a class="el" href="../../#l00118">boss_ouro::DamageTaken()</a>, <a class="el" href="../../#l00192">boss_leotheras_the_blind::DemonTime()</a>, <a class="el" href="../../#l00118">boss_apothecary_hummel::boss_apothecary_hummelAI::DoAction()</a>, <a class="el" href="../../#l00066">boss_broggok::DoAction()</a>, <a class="el" href="../../#l00122">instance_zulaman::instance_zulaman_InstanceMapScript::DoAction()</a>, <a class="el" href="../../#l00165">boss_leotheras_the_blind::ElfTime()</a>, <a class="el" href="../../#l00201">boss_ouro::Emerge()</a>, <a class="el" href="../../#l00155">boss_halazzi::EnterPhase()</a>, <a class="el" href="../../#l00328">boss_glob_of_viscidus::InitializeAI()</a>, <a class="el" href="../../#l00335">npc_rancid_mushroom::InitializeAI()</a>, <a class="el" href="../../#l00111">npc_underbog_mushroom::InitializeAI()</a>, <a class="el" href="../../#l00096">boss_moroes::InitializeGuests()</a>, <a class="el" href="../../#l00057">go_firework_show::InitShow()</a>, <a class="el" href="../../#l00173">boss_grand_warlock_nethekurse::IntroRP()</a>, <a class="el" href="../../#l00865">npc_corrupted_totem::IsSummonedBy()</a>, <a class="el" href="../../#l00076">boss_kormok::IsSummonedBy()</a>, <a class="el" href="../../#l00189">npc_anzu_spirit::IsSummonedBy()</a>, <a class="el" href="../../#l01244">npc_parasitic_shadowfiend::IsSummonedBy()</a>, <a class="el" href="../../#l00161">npc_raging_flames::IsSummonedBy()</a>, <a class="el" href="../../#l00168">boss_attumen::IsSummonedBy()</a>, <a class="el" href="../../#l00259">npc_inner_demon::IsSummonedBy()</a>, <a class="el" href="../../#l00192">boss_mor_grayhoof::JustEngagedWith()</a>, <a class="el" href="../../#l00187">boss_malchezaar::JustEngagedWith()</a>, <a class="el" href="../../#l00331">npc_malchezaar_axe::JustEngagedWith()</a>, <a class="el" href="../../#l00050">boss_servant_quarters::JustEngagedWith()</a>, <a class="el" href="../../#l00070">npc_kilrek::JustEngagedWith()</a>, <a class="el" href="../../#l00179">boss_terestian_illhoof::JustEngagedWith()</a>, <a class="el" href="../../#l00195">boss_dorothee::JustEngagedWith()</a>, <a class="el" href="../../#l00283">npc_tito::JustEngagedWith()</a>, <a class="el" href="../../#l00343">boss_roar::JustEngagedWith()</a>, <a class="el" href="../../#l00430">boss_strawman::JustEngagedWith()</a>, <a class="el" href="../../#l00520">boss_tinhead::JustEngagedWith()</a>, <a class="el" href="../../#l00606">boss_crone::JustEngagedWith()</a>, <a class="el" href="../../#l00657">npc_cyclone::JustEngagedWith()</a>, <a class="el" href="../../#l00755">boss_bigbadwolf::JustEngagedWith()</a>, <a class="el" href="../../#l00087">boss_kormok::JustEngagedWith()</a>, <a class="el" href="../../#l00063">boss_baroness_anastari::boss_baroness_anastariAI::JustEngagedWith()</a>, <a class="el" href="../../#l00184">boss_jarien::JustEngagedWith()</a>, <a class="el" href="../../#l00310">boss_sothos::JustEngagedWith()</a>, <a class="el" href="../../#l00087">boss_twilight_corrupter::JustEngagedWith()</a>, <a class="el" href="../../#l00191">npc_healing_ward::JustEngagedWith()</a>, <a class="el" href="../../#l00241">npc_shade_of_jindo::JustEngagedWith()</a>, <a class="el" href="../../#l00676">npc_vilebranch_speaker::JustEngagedWith()</a>, <a class="el" href="../../#l00141">boss_thekal::JustEngagedWith()</a>, <a class="el" href="../../#l00355">npc_zealot_lorkhan::JustEngagedWith()</a>, <a class="el" href="../../#l00456">npc_zealot_zath::JustEngagedWith()</a>, <a class="el" href="../../#l00093">boss_venoxis::JustEngagedWith()</a>, <a class="el" href="../../#l01763">npc_coren_direbrew_sisters::JustEngagedWith()</a>, <a class="el" href="../../#l00604">npc_hallows_end_soh::JustEngagedWith()</a>, <a class="el" href="../../#l00087">boss_azuregos::boss_azuregosAI::JustEngagedWith()</a>, <a class="el" href="../../#l00119">npc_hyjal_jaina::hyjalJainaAI::JustEngagedWith()</a>, <a class="el" href="../../#l00219">npc_hyjal_thrall::hyjalThrallAI::JustEngagedWith()</a>, <a class="el" href="../../#l00291">npc_hyjal_tyrande::hyjalTyrandeAI::JustEngagedWith()</a>, <a class="el" href="../../#l00386">npc_hyjal_ground_trash::JustEngagedWith()</a>, <a class="el" href="../../#l00598">npc_hyjal_gargoyle::JustEngagedWith()</a>, <a class="el" href="../../#l00672">npc_hyjal_frost_wyrm::JustEngagedWith()</a>, <a class="el" href="../../#l00164">boss_captain_skarloc::JustEngagedWith()</a>, <a class="el" href="../../#l00042">boss_epoch_hunter::JustEngagedWith()</a>, <a class="el" href="../../#l00054">boss_lieutenant_drake::JustEngagedWith()</a>, <a class="el" href="../../#l00067">boss_aeonus::JustEngagedWith()</a>, <a class="el" href="../../#l00051">boss_chrono_lord_deja::JustEngagedWith()</a>, <a class="el" href="../../#l00049">boss_temporus::JustEngagedWith()</a>, <a class="el" href="../../#l00090">boss_isalien::JustEngagedWith()</a>, <a class="el" href="../../#l00407">npc_anubisath_guardian::JustEngagedWith()</a>, <a class="el" href="../../#l00096">npc_obsidian_destroyer::JustEngagedWith()</a>, <a class="el" href="../../#l00556">npc_eye_tentacle::JustEngagedWith()</a>, <a class="el" href="../../#l00615">npc_claw_tentacle::JustEngagedWith()</a>, <a class="el" href="../../#l00331">npc_dirt_mound::JustEngagedWith()</a>, <a class="el" href="../../#l00084">npc_anubisath_defender::JustEngagedWith()</a>, <a class="el" href="../../#l00240">npc_obsidian_eradicator::JustEngagedWith()</a>, <a class="el" href="../../#l00298">npc_anubisath_warder::JustEngagedWith()</a>, <a class="el" href="../../#l00364">npc_obsidian_nullifier::JustEngagedWith()</a>, <a class="el" href="../../#l00454">npc_ahnqiraji_critter::JustEngagedWith()</a>, <a class="el" href="../../#l02953">npc_icc_spire_frostwyrm::JustEngagedWith()</a>, <a class="el" href="../../#l01744">boss_yoggsaron_keeper::JustEngagedWith()</a>, <a class="el" href="../../#l00094">boss_exarch_maladaar::JustEngagedWith()</a>, <a class="el" href="../../#l00071">boss_shirrak_the_dead_watcher::JustEngagedWith()</a>, <a class="el" href="../../#l00087">boss_nexusprince_shaffar::JustEngagedWith()</a>, <a class="el" href="../../#l00168">npc_yor::JustEngagedWith()</a>, <a class="el" href="../../#l00044">boss_tavarok::JustEngagedWith()</a>, <a class="el" href="../../#l00108">boss_anzu::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_darkweaver_syth::JustEngagedWith()</a>, <a class="el" href="../../#l00095">boss_talon_king_ikiss::JustEngagedWith()</a>, <a class="el" href="../../#l00094">boss_ambassador_hellmaw::JustEngagedWith()</a>, <a class="el" href="../../#l00078">boss_blackheart_the_inciter::JustEngagedWith()</a>, <a class="el" href="../../#l00148">boss_grandmaster_vorpil::JustEngagedWith()</a>, <a class="el" href="../../#l00428">boss_essence_of_desire::boss_essence_of_desireAI::JustEngagedWith()</a>, <a class="el" href="../../#l00069">boss_doomlord_kazzak::boss_doomlordkazzakAI::JustEngagedWith()</a>, <a class="el" href="../../#l00066">boss_doomwalker::JustEngagedWith()</a>, <a class="el" href="../../#l00062">boss_mennu_the_betrayer::JustEngagedWith()</a>, <a class="el" href="../../#l00040">boss_quagmirran::JustEngagedWith()</a>, <a class="el" href="../../#l00050">boss_rokmar_the_crackler::JustEngagedWith()</a>, <a class="el" href="../../#l00057">boss_hydromancer_thespia::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_mekgineer_steamrigger::JustEngagedWith()</a>, <a class="el" href="../../#l00074">boss_warlord_kalithresh::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_ghazan::JustEngagedWith()</a>, <a class="el" href="../../#l00068">boss_hungarfen::JustEngagedWith()</a>, <a class="el" href="../../#l00099">boss_swamplord_muselek::JustEngagedWith()</a>, <a class="el" href="../../#l00064">boss_the_black_stalker::JustEngagedWith()</a>, <a class="el" href="../../#l00039">npc_underbat::JustEngagedWith()</a>, <a class="el" href="../../#l00074">boss_gruul::JustEngagedWith()</a>, <a class="el" href="../../#l00136">boss_high_king_maulgar::JustEngagedWith()</a>, <a class="el" href="../../#l00200">boss_olm_the_summoner::JustEngagedWith()</a>, <a class="el" href="../../#l00274">boss_kiggler_the_crazed::JustEngagedWith()</a>, <a class="el" href="../../#l00347">boss_blindeye_the_seer::JustEngagedWith()</a>, <a class="el" href="../../#l00416">boss_krosh_firehand::JustEngagedWith()</a>, <a class="el" href="../../#l00076">boss_kelidan_the_breaker::JustEngagedWith()</a>, <a class="el" href="../../#l00055">boss_the_maker::JustEngagedWith()</a>, <a class="el" href="../../#l00066">boss_omor_the_unscarred::JustEngagedWith()</a>, <a class="el" href="../../#l00161">boss_nazan::JustEngagedWith()</a>, <a class="el" href="../../#l00268">boss_vazruden::JustEngagedWith()</a>, <a class="el" href="../../#l00080">boss_watchkeeper_gargolmar::JustEngagedWith()</a>, <a class="el" href="../../#l00081">boss_dalliah_the_doomsayer::JustEngagedWith()</a>, <a class="el" href="../../#l00077">boss_harbinger_skyriss::JustEngagedWith()</a>, <a class="el" href="../../#l00109">boss_wrath_scryer_soccothrates::JustEngagedWith()</a>, <a class="el" href="../../#l00049">boss_zereketh_the_unbound::JustEngagedWith()</a>, <a class="el" href="../../#l00052">boss_high_botanist_freywinn::JustEngagedWith()</a>, <a class="el" href="../../#l00071">boss_thorngrin_the_tender::JustEngagedWith()</a>, <a class="el" href="../../#l00044">boss_warp_splinter::JustEngagedWith()</a>, <a class="el" href="../../#l00047">boss_gatewatcher_gyrokill::JustEngagedWith()</a>, <a class="el" href="../../#l00042">boss_gatewatcher_iron_hand::JustEngagedWith()</a>, <a class="el" href="../../#l00054">boss_mechano_lord_capacitus::JustEngagedWith()</a>, <a class="el" href="../../#l00072">boss_nethermancer_sepethrea::JustEngagedWith()</a>, <a class="el" href="../../#l00080">boss_pathaleon_the_calculator::JustEngagedWith()</a>, <a class="el" href="../../#l01494">npc_enraged_spirit::npc_enraged_spiritAI::JustEngagedWith()</a>, <a class="el" href="../../#l00084">boss_curator::JustEngagedWith()</a>, <a class="el" href="../../#l00049">boss_maiden_of_virtue::JustEngagedWith()</a>, <a class="el" href="../../#l00337">boss_midnight::JustEngagedWith()</a>, <a class="el" href="../../#l00142">boss_moroes::JustEngagedWith()</a>, <a class="el" href="../../#l00120">boss_sacrolash::JustEngagedWith()</a>, <a class="el" href="../../#l00232">boss_alythess::JustEngagedWith()</a>, <a class="el" href="../../#l00224">boss_nalorakk::JustEngagedWith()</a>, <a class="el" href="../../#l00330">npc_batrider::JustEngagedWith()</a>, <a class="el" href="../../#l00541">npc_ohgan::npc_ohganAI::JustEngagedWith()</a>, <a class="el" href="../../#l00103">boss_marli::JustEngagedWith()</a>, <a class="el" href="../../#l00058">boss_anetheron::JustEngagedWith()</a>, <a class="el" href="../../#l00056">boss_azgalor::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_kazrogal::JustEngagedWith()</a>, <a class="el" href="../../#l00059">boss_rage_winterchill::JustEngagedWith()</a>, <a class="el" href="../../#l00050">boss_kurinnaxx::JustEngagedWith()</a>, <a class="el" href="../../#l00047">npc_hivezara_stinger::JustEngagedWith()</a>, <a class="el" href="../../#l00334">boss_kri::JustEngagedWith()</a>, <a class="el" href="../../#l00362">boss_vem::JustEngagedWith()</a>, <a class="el" href="../../#l00411">boss_yauj::JustEngagedWith()</a>, <a class="el" href="../../#l00085">boss_fankriss::JustEngagedWith()</a>, <a class="el" href="../../#l00232">boss_twinemperorsAI::JustEngagedWith()</a>, <a class="el" href="../../#l00293">boss_veknilash::JustEngagedWith()</a>, <a class="el" href="../../#l00323">boss_veklor::JustEngagedWith()</a>, <a class="el" href="../../#l00190">npc_vekniss_stinger::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_pandemonius::JustEngagedWith()</a>, <a class="el" href="../../#l00128">boss_murmur::JustEngagedWith()</a>, <a class="el" href="../../#l00078">boss_gurtogg_bloodboil::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_supremus::JustEngagedWith()</a>, <a class="el" href="../../#l00148">boss_fathomlord_karathress::JustEngagedWith()</a>, <a class="el" href="../../#l00229">boss_fathomguard_sharkkis::JustEngagedWith()</a>, <a class="el" href="../../#l00426">boss_fathomguard_tidalvess::JustEngagedWith()</a>, <a class="el" href="../../#l00515">boss_fathomguard_caribdis::JustEngagedWith()</a>, <a class="el" href="../../#l00230">boss_hydross_the_unstable::JustEngagedWith()</a>, <a class="el" href="../../#l00097">boss_morogrim_tidewalker::JustEngagedWith()</a>, <a class="el" href="../../#l00193">boss_grand_warlock_nethekurse::JustEngagedWith()</a>, <a class="el" href="../../#l00056">boss_porung::JustEngagedWith()</a>, <a class="el" href="../../#l00141">boss_warchief_kargath_bladefist::JustEngagedWith()</a>, <a class="el" href="../../#l00135">boss_alar::JustEngagedWith()</a>, <a class="el" href="../../#l00124">boss_high_astromancer_solarian::JustEngagedWith()</a>, <a class="el" href="../../#l00082">boss_void_reaver::JustEngagedWith()</a>, <a class="el" href="../../#l00711">npc_midsummer_ribbon_pole_target::LocateRibbonPole()</a>, <a class="el" href="../../#l00118">boss_nalorakk::MoveInLineOfSight()</a>, <a class="el" href="../../#l00240">npc_ulduar_snow_mound::MoveInLineOfSight()</a>, <a class="el" href="../../#l00119">boss_ayamiss::MovementInform()</a>, <a class="el" href="../../#l00178">boss_lady_vashj::MovementInform()</a>, <a class="el" href="../../#l00200">boss_nazan::MovementInform()</a>, <a class="el" href="../../#l00127">npc_shattered_hand_scout::MovementInform()</a>, <a class="el" href="../../#l00407">boss_kaelthas::MovementInform()</a>, <a class="el" href="../../#l00345">npc_janalai_hatcher::MovementInform()</a>, <a class="el" href="../../#l00183">npc_midsummer_bonfire::npc_midsummer_bonfire()</a>, <a class="el" href="../../#l00643">npc_midsummer_ribbon_pole_target::npc_midsummer_ribbon_pole_target()</a>, <a class="el" href="../../#l00426">boss_high_nethermancer_zerevor::OnAuraRemove()</a>, <a class="el" href="../../#l00146">boss_jeklik::PathEndReached()</a>, <a class="el" href="../../#l00690">boss_kaelthas::PhaseKaelExecute()</a>, <a class="el" href="../../#l00096">boss_malchezaar::Reset()</a>, <a class="el" href="../../#l00332">npc_apothecary_baxter::Reset()</a>, <a class="el" href="../../#l00229">npc_shade_of_jindo::Reset()</a>, <a class="el" href="../../#l00082">boss_thekal::Reset()</a>, <a class="el" href="../../#l00331">npc_zealot_lorkhan::Reset()</a>, <a class="el" href="../../#l00432">npc_zealot_zath::Reset()</a>, <a class="el" href="../../#l00799">npc_giant_eye_tentacle::Reset()</a>, <a class="el" href="../../#l00422">npc_ahnqiraji_critter::Reset()</a>, <a class="el" href="../../#l00672">boss_kologarn_pit_kill_bunny::Reset()</a>, <a class="el" href="../../#l00818">npc_cosmetic_toy_plane::Reset()</a>, <a class="el" href="../../#l00163">npc_stolen_soul::Reset()</a>, <a class="el" href="../../#l00476">npc_ashtongue_channeler::Reset()</a>, <a class="el" href="../../#l00074">boss_high_king_maulgar::Reset()</a>, <a class="el" href="../../#l00051">boss_omor_the_unscarred::Reset()</a>, <a class="el" href="../../#l00057">boss_watchkeeper_gargolmar::Reset()</a>, <a class="el" href="../../#l00089">boss_magtheridon::Reset()</a>, <a class="el" href="../../#l00076">boss_high_astromancer_solarian::Reset()</a>, <a class="el" href="../../#l01066">npc_injured_patient::npc_injured_patientAI::Reset()</a>, <a class="el" href="../../#l00470">boss_illidan_stormrage::ScheduleAbilities()</a>, <a class="el" href="../../#l00315">boss_razuvious_minion::boss_razuvious_minionAI::ScheduleAttackDummy()</a>, <a class="el" href="../../#l00184">boss_warbringer_omrogg::ScheduleBurningPhase()</a>, <a class="el" href="../../#l00976">boss_julianne::ScheduleCombat()</a>, <a class="el" href="../../#l01200">boss_romulo::ScheduleCombat()</a>, <a class="el" href="../../#l00156">boss_magtheridon::ScheduleCombatEvents()</a>, <a class="el" href="../../#l00195">npc_dream_fog::npc_dream_fogAI::ScheduleEvents()</a>, <a class="el" href="../../#l00230">boss_nightbane::ScheduleFly()</a>, <a class="el" href="../../#l00192">boss_nightbane::ScheduleGround()</a>, <a class="el" href="../../#l00364">boss_alar::ScheduleMainSpellAttack()</a>, <a class="el" href="../../#l00191">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::ScheduleNextPortal()</a>, <a class="el" href="../../#l00156">boss_warbringer_omrogg::ScheduleNonBurningPhase()</a>, <a class="el" href="../../#l00088">boss_supremus::SchedulePhase()</a>, <a class="el" href="../../#l00086">boss_baroness_anastari::boss_baroness_anastariAI::SchedulePossession()</a>, <a class="el" href="../../#l00097">boss_commander_sarannis::ScheduleReinforcements()</a>, <a class="el" href="../../#l00184">boss_razuvious::boss_razuviousAI::ScheduleRP()</a>, <a class="el" href="../../#l00143">boss_the_lurker_below::SchedulerPhaseOne()</a>, <a class="el" href="../../#l00150">boss_lady_vashj::ScheduleSpells()</a>, <a class="el" href="../../#l00681">npc_giant_claw_tentacle::ScheduleTasks()</a>, <a class="el" href="../../#l00099">boss_attumen::ScheduleTasks()</a>, <a class="el" href="../../#l00146">boss_ayamiss::ScheduleTasks()</a>, <a class="el" href="../../#l00396">boss_cthun::ScheduleTasks()</a>, <a class="el" href="../../#l00319">ScriptedAI::ScheduleTimedEvent()</a>, <a class="el" href="../../#l00515">instance_hyjal::instance_mount_hyjal_InstanceMapScript::ScheduleWaves()</a>, <a class="el" href="../../#l00265">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00156">instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript::SetData()</a>, <a class="el" href="../../#l00230">npc_warchief_portal::SetData()</a>, <a class="el" href="../../#l00137">boss_hydross_the_unstable::SetForm()</a>, <a class="el" href="../../#l00256">boss_nalorakk::ShapeShift()</a>, <a class="el" href="../../#l00089">go_firework_show::StartShow()</a>, <a class="el" href="../../#l00240">boss_netherspite::SwitchToBanishPhase()</a>, and <a class="el" href="../../#l00188">boss_netherspite::SwitchToPortalPhase()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00069">_end</a>.</p>
 
 </div>
 </div>
-<a id="a686aee457802bc71b6560549c13239c9" name="a686aee457802bc71b6560549c13239c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686aee457802bc71b6560549c13239c9">&#9670;&#160;</a></span>Repeat() <span class="overload">[3/3]</span></h2>
+<a id="a45990c164939b2c5a4fafc541103f70f" name="a45990c164939b2c5a4fafc541103f70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45990c164939b2c5a4fafc541103f70f">&#9670;&#160;</a></span>operator&gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Repeat </td>
+          <td class="memname">bool TaskScheduler::Task::operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype"><a class="el" href="../../de/d5f/a05458.html">Task</a> const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1029,438 +482,37 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Repeats the event and set a new duration that is randomized between min and max. std::chrono::seconds(5) for example. This will consume the task context, its not possible to repeat the task again from the same task context! </p>
-<div class="fragment"><div class="line"><span class="lineno">  512</span>    {</div>
-<div class="line"><span class="lineno">  513</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#adc1347e5fcff0bb21e45805b1cfd2809">Repeat</a>(<a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max));</div>
-<div class="line"><span class="lineno">  514</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>        {</div>
+<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5f/a05458.html#a09a7b8fbb3878aef1cc5f76367e4d43b">_end</a> &gt; other._end;</div>
+<div class="line"><span class="lineno">  103</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>, and <a class="el" href="../../#l00500">Repeat()</a>.</p>
-
-</div>
-</div>
-<a id="ae60b6c797e99c416b84c5b9ae715b215" name="ae60b6c797e99c416b84c5b9ae715b215"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae60b6c797e99c416b84c5b9ae715b215">&#9670;&#160;</a></span>RescheduleAll() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::RescheduleAll </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reschedule all tasks with the given duration. </p>
-<div class="fragment"><div class="line"><span class="lineno">  617</span>    {</div>
-<div class="line"><span class="lineno">  618</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;<a class="code hl_function" href="../../d4/de2/a05442.html#a05c6f74e1be5aa699988908b3151b901">TaskScheduler::RescheduleAll</a>, std::placeholders::_1, duration));</div>
-<div class="line"><span class="lineno">  619</span>    }</div>
-<div class="ttc" id="aa05442_html_a05c6f74e1be5aa699988908b3151b901"><div class="ttname"><a href="../../d4/de2/a05442.html#a05c6f74e1be5aa699988908b3151b901">TaskScheduler::RescheduleAll</a></div><div class="ttdeci">TaskScheduler &amp; RescheduleAll(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Reschedule all tasks with a given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:328</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00197">Dispatch()</a>, and <a class="el" href="../../#l00328">TaskScheduler::RescheduleAll()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00623">RescheduleAll()</a>.</p>
-
-</div>
-</div>
-<a id="ac35c49969cef74262137fce851a3a30d" name="ac35c49969cef74262137fce851a3a30d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac35c49969cef74262137fce851a3a30d">&#9670;&#160;</a></span>RescheduleAll() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::RescheduleAll </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reschedule all tasks with a random duration between min and max. </p>
-<div class="fragment"><div class="line"><span class="lineno">  625</span>    {</div>
-<div class="line"><span class="lineno">  626</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#ae60b6c797e99c416b84c5b9ae715b215">RescheduleAll</a>(<a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max));</div>
-<div class="line"><span class="lineno">  627</span>    }</div>
-<div class="ttc" id="aa05458_html_ae60b6c797e99c416b84c5b9ae715b215"><div class="ttname"><a href="../../de/d5f/a05458.html#ae60b6c797e99c416b84c5b9ae715b215">TaskContext::RescheduleAll</a></div><div class="ttdeci">TaskContext &amp; RescheduleAll(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Reschedule all tasks with the given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:616</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>, and <a class="el" href="../../#l00616">RescheduleAll()</a>.</p>
-
-</div>
-</div>
-<a id="add5a7d1e76bd0d0766c17920dadd5b61" name="add5a7d1e76bd0d0766c17920dadd5b61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add5a7d1e76bd0d0766c17920dadd5b61">&#9670;&#160;</a></span>RescheduleGroup() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::RescheduleGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reschedule all tasks of a group with the given duration. </p>
-<div class="fragment"><div class="line"><span class="lineno">  632</span>    {</div>
-<div class="line"><span class="lineno">  633</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>(std::bind(&amp;TaskScheduler::RescheduleGroup&lt;_Rep, _Period&gt;, std::placeholders::_1, group, duration));</div>
-<div class="line"><span class="lineno">  634</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00197">Dispatch()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00638">RescheduleGroup()</a>.</p>
-
-</div>
-</div>
-<a id="a0cac55da6d10d0a74c9f83689d028174" name="a0cac55da6d10d0a74c9f83689d028174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cac55da6d10d0a74c9f83689d028174">&#9670;&#160;</a></span>RescheduleGroup() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::RescheduleGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reschedule all tasks of a group with a random duration between min and max. </p>
-<div class="fragment"><div class="line"><span class="lineno">  641</span>    {</div>
-<div class="line"><span class="lineno">  642</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#add5a7d1e76bd0d0766c17920dadd5b61">RescheduleGroup</a>(group, <a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max));</div>
-<div class="line"><span class="lineno">  643</span>    }</div>
-<div class="ttc" id="aa05458_html_add5a7d1e76bd0d0766c17920dadd5b61"><div class="ttname"><a href="../../de/d5f/a05458.html#add5a7d1e76bd0d0766c17920dadd5b61">TaskContext::RescheduleGroup</a></div><div class="ttdeci">TaskContext &amp; RescheduleGroup(TaskScheduler::group_t const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Reschedule all tasks of a group with the given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:631</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>, and <a class="el" href="../../#l00631">RescheduleGroup()</a>.</p>
-
-</div>
-</div>
-<a id="aaaba68c85b949416169136485130c6f8" name="aaaba68c85b949416169136485130c6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaba68c85b949416169136485130c6f8">&#9670;&#160;</a></span>Schedule() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Schedule </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;&#160;</td>
-          <td class="paramname"><em>task</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Schedule an event with a fixed rate from within the context. Its possible that the new event is executed immediately! Use <a class="el" href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a> to create a task which will be called at the next update tick. </p>
-<div class="fragment"><div class="line"><span class="lineno">  542</span>    {</div>
-<div class="line"><span class="lineno">  543</span>        <span class="keyword">auto</span> <span class="keyword">const</span> end = <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_end;</div>
-<div class="line"><span class="lineno">  544</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>([end, time, group, task](<a class="code hl_class" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp; scheduler) -&gt; <a class="code hl_class" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;</div>
-<div class="line"><span class="lineno">  545</span>        {</div>
-<div class="line"><span class="lineno">  546</span>            <span class="keywordflow">return</span> scheduler.<a class="code hl_function" href="../../d4/de2/a05442.html#a32b427f48c112891c6914243975d75e5">ScheduleAt</a>&lt;_Rep, _Period&gt;(end, time, group, task);</div>
-<div class="line"><span class="lineno">  547</span>        });</div>
-<div class="line"><span class="lineno">  548</span>    }</div>
-<div class="ttc" id="aa05442_html"><div class="ttname"><a href="../../d4/de2/a05442.html">TaskScheduler</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:45</div></div>
-<div class="ttc" id="aa05442_html_a32b427f48c112891c6914243975d75e5"><div class="ttname"><a href="../../d4/de2/a05442.html#a32b427f48c112891c6914243975d75e5">TaskScheduler::ScheduleAt</a></div><div class="ttdeci">TaskScheduler &amp; ScheduleAt(timepoint_t const &amp;end, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:381</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00419">_task</a>, <a class="el" href="../../#l00197">Dispatch()</a>, and <a class="el" href="../../#l00381">TaskScheduler::ScheduleAt()</a>.</p>
-
-</div>
-</div>
-<a id="ada6565daabe9a55c0ca2379ed7b23741" name="ada6565daabe9a55c0ca2379ed7b23741"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada6565daabe9a55c0ca2379ed7b23741">&#9670;&#160;</a></span>Schedule() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Rep , class _Period &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Schedule </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _Rep, _Period &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;&#160;</td>
-          <td class="paramname"><em>task</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Schedule an event with a fixed rate from within the context. Its possible that the new event is executed immediately! Use <a class="el" href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a> to create a task which will be called at the next update tick. </p>
-<div class="fragment"><div class="line"><span class="lineno">  527</span>    {</div>
-<div class="line"><span class="lineno">  528</span>        <span class="keyword">auto</span> <span class="keyword">const</span> end = <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_end;</div>
-<div class="line"><span class="lineno">  529</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#a5c5bc5a317527f3dbc496e6e5a873505">Dispatch</a>([end, time, task](<a class="code hl_class" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp; scheduler) -&gt; <a class="code hl_class" href="../../d4/de2/a05442.html">TaskScheduler</a> &amp;</div>
-<div class="line"><span class="lineno">  530</span>        {</div>
-<div class="line"><span class="lineno">  531</span>            <span class="keywordflow">return</span> scheduler.<a class="code hl_function" href="../../d4/de2/a05442.html#a32b427f48c112891c6914243975d75e5">ScheduleAt</a>&lt;_Rep, _Period&gt;(end, time, task);</div>
-<div class="line"><span class="lineno">  532</span>        });</div>
-<div class="line"><span class="lineno">  533</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00419">_task</a>, <a class="el" href="../../#l00197">Dispatch()</a>, and <a class="el" href="../../#l00381">TaskScheduler::ScheduleAt()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00065">boss_isalien::DamageTaken()</a>, <a class="el" href="../../#l00118">boss_apothecary_hummel::boss_apothecary_hummelAI::DoAction()</a>, <a class="el" href="../../#l00076">boss_warbringer_omrogg::HandleHeadTalk()</a>, <a class="el" href="../../#l00328">boss_glob_of_viscidus::InitializeAI()</a>, <a class="el" href="../../#l00111">npc_underbog_mushroom::InitializeAI()</a>, <a class="el" href="../../#l00555">Schedule()</a>, <a class="el" href="../../#l00184">boss_warbringer_omrogg::ScheduleBurningPhase()</a>, and <a class="el" href="../../#l00156">boss_warbringer_omrogg::ScheduleNonBurningPhase()</a>.</p>
-
-</div>
-</div>
-<a id="a5c856d7c07fe8058ff53d35ccfb9b677" name="a5c856d7c07fe8058ff53d35ccfb9b677"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c856d7c07fe8058ff53d35ccfb9b677">&#9670;&#160;</a></span>Schedule() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Schedule </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;&#160;</td>
-          <td class="paramname"><em>task</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Schedule an event with a randomized rate between min and max rate from within the context. Its possible that the new event is executed immediately! Use <a class="el" href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a> to create a task which will be called at the next update tick. </p>
-<div class="fragment"><div class="line"><span class="lineno">  569</span>    {</div>
-<div class="line"><span class="lineno">  570</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#ada6565daabe9a55c0ca2379ed7b23741">Schedule</a>(<a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max), group, task);</div>
-<div class="line"><span class="lineno">  571</span>    }</div>
-<div class="ttc" id="aa05458_html_ada6565daabe9a55c0ca2379ed7b23741"><div class="ttname"><a href="../../de/d5f/a05458.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a></div><div class="ttdeci">TaskContext &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, TaskScheduler::task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:525</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>, and <a class="el" href="../../#l00525">Schedule()</a>.</p>
-
-</div>
-</div>
-<a id="aa7530c5f763cc34d0cdc83fcbaaafe37" name="aa7530c5f763cc34d0cdc83fcbaaafe37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7530c5f763cc34d0cdc83fcbaaafe37">&#9670;&#160;</a></span>Schedule() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _PeriodRight &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::Schedule </td>
-          <td>(</td>
-          <td class="paramtype">std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a529b1284294a63217e3f9fa56c170743">TaskScheduler::task_handler_t</a> const &amp;&#160;</td>
-          <td class="paramname"><em>task</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Schedule an event with a randomized rate between min and max rate from within the context. Its possible that the new event is executed immediately! Use <a class="el" href="../../d4/de2/a05442.html#a0e4b7eea4d37cf6d9ae66330d6349626">TaskScheduler::Async</a> to create a task which will be called at the next update tick. </p>
-<div class="fragment"><div class="line"><span class="lineno">  557</span>    {</div>
-<div class="line"><span class="lineno">  558</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d5f/a05458.html#ada6565daabe9a55c0ca2379ed7b23741">Schedule</a>(<a class="code hl_function" href="../../d4/de2/a05442.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a>(min, max), task);</div>
-<div class="line"><span class="lineno">  559</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00400">TaskScheduler::RandomDurationBetween()</a>, and <a class="el" href="../../#l00525">Schedule()</a>.</p>
-
-</div>
-</div>
-<a id="a7a93eec2b41f8456a0e939303b3ab085" name="a7a93eec2b41f8456a0e939303b3ab085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a93eec2b41f8456a0e939303b3ab085">&#9670;&#160;</a></span>SetGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a> &amp; TaskContext::SetGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/de2/a05442.html#a998482c629b3a5783373a6d3ac30e1ed">TaskScheduler::group_t</a> const&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the event in the given group. </p>
-<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
-<div class="line"><span class="lineno">  219</span>    <a class="code hl_variable" href="../../de/d5f/a05458.html#a7902aa9c3a0bd7684ced17235a87c390">_task</a>-&gt;_group = group;</div>
-<div class="line"><span class="lineno">  220</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  221</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00187">boss_malchezaar::JustEngagedWith()</a>, <a class="el" href="../../#l00059">boss_rage_winterchill::JustEngagedWith()</a>, <a class="el" href="../../#l00078">boss_gurtogg_bloodboil::JustEngagedWith()</a>, <a class="el" href="../../#l00065">boss_supremus::JustEngagedWith()</a>, <a class="el" href="../../#l00096">boss_malchezaar::Reset()</a>, <a class="el" href="../../#l00191">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::ScheduleNextPortal()</a>, <a class="el" href="../../#l00088">boss_supremus::SchedulePhase()</a>, <a class="el" href="../../#l00204">boss_eye_of_cthun::ScheduleTask()</a>, <a class="el" href="../../#l00515">instance_hyjal::instance_mount_hyjal_InstanceMapScript::ScheduleWaves()</a>, and <a class="el" href="../../#l00156">instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript::SetData()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00069">_end</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ab75a9caf07880e5ba2bb9f75068bbe7e" name="ab75a9caf07880e5ba2bb9f75068bbe7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75a9caf07880e5ba2bb9f75068bbe7e">&#9670;&#160;</a></span>TaskContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../da/d10/a05470.html">TaskContext</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9f0573c5408a663c3874787eeb7d599e" name="a9f0573c5408a663c3874787eeb7d599e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f0573c5408a663c3874787eeb7d599e">&#9670;&#160;</a></span>TaskScheduler</h2>
 
@@ -1471,7 +523,7 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a></td>
+          <td class="memname">friend class <a class="el" href="../../db/d2b/a05454.html">TaskScheduler</a></td>
         </tr>
       </table>
   </td>
@@ -1484,8 +536,8 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7c31492372b8c1971651782a17985071" name="a7c31492372b8c1971651782a17985071"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c31492372b8c1971651782a17985071">&#9670;&#160;</a></span>_consumed</h2>
+<a id="add2dd72f389df2168012eb70160f6eb3" name="add2dd72f389df2168012eb70160f6eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add2dd72f389df2168012eb70160f6eb3">&#9670;&#160;</a></span>_duration</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1494,7 +546,7 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;bool&gt; TaskContext::_consumed</td>
+          <td class="memname"><a class="el" href="../../db/d2b/a05454.html#a9c6be5fc079684953f911548fb66cb21">duration_t</a> TaskScheduler::Task::_duration</td>
         </tr>
       </table>
   </td>
@@ -1504,14 +556,10 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </table>
 </div><div class="memdoc">
 
-<p>Marks the task as consumed. </p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00448">operator=()</a>.</p>
-
 </div>
 </div>
-<a id="a79e4032346c8ece5be5594571fe2e092" name="a79e4032346c8ece5be5594571fe2e092"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e4032346c8ece5be5594571fe2e092">&#9670;&#160;</a></span>_owner</h2>
+<a id="a09a7b8fbb3878aef1cc5f76367e4d43b" name="a09a7b8fbb3878aef1cc5f76367e4d43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a7b8fbb3878aef1cc5f76367e4d43b">&#9670;&#160;</a></span>_end</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1520,7 +568,7 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::weak_ptr&lt;<a class="el" href="../../d4/de2/a05442.html">TaskScheduler</a>&gt; TaskContext::_owner</td>
+          <td class="memname"><a class="el" href="../../db/d2b/a05454.html#a0e14d7b24d018a41c9dc849e1421d5e7">timepoint_t</a> TaskScheduler::Task::_end</td>
         </tr>
       </table>
   </td>
@@ -1530,14 +578,12 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </table>
 </div><div class="memdoc">
 
-<p>Owner. </p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00448">operator=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00095">operator&lt;()</a>, <a class="el" href="../../#l00106">operator==()</a>, and <a class="el" href="../../#l00100">operator&gt;()</a>.</p>
 
 </div>
 </div>
-<a id="a7902aa9c3a0bd7684ced17235a87c390" name="a7902aa9c3a0bd7684ced17235a87c390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7902aa9c3a0bd7684ced17235a87c390">&#9670;&#160;</a></span>_task</h2>
+<a id="ad9e890cbd7ed9ff7b8829e132605d432" name="ad9e890cbd7ed9ff7b8829e132605d432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e890cbd7ed9ff7b8829e132605d432">&#9670;&#160;</a></span>_group</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1546,7 +592,7 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/de2/a05442.html#a0c6c7a95026322208866b6b829e0b598">TaskScheduler::TaskContainer</a> TaskContext::_task</td>
+          <td class="memname">std::optional&lt;<a class="el" href="../../db/d2b/a05454.html#a998482c629b3a5783373a6d3ac30e1ed">group_t</a>&gt; TaskScheduler::Task::_group</td>
         </tr>
       </table>
   </td>
@@ -1556,9 +602,51 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </table>
 </div><div class="memdoc">
 
-<p>Associated task. </p>
+<p class="reference">Referenced by <a class="el" href="../../#l00112">IsInGroup()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00448">operator=()</a>, <a class="el" href="../../#l00485">Repeat()</a>, and <a class="el" href="../../#l00525">Schedule()</a>.</p>
+</div>
+</div>
+<a id="a85e8a2803a79f877e94162cc824fabbe" name="a85e8a2803a79f877e94162cc824fabbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e8a2803a79f877e94162cc824fabbe">&#9670;&#160;</a></span>_repeated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2b/a05454.html#af3067f67a46b296be44fca007a2d3690">repeated_t</a> TaskScheduler::Task::_repeated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d846eeae80d54906771ba41281fbdc0" name="a0d846eeae80d54906771ba41281fbdc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d846eeae80d54906771ba41281fbdc0">&#9670;&#160;</a></span>_task</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2b/a05454.html#a529b1284294a63217e3f9fa56c170743">task_handler_t</a> TaskScheduler::Task::_task</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1567,8 +655,8 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d5f/a05458.html">TaskContext</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/d2b/a05454.html">TaskScheduler</a></li><li class="navelem"><a class="el" href="../../de/d5f/a05458.html">Task</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

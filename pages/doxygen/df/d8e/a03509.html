@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/DungeonFinding/LFGMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Unit/StatSystem.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,284 +105,126 @@ $(document).ready(function(){initNavTree('df/d8e/a03509.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">LFGMgr.h File Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">StatSystem.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;utility&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../">DBCStructure.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Field.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LFG.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LFGGroupData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LFGPlayerData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LFGQueue.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5b/a07674.html">lfg::RBEntryInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a07678.html">lfg::RBInternalInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d7f/a07682.html">lfg::LfgJoinResultData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db1/a07686.html">lfg::LfgUpdateData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html">lfg::LfgQueueStatusData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da1/a07694.html">lfg::LfgPlayerRewardData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d20/a07698.html">lfg::LfgReward</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/def/a07702.html">lfg::LfgProposalPlayer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/a07706.html">lfg::LfgProposal</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d12/a07710.html">lfg::LfgRoleCheck</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d40/a07714.html">lfg::LfgPlayerBoot</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d40/a07718.html">lfg::LFGDungeonData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d64/a07722.html">lfg::LFGMgr</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d5/d64/a04719"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html">lfg</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9876016115774ddaf27fca5cc9adb96e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8e/a03509.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>&#160;&#160;&#160;<a class="el" href="../../db/d64/a07722.html#a40e2454e77be7332ccf88bfc5cffa412">lfg::LFGMgr::instance</a>()</td></tr>
-<tr class="separator:a9876016115774ddaf27fca5cc9adb96e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a65f1d8636d10579769f79b63216ff29d"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, LFGQueue &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a65f1d8636d10579769f79b63216ff29d">lfg::LfgQueueContainer</a></td></tr>
-<tr class="separator:a65f1d8636d10579769f79b63216ff29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adac5e1437b49269ef8924ba9881272d5"><td class="memItemLeft" align="right" valign="top">typedef std::multimap&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, LfgReward const  * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#adac5e1437b49269ef8924ba9881272d5">lfg::LfgRewardContainer</a></td></tr>
-<tr class="separator:adac5e1437b49269ef8924ba9881272d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc3483295387dfccf618b74e0b2baba"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; LfgRewardContainer::const_iterator, LfgRewardContainer::const_iterator &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#abcc3483295387dfccf618b74e0b2baba">lfg::LfgRewardContainerBounds</a></td></tr>
-<tr class="separator:abcc3483295387dfccf618b74e0b2baba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4f05b0e6e1405dd9e8f44ed1da0382"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, LfgDungeonSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a4b4f05b0e6e1405dd9e8f44ed1da0382">lfg::LfgCachedDungeonContainer</a></td></tr>
-<tr class="separator:a4b4f05b0e6e1405dd9e8f44ed1da0382"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a94f53e8d64ec14618126aff5fb965"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgAnswer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a24a94f53e8d64ec14618126aff5fb965">lfg::LfgAnswerContainer</a></td></tr>
-<tr class="separator:a24a94f53e8d64ec14618126aff5fb965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee938e89db441d919dd9fbebcb7e175"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgRoleCheck &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#acee938e89db441d919dd9fbebcb7e175">lfg::LfgRoleCheckContainer</a></td></tr>
-<tr class="separator:acee938e89db441d919dd9fbebcb7e175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbfe9a85dee28a22715e30710463368f"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, LfgProposal &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#acbfe9a85dee28a22715e30710463368f">lfg::LfgProposalContainer</a></td></tr>
-<tr class="separator:acbfe9a85dee28a22715e30710463368f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0c41953ace620938ac2509b7622b7e"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgProposalPlayer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#afd0c41953ace620938ac2509b7622b7e">lfg::LfgProposalPlayerContainer</a></td></tr>
-<tr class="separator:afd0c41953ace620938ac2509b7622b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7ffe5b0af9c677b84adf100fa5cd2e"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgPlayerBoot &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a8b7ffe5b0af9c677b84adf100fa5cd2e">lfg::LfgPlayerBootContainer</a></td></tr>
-<tr class="separator:a8b7ffe5b0af9c677b84adf100fa5cd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1191f332347cf635992fa819f9b4c0f4"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgGroupData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a1191f332347cf635992fa819f9b4c0f4">lfg::LfgGroupDataContainer</a></td></tr>
-<tr class="separator:a1191f332347cf635992fa819f9b4c0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359159fc18660e1597cc4a90255412f1"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>, LfgPlayerData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a359159fc18660e1597cc4a90255412f1">lfg::LfgPlayerDataContainer</a></td></tr>
-<tr class="separator:a359159fc18660e1597cc4a90255412f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20632643454bb292a5d524a3d230dbe0"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, LFGDungeonData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a20632643454bb292a5d524a3d230dbe0">lfg::LFGDungeonContainer</a></td></tr>
-<tr class="separator:a20632643454bb292a5d524a3d230dbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a07e4718e8cf678327c72b7deb48ccdb4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a07e4718e8cf678327c72b7deb48ccdb4">lfg::LfgOptions</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a> = 0x04
-<br />
- }</td></tr>
-<tr class="separator:a07e4718e8cf678327c72b7deb48ccdb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b5cf5a4940992366122159776b67c7c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7c">lfg::LFGMgrEnum</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7ca9515ecdf2873ba8695755161ba20588e">lfg::LFG_TIME_ROLECHECK</a> = 45 * IN_MILLISECONDS
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7ca5c2d973e50a206ed3db55622d9697c0b">lfg::LFG_TIME_BOOT</a> = 120
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7ca7c25463752da16999540b959230d1905">lfg::LFG_TIME_PROPOSAL</a> = 40
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7cac951b3dea36df017f7463d58209b14f2">lfg::LFG_QUEUEUPDATE_INTERVAL</a> = 8 * IN_MILLISECONDS
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7ca3ae4cb3e189406d52dcacbb4f110b158">lfg::LFG_SPELL_DUNGEON_COOLDOWN</a> = 71328
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7cad66eeedac753103a97f53bb7e31ac898">lfg::LFG_SPELL_DUNGEON_DESERTER</a> = 71041
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7cac7c7863ffdcf026bc67a11fb0fdddd22">lfg::LFG_SPELL_LUCK_OF_THE_DRAW</a> = 72221
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2b5cf5a4940992366122159776b67c7ca87c8d7f48e3aefe68a3f779d7abb0d25">lfg::LFG_GROUP_KICK_VOTES_NEEDED</a> = 3
-<br />
- }</td></tr>
-<tr class="separator:a2b5cf5a4940992366122159776b67c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6749e4a75f3be4d8fd23bcbfcaf9fa4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#aa6749e4a75f3be4d8fd23bcbfcaf9fa4">lfg::LfgFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa6749e4a75f3be4d8fd23bcbfcaf9fa4af72ca5749d5566cfce7b6c5395bf7577">lfg::LFG_FLAG_UNK1</a> = 0x1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa6749e4a75f3be4d8fd23bcbfcaf9fa4af3939b4b2dd69f67d1e30b61c8d80955">lfg::LFG_FLAG_UNK2</a> = 0x2
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa6749e4a75f3be4d8fd23bcbfcaf9fa4a2da0374b926d52fc4a54f885012b3d29">lfg::LFG_FLAG_SEASONAL</a> = 0x4
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa6749e4a75f3be4d8fd23bcbfcaf9fa4a7562dd100ff7354498faee335023753d">lfg::LFG_FLAG_UNK3</a> = 0x8
-<br />
- }</td></tr>
-<tr class="separator:aa6749e4a75f3be4d8fd23bcbfcaf9fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ecfd5a00384574f784eb4dcd16ec7ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7ab">lfg::LfgType</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7aba38d20121dea70e0d59f16686b146bb56">lfg::LFG_TYPE_NONE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7abab5b960f36f997ad211ccd39fdd8b7227">lfg::LFG_TYPE_DUNGEON</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7aba7c07908381b5c9e14dc9f9e5fecd3a8d">lfg::LFG_TYPE_RAID</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7aba41ddadf92eb865b0e08867c249cdf209">lfg::LFG_TYPE_ZONE</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7ababb809a2241eb417131fced2fab9b042d">lfg::LFG_TYPE_HEROIC</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7aba56bdd76db5a1388446f620fb0f6f15a1">lfg::LFG_TYPE_RANDOM</a> = 6
-<br />
- }</td></tr>
-<tr class="memdesc:a2ecfd5a00384574f784eb4dcd16ec7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the type of instance.  <a href="../../d5/d64/a04719.html#a2ecfd5a00384574f784eb4dcd16ec7ab">More...</a><br /></td></tr>
-<tr class="separator:a2ecfd5a00384574f784eb4dcd16ec7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af30d79c79d17992d26601ceaafebac05"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#af30d79c79d17992d26601ceaafebac05">lfg::LfgProposalState</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af30d79c79d17992d26601ceaafebac05a991922b84548fc07827716fdc7ea89ce">lfg::LFG_PROPOSAL_INITIATING</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af30d79c79d17992d26601ceaafebac05a40ecf8de384f323cb057559459e91051">lfg::LFG_PROPOSAL_FAILED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af30d79c79d17992d26601ceaafebac05a1eea01267c61b1858f0f2ab7bf69d119">lfg::LFG_PROPOSAL_SUCCESS</a> = 2
-<br />
- }</td></tr>
-<tr class="memdesc:af30d79c79d17992d26601ceaafebac05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proposal states.  <a href="../../d5/d64/a04719.html#af30d79c79d17992d26601ceaafebac05">More...</a><br /></td></tr>
-<tr class="separator:af30d79c79d17992d26601ceaafebac05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2232ae371575af57aa3eb549228d0acb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acb">lfg::LfgTeleportError</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acba8093282ba1eeb247266213b632692fc9">lfg::LFG_TELEPORTERROR_OK</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acbab9924473bbfdc491b8e9848ffbb4546e">lfg::LFG_TELEPORTERROR_PLAYER_DEAD</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acbad444e7a3d82c2a2dec0887cf690e019d">lfg::LFG_TELEPORTERROR_FALLING</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acbaff58d336ab2b518dc7ae25f8022bad9f">lfg::LFG_TELEPORTERROR_IN_VEHICLE</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acba99ab5212d8ee5e1fab2baa6fa1c1694e">lfg::LFG_TELEPORTERROR_FATIGUE</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acba7909339421b55e0b8a81441114074026">lfg::LFG_TELEPORTERROR_INVALID_LOCATION</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acbab5c8feea18c2b0ca13899b276004262e">lfg::LFG_TELEPORTERROR_COMBAT</a> = 8
-<br />
- }</td></tr>
-<tr class="memdesc:a2232ae371575af57aa3eb549228d0acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teleport errors.  <a href="../../d5/d64/a04719.html#a2232ae371575af57aa3eb549228d0acb">More...</a><br /></td></tr>
-<tr class="separator:a2232ae371575af57aa3eb549228d0acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af65dbea5eebf3cd1cd16595508fd18eb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eb">lfg::LfgJoinResult</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebad97a0cd2df6a43cecd1bbc717c08ac16">lfg::LFG_JOIN_OK</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebaf8385ff3f88183a18aaefc2e5a0b8fd9">lfg::LFG_JOIN_FAILED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebab2e4b80c854ffcde7bb85704e00c2277">lfg::LFG_JOIN_GROUPFULL</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba6d61fbf691ca43c0714dc025384aa004">lfg::LFG_JOIN_INTERNAL_ERROR</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebafb6393cedafe796373d7393975818abd">lfg::LFG_JOIN_NOT_MEET_REQS</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba820334a9820da285d1e46da7a8d7b37e">lfg::LFG_JOIN_PARTY_NOT_MEET_REQS</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba6fd4392782aaed9557356f1648e47ef8">lfg::LFG_JOIN_MIXED_RAID_DUNGEON</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba3482293b8477a597f275434ed8a1954f">lfg::LFG_JOIN_MULTI_REALM</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba3f5055f96dcf8c7ff3868eb00576ac04">lfg::LFG_JOIN_DISCONNECTED</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebac23d41aa09ce5a4a03773878cd6944ba">lfg::LFG_JOIN_PARTY_INFO_FAILED</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba5b791ae92e1905f16fbaaa41cc9d8ffd">lfg::LFG_JOIN_DUNGEON_INVALID</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba8e634ce1df5dbacebbad5ae4761ed0df">lfg::LFG_JOIN_DESERTER</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebaeb66070b0c75cd964de435f081d09d92">lfg::LFG_JOIN_PARTY_DESERTER</a> = 13
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba919251996a338f39e8b8995f87fec708">lfg::LFG_JOIN_RANDOM_COOLDOWN</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18ebace9b51caf6cdf6bac5c3e05cf4b36128">lfg::LFG_JOIN_PARTY_RANDOM_COOLDOWN</a> = 15
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba016eadb9dc423a41bab04bf6dd09b12d">lfg::LFG_JOIN_TOO_MUCH_MEMBERS</a> = 16
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eba6d0c107f099ffa1c5210ed1a7568e776">lfg::LFG_JOIN_USING_BG_SYSTEM</a> = 17
-<br />
- }</td></tr>
-<tr class="memdesc:af65dbea5eebf3cd1cd16595508fd18eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue join results.  <a href="../../d5/d64/a04719.html#af65dbea5eebf3cd1cd16595508fd18eb">More...</a><br /></td></tr>
-<tr class="separator:af65dbea5eebf3cd1cd16595508fd18eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9596c400ddbfa4a0eadda14c0be342ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342ed">lfg::LfgRoleCheckState</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342eda7af5d6177f5a366540db6af65ff74658">lfg::LFG_ROLECHECK_DEFAULT</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342eda84e5c0e1526627ffd6faf84b4d6d3494">lfg::LFG_ROLECHECK_FINISHED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342edaf94f67af1fc92b831b5a570ec61b47d1">lfg::LFG_ROLECHECK_INITIALITING</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342eda37a1afe09ab466e0059387b973d74af5">lfg::LFG_ROLECHECK_MISSING_ROLE</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342eda290ab83562c09ca79cc5b6f24b184ac0">lfg::LFG_ROLECHECK_WRONG_ROLES</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342eda4996fcd543a1db3f631416f632343fd6">lfg::LFG_ROLECHECK_ABORTED</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342edae033408ddbceae5d641f4eb755d897e8">lfg::LFG_ROLECHECK_NO_ROLE</a> = 6
-<br />
- }</td></tr>
-<tr class="memdesc:a9596c400ddbfa4a0eadda14c0be342ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role check states.  <a href="../../d5/d64/a04719.html#a9596c400ddbfa4a0eadda14c0be342ed">More...</a><br /></td></tr>
-<tr class="separator:a9596c400ddbfa4a0eadda14c0be342ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa797c078b83927ada0678e683e0ef86f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86f">lfg::LfgUpdateFlag</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fab54cd511c649ecb334f1b782b8fe7d02">lfg::LFG_UPDATE_FLAG_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fad280424588e2580b48bd7e81c750b617">lfg::LFG_UPDATE_FLAG_CHARACTERINFO</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86facd9ae77c397a46cb09c314724d88062f">lfg::LFG_UPDATE_FLAG_COMMENT</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fa56f882d8c103fe1403a3ce1c1c890483">lfg::LFG_UPDATE_FLAG_GROUPLEADER</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86faea6ff83bcbf7c67735734f7796329f3a">lfg::LFG_UPDATE_FLAG_GROUPGUID</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fae49ac758b8132c21c98556edf9b872d0">lfg::LFG_UPDATE_FLAG_ROLES</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fa0397c4bdc83258f74c631742096be1a5">lfg::LFG_UPDATE_FLAG_AREA</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fa681e478a8a9974b11422e4b00e07aa67">lfg::LFG_UPDATE_FLAG_STATUS</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#aa797c078b83927ada0678e683e0ef86fa08c8de52d41750ba3b8d4681d09c493c">lfg::LFG_UPDATE_FLAG_BINDED</a> = 0x80
-<br />
- }</td></tr>
-<tr class="separator:aa797c078b83927ada0678e683e0ef86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a9bf5071b96b3fc85b1c3c7a4d6a06d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06d">lfg::LfgSeasonalDungeons</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da3b710e1f7409dcce1369d24da8d0e27c">lfg::LFG_DUNGEON_HEADLESS_HORSEMAN</a> = 285
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da21ef8b8ff914dd66684e5cc85ca86f0e">lfg::LFG_DUNGEON_FROST_LORD_AHUNE</a> = 286
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da94d2d4aff127ae9692ba0f7688bc8243">lfg::LFG_DUNGEON_COREN_DIREBREW</a> = 287
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d64/a04719.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da6007d32ac1027fdc23c0db35632b3b9d">lfg::LFG_DUNGEON_CROWN_CHEMICAL_CO</a> = 288
-<br />
- }</td></tr>
-<tr class="separator:a7a9bf5071b96b3fc85b1c3c7a4d6a06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a44b05d5c4dd27aa794f6cec4816524b6"><td class="memTemplParams" colspan="2">template&lt;typename T , FMT_ENABLE_IF(std::is_enum_v&lt; T &gt;) &gt; </td></tr>
-<tr class="memitem:a44b05d5c4dd27aa794f6cec4816524b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d64/a04719.html#a44b05d5c4dd27aa794f6cec4816524b6">lfg::format_as</a> (T f)</td></tr>
-<tr class="separator:a44b05d5c4dd27aa794f6cec4816524b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d40bc3b1cf5c14440f3e212aa4f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8e/a03509.html#ab53d40bc3b1cf5c14440f3e212aa4f08">_ModifyUInt32</a> (bool apply, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;baseValue, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;amount)</td></tr>
+<tr class="separator:ab53d40bc3b1cf5c14440f3e212aa4f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a826ceb2644eb2661137e2983dd779164"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8e/a03509.html#a826ceb2644eb2661137e2983dd779164">m_diminishing_k</a> [<a class="el" href="../../d0/dbd/a02771.html#aa322a61b17e1d56852d53d5ef6a728c6">MAX_CLASSES</a>]</td></tr>
+<tr class="separator:a826ceb2644eb2661137e2983dd779164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9876016115774ddaf27fca5cc9adb96e" name="a9876016115774ddaf27fca5cc9adb96e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9876016115774ddaf27fca5cc9adb96e">&#9670;&#160;</a></span>sLFGMgr</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab53d40bc3b1cf5c14440f3e212aa4f08" name="ab53d40bc3b1cf5c14440f3e212aa4f08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab53d40bc3b1cf5c14440f3e212aa4f08">&#9670;&#160;</a></span>_ModifyUInt32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool _ModifyUInt32 </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>apply</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
+          <td class="paramname"><em>baseValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;&#160;</td>
+          <td class="paramname"><em>amount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="comment">// If amount is negative, change sign and value of apply.</span></div>
+<div class="line"><span class="lineno">   31</span>    <span class="keywordflow">if</span> (amount &lt; 0)</div>
+<div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        <a class="code hl_function" href="../../d2/d88/a04704.html#a6177d7ac84a4ea6819c57a124345540e">apply</a> = !<a class="code hl_function" href="../../d2/d88/a04704.html#a6177d7ac84a4ea6819c57a124345540e">apply</a>;</div>
+<div class="line"><span class="lineno">   34</span>        amount = -amount;</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (apply)</div>
+<div class="line"><span class="lineno">   37</span>        baseValue += amount;</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   39</span>    {</div>
+<div class="line"><span class="lineno">   40</span>        <span class="comment">// Make sure we do not get uint32 overflow.</span></div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">if</span> (amount &gt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(baseValue))</div>
+<div class="line"><span class="lineno">   42</span>            amount = baseValue;</div>
+<div class="line"><span class="lineno">   43</span>        baseValue -= amount;</div>
+<div class="line"><span class="lineno">   44</span>    }</div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d88/a04704.html#a6177d7ac84a4ea6819c57a124345540e">apply</a>;</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa04704_html_a6177d7ac84a4ea6819c57a124345540e"><div class="ttname"><a href="../../d2/d88/a04704.html#a6177d7ac84a4ea6819c57a124345540e">ByteConverter::apply</a></div><div class="ttdeci">void apply(T *val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:40</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00324">Player::ApplyFeralAPBonus()</a>, <a class="el" href="../../#l00919">Player::ApplyHealthRegenBonus()</a>, <a class="el" href="../../#l00913">Player::ApplyManaRegenBonus()</a>, and <a class="el" href="../../#l00167">Player::ApplySpellPowerBonus()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a826ceb2644eb2661137e2983dd779164" name="a826ceb2644eb2661137e2983dd779164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826ceb2644eb2661137e2983dd779164">&#9670;&#160;</a></span>m_diminishing_k</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sLFGMgr&#160;&#160;&#160;<a class="el" href="../../db/d64/a07722.html#a40e2454e77be7332ccf88bfc5cffa412">lfg::LFGMgr::instance</a>()</td>
+          <td class="memname">const float m_diminishing_k[<a class="el" href="../../d0/dbd/a02771.html#aa322a61b17e1d56852d53d5ef6a728c6">MAX_CLASSES</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    0.9560f,  </div>
+<div class="line">    0.9560f,  </div>
+<div class="line">    0.9880f,  </div>
+<div class="line">    0.9880f,  </div>
+<div class="line">    0.9830f,  </div>
+<div class="line">    0.9560f,  </div>
+<div class="line">    0.9880f,  </div>
+<div class="line">    0.9830f,  </div>
+<div class="line">    0.9830f,  </div>
+<div class="line">    0.0f,     </div>
+<div class="line">    0.9720f   </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00708">Player::GetMissPercentageFromDefence()</a>, <a class="el" href="../../#l00781">Player::UpdateDodgePercentage()</a>, and <a class="el" href="../../#l00735">Player::UpdateParryPercentage()</a>.</p>
 
 </div>
 </div>
@@ -391,8 +233,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_2a7b71c094ad98a6bd24c530fa7e48c4.html">DungeonFinding</a></li><li class="navelem"><a class="el" href="../../df/d8e/a03509.html">LFGMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_ac8643af82ea53313fd6af4324ac5b57.html">Unit</a></li><li class="navelem"><a class="el" href="../../df/d8e/a03509.html">StatSystem.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

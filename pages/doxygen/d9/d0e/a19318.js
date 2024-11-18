@@ -1,8 +1,6 @@
 var a19318 =
 [
-    [ "npc_algalon_worm_holeAI", "d9/d0e/a19318.html#a07b36b40972bebea6b17890aa8fee50c", null ],
-    [ "JustSummoned", "d9/d0e/a19318.html#a148de5da4502813e369ec6c52b1671a0", null ],
-    [ "Reset", "d9/d0e/a19318.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
-    [ "UpdateAI", "d9/d0e/a19318.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
-    [ "_summonTimer", "d9/d0e/a19318.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
+    [ "npc_living_constellationAI", "dd/dba/a19322.html", "dd/dba/a19322" ],
+    [ "npc_living_constellation", "d9/d0e/a19318.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
+    [ "GetAI", "d9/d0e/a19318.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
 ];

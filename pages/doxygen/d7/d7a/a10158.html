@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WorldPackets::ServerPacket Class Reference</title>
+<title>AzerothCore: MapScript&lt; TMap &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,118 +106,249 @@ $(document).ready(function(){initNavTree('d7/d7a/a10158.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/dea/a10155.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::ServerPacket Class Reference</div></div>
+  <div class="headertitle"><div class="title">MapScript&lt; TMap &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Packet.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for WorldPackets::ServerPacket:</div>
+Inheritance diagram for MapScript&lt; TMap &gt;:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d7/d7a/a10158.png" usemap="#WorldPackets::ServerPacket_map" alt=""/>
-  <map id="WorldPackets::ServerPacket_map" name="WorldPackets::ServerPacket_map">
-<area href="../../df/d8b/a10154.html" alt="WorldPackets::Packet" shape="rect" coords="0,0,336,24"/>
-<area href="../../d0/d6f/a10178.html" alt="WorldPackets::Bank::BuyBankSlotResult" shape="rect" coords="346,112,682,136"/>
-<area href="../../db/d9b/a10182.html" alt="WorldPackets::Bank::ShowBank" shape="rect" coords="346,168,682,192"/>
-<area href="../../da/d7f/a10210.html" alt="WorldPackets::Character::LogoutCancelAck" shape="rect" coords="346,224,682,248"/>
-<area href="../../d4/d86/a10202.html" alt="WorldPackets::Character::LogoutComplete" shape="rect" coords="346,280,682,304"/>
-<area href="../../d9/dd0/a10198.html" alt="WorldPackets::Character::LogoutResponse" shape="rect" coords="346,336,682,360"/>
-<area href="../../d3/d57/a10222.html" alt="WorldPackets::Character::PlayedTime" shape="rect" coords="346,392,682,416"/>
-<area href="../../d4/df3/a10234.html" alt="WorldPackets::Chat::ChatServerMessage" shape="rect" coords="346,448,682,472"/>
-<area href="../../d9/d95/a10226.html" alt="WorldPackets::Chat::Emote" shape="rect" coords="346,504,682,528"/>
-<area href="../../d4/dff/a10238.html" alt="WorldPackets::CombatLog::EnvironmentalDamageLog" shape="rect" coords="346,560,682,584"/>
-<area href="../../d2/dfb/a10438.html" alt="WorldPackets::Guild::GuildBankLogQueryResults" shape="rect" coords="346,616,682,640"/>
-<area href="../../d5/d45/a10422.html" alt="WorldPackets::Guild::GuildBankQueryResults" shape="rect" coords="346,672,682,696"/>
-<area href="../../d8/d99/a10402.html" alt="WorldPackets::Guild::GuildBankRemainingWithdrawMoney" shape="rect" coords="346,728,682,752"/>
-<area href="../../d2/df6/a10446.html" alt="WorldPackets::Guild::GuildBankTextQueryResult" shape="rect" coords="346,784,682,808"/>
-<area href="../../d3/d0d/a10290.html" alt="WorldPackets::Guild::GuildCommandResult" shape="rect" coords="346,840,682,864"/>
-<area href="../../d5/dea/a10310.html" alt="WorldPackets::Guild::GuildEvent" shape="rect" coords="346,896,682,920"/>
-<area href="../../d9/d3c/a10322.html" alt="WorldPackets::Guild::GuildEventLogQueryResults" shape="rect" coords="346,952,682,976"/>
-<area href="../../de/d4e/a10266.html" alt="WorldPackets::Guild::GuildInfoResponse" shape="rect" coords="346,1008,682,1032"/>
-<area href="../../d5/dc2/a10306.html" alt="WorldPackets::Guild::GuildInvite" shape="rect" coords="346,1064,682,1088"/>
-<area href="../../d3/da9/a10330.html" alt="WorldPackets::Guild::GuildPermissionsQueryResults" shape="rect" coords="346,1120,682,1144"/>
-<area href="../../d4/dc9/a10282.html" alt="WorldPackets::Guild::GuildRoster" shape="rect" coords="346,1176,682,1200"/>
-<area href="../../df/d0a/a10462.html" alt="WorldPackets::Guild::PlayerSaveGuildEmblem" shape="rect" coords="346,1232,682,1256"/>
-<area href="../../d9/d50/a10254.html" alt="WorldPackets::Guild::QueryGuildInfoResponse" shape="rect" coords="346,1288,682,1312"/>
-<area href="../../db/dab/a10518.html" alt="WorldPackets::Misc::CrossedInebriationThreshold" shape="rect" coords="346,1344,682,1368"/>
-<area href="../../db/ddb/a10514.html" alt="WorldPackets::Misc::DurabilityDamageDeath" shape="rect" coords="346,1400,682,1424"/>
-<area href="../../d0/dd2/a10478.html" alt="WorldPackets::Misc::LevelUpInfo" shape="rect" coords="346,1456,682,1480"/>
-<area href="../../dc/d06/a10506.html" alt="WorldPackets::Misc::PauseMirrorTimer" shape="rect" coords="346,1512,682,1536"/>
-<area href="../../df/d55/a10482.html" alt="WorldPackets::Misc::PlayMusic" shape="rect" coords="346,1568,682,1592"/>
-<area href="../../dd/d95/a10486.html" alt="WorldPackets::Misc::PlayObjectSound" shape="rect" coords="346,1624,682,1648"/>
-<area href="../../d6/df4/a10490.html" alt="WorldPackets::Misc::Playsound" shape="rect" coords="346,1680,682,1704"/>
-<area href="../../d2/d5f/a10498.html" alt="WorldPackets::Misc::RandomRoll" shape="rect" coords="346,1736,682,1760"/>
-<area href="../../dc/d63/a10502.html" alt="WorldPackets::Misc::StartMirrorTimer" shape="rect" coords="346,1792,682,1816"/>
-<area href="../../dd/d31/a10510.html" alt="WorldPackets::Misc::StopMirrorTimer" shape="rect" coords="346,1848,682,1872"/>
-<area href="../../d5/dea/a10522.html" alt="WorldPackets::Misc::UITime" shape="rect" coords="346,1904,682,1928"/>
-<area href="../../d1/df0/a10474.html" alt="WorldPackets::Misc::Weather" shape="rect" coords="346,1960,682,1984"/>
-<area href="../../dc/d55/a10598.html" alt="WorldPackets::Pet::PetLearnedSpell" shape="rect" coords="346,2016,682,2040"/>
-<area href="../../d2/d62/a10602.html" alt="WorldPackets::Pet::PetUnlearnedSpell" shape="rect" coords="346,2072,682,2096"/>
-<area href="../../de/dbd/a10614.html" alt="WorldPackets::Totem::TotemCreated" shape="rect" coords="346,2128,682,2152"/>
-<area href="../../da/d7f/a10618.html" alt="WorldPackets::WorldState::InitWorldStates" shape="rect" coords="346,2184,682,2208"/>
-<area href="../../da/da2/a10626.html" alt="WorldPackets::WorldState::UpdateWorldState" shape="rect" coords="346,2240,682,2264"/>
+  <img src="../../d7/d7a/a10158.png" usemap="#MapScript_3C_20TMap_20_3E_map" alt=""/>
+  <map id="MapScript_3C_20TMap_20_3E_map" name="MapScript_3C_20TMap_20_3E_map">
+<area href="../../df/d8b/a10154.html" alt="UpdatableScript&lt; TMap &gt;" shape="rect" coords="0,0,157,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d2bf169dd705b886da8ff58a7ef4bd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a4d2bf169dd705b886da8ff58a7ef4bd2">ServerPacket</a> (<a class="el" href="../../d5/d43/a04668.html#ga1073b6abb3a749f18bf1633020879e9b">OpcodeServer</a> opcode, std::size_t initialSize=200)</td></tr>
-<tr class="separator:a4d2bf169dd705b886da8ff58a7ef4bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49aa7bce566d9f0ea3c7bbb487a119d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#ae49aa7bce566d9f0ea3c7bbb487a119d">Read</a> () final</td></tr>
-<tr class="separator:ae49aa7bce566d9f0ea3c7bbb487a119d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa54f2fa66cfe4682ca56cf01f9e1296a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#aa54f2fa66cfe4682ca56cf01f9e1296a">Clear</a> ()</td></tr>
-<tr class="separator:aa54f2fa66cfe4682ca56cf01f9e1296a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a659397042201ae571bb564872e54d2c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a659397042201ae571bb564872e54d2c6">Move</a> ()</td></tr>
-<tr class="separator:a659397042201ae571bb564872e54d2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa19a94d57484aaff3498be01495258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a6fa19a94d57484aaff3498be01495258">ShrinkToFit</a> ()</td></tr>
-<tr class="separator:a6fa19a94d57484aaff3498be01495258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a639ab6c078d7c746bcb328526df705be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d43/a04668.html#ga1073b6abb3a749f18bf1633020879e9b">OpcodeServer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a639ab6c078d7c746bcb328526df705be">GetOpcode</a> () const</td></tr>
-<tr class="separator:a639ab6c078d7c746bcb328526df705be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10154"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10154')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d8b/a10154.html">WorldPackets::Packet</a></td></tr>
-<tr class="memitem:a316af2b7ce1ac7189fb1e57f534bad11 inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a> (<a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> &amp;&amp;worldPacket)</td></tr>
-<tr class="separator:a316af2b7ce1ac7189fb1e57f534bad11 inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca1e6377bb2fb10bf042311e72eb5d4 inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a2ca1e6377bb2fb10bf042311e72eb5d4">~Packet</a> ()=default</td></tr>
-<tr class="separator:a2ca1e6377bb2fb10bf042311e72eb5d4 inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00213b64110a99004b3d9a6b38876cd4 inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a00213b64110a99004b3d9a6b38876cd4">Packet</a> (<a class="el" href="../../df/d8b/a10154.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a00213b64110a99004b3d9a6b38876cd4 inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d2afd0d4b0d7daff11868854b7c4715 inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d8b/a10154.html">Packet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a6d2afd0d4b0d7daff11868854b7c4715">operator=</a> (<a class="el" href="../../df/d8b/a10154.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a6d2afd0d4b0d7daff11868854b7c4715 inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c79156d7b6cfe3142fc530f9ed262a inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#af7c79156d7b6cfe3142fc530f9ed262a">Write</a> ()=0</td></tr>
-<tr class="separator:af7c79156d7b6cfe3142fc530f9ed262a inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94afc4d66c2b5bced3063bab5a666bfd inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a94afc4d66c2b5bced3063bab5a666bfd">Read</a> ()=0</td></tr>
-<tr class="separator:a94afc4d66c2b5bced3063bab5a666bfd inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8649e1b035fe7387dcee3e0b062a5e inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a9d8649e1b035fe7387dcee3e0b062a5e">GetRawPacket</a> () const</td></tr>
-<tr class="separator:a9d8649e1b035fe7387dcee3e0b062a5e inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08eb4c40f49c0d4e7f17a6dc1df2fe6a inherit pub_methods_a10154"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a08eb4c40f49c0d4e7f17a6dc1df2fe6a">GetSize</a> () const</td></tr>
-<tr class="separator:a08eb4c40f49c0d4e7f17a6dc1df2fe6a inherit pub_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3fbb90119e1ac5d13455217ac95a2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#abf3fbb90119e1ac5d13455217ac95a2f">checkMap</a> ()</td></tr>
+<tr class="separator:abf3fbb90119e1ac5d13455217ac95a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2da3eeec627cb67719d774d35f03488"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6c/a27862.html">MapEntry</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#aa2da3eeec627cb67719d774d35f03488">GetEntry</a> ()</td></tr>
+<tr class="separator:aa2da3eeec627cb67719d774d35f03488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8132edffb918e8b3b1131ae29a8d9e9b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a8132edffb918e8b3b1131ae29a8d9e9b">OnCreate</a> (TMap *)</td></tr>
+<tr class="separator:a8132edffb918e8b3b1131ae29a8d9e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4631768d457c2804f057c565d6e8fb7a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a4631768d457c2804f057c565d6e8fb7a">OnDestroy</a> (TMap *)</td></tr>
+<tr class="separator:a4631768d457c2804f057c565d6e8fb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c32f3761a83f24b092cf4ab43d416c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#ad8c32f3761a83f24b092cf4ab43d416c">OnLoadGridMap</a> (TMap *, <a class="el" href="../../d4/d61/a09518.html">GridMap</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:ad8c32f3761a83f24b092cf4ab43d416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2e87c4a0ffdbf848c988a5d688d626"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a3b2e87c4a0ffdbf848c988a5d688d626">OnUnloadGridMap</a> (TMap *, <a class="el" href="../../d4/d61/a09518.html">GridMap</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a3b2e87c4a0ffdbf848c988a5d688d626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cef8253d591e729b4119312ec0b670a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a9cef8253d591e729b4119312ec0b670a">OnPlayerEnter</a> (TMap *, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *)</td></tr>
+<tr class="separator:a9cef8253d591e729b4119312ec0b670a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d74ae0f2535cda31cf2d4125600f3e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a3d74ae0f2535cda31cf2d4125600f3e2">OnPlayerLeave</a> (TMap *, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *)</td></tr>
+<tr class="separator:a3d74ae0f2535cda31cf2d4125600f3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e447511780a0c561e16b9e118361f63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a4e447511780a0c561e16b9e118361f63">OnUpdate</a> (TMap *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) override</td></tr>
+<tr class="separator:a4e447511780a0c561e16b9e118361f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf328325e08aa0d6adf36e6f70b02328"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#abf328325e08aa0d6adf36e6f70b02328">OnUpdate</a> (TMap *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:abf328325e08aa0d6adf36e6f70b02328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_a10154"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a10154')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../df/d8b/a10154.html">WorldPackets::Packet</a></td></tr>
-<tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_a10154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/a10682.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
-<tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1932ac48acf7c937c060ee35804e79da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a1932ac48acf7c937c060ee35804e79da">MapScript</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId)</td></tr>
+<tr class="separator:a1932ac48acf7c937c060ee35804e79da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a10154"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10154')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../df/d8b/a10154.html">UpdatableScript&lt; TMap &gt;</a></td></tr>
+<tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_a10154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
+<tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_a10154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a280ca8d9bfa672c10d34a99db53d2959"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6c/a27862.html">MapEntry</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a280ca8d9bfa672c10d34a99db53d2959">_mapEntry</a></td></tr>
+<tr class="separator:a280ca8d9bfa672c10d34a99db53d2959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbe9ae08f6e1c129df8d2277366eb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a10158.html#a1cbe9ae08f6e1c129df8d2277366eb1a">_mapId</a></td></tr>
+<tr class="separator:a1cbe9ae08f6e1c129df8d2277366eb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4d2bf169dd705b886da8ff58a7ef4bd2" name="a4d2bf169dd705b886da8ff58a7ef4bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d2bf169dd705b886da8ff58a7ef4bd2">&#9670;&#160;</a></span>ServerPacket()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class TMap&gt;<br />
+class MapScript&lt; TMap &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1932ac48acf7c937c060ee35804e79da" name="a1932ac48acf7c937c060ee35804e79da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1932ac48acf7c937c060ee35804e79da">&#9670;&#160;</a></span>MapScript()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WorldPackets::ServerPacket::ServerPacket </td>
+          <td class="memname"><a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;<a class="el" href="../../d7/d7a/a10158.html">::MapScript</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d43/a04668.html#ga1073b6abb3a749f18bf1633020879e9b">OpcodeServer</a>&#160;</td>
-          <td class="paramname"><em>opcode</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   86</span>: <a class="code hl_variable" href="../../d7/d7a/a10158.html#a1cbe9ae08f6e1c129df8d2277366eb1a">_mapId</a>(mapId) { }</div>
+<div class="ttc" id="aa10158_html_a1cbe9ae08f6e1c129df8d2277366eb1a"><div class="ttname"><a href="../../d7/d7a/a10158.html#a1cbe9ae08f6e1c129df8d2277366eb1a">MapScript::_mapId</a></div><div class="ttdeci">uint32 _mapId</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="abf3fbb90119e1ac5d13455217ac95a2f" name="abf3fbb90119e1ac5d13455217ac95a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3fbb90119e1ac5d13455217ac95a2f">&#9670;&#160;</a></span>checkMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::checkMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d7/d7a/a10158.html#a280ca8d9bfa672c10d34a99db53d2959">_mapEntry</a> = <a class="code hl_variable" href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.LookupEntry(<a class="code hl_variable" href="../../d7/d7a/a10158.html#a1cbe9ae08f6e1c129df8d2277366eb1a">_mapId</a>);</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/d7a/a10158.html#a280ca8d9bfa672c10d34a99db53d2959">_mapEntry</a>)</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps.script&quot;</span>, <span class="stringliteral">&quot;Invalid MapScript for {}; no such map ID.&quot;</span>, <a class="code hl_variable" href="../../d7/d7a/a10158.html#a1cbe9ae08f6e1c129df8d2277366eb1a">_mapId</a>);</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa03704_html_acbe166cef01fbaa320231e8ef42b25c6"><div class="ttname"><a href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a></div><div class="ttdeci">DBCStorage&lt; MapEntry &gt; sMapStore(MapEntryfmt)</div></div>
+<div class="ttc" id="aa10158_html_a280ca8d9bfa672c10d34a99db53d2959"><div class="ttname"><a href="../../d7/d7a/a10158.html#a280ca8d9bfa672c10d34a99db53d2959">MapScript::_mapEntry</a></div><div class="ttdeci">MapEntry const  * _mapEntry</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:82</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.</p>
+
+</div>
+</div>
+<a id="aa2da3eeec627cb67719d774d35f03488" name="aa2da3eeec627cb67719d774d35f03488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2da3eeec627cb67719d774d35f03488">&#9670;&#160;</a></span>GetEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d6c/a27862.html">MapEntry</a> const  * <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::GetEntry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d7a/a10158.html#a280ca8d9bfa672c10d34a99db53d2959">_mapEntry</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00082">MapScript&lt; TMap &gt;::_mapEntry</a>.</p>
+
+</div>
+</div>
+<a id="a8132edffb918e8b3b1131ae29a8d9e9b" name="a8132edffb918e8b3b1131ae29a8d9e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8132edffb918e8b3b1131ae29a8d9e9b">&#9670;&#160;</a></span>OnCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnCreate </td>
+          <td>(</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{ }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00087">ScriptMgr::OnCreateMap()</a>.</p>
+
+</div>
+</div>
+<a id="a4631768d457c2804f057c565d6e8fb7a" name="a4631768d457c2804f057c565d6e8fb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4631768d457c2804f057c565d6e8fb7a">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnDestroy </td>
+          <td>(</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   98</span>{ }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00112">ScriptMgr::OnDestroyMap()</a>.</p>
+
+</div>
+</div>
+<a id="ad8c32f3761a83f24b092cf4ab43d416c" name="ad8c32f3761a83f24b092cf4ab43d416c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c32f3761a83f24b092cf4ab43d416c">&#9670;&#160;</a></span>OnLoadGridMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnLoadGridMap </td>
+          <td>(</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>initialSize</em> = <code>200</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d61/a09518.html">GridMap</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -225,156 +356,243 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   25</span>                                                                                   : <a class="code hl_function" href="../../df/d8b/a10154.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a>(<a class="code hl_class" href="../../d2/d10/a10682.html">WorldPacket</a>(opcode, initialSize))</div>
-<div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>}</div>
-<div class="ttc" id="aa10154_html_a316af2b7ce1ac7189fb1e57f534bad11"><div class="ttname"><a href="../../df/d8b/a10154.html#a316af2b7ce1ac7189fb1e57f534bad11">WorldPackets::Packet::Packet</a></div><div class="ttdeci">Packet(WorldPacket &amp;&amp;worldPacket)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:21</div></div>
-<div class="ttc" id="aa10682_html"><div class="ttname"><a href="../../d2/d10/a10682.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:26</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{ }</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00137">ScriptMgr::OnLoadGridMap()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa54f2fa66cfe4682ca56cf01f9e1296a" name="aa54f2fa66cfe4682ca56cf01f9e1296a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa54f2fa66cfe4682ca56cf01f9e1296a">&#9670;&#160;</a></span>Clear()</h2>
+<a id="a9cef8253d591e729b4119312ec0b670a" name="a9cef8253d591e729b4119312ec0b670a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cef8253d591e729b4119312ec0b670a">&#9670;&#160;</a></span>OnPlayerEnter()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void WorldPackets::ServerPacket::Clear </td>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnPlayerEnter </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   52</span>{ <a class="code hl_variable" href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../db/d24/a28070.html#ab9fbbcf0abe4049e2016c1262795c97e">clear</a>(); }</div>
-<div class="ttc" id="aa10154_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
-<div class="ttc" id="aa28070_html_ab9fbbcf0abe4049e2016c1262795c97e"><div class="ttname"><a href="../../db/d24/a28070.html#ab9fbbcf0abe4049e2016c1262795c97e">ByteBuffer::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:122</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a639ab6c078d7c746bcb328526df705be" name="a639ab6c078d7c746bcb328526df705be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a639ab6c078d7c746bcb328526df705be">&#9670;&#160;</a></span>GetOpcode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d43/a04668.html#ga1073b6abb3a749f18bf1633020879e9b">OpcodeServer</a> WorldPackets::ServerPacket::GetOpcode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d5/d43/a04668.html#ga643cacce939fa0e688fe54ada4988ca5">OpcodeServer</a>(<a class="code hl_variable" href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../d2/d10/a10682.html#a666547feae3b83bfbba424a541287239">GetOpcode</a>()); }</div>
-<div class="ttc" id="aa04668_html_ga643cacce939fa0e688fe54ada4988ca5"><div class="ttname"><a href="../../d5/d43/a04668.html#ga643cacce939fa0e688fe54ada4988ca5">OpcodeServer</a></div><div class="ttdeci">Opcodes OpcodeServer</div><div class="ttdef"><b>Definition:</b> Opcodes.h:1351</div></div>
-<div class="ttc" id="aa10682_html_a666547feae3b83bfbba424a541287239"><div class="ttname"><a href="../../d2/d10/a10682.html#a666547feae3b83bfbba424a541287239">WorldPacket::GetOpcode</a></div><div class="ttdeci">uint16 GetOpcode() const</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:75</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a659397042201ae571bb564872e54d2c6" name="a659397042201ae571bb564872e54d2c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a659397042201ae571bb564872e54d2c6">&#9670;&#160;</a></span>Move()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> &amp;&amp; WorldPackets::ServerPacket::Move </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
           <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> std::move(<a class="code hl_variable" href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>); }</div>
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae49aa7bce566d9f0ea3c7bbb487a119d" name="ae49aa7bce566d9f0ea3c7bbb487a119d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae49aa7bce566d9f0ea3c7bbb487a119d">&#9670;&#160;</a></span>Read()</h2>
+<a id="a3d74ae0f2535cda31cf2d4125600f3e2" name="a3d74ae0f2535cda31cf2d4125600f3e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d74ae0f2535cda31cf2d4125600f3e2">&#9670;&#160;</a></span>OnPlayerLeave()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void WorldPackets::ServerPacket::Read </td>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnPlayerLeave </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../df/d8b/a10154.html#a94afc4d66c2b5bced3063bab5a666bfd">WorldPackets::Packet</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<span class="stringliteral">&quot;Read not implemented for server packets.&quot;</span>);</div>
-<div class="line"><span class="lineno">   32</span>}</div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  110</span>{ }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00216">ScriptMgr::OnPlayerLeaveMap()</a>.</p>
 
 </div>
 </div>
-<a id="a6fa19a94d57484aaff3498be01495258" name="a6fa19a94d57484aaff3498be01495258"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa19a94d57484aaff3498be01495258">&#9670;&#160;</a></span>ShrinkToFit()</h2>
+<a id="a3b2e87c4a0ffdbf848c988a5d688d626" name="a3b2e87c4a0ffdbf848c988a5d688d626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2e87c4a0ffdbf848c988a5d688d626">&#9670;&#160;</a></span>OnUnloadGridMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void WorldPackets::ServerPacket::ShrinkToFit </td>
+          <td class="memname">virtual void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnUnloadGridMap </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d61/a09518.html">GridMap</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <a class="code hl_variable" href="../../df/d8b/a10154.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../db/d24/a28070.html#a4f98988a7528081215fe378775e16402">shrink_to_fit</a>(); }</div>
-<div class="ttc" id="aa28070_html_a4f98988a7528081215fe378775e16402"><div class="ttname"><a href="../../db/d24/a28070.html#a4f98988a7528081215fe378775e16402">ByteBuffer::shrink_to_fit</a></div><div class="ttdeci">void shrink_to_fit()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:462</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{ }</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00161">ScriptMgr::OnUnloadGridMap()</a>.</p>
+
+</div>
+</div>
+<a id="a4e447511780a0c561e16b9e118361f63" name="a4e447511780a0c561e16b9e118361f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e447511780a0c561e16b9e118361f63">&#9670;&#160;</a></span>OnUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::OnUpdate </td>
+          <td>(</td>
+          <td class="paramtype">TMap *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../df/d8b/a10154.html#abf328325e08aa0d6adf36e6f70b02328">UpdatableScript&lt; TMap &gt;</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{ }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00242">ScriptMgr::OnMapUpdate()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a280ca8d9bfa672c10d34a99db53d2959" name="a280ca8d9bfa672c10d34a99db53d2959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280ca8d9bfa672c10d34a99db53d2959">&#9670;&#160;</a></span>_mapEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d6c/a27862.html">MapEntry</a> const* <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::_mapEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00092">MapScript&lt; TMap &gt;::GetEntry()</a>.</p>
+
+</div>
+</div>
+<a id="a1cbe9ae08f6e1c129df8d2277366eb1a" name="a1cbe9ae08f6e1c129df8d2277366eb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbe9ae08f6e1c129df8d2277366eb1a">&#9670;&#160;</a></span>_mapId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TMap &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d7/d7a/a10158.html">MapScript</a>&lt; TMap &gt;::_mapId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->
@@ -382,8 +600,8 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/dd5/a04724.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d7/d7a/a10158.html">ServerPacket</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/d7a/a10158.html">MapScript</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:59 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

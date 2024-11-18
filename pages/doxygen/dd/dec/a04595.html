@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/Implementation/CharacterDatabase.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/Field.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,20 +104,150 @@ $(document).ready(function(){initNavTree('dd/dec/a04595.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">CharacterDatabase.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Field.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CharacterDatabase.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MySQLPreparedStatement.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dff/a05618.html">QueryResultFieldMetadata</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc8/a05622.html">Field</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to access individual fields of database query result.  <a href="../../d4/dc8/a05622.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/d6d/a04713"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html">Acore::Types</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html#aa6a7b1e80be2ae7ec2efb76185ee7b44">Acore::Types::is_chrono_v</a> = std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#af2161f9db850581e2228078614990df8">Minutes</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#aa0f87984d2b3835a61dffc22ae8bf083">Hours</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#af5dc5e7ad7b3f6d8e84530de842d125b">Days</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#a983745490d3d3a0322c4ccf0f418f179">Weeks</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#ab4fa20b33a9b5ee358963159b01d72f3">Years</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../dc/d84/a00338.html#a5f2ffeea2459944dfaa4443f1efb7f42">Months</a>, T &gt;, T &gt;</td></tr>
+<tr class="separator:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c2b15f675e85c1f4462be09f27c59e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/a04595.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a> = std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;</td></tr>
+<tr class="separator:a45c2b15f675e85c1f4462be09f27c59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a52858f4c2cc23ac9372ab466fb82c091"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">Null</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">Int16</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">Int32</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">Int64</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">Float</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">Double</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">Decimal</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">Date</a>
+, <br />
+&#160;&#160;<a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd">Binary</a>
+<br />
+ }</td></tr>
+<tr class="separator:a52858f4c2cc23ac9372ab466fb82c091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a45c2b15f675e85c1f4462be09f27c59e" name="a45c2b15f675e85c1f4462be09f27c59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c2b15f675e85c1f4462be09f27c59e">&#9670;&#160;</a></span>Binary</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/dec/a04595.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a> =  std::vector&lt;<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a52858f4c2cc23ac9372ab466fb82c091" name="a52858f4c2cc23ac9372ab466fb82c091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52858f4c2cc23ac9372ab466fb82c091">&#9670;&#160;</a></span>DatabaseFieldTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a> : <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94" name="a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94"></a>Null&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539" name="a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539"></a>Int8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208" name="a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208"></a>Int16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31" name="a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31"></a>Int32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487" name="a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487"></a>Int64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b" name="a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b" name="a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3" name="a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3"></a>Decimal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41" name="a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41"></a>Date&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd" name="a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd"></a>Binary&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">Null</a>,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">Int16</a>,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">Int32</a>,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">Int64</a>,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">Float</a>,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">Double</a>,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">Decimal</a>,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">Date</a>,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_typedef" href="../../dd/dec/a04595.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a></div>
+<div class="line"><span class="lineno">   54</span>};</div>
+<div class="ttc" id="aa04595_html_a45c2b15f675e85c1f4462be09f27c59e"><div class="ttname"><a href="../../dd/dec/a04595.html#a45c2b15f675e85c1f4462be09f27c59e">Binary</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; Binary</div><div class="ttdef"><b>Definition:</b> Field.h:40</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">DatabaseFieldTypes::Float</a></div><div class="ttdeci">@ Float</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">DatabaseFieldTypes::Int16</a></div><div class="ttdeci">@ Int16</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">DatabaseFieldTypes::Date</a></div><div class="ttdeci">@ Date</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">DatabaseFieldTypes::Int8</a></div><div class="ttdeci">@ Int8</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">DatabaseFieldTypes::Decimal</a></div><div class="ttdeci">@ Decimal</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">DatabaseFieldTypes::Null</a></div><div class="ttdeci">@ Null</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">DatabaseFieldTypes::Int32</a></div><div class="ttdeci">@ Int32</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">DatabaseFieldTypes::Double</a></div><div class="ttdeci">@ Double</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">DatabaseFieldTypes::Int64</a></div><div class="ttdeci">@ Int64</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../dir_a58b003a535a0d998ca0fef6e9ca4a39.html">Implementation</a></li><li class="navelem"><a class="el" href="../../dd/dec/a04595.html">CharacterDatabase.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../dd/dec/a04595.html">Field.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,10 @@
 var a09630 =
 [
-    [ "sourceObjectDestroyLink", "d5/d8e/a09630.html#a575a5bac090f5bc5b3f2a721aa64ef42", null ],
-    [ "targetObjectBuildLink", "d5/d8e/a09630.html#abf8c86604c3ef4349567c736090402f6", null ],
-    [ "targetObjectDestroyLink", "d5/d8e/a09630.html#a5cb0bab8be8116b9a489a4922c44c5c8", null ]
+    [ "ID", "d5/d8e/a09630.html#a3bd2bf63526b6ee4a15cf7a2244ff06b", null ],
+    [ "Map", "d5/d8e/a09630.html#af4e60380e8434e5b8f573d2172ddf656", null ],
+    [ "name", "d5/d8e/a09630.html#ae1dd7ba1294653756ea4af9d9b66fa2c", null ],
+    [ "wnameLow", "d5/d8e/a09630.html#a148ead3270ad02213204792d6063cead", null ],
+    [ "x", "d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330", null ],
+    [ "y", "d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455", null ],
+    [ "z", "d5/d8e/a09630.html#adf56d09898752230a4fa1629849ac945", null ]
 ];

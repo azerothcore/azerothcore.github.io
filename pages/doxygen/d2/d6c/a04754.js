@@ -1,11 +1,10 @@
 var a04754 =
 [
-    [ "~GameObjectModelOwnerBase", "d2/d6c/a04754.html#a307c744710782fcb0d5c287b23c74d69", null ],
-    [ "DebugVisualizeCorner", "d2/d6c/a04754.html#acf130fbdfb086a9c6d35d145116357c8", null ],
-    [ "GetDisplayId", "d2/d6c/a04754.html#ae3eddc6c841c3644f50cb3300f80cee2", null ],
-    [ "GetOrientation", "d2/d6c/a04754.html#a35c11d2346c5156b95558729d84b3fe8", null ],
-    [ "GetPhaseMask", "d2/d6c/a04754.html#a6b55de1c8de5a50245d7e5a833766d0f", null ],
-    [ "GetPosition", "d2/d6c/a04754.html#a82e89b7fac5f46a25519674930294ed8", null ],
-    [ "GetScale", "d2/d6c/a04754.html#abf8e9a74f58ec34bc6f1f8d853100f69", null ],
-    [ "IsSpawned", "d2/d6c/a04754.html#ad824da6970d512c344160714cd7ec434", null ]
+    [ "DismissCritter", "dc/d55/a10598.html", "dc/d55/a10598" ],
+    [ "PetAbandon", "d2/d62/a10602.html", "d2/d62/a10602" ],
+    [ "PetLearnedSpell", "de/dbd/a10614.html", "de/dbd/a10614" ],
+    [ "PetSpellAutocast", "d6/d02/a10610.html", "d6/d02/a10610" ],
+    [ "PetStopAttack", "de/d5d/a10606.html", "de/d5d/a10606" ],
+    [ "PetUnlearnedSpell", "da/d7f/a10618.html", "da/d7f/a10618" ],
+    [ "RequestPetInfo", "dc/d72/a10622.html", "dc/d72/a10622" ]
 ];

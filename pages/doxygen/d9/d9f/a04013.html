@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/DynamicObject/DynamicObject.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Protocol/PacketLog.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,67 +105,35 @@ $(document).ready(function(){initNavTree('d9/d9f/a04013.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">DynamicObject.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">PacketLog.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">PacketLog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IpAddress.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df8/a10678.html">LogHeader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aee85c2f840289bcf773609333ee91131"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a> = 0x0
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a> = 0x1
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a> = 0x2
-<br />
- }</td></tr>
-<tr class="separator:aee85c2f840289bcf773609333ee91131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10682.html">PacketHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2a/a10686.html">PacketHeader::OptionalData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aee85c2f840289bcf773609333ee91131" name="aee85c2f840289bcf773609333ee91131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee85c2f840289bcf773609333ee91131">&#9670;&#160;</a></span>DynamicObjectType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b" name="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"></a>DYNAMIC_OBJECT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546" name="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"></a>DYNAMIC_OBJECT_AREA_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d" name="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"></a>DYNAMIC_OBJECT_FARSIGHT_FOCUS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a>           = 0x0,      <span class="comment">// unused</span></div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a>       = 0x1,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a>   = 0x2,</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa04013_html_aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"><div class="ttname"><a href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_PORTAL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:29</div></div>
-<div class="ttc" id="aa04013_html_aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"><div class="ttname"><a href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_FARSIGHT_FOCUS</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:31</div></div>
-<div class="ttc" id="aa04013_html_aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"><div class="ttname"><a href="../../d9/d9f/a04013.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_AREA_SPELL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:30</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_433144acbd6159b6f819bf3bc146888c.html">DynamicObject</a></li><li class="navelem"><a class="el" href="../../d9/d9f/a04013.html">DynamicObject.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_1fd92d9a30d0fdf42a981ea00259f736.html">Protocol</a></li><li class="navelem"><a class="el" href="../../d9/d9f/a04013.html">PacketLog.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,9 @@
 var a20482 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d0/d6b/a20486.html", "d0/d6b/a20486" ],
-    [ "boss_yoggsaron_influence_tentacle", "d9/d3e/a20482.html#a44155d82364bdde7e00131be3b6edfb6", null ],
-    [ "GetAI", "d9/d3e/a20482.html#afb691fae90c0add07cfc8c02b9d2b975", null ]
+    [ "boss_yoggsaron_keeper", "d9/d3e/a20482.html#ad2098933656371b1bf80ec3ea859c418", null ],
+    [ "DoAction", "d9/d3e/a20482.html#a9e3d251810b55072458003356213ae15", null ],
+    [ "JustEngagedWith", "d9/d3e/a20482.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
+    [ "JustSummoned", "d9/d3e/a20482.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
+    [ "UpdateAI", "d9/d3e/a20482.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
+    [ "_summons", "d9/d3e/a20482.html#aa840eff5f3d8b24225046113737936b4", null ]
 ];

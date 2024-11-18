@@ -1,5 +1,4 @@
 var a00329 =
 [
-    [ "BIHWrap< T, BoundsFunc >", "de/d85/a04810.html", "de/d85/a04810" ],
-    [ "BIHWrap< T, BoundsFunc >::MDLCallback< RayCallback >", "d0/de6/a04814.html", "d0/de6/a04814" ]
+    [ "Acore::SignalHandler", "d5/d43/a05406.html", "d5/d43/a05406" ]
 ];

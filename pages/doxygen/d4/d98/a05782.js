@@ -1,11 +1,13 @@
 var a05782 =
 [
-    [ "AppenderDB", "d4/d98/a05782.html#af8e48076d47a06c73f6b8ae054955a83", null ],
-    [ "~AppenderDB", "d4/d98/a05782.html#a7da848083d02833acc632051a2d938bf", null ],
-    [ "_write", "d4/d98/a05782.html#af38ab76e4d3ea9ebe864582c0030c49a", null ],
-    [ "getType", "d4/d98/a05782.html#a96221ceed23435556df03c5f7ffab61e", null ],
-    [ "setRealmId", "d4/d98/a05782.html#a769ff59f4dbbff1b77398dd20c016ace", null ],
-    [ "enabled", "d4/d98/a05782.html#a55e70394d0a7f321e0cf75a9b822b482", null ],
-    [ "realmId", "d4/d98/a05782.html#a5c9bf2ae429c0903cffe9a01c03b6028", null ],
-    [ "type", "d4/d98/a05782.html#a8d9968c073ee16a8fe082254ec232ebb", null ]
+    [ "TransactionTask", "d4/d98/a05782.html#a13573f827891ad172847dc0e466b0b9e", null ],
+    [ "~TransactionTask", "d4/d98/a05782.html#a68bc982f025d40bbc3a7323cd8c96786", null ],
+    [ "CleanupOnFailure", "d4/d98/a05782.html#adc2f1534bce5a7ce198eeeb510fcb533", null ],
+    [ "Execute", "d4/d98/a05782.html#aa1c1df059d15fe2077ceea5cfb51ba22", null ],
+    [ "TryExecute", "d4/d98/a05782.html#a28c9ca1d9d3fdc6a722dcec68e46a38f", null ],
+    [ "DatabaseWorker", "d4/d98/a05782.html#ac8984f2167ec797d478f3a771d1c1c3f", null ],
+    [ "DatabaseWorkerPool", "d4/d98/a05782.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
+    [ "TransactionCallback", "d4/d98/a05782.html#ac3345f3314b133d53268f53e222cdc74", null ],
+    [ "_deadlockLock", "d4/d98/a05782.html#a84b48dbb670dd884e9b44ea53c8b0008", null ],
+    [ "m_trans", "d4/d98/a05782.html#a242f0cb47bc6b456b6bea9aa372df4b6", null ]
 ];

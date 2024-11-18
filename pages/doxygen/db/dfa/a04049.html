@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Creature/CreatureGroups.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Packets/BankPackets.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,165 +106,42 @@ $(document).ready(function(){initNavTree('db/dfa/a04049.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">CreatureGroups.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">BankPackets.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Packet.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/a07842.html">FormationInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html">WorldPackets::Bank::AutoBankItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d56/a07846.html">FormationMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d91/a10186.html">WorldPackets::Bank::AutoStoreBankItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6c/a07850.html">CreatureGroup</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d84/a10190.html">WorldPackets::Bank::BuyBankSlot</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de9/a10194.html">WorldPackets::Bank::BuyBankSlotResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd0/a10198.html">WorldPackets::Bank::ShowBank</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ae80a51404625cee821a8727ed7369352"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04049.html#ae80a51404625cee821a8727ed7369352">sFormationMgr</a>&#160;&#160;&#160;<a class="el" href="../../d8/d56/a07846.html#a871fec234a94e4adae07315a008acec3">FormationMgr::instance</a>()</td></tr>
-<tr class="separator:ae80a51404625cee821a8727ed7369352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a2c3447bf21f430bff136da6811d93a61"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d8/d39/a07842.html">FormationInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04049.html#a2c3447bf21f430bff136da6811d93a61">CreatureGroupInfoType</a></td></tr>
-<tr class="separator:a2c3447bf21f430bff136da6811d93a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a3754da8cc6b209da0180cd76de20869c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869c">GroupAIFlags</a> : uint16 { <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2">GROUP_AI_FLAG_MEMBER_ASSIST_LEADER</a> = 0x001
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e">GROUP_AI_FLAG_LEADER_ASSIST_MEMBER</a> = 0x002
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a">GROUP_AI_FLAG_EVADE_TOGETHER</a> = 0x004
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6">GROUP_AI_FLAG_RESPAWN_ON_EVADE</a> = 0x008
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043">GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE</a> = 0x010
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e">GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE</a> = 0x020
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87">GROUP_AI_FLAG_FOLLOW_LEADER</a> = 0x200
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c">GROUP_AI_FLAG_ASSIST_MASK</a> = GROUP_AI_FLAG_MEMBER_ASSIST_LEADER | GROUP_AI_FLAG_LEADER_ASSIST_MEMBER
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd">GROUP_AI_FLAG_EVADE_MASK</a> = GROUP_AI_FLAG_EVADE_TOGETHER | GROUP_AI_FLAG_RESPAWN_ON_EVADE
-, <br />
-&#160;&#160;<a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60">GROUP_AI_FLAG_SUPPORTED</a>
-<br />
- }</td></tr>
-<tr class="separator:a3754da8cc6b209da0180cd76de20869c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d4/da9/a04736"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d1/d86/a04746"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d86/a04746.html">WorldPackets::Bank</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ae80a51404625cee821a8727ed7369352" name="ae80a51404625cee821a8727ed7369352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae80a51404625cee821a8727ed7369352">&#9670;&#160;</a></span>sFormationMgr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sFormationMgr&#160;&#160;&#160;<a class="el" href="../../d8/d56/a07846.html#a871fec234a94e4adae07315a008acec3">FormationMgr::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a2c3447bf21f430bff136da6811d93a61" name="a2c3447bf21f430bff136da6811d93a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c3447bf21f430bff136da6811d93a61">&#9670;&#160;</a></span>CreatureGroupInfoType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d3/d4c/a08174.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d8/d39/a07842.html">FormationInfo</a> &gt; <a class="el" href="../../db/dfa/a04049.html#a2c3447bf21f430bff136da6811d93a61">CreatureGroupInfoType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a3754da8cc6b209da0180cd76de20869c" name="a3754da8cc6b209da0180cd76de20869c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3754da8cc6b209da0180cd76de20869c">&#9670;&#160;</a></span>GroupAIFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869c">GroupAIFlags</a> : <a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2" name="a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2"></a>GROUP_AI_FLAG_MEMBER_ASSIST_LEADER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e" name="a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e"></a>GROUP_AI_FLAG_LEADER_ASSIST_MEMBER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a" name="a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a"></a>GROUP_AI_FLAG_EVADE_TOGETHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6" name="a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6"></a>GROUP_AI_FLAG_RESPAWN_ON_EVADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043" name="a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043"></a>GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e" name="a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e"></a>GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87" name="a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87"></a>GROUP_AI_FLAG_FOLLOW_LEADER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c" name="a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c"></a>GROUP_AI_FLAG_ASSIST_MASK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd" name="a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd"></a>GROUP_AI_FLAG_EVADE_MASK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60" name="a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60"></a>GROUP_AI_FLAG_SUPPORTED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2">GROUP_AI_FLAG_MEMBER_ASSIST_LEADER</a>          = 0x001,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e">GROUP_AI_FLAG_LEADER_ASSIST_MEMBER</a>          = 0x002,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a">GROUP_AI_FLAG_EVADE_TOGETHER</a>                = 0x004,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6">GROUP_AI_FLAG_RESPAWN_ON_EVADE</a>              = 0x008,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043">GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE</a>  = 0x010,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e">GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE</a>   = 0x020,</div>
-<div class="line"><span class="lineno">   37</span>    <span class="comment">//GROUP_AI_FLAG_UNK5                        = 0x040,</span></div>
-<div class="line"><span class="lineno">   38</span>    <span class="comment">//GROUP_AI_FLAG_UNK6                        = 0x080,</span></div>
-<div class="line"><span class="lineno">   39</span>    <span class="comment">//GROUP_AI_FLAG_UNK7                        = 0x100,</span></div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87">GROUP_AI_FLAG_FOLLOW_LEADER</a>                 = 0x200,</div>
-<div class="line"><span class="lineno">   41</span> </div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c">GROUP_AI_FLAG_ASSIST_MASK</a>                   = <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2">GROUP_AI_FLAG_MEMBER_ASSIST_LEADER</a> | <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e">GROUP_AI_FLAG_LEADER_ASSIST_MEMBER</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd">GROUP_AI_FLAG_EVADE_MASK</a>                    = <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a">GROUP_AI_FLAG_EVADE_TOGETHER</a> | <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6">GROUP_AI_FLAG_RESPAWN_ON_EVADE</a>,</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>    <span class="comment">// Used to verify valid and usable flags</span></div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60">GROUP_AI_FLAG_SUPPORTED</a>                     = <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c">GROUP_AI_FLAG_ASSIST_MASK</a> | <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd">GROUP_AI_FLAG_EVADE_MASK</a> | <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043">GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE</a> |</div>
-<div class="line"><span class="lineno">   47</span>                                                  <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87">GROUP_AI_FLAG_FOLLOW_LEADER</a> | <a class="code hl_enumvalue" href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e">GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE</a></div>
-<div class="line"><span class="lineno">   48</span>};</div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca1a12d5efe0ba28476f98f73978bc912e">GroupAIFlags::GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE</a></div><div class="ttdeci">@ GROUP_AI_FLAG_ACQUIRE_NEW_TARGET_ON_EVADE</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca28fae9fc8e2ffc5c42c7dd1812694f6e">GroupAIFlags::GROUP_AI_FLAG_LEADER_ASSIST_MEMBER</a></div><div class="ttdeci">@ GROUP_AI_FLAG_LEADER_ASSIST_MEMBER</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca2b086f30dfcafa5d5b17145232d26acd">GroupAIFlags::GROUP_AI_FLAG_EVADE_MASK</a></div><div class="ttdeci">@ GROUP_AI_FLAG_EVADE_MASK</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca77e2c9b09a3c1f6ade309decc6d82c60">GroupAIFlags::GROUP_AI_FLAG_SUPPORTED</a></div><div class="ttdeci">@ GROUP_AI_FLAG_SUPPORTED</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca928d7601145d6d43e75dcd4016b5168a">GroupAIFlags::GROUP_AI_FLAG_EVADE_TOGETHER</a></div><div class="ttdeci">@ GROUP_AI_FLAG_EVADE_TOGETHER</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869ca9fb1dd5025383fe38dc24bd42572256c">GroupAIFlags::GROUP_AI_FLAG_ASSIST_MASK</a></div><div class="ttdeci">@ GROUP_AI_FLAG_ASSIST_MASK</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caa14252ac4ad9c188fc5d7ed9ca7656a2">GroupAIFlags::GROUP_AI_FLAG_MEMBER_ASSIST_LEADER</a></div><div class="ttdeci">@ GROUP_AI_FLAG_MEMBER_ASSIST_LEADER</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cabcc8bb1d4fe9589142cc0d244ce05043">GroupAIFlags::GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE</a></div><div class="ttdeci">@ GROUP_AI_FLAG_DONT_RESPAWN_LEADER_ON_EVADE</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869caee689adab992a48549490c861e29da87">GroupAIFlags::GROUP_AI_FLAG_FOLLOW_LEADER</a></div><div class="ttdeci">@ GROUP_AI_FLAG_FOLLOW_LEADER</div></div>
-<div class="ttc" id="aa04049_html_a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6"><div class="ttname"><a href="../../db/dfa/a04049.html#a3754da8cc6b209da0180cd76de20869cafd1b3cc36d34613f8cef22a23e0c6ee6">GroupAIFlags::GROUP_AI_FLAG_RESPAWN_ON_EVADE</a></div><div class="ttdeci">@ GROUP_AI_FLAG_RESPAWN_ON_EVADE</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_27c47d768f113c084c0b575dcbf4137a.html">Creature</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04049.html">CreatureGroups.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_07fbe19a361de996bef604f9408f4a7b.html">Packets</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04049.html">BankPackets.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,8 +1,10 @@
 var a11974 =
 [
-    [ "FilterTargets", "d7/d70/a11974.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
-    [ "FilterTargetsEff", "d7/d70/a11974.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
-    [ "PrepareSpellScript", "d7/d70/a11974.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
-    [ "Register", "d7/d70/a11974.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
-    [ "targetList", "d7/d70/a11974.html#a874dc7877ecfae332c9f826f01afce0f", null ]
+    [ "npc_corrupted_totem", "d7/d70/a11974.html#a5e0c58b341fe25a5d682b68e9eee207f", null ],
+    [ "IsSummonedBy", "d7/d70/a11974.html#ae8314903c9006b7bca94a47115a0d05b", null ],
+    [ "JustDied", "d7/d70/a11974.html#aa3c6b1a3df61c9e98c62efadff637578", null ],
+    [ "Reset", "d7/d70/a11974.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4", null ],
+    [ "SetAura", "d7/d70/a11974.html#a509688befda49f789f77ee0e4170a74e", null ],
+    [ "UpdateAI", "d7/d70/a11974.html#ac128625268820d2e9b1f0ef5ead975e9", null ],
+    [ "_auraAdded", "d7/d70/a11974.html#a953cf5af625b9b5a4ab6704d5b1b664c", null ]
 ];

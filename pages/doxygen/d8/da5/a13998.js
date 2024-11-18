@@ -1,10 +1,8 @@
 var a13998 =
 [
-    [ "boss_headless_horseman_pumpkin", "d8/da5/a13998.html#a62191ae523401ac57a947db96a245f7a", null ],
-    [ "AttackStart", "d8/da5/a13998.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
-    [ "MoveInLineOfSight", "d8/da5/a13998.html#a212f9803f66d297cd276ef842247776a", null ],
-    [ "Reset", "d8/da5/a13998.html#a9d5f6922a52146b61168f1c50b378294", null ],
-    [ "SpellHit", "d8/da5/a13998.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
-    [ "UpdateAI", "d8/da5/a13998.html#aca53b8839bce5e180ba8583490d694c3", null ],
-    [ "timer", "d8/da5/a13998.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
+    [ "npc_hallows_end_train_fire", "d8/da5/a13998.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
+    [ "Reset", "d8/da5/a13998.html#afdda52e0adce23f56fa9d1357469a17d", null ],
+    [ "SpellHit", "d8/da5/a13998.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
+    [ "UpdateAI", "d8/da5/a13998.html#a686a565e1743c31166d8d57f67a0adce", null ],
+    [ "timer", "d8/da5/a13998.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
 ];

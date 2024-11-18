@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: GameEventData Struct Reference</title>
+<title>AzerothCore: TransportBase Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,54 +106,54 @@ $(document).ready(function(){initNavTree('d4/d3a/a08574.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="../../d2/d17/a08571.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">GameEventData Struct Reference</div></div>
+  <div class="headertitle"><div class="title">TransportBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">VehicleDefines.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for TransportBase:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d4/d3a/a08574.png" usemap="#TransportBase_map" alt=""/>
+  <map id="TransportBase_map" name="TransportBase_map">
+<area href="../../d3/d29/a08426.html" alt="Transport" shape="rect" coords="57,56,161,80"/>
+<area href="../../df/d7b/a08550.html" alt="Vehicle" shape="rect" coords="171,56,275,80"/>
+<area href="../../d4/dea/a08430.html" alt="MotionTransport" shape="rect" coords="0,112,104,136"/>
+<area href="../../d1/d05/a08434.html" alt="StaticTransport" shape="rect" coords="114,112,218,136"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab7963b01d9e138d79f06274ea57b9590"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#ab7963b01d9e138d79f06274ea57b9590">GameEventData</a> ()=default</td></tr>
-<tr class="separator:ab7963b01d9e138d79f06274ea57b9590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a91c9c9cc68593812b13f6efd2ea4ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a7a91c9c9cc68593812b13f6efd2ea4ff">isValid</a> () const</td></tr>
-<tr class="separator:a7a91c9c9cc68593812b13f6efd2ea4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328fbc464c56eca89138380182a0108c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a328fbc464c56eca89138380182a0108c">CalculatePassengerPosition</a> (float &amp;x, float &amp;y, float &amp;z, float *o=nullptr) const =0</td></tr>
+<tr class="memdesc:a328fbc464c56eca89138380182a0108c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method transforms supplied transport offsets into global coordinates.  <a href="../../d4/d3a/a08574.html#a328fbc464c56eca89138380182a0108c">More...</a><br /></td></tr>
+<tr class="separator:a328fbc464c56eca89138380182a0108c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d00f15dc0e6c53b4a175b0ca53021b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#aa4d00f15dc0e6c53b4a175b0ca53021b">CalculatePassengerOffset</a> (float &amp;x, float &amp;y, float &amp;z, float *o=nullptr) const =0</td></tr>
+<tr class="memdesc:aa4d00f15dc0e6c53b4a175b0ca53021b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method transforms supplied global coordinates into local offsets.  <a href="../../d4/d3a/a08574.html#aa4d00f15dc0e6c53b4a175b0ca53021b">More...</a><br /></td></tr>
+<tr class="separator:aa4d00f15dc0e6c53b4a175b0ca53021b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a858501847212a8771f676641ad61aacd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a858501847212a8771f676641ad61aacd">eventId</a></td></tr>
-<tr class="separator:a858501847212a8771f676641ad61aacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4da43ddbb3b95f00589f49ed250092d"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#ac4da43ddbb3b95f00589f49ed250092d">start</a> {1}</td></tr>
-<tr class="separator:ac4da43ddbb3b95f00589f49ed250092d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bf3980d02cd0dc304b2ffbd5afb7b9f"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a1bf3980d02cd0dc304b2ffbd5afb7b9f">end</a> {0}</td></tr>
-<tr class="separator:a1bf3980d02cd0dc304b2ffbd5afb7b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0259f021337b3ad47dfbbc1f361965f"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#ae0259f021337b3ad47dfbbc1f361965f">nextstart</a> {0}</td></tr>
-<tr class="separator:ae0259f021337b3ad47dfbbc1f361965f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c813525fef572000608f32650565ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a04c813525fef572000608f32650565ff">occurence</a> {0}</td></tr>
-<tr class="separator:a04c813525fef572000608f32650565ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45297bad99ddb339b3aa18ec5912c1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#ac45297bad99ddb339b3aa18ec5912c1c">length</a> {0}</td></tr>
-<tr class="separator:ac45297bad99ddb339b3aa18ec5912c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa13c2c2eacb9475e18c1d1370566e988"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dfb/a04472.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#aa13c2c2eacb9475e18c1d1370566e988">holiday_id</a> {<a class="el" href="../../df/dfb/a04472.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a>}</td></tr>
-<tr class="separator:aa13c2c2eacb9475e18c1d1370566e988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a3f6d7f036f6c5b47b84ef1242d056"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a23a3f6d7f036f6c5b47b84ef1242d056">holidayStage</a></td></tr>
-<tr class="separator:a23a3f6d7f036f6c5b47b84ef1242d056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54a6e90fd4b68093a99e32b198eab2fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5">GameEventState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a54a6e90fd4b68093a99e32b198eab2fb">state</a> {<a class="el" href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921">GAMEEVENT_NORMAL</a>}</td></tr>
-<tr class="separator:a54a6e90fd4b68093a99e32b198eab2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adca87b4b2205273a29dd2a547be90da6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d3e/a03581.html#ac4262be385ac879bb433e00533d835c0">GameEventConditionMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#adca87b4b2205273a29dd2a547be90da6">conditions</a></td></tr>
-<tr class="separator:adca87b4b2205273a29dd2a547be90da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7a8d00e76cd09cbbbd345987b8644f"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#acd7a8d00e76cd09cbbbd345987b8644f">prerequisite_events</a></td></tr>
-<tr class="separator:acd7a8d00e76cd09cbbbd345987b8644f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebdadbaadbba367601674146a27a283f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#aebdadbaadbba367601674146a27a283f">description</a></td></tr>
-<tr class="separator:aebdadbaadbba367601674146a27a283f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7271996d66a36e41b21502fa4d5305fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a7271996d66a36e41b21502fa4d5305fe">announce</a></td></tr>
-<tr class="separator:a7271996d66a36e41b21502fa4d5305fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a6dba8e37217dae4e5da8f52780e63f70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a6dba8e37217dae4e5da8f52780e63f70">TransportBase</a> ()=default</td></tr>
+<tr class="separator:a6dba8e37217dae4e5da8f52780e63f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dca3435a1a1666a90acd8e154e3287"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a81dca3435a1a1666a90acd8e154e3287">~TransportBase</a> ()=default</td></tr>
+<tr class="separator:a81dca3435a1a1666a90acd8e154e3287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7cb7586a6935ca4e08aa3e658982abec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#a7cb7586a6935ca4e08aa3e658982abec">CalculatePassengerPosition</a> (float &amp;x, float &amp;y, float &amp;z, float *o, float transX, float transY, float transZ, float transO)</td></tr>
+<tr class="separator:a7cb7586a6935ca4e08aa3e658982abec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c9eb64027f8e7c781f0af192e3f6c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/a08574.html#ae8c9eb64027f8e7c781f0af192e3f6c1">CalculatePassengerOffset</a> (float &amp;x, float &amp;y, float &amp;z, float *o, float transX, float transY, float transZ, float transO)</td></tr>
+<tr class="separator:ae8c9eb64027f8e7c781f0af192e3f6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab7963b01d9e138d79f06274ea57b9590" name="ab7963b01d9e138d79f06274ea57b9590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7963b01d9e138d79f06274ea57b9590">&#9670;&#160;</a></span>GameEventData()</h2>
+<a id="a6dba8e37217dae4e5da8f52780e63f70" name="a6dba8e37217dae4e5da8f52780e63f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dba8e37217dae4e5da8f52780e63f70">&#9670;&#160;</a></span>TransportBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +162,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameEventData::GameEventData </td>
+          <td class="memname">TransportBase::TransportBase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -170,16 +170,15 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7a91c9c9cc68593812b13f6efd2ea4ff" name="a7a91c9c9cc68593812b13f6efd2ea4ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a91c9c9cc68593812b13f6efd2ea4ff">&#9670;&#160;</a></span>isValid()</h2>
+<a id="a81dca3435a1a1666a90acd8e154e3287" name="a81dca3435a1a1666a90acd8e154e3287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81dca3435a1a1666a90acd8e154e3287">&#9670;&#160;</a></span>~TransportBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,233 +187,296 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool GameEventData::isValid </td>
+          <td class="memname">virtual TransportBase::~TransportBase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   73</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d3a/a08574.html#ac45297bad99ddb339b3aa18ec5912c1c">length</a> &gt; 0 || <a class="code hl_variable" href="../../d4/d3a/a08574.html#a54a6e90fd4b68093a99e32b198eab2fb">state</a> &gt; <a class="code hl_enumvalue" href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921">GAMEEVENT_NORMAL</a>; }</div>
-<div class="ttc" id="aa03581_html_aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921"><div class="ttname"><a href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921">GAMEEVENT_NORMAL</a></div><div class="ttdeci">@ GAMEEVENT_NORMAL</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:31</div></div>
-<div class="ttc" id="aa08574_html_a54a6e90fd4b68093a99e32b198eab2fb"><div class="ttname"><a href="../../d4/d3a/a08574.html#a54a6e90fd4b68093a99e32b198eab2fb">GameEventData::state</a></div><div class="ttdeci">GameEventState state</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:67</div></div>
-<div class="ttc" id="aa08574_html_ac45297bad99ddb339b3aa18ec5912c1c"><div class="ttname"><a href="../../d4/d3a/a08574.html#ac45297bad99ddb339b3aa18ec5912c1c">GameEventData::length</a></div><div class="ttdeci">uint32 length</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:64</div></div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae8c9eb64027f8e7c781f0af192e3f6c1" name="ae8c9eb64027f8e7c781f0af192e3f6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c9eb64027f8e7c781f0af192e3f6c1">&#9670;&#160;</a></span>CalculatePassengerOffset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void TransportBase::CalculatePassengerOffset </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transO</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  155</span>    {</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">if</span> (o)</div>
+<div class="line"><span class="lineno">  157</span>            *o = <a class="code hl_function" href="../../de/d68/a08218.html#a47dfa17a367a4824c454c3fa0997b2ee">Position::NormalizeOrientation</a>(*o - transO);</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        z -= transZ;</div>
+<div class="line"><span class="lineno">  160</span>        y -= transY;    <span class="comment">// y = searchedY * std::cos(o) + searchedX * std::sin(o)</span></div>
+<div class="line"><span class="lineno">  161</span>        x -= transX;    <span class="comment">// x = searchedX * std::cos(o) + searchedY * std::sin(o + pi)</span></div>
+<div class="line"><span class="lineno">  162</span>        <span class="keywordtype">float</span> inx = x, iny = y;</div>
+<div class="line"><span class="lineno">  163</span>        y = (iny - inx * std::tan(transO)) / (std::cos(transO) + std::sin(transO) * std::tan(transO));</div>
+<div class="line"><span class="lineno">  164</span>        x = (inx + iny * std::tan(transO)) / (std::cos(transO) + std::sin(transO) * std::tan(transO));</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
+<div class="ttc" id="aa08218_html_a47dfa17a367a4824c454c3fa0997b2ee"><div class="ttname"><a href="../../de/d68/a08218.html#a47dfa17a367a4824c454c3fa0997b2ee">Position::NormalizeOrientation</a></div><div class="ttdeci">static float NormalizeOrientation(float o)</div><div class="ttdef"><b>Definition:</b> Position.h:232</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">GAMEEVENT_NORMAL</a>, <a class="el" href="../../#l00064">length</a>, and <a class="el" href="../../#l00067">state</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00130">event_commandscript::HandleEventStartCommand()</a>, <a class="el" href="../../#l00159">event_commandscript::HandleEventStopCommand()</a>, and <a class="el" href="../../#l00869">SmartAIMgr::IsEventValid()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00232">Position::NormalizeOrientation()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7271996d66a36e41b21502fa4d5305fe" name="a7271996d66a36e41b21502fa4d5305fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7271996d66a36e41b21502fa4d5305fe">&#9670;&#160;</a></span>announce</h2>
+<a id="aa4d00f15dc0e6c53b4a175b0ca53021b" name="aa4d00f15dc0e6c53b4a175b0ca53021b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d00f15dc0e6c53b4a175b0ca53021b">&#9670;&#160;</a></span>CalculatePassengerOffset() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> GameEventData::announce</td>
+          <td class="memname">virtual void TransportBase::CalculatePassengerOffset </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>o</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>.</p>
+<p>This method transforms supplied global coordinates into local offsets. </p>
+
+<p>Implemented in <a class="el" href="../../df/d7b/a08550.html#af8c5538eb32ae303b1213948606acc71">Vehicle</a>, and <a class="el" href="../../d3/d29/a08426.html#a327d37eef797c4197b8bba503bd8a3f8">Transport</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00086">Vehicle::CalculatePassengerOffset()</a>, and <a class="el" href="../../#l00033">Transport::CalculatePassengerOffset()</a>.</p>
 
 </div>
 </div>
-<a id="adca87b4b2205273a29dd2a547be90da6" name="adca87b4b2205273a29dd2a547be90da6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adca87b4b2205273a29dd2a547be90da6">&#9670;&#160;</a></span>conditions</h2>
+<a id="a7cb7586a6935ca4e08aa3e658982abec" name="a7cb7586a6935ca4e08aa3e658982abec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb7586a6935ca4e08aa3e658982abec">&#9670;&#160;</a></span>CalculatePassengerPosition() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d3e/a03581.html#ac4262be385ac879bb433e00533d835c0">GameEventConditionMap</a> GameEventData::conditions</td>
+          <td class="memname">static void TransportBase::CalculatePassengerPosition </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transO</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>        <span class="keywordtype">float</span> inx = x, iny = y, inz = z;</div>
+<div class="line"><span class="lineno">  146</span>        <span class="keywordflow">if</span> (o)</div>
+<div class="line"><span class="lineno">  147</span>            *o = <a class="code hl_function" href="../../de/d68/a08218.html#a47dfa17a367a4824c454c3fa0997b2ee">Position::NormalizeOrientation</a>(transO + *o);</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>        x = transX + inx * std::cos(transO) - iny * std::sin(transO);</div>
+<div class="line"><span class="lineno">  150</span>        y = transY + iny * std::cos(transO) + inx * std::sin(transO);</div>
+<div class="line"><span class="lineno">  151</span>        z = transZ + inz;</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00232">Position::NormalizeOrientation()</a>.</p>
 
 </div>
 </div>
-<a id="aebdadbaadbba367601674146a27a283f" name="aebdadbaadbba367601674146a27a283f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebdadbaadbba367601674146a27a283f">&#9670;&#160;</a></span>description</h2>
+<a id="a328fbc464c56eca89138380182a0108c" name="a328fbc464c56eca89138380182a0108c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328fbc464c56eca89138380182a0108c">&#9670;&#160;</a></span>CalculatePassengerPosition() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GameEventData::description</td>
+          <td class="memname">virtual void TransportBase::CalculatePassengerPosition </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00057">event_commandscript::HandleEventActiveListCommand()</a>, <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00130">event_commandscript::HandleEventStartCommand()</a>, <a class="el" href="../../#l00159">event_commandscript::HandleEventStopCommand()</a>, <a class="el" href="../../#l00269">lookup_commandscript::HandleLookupEventCommand()</a>, and <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>.</p>
-
-</div>
-</div>
-<a id="a1bf3980d02cd0dc304b2ffbd5afb7b9f" name="a1bf3980d02cd0dc304b2ffbd5afb7b9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bf3980d02cd0dc304b2ffbd5afb7b9f">&#9670;&#160;</a></span>end</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">time_t GameEventData::end {0}</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, <a class="el" href="../../#l00134">GameEventMgr::StartEvent()</a>, and <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
-
-</div>
-</div>
-<a id="a858501847212a8771f676641ad61aacd" name="a858501847212a8771f676641ad61aacd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858501847212a8771f676641ad61aacd">&#9670;&#160;</a></span>eventId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameEventData::eventId</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>.</p>
-
-</div>
-</div>
-<a id="aa13c2c2eacb9475e18c1d1370566e988" name="aa13c2c2eacb9475e18c1d1370566e988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa13c2c2eacb9475e18c1d1370566e988">&#9670;&#160;</a></span>holiday_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/dfb/a04472.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a> GameEventData::holiday_id {<a class="el" href="../../df/dfb/a04472.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a>}</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>o</em> = <code>nullptr</code>&#160;</td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, and <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>.</p>
-
-</div>
-</div>
-<a id="a23a3f6d7f036f6c5b47b84ef1242d056" name="a23a3f6d7f036f6c5b47b84ef1242d056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23a3f6d7f036f6c5b47b84ef1242d056">&#9670;&#160;</a></span>holidayStage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> GameEventData::holidayStage</td>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, and <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>.</p>
+<p>This method transforms supplied transport offsets into global coordinates. </p>
 
-</div>
-</div>
-<a id="ac45297bad99ddb339b3aa18ec5912c1c" name="ac45297bad99ddb339b3aa18ec5912c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac45297bad99ddb339b3aa18ec5912c1c">&#9670;&#160;</a></span>length</h2>
+<p>Implemented in <a class="el" href="../../df/d7b/a08550.html#a6d3079db2acbf88c9118baa087634841">Vehicle</a>, and <a class="el" href="../../d3/d29/a08426.html#ae4e716194ce5e9c466a8fe5c53ee0980">Transport</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameEventData::length {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00073">isValid()</a>, <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, <a class="el" href="../../#l01799">GameEventMgr::SetHolidayEventTime()</a>, <a class="el" href="../../#l00134">GameEventMgr::StartEvent()</a>, and <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
-
-</div>
-</div>
-<a id="ae0259f021337b3ad47dfbbc1f361965f" name="ae0259f021337b3ad47dfbbc1f361965f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0259f021337b3ad47dfbbc1f361965f">&#9670;&#160;</a></span>nextstart</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">time_t GameEventData::nextstart {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, and <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
-
-</div>
-</div>
-<a id="a04c813525fef572000608f32650565ff" name="a04c813525fef572000608f32650565ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c813525fef572000608f32650565ff">&#9670;&#160;</a></span>occurence</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameEventData::occurence {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, and <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>.</p>
-
-</div>
-</div>
-<a id="acd7a8d00e76cd09cbbbd345987b8644f" name="acd7a8d00e76cd09cbbbd345987b8644f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7a8d00e76cd09cbbbd345987b8644f">&#9670;&#160;</a></span>prerequisite_events</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; GameEventData::prerequisite_events</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4da43ddbb3b95f00589f49ed250092d" name="ac4da43ddbb3b95f00589f49ed250092d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4da43ddbb3b95f00589f49ed250092d">&#9670;&#160;</a></span>start</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">time_t GameEventData::start {1}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>, <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, <a class="el" href="../../#l00134">GameEventMgr::StartEvent()</a>, and <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
-
-</div>
-</div>
-<a id="a54a6e90fd4b68093a99e32b198eab2fb" name="a54a6e90fd4b68093a99e32b198eab2fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54a6e90fd4b68093a99e32b198eab2fb">&#9670;&#160;</a></span>state</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5">GameEventState</a> GameEventData::state {<a class="el" href="../../da/d3e/a03581.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921">GAMEEVENT_NORMAL</a>}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00073">isValid()</a>, <a class="el" href="../../#l00239">GameEventMgr::LoadFromDB()</a>, <a class="el" href="../../#l00134">GameEventMgr::StartEvent()</a>, and <a class="el" href="../../#l00193">GameEventMgr::StopEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00078">Vehicle::CalculatePassengerPosition()</a>, <a class="el" href="../../#l00032">Transport::CalculatePassengerPosition()</a>, <a class="el" href="../../#l00536">MotionTransport::DelayedTeleportTransport()</a>, and <a class="el" href="../../#l00506">MotionTransport::TeleportTransport()</a>.</p>
 
 </div>
 </div>
@@ -423,8 +485,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d3a/a08574.html">GameEventData</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/d3a/a08574.html">TransportBase</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

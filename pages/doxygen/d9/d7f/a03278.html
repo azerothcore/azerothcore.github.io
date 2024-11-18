@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/GameEventScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommand.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,63 +106,110 @@ $(document).ready(function(){initNavTree('d9/d7f/a03278.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">GameEventScript.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">ChatCommand.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChatCommandTags.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;variant&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d77/a10018.html">GameEventScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1a/a07302.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d35/a07306.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d09/a07310.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de5/a07314.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; bool(ChatHandler *, Ts...)&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d19/a07318.html">Acore::Impl::ChatCommands::CommandInvoker</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a07322.html">Acore::Impl::ChatCommands::CommandPermissions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2a/a07326.html">Acore::Impl::ChatCommands::ChatCommandNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df3/a07330.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d82/a07334.html">Acore::ChatCommands::ChatCommandBuilder::InvokerEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/dea/a04726"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html">Acore::ChatCommands</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d91/a04697"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d91/a04697.html">Acore::Impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:db/dfa/a04725"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04725.html">Acore::Impl::ChatCommands</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a> = std::vector&lt; ChatCommandBuilder &gt;</td></tr>
+<tr class="separator:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04725.html#a7dd784bc8e3d7db1d11c46886088ad76">Acore::Impl::ChatCommands::TupleType</a> = typename HandlerToTuple&lt; T &gt;::type</td></tr>
+<tr class="separator:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399dbe5721f7277a9066752a84065ee4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/a03278.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> = <a class="el" href="../../d5/df3/a07330.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
+<tr class="separator:a399dbe5721f7277a9066752a84065ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6f634b591917b5ff2ab57f9739afa44b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44b">GameEventHook</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6">GAMEEVENTHOOK_ON_START</a>
+<tr class="memitem:a6f2659123367a36f37046e5604215d6b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6b">Acore::ChatCommands::Console</a> : bool { <br />
+&#160;&#160;<a class="el" href="../../d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6babafd7322c6e97d25b6299b5d6fe8920b">Acore::ChatCommands::No</a> = false
 , <br />
-&#160;&#160;<a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d">GAMEEVENTHOOK_ON_STOP</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f">GAMEEVENTHOOK_ON_EVENT_CHECK</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395">GAMEEVENTHOOK_END</a>
+&#160;&#160;<a class="el" href="../../d4/dea/a04726.html#a6f2659123367a36f37046e5604215d6ba93cba07454f06a4a960172bbd6e2a435">Acore::ChatCommands::Yes</a> = true
 <br />
  }</td></tr>
-<tr class="separator:a6f634b591917b5ff2ab57f9739afa44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a6f2659123367a36f37046e5604215d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplParams" colspan="2">template&lt;typename Tuple , std::size_t offset&gt; </td></tr>
+<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d8/dbf/a03275.html#ad9c9d483b96ed400318aed8441ebe7f1">ChatCommandResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dfa/a04725.html#a3cb927687da0e8c0bae77a78fe45d942">Acore::Impl::ChatCommands::ConsumeFromOffset</a> (Tuple &amp;, <a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
+<tr class="separator:a3cb927687da0e8c0bae77a78fe45d942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#a2c6cb6c985ac8fd7bb2f8b2bab1be30d">Acore::ChatCommands::LoadCommandMap</a> ()</td></tr>
+<tr class="separator:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade19080af583292883b932d83992c6fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#ade19080af583292883b932d83992c6fe">Acore::ChatCommands::InvalidateCommandMap</a> ()</td></tr>
+<tr class="separator:ade19080af583292883b932d83992c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#aca39508e7753f6ca5d9aa21a854c0a77">Acore::ChatCommands::TryExecuteCommand</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#a81e8830ce306f6cfbcd04c92d3e0cc7f">Acore::ChatCommands::SendCommandHelpFor</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a04726.html#a9a1f396a96afbd90b5c426315c8ba37d">Acore::ChatCommands::GetAutoCompletionsFor</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> const &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6f634b591917b5ff2ab57f9739afa44b" name="a6f634b591917b5ff2ab57f9739afa44b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f634b591917b5ff2ab57f9739afa44b">&#9670;&#160;</a></span>GameEventHook</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a399dbe5721f7277a9066752a84065ee4" name="a399dbe5721f7277a9066752a84065ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399dbe5721f7277a9066752a84065ee4">&#9670;&#160;</a></span>ChatCommand</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44b">GameEventHook</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d7f/a03278.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> =  <a class="el" href="../../d5/df3/a07330.html">Acore::ChatCommands::ChatCommandBuilder</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6" name="a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6"></a>GAMEEVENTHOOK_ON_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d" name="a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d"></a>GAMEEVENTHOOK_ON_STOP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f" name="a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f"></a>GAMEEVENTHOOK_ON_EVENT_CHECK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395" name="a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395"></a>GAMEEVENTHOOK_END&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6">GAMEEVENTHOOK_ON_START</a>,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d">GAMEEVENTHOOK_ON_STOP</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f">GAMEEVENTHOOK_ON_EVENT_CHECK</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395">GAMEEVENTHOOK_END</a></div>
-<div class="line"><span class="lineno">   30</span>};</div>
-<div class="ttc" id="aa03278_html_a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f"><div class="ttname"><a href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba584cbf2008c774dd76adfd51e416663f">GAMEEVENTHOOK_ON_EVENT_CHECK</a></div><div class="ttdeci">@ GAMEEVENTHOOK_ON_EVENT_CHECK</div><div class="ttdef"><b>Definition:</b> GameEventScript.h:28</div></div>
-<div class="ttc" id="aa03278_html_a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d"><div class="ttname"><a href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba598d3e2c3c0ff442208e1df830a02e5d">GAMEEVENTHOOK_ON_STOP</a></div><div class="ttdeci">@ GAMEEVENTHOOK_ON_STOP</div><div class="ttdef"><b>Definition:</b> GameEventScript.h:27</div></div>
-<div class="ttc" id="aa03278_html_a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6"><div class="ttname"><a href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44ba82c1717fbd1ba7a6739ce48d1fb3bab6">GAMEEVENTHOOK_ON_START</a></div><div class="ttdeci">@ GAMEEVENTHOOK_ON_START</div><div class="ttdef"><b>Definition:</b> GameEventScript.h:26</div></div>
-<div class="ttc" id="aa03278_html_a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395"><div class="ttname"><a href="../../d9/d7f/a03278.html#a6f634b591917b5ff2ab57f9739afa44baef9ad9e7c26fbfcea336dddf0e16d395">GAMEEVENTHOOK_END</a></div><div class="ttdeci">@ GAMEEVENTHOOK_END</div><div class="ttdef"><b>Definition:</b> GameEventScript.h:29</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 </div><!-- contents -->
@@ -170,8 +217,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d9/d7f/a03278.html">GameEventScript.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d9/d7f/a03278.html">ChatCommand.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

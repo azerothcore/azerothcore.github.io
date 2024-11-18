@@ -1,6 +1,7 @@
 var a13354 =
 [
-    [ "boss_blight_wormAI", "db/d2a/a13358.html", "db/d2a/a13358" ],
-    [ "boss_blight_worm", "dd/d89/a13354.html#a6dea51baebc6b44ef94342565136e56d", null ],
-    [ "GetAI", "dd/d89/a13354.html#a1cb9043482e9b3c3eff3fd75057a2fb2", null ]
+    [ "o", "dd/d89/a13354.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
+    [ "x", "dd/d89/a13354.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
+    [ "y", "dd/d89/a13354.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
+    [ "z", "dd/d89/a13354.html#abf42d988d416ebe409100c4b860d26db", null ]
 ];

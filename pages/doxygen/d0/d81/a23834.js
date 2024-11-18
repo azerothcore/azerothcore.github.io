@@ -1,6 +1,6 @@
 var a23834 =
 [
-    [ "npcs_flanis_swiftwing_and_kagrosh", "d0/d81/a23834.html#aa95eceea94521947bd443805c8ddb52d", null ],
-    [ "OnGossipHello", "d0/d81/a23834.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
-    [ "OnGossipSelect", "d0/d81/a23834.html#aff34165955ba93e1fcd2b9731894d871", null ]
+    [ "npc_dragonmaw_peonAI", "dd/d13/a23838.html", "dd/d13/a23838" ],
+    [ "npc_dragonmaw_peon", "d0/d81/a23834.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "d0/d81/a23834.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

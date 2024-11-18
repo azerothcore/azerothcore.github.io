@@ -1,9 +1,5 @@
 var a11166 =
 [
-    [ "bytes", "de/df4/a11166.html#a3a2997d203c186bc3cd54a9ba4235319", null ],
-    [ "bytes", "de/df4/a11166.html#a8484412ccb13cf396a4dc28b86f65b4e", null ],
-    [ "bytes", "de/df4/a11166.html#ad0213e5de805b0decb4730efa2d412e0", null ],
-    [ "ints", "de/df4/a11166.html#a0518eb4b0a91697500a5a370068425a8", null ],
-    [ "ints", "de/df4/a11166.html#a08efba5e78b64fef020453f689bcc5f0", null ],
-    [ "ints", "de/df4/a11166.html#a36edc530bfb803c2f122e6758d20193a", null ]
+    [ "PlayerDump", "de/df4/a11166.html#a457c89834631206d39453721e41af28e", null ],
+    [ "InitializeTables", "de/df4/a11166.html#a69c8e6c412ac09099752a3ad388f5467", null ]
 ];

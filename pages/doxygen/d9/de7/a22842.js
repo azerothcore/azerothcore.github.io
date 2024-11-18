@@ -1,6 +1,13 @@
 var a22842 =
 [
-    [ "FilterTargets", "d9/de7/a22842.html#ac20676c292d87276e444bad56d71960d", null ],
-    [ "PrepareSpellScript", "d9/de7/a22842.html#a8622bc4d61c5c236349d4b12c2a6b10d", null ],
-    [ "Register", "d9/de7/a22842.html#ae356b768872de3e87806c19bf8cccb08", null ]
+    [ "npc_inner_demon", "d9/de7/a22842.html#a12063a0125e0e9b5ba5a73f669bfcd84", null ],
+    [ "CanAIAttack", "d9/de7/a22842.html#a7498fd32b0ace832b38dc624d07478ed", null ],
+    [ "CanBeSeen", "d9/de7/a22842.html#a5e61d5fc45bf95efaa06f81df58b5fab", null ],
+    [ "CanReceiveDamage", "d9/de7/a22842.html#a7b0bc55f8dfbba2dc3a3b7d314083bc2", null ],
+    [ "IsSummonedBy", "d9/de7/a22842.html#a5ed405dd9315cb255d14d3e5f808dc9d", null ],
+    [ "JustDied", "d9/de7/a22842.html#a15ab3cd6576055ec7ba29a5ed44e73db", null ],
+    [ "OnCalculateMeleeDamageReceived", "d9/de7/a22842.html#ae95022548b44b23ef93fae24729b5af5", null ],
+    [ "OnCalculatePeriodicTickReceived", "d9/de7/a22842.html#a546281a2257d0407d294fba1f7d3426f", null ],
+    [ "OnCalculateSpellDamageReceived", "d9/de7/a22842.html#aa40ee81a4456e1a1f7254d2169f50e88", null ],
+    [ "UpdateAI", "d9/de7/a22842.html#a977a76b54c4eae6461559d7b15cfc4b2", null ]
 ];

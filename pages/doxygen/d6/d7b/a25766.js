@@ -1,10 +1,6 @@
 var a25766 =
 [
-    [ "spell_pal_judgement", "d6/d7b/a25766.html#a497aed8c1d8c6a2af22e9e8daae96e14", null ],
-    [ "HandleScriptEffect", "d6/d7b/a25766.html#add419a824dbebdc168d2b6dc49d07913", null ],
-    [ "PrepareSpellScript", "d6/d7b/a25766.html#a2cffed69c16a1a6189048ed52af35152", null ],
-    [ "Register", "d6/d7b/a25766.html#ad8e65beb41a1bb41a2dd307f3b1da839", null ],
-    [ "SealApplication", "d6/d7b/a25766.html#a0bb55f122d560c70f416e448d03d2184", null ],
-    [ "Validate", "d6/d7b/a25766.html#a3971c195a279338253771675131b4802", null ],
-    [ "_spellId", "d6/d7b/a25766.html#ad49ea02800078c672747f4fdbbab1d20", null ]
+    [ "CheckTarget", "d6/d7b/a25766.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
+    [ "PrepareSpellScript", "d6/d7b/a25766.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
+    [ "Register", "d6/d7b/a25766.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
 ];

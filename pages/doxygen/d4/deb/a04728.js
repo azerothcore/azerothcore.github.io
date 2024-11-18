@@ -1,8 +1,25 @@
 var a04728 =
 [
-    [ "AutoBankItem", "d7/d8c/a10152.html", "d7/d8c/a10152" ],
-    [ "AutoStoreBankItem", "df/d4c/a10156.html", "df/d4c/a10156" ],
-    [ "BuyBankSlot", "de/dda/a10160.html", "de/dda/a10160" ],
-    [ "BuyBankSlotResult", "d2/dd2/a10164.html", "d2/dd2/a10164" ],
-    [ "ShowBank", "d0/de5/a10168.html", "d0/de5/a10168" ]
+    [ "achievement", "d4/d28/a07554.html", "d4/d28/a07554" ],
+    [ "base_tag", "de/d8a/a07550.html", "de/d8a/a07550" ],
+    [ "enchant", "d9/d53/a07558.html", "d9/d53/a07558" ],
+    [ "glyph", "d4/de0/a07562.html", "d4/de0/a07562" ],
+    [ "item", "da/dde/a07566.html", "da/dde/a07566" ],
+    [ "quest", "da/d6b/a07570.html", "da/d6b/a07570" ],
+    [ "spell", "d0/dd3/a07574.html", "d0/dd3/a07574" ],
+    [ "talent", "df/d2f/a07578.html", "df/d2f/a07578" ],
+    [ "trade", "df/dd7/a07582.html", "df/dd7/a07582" ],
+    [ "make_base_tag", "d4/deb/a04728.html#a6ebb455ff3abbea4ad68bd1d7d05fd3a", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#a0803de4bbc9edad4f5bb2afc3c242dca", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#aa8156f2996632fd42a2e39b974426995", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#a321da5d63921d41c561a1460929ac730", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#afc9dbd840048c0031231bcdb7b2fcf04", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#a7083d48423b83ff39095030678b29877", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#aae3a6cd0fbf426755d93a387882ff767", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#aa0ca4a111a856da9091a377934f8de93", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#a9990339040b491e108594df755f03a6c", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#aa0200f5ae02cb0b03a9ab7097ca2a2ec", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#a32cfa3bc188d1b731f3e9e5dcc2de664", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#ae0c637d10c728f04dc2468c15c3f8dca", null ],
+    [ "make_base_tag", "d4/deb/a04728.html#abe0a588f1c0e66d33c8bc7a7d0a04459", null ]
 ];

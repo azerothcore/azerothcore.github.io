@@ -1,9 +1,7 @@
 var a13810 =
 [
-    [ "npc_brew_bubble", "db/d93/a13810.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
-    [ "DoAction", "db/d93/a13810.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
-    [ "MoveInLineOfSight", "db/d93/a13810.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
-    [ "Reset", "db/d93/a13810.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
-    [ "UpdateAI", "db/d93/a13810.html#a25018deaa206620f6e98ba722f689b8d", null ],
-    [ "timer", "db/d93/a13810.html#a4bee73add756ba4b3137818b2dacd27f", null ]
+    [ "GetEmptyEntry", "db/d93/a13810.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
+    [ "HandleAfterHit", "db/d93/a13810.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
+    [ "PrepareSpellScript", "db/d93/a13810.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
+    [ "Register", "db/d93/a13810.html#a25e1858e1f81891443f4b7de50a5d495", null ]
 ];

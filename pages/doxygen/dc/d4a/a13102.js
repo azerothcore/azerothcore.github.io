@@ -1,7 +1,8 @@
 var a13102 =
 [
-    [ "HandleAfterCast", "dc/d4a/a13102.html#a251ddadd9d26039da542c402e4ee254f", null ],
-    [ "PrepareSpellScript", "dc/d4a/a13102.html#a91114aeb4f917ec5138a0c7b20688174", null ],
-    [ "Register", "dc/d4a/a13102.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
-    [ "Validate", "dc/d4a/a13102.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
+    [ "HandleApply", "dc/d4a/a13102.html#a717e3428afd59fa3a5e9916887d88273", null ],
+    [ "HandleRemove", "dc/d4a/a13102.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
+    [ "PrepareAuraScript", "dc/d4a/a13102.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
+    [ "Register", "dc/d4a/a13102.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
+    [ "Validate", "dc/d4a/a13102.html#a393a46618a4e1928b8149e04b4823726", null ]
 ];

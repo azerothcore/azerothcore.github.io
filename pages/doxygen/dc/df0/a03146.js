@@ -1,4 +1,6 @@
 var a03146 =
 [
-    [ "ScriptRegistry< WorldObjectScript >", "dc/df0/a03146.html#a2e5b964820eedff4e7b34c6c79cfca6d", null ]
+    [ "AuctionListOwnerItemsDelayEvent", "db/d36/a09606.html", "db/d36/a09606" ],
+    [ "AuctionListItemsDelayEvent", "d1/d2e/a09610.html", "d1/d2e/a09610" ],
+    [ "AsyncAuctionListingMgr", "d6/da7/a09614.html", "d6/da7/a09614" ]
 ];

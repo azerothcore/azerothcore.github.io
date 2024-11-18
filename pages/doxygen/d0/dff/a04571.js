@@ -1,6 +1,7 @@
 var a04571 =
 [
-    [ "CharacterDatabase", "d0/dff/a04571.html#a7e7534bc66d79434bd280b77cb124eec", null ],
-    [ "LoginDatabase", "d0/dff/a04571.html#a2cf25eafe7f2f73b61ccde11d55daf0c", null ],
-    [ "WorldDatabase", "d0/dff/a04571.html#afa9a6509f9913c9c7dd3081523badd7c", null ]
+    [ "GetCleanAliasName", "d0/dff/a04571.html#ae187308862c39923e2b843bc9d4c989c", null ],
+    [ "GetDefaultValue", "d0/dff/a04571.html#a2ea1ae2c2289bdc9068ec9c886d124c8", null ],
+    [ "IsCorrectAlias", "d0/dff/a04571.html#a56e834d391c0eb5187d3c7dd0dad88b7", null ],
+    [ "IsCorrectFieldType", "d0/dff/a04571.html#a61bef7957f008e8cd937746ba03feb73", null ]
 ];

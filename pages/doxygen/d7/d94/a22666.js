@@ -1,6 +1,7 @@
 var a22666 =
 [
-    [ "HandleDummy", "d7/d94/a22666.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
-    [ "PrepareSpellScript", "d7/d94/a22666.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
-    [ "Register", "d7/d94/a22666.html#a972574075c86c32593982add71dc893f", null ]
+    [ "HandleEffectApply", "d7/d94/a22666.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "d7/d94/a22666.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "d7/d94/a22666.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "d7/d94/a22666.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

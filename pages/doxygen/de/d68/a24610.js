@@ -1,6 +1,6 @@
 var a24610 =
 [
-    [ "HandleDummy", "de/d68/a24610.html#a80ab847f2528060b2e3e2e128cfc06af", null ],
-    [ "PrepareSpellScript", "de/d68/a24610.html#af310c2b28ed816b9fbe494f81c42043c", null ],
-    [ "Register", "de/d68/a24610.html#ae5e494ca801b35520bddb4a8a148efcd", null ]
+    [ "ModDest", "de/d68/a24610.html#a99d08536d2555390a7399a6d2fc199e6", null ],
+    [ "PrepareSpellScript", "de/d68/a24610.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
+    [ "Register", "de/d68/a24610.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
 ];

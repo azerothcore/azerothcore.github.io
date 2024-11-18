@@ -1,7 +1,7 @@
 var a03710 =
 [
-    [ "ArenaTeamMgr", "d8/d33/a07038.html", "d8/d33/a07038" ],
-    [ "sArenaTeamMgr", "d5/d46/a03710.html#a94afc7262fb2f00293dc80de8ba547df", null ],
-    [ "MAX_ARENA_TEAM_ID", "d5/d46/a03710.html#aa472ba6cfd587021965aece0e77797b7", null ],
-    [ "MAX_TEMP_ARENA_TEAM_ID", "d5/d46/a03710.html#ade4bc52db611f6481d3c8f5e6f346b4c", null ]
+    [ "AddTime", "d5/d46/a03710.html#aae074176c44fa3d99280320c869fde46", null ],
+    [ "GetTime", "d5/d46/a03710.html#ae44f550ac340528abe454269c2273d73", null ],
+    [ "IsCorrectDelay", "d5/d46/a03710.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
+    [ "_players", "d5/d46/a03710.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
 ];

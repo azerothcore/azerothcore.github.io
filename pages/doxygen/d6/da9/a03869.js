@@ -1,13 +1,6 @@
 var a03869 =
 [
-    [ "SkillPerfectItemEntry", "d2/d7a/a10758.html", "d2/d7a/a10758" ],
-    [ "SkillExtraItemEntry", "d9/d21/a10762.html", "d9/d21/a10762" ],
-    [ "SkillExtraItemMap", "d6/da9/a03869.html#a9ba2d7d2e815aee57a701990b858db7b", null ],
-    [ "SkillPerfectItemMap", "d6/da9/a03869.html#ad732be66d93ed6e8f498077f27e2766b", null ],
-    [ "canCreateExtraItems", "d6/da9/a03869.html#a49687e255d65fa15dac5e6a428c5739d", null ],
-    [ "CanCreatePerfectItem", "d6/da9/a03869.html#a818c557864790091814604b6d2175e52", null ],
-    [ "LoadSkillExtraItemTable", "d6/da9/a03869.html#a3244d04018405bafe21acc8bc96cc743", null ],
-    [ "LoadSkillPerfectItemTable", "d6/da9/a03869.html#a121df170a82be5ab5b05999a6be27b69", null ],
-    [ "SkillExtraItemStore", "d6/da9/a03869.html#acc52416c05fbae29bcbfa9f0683485cd", null ],
-    [ "SkillPerfectItemStore", "d6/da9/a03869.html#ac676f0acbf782fa2d31bd66b8eaa8260", null ]
+    [ "Movement::FacingInfo", "d6/d8e/a09814.html", "d6/d8e/a09814" ],
+    [ "Movement::MoveSplineInitArgs", "d6/da0/a09822.html", "d6/da0/a09822" ],
+    [ "PointsArray", "d6/da9/a03869.html#a86528b2e04ddf38b80888e45d6b9c37d", null ]
 ];

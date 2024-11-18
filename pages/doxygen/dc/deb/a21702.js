@@ -1,6 +1,8 @@
 var a21702 =
 [
-    [ "npc_boneguard_footmanAI", "d4/dc0/a21706.html", "d4/dc0/a21706" ],
-    [ "npc_boneguard_footman", "dc/deb/a21702.html#aba17f89b9546deff5401ad33224b2b3e", null ],
-    [ "GetAI", "dc/deb/a21702.html#ab0b28f61e26f701db17a0d19bbde4492", null ]
+    [ "npc_llod_genericAI", "dc/deb/a21702.html#ac75d85ae4b59416952788102cd1db132", null ],
+    [ "Reset", "dc/deb/a21702.html#a15bd7442fef36a551cc8797f7919f57c", null ],
+    [ "UpdateAI", "dc/deb/a21702.html#aa7dce553fb699127f63281b2c47a2f02", null ],
+    [ "attackTimer", "dc/deb/a21702.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
+    [ "summonTimer", "dc/deb/a21702.html#aeeeef545aee565c14d86d8587923c677", null ]
 ];

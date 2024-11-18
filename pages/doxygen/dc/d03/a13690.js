@@ -1,6 +1,6 @@
 var a13690 =
 [
-    [ "HandleObjectAreaTargetSelect", "dc/d03/a13690.html#aa7695bddd766d5adefb04710d41894f6", null ],
-    [ "PrepareSpellScript", "dc/d03/a13690.html#a77ba184428cfbb8ec3cc4670f78741e0", null ],
-    [ "Register", "dc/d03/a13690.html#adbc2f1c4ec64b95ec72c82f36f12d928", null ]
+    [ "LaunchHit", "dc/d03/a13690.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
+    [ "PrepareSpellScript", "dc/d03/a13690.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
+    [ "Register", "dc/d03/a13690.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
 ];

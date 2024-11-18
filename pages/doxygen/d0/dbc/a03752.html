@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/ArenaTeamHandler.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Zones/BattlegroundAB.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,28 +104,1028 @@ $(document).ready(function(){initNavTree('d0/dbc/a03752.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">ArenaTeamHandler.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">BattlegroundAB.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundScore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">EventMap.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df1/a07118.html">ABNodeInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d43/a07122.html">BattlegroundABScore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc2/a07126.html">BattlegroundAB</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a07130.html">BattlegroundAB::CapturePointInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5cb056ea89447224f409c66204c5435f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435f">BG_AB_Events</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c">BG_AB_EVENT_UPDATE_BANNER_STABLE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2">BG_AB_EVENT_UPDATE_BANNER_FARM</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f">BG_AB_EVENT_UPDATE_BANNER_BLACKSMITH</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f">BG_AB_EVENT_UPDATE_BANNER_LUMBERMILL</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6">BG_AB_EVENT_UPDATE_BANNER_GOLDMINE</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e">BG_AB_EVENT_CAPTURE_STABLE</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e">BG_AB_EVENT_CAPTURE_FARM</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b">BG_AB_EVENT_CAPTURE_BLACKSMITH</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599">BG_AB_EVENT_CAPTURE_LUMBERMILL</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9">BG_AB_EVENT_CAPTURE_GOLDMINE</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479">BG_AB_EVENT_ALLIANCE_TICK</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2">BG_AB_EVENT_HORDE_TICK</a> = 12
+<br />
+ }</td></tr>
+<tr class="separator:a5cb056ea89447224f409c66204c5435f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae849ec0a797f15687258407024888c02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02">BG_AB_WorldStates</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150">BG_AB_OP_OCCUPIED_BASES_HORDE</a> = 1778
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa">BG_AB_OP_OCCUPIED_BASES_ALLY</a> = 1779
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2">BG_AB_OP_RESOURCES_ALLY</a> = 1776
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b">BG_AB_OP_RESOURCES_HORDE</a> = 1777
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6">BG_AB_OP_RESOURCES_MAX</a> = 1780
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289">BG_AB_OP_RESOURCES_WARNING</a> = 1955
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032">BG_AB_OP_STABLE_ICON</a> = 1842
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7">BG_AB_OP_STABLE_STATE_ALIENCE</a> = 1767
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69">BG_AB_OP_STABLE_STATE_HORDE</a> = 1768
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5">BG_AB_OP_STABLE_STATE_CON_ALI</a> = 1769
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146">BG_AB_OP_STABLE_STATE_CON_HOR</a> = 1770
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3">BG_AB_OP_FARM_ICON</a> = 1845
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae">BG_AB_OP_FARM_STATE_ALIENCE</a> = 1772
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1">BG_AB_OP_FARM_STATE_HORDE</a> = 1773
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45">BG_AB_OP_FARM_STATE_CON_ALI</a> = 1774
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201">BG_AB_OP_FARM_STATE_CON_HOR</a> = 1775
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae">BG_AB_OP_BLACKSMITH_ICON</a> = 1846
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa">BG_AB_OP_BLACKSMITH_STATE_ALIENCE</a> = 1782
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c">BG_AB_OP_BLACKSMITH_STATE_HORDE</a> = 1783
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99">BG_AB_OP_BLACKSMITH_STATE_CON_ALI</a> = 1784
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb">BG_AB_OP_BLACKSMITH_STATE_CON_HOR</a> = 1785
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188">BG_AB_OP_LUMBERMILL_ICON</a> = 1844
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021">BG_AB_OP_LUMBERMILL_STATE_ALIENCE</a> = 1792
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23">BG_AB_OP_LUMBERMILL_STATE_HORDE</a> = 1793
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137">BG_AB_OP_LUMBERMILL_STATE_CON_ALI</a> = 1794
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b">BG_AB_OP_LUMBERMILL_STATE_CON_HOR</a> = 1795
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234">BG_AB_OP_GOLDMINE_ICON</a> = 1843
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118">BG_AB_OP_GOLDMINE_STATE_ALIENCE</a> = 1787
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d">BG_AB_OP_GOLDMINE_STATE_HORDE</a> = 1788
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887">BG_AB_OP_GOLDMINE_STATE_CON_ALI</a> = 1789
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4">BG_AB_OP_GOLDMINE_STATE_CON_HOR</a> = 1790
+<br />
+ }</td></tr>
+<tr class="separator:ae849ec0a797f15687258407024888c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36633fb23fb5fa96337b4ec4aec93716"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716">BG_AB_ObjectIds</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad">BG_AB_OBJECTID_NODE_BANNER_0</a> = 180087
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3">BG_AB_OBJECTID_NODE_BANNER_1</a> = 180088
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8">BG_AB_OBJECTID_NODE_BANNER_2</a> = 180089
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c">BG_AB_OBJECTID_NODE_BANNER_3</a> = 180090
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2">BG_AB_OBJECTID_NODE_BANNER_4</a> = 180091
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88">BG_AB_OBJECTID_BANNER_A</a> = 180058
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe">BG_AB_OBJECTID_BANNER_CONT_A</a> = 180059
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c">BG_AB_OBJECTID_BANNER_H</a> = 180060
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b">BG_AB_OBJECTID_BANNER_CONT_H</a> = 180061
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef">BG_AB_OBJECTID_AURA_A</a> = 180100
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a">BG_AB_OBJECTID_AURA_H</a> = 180101
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e">BG_AB_OBJECTID_AURA_C</a> = 180102
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f">BG_AB_OBJECTID_GATE_A</a> = 180255
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57">BG_AB_OBJECTID_GATE_H</a> = 180256
+<br />
+ }</td></tr>
+<tr class="separator:a36633fb23fb5fa96337b4ec4aec93716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d45322a0b7ad0e3e2e88e55e0ddd254"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254">BG_AB_ObjectType</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230">BG_AB_OBJECT_BANNER_NEUTRAL</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3">BG_AB_OBJECT_BANNER_ALLY</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe">BG_AB_OBJECT_BANNER_HORDE</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d">BG_AB_OBJECT_BANNER_CONT_A</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f">BG_AB_OBJECT_BANNER_CONT_H</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1">BG_AB_OBJECT_AURA_ALLY</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d">BG_AB_OBJECT_AURA_HORDE</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68">BG_AB_OBJECT_AURA_CONTESTED</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66">BG_AB_OBJECTS_PER_NODE</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96">BG_AB_OBJECT_GATE_A</a> = 40
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273">BG_AB_OBJECT_GATE_H</a> = 41
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873">BG_AB_OBJECT_SPEEDBUFF_STABLES</a> = 42
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f">BG_AB_OBJECT_REGENBUFF_STABLES</a> = 43
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d">BG_AB_OBJECT_BERSERKBUFF_STABLES</a> = 44
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103">BG_AB_OBJECT_SPEEDBUFF_BLACKSMITH</a> = 45
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89">BG_AB_OBJECT_REGENBUFF_BLACKSMITH</a> = 46
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17">BG_AB_OBJECT_BERSERKBUFF_BLACKSMITH</a> = 47
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a">BG_AB_OBJECT_SPEEDBUFF_FARM</a> = 48
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001">BG_AB_OBJECT_REGENBUFF_FARM</a> = 49
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5">BG_AB_OBJECT_BERSERKBUFF_FARM</a> = 50
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b">BG_AB_OBJECT_SPEEDBUFF_LUMBER_MILL</a> = 51
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2">BG_AB_OBJECT_REGENBUFF_LUMBER_MILL</a> = 52
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d">BG_AB_OBJECT_BERSERKBUFF_LUMBER_MILL</a> = 53
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1">BG_AB_OBJECT_SPEEDBUFF_GOLD_MINE</a> = 54
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817">BG_AB_OBJECT_REGENBUFF_GOLD_MINE</a> = 55
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d">BG_AB_OBJECT_BERSERKBUFF_GOLD_MINE</a> = 56
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905">BG_AB_OBJECT_MAX</a> = 57
+<br />
+ }</td></tr>
+<tr class="separator:a3d45322a0b7ad0e3e2e88e55e0ddd254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb15f4d123cdbe557e15c7daaf014ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ad">BG_AB_BattlegroundNodes</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f">BG_AB_NODE_STABLES</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53">BG_AB_NODE_BLACKSMITH</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232">BG_AB_NODE_FARM</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7">BG_AB_NODE_LUMBER_MILL</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa">BG_AB_NODE_GOLD_MINE</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b">BG_AB_SPIRIT_ALIANCE</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16">BG_AB_SPIRIT_HORDE</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a> = 7
+<br />
+ }</td></tr>
+<tr class="separator:a7cb15f4d123cdbe557e15c7daaf014ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563cb2a5b26f5e1887d6c53bb865e253"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253">BG_AB_BroadcastTexts</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391">BG_AB_TEXT_ALLIANCE_NEAR_VICTORY</a> = 10598
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247">BG_AB_TEXT_HORDE_NEAR_VICTORY</a> = 10599
+<br />
+ }</td></tr>
+<tr class="separator:a563cb2a5b26f5e1887d6c53bb865e253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b60dbaa9b05ef4b896e2b8ffebf130"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130">BG_AB_NodeStatus</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e">BG_AB_NODE_STATE_NEUTRAL</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140">BG_AB_NODE_STATE_ALLY_OCCUPIED</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d">BG_AB_NODE_STATE_HORDE_OCCUPIED</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce">BG_AB_NODE_STATE_ALLY_CONTESTED</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1">BG_AB_NODE_STATE_HORDE_CONTESTED</a> = 4
+<br />
+ }</td></tr>
+<tr class="separator:a57b60dbaa9b05ef4b896e2b8ffebf130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4330ec402735b2df3a043a6b018338"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338">BG_AB_Sounds</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58">BG_AB_SOUND_NODE_CLAIMED</a> = 8192
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6">BG_AB_SOUND_NODE_CAPTURED_ALLIANCE</a> = 8173
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1">BG_AB_SOUND_NODE_CAPTURED_HORDE</a> = 8213
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77">BG_AB_SOUND_NODE_ASSAULTED_ALLIANCE</a> = 8212
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe">BG_AB_SOUND_NODE_ASSAULTED_HORDE</a> = 8174
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf">BG_AB_SOUND_NEAR_VICTORY_ALLIANCE</a> = 8456
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b">BG_AB_SOUND_NEAR_VICTORY_HORDE</a> = 8457
+<br />
+ }</td></tr>
+<tr class="separator:afa4330ec402735b2df3a043a6b018338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fdbcfc2e08c809423685172cb1e9bab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9bab">BG_AB_Misc</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea">BG_AB_OBJECTIVE_ASSAULT_BASE</a> = 122
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981">BG_AB_OBJECTIVE_DEFEND_BASE</a> = 123
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4">BG_AB_EVENT_START_BATTLE</a> = 9158
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f">BG_AB_QUEST_CREDIT_BASE</a> = 15001
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b">BG_AB_HONOR_TICK_NORMAL</a> = 260
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3">BG_AB_HONOR_TICK_WEEKEND</a> = 160
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2">BG_AB_REP_TICK_NORMAL</a> = 160
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9">BG_AB_REP_TICK_WEEKEND</a> = 120
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b">BG_AB_WARNING_NEAR_VICTORY_SCORE</a> = 1400
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba">BG_AB_MAX_TEAM_SCORE</a> = 1600
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db">BG_AB_FLAG_CAPTURING_TIME</a> = 60000
+, <br />
+&#160;&#160;<a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f">BG_AB_BANNER_UPDATE_TIME</a> = 2000
+<br />
+ }</td></tr>
+<tr class="separator:a5fdbcfc2e08c809423685172cb1e9bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a5ce5aced5b18a9136cfd7a03348a9979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df1/a07118.html">ABNodeInfo</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a5ce5aced5b18a9136cfd7a03348a9979">ABNodes</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>]</td></tr>
+<tr class="separator:a5ce5aced5b18a9136cfd7a03348a9979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc3ec988e6f59e7774947ed53d23bc4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#accc3ec988e6f59e7774947ed53d23bc4">BG_AB_TickIntervals</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>+1] = {0, 12000, 9000, 6000, 3000, 1000}</td></tr>
+<tr class="separator:accc3ec988e6f59e7774947ed53d23bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc55e240ec4cc628722f56c5fa4d2c84"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#acc55e240ec4cc628722f56c5fa4d2c84">BG_AB_TickPoints</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>+1] = {0, 10, 10, 10, 10, 30}</td></tr>
+<tr class="separator:acc55e240ec4cc628722f56c5fa4d2c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f996d495e116848d3bd6384e501d51e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a6f996d495e116848d3bd6384e501d51e">BG_AB_GraveyardIds</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a>] = {895, 894, 893, 897, 896, 898, 899}</td></tr>
+<tr class="separator:a6f996d495e116848d3bd6384e501d51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ad679e6affe77350ba6d21554463c3"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a51ad679e6affe77350ba6d21554463c3">BG_AB_BuffPositions</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>][4]</td></tr>
+<tr class="separator:a51ad679e6affe77350ba6d21554463c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af981815b69f9cc306f4740e809a90f77"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#af981815b69f9cc306f4740e809a90f77">BG_AB_NodePositions</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>][4]</td></tr>
+<tr class="separator:af981815b69f9cc306f4740e809a90f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6a352719d503f3002b193c412ec53b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a6d6a352719d503f3002b193c412ec53b">BG_AB_DoorPositions</a> [2][8]</td></tr>
+<tr class="separator:a6d6a352719d503f3002b193c412ec53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86650176a2fbeee8806e5281e56c0a42"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a03752.html#a86650176a2fbeee8806e5281e56c0a42">BG_AB_SpiritGuidePos</a> [<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a>][4]</td></tr>
+<tr class="separator:a86650176a2fbeee8806e5281e56c0a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a7cb15f4d123cdbe557e15c7daaf014ad" name="a7cb15f4d123cdbe557e15c7daaf014ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb15f4d123cdbe557e15c7daaf014ad">&#9670;&#160;</a></span>BG_AB_BattlegroundNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ad">BG_AB_BattlegroundNodes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f" name="a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f"></a>BG_AB_NODE_STABLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53" name="a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53"></a>BG_AB_NODE_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232" name="a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232"></a>BG_AB_NODE_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7" name="a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7"></a>BG_AB_NODE_LUMBER_MILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa" name="a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa"></a>BG_AB_NODE_GOLD_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e" name="a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e"></a>BG_AB_DYNAMIC_NODES_COUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b" name="a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b"></a>BG_AB_SPIRIT_ALIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16" name="a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16"></a>BG_AB_SPIRIT_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1" name="a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1"></a>BG_AB_ALL_NODES_COUNT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  138</span>{</div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f">BG_AB_NODE_STABLES</a>          = 0,</div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53">BG_AB_NODE_BLACKSMITH</a>       = 1,</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232">BG_AB_NODE_FARM</a>             = 2,</div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7">BG_AB_NODE_LUMBER_MILL</a>      = 3,</div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa">BG_AB_NODE_GOLD_MINE</a>        = 4,</div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>   = 5,                        <span class="comment">// dynamic nodes that can be captured</span></div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b">BG_AB_SPIRIT_ALIANCE</a>        = 5,</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16">BG_AB_SPIRIT_HORDE</a>          = 6,</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a>       = 7,                        <span class="comment">// all nodes (dynamic and static)</span></div>
+<div class="line"><span class="lineno">  149</span>};</div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53">BG_AB_NODE_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_NODE_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:140</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f">BG_AB_NODE_STABLES</a></div><div class="ttdeci">@ BG_AB_NODE_STABLES</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:139</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a></div><div class="ttdeci">@ BG_AB_ALL_NODES_COUNT</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:148</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7">BG_AB_NODE_LUMBER_MILL</a></div><div class="ttdeci">@ BG_AB_NODE_LUMBER_MILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:142</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a></div><div class="ttdeci">@ BG_AB_DYNAMIC_NODES_COUNT</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:144</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232">BG_AB_NODE_FARM</a></div><div class="ttdeci">@ BG_AB_NODE_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:141</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacd23166727913397068457490e34ed16">BG_AB_SPIRIT_HORDE</a></div><div class="ttdeci">@ BG_AB_SPIRIT_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:147</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa">BG_AB_NODE_GOLD_MINE</a></div><div class="ttdeci">@ BG_AB_NODE_GOLD_MINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:143</div></div>
+<div class="ttc" id="aa03752_html_a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaff156e654b47fd901f6fb6c8144b459b">BG_AB_SPIRIT_ALIANCE</a></div><div class="ttdeci">@ BG_AB_SPIRIT_ALIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:146</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a563cb2a5b26f5e1887d6c53bb865e253" name="a563cb2a5b26f5e1887d6c53bb865e253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563cb2a5b26f5e1887d6c53bb865e253">&#9670;&#160;</a></span>BG_AB_BroadcastTexts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253">BG_AB_BroadcastTexts</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391" name="a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391"></a>BG_AB_TEXT_ALLIANCE_NEAR_VICTORY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247" name="a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247"></a>BG_AB_TEXT_HORDE_NEAR_VICTORY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  152</span>{</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391">BG_AB_TEXT_ALLIANCE_NEAR_VICTORY</a>    = 10598,</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247">BG_AB_TEXT_HORDE_NEAR_VICTORY</a>       = 10599,</div>
+<div class="line"><span class="lineno">  155</span>};</div>
+<div class="ttc" id="aa03752_html_a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391"><div class="ttname"><a href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aa7be5eb32d89899ab0f1d8cf8f00d391">BG_AB_TEXT_ALLIANCE_NEAR_VICTORY</a></div><div class="ttdeci">@ BG_AB_TEXT_ALLIANCE_NEAR_VICTORY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:153</div></div>
+<div class="ttc" id="aa03752_html_a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247"><div class="ttname"><a href="../../d0/dbc/a03752.html#a563cb2a5b26f5e1887d6c53bb865e253aad167154b48b31856448de2351a98247">BG_AB_TEXT_HORDE_NEAR_VICTORY</a></div><div class="ttdeci">@ BG_AB_TEXT_HORDE_NEAR_VICTORY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:154</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5cb056ea89447224f409c66204c5435f" name="a5cb056ea89447224f409c66204c5435f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb056ea89447224f409c66204c5435f">&#9670;&#160;</a></span>BG_AB_Events</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435f">BG_AB_Events</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c" name="a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c"></a>BG_AB_EVENT_UPDATE_BANNER_STABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2" name="a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2"></a>BG_AB_EVENT_UPDATE_BANNER_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f" name="a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f"></a>BG_AB_EVENT_UPDATE_BANNER_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f" name="a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f"></a>BG_AB_EVENT_UPDATE_BANNER_LUMBERMILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6" name="a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6"></a>BG_AB_EVENT_UPDATE_BANNER_GOLDMINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e" name="a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e"></a>BG_AB_EVENT_CAPTURE_STABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e" name="a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e"></a>BG_AB_EVENT_CAPTURE_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b" name="a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b"></a>BG_AB_EVENT_CAPTURE_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599" name="a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599"></a>BG_AB_EVENT_CAPTURE_LUMBERMILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9" name="a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9"></a>BG_AB_EVENT_CAPTURE_GOLDMINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479" name="a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479"></a>BG_AB_EVENT_ALLIANCE_TICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2" name="a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2"></a>BG_AB_EVENT_HORDE_TICK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c">BG_AB_EVENT_UPDATE_BANNER_STABLE</a>        = 1,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2">BG_AB_EVENT_UPDATE_BANNER_FARM</a>          = 2,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f">BG_AB_EVENT_UPDATE_BANNER_BLACKSMITH</a>    = 3,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f">BG_AB_EVENT_UPDATE_BANNER_LUMBERMILL</a>    = 4,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6">BG_AB_EVENT_UPDATE_BANNER_GOLDMINE</a>      = 5,</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e">BG_AB_EVENT_CAPTURE_STABLE</a>              = 6,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e">BG_AB_EVENT_CAPTURE_FARM</a>                = 7,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b">BG_AB_EVENT_CAPTURE_BLACKSMITH</a>          = 8,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599">BG_AB_EVENT_CAPTURE_LUMBERMILL</a>          = 9,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9">BG_AB_EVENT_CAPTURE_GOLDMINE</a>            = 10,</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479">BG_AB_EVENT_ALLIANCE_TICK</a>               = 11,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2">BG_AB_EVENT_HORDE_TICK</a>                  = 12</div>
+<div class="line"><span class="lineno">   41</span>};</div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa05ab1d3dfa7aca56f38869c7add7d8c6">BG_AB_EVENT_UPDATE_BANNER_GOLDMINE</a></div><div class="ttdeci">@ BG_AB_EVENT_UPDATE_BANNER_GOLDMINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:31</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2e4e8add94027de8044faddefb510479">BG_AB_EVENT_ALLIANCE_TICK</a></div><div class="ttdeci">@ BG_AB_EVENT_ALLIANCE_TICK</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:39</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa2f47d54a471f0afe71575cb09e67cac2">BG_AB_EVENT_UPDATE_BANNER_FARM</a></div><div class="ttdeci">@ BG_AB_EVENT_UPDATE_BANNER_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:28</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa347e16892a3c59b031988efd49c6adf9">BG_AB_EVENT_CAPTURE_GOLDMINE</a></div><div class="ttdeci">@ BG_AB_EVENT_CAPTURE_GOLDMINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:37</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa46302f010fc13f632807c7331495602c">BG_AB_EVENT_UPDATE_BANNER_STABLE</a></div><div class="ttdeci">@ BG_AB_EVENT_UPDATE_BANNER_STABLE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:27</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4a943966e6266381e373a62ff168ba3f">BG_AB_EVENT_UPDATE_BANNER_LUMBERMILL</a></div><div class="ttdeci">@ BG_AB_EVENT_UPDATE_BANNER_LUMBERMILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:30</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa4acaff786c323505722687b6fa76006f">BG_AB_EVENT_UPDATE_BANNER_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_EVENT_UPDATE_BANNER_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:29</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa61e7c3afc033e53d7b81427b15be6599">BG_AB_EVENT_CAPTURE_LUMBERMILL</a></div><div class="ttdeci">@ BG_AB_EVENT_CAPTURE_LUMBERMILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:36</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fa8be4179231a4470cc8dcc40e489398e2">BG_AB_EVENT_HORDE_TICK</a></div><div class="ttdeci">@ BG_AB_EVENT_HORDE_TICK</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:40</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faa0dbd19f5177a6ba9962e8ece5267e2b">BG_AB_EVENT_CAPTURE_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_EVENT_CAPTURE_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:35</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435fac8d82aeaabdf25e5accfb734b861d09e">BG_AB_EVENT_CAPTURE_STABLE</a></div><div class="ttdeci">@ BG_AB_EVENT_CAPTURE_STABLE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:33</div></div>
+<div class="ttc" id="aa03752_html_a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5cb056ea89447224f409c66204c5435faf6081991f59a4655ecd5bd229467e81e">BG_AB_EVENT_CAPTURE_FARM</a></div><div class="ttdeci">@ BG_AB_EVENT_CAPTURE_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5fdbcfc2e08c809423685172cb1e9bab" name="a5fdbcfc2e08c809423685172cb1e9bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fdbcfc2e08c809423685172cb1e9bab">&#9670;&#160;</a></span>BG_AB_Misc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9bab">BG_AB_Misc</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea" name="a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea"></a>BG_AB_OBJECTIVE_ASSAULT_BASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981" name="a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981"></a>BG_AB_OBJECTIVE_DEFEND_BASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4" name="a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4"></a>BG_AB_EVENT_START_BATTLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f" name="a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f"></a>BG_AB_QUEST_CREDIT_BASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b" name="a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b"></a>BG_AB_HONOR_TICK_NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3" name="a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3"></a>BG_AB_HONOR_TICK_WEEKEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2" name="a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2"></a>BG_AB_REP_TICK_NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9" name="a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9"></a>BG_AB_REP_TICK_WEEKEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b" name="a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b"></a>BG_AB_WARNING_NEAR_VICTORY_SCORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba" name="a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba"></a>BG_AB_MAX_TEAM_SCORE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db" name="a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db"></a>BG_AB_FLAG_CAPTURING_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f" name="a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f"></a>BG_AB_BANNER_UPDATE_TIME&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  200</span>{</div>
+<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea">BG_AB_OBJECTIVE_ASSAULT_BASE</a>        = 122,</div>
+<div class="line"><span class="lineno">  202</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981">BG_AB_OBJECTIVE_DEFEND_BASE</a>         = 123,</div>
+<div class="line"><span class="lineno">  203</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4">BG_AB_EVENT_START_BATTLE</a>            = 9158, <span class="comment">// Achievement: Let&#39;s Get This Done</span></div>
+<div class="line"><span class="lineno">  204</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f">BG_AB_QUEST_CREDIT_BASE</a>             = 15001,</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b">BG_AB_HONOR_TICK_NORMAL</a>             = 260,</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3">BG_AB_HONOR_TICK_WEEKEND</a>            = 160,</div>
+<div class="line"><span class="lineno">  208</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2">BG_AB_REP_TICK_NORMAL</a>               = 160,</div>
+<div class="line"><span class="lineno">  209</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9">BG_AB_REP_TICK_WEEKEND</a>              = 120,</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b">BG_AB_WARNING_NEAR_VICTORY_SCORE</a>    = 1400,</div>
+<div class="line"><span class="lineno">  212</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba">BG_AB_MAX_TEAM_SCORE</a>                = 1600,</div>
+<div class="line"><span class="lineno">  213</span> </div>
+<div class="line"><span class="lineno">  214</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db">BG_AB_FLAG_CAPTURING_TIME</a>           = 60000,</div>
+<div class="line"><span class="lineno">  215</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f">BG_AB_BANNER_UPDATE_TIME</a>            = 2000</div>
+<div class="line"><span class="lineno">  216</span>};</div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1546a9ed57db30f84bf7171a342cd3d2">BG_AB_REP_TICK_NORMAL</a></div><div class="ttdeci">@ BG_AB_REP_TICK_NORMAL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:208</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba1b44cf78923307fdbb2d2d48579928f9">BG_AB_REP_TICK_WEEKEND</a></div><div class="ttdeci">@ BG_AB_REP_TICK_WEEKEND</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:209</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3de28f8d2bbeffeb1df9d791dda332db">BG_AB_FLAG_CAPTURING_TIME</a></div><div class="ttdeci">@ BG_AB_FLAG_CAPTURING_TIME</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:214</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba3f2ba4902de6da31bbf923ed4dee5d9b">BG_AB_WARNING_NEAR_VICTORY_SCORE</a></div><div class="ttdeci">@ BG_AB_WARNING_NEAR_VICTORY_SCORE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:211</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba5bf93a57912ec884f19961a82ab6488f">BG_AB_BANNER_UPDATE_TIME</a></div><div class="ttdeci">@ BG_AB_BANNER_UPDATE_TIME</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:215</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6190a7037359672935918608ee40a92b">BG_AB_HONOR_TICK_NORMAL</a></div><div class="ttdeci">@ BG_AB_HONOR_TICK_NORMAL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:206</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba6db06b2b26df09a77ac22be870092a9f">BG_AB_QUEST_CREDIT_BASE</a></div><div class="ttdeci">@ BG_AB_QUEST_CREDIT_BASE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:204</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9baba83d800e593f1a661408cffc977d441ba">BG_AB_MAX_TEAM_SCORE</a></div><div class="ttdeci">@ BG_AB_MAX_TEAM_SCORE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:212</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9bababa1c289a4cc48f49d5158962c7a654ea">BG_AB_OBJECTIVE_ASSAULT_BASE</a></div><div class="ttdeci">@ BG_AB_OBJECTIVE_ASSAULT_BASE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:201</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacbe3a72209c0fb6f9567d37056c651d3">BG_AB_HONOR_TICK_WEEKEND</a></div><div class="ttdeci">@ BG_AB_HONOR_TICK_WEEKEND</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:207</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babacf222243191f9ac4a83ff33723f923b4">BG_AB_EVENT_START_BATTLE</a></div><div class="ttdeci">@ BG_AB_EVENT_START_BATTLE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:203</div></div>
+<div class="ttc" id="aa03752_html_a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981"><div class="ttname"><a href="../../d0/dbc/a03752.html#a5fdbcfc2e08c809423685172cb1e9babae98af0ae16845e907101c448a4b27981">BG_AB_OBJECTIVE_DEFEND_BASE</a></div><div class="ttdeci">@ BG_AB_OBJECTIVE_DEFEND_BASE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:202</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a57b60dbaa9b05ef4b896e2b8ffebf130" name="a57b60dbaa9b05ef4b896e2b8ffebf130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b60dbaa9b05ef4b896e2b8ffebf130">&#9670;&#160;</a></span>BG_AB_NodeStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130">BG_AB_NodeStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e" name="a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e"></a>BG_AB_NODE_STATE_NEUTRAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140" name="a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140"></a>BG_AB_NODE_STATE_ALLY_OCCUPIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d" name="a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d"></a>BG_AB_NODE_STATE_HORDE_OCCUPIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce" name="a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce"></a>BG_AB_NODE_STATE_ALLY_CONTESTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1" name="a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1"></a>BG_AB_NODE_STATE_HORDE_CONTESTED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  180</span>{</div>
+<div class="line"><span class="lineno">  181</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e">BG_AB_NODE_STATE_NEUTRAL</a>            = 0,</div>
+<div class="line"><span class="lineno">  182</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140">BG_AB_NODE_STATE_ALLY_OCCUPIED</a>      = 1,</div>
+<div class="line"><span class="lineno">  183</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d">BG_AB_NODE_STATE_HORDE_OCCUPIED</a>     = 2,</div>
+<div class="line"><span class="lineno">  184</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce">BG_AB_NODE_STATE_ALLY_CONTESTED</a>     = 3,</div>
+<div class="line"><span class="lineno">  185</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1">BG_AB_NODE_STATE_HORDE_CONTESTED</a>    = 4</div>
+<div class="line"><span class="lineno">  186</span>};</div>
+<div class="ttc" id="aa03752_html_a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e"><div class="ttname"><a href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a462423d2f622b94627c152cb7e50618e">BG_AB_NODE_STATE_NEUTRAL</a></div><div class="ttdeci">@ BG_AB_NODE_STATE_NEUTRAL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:181</div></div>
+<div class="ttc" id="aa03752_html_a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140"><div class="ttname"><a href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a62576a15524760857f73e97756c1e140">BG_AB_NODE_STATE_ALLY_OCCUPIED</a></div><div class="ttdeci">@ BG_AB_NODE_STATE_ALLY_OCCUPIED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:182</div></div>
+<div class="ttc" id="aa03752_html_a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1"><div class="ttname"><a href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a810ee85ad827c3be4e2e64c5b69d4dc1">BG_AB_NODE_STATE_HORDE_CONTESTED</a></div><div class="ttdeci">@ BG_AB_NODE_STATE_HORDE_CONTESTED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:185</div></div>
+<div class="ttc" id="aa03752_html_a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130a9e536b4b805f5085efd3d6e570e3218d">BG_AB_NODE_STATE_HORDE_OCCUPIED</a></div><div class="ttdeci">@ BG_AB_NODE_STATE_HORDE_OCCUPIED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:183</div></div>
+<div class="ttc" id="aa03752_html_a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce"><div class="ttname"><a href="../../d0/dbc/a03752.html#a57b60dbaa9b05ef4b896e2b8ffebf130ae8f3a516a978e5c6f67b40db96ccb8ce">BG_AB_NODE_STATE_ALLY_CONTESTED</a></div><div class="ttdeci">@ BG_AB_NODE_STATE_ALLY_CONTESTED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:184</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a36633fb23fb5fa96337b4ec4aec93716" name="a36633fb23fb5fa96337b4ec4aec93716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36633fb23fb5fa96337b4ec4aec93716">&#9670;&#160;</a></span>BG_AB_ObjectIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716">BG_AB_ObjectIds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad" name="a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad"></a>BG_AB_OBJECTID_NODE_BANNER_0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3" name="a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3"></a>BG_AB_OBJECTID_NODE_BANNER_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8" name="a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8"></a>BG_AB_OBJECTID_NODE_BANNER_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c" name="a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c"></a>BG_AB_OBJECTID_NODE_BANNER_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2" name="a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2"></a>BG_AB_OBJECTID_NODE_BANNER_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88" name="a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88"></a>BG_AB_OBJECTID_BANNER_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe" name="a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe"></a>BG_AB_OBJECTID_BANNER_CONT_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c" name="a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c"></a>BG_AB_OBJECTID_BANNER_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b" name="a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b"></a>BG_AB_OBJECTID_BANNER_CONT_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef" name="a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef"></a>BG_AB_OBJECTID_AURA_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a" name="a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a"></a>BG_AB_OBJECTID_AURA_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e" name="a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e"></a>BG_AB_OBJECTID_AURA_C&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f" name="a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f"></a>BG_AB_OBJECTID_GATE_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57" name="a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57"></a>BG_AB_OBJECTID_GATE_H&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad">BG_AB_OBJECTID_NODE_BANNER_0</a>        = 180087,       <span class="comment">// Stables banner</span></div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3">BG_AB_OBJECTID_NODE_BANNER_1</a>        = 180088,       <span class="comment">// Blacksmith banner</span></div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8">BG_AB_OBJECTID_NODE_BANNER_2</a>        = 180089,       <span class="comment">// Farm banner</span></div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c">BG_AB_OBJECTID_NODE_BANNER_3</a>        = 180090,       <span class="comment">// Lumber mill banner</span></div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2">BG_AB_OBJECTID_NODE_BANNER_4</a>        = 180091,       <span class="comment">// Gold mine banner</span></div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88">BG_AB_OBJECTID_BANNER_A</a>             = 180058,</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe">BG_AB_OBJECTID_BANNER_CONT_A</a>        = 180059,</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c">BG_AB_OBJECTID_BANNER_H</a>             = 180060,</div>
+<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b">BG_AB_OBJECTID_BANNER_CONT_H</a>        = 180061,</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef">BG_AB_OBJECTID_AURA_A</a>               = 180100,</div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a">BG_AB_OBJECTID_AURA_H</a>               = 180101,</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e">BG_AB_OBJECTID_AURA_C</a>               = 180102,</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f">BG_AB_OBJECTID_GATE_A</a>               = 180255,</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57">BG_AB_OBJECTID_GATE_H</a>               = 180256</div>
+<div class="line"><span class="lineno">  102</span>};</div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a003bd627e1e2937f456930df39bd54fe">BG_AB_OBJECTID_BANNER_CONT_A</a></div><div class="ttdeci">@ BG_AB_OBJECTID_BANNER_CONT_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:92</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a07243f3875cf9eb069122dd4ac8def88">BG_AB_OBJECTID_BANNER_A</a></div><div class="ttdeci">@ BG_AB_OBJECTID_BANNER_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:91</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a146558afedbeebd53f7238f9e5f66b7c">BG_AB_OBJECTID_NODE_BANNER_3</a></div><div class="ttdeci">@ BG_AB_OBJECTID_NODE_BANNER_3</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:88</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a25e7dba7ba015e623d9fc78a4453b0ef">BG_AB_OBJECTID_AURA_A</a></div><div class="ttdeci">@ BG_AB_OBJECTID_AURA_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:96</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a29a3a47c4fafcf2b84f9a4753669c70c">BG_AB_OBJECTID_BANNER_H</a></div><div class="ttdeci">@ BG_AB_OBJECTID_BANNER_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:93</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a2be89d7ac0803872fa01a4a7af2b3db2">BG_AB_OBJECTID_NODE_BANNER_4</a></div><div class="ttdeci">@ BG_AB_OBJECTID_NODE_BANNER_4</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:89</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3835fcccd4c338e87ed1656132abbba8">BG_AB_OBJECTID_NODE_BANNER_2</a></div><div class="ttdeci">@ BG_AB_OBJECTID_NODE_BANNER_2</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:87</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a3ea520d3276170ed756998e7c0942cf3">BG_AB_OBJECTID_NODE_BANNER_1</a></div><div class="ttdeci">@ BG_AB_OBJECTID_NODE_BANNER_1</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:86</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a539a8ec0aaa490643c16a4bd2c5cae6e">BG_AB_OBJECTID_AURA_C</a></div><div class="ttdeci">@ BG_AB_OBJECTID_AURA_C</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:98</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a55e87dca2606aeb16eaba3f5fa60737a">BG_AB_OBJECTID_AURA_H</a></div><div class="ttdeci">@ BG_AB_OBJECTID_AURA_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:97</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a88d1f2c03d7b8fc4738c354b87f1445f">BG_AB_OBJECTID_GATE_A</a></div><div class="ttdeci">@ BG_AB_OBJECTID_GATE_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:100</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716a93e1309e94d06c4fe7ddc4d43f0578ad">BG_AB_OBJECTID_NODE_BANNER_0</a></div><div class="ttdeci">@ BG_AB_OBJECTID_NODE_BANNER_0</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:85</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716ab1a69f0a8b53e5406e44255ab186665b">BG_AB_OBJECTID_BANNER_CONT_H</a></div><div class="ttdeci">@ BG_AB_OBJECTID_BANNER_CONT_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:94</div></div>
+<div class="ttc" id="aa03752_html_a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57"><div class="ttname"><a href="../../d0/dbc/a03752.html#a36633fb23fb5fa96337b4ec4aec93716af707fbb75af1cb857a961a58690fbc57">BG_AB_OBJECTID_GATE_H</a></div><div class="ttdeci">@ BG_AB_OBJECTID_GATE_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:101</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3d45322a0b7ad0e3e2e88e55e0ddd254" name="a3d45322a0b7ad0e3e2e88e55e0ddd254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d45322a0b7ad0e3e2e88e55e0ddd254">&#9670;&#160;</a></span>BG_AB_ObjectType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254">BG_AB_ObjectType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230"></a>BG_AB_OBJECT_BANNER_NEUTRAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3"></a>BG_AB_OBJECT_BANNER_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe"></a>BG_AB_OBJECT_BANNER_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d"></a>BG_AB_OBJECT_BANNER_CONT_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f" name="a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f"></a>BG_AB_OBJECT_BANNER_CONT_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1"></a>BG_AB_OBJECT_AURA_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d"></a>BG_AB_OBJECT_AURA_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68"></a>BG_AB_OBJECT_AURA_CONTESTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66" name="a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66"></a>BG_AB_OBJECTS_PER_NODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96"></a>BG_AB_OBJECT_GATE_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273"></a>BG_AB_OBJECT_GATE_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873"></a>BG_AB_OBJECT_SPEEDBUFF_STABLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f" name="a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f"></a>BG_AB_OBJECT_REGENBUFF_STABLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d" name="a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d"></a>BG_AB_OBJECT_BERSERKBUFF_STABLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103"></a>BG_AB_OBJECT_SPEEDBUFF_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89"></a>BG_AB_OBJECT_REGENBUFF_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17"></a>BG_AB_OBJECT_BERSERKBUFF_BLACKSMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a"></a>BG_AB_OBJECT_SPEEDBUFF_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001"></a>BG_AB_OBJECT_REGENBUFF_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5"></a>BG_AB_OBJECT_BERSERKBUFF_FARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b" name="a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b"></a>BG_AB_OBJECT_SPEEDBUFF_LUMBER_MILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2"></a>BG_AB_OBJECT_REGENBUFF_LUMBER_MILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d"></a>BG_AB_OBJECT_BERSERKBUFF_LUMBER_MILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1"></a>BG_AB_OBJECT_SPEEDBUFF_GOLD_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817"></a>BG_AB_OBJECT_REGENBUFF_GOLD_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d" name="a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d"></a>BG_AB_OBJECT_BERSERKBUFF_GOLD_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905" name="a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905"></a>BG_AB_OBJECT_MAX&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{</div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230">BG_AB_OBJECT_BANNER_NEUTRAL</a>          = 0,</div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3">BG_AB_OBJECT_BANNER_ALLY</a>             = 1,</div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe">BG_AB_OBJECT_BANNER_HORDE</a>            = 2,</div>
+<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d">BG_AB_OBJECT_BANNER_CONT_A</a>           = 3,</div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f">BG_AB_OBJECT_BANNER_CONT_H</a>           = 4,</div>
+<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1">BG_AB_OBJECT_AURA_ALLY</a>               = 5,</div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d">BG_AB_OBJECT_AURA_HORDE</a>              = 6,</div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68">BG_AB_OBJECT_AURA_CONTESTED</a>          = 7,</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66">BG_AB_OBJECTS_PER_NODE</a>               = 8,</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96">BG_AB_OBJECT_GATE_A</a>                  = 40,</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273">BG_AB_OBJECT_GATE_H</a>                  = 41,</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873">BG_AB_OBJECT_SPEEDBUFF_STABLES</a>       = 42,</div>
+<div class="line"><span class="lineno">  120</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f">BG_AB_OBJECT_REGENBUFF_STABLES</a>       = 43,</div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d">BG_AB_OBJECT_BERSERKBUFF_STABLES</a>     = 44,</div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103">BG_AB_OBJECT_SPEEDBUFF_BLACKSMITH</a>    = 45,</div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89">BG_AB_OBJECT_REGENBUFF_BLACKSMITH</a>    = 46,</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17">BG_AB_OBJECT_BERSERKBUFF_BLACKSMITH</a>  = 47,</div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a">BG_AB_OBJECT_SPEEDBUFF_FARM</a>          = 48,</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001">BG_AB_OBJECT_REGENBUFF_FARM</a>          = 49,</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5">BG_AB_OBJECT_BERSERKBUFF_FARM</a>        = 50,</div>
+<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b">BG_AB_OBJECT_SPEEDBUFF_LUMBER_MILL</a>   = 51,</div>
+<div class="line"><span class="lineno">  129</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2">BG_AB_OBJECT_REGENBUFF_LUMBER_MILL</a>   = 52,</div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d">BG_AB_OBJECT_BERSERKBUFF_LUMBER_MILL</a> = 53,</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1">BG_AB_OBJECT_SPEEDBUFF_GOLD_MINE</a>     = 54,</div>
+<div class="line"><span class="lineno">  132</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817">BG_AB_OBJECT_REGENBUFF_GOLD_MINE</a>     = 55,</div>
+<div class="line"><span class="lineno">  133</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d">BG_AB_OBJECT_BERSERKBUFF_GOLD_MINE</a>   = 56,</div>
+<div class="line"><span class="lineno">  134</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905">BG_AB_OBJECT_MAX</a>                     = 57,</div>
+<div class="line"><span class="lineno">  135</span>};</div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a020c79cac3c9ad40feee4d25e39d7f89">BG_AB_OBJECT_REGENBUFF_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_OBJECT_REGENBUFF_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:123</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a06846ababc9148ffcf9b1918c3911001">BG_AB_OBJECT_REGENBUFF_FARM</a></div><div class="ttdeci">@ BG_AB_OBJECT_REGENBUFF_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:126</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a0df153dab1ff6150d5a1f951bbf1cefe">BG_AB_OBJECT_BANNER_HORDE</a></div><div class="ttdeci">@ BG_AB_OBJECT_BANNER_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:108</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a103933bda044ac8a918b223c4973ebd1">BG_AB_OBJECT_SPEEDBUFF_GOLD_MINE</a></div><div class="ttdeci">@ BG_AB_OBJECT_SPEEDBUFF_GOLD_MINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:131</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a16b4786413200180dbd3039de1a094f2">BG_AB_OBJECT_REGENBUFF_LUMBER_MILL</a></div><div class="ttdeci">@ BG_AB_OBJECT_REGENBUFF_LUMBER_MILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:129</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2098795ff583a05546cfb1d4b65be4d3">BG_AB_OBJECT_BANNER_ALLY</a></div><div class="ttdeci">@ BG_AB_OBJECT_BANNER_ALLY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:107</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a2162382f9fb7ed5babb7b0d26c848d96">BG_AB_OBJECT_GATE_A</a></div><div class="ttdeci">@ BG_AB_OBJECT_GATE_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:116</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a450f73e1468e38cb6b534dad2169d40d">BG_AB_OBJECT_AURA_HORDE</a></div><div class="ttdeci">@ BG_AB_OBJECT_AURA_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:112</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a46f103b7cf27050acc515398fd3e869a">BG_AB_OBJECT_SPEEDBUFF_FARM</a></div><div class="ttdeci">@ BG_AB_OBJECT_SPEEDBUFF_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:125</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4b77b0df124be1f9e77637feeef4af17">BG_AB_OBJECT_BERSERKBUFF_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_OBJECT_BERSERKBUFF_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:124</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a4d4b2d0c09eebec8e2fbf2048239f905">BG_AB_OBJECT_MAX</a></div><div class="ttdeci">@ BG_AB_OBJECT_MAX</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:134</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a5fccf6f7c794fa9a3b5d84fa16b3e103">BG_AB_OBJECT_SPEEDBUFF_BLACKSMITH</a></div><div class="ttdeci">@ BG_AB_OBJECT_SPEEDBUFF_BLACKSMITH</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:122</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a7ba8860dd59d25ccaf62bbbb7013b273">BG_AB_OBJECT_GATE_H</a></div><div class="ttdeci">@ BG_AB_OBJECT_GATE_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:117</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a8cd23628f5cb3d874e2b6799430ca4c5">BG_AB_OBJECT_BERSERKBUFF_FARM</a></div><div class="ttdeci">@ BG_AB_OBJECT_BERSERKBUFF_FARM</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:127</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a928f8a26d7ddcc2cec91cb204e743817">BG_AB_OBJECT_REGENBUFF_GOLD_MINE</a></div><div class="ttdeci">@ BG_AB_OBJECT_REGENBUFF_GOLD_MINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:132</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254a9cde6affef60e332122963574c994230">BG_AB_OBJECT_BANNER_NEUTRAL</a></div><div class="ttdeci">@ BG_AB_OBJECT_BANNER_NEUTRAL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:106</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa3b9498412e6798dbe0619f472849a7b">BG_AB_OBJECT_SPEEDBUFF_LUMBER_MILL</a></div><div class="ttdeci">@ BG_AB_OBJECT_SPEEDBUFF_LUMBER_MILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:128</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aa501df1803557d6bf095074604206b66">BG_AB_OBJECTS_PER_NODE</a></div><div class="ttdeci">@ BG_AB_OBJECTS_PER_NODE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:114</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254aaf1ed05e79654c99430e1acfd7ee208f">BG_AB_OBJECT_BANNER_CONT_H</a></div><div class="ttdeci">@ BG_AB_OBJECT_BANNER_CONT_H</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:110</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254abf84e4f0e1e7f3c5d5ef2adffb21ea9d">BG_AB_OBJECT_BERSERKBUFF_STABLES</a></div><div class="ttdeci">@ BG_AB_OBJECT_BERSERKBUFF_STABLES</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:121</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac28800a8fe47d19f4f22a6e4158d245d">BG_AB_OBJECT_BERSERKBUFF_GOLD_MINE</a></div><div class="ttdeci">@ BG_AB_OBJECT_BERSERKBUFF_GOLD_MINE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:133</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac4100a1f28c5573ab7dea73d50298873">BG_AB_OBJECT_SPEEDBUFF_STABLES</a></div><div class="ttdeci">@ BG_AB_OBJECT_SPEEDBUFF_STABLES</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:119</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac63dd312ad214b3f93840958d324e19d">BG_AB_OBJECT_BANNER_CONT_A</a></div><div class="ttdeci">@ BG_AB_OBJECT_BANNER_CONT_A</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:109</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac8102c580d0a56079f2462f95bd14bf1">BG_AB_OBJECT_AURA_ALLY</a></div><div class="ttdeci">@ BG_AB_OBJECT_AURA_ALLY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:111</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ac88f0eb5f1bff68883c7c6c15160cd5d">BG_AB_OBJECT_BERSERKBUFF_LUMBER_MILL</a></div><div class="ttdeci">@ BG_AB_OBJECT_BERSERKBUFF_LUMBER_MILL</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:130</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254acdcd098c1835da288726d6adf45e506f">BG_AB_OBJECT_REGENBUFF_STABLES</a></div><div class="ttdeci">@ BG_AB_OBJECT_REGENBUFF_STABLES</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:120</div></div>
+<div class="ttc" id="aa03752_html_a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68"><div class="ttname"><a href="../../d0/dbc/a03752.html#a3d45322a0b7ad0e3e2e88e55e0ddd254ae51881c9fa5e34d03f8b6622476aef68">BG_AB_OBJECT_AURA_CONTESTED</a></div><div class="ttdeci">@ BG_AB_OBJECT_AURA_CONTESTED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:113</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afa4330ec402735b2df3a043a6b018338" name="afa4330ec402735b2df3a043a6b018338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4330ec402735b2df3a043a6b018338">&#9670;&#160;</a></span>BG_AB_Sounds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338">BG_AB_Sounds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58" name="afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58"></a>BG_AB_SOUND_NODE_CLAIMED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6" name="afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6"></a>BG_AB_SOUND_NODE_CAPTURED_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1" name="afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1"></a>BG_AB_SOUND_NODE_CAPTURED_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77" name="afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77"></a>BG_AB_SOUND_NODE_ASSAULTED_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe" name="afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe"></a>BG_AB_SOUND_NODE_ASSAULTED_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf" name="afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf"></a>BG_AB_SOUND_NEAR_VICTORY_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b" name="afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b"></a>BG_AB_SOUND_NEAR_VICTORY_HORDE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  189</span>{</div>
+<div class="line"><span class="lineno">  190</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58">BG_AB_SOUND_NODE_CLAIMED</a>            = 8192,</div>
+<div class="line"><span class="lineno">  191</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6">BG_AB_SOUND_NODE_CAPTURED_ALLIANCE</a>  = 8173,</div>
+<div class="line"><span class="lineno">  192</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1">BG_AB_SOUND_NODE_CAPTURED_HORDE</a>     = 8213,</div>
+<div class="line"><span class="lineno">  193</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77">BG_AB_SOUND_NODE_ASSAULTED_ALLIANCE</a> = 8212,</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe">BG_AB_SOUND_NODE_ASSAULTED_HORDE</a>    = 8174,</div>
+<div class="line"><span class="lineno">  195</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf">BG_AB_SOUND_NEAR_VICTORY_ALLIANCE</a>   = 8456,</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b">BG_AB_SOUND_NEAR_VICTORY_HORDE</a>      = 8457</div>
+<div class="line"><span class="lineno">  197</span>};</div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a205e3df14587d1fa5b8a83f206e8a8bf">BG_AB_SOUND_NEAR_VICTORY_ALLIANCE</a></div><div class="ttdeci">@ BG_AB_SOUND_NEAR_VICTORY_ALLIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:195</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a294a068637e38497ebf3b514ea17c1f1">BG_AB_SOUND_NODE_CAPTURED_HORDE</a></div><div class="ttdeci">@ BG_AB_SOUND_NODE_CAPTURED_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:192</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6619c65dabbb9b7b10de5cf313681b77">BG_AB_SOUND_NODE_ASSAULTED_ALLIANCE</a></div><div class="ttdeci">@ BG_AB_SOUND_NODE_ASSAULTED_ALLIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:193</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a6b49dfb9c85315c1a68adf6db98dc5fe">BG_AB_SOUND_NODE_ASSAULTED_HORDE</a></div><div class="ttdeci">@ BG_AB_SOUND_NODE_ASSAULTED_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:194</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a70dc7021ef277eafceea927b23e73e4b">BG_AB_SOUND_NEAR_VICTORY_HORDE</a></div><div class="ttdeci">@ BG_AB_SOUND_NEAR_VICTORY_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:196</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338a82345118263a37caa33c0f0fa160ee58">BG_AB_SOUND_NODE_CLAIMED</a></div><div class="ttdeci">@ BG_AB_SOUND_NODE_CLAIMED</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:190</div></div>
+<div class="ttc" id="aa03752_html_afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6"><div class="ttname"><a href="../../d0/dbc/a03752.html#afa4330ec402735b2df3a043a6b018338adec8cd5886a496342cf2ade674f4edf6">BG_AB_SOUND_NODE_CAPTURED_ALLIANCE</a></div><div class="ttdeci">@ BG_AB_SOUND_NODE_CAPTURED_ALLIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:191</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae849ec0a797f15687258407024888c02" name="ae849ec0a797f15687258407024888c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae849ec0a797f15687258407024888c02">&#9670;&#160;</a></span>BG_AB_WorldStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02">BG_AB_WorldStates</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150" name="ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150"></a>BG_AB_OP_OCCUPIED_BASES_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa" name="ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa"></a>BG_AB_OP_OCCUPIED_BASES_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2" name="ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2"></a>BG_AB_OP_RESOURCES_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b" name="ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b"></a>BG_AB_OP_RESOURCES_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6" name="ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6"></a>BG_AB_OP_RESOURCES_MAX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289" name="ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289"></a>BG_AB_OP_RESOURCES_WARNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032" name="ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032"></a>BG_AB_OP_STABLE_ICON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7" name="ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7"></a>BG_AB_OP_STABLE_STATE_ALIENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69" name="ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69"></a>BG_AB_OP_STABLE_STATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5" name="ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5"></a>BG_AB_OP_STABLE_STATE_CON_ALI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146" name="ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146"></a>BG_AB_OP_STABLE_STATE_CON_HOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3" name="ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3"></a>BG_AB_OP_FARM_ICON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae" name="ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae"></a>BG_AB_OP_FARM_STATE_ALIENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1" name="ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1"></a>BG_AB_OP_FARM_STATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45" name="ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45"></a>BG_AB_OP_FARM_STATE_CON_ALI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201" name="ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201"></a>BG_AB_OP_FARM_STATE_CON_HOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae" name="ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae"></a>BG_AB_OP_BLACKSMITH_ICON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa" name="ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa"></a>BG_AB_OP_BLACKSMITH_STATE_ALIENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c" name="ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c"></a>BG_AB_OP_BLACKSMITH_STATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99" name="ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99"></a>BG_AB_OP_BLACKSMITH_STATE_CON_ALI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb" name="ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb"></a>BG_AB_OP_BLACKSMITH_STATE_CON_HOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188" name="ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188"></a>BG_AB_OP_LUMBERMILL_ICON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021" name="ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021"></a>BG_AB_OP_LUMBERMILL_STATE_ALIENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23" name="ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23"></a>BG_AB_OP_LUMBERMILL_STATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137" name="ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137"></a>BG_AB_OP_LUMBERMILL_STATE_CON_ALI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b" name="ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b"></a>BG_AB_OP_LUMBERMILL_STATE_CON_HOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234" name="ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234"></a>BG_AB_OP_GOLDMINE_ICON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118" name="ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118"></a>BG_AB_OP_GOLDMINE_STATE_ALIENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d" name="ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d"></a>BG_AB_OP_GOLDMINE_STATE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887" name="ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887"></a>BG_AB_OP_GOLDMINE_STATE_CON_ALI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4" name="ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4"></a>BG_AB_OP_GOLDMINE_STATE_CON_HOR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150">BG_AB_OP_OCCUPIED_BASES_HORDE</a>       = 1778,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa">BG_AB_OP_OCCUPIED_BASES_ALLY</a>        = 1779,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2">BG_AB_OP_RESOURCES_ALLY</a>             = 1776,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b">BG_AB_OP_RESOURCES_HORDE</a>            = 1777,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6">BG_AB_OP_RESOURCES_MAX</a>              = 1780,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289">BG_AB_OP_RESOURCES_WARNING</a>          = 1955,</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032">BG_AB_OP_STABLE_ICON</a>                = 1842,             <span class="comment">//Stable map icon (NONE)</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7">BG_AB_OP_STABLE_STATE_ALIENCE</a>       = 1767,             <span class="comment">//Stable map state (ALIENCE)</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69">BG_AB_OP_STABLE_STATE_HORDE</a>         = 1768,             <span class="comment">//Stable map state (HORDE)</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5">BG_AB_OP_STABLE_STATE_CON_ALI</a>       = 1769,             <span class="comment">//Stable map state (CON ALIENCE)</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146">BG_AB_OP_STABLE_STATE_CON_HOR</a>       = 1770,             <span class="comment">//Stable map state (CON HORDE)</span></div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3">BG_AB_OP_FARM_ICON</a>                  = 1845,             <span class="comment">//Farm map icon (NONE)</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae">BG_AB_OP_FARM_STATE_ALIENCE</a>         = 1772,             <span class="comment">//Farm state (ALIENCE)</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1">BG_AB_OP_FARM_STATE_HORDE</a>           = 1773,             <span class="comment">//Farm state (HORDE)</span></div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45">BG_AB_OP_FARM_STATE_CON_ALI</a>         = 1774,             <span class="comment">//Farm state (CON ALIENCE)</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201">BG_AB_OP_FARM_STATE_CON_HOR</a>         = 1775,             <span class="comment">//Farm state (CON HORDE)</span></div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae">BG_AB_OP_BLACKSMITH_ICON</a>            = 1846,             <span class="comment">//Blacksmith map icon (NONE)</span></div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa">BG_AB_OP_BLACKSMITH_STATE_ALIENCE</a>   = 1782,             <span class="comment">//Blacksmith map state (ALIENCE)</span></div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c">BG_AB_OP_BLACKSMITH_STATE_HORDE</a>     = 1783,             <span class="comment">//Blacksmith map state (HORDE)</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99">BG_AB_OP_BLACKSMITH_STATE_CON_ALI</a>   = 1784,             <span class="comment">//Blacksmith map state (CON ALIENCE)</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb">BG_AB_OP_BLACKSMITH_STATE_CON_HOR</a>   = 1785,             <span class="comment">//Blacksmith map state (CON HORDE)</span></div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188">BG_AB_OP_LUMBERMILL_ICON</a>            = 1844,             <span class="comment">//Lumber Mill map icon (NONE)</span></div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021">BG_AB_OP_LUMBERMILL_STATE_ALIENCE</a>   = 1792,             <span class="comment">//Lumber Mill map state (ALIENCE)</span></div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23">BG_AB_OP_LUMBERMILL_STATE_HORDE</a>     = 1793,             <span class="comment">//Lumber Mill map state (HORDE)</span></div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137">BG_AB_OP_LUMBERMILL_STATE_CON_ALI</a>   = 1794,             <span class="comment">//Lumber Mill map state (CON ALIENCE)</span></div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b">BG_AB_OP_LUMBERMILL_STATE_CON_HOR</a>   = 1795,             <span class="comment">//Lumber Mill map state (CON HORDE)</span></div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234">BG_AB_OP_GOLDMINE_ICON</a>              = 1843,             <span class="comment">//Gold Mine map icon (NONE)</span></div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118">BG_AB_OP_GOLDMINE_STATE_ALIENCE</a>     = 1787,             <span class="comment">//Gold Mine map state (ALIENCE)</span></div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d">BG_AB_OP_GOLDMINE_STATE_HORDE</a>       = 1788,             <span class="comment">//Gold Mine map state (HORDE)</span></div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887">BG_AB_OP_GOLDMINE_STATE_CON_ALI</a>     = 1789,             <span class="comment">//Gold Mine map state (CON ALIENCE</span></div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4">BG_AB_OP_GOLDMINE_STATE_CON_HOR</a>     = 1790,             <span class="comment">//Gold Mine map state (CON HORDE)</span></div>
+<div class="line"><span class="lineno">   81</span>};</div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a097711ccaa60fc884ac7694782fdff23">BG_AB_OP_LUMBERMILL_STATE_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_LUMBERMILL_STATE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:72</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a23861528e0a6d03087af1bc7f0aa2146">BG_AB_OP_STABLE_STATE_CON_HOR</a></div><div class="ttdeci">@ BG_AB_OP_STABLE_STATE_CON_HOR</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:56</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2730075365239b31b48a3890c6f091d3">BG_AB_OP_FARM_ICON</a></div><div class="ttdeci">@ BG_AB_OP_FARM_ICON</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:58</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2bdd9f5197e31973507f447f3d2652f2">BG_AB_OP_RESOURCES_ALLY</a></div><div class="ttdeci">@ BG_AB_OP_RESOURCES_ALLY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:47</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a2ec77c16d7da678f5cb99206fabd8ef6">BG_AB_OP_RESOURCES_MAX</a></div><div class="ttdeci">@ BG_AB_OP_RESOURCES_MAX</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:49</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a3ad015982c6baf49277e16dbfac44150">BG_AB_OP_OCCUPIED_BASES_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_OCCUPIED_BASES_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:45</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4919b69d6191eef6221018271a8ac6b4">BG_AB_OP_GOLDMINE_STATE_CON_HOR</a></div><div class="ttdeci">@ BG_AB_OP_GOLDMINE_STATE_CON_HOR</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:80</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a4d2bb218d748f6d832f2d041582cd021">BG_AB_OP_LUMBERMILL_STATE_ALIENCE</a></div><div class="ttdeci">@ BG_AB_OP_LUMBERMILL_STATE_ALIENCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:71</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a50866b1eabd65b69b345046dcd345e0b">BG_AB_OP_RESOURCES_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_RESOURCES_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:48</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a5f3b029ebae03bc0d4bac5e13977e234">BG_AB_OP_GOLDMINE_ICON</a></div><div class="ttdeci">@ BG_AB_OP_GOLDMINE_ICON</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:76</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a7b656bfb88ba6bd5ef71cd2588405cae">BG_AB_OP_BLACKSMITH_ICON</a></div><div class="ttdeci">@ BG_AB_OP_BLACKSMITH_ICON</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:64</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a80f8820f32850bffe93ebe555f9d5c99">BG_AB_OP_BLACKSMITH_STATE_CON_ALI</a></div><div class="ttdeci">@ BG_AB_OP_BLACKSMITH_STATE_CON_ALI</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:67</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a81098408a46496360b2728fa62e81b45">BG_AB_OP_FARM_STATE_CON_ALI</a></div><div class="ttdeci">@ BG_AB_OP_FARM_STATE_CON_ALI</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:61</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a873130d02b90c31d89f6826e4ee1077b">BG_AB_OP_LUMBERMILL_STATE_CON_HOR</a></div><div class="ttdeci">@ BG_AB_OP_LUMBERMILL_STATE_CON_HOR</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:74</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a8c88d08f4288d0dcc5a9caa7b8574201">BG_AB_OP_FARM_STATE_CON_HOR</a></div><div class="ttdeci">@ BG_AB_OP_FARM_STATE_CON_HOR</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:62</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02a981c144ffcead68ea547c53f86bf0032">BG_AB_OP_STABLE_ICON</a></div><div class="ttdeci">@ BG_AB_OP_STABLE_ICON</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:52</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa240efd6fb6f954a79ca5fae61d942cb">BG_AB_OP_BLACKSMITH_STATE_CON_HOR</a></div><div class="ttdeci">@ BG_AB_OP_BLACKSMITH_STATE_CON_HOR</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:68</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aa3e021edc1250733d6a3d8f0f4897118">BG_AB_OP_GOLDMINE_STATE_ALIENCE</a></div><div class="ttdeci">@ BG_AB_OP_GOLDMINE_STATE_ALIENCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:77</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ab968e3fc0f60932e4107d7b2646a67d1">BG_AB_OP_FARM_STATE_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_FARM_STATE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:60</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02abcfc4cc28af1237e86bd992db940131c">BG_AB_OP_BLACKSMITH_STATE_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_BLACKSMITH_STATE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:66</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac5b24310bc6e759524c93de101edf188">BG_AB_OP_LUMBERMILL_ICON</a></div><div class="ttdeci">@ BG_AB_OP_LUMBERMILL_ICON</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:70</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ac67b91f305fcd7bf9479f32c783fee69">BG_AB_OP_STABLE_STATE_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_STABLE_STATE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:54</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02acdfbef5593bc4d76444ac7a2c4fec289">BG_AB_OP_RESOURCES_WARNING</a></div><div class="ttdeci">@ BG_AB_OP_RESOURCES_WARNING</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:50</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ad2a640ea69dd05b09b1ef49fcd62ccfa">BG_AB_OP_OCCUPIED_BASES_ALLY</a></div><div class="ttdeci">@ BG_AB_OP_OCCUPIED_BASES_ALLY</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:46</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae4891622e7a9f626c193df4ce49718e7">BG_AB_OP_STABLE_STATE_ALIENCE</a></div><div class="ttdeci">@ BG_AB_OP_STABLE_STATE_ALIENCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:53</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae5c9c115650069b4646249efae326137">BG_AB_OP_LUMBERMILL_STATE_CON_ALI</a></div><div class="ttdeci">@ BG_AB_OP_LUMBERMILL_STATE_CON_ALI</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:73</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02ae7695a989288eaa177669c908c1944ae">BG_AB_OP_FARM_STATE_ALIENCE</a></div><div class="ttdeci">@ BG_AB_OP_FARM_STATE_ALIENCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:59</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aec2a05d93eac1b62c5d24b1d14d82dd5">BG_AB_OP_STABLE_STATE_CON_ALI</a></div><div class="ttdeci">@ BG_AB_OP_STABLE_STATE_CON_ALI</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:55</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02aef5995182878dad4e87aa5953cc904fa">BG_AB_OP_BLACKSMITH_STATE_ALIENCE</a></div><div class="ttdeci">@ BG_AB_OP_BLACKSMITH_STATE_ALIENCE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:65</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af5bfaf36c5bb02ef4cd5cf2d69baec2d">BG_AB_OP_GOLDMINE_STATE_HORDE</a></div><div class="ttdeci">@ BG_AB_OP_GOLDMINE_STATE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:78</div></div>
+<div class="ttc" id="aa03752_html_ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887"><div class="ttname"><a href="../../d0/dbc/a03752.html#ae849ec0a797f15687258407024888c02af7e658a4ce2b293fdf4d0dcf8c034887">BG_AB_OP_GOLDMINE_STATE_CON_ALI</a></div><div class="ttdeci">@ BG_AB_OP_GOLDMINE_STATE_CON_ALI</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:79</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a5ce5aced5b18a9136cfd7a03348a9979" name="a5ce5aced5b18a9136cfd7a03348a9979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce5aced5b18a9136cfd7a03348a9979">&#9670;&#160;</a></span>ABNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/df1/a07118.html">ABNodeInfo</a> const ABNodes[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada1659f989b2c934ff7bbb18ddf3889f0f">BG_AB_NODE_STABLES</a>,     10199, 10200, 10203, 10204, 10201, 10202, 10286, 10287 },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada0d2696d111c150a16896fc7a9b88af53">BG_AB_NODE_BLACKSMITH</a>,  10211, 10212, 10213, 10214, 10215, 10216, 10290, 10291 },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adacbdce42b70229b7f8558d07e72159232">BG_AB_NODE_FARM</a>,        10217, 10218, 10219, 10220, 10221, 10222, 10288, 10289 },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada4ba9970fd23b48756d7a9cb2774752d7">BG_AB_NODE_LUMBER_MILL</a>, 10224, 10225, 10226, 10227, 10228, 10229, 10284, 10285 },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014adaf43583c1b4343a79b3d0a67deaac6aaa">BG_AB_NODE_GOLD_MINE</a>,   10230, 10231, 10232, 10233, 10234, 10235, 10282, 10283 }</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00304">BattlegroundAB::EventPlayerClickedOnFlag()</a>, and <a class="el" href="../../#l00050">BattlegroundAB::PostUpdateImpl()</a>.</p>
+
+</div>
+</div>
+<a id="a51ad679e6affe77350ba6d21554463c3" name="a51ad679e6affe77350ba6d21554463c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ad679e6affe77350ba6d21554463c3">&#9670;&#160;</a></span>BG_AB_BuffPositions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float BG_AB_BuffPositions[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>][4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    {1185.71f, 1185.24f, -56.36f, 2.56f},                   </div>
+<div class="line">    {990.75f, 1008.18f, -42.60f, 2.43f},                    </div>
+<div class="line">    {817.66f, 843.34f, -56.54f, 3.01f},                     </div>
+<div class="line">    {807.46f, 1189.16f, 11.92f, 5.44f},                     </div>
+<div class="line">    {1146.62f, 816.94f, -98.49f, 6.14f}                     </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00417">BattlegroundAB::SetupBattleground()</a>.</p>
+
+</div>
+</div>
+<a id="a6d6a352719d503f3002b193c412ec53b" name="a6d6a352719d503f3002b193c412ec53b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6a352719d503f3002b193c412ec53b">&#9670;&#160;</a></span>BG_AB_DoorPositions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float BG_AB_DoorPositions[2][8]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    {1284.597f, 1281.167f, -15.97792f, 0.7068594f, 0.012957f, -0.060288f, 0.344959f, 0.93659f},</div>
+<div class="line">    {708.0903f, 708.4479f, -17.8342f, -2.391099f, 0.050291f, 0.015127f, 0.929217f, -0.365784f}</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00417">BattlegroundAB::SetupBattleground()</a>.</p>
+
+</div>
+</div>
+<a id="a6f996d495e116848d3bd6384e501d51e" name="a6f996d495e116848d3bd6384e501d51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f996d495e116848d3bd6384e501d51e">&#9670;&#160;</a></span>BG_AB_GraveyardIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BG_AB_GraveyardIds[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a>] = {895, 894, 893, 897, 896, 898, 899}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00492">BattlegroundAB::GetClosestGraveyard()</a>.</p>
+
+</div>
+</div>
+<a id="af981815b69f9cc306f4740e809a90f77" name="af981815b69f9cc306f4740e809a90f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af981815b69f9cc306f4740e809a90f77">&#9670;&#160;</a></span>BG_AB_NodePositions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float BG_AB_NodePositions[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>][4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    {1166.785f, 1200.132f, -56.70859f, 0.9075713f},         </div>
+<div class="line">    {977.0156f, 1046.616f, -44.80923f, -2.600541f},         </div>
+<div class="line">    {806.1821f, 874.2723f, -55.99371f, -2.303835f},         </div>
+<div class="line">    {856.1419f, 1148.902f, 11.18469f, -2.303835f},          </div>
+<div class="line">    {1146.923f, 848.1782f, -110.917f, -0.7330382f}          </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00304">BattlegroundAB::EventPlayerClickedOnFlag()</a>, <a class="el" href="../../#l00267">BattlegroundAB::NodeOccupied()</a>, and <a class="el" href="../../#l00417">BattlegroundAB::SetupBattleground()</a>.</p>
+
+</div>
+</div>
+<a id="a86650176a2fbeee8806e5281e56c0a42" name="a86650176a2fbeee8806e5281e56c0a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86650176a2fbeee8806e5281e56c0a42">&#9670;&#160;</a></span>BG_AB_SpiritGuidePos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float BG_AB_SpiritGuidePos[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada24a3b25885e054c2107989e87e2008e1">BG_AB_ALL_NODES_COUNT</a>][4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    {1200.03f, 1171.09f, -56.47f, 5.15f},                   </div>
+<div class="line">    {1017.43f, 960.61f, -42.95f, 4.88f},                    </div>
+<div class="line">    {833.00f, 793.00f, -57.25f, 5.27f},                     </div>
+<div class="line">    {775.17f, 1206.40f, 15.79f, 1.90f},                     </div>
+<div class="line">    {1207.48f, 787.00f, -83.36f, 5.51f},                    </div>
+<div class="line">    {1354.05f, 1275.48f, -11.30f, 4.77f},                   </div>
+<div class="line">    {714.61f, 646.15f, -10.87f, 4.34f}                      </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00267">BattlegroundAB::NodeOccupied()</a>, and <a class="el" href="../../#l00417">BattlegroundAB::SetupBattleground()</a>.</p>
+
+</div>
+</div>
+<a id="accc3ec988e6f59e7774947ed53d23bc4" name="accc3ec988e6f59e7774947ed53d23bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc3ec988e6f59e7774947ed53d23bc4">&#9670;&#160;</a></span>BG_AB_TickIntervals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BG_AB_TickIntervals[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>+1] = {0, 12000, 9000, 6000, 3000, 1000}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00050">BattlegroundAB::PostUpdateImpl()</a>.</p>
+
+</div>
+</div>
+<a id="acc55e240ec4cc628722f56c5fa4d2c84" name="acc55e240ec4cc628722f56c5fa4d2c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc55e240ec4cc628722f56c5fa4d2c84">&#9670;&#160;</a></span>BG_AB_TickPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BG_AB_TickPoints[<a class="el" href="../../d0/dbc/a03752.html#a7cb15f4d123cdbe557e15c7daaf014ada8caa41b70cbe057ad7a24b7834400e3e">BG_AB_DYNAMIC_NODES_COUNT</a>+1] = {0, 10, 10, 10, 10, 30}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00050">BattlegroundAB::PostUpdateImpl()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d0/dbc/a03752.html">ArenaTeamHandler.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../dir_d9de844c1d859dc2cc6a65181dd33644.html">Zones</a></li><li class="navelem"><a class="el" href="../../d0/dbc/a03752.html">BattlegroundAB.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,7 @@
 var a07698 =
 [
-    [ "LfgReward", "d1/d20/a07698.html#afe2ea037fa24064c2bf04cfc6303d903", null ],
-    [ "firstQuest", "d1/d20/a07698.html#a28162b1e43a5309ab01ca99b45d29799", null ],
-    [ "maxLevel", "d1/d20/a07698.html#aae6e46155dc790ed7c63f5f0b8e08395", null ],
-    [ "otherQuest", "d1/d20/a07698.html#a96de83c64efc3009d7d5cd04a61e71b2", null ]
+    [ "LfgJoinResultData", "d1/d20/a07698.html#a1d711d49a6b49f55eb3771352b294b95", null ],
+    [ "lockmap", "d1/d20/a07698.html#aff918b3c02ca76982a964402175f8ad7", null ],
+    [ "result", "d1/d20/a07698.html#aa713cbc1930962d520883523f6f6446c", null ],
+    [ "state", "d1/d20/a07698.html#a2eee5e81651a7a9be245e4b717ab53ed", null ]
 ];

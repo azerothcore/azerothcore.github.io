@@ -1,9 +1,10 @@
 var a08926 =
 [
-    [ "CreatureLastSearcher", "d0/d16/a08926.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
-    [ "Visit", "d0/d16/a08926.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
-    [ "Visit", "d0/d16/a08926.html#a08635cefbba5dca34734569816d2edb8", null ],
-    [ "i_check", "d0/d16/a08926.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
-    [ "i_object", "d0/d16/a08926.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
-    [ "i_phaseMask", "d0/d16/a08926.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
+    [ "UnitSearcher", "d0/d16/a08926.html#a4c50b4594650d9f3f83a40ac02f1a954", null ],
+    [ "Visit", "d0/d16/a08926.html#a5e419d2cb0de5ae58373e521d3a84ac6", null ],
+    [ "Visit", "d0/d16/a08926.html#a4bf8a315ab9464bbc5b0c8cae5c27fed", null ],
+    [ "Visit", "d0/d16/a08926.html#ac65516ed337b509ff5c316fb29727854", null ],
+    [ "i_check", "d0/d16/a08926.html#a3618df5a6ae33e76b802eae9cac1e1bd", null ],
+    [ "i_object", "d0/d16/a08926.html#a3029760131a6f50883246afe2533c062", null ],
+    [ "i_phaseMask", "d0/d16/a08926.html#ab94911f3f275de6a9ce9f15f1169c81c", null ]
 ];

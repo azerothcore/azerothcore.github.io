@@ -1,13 +1,10 @@
 var a07910 =
 [
-    [ "AnimationInfo", "de/d0e/a07910.html#aa443028e95ae416e09f1acfef0575803", null ],
-    [ "Building", "de/d0e/a07910.html#a8355ea456b3630437a1dc0188d98d011", null ],
-    [ "CapturePoint", "de/d0e/a07910.html#a6734cfc813c8a2e437a1aa0fb348c65c", null ],
-    [ "FishingHole", "de/d0e/a07910.html#a4457d2fed9e184e36a1200c1b6ce140c", null ],
-    [ "Health", "de/d0e/a07910.html#af70b72663064c9c4b88c93a824f1e14b", null ],
-    [ "MaxHealth", "de/d0e/a07910.html#ab606f11596c1dd3d1cf7588346338721", null ],
-    [ "MaxOpens", "de/d0e/a07910.html#a07ed76d692ae0af008e2373f3f9fd3e9", null ],
-    [ "OPvPObj", "de/d0e/a07910.html#a565624b690fa7fabf21b175548765652", null ],
-    [ "PathProgress", "de/d0e/a07910.html#a9e07a147b2be08a78f052e0cdb817111", null ],
-    [ "Transport", "de/d0e/a07910.html#aca469971c7cfb951b338079ab1281cf6", null ]
+    [ "Puppet", "de/d0e/a07910.html#ab0082936291e6b7f5370656c7c9ed948", null ],
+    [ "GetOwner", "de/d0e/a07910.html#a38760bce8e8ebf28ae0143ad2931afd5", null ],
+    [ "InitStats", "de/d0e/a07910.html#ac5dd23d7cf6d4b4a2ba073ae1128181b", null ],
+    [ "InitSummon", "de/d0e/a07910.html#abfc97f1d25cb1ac27b1bed6f61867fa3", null ],
+    [ "RemoveFromWorld", "de/d0e/a07910.html#a61dcfc821c2221d1747fcb2180e03bfd", null ],
+    [ "Update", "de/d0e/a07910.html#a5281497d7689e1dd10f89b5a9f83006f", null ],
+    [ "m_owner", "de/d0e/a07910.html#adae18eabdba52ef8a9f7c5c8768e060c", null ]
 ];

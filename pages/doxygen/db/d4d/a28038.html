@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AsyncAcceptor Class Reference</title>
+<title>AzerothCore: VehicleSeatEntry Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,76 +105,127 @@ $(document).ready(function(){initNavTree('db/d4d/a28038.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/d9a/a28035.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AsyncAcceptor Class Reference</div></div>
+  <div class="headertitle"><div class="title">VehicleSeatEntry Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">AsyncAcceptor.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">DBCStructure.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a2cea1478f3e8feec141064f3281d422e"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064f3281d422e">AcceptCallback</a>) (tcp::socket &amp;&amp;newSocket, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> threadIndex)</td></tr>
-<tr class="separator:a2cea1478f3e8feec141064f3281d422e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adcdbdbb26b47f71e74aeccbc0d96a6c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#adcdbdbb26b47f71e74aeccbc0d96a6c4">AsyncAcceptor</a> (<a class="el" href="../../d1/d03/a04778.html">Acore::Asio::IoContext</a> &amp;ioContext, std::string const &amp;bindIp, <a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> port)</td></tr>
-<tr class="separator:adcdbdbb26b47f71e74aeccbc0d96a6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d7a3371b14fa8eecbe30ff73e366398"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a0d7a3371b14fa8eecbe30ff73e366398"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a0d7a3371b14fa8eecbe30ff73e366398">AsyncAccept</a> ()</td></tr>
-<tr class="separator:a0d7a3371b14fa8eecbe30ff73e366398"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2443c046b245262497e407c9a5b7b3f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064f3281d422e">AcceptCallback</a> acceptCallback&gt; </td></tr>
-<tr class="memitem:ae2443c046b245262497e407c9a5b7b3f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ae2443c046b245262497e407c9a5b7b3f">AsyncAcceptWithCallback</a> ()</td></tr>
-<tr class="separator:ae2443c046b245262497e407c9a5b7b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91c22b6aba05bc493cfaf28a9203ce84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a91c22b6aba05bc493cfaf28a9203ce84">Bind</a> ()</td></tr>
-<tr class="separator:a91c22b6aba05bc493cfaf28a9203ce84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed31d03f8cdb38b1e359f3085e7ee29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a0ed31d03f8cdb38b1e359f3085e7ee29">Close</a> ()</td></tr>
-<tr class="separator:a0ed31d03f8cdb38b1e359f3085e7ee29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bf97d3996651f3057fc0d88db5e4a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a7bf97d3996651f3057fc0d88db5e4a69">SetSocketFactory</a> (std::function&lt; std::pair&lt; tcp::socket *, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;()&gt; func)</td></tr>
-<tr class="separator:a7bf97d3996651f3057fc0d88db5e4a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217a659f344349810a787a4f193b2e70"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a217a659f344349810a787a4f193b2e70">CanEnterOrExit</a> () const</td></tr>
+<tr class="separator:a217a659f344349810a787a4f193b2e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab310030ee3865d249f794e70a44ac16e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ab310030ee3865d249f794e70a44ac16e">CanSwitchFromSeat</a> () const</td></tr>
+<tr class="separator:ab310030ee3865d249f794e70a44ac16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d67a5683dbd00d7a44a7aa6d689d72e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a9d67a5683dbd00d7a44a7aa6d689d72e">IsUsableByOverride</a> () const</td></tr>
+<tr class="separator:a9d67a5683dbd00d7a44a7aa6d689d72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e43027903965f82f174c0b58d91c5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a19e43027903965f82f174c0b58d91c5c">IsEjectable</a> () const</td></tr>
+<tr class="separator:a19e43027903965f82f174c0b58d91c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea3dfeed01ab974ed97b8c59e4580e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aeea3dfeed01ab974ed97b8c59e4580e5">CanControl</a> () const</td></tr>
+<tr class="separator:aeea3dfeed01ab974ed97b8c59e4580e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a9820441474b6ced25625185cbbcda5bc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; tcp::socket *, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a9820441474b6ced25625185cbbcda5bc">DefaultSocketFactory</a> ()</td></tr>
-<tr class="separator:a9820441474b6ced25625185cbbcda5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:af3d5ae4979b29b4fc72e78fc9de34b8e"><td class="memItemLeft" align="right" valign="top">tcp::acceptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a></td></tr>
-<tr class="separator:af3d5ae4979b29b4fc72e78fc9de34b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a13b36a9e324bc0b4f4112dbdabebf"><td class="memItemLeft" align="right" valign="top">tcp::endpoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a></td></tr>
-<tr class="separator:a06a13b36a9e324bc0b4f4112dbdabebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef188268de7b2f7447a97aa73ac19ff3"><td class="memItemLeft" align="right" valign="top">tcp::socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">_socket</a></td></tr>
-<tr class="separator:aef188268de7b2f7447a97aa73ac19ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27230b467efdb08dbb9b0c0198db0936"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">_closed</a></td></tr>
-<tr class="separator:a27230b467efdb08dbb9b0c0198db0936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::pair&lt; tcp::socket *, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">_socketFactory</a></td></tr>
-<tr class="separator:a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5482d047a2d876b52ec2605c2a9acb93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a5482d047a2d876b52ec2605c2a9acb93">m_ID</a></td></tr>
+<tr class="separator:a5482d047a2d876b52ec2605c2a9acb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe02aa891cad80dff89156d138bad691"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a></td></tr>
+<tr class="separator:afe02aa891cad80dff89156d138bad691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2d2e496d9fb7adeef8b60cb12d88c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a5b2d2e496d9fb7adeef8b60cb12d88c6">m_attachmentID</a></td></tr>
+<tr class="separator:a5b2d2e496d9fb7adeef8b60cb12d88c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d6a9668d3405ba7a226d8ed0281fe9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a36d6a9668d3405ba7a226d8ed0281fe9">m_attachmentOffsetX</a></td></tr>
+<tr class="separator:a36d6a9668d3405ba7a226d8ed0281fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89803d79045aac9e38d46b2c1793665b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a89803d79045aac9e38d46b2c1793665b">m_attachmentOffsetY</a></td></tr>
+<tr class="separator:a89803d79045aac9e38d46b2c1793665b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafa935d13af1effc9af02dc5bd3a774"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#adafa935d13af1effc9af02dc5bd3a774">m_attachmentOffsetZ</a></td></tr>
+<tr class="separator:adafa935d13af1effc9af02dc5bd3a774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c19e606220684af3c1fdfb5a32b259"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ab1c19e606220684af3c1fdfb5a32b259">m_enterPreDelay</a></td></tr>
+<tr class="separator:ab1c19e606220684af3c1fdfb5a32b259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e5b56f879f08f3ea26aac533187e17"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a80e5b56f879f08f3ea26aac533187e17">m_enterSpeed</a></td></tr>
+<tr class="separator:a80e5b56f879f08f3ea26aac533187e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6950750404dd8e3e1c8509c4306f629f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a6950750404dd8e3e1c8509c4306f629f">m_enterGravity</a></td></tr>
+<tr class="separator:a6950750404dd8e3e1c8509c4306f629f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4627aea6ca59b58cbcd79444e7c88f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aec4627aea6ca59b58cbcd79444e7c88f">m_enterMinDuration</a></td></tr>
+<tr class="separator:aec4627aea6ca59b58cbcd79444e7c88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52bd4c7087242b75633dbe29cfc7ffcc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a52bd4c7087242b75633dbe29cfc7ffcc">m_enterMaxDuration</a></td></tr>
+<tr class="separator:a52bd4c7087242b75633dbe29cfc7ffcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2deed68525c0282a9005590267f525"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#abb2deed68525c0282a9005590267f525">m_enterMinArcHeight</a></td></tr>
+<tr class="separator:abb2deed68525c0282a9005590267f525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65aacb470e963d4f0d0a76eeeaca8bf1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a65aacb470e963d4f0d0a76eeeaca8bf1">m_enterMaxArcHeight</a></td></tr>
+<tr class="separator:a65aacb470e963d4f0d0a76eeeaca8bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157567860afcc37a51298a3121b5e528"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a157567860afcc37a51298a3121b5e528">m_enterAnimStart</a></td></tr>
+<tr class="separator:a157567860afcc37a51298a3121b5e528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56489492c86a65583243fe04e6d94ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#af56489492c86a65583243fe04e6d94ed">m_enterAnimLoop</a></td></tr>
+<tr class="separator:af56489492c86a65583243fe04e6d94ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5a5f2ffc050161d133ac85100a43ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a4a5a5f2ffc050161d133ac85100a43ba">m_rideAnimStart</a></td></tr>
+<tr class="separator:a4a5a5f2ffc050161d133ac85100a43ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cefa2dceb7f45178440cb853aaaee87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a1cefa2dceb7f45178440cb853aaaee87">m_rideAnimLoop</a></td></tr>
+<tr class="separator:a1cefa2dceb7f45178440cb853aaaee87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1143277d0d791e495a4cc6afc76e2035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a1143277d0d791e495a4cc6afc76e2035">m_rideUpperAnimStart</a></td></tr>
+<tr class="separator:a1143277d0d791e495a4cc6afc76e2035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a8d966acacc1acbb434cb56eb02ec4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a05a8d966acacc1acbb434cb56eb02ec4">m_rideUpperAnimLoop</a></td></tr>
+<tr class="separator:a05a8d966acacc1acbb434cb56eb02ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b0a31cb8db9d4d8724566494848c5b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aa9b0a31cb8db9d4d8724566494848c5b">m_exitPreDelay</a></td></tr>
+<tr class="separator:aa9b0a31cb8db9d4d8724566494848c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8981b00f9236c6ad02e37925074d17ed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a8981b00f9236c6ad02e37925074d17ed">m_exitSpeed</a></td></tr>
+<tr class="separator:a8981b00f9236c6ad02e37925074d17ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4bf83199fd45d89a6a809e538b9a4d0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ac4bf83199fd45d89a6a809e538b9a4d0">m_exitGravity</a></td></tr>
+<tr class="separator:ac4bf83199fd45d89a6a809e538b9a4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd0faff7b0c59b0587ed51edfdce5b9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a9cd0faff7b0c59b0587ed51edfdce5b9">m_exitMinDuration</a></td></tr>
+<tr class="separator:a9cd0faff7b0c59b0587ed51edfdce5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeadc1d6f708366345a49e2c87112378"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#abeadc1d6f708366345a49e2c87112378">m_exitMaxDuration</a></td></tr>
+<tr class="separator:abeadc1d6f708366345a49e2c87112378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcbe5830a35c16be5f252cf5e482158b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#afcbe5830a35c16be5f252cf5e482158b">m_exitMinArcHeight</a></td></tr>
+<tr class="separator:afcbe5830a35c16be5f252cf5e482158b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dcfbca2b02e387a29f72ae0ba056958"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a6dcfbca2b02e387a29f72ae0ba056958">m_exitMaxArcHeight</a></td></tr>
+<tr class="separator:a6dcfbca2b02e387a29f72ae0ba056958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f25d22c91f705b68199207aa1c6dda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a46f25d22c91f705b68199207aa1c6dda">m_exitAnimStart</a></td></tr>
+<tr class="separator:a46f25d22c91f705b68199207aa1c6dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6064eca06120e79cc989cbc64e951a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a6064eca06120e79cc989cbc64e951a61">m_exitAnimLoop</a></td></tr>
+<tr class="separator:a6064eca06120e79cc989cbc64e951a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10adaf71e98e32c67a6e630a59ef6b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ad10adaf71e98e32c67a6e630a59ef6b2">m_exitAnimEnd</a></td></tr>
+<tr class="separator:ad10adaf71e98e32c67a6e630a59ef6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79980ce35daa49b71cbbf0d5672fd8ea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a79980ce35daa49b71cbbf0d5672fd8ea">m_passengerYaw</a></td></tr>
+<tr class="separator:a79980ce35daa49b71cbbf0d5672fd8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ba65f9fde082f0d7f4c593a1a2e492"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aa5ba65f9fde082f0d7f4c593a1a2e492">m_passengerPitch</a></td></tr>
+<tr class="separator:aa5ba65f9fde082f0d7f4c593a1a2e492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed844bab608c7ee0842499e1fcc66c49"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aed844bab608c7ee0842499e1fcc66c49">m_passengerRoll</a></td></tr>
+<tr class="separator:aed844bab608c7ee0842499e1fcc66c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab022947134cbe315e84381a32cc2b504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ab022947134cbe315e84381a32cc2b504">m_passengerAttachmentID</a></td></tr>
+<tr class="separator:ab022947134cbe315e84381a32cc2b504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6696a39b52f2f0101b3c7e95b745e4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ae6696a39b52f2f0101b3c7e95b745e4f">m_vehicleEnterAnim</a></td></tr>
+<tr class="separator:ae6696a39b52f2f0101b3c7e95b745e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae99edf3434b5c5fb5d1b1377e336941d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ae99edf3434b5c5fb5d1b1377e336941d">m_vehicleExitAnim</a></td></tr>
+<tr class="separator:ae99edf3434b5c5fb5d1b1377e336941d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414619dde82def54c57384cd50d3e9be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a414619dde82def54c57384cd50d3e9be">m_vehicleRideAnimLoop</a></td></tr>
+<tr class="separator:a414619dde82def54c57384cd50d3e9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6707f40c44fb1c3045846763a5b82927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a6707f40c44fb1c3045846763a5b82927">m_vehicleEnterAnimBone</a></td></tr>
+<tr class="separator:a6707f40c44fb1c3045846763a5b82927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d50a267f1441914dd438e32fdec6ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a4d50a267f1441914dd438e32fdec6ae2">m_vehicleExitAnimBone</a></td></tr>
+<tr class="separator:a4d50a267f1441914dd438e32fdec6ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab918a96014a7e62d470bc59ab2cea389"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#ab918a96014a7e62d470bc59ab2cea389">m_vehicleRideAnimLoopBone</a></td></tr>
+<tr class="separator:ab918a96014a7e62d470bc59ab2cea389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacefbac726d145ee15bacef96056c93b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#aacefbac726d145ee15bacef96056c93b">m_vehicleEnterAnimDelay</a></td></tr>
+<tr class="separator:aacefbac726d145ee15bacef96056c93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959865721de3e870fa3431ee4b56eb08"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a959865721de3e870fa3431ee4b56eb08">m_vehicleExitAnimDelay</a></td></tr>
+<tr class="separator:a959865721de3e870fa3431ee4b56eb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011e69cd69423a991ca2d125daeae2b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a011e69cd69423a991ca2d125daeae2b1">m_vehicleAbilityDisplay</a></td></tr>
+<tr class="separator:a011e69cd69423a991ca2d125daeae2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977f2895d609d52aa2b649b1cc029579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a977f2895d609d52aa2b649b1cc029579">m_enterUISoundID</a></td></tr>
+<tr class="separator:a977f2895d609d52aa2b649b1cc029579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48739b991c7e30add552bbadcd217e1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a48739b991c7e30add552bbadcd217e1a">m_exitUISoundID</a></td></tr>
+<tr class="separator:a48739b991c7e30add552bbadcd217e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1423e7e62199c346974e3e15a751f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#abb1423e7e62199c346974e3e15a751f1">m_uiSkin</a></td></tr>
+<tr class="separator:abb1423e7e62199c346974e3e15a751f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e7ce53071885ef509c339d47664d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4d/a28038.html#a29e7ce53071885ef509c339d47664d0d">m_flagsB</a></td></tr>
+<tr class="separator:a29e7ce53071885ef509c339d47664d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a2cea1478f3e8feec141064f3281d422e" name="a2cea1478f3e8feec141064f3281d422e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cea1478f3e8feec141064f3281d422e">&#9670;&#160;</a></span>AcceptCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* AsyncAcceptor::AcceptCallback) (tcp::socket &amp;&amp;newSocket, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> threadIndex)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adcdbdbb26b47f71e74aeccbc0d96a6c4" name="adcdbdbb26b47f71e74aeccbc0d96a6c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcdbdbb26b47f71e74aeccbc0d96a6c4">&#9670;&#160;</a></span>AsyncAcceptor()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aeea3dfeed01ab974ed97b8c59e4580e5" name="aeea3dfeed01ab974ed97b8c59e4580e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea3dfeed01ab974ed97b8c59e4580e5">&#9670;&#160;</a></span>CanControl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,108 +234,10 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AsyncAcceptor::AsyncAcceptor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d03/a04778.html">Acore::Asio::IoContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioContext</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>bindIp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>port</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>                                                                                       :</div>
-<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>(ioContext), <a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>(Acore::Net::make_address(bindIp), port),</div>
-<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">_socket</a>(ioContext), <a class="code hl_variable" href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">_closed</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../db/d4d/a28038.html#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">_socketFactory</a>([<span class="keyword">this</span>](){ <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/d4d/a28038.html#a9820441474b6ced25625185cbbcda5bc">DefaultSocketFactory</a>(); })</div>
-<div class="line"><span class="lineno">   39</span>    {</div>
-<div class="line"><span class="lineno">   40</span>    }</div>
-<div class="ttc" id="aa28038_html_a06a13b36a9e324bc0b4f4112dbdabebf"><div class="ttname"><a href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">AsyncAcceptor::_endpoint</a></div><div class="ttdeci">tcp::endpoint _endpoint</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:123</div></div>
-<div class="ttc" id="aa28038_html_a27230b467efdb08dbb9b0c0198db0936"><div class="ttname"><a href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">AsyncAcceptor::_closed</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _closed</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:125</div></div>
-<div class="ttc" id="aa28038_html_a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7"><div class="ttname"><a href="../../db/d4d/a28038.html#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">AsyncAcceptor::_socketFactory</a></div><div class="ttdeci">std::function&lt; std::pair&lt; tcp::socket *, uint32 &gt;()&gt; _socketFactory</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:126</div></div>
-<div class="ttc" id="aa28038_html_a9820441474b6ced25625185cbbcda5bc"><div class="ttname"><a href="../../db/d4d/a28038.html#a9820441474b6ced25625185cbbcda5bc">AsyncAcceptor::DefaultSocketFactory</a></div><div class="ttdeci">std::pair&lt; tcp::socket *, uint32 &gt; DefaultSocketFactory()</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:120</div></div>
-<div class="ttc" id="aa28038_html_aef188268de7b2f7447a97aa73ac19ff3"><div class="ttname"><a href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">AsyncAcceptor::_socket</a></div><div class="ttdeci">tcp::socket _socket</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:124</div></div>
-<div class="ttc" id="aa28038_html_af3d5ae4979b29b4fc72e78fc9de34b8e"><div class="ttname"><a href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">AsyncAcceptor::_acceptor</a></div><div class="ttdeci">tcp::acceptor _acceptor</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:122</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00120">DefaultSocketFactory()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0d7a3371b14fa8eecbe30ff73e366398" name="a0d7a3371b14fa8eecbe30ff73e366398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d7a3371b14fa8eecbe30ff73e366398">&#9670;&#160;</a></span>AsyncAccept()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void AsyncAcceptor::AsyncAccept</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  131</span>{</div>
-<div class="line"><span class="lineno">  132</span>    <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.async_accept(<a class="code hl_variable" href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">_socket</a>, [<span class="keyword">this</span>](boost::system::error_code error)</div>
-<div class="line"><span class="lineno">  133</span>    {</div>
-<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">if</span> (!error)</div>
-<div class="line"><span class="lineno">  135</span>        {</div>
-<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">  137</span>            {</div>
-<div class="line"><span class="lineno">  138</span>                <span class="comment">// this-&gt; is required here to fix an segmentation fault in gcc 4.7.2 - reason is lambdas in a templated class</span></div>
-<div class="line"><span class="lineno">  139</span>                std::make_shared&lt;T&gt;(std::move(this-&gt;<a class="code hl_variable" href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">_socket</a>))-&gt;Start();</div>
-<div class="line"><span class="lineno">  140</span>            }</div>
-<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">catch</span> (boost::system::system_error <span class="keyword">const</span>&amp; err)</div>
-<div class="line"><span class="lineno">  142</span>            {</div>
-<div class="line"><span class="lineno">  143</span>                <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Failed to retrieve client&#39;s remote address {}&quot;</span>, err.what());</div>
-<div class="line"><span class="lineno">  144</span>            }</div>
-<div class="line"><span class="lineno">  145</span>        }</div>
-<div class="line"><span class="lineno">  146</span> </div>
-<div class="line"><span class="lineno">  147</span>        <span class="comment">// lets slap some more this-&gt; on this so we can fix this bug with gcc 4.7.2 throwing internals in yo face</span></div>
-<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">_closed</a>)</div>
-<div class="line"><span class="lineno">  149</span>            this-&gt;AsyncAccept&lt;T&gt;();</div>
-<div class="line"><span class="lineno">  150</span>    });</div>
-<div class="line"><span class="lineno">  151</span>}</div>
-<div class="ttc" id="aa00125_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">_acceptor</a>, <a class="el" href="../../#l00125">_closed</a>, <a class="el" href="../../#l00124">_socket</a>, and <a class="el" href="../../#l00165">LOG_INFO</a>.</p>
-
-</div>
-</div>
-<a id="ae2443c046b245262497e407c9a5b7b3f" name="ae2443c046b245262497e407c9a5b7b3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2443c046b245262497e407c9a5b7b3f">&#9670;&#160;</a></span>AsyncAcceptWithCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064f3281d422e">AcceptCallback</a> acceptCallback&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AsyncAcceptor::AsyncAcceptWithCallback </td>
+          <td class="memname">bool VehicleSeatEntry::CanControl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -293,38 +246,18 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
-<div class="line"><span class="lineno">   48</span>        tcp::socket* socket;</div>
-<div class="line"><span class="lineno">   49</span>        <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> threadIndex;</div>
-<div class="line"><span class="lineno">   50</span>        std::tie(socket, threadIndex) = <a class="code hl_variable" href="../../db/d4d/a28038.html#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">_socketFactory</a>();</div>
-<div class="line"><span class="lineno">   51</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.async_accept(*socket, [<span class="keyword">this</span>, socket, threadIndex](boost::system::error_code error)</div>
-<div class="line"><span class="lineno">   52</span>        {</div>
-<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">if</span> (!error)</div>
-<div class="line"><span class="lineno">   54</span>            {</div>
-<div class="line"><span class="lineno">   55</span>                <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">   56</span>                {</div>
-<div class="line"><span class="lineno">   57</span>                    socket-&gt;non_blocking(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   58</span> </div>
-<div class="line"><span class="lineno">   59</span>                    acceptCallback(std::move(*socket), threadIndex);</div>
-<div class="line"><span class="lineno">   60</span>                }</div>
-<div class="line"><span class="lineno">   61</span>                <span class="keywordflow">catch</span> (boost::system::system_error <span class="keyword">const</span>&amp; err)</div>
-<div class="line"><span class="lineno">   62</span>                {</div>
-<div class="line"><span class="lineno">   63</span>                    <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Failed to initialize client&#39;s socket {}&quot;</span>, err.what());</div>
-<div class="line"><span class="lineno">   64</span>                }</div>
-<div class="line"><span class="lineno">   65</span>            }</div>
-<div class="line"><span class="lineno">   66</span> </div>
-<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">_closed</a>)</div>
-<div class="line"><span class="lineno">   68</span>                this-&gt;AsyncAcceptWithCallback&lt;acceptCallback&gt;();</div>
-<div class="line"><span class="lineno">   69</span>        });</div>
-<div class="line"><span class="lineno">   70</span>    }</div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 2126</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a> &amp; <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98">VEHICLE_SEAT_FLAG_CAN_CONTROL</a>) != 0; }</div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98">VEHICLE_SEAT_FLAG_CAN_CONTROL</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_CAN_CONTROL</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:455</div></div>
+<div class="ttc" id="aa28038_html_afe02aa891cad80dff89156d138bad691"><div class="ttname"><a href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">VehicleSeatEntry::m_flags</a></div><div class="ttdeci">uint32 m_flags</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2065</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">_acceptor</a>, <a class="el" href="../../#l00125">_closed</a>, <a class="el" href="../../#l00126">_socketFactory</a>, and <a class="el" href="../../#l00165">LOG_INFO</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02065">m_flags</a>, and <a class="el" href="../../#l00455">VEHICLE_SEAT_FLAG_CAN_CONTROL</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02204">Player::ProcessTerrainStatusUpdate()</a>.</p>
 
 </div>
 </div>
-<a id="a91c22b6aba05bc493cfaf28a9203ce84" name="a91c22b6aba05bc493cfaf28a9203ce84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91c22b6aba05bc493cfaf28a9203ce84">&#9670;&#160;</a></span>Bind()</h2>
+<a id="a217a659f344349810a787a4f193b2e70" name="a217a659f344349810a787a4f193b2e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a217a659f344349810a787a4f193b2e70">&#9670;&#160;</a></span>CanEnterOrExit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,10 +266,10 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AsyncAcceptor::Bind </td>
+          <td class="memname">bool VehicleSeatEntry::CanEnterOrExit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -345,48 +278,21 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
-<div class="line"><span class="lineno">   74</span>        boost::system::error_code errorCode;</div>
-<div class="line"><span class="lineno">   75</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.open(<a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>.protocol(), errorCode);</div>
-<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">if</span> (errorCode)</div>
-<div class="line"><span class="lineno">   77</span>        {</div>
-<div class="line"><span class="lineno">   78</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Failed to open acceptor {}&quot;</span>, errorCode.message());</div>
-<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   80</span>        }</div>
-<div class="line"><span class="lineno">   81</span> </div>
-<div class="line"><span class="lineno">   82</span><span class="preprocessor">#if AC_PLATFORM != AC_PLATFORM_WINDOWS</span></div>
-<div class="line"><span class="lineno">   83</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.set_option(boost::asio::ip::tcp::acceptor::reuse_address(<span class="keyword">true</span>), errorCode);</div>
-<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">if</span> (errorCode)</div>
-<div class="line"><span class="lineno">   85</span>        {</div>
-<div class="line"><span class="lineno">   86</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Failed to set reuse_address option on acceptor {}&quot;</span>, errorCode.message());</div>
-<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   88</span>        }</div>
-<div class="line"><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">   90</span> </div>
-<div class="line"><span class="lineno">   91</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.bind(<a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>, errorCode);</div>
-<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">if</span> (errorCode)</div>
-<div class="line"><span class="lineno">   93</span>        {</div>
-<div class="line"><span class="lineno">   94</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Could not bind to {}:{} {}&quot;</span>, <a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>.address().to_string(), <a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>.port(), errorCode.message());</div>
-<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   96</span>        }</div>
-<div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.listen(<a class="code hl_variable" href="../../d0/d0c/a04484.html#af747a74d5d7546f9c862f3516a0c028f">ACORE_MAX_LISTEN_CONNECTIONS</a>, errorCode);</div>
-<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">if</span> (errorCode)</div>
-<div class="line"><span class="lineno">  100</span>        {</div>
-<div class="line"><span class="lineno">  101</span>            <a class="code hl_define" href="../../dc/dfe/a00125.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Failed to start listening on {}:{} {}&quot;</span>, <a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>.address().to_string(), <a class="code hl_variable" href="../../db/d4d/a28038.html#a06a13b36a9e324bc0b4f4112dbdabebf">_endpoint</a>.port(), errorCode.message());</div>
-<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  103</span>        }</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  106</span>    }</div>
-<div class="ttc" id="aa04484_html_af747a74d5d7546f9c862f3516a0c028f"><div class="ttname"><a href="../../d0/d0c/a04484.html#af747a74d5d7546f9c862f3516a0c028f">ACORE_MAX_LISTEN_CONNECTIONS</a></div><div class="ttdeci">constexpr auto ACORE_MAX_LISTEN_CONNECTIONS</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:29</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 2113</span>    {</div>
+<div class="line"><span class="lineno"> 2114</span>        <span class="keywordflow">return</span> ((<a class="code hl_variable" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a> &amp; <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a8002f5a38cb8dac66ac2383fc520e271">VEHICLE_SEAT_FLAG_CAN_ENTER_OR_EXIT</a>) != 0 ||</div>
+<div class="line"><span class="lineno"> 2115</span>                <span class="comment">//If it has anmation for enter/ride, means it can be entered/exited by logic</span></div>
+<div class="line"><span class="lineno"> 2116</span>                (<a class="code hl_variable" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a> &amp; (<a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a08be507fef4a42bc09daf205e60ae568">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_ENTER</a> | <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5af8d94d7531c9a9160dae371ef704c09c">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_RIDE</a>)) != 0);</div>
+<div class="line"><span class="lineno"> 2117</span>    }</div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5a08be507fef4a42bc09daf205e60ae568"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a08be507fef4a42bc09daf205e60ae568">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_ENTER</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_ENTER</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:444</div></div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5a8002f5a38cb8dac66ac2383fc520e271"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a8002f5a38cb8dac66ac2383fc520e271">VEHICLE_SEAT_FLAG_CAN_ENTER_OR_EXIT</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_CAN_ENTER_OR_EXIT</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:469</div></div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5af8d94d7531c9a9160dae371ef704c09c"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5af8d94d7531c9a9160dae371ef704c09c">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_RIDE</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_RIDE</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:445</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">_acceptor</a>, <a class="el" href="../../#l00123">_endpoint</a>, <a class="el" href="../../#l00029">ACORE_MAX_LISTEN_CONNECTIONS</a>, and <a class="el" href="../../#l00165">LOG_INFO</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02065">m_flags</a>, <a class="el" href="../../#l00469">VEHICLE_SEAT_FLAG_CAN_ENTER_OR_EXIT</a>, <a class="el" href="../../#l00444">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_ENTER</a>, and <a class="el" href="../../#l00445">VEHICLE_SEAT_FLAG_HAS_LOWER_ANIM_FOR_RIDE</a>.</p>
 
 </div>
 </div>
-<a id="a0ed31d03f8cdb38b1e359f3085e7ee29" name="a0ed31d03f8cdb38b1e359f3085e7ee29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ed31d03f8cdb38b1e359f3085e7ee29">&#9670;&#160;</a></span>Close()</h2>
+<a id="ab310030ee3865d249f794e70a44ac16e" name="ab310030ee3865d249f794e70a44ac16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab310030ee3865d249f794e70a44ac16e">&#9670;&#160;</a></span>CanSwitchFromSeat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,10 +301,10 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AsyncAcceptor::Close </td>
+          <td class="memname">bool VehicleSeatEntry::CanSwitchFromSeat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -407,20 +313,17 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
-<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d4d/a28038.html#a27230b467efdb08dbb9b0c0198db0936">_closed</a>.exchange(<span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  112</span> </div>
-<div class="line"><span class="lineno">  113</span>        boost::system::error_code err;</div>
-<div class="line"><span class="lineno">  114</span>        <a class="code hl_variable" href="../../db/d4d/a28038.html#af3d5ae4979b29b4fc72e78fc9de34b8e">_acceptor</a>.close(err);</div>
-<div class="line"><span class="lineno">  115</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 2118</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a> &amp; <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a4dbbc818a561098bdc478c3afe0b2c67">VEHICLE_SEAT_FLAG_CAN_SWITCH</a>; }</div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5a4dbbc818a561098bdc478c3afe0b2c67"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5a4dbbc818a561098bdc478c3afe0b2c67">VEHICLE_SEAT_FLAG_CAN_SWITCH</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_CAN_SWITCH</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:470</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">_acceptor</a>, and <a class="el" href="../../#l00125">_closed</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02065">m_flags</a>, and <a class="el" href="../../#l00470">VEHICLE_SEAT_FLAG_CAN_SWITCH</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00058">WorldSession::HandleChangeSeatsOnControlledVehicle()</a>.</p>
 
 </div>
 </div>
-<a id="a9820441474b6ced25625185cbbcda5bc" name="a9820441474b6ced25625185cbbcda5bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9820441474b6ced25625185cbbcda5bc">&#9670;&#160;</a></span>DefaultSocketFactory()</h2>
+<a id="a19e43027903965f82f174c0b58d91c5c" name="a19e43027903965f82f174c0b58d91c5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e43027903965f82f174c0b58d91c5c">&#9670;&#160;</a></span>IsEjectable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,41 +332,10 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; tcp::socket *, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; AsyncAcceptor::DefaultSocketFactory </td>
+          <td class="memname">bool VehicleSeatEntry::IsEjectable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  120</span>{ <span class="keywordflow">return</span> std::make_pair(&amp;<a class="code hl_variable" href="../../db/d4d/a28038.html#aef188268de7b2f7447a97aa73ac19ff3">_socket</a>, 0); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00124">_socket</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00036">AsyncAcceptor()</a>.</p>
-
-</div>
-</div>
-<a id="a7bf97d3996651f3057fc0d88db5e4a69" name="a7bf97d3996651f3057fc0d88db5e4a69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bf97d3996651f3057fc0d88db5e4a69">&#9670;&#160;</a></span>SetSocketFactory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AsyncAcceptor::SetSocketFactory </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; std::pair&lt; tcp::socket *, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;()&gt;&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -472,130 +344,708 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <a class="code hl_variable" href="../../db/d4d/a28038.html#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">_socketFactory</a> = func; }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 2125</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d4d/a28038.html#a29e7ce53071885ef509c339d47664d0d">m_flagsB</a> &amp; <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fac678f562f9f0320790e20201fe011be3">VEHICLE_SEAT_FLAG_B_EJECTABLE</a>; }</div>
+<div class="ttc" id="aa02756_html_a4a886f0b3475fae280db2bd0f12c3a8fac678f562f9f0320790e20201fe011be3"><div class="ttname"><a href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fac678f562f9f0320790e20201fe011be3">VEHICLE_SEAT_FLAG_B_EJECTABLE</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_B_EJECTABLE</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:483</div></div>
+<div class="ttc" id="aa28038_html_a29e7ce53071885ef509c339d47664d0d"><div class="ttname"><a href="../../db/d4d/a28038.html#a29e7ce53071885ef509c339d47664d0d">VehicleSeatEntry::m_flagsB</a></div><div class="ttdeci">uint32 m_flagsB</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2109</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00126">_socketFactory</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02109">m_flagsB</a>, and <a class="el" href="../../#l00483">VEHICLE_SEAT_FLAG_B_EJECTABLE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00162">WorldSession::HandleEjectPassenger()</a>.</p>
+
+</div>
+</div>
+<a id="a9d67a5683dbd00d7a44a7aa6d689d72e" name="a9d67a5683dbd00d7a44a7aa6d689d72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d67a5683dbd00d7a44a7aa6d689d72e">&#9670;&#160;</a></span>IsUsableByOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VehicleSeatEntry::IsUsableByOverride </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 2120</span>    {</div>
+<div class="line"><span class="lineno"> 2121</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../db/d4d/a28038.html#afe02aa891cad80dff89156d138bad691">m_flags</a> &amp; (<a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5aa0bf8fe767df1111281a0bf0902697ed">VEHICLE_SEAT_FLAG_UNCONTROLLED</a> | <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5ad8b2e860c4395ff7f9ba1db5fac3b154">VEHICLE_SEAT_FLAG_UNK18</a>)</div>
+<div class="line"><span class="lineno"> 2122</span>                || (<a class="code hl_variable" href="../../db/d4d/a28038.html#a29e7ce53071885ef509c339d47664d0d">m_flagsB</a> &amp; (<a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fad003722b3d8d4366d9cf4d51bbdd47ae">VEHICLE_SEAT_FLAG_B_USABLE_FORCED</a> | <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fafa87028e108921f72503c17439a6339c">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_2</a> |</div>
+<div class="line"><span class="lineno"> 2123</span>                                <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8faeee08c9a90200313dd609670c486860e">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_3</a> | <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fafc547a894a49d59a1de21659421a130b">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_4</a>)));</div>
+<div class="line"><span class="lineno"> 2124</span>    }</div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5aa0bf8fe767df1111281a0bf0902697ed"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5aa0bf8fe767df1111281a0bf0902697ed">VEHICLE_SEAT_FLAG_UNCONTROLLED</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_UNCONTROLLED</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:457</div></div>
+<div class="ttc" id="aa02756_html_a1722a65e910763eaffb541de9d7001f5ad8b2e860c4395ff7f9ba1db5fac3b154"><div class="ttname"><a href="../../dc/d80/a02756.html#a1722a65e910763eaffb541de9d7001f5ad8b2e860c4395ff7f9ba1db5fac3b154">VEHICLE_SEAT_FLAG_UNK18</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_UNK18</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:461</div></div>
+<div class="ttc" id="aa02756_html_a4a886f0b3475fae280db2bd0f12c3a8fad003722b3d8d4366d9cf4d51bbdd47ae"><div class="ttname"><a href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fad003722b3d8d4366d9cf4d51bbdd47ae">VEHICLE_SEAT_FLAG_B_USABLE_FORCED</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_B_USABLE_FORCED</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:481</div></div>
+<div class="ttc" id="aa02756_html_a4a886f0b3475fae280db2bd0f12c3a8faeee08c9a90200313dd609670c486860e"><div class="ttname"><a href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8faeee08c9a90200313dd609670c486860e">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_3</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_B_USABLE_FORCED_3</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:485</div></div>
+<div class="ttc" id="aa02756_html_a4a886f0b3475fae280db2bd0f12c3a8fafa87028e108921f72503c17439a6339c"><div class="ttname"><a href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fafa87028e108921f72503c17439a6339c">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_2</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_B_USABLE_FORCED_2</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:484</div></div>
+<div class="ttc" id="aa02756_html_a4a886f0b3475fae280db2bd0f12c3a8fafc547a894a49d59a1de21659421a130b"><div class="ttname"><a href="../../dc/d80/a02756.html#a4a886f0b3475fae280db2bd0f12c3a8fafc547a894a49d59a1de21659421a130b">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_4</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_B_USABLE_FORCED_4</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:487</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l02065">m_flags</a>, <a class="el" href="../../#l02109">m_flagsB</a>, <a class="el" href="../../#l00481">VEHICLE_SEAT_FLAG_B_USABLE_FORCED</a>, <a class="el" href="../../#l00484">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_2</a>, <a class="el" href="../../#l00485">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_3</a>, <a class="el" href="../../#l00487">VEHICLE_SEAT_FLAG_B_USABLE_FORCED_4</a>, <a class="el" href="../../#l00457">VEHICLE_SEAT_FLAG_UNCONTROLLED</a>, and <a class="el" href="../../#l00461">VEHICLE_SEAT_FLAG_UNK18</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af3d5ae4979b29b4fc72e78fc9de34b8e" name="af3d5ae4979b29b4fc72e78fc9de34b8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3d5ae4979b29b4fc72e78fc9de34b8e">&#9670;&#160;</a></span>_acceptor</h2>
+<a id="a5b2d2e496d9fb7adeef8b60cb12d88c6" name="a5b2d2e496d9fb7adeef8b60cb12d88c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2d2e496d9fb7adeef8b60cb12d88c6">&#9670;&#160;</a></span>m_attachmentID</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tcp::acceptor AsyncAcceptor::_acceptor</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_attachmentID</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00130">AsyncAccept()</a>, <a class="el" href="../../#l00046">AsyncAcceptWithCallback()</a>, <a class="el" href="../../#l00072">Bind()</a>, and <a class="el" href="../../#l00108">Close()</a>.</p>
-
 </div>
 </div>
-<a id="a27230b467efdb08dbb9b0c0198db0936" name="a27230b467efdb08dbb9b0c0198db0936"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27230b467efdb08dbb9b0c0198db0936">&#9670;&#160;</a></span>_closed</h2>
+<a id="a36d6a9668d3405ba7a226d8ed0281fe9" name="a36d6a9668d3405ba7a226d8ed0281fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d6a9668d3405ba7a226d8ed0281fe9">&#9670;&#160;</a></span>m_attachmentOffsetX</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;bool&gt; AsyncAcceptor::_closed</td>
+          <td class="memname">float VehicleSeatEntry::m_attachmentOffsetX</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00130">AsyncAccept()</a>, <a class="el" href="../../#l00046">AsyncAcceptWithCallback()</a>, and <a class="el" href="../../#l00108">Close()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00317">Vehicle::AddPassenger()</a>, and <a class="el" href="../../#l00039">SpellMgr::LoadSpellInfoCorrections()</a>.</p>
 
 </div>
 </div>
-<a id="a06a13b36a9e324bc0b4f4112dbdabebf" name="a06a13b36a9e324bc0b4f4112dbdabebf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06a13b36a9e324bc0b4f4112dbdabebf">&#9670;&#160;</a></span>_endpoint</h2>
+<a id="a89803d79045aac9e38d46b2c1793665b" name="a89803d79045aac9e38d46b2c1793665b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89803d79045aac9e38d46b2c1793665b">&#9670;&#160;</a></span>m_attachmentOffsetY</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tcp::endpoint AsyncAcceptor::_endpoint</td>
+          <td class="memname">float VehicleSeatEntry::m_attachmentOffsetY</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00072">Bind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00317">Vehicle::AddPassenger()</a>, and <a class="el" href="../../#l00039">SpellMgr::LoadSpellInfoCorrections()</a>.</p>
 
 </div>
 </div>
-<a id="aef188268de7b2f7447a97aa73ac19ff3" name="aef188268de7b2f7447a97aa73ac19ff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef188268de7b2f7447a97aa73ac19ff3">&#9670;&#160;</a></span>_socket</h2>
+<a id="adafa935d13af1effc9af02dc5bd3a774" name="adafa935d13af1effc9af02dc5bd3a774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafa935d13af1effc9af02dc5bd3a774">&#9670;&#160;</a></span>m_attachmentOffsetZ</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tcp::socket AsyncAcceptor::_socket</td>
+          <td class="memname">float VehicleSeatEntry::m_attachmentOffsetZ</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00130">AsyncAccept()</a>, and <a class="el" href="../../#l00120">DefaultSocketFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00317">Vehicle::AddPassenger()</a>, and <a class="el" href="../../#l00039">SpellMgr::LoadSpellInfoCorrections()</a>.</p>
 
 </div>
 </div>
-<a id="a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7" name="a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab2ccd6b8cbb7bff0a9d38e0e5d8ad7">&#9670;&#160;</a></span>_socketFactory</h2>
+<a id="af56489492c86a65583243fe04e6d94ed" name="af56489492c86a65583243fe04e6d94ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56489492c86a65583243fe04e6d94ed">&#9670;&#160;</a></span>m_enterAnimLoop</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;std::pair&lt;tcp::socket*, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;()&gt; AsyncAcceptor::_socketFactory</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_enterAnimLoop</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00046">AsyncAcceptWithCallback()</a>, and <a class="el" href="../../#l00117">SetSocketFactory()</a>.</p>
+</div>
+</div>
+<a id="a157567860afcc37a51298a3121b5e528" name="a157567860afcc37a51298a3121b5e528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157567860afcc37a51298a3121b5e528">&#9670;&#160;</a></span>m_enterAnimStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_enterAnimStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6950750404dd8e3e1c8509c4306f629f" name="a6950750404dd8e3e1c8509c4306f629f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6950750404dd8e3e1c8509c4306f629f">&#9670;&#160;</a></span>m_enterGravity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterGravity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65aacb470e963d4f0d0a76eeeaca8bf1" name="a65aacb470e963d4f0d0a76eeeaca8bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65aacb470e963d4f0d0a76eeeaca8bf1">&#9670;&#160;</a></span>m_enterMaxArcHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterMaxArcHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52bd4c7087242b75633dbe29cfc7ffcc" name="a52bd4c7087242b75633dbe29cfc7ffcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52bd4c7087242b75633dbe29cfc7ffcc">&#9670;&#160;</a></span>m_enterMaxDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterMaxDuration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb2deed68525c0282a9005590267f525" name="abb2deed68525c0282a9005590267f525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2deed68525c0282a9005590267f525">&#9670;&#160;</a></span>m_enterMinArcHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterMinArcHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec4627aea6ca59b58cbcd79444e7c88f" name="aec4627aea6ca59b58cbcd79444e7c88f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4627aea6ca59b58cbcd79444e7c88f">&#9670;&#160;</a></span>m_enterMinDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterMinDuration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1c19e606220684af3c1fdfb5a32b259" name="ab1c19e606220684af3c1fdfb5a32b259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c19e606220684af3c1fdfb5a32b259">&#9670;&#160;</a></span>m_enterPreDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterPreDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80e5b56f879f08f3ea26aac533187e17" name="a80e5b56f879f08f3ea26aac533187e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e5b56f879f08f3ea26aac533187e17">&#9670;&#160;</a></span>m_enterSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_enterSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a977f2895d609d52aa2b649b1cc029579" name="a977f2895d609d52aa2b649b1cc029579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a977f2895d609d52aa2b649b1cc029579">&#9670;&#160;</a></span>m_enterUISoundID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_enterUISoundID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad10adaf71e98e32c67a6e630a59ef6b2" name="ad10adaf71e98e32c67a6e630a59ef6b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10adaf71e98e32c67a6e630a59ef6b2">&#9670;&#160;</a></span>m_exitAnimEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_exitAnimEnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6064eca06120e79cc989cbc64e951a61" name="a6064eca06120e79cc989cbc64e951a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6064eca06120e79cc989cbc64e951a61">&#9670;&#160;</a></span>m_exitAnimLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_exitAnimLoop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46f25d22c91f705b68199207aa1c6dda" name="a46f25d22c91f705b68199207aa1c6dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f25d22c91f705b68199207aa1c6dda">&#9670;&#160;</a></span>m_exitAnimStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_exitAnimStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4bf83199fd45d89a6a809e538b9a4d0" name="ac4bf83199fd45d89a6a809e538b9a4d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4bf83199fd45d89a6a809e538b9a4d0">&#9670;&#160;</a></span>m_exitGravity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitGravity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6dcfbca2b02e387a29f72ae0ba056958" name="a6dcfbca2b02e387a29f72ae0ba056958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcfbca2b02e387a29f72ae0ba056958">&#9670;&#160;</a></span>m_exitMaxArcHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitMaxArcHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeadc1d6f708366345a49e2c87112378" name="abeadc1d6f708366345a49e2c87112378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeadc1d6f708366345a49e2c87112378">&#9670;&#160;</a></span>m_exitMaxDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitMaxDuration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcbe5830a35c16be5f252cf5e482158b" name="afcbe5830a35c16be5f252cf5e482158b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcbe5830a35c16be5f252cf5e482158b">&#9670;&#160;</a></span>m_exitMinArcHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitMinArcHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cd0faff7b0c59b0587ed51edfdce5b9" name="a9cd0faff7b0c59b0587ed51edfdce5b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd0faff7b0c59b0587ed51edfdce5b9">&#9670;&#160;</a></span>m_exitMinDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitMinDuration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9b0a31cb8db9d4d8724566494848c5b" name="aa9b0a31cb8db9d4d8724566494848c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b0a31cb8db9d4d8724566494848c5b">&#9670;&#160;</a></span>m_exitPreDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitPreDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8981b00f9236c6ad02e37925074d17ed" name="a8981b00f9236c6ad02e37925074d17ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8981b00f9236c6ad02e37925074d17ed">&#9670;&#160;</a></span>m_exitSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_exitSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48739b991c7e30add552bbadcd217e1a" name="a48739b991c7e30add552bbadcd217e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48739b991c7e30add552bbadcd217e1a">&#9670;&#160;</a></span>m_exitUISoundID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_exitUISoundID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe02aa891cad80dff89156d138bad691" name="afe02aa891cad80dff89156d138bad691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe02aa891cad80dff89156d138bad691">&#9670;&#160;</a></span>m_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02126">CanControl()</a>, <a class="el" href="../../#l02112">CanEnterOrExit()</a>, <a class="el" href="../../#l02118">CanSwitchFromSeat()</a>, <a class="el" href="../../#l05654">Spell::CheckCast()</a>, <a class="el" href="../../#l00028">WorldSession::HandleAttackSwingOpcode()</a>, <a class="el" href="../../#l00058">WorldSession::HandleChangeSeatsOnControlledVehicle()</a>, <a class="el" href="../../#l02119">IsUsableByOverride()</a>, and <a class="el" href="../../#l00039">SpellMgr::LoadSpellInfoCorrections()</a>.</p>
+
+</div>
+</div>
+<a id="a29e7ce53071885ef509c339d47664d0d" name="a29e7ce53071885ef509c339d47664d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e7ce53071885ef509c339d47664d0d">&#9670;&#160;</a></span>m_flagsB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_flagsB</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02125">IsEjectable()</a>, and <a class="el" href="../../#l02119">IsUsableByOverride()</a>.</p>
+
+</div>
+</div>
+<a id="a5482d047a2d876b52ec2605c2a9acb93" name="a5482d047a2d876b52ec2605c2a9acb93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5482d047a2d876b52ec2605c2a9acb93">&#9670;&#160;</a></span>m_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_ID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00317">Vehicle::AddPassenger()</a>.</p>
+
+</div>
+</div>
+<a id="ab022947134cbe315e84381a32cc2b504" name="ab022947134cbe315e84381a32cc2b504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab022947134cbe315e84381a32cc2b504">&#9670;&#160;</a></span>m_passengerAttachmentID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_passengerAttachmentID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5ba65f9fde082f0d7f4c593a1a2e492" name="aa5ba65f9fde082f0d7f4c593a1a2e492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ba65f9fde082f0d7f4c593a1a2e492">&#9670;&#160;</a></span>m_passengerPitch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_passengerPitch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed844bab608c7ee0842499e1fcc66c49" name="aed844bab608c7ee0842499e1fcc66c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed844bab608c7ee0842499e1fcc66c49">&#9670;&#160;</a></span>m_passengerRoll</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_passengerRoll</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79980ce35daa49b71cbbf0d5672fd8ea" name="a79980ce35daa49b71cbbf0d5672fd8ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79980ce35daa49b71cbbf0d5672fd8ea">&#9670;&#160;</a></span>m_passengerYaw</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_passengerYaw</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cefa2dceb7f45178440cb853aaaee87" name="a1cefa2dceb7f45178440cb853aaaee87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cefa2dceb7f45178440cb853aaaee87">&#9670;&#160;</a></span>m_rideAnimLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_rideAnimLoop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a5a5f2ffc050161d133ac85100a43ba" name="a4a5a5f2ffc050161d133ac85100a43ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a5a5f2ffc050161d133ac85100a43ba">&#9670;&#160;</a></span>m_rideAnimStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_rideAnimStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05a8d966acacc1acbb434cb56eb02ec4" name="a05a8d966acacc1acbb434cb56eb02ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a8d966acacc1acbb434cb56eb02ec4">&#9670;&#160;</a></span>m_rideUpperAnimLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_rideUpperAnimLoop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1143277d0d791e495a4cc6afc76e2035" name="a1143277d0d791e495a4cc6afc76e2035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1143277d0d791e495a4cc6afc76e2035">&#9670;&#160;</a></span>m_rideUpperAnimStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_rideUpperAnimStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb1423e7e62199c346974e3e15a751f1" name="abb1423e7e62199c346974e3e15a751f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1423e7e62199c346974e3e15a751f1">&#9670;&#160;</a></span>m_uiSkin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_uiSkin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a011e69cd69423a991ca2d125daeae2b1" name="a011e69cd69423a991ca2d125daeae2b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011e69cd69423a991ca2d125daeae2b1">&#9670;&#160;</a></span>m_vehicleAbilityDisplay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VehicleSeatEntry::m_vehicleAbilityDisplay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6696a39b52f2f0101b3c7e95b745e4f" name="ae6696a39b52f2f0101b3c7e95b745e4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6696a39b52f2f0101b3c7e95b745e4f">&#9670;&#160;</a></span>m_vehicleEnterAnim</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleEnterAnim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6707f40c44fb1c3045846763a5b82927" name="a6707f40c44fb1c3045846763a5b82927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6707f40c44fb1c3045846763a5b82927">&#9670;&#160;</a></span>m_vehicleEnterAnimBone</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleEnterAnimBone</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacefbac726d145ee15bacef96056c93b" name="aacefbac726d145ee15bacef96056c93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacefbac726d145ee15bacef96056c93b">&#9670;&#160;</a></span>m_vehicleEnterAnimDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_vehicleEnterAnimDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae99edf3434b5c5fb5d1b1377e336941d" name="ae99edf3434b5c5fb5d1b1377e336941d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99edf3434b5c5fb5d1b1377e336941d">&#9670;&#160;</a></span>m_vehicleExitAnim</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleExitAnim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d50a267f1441914dd438e32fdec6ae2" name="a4d50a267f1441914dd438e32fdec6ae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d50a267f1441914dd438e32fdec6ae2">&#9670;&#160;</a></span>m_vehicleExitAnimBone</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleExitAnimBone</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a959865721de3e870fa3431ee4b56eb08" name="a959865721de3e870fa3431ee4b56eb08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959865721de3e870fa3431ee4b56eb08">&#9670;&#160;</a></span>m_vehicleExitAnimDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleSeatEntry::m_vehicleExitAnimDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a414619dde82def54c57384cd50d3e9be" name="a414619dde82def54c57384cd50d3e9be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414619dde82def54c57384cd50d3e9be">&#9670;&#160;</a></span>m_vehicleRideAnimLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleRideAnimLoop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab918a96014a7e62d470bc59ab2cea389" name="ab918a96014a7e62d470bc59ab2cea389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab918a96014a7e62d470bc59ab2cea389">&#9670;&#160;</a></span>m_vehicleRideAnimLoopBone</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> VehicleSeatEntry::m_vehicleRideAnimLoopBone</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -604,8 +1054,8 @@ template&lt;<a class="el" href="../../db/d4d/a28038.html#a2cea1478f3e8feec141064
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/d4d/a28038.html">AsyncAcceptor</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/d4d/a28038.html">VehicleSeatEntry</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

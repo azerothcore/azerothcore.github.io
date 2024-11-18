@@ -1,7 +1,6 @@
 var a18530 =
 [
-    [ "HandleGameObjectDamage", "de/df1/a18530.html#a811edfe01c1784664b5b4253d2305b4e", null ],
-    [ "PrepareSpellScript", "de/df1/a18530.html#a0cfedeba2a747777de292b8f30b6752b", null ],
-    [ "Register", "de/df1/a18530.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
-    [ "Validate", "de/df1/a18530.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
+    [ "boss_isle_of_conquestAI", "df/d79/a18534.html", "df/d79/a18534" ],
+    [ "boss_isle_of_conquest", "de/df1/a18530.html#ad4052d1b6865585d32016e1240449659", null ],
+    [ "GetAI", "de/df1/a18530.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
 ];

@@ -1,5 +1,5 @@
 var a26646 =
 [
-    [ "achievement_everything_counts", "d9/d8a/a26646.html#af18e6b3128a9d722c98f33f7ec6430b3", null ],
-    [ "OnCheck", "d9/d8a/a26646.html#a81741a8df4d10b37314ec8ef09eb888b", null ]
+    [ "achievement_bg_sa_artillery", "d9/d8a/a26646.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
+    [ "OnCheck", "d9/d8a/a26646.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
 ];

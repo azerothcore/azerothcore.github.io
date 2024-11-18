@@ -1,9 +1,5 @@
 var a05946 =
 [
-    [ "AddonInfo", "de/d4a/a05946.html#a60ea66ed93b64c9e182226954a514f53", null ],
-    [ "CRC", "de/d4a/a05946.html#a7f0f2d817a2189b3acee5999f154ba60", null ],
-    [ "Enabled", "de/d4a/a05946.html#ace9f109c395ed84cc01ca4381222c25b", null ],
-    [ "Name", "de/d4a/a05946.html#a45692257c72286e670ab8c9c50014335", null ],
-    [ "State", "de/d4a/a05946.html#a5301b19e44d68540434574f023e62f46", null ],
-    [ "UsePublicKeyOrCRC", "de/d4a/a05946.html#a75e016fa7abee24757c89b97330a6192", null ]
+    [ "changed", "de/d4a/a05946.html#a98ad429a8aa7a190e94f943a2ec5edf2", null ],
+    [ "date", "de/d4a/a05946.html#a3c6c1cca7f125fc98323669e4e9c775d", null ]
 ];

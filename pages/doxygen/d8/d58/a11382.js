@@ -1,12 +1,10 @@
 var a11382 =
 [
-    [ "message_commandscript", "d8/d58/a11382.html#a2b0b67076e1cb4c51964d13ec4ab9829", null ],
-    [ "GetCommands", "d8/d58/a11382.html#a9fc83cb2d161a4158f98ec0b580bcc32", null ],
-    [ "HandleAnnounceCommand", "d8/d58/a11382.html#a85e2965e4a8fe01ba4a7775a28ef0005", null ],
-    [ "HandleGMAnnounceCommand", "d8/d58/a11382.html#ac927dceadf96feebf4301ea37b5aec1d", null ],
-    [ "HandleGMNameAnnounceCommand", "d8/d58/a11382.html#aa667bd6e81cf7c3dbabfa40d08c45475", null ],
-    [ "HandleGMNotifyCommand", "d8/d58/a11382.html#a0ff57aadce36fddb3c0d36adea8a3e28", null ],
-    [ "HandleNameAnnounceCommand", "d8/d58/a11382.html#a786902b70345712c6dba9f638695dd9e", null ],
-    [ "HandleNotifyCommand", "d8/d58/a11382.html#a0d53b2414931451b30abd2fe5acee1af", null ],
-    [ "HandleWhispersCommand", "d8/d58/a11382.html#a9a02c97677250136f9717968a9f47b73", null ]
+    [ "item_commandscript", "d8/d58/a11382.html#a22f9cb46f2c3701fc5c9136c87c09435", null ],
+    [ "GetCommands", "d8/d58/a11382.html#aab60aa980ef0f86938cfcb51e7ee20a8", null ],
+    [ "HandleItemMoveCommand", "d8/d58/a11382.html#a6adae7cb08c0e69ac0a20c107f818a57", null ],
+    [ "HandleItemRefundCommand", "d8/d58/a11382.html#af914e33be05148062abd89c754d939c9", null ],
+    [ "HandleItemRestoreCommand", "d8/d58/a11382.html#a84c67a46c513c1aac2b9d2563d693929", null ],
+    [ "HandleItemRestoreListCommand", "d8/d58/a11382.html#a40181310f4187a71a6f5f5f600a8f468", null ],
+    [ "HasItemDeletionConfig", "d8/d58/a11382.html#a28d0b4083bf3352f80b6210f9ac00692", null ]
 ];

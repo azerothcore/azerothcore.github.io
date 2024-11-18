@@ -1,6 +1,7 @@
 var a12842 =
 [
-    [ "boss_baroness_anastariAI", "d9/de7/a12846.html", "d9/de7/a12846" ],
-    [ "boss_baroness_anastari", "d2/de1/a12842.html#a60f04c10d9b942cacf74a1dc8364dbbe", null ],
-    [ "GetAI", "d2/de1/a12842.html#a38073f80afbceb5535cc18ab524378a6", null ]
+    [ "OnPeriodic", "d2/de1/a12842.html#ab193b7cf8a8fe91879317e7d21522976", null ],
+    [ "PrepareAuraScript", "d2/de1/a12842.html#a5dca6bc670612f0b0e8e99381c97bf11", null ],
+    [ "Register", "d2/de1/a12842.html#ac6e0621064e5e0a77e1cdbfa8dbb6a54", null ],
+    [ "Validate", "d2/de1/a12842.html#a290b864756ceff85d52ba3f974a28217", null ]
 ];

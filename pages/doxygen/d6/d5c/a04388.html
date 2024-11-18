@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/OutdoorPvP/OutdoorPvPMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/SpellScriptLoader.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,51 +106,167 @@ $(document).ready(function(){initNavTree('d6/d5c/a04388.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPMgr.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">SpellScriptLoader.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tuples.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Types.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc0/a09842.html">OutdoorPvPData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/a10106.html">SpellScriptLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8a/a09846.html">OutdoorPvPMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d77/a10110.html">GenericSpellAndAuraScriptLoader&lt; Ts &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d0e/a04744"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html">Acore::SpellScripts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:af3942e94a2b618e59d9a607df883023b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#af3942e94a2b618e59d9a607df883023b">OUTDOORPVP_OBJECTIVE_UPDATE_INTERVAL</a>&#160;&#160;&#160;1000</td></tr>
-<tr class="separator:af3942e94a2b618e59d9a607df883023b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f16e829e6dd717c8a6a20fd1aa783cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#a7f16e829e6dd717c8a6a20fd1aa783cc">sOutdoorPvPMgr</a>&#160;&#160;&#160;<a class="el" href="../../de/d8a/a09846.html#a0a92945f30266985e289742c29b13ed2">OutdoorPvPMgr::instance</a>()</td></tr>
-<tr class="separator:a7f16e829e6dd717c8a6a20fd1aa783cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedecf91f4fce46852db865deae243e1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script,  script_name, ...)&#160;&#160;&#160;new <a class="el" href="../../d9/d77/a10110.html">GenericSpellAndAuraScriptLoader</a>&lt;spell_script, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td></tr>
+<tr class="separator:aedecf91f4fce46852db865deae243e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae221e5976ab29ba14fec3b073a03670f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(spell_script)&#160;&#160;&#160;<a class="el" href="../../d6/d5c/a04388.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script, #spell_script)</td></tr>
+<tr class="separator:ae221e5976ab29ba14fec3b073a03670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffc3c8d08a35d5969c33508488e9051"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1,  script_2,  script_name, ...)&#160;&#160;&#160;new <a class="el" href="../../d9/d77/a10110.html">GenericSpellAndAuraScriptLoader</a>&lt;script_1, script_2, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td></tr>
+<tr class="separator:aeffc3c8d08a35d5969c33508488e9051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b21d1b83cecaba944f4e9379bc866c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5c/a04388.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a>(script_1,  script_2)&#160;&#160;&#160;<a class="el" href="../../d6/d5c/a04388.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1, script_2, #script_1)</td></tr>
+<tr class="separator:a69b21d1b83cecaba944f4e9379bc866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2b573b538dcbf3da43ae603709d93bf2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2b573b538dcbf3da43ae603709d93bf2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a2b573b538dcbf3da43ae603709d93bf2">Acore::SpellScripts::is_SpellScript</a> = std::is_base_of&lt; <a class="el" href="../../d9/d49/a10974.html">SpellScript</a>, T &gt;</td></tr>
+<tr class="separator:a2b573b538dcbf3da43ae603709d93bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08facc7292565931370e1cc514f726e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a08facc7292565931370e1cc514f726e1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a08facc7292565931370e1cc514f726e1">Acore::SpellScripts::is_AuraScript</a> = std::is_base_of&lt; <a class="el" href="../../df/d55/a11014.html">AuraScript</a>, T &gt;</td></tr>
+<tr class="separator:a08facc7292565931370e1cc514f726e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="af3942e94a2b618e59d9a607df883023b" name="af3942e94a2b618e59d9a607df883023b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3942e94a2b618e59d9a607df883023b">&#9670;&#160;</a></span>OUTDOORPVP_OBJECTIVE_UPDATE_INTERVAL</h2>
+<a id="a69b21d1b83cecaba944f4e9379bc866c" name="a69b21d1b83cecaba944f4e9379bc866c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b21d1b83cecaba944f4e9379bc866c">&#9670;&#160;</a></span>RegisterSpellAndAuraScriptPair</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OUTDOORPVP_OBJECTIVE_UPDATE_INTERVAL&#160;&#160;&#160;1000</td>
+          <td class="memname">#define RegisterSpellAndAuraScriptPair</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_1, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_2&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d5c/a04388.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1, script_2, #script_1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7f16e829e6dd717c8a6a20fd1aa783cc" name="a7f16e829e6dd717c8a6a20fd1aa783cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f16e829e6dd717c8a6a20fd1aa783cc">&#9670;&#160;</a></span>sOutdoorPvPMgr</h2>
+<a id="aeffc3c8d08a35d5969c33508488e9051" name="aeffc3c8d08a35d5969c33508488e9051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeffc3c8d08a35d5969c33508488e9051">&#9670;&#160;</a></span>RegisterSpellAndAuraScriptPairWithArgs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sOutdoorPvPMgr&#160;&#160;&#160;<a class="el" href="../../de/d8a/a09846.html#a0a92945f30266985e289742c29b13ed2">OutdoorPvPMgr::instance</a>()</td>
+          <td class="memname">#define RegisterSpellAndAuraScriptPairWithArgs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_1, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_2, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../d9/d77/a10110.html">GenericSpellAndAuraScriptLoader</a>&lt;script_1, script_2, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae221e5976ab29ba14fec3b073a03670f" name="ae221e5976ab29ba14fec3b073a03670f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae221e5976ab29ba14fec3b073a03670f">&#9670;&#160;</a></span>RegisterSpellScript</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellScript</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">spell_script</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d6/d5c/a04388.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script, #spell_script)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedecf91f4fce46852db865deae243e1f" name="aedecf91f4fce46852db865deae243e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedecf91f4fce46852db865deae243e1f">&#9670;&#160;</a></span>RegisterSpellScriptWithArgs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellScriptWithArgs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">spell_script, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../d9/d77/a10110.html">GenericSpellAndAuraScriptLoader</a>&lt;spell_script, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,8 +278,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_25d8f4185a27c7d78867bf9666699c3c.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d6/d5c/a04388.html">OutdoorPvPMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d6/d5c/a04388.html">SpellScriptLoader.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

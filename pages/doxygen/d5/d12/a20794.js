@@ -1,6 +1,6 @@
 var a20794 =
 [
-    [ "boss_skadiAI", "d8/dbe/a20798.html", "d8/dbe/a20798" ],
-    [ "boss_skadi", "d5/d12/a20794.html#a124c1c1de7ba232b3256a65547370464", null ],
-    [ "GetAI", "d5/d12/a20794.html#a4b66199169442af5ec6542be71c19033", null ]
+    [ "npc_frenzied_worgenAI", "d8/dbe/a20798.html", "d8/dbe/a20798" ],
+    [ "npc_frenzied_worgen", "d5/d12/a20794.html#ad46eb89ab86876950652f6dd6b7dc91a", null ],
+    [ "GetAI", "d5/d12/a20794.html#a1ed46e8e6bd001f8f35492f340ab1d56", null ]
 ];

@@ -1,10 +1,7 @@
 var a24858 =
 [
-    [ "spell_gen_summon_elemental", "d9/dd0/a24858.html#ae2dece3ac20afe16430e741fab909fa1", null ],
-    [ "AfterApply", "d9/dd0/a24858.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
-    [ "AfterRemove", "d9/dd0/a24858.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
-    [ "PrepareAuraScript", "d9/dd0/a24858.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
-    [ "Register", "d9/dd0/a24858.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
-    [ "Validate", "d9/dd0/a24858.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
-    [ "_spellId", "d9/dd0/a24858.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
+    [ "HandleProc", "d9/dd0/a24858.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
+    [ "PrepareAuraScript", "d9/dd0/a24858.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
+    [ "Register", "d9/dd0/a24858.html#af02b0af51a1fece0780414ab45c8d31e", null ],
+    [ "Validate", "d9/dd0/a24858.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
 ];

@@ -1,5 +1,5 @@
 var a26634 =
 [
-    [ "achievement_bg_sa_artillery", "d1/dd7/a26634.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
-    [ "OnCheck", "d1/dd7/a26634.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
+    [ "achievement_bg_ic_resource_glut", "d1/dd7/a26634.html#ace247962dccee2601ceade593b0874d4", null ],
+    [ "OnCheck", "d1/dd7/a26634.html#a9910cf8b16b8c956df382161cc5f2c84", null ]
 ];

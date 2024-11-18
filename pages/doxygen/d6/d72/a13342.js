@@ -1,30 +1,6 @@
 var a13342 =
 [
-    [ "npc_varian_wrynnAI", "d6/d72/a13342.html#a456af9e2d4eeef0d83f74121b86d2135", null ],
-    [ "EnterEvadeMode", "d6/d72/a13342.html#a446788b34a7c79f73b3629054e7dd1dc", null ],
-    [ "JumpToNextStep", "d6/d72/a13342.html#abbf343fb39222c312844b0ef41a32a56", null ],
-    [ "JustSummoned", "d6/d72/a13342.html#ad8ed5358985d98734fc2820f78309a94", null ],
-    [ "Reset", "d6/d72/a13342.html#a89e275d1a600fe3d84a306809069d0c2", null ],
-    [ "SetHoldState", "d6/d72/a13342.html#abb90ecc6cd83ccdee1164080fc8343ea", null ],
-    [ "SpawnWave", "d6/d72/a13342.html#ab02d388ee5ee549b4a23a12ddbca6799", null ],
-    [ "SummonedCreatureDies", "d6/d72/a13342.html#aab3c4436f79e3293b78f5ecb0abbf604", null ],
-    [ "UpdateAI", "d6/d72/a13342.html#abc90f62951ede3792dd2ea2d1794a040", null ],
-    [ "UpdateWorldState", "d6/d72/a13342.html#a0f0948edb85f45cbd12faec72c23b129", null ],
-    [ "WaypointReached", "d6/d72/a13342.html#ae8a2cbcffcfbf27d00fcfc6999b74b36", null ],
-    [ "_events", "d6/d72/a13342.html#a93929fbbd33d7e95c95d93df87da4e32", null ],
-    [ "allianceForcesGUID", "d6/d72/a13342.html#aaf9f3fc958530168ba4f3c86e1cf6fa4", null ],
-    [ "allianceGuardsGUID", "d6/d72/a13342.html#aafeadcb50b34de9cb109f0293889aaf4", null ],
-    [ "blightWormGUID", "d6/d72/a13342.html#a89790969afb35e87acbc59d9e387a709", null ],
-    [ "bStepping", "d6/d72/a13342.html#a45677cab3e5ca17f320c4a949d4ed7f7", null ],
-    [ "generatorGUID", "d6/d72/a13342.html#ab750f5d2e8a23dbc8bf557d6c543b3c6", null ],
-    [ "hordeForcesGUID", "d6/d72/a13342.html#ac0c3b7e99d7b62d0966d1c3c76cf5634", null ],
-    [ "jainaGUID", "d6/d72/a13342.html#a4bb7979acbcdbe3345289a5194dc6737", null ],
-    [ "khanokGUID", "d6/d72/a13342.html#ab9d18b82abb4bb5c651588632bdb110f", null ],
-    [ "phaseTimer", "d6/d72/a13342.html#afffeda9533746909712f2f4bb8606f1b", null ],
-    [ "putressGUID", "d6/d72/a13342.html#a52dacd776aabd94f579bf947db6d138b", null ],
-    [ "step", "d6/d72/a13342.html#ad0f9085317fba2b5f295218fd2cf3510", null ],
-    [ "summoned", "d6/d72/a13342.html#a5213c73afd642b7a310110399850b52d", null ],
-    [ "sylvanasGUID", "d6/d72/a13342.html#a94ea46630935a01ac146944e474a8c7d", null ],
-    [ "thrallGUID", "d6/d72/a13342.html#ac37fc42a15732f5f71b94e31a62c41b6", null ],
-    [ "whirlwindTimer", "d6/d72/a13342.html#a46b8bf23bd9c395358b66a9e62b719f6", null ]
+    [ "npc_highborne_lamenterAI", "d3/d4e/a13346.html", "d3/d4e/a13346" ],
+    [ "npc_highborne_lamenter", "d6/d72/a13342.html#a40316cf73a688e34e95dd41feef8612a", null ],
+    [ "GetAI", "d6/d72/a13342.html#aad8ccb43b325b797f60a16e338458a1e", null ]
 ];

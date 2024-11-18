@@ -1,9 +1,7 @@
 var a25726 =
 [
-    [ "Load", "d2/d44/a25726.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
-    [ "PrepareSpellScript", "d2/d44/a25726.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
-    [ "Register", "d2/d44/a25726.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
-    [ "TriggerHeal", "d2/d44/a25726.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
-    [ "Validate", "d2/d44/a25726.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
-    [ "healPct", "d2/d44/a25726.html#a33b4d26c34903e45b7274e369f096ce1", null ]
+    [ "HandleDummy", "d2/d44/a25726.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
+    [ "PrepareSpellScript", "d2/d44/a25726.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
+    [ "Register", "d2/d44/a25726.html#adadd0254d68281ac1063bcc57574ed77", null ],
+    [ "Validate", "d2/d44/a25726.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
 ];

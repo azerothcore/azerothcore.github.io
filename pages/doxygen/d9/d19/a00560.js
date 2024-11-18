@@ -1,8 +1,11 @@
 var a00560 =
 [
-    [ "LIQUID_TILE_SIZE", "d9/d19/a00560.html#a1596e8a465c0638086c77467a2dde3a6", null ],
-    [ "readChunk", "d9/d19/a00560.html#a166f3eeee53079ac9df4f15ccd577974", null ],
-    [ "GAMEOBJECT_MODELS", "d9/d19/a00560.html#ada4191301386f881525b3f0b0760cb60", null ],
-    [ "RAW_VMAP_MAGIC", "d9/d19/a00560.html#ab44884fb6c05cb4ae128d5882a2c4b7c", null ],
-    [ "VMAP_MAGIC", "d9/d19/a00560.html#aa7e5a571fdcb9d62ceefdcf5744746cb", null ]
+    [ "ADT::MDDF", "de/d08/a28330.html", "de/d08/a28330" ],
+    [ "ADT::MODF", "d1/dfc/a28334.html", "d1/dfc/a28334" ],
+    [ "ADTFile", "da/d0b/a28338.html", "da/d0b/a28338" ],
+    [ "fixname2", "d9/d19/a00560.html#ac0029be4572a61d00eb1435db5526a74", null ],
+    [ "fixnamen", "d9/d19/a00560.html#abdc56edc46e0804c456749761cff8daf", null ],
+    [ "GetExtension", "d9/d19/a00560.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
+    [ "GetPlainName", "d9/d19/a00560.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
+    [ "GetPlainName", "d9/d19/a00560.html#a05f8969fb6d17548033afc24b906a83f", null ]
 ];

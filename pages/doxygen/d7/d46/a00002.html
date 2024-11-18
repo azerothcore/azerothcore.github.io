@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/vmap4_assembler/VMapAssembler.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Debugging/WheatyExceptionReport.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,83 +105,373 @@ $(document).ready(function(){initNavTree('d7/d46/a00002.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">VMapAssembler.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">WheatyExceptionReport.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../">TileAssembler.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;dbghelp.h&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;stack&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;winnt.h&gt;</code><br />
+<code>#include &lt;winternl.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
-<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d87/a05118.html">SymbolPair</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/a05122.html">SymbolDetail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8b8500b4792f1666a4ae9b19ce264875"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a8b8500b4792f1666a4ae9b19ce264875">countof</a>&#160;&#160;&#160;_countof</td></tr>
+<tr class="separator:a8b8500b4792f1666a4ae9b19ce264875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca750f3bbda2b3eab451528de39aa3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a5ca750f3bbda2b3eab451528de39aa3c">WER_MAX_ARRAY_ELEMENTS_COUNT</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a5ca750f3bbda2b3eab451528de39aa3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5562a6136a28726d82fc486fd3b81ab1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a5562a6136a28726d82fc486fd3b81ab1">WER_MAX_NESTING_LEVEL</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a5562a6136a28726d82fc486fd3b81ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2a64833d9c531c4cf0873d15733a66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a2c2a64833d9c531c4cf0873d15733a66">WER_SMALL_BUFFER_SIZE</a>&#160;&#160;&#160;1024</td></tr>
+<tr class="separator:a2c2a64833d9c531c4cf0873d15733a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c952cc0fe3c670bb1d829b51e483755"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a2c952cc0fe3c670bb1d829b51e483755">WER_LARGE_BUFFER_SIZE</a>&#160;&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#a2c2a64833d9c531c4cf0873d15733a66">WER_SMALL_BUFFER_SIZE</a> * 16</td></tr>
+<tr class="separator:a2c952cc0fe3c670bb1d829b51e483755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5fe525a539348aba0a42a9832dfceef1"><td class="memItemLeft" align="right" valign="top">typedef std::set&lt; <a class="el" href="../../d5/d87/a05118.html">SymbolPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a5fe525a539348aba0a42a9832dfceef1">SymbolPairs</a></td></tr>
+<tr class="separator:a5fe525a539348aba0a42a9832dfceef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af0ea7a682b4d48afbc37a32234271526"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526">BasicType</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97">btNoType</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d">btVoid</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b">btChar</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804">btWChar</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6">btInt</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab">btUInt</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774">btFloat</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45">btBCD</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac">btBool</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d">btLong</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38">btULong</a> = 14
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161">btCurrency</a> = 25
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8">btDate</a> = 26
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397">btVariant</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68">btComplex</a> = 28
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001">btBit</a> = 29
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b">btBSTR</a> = 30
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe">btHresult</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad">btStdString</a> = 101
+<br />
+ }</td></tr>
+<tr class="separator:af0ea7a682b4d48afbc37a32234271526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace34b43f7a85070c2f233cbb13e362bf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bf">DataKind</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75">DataIsUnknown</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304">DataIsLocal</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c">DataIsStaticLocal</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141">DataIsParam</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664">DataIsObjectPtr</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8">DataIsFileStatic</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df">DataIsGlobal</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5">DataIsMember</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329">DataIsStaticMember</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd">DataIsConstant</a>
+<br />
+ }</td></tr>
+<tr class="separator:ace34b43f7a85070c2f233cbb13e362bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a1613d539e1a6f550edee20a905f7fcce"><td class="memItemLeft" align="right" valign="top">char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a1613d539e1a6f550edee20a905f7fcce">rgBaseType</a> []</td></tr>
+<tr class="separator:a1613d539e1a6f550edee20a905f7fcce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fff8ce906026fe3179e50e97182d90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.html#a9fff8ce906026fe3179e50e97182d90d">g_WheatyExceptionReport</a></td></tr>
+<tr class="separator:a9fff8ce906026fe3179e50e97182d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a8b8500b4792f1666a4ae9b19ce264875" name="a8b8500b4792f1666a4ae9b19ce264875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8500b4792f1666a4ae9b19ce264875">&#9670;&#160;</a></span>countof</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>argc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>argv</em>[]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define countof&#160;&#160;&#160;_countof</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>    std::string src = <span class="stringliteral">&quot;Buildings&quot;</span>;</div>
-<div class="line"><span class="lineno">   26</span>    std::string dest = <span class="stringliteral">&quot;vmaps&quot;</span>;</div>
-<div class="line"><span class="lineno">   27</span> </div>
-<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (argc &gt; 3)</div>
-<div class="line"><span class="lineno">   29</span>    {</div>
-<div class="line"><span class="lineno">   30</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;usage: &quot;</span> &lt;&lt; argv[0] &lt;&lt; <span class="stringliteral">&quot; &lt;raw data dir&gt; &lt;vmap dest dir&gt;&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><span class="lineno">   32</span>    }</div>
-<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   34</span>    {</div>
-<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">if</span> (argc &gt; 1)</div>
-<div class="line"><span class="lineno">   36</span>            src = argv[1];</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (argc &gt; 2)</div>
-<div class="line"><span class="lineno">   38</span>            dest = argv[2];</div>
-<div class="line"><span class="lineno">   39</span>    }</div>
+
+</div>
+</div>
+<a id="a2c952cc0fe3c670bb1d829b51e483755" name="a2c952cc0fe3c670bb1d829b51e483755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c952cc0fe3c670bb1d829b51e483755">&#9670;&#160;</a></span>WER_LARGE_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WER_LARGE_BUFFER_SIZE&#160;&#160;&#160;<a class="el" href="../../d7/d46/a00002.html#a2c2a64833d9c531c4cf0873d15733a66">WER_SMALL_BUFFER_SIZE</a> * 16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ca750f3bbda2b3eab451528de39aa3c" name="a5ca750f3bbda2b3eab451528de39aa3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca750f3bbda2b3eab451528de39aa3c">&#9670;&#160;</a></span>WER_MAX_ARRAY_ELEMENTS_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WER_MAX_ARRAY_ELEMENTS_COUNT&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5562a6136a28726d82fc486fd3b81ab1" name="a5562a6136a28726d82fc486fd3b81ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5562a6136a28726d82fc486fd3b81ab1">&#9670;&#160;</a></span>WER_MAX_NESTING_LEVEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WER_MAX_NESTING_LEVEL&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c2a64833d9c531c4cf0873d15733a66" name="a2c2a64833d9c531c4cf0873d15733a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c2a64833d9c531c4cf0873d15733a66">&#9670;&#160;</a></span>WER_SMALL_BUFFER_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WER_SMALL_BUFFER_SIZE&#160;&#160;&#160;1024</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a5fe525a539348aba0a42a9832dfceef1" name="a5fe525a539348aba0a42a9832dfceef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe525a539348aba0a42a9832dfceef1">&#9670;&#160;</a></span>SymbolPairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::set&lt;<a class="el" href="../../d5/d87/a05118.html">SymbolPair</a>&gt; <a class="el" href="../../d7/d46/a00002.html#a5fe525a539348aba0a42a9832dfceef1">SymbolPairs</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="af0ea7a682b4d48afbc37a32234271526" name="af0ea7a682b4d48afbc37a32234271526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ea7a682b4d48afbc37a32234271526">&#9670;&#160;</a></span>BasicType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526">BasicType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97" name="af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97"></a>btNoType&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d" name="af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d"></a>btVoid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b" name="af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b"></a>btChar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804" name="af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804"></a>btWChar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6" name="af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6"></a>btInt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab" name="af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab"></a>btUInt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774" name="af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774"></a>btFloat&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45" name="af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45"></a>btBCD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac" name="af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac"></a>btBool&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d" name="af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d"></a>btLong&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38" name="af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38"></a>btULong&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161" name="af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161"></a>btCurrency&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8" name="af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8"></a>btDate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397" name="af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397"></a>btVariant&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68" name="af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68"></a>btComplex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001" name="af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001"></a>btBit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b" name="af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b"></a>btBSTR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe" name="af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe"></a>btHresult&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad" name="af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad"></a>btStdString&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   21</span>{</div>
+<div class="line"><span class="lineno">   22</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97">btNoType</a> = 0,</div>
+<div class="line"><span class="lineno">   23</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d">btVoid</a> = 1,</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b">btChar</a> = 2,</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804">btWChar</a> = 3,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6">btInt</a> = 6,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab">btUInt</a> = 7,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774">btFloat</a> = 8,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45">btBCD</a> = 9,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac">btBool</a> = 10,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d">btLong</a> = 13,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38">btULong</a> = 14,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161">btCurrency</a> = 25,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8">btDate</a> = 26,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397">btVariant</a> = 27,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68">btComplex</a> = 28,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001">btBit</a> = 29,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b">btBSTR</a> = 30,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe">btHresult</a> = 31,</div>
 <div class="line"><span class="lineno">   40</span> </div>
-<div class="line"><span class="lineno">   41</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;using &quot;</span> &lt;&lt; src &lt;&lt; <span class="stringliteral">&quot; as source directory and writing output to &quot;</span> &lt;&lt; dest &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">   42</span> </div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="../../d5/d41/a04946.html">VMAP::TileAssembler</a>* ta = <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d41/a04946.html">VMAP::TileAssembler</a>(src, dest);</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (!ta-&gt;<a class="code hl_function" href="../../d5/d41/a04946.html#adabcb9cefdd3fcab94c5471948dbe0b0">convertWorld2</a>())</div>
-<div class="line"><span class="lineno">   46</span>    {</div>
-<div class="line"><span class="lineno">   47</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;exit with errors&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">   48</span>        <span class="keyword">delete</span> ta;</div>
-<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><span class="lineno">   50</span>    }</div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>    <span class="keyword">delete</span> ta;</div>
-<div class="line"><span class="lineno">   53</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Ok, all done&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">   55</span>}</div>
-<div class="ttc" id="aa04946_html"><div class="ttname"><a href="../../d5/d41/a04946.html">VMAP::TileAssembler</a></div><div class="ttdef"><b>Definition:</b> TileAssembler.h:93</div></div>
-<div class="ttc" id="aa04946_html_adabcb9cefdd3fcab94c5471948dbe0b0"><div class="ttname"><a href="../../d5/d41/a04946.html#adabcb9cefdd3fcab94c5471948dbe0b0">VMAP::TileAssembler::convertWorld2</a></div><div class="ttdeci">bool convertWorld2()</div><div class="ttdef"><b>Definition:</b> TileAssembler.cpp:67</div></div>
+<div class="line"><span class="lineno">   41</span>    <span class="comment">// Custom types</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad">btStdString</a> = 101</div>
+<div class="line"><span class="lineno">   43</span>};</div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d">btVoid</a></div><div class="ttdeci">@ btVoid</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:23</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad">btStdString</a></div><div class="ttdeci">@ btStdString</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:42</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397">btVariant</a></div><div class="ttdeci">@ btVariant</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:35</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45">btBCD</a></div><div class="ttdeci">@ btBCD</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:29</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b">btBSTR</a></div><div class="ttdeci">@ btBSTR</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:38</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab">btUInt</a></div><div class="ttdeci">@ btUInt</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:27</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38">btULong</a></div><div class="ttdeci">@ btULong</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:32</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d">btLong</a></div><div class="ttdeci">@ btLong</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:31</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b">btChar</a></div><div class="ttdeci">@ btChar</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:24</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001">btBit</a></div><div class="ttdeci">@ btBit</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:37</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97">btNoType</a></div><div class="ttdeci">@ btNoType</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:22</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8">btDate</a></div><div class="ttdeci">@ btDate</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:34</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68">btComplex</a></div><div class="ttdeci">@ btComplex</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:36</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac">btBool</a></div><div class="ttdeci">@ btBool</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:30</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6">btInt</a></div><div class="ttdeci">@ btInt</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:26</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161">btCurrency</a></div><div class="ttdeci">@ btCurrency</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:33</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe">btHresult</a></div><div class="ttdeci">@ btHresult</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:39</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804">btWChar</a></div><div class="ttdeci">@ btWChar</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:25</div></div>
+<div class="ttc" id="aa00002_html_af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774"><div class="ttname"><a href="../../d7/d46/a00002.html#af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774">btFloat</a></div><div class="ttdeci">@ btFloat</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:28</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>.</p>
+</div>
+</div>
+<a id="ace34b43f7a85070c2f233cbb13e362bf" name="ace34b43f7a85070c2f233cbb13e362bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace34b43f7a85070c2f233cbb13e362bf">&#9670;&#160;</a></span>DataKind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bf">DataKind</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75" name="ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75"></a>DataIsUnknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304" name="ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304"></a>DataIsLocal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c" name="ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c"></a>DataIsStaticLocal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141" name="ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141"></a>DataIsParam&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664" name="ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664"></a>DataIsObjectPtr&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8" name="ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8"></a>DataIsFileStatic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df" name="ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df"></a>DataIsGlobal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5" name="ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5"></a>DataIsMember&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329" name="ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329"></a>DataIsStaticMember&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd" name="ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd"></a>DataIsConstant&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75">DataIsUnknown</a>,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304">DataIsLocal</a>,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c">DataIsStaticLocal</a>,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141">DataIsParam</a>,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664">DataIsObjectPtr</a>,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8">DataIsFileStatic</a>,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df">DataIsGlobal</a>,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5">DataIsMember</a>,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329">DataIsStaticMember</a>,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd">DataIsConstant</a></div>
+<div class="line"><span class="lineno">   57</span>};</div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75">DataIsUnknown</a></div><div class="ttdeci">@ DataIsUnknown</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:47</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304">DataIsLocal</a></div><div class="ttdeci">@ DataIsLocal</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:48</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329">DataIsStaticMember</a></div><div class="ttdeci">@ DataIsStaticMember</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:55</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df">DataIsGlobal</a></div><div class="ttdeci">@ DataIsGlobal</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:53</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c">DataIsStaticLocal</a></div><div class="ttdeci">@ DataIsStaticLocal</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:49</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5">DataIsMember</a></div><div class="ttdeci">@ DataIsMember</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:54</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664">DataIsObjectPtr</a></div><div class="ttdeci">@ DataIsObjectPtr</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:51</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd">DataIsConstant</a></div><div class="ttdeci">@ DataIsConstant</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:56</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8">DataIsFileStatic</a></div><div class="ttdeci">@ DataIsFileStatic</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:52</div></div>
+<div class="ttc" id="aa00002_html_ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141"><div class="ttname"><a href="../../d7/d46/a00002.html#ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141">DataIsParam</a></div><div class="ttdeci">@ DataIsParam</div><div class="ttdef"><b>Definition:</b> WheatyExceptionReport.h:50</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a9fff8ce906026fe3179e50e97182d90d" name="a9fff8ce906026fe3179e50e97182d90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fff8ce906026fe3179e50e97182d90d">&#9670;&#160;</a></span>g_WheatyExceptionReport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/de6/a05126.html">WheatyExceptionReport</a> g_WheatyExceptionReport</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1613d539e1a6f550edee20a905f7fcce" name="a1613d539e1a6f550edee20a905f7fcce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1613d539e1a6f550edee20a905f7fcce">&#9670;&#160;</a></span>rgBaseType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const* const rgBaseType[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01064">WheatyExceptionReport::DumpTypeIndex()</a>, and <a class="el" href="../../#l00980">WheatyExceptionReport::FormatSymbolValue()</a>.</p>
 
 </div>
 </div>
@@ -190,8 +480,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_f0a1abf8767dec3b65a65862f1558cd7.html">vmap4_assembler</a></li><li class="navelem"><a class="el" href="../../d7/d46/a00002.html">VMapAssembler.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 4 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../d7/d46/a00002.html">WheatyExceptionReport.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

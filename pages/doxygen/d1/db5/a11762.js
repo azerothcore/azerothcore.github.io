@@ -1,11 +1,9 @@
 var a11762 =
 [
-    [ "boss_quartermaster_zigris", "d1/db5/a11762.html#a1d2f68327cc9b88fdd82d44ac8446d57", null ],
-    [ "DamageTaken", "d1/db5/a11762.html#a61d7f1c4e5a2901812f1175ccce69ab2", null ],
-    [ "JustDied", "d1/db5/a11762.html#a9295bbcffd7968051a789e8dfb634e23", null ],
-    [ "JustEngagedWith", "d1/db5/a11762.html#af482c06e00e7f6c15b290115998a27a9", null ],
-    [ "Reset", "d1/db5/a11762.html#a71e911bb91b7447e8aed28cdccfda8db", null ],
-    [ "SpellHitTarget", "d1/db5/a11762.html#a38197746cc73ada1378e6e1a5555ef79", null ],
-    [ "UpdateAI", "d1/db5/a11762.html#a400f7ace05cd5c4d127aecf5d771c616", null ],
-    [ "_hasDrunkPotion", "d1/db5/a11762.html#a25335533bc43171687e03f1ed22d4fb3", null ]
+    [ "boss_overlordwyrmthalakAI", "d1/db5/a11762.html#a76f9bd309e1c5045c74bb0ba8d8bce5c", null ],
+    [ "JustDied", "d1/db5/a11762.html#ade379755d256c4c290e6dc8bbd862261", null ],
+    [ "JustEngagedWith", "d1/db5/a11762.html#af7780f467df92c9218700773d1257a8c", null ],
+    [ "Reset", "d1/db5/a11762.html#a9dbc4cc1830703c393fbeb9c0385b709", null ],
+    [ "UpdateAI", "d1/db5/a11762.html#a950b2161ed4c2441fb73f8b009c5ba30", null ],
+    [ "Summoned", "d1/db5/a11762.html#a8183e3f02d931809440adc8cc0cd3654", null ]
 ];

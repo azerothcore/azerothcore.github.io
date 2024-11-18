@@ -1,6 +1,5 @@
 var a23486 =
 [
-    [ "HandleScriptEffect", "d1/df7/a23486.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
-    [ "PrepareSpellScript", "d1/df7/a23486.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
-    [ "Register", "d1/df7/a23486.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
+    [ "npc_telonicus", "d1/df7/a23486.html#af8ba6be2d39463725bbbaf7770319a93", null ],
+    [ "ScheduleEvents", "d1/df7/a23486.html#a49501a607aeb901aa99e94d9dd0e161b", null ]
 ];

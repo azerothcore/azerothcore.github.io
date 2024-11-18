@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/instance_forge_of_souls.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_tele.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,84 +106,52 @@ $(document).ready(function(){initNavTree('d5/df4/a01322.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_forge_of_souls.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">cs_tele.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">forge_of_souls.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5f/a16410.html">instance_forge_of_souls</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/a16414.html">instance_forge_of_souls::instance_forge_of_souls_InstanceScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddf/a11470.html">tele_commandscript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1ec461fda59c652788d1a38e62cdea20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df4/a01322.html#a1ec461fda59c652788d1a38e62cdea20">AddSC_instance_forge_of_souls</a> ()</td></tr>
-<tr class="separator:a1ec461fda59c652788d1a38e62cdea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df4/a01322.html#aa75d7d0ffe0cef214f982966c33db1c1">boundaries</a></td></tr>
-<tr class="separator:aa75d7d0ffe0cef214f982966c33db1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75673ffc02c68c43cefd69bb0648dd53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df4/a01322.html#a75673ffc02c68c43cefd69bb0648dd53">AddSC_tele_commandscript</a> ()</td></tr>
+<tr class="separator:a75673ffc02c68c43cefd69bb0648dd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1ec461fda59c652788d1a38e62cdea20" name="a1ec461fda59c652788d1a38e62cdea20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec461fda59c652788d1a38e62cdea20">&#9670;&#160;</a></span>AddSC_instance_forge_of_souls()</h2>
+<a id="a75673ffc02c68c43cefd69bb0648dd53" name="a75673ffc02c68c43cefd69bb0648dd53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75673ffc02c68c43cefd69bb0648dd53">&#9670;&#160;</a></span>AddSC_tele_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_forge_of_souls </td>
+          <td class="memname">void AddSC_tele_commandscript </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  219</span>{</div>
-<div class="line"><span class="lineno">  220</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d5f/a16410.html">instance_forge_of_souls</a>();</div>
-<div class="line"><span class="lineno">  221</span>}</div>
-<div class="ttc" id="aa16410_html"><div class="ttname"><a href="../../d5/d5f/a16410.html">instance_forge_of_souls</a></div><div class="ttdef"><b>Definition:</b> instance_forge_of_souls.cpp:31</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  377</span>{</div>
+<div class="line"><span class="lineno">  378</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/ddf/a11470.html">tele_commandscript</a>();</div>
+<div class="line"><span class="lineno">  379</span>}</div>
+<div class="ttc" id="aa11470_html"><div class="ttname"><a href="../../da/ddf/a11470.html">tele_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_tele.cpp:37</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aa75d7d0ffe0cef214f982966c33db1c1" name="aa75d7d0ffe0cef214f982966c33db1c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75d7d0ffe0cef214f982966c33db1c1">&#9670;&#160;</a></span>boundaries</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/a09322.html">BossBoundaryData</a> const boundaries</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d1/d72/a01319.html#af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c">DATA_BRONJAHM</a>,    <span class="keyword">new</span> <a class="code hl_class" href="../../da/dc5/a09438.html">CircleBoundary</a>(<a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(5297.3f, 2506.45f), 100.96)                                                                                   },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d1/d72/a01319.html#af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9">DATA_DEVOURER</a>,    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d23/a09450.html">ParallelogramBoundary</a>(<a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(5663.56f, 2570.53f), <a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(5724.39f, 2520.45f), <a class="code hl_struct" href="../../d6/d03/a08202.html">Position</a>(5570.36f, 2461.42f)) }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa01319_html_af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c"><div class="ttname"><a href="../../d1/d72/a01319.html#af5baa506e65b4caa6be6d1c6661dfe63a4b59c780af059481cef282a4a633787c">DATA_BRONJAHM</a></div><div class="ttdeci">@ DATA_BRONJAHM</div><div class="ttdef"><b>Definition:</b> forge_of_souls.h:30</div></div>
-<div class="ttc" id="aa01319_html_af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9"><div class="ttname"><a href="../../d1/d72/a01319.html#af5baa506e65b4caa6be6d1c6661dfe63a543a7f7aa73668312c27b6fab64449b9">DATA_DEVOURER</a></div><div class="ttdeci">@ DATA_DEVOURER</div><div class="ttdef"><b>Definition:</b> forge_of_souls.h:31</div></div>
-<div class="ttc" id="aa08202_html"><div class="ttname"><a href="../../d6/d03/a08202.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:27</div></div>
-<div class="ttc" id="aa09438_html"><div class="ttname"><a href="../../da/dc5/a09438.html">CircleBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:89</div></div>
-<div class="ttc" id="aa09450_html"><div class="ttname"><a href="../../d6/d23/a09450.html">ParallelogramBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:129</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00042">instance_forge_of_souls::instance_forge_of_souls_InstanceScript::instance_forge_of_souls_InstanceScript()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
 
 </div>
 </div>
@@ -192,8 +160,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_b9fdea5361312dcaf0b39717af8c62fd.html">FrozenHalls</a></li><li class="navelem"><a class="el" href="../../dir_c22643033d4d5dfd5506f8ab7d5a4197.html">ForgeOfSouls</a></li><li class="navelem"><a class="el" href="../../d5/df4/a01322.html">instance_forge_of_souls.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:15 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d5/df4/a01322.html">cs_tele.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,12 @@
 var a08138 =
 [
-    [ "Reset", "d9/da8/a08138.html#a9c210ff536b49481f71bc6c3f60ee864", null ],
-    [ "guid", "d9/da8/a08138.html#ac115013e34f67bc1444fef4fc96c843e", null ],
-    [ "pos", "d9/da8/a08138.html#adff317cbf0c2d159d8ffddf52b4751b3", null ],
-    [ "seat", "d9/da8/a08138.html#ad57bea2ae3beb6a086a116989b0d528f", null ],
-    [ "time", "d9/da8/a08138.html#acec3991f0d19fd9f72e9837eef516057", null ],
-    [ "time2", "d9/da8/a08138.html#a426c651d2f359847b033a4d7f278a191", null ]
+    [ "WorldObjectChangeAccumulator", "d9/da8/a08138.html#a853a5c84dec75f115eddd3e1b7ff0b78", null ],
+    [ "BuildPacket", "d9/da8/a08138.html#ab4b9da3effe2a4f6e2cb6ecf268f429c", null ],
+    [ "Visit", "d9/da8/a08138.html#ae18ca5886c95a6c4c00bdbc1920a5655", null ],
+    [ "Visit", "d9/da8/a08138.html#a9afa50ac9e36cd357706e8e838df56a0", null ],
+    [ "Visit", "d9/da8/a08138.html#aec62fc91f4b364e72a3d5afd5a1a7276", null ],
+    [ "Visit", "d9/da8/a08138.html#a9815c06dbd29710cac2c99301c17b01c", null ],
+    [ "i_object", "d9/da8/a08138.html#ab94d7f943107060caf742f9b6cca92e4", null ],
+    [ "i_playerSet", "d9/da8/a08138.html#a0e17c2bf7a78cf5ef68e6fc7b29f0262", null ],
+    [ "i_updateDatas", "d9/da8/a08138.html#a1446b9dae0dfc0325228870c815da23a", null ]
 ];

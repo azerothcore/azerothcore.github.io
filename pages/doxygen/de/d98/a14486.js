@@ -1,6 +1,10 @@
 var a14486 =
 [
-    [ "instance_onyxias_lair_InstanceMapScript", "d5/d04/a14490.html", "d5/d04/a14490" ],
-    [ "instance_onyxias_lair", "de/d98/a14486.html#a1be32e45cb8af86477d300efb6e545cc", null ],
-    [ "GetInstanceScript", "de/d98/a14486.html#abbdc474ce17bca0cb55180661c5204a8", null ]
+    [ "CurrId", "de/d98/a14486.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
+    [ "DestId", "de/d98/a14486.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
+    [ "o", "de/d98/a14486.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
+    [ "spellId", "de/d98/a14486.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
+    [ "x", "de/d98/a14486.html#a41c7bdb057d984f552a41835651d84f5", null ],
+    [ "y", "de/d98/a14486.html#abe083129d7a4e514e97eeae7cff40af5", null ],
+    [ "z", "de/d98/a14486.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
 ];

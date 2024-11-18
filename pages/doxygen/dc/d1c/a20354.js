@@ -1,6 +1,6 @@
 var a20354 =
 [
-    [ "npc_xt002_life_sparkAI", "d2/dd7/a20358.html", "d2/dd7/a20358" ],
-    [ "npc_xt002_life_spark", "dc/d1c/a20354.html#a9644718d192708e391b833468a0ff21e", null ],
-    [ "GetAI", "dc/d1c/a20354.html#a09a1ce332d55fad146947c94bb53f564", null ]
+    [ "BoomEvent", "dc/d1c/a20354.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
+    [ "Execute", "dc/d1c/a20354.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
+    [ "_me", "dc/d1c/a20354.html#a30de77ee751f1c10231088cb84942342", null ]
 ];

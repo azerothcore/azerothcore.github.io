@@ -1,7 +1,7 @@
 var a12770 =
 [
-    [ "OnApply", "df/d3f/a12770.html#a278a1eb6d5f856a620f5a33de294b0ec", null ],
-    [ "OnRemove", "df/d3f/a12770.html#a8300f726a41882e3d3f54adc0e5bfb29", null ],
-    [ "PrepareAuraScript", "df/d3f/a12770.html#a46ba800f3a3512951b83e428bc5373b9", null ],
-    [ "Register", "df/d3f/a12770.html#a4a59d431c7d7607e614c4ec035e3acf7", null ]
+    [ "HandleScript", "df/d3f/a12770.html#a6ce169d6c1b106195f787b52ea433311", null ],
+    [ "PrepareSpellScript", "df/d3f/a12770.html#a4f71583df2193274365944e6d228247c", null ],
+    [ "Register", "df/d3f/a12770.html#aad8978dc0505d1fb80e2416f5525cbc7", null ],
+    [ "Validate", "df/d3f/a12770.html#a51025308f88001f1f66d7f68f174f325", null ]
 ];

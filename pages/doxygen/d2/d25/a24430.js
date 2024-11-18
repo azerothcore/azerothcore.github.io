@@ -1,8 +1,6 @@
 var a24430 =
 [
-    [ "AfterApply", "d2/d25/a24430.html#a9c2591beacd941893338109719c03e3f", null ],
-    [ "AfterRemove", "d2/d25/a24430.html#a0be2a66b615dd926de7073392a8e5062", null ],
-    [ "PrepareAuraScript", "d2/d25/a24430.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
-    [ "Register", "d2/d25/a24430.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
-    [ "Validate", "d2/d25/a24430.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
+    [ "FilterTargets", "d2/d25/a24430.html#ac01bb4bac4f041318937cfc09ed603cd", null ],
+    [ "PrepareSpellScript", "d2/d25/a24430.html#a3eb1d8c26653477bed5b7ae0c69b34e9", null ],
+    [ "Register", "d2/d25/a24430.html#a658a476f5c2229715a8949aa6ba4f99c", null ]
 ];

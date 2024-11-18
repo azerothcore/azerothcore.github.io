@@ -1,5 +1,8 @@
 var a10770 =
 [
-    [ "AbsorbAuraOrderPred", "dd/d60/a10770.html#a30283854715c90496e14d260f913f5fa", null ],
-    [ "operator()", "dd/d60/a10770.html#a8f705a8b053ef6ff2e2827b4c7f9c643", null ]
+    [ "SkillDiscoveryEntry", "dd/d60/a10770.html#a54c0f12153c6e63a37e5da44d233b271", null ],
+    [ "SkillDiscoveryEntry", "dd/d60/a10770.html#a301cae078fe1943cae045e94dc3d38ad", null ],
+    [ "chance", "dd/d60/a10770.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
+    [ "reqSkillValue", "dd/d60/a10770.html#a61e0edc8fee1fa4045d846668d08449c", null ],
+    [ "spellId", "dd/d60/a10770.html#a75ca40729917317173b2953c8f47f833", null ]
 ];

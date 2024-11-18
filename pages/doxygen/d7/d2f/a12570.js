@@ -1,7 +1,6 @@
 var a12570 =
 [
-    [ "npc_scarlet_cannonAI", "d7/d2f/a12570.html#a26720b34088b8063544f8c5db3b8d67c", null ],
-    [ "PassengerBoarded", "d7/d2f/a12570.html#a71241dfc9b3ebe1f664d0adf03439c41", null ],
-    [ "UpdateAI", "d7/d2f/a12570.html#a18ebb585e9b83f3781d3c49de5dc73b5", null ],
-    [ "summonAttackers", "d7/d2f/a12570.html#a9e8eeb6995dae9a9d9ec3cb0ca6a07f5", null ]
+    [ "npc_scarlet_ghoulAI", "d9/d63/a12574.html", "d9/d63/a12574" ],
+    [ "npc_scarlet_ghoul", "d7/d2f/a12570.html#aa58b0d1c3fb411cac184bc1fc50f4fb3", null ],
+    [ "GetAI", "d7/d2f/a12570.html#a88d2639b1a4f087d3e1b95475a094d21", null ]
 ];

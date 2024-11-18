@@ -1,6 +1,5 @@
 var a14154 =
 [
-    [ "HandleTriggerSpell", "dd/d00/a14154.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
-    [ "PrepareSpellScript", "dd/d00/a14154.html#a76a070da8e719198463010499f595599", null ],
-    [ "Register", "dd/d00/a14154.html#ae237c4972167a5a17b59800983496a9d", null ]
+    [ "achievement_pb_terokkar_turkey_time", "dd/d00/a14154.html#a68e536379b04e060f44819c9831766c2", null ],
+    [ "OnCheck", "dd/d00/a14154.html#a8e6b82b95974ec27fd578481a1a23ae0", null ]
 ];

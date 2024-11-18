@@ -1,6 +1,6 @@
 var a13818 =
 [
-    [ "CheckItem", "da/da7/a13818.html#a71f8c9bad4a102914a1047ef61d20f92", null ],
-    [ "PrepareSpellScript", "da/da7/a13818.html#a0fa160f1218cf838444f894716cb8aed", null ],
-    [ "Register", "da/da7/a13818.html#a2a6816d9ab97abddfa20cd6413a94178", null ]
+    [ "HandleDummyEffect", "da/da7/a13818.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
+    [ "PrepareSpellScript", "da/da7/a13818.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
+    [ "Register", "da/da7/a13818.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
 ];

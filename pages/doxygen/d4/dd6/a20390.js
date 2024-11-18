@@ -1,5 +1,6 @@
 var a20390 =
 [
-    [ "achievement_xt002_nerf_gravity_bombs", "d4/dd6/a20390.html#a9c6471da08acb7a0543d7cc07784dd85", null ],
-    [ "OnCheck", "d4/dd6/a20390.html#a03f61470694399ab32aea354cd697771", null ]
+    [ "PrepareSpellScript", "d4/dd6/a20390.html#ac84dedbb3343c15e32ae3c57d80a4561", null ],
+    [ "Register", "d4/dd6/a20390.html#a27c5665b64c50df5d9c67d5136ab7567", null ],
+    [ "SelectTarget", "d4/dd6/a20390.html#a0f9c85168ad0c0fda61f4bb1e97bd518", null ]
 ];

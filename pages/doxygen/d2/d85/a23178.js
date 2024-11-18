@@ -1,9 +1,5 @@
 var a23178 =
 [
-    [ "boss_the_maker", "d2/d85/a23178.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
-    [ "JustDied", "d2/d85/a23178.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
-    [ "JustEngagedWith", "d2/d85/a23178.html#a6b0a4442dbabde69ca9352017ee23675", null ],
-    [ "KilledUnit", "d2/d85/a23178.html#a40643ca00fe7d7029a291335e47c722a", null ],
-    [ "Reset", "d2/d85/a23178.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
-    [ "UpdateAI", "d2/d85/a23178.html#a24cd8e9a97410ab290592b586962fffd", null ]
+    [ "go_broggok_lever", "d2/d85/a23178.html#af91c2e283c357d2f38c9932dcfb5c375", null ],
+    [ "OnGossipHello", "d2/d85/a23178.html#af00fe1da1cfa40dc3ece286cef45090c", null ]
 ];

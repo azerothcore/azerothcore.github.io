@@ -1,6 +1,8 @@
 var a23566 =
 [
-    [ "HandleAfterRemove", "d0/d2a/a23566.html#ac9756a8f206c114ff6443331ca266184", null ],
-    [ "PrepareAuraScript", "d0/d2a/a23566.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
-    [ "Register", "d0/d2a/a23566.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
+    [ "boss_mechano_lord_capacitus", "d0/d2a/a23566.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
+    [ "JustDied", "d0/d2a/a23566.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
+    [ "JustEngagedWith", "d0/d2a/a23566.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
+    [ "JustSummoned", "d0/d2a/a23566.html#a9a0b2cac08002db63162f95b9476c251", null ],
+    [ "KilledUnit", "d0/d2a/a23566.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
 ];

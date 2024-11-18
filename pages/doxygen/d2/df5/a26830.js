@@ -1,5 +1,5 @@
 var a26830 =
 [
-    [ "go_resonite_cask", "d2/df5/a26830.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
-    [ "OnGossipHello", "d2/df5/a26830.html#aae8591d53a6983886b52d404acdba293", null ]
+    [ "go_arena_ready_marker", "d2/df5/a26830.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "d2/df5/a26830.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

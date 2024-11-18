@@ -1,6 +1,7 @@
 var a16014 =
 [
-    [ "npc_toc_warlockAI", "d7/d76/a16018.html", "d7/d76/a16018" ],
-    [ "npc_toc_warlock", "d5/df2/a16014.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
-    [ "GetAI", "d5/df2/a16014.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
+    [ "npc_toc_priestAI", "d5/df2/a16014.html#aa362d2136193a8738e311bba18b87c90", null ],
+    [ "myCanCast", "d5/df2/a16014.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
+    [ "UpdateAI", "d5/df2/a16014.html#ae51d2ac95320909150c673b76c9856c7", null ],
+    [ "events", "d5/df2/a16014.html#aa5be20e87351424e0e4698540fc1fef4", null ]
 ];

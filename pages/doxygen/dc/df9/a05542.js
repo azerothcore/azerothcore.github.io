@@ -1,8 +1,9 @@
 var a05542 =
 [
-    [ "cmd", "dc/df9/a05542.html#a14df856ae931474a7c58d0e35caf6ad0", null ],
-    [ "number_of_keys", "dc/df9/a05542.html#aaa44734bb96b91894c038b3f34b4db0d", null ],
-    [ "R1", "dc/df9/a05542.html#a054648a96d1c66bae6fdb9a174e7b1e6", null ],
-    [ "R2", "dc/df9/a05542.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad", null ],
-    [ "R3", "dc/df9/a05542.html#a819a5ba3a19583fd0cfd0558cf218e54", null ]
+    [ "A", "dc/df9/a05542.html#ab94666c9208b481061cd81382ce94a5a", null ],
+    [ "clientM", "dc/df9/a05542.html#a65b25700c577d338e902dc47b4712433", null ],
+    [ "cmd", "dc/df9/a05542.html#a51b29f49e940bffa67988d9bc2b16aa4", null ],
+    [ "crc_hash", "dc/df9/a05542.html#af2ce94f814a0008c953229fb9cdff454", null ],
+    [ "number_of_keys", "dc/df9/a05542.html#ad8f9f53d462f1abd5c81413e0ed8b0a7", null ],
+    [ "securityFlags", "dc/df9/a05542.html#ae2ab466af9513c15cbcea7a20e97ddc5", null ]
 ];

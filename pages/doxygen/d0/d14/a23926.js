@@ -1,7 +1,6 @@
 var a23926 =
 [
-    [ "npc_kservantAI", "d0/d14/a23926.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "d0/d14/a23926.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "d0/d14/a23926.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "d0/d14/a23926.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "npc_shattrathflaskvendors", "d0/d14/a23926.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "d0/d14/a23926.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "d0/d14/a23926.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

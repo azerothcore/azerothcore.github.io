@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/InstanceMapScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/SpellInfo.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,26 +105,942 @@ $(document).ready(function(){initNavTree('d4/d44/a03065.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">InstanceMapScript.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">SpellInfo.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCStructure.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d25/a10046.html">InstanceMapScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html">SpellImplicitTargetInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3a/a10886.html">SpellImplicitTargetInfo::StaticData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a10890.html">SpellEffectInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de6/a10894.html">SpellEffectInfo::StaticData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/a10898.html">SpellInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a3c11f0d0cd9689554b34ccbc325da54f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54f">SpellCastTargetFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a> = 0x00000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca">TARGET_FLAG_UNUSED_1</a> = 0x00000001
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a> = 0x00000002
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e">TARGET_FLAG_UNIT_RAID</a> = 0x00000004
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd">TARGET_FLAG_UNIT_PARTY</a> = 0x00000008
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a> = 0x00000010
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a> = 0x00000020
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a> = 0x00000040
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87">TARGET_FLAG_UNIT_ENEMY</a> = 0x00000080
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec">TARGET_FLAG_UNIT_ALLY</a> = 0x00000100
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a> = 0x00000200
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6">TARGET_FLAG_UNIT_DEAD</a> = 0x00000400
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a> = 0x00000800
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4">TARGET_FLAG_TRADE_ITEM</a> = 0x00001000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4">TARGET_FLAG_STRING</a> = 0x00002000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a> = 0x00004000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a> = 0x00008000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3">TARGET_FLAG_UNIT_MINIPET</a> = 0x00010000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc">TARGET_FLAG_GLYPH_SLOT</a> = 0x00020000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8">TARGET_FLAG_DEST_TARGET</a> = 0x00040000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef">TARGET_FLAG_UNUSED20</a> = 0x00080000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff">TARGET_FLAG_UNIT_PASSENGER</a> = 0x00100000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736">TARGET_FLAG_UNIT_MASK</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424">TARGET_FLAG_GAMEOBJECT_MASK</a> = TARGET_FLAG_GAMEOBJECT | TARGET_FLAG_GAMEOBJECT_ITEM
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9">TARGET_FLAG_CORPSE_MASK</a> = TARGET_FLAG_CORPSE_ALLY | TARGET_FLAG_CORPSE_ENEMY
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf">TARGET_FLAG_ITEM_MASK</a> = TARGET_FLAG_TRADE_ITEM | TARGET_FLAG_ITEM | TARGET_FLAG_GAMEOBJECT_ITEM
+<br />
+ }</td></tr>
+<tr class="separator:a3c11f0d0cd9689554b34ccbc325da54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1552887f0f9abf22f5e7af1064b8c213"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213">SpellTargetSelectionCategories</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b">TARGET_SELECT_CATEGORY_NYI</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be">TARGET_SELECT_CATEGORY_TRAJ</a>
+<br />
+ }</td></tr>
+<tr class="separator:a1552887f0f9abf22f5e7af1064b8c213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae160272dac6c37cf297c68db99d9c987"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987">SpellTargetReferenceTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d">TARGET_REFERENCE_TYPE_NONE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15">TARGET_REFERENCE_TYPE_LAST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691">TARGET_REFERENCE_TYPE_SRC</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a">TARGET_REFERENCE_TYPE_DEST</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae160272dac6c37cf297c68db99d9c987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd452c9e8451ab6d47620dbda77f087a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2">TARGET_OBJECT_TYPE_NONE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>
+<br />
+ }</td></tr>
+<tr class="separator:abd452c9e8451ab6d47620dbda77f087a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392c69714f880d43f8afb5510ba1fff7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7">SpellTargetCheckTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c">TARGET_CHECK_DEFAULT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc">TARGET_CHECK_ENTRY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67">TARGET_CHECK_ENEMY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd">TARGET_CHECK_ALLY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c">TARGET_CHECK_PARTY</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26">TARGET_CHECK_RAID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950">TARGET_CHECK_RAID_CLASS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d">TARGET_CHECK_PASSENGER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3">TARGET_CHECK_CORPSE</a>
+<br />
+ }</td></tr>
+<tr class="separator:a392c69714f880d43f8afb5510ba1fff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41dacfabf3231ea2ee5894d61f6c3b6f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6f">SpellTargetDirectionTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad">TARGET_DIR_NONE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c">TARGET_DIR_FRONT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298">TARGET_DIR_BACK</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088">TARGET_DIR_RIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8">TARGET_DIR_LEFT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b">TARGET_DIR_FRONT_RIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc">TARGET_DIR_BACK_RIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6">TARGET_DIR_BACK_LEFT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85">TARGET_DIR_FRONT_LEFT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d">TARGET_DIR_RANDOM</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7">TARGET_DIR_ENTRY</a>
+<br />
+ }</td></tr>
+<tr class="separator:a41dacfabf3231ea2ee5894d61f6c3b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a81cd007334dc93766a3232dd6706eb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706eb">SpellEffectImplicitTargetTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718">EFFECT_IMPLICIT_TARGET_NONE</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b">EFFECT_IMPLICIT_TARGET_EXPLICIT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1">EFFECT_IMPLICIT_TARGET_CASTER</a>
+<br />
+ }</td></tr>
+<tr class="separator:a0a81cd007334dc93766a3232dd6706eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967f80d0c19acebc2e322c73b7b16442"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442">SpellSpecificType</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb">SPELL_SPECIFIC_NORMAL</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8">SPELL_SPECIFIC_SEAL</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa">SPELL_SPECIFIC_AURA</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b">SPELL_SPECIFIC_STING</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498">SPELL_SPECIFIC_CURSE</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d">SPELL_SPECIFIC_ASPECT</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f">SPELL_SPECIFIC_TRACKER</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11">SPELL_SPECIFIC_WARLOCK_ARMOR</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00">SPELL_SPECIFIC_MAGE_ARMOR</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7">SPELL_SPECIFIC_ELEMENTAL_SHIELD</a> = 10
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128">SPELL_SPECIFIC_MAGE_POLYMORPH</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f">SPELL_SPECIFIC_JUDGEMENT</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227">SPELL_SPECIFIC_WARLOCK_CORRUPTION</a> = 17
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78">SPELL_SPECIFIC_FOOD</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99">SPELL_SPECIFIC_DRINK</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876">SPELL_SPECIFIC_FOOD_AND_DRINK</a> = 21
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740">SPELL_SPECIFIC_PRESENCE</a> = 22
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c">SPELL_SPECIFIC_CHARM</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075">SPELL_SPECIFIC_SCROLL</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984">SPELL_SPECIFIC_MAGE_ARCANE_BRILLANCE</a> = 25
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6">SPELL_SPECIFIC_PRIEST_DIVINE_SPIRIT</a> = 26
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902">SPELL_SPECIFIC_HAND</a> = 27
+<br />
+ }</td></tr>
+<tr class="separator:a967f80d0c19acebc2e322c73b7b16442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93795b2131c8cbe38a7b23768a5a146d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146d">SpellCustomAttributes</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39">SPELL_ATTR0_CU_ENCHANT_PROC</a> = 0x00000001
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a> = 0x00000002
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a> = 0x00000004
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3">SPELL_ATTR0_CU_SHARE_DAMAGE</a> = 0x00000008
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94">SPELL_ATTR0_CU_NO_INITIAL_THREAT</a> = 0x00000010
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71">SPELL_ATTR0_CU_AURA_CC</a> = 0x00000020
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e">SPELL_ATTR0_CU_DONT_BREAK_STEALTH</a> = 0x00000040
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641">SPELL_ATTR0_CU_NO_PVP_FLAG</a> = 0x00000080
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35">SPELL_ATTR0_CU_DIRECT_DAMAGE</a> = 0x00000100
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd">SPELL_ATTR0_CU_CHARGE</a> = 0x00000200
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe">SPELL_ATTR0_CU_PICKPOCKET</a> = 0x00000400
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05">SPELL_ATTR0_CU_IGNORE_EVADE</a> = 0x00000800
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c">SPELL_ATTR0_CU_NEGATIVE_EFF0</a> = 0x00001000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7">SPELL_ATTR0_CU_NEGATIVE_EFF1</a> = 0x00002000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2">SPELL_ATTR0_CU_NEGATIVE_EFF2</a> = 0x00004000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7">SPELL_ATTR0_CU_IGNORE_ARMOR</a> = 0x00008000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202">SPELL_ATTR0_CU_REQ_TARGET_FACING_CASTER</a> = 0x00010000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40">SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET</a> = 0x00020000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2">SPELL_ATTR0_CU_ALLOW_INFLIGHT_TARGET</a> = 0x00040000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987">SPELL_ATTR0_CU_NEEDS_AMMO_DATA</a> = 0x00080000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d">SPELL_ATTR0_CU_BINARY_SPELL</a> = 0x00100000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be">SPELL_ATTR0_CU_NO_POSITIVE_TAKEN_BONUS</a> = 0x00200000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f">SPELL_ATTR0_CU_SINGLE_AURA_STACK</a> = 0x00400000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e">SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC</a> = 0x00800000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d">SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED</a> = 0x01000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43">SPELL_ATTR0_CU_POSITIVE_EFF0</a> = 0x02000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414">SPELL_ATTR0_CU_POSITIVE_EFF1</a> = 0x04000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724">SPELL_ATTR0_CU_POSITIVE_EFF2</a> = 0x08000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e">SPELL_ATTR0_CU_FORCE_SEND_CATEGORY_COOLDOWNS</a> = 0x10000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557">SPELL_ATTR0_CU_FORCE_AURA_SAVING</a> = 0x20000800
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9">SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA</a> = 0x20000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215">SPELL_ATTR0_CU_ENCOUNTER_REWARD</a> = 0x40000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d">SPELL_ATTR0_CU_BYPASS_MECHANIC_IMMUNITY</a> = 0x80000000
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8">SPELL_ATTR0_CU_NEGATIVE</a> = SPELL_ATTR0_CU_NEGATIVE_EFF0 | SPELL_ATTR0_CU_NEGATIVE_EFF1 | SPELL_ATTR0_CU_NEGATIVE_EFF2
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39">SPELL_ATTR0_CU_POSITIVE</a> = SPELL_ATTR0_CU_POSITIVE_EFF0 | SPELL_ATTR0_CU_POSITIVE_EFF1 | SPELL_ATTR0_CU_POSITIVE_EFF2
+<br />
+ }</td></tr>
+<tr class="separator:a93795b2131c8cbe38a7b23768a5a146d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adc898dfddc20010c41bb771b6d6f274e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a03065.html#adc898dfddc20010c41bb771b6d6f274e">GetTargetFlagMask</a> (<a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a> objType)</td></tr>
+<tr class="separator:adc898dfddc20010c41bb771b6d6f274e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a3c11f0d0cd9689554b34ccbc325da54f" name="a3c11f0d0cd9689554b34ccbc325da54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c11f0d0cd9689554b34ccbc325da54f">&#9670;&#160;</a></span>SpellCastTargetFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54f">SpellCastTargetFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc" name="a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc"></a>TARGET_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca" name="a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca"></a>TARGET_FLAG_UNUSED_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e" name="a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e"></a>TARGET_FLAG_UNIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e" name="a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e"></a>TARGET_FLAG_UNIT_RAID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd" name="a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd"></a>TARGET_FLAG_UNIT_PARTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49" name="a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49"></a>TARGET_FLAG_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb" name="a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb"></a>TARGET_FLAG_SOURCE_LOCATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be" name="a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be"></a>TARGET_FLAG_DEST_LOCATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87" name="a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87"></a>TARGET_FLAG_UNIT_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec" name="a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec"></a>TARGET_FLAG_UNIT_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b" name="a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b"></a>TARGET_FLAG_CORPSE_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6" name="a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6"></a>TARGET_FLAG_UNIT_DEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49" name="a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49"></a>TARGET_FLAG_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4" name="a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4"></a>TARGET_FLAG_TRADE_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4" name="a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4"></a>TARGET_FLAG_STRING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418" name="a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418"></a>TARGET_FLAG_GAMEOBJECT_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11" name="a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11"></a>TARGET_FLAG_CORPSE_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3" name="a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3"></a>TARGET_FLAG_UNIT_MINIPET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc" name="a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc"></a>TARGET_FLAG_GLYPH_SLOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8" name="a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8"></a>TARGET_FLAG_DEST_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef" name="a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef"></a>TARGET_FLAG_UNUSED20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff" name="a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff"></a>TARGET_FLAG_UNIT_PASSENGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736" name="a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736"></a>TARGET_FLAG_UNIT_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424" name="a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424"></a>TARGET_FLAG_GAMEOBJECT_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9" name="a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9"></a>TARGET_FLAG_CORPSE_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf" name="a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf"></a>TARGET_FLAG_ITEM_MASK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a>            = 0x00000000,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca">TARGET_FLAG_UNUSED_1</a>        = 0x00000001,               <span class="comment">// not used</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a>            = 0x00000002,               <span class="comment">// pguid</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e">TARGET_FLAG_UNIT_RAID</a>       = 0x00000004,               <span class="comment">// not sent, used to validate target (if raid member)</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd">TARGET_FLAG_UNIT_PARTY</a>      = 0x00000008,               <span class="comment">// not sent, used to validate target (if party member)</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a>            = 0x00000010,               <span class="comment">// pguid</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a> = 0x00000020,               <span class="comment">// pguid, 3 float</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a>   = 0x00000040,               <span class="comment">// pguid, 3 float</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87">TARGET_FLAG_UNIT_ENEMY</a>      = 0x00000080,               <span class="comment">// not sent, used to validate target (if enemy)</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec">TARGET_FLAG_UNIT_ALLY</a>       = 0x00000100,               <span class="comment">// not sent, used to validate target (if ally)</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>    = 0x00000200,               <span class="comment">// pguid</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6">TARGET_FLAG_UNIT_DEAD</a>       = 0x00000400,               <span class="comment">// not sent, used to validate target (if dead creature)</span></div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a>      = 0x00000800,               <span class="comment">// pguid, used with TARGET_GAMEOBJECT_TARGET</span></div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4">TARGET_FLAG_TRADE_ITEM</a>      = 0x00001000,               <span class="comment">// pguid</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4">TARGET_FLAG_STRING</a>          = 0x00002000,               <span class="comment">// string</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a> = 0x00004000,               <span class="comment">// not sent, used with TARGET_GAMEOBJECT_ITEM_TARGET</span></div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a>     = 0x00008000,               <span class="comment">// pguid</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3">TARGET_FLAG_UNIT_MINIPET</a>    = 0x00010000,               <span class="comment">// pguid, used to validate target (if non combat pet)</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc">TARGET_FLAG_GLYPH_SLOT</a>      = 0x00020000,               <span class="comment">// used in glyph spells</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8">TARGET_FLAG_DEST_TARGET</a>     = 0x00040000,               <span class="comment">// sometimes appears with DEST_TARGET spells (may appear or not for a given spell)</span></div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef">TARGET_FLAG_UNUSED20</a>        = 0x00080000,               <span class="comment">// uint32 counter, loop { vec3 - screen position (?), guid }, not used so far</span></div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff">TARGET_FLAG_UNIT_PASSENGER</a>  = 0x00100000,               <span class="comment">// guessed, used to validate target (if vehicle passenger)</span></div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736">TARGET_FLAG_UNIT_MASK</a> = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e">TARGET_FLAG_UNIT_RAID</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd">TARGET_FLAG_UNIT_PARTY</a></div>
+<div class="line"><span class="lineno">   69</span>                            | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87">TARGET_FLAG_UNIT_ENEMY</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec">TARGET_FLAG_UNIT_ALLY</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6">TARGET_FLAG_UNIT_DEAD</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3">TARGET_FLAG_UNIT_MINIPET</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff">TARGET_FLAG_UNIT_PASSENGER</a>,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424">TARGET_FLAG_GAMEOBJECT_MASK</a> = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a>,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9">TARGET_FLAG_CORPSE_MASK</a> = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf">TARGET_FLAG_ITEM_MASK</a> = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4">TARGET_FLAG_TRADE_ITEM</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a>,</div>
+<div class="line"><span class="lineno">   73</span>};</div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa03c8f27ac662b23e30c405f800e13da4">TARGET_FLAG_TRADE_ITEM</a></div><div class="ttdeci">@ TARGET_FLAG_TRADE_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:58</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a></div><div class="ttdeci">@ TARGET_FLAG_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:57</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa24d43cf0043fec76138893870d0f33e4">TARGET_FLAG_STRING</a></div><div class="ttdeci">@ TARGET_FLAG_STRING</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:59</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a></div><div class="ttdeci">@ TARGET_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:45</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa2bff618dcc23e68088a11d30707bf45e">TARGET_FLAG_UNIT_RAID</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_RAID</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:48</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa3325fba850592588fce959a992007a87">TARGET_FLAG_UNIT_ENEMY</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:53</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa372617d9657342d726b2371c230055dc">TARGET_FLAG_GLYPH_SLOT</a></div><div class="ttdeci">@ TARGET_FLAG_GLYPH_SLOT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:63</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a></div><div class="ttdeci">@ TARGET_FLAG_CORPSE_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:61</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a></div><div class="ttdeci">@ TARGET_FLAG_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:50</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa41f9f26a19c99a5517d021765a1173e3">TARGET_FLAG_UNIT_MINIPET</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_MINIPET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:62</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa5657e539930ce170d1734e68c5a33cff">TARGET_FLAG_UNIT_PASSENGER</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_PASSENGER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:66</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a></div><div class="ttdeci">@ TARGET_FLAG_GAMEOBJECT_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:60</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a></div><div class="ttdeci">@ TARGET_FLAG_DEST_LOCATION</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:52</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa678d5705cd272f389f11aa1fe57f91ef">TARGET_FLAG_UNUSED20</a></div><div class="ttdeci">@ TARGET_FLAG_UNUSED20</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:65</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6ff2692c36a92d32bc4fc2d1eec84cec">TARGET_FLAG_UNIT_ALLY</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:54</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a></div><div class="ttdeci">@ TARGET_FLAG_SOURCE_LOCATION</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:51</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa806d7d4e6e1694b7bc399d0864f1aadf">TARGET_FLAG_ITEM_MASK</a></div><div class="ttdeci">@ TARGET_FLAG_ITEM_MASK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:72</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca">TARGET_FLAG_UNUSED_1</a></div><div class="ttdeci">@ TARGET_FLAG_UNUSED_1</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:46</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:47</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54faadbd173cf8aac635d5ad220bff887cb8">TARGET_FLAG_DEST_TARGET</a></div><div class="ttdeci">@ TARGET_FLAG_DEST_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:64</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac4b2546ed16b08a6a7950cb99f7d3736">TARGET_FLAG_UNIT_MASK</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_MASK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:68</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fac82ad0725cb8751ac11883f1a82fcfe6">TARGET_FLAG_UNIT_DEAD</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_DEAD</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:56</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a></div><div class="ttdeci">@ TARGET_FLAG_CORPSE_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:55</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facc74d40ce4530f4f94c1935f46b07fe9">TARGET_FLAG_CORPSE_MASK</a></div><div class="ttdeci">@ TARGET_FLAG_CORPSE_MASK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:71</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fae28bcfe9d142964b819fa84b744a1424">TARGET_FLAG_GAMEOBJECT_MASK</a></div><div class="ttdeci">@ TARGET_FLAG_GAMEOBJECT_MASK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:70</div></div>
+<div class="ttc" id="aa03065_html_a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd"><div class="ttname"><a href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fafd038a878ed292ec558d26ef054447bd">TARGET_FLAG_UNIT_PARTY</a></div><div class="ttdeci">@ TARGET_FLAG_UNIT_PARTY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:49</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a93795b2131c8cbe38a7b23768a5a146d" name="a93795b2131c8cbe38a7b23768a5a146d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93795b2131c8cbe38a7b23768a5a146d">&#9670;&#160;</a></span>SpellCustomAttributes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146d">SpellCustomAttributes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39" name="a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39"></a>SPELL_ATTR0_CU_ENCHANT_PROC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11" name="a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11"></a>SPELL_ATTR0_CU_CONE_BACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c" name="a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c"></a>SPELL_ATTR0_CU_CONE_LINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3" name="a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3"></a>SPELL_ATTR0_CU_SHARE_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94" name="a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94"></a>SPELL_ATTR0_CU_NO_INITIAL_THREAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71" name="a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71"></a>SPELL_ATTR0_CU_AURA_CC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e" name="a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e"></a>SPELL_ATTR0_CU_DONT_BREAK_STEALTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641" name="a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641"></a>SPELL_ATTR0_CU_NO_PVP_FLAG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35" name="a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35"></a>SPELL_ATTR0_CU_DIRECT_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd" name="a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd"></a>SPELL_ATTR0_CU_CHARGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe" name="a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe"></a>SPELL_ATTR0_CU_PICKPOCKET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05" name="a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05"></a>SPELL_ATTR0_CU_IGNORE_EVADE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c" name="a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c"></a>SPELL_ATTR0_CU_NEGATIVE_EFF0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7" name="a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7"></a>SPELL_ATTR0_CU_NEGATIVE_EFF1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2" name="a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2"></a>SPELL_ATTR0_CU_NEGATIVE_EFF2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7" name="a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7"></a>SPELL_ATTR0_CU_IGNORE_ARMOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202" name="a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202"></a>SPELL_ATTR0_CU_REQ_TARGET_FACING_CASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40" name="a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40"></a>SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2" name="a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2"></a>SPELL_ATTR0_CU_ALLOW_INFLIGHT_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987" name="a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987"></a>SPELL_ATTR0_CU_NEEDS_AMMO_DATA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d" name="a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d"></a>SPELL_ATTR0_CU_BINARY_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be" name="a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be"></a>SPELL_ATTR0_CU_NO_POSITIVE_TAKEN_BONUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f" name="a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f"></a>SPELL_ATTR0_CU_SINGLE_AURA_STACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e" name="a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e"></a>SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d" name="a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d"></a>SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43" name="a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43"></a>SPELL_ATTR0_CU_POSITIVE_EFF0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414" name="a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414"></a>SPELL_ATTR0_CU_POSITIVE_EFF1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724" name="a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724"></a>SPELL_ATTR0_CU_POSITIVE_EFF2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e" name="a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e"></a>SPELL_ATTR0_CU_FORCE_SEND_CATEGORY_COOLDOWNS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557" name="a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557"></a>SPELL_ATTR0_CU_FORCE_AURA_SAVING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9" name="a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9"></a>SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215" name="a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215"></a>SPELL_ATTR0_CU_ENCOUNTER_REWARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d" name="a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d"></a>SPELL_ATTR0_CU_BYPASS_MECHANIC_IMMUNITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8" name="a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8"></a>SPELL_ATTR0_CU_NEGATIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39" name="a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39"></a>SPELL_ATTR0_CU_POSITIVE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
+<div class="line"><span class="lineno">  176</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39">SPELL_ATTR0_CU_ENCHANT_PROC</a>                  = 0x00000001,</div>
+<div class="line"><span class="lineno">  177</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a>                     = 0x00000002,</div>
+<div class="line"><span class="lineno">  178</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a>                     = 0x00000004,</div>
+<div class="line"><span class="lineno">  179</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3">SPELL_ATTR0_CU_SHARE_DAMAGE</a>                  = 0x00000008,</div>
+<div class="line"><span class="lineno">  180</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94">SPELL_ATTR0_CU_NO_INITIAL_THREAT</a>             = 0x00000010,</div>
+<div class="line"><span class="lineno">  181</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71">SPELL_ATTR0_CU_AURA_CC</a>                       = 0x00000020,</div>
+<div class="line"><span class="lineno">  182</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e">SPELL_ATTR0_CU_DONT_BREAK_STEALTH</a>            = 0x00000040,</div>
+<div class="line"><span class="lineno">  183</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641">SPELL_ATTR0_CU_NO_PVP_FLAG</a>                   = 0x00000080,</div>
+<div class="line"><span class="lineno">  184</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35">SPELL_ATTR0_CU_DIRECT_DAMAGE</a>                 = 0x00000100,</div>
+<div class="line"><span class="lineno">  185</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd">SPELL_ATTR0_CU_CHARGE</a>                        = 0x00000200,</div>
+<div class="line"><span class="lineno">  186</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe">SPELL_ATTR0_CU_PICKPOCKET</a>                    = 0x00000400,</div>
+<div class="line"><span class="lineno">  187</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05">SPELL_ATTR0_CU_IGNORE_EVADE</a>                  = 0x00000800,</div>
+<div class="line"><span class="lineno">  188</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c">SPELL_ATTR0_CU_NEGATIVE_EFF0</a>                 = 0x00001000,</div>
+<div class="line"><span class="lineno">  189</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7">SPELL_ATTR0_CU_NEGATIVE_EFF1</a>                 = 0x00002000,</div>
+<div class="line"><span class="lineno">  190</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2">SPELL_ATTR0_CU_NEGATIVE_EFF2</a>                 = 0x00004000,</div>
+<div class="line"><span class="lineno">  191</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7">SPELL_ATTR0_CU_IGNORE_ARMOR</a>                  = 0x00008000,</div>
+<div class="line"><span class="lineno">  192</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202">SPELL_ATTR0_CU_REQ_TARGET_FACING_CASTER</a>      = 0x00010000,</div>
+<div class="line"><span class="lineno">  193</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40">SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET</a>      = 0x00020000,</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2">SPELL_ATTR0_CU_ALLOW_INFLIGHT_TARGET</a>         = 0x00040000,</div>
+<div class="line"><span class="lineno">  195</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987">SPELL_ATTR0_CU_NEEDS_AMMO_DATA</a>               = 0x00080000,</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d">SPELL_ATTR0_CU_BINARY_SPELL</a>                  = 0x00100000,</div>
+<div class="line"><span class="lineno">  197</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be">SPELL_ATTR0_CU_NO_POSITIVE_TAKEN_BONUS</a>       = 0x00200000,</div>
+<div class="line"><span class="lineno">  198</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f">SPELL_ATTR0_CU_SINGLE_AURA_STACK</a>             = 0x00400000,</div>
+<div class="line"><span class="lineno">  199</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e">SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC</a>  = 0x00800000,</div>
+<div class="line"><span class="lineno">  200</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d">SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED</a>          = 0x01000000,</div>
+<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43">SPELL_ATTR0_CU_POSITIVE_EFF0</a>                 = 0x02000000,</div>
+<div class="line"><span class="lineno">  202</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414">SPELL_ATTR0_CU_POSITIVE_EFF1</a>                 = 0x04000000,</div>
+<div class="line"><span class="lineno">  203</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724">SPELL_ATTR0_CU_POSITIVE_EFF2</a>                 = 0x08000000,</div>
+<div class="line"><span class="lineno">  204</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e">SPELL_ATTR0_CU_FORCE_SEND_CATEGORY_COOLDOWNS</a> = 0x10000000,</div>
+<div class="line"><span class="lineno">  205</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557">SPELL_ATTR0_CU_FORCE_AURA_SAVING</a>             = 0x20000800,</div>
+<div class="line"><span class="lineno">  206</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9">SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA</a>            = 0x20000000,</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215">SPELL_ATTR0_CU_ENCOUNTER_REWARD</a>              = 0x40000000,</div>
+<div class="line"><span class="lineno">  208</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d">SPELL_ATTR0_CU_BYPASS_MECHANIC_IMMUNITY</a>      = 0x80000000,</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8">SPELL_ATTR0_CU_NEGATIVE</a>                      = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c">SPELL_ATTR0_CU_NEGATIVE_EFF0</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7">SPELL_ATTR0_CU_NEGATIVE_EFF1</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2">SPELL_ATTR0_CU_NEGATIVE_EFF2</a>,</div>
+<div class="line"><span class="lineno">  211</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39">SPELL_ATTR0_CU_POSITIVE</a>                      = <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43">SPELL_ATTR0_CU_POSITIVE_EFF0</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414">SPELL_ATTR0_CU_POSITIVE_EFF1</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724">SPELL_ATTR0_CU_POSITIVE_EFF2</a>,</div>
+<div class="line"><span class="lineno">  212</span>};</div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da0f28e484658493d07d9b9dede2efcfb7">SPELL_ATTR0_CU_IGNORE_ARMOR</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_IGNORE_ARMOR</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:191</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da12a1efffeb512cda3bb8ee5077dcf724">SPELL_ATTR0_CU_POSITIVE_EFF2</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_POSITIVE_EFF2</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:203</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da16fc9692b3d1955cb6f36ae606901202">SPELL_ATTR0_CU_REQ_TARGET_FACING_CASTER</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_REQ_TARGET_FACING_CASTER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:192</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da21bee0dd8a24adc23431292c32c02ba2">SPELL_ATTR0_CU_ALLOW_INFLIGHT_TARGET</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_ALLOW_INFLIGHT_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:194</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da23162f829e73ed8653b153a3e5212a39">SPELL_ATTR0_CU_ENCHANT_PROC</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_ENCHANT_PROC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:176</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da28eaf0758dda324281f34617eb9cf3be">SPELL_ATTR0_CU_NO_POSITIVE_TAKEN_BONUS</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NO_POSITIVE_TAKEN_BONUS</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:197</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da383488d2939eaa62f5661efac8e01d0e">SPELL_ATTR0_CU_FORCE_SEND_CATEGORY_COOLDOWNS</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_FORCE_SEND_CATEGORY_COOLDOWNS</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:204</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da3c6711e8c874226f4c63f477d27e2e35">SPELL_ATTR0_CU_DIRECT_DAMAGE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_DIRECT_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:184</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4b290bdc05e30600b17324adfa185e39">SPELL_ATTR0_CU_POSITIVE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_POSITIVE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:211</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da4d7ba94d96c89ebddcef8c081fb14557">SPELL_ATTR0_CU_FORCE_AURA_SAVING</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_FORCE_AURA_SAVING</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:205</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da53ab5109248d12159273e5111f3d7641">SPELL_ATTR0_CU_NO_PVP_FLAG</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NO_PVP_FLAG</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:183</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6e135d0f3f1ffad609c7a52988db5d0e">SPELL_ATTR0_CU_DONT_BREAK_STEALTH</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_DONT_BREAK_STEALTH</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:182</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f04115acffe8cda68c32d78e0941b40">SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:193</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_BACK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:177</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da7fbb6ea702124d1bd7fa091591d8fb7f">SPELL_ATTR0_CU_SINGLE_AURA_STACK</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_SINGLE_AURA_STACK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:198</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da82c401e647fb2c1c09ed1c6dd9568c2d">SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:200</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da8a9106d96628f46e484fe853c0ce35b2">SPELL_ATTR0_CU_NEGATIVE_EFF2</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NEGATIVE_EFF2</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:190</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da91a67b896bc85d53f71e8cc7798dff71">SPELL_ATTR0_CU_AURA_CC</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_AURA_CC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:181</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da928d7b52a9bcfb5573d4cd8ca8bd30a7">SPELL_ATTR0_CU_NEGATIVE_EFF1</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NEGATIVE_EFF1</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:189</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146da93ea23e532f0400d3ed24deb6882e6dd">SPELL_ATTR0_CU_CHARGE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CHARGE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:185</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaa6e1af347c468600585e39bbc32afe8">SPELL_ATTR0_CU_NEGATIVE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NEGATIVE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:210</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daaad600a26daf0b11ec7b14c5c2827987">SPELL_ATTR0_CU_NEEDS_AMMO_DATA</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NEEDS_AMMO_DATA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:195</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daae7209c277a0e60a1a9d6a228d87d18d">SPELL_ATTR0_CU_BYPASS_MECHANIC_IMMUNITY</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_BYPASS_MECHANIC_IMMUNITY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:208</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dab3988c31b79ecae6d62db4f734ba2c43">SPELL_ATTR0_CU_POSITIVE_EFF0</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_POSITIVE_EFF0</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:201</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dabac2d4ebdf4a34333975b3ded5b66e2c">SPELL_ATTR0_CU_NEGATIVE_EFF0</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NEGATIVE_EFF0</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:188</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dac7f10e52784d1c55029778cd6f537414">SPELL_ATTR0_CU_POSITIVE_EFF1</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_POSITIVE_EFF1</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:202</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dacd2b3dd04ea4267a9b7f43f00003837d">SPELL_ATTR0_CU_BINARY_SPELL</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_BINARY_SPELL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:196</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dad14307ec43a9235f85c2c32860871ed3">SPELL_ATTR0_CU_SHARE_DAMAGE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_SHARE_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:179</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dada37071a5f586acf592411604df0bf6e">SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:199</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae32d0c49b04f951a43140f23af436d05">SPELL_ATTR0_CU_IGNORE_EVADE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_IGNORE_EVADE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:187</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146dae9ced52980e85ea4d56e1a2540d0d0e9">SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:206</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf13ad4aaac2debb9e1be8686686cd215">SPELL_ATTR0_CU_ENCOUNTER_REWARD</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_ENCOUNTER_REWARD</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:207</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf173b3df1f0236ffb7df3a8fbe4c2efe">SPELL_ATTR0_CU_PICKPOCKET</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_PICKPOCKET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:186</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_LINE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:178</div></div>
+<div class="ttc" id="aa03065_html_a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94"><div class="ttname"><a href="../../d4/d44/a03065.html#a93795b2131c8cbe38a7b23768a5a146daf7ce6d6f1816304f4859833e912bfc94">SPELL_ATTR0_CU_NO_INITIAL_THREAT</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_NO_INITIAL_THREAT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:180</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0a81cd007334dc93766a3232dd6706eb" name="a0a81cd007334dc93766a3232dd6706eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a81cd007334dc93766a3232dd6706eb">&#9670;&#160;</a></span>SpellEffectImplicitTargetTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706eb">SpellEffectImplicitTargetTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718" name="a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718"></a>EFFECT_IMPLICIT_TARGET_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b" name="a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b"></a>EFFECT_IMPLICIT_TARGET_EXPLICIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1" name="a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1"></a>EFFECT_IMPLICIT_TARGET_CASTER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  141</span>{</div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718">EFFECT_IMPLICIT_TARGET_NONE</a> = 0,</div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b">EFFECT_IMPLICIT_TARGET_EXPLICIT</a>,</div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1">EFFECT_IMPLICIT_TARGET_CASTER</a>,</div>
+<div class="line"><span class="lineno">  145</span>};</div>
+<div class="ttc" id="aa03065_html_a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1"><div class="ttname"><a href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706eba4d5cf0d4a9e4b12de975cea878643ff1">EFFECT_IMPLICIT_TARGET_CASTER</a></div><div class="ttdeci">@ EFFECT_IMPLICIT_TARGET_CASTER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:144</div></div>
+<div class="ttc" id="aa03065_html_a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718"><div class="ttname"><a href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebacc77c2db92ab9e96d86307679d393718">EFFECT_IMPLICIT_TARGET_NONE</a></div><div class="ttdeci">@ EFFECT_IMPLICIT_TARGET_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:142</div></div>
+<div class="ttc" id="aa03065_html_a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b"><div class="ttname"><a href="../../d4/d44/a03065.html#a0a81cd007334dc93766a3232dd6706ebae8ee8d13574a2a0d4b09b83372112e5b">EFFECT_IMPLICIT_TARGET_EXPLICIT</a></div><div class="ttdeci">@ EFFECT_IMPLICIT_TARGET_EXPLICIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:143</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a967f80d0c19acebc2e322c73b7b16442" name="a967f80d0c19acebc2e322c73b7b16442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967f80d0c19acebc2e322c73b7b16442">&#9670;&#160;</a></span>SpellSpecificType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442">SpellSpecificType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb" name="a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb"></a>SPELL_SPECIFIC_NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8" name="a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8"></a>SPELL_SPECIFIC_SEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa" name="a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa"></a>SPELL_SPECIFIC_AURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b" name="a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b"></a>SPELL_SPECIFIC_STING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498" name="a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498"></a>SPELL_SPECIFIC_CURSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d" name="a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d"></a>SPELL_SPECIFIC_ASPECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f" name="a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f"></a>SPELL_SPECIFIC_TRACKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11" name="a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11"></a>SPELL_SPECIFIC_WARLOCK_ARMOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00" name="a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00"></a>SPELL_SPECIFIC_MAGE_ARMOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7" name="a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7"></a>SPELL_SPECIFIC_ELEMENTAL_SHIELD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128" name="a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128"></a>SPELL_SPECIFIC_MAGE_POLYMORPH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f" name="a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f"></a>SPELL_SPECIFIC_JUDGEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227" name="a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227"></a>SPELL_SPECIFIC_WARLOCK_CORRUPTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78" name="a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78"></a>SPELL_SPECIFIC_FOOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99" name="a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99"></a>SPELL_SPECIFIC_DRINK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876" name="a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876"></a>SPELL_SPECIFIC_FOOD_AND_DRINK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740" name="a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740"></a>SPELL_SPECIFIC_PRESENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c" name="a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c"></a>SPELL_SPECIFIC_CHARM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075" name="a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075"></a>SPELL_SPECIFIC_SCROLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984" name="a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984"></a>SPELL_SPECIFIC_MAGE_ARCANE_BRILLANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6" name="a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6"></a>SPELL_SPECIFIC_PRIEST_DIVINE_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902" name="a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902"></a>SPELL_SPECIFIC_HAND&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  149</span>{</div>
+<div class="line"><span class="lineno">  150</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb">SPELL_SPECIFIC_NORMAL</a>                        = 0,</div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8">SPELL_SPECIFIC_SEAL</a>                          = 1,</div>
+<div class="line"><span class="lineno">  152</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa">SPELL_SPECIFIC_AURA</a>                          = 3,</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b">SPELL_SPECIFIC_STING</a>                         = 4,</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498">SPELL_SPECIFIC_CURSE</a>                         = 5,</div>
+<div class="line"><span class="lineno">  155</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d">SPELL_SPECIFIC_ASPECT</a>                        = 6,</div>
+<div class="line"><span class="lineno">  156</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f">SPELL_SPECIFIC_TRACKER</a>                       = 7,</div>
+<div class="line"><span class="lineno">  157</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11">SPELL_SPECIFIC_WARLOCK_ARMOR</a>                 = 8,</div>
+<div class="line"><span class="lineno">  158</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00">SPELL_SPECIFIC_MAGE_ARMOR</a>                    = 9,</div>
+<div class="line"><span class="lineno">  159</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7">SPELL_SPECIFIC_ELEMENTAL_SHIELD</a>              = 10,</div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128">SPELL_SPECIFIC_MAGE_POLYMORPH</a>                = 11,</div>
+<div class="line"><span class="lineno">  161</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f">SPELL_SPECIFIC_JUDGEMENT</a>                     = 13,</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227">SPELL_SPECIFIC_WARLOCK_CORRUPTION</a>            = 17,</div>
+<div class="line"><span class="lineno">  163</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78">SPELL_SPECIFIC_FOOD</a>                          = 19,</div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99">SPELL_SPECIFIC_DRINK</a>                         = 20,</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876">SPELL_SPECIFIC_FOOD_AND_DRINK</a>                = 21,</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740">SPELL_SPECIFIC_PRESENCE</a>                      = 22,</div>
+<div class="line"><span class="lineno">  167</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c">SPELL_SPECIFIC_CHARM</a>                         = 23,</div>
+<div class="line"><span class="lineno">  168</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075">SPELL_SPECIFIC_SCROLL</a>                        = 24,</div>
+<div class="line"><span class="lineno">  169</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984">SPELL_SPECIFIC_MAGE_ARCANE_BRILLANCE</a>         = 25,</div>
+<div class="line"><span class="lineno">  170</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6">SPELL_SPECIFIC_PRIEST_DIVINE_SPIRIT</a>          = 26,</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902">SPELL_SPECIFIC_HAND</a>                          = 27,</div>
+<div class="line"><span class="lineno">  172</span>};</div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0a3c9804ace623ec239448c8bb595a78">SPELL_SPECIFIC_FOOD</a></div><div class="ttdeci">@ SPELL_SPECIFIC_FOOD</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:163</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a0cced2067e35e4a16aaea26285894f00">SPELL_SPECIFIC_MAGE_ARMOR</a></div><div class="ttdeci">@ SPELL_SPECIFIC_MAGE_ARMOR</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:158</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14b3a224998ba1e6ca256a9db862d6bb">SPELL_SPECIFIC_NORMAL</a></div><div class="ttdeci">@ SPELL_SPECIFIC_NORMAL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:150</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a14be3e103dc38f8f83320277f9503d8b">SPELL_SPECIFIC_STING</a></div><div class="ttdeci">@ SPELL_SPECIFIC_STING</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:153</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a22253b4ed978e9f58f8fc6b24d798984">SPELL_SPECIFIC_MAGE_ARCANE_BRILLANCE</a></div><div class="ttdeci">@ SPELL_SPECIFIC_MAGE_ARCANE_BRILLANCE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:169</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a29df11321fe63a3eec08a946f14f051d">SPELL_SPECIFIC_ASPECT</a></div><div class="ttdeci">@ SPELL_SPECIFIC_ASPECT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:155</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a3121484b9962cd6599af66608b3070f6">SPELL_SPECIFIC_PRIEST_DIVINE_SPIRIT</a></div><div class="ttdeci">@ SPELL_SPECIFIC_PRIEST_DIVINE_SPIRIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:170</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a44b2e954959c77b33da26dac7b10f5d7">SPELL_SPECIFIC_ELEMENTAL_SHIELD</a></div><div class="ttdeci">@ SPELL_SPECIFIC_ELEMENTAL_SHIELD</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:159</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a5177266e8772e33e36f8616d50d5c227">SPELL_SPECIFIC_WARLOCK_CORRUPTION</a></div><div class="ttdeci">@ SPELL_SPECIFIC_WARLOCK_CORRUPTION</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:162</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7b0c44b1a62767ff4ba6f672b3669740">SPELL_SPECIFIC_PRESENCE</a></div><div class="ttdeci">@ SPELL_SPECIFIC_PRESENCE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:166</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7f866107789080052aa1e03fee51e498">SPELL_SPECIFIC_CURSE</a></div><div class="ttdeci">@ SPELL_SPECIFIC_CURSE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:154</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a7fec7caa0a8ef5d84d2c896a2e06520f">SPELL_SPECIFIC_JUDGEMENT</a></div><div class="ttdeci">@ SPELL_SPECIFIC_JUDGEMENT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:161</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a81844d26a6249147ddf85aa8a2a39b99">SPELL_SPECIFIC_DRINK</a></div><div class="ttdeci">@ SPELL_SPECIFIC_DRINK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:164</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8a9c44e2c1e6154c967a90bb6c805902">SPELL_SPECIFIC_HAND</a></div><div class="ttdeci">@ SPELL_SPECIFIC_HAND</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:171</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442a8b31c1d8a369ac3bfa30c9e5b9b10ffa">SPELL_SPECIFIC_AURA</a></div><div class="ttdeci">@ SPELL_SPECIFIC_AURA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:152</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aa9839d49ba5abeaa79090f76bc81dd11">SPELL_SPECIFIC_WARLOCK_ARMOR</a></div><div class="ttdeci">@ SPELL_SPECIFIC_WARLOCK_ARMOR</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:157</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab426186b1709f5c925c0cceff7544075">SPELL_SPECIFIC_SCROLL</a></div><div class="ttdeci">@ SPELL_SPECIFIC_SCROLL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:168</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ab739709876cc712a09e288c112b7d128">SPELL_SPECIFIC_MAGE_POLYMORPH</a></div><div class="ttdeci">@ SPELL_SPECIFIC_MAGE_POLYMORPH</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:160</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ac71d0a605cc527f2d681c0c3489ff47f">SPELL_SPECIFIC_TRACKER</a></div><div class="ttdeci">@ SPELL_SPECIFIC_TRACKER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:156</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442ace711024e76be76f27754e61a33e35b8">SPELL_SPECIFIC_SEAL</a></div><div class="ttdeci">@ SPELL_SPECIFIC_SEAL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:151</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442adaba2b511f8a5bfdbdfe12e4de2bb876">SPELL_SPECIFIC_FOOD_AND_DRINK</a></div><div class="ttdeci">@ SPELL_SPECIFIC_FOOD_AND_DRINK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:165</div></div>
+<div class="ttc" id="aa03065_html_a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c"><div class="ttname"><a href="../../d4/d44/a03065.html#a967f80d0c19acebc2e322c73b7b16442aeda45b389ebbfe68d65e93c47160447c">SPELL_SPECIFIC_CHARM</a></div><div class="ttdeci">@ SPELL_SPECIFIC_CHARM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:167</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a392c69714f880d43f8afb5510ba1fff7" name="a392c69714f880d43f8afb5510ba1fff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392c69714f880d43f8afb5510ba1fff7">&#9670;&#160;</a></span>SpellTargetCheckTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7">SpellTargetCheckTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c" name="a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c"></a>TARGET_CHECK_DEFAULT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc" name="a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc"></a>TARGET_CHECK_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67" name="a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67"></a>TARGET_CHECK_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd" name="a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd"></a>TARGET_CHECK_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c" name="a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c"></a>TARGET_CHECK_PARTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26" name="a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26"></a>TARGET_CHECK_RAID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950" name="a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950"></a>TARGET_CHECK_RAID_CLASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d" name="a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d"></a>TARGET_CHECK_PASSENGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3" name="a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3"></a>TARGET_CHECK_CORPSE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c">TARGET_CHECK_DEFAULT</a>,</div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc">TARGET_CHECK_ENTRY</a>,</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67">TARGET_CHECK_ENEMY</a>,</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd">TARGET_CHECK_ALLY</a>,</div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c">TARGET_CHECK_PARTY</a>,</div>
+<div class="line"><span class="lineno">  119</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26">TARGET_CHECK_RAID</a>,</div>
+<div class="line"><span class="lineno">  120</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950">TARGET_CHECK_RAID_CLASS</a>,</div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d">TARGET_CHECK_PASSENGER</a>,</div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3">TARGET_CHECK_CORPSE</a>,</div>
+<div class="line"><span class="lineno">  123</span>};</div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a0285d6243f47bbae99d2f997c80c60f3">TARGET_CHECK_CORPSE</a></div><div class="ttdeci">@ TARGET_CHECK_CORPSE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:122</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a2038b3873bcbf521b5af4ca287394b4d">TARGET_CHECK_PASSENGER</a></div><div class="ttdeci">@ TARGET_CHECK_PASSENGER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:121</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a21d39e4788e52ea08975265a2327f67c">TARGET_CHECK_PARTY</a></div><div class="ttdeci">@ TARGET_CHECK_PARTY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:118</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a5e4199169c7f748b7f0d10d9f5f1ff67">TARGET_CHECK_ENEMY</a></div><div class="ttdeci">@ TARGET_CHECK_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:116</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7a7180b563b86e6f9ed1ecd6a0d1e8942c">TARGET_CHECK_DEFAULT</a></div><div class="ttdeci">@ TARGET_CHECK_DEFAULT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:114</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ab9ec49a9cbf57785f6e61d137e7d89dc">TARGET_CHECK_ENTRY</a></div><div class="ttdeci">@ TARGET_CHECK_ENTRY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:115</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7ac79ac0ccce5e22509ba327a9cacbe950">TARGET_CHECK_RAID_CLASS</a></div><div class="ttdeci">@ TARGET_CHECK_RAID_CLASS</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:120</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7aeefbf611727aa2696ebadd943c293cdd">TARGET_CHECK_ALLY</a></div><div class="ttdeci">@ TARGET_CHECK_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:117</div></div>
+<div class="ttc" id="aa03065_html_a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26"><div class="ttname"><a href="../../d4/d44/a03065.html#a392c69714f880d43f8afb5510ba1fff7afc1664906665ba50e82fed0e228a5b26">TARGET_CHECK_RAID</a></div><div class="ttdeci">@ TARGET_CHECK_RAID</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:119</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a41dacfabf3231ea2ee5894d61f6c3b6f" name="a41dacfabf3231ea2ee5894d61f6c3b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41dacfabf3231ea2ee5894d61f6c3b6f">&#9670;&#160;</a></span>SpellTargetDirectionTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6f">SpellTargetDirectionTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad" name="a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad"></a>TARGET_DIR_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c" name="a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c"></a>TARGET_DIR_FRONT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298" name="a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298"></a>TARGET_DIR_BACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088" name="a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088"></a>TARGET_DIR_RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8" name="a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8"></a>TARGET_DIR_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b" name="a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b"></a>TARGET_DIR_FRONT_RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc" name="a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc"></a>TARGET_DIR_BACK_RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6" name="a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6"></a>TARGET_DIR_BACK_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85" name="a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85"></a>TARGET_DIR_FRONT_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d" name="a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d"></a>TARGET_DIR_RANDOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7" name="a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7"></a>TARGET_DIR_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>{</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad">TARGET_DIR_NONE</a>,</div>
+<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c">TARGET_DIR_FRONT</a>,</div>
+<div class="line"><span class="lineno">  129</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298">TARGET_DIR_BACK</a>,</div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088">TARGET_DIR_RIGHT</a>,</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8">TARGET_DIR_LEFT</a>,</div>
+<div class="line"><span class="lineno">  132</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b">TARGET_DIR_FRONT_RIGHT</a>,</div>
+<div class="line"><span class="lineno">  133</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc">TARGET_DIR_BACK_RIGHT</a>,</div>
+<div class="line"><span class="lineno">  134</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6">TARGET_DIR_BACK_LEFT</a>,</div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85">TARGET_DIR_FRONT_LEFT</a>,</div>
+<div class="line"><span class="lineno">  136</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d">TARGET_DIR_RANDOM</a>,</div>
+<div class="line"><span class="lineno">  137</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7">TARGET_DIR_ENTRY</a>,</div>
+<div class="line"><span class="lineno">  138</span>};</div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa225ee569421e521ed6a045f82ad5bd9b">TARGET_DIR_FRONT_RIGHT</a></div><div class="ttdeci">@ TARGET_DIR_FRONT_RIGHT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:132</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa316ad1056bc8720066ef3302be4368ad">TARGET_DIR_NONE</a></div><div class="ttdeci">@ TARGET_DIR_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:127</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa481b14b3c1499129036414d2f9a7c298">TARGET_DIR_BACK</a></div><div class="ttdeci">@ TARGET_DIR_BACK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:129</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7d0f3a1805bf0cc460e8aa7df485f8bc">TARGET_DIR_BACK_RIGHT</a></div><div class="ttdeci">@ TARGET_DIR_BACK_RIGHT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:133</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa7f24bec37b8f026ad74e2bfa0d656088">TARGET_DIR_RIGHT</a></div><div class="ttdeci">@ TARGET_DIR_RIGHT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:130</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fa8ce598e23a6ab74caf1141da4f43dc85">TARGET_DIR_FRONT_LEFT</a></div><div class="ttdeci">@ TARGET_DIR_FRONT_LEFT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:135</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faadecf7d4271f115c4ac459659f84b48c">TARGET_DIR_FRONT</a></div><div class="ttdeci">@ TARGET_DIR_FRONT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:128</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac3d53d5ee31802576473c8629c9147c8">TARGET_DIR_LEFT</a></div><div class="ttdeci">@ TARGET_DIR_LEFT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:131</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fac43498e32437e3cfb01069fb115a36d7">TARGET_DIR_ENTRY</a></div><div class="ttdeci">@ TARGET_DIR_ENTRY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:137</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6faf39fa90b91cc01d5230e09028261c8e6">TARGET_DIR_BACK_LEFT</a></div><div class="ttdeci">@ TARGET_DIR_BACK_LEFT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:134</div></div>
+<div class="ttc" id="aa03065_html_a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d"><div class="ttname"><a href="../../d4/d44/a03065.html#a41dacfabf3231ea2ee5894d61f6c3b6fafa731e479af67e5b6dacfc5ff268946d">TARGET_DIR_RANDOM</a></div><div class="ttdeci">@ TARGET_DIR_RANDOM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:136</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abd452c9e8451ab6d47620dbda77f087a" name="abd452c9e8451ab6d47620dbda77f087a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd452c9e8451ab6d47620dbda77f087a">&#9670;&#160;</a></span>SpellTargetObjectTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2" name="abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2"></a>TARGET_OBJECT_TYPE_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51" name="abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51"></a>TARGET_OBJECT_TYPE_SRC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06" name="abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06"></a>TARGET_OBJECT_TYPE_DEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a" name="abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a"></a>TARGET_OBJECT_TYPE_UNIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744" name="abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744"></a>TARGET_OBJECT_TYPE_UNIT_AND_DEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151" name="abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151"></a>TARGET_OBJECT_TYPE_GOBJ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1" name="abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1"></a>TARGET_OBJECT_TYPE_GOBJ_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2" name="abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2"></a>TARGET_OBJECT_TYPE_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8" name="abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8"></a>TARGET_OBJECT_TYPE_CORPSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf" name="abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf"></a>TARGET_OBJECT_TYPE_CORPSE_ENEMY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7" name="abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7"></a>TARGET_OBJECT_TYPE_CORPSE_ALLY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2">TARGET_OBJECT_TYPE_NONE</a> = 0,</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>,</div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>,</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a>,</div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>,</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a>,</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>,</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a>,</div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a>,</div>
+<div class="line"><span class="lineno">  107</span>    <span class="comment">// only for effect target type</span></div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>,</div>
+<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>,</div>
+<div class="line"><span class="lineno">  110</span>};</div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_UNIT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:101</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:105</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:106</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_UNIT_AND_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:102</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa492508c69c7a4714e79f9164f1b33bd2">TARGET_OBJECT_TYPE_NONE</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:98</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:100</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_GOBJ</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:103</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE_ALLY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:109</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_CORPSE_ENEMY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:108</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_GOBJ_ITEM</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:104</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_SRC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:99</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae160272dac6c37cf297c68db99d9c987" name="ae160272dac6c37cf297c68db99d9c987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae160272dac6c37cf297c68db99d9c987">&#9670;&#160;</a></span>SpellTargetReferenceTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987">SpellTargetReferenceTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d" name="ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d"></a>TARGET_REFERENCE_TYPE_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5" name="ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5"></a>TARGET_REFERENCE_TYPE_CASTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094" name="ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094"></a>TARGET_REFERENCE_TYPE_TARGET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15" name="ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15"></a>TARGET_REFERENCE_TYPE_LAST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691" name="ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691"></a>TARGET_REFERENCE_TYPE_SRC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a" name="ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a"></a>TARGET_REFERENCE_TYPE_DEST&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d">TARGET_REFERENCE_TYPE_NONE</a>,</div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a>,</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a>,</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15">TARGET_REFERENCE_TYPE_LAST</a>,</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691">TARGET_REFERENCE_TYPE_SRC</a>,</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a">TARGET_REFERENCE_TYPE_DEST</a>,</div>
+<div class="line"><span class="lineno">   94</span>};</div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3163405368cff6c9a49a6ea0e38f7691">TARGET_REFERENCE_TYPE_SRC</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_SRC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:92</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:90</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a7453e1d8ffa58801cb631b1018da4b15">TARGET_REFERENCE_TYPE_LAST</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_LAST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:91</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a9ee4aa9cce6a4676247bd2193343fc8d">TARGET_REFERENCE_TYPE_NONE</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_NONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:88</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_CASTER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:89</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987ac30711b0604d8eb48cdd6f446c88c83a">TARGET_REFERENCE_TYPE_DEST</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:93</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1552887f0f9abf22f5e7af1064b8c213" name="a1552887f0f9abf22f5e7af1064b8c213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1552887f0f9abf22f5e7af1064b8c213">&#9670;&#160;</a></span>SpellTargetSelectionCategories</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213">SpellTargetSelectionCategories</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b" name="a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b"></a>TARGET_SELECT_CATEGORY_NYI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97" name="a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97"></a>TARGET_SELECT_CATEGORY_DEFAULT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699" name="a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699"></a>TARGET_SELECT_CATEGORY_CHANNEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d" name="a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d"></a>TARGET_SELECT_CATEGORY_NEARBY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2" name="a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2"></a>TARGET_SELECT_CATEGORY_CONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2" name="a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2"></a>TARGET_SELECT_CATEGORY_AREA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be" name="a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be"></a>TARGET_SELECT_CATEGORY_TRAJ&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b">TARGET_SELECT_CATEGORY_NYI</a>,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a>,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a>,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a>,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a>,</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a>,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be">TARGET_SELECT_CATEGORY_TRAJ</a>,</div>
+<div class="line"><span class="lineno">   84</span>};</div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:81</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_AREA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:82</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_DEFAULT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:78</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_NEARBY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:80</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a99069b5b18cd5ab2e29969a23be1e86b">TARGET_SELECT_CATEGORY_NYI</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_NYI</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:77</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213af408e4c32e2bb4c0aff27b4b0175b5be">TARGET_SELECT_CATEGORY_TRAJ</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_TRAJ</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:83</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CHANNEL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:79</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="adc898dfddc20010c41bb771b6d6f274e" name="adc898dfddc20010c41bb771b6d6f274e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc898dfddc20010c41bb771b6d6f274e">&#9670;&#160;</a></span>GetTargetFlagMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GetTargetFlagMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087a">SpellTargetObjectTypes</a>&#160;</td>
+          <td class="paramname"><em>objType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">switch</span> (objType)</div>
+<div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>:</div>
+<div class="line"><span class="lineno">   36</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a>;</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa305e23c44d8e1b887ed9a4eee850b744">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>:</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa6743615e8912aefb100fe3f804c162be">TARGET_FLAG_DEST_LOCATION</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a>;</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa85ba7994b9a5a03c307262b8edb1adb7">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>:</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a>;</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9bb3e441f22a39f2080698cffca89caf">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>:</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>;</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa2148778aa12343171cd38631f54417f8">TARGET_OBJECT_TYPE_CORPSE</a>:</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa38cb131e0c7ed94b462d3b610b6d7a11">TARGET_FLAG_CORPSE_ALLY</a> | <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54facb6946c76f4df16a44d6575253869d2b">TARGET_FLAG_CORPSE_ENEMY</a>;</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa07a11fb9bb20374e8b0b52385ebdac6a">TARGET_OBJECT_TYPE_UNIT</a>:</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa9bdbe71c2e8d869741084e7d1b9c0e7e">TARGET_FLAG_UNIT</a>;</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa81121f205f8ca67a630f129e732b3151">TARGET_OBJECT_TYPE_GOBJ</a>:</div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa0cc43eed3775f0742de2f496d9dadc49">TARGET_FLAG_GAMEOBJECT</a>;</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa9c4e80b4ed9a14cfe9ec23229e3d0dc1">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>:</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa57bdcad724ff2971c1476f51034d2418">TARGET_FLAG_GAMEOBJECT_ITEM</a>;</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa211a92f32e058191ed8d676eaab2f5e2">TARGET_OBJECT_TYPE_ITEM</a>:</div>
+<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa39c1b2ff3bdce8072d074f15c6c2af49">TARGET_FLAG_ITEM</a>;</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>:</div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa76062c8af712eecc1b87da7a458a86eb">TARGET_FLAG_SOURCE_LOCATION</a>;</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc">TARGET_FLAG_NONE</a>;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">TARGET_FLAG_CORPSE_ALLY</a>, <a class="el" href="../../#l00055">TARGET_FLAG_CORPSE_ENEMY</a>, <a class="el" href="../../#l00052">TARGET_FLAG_DEST_LOCATION</a>, <a class="el" href="../../#l00057">TARGET_FLAG_GAMEOBJECT</a>, <a class="el" href="../../#l00060">TARGET_FLAG_GAMEOBJECT_ITEM</a>, <a class="el" href="../../#l00050">TARGET_FLAG_ITEM</a>, <a class="el" href="../../#l00045">TARGET_FLAG_NONE</a>, <a class="el" href="../../#l00051">TARGET_FLAG_SOURCE_LOCATION</a>, <a class="el" href="../../#l00047">TARGET_FLAG_UNIT</a>, <a class="el" href="../../#l00106">TARGET_OBJECT_TYPE_CORPSE</a>, <a class="el" href="../../#l00109">TARGET_OBJECT_TYPE_CORPSE_ALLY</a>, <a class="el" href="../../#l00108">TARGET_OBJECT_TYPE_CORPSE_ENEMY</a>, <a class="el" href="../../#l00100">TARGET_OBJECT_TYPE_DEST</a>, <a class="el" href="../../#l00103">TARGET_OBJECT_TYPE_GOBJ</a>, <a class="el" href="../../#l00104">TARGET_OBJECT_TYPE_GOBJ_ITEM</a>, <a class="el" href="../../#l00105">TARGET_OBJECT_TYPE_ITEM</a>, <a class="el" href="../../#l00099">TARGET_OBJECT_TYPE_SRC</a>, <a class="el" href="../../#l00101">TARGET_OBJECT_TYPE_UNIT</a>, and <a class="el" href="../../#l00102">TARGET_OBJECT_TYPE_UNIT_AND_DEST</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00574">SpellEffectInfo::GetMissingTargetMask()</a>, <a class="el" href="../../#l00569">SpellEffectInfo::GetProvidedTargetMask()</a>, and <a class="el" href="../../#l00815">Spell::SelectSpellTargets()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d4/d44/a03065.html">InstanceMapScript.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../d4/d44/a03065.html">SpellInfo.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

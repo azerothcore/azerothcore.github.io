@@ -1,10 +1,14 @@
 var a07082 =
 [
-    [ "SelectionPool", "d4/db3/a07082.html#a9ddcca26fb3f4c635d7bcbb045542885", null ],
-    [ "AddGroup", "d4/db3/a07082.html#a87fe4747536355ad7affda76640a082e", null ],
-    [ "GetPlayerCount", "d4/db3/a07082.html#af344a6e6bb42609887ee8a3022e9d8e5", null ],
-    [ "Init", "d4/db3/a07082.html#a84c3fe684033e8744ce6d6bc50526ee7", null ],
-    [ "KickGroup", "d4/db3/a07082.html#a74fb708546a8612ca52b24b8472b71ef", null ],
-    [ "PlayerCount", "d4/db3/a07082.html#a0c08c47f68dbb45175efc524f4553e16", null ],
-    [ "SelectedGroups", "d4/db3/a07082.html#a4387ef77c341f90758d6c64c4ef2c475", null ]
+    [ "IsArena", "d4/db3/a07082.html#a8a99bf73debf5835e58537bee33fe2ad", null ],
+    [ "BattlemasterEntry", "d4/db3/a07082.html#a51ce3b9fdb2f51f439fee7c8b48e3918", null ],
+    [ "Id", "d4/db3/a07082.html#a0fca37318585903f68695452a95011a9", null ],
+    [ "MaxLevel", "d4/db3/a07082.html#a790f55d480d1454a5f6e5713c04314b7", null ],
+    [ "MaxPlayersPerTeam", "d4/db3/a07082.html#a324a4e557ce66089ec1111a9dae6e1de", null ],
+    [ "MaxStartDistSq", "d4/db3/a07082.html#a5fbb1a76221e9d15bd7cca13581f7b14", null ],
+    [ "MinLevel", "d4/db3/a07082.html#a49fdf96a08376830a06956fd501cfa78", null ],
+    [ "MinPlayersPerTeam", "d4/db3/a07082.html#ac1bea263b53de8573cdb8eb890175495", null ],
+    [ "ScriptId", "d4/db3/a07082.html#a968dd626dba22925be3d8f1a3bdc51aa", null ],
+    [ "StartLocation", "d4/db3/a07082.html#a8477d2156c8aa5bb89da038d1a779698", null ],
+    [ "Weight", "d4/db3/a07082.html#aa7a051e8453599a7e82da763a6f91da2", null ]
 ];

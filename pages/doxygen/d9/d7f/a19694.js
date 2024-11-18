@@ -1,7 +1,6 @@
 var a19694 =
 [
-    [ "boss_freya_healthy_sporeAI", "d9/d7f/a19694.html#a1f72bc2b113f3b909d44fd54fff87e31", null ],
-    [ "Reset", "d9/d7f/a19694.html#ad6d6562b5cc9f8232bdda99ec2204052", null ],
-    [ "UpdateAI", "d9/d7f/a19694.html#ace79c59d62e597ae31425b4006e1363f", null ],
-    [ "_despawnTimer", "d9/d7f/a19694.html#aaf65ef07480e5c634cc42dac0c7c734c", null ]
+    [ "boss_freya_lifebinderAI", "de/da7/a19698.html", "de/da7/a19698" ],
+    [ "boss_freya_lifebinder", "d9/d7f/a19694.html#ad7a3bc09aacf35b4a6a39e65c966b824", null ],
+    [ "GetAI", "d9/d7f/a19694.html#a978e4472a080f0fc53848abaa305cd77", null ]
 ];

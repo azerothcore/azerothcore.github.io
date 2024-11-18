@@ -1,6 +1,5 @@
 var a19650 =
 [
-    [ "boss_freya_elder_stonebarkAI", "d7/d2c/a19654.html", "d7/d2c/a19654" ],
-    [ "boss_freya_elder_stonebark", "d5/ddf/a19650.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "d5/ddf/a19650.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "achievement_flame_leviathan_unbroken", "d5/ddf/a19650.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
+    [ "OnCheck", "d5/ddf/a19650.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
 ];

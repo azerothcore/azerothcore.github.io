@@ -1,12 +1,8 @@
 var a11330 =
 [
-    [ "gm_commandscript", "d5/d8e/a11330.html#a1b24112b70818778755ef9b5b062b2e8", null ],
-    [ "GetCommands", "d5/d8e/a11330.html#a17c725e18324de7aadff260c77d75c45", null ],
-    [ "HandleGMChatCommand", "d5/d8e/a11330.html#a15a18b1179a602da3eeba7e8247fbbac", null ],
-    [ "HandleGMFlyCommand", "d5/d8e/a11330.html#a4073bc8216a3505b4b49326cbc081a99", null ],
-    [ "HandleGMListFullCommand", "d5/d8e/a11330.html#add9bd1e64f98964e68cd1be3df6295e7", null ],
-    [ "HandleGMListIngameCommand", "d5/d8e/a11330.html#ab6d59a1c29bd66b699ae597351b969d9", null ],
-    [ "HandleGMOffCommand", "d5/d8e/a11330.html#a66de9b1d6abaad56419a43d65861b5b3", null ],
-    [ "HandleGMOnCommand", "d5/d8e/a11330.html#afb0f18226aac1f581d09f3b7fe9d0ce7", null ],
-    [ "HandleGMVisibleCommand", "d5/d8e/a11330.html#a7af08caf6d3fba1b6ee29ea90b20fef8", null ]
+    [ "CreatureCountWorker", "d5/d8e/a11330.html#ad01e947d97d03a10ea3a891d24cb05b7", null ],
+    [ "GetTopCreatureCount", "d5/d8e/a11330.html#a5d4d009b6685dd71703f96f9945a463e", null ],
+    [ "Visit", "d5/d8e/a11330.html#a786d95d42f7711235e60a4f54cc3b4be", null ],
+    [ "Visit", "d5/d8e/a11330.html#afa72c0c1f905f4277d650ad0cfef281d", null ],
+    [ "creatureIds", "d5/d8e/a11330.html#a3a6f946c40b1006164793dbaed2b3948", null ]
 ];

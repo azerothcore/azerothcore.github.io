@@ -1,8 +1,8 @@
 var a02033 =
 [
-    [ "instance_old_hillsbrad", "dc/d97/a14390.html", "dc/d97/a14390" ],
-    [ "instance_old_hillsbrad::instance_old_hillsbrad_InstanceMapScript", "dd/dc4/a14394.html", "dd/dc4/a14394" ],
-    [ "AddSC_instance_old_hillsbrad", "d6/d94/a02033.html#a2b3faa69a9526f156ca7bae70c720075", null ],
-    [ "instancePositions", "d6/d94/a02033.html#a79b42da504a3cfde2581f63a639c7936", null ],
-    [ "thrallPositions", "d6/d94/a02033.html#a04c9058e75a93a56057912eb1c896bd0", null ]
+    [ "instance_trial_of_the_champion", "d0/d49/a15910.html", "d0/d49/a15910" ],
+    [ "instance_trial_of_the_champion::instance_trial_of_the_champion_InstanceMapScript", "d6/d24/a15914.html", "d6/d24/a15914" ],
+    [ "CLEANUP_CHECK_INTERVAL", "d6/d94/a02033.html#a736c9181af440341040d67d6b54e5700", null ],
+    [ "AddSC_instance_trial_of_the_champion", "d6/d94/a02033.html#a15e8163b6e8598d38b9f8c3b0ab9d5bd", null ],
+    [ "SpawnPosition", "d6/d94/a02033.html#a70438d12d4153aa7d510c89551abf7c9", null ]
 ];

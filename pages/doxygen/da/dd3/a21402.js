@@ -1,12 +1,6 @@
 var a21402 =
 [
-    [ "npc_wintergarde_gryphon", "da/dd3/a21402.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
-    [ "getVillager", "da/dd3/a21402.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
-    [ "IsSummonedBy", "da/dd3/a21402.html#acd7cea6226034d53b854c5ed659ff949", null ],
-    [ "JustDied", "da/dd3/a21402.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
-    [ "MovementInform", "da/dd3/a21402.html#a8f2faf49533d27d971110681e050c060", null ],
-    [ "PassengerBoarded", "da/dd3/a21402.html#a16c01d26aef06358f979f59fe68c09ca", null ],
-    [ "SpellHit", "da/dd3/a21402.html#acf64143ea83321556156fde30e1a34d4", null ],
-    [ "UpdateAI", "da/dd3/a21402.html#aa161f280e7a7370696cecc27c51ee55c", null ],
-    [ "villagerGUID", "da/dd3/a21402.html#a56a7973a05061197192111ecf55ef14a", null ]
+    [ "npc_mindless_ghoulAI", "da/dd3/a21402.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
+    [ "CanAIAttack", "da/dd3/a21402.html#a18fbc44ad760a69d952d003622ec75b2", null ],
+    [ "JustDied", "da/dd3/a21402.html#a272067bef6dbab24024f7de990c10b64", null ]
 ];

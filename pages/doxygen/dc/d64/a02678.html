@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommandTags.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/apps/authserver/Authentication/AuthCodes.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,178 +105,325 @@ $(document).ready(function(){initNavTree('dc/d64/a02678.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ChatCommandTags.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AuthCodes.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ChatCommandHelpers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Hyperlinks.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;boost/preprocessor/punctuation/comma_if.hpp&gt;</code><br />
-<code>#include &lt;boost/preprocessor/repetition/repeat.hpp&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;string_view&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &lt;variant&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8e/a07430.html">Acore::Impl::ChatCommands::ContainerTag</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3e/a07434.html">Acore::Impl::ChatCommands::tag_base&lt; T, std::enable_if_t&lt; std::is_base_of_v&lt; ContainerTag, T &gt; &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a07438.html">Acore::ChatCommands::ExactSequence&lt; chars &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddb/a07442.html">Acore::ChatCommands::Tail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d89/a07446.html">Acore::ChatCommands::WTail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/a07450.html">Acore::ChatCommands::QuotedString</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a07454.html">Acore::ChatCommands::AccountIdentifier</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/a07458.html">Acore::ChatCommands::PlayerIdentifier</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d36/a07462.html">Acore::ChatCommands::Hyperlink&lt; linktag &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d86/a07466.html">Acore::Impl::CastToVisitor&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/a07470.html">Acore::ChatCommands::Variant&lt; T1, Ts &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">Acore::Impl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/d6d/a04713"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html">Acore::Impl::ChatCommands</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/d13/a04714"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/a04714.html">Acore::ChatCommands</a></td></tr>
+<tr class="memitem:d4/d03/a04711"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html">AuthHelper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a55b2f2ab9e15f11a5b44f6d616f28e8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#a55b2f2ab9e15f11a5b44f6d616f28e8a">CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR</a>(z,  i,  strliteral)&#160;&#160;&#160;        BOOST_PP_COMMA_IF(i) <a class="el" href="../../da/d6d/a04713.html#ab72843264c39ce4d9aa3d4d8fbd83fc4">Acore::Impl::ChatCommands::GetChar</a>(strliteral, i)</td></tr>
-<tr class="separator:a55b2f2ab9e15f11a5b44f6d616f28e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ad890da39c16320a177ed5fbdffdf1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#ae9ad890da39c16320a177ed5fbdffdf1">CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED</a>(maxlen,  strliteral)&#160;&#160;&#160;        BOOST_PP_REPEAT(maxlen, <a class="el" href="../../dc/d64/a02678.html#a55b2f2ab9e15f11a5b44f6d616f28e8a">CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR</a>, strliteral)</td></tr>
-<tr class="separator:ae9ad890da39c16320a177ed5fbdffdf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af98497f511ab4c536bd80e08ff605c04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#af98497f511ab4c536bd80e08ff605c04">CHATCOMMANDS_IMPL_SPLIT_LITERAL</a>(strliteral)&#160;&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#ae9ad890da39c16320a177ed5fbdffdf1">CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED</a>(25, strliteral)</td></tr>
-<tr class="separator:af98497f511ab4c536bd80e08ff605c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac61bb0d0d29d3ccc94188eb93516adf5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#ac61bb0d0d29d3ccc94188eb93516adf5">EXACT_SEQUENCE</a>(str)&#160;&#160;&#160;<a class="el" href="../../d5/d6d/a07438.html">Acore::ChatCommands::ExactSequence</a>&lt;<a class="el" href="../../dc/d64/a02678.html#af98497f511ab4c536bd80e08ff605c04">CHATCOMMANDS_IMPL_SPLIT_LITERAL</a>(str)&gt;</td></tr>
-<tr class="separator:ac61bb0d0d29d3ccc94188eb93516adf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a87ba9bd5edfd749f4729620dbadd5fce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fce">AuthResult</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688">WOW_SUCCESS</a> = 0x00
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630">WOW_FAIL_BANNED</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114">WOW_FAIL_UNKNOWN_ACCOUNT</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3">WOW_FAIL_INCORRECT_PASSWORD</a> = 0x05
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c">WOW_FAIL_ALREADY_ONLINE</a> = 0x06
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34">WOW_FAIL_NO_TIME</a> = 0x07
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96">WOW_FAIL_DB_BUSY</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d">WOW_FAIL_VERSION_INVALID</a> = 0x09
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae">WOW_FAIL_VERSION_UPDATE</a> = 0x0A
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d">WOW_FAIL_INVALID_SERVER</a> = 0x0B
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04">WOW_FAIL_SUSPENDED</a> = 0x0C
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8">WOW_FAIL_FAIL_NOACCESS</a> = 0x0D
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a">WOW_SUCCESS_SURVEY</a> = 0x0E
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d">WOW_FAIL_PARENTCONTROL</a> = 0x0F
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3">WOW_FAIL_LOCKED_ENFORCED</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6">WOW_FAIL_TRIAL_ENDED</a> = 0x11
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c">WOW_FAIL_USE_BATTLENET</a> = 0x12
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3">WOW_FAIL_ANTI_INDULGENCE</a> = 0x13
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9">WOW_FAIL_EXPIRED</a> = 0x14
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf">WOW_FAIL_NO_GAME_ACCOUNT</a> = 0x15
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05">WOW_FAIL_CHARGEBACK</a> = 0x16
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9">WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET</a> = 0x17
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55">WOW_FAIL_GAME_ACCOUNT_LOCKED</a> = 0x18
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e">WOW_FAIL_UNLOCKABLE_LOCK</a> = 0x19
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739">WOW_FAIL_CONVERSION_REQUIRED</a> = 0x20
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65">WOW_FAIL_DISCONNECTED</a> = 0xFF
+<br />
+ }</td></tr>
+<tr class="separator:a87ba9bd5edfd749f4729620dbadd5fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b6904b8a00ed8f7a67396dee6e9aef5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5">LoginResult</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb">LOGIN_OK</a> = 0x00
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0">LOGIN_FAILED</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56">LOGIN_FAILED2</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005">LOGIN_BANNED</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3">LOGIN_UNKNOWN_ACCOUNT</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc">LOGIN_UNKNOWN_ACCOUNT3</a> = 0x05
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5">LOGIN_ALREADYONLINE</a> = 0x06
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342">LOGIN_NOTIME</a> = 0x07
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8">LOGIN_DBBUSY</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c">LOGIN_BADVERSION</a> = 0x09
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309">LOGIN_DOWNLOAD_FILE</a> = 0x0A
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3">LOGIN_FAILED3</a> = 0x0B
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b">LOGIN_SUSPENDED</a> = 0x0C
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e">LOGIN_FAILED4</a> = 0x0D
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae">LOGIN_CONNECTED</a> = 0x0E
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860">LOGIN_PARENTALCONTROL</a> = 0x0F
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02">LOGIN_LOCKED_ENFORCED</a> = 0x10
+<br />
+ }</td></tr>
+<tr class="separator:a3b6904b8a00ed8f7a67396dee6e9aef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4677c9d14c49d7eb90bf81f278756e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2">ExpansionFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb">POST_BC_EXP_FLAG</a> = 0x2
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64">PRE_BC_EXP_FLAG</a> = 0x1
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d">NO_VALID_EXP_FLAG</a> = 0x0
+<br />
+ }</td></tr>
+<tr class="separator:aa4677c9d14c49d7eb90bf81f278756e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab72843264c39ce4d9aa3d4d8fbd83fc4"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:ab72843264c39ce4d9aa3d4d8fbd83fc4"><td class="memTemplItemLeft" align="right" valign="top">constexpr char&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d6d/a04713.html#ab72843264c39ce4d9aa3d4d8fbd83fc4">Acore::Impl::ChatCommands::GetChar</a> (char const (&amp;s)[N], std::size_t i)</td></tr>
-<tr class="separator:ab72843264c39ce4d9aa3d4d8fbd83fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a906b5a3fdca3508aee0997881a717"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a50a906b5a3fdca3508aee0997881a717">AuthHelper::IsAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
+<tr class="separator:a50a906b5a3fdca3508aee0997881a717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f22daf9d88367d90d92416f470a28c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ad4f22daf9d88367d90d92416f470a28c">AuthHelper::IsPostBCAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
+<tr class="separator:ad4f22daf9d88367d90d92416f470a28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96896fc9dad2c304f681a24776f6726b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a96896fc9dad2c304f681a24776f6726b">AuthHelper::IsPreBCAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
+<tr class="separator:a96896fc9dad2c304f681a24776f6726b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="af98497f511ab4c536bd80e08ff605c04" name="af98497f511ab4c536bd80e08ff605c04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af98497f511ab4c536bd80e08ff605c04">&#9670;&#160;</a></span>CHATCOMMANDS_IMPL_SPLIT_LITERAL</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a87ba9bd5edfd749f4729620dbadd5fce" name="a87ba9bd5edfd749f4729620dbadd5fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ba9bd5edfd749f4729620dbadd5fce">&#9670;&#160;</a></span>AuthResult</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHATCOMMANDS_IMPL_SPLIT_LITERAL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">strliteral</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../dc/d64/a02678.html#ae9ad890da39c16320a177ed5fbdffdf1">CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED</a>(25, strliteral)</td>
+          <td class="memname">enum <a class="el" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fce">AuthResult</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688" name="a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688"></a>WOW_SUCCESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630" name="a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630"></a>WOW_FAIL_BANNED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114" name="a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114"></a>WOW_FAIL_UNKNOWN_ACCOUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3" name="a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3"></a>WOW_FAIL_INCORRECT_PASSWORD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c" name="a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c"></a>WOW_FAIL_ALREADY_ONLINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34" name="a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34"></a>WOW_FAIL_NO_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96" name="a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96"></a>WOW_FAIL_DB_BUSY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d" name="a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d"></a>WOW_FAIL_VERSION_INVALID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae" name="a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae"></a>WOW_FAIL_VERSION_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d" name="a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d"></a>WOW_FAIL_INVALID_SERVER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04" name="a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04"></a>WOW_FAIL_SUSPENDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8" name="a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8"></a>WOW_FAIL_FAIL_NOACCESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a" name="a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a"></a>WOW_SUCCESS_SURVEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d" name="a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d"></a>WOW_FAIL_PARENTCONTROL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3" name="a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3"></a>WOW_FAIL_LOCKED_ENFORCED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6" name="a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6"></a>WOW_FAIL_TRIAL_ENDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c" name="a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c"></a>WOW_FAIL_USE_BATTLENET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3" name="a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3"></a>WOW_FAIL_ANTI_INDULGENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9" name="a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9"></a>WOW_FAIL_EXPIRED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf" name="a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf"></a>WOW_FAIL_NO_GAME_ACCOUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05" name="a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05"></a>WOW_FAIL_CHARGEBACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9" name="a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9"></a>WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55" name="a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55"></a>WOW_FAIL_GAME_ACCOUNT_LOCKED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e" name="a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e"></a>WOW_FAIL_UNLOCKABLE_LOCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739" name="a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739"></a>WOW_FAIL_CONVERSION_REQUIRED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65" name="a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65"></a>WOW_FAIL_DISCONNECTED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688">WOW_SUCCESS</a>                                  = 0x00,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630">WOW_FAIL_BANNED</a>                              = 0x03,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114">WOW_FAIL_UNKNOWN_ACCOUNT</a>                     = 0x04,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3">WOW_FAIL_INCORRECT_PASSWORD</a>                  = 0x05,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c">WOW_FAIL_ALREADY_ONLINE</a>                      = 0x06,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34">WOW_FAIL_NO_TIME</a>                             = 0x07,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96">WOW_FAIL_DB_BUSY</a>                             = 0x08,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d">WOW_FAIL_VERSION_INVALID</a>                     = 0x09,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae">WOW_FAIL_VERSION_UPDATE</a>                      = 0x0A,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d">WOW_FAIL_INVALID_SERVER</a>                      = 0x0B,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04">WOW_FAIL_SUSPENDED</a>                           = 0x0C,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8">WOW_FAIL_FAIL_NOACCESS</a>                       = 0x0D,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a">WOW_SUCCESS_SURVEY</a>                           = 0x0E,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d">WOW_FAIL_PARENTCONTROL</a>                       = 0x0F,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3">WOW_FAIL_LOCKED_ENFORCED</a>                     = 0x10,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6">WOW_FAIL_TRIAL_ENDED</a>                         = 0x11,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c">WOW_FAIL_USE_BATTLENET</a>                       = 0x12,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3">WOW_FAIL_ANTI_INDULGENCE</a>                     = 0x13,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9">WOW_FAIL_EXPIRED</a>                             = 0x14,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf">WOW_FAIL_NO_GAME_ACCOUNT</a>                     = 0x15,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05">WOW_FAIL_CHARGEBACK</a>                          = 0x16,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9">WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET</a>     = 0x17,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55">WOW_FAIL_GAME_ACCOUNT_LOCKED</a>                 = 0x18,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e">WOW_FAIL_UNLOCKABLE_LOCK</a>                     = 0x19,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739">WOW_FAIL_CONVERSION_REQUIRED</a>                 = 0x20,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65">WOW_FAIL_DISCONNECTED</a>                        = 0xFF</div>
+<div class="line"><span class="lineno">   51</span>};</div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688">WOW_SUCCESS</a></div><div class="ttdeci">@ WOW_SUCCESS</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:25</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3">WOW_FAIL_LOCKED_ENFORCED</a></div><div class="ttdeci">@ WOW_FAIL_LOCKED_ENFORCED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:39</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6">WOW_FAIL_TRIAL_ENDED</a></div><div class="ttdeci">@ WOW_FAIL_TRIAL_ENDED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:40</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04">WOW_FAIL_SUSPENDED</a></div><div class="ttdeci">@ WOW_FAIL_SUSPENDED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:35</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05">WOW_FAIL_CHARGEBACK</a></div><div class="ttdeci">@ WOW_FAIL_CHARGEBACK</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:45</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55">WOW_FAIL_GAME_ACCOUNT_LOCKED</a></div><div class="ttdeci">@ WOW_FAIL_GAME_ACCOUNT_LOCKED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:47</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf">WOW_FAIL_NO_GAME_ACCOUNT</a></div><div class="ttdeci">@ WOW_FAIL_NO_GAME_ACCOUNT</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:44</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3">WOW_FAIL_INCORRECT_PASSWORD</a></div><div class="ttdeci">@ WOW_FAIL_INCORRECT_PASSWORD</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:28</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65">WOW_FAIL_DISCONNECTED</a></div><div class="ttdeci">@ WOW_FAIL_DISCONNECTED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:50</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114">WOW_FAIL_UNKNOWN_ACCOUNT</a></div><div class="ttdeci">@ WOW_FAIL_UNKNOWN_ACCOUNT</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:27</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630">WOW_FAIL_BANNED</a></div><div class="ttdeci">@ WOW_FAIL_BANNED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:26</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d">WOW_FAIL_PARENTCONTROL</a></div><div class="ttdeci">@ WOW_FAIL_PARENTCONTROL</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:38</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a">WOW_SUCCESS_SURVEY</a></div><div class="ttdeci">@ WOW_SUCCESS_SURVEY</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:37</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3">WOW_FAIL_ANTI_INDULGENCE</a></div><div class="ttdeci">@ WOW_FAIL_ANTI_INDULGENCE</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:42</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae">WOW_FAIL_VERSION_UPDATE</a></div><div class="ttdeci">@ WOW_FAIL_VERSION_UPDATE</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:33</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c">WOW_FAIL_ALREADY_ONLINE</a></div><div class="ttdeci">@ WOW_FAIL_ALREADY_ONLINE</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:29</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8">WOW_FAIL_FAIL_NOACCESS</a></div><div class="ttdeci">@ WOW_FAIL_FAIL_NOACCESS</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:36</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96">WOW_FAIL_DB_BUSY</a></div><div class="ttdeci">@ WOW_FAIL_DB_BUSY</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:31</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c">WOW_FAIL_USE_BATTLENET</a></div><div class="ttdeci">@ WOW_FAIL_USE_BATTLENET</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:41</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9">WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET</a></div><div class="ttdeci">@ WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:46</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e">WOW_FAIL_UNLOCKABLE_LOCK</a></div><div class="ttdeci">@ WOW_FAIL_UNLOCKABLE_LOCK</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:48</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739">WOW_FAIL_CONVERSION_REQUIRED</a></div><div class="ttdeci">@ WOW_FAIL_CONVERSION_REQUIRED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:49</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9">WOW_FAIL_EXPIRED</a></div><div class="ttdeci">@ WOW_FAIL_EXPIRED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:43</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34">WOW_FAIL_NO_TIME</a></div><div class="ttdeci">@ WOW_FAIL_NO_TIME</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:30</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d">WOW_FAIL_INVALID_SERVER</a></div><div class="ttdeci">@ WOW_FAIL_INVALID_SERVER</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:34</div></div>
+<div class="ttc" id="aa02678_html_a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d"><div class="ttname"><a href="../../dc/d64/a02678.html#a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d">WOW_FAIL_VERSION_INVALID</a></div><div class="ttdeci">@ WOW_FAIL_VERSION_INVALID</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="ae9ad890da39c16320a177ed5fbdffdf1" name="ae9ad890da39c16320a177ed5fbdffdf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9ad890da39c16320a177ed5fbdffdf1">&#9670;&#160;</a></span>CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED</h2>
+<a id="aa4677c9d14c49d7eb90bf81f278756e2" name="aa4677c9d14c49d7eb90bf81f278756e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4677c9d14c49d7eb90bf81f278756e2">&#9670;&#160;</a></span>ExpansionFlags</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">maxlen, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">strliteral&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;        BOOST_PP_REPEAT(maxlen, <a class="el" href="../../dc/d64/a02678.html#a55b2f2ab9e15f11a5b44f6d616f28e8a">CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR</a>, strliteral)</td>
+          <td class="memname">enum <a class="el" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2">ExpansionFlags</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb" name="aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb"></a>POST_BC_EXP_FLAG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64" name="aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64"></a>PRE_BC_EXP_FLAG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d" name="aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d"></a>NO_VALID_EXP_FLAG&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb">POST_BC_EXP_FLAG</a>                            = 0x2,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64">PRE_BC_EXP_FLAG</a>                             = 0x1,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d">NO_VALID_EXP_FLAG</a>                           = 0x0</div>
+<div class="line"><span class="lineno">   79</span>};</div>
+<div class="ttc" id="aa02678_html_aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb"><div class="ttname"><a href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb">POST_BC_EXP_FLAG</a></div><div class="ttdeci">@ POST_BC_EXP_FLAG</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:76</div></div>
+<div class="ttc" id="aa02678_html_aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d"><div class="ttname"><a href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d">NO_VALID_EXP_FLAG</a></div><div class="ttdeci">@ NO_VALID_EXP_FLAG</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:78</div></div>
+<div class="ttc" id="aa02678_html_aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64"><div class="ttname"><a href="../../dc/d64/a02678.html#aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64">PRE_BC_EXP_FLAG</a></div><div class="ttdeci">@ PRE_BC_EXP_FLAG</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a55b2f2ab9e15f11a5b44f6d616f28e8a" name="a55b2f2ab9e15f11a5b44f6d616f28e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b2f2ab9e15f11a5b44f6d616f28e8a">&#9670;&#160;</a></span>CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR</h2>
+<a id="a3b6904b8a00ed8f7a67396dee6e9aef5" name="a3b6904b8a00ed8f7a67396dee6e9aef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b6904b8a00ed8f7a67396dee6e9aef5">&#9670;&#160;</a></span>LoginResult</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">z, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">i, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">strliteral&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;        BOOST_PP_COMMA_IF(i) <a class="el" href="../../da/d6d/a04713.html#ab72843264c39ce4d9aa3d4d8fbd83fc4">Acore::Impl::ChatCommands::GetChar</a>(strliteral, i)</td>
+          <td class="memname">enum <a class="el" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5">LoginResult</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac61bb0d0d29d3ccc94188eb93516adf5" name="ac61bb0d0d29d3ccc94188eb93516adf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac61bb0d0d29d3ccc94188eb93516adf5">&#9670;&#160;</a></span>EXACT_SEQUENCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EXACT_SEQUENCE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">str</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d5/d6d/a07438.html">Acore::ChatCommands::ExactSequence</a>&lt;<a class="el" href="../../dc/d64/a02678.html#af98497f511ab4c536bd80e08ff605c04">CHATCOMMANDS_IMPL_SPLIT_LITERAL</a>(str)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb" name="a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb"></a>LOGIN_OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0" name="a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0"></a>LOGIN_FAILED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56" name="a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56"></a>LOGIN_FAILED2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005" name="a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005"></a>LOGIN_BANNED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3" name="a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3"></a>LOGIN_UNKNOWN_ACCOUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc" name="a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc"></a>LOGIN_UNKNOWN_ACCOUNT3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5" name="a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5"></a>LOGIN_ALREADYONLINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342" name="a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342"></a>LOGIN_NOTIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8" name="a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8"></a>LOGIN_DBBUSY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c" name="a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c"></a>LOGIN_BADVERSION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309" name="a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309"></a>LOGIN_DOWNLOAD_FILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3" name="a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3"></a>LOGIN_FAILED3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b" name="a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b"></a>LOGIN_SUSPENDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e" name="a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e"></a>LOGIN_FAILED4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae" name="a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae"></a>LOGIN_CONNECTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860" name="a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860"></a>LOGIN_PARENTALCONTROL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02" name="a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02"></a>LOGIN_LOCKED_ENFORCED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb">LOGIN_OK</a>                                     = 0x00,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0">LOGIN_FAILED</a>                                 = 0x01,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56">LOGIN_FAILED2</a>                                = 0x02,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005">LOGIN_BANNED</a>                                 = 0x03,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3">LOGIN_UNKNOWN_ACCOUNT</a>                        = 0x04,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc">LOGIN_UNKNOWN_ACCOUNT3</a>                       = 0x05,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5">LOGIN_ALREADYONLINE</a>                          = 0x06,</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342">LOGIN_NOTIME</a>                                 = 0x07,</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8">LOGIN_DBBUSY</a>                                 = 0x08,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c">LOGIN_BADVERSION</a>                             = 0x09,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309">LOGIN_DOWNLOAD_FILE</a>                          = 0x0A,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3">LOGIN_FAILED3</a>                                = 0x0B,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b">LOGIN_SUSPENDED</a>                              = 0x0C,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e">LOGIN_FAILED4</a>                                = 0x0D,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae">LOGIN_CONNECTED</a>                              = 0x0E,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860">LOGIN_PARENTALCONTROL</a>                        = 0x0F,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02">LOGIN_LOCKED_ENFORCED</a>                        = 0x10</div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e">LOGIN_FAILED4</a></div><div class="ttdeci">@ LOGIN_FAILED4</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:68</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3">LOGIN_UNKNOWN_ACCOUNT</a></div><div class="ttdeci">@ LOGIN_UNKNOWN_ACCOUNT</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:59</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae">LOGIN_CONNECTED</a></div><div class="ttdeci">@ LOGIN_CONNECTED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:69</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342">LOGIN_NOTIME</a></div><div class="ttdeci">@ LOGIN_NOTIME</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:62</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309">LOGIN_DOWNLOAD_FILE</a></div><div class="ttdeci">@ LOGIN_DOWNLOAD_FILE</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:65</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b">LOGIN_SUSPENDED</a></div><div class="ttdeci">@ LOGIN_SUSPENDED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:67</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56">LOGIN_FAILED2</a></div><div class="ttdeci">@ LOGIN_FAILED2</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:57</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02">LOGIN_LOCKED_ENFORCED</a></div><div class="ttdeci">@ LOGIN_LOCKED_ENFORCED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:71</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5">LOGIN_ALREADYONLINE</a></div><div class="ttdeci">@ LOGIN_ALREADYONLINE</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:61</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc">LOGIN_UNKNOWN_ACCOUNT3</a></div><div class="ttdeci">@ LOGIN_UNKNOWN_ACCOUNT3</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:60</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb">LOGIN_OK</a></div><div class="ttdeci">@ LOGIN_OK</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:55</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005">LOGIN_BANNED</a></div><div class="ttdeci">@ LOGIN_BANNED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:58</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0">LOGIN_FAILED</a></div><div class="ttdeci">@ LOGIN_FAILED</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:56</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c">LOGIN_BADVERSION</a></div><div class="ttdeci">@ LOGIN_BADVERSION</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:64</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8">LOGIN_DBBUSY</a></div><div class="ttdeci">@ LOGIN_DBBUSY</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:63</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3">LOGIN_FAILED3</a></div><div class="ttdeci">@ LOGIN_FAILED3</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:66</div></div>
+<div class="ttc" id="aa02678_html_a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860"><div class="ttname"><a href="../../dc/d64/a02678.html#a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860">LOGIN_PARENTALCONTROL</a></div><div class="ttdeci">@ LOGIN_PARENTALCONTROL</div><div class="ttdef"><b>Definition:</b> AuthCodes.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -284,8 +431,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../dc/d64/a02678.html">ChatCommandTags.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_5048a8ff141d56662c703e95f88ef858.html">authserver</a></li><li class="navelem"><a class="el" href="../../dir_9cb3b0d623cd4274c7a9c8ac2a66c533.html">Authentication</a></li><li class="navelem"><a class="el" href="../../dc/d64/a02678.html">AuthCodes.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

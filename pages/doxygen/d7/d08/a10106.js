@@ -1,10 +1,7 @@
 var a10106 =
 [
-    [ "VehicleScript", "d7/d08/a10106.html#a9f708a7e432fcb4abe15dcabb0e5a035", null ],
-    [ "OnAddPassenger", "d7/d08/a10106.html#a4495f8900ecb85546ac23ebe4783ae7c", null ],
-    [ "OnInstall", "d7/d08/a10106.html#abbb42dcbc5fad97ed1df45ea7b3afe54", null ],
-    [ "OnInstallAccessory", "d7/d08/a10106.html#ad59ae4c47404abb86e05ae983704f6ea", null ],
-    [ "OnRemovePassenger", "d7/d08/a10106.html#ad4094366aba1fb6a1ff19361d1be9210", null ],
-    [ "OnReset", "d7/d08/a10106.html#a38fca3fec8785f015084b832f9e3b08c", null ],
-    [ "OnUninstall", "d7/d08/a10106.html#a7d4bafe42756ee73b5ce79783842c243", null ]
+    [ "SpellScriptLoader", "d7/d08/a10106.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
+    [ "GetAuraScript", "d7/d08/a10106.html#a9c60850e39ffe3d151a128b12777859d", null ],
+    [ "GetSpellScript", "d7/d08/a10106.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
+    [ "IsDatabaseBound", "d7/d08/a10106.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
 ];

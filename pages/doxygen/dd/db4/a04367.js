@@ -1,4 +1,4 @@
 var a04367 =
 [
-    [ "WorldPackets::CombatLog::EnvironmentalDamageLog", "d4/dff/a10238.html", "d4/dff/a10238" ]
+    [ "ScriptRegistry< BattlegroundScript >", "dd/db4/a04367.html#a954046a61096ecb9db321b0a35da5f77", null ]
 ];

@@ -1,9 +1,8 @@
 var a14570 =
 [
-    [ "npc_buru_egg", "d6/d71/a14570.html#a6aa2896342b802caecde1c1dffcf4907", null ],
-    [ "JustDied", "d6/d71/a14570.html#a3de169b252374f0b2daed3ecb5a11502", null ],
-    [ "JustEngagedWith", "d6/d71/a14570.html#a8cde6848569671876a17b00d75228ebe", null ],
-    [ "JustSummoned", "d6/d71/a14570.html#abebb96dcb3d653bddd4210da6567fb87", null ],
-    [ "UpdateAI", "d6/d71/a14570.html#a4d77f8b40ea8e936c9388aeff4927420", null ],
-    [ "_instance", "d6/d71/a14570.html#a5b168226755a57368f17827e3457a0ca", null ]
+    [ "HandleScript", "d6/d71/a14570.html#ac58aef1b295e32c8a44852278edc18f8", null ],
+    [ "Load", "d6/d71/a14570.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
+    [ "PrepareSpellScript", "d6/d71/a14570.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
+    [ "Register", "d6/d71/a14570.html#a95f4abd67d6baf75980ff28a7518503d", null ],
+    [ "Validate", "d6/d71/a14570.html#a98271e7adb17b11e39241154a83b0d0d", null ]
 ];

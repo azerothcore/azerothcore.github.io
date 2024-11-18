@@ -1,6 +1,7 @@
 var a19074 =
 [
-    [ "PrepareSpellScript", "d9/dc5/a19074.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
-    [ "Register", "d9/dc5/a19074.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
-    [ "SetDest", "d9/dc5/a19074.html#a24341aae14ed77101d4c31f2fbe11463", null ]
+    [ "HandleProc", "d9/dc5/a19074.html#a84255cd31ebaa7c70de93d569258c709", null ],
+    [ "PrepareAuraScript", "d9/dc5/a19074.html#a8d9c8122b105b28b88c4297d3a9acf7f", null ],
+    [ "Register", "d9/dc5/a19074.html#a6bc166d2e1455537fa78c4223da17746", null ],
+    [ "Validate", "d9/dc5/a19074.html#ab38bde2ed642dcf4fda1893a131aa6fe", null ]
 ];

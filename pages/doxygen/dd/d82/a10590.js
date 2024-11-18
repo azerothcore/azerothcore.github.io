@@ -1,6 +1,17 @@
 var a10590 =
 [
-    [ "PetStopAttack", "dd/d82/a10590.html#a4a68127f3290d4f2e288600757dd3282", null ],
-    [ "Read", "dd/d82/a10590.html#a22dd8d9fcbadbec5ba046812f5cdac51", null ],
-    [ "PetGUID", "dd/d82/a10590.html#af7b95e5b976af2fa7bb4c61319f7eb97", null ]
+    [ "CompactArray", "dd/d82/a10590.html#a167096f1966862ec92556b6f5d3aa3b8", null ],
+    [ "CompactArray", "dd/d82/a10590.html#a70adda7a73d5c54b1d29668f23778c9f", null ],
+    [ "CompactArray", "dd/d82/a10590.html#a757f7d94e52fa821dc1fdb03877574f3", null ],
+    [ "Clear", "dd/d82/a10590.html#ae213ad313a4b0688763e882a2010c494", null ],
+    [ "GetMask", "dd/d82/a10590.html#a3a421d4ee2e7459cbc945c6c70c1993f", null ],
+    [ "GetSize", "dd/d82/a10590.html#a656c3568cd73d10dd6f9cda1809ff509", null ],
+    [ "Insert", "dd/d82/a10590.html#a313aedf5c623505860a227149cb64b5a", null ],
+    [ "operator!=", "dd/d82/a10590.html#adaade1e09d979a6e98b90253f442a9e5", null ],
+    [ "operator=", "dd/d82/a10590.html#a75f0995b55269fc2d0bca87a0294fcb3", null ],
+    [ "operator=", "dd/d82/a10590.html#a14d76ffa09769e341dea769424ac586c", null ],
+    [ "operator==", "dd/d82/a10590.html#a24c7c9794991ec3bf4ecefa93f8ee23e", null ],
+    [ "operator[]", "dd/d82/a10590.html#af146d3e880ec34358ff6a07247f741d8", null ],
+    [ "_contents", "dd/d82/a10590.html#a1e0ff07a4905517dc6e92a3615bc36d0", null ],
+    [ "_mask", "dd/d82/a10590.html#a85ef9a03e561e385f41de88e6e0f98c0", null ]
 ];

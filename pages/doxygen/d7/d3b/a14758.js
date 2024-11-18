@@ -1,15 +1,13 @@
 var a14758 =
 [
-    [ "boss_skeram", "d7/d3b/a14758.html#a293710a88c91a181ee1000939386e176", null ],
-    [ "DoTeleport", "d7/d3b/a14758.html#a96166ddebd5906868b872c39a6755a70", null ],
-    [ "EnterEvadeMode", "d7/d3b/a14758.html#ab050e31d661c8c089d175de231b0eeb2", null ],
-    [ "JustDied", "d7/d3b/a14758.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
-    [ "JustEngagedWith", "d7/d3b/a14758.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
-    [ "JustSummoned", "d7/d3b/a14758.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
-    [ "KilledUnit", "d7/d3b/a14758.html#a185cb6686d37e064278260ebe5fae13a", null ],
-    [ "Reset", "d7/d3b/a14758.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
-    [ "UpdateAI", "d7/d3b/a14758.html#aaf29331e0fac71479747d62fd9f1e301", null ],
-    [ "_copiesGUIDs", "d7/d3b/a14758.html#a28f1465938dc2141779d5171ea09ecd0", null ],
-    [ "_flag", "d7/d3b/a14758.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
-    [ "_hpct", "d7/d3b/a14758.html#a5c8760788264a9a04a28c05a0247676c", null ]
+    [ "npc_dirt_mound", "d7/d3b/a14758.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
+    [ "ChaseNewTarget", "d7/d3b/a14758.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
+    [ "EnterEvadeMode", "d7/d3b/a14758.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
+    [ "JustEngagedWith", "d7/d3b/a14758.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
+    [ "JustSummoned", "d7/d3b/a14758.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
+    [ "Reset", "d7/d3b/a14758.html#ae1662eb73f21351e07d00a717421de68", null ],
+    [ "SetData", "d7/d3b/a14758.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
+    [ "UpdateAI", "d7/d3b/a14758.html#a88447191070cf8b84df96db565eef48d", null ],
+    [ "_instance", "d7/d3b/a14758.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
+    [ "_ouroHealth", "d7/d3b/a14758.html#ac83391fa5069ae4574748f82d15e833d", null ]
 ];

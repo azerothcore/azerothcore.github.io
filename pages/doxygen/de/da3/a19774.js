@@ -1,5 +1,7 @@
 var a19774 =
 [
-    [ "go_ulduar_pure_saronite_deposit", "de/da3/a19774.html#a39da51a78b9f27392ed7494e18e89b93", null ],
-    [ "OnGossipHello", "de/da3/a19774.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
+    [ "HandleAfterHit", "de/da3/a19774.html#a75953cbb3a288fd373e602ed07d84441", null ],
+    [ "PrepareSpellScript", "de/da3/a19774.html#a55c604f072fd0bbdcb886635fb53eaa8", null ],
+    [ "Register", "de/da3/a19774.html#af963f0dcdf2a1bc040a597c06983f0a7", null ],
+    [ "Validate", "de/da3/a19774.html#aea2b951dd2353800958f654df58d8fd8", null ]
 ];

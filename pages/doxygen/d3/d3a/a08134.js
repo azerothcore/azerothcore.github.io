@@ -1,26 +1,4 @@
 var a08134 =
 [
-    [ "JumpInfo", "df/d2d/a08142.html", "df/d2d/a08142" ],
-    [ "TransportInfo", "d9/da8/a08138.html", "d9/da8/a08138" ],
-    [ "MovementInfo", "d3/d3a/a08134.html#a809340998de55a9ffa895f7b27e1f2c3", null ],
-    [ "AddExtraMovementFlag", "d3/d3a/a08134.html#aff0e449eb1567041f1a44c34e5fa85bc", null ],
-    [ "AddMovementFlag", "d3/d3a/a08134.html#ae02908de40bf25e5d07d3bb248448a68", null ],
-    [ "GetExtraMovementFlags", "d3/d3a/a08134.html#a7a9353ff367c80cddeaddd63fcd32ddb", null ],
-    [ "GetMovementFlags", "d3/d3a/a08134.html#ade08354701baa32b9ff232d6b07e6097", null ],
-    [ "HasExtraMovementFlag", "d3/d3a/a08134.html#afad84c80474a806e8abb4626ccfbcfaf", null ],
-    [ "HasMovementFlag", "d3/d3a/a08134.html#ad9571cb899d58cc60fbe2412be79116e", null ],
-    [ "OutDebug", "d3/d3a/a08134.html#af8c4c6db42364ec712398b317238c90b", null ],
-    [ "RemoveMovementFlag", "d3/d3a/a08134.html#ab38114c14a8848a082b4f265eab11c72", null ],
-    [ "SetFallTime", "d3/d3a/a08134.html#a683565ad0865709083e81d07a8ce1395", null ],
-    [ "SetMovementFlags", "d3/d3a/a08134.html#ace324e7171c3520efdce76d2bbc75c67", null ],
-    [ "fallTime", "d3/d3a/a08134.html#abcf42fcf7d61044fd9fb5e6857e21ab5", null ],
-    [ "flags", "d3/d3a/a08134.html#ab64213c21ac3cdfd769a5acdc7fce200", null ],
-    [ "flags2", "d3/d3a/a08134.html#aa8dc40a9829334f2ca7fa4e7347f91a5", null ],
-    [ "guid", "d3/d3a/a08134.html#a10c1c9721558fd98d33bb43b3bfff837", null ],
-    [ "jump", "d3/d3a/a08134.html#a920a536b873fcc63dd6bb22882a7a8ea", null ],
-    [ "pitch", "d3/d3a/a08134.html#af2945943a91efc4cd5f2f9a0b86424cf", null ],
-    [ "pos", "d3/d3a/a08134.html#afc5605f3e357e6ca4f2c681329bb0302", null ],
-    [ "splineElevation", "d3/d3a/a08134.html#ac524b47fa52b05e7c6a6b7c577c9291f", null ],
-    [ "time", "d3/d3a/a08134.html#a90c332cb1b99ce1ac6eab39bc2a6e4b2", null ],
-    [ "transport", "d3/d3a/a08134.html#ac2b0f738ec695f4c9f032daad3e1f041", null ]
+    [ "Name", "d3/d3a/a08134.html#aab0b8fc04dcd6a8c551f5dfc4846b290", null ]
 ];

@@ -1,10 +1,8 @@
 var a06002 =
 [
-    [ "NullCreatureAI", "d1/df7/a06002.html#aa9969eeb9a79559c9f2d3bd907b3fd85", null ],
-    [ "AttackStart", "d1/df7/a06002.html#a94d4594e1f39143ea41ce00aeecec4b4", null ],
-    [ "EnterEvadeMode", "d1/df7/a06002.html#a726edd296c16ed2414fcc1827f88238f", null ],
-    [ "MoveInLineOfSight", "d1/df7/a06002.html#a12c54c92a08e81751563ec9522236b28", null ],
-    [ "OnCharmed", "d1/df7/a06002.html#a77b274955dcfdf2d10bbc43b64330f8d", null ],
-    [ "Permissible", "d1/df7/a06002.html#a77595426da50819a0ff0744930d19b23", null ],
-    [ "UpdateAI", "d1/df7/a06002.html#ab200fcf78dee74a2ec808c01f5855236", null ]
+    [ "GuardAI", "d1/df7/a06002.html#ac1f0ba47d8e32c65845808170330b7af", null ],
+    [ "EnterEvadeMode", "d1/df7/a06002.html#af021cc31298d4a0f38a7d82ac8e02e30", null ],
+    [ "JustDied", "d1/df7/a06002.html#a96820cdcb632d3a71f9deacf4998a774", null ],
+    [ "Permissible", "d1/df7/a06002.html#a238f38bd3fc7cfa8ace3549f4a6199fb", null ],
+    [ "Reset", "d1/df7/a06002.html#a91b12b6a50641d17a79550b9ffb5284a", null ]
 ];

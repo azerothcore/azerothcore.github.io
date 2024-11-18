@@ -1,8 +1,6 @@
 var a12954 =
 [
-    [ "HandleApply", "df/d9f/a12954.html#a2e07ffc92d44757fe2b074244048dbf4", null ],
-    [ "HandleRemove", "df/d9f/a12954.html#ae0d8cb63cf62e5015daa56463524aa27", null ],
-    [ "PrepareAuraScript", "df/d9f/a12954.html#a4a59bd5c9ce7b74d29cdd6132f94c0bf", null ],
-    [ "Register", "df/d9f/a12954.html#a3b91d692ad34b7ce965887590780e146", null ],
-    [ "Validate", "df/d9f/a12954.html#aa3ee5b49e9e1009d5be34214eefd2a6d", null ]
+    [ "CorruptTriggers", "df/d9f/a12954.html#a5ec60254ee2ac299ce99164189087a1c", null ],
+    [ "Execute", "df/d9f/a12954.html#a9929f3518f307e0b753782967f06c6c1", null ],
+    [ "_caster", "df/d9f/a12954.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
 ];

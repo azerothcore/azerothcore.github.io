@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/Naxxramas/naxxramas.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/instance_hyjal.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,886 +105,197 @@ $(document).ready(function(){initNavTree('db/d28/a01133.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">naxxramas.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">instance_hyjal.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">hyjal.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;NAX&quot;</td></tr>
-<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a723d51a7fd90e70d68c9ad640bbede40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a723d51a7fd90e70d68c9ad640bbede40">NaxxramasScriptName</a>&#160;&#160;&#160;&quot;instance_naxxramas&quot;</td></tr>
-<tr class="separator:a723d51a7fd90e70d68c9ad640bbede40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a9235eb89d4fffe7725a764c3928a2ad8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8">Encouters</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62">BOSS_PATCHWERK</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5">BOSS_GROBBULUS</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f">BOSS_GLUTH</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6">BOSS_NOTH</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a">BOSS_HEIGAN</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1">BOSS_LOATHEB</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e">BOSS_ANUB</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2">BOSS_FAERLINA</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9">BOSS_MAEXXNA</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d">BOSS_THADDIUS</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544">BOSS_RAZUVIOUS</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c">BOSS_GOTHIK</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1">BOSS_HORSEMAN</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572">BOSS_SAPPHIRON</a> = 13
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d">BOSS_KELTHUZAD</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a>
-<br />
- }</td></tr>
-<tr class="separator:a9235eb89d4fffe7725a764c3928a2ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b8d798ed90e15f1532f6d604c62740"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740">NXData</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541">DATA_NOTH_ENTRY_GATE</a> = 100
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c">DATA_HEIGAN_ERUPTION</a> = 101
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635">DATA_HEIGAN_ENTER_GATE</a> = 102
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74">DATA_LOATHEB_GATE</a> = 103
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b">DATA_ANUB_GATE</a> = 104
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b">DATA_FAERLINA_WEB</a> = 105
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026">DATA_MAEXXNA_GATE</a> = 106
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef">DATA_THADDIUS_BOSS</a> = 107
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5">DATA_STALAGG_BOSS</a> = 108
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a">DATA_FEUGEN_BOSS</a> = 109
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66">DATA_THADDIUS_GATE</a> = 110
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76">DATA_RAZUVIOUS</a> = 111
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a">DATA_GOTHIK_BOSS</a> = 112
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4">DATA_GOTHIK_ENTER_GATE</a> = 113
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7">DATA_GOTHIK_INNER_GATE</a> = 114
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7">DATA_GOTHIK_EXIT_GATE</a> = 115
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429">DATA_HORSEMEN_GATE</a> = 116
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e">DATA_LICH_KING_BOSS</a> = 117
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6">DATA_KELTHUZAD_FLOOR</a> = 118
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257">DATA_ABOMINATION_KILLED</a> = 119
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96">DATA_FRENZY_REMOVED</a> = 120
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51">DATA_CHARGES_CROSSED</a> = 121
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837">DATA_SPORE_KILLED</a> = 122
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7">DATA_HUNDRED_CLUB</a> = 123
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9">DATA_DANCE_FAIL</a> = 124
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea">DATA_IMMORTAL_FAIL</a> = 125
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f">DATA_KELTHUZAD_GATE</a> = 126
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08">DATA_HAD_THADDIUS_GREET</a> = 127
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77">DATA_KELTHUZAD_PORTAL_1</a> = 128
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6">DATA_KELTHUZAD_PORTAL_2</a> = 129
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef">DATA_KELTHUZAD_PORTAL_3</a> = 130
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a">DATA_KELTHUZAD_PORTAL_4</a> = 131
-<br />
- }</td></tr>
-<tr class="separator:a50b8d798ed90e15f1532f6d604c62740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0b36a19f583e1b943423e019ad8a46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46">NXGOs</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab">GO_PATCHWERK_GATE</a> = 181123
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb">GO_GLUTH_GATE</a> = 181120
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803">GO_NOTH_ENTRY_GATE</a> = 181200
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b">GO_NOTH_EXIT_GATE</a> = 181201
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641">GO_HEIGAN_ENTRY_GATE</a> = 181202
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708">GO_HEIGAN_EXIT_GATE</a> = 181203
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e">GO_LOATHEB_GATE</a> = 181241
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac">GO_ANUB_GATE</a> = 181126
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41">GO_ANUB_NEXT_GATE</a> = 181195
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c">GO_FAERLINA_WEB</a> = 181235
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590">GO_FAERLINA_GATE</a> = 194022
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324">GO_MAEXXNA_GATE</a> = 181209
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e">GO_THADDIUS_GATE</a> = 181121
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8">GO_GOTHIK_ENTER_GATE</a> = 181124
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0">GO_GOTHIK_INNER_GATE</a> = 181170
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120">GO_GOTHIK_EXIT_GATE</a> = 181125
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095">GO_HORSEMEN_GATE</a> = 181119
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda">GO_SAPPHIRON_GATE</a> = 181225
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290">GO_HORSEMEN_CHEST_10</a> = 181366
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f">GO_HORSEMEN_CHEST_25</a> = 193426
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc">GO_SAPPHIRON_BIRTH</a> = 181356
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db">GO_KELTHUZAD_FLOOR</a> = 181444
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca">GO_KELTHUZAD_GATE</a> = 181228
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7">GO_KELTHUZAD_PORTAL_1</a> = 181402
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818">GO_KELTHUZAD_PORTAL_2</a> = 181403
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa">GO_KELTHUZAD_PORTAL_3</a> = 181404
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e">GO_KELTHUZAD_PORTAL_4</a> = 181405
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1">GO_LOATHEB_PORTAL</a> = 181577
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d">GO_THADDIUS_PORTAL</a> = 181576
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f">GO_MAEXXNA_PORTAL</a> = 181575
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5">GO_HORSEMAN_PORTAL</a> = 181578
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563">GO_DEATHKNIGHT_EYE_PORTAL</a> = 181210
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147">GO_PLAGUE_EYE_PORTAL</a> = 181211
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409">GO_SPIDER_EYE_PORTAL</a> = 181212
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb">GO_ABOM_EYE_PORTAL</a> = 181213
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34">GO_ARAC_EYE_RAMP_BOSS</a> = 181233
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad">GO_PLAG_EYE_RAMP_BOSS</a> = 181231
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666">GO_MILI_EYE_RAMP_BOSS</a> = 181230
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc">GO_CONS_EYE_RAMP_BOSS</a> = 181232
-<br />
- }</td></tr>
-<tr class="separator:a3e0b36a19f583e1b943423e019ad8a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa89d980cc900334f663698b1c19a0418"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418">NXNPCs</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4">NPC_THADDIUS</a> = 15928
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977">NPC_STALAGG</a> = 15929
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22">NPC_FEUGEN</a> = 15930
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2">NPC_RAZUVIOUS</a> = 16061
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf">NPC_BARON_RIVENDARE</a> = 30549
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784">NPC_SIR_ZELIEK</a> = 16063
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447">NPC_LADY_BLAUMEUX</a> = 16065
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e">NPC_THANE_KORTHAZZ</a> = 16064
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b">NPC_SAPPHIRON</a> = 15989
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67">NPC_KELTHUZAD</a> = 15990
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a">NPC_LICH_KING</a> = 16980
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b">NPC_LIVING_POISON</a> = 16027
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9">NPC_NAXXRAMAS_TRIGGER</a> = 16082
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af">NPC_MR_BIGGLESWORTH</a> = 16998
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01">NPC_PATCHWERK</a> = 16028
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc">NPC_PATCHWORK_GOLEM</a> = 16017
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d">NPC_BILE_RETCHER</a> = 16018
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c">NPC_MAD_SCIENTIST</a> = 16020
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240">NPC_LIVING_MONSTROSITY</a> = 16021
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2">NPC_SURGICAL_ASSIST</a> = 16022
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353">NPC_SLUDGE_BELCHER</a> = 16029
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b">NPC_GOTHIK</a> = 16060
-<br />
- }</td></tr>
-<tr class="separator:aa89d980cc900334f663698b1c19a0418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9630687043444a4d29813bd5a0f46820"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820">NXMisc</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7">SPELL_ERUPTION</a> = 29371
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7">SPELL_FROGGER_EXPLODE</a> = 28433
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783">ACTION_SAPPHIRON_BIRTH</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71">SOUND_SCREAM</a> = 8873
-<br />
- }</td></tr>
-<tr class="separator:a9630687043444a4d29813bd5a0f46820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1aeea265734da2aff9539892f9fcf2f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2f">NXSays</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a">SAY_SAPP_DIALOG1</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d">SAY_SAPP_DIALOG2_LICH</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94">SAY_SAPP_DIALOG3</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712">SAY_SAPP_DIALOG4_LICH</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2">SAY_SAPP_DIALOG5</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b">SAY_SAPP_DIALOG6</a> = 20
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21">SAY_CAT_DIED</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca">SAY_FIRST_WING_TAUNT</a> = 16
-<br />
- }</td></tr>
-<tr class="separator:af1aeea265734da2aff9539892f9fcf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95c6464d34bef766ec75b8b516583e0a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0a">NXEvents</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63">EVENT_THADDIUS_SCREAMS</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a">EVENT_KELTHUZAD_WING_TAUNT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4">EVENT_FROSTWYRM_WATERFALL_DOOR</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:a95c6464d34bef766ec75b8b516583e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a14298.html">instance_hyjal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d82/a14302.html">instance_hyjal::instance_mount_hyjal_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2804991aa85bbb3543625b8fe2a2df79"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
-<tr class="memitem:a2804991aa85bbb3543625b8fe2a2df79"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a2804991aa85bbb3543625b8fe2a2df79">GetNaxxramasAI</a> (T *obj)</td></tr>
-<tr class="separator:a2804991aa85bbb3543625b8fe2a2df79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a5c7a0ad3a2ae9f82eb9c45fbf90d5b41">AddSC_instance_mount_hyjal</a> ()</td></tr>
+<tr class="separator:a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d50/a09330.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d0f/a09346.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad50890c4534c5b5c848a9b85f3d8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#aaad50890c4534c5b5c848a9b85f3d8fe">hyjalWaveTimers</a> [4][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498eab56f8400a89abc853f99e7737219502c">MAX_WAVES_STANDARD</a>]</td></tr>
+<tr class="separator:aaad50890c4534c5b5c848a9b85f3d8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254787ab3a62d90e906ded9ef63aa229"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#a254787ab3a62d90e906ded9ef63aa229">hyjalRetreatTimers</a> [2][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498ea1084aef6ff8543a3b9992e129436544f">MAX_WAVES_RETREAT</a>]</td></tr>
+<tr class="separator:a254787ab3a62d90e906ded9ef63aa229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7b4d2fdf8cd15fa4985554885eb881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d28/a01133.html#ade7b4d2fdf8cd15fa4985554885eb881">hyjalNightElfWaveTimers</a> [1][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498eadcc87d7ad11c922e4c0dbae31b6b00db">MAX_WAVES_NIGHT_ELF</a>]</td></tr>
+<tr class="separator:ade7b4d2fdf8cd15fa4985554885eb881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;NAX&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a723d51a7fd90e70d68c9ad640bbede40" name="a723d51a7fd90e70d68c9ad640bbede40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a723d51a7fd90e70d68c9ad640bbede40">&#9670;&#160;</a></span>NaxxramasScriptName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NaxxramasScriptName&#160;&#160;&#160;&quot;instance_naxxramas&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a9235eb89d4fffe7725a764c3928a2ad8" name="a9235eb89d4fffe7725a764c3928a2ad8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9235eb89d4fffe7725a764c3928a2ad8">&#9670;&#160;</a></span>Encouters</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8">Encouters</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62" name="a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62"></a>BOSS_PATCHWERK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5" name="a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5"></a>BOSS_GROBBULUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f" name="a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f"></a>BOSS_GLUTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6" name="a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6"></a>BOSS_NOTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a" name="a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a"></a>BOSS_HEIGAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1" name="a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1"></a>BOSS_LOATHEB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e" name="a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e"></a>BOSS_ANUB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2" name="a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2"></a>BOSS_FAERLINA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9" name="a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9"></a>BOSS_MAEXXNA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d" name="a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d"></a>BOSS_THADDIUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544" name="a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544"></a>BOSS_RAZUVIOUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c" name="a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c"></a>BOSS_GOTHIK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1" name="a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1"></a>BOSS_HORSEMAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572" name="a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572"></a>BOSS_SAPPHIRON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d" name="a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d"></a>BOSS_KELTHUZAD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25" name="a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25"></a>MAX_ENCOUNTERS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62">BOSS_PATCHWERK</a>                 = 0,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5">BOSS_GROBBULUS</a>                 = 1,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f">BOSS_GLUTH</a>                     = 2,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6">BOSS_NOTH</a>                      = 3,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a">BOSS_HEIGAN</a>                    = 4,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1">BOSS_LOATHEB</a>                   = 5,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e">BOSS_ANUB</a>                      = 6,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2">BOSS_FAERLINA</a>                  = 7,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9">BOSS_MAEXXNA</a>                   = 8,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d">BOSS_THADDIUS</a>                  = 9,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544">BOSS_RAZUVIOUS</a>                 = 10,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c">BOSS_GOTHIK</a>                    = 11,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1">BOSS_HORSEMAN</a>                  = 12,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572">BOSS_SAPPHIRON</a>                 = 13,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d">BOSS_KELTHUZAD</a>                 = 14,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a>,</div>
-<div class="line"><span class="lineno">   45</span>};</div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a1ee82ce65d890010cffa8dc36371d0b1">BOSS_HORSEMAN</a></div><div class="ttdeci">@ BOSS_HORSEMAN</div><div class="ttdef"><b>Definition:</b> naxxramas.h:41</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a28264cd0a18f00cc0fc1b0b48108a544">BOSS_RAZUVIOUS</a></div><div class="ttdeci">@ BOSS_RAZUVIOUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:39</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a2e26b9fa7185c01cef8fd6122d9f8b4e">BOSS_ANUB</a></div><div class="ttdeci">@ BOSS_ANUB</div><div class="ttdef"><b>Definition:</b> naxxramas.h:35</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a4e7e42c255063730762e9a515d45d94a">BOSS_HEIGAN</a></div><div class="ttdeci">@ BOSS_HEIGAN</div><div class="ttdef"><b>Definition:</b> naxxramas.h:33</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a60c377d615367892cd01a074b10619c5">BOSS_GROBBULUS</a></div><div class="ttdeci">@ BOSS_GROBBULUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:30</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a693e170ce93eccc5ded6af37abb88cd1">BOSS_LOATHEB</a></div><div class="ttdeci">@ BOSS_LOATHEB</div><div class="ttdef"><b>Definition:</b> naxxramas.h:34</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a88040b4155845738042a7f79d2248c9f">BOSS_GLUTH</a></div><div class="ttdeci">@ BOSS_GLUTH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:31</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9555221a6e3cbcdc61bf0e5f1d71207c">BOSS_GOTHIK</a></div><div class="ttdeci">@ BOSS_GOTHIK</div><div class="ttdef"><b>Definition:</b> naxxramas.h:40</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a></div><div class="ttdeci">@ MAX_ENCOUNTERS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:44</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac14457f1cbbef2bec0a2566ead0f6572">BOSS_SAPPHIRON</a></div><div class="ttdeci">@ BOSS_SAPPHIRON</div><div class="ttdef"><b>Definition:</b> naxxramas.h:42</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ac2feaeff7317b46aef3e6b7db317cdd9">BOSS_MAEXXNA</a></div><div class="ttdeci">@ BOSS_MAEXXNA</div><div class="ttdef"><b>Definition:</b> naxxramas.h:37</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8acc2ffed5395aa7771711eb15c2aaa92d">BOSS_THADDIUS</a></div><div class="ttdeci">@ BOSS_THADDIUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:38</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8adfc92add653d5d406f3fe024d68d154d">BOSS_KELTHUZAD</a></div><div class="ttdeci">@ BOSS_KELTHUZAD</div><div class="ttdef"><b>Definition:</b> naxxramas.h:43</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae4e58c0cb88aa7dba62ee91267efb2b6">BOSS_NOTH</a></div><div class="ttdeci">@ BOSS_NOTH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:32</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8ae8f0e497be30846e301f20764ef92b62">BOSS_PATCHWERK</a></div><div class="ttdeci">@ BOSS_PATCHWERK</div><div class="ttdef"><b>Definition:</b> naxxramas.h:29</div></div>
-<div class="ttc" id="aa01133_html_a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2"><div class="ttname"><a href="../../db/d28/a01133.html#a9235eb89d4fffe7725a764c3928a2ad8afab76294a17aa2b320c31013b0a670c2">BOSS_FAERLINA</a></div><div class="ttdeci">@ BOSS_FAERLINA</div><div class="ttdef"><b>Definition:</b> naxxramas.h:36</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a50b8d798ed90e15f1532f6d604c62740" name="a50b8d798ed90e15f1532f6d604c62740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b8d798ed90e15f1532f6d604c62740">&#9670;&#160;</a></span>NXData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740">NXData</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541" name="a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541"></a>DATA_NOTH_ENTRY_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c" name="a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c"></a>DATA_HEIGAN_ERUPTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635" name="a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635"></a>DATA_HEIGAN_ENTER_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74" name="a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74"></a>DATA_LOATHEB_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b" name="a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b"></a>DATA_ANUB_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b" name="a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b"></a>DATA_FAERLINA_WEB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026" name="a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026"></a>DATA_MAEXXNA_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef" name="a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef"></a>DATA_THADDIUS_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5" name="a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5"></a>DATA_STALAGG_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a" name="a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a"></a>DATA_FEUGEN_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66" name="a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66"></a>DATA_THADDIUS_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76" name="a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76"></a>DATA_RAZUVIOUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a" name="a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a"></a>DATA_GOTHIK_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4" name="a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4"></a>DATA_GOTHIK_ENTER_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7" name="a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7"></a>DATA_GOTHIK_INNER_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7" name="a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7"></a>DATA_GOTHIK_EXIT_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429" name="a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429"></a>DATA_HORSEMEN_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e" name="a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e"></a>DATA_LICH_KING_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6" name="a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6"></a>DATA_KELTHUZAD_FLOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257" name="a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257"></a>DATA_ABOMINATION_KILLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96" name="a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96"></a>DATA_FRENZY_REMOVED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51" name="a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51"></a>DATA_CHARGES_CROSSED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837" name="a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837"></a>DATA_SPORE_KILLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7" name="a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7"></a>DATA_HUNDRED_CLUB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9" name="a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9"></a>DATA_DANCE_FAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea" name="a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea"></a>DATA_IMMORTAL_FAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f" name="a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f"></a>DATA_KELTHUZAD_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08" name="a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08"></a>DATA_HAD_THADDIUS_GREET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77" name="a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77"></a>DATA_KELTHUZAD_PORTAL_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6" name="a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6"></a>DATA_KELTHUZAD_PORTAL_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef" name="a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef"></a>DATA_KELTHUZAD_PORTAL_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a" name="a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a"></a>DATA_KELTHUZAD_PORTAL_4&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541">DATA_NOTH_ENTRY_GATE</a>            = 100,</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c">DATA_HEIGAN_ERUPTION</a>            = 101,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635">DATA_HEIGAN_ENTER_GATE</a>          = 102,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74">DATA_LOATHEB_GATE</a>               = 103,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b">DATA_ANUB_GATE</a>                  = 104,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b">DATA_FAERLINA_WEB</a>               = 105,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026">DATA_MAEXXNA_GATE</a>               = 106,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef">DATA_THADDIUS_BOSS</a>              = 107,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5">DATA_STALAGG_BOSS</a>               = 108,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a">DATA_FEUGEN_BOSS</a>                = 109,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66">DATA_THADDIUS_GATE</a>              = 110,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76">DATA_RAZUVIOUS</a>                  = 111,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a">DATA_GOTHIK_BOSS</a>                = 112,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4">DATA_GOTHIK_ENTER_GATE</a>          = 113,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7">DATA_GOTHIK_INNER_GATE</a>          = 114,</div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7">DATA_GOTHIK_EXIT_GATE</a>           = 115,</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429">DATA_HORSEMEN_GATE</a>              = 116,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e">DATA_LICH_KING_BOSS</a>             = 117,</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6">DATA_KELTHUZAD_FLOOR</a>            = 118,</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257">DATA_ABOMINATION_KILLED</a>         = 119,</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96">DATA_FRENZY_REMOVED</a>             = 120,</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51">DATA_CHARGES_CROSSED</a>            = 121,</div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837">DATA_SPORE_KILLED</a>               = 122,</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7">DATA_HUNDRED_CLUB</a>               = 123,</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9">DATA_DANCE_FAIL</a>                 = 124,</div>
-<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea">DATA_IMMORTAL_FAIL</a>              = 125,</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f">DATA_KELTHUZAD_GATE</a>             = 126,</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08">DATA_HAD_THADDIUS_GREET</a>         = 127,</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77">DATA_KELTHUZAD_PORTAL_1</a>         = 128,</div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6">DATA_KELTHUZAD_PORTAL_2</a>         = 129,</div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef">DATA_KELTHUZAD_PORTAL_3</a>         = 130,</div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a">DATA_KELTHUZAD_PORTAL_4</a>         = 131</div>
-<div class="line"><span class="lineno">   81</span>};</div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a038adaf7f40454079d7ed3b0d2962a08">DATA_HAD_THADDIUS_GREET</a></div><div class="ttdeci">@ DATA_HAD_THADDIUS_GREET</div><div class="ttdef"><b>Definition:</b> naxxramas.h:76</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a10eed71fc4ca3e43c9ed54a6b64d98d7">DATA_GOTHIK_INNER_GATE</a></div><div class="ttdeci">@ DATA_GOTHIK_INNER_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:63</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a1a7a3731ab60680add3191c5e43c5635">DATA_HEIGAN_ENTER_GATE</a></div><div class="ttdeci">@ DATA_HEIGAN_ENTER_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:51</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a29b74c34f661c0974dc555e5758ac66a">DATA_GOTHIK_BOSS</a></div><div class="ttdeci">@ DATA_GOTHIK_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:61</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a418c05cd5441adaf1b1ab0c97235c5c6">DATA_KELTHUZAD_FLOOR</a></div><div class="ttdeci">@ DATA_KELTHUZAD_FLOOR</div><div class="ttdef"><b>Definition:</b> naxxramas.h:67</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a4cd6c51467b6ece635a4e0e98e3c2541">DATA_NOTH_ENTRY_GATE</a></div><div class="ttdeci">@ DATA_NOTH_ENTRY_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:49</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a505e1f6b4233e77aab0fb985f682b6d7">DATA_HUNDRED_CLUB</a></div><div class="ttdeci">@ DATA_HUNDRED_CLUB</div><div class="ttdef"><b>Definition:</b> naxxramas.h:72</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a50915f2596c48a3e55bc28c839d5eb1f">DATA_KELTHUZAD_GATE</a></div><div class="ttdeci">@ DATA_KELTHUZAD_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:75</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5615e0f5f41eee087756edb52dd5673b">DATA_ANUB_GATE</a></div><div class="ttdeci">@ DATA_ANUB_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:53</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a5d68a598db979a9c89261e651008ab96">DATA_FRENZY_REMOVED</a></div><div class="ttdeci">@ DATA_FRENZY_REMOVED</div><div class="ttdef"><b>Definition:</b> naxxramas.h:69</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a60656da675230bd4233110514080dae4">DATA_GOTHIK_ENTER_GATE</a></div><div class="ttdeci">@ DATA_GOTHIK_ENTER_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:62</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a731f7557a52eab314acb6eafe38b5a51">DATA_CHARGES_CROSSED</a></div><div class="ttdeci">@ DATA_CHARGES_CROSSED</div><div class="ttdef"><b>Definition:</b> naxxramas.h:70</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a80a31624644d0326106520716827007e">DATA_LICH_KING_BOSS</a></div><div class="ttdeci">@ DATA_LICH_KING_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:66</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a83d723ef2ec357a4aa27ac7eb79363ef">DATA_KELTHUZAD_PORTAL_3</a></div><div class="ttdeci">@ DATA_KELTHUZAD_PORTAL_3</div><div class="ttdef"><b>Definition:</b> naxxramas.h:79</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a84eae30519af38b3e46ec0ef73083c74">DATA_LOATHEB_GATE</a></div><div class="ttdeci">@ DATA_LOATHEB_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:52</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f3a6814d645eac23d2b6e90d20736d6">DATA_KELTHUZAD_PORTAL_2</a></div><div class="ttdeci">@ DATA_KELTHUZAD_PORTAL_2</div><div class="ttdef"><b>Definition:</b> naxxramas.h:78</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea">DATA_IMMORTAL_FAIL</a></div><div class="ttdeci">@ DATA_IMMORTAL_FAIL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:74</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a91167d5b4a056f042554ee44c92f9ab7">DATA_GOTHIK_EXIT_GATE</a></div><div class="ttdeci">@ DATA_GOTHIK_EXIT_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:64</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a927d7cc21bf7ab0d7be550a2063107b9">DATA_DANCE_FAIL</a></div><div class="ttdeci">@ DATA_DANCE_FAIL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:73</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a94c918c60ba5b2f84f5e32b57a948e77">DATA_KELTHUZAD_PORTAL_1</a></div><div class="ttdeci">@ DATA_KELTHUZAD_PORTAL_1</div><div class="ttdef"><b>Definition:</b> naxxramas.h:77</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9579f9cf7e0ea6efe1637c357dcfe429">DATA_HORSEMEN_GATE</a></div><div class="ttdeci">@ DATA_HORSEMEN_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:65</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740a9e85dbb5f66d2bc2a7d642c81e87bf66">DATA_THADDIUS_GATE</a></div><div class="ttdeci">@ DATA_THADDIUS_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:59</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aa613f6fbe35e35fef4b32cf70a940026">DATA_MAEXXNA_GATE</a></div><div class="ttdeci">@ DATA_MAEXXNA_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:55</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab3b19a1df4ad499c62a9d286a6a1c68a">DATA_KELTHUZAD_PORTAL_4</a></div><div class="ttdeci">@ DATA_KELTHUZAD_PORTAL_4</div><div class="ttdef"><b>Definition:</b> naxxramas.h:80</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ab4729165bb71e942271e3a908727bb4b">DATA_FAERLINA_WEB</a></div><div class="ttdeci">@ DATA_FAERLINA_WEB</div><div class="ttdef"><b>Definition:</b> naxxramas.h:54</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76">DATA_RAZUVIOUS</a></div><div class="ttdeci">@ DATA_RAZUVIOUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:60</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740abf380981fa89ed13b0487fd0275fe6ef">DATA_THADDIUS_BOSS</a></div><div class="ttdeci">@ DATA_THADDIUS_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:56</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ac025a3279f2371bf6621f647ca2fe257">DATA_ABOMINATION_KILLED</a></div><div class="ttdeci">@ DATA_ABOMINATION_KILLED</div><div class="ttdef"><b>Definition:</b> naxxramas.h:68</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740ad2edd73a1c80e766e9742b0a1bed0837">DATA_SPORE_KILLED</a></div><div class="ttdeci">@ DATA_SPORE_KILLED</div><div class="ttdef"><b>Definition:</b> naxxramas.h:71</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740adb7eb96405ed2c54f88d9c568b6a55e5">DATA_STALAGG_BOSS</a></div><div class="ttdeci">@ DATA_STALAGG_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:57</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740af018e14f6df34f89286c2572f2f3eb5c">DATA_HEIGAN_ERUPTION</a></div><div class="ttdeci">@ DATA_HEIGAN_ERUPTION</div><div class="ttdef"><b>Definition:</b> naxxramas.h:50</div></div>
-<div class="ttc" id="aa01133_html_a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a"><div class="ttname"><a href="../../db/d28/a01133.html#a50b8d798ed90e15f1532f6d604c62740aff494015daf760bf23e666e240deba9a">DATA_FEUGEN_BOSS</a></div><div class="ttdeci">@ DATA_FEUGEN_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:58</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a95c6464d34bef766ec75b8b516583e0a" name="a95c6464d34bef766ec75b8b516583e0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95c6464d34bef766ec75b8b516583e0a">&#9670;&#160;</a></span>NXEvents</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0a">NXEvents</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63" name="a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63"></a>EVENT_THADDIUS_SCREAMS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a" name="a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a"></a>EVENT_KELTHUZAD_WING_TAUNT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4" name="a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4"></a>EVENT_FROSTWYRM_WATERFALL_DOOR&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  198</span>{</div>
-<div class="line"><span class="lineno">  199</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63">EVENT_THADDIUS_SCREAMS</a>          = 0,</div>
-<div class="line"><span class="lineno">  200</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a">EVENT_KELTHUZAD_WING_TAUNT</a>      = 1,</div>
-<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4">EVENT_FROSTWYRM_WATERFALL_DOOR</a>  = 2</div>
-<div class="line"><span class="lineno">  202</span>};</div>
-<div class="ttc" id="aa01133_html_a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63"><div class="ttname"><a href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa2fb92cd40a3d7109586578fc0a28bb63">EVENT_THADDIUS_SCREAMS</a></div><div class="ttdeci">@ EVENT_THADDIUS_SCREAMS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:199</div></div>
-<div class="ttc" id="aa01133_html_a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4"><div class="ttname"><a href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aa98b693dc68f4d408d41ce2e4c08edef4">EVENT_FROSTWYRM_WATERFALL_DOOR</a></div><div class="ttdeci">@ EVENT_FROSTWYRM_WATERFALL_DOOR</div><div class="ttdef"><b>Definition:</b> naxxramas.h:201</div></div>
-<div class="ttc" id="aa01133_html_a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a"><div class="ttname"><a href="../../db/d28/a01133.html#a95c6464d34bef766ec75b8b516583e0aac02d11e89679fe53e690bfdd21b25e8a">EVENT_KELTHUZAD_WING_TAUNT</a></div><div class="ttdeci">@ EVENT_KELTHUZAD_WING_TAUNT</div><div class="ttdef"><b>Definition:</b> naxxramas.h:200</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3e0b36a19f583e1b943423e019ad8a46" name="a3e0b36a19f583e1b943423e019ad8a46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0b36a19f583e1b943423e019ad8a46">&#9670;&#160;</a></span>NXGOs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46">NXGOs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab" name="a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab"></a>GO_PATCHWERK_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb" name="a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb"></a>GO_GLUTH_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803" name="a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803"></a>GO_NOTH_ENTRY_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b" name="a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b"></a>GO_NOTH_EXIT_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641" name="a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641"></a>GO_HEIGAN_ENTRY_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708" name="a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708"></a>GO_HEIGAN_EXIT_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e" name="a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e"></a>GO_LOATHEB_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac" name="a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac"></a>GO_ANUB_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41" name="a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41"></a>GO_ANUB_NEXT_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c" name="a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c"></a>GO_FAERLINA_WEB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590" name="a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590"></a>GO_FAERLINA_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324" name="a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324"></a>GO_MAEXXNA_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e" name="a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e"></a>GO_THADDIUS_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8" name="a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8"></a>GO_GOTHIK_ENTER_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0" name="a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0"></a>GO_GOTHIK_INNER_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120" name="a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120"></a>GO_GOTHIK_EXIT_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095" name="a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095"></a>GO_HORSEMEN_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda" name="a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda"></a>GO_SAPPHIRON_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290" name="a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290"></a>GO_HORSEMEN_CHEST_10&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f" name="a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f"></a>GO_HORSEMEN_CHEST_25&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc" name="a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc"></a>GO_SAPPHIRON_BIRTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db" name="a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db"></a>GO_KELTHUZAD_FLOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca" name="a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca"></a>GO_KELTHUZAD_GATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7" name="a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7"></a>GO_KELTHUZAD_PORTAL_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818" name="a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818"></a>GO_KELTHUZAD_PORTAL_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa" name="a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa"></a>GO_KELTHUZAD_PORTAL_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e" name="a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e"></a>GO_KELTHUZAD_PORTAL_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1" name="a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1"></a>GO_LOATHEB_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d" name="a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d"></a>GO_THADDIUS_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f" name="a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f"></a>GO_MAEXXNA_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5" name="a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5"></a>GO_HORSEMAN_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563" name="a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563"></a>GO_DEATHKNIGHT_EYE_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147" name="a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147"></a>GO_PLAGUE_EYE_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409" name="a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409"></a>GO_SPIDER_EYE_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb" name="a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb"></a>GO_ABOM_EYE_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34" name="a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34"></a>GO_ARAC_EYE_RAMP_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad" name="a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad"></a>GO_PLAG_EYE_RAMP_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666" name="a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666"></a>GO_MILI_EYE_RAMP_BOSS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc" name="a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc"></a>GO_CONS_EYE_RAMP_BOSS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
-<div class="line"><span class="lineno">   85</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab">GO_PATCHWERK_GATE</a>               = 181123,</div>
-<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb">GO_GLUTH_GATE</a>                   = 181120,</div>
-<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803">GO_NOTH_ENTRY_GATE</a>              = 181200,</div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b">GO_NOTH_EXIT_GATE</a>               = 181201,</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641">GO_HEIGAN_ENTRY_GATE</a>            = 181202,</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708">GO_HEIGAN_EXIT_GATE</a>             = 181203,</div>
-<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e">GO_LOATHEB_GATE</a>                 = 181241,</div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac">GO_ANUB_GATE</a>                    = 181126,</div>
-<div class="line"><span class="lineno">   93</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41">GO_ANUB_NEXT_GATE</a>               = 181195,</div>
-<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c">GO_FAERLINA_WEB</a>                 = 181235,</div>
-<div class="line"><span class="lineno">   95</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590">GO_FAERLINA_GATE</a>                = 194022,</div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324">GO_MAEXXNA_GATE</a>                 = 181209,</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e">GO_THADDIUS_GATE</a>                = 181121,</div>
-<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8">GO_GOTHIK_ENTER_GATE</a>            = 181124,</div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0">GO_GOTHIK_INNER_GATE</a>            = 181170,</div>
-<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120">GO_GOTHIK_EXIT_GATE</a>             = 181125,</div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095">GO_HORSEMEN_GATE</a>                = 181119,</div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda">GO_SAPPHIRON_GATE</a>               = 181225,</div>
-<div class="line"><span class="lineno">  103</span> </div>
-<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290">GO_HORSEMEN_CHEST_10</a>            = 181366,</div>
-<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f">GO_HORSEMEN_CHEST_25</a>            = 193426,</div>
-<div class="line"><span class="lineno">  106</span> </div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc">GO_SAPPHIRON_BIRTH</a>              = 181356,</div>
-<div class="line"><span class="lineno">  108</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db">GO_KELTHUZAD_FLOOR</a>              = 181444,</div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca">GO_KELTHUZAD_GATE</a>               = 181228,</div>
-<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7">GO_KELTHUZAD_PORTAL_1</a>           = 181402,</div>
-<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818">GO_KELTHUZAD_PORTAL_2</a>           = 181403,</div>
-<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa">GO_KELTHUZAD_PORTAL_3</a>           = 181404,</div>
-<div class="line"><span class="lineno">  113</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e">GO_KELTHUZAD_PORTAL_4</a>           = 181405,</div>
-<div class="line"><span class="lineno">  114</span> </div>
-<div class="line"><span class="lineno">  115</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1">GO_LOATHEB_PORTAL</a>               = 181577,</div>
-<div class="line"><span class="lineno">  116</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d">GO_THADDIUS_PORTAL</a>              = 181576,</div>
-<div class="line"><span class="lineno">  117</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f">GO_MAEXXNA_PORTAL</a>               = 181575,</div>
-<div class="line"><span class="lineno">  118</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5">GO_HORSEMAN_PORTAL</a>              = 181578,</div>
-<div class="line"><span class="lineno">  119</span> </div>
-<div class="line"><span class="lineno">  120</span>    <span class="comment">// &quot;Glow&quot; effect on center-side portal</span></div>
-<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563">GO_DEATHKNIGHT_EYE_PORTAL</a>       = 181210,</div>
-<div class="line"><span class="lineno">  122</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147">GO_PLAGUE_EYE_PORTAL</a>            = 181211,</div>
-<div class="line"><span class="lineno">  123</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409">GO_SPIDER_EYE_PORTAL</a>            = 181212,</div>
-<div class="line"><span class="lineno">  124</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb">GO_ABOM_EYE_PORTAL</a>              = 181213,</div>
-<div class="line"><span class="lineno">  125</span> </div>
-<div class="line"><span class="lineno">  126</span>    <span class="comment">// &quot;Glow&quot; effect on boss-side portal</span></div>
-<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34">GO_ARAC_EYE_RAMP_BOSS</a>           = 181233,</div>
-<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad">GO_PLAG_EYE_RAMP_BOSS</a>           = 181231,</div>
-<div class="line"><span class="lineno">  129</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666">GO_MILI_EYE_RAMP_BOSS</a>           = 181230,</div>
-<div class="line"><span class="lineno">  130</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc">GO_CONS_EYE_RAMP_BOSS</a>           = 181232</div>
-<div class="line"><span class="lineno">  131</span>};</div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a019747ce9da6bf725fa3de9b1450b641">GO_HEIGAN_ENTRY_GATE</a></div><div class="ttdeci">@ GO_HEIGAN_ENTRY_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:89</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a0a3a9adb89b087747b845d1b3cce8d7f">GO_MAEXXNA_PORTAL</a></div><div class="ttdeci">@ GO_MAEXXNA_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:117</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16cf852a21994ec0824c2013e2166120">GO_GOTHIK_EXIT_GATE</a></div><div class="ttdeci">@ GO_GOTHIK_EXIT_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:100</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a16f059a3675ffbf7091356caede306ab">GO_PATCHWERK_GATE</a></div><div class="ttdeci">@ GO_PATCHWERK_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:85</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a1dec4b3d59878686e8c124fa6130e06e">GO_THADDIUS_GATE</a></div><div class="ttdeci">@ GO_THADDIUS_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:97</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a310e695b5fd689a70f79ac673c1e767e">GO_LOATHEB_GATE</a></div><div class="ttdeci">@ GO_LOATHEB_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:91</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a346b3d1c58aa2581af38bcd74e215708">GO_HEIGAN_EXIT_GATE</a></div><div class="ttdeci">@ GO_HEIGAN_EXIT_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:90</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a3926cd743ed04e62e78085778002b147">GO_PLAGUE_EYE_PORTAL</a></div><div class="ttdeci">@ GO_PLAGUE_EYE_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:122</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4b41f224ebb246bc056b458b738b2324">GO_MAEXXNA_GATE</a></div><div class="ttdeci">@ GO_MAEXXNA_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:96</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4ca66ad06fc332ce8b0043826e8719db">GO_KELTHUZAD_FLOOR</a></div><div class="ttdeci">@ GO_KELTHUZAD_FLOOR</div><div class="ttdef"><b>Definition:</b> naxxramas.h:108</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a4e671a3bddd9faf3cfb9c3fab7198afb">GO_ABOM_EYE_PORTAL</a></div><div class="ttdeci">@ GO_ABOM_EYE_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:124</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a626635c52b11f06d007452a9845f06d1">GO_LOATHEB_PORTAL</a></div><div class="ttdeci">@ GO_LOATHEB_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:115</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a62bf6a0a3b6ed10194f936a5b0d04faa">GO_KELTHUZAD_PORTAL_3</a></div><div class="ttdeci">@ GO_KELTHUZAD_PORTAL_3</div><div class="ttdef"><b>Definition:</b> naxxramas.h:112</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a6c2237b53675c58e6ef64bd41ed5818f">GO_HORSEMEN_CHEST_25</a></div><div class="ttdeci">@ GO_HORSEMEN_CHEST_25</div><div class="ttdef"><b>Definition:</b> naxxramas.h:105</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7042c217be53271750c042fbe1f35cda">GO_SAPPHIRON_GATE</a></div><div class="ttdeci">@ GO_SAPPHIRON_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:102</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70551ccbd409f7cfc3990268f7980409">GO_SPIDER_EYE_PORTAL</a></div><div class="ttdeci">@ GO_SPIDER_EYE_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:123</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a70ad1bdf3ffbeaeb0357a3ca702a31ca">GO_KELTHUZAD_GATE</a></div><div class="ttdeci">@ GO_KELTHUZAD_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:109</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7519adb280d017a6614a963272c11803">GO_NOTH_ENTRY_GATE</a></div><div class="ttdeci">@ GO_NOTH_ENTRY_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:87</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a75226fb2215b44a832f8d64ee8496c7d">GO_THADDIUS_PORTAL</a></div><div class="ttdeci">@ GO_THADDIUS_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:116</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7afdba0d26be55615f41e9d65fe355f8">GO_GOTHIK_ENTER_GATE</a></div><div class="ttdeci">@ GO_GOTHIK_ENTER_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:98</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a7e649d12e72a395d88f1ae32861e05dc">GO_CONS_EYE_RAMP_BOSS</a></div><div class="ttdeci">@ GO_CONS_EYE_RAMP_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:130</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a848cd18793797497e0f210d1b7597cad">GO_PLAG_EYE_RAMP_BOSS</a></div><div class="ttdeci">@ GO_PLAG_EYE_RAMP_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:128</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46a923ad8ea510c47c33a37cb431ed4dbb5">GO_HORSEMAN_PORTAL</a></div><div class="ttdeci">@ GO_HORSEMAN_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:118</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aa68dda1b5b7c16b64e087a2835d17290">GO_HORSEMEN_CHEST_10</a></div><div class="ttdeci">@ GO_HORSEMEN_CHEST_10</div><div class="ttdef"><b>Definition:</b> naxxramas.h:104</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ab84270cfd2989874d303bcbbfe26ff5c">GO_FAERLINA_WEB</a></div><div class="ttdeci">@ GO_FAERLINA_WEB</div><div class="ttdef"><b>Definition:</b> naxxramas.h:94</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46abf0175f0d14a72b0fabc645360291b41">GO_ANUB_NEXT_GATE</a></div><div class="ttdeci">@ GO_ANUB_NEXT_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:93</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac08168dc0aff73b3216966a36353b666">GO_MILI_EYE_RAMP_BOSS</a></div><div class="ttdeci">@ GO_MILI_EYE_RAMP_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:129</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ac6205d458576a921687e2c55e81a1eac">GO_ANUB_GATE</a></div><div class="ttdeci">@ GO_ANUB_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:92</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad2c10e472574f566113ad879102e480b">GO_NOTH_EXIT_GATE</a></div><div class="ttdeci">@ GO_NOTH_EXIT_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:88</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad4fd003059714799d513308db80e78c7">GO_KELTHUZAD_PORTAL_1</a></div><div class="ttdeci">@ GO_KELTHUZAD_PORTAL_1</div><div class="ttdef"><b>Definition:</b> naxxramas.h:110</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ad7510a80acb15846655ff025b96d6563">GO_DEATHKNIGHT_EYE_PORTAL</a></div><div class="ttdeci">@ GO_DEATHKNIGHT_EYE_PORTAL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:121</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae2e9f431bb27d3a355bbdbca92332818">GO_KELTHUZAD_PORTAL_2</a></div><div class="ttdeci">@ GO_KELTHUZAD_PORTAL_2</div><div class="ttdef"><b>Definition:</b> naxxramas.h:111</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46ae5e46fd8307b561e168d7e68e08b928e">GO_KELTHUZAD_PORTAL_4</a></div><div class="ttdeci">@ GO_KELTHUZAD_PORTAL_4</div><div class="ttdef"><b>Definition:</b> naxxramas.h:113</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aee952fc74ef07ce2405e4fa534268590">GO_FAERLINA_GATE</a></div><div class="ttdeci">@ GO_FAERLINA_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:95</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46aef1b5f01d4034fc537264bdeaddf31fc">GO_SAPPHIRON_BIRTH</a></div><div class="ttdeci">@ GO_SAPPHIRON_BIRTH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:107</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af34321f2b3f69035e48d927abbe98095">GO_HORSEMEN_GATE</a></div><div class="ttdeci">@ GO_HORSEMEN_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:101</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46af3fbe04648e5a2d256f7a208bd1a55cb">GO_GLUTH_GATE</a></div><div class="ttdeci">@ GO_GLUTH_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:86</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afe8cbed6dd2b20a97d712db8a3121fa0">GO_GOTHIK_INNER_GATE</a></div><div class="ttdeci">@ GO_GOTHIK_INNER_GATE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:99</div></div>
-<div class="ttc" id="aa01133_html_a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34"><div class="ttname"><a href="../../db/d28/a01133.html#a3e0b36a19f583e1b943423e019ad8a46afff423d83f82199389cb088e73b35f34">GO_ARAC_EYE_RAMP_BOSS</a></div><div class="ttdeci">@ GO_ARAC_EYE_RAMP_BOSS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:127</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9630687043444a4d29813bd5a0f46820" name="a9630687043444a4d29813bd5a0f46820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9630687043444a4d29813bd5a0f46820">&#9670;&#160;</a></span>NXMisc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820">NXMisc</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7" name="a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7"></a>SPELL_ERUPTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7" name="a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7"></a>SPELL_FROGGER_EXPLODE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783" name="a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783"></a>ACTION_SAPPHIRON_BIRTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71" name="a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71"></a>SOUND_SCREAM&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
-<div class="line"><span class="lineno">  176</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7">SPELL_ERUPTION</a>                  = 29371,</div>
-<div class="line"><span class="lineno">  177</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7">SPELL_FROGGER_EXPLODE</a>           = 28433,</div>
-<div class="line"><span class="lineno">  178</span> </div>
-<div class="line"><span class="lineno">  179</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783">ACTION_SAPPHIRON_BIRTH</a>          = 1,</div>
-<div class="line"><span class="lineno">  180</span> </div>
-<div class="line"><span class="lineno">  181</span>    <span class="comment">// Background screams in instance if Thaddius still alive, four of them from 8873 to 8876</span></div>
-<div class="line"><span class="lineno">  182</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71">SOUND_SCREAM</a>                    = 8873</div>
-<div class="line"><span class="lineno">  183</span>};</div>
-<div class="ttc" id="aa01133_html_a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71"><div class="ttname"><a href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a2c10afa0526f0940e7de59cd6b142d71">SOUND_SCREAM</a></div><div class="ttdeci">@ SOUND_SCREAM</div><div class="ttdef"><b>Definition:</b> naxxramas.h:182</div></div>
-<div class="ttc" id="aa01133_html_a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783"><div class="ttname"><a href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a65a3c87095336e3b73a5af32412b3783">ACTION_SAPPHIRON_BIRTH</a></div><div class="ttdeci">@ ACTION_SAPPHIRON_BIRTH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:179</div></div>
-<div class="ttc" id="aa01133_html_a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7"><div class="ttname"><a href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820a7f3121b4011ce4c8e95a9f1c935041e7">SPELL_FROGGER_EXPLODE</a></div><div class="ttdeci">@ SPELL_FROGGER_EXPLODE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:177</div></div>
-<div class="ttc" id="aa01133_html_a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7"><div class="ttname"><a href="../../db/d28/a01133.html#a9630687043444a4d29813bd5a0f46820ad3aa09e162c24d71e623d266ac02a9e7">SPELL_ERUPTION</a></div><div class="ttdeci">@ SPELL_ERUPTION</div><div class="ttdef"><b>Definition:</b> naxxramas.h:176</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa89d980cc900334f663698b1c19a0418" name="aa89d980cc900334f663698b1c19a0418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa89d980cc900334f663698b1c19a0418">&#9670;&#160;</a></span>NXNPCs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418">NXNPCs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4" name="aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4"></a>NPC_THADDIUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977" name="aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977"></a>NPC_STALAGG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22" name="aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22"></a>NPC_FEUGEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2" name="aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2"></a>NPC_RAZUVIOUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf" name="aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf"></a>NPC_BARON_RIVENDARE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784" name="aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784"></a>NPC_SIR_ZELIEK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447" name="aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447"></a>NPC_LADY_BLAUMEUX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e" name="aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e"></a>NPC_THANE_KORTHAZZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b" name="aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b"></a>NPC_SAPPHIRON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67" name="aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67"></a>NPC_KELTHUZAD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a" name="aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a"></a>NPC_LICH_KING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b" name="aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b"></a>NPC_LIVING_POISON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9" name="aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9"></a>NPC_NAXXRAMAS_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af" name="aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af"></a>NPC_MR_BIGGLESWORTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01" name="aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01"></a>NPC_PATCHWERK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc" name="aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc"></a>NPC_PATCHWORK_GOLEM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d" name="aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d"></a>NPC_BILE_RETCHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c" name="aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c"></a>NPC_MAD_SCIENTIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240" name="aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240"></a>NPC_LIVING_MONSTROSITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2" name="aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2"></a>NPC_SURGICAL_ASSIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353" name="aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353"></a>NPC_SLUDGE_BELCHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b" name="aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b"></a>NPC_GOTHIK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  134</span>{</div>
-<div class="line"><span class="lineno">  135</span>    <span class="comment">// Thaddius</span></div>
-<div class="line"><span class="lineno">  136</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4">NPC_THADDIUS</a>                    = 15928,</div>
-<div class="line"><span class="lineno">  137</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977">NPC_STALAGG</a>                     = 15929,</div>
-<div class="line"><span class="lineno">  138</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22">NPC_FEUGEN</a>                      = 15930,</div>
-<div class="line"><span class="lineno">  139</span> </div>
-<div class="line"><span class="lineno">  140</span>    <span class="comment">// Razuvious</span></div>
-<div class="line"><span class="lineno">  141</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2">NPC_RAZUVIOUS</a>                   = 16061,</div>
-<div class="line"><span class="lineno">  142</span> </div>
-<div class="line"><span class="lineno">  143</span>    <span class="comment">// Four horseman</span></div>
-<div class="line"><span class="lineno">  144</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf">NPC_BARON_RIVENDARE</a>             = 30549,</div>
-<div class="line"><span class="lineno">  145</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784">NPC_SIR_ZELIEK</a>                  = 16063,</div>
-<div class="line"><span class="lineno">  146</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447">NPC_LADY_BLAUMEUX</a>               = 16065,</div>
-<div class="line"><span class="lineno">  147</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e">NPC_THANE_KORTHAZZ</a>              = 16064,</div>
-<div class="line"><span class="lineno">  148</span> </div>
-<div class="line"><span class="lineno">  149</span>    <span class="comment">// Sapphiron</span></div>
-<div class="line"><span class="lineno">  150</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b">NPC_SAPPHIRON</a>                   = 15989,</div>
-<div class="line"><span class="lineno">  151</span> </div>
-<div class="line"><span class="lineno">  152</span>    <span class="comment">// Kel&#39;Thuzad</span></div>
-<div class="line"><span class="lineno">  153</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67">NPC_KELTHUZAD</a>                   = 15990,</div>
-<div class="line"><span class="lineno">  154</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a">NPC_LICH_KING</a>                   = 16980,</div>
-<div class="line"><span class="lineno">  155</span> </div>
-<div class="line"><span class="lineno">  156</span>    <span class="comment">// Frogger</span></div>
-<div class="line"><span class="lineno">  157</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b">NPC_LIVING_POISON</a>               = 16027,</div>
-<div class="line"><span class="lineno">  158</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9">NPC_NAXXRAMAS_TRIGGER</a>           = 16082,</div>
-<div class="line"><span class="lineno">  159</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af">NPC_MR_BIGGLESWORTH</a>             = 16998,</div>
-<div class="line"><span class="lineno">  160</span> </div>
-<div class="line"><span class="lineno">  161</span>    <span class="comment">// Patchwerk</span></div>
-<div class="line"><span class="lineno">  162</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01">NPC_PATCHWERK</a>                   = 16028,</div>
-<div class="line"><span class="lineno">  163</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc">NPC_PATCHWORK_GOLEM</a>             = 16017,</div>
-<div class="line"><span class="lineno">  164</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d">NPC_BILE_RETCHER</a>                = 16018,</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c">NPC_MAD_SCIENTIST</a>               = 16020,</div>
-<div class="line"><span class="lineno">  166</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240">NPC_LIVING_MONSTROSITY</a>          = 16021,</div>
-<div class="line"><span class="lineno">  167</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2">NPC_SURGICAL_ASSIST</a>             = 16022,</div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353">NPC_SLUDGE_BELCHER</a>              = 16029,</div>
-<div class="line"><span class="lineno">  169</span> </div>
-<div class="line"><span class="lineno">  170</span>    <span class="comment">// Gothik</span></div>
-<div class="line"><span class="lineno">  171</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b">NPC_GOTHIK</a>                      = 16060</div>
-<div class="line"><span class="lineno">  172</span>};</div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a26e80a30b6bfb0329302df5a7da3ac22">NPC_FEUGEN</a></div><div class="ttdeci">@ NPC_FEUGEN</div><div class="ttdef"><b>Definition:</b> naxxramas.h:138</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a2840b08afdc0e6809810e8dca4ca82af">NPC_MR_BIGGLESWORTH</a></div><div class="ttdeci">@ NPC_MR_BIGGLESWORTH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:159</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a28d22ce19b603252d7537aa3cfb83aa4">NPC_THADDIUS</a></div><div class="ttdeci">@ NPC_THADDIUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:136</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a29b365d09ffcfa9a8cb9f9126cb3c76b">NPC_GOTHIK</a></div><div class="ttdeci">@ NPC_GOTHIK</div><div class="ttdef"><b>Definition:</b> naxxramas.h:171</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a4bb17ce9354c7ca6b597ad3db58ac447">NPC_LADY_BLAUMEUX</a></div><div class="ttdeci">@ NPC_LADY_BLAUMEUX</div><div class="ttdef"><b>Definition:</b> naxxramas.h:146</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a51a4fb05315b0f11dbc58909915b413c">NPC_MAD_SCIENTIST</a></div><div class="ttdeci">@ NPC_MAD_SCIENTIST</div><div class="ttdef"><b>Definition:</b> naxxramas.h:165</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a703bd7d97ad2d5d72dd083265734e353">NPC_SLUDGE_BELCHER</a></div><div class="ttdeci">@ NPC_SLUDGE_BELCHER</div><div class="ttdef"><b>Definition:</b> naxxramas.h:168</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a753798a011625d594682290c3607986b">NPC_SAPPHIRON</a></div><div class="ttdeci">@ NPC_SAPPHIRON</div><div class="ttdef"><b>Definition:</b> naxxramas.h:150</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a7630f7668a41496d4e85b36928881977">NPC_STALAGG</a></div><div class="ttdeci">@ NPC_STALAGG</div><div class="ttdef"><b>Definition:</b> naxxramas.h:137</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80c4f0413fc209381982e1e2a987da01">NPC_PATCHWERK</a></div><div class="ttdeci">@ NPC_PATCHWERK</div><div class="ttdef"><b>Definition:</b> naxxramas.h:162</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a80ef63b6404944c262ab57cf227af83d">NPC_BILE_RETCHER</a></div><div class="ttdeci">@ NPC_BILE_RETCHER</div><div class="ttdef"><b>Definition:</b> naxxramas.h:164</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a846b779d671202fd31bc23955cb5c7b2">NPC_SURGICAL_ASSIST</a></div><div class="ttdeci">@ NPC_SURGICAL_ASSIST</div><div class="ttdef"><b>Definition:</b> naxxramas.h:167</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a871e5a4e3586b81db05fa8589bbce84e">NPC_THANE_KORTHAZZ</a></div><div class="ttdeci">@ NPC_THANE_KORTHAZZ</div><div class="ttdef"><b>Definition:</b> naxxramas.h:147</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a8ed2a7076e5f160469edf7317f36a9cf">NPC_BARON_RIVENDARE</a></div><div class="ttdeci">@ NPC_BARON_RIVENDARE</div><div class="ttdef"><b>Definition:</b> naxxramas.h:144</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a916d12e90af584021df2ca185438b5bc">NPC_PATCHWORK_GOLEM</a></div><div class="ttdeci">@ NPC_PATCHWORK_GOLEM</div><div class="ttdef"><b>Definition:</b> naxxramas.h:163</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2">NPC_RAZUVIOUS</a></div><div class="ttdeci">@ NPC_RAZUVIOUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:141</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418aadba64eba26110b8b6a6c559285a1c67">NPC_KELTHUZAD</a></div><div class="ttdeci">@ NPC_KELTHUZAD</div><div class="ttdef"><b>Definition:</b> naxxramas.h:153</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ab1173598f4cc05677df465911bc89240">NPC_LIVING_MONSTROSITY</a></div><div class="ttdeci">@ NPC_LIVING_MONSTROSITY</div><div class="ttdef"><b>Definition:</b> naxxramas.h:166</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418abd0575cd83ccbb6cfce2ed374c32de7a">NPC_LICH_KING</a></div><div class="ttdeci">@ NPC_LICH_KING</div><div class="ttdef"><b>Definition:</b> naxxramas.h:154</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ac3a44c697fd59432ad619f877fb02b2b">NPC_LIVING_POISON</a></div><div class="ttdeci">@ NPC_LIVING_POISON</div><div class="ttdef"><b>Definition:</b> naxxramas.h:157</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae5227045bacb6844ed1a1e33b6448784">NPC_SIR_ZELIEK</a></div><div class="ttdeci">@ NPC_SIR_ZELIEK</div><div class="ttdef"><b>Definition:</b> naxxramas.h:145</div></div>
-<div class="ttc" id="aa01133_html_aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9"><div class="ttname"><a href="../../db/d28/a01133.html#aa89d980cc900334f663698b1c19a0418ae7ee6791db43a5c9003e9613e070dcb9">NPC_NAXXRAMAS_TRIGGER</a></div><div class="ttdeci">@ NPC_NAXXRAMAS_TRIGGER</div><div class="ttdef"><b>Definition:</b> naxxramas.h:158</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af1aeea265734da2aff9539892f9fcf2f" name="af1aeea265734da2aff9539892f9fcf2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1aeea265734da2aff9539892f9fcf2f">&#9670;&#160;</a></span>NXSays</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2f">NXSays</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a" name="af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a"></a>SAY_SAPP_DIALOG1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d" name="af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d"></a>SAY_SAPP_DIALOG2_LICH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94" name="af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94"></a>SAY_SAPP_DIALOG3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712" name="af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712"></a>SAY_SAPP_DIALOG4_LICH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2" name="af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2"></a>SAY_SAPP_DIALOG5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b" name="af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b"></a>SAY_SAPP_DIALOG6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21" name="af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21"></a>SAY_CAT_DIED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca" name="af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca"></a>SAY_FIRST_WING_TAUNT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  186</span>{</div>
-<div class="line"><span class="lineno">  187</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a">SAY_SAPP_DIALOG1</a>                = 0,</div>
-<div class="line"><span class="lineno">  188</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d">SAY_SAPP_DIALOG2_LICH</a>           = 1,</div>
-<div class="line"><span class="lineno">  189</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94">SAY_SAPP_DIALOG3</a>                = 2,</div>
-<div class="line"><span class="lineno">  190</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712">SAY_SAPP_DIALOG4_LICH</a>           = 2,</div>
-<div class="line"><span class="lineno">  191</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2">SAY_SAPP_DIALOG5</a>                = 4,</div>
-<div class="line"><span class="lineno">  192</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b">SAY_SAPP_DIALOG6</a>                = 20,</div>
-<div class="line"><span class="lineno">  193</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21">SAY_CAT_DIED</a>                    = 5,</div>
-<div class="line"><span class="lineno">  194</span>    <a class="code hl_enumvalue" href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca">SAY_FIRST_WING_TAUNT</a>            = 16</div>
-<div class="line"><span class="lineno">  195</span>};</div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa02e26a5a3257942f45f42bfcc8752712">SAY_SAPP_DIALOG4_LICH</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG4_LICH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:190</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa303819d029cc25755488598ced29068b">SAY_SAPP_DIALOG6</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG6</div><div class="ttdef"><b>Definition:</b> naxxramas.h:192</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa3fb2fe05508c72e070089fc1cfcfb36d">SAY_SAPP_DIALOG2_LICH</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG2_LICH</div><div class="ttdef"><b>Definition:</b> naxxramas.h:188</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa554decbe782caf4d87844c619915079a">SAY_SAPP_DIALOG1</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG1</div><div class="ttdef"><b>Definition:</b> naxxramas.h:187</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7d05ae866dfe1230691f1c4adf6df4e2">SAY_SAPP_DIALOG5</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG5</div><div class="ttdef"><b>Definition:</b> naxxramas.h:191</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2fa7ed9581b818d8ba6532fae97fff69d94">SAY_SAPP_DIALOG3</a></div><div class="ttdeci">@ SAY_SAPP_DIALOG3</div><div class="ttdef"><b>Definition:</b> naxxramas.h:189</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faa63360fcfe178d377aa40c2e7e14a1ca">SAY_FIRST_WING_TAUNT</a></div><div class="ttdeci">@ SAY_FIRST_WING_TAUNT</div><div class="ttdef"><b>Definition:</b> naxxramas.h:194</div></div>
-<div class="ttc" id="aa01133_html_af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21"><div class="ttname"><a href="../../db/d28/a01133.html#af1aeea265734da2aff9539892f9fcf2faf22d7819d4a04dd5524fcd51d60d8c21">SAY_CAT_DIED</a></div><div class="ttdeci">@ SAY_CAT_DIED</div><div class="ttdef"><b>Definition:</b> naxxramas.h:193</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2804991aa85bbb3543625b8fe2a2df79" name="a2804991aa85bbb3543625b8fe2a2df79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2804991aa85bbb3543625b8fe2a2df79">&#9670;&#160;</a></span>GetNaxxramasAI()</h2>
+<a id="a5c7a0ad3a2ae9f82eb9c45fbf90d5b41" name="a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7a0ad3a2ae9f82eb9c45fbf90d5b41">&#9670;&#160;</a></span>AddSC_instance_mount_hyjal()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class AI , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AI * GetNaxxramasAI </td>
+          <td class="memname">void AddSC_instance_mount_hyjal </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
-<div class="line"><span class="lineno">  207</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../db/d28/a01133.html#a723d51a7fd90e70d68c9ad640bbede40">NaxxramasScriptName</a>);</div>
-<div class="line"><span class="lineno">  208</span>}</div>
-<div class="ttc" id="aa01133_html_a723d51a7fd90e70d68c9ad640bbede40"><div class="ttname"><a href="../../db/d28/a01133.html#a723d51a7fd90e70d68c9ad640bbede40">NaxxramasScriptName</a></div><div class="ttdeci">#define NaxxramasScriptName</div><div class="ttdef"><b>Definition:</b> naxxramas.h:25</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  586</span>{</div>
+<div class="line"><span class="lineno">  587</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/dea/a14298.html">instance_hyjal</a>();</div>
+<div class="line"><span class="lineno">  588</span>}</div>
+<div class="ttc" id="aa14298_html"><div class="ttname"><a href="../../d2/dea/a14298.html">instance_hyjal</a></div><div class="ttdef"><b>Definition:</b> instance_hyjal.cpp:72</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00025">NaxxramasScriptName</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d0f/a09346.html">ObjectData</a> const creatureData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe">NPC_WINTERCHILL</a>, <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8">DATA_WINTERCHILL</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac">NPC_ANETHERON</a>,   <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a>   },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b">NPC_KAZROGAL</a>,    <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5">DATA_KAZROGAL</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d">NPC_AZGALOR</a>,     <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a>     },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532">NPC_ARCHIMONDE</a>,  <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5">DATA_ARCHIMONDE</a>  },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d6/d90/a02492.html#abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f">NPC_THRALL</a>,      <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a>      },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d6/d90/a02492.html#a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448">NPC_JAINA</a>,       <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac">DATA_JAINA</a>       },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348">NPC_TYRANDE</a>,     <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f">DATA_TYRANDE</a>     },</div>
+<div class="line">    { 0,               0                }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe">NPC_WINTERCHILL</a></div><div class="ttdeci">@ NPC_WINTERCHILL</div><div class="ttdef"><b>Definition:</b> hyjal.h:114</div></div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b">NPC_KAZROGAL</a></div><div class="ttdeci">@ NPC_KAZROGAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:116</div></div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348">NPC_TYRANDE</a></div><div class="ttdeci">@ NPC_TYRANDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:103</div></div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532">NPC_ARCHIMONDE</a></div><div class="ttdeci">@ NPC_ARCHIMONDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:118</div></div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac">NPC_ANETHERON</a></div><div class="ttdeci">@ NPC_ANETHERON</div><div class="ttdef"><b>Definition:</b> hyjal.h:115</div></div>
+<div class="ttc" id="aa01139_html_a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d"><div class="ttname"><a href="../../d5/d3e/a01139.html#a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d">NPC_AZGALOR</a></div><div class="ttdeci">@ NPC_AZGALOR</div><div class="ttdef"><b>Definition:</b> hyjal.h:117</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac">DATA_JAINA</a></div><div class="ttdeci">@ DATA_JAINA</div><div class="ttdef"><b>Definition:</b> hyjal.h:40</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a></div><div class="ttdeci">@ DATA_THRALL</div><div class="ttdef"><b>Definition:</b> hyjal.h:41</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5">DATA_KAZROGAL</a></div><div class="ttdeci">@ DATA_KAZROGAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:33</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f">DATA_TYRANDE</a></div><div class="ttdeci">@ DATA_TYRANDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:42</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a></div><div class="ttdeci">@ DATA_AZGALOR</div><div class="ttdef"><b>Definition:</b> hyjal.h:34</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8">DATA_WINTERCHILL</a></div><div class="ttdeci">@ DATA_WINTERCHILL</div><div class="ttdef"><b>Definition:</b> hyjal.h:31</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a></div><div class="ttdeci">@ DATA_ANETHERON</div><div class="ttdef"><b>Definition:</b> hyjal.h:32</div></div>
+<div class="ttc" id="aa01139_html_afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5"><div class="ttname"><a href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5">DATA_ARCHIMONDE</a></div><div class="ttdeci">@ DATA_ARCHIMONDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:35</div></div>
+<div class="ttc" id="aa02492_html_a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448"><div class="ttname"><a href="../../d6/d90/a02492.html#a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448">NPC_JAINA</a></div><div class="ttdeci">@ NPC_JAINA</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:418</div></div>
+<div class="ttc" id="aa02492_html_abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f"><div class="ttname"><a href="../../d6/d90/a02492.html#abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f">NPC_THRALL</a></div><div class="ttdeci">@ NPC_THRALL</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:447</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00083">instance_hyjal::instance_mount_hyjal_InstanceMapScript::instance_mount_hyjal_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d50/a09330.html">DoorData</a> const doorData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60">GO_HORDE_ENCAMPMENT_PORTAL</a>,  <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a>,  <a class="code hl_enumvalue" href="../../dc/d23/a03041.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02">GO_NIGHT_ELF_VILLAGE_PORTAL</a>, <a class="code hl_enumvalue" href="../../d5/d3e/a01139.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a>,    <a class="code hl_enumvalue" href="../../dc/d23/a03041.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { 0,                           0,               <a class="code hl_enumvalue" href="../../dc/d23/a03041.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa01139_html_aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60"><div class="ttname"><a href="../../d5/d3e/a01139.html#aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60">GO_HORDE_ENCAMPMENT_PORTAL</a></div><div class="ttdeci">@ GO_HORDE_ENCAMPMENT_PORTAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:128</div></div>
+<div class="ttc" id="aa01139_html_aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02"><div class="ttname"><a href="../../d5/d3e/a01139.html#aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02">GO_NIGHT_ELF_VILLAGE_PORTAL</a></div><div class="ttdeci">@ GO_NIGHT_ELF_VILLAGE_PORTAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:129</div></div>
+<div class="ttc" id="aa03041_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../dc/d23/a03041.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00083">instance_hyjal::instance_mount_hyjal_InstanceMapScript::instance_mount_hyjal_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="ade7b4d2fdf8cd15fa4985554885eb881" name="ade7b4d2fdf8cd15fa4985554885eb881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7b4d2fdf8cd15fa4985554885eb881">&#9670;&#160;</a></span>hyjalNightElfWaveTimers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalNightElfWaveTimers[1][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498eadcc87d7ad11c922e4c0dbae31b6b00db">MAX_WAVES_NIGHT_ELF</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 0ms }</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00264">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
+
+</div>
+</div>
+<a id="a254787ab3a62d90e906ded9ef63aa229" name="a254787ab3a62d90e906ded9ef63aa229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254787ab3a62d90e906ded9ef63aa229">&#9670;&#160;</a></span>hyjalRetreatTimers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalRetreatTimers[2][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498ea1084aef6ff8543a3b9992e129436544f">MAX_WAVES_RETREAT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 10000ms, 6000ms , 0ms },   </div>
+<div class="line">    { 10000ms, 40000ms, 0ms }    </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00264">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
+
+</div>
+</div>
+<a id="aaad50890c4534c5b5c848a9b85f3d8fe" name="aaad50890c4534c5b5c848a9b85f3d8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad50890c4534c5b5c848a9b85f3d8fe">&#9670;&#160;</a></span>hyjalWaveTimers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalWaveTimers[4][<a class="el" href="../../d5/d3e/a01139.html#abd6cce1437900ab106eccd088558498eab56f8400a89abc853f99e7737219502c">MAX_WAVES_STANDARD</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 190000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 190000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 155000ms, 130000ms, 155000ms, 130000ms, 130000ms, 155000ms, 225000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 190000ms, 190000ms, 190000ms, 130000ms, 155000ms, 190000ms, 225000ms, 0ms }     </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00264">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
 
 </div>
 </div>
@@ -993,8 +304,8 @@ template&lt;class AI , class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d398bc29d4ac2bbbb9d86fcdd4564fe5.html">Naxxramas</a></li><li class="navelem"><a class="el" href="../../db/d28/a01133.html">naxxramas.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_5833980719a36b6f6a864b11e72f0bc7.html">CavernsOfTime</a></li><li class="navelem"><a class="el" href="../../dir_e068b882fd581e5818b3e126213c1b22.html">BattleForMountHyjal</a></li><li class="navelem"><a class="el" href="../../db/d28/a01133.html">instance_hyjal.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

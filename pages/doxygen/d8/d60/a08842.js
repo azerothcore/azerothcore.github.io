@@ -1,13 +1,15 @@
 var a08842 =
 [
-    [ "VisibleNotifier", "d8/d60/a08842.html#af6b878aad8873a7e34670af7ed84188e", null ],
-    [ "SendToSelf", "d8/d60/a08842.html#a95d1c60911cfed9e4f0e034afbf11482", null ],
-    [ "Visit", "d8/d60/a08842.html#a77d110af6b97c2a4d93ff53a8771273d", null ],
-    [ "Visit", "d8/d60/a08842.html#a8dafcbc64e004aea196aec47fb2bb175", null ],
-    [ "i_data", "d8/d60/a08842.html#a6cfba0f042e117cfdb7bdf1f1168c0ce", null ],
-    [ "i_gobjOnly", "d8/d60/a08842.html#a019182fa8a629d796982f9cc565d9bc3", null ],
-    [ "i_largeOnly", "d8/d60/a08842.html#a6954721b71a55874c7f708bf822613bd", null ],
-    [ "i_player", "d8/d60/a08842.html#aaa324b9a9cffd59c7cbab0c08cf68395", null ],
-    [ "i_visibleNow", "d8/d60/a08842.html#a34d766816baaad7b1b3623360ec9abeb", null ],
-    [ "vis_guids", "d8/d60/a08842.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c", null ]
+    [ "CoordPair", "d8/d60/a08842.html#a53b5f24cfdf13b246549a0c1543924c9", null ],
+    [ "CoordPair", "d8/d60/a08842.html#aab92ece0f01ebc00cdac4966e02fa8fd", null ],
+    [ "dec_x", "d8/d60/a08842.html#a69be5b72b710722120104f0c502fbb70", null ],
+    [ "dec_y", "d8/d60/a08842.html#aefa33f8766212bb71e5fd19a318142cc", null ],
+    [ "GetId", "d8/d60/a08842.html#ae4f7f304faf2c2363cffe2170b4c5c97", null ],
+    [ "inc_x", "d8/d60/a08842.html#aa6a4942253e87ae57e2d69a2563ddef1", null ],
+    [ "inc_y", "d8/d60/a08842.html#a120946c5a8c8b49bbdf9a1ee54ded9ec", null ],
+    [ "IsCoordValid", "d8/d60/a08842.html#a082960c54e2077df370f891c0534b44f", null ],
+    [ "normalize", "d8/d60/a08842.html#afac8086374bfc499e3a8d74d6afc58db", null ],
+    [ "operator=", "d8/d60/a08842.html#a27f81c359c4ae278d663e85eccbeebb9", null ],
+    [ "x_coord", "d8/d60/a08842.html#a101dd71af6a2cba18140aea2e502ef8b", null ],
+    [ "y_coord", "d8/d60/a08842.html#aacae12844cc0c0d70e26b137ad28f700", null ]
 ];

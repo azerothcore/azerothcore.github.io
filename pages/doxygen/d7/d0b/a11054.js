@@ -1,6 +1,6 @@
 var a11054 =
 [
-    [ "AfterCheckProcHandler", "d7/d0b/a11054.html#ac0a14950e90d064ffd7adc224b25f9d8", null ],
-    [ "Call", "d7/d0b/a11054.html#ab2da0d87413dd7317eeaf73df17f1aaf", null ],
-    [ "_HandlerScript", "d7/d0b/a11054.html#af5a393efc729e8588c0fc425fdfead99", null ]
+    [ "EffectAbsorbHandler", "d7/d0b/a11054.html#a29bb773b8271acf651b08f33ce358720", null ],
+    [ "Call", "d7/d0b/a11054.html#a56bfb0fd0d860678920445d1182c09ef", null ],
+    [ "pEffectHandlerScript", "d7/d0b/a11054.html#a519489b8d951173a806e86cfe075faf1", null ]
 ];

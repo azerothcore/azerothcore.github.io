@@ -1,12 +1,12 @@
 var a10674 =
 [
-    [ "PacketLog", "d6/d40/a10674.html#a75215d454393ecd3fce0ea07b5d673ee", null ],
-    [ "~PacketLog", "d6/d40/a10674.html#a595a42f9aaa94d6c46d185955df801e0", null ],
-    [ "CanLogPacket", "d6/d40/a10674.html#a322cf3a0d8707becb9dcc64548d4cce5", null ],
-    [ "Initialize", "d6/d40/a10674.html#aea6ccfd41bc147557b7c5066fe18afa6", null ],
-    [ "instance", "d6/d40/a10674.html#a484418a51ca0bf150d17b23d97979bf4", null ],
-    [ "LogPacket", "d6/d40/a10674.html#ac0323a6ac3856412b765d0b31dbbb37e", null ],
-    [ "_file", "d6/d40/a10674.html#a03346a709f7586f6445e03b9a3b6af04", null ],
-    [ "_initializeFlag", "d6/d40/a10674.html#a490cafe009f7b2ecb303a76c781f8960", null ],
-    [ "_logPacketLock", "d6/d40/a10674.html#aeffb6309ef859cbb346b15dc1fca5cbe", null ]
+    [ "OpcodeTable", "d5/dfd/a04680.html#gacb286fdd22f1781abfb0d820b1f345aa", null ],
+    [ "OpcodeTable", "d5/dfd/a04680.html#ga0d719536cf746ad04a8ecc4fcca4a869", null ],
+    [ "~OpcodeTable", "d5/dfd/a04680.html#gac4e0724e0795156122c4fd8f07ade628", null ],
+    [ "Initialize", "d5/dfd/a04680.html#gac64814869d378e5bb7fa18144693fac1", null ],
+    [ "operator=", "d5/dfd/a04680.html#ga2153d4fe6b752cc2269cbfec7e8c3c84", null ],
+    [ "operator[]", "d5/dfd/a04680.html#gaa2cde2ecf8628ce12487ec9ce8fa37d1", null ],
+    [ "ValidateAndSetClientOpcode", "d5/dfd/a04680.html#ga95313e8e04ed3ab47f7104db9cf1db09", null ],
+    [ "ValidateAndSetServerOpcode", "d5/dfd/a04680.html#ga42b9c6fd72c2f463ab5cb3fb562151b6", null ],
+    [ "_internalTableClient", "d5/dfd/a04680.html#ga8c0d7f9f6248f9652fd8b8021b9a7677", null ]
 ];

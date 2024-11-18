@@ -1,6 +1,6 @@
 var a01457 =
 [
-    [ "fireworkShowGameobjectTeldrassil", "da/df7/a01457.html#ade54ff9545ac94f914ea82994571e3a0", null ],
-    [ "fireworkShowScheduleTeldrassil", "da/df7/a01457.html#a5a91b29d6818da3b038fc384535233b6", null ],
-    [ "fireworkShowTeldrassil", "da/df7/a01457.html#a8999f3fc85a14b073f5037adea6f7496", null ]
+    [ "fireworkShowGameobjectThunderBluff", "da/df7/a01457.html#ab3cf2de65fa26d7c56cf3a4e0f4a56e1", null ],
+    [ "fireworkShowScheduleThunderBluff", "da/df7/a01457.html#ac35fd5df42f24906b21b6887860b96a5", null ],
+    [ "fireworkShowThunderBluff", "da/df7/a01457.html#ae9cf9fa234ec7db55622bede66c21f78", null ]
 ];

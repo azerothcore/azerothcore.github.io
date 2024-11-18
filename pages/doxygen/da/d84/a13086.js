@@ -1,8 +1,9 @@
 var a13086 =
 [
-    [ "HandleApply", "da/d84/a13086.html#a717e3428afd59fa3a5e9916887d88273", null ],
-    [ "HandleRemove", "da/d84/a13086.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
-    [ "PrepareAuraScript", "da/d84/a13086.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
-    [ "Register", "da/d84/a13086.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
-    [ "Validate", "da/d84/a13086.html#a393a46618a4e1928b8149e04b4823726", null ]
+    [ "boss_entropius", "da/d84/a13086.html#a458deaa80c9694cd2608150bc5519c76", null ],
+    [ "EnterEvadeMode", "da/d84/a13086.html#a01889b192525af082471d092bff28c88", null ],
+    [ "JustDied", "da/d84/a13086.html#aed1313073a44bc15f87432a85e6c2d8e", null ],
+    [ "JustEngagedWith", "da/d84/a13086.html#afb07fc44fd14b9f78fbc97b2670b8b5e", null ],
+    [ "Reset", "da/d84/a13086.html#ad9da990a540703d38cb45dd2da72c179", null ],
+    [ "UpdateAI", "da/d84/a13086.html#ab7fbeb67059c48b5f1aff071990ece5e", null ]
 ];

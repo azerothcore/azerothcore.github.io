@@ -1,8 +1,8 @@
 var a09626 =
 [
-    [ "GetMotd", "d6/da3/a09626.html#ad84d4ce9d38011c75e20ea6db6160ff7", null ],
-    [ "GetMotdPacket", "d6/da3/a09626.html#a26277b53365c91187d78d2590e4ac6a5", null ],
-    [ "instance", "d6/da3/a09626.html#a0eac0994f742f9a5cbd912abc308d1a7", null ],
-    [ "LoadMotd", "d6/da3/a09626.html#a1a6ce19decdaf6cd778cf331bdc0c1ef", null ],
-    [ "SetMotd", "d6/da3/a09626.html#af1f2bdf2b8e79e195d65d06b8764aecc", null ]
+    [ "GetAINotifyDelay", "d6/da3/a09626.html#a9efd4acfe2ff5e4dfe0cc9e8fe802cc6", null ],
+    [ "GetReqMoveDistSq", "d6/da3/a09626.html#a58687646bbf83723e8ad2925ee50452c", null ],
+    [ "GetVisibilityNotifyDelay", "d6/da3/a09626.html#ac402ec0cb86192ce264d7909e09da5ac", null ],
+    [ "Update", "d6/da3/a09626.html#aa95443d7050249a44cad2f16fa0026e5", null ],
+    [ "visibilitySettingsIndex", "d6/da3/a09626.html#a35ebd0fcbdec8a3287f714cbe9becbcc", null ]
 ];

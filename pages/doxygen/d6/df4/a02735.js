@@ -1,15 +1,10 @@
 var a02735 =
 [
-    [ "GetGameTime", "d6/df4/a02735.html#adbe1785d1327dedf2ac403b7cc8e99c2", null ],
-    [ "GetGameTimeMS", "d6/df4/a02735.html#a6d0d49f37e25e497391157b2a2ec90c1", null ],
-    [ "GetStartTime", "d6/df4/a02735.html#a872d34d3f9d420cfc749073c809931f9", null ],
-    [ "GetSystemTime", "d6/df4/a02735.html#a443eccf314fe436192278d425d6d8220", null ],
-    [ "GetUptime", "d6/df4/a02735.html#ae2ff9233756dd88fa1aafcc1e1c0be4d", null ],
-    [ "Now", "d6/df4/a02735.html#ae5cc9f17fc6b8b15c678fa7a84a6e117", null ],
-    [ "UpdateGameTimers", "d6/df4/a02735.html#a45712735241c9563a12fc3da54fb144d", null ],
-    [ "GameMSTime", "d6/df4/a02735.html#ad5fc2a056410eeac2e2717f91cb8295c", null ],
-    [ "GameTime", "d6/df4/a02735.html#a9a28ffdb4bb387919d2dd70a51080ce0", null ],
-    [ "GameTimeSteadyPoint", "d6/df4/a02735.html#a874057035d37aa57afc5064acffba119", null ],
-    [ "GameTimeSystemPoint", "d6/df4/a02735.html#aa393fef2187ebdd6aa34379b0f1504d7", null ],
-    [ "StartTime", "d6/df4/a02735.html#a78088a0637670a1ab5125a1388f7ca52", null ]
+    [ "SecretMgr", "d5/d8a/a28118.html", "d5/d8a/a28118" ],
+    [ "SecretMgr::Secret", "d8/d40/a28122.html", "d8/d40/a28122" ],
+    [ "sSecretMgr", "d6/df4/a02735.html#a5104e1ebeb8cbf71ec16e9492a3ad622", null ],
+    [ "Secrets", "d6/df4/a02735.html#ab54b0ec728a299f0ff9e8a7796297a01", [
+      [ "SECRET_TOTP_MASTER_KEY", "d6/df4/a02735.html#ab54b0ec728a299f0ff9e8a7796297a01a414121b0e05fa3a392ffe0da5afe0fe9", null ],
+      [ "NUM_SECRETS", "d6/df4/a02735.html#ab54b0ec728a299f0ff9e8a7796297a01a087643d0aa89a708bad0f254697489c6", null ]
+    ] ]
 ];

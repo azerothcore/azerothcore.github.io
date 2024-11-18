@@ -1,13 +1,9 @@
 var a12938 =
 [
-    [ "boss_felmyst", "dd/d09/a12938.html#a96aa8f038e3f93aa7628ce3f28ef39ff", null ],
-    [ "DoAction", "dd/d09/a12938.html#ad6a578f2b47ed6bc804785e1f9d0c604", null ],
-    [ "JustDied", "dd/d09/a12938.html#a2269784b565f6a9d18bd9124cf4b8472", null ],
-    [ "JustEngagedWith", "dd/d09/a12938.html#a6fc19cd8b8c7891a912a50fcd673d96f", null ],
-    [ "JustSummoned", "dd/d09/a12938.html#ae9901e0d8b4f21a3ad88fe8c3842dbc6", null ],
-    [ "KilledUnit", "dd/d09/a12938.html#a0233ebbcbb21d100425ac76223e839be", null ],
-    [ "MovementInform", "dd/d09/a12938.html#adf8cd17c20be6acbe381777e8c0efdba", null ],
-    [ "Reset", "dd/d09/a12938.html#ae5181c789809a859edb40488e206c0d3", null ],
-    [ "UpdateAI", "dd/d09/a12938.html#a0e429d8cf49946c0232b9c405c340356", null ],
-    [ "events2", "dd/d09/a12938.html#a7ec9f8f9433bf0c7da4567b09087e402", null ]
+    [ "spell_eredar_twins_apply_touch", "dd/d09/a12938.html#a1ffb6952cbbb79bb6a963ea57b8400aa", null ],
+    [ "HandleApplyTouch", "dd/d09/a12938.html#a200219828e22c35ef2f7c7a7fd61c973", null ],
+    [ "PrepareSpellScript", "dd/d09/a12938.html#a6e6c42042faa1a6cd82d4680d28587ae", null ],
+    [ "Register", "dd/d09/a12938.html#a8c49e8aeb1f00e8324aa4c1d420fb068", null ],
+    [ "Validate", "dd/d09/a12938.html#a36ff1d126191de7880d98242b3b714b5", null ],
+    [ "_touchSpell", "dd/d09/a12938.html#a9f8c58013add0fc5a05a78e1b90a32e1", null ]
 ];

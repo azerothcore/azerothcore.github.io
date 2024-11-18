@@ -1,10 +1,7 @@
 var a25026 =
 [
-    [ "CheckProc", "df/d39/a25026.html#a8a7a0ac560eecc3777087622fb3f3951", null ],
-    [ "HandleProc", "df/d39/a25026.html#a90eee01f380f97f033c82d7c6ec48d00", null ],
-    [ "OnApply", "df/d39/a25026.html#a93818ec97cfd47da1dee454bb0a9318c", null ],
-    [ "OnRemove", "df/d39/a25026.html#a5e978d4d46f42ba5098eaecd9473fccb", null ],
-    [ "PrepareAuraScript", "df/d39/a25026.html#a73ae8e378b906a420955fd33d02ba6b7", null ],
-    [ "Register", "df/d39/a25026.html#a7070f64c9c47c8c1bc26e49b2b60a110", null ],
-    [ "Validate", "df/d39/a25026.html#a91c5a0e10c308332e18dc40033049996", null ]
+    [ "HandleOnEffectApply", "df/d39/a25026.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
+    [ "HandleOnEffectRemove", "df/d39/a25026.html#a094d788d157474a9683387d5c340538f", null ],
+    [ "PrepareAuraScript", "df/d39/a25026.html#aad378b8c45f11af51faf9128878c01df", null ],
+    [ "Register", "df/d39/a25026.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
 ];

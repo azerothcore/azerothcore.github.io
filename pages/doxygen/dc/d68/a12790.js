@@ -1,7 +1,7 @@
 var a12790 =
 [
-    [ "npc_apothecary_genericAI", "dc/d68/a12790.html#afb2b04b51e28d0795e7781effa68dffd", null ],
-    [ "DoAction", "dc/d68/a12790.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
-    [ "MovementInform", "dc/d68/a12790.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
-    [ "_movePos", "dc/d68/a12790.html#a53d10ab64df212b043cc21e054f6528c", null ]
+    [ "OnApply", "dc/d68/a12790.html#a278a1eb6d5f856a620f5a33de294b0ec", null ],
+    [ "OnRemove", "dc/d68/a12790.html#a8300f726a41882e3d3f54adc0e5bfb29", null ],
+    [ "PrepareAuraScript", "dc/d68/a12790.html#a46ba800f3a3512951b83e428bc5373b9", null ],
+    [ "Register", "dc/d68/a12790.html#a4a59d431c7d7607e614c4ec035e3acf7", null ]
 ];

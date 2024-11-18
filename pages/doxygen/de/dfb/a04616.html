@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/DatabaseWorkerPool.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/PreparedStatement.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,171 +104,24 @@ $(document).ready(function(){initNavTree('de/dfb/a04616.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">DatabaseWorkerPool.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">PreparedStatement.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseWorkerPool.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">AdhocStatement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CharacterDatabase.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">PreparedStatement.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LoginDatabase.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MySQLPreparedStatement.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLConnection.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">MySQLWorkaround.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PCQueue.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PreparedStatement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryCallback.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryHolder.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SQLOperation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transaction.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldDatabase.h</a>&quot;</code><br />
-<code>#include &lt;limits&gt;</code><br />
-<code>#include &lt;mysqld_error.h&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd6/a05602.html">PingOperation</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a31d71bc4748fa66e040eb20dc995e12e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfb/a04616.html#a31d71bc4748fa66e040eb20dc995e12e">DatabaseIncompatibleVersion</a> (std::string const mysqlVersion)</td></tr>
-<tr class="memdesc:a31d71bc4748fa66e040eb20dc995e12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the version string given is incompatible.  <a href="../../de/dfb/a04616.html#a31d71bc4748fa66e040eb20dc995e12e">More...</a><br /></td></tr>
-<tr class="separator:a31d71bc4748fa66e040eb20dc995e12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8751940b74a554bf0a86046325e0c5ed"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfb/a04616.html#a8751940b74a554bf0a86046325e0c5ed">DatabaseWorkerPool&lt; LoginDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:a8751940b74a554bf0a86046325e0c5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25e66781580e4e7fcbd8e8ca6ef9f13a"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfb/a04616.html#a25e66781580e4e7fcbd8e8ca6ef9f13a">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:a25e66781580e4e7fcbd8e8ca6ef9f13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3cb93fc2ebcb628d94ae0dd8ddf8a18"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfb/a04616.html#aa3cb93fc2ebcb628d94ae0dd8ddf8a18">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:aa3cb93fc2ebcb628d94ae0dd8ddf8a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a31d71bc4748fa66e040eb20dc995e12e" name="a31d71bc4748fa66e040eb20dc995e12e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31d71bc4748fa66e040eb20dc995e12e">&#9670;&#160;</a></span>DatabaseIncompatibleVersion()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseIncompatibleVersion </td>
-          <td>(</td>
-          <td class="paramtype">std::string const&#160;</td>
-          <td class="paramname"><em>mysqlVersion</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true if the version string given is incompatible. </p>
-<p >Intended to be used with mysql_get_server_info()'s output as the source</p>
-<p >DatabaseIncompatibleVersion("8.0.35") =&gt; false DatabaseIncompatibleVersion("5.6.6") =&gt; true</p>
-<p >Adapted from stackoverflow response <a href="https://stackoverflow.com/a/2941508">https://stackoverflow.com/a/2941508</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mysqlVersion</td><td>The output from GetServerInfo()/mysql_get_server_info() </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns true if the Server version is incompatible </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  384</span>{</div>
-<div class="line"><span class="lineno">  385</span>    <span class="comment">// anon func to turn a version string into an array of uint8</span></div>
-<div class="line"><span class="lineno">  386</span>    <span class="comment">// &quot;1.2.3&quot; =&gt; [1, 2, 3]</span></div>
-<div class="line"><span class="lineno">  387</span>    <span class="keyword">auto</span> parse = [](std::string <span class="keyword">const</span>&amp; input)</div>
-<div class="line"><span class="lineno">  388</span>    {</div>
-<div class="line"><span class="lineno">  389</span>        std::vector&lt;uint8&gt; result;</div>
-<div class="line"><span class="lineno">  390</span>        std::istringstream parser(input);</div>
-<div class="line"><span class="lineno">  391</span>        result.push_back(parser.get());</div>
-<div class="line"><span class="lineno">  392</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; 3; i++)</div>
-<div class="line"><span class="lineno">  393</span>        {</div>
-<div class="line"><span class="lineno">  394</span>            <span class="comment">// Skip period</span></div>
-<div class="line"><span class="lineno">  395</span>            parser.get();</div>
-<div class="line"><span class="lineno">  396</span>            <span class="comment">// Append int from parser to output</span></div>
-<div class="line"><span class="lineno">  397</span>            result.push_back(parser.get());</div>
-<div class="line"><span class="lineno">  398</span>        }</div>
-<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  400</span>    };</div>
-<div class="line"><span class="lineno">  401</span> </div>
-<div class="line"><span class="lineno">  402</span>    <span class="comment">// default to values for MySQL</span></div>
-<div class="line"><span class="lineno">  403</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> offset = 0;</div>
-<div class="line"><span class="lineno">  404</span>    std::string minVersion = <a class="code hl_define" href="../../d3/d6e/a04628.html#acd4a83e86313ca0bb35cb66497bc79b2">MIN_MYSQL_SERVER_VERSION</a>;</div>
-<div class="line"><span class="lineno">  405</span> </div>
-<div class="line"><span class="lineno">  406</span>    <span class="keyword">auto</span> parsedMySQLVersion = parse(mysqlVersion.substr(offset));</div>
-<div class="line"><span class="lineno">  407</span>    <span class="keyword">auto</span> parsedMinVersion = parse(minVersion);</div>
-<div class="line"><span class="lineno">  408</span> </div>
-<div class="line"><span class="lineno">  409</span>    <span class="keywordflow">return</span> std::lexicographical_compare(parsedMySQLVersion.begin(), parsedMySQLVersion.end(),</div>
-<div class="line"><span class="lineno">  410</span>                                        parsedMinVersion.begin(), parsedMinVersion.end());</div>
-<div class="line"><span class="lineno">  411</span>}</div>
-<div class="ttc" id="aa00179_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa04628_html_acd4a83e86313ca0bb35cb66497bc79b2"><div class="ttname"><a href="../../d3/d6e/a04628.html#acd4a83e86313ca0bb35cb66497bc79b2">MIN_MYSQL_SERVER_VERSION</a></div><div class="ttdeci">#define MIN_MYSQL_SERVER_VERSION</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.h:39</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">MIN_MYSQL_SERVER_VERSION</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00414">DatabaseWorkerPool&lt; T &gt;::OpenConnections()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aa3cb93fc2ebcb628d94ae0dd8ddf8a18" name="aa3cb93fc2ebcb628d94ae0dd8ddf8a18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3cb93fc2ebcb628d94ae0dd8ddf8a18">&#9670;&#160;</a></span>DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../de/dd0/a05590.html">DatabaseWorkerPool</a>&lt; <a class="el" href="../../d4/dff/a05618.html">CharacterDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8751940b74a554bf0a86046325e0c5ed" name="a8751940b74a554bf0a86046325e0c5ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8751940b74a554bf0a86046325e0c5ed">&#9670;&#160;</a></span>DatabaseWorkerPool&lt; LoginDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../de/dd0/a05590.html">DatabaseWorkerPool</a>&lt; <a class="el" href="../../d4/dc8/a05622.html">LoginDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25e66781580e4e7fcbd8e8ca6ef9f13a" name="a25e66781580e4e7fcbd8e8ca6ef9f13a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25e66781580e4e7fcbd8e8ca6ef9f13a">&#9670;&#160;</a></span>DatabaseWorkerPool&lt; WorldDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../de/dd0/a05590.html">DatabaseWorkerPool</a>&lt; <a class="el" href="../../df/d05/a05626.html">WorldDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../de/dfb/a04616.html">DatabaseWorkerPool.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../de/dfb/a04616.html">PreparedStatement.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

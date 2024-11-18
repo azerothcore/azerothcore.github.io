@@ -1,6 +1,8 @@
 var a08350 =
 [
-    [ "SavedItem", "d5/d43/a08350.html#a7261d44eefdbd56df651a57a71f5af6e", null ],
-    [ "dstpos", "d5/d43/a08350.html#af844c8b955858b1ead94798c6326fa03", null ],
-    [ "item", "d5/d43/a08350.html#afaa651441e306c13acc3cd1aa3084170", null ]
+    [ "EnchantDuration", "d5/d43/a08350.html#a1ce5f81deaa60494c247673c113632d8", null ],
+    [ "EnchantDuration", "d5/d43/a08350.html#a52448f2bb8b788193a69fe9a2d8729f3", null ],
+    [ "item", "d5/d43/a08350.html#ae803f6a9ce9cdb0dbb133bc85b6613ab", null ],
+    [ "leftduration", "d5/d43/a08350.html#a3f4edafbc9b09cb5ab660bc68af435f3", null ],
+    [ "slot", "d5/d43/a08350.html#a3de1a8d64aea4c5c1f984a74c6bb017d", null ]
 ];

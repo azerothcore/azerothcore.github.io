@@ -1,25 +1,7 @@
 var a18810 =
 [
-    [ "boss_malygosAI", "dc/dcc/a18810.html#a6f8d8ec25b9d3acedd7c70f0a9f04a8a", null ],
-    [ "AttackStart", "dc/dcc/a18810.html#a4f0ef49be1129d4289ca9682a145d3a8", null ],
-    [ "DamageTaken", "dc/dcc/a18810.html#a5ca565d9078c31b7ca6ceda0e262114d", null ],
-    [ "EnterEvadeMode", "dc/dcc/a18810.html#adb432469735f6ebc016bb11bbc90a87e", null ],
-    [ "HandleIntroSpeech", "dc/dcc/a18810.html#ab959171061519d41998dc9a7e76f3a60", null ],
-    [ "InitializeAI", "dc/dcc/a18810.html#a23ea01ace48cde2675399ce3f202cb22", null ],
-    [ "JustDied", "dc/dcc/a18810.html#a44ca67ecee771d27b9c59be7b5e7d56b", null ],
-    [ "JustEngagedWith", "dc/dcc/a18810.html#aa3f7fd4e97351335ba6b0d90f76659d5", null ],
-    [ "JustSummoned", "dc/dcc/a18810.html#a6613931f6211979d8c627c9c5cd8dea2", null ],
-    [ "KilledUnit", "dc/dcc/a18810.html#aef2c08bf3727850c517c3cfae1cce170", null ],
-    [ "MoveInLineOfSight", "dc/dcc/a18810.html#acee6055640b8f2d51fe13d46f383ebc0", null ],
-    [ "MovementInform", "dc/dcc/a18810.html#ae75c077a139345bd63ddf4c27cb5e6f6", null ],
-    [ "Reset", "dc/dcc/a18810.html#afb7d93501d3559e4163b207bfb9b0d78", null ],
-    [ "SpellHit", "dc/dcc/a18810.html#af18eee25feb57f41708801f4d772a1ee", null ],
-    [ "UpdateAI", "dc/dcc/a18810.html#ab49276a5703a35d4271141368c9b6fcb", null ],
-    [ "bLockHealthCheck", "dc/dcc/a18810.html#a04ae7795de03560add41170a9487aa99", null ],
-    [ "events", "dc/dcc/a18810.html#ad2f425679108a50ac4cee1fc57dfe591", null ],
-    [ "IntroCounter", "dc/dcc/a18810.html#a2e19ce8b75578bd8b6f7432c14f3b7f8", null ],
-    [ "pInstance", "dc/dcc/a18810.html#a9ec26485d72ccf8e97120756f14161c3", null ],
-    [ "summons", "dc/dcc/a18810.html#aedb8188207d090740490fcd2256f84a3", null ],
-    [ "timer1", "dc/dcc/a18810.html#aeb4a585d72d6c970d5e1814de1599410", null ],
-    [ "timer2", "dc/dcc/a18810.html#affb313b502fbebaa6937fc3f2a380906", null ]
+    [ "boss_naxxramas_miscAI", "dc/dcc/a18810.html#affd990236c101d91b31f60eea7135cdf", null ],
+    [ "JustDied", "dc/dcc/a18810.html#aae92d4b538907ef829f5f534f16feef1", null ],
+    [ "UpdateAI", "dc/dcc/a18810.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
+    [ "timer", "dc/dcc/a18810.html#a39af06c7bc635bf85eebf4ed40798006", null ]
 ];

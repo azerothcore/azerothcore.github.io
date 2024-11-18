@@ -1,7 +1,6 @@
 var a18638 =
 [
-    [ "HandleRemove", "d9/dab/a18638.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
-    [ "PrepareAuraScript", "d9/dab/a18638.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
-    [ "Register", "d9/dab/a18638.html#ad7ba015a7878adad0820cf378d2632ca", null ],
-    [ "Validate", "d9/dab/a18638.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d1/d8a/a18642.html", "d1/d8a/a18642" ],
+    [ "boss_grobbulus_poison_cloud", "d9/dab/a18638.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
+    [ "GetAI", "d9/dab/a18638.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
 ];

@@ -1,7 +1,5 @@
 var a18482 =
 [
-    [ "DelayedCastMincharEvent", "d2/d0c/a18482.html#a76d8a08ca273eec5b2e083d136336a15", null ],
-    [ "Execute", "d2/d0c/a18482.html#a12aeff246d07e541ed192974320842cb", null ],
-    [ "_spellId", "d2/d0c/a18482.html#af4ea90407b2c8a283f137d213ffe97be", null ],
-    [ "_trigger", "d2/d0c/a18482.html#a9f3cd02e77ad35b98a6753b792383548", null ]
+    [ "at_frozen_throne_teleport", "d2/d0c/a18482.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "d2/d0c/a18482.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

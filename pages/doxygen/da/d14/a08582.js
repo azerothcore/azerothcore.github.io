@@ -1,8 +1,7 @@
 var a08582 =
 [
-    [ "entry", "da/d14/a08582.html#a924aaeec6de12ef02b5d2f9801571a1f", null ],
-    [ "ExtendedCost", "da/d14/a08582.html#ac826dc078ef456ed93bf23175bce243d", null ],
-    [ "incrtime", "da/d14/a08582.html#ab86bdb08475c1c2b75755fffcb6b8275", null ],
-    [ "item", "da/d14/a08582.html#a8f2e01fb177f33afeef9e37ffd456ff2", null ],
-    [ "maxcount", "da/d14/a08582.html#a48cb32b398e0dc6928a30bb254b05a11", null ]
+    [ "done", "da/d14/a08582.html#a498ebc454773a2c4c8d9452ed5bd3015", null ],
+    [ "done_world_state", "da/d14/a08582.html#a679379a2b44542e74d103ba851811b52", null ],
+    [ "max_world_state", "da/d14/a08582.html#a819dcff56a5795a63146aca64b46811b", null ],
+    [ "reqNum", "da/d14/a08582.html#ae74eb755e1a6f5d8800790351f662d21", null ]
 ];

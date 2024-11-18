@@ -1,6 +1,5 @@
 var a02972 =
 [
-    [ "PointMovementGenerator< T >", "d9/d0b/a09710.html", "d9/d0b/a09710" ],
-    [ "AssistanceMovementGenerator", "da/d38/a09714.html", "da/d38/a09714" ],
-    [ "EffectMovementGenerator", "df/d60/a09718.html", "df/d60/a09718" ]
+    [ "GuildMgr", "de/d9e/a09274.html", "de/d9e/a09274" ],
+    [ "sGuildMgr", "d0/daf/a02972.html#aef171903a38e30c347ff11360f682f81", null ]
 ];

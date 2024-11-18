@@ -1,8 +1,10 @@
 var a09442 =
 [
-    [ "EllipseBoundary", "de/d4c/a09442.html#aeb8c822a8c4c745de0c848721a624545", null ],
-    [ "IsWithinBoundaryArea", "de/d4c/a09442.html#a203ccf7ca23f1d66f834bdadb8b18b31", null ],
-    [ "_center", "de/d4c/a09442.html#aa84bae8bced77e38fec652e473cf39c7", null ],
-    [ "_radiusYSq", "de/d4c/a09442.html#ae933c6b1e62967f98c95cfbd4822b818", null ],
-    [ "_scaleXSq", "de/d4c/a09442.html#ad781cadd6c09e482d3a93ad71440a4c2", null ]
+    [ "DoublePosition", "dd/d67/a09446.html", "dd/d67/a09446" ],
+    [ "~AreaBoundary", "de/d4c/a09442.html#a6050e91b3d485e75186a2df9a56e8d38", null ],
+    [ "AreaBoundary", "de/d4c/a09442.html#adf670910c492c08d3384c2dd1824e7ce", null ],
+    [ "IsWithinBoundary", "de/d4c/a09442.html#aac0ce1e801f3de8f3bb83b98ecd6e5c1", null ],
+    [ "IsWithinBoundary", "de/d4c/a09442.html#a1d407f77ce0388263fc0ee6224734213", null ],
+    [ "IsWithinBoundaryArea", "de/d4c/a09442.html#ae5580b0044dba24d100831fe51ee1abc", null ],
+    [ "_isInvertedBoundary", "de/d4c/a09442.html#ad416f29594688ce670549d6fdcce4314", null ]
 ];

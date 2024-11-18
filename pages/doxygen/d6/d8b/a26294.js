@@ -1,8 +1,9 @@
 var a26294 =
 [
-    [ "Apply", "d6/d8b/a26294.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "d6/d8b/a26294.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "d6/d8b/a26294.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "d6/d8b/a26294.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "d6/d8b/a26294.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "HandleHeal", "d6/d8b/a26294.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "d6/d8b/a26294.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "d6/d8b/a26294.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "d6/d8b/a26294.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "d6/d8b/a26294.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "d6/d8b/a26294.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

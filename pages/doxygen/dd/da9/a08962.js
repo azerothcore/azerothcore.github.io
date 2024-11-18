@@ -1,10 +1,10 @@
 var a08962 =
 [
-    [ "AnyDeadUnitObjectInRangeCheck", "dd/da9/a08962.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
-    [ "operator()", "dd/da9/a08962.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
-    [ "operator()", "dd/da9/a08962.html#ae885f49537043421a92b44c201bec358", null ],
-    [ "operator()", "dd/da9/a08962.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
-    [ "operator()", "dd/da9/a08962.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
-    [ "i_range", "dd/da9/a08962.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
-    [ "i_searchObj", "dd/da9/a08962.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
+    [ "PlayerListSearcherWithSharedVision", "dd/da9/a08962.html#aace01efe09c3190b81651d237e2e9a8a", null ],
+    [ "Visit", "dd/da9/a08962.html#a5348d9887ebfd9c0a0016b31d3db8ffb", null ],
+    [ "Visit", "dd/da9/a08962.html#a34c24d8e219b8dbbdf27c1d36489f3fa", null ],
+    [ "Visit", "dd/da9/a08962.html#ac45ae498dc7f74426b66344d9367046a", null ],
+    [ "i_check", "dd/da9/a08962.html#a7261e79c2980cfb61686c01254d70c8b", null ],
+    [ "i_objects", "dd/da9/a08962.html#ac8e5495912121d8d3baac9d02e947815", null ],
+    [ "i_phaseMask", "dd/da9/a08962.html#a9bd8d6c842ac2f4cf1f10441216f906c", null ]
 ];

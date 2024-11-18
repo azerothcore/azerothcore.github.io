@@ -1,26 +1,7 @@
 var a14394 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "dd/dc4/a14394.html#a31fbc078e2c8d2a0f070a8a52c34ef90", null ],
-    [ "CleanupInstance", "dd/dc4/a14394.html#a20b8aa23c6c9e29f34cda71554c6d7a7", null ],
-    [ "EnsureGridLoaded", "dd/dc4/a14394.html#a337693ca3ad4527249b0f9f5c9a62d0f", null ],
-    [ "GetData", "dd/dc4/a14394.html#aa7ae89c6d23a061385a756cf0b0200bf", null ],
-    [ "GetGuidData", "dd/dc4/a14394.html#a119965a939e79b0fb395e8e3695359aa", null ],
-    [ "Initialize", "dd/dc4/a14394.html#ac9e53a8a406110bbc1d454be7b87fb34", null ],
-    [ "OnCreatureCreate", "dd/dc4/a14394.html#a04bf5f844ab8e802f95745f56d996716", null ],
-    [ "OnGameObjectCreate", "dd/dc4/a14394.html#ae5f9223af1488f1edd99f35f7b1c7207", null ],
-    [ "OnPlayerEnter", "dd/dc4/a14394.html#a29ebe48953ba6be93da519c7a43c356e", null ],
-    [ "ReadSaveDataMore", "dd/dc4/a14394.html#a81322de635b72f95de486ccd1abf9644", null ],
-    [ "Reposition", "dd/dc4/a14394.html#a7fcd0c449edfe21933ee055549ea7ddf", null ],
-    [ "SetData", "dd/dc4/a14394.html#a961dd71754113ce6b5aecde16b6426d2", null ],
-    [ "Update", "dd/dc4/a14394.html#ac0bb22a2f69eecc269c69005777d9c38", null ],
-    [ "WriteSaveDataMore", "dd/dc4/a14394.html#ae409ddd2759f8eea883cefa21d045a40", null ],
-    [ "_attemptsCount", "dd/dc4/a14394.html#ac5c012148a60cc7dd26e36ba6950494b", null ],
-    [ "_barrelCount", "dd/dc4/a14394.html#aeb5828d54f327c5d2a30004afa86c4af", null ],
-    [ "_encounterProgress", "dd/dc4/a14394.html#a9b5fff035fb76116f0cea6f6786d506e", null ],
-    [ "_events", "dd/dc4/a14394.html#ab3a9785a2240d62de4dfcf0b2523520f", null ],
-    [ "_finalFlamesSet", "dd/dc4/a14394.html#a914232c182475a17e3583435f2fde9bc", null ],
-    [ "_initalFlamesSet", "dd/dc4/a14394.html#a2404c19bd154f8277aa539f48ae99963", null ],
-    [ "_prisonersSet", "dd/dc4/a14394.html#a43e3b3d3cb4797a8c03731df72e7cb5a", null ],
-    [ "_tarethaGUID", "dd/dc4/a14394.html#ada3dcc37cba14ae8361989f1b842b462", null ],
-    [ "_thrallGUID", "dd/dc4/a14394.html#add8e04fa930e970ab0e88258c10f9c5d", null ]
+    [ "boss_epoch_hunter", "dd/dc4/a14394.html#a652d14ebfced39b8164687a713780600", null ],
+    [ "JustDied", "dd/dc4/a14394.html#a38d3cbed2ce8f810fd169e0004fd91dc", null ],
+    [ "JustEngagedWith", "dd/dc4/a14394.html#a2571f98f36d1271f3911617e0fdfba54", null ],
+    [ "KilledUnit", "dd/dc4/a14394.html#a61456e680e9108dd841e83d97536ef1b", null ]
 ];

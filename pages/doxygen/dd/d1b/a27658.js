@@ -1,7 +1,7 @@
 var a27658 =
 [
-    [ "Displayid", "dd/d1b/a27658.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
-    [ "ExtendedDisplayInfoID", "dd/d1b/a27658.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
-    [ "ModelId", "dd/d1b/a27658.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
-    [ "scale", "dd/d1b/a27658.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
+    [ "bit_index", "dd/d1b/a27658.html#a1e5cb3fc001169a204507a084435a211", null ],
+    [ "ID", "dd/d1b/a27658.html#a63fe7a87e019780d20e86e48efb02eac", null ],
+    [ "nameFemale", "dd/d1b/a27658.html#ad0380caf2526715faaddc9330062d90a", null ],
+    [ "nameMale", "dd/d1b/a27658.html#a74a767731c96d3d815ddde5a06f68599", null ]
 ];

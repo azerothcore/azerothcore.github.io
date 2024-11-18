@@ -1,8 +1,10 @@
 var a08982 =
 [
-    [ "NearestGameObjectCheck", "d0/d32/a08982.html#aa8ede7ca83cc53cc5b4a8a057f6e8477", null ],
-    [ "NearestGameObjectCheck", "d0/d32/a08982.html#a366ef1710823d1e52eb2df650e60562f", null ],
-    [ "operator()", "d0/d32/a08982.html#a00df56adb5c6459c59b5ae4e0b85f0d3", null ],
-    [ "i_obj", "d0/d32/a08982.html#aeaec0e0f53cb870e1f0a93f8b05b74bc", null ],
-    [ "i_range", "d0/d32/a08982.html#a92fc9a7ac2995ad962173ae3a794e825", null ]
+    [ "AnyDeadUnitSpellTargetInRangeCheck", "d0/d32/a08982.html#a212c308a02716ff382e820e86e233ed3", null ],
+    [ "operator()", "d0/d32/a08982.html#af328df880d17a62e2dbed0ff4231fc39", null ],
+    [ "operator()", "d0/d32/a08982.html#adcc69b9ef03a68aa235e40449a80b701", null ],
+    [ "operator()", "d0/d32/a08982.html#a2f2483cf7078681cb3acf28560e61184", null ],
+    [ "operator()", "d0/d32/a08982.html#aba0bf4c320a684b68743a06e724a369e", null ],
+    [ "i_check", "d0/d32/a08982.html#aa2223ad31acf47a1608ded6b5cbc2f03", null ],
+    [ "i_spellInfo", "d0/d32/a08982.html#afeb889f6cee596b2c2229f86e0a8a3f1", null ]
 ];

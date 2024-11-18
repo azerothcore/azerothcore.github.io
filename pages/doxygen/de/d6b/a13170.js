@@ -1,6 +1,6 @@
 var a13170 =
 [
-    [ "npc_balance_of_light_and_shadowAI", "db/d69/a13174.html", "db/d69/a13174" ],
-    [ "npc_balance_of_light_and_shadow", "de/d6b/a13170.html#a55229e3ea8dd9c52972185b36c08908b", null ],
-    [ "GetAI", "de/d6b/a13170.html#a07e0547e6bf81cc7ff9fe0aa4a851388", null ]
+    [ "npc_maredis_firestarAI", "de/d6b/a13170.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
+    [ "sGossipHello", "de/d6b/a13170.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
+    [ "sGossipSelect", "de/d6b/a13170.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
 ];

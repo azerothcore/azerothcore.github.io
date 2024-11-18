@@ -1,6 +1,6 @@
 var a18906 =
 [
-    [ "boss_commander_stoutbeardAI", "df/d6f/a18910.html", "df/d6f/a18910" ],
-    [ "boss_commander_stoutbeard", "df/df6/a18906.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
-    [ "GetAI", "df/df6/a18906.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
+    [ "boss_anomalusAI", "df/d6f/a18910.html", "df/d6f/a18910" ],
+    [ "boss_anomalus", "df/df6/a18906.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
+    [ "GetAI", "df/df6/a18906.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
 ];

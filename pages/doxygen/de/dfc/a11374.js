@@ -1,13 +1,11 @@
 var a11374 =
 [
-    [ "list_commandscript", "de/dfc/a11374.html#a5a85953a46afe08fe05a11fe69c934dc", null ],
-    [ "GetCommands", "de/dfc/a11374.html#a949c6e6f372afb50e1116b6414acdd7c", null ],
-    [ "HandleListAllAurasCommand", "de/dfc/a11374.html#a93f1fe9131b917c813058899efede2a5", null ],
-    [ "HandleListAurasByIdCommand", "de/dfc/a11374.html#a3c59e8b85175ef056b07f566c231c221", null ],
-    [ "HandleListAurasByNameCommand", "de/dfc/a11374.html#a78d6be53ddae80068e2d9c04ea494e24", null ],
-    [ "HandleListCreatureCommand", "de/dfc/a11374.html#a48388f1c839cec6597c74740ec49fa68", null ],
-    [ "HandleListItemCommand", "de/dfc/a11374.html#a7d0aadb081f25c3d533951bd9841f103", null ],
-    [ "HandleListObjectCommand", "de/dfc/a11374.html#ac8b32be8650c9e54388320d650c9761b", null ],
-    [ "ListAurasCommand", "de/dfc/a11374.html#a98c9f6fb42e8030d76f234cdb02a72fb", null ],
-    [ "ShouldListAura", "de/dfc/a11374.html#afc42154ec5e978b366780fb600b17e8d", null ]
+    [ "instance_commandscript", "de/dfc/a11374.html#a4d0b308b35a1aa21c66c8bd406ffa82f", null ],
+    [ "GetCommands", "de/dfc/a11374.html#a092d62969c835f6bf2a08ca3e05f04d5", null ],
+    [ "HandleInstanceGetBossStateCommand", "de/dfc/a11374.html#a1435d100be4cdbe146c30f96be2ec66d", null ],
+    [ "HandleInstanceListBindsCommand", "de/dfc/a11374.html#abf42411f9c78ce59b21b34691e3d4233", null ],
+    [ "HandleInstanceSaveDataCommand", "de/dfc/a11374.html#a4b494a8b1de470612436fbb9fa433416", null ],
+    [ "HandleInstanceSetBossStateCommand", "de/dfc/a11374.html#aec65b5af811eae2cbcf17571e9d1473b", null ],
+    [ "HandleInstanceStatsCommand", "de/dfc/a11374.html#a9547a0a88a3bcd7407c449f3f2f25f44", null ],
+    [ "HandleInstanceUnbindCommand", "de/dfc/a11374.html#a7abbe257b10632f2acbdd838e1f073a9", null ]
 ];

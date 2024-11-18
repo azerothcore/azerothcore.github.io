@@ -1,11 +1,6 @@
 var a14938 =
 [
-    [ "npc_stillpine_capitiveAI", "d8/d1b/a14938.html#a98560e7fc360dbfa3166805d9ab3feb4", null ],
-    [ "MovementInform", "d8/d1b/a14938.html#a1e930b49da85a64aa87ba79b5fe72391", null ],
-    [ "Reset", "d8/d1b/a14938.html#a9c884f892e64044057d477bdc0f89eed", null ],
-    [ "StartMoving", "d8/d1b/a14938.html#a2552a79cf384cca1203afa7f241c1cb9", null ],
-    [ "UpdateAI", "d8/d1b/a14938.html#a25dc06767382b5fee2a7098b58726fb2", null ],
-    [ "_events", "d8/d1b/a14938.html#a93dd55d392836d8d085e34293344b700", null ],
-    [ "_movementComplete", "d8/d1b/a14938.html#ae8e39ca782aee412e39d65a33d14014e", null ],
-    [ "_playerGUID", "d8/d1b/a14938.html#a3fe9a4f01aebb602095d60eb606ce763", null ]
+    [ "npc_death_ravagerAI", "dc/d73/a14942.html", "dc/d73/a14942" ],
+    [ "npc_death_ravager", "d8/d1b/a14938.html#a6aa04a28ce5aa0e467e638c8ffe11657", null ],
+    [ "GetAI", "d8/d1b/a14938.html#a284d0b8ccf902d3f03ddfc6750fe0f1c", null ]
 ];

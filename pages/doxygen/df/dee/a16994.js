@@ -1,6 +1,8 @@
 var a16994 =
 [
-    [ "FilterTargets", "df/dee/a16994.html#a59255a2cee0f9d8a75ca183647851779", null ],
-    [ "PrepareSpellScript", "df/dee/a16994.html#af8d1cc9c709aeb3a68d1f452bb605c71", null ],
-    [ "Register", "df/dee/a16994.html#a6b6dbeaa8feb8eac4441a87cdf371a36", null ]
+    [ "OnApply", "df/dee/a16994.html#a4741bfaaea8bc956fd1020aca13a51c2", null ],
+    [ "OnRemove", "df/dee/a16994.html#a21aad38fe91580d3b8e0cc71dce7b1ad", null ],
+    [ "PrepareAuraScript", "df/dee/a16994.html#a54b2ab23915e84b9c9728eb624dae47b", null ],
+    [ "Register", "df/dee/a16994.html#a6d552ff58f7bb267cf4d20f2f5aedc7a", null ],
+    [ "Validate", "df/dee/a16994.html#a5542dca73b5cc2ec1c724fe536e8a15f", null ]
 ];

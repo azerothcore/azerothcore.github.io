@@ -1,7 +1,6 @@
 var a11910 =
 [
-    [ "HandleScript", "d4/da7/a11910.html#ac6ef94a03f602b44a5c7c22b7e41d116", null ],
-    [ "PrepareSpellScript", "d4/da7/a11910.html#ad92a56c23b9f15e36766fe64d1d0dd17", null ],
-    [ "Register", "d4/da7/a11910.html#aa8ad85cbf0403d79e55bbe0ae184407b", null ],
-    [ "Validate", "d4/da7/a11910.html#a3ad038e7bf43dceedb0fceebd4070bfa", null ]
+    [ "boss_chromaggusAI", "d8/d78/a11914.html", "d8/d78/a11914" ],
+    [ "boss_chromaggus", "d4/da7/a11910.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
+    [ "GetAI", "d4/da7/a11910.html#ace78172cafb122ce5961ed837201c32b", null ]
 ];

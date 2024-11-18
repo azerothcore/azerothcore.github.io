@@ -1,9 +1,13 @@
 var a11322 =
 [
-    [ "event_commandscript", "db/db8/a11322.html#a160db0ad8874b0834ef863043b1796ae", null ],
-    [ "GetCommands", "db/db8/a11322.html#aac32a7f3d2d11dc73dfa3e9f8224560e", null ],
-    [ "HandleEventActiveListCommand", "db/db8/a11322.html#a6752be35103bb585984083a449c85714", null ],
-    [ "HandleEventInfoCommand", "db/db8/a11322.html#a1f0815bccd6cef61826ada4e349708d9", null ],
-    [ "HandleEventStartCommand", "db/db8/a11322.html#ad46dbd8892db3548d889d4127461c8e3", null ],
-    [ "HandleEventStopCommand", "db/db8/a11322.html#a1322b3206a1846dc0404a3fb5c74e025", null ]
+    [ "cheat_commandscript", "db/db8/a11322.html#a7449cfba3578956a09b67e569e7e6083", null ],
+    [ "GetCommands", "db/db8/a11322.html#a7cc6ca0c216a4ff497b60dc7622623fd", null ],
+    [ "HandleCasttimeCheatCommand", "db/db8/a11322.html#a119ad06c5b8be235853bb13c7cff724b", null ],
+    [ "HandleCheatStatusCommand", "db/db8/a11322.html#acdf487c7a96d1757d3254e3f17e728cb", null ],
+    [ "HandleCoolDownCheatCommand", "db/db8/a11322.html#ab31a1cfe2567b0f597c689f44ab9fd6d", null ],
+    [ "HandleExploreCheatCommand", "db/db8/a11322.html#a25ea712f2fb249e49f5f0b8244f743c5", null ],
+    [ "HandleGodModeCheatCommand", "db/db8/a11322.html#ac398dbacf025830dc871bc77938d47d6", null ],
+    [ "HandlePowerCheatCommand", "db/db8/a11322.html#ae406c5d444b10ba65b79f8ff9d949c24", null ],
+    [ "HandleTaxiCheatCommand", "db/db8/a11322.html#ab9bd840c9622d173e710058eeb763388", null ],
+    [ "HandleWaterWalkCheatCommand", "db/db8/a11322.html#a9162d89c049f14f29bc5ba257964df34", null ]
 ];

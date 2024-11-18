@@ -1,6 +1,6 @@
 var a15346 =
 [
-    [ "HandleOpenLock", "df/d05/a15346.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
-    [ "PrepareSpellScript", "df/d05/a15346.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
-    [ "Register", "df/d05/a15346.html#a5dcac6f609ec93074ec3ce195101f592", null ]
+    [ "instance_zulfarrak_InstanceMapScript", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
+    [ "instance_zulfarrak", "df/d05/a15346.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
+    [ "GetInstanceScript", "df/d05/a15346.html#a5f092341e49848c9d321452be2193d56", null ]
 ];

@@ -1,6 +1,9 @@
 var a25078 =
 [
-    [ "CheckCast", "d4/d9a/a25078.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
-    [ "PrepareSpellScript", "d4/d9a/a25078.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
-    [ "Register", "d4/d9a/a25078.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
+    [ "CheckProc", "d4/d9a/a25078.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
+    [ "HandleProc", "d4/d9a/a25078.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
+    [ "OnRemove", "d4/d9a/a25078.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
+    [ "PrepareAuraScript", "d4/d9a/a25078.html#a2e13f63459342fb749594f7fbb517c80", null ],
+    [ "Register", "d4/d9a/a25078.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
+    [ "Validate", "d4/d9a/a25078.html#a008ec43da50deb568ec453e992f89887", null ]
 ];

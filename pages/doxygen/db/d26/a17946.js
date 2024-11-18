@@ -1,12 +1,7 @@
 var a17946 =
 [
-    [ "npc_strangulate_vehicleAI", "db/d26/a17946.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
-    [ "DoAction", "db/d26/a17946.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
-    [ "IsHeroic", "db/d26/a17946.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
-    [ "IsSummonedBy", "db/d26/a17946.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
-    [ "OnCharmed", "db/d26/a17946.html#a40e5537897c452d35093920ddd3669b0", null ],
-    [ "PassengerBoarded", "db/d26/a17946.html#a819746e13af95fa964c6da3d765a7c21", null ],
-    [ "UpdateAI", "db/d26/a17946.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
-    [ "_events", "db/d26/a17946.html#a19b493e994d246128f63d9109e87737a", null ],
-    [ "_instance", "db/d26/a17946.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
+    [ "CheckTargetCount", "db/d26/a17946.html#a44f558248f944464c773105728cffbca", null ],
+    [ "PrepareSpellScript", "db/d26/a17946.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
+    [ "Register", "db/d26/a17946.html#aeda833ca8483d337311086b9d0a14081", null ],
+    [ "Validate", "db/d26/a17946.html#aee84751e352dbfc12472fc15924c48fa", null ]
 ];

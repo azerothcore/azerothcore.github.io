@@ -1,9 +1,12 @@
 var a09590 =
 [
-    [ "AuctionListOwnerItemsDelayEvent", "d0/d13/a09590.html#a8c4d2c3abb1aef3b69d753cae20292fa", null ],
-    [ "~AuctionListOwnerItemsDelayEvent", "d0/d13/a09590.html#afcd0037bc281a3834cc6dfc63d99531b", null ],
-    [ "Abort", "d0/d13/a09590.html#a9de12a5e985e1237f9c72330247c23b2", null ],
-    [ "Execute", "d0/d13/a09590.html#afbb4c169516d6a717fc198407d29bdef", null ],
-    [ "creatureGuid", "d0/d13/a09590.html#a7d8c49090cc29867de6dba2f7282de59", null ],
-    [ "playerguid", "d0/d13/a09590.html#a62d3d5b9fb1dc0aacfbb3e70b30d56b0", null ]
+    [ "TransportTemplate", "d0/d13/a09590.html#aef4781a37808827e3ceaffc782c3af1e", null ],
+    [ "~TransportTemplate", "d0/d13/a09590.html#afc385d824c171d13a184bc0a16121110", null ],
+    [ "accelDist", "d0/d13/a09590.html#a558f3611434dbe13239834fa2f2ec6b4", null ],
+    [ "accelTime", "d0/d13/a09590.html#aea9903b7c5643061dc9f401e78d3dfd3", null ],
+    [ "entry", "d0/d13/a09590.html#a7b6837ef812eadb353c00cfeb2426e99", null ],
+    [ "inInstance", "d0/d13/a09590.html#a971c84762c229b01cab656945f0c16de", null ],
+    [ "keyFrames", "d0/d13/a09590.html#ac714531f226ca06c3586cf3f6cc06808", null ],
+    [ "mapsUsed", "d0/d13/a09590.html#a93899b0648871ed8ca32dfe8394347c1", null ],
+    [ "pathTime", "d0/d13/a09590.html#a9d6a612652af64e8b4dd5cbb81ed0d71", null ]
 ];

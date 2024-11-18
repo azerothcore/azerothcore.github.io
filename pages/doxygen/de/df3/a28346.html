@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WDTFile Class Reference</title>
+<title>AzerothCore: Model Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,261 +107,293 @@ $(document).ready(function(){initNavTree('de/df3/a28346.html','../../'); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d9/dbd/a28343.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WDTFile Class Reference</div></div>
+  <div class="headertitle"><div class="title">Model Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">wdtfile.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">model.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a10c133d9b2f8d39cb6c2b3d8c2791b78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a10c133d9b2f8d39cb6c2b3d8c2791b78">WDTFile</a> (char *file_name, char *file_name1)</td></tr>
-<tr class="separator:a10c133d9b2f8d39cb6c2b3d8c2791b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445fe73204fd378e2b63a83d9f5dca0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a445fe73204fd378e2b63a83d9f5dca0a">~WDTFile</a> (void)</td></tr>
-<tr class="separator:a445fe73204fd378e2b63a83d9f5dca0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91a33f89cae35254f52e8c4f1c33e2cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a91a33f89cae35254f52e8c4f1c33e2cb">init</a> (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId)</td></tr>
-<tr class="separator:a91a33f89cae35254f52e8c4f1c33e2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa952c5bfe52a1aa851984a7e6dc963c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d97/a28314.html">ADTFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#aa952c5bfe52a1aa851984a7e6dc963c9">GetMap</a> (int x, int z)</td></tr>
-<tr class="separator:aa952c5bfe52a1aa851984a7e6dc963c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed3a71ff468f5acaccc61f5c2c87a0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a6ed3a71ff468f5acaccc61f5c2c87a0e">open</a> ()</td></tr>
+<tr class="separator:a6ed3a71ff468f5acaccc61f5c2c87a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fd5d754d9a880359b8afaf50c5753e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#ae6fd5d754d9a880359b8afaf50c5753e">ConvertToVMAPModel</a> (char const *outfilename)</td></tr>
+<tr class="separator:ae6fd5d754d9a880359b8afaf50c5753e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae102b5fc584185113e89fb7b39a72bd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#ae102b5fc584185113e89fb7b39a72bd1">Model</a> (std::string &amp;<a class="el" href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">filename</a>)</td></tr>
+<tr class="separator:ae102b5fc584185113e89fb7b39a72bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ebd2062a0b823db841a0b88baac4c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#ad6ebd2062a0b823db841a0b88baac4c0">~Model</a> ()</td></tr>
+<tr class="separator:ad6ebd2062a0b823db841a0b88baac4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6ec4f95ff866585403670b620a42a857"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857">_wmoNames</a></td></tr>
-<tr class="separator:a6ec4f95ff866585403670b620a42a857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6e66bbf4acc662d73e8fe8e5a0e085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/df0/a28350.html">ModelHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a></td></tr>
+<tr class="separator:a2f6e66bbf4acc662d73e8fe8e5a0e085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af9857df4d0e16ab9940846300fa8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d71/a28354.html">Vec3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a></td></tr>
+<tr class="separator:a1af9857df4d0e16ab9940846300fa8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b61d3316481e7b9c38bf50806ebded6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a></td></tr>
+<tr class="separator:a3b61d3316481e7b9c38bf50806ebded6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a9b02ed73fa006bc057157b636029ab6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a9b02ed73fa006bc057157b636029ab6f">_unload</a> ()</td></tr>
+<tr class="separator:a9b02ed73fa006bc057157b636029ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a54ab64288144b9cf4904e67bb359e524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dbf/a28238.html">MPQFile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a></td></tr>
-<tr class="separator:a54ab64288144b9cf4904e67bb359e524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3dac8623598bac1152a514a00126bf6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6">filename</a></td></tr>
-<tr class="separator:ab3dac8623598bac1152a514a00126bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c43746e9c460e29cabd1ba2db6ba222"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">filename</a></td></tr>
+<tr class="separator:a4c43746e9c460e29cabd1ba2db6ba222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a10c133d9b2f8d39cb6c2b3d8c2791b78" name="a10c133d9b2f8d39cb6c2b3d8c2791b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c133d9b2f8d39cb6c2b3d8c2791b78">&#9670;&#160;</a></span>WDTFile()</h2>
+<a id="ae102b5fc584185113e89fb7b39a72bd1" name="ae102b5fc584185113e89fb7b39a72bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae102b5fc584185113e89fb7b39a72bd1">&#9670;&#160;</a></span>Model()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">WDTFile::WDTFile </td>
+          <td class="memname">Model::Model </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>file_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>file_name1</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   33</span>                                                  : <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>(file_name)</div>
-<div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6">filename</a>.append(file_name1, strlen(file_name1));</div>
-<div class="line"><span class="lineno">   36</span>}</div>
-<div class="ttc" id="aa28346_html_a54ab64288144b9cf4904e67bb359e524"><div class="ttname"><a href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">WDTFile::_file</a></div><div class="ttdeci">MPQFile _file</div><div class="ttdef"><b>Definition:</b> wdtfile.h:39</div></div>
-<div class="ttc" id="aa28346_html_ab3dac8623598bac1152a514a00126bf6"><div class="ttname"><a href="../../de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6">WDTFile::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdef"><b>Definition:</b> wdtfile.h:40</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>                                : <a class="code hl_variable" href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">filename</a>(<a class="code hl_variable" href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">filename</a>), <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>(), <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>(<span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>}</div>
+<div class="ttc" id="aa28346_html_a1af9857df4d0e16ab9940846300fa8fe"><div class="ttname"><a href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">Model::vertices</a></div><div class="ttdeci">Vec3D * vertices</div><div class="ttdef"><b>Definition:</b> model.h:44</div></div>
+<div class="ttc" id="aa28346_html_a2f6e66bbf4acc662d73e8fe8e5a0e085"><div class="ttname"><a href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">Model::header</a></div><div class="ttdeci">ModelHeader header</div><div class="ttdef"><b>Definition:</b> model.h:43</div></div>
+<div class="ttc" id="aa28346_html_a3b61d3316481e7b9c38bf50806ebded6"><div class="ttname"><a href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">Model::indices</a></div><div class="ttdeci">uint16 * indices</div><div class="ttdef"><b>Definition:</b> model.h:45</div></div>
+<div class="ttc" id="aa28346_html_a4c43746e9c460e29cabd1ba2db6ba222"><div class="ttname"><a href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">Model::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdef"><b>Definition:</b> model.h:41</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00040">filename</a>.</p>
+</div>
+</div>
+<a id="ad6ebd2062a0b823db841a0b88baac4c0" name="ad6ebd2062a0b823db841a0b88baac4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ebd2062a0b823db841a0b88baac4c0">&#9670;&#160;</a></span>~Model()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Model::~Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <a class="code hl_function" href="../../de/df3/a28346.html#a9b02ed73fa006bc057157b636029ab6f">_unload</a>(); }</div>
+<div class="ttc" id="aa28346_html_a9b02ed73fa006bc057157b636029ab6f"><div class="ttname"><a href="../../de/df3/a28346.html#a9b02ed73fa006bc057157b636029ab6f">Model::_unload</a></div><div class="ttdeci">void _unload()</div><div class="ttdef"><b>Definition:</b> model.h:34</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00034">_unload()</a>.</p>
 
 </div>
 </div>
-<a id="a445fe73204fd378e2b63a83d9f5dca0a" name="a445fe73204fd378e2b63a83d9f5dca0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a445fe73204fd378e2b63a83d9f5dca0a">&#9670;&#160;</a></span>~WDTFile()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9b02ed73fa006bc057157b636029ab6f" name="a9b02ed73fa006bc057157b636029ab6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b02ed73fa006bc057157b636029ab6f">&#9670;&#160;</a></span>_unload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::_unload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>;</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>;</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   40</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00045">indices</a>, and <a class="el" href="../../#l00044">vertices</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00032">open()</a>, and <a class="el" href="../../#l00051">~Model()</a>.</p>
+
+</div>
+</div>
+<a id="ae6fd5d754d9a880359b8afaf50c5753e" name="ae6fd5d754d9a880359b8afaf50c5753e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6fd5d754d9a880359b8afaf50c5753e">&#9670;&#160;</a></span>ConvertToVMAPModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">WDTFile::~WDTFile </td>
+          <td class="memname">bool Model::ConvertToVMAPModel </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>outfilename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordtype">int</span> N[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};</div>
+<div class="line"><span class="lineno">   73</span>    FILE* output = fopen(outfilename, <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">if</span> (!output)</div>
+<div class="line"><span class="lineno">   75</span>    {</div>
+<div class="line"><span class="lineno">   76</span>        printf(<span class="stringliteral">&quot;Can&#39;t create the output file &#39;%s&#39;\n&quot;</span>, outfilename);</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="line"><span class="lineno">   79</span>    fwrite(<a class="code hl_variable" href="../../d9/dcf/a04692.html#ab44884fb6c05cb4ae128d5882a2c4b7c">VMAP::RAW_VMAP_MAGIC</a>, 8, 1, output);</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nVertices = <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a41753e7b46dd3129e35841dea900f133">nBoundingVertices</a>;</div>
+<div class="line"><span class="lineno">   81</span>    fwrite(&amp;nVertices, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, output);</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nofgroups = 1;</div>
+<div class="line"><span class="lineno">   83</span>    fwrite(&amp;nofgroups, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, output);</div>
+<div class="line"><span class="lineno">   84</span>    fwrite(N, 4 * 3, 1, output); <span class="comment">// rootwmoid, flags, groupid</span></div>
+<div class="line"><span class="lineno">   85</span>    fwrite(N, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3 * 2, output); <span class="comment">//bbox, only needed for WMO currently</span></div>
+<div class="line"><span class="lineno">   86</span>    fwrite(N, 4, 1, output); <span class="comment">// liquidflags</span></div>
+<div class="line"><span class="lineno">   87</span>    fwrite(<span class="stringliteral">&quot;GRP &quot;</span>, 4, 1, output);</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> branches = 1;</div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordtype">int</span> wsize;</div>
+<div class="line"><span class="lineno">   90</span>    wsize = <span class="keyword">sizeof</span>(branches) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) * branches;</div>
+<div class="line"><span class="lineno">   91</span>    fwrite(&amp;wsize, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, output);</div>
+<div class="line"><span class="lineno">   92</span>    fwrite(&amp;branches, <span class="keyword">sizeof</span>(branches), 1, output);</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nIndexes = <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a534b1311e9b45f63435762bbcf720fe4">nBoundingTriangles</a>;</div>
+<div class="line"><span class="lineno">   94</span>    fwrite(&amp;nIndexes, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, output);</div>
+<div class="line"><span class="lineno">   95</span>    fwrite(<span class="stringliteral">&quot;INDX&quot;</span>, 4, 1, output);</div>
+<div class="line"><span class="lineno">   96</span>    wsize = <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) + <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>) * nIndexes;</div>
+<div class="line"><span class="lineno">   97</span>    fwrite(&amp;wsize, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, output);</div>
+<div class="line"><span class="lineno">   98</span>    fwrite(&amp;nIndexes, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, output);</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">if</span> (nIndexes &gt; 0)</div>
+<div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; nIndexes; ++i)</div>
+<div class="line"><span class="lineno">  102</span>        {</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">if</span> ((i % 3) - 1 == 0 &amp;&amp; i + 1 &lt; nIndexes)</div>
+<div class="line"><span class="lineno">  104</span>            {</div>
+<div class="line"><span class="lineno">  105</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> tmp = <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>[i];</div>
+<div class="line"><span class="lineno">  106</span>                <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>[i] = <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>[i + 1];</div>
+<div class="line"><span class="lineno">  107</span>                <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>[i + 1] = tmp;</div>
+<div class="line"><span class="lineno">  108</span>            }</div>
+<div class="line"><span class="lineno">  109</span>        }</div>
+<div class="line"><span class="lineno">  110</span>        fwrite(<a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>, <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>), nIndexes, output);</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+<div class="line"><span class="lineno">  112</span>    fwrite(<span class="stringliteral">&quot;VERT&quot;</span>, 4, 1, output);</div>
+<div class="line"><span class="lineno">  113</span>    wsize = <span class="keyword">sizeof</span>(int) + <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>) * 3 * nVertices;</div>
+<div class="line"><span class="lineno">  114</span>    fwrite(&amp;wsize, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, output);</div>
+<div class="line"><span class="lineno">  115</span>    fwrite(&amp;nVertices, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, output);</div>
+<div class="line"><span class="lineno">  116</span>    <span class="keywordflow">if</span> (nVertices &gt; 0)</div>
+<div class="line"><span class="lineno">  117</span>    {</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> vpos = 0; vpos &lt; nVertices; ++vpos)</div>
+<div class="line"><span class="lineno">  119</span>        {</div>
+<div class="line"><span class="lineno">  120</span>            <span class="keywordtype">float</span> tmp = <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[vpos].<a class="code hl_variable" href="../../dc/d71/a28354.html#a3441f0095b7f2b5dc424f7b045f92f2c">y</a>;</div>
+<div class="line"><span class="lineno">  121</span>            <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[vpos].<a class="code hl_variable" href="../../dc/d71/a28354.html#a3441f0095b7f2b5dc424f7b045f92f2c">y</a> = -<a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[vpos].<a class="code hl_variable" href="../../dc/d71/a28354.html#a5a619f14529e714231bff4cc6fd36614">z</a>;</div>
+<div class="line"><span class="lineno">  122</span>            <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[vpos].<a class="code hl_variable" href="../../dc/d71/a28354.html#a5a619f14529e714231bff4cc6fd36614">z</a> = tmp;</div>
+<div class="line"><span class="lineno">  123</span>        }</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>        fwrite(<a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>) * 3, nVertices, output);</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>    fclose(output);</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  131</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa04692_html_ab44884fb6c05cb4ae128d5882a2c4b7c"><div class="ttname"><a href="../../d9/dcf/a04692.html#ab44884fb6c05cb4ae128d5882a2c4b7c">VMAP::RAW_VMAP_MAGIC</a></div><div class="ttdeci">const char RAW_VMAP_MAGIC[]</div><div class="ttdef"><b>Definition:</b> VMapDefinitions.h:26</div></div>
+<div class="ttc" id="aa28350_html_a41753e7b46dd3129e35841dea900f133"><div class="ttname"><a href="../../dc/df0/a28350.html#a41753e7b46dd3129e35841dea900f133">ModelHeader::nBoundingVertices</a></div><div class="ttdeci">uint32 nBoundingVertices</div><div class="ttdef"><b>Definition:</b> modelheaders.h:75</div></div>
+<div class="ttc" id="aa28350_html_a534b1311e9b45f63435762bbcf720fe4"><div class="ttname"><a href="../../dc/df0/a28350.html#a534b1311e9b45f63435762bbcf720fe4">ModelHeader::nBoundingTriangles</a></div><div class="ttdeci">uint32 nBoundingTriangles</div><div class="ttdef"><b>Definition:</b> modelheaders.h:73</div></div>
+<div class="ttc" id="aa28354_html_a3441f0095b7f2b5dc424f7b045f92f2c"><div class="ttname"><a href="../../dc/d71/a28354.html#a3441f0095b7f2b5dc424f7b045f92f2c">Vec3D::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
+<div class="ttc" id="aa28354_html_a5a619f14529e714231bff4cc6fd36614"><div class="ttname"><a href="../../dc/d71/a28354.html#a5a619f14529e714231bff4cc6fd36614">Vec3D::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00043">header</a>, <a class="el" href="../../#l00045">indices</a>, <a class="el" href="../../#l00073">ModelHeader::nBoundingTriangles</a>, <a class="el" href="../../#l00075">ModelHeader::nBoundingVertices</a>, <a class="el" href="../../#l00026">VMAP::RAW_VMAP_MAGIC</a>, <a class="el" href="../../#l00044">vertices</a>, <a class="el" href="../../#l00027">Vec3D::y</a>, and <a class="el" href="../../#l00027">Vec3D::z</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00024">ExtractSingleModel()</a>.</p>
+
+</div>
+</div>
+<a id="a6ed3a71ff468f5acaccc61f5c2c87a0e" name="a6ed3a71ff468f5acaccc61f5c2c87a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed3a71ff468f5acaccc61f5c2c87a0e">&#9670;&#160;</a></span>open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Model::open </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  118</span>{</div>
-<div class="line"><span class="lineno">  119</span>    <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#a8baf32918a435662a426c76a8c78fbd8">close</a>();</div>
-<div class="line"><span class="lineno">  120</span>}</div>
-<div class="ttc" id="aa28238_html_a8baf32918a435662a426c76a8c78fbd8"><div class="ttname"><a href="../../d8/dbf/a28238.html#a8baf32918a435662a426c76a8c78fbd8">MPQFile::close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> mpq_libmpq.cpp:126</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">_file</a>, and <a class="el" href="../../#l00126">MPQFile::close()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa952c5bfe52a1aa851984a7e6dc963c9" name="aa952c5bfe52a1aa851984a7e6dc963c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa952c5bfe52a1aa851984a7e6dc963c9">&#9670;&#160;</a></span>GetMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d97/a28314.html">ADTFile</a> * WDTFile::GetMap </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
-<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">if</span> (!(x &gt;= 0 &amp;&amp; z &gt;= 0 &amp;&amp; x &lt; 64 &amp;&amp; z &lt; 64))</div>
-<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  126</span> </div>
-<div class="line"><span class="lineno">  127</span>    <span class="keywordtype">char</span> name[512];</div>
-<div class="line"><span class="lineno">  128</span> </div>
-<div class="line"><span class="lineno">  129</span>    snprintf(name, <span class="keyword">sizeof</span>(name), R<span class="stringliteral">&quot;(World\Maps\%s\%s_%d_%d.adt)&quot;, <a class="code hl_variable" href="../../de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6">filename</a>.c_str(), <a class="code hl_variable" href="../../de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6">filename</a>.c_str(), x, z);</span></div>
-<div class="line"><span class="lineno">  130</span><span class="stringliteral">    </span><span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../db/d97/a28314.html">ADTFile</a>(name);</div>
-<div class="line"><span class="lineno">  131</span>}</div>
-<div class="ttc" id="aa28314_html"><div class="ttname"><a href="../../db/d97/a28314.html">ADTFile</a></div><div class="ttdef"><b>Definition:</b> adtfile.h:54</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00040">filename</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00198">ParsMapFiles()</a>.</p>
-
-</div>
-</div>
-<a id="a91a33f89cae35254f52e8c4f1c33e2cb" name="a91a33f89cae35254f52e8c4f1c33e2cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91a33f89cae35254f52e8c4f1c33e2cb">&#9670;&#160;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool WDTFile::init </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>mapId</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
-<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#a62a74189592453dfdaf3643f80666612">isEof</a>())</div>
-<div class="line"><span class="lineno">   41</span>    {</div>
-<div class="line"><span class="lineno">   42</span>        <span class="comment">//printf(&quot;Can&#39;t find WDT file.\n&quot;);</span></div>
-<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   44</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_class" href="../../de/d4a/a28262.html">MPQFile</a> f(<a class="code hl_variable" href="../../de/df3/a28346.html#a4c43746e9c460e29cabd1ba2db6ba222">filename</a>.c_str());</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (f.isEof())</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        f.close();</div>
+<div class="line"><span class="lineno">   39</span>        <span class="comment">// Do not show this error on console to avoid confusion, the extractor can continue working even if some models fail to load</span></div>
+<div class="line"><span class="lineno">   40</span>        <span class="comment">//printf(&quot;Error loading model %s\n&quot;, filename.c_str());</span></div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   42</span>    }</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_function" href="../../de/df3/a28346.html#a9b02ed73fa006bc057157b636029ab6f">_unload</a>();</div>
 <div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <span class="keywordtype">char</span> fourcc[5];</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> size;</div>
-<div class="line"><span class="lineno">   48</span> </div>
-<div class="line"><span class="lineno">   49</span>    std::string dirname = std::string(<a class="code hl_variable" href="../../d3/d8b/a00059.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a>) + <span class="stringliteral">&quot;/dir_bin&quot;</span>;</div>
-<div class="line"><span class="lineno">   50</span>    FILE* dirfile;</div>
-<div class="line"><span class="lineno">   51</span>    dirfile = fopen(dirname.c_str(), <span class="stringliteral">&quot;ab&quot;</span>);</div>
-<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (!dirfile)</div>
-<div class="line"><span class="lineno">   53</span>    {</div>
-<div class="line"><span class="lineno">   54</span>        printf(<span class="stringliteral">&quot;Can&#39;t open dirfile!&#39;%s&#39;\n&quot;</span>, dirname.c_str());</div>
-<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   56</span>    }</div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#a62a74189592453dfdaf3643f80666612">isEof</a>())</div>
-<div class="line"><span class="lineno">   59</span>    {</div>
-<div class="line"><span class="lineno">   60</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#aac2ac24cd080cae5575030e10bfd37d9">read</a>(fourcc, 4);</div>
-<div class="line"><span class="lineno">   61</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#aac2ac24cd080cae5575030e10bfd37d9">read</a>(&amp;size, 4);</div>
-<div class="line"><span class="lineno">   62</span> </div>
-<div class="line"><span class="lineno">   63</span>        <a class="code hl_function" href="../../d4/d1d/a29209.html#aff3add09c98fece7ace91b0e7c90435e">flipcc</a>(fourcc);</div>
-<div class="line"><span class="lineno">   64</span>        fourcc[4] = 0;</div>
-<div class="line"><span class="lineno">   65</span> </div>
-<div class="line"><span class="lineno">   66</span>        std::size_t nextpos = <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#ad478a7160aa98e69d09b099ea7875d12">getPos</a>() + size;</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (!strcmp(fourcc, <span class="stringliteral">&quot;MAIN&quot;</span>))</div>
-<div class="line"><span class="lineno">   69</span>        {</div>
-<div class="line"><span class="lineno">   70</span>        }</div>
-<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">if</span> (!strcmp(fourcc, <span class="stringliteral">&quot;MWMO&quot;</span>))</div>
-<div class="line"><span class="lineno">   72</span>        {</div>
-<div class="line"><span class="lineno">   73</span>            <span class="comment">// global map objects</span></div>
-<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (size)</div>
-<div class="line"><span class="lineno">   75</span>            {</div>
-<div class="line"><span class="lineno">   76</span>                <span class="keywordtype">char</span>* buf = <span class="keyword">new</span> <span class="keywordtype">char</span>[size];</div>
-<div class="line"><span class="lineno">   77</span>                <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#aac2ac24cd080cae5575030e10bfd37d9">read</a>(buf, size);</div>
-<div class="line"><span class="lineno">   78</span>                <span class="keywordtype">char</span>* p = buf;</div>
-<div class="line"><span class="lineno">   79</span>                <span class="keywordflow">while</span> (p &lt; buf + size)</div>
-<div class="line"><span class="lineno">   80</span>                {</div>
-<div class="line"><span class="lineno">   81</span>                    std::string path(p);</div>
-<div class="line"><span class="lineno">   82</span> </div>
-<div class="line"><span class="lineno">   83</span>                    <span class="keywordtype">char</span>* s = <a class="code hl_function" href="../../d1/d09/a00077.html#aec756087655d9d993d4475947742ba56">wdtGetPlainName</a>(p);</div>
-<div class="line"><span class="lineno">   84</span>                    <a class="code hl_function" href="../../df/d03/a00062.html#abdc56edc46e0804c456749761cff8daf">fixnamen</a>(s, strlen(s));</div>
-<div class="line"><span class="lineno">   85</span>                    <a class="code hl_function" href="../../df/d03/a00062.html#ac0029be4572a61d00eb1435db5526a74">fixname2</a>(s, strlen(s));</div>
-<div class="line"><span class="lineno">   86</span>                    p = p + strlen(p) + 1;</div>
-<div class="line"><span class="lineno">   87</span>                    <a class="code hl_variable" href="../../de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857">_wmoNames</a>.push_back(s);</div>
-<div class="line"><span class="lineno">   88</span> </div>
-<div class="line"><span class="lineno">   89</span>                    <a class="code hl_function" href="../../d3/d8b/a00059.html#afc9839262206eb10094c1769141ae146">ExtractSingleWmo</a>(path);</div>
-<div class="line"><span class="lineno">   90</span>                }</div>
-<div class="line"><span class="lineno">   91</span>                <span class="keyword">delete</span>[] buf;</div>
-<div class="line"><span class="lineno">   92</span>            }</div>
-<div class="line"><span class="lineno">   93</span>        }</div>
-<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!strcmp(fourcc, <span class="stringliteral">&quot;MODF&quot;</span>))</div>
-<div class="line"><span class="lineno">   95</span>        {</div>
-<div class="line"><span class="lineno">   96</span>            <span class="comment">// global wmo instance data</span></div>
-<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">if</span> (size)</div>
-<div class="line"><span class="lineno">   98</span>            {</div>
-<div class="line"><span class="lineno">   99</span>                <a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapObjectCount = size / <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../db/d59/a28310.html">ADT::MODF</a>);</div>
-<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; mapObjectCount; ++i)</div>
-<div class="line"><span class="lineno">  101</span>                {</div>
-<div class="line"><span class="lineno">  102</span>                    <a class="code hl_struct" href="../../db/d59/a28310.html">ADT::MODF</a> mapObjDef;</div>
-<div class="line"><span class="lineno">  103</span>                    <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#aac2ac24cd080cae5575030e10bfd37d9">read</a>(&amp;mapObjDef, <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../db/d59/a28310.html">ADT::MODF</a>));</div>
-<div class="line"><span class="lineno">  104</span>                    <a class="code hl_function" href="../../d8/dfa/a04756.html#a9148b3ef5b412564a285737b0bd104dd">MapObject::Extract</a>(mapObjDef, <a class="code hl_variable" href="../../de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857">_wmoNames</a>[mapObjDef.<a class="code hl_variable" href="../../db/d59/a28310.html#a952442c180e8d3710af31272b54eb6ec">Id</a>].c_str(), mapId, 65, 65, dirfile);</div>
-<div class="line"><span class="lineno">  105</span>                    <a class="code hl_function" href="../../d2/d6c/a04754.html#afd641f15b5ca6e58b68f26ef17a02912">Doodad::ExtractSet</a>(<a class="code hl_variable" href="../../d3/d8b/a00059.html#a17b22c7645963c9e5c277b72605a4966">WmoDoodads</a>[<a class="code hl_variable" href="../../de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857">_wmoNames</a>[mapObjDef.<a class="code hl_variable" href="../../db/d59/a28310.html#a952442c180e8d3710af31272b54eb6ec">Id</a>]], mapObjDef, mapId, 65, 65, dirfile);</div>
-<div class="line"><span class="lineno">  106</span>                }</div>
-<div class="line"><span class="lineno">  107</span>            }</div>
-<div class="line"><span class="lineno">  108</span>        }</div>
-<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#aa15126433e926782f61bec0e1a8329b1">seek</a>((<span class="keywordtype">int</span>)nextpos);</div>
-<div class="line"><span class="lineno">  110</span>    }</div>
-<div class="line"><span class="lineno">  111</span> </div>
-<div class="line"><span class="lineno">  112</span>    <a class="code hl_variable" href="../../de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524">_file</a>.<a class="code hl_function" href="../../d8/dbf/a28238.html#a8baf32918a435662a426c76a8c78fbd8">close</a>();</div>
-<div class="line"><span class="lineno">  113</span>    fclose(dirfile);</div>
-<div class="line"><span class="lineno">  114</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  115</span>}</div>
-<div class="ttc" id="aa00059_html_a17b22c7645963c9e5c277b72605a4966"><div class="ttname"><a href="../../d3/d8b/a00059.html#a17b22c7645963c9e5c277b72605a4966">WmoDoodads</a></div><div class="ttdeci">std::unordered_map&lt; std::string, WMODoodadData &gt; WmoDoodads</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:64</div></div>
-<div class="ttc" id="aa00059_html_ae79cb6c3493a63f0e1058be3bd5ba328"><div class="ttname"><a href="../../d3/d8b/a00059.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a></div><div class="ttdeci">char const  * szWorkDirWmo</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:68</div></div>
-<div class="ttc" id="aa00059_html_afc9839262206eb10094c1769141ae146"><div class="ttname"><a href="../../d3/d8b/a00059.html#afc9839262206eb10094c1769141ae146">ExtractSingleWmo</a></div><div class="ttdeci">bool ExtractSingleWmo(std::string &amp;fname)</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:98</div></div>
-<div class="ttc" id="aa00062_html_abdc56edc46e0804c456749761cff8daf"><div class="ttname"><a href="../../df/d03/a00062.html#abdc56edc46e0804c456749761cff8daf">fixnamen</a></div><div class="ttdeci">void fixnamen(char *name, std::size_t len)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:44</div></div>
-<div class="ttc" id="aa00062_html_ac0029be4572a61d00eb1435db5526a74"><div class="ttname"><a href="../../df/d03/a00062.html#ac0029be4572a61d00eb1435db5526a74">fixname2</a></div><div class="ttdeci">void fixname2(char *name, std::size_t len)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:62</div></div>
-<div class="ttc" id="aa00077_html_aec756087655d9d993d4475947742ba56"><div class="ttname"><a href="../../d1/d09/a00077.html#aec756087655d9d993d4475947742ba56">wdtGetPlainName</a></div><div class="ttdeci">char * wdtGetPlainName(char *FileName)</div><div class="ttdef"><b>Definition:</b> wdtfile.cpp:24</div></div>
-<div class="ttc" id="aa00179_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa04754_html_afd641f15b5ca6e58b68f26ef17a02912"><div class="ttname"><a href="../../d2/d6c/a04754.html#afd641f15b5ca6e58b68f26ef17a02912">Doodad::ExtractSet</a></div><div class="ttdeci">void ExtractSet(WMODoodadData const &amp;doodadData, ADT::MODF const &amp;wmo, uint32 mapID, uint32 tileX, uint32 tileY, FILE *pDirfile)</div><div class="ttdef"><b>Definition:</b> model.cpp:181</div></div>
-<div class="ttc" id="aa04756_html_a9148b3ef5b412564a285737b0bd104dd"><div class="ttname"><a href="../../d8/dfa/a04756.html#a9148b3ef5b412564a285737b0bd104dd">MapObject::Extract</a></div><div class="ttdeci">void Extract(ADT::MODF const &amp;mapObjDef, char const *WmoInstName, uint32 mapID, uint32 tileX, uint32 tileY, FILE *pDirfile)</div><div class="ttdef"><b>Definition:</b> wmo.cpp:509</div></div>
-<div class="ttc" id="aa28238_html_a62a74189592453dfdaf3643f80666612"><div class="ttname"><a href="../../d8/dbf/a28238.html#a62a74189592453dfdaf3643f80666612">MPQFile::isEof</a></div><div class="ttdeci">bool isEof()</div><div class="ttdef"><b>Definition:</b> mpq_libmpq04.h:92</div></div>
-<div class="ttc" id="aa28238_html_aa15126433e926782f61bec0e1a8329b1"><div class="ttname"><a href="../../d8/dbf/a28238.html#aa15126433e926782f61bec0e1a8329b1">MPQFile::seek</a></div><div class="ttdeci">void seek(int offset)</div><div class="ttdef"><b>Definition:</b> mpq_libmpq.cpp:114</div></div>
-<div class="ttc" id="aa28238_html_aac2ac24cd080cae5575030e10bfd37d9"><div class="ttname"><a href="../../d8/dbf/a28238.html#aac2ac24cd080cae5575030e10bfd37d9">MPQFile::read</a></div><div class="ttdeci">std::size_t read(void *dest, std::size_t bytes)</div><div class="ttdef"><b>Definition:</b> mpq_libmpq.cpp:96</div></div>
-<div class="ttc" id="aa28238_html_ad478a7160aa98e69d09b099ea7875d12"><div class="ttname"><a href="../../d8/dbf/a28238.html#ad478a7160aa98e69d09b099ea7875d12">MPQFile::getPos</a></div><div class="ttdeci">std::size_t getPos()</div><div class="ttdef"><b>Definition:</b> mpq_libmpq04.h:89</div></div>
-<div class="ttc" id="aa28310_html"><div class="ttname"><a href="../../db/d59/a28310.html">ADT::MODF</a></div><div class="ttdef"><b>Definition:</b> adtfile.h:39</div></div>
-<div class="ttc" id="aa28310_html_a952442c180e8d3710af31272b54eb6ec"><div class="ttname"><a href="../../db/d59/a28310.html#a952442c180e8d3710af31272b54eb6ec">ADT::MODF::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> adtfile.h:40</div></div>
-<div class="ttc" id="aa28346_html_a6ec4f95ff866585403670b620a42a857"><div class="ttname"><a href="../../de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857">WDTFile::_wmoNames</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _wmoNames</div><div class="ttdef"><b>Definition:</b> wdtfile.h:36</div></div>
-<div class="ttc" id="aa29209_html_aff3add09c98fece7ace91b0e7c90435e"><div class="ttname"><a href="../../d4/d1d/a29209.html#aff3add09c98fece7ace91b0e7c90435e">flipcc</a></div><div class="ttdeci">void flipcc(char *fcc)</div><div class="ttdef"><b>Definition:</b> mpq_libmpq04.h:98</div></div>
+<div class="line"><span class="lineno">   46</span>    memcpy(&amp;<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>, f.getBuffer(), <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../dc/df0/a28350.html">ModelHeader</a>));</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a534b1311e9b45f63435762bbcf720fe4">nBoundingTriangles</a> &gt; 0)</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        f.seek(0);</div>
+<div class="line"><span class="lineno">   50</span>        f.seekRelative(<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#afa18360276cbf9324675c0716079eecf">ofsBoundingVertices</a>);</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a> = <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d71/a28354.html">Vec3D</a>[<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a41753e7b46dd3129e35841dea900f133">nBoundingVertices</a>];</div>
+<div class="line"><span class="lineno">   52</span>        f.read(<a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>, <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a41753e7b46dd3129e35841dea900f133">nBoundingVertices</a> * 12);</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a41753e7b46dd3129e35841dea900f133">nBoundingVertices</a>; i++)</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[i] = <a class="code hl_function" href="../../d4/d9e/a00569.html#a8d0afbab5641bb7d88196fbad79e4cf1">fixCoordSystem</a>(<a class="code hl_variable" href="../../de/df3/a28346.html#a1af9857df4d0e16ab9940846300fa8fe">vertices</a>[i]);</div>
+<div class="line"><span class="lineno">   55</span>        f.seek(0);</div>
+<div class="line"><span class="lineno">   56</span>        f.seekRelative(<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#afe6561867455a787dfd9a2d784cc9546">ofsBoundingTriangles</a>);</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a> = <span class="keyword">new</span> <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>[<a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a534b1311e9b45f63435762bbcf720fe4">nBoundingTriangles</a>];</div>
+<div class="line"><span class="lineno">   58</span>        f.read(<a class="code hl_variable" href="../../de/df3/a28346.html#a3b61d3316481e7b9c38bf50806ebded6">indices</a>, <a class="code hl_variable" href="../../de/df3/a28346.html#a2f6e66bbf4acc662d73e8fe8e5a0e085">header</a>.<a class="code hl_variable" href="../../dc/df0/a28350.html#a534b1311e9b45f63435762bbcf720fe4">nBoundingTriangles</a> * 2);</div>
+<div class="line"><span class="lineno">   59</span>        f.close();</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   62</span>    {</div>
+<div class="line"><span class="lineno">   63</span>        <span class="comment">//printf(&quot;not included %s\n&quot;, filename.c_str());</span></div>
+<div class="line"><span class="lineno">   64</span>        f.close();</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   68</span>}</div>
+<div class="ttc" id="aa00569_html_a8d0afbab5641bb7d88196fbad79e4cf1"><div class="ttname"><a href="../../d4/d9e/a00569.html#a8d0afbab5641bb7d88196fbad79e4cf1">fixCoordSystem</a></div><div class="ttdeci">Vec3D fixCoordSystem(Vec3D const &amp;v)</div><div class="ttdef"><b>Definition:</b> model.cpp:133</div></div>
+<div class="ttc" id="aa28262_html"><div class="ttname"><a href="../../de/d4a/a28262.html">MPQFile</a></div><div class="ttdef"><b>Definition:</b> mpq_libmpq04.h:74</div></div>
+<div class="ttc" id="aa28350_html"><div class="ttname"><a href="../../dc/df0/a28350.html">ModelHeader</a></div><div class="ttdef"><b>Definition:</b> modelheaders.h:31</div></div>
+<div class="ttc" id="aa28350_html_afa18360276cbf9324675c0716079eecf"><div class="ttname"><a href="../../dc/df0/a28350.html#afa18360276cbf9324675c0716079eecf">ModelHeader::ofsBoundingVertices</a></div><div class="ttdeci">uint32 ofsBoundingVertices</div><div class="ttdef"><b>Definition:</b> modelheaders.h:76</div></div>
+<div class="ttc" id="aa28350_html_afe6561867455a787dfd9a2d784cc9546"><div class="ttname"><a href="../../dc/df0/a28350.html#afe6561867455a787dfd9a2d784cc9546">ModelHeader::ofsBoundingTriangles</a></div><div class="ttdeci">uint32 ofsBoundingTriangles</div><div class="ttdef"><b>Definition:</b> modelheaders.h:74</div></div>
+<div class="ttc" id="aa28354_html"><div class="ttname"><a href="../../dc/d71/a28354.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">_file</a>, <a class="el" href="../../#l00036">_wmoNames</a>, <a class="el" href="../../#l00126">MPQFile::close()</a>, <a class="el" href="../../#l00509">MapObject::Extract()</a>, <a class="el" href="../../#l00181">Doodad::ExtractSet()</a>, <a class="el" href="../../#l00098">ExtractSingleWmo()</a>, <a class="el" href="../../#l00062">fixname2()</a>, <a class="el" href="../../#l00044">fixnamen()</a>, <a class="el" href="../../#l00098">flipcc()</a>, <a class="el" href="../../#l00089">MPQFile::getPos()</a>, <a class="el" href="../../#l00040">ADT::MODF::Id</a>, <a class="el" href="../../#l00092">MPQFile::isEof()</a>, <a class="el" href="../../#l00096">MPQFile::read()</a>, <a class="el" href="../../#l00114">MPQFile::seek()</a>, <a class="el" href="../../#l00068">szWorkDirWmo</a>, <a class="el" href="../../#l00024">wdtGetPlainName()</a>, and <a class="el" href="../../#l00064">WmoDoodads</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00034">_unload()</a>, <a class="el" href="../../#l00126">MPQFile::close()</a>, <a class="el" href="../../#l00041">filename</a>, <a class="el" href="../../#l00133">fixCoordSystem()</a>, <a class="el" href="../../#l00090">MPQFile::getBuffer()</a>, <a class="el" href="../../#l00043">header</a>, <a class="el" href="../../#l00045">indices</a>, <a class="el" href="../../#l00092">MPQFile::isEof()</a>, <a class="el" href="../../#l00073">ModelHeader::nBoundingTriangles</a>, <a class="el" href="../../#l00075">ModelHeader::nBoundingVertices</a>, <a class="el" href="../../#l00074">ModelHeader::ofsBoundingTriangles</a>, <a class="el" href="../../#l00076">ModelHeader::ofsBoundingVertices</a>, <a class="el" href="../../#l00096">MPQFile::read()</a>, <a class="el" href="../../#l00114">MPQFile::seek()</a>, <a class="el" href="../../#l00120">MPQFile::seekRelative()</a>, and <a class="el" href="../../#l00044">vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00198">ParsMapFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00024">ExtractSingleModel()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a54ab64288144b9cf4904e67bb359e524" name="a54ab64288144b9cf4904e67bb359e524"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54ab64288144b9cf4904e67bb359e524">&#9670;&#160;</a></span>_file</h2>
+<a id="a4c43746e9c460e29cabd1ba2db6ba222" name="a4c43746e9c460e29cabd1ba2db6ba222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c43746e9c460e29cabd1ba2db6ba222">&#9670;&#160;</a></span>filename</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +402,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/dbf/a28238.html">MPQFile</a> WDTFile::_file</td>
+          <td class="memname">std::string Model::filename</td>
         </tr>
       </table>
   </td>
@@ -380,47 +412,55 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00038">init()</a>, and <a class="el" href="../../#l00117">~WDTFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00032">open()</a>.</p>
 
 </div>
 </div>
-<a id="a6ec4f95ff866585403670b620a42a857" name="a6ec4f95ff866585403670b620a42a857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec4f95ff866585403670b620a42a857">&#9670;&#160;</a></span>_wmoNames</h2>
+<a id="a2f6e66bbf4acc662d73e8fe8e5a0e085" name="a2f6e66bbf4acc662d73e8fe8e5a0e085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f6e66bbf4acc662d73e8fe8e5a0e085">&#9670;&#160;</a></span>header</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::string&gt; WDTFile::_wmoNames</td>
+          <td class="memname"><a class="el" href="../../dc/df0/a28350.html">ModelHeader</a> Model::header</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00038">init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00070">ConvertToVMAPModel()</a>, and <a class="el" href="../../#l00032">open()</a>.</p>
 
 </div>
 </div>
-<a id="ab3dac8623598bac1152a514a00126bf6" name="ab3dac8623598bac1152a514a00126bf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3dac8623598bac1152a514a00126bf6">&#9670;&#160;</a></span>filename</h2>
+<a id="a3b61d3316481e7b9c38bf50806ebded6" name="a3b61d3316481e7b9c38bf50806ebded6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b61d3316481e7b9c38bf50806ebded6">&#9670;&#160;</a></span>indices</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string WDTFile::filename</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>* Model::indices</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00122">GetMap()</a>, and <a class="el" href="../../#l00033">WDTFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00034">_unload()</a>, <a class="el" href="../../#l00070">ConvertToVMAPModel()</a>, and <a class="el" href="../../#l00032">open()</a>.</p>
+
+</div>
+</div>
+<a id="a1af9857df4d0e16ab9940846300fa8fe" name="a1af9857df4d0e16ab9940846300fa8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af9857df4d0e16ab9940846300fa8fe">&#9670;&#160;</a></span>vertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d71/a28354.html">Vec3D</a>* Model::vertices</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00034">_unload()</a>, <a class="el" href="../../#l00070">ConvertToVMAPModel()</a>, and <a class="el" href="../../#l00032">open()</a>.</p>
 
 </div>
 </div>
@@ -429,8 +469,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/df3/a28346.html">WDTFile</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/df3/a28346.html">Model</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:59 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

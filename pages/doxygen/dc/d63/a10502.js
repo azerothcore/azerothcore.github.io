@@ -1,12 +1,8 @@
 var a10502 =
 [
-    [ "StartMirrorTimer", "dc/d63/a10502.html#a86039d4a721636477f266712682883f0", null ],
-    [ "StartMirrorTimer", "dc/d63/a10502.html#a5202945882fb3cb5dd8574b6e6f8d5b0", null ],
-    [ "Write", "dc/d63/a10502.html#afa6cc6032804e3d8f3f7797b2231847f", null ],
-    [ "MaxValue", "dc/d63/a10502.html#a3f26c682d547be40d2800eff2189348d", null ],
-    [ "Paused", "dc/d63/a10502.html#af3994b2c6a57e734f9d1ebeedcab7759", null ],
-    [ "Scale", "dc/d63/a10502.html#a5879b6c796d7d7c2fd59001d2813a6b3", null ],
-    [ "SpellID", "dc/d63/a10502.html#a3d90aa3046eb6272249f8fe171d7cd2f", null ],
-    [ "Timer", "dc/d63/a10502.html#abb9dbec2c5df4b2dfbc96314a0465011", null ],
-    [ "Value", "dc/d63/a10502.html#ad0f2f8f95fdea9a7555e3056bb49cc53", null ]
+    [ "PlayObjectSound", "dc/d63/a10502.html#ab322044d36abddeb2fafbf99261bb70b", null ],
+    [ "PlayObjectSound", "dc/d63/a10502.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
+    [ "Write", "dc/d63/a10502.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
+    [ "SoundKitID", "dc/d63/a10502.html#a5e794706b8793d164a1189e9a6918735", null ],
+    [ "SourceObjectGUID", "dc/d63/a10502.html#a82b226eba66e569c1f377f529e511361", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/Object.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Tools/PlayerDump.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,306 +106,156 @@ $(document).ready(function(){initNavTree('d4/ddb/a04118.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Object.h File Reference</div></div>
+  <div class="headertitle"><div class="title">PlayerDump.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DataMap.h</a>&quot;</code><br />
-<code>#include &quot;G3D/Vector3.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridReference.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ModelIgnoreFlags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Position.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
 <code>#include &lt;set&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateFields.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d48/a08126.html">Object</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df4/a11166.html">PlayerDump</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/a08134.html">MovementInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d11/a11170.html">PlayerDumpWriter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da8/a08138.html">MovementInfo::TransportInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc2/a11174.html">PlayerDumpReader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2d/a08142.html">MovementInfo::JumpInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d40/a08146.html">GridObject&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a08150.html">FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd5/a08154.html">MovableMapObject</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d63/a08158.html">WorldObject</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html">Acore::ObjectDistanceOrderPred</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ac58dd2c514e262c6b68700fb72c69231"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d5/d68/a08370.html">Player</a> *, <a class="el" href="../../d1/dea/a08222.html">UpdateData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td></tr>
-<tr class="separator:ac58dd2c514e262c6b68700fb72c69231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc4c822bd43dd0c1ea669b791c856405"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d95/a04160.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#abc4c822bd43dd0c1ea669b791c856405">UpdatePlayerSet</a></td></tr>
-<tr class="separator:abc4c822bd43dd0c1ea669b791c856405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a38c6d8d01cbe0c49b035f348f7724148"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148">TempSummonType</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a> = 1
+<tr class="memitem:ad4739d865080bb5590831b606365e7ef"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7ef">DumpTableType</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323">DTT_CHARACTER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a> = 2
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94">DTT_CHAR_TABLE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a> = 3
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de">DTT_EQSET_TABLE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a> = 4
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f">DTT_INVENTORY</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a> = 5
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d">DTT_MAIL</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a> = 6
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b">DTT_MAIL_ITEM</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a> = 7
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d">DTT_ITEM</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a> = 8
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847">DTT_ITEM_GIFT</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a> = 9
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8">DTT_PET</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a> = 10
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4">DTT_PET_TABLE</a>
 <br />
  }</td></tr>
-<tr class="separator:a38c6d8d01cbe0c49b035f348f7724148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154255f23e41069883118fc4f0d23157"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157">PhaseMasks</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a> = 0x00000001
+<tr class="separator:ad4739d865080bb5590831b606365e7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4471667403db9bc7532f371d28743866"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866">DumpReturn</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a> = 0xFFFFFFFF
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d">DUMP_TOO_MANY_CHARS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6">DUMP_FILE_BROKEN</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a>
 <br />
  }</td></tr>
-<tr class="separator:a154255f23e41069883118fc4f0d23157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6d03ea53b22c98f9dd7e3ce829cf389"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389">NotifyFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a> = 0xFF
-<br />
- }</td></tr>
-<tr class="separator:ae6d03ea53b22c98f9dd7e3ce829cf389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f5846dbc17f13c4c2b88a15593bbfba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfba">GOSummonType</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:a3f5846dbc17f13c4c2b88a15593bbfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1833d9b1810b160d0c00f297af237b07"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07">MapObjectCellMoveState</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a>
-<br />
- }</td></tr>
-<tr class="separator:a1833d9b1810b160d0c00f297af237b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4471667403db9bc7532f371d28743866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ac58dd2c514e262c6b68700fb72c69231" name="ac58dd2c514e262c6b68700fb72c69231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac58dd2c514e262c6b68700fb72c69231">&#9670;&#160;</a></span>UpdateDataMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d5/d68/a08370.html">Player</a>*, <a class="el" href="../../d1/dea/a08222.html">UpdateData</a>&gt; <a class="el" href="../../d4/ddb/a04118.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abc4c822bd43dd0c1ea669b791c856405" name="abc4c822bd43dd0c1ea669b791c856405"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc4c822bd43dd0c1ea669b791c856405">&#9670;&#160;</a></span>UpdatePlayerSet</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../dc/d95/a04160.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> <a class="el" href="../../d4/ddb/a04118.html#abc4c822bd43dd0c1ea669b791c856405">UpdatePlayerSet</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a3f5846dbc17f13c4c2b88a15593bbfba" name="a3f5846dbc17f13c4c2b88a15593bbfba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5846dbc17f13c4c2b88a15593bbfba">&#9670;&#160;</a></span>GOSummonType</h2>
+<a id="a4471667403db9bc7532f371d28743866" name="a4471667403db9bc7532f371d28743866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4471667403db9bc7532f371d28743866">&#9670;&#160;</a></span>DumpReturn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfba">GOSummonType</a></td>
+          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866">DumpReturn</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1" name="a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1"></a>GO_SUMMON_TIMED_OR_CORPSE_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50" name="a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50"></a>GO_SUMMON_TIMED_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e" name="a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e"></a>DUMP_SUCCESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656" name="a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656"></a>DUMP_FILE_OPEN_ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d" name="a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d"></a>DUMP_TOO_MANY_CHARS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6" name="a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6"></a>DUMP_FILE_BROKEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47" name="a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47"></a>DUMP_CHARACTER_DELETED&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a> = 0,      <span class="comment">// despawns after a specified time OR when the summoner dies</span></div>
-<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a> = 1                 <span class="comment">// despawns after a specified time</span></div>
-<div class="line"><span class="lineno">   75</span>};</div>
-<div class="ttc" id="aa04118_html_a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50"><div class="ttname"><a href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:74</div></div>
-<div class="ttc" id="aa04118_html_a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1"><div class="ttname"><a href="../../d4/ddb/a04118.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:73</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a>,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a>,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d">DUMP_TOO_MANY_CHARS</a>,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6">DUMP_FILE_BROKEN</a>,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a></div>
+<div class="line"><span class="lineno">   59</span>};</div>
+<div class="ttc" id="aa04118_html_a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656"><div class="ttname"><a href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656">DUMP_FILE_OPEN_ERROR</a></div><div class="ttdeci">@ DUMP_FILE_OPEN_ERROR</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:55</div></div>
+<div class="ttc" id="aa04118_html_a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47"><div class="ttname"><a href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47">DUMP_CHARACTER_DELETED</a></div><div class="ttdeci">@ DUMP_CHARACTER_DELETED</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:58</div></div>
+<div class="ttc" id="aa04118_html_a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e"><div class="ttname"><a href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e">DUMP_SUCCESS</a></div><div class="ttdeci">@ DUMP_SUCCESS</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:54</div></div>
+<div class="ttc" id="aa04118_html_a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d"><div class="ttname"><a href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d">DUMP_TOO_MANY_CHARS</a></div><div class="ttdeci">@ DUMP_TOO_MANY_CHARS</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:56</div></div>
+<div class="ttc" id="aa04118_html_a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6"><div class="ttname"><a href="../../d4/ddb/a04118.html#a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6">DUMP_FILE_BROKEN</a></div><div class="ttdeci">@ DUMP_FILE_BROKEN</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:57</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a1833d9b1810b160d0c00f297af237b07" name="a1833d9b1810b160d0c00f297af237b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1833d9b1810b160d0c00f297af237b07">&#9670;&#160;</a></span>MapObjectCellMoveState</h2>
+<a id="ad4739d865080bb5590831b606365e7ef" name="ad4739d865080bb5590831b606365e7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4739d865080bb5590831b606365e7ef">&#9670;&#160;</a></span>DumpTableType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07">MapObjectCellMoveState</a></td>
+          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7ef">DumpTableType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1" name="a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1"></a>MAP_OBJECT_CELL_MOVE_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58" name="a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58"></a>MAP_OBJECT_CELL_MOVE_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a" name="a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a"></a>MAP_OBJECT_CELL_MOVE_INACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323" name="ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323"></a>DTT_CHARACTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94" name="ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94"></a>DTT_CHAR_TABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de" name="ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de"></a>DTT_EQSET_TABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f" name="ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f"></a>DTT_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d" name="ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d"></a>DTT_MAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b" name="ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b"></a>DTT_MAIL_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d" name="ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d"></a>DTT_ITEM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847" name="ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847"></a>DTT_ITEM_GIFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8" name="ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8"></a>DTT_PET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4" name="ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4"></a>DTT_PET_TABLE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  381</span>{</div>
-<div class="line"><span class="lineno">  382</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a>, <span class="comment">//not in move list</span></div>
-<div class="line"><span class="lineno">  383</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a>, <span class="comment">//in move list</span></div>
-<div class="line"><span class="lineno">  384</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a>, <span class="comment">//in move list but should not move</span></div>
-<div class="line"><span class="lineno">  385</span>};</div>
-<div class="ttc" id="aa04118_html_a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a"><div class="ttname"><a href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_INACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:384</div></div>
-<div class="ttc" id="aa04118_html_a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58"><div class="ttname"><a href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_ACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:383</div></div>
-<div class="ttc" id="aa04118_html_a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1"><div class="ttname"><a href="../../d4/ddb/a04118.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:382</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae6d03ea53b22c98f9dd7e3ce829cf389" name="ae6d03ea53b22c98f9dd7e3ce829cf389"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6d03ea53b22c98f9dd7e3ce829cf389">&#9670;&#160;</a></span>NotifyFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389">NotifyFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9" name="ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9"></a>NOTIFY_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d" name="ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d"></a>NOTIFY_AI_RELOCATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053" name="ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"></a>NOTIFY_VISIBILITY_CHANGED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c" name="ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c"></a>NOTIFY_ALL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a>                     = 0x00,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a>            = 0x01,</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a>       = 0x02,</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a>                      = 0xFF</div>
-<div class="line"><span class="lineno">   69</span>};</div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a></div><div class="ttdeci">@ NOTIFY_ALL</div><div class="ttdef"><b>Definition:</b> Object.h:68</div></div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a></div><div class="ttdeci">@ NOTIFY_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:65</div></div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a></div><div class="ttdeci">@ NOTIFY_AI_RELOCATION</div><div class="ttdef"><b>Definition:</b> Object.h:66</div></div>
-<div class="ttc" id="aa04118_html_ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"><div class="ttname"><a href="../../d4/ddb/a04118.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a></div><div class="ttdeci">@ NOTIFY_VISIBILITY_CHANGED</div><div class="ttdef"><b>Definition:</b> Object.h:67</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a154255f23e41069883118fc4f0d23157" name="a154255f23e41069883118fc4f0d23157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a154255f23e41069883118fc4f0d23157">&#9670;&#160;</a></span>PhaseMasks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157">PhaseMasks</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060" name="a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060"></a>PHASEMASK_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57" name="a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57"></a>PHASEMASK_ANYWHERE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a>   = 0x00000001,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a> = 0xFFFFFFFF</div>
-<div class="line"><span class="lineno">   61</span>};</div>
-<div class="ttc" id="aa04118_html_a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57"><div class="ttname"><a href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a></div><div class="ttdeci">@ PHASEMASK_ANYWHERE</div><div class="ttdef"><b>Definition:</b> Object.h:60</div></div>
-<div class="ttc" id="aa04118_html_a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060"><div class="ttname"><a href="../../d4/ddb/a04118.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a></div><div class="ttdeci">@ PHASEMASK_NORMAL</div><div class="ttdef"><b>Definition:</b> Object.h:59</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a38c6d8d01cbe0c49b035f348f7724148" name="a38c6d8d01cbe0c49b035f348f7724148"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38c6d8d01cbe0c49b035f348f7724148">&#9670;&#160;</a></span>TempSummonType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148">TempSummonType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39" name="a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"></a>TEMPSUMMON_TIMED_OR_DEAD_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882" name="a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882"></a>TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2" name="a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"></a>TEMPSUMMON_TIMED_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a" name="a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"></a>TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9" name="a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9"></a>TEMPSUMMON_CORPSE_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a" name="a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"></a>TEMPSUMMON_CORPSE_TIMED_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493" name="a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"></a>TEMPSUMMON_DEAD_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a" name="a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"></a>TEMPSUMMON_MANUAL_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687" name="a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"></a>TEMPSUMMON_DESPAWNED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7" name="a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"></a>TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>       = 1,             <span class="comment">// despawns after a specified time OR when the creature disappears</span></div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a>     = 2,             <span class="comment">// despawns after a specified time OR when the creature dies</span></div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>               = 3,             <span class="comment">// despawns after a specified time</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a> = 4,             <span class="comment">// despawns after a specified time after the creature is out of combat</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a>              = 5,             <span class="comment">// despawns instantly after death</span></div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>        = 6,             <span class="comment">// despawns after a specified time after death</span></div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>                = 7,             <span class="comment">// despawns when the creature disappears</span></div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>              = 8,             <span class="comment">// despawns when UnSummon() is called</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>                   = 9,             <span class="comment">// xinef: DONT USE, INTERNAL USE ONLY</span></div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a>     = 10,            <span class="comment">// despawns after a specified time after the creature is out of combat and alive</span></div>
-<div class="line"><span class="lineno">   55</span>};</div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</div><div class="ttdef"><b>Definition:</b> Object.h:54</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:51</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_MANUAL_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:52</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:45</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:46</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a></div><div class="ttdeci">@ TEMPSUMMON_DESPAWNED</div><div class="ttdef"><b>Definition:</b> Object.h:53</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:49</div></div>
-<div class="ttc" id="aa04118_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../d4/ddb/a04118.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:50</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323">DTT_CHARACTER</a>,      <span class="comment">//                                  // characters</span></div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94">DTT_CHAR_TABLE</a>,     <span class="comment">//                                  // character_achievement, character_achievement_progress,</span></div>
+<div class="line"><span class="lineno">   29</span>                                                            <span class="comment">// character_action, character_aura, character_homebind,</span></div>
+<div class="line"><span class="lineno">   30</span>                                                            <span class="comment">// character_queststatus, character_queststatus_rewarded, character_reputation,</span></div>
+<div class="line"><span class="lineno">   31</span>                                                            <span class="comment">// character_spell, character_spell_cooldown, character_ticket, character_talent</span></div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de">DTT_EQSET_TABLE</a>,    <span class="comment">// &lt;- guid                          // character_equipmentsets</span></div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f">DTT_INVENTORY</a>,      <span class="comment">//    -&gt; item guids collection      // character_inventory</span></div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d">DTT_MAIL</a>,           <span class="comment">//    -&gt; mail ids collection        // mail</span></div>
+<div class="line"><span class="lineno">   38</span>                        <span class="comment">//    -&gt; item_text</span></div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b">DTT_MAIL_ITEM</a>,      <span class="comment">// &lt;- mail ids                      // mail_items</span></div>
+<div class="line"><span class="lineno">   41</span>                        <span class="comment">//    -&gt; item guids collection</span></div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d">DTT_ITEM</a>,           <span class="comment">// &lt;- item guids                    // item_instance</span></div>
+<div class="line"><span class="lineno">   44</span>                        <span class="comment">//    -&gt; item_text</span></div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847">DTT_ITEM_GIFT</a>,      <span class="comment">// &lt;- item guids                    // character_gifts</span></div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8">DTT_PET</a>,            <span class="comment">//    -&gt; pet guids collection       // character_pet</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4">DTT_PET_TABLE</a>       <span class="comment">// &lt;- pet guids                     // pet_aura, pet_spell, pet_spell_cooldown</span></div>
+<div class="line"><span class="lineno">   50</span>};</div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de">DTT_EQSET_TABLE</a></div><div class="ttdeci">@ DTT_EQSET_TABLE</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:33</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f">DTT_INVENTORY</a></div><div class="ttdeci">@ DTT_INVENTORY</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:35</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94">DTT_CHAR_TABLE</a></div><div class="ttdeci">@ DTT_CHAR_TABLE</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:28</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4">DTT_PET_TABLE</a></div><div class="ttdeci">@ DTT_PET_TABLE</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:49</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d">DTT_MAIL</a></div><div class="ttdeci">@ DTT_MAIL</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:37</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b">DTT_MAIL_ITEM</a></div><div class="ttdeci">@ DTT_MAIL_ITEM</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:40</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8">DTT_PET</a></div><div class="ttdeci">@ DTT_PET</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:48</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d">DTT_ITEM</a></div><div class="ttdeci">@ DTT_ITEM</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:43</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847">DTT_ITEM_GIFT</a></div><div class="ttdeci">@ DTT_ITEM_GIFT</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:46</div></div>
+<div class="ttc" id="aa04118_html_ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323"><div class="ttname"><a href="../../d4/ddb/a04118.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323">DTT_CHARACTER</a></div><div class="ttdeci">@ DTT_CHARACTER</div><div class="ttdef"><b>Definition:</b> PlayerDump.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -414,8 +264,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d4/ddb/a04118.html">Object.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_f49ad253a5d89b6cfd4cfde27040fa87.html">Tools</a></li><li class="navelem"><a class="el" href="../../d4/ddb/a04118.html">PlayerDump.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,32 +1,4 @@
 var a06114 =
 [
-    [ "BossAI", "de/d8c/a06114.html#aa6f8397176bd9e80b2508006718cbb85", null ],
-    [ "~BossAI", "de/d8c/a06114.html#a0a1675959a530aacb7f6516d6198a65c", null ],
-    [ "_EnterEvadeMode", "de/d8c/a06114.html#aa3133830d3ea0203b71628a549f38b59", null ],
-    [ "_JustDied", "de/d8c/a06114.html#acb0ee118bdfc7f7aef660e44b5fb18ae", null ],
-    [ "_JustEngagedWith", "de/d8c/a06114.html#a9619670887e8e94096e50f784b083150", null ],
-    [ "_JustReachedHome", "de/d8c/a06114.html#a06738517205eb4c3c8c091d7e3117156", null ],
-    [ "_Reset", "de/d8c/a06114.html#acdc89a1df0e62952becf83d9e1bd6299", null ],
-    [ "CanRespawn", "de/d8c/a06114.html#a6a937984df572744aa6c1c65a049363a", null ],
-    [ "DamageTaken", "de/d8c/a06114.html#ace268b3d2d922496c8508ddb263c1fb1", null ],
-    [ "EnterEvadeMode", "de/d8c/a06114.html#adf2e07878232fcb60ace6a79438c63f5", null ],
-    [ "ExecuteEvent", "de/d8c/a06114.html#a8bf8914221409d5403cf3522f70d28d6", null ],
-    [ "JustDied", "de/d8c/a06114.html#a3980e3c1e8e9992034c9ec35a8b3e298", null ],
-    [ "JustEngagedWith", "de/d8c/a06114.html#a04dd3e06f19801bb419613f7d7482fa6", null ],
-    [ "JustReachedHome", "de/d8c/a06114.html#a9a84666026e84e2e1f19aff503faa8e3", null ],
-    [ "JustSummoned", "de/d8c/a06114.html#a55938a5ee8ad433cca9fad829cc0d915", null ],
-    [ "Reset", "de/d8c/a06114.html#abe75353ec3f0c86502696b8ccb059cb7", null ],
-    [ "ScheduleHealthCheckEvent", "de/d8c/a06114.html#a4c2fa936feff56b940b38d550bfb3ad8", null ],
-    [ "ScheduleHealthCheckEvent", "de/d8c/a06114.html#aab20c7bf9fd41e651496c529bcc5ad94", null ],
-    [ "ScheduleTasks", "de/d8c/a06114.html#ab25b7944e0c00d7dca2226fad00d9fa7", null ],
-    [ "SummonedCreatureDespawn", "de/d8c/a06114.html#aa3daca62a48f23a7e182a5d618a30e39", null ],
-    [ "SummonedCreatureDespawnAll", "de/d8c/a06114.html#a29d2aae043479330ca4a5882885078db", null ],
-    [ "TeleportCheaters", "de/d8c/a06114.html#a3e0ba0a1f28c32250a98ff7beda9ee25", null ],
-    [ "UpdateAI", "de/d8c/a06114.html#a840cc108b3135ee19402e61d591f18d0", null ],
-    [ "_bossId", "de/d8c/a06114.html#a8260f7bb18e7e78fa15cdbafdb3c5747", null ],
-    [ "_healthCheckEvents", "de/d8c/a06114.html#a8c6f620e880cea2f4f40123d18d9241e", null ],
-    [ "_nextHealthCheck", "de/d8c/a06114.html#a277c7dedf132f6d807790077b9b70114", null ],
-    [ "callForHelpRange", "de/d8c/a06114.html#a589eb1e1cc2d7aeaf061b65374c4eeee", null ],
-    [ "instance", "de/d8c/a06114.html#a05890dbd00c482b204af44f69d3efdc0", null ],
-    [ "summons", "de/d8c/a06114.html#a9deaaae20cd3bd12dcc3889f79b2c6cc", null ]
+    [ "operator()", "de/d8c/a06114.html#a0df1b4334b4be5fabe6bf0061b24e8f6", null ]
 ];

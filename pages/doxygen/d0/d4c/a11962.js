@@ -1,9 +1,6 @@
 var a11962 =
 [
-    [ "FilterTargets", "d0/d4c/a11962.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
-    [ "HandleOnHitRogue", "d0/d4c/a11962.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
-    [ "HandleOnHitWarlock", "d0/d4c/a11962.html#a76f9e5e11a6f2e25868dba567d798002", null ],
-    [ "PrepareSpellScript", "d0/d4c/a11962.html#a4792a25aa6fe6126a94900784798dbee", null ],
-    [ "Register", "d0/d4c/a11962.html#a0f6146c64a86e953c042f8404bbfe683", null ],
-    [ "Validate", "d0/d4c/a11962.html#af65d372cdbb365eff73edb8cf18734c8", null ]
+    [ "boss_victor_nefariusAI", "d6/d4f/a11966.html", "d6/d4f/a11966" ],
+    [ "boss_victor_nefarius", "d0/d4c/a11962.html#a85c529c49a0373a553bc59818fb18f49", null ],
+    [ "GetAI", "d0/d4c/a11962.html#a6ea19bde6980cbb4ca627d17cf57ae24", null ]
 ];

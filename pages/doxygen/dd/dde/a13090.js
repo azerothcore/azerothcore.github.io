@@ -1,6 +1,6 @@
 var a13090 =
 [
-    [ "HandlePull", "dd/dde/a13090.html#a5a43bb53d3c534054498f8366d617e5a", null ],
-    [ "PrepareSpellScript", "dd/dde/a13090.html#aec00f82a35c8154e7d4c1f47c52d486f", null ],
-    [ "Register", "dd/dde/a13090.html#a6da76afd5feaa0d60be70ff8469d78bc", null ]
+    [ "npc_singularity", "dd/dde/a13090.html#a4ed61ec65ed94d8d5e42ae7ff9ecd41d", null ],
+    [ "Reset", "dd/dde/a13090.html#ae81c2e5865beb00df8683fa0fb6e7872", null ],
+    [ "UpdateAI", "dd/dde/a13090.html#ad019d234ca9ee719612d59e5bb0b53ea", null ]
 ];

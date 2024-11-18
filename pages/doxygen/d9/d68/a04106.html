@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Unit/CharmInfo.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/WorldSocket.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,352 +106,143 @@ $(document).ready(function(){initNavTree('d9/d68/a04106.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">CharmInfo.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">WorldSocket.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">WorldSocket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoRandom.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IPLocation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PacketLog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Random.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<code>#include &quot;zlib.h&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">ServerPktHeader.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc6/a08422.html">GlobalCooldown</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/a05562.html">AuthSession</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d29/a08426.html">GlobalCooldownMgr</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dea/a08430.html">UnitActionBarEntry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d05/a08434.html">CharmInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7e/a05558.html">AccountInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a05307279d313f131c83ace9bf30d5722"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a05307279d313f131c83ace9bf30d5722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b632c5f71fb4538f4477a66a9ac63f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a6b632c5f71fb4538f4477a66a9ac63f4">MAX_SPELL_VEHICLE</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:a6b632c5f71fb4538f4477a66a9ac63f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b65e7e2b9f40fcfa66e74212d561c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a19b65e7e2b9f40fcfa66e74212d561c9">MAX_SPELL_POSSESS</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a19b65e7e2b9f40fcfa66e74212d561c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f4a89bfde2856dbf998cc7d89f8c51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#af3f4a89bfde2856dbf998cc7d89f8c51">MAX_SPELL_CONTROL_BAR</a>&#160;&#160;&#160;10</td></tr>
-<tr class="separator:af3f4a89bfde2856dbf998cc7d89f8c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a155b8633f243004497699c184b903901"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>&#160;&#160;&#160;(<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>-<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>)</td></tr>
-<tr class="separator:a155b8633f243004497699c184b903901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a374f41406d42023d52c29bb269ccb2b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a374f41406d42023d52c29bb269ccb2b3">UNIT_ACTION_BUTTON_ACTION</a>(X)&#160;&#160;&#160;(<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(X) &amp; 0x00FFFFFF)</td></tr>
-<tr class="separator:a374f41406d42023d52c29bb269ccb2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab00914d5fa4caf6cad7209786ffaf17c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#ab00914d5fa4caf6cad7209786ffaf17c">UNIT_ACTION_BUTTON_TYPE</a>(X)&#160;&#160;&#160;((<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(X) &amp; 0xFF000000) &gt;&gt; 24)</td></tr>
-<tr class="separator:ab00914d5fa4caf6cad7209786ffaf17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4580ef0cb84c2cc5983e75cb92e3ed1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#aa4580ef0cb84c2cc5983e75cb92e3ed1">MAKE_UNIT_ACTION_BUTTON</a>(A,  T)&#160;&#160;&#160;(<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(A) | (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(T) &lt;&lt; 24))</td></tr>
-<tr class="separator:aa4580ef0cb84c2cc5983e75cb92e3ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a2f37b877a5fc8dc31f4543660a5b1af9"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/dc6/a08422.html">GlobalCooldown</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a2f37b877a5fc8dc31f4543660a5b1af9">GlobalCooldownList</a></td></tr>
-<tr class="separator:a2f37b877a5fc8dc31f4543660a5b1af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127d601b79cebafada7224b7b4e0c4a2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/dea/a08430.html">UnitActionBarEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a127d601b79cebafada7224b7b4e0c4a2">CharmSpellInfo</a></td></tr>
-<tr class="separator:a127d601b79cebafada7224b7b4e0c4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a8a31720d588fad9fce4a74dabc39df8b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8b">CharmType</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249">CHARM_TYPE_CHARM</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6">CHARM_TYPE_VEHICLE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db">CHARM_TYPE_CONVERT</a>
-<br />
- }</td></tr>
-<tr class="separator:a8a31720d588fad9fce4a74dabc39df8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5656c6dd354cdc76da16094dd6f96724"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724">ActionBarIndex</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> = 10
-<br />
- }</td></tr>
-<tr class="separator:a5656c6dd354cdc76da16094dd6f96724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaec28a439b9086a5fd69bd5358bb46da"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a> = 0x81
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a> = 0xC1
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a> = 0x07
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a> = 0x06
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a> = 0x00
-<br />
- }</td></tr>
-<tr class="separator:aaec28a439b9086a5fd69bd5358bb46da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3ec87fe2f43cce4ee6bfb90744e72a0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/a04106.html#a3ec87fe2f43cce4ee6bfb90744e72a0d">compressBuff</a> (void *dst, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> *dst_size, void *src, int src_size)</td></tr>
+<tr class="separator:a3ec87fe2f43cce4ee6bfb90744e72a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa4580ef0cb84c2cc5983e75cb92e3ed1" name="aa4580ef0cb84c2cc5983e75cb92e3ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4580ef0cb84c2cc5983e75cb92e3ed1">&#9670;&#160;</a></span>MAKE_UNIT_ACTION_BUTTON</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3ec87fe2f43cce4ee6bfb90744e72a0d" name="a3ec87fe2f43cce4ee6bfb90744e72a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec87fe2f43cce4ee6bfb90744e72a0d">&#9670;&#160;</a></span>compressBuff()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAKE_UNIT_ACTION_BUTTON</td>
+          <td class="memname">void compressBuff </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">A, </td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">T&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> *&#160;</td>
+          <td class="paramname"><em>dst_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>src_size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(A) | (<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(T) &lt;&lt; 24))</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a05307279d313f131c83ace9bf30d5722" name="a05307279d313f131c83ace9bf30d5722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05307279d313f131c83ace9bf30d5722">&#9670;&#160;</a></span>MAX_SPELL_CHARM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_SPELL_CHARM&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af3f4a89bfde2856dbf998cc7d89f8c51" name="af3f4a89bfde2856dbf998cc7d89f8c51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f4a89bfde2856dbf998cc7d89f8c51">&#9670;&#160;</a></span>MAX_SPELL_CONTROL_BAR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_SPELL_CONTROL_BAR&#160;&#160;&#160;10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a19b65e7e2b9f40fcfa66e74212d561c9" name="a19b65e7e2b9f40fcfa66e74212d561c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19b65e7e2b9f40fcfa66e74212d561c9">&#9670;&#160;</a></span>MAX_SPELL_POSSESS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_SPELL_POSSESS&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b632c5f71fb4538f4477a66a9ac63f4" name="a6b632c5f71fb4538f4477a66a9ac63f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b632c5f71fb4538f4477a66a9ac63f4">&#9670;&#160;</a></span>MAX_SPELL_VEHICLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_SPELL_VEHICLE&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a155b8633f243004497699c184b903901" name="a155b8633f243004497699c184b903901"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155b8633f243004497699c184b903901">&#9670;&#160;</a></span>MAX_UNIT_ACTION_BAR_INDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_UNIT_ACTION_BAR_INDEX&#160;&#160;&#160;(<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>-<a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a374f41406d42023d52c29bb269ccb2b3" name="a374f41406d42023d52c29bb269ccb2b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a374f41406d42023d52c29bb269ccb2b3">&#9670;&#160;</a></span>UNIT_ACTION_BUTTON_ACTION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UNIT_ACTION_BUTTON_ACTION</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(X) &amp; 0x00FFFFFF)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab00914d5fa4caf6cad7209786ffaf17c" name="ab00914d5fa4caf6cad7209786ffaf17c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab00914d5fa4caf6cad7209786ffaf17c">&#9670;&#160;</a></span>UNIT_ACTION_BUTTON_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UNIT_ACTION_BUTTON_TYPE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(X) &amp; 0xFF000000) &gt;&gt; 24)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a127d601b79cebafada7224b7b4e0c4a2" name="a127d601b79cebafada7224b7b4e0c4a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127d601b79cebafada7224b7b4e0c4a2">&#9670;&#160;</a></span>CharmSpellInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/dea/a08430.html">UnitActionBarEntry</a> <a class="el" href="../../d9/d68/a04106.html#a127d601b79cebafada7224b7b4e0c4a2">CharmSpellInfo</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f37b877a5fc8dc31f4543660a5b1af9" name="a2f37b877a5fc8dc31f4543660a5b1af9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f37b877a5fc8dc31f4543660a5b1af9">&#9670;&#160;</a></span>GlobalCooldownList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> , <a class="el" href="../../d4/dc6/a08422.html">GlobalCooldown</a>&gt; <a class="el" href="../../d9/d68/a04106.html#a2f37b877a5fc8dc31f4543660a5b1af9">GlobalCooldownList</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a5656c6dd354cdc76da16094dd6f96724" name="a5656c6dd354cdc76da16094dd6f96724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5656c6dd354cdc76da16094dd6f96724">&#9670;&#160;</a></span>ActionBarIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724">ActionBarIndex</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09" name="a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09"></a>ACTION_BAR_INDEX_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9" name="a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9"></a>ACTION_BAR_INDEX_PET_SPELL_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9" name="a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9"></a>ACTION_BAR_INDEX_PET_SPELL_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264" name="a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264"></a>ACTION_BAR_INDEX_END&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> = 0,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> = 3,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> = 7,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> = 10,</div>
-<div class="line"><span class="lineno">   56</span>};</div>
-<div class="ttc" id="aa04106_html_a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9"><div class="ttname"><a href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_PET_SPELL_START</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:53</div></div>
-<div class="ttc" id="aa04106_html_a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9"><div class="ttname"><a href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_PET_SPELL_END</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:54</div></div>
-<div class="ttc" id="aa04106_html_a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264"><div class="ttname"><a href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_END</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:55</div></div>
-<div class="ttc" id="aa04106_html_a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09"><div class="ttname"><a href="../../d9/d68/a04106.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_START</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:52</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    z_stream c_stream;</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    c_stream.zalloc = (alloc_func)0;</div>
+<div class="line"><span class="lineno">   45</span>    c_stream.zfree = (free_func)0;</div>
+<div class="line"><span class="lineno">   46</span>    c_stream.opaque = (voidpf)0;</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>    <span class="comment">// default Z_BEST_SPEED (1)</span></div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordtype">int</span> z_res = deflateInit(&amp;c_stream, <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a8d6c819ed576d421792df703a33d093e">CONFIG_COMPRESSION</a>));</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">if</span> (z_res != Z_OK)</div>
+<div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.object&quot;</span>, <span class="stringliteral">&quot;Can&#39;t compress update packet (zlib: deflateInit) Error code: {} ({})&quot;</span>, z_res, zError(z_res));</div>
+<div class="line"><span class="lineno">   53</span>        *dst_size = 0;</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    c_stream.next_out = (Bytef*)dst;</div>
+<div class="line"><span class="lineno">   58</span>    c_stream.avail_out = *dst_size;</div>
+<div class="line"><span class="lineno">   59</span>    c_stream.next_in = (Bytef*)src;</div>
+<div class="line"><span class="lineno">   60</span>    c_stream.avail_in = (uInt)src_size;</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    z_res = deflate(&amp;c_stream, Z_NO_FLUSH);</div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (z_res != Z_OK)</div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.object&quot;</span>, <span class="stringliteral">&quot;Can&#39;t compress update packet (zlib: deflate) Error code: {} ({})&quot;</span>, z_res, zError(z_res));</div>
+<div class="line"><span class="lineno">   66</span>        *dst_size = 0;</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">if</span> (c_stream.avail_in != 0)</div>
+<div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.object&quot;</span>, <span class="stringliteral">&quot;Can&#39;t compress update packet (zlib: deflate not greedy)&quot;</span>);</div>
+<div class="line"><span class="lineno">   73</span>        *dst_size = 0;</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    z_res = deflate(&amp;c_stream, Z_FINISH);</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (z_res != Z_STREAM_END)</div>
+<div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.object&quot;</span>, <span class="stringliteral">&quot;Can&#39;t compress update packet (zlib: deflate should report Z_STREAM_END instead {} ({})&quot;</span>, z_res, zError(z_res));</div>
+<div class="line"><span class="lineno">   81</span>        *dst_size = 0;</div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>    z_res = deflateEnd(&amp;c_stream);</div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">if</span> (z_res != Z_OK)</div>
+<div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.object&quot;</span>, <span class="stringliteral">&quot;Can&#39;t compress update packet (zlib: deflateEnd) Error code: {} ({})&quot;</span>, z_res, zError(z_res));</div>
+<div class="line"><span class="lineno">   89</span>        *dst_size = 0;</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>    *dst_size = c_stream.total_out;</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41a8d6c819ed576d421792df703a33d093e"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a8d6c819ed576d421792df703a33d093e">CONFIG_COMPRESSION</a></div><div class="ttdeci">@ CONFIG_COMPRESSION</div><div class="ttdef"><b>Definition:</b> IWorld.h:209</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="aaec28a439b9086a5fd69bd5358bb46da" name="aaec28a439b9086a5fd69bd5358bb46da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaec28a439b9086a5fd69bd5358bb46da">&#9670;&#160;</a></span>ActiveStates</h2>
+<p class="reference">References <a class="el" href="../../#l00209">CONFIG_COMPRESSION</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a> : <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b" name="aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b"></a>ACT_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17" name="aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17"></a>ACT_DISABLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952" name="aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952"></a>ACT_ENABLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8" name="aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8"></a>ACT_COMMAND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d" name="aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d"></a>ACT_REACTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162" name="aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162"></a>ACT_DECIDE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>  = 0x01,                                    <span class="comment">// 0x01 - passive</span></div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a> = 0x81,                                    <span class="comment">// 0x80 - castable</span></div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a>  = 0xC1,                                    <span class="comment">// 0x40 | 0x80 - auto cast + castable</span></div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a>  = 0x07,                                    <span class="comment">// 0x01 | 0x02 | 0x04</span></div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a> = 0x06,                                    <span class="comment">// 0x02 | 0x04</span></div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a>   = 0x00                                     <span class="comment">// custom</span></div>
-<div class="line"><span class="lineno">   66</span>};</div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a></div><div class="ttdeci">@ ACT_REACTION</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:64</div></div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a></div><div class="ttdeci">@ ACT_DECIDE</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:65</div></div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a></div><div class="ttdeci">@ ACT_COMMAND</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:63</div></div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a></div><div class="ttdeci">@ ACT_ENABLED</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:62</div></div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a></div><div class="ttdeci">@ ACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:60</div></div>
-<div class="ttc" id="aa04106_html_aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17"><div class="ttname"><a href="../../d9/d68/a04106.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a></div><div class="ttdeci">@ ACT_DISABLED</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:61</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8a31720d588fad9fce4a74dabc39df8b" name="a8a31720d588fad9fce4a74dabc39df8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a31720d588fad9fce4a74dabc39df8b">&#9670;&#160;</a></span>CharmType</h2>
+<p class="reference">Referenced by <a class="el" href="../../#l00096">EncryptableAndCompressiblePacket::CompressIfNeeded()</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8b">CharmType</a> : <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249" name="a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249"></a>CHARM_TYPE_CHARM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb" name="a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb"></a>CHARM_TYPE_POSSESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6" name="a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6"></a>CHARM_TYPE_VEHICLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db" name="a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db"></a>CHARM_TYPE_CONVERT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249">CHARM_TYPE_CHARM</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a>,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6">CHARM_TYPE_VEHICLE</a>,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db">CHARM_TYPE_CONVERT</a>,</div>
-<div class="line"><span class="lineno">   48</span>};</div>
-<div class="ttc" id="aa04106_html_a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249"><div class="ttname"><a href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba1a1eeed651d163cde9401370f9684249">CHARM_TYPE_CHARM</a></div><div class="ttdeci">@ CHARM_TYPE_CHARM</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:44</div></div>
-<div class="ttc" id="aa04106_html_a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb"><div class="ttname"><a href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a></div><div class="ttdeci">@ CHARM_TYPE_POSSESS</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:45</div></div>
-<div class="ttc" id="aa04106_html_a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db"><div class="ttname"><a href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba3086533ebf4fa00b6546f53176b512db">CHARM_TYPE_CONVERT</a></div><div class="ttdeci">@ CHARM_TYPE_CONVERT</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:47</div></div>
-<div class="ttc" id="aa04106_html_a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6"><div class="ttname"><a href="../../d9/d68/a04106.html#a8a31720d588fad9fce4a74dabc39df8ba5db5c00596b83fd1ed870c3fea737fa6">CHARM_TYPE_VEHICLE</a></div><div class="ttdeci">@ CHARM_TYPE_VEHICLE</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:46</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -459,8 +250,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_ac8643af82ea53313fd6af4324ac5b57.html">Unit</a></li><li class="navelem"><a class="el" href="../../d9/d68/a04106.html">CharmInfo.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../d9/d68/a04106.html">WorldSocket.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

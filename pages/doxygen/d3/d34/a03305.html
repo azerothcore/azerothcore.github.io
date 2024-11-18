@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptMgrMacros.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Events/GameEventMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,309 +105,109 @@ $(document).ready(function(){initNavTree('d3/d34/a03305.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ScriptMgrMacros.h File Reference</div></div>
+  <div class="headertitle"><div class="title">GameEventMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PoolMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UnitAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldStatePackets.h</a>&quot;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9662d12a9f13490594165729108aa0b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a9662d12a9f13490594165729108aa0b1">CALL_ENABLED_HOOKS</a>(scriptType,  hookType,  action)</td></tr>
-<tr class="separator:a9662d12a9f13490594165729108aa0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed5893c246e1f2c46b3d33ef8729a64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a6ed5893c246e1f2c46b3d33ef8729a64">CALL_ENABLED_BOOLEAN_HOOKS</a>(scriptType,  hookType,  action)</td></tr>
-<tr class="separator:a6ed5893c246e1f2c46b3d33ef8729a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370083225ad9db5b05a730ce4fb26d2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a370083225ad9db5b05a730ce4fb26d2f">CALL_ENABLED_BOOLEAN_HOOKS_WITH_DEFAULT_FALSE</a>(scriptType,  hookType,  action)</td></tr>
-<tr class="separator:a370083225ad9db5b05a730ce4fb26d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d54/a08578.html">GameEventAIHookWorker</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9dedac0cb410c9d87f0470ffd0eb6c66"><td class="memTemplParams" colspan="2">template&lt;typename ScriptName &gt; </td></tr>
-<tr class="memitem:a9dedac0cb410c9d87f0470ffd0eb6c66"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; bool &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a9dedac0cb410c9d87f0470ffd0eb6c66">IsValidBoolScript</a> (std::function&lt; bool(ScriptName *)&gt; executeHook)</td></tr>
-<tr class="separator:a9dedac0cb410c9d87f0470ffd0eb6c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceff01aa3f5ab68a0253704ef30041df"><td class="memTemplParams" colspan="2">template&lt;typename ScriptName , class T &gt; </td></tr>
-<tr class="memitem:aceff01aa3f5ab68a0253704ef30041df"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#aceff01aa3f5ab68a0253704ef30041df">GetReturnAIScript</a> (std::function&lt; T *(ScriptName *)&gt; executeHook)</td></tr>
-<tr class="separator:aceff01aa3f5ab68a0253704ef30041df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80951f767a7c77417a671490893db073"><td class="memTemplParams" colspan="2">template&lt;typename ScriptName &gt; </td></tr>
-<tr class="memitem:a80951f767a7c77417a671490893db073"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a80951f767a7c77417a671490893db073">ExecuteScript</a> (std::function&lt; void(ScriptName *)&gt; executeHook)</td></tr>
-<tr class="separator:a80951f767a7c77417a671490893db073"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a670fda94f7e41c38816a1e12f9efec7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a670fda94f7e41c38816a1e12f9efec7c">ReturnValidBool</a> (<a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; bool &gt; ret, bool need=false)</td></tr>
-<tr class="separator:a670fda94f7e41c38816a1e12f9efec7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a429db26781d2673aa2f031fc1327ffaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a> (<a class="el" href="../../d0/dbd/a02771.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a> id)</td></tr>
+<tr class="separator:a429db26781d2673aa2f031fc1327ffaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaddb0f1fada20faf4702603241206f91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d34/a03305.html#aaddb0f1fada20faf4702603241206f91">IsEventActive</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> event_id)</td></tr>
+<tr class="separator:aaddb0f1fada20faf4702603241206f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6ed5893c246e1f2c46b3d33ef8729a64" name="a6ed5893c246e1f2c46b3d33ef8729a64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ed5893c246e1f2c46b3d33ef8729a64">&#9670;&#160;</a></span>CALL_ENABLED_BOOLEAN_HOOKS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CALL_ENABLED_BOOLEAN_HOOKS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">scriptType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">hookType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">action&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType].empty()) \</div>
-<div class="line">        <span class="keywordflow">return</span> <span class="keyword">true</span>; \</div>
-<div class="line">    for (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; script : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType]) { <span class="keywordflow">if</span> (action) <span class="keywordflow">return</span> <span class="keyword">false</span>; } \</div>
-<div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="ttc" id="aa10130_html"><div class="ttname"><a href="../../d8/d8e/a10130.html">ScriptRegistry</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:710</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a370083225ad9db5b05a730ce4fb26d2f" name="a370083225ad9db5b05a730ce4fb26d2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370083225ad9db5b05a730ce4fb26d2f">&#9670;&#160;</a></span>CALL_ENABLED_BOOLEAN_HOOKS_WITH_DEFAULT_FALSE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CALL_ENABLED_BOOLEAN_HOOKS_WITH_DEFAULT_FALSE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">scriptType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">hookType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">action&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType].empty()) \</div>
-<div class="line">        <span class="keywordflow">return</span> <span class="keyword">false</span>; \</div>
-<div class="line">    for (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; script : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType]) { <span class="keywordflow">if</span> (action) <span class="keywordflow">return</span> <span class="keyword">true</span>; } \</div>
-<div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9662d12a9f13490594165729108aa0b1" name="a9662d12a9f13490594165729108aa0b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9662d12a9f13490594165729108aa0b1">&#9670;&#160;</a></span>CALL_ENABLED_HOOKS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CALL_ENABLED_HOOKS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">scriptType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">hookType, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">action&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (!<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType].empty()) \</div>
-<div class="line">        for (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; script : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;scriptType&gt;::EnabledHooks</a>[hookType]) { action; }</div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a80951f767a7c77417a671490893db073" name="a80951f767a7c77417a671490893db073"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80951f767a7c77417a671490893db073">&#9670;&#160;</a></span>ExecuteScript()</h2>
+<a id="aaddb0f1fada20faf4702603241206f91" name="aaddb0f1fada20faf4702603241206f91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaddb0f1fada20faf4702603241206f91">&#9670;&#160;</a></span>IsEventActive()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename ScriptName &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ExecuteScript </td>
+          <td class="memname">bool IsEventActive </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; void(ScriptName *)&gt;&#160;</td>
-          <td class="paramname"><em>executeHook</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>event_id</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
-<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>.empty())</div>
-<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [scriptID, script] : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>)</div>
-<div class="line"><span class="lineno">   62</span>    {</div>
-<div class="line"><span class="lineno">   63</span>        executeHook(script);</div>
-<div class="line"><span class="lineno">   64</span>    }</div>
-<div class="line"><span class="lineno">   65</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1925</span>{</div>
+<div class="line"><span class="lineno"> 1926</span>    <a class="code hl_typedef" href="../../d1/dab/a08602.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a> <span class="keyword">const</span>&amp; ae = <a class="code hl_define" href="../../d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetActiveEventList();</div>
+<div class="line"><span class="lineno"> 1927</span>    <span class="keywordflow">return</span> ae.find(event_id) != ae.end();</div>
+<div class="line"><span class="lineno"> 1928</span>}</div>
+<div class="ttc" id="aa03308_html_a3c1c916d94272dfe845b9cc5e8fc292a"><div class="ttname"><a href="../../d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a></div><div class="ttdeci">#define sGameEventMgr</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:186</div></div>
+<div class="ttc" id="aa08602_html_a9d1e67f8edbe01fedd10c5fb0aeac2cf"><div class="ttname"><a href="../../d1/dab/a08602.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a></div><div class="ttdeci">std::set&lt; uint16 &gt; ActiveEvents</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:106</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00186">sGameEventMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l15788">Player::_LoadBrewOfTheMonth()</a>, <a class="el" href="../../#l00787">Battleground::EndBattleground()</a>, <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>, and <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
+
 </div>
 </div>
-<a id="aceff01aa3f5ab68a0253704ef30041df" name="aceff01aa3f5ab68a0253704ef30041df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceff01aa3f5ab68a0253704ef30041df">&#9670;&#160;</a></span>GetReturnAIScript()</h2>
+<a id="a429db26781d2673aa2f031fc1327ffaf" name="a429db26781d2673aa2f031fc1327ffaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a429db26781d2673aa2f031fc1327ffaf">&#9670;&#160;</a></span>IsHolidayActive()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename ScriptName , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T * GetReturnAIScript </td>
+          <td class="memname">bool IsHolidayActive </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; T *(ScriptName *)&gt;&#160;</td>
-          <td class="paramname"><em>executeHook</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>.empty())</div>
-<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [scriptID, script] : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>)</div>
-<div class="line"><span class="lineno">   45</span>    {</div>
-<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (T* scriptAI = executeHook(script))</div>
-<div class="line"><span class="lineno">   47</span>        {</div>
-<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">return</span> scriptAI;</div>
-<div class="line"><span class="lineno">   49</span>        }</div>
-<div class="line"><span class="lineno">   50</span>    }</div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   53</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1910</span>{</div>
+<div class="line"><span class="lineno"> 1911</span>    <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a>)</div>
+<div class="line"><span class="lineno"> 1912</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1913</span> </div>
+<div class="line"><span class="lineno"> 1914</span>    <a class="code hl_typedef" href="../../d1/dab/a08602.html#a2d313485105c8ef04b27833f312a2601">GameEventMgr::GameEventDataMap</a> <span class="keyword">const</span>&amp; <a class="code hl_enumeration" href="../../db/d23/a01025.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a> = <a class="code hl_define" href="../../d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetEventMap();</div>
+<div class="line"><span class="lineno"> 1915</span>    <a class="code hl_typedef" href="../../d1/dab/a08602.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a> <span class="keyword">const</span>&amp; ae = <a class="code hl_define" href="../../d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetActiveEventList();</div>
+<div class="line"><span class="lineno"> 1916</span> </div>
+<div class="line"><span class="lineno"> 1917</span>    <span class="keywordflow">for</span> (GameEventMgr::ActiveEvents::const_iterator itr = ae.begin(); itr != ae.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 1918</span>        <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="../../db/d23/a01025.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>[*itr].holiday_id == <span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno"> 1919</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1920</span> </div>
+<div class="line"><span class="lineno"> 1921</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1922</span>}</div>
+<div class="ttc" id="aa01025_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../db/d23/a01025.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aa02771_html_ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7"><div class="ttname"><a href="../../d0/dbd/a02771.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a></div><div class="ttdeci">@ HOLIDAY_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2742</div></div>
+<div class="ttc" id="aa08602_html_a2d313485105c8ef04b27833f312a2601"><div class="ttname"><a href="../../d1/dab/a08602.html#a2d313485105c8ef04b27833f312a2601">GameEventMgr::GameEventDataMap</a></div><div class="ttdeci">std::vector&lt; GameEventData &gt; GameEventDataMap</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:107</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a9dedac0cb410c9d87f0470ffd0eb6c66" name="a9dedac0cb410c9d87f0470ffd0eb6c66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dedac0cb410c9d87f0470ffd0eb6c66">&#9670;&#160;</a></span>IsValidBoolScript()</h2>
+<p class="reference">References <a class="el" href="../../#l02742">HOLIDAY_NONE</a>, and <a class="el" href="../../#l00186">sGameEventMgr</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ScriptName &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; bool &gt; IsValidBoolScript </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; bool(ScriptName *)&gt;&#160;</td>
-          <td class="paramname"><em>executeHook</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>.empty())</div>
-<div class="line"><span class="lineno">   27</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><span class="lineno">   28</span> </div>
-<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [scriptID, script] : <a class="code hl_class" href="../../d8/d8e/a10130.html">ScriptRegistry&lt;ScriptName&gt;::ScriptPointerList</a>)</div>
-<div class="line"><span class="lineno">   30</span>    {</div>
-<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">if</span> (executeHook(script))</div>
-<div class="line"><span class="lineno">   32</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   33</span>    }</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   36</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a670fda94f7e41c38816a1e12f9efec7c" name="a670fda94f7e41c38816a1e12f9efec7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a670fda94f7e41c38816a1e12f9efec7c">&#9670;&#160;</a></span>ReturnValidBool()</h2>
+<p class="reference">Referenced by <a class="el" href="../../#l02275">Player::CanUseItem()</a>, <a class="el" href="../../#l00896">BattlegroundMgr::IsBGWeekend()</a>, <a class="el" href="../../#l02748">lfg::LFGMgr::IsSeasonActive()</a>, <a class="el" href="../../#l00300">AchievementCriteriaData::Meets()</a>, <a class="el" href="../../#l00183">npc_midsummer_bonfire::npc_midsummer_bonfire()</a>, <a class="el" href="../../#l00544">spell_bonfires_blessing::OnApply()</a>, <a class="el" href="../../#l00160">MidsummerPlayerScript::OnUpdateZone()</a>, <a class="el" href="../../#l01207">BattlegroundAV::SetupBattleground()</a>, <a class="el" href="../../#l00582">go_brewfest_music::go_brewfest_musicAI::UpdateAI()</a>, <a class="el" href="../../#l00729">go_pirate_day_music::go_pirate_day_musicAI::UpdateAI()</a>, <a class="el" href="../../#l00784">go_darkmoon_faire_music::go_darkmoon_faire_musicAI::UpdateAI()</a>, and <a class="el" href="../../#l00839">go_midsummer_music::go_midsummer_musicAI::UpdateAI()</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ReturnValidBool </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d79/a00203.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; bool &gt;&#160;</td>
-          <td class="paramname"><em>ret</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>need</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
-<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">return</span> ret &amp;&amp; *ret ? need : !need;</div>
-<div class="line"><span class="lineno">   70</span>}</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -415,8 +215,8 @@ template&lt;typename ScriptName &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../d3/d34/a03305.html">ScriptMgrMacros.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_be7ddcf5a4570b7daa864eaef60ffbc7.html">Events</a></li><li class="navelem"><a class="el" href="../../d3/d34/a03305.html">GameEventMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

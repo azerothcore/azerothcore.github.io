@@ -1,7 +1,6 @@
 var a17602 =
 [
-    [ "FrostwyrmLandEvent", "d8/dd6/a17602.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
-    [ "Execute", "d8/dd6/a17602.html#a4da77796a223e6233ac6d908f7700623", null ],
-    [ "_dest", "d8/dd6/a17602.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
-    [ "_owner", "d8/dd6/a17602.html#a6336050092606ebb27a180abff55dfa2", null ]
+    [ "DespawnSelf", "d8/dd6/a17602.html#a7009dd0e842898d03caa89e92447749d", null ],
+    [ "PrepareAuraScript", "d8/dd6/a17602.html#a00f0379b4e4fadf73bed7d483e406ac5", null ],
+    [ "Register", "d8/dd6/a17602.html#a8f21cb8ab1145fe32a78a682445cfc2d", null ]
 ];

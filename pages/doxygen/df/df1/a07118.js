@@ -1,10 +1,12 @@
 var a07118 =
 [
-    [ "OwnerId", "df/df1/a07118.html#ae6203d7a867838b279825925841a99df", null ],
-    [ "PrevOwnerId", "df/df1/a07118.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
-    [ "PrevState", "df/df1/a07118.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
-    [ "State", "df/df1/a07118.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
-    [ "Timer", "df/df1/a07118.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
-    [ "TotalOwnerId", "df/df1/a07118.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
-    [ "Tower", "df/df1/a07118.html#a222db96ad937e31986c0c39a5a371dd7", null ]
+    [ "NodeId", "df/df1/a07118.html#a039c468fa0b6110809f0617496c0146c", null ],
+    [ "TextAllianceAssaulted", "df/df1/a07118.html#a345b2ce7c48e9d10d03ff484a0108389", null ],
+    [ "TextAllianceClaims", "df/df1/a07118.html#a0671602a29f33e353a8a339540beae18", null ],
+    [ "TextAllianceDefended", "df/df1/a07118.html#ac87cbc9c4ec307bd2f3b09f6cdcd0250", null ],
+    [ "TextAllianceTaken", "df/df1/a07118.html#a281a0378999ed5966f5d28cc4310fbcd", null ],
+    [ "TextHordeAssaulted", "df/df1/a07118.html#a7fb668b0b9563bb0779bf4a5daefded8", null ],
+    [ "TextHordeClaims", "df/df1/a07118.html#acddac09017717cf5b2893ab83e1d10c8", null ],
+    [ "TextHordeDefended", "df/df1/a07118.html#a00cea010cfe6fb9702e5cb00003e5bef", null ],
+    [ "TextHordeTaken", "df/df1/a07118.html#a2bbd1b49b9b72784d07be9db2a27fe77", null ]
 ];

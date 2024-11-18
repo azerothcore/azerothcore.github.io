@@ -1,6 +1,6 @@
 var a13938 =
 [
-    [ "npc_direbrew_antagonist", "dd/df2/a13938.html#a30fed4e6888d98af576dea8e13c510d3", null ],
-    [ "DoAction", "dd/df2/a13938.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
-    [ "JustEngagedWith", "dd/df2/a13938.html#aaf54b03d66d726901c289ff28d362787", null ]
+    [ "gameobjectId", "dd/df2/a13938.html#a5cebf652fccc66cb5f98968036405d14", null ],
+    [ "spawnIndex", "dd/df2/a13938.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
+    [ "timestamp", "dd/df2/a13938.html#a0c49f62b35e906637890fee896c74951", null ]
 ];

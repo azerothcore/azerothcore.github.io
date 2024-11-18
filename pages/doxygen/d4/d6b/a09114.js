@@ -1,8 +1,6 @@
 var a09114 =
 [
-    [ "AllDeadCreaturesInRange", "d4/d6b/a09114.html#a31b4976c3ea6203b9a1e7f7970a97977", null ],
-    [ "operator()", "d4/d6b/a09114.html#a3638a8d3c5791b590ec717e4f1ba9cef", null ],
-    [ "_obj", "d4/d6b/a09114.html#a4ca7fcf9945e698a790d01d3fadae98e", null ],
-    [ "_range", "d4/d6b/a09114.html#a431ada86a2b864d53773a85b05d8da4f", null ],
-    [ "_reqAlive", "d4/d6b/a09114.html#aefd0d77b69b5df9b99c148e0254fda09", null ]
+    [ "AllFriendlyCreaturesInGrid", "d4/d6b/a09114.html#a6ad66997d093ffa52e2d80337dcb5460", null ],
+    [ "operator()", "d4/d6b/a09114.html#aca2b8ed7de69c57bb270e0c663781f97", null ],
+    [ "unit", "d4/d6b/a09114.html#a3842fa1eceabaa2d40b2bab4393cb431", null ]
 ];

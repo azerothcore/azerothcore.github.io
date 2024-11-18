@@ -1,6 +1,6 @@
 var a21842 =
 [
-    [ "npc_jungle_punch_targetAI", "d1/d47/a21846.html", "d1/d47/a21846" ],
-    [ "npc_jungle_punch_target", "dc/dbc/a21842.html#a69220634d9d6b84e464cdc4e0cba91a7", null ],
-    [ "GetAI", "dc/dbc/a21842.html#abb38ccb55abfe0f48f360469031c6902", null ]
+    [ "npc_bushwhackerAI", "dc/dbc/a21842.html#a0cf480b75aa45a9f3572c4a65df2daee", null ],
+    [ "InitializeAI", "dc/dbc/a21842.html#a18db5870e62378ff49472f7a5881861c", null ],
+    [ "UpdateAI", "dc/dbc/a21842.html#aadc3384626d728942897fe93750f0c02", null ]
 ];

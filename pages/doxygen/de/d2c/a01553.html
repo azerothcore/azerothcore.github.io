@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/BloodFurnace/blood_furnace.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/npc_stave_of_ancients.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,330 +105,470 @@ $(document).ready(function(){initNavTree('de/d2c/a01553.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">blood_furnace.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">npc_stave_of_ancients.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;BF&quot;</td></tr>
-<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a059e1a38f9d79807d65ad8edfd39138f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a>&#160;&#160;&#160;&quot;instance_blood_furnace&quot;</td></tr>
-<tr class="separator:a059e1a38f9d79807d65ad8edfd39138f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a681938cba5eeb9c62242905fbed9b7ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a681938cba5eeb9c62242905fbed9b7ab">RegisterBloodFurnaceCreatureAI</a>(ai_name)&#160;&#160;&#160;<a class="el" href="../../d2/daf/a03245.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../de/d2c/a01553.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb">GetBloodFurnaceAI</a>)</td></tr>
-<tr class="separator:a681938cba5eeb9c62242905fbed9b7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd4/a27134.html">NPCStaveQuestAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ae8bfbe71365d644cb4c1b500e73ec521"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521">bloodFurnace</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a> = 0
+<tr class="memitem:a2898ea5b5bdc6f6ebd68c36327a6cecd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecd">Common</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936">GOSSIP_EVENT_START_OPTION_ID</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a> = 1
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a> = 2
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 3
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a> = 10
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a> = 4
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a> = 11
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a> = 5
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a> = 12
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a> = 7636
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4">DATA_BROGGOK_REAR_DOOR</a> = 13
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8">SPELL_FEIGN_DEATH</a> = 5384
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d">DATA_BROGGOK_LEVER</a> = 14
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706">SPELL_DEMONIC_ENRAGE</a> = 23257
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a> = 15
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a> = 20
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a> = 21
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a> = 22
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a> = 23
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a> = 30
-, <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a> = 31
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a> = 23504
 <br />
  }</td></tr>
-<tr class="separator:ae8bfbe71365d644cb4c1b500e73ec521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa518f004f7df866d1fc0e781b6a5f3a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0">bloodFurnaceNPC</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a> = 17381
+<tr class="separator:a2898ea5b5bdc6f6ebd68c36327a6cecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe201f9ef5f58feb36b74aed845c1ede"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1ede">NPCArtorius</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a> = 6
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a> = 17380
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a> = 17377
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8">ARTORIUS_WEAKNESS_EMOTE</a> = 9786
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a> = 17398
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236">ARTORIUS_SAY</a> = 9787
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a> = 17653
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015">ARTORIUS_NORMAL_ENTRY</a> = 14531
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e">ARTORIUS_EVIL_ENTRY</a> = 14535
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a> = 18955
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a> = 23298
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a> = 23299
 <br />
  }</td></tr>
-<tr class="separator:aa518f004f7df866d1fc0e781b6a5f3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74a34510d05b4c79015fd0ba024b4e27"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27">BloodFurnaceGO</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058">GO_BROGGOK_DOOR_FRONT</a> = 181822
+<tr class="separator:abe201f9ef5f58feb36b74aed845c1ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2bd4827fd0d6efa51d00cda84192699"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699">NPCSimone</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf">SIMONE_EVENT_TALK</a> = 6
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f">GO_BROGGOK_DOOR_REAR</a> = 181819
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d">SIMONE_EVENT_CHECK_PET_STATE</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294">GO_BROGGOK_LEVER</a> = 181982
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2">SIMONE_EVENT_CHAIN_LIGHTNING</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757">SIMONE_EVENT_TEMPTRESS_KISS</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786">SIMONE_EMOTE</a> = 9759
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d">SIMONE_SAY</a> = 9760
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45">SIMONE_WEAKNESS_EMOTE</a> = 9762
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0">SIMONE_NORMAL_ENTRY</a> = 14527
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80">SIMONE_EVIL_ENTRY</a> = 14533
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f">SIMONE_HEAD</a> = 18952
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8">SIMONE_SPELL_WEAKNESS_VIPER_STING</a> = 3034
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6">SIMONE_SPELL_TEMPTRESS_KISS</a> = 23205
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d">SIMONE_SPELL_CHAIN_LIGHTNING</a> = 23206
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76">SIMONE_SPELL_SILENCE</a> = 23207
 <br />
  }</td></tr>
-<tr class="separator:a74a34510d05b4c79015fd0ba024b4e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
-<tr class="memitem:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb">GetBloodFurnaceAI</a> (T *obj)</td></tr>
-<tr class="separator:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae6104e16f72c5b3e12bd4250dde032ce"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#ae6104e16f72c5b3e12bd4250dde032ce">EncounterCount</a> = 4</td></tr>
-<tr class="separator:ae6104e16f72c5b3e12bd4250dde032ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac2bd4827fd0d6efa51d00cda84192699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ed2f1543f33f7119a73d663739cb5a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5a">NPCPrecious</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329">PRECIOUS_NORMAL_ENTRY</a> = 14528
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81">PRECIOUS_EVIL_ENTRY</a> = 14538
+<br />
+ }</td></tr>
+<tr class="separator:aa5ed2f1543f33f7119a73d663739cb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c06f7bd08693fefc384a9896581248"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248">NPCNelson</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f">NELSON_EVENT_DREADFUL_FRIGHT</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a">NELSON_EVENT_CREEPING_DOOM</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d">NELSON_SAY</a> = 9782
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041">NELSON_WEAKNESS_EMOTE</a> = 9785
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605">NELSON_DESPAWN_SAY</a> = 9815
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff">NELSON_NORMAL_ENTRY</a> = 14536
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463">NELSON_EVIL_ENTRY</a> = 14530
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50">CREEPING_DOOM_ENTRY</a> = 14761
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb">NELSON_HEAD</a> = 18954
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a">NELSON_WEAKNESS_WING_CLIP</a> = 2974
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1">NELSON_WEAKNESS_FROST_TRAP</a> = 13810
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae">NELSON_SPELL_SOUL_FLAME</a> = 23272
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8">NELSON_SPELL_DREADFUL_FRIGHT</a> = 23275
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474">NELSON_SPELL_CRIPPLING_CLIP</a> = 23279
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80">NELSON_SPELL_CREEPING_DOOM</a> = 23589
+<br />
+ }</td></tr>
+<tr class="separator:ad8c06f7bd08693fefc384a9896581248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16be495faad2ebc93bc68267328d78c0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0">NPCFranklin</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774">FRANKLIN_EVENT_DEMONIC_ENRAGE</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e">FRANKLIN_SAY</a> = 9772
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67">FRANKLIN_ENRAGE_EMOTE</a> = 9764
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842">FRANKLIN_DESPAWN_SAY</a> = 9815
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c">FRANKLIN_NORMAL_ENTRY</a> = 14529
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d">FRANKLIN_EVIL_ENTRY</a> = 14534
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0">FRANKLIN_HEAD</a> = 18953
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601">FRANKLIN_WEAKNESS_SCORPID_STING</a> = 3043
+, <br />
+&#160;&#160;<a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589">FRANKLIN_SPELL_ENTROPIC_STING</a> = 23260
+<br />
+ }</td></tr>
+<tr class="separator:a16be495faad2ebc93bc68267328d78c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a059e1a38f9d79807d65ad8edfd39138f" name="a059e1a38f9d79807d65ad8edfd39138f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a059e1a38f9d79807d65ad8edfd39138f">&#9670;&#160;</a></span>BloodFurnaceScriptName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BloodFurnaceScriptName&#160;&#160;&#160;&quot;instance_blood_furnace&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;BF&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a681938cba5eeb9c62242905fbed9b7ab" name="a681938cba5eeb9c62242905fbed9b7ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a681938cba5eeb9c62242905fbed9b7ab">&#9670;&#160;</a></span>RegisterBloodFurnaceCreatureAI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RegisterBloodFurnaceCreatureAI</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ai_name</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d2/daf/a03245.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../de/d2c/a01553.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb">GetBloodFurnaceAI</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae8bfbe71365d644cb4c1b500e73ec521" name="ae8bfbe71365d644cb4c1b500e73ec521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bfbe71365d644cb4c1b500e73ec521">&#9670;&#160;</a></span>bloodFurnace</h2>
+<a id="a2898ea5b5bdc6f6ebd68c36327a6cecd" name="a2898ea5b5bdc6f6ebd68c36327a6cecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2898ea5b5bdc6f6ebd68c36327a6cecd">&#9670;&#160;</a></span>Common</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521">bloodFurnace</a></td>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecd">Common</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c" name="ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c"></a>DATA_THE_MAKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d" name="ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d"></a>DATA_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3" name="ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3"></a>DATA_KELIDAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d" name="ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830" name="ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830"></a>DATA_DOOR1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7" name="ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7"></a>DATA_DOOR2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f" name="ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f"></a>DATA_DOOR3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4" name="ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4"></a>DATA_BROGGOK_REAR_DOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d" name="ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d"></a>DATA_BROGGOK_LEVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a" name="ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a"></a>DATA_DOOR6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133" name="ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133"></a>DATA_PRISON_CELL1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b" name="ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b"></a>DATA_PRISON_CELL2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc" name="ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc"></a>DATA_PRISON_CELL3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2" name="ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2"></a>DATA_PRISON_CELL4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b" name="ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b"></a>ACTION_ACTIVATE_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5" name="ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5"></a>ACTION_PREPARE_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936" name="a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936"></a>GOSSIP_EVENT_START_OPTION_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a" name="a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a"></a>EVENT_ENCOUNTER_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c" name="a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c"></a>EVENT_REVEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c" name="a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c"></a>EVENT_FOOLS_PLIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee" name="a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee"></a>EVENT_RANGE_CHECK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0" name="a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0"></a>EVENT_UNFAIR_FIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2" name="a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2"></a>QUEST_STAVE_OF_THE_ANCIENTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8" name="a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8"></a>SPELL_FEIGN_DEATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706" name="a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706"></a>SPELL_DEMONIC_ENRAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee" name="a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee"></a>SPELL_FOOLS_PLIGHT&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a>              = 0,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a>                = 1,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a>                = 2,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>               = 3,</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a>                  = 10,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a>                  = 11,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a>                  = 12,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4">DATA_BROGGOK_REAR_DOOR</a>      = 13,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d">DATA_BROGGOK_LEVER</a>          = 14,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a>                  = 15,</div>
-<div class="line"><span class="lineno">   42</span> </div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a>           = 20,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a>           = 21,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a>           = 22,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a>           = 23,</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a>     = 30,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a>      = 31</div>
-<div class="line"><span class="lineno">   50</span>};</div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d">DATA_BROGGOK_LEVER</a></div><div class="ttdeci">@ DATA_BROGGOK_LEVER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:40</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a></div><div class="ttdeci">@ DATA_DOOR6</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:41</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a></div><div class="ttdeci">@ ACTION_PREPARE_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:49</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a></div><div class="ttdeci">@ DATA_THE_MAKER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:31</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a></div><div class="ttdeci">@ ACTION_ACTIVATE_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:48</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4">DATA_BROGGOK_REAR_DOOR</a></div><div class="ttdeci">@ DATA_BROGGOK_REAR_DOOR</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:39</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a></div><div class="ttdeci">@ DATA_PRISON_CELL2</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:44</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a></div><div class="ttdeci">@ DATA_PRISON_CELL1</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:43</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a></div><div class="ttdeci">@ DATA_PRISON_CELL3</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:45</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a></div><div class="ttdeci">@ DATA_DOOR1</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:36</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:34</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a></div><div class="ttdeci">@ DATA_DOOR3</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:38</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a></div><div class="ttdeci">@ DATA_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:32</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a></div><div class="ttdeci">@ DATA_DOOR2</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:37</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a></div><div class="ttdeci">@ DATA_KELIDAN</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:33</div></div>
-<div class="ttc" id="aa01553_html_ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2"><div class="ttname"><a href="../../de/d2c/a01553.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a></div><div class="ttdeci">@ DATA_PRISON_CELL4</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:46</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <span class="comment">// Gossip</span></div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936">GOSSIP_EVENT_START_OPTION_ID</a>              = 0,</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="comment">// Events</span></div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a>                     = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a>                              = 2,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a>                        = 3,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a>                         = 4,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a>                        = 5,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a>               = 7636,</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="comment">// Spells</span></div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">// Player</span></div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8">SPELL_FEIGN_DEATH</a>                         = 5384,</div>
+<div class="line"><span class="lineno">   40</span>    <span class="comment">// NPC</span></div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706">SPELL_DEMONIC_ENRAGE</a>                      = 23257,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a>                        = 23504,</div>
+<div class="line"><span class="lineno">   43</span>};</div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a></div><div class="ttdeci">@ EVENT_ENCOUNTER_START</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:29</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a></div><div class="ttdeci">@ EVENT_UNFAIR_FIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:33</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a></div><div class="ttdeci">@ EVENT_FOOLS_PLIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:31</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706">SPELL_DEMONIC_ENRAGE</a></div><div class="ttdeci">@ SPELL_DEMONIC_ENRAGE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:41</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a></div><div class="ttdeci">@ EVENT_RANGE_CHECK</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:32</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8">SPELL_FEIGN_DEATH</a></div><div class="ttdeci">@ SPELL_FEIGN_DEATH</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:39</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a></div><div class="ttdeci">@ EVENT_REVEAL</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:30</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a></div><div class="ttdeci">@ QUEST_STAVE_OF_THE_ANCIENTS</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:35</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936">GOSSIP_EVENT_START_OPTION_ID</a></div><div class="ttdeci">@ GOSSIP_EVENT_START_OPTION_ID</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:26</div></div>
+<div class="ttc" id="aa01553_html_a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee"><div class="ttname"><a href="../../de/d2c/a01553.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a></div><div class="ttdeci">@ SPELL_FOOLS_PLIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:42</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a74a34510d05b4c79015fd0ba024b4e27" name="a74a34510d05b4c79015fd0ba024b4e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74a34510d05b4c79015fd0ba024b4e27">&#9670;&#160;</a></span>BloodFurnaceGO</h2>
+<a id="abe201f9ef5f58feb36b74aed845c1ede" name="abe201f9ef5f58feb36b74aed845c1ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe201f9ef5f58feb36b74aed845c1ede">&#9670;&#160;</a></span>NPCArtorius</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27">BloodFurnaceGO</a></td>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1ede">NPCArtorius</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058" name="a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058"></a>GO_BROGGOK_DOOR_FRONT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f" name="a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f"></a>GO_BROGGOK_DOOR_REAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294" name="a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294"></a>GO_BROGGOK_LEVER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f" name="abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f"></a>ARTORIUS_EVENT_DEMONIC_DOOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24" name="abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24"></a>ARTORIUS_EVENT_DEMONIC_ENRAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8" name="abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8"></a>ARTORIUS_WEAKNESS_EMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236" name="abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236"></a>ARTORIUS_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015" name="abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015"></a>ARTORIUS_NORMAL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e" name="abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e"></a>ARTORIUS_EVIL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62" name="abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62"></a>ARTORIUS_HEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e" name="abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e"></a>ARTORIUS_SPELL_DEMONIC_DOOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363" name="abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363"></a>ARTORIUS_SPELL_STINGING_TRAUMA&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058">GO_BROGGOK_DOOR_FRONT</a>      = 181822,</div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f">GO_BROGGOK_DOOR_REAR</a>       = 181819,</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294">GO_BROGGOK_LEVER</a>           = 181982</div>
-<div class="line"><span class="lineno">   66</span>};</div>
-<div class="ttc" id="aa01553_html_a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058"><div class="ttname"><a href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058">GO_BROGGOK_DOOR_FRONT</a></div><div class="ttdeci">@ GO_BROGGOK_DOOR_FRONT</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:63</div></div>
-<div class="ttc" id="aa01553_html_a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294"><div class="ttname"><a href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294">GO_BROGGOK_LEVER</a></div><div class="ttdeci">@ GO_BROGGOK_LEVER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:65</div></div>
-<div class="ttc" id="aa01553_html_a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f"><div class="ttname"><a href="../../de/d2c/a01553.html#a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f">GO_BROGGOK_DOOR_REAR</a></div><div class="ttdeci">@ GO_BROGGOK_DOOR_REAR</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:64</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a>               = 6,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a>             = 7,</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8">ARTORIUS_WEAKNESS_EMOTE</a>                   = 9786,   <span class="comment">// broadcast_text.ID         &quot;%s is stricken by a virulent poison.&quot;</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236">ARTORIUS_SAY</a>                              = 9787,   <span class="comment">// broadcast_text.ID         &quot;Your soul is mine, weakling.&quot;</span></div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015">ARTORIUS_NORMAL_ENTRY</a>                     = 14531,  <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e">ARTORIUS_EVIL_ENTRY</a>                       = 14535,  <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a>                             = 18955,  <span class="comment">// item_template.entry</span></div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a>               = 23298,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a>            = 23299</div>
+<div class="line"><span class="lineno">   60</span>};</div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8">ARTORIUS_WEAKNESS_EMOTE</a></div><div class="ttdeci">@ ARTORIUS_WEAKNESS_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:50</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a></div><div class="ttdeci">@ ARTORIUS_EVENT_DEMONIC_ENRAGE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:48</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a></div><div class="ttdeci">@ ARTORIUS_EVENT_DEMONIC_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:47</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e">ARTORIUS_EVIL_ENTRY</a></div><div class="ttdeci">@ ARTORIUS_EVIL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:54</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a></div><div class="ttdeci">@ ARTORIUS_HEAD</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:56</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015">ARTORIUS_NORMAL_ENTRY</a></div><div class="ttdeci">@ ARTORIUS_NORMAL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:53</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236">ARTORIUS_SAY</a></div><div class="ttdeci">@ ARTORIUS_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:51</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a></div><div class="ttdeci">@ ARTORIUS_SPELL_DEMONIC_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:58</div></div>
+<div class="ttc" id="aa01553_html_abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363"><div class="ttname"><a href="../../de/d2c/a01553.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a></div><div class="ttdeci">@ ARTORIUS_SPELL_STINGING_TRAUMA</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:59</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aa518f004f7df866d1fc0e781b6a5f3a0" name="aa518f004f7df866d1fc0e781b6a5f3a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa518f004f7df866d1fc0e781b6a5f3a0">&#9670;&#160;</a></span>bloodFurnaceNPC</h2>
+<a id="a16be495faad2ebc93bc68267328d78c0" name="a16be495faad2ebc93bc68267328d78c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16be495faad2ebc93bc68267328d78c0">&#9670;&#160;</a></span>NPCFranklin</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0">bloodFurnaceNPC</a></td>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0">NPCFranklin</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333" name="aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333"></a>NPC_THE_MAKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9" name="aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9"></a>NPC_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210" name="aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210"></a>NPC_KELIDAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7" name="aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7"></a>NPC_NASCENT_FEL_ORC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d" name="aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d"></a>NPC_CHANNELER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774" name="a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774"></a>FRANKLIN_EVENT_DEMONIC_ENRAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e" name="a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e"></a>FRANKLIN_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67" name="a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67"></a>FRANKLIN_ENRAGE_EMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842" name="a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842"></a>FRANKLIN_DESPAWN_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c" name="a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c"></a>FRANKLIN_NORMAL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d" name="a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d"></a>FRANKLIN_EVIL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0" name="a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0"></a>FRANKLIN_HEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601" name="a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601"></a>FRANKLIN_WEAKNESS_SCORPID_STING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589" name="a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589"></a>FRANKLIN_SPELL_ENTROPIC_STING&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a>               = 17381,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a>                 = 17380,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a>                 = 17377,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a>         = 17398,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a>               = 17653</div>
-<div class="line"><span class="lineno">   59</span>};</div>
-<div class="ttc" id="aa01553_html_aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7"><div class="ttname"><a href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a></div><div class="ttdeci">@ NPC_NASCENT_FEL_ORC</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:57</div></div>
-<div class="ttc" id="aa01553_html_aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9"><div class="ttname"><a href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a></div><div class="ttdeci">@ NPC_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:55</div></div>
-<div class="ttc" id="aa01553_html_aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210"><div class="ttname"><a href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a></div><div class="ttdeci">@ NPC_KELIDAN</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:56</div></div>
-<div class="ttc" id="aa01553_html_aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d"><div class="ttname"><a href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a></div><div class="ttdeci">@ NPC_CHANNELER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:58</div></div>
-<div class="ttc" id="aa01553_html_aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333"><div class="ttname"><a href="../../de/d2c/a01553.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a></div><div class="ttdeci">@ NPC_THE_MAKER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:54</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774">FRANKLIN_EVENT_DEMONIC_ENRAGE</a>               = 6,</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e">FRANKLIN_SAY</a>                                = 9772,  <span class="comment">// broadcast_text.ID          &quot;I shall enjoy this, $c.&quot;</span></div>
+<div class="line"><span class="lineno">  120</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67">FRANKLIN_ENRAGE_EMOTE</a>                       = 9764,  <span class="comment">// broadcast_text.ID          &quot;%s goes into a killing frenzy!&quot;</span></div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842">FRANKLIN_DESPAWN_SAY</a>                        = 9815,  <span class="comment">// breadcast_text.ID          &quot;Only a fool would remain in this battle...&quot;</span></div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c">FRANKLIN_NORMAL_ENTRY</a>                       = 14529,</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d">FRANKLIN_EVIL_ENTRY</a>                         = 14534,</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0">FRANKLIN_HEAD</a>                               = 18953, <span class="comment">// item_template.entry</span></div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601">FRANKLIN_WEAKNESS_SCORPID_STING</a>             = 3043,</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589">FRANKLIN_SPELL_ENTROPIC_STING</a>               = 23260</div>
+<div class="line"><span class="lineno">  131</span>};</div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601">FRANKLIN_WEAKNESS_SCORPID_STING</a></div><div class="ttdeci">@ FRANKLIN_WEAKNESS_SCORPID_STING</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:128</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e">FRANKLIN_SAY</a></div><div class="ttdeci">@ FRANKLIN_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:119</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d">FRANKLIN_EVIL_ENTRY</a></div><div class="ttdeci">@ FRANKLIN_EVIL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:124</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842">FRANKLIN_DESPAWN_SAY</a></div><div class="ttdeci">@ FRANKLIN_DESPAWN_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:121</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0">FRANKLIN_HEAD</a></div><div class="ttdeci">@ FRANKLIN_HEAD</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:126</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67">FRANKLIN_ENRAGE_EMOTE</a></div><div class="ttdeci">@ FRANKLIN_ENRAGE_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:120</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774">FRANKLIN_EVENT_DEMONIC_ENRAGE</a></div><div class="ttdeci">@ FRANKLIN_EVENT_DEMONIC_ENRAGE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:117</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589">FRANKLIN_SPELL_ENTROPIC_STING</a></div><div class="ttdeci">@ FRANKLIN_SPELL_ENTROPIC_STING</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:130</div></div>
+<div class="ttc" id="aa01553_html_a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c"><div class="ttname"><a href="../../de/d2c/a01553.html#a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c">FRANKLIN_NORMAL_ENTRY</a></div><div class="ttdeci">@ FRANKLIN_NORMAL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:123</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a4aa87dfa17e2fb43b14c2ca77bb22aeb" name="a4aa87dfa17e2fb43b14c2ca77bb22aeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aa87dfa17e2fb43b14c2ca77bb22aeb">&#9670;&#160;</a></span>GetBloodFurnaceAI()</h2>
+<a id="ad8c06f7bd08693fefc384a9896581248" name="ad8c06f7bd08693fefc384a9896581248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c06f7bd08693fefc384a9896581248">&#9670;&#160;</a></span>NPCNelson</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class AI , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AI * GetBloodFurnaceAI </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248">NPCNelson</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
-<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../de/d2c/a01553.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a>);</div>
-<div class="line"><span class="lineno">   72</span>}</div>
-<div class="ttc" id="aa01553_html_a059e1a38f9d79807d65ad8edfd39138f"><div class="ttname"><a href="../../de/d2c/a01553.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a></div><div class="ttdeci">#define BloodFurnaceScriptName</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:27</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f" name="ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f"></a>NELSON_EVENT_DREADFUL_FRIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a" name="ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a"></a>NELSON_EVENT_CREEPING_DOOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d" name="ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d"></a>NELSON_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041" name="ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041"></a>NELSON_WEAKNESS_EMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605" name="ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605"></a>NELSON_DESPAWN_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff" name="ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff"></a>NELSON_NORMAL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463" name="ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463"></a>NELSON_EVIL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50" name="ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50"></a>CREEPING_DOOM_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb" name="ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb"></a>NELSON_HEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a" name="ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a"></a>NELSON_WEAKNESS_WING_CLIP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1" name="ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1"></a>NELSON_WEAKNESS_FROST_TRAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae" name="ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae"></a>NELSON_SPELL_SOUL_FLAME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8" name="ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8"></a>NELSON_SPELL_DREADFUL_FRIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474" name="ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474"></a>NELSON_SPELL_CRIPPLING_CLIP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80" name="ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80"></a>NELSON_SPELL_CREEPING_DOOM&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f">NELSON_EVENT_DREADFUL_FRIGHT</a>              = 6,</div>
+<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a">NELSON_EVENT_CREEPING_DOOM</a>                = 7,</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d">NELSON_SAY</a>                                = 9782,  <span class="comment">// broadcast_text.ID          &quot;You dare challenge me? Prepare for an e...&quot;</span></div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041">NELSON_WEAKNESS_EMOTE</a>                     = 9785,  <span class="comment">// breadcast_text.ID          &quot;%s is immobilized.&quot;</span></div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605">NELSON_DESPAWN_SAY</a>                        = 9815,  <span class="comment">// breadcast_text.ID          &quot;Only a fool would remain in this battle...&quot;</span></div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff">NELSON_NORMAL_ENTRY</a>                       = 14536, <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463">NELSON_EVIL_ENTRY</a>                         = 14530, <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50">CREEPING_DOOM_ENTRY</a>                       = 14761,</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb">NELSON_HEAD</a>                               = 18954, <span class="comment">// item_template.entry</span></div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a">NELSON_WEAKNESS_WING_CLIP</a>                 = 2974,</div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1">NELSON_WEAKNESS_FROST_TRAP</a>                = 13810,</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae">NELSON_SPELL_SOUL_FLAME</a>                   = 23272,</div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8">NELSON_SPELL_DREADFUL_FRIGHT</a>              = 23275,</div>
+<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474">NELSON_SPELL_CRIPPLING_CLIP</a>               = 23279,</div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80">NELSON_SPELL_CREEPING_DOOM</a>                = 23589</div>
+<div class="line"><span class="lineno">  113</span>};</div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f">NELSON_EVENT_DREADFUL_FRIGHT</a></div><div class="ttdeci">@ NELSON_EVENT_DREADFUL_FRIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:93</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff">NELSON_NORMAL_ENTRY</a></div><div class="ttdeci">@ NELSON_NORMAL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:100</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80">NELSON_SPELL_CREEPING_DOOM</a></div><div class="ttdeci">@ NELSON_SPELL_CREEPING_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:112</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb">NELSON_HEAD</a></div><div class="ttdeci">@ NELSON_HEAD</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:104</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d">NELSON_SAY</a></div><div class="ttdeci">@ NELSON_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:96</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a">NELSON_EVENT_CREEPING_DOOM</a></div><div class="ttdeci">@ NELSON_EVENT_CREEPING_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:94</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605">NELSON_DESPAWN_SAY</a></div><div class="ttdeci">@ NELSON_DESPAWN_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:98</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1">NELSON_WEAKNESS_FROST_TRAP</a></div><div class="ttdeci">@ NELSON_WEAKNESS_FROST_TRAP</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:107</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a">NELSON_WEAKNESS_WING_CLIP</a></div><div class="ttdeci">@ NELSON_WEAKNESS_WING_CLIP</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:106</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae">NELSON_SPELL_SOUL_FLAME</a></div><div class="ttdeci">@ NELSON_SPELL_SOUL_FLAME</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:109</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50">CREEPING_DOOM_ENTRY</a></div><div class="ttdeci">@ CREEPING_DOOM_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:102</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8">NELSON_SPELL_DREADFUL_FRIGHT</a></div><div class="ttdeci">@ NELSON_SPELL_DREADFUL_FRIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:110</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041">NELSON_WEAKNESS_EMOTE</a></div><div class="ttdeci">@ NELSON_WEAKNESS_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:97</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463">NELSON_EVIL_ENTRY</a></div><div class="ttdeci">@ NELSON_EVIL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:101</div></div>
+<div class="ttc" id="aa01553_html_ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474"><div class="ttname"><a href="../../de/d2c/a01553.html#ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474">NELSON_SPELL_CRIPPLING_CLIP</a></div><div class="ttdeci">@ NELSON_SPELL_CRIPPLING_CLIP</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:111</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00027">BloodFurnaceScriptName</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ae6104e16f72c5b3e12bd4250dde032ce" name="ae6104e16f72c5b3e12bd4250dde032ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6104e16f72c5b3e12bd4250dde032ce">&#9670;&#160;</a></span>EncounterCount</h2>
+<a id="aa5ed2f1543f33f7119a73d663739cb5a" name="aa5ed2f1543f33f7119a73d663739cb5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ed2f1543f33f7119a73d663739cb5a">&#9670;&#160;</a></span>NPCPrecious</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> EncounterCount = 4</td>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5a">NPCPrecious</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329" name="aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329"></a>PRECIOUS_NORMAL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81" name="aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81"></a>PRECIOUS_EVIL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   86</span>{</div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329">PRECIOUS_NORMAL_ENTRY</a>                     = 14528,</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81">PRECIOUS_EVIL_ENTRY</a>                       = 14538</div>
+<div class="line"><span class="lineno">   89</span>};</div>
+<div class="ttc" id="aa01553_html_aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329"><div class="ttname"><a href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329">PRECIOUS_NORMAL_ENTRY</a></div><div class="ttdeci">@ PRECIOUS_NORMAL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:87</div></div>
+<div class="ttc" id="aa01553_html_aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81"><div class="ttname"><a href="../../de/d2c/a01553.html#aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81">PRECIOUS_EVIL_ENTRY</a></div><div class="ttdeci">@ PRECIOUS_EVIL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:88</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac2bd4827fd0d6efa51d00cda84192699" name="ac2bd4827fd0d6efa51d00cda84192699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2bd4827fd0d6efa51d00cda84192699">&#9670;&#160;</a></span>NPCSimone</h2>
 
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699">NPCSimone</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf" name="ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf"></a>SIMONE_EVENT_TALK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d" name="ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d"></a>SIMONE_EVENT_CHECK_PET_STATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2" name="ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2"></a>SIMONE_EVENT_CHAIN_LIGHTNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757" name="ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757"></a>SIMONE_EVENT_TEMPTRESS_KISS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786" name="ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786"></a>SIMONE_EMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d" name="ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d"></a>SIMONE_SAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45" name="ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45"></a>SIMONE_WEAKNESS_EMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0" name="ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0"></a>SIMONE_NORMAL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80" name="ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80"></a>SIMONE_EVIL_ENTRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f" name="ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f"></a>SIMONE_HEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8" name="ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8"></a>SIMONE_SPELL_WEAKNESS_VIPER_STING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6" name="ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6"></a>SIMONE_SPELL_TEMPTRESS_KISS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d" name="ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d"></a>SIMONE_SPELL_CHAIN_LIGHTNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76" name="ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76"></a>SIMONE_SPELL_SILENCE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf">SIMONE_EVENT_TALK</a>                         = 6,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d">SIMONE_EVENT_CHECK_PET_STATE</a>              = 7,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2">SIMONE_EVENT_CHAIN_LIGHTNING</a>              = 8,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757">SIMONE_EVENT_TEMPTRESS_KISS</a>               = 9,</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786">SIMONE_EMOTE</a>                              = 9759,   <span class="comment">// broadcast_text.ID         &quot;%s laughs at your foolish request.&quot;</span></div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d">SIMONE_SAY</a>                                = 9760,   <span class="comment">// broadcast_text.ID         &quot;As you wish, $c.&quot;</span></div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45">SIMONE_WEAKNESS_EMOTE</a>                     = 9762,   <span class="comment">// broadcast_text.ID         &quot;%s is silenced by the venomous sting.&quot;</span></div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0">SIMONE_NORMAL_ENTRY</a>                       = 14527,  <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80">SIMONE_EVIL_ENTRY</a>                         = 14533,  <span class="comment">// creature_template.entry</span></div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f">SIMONE_HEAD</a>                               = 18952,  <span class="comment">// item_template.entry</span></div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8">SIMONE_SPELL_WEAKNESS_VIPER_STING</a>         = 3034,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6">SIMONE_SPELL_TEMPTRESS_KISS</a>               = 23205,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d">SIMONE_SPELL_CHAIN_LIGHTNING</a>              = 23206,</div>
+<div class="line"><span class="lineno">   81</span>    <span class="comment">// Found 23207 using spell editor it matches the duration, it doesn&#39;t have animation and the id is close to the other simone spells</span></div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76">SIMONE_SPELL_SILENCE</a>                      = 23207</div>
+<div class="line"><span class="lineno">   83</span>};</div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76">SIMONE_SPELL_SILENCE</a></div><div class="ttdeci">@ SIMONE_SPELL_SILENCE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:82</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2">SIMONE_EVENT_CHAIN_LIGHTNING</a></div><div class="ttdeci">@ SIMONE_EVENT_CHAIN_LIGHTNING</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:66</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45">SIMONE_WEAKNESS_EMOTE</a></div><div class="ttdeci">@ SIMONE_WEAKNESS_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:71</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f">SIMONE_HEAD</a></div><div class="ttdeci">@ SIMONE_HEAD</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:76</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d">SIMONE_SAY</a></div><div class="ttdeci">@ SIMONE_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:70</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786">SIMONE_EMOTE</a></div><div class="ttdeci">@ SIMONE_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:69</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80">SIMONE_EVIL_ENTRY</a></div><div class="ttdeci">@ SIMONE_EVIL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:74</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0">SIMONE_NORMAL_ENTRY</a></div><div class="ttdeci">@ SIMONE_NORMAL_ENTRY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:73</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf">SIMONE_EVENT_TALK</a></div><div class="ttdeci">@ SIMONE_EVENT_TALK</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:64</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d">SIMONE_SPELL_CHAIN_LIGHTNING</a></div><div class="ttdeci">@ SIMONE_SPELL_CHAIN_LIGHTNING</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:80</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d">SIMONE_EVENT_CHECK_PET_STATE</a></div><div class="ttdeci">@ SIMONE_EVENT_CHECK_PET_STATE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:65</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6">SIMONE_SPELL_TEMPTRESS_KISS</a></div><div class="ttdeci">@ SIMONE_SPELL_TEMPTRESS_KISS</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:79</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8">SIMONE_SPELL_WEAKNESS_VIPER_STING</a></div><div class="ttdeci">@ SIMONE_SPELL_WEAKNESS_VIPER_STING</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:78</div></div>
+<div class="ttc" id="aa01553_html_ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757"><div class="ttname"><a href="../../de/d2c/a01553.html#ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757">SIMONE_EVENT_TEMPTRESS_KISS</a></div><div class="ttdeci">@ SIMONE_EVENT_TEMPTRESS_KISS</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -436,8 +576,8 @@ template&lt;class AI , class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_035874e76bcc0de7e09cf1c5f0f17641.html">HellfireCitadel</a></li><li class="navelem"><a class="el" href="../../dir_ca38c8f641e293b4dda7eec68c8e9454.html">BloodFurnace</a></li><li class="navelem"><a class="el" href="../../de/d2c/a01553.html">blood_furnace.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../de/d2c/a01553.html">npc_stave_of_ancients.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

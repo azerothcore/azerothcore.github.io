@@ -1,6 +1,6 @@
 var a16270 =
 [
-    [ "HandleEffectApply", "d0/d63/a16270.html#aaea2c3733dadc19072c81774468e345a", null ],
-    [ "PrepareAuraScript", "d0/d63/a16270.html#a3848997e9f775add50d40342b6211ff0", null ],
-    [ "Register", "d0/d63/a16270.html#a775b1cf494049ed13d149ca6318142c3", null ]
+    [ "boss_novosAI", "d6/db4/a16274.html", "d6/db4/a16274" ],
+    [ "boss_novos", "d0/d63/a16270.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
+    [ "GetAI", "d0/d63/a16270.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
 ];

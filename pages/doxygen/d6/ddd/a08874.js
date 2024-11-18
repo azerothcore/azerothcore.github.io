@@ -1,9 +1,8 @@
 var a08874 =
 [
-    [ "InserterType", "d6/ddd/a08874.html#a8ea29aedfb1eaf2b3eac29bc61849319", null ],
-    [ "ContainerInserter", "d6/ddd/a08874.html#a44cd545e2965b309c48d40f4617bc38e", null ],
-    [ "Insert", "d6/ddd/a08874.html#af482d9f7940d548193fc56839bc2cb87", null ],
-    [ "InserterOf", "d6/ddd/a08874.html#a003318d4ec066ca45d79ec5b669cdb8c", null ],
-    [ "inserter", "d6/ddd/a08874.html#ac10b2769f02687260efd531af666fbb3", null ],
-    [ "ref", "d6/ddd/a08874.html#a60d4a9120523c28d8c408c981305535e", null ]
+    [ "AIRelocationNotifier", "d6/ddd/a08874.html#ab19dba99802231bc1ba7b3ae3cb4bdb3", null ],
+    [ "Visit", "d6/ddd/a08874.html#a06dd774a24d4a1da36a2a862c0ad97df", null ],
+    [ "Visit", "d6/ddd/a08874.html#a0ec9a2499d73516dd2d4a0319990924a", null ],
+    [ "i_unit", "d6/ddd/a08874.html#ab1dd814e4d94ed2989bb07012a24d40e", null ],
+    [ "isCreature", "d6/ddd/a08874.html#a199f4b91d00dd4db90855e5521d87a95", null ]
 ];

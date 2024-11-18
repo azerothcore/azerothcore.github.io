@@ -1,7 +1,8 @@
 var a13358 =
 [
-    [ "boss_blight_wormAI", "db/d2a/a13358.html#af267e395fbd539f871e498dc6745c610", null ],
-    [ "Reset", "db/d2a/a13358.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
-    [ "UpdateAI", "db/d2a/a13358.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
-    [ "_events", "db/d2a/a13358.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
+    [ "npc_varian_wrynnAI", "dd/de0/a13362.html", "dd/de0/a13362" ],
+    [ "npc_varian_wrynn", "db/d2a/a13358.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
+    [ "GetAI", "db/d2a/a13358.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
+    [ "OnGossipHello", "db/d2a/a13358.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
+    [ "OnGossipSelect", "db/d2a/a13358.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
 ];

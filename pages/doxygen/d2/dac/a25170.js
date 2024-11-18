@@ -1,7 +1,8 @@
 var a25170 =
 [
-    [ "HandleDummy", "d2/dac/a25170.html#a5a82cbe58f57c94441cfda618e0eecca", null ],
-    [ "HandleScriptEffect", "d2/dac/a25170.html#a30d760a8708b49a185eb000249a9a5eb", null ],
-    [ "PrepareSpellScript", "d2/dac/a25170.html#a102d8493d285757c789cbba4a1bdc688", null ],
-    [ "Register", "d2/dac/a25170.html#ab4031ddb745995128854c149f7706045", null ]
+    [ "OnApply", "d2/dac/a25170.html#a75b45732648d5ba90b49725a48609a89", null ],
+    [ "OnBaseRemove", "d2/dac/a25170.html#aa6d10399bba721ff7a3651508fcdf449", null ],
+    [ "OnRemove", "d2/dac/a25170.html#a0331b3860691db793c5a7bcf53550c6f", null ],
+    [ "PrepareAuraScript", "d2/dac/a25170.html#a34ad4890c7ce30427537e36980057e57", null ],
+    [ "Register", "d2/dac/a25170.html#a713e694cad6f1cf533d45f5d633da36e", null ]
 ];

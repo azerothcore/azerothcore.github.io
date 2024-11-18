@@ -1,6 +1,5 @@
 var a19914 =
 [
-    [ "npc_ulduar_iron_constructAI", "dd/de5/a19918.html", "dd/de5/a19918" ],
-    [ "npc_ulduar_iron_construct", "d6/d63/a19914.html#a56ddf4d4d290dbb15303419c1dab18da", null ],
-    [ "GetAI", "d6/d63/a19914.html#a7d46ba96b6f1968e35721d45c17b1a49", null ]
+    [ "achievement_i_have_the_coolest_friends", "d6/d63/a19914.html#a87fd2d5702fe33ee8b09042c66897636", null ],
+    [ "OnCheck", "d6/d63/a19914.html#aa77aa6129967601ede2f3fc44b2ee1aa", null ]
 ];

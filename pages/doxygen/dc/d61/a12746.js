@@ -1,15 +1,20 @@
 var a12746 =
 [
-    [ "boss_kormok", "dc/d61/a12746.html#a2bacfd366d084cae31b8cc689fb26d0b", null ],
-    [ "DamageTaken", "dc/d61/a12746.html#a2aa7fedea09b4d0526028826be2cb360", null ],
-    [ "IsSummonedBy", "dc/d61/a12746.html#a641bd06b5da44e04534150fc1fc6f9e0", null ],
-    [ "JustDied", "dc/d61/a12746.html#a219bc4f5e13e58bb4a8f79cbc36b5ad7", null ],
-    [ "JustEngagedWith", "dc/d61/a12746.html#a7fc5bb05831e5b8e22c7d59c5c71f87a", null ],
-    [ "JustSummoned", "dc/d61/a12746.html#a49ba1031e5639c3d8fdaf9ae9884a038", null ],
-    [ "Reset", "dc/d61/a12746.html#a70252bf1680510294f62e2c42220156e", null ],
-    [ "SummonedCreatureDespawn", "dc/d61/a12746.html#a6f23b4b006de4b8b5fda6e0203e2f8a7", null ],
-    [ "UpdateAI", "dc/d61/a12746.html#aea5651a98492885eb4d598714df4fd40", null ],
-    [ "_mages", "dc/d61/a12746.html#ae0de3f9848cb9051a18ba15347af3e7a", null ],
-    [ "_scheduler", "dc/d61/a12746.html#a540ef7a05a503a989f93d4b53daacb4b", null ],
-    [ "_summons", "dc/d61/a12746.html#aefaac0c5af45f63faeac6bf9ef1ca7fc", null ]
+    [ "boss_darkmaster_gandlingAI", "dc/d61/a12746.html#a1fbd651c6f5ad3630ae450c6a523360c", null ],
+    [ "FindRoom", "dc/d61/a12746.html#a7ca1847b3223c82f7c190546809c49bc", null ],
+    [ "GetData", "dc/d61/a12746.html#a06e03e66d7a99a98ba915057c0082217", null ],
+    [ "JustDied", "dc/d61/a12746.html#afaac9e6939e0d873f576129546560fba", null ],
+    [ "JustEngagedWith", "dc/d61/a12746.html#aa71a73d3804187c6b89566ec3d1cd6ed", null ],
+    [ "JustSummoned", "dc/d61/a12746.html#a24e4031367eb59ad7a9ea352bd0b4ccd", null ],
+    [ "OpenAllGates", "dc/d61/a12746.html#ab28b7d97956c21515c9872d8f9122f18", null ],
+    [ "Reset", "dc/d61/a12746.html#a8244b7b91de9a0413193001f41288f7f", null ],
+    [ "SetData", "dc/d61/a12746.html#a1b7ed8e98d4a271dfd8df76738cc0072", null ],
+    [ "SetGate", "dc/d61/a12746.html#a32fbc731852f46fbdd36b36764dd2303", null ],
+    [ "SpawnMobsInRoom", "dc/d61/a12746.html#a68adf734efff345529dbb74bebe15798", null ],
+    [ "SpellHitTarget", "dc/d61/a12746.html#ae98715a31cd22febb1725977556a48aa", null ],
+    [ "SummonedCreatureDespawn", "dc/d61/a12746.html#aa0abb31ac1a05c4a99e4b8079410867a", null ],
+    [ "UpdateAI", "dc/d61/a12746.html#a2c525445ad39ddc47366f3f632014d89", null ],
+    [ "current_room", "dc/d61/a12746.html#a597f7ee62ee41ff6a1a12a6c9dd7cd93", null ],
+    [ "Guardians", "dc/d61/a12746.html#a3681da718192f0f961282fa4f655355e", null ],
+    [ "summons", "dc/d61/a12746.html#a745d411fc485892529cb4cc6f06ba3af", null ]
 ];

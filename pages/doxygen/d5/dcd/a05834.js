@@ -1,7 +1,6 @@
 var a05834 =
 [
-    [ "SpellTargetSelector", "d5/dcd/a05834.html#a9f1f441e542500dc43c58b97729f7f51", null ],
-    [ "operator()", "d5/dcd/a05834.html#a53c27c23f2d9846903e1ff9b479a36b1", null ],
-    [ "_caster", "d5/dcd/a05834.html#ac5b0844c975a6b3ff3c14a843fd28fba", null ],
-    [ "_spellInfo", "d5/dcd/a05834.html#a309ed04630cfb92810b7f51376b3917c", null ]
+    [ "changed", "d5/dcd/a05834.html#af0cf916cd514f64f53f98c108ff63591", null ],
+    [ "counter", "d5/dcd/a05834.html#a5ba0b1002e0bfd61ad17b2130a207cb1", null ],
+    [ "date", "d5/dcd/a05834.html#a9a6769cf4ca7ba55752adc8cdeba71f5", null ]
 ];

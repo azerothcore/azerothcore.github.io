@@ -1,6 +1,9 @@
 var a21346 =
 [
-    [ "npc_dalaran_warriorAI", "da/dfc/a21350.html", "da/dfc/a21350" ],
-    [ "npc_dalaran_warrior", "d6/d6f/a21346.html#a13d44b85173232ddedcc35184d50549c", null ],
-    [ "GetAI", "d6/d6f/a21346.html#a1e84676d2a76bac728a1f23f5f9fc25e", null ]
+    [ "npc_minigob_manabonk", "d6/d6f/a21346.html#aade5e005b68b25ede4e653629390ceb9", null ],
+    [ "Reset", "d6/d6f/a21346.html#a18b3fcf1e2ada8f0178a0efd2e206a8e", null ],
+    [ "SelectTargetInDalaran", "d6/d6f/a21346.html#a74a14a6e1839d7b8cc81712d57666ec5", null ],
+    [ "SendMailToPlayer", "d6/d6f/a21346.html#a1973b7885c9fce15aab9843722bf112e", null ],
+    [ "UpdateAI", "d6/d6f/a21346.html#abca8214a8c13d9d9c5c03f659fef53a9", null ],
+    [ "playerGUID", "d6/d6f/a21346.html#ac8dccd333691f717fdbffe22126330d5", null ]
 ];

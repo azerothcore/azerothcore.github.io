@@ -1,6 +1,7 @@
 var a20086 =
 [
-    [ "npc_ulduar_flames_initialAI", "da/d77/a20090.html", "da/d77/a20090" ],
-    [ "npc_ulduar_flames_initial", "df/dc8/a20086.html#aee0c62a38e3e0958e015faef2c434273", null ],
-    [ "GetAI", "df/dc8/a20086.html#ac0db78c361324a594220ad644001f4eb", null ]
+    [ "HandleEffectPeriodic", "df/dc8/a20086.html#a0fc0cf6cd635249a10aefd284d9ae789", null ],
+    [ "PrepareAuraScript", "df/dc8/a20086.html#af432e810a46e35f95bb0b3b2eaada132", null ],
+    [ "Register", "df/dc8/a20086.html#a41c3846c03ce1e37fc6858a676f61c48", null ],
+    [ "Validate", "df/dc8/a20086.html#ac8e9521a6b8ab9a4642361085dbe517d", null ]
 ];

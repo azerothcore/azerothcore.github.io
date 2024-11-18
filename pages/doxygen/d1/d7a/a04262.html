@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Tickets/TicketMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/AllMapScript.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,340 +105,51 @@ $(document).ready(function(){initNavTree('d1/d7a/a04262.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">TicketMgr.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">AllMapScript.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AllMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PlayerScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgrMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldMapScript.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd9/a11110.html">GmTicket</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2b/a11114.html">TicketMgr</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:dd/d07/a04743"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d07/a04743.html">anonymous_namespace{AllMapScript.cpp}</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a20db6dadbe20767eb03327894588c7be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a20db6dadbe20767eb03327894588c7be">sTicketMgr</a>&#160;&#160;&#160;<a class="el" href="../../de/d2b/a11114.html#ad2bec18f0007fc2160b4899b86dcb9e9">TicketMgr::instance</a>()</td></tr>
-<tr class="separator:a20db6dadbe20767eb03327894588c7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a899f6a046cdda33d737030dd4923ca7d"><td class="memTemplParams" colspan="2">template&lt;class ScriptName &gt; </td></tr>
+<tr class="memitem:a899f6a046cdda33d737030dd4923ca7d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d07/a04743.html#a899f6a046cdda33d737030dd4923ca7d">anonymous_namespace{AllMapScript.cpp}::ForeachMaps</a> (<a class="el" href="../../d7/dc0/a09538.html">Map</a> *map, std::function&lt; void(ScriptName *)&gt; const &amp;executeHook)</td></tr>
+<tr class="separator:a899f6a046cdda33d737030dd4923ca7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a697d75cf06a963bad84903696288001a"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/dd9/a11110.html">GmTicket</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a697d75cf06a963bad84903696288001a">GmTicketList</a></td></tr>
-<tr class="separator:a697d75cf06a963bad84903696288001a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a620665e68b03e8238c0f67a7d156ff20"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20">GMTicketSystemStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3">GMTICKET_QUEUE_STATUS_DISABLED</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417">GMTICKET_QUEUE_STATUS_ENABLED</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:a620665e68b03e8238c0f67a7d156ff20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9bdef2d04cda42105b540072878a959"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959">GMTicketStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad">GMTICKET_STATUS_HASTEXT</a> = 0x06
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0">GMTICKET_STATUS_DEFAULT</a> = 0x0A
-<br />
- }</td></tr>
-<tr class="separator:aa9bdef2d04cda42105b540072878a959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb4cde78a930d8f04d2f7ba4167a27d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3">GMTicketResponse</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921">GMTICKET_RESPONSE_ALREADY_EXIST</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780">GMTICKET_RESPONSE_CREATE_SUCCESS</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2">GMTICKET_RESPONSE_CREATE_ERROR</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5">GMTICKET_RESPONSE_UPDATE_SUCCESS</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f">GMTICKET_RESPONSE_UPDATE_ERROR</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804">GMTICKET_RESPONSE_TICKET_DELETED</a> = 9
-<br />
- }</td></tr>
-<tr class="separator:adb4cde78a930d8f04d2f7ba4167a27d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878f9ec26e56dd05dd8f956cfaba754d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754d">GMTicketEscalationStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a">TICKET_UNASSIGNED</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28">TICKET_ASSIGNED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1">TICKET_IN_ESCALATION_QUEUE</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2">TICKET_ESCALATED_ASSIGNED</a> = 3
-<br />
- }</td></tr>
-<tr class="separator:a878f9ec26e56dd05dd8f956cfaba754d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeedacb4a8f5a99f7c38b120ef230820d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820d">GMTicketOpenedByGMStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd">GMTICKET_OPENEDBYGM_STATUS_NOT_OPENED</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a">GMTICKET_OPENEDBYGM_STATUS_OPENED</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:aeedacb4a8f5a99f7c38b120ef230820d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c967ea39ca26744000413d362c7c100"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100">LagReportType</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7">LAG_REPORT_TYPE_LOOT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023">LAG_REPORT_TYPE_AUCTION_HOUSE</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83">LAG_REPORT_TYPE_MAIL</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90">LAG_REPORT_TYPE_CHAT</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007">LAG_REPORT_TYPE_MOVEMENT</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d">LAG_REPORT_TYPE_SPELL</a> = 6
-<br />
- }</td></tr>
-<tr class="separator:a8c967ea39ca26744000413d362c7c100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0ab886570eedf7c4ab55ac06a3ce40"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40">TicketType</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e">TICKET_TYPE_OPEN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190">TICKET_TYPE_CLOSED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896">TICKET_TYPE_CHARACTER_DELETED</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:a4c0ab886570eedf7c4ab55ac06a3ce40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ada370fef23e6d206da686c8bb6149104"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7a/a04262.html#ada370fef23e6d206da686c8bb6149104">ScriptRegistry&lt; AllMapScript &gt;</a></td></tr>
+<tr class="separator:ada370fef23e6d206da686c8bb6149104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a20db6dadbe20767eb03327894588c7be" name="a20db6dadbe20767eb03327894588c7be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20db6dadbe20767eb03327894588c7be">&#9670;&#160;</a></span>sTicketMgr</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ada370fef23e6d206da686c8bb6149104" name="ada370fef23e6d206da686c8bb6149104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada370fef23e6d206da686c8bb6149104">&#9670;&#160;</a></span>ScriptRegistry&lt; AllMapScript &gt;</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sTicketMgr&#160;&#160;&#160;<a class="el" href="../../de/d2b/a11114.html#ad2bec18f0007fc2160b4899b86dcb9e9">TicketMgr::instance</a>()</td>
+          <td class="memname">template class <a class="el" href="../../d4/d1e/a00497.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../db/d3e/a10146.html">ScriptRegistry</a>&lt; <a class="el" href="../../d2/d5e/a09962.html">AllMapScript</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a697d75cf06a963bad84903696288001a" name="a697d75cf06a963bad84903696288001a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a697d75cf06a963bad84903696288001a">&#9670;&#160;</a></span>GmTicketList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::map&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d8/dd9/a11110.html">GmTicket</a>*&gt; <a class="el" href="../../d1/d7a/a04262.html#a697d75cf06a963bad84903696288001a">GmTicketList</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a878f9ec26e56dd05dd8f956cfaba754d" name="a878f9ec26e56dd05dd8f956cfaba754d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a878f9ec26e56dd05dd8f956cfaba754d">&#9670;&#160;</a></span>GMTicketEscalationStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754d">GMTicketEscalationStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a" name="a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a"></a>TICKET_UNASSIGNED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28" name="a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28"></a>TICKET_ASSIGNED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1" name="a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1"></a>TICKET_IN_ESCALATION_QUEUE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2" name="a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2"></a>TICKET_ESCALATED_ASSIGNED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a">TICKET_UNASSIGNED</a>                             = 0,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28">TICKET_ASSIGNED</a>                               = 1,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1">TICKET_IN_ESCALATION_QUEUE</a>                    = 2,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2">TICKET_ESCALATED_ASSIGNED</a>                     = 3</div>
-<div class="line"><span class="lineno">   61</span>};</div>
-<div class="ttc" id="aa04262_html_a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2"><div class="ttname"><a href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da4c8da0f38bac21e259f2f077722c46d2">TICKET_ESCALATED_ASSIGNED</a></div><div class="ttdeci">@ TICKET_ESCALATED_ASSIGNED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:60</div></div>
-<div class="ttc" id="aa04262_html_a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1"><div class="ttname"><a href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754da5a63c2f2fcec47a0eaad7a4724c604e1">TICKET_IN_ESCALATION_QUEUE</a></div><div class="ttdeci">@ TICKET_IN_ESCALATION_QUEUE</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:59</div></div>
-<div class="ttc" id="aa04262_html_a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a"><div class="ttname"><a href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daa6e0f9ce9a37b89b10577eafedb4226a">TICKET_UNASSIGNED</a></div><div class="ttdeci">@ TICKET_UNASSIGNED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:57</div></div>
-<div class="ttc" id="aa04262_html_a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28"><div class="ttname"><a href="../../d1/d7a/a04262.html#a878f9ec26e56dd05dd8f956cfaba754daf84dc8de23735d2da3c608744476ea28">TICKET_ASSIGNED</a></div><div class="ttdeci">@ TICKET_ASSIGNED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:58</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aeedacb4a8f5a99f7c38b120ef230820d" name="aeedacb4a8f5a99f7c38b120ef230820d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeedacb4a8f5a99f7c38b120ef230820d">&#9670;&#160;</a></span>GMTicketOpenedByGMStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820d">GMTicketOpenedByGMStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd" name="aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd"></a>GMTICKET_OPENEDBYGM_STATUS_NOT_OPENED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a" name="aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a"></a>GMTICKET_OPENEDBYGM_STATUS_OPENED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd">GMTICKET_OPENEDBYGM_STATUS_NOT_OPENED</a>         = 0,      <span class="comment">// ticket has never been opened by a gm</span></div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a">GMTICKET_OPENEDBYGM_STATUS_OPENED</a>             = 1       <span class="comment">// ticket has been opened by a gm</span></div>
-<div class="line"><span class="lineno">   68</span>};</div>
-<div class="ttc" id="aa04262_html_aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd"><div class="ttname"><a href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820da0acf204e62a9ac335f4d8e519401a4cd">GMTICKET_OPENEDBYGM_STATUS_NOT_OPENED</a></div><div class="ttdeci">@ GMTICKET_OPENEDBYGM_STATUS_NOT_OPENED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:66</div></div>
-<div class="ttc" id="aa04262_html_aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a"><div class="ttname"><a href="../../d1/d7a/a04262.html#aeedacb4a8f5a99f7c38b120ef230820dae8a849a379231ad568354acea3c1686a">GMTICKET_OPENEDBYGM_STATUS_OPENED</a></div><div class="ttdeci">@ GMTICKET_OPENEDBYGM_STATUS_OPENED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:67</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adb4cde78a930d8f04d2f7ba4167a27d3" name="adb4cde78a930d8f04d2f7ba4167a27d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb4cde78a930d8f04d2f7ba4167a27d3">&#9670;&#160;</a></span>GMTicketResponse</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3">GMTicketResponse</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921" name="adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921"></a>GMTICKET_RESPONSE_ALREADY_EXIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780" name="adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780"></a>GMTICKET_RESPONSE_CREATE_SUCCESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2" name="adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2"></a>GMTICKET_RESPONSE_CREATE_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5" name="adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5"></a>GMTICKET_RESPONSE_UPDATE_SUCCESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f" name="adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f"></a>GMTICKET_RESPONSE_UPDATE_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804" name="adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804"></a>GMTICKET_RESPONSE_TICKET_DELETED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921">GMTICKET_RESPONSE_ALREADY_EXIST</a>               = 1,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780">GMTICKET_RESPONSE_CREATE_SUCCESS</a>              = 2,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2">GMTICKET_RESPONSE_CREATE_ERROR</a>                = 3,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5">GMTICKET_RESPONSE_UPDATE_SUCCESS</a>              = 4,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f">GMTICKET_RESPONSE_UPDATE_ERROR</a>                = 5,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804">GMTICKET_RESPONSE_TICKET_DELETED</a>              = 9</div>
-<div class="line"><span class="lineno">   48</span>};</div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a08c10cb4c26d717228a5697ead5bbbc2">GMTICKET_RESPONSE_CREATE_ERROR</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_CREATE_ERROR</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:44</div></div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a51361b1b513a3edf01f314b6c8c14921">GMTICKET_RESPONSE_ALREADY_EXIST</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_ALREADY_EXIST</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:42</div></div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3a841b790fadbc9573dd25dc12bacc2780">GMTICKET_RESPONSE_CREATE_SUCCESS</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_CREATE_SUCCESS</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:43</div></div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3aa0b33c09a7035bef00e6d174383c0804">GMTICKET_RESPONSE_TICKET_DELETED</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_TICKET_DELETED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:47</div></div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af30fa9cd9828f4254eac75bd01ca49f5">GMTICKET_RESPONSE_UPDATE_SUCCESS</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_UPDATE_SUCCESS</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:45</div></div>
-<div class="ttc" id="aa04262_html_adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f"><div class="ttname"><a href="../../d1/d7a/a04262.html#adb4cde78a930d8f04d2f7ba4167a27d3af4d4cdba2bdbb81d2ca25b1f4864e18f">GMTICKET_RESPONSE_UPDATE_ERROR</a></div><div class="ttdeci">@ GMTICKET_RESPONSE_UPDATE_ERROR</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:46</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa9bdef2d04cda42105b540072878a959" name="aa9bdef2d04cda42105b540072878a959"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9bdef2d04cda42105b540072878a959">&#9670;&#160;</a></span>GMTicketStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959">GMTicketStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad" name="aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad"></a>GMTICKET_STATUS_HASTEXT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0" name="aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0"></a>GMTICKET_STATUS_DEFAULT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad">GMTICKET_STATUS_HASTEXT</a>                      = 0x06,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0">GMTICKET_STATUS_DEFAULT</a>                      = 0x0A</div>
-<div class="line"><span class="lineno">   38</span>};</div>
-<div class="ttc" id="aa04262_html_aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0"><div class="ttname"><a href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959a251de6cd21e96c676566232e9625b5a0">GMTICKET_STATUS_DEFAULT</a></div><div class="ttdeci">@ GMTICKET_STATUS_DEFAULT</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:37</div></div>
-<div class="ttc" id="aa04262_html_aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad"><div class="ttname"><a href="../../d1/d7a/a04262.html#aa9bdef2d04cda42105b540072878a959aae8e16aa9f969c6f6553c6237125d0ad">GMTICKET_STATUS_HASTEXT</a></div><div class="ttdeci">@ GMTICKET_STATUS_HASTEXT</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:36</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a620665e68b03e8238c0f67a7d156ff20" name="a620665e68b03e8238c0f67a7d156ff20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a620665e68b03e8238c0f67a7d156ff20">&#9670;&#160;</a></span>GMTicketSystemStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20">GMTicketSystemStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3" name="a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3"></a>GMTICKET_QUEUE_STATUS_DISABLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417" name="a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417"></a>GMTICKET_QUEUE_STATUS_ENABLED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3">GMTICKET_QUEUE_STATUS_DISABLED</a>               = 0,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417">GMTICKET_QUEUE_STATUS_ENABLED</a>                = 1</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa04262_html_a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417"><div class="ttname"><a href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a061a48ce23122a2783e2b9f1df7d9417">GMTICKET_QUEUE_STATUS_ENABLED</a></div><div class="ttdeci">@ GMTICKET_QUEUE_STATUS_ENABLED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:31</div></div>
-<div class="ttc" id="aa04262_html_a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3"><div class="ttname"><a href="../../d1/d7a/a04262.html#a620665e68b03e8238c0f67a7d156ff20a4a66517fc7ca7d2754a456d10fb795f3">GMTICKET_QUEUE_STATUS_DISABLED</a></div><div class="ttdeci">@ GMTICKET_QUEUE_STATUS_DISABLED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:30</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8c967ea39ca26744000413d362c7c100" name="a8c967ea39ca26744000413d362c7c100"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c967ea39ca26744000413d362c7c100">&#9670;&#160;</a></span>LagReportType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100">LagReportType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7" name="a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7"></a>LAG_REPORT_TYPE_LOOT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023" name="a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023"></a>LAG_REPORT_TYPE_AUCTION_HOUSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83" name="a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83"></a>LAG_REPORT_TYPE_MAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90" name="a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90"></a>LAG_REPORT_TYPE_CHAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007" name="a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007"></a>LAG_REPORT_TYPE_MOVEMENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d" name="a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d"></a>LAG_REPORT_TYPE_SPELL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7">LAG_REPORT_TYPE_LOOT</a>                          = 1,</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023">LAG_REPORT_TYPE_AUCTION_HOUSE</a>                 = 2,</div>
-<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83">LAG_REPORT_TYPE_MAIL</a>                          = 3,</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90">LAG_REPORT_TYPE_CHAT</a>                          = 4,</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007">LAG_REPORT_TYPE_MOVEMENT</a>                      = 5,</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d">LAG_REPORT_TYPE_SPELL</a>                         = 6</div>
-<div class="line"><span class="lineno">   78</span>};</div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a11af2b0c93f6e60a08c02ad20c846c83">LAG_REPORT_TYPE_MAIL</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_MAIL</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:74</div></div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a39753ee340eb3a338b2e4d18171da9f7">LAG_REPORT_TYPE_LOOT</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_LOOT</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:72</div></div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100a48ba55ab4e85d0930ac31a7727276e9d">LAG_REPORT_TYPE_SPELL</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_SPELL</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:77</div></div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100aaedf06863e987c9b3fd5226f17680023">LAG_REPORT_TYPE_AUCTION_HOUSE</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_AUCTION_HOUSE</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:73</div></div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100ae2cb2d020d3795c948745bc52332d007">LAG_REPORT_TYPE_MOVEMENT</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_MOVEMENT</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:76</div></div>
-<div class="ttc" id="aa04262_html_a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90"><div class="ttname"><a href="../../d1/d7a/a04262.html#a8c967ea39ca26744000413d362c7c100afe144b0bc7321e1a1999ae69cd76fd90">LAG_REPORT_TYPE_CHAT</a></div><div class="ttdeci">@ LAG_REPORT_TYPE_CHAT</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:75</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4c0ab886570eedf7c4ab55ac06a3ce40" name="a4c0ab886570eedf7c4ab55ac06a3ce40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c0ab886570eedf7c4ab55ac06a3ce40">&#9670;&#160;</a></span>TicketType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40">TicketType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e" name="a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e"></a>TICKET_TYPE_OPEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190" name="a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190"></a>TICKET_TYPE_CLOSED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896" name="a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896"></a>TICKET_TYPE_CHARACTER_DELETED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   81</span>{</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e">TICKET_TYPE_OPEN</a>                              = 0,</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190">TICKET_TYPE_CLOSED</a>                            = 1,</div>
-<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896">TICKET_TYPE_CHARACTER_DELETED</a>                 = 2,</div>
-<div class="line"><span class="lineno">   85</span>};</div>
-<div class="ttc" id="aa04262_html_a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e"><div class="ttname"><a href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a08a09aed9108054a1ffb663d6be0a95e">TICKET_TYPE_OPEN</a></div><div class="ttdeci">@ TICKET_TYPE_OPEN</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:82</div></div>
-<div class="ttc" id="aa04262_html_a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896"><div class="ttname"><a href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40a39e587cb50470c90ae82c9d1570e1896">TICKET_TYPE_CHARACTER_DELETED</a></div><div class="ttdeci">@ TICKET_TYPE_CHARACTER_DELETED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:84</div></div>
-<div class="ttc" id="aa04262_html_a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190"><div class="ttname"><a href="../../d1/d7a/a04262.html#a4c0ab886570eedf7c4ab55ac06a3ce40abdad221a4e0aac30acd6b1989781f190">TICKET_TYPE_CLOSED</a></div><div class="ttdeci">@ TICKET_TYPE_CLOSED</div><div class="ttdef"><b>Definition:</b> TicketMgr.h:83</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -446,8 +157,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_d060a361923b82432b6b770fd21c8bea.html">Tickets</a></li><li class="navelem"><a class="el" href="../../d1/d7a/a04262.html">TicketMgr.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d1/d7a/a04262.html">AllMapScript.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

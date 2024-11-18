@@ -1,18 +1,17 @@
 var a09950 =
 [
-    [ "AllSpellScript", "db/da4/a09950.html#a95e37ac5e1e253fb6d759103ec55ac7a", null ],
-    [ "CanModAuraEffectDamageDone", "db/da4/a09950.html#a95cc4310fb4bc275c7f467a4d71d790c", null ],
-    [ "CanModAuraEffectModDamagePercentDone", "db/da4/a09950.html#a05230c0a96e7096b64f1bb03acedb337", null ],
-    [ "CanPrepare", "db/da4/a09950.html#aeb2d438fdd7ca823ce670a94941bafff", null ],
-    [ "CanScalingEverything", "db/da4/a09950.html#a026842dcd2d8c0e0c3f99718b04e86b0", null ],
-    [ "CanSelectSpecTalent", "db/da4/a09950.html#a3cf7b45d8e9f5b23e2753d1624c4af78", null ],
-    [ "IsDatabaseBound", "db/da4/a09950.html#a0854a57b62e310575a3e5cd8d35e8532", null ],
-    [ "OnBeforeAuraRankForLevel", "db/da4/a09950.html#ae5a4590e4fb49d4cfe73c5ce307773ca", null ],
-    [ "OnCalcMaxDuration", "db/da4/a09950.html#a5d02de785a4e1cf5103110828fac5e75", null ],
-    [ "OnDummyEffect", "db/da4/a09950.html#a54e0b823c538c41507c541db025d5295", null ],
-    [ "OnDummyEffect", "db/da4/a09950.html#a36061e5bcec2ef4dea35d1b5c9e703b4", null ],
-    [ "OnDummyEffect", "db/da4/a09950.html#afe06aa2578b89fbc5ed5784aed38912a", null ],
-    [ "OnRemoveAuraScaleTargets", "db/da4/a09950.html#aa055f00fe76ba2768f97e23ecf379a18", null ],
-    [ "OnScaleAuraUnitAdd", "db/da4/a09950.html#abf3758ff33e5be1492ed4e45979a7a8d", null ],
-    [ "OnSpellCheckCast", "db/da4/a09950.html#aae718678bb7d9a7ed1e0cbbc59db3049", null ]
+    [ "AllCreatureScript", "db/da4/a09950.html#ae933414c901fc5d3606fd5c239156f1b", null ],
+    [ "CanCreatureGossipHello", "db/da4/a09950.html#a2cf3bd5ad27bf97fde905bc69a6dec5e", null ],
+    [ "CanCreatureGossipSelect", "db/da4/a09950.html#a551633c543dd01e876ee10452b98fb5e", null ],
+    [ "CanCreatureGossipSelectCode", "db/da4/a09950.html#aa193e968ecc1639ca33fee052dafb0b3", null ],
+    [ "CanCreatureQuestAccept", "db/da4/a09950.html#af45ef5e7a0a6b3ca6126d5af87753b5c", null ],
+    [ "CanCreatureQuestReward", "db/da4/a09950.html#a31659a18df4206122a56ce69f3e4809d", null ],
+    [ "Creature_SelectLevel", "db/da4/a09950.html#a53699365c09e80de805be89545a28968", null ],
+    [ "GetCreatureAI", "db/da4/a09950.html#a1e568b6f85a8b60a65a987c8d081ca3e", null ],
+    [ "OnAllCreatureUpdate", "db/da4/a09950.html#abba47678a4f5e73c2db3b27b4cfa3dbe", null ],
+    [ "OnBeforeCreatureSelectLevel", "db/da4/a09950.html#a136f18625787127115566bb4625fc490", null ],
+    [ "OnCreatureAddWorld", "db/da4/a09950.html#aa5ba65ba430a95724a814311382c9a67", null ],
+    [ "OnCreatureRemoveWorld", "db/da4/a09950.html#aba119c6b59f3dd4a489bb227c1b1208d", null ],
+    [ "OnCreatureSaveToDB", "db/da4/a09950.html#acad4f67abbd5906f38be136be2ae1f53", null ],
+    [ "OnFfaPvpStateUpdate", "db/da4/a09950.html#a8022ccb5b3d0b6d900512f3d8ea6dbfa", null ]
 ];

@@ -1,5 +1,5 @@
 var a00542 =
 [
-    [ "BIHWrap< T, BoundsFunc >", "de/d85/a04810.html", "de/d85/a04810" ],
-    [ "BIHWrap< T, BoundsFunc >::MDLCallback< RayCallback >", "d0/de6/a04814.html", "d0/de6/a04814" ]
+    [ "ExtractGameobjectModels", "d0/ddb/a00542.html#a7b3d0cbf404ed32359e354ccf6e34392", null ],
+    [ "ExtractSingleModel", "d0/ddb/a00542.html#a6a96194f748b715f0400249583336ae5", null ]
 ];

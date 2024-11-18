@@ -1,5 +1,5 @@
 var a18470 =
 [
-    [ "at_frozen_throne_teleport", "df/dfd/a18470.html#a8065b9f9b55b267be1757775f84de349", null ],
-    [ "OnTrigger", "df/dfd/a18470.html#ae1f9476b7f47320f545e702e9317bd03", null ]
+    [ "at_icc_spire_frostwyrm", "df/dfd/a18470.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
+    [ "_OnTrigger", "df/dfd/a18470.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
 ];

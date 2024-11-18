@@ -1,6 +1,6 @@
 var a11562 =
 [
-    [ "npc_burning_spiritAI", "d5/da0/a11566.html", "d5/da0/a11566" ],
-    [ "npc_burning_spirit", "d7/dc0/a11562.html#a596e654486c82d15d7a37b069a99856d", null ],
-    [ "GetAI", "d7/dc0/a11562.html#a3c704a0856d669a1e684e5a858bc4334", null ]
+    [ "npc_lokhtos_darkbargainer", "d7/dc0/a11562.html#af91685ecf0f63313968b3d82373668d2", null ],
+    [ "OnGossipHello", "d7/dc0/a11562.html#a39547487ef7db8a3942556665099893f", null ],
+    [ "OnGossipSelect", "d7/dc0/a11562.html#a5a4640678a5669c75b1fa5d787999c02", null ]
 ];

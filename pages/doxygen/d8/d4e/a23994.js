@@ -1,6 +1,10 @@
 var a23994 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "d6/df3/a23998.html", "d6/df3/a23998" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d8/d4e/a23994.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d8/d4e/a23994.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "npc_isla_starmaneAI", "d8/d4e/a23994.html#a0cb655d324ddde173dcfdee069c0f694", null ],
+    [ "JustDied", "d8/d4e/a23994.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
+    [ "JustEngagedWith", "d8/d4e/a23994.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
+    [ "JustRespawned", "d8/d4e/a23994.html#a69b395a9b9504737109870c5e8db74c8", null ],
+    [ "UpdateEscortAI", "d8/d4e/a23994.html#af4b8c80e7443bb671be253238b124910", null ],
+    [ "WaypointReached", "d8/d4e/a23994.html#a5d00583afa4e811e4f3cb8400787a990", null ],
+    [ "events", "d8/d4e/a23994.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
 ];

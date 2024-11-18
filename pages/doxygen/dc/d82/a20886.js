@@ -1,6 +1,6 @@
 var a20886 =
 [
-    [ "HandleOnHit", "dc/d82/a20886.html#aa3f90eb49ae947b5729f722750cb8711", null ],
-    [ "PrepareSpellScript", "dc/d82/a20886.html#a3b62711a0ba478d6321a93d436359939", null ],
-    [ "Register", "dc/d82/a20886.html#af7bdde31f1221d5679983a41e3eca204", null ]
+    [ "boss_emalonAI", "d2/ddd/a20890.html", "d2/ddd/a20890" ],
+    [ "boss_emalon", "dc/d82/a20886.html#a2dd481292e02337bebd450f5c9821886", null ],
+    [ "GetAI", "dc/d82/a20886.html#a345b0663ba89de5e37b87a436c48e446", null ]
 ];

@@ -1,7 +1,6 @@
 var a19734 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "d7/de8/a19734.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
-    [ "IsSummonedBy", "d7/de8/a19734.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
-    [ "JustDied", "d7/de8/a19734.html#a5be637500e7b5735d90e19fa40fde467", null ],
-    [ "pInstance", "d7/de8/a19734.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
+    [ "boss_vezaxAI", "dc/d11/a19738.html", "dc/d11/a19738" ],
+    [ "boss_vezax", "d7/de8/a19734.html#af778f9ef3070598f8ca5109b2f6f0f82", null ],
+    [ "GetAI", "d7/de8/a19734.html#a55c7f1ee93252768ba02e8d0d4634eb9", null ]
 ];

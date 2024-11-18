@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/BattlegroundUtils.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/MovementHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,72 +105,53 @@ $(document).ready(function(){initNavTree('df/d98/a03680.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">BattlegroundUtils.cpp File Reference</div></div>
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">MovementHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BattlegroundUtils.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Corpse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceSaveMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MathUtil.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WaypointMovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ab22bdb52b0357434faced9df19db9d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a03680.html#ab22bdb52b0357434faced9df19db9d81">GetMinPlayersPerTeam</a> (<a class="el" href="../../dd/d67/a07058.html">Battleground</a> *bg, <a class="el" href="../../dd/d23/a27866.html">PvPDifficultyEntry</a> const *bracketEntry)</td></tr>
-<tr class="separator:ab22bdb52b0357434faced9df19db9d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a69e254ae3a119a96053add6b9732296c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a03680.html#a69e254ae3a119a96053add6b9732296c">MOVEMENT_PACKET_TIME_DELAY</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a69e254ae3a119a96053add6b9732296c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ab22bdb52b0357434faced9df19db9d81" name="ab22bdb52b0357434faced9df19db9d81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab22bdb52b0357434faced9df19db9d81">&#9670;&#160;</a></span>GetMinPlayersPerTeam()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a69e254ae3a119a96053add6b9732296c" name="a69e254ae3a119a96053add6b9732296c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e254ae3a119a96053add6b9732296c">&#9670;&#160;</a></span>MOVEMENT_PACKET_TIME_DELAY</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GetMinPlayersPerTeam </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d67/a07058.html">Battleground</a> *&#160;</td>
-          <td class="paramname"><em>bg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d23/a27866.html">PvPDifficultyEntry</a> const *&#160;</td>
-          <td class="paramname"><em>bracketEntry</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define MOVEMENT_PACKET_TIME_DELAY&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">    5</span>{</div>
-<div class="line"><span class="lineno">    6</span>    <span class="comment">// The problem addressed here is that methods such as bg-&gt;GetMinLevel() and bg-&gt;GetMaxLevel() have a different meaning</span></div>
-<div class="line"><span class="lineno">    7</span>    <span class="comment">// according to whether the BG is a template (then it&#39;s the value from the `battleground_template` table)</span></div>
-<div class="line"><span class="lineno">    8</span>    <span class="comment">// or if it&#39;s the real BG (then it&#39;s the specific bracket minimum level, e.g. &quot;60&quot; for &quot;60-69&quot;).</span></div>
-<div class="line"><span class="lineno">    9</span> </div>
-<div class="line"><span class="lineno">   10</span>    <span class="keywordflow">if</span> (!bg-&gt;<a class="code hl_function" href="../../dd/d67/a07058.html#acf16b3c5055b8a424e5f67cf471c5764">isTemplate</a>() || bg-&gt;<a class="code hl_function" href="../../dd/d67/a07058.html#a8ca3356d984db0c5b6e09d61cf7a406c">isArena</a>())</div>
-<div class="line"><span class="lineno">   11</span>    {</div>
-<div class="line"><span class="lineno">   12</span>        <span class="keywordflow">return</span> bg-&gt;<a class="code hl_function" href="../../dd/d67/a07058.html#a2def9e5daf5fcb029686b8000111ba5f">GetMinPlayersPerTeam</a>();</div>
-<div class="line"><span class="lineno">   13</span>    }</div>
-<div class="line"><span class="lineno">   14</span> </div>
-<div class="line"><span class="lineno">   15</span>    <span class="keyword">auto</span> maxPlayerLevel = <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a17aac4c166ebe43e3b8fdccf9e012e41a6684273cdd36b9b8215844fc51358ae1">CONFIG_MAX_PLAYER_LEVEL</a>);</div>
-<div class="line"><span class="lineno">   16</span>    <span class="keyword">auto</span> isMaxLevel = bracketEntry-&gt;minLevel &lt;= maxPlayerLevel &amp;&amp; maxPlayerLevel &lt;= bracketEntry-&gt;maxLevel;</div>
-<div class="line"><span class="lineno">   17</span>    <span class="keyword">auto</span> lowLevelsOverride = <a class="code hl_define" href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a17aac4c166ebe43e3b8fdccf9e012e41acc35d8a8f61002583d1c994bd93592eb">CONFIG_BATTLEGROUND_OVERRIDE_LOWLEVELS_MINPLAYERS</a>);</div>
-<div class="line"><span class="lineno">   18</span> </div>
-<div class="line"><span class="lineno">   19</span>    <span class="keywordflow">return</span> (lowLevelsOverride &amp;&amp; !isMaxLevel) ? lowLevelsOverride : bg-&gt;<a class="code hl_function" href="../../dd/d67/a07058.html#a2def9e5daf5fcb029686b8000111ba5f">GetMinPlayersPerTeam</a>();</div>
-<div class="line"><span class="lineno">   20</span>}</div>
-<div class="ttc" id="aa03464_html_a17aac4c166ebe43e3b8fdccf9e012e41a6684273cdd36b9b8215844fc51358ae1"><div class="ttname"><a href="../../d4/d4b/a03464.html#a17aac4c166ebe43e3b8fdccf9e012e41a6684273cdd36b9b8215844fc51358ae1">CONFIG_MAX_PLAYER_LEVEL</a></div><div class="ttdeci">@ CONFIG_MAX_PLAYER_LEVEL</div><div class="ttdef"><b>Definition:</b> IWorld.h:235</div></div>
-<div class="ttc" id="aa03464_html_a17aac4c166ebe43e3b8fdccf9e012e41acc35d8a8f61002583d1c994bd93592eb"><div class="ttname"><a href="../../d4/d4b/a03464.html#a17aac4c166ebe43e3b8fdccf9e012e41acc35d8a8f61002583d1c994bd93592eb">CONFIG_BATTLEGROUND_OVERRIDE_LOWLEVELS_MINPLAYERS</a></div><div class="ttdeci">@ CONFIG_BATTLEGROUND_OVERRIDE_LOWLEVELS_MINPLAYERS</div><div class="ttdef"><b>Definition:</b> IWorld.h:307</div></div>
-<div class="ttc" id="aa04669_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/d7c/a04669.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-<div class="ttc" id="aa07058_html_a2def9e5daf5fcb029686b8000111ba5f"><div class="ttname"><a href="../../dd/d67/a07058.html#a2def9e5daf5fcb029686b8000111ba5f">Battleground::GetMinPlayersPerTeam</a></div><div class="ttdeci">uint32 GetMinPlayersPerTeam() const</div><div class="ttdef"><b>Definition:</b> Battleground.h:350</div></div>
-<div class="ttc" id="aa07058_html_a8ca3356d984db0c5b6e09d61cf7a406c"><div class="ttname"><a href="../../dd/d67/a07058.html#a8ca3356d984db0c5b6e09d61cf7a406c">Battleground::isArena</a></div><div class="ttdeci">bool isArena() const</div><div class="ttdef"><b>Definition:</b> Battleground.h:413</div></div>
-<div class="ttc" id="aa07058_html_acf16b3c5055b8a424e5f67cf471c5764"><div class="ttname"><a href="../../dd/d67/a07058.html#acf16b3c5055b8a424e5f67cf471c5764">Battleground::isTemplate</a></div><div class="ttdeci">bool isTemplate() const</div><div class="ttdef"><b>Definition:</b> Battleground.h:341</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00307">CONFIG_BATTLEGROUND_OVERRIDE_LOWLEVELS_MINPLAYERS</a>, <a class="el" href="../../#l00235">CONFIG_MAX_PLAYER_LEVEL</a>, <a class="el" href="../../#l00350">Battleground::GetMinPlayersPerTeam()</a>, <a class="el" href="../../#l00413">Battleground::isArena()</a>, <a class="el" href="../../#l00341">Battleground::isTemplate()</a>, <a class="el" href="../../#l01435">PvPDifficultyEntry::maxLevel</a>, <a class="el" href="../../#l01434">PvPDifficultyEntry::minLevel</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00960">BattlegroundQueue::BattlegroundQueueAnnouncerUpdate()</a>, <a class="el" href="../../#l00707">BattlegroundQueue::BattlegroundQueueUpdate()</a>, and <a class="el" href="../../#l01037">BattlegroundQueue::SendMessageBGQueue()</a>.</p>
 
 </div>
 </div>
@@ -179,8 +160,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../df/d98/a03680.html">BattlegroundUtils.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../df/d98/a03680.html">MovementHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,7 @@
 var a25518 =
 [
-    [ "OnEffectHitTargetDisarm", "df/d5b/a25518.html#ae8ce5a315886ede30eda7d3682e4ef06", null ],
-    [ "OnEffectHitTargetStun", "df/d5b/a25518.html#a5a5253b6d152b1af78de663c09451536", null ],
-    [ "OnEffectLaunchTargetDisarm", "df/d5b/a25518.html#a2bbcf5ee2d41362c80a4649a4cf7e260", null ],
-    [ "OnEffectLaunchTargetStun", "df/d5b/a25518.html#ac3d5052bf045082fb8bc02c72a0dba39", null ],
-    [ "PrepareSpellScript", "df/d5b/a25518.html#a113219d3376a23f8889f26f10744e7cb", null ],
-    [ "Register", "df/d5b/a25518.html#a12ef13dbc3e9cd95fb1d57bf393735e3", null ]
+    [ "HandleScript", "df/d5b/a25518.html#aad0be226a2d294d3361c1afbf644c5e4", null ],
+    [ "PrepareSpellScript", "df/d5b/a25518.html#a85dee311aab08d796a3a0c1bc9e9390d", null ],
+    [ "Register", "df/d5b/a25518.html#a2b22be9826db241ecf3f99ff16c309c0", null ],
+    [ "Validate", "df/d5b/a25518.html#a98df659504307fc0666fe2b1001eaa00", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/mob_generic_creature.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/PlayerCommand.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,61 +105,36 @@ $(document).ready(function(){initNavTree('d4/d3c/a01418.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">mob_generic_creature.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">PlayerCommand.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/a27046.html">trigger_periodic</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/a27050.html">trigger_periodic::trigger_periodicAI</a></td></tr>
+<tr class="memitem:de/d5f/a04763"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a04763.html">Acore::PlayerCommand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a50f66c4d6429b38157e35a75a0daa31d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3c/a01418.html#a50f66c4d6429b38157e35a75a0daa31d">AddSC_generic_creature</a> ()</td></tr>
-<tr class="separator:a50f66c4d6429b38157e35a75a0daa31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe37f872cbc981a27671ebdf10904de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a04763.html#acbe37f872cbc981a27671ebdf10904de">Acore::PlayerCommand::HandleLearnSpellCommand</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> *handler, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *targetPlayer, <a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spell, <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d9/d33/a03269.html#ac61bb0d0d29d3ccc94188eb93516adf5">EXACT_SEQUENCE</a>(&quot;all&quot;)&gt; allRanks)</td></tr>
+<tr class="separator:acbe37f872cbc981a27671ebdf10904de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36f90f90b3d9aaf782f7efc859f7e7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5f/a04763.html#ad36f90f90b3d9aaf782f7efc859f7e7a">Acore::PlayerCommand::HandleUnlearnSpellCommand</a> (<a class="el" href="../../da/d6c/a07286.html">ChatHandler</a> *handler, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *targetPlayer, <a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spell, <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d9/d33/a03269.html#ac61bb0d0d29d3ccc94188eb93516adf5">EXACT_SEQUENCE</a>(&quot;all&quot;)&gt; allRanks)</td></tr>
+<tr class="separator:ad36f90f90b3d9aaf782f7efc859f7e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a50f66c4d6429b38157e35a75a0daa31d" name="a50f66c4d6429b38157e35a75a0daa31d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f66c4d6429b38157e35a75a0daa31d">&#9670;&#160;</a></span>AddSC_generic_creature()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_generic_creature </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
-<div class="line"><span class="lineno">   61</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d3f/a27046.html">trigger_periodic</a>;</div>
-<div class="line"><span class="lineno">   62</span>}</div>
-<div class="ttc" id="aa27046_html"><div class="ttname"><a href="../../df/d3f/a27046.html">trigger_periodic</a></div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:24</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d4/d3c/a01418.html">mob_generic_creature.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d4/d3c/a01418.html">PlayerCommand.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

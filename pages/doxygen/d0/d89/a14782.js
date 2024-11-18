@@ -1,7 +1,6 @@
 var a14782 =
 [
-    [ "FilterTargets", "d0/d89/a14782.html#a76e8285baf1d14d560ad764eeab86cd5", null ],
-    [ "HandleOnHit", "d0/d89/a14782.html#a587db6fa1dc5788e0cc9ec5e486e9393", null ],
-    [ "PrepareSpellScript", "d0/d89/a14782.html#ad7372e543391a23c003b4121e0dd8a09", null ],
-    [ "Register", "d0/d89/a14782.html#a9749c72e2c7964cd4a2b2f9a77da69ec", null ]
+    [ "boss_veknilash", "d0/d89/a14782.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
+    [ "IAmVeklor", "d0/d89/a14782.html#a454027d829b962ee0feebb6fd5687714", null ],
+    [ "JustEngagedWith", "d0/d89/a14782.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
 ];

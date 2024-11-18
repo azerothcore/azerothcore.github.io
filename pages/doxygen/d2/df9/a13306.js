@@ -1,9 +1,6 @@
 var a13306 =
 [
-    [ "npc_tyrion_spybotAI", "d2/df9/a13306.html#aedad685279012266637d29069ead9063", null ],
-    [ "Reset", "d2/df9/a13306.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
-    [ "UpdateAI", "d2/df9/a13306.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
-    [ "WaypointReached", "d2/df9/a13306.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
-    [ "uiPhase", "d2/df9/a13306.html#af5dbb99fe18d96665efd04bd53294636", null ],
-    [ "uiTimer", "d2/df9/a13306.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
+    [ "npc_lord_gregor_lescovarAI", "db/d65/a13310.html", "db/d65/a13310" ],
+    [ "npc_lord_gregor_lescovar", "d2/df9/a13306.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "d2/df9/a13306.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

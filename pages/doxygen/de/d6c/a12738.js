@@ -1,6 +1,7 @@
 var a12738 =
 [
-    [ "boss_kirtonos_the_heraldAI", "db/d25/a12742.html", "db/d25/a12742" ],
-    [ "boss_kirtonos_the_herald", "de/d6c/a12738.html#a0e81153a0da7910cda4c9b6d32544318", null ],
-    [ "GetAI", "de/d6c/a12738.html#aa5e0fe2386aae52fd53ff309282db652", null ]
+    [ "npc_fairbanksAI", "de/d6c/a12738.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
+    [ "MoveInLineOfSight", "de/d6c/a12738.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
+    [ "Reset", "de/d6c/a12738.html#a2290dd6189572cddd0597f622582c3a8", null ],
+    [ "SayAshbringer", "de/d6c/a12738.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
 ];

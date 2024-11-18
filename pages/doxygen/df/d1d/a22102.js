@@ -1,6 +1,6 @@
 var a22102 =
 [
-    [ "npc_released_offspring_harkoaAI", "df/d1d/a22102.html#ab1002f002987b6ea2366129afd48d65c", null ],
-    [ "MovementInform", "df/d1d/a22102.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
-    [ "Reset", "df/d1d/a22102.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
+    [ "npc_captured_rageclawAI", "d8/de8/a22106.html", "d8/de8/a22106" ],
+    [ "npc_captured_rageclaw", "df/d1d/a22102.html#ad49176279e9d16a6a24c0649c576c0be", null ],
+    [ "GetAI", "df/d1d/a22102.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
 ];

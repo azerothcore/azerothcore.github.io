@@ -1,7 +1,5 @@
 var a10842 =
 [
-    [ "WorldObjectSpellAreaTargetCheck", "da/dce/a10842.html#a2b017300220426ac42de18e3a8699219", null ],
-    [ "operator()", "da/dce/a10842.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4", null ],
-    [ "_position", "da/dce/a10842.html#a680c45dd148161657da011a1772375ca", null ],
-    [ "_range", "da/dce/a10842.html#a4ee3762b4a7f35d252cbb5337d61d92c", null ]
+    [ "effectMask", "da/dce/a10842.html#a3161ec2ffdf794c000cc94b91519d009", null ],
+    [ "item", "da/dce/a10842.html#afce5eba99c3dc33698dd12af8432f357", null ]
 ];

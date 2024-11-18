@@ -1,10 +1,7 @@
 var a16286 =
 [
-    [ "boss_tharon_jaAI", "d1/d63/a16286.html#a03025fa529e932f23479ff19b0cd8238", null ],
-    [ "DoAction", "d1/d63/a16286.html#a655fd83c2d671847fea9ae393c132fb9", null ],
-    [ "JustDied", "d1/d63/a16286.html#a7928b5db061f1073e1decc2d40601195", null ],
-    [ "JustEngagedWith", "d1/d63/a16286.html#aab194a8f802eeb625d1a74960acbe154", null ],
-    [ "KilledUnit", "d1/d63/a16286.html#a41e929a3768768eb06bafdee3269fd24", null ],
-    [ "Reset", "d1/d63/a16286.html#a272e8565a9b00a27505b301d52814eee", null ],
-    [ "UpdateAI", "d1/d63/a16286.html#a6f482cabcb0bd56711878a5ea297b950", null ]
+    [ "HandleScript", "d1/d63/a16286.html#a927cc2ab0e5bba58a2b49e3e4e52ebaa", null ],
+    [ "PrepareSpellScript", "d1/d63/a16286.html#a71b28156c628aacbc6cb481038c0e76c", null ],
+    [ "Register", "d1/d63/a16286.html#a6f036bb2d42f248e0c252158a5ecedf1", null ],
+    [ "Validate", "d1/d63/a16286.html#a7c8a5a7c47bd7a9624028f92b1d9cf9c", null ]
 ];

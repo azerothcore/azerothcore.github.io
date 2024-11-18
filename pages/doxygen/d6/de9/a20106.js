@@ -1,9 +1,6 @@
 var a20106 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d6/de9/a20106.html#a98ad3308b0fa56847ce6f5583bdfaba9", null ],
-    [ "AttackStart", "d6/de9/a20106.html#aa18e89f63e98112efeb69328f8fdc296", null ],
-    [ "MoveInLineOfSight", "d6/de9/a20106.html#a6384437fff9349df0cfa5053b37313ea", null ],
-    [ "MovementInform", "d6/de9/a20106.html#a2f7d5b821ea4bf80bd01d469859f6fb6", null ],
-    [ "UpdateAI", "d6/de9/a20106.html#a71d24eb5cea764011249b8ff78c3ed6c", null ],
-    [ "events", "d6/de9/a20106.html#a5099c03b3ab1eb437ea11a0c4e8650f1", null ]
+    [ "npc_ulduar_flames_spreadAI", "d2/d5a/a20110.html", "d2/d5a/a20110" ],
+    [ "npc_ulduar_flames_spread", "d6/de9/a20106.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
+    [ "GetAI", "d6/de9/a20106.html#af492a5bc9304a05f8475a39458c6abdb", null ]
 ];

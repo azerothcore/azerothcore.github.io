@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_cast.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/CoilfangReservoir/underbog/underbog.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,51 +106,115 @@ $(document).ready(function(){initNavTree('da/d96/a00782.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">cs_cast.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">underbog.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TaskScheduler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">the_underbog.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dab/a11290.html">cast_commandscript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcd/a23106.html">npc_underbat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd2/a23110.html">spell_fungal_decay</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8e/a23114.html">spell_allergies</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aba9ed07daed7ae7df6becb96f5194f52"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d96/a00782.html#aba9ed07daed7ae7df6becb96f5194f52">UnderbatSpells</a> { <a class="el" href="../../da/d96/a00782.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a">SPELL_TENTACLE_LASH</a> = 34171
+ }</td></tr>
+<tr class="separator:aba9ed07daed7ae7df6becb96f5194f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597f861031d65ff9c7c3da68293f6847"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d96/a00782.html#a597f861031d65ff9c7c3da68293f6847">AllergiesEnum</a> { <a class="el" href="../../da/d96/a00782.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3">SPELL_SNEEZE</a> = 31428
+ }</td></tr>
+<tr class="separator:a597f861031d65ff9c7c3da68293f6847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b374923a29bdbff68b6e78d2ef4a3e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d96/a00782.html#a7b374923a29bdbff68b6e78d2ef4a3e0">AddSC_cast_commandscript</a> ()</td></tr>
-<tr class="separator:a7b374923a29bdbff68b6e78d2ef4a3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9725cac978bfa0eb0405faa6588549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d96/a00782.html#a8c9725cac978bfa0eb0405faa6588549">AddSC_underbog</a> ()</td></tr>
+<tr class="separator:a8c9725cac978bfa0eb0405faa6588549"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a7b374923a29bdbff68b6e78d2ef4a3e0" name="a7b374923a29bdbff68b6e78d2ef4a3e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b374923a29bdbff68b6e78d2ef4a3e0">&#9670;&#160;</a></span>AddSC_cast_commandscript()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a597f861031d65ff9c7c3da68293f6847" name="a597f861031d65ff9c7c3da68293f6847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597f861031d65ff9c7c3da68293f6847">&#9670;&#160;</a></span>AllergiesEnum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_cast_commandscript </td>
+          <td class="memname">enum <a class="el" href="../../da/d96/a00782.html#a597f861031d65ff9c7c3da68293f6847">AllergiesEnum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3" name="a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3"></a>SPELL_SNEEZE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../da/d96/a00782.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3">SPELL_SNEEZE</a>    = 31428</div>
+<div class="line"><span class="lineno">   93</span>};</div>
+<div class="ttc" id="aa00782_html_a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3"><div class="ttname"><a href="../../da/d96/a00782.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3">SPELL_SNEEZE</a></div><div class="ttdeci">@ SPELL_SNEEZE</div><div class="ttdef"><b>Definition:</b> underbog.cpp:92</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aba9ed07daed7ae7df6becb96f5194f52" name="aba9ed07daed7ae7df6becb96f5194f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9ed07daed7ae7df6becb96f5194f52">&#9670;&#160;</a></span>UnderbatSpells</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/d96/a00782.html#aba9ed07daed7ae7df6becb96f5194f52">UnderbatSpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a" name="aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a"></a>SPELL_TENTACLE_LASH&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../da/d96/a00782.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a">SPELL_TENTACLE_LASH</a> = 34171</div>
+<div class="line"><span class="lineno">   28</span>};</div>
+<div class="ttc" id="aa00782_html_aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a"><div class="ttname"><a href="../../da/d96/a00782.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a">SPELL_TENTACLE_LASH</a></div><div class="ttdeci">@ SPELL_TENTACLE_LASH</div><div class="ttdef"><b>Definition:</b> underbog.cpp:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8c9725cac978bfa0eb0405faa6588549" name="a8c9725cac978bfa0eb0405faa6588549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9725cac978bfa0eb0405faa6588549">&#9670;&#160;</a></span>AddSC_underbog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_underbog </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  251</span>{</div>
-<div class="line"><span class="lineno">  252</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/dab/a11290.html">cast_commandscript</a>();</div>
-<div class="line"><span class="lineno">  253</span>}</div>
-<div class="ttc" id="aa11290_html"><div class="ttname"><a href="../../de/dab/a11290.html">cast_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_cast.cpp:36</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  121</span>{</div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_define" href="../../d4/d45/a00791.html#afcd42fc90cff2a3292b19b2ea80bdd38">RegisterUnderbogCreatureAI</a>(<a class="code hl_struct" href="../../d9/dcd/a23106.html">npc_underbat</a>);</div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_define" href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/dd2/a23110.html">spell_fungal_decay</a>);</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_define" href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d8e/a23114.html">spell_allergies</a>);</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="ttc" id="aa00791_html_afcd42fc90cff2a3292b19b2ea80bdd38"><div class="ttname"><a href="../../d4/d45/a00791.html#afcd42fc90cff2a3292b19b2ea80bdd38">RegisterUnderbogCreatureAI</a></div><div class="ttdeci">#define RegisterUnderbogCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> the_underbog.h:48</div></div>
+<div class="ttc" id="aa04388_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d6/d5c/a04388.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
+<div class="ttc" id="aa23106_html"><div class="ttname"><a href="../../d9/dcd/a23106.html">npc_underbat</a></div><div class="ttdef"><b>Definition:</b> underbog.cpp:31</div></div>
+<div class="ttc" id="aa23110_html"><div class="ttname"><a href="../../db/dd2/a23110.html">spell_fungal_decay</a></div><div class="ttdef"><b>Definition:</b> underbog.cpp:70</div></div>
+<div class="ttc" id="aa23114_html"><div class="ttname"><a href="../../d7/d8e/a23114.html">spell_allergies</a></div><div class="ttdef"><b>Definition:</b> underbog.cpp:96</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>, and <a class="el" href="../../#l00048">RegisterUnderbogCreatureAI</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
 
 </div>
 </div>
@@ -159,8 +223,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../da/d96/a00782.html">cs_cast.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_22de0d38c781b430619603c756a2179f.html">CoilfangReservoir</a></li><li class="navelem"><a class="el" href="../../dir_0357f93aab1892c02aa89cc280efb408.html">underbog</a></li><li class="navelem"><a class="el" href="../../da/d96/a00782.html">underbog.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

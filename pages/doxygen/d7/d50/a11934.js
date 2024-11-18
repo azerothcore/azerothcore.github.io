@@ -1,6 +1,6 @@
 var a11934 =
 [
-    [ "boss_flamegorAI", "d7/d50/a11934.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
-    [ "JustEngagedWith", "d7/d50/a11934.html#a6005dca71e2f20ee599e053e531377d6", null ],
-    [ "UpdateAI", "d7/d50/a11934.html#a2e5146815e533cf62e0084a54aa222d5", null ]
+    [ "boss_ebonrocAI", "da/d2b/a11938.html", "da/d2b/a11938" ],
+    [ "boss_ebonroc", "d7/d50/a11934.html#a3f71b5a687ab10a228e560429b8a4709", null ],
+    [ "GetAI", "d7/d50/a11934.html#acf2dc7391e1f642dff3c7f56024aaea5", null ]
 ];

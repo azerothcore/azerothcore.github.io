@@ -1,6 +1,6 @@
 var a26154 =
 [
-    [ "HandleScript", "de/dca/a26154.html#acde0ae837d0cd3af0f38481027200291", null ],
-    [ "PrepareSpellScript", "de/dca/a26154.html#ac1237e0af7f88f75ebc551af52fc301c", null ],
-    [ "Register", "de/dca/a26154.html#a2dc2628984358628afe7d9b62ced7794", null ]
+    [ "HandleEffectPeriodic", "de/dca/a26154.html#a29eb3f3dadd45ccab069222fc36cea09", null ],
+    [ "PrepareAuraScript", "de/dca/a26154.html#aaa8296439ffe69eafdd1cece8ec346ad", null ],
+    [ "Register", "de/dca/a26154.html#a0a62a0bcf39a781289e1467384ac82cb", null ]
 ];

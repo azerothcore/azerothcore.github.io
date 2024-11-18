@@ -1,6 +1,6 @@
 var a13238 =
 [
-    [ "npc_grand_magister_rommathAI", "d7/d06/a13242.html", "d7/d06/a13242" ],
-    [ "npc_grand_magister_rommath", "d8/d3b/a13238.html#a63b9786bfbd9c7b462b0549e2f6941ea", null ],
-    [ "GetAI", "d8/d3b/a13238.html#abd64eff4712e8209e39e938b1813250c", null ]
+    [ "npc_rinjiAI", "d7/d06/a13242.html", "d7/d06/a13242" ],
+    [ "npc_rinji", "d8/d3b/a13238.html#af89b9c77b1a57dc506de0398a0d4b957", null ],
+    [ "GetAI", "d8/d3b/a13238.html#a5457ac00ce0b195752640358b912af10", null ]
 ];

@@ -1,14 +1,6 @@
 var a19818 =
 [
-    [ "npc_ulduar_hodir_priestAI", "db/dd2/a19818.html#aaa57c813d15ebf0c08a43e4530e5acdd", null ],
-    [ "AttackStart", "db/dd2/a19818.html#a54058aacbf9e49f42f4f84779e0ec8ea", null ],
-    [ "CanAIAttack", "db/dd2/a19818.html#a769a825c8e33bce3a130dbec53072aa4", null ],
-    [ "EnterEvadeMode", "db/dd2/a19818.html#a2d92c0e03de238de439ccb3a10819cd1", null ],
-    [ "JustDied", "db/dd2/a19818.html#a23a3783dc151bb7f1c5c4183b22578b0", null ],
-    [ "MoveInLineOfSight", "db/dd2/a19818.html#aaa3764a042473d20526758553b968a39", null ],
-    [ "ScheduleAbilities", "db/dd2/a19818.html#aab32336d42900a275613a227ccba18a7", null ],
-    [ "SpellHit", "db/dd2/a19818.html#af6afbd5b0560fc4665ecb0d00010ecbc", null ],
-    [ "UpdateAI", "db/dd2/a19818.html#af2b162485414ea0cdda3b19d15c2686f", null ],
-    [ "events", "db/dd2/a19818.html#afdc842e08125223760d1eac105aef65b", null ],
-    [ "pInstance", "db/dd2/a19818.html#a9630107a0a8f128c6b62493163a9e246", null ]
+    [ "npc_ulduar_toasty_fireAI", "d9/db3/a19822.html", "d9/db3/a19822" ],
+    [ "npc_ulduar_toasty_fire", "db/dd2/a19818.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
+    [ "GetAI", "db/dd2/a19818.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
 ];

@@ -1,6 +1,7 @@
 var a21626 =
 [
-    [ "HandleOnEffectRemove", "d3/d13/a21626.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
-    [ "PrepareAuraScript", "d3/d13/a21626.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
-    [ "Register", "d3/d13/a21626.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
+    [ "HandleDummy", "d3/d13/a21626.html#abb5726c8afa66a946eefc8767094ea9b", null ],
+    [ "PrepareSpellScript", "d3/d13/a21626.html#ab5d9f8125c75bbd8fbb2717516d3eddd", null ],
+    [ "Register", "d3/d13/a21626.html#a38efc59fcbb40469521419723a1dceb3", null ],
+    [ "Validate", "d3/d13/a21626.html#a93cf1b5dbc23bb25c4fe8aa24da0fd2e", null ]
 ];

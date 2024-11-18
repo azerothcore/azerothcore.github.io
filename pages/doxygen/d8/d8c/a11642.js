@@ -1,7 +1,6 @@
 var a11642 =
 [
-    [ "boss_moira_bronzebeardAI", "d8/d8c/a11642.html#a11265b6aad76574c2c76253128c79165", null ],
-    [ "CastOnEmperorIfPossible", "d8/d8c/a11642.html#a3f42c37e9f4cc14974106bf67ee4e583", null ],
-    [ "JustEngagedWith", "d8/d8c/a11642.html#a40ae00eb86e2bec048a9394d4deef106", null ],
-    [ "UpdateAI", "d8/d8c/a11642.html#ae3f22a059330fb564cd30e581fc0198d", null ]
+    [ "boss_hedrumAI", "d8/d8c/a11642.html#a95e4af51a8e24fa7b36b924c6cdfb86c", null ],
+    [ "JustEngagedWith", "d8/d8c/a11642.html#a1cf03b06598f2b36814062d47a73ed82", null ],
+    [ "UpdateAI", "d8/d8c/a11642.html#aa515ed081aaabdad751c1bbba56d3d96", null ]
 ];

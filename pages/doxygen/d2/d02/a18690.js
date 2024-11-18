@@ -1,16 +1,16 @@
 var a18690 =
 [
-    [ "boss_maexxnaAI", "d2/d02/a18690.html#a3bf898911798eaa891ef7638a3a2cc20", null ],
-    [ "DoCastWebWrap", "d2/d02/a18690.html#a5d78455f5ba6e30df6644897b4e6ad7e", null ],
-    [ "IsInRoom", "d2/d02/a18690.html#a957bd38232c020611fc24dd8a6e55640", null ],
-    [ "JustDied", "d2/d02/a18690.html#a4f0121aedeff9d44b28e888f5f3d0382", null ],
-    [ "JustEngagedWith", "d2/d02/a18690.html#a9974fc771b3663878964aeb20914fe43", null ],
-    [ "JustSummoned", "d2/d02/a18690.html#ab45b74b3067b42089fee804844ea41dd", null ],
-    [ "KilledUnit", "d2/d02/a18690.html#a11cda2b905ef2381c317a01e4163be00", null ],
-    [ "Reset", "d2/d02/a18690.html#a78385da6845ce8e3075616c24696d0cc", null ],
-    [ "UpdateAI", "d2/d02/a18690.html#a6f0453babfa84764467970369894eb97", null ],
-    [ "events", "d2/d02/a18690.html#a6ddb73eeb18560a08e72dd6ccc5d0c83", null ],
-    [ "pInstance", "d2/d02/a18690.html#adeda3cc5a174e3d940621e3024a1043f", null ],
-    [ "summons", "d2/d02/a18690.html#a7ea3de40dfd638db7e34c523a0461335", null ],
-    [ "wraps", "d2/d02/a18690.html#a3bfe3ab90ff6f401c3f7b8655e3abc05", null ]
+    [ "boss_loathebAI", "d2/d02/a18690.html#a60256114947b0e9c01f5308108485935", null ],
+    [ "IsInRoom", "d2/d02/a18690.html#a617d45ab3bde4184aa31c1b2c70c1a6f", null ],
+    [ "JustDied", "d2/d02/a18690.html#acf24e563d4876fb9f899a4250b19b6f5", null ],
+    [ "JustEngagedWith", "d2/d02/a18690.html#a1abcf157e05eeb634f8e857a2de35538", null ],
+    [ "JustSummoned", "d2/d02/a18690.html#a8a28f9fe6c087c230103d1139ddb73dc", null ],
+    [ "KilledUnit", "d2/d02/a18690.html#a4dac78bba24069050dd9df729dd58b45", null ],
+    [ "Reset", "d2/d02/a18690.html#a709a4c2fe45fd757ecae6afa402e4728", null ],
+    [ "SummonedCreatureDies", "d2/d02/a18690.html#aeddc6bd981a13ec133e5481b36668b0e", null ],
+    [ "UpdateAI", "d2/d02/a18690.html#ab009008f892493b822e5ea5491c58525", null ],
+    [ "doomCounter", "d2/d02/a18690.html#aed5c631ede2eea27451a74ae21221325", null ],
+    [ "events", "d2/d02/a18690.html#adc49463bbe227f892e31716516032c64", null ],
+    [ "pInstance", "d2/d02/a18690.html#ac91a2f174571d0700bd50f66a2a66718", null ],
+    [ "summons", "d2/d02/a18690.html#a37ef117714403002afb4faa4978f136b", null ]
 ];

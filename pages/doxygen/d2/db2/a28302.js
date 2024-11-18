@@ -1,24 +1,10 @@
 var a28302 =
 [
-    [ "TerrainBuilder", "d2/db2/a28302.html#aa902f249e17be94980cc0b06da42d47e", null ],
-    [ "~TerrainBuilder", "d2/db2/a28302.html#a731cd606fd85b176b116512a2ccf86ee", null ],
-    [ "TerrainBuilder", "d2/db2/a28302.html#a8f23adef45880c3cd771ce9d29054bd8", null ],
-    [ "cleanVertices", "d2/db2/a28302.html#a7a3f53367758b6effcc7899894c148de", null ],
-    [ "copyIndices", "d2/db2/a28302.html#a5f4139193ad3708e234414131aa3be55", null ],
-    [ "copyIndices", "d2/db2/a28302.html#a8d5bfc11e790aae74d7b81fb7db27061", null ],
-    [ "copyVertices", "d2/db2/a28302.html#a26207130b8e5807986b36ea148e84457", null ],
-    [ "getHeightCoord", "d2/db2/a28302.html#aecdd8a0ae2dab523925111197afe8835", null ],
-    [ "getHeightTriangle", "d2/db2/a28302.html#ab15913dd11a60078205a9fc76ce99203", null ],
-    [ "getLiquidCoord", "d2/db2/a28302.html#ae29c5c0538049382e6b75d0393a7714f", null ],
-    [ "getLiquidType", "d2/db2/a28302.html#a2d7e5ef7722ce2f78fda293af4e2d08d", null ],
-    [ "getLoopVars", "d2/db2/a28302.html#af47da985fc495b4a5fd8b32774e36b82", null ],
-    [ "isHole", "d2/db2/a28302.html#a219be095026945890d4f76163903ea2c", null ],
-    [ "loadHeightMap", "d2/db2/a28302.html#a5ddd947c48dae0acf29c952eca5ebe56", null ],
-    [ "loadMap", "d2/db2/a28302.html#ab6f3b100ee1a40173c2e77c6ee5a0da9", null ],
-    [ "loadMap", "d2/db2/a28302.html#a4071ed1464f7beb4d8567def275139e4", null ],
-    [ "loadOffMeshConnections", "d2/db2/a28302.html#a8df6feed791e1b6ca3ab46e6001c0f32", null ],
-    [ "loadVMap", "d2/db2/a28302.html#ae816d445265bde3c3866069bcd9e5184", null ],
-    [ "transform", "d2/db2/a28302.html#a6c25e949e12eba48d7e250ba99ce6e85", null ],
-    [ "usesLiquids", "d2/db2/a28302.html#ab869d655ea5cb7f9d32dff63ed4df779", null ],
-    [ "m_skipLiquid", "d2/db2/a28302.html#aa4feec2075cdb31e940f2cf3dc0d136a", null ]
+    [ "Tile", "d2/db2/a28302.html#aa68e7829d0a4109a5fca036afe725756", null ],
+    [ "~Tile", "d2/db2/a28302.html#aa5be25df0d267368c90c8f790b218f7a", null ],
+    [ "chf", "d2/db2/a28302.html#a9cd4f4be0393e1b40d1ea83dad189a35", null ],
+    [ "cset", "d2/db2/a28302.html#a8263aa243c049daa70ed537f206c6a15", null ],
+    [ "dmesh", "d2/db2/a28302.html#a23efb981de3dbc2ecdbe4dafdbaa8f58", null ],
+    [ "pmesh", "d2/db2/a28302.html#a00dde7c2b62890f4d78697e669f2a810", null ],
+    [ "solid", "d2/db2/a28302.html#a6c263578a352c75a21570a26439d6156", null ]
 ];

@@ -1,13 +1,7 @@
 var a20914 =
 [
-    [ "boss_toravonAI", "d4/dd5/a20914.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
-    [ "AttackStart", "d4/dd5/a20914.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
-    [ "JustDied", "d4/dd5/a20914.html#ad501bb34a0014be0abc965aae5383e21", null ],
-    [ "JustEngagedWith", "d4/dd5/a20914.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
-    [ "JustSummoned", "d4/dd5/a20914.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
-    [ "Reset", "d4/dd5/a20914.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
-    [ "UpdateAI", "d4/dd5/a20914.html#a97c16b1689cfdb7fa680381964cb272a", null ],
-    [ "events", "d4/dd5/a20914.html#ae2a3b691f1580275228204ea8ccaf846", null ],
-    [ "pInstance", "d4/dd5/a20914.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
-    [ "summons", "d4/dd5/a20914.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
+    [ "PrepareAuraScript", "d4/dd5/a20914.html#a2b5894cd889205f19ac2c6ea5a535a82", null ],
+    [ "Register", "d4/dd5/a20914.html#a95b0bcb7f3027cb63711c74befbd74ea", null ],
+    [ "TriggerFists", "d4/dd5/a20914.html#a2df5a013ba1b3c5b57d628fd59a9073a", null ],
+    [ "Validate", "d4/dd5/a20914.html#a2b7c45343d17839d85bf64ed36afd45c", null ]
 ];

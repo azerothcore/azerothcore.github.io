@@ -1,6 +1,7 @@
 var a19610 =
 [
-    [ "PrepareSpellScript", "df/dd7/a19610.html#a7eeb4e2b9c3bb6e7d02d6a5acf8e1d52", null ],
-    [ "RecalculateDamage", "df/dd7/a19610.html#a094a21cf3cf109e704d3e334ad7dbad1", null ],
-    [ "Register", "df/dd7/a19610.html#af2b5382122be41a6b1ee4ab721b417da", null ]
+    [ "HandleScript", "df/dd7/a19610.html#a9580f04e1543262026818f0944bb96c3", null ],
+    [ "PrepareSpellScript", "df/dd7/a19610.html#a924ae640d448da777ce3ecb059c1c9b6", null ],
+    [ "Register", "df/dd7/a19610.html#ac05e58e9b5618b1f079bd1c4924a0f9f", null ],
+    [ "Validate", "df/dd7/a19610.html#a8fc8712a76939dea6831a9eb5b95f946", null ]
 ];

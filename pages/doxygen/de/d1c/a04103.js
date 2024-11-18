@@ -1,7 +1,6 @@
 var a04103 =
 [
-    [ "MMapTargetData", "db/df9/a08518.html", "db/df9/a08518" ],
-    [ "SafeUnitPointer", "d0/d32/a08522.html", "d0/d32/a08522" ],
-    [ "BuildValuesCachePosPointers", "d6/d15/a08526.html", "d6/d15/a08526" ],
-    [ "BuildValuesCachedBuffer", "de/d71/a08530.html", "de/d71/a08530" ]
+    [ "WorldPackets::Packet", "d2/d10/a10170.html", "d2/d10/a10170" ],
+    [ "WorldPackets::ServerPacket", "d1/d32/a10174.html", "d1/d32/a10174" ],
+    [ "WorldPackets::ClientPacket", "d0/d6f/a10178.html", "d0/d6f/a10178" ]
 ];

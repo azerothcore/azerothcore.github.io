@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/shared/Packets/ByteBuffer.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/ServerScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,26 +104,90 @@ $(document).ready(function(){initNavTree('d5/d47/a04490.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">ByteBuffer.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">ServerScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MessageBuffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
-<code>#include &lt;ctime&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;utf8.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a10102.html">ServerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af8cee964a488266c6dec6c3b76b1a2d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9">ServerHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3">SERVERHOOK_ON_NETWORK_START</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4">SERVERHOOK_ON_NETWORK_STOP</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd">SERVERHOOK_ON_SOCKET_OPEN</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d">SERVERHOOK_ON_SOCKET_CLOSE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12">SERVERHOOK_CAN_PACKET_SEND</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971">SERVERHOOK_CAN_PACKET_RECEIVE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc">SERVERHOOK_END</a>
+<br />
+ }</td></tr>
+<tr class="separator:af8cee964a488266c6dec6c3b76b1a2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="af8cee964a488266c6dec6c3b76b1a2d9" name="af8cee964a488266c6dec6c3b76b1a2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8cee964a488266c6dec6c3b76b1a2d9">&#9670;&#160;</a></span>ServerHook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9">ServerHook</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3" name="af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3"></a>SERVERHOOK_ON_NETWORK_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4" name="af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4"></a>SERVERHOOK_ON_NETWORK_STOP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd" name="af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd"></a>SERVERHOOK_ON_SOCKET_OPEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d" name="af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d"></a>SERVERHOOK_ON_SOCKET_CLOSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12" name="af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12"></a>SERVERHOOK_CAN_PACKET_SEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971" name="af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971"></a>SERVERHOOK_CAN_PACKET_RECEIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc" name="af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc"></a>SERVERHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3">SERVERHOOK_ON_NETWORK_START</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4">SERVERHOOK_ON_NETWORK_STOP</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd">SERVERHOOK_ON_SOCKET_OPEN</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d">SERVERHOOK_ON_SOCKET_CLOSE</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12">SERVERHOOK_CAN_PACKET_SEND</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971">SERVERHOOK_CAN_PACKET_RECEIVE</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc">SERVERHOOK_END</a></div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a750717da9270f21f519c8d5a05d7a3b4">SERVERHOOK_ON_NETWORK_STOP</a></div><div class="ttdeci">@ SERVERHOOK_ON_NETWORK_STOP</div><div class="ttdef"><b>Definition:</b> ServerScript.h:28</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a7efd4b6dcfe8fd03b250b045c1dcaf12">SERVERHOOK_CAN_PACKET_SEND</a></div><div class="ttdeci">@ SERVERHOOK_CAN_PACKET_SEND</div><div class="ttdef"><b>Definition:</b> ServerScript.h:31</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9a9292463242a21cee981d7f24a964e6dc">SERVERHOOK_END</a></div><div class="ttdeci">@ SERVERHOOK_END</div><div class="ttdef"><b>Definition:</b> ServerScript.h:33</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9aa644f9d52a55cf9cf2a11293c30d53e3">SERVERHOOK_ON_NETWORK_START</a></div><div class="ttdeci">@ SERVERHOOK_ON_NETWORK_START</div><div class="ttdef"><b>Definition:</b> ServerScript.h:27</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ace5af0b477d230f9aa1e51c82789dc8d">SERVERHOOK_ON_SOCKET_CLOSE</a></div><div class="ttdeci">@ SERVERHOOK_ON_SOCKET_CLOSE</div><div class="ttdef"><b>Definition:</b> ServerScript.h:30</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9ad4bcaa584ee5ee3556aabfe396d2e971">SERVERHOOK_CAN_PACKET_RECEIVE</a></div><div class="ttdeci">@ SERVERHOOK_CAN_PACKET_RECEIVE</div><div class="ttdef"><b>Definition:</b> ServerScript.h:32</div></div>
+<div class="ttc" id="aa04490_html_af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd"><div class="ttname"><a href="../../d5/d47/a04490.html#af8cee964a488266c6dec6c3b76b1a2d9af5241aced10e2c6c6077ac764206c6bd">SERVERHOOK_ON_SOCKET_OPEN</a></div><div class="ttdeci">@ SERVERHOOK_ON_SOCKET_OPEN</div><div class="ttdef"><b>Definition:</b> ServerScript.h:29</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_4642c4e7e8a34de1a75cadff13450cb9.html">Packets</a></li><li class="navelem"><a class="el" href="../../d5/d47/a04490.html">ByteBuffer.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:39:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d5/d47/a04490.html">ServerScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

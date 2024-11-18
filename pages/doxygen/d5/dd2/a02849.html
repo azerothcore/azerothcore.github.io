@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Instances/InstanceSaveMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Globals/ObjectAccessor.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,35 +104,96 @@ $(document).ready(function(){initNavTree('d5/dd2/a02849.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">InstanceSaveMgr.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">ObjectAccessor.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceSaveMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapInstanced.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<code>#include &lt;shared_mutex&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd9/a08606.html">HashMapHolder&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d9/d06/a04735"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html">ObjectAccessor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ade254f98439319c444ce701c75d4f93a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:ade254f98439319c444ce701c75d4f93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfd3fb4a5f43a4159bbd0b176186e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d2d/a08142.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a0bfd3fb4a5f43a4159bbd0b176186e19">ObjectAccessor::GetObjectByTypeMask</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> typemask)</td></tr>
+<tr class="separator:a0bfd3fb4a5f43a4159bbd0b176186e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9031db6958a68a6fda60e3c0f37d639f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d73/a07766.html">Corpse</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a9031db6958a68a6fda60e3c0f37d639f">ObjectAccessor::GetCorpse</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;u, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a9031db6958a68a6fda60e3c0f37d639f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424a63829a446dac6f97a464cc64ed48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/db3/a07946.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;u, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a424a63829a446dac6f97a464cc64ed48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddde0dc109d262af644c232a315afd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d29/a08426.html">Transport</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a2ddde0dc109d262af644c232a315afd7">ObjectAccessor::GetTransport</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;u, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a2ddde0dc109d262af644c232a315afd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76097a1f20df3f0e83516b1175a17397"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d92/a07918.html">DynamicObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a76097a1f20df3f0e83516b1175a17397">ObjectAccessor::GetDynamicObject</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;u, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a76097a1f20df3f0e83516b1175a17397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c2dfb59db7d7e2501dcc9a4f9baf07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df9/a08518.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a02c2dfb59db7d7e2501dcc9a4f9baf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42e503fe79bbeaea1aaa665418c43f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d66/a07770.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;u, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:ae42e503fe79bbeaea1aaa665418c43f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e4ca902836751980d6157a3eed7967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d0b/a08254.html">Pet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a76e4ca902836751980d6157a3eed7967">ObjectAccessor::GetPet</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a76e4ca902836751980d6157a3eed7967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3657e7ad09335b9a9ffa50473aa216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a> (<a class="el" href="../../d7/dc0/a09538.html">Map</a> const *, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:aeb3657e7ad09335b9a9ffa50473aa216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9179a3b50b384405892a8e8e538617b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a9179a3b50b384405892a8e8e538617b4">ObjectAccessor::GetPlayer</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a9179a3b50b384405892a8e8e538617b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7c8995443541417f52b00973dbde6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d66/a07770.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#abe7c8995443541417f52b00973dbde6f">ObjectAccessor::GetCreatureOrPetOrVehicle</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const &amp;, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const)</td></tr>
+<tr class="separator:abe7c8995443541417f52b00973dbde6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ede56180a13f102ad195136eadb97ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a9ede56180a13f102ad195136eadb97ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c85352229fc2c097d9e021b4ce297"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a106c85352229fc2c097d9e021b4ce297">ObjectAccessor::FindPlayerByLowGUID</a> (<a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> lowguid)</td></tr>
+<tr class="separator:a106c85352229fc2c097d9e021b4ce297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const guid)</td></tr>
+<tr class="separator:a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5cb6806842c9689cf1d5f43ffdc4b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a> (std::string const &amp;name, bool checkInWorld=true)</td></tr>
+<tr class="separator:af5cb6806842c9689cf1d5f43ffdc4b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cebdea9476a004a8a1bd57c40d1f3ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d66/a07770.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a4cebdea9476a004a8a1bd57c40d1f3ae">ObjectAccessor::GetSpawnedCreatureByDBGUID</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> guid)</td></tr>
+<tr class="memdesc:a4cebdea9476a004a8a1bd57c40d1f3ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a spawned creature by DB <code>guid</code> column. MODULE USAGE ONLY - USE IT FOR CUSTOM CONTENT.  <a href="../../d9/d06/a04735.html#a4cebdea9476a004a8a1bd57c40d1f3ae">More...</a><br /></td></tr>
+<tr class="separator:a4cebdea9476a004a8a1bd57c40d1f3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6639665d2704cbd06727004567caac15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/db3/a07946.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a6639665d2704cbd06727004567caac15">ObjectAccessor::GetSpawnedGameObjectByDBGUID</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> guid)</td></tr>
+<tr class="memdesc:a6639665d2704cbd06727004567caac15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a spawned gameobject by DB <code>guid</code> column. MODULE USAGE ONLY - USE IT FOR CUSTOM CONTENT.  <a href="../../d9/d06/a04735.html#a6639665d2704cbd06727004567caac15">More...</a><br /></td></tr>
+<tr class="separator:a6639665d2704cbd06727004567caac15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a868ecab21b3e6e3ac68beed32f4ea793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dd9/a08606.html">HashMapHolder</a>&lt; <a class="el" href="../../d0/dc6/a08386.html">Player</a> &gt;::MapType const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a868ecab21b3e6e3ac68beed32f4ea793">ObjectAccessor::GetPlayers</a> ()</td></tr>
+<tr class="separator:a868ecab21b3e6e3ac68beed32f4ea793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3be0f1bc71493623f991ad879c8be4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2f3be0f1bc71493623f991ad879c8be4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a2f3be0f1bc71493623f991ad879c8be4">ObjectAccessor::AddObject</a> (T *object)</td></tr>
+<tr class="separator:a2f3be0f1bc71493623f991ad879c8be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad72db398e2ff25a82a93e89fb67c56ff"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ad72db398e2ff25a82a93e89fb67c56ff"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#ad72db398e2ff25a82a93e89fb67c56ff">ObjectAccessor::RemoveObject</a> (T *object)</td></tr>
+<tr class="separator:ad72db398e2ff25a82a93e89fb67c56ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fba0222d2e46026727c6e898a7f35bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a0fba0222d2e46026727c6e898a7f35bc">ObjectAccessor::SaveAllPlayers</a> ()</td></tr>
+<tr class="separator:a0fba0222d2e46026727c6e898a7f35bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0726eba7e71a7c6d4f6f90b4dfb410f8"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a0726eba7e71a7c6d4f6f90b4dfb410f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a0726eba7e71a7c6d4f6f90b4dfb410f8">ObjectAccessor::AddObject</a> (<a class="el" href="../../d0/dc6/a08386.html">Player</a> *player)</td></tr>
+<tr class="separator:a0726eba7e71a7c6d4f6f90b4dfb410f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f4538cfa587672688705f6f7a60edc"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a43f4538cfa587672688705f6f7a60edc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a43f4538cfa587672688705f6f7a60edc">ObjectAccessor::RemoveObject</a> (<a class="el" href="../../d0/dc6/a08386.html">Player</a> *player)</td></tr>
+<tr class="separator:a43f4538cfa587672688705f6f7a60edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a088e6967b9972662d788beffba14d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d06/a04735.html#a8a088e6967b9972662d788beffba14d4">ObjectAccessor::UpdatePlayerNameMapReference</a> (std::string oldname, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *player)</td></tr>
+<tr class="separator:a8a088e6967b9972662d788beffba14d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_30c9e1c4d37d57a0d16649fdbaa5324a.html">Instances</a></li><li class="navelem"><a class="el" href="../../d5/dd2/a02849.html">InstanceSaveMgr.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a12bdf17fc4860c5ac78d8e274fbb711.html">Globals</a></li><li class="navelem"><a class="el" href="../../d5/dd2/a02849.html">ObjectAccessor.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Movement::Location Struct Reference</title>
+<title>AzerothCore: Movement::PacketBuilder Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,41 +105,33 @@ $(document).ready(function(){initNavTree('d2/d64/a09774.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="../../d8/d88/a09771.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Movement::Location Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Movement::PacketBuilder Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for Movement::Location:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d2/d64/a09774.png" alt=""/>
- </div></div>
+<p><code>#include &quot;<a class="el" href="../../">MovementPacketBuilder.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a0c601d413eeb398eb75d386c264ef5ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a0c601d413eeb398eb75d386c264ef5ab">Location</a> ()=default</td></tr>
-<tr class="separator:a0c601d413eeb398eb75d386c264ef5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae013ab2bf44bb250644573625bf93265"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#ae013ab2bf44bb250644573625bf93265">Location</a> (float x, float y, float z, float o)</td></tr>
-<tr class="separator:ae013ab2bf44bb250644573625bf93265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d50c28ba40b409a0c5a9776bfe8ef42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a0d50c28ba40b409a0c5a9776bfe8ef42">Location</a> (const Vector3 &amp;v)</td></tr>
-<tr class="separator:a0d50c28ba40b409a0c5a9776bfe8ef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1270aec177f47a607cb5a1472819c738"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a1270aec177f47a607cb5a1472819c738">Location</a> (const Vector3 &amp;v, float o)</td></tr>
-<tr class="separator:a1270aec177f47a607cb5a1472819c738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4c4294e3fed32aca35078dd4975b057d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a4c4294e3fed32aca35078dd4975b057d">WriteMonsterMove</a> (const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;mov, <a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;data)</td></tr>
+<tr class="separator:a4c4294e3fed32aca35078dd4975b057d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b960c1141ab9b4dca932e0eddaee204"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a1b960c1141ab9b4dca932e0eddaee204">WriteStopMovement</a> (Vector3 const &amp;loc, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> splineId, <a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;data)</td></tr>
+<tr class="separator:a1b960c1141ab9b4dca932e0eddaee204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5682d7012cca35bd8643b01ce558eb5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#ae5682d7012cca35bd8643b01ce558eb5">WriteCreate</a> (const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;mov, <a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;data)</td></tr>
+<tr class="separator:ae5682d7012cca35bd8643b01ce558eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a9fc2637d4441d90c528eaef0f0414b98"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a> {0}</td></tr>
-<tr class="separator:a9fc2637d4441d90c528eaef0f0414b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a5dcdbeb513f6da51b0af20d9acd2ac58"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d64/a09774.html#a5dcdbeb513f6da51b0af20d9acd2ac58">WriteCommonMonsterMovePart</a> (const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;mov, <a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;data)</td></tr>
+<tr class="separator:a5dcdbeb513f6da51b0af20d9acd2ac58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0c601d413eeb398eb75d386c264ef5ab" name="a0c601d413eeb398eb75d386c264ef5ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c601d413eeb398eb75d386c264ef5ab">&#9670;&#160;</a></span>Location() <span class="overload">[1/4]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5dcdbeb513f6da51b0af20d9acd2ac58" name="a5dcdbeb513f6da51b0af20d9acd2ac58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dcdbeb513f6da51b0af20d9acd2ac58">&#9670;&#160;</a></span>WriteCommonMonsterMovePart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,53 +140,16 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Movement::Location::Location </td>
+          <td class="memname">void Movement::PacketBuilder::WriteCommonMonsterMovePart </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae013ab2bf44bb250644573625bf93265" name="ae013ab2bf44bb250644573625bf93265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae013ab2bf44bb250644573625bf93265">&#9670;&#160;</a></span>Location() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Movement::Location::Location </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;&#160;</td>
+          <td class="paramname"><em>mov</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>o</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -204,17 +159,77 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   29</span>: Vector3(x, y, z), <a class="code hl_variable" href="../../d2/d64/a09774.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a>(o) {}</div>
-<div class="ttc" id="aa09774_html_a9fc2637d4441d90c528eaef0f0414b98"><div class="ttname"><a href="../../d2/d64/a09774.html#a9fc2637d4441d90c528eaef0f0414b98">Movement::Location::orientation</a></div><div class="ttdeci">float orientation</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:33</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        MoveSplineFlag splineflags = move_spline.splineflags;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(0);                                       <span class="comment">// sets/unsets MOVEMENTFLAG2_UNK7 (0x40)</span></div>
+<div class="line"><span class="lineno">   48</span>        data &lt;&lt; move_spline.spline.getPoint(move_spline.spline.first());</div>
+<div class="line"><span class="lineno">   49</span>        data &lt;&lt; move_spline.GetId();</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">switch</span> (splineflags &amp; <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">MoveSplineFlag::Mask_Final_Facing</a>)</div>
+<div class="line"><span class="lineno">   52</span>        {</div>
+<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">MoveSplineFlag::Final_Target</a>:</div>
+<div class="line"><span class="lineno">   54</span>                data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_enumvalue" href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a61f5156f5db570fd9f5db194179ea7f9">MonsterMoveFacingTarget</a>);</div>
+<div class="line"><span class="lineno">   55</span>                data &lt;&lt; move_spline.facing.target;</div>
+<div class="line"><span class="lineno">   56</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">MoveSplineFlag::Final_Angle</a>:</div>
+<div class="line"><span class="lineno">   58</span>                data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_enumvalue" href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339ac65e2c863bd6cadc1dc72c4720e61642">MonsterMoveFacingAngle</a>);</div>
+<div class="line"><span class="lineno">   59</span>                data &lt;&lt; move_spline.facing.angle;</div>
+<div class="line"><span class="lineno">   60</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">MoveSplineFlag::Final_Point</a>:</div>
+<div class="line"><span class="lineno">   62</span>                data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_enumvalue" href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a395aabd5641c37343d08506cfc4e4323">MonsterMoveFacingSpot</a>);</div>
+<div class="line"><span class="lineno">   63</span>                data &lt;&lt; move_spline.facing.f.x &lt;&lt; move_spline.facing.f.y &lt;&lt; move_spline.facing.f.z;</div>
+<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   66</span>                data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_enumvalue" href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339aba693dab24bf78b0173914ecf339c558">MonsterMoveNormal</a>);</div>
+<div class="line"><span class="lineno">   67</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   68</span>        }</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        <span class="comment">// add fake Enter_Cycle flag - needed for client-side cyclic movement (client will erase first spline vertex after first cycle done)</span></div>
+<div class="line"><span class="lineno">   71</span>        <span class="comment">// Xinef: this flag breaks cycle for ground movement, client teleports npc between last and first point instead of using smooth movement</span></div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (splineflags &amp; <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">MoveSplineFlag::Flying</a>)</div>
+<div class="line"><span class="lineno">   73</span>            splineflags.enter_cycle = move_spline.isCyclic();</div>
+<div class="line"><span class="lineno">   74</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(splineflags &amp; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(~<a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f">MoveSplineFlag::Mask_No_Monster_Move</a>));</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">if</span> (splineflags.animation)</div>
+<div class="line"><span class="lineno">   77</span>        {</div>
+<div class="line"><span class="lineno">   78</span>            data &lt;&lt; splineflags.getAnimationId();</div>
+<div class="line"><span class="lineno">   79</span>            data &lt;&lt; move_spline.effect_start_time;</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        data &lt;&lt; move_spline.Duration();</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">if</span> (splineflags.parabolic)</div>
+<div class="line"><span class="lineno">   85</span>        {</div>
+<div class="line"><span class="lineno">   86</span>            data &lt;&lt; move_spline.vertical_acceleration;</div>
+<div class="line"><span class="lineno">   87</span>            data &lt;&lt; move_spline.effect_start_time;</div>
+<div class="line"><span class="lineno">   88</span>        }</div>
+<div class="line"><span class="lineno">   89</span>    }</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa04733_html_afd3f02560404659d901713e1228d9339a395aabd5641c37343d08506cfc4e4323"><div class="ttname"><a href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a395aabd5641c37343d08506cfc4e4323">Movement::MonsterMoveFacingSpot</a></div><div class="ttdeci">@ MonsterMoveFacingSpot</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:38</div></div>
+<div class="ttc" id="aa04733_html_afd3f02560404659d901713e1228d9339a61f5156f5db570fd9f5db194179ea7f9"><div class="ttname"><a href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a61f5156f5db570fd9f5db194179ea7f9">Movement::MonsterMoveFacingTarget</a></div><div class="ttdeci">@ MonsterMoveFacingTarget</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:39</div></div>
+<div class="ttc" id="aa04733_html_afd3f02560404659d901713e1228d9339aba693dab24bf78b0173914ecf339c558"><div class="ttname"><a href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339aba693dab24bf78b0173914ecf339c558">Movement::MonsterMoveNormal</a></div><div class="ttdeci">@ MonsterMoveNormal</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:36</div></div>
+<div class="ttc" id="aa04733_html_afd3f02560404659d901713e1228d9339ac65e2c863bd6cadc1dc72c4720e61642"><div class="ttname"><a href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339ac65e2c863bd6cadc1dc72c4720e61642">Movement::MonsterMoveFacingAngle</a></div><div class="ttdeci">@ MonsterMoveFacingAngle</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:40</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">Movement::MoveSplineFlag::Final_Angle</a></div><div class="ttdeci">@ Final_Angle</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:48</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Movement::MoveSplineFlag::Flying</a></div><div class="ttdeci">@ Flying</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:44</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">Movement::MoveSplineFlag::Final_Point</a></div><div class="ttdeci">@ Final_Point</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:46</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f">Movement::MoveSplineFlag::Mask_No_Monster_Move</a></div><div class="ttdeci">@ Mask_No_Monster_Move</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:69</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">Movement::MoveSplineFlag::Final_Target</a></div><div class="ttdeci">@ Final_Target</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:47</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">Movement::MoveSplineFlag::Mask_Final_Facing</a></div><div class="ttdeci">@ Mask_Final_Facing</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:65</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00037">Movement::FacingInfo::angle</a>, <a class="el" href="../../#l00129">Movement::MoveSplineFlag::animation</a>, <a class="el" href="../../#l00085">Movement::MoveSpline::Duration()</a>, <a class="el" href="../../#l00067">Movement::MoveSpline::effect_start_time</a>, <a class="el" href="../../#l00128">Movement::MoveSplineFlag::enter_cycle</a>, <a class="el" href="../../d6/d8e/a09814.html#a582c76e5c93b1256195c1a89bd2a5e41">Movement::FacingInfo::f</a>, <a class="el" href="../../#l00055">Movement::MoveSpline::facing</a>, <a class="el" href="../../#l00048">Movement::MoveSplineFlag::Final_Angle</a>, <a class="el" href="../../#l00046">Movement::MoveSplineFlag::Final_Point</a>, <a class="el" href="../../#l00047">Movement::MoveSplineFlag::Final_Target</a>, <a class="el" href="../../#l00106">Movement::SplineBase::first()</a>, <a class="el" href="../../#l00044">Movement::MoveSplineFlag::Flying</a>, <a class="el" href="../../#l00092">Movement::MoveSplineFlag::getAnimationId()</a>, <a class="el" href="../../#l00115">Movement::MoveSpline::GetId()</a>, <a class="el" href="../../#l00116">Movement::SplineBase::getPoint()</a>, <a class="el" href="../../#l00117">Movement::MoveSpline::isCyclic()</a>, <a class="el" href="../../#l00065">Movement::MoveSplineFlag::Mask_Final_Facing</a>, <a class="el" href="../../#l00069">Movement::MoveSplineFlag::Mask_No_Monster_Move</a>, <a class="el" href="../../#l00040">Movement::MonsterMoveFacingAngle</a>, <a class="el" href="../../#l00038">Movement::MonsterMoveFacingSpot</a>, <a class="el" href="../../#l00039">Movement::MonsterMoveFacingTarget</a>, <a class="el" href="../../#l00036">Movement::MonsterMoveNormal</a>, <a class="el" href="../../#l00119">Movement::MoveSplineFlag::parabolic</a>, <a class="el" href="../../#l00053">Movement::MoveSpline::spline</a>, <a class="el" href="../../#l00059">Movement::MoveSpline::splineflags</a>, <a class="el" href="../../#l00036">Movement::FacingInfo::target</a>, <a class="el" href="../../#l00065">Movement::MoveSpline::vertical_acceleration</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::x</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::y</a>, and <a class="el" href="../../#l00034">Movement::FacingInfo::z</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00142">WriteMonsterMove()</a>.</p>
+
 </div>
 </div>
-<a id="a0d50c28ba40b409a0c5a9776bfe8ef42" name="a0d50c28ba40b409a0c5a9776bfe8ef42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d50c28ba40b409a0c5a9776bfe8ef42">&#9670;&#160;</a></span>Location() <span class="overload">[3/4]</span></h2>
+<a id="ae5682d7012cca35bd8643b01ce558eb5" name="ae5682d7012cca35bd8643b01ce558eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5682d7012cca35bd8643b01ce558eb5">&#9670;&#160;</a></span>WriteCreate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,43 +238,16 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Movement::Location::Location </td>
+          <td class="memname">void Movement::PacketBuilder::WriteCreate </td>
           <td>(</td>
-          <td class="paramtype">const Vector3 &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>: Vector3(v) {}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1270aec177f47a607cb5a1472819c738" name="a1270aec177f47a607cb5a1472819c738"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1270aec177f47a607cb5a1472819c738">&#9670;&#160;</a></span>Location() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Movement::Location::Location </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3 &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;&#160;</td>
+          <td class="paramname"><em>mov</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>o</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -269,28 +257,171 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>: Vector3(v), <a class="code hl_variable" href="../../d2/d64/a09774.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a>(o) {}</div>
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <span class="comment">//WriteClientStatus(mov, data);</span></div>
+<div class="line"><span class="lineno">  162</span>        <span class="comment">//data.append&lt;float&gt;(&amp;mov.m_float_values[SpeedWalk], SpeedMaxCount);</span></div>
+<div class="line"><span class="lineno">  163</span>        <span class="comment">//if (mov.SplineEnabled())</span></div>
+<div class="line"><span class="lineno">  164</span>        {</div>
+<div class="line"><span class="lineno">  165</span>            MoveSplineFlag <span class="keyword">const</span>&amp; splineFlags = move_spline.splineflags;</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>            data &lt;&lt; splineFlags.raw();</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>            <span class="keywordflow">if</span> (splineFlags.final_angle)</div>
+<div class="line"><span class="lineno">  170</span>            {</div>
+<div class="line"><span class="lineno">  171</span>                data &lt;&lt; move_spline.facing.angle;</div>
+<div class="line"><span class="lineno">  172</span>            }</div>
+<div class="line"><span class="lineno">  173</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (splineFlags.final_target)</div>
+<div class="line"><span class="lineno">  174</span>            {</div>
+<div class="line"><span class="lineno">  175</span>                data &lt;&lt; move_spline.facing.target;</div>
+<div class="line"><span class="lineno">  176</span>            }</div>
+<div class="line"><span class="lineno">  177</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (splineFlags.final_point)</div>
+<div class="line"><span class="lineno">  178</span>            {</div>
+<div class="line"><span class="lineno">  179</span>                data &lt;&lt; move_spline.facing.f.x &lt;&lt; move_spline.facing.f.y &lt;&lt; move_spline.facing.f.z;</div>
+<div class="line"><span class="lineno">  180</span>            }</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>            data &lt;&lt; move_spline.timePassed();</div>
+<div class="line"><span class="lineno">  183</span>            data &lt;&lt; move_spline.Duration();</div>
+<div class="line"><span class="lineno">  184</span>            data &lt;&lt; move_spline.GetId();</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>            data &lt;&lt; float(1.f);                             <span class="comment">// splineInfo.duration_mod; added in 3.1</span></div>
+<div class="line"><span class="lineno">  187</span>            data &lt;&lt; float(1.f);                             <span class="comment">// splineInfo.duration_mod_next; added in 3.1</span></div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>            data &lt;&lt; move_spline.vertical_acceleration;      <span class="comment">// added in 3.1</span></div>
+<div class="line"><span class="lineno">  190</span>            data &lt;&lt; move_spline.effect_start_time;          <span class="comment">// added in 3.1</span></div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nodes = move_spline.getPath().<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>();</div>
+<div class="line"><span class="lineno">  193</span>            data &lt;&lt; nodes;</div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">if</span> (nodes)</div>
+<div class="line"><span class="lineno">  195</span>            {</div>
+<div class="line"><span class="lineno">  196</span>                data.<a class="code hl_function" href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">append</a>&lt;Vector3&gt;(&amp;move_spline.getPath()[0], nodes);</div>
+<div class="line"><span class="lineno">  197</span>            }</div>
+<div class="line"><span class="lineno">  198</span>            data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(move_spline.spline.mode());       <span class="comment">// added in 3.1</span></div>
+<div class="line"><span class="lineno">  199</span>            data &lt;&lt; (move_spline.isCyclic() ? Vector3::zero() : move_spline.FinalDestination());</div>
+<div class="line"><span class="lineno">  200</span>        }</div>
+<div class="line"><span class="lineno">  201</span>    }</div>
+<div class="ttc" id="aa28094_html_a0be375370879a95ef6ec68cc8916ab61"><div class="ttname"><a href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">ByteBuffer::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:444</div></div>
+<div class="ttc" id="aa28094_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00037">Movement::FacingInfo::angle</a>, <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00085">Movement::MoveSpline::Duration()</a>, <a class="el" href="../../#l00067">Movement::MoveSpline::effect_start_time</a>, <a class="el" href="../../d6/d8e/a09814.html#a582c76e5c93b1256195c1a89bd2a5e41">Movement::FacingInfo::f</a>, <a class="el" href="../../#l00055">Movement::MoveSpline::facing</a>, <a class="el" href="../../#l00125">Movement::MoveSplineFlag::final_angle</a>, <a class="el" href="../../#l00123">Movement::MoveSplineFlag::final_point</a>, <a class="el" href="../../#l00124">Movement::MoveSplineFlag::final_target</a>, <a class="el" href="../../#l00120">Movement::MoveSpline::FinalDestination()</a>, <a class="el" href="../../#l00115">Movement::MoveSpline::GetId()</a>, <a class="el" href="../../#l00074">Movement::MoveSpline::getPath()</a>, <a class="el" href="../../#l00117">Movement::MoveSpline::isCyclic()</a>, <a class="el" href="../../#l00110">Movement::SplineBase::mode()</a>, <a class="el" href="../../#l00076">Movement::MoveSplineFlag::raw()</a>, <a class="el" href="../../#l00053">Movement::MoveSpline::spline</a>, <a class="el" href="../../#l00059">Movement::MoveSpline::splineflags</a>, <a class="el" href="../../#l00036">Movement::FacingInfo::target</a>, <a class="el" href="../../#l00084">Movement::MoveSpline::timePassed()</a>, <a class="el" href="../../#l00065">Movement::MoveSpline::vertical_acceleration</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::x</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::y</a>, and <a class="el" href="../../#l00034">Movement::FacingInfo::z</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00343">Object::BuildMovementUpdate()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9fc2637d4441d90c528eaef0f0414b98" name="a9fc2637d4441d90c528eaef0f0414b98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc2637d4441d90c528eaef0f0414b98">&#9670;&#160;</a></span>orientation</h2>
+<a id="a4c4294e3fed32aca35078dd4975b057d" name="a4c4294e3fed32aca35078dd4975b057d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4294e3fed32aca35078dd4975b057d">&#9670;&#160;</a></span>WriteMonsterMove()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float Movement::Location::orientation {0}</td>
+          <td class="memname">void Movement::PacketBuilder::WriteMonsterMove </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/db8/a09794.html">MoveSpline</a> &amp;&#160;</td>
+          <td class="paramname"><em>mov</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  143</span>    {</div>
+<div class="line"><span class="lineno">  144</span>        <a class="code hl_function" href="../../d2/d64/a09774.html#a5dcdbeb513f6da51b0af20d9acd2ac58">WriteCommonMonsterMovePart</a>(move_spline, data);</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>        <span class="keyword">const</span> Spline&lt;int32&gt;&amp; spline = move_spline.spline;</div>
+<div class="line"><span class="lineno">  147</span>        MoveSplineFlag splineflags = move_spline.splineflags;</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">if</span> (splineflags &amp; <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e">MoveSplineFlag::Mask_CatmullRom</a>)</div>
+<div class="line"><span class="lineno">  149</span>        {</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">if</span> (splineflags.cyclic)</div>
+<div class="line"><span class="lineno">  151</span>                <a class="code hl_function" href="../../d3/d06/a04733.html#ae740cc738fed507e64b3243ce62c5952">WriteCatmullRomCyclicPath</a>(spline, data, splineflags &amp; <a class="code hl_enumvalue" href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">MoveSplineFlag::Flying</a>);</div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  153</span>                <a class="code hl_function" href="../../d3/d06/a04733.html#a92efeab3fe080f348fa91cb9bc5a1b05">WriteCatmullRomPath</a>(spline, data);</div>
+<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  156</span>            <a class="code hl_function" href="../../d3/d06/a04733.html#ad0db2c4fd496c84301b43d46fbffb460">WriteLinearPath</a>(spline, data);</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="ttc" id="aa04733_html_a92efeab3fe080f348fa91cb9bc5a1b05"><div class="ttname"><a href="../../d3/d06/a04733.html#a92efeab3fe080f348fa91cb9bc5a1b05">Movement::WriteCatmullRomPath</a></div><div class="ttdeci">void WriteCatmullRomPath(const Spline&lt; int32 &gt; &amp;spline, ByteBuffer &amp;data)</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:119</div></div>
+<div class="ttc" id="aa04733_html_ad0db2c4fd496c84301b43d46fbffb460"><div class="ttname"><a href="../../d3/d06/a04733.html#ad0db2c4fd496c84301b43d46fbffb460">Movement::WriteLinearPath</a></div><div class="ttdeci">void WriteLinearPath(const Spline&lt; int32 &gt; &amp;spline, ByteBuffer &amp;data)</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:99</div></div>
+<div class="ttc" id="aa04733_html_ae740cc738fed507e64b3243ce62c5952"><div class="ttname"><a href="../../d3/d06/a04733.html#ae740cc738fed507e64b3243ce62c5952">Movement::WriteCatmullRomCyclicPath</a></div><div class="ttdeci">void WriteCatmullRomCyclicPath(const Spline&lt; int32 &gt; &amp;spline, ByteBuffer &amp;data, bool flying)</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:126</div></div>
+<div class="ttc" id="aa09774_html_a5dcdbeb513f6da51b0af20d9acd2ac58"><div class="ttname"><a href="../../d2/d64/a09774.html#a5dcdbeb513f6da51b0af20d9acd2ac58">Movement::PacketBuilder::WriteCommonMonsterMovePart</a></div><div class="ttdeci">static void WriteCommonMonsterMovePart(const MoveSpline &amp;mov, ByteBuffer &amp;data)</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:43</div></div>
+<div class="ttc" id="aa09798_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e"><div class="ttname"><a href="../../d0/d6d/a09798.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e">Movement::MoveSplineFlag::Mask_CatmullRom</a></div><div class="ttdeci">@ Mask_CatmullRom</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:71</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00127">Movement::MoveSplineFlag::cyclic</a>, <a class="el" href="../../#l00044">Movement::MoveSplineFlag::Flying</a>, <a class="el" href="../../#l00071">Movement::MoveSplineFlag::Mask_CatmullRom</a>, <a class="el" href="../../#l00053">Movement::MoveSpline::spline</a>, <a class="el" href="../../#l00059">Movement::MoveSpline::splineflags</a>, <a class="el" href="../../#l00126">Movement::WriteCatmullRomCyclicPath()</a>, <a class="el" href="../../#l00119">Movement::WriteCatmullRomPath()</a>, <a class="el" href="../../#l00043">WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00099">Movement::WriteLinearPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00026">Movement::MoveSpline::ComputePosition()</a>, <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00101">WaypointMovementGenerator&lt; Creature &gt;::StartMove()</a>, <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>, and <a class="el" href="../../#l00607">Unit::UpdateSplinePosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>.</p>
+
+</div>
+</div>
+<a id="a1b960c1141ab9b4dca932e0eddaee204" name="a1b960c1141ab9b4dca932e0eddaee204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b960c1141ab9b4dca932e0eddaee204">&#9670;&#160;</a></span>WriteStopMovement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Movement::PacketBuilder::WriteStopMovement </td>
+          <td>(</td>
+          <td class="paramtype">Vector3 const &amp;&#160;</td>
+          <td class="paramname"><em>loc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>splineId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d2c/a28094.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(0);                                       <span class="comment">// sets/unsets MOVEMENTFLAG2_UNK7 (0x40)</span></div>
+<div class="line"><span class="lineno">   94</span>        data &lt;&lt; pos;</div>
+<div class="line"><span class="lineno">   95</span>        data &lt;&lt; splineId;</div>
+<div class="line"><span class="lineno">   96</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_enumvalue" href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a6520302858321c3083951d598e05a167">MonsterMoveStop</a>);</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="ttc" id="aa04733_html_afd3f02560404659d901713e1228d9339a6520302858321c3083951d598e05a167"><div class="ttname"><a href="../../d3/d06/a04733.html#afd3f02560404659d901713e1228d9339a6520302858321c3083951d598e05a167">Movement::MonsterMoveStop</a></div><div class="ttdeci">@ MonsterMoveStop</div><div class="ttdef"><b>Definition:</b> MovementPacketBuilder.cpp:37</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00037">Movement::MonsterMoveStop</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>.</p>
 
 </div>
 </div>
@@ -299,8 +430,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/dae/a04721.html">Movement</a></li><li class="navelem"><a class="el" href="../../d2/d64/a09774.html">Location</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d3/d06/a04733.html">Movement</a></li><li class="navelem"><a class="el" href="../../d2/d64/a09774.html">PacketBuilder</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

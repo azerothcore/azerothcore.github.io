@@ -1,20 +1,17 @@
 var a03518 =
 [
-    [ "lfg::LfgQueueData", "d9/d1c/a07730.html", "d9/d1c/a07730" ],
-    [ "lfg::LfgWaitTime", "d1/d4c/a07734.html", "d1/d4c/a07734" ],
-    [ "lfg::LFGQueue", "d3/d49/a07738.html", "d3/d49/a07738" ],
-    [ "LfgCompatibleContainer", "d7/d65/a03518.html#a96438cca4cead6c1fc5d31ef643129e9", null ],
-    [ "LfgQueueDataContainer", "d7/d65/a03518.html#aa2afec59ce753c11c3d8fddf4fb33991", null ],
-    [ "LfgWaitTimesContainer", "d7/d65/a03518.html#a58714a43cbdc03f4008681528fb20447", null ],
-    [ "LfgCompatibility", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6", [
-      [ "LFG_COMPATIBILITY_PENDING", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a9bd6f6c66c07537c541c6cf47da9311a", null ],
-      [ "LFG_INCOMPATIBLES_WRONG_GROUP_SIZE", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6ab6f6918e09882dce7eb53394dc960123", null ],
-      [ "LFG_INCOMPATIBLES_TOO_MUCH_PLAYERS", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6aab66f0e7b36ded30473ed953e96346a1", null ],
-      [ "LFG_INCOMPATIBLES_MULTIPLE_LFG_GROUPS", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a5c52733040385425e0b4fafbbe962c57", null ],
-      [ "LFG_INCOMPATIBLES_HAS_IGNORES", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a232b96c8bc336a74ef0d50fe5092b21b", null ],
-      [ "LFG_INCOMPATIBLES_NO_ROLES", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6ad009d10da76a97578ce600e26e253a63", null ],
-      [ "LFG_INCOMPATIBLES_NO_DUNGEONS", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a6db8294000b56babf9050ec1fa80bd33", null ],
-      [ "LFG_COMPATIBLES_WITH_LESS_PLAYERS", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a226ddd4cf32244952984c339a149c93e", null ],
-      [ "LFG_COMPATIBLES_MATCH", "d7/d65/a03518.html#a33c5b3513de4cd3c5a525f31008618b6a9dc8d1185a27e48d0f6953fccaa49ba0", null ]
-    ] ]
+    [ "SplineHandler", "d1/d8b/a08454.html", "d1/d8b/a08454" ],
+    [ "spellIdImmunityPredicate", "dd/da3/a08458.html", "dd/da3/a08458" ],
+    [ "ProcTriggeredData", "d8/dea/a08462.html", "d8/dea/a08462" ],
+    [ "AuraMunchingQueue", "dc/d06/a08466.html", "dc/d06/a08466" ],
+    [ "ProcTriggeredList", "d7/d65/a03518.html#af5ec5d5b1ba4d4454c1bdcbc139de758", null ],
+    [ "createProcExtendMask", "d7/d65/a03518.html#afb539370dad036ff97905efdbb4270c0", null ],
+    [ "createProcFlags", "d7/d65/a03518.html#a7d920511c20f084098c0f68a75006159", null ],
+    [ "InitTriggerAuraData", "d7/d65/a03518.html#a70fb722e03fe637ce7c9979a00725a3c", null ],
+    [ "baseMoveSpeed", "d7/d65/a03518.html#a2ede1cce0416c74db2d4599bab36eb57", null ],
+    [ "isAlwaysTriggeredAura", "d7/d65/a03518.html#a59735a3ed46ce3add4f949e4c9e041f8", null ],
+    [ "isNonTriggerAura", "d7/d65/a03518.html#a993ff0928a2b90204efd437a0726e787", null ],
+    [ "isTriggerAura", "d7/d65/a03518.html#ad51bed43268eefcceebdda05d85c6a61", null ],
+    [ "playerBaseMoveSpeed", "d7/d65/a03518.html#afef08589b9944f10d66bdc1de74d0270", null ],
+    [ "procPrepared", "d7/d65/a03518.html#a11410c456e972de7cfb44bbe17709cc4", null ]
 ];

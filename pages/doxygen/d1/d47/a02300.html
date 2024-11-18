@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/Karazhan/instance_karazhan.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/MagistersTerrace/magisters_terrace.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,214 +105,321 @@ $(document).ready(function(){initNavTree('d1/d47/a02300.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_karazhan.cpp File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">magisters_terrace.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">karazhan.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d93/a12414.html">instance_karazhan</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d17/a12418.html">instance_karazhan::instance_karazhan_InstanceMapScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a12422.html">spell_karazhan_brittle_bones_aura</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a12426.html">spell_karazhan_overload_aura</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d54/a12430.html">spell_karazhan_blink</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;MT&quot;</td></tr>
+<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772413d8818d681e2261c99f58e1268c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a>&#160;&#160;&#160;&quot;instance_magisters_terrace&quot;</td></tr>
+<tr class="separator:a772413d8818d681e2261c99f58e1268c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679c3c5e0520ffcbc6ca0827cddafeb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a679c3c5e0520ffcbc6ca0827cddafeb0">RegisterMagistersTerraceCreatureAI</a>(ai_name)&#160;&#160;&#160;<a class="el" href="../../d3/dea/a04352.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../d1/d47/a02300.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a>)</td></tr>
+<tr class="separator:a679c3c5e0520ffcbc6ca0827cddafeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:abdc560adf84eb5994b289f952995d059"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059">MTData</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a> = 6
+<br />
+ }</td></tr>
+<tr class="separator:abdc560adf84eb5994b289f952995d059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402e3e622f03a1eed719db587960e18b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18b">MTCreatures</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a> = 24560
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a> = 24722
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a> = 24664
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a> = 21362
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a> = 21364
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a> = 24844
+<br />
+ }</td></tr>
+<tr class="separator:a402e3e622f03a1eed719db587960e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0621589774d4cc3afba085bc39867d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867d">MTGameObjects</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a> = 187896
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a> = 187979
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a> = 188065
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a> = 187770
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a> = 188064
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a> = 188173
+<br />
+ }</td></tr>
+<tr class="separator:a2b0621589774d4cc3afba085bc39867d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51342a4a8f5976e51b0074f9a5746f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#ab51342a4a8f5976e51b0074f9a5746f8">InstanceEventIds</a> { <a class="el" href="../../d1/d47/a02300.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a> = 16547
+ }</td></tr>
+<tr class="separator:ab51342a4a8f5976e51b0074f9a5746f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5999eedcf185b65654ded53dc601d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#aed5999eedcf185b65654ded53dc601d3">MovementData</a> { <a class="el" href="../../d1/d47/a02300.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a> = 248440
+ }</td></tr>
+<tr class="separator:aed5999eedcf185b65654ded53dc601d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adc62e82adedf1c9e8d47332aaa7a4cf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#adc62e82adedf1c9e8d47332aaa7a4cf5">AddSC_instance_karazhan</a> ()</td></tr>
-<tr class="separator:adc62e82adedf1c9e8d47332aaa7a4cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9dacd53568280ba4bb7d0a7c7f65f6cf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d6/d03/a08202.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a9dacd53568280ba4bb7d0a7c7f65f6cf">OptionalSpawn</a> []</td></tr>
-<tr class="separator:a9dacd53568280ba4bb7d0a7c7f65f6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
-<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1461582839e3b7fdbb7397e5d2086e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a1461582839e3b7fdbb7397e5d2086e31">gameObjectData</a> []</td></tr>
-<tr class="separator:a1461582839e3b7fdbb7397e5d2086e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
-<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace003ea34649a460da4afbd65b38c987"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:ace003ea34649a460da4afbd65b38c987"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d47/a02300.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a> (T *obj)</td></tr>
+<tr class="separator:ace003ea34649a460da4afbd65b38c987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="adc62e82adedf1c9e8d47332aaa7a4cf5" name="adc62e82adedf1c9e8d47332aaa7a4cf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc62e82adedf1c9e8d47332aaa7a4cf5">&#9670;&#160;</a></span>AddSC_instance_karazhan()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_karazhan </td>
+          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;MT&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a772413d8818d681e2261c99f58e1268c" name="a772413d8818d681e2261c99f58e1268c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772413d8818d681e2261c99f58e1268c">&#9670;&#160;</a></span>MTScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MTScriptName&#160;&#160;&#160;&quot;instance_magisters_terrace&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a679c3c5e0520ffcbc6ca0827cddafeb0" name="a679c3c5e0520ffcbc6ca0827cddafeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679c3c5e0520ffcbc6ca0827cddafeb0">&#9670;&#160;</a></span>RegisterMagistersTerraceCreatureAI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterMagistersTerraceCreatureAI</td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dea/a04352.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../d1/d47/a02300.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ab51342a4a8f5976e51b0074f9a5746f8" name="ab51342a4a8f5976e51b0074f9a5746f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51342a4a8f5976e51b0074f9a5746f8">&#9670;&#160;</a></span>InstanceEventIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d47/a02300.html#ab51342a4a8f5976e51b0074f9a5746f8">InstanceEventIds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283" name="ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283"></a>EVENT_SPAWN_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a> = 16547</div>
+<div class="line"><span class="lineno">   61</span>};</div>
+<div class="ttc" id="aa02300_html_ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283"><div class="ttname"><a href="../../d1/d47/a02300.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a></div><div class="ttdeci">@ EVENT_SPAWN_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:60</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aed5999eedcf185b65654ded53dc601d3" name="aed5999eedcf185b65654ded53dc601d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5999eedcf185b65654ded53dc601d3">&#9670;&#160;</a></span>MovementData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d47/a02300.html#aed5999eedcf185b65654ded53dc601d3">MovementData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222" name="aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222"></a>PATH_KALECGOS_FLIGHT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a> = 248440</div>
+<div class="line"><span class="lineno">   66</span>};</div>
+<div class="ttc" id="aa02300_html_aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222"><div class="ttname"><a href="../../d1/d47/a02300.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a></div><div class="ttdeci">@ PATH_KALECGOS_FLIGHT</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:65</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a402e3e622f03a1eed719db587960e18b" name="a402e3e622f03a1eed719db587960e18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402e3e622f03a1eed719db587960e18b">&#9670;&#160;</a></span>MTCreatures</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18b">MTCreatures</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127" name="a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127"></a>NPC_DELRISSA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35" name="a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35"></a>NPC_FEL_CRYSTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c" name="a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c"></a>NPC_KAEL_THAS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048" name="a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048"></a>NPC_PHOENIX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970" name="a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970"></a>NPC_PHOENIX_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613" name="a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613"></a>NPC_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a>                = 24560,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a>             = 24722,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a>               = 24664,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a>                 = 21362,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a>             = 21364,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a>                = 24844</div>
+<div class="line"><span class="lineno">   46</span>};</div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a></div><div class="ttdeci">@ NPC_KAEL_THAS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:42</div></div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a></div><div class="ttdeci">@ NPC_PHOENIX_EGG</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:44</div></div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a></div><div class="ttdeci">@ NPC_DELRISSA</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:40</div></div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a></div><div class="ttdeci">@ NPC_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:45</div></div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a></div><div class="ttdeci">@ NPC_PHOENIX</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:43</div></div>
+<div class="ttc" id="aa02300_html_a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35"><div class="ttname"><a href="../../d1/d47/a02300.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a></div><div class="ttdeci">@ NPC_FEL_CRYSTAL</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:41</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abdc560adf84eb5994b289f952995d059" name="abdc560adf84eb5994b289f952995d059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc560adf84eb5994b289f952995d059">&#9670;&#160;</a></span>MTData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059">MTData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8" name="abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8"></a>DATA_SELIN_FIREHEART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3" name="abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3"></a>DATA_VEXALLUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f" name="abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f"></a>DATA_DELRISSA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3" name="abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3"></a>DATA_KAELTHAS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d" name="abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d" name="abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d"></a>DATA_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f" name="abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f"></a>DATA_ESCAPE_ORB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a>        = 0,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a>               = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a>               = 2,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a>               = 3,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>               = 4,</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a>               = 5,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a>             = 6</div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a></div><div class="ttdeci">@ DATA_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:34</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a></div><div class="ttdeci">@ DATA_ESCAPE_ORB</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:35</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:32</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a></div><div class="ttdeci">@ DATA_VEXALLUS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:29</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a></div><div class="ttdeci">@ DATA_KAELTHAS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:31</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a></div><div class="ttdeci">@ DATA_DELRISSA</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:30</div></div>
+<div class="ttc" id="aa02300_html_abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8"><div class="ttname"><a href="../../d1/d47/a02300.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a></div><div class="ttdeci">@ DATA_SELIN_FIREHEART</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2b0621589774d4cc3afba085bc39867d" name="a2b0621589774d4cc3afba085bc39867d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0621589774d4cc3afba085bc39867d">&#9670;&#160;</a></span>MTGameObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867d">MTGameObjects</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7" name="a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7"></a>GO_VEXALLUS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64" name="a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64"></a>GO_SELIN_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086" name="a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086"></a>GO_SELIN_ENCOUNTER_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a" name="a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a"></a>GO_DELRISSA_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25" name="a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25"></a>GO_KAEL_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd" name="a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd"></a>GO_ESCAPE_ORB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a>            = 187896,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a>               = 187979,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a>     = 188065,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a>            = 187770,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a>                = 188064,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a>               = 188173</div>
+<div class="line"><span class="lineno">   56</span>};</div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a></div><div class="ttdeci">@ GO_DELRISSA_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:53</div></div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a></div><div class="ttdeci">@ GO_VEXALLUS_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:50</div></div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a></div><div class="ttdeci">@ GO_SELIN_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:51</div></div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a></div><div class="ttdeci">@ GO_SELIN_ENCOUNTER_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:52</div></div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a></div><div class="ttdeci">@ GO_KAEL_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:54</div></div>
+<div class="ttc" id="aa02300_html_a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd"><div class="ttname"><a href="../../d1/d47/a02300.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a></div><div class="ttdeci">@ GO_ESCAPE_ORB</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:55</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ace003ea34649a460da4afbd65b38c987" name="ace003ea34649a460da4afbd65b38c987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace003ea34649a460da4afbd65b38c987">&#9670;&#160;</a></span>GetMagistersTerraceAI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AI * GetMagistersTerraceAI </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  606</span>{</div>
-<div class="line"><span class="lineno">  607</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d93/a12414.html">instance_karazhan</a>();</div>
-<div class="line"><span class="lineno">  608</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/d8d/a12422.html">spell_karazhan_brittle_bones_aura</a>);</div>
-<div class="line"><span class="lineno">  609</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d02/a12426.html">spell_karazhan_overload_aura</a>);</div>
-<div class="line"><span class="lineno">  610</span>    <a class="code hl_define" href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d54/a12430.html">spell_karazhan_blink</a>);</div>
-<div class="line"><span class="lineno">  611</span>}</div>
-<div class="ttc" id="aa03035_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d1/d89/a03035.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa12414_html"><div class="ttname"><a href="../../d4/d93/a12414.html">instance_karazhan</a></div><div class="ttdef"><b>Definition:</b> instance_karazhan.cpp:68</div></div>
-<div class="ttc" id="aa12422_html"><div class="ttname"><a href="../../d6/d8d/a12422.html">spell_karazhan_brittle_bones_aura</a></div><div class="ttdef"><b>Definition:</b> instance_karazhan.cpp:532</div></div>
-<div class="ttc" id="aa12426_html"><div class="ttname"><a href="../../d7/d02/a12426.html">spell_karazhan_overload_aura</a></div><div class="ttdef"><b>Definition:</b> instance_karazhan.cpp:561</div></div>
-<div class="ttc" id="aa12430_html"><div class="ttname"><a href="../../d8/d54/a12430.html">spell_karazhan_blink</a></div><div class="ttdef"><b>Definition:</b> instance_karazhan.cpp:583</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d1/d47/a02300.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a>);</div>
+<div class="line"><span class="lineno">   72</span>}</div>
+<div class="ttc" id="aa02300_html_a772413d8818d681e2261c99f58e1268c"><div class="ttname"><a href="../../d1/d47/a02300.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a></div><div class="ttdeci">#define MTScriptName</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:24</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const creatureData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a51380b872f93f63d3fe34d3f7770440d">NPC_ATTUMEN_THE_HUNTSMAN</a>, <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a3d9ae12bd492b28ff4cce04e5d32e641">DATA_ATTUMEN</a>   },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a3f86b8625840b0158654fec79f00b915">NPC_SHADE_OF_ARAN</a>,        <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ac034fb12aeaf0c4947b1ee6abaf71995">DATA_ARAN</a>      },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5acd7658329784f2f96188ba8ed87e5e54">NPC_MIDNIGHT</a>,             <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a698f3c32afd1a7a7bf913cff22681da1">DATA_MIDNIGHT</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5aeaa86235b56db33ca89f96ffc964d8b6">NPC_DOROTHEE</a>,             <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a1a288e2b317a003aba1a3fd7746c9cf1">DATA_DOROTHEE</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5aaf84902f02853108bee74dcc14f65ba1">NPC_TITO</a>,                 <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94aaa1342f4e963af104e5ec4ed23007bca">DATA_TITO</a>      },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5ad55af1805b755f0028183ebe149eeaed">NPC_ROAR</a>,                 <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a12cb853d97a6708d8fe0d64a2a546c60">DATA_ROAR</a>      },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5af1dd5421e427b2d28134bd6e9abea514">NPC_STRAWMAN</a>,             <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a2ae30e5eb5612a4c5d3e4c2192622214">DATA_STRAWMAN</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a70afc46d9731c9e4092d13486130f692">NPC_TINHEAD</a>,              <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94aba01bea9c161afbbd81c0002f281e048">DATA_TINHEAD</a>   },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a8d5d83037194b58b0d89aaa1e4604172">NPC_ROMULO</a>,               <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a24a573bf62f453c9706f5179dc0e5d5c">DATA_ROMULO</a>    },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a360b0073905245e35e58a83d8870a9b2">NPC_JULIANNE</a>,             <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a428e94125fd4312ba1329315a980718c">DATA_JULIANNE</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5ab6d81371f0d93fd8d22f7daa7375ac39">NPC_NIGHTBANE</a>,            <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ad9c601dfad3d6d50da02d542a4d8ed1f">DATA_NIGHTBANE</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a3ea17a5aceb7b2f21d207b749c34e392">NPC_TERESTIAN_ILLHOOF</a>,    <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a9b8d41116bfd0e2974abe3fbd29a7e01">DATA_TERESTIAN</a> },</div>
-<div class="line">    { 0,                        0              }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a360b0073905245e35e58a83d8870a9b2"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a360b0073905245e35e58a83d8870a9b2">NPC_JULIANNE</a></div><div class="ttdeci">@ NPC_JULIANNE</div><div class="ttdef"><b>Definition:</b> karazhan.h:114</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a3ea17a5aceb7b2f21d207b749c34e392"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a3ea17a5aceb7b2f21d207b749c34e392">NPC_TERESTIAN_ILLHOOF</a></div><div class="ttdeci">@ NPC_TERESTIAN_ILLHOOF</div><div class="ttdef"><b>Definition:</b> karazhan.h:91</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a3f86b8625840b0158654fec79f00b915"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a3f86b8625840b0158654fec79f00b915">NPC_SHADE_OF_ARAN</a></div><div class="ttdeci">@ NPC_SHADE_OF_ARAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:97</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a51380b872f93f63d3fe34d3f7770440d"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a51380b872f93f63d3fe34d3f7770440d">NPC_ATTUMEN_THE_HUNTSMAN</a></div><div class="ttdeci">@ NPC_ATTUMEN_THE_HUNTSMAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:93</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a70afc46d9731c9e4092d13486130f692"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a70afc46d9731c9e4092d13486130f692">NPC_TINHEAD</a></div><div class="ttdeci">@ NPC_TINHEAD</div><div class="ttdef"><b>Definition:</b> karazhan.h:117</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5a8d5d83037194b58b0d89aaa1e4604172"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5a8d5d83037194b58b0d89aaa1e4604172">NPC_ROMULO</a></div><div class="ttdeci">@ NPC_ROMULO</div><div class="ttdef"><b>Definition:</b> karazhan.h:113</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5aaf84902f02853108bee74dcc14f65ba1"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5aaf84902f02853108bee74dcc14f65ba1">NPC_TITO</a></div><div class="ttdeci">@ NPC_TITO</div><div class="ttdef"><b>Definition:</b> karazhan.h:112</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5ab6d81371f0d93fd8d22f7daa7375ac39"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5ab6d81371f0d93fd8d22f7daa7375ac39">NPC_NIGHTBANE</a></div><div class="ttdeci">@ NPC_NIGHTBANE</div><div class="ttdef"><b>Definition:</b> karazhan.h:96</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5acd7658329784f2f96188ba8ed87e5e54"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5acd7658329784f2f96188ba8ed87e5e54">NPC_MIDNIGHT</a></div><div class="ttdeci">@ NPC_MIDNIGHT</div><div class="ttdef"><b>Definition:</b> karazhan.h:95</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5ad55af1805b755f0028183ebe149eeaed"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5ad55af1805b755f0028183ebe149eeaed">NPC_ROAR</a></div><div class="ttdeci">@ NPC_ROAR</div><div class="ttdef"><b>Definition:</b> karazhan.h:115</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5aeaa86235b56db33ca89f96ffc964d8b6"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5aeaa86235b56db33ca89f96ffc964d8b6">NPC_DOROTHEE</a></div><div class="ttdeci">@ NPC_DOROTHEE</div><div class="ttdef"><b>Definition:</b> karazhan.h:111</div></div>
-<div class="ttc" id="aa02339_html_a4f1bba96c1d3e59d0d65c02d9154b8f5af1dd5421e427b2d28134bd6e9abea514"><div class="ttname"><a href="../../d2/da6/a02339.html#a4f1bba96c1d3e59d0d65c02d9154b8f5af1dd5421e427b2d28134bd6e9abea514">NPC_STRAWMAN</a></div><div class="ttdeci">@ NPC_STRAWMAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:116</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a12cb853d97a6708d8fe0d64a2a546c60"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a12cb853d97a6708d8fe0d64a2a546c60">DATA_ROAR</a></div><div class="ttdeci">@ DATA_ROAR</div><div class="ttdef"><b>Definition:</b> karazhan.h:73</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a1a288e2b317a003aba1a3fd7746c9cf1"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a1a288e2b317a003aba1a3fd7746c9cf1">DATA_DOROTHEE</a></div><div class="ttdeci">@ DATA_DOROTHEE</div><div class="ttdef"><b>Definition:</b> karazhan.h:69</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a24a573bf62f453c9706f5179dc0e5d5c"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a24a573bf62f453c9706f5179dc0e5d5c">DATA_ROMULO</a></div><div class="ttdeci">@ DATA_ROMULO</div><div class="ttdef"><b>Definition:</b> karazhan.h:70</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a2ae30e5eb5612a4c5d3e4c2192622214"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a2ae30e5eb5612a4c5d3e4c2192622214">DATA_STRAWMAN</a></div><div class="ttdeci">@ DATA_STRAWMAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:74</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a3d9ae12bd492b28ff4cce04e5d32e641"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a3d9ae12bd492b28ff4cce04e5d32e641">DATA_ATTUMEN</a></div><div class="ttdeci">@ DATA_ATTUMEN</div><div class="ttdef"><b>Definition:</b> karazhan.h:30</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a428e94125fd4312ba1329315a980718c"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a428e94125fd4312ba1329315a980718c">DATA_JULIANNE</a></div><div class="ttdeci">@ DATA_JULIANNE</div><div class="ttdef"><b>Definition:</b> karazhan.h:71</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a698f3c32afd1a7a7bf913cff22681da1"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a698f3c32afd1a7a7bf913cff22681da1">DATA_MIDNIGHT</a></div><div class="ttdeci">@ DATA_MIDNIGHT</div><div class="ttdef"><b>Definition:</b> karazhan.h:59</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a9b8d41116bfd0e2974abe3fbd29a7e01"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a9b8d41116bfd0e2974abe3fbd29a7e01">DATA_TERESTIAN</a></div><div class="ttdeci">@ DATA_TERESTIAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:37</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94aaa1342f4e963af104e5ec4ed23007bca"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94aaa1342f4e963af104e5ec4ed23007bca">DATA_TITO</a></div><div class="ttdeci">@ DATA_TITO</div><div class="ttdef"><b>Definition:</b> karazhan.h:76</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94aba01bea9c161afbbd81c0002f281e048"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94aba01bea9c161afbbd81c0002f281e048">DATA_TINHEAD</a></div><div class="ttdeci">@ DATA_TINHEAD</div><div class="ttdef"><b>Definition:</b> karazhan.h:75</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94ac034fb12aeaf0c4947b1ee6abaf71995"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ac034fb12aeaf0c4947b1ee6abaf71995">DATA_ARAN</a></div><div class="ttdeci">@ DATA_ARAN</div><div class="ttdef"><b>Definition:</b> karazhan.h:36</div></div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94ad9c601dfad3d6d50da02d542a4d8ed1f"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ad9c601dfad3d6d50da02d542a4d8ed1f">DATA_NIGHTBANE</a></div><div class="ttdeci">@ DATA_NIGHTBANE</div><div class="ttdef"><b>Definition:</b> karazhan.h:41</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00079">instance_karazhan::instance_karazhan_InstanceMapScript::instance_karazhan_InstanceMapScript()</a>.</p>
-
-</div>
-</div>
-<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/da5/a09314.html">DoorData</a> const doorData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490abccd2e145e0976111dc7294ae9595d8e">GO_MASTERS_TERRACE_DOOR</a>,  <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ad9c601dfad3d6d50da02d542a4d8ed1f">DATA_NIGHTBANE</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490ae2cadfe21e44b1b9042c7112fc39f3bf">GO_MASTERS_TERRACE_DOOR2</a>, <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94ad9c601dfad3d6d50da02d542a4d8ed1f">DATA_NIGHTBANE</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>  },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490ab69b29d7dadfcfb4bef38aeaacf649cc">GO_NETHERSPACE_DOOR</a>,      <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a704c192043e88ea7137d75f67fa5a122">DATA_MALCHEZAAR</a>, <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> },</div>
-<div class="line">    { 0,                        0,              <a class="code hl_enumvalue" href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>  }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94a704c192043e88ea7137d75f67fa5a122"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94a704c192043e88ea7137d75f67fa5a122">DATA_MALCHEZAAR</a></div><div class="ttdeci">@ DATA_MALCHEZAAR</div><div class="ttdef"><b>Definition:</b> karazhan.h:40</div></div>
-<div class="ttc" id="aa02339_html_ae24e433b8d42cf365463d73feb31d490ab69b29d7dadfcfb4bef38aeaacf649cc"><div class="ttname"><a href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490ab69b29d7dadfcfb4bef38aeaacf649cc">GO_NETHERSPACE_DOOR</a></div><div class="ttdeci">@ GO_NETHERSPACE_DOOR</div><div class="ttdef"><b>Definition:</b> karazhan.h:151</div></div>
-<div class="ttc" id="aa02339_html_ae24e433b8d42cf365463d73feb31d490abccd2e145e0976111dc7294ae9595d8e"><div class="ttname"><a href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490abccd2e145e0976111dc7294ae9595d8e">GO_MASTERS_TERRACE_DOOR</a></div><div class="ttdeci">@ GO_MASTERS_TERRACE_DOOR</div><div class="ttdef"><b>Definition:</b> karazhan.h:152</div></div>
-<div class="ttc" id="aa02339_html_ae24e433b8d42cf365463d73feb31d490ae2cadfe21e44b1b9042c7112fc39f3bf"><div class="ttname"><a href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490ae2cadfe21e44b1b9042c7112fc39f3bf">GO_MASTERS_TERRACE_DOOR2</a></div><div class="ttdeci">@ GO_MASTERS_TERRACE_DOOR2</div><div class="ttdef"><b>Definition:</b> karazhan.h:153</div></div>
-<div class="ttc" id="aa02846_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d5/d4c/a02846.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00079">instance_karazhan::instance_karazhan_InstanceMapScript::instance_karazhan_InstanceMapScript()</a>.</p>
-
-</div>
-</div>
-<a id="a1461582839e3b7fdbb7397e5d2086e31" name="a1461582839e3b7fdbb7397e5d2086e31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1461582839e3b7fdbb7397e5d2086e31">&#9670;&#160;</a></span>gameObjectData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d50/a09330.html">ObjectData</a> const gameObjectData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490abbdc282732379e1cd58b6a8551700751">GO_SIDE_ENTRANCE_DOOR</a>, <a class="code hl_enumvalue" href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94abcbdbfaa7ef0fccace731fad0f4ab24e">DATA_GO_SIDE_ENTRANCE_DOOR</a> },</div>
-<div class="line">    { 0,                     0                          }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa02339_html_ac1c8b8b6be9767f56555c40adf01ee94abcbdbfaa7ef0fccace731fad0f4ab24e"><div class="ttname"><a href="../../d2/da6/a02339.html#ac1c8b8b6be9767f56555c40adf01ee94abcbdbfaa7ef0fccace731fad0f4ab24e">DATA_GO_SIDE_ENTRANCE_DOOR</a></div><div class="ttdeci">@ DATA_GO_SIDE_ENTRANCE_DOOR</div><div class="ttdef"><b>Definition:</b> karazhan.h:56</div></div>
-<div class="ttc" id="aa02339_html_ae24e433b8d42cf365463d73feb31d490abbdc282732379e1cd58b6a8551700751"><div class="ttname"><a href="../../d2/da6/a02339.html#ae24e433b8d42cf365463d73feb31d490abbdc282732379e1cd58b6a8551700751">GO_SIDE_ENTRANCE_DOOR</a></div><div class="ttdeci">@ GO_SIDE_ENTRANCE_DOOR</div><div class="ttdef"><b>Definition:</b> karazhan.h:154</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02197">GameObject::GetScriptId()</a>, <a class="el" href="../../#l00079">instance_karazhan::instance_karazhan_InstanceMapScript::instance_karazhan_InstanceMapScript()</a>, and <a class="el" href="../../#l00173">InstanceScript::LoadObjectData()</a>.</p>
-
-</div>
-</div>
-<a id="a9dacd53568280ba4bb7d0a7c7f65f6cf" name="a9dacd53568280ba4bb7d0a7c7f65f6cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dacd53568280ba4bb7d0a7c7f65f6cf">&#9670;&#160;</a></span>OptionalSpawn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d6/d03/a08202.html">Position</a> OptionalSpawn[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { -10960.981445f, -1940.138428f, 46.178097f, 4.12f }, </div>
-<div class="line">    { -10945.769531f, -2040.153320f, 49.474438f, 0.077f }, </div>
-<div class="line">    { -10899.903320f, -2085.573730f, 49.474449f, 1.38f }  </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00160">instance_karazhan::instance_karazhan_InstanceMapScript::OnUnitDeath()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00024">MTScriptName</a>.</p>
 
 </div>
 </div>
@@ -321,8 +428,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_4741540d90fc7603479c20e4d5a7e517.html">Karazhan</a></li><li class="navelem"><a class="el" href="../../d1/d47/a02300.html">instance_karazhan.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_4833a0d44326dadb3d342e780b1ab9c5.html">MagistersTerrace</a></li><li class="navelem"><a class="el" href="../../d1/d47/a02300.html">magisters_terrace.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

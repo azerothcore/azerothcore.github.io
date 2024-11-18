@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Grids/GridDefines.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/WorldObjectScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,712 +106,73 @@ $(document).ready(function(){initNavTree('d2/d98/a04244.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">GridDefines.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">WorldObjectScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">NGrid.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6d/a08826.html">CoordPair&lt; LIMIT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html">WorldObjectScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a2c6994ea025f427f1485c1c7aaee01fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a2c6994ea025f427f1485c1c7aaee01fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a97ea0a65346620599a3a7dc71cd5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aa0a97ea0a65346620599a3a7dc71cd5d">CENTER_GRID_ID</a>&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>/2)</td></tr>
-<tr class="separator:aa0a97ea0a65346620599a3a7dc71cd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9900a84acd5d539fb56c9b2d7a0b9a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aa9900a84acd5d539fb56c9b2d7a0b9a6">CENTER_GRID_OFFSET</a>&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>/2)</td></tr>
-<tr class="separator:aa9900a84acd5d539fb56c9b2d7a0b9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a204f91e3181b15c48673d54f4900f46c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a204f91e3181b15c48673d54f4900f46c">MIN_GRID_DELAY</a>&#160;&#160;&#160;(<a class="el" href="../../d7/d3f/a00173.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>*<a class="el" href="../../d7/d3f/a00173.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</td></tr>
-<tr class="separator:a204f91e3181b15c48673d54f4900f46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae372d35aed08096c29f83d1f27eacf8c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ae372d35aed08096c29f83d1f27eacf8c">MIN_MAP_UPDATE_DELAY</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ae372d35aed08096c29f83d1f27eacf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b6a301ce296e14e23233b5bcd6929af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a9b6a301ce296e14e23233b5bcd6929af">SIZE_OF_GRID_CELL</a>&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>/<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>)</td></tr>
-<tr class="separator:a9b6a301ce296e14e23233b5bcd6929af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98830d21df912e083fd71157268d5c5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a98830d21df912e083fd71157268d5c5f">CENTER_GRID_CELL_ID</a>&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>*<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>/2)</td></tr>
-<tr class="separator:a98830d21df912e083fd71157268d5c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7629c4f74e4101139df95915a2c60e5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a7629c4f74e4101139df95915a2c60e5b">CENTER_GRID_CELL_OFFSET</a>&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a9b6a301ce296e14e23233b5bcd6929af">SIZE_OF_GRID_CELL</a>/2)</td></tr>
-<tr class="separator:a7629c4f74e4101139df95915a2c60e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39cc058a35736437f70e4b7c5a8876a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a39cc058a35736437f70e4b7c5a8876a3">TOTAL_NUMBER_OF_CELLS_PER_MAP</a>&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>*<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>)</td></tr>
-<tr class="separator:a39cc058a35736437f70e4b7c5a8876a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a350873099e339fcc394b9eefa121ed6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a350873099e339fcc394b9eefa121ed6e">MAP_RESOLUTION</a>&#160;&#160;&#160;128</td></tr>
-<tr class="separator:a350873099e339fcc394b9eefa121ed6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a82fd70402bbdc2259248e735fecbca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a0a82fd70402bbdc2259248e735fecbca">MAP_SIZE</a>&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>*<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>)</td></tr>
-<tr class="separator:a0a82fd70402bbdc2259248e735fecbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9d6737eb1c6d3c55c7707d0ad90d9f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aa9d6737eb1c6d3c55c7707d0ad90d9f0">MAP_HALFSIZE</a>&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a0a82fd70402bbdc2259248e735fecbca">MAP_SIZE</a>/2)</td></tr>
-<tr class="separator:aa9d6737eb1c6d3c55c7707d0ad90d9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8e87d05ee9fb2b4f64470fce9231de12"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; <a class="el" href="../../da/d03/a07750.html">Corpse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a8e87d05ee9fb2b4f64470fce9231de12">CorpseMapType</a></td></tr>
-<tr class="separator:a8e87d05ee9fb2b4f64470fce9231de12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60ef2e7adf9bc71b50d675b4b74980b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; <a class="el" href="../../dc/dbf/a07754.html">Creature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ac60ef2e7adf9bc71b50d675b4b74980b">CreatureMapType</a></td></tr>
-<tr class="separator:ac60ef2e7adf9bc71b50d675b4b74980b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5957bb381cc7067b3da243bb5999e870"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; <a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a5957bb381cc7067b3da243bb5999e870">DynamicObjectMapType</a></td></tr>
-<tr class="separator:a5957bb381cc7067b3da243bb5999e870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad35d1efe9e8a57f45c0740a89bf9fbf"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; <a class="el" href="../../d8/db8/a07930.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aad35d1efe9e8a57f45c0740a89bf9fbf">GameObjectMapType</a></td></tr>
-<tr class="separator:aad35d1efe9e8a57f45c0740a89bf9fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35a7f6754cf9950d0027369ada820e7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt; <a class="el" href="../../d5/d68/a08370.html">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ae35a7f6754cf9950d0027369ada820e7">PlayerMapType</a></td></tr>
-<tr class="separator:ae35a7f6754cf9950d0027369ada820e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af94ee905a9f75da72c1dc3fbaff2c130"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/db0/a08822.html">Grid</a>&lt; <a class="el" href="../../d5/d68/a08370.html">Player</a>, AllWorldObjectTypes, AllGridObjectTypes &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#af94ee905a9f75da72c1dc3fbaff2c130">GridType</a></td></tr>
-<tr class="separator:af94ee905a9f75da72c1dc3fbaff2c130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add392b674e15aca115f182bcde61289d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/d78/a08838.html">NGrid</a>&lt; <a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>, <a class="el" href="../../d5/d68/a08370.html">Player</a>, AllWorldObjectTypes, AllGridObjectTypes &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#add392b674e15aca115f182bcde61289d">NGridType</a></td></tr>
-<tr class="separator:add392b674e15aca115f182bcde61289d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c68e56dd36484469799a782d29c9c0e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt; AllGridObjectTypes &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a6c68e56dd36484469799a782d29c9c0e">GridTypeMapContainer</a></td></tr>
-<tr class="separator:a6c68e56dd36484469799a782d29c9c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb8ca8e4f69040bd100138c05a96c0c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt; AllWorldObjectTypes &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a5bb8ca8e4f69040bd100138c05a96c0c">WorldTypeMapContainer</a></td></tr>
-<tr class="separator:a5bb8ca8e4f69040bd100138c05a96c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad13d154e097273b41f91b7a7e6cccac0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/d72/a05190.html">TypeUnorderedMapContainer</a>&lt; AllMapStoredObjectTypes, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ad13d154e097273b41f91b7a7e6cccac0">MapStoredObjectTypesContainer</a></td></tr>
-<tr class="separator:ad13d154e097273b41f91b7a7e6cccac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56cc9baa50cd4031aeac2999eb38ea37"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; <a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a56cc9baa50cd4031aeac2999eb38ea37">GridCoord</a></td></tr>
-<tr class="separator:a56cc9baa50cd4031aeac2999eb38ea37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7325a29c918309cfd39e8637782f4c5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; <a class="el" href="../../d2/d98/a04244.html#a39cc058a35736437f70e4b7c5a8876a3">TOTAL_NUMBER_OF_CELLS_PER_MAP</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aa7325a29c918309cfd39e8637782f4c5">CellCoord</a></td></tr>
-<tr class="separator:aa7325a29c918309cfd39e8637782f4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ab566123309f520dd2c1cc7388816c0f1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1">GridMapTypeMask</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f">GRID_MAP_TYPE_MASK_CORPSE</a> = 0x01
+<tr class="memitem:ab8a14556853bd2637a19973d68ba6d1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1c">WorldObjectHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce">WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7">GRID_MAP_TYPE_MASK_CREATURE</a> = 0x02
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c">WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8">GRID_MAP_TYPE_MASK_DYNAMICOBJECT</a> = 0x04
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100">WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173">GRID_MAP_TYPE_MASK_GAMEOBJECT</a> = 0x08
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241">WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e">GRID_MAP_TYPE_MASK_PLAYER</a> = 0x10
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144">WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7">GRID_MAP_TYPE_MASK_ALL</a> = 0x1F
+&#160;&#160;<a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59">WORLDOBJECTHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:ab566123309f520dd2c1cc7388816c0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a54d5f8fa4ee11ed66448ceffee1f1470"><td class="memItemLeft" align="right" valign="top">typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a54d5f8fa4ee11ed66448ceffee1f1470">TYPELIST_5</a> (<a class="el" href="../../d8/db8/a07930.html">GameObject</a>, <a class="el" href="../../d5/d68/a08370.html">Player</a>, <a class="el" href="../../dc/dbf/a07754.html">Creature</a>, <a class="el" href="../../da/d03/a07750.html">Corpse</a>, <a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>) AllWorldObjectTypes</td></tr>
-<tr class="separator:a54d5f8fa4ee11ed66448ceffee1f1470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ebde15d217643470aa78ab8c0802fa3"><td class="memItemLeft" align="right" valign="top">typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a5ebde15d217643470aa78ab8c0802fa3">TYPELIST_4</a> (<a class="el" href="../../d8/db8/a07930.html">GameObject</a>, <a class="el" href="../../dc/dbf/a07754.html">Creature</a>, <a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>, <a class="el" href="../../da/d03/a07750.html">Corpse</a>) AllGridObjectTypes</td></tr>
-<tr class="separator:a5ebde15d217643470aa78ab8c0802fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0461f7fcad6a1a978cffb6845cf9b4ed"><td class="memItemLeft" align="right" valign="top">typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#a0461f7fcad6a1a978cffb6845cf9b4ed">TYPELIST_5</a> (<a class="el" href="../../dc/dbf/a07754.html">Creature</a>, <a class="el" href="../../d8/db8/a07930.html">GameObject</a>, <a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>, <a class="el" href="../../de/d8b/a08238.html">Pet</a>, <a class="el" href="../../da/d03/a07750.html">Corpse</a>) AllMapStoredObjectTypes</td></tr>
-<tr class="separator:a0461f7fcad6a1a978cffb6845cf9b4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7265bcec280e27580381098105c0cae"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> LIMIT&gt; </td></tr>
-<tr class="memitem:aa7265bcec280e27580381098105c0cae"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#aa7265bcec280e27580381098105c0cae">operator==</a> (const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;p1, const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;p2)</td></tr>
-<tr class="separator:aa7265bcec280e27580381098105c0cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af248e8cd4ecc7161bfb1e6aa879f3cd5"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> LIMIT&gt; </td></tr>
-<tr class="memitem:af248e8cd4ecc7161bfb1e6aa879f3cd5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d98/a04244.html#af248e8cd4ecc7161bfb1e6aa879f3cd5">operator!=</a> (const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;p1, const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;p2)</td></tr>
-<tr class="separator:af248e8cd4ecc7161bfb1e6aa879f3cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2542f72c47ba39557150d861147748d1"><td class="memTemplParams" colspan="2">template&lt;class RET_TYPE , int CENTER_VAL&gt; </td></tr>
-<tr class="memitem:a2542f72c47ba39557150d861147748d1"><td class="memTemplItemLeft" align="right" valign="top">RET_TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a2542f72c47ba39557150d861147748d1">Acore::Compute</a> (float x, float y, float center_offset, float size)</td></tr>
-<tr class="separator:a2542f72c47ba39557150d861147748d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bbdd5e55a789ab8b861c1205f122b0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d98/a04244.html#a56cc9baa50cd4031aeac2999eb38ea37">GridCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a4bbdd5e55a789ab8b861c1205f122b0e">Acore::ComputeGridCoord</a> (float x, float y)</td></tr>
-<tr class="separator:a4bbdd5e55a789ab8b861c1205f122b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af056a475dba505792191bc6e8c3370a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d98/a04244.html#aa7325a29c918309cfd39e8637782f4c5">CellCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#af056a475dba505792191bc6e8c3370a5">Acore::ComputeCellCoord</a> (float x, float y)</td></tr>
-<tr class="separator:af056a475dba505792191bc6e8c3370a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140264392cb3077ed7bb734e39b73310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d98/a04244.html#aa7325a29c918309cfd39e8637782f4c5">CellCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a140264392cb3077ed7bb734e39b73310">Acore::ComputeCellCoord</a> (float x, float y, float &amp;x_off, float &amp;y_off)</td></tr>
-<tr class="separator:a140264392cb3077ed7bb734e39b73310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081c4b764dd94224c4a046465c5c6274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a081c4b764dd94224c4a046465c5c6274">Acore::NormalizeMapCoord</a> (float &amp;c)</td></tr>
-<tr class="separator:a081c4b764dd94224c4a046465c5c6274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d982635f9cfc01b01bd05b05ceac08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#aa0d982635f9cfc01b01bd05b05ceac08">Acore::IsValidMapCoord</a> (float c)</td></tr>
-<tr class="separator:aa0d982635f9cfc01b01bd05b05ceac08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c11bc4959af5a82722cea1c36010c09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a9c11bc4959af5a82722cea1c36010c09">Acore::IsValidMapCoord</a> (float x, float y)</td></tr>
-<tr class="separator:a9c11bc4959af5a82722cea1c36010c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62d3e020a11429b8f6077c1ae189ac26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a62d3e020a11429b8f6077c1ae189ac26">Acore::IsValidMapCoord</a> (float x, float y, float z)</td></tr>
-<tr class="separator:a62d3e020a11429b8f6077c1ae189ac26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355df1d62e245473475d330ef6c45bae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html#a355df1d62e245473475d330ef6c45bae">Acore::IsValidMapCoord</a> (float x, float y, float z, float o)</td></tr>
-<tr class="separator:a355df1d62e245473475d330ef6c45bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab8a14556853bd2637a19973d68ba6d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a98830d21df912e083fd71157268d5c5f" name="a98830d21df912e083fd71157268d5c5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98830d21df912e083fd71157268d5c5f">&#9670;&#160;</a></span>CENTER_GRID_CELL_ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CENTER_GRID_CELL_ID&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>*<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7629c4f74e4101139df95915a2c60e5b" name="a7629c4f74e4101139df95915a2c60e5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7629c4f74e4101139df95915a2c60e5b">&#9670;&#160;</a></span>CENTER_GRID_CELL_OFFSET</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CENTER_GRID_CELL_OFFSET&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a9b6a301ce296e14e23233b5bcd6929af">SIZE_OF_GRID_CELL</a>/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa0a97ea0a65346620599a3a7dc71cd5d" name="aa0a97ea0a65346620599a3a7dc71cd5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0a97ea0a65346620599a3a7dc71cd5d">&#9670;&#160;</a></span>CENTER_GRID_ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CENTER_GRID_ID&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa9900a84acd5d539fb56c9b2d7a0b9a6" name="aa9900a84acd5d539fb56c9b2d7a0b9a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9900a84acd5d539fb56c9b2d7a0b9a6">&#9670;&#160;</a></span>CENTER_GRID_OFFSET</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CENTER_GRID_OFFSET&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa9d6737eb1c6d3c55c7707d0ad90d9f0" name="aa9d6737eb1c6d3c55c7707d0ad90d9f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9d6737eb1c6d3c55c7707d0ad90d9f0">&#9670;&#160;</a></span>MAP_HALFSIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAP_HALFSIZE&#160;&#160;&#160;(<a class="el" href="../../d2/d98/a04244.html#a0a82fd70402bbdc2259248e735fecbca">MAP_SIZE</a>/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a350873099e339fcc394b9eefa121ed6e" name="a350873099e339fcc394b9eefa121ed6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a350873099e339fcc394b9eefa121ed6e">&#9670;&#160;</a></span>MAP_RESOLUTION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAP_RESOLUTION&#160;&#160;&#160;128</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a82fd70402bbdc2259248e735fecbca" name="a0a82fd70402bbdc2259248e735fecbca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a82fd70402bbdc2259248e735fecbca">&#9670;&#160;</a></span>MAP_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAP_SIZE&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>*<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c6994ea025f427f1485c1c7aaee01fe" name="a2c6994ea025f427f1485c1c7aaee01fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c6994ea025f427f1485c1c7aaee01fe">&#9670;&#160;</a></span>MAX_NUMBER_OF_CELLS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_NUMBER_OF_CELLS&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a204f91e3181b15c48673d54f4900f46c" name="a204f91e3181b15c48673d54f4900f46c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a204f91e3181b15c48673d54f4900f46c">&#9670;&#160;</a></span>MIN_GRID_DELAY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_GRID_DELAY&#160;&#160;&#160;(<a class="el" href="../../d7/d3f/a00173.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>*<a class="el" href="../../d7/d3f/a00173.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae372d35aed08096c29f83d1f27eacf8c" name="ae372d35aed08096c29f83d1f27eacf8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae372d35aed08096c29f83d1f27eacf8c">&#9670;&#160;</a></span>MIN_MAP_UPDATE_DELAY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_MAP_UPDATE_DELAY&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9b6a301ce296e14e23233b5bcd6929af" name="a9b6a301ce296e14e23233b5bcd6929af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b6a301ce296e14e23233b5bcd6929af">&#9670;&#160;</a></span>SIZE_OF_GRID_CELL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SIZE_OF_GRID_CELL&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>/<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39cc058a35736437f70e4b7c5a8876a3" name="a39cc058a35736437f70e4b7c5a8876a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39cc058a35736437f70e4b7c5a8876a3">&#9670;&#160;</a></span>TOTAL_NUMBER_OF_CELLS_PER_MAP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TOTAL_NUMBER_OF_CELLS_PER_MAP&#160;&#160;&#160;(<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>*<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="aa7325a29c918309cfd39e8637782f4c5" name="aa7325a29c918309cfd39e8637782f4c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7325a29c918309cfd39e8637782f4c5">&#9670;&#160;</a></span>CellCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt;<a class="el" href="../../d2/d98/a04244.html#a39cc058a35736437f70e4b7c5a8876a3">TOTAL_NUMBER_OF_CELLS_PER_MAP</a>&gt; <a class="el" href="../../d2/d98/a04244.html#aa7325a29c918309cfd39e8637782f4c5">CellCoord</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8e87d05ee9fb2b4f64470fce9231de12" name="a8e87d05ee9fb2b4f64470fce9231de12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e87d05ee9fb2b4f64470fce9231de12">&#9670;&#160;</a></span>CorpseMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt;<a class="el" href="../../da/d03/a07750.html">Corpse</a>&gt; <a class="el" href="../../d2/d98/a04244.html#a8e87d05ee9fb2b4f64470fce9231de12">CorpseMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac60ef2e7adf9bc71b50d675b4b74980b" name="ac60ef2e7adf9bc71b50d675b4b74980b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac60ef2e7adf9bc71b50d675b4b74980b">&#9670;&#160;</a></span>CreatureMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt;<a class="el" href="../../dc/dbf/a07754.html">Creature</a>&gt; <a class="el" href="../../d2/d98/a04244.html#ac60ef2e7adf9bc71b50d675b4b74980b">CreatureMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5957bb381cc7067b3da243bb5999e870" name="a5957bb381cc7067b3da243bb5999e870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5957bb381cc7067b3da243bb5999e870">&#9670;&#160;</a></span>DynamicObjectMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt;<a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>&gt; <a class="el" href="../../d2/d98/a04244.html#a5957bb381cc7067b3da243bb5999e870">DynamicObjectMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad35d1efe9e8a57f45c0740a89bf9fbf" name="aad35d1efe9e8a57f45c0740a89bf9fbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad35d1efe9e8a57f45c0740a89bf9fbf">&#9670;&#160;</a></span>GameObjectMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt;<a class="el" href="../../d8/db8/a07930.html">GameObject</a>&gt; <a class="el" href="../../d2/d98/a04244.html#aad35d1efe9e8a57f45c0740a89bf9fbf">GameObjectMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a56cc9baa50cd4031aeac2999eb38ea37" name="a56cc9baa50cd4031aeac2999eb38ea37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56cc9baa50cd4031aeac2999eb38ea37">&#9670;&#160;</a></span>GridCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt;<a class="el" href="../../d4/dfb/a00512.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>&gt; <a class="el" href="../../d2/d98/a04244.html#a56cc9baa50cd4031aeac2999eb38ea37">GridCoord</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af94ee905a9f75da72c1dc3fbaff2c130" name="af94ee905a9f75da72c1dc3fbaff2c130"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af94ee905a9f75da72c1dc3fbaff2c130">&#9670;&#160;</a></span>GridType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/db0/a08822.html">Grid</a>&lt;<a class="el" href="../../d5/d68/a08370.html">Player</a>, AllWorldObjectTypes, AllGridObjectTypes&gt; <a class="el" href="../../d2/d98/a04244.html#af94ee905a9f75da72c1dc3fbaff2c130">GridType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6c68e56dd36484469799a782d29c9c0e" name="a6c68e56dd36484469799a782d29c9c0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c68e56dd36484469799a782d29c9c0e">&#9670;&#160;</a></span>GridTypeMapContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt;AllGridObjectTypes&gt; <a class="el" href="../../d2/d98/a04244.html#a6c68e56dd36484469799a782d29c9c0e">GridTypeMapContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad13d154e097273b41f91b7a7e6cccac0" name="ad13d154e097273b41f91b7a7e6cccac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad13d154e097273b41f91b7a7e6cccac0">&#9670;&#160;</a></span>MapStoredObjectTypesContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d2/d72/a05190.html">TypeUnorderedMapContainer</a>&lt;AllMapStoredObjectTypes, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a>&gt; <a class="el" href="../../d2/d98/a04244.html#ad13d154e097273b41f91b7a7e6cccac0">MapStoredObjectTypesContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="add392b674e15aca115f182bcde61289d" name="add392b674e15aca115f182bcde61289d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add392b674e15aca115f182bcde61289d">&#9670;&#160;</a></span>NGridType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/d78/a08838.html">NGrid</a>&lt;<a class="el" href="../../d2/d98/a04244.html#a2c6994ea025f427f1485c1c7aaee01fe">MAX_NUMBER_OF_CELLS</a>, <a class="el" href="../../d5/d68/a08370.html">Player</a>, AllWorldObjectTypes, AllGridObjectTypes&gt; <a class="el" href="../../d2/d98/a04244.html#add392b674e15aca115f182bcde61289d">NGridType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae35a7f6754cf9950d0027369ada820e7" name="ae35a7f6754cf9950d0027369ada820e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae35a7f6754cf9950d0027369ada820e7">&#9670;&#160;</a></span>PlayerMapType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/d70/a08830.html">GridRefMgr</a>&lt;<a class="el" href="../../d5/d68/a08370.html">Player</a>&gt; <a class="el" href="../../d2/d98/a04244.html#ae35a7f6754cf9950d0027369ada820e7">PlayerMapType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5bb8ca8e4f69040bd100138c05a96c0c" name="a5bb8ca8e4f69040bd100138c05a96c0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bb8ca8e4f69040bd100138c05a96c0c">&#9670;&#160;</a></span>WorldTypeMapContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../db/d21/a05186.html">TypeMapContainer</a>&lt;AllWorldObjectTypes&gt; <a class="el" href="../../d2/d98/a04244.html#a5bb8ca8e4f69040bd100138c05a96c0c">WorldTypeMapContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ab566123309f520dd2c1cc7388816c0f1" name="ab566123309f520dd2c1cc7388816c0f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab566123309f520dd2c1cc7388816c0f1">&#9670;&#160;</a></span>GridMapTypeMask</h2>
+<a id="ab8a14556853bd2637a19973d68ba6d1c" name="ab8a14556853bd2637a19973d68ba6d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a14556853bd2637a19973d68ba6d1c">&#9670;&#160;</a></span>WorldObjectHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1">GridMapTypeMask</a></td>
+          <td class="memname">enum <a class="el" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1c">WorldObjectHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f" name="ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f"></a>GRID_MAP_TYPE_MASK_CORPSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7" name="ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7"></a>GRID_MAP_TYPE_MASK_CREATURE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8" name="ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8"></a>GRID_MAP_TYPE_MASK_DYNAMICOBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173" name="ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173"></a>GRID_MAP_TYPE_MASK_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e" name="ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e"></a>GRID_MAP_TYPE_MASK_PLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7" name="ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7"></a>GRID_MAP_TYPE_MASK_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce" name="ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce"></a>WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c" name="ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c"></a>WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100" name="ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100"></a>WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241" name="ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241"></a>WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144" name="ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144"></a>WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59" name="ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59"></a>WORLDOBJECTHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f">GRID_MAP_TYPE_MASK_CORPSE</a>           = 0x01,</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7">GRID_MAP_TYPE_MASK_CREATURE</a>         = 0x02,</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8">GRID_MAP_TYPE_MASK_DYNAMICOBJECT</a>    = 0x04,</div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173">GRID_MAP_TYPE_MASK_GAMEOBJECT</a>       = 0x08,</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e">GRID_MAP_TYPE_MASK_PLAYER</a>           = 0x10,</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7">GRID_MAP_TYPE_MASK_ALL</a>              = 0x1F</div>
-<div class="line"><span class="lineno">   74</span>};</div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e">GRID_MAP_TYPE_MASK_PLAYER</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_PLAYER</div><div class="ttdef"><b>Definition:</b> GridDefines.h:72</div></div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7">GRID_MAP_TYPE_MASK_CREATURE</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_CREATURE</div><div class="ttdef"><b>Definition:</b> GridDefines.h:69</div></div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a911d5a5a64d897a2295ecd8366a763f7">GRID_MAP_TYPE_MASK_ALL</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_ALL</div><div class="ttdef"><b>Definition:</b> GridDefines.h:73</div></div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173">GRID_MAP_TYPE_MASK_GAMEOBJECT</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> GridDefines.h:71</div></div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8">GRID_MAP_TYPE_MASK_DYNAMICOBJECT</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> GridDefines.h:70</div></div>
-<div class="ttc" id="aa04244_html_ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f"><div class="ttname"><a href="../../d2/d98/a04244.html#ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f">GRID_MAP_TYPE_MASK_CORPSE</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_CORPSE</div><div class="ttdef"><b>Definition:</b> GridDefines.h:68</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce">WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c">WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100">WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241">WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144">WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59">WORLDOBJECTHOOK_END</a></div>
+<div class="line"><span class="lineno">   32</span>};</div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100">WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:28</div></div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce">WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:26</div></div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59">WORLDOBJECTHOOK_END</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_END</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:31</div></div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144">WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:30</div></div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c">WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:27</div></div>
+<div class="ttc" id="aa04244_html_ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241"><div class="ttname"><a href="../../d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241">WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP</a></div><div class="ttdeci">@ WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP</div><div class="ttdef"><b>Definition:</b> WorldObjectScript.h:29</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="af248e8cd4ecc7161bfb1e6aa879f3cd5" name="af248e8cd4ecc7161bfb1e6aa879f3cd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af248e8cd4ecc7161bfb1e6aa879f3cd5">&#9670;&#160;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> LIMIT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  164</span>{</div>
-<div class="line"><span class="lineno">  165</span>    <span class="keywordflow">return</span> !(p1 == p2);</div>
-<div class="line"><span class="lineno">  166</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa7265bcec280e27580381098105c0cae" name="aa7265bcec280e27580381098105c0cae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7265bcec280e27580381098105c0cae">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> LIMIT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d6d/a08826.html">CoordPair</a>&lt; LIMIT &gt; &amp;&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
-<div class="line"><span class="lineno">  159</span>    <span class="keywordflow">return</span> (p1.<a class="code hl_variable" href="../../d4/d6d/a08826.html#a101dd71af6a2cba18140aea2e502ef8b">x_coord</a> == p2.<a class="code hl_variable" href="../../d4/d6d/a08826.html#a101dd71af6a2cba18140aea2e502ef8b">x_coord</a> &amp;&amp; p1.<a class="code hl_variable" href="../../d4/d6d/a08826.html#aacae12844cc0c0d70e26b137ad28f700">y_coord</a> == p2.<a class="code hl_variable" href="../../d4/d6d/a08826.html#aacae12844cc0c0d70e26b137ad28f700">y_coord</a>);</div>
-<div class="line"><span class="lineno">  160</span>}</div>
-<div class="ttc" id="aa08826_html_a101dd71af6a2cba18140aea2e502ef8b"><div class="ttname"><a href="../../d4/d6d/a08826.html#a101dd71af6a2cba18140aea2e502ef8b">CoordPair::x_coord</a></div><div class="ttdeci">uint32 x_coord</div><div class="ttdef"><b>Definition:</b> GridDefines.h:152</div></div>
-<div class="ttc" id="aa08826_html_aacae12844cc0c0d70e26b137ad28f700"><div class="ttname"><a href="../../d4/d6d/a08826.html#aacae12844cc0c0d70e26b137ad28f700">CoordPair::y_coord</a></div><div class="ttdeci">uint32 y_coord</div><div class="ttdef"><b>Definition:</b> GridDefines.h:153</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00152">CoordPair&lt; LIMIT &gt;::x_coord</a>, and <a class="el" href="../../#l00153">CoordPair&lt; LIMIT &gt;::y_coord</a>.</p>
-
-</div>
-</div>
-<a id="a5ebde15d217643470aa78ab8c0802fa3" name="a5ebde15d217643470aa78ab8c0802fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ebde15d217643470aa78ab8c0802fa3">&#9670;&#160;</a></span>TYPELIST_4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef TYPELIST_4 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/db8/a07930.html">GameObject</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dbf/a07754.html">Creature</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d03/a07750.html">Corpse</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0461f7fcad6a1a978cffb6845cf9b4ed" name="a0461f7fcad6a1a978cffb6845cf9b4ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0461f7fcad6a1a978cffb6845cf9b4ed">&#9670;&#160;</a></span>TYPELIST_5() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef TYPELIST_5 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/dbf/a07754.html">Creature</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/db8/a07930.html">GameObject</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d8b/a08238.html">Pet</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d03/a07750.html">Corpse</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54d5f8fa4ee11ed66448ceffee1f1470" name="a54d5f8fa4ee11ed66448ceffee1f1470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54d5f8fa4ee11ed66448ceffee1f1470">&#9670;&#160;</a></span>TYPELIST_5() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef TYPELIST_5 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/db8/a07930.html">GameObject</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d68/a08370.html">Player</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dbf/a07754.html">Creature</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d03/a07750.html">Corpse</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d9f/a07902.html">DynamicObject</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
@@ -819,8 +180,8 @@ template&lt;<a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_444e7ca7970920cb061ebbb02397ba46.html">Grids</a></li><li class="navelem"><a class="el" href="../../d2/d98/a04244.html">GridDefines.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d2/d98/a04244.html">WorldObjectScript.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

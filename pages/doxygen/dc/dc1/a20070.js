@@ -1,9 +1,6 @@
 var a20070 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "dc/dc1/a20070.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
-    [ "DoAction", "dc/dc1/a20070.html#ac5d0e28ee330741da3b287d965537f39", null ],
-    [ "Reset", "dc/dc1/a20070.html#a91207c04ecee6fc0e906133e054bf51b", null ],
-    [ "UpdateAI", "dc/dc1/a20070.html#aebec433e806d4f63f5593db0301612b4", null ],
-    [ "option", "dc/dc1/a20070.html#a98bb19fea19a05127b4b32df039acf05", null ],
-    [ "timer", "dc/dc1/a20070.html#a118d048557b0ed314180299c3cd2bcbc", null ]
+    [ "npc_ulduar_magnetic_coreAI", "d2/d24/a20074.html", "d2/d24/a20074" ],
+    [ "npc_ulduar_magnetic_core", "dc/dc1/a20070.html#a788a1a6d3ec28c866d6b8cb112fe8071", null ],
+    [ "GetAI", "dc/dc1/a20070.html#a3adcc5c7650e2b016f02a1160c3fa6ab", null ]
 ];

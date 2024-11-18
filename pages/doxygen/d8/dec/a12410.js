@@ -1,18 +1,13 @@
 var a12410 =
 [
-    [ "boss_romulo", "d8/dec/a12410.html#a497e0e57d2abb6640081c1d141a588ff", null ],
-    [ "DamageTaken", "d8/dec/a12410.html#a603db3883d03367406cbcf3f2cb28a08", null ],
-    [ "DoAction", "d8/dec/a12410.html#acc23f4f4f5856b9956a764c1f69bbc92", null ],
-    [ "EnterEvadeMode", "d8/dec/a12410.html#ab4dda6b70337668dd36a582e8439c3db", null ],
-    [ "JustDied", "d8/dec/a12410.html#aa60d8fe07db9444f25eec9de9e5bf365", null ],
-    [ "JustEngagedWith", "d8/dec/a12410.html#ab13e2a4ebe8a1956f6de460cdb9b199d", null ],
-    [ "JustReachedHome", "d8/dec/a12410.html#af8bff3f1c107dc7d8beae7956a25fbcc", null ],
-    [ "KilledUnit", "d8/dec/a12410.html#ae4ca6736913cc8df4d016876a8fd8576", null ],
-    [ "Reset", "d8/dec/a12410.html#a15703ee7df979b8ee5892dacf84066e2", null ],
-    [ "ScheduleCombat", "d8/dec/a12410.html#a4cc20dccb171d1f4d3c680b6b5310e73", null ],
-    [ "UpdateAI", "d8/dec/a12410.html#ac42df238a2ad354a2fb21ebb558734c6", null ],
-    [ "_scheduler", "d8/dec/a12410.html#a456abfa48f038e904c427179c2a10edb", null ],
-    [ "instance", "d8/dec/a12410.html#aae979b72844ff8fcc70956925df4fa9b", null ],
-    [ "isFakingDeath", "d8/dec/a12410.html#a88ccbe761b4703e4f309d1bb3fca4085", null ],
-    [ "phase", "d8/dec/a12410.html#ab549436aec35727665150d51f1c25714", null ]
+    [ "boss_crone", "d8/dec/a12410.html#a710bdf6fac05be54cf10e40cd661c837", null ],
+    [ "EnterEvadeMode", "d8/dec/a12410.html#a4dcdde0b699f445cfa6be7e0c7dbb8d0", null ],
+    [ "JustDied", "d8/dec/a12410.html#a545de2a25b48590d11896c41b6e94df0", null ],
+    [ "JustEngagedWith", "d8/dec/a12410.html#a9801cd39667d1a08770820bd17beac00", null ],
+    [ "JustReachedHome", "d8/dec/a12410.html#a59d40cda923cb8b72413b9d5f267f52a", null ],
+    [ "KilledUnit", "d8/dec/a12410.html#ae4d343636955589d740d1df4e21fba99", null ],
+    [ "Reset", "d8/dec/a12410.html#a247db7fc1329ef00e48fd9bd09fb27a1", null ],
+    [ "UpdateAI", "d8/dec/a12410.html#a8bd505acd55ca5292d29c96916a461e5", null ],
+    [ "_scheduler", "d8/dec/a12410.html#a7f9e2e45c0bbb60fc19dd54bc380f814", null ],
+    [ "instance", "d8/dec/a12410.html#a3795fe3185005693ed9bba49177bb35a", null ]
 ];

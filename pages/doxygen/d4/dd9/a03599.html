@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/ArenaSpectator/ArenaSpectator.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/QuestHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,187 +104,34 @@ $(document).ready(function(){initNavTree('d4/dd9/a03599.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ArenaSpectator.h File Reference</div></div>
+  <div class="headertitle"><div class="title">QuestHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundAV.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QuestDef.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d0/d51/a04710"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html">ArenaSpectator</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ae3d7b03163a946f567eb34e902d0b424"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#ae3d7b03163a946f567eb34e902d0b424">SPECTATOR_ADDON_VERSION</a>&#160;&#160;&#160;27</td></tr>
-<tr class="separator:ae3d7b03163a946f567eb34e902d0b424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf210ab6f5a013e4f37def30f79b2a2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#adf210ab6f5a013e4f37def30f79b2a2c">SPECTATOR_BUFFER_LEN</a>&#160;&#160;&#160;150</td></tr>
-<tr class="separator:adf210ab6f5a013e4f37def30f79b2a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad208fe13d99ebdd4ecc344c284d15e68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#ad208fe13d99ebdd4ecc344c284d15e68">SPECTATOR_ADDON_PREFIX</a>&#160;&#160;&#160;&quot;ASSUN\x09&quot;</td></tr>
-<tr class="separator:ad208fe13d99ebdd4ecc344c284d15e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2182c49e417fd86e25b7c2a209d044b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#ad2182c49e417fd86e25b7c2a209d044b">SPECTATOR_COOLDOWN_MIN</a>&#160;&#160;&#160;20</td></tr>
-<tr class="separator:ad2182c49e417fd86e25b7c2a209d044b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5caad2c604ec8c4fe2b2653a9a629d23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#a5caad2c604ec8c4fe2b2653a9a629d23">SPECTATOR_COOLDOWN_MAX</a>&#160;&#160;&#160;900</td></tr>
-<tr class="separator:a5caad2c604ec8c4fe2b2653a9a629d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45eed6b7e374a4b2ea26b3dd5ee915d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#a45eed6b7e374a4b2ea26b3dd5ee915d0">SPECTATOR_SPELL_BINDSIGHT</a>&#160;&#160;&#160;6277</td></tr>
-<tr class="separator:a45eed6b7e374a4b2ea26b3dd5ee915d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a183131cf51fa6957a40f07d8d524ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a03599.html#a3a183131cf51fa6957a40f07d8d524ef">SPECTATOR_SPELL_SPEED</a>&#160;&#160;&#160;1557</td></tr>
-<tr class="separator:a3a183131cf51fa6957a40f07d8d524ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abc5c395f3697c21f09c4e70a81f02497"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:abc5c395f3697c21f09c4e70a81f02497"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#abc5c395f3697c21f09c4e70a81f02497">ArenaSpectator::SendPacketTo</a> (const T *object, std::string &amp;&amp;message)</td></tr>
-<tr class="separator:abc5c395f3697c21f09c4e70a81f02497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4824203dd64e1ddcd47642df9d465ea0"><td class="memTemplParams" colspan="2">template&lt;class T , typename Format , typename... Args&gt; </td></tr>
-<tr class="memitem:a4824203dd64e1ddcd47642df9d465ea0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a4824203dd64e1ddcd47642df9d465ea0">ArenaSpectator::SendCommand</a> (T *o, Format &amp;&amp;fmt, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a4824203dd64e1ddcd47642df9d465ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7839fd6177447b31578a19f8ee8e42a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ac7839fd6177447b31578a19f8ee8e42a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#ac7839fd6177447b31578a19f8ee8e42a">ArenaSpectator::SendCommand_String</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, const char *c)</td></tr>
-<tr class="separator:ac7839fd6177447b31578a19f8ee8e42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae899637e3543ca40ec63e98bf0426f58"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ae899637e3543ca40ec63e98bf0426f58"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#ae899637e3543ca40ec63e98bf0426f58">ArenaSpectator::SendCommand_UInt32Value</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> t)</td></tr>
-<tr class="separator:ae899637e3543ca40ec63e98bf0426f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af537ad9da6345b285d2d726b640a0340"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:af537ad9da6345b285d2d726b640a0340"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#af537ad9da6345b285d2d726b640a0340">ArenaSpectator::SendCommand_GUID</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> t)</td></tr>
-<tr class="separator:af537ad9da6345b285d2d726b640a0340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a461f69ba88de17058481bc77a3e9f7bb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a461f69ba88de17058481bc77a3e9f7bb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a461f69ba88de17058481bc77a3e9f7bb">ArenaSpectator::SendCommand_Spell</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> casttime)</td></tr>
-<tr class="separator:a461f69ba88de17058481bc77a3e9f7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e336b6d62f2d9e24551cfb96c7a8679"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5e336b6d62f2d9e24551cfb96c7a8679"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a5e336b6d62f2d9e24551cfb96c7a8679">ArenaSpectator::SendCommand_Cooldown</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> dur, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> maxdur)</td></tr>
-<tr class="separator:a5e336b6d62f2d9e24551cfb96c7a8679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a918c7c3c9fd7d26b7a78f2e6d13e1e27"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a918c7c3c9fd7d26b7a78f2e6d13e1e27"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a918c7c3c9fd7d26b7a78f2e6d13e1e27">ArenaSpectator::SendCommand_Aura</a> (T *o, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, const char *prefix, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> caster, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, bool isDebuff, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> dispel, <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> dur, <a class="el" href="../../db/dd9/a00179.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> maxdur, <a class="el" href="../../db/dd9/a00179.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> stack, bool remove)</td></tr>
-<tr class="separator:a918c7c3c9fd7d26b7a78f2e6d13e1e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b35eed76fdcf00f43b226912317b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#ac3b35eed76fdcf00f43b226912317b4a">ArenaSpectator::HandleSpectatorSpectateCommand</a> (<a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> *handler, std::string const &amp;name)</td></tr>
-<tr class="separator:ac3b35eed76fdcf00f43b226912317b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae611c9f6783ca983d1ff667f36dd7c7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#ae611c9f6783ca983d1ff667f36dd7c7d">ArenaSpectator::HandleSpectatorWatchCommand</a> (<a class="el" href="../../d7/d12/a07270.html">ChatHandler</a> *handler, std::string const &amp;name)</td></tr>
-<tr class="separator:ae611c9f6783ca983d1ff667f36dd7c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20983eb9cb8e3f584a4d8f752586d06b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a20983eb9cb8e3f584a4d8f752586d06b">ArenaSpectator::CreatePacket</a> (<a class="el" href="../../d2/d10/a10682.html">WorldPacket</a> &amp;data, std::string const &amp;message)</td></tr>
-<tr class="separator:a20983eb9cb8e3f584a4d8f752586d06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4508ccc26eb193b85e4d229a088c6be5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a4508ccc26eb193b85e4d229a088c6be5">ArenaSpectator::HandleResetCommand</a> (<a class="el" href="../../d5/d68/a08370.html">Player</a> *player)</td></tr>
-<tr class="separator:a4508ccc26eb193b85e4d229a088c6be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29f78349223aca49d417c3f818b2dd4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd9/a00179.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a04710.html#a29f78349223aca49d417c3f818b2dd4c">ArenaSpectator::ShouldSendAura</a> (<a class="el" href="../../de/d41/a10778.html">Aura</a> *aura, <a class="el" href="../../db/dd9/a00179.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> effMask, <a class="el" href="../../d3/d4c/a08174.html">ObjectGuid</a> targetGUID, bool remove)</td></tr>
-<tr class="separator:a29f78349223aca49d417c3f818b2dd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad208fe13d99ebdd4ecc344c284d15e68" name="ad208fe13d99ebdd4ecc344c284d15e68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad208fe13d99ebdd4ecc344c284d15e68">&#9670;&#160;</a></span>SPECTATOR_ADDON_PREFIX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_ADDON_PREFIX&#160;&#160;&#160;&quot;ASSUN\x09&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae3d7b03163a946f567eb34e902d0b424" name="ae3d7b03163a946f567eb34e902d0b424"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3d7b03163a946f567eb34e902d0b424">&#9670;&#160;</a></span>SPECTATOR_ADDON_VERSION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_ADDON_VERSION&#160;&#160;&#160;27</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adf210ab6f5a013e4f37def30f79b2a2c" name="adf210ab6f5a013e4f37def30f79b2a2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf210ab6f5a013e4f37def30f79b2a2c">&#9670;&#160;</a></span>SPECTATOR_BUFFER_LEN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_BUFFER_LEN&#160;&#160;&#160;150</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5caad2c604ec8c4fe2b2653a9a629d23" name="a5caad2c604ec8c4fe2b2653a9a629d23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5caad2c604ec8c4fe2b2653a9a629d23">&#9670;&#160;</a></span>SPECTATOR_COOLDOWN_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_COOLDOWN_MAX&#160;&#160;&#160;900</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad2182c49e417fd86e25b7c2a209d044b" name="ad2182c49e417fd86e25b7c2a209d044b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2182c49e417fd86e25b7c2a209d044b">&#9670;&#160;</a></span>SPECTATOR_COOLDOWN_MIN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_COOLDOWN_MIN&#160;&#160;&#160;20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45eed6b7e374a4b2ea26b3dd5ee915d0" name="a45eed6b7e374a4b2ea26b3dd5ee915d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45eed6b7e374a4b2ea26b3dd5ee915d0">&#9670;&#160;</a></span>SPECTATOR_SPELL_BINDSIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_SPELL_BINDSIGHT&#160;&#160;&#160;6277</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3a183131cf51fa6957a40f07d8d524ef" name="a3a183131cf51fa6957a40f07d8d524ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a183131cf51fa6957a40f07d8d524ef">&#9670;&#160;</a></span>SPECTATOR_SPELL_SPEED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPECTATOR_SPELL_SPEED&#160;&#160;&#160;1557</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ac0cbeb0a5f89d2c9966c7d739794b5c.html">ArenaSpectator</a></li><li class="navelem"><a class="el" href="../../d4/dd9/a03599.html">ArenaSpectator.h</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d4/dd9/a03599.html">QuestHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

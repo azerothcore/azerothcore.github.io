@@ -1,6 +1,6 @@
 var a12466 =
 [
-    [ "HandleAfterCast", "df/d91/a12466.html#a5ca38a2828359e4f373323d1d6cc91cf", null ],
-    [ "PrepareSpellScript", "df/d91/a12466.html#aa0956db2d03405a54893bc30516f5839", null ],
-    [ "Register", "df/d91/a12466.html#a45726adacf1d30b5488df54f57447c0c", null ]
+    [ "npc_image_of_medivhAI", "df/d92/a12470.html", "df/d92/a12470" ],
+    [ "npc_image_of_medivh", "df/d91/a12466.html#a55ee6f97bc7f144209927a2813cab6a9", null ],
+    [ "GetAI", "df/d91/a12466.html#a11769c47fda3f1c4d8d80329f70d1957", null ]
 ];

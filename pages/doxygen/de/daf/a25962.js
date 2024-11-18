@@ -1,5 +1,6 @@
 var a25962 =
 [
-    [ "PrepareSpellScript", "de/daf/a25962.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "de/daf/a25962.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "HandleScript", "de/daf/a25962.html#ae81570045d4984ee5682a0333b1b142d", null ],
+    [ "PrepareSpellScript", "de/daf/a25962.html#acb074781e07961998362349a7616fc4e", null ],
+    [ "Register", "de/daf/a25962.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::ObjectDistanceOrderPred Class Reference</title>
+<title>AzerothCore: GridObject&lt; T &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('d4/d0a/a08162.html','../../'); initRes
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/def/a08159.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::ObjectDistanceOrderPred Class Reference</div></div>
+  <div class="headertitle"><div class="title">GridObject&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,45 +116,38 @@ $(document).ready(function(){initNavTree('d4/d0a/a08162.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adced3fdc6d99b7506361eb7700fa4cec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#adced3fdc6d99b7506361eb7700fa4cec">ObjectDistanceOrderPred</a> (<a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *pRefObj, bool ascending=true)</td></tr>
-<tr class="separator:adced3fdc6d99b7506361eb7700fa4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa5023735568f6df28a177fbd9ed866e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#aaa5023735568f6df28a177fbd9ed866e">operator()</a> (<a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *pLeft, <a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *pRight) const</td></tr>
-<tr class="separator:aaa5023735568f6df28a177fbd9ed866e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996724d21d62e478f50031faa7637cd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5">IsInGrid</a> () const</td></tr>
+<tr class="separator:a996724d21d62e478f50031faa7637cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178e3cc30d983d739e1f3f98d9eefbf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#a178e3cc30d983d739e1f3f98d9eefbf0">AddToGrid</a> (<a class="el" href="../../da/d0a/a08846.html">GridRefMgr</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="separator:a178e3cc30d983d739e1f3f98d9eefbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29740a98fea7db66cdffd824940a2ec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#a29740a98fea7db66cdffd824940a2ec2">RemoveFromGrid</a> ()</td></tr>
+<tr class="separator:a29740a98fea7db66cdffd824940a2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aec421fd45a60545bf92b7236e0d0b360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360">m_refObj</a></td></tr>
-<tr class="separator:aec421fd45a60545bf92b7236e0d0b360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a313cd0450096e49716bfb52f8f238bfc"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#a313cd0450096e49716bfb52f8f238bfc">m_ascending</a></td></tr>
-<tr class="separator:a313cd0450096e49716bfb52f8f238bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44ba47734267ac07b733f218623f3c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d67/a08850.html">GridReference</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5">_gridRef</a></td></tr>
+<tr class="separator:aa44ba47734267ac07b733f218623f3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adced3fdc6d99b7506361eb7700fa4cec" name="adced3fdc6d99b7506361eb7700fa4cec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adced3fdc6d99b7506361eb7700fa4cec">&#9670;&#160;</a></span>ObjectDistanceOrderPred()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class GridObject&lt; T &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a178e3cc30d983d739e1f3f98d9eefbf0" name="a178e3cc30d983d739e1f3f98d9eefbf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178e3cc30d983d739e1f3f98d9eefbf0">&#9670;&#160;</a></span>AddToGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Acore::ObjectDistanceOrderPred::ObjectDistanceOrderPred </td>
+          <td class="memname">void <a class="el" href="../../d4/d0a/a08162.html">GridObject</a>&lt; T &gt;::AddToGrid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>pRefObj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../da/d0a/a08846.html">GridRefMgr</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>ascending</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -163,38 +156,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  698</span>: <a class="code hl_variable" href="../../d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360">m_refObj</a>(pRefObj), <a class="code hl_variable" href="../../d4/d0a/a08162.html#a313cd0450096e49716bfb52f8f238bfc">m_ascending</a>(ascending) {}</div>
-<div class="ttc" id="aa08162_html_a313cd0450096e49716bfb52f8f238bfc"><div class="ttname"><a href="../../d4/d0a/a08162.html#a313cd0450096e49716bfb52f8f238bfc">Acore::ObjectDistanceOrderPred::m_ascending</a></div><div class="ttdeci">const bool m_ascending</div><div class="ttdef"><b>Definition:</b> Object.h:705</div></div>
-<div class="ttc" id="aa08162_html_aec421fd45a60545bf92b7236e0d0b360"><div class="ttname"><a href="../../d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360">Acore::ObjectDistanceOrderPred::m_refObj</a></div><div class="ttdeci">WorldObject const  * m_refObj</div><div class="ttdef"><b>Definition:</b> Object.h:704</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  350</span>{ <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_function" href="../../d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5">IsInGrid</a>()); <a class="code hl_variable" href="../../d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5">_gridRef</a>.<a class="code hl_function" href="../../dd/d48/a05150.html#a6c7a8395a8f77e33772959f068296aaf">link</a>(&amp;m, (T*)<span class="keyword">this</span>); }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa05150_html_a6c7a8395a8f77e33772959f068296aaf"><div class="ttname"><a href="../../dd/d48/a05150.html#a6c7a8395a8f77e33772959f068296aaf">Reference::link</a></div><div class="ttdeci">void link(TO *toObj, FROM *fromObj)</div><div class="ttdef"><b>Definition:</b> Reference.h:45</div></div>
+<div class="ttc" id="aa08162_html_a996724d21d62e478f50031faa7637cd5"><div class="ttname"><a href="../../d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5">GridObject::IsInGrid</a></div><div class="ttdeci">bool IsInGrid() const</div><div class="ttdef"><b>Definition:</b> Object.h:349</div></div>
+<div class="ttc" id="aa08162_html_aa44ba47734267ac07b733f218623f3c5"><div class="ttname"><a href="../../d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5">GridObject::_gridRef</a></div><div class="ttdeci">GridReference&lt; T &gt; _gridRef</div><div class="ttdef"><b>Definition:</b> Object.h:353</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00353">GridObject&lt; T &gt;::_gridRef</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00349">GridObject&lt; T &gt;::IsInGrid()</a>, and <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00075">AddObjectHelper()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aaa5023735568f6df28a177fbd9ed866e" name="aaa5023735568f6df28a177fbd9ed866e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5023735568f6df28a177fbd9ed866e">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a996724d21d62e478f50031faa7637cd5" name="a996724d21d62e478f50031faa7637cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996724d21d62e478f50031faa7637cd5">&#9670;&#160;</a></span>IsInGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Acore::ObjectDistanceOrderPred::operator() </td>
+          <td class="memname">bool <a class="el" href="../../d4/d0a/a08162.html">GridObject</a>&lt; T &gt;::IsInGrid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>pLeft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>pRight</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -203,27 +192,62 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  700</span>        {</div>
-<div class="line"><span class="lineno">  701</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d0a/a08162.html#a313cd0450096e49716bfb52f8f238bfc">m_ascending</a> ? <a class="code hl_variable" href="../../d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360">m_refObj</a>-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#a64beb0950f5e5207749ac5bba180ed31">GetDistanceOrder</a>(pLeft, pRight) : !<a class="code hl_variable" href="../../d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360">m_refObj</a>-&gt;<a class="code hl_function" href="../../da/d63/a08158.html#a64beb0950f5e5207749ac5bba180ed31">GetDistanceOrder</a>(pLeft, pRight);</div>
-<div class="line"><span class="lineno">  702</span>        }</div>
-<div class="ttc" id="aa08158_html_a64beb0950f5e5207749ac5bba180ed31"><div class="ttname"><a href="../../da/d63/a08158.html#a64beb0950f5e5207749ac5bba180ed31">WorldObject::GetDistanceOrder</a></div><div class="ttdeci">bool GetDistanceOrder(WorldObject const *obj1, WorldObject const *obj2, bool is3D=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1381</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  349</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5">_gridRef</a>.<a class="code hl_function" href="../../dd/d48/a05150.html#a7442537bff6150984bac268a456c642d">isValid</a>(); }</div>
+<div class="ttc" id="aa05150_html_a7442537bff6150984bac268a456c642d"><div class="ttname"><a href="../../dd/d48/a05150.html#a7442537bff6150984bac268a456c642d">Reference::isValid</a></div><div class="ttdeci">bool isValid() const</div><div class="ttdef"><b>Definition:</b> Reference.h:79</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01381">WorldObject::GetDistanceOrder()</a>, <a class="el" href="../../#l00705">m_ascending</a>, and <a class="el" href="../../#l00704">m_refObj</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00353">GridObject&lt; T &gt;::_gridRef</a>, and <a class="el" href="../../#l00079">Reference&lt; TO, FROM &gt;::isValid()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00350">GridObject&lt; T &gt;::AddToGrid()</a>, <a class="el" href="../../#l03611">Map::RemoveCorpse()</a>, <a class="el" href="../../#l00351">GridObject&lt; T &gt;::RemoveFromGrid()</a>, and <a class="el" href="../../#l00914">Map::RemovePlayerFromMap()</a>.</p>
+
+</div>
+</div>
+<a id="a29740a98fea7db66cdffd824940a2ec2" name="a29740a98fea7db66cdffd824940a2ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29740a98fea7db66cdffd824940a2ec2">&#9670;&#160;</a></span>RemoveFromGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/d0a/a08162.html">GridObject</a>&lt; T &gt;::RemoveFromGrid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  351</span>{ <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5">IsInGrid</a>()); <a class="code hl_variable" href="../../d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5">_gridRef</a>.<a class="code hl_function" href="../../dd/d48/a05150.html#a0d526083a41a1297b65cc0883cdac514">unlink</a>(); }</div>
+<div class="ttc" id="aa05150_html_a0d526083a41a1297b65cc0883cdac514"><div class="ttname"><a href="../../dd/d48/a05150.html#a0d526083a41a1297b65cc0883cdac514">Reference::unlink</a></div><div class="ttdeci">void unlink()</div><div class="ttdef"><b>Definition:</b> Reference.h:62</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00353">GridObject&lt; T &gt;::_gridRef</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00349">GridObject&lt; T &gt;::IsInGrid()</a>, and <a class="el" href="../../#l00062">Reference&lt; TO, FROM &gt;::unlink()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01127">Map::MoveAllCreaturesInMoveList()</a>, <a class="el" href="../../#l01185">Map::MoveAllDynamicObjectsInMoveList()</a>, <a class="el" href="../../#l01156">Map::MoveAllGameObjectsInMoveList()</a>, <a class="el" href="../../#l01003">Map::PlayerRelocation()</a>, <a class="el" href="../../#l00914">Map::RemovePlayerFromMap()</a>, and <a class="el" href="../../#l00346">Map::SwitchGridContainers()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a313cd0450096e49716bfb52f8f238bfc" name="a313cd0450096e49716bfb52f8f238bfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a313cd0450096e49716bfb52f8f238bfc">&#9670;&#160;</a></span>m_ascending</h2>
+<a id="aa44ba47734267ac07b733f218623f3c5" name="aa44ba47734267ac07b733f218623f3c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44ba47734267ac07b733f218623f3c5">&#9670;&#160;</a></span>_gridRef</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const bool Acore::ObjectDistanceOrderPred::m_ascending</td>
+          <td class="memname"><a class="el" href="../../dd/d67/a08850.html">GridReference</a>&lt;T&gt; <a class="el" href="../../d4/d0a/a08162.html">GridObject</a>&lt; T &gt;::_gridRef</td>
         </tr>
       </table>
   </td>
@@ -233,31 +257,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00699">operator()()</a>.</p>
-
-</div>
-</div>
-<a id="aec421fd45a60545bf92b7236e0d0b360" name="aec421fd45a60545bf92b7236e0d0b360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec421fd45a60545bf92b7236e0d0b360">&#9670;&#160;</a></span>m_refObj</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d63/a08158.html">WorldObject</a> const* Acore::ObjectDistanceOrderPred::m_refObj</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00699">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00350">GridObject&lt; T &gt;::AddToGrid()</a>, <a class="el" href="../../#l00349">GridObject&lt; T &gt;::IsInGrid()</a>, and <a class="el" href="../../#l00351">GridObject&lt; T &gt;::RemoveFromGrid()</a>.</p>
 
 </div>
 </div>
@@ -266,8 +266,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d0a/a08162.html">ObjectDistanceOrderPred</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/d0a/a08162.html">GridObject</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

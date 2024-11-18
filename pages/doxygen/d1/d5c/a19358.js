@@ -1,6 +1,6 @@
 var a19358 =
 [
-    [ "PrepareSpellScript", "d1/d5c/a19358.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
-    [ "RecalculateDamage", "d1/d5c/a19358.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
-    [ "Register", "d1/d5c/a19358.html#aac131aa2d2e5342cf0303b918a077b45", null ]
+    [ "PrepareSpellScript", "d1/d5c/a19358.html#af7426e99a49f8618fc38242ded7132f1", null ],
+    [ "RecalculateDamage", "d1/d5c/a19358.html#a94e70b20f2139f668227dccb623c1af6", null ],
+    [ "Register", "d1/d5c/a19358.html#acd911f78780e052d88f5f47574092d62", null ]
 ];

@@ -1,45 +1,20 @@
 var a04055 =
 [
-    [ "Object", "df/d48/a08126.html", "df/d48/a08126" ],
-    [ "MovementInfo", "d3/d3a/a08134.html", "d3/d3a/a08134" ],
-    [ "MovementInfo::TransportInfo", "d9/da8/a08138.html", "d9/da8/a08138" ],
-    [ "MovementInfo::JumpInfo", "df/d2d/a08142.html", "df/d2d/a08142" ],
-    [ "GridObject< T >", "d7/d40/a08146.html", "d7/d40/a08146" ],
-    [ "FlaggedValuesArray32< T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE >", "d6/d80/a08150.html", "d6/d80/a08150" ],
-    [ "MovableMapObject", "d4/dd5/a08154.html", "d4/dd5/a08154" ],
-    [ "WorldObject", "da/d63/a08158.html", "da/d63/a08158" ],
-    [ "Acore::ObjectDistanceOrderPred", "d4/d0a/a08162.html", "d4/d0a/a08162" ],
-    [ "UpdateDataMapType", "d4/d54/a04055.html#ac58dd2c514e262c6b68700fb72c69231", null ],
-    [ "UpdatePlayerSet", "d4/d54/a04055.html#abc4c822bd43dd0c1ea669b791c856405", null ],
-    [ "GOSummonType", "d4/d54/a04055.html#a3f5846dbc17f13c4c2b88a15593bbfba", [
-      [ "GO_SUMMON_TIMED_OR_CORPSE_DESPAWN", "d4/d54/a04055.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1", null ],
-      [ "GO_SUMMON_TIMED_DESPAWN", "d4/d54/a04055.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50", null ]
-    ] ],
-    [ "MapObjectCellMoveState", "d4/d54/a04055.html#a1833d9b1810b160d0c00f297af237b07", [
-      [ "MAP_OBJECT_CELL_MOVE_NONE", "d4/d54/a04055.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1", null ],
-      [ "MAP_OBJECT_CELL_MOVE_ACTIVE", "d4/d54/a04055.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58", null ],
-      [ "MAP_OBJECT_CELL_MOVE_INACTIVE", "d4/d54/a04055.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a", null ]
-    ] ],
-    [ "NotifyFlags", "d4/d54/a04055.html#ae6d03ea53b22c98f9dd7e3ce829cf389", [
-      [ "NOTIFY_NONE", "d4/d54/a04055.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9", null ],
-      [ "NOTIFY_AI_RELOCATION", "d4/d54/a04055.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d", null ],
-      [ "NOTIFY_VISIBILITY_CHANGED", "d4/d54/a04055.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053", null ],
-      [ "NOTIFY_ALL", "d4/d54/a04055.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c", null ]
-    ] ],
-    [ "PhaseMasks", "d4/d54/a04055.html#a154255f23e41069883118fc4f0d23157", [
-      [ "PHASEMASK_NORMAL", "d4/d54/a04055.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060", null ],
-      [ "PHASEMASK_ANYWHERE", "d4/d54/a04055.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57", null ]
-    ] ],
-    [ "TempSummonType", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148", [
-      [ "TEMPSUMMON_TIMED_OR_DEAD_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39", null ],
-      [ "TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882", null ],
-      [ "TEMPSUMMON_TIMED_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2", null ],
-      [ "TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a", null ],
-      [ "TEMPSUMMON_CORPSE_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9", null ],
-      [ "TEMPSUMMON_CORPSE_TIMED_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a", null ],
-      [ "TEMPSUMMON_DEAD_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493", null ],
-      [ "TEMPSUMMON_MANUAL_DESPAWN", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a", null ],
-      [ "TEMPSUMMON_DESPAWNED", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687", null ],
-      [ "TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE", "d4/d54/a04055.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7", null ]
-    ] ]
+    [ "WorldPackets::InvalidStringValueException", "da/d5d/a10542.html", "da/d5d/a10542" ],
+    [ "WorldPackets::InvalidUtf8ValueException", "d0/d62/a10546.html", "d0/d62/a10546" ],
+    [ "WorldPackets::InvalidHyperlinkException", "d6/d34/a10550.html", "d6/d34/a10550" ],
+    [ "WorldPackets::IllegalHyperlinkException", "d6/de1/a10554.html", "d6/de1/a10554" ],
+    [ "WorldPackets::Strings::RawBytes", "de/deb/a10558.html", "de/deb/a10558" ],
+    [ "WorldPackets::Strings::ByteSize< MaxBytesWithoutNullTerminator >", "d0/dad/a10562.html", "d0/dad/a10562" ],
+    [ "WorldPackets::Strings::Utf8", "df/dd4/a10566.html", "df/dd4/a10566" ],
+    [ "WorldPackets::Strings::Hyperlinks", "d5/df1/a10570.html", "d5/df1/a10570" ],
+    [ "WorldPackets::Strings::NoHyperlinks", "d4/d44/a10574.html", "d4/d44/a10574" ],
+    [ "WorldPackets::String< MaxBytesWithoutNullTerminator, Validators >", "de/dfd/a10578.html", "de/dfd/a10578" ],
+    [ "WorldPackets::PacketArrayMaxCapacityException", "df/d78/a10582.html", "df/d78/a10582" ],
+    [ "WorldPackets::Array< T, N >", "d3/dd6/a10586.html", "d3/dd6/a10586" ],
+    [ "WorldPackets::CompactArray< T >", "dd/d82/a10590.html", "dd/d82/a10590" ],
+    [ "fmt::formatter< WorldPackets::String< MaxBytesWithoutNullTerminator, Validators... > >", "de/d21/a10594.html", "de/d21/a10594" ],
+    [ "CheckCompactArrayMaskOverflow", "d4/d54/a04055.html#afb4909c8c4c13b14c8eceda2e9b4246d", null ],
+    [ "operator<<", "d4/d54/a04055.html#a82e35db0d6b671a4f4a581aac05828dc", null ],
+    [ "operator>>", "d4/d54/a04055.html#ab21e8e534a45a2a33d69cd11562a45c6", null ]
 ];

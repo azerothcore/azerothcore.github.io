@@ -1,11 +1,10 @@
 var a27086 =
 [
-    [ "npc_artoriusAI", "d5/d9a/a27086.html#a71056d1f537671a9f790ebbc1c2baf9c", null ],
-    [ "DamageTaken", "d5/d9a/a27086.html#acaa6f32e1cfba98ec4dd06245a41d321", null ],
-    [ "DoAction", "d5/d9a/a27086.html#abbfc9ee752d97f1694dbd739719843c2", null ],
-    [ "JustEngagedWith", "d5/d9a/a27086.html#ab5760ad8dc87f7ccbea615ff2eb809c8", null ],
-    [ "Reset", "d5/d9a/a27086.html#a862cc52a9251e2dfe486f1152dae9500", null ],
-    [ "SpellHit", "d5/d9a/a27086.html#ac6ce7235c4399a5a8f2e771f5cd652ba", null ],
-    [ "UpdateAI", "d5/d9a/a27086.html#afdd2821ce916b65ed33fe7ab75ef56a5", null ],
-    [ "events", "d5/d9a/a27086.html#a6c8adf35504caf0cfea9a353833d4c4e", null ]
+    [ "npc_prof_tailor", "d5/d9a/a27086.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
+    [ "HasTailorSpell", "d5/d9a/a27086.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
+    [ "OnGossipHello", "d5/d9a/a27086.html#a686098ac43916ea2f82b7c321527863d", null ],
+    [ "OnGossipSelect", "d5/d9a/a27086.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
+    [ "SendActionMenu", "d5/d9a/a27086.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
+    [ "SendConfirmLearn", "d5/d9a/a27086.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
+    [ "SendConfirmUnlearn", "d5/d9a/a27086.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
 ];

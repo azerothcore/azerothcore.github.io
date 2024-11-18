@@ -1,12 +1,20 @@
 var a09602 =
 [
-    [ "BanAccount", "dd/d5f/a09602.html#af85ceffee2ae6a143df5e36f6a004f07", null ],
-    [ "BanAccountByPlayerName", "dd/d5f/a09602.html#a35f92762d69fe32e49b9b239c74e4734", null ],
-    [ "BanCharacter", "dd/d5f/a09602.html#ad5048b36828bfe20a95dfb85515de831", null ],
-    [ "BanIP", "dd/d5f/a09602.html#a404890eab19b97773e6c9aef8cc65707", null ],
-    [ "instance", "dd/d5f/a09602.html#aa495dfaab6af98c43f645acf516a5630", null ],
-    [ "RemoveBanAccount", "dd/d5f/a09602.html#ae831e6227442edc70469229d5d73fa3f", null ],
-    [ "RemoveBanAccountByPlayerName", "dd/d5f/a09602.html#a7b5e1ae6d34ae4f6a15e03c434953aea", null ],
-    [ "RemoveBanCharacter", "dd/d5f/a09602.html#afbde6c0b26802f684ecf78c2f493cc67", null ],
-    [ "RemoveBanIP", "dd/d5f/a09602.html#afcf4857007432ebff042c85c5daf2325", null ]
+    [ "ZoneScript", "dd/d5f/a09602.html#a3519b281545e348167893060c2aa352c", null ],
+    [ "~ZoneScript", "dd/d5f/a09602.html#af4aa4d8f6b48d7d63fb6daa85d50c756", null ],
+    [ "GetCreatureEntry", "dd/d5f/a09602.html#a8cabd274bffe18004c3fced46ae325b0", null ],
+    [ "GetData", "dd/d5f/a09602.html#a8997612fdbdacbf5e28e4de60d03e805", null ],
+    [ "GetData64", "dd/d5f/a09602.html#ab7aecf55fb84288840465dd69eacc8eb", null ],
+    [ "GetGameObjectEntry", "dd/d5f/a09602.html#a3101d469bb171957177011fc0a76999b", null ],
+    [ "GetGuidData", "dd/d5f/a09602.html#aa1483a9ca7f97cef589dd141d669cc46", null ],
+    [ "OnCreatureCreate", "dd/d5f/a09602.html#ae61020e57e9ca8ae0d42a51e39b1fee0", null ],
+    [ "OnCreatureEvade", "dd/d5f/a09602.html#a8113c8738b772b740dbc7a2352637669", null ],
+    [ "OnCreatureRemove", "dd/d5f/a09602.html#adf80a1b08c7ab4451cd6967138727b56", null ],
+    [ "OnGameObjectCreate", "dd/d5f/a09602.html#afa02089edff085ecd4eb7178b94ffe26", null ],
+    [ "OnGameObjectRemove", "dd/d5f/a09602.html#a61c1ab81f65b4bfdf638eec002cb498c", null ],
+    [ "OnUnitDeath", "dd/d5f/a09602.html#afaf1aecaaaac82508b8f1c50712b8204", null ],
+    [ "ProcessEvent", "dd/d5f/a09602.html#ab32f7102df50af48e43f544bd107f964", null ],
+    [ "SetData", "dd/d5f/a09602.html#a949e67ea24c7e4b70a20806952735576", null ],
+    [ "SetData64", "dd/d5f/a09602.html#a321c2fc00f1d3d261a4887a1e74f4244", null ],
+    [ "SetGuidData", "dd/d5f/a09602.html#ac465d5e7d00a7e3b935942f1627763f4", null ]
 ];

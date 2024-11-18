@@ -1,6 +1,6 @@
 var a18894 =
 [
-    [ "boss_anomalusAI", "db/dc5/a18898.html", "db/dc5/a18898" ],
-    [ "boss_anomalus", "d5/dc7/a18894.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
-    [ "GetAI", "d5/dc7/a18894.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
+    [ "instance_eye_of_eternity_InstanceMapScript", "db/dc5/a18898.html", "db/dc5/a18898" ],
+    [ "instance_eye_of_eternity", "d5/dc7/a18894.html#afcab4ba969d0423871a4e398627a323d", null ],
+    [ "GetInstanceScript", "d5/dc7/a18894.html#af51319609d355fe87a77a87eb697f434", null ]
 ];

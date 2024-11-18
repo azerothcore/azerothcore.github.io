@@ -1,5 +1,4 @@
 var a10670 =
 [
-    [ "SocketIPBytes", "de/d0e/a10670.html#aa10551a3c7371bafa9b27919e37b16ff", null ],
-    [ "SocketPort", "de/d0e/a10670.html#a6e6fb49cad093530f6ba650ca2ff57af", null ]
+    [ "ServerOpcodeHandler", "d5/dfd/a04680.html#ga15d54f5e037e138c90bd0c9bf9628ac9", null ]
 ];

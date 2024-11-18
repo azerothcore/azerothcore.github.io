@@ -1,6 +1,6 @@
 var a18694 =
 [
-    [ "boss_maexxna_webwrapAI", "d2/db5/a18698.html", "d2/db5/a18698" ],
-    [ "boss_maexxna_webwrap", "d0/d6c/a18694.html#afebd8c00234fe6cdd93af8ae443bb637", null ],
-    [ "GetAI", "d0/d6c/a18694.html#a6d86d58a86b831a219ecc598044be4f3", null ]
+    [ "WebTargetSelector", "d0/d6c/a18694.html#a2f19cffab18fd6f2f5a1d296aa1db47d", null ],
+    [ "operator()", "d0/d6c/a18694.html#a289821eaae114ba384a9ee9b8c19325f", null ],
+    [ "_maexxna", "d0/d6c/a18694.html#ad21c9ac380f7b97aacc06f08f1c45974", null ]
 ];

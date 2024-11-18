@@ -1,7 +1,9 @@
 var a09154 =
 [
-    [ "RaidCheck", "dc/d57/a09154.html#ad8c3717b9a645c7806c8c027a8d90ef5", null ],
-    [ "operator()", "dc/d57/a09154.html#a0c076b737e8e1eacb9aab0981ff66f51", null ],
-    [ "_compare", "dc/d57/a09154.html#a5fffdd5901fb03c5e9a9adfb58e3d759", null ],
-    [ "_equals", "dc/d57/a09154.html#a7d253c94403bd50012722a9a9b113c3a", null ]
+    [ "UnitAuraCheck", "dc/d57/a09154.html#acbc0c969db8b768720ab3b8235c28352", null ],
+    [ "operator()", "dc/d57/a09154.html#abc385cad226ac51c09a908864d360fd3", null ],
+    [ "operator()", "dc/d57/a09154.html#a1c85e9d5d517a852cf4c92063e6f3ed1", null ],
+    [ "_casterGUID", "dc/d57/a09154.html#ab2bdf4c05792dd83e4e9542fc3083cc3", null ],
+    [ "_present", "dc/d57/a09154.html#af553a0c4db5b11ec69ae7fbe9ce5ff78", null ],
+    [ "_spellId", "dc/d57/a09154.html#a0dd71c851f803fb70a4543c77b672889", null ]
 ];

@@ -1,7 +1,10 @@
 var a14334 =
 [
-    [ "OnRemove", "dd/d42/a14334.html#a98bf88bd917b441d2ad81716dcd38ec1", null ],
-    [ "PrepareAuraScript", "dd/d42/a14334.html#ab082adc51983f124d0467cbff63cffb7", null ],
-    [ "Register", "dd/d42/a14334.html#a2feb8adaad212ee29d9ec6d9957575a4", null ],
-    [ "Validate", "dd/d42/a14334.html#a73421b82f483e73314dbb862fb0a11c7", null ]
+    [ "boss_meathookAI", "dd/d42/a14334.html#abb35c98da760db634545b81d740cd51a", null ],
+    [ "JustDied", "dd/d42/a14334.html#a44ebee45de335ff6f653e9d60a364458", null ],
+    [ "JustEngagedWith", "dd/d42/a14334.html#adf199bf96bbf342caaa74b7dd6b8013c", null ],
+    [ "KilledUnit", "dd/d42/a14334.html#a54deac512294bb0901d072faef3166b1", null ],
+    [ "Reset", "dd/d42/a14334.html#ab4dbdedb1ae114fe4aff1fbe0e8adec1", null ],
+    [ "UpdateAI", "dd/d42/a14334.html#afeaee24a9b6484e8a0e6509b973ed74d", null ],
+    [ "events", "dd/d42/a14334.html#a6cf32d8601a1d07a3a445fa7d9a1ccbc", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Updater/DBUpdater.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/DatabaseLoader.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,84 +105,30 @@ $(document).ready(function(){initNavTree('d1/d2b/a04652.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">DBUpdater.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">DatabaseLoader.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBUpdater.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BuiltInConfig.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StartProcess.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateFetcher.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;queue&gt;</code><br />
+<code>#include &lt;stack&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a16a33693c8570aff221401b100547fb7"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a04652.html#a16a33693c8570aff221401b100547fb7">DBUpdater&lt; LoginDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:a16a33693c8570aff221401b100547fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace05c45d1df6cb7f16487ef1aa8bc9f7"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a04652.html#ace05c45d1df6cb7f16487ef1aa8bc9f7">DBUpdater&lt; WorldDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:ace05c45d1df6cb7f16487ef1aa8bc9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a753e207671f7af3815a056247f2de3ce"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a04652.html#a753e207671f7af3815a056247f2de3ce">DBUpdater&lt; CharacterDatabaseConnection &gt;</a></td></tr>
-<tr class="separator:a753e207671f7af3815a056247f2de3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html">DatabaseLoader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a753e207671f7af3815a056247f2de3ce" name="a753e207671f7af3815a056247f2de3ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a753e207671f7af3815a056247f2de3ce">&#9670;&#160;</a></span>DBUpdater&lt; CharacterDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../d4/dc2/a05794.html">DBUpdater</a>&lt; <a class="el" href="../../d4/dff/a05618.html">CharacterDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16a33693c8570aff221401b100547fb7" name="a16a33693c8570aff221401b100547fb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16a33693c8570aff221401b100547fb7">&#9670;&#160;</a></span>DBUpdater&lt; LoginDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../d4/dc2/a05794.html">DBUpdater</a>&lt; <a class="el" href="../../d4/dc8/a05622.html">LoginDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ace05c45d1df6cb7f16487ef1aa8bc9f7" name="ace05c45d1df6cb7f16487ef1aa8bc9f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace05c45d1df6cb7f16487ef1aa8bc9f7">&#9670;&#160;</a></span>DBUpdater&lt; WorldDatabaseConnection &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template class <a class="el" href="../../db/dd9/a00179.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../d4/dc2/a05794.html">DBUpdater</a>&lt; <a class="el" href="../../df/d05/a05626.html">WorldDatabaseConnection</a> &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_ac632e0cb7d565e729369f2b018d776c.html">Updater</a></li><li class="navelem"><a class="el" href="../../d1/d2b/a04652.html">DBUpdater.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../d1/d2b/a04652.html">DatabaseLoader.h</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

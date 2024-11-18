@@ -1,22 +1,22 @@
 var a03308 =
 [
-    [ "ScriptPointMove", "db/d3e/a10146.html", "db/d3e/a10146" ],
-    [ "SystemMgr", "d8/d61/a10150.html", "d8/d61/a10150" ],
-    [ "sScriptSystemMgr", "d0/de4/a03308.html#a95cfdf568913b08b669f19b401f888a7", null ],
-    [ "TEXT_SOURCE_RANGE", "d0/de4/a03308.html#a55d384db121a9bd513042ebdeb40e602", null ],
-    [ "ScriptPointVector", "d0/de4/a03308.html#aab50bb2bd1f4c2c015d1ed573408733a", null ],
-    [ "eEscortFaction", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476", [
-      [ "FACTION_ESCORT_A_NEUTRAL_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9", null ],
-      [ "FACTION_ESCORT_H_NEUTRAL_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea", null ],
-      [ "FACTION_ESCORT_N_NEUTRAL_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54", null ],
-      [ "FACTION_ESCORT_A_NEUTRAL_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1", null ],
-      [ "FACTION_ESCORT_H_NEUTRAL_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04", null ],
-      [ "FACTION_ESCORT_N_NEUTRAL_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae", null ],
-      [ "FACTION_ESCORT_N_FRIEND_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b", null ],
-      [ "FACTION_ESCORT_N_FRIEND_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470", null ],
-      [ "FACTION_ESCORT_A_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013", null ],
-      [ "FACTION_ESCORT_H_PASSIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73", null ],
-      [ "FACTION_ESCORT_N_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb", null ],
-      [ "FACTION_ESCORT_H_ACTIVE", "d0/de4/a03308.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb", null ]
-    ] ]
+    [ "GameEventFinishCondition", "da/d14/a08582.html", "da/d14/a08582" ],
+    [ "GameEventQuestToEventConditionNum", "d1/dfe/a08586.html", "d1/dfe/a08586" ],
+    [ "GameEventData", "d2/d80/a08590.html", "d2/d80/a08590" ],
+    [ "ModelEquip", "d8/dc2/a08594.html", "d8/dc2/a08594" ],
+    [ "NPCVendorEntry", "d4/d46/a08598.html", "d4/d46/a08598" ],
+    [ "GameEventMgr", "d1/dab/a08602.html", "d1/dab/a08602" ],
+    [ "max_ge_check_delay", "d0/de4/a03308.html#adaa73d920934a951856f7ce003ce2342", null ],
+    [ "sGameEventMgr", "d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a", null ],
+    [ "GameEventConditionMap", "d0/de4/a03308.html#ac4262be385ac879bb433e00533d835c0", null ],
+    [ "GameEventState", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5", [
+      [ "GAMEEVENT_NORMAL", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921", null ],
+      [ "GAMEEVENT_WORLD_INACTIVE", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5ac5c7f13cfd107dd2d1efb99ce8dd5136", null ],
+      [ "GAMEEVENT_WORLD_CONDITIONS", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a627f133a79fe9018b98ee3646e334ff7", null ],
+      [ "GAMEEVENT_WORLD_NEXTPHASE", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5aa9ecd88c85a086ee5273110051a00bc0", null ],
+      [ "GAMEEVENT_WORLD_FINISHED", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a50f420580ff8bcf744a958e2613085bf", null ],
+      [ "GAMEEVENT_INTERNAL", "d0/de4/a03308.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a2612ea68e0c9d21dae1af2e9ac04bc81", null ]
+    ] ],
+    [ "IsEventActive", "d0/de4/a03308.html#aaddb0f1fada20faf4702603241206f91", null ],
+    [ "IsHolidayActive", "d0/de4/a03308.html#a429db26781d2673aa2f031fc1327ffaf", null ]
 ];

@@ -1,13 +1,6 @@
 var a22130 =
 [
-    [ "OPvPCapturePointEP_EWT", "d8/db3/a22130.html#a3740f069c46f9d3f0e11d97663bc0104", null ],
-    [ "ChangeState", "d8/db3/a22130.html#ac00c50b89e1218f87506778096a9d7cd", null ],
-    [ "FillInitialWorldStates", "d8/db3/a22130.html#ad051a1cc41632414eab071aef5cf2f99", null ],
-    [ "HandlePlayerEnter", "d8/db3/a22130.html#aed78ccf9ad517b4a94431e3355cba1dd", null ],
-    [ "HandlePlayerLeave", "d8/db3/a22130.html#a2638b24dca375420778845963e307db3", null ],
-    [ "SendChangePhase", "d8/db3/a22130.html#a6d45df918aea00e9cb85a8940cb5c1c9", null ],
-    [ "SummonSupportUnitAtNorthpassTower", "d8/db3/a22130.html#ad70a8cc485072cd9af892290584062d8", null ],
-    [ "UpdateTowerState", "d8/db3/a22130.html#ac0bcdfb9f2aeabc78b72c3cce674c479", null ],
-    [ "m_TowerState", "d8/db3/a22130.html#aa30e9cc01476eb20b188c7a13a405c3a", null ],
-    [ "m_UnitsSummonedSideId", "d8/db3/a22130.html#a0319f0d51624df44419976e7abd1b813", null ]
+    [ "npc_storm_cloudAI", "dc/d50/a22134.html", "dc/d50/a22134" ],
+    [ "npc_storm_cloud", "d8/db3/a22130.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
+    [ "GetAI", "d8/db3/a22130.html#a952bd1cf5406b989182d8560d8b9e665", null ]
 ];

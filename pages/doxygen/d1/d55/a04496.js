@@ -1,5 +1,4 @@
 var a04496 =
 [
-    [ "DBCStorageBase", "df/d96/a27322.html", "df/d96/a27322" ],
-    [ "DBCStorage< T >", "d7/dc8/a27326.html", "d7/dc8/a27326" ]
+    [ "ScriptRegistry< AllSpellScript >", "d1/d55/a04496.html#a6fb50c7d667ae3d14a6d307b0862e957", null ]
 ];

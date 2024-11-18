@@ -1,9 +1,7 @@
 var a14418 =
 [
-    [ "boss_chrono_lord_deja", "dc/d6b/a14418.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
-    [ "JustDied", "dc/d6b/a14418.html#a68eb4941364f9fac121aa3d610d45f48", null ],
-    [ "JustEngagedWith", "dc/d6b/a14418.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
-    [ "KilledUnit", "dc/d6b/a14418.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
-    [ "MoveInLineOfSight", "dc/d6b/a14418.html#a535c0c157c60804188ad8c4413c277dd", null ],
-    [ "OwnTalk", "dc/d6b/a14418.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
+    [ "npc_tarethaAI", "de/db3/a14422.html", "de/db3/a14422" ],
+    [ "npc_taretha", "dc/d6b/a14418.html#a54379e06518ff972e91e25e295731f5a", null ],
+    [ "GetAI", "dc/d6b/a14418.html#a5045bb7119b12800ee0053818fcae5fe", null ],
+    [ "OnGossipHello", "dc/d6b/a14418.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
 ];

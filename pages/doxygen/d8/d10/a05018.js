@@ -1,8 +1,6 @@
 var a05018 =
 [
-    [ "ComputeCell", "d8/d10/a05018.html#a32a8b5ab15a28fb06672fcf62ac63d1e", null ],
-    [ "isValid", "d8/d10/a05018.html#afe64d87e738675f1c8cb0fa6d440029c", null ],
-    [ "operator==", "d8/d10/a05018.html#a13e8b2fcda561f185777e4d8b48da3f5", null ],
-    [ "x", "d8/d10/a05018.html#a8435f7d7b8f529dfe397ada59e3405a1", null ],
-    [ "y", "d8/d10/a05018.html#af3d5ae020727d58286ef7725958063a9", null ]
+    [ "NodeArray", "d8/d10/a05018.html#ad14de28828d5dd9c425e47a261125423", null ],
+    [ "AddNode", "d8/d10/a05018.html#a370b6e8633c2c739ff68c0399e315a7e", null ],
+    [ "_nodes", "d8/d10/a05018.html#a581a71d15d245efc585297c218313134", null ]
 ];

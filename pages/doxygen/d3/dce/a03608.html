@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/BattlegroundMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Handlers/NPCHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,51 +104,93 @@ $(document).ready(function(){initNavTree('d3/dce/a03608.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">BattlegroundMgr.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">NPCHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundAB.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundAV.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundBE.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundDS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundEY.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundIC.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundNA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundQueue.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundRL.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundRV.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundSA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundWS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:abee8740a43e35bc796d1287225999514"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514">StableResultCode</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a> = 0x06
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a> = 0x09
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a> = 0x0A
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a> = 0x0C
+<br />
+ }</td></tr>
+<tr class="separator:abee8740a43e35bc796d1287225999514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="abee8740a43e35bc796d1287225999514" name="abee8740a43e35bc796d1287225999514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee8740a43e35bc796d1287225999514">&#9670;&#160;</a></span>StableResultCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514">StableResultCode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2" name="abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2"></a>STABLE_ERR_MONEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898" name="abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898"></a>STABLE_ERR_STABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e" name="abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e"></a>STABLE_SUCCESS_STABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1" name="abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1"></a>STABLE_SUCCESS_UNSTABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317" name="abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317"></a>STABLE_SUCCESS_BUY_SLOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47" name="abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47"></a>STABLE_ERR_EXOTIC&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a>        = 0x01,                         <span class="comment">// &quot;you don&#39;t have enough money&quot;</span></div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a>       = 0x06,                         <span class="comment">// currently used in most fail cases</span></div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a>   = 0x08,                         <span class="comment">// stable success</span></div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a> = 0x09,                         <span class="comment">// unstable/swap success</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a> = 0x0A,                         <span class="comment">// buy slot success</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a>       = 0x0C,                         <span class="comment">// &quot;you are unable to control exotic creatures&quot;</span></div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2">STABLE_ERR_MONEY</a></div><div class="ttdeci">@ STABLE_ERR_MONEY</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:38</div></div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e">STABLE_SUCCESS_STABLE</a></div><div class="ttdeci">@ STABLE_SUCCESS_STABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:40</div></div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317">STABLE_SUCCESS_BUY_SLOT</a></div><div class="ttdeci">@ STABLE_SUCCESS_BUY_SLOT</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:42</div></div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47">STABLE_ERR_EXOTIC</a></div><div class="ttdeci">@ STABLE_ERR_EXOTIC</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:43</div></div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898">STABLE_ERR_STABLE</a></div><div class="ttdeci">@ STABLE_ERR_STABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:39</div></div>
+<div class="ttc" id="aa03608_html_abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1"><div class="ttname"><a href="../../d3/dce/a03608.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1">STABLE_SUCCESS_UNSTABLE</a></div><div class="ttdeci">@ STABLE_SUCCESS_UNSTABLE</div><div class="ttdef"><b>Definition:</b> NPCHandler.cpp:41</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d3/dce/a03608.html">BattlegroundMgr.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:38:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d3/dce/a03608.html">NPCHandler.cpp</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

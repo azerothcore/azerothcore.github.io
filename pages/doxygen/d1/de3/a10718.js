@@ -1,7 +1,6 @@
 var a10718 =
 [
-    [ "Player", "d1/de3/a10718.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
-    [ "WorldSession", "d1/de3/a10718.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "FactionChange", "d1/de3/a10718.html#adff657ead29df26ead5e20a8ecf44e87", null ],
-    [ "Race", "d1/de3/a10718.html#a98d5fd43205a0c9e2d3be75d384ce00c", null ]
+    [ "WorldSessionFilter", "d1/de3/a10718.html#aba91eb2dfd56201534743b2d458fa111", null ],
+    [ "~WorldSessionFilter", "d1/de3/a10718.html#a5de22e3a331e0ab17fe60f34c5b9b3fa", null ],
+    [ "Process", "d1/de3/a10718.html#a0f0acf4ed9e61bf8aeb77ee7fb310660", null ]
 ];

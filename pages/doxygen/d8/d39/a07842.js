@@ -1,11 +1,7 @@
 var a07842 =
 [
-    [ "FormationInfo", "d8/d39/a07842.html#ad00d7dd0ac811a3805a8ba2c9c1e73df", null ],
-    [ "HasGroupFlag", "d8/d39/a07842.html#afc612acf30e8d0a047aac5b0fc2dc07b", null ],
-    [ "follow_angle", "d8/d39/a07842.html#a928ce7047d511c316a5367faf7f96673", null ],
-    [ "follow_dist", "d8/d39/a07842.html#a3b59ee5129e208cc3df407a921362393", null ],
-    [ "groupAI", "d8/d39/a07842.html#af9f6dc52999efef6f0819bb8d1670fec", null ],
-    [ "leaderGUID", "d8/d39/a07842.html#ad5af23397ae1ae835a72ce125d102ef0", null ],
-    [ "point_1", "d8/d39/a07842.html#a84298ff533bebc633689742c7f9299ae", null ],
-    [ "point_2", "d8/d39/a07842.html#acc308b497de18211b99eec4311b256a4", null ]
+    [ "VendorItemCount", "d8/d39/a07842.html#abdf2d2900f75bb2b8d9727bab8fcbbc3", null ],
+    [ "count", "d8/d39/a07842.html#aff4c062138792ffb37dadb19b725c87c", null ],
+    [ "itemId", "d8/d39/a07842.html#a225158bbb56d6666ba4918155f08f993", null ],
+    [ "lastIncrementTime", "d8/d39/a07842.html#a0b88ba4ea590abbdc9234ff4a2a335fa", null ]
 ];

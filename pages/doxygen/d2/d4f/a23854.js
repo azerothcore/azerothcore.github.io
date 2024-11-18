@@ -1,6 +1,5 @@
 var a23854 =
 [
-    [ "npc_torloth_the_magnificentAI", "d4/d6d/a23858.html", "d4/d6d/a23858" ],
-    [ "npc_torloth_the_magnificent", "d2/d4f/a23854.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
-    [ "GetAI", "d2/d4f/a23854.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
+    [ "creature", "d2/d4f/a23854.html#ab4b8f837dbfb42bcbb161f81f846aad9", null ],
+    [ "Timer", "d2/d4f/a23854.html#a2be497dc190c1f01f939e12083739882", null ]
 ];

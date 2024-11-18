@@ -1,4 +1,6 @@
 var a00098 =
 [
-    [ "MMAP::IntermediateValues", "d8/de3/a28378.html", "d8/de3/a28378" ]
+    [ "VMAP::LocationInfo", "de/de4/a04922.html", "de/de4/a04922" ],
+    [ "VMAP::StaticMapTree", "da/d9e/a04926.html", "da/d9e/a04926" ],
+    [ "VMAP::AreaInfo", "da/d8f/a04930.html", "da/d8f/a04930" ]
 ];

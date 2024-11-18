@@ -1,7 +1,13 @@
 var a02942 =
 [
-    [ "GetChaseRange", "d3/d99/a02942.html#a24fd9652d12d1ba9d62b8d6273664c55", null ],
-    [ "GetVelocity", "d3/d99/a02942.html#a955c196fa9c96bf11e2d887d6cbac50c", null ],
-    [ "IsMutualChase", "d3/d99/a02942.html#a53d496abdea10dead20c7e6a9cb09cd6", null ],
-    [ "PredictPosition", "d3/d99/a02942.html#ada5b031ff95410ba84fd734c95c68099", null ]
+    [ "FollowerAI", "d0/d2a/a06142.html", "d0/d2a/a06142" ],
+    [ "eFollowState", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138", [
+      [ "STATE_FOLLOW_NONE", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
+      [ "STATE_FOLLOW_INPROGRESS", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
+      [ "STATE_FOLLOW_RETURNING", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
+      [ "STATE_FOLLOW_PAUSED", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
+      [ "STATE_FOLLOW_COMPLETE", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
+      [ "STATE_FOLLOW_PREEVENT", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
+      [ "STATE_FOLLOW_POSTEVENT", "d3/d99/a02942.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
+    ] ]
 ];

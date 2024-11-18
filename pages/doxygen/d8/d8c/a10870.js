@@ -1,8 +1,8 @@
 var a10870 =
 [
-    [ "DirectionType", "d8/d8c/a10870.html#a8491033c0286895c2d4d3280cfd529f0", null ],
-    [ "ObjectType", "d8/d8c/a10870.html#a20c29be1005aa52993d4ec0a13c36f4d", null ],
-    [ "ReferenceType", "d8/d8c/a10870.html#a44e310a789c4c5a288f07c9254ad389a", null ],
-    [ "SelectionCategory", "d8/d8c/a10870.html#a4a42ef329b6cfcfcd7fd4ce59e8f597c", null ],
-    [ "SelectionCheckType", "d8/d8c/a10870.html#a35c8d221b47de13408a0256598fa9d63", null ]
+    [ "ReflectEvent", "d8/d8c/a10870.html#a1669aec08a3a09143c57e4889c8fad08", null ],
+    [ "Execute", "d8/d8c/a10870.html#a37fb766d70932e8a431dba363c603531", null ],
+    [ "_caster", "d8/d8c/a10870.html#a67ec85597bb887e7b8cb31b818910d1a", null ],
+    [ "_spellInfo", "d8/d8c/a10870.html#ae05fc2092226695fa22dd1e72d58bc7b", null ],
+    [ "_targetGUID", "d8/d8c/a10870.html#aa9f8c7bf1e22c74f3d134df2cfc014b5", null ]
 ];

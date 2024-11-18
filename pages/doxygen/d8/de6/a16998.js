@@ -1,6 +1,7 @@
 var a16998 =
 [
-    [ "HandleScript", "d8/de6/a16998.html#acd11d50f398857dc2a24bd2d63e52222", null ],
-    [ "PrepareSpellScript", "d8/de6/a16998.html#a3d218b009c195b6e0fab5152a95da8ad", null ],
-    [ "Register", "d8/de6/a16998.html#ad7f12515dc21ab6b19148370fd491629", null ]
+    [ "OnProc", "d8/de6/a16998.html#a5b6e96abb900da33657cdbbd137138e3", null ],
+    [ "PrepareAuraScript", "d8/de6/a16998.html#a5502476536a923e77af67c4bbcf005e3", null ],
+    [ "Register", "d8/de6/a16998.html#aca08edf219504156d6157c95702bb815", null ],
+    [ "Validate", "d8/de6/a16998.html#a52b1231f37e8b3d810614365659a98b6", null ]
 ];

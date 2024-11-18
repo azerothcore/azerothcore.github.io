@@ -1,6 +1,6 @@
 var a24142 =
 [
-    [ "HandlePeriodic", "dc/d11/a24142.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
-    [ "PrepareAuraScript", "dc/d11/a24142.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
-    [ "Register", "dc/d11/a24142.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
+    [ "HandleEffectRemove", "dc/d11/a24142.html#a9472b79a272aff36be657b66883d822f", null ],
+    [ "PrepareAuraScript", "dc/d11/a24142.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
+    [ "Register", "dc/d11/a24142.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
 ];

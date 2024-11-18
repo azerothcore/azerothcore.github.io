@@ -1,8 +1,6 @@
 var a15910 =
 [
-    [ "npc_announcer_toc5AI", "d0/d49/a15910.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "d0/d49/a15910.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "d0/d49/a15910.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "d0/d49/a15910.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "d0/d49/a15910.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "d6/d24/a15914.html", "d6/d24/a15914" ],
+    [ "instance_trial_of_the_champion", "d0/d49/a15910.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "d0/d49/a15910.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

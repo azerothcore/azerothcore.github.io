@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: MetricStopWatch&lt; LoggerType &gt; Class Template Reference</title>
+<title>AzerothCore: LogOperation Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,151 +106,155 @@ $(document).ready(function(){initNavTree('de/d4f/a05270.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d1/dad/a05267.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MetricStopWatch&lt; LoggerType &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">LogOperation Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Metric.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">LogOperation.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2007207e0985949f478fdeee300ea0d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a2007207e0985949f478fdeee300ea0d5">MetricStopWatch</a> (LoggerType &amp;&amp;loggerFunc)</td></tr>
-<tr class="separator:a2007207e0985949f478fdeee300ea0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a712b660e090531e69455096afeb60c4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a712b660e090531e69455096afeb60c4c">~MetricStopWatch</a> ()</td></tr>
-<tr class="separator:a712b660e090531e69455096afeb60c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e5e4731bd71697876110348f86d737"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a19e5e4731bd71697876110348f86d737">LogOperation</a> (<a class="el" href="../../dd/df0/a05262.html">Logger</a> const *_logger, std::unique_ptr&lt; <a class="el" href="../../d7/dc7/a05266.html">LogMessage</a> &gt; &amp;&amp;_msg)</td></tr>
+<tr class="separator:a19e5e4731bd71697876110348f86d737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae305e293044badac1a628edd501ed35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#aae305e293044badac1a628edd501ed35">~LogOperation</a> ()</td></tr>
+<tr class="separator:aae305e293044badac1a628edd501ed35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a966a4bfb45430860fa5be56fe8b48f79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a966a4bfb45430860fa5be56fe8b48f79">call</a> ()</td></tr>
+<tr class="separator:a966a4bfb45430860fa5be56fe8b48f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a3af6d8a1a621f5e39b2d691ffbe2375c"><td class="memItemLeft" align="right" valign="top">LoggerType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c">_logger</a></td></tr>
-<tr class="separator:a3af6d8a1a621f5e39b2d691ffbe2375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74ad62e26a4f6598c76ca5c2d928d3a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d03/a00254.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2">_startTime</a></td></tr>
-<tr class="separator:a74ad62e26a4f6598c76ca5c2d928d3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af1d8611d116a3575e59a99e8cba5fc84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df0/a05262.html">Logger</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#af1d8611d116a3575e59a99e8cba5fc84">logger</a></td></tr>
+<tr class="separator:af1d8611d116a3575e59a99e8cba5fc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665effc48367f396f3e714f5d3d56d75"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d7/dc7/a05266.html">LogMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html#a665effc48367f396f3e714f5d3d56d75">msg</a></td></tr>
+<tr class="separator:a665effc48367f396f3e714f5d3d56d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename LoggerType&gt;<br />
-class MetricStopWatch&lt; LoggerType &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2007207e0985949f478fdeee300ea0d5" name="a2007207e0985949f478fdeee300ea0d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2007207e0985949f478fdeee300ea0d5">&#9670;&#160;</a></span>MetricStopWatch()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a19e5e4731bd71697876110348f86d737" name="a19e5e4731bd71697876110348f86d737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e5e4731bd71697876110348f86d737">&#9670;&#160;</a></span>LogOperation()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt;<a class="el" href="../../de/d4f/a05270.html">::MetricStopWatch</a> </td>
+          <td class="memname">LogOperation::LogOperation </td>
           <td>(</td>
-          <td class="paramtype">LoggerType &amp;&amp;&#160;</td>
-          <td class="paramname"><em>loggerFunc</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/df0/a05262.html">Logger</a> const *&#160;</td>
+          <td class="paramname"><em>_logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="../../d7/dc7/a05266.html">LogMessage</a> &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>_msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  136</span>                                             :</div>
-<div class="line"><span class="lineno">  137</span>        <a class="code hl_variable" href="../../de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c">_logger</a>(std::forward&lt;LoggerType&gt;(loggerFunc)),</div>
-<div class="line"><span class="lineno">  138</span>        <a class="code hl_variable" href="../../de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2">_startTime</a>(<a class="code hl_define" href="../../d3/d00/a00113.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled() ? std::chrono::steady_clock::now() : <a class="code hl_typedef" href="../../d7/d03/a00254.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a>())</div>
-<div class="line"><span class="lineno">  139</span>    {</div>
-<div class="line"><span class="lineno">  140</span>    }</div>
-<div class="ttc" id="aa00113_html_a4e89926204845a9c9e315d6f0abec5ef"><div class="ttname"><a href="../../d3/d00/a00113.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a></div><div class="ttdeci">#define sMetric</div><div class="ttdef"><b>Definition:</b> Metric.h:130</div></div>
-<div class="ttc" id="aa00254_html_ae5ca775e8d8c664b6edef818ce1251b9"><div class="ttname"><a href="../../d7/d03/a00254.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a></div><div class="ttdeci">std::chrono::steady_clock::time_point TimePoint</div><div class="ttdoc">time_point shorthand typedefs</div><div class="ttdef"><b>Definition:</b> Duration.h:69</div></div>
-<div class="ttc" id="aa05270_html_a3af6d8a1a621f5e39b2d691ffbe2375c"><div class="ttname"><a href="../../de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c">MetricStopWatch::_logger</a></div><div class="ttdeci">LoggerType _logger</div><div class="ttdef"><b>Definition:</b> Metric.h:149</div></div>
-<div class="ttc" id="aa05270_html_a74ad62e26a4f6598c76ca5c2d928d3a2"><div class="ttname"><a href="../../de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2">MetricStopWatch::_startTime</a></div><div class="ttdeci">TimePoint _startTime</div><div class="ttdef"><b>Definition:</b> Metric.h:150</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   22</span>                                                                                  : <a class="code hl_variable" href="../../de/d4f/a05270.html#af1d8611d116a3575e59a99e8cba5fc84">logger</a>(_logger), <a class="code hl_variable" href="../../de/d4f/a05270.html#a665effc48367f396f3e714f5d3d56d75">msg</a>(std::forward&lt;std::unique_ptr&lt;LogMessage&gt;&gt;(_msg))</div>
+<div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>}</div>
+<div class="ttc" id="aa05270_html_a665effc48367f396f3e714f5d3d56d75"><div class="ttname"><a href="../../de/d4f/a05270.html#a665effc48367f396f3e714f5d3d56d75">LogOperation::msg</a></div><div class="ttdeci">std::unique_ptr&lt; LogMessage &gt; msg</div><div class="ttdef"><b>Definition:</b> LogOperation.h:37</div></div>
+<div class="ttc" id="aa05270_html_af1d8611d116a3575e59a99e8cba5fc84"><div class="ttname"><a href="../../de/d4f/a05270.html#af1d8611d116a3575e59a99e8cba5fc84">LogOperation::logger</a></div><div class="ttdeci">Logger const  * logger</div><div class="ttdef"><b>Definition:</b> LogOperation.h:36</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a712b660e090531e69455096afeb60c4c" name="a712b660e090531e69455096afeb60c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a712b660e090531e69455096afeb60c4c">&#9670;&#160;</a></span>~MetricStopWatch()</h2>
+<a id="aae305e293044badac1a628edd501ed35" name="aae305e293044badac1a628edd501ed35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae305e293044badac1a628edd501ed35">&#9670;&#160;</a></span>~LogOperation()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt;::~<a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a> </td>
+          <td class="memname">LogOperation::~LogOperation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  143</span>    {</div>
-<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d3/d00/a00113.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled())</div>
-<div class="line"><span class="lineno">  145</span>            <a class="code hl_variable" href="../../de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c">_logger</a>(<a class="code hl_variable" href="../../de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2">_startTime</a>);</div>
-<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00149">MetricStopWatch&lt; LoggerType &gt;::_logger</a>, <a class="el" href="../../#l00150">MetricStopWatch&lt; LoggerType &gt;::_startTime</a>, and <a class="el" href="../../#l00130">sMetric</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a966a4bfb45430860fa5be56fe8b48f79" name="a966a4bfb45430860fa5be56fe8b48f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966a4bfb45430860fa5be56fe8b48f79">&#9670;&#160;</a></span>call()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LogOperation::call </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../de/d4f/a05270.html#af1d8611d116a3575e59a99e8cba5fc84">logger</a>-&gt;<a class="code hl_function" href="../../dd/df0/a05262.html#a3627f98e8676ee7b68a34a4d9439082e">write</a>(<a class="code hl_variable" href="../../de/d4f/a05270.html#a665effc48367f396f3e714f5d3d56d75">msg</a>.get());</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+<div class="ttc" id="aa05262_html_a3627f98e8676ee7b68a34a4d9439082e"><div class="ttname"><a href="../../dd/df0/a05262.html#a3627f98e8676ee7b68a34a4d9439082e">Logger::write</a></div><div class="ttdeci">void write(LogMessage *message) const</div><div class="ttdef"><b>Definition:</b> Logger.cpp:49</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00036">logger</a>, <a class="el" href="../../#l00037">msg</a>, and <a class="el" href="../../#l00049">Logger::write()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3af6d8a1a621f5e39b2d691ffbe2375c" name="a3af6d8a1a621f5e39b2d691ffbe2375c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3af6d8a1a621f5e39b2d691ffbe2375c">&#9670;&#160;</a></span>_logger</h2>
+<a id="af1d8611d116a3575e59a99e8cba5fc84" name="af1d8611d116a3575e59a99e8cba5fc84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1d8611d116a3575e59a99e8cba5fc84">&#9670;&#160;</a></span>logger</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LoggerType <a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt;::_logger</td>
+          <td class="memname"><a class="el" href="../../dd/df0/a05262.html">Logger</a> const* LogOperation::logger</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00142">MetricStopWatch&lt; LoggerType &gt;::~MetricStopWatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00030">call()</a>.</p>
 
 </div>
 </div>
-<a id="a74ad62e26a4f6598c76ca5c2d928d3a2" name="a74ad62e26a4f6598c76ca5c2d928d3a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74ad62e26a4f6598c76ca5c2d928d3a2">&#9670;&#160;</a></span>_startTime</h2>
+<a id="a665effc48367f396f3e714f5d3d56d75" name="a665effc48367f396f3e714f5d3d56d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a665effc48367f396f3e714f5d3d56d75">&#9670;&#160;</a></span>msg</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d03/a00254.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a> <a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt;::_startTime</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../d7/dc7/a05266.html">LogMessage</a>&gt; LogOperation::msg</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00142">MetricStopWatch&lt; LoggerType &gt;::~MetricStopWatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00030">call()</a>.</p>
 
 </div>
 </div>
@@ -259,8 +263,8 @@ template&lt;typename LoggerType &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/d4f/a05270.html">LogOperation</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:58 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

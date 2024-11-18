@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: TransactionBase Class Reference</title>
+<title>AzerothCore: PreparedResultSet Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,181 +106,405 @@ $(document).ready(function(){initNavTree('d7/dce/a05766.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="../../d8/d36/a05763.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TransactionBase Class Reference</div></div>
+  <div class="headertitle"><div class="title">PreparedResultSet Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Transaction.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for TransactionBase:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d7/dce/a05766.png" usemap="#TransactionBase_map" alt=""/>
-  <map id="TransactionBase_map" name="TransactionBase_map">
-<area href="../../df/da8/a05582.html" alt="Transaction&lt; T &gt;" shape="rect" coords="0,56,109,80"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a663d13ba0b22e0711d135073ff80ee47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a663d13ba0b22e0711d135073ff80ee47">TransactionBase</a> ()=default</td></tr>
-<tr class="separator:a663d13ba0b22e0711d135073ff80ee47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ce7e6ef81bb466463bace35cdd49476"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a6ce7e6ef81bb466463bace35cdd49476">~TransactionBase</a> ()</td></tr>
-<tr class="separator:a6ce7e6ef81bb466463bace35cdd49476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a867b7a92080104278aef5fb4975a4a52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a867b7a92080104278aef5fb4975a4a52">Append</a> (std::string_view sql)</td></tr>
-<tr class="separator:a867b7a92080104278aef5fb4975a4a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a81814abe26d456018c3bc9153cd4d"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:aa0a81814abe26d456018c3bc9153cd4d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#aa0a81814abe26d456018c3bc9153cd4d">Append</a> (std::string_view sql, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:aa0a81814abe26d456018c3bc9153cd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a261ad9d7423562ccbe2cac6d75c203bd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a261ad9d7423562ccbe2cac6d75c203bd">GetSize</a> () const</td></tr>
-<tr class="separator:a261ad9d7423562ccbe2cac6d75c203bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e10b7cfcd2a496c95a0bc49b912f62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a37e10b7cfcd2a496c95a0bc49b912f62">PreparedResultSet</a> (<a class="el" href="../../da/d64/a05666.html">MySQLStmt</a> *stmt, <a class="el" href="../../d1/d96/a05654.html">MySQLResult</a> *result, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> rowCount, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> fieldCount)</td></tr>
+<tr class="separator:a37e10b7cfcd2a496c95a0bc49b912f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69533e9d9775e51e4f529ee914704a99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a69533e9d9775e51e4f529ee914704a99">~PreparedResultSet</a> ()</td></tr>
+<tr class="separator:a69533e9d9775e51e4f529ee914704a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a318512d8357070f2aac5a511a6980b7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a318512d8357070f2aac5a511a6980b7a">NextRow</a> ()</td></tr>
+<tr class="separator:a318512d8357070f2aac5a511a6980b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4743826c5cb07b21a5a114b2d9da2e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#aa4743826c5cb07b21a5a114b2d9da2e6">GetRowCount</a> () const</td></tr>
+<tr class="separator:aa4743826c5cb07b21a5a114b2d9da2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dfe656d47bd55df939da4c26aadbd60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a6dfe656d47bd55df939da4c26aadbd60">GetFieldCount</a> () const</td></tr>
+<tr class="separator:a6dfe656d47bd55df939da4c26aadbd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e3d12e6e3184dc15cec79c53679828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc8/a05622.html">Field</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#aa9e3d12e6e3184dc15cec79c53679828">Fetch</a> () const</td></tr>
+<tr class="separator:aa9e3d12e6e3184dc15cec79c53679828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b168ef4331e67319d4e074813bc083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc8/a05622.html">Field</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a04b168ef4331e67319d4e074813bc083">operator[]</a> (std::size_t index) const</td></tr>
+<tr class="separator:a04b168ef4331e67319d4e074813bc083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbe474eb95b356120258e61873cd719"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:abcbe474eb95b356120258e61873cd719"><td class="memTemplItemLeft" align="right" valign="top">std::tuple&lt; Ts... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#abcbe474eb95b356120258e61873cd719">FetchTuple</a> ()</td></tr>
+<tr class="separator:abcbe474eb95b356120258e61873cd719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc5c9874537a04c80d03e61fe1841e4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a3fc5c9874537a04c80d03e61fe1841e4">begin</a> ()</td></tr>
+<tr class="separator:a3fc5c9874537a04c80d03e61fe1841e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8e099a4f8775b5e5e3b95ad0273a716f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a8e099a4f8775b5e5e3b95ad0273a716f">AppendPreparedStatement</a> (<a class="el" href="../../d4/d00/a05710.html">PreparedStatementBase</a> *statement)</td></tr>
-<tr class="separator:a8e099a4f8775b5e5e3b95ad0273a716f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e0ce11de325a1b286d90a2936d4aa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a35e0ce11de325a1b286d90a2936d4aa3">Cleanup</a> ()</td></tr>
-<tr class="separator:a35e0ce11de325a1b286d90a2936d4aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a36b6fb6061c0ea14acdf4cdded5fe4dd"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a36b6fb6061c0ea14acdf4cdded5fe4dd">end</a> ()</td></tr>
+<tr class="separator:a36b6fb6061c0ea14acdf4cdded5fe4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a156f1a8316358c05285778e5734eade1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/df9/a05758.html">SQLElementData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a></td></tr>
-<tr class="separator:a156f1a8316358c05285778e5734eade1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112d5c50493759bdad9dadb47e6a7e59"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d4/dff/a05618.html">QueryResultFieldMetadata</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a112d5c50493759bdad9dadb47e6a7e59">m_fieldMetadata</a></td></tr>
+<tr class="separator:a112d5c50493759bdad9dadb47e6a7e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86265fe5b9bd892466473cc247b64246"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d4/dc8/a05622.html">Field</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a></td></tr>
+<tr class="separator:a86265fe5b9bd892466473cc247b64246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c33d837eff40a43b8db1bd569db37e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a></td></tr>
+<tr class="separator:a45c33d837eff40a43b8db1bd569db37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2643c841a32f11b7b7a0530e55592e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a></td></tr>
+<tr class="separator:a2643c841a32f11b7b7a0530e55592e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f17fbba046a803f983895ac10ab2eea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a></td></tr>
+<tr class="separator:a7f17fbba046a803f983895ac10ab2eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2f7cc406ada567238cb9934f8e5a4c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a2f7cc406ada567238cb9934f8e5a4c14">CleanUp</a> ()</td></tr>
+<tr class="separator:a2f7cc406ada567238cb9934f8e5a4c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a9fa2a241f035ed6b19e0e90a80933"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a60a9fa2a241f035ed6b19e0e90a80933">_NextRow</a> ()</td></tr>
+<tr class="separator:a60a9fa2a241f035ed6b19e0e90a80933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad00cea21f573411604f075015e3d5a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#aad00cea21f573411604f075015e3d5a5">AssertRows</a> (std::size_t sizeRows)</td></tr>
+<tr class="separator:aad00cea21f573411604f075015e3d5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e58e7ad0af6188b71a173fc1944b60f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a4e58e7ad0af6188b71a173fc1944b60f">PreparedResultSet</a> (<a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> const &amp;right)=delete</td></tr>
+<tr class="separator:a4e58e7ad0af6188b71a173fc1944b60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a259a4f96842e0003d075f66466018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#ab9a259a4f96842e0003d075f66466018">operator=</a> (<a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> const &amp;right)=delete</td></tr>
+<tr class="separator:ab9a259a4f96842e0003d075f66466018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aa82af96128bfcee997423a54396d40d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#aa82af96128bfcee997423a54396d40d4">_cleanedUp</a> {false}</td></tr>
-<tr class="separator:aa82af96128bfcee997423a54396d40d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a377add6d6b5e34e774d2497d58f4a180"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a377add6d6b5e34e774d2497d58f4a180">TransactionTask</a></td></tr>
-<tr class="separator:a377add6d6b5e34e774d2497d58f4a180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06fa417f69e0a67da8f249333b1d189d"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a06fa417f69e0a67da8f249333b1d189d">MySQLConnection</a></td></tr>
-<tr class="separator:a06fa417f69e0a67da8f249333b1d189d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d89109a06fa4fca3057b99bbfa84e58"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5d89109a06fa4fca3057b99bbfa84e58"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a5d89109a06fa4fca3057b99bbfa84e58">DatabaseWorkerPool</a></td></tr>
-<tr class="separator:a5d89109a06fa4fca3057b99bbfa84e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7583afcc79b2f51c7106b4c2b97d5cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/a05662.html">MySQLBind</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a></td></tr>
+<tr class="separator:a7583afcc79b2f51c7106b4c2b97d5cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ecda839a65b21c0cd1d4de14f511901"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d64/a05666.html">MySQLStmt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a></td></tr>
+<tr class="separator:a1ecda839a65b21c0cd1d4de14f511901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4d9b8c86f6fd19305b1499d553dfe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d96/a05654.html">MySQLResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a></td></tr>
+<tr class="memdesc:acd4d9b8c86f6fd19305b1499d553dfe3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/dc8/a05622.html" title="Class used to access individual fields of database query result.">Field</a> metadata, returned by mysql_stmt_result_metadata.  <a href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">More...</a><br /></td></tr>
+<tr class="separator:acd4d9b8c86f6fd19305b1499d553dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Transactions, high level class. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a663d13ba0b22e0711d135073ff80ee47" name="a663d13ba0b22e0711d135073ff80ee47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a663d13ba0b22e0711d135073ff80ee47">&#9670;&#160;</a></span>TransactionBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TransactionBase::TransactionBase </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ce7e6ef81bb466463bace35cdd49476" name="a6ce7e6ef81bb466463bace35cdd49476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ce7e6ef81bb466463bace35cdd49476">&#9670;&#160;</a></span>~TransactionBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual TransactionBase::~TransactionBase </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{ <a class="code hl_function" href="../../d7/dce/a05766.html#a35e0ce11de325a1b286d90a2936d4aa3">Cleanup</a>(); }</div>
-<div class="ttc" id="aa05766_html_a35e0ce11de325a1b286d90a2936d4aa3"><div class="ttname"><a href="../../d7/dce/a05766.html#a35e0ce11de325a1b286d90a2936d4aa3">TransactionBase::Cleanup</a></div><div class="ttdeci">void Cleanup()</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:50</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a867b7a92080104278aef5fb4975a4a52" name="a867b7a92080104278aef5fb4975a4a52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a867b7a92080104278aef5fb4975a4a52">&#9670;&#160;</a></span>Append() <span class="overload">[1/2]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a37e10b7cfcd2a496c95a0bc49b912f62" name="a37e10b7cfcd2a496c95a0bc49b912f62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e10b7cfcd2a496c95a0bc49b912f62">&#9670;&#160;</a></span>PreparedResultSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TransactionBase::Append </td>
+          <td class="memname">PreparedResultSet::PreparedResultSet </td>
           <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>sql</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_struct" href="../../d0/df9/a05758.html">SQLElementData</a> data = {};</div>
-<div class="line"><span class="lineno">   36</span>    data.<a class="code hl_variable" href="../../d0/df9/a05758.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a> = <a class="code hl_enumvalue" href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>;</div>
-<div class="line"><span class="lineno">   37</span>    data.<a class="code hl_variable" href="../../d0/df9/a05758.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a> = std::string(sql);</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.emplace_back(data);</div>
-<div class="line"><span class="lineno">   39</span>}</div>
-<div class="ttc" id="aa04550_html_abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a"><div class="ttname"><a href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a></div><div class="ttdeci">@ SQL_ELEMENT_RAW</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:28</div></div>
-<div class="ttc" id="aa05758_html"><div class="ttname"><a href="../../d0/df9/a05758.html">SQLElementData</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:34</div></div>
-<div class="ttc" id="aa05758_html_ae5400b2932fe1a8c514c38fb6bab392f"><div class="ttname"><a href="../../d0/df9/a05758.html#ae5400b2932fe1a8c514c38fb6bab392f">SQLElementData::element</a></div><div class="ttdeci">std::variant&lt; PreparedStatementBase *, std::string &gt; element</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:35</div></div>
-<div class="ttc" id="aa05758_html_afb3f8dc82da740b1aaae165cb6a5b218"><div class="ttname"><a href="../../d0/df9/a05758.html#afb3f8dc82da740b1aaae165cb6a5b218">SQLElementData::type</a></div><div class="ttdeci">SQLElementDataType type</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:36</div></div>
-<div class="ttc" id="aa05766_html_a156f1a8316358c05285778e5734eade1"><div class="ttname"><a href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">TransactionBase::m_queries</a></div><div class="ttdeci">std::vector&lt; SQLElementData &gt; m_queries</div><div class="ttdef"><b>Definition:</b> Transaction.h:55</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00035">SQLElementData::element</a>, <a class="el" href="../../#l00055">m_queries</a>, <a class="el" href="../../#l00028">SQL_ELEMENT_RAW</a>, and <a class="el" href="../../#l00036">SQLElementData::type</a>.</p>
-
-</div>
-</div>
-<a id="aa0a81814abe26d456018c3bc9153cd4d" name="aa0a81814abe26d456018c3bc9153cd4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0a81814abe26d456018c3bc9153cd4d">&#9670;&#160;</a></span>Append() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TransactionBase::Append </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>sql</em>, </td>
+          <td class="paramtype"><a class="el" href="../../da/d64/a05666.html">MySQLStmt</a> *&#160;</td>
+          <td class="paramname"><em>stmt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/d96/a05654.html">MySQLResult</a> *&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>rowCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>fieldCount</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000006">Todo:</a></b></dt><dd>: remove Field::GetCString and use std::string_view in C++17 </dd></dl>
+<p >All data is buffered, let go of mysql c api structures</p>
+<div class="fragment"><div class="line"><span class="lineno">  248</span>                                                                                                             :</div>
+<div class="line"><span class="lineno">  249</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>(rowCount),</div>
+<div class="line"><span class="lineno">  250</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>(0),</div>
+<div class="line"><span class="lineno">  251</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>(fieldCount),</div>
+<div class="line"><span class="lineno">  252</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>(<span class="keyword">nullptr</span>),</div>
+<div class="line"><span class="lineno">  253</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>(stmt),</div>
+<div class="line"><span class="lineno">  254</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a>(result)</div>
+<div class="line"><span class="lineno">  255</span>{</div>
+<div class="line"><span class="lineno">  256</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a>)</div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>-&gt;bind_result_done)</div>
+<div class="line"><span class="lineno">  260</span>    {</div>
+<div class="line"><span class="lineno">  261</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>-&gt;bind-&gt;length;</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>-&gt;bind-&gt;is_null;</div>
+<div class="line"><span class="lineno">  263</span>    }</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a> = <span class="keyword">new</span> <a class="code hl_struct" href="../../d7/dde/a05662.html">MySQLBind</a>[<a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>];</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>    <span class="comment">//- for future readers wondering where this is freed - mysql_stmt_bind_result moves pointers to these</span></div>
+<div class="line"><span class="lineno">  268</span>    <span class="comment">// from m_rBind to m_stmt-&gt;bind and it is later freed by the `if (m_stmt-&gt;bind_result_done)` block just above here</span></div>
+<div class="line"><span class="lineno">  269</span>    <span class="comment">// MYSQL_STMT lifetime is equal to connection lifetime</span></div>
+<div class="line"><span class="lineno">  270</span>    <a class="code hl_typedef" href="../../d4/d88/a04637.html#a9962b927652e90357369e67230dbc127">MySQLBool</a>* m_isNull = <span class="keyword">new</span> <a class="code hl_typedef" href="../../d4/d88/a04637.html#a9962b927652e90357369e67230dbc127">MySQLBool</a>[<a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>];</div>
+<div class="line"><span class="lineno">  271</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>* m_length = <span class="keyword">new</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>[<a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>];</div>
+<div class="line"><span class="lineno">  272</span> </div>
+<div class="line"><span class="lineno">  273</span>    memset(m_isNull, 0, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d88/a04637.html#a9962b927652e90357369e67230dbc127">MySQLBool</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  274</span>    memset(<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d7/dde/a05662.html">MySQLBind</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  275</span>    memset(m_length, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>    <span class="comment">//- This is where we store the (entire) resultset</span></div>
+<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">if</span> (mysql_stmt_store_result(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>))</div>
+<div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;{}:mysql_stmt_store_result, cannot bind result from MySQL server. Error: {}&quot;</span>, __FUNCTION__, mysql_stmt_error(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>));</div>
+<div class="line"><span class="lineno">  281</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>;</div>
+<div class="line"><span class="lineno">  282</span>        <span class="keyword">delete</span>[] m_isNull;</div>
+<div class="line"><span class="lineno">  283</span>        <span class="keyword">delete</span>[] m_length;</div>
+<div class="line"><span class="lineno">  284</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  285</span>    }</div>
+<div class="line"><span class="lineno">  286</span> </div>
+<div class="line"><span class="lineno">  287</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a> = mysql_stmt_num_rows(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>);</div>
+<div class="line"><span class="lineno">  288</span> </div>
+<div class="line"><span class="lineno">  289</span>    <span class="comment">//- This is where we prepare the buffer based on metadata</span></div>
+<div class="line"><span class="lineno">  290</span>    <a class="code hl_struct" href="../../d1/dc8/a05658.html">MySQLField</a>* field = <span class="keyword">reinterpret_cast&lt;</span><a class="code hl_struct" href="../../d1/dc8/a05658.html">MySQLField</a>*<span class="keyword">&gt;</span>(mysql_fetch_fields(<a class="code hl_variable" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a>));</div>
+<div class="line"><span class="lineno">  291</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a112d5c50493759bdad9dadb47e6a7e59">m_fieldMetadata</a>.resize(<a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  292</span>    std::size_t rowSize = 0;</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">  295</span>    {</div>
+<div class="line"><span class="lineno">  296</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> size = <a class="code hl_function" href="../../d7/de9/a04715.html#ae077e892df09ce687a0a50be949ad69f">SizeForType</a>(&amp;field[i]);</div>
+<div class="line"><span class="lineno">  297</span>        rowSize += size;</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>        <a class="code hl_function" href="../../d7/de9/a04715.html#a5e0e57902060d1fcd32688acb949b98e">InitializeDatabaseFieldMetadata</a>(&amp;<a class="code hl_variable" href="../../d7/dce/a05766.html#a112d5c50493759bdad9dadb47e6a7e59">m_fieldMetadata</a>[i], &amp;field[i], i);</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].buffer_type = field[i].type;</div>
+<div class="line"><span class="lineno">  302</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].buffer_length = size;</div>
+<div class="line"><span class="lineno">  303</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].length = &amp;m_length[i];</div>
+<div class="line"><span class="lineno">  304</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].is_null = &amp;m_isNull[i];</div>
+<div class="line"><span class="lineno">  305</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].error = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  306</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].is_unsigned = field[i].flags &amp; UNSIGNED_FLAG;</div>
+<div class="line"><span class="lineno">  307</span>    }</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>    <span class="keywordtype">char</span>* dataBuffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[rowSize * <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>];</div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0, offset = 0; i &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">  311</span>    {</div>
+<div class="line"><span class="lineno">  312</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].buffer = dataBuffer + offset;</div>
+<div class="line"><span class="lineno">  313</span>        offset += <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[i].buffer_length;</div>
+<div class="line"><span class="lineno">  314</span>    }</div>
+<div class="line"><span class="lineno">  315</span> </div>
+<div class="line"><span class="lineno">  316</span>    <span class="comment">//- This is where we bind the bind the buffer to the statement</span></div>
+<div class="line"><span class="lineno">  317</span>    <span class="keywordflow">if</span> (mysql_stmt_bind_result(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>, <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>))</div>
+<div class="line"><span class="lineno">  318</span>    {</div>
+<div class="line"><span class="lineno">  319</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;{}:mysql_stmt_bind_result, cannot bind result from MySQL server. Error: {}&quot;</span>, __FUNCTION__, mysql_stmt_error(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>));</div>
+<div class="line"><span class="lineno">  320</span>        mysql_stmt_free_result(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>);</div>
+<div class="line"><span class="lineno">  321</span>        <a class="code hl_function" href="../../d7/dce/a05766.html#a2f7cc406ada567238cb9934f8e5a4c14">CleanUp</a>();</div>
+<div class="line"><span class="lineno">  322</span>        <span class="keyword">delete</span>[] m_isNull;</div>
+<div class="line"><span class="lineno">  323</span>        <span class="keyword">delete</span>[] m_length;</div>
+<div class="line"><span class="lineno">  324</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  325</span>    }</div>
+<div class="line"><span class="lineno">  326</span> </div>
+<div class="line"><span class="lineno">  327</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>.resize(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  328</span> </div>
+<div class="line"><span class="lineno">  329</span>    <span class="keywordflow">while</span> (<a class="code hl_function" href="../../d7/dce/a05766.html#a60a9fa2a241f035ed6b19e0e90a80933">_NextRow</a>())</div>
+<div class="line"><span class="lineno">  330</span>    {</div>
+<div class="line"><span class="lineno">  331</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> fIndex = 0; fIndex &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>; ++fIndex)</div>
+<div class="line"><span class="lineno">  332</span>        {</div>
+<div class="line"><span class="lineno">  333</span>            <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a> + fIndex].SetMetadata(&amp;<a class="code hl_variable" href="../../d7/dce/a05766.html#a112d5c50493759bdad9dadb47e6a7e59">m_fieldMetadata</a>[fIndex]);</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>            <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> buffer_length = <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[fIndex].buffer_length;</div>
+<div class="line"><span class="lineno">  336</span>            <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> fetched_length = *<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[fIndex].length;</div>
+<div class="line"><span class="lineno">  337</span>            <span class="keywordflow">if</span> (!*<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[fIndex].is_null)</div>
+<div class="line"><span class="lineno">  338</span>            {</div>
+<div class="line"><span class="lineno">  339</span>                <span class="keywordtype">void</span>* buffer = <a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>-&gt;bind[fIndex].buffer;</div>
+<div class="line"><span class="lineno">  340</span>                <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[fIndex].buffer_type)</div>
+<div class="line"><span class="lineno">  341</span>                {</div>
+<div class="line"><span class="lineno">  342</span>                <span class="keywordflow">case</span> MYSQL_TYPE_TINY_BLOB:</div>
+<div class="line"><span class="lineno">  343</span>                <span class="keywordflow">case</span> MYSQL_TYPE_MEDIUM_BLOB:</div>
+<div class="line"><span class="lineno">  344</span>                <span class="keywordflow">case</span> MYSQL_TYPE_LONG_BLOB:</div>
+<div class="line"><span class="lineno">  345</span>                <span class="keywordflow">case</span> MYSQL_TYPE_BLOB:</div>
+<div class="line"><span class="lineno">  346</span>                <span class="keywordflow">case</span> MYSQL_TYPE_STRING:</div>
+<div class="line"><span class="lineno">  347</span>                <span class="keywordflow">case</span> MYSQL_TYPE_VAR_STRING:</div>
+<div class="line"><span class="lineno">  348</span>                    <span class="comment">// warning - the string will not be null-terminated if there is no space for it in the buffer</span></div>
+<div class="line"><span class="lineno">  349</span>                    <span class="comment">// when mysql_stmt_fetch returned MYSQL_DATA_TRUNCATED</span></div>
+<div class="line"><span class="lineno">  350</span>                    <span class="comment">// we cannot blindly null-terminate the data either as it may be retrieved as binary blob and not specifically a string</span></div>
+<div class="line"><span class="lineno">  351</span>                    <span class="comment">// in this case using Field::GetCString will result in garbage</span></div>
+<div class="line"><span class="lineno">  353</span><span class="comment"></span>                    <span class="keywordflow">if</span> (fetched_length &lt; buffer_length)</div>
+<div class="line"><span class="lineno">  354</span>                        *((<span class="keywordtype">char</span>*)buffer + fetched_length) = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  355</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  356</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  357</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  358</span>                }</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>                <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a> + fIndex].SetByteValue((<span class="keywordtype">char</span> <span class="keyword">const</span>*)buffer, fetched_length);</div>
+<div class="line"><span class="lineno">  361</span> </div>
+<div class="line"><span class="lineno">  362</span>                <span class="comment">// move buffer pointer to next part</span></div>
+<div class="line"><span class="lineno">  363</span>                <a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>-&gt;bind[fIndex].buffer = (<span class="keywordtype">char</span>*)buffer + rowSize;</div>
+<div class="line"><span class="lineno">  364</span>            }</div>
+<div class="line"><span class="lineno">  365</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  366</span>            {</div>
+<div class="line"><span class="lineno">  367</span>                <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a> + fIndex].SetByteValue(<span class="keyword">nullptr</span>, *<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>[fIndex].length);</div>
+<div class="line"><span class="lineno">  368</span>            }</div>
+<div class="line"><span class="lineno">  369</span>        }</div>
+<div class="line"><span class="lineno">  370</span> </div>
+<div class="line"><span class="lineno">  371</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>++;</div>
+<div class="line"><span class="lineno">  372</span>    }</div>
+<div class="line"><span class="lineno">  373</span> </div>
+<div class="line"><span class="lineno">  374</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> = 0;</div>
+<div class="line"><span class="lineno">  375</span> </div>
+<div class="line"><span class="lineno">  377</span>    mysql_stmt_free_result(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>);</div>
+<div class="line"><span class="lineno">  378</span>}</div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa04637_html_a9962b927652e90357369e67230dbc127"><div class="ttname"><a href="../../d4/d88/a04637.html#a9962b927652e90357369e67230dbc127">MySQLBool</a></div><div class="ttdeci">std::remove_pointer_t&lt; decltype(std::declval&lt; MYSQL_BIND &gt;().is_null)&gt; MySQLBool</div><div class="ttdef"><b>Definition:</b> MySQLHacks.h:32</div></div>
+<div class="ttc" id="aa04715_html_a5e0e57902060d1fcd32688acb949b98e"><div class="ttname"><a href="../../d7/de9/a04715.html#a5e0e57902060d1fcd32688acb949b98e">anonymous_namespace{QueryResult.cpp}::InitializeDatabaseFieldMetadata</a></div><div class="ttdeci">void InitializeDatabaseFieldMetadata(QueryResultFieldMetadata *meta, MySQLField const *field, uint32 fieldIndex)</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:155</div></div>
+<div class="ttc" id="aa04715_html_ae077e892df09ce687a0a50be949ad69f"><div class="ttname"><a href="../../d7/de9/a04715.html#ae077e892df09ce687a0a50be949ad69f">anonymous_namespace{QueryResult.cpp}::SizeForType</a></div><div class="ttdeci">static uint32 SizeForType(MYSQL_FIELD *field)</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:27</div></div>
+<div class="ttc" id="aa05658_html"><div class="ttname"><a href="../../d1/dc8/a05658.html">MySQLField</a></div><div class="ttdef"><b>Definition:</b> MySQLHacks.h:26</div></div>
+<div class="ttc" id="aa05662_html"><div class="ttname"><a href="../../d7/dde/a05662.html">MySQLBind</a></div><div class="ttdef"><b>Definition:</b> MySQLHacks.h:27</div></div>
+<div class="ttc" id="aa05766_html_a112d5c50493759bdad9dadb47e6a7e59"><div class="ttname"><a href="../../d7/dce/a05766.html#a112d5c50493759bdad9dadb47e6a7e59">PreparedResultSet::m_fieldMetadata</a></div><div class="ttdeci">std::vector&lt; QueryResultFieldMetadata &gt; m_fieldMetadata</div><div class="ttdef"><b>Definition:</b> QueryResult.h:131</div></div>
+<div class="ttc" id="aa05766_html_a1ecda839a65b21c0cd1d4de14f511901"><div class="ttname"><a href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">PreparedResultSet::m_stmt</a></div><div class="ttdeci">MySQLStmt * m_stmt</div><div class="ttdef"><b>Definition:</b> QueryResult.h:139</div></div>
+<div class="ttc" id="aa05766_html_a2643c841a32f11b7b7a0530e55592e61"><div class="ttname"><a href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">PreparedResultSet::m_rowPosition</a></div><div class="ttdeci">uint64 m_rowPosition</div><div class="ttdef"><b>Definition:</b> QueryResult.h:134</div></div>
+<div class="ttc" id="aa05766_html_a2f7cc406ada567238cb9934f8e5a4c14"><div class="ttname"><a href="../../d7/dce/a05766.html#a2f7cc406ada567238cb9934f8e5a4c14">PreparedResultSet::CleanUp</a></div><div class="ttdeci">void CleanUp()</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:419</div></div>
+<div class="ttc" id="aa05766_html_a45c33d837eff40a43b8db1bd569db37e"><div class="ttname"><a href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">PreparedResultSet::m_rowCount</a></div><div class="ttdeci">uint64 m_rowCount</div><div class="ttdef"><b>Definition:</b> QueryResult.h:133</div></div>
+<div class="ttc" id="aa05766_html_a60a9fa2a241f035ed6b19e0e90a80933"><div class="ttname"><a href="../../d7/dce/a05766.html#a60a9fa2a241f035ed6b19e0e90a80933">PreparedResultSet::_NextRow</a></div><div class="ttdeci">bool _NextRow()</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:395</div></div>
+<div class="ttc" id="aa05766_html_a7583afcc79b2f51c7106b4c2b97d5cf2"><div class="ttname"><a href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">PreparedResultSet::m_rBind</a></div><div class="ttdeci">MySQLBind * m_rBind</div><div class="ttdef"><b>Definition:</b> QueryResult.h:138</div></div>
+<div class="ttc" id="aa05766_html_a7f17fbba046a803f983895ac10ab2eea"><div class="ttname"><a href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">PreparedResultSet::m_fieldCount</a></div><div class="ttdeci">uint32 m_fieldCount</div><div class="ttdef"><b>Definition:</b> QueryResult.h:135</div></div>
+<div class="ttc" id="aa05766_html_a86265fe5b9bd892466473cc247b64246"><div class="ttname"><a href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">PreparedResultSet::m_rows</a></div><div class="ttdeci">std::vector&lt; Field &gt; m_rows</div><div class="ttdef"><b>Definition:</b> QueryResult.h:132</div></div>
+<div class="ttc" id="aa05766_html_acd4d9b8c86f6fd19305b1499d553dfe3"><div class="ttname"><a href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">PreparedResultSet::m_metadataResult</a></div><div class="ttdeci">MySQLResult * m_metadataResult</div><div class="ttdoc">Field metadata, returned by mysql_stmt_result_metadata.</div><div class="ttdef"><b>Definition:</b> QueryResult.h:140</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00395">_NextRow()</a>, <a class="el" href="../../#l00419">CleanUp()</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00135">m_fieldCount</a>, <a class="el" href="../../#l00131">m_fieldMetadata</a>, <a class="el" href="../../#l00140">m_metadataResult</a>, <a class="el" href="../../#l00138">m_rBind</a>, <a class="el" href="../../#l00133">m_rowCount</a>, <a class="el" href="../../#l00134">m_rowPosition</a>, <a class="el" href="../../#l00132">m_rows</a>, and <a class="el" href="../../#l00139">m_stmt</a>.</p>
+
+</div>
+</div>
+<a id="a69533e9d9775e51e4f529ee914704a99" name="a69533e9d9775e51e4f529ee914704a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69533e9d9775e51e4f529ee914704a99">&#9670;&#160;</a></span>~PreparedResultSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PreparedResultSet::~PreparedResultSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  381</span>{</div>
+<div class="line"><span class="lineno">  382</span>    <a class="code hl_function" href="../../d7/dce/a05766.html#a2f7cc406ada567238cb9934f8e5a4c14">CleanUp</a>();</div>
+<div class="line"><span class="lineno">  383</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00419">CleanUp()</a>.</p>
+
+</div>
+</div>
+<a id="a4e58e7ad0af6188b71a173fc1944b60f" name="a4e58e7ad0af6188b71a173fc1944b60f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e58e7ad0af6188b71a173fc1944b60f">&#9670;&#160;</a></span>PreparedResultSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PreparedResultSet::PreparedResultSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a60a9fa2a241f035ed6b19e0e90a80933" name="a60a9fa2a241f035ed6b19e0e90a80933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60a9fa2a241f035ed6b19e0e90a80933">&#9670;&#160;</a></span>_NextRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreparedResultSet::_NextRow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Only called in low-level code, namely the constructor Will iterate over every row of data and buffer it</p>
+<div class="fragment"><div class="line"><span class="lineno">  396</span>{</div>
+<div class="line"><span class="lineno">  399</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> &gt;= <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>)</div>
+<div class="line"><span class="lineno">  400</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  401</span> </div>
+<div class="line"><span class="lineno">  402</span>    <span class="keywordtype">int</span> retval = mysql_stmt_fetch(<a class="code hl_variable" href="../../d7/dce/a05766.html#a1ecda839a65b21c0cd1d4de14f511901">m_stmt</a>);</div>
+<div class="line"><span class="lineno">  403</span>    <span class="keywordflow">return</span> retval == 0 || retval == MYSQL_DATA_TRUNCATED;</div>
+<div class="line"><span class="lineno">  404</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00133">m_rowCount</a>, <a class="el" href="../../#l00134">m_rowPosition</a>, and <a class="el" href="../../#l00139">m_stmt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="aad00cea21f573411604f075015e3d5a5" name="aad00cea21f573411604f075015e3d5a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad00cea21f573411604f075015e3d5a5">&#9670;&#160;</a></span>AssertRows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreparedResultSet::AssertRows </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>sizeRows</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  433</span>{</div>
+<div class="line"><span class="lineno">  434</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>);</div>
+<div class="line"><span class="lineno">  435</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(sizeRows == <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>, <span class="stringliteral">&quot;&gt; Tuple size != count fields&quot;</span>);</div>
+<div class="line"><span class="lineno">  436</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00135">m_fieldCount</a>, <a class="el" href="../../#l00133">m_rowCount</a>, and <a class="el" href="../../#l00134">m_rowPosition</a>.</p>
+
+</div>
+</div>
+<a id="a3fc5c9874537a04c80d03e61fe1841e4" name="a3fc5c9874537a04c80d03e61fe1841e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc5c9874537a04c80d03e61fe1841e4">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto PreparedResultSet::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -289,18 +513,13 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
-<div class="line"><span class="lineno">   47</span>        <a class="code hl_function" href="../../d7/dce/a05766.html#a867b7a92080104278aef5fb4975a4a52">Append</a>(<a class="code hl_function" href="../../d7/de4/a04674.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
-<div class="line"><span class="lineno">   48</span>    }</div>
-<div class="ttc" id="aa04674_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d7/de4/a04674.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
-<div class="ttc" id="aa05766_html_a867b7a92080104278aef5fb4975a4a52"><div class="ttname"><a href="../../d7/dce/a05766.html#a867b7a92080104278aef5fb4975a4a52">TransactionBase::Append</a></div><div class="ttdeci">void Append(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:33</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>{ <span class="keywordflow">return</span> <a class="code hl_struct" href="../../d0/df9/a05758.html">ResultIterator&lt;PreparedResultSet&gt;</a>(<span class="keyword">this</span>); }</div>
+<div class="ttc" id="aa05758_html"><div class="ttname"><a href="../../d0/df9/a05758.html">ResultIterator</a></div><div class="ttdef"><b>Definition:</b> QueryResult.h:29</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
-
 </div>
 </div>
-<a id="a8e099a4f8775b5e5e3b95ad0273a716f" name="a8e099a4f8775b5e5e3b95ad0273a716f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e099a4f8775b5e5e3b95ad0273a716f">&#9670;&#160;</a></span>AppendPreparedStatement()</h2>
+<a id="a2f7cc406ada567238cb9934f8e5a4c14" name="a2f7cc406ada567238cb9934f8e5a4c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f7cc406ada567238cb9934f8e5a4c14">&#9670;&#160;</a></span>CleanUp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,42 +528,7 @@ template&lt;typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TransactionBase::AppendPreparedStatement </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d00/a05710.html">PreparedStatementBase</a> *&#160;</td>
-          <td class="paramname"><em>statement</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_struct" href="../../d0/df9/a05758.html">SQLElementData</a> data = {};</div>
-<div class="line"><span class="lineno">   45</span>    data.<a class="code hl_variable" href="../../d0/df9/a05758.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a> = <a class="code hl_enumvalue" href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a>;</div>
-<div class="line"><span class="lineno">   46</span>    data.<a class="code hl_variable" href="../../d0/df9/a05758.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a> = stmt;</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.emplace_back(data);</div>
-<div class="line"><span class="lineno">   48</span>}</div>
-<div class="ttc" id="aa04550_html_abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d"><div class="ttname"><a href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a></div><div class="ttdeci">@ SQL_ELEMENT_PREPARED</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:29</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00067">Transaction&lt; T &gt;::Append()</a>.</p>
-
-</div>
-</div>
-<a id="a35e0ce11de325a1b286d90a2936d4aa3" name="a35e0ce11de325a1b286d90a2936d4aa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35e0ce11de325a1b286d90a2936d4aa3">&#9670;&#160;</a></span>Cleanup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TransactionBase::Cleanup </td>
+          <td class="memname">void PreparedResultSet::CleanUp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -352,66 +536,30 @@ template&lt;typename... Args&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <span class="comment">// This might be called by explicit calls to Cleanup or by the auto-destructor</span></div>
-<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#aa82af96128bfcee997423a54396d40d4">_cleanedUp</a>)</div>
-<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../d0/df9/a05758.html">SQLElementData</a>&amp; data : <a class="code hl_variable" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a>)</div>
-<div class="line"><span class="lineno">   57</span>    {</div>
-<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">switch</span> (data.type)</div>
-<div class="line"><span class="lineno">   59</span>        {</div>
-<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a>:</div>
-<div class="line"><span class="lineno">   61</span>            {</div>
-<div class="line"><span class="lineno">   62</span>                <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">   63</span>                {</div>
-<div class="line"><span class="lineno">   64</span>                    <a class="code hl_class" href="../../d4/d00/a05710.html">PreparedStatementBase</a>* stmt = std::get&lt;PreparedStatementBase*&gt;(data.element);</div>
-<div class="line"><span class="lineno">   65</span>                    <a class="code hl_define" href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(stmt);</div>
-<div class="line"><span class="lineno">   66</span> </div>
-<div class="line"><span class="lineno">   67</span>                    <span class="keyword">delete</span> stmt;</div>
-<div class="line"><span class="lineno">   68</span>                }</div>
-<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::bad_variant_access&amp; ex)</div>
-<div class="line"><span class="lineno">   70</span>                {</div>
-<div class="line"><span class="lineno">   71</span>                    <a class="code hl_define" href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; PreparedStatementBase not found in SQLElementData. {}&quot;</span>, ex.what());</div>
-<div class="line"><span class="lineno">   72</span>                    <a class="code hl_define" href="../../d8/d8e/a00344.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
-<div class="line"><span class="lineno">   73</span>                }</div>
-<div class="line"><span class="lineno">   74</span>            }</div>
-<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/df8/a04550.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>:</div>
-<div class="line"><span class="lineno">   77</span>            {</div>
-<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">   79</span>                {</div>
-<div class="line"><span class="lineno">   80</span>                    std::get&lt;std::string&gt;(data.element).clear();</div>
-<div class="line"><span class="lineno">   81</span>                }</div>
-<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::bad_variant_access&amp; ex)</div>
-<div class="line"><span class="lineno">   83</span>                {</div>
-<div class="line"><span class="lineno">   84</span>                    <a class="code hl_define" href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; std::string not found in SQLElementData. {}&quot;</span>, ex.what());</div>
-<div class="line"><span class="lineno">   85</span>                    <a class="code hl_define" href="../../d8/d8e/a00344.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
-<div class="line"><span class="lineno">   86</span>                }</div>
-<div class="line"><span class="lineno">   87</span>            }</div>
-<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   89</span>        }</div>
-<div class="line"><span class="lineno">   90</span>    }</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.clear();</div>
-<div class="line"><span class="lineno">   93</span>    <a class="code hl_variable" href="../../d7/dce/a05766.html#aa82af96128bfcee997423a54396d40d4">_cleanedUp</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   94</span>}</div>
-<div class="ttc" id="aa00125_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../dc/dfe/a00125.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:153</div></div>
-<div class="ttc" id="aa00344_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../d8/d8e/a00344.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
-<div class="ttc" id="aa00344_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d8/d8e/a00344.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa05710_html"><div class="ttname"><a href="../../d4/d00/a05710.html">PreparedStatementBase</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:68</div></div>
-<div class="ttc" id="aa05766_html_aa82af96128bfcee997423a54396d40d4"><div class="ttname"><a href="../../d7/dce/a05766.html#aa82af96128bfcee997423a54396d40d4">TransactionBase::_cleanedUp</a></div><div class="ttdeci">bool _cleanedUp</div><div class="ttdef"><b>Definition:</b> Transaction.h:58</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  420</span>{</div>
+<div class="line"><span class="lineno">  421</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a>)</div>
+<div class="line"><span class="lineno">  422</span>        mysql_free_result(<a class="code hl_variable" href="../../d7/dce/a05766.html#acd4d9b8c86f6fd19305b1499d553dfe3">m_metadataResult</a>);</div>
+<div class="line"><span class="lineno">  423</span> </div>
+<div class="line"><span class="lineno">  424</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>)</div>
+<div class="line"><span class="lineno">  425</span>    {</div>
+<div class="line"><span class="lineno">  426</span>        <span class="keyword">delete</span>[](<span class="keywordtype">char</span>*)<a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>-&gt;buffer;</div>
+<div class="line"><span class="lineno">  427</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a>;</div>
+<div class="line"><span class="lineno">  428</span>        <a class="code hl_variable" href="../../d7/dce/a05766.html#a7583afcc79b2f51c7106b4c2b97d5cf2">m_rBind</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  429</span>    }</div>
+<div class="line"><span class="lineno">  430</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00058">_cleanedUp</a>, <a class="el" href="../../#l00076">ABORT</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00153">LOG_FATAL</a>, <a class="el" href="../../#l00055">m_queries</a>, <a class="el" href="../../#l00029">SQL_ELEMENT_PREPARED</a>, and <a class="el" href="../../#l00028">SQL_ELEMENT_RAW</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00140">m_metadataResult</a>, and <a class="el" href="../../#l00138">m_rBind</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00248">PreparedResultSet()</a>, and <a class="el" href="../../#l00380">~PreparedResultSet()</a>.</p>
 
 </div>
 </div>
-<a id="a261ad9d7423562ccbe2cac6d75c203bd" name="a261ad9d7423562ccbe2cac6d75c203bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a261ad9d7423562ccbe2cac6d75c203bd">&#9670;&#160;</a></span>GetSize()</h2>
+<a id="a36b6fb6061c0ea14acdf4cdded5fe4dd" name="a36b6fb6061c0ea14acdf4cdded5fe4dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b6fb6061c0ea14acdf4cdded5fe4dd">&#9670;&#160;</a></span>end()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +568,99 @@ template&lt;typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t TransactionBase::GetSize </td>
+          <td class="memname">static auto PreparedResultSet::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  128</span>{ <span class="keywordflow">return</span> <a class="code hl_struct" href="../../d0/df9/a05758.html">ResultIterator&lt;PreparedResultSet&gt;</a>(<span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa9e3d12e6e3184dc15cec79c53679828" name="aa9e3d12e6e3184dc15cec79c53679828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e3d12e6e3184dc15cec79c53679828">&#9670;&#160;</a></span>Fetch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc8/a05622.html">Field</a> * PreparedResultSet::Fetch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  407</span>{</div>
+<div class="line"><span class="lineno">  408</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>);</div>
+<div class="line"><span class="lineno">  409</span>    <span class="keywordflow">return</span> <span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>*<span class="keyword">&gt;</span>(&amp;<a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>]);</div>
+<div class="line"><span class="lineno">  410</span>}</div>
+<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00135">m_fieldCount</a>, <a class="el" href="../../#l00133">m_rowCount</a>, <a class="el" href="../../#l00134">m_rowPosition</a>, and <a class="el" href="../../#l00132">m_rows</a>.</p>
+
+</div>
+</div>
+<a id="abcbe474eb95b356120258e61873cd719" name="abcbe474eb95b356120258e61873cd719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbe474eb95b356120258e61873cd719">&#9670;&#160;</a></span>FetchTuple()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tuple&lt; Ts... &gt; PreparedResultSet::FetchTuple </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  113</span>    {</div>
+<div class="line"><span class="lineno">  114</span>        <a class="code hl_function" href="../../d7/dce/a05766.html#aad00cea21f573411604f075015e3d5a5">AssertRows</a>(<span class="keyword">sizeof</span>...(Ts));</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>        std::tuple&lt;Ts...&gt; theTuple = {};</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        std::apply([<span class="keyword">this</span>](Ts&amp;... args)</div>
+<div class="line"><span class="lineno">  119</span>        {</div>
+<div class="line"><span class="lineno">  120</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index{ 0 };</div>
+<div class="line"><span class="lineno">  121</span>            ((args = <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a> + index].Get&lt;Ts&gt;(), index++), ...);</div>
+<div class="line"><span class="lineno">  122</span>        }, theTuple);</div>
+<div class="line"><span class="lineno">  123</span> </div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">return</span> theTuple;</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa05766_html_aad00cea21f573411604f075015e3d5a5"><div class="ttname"><a href="../../d7/dce/a05766.html#aad00cea21f573411604f075015e3d5a5">PreparedResultSet::AssertRows</a></div><div class="ttdeci">void AssertRows(std::size_t sizeRows)</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:432</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6dfe656d47bd55df939da4c26aadbd60" name="a6dfe656d47bd55df939da4c26aadbd60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dfe656d47bd55df939da4c26aadbd60">&#9670;&#160;</a></span>GetFieldCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PreparedResultSet::GetFieldCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -432,37 +672,12 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.size(); }</div>
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a5d89109a06fa4fca3057b99bbfa84e58" name="a5d89109a06fa4fca3057b99bbfa84e58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d89109a06fa4fca3057b99bbfa84e58">&#9670;&#160;</a></span>DatabaseWorkerPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../de/dd0/a05590.html">DatabaseWorkerPool</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a06fa417f69e0a67da8f249333b1d189d" name="a06fa417f69e0a67da8f249333b1d189d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06fa417f69e0a67da8f249333b1d189d">&#9670;&#160;</a></span>MySQLConnection</h2>
+<a id="aa4743826c5cb07b21a5a114b2d9da2e6" name="aa4743826c5cb07b21a5a114b2d9da2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4743826c5cb07b21a5a114b2d9da2e6">&#9670;&#160;</a></span>GetRowCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,20 +686,52 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="../../d7/d1a/a05634.html">MySQLConnection</a></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> PreparedResultSet::GetRowCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00084">PreparedStatementTask::Execute()</a>, <a class="el" href="../../#l00194">DatabaseWorkerPool&lt; T &gt;::Query()</a>, and <a class="el" href="../../#l00046">SQLQueryHolderBase::SetPreparedResult()</a>.</p>
 
 </div>
 </div>
-<a id="a377add6d6b5e34e774d2497d58f4a180" name="a377add6d6b5e34e774d2497d58f4a180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a377add6d6b5e34e774d2497d58f4a180">&#9670;&#160;</a></span>TransactionTask</h2>
+<a id="a318512d8357070f2aac5a511a6980b7a" name="a318512d8357070f2aac5a511a6980b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a318512d8357070f2aac5a511a6980b7a">&#9670;&#160;</a></span>NextRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreparedResultSet::NextRow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Only updates the m_rowPosition so upper level code knows in which element of the rows vector to look</p>
+<div class="fragment"><div class="line"><span class="lineno">  386</span>{</div>
+<div class="line"><span class="lineno">  389</span>    <span class="keywordflow">if</span> (++<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> &gt;= <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>)</div>
+<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  391</span> </div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  393</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00133">m_rowCount</a>, and <a class="el" href="../../#l00134">m_rowPosition</a>.</p>
+
+</div>
+</div>
+<a id="ab9a259a4f96842e0003d075f66466018" name="ab9a259a4f96842e0003d075f66466018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a259a4f96842e0003d075f66466018">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -493,21 +740,50 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="../../d2/d90/a05770.html">TransactionTask</a></td>
+          <td class="memname"><a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> &amp; PreparedResultSet::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04b168ef4331e67319d4e074813bc083" name="a04b168ef4331e67319d4e074813bc083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b168ef4331e67319d4e074813bc083">&#9670;&#160;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dc8/a05622.html">Field</a> const  &amp; PreparedResultSet::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  413</span>{</div>
+<div class="line"><span class="lineno">  414</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a> &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>);</div>
+<div class="line"><span class="lineno">  415</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &lt; <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a>);</div>
+<div class="line"><span class="lineno">  416</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dce/a05766.html#a86265fe5b9bd892466473cc247b64246">m_rows</a>[<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d7/dce/a05766.html#a2643c841a32f11b7b7a0530e55592e61">m_rowPosition</a>) * <a class="code hl_variable" href="../../d7/dce/a05766.html#a7f17fbba046a803f983895ac10ab2eea">m_fieldCount</a> + index];</div>
+<div class="line"><span class="lineno">  417</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00135">m_fieldCount</a>, <a class="el" href="../../#l00133">m_rowCount</a>, <a class="el" href="../../#l00134">m_rowPosition</a>, and <a class="el" href="../../#l00132">m_rows</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa82af96128bfcee997423a54396d40d4" name="aa82af96128bfcee997423a54396d40d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82af96128bfcee997423a54396d40d4">&#9670;&#160;</a></span>_cleanedUp</h2>
+<a id="a7f17fbba046a803f983895ac10ab2eea" name="a7f17fbba046a803f983895ac10ab2eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f17fbba046a803f983895ac10ab2eea">&#9670;&#160;</a></span>m_fieldCount</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,31 +792,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool TransactionBase::_cleanedUp {false}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00050">Cleanup()</a>.</p>
-
-</div>
-</div>
-<a id="a156f1a8316358c05285778e5734eade1" name="a156f1a8316358c05285778e5734eade1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a156f1a8316358c05285778e5734eade1">&#9670;&#160;</a></span>m_queries</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d0/df9/a05758.html">SQLElementData</a>&gt; TransactionBase::m_queries</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PreparedResultSet::m_fieldCount</td>
         </tr>
       </table>
   </td>
@@ -550,7 +802,177 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00033">Append()</a>, <a class="el" href="../../#l00033">Transaction&lt; T &gt;::Append()</a>, and <a class="el" href="../../#l00050">Cleanup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00432">AssertRows()</a>, <a class="el" href="../../#l00406">Fetch()</a>, <a class="el" href="../../#l00412">operator[]()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a112d5c50493759bdad9dadb47e6a7e59" name="a112d5c50493759bdad9dadb47e6a7e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a112d5c50493759bdad9dadb47e6a7e59">&#9670;&#160;</a></span>m_fieldMetadata</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d4/dff/a05618.html">QueryResultFieldMetadata</a>&gt; PreparedResultSet::m_fieldMetadata</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="acd4d9b8c86f6fd19305b1499d553dfe3" name="acd4d9b8c86f6fd19305b1499d553dfe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4d9b8c86f6fd19305b1499d553dfe3">&#9670;&#160;</a></span>m_metadataResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d96/a05654.html">MySQLResult</a>* PreparedResultSet::m_metadataResult</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d4/dc8/a05622.html" title="Class used to access individual fields of database query result.">Field</a> metadata, returned by mysql_stmt_result_metadata. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00419">CleanUp()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a7583afcc79b2f51c7106b4c2b97d5cf2" name="a7583afcc79b2f51c7106b4c2b97d5cf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7583afcc79b2f51c7106b4c2b97d5cf2">&#9670;&#160;</a></span>m_rBind</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dde/a05662.html">MySQLBind</a>* PreparedResultSet::m_rBind</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00419">CleanUp()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a45c33d837eff40a43b8db1bd569db37e" name="a45c33d837eff40a43b8db1bd569db37e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c33d837eff40a43b8db1bd569db37e">&#9670;&#160;</a></span>m_rowCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> PreparedResultSet::m_rowCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00395">_NextRow()</a>, <a class="el" href="../../#l00432">AssertRows()</a>, <a class="el" href="../../#l00406">Fetch()</a>, <a class="el" href="../../#l00385">NextRow()</a>, <a class="el" href="../../#l00412">operator[]()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a2643c841a32f11b7b7a0530e55592e61" name="a2643c841a32f11b7b7a0530e55592e61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2643c841a32f11b7b7a0530e55592e61">&#9670;&#160;</a></span>m_rowPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> PreparedResultSet::m_rowPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00395">_NextRow()</a>, <a class="el" href="../../#l00432">AssertRows()</a>, <a class="el" href="../../#l00406">Fetch()</a>, <a class="el" href="../../#l00385">NextRow()</a>, <a class="el" href="../../#l00412">operator[]()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a86265fe5b9bd892466473cc247b64246" name="a86265fe5b9bd892466473cc247b64246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86265fe5b9bd892466473cc247b64246">&#9670;&#160;</a></span>m_rows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d4/dc8/a05622.html">Field</a>&gt; PreparedResultSet::m_rows</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00406">Fetch()</a>, <a class="el" href="../../#l00412">operator[]()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
+
+</div>
+</div>
+<a id="a1ecda839a65b21c0cd1d4de14f511901" name="a1ecda839a65b21c0cd1d4de14f511901"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ecda839a65b21c0cd1d4de14f511901">&#9670;&#160;</a></span>m_stmt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d64/a05666.html">MySQLStmt</a>* PreparedResultSet::m_stmt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00395">_NextRow()</a>, and <a class="el" href="../../#l00248">PreparedResultSet()</a>.</p>
 
 </div>
 </div>
@@ -559,8 +981,8 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/dce/a05766.html">TransactionBase</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:41:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/dce/a05766.html">PreparedResultSet</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:42:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

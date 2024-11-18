@@ -1,6 +1,12 @@
 var a21778 =
 [
-    [ "npc_frostbrood_skytalonAI", "dc/ddd/a21782.html", "dc/ddd/a21782" ],
-    [ "npc_frostbrood_skytalon", "dc/d86/a21778.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
-    [ "GetAI", "dc/d86/a21778.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
+    [ "npc_tournament_training_dummyAI", "dc/d86/a21778.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
+    [ "DamageTaken", "dc/d86/a21778.html#a98c18794124922e6946a82a324410837", null ],
+    [ "EnterEvadeMode", "dc/d86/a21778.html#a3f31d705284b0fad2f00c9210ff06646", null ],
+    [ "MoveInLineOfSight", "dc/d86/a21778.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
+    [ "Reset", "dc/d86/a21778.html#a7339ffe52dc789f9480afca7141a169e", null ],
+    [ "SpellHit", "dc/d86/a21778.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
+    [ "UpdateAI", "dc/d86/a21778.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
+    [ "events", "dc/d86/a21778.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
+    [ "isVulnerable", "dc/d86/a21778.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
 ];

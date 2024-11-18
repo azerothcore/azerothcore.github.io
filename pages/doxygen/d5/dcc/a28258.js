@@ -1,7 +1,13 @@
 var a28258 =
 [
-    [ "asyncId", "d5/dcc/a28258.html#afd18849875b4562e4a532903676ce25d", null ],
-    [ "flags", "d5/dcc/a28258.html#a9b9c3cec4acbd87911aa047dd52ae443", null ],
-    [ "offsMCNK", "d5/dcc/a28258.html#a063c5dc62c44038e882340221bf8228a", null ],
-    [ "size", "d5/dcc/a28258.html#a47a5eeb595d53de009651ae02d2b416d", null ]
+    [ "MPQArchive", "d5/dcc/a28258.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d5/dcc/a28258.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "d5/dcc/a28258.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d5/dcc/a28258.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "d5/dcc/a28258.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "d5/dcc/a28258.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "d5/dcc/a28258.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "d5/dcc/a28258.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "d5/dcc/a28258.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "d5/dcc/a28258.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

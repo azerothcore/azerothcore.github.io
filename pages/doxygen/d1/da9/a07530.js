@@ -1,8 +1,5 @@
 var a07530 =
 [
-    [ "CurValue", "d1/da9/a07530.html#a110169c51e3dac271b4ba6d10bbbadac", null ],
-    [ "KnownRecipes", "d1/da9/a07530.html#a1a44c7eb6dbf3a16e8d2db47821bb39a", null ],
-    [ "MaxValue", "d1/da9/a07530.html#a6c48d3a6afddf895b97ec9b964dfd86c", null ],
-    [ "Owner", "d1/da9/a07530.html#a085e0aa9f79129920af96046c4fc29b1", null ],
-    [ "Spell", "d1/da9/a07530.html#a2b0ca4fecc7ba965a329afa6a184cf07", null ]
+    [ "Glyph", "d1/da9/a07530.html#a99ef57f9c0bbab04953bd6edcf5b83f2", null ],
+    [ "Slot", "d1/da9/a07530.html#acc79672f4bddb27eb980b6aac19f83ec", null ]
 ];

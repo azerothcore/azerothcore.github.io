@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ChaseRange Struct Reference</title>
+<title>AzerothCore: Graveyard Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,78 +105,103 @@ $(document).ready(function(){initNavTree('d0/df8/a09638.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/d93/a09635.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ChaseRange Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Graveyard Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">MotionMaster.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a21ce8ad954d37b385e339c5247f17ffd"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">GraveyardContainer</a></td></tr>
+<tr class="separator:a21ce8ad954d37b385e339c5247f17ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acd43ed01c9e4845d82e4d240b5c35167"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#acd43ed01c9e4845d82e4d240b5c35167">ChaseRange</a> (float range)</td></tr>
-<tr class="separator:acd43ed01c9e4845d82e4d240b5c35167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf19c63398d31699ed1703ae1ba5f1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#aaf19c63398d31699ed1703ae1ba5f1b6">ChaseRange</a> (float _minRange, float _maxRange)</td></tr>
-<tr class="separator:aaf19c63398d31699ed1703ae1ba5f1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397b3789449b1c178f11f64313498c4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a397b3789449b1c178f11f64313498c4d">ChaseRange</a> (float _minRange, float _minTolerance, float _maxTolerance, float _maxRange)</td></tr>
-<tr class="separator:a397b3789449b1c178f11f64313498c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb72f07dd677dfe31d0e4b45f2f9ddd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#aeb72f07dd677dfe31d0e4b45f2f9ddd6">GetGraveyard</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ID) const</td></tr>
+<tr class="separator:aeb72f07dd677dfe31d0e4b45f2f9ddd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd1a184b9791c8c6a74fb228545741b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#addd1a184b9791c8c6a74fb228545741b">GetGraveyard</a> (const std::string &amp;name) const</td></tr>
+<tr class="separator:addd1a184b9791c8c6a74fb228545741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ef1306db71eb2f2d72167314d5e1c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#ab6ef1306db71eb2f2d72167314d5e1c2">GetDefaultGraveyard</a> (<a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId)</td></tr>
+<tr class="separator:ab6ef1306db71eb2f2d72167314d5e1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af989ee1a2f802a0cb5addf50a0586d63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#af989ee1a2f802a0cb5addf50a0586d63">GetClosestGraveyard</a> (<a class="el" href="../../d0/dc6/a08386.html">Player</a> *player, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId, bool nearCorpse=false)</td></tr>
+<tr class="separator:af989ee1a2f802a0cb5addf50a0586d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a4461db550d5383fded30a6ecd0408"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db1/a09634.html">GraveyardData</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a54a4461db550d5383fded30a6ecd0408">FindGraveyardData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone)</td></tr>
+<tr class="separator:a54a4461db550d5383fded30a6ecd0408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ebb6afa55d30e64d460b81f9297f09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">GraveyardContainer</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#ab9ebb6afa55d30e64d460b81f9297f09">GetGraveyardData</a> () const</td></tr>
+<tr class="separator:ab9ebb6afa55d30e64d460b81f9297f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4884f2b2b4f00dd9ea65c1ceb2af1bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#ab4884f2b2b4f00dd9ea65c1ceb2af1bb">AddGraveyardLink</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId, bool persist=true)</td></tr>
+<tr class="separator:ab4884f2b2b4f00dd9ea65c1ceb2af1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af957c28b4ccfc7b1853280b7441c958d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#af957c28b4ccfc7b1853280b7441c958d">RemoveGraveyardLink</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId, bool persist=false)</td></tr>
+<tr class="separator:af957c28b4ccfc7b1853280b7441c958d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac398379a421eabea55729e867d57383f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#ac398379a421eabea55729e867d57383f">LoadGraveyardZones</a> ()</td></tr>
+<tr class="separator:ac398379a421eabea55729e867d57383f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7880b8c557fac494e3b8213a048f32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#aff7880b8c557fac494e3b8213a048f32">LoadGraveyardFromDB</a> ()</td></tr>
+<tr class="separator:aff7880b8c557fac494e3b8213a048f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a0e2c69e20d6a38d056505c3b5b0d9fd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a0e2c69e20d6a38d056505c3b5b0d9fd6">MinRange</a></td></tr>
-<tr class="separator:a0e2c69e20d6a38d056505c3b5b0d9fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b640ecfc0e80921ab36c2c33f0b10fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">MinTolerance</a></td></tr>
-<tr class="separator:a7b640ecfc0e80921ab36c2c33f0b10fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a846630e79f3a15a5d93b18c68c915"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#ae2a846630e79f3a15a5d93b18c68c915">MaxRange</a></td></tr>
-<tr class="separator:ae2a846630e79f3a15a5d93b18c68c915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7909b18028d43c84eca5feee3e41469c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a7909b18028d43c84eca5feee3e41469c">MaxTolerance</a></td></tr>
-<tr class="separator:a7909b18028d43c84eca5feee3e41469c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aaaf39d71af738cac8dd427ca94a5689b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/df8/a09638.html">Graveyard</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#aaaf39d71af738cac8dd427ca94a5689b">instance</a> ()</td></tr>
+<tr class="separator:aaaf39d71af738cac8dd427ca94a5689b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a77fb8dad0ae4ea7af0823c0bcafba787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">GraveyardContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a></td></tr>
+<tr class="separator:a77fb8dad0ae4ea7af0823c0bcafba787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe83a8248fa6617b868cadd0699af96e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9f/a03152.html#a484cb47c00fe9b952853e3b04212437c">WGGraveyardContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a></td></tr>
+<tr class="separator:afe83a8248fa6617b868cadd0699af96e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acd43ed01c9e4845d82e4d240b5c35167" name="acd43ed01c9e4845d82e4d240b5c35167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd43ed01c9e4845d82e4d240b5c35167">&#9670;&#160;</a></span>ChaseRange() <span class="overload">[1/3]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a21ce8ad954d37b385e339c5247f17ffd" name="a21ce8ad954d37b385e339c5247f17ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21ce8ad954d37b385e339c5247f17ffd">&#9670;&#160;</a></span>GraveyardContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ChaseRange::ChaseRange </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>range</em></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a>&gt; <a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">Graveyard::GraveyardContainer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   43</span>: <a class="code hl_variable" href="../../d0/df8/a09638.html#a0e2c69e20d6a38d056505c3b5b0d9fd6">MinRange</a>(range &gt; <a class="code hl_define" href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a> ? 0 : range - <a class="code hl_define" href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a>), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">MinTolerance</a>(range), <a class="code hl_variable" href="../../d0/df8/a09638.html#ae2a846630e79f3a15a5d93b18c68c915">MaxRange</a>(range + <a class="code hl_define" href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a>), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7909b18028d43c84eca5feee3e41469c">MaxTolerance</a>(range) { }</div>
-<div class="ttc" id="aa04157_html_a76b2057afb6996f8080d661890a01c6f"><div class="ttname"><a href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a></div><div class="ttdeci">#define CONTACT_DISTANCE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:23</div></div>
-<div class="ttc" id="aa09638_html_a0e2c69e20d6a38d056505c3b5b0d9fd6"><div class="ttname"><a href="../../d0/df8/a09638.html#a0e2c69e20d6a38d056505c3b5b0d9fd6">ChaseRange::MinRange</a></div><div class="ttdeci">float MinRange</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:88</div></div>
-<div class="ttc" id="aa09638_html_a7909b18028d43c84eca5feee3e41469c"><div class="ttname"><a href="../../d0/df8/a09638.html#a7909b18028d43c84eca5feee3e41469c">ChaseRange::MaxTolerance</a></div><div class="ttdeci">float MaxTolerance</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:91</div></div>
-<div class="ttc" id="aa09638_html_a7b640ecfc0e80921ab36c2c33f0b10fd"><div class="ttname"><a href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">ChaseRange::MinTolerance</a></div><div class="ttdeci">float MinTolerance</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:89</div></div>
-<div class="ttc" id="aa09638_html_ae2a846630e79f3a15a5d93b18c68c915"><div class="ttname"><a href="../../d0/df8/a09638.html#ae2a846630e79f3a15a5d93b18c68c915">ChaseRange::MaxRange</a></div><div class="ttdeci">float MaxRange</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:90</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="aaf19c63398d31699ed1703ae1ba5f1b6" name="aaf19c63398d31699ed1703ae1ba5f1b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf19c63398d31699ed1703ae1ba5f1b6">&#9670;&#160;</a></span>ChaseRange() <span class="overload">[2/3]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab4884f2b2b4f00dd9ea65c1ceb2af1bb" name="ab4884f2b2b4f00dd9ea65c1ceb2af1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4884f2b2b4f00dd9ea65c1ceb2af1bb">&#9670;&#160;</a></span>AddGraveyardLink()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ChaseRange::ChaseRange </td>
+          <td class="memname">bool Graveyard::AddGraveyardLink </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_minRange</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_maxRange</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zoneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>teamId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>persist</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -185,39 +210,70 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   44</span>: <a class="code hl_variable" href="../../d0/df8/a09638.html#a0e2c69e20d6a38d056505c3b5b0d9fd6">MinRange</a>(_minRange), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">MinTolerance</a>(std::min(_minRange + <a class="code hl_define" href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a>, (_minRange + _maxRange) / 2)), <a class="code hl_variable" href="../../d0/df8/a09638.html#ae2a846630e79f3a15a5d93b18c68c915">MaxRange</a>(_maxRange), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7909b18028d43c84eca5feee3e41469c">MaxTolerance</a>(std::max(_maxRange - <a class="code hl_define" href="../../d9/d81/a04157.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a>, <a class="code hl_variable" href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">MinTolerance</a>)) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">  286</span>{</div>
+<div class="line"><span class="lineno">  287</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/df8/a09638.html#a54a4461db550d5383fded30a6ecd0408">FindGraveyardData</a>(<span class="keywordtype">id</span>, zoneId))</div>
+<div class="line"><span class="lineno">  288</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  289</span> </div>
+<div class="line"><span class="lineno">  290</span>    <span class="comment">// add link to loaded data</span></div>
+<div class="line"><span class="lineno">  291</span>    <a class="code hl_struct" href="../../d0/db1/a09634.html">GraveyardData</a> data;</div>
+<div class="line"><span class="lineno">  292</span>    data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a> = id;</div>
+<div class="line"><span class="lineno">  293</span>    data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a287b04900d70f8ff8c6f6542edbd40a6">teamId</a> = teamId;</div>
+<div class="line"><span class="lineno">  294</span> </div>
+<div class="line"><span class="lineno">  295</span>    <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.insert(WGGraveyardContainer::value_type(zoneId, data));</div>
+<div class="line"><span class="lineno">  296</span> </div>
+<div class="line"><span class="lineno">  297</span>    <span class="comment">// add link to DB</span></div>
+<div class="line"><span class="lineno">  298</span>    <span class="keywordflow">if</span> (persist)</div>
+<div class="line"><span class="lineno">  299</span>    {</div>
+<div class="line"><span class="lineno">  300</span>        <a class="code hl_class" href="../../de/dd0/a05590.html">WorldDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a4bea2ddbac89587f89839fa64ef7373b">WORLD_INS_GRAVEYARD_ZONE</a>);</div>
+<div class="line"><span class="lineno">  301</span> </div>
+<div class="line"><span class="lineno">  302</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  303</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, zoneId);</div>
+<div class="line"><span class="lineno">  304</span>        <span class="comment">// Xinef: DB Data compatibility...</span></div>
+<div class="line"><span class="lineno">  305</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>(teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> ? 0 : (teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2">ALLIANCE</a> : <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598ae00f67931133b08b7de375111e800b42">HORDE</a>)));</div>
+<div class="line"><span class="lineno">  306</span> </div>
+<div class="line"><span class="lineno">  307</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  308</span>    }</div>
+<div class="line"><span class="lineno">  309</span> </div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  311</span>}</div>
+<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa02771_html_a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2"><div class="ttname"><a href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2">ALLIANCE</a></div><div class="ttdeci">@ ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:768</div></div>
+<div class="ttc" id="aa02771_html_a9c13bb5b1d69698f9b47900990eaa598ae00f67931133b08b7de375111e800b42"><div class="ttname"><a href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598ae00f67931133b08b7de375111e800b42">HORDE</a></div><div class="ttdeci">@ HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:767</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a></div><div class="ttdeci">@ TEAM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:762</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:760</div></div>
+<div class="ttc" id="aa04544_html_a736c0fca3c789518de967ddf4d44fc32a4bea2ddbac89587f89839fa64ef7373b"><div class="ttname"><a href="../../d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a4bea2ddbac89587f89839fa64ef7373b">WORLD_INS_GRAVEYARD_ZONE</a></div><div class="ttdeci">@ WORLD_INS_GRAVEYARD_ZONE</div><div class="ttdef"><b>Definition:</b> WorldDatabase.h:39</div></div>
+<div class="ttc" id="aa04601_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa05590_html"><div class="ttname"><a href="../../de/dd0/a05590.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:157</div></div>
+<div class="ttc" id="aa05722_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:77</div></div>
+<div class="ttc" id="aa09634_html"><div class="ttname"><a href="../../d0/db1/a09634.html">GraveyardData</a></div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:38</div></div>
+<div class="ttc" id="aa09634_html_a287b04900d70f8ff8c6f6542edbd40a6"><div class="ttname"><a href="../../d0/db1/a09634.html#a287b04900d70f8ff8c6f6542edbd40a6">GraveyardData::teamId</a></div><div class="ttdeci">TeamId teamId</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:40</div></div>
+<div class="ttc" id="aa09634_html_a4f6003cc76b70c83fbb8301cc9d5a7ad"><div class="ttname"><a href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">GraveyardData::safeLocId</a></div><div class="ttdeci">uint32 safeLocId</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:39</div></div>
+<div class="ttc" id="aa09638_html_a54a4461db550d5383fded30a6ecd0408"><div class="ttname"><a href="../../d0/df8/a09638.html#a54a4461db550d5383fded30a6ecd0408">Graveyard::FindGraveyardData</a></div><div class="ttdeci">GraveyardData const * FindGraveyardData(uint32 id, uint32 zone)</div><div class="ttdef"><b>Definition:</b> GameGraveyard.cpp:272</div></div>
+<div class="ttc" id="aa09638_html_afe83a8248fa6617b868cadd0699af96e"><div class="ttname"><a href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">Graveyard::GraveyardStore</a></div><div class="ttdeci">WGGraveyardContainer GraveyardStore</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:71</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00768">ALLIANCE</a>, <a class="el" href="../../#l00272">FindGraveyardData()</a>, <a class="el" href="../../#l00071">GraveyardStore</a>, <a class="el" href="../../#l00767">HORDE</a>, <a class="el" href="../../#l00039">GraveyardData::safeLocId</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>, <a class="el" href="../../#l00040">GraveyardData::teamId</a>, <a class="el" href="../../#l00039">WORLD_INS_GRAVEYARD_ZONE</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00362">LoadGraveyardZones()</a>.</p>
+
 </div>
 </div>
-<a id="a397b3789449b1c178f11f64313498c4d" name="a397b3789449b1c178f11f64313498c4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397b3789449b1c178f11f64313498c4d">&#9670;&#160;</a></span>ChaseRange() <span class="overload">[3/3]</span></h2>
+<a id="a54a4461db550d5383fded30a6ecd0408" name="a54a4461db550d5383fded30a6ecd0408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a4461db550d5383fded30a6ecd0408">&#9670;&#160;</a></span>FindGraveyardData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ChaseRange::ChaseRange </td>
+          <td class="memname"><a class="el" href="../../d0/db1/a09634.html">GraveyardData</a> const  * Graveyard::FindGraveyardData </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_minRange</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_minTolerance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_maxTolerance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_maxRange</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -226,64 +282,715 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   45</span>: <a class="code hl_variable" href="../../d0/df8/a09638.html#a0e2c69e20d6a38d056505c3b5b0d9fd6">MinRange</a>(_minRange), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7b640ecfc0e80921ab36c2c33f0b10fd">MinTolerance</a>(_minTolerance), <a class="code hl_variable" href="../../d0/df8/a09638.html#ae2a846630e79f3a15a5d93b18c68c915">MaxRange</a>(_maxRange), <a class="code hl_variable" href="../../d0/df8/a09638.html#a7909b18028d43c84eca5feee3e41469c">MaxTolerance</a>(_maxTolerance) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">  273</span>{</div>
+<div class="line"><span class="lineno">  274</span>    <a class="code hl_typedef" href="../../d0/d9f/a03152.html#aa5ea0c376a2e44483f8c5cb084b3b186">GraveyardMapBounds</a> range = <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.equal_range(zoneId);</div>
+<div class="line"><span class="lineno">  275</span>    <span class="keywordflow">for</span> (; range.first != range.second; ++range.first)</div>
+<div class="line"><span class="lineno">  276</span>    {</div>
+<div class="line"><span class="lineno">  277</span>        <a class="code hl_struct" href="../../d0/db1/a09634.html">GraveyardData</a> <span class="keyword">const</span>&amp; data = range.first-&gt;second;</div>
+<div class="line"><span class="lineno">  278</span>        <span class="keywordflow">if</span> (data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a> == <span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">  279</span>            <span class="keywordflow">return</span> &amp;data;</div>
+<div class="line"><span class="lineno">  280</span>    }</div>
+<div class="line"><span class="lineno">  281</span> </div>
+<div class="line"><span class="lineno">  282</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  283</span>}</div>
+<div class="ttc" id="aa03152_html_aa5ea0c376a2e44483f8c5cb084b3b186"><div class="ttname"><a href="../../d0/d9f/a03152.html#aa5ea0c376a2e44483f8c5cb084b3b186">GraveyardMapBounds</a></div><div class="ttdeci">std::pair&lt; WGGraveyardContainer::const_iterator, WGGraveyardContainer::const_iterator &gt; GraveyardMapBounds</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:46</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">GraveyardStore</a>, and <a class="el" href="../../#l00039">GraveyardData::safeLocId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00285">AddGraveyardLink()</a>.</p>
+
+</div>
+</div>
+<a id="af989ee1a2f802a0cb5addf50a0586d63" name="af989ee1a2f802a0cb5addf50a0586d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af989ee1a2f802a0cb5addf50a0586d63">&#9670;&#160;</a></span>GetClosestGraveyard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const  * Graveyard::GetClosestGraveyard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>teamId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nearCorpse</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   98</span>{</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> graveyardOverride = 0;</div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_define" href="../../d1/d8f/a04202.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnBeforeChooseGraveyard(player, teamId, nearCorpse, graveyardOverride);</div>
+<div class="line"><span class="lineno">  101</span>    <span class="keywordflow">if</span> (graveyardOverride)</div>
+<div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../d0/d9f/a03152.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>-&gt;GetGraveyard(graveyardOverride);</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_class" href="../../d5/da9/a08234.html">WorldLocation</a> loc = player-&gt;<a class="code hl_function" href="../../d5/da9/a08234.html#aa2623109f914fd8592f865545696d27b">GetWorldLocation</a>();</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (nearCorpse)</div>
+<div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>        loc = player-&gt;<a class="code hl_function" href="../../d0/dc6/a08386.html#a8781749b991fca6a265f2f8cb2ef417d">GetCorpseLocation</a>();</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId = loc.<a class="code hl_function" href="../../d5/da9/a08234.html#a2682e56ae4f0ce4b517a8ba3cd2798b1">GetMapId</a>();</div>
+<div class="line"><span class="lineno">  114</span>    <span class="keywordtype">float</span>  x     = loc.<a class="code hl_function" href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>();</div>
+<div class="line"><span class="lineno">  115</span>    <span class="keywordtype">float</span>  y     = loc.<a class="code hl_function" href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>();</div>
+<div class="line"><span class="lineno">  116</span>    <span class="keywordtype">float</span>  z     = loc.<a class="code hl_function" href="../../de/d68/a08218.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>();</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = 0;</div>
+<div class="line"><span class="lineno">  119</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> areaId = 0;</div>
+<div class="line"><span class="lineno">  120</span>    player-&gt;<a class="code hl_function" href="../../d3/d4c/a08174.html#ae1a8efe701e885f0ed1eaeb93bbece8e">GetZoneAndAreaId</a>(zoneId, areaId);</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>    <span class="keywordflow">if</span> (!zoneId &amp;&amp; !areaId)</div>
+<div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">if</span> (z &gt; -500)</div>
+<div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;GetClosestGraveyard: unable to find zoneId and areaId for map {} coords ({}, {}, {})&quot;</span>, mapId, x, y, z);</div>
+<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/df8/a09638.html#ab6ef1306db71eb2f2d72167314d5e1c2">GetDefaultGraveyard</a>(teamId);</div>
+<div class="line"><span class="lineno">  128</span>        }</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>    <span class="comment">// Simulate std. algorithm:</span></div>
+<div class="line"><span class="lineno">  132</span>    <span class="comment">//   found some graveyard associated to (ghost_zone, ghost_map)</span></div>
+<div class="line"><span class="lineno">  133</span>    <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  134</span>    <span class="comment">//   if mapId == graveyard.mapId (ghost in plain zone or city or battleground) and search graveyard at same map</span></div>
+<div class="line"><span class="lineno">  135</span>    <span class="comment">//     then check faction</span></div>
+<div class="line"><span class="lineno">  136</span>    <span class="comment">//   if mapId != graveyard.mapId (ghost in instance) and search any graveyard associated</span></div>
+<div class="line"><span class="lineno">  137</span>    <span class="comment">//     then check faction</span></div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>    <span class="comment">// Fetch the graveyards linked to the areaId first, presumably the closer ones.</span></div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_typedef" href="../../d0/d9f/a03152.html#aa5ea0c376a2e44483f8c5cb084b3b186">GraveyardMapBounds</a> range = <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.equal_range(areaId);</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>    <span class="comment">// No graveyards linked to the area, search zone.</span></div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (range.first == range.second)</div>
+<div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>        range = <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.equal_range(zoneId);</div>
+<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="line"><span class="lineno">  147</span>    <span class="keywordflow">else</span> <span class="comment">// Found a graveyard linked to the area, check if it&#39;s a valid one.</span></div>
+<div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        <a class="code hl_struct" href="../../d0/db1/a09634.html">GraveyardData</a> <span class="keyword">const</span>&amp; graveyardLink = range.first-&gt;second;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">if</span> (!graveyardLink.<a class="code hl_function" href="../../d0/db1/a09634.html#aeeea8efaff8fe3f5044a7d5627a89cb6">IsNeutralOrFriendlyToTeam</a>(teamId))</div>
+<div class="line"><span class="lineno">  152</span>        {</div>
+<div class="line"><span class="lineno">  153</span>            <span class="comment">// Not a friendly or neutral graveyard, search zone.</span></div>
+<div class="line"><span class="lineno">  154</span>            range = <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.equal_range(zoneId);</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="line"><span class="lineno">  156</span>    }</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>    <a class="code hl_struct" href="../../d4/d6c/a27862.html">MapEntry</a> <span class="keyword">const</span>* map = <a class="code hl_variable" href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.LookupEntry(mapId);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    <span class="comment">// not need to check validity of map object; MapId _MUST_ be valid here</span></div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">if</span> (range.first == range.second &amp;&amp; !map-&gt;<a class="code hl_function" href="../../d4/d6c/a27862.html#a9946bfab35c05fcc85dc1c60d7614ec5">IsBattlegroundOrArena</a>())</div>
+<div class="line"><span class="lineno">  162</span>    {</div>
+<div class="line"><span class="lineno">  163</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` incomplete: Zone {} Team {} does not have a linked graveyard.&quot;</span>, zoneId, teamId);</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/df8/a09638.html#ab6ef1306db71eb2f2d72167314d5e1c2">GetDefaultGraveyard</a>(teamId);</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>    <span class="comment">// at corpse map</span></div>
+<div class="line"><span class="lineno">  168</span>    <span class="keywordtype">bool</span> foundNear = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  169</span>    <span class="keywordtype">float</span> distNear = 10000;</div>
+<div class="line"><span class="lineno">  170</span>    <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <span class="keyword">const</span>* entryNear = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>    <span class="comment">// at entrance map for corpse map</span></div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordtype">bool</span> foundEntr = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  174</span>    <span class="keywordtype">float</span> distEntr = 10000;</div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <span class="keyword">const</span>* entryEntr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>    <span class="comment">// some where other</span></div>
+<div class="line"><span class="lineno">  178</span>    <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <span class="keyword">const</span>* entryFar = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>    <a class="code hl_struct" href="../../d4/d6c/a27862.html">MapEntry</a> <span class="keyword">const</span>* mapEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.LookupEntry(mapId);</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordflow">for</span> (; range.first != range.second; ++range.first)</div>
+<div class="line"><span class="lineno">  183</span>    {</div>
+<div class="line"><span class="lineno">  184</span>        <a class="code hl_struct" href="../../d0/db1/a09634.html">GraveyardData</a> <span class="keyword">const</span>&amp; graveyardLink = range.first-&gt;second;</div>
+<div class="line"><span class="lineno">  185</span>        <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <span class="keyword">const</span>* entry = <a class="code hl_define" href="../../d0/d9f/a03152.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>-&gt;GetGraveyard(graveyardLink.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a>);</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">if</span> (!entry)</div>
+<div class="line"><span class="lineno">  187</span>        {</div>
+<div class="line"><span class="lineno">  188</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` has record for not existing `game_graveyard` table {}, skipped.&quot;</span>, graveyardLink.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a>);</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  190</span>        }</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        <span class="comment">// Skip enemy faction graveyard.</span></div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">if</span> (!graveyardLink.<a class="code hl_function" href="../../d0/db1/a09634.html#aeeea8efaff8fe3f5044a7d5627a89cb6">IsNeutralOrFriendlyToTeam</a>(teamId))</div>
+<div class="line"><span class="lineno">  194</span>        {</div>
+<div class="line"><span class="lineno">  195</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  196</span>        }</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>        <span class="comment">// Skip Archerus graveyards if the player isn&#39;t a Death Knight.</span></div>
+<div class="line"><span class="lineno">  199</span>        <span class="keyword">enum</span> DeathKnightGraveyards</div>
+<div class="line"><span class="lineno">  200</span>        {</div>
+<div class="line"><span class="lineno">  201</span>            GRAVEYARD_EBON_HOLD = 1369,</div>
+<div class="line"><span class="lineno">  202</span>            GRAVEYARD_ARCHERUS  = 1405</div>
+<div class="line"><span class="lineno">  203</span>        };</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d0/dc6/a08386.html#a966607859ce9c9537038b9ca21b9e827">IsClass</a>(<a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a86e4e3df7a5142175aa5df522d3346cfa7f7b30426fd386c181799196c1739058">CLASS_DEATH_KNIGHT</a>, <a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#a2a9983288cb2a06108c1d1a94c96c046a0bc67cfc8a19dad930b2ebc885a2c0c8">CLASS_CONTEXT_GRAVEYARD</a>) &amp;&amp; (graveyardLink.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a> == GRAVEYARD_EBON_HOLD || graveyardLink.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a> == GRAVEYARD_ARCHERUS))</div>
+<div class="line"><span class="lineno">  206</span>        {</div>
+<div class="line"><span class="lineno">  207</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  208</span>        }</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>        <span class="comment">// find now nearest graveyard at other map</span></div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (mapId != entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af4e60380e8434e5b8f573d2172ddf656">Map</a>)</div>
+<div class="line"><span class="lineno">  212</span>        {</div>
+<div class="line"><span class="lineno">  213</span>            <span class="comment">// if find graveyard at different map from where entrance placed (or no entrance data), use any first</span></div>
+<div class="line"><span class="lineno">  214</span>            <span class="keywordflow">if</span> (!mapEntry</div>
+<div class="line"><span class="lineno">  215</span>                    || mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#a29fb03d3306ce50afb13d4e72d735e18">entrance_map</a> &lt; 0</div>
+<div class="line"><span class="lineno">  216</span>                    || <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#a29fb03d3306ce50afb13d4e72d735e18">entrance_map</a>) != entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af4e60380e8434e5b8f573d2172ddf656">Map</a></div>
+<div class="line"><span class="lineno">  217</span>                    || (mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#ac2363d1d0f4e6647bcd1e8b8eea5b409">entrance_x</a> == 0 &amp;&amp; mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#a05ab3182d6e38a5bf5397957cce465a2">entrance_y</a> == 0))</div>
+<div class="line"><span class="lineno">  218</span>            {</div>
+<div class="line"><span class="lineno">  219</span>                <span class="comment">// not have any corrdinates for check distance anyway</span></div>
+<div class="line"><span class="lineno">  220</span>                entryFar = entry;</div>
+<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  222</span>            }</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>            <span class="comment">// at entrance map calculate distance (2D);</span></div>
+<div class="line"><span class="lineno">  225</span>            <span class="keywordtype">float</span> dist2 = (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330">x</a> - mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#ac2363d1d0f4e6647bcd1e8b8eea5b409">entrance_x</a>) * (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330">x</a> - mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#ac2363d1d0f4e6647bcd1e8b8eea5b409">entrance_x</a>)</div>
+<div class="line"><span class="lineno">  226</span>                          + (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455">y</a> - mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#a05ab3182d6e38a5bf5397957cce465a2">entrance_y</a>) * (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455">y</a> - mapEntry-&gt;<a class="code hl_variable" href="../../d4/d6c/a27862.html#a05ab3182d6e38a5bf5397957cce465a2">entrance_y</a>);</div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">if</span> (foundEntr)</div>
+<div class="line"><span class="lineno">  228</span>            {</div>
+<div class="line"><span class="lineno">  229</span>                <span class="keywordflow">if</span> (dist2 &lt; distEntr)</div>
+<div class="line"><span class="lineno">  230</span>                {</div>
+<div class="line"><span class="lineno">  231</span>                    distEntr = dist2;</div>
+<div class="line"><span class="lineno">  232</span>                    entryEntr = entry;</div>
+<div class="line"><span class="lineno">  233</span>                }</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  236</span>            {</div>
+<div class="line"><span class="lineno">  237</span>                foundEntr = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  238</span>                distEntr = dist2;</div>
+<div class="line"><span class="lineno">  239</span>                entryEntr = entry;</div>
+<div class="line"><span class="lineno">  240</span>            }</div>
+<div class="line"><span class="lineno">  241</span>        }</div>
+<div class="line"><span class="lineno">  242</span>        <span class="comment">// find now nearest graveyard at same map</span></div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  244</span>        {</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordtype">float</span> dist2 = (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330">x</a> - x) * (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330">x</a> - x) + (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455">y</a> - y) * (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455">y</a> - y) + (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#adf56d09898752230a4fa1629849ac945">z</a> - z) * (entry-&gt;<a class="code hl_variable" href="../../d5/d8e/a09630.html#adf56d09898752230a4fa1629849ac945">z</a> - z);</div>
+<div class="line"><span class="lineno">  246</span>            <span class="keywordflow">if</span> (foundNear)</div>
+<div class="line"><span class="lineno">  247</span>            {</div>
+<div class="line"><span class="lineno">  248</span>                <span class="keywordflow">if</span> (dist2 &lt; distNear)</div>
+<div class="line"><span class="lineno">  249</span>                {</div>
+<div class="line"><span class="lineno">  250</span>                    distNear = dist2;</div>
+<div class="line"><span class="lineno">  251</span>                    entryNear = entry;</div>
+<div class="line"><span class="lineno">  252</span>                }</div>
+<div class="line"><span class="lineno">  253</span>            }</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  255</span>            {</div>
+<div class="line"><span class="lineno">  256</span>                foundNear = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  257</span>                distNear = dist2;</div>
+<div class="line"><span class="lineno">  258</span>                entryNear = entry;</div>
+<div class="line"><span class="lineno">  259</span>            }</div>
+<div class="line"><span class="lineno">  260</span>        }</div>
+<div class="line"><span class="lineno">  261</span>    }</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">if</span> (entryNear)</div>
+<div class="line"><span class="lineno">  264</span>        <span class="keywordflow">return</span> entryNear;</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">if</span> (entryEntr)</div>
+<div class="line"><span class="lineno">  267</span>        <span class="keywordflow">return</span> entryEntr;</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">return</span> entryFar;</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa02771_html_a86e4e3df7a5142175aa5df522d3346cfa7f7b30426fd386c181799196c1739058"><div class="ttname"><a href="../../d0/dbd/a02771.html#a86e4e3df7a5142175aa5df522d3346cfa7f7b30426fd386c181799196c1739058">CLASS_DEATH_KNIGHT</a></div><div class="ttdeci">@ CLASS_DEATH_KNIGHT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:146</div></div>
+<div class="ttc" id="aa03152_html_ac68c2a63982a6142e1931450d7b6115c"><div class="ttname"><a href="../../d0/d9f/a03152.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a></div><div class="ttdeci">#define sGraveyard</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:74</div></div>
+<div class="ttc" id="aa03521_html_a2a9983288cb2a06108c1d1a94c96c046a0bc67cfc8a19dad930b2ebc885a2c0c8"><div class="ttname"><a href="../../d8/dbe/a03521.html#a2a9983288cb2a06108c1d1a94c96c046a0bc67cfc8a19dad930b2ebc885a2c0c8">CLASS_CONTEXT_GRAVEYARD</a></div><div class="ttdeci">@ CLASS_CONTEXT_GRAVEYARD</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:221</div></div>
+<div class="ttc" id="aa03704_html_acbe166cef01fbaa320231e8ef42b25c6"><div class="ttname"><a href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a></div><div class="ttdeci">DBCStorage&lt; MapEntry &gt; sMapStore(MapEntryfmt)</div></div>
+<div class="ttc" id="aa04202_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d1/d8f/a04202.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:709</div></div>
+<div class="ttc" id="aa08174_html_ae1a8efe701e885f0ed1eaeb93bbece8e"><div class="ttname"><a href="../../d3/d4c/a08174.html#ae1a8efe701e885f0ed1eaeb93bbece8e">WorldObject::GetZoneAndAreaId</a></div><div class="ttdeci">void GetZoneAndAreaId(uint32 &amp;zoneid, uint32 &amp;areaid) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3162</div></div>
+<div class="ttc" id="aa08218_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../de/d68/a08218.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="aa08218_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../de/d68/a08218.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:116</div></div>
+<div class="ttc" id="aa08218_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../de/d68/a08218.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="aa08234_html"><div class="ttname"><a href="../../d5/da9/a08234.html">WorldLocation</a></div><div class="ttdef"><b>Definition:</b> Position.h:250</div></div>
+<div class="ttc" id="aa08234_html_a2682e56ae4f0ce4b517a8ba3cd2798b1"><div class="ttname"><a href="../../d5/da9/a08234.html#a2682e56ae4f0ce4b517a8ba3cd2798b1">WorldLocation::GetMapId</a></div><div class="ttdeci">uint32 GetMapId() const</div><div class="ttdef"><b>Definition:</b> Position.h:275</div></div>
+<div class="ttc" id="aa08234_html_aa2623109f914fd8592f865545696d27b"><div class="ttname"><a href="../../d5/da9/a08234.html#aa2623109f914fd8592f865545696d27b">WorldLocation::GetWorldLocation</a></div><div class="ttdeci">void GetWorldLocation(uint32 &amp;mapId, float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:280</div></div>
+<div class="ttc" id="aa08386_html_a8781749b991fca6a265f2f8cb2ef417d"><div class="ttname"><a href="../../d0/dc6/a08386.html#a8781749b991fca6a265f2f8cb2ef417d">Player::GetCorpseLocation</a></div><div class="ttdeci">WorldLocation GetCorpseLocation() const</div><div class="ttdef"><b>Definition:</b> Player.h:2022</div></div>
+<div class="ttc" id="aa08386_html_a966607859ce9c9537038b9ca21b9e827"><div class="ttname"><a href="../../d0/dc6/a08386.html#a966607859ce9c9537038b9ca21b9e827">Player::IsClass</a></div><div class="ttdeci">bool IsClass(Classes playerClass, ClassContext context=CLASS_CONTEXT_NONE) const override</div><div class="ttdef"><b>Definition:</b> Player.cpp:1281</div></div>
+<div class="ttc" id="aa09630_html"><div class="ttname"><a href="../../d5/d8e/a09630.html">GraveyardStruct</a></div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:27</div></div>
+<div class="ttc" id="aa09630_html_adf56d09898752230a4fa1629849ac945"><div class="ttname"><a href="../../d5/d8e/a09630.html#adf56d09898752230a4fa1629849ac945">GraveyardStruct::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:32</div></div>
+<div class="ttc" id="aa09630_html_ae8f23fc9e53f6357d56b3a25ed514330"><div class="ttname"><a href="../../d5/d8e/a09630.html#ae8f23fc9e53f6357d56b3a25ed514330">GraveyardStruct::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:30</div></div>
+<div class="ttc" id="aa09630_html_af2e239c4c76dff49090f8f1d8eb4d455"><div class="ttname"><a href="../../d5/d8e/a09630.html#af2e239c4c76dff49090f8f1d8eb4d455">GraveyardStruct::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:31</div></div>
+<div class="ttc" id="aa09630_html_af4e60380e8434e5b8f573d2172ddf656"><div class="ttname"><a href="../../d5/d8e/a09630.html#af4e60380e8434e5b8f573d2172ddf656">GraveyardStruct::Map</a></div><div class="ttdeci">uint32 Map</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:29</div></div>
+<div class="ttc" id="aa09634_html_aeeea8efaff8fe3f5044a7d5627a89cb6"><div class="ttname"><a href="../../d0/db1/a09634.html#aeeea8efaff8fe3f5044a7d5627a89cb6">GraveyardData::IsNeutralOrFriendlyToTeam</a></div><div class="ttdeci">bool IsNeutralOrFriendlyToTeam(TeamId playerTeamId) const</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:42</div></div>
+<div class="ttc" id="aa09638_html_ab6ef1306db71eb2f2d72167314d5e1c2"><div class="ttname"><a href="../../d0/df8/a09638.html#ab6ef1306db71eb2f2d72167314d5e1c2">Graveyard::GetDefaultGraveyard</a></div><div class="ttdeci">GraveyardStruct const * GetDefaultGraveyard(TeamId teamId)</div><div class="ttdef"><b>Definition:</b> GameGraveyard.cpp:86</div></div>
+<div class="ttc" id="aa27862_html"><div class="ttname"><a href="../../d4/d6c/a27862.html">MapEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1324</div></div>
+<div class="ttc" id="aa27862_html_a05ab3182d6e38a5bf5397957cce465a2"><div class="ttname"><a href="../../d4/d6c/a27862.html#a05ab3182d6e38a5bf5397957cce465a2">MapEntry::entrance_y</a></div><div class="ttdeci">float entrance_y</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1341</div></div>
+<div class="ttc" id="aa27862_html_a29fb03d3306ce50afb13d4e72d735e18"><div class="ttname"><a href="../../d4/d6c/a27862.html#a29fb03d3306ce50afb13d4e72d735e18">MapEntry::entrance_map</a></div><div class="ttdeci">int32 entrance_map</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1339</div></div>
+<div class="ttc" id="aa27862_html_a9946bfab35c05fcc85dc1c60d7614ec5"><div class="ttname"><a href="../../d4/d6c/a27862.html#a9946bfab35c05fcc85dc1c60d7614ec5">MapEntry::IsBattlegroundOrArena</a></div><div class="ttdeci">bool IsBattlegroundOrArena() const</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1356</div></div>
+<div class="ttc" id="aa27862_html_ac2363d1d0f4e6647bcd1e8b8eea5b409"><div class="ttname"><a href="../../d4/d6c/a27862.html#ac2363d1d0f4e6647bcd1e8b8eea5b409">MapEntry::entrance_x</a></div><div class="ttdeci">float entrance_x</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1340</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00221">CLASS_CONTEXT_GRAVEYARD</a>, <a class="el" href="../../#l00146">CLASS_DEATH_KNIGHT</a>, <a class="el" href="../../#l01339">MapEntry::entrance_map</a>, <a class="el" href="../../#l01340">MapEntry::entrance_x</a>, <a class="el" href="../../#l01341">MapEntry::entrance_y</a>, <a class="el" href="../../#l02022">Player::GetCorpseLocation()</a>, <a class="el" href="../../#l00086">GetDefaultGraveyard()</a>, <a class="el" href="../../#l00275">WorldLocation::GetMapId()</a>, <a class="el" href="../../#l00116">Position::GetPositionX()</a>, <a class="el" href="../../#l00117">Position::GetPositionY()</a>, <a class="el" href="../../#l00118">Position::GetPositionZ()</a>, <a class="el" href="../../#l00280">WorldLocation::GetWorldLocation()</a>, <a class="el" href="../../#l03162">WorldObject::GetZoneAndAreaId()</a>, <a class="el" href="../../#l00071">GraveyardStore</a>, <a class="el" href="../../#l01356">MapEntry::IsBattlegroundOrArena()</a>, <a class="el" href="../../#l01281">Player::IsClass()</a>, <a class="el" href="../../#l00042">GraveyardData::IsNeutralOrFriendlyToTeam()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00029">GraveyardStruct::Map</a>, <a class="el" href="../../#l00039">GraveyardData::safeLocId</a>, <a class="el" href="../../#l00074">sGraveyard</a>, <a class="el" href="../../d7/da2/a03704.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>, <a class="el" href="../../#l00709">sScriptMgr</a>, <a class="el" href="../../#l00030">GraveyardStruct::x</a>, <a class="el" href="../../#l00031">GraveyardStruct::y</a>, and <a class="el" href="../../#l00032">GraveyardStruct::z</a>.</p>
+
+</div>
+</div>
+<a id="ab6ef1306db71eb2f2d72167314d5e1c2" name="ab6ef1306db71eb2f2d72167314d5e1c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ef1306db71eb2f2d72167314d5e1c2">&#9670;&#160;</a></span>GetDefaultGraveyard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const  * Graveyard::GetDefaultGraveyard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>teamId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
+<div class="line"><span class="lineno">   88</span>    <span class="keyword">enum</span> DefaultGraveyard</div>
+<div class="line"><span class="lineno">   89</span>    {</div>
+<div class="line"><span class="lineno">   90</span>        HORDE_GRAVEYARD = 10, <span class="comment">// Crossroads</span></div>
+<div class="line"><span class="lineno">   91</span>        ALLIANCE_GRAVEYARD = 4, <span class="comment">// Westfall</span></div>
+<div class="line"><span class="lineno">   92</span>    };</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d0/d9f/a03152.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>-&gt;GetGraveyard(teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> ? HORDE_GRAVEYARD : ALLIANCE_GRAVEYARD);</div>
+<div class="line"><span class="lineno">   95</span>}</div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:761</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00074">sGraveyard</a>, and <a class="el" href="../../#l00761">TEAM_HORDE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00097">GetClosestGraveyard()</a>.</p>
+
+</div>
+</div>
+<a id="addd1a184b9791c8c6a74fb228545741b" name="addd1a184b9791c8c6a74fb228545741b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addd1a184b9791c8c6a74fb228545741b">&#9670;&#160;</a></span>GetGraveyard() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const  * Graveyard::GetGraveyard </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  420</span>{</div>
+<div class="line"><span class="lineno">  421</span>    <span class="comment">// explicit name case</span></div>
+<div class="line"><span class="lineno">  422</span>    std::wstring wname;</div>
+<div class="line"><span class="lineno">  423</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(name, wname))</div>
+<div class="line"><span class="lineno">  424</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  425</span> </div>
+<div class="line"><span class="lineno">  426</span>    <span class="comment">// converting string that we try to find to lower case</span></div>
+<div class="line"><span class="lineno">  427</span>    <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(wname);</div>
+<div class="line"><span class="lineno">  428</span> </div>
+<div class="line"><span class="lineno">  429</span>    <span class="comment">// Alternative first GameTele what contains wnameLow as substring in case no GameTele location found</span></div>
+<div class="line"><span class="lineno">  430</span>    <span class="keyword">const</span> <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a>* alt = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  431</span>    <span class="keywordflow">for</span> (GraveyardContainer::const_iterator itr = <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>.begin(); itr != <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  432</span>    {</div>
+<div class="line"><span class="lineno">  433</span>        <span class="keywordflow">if</span> (itr-&gt;second.wnameLow == wname)</div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">  435</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!alt &amp;&amp; itr-&gt;second.wnameLow.find(wname) != std::wstring::npos)</div>
+<div class="line"><span class="lineno">  436</span>            alt = &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">  437</span>    }</div>
+<div class="line"><span class="lineno">  438</span> </div>
+<div class="line"><span class="lineno">  439</span>    <span class="keywordflow">return</span> alt;</div>
+<div class="line"><span class="lineno">  440</span>}</div>
+<div class="ttc" id="aa00383_html_a096388bd1034eb78e43e5d60cc4f657a"><div class="ttname"><a href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, std::size_t csize, wchar_t *wstr, std::size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:281</div></div>
+<div class="ttc" id="aa00383_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:382</div></div>
+<div class="ttc" id="aa09638_html_a77fb8dad0ae4ea7af0823c0bcafba787"><div class="ttname"><a href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">Graveyard::_graveyardStore</a></div><div class="ttdeci">GraveyardContainer _graveyardStore</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">_graveyardStore</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, <a class="el" href="../../#l00034">GraveyardStruct::wnameLow</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
+
+</div>
+</div>
+<a id="aeb72f07dd677dfe31d0e4b45f2f9ddd6" name="aeb72f07dd677dfe31d0e4b45f2f9ddd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb72f07dd677dfe31d0e4b45f2f9ddd6">&#9670;&#160;</a></span>GetGraveyard() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d8e/a09630.html">GraveyardStruct</a> const  * Graveyard::GetGraveyard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
+<div class="line"><span class="lineno">   79</span>    GraveyardContainer::const_iterator itr = <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>.find(ID);</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>.end())</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   84</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">_graveyardStore</a>.</p>
+
+</div>
+</div>
+<a id="ab9ebb6afa55d30e64d460b81f9297f09" name="ab9ebb6afa55d30e64d460b81f9297f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ebb6afa55d30e64d460b81f9297f09">&#9670;&#160;</a></span>GetGraveyardData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">GraveyardContainer</a> const  &amp; Graveyard::GetGraveyardData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">_graveyardStore</a>.</p>
+
+</div>
+</div>
+<a id="aaaf39d71af738cac8dd427ca94a5689b" name="aaaf39d71af738cac8dd427ca94a5689b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf39d71af738cac8dd427ca94a5689b">&#9670;&#160;</a></span>instance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df8/a09638.html">Graveyard</a> * Graveyard::instance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a> <a class="code hl_function" href="../../d0/df8/a09638.html#aaaf39d71af738cac8dd427ca94a5689b">instance</a>;</div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/df8/a09638.html#aaaf39d71af738cac8dd427ca94a5689b">instance</a>;</div>
+<div class="line"><span class="lineno">   29</span>}</div>
+<div class="ttc" id="aa09638_html"><div class="ttname"><a href="../../d0/df8/a09638.html">Graveyard</a></div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:50</div></div>
+<div class="ttc" id="aa09638_html_aaaf39d71af738cac8dd427ca94a5689b"><div class="ttname"><a href="../../d0/df8/a09638.html#aaaf39d71af738cac8dd427ca94a5689b">Graveyard::instance</a></div><div class="ttdeci">static Graveyard * instance()</div><div class="ttdef"><b>Definition:</b> GameGraveyard.cpp:25</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00025">instance()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00025">instance()</a>.</p>
+
+</div>
+</div>
+<a id="aff7880b8c557fac494e3b8213a048f32" name="aff7880b8c557fac494e3b8213a048f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff7880b8c557fac494e3b8213a048f32">&#9670;&#160;</a></span>LoadGraveyardFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graveyard::LoadGraveyardFromDB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>.clear();</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT ID, Map, x, y, z, Comment FROM game_graveyard&quot;</span>);</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   39</span>    {</div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 graveyard. Table `game_graveyard` is empty!&quot;</span>);</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="code hl_function" href="../../d8/d20/a04686.html#a2d87541d6d2eceb7467b09f7fa5bd51b">Count</a> = 0;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ID = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>;</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.Map = fields[1].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.x = fields[2].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.y = fields[3].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.z = fields[4].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   58</span>        <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.name = fields[5].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(<a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.name, <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.wnameLow))</div>
+<div class="line"><span class="lineno">   61</span>        {</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Wrong UTF8 name for id {} in `game_graveyard` table, ignoring.&quot;</span>, ID);</div>
+<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(<a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>.wnameLow);</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_variable" href="../../d0/df8/a09638.html#a77fb8dad0ae4ea7af0823c0bcafba787">_graveyardStore</a>[ID] = <a class="code hl_class" href="../../d0/df8/a09638.html">Graveyard</a>;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        ++<a class="code hl_function" href="../../d8/d20/a04686.html#a2d87541d6d2eceb7467b09f7fa5bd51b">Count</a>;</div>
+<div class="line"><span class="lineno">   71</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Graveyard in {} ms&quot;</span>, Count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   75</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa04589_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
+<div class="ttc" id="aa04686_html_a2d87541d6d2eceb7467b09f7fa5bd51b"><div class="ttname"><a href="../../d8/d20/a04686.html#a2d87541d6d2eceb7467b09f7fa5bd51b">Acore::Count</a></div><div class="ttdeci">std::size_t Count(const ContainerMapList&lt; SPECIFIC_TYPE &gt; &amp;elements, SPECIFIC_TYPE *)</div><div class="ttdef"><b>Definition:</b> TypeContainerFunctions.h:159</div></div>
+<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
+<div class="ttc" id="aa05622_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:112</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">_graveyardStore</a>, <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, <a class="el" href="../../#l00020">WorldDatabase</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
+
+</div>
+</div>
+<a id="ac398379a421eabea55729e867d57383f" name="ac398379a421eabea55729e867d57383f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac398379a421eabea55729e867d57383f">&#9670;&#160;</a></span>LoadGraveyardZones()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graveyard::LoadGraveyardZones </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  363</span>{</div>
+<div class="line"><span class="lineno">  364</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  365</span> </div>
+<div class="line"><span class="lineno">  366</span>    <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.clear(); <span class="comment">// need for reload case</span></div>
+<div class="line"><span class="lineno">  367</span> </div>
+<div class="line"><span class="lineno">  368</span>    <span class="comment">//                                                0       1         2</span></div>
+<div class="line"><span class="lineno">  369</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT ID, GhostZone, Faction FROM graveyard_zone&quot;</span>);</div>
+<div class="line"><span class="lineno">  370</span> </div>
+<div class="line"><span class="lineno">  371</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  372</span>    {</div>
+<div class="line"><span class="lineno">  373</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 Graveyard-Zone Links. DB Table `graveyard_zone` Is Empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  374</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  375</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  376</span>    }</div>
+<div class="line"><span class="lineno">  377</span> </div>
+<div class="line"><span class="lineno">  378</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  379</span> </div>
+<div class="line"><span class="lineno">  380</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  381</span>    {</div>
+<div class="line"><span class="lineno">  382</span>        ++count;</div>
+<div class="line"><span class="lineno">  383</span> </div>
+<div class="line"><span class="lineno">  384</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  385</span> </div>
+<div class="line"><span class="lineno">  386</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> safeLocId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  387</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = fields[1].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  388</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> team = fields[2].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt;();</div>
+<div class="line"><span class="lineno">  389</span>        <a class="code hl_enumeration" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId = team == 0 ? <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> : (team == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2">ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> : <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>);</div>
+<div class="line"><span class="lineno">  390</span> </div>
+<div class="line"><span class="lineno">  391</span>        <a class="code hl_struct" href="../../d5/d8e/a09630.html">GraveyardStruct</a> <span class="keyword">const</span>* entry = <a class="code hl_define" href="../../d0/d9f/a03152.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>-&gt;GetGraveyard(safeLocId);</div>
+<div class="line"><span class="lineno">  392</span>        <span class="keywordflow">if</span> (!entry)</div>
+<div class="line"><span class="lineno">  393</span>        {</div>
+<div class="line"><span class="lineno">  394</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` has a record for not existing `game_graveyard` table {}, skipped.&quot;</span>, safeLocId);</div>
+<div class="line"><span class="lineno">  395</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  396</span>        }</div>
+<div class="line"><span class="lineno">  397</span> </div>
+<div class="line"><span class="lineno">  398</span>        <a class="code hl_struct" href="../../d5/da6/a27626.html">AreaTableEntry</a> <span class="keyword">const</span>* areaEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>.LookupEntry(zoneId);</div>
+<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">if</span> (!areaEntry)</div>
+<div class="line"><span class="lineno">  400</span>        {</div>
+<div class="line"><span class="lineno">  401</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` has a record for not existing zone id ({}), skipped.&quot;</span>, zoneId);</div>
+<div class="line"><span class="lineno">  402</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  403</span>        }</div>
+<div class="line"><span class="lineno">  404</span> </div>
+<div class="line"><span class="lineno">  405</span>        <span class="keywordflow">if</span> (team != 0 &amp;&amp; team != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598ae00f67931133b08b7de375111e800b42">HORDE</a> &amp;&amp; team != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2">ALLIANCE</a>)</div>
+<div class="line"><span class="lineno">  406</span>        {</div>
+<div class="line"><span class="lineno">  407</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` has a record for non player faction ({}), skipped.&quot;</span>, team);</div>
+<div class="line"><span class="lineno">  408</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  409</span>        }</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d0/df8/a09638.html#ab4884f2b2b4f00dd9ea65c1ceb2af1bb">AddGraveyardLink</a>(safeLocId, zoneId, teamId, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  412</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` has a duplicate record for Graveyard (ID: {}) and Zone (ID: {}), skipped.&quot;</span>, safeLocId, zoneId);</div>
+<div class="line"><span class="lineno">  413</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  414</span> </div>
+<div class="line"><span class="lineno">  415</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Graveyard-Zone Links in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  416</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  417</span>}</div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a></div><div class="ttdeci">TeamId</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:759</div></div>
+<div class="ttc" id="aa03704_html_aedcdbef7c215330459e17b2f224ff0e3"><div class="ttname"><a href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a></div><div class="ttdeci">DBCStorage&lt; AreaTableEntry &gt; sAreaTableStore(AreaTableEntryfmt)</div></div>
+<div class="ttc" id="aa09638_html_ab4884f2b2b4f00dd9ea65c1ceb2af1bb"><div class="ttname"><a href="../../d0/df8/a09638.html#ab4884f2b2b4f00dd9ea65c1ceb2af1bb">Graveyard::AddGraveyardLink</a></div><div class="ttdeci">bool AddGraveyardLink(uint32 id, uint32 zoneId, TeamId teamId, bool persist=true)</div><div class="ttdef"><b>Definition:</b> GameGraveyard.cpp:285</div></div>
+<div class="ttc" id="aa27626_html"><div class="ttname"><a href="../../d5/da6/a27626.html">AreaTableEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:518</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00285">AddGraveyardLink()</a>, <a class="el" href="../../#l00768">ALLIANCE</a>, <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00071">GraveyardStore</a>, <a class="el" href="../../#l00767">HORDE</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>, <a class="el" href="../../#l00074">sGraveyard</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00761">TEAM_HORDE</a>, <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+</div>
+</div>
+<a id="af957c28b4ccfc7b1853280b7441c958d" name="af957c28b4ccfc7b1853280b7441c958d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af957c28b4ccfc7b1853280b7441c958d">&#9670;&#160;</a></span>RemoveGraveyardLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graveyard::RemoveGraveyardLink </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zoneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>teamId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>persist</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  314</span>{</div>
+<div class="line"><span class="lineno">  315</span>    <a class="code hl_typedef" href="../../d0/d9f/a03152.html#a6a551a1219fa9a26b5ed21656c2f9dd1">GraveyardMapBoundsNonConst</a> range = <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.equal_range(zoneId);</div>
+<div class="line"><span class="lineno">  316</span>    <span class="keywordflow">if</span> (range.first == range.second)</div>
+<div class="line"><span class="lineno">  317</span>    {</div>
+<div class="line"><span class="lineno">  318</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table `graveyard_zone` incomplete: Zone {} Team {} does not have a linked graveyard.&quot;</span>, zoneId, teamId);</div>
+<div class="line"><span class="lineno">  319</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  320</span>    }</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>    <span class="keywordtype">bool</span> found = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>    <span class="keywordflow">for</span> (; range.first != range.second; ++range.first)</div>
+<div class="line"><span class="lineno">  325</span>    {</div>
+<div class="line"><span class="lineno">  326</span>        <a class="code hl_struct" href="../../d0/db1/a09634.html">GraveyardData</a>&amp; data = range.first-&gt;second;</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>        <span class="comment">// skip not matching safezone id</span></div>
+<div class="line"><span class="lineno">  329</span>        <span class="keywordflow">if</span> (data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a4f6003cc76b70c83fbb8301cc9d5a7ad">safeLocId</a> != <span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">  330</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  331</span> </div>
+<div class="line"><span class="lineno">  332</span>        <span class="comment">// skip enemy faction graveyard at same map (normal area, city, or battleground)</span></div>
+<div class="line"><span class="lineno">  333</span>        <span class="comment">// team == 0 case can be at call from .neargrave</span></div>
+<div class="line"><span class="lineno">  334</span>        <span class="keywordflow">if</span> (data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a287b04900d70f8ff8c6f6542edbd40a6">teamId</a> != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> &amp;&amp; teamId != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> &amp;&amp; data.<a class="code hl_variable" href="../../d0/db1/a09634.html#a287b04900d70f8ff8c6f6542edbd40a6">teamId</a> != teamId)</div>
+<div class="line"><span class="lineno">  335</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  336</span> </div>
+<div class="line"><span class="lineno">  337</span>        found = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  338</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  339</span>    }</div>
+<div class="line"><span class="lineno">  340</span> </div>
+<div class="line"><span class="lineno">  341</span>    <span class="comment">// no match, return</span></div>
+<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">if</span> (!found)</div>
+<div class="line"><span class="lineno">  343</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>    <span class="comment">// remove from links</span></div>
+<div class="line"><span class="lineno">  346</span>    <a class="code hl_variable" href="../../d0/df8/a09638.html#afe83a8248fa6617b868cadd0699af96e">GraveyardStore</a>.erase(range.first);</div>
+<div class="line"><span class="lineno">  347</span> </div>
+<div class="line"><span class="lineno">  348</span>    <span class="comment">// remove link from DB</span></div>
+<div class="line"><span class="lineno">  349</span>    <span class="keywordflow">if</span> (persist)</div>
+<div class="line"><span class="lineno">  350</span>    {</div>
+<div class="line"><span class="lineno">  351</span>        <a class="code hl_class" href="../../de/dd0/a05590.html">WorldDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ada181ea458dac8f152247d5107111708">WORLD_DEL_GRAVEYARD_ZONE</a>);</div>
+<div class="line"><span class="lineno">  352</span> </div>
+<div class="line"><span class="lineno">  353</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  354</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, zoneId);</div>
+<div class="line"><span class="lineno">  355</span>        <span class="comment">// Xinef: DB Data compatibility...</span></div>
+<div class="line"><span class="lineno">  356</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>(teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> ? 0 : (teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598a360acb47017e8e0d3522e08575f3d1b2">ALLIANCE</a> : <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a9c13bb5b1d69698f9b47900990eaa598ae00f67931133b08b7de375111e800b42">HORDE</a>)));</div>
+<div class="line"><span class="lineno">  357</span> </div>
+<div class="line"><span class="lineno">  358</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  359</span>    }</div>
+<div class="line"><span class="lineno">  360</span>}</div>
+<div class="ttc" id="aa03152_html_a6a551a1219fa9a26b5ed21656c2f9dd1"><div class="ttname"><a href="../../d0/d9f/a03152.html#a6a551a1219fa9a26b5ed21656c2f9dd1">GraveyardMapBoundsNonConst</a></div><div class="ttdeci">std::pair&lt; WGGraveyardContainer::iterator, WGGraveyardContainer::iterator &gt; GraveyardMapBoundsNonConst</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:47</div></div>
+<div class="ttc" id="aa04544_html_a736c0fca3c789518de967ddf4d44fc32ada181ea458dac8f152247d5107111708"><div class="ttname"><a href="../../d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ada181ea458dac8f152247d5107111708">WORLD_DEL_GRAVEYARD_ZONE</a></div><div class="ttdeci">@ WORLD_DEL_GRAVEYARD_ZONE</div><div class="ttdef"><b>Definition:</b> WorldDatabase.h:40</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00768">ALLIANCE</a>, <a class="el" href="../../#l00071">GraveyardStore</a>, <a class="el" href="../../#l00767">HORDE</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00039">GraveyardData::safeLocId</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>, <a class="el" href="../../#l00040">GraveyardData::teamId</a>, <a class="el" href="../../#l00040">WORLD_DEL_GRAVEYARD_ZONE</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae2a846630e79f3a15a5d93b18c68c915" name="ae2a846630e79f3a15a5d93b18c68c915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a846630e79f3a15a5d93b18c68c915">&#9670;&#160;</a></span>MaxRange</h2>
+<a id="a77fb8dad0ae4ea7af0823c0bcafba787" name="a77fb8dad0ae4ea7af0823c0bcafba787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77fb8dad0ae4ea7af0823c0bcafba787">&#9670;&#160;</a></span>_graveyardStore</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float ChaseRange::MaxRange</td>
+          <td class="memname"><a class="el" href="../../d0/df8/a09638.html#a21ce8ad954d37b385e339c5247f17ffd">GraveyardContainer</a> Graveyard::_graveyardStore</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00077">GetGraveyard()</a>, <a class="el" href="../../#l00061">GetGraveyardData()</a>, and <a class="el" href="../../#l00031">LoadGraveyardFromDB()</a>.</p>
 
 </div>
 </div>
-<a id="a7909b18028d43c84eca5feee3e41469c" name="a7909b18028d43c84eca5feee3e41469c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7909b18028d43c84eca5feee3e41469c">&#9670;&#160;</a></span>MaxTolerance</h2>
+<a id="afe83a8248fa6617b868cadd0699af96e" name="afe83a8248fa6617b868cadd0699af96e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe83a8248fa6617b868cadd0699af96e">&#9670;&#160;</a></span>GraveyardStore</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float ChaseRange::MaxTolerance</td>
+          <td class="memname"><a class="el" href="../../d0/d9f/a03152.html#a484cb47c00fe9b952853e3b04212437c">WGGraveyardContainer</a> Graveyard::GraveyardStore</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a0e2c69e20d6a38d056505c3b5b0d9fd6" name="a0e2c69e20d6a38d056505c3b5b0d9fd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e2c69e20d6a38d056505c3b5b0d9fd6">&#9670;&#160;</a></span>MinRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ChaseRange::MinRange</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7b640ecfc0e80921ab36c2c33f0b10fd" name="a7b640ecfc0e80921ab36c2c33f0b10fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b640ecfc0e80921ab36c2c33f0b10fd">&#9670;&#160;</a></span>MinTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ChaseRange::MinTolerance</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00285">AddGraveyardLink()</a>, <a class="el" href="../../#l00272">FindGraveyardData()</a>, <a class="el" href="../../#l00097">GetClosestGraveyard()</a>, <a class="el" href="../../#l00362">LoadGraveyardZones()</a>, and <a class="el" href="../../#l00313">RemoveGraveyardLink()</a>.</p>
 
 </div>
 </div>
@@ -292,8 +999,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/df8/a09638.html">ChaseRange</a></li>
-    <li class="footer">Generated on Mon Nov 11 2024 20:40:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d0/df8/a09638.html">Graveyard</a></li>
+    <li class="footer">Generated on Mon Nov 18 2024 20:41:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

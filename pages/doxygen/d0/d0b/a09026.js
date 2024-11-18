@@ -1,9 +1,8 @@
 var a09026 =
 [
-    [ "AnyFriendlyUnitInObjectRangeCheck", "d0/d0b/a09026.html#a4ed3a469f35cb7b64ad5f144281b7910", null ],
-    [ "operator()", "d0/d0b/a09026.html#a6e1026191fd4b1b45696a60f45b1b7b8", null ],
-    [ "i_funit", "d0/d0b/a09026.html#a9ebd1a1d9716dfda55509396947c1a83", null ],
-    [ "i_obj", "d0/d0b/a09026.html#adacade7450b0af19540ea705e1bd438b", null ],
-    [ "i_playerOnly", "d0/d0b/a09026.html#a6b0d852333ee74a20281ce7de5a45b98", null ],
-    [ "i_range", "d0/d0b/a09026.html#a2af638499152888a698b0fc1570e46ed", null ]
+    [ "AnyUnfriendlyUnitInObjectRangeCheck", "d0/d0b/a09026.html#a2d83b68a7991d3b3dc2355ecde1efa5d", null ],
+    [ "operator()", "d0/d0b/a09026.html#a5b02b45b937d6b2b0b141967c70f93d9", null ],
+    [ "i_funit", "d0/d0b/a09026.html#a55222acf6dbb538a213eb604f67f40ce", null ],
+    [ "i_obj", "d0/d0b/a09026.html#a5d7e5e8898bd092c1055739fae82f693", null ],
+    [ "i_range", "d0/d0b/a09026.html#aa1c728ceea2ddc2e88ea07132a3fe250", null ]
 ];

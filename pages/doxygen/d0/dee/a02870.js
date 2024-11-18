@@ -1,15 +1,12 @@
 var a02870 =
 [
-    [ "WaypointData", "d1/da1/a09818.html", "d1/da1/a09818" ],
-    [ "WaypointMgr", "d6/da0/a09822.html", "d6/da0/a09822" ],
-    [ "sWaypointMgr", "d0/dee/a02870.html#a8e3218ae672aeeb8c1d9dc23a3a1a627", null ],
-    [ "WaypointPath", "d0/dee/a02870.html#a3884c0cb3f926b9869757242cf112630", null ],
-    [ "WaypointPathContainer", "d0/dee/a02870.html#a4022be9e8c89b6ab197c2564c77b52c5", null ],
-    [ "WaypointMoveType", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863", [
-      [ "WAYPOINT_MOVE_TYPE_WALK", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff", null ],
-      [ "WAYPOINT_MOVE_TYPE_RUN", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55", null ],
-      [ "WAYPOINT_MOVE_TYPE_LAND", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa", null ],
-      [ "WAYPOINT_MOVE_TYPE_TAKEOFF", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843", null ],
-      [ "WAYPOINT_MOVE_TYPE_MAX", "d0/dee/a02870.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188", null ]
-    ] ]
+    [ "AggressorAI", "de/d73/a05970.html", "de/d73/a05970" ],
+    [ "CombatAI", "d2/d2f/a05974.html", "d2/d2f/a05974" ],
+    [ "CasterAI", "d6/d4d/a05978.html", "d6/d4d/a05978" ],
+    [ "ArcherAI", "d5/d61/a05982.html", "d5/d61/a05982" ],
+    [ "TurretAI", "db/d3a/a05986.html", "db/d3a/a05986" ],
+    [ "VehicleAI", "d9/d7a/a05990.html", "d9/d7a/a05990" ],
+    [ "VEHICLE_CONDITION_CHECK_TIME", "d0/dee/a02870.html#a2842973ff947088648cd327dc9e1d379", null ],
+    [ "VEHICLE_DISMISS_TIME", "d0/dee/a02870.html#a9b232fec810abbe5eaf5536e608b6e38", null ],
+    [ "SpellVct", "d0/dee/a02870.html#aef8ccdd14344d9c395d613c21bafd91e", null ]
 ];

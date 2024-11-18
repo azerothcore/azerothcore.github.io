@@ -1,7 +1,7 @@
 var a08162 =
 [
-    [ "ObjectDistanceOrderPred", "d4/d0a/a08162.html#adced3fdc6d99b7506361eb7700fa4cec", null ],
-    [ "operator()", "d4/d0a/a08162.html#aaa5023735568f6df28a177fbd9ed866e", null ],
-    [ "m_ascending", "d4/d0a/a08162.html#a313cd0450096e49716bfb52f8f238bfc", null ],
-    [ "m_refObj", "d4/d0a/a08162.html#aec421fd45a60545bf92b7236e0d0b360", null ]
+    [ "AddToGrid", "d4/d0a/a08162.html#a178e3cc30d983d739e1f3f98d9eefbf0", null ],
+    [ "IsInGrid", "d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5", null ],
+    [ "RemoveFromGrid", "d4/d0a/a08162.html#a29740a98fea7db66cdffd824940a2ec2", null ],
+    [ "_gridRef", "d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5", null ]
 ];

@@ -1,6 +1,7 @@
 var a12898 =
 [
-    [ "HandleActivateObject", "d4/d1e/a12898.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
-    [ "PrepareSpellScript", "d4/d1e/a12898.html#afc844250ea7ba48330edfda305fa856c", null ],
-    [ "Register", "d4/d1e/a12898.html#a6d77f6848397724e61c1db7a80de7139", null ]
+    [ "OnRemove", "d4/d1e/a12898.html#a55460c6393c165e3096c967c81136032", null ],
+    [ "PrepareAuraScript", "d4/d1e/a12898.html#afd4e4483f704169e6d213ced134d4c62", null ],
+    [ "Register", "d4/d1e/a12898.html#a8458f77fde6eaddc273b3fe5f4e49ae0", null ],
+    [ "Validate", "d4/d1e/a12898.html#af580258d287f5db6103b89d3085669bc", null ]
 ];

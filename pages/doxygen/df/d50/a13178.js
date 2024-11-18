@@ -1,6 +1,5 @@
 var a13178 =
 [
-    [ "npc_augustus_the_touched", "df/d50/a13178.html#abc84c884345f44cf780410569cdee10c", null ],
-    [ "OnGossipHello", "df/d50/a13178.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
-    [ "OnGossipSelect", "df/d50/a13178.html#a992da9b22693c1fac1148b4ba545b819", null ]
+    [ "at_twilight_grove", "df/d50/a13178.html#a2ef32dbac0a35aa7dc6ebbafe926125f", null ],
+    [ "OnTrigger", "df/d50/a13178.html#a8ee7239b8429df38a237926a7252322b", null ]
 ];

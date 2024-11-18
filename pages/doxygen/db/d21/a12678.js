@@ -1,6 +1,6 @@
 var a12678 =
 [
-    [ "HandleLeapBack", "db/d21/a12678.html#a0f0b30da1c094281375230a6cf411c5e", null ],
-    [ "PrepareSpellScript", "db/d21/a12678.html#a431fa0b4f479be912507e64fd906d516", null ],
-    [ "Register", "db/d21/a12678.html#ac3b7bcfe48c1fe807d2c4deab6be91a8", null ]
+    [ "HandleScriptEffect", "db/d21/a12678.html#af265f0bba7028f45763a7f9afea2d051", null ],
+    [ "PrepareSpellScript", "db/d21/a12678.html#a27518fd5482e65e0324100057e747d68", null ],
+    [ "Register", "db/d21/a12678.html#a07789d7d092eb1b6633200442466c52b", null ]
 ];

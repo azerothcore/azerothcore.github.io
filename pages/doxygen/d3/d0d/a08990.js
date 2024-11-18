@@ -1,9 +1,7 @@
 var a08990 =
 [
-    [ "NearestGameObjectTypeInObjectRangeCheck", "d3/d0d/a08990.html#a46cde63433cf803205006ad775fe73b5", null ],
-    [ "NearestGameObjectTypeInObjectRangeCheck", "d3/d0d/a08990.html#a4bf0dee77fb4979a02eebdc610995640", null ],
-    [ "operator()", "d3/d0d/a08990.html#ac41947606f4344e19edb13aa58f0a5a7", null ],
-    [ "i_obj", "d3/d0d/a08990.html#aca71a09421fdf412489f7f54cf4bc379", null ],
-    [ "i_range", "d3/d0d/a08990.html#a37f212d5cb1ef2b8d55e19b749861a17", null ],
-    [ "i_type", "d3/d0d/a08990.html#a68965425169b93053eadad91403855e0", null ]
+    [ "GameObjectFocusCheck", "d3/d0d/a08990.html#a06607ffa0ebf51c230f4584632a7444a", null ],
+    [ "operator()", "d3/d0d/a08990.html#af5c0b63b8bfe112c9a8a43d7e49e1f7b", null ],
+    [ "i_focusId", "d3/d0d/a08990.html#ace009546c2dcc6dac5de98b3c34152a5", null ],
+    [ "i_unit", "d3/d0d/a08990.html#a0afc07e086f5aa3301c2b46a0004213e", null ]
 ];

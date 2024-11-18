@@ -1,6 +1,5 @@
 var a12050 =
 [
-    [ "boss_garrAI", "df/db4/a12054.html", "df/db4/a12054" ],
-    [ "boss_garr", "d0/d69/a12050.html#ab489eb068430a6aaa83c93104dd54d65", null ],
-    [ "GetAI", "d0/d69/a12050.html#abc673a3db7fce0101a0b95d5efbdefa3", null ]
+    [ "at_orb_of_command", "d0/d69/a12050.html#a1f0b196362b76e050eba66d3ce612623", null ],
+    [ "OnTrigger", "d0/d69/a12050.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
 ];

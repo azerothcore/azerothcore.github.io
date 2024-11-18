@@ -1,6 +1,5 @@
 var a10074 =
 [
-    [ "OutdoorPvPScript", "de/df4/a10074.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "de/df4/a10074.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "de/df4/a10074.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "MailScript", "de/df4/a10074.html#a009eaf9dd8d44427e8e5c91a92ebb5c5", null ],
+    [ "OnBeforeMailDraftSendMailTo", "de/df4/a10074.html#ab4e3f0552ffc705ef44e8ca6c36f2be7", null ]
 ];

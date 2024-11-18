@@ -1,6 +1,7 @@
 var a14126 =
 [
-    [ "OnAuraRemove", "df/da3/a14126.html#ad16e8b64999771154360afad71454c07", null ],
-    [ "PrepareAuraScript", "df/da3/a14126.html#a70963be80861e10ecd093e40b77e7078", null ],
-    [ "Register", "df/da3/a14126.html#a7381cbea873fb57485e4539aa478d236", null ]
+    [ "GetVisualThrow", "df/da3/a14126.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
+    [ "HandleDummy", "df/da3/a14126.html#adca1aacf89dcf452f1c98cae97f09690", null ],
+    [ "PrepareSpellScript", "df/da3/a14126.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
+    [ "Register", "df/da3/a14126.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
 ];

@@ -1,6 +1,6 @@
 var a12614 =
 [
-    [ "HandleScriptEffect", "d4/dbf/a12614.html#a430d6f41e8533cbade64ea46aaa9ec2e", null ],
-    [ "PrepareSpellScript", "d4/dbf/a12614.html#ad110e0dba330acde845c47501256cf5d", null ],
-    [ "Register", "d4/dbf/a12614.html#ab6971aa466055a1280cd258e26645157", null ]
+    [ "npc_scarlet_miner_cartAI", "d3/d70/a12618.html", "d3/d70/a12618" ],
+    [ "npc_scarlet_miner_cart", "d4/dbf/a12614.html#a987247939c6fd576d4b8d541175ecb6b", null ],
+    [ "GetAI", "d4/dbf/a12614.html#a0f1436f0f6784af5ab62bf91df355731", null ]
 ];

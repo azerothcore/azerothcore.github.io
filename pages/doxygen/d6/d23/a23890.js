@@ -1,6 +1,5 @@
 var a23890 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "d9/dd6/a23894.html", "d9/dd6/a23894" ],
-    [ "npc_shadowmoon_tuber_node", "d6/d23/a23890.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "d6/d23/a23890.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "go_crystal_prison", "d6/d23/a23890.html#a0faca8b76f9650ee5cc7825b90463365", null ],
+    [ "OnQuestAccept", "d6/d23/a23890.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
 ];

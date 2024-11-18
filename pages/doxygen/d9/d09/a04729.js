@@ -1,13 +1,9 @@
 var a04729 =
 [
-    [ "LogoutCancel", "d3/d1f/a10192.html", "d3/d1f/a10192" ],
-    [ "LogoutCancelAck", "d0/d7e/a10196.html", "d0/d7e/a10196" ],
-    [ "LogoutComplete", "d4/de7/a10188.html", "d4/de7/a10188" ],
-    [ "LogoutRequest", "d2/d42/a10180.html", "d2/d42/a10180" ],
-    [ "LogoutResponse", "d9/da3/a10184.html", "d9/da3/a10184" ],
-    [ "PlayedTime", "dc/de2/a10208.html", "dc/de2/a10208" ],
-    [ "PlayedTimeClient", "d2/d77/a10204.html", "d2/d77/a10204" ],
-    [ "PlayerLogout", "d6/d42/a10200.html", "d6/d42/a10200" ],
-    [ "ShowingCloak", "db/d67/a10172.html", "db/d67/a10172" ],
-    [ "ShowingHelm", "d6/d23/a10176.html", "d6/d23/a10176" ]
+    [ "anonymous_namespace{DisableMgr.cpp}", "db/d62/a04730.html", "db/d62/a04730" ],
+    [ "CheckQuestDisables", "d9/d09/a04729.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
+    [ "IsDisabledFor", "d9/d09/a04729.html#a6673bbc719c96febfc86a4220a988ed0", null ],
+    [ "IsPathfindingEnabled", "d9/d09/a04729.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
+    [ "IsVMAPDisabledFor", "d9/d09/a04729.html#a38b182e1836b2197303b2809006f5148", null ],
+    [ "LoadDisables", "d9/d09/a04729.html#adb464165caf6cd436499fa84969eeaf8", null ]
 ];

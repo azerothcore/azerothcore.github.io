@@ -1,10 +1,10 @@
 var a09922 =
 [
-    [ "AchievementScript", "d9/d45/a09922.html#a85f0d7a676e7e31bc87ca64040b29489", null ],
-    [ "CanCheckCriteria", "d9/d45/a09922.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
-    [ "IsCompletedCriteria", "d9/d45/a09922.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
-    [ "IsDatabaseBound", "d9/d45/a09922.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
-    [ "IsRealmCompleted", "d9/d45/a09922.html#abc54c295c1bcad45e21aed99e43a3713", null ],
-    [ "OnBeforeCheckCriteria", "d9/d45/a09922.html#afac6fc03c2ba91165fbdf2ccc5422063", null ],
-    [ "SetRealmCompleted", "d9/d45/a09922.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
+    [ "Flags", "d9/d45/a09922.html#abf9c2701e766951e5a211bf6bf85b175", null ],
+    [ "ID", "d9/d45/a09922.html#a946b8f7244fd22c4afcb26373ee61a13", null ],
+    [ "needSave", "d9/d45/a09922.html#aae888b1bf10f654ee212f3d687c111e9", null ],
+    [ "needSend", "d9/d45/a09922.html#ab8692e4433db81f9d3e0f96f8f930a8f", null ],
+    [ "ReputationListID", "d9/d45/a09922.html#a052caeeae1ecdca831097591e0fddaf6", null ],
+    [ "roundedUp", "d9/d45/a09922.html#a287fe9e8ec5da58ae3f5096045eebf31", null ],
+    [ "Standing", "d9/d45/a09922.html#ae87da6cada559e11a9607e194013d671", null ]
 ];

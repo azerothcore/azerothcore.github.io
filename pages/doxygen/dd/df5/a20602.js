@@ -1,5 +1,6 @@
 var a20602 =
 [
-    [ "achievement_yogg_saron_drive_me_crazy", "dd/df5/a20602.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
-    [ "OnCheck", "dd/df5/a20602.html#a029fdd68e0643b53971efbb1056f19d8", null ]
+    [ "CheckCast", "dd/df5/a20602.html#a715a58956db4253c8adfed039833debd", null ],
+    [ "PrepareSpellScript", "dd/df5/a20602.html#a3b03178d8ab54db36a19ba5a27444917", null ],
+    [ "Register", "dd/df5/a20602.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
 ];

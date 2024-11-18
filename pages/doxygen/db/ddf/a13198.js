@@ -1,9 +1,6 @@
 var a13198 =
 [
-    [ "npc_partygoer", "db/ddf/a13198.html#af053caedfd1fa8173b875f521d279418", null ],
-    [ "Initialize", "db/ddf/a13198.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
-    [ "Reset", "db/ddf/a13198.html#ad1936099ec5696a2a593e5041b0360c6", null ],
-    [ "UpdateAI", "db/ddf/a13198.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
-    [ "_events", "db/ddf/a13198.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
-    [ "_facing", "db/ddf/a13198.html#a9e934091894987ec091b03090bf733e5", null ]
+    [ "npc_augustus_the_touched", "db/ddf/a13198.html#abc84c884345f44cf780410569cdee10c", null ],
+    [ "OnGossipHello", "db/ddf/a13198.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
+    [ "OnGossipSelect", "db/ddf/a13198.html#a992da9b22693c1fac1148b4ba545b819", null ]
 ];

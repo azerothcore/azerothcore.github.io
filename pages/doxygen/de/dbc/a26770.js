@@ -1,6 +1,7 @@
 var a26770 =
 [
-    [ "boss_taerarAI", "df/d90/a26774.html", "df/d90/a26774" ],
-    [ "boss_taerar", "de/dbc/a26770.html#a100c1b80a50faf93088db870faa21b58", null ],
-    [ "GetAI", "de/dbc/a26770.html#ae6615da6ee14c4f7cb3087b4ee5d6246", null ]
+    [ "npc_spirit_shadeAI", "de/dbc/a26770.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
+    [ "IsSummonedBy", "de/dbc/a26770.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
+    [ "MovementInform", "de/dbc/a26770.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
+    [ "_summonerGuid", "de/dbc/a26770.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
 ];

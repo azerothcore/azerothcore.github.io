@@ -1,9 +1,8 @@
 var a08950 =
 [
-    [ "PlayerLastSearcher", "de/d45/a08950.html#a0a4c736bbde38ccb0a0a8ceafdb751c7", null ],
-    [ "Visit", "de/d45/a08950.html#a25785fbe4cb8ac9a8753705b9df3b507", null ],
-    [ "Visit", "de/d45/a08950.html#a19e60fc9fc43ad3a718132a2884e41b0", null ],
-    [ "i_check", "de/d45/a08950.html#a93f5e1dd1f680cc9467671b59d2c5a12", null ],
-    [ "i_object", "de/d45/a08950.html#a2d9af6a6ef1105b19c49852fce17b8e6", null ],
-    [ "i_phaseMask", "de/d45/a08950.html#ad5bfaa4154c99e34515da98db7dccadf", null ]
+    [ "CreatureWorker", "de/d45/a08950.html#a4b4dc219d034565cd83748c5f1cab2a5", null ],
+    [ "Visit", "de/d45/a08950.html#ae67044250380c521055f80c55de0bba5", null ],
+    [ "Visit", "de/d45/a08950.html#aa9a450b147aafe46a49135f5c5be668e", null ],
+    [ "i_do", "de/d45/a08950.html#ac22f86d9a41701e7527d4840da256f11", null ],
+    [ "i_phaseMask", "de/d45/a08950.html#adf514c89c894cdf2b44fc75d14c4f5b0", null ]
 ];

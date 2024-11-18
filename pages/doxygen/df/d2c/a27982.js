@@ -1,10 +1,8 @@
 var a27982 =
 [
-    [ "ID", "df/d2c/a27982.html#a090069d13cbbcc5762ecca600c506492", null ],
-    [ "map_id", "df/d2c/a27982.html#a685931e2a361f9e0fc81c004c7467d19", null ],
-    [ "MountCreatureID", "df/d2c/a27982.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
-    [ "name", "df/d2c/a27982.html#ae00db3ea736c3a470f6f0690c178e758", null ],
-    [ "x", "df/d2c/a27982.html#a7cbd40848094fa367862d653b0f7170d", null ],
-    [ "y", "df/d2c/a27982.html#a9380befd45cab3104003b2487464bd71", null ],
-    [ "z", "df/d2c/a27982.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
+    [ "Color", "df/d2c/a27982.html#a670fb4e2a31958f81d46047f74d9916f", null ],
+    [ "Comparator", "df/d2c/a27982.html#ace0bdad11edd9db12e45d374da623793", null ],
+    [ "CompareColor", "df/d2c/a27982.html#a801e2221bbb1b6aab67a57381901cf08", null ],
+    [ "ID", "df/d2c/a27982.html#aae73769db40326d298bb1d04eef38871", null ],
+    [ "Value", "df/d2c/a27982.html#ac314a9a6b447d386e31a286811f66538", null ]
 ];

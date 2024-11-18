@@ -1,6 +1,7 @@
 var a15746 =
 [
-    [ "HandlePeriodic", "dd/da8/a15746.html#a7753587518171689f86f3f76269c1b8a", null ],
-    [ "PrepareAuraScript", "dd/da8/a15746.html#aa73351e7200bee94b0068fb8dabfada5", null ],
-    [ "Register", "dd/da8/a15746.html#ab126fe8d4387609e8834898c3b3a67ea", null ]
+    [ "OnApply", "dd/da8/a15746.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
+    [ "OnRemove", "dd/da8/a15746.html#a781994b0be4588f4df29399fc900ec69", null ],
+    [ "PrepareAuraScript", "dd/da8/a15746.html#aee648b80e7352edffb20fd60697e1d88", null ],
+    [ "Register", "dd/da8/a15746.html#a53c56711e31500f827123c08f44072cb", null ]
 ];

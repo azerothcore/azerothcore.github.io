@@ -1,11 +1,6 @@
 var a17550 =
 [
-    [ "npc_little_oozeAI", "dd/d0a/a17550.html#a6fb3ac6e3f2c39b96ee4fe265e4940dd", null ],
-    [ "EnterEvadeMode", "dd/d0a/a17550.html#a0bd4bfcc8c373a449f297011289e5530", null ],
-    [ "IsSummonedBy", "dd/d0a/a17550.html#afb9763ade36bd742398a8bca961c136b", null ],
-    [ "JustDied", "dd/d0a/a17550.html#a37e5898e3dc1704be9fba2178567fd2a", null ],
-    [ "UpdateAI", "dd/d0a/a17550.html#a6ee56789d528c2b6dcb04abaff6806cb", null ],
-    [ "events", "dd/d0a/a17550.html#aa0d2113458887b73fe2af36f9d3ab0f1", null ],
-    [ "firstUpdate", "dd/d0a/a17550.html#aa3aca24bc97bcd9a2030fccf6782cf9c", null ],
-    [ "instance", "dd/d0a/a17550.html#a8a4ec828f144f071c0c6f2bf48b69cc0", null ]
+    [ "boss_rotfaceAI", "d2/d4b/a17554.html", "d2/d4b/a17554" ],
+    [ "boss_rotface", "dd/d0a/a17550.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
+    [ "GetAI", "dd/d0a/a17550.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
 ];

@@ -1,6 +1,6 @@
 var a14362 =
 [
-    [ "npc_cos_stratholme_citizienAI", "d6/d05/a14366.html", "d6/d05/a14366" ],
-    [ "npc_cos_stratholme_citizien", "dd/db5/a14362.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
-    [ "GetAI", "dd/db5/a14362.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
+    [ "npc_crate_helperAI", "dd/db5/a14362.html#ad58a2f3746da7862658fb3b9e1580836", null ],
+    [ "SpellHit", "dd/db5/a14362.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
+    [ "_marked", "dd/db5/a14362.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
 ];

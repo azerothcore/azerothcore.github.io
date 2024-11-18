@@ -1,8 +1,8 @@
 var a18142 =
 [
-    [ "FilterTargets", "dd/de1/a18142.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
-    [ "HandleForceCast", "dd/de1/a18142.html#ae783cf255be823bf7c9125f288479e97", null ],
-    [ "Load", "dd/de1/a18142.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
-    [ "PrepareSpellScript", "dd/de1/a18142.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
-    [ "Register", "dd/de1/a18142.html#a454a8909be4bb85f255ea696041ea447", null ]
+    [ "Load", "dd/de1/a18142.html#a3a5fa4814a7724db0ba7be5c5158798b", null ],
+    [ "PeriodicTick", "dd/de1/a18142.html#a4ff0ab22db0bbd4483ddb379de069c48", null ],
+    [ "PrepareAuraScript", "dd/de1/a18142.html#a029820fbfc34af4d0ccb825a9f9d2b0d", null ],
+    [ "Register", "dd/de1/a18142.html#a909819dde9d5154f3d2cf04b04fa33f7", null ],
+    [ "_instance", "dd/de1/a18142.html#aebebb858f2ae41f2260d6843b3da8052", null ]
 ];

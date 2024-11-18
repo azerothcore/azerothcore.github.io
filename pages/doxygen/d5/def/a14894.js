@@ -1,11 +1,7 @@
 var a14894 =
 [
-    [ "npc_depth_chargeAI", "d5/def/a14894.html#a088848c16418964973107e125c20f508", null ],
-    [ "AttackStart", "d5/def/a14894.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
-    [ "JustEngagedWith", "d5/def/a14894.html#a90cc6eab8b63588f2567f59941eafc59", null ],
-    [ "MoveInLineOfSight", "d5/def/a14894.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
-    [ "Reset", "d5/def/a14894.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
-    [ "UpdateAI", "d5/def/a14894.html#af34e55c3aee40f840edf695adc06495e", null ],
-    [ "WeMustDie", "d5/def/a14894.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
-    [ "WeMustDieTimer", "d5/def/a14894.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
+    [ "npc_rizzle_sprysprocketAI", "dd/d26/a14898.html", "dd/d26/a14898" ],
+    [ "npc_rizzle_sprysprocket", "d5/def/a14894.html#a3bd65f716b42200cc37d2264ddedf735", null ],
+    [ "GetAI", "d5/def/a14894.html#ae445545476b4046db305117fa635e7f5", null ],
+    [ "OnGossipHello", "d5/def/a14894.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
 ];

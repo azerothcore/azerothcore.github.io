@@ -1,18 +1,11 @@
 var a10730 =
 [
-    [ "PacketThrottlingMap", "db/d77/a10730.html#aa41dd21032403490c49a400651c98855", null ],
-    [ "Policy", "db/d77/a10730.html#abdee2870dbaa3341ecd6f682f87a63aa", [
-      [ "POLICY_LOG", "db/d77/a10730.html#abdee2870dbaa3341ecd6f682f87a63aaaefd19afe4205198f20dd897afd24996e", null ],
-      [ "POLICY_KICK", "db/d77/a10730.html#abdee2870dbaa3341ecd6f682f87a63aaa46c5cdf37fe50456fb3e0e70cfeeab69", null ],
-      [ "POLICY_BAN", "db/d77/a10730.html#abdee2870dbaa3341ecd6f682f87a63aaab6a123819ec45a697fa1e8a986603aef", null ]
-    ] ],
-    [ "DosProtection", "db/d77/a10730.html#a8e43f21b9c729db604c9afd90f68dc20", null ],
-    [ "DosProtection", "db/d77/a10730.html#a8850d18ae254633f6bde5c85cbcef830", null ],
-    [ "EvaluateOpcode", "db/d77/a10730.html#a43840320a5f11f297497e7622b2c9338", null ],
-    [ "GetMaxPacketCounterAllowed", "db/d77/a10730.html#a586300e9ac27181b15a7e2b11ae31e5f", null ],
-    [ "operator=", "db/d77/a10730.html#a98394089b867ff6e8107b7975a67737d", null ],
-    [ "World", "db/d77/a10730.html#a7b4bcdf992c21ae83363f25df05b1d25", null ],
-    [ "_PacketThrottlingMap", "db/d77/a10730.html#ab74f0cf257d3db9076e3a8771de63eb3", null ],
-    [ "_policy", "db/d77/a10730.html#a2ea3ba91a8fac42f269542fd369a5da6", null ],
-    [ "Session", "db/d77/a10730.html#a3f3f5397fb30cdf14141480659b18208", null ]
+    [ "Player", "db/d77/a10730.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
+    [ "WorldSession", "db/d77/a10730.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
+    [ "Face", "db/d77/a10730.html#a6334464eea38be514f3faa7538b39a5a", null ],
+    [ "FacialHair", "db/d77/a10730.html#a44643270b211d275eb94283842791407", null ],
+    [ "Gender", "db/d77/a10730.html#a14321ea3595debe2836eceab8a82f944", null ],
+    [ "HairColor", "db/d77/a10730.html#aeaa7ce4ecea7f42def63049424a2dd6b", null ],
+    [ "HairStyle", "db/d77/a10730.html#ade5b2dff213547ab4d707070f8979085", null ],
+    [ "Skin", "db/d77/a10730.html#a2876110e687e7248e8c64fcb3a3a80db", null ]
 ];

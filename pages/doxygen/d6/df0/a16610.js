@@ -1,7 +1,6 @@
 var a16610 =
 [
-    [ "HandlePeriodicTick", "d6/df0/a16610.html#a61417176afec531ca2bf6e80eb72ac6a", null ],
-    [ "PrepareAuraScript", "d6/df0/a16610.html#ad5f954d5050bded2e6a5877cb9f81df5", null ],
-    [ "Register", "d6/df0/a16610.html#a4653ccb0d93d056adf3b14056865787c", null ],
-    [ "Validate", "d6/df0/a16610.html#a675b447cf1cf0e7d92c777ae31888a8c", null ]
+    [ "boss_krickAI", "d1/d36/a16614.html", "d1/d36/a16614" ],
+    [ "boss_krick", "d6/df0/a16610.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
+    [ "GetAI", "d6/df0/a16610.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
 ];

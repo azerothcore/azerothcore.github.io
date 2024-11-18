@@ -1,9 +1,7 @@
 var a11566 =
 [
-    [ "npc_burning_spiritAI", "d5/da0/a11566.html#a52f63423d09794446b0c01da2feb325d", null ],
-    [ "EnterEvadeMode", "d5/da0/a11566.html#a567a7a023bb83a1228bb458ea16ee2fc", null ],
-    [ "IsSummonedBy", "d5/da0/a11566.html#a65ee7b6dd6d4394cc04a6260fc75827e", null ],
-    [ "MovementInform", "d5/da0/a11566.html#a0a02ece5a3ff1eefa30fd27a9cc84d10", null ],
-    [ "_events", "d5/da0/a11566.html#a9af0f46710741bba3d8401d1a1fb0556", null ],
-    [ "_flamelasherGUID", "d5/da0/a11566.html#abfc34e3e45d1e74b328a91f6f8981191", null ]
+    [ "npc_rocknotAI", "db/d6c/a11570.html", "db/d6c/a11570" ],
+    [ "npc_rocknot", "d5/da0/a11566.html#a64a0cd215c1f4881948e5a49cf1b86d7", null ],
+    [ "GetAI", "d5/da0/a11566.html#ac8a90d54e9303c40f0313fda1dcfea86", null ],
+    [ "OnQuestReward", "d5/da0/a11566.html#abd8ad3d7e6dd1e557398e268409a2c98", null ]
 ];

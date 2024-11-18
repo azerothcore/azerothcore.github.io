@@ -1,9 +1,9 @@
 var dir_2cf920b86eaa90086c9e49d169beb484 =
 [
-    [ "boss_forgemaster_garfrost.cpp", "dc/d8e/a01331.html", "dc/d8e/a01331" ],
-    [ "boss_krickandick.cpp", "d7/d51/a01340.html", "d7/d51/a01340" ],
-    [ "boss_scourgelord_tyrannus.cpp", "d4/dd1/a01334.html", "d4/dd1/a01334" ],
-    [ "instance_pit_of_saron.cpp", "d9/de4/a01346.html", "d9/de4/a01346" ],
-    [ "pit_of_saron.cpp", "d3/da4/a01343.html", "d3/da4/a01343" ],
-    [ "pit_of_saron.h", "db/dec/a01337.html", "db/dec/a01337" ]
+    [ "boss_forgemaster_garfrost.cpp", "dc/dd2/a01604.html", "dc/dd2/a01604" ],
+    [ "boss_krickandick.cpp", "d3/da1/a01613.html", "d3/da1/a01613" ],
+    [ "boss_scourgelord_tyrannus.cpp", "d6/d82/a01607.html", "d6/d82/a01607" ],
+    [ "instance_pit_of_saron.cpp", "d3/deb/a01619.html", "d3/deb/a01619" ],
+    [ "pit_of_saron.cpp", "db/dad/a01616.html", "db/dad/a01616" ],
+    [ "pit_of_saron.h", "d9/dfd/a01610.html", "d9/dfd/a01610" ]
 ];

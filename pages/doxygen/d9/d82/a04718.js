@@ -1,8 +1,13 @@
 var a04718 =
 [
-    [ "DisableData", "db/d7b/a07638.html", "db/d7b/a07638" ],
-    [ "DisableMap", "d9/d82/a04718.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
-    [ "DisableTypeMap", "d9/d82/a04718.html#a1dc7ac8fd11c81da83700d364483165a", null ],
-    [ "m_DisableMap", "d9/d82/a04718.html#a15af74f7cffff305a48d31529df515e7", null ],
-    [ "MAX_DISABLE_TYPES", "d9/d82/a04718.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
+    [ "anonymous_namespace{AddonMgr.cpp}", "d5/d64/a04719.html", [
+      [ "SavedAddonsList", "d5/d64/a04719.html#afa468163a23ed58507a89e5724c06eac", null ],
+      [ "m_bannedAddons", "d5/d64/a04719.html#a83195dfb437a3f713fa0ccd6c24477ed", null ],
+      [ "m_knownAddons", "d5/d64/a04719.html#a6cd3e278f71724491a7a3b8167eab60e", null ]
+    ] ],
+    [ "BannedAddonList", "d9/d82/a04718.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
+    [ "GetAddonInfo", "d9/d82/a04718.html#a65cb6a88902972060e44c57d7d9ec738", null ],
+    [ "GetBannedAddons", "d9/d82/a04718.html#ad7d0938e7463238a86e8c811e1a58800", null ],
+    [ "LoadFromDB", "d9/d82/a04718.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
+    [ "SaveAddon", "d9/d82/a04718.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
 ];

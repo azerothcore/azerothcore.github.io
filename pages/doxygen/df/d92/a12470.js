@@ -1,17 +1,15 @@
 var a12470 =
 [
-    [ "boss_priestess_delrissa", "df/d92/a12470.html#afcbf1aa400ec44b709fd194daab91d3d", null ],
-    [ "InitializeAI", "df/d92/a12470.html#ae5105868d704b6ca91b27dcfbeaef3a9", null ],
-    [ "JustDied", "df/d92/a12470.html#a82d8c198f38c2aa881386e739dea6a08", null ],
-    [ "JustEngagedWith", "df/d92/a12470.html#a40c9852f9a1ea24b61edf0f7c00193a6", null ],
-    [ "JustSummoned", "df/d92/a12470.html#ac0a2c4346c6222380d7bda9a274f78e0", null ],
-    [ "KilledUnit", "df/d92/a12470.html#af0b41306f53c42745cce39069f446704", null ],
-    [ "Reset", "df/d92/a12470.html#a60e39157aa3043284b2e1e032c0d9241", null ],
-    [ "SummonedCreatureDies", "df/d92/a12470.html#a14757692ab4af5c1b5b311f059be9091", null ],
-    [ "UpdateAI", "df/d92/a12470.html#afadd9dba2aca991dd1ea98c844a1f897", null ],
-    [ "events", "df/d92/a12470.html#aead3c32ea08638f71d0ac5934b2217aa", null ],
-    [ "HelpersKilled", "df/d92/a12470.html#a26764cdd42721c9276ccecaa97fc9a6e", null ],
-    [ "instance", "df/d92/a12470.html#a20074ec62d77cfc5bae6c09087d3901e", null ],
-    [ "PlayersKilled", "df/d92/a12470.html#a9bde16a69ed9e950ce0dfb91805280cc", null ],
-    [ "summons", "df/d92/a12470.html#ae785fb9e5549271e8b68133105b79407", null ]
+    [ "npc_image_of_medivhAI", "df/d92/a12470.html#a1afe3245dc18db3c0bf6801b5ca20d31", null ],
+    [ "JustEngagedWith", "df/d92/a12470.html#a1013be426b3567d8cbd1c45debc914c5", null ],
+    [ "NextStep", "df/d92/a12470.html#a87160b37ba61af4866fe3f410813fe9f", null ],
+    [ "Reset", "df/d92/a12470.html#af2e7dd7f1038bb5662fe7375a7e052c4", null ],
+    [ "UpdateAI", "df/d92/a12470.html#a321d689d645b4630e2e93e6251d5130c", null ],
+    [ "ArcanagosGUID", "df/d92/a12470.html#a877c693b6ac736aa874926d8efe0d79a", null ],
+    [ "ATimer", "df/d92/a12470.html#a28aef0767b6adb0ccf0479dd50dc11a8", null ],
+    [ "EventStarted", "df/d92/a12470.html#a9a662b435218a3e13ca58eb4a6b3af86", null ],
+    [ "instance", "df/d92/a12470.html#a2e02aa8d441426aa51f46121eec0becb", null ],
+    [ "MTimer", "df/d92/a12470.html#a16c3f6d5bd1cc288590bd096233e0bfb", null ],
+    [ "Step", "df/d92/a12470.html#a9d7b9bdcf9e185284dba5251a0deb0b3", null ],
+    [ "YellTimer", "df/d92/a12470.html#a34ad7cabe4cb86e23deb30ca0ce77db0", null ]
 ];

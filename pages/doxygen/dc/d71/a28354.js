@@ -1,8 +1,25 @@
 var a28354 =
 [
-    [ "Color", "dc/d71/a28354.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
-    [ "NameIndex", "dc/d71/a28354.html#add893e045d13a3633fd7346457a10477", null ],
-    [ "Position", "dc/d71/a28354.html#afae9056582e71160c151de2c172bc60a", null ],
-    [ "Rotation", "dc/d71/a28354.html#a48d372bc1371fa5f94db9aa39669942a", null ],
-    [ "Scale", "dc/d71/a28354.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
+    [ "Vec3D", "dc/d71/a28354.html#a66e77d25ca67f7a5418bc7b252bf4f9c", null ],
+    [ "Vec3D", "dc/d71/a28354.html#aa5aa758ed25117a81f53e19d8c80e427", null ],
+    [ "length", "dc/d71/a28354.html#aa99cf98be42720cb2e6eda8321d0585d", null ],
+    [ "lengthSquared", "dc/d71/a28354.html#a87ac62b18bdb6534dde07295ad3d7418", null ],
+    [ "normalize", "dc/d71/a28354.html#aad796e1a7950cf29bcf0664ab4529bdd", null ],
+    [ "operator float *", "dc/d71/a28354.html#ae7f0a885985683c338dcf10cdc675849", null ],
+    [ "operator%", "dc/d71/a28354.html#a6c06ca74a17414a8afad8889bc49e5e7", null ],
+    [ "operator*", "dc/d71/a28354.html#aa69f6d867a748bd543ec423a57378a21", null ],
+    [ "operator*", "dc/d71/a28354.html#a4d33d483ce46a408a9d0c45ddb075eb4", null ],
+    [ "operator*=", "dc/d71/a28354.html#aa59022e80683193bae192972da755884", null ],
+    [ "operator+", "dc/d71/a28354.html#a4908c6bd44a6a7856eada7b56425b1cc", null ],
+    [ "operator+=", "dc/d71/a28354.html#a15627b72a8533dba20622314d9c2d02e", null ],
+    [ "operator-", "dc/d71/a28354.html#a7022d6629a4d968fe6efdc29b54b16aa", null ],
+    [ "operator-=", "dc/d71/a28354.html#ac4cd3cead349c30f5bdaeecfaff4fdaa", null ],
+    [ "operator=", "dc/d71/a28354.html#ab7e2806da7e3bdfda666b5e4906f08c3", null ],
+    [ "operator~", "dc/d71/a28354.html#ab58f61de30ae8941782f902eb54dca29", null ],
+    [ "operator*", "dc/d71/a28354.html#ae30695a767fd2a31300bd1b858fda811", null ],
+    [ "operator<<", "dc/d71/a28354.html#ae0085c2ad66a850cb8270bbdd52d680e", null ],
+    [ "operator>>", "dc/d71/a28354.html#a9aa8110efc91a62f0719d9476b3cd7cf", null ],
+    [ "x", "dc/d71/a28354.html#a0f061b9d5ea2a680f64bed8b5be9116d", null ],
+    [ "y", "dc/d71/a28354.html#a3441f0095b7f2b5dc424f7b045f92f2c", null ],
+    [ "z", "dc/d71/a28354.html#a5a619f14529e714231bff4cc6fd36614", null ]
 ];

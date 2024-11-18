@@ -1,8 +1,10 @@
 var a17218 =
 [
-    [ "HandlePeriodic", "dd/d47/a17218.html#a5ff571c616b69bb50c736622feb9ed96", null ],
-    [ "HandleRemove", "dd/d47/a17218.html#a624887bb5e6d8b72d6c0591661d6ba38", null ],
-    [ "PrepareAuraScript", "dd/d47/a17218.html#a1b140274e283dd95e28fcb773e30f965", null ],
-    [ "Register", "dd/d47/a17218.html#abcce83ef6ecbe539a3d8eaef83fb2d33", null ],
-    [ "Validate", "dd/d47/a17218.html#a94c644e730c51c8edb6a74d68d6228a8", null ]
+    [ "npc_gunship_gunnerAI", "dd/d47/a17218.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
+    [ "AttackStart", "dd/d47/a17218.html#ac21b90c1892c15882794384517ef9fd2", null ],
+    [ "CanAIAttack", "dd/d47/a17218.html#aef351305ef34fa316809697125a3bc9a", null ],
+    [ "MovementInform", "dd/d47/a17218.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
+    [ "UpdateAI", "dd/d47/a17218.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
+    [ "anyValid", "dd/d47/a17218.html#a00c7dc23618c60826241133a0067c1c4", null ],
+    [ "checkTimer", "dd/d47/a17218.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
 ];
